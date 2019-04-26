@@ -10,7 +10,7 @@ return {
 			say = "五航战的那孩子已经朝着雕刻室直奔而去了呢，真是麻烦的家伙",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {
@@ -31,7 +31,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 0,
 			actorName = "？？？",
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			nameColor = "#ff0000",
 			withoutPainting = true,
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "派那孩子出击吧，只需要拖延时间即可",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			actorName = "？？？",
 			withoutPainting = true,
 			shake = {

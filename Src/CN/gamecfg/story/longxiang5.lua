@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "果、果然还是很后悔……让主公看到那副粗鲁的样子，真是武士之耻…！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "呜…！这件事竟然会让吾如此烦恼……！",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "这样下去的话，别说秘书舰了，就连军人的本职工作可能都没法照常进行了呢……",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "唉，{namecode:6}推荐的“游戏机”都没来得及玩…！",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "这么一想，最近总是不在状态啊…",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "灰色幽灵！你总算来了！身为前一航战的一员，这个仇非报不可！",
 			flashout = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "好痛！……判定中弹！？怎么会这样！",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "光辉，虽说确实是我提出想要挑件和主公外出购物时穿的可爱衣服的……",
 			flashout = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "就、就算这样也不用给我这么轻飘飘的衣服吧……！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			say = "吾到底是怎么了啊……",

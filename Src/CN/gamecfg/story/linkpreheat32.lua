@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "story-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……那个，露露缇耶，差不多也该放弃了吧？",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_school",
 			say = "不行，还不能放弃……这图书馆那么大，肯定会有的！",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "但是这里的都是正经的书，那种书应该没有吧……？",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "肯定会有的！我的直觉这么告诉我！",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "啊，指挥官你来的正好……能帮我阻止露露缇耶吗？",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "指、指挥官？那个，这个怎么说好呢…我正在找书……",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "诶，您……要帮忙？那、那……请帮我找找描绘男人之间火热的友情的书……",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "露露缇耶，等一下。虽然不能说你描述的不准确，但是有哪里不对吧",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "不是那种的…那个…怎么说呢，我想找的是精致的插图比较多的绘图本！而且大概不是很适合指挥官这样的…普通人吧…",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "长岛大人！？没错！就是这个！？",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "呜哇！怎么了怎么了？发生了什么！？",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "这就是……这个世界的……小薄本！啊，美好得让人感动……而且绘图全都如此精美……这也太棒了吧！",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "“腐”…的世界呢…",
 			typewriter = {

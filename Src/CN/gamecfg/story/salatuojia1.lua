@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "当场逮捕喵！偷拍也就算了，还盗用{namecode:98}的复印机，这是大罪喵！",
 			flashout = {
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "没错喵！所以复印件就由我{namecode:98}全部没收了喵！原件交给指挥官处理喵！",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101051,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "诶诶……（倒地）",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

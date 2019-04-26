@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "而且，这里有点黑，感觉会有什么呜呜……",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "幽灵小姐——！快……嗯？那是什么？棺材？",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "呜哇啊！？棺、棺材？！",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "总之先打开来看看吧！我开！",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "等——",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "哇、吓你一跳。",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "呀啊啊啊啊啊！！！",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "哦哦！突然出现了一个人呢！",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "还以为是僵尸什么的，吓死我了…",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "…为什么恐怖你会在仓库的棺材里？",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "恐怖不能说，恐怖答应了要保密…",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "啊！快看那边！",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "呜、幽，幽灵小姐现身了！！",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "是谁？！",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "等下…请带上这个。这个是“魔女的扫把”。",
 			typewriter = {
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "刚好一人一把吗…总之得先追上那个幽灵！",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "可别以为自己能从兔兔手上逃走！贝利，追击!",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "贝利，跑太快了啦…!",
 			typewriter = {

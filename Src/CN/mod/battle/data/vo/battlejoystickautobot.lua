@@ -3,6 +3,7 @@ ys.Battle.BattleJoyStickAutoBot = class("BattleJoyStickAutoBot")
 ys.Battle.BattleJoyStickAutoBot.__name = "BattleJoyStickAutoBot"
 ys.Battle.BattleJoyStickAutoBot.COUNTER_MAIN = "CounterMainRandomStrategy"
 ys.Battle.BattleJoyStickAutoBot.RANDOM = "RandomStrategy"
+ys.Battle.BattleJoyStickAutoBot.AUTO_PILOT = "AutoPilotStrategy"
 
 function ys.Battle.BattleJoyStickAutoBot.Ctor(slot0, slot1, slot2)
 	slot0._dataProxy = slot1
@@ -14,6 +15,12 @@ end
 function ys.Battle.BattleJoyStickAutoBot.UpdateFleetArea(slot0)
 	if slot0._strategy then
 		slot0._strategy:SetBoardBound(slot0._fleetVO:GetFleetBound())
+	end
+end
+
+function ys.Battle.BattleJoyStickAutoBot.FleetFormationUpdate(slot0)
+	if slot0._strategy:GetStrategyType() == slot0.AUTO_PILOT then
+		slot0:SwitchStrategy(slot0.AUTO_PILOT)
 	end
 end
 

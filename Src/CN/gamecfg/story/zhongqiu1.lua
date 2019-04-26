@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -40,7 +40,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			say = "终于到逸仙姐秘藏的桂花酒启封的这一天了！呜哇……这香气真令人迷醉~",
 			flashout = {
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -306,7 +306,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -370,7 +370,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -445,7 +445,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -475,7 +475,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -505,7 +505,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "久等了，今天的第一道甜品是松饼。",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嗯~嗯……（微笑）",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 904011,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "这是今天我做的最后一道甜品咯，呵呵，大家尽情享用吧！",
 			flashout = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101291,
+			actor = 101290,
 			nameColor = "#a9f548",
 			say = "哦哦——！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指挥官，我给你准备了个东西~稍等我一会哦♪",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "康克德特制马卡龙来啦~嘻嘻，从敦刻尔克小姐那边得到了不少帮助就是~",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指挥官，作为康克德的试吃专员，快来第一个尝尝吧~♪",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "这次不会让你失望的～",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "好吃？唔？很有我的风格？真的？嘻嘻，谢谢夸奖～",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "果然甜食还是要像这样满满～的糖分才对嘛～",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嘻嘻～既然指挥官都这么说了，那就～再多吃几个吧～",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "啊～～嗯～～",
 			typewriter = {

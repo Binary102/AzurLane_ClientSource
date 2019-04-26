@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "这是接下来要处理的文件……哇！又掉了…我马上捡起来…嗯？",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "啊！殿下，这份文件早上{namecode:79}已经帮你盖过章了呀？唔，殿下最近记性真差……",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "不能太勉强自己哦？{namecode:78}姐姐也很担心…",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "呼…今天的工作总算完成了！殿下，今天{namecode:79}也很努力了哟！",
 			flashout = {
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "嘿嘿～殿下真的很温柔呢～",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "对了殿下，你看你看！这个东西可方便呢！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "科学的力量真是太厉害了！{namecode:17}说过，几十年前连电视都没有，自从塞壬打过来以后技术就发展得飞快了！",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "快过头了……？嗯……虽然不是很懂……反正用这个东西可以做很多事情！",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "比如说想知道明天天气的话……嗯，按一下这个记录键……好啦！就不用记备忘录了！",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "明天放假，上次我们说好的要打扫神社！殿下，明天就麻烦你了！",
 			typewriter = {

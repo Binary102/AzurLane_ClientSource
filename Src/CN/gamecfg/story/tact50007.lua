@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "阿斯托利亚姐姐！",
 			side = 2,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			say = "没事，我还坚持得住！",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "姐姐……呜……",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "没事的，文森斯。",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "呼，在这么艰难的战斗里有两个妹妹在身边真是太好了呢，不然姐姐我也要忍不住哭鼻子了。",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "阿斯托利亚姐姐……说的没错了。",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "嗯……没有姐姐们在，我也早就哭了。",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "啊哈哈，那么，让我们准备最后的反击吧！",

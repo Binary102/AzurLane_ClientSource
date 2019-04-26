@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "放假和指挥官出门逛街……呵呵，呵呵呵♪",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官…？你累了吗？毕竟是人类嘛，不用那么逞强啊…{namecode:91}全都能帮你拿哦～",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:91}",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "呵呵呵…这么微不足道的蝼蚁之辈，也想从我{namecode:91}手里抢走指挥官？先手…指挥官？为什么要阻止{namecode:91}？",
 			flashout = {
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:91}",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "刚才你看那个女孩子了吧？呐，为什么不看{namecode:91}？明明你是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
 			flashout = {
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:91}",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "大…那个小丫头，跟在我们后面…！等有机会一定要把她解决了…！",
 			flashout = {
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "没，没什么！指挥官不用往后看，只要看着{namecode:91}就行啦～",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			say = "姐…咳，{namecode:91}，和指挥官逛街啊。",
 			flashout = {
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_school",
 			actorName = "{namecode:91}",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不要逞强嘛。{namecode:92}的话指挥官分享给你一点也行哦。指挥官也没意见吧？",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,

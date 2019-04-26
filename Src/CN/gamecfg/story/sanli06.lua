@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			stopbgm = true,
 			withoutPainting = true,
-			actor = 303114,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "是么，那位前辈回来了吗？…",
 			flashout = {
@@ -44,7 +44,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303124,
+			actor = 303120,
 			actorName = "？？？",
 			say = "新生重樱联合…？真是令人感到可靠的名头呢",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "无论如何…不能把“那位大人”交到她的手上…",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "重樱…只需要神明的力量…",
 			typewriter = {

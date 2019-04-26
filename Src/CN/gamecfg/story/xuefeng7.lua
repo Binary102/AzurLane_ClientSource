@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "啊～哈哈哈！秘书舰{namecode:22}大人今天也来报告啦！",
 			typewriter = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "哼！没有{namecode:22}大人工作也没法做了吧！",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "哼！看来指挥官终于也了解到有{namecode:22}大人在身边有多好了吧！",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "看指挥官你这么识时务，{namecode:22}大人就再稍稍微努力一点好了！",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "好啦，再来多夸一下{namecode:22}大人吧！",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "诶嘿嘿……蹭蹭……",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actorName = "{namecode:143}",
-			actor = 301604,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "{namecode:142}！{namecode:143}也想让指挥官摸摸头！",
 			flashout = {
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -239,7 +239,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "完、完全沦陷了呢…",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			say = "{namecode:22}酱……太好了……",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "指挥官～再蹭蹭尾巴也是可以的哦♪",
 			flashout = {

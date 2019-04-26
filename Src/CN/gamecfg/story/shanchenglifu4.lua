@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "呵呵，看来陛下对这场宴会十分满意呢。",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "那是当然，这场宴会，从建筑风格到各种装饰，从食材到食谱，全都是以我们皇家的标准来操办的",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "虽然来到这里后也基本习惯了没有品位的建筑和饮食……",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "哇哈哈哈哈哈哈！！！",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "哼，那是理所当然的事！",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "咦，贝尔法斯特和谢菲尔德没有随陛下前来吗？",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "我派她们两个去厨房了，既然要做，当然要做到最好！",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "反正这里就像我的寝宫一样安全，完全没有担心的必要！",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "——也没什么特别的，毕竟庆典本身就很开心了呢～",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "你这个巨乳，哼，长这么大干什么，碍眼！",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "呀！陛、陛下，大家看着呢，不要突然戳过来……",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "而且我真的没有去，还是…不太习惯那种场合呢…",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "喂，伊丽莎白~别在那欺负属下了，要不要过来喝一杯？",
 			typewriter = {
@@ -430,7 +430,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -460,7 +460,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "啊哈哈…那就…尊敬的伊丽莎白女王陛下，可愿意屈尊前来小酌一杯呢？",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207032,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "……不管怎么说，陛下看起来也找到了自己的乐趣呢。",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "…阿贾克斯，对陛下要更尊敬一点哦。",
 			typewriter = {
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "陛下毕竟是陛下，稍微任性一些也是没关系的。",
 			typewriter = {
@@ -592,7 +592,7 @@ return {
 			}
 		},
 		{
-			actor = 900119,
+			actor = 202031,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -612,7 +612,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -632,7 +632,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "那么，庆典过得如何呢？",
 			typewriter = {
@@ -649,7 +649,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900119,
+			actor = 202031,
 			nameColor = "#a9f548",
 			say = "虽然小猪仔在埋头工作少了些乐趣，不过还算有趣。",
 			typewriter = {
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actor = 900119,
+			actor = 202031,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -682,7 +682,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "卡牌游戏…吗？似乎很有趣的样子呢——",
 			typewriter = {
@@ -700,7 +700,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900117,
+			actor = 207032,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

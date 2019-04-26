@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "啊……指、指挥官大人，您来的正好",
 			flashout = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "这，这是……我借用食堂的厨房，用从女灶神小姐那学来的…这边的料理方法做的",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "呃，好像是叫做……“嗨菌咖里”吧？",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "……会、会不会不方便……？",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "太好了……那、那么，请用吧",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "好吃吗？能合指挥官您的口味真是太好了……",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "以后我还会再试试看做这个世界的其他料理……如果，您方便的话，还能再请您试吃吗？",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "谢谢您，指挥官大人",
 			typewriter = {

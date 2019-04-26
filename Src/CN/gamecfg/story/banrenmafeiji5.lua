@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "咦，标枪前辈，铁血的各位前辈们也来了。",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Z25前辈，Z46前辈，你们好。",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900108,
+			actor = 401251,
 			nameColor = "#a9f548",
 			say = "欸欸欸？？你、你好……",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401461,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401461,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "Z25，Z46，来坐这边~",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407011,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407011,
 			nameColor = "#a9f548",
 			say = "唔…这直达味蕾的美味…！",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -427,7 +427,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -443,7 +443,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407011,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "（小声）标枪前辈，铁血的前辈们意外地好相处呢。",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -512,7 +512,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -532,7 +532,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405021,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -548,7 +548,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401251,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -564,7 +564,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -580,7 +580,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802011,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -596,7 +596,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -615,7 +615,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "咦，提尔比茨小姐是喜欢这种运动的类型吗？",
 			typewriter = {
@@ -638,7 +638,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -658,7 +658,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "唔，既然如此，那么等大家都吃得差不多了，我们就来分组打沙滩排球吧！",
 			typewriter = {

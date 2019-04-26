@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 112014,
+			actor = 112010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 112014,
+			actor = 112010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -110,7 +110,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 101074,
+			actor = 101070,
 			nameColor = "#a9f548",
 			say = "哇！是企业！？吓得我冰棒都要掉了……",
 			flashout = {
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 101074,
+			actor = 101070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 101084,
+			actor = 101080,
 			nameColor = "#a9f548",
 			say = "企、企业？！",
 			flashout = {
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 101084,
+			actor = 101080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 101064,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "是企、——",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 101064,
+			actor = 101060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 101064,
+			actor = 101060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -338,7 +338,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 101244,
+			actor = 101240,
 			nameColor = "#a9f548",
 			say = "！——",
 			flashout = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actor = 101244,
+			actor = 101240,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -404,7 +404,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 107074,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "姐、姐姐…？",
 			flashout = {
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -468,7 +468,7 @@ return {
 			}
 		},
 		{
-			actor = 107074,
+			actor = 107070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -498,7 +498,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -517,7 +517,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -534,7 +534,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "嘿嘿，这张照片就叫《驯鹿之主》吧，虽然没驾着驯鹿来，但也是圣诞老人呢~",
 			flashout = {

@@ -61370,6 +61370,1011 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14358] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90800,
+		type = 36,
+		name = "『绊爱联动』-日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14358,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59126,
+				300
+			}
+		}
+	},
+	[14359] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90801,
+		type = 36,
+		name = "『绊爱联动』-日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14359,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59126,
+				300
+			}
+		}
+	},
+	[14360] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90802,
+		type = 36,
+		name = "『绊爱联动』-日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14360,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59126,
+				100
+			}
+		}
+	},
+	[14361] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90803,
+		type = 6,
+		name = "『绊爱联动』-通关SP1",
+		count_inherit = 0,
+		desc = "通关SP1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14362",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220001,
+		id = 14361,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70007,
+				1
+			}
+		}
+	},
+	[14362] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90804,
+		type = 6,
+		name = "『绊爱联动』-通关SP2",
+		count_inherit = 0,
+		desc = "通关SP2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14363",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220002,
+		id = 14362,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70009,
+				1
+			}
+		}
+	},
+	[14363] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90805,
+		type = 6,
+		name = "『绊爱联动』-通关SP3",
+		count_inherit = 0,
+		desc = "通关SP3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14364",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220003,
+		id = 14363,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				8,
+				70011,
+				1
+			}
+		}
+	},
+	[14364] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90806,
+		type = 6,
+		name = "『绊爱联动』-通关SP4",
+		count_inherit = 0,
+		desc = "通关SP4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14365",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220004,
+		id = 14364,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220004",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70013,
+				1
+			}
+		}
+	},
+	[14365] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90807,
+		type = 6,
+		name = "『绊爱联动』-通关Black-SP",
+		count_inherit = 0,
+		desc = "通关Black-SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220005,
+		id = 14365,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220005",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				8,
+				70015,
+				1
+			}
+		}
+	},
+	[14366] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90808,
+		type = 6,
+		name = "『绊爱联动』-SP1三星",
+		count_inherit = 0,
+		desc = "完成SP1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14367",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220001,
+		id = 14366,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30313,
+				1
+			},
+			{
+				8,
+				70008,
+				1
+			}
+		}
+	},
+	[14367] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90809,
+		type = 6,
+		name = "『绊爱联动』-SP2三星",
+		count_inherit = 0,
+		desc = "完成SP2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14368",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220002,
+		id = 14367,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30313,
+				1
+			},
+			{
+				8,
+				70010,
+				1
+			}
+		}
+	},
+	[14368] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90810,
+		type = 6,
+		name = "『绊爱联动』-SP3三星",
+		count_inherit = 0,
+		desc = "完成SP3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14369",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220003,
+		id = 14368,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220003",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				43305,
+				1
+			},
+			{
+				8,
+				70012,
+				1
+			}
+		}
+	},
+	[14369] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90811,
+		type = 6,
+		name = "『绊爱联动』-SP4三星",
+		count_inherit = 0,
+		desc = "完成SP4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1220004,
+		id = 14369,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1220004",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				43306,
+				1
+			},
+			{
+				8,
+				70014,
+				1
+			}
+		}
+	},
+	[14370] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90812,
+		type = 26,
+		name = "『绊爱联动』-累计建造10次",
+		count_inherit = 0,
+		desc = "建造舰船10次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14370,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70021,
+				1
+			}
+		}
+	},
+	[14371] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90813,
+		type = 26,
+		name = "『绊爱联动』-累计消耗99个酸素可乐",
+		count_inherit = 0,
+		desc = "消耗99个酸素可乐",
+		target_id_2 = "",
+		sub_type = 120,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14371,
+		target_num = 99,
+		fix_task = 0,
+		target_id = "50001",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70022,
+				1
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[14372] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90814,
+		type = 26,
+		name = "『绊爱联动』-七日任务1",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14372,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				10400011,
+				1
+			}
+		}
+	},
+	[14373] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90815,
+		type = 26,
+		name = "『绊爱联动』-七日任务2",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14373,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70000,
+				1
+			}
+		}
+	},
+	[14374] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90816,
+		type = 26,
+		name = "『绊爱联动』-七日任务3",
+		count_inherit = 0,
+		desc = "完成军事委托2次",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14374,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14375] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90817,
+		type = 26,
+		name = "『绊爱联动』-七日任务4",
+		count_inherit = 0,
+		desc = "进行2次演习",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14375,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70001,
+				1
+			}
+		}
+	},
+	[14376] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90818,
+		type = 26,
+		name = "『绊爱联动』-七日任务5",
+		count_inherit = 0,
+		desc = "完成3次每日挑战",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14376,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14377] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90819,
+		type = 26,
+		name = "『绊爱联动』-七日任务6",
+		count_inherit = 0,
+		desc = "舰船退役2次",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14377,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70002,
+				1
+			}
+		}
+	},
+	[14378] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90820,
+		type = 26,
+		name = "『绊爱联动』-七日任务7",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14378,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14379] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90821,
+		type = 26,
+		name = "『绊爱联动』-七日任务8",
+		count_inherit = 0,
+		desc = "舰船强化5次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14379,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70003,
+				1
+			}
+		}
+	},
+	[14380] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90822,
+		type = 26,
+		name = "『绊爱联动』-七日任务9",
+		count_inherit = 0,
+		desc = "后宅补充食物5次",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14380,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14381] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90823,
+		type = 26,
+		name = "『绊爱联动』-七日任务10",
+		count_inherit = 0,
+		desc = "击沉任意敌人20艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14381,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70004,
+				1
+			}
+		}
+	},
+	[14382] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90824,
+		type = 26,
+		name = "『绊爱联动』-七日任务11",
+		count_inherit = 0,
+		desc = "打开任意科技箱1个",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14382,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14383] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90825,
+		type = 26,
+		name = "『绊爱联动』-七日任务12",
+		count_inherit = 0,
+		desc = "建造舰船2次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14383,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70005,
+				1
+			}
+		}
+	},
+	[14384] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90826,
+		type = 26,
+		name = "『绊爱联动』-七日任务13",
+		count_inherit = 0,
+		desc = "击败旗舰3次 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14384,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				43121,
+				1
+			}
+		}
+	},
+	[14385] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90827,
+		type = 26,
+		name = "『绊爱联动』-七日任务14",
+		count_inherit = 0,
+		desc = "进行2次战术训练",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14385,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				70006,
+				1
+			}
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -67117,7 +68122,7 @@ pg.task_data_template = {
 		id = 60094,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18012",
+		target_id = "18002",
 		open_need = {},
 		award_display = {}
 	},
@@ -67129,7 +68134,7 @@ pg.task_data_template = {
 		name = "重樱先锋技术测试II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成重樱驱逐技术测试I」</color>
+<color=#797979><color=#A9F548>「需先完成重樱先锋技术测试I」</color>
 研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
 
 ——使用重樱先锋角色，在任意关卡中累计获得<color=#A9F548>200万</color>经验（不同角色可累加）]],
@@ -67224,7 +68229,7 @@ pg.task_data_template = {
 		id = 60097,
 		target_num = 5,
 		fix_task = 0,
-		target_id = "18013",
+		target_id = "18003",
 		open_need = {},
 		award_display = {}
 	},
@@ -67413,7 +68418,7 @@ pg.task_data_template = {
 		id = 60104,
 		target_num = 3,
 		fix_task = 0,
-		target_id = "18022",
+		target_id = "18023",
 		open_need = {},
 		award_display = {}
 	},
@@ -67425,7 +68430,7 @@ pg.task_data_template = {
 		name = "重樱先锋技术测试II ",
 		count_inherit = 0,
 		desc = [[
-<color=#797979><color=#A9F548>「需先完成重樱先锋技术测试I」</color>
+<color=#797979><color=#A9F548>「需先完成重樱主力技术测试I」</color>
 研发进入了新的阶段，尽管改良后的设计方案在理论上具有更出色的性能，但纸面数据终究不如实战测试来得可靠 </color>
 
 ——使用重樱先锋角色，在任意关卡中累计获得<color=#A9F548>240万</color>经验（不同角色可累加）]],
@@ -67520,7 +68525,7 @@ pg.task_data_template = {
 		id = 60107,
 		target_num = 8,
 		fix_task = 0,
-		target_id = "18023",
+		target_id = "18013",
 		open_need = {},
 		award_display = {}
 	},
@@ -67709,7 +68714,7 @@ pg.task_data_template = {
 		id = 60114,
 		target_num = 3,
 		fix_task = 0,
-		target_id = "18012",
+		target_id = "18023",
 		open_need = {},
 		award_display = {}
 	},
@@ -67832,7 +68837,7 @@ pg.task_data_template = {
 		id = 60117,
 		target_num = 8,
 		fix_task = 0,
-		target_id = "18013",
+		target_id = "18023",
 		open_need = {},
 		award_display = {}
 	},
@@ -68111,7 +69116,7 @@ pg.task_data_template = {
 		id = 60124,
 		target_num = 10,
 		fix_task = 0,
-		target_id = "18012",
+		target_id = "18022",
 		open_need = {},
 		award_display = {}
 	},
@@ -68298,7 +69303,7 @@ pg.task_data_template = {
 		id = 60127,
 		target_num = 5,
 		fix_task = 0,
-		target_id = "18013",
+		target_id = "18023",
 		open_need = {},
 		award_display = {}
 	},
@@ -70084,6 +71089,34 @@ pg.task_data_template = {
 		14355,
 		14356,
 		14357,
+		14358,
+		14359,
+		14360,
+		14361,
+		14362,
+		14363,
+		14364,
+		14365,
+		14366,
+		14367,
+		14368,
+		14369,
+		14370,
+		14371,
+		14372,
+		14373,
+		14374,
+		14375,
+		14376,
+		14377,
+		14378,
+		14379,
+		14380,
+		14381,
+		14382,
+		14383,
+		14384,
+		14385,
 		30101,
 		30102,
 		30103,

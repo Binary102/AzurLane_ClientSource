@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "你看，这边是厨神大赛，我记得是明天开赛，场地已经完全布置好了呢。",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "这条路通往海边，牌子上写的是……“赶上夏日的尾巴！泳装大赛期待你的到来！”",
 			flashout = {
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "明明才刚加入舰队，你还真是了解呢。",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "所以{namecode:97}你这样把自己关在房间里太可惜啦！",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "“在最后的宴会上穿着亲手制作的礼服和指挥官大人共同度过一个美好的夜晚！”才是我唯一的目的哟，其他的事都无关紧要——",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			say = "咦，好像有什么声音……",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "喂，{namecode:2}！！！",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "呜————————————！……欸，谁叫我？",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "这边这边~",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 900123,
+			actor = 408011,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -284,7 +284,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "诶等等啊！我拿着这个大号不能跑的啊——",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "{namecode:2}你拿的这个是什么啊？",
 			flashout = {
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（呵呵，管弦乐队吗……正好，到时侯为了我和指挥官大人的登场而奏出最美妙的乐章吧）",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "诶，{namecode:2}你会吹大号吗？",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "不会哦！",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "……啊啊啊我已经在努力的练习啦！不要用那种眼神看着我！",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "额……啊！港区第一武道会决赛好像马上开始了！大家都一起去看看吧！",
 			typewriter = {
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "嘁，打扰了我为心爱的指挥官准备衣服的时间，还一路磨蹭的不知道是哪里的谁……喂，等我一下！",
 			typewriter = {
@@ -478,7 +478,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900112,
+			actor = 301013,
 			dir = -1,
 			hideOther = true,
 			actorName = "U81&{namecode:2}",
@@ -486,7 +486,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 900123,
+					actor = 408011,
 					pos = {
 						x = -687
 					}
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "战斗~~结束！！虽然{namecode:96}之前以高调的姿态一路高歌猛进，拿下了冠军，但在不败的王者——企业面前，她终究还是败下阵来！",
 			flashout = {
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "好热烈的掌声……好像还是来晚了欸。",
 			typewriter = {
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指挥官大人……啧，不在啊……难怪不管是味道脚印还是【哔-】都感觉不到指挥官大人的存在——",
 			typewriter = {
@@ -570,7 +570,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "呼呼！嗯嗯，胜利的大号感觉不错呢！",
 			typewriter = {
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "呃……{namecode:2}你在旁边一直吹号最后谁赢了都没听清……",
 			typewriter = {
@@ -604,7 +604,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "嗯…？那是…埃塞克斯？",
 			typewriter = {

@@ -8,7 +8,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 0,
 			mode = 2,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "…",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			say = "怎么，又看到什么了吗？",
 			nameColor = "#FF0000",
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "这一次的「白方<White>」并没有按照以往的规律行动",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "嗯？这不正是「审判者」所期盼的表现么",
 			shake = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "然而，我曾经想过，假设…只是假设…如果包含我们在内的这一切，只是为了引诱\n「白方<White>」进行变化而制造的的模因…",
 			shake = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "换句话说，如果连我们从「塞壬」那里得到的一切力量，也都只是他们计划中的一部分的话…",
 			shake = {
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "这样的思维模式迟早会让你毁灭自己的，这样可对不起“她”为铁血所做的一切",
 			shake = {
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "“她”…？",
 			shake = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "没什么，不过是另一个无聊的妄想家罢了，甚至最后为了那飘渺的妄想而葬送了自己…何等愚蠢…",
 			shake = {
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "……",
 			shake = {

@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "怎、怎么办……",
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "虽然从星尘姐姐那里收到了这个……",
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "呜……果然还是好害羞……",
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "而且…这么华丽的衣服…独角兽…一定不合适的…要是哥哥不喜欢…怎么办…",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "小小的勇气……就是最大的魔法……",
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "嗯！独角兽，会加油的！",

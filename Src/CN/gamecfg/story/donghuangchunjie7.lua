@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "嗯……电灯的开关都没用，好像是……电闸被拉掉了。",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "…？走廊里有脚步声，越来越近了。",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "嗯？走廊的尽头是不是有团巨大的影子？！",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "我点，我扔~诶？！",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "喂喂喂，等等，哇！",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgm = "main-chunjie",
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "呜哇…没想到会在最后一步…失、策…",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "抚、抚顺姐！？没、没事吧！？？",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501011,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "咳咳咳，屋子里被搞得乌烟瘴气，抚！顺！做了这种蠢事你做好挨训的心理准备…诶？",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 900163,
+			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 900170,
+			actor = 107062,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "哎呀，真是调皮的孩子，不过这个节目效果倒也算是不错呢~",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "镜子给你…的说",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "哇哇，哈哈哈哈哈，这下没脸见人了哈哈哈",
 			typewriter = {
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 501011,
+			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900172,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "真是哪里都不缺有趣的事情呢，呵呵",
 			typewriter = {
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "我洗好啦～",
 			flashout = {
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900172,
+			actor = 202121,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900170,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "啊啊，果然，能有这么温暖的团聚时光，无论是不是一时的短暂和平，都得好好感谢指挥官才是呢",
 			typewriter = {
@@ -555,7 +555,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -571,7 +571,7 @@ return {
 			}
 		},
 		{
-			actor = 900167,
+			actor = 301054,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -591,7 +591,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			actor = 900171,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "呵呵呵，那就去指挥官的办公室再来一次“团聚”吧？",
 			typewriter = {
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",

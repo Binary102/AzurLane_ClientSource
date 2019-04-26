@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			bgm = "nagato-map",
@@ -16,7 +16,7 @@ return {
 			say = "呜...果然还是输了",
 			subActors = {
 				{
-					actor = 305051,
+					actor = 305050,
 					pos = {
 						x = 750
 					}
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "虽然稍微上了点年纪，但是也还不至于输给你们这帮后辈们啊哈哈哈",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "{namecode:82}前辈",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "嗯？",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "谢谢您，这一战，让我成长了许多",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "曾经的我...一直都像个人偶一般任人摆布...一直在担心自己表现得不够好会让别人失望",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "也因此失去了很多，甚至被人利用，引起了这场战争...这些都是我的错",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "如果现在有办法去弥补这个过错，希望你能告诉我...带领我们找到这个时代正确的分歧",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "我...不会再逃避了！",
@@ -234,12 +234,12 @@ return {
 		},
 		{
 			{
-				y = 10,
+				y = 900021,
 				type = "shake",
-				delay = 0,
-				dur = 0.1,
-				x = 0,
-				number = 2
+				delay = 900021,
+				dur = 900021.900021,
+				x = 900021,
+				number = 900021
 			},
 			actor = 900021,
 			actorName = "净化者",
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "就是这些了吗？如果说完了的话......就请你安心的被我们击败吧！",

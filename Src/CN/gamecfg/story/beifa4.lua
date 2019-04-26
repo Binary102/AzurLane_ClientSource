@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "贵安，“指挥官”，女仆贝法，前来报到",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "事情是这样的喵——",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "如此这般喵，因为事情变得有点复杂，所以拖到现在才带她来报到喵……",
 			flashout = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "太好了～果然和姐姐们说的一样，“指挥官”是个又伟大又和善的人呢～",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 2,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "这是说…可以的意思吗？“指挥官”虽然有点奇怪，但果然跟姐姐们说的一样，是个伟大又和善的人呢～",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:98}就知道指挥官不会放着这孩子不管的喵～",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "贝法也会努力加油的！",
 			action = {
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "不过…为什么小贝法会出现在那里喵…",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -312,7 +312,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:37}…有线索了喵？",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "感觉似乎抓住了什么…又好像什么都没有…",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "还是需要进一步的实验喵……",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "恩…那么…第257次实验的内容是——",
 			typewriter = {

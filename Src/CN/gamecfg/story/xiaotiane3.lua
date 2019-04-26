@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			bgm = "story-1",
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			say = "随、随便就怀疑别人还是不大好呢",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "哎呀？小天鹅这是…冬天的锻炼吗？当心感冒了哟？",
 			flashout = {
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207044,
+			actor = 207040,
 			nameColor = "#a9f548",
 			say = "嗯…我也没看到那个人呢…",
 			flashout = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "刚才好像看到她进了自己房间，就是那个房间——",
 			flashout = {

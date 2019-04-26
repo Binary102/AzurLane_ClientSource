@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			actorName = "???",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			actorName = "???",
 			say = "我是正义的伙伴，小海狸分队的队长，查尔斯·奥斯本！稍等一下，我这就把大家召集过来。",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101131,
+			actor = 101130,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -208,7 +208,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101151,
+			actor = 101150,
 			nameColor = "#a9f548",
 			say = "有，有什么事情吗……",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101141,
+			actor = 101140,
 			nameColor = "#a9f548",
 			say = "啊，好麻烦。",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "等等，这是秘书舰的工作，我来就可以……",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -376,7 +376,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 101111,
+			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "同伴互相帮助是理所当然吗…我知道了。",
 			typewriter = {

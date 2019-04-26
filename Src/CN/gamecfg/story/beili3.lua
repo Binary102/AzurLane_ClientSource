@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 303081,
+			actor = 303080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "但是但是……",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -175,7 +175,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "耶~",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 303081,
+			actor = 303080,
 			nameColor = "#a9f548",
 			say = "我、我只是在复习而已，那些都是我早就会的东西了。",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "欸嘿嘿，没有啦~",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 101271,
+			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 303081,
+			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 101271,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "太好啦~",
 			typewriter = {

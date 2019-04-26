@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指挥官辛苦了！差不多该吃晚饭了吧？",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "？前面说过今天不是{namecode:95}姐而是我做饭吧？也不能老是麻烦{namecode:95}姐，我也要努力尝试一下！",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "所以稍微等我一会～",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "炸鸡块加香葱蘸料，三分大麦的米饭和加鸡蛋的味增汤，南国定番的椰子果汁，还有专供军官的高级皇家香蕉！",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "怎么样？",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……好吃吗？太好了！哼哼，就算没有{namecode:95}姐帮忙，这点程度的我还是可以的嘛！",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "比灰色幽灵做的还好吃？谢谢指挥官！",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "虽然那边有女灶神的指导，但也不是我的对手呢！",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "哼哼♪今天赢了灰色幽灵♪",
 			typewriter = {

@@ -3096,6 +3096,10 @@ pg.gametip = {
 		tip = "指挥官等级到达<color=#A9F548>$1级</color>时解锁该关卡",
 		key = "levelScene_chapter_level_limit"
 	},
+	levelScene_chapter_count_tip = {
+		tip = "今日次数：",
+		key = "levelScene_chapter_count_tip"
+	},
 	levelScene_tracking_error_retry = {
 		tip = "激活关卡失败，请重试",
 		key = "levelScene_tracking_error_retry"
@@ -3906,6 +3910,10 @@ pg.gametip = {
 	word_shipNation_um = {
 		tip = "传颂之物",
 		key = "word_shipNation_um"
+	},
+	word_shipNation_ai = {
+		tip = "KizunaAI",
+		key = "word_shipNation_ai"
 	},
 	word_reset = {
 		tip = "重置",
@@ -4833,7 +4841,12 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							<color=#fff157>超稀有舰船</color>：$2%
 							 <color=#966af6>精锐舰船</color>：$3%
 							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%]],
+							 普通舰船：$5%
+
+							  【限时建造】
+							<color=#966af6>  小鲟</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>  小凰</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>  小齐柏林</color>：2.5%<color=#A9F548>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4855,14 +4868,10 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 
 							  【限时建造】
 
-							<color=#fff157>     鲨</color>：2%<color=#A9F548>(up!)</color>
-							<color=#fff157>     茳</color>：1.8%<color=#A9F548>(up!)</color>
-							<color=#fff157>     伊13</color>：2%<color=#A9F548>(up!)</color>
-							<color=#966af6>     狺</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>     楛</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>     桸</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>     橗</color>：5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>     棹</color>：5%<color=#A9F548>(up!)</color></size>]],
+					<color=#fff157>     绊爱•Anniversary</color>：2%<color=#A9F548>(up!)</color>
+					<color=#fff157>     绊爱•SuperGamer </color>：2%<color=#A9F548>(up!)</color>
+					<color=#fff157>     绊爱•Elegant</color>：0.5%<color=#A9F548></color>
+					</size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -7321,7 +7330,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>19.1.24-19.2.13</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>19.4.26-19.5.15</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -9062,6 +9071,10 @@ $3]],
 		tip = "隐藏剧情<color=#A9F548>$1</color>收集成功！",
 		key = "map_event_memory_collected"
 	},
+	map_event_save_kizuna = {
+		tip = "成功救出<color=#A9F548>绊爱</color>",
+		key = "map_event_save_kizuna"
+	},
 	five_choose_one = {
 		tip = "指挥官只能邀请一人共度平安夜，\n是否确认邀请<color=#A9F548>$1</color>？\n邀请后会获得对应角色和回礼",
 		key = "five_choose_one"
@@ -9336,6 +9349,52 @@ $3]],
 		tip = "危险",
 		key = "ambush_display_6"
 	},
+	black_white_grid_notice = {
+		key = "black_white_grid_notice",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.净化虚拟空间共有5张游戏图，可以在活动期间内反复游玩，\n但仅有前4张图<color=#A9F548>首次</color>净化成功时可获得奖励。"
+			},
+			{
+				info = "2.前四张游戏图为固定图，第五张游戏图为随机图。"
+			},
+			{
+				info = "3.游戏图需要三星通关对应活动关卡地图才可以解锁。"
+			},
+			{
+				info = "4.需要先完成上一张游戏图，才能进行下一张游戏图。"
+			},
+			{
+				info = "5.每场游戏中，玩家拥有3次翻转次数。"
+			},
+			{
+				info = "6.点击游戏图上的同一格两次，即可进行一次翻转操作。"
+			},
+			{
+				info = "7.执行翻转操作将使以点击格为中心的<color=#A9F548>九格</color>颜色发生<color=#A9F548>反转</color>。\n（黑色格变为白色格，白色格变为黑色格）"
+			},
+			{
+				info = "8.进行3次翻转后游戏进行结算。"
+			},
+			{
+				info = "9.结算时，游戏图上的每个黑色块<color=#A9F548>-1</color>分，每个白色块<color=#A9F548>+1</color>分。\n最终分数<color=#A9F548>≥0</color>时视为净化完成，<color=#A9F548>＜0</color>时视为净化失败。"
+			},
+			{
+				info = "10.每场游戏中，玩家拥有3次翻转次数。"
+			}
+		}
+	},
+	black_white_grid_reset = {
+		tip = "是否重置?",
+		key = "black_white_grid_reset"
+	},
+	black_white_grid_switch_tip = {
+		tip = "本局游戏未结束，无法切换",
+		key = "black_white_grid_switch_tip"
+	},
 	no_way_to_escape = {
 		tip = "无路可逃",
 		key = "no_way_to_escape"
@@ -9480,6 +9539,91 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	blueprint_simulation_confirm = {
 		tip = "是否开始战术模拟？(*战术模拟中的我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得时的舰船为准</color>）",
 		key = "blueprint_simulation_confirm"
+	},
+	blueprint_simulation_confirm_19901 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+试作型三联装152mm高平两用炮Mk17
+试作型三联装152mm高平两用炮Mk17
+四联40mm博福斯对空机炮
+</color></size>]],
+		key = "blueprint_simulation_confirm_19901"
+	},
+	blueprint_simulation_confirm_19902 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+试作型双联装457mm主炮MKA
+双联装127mm高平两用炮MK12
+四联40mm博福斯对空机炮
+</color></size>]],
+		key = "blueprint_simulation_confirm_19902"
+	},
+	blueprint_simulation_confirm_39903 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+双联100mm98式高射炮
+四联装610mm鱼雷
+试作型五式40mm高射机关炮
+</color></size>]],
+		key = "blueprint_simulation_confirm_39903"
+	},
+	blueprint_simulation_confirm_39904 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+试作型三联装310mm主炮
+双联100mm98式高射炮
+试作型五式40mm高射机关炮
+</color></size>]],
+		key = "blueprint_simulation_confirm_39904"
+	},
+	blueprint_simulation_confirm_49902 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+试作型双联装406mmSKC主炮
+双联装TbtsKC36式150mm主炮
+双联105mmSKC高炮
+</color></size>]],
+		key = "blueprint_simulation_confirm_49902"
+	},
+	blueprint_simulation_confirm_99901 = {
+		tip = [[
+<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
+使用装备：<color=#A9F548>
+四联装380mm主炮Mle1935
+三联装152mm主炮Mle1930
+双联37mm高射炮Mle1936
+</color></size>]],
+		key = "blueprint_simulation_confirm_99901"
+	},
+	electrotherapy_wanning = {
+		tip = "即将开始收圈",
+		key = "electrotherapy_wanning"
+	},
+	memorybook_get_award_tip = {
+		tip = "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」",
+		key = "memorybook_get_award_tip"
+	},
+	memorybook_notice = {
+		key = "memorybook_notice",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1.活动期间参与游戏收集「港区回忆」，收集全部24张回忆后\n   可获得限定家具「晃悠悠纪念章」"
+			},
+			{
+				info = "2.参与以下内容可以收集「港区回忆」：\n   通过活动关卡、完成日常篇每日任务、完成净化虚拟空间、\n完成活动任务、累积Pt-绊"
+			},
+			{
+				info = "3.通过一次Black-SP后重返SP1—SP4，收集全新的回忆吧！"
+			}
+		}
 	}
 }
 

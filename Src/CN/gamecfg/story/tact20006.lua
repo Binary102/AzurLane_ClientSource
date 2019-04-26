@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "……又有好玩的「棋子<Piece>」被送进棋盘了",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "姐姐们都已经被突破了吗…嗯，对面厉害的姐姐们，都有着很好听的名字呢",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "Z级驱逐舰Z46，暂时…还没有名字…厉害的姐姐们…来和我认真地玩个游戏吧…",

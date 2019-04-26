@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "果然说到春天，就少不了樱花呢",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -70,7 +70,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "这边就是会场吗？哇，好热闹！",
 			flashout = {
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "真是让人会心一笑的场景呢～",
 			flashout = {

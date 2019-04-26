@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指挥官，今天晚上没其他事的话，陪我一起去露天的演出会场吧~",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "在忙完工作后，康克德出现在面前。她的手上拿着两张演出会的门票。",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "很不寻常吧？她很少开演唱会的。我可是她的超级粉丝~",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "闪烁着星星眼的康克德，看上去很期待的样子。",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "快点，指挥官，演出要开始了~我们的位置很好，在舞台的正中央！",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "可以好好把列克星敦小姐看个够~",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "说起来，列克星敦小姐啊，是个温柔的人哦~",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "上次我和她握手的时候，还给她送了一盒小蛋糕，她也非常高兴……",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "列克星敦小姐出场了！指挥官！",
 			flashout = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "HI~HI~HI~☆ 持续~应援中~",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嘻嘻……",
 			flashout = {
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "演出渐入佳境，虽然身旁人潮涌动，康克德却渐渐沉寂了下来，目不转睛地盯住舞台上那个人影。",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "……指挥官，我今后也能像她这么与众不同吗？（小声）",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_night",
 			withoutActorName = true,
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "现在的康克德其实已经足够与众不同了……",
 			typewriter = {
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指挥官……嘻嘻，想不到你挺会说话嘛~",
 			typewriter = {

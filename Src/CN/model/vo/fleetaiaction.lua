@@ -1,6 +1,7 @@
 slot0 = class("FleetAIAction", import(".BaseVO"))
 
 function slot0.Ctor(slot0, slot1)
+	slot0.actType = slot1.act_type
 	slot0.line = {
 		row = slot1.ai_pos.row,
 		column = slot1.ai_pos.column
@@ -13,6 +14,12 @@ function slot0.Ctor(slot0, slot1)
 		}
 	end
 
+	slot0.shipUpdate = _.map(slot1.ship_update, function (slot0)
+		return {
+			id = slot0.id,
+			hpRant = slot0.hp_rant
+		}
+	end)
 	slot0.cellUpdates = {}
 
 	_.each(slot1.map_update, function (slot0)
@@ -54,26 +61,34 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 			end)
 		end
 	elseif slot0.target then
-		if not (_.detect(slot0.cellUpdates, function (slot0)
+		slot6 = _.detect(slot0.cellUpdates, function (slot0)
 			return slot0.row == slot0.target.row and slot0.column == slot0.target.column and slot0.flag ~= 1
 		end) or _.detect(slot0.cellUpdates, function (slot0)
 			return slot0.row == slot0.target.row and slot0.column == slot0.target.column
-		end)) then
-			return false, "can not find cell update at: [" .. slot0.target.row .. ", " .. slot0.target.column .. "]"
-		end
+		end)
 
 		if not slot3 then
-			if isa(slot6, ChapterChampion) then
-				slot1:mergeChampion(slot6)
+			if slot0.shipUpdate then
+				_.each(slot0.shipUpdate, function (slot0)
+					slot0:updateFleetShipHp(slot0.id, slot0.hpRant)
+				end)
 
-				slot5 = bit.bor(slot5, ChapterConst.DirtyChampion)
-			else
-				slot1:mergeChapterCell(slot6)
-
-				slot5 = bit.bor(slot5, ChapterConst.DirtyAttachment)
+				slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
 			end
 
-			slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+			if slot6 then
+				if isa(slot6, ChapterChampion) then
+					slot1:mergeChampion(slot6)
+
+					slot5 = bit.bor(slot5, ChapterConst.DirtyChampion)
+				else
+					slot1:mergeChapterCell(slot6)
+
+					slot5 = bit.bor(slot5, ChapterConst.DirtyAttachment)
+				end
+
+				slot5 = bit.bor(slot5, ChapterConst.DirtyFleet)
+			end
 		end
 	end
 

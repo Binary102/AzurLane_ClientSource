@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-1",
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			say = "呜呜…只、只能这样了吗——",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			say = "小天鹅？！你、你这是什么装备！",
 			flashout = {
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			say = "放在阳台的衣服…不见了？！晾着的和准备洗的都…？",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,

@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "承您吉言…你以为我会这么说吗",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "我们的假货呢",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			say = "你们盗用我们的世界的技术，打开了通向这个世界的通道也就算了，还造出了这么个诡异的空间，这都是你们的实验吗！",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "那个面色铁青的女人是怎么回事啊？",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "总之算是……我们的敌人，吧？",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,7 +324,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "谁让我们是一条绳上的蚂蚱呢",
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -353,20 +353,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10300061,
+			actor = 10300060,
 			dir = 1,
 			hideOther = true,
 			actorName = "众人",
 			say = "哦哦！",
 			subActors = {
 				{
-					actor = 10300031,
+					actor = 10300030,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 10300021,
+					actor = 10300020,
 					pos = {
 						x = 750
 					}
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -399,20 +399,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201211,
+			actor = 201210,
 			dir = 1,
 			hideOther = true,
 			actorName = "众人",
 			say = "哦哦——！",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}

@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			say = "{namecode:75}，快帮我看看，等会用这样的站姿如何？",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			say = "恩…有点死板呢，不如试试把两手伸直来看看？",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,

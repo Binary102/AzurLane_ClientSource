@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "是你在召唤我吗？",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "我是……",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "很可惜，现在我还没有名字，你就暂时叫我Z46吧。",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "如何？对这个名字可有不满？",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "直到寻找到真正的名字为止，Z46这个名字就是维系你我的丝线。",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "我的主人啊，请你牵引这丝线，指引我前进的方向吧！",

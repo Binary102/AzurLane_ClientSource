@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "没有人想到塞壬会突袭一处刚刚进行过大规模演习的地方…不过既然都发生了这种事，为什么还要---",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "好了。那件事上面一定有自己的考虑。现在重要的是眼前…",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "太好了！战斗能力先不论，至少在侦查上这些会飞的小东西确实有些真本事呢，呵呵……",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,

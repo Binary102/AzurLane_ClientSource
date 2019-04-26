@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "如果还能回到港区的话….一定要让开发部开发一些专门针对这些东西的武器…咳…咳…..",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "{namecode:161}，你这是——",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "时间不多了，必须带着你们从这里…",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "喂，{namecode:161}…！快给我醒醒啊！",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "{namecode:161}！！",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "咳…笨蛋…这个你明明可以躲开的…",
 			typewriter = {
 				speed = 0.05,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "…可恶…居然会陷入这样的窘境！",
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "喂！你可是被称为“重樱的鬼谋”的家伙啊，快给我想想办法啊喂！",
 			typewriter = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "你这家伙！不会想就这样在这边结束吧？！",
 			typewriter = {
 				speed = 0.05,
@@ -440,7 +440,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "...就快…了...",
 			typewriter = {
 				speed = 0.05,
@@ -455,7 +455,7 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "什么？什么就快了？！喂！！！",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "你不该过来找我的，我自己的错误就应该由我自己承担——",
 			typewriter = {
@@ -568,7 +568,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "咳咳……看来…是赶上了…",
 			typewriter = {
 				speed = 0.05,
@@ -610,7 +610,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "这…这是…？",
 			typewriter = {
 				speed = 0.05,
@@ -622,7 +622,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -637,7 +637,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -656,7 +656,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "但是…它们是怎么找到这里的？",
 			typewriter = {
 				speed = 0.05,
@@ -672,7 +672,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "咳咳…出发前…跟{namecode:89}说过，如果出现某个方位的侦查机失联的情况…就立刻向该方位派遣战斗机群……",
 			typewriter = {
 				speed = 0.05,
@@ -688,7 +688,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "军师不能放过任何可以调度的资源…既然有航空母舰，这边也开始尝试航母战术了——",
 			typewriter = {
 				speed = 0.05,
@@ -700,7 +700,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -725,7 +725,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -740,7 +740,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

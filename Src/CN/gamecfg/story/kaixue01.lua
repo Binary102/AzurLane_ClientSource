@@ -38,7 +38,7 @@ return {
 			actorName = "{namecode:2}",
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 900080,
+			actor = 301011,
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "story-1",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "呜呜呜…为什么那么多妹妹，就没有一个叫我起床的啦！！",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "嗯～～果然不良少女就应该光明正大的翘课才对吧～？",
 			effects = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "啊…果然还是不大好吧…姐姐又要生气了",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "不、不过，既然有风纪委员，就应该有不良少女才对吧！嗯嗯！",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "嗯？",
 			flashout = {
@@ -239,7 +239,7 @@ return {
 		{
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			dir = 1,
 			actorName = "{namecode:94}&{namecode:2}",
 			hideOther = true,
@@ -267,7 +267,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "谁啊！走路都不看路的吗！",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "原来是{namecode:2}啊…慌慌张张的做什么呢…",
 			typewriter = {
@@ -350,7 +350,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "快、快迟到了不是吗——啊咧？{namecode:94}、{namecode:94}？你这一身…",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "不、不良少女？！",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "哼哼哼，怎么样！是不是挺像的！这下姐姐也——",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}～～～！！！",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "呜哇！姐姐这么快就来了！",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "赌上{namecode:63}托付给我的风纪委员之名，就算是妹妹，不、正因为是妹妹，才更要纠正你！",
 			typewriter = {
@@ -453,12 +453,12 @@ return {
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "呜——",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "咦，怎么{namecode:2}也在这里…",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "啊，都这时间了…总、总之先去学校吧！都快迟到了…",
 			typewriter = {
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}！回头我再找你！",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "是……",
 			typewriter = {

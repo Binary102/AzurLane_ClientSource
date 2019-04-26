@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "嗯…这里就是“港区”吗？",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "比想象中的还要大好多——",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "好！去找{namecode:98}姐姐说的“指挥官”报到吧～",
 			action = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "殿下，这些是准备交给指挥官的资料，没有缺吧？",
 			flashout = {
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "？？？",
 			say = "啊…",
 			typewriter = {
@@ -178,12 +178,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "贝尔法斯特？",
 			subActors = {
 				{
-					actor = 205011,
+					actor = 205010,
 					pos = {
 						x = 750
 					}
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			actorName = "贝尔法斯特？",
 			say = "贵安，两位姐姐，我是贝法。请问你们知道“指挥官”在哪里吗？",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 202181,
+			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "喵！原来在这里喵！真是的，都说了不可以乱跑了喵！",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "事、事情是这样的喵——",
 			typewriter = {

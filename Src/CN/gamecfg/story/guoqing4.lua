@@ -6,7 +6,7 @@ return {
 	fadeType = 1,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			actorName = "？？？",
 			nameColor = "#ff0000",
 			say = "…",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			actorName = "？？？",
 			mode = 2,
 			nameColor = "#ff0000",
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			actorName = "{namecode:96}",
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "！！！你这是做什么，差一点就要击中我了，小心…",
 			shake = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 301091,
+			actor = 301090,
 			actorName = "？？？",
 			mode = 2,
 			nameColor = "#ff0000",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",

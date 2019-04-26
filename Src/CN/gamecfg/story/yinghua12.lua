@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "五航战的双鹤姐妹啊，汝等此次前来是所为何事？",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "跟我们走吧！",
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "我拒绝",
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "哇，这么干脆的吗？",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "那位大人吩咐过，余此生都将作为重樱的守护者，直到灵魂消亡...",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "姐姐...",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "这是你自己的选择吗？",
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "我......余自己的选择...并不重要",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "笨蛋！！",
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "！！！",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "在这样风云变幻的时代，作为先进的战列舰，却只能在这里慢慢的等待消亡，简直是暴餮天物！",
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "...您...您是...",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "{namecode:82}...{namecode:82}前辈？！",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "看看，这四座挺拔而又充满魄力的41CM双联装主炮，还有这高耸的舰桥和充满厚重感的装甲...哈啊...",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "{namecode:82}前辈...怎么会..出现在这里？",
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "这个就说来话长了~哎呀，要不你还是跟我们走吧，我可以慢慢说给你听~",
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "{namecode:82}...{namecode:82}前辈，自从当年吾被选上联合舰队旗舰的职位后，就一直在钻研您的故事...",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "吾曾经也一直希望能成为像你一样伟大的旗舰...但是...但是",
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "别说了，来打一场吧",
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "诶？...",
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "看到你的炮管时我就知道，这十几年里，你从来没有开过一次主炮",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "......",
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "身为战舰，就应该享受驰骋大洋的荣耀感，我可不希望我的接班人以这么令人心疼的模样度过一生...",
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "有的时候，来一场爽快的对决，比说什么都有用",
@@ -444,7 +444,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			dir = 1,
 			say = "怎么样，还有那边的孩子，一起来吧！",
@@ -458,7 +458,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			dir = 1,
 			say = "哈哈～这一天我可是等了好久了！",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			say = "...",
@@ -504,7 +504,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -519,7 +519,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
-			actor = 305051,
+			actor = 305050,
 			say = "来吧！就算没有实战经验，这一次我也会全力以赴！",
 			flashout = {
 				dur = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_nagato4",
 			withoutPainting = true,

@@ -7420,15 +7420,24 @@ pg.ship_data_group = {
 	[272] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301339,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 272,
 		type = 1,
 		group_type = 30133,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 1,
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			2051
+		},
 		description = {
 			{
 				"进行轻型舰建造",
@@ -8383,6 +8392,17 @@ pg.ship_data_group = {
 				"限时活动：啾啾总动员",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9392,6 +9412,72 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[383] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 383,
+		type = 4,
+		group_type = 30406,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：港区逃离大作战",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[384] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 384,
+		type = 7,
+		group_type = 30709,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：港区逃离大作战",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[385] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 385,
+		type = 7,
+		group_type = 40702,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：港区逃离大作战",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9737,6 +9823,94 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10041] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10041,
+		type = 1,
+		group_type = 1040001,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：虚拟链接的共时性",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10042] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10042,
+		type = 3,
+		group_type = 1040002,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：虚拟链接的共时性",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10043] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10043,
+		type = 7,
+		group_type = 1040003,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：虚拟链接的共时性",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10044] = {
+		nationality = 104,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10044,
+		type = 5,
+		group_type = 1040004,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：虚拟链接的共时性",
 				{
 					""
 				},
@@ -10335,6 +10509,9 @@ pg.ship_data_group = {
 		380,
 		381,
 		382,
+		383,
+		384,
+		385,
 		10001,
 		10002,
 		10003,
@@ -10351,6 +10528,10 @@ pg.ship_data_group = {
 		10034,
 		10035,
 		10036,
+		10041,
+		10042,
+		10043,
+		10044,
 		20001,
 		20002,
 		20003,

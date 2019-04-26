@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			say = "对不起，{namecode:95}姐现在危在旦夕，没有时间陪你玩游戏了，速战速决吧",
 			actorName = "{namecode:96}",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",

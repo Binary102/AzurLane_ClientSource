@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "自从开战后，这片海域就再也不允许进入了，原来是被塞壬一直侵占着…这下就说得通了",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "不过…我们这次回来究竟是要寻找什么？",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			say = "看到重樱的御神木了吗？这几年来，它正一直以飞快的速度枯萎，我们这次来，就是希望能够找到拯救它的方法",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "新生重樱联合的组建虽然比我们想象中的来得顺利，但是…为了对抗那股强大的力量，我们还需要一个必不可少的存在..",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			dir = 1,
 			say = "你说的难道是…",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "没错，那孩子一直都在这里，在重樱的中心",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "——我能感觉得到她，她一直都在这里默默的接受着内心的谴责…我们..必须解救她",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "那还等什么，赶紧的，让我们把这些碍事的家伙们全部干掉先！",
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307021,
+			actor = 307020,
 			stopbgm = true,
 			say = "新生重樱联合那班家伙们冲着御神木去了——这样下去，她们也许会相见的",
 			flashout = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			say = "碍事的家伙总是清理不完，真是让人头疼…",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,

@@ -21,7 +21,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-2",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "呼…虽然宴会本身让人开心，但宴会结束后的静寂，总是让人觉得有点落寞呢…",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			say = "「老爷，今夜能有幸与您共赏繁星吗？」",
 			flashout = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 900018,
+			actor = 306031,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			side = 2,

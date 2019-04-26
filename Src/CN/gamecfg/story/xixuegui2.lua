@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "嗯！体温也正常，指挥官今天状态很好呢～",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "嘻嘻，今天的人家是不是和平常不一样呢？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "唔，明明人家正在兴头上的……",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 900093,
+			actor = 201232,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "指挥官呢？也不相信人家吗？",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900093,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "哼，好吧，既然你们不相信人家，人家就证明给你们看，人家才不只是为了诱惑指挥官才穿上这件衣服的！",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 203011,
+			actor = 203010,
 			nameColor = "#a9f548",
 			say = "不过确实有些说过火了，不好意思，阁下，我之后会亲自向吸血鬼小姐道歉的。",
 			typewriter = {

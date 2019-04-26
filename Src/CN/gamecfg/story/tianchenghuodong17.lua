@@ -12,7 +12,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "{namecode:161}，你究竟在想什么！现在来参加这种演习你…",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "这个世界将会改变，大舰巨炮的时代将会逐步走向终结吧…",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "未来…是属于航空母舰的时代。",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "因此，我选择了前来参加这场演习。",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "来吧，{namecode:92}，你不是视我为“一生的对手”么，你可还一次都没有赢过我哦？",
 			typewriter = {
 				speed = 0.05,
@@ -139,7 +139,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "如果你敢放水，我一生都不会原谅你的。",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "……我明白了。",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "能拥有这像你这样直到最后都在贯彻理念的对手，我可真是幸运呢。",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "<size=35>{namecode:161}级战列巡洋舰——{namecode:161}号！</size>",
 			painting = {
 				alpha = 0.3,
@@ -208,7 +208,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305071,
+			actor = 305070,
 			dir = -1,
 			bgm = "theme",
 			hideOther = true,
@@ -217,7 +217,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = -687
 					}

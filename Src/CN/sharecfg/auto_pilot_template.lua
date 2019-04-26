@@ -477,6 +477,133 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[49000] = {
+		id = 49000,
+		name = "循环",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 55,
+					x = -70
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 65,
+					x = -67.5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 75,
+					x = -62.5
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 80,
+					x = -57.5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 75,
+					x = -52.5
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 65,
+					x = -47.5
+				}
+			},
+			{
+				index = 7,
+				to = 8,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 55,
+					x = -45
+				}
+			},
+			{
+				index = 8,
+				to = 9,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 45,
+					x = -47.5
+				}
+			},
+			{
+				index = 9,
+				to = 10,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 35,
+					x = -52.5
+				}
+			},
+			{
+				index = 10,
+				to = 11,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 30,
+					x = -57.5
+				}
+			},
+			{
+				index = 11,
+				to = 12,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 35,
+					x = -62.5
+				}
+			},
+			{
+				index = 12,
+				to = 1,
+				type = 1,
+				param = {
+					valve = 1,
+					z = 45,
+					x = -67.5
+				}
+			}
+		}
+	},
 	[50000] = {
 		id = 50000,
 		name = "上下移动-先往上，到头停了1秒，再往下到头停留循环",

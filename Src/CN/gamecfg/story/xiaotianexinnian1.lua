@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "哇哇！有年糕！我要吃我要吃……可是，不知不觉就被暖炉给困住出不来了……呜",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 301601,
+			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301601,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "呜哇！汤汁溅到衣服上了啦！",
 			flashout = {
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "那个还是未完成的设计！而且，只有一件而已……",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "好了，我知道了啦！真是的，明明是{namecode:143}做错了事为什么我要被你说……",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:143}",
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "将将~{namecode:142}做的衣服真的超级可爱的！",
 			flashout = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900156,
+			actor = 301601,
 			actorName = "{namecode:143}",
 			say = "等年糕煮好了我们再来帮{namecode:98}端给大家哦，这里就先退散啦！",
 			typewriter = {

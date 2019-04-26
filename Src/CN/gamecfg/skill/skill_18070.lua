@@ -133,7 +133,7 @@ return {
 				type = "BattleSkillFire",
 				target_choise = "TargetNil",
 				arg_list = {
-					weapon_id = 66220,
+					weapon_id = 68220,
 					emitter = "BattleBulletEmitter"
 				}
 			}

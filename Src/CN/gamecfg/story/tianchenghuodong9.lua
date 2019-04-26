@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "居然不知不觉地被包围了吗…原来之前的你一直都在隐藏实力…",
 			typewriter = {
 				speed = 0.05,
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "兵不厌诈，这可是我从演习的第一天就开始筹备的计策呢~",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "最后还是输给了你一手…",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "在这样的炮火硝烟间还能保持如此冷静的思考与指挥，真是不愧“鬼谋”之名。",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "呵呵呵~那么，首先，叫一声{namecode:161}大人来听听吧？",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -171,7 +171,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "如果这次不是演习而是实战的话，{namecode:92}你现在可就…",
 			typewriter = {
 				speed = 0.05,

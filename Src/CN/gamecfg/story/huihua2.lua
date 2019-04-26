@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啦~啦啦~庆典~热闹~嗯？那是~？",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "哈哈哈，我会输给你？先做好请客的准备吧",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "不过大姐们好厉害啊，这是在搭建演出用的舞台吧？才一天的功夫就把舞台搭出个大概了耶",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "不过~大姐们不会觉得无聊嘛，明明是庆典却还要做苦力~",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "“本家偶像在此！庆典专用花道舞台！”这样。哈哈哈！",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸～～",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "不过…接下来去哪儿好呢，指挥官又在忙，就没有什么好捉弄的对象嘛——",
 			flashout = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "而且今天是庆典大家都有心理准备，就算搞恶作剧也没什么效果嘛……",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "“{namecode:98}倾情表演  每次请往红色地毯上丢50钻喵！”",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "嘿嘿嘿～",
 			action = {
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			flashout = {
 				dur = 0.5,
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -500,
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "咳咳咳，是谁喵！居然给{namecode:98}丢做成钻石形状的烟雾弹喵！",
 			typewriter = {
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "出来喵！看{namecode:98}不给你来个物价翻倍套餐喵！",
 			typewriter = {
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "噗……哈哈哈哈，果然上当了~",
 			typewriter = {
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "不过那个钻出来再拿回去的速度真的好快欸，我都没有看清……",
 			typewriter = {
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -684,7 +684,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啊，对了，去找{namecode:97}好了！",
 			typewriter = {

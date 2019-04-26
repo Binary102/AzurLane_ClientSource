@@ -839,6 +839,31 @@ pg.name_code = {
 		id = 168,
 		name = "特III型晓",
 		code = "特III型枫"
+	},
+	{
+		id = 169,
+		name = "小比叡",
+		code = "小鲟"
+	},
+	{
+		id = 170,
+		name = "小赤城",
+		code = "小凰"
+	},
+	{
+		id = 171,
+		name = "阳炎级量产型.verAI",
+		code = "萩级量产型.verAI"
+	},
+	{
+		id = 172,
+		name = "妙高级量产型.verAI",
+		code = "獌级量产型.verAI"
+	},
+	{
+		id = 173,
+		name = "扶桑级量产型.verAI",
+		code = "魟量产型.verAI"
 	}
 }
 

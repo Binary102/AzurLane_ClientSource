@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			say = "那么，欧根，斯佩，提尔比茨，Z1，谢谢你们抽空过来。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			say = "是因为德意志姐姐的那件事吗？",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			say = "是的，斯佩你可能不太清楚，我们曾经约定好，尽可能地迁就她的性格，让她能够继续无忧无虑地生活下去。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			say = "……大家没有忘记这件事吧？",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "？！什么！",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "放开……",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			say = "嗯？……呵呵，早就已经习惯了这样的相处模式，都快要忘了以前做过这样的约定呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -411,7 +411,7 @@ return {
 			say = "但是归根结底，这只是权宜之计，而且也是我们欺骗了她。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -436,7 +436,7 @@ return {
 			say = "是的，后果就是不仅对其他同僚造成了困扰，在她现在有些意识到这点后，也对她产生了伤害。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			say = "所以今天就想和大家讨论一下这件事的对策。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "（小声）仆人，我该怎么办啊……",
 			typewriter = {

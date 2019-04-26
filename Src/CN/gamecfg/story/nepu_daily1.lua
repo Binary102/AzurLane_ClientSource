@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -37,7 +37,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10100024,
+			actor = 10100020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 10100014,
+			actor = 10100010,
 			nameColor = "#a9f548",
 			say = "涅噗————！？",
 			flashout = {
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100024,
+			actor = 10100020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100064,
+			actor = 10100060,
 			nameColor = "#a9f548",
 			say = "变身成女神用飞的不就好了嘛",
 			flashout = {
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100054,
+			actor = 10100050,
 			nameColor = "#a9f548",
 			say = "呼…总算是不至于淹死了",
 			flashout = {
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100054,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100064,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -576,7 +576,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 10100064,
+			actor = 10100060,
 			nameColor = "#a9f548",
 			say = "那、是…是我们？",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -605,7 +605,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -621,7 +621,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -637,7 +637,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -653,7 +653,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -669,7 +669,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -685,7 +685,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -701,7 +701,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -717,7 +717,7 @@ return {
 			}
 		},
 		{
-			actor = 10100054,
+			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -733,7 +733,7 @@ return {
 			}
 		},
 		{
-			actor = 10100064,
+			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -754,7 +754,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-nepu1",
-			actor = 10100014,
+			actor = 10100010,
 			nameColor = "#a9f548",
 			say = "……如此这般，我们可是吃了不少苦头呢！",
 			flashout = {
@@ -788,7 +788,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 101174,
+			actor = 101170,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -804,7 +804,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -820,7 +820,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -836,7 +836,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -852,7 +852,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -868,7 +868,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -884,7 +884,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -900,7 +900,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -916,7 +916,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -932,7 +932,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -948,7 +948,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -964,7 +964,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -980,7 +980,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -996,7 +996,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1012,7 +1012,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1028,7 +1028,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1044,7 +1044,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1064,7 +1064,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -1080,7 +1080,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1096,7 +1096,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1112,7 +1112,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1128,7 +1128,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1155,7 +1155,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1175,7 +1175,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -1195,7 +1195,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "各位都在这里吗…找了你们好久",
 			typewriter = {
@@ -1212,7 +1212,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301054,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "从总部发来的紧急消息，港区近海突然侦测到镜面海域反应…需要紧急派遣侦察部队。就拜托Z23了",
 			typewriter = {
@@ -1225,7 +1225,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1241,7 +1241,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1257,7 +1257,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1276,7 +1276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 10100014,
+			actor = 10100010,
 			nameColor = "#a9f548",
 			say = "……哎呀～大家都走掉了呢",
 			flashout = {
@@ -1310,7 +1310,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10100024,
+			actor = 10100020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -1326,7 +1326,7 @@ return {
 			}
 		},
 		{
-			actor = 10100024,
+			actor = 10100020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -1342,7 +1342,7 @@ return {
 			}
 		},
 		{
-			actor = 10100014,
+			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

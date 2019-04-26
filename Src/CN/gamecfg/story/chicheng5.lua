@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "今天负责做饭的家伙居然感冒了…真是…竟然要指挥官亲自动手，回头要好好惩罚一下…",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不过仔细想想，能和指挥官一起做饭，倒是该表达感谢了～呵呵呵…换做是{namecode:92}的话什么事都会自己解决，所以能享受这种体验的只有我了……",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "啊…指挥官做饭的样子好帅…{namecode:91}光是看着就快烧起来了……",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官！？你的手怎么了……！",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "怎么会这样…难道这把刀里藏了什么机关！？还是这里面有什么打扰指挥官注意力的家伙……",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "是我失策了。光是在指挥室做了不让任何人进来的预防措施，忽视了指挥官不常来的厨房…",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "既然{namecode:91}不能时刻陪在指挥官身边，只好找那孩子帮忙了…啊不过她要是以此为借口要和指挥官住到一间房里去的话…！",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "对了！干脆把指挥官锁起来就不会离开{namecode:91}身边了……去找{namecode:98}那小丫头……不，{namecode:91}自己来做吧！",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官，你在说什么呢？还是说不需要{namecode:91}担心你？该不会明明有{namecode:91}在你还想去找别人帮忙吧…？",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……对付这种不听{namecode:91}的话，还一直逞强的指挥官……",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "别以为能逃掉哦。别看我这样，{namecode:91}对指挥官可是比谁都……呵呵",
 			action = {

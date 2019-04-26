@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "呵呵，很有精神呢。这应该是你第一次参加这样的演习吧？",
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 302141,
+			actor = 302140,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "真是有礼貌的好孩子呢。不过，没有忘记这里是战场吧？",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "是的，所以即使是{namecode:161}大人，我也不会鞠个躬就放您过去的哦。",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

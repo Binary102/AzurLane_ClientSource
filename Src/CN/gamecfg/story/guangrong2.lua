@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "了解！擅长空母运用的白鹰机动队的各位，请务必让我学习一下！",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "好啊好啊！就让我萨拉托加给你表演一下什么叫空母运用♪",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "虽然舰载机的搭载数量稍逊一筹，用我的38.1cm炮来场炮击战的话……咦？我不是空母吗……",
 			flashout = {
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "诶，我怎么一个人先冲出来了啊！",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "抱歉，给各位添麻烦了……",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "这么说来，皇家方舟还没到吗？她和我说过今天晚些时候会来参加的……",
 			typewriter = {

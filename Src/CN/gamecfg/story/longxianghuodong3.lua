@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103061,
+			actor = 103060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -40,7 +40,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "果然来了吗。",
 			flashout = {
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 304041,
+			actor = 304040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -117,7 +117,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			say = "对方看起来战意昂扬呢。",
 			flashout = {
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

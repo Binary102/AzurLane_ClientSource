@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "刚才的一切，你都记录下来了吗",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "嗯…已经不存在的舰队突然出现了什么的...情况似乎远远超过我们想象呢",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…被发现了，声呐完全没有收到警告",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "情况…不妙…紧急下潜",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "必须把这里发生的一切告诉指挥官…",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "47酱，你快走…只要潜到足够的深度，它们就抓不到你了",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "你的速度比我快，这里就由我先拖住它",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "557…",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…明白了，祝你好运",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…人们总是说我是一艘厄运缠身的潜艇…至少到现在为止确实是对的",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "但是…这一次，结果究竟会如何呢…",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "姐姐，请给予我像您一样的勇气！",

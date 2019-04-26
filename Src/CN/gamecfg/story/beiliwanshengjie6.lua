@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "这边！",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "啊！她往这边跑了！",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "呼…呼…没想到一路追到了天台…",
 			flashout = {
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "我，我跑不动了啦…",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "不过这下就无路可逃了。你究竟是谁？你的目的是什么？",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "竟、竟然飞走了？！",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "这，这怎么办！我们可不会飞…",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "飞、飞…啊！刚才拿到的扫帚！既然如此…我跳！",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "飞，飞起来了…真的飞起来了？！",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "哼，可别以为这次还能逃走！",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "不、不会吧，这个扫帚究竟是…",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "啊哈哈哈~真的是飞翔的魔女耶~{namecode:48}、纳尔逊，你们也快来呀~",
 			typewriter = {
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "呜哇哇哇！真的飞起来了！我，我在飞！",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "扫，扫把，追上她们……！",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "罗德尼？！……呀！",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 205041,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "好好享受飞行的时光吧，这可是难得的新鲜体验呢。坐稳了，还有玩得开心，姐姐~",
 			typewriter = {

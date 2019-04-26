@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "指挥官大人",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "只有乌璐露一个人出现还真是难得",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "印象里她总是和双胞胎萨拉娜在一起，这样单独出现反而有点让人吃惊",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "对不起",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "这种时候，总是让人困扰",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "这样啊，原来她也很在意自己不会说话的事",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "“从练习慢慢说话开始吧。如果需要的话，我随时可以陪你练习“——就这样，与她约好了",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "排在主人后面第二好人",
 			typewriter = {

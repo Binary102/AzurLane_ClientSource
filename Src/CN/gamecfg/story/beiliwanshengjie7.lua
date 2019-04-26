@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actorName = "{namecode:48}",
 			bgm = "story-1",
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			say = "总，总算回到地面了…",
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "终于追上你了，幽灵小姐！",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "…欸？这是…白布和发光的舰载机？欸？怎么大家都在这里？！",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "啊！原来是萨拉托加的恶作剧吗！",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啊哈，我也出了一份力呢！",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "“那个，你听说了吗？听说港区的仓库闹鬼了呢！”",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "“怎么可能啦！虽然说是万圣夜，但是幽灵什么的是不存在的吧！”",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "那个时候的声音原来是大青花鱼吗！",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸嘿嘿，我的演技还不错吧~",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -273,18 +273,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			actorName = "纳尔逊&{namecode:48}&贝利",
 			say = "恐怖！？",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900138,
+					actor = 101271,
 					dir = 1,
 					pos = {
 						x = 750
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "那，那幽灵小姐也不会再出现了吧……",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "意外的还不错…啊！罗德尼！你一开始就知道这些的吧！",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "罪魁祸首原来是{namecode:98}吗！？",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -515,18 +515,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			actorName = "贝利&{namecode:48}&恐怖",
 			say = "好！",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900139,
+					actor = 213021,
 					dir = -1,
 					pos = {
 						x = 750
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "等等，不要岔开话题啊！",
 			typewriter = {

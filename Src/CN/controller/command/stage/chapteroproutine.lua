@@ -60,6 +60,27 @@ function slot0.doMapUpdate(slot0)
 	slot0.flag = slot2
 end
 
+function slot0.doCellFlagUpdate(slot0)
+	slot2 = slot0.flag
+	slot3 = slot0.chapter
+
+	if #slot0.data.cell_flag_list > 0 then
+		_.each(slot1.cell_flag_list, function (slot0)
+			if slot0:getChapterCell(slot0.pos.row, slot0.pos.column) then
+				slot1:updateFlagList(slot0)
+			else
+				slot1 = ChapterCell.New(slot0)
+			end
+
+			slot1.chapter:updateChapterCell(slot1)
+		end)
+
+		slot2 = bit.bor(slot2, ChapterConst.DirtyCellFlag)
+	end
+
+	slot0.flag = slot2
+end
+
 function slot0.doAIUpdate(slot0)
 	slot2 = slot0.flag
 	slot3 = slot0.chapter
@@ -101,6 +122,16 @@ function slot0.doBuffUpdate(slot0)
 				table.insert(slot2.buff_list, slot7)
 			end
 		end
+	end
+end
+
+function slot0.doKizunaJammingUpdate(slot0)
+	slot2 = slot0.chapter
+	slot3 = getProxy(ChapterProxy)
+
+	if #slot0.data.add_flag_list > 0 or #slot1.del_flag_list > 0 then
+		slot3:updateExtraFlag(slot2, slot1.add_flag_list, slot1.del_flag_list)
+		slot3:updateChapter(slot2, ChapterConst.DirtyStrategy)
 	end
 end
 
@@ -297,7 +328,11 @@ function slot0.doCollectAI(slot0)
 	end)
 
 	if #slot0.aiActs > 0 then
-		slot0.flag = 0
+		if bit.band(slot0.flag, ChapterConst.DirtyCellFlag) > 0 then
+			slot0.flag = bit.bor(0, ChapterConst.DirtyCellFlag)
+		else
+			slot0.flag = 0
+		end
 	end
 end
 

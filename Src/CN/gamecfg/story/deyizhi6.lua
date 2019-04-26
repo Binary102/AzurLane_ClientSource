@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "“吕佐夫”……是因为这个名字。",
 			flashout = {
@@ -45,7 +45,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			say = "是的。不知道是什么原因，德意志她作为舰船的存在不光是铁血的“德意志”还是北方联合的“吕佐夫”呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "？！她们居然知道……",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			say = "不是在那场战斗中努力的“吕佐”，而是北方联合的“吕佐夫”……",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			say = "她对自己作为舰船的经历充满了懊悔。所以为了让自己成为铁血的一员，拼命地表现的像一个铁血的船呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			say = "即使加入过北方联合，但她确实是德意志。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -212,7 +212,7 @@ return {
 			say = "虽然她人很好的啦，但是当时我们对她太好，她性格上毕竟很容易别扭会想多，所以我们才做了之前个约定呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -263,7 +263,7 @@ return {
 			say = "所以我们没有告诉她真相，就这样接受“现在的德意志”作为了我们的一员。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -288,7 +288,7 @@ return {
 			say = "没错。她不管如何都是我们的伙伴。但是我们太过于谨慎反而伤到了她……真是事与愿违呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 			say = "我是觉得她现在这样也很好啦…不过总是要多面对下自己才行呢。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -338,7 +338,7 @@ return {
 			say = "可能暂时会让她难受，不如我们就告诉她真相也好？",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -363,7 +363,7 @@ return {
 			say = "同意。那个任性的德意志看不到了虽然会有点惋惜。不过她应该活的更自由一些的。",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 404021,
+			actor = 404020,
 			nameColor = "#a9f548",
 			say = "结论是去告诉德意志真相呢。",
 			flashout = {
@@ -458,7 +458,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -474,7 +474,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -516,7 +516,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900150,
+			actor = 301660,
 			actorName = "{namecode:148}",
 			say = "我会和{namecode:146}一起为指挥官准备更多好吃的点心！",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900150,
+			actor = 301660,
 			actorName = "{namecode:148}",
 			say = "所以，请一定经常来我们的茶会哟~",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 301651,
+			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -287,24 +287,24 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 301631,
+			actor = 301630,
 			actorName = "{namecode:145}级四人",
 			say = "以后也请多多指教！指挥官~",
 			subActors = {
 				{
-					actor = 301641,
+					actor = 301640,
 					pos = {
 						x = -250
 					}
 				},
 				{
-					actor = 900150,
+					actor = 301660,
 					pos = {
 						x = 250
 					}
 				},
 				{
-					actor = 301651,
+					actor = 301650,
 					pos = {
 						x = 500
 					}

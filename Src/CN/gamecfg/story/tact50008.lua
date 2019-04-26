@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:55}",
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 303011,
+			actor = 303010,
 			nameColor = "#a9f548",
 			side = 1,
 			say = "是啊，我们受的伤也都不太重，完全可以继续战斗的。",
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 303141,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 303141,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "是、是谁呢，姐姐我什么都不知道呢~",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 303141,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 303141,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",

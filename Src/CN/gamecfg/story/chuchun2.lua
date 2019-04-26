@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "明明在回来的路上已经做过那么多次练习了，为什么在指挥官面前还是……",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "呀！呜、呜呜…原来是{namecode:85}小姐吗",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "（点头）",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 301211,
+			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -339,7 +339,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "呜…还、还是不用了——",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 306011,
+			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -381,7 +381,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306011,
+			actor = 306010,
 			nameColor = "#92fc63",
 			say = "就是现在，出发吧，大海盗{namecode:30}！无论是指挥官还是别的什么的，就用你的力量通通去征服吧！",
 			effects = {
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "啊呜…我……",
 			effects = {
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 301241,
+			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301231,
+			actor = 301230,
 			nameColor = "#92fc63",
 			say = "哇，姐姐好帅！",
 			typewriter = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301211,
+			actor = 301210,
 			nameColor = "#92fc63",
 			say = "呜呜呜…我果然还是不行啦！！！",
 			typewriter = {

@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "这一天终于来了……指挥官，我们都准备好了！比赛的指挥就靠你了！",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 101111,
+			actor = 101110,
 			nameColor = "#a9f548",
 			say = "让对手见识见识我们的正义吧！小海狸分队，出击！……咦？",
 			effects = {
@@ -158,7 +158,7 @@ return {
 			say = "太麻烦了……我做替补就好啦。",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 101141,
+			actor = 101140,
 			dir = 1,
 			nameColor = "#a9f548",
 			effects = {
@@ -184,7 +184,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 101121,
+			actor = 101120,
 			nameColor = "#a9f548",
 			say = "哈哈哈斯彭斯又差点摔了！……啊啊啊要撞上了！",
 			action = {
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 101151,
+			actor = 101150,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "好，开局还不错！一口气赢下冠军吧！……不会有这么好的事吧，嘿嘿♪",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "好！指挥官也睁大眼睛好好看着吧！我们会使出全力的♪",
 			typewriter = {

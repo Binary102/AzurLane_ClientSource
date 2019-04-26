@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "哈曼提交的报告书，你还没看吗？",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "一小时前就放这里了！为什么还不看！",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-1",
-			actor = 101251,
+			actor = 101250,
 			say = "不许找借口！",
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "（小声）还，还想说要是你好好看了就给你点奖励呢……",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

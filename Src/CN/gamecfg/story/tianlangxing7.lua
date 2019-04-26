@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "什么嘛！把本王的主力部队的风头给抢光了！",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "不过…果然不愧是强化过对空能力的黛朵级——",
 			flashout = {
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "天狼星已为您扫清了前进道路，我骄傲的主人",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			withoutActorName = true,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "她静静的，优雅地把手伸向这边。仿佛夜色中的大海也是宴会的舞池一般",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "如果您希望的话，那么天狼星会变的比任何人都耀眼，比任何人都美丽",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",

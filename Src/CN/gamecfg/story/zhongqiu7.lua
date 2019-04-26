@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -74,7 +74,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "榜眼——Z46！喏，写在这里",
 			flashout = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "萨拉托加——榜眼！",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -236,7 +236,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "榜眼——逸仙！嘻嘻，是我自己呢~",
 			flashout = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "第二个探花——欧根！",
 			flashout = {
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -413,7 +413,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "最后是状元——宁海！",
 			flashout = {
@@ -447,7 +447,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900025,
+			actor = 502022,
 			actorName = "宁海",
 			paintingFadeOut = {
 				time = 0.5,
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 900026,
+			actor = 502032,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			actor = 900025,
+			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -512,7 +512,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "所有的花灯都飞到我们的双手触及不到的地方了……",
 			flashout = {
@@ -542,7 +542,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -561,7 +561,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -576,7 +576,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

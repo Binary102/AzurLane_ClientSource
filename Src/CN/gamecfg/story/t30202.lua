@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",

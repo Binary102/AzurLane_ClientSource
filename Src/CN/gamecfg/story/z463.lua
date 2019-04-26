@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_room",
 			say = "这件感觉如何？我还不太会选衣服，希望能听到更多的建议",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "这件有点……Z46你可以打扮更漂亮点的嘛～又不是Z23～",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "是啊……你人太认真了容易选到土里土气的衣服，干脆去问问Z35？",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "我觉得这件衣服也不错啊……",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "Z19跟Z23半斤八两，都不算！",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "诶诶！？",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "Z35和Z1的打扮都太扎眼了，问问Z18的话怎么样？",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "…………",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "问Z18的话什么都说好，不算啦。啊！Z36说不定行！",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "Z36的衣服不都是Z35给她挑的吗……？",
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "那Z36也不行了……所以Z46的衣服还是由我们三个决定吧……",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "…………",
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 401201,
+			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "啊！抱歉Z46！我们光顾着自说自话了>_<",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "呃，反正这件怎么看都是冬天才穿的衣服，夏天应该……嗯，这个跟这个，防止晒伤再加件卫衣，怎么样？",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "好。就这样。",
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
 			say = "大家真是的，把Z46晾在一边自己说个没完……Z46你挑自己喜欢的衣服就行啦！",
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "谢谢，我会照做的。",

@@ -221,7 +221,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			say = "（又来了，奇怪的记忆…）",
 			flashout = {
@@ -258,7 +258,7 @@ return {
 			side = 1,
 			say = "真是漂亮的战斗，一段时间不见，你们还是那么身手不凡呢",
 			dir = -1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "逸仙~逸仙~",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -315,7 +315,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			say = "(既视感……？难道……和我那时……？不，不可妄下判断……)",
 			shake = {
@@ -357,7 +357,7 @@ return {
 			side = 1,
 			say = "嗯……重樱的舰队确实和塞壬有所接触。而且最近开始，他们的战斗实力明显也得到了提升，恐怕…",
 			dir = -1,
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "姐姐~可爱~",
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -528,7 +528,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,

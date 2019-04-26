@@ -192,7 +192,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "{namecode:95}姐…这一次不会再让这种事发生了…",
 			flashout = {

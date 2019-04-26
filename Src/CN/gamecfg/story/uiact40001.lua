@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			say = "（又来了……）",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			say = "♫小笼包，叉烧包~奶黄芝麻豆沙包~大肉包，菜包，还有灌汤包~♫",
 			dir = -1,
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,

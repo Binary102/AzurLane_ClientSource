@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "呼喵！不知不觉，时间已经很晚了喵！",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201103,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "神社的参拜，在新年向神明大人许下的愿望，一定能够实现。",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "新年的愿望吗？如果真的能实现的话……",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "嗯嗯（摇摇头）没什么。新年我也会继续以大姐头为目标加油的！",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900155,
+			actor = 102132,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900153,
+			actor = 399021,
 			actorName = "{namecode:151}",
 			say = "等等，愿望说出来就不灵验了哦！自己心中的愿望是只能说给神明大人听的呀。",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:151}",
 			bgName = "star_level_bg_101",
-			actor = 900153,
+			actor = 399021,
 			nameColor = "#a9f548",
 			say = "港区的神社我还是第一次来，没想到竟然如此气派！",
 			flashout = {
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "港区之内也有如此虔诚的信徒，神明大人一定会护佑我们的。",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "啊呀，大家都用了差不多的时间呢！都许了什么样的愿望呀？",
 			flashout = {
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "无论在哪里，祈祷快乐和健康这一点都是不会变的吧。新年快乐！",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "是啊，希望今年也能在大家的努力下，度过平安祥和的一年",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "……呵呵呵",
 			typewriter = {
@@ -466,7 +466,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -503,7 +503,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "喵♪今年似乎也会是生意兴隆的一年喵！新年快乐喵！",
 			typewriter = {

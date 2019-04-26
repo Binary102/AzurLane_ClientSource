@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			say = "这样啊。好的，下一个",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "这样哦，那这个也拜托了",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "嗯。还剩两个……这次也是大成功呢！",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "拜托了。……喂，那不是我这个秘书舰的工作吗！？",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "{namecode:86}，话说在前面，你可不能把主公强行拉去和你约会哦……",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 306021,
+			actor = 306020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "（小声）……与主公、约会……",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "（小声）到底是什么感觉呢……",
 			typewriter = {

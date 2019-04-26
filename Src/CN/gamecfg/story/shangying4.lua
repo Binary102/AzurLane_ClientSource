@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "那么～赏樱大会～开始咯～",
 			typewriter = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "{namecode:95}姐～这个天妇罗好好吃～",
 			flashout = {
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301114,
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "原来如此！大家聚在一起大吃大喝就是所谓的“赏樱大会”啊！",
 			flashout = {
@@ -158,7 +158,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 302014,
+			actor = 302010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 301204,
+			actor = 301200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 301204,
+			actor = 301200,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 301124,
+			actor = 301120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 301114,
+			actor = 301110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,

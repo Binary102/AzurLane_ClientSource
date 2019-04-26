@@ -8,7 +8,7 @@ return {
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "这个炮弹是…大口径的战列舰炮弹，是那个大家伙吗？",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "叫什么来着…让…让·保尔？",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			say = "让·巴尔",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "有点意思，有她在的话似乎可以让战斗变得再激烈一点了~",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			dir = 1,
 			say = "…请不要忘记你身为特混舰队旗舰的职责",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "我的职责就是尽可能的消除敌方带来的威胁，减少登陆部队的牺牲",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "那么，我出击了",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			side = 1,
 			dir = 1,
 			say = "我也出击了！",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			dir = 1,
 			say = "等等我！！",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 101301,
+			actor = 101300,
 			side = 0,
 			dir = 1,
 			say = "我..我来为你们护航！",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "等…",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "哎，真是拦都拦不住…这群热血的笨蛋们——",

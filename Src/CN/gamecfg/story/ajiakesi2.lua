@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 203081,
+			actor = 203080,
 			nameColor = "#a9f548",
 			say = "阿贾克斯，你这人真是——！",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 203081,
+			actor = 203080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 203081,
+			actor = 203080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "我会向埃克塞特前辈道歉的啦。反正一直都是这样。",
 			flashout = {
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "不过这个作战把指挥官来劝架也考虑进去了就是♪",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "…就是这样我才喜欢你呀。呵呵♪",
 			typewriter = {

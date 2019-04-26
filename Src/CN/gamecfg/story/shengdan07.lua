@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "特派记者格里德利，完成任务回来报告啦！指挥官！",
 			flashout = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "哎呀呀，拍到了张好照片呢，这张照片就叫作《圣夜的拥抱》吧，嗯嗯，感觉都可以拿个普利彻奖什么的了呢~",
 			flashout = {

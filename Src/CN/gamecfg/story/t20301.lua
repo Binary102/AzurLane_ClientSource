@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 306051,
+			actor = 306050,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "唔…居然一兴奋就冲过头了…真是吾辈一生的失策…",

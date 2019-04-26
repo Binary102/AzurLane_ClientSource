@@ -10,7 +10,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-1",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#ff5c5c",
 			say = "可恶，你们等着，Z2她们会帮我报仇的！",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "昏过去了……",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……比之前的那两位要棘手一点。",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			say = "不过，在同心协力H级的之前，还是差远了呢",
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "而且，我们已经惊动了对方，增援应该也在赶来了。",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "而且，我们至少也要给铁血造成一点损失，那边的那些商船和货船可不能放过。",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "但这样……很危险。",
 			typewriter = {
 				speed = 0.05,
@@ -211,7 +211,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "我知道，所以你们可以先回去，留我一个人就好。",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……笨蛋。",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "好痛，干嘛忽然用鱼雷管敲我。",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "我们是团队……而且，一个人的火力，比不过五个人。",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "……好吧，谢谢。",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "咳咳，那么就开始尽可能地破坏吧！",
 			typewriter = {
 				speed = 0.05,

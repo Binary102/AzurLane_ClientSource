@@ -28,20 +28,19 @@ function slot0.shouldNotify(slot0, slot1)
 		return false
 	end
 
-	if slot2 == ActivityConst.ACTIVITY_TYPE_LEVELAWARD then
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_BB then
-	elseif slot2 ~= ActivityConst.ACTIVITY_TYPE_TASKS then
-		if slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
-		elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM or slot2 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN or slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
-			return slot1:readyToAchieve()
+	if slot2 == ActivityConst.ACTIVITY_TYPE_TASKS or slot2 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
+		slot4 = getProxy(TaskProxy)
+
+		if _.any(_.flatten(slot1:getConfig("config_data")), function (slot0)
+			return (slot0:getTaskById(slot0) or slot0:getFinishTaskById(slot0)) and slot0:getTaskById() or slot0:getFinishTaskById():isFinish() and not slot0.getTaskById() or slot0.getFinishTaskById():isReceive()
+		end) then
+			slot3 = true
 		end
+
+		return slot3
 	end
 
-	if slot1.id == ActivityConst.NARVIK_PREVIEW_ID or slot1.id == ActivityConst.HUNTER_PT_ID then
-		return slot1:readyToAchieve()
-	end
-
-	return slot3
+	return slot1:readyToAchieve()
 end
 
 return slot0

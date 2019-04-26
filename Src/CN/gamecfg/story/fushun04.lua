@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-china",
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			say = "那里那里！快攻击！",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_school",
 			say = "我知道！看我的！超必杀！",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -62,13 +62,13 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			actorName = "抚顺&长春",
-			actor = 501024,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "哦哦哦…",
 			subActors = {
 				{
-					actor = 501034,
+					actor = 501030,
 					pos = {
 						x = 685
 					}
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501014,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "抚~~~顺！！你又捣乱了对不对！",
 			shake = {
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -239,7 +239,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "呜——",
 			shake = {
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			say = "呜——",
 			shake = {
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -376,7 +376,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -460,13 +460,13 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			actorName = "抚顺&长春",
-			actor = 501024,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "呜——",
 			subActors = {
 				{
-					actor = 501034,
+					actor = 501030,
 					pos = {
 						x = 685
 					}
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501014,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "真是让人怀念的东西啊…没想到竟然还能找出来…",
 			flashout = {
@@ -515,7 +515,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -535,7 +535,7 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actor = 501034,
+			actor = 501030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -554,7 +554,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 501014,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "哇啊！！长、长春？",
 			shake = {
@@ -572,7 +572,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -588,7 +588,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -604,7 +604,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -620,7 +620,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -636,7 +636,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -652,7 +652,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -668,7 +668,7 @@ return {
 			}
 		},
 		{
-			actor = 501014,
+			actor = 501010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -684,7 +684,7 @@ return {
 			}
 		},
 		{
-			actor = 501034,
+			actor = 501030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -703,7 +703,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 501014,
+			actor = 501010,
 			nameColor = "#a9f548",
 			say = "别擅自做这种奇怪的总结啦！",
 			shake = {
@@ -723,20 +723,20 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "太原&长春&抚顺",
-			actor = 501044,
+			actor = 501040,
 			blackBg = true,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "哈哈哈……",
 			subActors = {
 				{
-					actor = 501024,
+					actor = 501020,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 501034,
+					actor = 501030,
 					pos = {
 						x = 685
 					}

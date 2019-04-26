@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "再狡猾的狐狸，到了关键时刻也是会露出尾巴的呀，哈哈哈",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "既然已经知道了AF指的就是中途岛，那么我们就该尽快动身了",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "不要紧，港区的维修员奇迹般的只用了三天，就让我复原到了原来的状态~ 他们真是太可靠了",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "倒是企业你呀，要是再受了点什么意外擦伤，让女灶神小姐找上门告状的话，我可就没法交代了呵呵",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "这一次可是我们三姐妹难得的一起出击，一定要让大家看看我们约克城级的实力！",
@@ -159,14 +159,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "企业&大黄蜂",
-			actor = 107061,
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "好的！——为了碧蓝色的自由意志，天佑白鹰！",
 			subActors = {
 				{
-					actor = 107071,
+					actor = 107070,
 					pos = {
 						x = -550
 					}
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "白鹰第16、第17特遣舰队，出击！",

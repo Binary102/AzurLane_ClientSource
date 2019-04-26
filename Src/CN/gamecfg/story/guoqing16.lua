@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……翔…{namecode:95}姐？",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			say = "…约定……守护…………永远…",
 			actorName = "{namecode:95}",
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			actorName = "{namecode:92}",
 			dir = -1,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "这…这就是所谓的觉醒反应么…只要在合适的地点激发出心底最重要的一段类似的经历就…",
 			shake = {
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "{namecode:92}，先撤退，神谕里有记录，如果有觉醒的【棋子】出现，作为最高优先级上报日志",
 			shake = {
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			actorName = "{namecode:92}",
 			dir = -1,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "了解",
 			shake = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",

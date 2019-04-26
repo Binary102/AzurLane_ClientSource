@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "这里就是舰队专用的沙滩吗。",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "一望无际的碧蓝大海，砂子也很舒服……真是个好地方呢。",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "啊，半人马，你来啦，这边这边~~",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "标枪前辈上午好，今天就麻烦你了。",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "嗯～没事没事，指挥官为了之后能够无忧无虑地放假正在拼命工作呢，最近战斗任务也不多，就由我来做你的向导啦。",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -241,7 +241,7 @@ return {
 			say = "你看，那边阳伞下的是{namecode:92}小姐，和她身边的……咦，{namecode:91}小姐人呢？",
 			side = 0,
 			bgName = "star_level_bg_106",
-			actor = 900094,
+			actor = 201212,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900095,
+					actor = 307021,
 					pos = {
 						x = 750
 					}
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "那边的……是吗？",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_106",
-			actor = 900096,
+			actor = 307011,
 			nameColor = "#a9f548",
 			say = "今年也有不少害虫在打指挥官的主意呢，呵呵呵，我{namecode:91}是不会让你们得逞的！",
 			flashout = {
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900097,
+			actor = 303121,
 			actorName = "{namecode:67}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -353,7 +353,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900096,
+			actor = 307011,
 			actorName = "{namecode:91}",
 			say = "呵、呵呵、呵呵呵呵看来必须再进行一次大扫除了呢——",
 			typewriter = {
@@ -370,7 +370,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900097,
+			actor = 303121,
 			actorName = "{namecode:67}",
 			say = "哎呀呀，大扫除吗，我也来帮忙吧？",
 			typewriter = {
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "嗯嗯！重樱的各位还是一样关系很好呢！",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "欸，真的没事吗？",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "原来如此，前辈们真是充满活力呢！",
 			typewriter = {
@@ -466,7 +466,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "咦，那是…{namecode:66}前辈吧？",
 			flashout = {
@@ -496,7 +496,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
@@ -505,7 +505,7 @@ return {
 			say = "哦，{namecode:66}小姐在以她的方式进行着修行呢，“以蒙眼打西瓜来锻炼五感”什么的，不愧是{namecode:66}小姐~而且切好的西瓜也能供应给大家，一举两得呢~",
 			subActors = {
 				{
-					actor = 900098,
+					actor = 303112,
 					pos = {
 						x = 750
 					}
@@ -525,7 +525,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "原来如此……",
 			typewriter = {
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，顺利打破西瓜了呢。",
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -578,7 +578,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "我们也过去拿两片西瓜吧。",
 			typewriter = {
@@ -601,7 +601,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -622,7 +622,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "那真是太好了呢，标枪前辈~",
 			typewriter = {

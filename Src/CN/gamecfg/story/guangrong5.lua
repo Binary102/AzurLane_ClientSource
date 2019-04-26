@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "阿卡斯塔，不要偷懒，快来帮忙啦！我们答应了光荣要帮忙不是嘛！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "光荣你真的不要紧吗？这活可不轻啊。",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "没事，你看指挥官不也说了吗。",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "不过……",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "交给指挥官就行了吧。热心，咱们可以先忙完那边再回来啊。",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "指挥官，她们还有那边要忙，这里有我们俩就够了吧……",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 2,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "我们没事的！本来就是我们自己说要给光荣帮忙的……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "热心你过来……（窃窃私语）……好了，我们就先去收拾那边了。",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",

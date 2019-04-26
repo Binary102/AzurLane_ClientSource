@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			nameColor = "#a9f548",
 			say = "{namecode:87}，最近吾辈遇到了一件怪事",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 301171,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "终于快到万圣节之夜了！呼呼~吾的衣服好看吗？（转圈）",
 			flashout = {
@@ -334,7 +334,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -366,7 +366,7 @@ return {
 			}
 		},
 		{
-			actor = 900037,
+			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -398,7 +398,7 @@ return {
 			}
 		},
 		{
-			actor = 900037,
+			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			actorName = "{namecode:93}",
 			nameColor = "#ff0000",
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			actorName = "{namecode:93}",
 			nameColor = "#ff0000",

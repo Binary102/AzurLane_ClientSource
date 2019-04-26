@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 201231,
+			actor = 201230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 900025,
+			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -151,7 +151,7 @@ return {
 			actorName = "宁海",
 			side = 2,
 			dir = 1,
-			actor = 900025,
+			actor = 502022,
 			nameColor = "#a9f548",
 			say = "威尔士~我要抱~抱~",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900026,
+			actor = 502032,
 			actorName = "平海",
 			paintingFadeOut = {
 				time = 0.5,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 900026,
+			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

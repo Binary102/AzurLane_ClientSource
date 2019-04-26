@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "哈！吃我一发雪球齐射！",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 101261,
+			actor = 101260,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "啊呜呜呜…被、被打中了——",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "诶、诶…？只是打个雪仗而已，连SG都……",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 102131,
+			actor = 102130,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 205061,
+			actor = 205060,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -417,18 +417,18 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900156,
+			actor = 301601,
 			actorName = "众驱逐",
 			say = "噢！",
 			subActors = {
 				{
-					actor = 301611,
+					actor = 301610,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 301621,
+					actor = 301620,
 					pos = {
 						x = 750
 					}
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "呜……全身都是雪……不知不觉间差点变成雪人了……",
 			typewriter = {
@@ -501,7 +501,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -517,7 +517,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -533,7 +533,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -549,7 +549,7 @@ return {
 			}
 		},
 		{
-			actor = 399021,
+			actor = 399020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -569,7 +569,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 205061,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "重樱的新年吗……",
 			typewriter = {

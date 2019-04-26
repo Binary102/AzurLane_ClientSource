@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "哼，本大人在港区可是超人气的！",
 			flashout = {
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "指挥官只要你对{namecode:22}摇摇尾巴，{namecode:22}的尾巴也会给你摸两下的哟――嗯！？",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -145,7 +145,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 102064,
+			actor = 102060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 102074,
+			actor = 102070,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -181,7 +181,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301334,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "{namecode:34}…也想要运气……",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 203074,
+			actor = 203070,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 107074,
+			actor = 107070,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "好啦好啦，大家排队",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "哼！不、不过是蹭蹭尾巴毛罢了，本大人就满足你们——！",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actorName = "{namecode:78}",
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			say = "{namecode:22}酱果然是超人气呢……不过那样也很辛苦吧……",
 			flashout = {
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "好、好像是呢……啊哈哈哈……",
 			typewriter = {

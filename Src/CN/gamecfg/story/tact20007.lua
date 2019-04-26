@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…结束了…果然实战经验不足是硬伤吗，明明应该发挥防空能力的优势才对的…",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "果然这个世界和我料想的大不相同，太有趣了！",
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "那个…下次…还会有机会再一起玩吗…？",

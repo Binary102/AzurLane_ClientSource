@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			stopbgm = true,
 			say = "情况怎么样了？！",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			dir = 1,
 			withoutActorName = true,
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "经过检查，{namecode:161}大人由于种种原因，早在心智魔方成型之时便留下了巨大的缺陷…",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "因为我们的原因…在她进入镜面海域后，这种现象又发生了急剧恶化…",
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "恐怕…",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "…恐怕什么！？",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "恐怕她未来无法再以战舰的身份参与战斗了…可能就连普通生活也...",
 			typewriter = {
 				speed = 0.05,
@@ -169,7 +169,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 301791,
+			actor = 301790,
 			say = "包括正在接受航空母舰化改造中{namecode:91}大人…她…",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 305071,
+			actor = 305070,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "{namecode:140}…？",
 			flashout = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "还剩…还剩最后一步…就拜托你了…",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			dir = -1,
 			blackBg = true,
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#a9f548",
 			say = "我会照办的..{namecode:161}大人…",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -371,7 +371,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -476,7 +476,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

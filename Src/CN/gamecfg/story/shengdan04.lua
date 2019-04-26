@@ -32,13 +32,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:78}&{namecode:79}",
-			actor = 305014,
+			actor = 305010,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "我们回来了~",
 			subActors = {
 				{
-					actor = 900056,
+					actor = 305022,
 					pos = {
 						x = 685
 					}
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 900059,
+			actor = 301321,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 900059,
+			actor = 301321,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -251,7 +251,7 @@ return {
 			actorName = "{namecode:82}",
 			side = 2,
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "——好！那么重樱圣诞派对，现在开始~大家玩得开心！",
 			flashout = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 900059,
+			actor = 301321,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,

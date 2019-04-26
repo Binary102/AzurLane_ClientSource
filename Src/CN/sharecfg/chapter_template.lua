@@ -14,7 +14,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 6,
 		best_air_dominance = 150,
-		boss_expedition_id = 101000,
+		count = 0,
 		id = 101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -92,6 +92,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			101000
 		},
 		enemy_refresh = {
 			1
@@ -244,7 +247,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 12,
 		best_air_dominance = 150,
-		boss_expedition_id = 102000,
+		count = 0,
 		id = 102,
 		pre_chapter = 101,
 		star_require_1 = 1,
@@ -352,6 +355,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			102000
 		},
 		enemy_refresh = {
 			1,
@@ -583,7 +589,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 18,
 		best_air_dominance = 150,
-		boss_expedition_id = 103000,
+		count = 0,
 		id = 103,
 		pre_chapter = 102,
 		star_require_1 = 1,
@@ -709,6 +715,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			103000
 		},
 		enemy_refresh = {
 			1,
@@ -956,7 +965,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 24,
 		best_air_dominance = 150,
-		boss_expedition_id = 104000,
+		count = 0,
 		id = 104,
 		pre_chapter = 103,
 		star_require_1 = 1,
@@ -1150,6 +1159,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			104000
 		},
 		enemy_refresh = {
 			2,
@@ -1416,7 +1428,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 45,
 		best_air_dominance = 150,
-		boss_expedition_id = 201000,
+		count = 0,
 		id = 201,
 		pre_chapter = 104,
 		star_require_1 = 1,
@@ -1667,6 +1679,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			201000
 		},
 		enemy_refresh = {
 			2,
@@ -1930,14 +1945,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			4,
-			10001,
-			1,
-			6,
-			6
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -1971,7 +1979,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 55,
 		best_air_dominance = 150,
-		boss_expedition_id = 202000,
+		count = 0,
 		id = 202,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -2222,6 +2230,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			202000
 		},
 		enemy_refresh = {
 			2,
@@ -2572,7 +2583,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 65,
 		best_air_dominance = 150,
-		boss_expedition_id = 203000,
+		count = 0,
 		id = 203,
 		pre_chapter = 202,
 		star_require_1 = 1,
@@ -2823,6 +2834,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			203000
 		},
 		enemy_refresh = {
 			2,
@@ -3116,14 +3130,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			2,
-			10002,
-			1,
-			2,
-			5
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -3157,7 +3164,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 80,
 		best_air_dominance = 150,
-		boss_expedition_id = 204000,
+		count = 0,
 		id = 204,
 		pre_chapter = 203,
 		star_require_1 = 1,
@@ -3408,6 +3415,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			204000
 		},
 		enemy_refresh = {
 			2,
@@ -3705,7 +3715,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 110,
 		best_air_dominance = 150,
-		boss_expedition_id = 301000,
+		count = 0,
 		id = 301,
 		pre_chapter = 204,
 		star_require_1 = 1,
@@ -3958,6 +3968,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			301000
 		},
 		enemy_refresh = {
 			2,
@@ -4240,14 +4253,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			1,
-			10003,
-			1,
-			4,
-			7
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -4281,7 +4287,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 125,
 		best_air_dominance = 165,
-		boss_expedition_id = 302000,
+		count = 0,
 		id = 302,
 		pre_chapter = 301,
 		star_require_1 = 1,
@@ -4534,6 +4540,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			302000
 		},
 		enemy_refresh = {
 			2,
@@ -4874,7 +4883,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 145,
 		best_air_dominance = 190,
-		boss_expedition_id = 303000,
+		count = 0,
 		id = 303,
 		pre_chapter = 302,
 		star_require_1 = 1,
@@ -5127,6 +5136,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			303000
 		},
 		enemy_refresh = {
 			2,
@@ -5428,14 +5440,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			7,
-			10004,
-			1,
-			5,
-			1
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -5469,7 +5474,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 175,
 		best_air_dominance = 230,
-		boss_expedition_id = 304000,
+		count = 0,
 		id = 304,
 		pre_chapter = 303,
 		star_require_1 = 1,
@@ -5722,6 +5727,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			304000
 		},
 		enemy_refresh = {
 			2,
@@ -6009,14 +6017,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			0,
-			10005,
-			1,
-			6,
-			7
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -6050,7 +6051,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 175,
 		best_air_dominance = 230,
-		boss_expedition_id = 305000,
+		count = 0,
 		id = 305,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -6303,6 +6304,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			305000
 		},
 		enemy_refresh = {
 			2,
@@ -6662,14 +6666,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			0,
-			10005,
-			1,
-			6,
-			7
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -6703,7 +6700,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 120,
 		best_air_dominance = 160,
-		boss_expedition_id = 401000,
+		count = 0,
 		id = 401,
 		pre_chapter = 304,
 		star_require_1 = 1,
@@ -6830,6 +6827,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			401000
 		},
 		enemy_refresh = {
 			2,
@@ -7162,14 +7162,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			6,
-			10006,
-			1,
-			7,
-			2
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -7203,7 +7196,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 135,
 		best_air_dominance = 180,
-		boss_expedition_id = 402000,
+		count = 0,
 		id = 402,
 		pre_chapter = 401,
 		star_require_1 = 1,
@@ -7330,6 +7323,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			402000
 		},
 		enemy_refresh = {
 			3,
@@ -7655,14 +7651,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			7,
-			10007,
-			1,
-			7,
-			4
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -7696,7 +7685,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 155,
 		best_air_dominance = 205,
-		boss_expedition_id = 403000,
+		count = 0,
 		id = 403,
 		pre_chapter = 402,
 		star_require_1 = 1,
@@ -7823,6 +7812,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			403000
 		},
 		enemy_refresh = {
 			3,
@@ -8127,7 +8119,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 180,
 		best_air_dominance = 235,
-		boss_expedition_id = 404000,
+		count = 0,
 		id = 404,
 		pre_chapter = 403,
 		star_require_1 = 1,
@@ -8254,6 +8246,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			404000
 		},
 		enemy_refresh = {
 			3,
@@ -8661,14 +8656,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			8,
-			10008,
-			1,
-			7,
-			3
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -8702,7 +8690,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 180,
 		best_air_dominance = 235,
-		boss_expedition_id = 405000,
+		count = 0,
 		id = 405,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -8829,6 +8817,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			405000
 		},
 		enemy_refresh = {
 			3,
@@ -9287,14 +9278,7 @@ pg.chapter_template = {
 		defeat_story = {},
 		defeat_story_count = {},
 		npc_data = {},
-		activity_random_box = {
-			50,
-			8,
-			10008,
-			1,
-			7,
-			3
-		},
+		activity_random_box = {},
 		risk_levels = {
 			{
 				3,
@@ -9328,7 +9312,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 215,
 		best_air_dominance = 280,
-		boss_expedition_id = 501000,
+		count = 0,
 		id = 501,
 		pre_chapter = 404,
 		star_require_1 = 1,
@@ -9455,6 +9439,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			501000
 		},
 		enemy_refresh = {
 			3,
@@ -9901,7 +9888,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 250,
 		best_air_dominance = 325,
-		boss_expedition_id = 502000,
+		count = 0,
 		id = 502,
 		pre_chapter = 501,
 		star_require_1 = 1,
@@ -10028,6 +10015,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			502000
 		},
 		enemy_refresh = {
 			2,
@@ -10412,7 +10402,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 295,
 		best_air_dominance = 385,
-		boss_expedition_id = 503000,
+		count = 0,
 		id = 503,
 		pre_chapter = 502,
 		star_require_1 = 1,
@@ -10539,6 +10529,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			503000
 		},
 		enemy_refresh = {
 			3,
@@ -10893,7 +10886,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 345,
 		best_air_dominance = 450,
-		boss_expedition_id = 504000,
+		count = 0,
 		id = 504,
 		pre_chapter = 503,
 		star_require_1 = 1,
@@ -11020,6 +11013,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			504000
 		},
 		enemy_refresh = {
 			3,
@@ -11399,7 +11395,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 345,
 		best_air_dominance = 450,
-		boss_expedition_id = 505000,
+		count = 0,
 		id = 505,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -11526,6 +11522,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			505000
 		},
 		enemy_refresh = {
 			3,
@@ -11956,7 +11955,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 225,
 		best_air_dominance = 295,
-		boss_expedition_id = 601000,
+		count = 0,
 		id = 601,
 		pre_chapter = 504,
 		star_require_1 = 1,
@@ -12083,6 +12082,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			601000
 		},
 		enemy_refresh = {
 			3,
@@ -12500,7 +12502,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 255,
 		best_air_dominance = 335,
-		boss_expedition_id = 602000,
+		count = 0,
 		id = 602,
 		pre_chapter = 601,
 		star_require_1 = 1,
@@ -12627,6 +12629,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			602000
 		},
 		enemy_refresh = {
 			3,
@@ -13100,7 +13105,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 290,
 		best_air_dominance = 380,
-		boss_expedition_id = 603000,
+		count = 0,
 		id = 603,
 		pre_chapter = 602,
 		star_require_1 = 1,
@@ -13227,6 +13232,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			603000
 		},
 		enemy_refresh = {
 			4,
@@ -13624,7 +13632,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 325,
 		best_air_dominance = 425,
-		boss_expedition_id = 604000,
+		count = 0,
 		id = 604,
 		pre_chapter = 603,
 		star_require_1 = 1,
@@ -13751,6 +13759,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			604000
 		},
 		enemy_refresh = {
 			4,
@@ -14192,7 +14203,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 325,
 		best_air_dominance = 425,
-		boss_expedition_id = 605000,
+		count = 0,
 		id = 605,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -14319,6 +14330,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			605000
 		},
 		enemy_refresh = {
 			4,
@@ -14759,7 +14773,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 370,
 		best_air_dominance = 485,
-		boss_expedition_id = 701000,
+		count = 0,
 		id = 701,
 		pre_chapter = 604,
 		star_require_1 = 1,
@@ -14871,6 +14885,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			701000
 		},
 		enemy_refresh = {
 			3,
@@ -15150,7 +15167,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 425,
 		best_air_dominance = 555,
-		boss_expedition_id = 702000,
+		count = 0,
 		id = 702,
 		pre_chapter = 701,
 		star_require_1 = 1,
@@ -15262,6 +15279,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			702000
 		},
 		enemy_refresh = {
 			3,
@@ -15644,7 +15664,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 480,
 		best_air_dominance = 625,
-		boss_expedition_id = 703000,
+		count = 0,
 		id = 703,
 		pre_chapter = 702,
 		star_require_1 = 1,
@@ -15756,6 +15776,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			703000
 		},
 		enemy_refresh = {
 			3,
@@ -16209,7 +16232,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
-		boss_expedition_id = 704000,
+		count = 0,
 		id = 704,
 		pre_chapter = 703,
 		star_require_1 = 1,
@@ -16321,6 +16344,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			704000
 		},
 		enemy_refresh = {
 			3,
@@ -16758,7 +16784,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
-		boss_expedition_id = 705000,
+		count = 0,
 		id = 705,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -16870,6 +16896,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			705000
 		},
 		enemy_refresh = {
 			3,
@@ -17310,7 +17339,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 590,
 		best_air_dominance = 770,
-		boss_expedition_id = 801000,
+		count = 0,
 		id = 801,
 		pre_chapter = 704,
 		star_require_1 = 1,
@@ -17422,6 +17451,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			801000
 		},
 		enemy_refresh = {
 			3,
@@ -17723,7 +17755,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 650,
 		best_air_dominance = 845,
-		boss_expedition_id = 802000,
+		count = 0,
 		id = 802,
 		pre_chapter = 801,
 		star_require_1 = 1,
@@ -17835,6 +17867,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			802000
 		},
 		enemy_refresh = {
 			3,
@@ -18222,7 +18257,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 710,
 		best_air_dominance = 925,
-		boss_expedition_id = 803000,
+		count = 0,
 		id = 803,
 		pre_chapter = 802,
 		star_require_1 = 1,
@@ -18334,6 +18369,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			803000
 		},
 		enemy_refresh = {
 			3,
@@ -18784,7 +18822,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 770,
 		best_air_dominance = 1005,
-		boss_expedition_id = 804000,
+		count = 0,
 		id = 804,
 		pre_chapter = 803,
 		star_require_1 = 1,
@@ -18896,6 +18934,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			804000
 		},
 		enemy_refresh = {
 			3,
@@ -19409,7 +19450,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 770,
 		best_air_dominance = 1005,
-		boss_expedition_id = 805000,
+		count = 0,
 		id = 805,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -19521,6 +19562,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			805000
 		},
 		enemy_refresh = {
 			3,
@@ -20023,7 +20067,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 840,
 		best_air_dominance = 1095,
-		boss_expedition_id = 901000,
+		count = 0,
 		id = 901,
 		pre_chapter = 804,
 		star_require_1 = 1,
@@ -20135,6 +20179,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			901000
 		},
 		enemy_refresh = {
 			0,
@@ -20530,7 +20577,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		boss_expedition_id = 902000,
+		count = 0,
 		id = 902,
 		pre_chapter = 901,
 		star_require_1 = 1,
@@ -20642,6 +20689,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			902000
 		},
 		enemy_refresh = {
 			0,
@@ -21075,7 +21125,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 990,
 		best_air_dominance = 1290,
-		boss_expedition_id = 903000,
+		count = 0,
 		id = 903,
 		pre_chapter = 902,
 		star_require_1 = 1,
@@ -21187,6 +21237,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			903000
 		},
 		enemy_refresh = {
 			0,
@@ -21644,7 +21697,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1065,
 		best_air_dominance = 1385,
-		boss_expedition_id = 904000,
+		count = 0,
 		id = 904,
 		pre_chapter = 903,
 		star_require_1 = 1,
@@ -21756,6 +21809,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			904000
 		},
 		enemy_refresh = {
 			0,
@@ -22235,7 +22291,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1065,
 		best_air_dominance = 1385,
-		boss_expedition_id = 905000,
+		count = 0,
 		id = 905,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -22347,6 +22403,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			905000
 		},
 		enemy_refresh = {
 			0,
@@ -22836,7 +22895,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1155,
 		best_air_dominance = 1505,
-		boss_expedition_id = 1001000,
+		count = 0,
 		id = 1001,
 		pre_chapter = 904,
 		star_require_1 = 1,
@@ -22947,6 +23006,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1001000
 		},
 		enemy_refresh = {
 			0,
@@ -23362,7 +23424,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1250,
 		best_air_dominance = 1625,
-		boss_expedition_id = 1002000,
+		count = 0,
 		id = 1002,
 		pre_chapter = 1001,
 		star_require_1 = 1,
@@ -23473,6 +23535,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1002000
 		},
 		enemy_refresh = {
 			0,
@@ -23944,7 +24009,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1345,
 		best_air_dominance = 1750,
-		boss_expedition_id = 1003000,
+		count = 0,
 		id = 1003,
 		pre_chapter = 1002,
 		star_require_1 = 1,
@@ -24056,6 +24121,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1003000
 		},
 		enemy_refresh = {
 			0,
@@ -24543,7 +24611,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		boss_expedition_id = 1004000,
+		count = 0,
 		id = 1004,
 		pre_chapter = 1003,
 		star_require_1 = 1,
@@ -24656,6 +24724,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1004000
 		},
 		enemy_refresh = {
 			0,
@@ -25156,7 +25227,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		boss_expedition_id = 1005000,
+		count = 0,
 		id = 1005,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -25269,6 +25340,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1005000
 		},
 		enemy_refresh = {
 			0,
@@ -25758,7 +25832,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1520,
 		best_air_dominance = 1980,
-		boss_expedition_id = 1101000,
+		count = 0,
 		id = 1101,
 		pre_chapter = 1004,
 		star_require_1 = 1,
@@ -25869,6 +25943,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1101000
 		},
 		enemy_refresh = {
 			0,
@@ -26333,7 +26410,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1610,
 		best_air_dominance = 2095,
-		boss_expedition_id = 1102000,
+		count = 0,
 		id = 1102,
 		pre_chapter = 1101,
 		star_require_1 = 1,
@@ -26444,6 +26521,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1102000
 		},
 		enemy_refresh = {
 			0,
@@ -27023,7 +27103,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1700,
 		best_air_dominance = 2210,
-		boss_expedition_id = 1103000,
+		count = 0,
 		id = 1103,
 		pre_chapter = 1102,
 		star_require_1 = 1,
@@ -27135,6 +27215,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1103000
 		},
 		enemy_refresh = {
 			0,
@@ -27683,7 +27766,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1790,
 		best_air_dominance = 2330,
-		boss_expedition_id = 1104000,
+		count = 0,
 		id = 1104,
 		pre_chapter = 1103,
 		star_require_1 = 1,
@@ -27796,6 +27879,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1104000
 		},
 		enemy_refresh = {
 			0,
@@ -28452,7 +28538,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1790,
 		best_air_dominance = 2330,
-		boss_expedition_id = 1105000,
+		count = 0,
 		id = 1105,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -28565,6 +28651,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1105000
 		},
 		enemy_refresh = {
 			0,
@@ -29228,7 +29317,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1890,
 		best_air_dominance = 2460,
-		boss_expedition_id = 1201000,
+		count = 0,
 		id = 1201,
 		pre_chapter = 1104,
 		star_require_1 = 1,
@@ -29339,6 +29428,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1201000
 		},
 		enemy_refresh = {
 			0,
@@ -29781,7 +29873,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1995,
 		best_air_dominance = 2595,
-		boss_expedition_id = 1202000,
+		count = 0,
 		id = 1202,
 		pre_chapter = 1201,
 		star_require_1 = 1,
@@ -29892,6 +29984,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1202000
 		},
 		enemy_refresh = {
 			0,
@@ -30447,7 +30542,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2100,
 		best_air_dominance = 2730,
-		boss_expedition_id = 1203000,
+		count = 0,
 		id = 1203,
 		pre_chapter = 1202,
 		star_require_1 = 1,
@@ -30559,6 +30654,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1203000
 		},
 		enemy_refresh = {
 			0,
@@ -31149,7 +31247,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2205,
 		best_air_dominance = 2870,
-		boss_expedition_id = 1204000,
+		count = 0,
 		id = 1204,
 		pre_chapter = 1203,
 		star_require_1 = 1,
@@ -31262,6 +31360,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1204000
 		},
 		enemy_refresh = {
 			0,
@@ -31967,7 +32068,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2205,
 		best_air_dominance = 2870,
-		boss_expedition_id = 1205000,
+		count = 0,
 		id = 1205,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -32080,6 +32181,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1205000
 		},
 		enemy_refresh = {
 			0,
@@ -32792,7 +32896,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2315,
 		best_air_dominance = 3010,
-		boss_expedition_id = 1301000,
+		count = 0,
 		id = 1301,
 		pre_chapter = 1204,
 		star_require_1 = 1,
@@ -32917,6 +33021,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1301000
 		},
 		enemy_refresh = {
 			0,
@@ -33353,7 +33460,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2450,
 		best_air_dominance = 3185,
-		boss_expedition_id = 1302000,
+		count = 0,
 		id = 1302,
 		pre_chapter = 1301,
 		star_require_1 = 1,
@@ -33478,6 +33585,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1302000
 		},
 		enemy_refresh = {
 			0,
@@ -34019,7 +34129,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2585,
 		best_air_dominance = 3365,
-		boss_expedition_id = 1303000,
+		count = 0,
 		id = 1303,
 		pre_chapter = 1302,
 		star_require_1 = 1,
@@ -34145,6 +34255,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1303000
 		},
 		enemy_refresh = {
 			0,
@@ -34729,7 +34842,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2720,
 		best_air_dominance = 3540,
-		boss_expedition_id = 1304000,
+		count = 0,
 		id = 1304,
 		pre_chapter = 1303,
 		star_require_1 = 1,
@@ -34856,6 +34969,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1304000
 		},
 		enemy_refresh = {
 			0,
@@ -35548,7 +35664,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 2720,
 		best_air_dominance = 3540,
-		boss_expedition_id = 1305000,
+		count = 0,
 		id = 1305,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -35676,6 +35792,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			0
+		},
+		boss_expedition_id = {
+			1305000
 		},
 		enemy_refresh = {
 			0,
@@ -36389,7 +36508,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 81,
 		best_air_dominance = 150,
-		boss_expedition_id = 10500,
+		count = 0,
 		id = 10000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -36480,6 +36599,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10500
 		},
 		enemy_refresh = {
 			0,
@@ -36760,7 +36882,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 100,
 		best_air_dominance = 150,
-		boss_expedition_id = 10501,
+		count = 0,
 		id = 10001,
 		pre_chapter = 10000,
 		star_require_1 = 1,
@@ -36862,6 +36984,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10501
 		},
 		enemy_refresh = {
 			0,
@@ -37199,7 +37324,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 120,
 		best_air_dominance = 150,
-		boss_expedition_id = 10502,
+		count = 0,
 		id = 10002,
 		pre_chapter = 10001,
 		star_require_1 = 1,
@@ -37301,6 +37426,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10502
 		},
 		enemy_refresh = {
 			0,
@@ -37668,7 +37796,7 @@ pg.chapter_template = {
 		chapter_safe = 10101,
 		air_dominance = 45,
 		best_air_dominance = 150,
-		boss_expedition_id = 10101000,
+		count = 0,
 		id = 10101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -37775,6 +37903,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10101000
 		},
 		enemy_refresh = {
 			1
@@ -37934,7 +38065,7 @@ pg.chapter_template = {
 		chapter_safe = 10102,
 		air_dominance = 50,
 		best_air_dominance = 150,
-		boss_expedition_id = 10102000,
+		count = 0,
 		id = 10102,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38071,6 +38202,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10102000
 		},
 		enemy_refresh = {
 			1,
@@ -38307,7 +38441,7 @@ pg.chapter_template = {
 		chapter_safe = 10103,
 		air_dominance = 60,
 		best_air_dominance = 150,
-		boss_expedition_id = 10103000,
+		count = 0,
 		id = 10103,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38462,6 +38596,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10103000
 		},
 		enemy_refresh = {
 			1,
@@ -38716,7 +38853,7 @@ pg.chapter_template = {
 		chapter_safe = 10104,
 		air_dominance = 80,
 		best_air_dominance = 150,
-		boss_expedition_id = 10104000,
+		count = 0,
 		id = 10104,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38939,6 +39076,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10104000
 		},
 		enemy_refresh = {
 			2,
@@ -39208,7 +39348,7 @@ pg.chapter_template = {
 		chapter_safe = 10201,
 		air_dominance = 110,
 		best_air_dominance = 150,
-		boss_expedition_id = 10201000,
+		count = 0,
 		id = 10201,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -39500,6 +39640,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10201000
 		},
 		enemy_refresh = {
 			2,
@@ -39800,7 +39943,7 @@ pg.chapter_template = {
 		chapter_safe = 10202,
 		air_dominance = 135,
 		best_air_dominance = 180,
-		boss_expedition_id = 10202000,
+		count = 0,
 		id = 10202,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -40092,6 +40235,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10202000
 		},
 		enemy_refresh = {
 			2,
@@ -40445,7 +40591,7 @@ pg.chapter_template = {
 		chapter_safe = 10203,
 		air_dominance = 160,
 		best_air_dominance = 210,
-		boss_expedition_id = 10203000,
+		count = 0,
 		id = 10203,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -40737,6 +40883,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10203000
 		},
 		enemy_refresh = {
 			2,
@@ -41067,7 +41216,7 @@ pg.chapter_template = {
 		chapter_safe = 10204,
 		air_dominance = 190,
 		best_air_dominance = 250,
-		boss_expedition_id = 10204000,
+		count = 0,
 		id = 10204,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -41359,6 +41508,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10204000
 		},
 		enemy_refresh = {
 			2,
@@ -41659,7 +41811,7 @@ pg.chapter_template = {
 		chapter_safe = 10301,
 		air_dominance = 245,
 		best_air_dominance = 320,
-		boss_expedition_id = 10301000,
+		count = 0,
 		id = 10301,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -41953,6 +42105,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10301000
 		},
 		enemy_refresh = {
 			2,
@@ -42272,7 +42427,7 @@ pg.chapter_template = {
 		chapter_safe = 10302,
 		air_dominance = 285,
 		best_air_dominance = 375,
-		boss_expedition_id = 10302000,
+		count = 0,
 		id = 10302,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -42566,6 +42721,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10302000
 		},
 		enemy_refresh = {
 			2,
@@ -42909,7 +43067,7 @@ pg.chapter_template = {
 		chapter_safe = 10303,
 		air_dominance = 330,
 		best_air_dominance = 430,
-		boss_expedition_id = 10303000,
+		count = 0,
 		id = 10303,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -43203,6 +43361,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10303000
 		},
 		enemy_refresh = {
 			2,
@@ -43541,7 +43702,7 @@ pg.chapter_template = {
 		chapter_safe = 10304,
 		air_dominance = 380,
 		best_air_dominance = 495,
-		boss_expedition_id = 10304000,
+		count = 0,
 		id = 10304,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -43835,6 +43996,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10304000
 		},
 		enemy_refresh = {
 			2,
@@ -44159,7 +44323,7 @@ pg.chapter_template = {
 		chapter_safe = 10401,
 		air_dominance = 190,
 		best_air_dominance = 250,
-		boss_expedition_id = 10401000,
+		count = 0,
 		id = 10401,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -44327,6 +44491,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10401000
 		},
 		enemy_refresh = {
 			2,
@@ -44694,7 +44861,7 @@ pg.chapter_template = {
 		chapter_safe = 10402,
 		air_dominance = 220,
 		best_air_dominance = 290,
-		boss_expedition_id = 10402000,
+		count = 0,
 		id = 10402,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -44862,6 +45029,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10402000
 		},
 		enemy_refresh = {
 			3,
@@ -45222,7 +45392,7 @@ pg.chapter_template = {
 		chapter_safe = 10403,
 		air_dominance = 250,
 		best_air_dominance = 325,
-		boss_expedition_id = 10403000,
+		count = 0,
 		id = 10403,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -45390,6 +45560,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10403000
 		},
 		enemy_refresh = {
 			3,
@@ -45695,7 +45868,7 @@ pg.chapter_template = {
 		chapter_safe = 10404,
 		air_dominance = 285,
 		best_air_dominance = 375,
-		boss_expedition_id = 10404000,
+		count = 0,
 		id = 10404,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -45863,6 +46036,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10404000
 		},
 		enemy_refresh = {
 			3,
@@ -46305,7 +46481,7 @@ pg.chapter_template = {
 		chapter_safe = 10501,
 		air_dominance = 340,
 		best_air_dominance = 445,
-		boss_expedition_id = 10501000,
+		count = 0,
 		id = 10501,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -46473,6 +46649,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10501000
 		},
 		enemy_refresh = {
 			3,
@@ -46920,7 +47099,7 @@ pg.chapter_template = {
 		chapter_safe = 10502,
 		air_dominance = 380,
 		best_air_dominance = 495,
-		boss_expedition_id = 10502000,
+		count = 0,
 		id = 10502,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -47088,6 +47267,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10502000
 		},
 		enemy_refresh = {
 			2,
@@ -47473,7 +47655,7 @@ pg.chapter_template = {
 		chapter_safe = 10503,
 		air_dominance = 425,
 		best_air_dominance = 555,
-		boss_expedition_id = 10503000,
+		count = 0,
 		id = 10503,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -47641,6 +47823,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10503000
 		},
 		enemy_refresh = {
 			3,
@@ -47996,7 +48181,7 @@ pg.chapter_template = {
 		chapter_safe = 10504,
 		air_dominance = 475,
 		best_air_dominance = 620,
-		boss_expedition_id = 10504000,
+		count = 0,
 		id = 10504,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -48164,6 +48349,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10504000
 		},
 		enemy_refresh = {
 			3,
@@ -48544,7 +48732,7 @@ pg.chapter_template = {
 		chapter_safe = 10601,
 		air_dominance = 445,
 		best_air_dominance = 580,
-		boss_expedition_id = 10601000,
+		count = 0,
 		id = 10601,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -48712,6 +48900,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10601000
 		},
 		enemy_refresh = {
 			3,
@@ -49131,7 +49322,7 @@ pg.chapter_template = {
 		chapter_safe = 10602,
 		air_dominance = 510,
 		best_air_dominance = 665,
-		boss_expedition_id = 10602000,
+		count = 0,
 		id = 10602,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -49299,6 +49490,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10602000
 		},
 		enemy_refresh = {
 			3,
@@ -49774,7 +49968,7 @@ pg.chapter_template = {
 		chapter_safe = 10603,
 		air_dominance = 575,
 		best_air_dominance = 750,
-		boss_expedition_id = 10603000,
+		count = 0,
 		id = 10603,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -49942,6 +50136,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10603000
 		},
 		enemy_refresh = {
 			4,
@@ -50341,7 +50538,7 @@ pg.chapter_template = {
 		chapter_safe = 10604,
 		air_dominance = 645,
 		best_air_dominance = 840,
-		boss_expedition_id = 10604000,
+		count = 0,
 		id = 10604,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -50509,6 +50706,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10604000
 		},
 		enemy_refresh = {
 			4,
@@ -50952,7 +51152,7 @@ pg.chapter_template = {
 		chapter_safe = 10701,
 		air_dominance = 720,
 		best_air_dominance = 940,
-		boss_expedition_id = 10701000,
+		count = 0,
 		id = 10701,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -51105,6 +51305,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10701000
 		},
 		enemy_refresh = {
 			3,
@@ -51388,7 +51591,7 @@ pg.chapter_template = {
 		chapter_safe = 10702,
 		air_dominance = 800,
 		best_air_dominance = 1040,
-		boss_expedition_id = 10702000,
+		count = 0,
 		id = 10702,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -51541,6 +51744,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10702000
 		},
 		enemy_refresh = {
 			3,
@@ -51927,7 +52133,7 @@ pg.chapter_template = {
 		chapter_safe = 10703,
 		air_dominance = 880,
 		best_air_dominance = 1145,
-		boss_expedition_id = 10703000,
+		count = 0,
 		id = 10703,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -52080,6 +52286,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10703000
 		},
 		enemy_refresh = {
 			3,
@@ -52537,7 +52746,7 @@ pg.chapter_template = {
 		chapter_safe = 10704,
 		air_dominance = 965,
 		best_air_dominance = 1255,
-		boss_expedition_id = 10704000,
+		count = 0,
 		id = 10704,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -52690,6 +52899,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10704000
 		},
 		enemy_refresh = {
 			3,
@@ -53131,7 +53343,7 @@ pg.chapter_template = {
 		chapter_safe = 10801,
 		air_dominance = 1055,
 		best_air_dominance = 1375,
-		boss_expedition_id = 10801000,
+		count = 0,
 		id = 10801,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -53284,6 +53496,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10801000
 		},
 		enemy_refresh = {
 			3,
@@ -53589,7 +53804,7 @@ pg.chapter_template = {
 		chapter_safe = 10802,
 		air_dominance = 1150,
 		best_air_dominance = 1495,
-		boss_expedition_id = 10802000,
+		count = 0,
 		id = 10802,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -53742,6 +53957,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10802000
 		},
 		enemy_refresh = {
 			3,
@@ -54133,7 +54351,7 @@ pg.chapter_template = {
 		chapter_safe = 10803,
 		air_dominance = 1245,
 		best_air_dominance = 1620,
-		boss_expedition_id = 10803000,
+		count = 0,
 		id = 10803,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -54286,6 +54504,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10803000
 		},
 		enemy_refresh = {
 			3,
@@ -54740,7 +54961,7 @@ pg.chapter_template = {
 		chapter_safe = 10804,
 		air_dominance = 1350,
 		best_air_dominance = 1755,
-		boss_expedition_id = 10804000,
+		count = 0,
 		id = 10804,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -54893,6 +55114,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10804000
 		},
 		enemy_refresh = {
 			3,
@@ -55410,7 +55634,7 @@ pg.chapter_template = {
 		chapter_safe = 10901,
 		air_dominance = 1440,
 		best_air_dominance = 1875,
-		boss_expedition_id = 10901000,
+		count = 0,
 		id = 10901,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -55563,6 +55787,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10901000
 		},
 		enemy_refresh = {
 			0,
@@ -55962,7 +56189,7 @@ pg.chapter_template = {
 		chapter_safe = 10902,
 		air_dominance = 1535,
 		best_air_dominance = 2000,
-		boss_expedition_id = 10902000,
+		count = 0,
 		id = 10902,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -56115,6 +56342,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10902000
 		},
 		enemy_refresh = {
 			0,
@@ -56552,7 +56782,7 @@ pg.chapter_template = {
 		chapter_safe = 10903,
 		air_dominance = 1635,
 		best_air_dominance = 2130,
-		boss_expedition_id = 10903000,
+		count = 0,
 		id = 10903,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -56705,6 +56935,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10903000
 		},
 		enemy_refresh = {
 			0,
@@ -57166,7 +57399,7 @@ pg.chapter_template = {
 		chapter_safe = 10904,
 		air_dominance = 1735,
 		best_air_dominance = 2260,
-		boss_expedition_id = 10904000,
+		count = 0,
 		id = 10904,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -57319,6 +57552,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10904000
 		},
 		enemy_refresh = {
 			0,
@@ -57802,7 +58038,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 0,
+		count = 0,
 		id = 20001,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -57914,6 +58150,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			0
 		},
 		enemy_refresh = {
 			0,
@@ -58254,7 +58493,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 0,
+		count = 0,
 		id = 20002,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -58366,6 +58605,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			0
 		},
 		enemy_refresh = {
 			0,
@@ -58758,7 +59000,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 0,
+		count = 0,
 		id = 20003,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -58870,6 +59112,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			0
 		},
 		enemy_refresh = {
 			1,
@@ -59354,7 +59599,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000016,
+		count = 0,
 		id = 1000001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -59472,6 +59717,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000016
 		},
 		enemy_refresh = {
 			3,
@@ -59788,7 +60036,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000032,
+		count = 0,
 		id = 1000002,
 		pre_chapter = 1000001,
 		star_require_1 = 1,
@@ -59906,6 +60154,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000032
 		},
 		enemy_refresh = {
 			3,
@@ -60284,7 +60535,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000048,
+		count = 0,
 		id = 1000003,
 		pre_chapter = 1000002,
 		star_require_1 = 1,
@@ -60402,6 +60653,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000048
 		},
 		enemy_refresh = {
 			3,
@@ -60850,7 +61104,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000064,
+		count = 0,
 		id = 1000004,
 		pre_chapter = 1000003,
 		star_require_1 = 1,
@@ -60968,6 +61222,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000064
 		},
 		enemy_refresh = {
 			4,
@@ -61467,7 +61724,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000080,
+		count = 0,
 		id = 1000005,
 		pre_chapter = 1000004,
 		star_require_1 = 1,
@@ -61585,6 +61842,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000080
 		},
 		enemy_refresh = {
 			3,
@@ -61919,7 +62179,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000096,
+		count = 0,
 		id = 1000006,
 		pre_chapter = 1000005,
 		star_require_1 = 1,
@@ -62037,6 +62297,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000096
 		},
 		enemy_refresh = {
 			3,
@@ -62368,7 +62631,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000112,
+		count = 0,
 		id = 1000007,
 		pre_chapter = 1000006,
 		star_require_1 = 1,
@@ -62486,6 +62749,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000112
 		},
 		enemy_refresh = {
 			3,
@@ -63003,7 +63269,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000128,
+		count = 0,
 		id = 1000008,
 		pre_chapter = 1000007,
 		star_require_1 = 1,
@@ -63121,6 +63387,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000128
 		},
 		enemy_refresh = {
 			3,
@@ -63836,7 +64105,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000215,
+		count = 0,
 		id = 1000011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -63995,6 +64264,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000215
 		},
 		enemy_refresh = {
 			3,
@@ -64311,7 +64583,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000231,
+		count = 0,
 		id = 1000012,
 		pre_chapter = 1000011,
 		star_require_1 = 1,
@@ -64470,6 +64742,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000231
 		},
 		enemy_refresh = {
 			3,
@@ -64848,7 +65123,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000247,
+		count = 0,
 		id = 1000013,
 		pre_chapter = 1000012,
 		star_require_1 = 1,
@@ -65007,6 +65282,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000247
 		},
 		enemy_refresh = {
 			3,
@@ -65455,7 +65733,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000263,
+		count = 0,
 		id = 1000014,
 		pre_chapter = 1000013,
 		star_require_1 = 1,
@@ -65614,6 +65892,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000263
 		},
 		enemy_refresh = {
 			4,
@@ -66113,7 +66394,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000279,
+		count = 0,
 		id = 1000015,
 		pre_chapter = 1000014,
 		star_require_1 = 1,
@@ -66272,6 +66553,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000279
 		},
 		enemy_refresh = {
 			3,
@@ -66606,7 +66890,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000295,
+		count = 0,
 		id = 1000016,
 		pre_chapter = 1000015,
 		star_require_1 = 1,
@@ -66765,6 +67049,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000295
 		},
 		enemy_refresh = {
 			3,
@@ -67096,7 +67383,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000311,
+		count = 0,
 		id = 1000017,
 		pre_chapter = 1000016,
 		star_require_1 = 1,
@@ -67255,6 +67542,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000311
 		},
 		enemy_refresh = {
 			3,
@@ -67772,7 +68062,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000327,
+		count = 0,
 		id = 1000018,
 		pre_chapter = 1000017,
 		star_require_1 = 1,
@@ -67931,6 +68221,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000327
 		},
 		enemy_refresh = {
 			3,
@@ -68646,7 +68939,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1010500,
+		count = 0,
 		id = 1010000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -68762,6 +69055,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1010500
 		},
 		enemy_refresh = {
 			1,
@@ -69109,7 +69405,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1011500,
+		count = 0,
 		id = 1011000,
 		pre_chapter = 1010000,
 		star_require_1 = 1,
@@ -69225,6 +69521,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1011500
 		},
 		enemy_refresh = {
 			1,
@@ -69602,7 +69901,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1012500,
+		count = 0,
 		id = 1012000,
 		pre_chapter = 1011000,
 		star_require_1 = 1,
@@ -69718,6 +70017,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1012500
 		},
 		enemy_refresh = {
 			2,
@@ -70114,7 +70416,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1020500,
+		count = 0,
 		id = 1020000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -70230,6 +70532,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1020500
 		},
 		enemy_refresh = {
 			0,
@@ -70616,7 +70921,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1021500,
+		count = 0,
 		id = 1020001,
 		pre_chapter = 1020000,
 		star_require_1 = 1,
@@ -70732,6 +71037,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1021500
 		},
 		enemy_refresh = {
 			0,
@@ -71193,7 +71501,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1022500,
+		count = 0,
 		id = 1020002,
 		pre_chapter = 1020001,
 		star_require_1 = 1,
@@ -71309,6 +71617,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1022500
 		},
 		enemy_refresh = {
 			0,
@@ -71909,7 +72220,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1050500,
+		count = 0,
 		id = 1050001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -72025,6 +72336,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1050500
 		},
 		enemy_refresh = {
 			0,
@@ -72464,7 +72778,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1051500,
+		count = 0,
 		id = 1050002,
 		pre_chapter = 1050001,
 		star_require_1 = 1,
@@ -72580,6 +72894,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1051500
 		},
 		enemy_refresh = {
 			0,
@@ -73021,7 +73338,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1052500,
+		count = 0,
 		id = 1050003,
 		pre_chapter = 1050002,
 		star_require_1 = 1,
@@ -73137,6 +73454,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1052500
 		},
 		enemy_refresh = {
 			0,
@@ -73701,7 +74021,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1050500,
+		count = 0,
 		id = 1050011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -73817,6 +74137,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1050500
 		},
 		enemy_refresh = {
 			0,
@@ -74256,7 +74579,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1051500,
+		count = 0,
 		id = 1050012,
 		pre_chapter = 1050011,
 		star_require_1 = 1,
@@ -74372,6 +74695,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1051500
 		},
 		enemy_refresh = {
 			0,
@@ -74813,7 +75139,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1052500,
+		count = 0,
 		id = 1050013,
 		pre_chapter = 1050012,
 		star_require_1 = 1,
@@ -74929,6 +75255,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1052500
 		},
 		enemy_refresh = {
 			0,
@@ -75493,7 +75822,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060016,
+		count = 0,
 		id = 1060001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -75611,6 +75940,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060016
 		},
 		enemy_refresh = {
 			1,
@@ -75907,7 +76239,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060032,
+		count = 0,
 		id = 1060002,
 		pre_chapter = 1060001,
 		star_require_1 = 1,
@@ -76025,6 +76357,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060032
 		},
 		enemy_refresh = {
 			0,
@@ -76411,7 +76746,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060048,
+		count = 0,
 		id = 1060003,
 		pre_chapter = 1060002,
 		star_require_1 = 1,
@@ -76530,6 +76865,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060048
 		},
 		enemy_refresh = {
 			0,
@@ -77001,7 +77339,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060064,
+		count = 0,
 		id = 1060004,
 		pre_chapter = 1060003,
 		star_require_1 = 1,
@@ -77120,6 +77458,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060064
 		},
 		enemy_refresh = {
 			0,
@@ -77565,7 +77906,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060080,
+		count = 0,
 		id = 1060005,
 		pre_chapter = 1060004,
 		star_require_1 = 1,
@@ -77684,6 +78025,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060080
 		},
 		enemy_refresh = {
 			0,
@@ -78228,7 +78572,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060096,
+		count = 0,
 		id = 1060006,
 		pre_chapter = 1060005,
 		star_require_1 = 1,
@@ -78348,6 +78692,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060096
 		},
 		enemy_refresh = {
 			0,
@@ -79053,7 +79400,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060215,
+		count = 0,
 		id = 1060011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -79212,6 +79559,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060215
 		},
 		enemy_refresh = {
 			1,
@@ -79508,7 +79858,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060231,
+		count = 0,
 		id = 1060012,
 		pre_chapter = 1060011,
 		star_require_1 = 1,
@@ -79667,6 +80017,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060231
 		},
 		enemy_refresh = {
 			0,
@@ -80053,7 +80406,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060247,
+		count = 0,
 		id = 1060013,
 		pre_chapter = 1060012,
 		star_require_1 = 1,
@@ -80213,6 +80566,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060247
 		},
 		enemy_refresh = {
 			0,
@@ -80684,7 +81040,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060263,
+		count = 0,
 		id = 1060014,
 		pre_chapter = 1060013,
 		star_require_1 = 1,
@@ -80844,6 +81200,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060263
 		},
 		enemy_refresh = {
 			0,
@@ -81289,7 +81648,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060279,
+		count = 0,
 		id = 1060015,
 		pre_chapter = 1060014,
 		star_require_1 = 1,
@@ -81449,6 +81808,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060279
 		},
 		enemy_refresh = {
 			0,
@@ -81993,7 +82355,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060295,
+		count = 0,
 		id = 1060016,
 		pre_chapter = 1060015,
 		star_require_1 = 1,
@@ -82154,6 +82516,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060295
 		},
 		enemy_refresh = {
 			0,
@@ -82859,7 +83224,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1071500,
+		count = 0,
 		id = 1070101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -82975,6 +83340,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1071500
 		},
 		enemy_refresh = {
 			0,
@@ -83398,7 +83766,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1072500,
+		count = 0,
 		id = 1070102,
 		pre_chapter = 1070101,
 		star_require_1 = 1,
@@ -83514,6 +83882,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1072500
 		},
 		enemy_refresh = {
 			0,
@@ -84036,7 +84407,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1073500,
+		count = 0,
 		id = 1070103,
 		pre_chapter = 1070102,
 		star_require_1 = 1,
@@ -84152,6 +84523,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1073500
 		},
 		enemy_refresh = {
 			0,
@@ -84732,7 +85106,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1071500,
+		count = 0,
 		id = 1070201,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -84848,6 +85222,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1071500
 		},
 		enemy_refresh = {
 			0,
@@ -85287,7 +85664,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1072500,
+		count = 0,
 		id = 1070202,
 		pre_chapter = 1070201,
 		star_require_1 = 1,
@@ -85403,6 +85780,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1072500
 		},
 		enemy_refresh = {
 			0,
@@ -85941,7 +86321,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1073500,
+		count = 0,
 		id = 1070203,
 		pre_chapter = 1070202,
 		star_require_1 = 1,
@@ -86057,6 +86437,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1073500
 		},
 		enemy_refresh = {
 			0,
@@ -86653,7 +87036,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1081500,
+		count = 0,
 		id = 1080001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -86769,6 +87152,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1081500
 		},
 		enemy_refresh = {
 			0,
@@ -87141,7 +87527,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1082500,
+		count = 0,
 		id = 1080002,
 		pre_chapter = 1080001,
 		star_require_1 = 1,
@@ -87257,6 +87643,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1082500
 		},
 		enemy_refresh = {
 			0,
@@ -87734,7 +88123,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1083500,
+		count = 0,
 		id = 1080003,
 		pre_chapter = 1080002,
 		star_require_1 = 1,
@@ -87850,6 +88239,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1083500
 		},
 		enemy_refresh = {
 			0,
@@ -88320,7 +88712,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1084500,
+		count = 0,
 		id = 1080004,
 		pre_chapter = 1080003,
 		star_require_1 = 1,
@@ -88436,6 +88828,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1084500
 		},
 		enemy_refresh = {
 			0,
@@ -89019,7 +89414,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1085500,
+		count = 0,
 		id = 1080005,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -89176,6 +89571,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1085500
 		},
 		enemy_refresh = {
 			0,
@@ -89765,7 +90163,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090016,
+		count = 0,
 		id = 1090001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -89883,6 +90281,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090016
 		},
 		enemy_refresh = {
 			0,
@@ -90234,7 +90635,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090032,
+		count = 0,
 		id = 1090002,
 		pre_chapter = 1090001,
 		star_require_1 = 1,
@@ -90353,6 +90754,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090032
 		},
 		enemy_refresh = {
 			0,
@@ -90735,7 +91139,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090048,
+		count = 0,
 		id = 1090003,
 		pre_chapter = 1090002,
 		star_require_1 = 1,
@@ -90854,6 +91258,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090048
 		},
 		enemy_refresh = {
 			0,
@@ -91294,7 +91701,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090064,
+		count = 0,
 		id = 1090004,
 		pre_chapter = 1090003,
 		star_require_1 = 1,
@@ -91413,6 +91820,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090064
 		},
 		enemy_refresh = {
 			0,
@@ -91864,7 +92274,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090080,
+		count = 0,
 		id = 1090005,
 		pre_chapter = 1090004,
 		star_require_1 = 1,
@@ -91984,6 +92394,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090080
 		},
 		enemy_refresh = {
 			0,
@@ -92512,7 +92925,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090096,
+		count = 0,
 		id = 1090006,
 		pre_chapter = 1090005,
 		star_require_1 = 1,
@@ -92633,6 +93046,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090096
 		},
 		enemy_refresh = {
 			0,
@@ -93335,7 +93751,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090215,
+		count = 0,
 		id = 1090011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -93494,6 +93910,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090215
 		},
 		enemy_refresh = {
 			0,
@@ -93859,7 +94278,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090231,
+		count = 0,
 		id = 1090012,
 		pre_chapter = 1090011,
 		star_require_1 = 1,
@@ -94019,6 +94438,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090231
 		},
 		enemy_refresh = {
 			0,
@@ -94415,7 +94837,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090247,
+		count = 0,
 		id = 1090013,
 		pre_chapter = 1090012,
 		star_require_1 = 1,
@@ -94575,6 +94997,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090247
 		},
 		enemy_refresh = {
 			0,
@@ -95029,7 +95454,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090263,
+		count = 0,
 		id = 1090014,
 		pre_chapter = 1090013,
 		star_require_1 = 1,
@@ -95189,6 +95614,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090263
 		},
 		enemy_refresh = {
 			0,
@@ -95654,7 +96082,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090279,
+		count = 0,
 		id = 1090015,
 		pre_chapter = 1090014,
 		star_require_1 = 1,
@@ -95815,6 +96243,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090279
 		},
 		enemy_refresh = {
 			0,
@@ -96357,7 +96788,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090295,
+		count = 0,
 		id = 1090016,
 		pre_chapter = 1090015,
 		star_require_1 = 1,
@@ -96519,6 +96950,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090295
 		},
 		enemy_refresh = {
 			0,
@@ -97235,7 +97669,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090311,
+		count = 0,
 		id = 1090017,
 		pre_chapter = 1090016,
 		star_require_1 = 1,
@@ -97394,6 +97828,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090311
 		},
 		enemy_refresh = {
 			0,
@@ -98062,14 +98499,14 @@ pg.chapter_template = {
 		progress_boss = 50,
 		pos_x = "0.33125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030016,
+		count = 0,
 		id = 1100001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -98087,7 +98524,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "GUOQING3",
-		boss_refresh = 5,
+		boss_refresh = 3,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -98099,7 +98536,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
 		difficulty = 3,
-		avoid_ratio = 10,
+		avoid_ratio = 8,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -98188,10 +98625,11 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030016
+		},
 		enemy_refresh = {
 			0,
-			1,
-			1,
 			1,
 			1
 		},
@@ -98230,6 +98668,10 @@ pg.chapter_template = {
 			{
 				2,
 				54023
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -98542,7 +98984,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			0,
+			0,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -98575,14 +99021,14 @@ pg.chapter_template = {
 		progress_boss = 34,
 		pos_x = "0.56328125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030032,
+		count = 0,
 		id = 1100002,
 		pre_chapter = 1100001,
 		star_require_1 = 1,
@@ -98600,7 +99046,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "GUOQING6",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -98612,7 +99058,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
 		difficulty = 4,
-		avoid_ratio = 11,
+		avoid_ratio = 9,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -98701,9 +99147,11 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030032
+		},
 		enemy_refresh = {
 			0,
-			1,
 			1,
 			1,
 			1
@@ -98744,6 +99192,10 @@ pg.chapter_template = {
 			{
 				2,
 				54023
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -99112,7 +99564,9 @@ pg.chapter_template = {
 		},
 		box_refresh = {
 			0,
-			1
+			1,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -99145,14 +99599,14 @@ pg.chapter_template = {
 		progress_boss = 34,
 		pos_x = "0.690625",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030048,
+		count = 0,
 		id = 1100003,
 		pre_chapter = 1100002,
 		star_require_1 = 1,
@@ -99170,7 +99624,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "GUOQING8",
-		boss_refresh = 6,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -99182,7 +99636,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
 		difficulty = 5,
-		avoid_ratio = 12,
+		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -99271,10 +99725,12 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030048
+		},
 		enemy_refresh = {
 			0,
-			1,
-			1,
+			2,
 			1,
 			1
 		},
@@ -99313,6 +99769,10 @@ pg.chapter_template = {
 			{
 				2,
 				54023
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -99749,7 +100209,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			1,
+			1,
+			1,
+			1
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -99782,14 +100246,14 @@ pg.chapter_template = {
 		progress_boss = 25,
 		pos_x = "0.26875",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030064,
+		count = 0,
 		id = 1100004,
 		pre_chapter = 1100003,
 		star_require_1 = 1,
@@ -99807,7 +100271,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "",
-		boss_refresh = 6,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -99819,7 +100283,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人知的秘密",
 		difficulty = 5,
-		avoid_ratio = 12,
+		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -99908,6 +100372,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030064
+		},
 		enemy_refresh = {
 			0,
 			1,
@@ -99950,6 +100417,10 @@ pg.chapter_template = {
 			{
 				2,
 				54023
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -100336,7 +100807,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			0,
+			1,
+			1,
+			1
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -100369,14 +100844,14 @@ pg.chapter_template = {
 		progress_boss = 25,
 		pos_x = "0.6703125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030080,
+		count = 0,
 		id = 1100005,
 		pre_chapter = 1100004,
 		star_require_1 = 1,
@@ -100394,7 +100869,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "GUOQING14",
-		boss_refresh = 6,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -100406,7 +100881,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
 		difficulty = 6,
-		avoid_ratio = 13,
+		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -100495,6 +100970,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030080
+		},
 		enemy_refresh = {
 			0,
 			1,
@@ -100537,6 +101015,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -101025,7 +101507,8 @@ pg.chapter_template = {
 			0,
 			0,
 			0,
-			1
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -101058,14 +101541,14 @@ pg.chapter_template = {
 		progress_boss = 25,
 		pos_x = "0.5421875",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030096,
+		count = 0,
 		id = 1100006,
 		pre_chapter = 1100005,
 		star_require_1 = 1,
@@ -101083,7 +101566,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 87,
 		enter_story = "GUOQING17",
-		boss_refresh = 7,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -101095,7 +101578,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
 		difficulty = 7,
-		avoid_ratio = 14,
+		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -101184,6 +101667,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030096
+		},
 		enemy_refresh = {
 			0,
 			1,
@@ -101228,6 +101714,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -101709,7 +102199,10 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			1,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -101742,14 +102235,14 @@ pg.chapter_template = {
 		progress_boss = 34,
 		pos_x = "0.33125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING4",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030215,
+		count = 0,
 		id = 1100011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -101779,7 +102272,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "穿越风暴，与同伴离散，{namecode:96}独自一人踏上了枫叶飘零的未知海域，这里就是大家苦苦寻找的“圣域”吗？",
 		difficulty = 6,
-		avoid_ratio = 14,
+		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -101805,7 +102298,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -101819,17 +102312,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				70
+				60
 			},
 			{
 				"torpedo",
 				1,
-				700
+				550
 			},
 			{
 				"dodge",
 				1,
-				400
+				320
 			}
 		},
 		expedition_id_weight_list = {
@@ -101909,6 +102402,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030215
+		},
 		enemy_refresh = {
 			0,
 			2,
@@ -101951,6 +102447,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -102263,7 +102763,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			0,
+			0,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -102296,14 +102800,14 @@ pg.chapter_template = {
 		progress_boss = 34,
 		pos_x = "0.56328125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING7",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030231,
+		count = 0,
 		id = 1100012,
 		pre_chapter = 1100011,
 		star_require_1 = 1,
@@ -102321,7 +102825,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 87,
 		enter_story = "GUOQING6",
-		boss_refresh = 6,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -102333,7 +102837,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "就在{namecode:96}焦急又茫然地寻找同伴与姐姐之时，突然从前方海域传来了求救的信号，是陷阱？还是同伴？无论如何，唯有前往一探究竟了",
 		difficulty = 7,
-		avoid_ratio = 15,
+		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -102359,7 +102863,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -102373,17 +102877,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				73
+				64
 			},
 			{
 				"cannon",
 				1,
-				850
+				650
 			},
 			{
 				"dodge",
 				1,
-				450
+				360
 			}
 		},
 		expedition_id_weight_list = {
@@ -102463,6 +102967,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030231
+		},
 		enemy_refresh = {
 			0,
 			2,
@@ -102506,6 +103013,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -102874,7 +103385,9 @@ pg.chapter_template = {
 		},
 		box_refresh = {
 			0,
-			1
+			1,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -102907,14 +103420,14 @@ pg.chapter_template = {
 		progress_boss = 25,
 		pos_x = "0.690625",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING9",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030247,
+		count = 0,
 		id = 1100013,
 		pre_chapter = 1100012,
 		star_require_1 = 1,
@@ -102932,7 +103445,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 87,
 		enter_story = "GUOQING8",
-		boss_refresh = 6,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -102944,7 +103457,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "根据先前收集的情报，这里毋庸置疑正是传说中的“圣域”，“她们”究竟在谋划什么？仿佛响应着疑惑一般，脱胎换骨的{namecode:79}挡在了{namecode:96}的眼前",
 		difficulty = 8,
-		avoid_ratio = 16,
+		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -102970,7 +103483,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					4,
+					5,
 					0
 				},
 				{
@@ -102984,17 +103497,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				76
+				68
 			},
 			{
 				"cannon",
 				1,
-				950
+				750
 			},
 			{
 				"air",
 				-1,
-				2000
+				1800
 			}
 		},
 		expedition_id_weight_list = {
@@ -103074,6 +103587,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030247
+		},
 		enemy_refresh = {
 			0,
 			1,
@@ -103117,6 +103633,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -103553,7 +104073,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			1,
+			1,
+			1,
+			1
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -103586,14 +104110,14 @@ pg.chapter_template = {
 		progress_boss = 25,
 		pos_x = "0.26875",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING12",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030263,
+		count = 0,
 		id = 1100014,
 		pre_chapter = 1100013,
 		star_require_1 = 1,
@@ -103611,7 +104135,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 87,
 		enter_story = "",
-		boss_refresh = 6,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -103623,7 +104147,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "枫叶飘零的岛屿，神社、参道，令人心醉而又怀念的风景之下，隐藏着不为人之的秘密",
 		difficulty = 8,
-		avoid_ratio = 15,
+		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -103637,7 +104161,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -103663,17 +104187,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				80
+				72
 			},
 			{
 				"torpedo",
 				1,
-				800
+				750
 			},
 			{
 				"dodge",
 				1,
-				550
+				450
 			}
 		},
 		expedition_id_weight_list = {
@@ -103753,6 +104277,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030263
+		},
 		enemy_refresh = {
 			0,
 			1,
@@ -103796,6 +104323,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -104182,7 +104713,11 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			0,
+			1,
+			1,
+			1
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -104215,14 +104750,14 @@ pg.chapter_template = {
 		progress_boss = 20,
 		pos_x = "0.6703125",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING15",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030279,
+		count = 0,
 		id = 1100015,
 		pre_chapter = 1100014,
 		star_require_1 = 1,
@@ -104240,7 +104775,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 87,
 		enter_story = "GUOQING14",
-		boss_refresh = 7,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -104252,7 +104787,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「明明已经不想再让这种事情发生了…明明已经下定决心要变得坚强…但是为什么…为什么会变成这样呢…{namecode:95}姐！」",
 		difficulty = 9,
-		avoid_ratio = 16,
+		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -104266,7 +104801,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -104292,17 +104827,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				83
+				76
 			},
 			{
 				"air",
 				1,
-				1200
+				900
 			},
 			{
 				"antiaircraft",
 				1,
-				1800
+				1400
 			}
 		},
 		expedition_id_weight_list = {
@@ -104382,6 +104917,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030279
+		},
 		enemy_refresh = {
 			0,
 			2,
@@ -104425,6 +104963,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -104913,7 +105455,8 @@ pg.chapter_template = {
 			0,
 			0,
 			0,
-			1
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -104946,14 +105489,14 @@ pg.chapter_template = {
 		progress_boss = 20,
 		pos_x = "0.5421875",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "GUOQING18",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030295,
+		count = 0,
 		id = 1100016,
 		pre_chapter = 1100015,
 		star_require_1 = 1,
@@ -104971,7 +105514,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 87,
 		enter_story = "GUOQING17",
-		boss_refresh = 7,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -104983,7 +105526,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "一切的真相，似乎都在{namecode:91}与{namecode:92}两位的手中，带着决心与觉悟，{namecode:96}向着“圣域”的最深处——",
 		difficulty = 10,
-		avoid_ratio = 17,
+		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -104997,7 +105540,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					4,
+					5,
 					0
 				},
 				{
@@ -105023,17 +105566,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				86
+				80
 			},
 			{
 				"cannon",
 				1,
-				1350
+				1000
 			},
 			{
 				"antiaircraft",
 				1,
-				2500
+				1800
 			}
 		},
 		expedition_id_weight_list = {
@@ -105113,6 +105656,9 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1030295
+		},
 		enemy_refresh = {
 			0,
 			2,
@@ -105157,6 +105703,10 @@ pg.chapter_template = {
 			{
 				2,
 				54024
+			},
+			{
+				2,
+				59107
 			},
 			{
 				2,
@@ -105638,7 +106188,10 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			1,
+			1,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -105671,21 +106224,21 @@ pg.chapter_template = {
 		progress_boss = 20,
 		pos_x = "0.48984375",
 		group_num = 2,
-		ammo_submarine = 0,
+		ammo_submarine = 2,
 		ammo_cost = 1,
 		activate_time = 0,
 		story_refresh_boss = "",
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1030311,
+		count = 0,
 		id = 1100020,
 		pre_chapter = 0,
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		num_1 = 1,
 		model = 1,
-		investigation_ratio = 23,
+		investigation_ratio = 22,
 		num_2 = 10,
 		land_based = "",
 		unlocklevel = 0,
@@ -105708,7 +106261,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "以信念突破极限，以实力突破险阻；圣域深处的最终试炼，静候诸君——",
 		difficulty = 10,
-		avoid_ratio = 19,
+		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -105821,6 +106374,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030311
 		},
 		enemy_refresh = {
 			1,
@@ -106374,7 +106930,9 @@ pg.chapter_template = {
 			5001
 		},
 		box_refresh = {
-			0
+			0,
+			0,
+			1
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -106397,7 +106955,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 95,
 		best_air_dominance = 150,
-		boss_expedition_id = 3000013,
+		count = 0,
 		id = 1110001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -106504,6 +107062,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000013
 		},
 		enemy_refresh = {
 			1,
@@ -106969,7 +107530,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 130,
 		best_air_dominance = 170,
-		boss_expedition_id = 3000113,
+		count = 0,
 		id = 1110002,
 		pre_chapter = 1110001,
 		star_require_1 = 1,
@@ -107077,6 +107638,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000113
 		},
 		enemy_refresh = {
 			1,
@@ -107464,7 +108028,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 170,
 		best_air_dominance = 225,
-		boss_expedition_id = 3000213,
+		count = 0,
 		id = 1110003,
 		pre_chapter = 1110002,
 		star_require_1 = 1,
@@ -107573,6 +108137,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000213
 		},
 		enemy_refresh = {
 			1,
@@ -108009,7 +108576,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 220,
 		best_air_dominance = 290,
-		boss_expedition_id = 3000313,
+		count = 0,
 		id = 1110004,
 		pre_chapter = 1110003,
 		star_require_1 = 1,
@@ -108116,6 +108683,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000313
 		},
 		enemy_refresh = {
 			1,
@@ -108642,7 +109212,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 285,
 		best_air_dominance = 375,
-		boss_expedition_id = 3000413,
+		count = 0,
 		id = 1110005,
 		pre_chapter = 1110004,
 		star_require_1 = 1,
@@ -108750,6 +109320,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000413
 		},
 		enemy_refresh = {
 			1,
@@ -109326,7 +109899,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 380,
 		best_air_dominance = 495,
-		boss_expedition_id = 3000513,
+		count = 0,
 		id = 1110006,
 		pre_chapter = 1110005,
 		star_require_1 = 1,
@@ -109435,6 +110008,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000513
 		},
 		enemy_refresh = {
 			1,
@@ -109961,7 +110537,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 375,
 		best_air_dominance = 490,
-		boss_expedition_id = 3000613,
+		count = 0,
 		id = 1110011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -110110,6 +110686,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000613
 		},
 		enemy_refresh = {
 			1,
@@ -110575,7 +111154,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 470,
 		best_air_dominance = 615,
-		boss_expedition_id = 3000713,
+		count = 0,
 		id = 1110012,
 		pre_chapter = 1110011,
 		star_require_1 = 1,
@@ -110725,6 +111304,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000713
 		},
 		enemy_refresh = {
 			1,
@@ -111112,7 +111694,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 570,
 		best_air_dominance = 745,
-		boss_expedition_id = 3000813,
+		count = 0,
 		id = 1110013,
 		pre_chapter = 1110012,
 		star_require_1 = 1,
@@ -111263,6 +111845,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000813
 		},
 		enemy_refresh = {
 			1,
@@ -111741,7 +112326,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 730,
 		best_air_dominance = 950,
-		boss_expedition_id = 3000913,
+		count = 0,
 		id = 1110014,
 		pre_chapter = 1110013,
 		star_require_1 = 1,
@@ -111890,6 +112475,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000913
 		},
 		enemy_refresh = {
 			1,
@@ -112416,7 +113004,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		boss_expedition_id = 3001013,
+		count = 0,
 		id = 1110015,
 		pre_chapter = 1110014,
 		star_require_1 = 1,
@@ -112566,6 +113154,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001013
 		},
 		enemy_refresh = {
 			1,
@@ -113144,7 +113735,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1125,
 		best_air_dominance = 1465,
-		boss_expedition_id = 3001113,
+		count = 0,
 		id = 1110016,
 		pre_chapter = 1110015,
 		star_require_1 = 1,
@@ -113295,6 +113886,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001113
 		},
 		enemy_refresh = {
 			1,
@@ -113823,7 +114417,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1485,
 		best_air_dominance = 1935,
-		boss_expedition_id = 3001201,
+		count = 0,
 		id = 1110021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -113897,6 +114491,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001201
 		},
 		enemy_refresh = {
 			1,
@@ -114203,7 +114800,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000016,
+		count = 0,
 		id = 1120001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -114221,7 +114818,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 128,
 		enter_story = "",
-		boss_refresh = 4,
+		boss_refresh = 3,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -114321,10 +114918,12 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1000016
+		},
 		enemy_refresh = {
 			2,
 			2,
-			1,
 			1,
 			1
 		},
@@ -114332,8 +114931,7 @@ pg.chapter_template = {
 			1,
 			0,
 			1,
-			0,
-			1
+			0
 		},
 		ai_refresh = {
 			0
@@ -114734,7 +115332,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000032,
+		count = 0,
 		id = 1120002,
 		pre_chapter = 1120001,
 		star_require_1 = 1,
@@ -114752,7 +115350,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 128,
 		enter_story = "TACT20016",
-		boss_refresh = 4,
+		boss_refresh = 3,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -114852,10 +115450,12 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1000032
+		},
 		enemy_refresh = {
 			2,
 			2,
-			1,
 			1,
 			1
 		},
@@ -114863,8 +115463,7 @@ pg.chapter_template = {
 			1,
 			0,
 			1,
-			0,
-			1
+			0
 		},
 		ai_refresh = {
 			0
@@ -115405,7 +116004,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000048,
+		count = 0,
 		id = 1120003,
 		pre_chapter = 1120002,
 		star_require_1 = 1,
@@ -115522,6 +116121,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000048
 		},
 		enemy_refresh = {
 			2,
@@ -116041,7 +116643,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000064,
+		count = 0,
 		id = 1120004,
 		pre_chapter = 1120003,
 		star_require_1 = 1,
@@ -116059,7 +116661,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 128,
 		enter_story = "",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -116158,6 +116760,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000064
 		},
 		enemy_refresh = {
 			2,
@@ -116795,7 +117400,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000080,
+		count = 0,
 		id = 1120005,
 		pre_chapter = 1120004,
 		star_require_1 = 1,
@@ -116912,6 +117517,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000080
 		},
 		enemy_refresh = {
 			2,
@@ -117344,7 +117952,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000096,
+		count = 0,
 		id = 1120006,
 		pre_chapter = 1120005,
 		star_require_1 = 1,
@@ -117362,7 +117970,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 128,
 		enter_story = "",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -117461,6 +118069,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000096
 		},
 		enemy_refresh = {
 			2,
@@ -117901,7 +118512,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000112,
+		count = 0,
 		id = 1120007,
 		pre_chapter = 1120006,
 		star_require_1 = 1,
@@ -118018,6 +118629,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000112
 		},
 		enemy_refresh = {
 			2,
@@ -118513,7 +119127,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000128,
+		count = 0,
 		id = 1120008,
 		pre_chapter = 1120007,
 		star_require_1 = 1,
@@ -118630,6 +119244,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000128
 		},
 		enemy_refresh = {
 			2,
@@ -119281,7 +119898,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000215,
+		count = 0,
 		id = 1120011,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -119299,7 +119916,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 128,
 		enter_story = "",
-		boss_refresh = 4,
+		boss_refresh = 3,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -119351,17 +119968,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				65
+				55
 			},
 			{
 				"cannon",
 				1,
-				600
+				500
 			},
 			{
 				"air",
 				1,
-				700
+				600
 			}
 		},
 		expedition_id_weight_list = {
@@ -119440,10 +120057,12 @@ pg.chapter_template = {
 		submarine_expedition_list = {
 			1
 		},
+		boss_expedition_id = {
+			1000215
+		},
 		enemy_refresh = {
 			2,
 			2,
-			1,
 			1,
 			1
 		},
@@ -119451,8 +120070,7 @@ pg.chapter_template = {
 			1,
 			0,
 			1,
-			0,
-			1
+			0
 		},
 		ai_refresh = {
 			0
@@ -119853,7 +120471,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000231,
+		count = 0,
 		id = 1120012,
 		pre_chapter = 1120011,
 		star_require_1 = 1,
@@ -119871,7 +120489,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 128,
 		enter_story = "TACT20016",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -119923,17 +120541,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				70
+				59
 			},
 			{
 				"torpedo",
 				1,
-				750
+				850
 			},
 			{
 				"air",
 				1,
-				750
+				650
 			}
 		},
 		expedition_id_weight_list = {
@@ -120011,6 +120629,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000231
 		},
 		enemy_refresh = {
 			2,
@@ -120565,7 +121186,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000247,
+		count = 0,
 		id = 1120013,
 		pre_chapter = 1120012,
 		star_require_1 = 1,
@@ -120583,7 +121204,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 128,
 		enter_story = "",
-		boss_refresh = 5,
+		boss_refresh = 4,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -120635,12 +121256,12 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				75
+				63
 			},
 			{
 				"dodge",
 				1,
-				350
+				400
 			},
 			{
 				"air",
@@ -120723,6 +121344,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000247
 		},
 		enemy_refresh = {
 			2,
@@ -121242,7 +121866,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000263,
+		count = 0,
 		id = 1120014,
 		pre_chapter = 1120013,
 		star_require_1 = 1,
@@ -121312,17 +121936,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				80
+				66
 			},
 			{
 				"cannon",
 				1,
-				1300
+				1000
 			},
 			{
 				"antiaircraft",
 				1,
-				2100
+				1600
 			}
 		},
 		expedition_id_weight_list = {
@@ -121400,6 +122024,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000263
 		},
 		enemy_refresh = {
 			2,
@@ -122037,7 +122664,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000279,
+		count = 0,
 		id = 1120015,
 		pre_chapter = 1120014,
 		star_require_1 = 1,
@@ -122107,12 +122734,12 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				85
+				70
 			},
 			{
 				"torpedo",
 				1,
-				950
+				900
 			},
 			{
 				"dodge",
@@ -122195,6 +122822,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000279
 		},
 		enemy_refresh = {
 			2,
@@ -122627,7 +123257,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000295,
+		count = 0,
 		id = 1120016,
 		pre_chapter = 1120015,
 		star_require_1 = 1,
@@ -122697,17 +123327,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				90
+				74
 			},
 			{
 				"antiaircraft",
 				1,
-				2700
+				2100
 			},
 			{
 				"air",
 				1,
-				1300
+				1100
 			}
 		},
 		expedition_id_weight_list = {
@@ -122785,6 +123415,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000295
 		},
 		enemy_refresh = {
 			2,
@@ -123225,7 +123858,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000311,
+		count = 0,
 		id = 1120017,
 		pre_chapter = 1120016,
 		star_require_1 = 1,
@@ -123295,12 +123928,12 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				95
+				78
 			},
 			{
 				"cannon",
 				1,
-				1300
+				1100
 			},
 			{
 				"air",
@@ -123383,6 +124016,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000311
 		},
 		enemy_refresh = {
 			2,
@@ -123878,7 +124514,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000327,
+		count = 0,
 		id = 1120018,
 		pre_chapter = 1120017,
 		star_require_1 = 1,
@@ -123948,17 +124584,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				100
+				82
 			},
 			{
 				"cannon",
 				1,
-				1400
+				1200
 			},
 			{
 				"air",
 				1,
-				1200
+				1000
 			}
 		},
 		expedition_id_weight_list = {
@@ -124036,6 +124672,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000327
 		},
 		enemy_refresh = {
 			2,
@@ -124687,7 +125326,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1000331,
+		count = 0,
 		id = 1120021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -124762,6 +125401,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1000331
 		},
 		enemy_refresh = {
 			1,
@@ -125086,7 +125728,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1130500,
+		count = 0,
 		id = 1130001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -125182,6 +125824,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1130500
 		},
 		enemy_refresh = {
 			0,
@@ -125551,7 +126196,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1131500,
+		count = 0,
 		id = 1130002,
 		pre_chapter = 1130001,
 		star_require_1 = 1,
@@ -125647,6 +126292,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1131500
 		},
 		enemy_refresh = {
 			0,
@@ -126077,7 +126725,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1132500,
+		count = 0,
 		id = 1130003,
 		pre_chapter = 1130002,
 		star_require_1 = 1,
@@ -126173,6 +126821,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1132500
 		},
 		enemy_refresh = {
 			0,
@@ -126641,7 +127292,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1130500,
+		count = 0,
 		id = 1130101,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -126737,6 +127388,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1130500
 		},
 		enemy_refresh = {
 			0,
@@ -127106,7 +127760,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1131500,
+		count = 0,
 		id = 1130102,
 		pre_chapter = 1130101,
 		star_require_1 = 1,
@@ -127202,6 +127856,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1131500
 		},
 		enemy_refresh = {
 			0,
@@ -127632,7 +128289,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1132500,
+		count = 0,
 		id = 1130103,
 		pre_chapter = 1130102,
 		star_require_1 = 1,
@@ -127728,6 +128385,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1132500
 		},
 		enemy_refresh = {
 			0,
@@ -128196,7 +128856,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000013,
+		count = 0,
 		id = 1140001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -128303,6 +128963,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000013
 		},
 		enemy_refresh = {
 			1,
@@ -128717,7 +129380,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000113,
+		count = 0,
 		id = 1140003,
 		pre_chapter = 1140001,
 		star_require_1 = 1,
@@ -128825,6 +129488,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000113
 		},
 		enemy_refresh = {
 			1,
@@ -129344,7 +130010,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000213,
+		count = 0,
 		id = 1140004,
 		pre_chapter = 1140003,
 		star_require_1 = 1,
@@ -129453,6 +130119,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000213
 		},
 		enemy_refresh = {
 			1,
@@ -130083,7 +130752,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000313,
+		count = 0,
 		id = 1140005,
 		pre_chapter = 1140004,
 		star_require_1 = 1,
@@ -130191,6 +130860,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000313
 		},
 		enemy_refresh = {
 			1,
@@ -130617,7 +131289,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000413,
+		count = 0,
 		id = 1140007,
 		pre_chapter = 1140005,
 		star_require_1 = 1,
@@ -130726,6 +131398,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000413
 		},
 		enemy_refresh = {
 			1,
@@ -131256,7 +131931,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000513,
+		count = 0,
 		id = 1140008,
 		pre_chapter = 1140007,
 		star_require_1 = 1,
@@ -131366,6 +132041,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000513
 		},
 		enemy_refresh = {
 			1,
@@ -132028,7 +132706,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000613,
+		count = 0,
 		id = 1140011,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -132176,6 +132854,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000613
 		},
 		enemy_refresh = {
 			1,
@@ -132590,7 +133271,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000713,
+		count = 0,
 		id = 1140013,
 		pre_chapter = 1140011,
 		star_require_1 = 1,
@@ -132739,6 +133420,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000713
 		},
 		enemy_refresh = {
 			1,
@@ -133258,7 +133942,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000813,
+		count = 0,
 		id = 1140014,
 		pre_chapter = 1140013,
 		star_require_1 = 1,
@@ -133408,6 +134092,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000813
 		},
 		enemy_refresh = {
 			1,
@@ -134038,7 +134725,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4000913,
+		count = 0,
 		id = 1140015,
 		pre_chapter = 1140014,
 		star_require_1 = 1,
@@ -134187,6 +134874,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4000913
 		},
 		enemy_refresh = {
 			1,
@@ -134615,7 +135305,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4001013,
+		count = 0,
 		id = 1140017,
 		pre_chapter = 1140015,
 		star_require_1 = 1,
@@ -134765,6 +135455,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4001013
 		},
 		enemy_refresh = {
 			1,
@@ -135297,7 +135990,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4001113,
+		count = 0,
 		id = 1140018,
 		pre_chapter = 1140017,
 		star_require_1 = 1,
@@ -135448,6 +136141,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4001113
 		},
 		enemy_refresh = {
 			1,
@@ -136105,7 +136801,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 4001201,
+		count = 0,
 		id = 1140021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -136179,6 +136875,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			4001201
 		},
 		enemy_refresh = {
 			1,
@@ -136462,7 +137161,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060016,
+		count = 0,
 		id = 1150001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -136580,6 +137279,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060016
 		},
 		enemy_refresh = {
 			1,
@@ -137019,7 +137721,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060032,
+		count = 0,
 		id = 1150002,
 		pre_chapter = 1150001,
 		star_require_1 = 1,
@@ -137137,6 +137839,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060032
 		},
 		enemy_refresh = {
 			0,
@@ -137637,7 +138342,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060048,
+		count = 0,
 		id = 1150003,
 		pre_chapter = 1150002,
 		star_require_1 = 1,
@@ -137756,6 +138461,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060048
 		},
 		enemy_refresh = {
 			0,
@@ -138346,7 +139054,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060064,
+		count = 0,
 		id = 1150004,
 		pre_chapter = 1150003,
 		star_require_1 = 1,
@@ -138465,6 +139173,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060064
 		},
 		enemy_refresh = {
 			0,
@@ -138993,7 +139704,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060080,
+		count = 0,
 		id = 1150005,
 		pre_chapter = 1150004,
 		star_require_1 = 1,
@@ -139112,6 +139823,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060080
 		},
 		enemy_refresh = {
 			0,
@@ -139781,7 +140495,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060096,
+		count = 0,
 		id = 1150006,
 		pre_chapter = 1150005,
 		star_require_1 = 1,
@@ -139901,6 +140615,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060096
 		},
 		enemy_refresh = {
 			0,
@@ -140748,7 +141465,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060215,
+		count = 0,
 		id = 1150011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -140907,6 +141624,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060215
 		},
 		enemy_refresh = {
 			1,
@@ -141346,7 +142066,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060231,
+		count = 0,
 		id = 1150012,
 		pre_chapter = 1150011,
 		star_require_1 = 1,
@@ -141505,6 +142225,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060231
 		},
 		enemy_refresh = {
 			0,
@@ -142005,7 +142728,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060247,
+		count = 0,
 		id = 1150013,
 		pre_chapter = 1150012,
 		star_require_1 = 1,
@@ -142165,6 +142888,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060247
 		},
 		enemy_refresh = {
 			0,
@@ -142755,7 +143481,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060263,
+		count = 0,
 		id = 1150014,
 		pre_chapter = 1150013,
 		star_require_1 = 1,
@@ -142915,6 +143641,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060263
 		},
 		enemy_refresh = {
 			0,
@@ -143443,7 +144172,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060279,
+		count = 0,
 		id = 1150015,
 		pre_chapter = 1150014,
 		star_require_1 = 1,
@@ -143603,6 +144332,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060279
 		},
 		enemy_refresh = {
 			0,
@@ -144272,7 +145004,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060295,
+		count = 0,
 		id = 1150016,
 		pre_chapter = 1150015,
 		star_require_1 = 1,
@@ -144433,6 +145165,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060295
 		},
 		enemy_refresh = {
 			0,
@@ -145280,7 +146015,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1060500,
+		count = 0,
 		id = 1150021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -145356,6 +146091,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1060500
 		},
 		enemy_refresh = {
 			1,
@@ -145766,7 +146504,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1160501,
+		count = 0,
 		id = 1160001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -145878,6 +146616,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1160501
 		},
 		enemy_refresh = {
 			1,
@@ -146263,7 +147004,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1160502,
+		count = 0,
 		id = 1160002,
 		pre_chapter = 1160001,
 		star_require_1 = 1,
@@ -146375,6 +147116,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1160502
 		},
 		enemy_refresh = {
 			1,
@@ -146877,7 +147621,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1160503,
+		count = 0,
 		id = 1160003,
 		pre_chapter = 1160002,
 		star_require_1 = 1,
@@ -146989,6 +147733,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1160503
 		},
 		enemy_refresh = {
 			1,
@@ -147403,7 +148150,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1160504,
+		count = 0,
 		id = 1160004,
 		pre_chapter = 1160003,
 		star_require_1 = 1,
@@ -147516,6 +148263,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1160504
 		},
 		enemy_refresh = {
 			0,
@@ -148185,7 +148935,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1160510,
+		count = 0,
 		id = 1160005,
 		pre_chapter = 1160004,
 		star_require_1 = 1,
@@ -148259,6 +149009,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1160510
 		},
 		enemy_refresh = {
 			1,
@@ -148718,7 +149471,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1170101,
+		count = 0,
 		id = 1170001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -148829,6 +149582,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1170101
 		},
 		enemy_refresh = {
 			0,
@@ -149225,7 +149981,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1170102,
+		count = 0,
 		id = 1170002,
 		pre_chapter = 1170001,
 		star_require_1 = 1,
@@ -149336,6 +150092,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1170102
 		},
 		enemy_refresh = {
 			0,
@@ -149790,7 +150549,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1170103,
+		count = 0,
 		id = 1170003,
 		pre_chapter = 1170002,
 		star_require_1 = 1,
@@ -149901,6 +150660,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1170103
 		},
 		enemy_refresh = {
 			0,
@@ -150394,7 +151156,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180013,
+		count = 0,
 		id = 1180001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -150501,6 +151263,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180013
 		},
 		enemy_refresh = {
 			1,
@@ -150966,7 +151731,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180113,
+		count = 0,
 		id = 1180002,
 		pre_chapter = 1180001,
 		star_require_1 = 1,
@@ -151074,6 +151839,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180113
 		},
 		enemy_refresh = {
 			1,
@@ -151509,7 +152277,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180213,
+		count = 0,
 		id = 1180003,
 		pre_chapter = 1180002,
 		star_require_1 = 1,
@@ -151618,6 +152386,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180213
 		},
 		enemy_refresh = {
 			1,
@@ -152148,7 +152919,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180313,
+		count = 0,
 		id = 1180004,
 		pre_chapter = 1180003,
 		star_require_1 = 1,
@@ -152255,6 +153026,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180313
 		},
 		enemy_refresh = {
 			1,
@@ -152788,7 +153562,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180413,
+		count = 0,
 		id = 1180005,
 		pre_chapter = 1180004,
 		star_require_1 = 1,
@@ -152896,6 +153670,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180413
 		},
 		enemy_refresh = {
 			1,
@@ -153471,7 +154248,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180513,
+		count = 0,
 		id = 1180006,
 		pre_chapter = 1180005,
 		star_require_1 = 1,
@@ -153580,6 +154357,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180513
 		},
 		enemy_refresh = {
 			1,
@@ -154128,7 +154908,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180613,
+		count = 0,
 		id = 1180011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -154277,6 +155057,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180613
 		},
 		enemy_refresh = {
 			1,
@@ -154742,7 +155525,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180713,
+		count = 0,
 		id = 1180012,
 		pre_chapter = 1180011,
 		star_require_1 = 1,
@@ -154892,6 +155675,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180713
 		},
 		enemy_refresh = {
 			1,
@@ -155327,7 +156113,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180813,
+		count = 0,
 		id = 1180013,
 		pre_chapter = 1180012,
 		star_require_1 = 1,
@@ -155478,6 +156264,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180813
 		},
 		enemy_refresh = {
 			1,
@@ -156008,7 +156797,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1180913,
+		count = 0,
 		id = 1180014,
 		pre_chapter = 1180013,
 		star_require_1 = 1,
@@ -156157,6 +156946,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1180913
 		},
 		enemy_refresh = {
 			1,
@@ -156690,7 +157482,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1181013,
+		count = 0,
 		id = 1180015,
 		pre_chapter = 1180014,
 		star_require_1 = 1,
@@ -156840,6 +157632,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1181013
 		},
 		enemy_refresh = {
 			1,
@@ -157417,7 +158212,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1181113,
+		count = 0,
 		id = 1180016,
 		pre_chapter = 1180015,
 		star_require_1 = 1,
@@ -157568,6 +158363,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1181113
 		},
 		enemy_refresh = {
 			1,
@@ -158118,7 +158916,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1181201,
+		count = 0,
 		id = 1180021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -158192,6 +158990,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1181201
 		},
 		enemy_refresh = {
 			1,
@@ -158498,7 +159299,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090016,
+		count = 0,
 		id = 1190001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -158612,6 +159413,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090016
 		},
 		enemy_refresh = {
 			0,
@@ -158965,7 +159769,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090032,
+		count = 0,
 		id = 1190002,
 		pre_chapter = 1190001,
 		star_require_1 = 1,
@@ -159080,6 +159884,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090032
 		},
 		enemy_refresh = {
 			0,
@@ -159494,7 +160301,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090048,
+		count = 0,
 		id = 1190003,
 		pre_chapter = 1190002,
 		star_require_1 = 1,
@@ -159609,6 +160416,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090048
 		},
 		enemy_refresh = {
 			0,
@@ -160113,7 +160923,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090064,
+		count = 0,
 		id = 1190004,
 		pre_chapter = 1190003,
 		star_require_1 = 1,
@@ -160228,6 +161038,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090064
 		},
 		enemy_refresh = {
 			0,
@@ -160697,8 +161510,8 @@ pg.chapter_template = {
 			"sea_YX",
 			45,
 			25,
-			40,
-			-120,
+			20,
+			-115,
 			100,
 			100,
 			4,
@@ -160755,7 +161568,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090080,
+		count = 0,
 		id = 1190005,
 		pre_chapter = 1190004,
 		star_require_1 = 1,
@@ -160871,6 +161684,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090080
 		},
 		enemy_refresh = {
 			0,
@@ -161415,7 +162231,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090096,
+		count = 0,
 		id = 1190006,
 		pre_chapter = 1190005,
 		star_require_1 = 1,
@@ -161532,6 +162348,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090096
 		},
 		enemy_refresh = {
 			0,
@@ -162250,7 +163069,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090215,
+		count = 0,
 		id = 1190011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -162405,6 +163224,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090215
 		},
 		enemy_refresh = {
 			0,
@@ -162758,7 +163580,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090231,
+		count = 0,
 		id = 1190012,
 		pre_chapter = 1190011,
 		star_require_1 = 1,
@@ -162914,6 +163736,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090231
 		},
 		enemy_refresh = {
 			0,
@@ -163328,7 +164153,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090247,
+		count = 0,
 		id = 1190013,
 		pre_chapter = 1190012,
 		star_require_1 = 1,
@@ -163484,6 +164309,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090247
 		},
 		enemy_refresh = {
 			0,
@@ -163988,7 +164816,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090263,
+		count = 0,
 		id = 1190014,
 		pre_chapter = 1190013,
 		star_require_1 = 1,
@@ -164144,6 +164972,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090263
 		},
 		enemy_refresh = {
 			0,
@@ -164613,8 +165444,8 @@ pg.chapter_template = {
 			"sea_YX",
 			45,
 			25,
-			40,
-			-120,
+			20,
+			-115,
 			100,
 			100,
 			4,
@@ -164671,7 +165502,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090279,
+		count = 0,
 		id = 1190015,
 		pre_chapter = 1190014,
 		star_require_1 = 1,
@@ -164828,6 +165659,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090279
 		},
 		enemy_refresh = {
 			0,
@@ -165372,7 +166206,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090295,
+		count = 0,
 		id = 1190016,
 		pre_chapter = 1190015,
 		star_require_1 = 1,
@@ -165530,6 +166364,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090295
 		},
 		enemy_refresh = {
 			0,
@@ -166248,7 +167085,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1090311,
+		count = 0,
 		id = 1190017,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -166352,6 +167189,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1090311
 		},
 		enemy_refresh = {
 			1,
@@ -166803,7 +167643,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1210013,
+		count = 0,
 		id = 1200001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -166856,6 +167696,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1210013
 		},
 		enemy_refresh = {
 			0,
@@ -167363,7 +168206,7 @@ pg.chapter_template = {
 		chapter_safe = 1200002,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1210113,
+		count = 0,
 		id = 1200002,
 		pre_chapter = 1200001,
 		star_require_1 = 1,
@@ -167439,6 +168282,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1210113
 		},
 		enemy_refresh = {
 			2,
@@ -168072,7 +168918,7 @@ pg.chapter_template = {
 		chapter_safe = 1200003,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1210213,
+		count = 0,
 		id = 1200003,
 		pre_chapter = 1200002,
 		star_require_1 = 1,
@@ -168148,6 +168994,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1210213
 		},
 		enemy_refresh = {
 			2,
@@ -168797,7 +169646,7 @@ pg.chapter_template = {
 		chapter_safe = 1200004,
 		air_dominance = 0,
 		best_air_dominance = 0,
-		boss_expedition_id = 1210313,
+		count = 0,
 		id = 1200004,
 		pre_chapter = 1200003,
 		star_require_1 = 1,
@@ -168873,6 +169722,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1210313
 		},
 		enemy_refresh = {
 			2,
@@ -169514,7 +170366,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 95,
 		best_air_dominance = 150,
-		boss_expedition_id = 3000013,
+		count = 0,
 		id = 1210001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -169621,6 +170473,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000013
 		},
 		enemy_refresh = {
 			1,
@@ -170090,7 +170945,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 130,
 		best_air_dominance = 170,
-		boss_expedition_id = 3000113,
+		count = 0,
 		id = 1210002,
 		pre_chapter = 1210001,
 		star_require_1 = 1,
@@ -170198,6 +171053,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000113
 		},
 		enemy_refresh = {
 			1,
@@ -170631,7 +171489,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 170,
 		best_air_dominance = 225,
-		boss_expedition_id = 3000213,
+		count = 0,
 		id = 1210003,
 		pre_chapter = 1210002,
 		star_require_1 = 1,
@@ -170740,6 +171598,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000213
 		},
 		enemy_refresh = {
 			1,
@@ -171270,7 +172131,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 220,
 		best_air_dominance = 290,
-		boss_expedition_id = 3000313,
+		count = 0,
 		id = 1210004,
 		pre_chapter = 1210003,
 		star_require_1 = 1,
@@ -171377,6 +172238,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000313
 		},
 		enemy_refresh = {
 			1,
@@ -171907,7 +172771,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 285,
 		best_air_dominance = 375,
-		boss_expedition_id = 3000413,
+		count = 0,
 		id = 1210005,
 		pre_chapter = 1210004,
 		star_require_1 = 1,
@@ -172015,6 +172879,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000413
 		},
 		enemy_refresh = {
 			1,
@@ -172595,7 +173462,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 380,
 		best_air_dominance = 495,
-		boss_expedition_id = 3000513,
+		count = 0,
 		id = 1210006,
 		pre_chapter = 1210005,
 		star_require_1 = 1,
@@ -172704,6 +173571,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000513
 		},
 		enemy_refresh = {
 			1,
@@ -173343,7 +174213,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 375,
 		best_air_dominance = 490,
-		boss_expedition_id = 3000613,
+		count = 0,
 		id = 1210011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -173491,6 +174361,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000613
 		},
 		enemy_refresh = {
 			1,
@@ -173961,7 +174834,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 470,
 		best_air_dominance = 615,
-		boss_expedition_id = 3000713,
+		count = 0,
 		id = 1210012,
 		pre_chapter = 1210011,
 		star_require_1 = 1,
@@ -174111,6 +174984,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000713
 		},
 		enemy_refresh = {
 			1,
@@ -174544,7 +175420,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 570,
 		best_air_dominance = 745,
-		boss_expedition_id = 3000813,
+		count = 0,
 		id = 1210013,
 		pre_chapter = 1210012,
 		star_require_1 = 1,
@@ -174695,6 +175571,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000813
 		},
 		enemy_refresh = {
 			1,
@@ -175225,7 +176104,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 730,
 		best_air_dominance = 950,
-		boss_expedition_id = 3000913,
+		count = 0,
 		id = 1210014,
 		pre_chapter = 1210013,
 		star_require_1 = 1,
@@ -175374,6 +176253,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3000913
 		},
 		enemy_refresh = {
 			1,
@@ -175904,7 +176786,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 915,
 		best_air_dominance = 1190,
-		boss_expedition_id = 3001013,
+		count = 0,
 		id = 1210015,
 		pre_chapter = 1210014,
 		star_require_1 = 1,
@@ -176054,6 +176936,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001013
 		},
 		enemy_refresh = {
 			1,
@@ -176636,7 +177521,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1125,
 		best_air_dominance = 1465,
-		boss_expedition_id = 3001113,
+		count = 0,
 		id = 1210016,
 		pre_chapter = 1210015,
 		star_require_1 = 1,
@@ -176787,6 +177672,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001113
 		},
 		enemy_refresh = {
 			1,
@@ -177428,7 +178316,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1485,
 		best_air_dominance = 1935,
-		boss_expedition_id = 3001201,
+		count = 0,
 		id = 1210021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -177502,6 +178390,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			3001201
 		},
 		enemy_refresh = {
 			1,
@@ -177798,6 +178689,4036 @@ pg.chapter_template = {
 		activity_random_box = {},
 		risk_levels = {}
 	},
+	[1220001] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 50,
+		pos_x = "0.171",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "AIGUANQIA4",
+		chapter_safe = 1220001,
+		air_dominance = 50,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1220001,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.3958",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 15,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "镜面Hacking",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 280,
+		enter_story = "AIGUANQIA3",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1220001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "出现在前往虚拟镜面海域调查的绊爱一行人面前的，是绊爱(伪)。决定谁才是真身的战斗，即将展开！",
+		difficulty = 5,
+		avoid_ratio = 7,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1220001,
+				15,
+				0
+			},
+			{
+				1220002,
+				20,
+				0
+			},
+			{
+				1220003,
+				30,
+				1
+			},
+			{
+				1220004,
+				15,
+				0
+			},
+			{
+				1220005,
+				20,
+				0
+			},
+			{
+				1220006,
+				30,
+				1
+			},
+			{
+				1220007,
+				15,
+				0
+			},
+			{
+				1220008,
+				20,
+				0
+			},
+			{
+				1220009,
+				30,
+				1
+			},
+			{
+				1220010,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220002,
+			1220005,
+			1220008
+		},
+		elite_expedition_list = {
+			1220005,
+			1220008
+		},
+		ai_expedition_list = {
+			1220013
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1220101
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangCL"
+		},
+		awards = {
+			{
+				2,
+				57585
+			},
+			{
+				2,
+				57580
+			},
+			{
+				2,
+				57570
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59126
+			}
+		},
+		grids = {
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				1
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				16
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				4
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				7,
+				"1x2_2banai",
+				0,
+				73
+			},
+			{
+				3,
+				1,
+				"1x3_1banai",
+				52,
+				20
+			},
+			{
+				0,
+				5,
+				"1x1_3banai",
+				0,
+				20
+			}
+		},
+		ambush_event_ratio = {
+			{
+				6001,
+				4000
+			}
+		},
+		ambush_ratio_extra = {
+			{
+				-20000
+			},
+			{
+				3,
+				2,
+				60000
+			},
+			{
+				3,
+				1,
+				30000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			20,
+			71,
+			-159,
+			100,
+			100,
+			4,
+			4,
+			"sea_banaidu"
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {}
+	},
+	[1220002] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 34,
+		pos_x = "0.2164",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1220002,
+		air_dominance = 180,
+		best_air_dominance = 235,
+		count = 0,
+		id = 1220002,
+		pre_chapter = 1220001,
+		star_require_1 = 1,
+		pos_y = "0.10625",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "海上Live",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 280,
+		enter_story = "AIGUANQIA7",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1220001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "绊爱(伪)正在举办演唱会。冲破冒牌货们的包围，阻止这场神秘的演唱会吧",
+		difficulty = 6,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1220021,
+				15,
+				0
+			},
+			{
+				1220022,
+				20,
+				0
+			},
+			{
+				1220023,
+				30,
+				1
+			},
+			{
+				1220024,
+				15,
+				0
+			},
+			{
+				1220025,
+				20,
+				0
+			},
+			{
+				1220026,
+				30,
+				1
+			},
+			{
+				1220027,
+				15,
+				0
+			},
+			{
+				1220028,
+				20,
+				0
+			},
+			{
+				1220029,
+				30,
+				1
+			},
+			{
+				1220030,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220022,
+			1220025,
+			1220028
+		},
+		elite_expedition_list = {
+			1220025,
+			1220028
+		},
+		ai_expedition_list = {
+			1220033
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1220102
+		},
+		enemy_refresh = {
+			8,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangCV"
+		},
+		awards = {
+			{
+				2,
+				57585
+			},
+			{
+				2,
+				57581
+			},
+			{
+				2,
+				57571
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				8
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"1x3_1banai",
+				6,
+				14
+			},
+			{
+				5,
+				1,
+				"1x3_1banai",
+				0,
+				7
+			},
+			{
+				4,
+				6,
+				"1x1_3banai",
+				6,
+				14
+			},
+			{
+				4,
+				4,
+				"1x2_1banai",
+				59,
+				0
+			},
+			{
+				2,
+				8,
+				"1x2_1banai",
+				-53,
+				0
+			},
+			{
+				2,
+				1,
+				"1x2_1banai",
+				-48,
+				0
+			},
+			{
+				1,
+				1,
+				"1x1_3banai",
+				0,
+				19
+			},
+			{
+				0,
+				4,
+				"3x2_1banai",
+				0,
+				-30
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			20,
+			32,
+			-118,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {}
+	},
+	[1220003] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 25,
+		pos_x = "0.47578",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1220003,
+		air_dominance = 50,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1220003,
+		pre_chapter = 1220002,
+		star_require_1 = 1,
+		pos_y = "0.2698",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "海战Survival",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 280,
+		enter_story = "AIGUANQIA11",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1220001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "自4000m高空而下的落水，步步紧逼的神秘毒雾，阻挡前路的水陆两用车——活用有限的物资，想办法在这片战场上幸存下来吧！",
+		difficulty = 7,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.65,
+			0.6,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1220041,
+				15,
+				0
+			},
+			{
+				1220042,
+				20,
+				0
+			},
+			{
+				1220043,
+				30,
+				1
+			},
+			{
+				1220044,
+				15,
+				0
+			},
+			{
+				1220045,
+				20,
+				0
+			},
+			{
+				1220046,
+				30,
+				1
+			},
+			{
+				1220047,
+				15,
+				0
+			},
+			{
+				1220048,
+				20,
+				0
+			},
+			{
+				1220049,
+				30,
+				1
+			},
+			{
+				1220050,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220042,
+			1220045,
+			1220048
+		},
+		elite_expedition_list = {
+			1220045,
+			1220048
+		},
+		ai_expedition_list = {
+			1220053
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1220103,
+			1220113,
+			1220123
+		},
+		enemy_refresh = {
+			8,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangBB"
+		},
+		awards = {
+			{
+				2,
+				57585
+			},
+			{
+				2,
+				57582
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			}
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				12
+			},
+			{
+				5,
+				9,
+				true,
+				16
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				9,
+				true,
+				2
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				12
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x2_2banai",
+				0,
+				53
+			},
+			{
+				6,
+				2,
+				"1x1_3banai",
+				0,
+				20
+			},
+			{
+				5,
+				7,
+				"1x2_2banai",
+				0,
+				35
+			},
+			{
+				4,
+				9,
+				"1x1_3banai",
+				0,
+				21
+			},
+			{
+				4,
+				2,
+				"1x1_3banai",
+				0,
+				21
+			},
+			{
+				3,
+				6,
+				"1x1_3banai",
+				0,
+				23
+			},
+			{
+				3,
+				2,
+				"1x3_1banai",
+				41,
+				7
+			},
+			{
+				2,
+				9,
+				"1x1_2banai",
+				0,
+				28
+			},
+			{
+				2,
+				2,
+				"1x1_3banai",
+				0,
+				17
+			},
+			{
+				1,
+				7,
+				"1x2_2banai",
+				0,
+				61
+			},
+			{
+				0,
+				4,
+				"1x2_2banai",
+				0,
+				-25
+			},
+			{
+				0,
+				2,
+				"1x1_3banai",
+				0,
+				16
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			20,
+			71,
+			-66,
+			100,
+			100,
+			4,
+			4,
+			"sea_banaidu"
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {}
+	},
+	[1220004] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 22,
+		pos_x = "0.659375",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 1220004,
+		air_dominance = 880,
+		best_air_dominance = 1145,
+		count = 0,
+		id = 1220004,
+		pre_chapter = 1220003,
+		star_require_1 = 1,
+		pos_y = "0.11875",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 45,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "终末的Vitural",
+		chapter_name = "SP4",
+		type = 1,
+		act_id = 280,
+		enter_story = "AIGUANQIA16",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1220001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "为了阻止受病毒感染而巨大化的绊爱，小伙伴们挺身而出。在绝望的状况尽头，少女们找出的活路是——",
+		difficulty = 8,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.62,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1220061,
+				15,
+				0
+			},
+			{
+				1220062,
+				20,
+				0
+			},
+			{
+				1220063,
+				30,
+				1
+			},
+			{
+				1220064,
+				15,
+				0
+			},
+			{
+				1220065,
+				20,
+				0
+			},
+			{
+				1220066,
+				30,
+				1
+			},
+			{
+				1220067,
+				15,
+				0
+			},
+			{
+				1220068,
+				20,
+				0
+			},
+			{
+				1220069,
+				30,
+				1
+			},
+			{
+				1220070,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220062,
+			1220065,
+			1220068
+		},
+		elite_expedition_list = {
+			1220063,
+			1220066,
+			1220069
+		},
+		ai_expedition_list = {
+			1220073,
+			1220074,
+			1220075,
+			1220076
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1220104
+		},
+		enemy_refresh = {
+			8,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0
+		},
+		ai_refresh = {
+			2,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangDD"
+		},
+		awards = {
+			{
+				2,
+				57585
+			},
+			{
+				2,
+				57583
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				16
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"2x3_1banai",
+				112,
+				26
+			},
+			{
+				5,
+				1,
+				"2x2_1banai",
+				34,
+				-24
+			},
+			{
+				2,
+				8,
+				"1x3_1banai",
+				50,
+				14
+			},
+			{
+				2,
+				6,
+				"1x1_3banai",
+				0,
+				19
+			},
+			{
+				2,
+				4,
+				"2x3_1banai",
+				14,
+				10
+			},
+			{
+				2,
+				0,
+				"1x3_1banai",
+				40,
+				12
+			},
+			{
+				1,
+				3,
+				"1x2_2banai",
+				0,
+				47
+			},
+			{
+				0,
+				6,
+				"1x1_3banai",
+				0,
+				20
+			}
+		},
+		ambush_event_ratio = {
+			{
+				6001,
+				4000
+			}
+		},
+		ambush_ratio_extra = {
+			{
+				-20000
+			},
+			{
+				7,
+				2,
+				30000
+			},
+			{
+				6,
+				0,
+				60000
+			},
+			{
+				5,
+				0,
+				60000
+			},
+			{
+				5,
+				5,
+				60000
+			},
+			{
+				3,
+				1,
+				60000
+			},
+			{
+				3,
+				3,
+				60000
+			},
+			{
+				4,
+				6,
+				60000
+			},
+			{
+				7,
+				8,
+				60000
+			},
+			{
+				4,
+				8,
+				60000
+			},
+			{
+				1,
+				9,
+				60000
+			},
+			{
+				0,
+				9,
+				60000
+			},
+			{
+				0,
+				0,
+				60000
+			},
+			{
+				1,
+				0,
+				60000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			20,
+			14,
+			-64,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"AIGUANQIA17"
+		},
+		defeat_story = {
+			"AIGUANQIA22",
+			"AIGUANQIA23",
+			"AIGUANQIA24"
+		},
+		defeat_story_count = {
+			5,
+			8,
+			11
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {}
+	},
+	[1220005] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.69",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 50,
+		best_air_dominance = 150,
+		count = 1,
+		id = 1220005,
+		pre_chapter = 1220004,
+		star_require_1 = 1,
+		pos_y = "0.417",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 8,
+		unlocklevel = 0,
+		boss_refresh_special = 7,
+		uifx = "",
+		name = "黑色的AI",
+		chapter_name = "Black-SP ",
+		type = 1,
+		act_id = 280,
+		enter_story = "",
+		boss_refresh = 7,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1220001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "新的虚拟镜面海域中检测到大量「Pt-绊」反应。逐渐染成黑色的绊爱(伪)，如同守护者一般伫立在前——",
+		difficulty = 8,
+		avoid_ratio = 14,
+		star_require_2 = 4,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.62,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1220081,
+				15,
+				0
+			},
+			{
+				1220082,
+				20,
+				0
+			},
+			{
+				1220083,
+				30,
+				1
+			},
+			{
+				1220084,
+				15,
+				0
+			},
+			{
+				1220085,
+				20,
+				0
+			},
+			{
+				1220086,
+				30,
+				1
+			},
+			{
+				1220087,
+				15,
+				0
+			},
+			{
+				1220088,
+				20,
+				0
+			},
+			{
+				1220089,
+				30,
+				1
+			},
+			{
+				1220090,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220082,
+			1220085,
+			1220088
+		},
+		elite_expedition_list = {
+			1220083,
+			1220086,
+			1220089
+		},
+		ai_expedition_list = {
+			1220093,
+			1220094,
+			1220095,
+			1220096
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1220105
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0
+		},
+		ai_refresh = {
+			2,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangCV"
+		},
+		awards = {
+			{
+				2,
+				57585
+			},
+			{
+				2,
+				57584
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59126
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				12
+			},
+			{
+				5,
+				6,
+				true,
+				16
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"2x2_1banai",
+				52,
+				52
+			},
+			{
+				7,
+				1,
+				"1x2_1banai",
+				53,
+				7
+			},
+			{
+				6,
+				5,
+				"1x1_3banai",
+				8,
+				24
+			},
+			{
+				5,
+				3,
+				"1x2_1banai",
+				-46,
+				6
+			},
+			{
+				4,
+				8,
+				"1x1_3banai",
+				0,
+				10
+			},
+			{
+				3,
+				5,
+				"2x3_1banai",
+				0,
+				26
+			},
+			{
+				1,
+				8,
+				"1x3_1banai",
+				-62,
+				6
+			},
+			{
+				1,
+				2,
+				"2x3_1banai",
+				0,
+				14
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			20,
+			14,
+			-64,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			10,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {}
+	},
+	[1220021] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.47578",
+		group_num = 1,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 50,
+		best_air_dominance = 150,
+		count = 0,
+		id = 1220021,
+		pre_chapter = 1220004,
+		star_require_1 = 1,
+		pos_y = "0.2698",
+		num_1 = 1,
+		model = 5,
+		investigation_ratio = 0,
+		num_2 = 4,
+		land_based = "",
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "超级AI",
+		chapter_name = "EXTRA",
+		type = 2,
+		act_id = 280,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 0,
+		friendly_id = 0,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 1220021,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "拯救了来自异世界的“奇点”的勇者啊——不再假装废柴的「超级AI真正的力量」…将其深深烙印在记忆之中吧",
+		difficulty = 9,
+		avoid_ratio = 17,
+		star_require_2 = 4,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.47,
+			0.43,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1220082,
+			1220085,
+			1220088
+		},
+		elite_expedition_list = {
+			1220063,
+			1220066,
+			1220069
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1221201
+		},
+		enemy_refresh = {
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"aijiangDD"
+		},
+		awards = {},
+		grids = {
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				8
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x3_1banai",
+				4,
+				-47
+			},
+			{
+				7,
+				2,
+				"1x2_2banai",
+				52,
+				20
+			},
+			{
+				2,
+				4,
+				"3x2_1banai",
+				1,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_banai",
+			45,
+			12,
+			191,
+			-55,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			23,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {}
+	},
 	[2100001] = {
 		num_3 = 1,
 		mine_id = 2001,
@@ -177812,7 +182733,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 150,
 		best_air_dominance = 195,
-		boss_expedition_id = 1030016,
+		count = 0,
 		id = 2100001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -177930,6 +182851,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030016
 		},
 		enemy_refresh = {
 			0,
@@ -178325,7 +183249,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 205,
 		best_air_dominance = 270,
-		boss_expedition_id = 1030032,
+		count = 0,
 		id = 2100002,
 		pre_chapter = 2100001,
 		star_require_1 = 1,
@@ -178443,6 +183367,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030032
 		},
 		enemy_refresh = {
 			0,
@@ -178895,7 +183822,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 270,
 		best_air_dominance = 355,
-		boss_expedition_id = 1030048,
+		count = 0,
 		id = 2100003,
 		pre_chapter = 2100002,
 		star_require_1 = 1,
@@ -179013,6 +183940,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030048
 		},
 		enemy_refresh = {
 			0,
@@ -179532,7 +184462,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 330,
 		best_air_dominance = 430,
-		boss_expedition_id = 1030064,
+		count = 0,
 		id = 2100004,
 		pre_chapter = 2100003,
 		star_require_1 = 1,
@@ -179650,6 +184580,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030064
 		},
 		enemy_refresh = {
 			0,
@@ -180119,7 +185052,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 430,
 		best_air_dominance = 560,
-		boss_expedition_id = 1030080,
+		count = 0,
 		id = 2100005,
 		pre_chapter = 2100004,
 		star_require_1 = 1,
@@ -180237,6 +185170,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030080
 		},
 		enemy_refresh = {
 			0,
@@ -180808,7 +185744,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 535,
 		best_air_dominance = 700,
-		boss_expedition_id = 1030096,
+		count = 0,
 		id = 2100006,
 		pre_chapter = 2100005,
 		star_require_1 = 1,
@@ -180926,6 +185862,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030096
 		},
 		enemy_refresh = {
 			0,
@@ -181492,7 +186431,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 530,
 		best_air_dominance = 690,
-		boss_expedition_id = 1030215,
+		count = 0,
 		id = 2100011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -181651,6 +186590,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030215
 		},
 		enemy_refresh = {
 			0,
@@ -182046,7 +186988,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 605,
 		best_air_dominance = 790,
-		boss_expedition_id = 1030231,
+		count = 0,
 		id = 2100012,
 		pre_chapter = 2100011,
 		star_require_1 = 1,
@@ -182205,6 +187147,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030231
 		},
 		enemy_refresh = {
 			0,
@@ -182657,7 +187602,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 680,
 		best_air_dominance = 885,
-		boss_expedition_id = 1030247,
+		count = 0,
 		id = 2100013,
 		pre_chapter = 2100012,
 		star_require_1 = 1,
@@ -182816,6 +187761,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030247
 		},
 		enemy_refresh = {
 			0,
@@ -183336,7 +188284,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 810,
 		best_air_dominance = 1055,
-		boss_expedition_id = 1030263,
+		count = 0,
 		id = 2100014,
 		pre_chapter = 2100013,
 		star_require_1 = 1,
@@ -183495,6 +188443,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030263
 		},
 		enemy_refresh = {
 			0,
@@ -183965,7 +188916,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 965,
 		best_air_dominance = 1255,
-		boss_expedition_id = 1030279,
+		count = 0,
 		id = 2100015,
 		pre_chapter = 2100014,
 		star_require_1 = 1,
@@ -184124,6 +189075,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030279
 		},
 		enemy_refresh = {
 			0,
@@ -184696,7 +189650,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 1130,
 		best_air_dominance = 1470,
-		boss_expedition_id = 1030295,
+		count = 0,
 		id = 2100016,
 		pre_chapter = 2100015,
 		star_require_1 = 1,
@@ -184855,6 +189809,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			1030295
 		},
 		enemy_refresh = {
 			0,
@@ -185421,7 +190378,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 81,
 		best_air_dominance = 150,
-		boss_expedition_id = 10500,
+		count = 0,
 		id = 2200001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -185511,6 +190468,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10500
 		},
 		enemy_refresh = {
 			0,
@@ -185785,7 +190745,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 100,
 		best_air_dominance = 150,
-		boss_expedition_id = 10501,
+		count = 0,
 		id = 2200002,
 		pre_chapter = 2200001,
 		star_require_1 = 1,
@@ -185887,6 +190847,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10501
 		},
 		enemy_refresh = {
 			0,
@@ -186224,7 +191187,7 @@ pg.chapter_template = {
 		chapter_safe = 0,
 		air_dominance = 120,
 		best_air_dominance = 150,
-		boss_expedition_id = 10502,
+		count = 0,
 		id = 2200003,
 		pre_chapter = 2200002,
 		star_require_1 = 1,
@@ -186326,6 +191289,9 @@ pg.chapter_template = {
 		},
 		submarine_expedition_list = {
 			1
+		},
+		boss_expedition_id = {
+			10502
 		},
 		enemy_refresh = {
 			0,
@@ -186975,6 +191941,12 @@ pg.chapter_template = {
 		1210015,
 		1210016,
 		1210021,
+		1220001,
+		1220002,
+		1220003,
+		1220004,
+		1220005,
+		1220021,
 		2100001,
 		2100002,
 		2100003,

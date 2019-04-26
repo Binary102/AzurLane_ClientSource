@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 305051,
+			actor = 305050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -64,7 +64,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "{namecode:161}有事相求…",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "希望撤销对{namecode:92}的退役处理。",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "除非有人能够替代她",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,7 +179,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "可能…很长一段时间内重樱还需要由您来带领前进……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "然后，重新举办一次舰队演习…这是我..咳….咳咳…",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "感谢{namecode:74}大人的理解..",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "凭她们两人的资质和悟性，将来一定能成为重樱的核心力量…请{namecode:74}大人放心…咳…",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "感谢…那么，我就出发了——",
 			typewriter = {

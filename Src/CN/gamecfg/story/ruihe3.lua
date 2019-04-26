@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官大人～",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "前辈们辛苦了！",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "是的！诶？指挥官躲在我身后干嘛？",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "{namecode:96}，指挥官大人是看到{namecode:91}觉得害羞了呀。呵呵呵，报告书，我放在“老地方”了哟",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "姐…咳咳、{namecode:91}，别给指挥官添太多麻烦",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "{namecode:96}你也是，要好好尽到秘书舰的职责…好了，{namecode:91}，你先走吧",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指挥官，{namecode:91}前辈已经走了哦",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "话说，虽然{namecode:91}前辈是有点强硬，但刚才的指挥官是不是有点反应过度了？",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "诶？什么？",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "如果被看到和其他女孩子在一起，{namecode:91}就不会找指挥官，而是会念着“害虫”之类的词去找一起的女孩子算账了。就算像那样躲起来也没用的",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "也就是说，{namecode:91}判断你和指挥官在一起是“无害”的，才没有发生什么事",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "该高兴还是该难过呢……心情真微妙……",
 			typewriter = {

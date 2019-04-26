@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "呼~暖炉真是太棒了~",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301141,
 			nameColor = "#a9f548",
 			say = "哦哦哦！！是雪！下雪了诶！！{namecode:16}我们去打雪仗吧！",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "呜哇，别、别扯我啊！",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:143}",
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "哇，好大的雪呀！地上已经积起来一层了呢！",
 			flashout = {
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900156,
+			actor = 301601,
 			actorName = "{namecode:143}",
 			say = "{namecode:142}{namecode:142}，你的尾巴在颤抖耶，这难道就是传说中的“武者震”？",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "我、我才没有因为下雪而觉得兴奋啦！！",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			nameColor = "#a9f548",
 			say = "给指挥官的礼物就这样，然后这样…呵呵呵…啊啊，已经迫不及到想见到指挥官惊喜的神情了呢…",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -416,7 +416,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399021,
+			actor = 399020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 399011,
+			actor = 399010,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307012,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -467,7 +467,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399011,
+			actor = 399010,
 			nameColor = "#a9f548",
 			say = "咦、咦？！比的是这个吗？！",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -538,7 +538,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301141,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -554,7 +554,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -570,7 +570,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -586,7 +586,7 @@ return {
 			}
 		},
 		{
-			actor = 399021,
+			actor = 399020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			say = "一到新年，大家就都兴奋起来了呀……真是让人头疼，希望不要闹出什么事就好了……",
 			typewriter = {

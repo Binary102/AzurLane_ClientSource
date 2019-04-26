@@ -117,7 +117,7 @@ return {
 			side = 2,
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			say = "啊——————！",
 			flashout = {
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			say = "哇！姐姐别吓人呀",
 			dir = -1,
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
@@ -383,7 +383,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,

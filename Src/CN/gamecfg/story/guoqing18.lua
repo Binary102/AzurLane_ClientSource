@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
@@ -31,7 +31,7 @@ return {
 			say = "如你所见，这里是神明赐予我们的“圣域”，在这里，我们可以获得无尽的力量",
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "只要继续献上更多优质的灵魂就…",
 			shake = {
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "闭嘴！！！不许在我面前提到那个家伙！！",
 			shake = {
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "你们总是把那个家伙幽灵、幽灵的挂在嘴边！！我，怎么可能会被那种家伙给……啊啊啊啊啊！",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",

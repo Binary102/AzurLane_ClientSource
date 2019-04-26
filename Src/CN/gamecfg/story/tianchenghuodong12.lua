@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "……呜！",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			expression = 4,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 303091,
+			actor = 303090,
 			dir = -1,
 			hideOther = true,
 			actorName = "{namecode:144}&{namecode:40}",
@@ -81,7 +81,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 302141,
+					actor = 302140,
 					expression = 2,
 					pos = {
 						x = -687
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "没事，只是擦伤而已…没想到这家伙还设置有自爆机能…失策了",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "下棋归下棋。如果到了实战中，自己还躲在后方远远看着下属们因为自己的决策而牺牲….",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "呵呵，看，我们这不就找到收获了么？",
 			typewriter = {
 				speed = 0.05,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -236,7 +236,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "真是个…笨蛋",
 			typewriter = {
 				speed = 0.05,

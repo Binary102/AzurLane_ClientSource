@@ -7,7 +7,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			bgName = "bg_story_6",
-			actor = 107021,
+			actor = 107020,
 			bgspeed = 2,
 			blackBg = true,
 			side = 0,
@@ -20,14 +20,14 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
 			say = "<size=28>But if they mean to have a war</size>\n<size=22>但是，如果敌人硬要把战争强加在我们头上</size>"
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,

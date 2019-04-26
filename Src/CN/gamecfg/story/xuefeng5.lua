@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "想去游乐园了？哼，那种地方我{namecode:22}大人怎么会喜……呃呃呃……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "……哼，这可是指挥官实在想去{namecode:22}大人迫不得已才跟着你去的哦！",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "哼！好好感谢本大人吧！",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
 			flashout = {
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
 			flashout = {
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "嗯？要去那个鬼屋挑战一下吗？",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "啊～哈哈哈！这种骗小孩的玩意，{namecode:22}大人是不会害怕的啦！！",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "（颤抖）……好、好可怕……！不不不不要松开手啊啊啊啊啊啊 ――！",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "指挥官！救救我啊啊啊啊啊啊！",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "要、要死了……",
 			flashout = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "指、指挥官……呜呜呜呜……",
 			typewriter = {

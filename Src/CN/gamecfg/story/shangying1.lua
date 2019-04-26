@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "呼…不知不觉，天气开始转暖了呢",
 			typewriter = {
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
@@ -102,7 +102,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 0,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 1,
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,

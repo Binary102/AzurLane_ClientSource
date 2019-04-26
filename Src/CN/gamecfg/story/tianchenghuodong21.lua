@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "其实我给{namecode:91}也准备了一个，给你的是一对...-不，是备用的~",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			say = "怎么突然送我这么贵重的东西，你是无事献殷勤，还是有所图谋？",
 			dir = -1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "想什么呢，不过是去祈愿时顺便买的便宜货，你也顺便收下就是了，呵呵呵~",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "呵呵~这样便好~记得一定要随身带着哦？",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			dir = -1,
 			blackBg = true,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "呵呵呵，又有烦人的“老鼠”突破暴风圈闯进圣域了啊…测试者，检测出单位了吗",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "居然是五航战的那帮孩子啊。真是一群碍事的家伙～",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "既然如此，不如将计就计…就让我来看看你们究竟有多大的本事吧～",
 			typewriter = {

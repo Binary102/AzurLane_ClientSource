@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "哼，带着大军攻过来的人…亏她有脸这么说！",
 			flashN = {
 				color = {
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "量比质强",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			say = "就算敌人单体不强，想要扭转这么大的战力差也不是那么容易的",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -170,7 +170,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "敌人的数量虽然是挺麻烦的……不过，为什么……",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "芙米露露？",
 			say = "…………",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "芙米露露，为什么要攻击我们啊！",
 			flashN = {
 				color = {
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "那个并不是芙米露露",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			side = 1,
 			say = "外表和能力一模一样，但是灵魂的颜色不同。不…她的灵魂没有颜色，就像人偶一样",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -288,7 +288,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "也就是说……这是个假货？",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "芙米露露？",
 			say = "…………",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "都这样了……敌人还有增援吗！？",
 			typewriter = {
 				speed = 0.05,
@@ -481,7 +481,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "准备迎击",
 			typewriter = {
 				speed = 0.05,
@@ -516,7 +516,7 @@ return {
 			side = 1,
 			say = "不管是谁，敢挑战我们的话我们也不会手下留情",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

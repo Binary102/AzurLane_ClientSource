@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "……但是指挥官你为什么又在这里？",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			say = "不过，感觉火奴鲁鲁你平时不大与人来往呢？",
 			flashout = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102121,
+			actor = 102120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -323,7 +323,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			}
 		},
 		{
-			actor = 102121,
+			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

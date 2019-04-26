@@ -11,7 +11,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			stopbgm = true,
 			say = "呼，就这样吧，我认输，火力根本不在一个层面上呀…",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "承让了~你已经尽到你的职责了。",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "……{namecode:161}，你是认真的吗？",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -90,7 +90,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "…… ",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "虽然你表现得和往常一样，但是和你交手就感觉出来了……",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "按照以往的作战风格，你只需在后方运筹帷幄就可以掌控全局，根本不需要采用如此激进的战术..",
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "一味的停留在过去是不够的。 ",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -184,7 +184,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "正如{namecode:74}所说，乱世就在眼前。在这种时期，要是我再想着独善其身可就不好了。 ",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -215,7 +215,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "演习能达到这样的成果，对我来说就已经有足够的价值了 ",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "真像是一个伟大的领导者会说出的话啊…..",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -262,7 +262,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "不论你们是谁赢得了最后的胜利，我都会全力的支持她的。",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "呼，呼…终于结束了吗…差点就要暴露了… ",
 			typewriter = {
 				speed = 0.05,
@@ -353,7 +353,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "太久没有运动身体，居然连这么点时间都要坚持不了了…咳… ",
 			typewriter = {
 				speed = 0.05,
@@ -369,7 +369,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "…再坚持一下，还有两战就可以… ",
 			typewriter = {
 				speed = 0.05,

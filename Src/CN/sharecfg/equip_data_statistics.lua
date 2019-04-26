@@ -47211,6 +47211,100 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60401] = {
+		name = "航空攻击展示-爱酱I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60401,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60401
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60402] = {
+		name = "航空攻击展示-爱酱II",
+		base = 60401,
+		id = 60402,
+		weapon_id = {
+			60402
+		},
+		property_rate = {}
+	},
+	[60403] = {
+		name = "航空攻击展示-爱酱III",
+		base = 60401,
+		id = 60403,
+		weapon_id = {
+			60403
+		},
+		property_rate = {}
+	},
+	[60411] = {
+		name = "航空攻击展示-小齐柏林I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 60411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60412] = {
+		name = "航空攻击展示-小齐柏林II",
+		base = 60411,
+		id = 60412,
+		weapon_id = {
+			60412
+		},
+		property_rate = {}
+	},
+	[60413] = {
+		name = "航空攻击展示-小齐柏林III",
+		base = 60411,
+		id = 60413,
+		weapon_id = {
+			60413
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		type = 1,
@@ -52061,6 +52155,306 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			79392
 		},
+		property_rate = {}
+	},
+	[89000] = {
+		name = "随机单词生成器 ",
+		type = 10,
+		id = 89000,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "无",
+		descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
+		value_3 = 0,
+		attribute_1 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6380
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89001] = {
+		id = 89001,
+		base = 89000,
+		property_rate = {}
+	},
+	[89002] = {
+		id = 89002,
+		base = 89000,
+		value_2 = 7,
+		value_1 = "17",
+		property_rate = {}
+	},
+	[89003] = {
+		id = 89003,
+		base = 89000,
+		value_2 = 8,
+		value_1 = "18",
+		property_rate = {}
+	},
+	[89004] = {
+		id = 89004,
+		base = 89000,
+		value_2 = 9,
+		value_1 = "19",
+		property_rate = {}
+	},
+	[89005] = {
+		id = 89005,
+		base = 89000,
+		value_2 = 10,
+		value_1 = "20",
+		property_rate = {}
+	},
+	[89006] = {
+		id = 89006,
+		base = 89000,
+		value_2 = 11,
+		value_1 = "21",
+		property_rate = {}
+	},
+	[89007] = {
+		id = 89007,
+		base = 89000,
+		value_2 = 12,
+		value_1 = "22",
+		property_rate = {}
+	},
+	[89008] = {
+		id = 89008,
+		base = 89000,
+		value_2 = 13,
+		value_1 = "23",
+		property_rate = {}
+	},
+	[89009] = {
+		id = 89009,
+		base = 89000,
+		value_2 = 14,
+		value_1 = "24",
+		property_rate = {}
+	},
+	[89010] = {
+		id = 89010,
+		base = 89000,
+		value_2 = 15,
+		value_1 = "25",
+		property_rate = {}
+	},
+	[89020] = {
+		name = "晃悠悠",
+		type = 10,
+		id = 89020,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 1,
+		icon = "89020",
+		value_1 = "200",
+		attribute_2 = "luck",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "无",
+		descrip = "绊爱的发箍。有一种说法是晃悠悠才是本体。拿掉晃悠悠的话会怎么样呢…话说真的拿得掉么？",
+		value_3 = 0,
+		attribute_1 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6390
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89021] = {
+		id = 89021,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "230",
+		property_rate = {}
+	},
+	[89022] = {
+		id = 89022,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "260",
+		property_rate = {}
+	},
+	[89023] = {
+		id = 89023,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "290",
+		property_rate = {}
+	},
+	[89024] = {
+		id = 89024,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "320",
+		property_rate = {}
+	},
+	[89025] = {
+		id = 89025,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "350",
+		property_rate = {}
+	},
+	[89026] = {
+		id = 89026,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "380",
+		property_rate = {}
+	},
+	[89027] = {
+		id = 89027,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "410",
+		property_rate = {}
+	},
+	[89028] = {
+		id = 89028,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "440",
+		property_rate = {}
+	},
+	[89029] = {
+		id = 89029,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "470",
+		property_rate = {}
+	},
+	[89030] = {
+		id = 89030,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "500",
+		property_rate = {}
+	},
+	[89040] = {
+		name = "智慧模块",
+		type = 10,
+		id = 89040,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 3,
+		icon = "89040",
+		value_1 = "98",
+		attribute_2 = "speed",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "无",
+		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#D6341D>（该装备绊爱联动活动结束后装备技能失效）</color>",
+		value_3 = 0,
+		attribute_1 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6400
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89041] = {
+		id = 89041,
+		value_1 = "112",
+		base = 89040,
+		property_rate = {}
+	},
+	[89042] = {
+		id = 89042,
+		base = 89040,
+		value_2 = 4,
+		value_1 = "127",
+		property_rate = {}
+	},
+	[89043] = {
+		id = 89043,
+		base = 89040,
+		value_2 = 4,
+		value_1 = "142",
+		property_rate = {}
+	},
+	[89044] = {
+		id = 89044,
+		base = 89040,
+		value_2 = 5,
+		value_1 = "156",
+		property_rate = {}
+	},
+	[89045] = {
+		id = 89045,
+		base = 89040,
+		value_2 = 5,
+		value_1 = "171",
+		property_rate = {}
+	},
+	[89046] = {
+		id = 89046,
+		base = 89040,
+		value_2 = 6,
+		value_1 = "186",
+		property_rate = {}
+	},
+	[89047] = {
+		id = 89047,
+		base = 89040,
+		value_2 = 6,
+		value_1 = "200",
+		property_rate = {}
+	},
+	[89048] = {
+		id = 89048,
+		base = 89040,
+		value_2 = 7,
+		value_1 = "215",
+		property_rate = {}
+	},
+	[89049] = {
+		id = 89049,
+		base = 89040,
+		value_2 = 7,
+		value_1 = "230",
+		property_rate = {}
+	},
+	[89050] = {
+		id = 89050,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[90000] = {
@@ -57791,6 +58185,12 @@ pg.equip_data_statistics = {
 		60391,
 		60392,
 		60393,
+		60401,
+		60402,
+		60403,
+		60411,
+		60412,
+		60413,
 		61007,
 		61008,
 		61009,
@@ -58041,6 +58441,39 @@ pg.equip_data_statistics = {
 		79384,
 		79391,
 		79392,
+		89000,
+		89001,
+		89002,
+		89003,
+		89004,
+		89005,
+		89006,
+		89007,
+		89008,
+		89009,
+		89010,
+		89020,
+		89021,
+		89022,
+		89023,
+		89024,
+		89025,
+		89026,
+		89027,
+		89028,
+		89029,
+		89030,
+		89040,
+		89041,
+		89042,
+		89043,
+		89044,
+		89045,
+		89046,
+		89047,
+		89048,
+		89049,
+		89050,
 		90000,
 		90001,
 		90002,

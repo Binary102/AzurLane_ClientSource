@@ -8,7 +8,7 @@ return {
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			stopbgm = true,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "……",
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "…还有一艘斯特拉斯堡号呢？",
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "越过了布雷区，在夜色中逃脱了",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "这样吗？也好…",
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "没想到，我驰骋大洋二十年，今日的第一场正式作战，居然是将炮口对准曾经并肩作战的盟友…",
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "…在时代的格局面前，这些都是无可奈何的选择",
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "此身为舰，正是以服从司令部、指挥官所下达的命令为荣的…兵器",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "如果只是兵器…现在心里的这份悔意，这份痛楚感又是什么！？",
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "…",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "对不起…失态了",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "收…收到了广域电播信号演讲…",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "是来自维希教廷的最大战舰，黎塞留号！",
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "亏我们还在四处寻找她的行踪，现在居然自己出现了？",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "快，看看信号来源是哪里？",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "信号来源是…",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "……",
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "——皇家本岛",
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			dir = 1,
 			say = "……",
@@ -686,7 +686,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			say = "真是充满激情的演讲，不愧是继承了红衣主教之名的新锐战舰啊",
 			dir = 1,
@@ -704,7 +704,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "看来，世界的格局又要发生翻天覆地的变化了呀~",
@@ -718,7 +718,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "是呀，恐怕更大的暴风雨…就要来临了",

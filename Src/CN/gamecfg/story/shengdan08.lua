@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101261,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900059,
+			actor = 301321,
 			actorName = "{namecode:33}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -243,19 +243,19 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "众人",
-			actor = 900057,
+			actor = 201102,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "啊，是企业",
 			subActors = {
 				{
-					actor = 900056,
+					actor = 305022,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900059,
+					actor = 301321,
 					pos = {
 						x = 750
 					}
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			actor = 900059,
+			actor = 301321,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -402,13 +402,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:79}&{namecode:33}",
-			actor = 900059,
+			actor = 301321,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "指挥官圣诞快乐~",
 			subActors = {
 				{
-					actor = 900056,
+					actor = 305022,
 					pos = {
 						x = 685
 					}
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 900056,
+			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,7 +473,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "好~既然大家都聚在一起了，那就一起来一张吧~",
 			flashout = {
@@ -503,7 +503,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -520,7 +520,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101051,
 			nameColor = "#a9f548",
 			say = "嘿嘿，非常棒~这张就叫做《爱与和平的圣夜祭》吧！",
 			flashout = {
@@ -550,7 +550,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -569,7 +569,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101051,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -584,7 +584,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102081,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

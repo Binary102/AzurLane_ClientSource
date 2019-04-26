@@ -12,7 +12,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "theme",
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "你变强了呢，终于不会那么容易就上当了呵呵呵",
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			say = "还不都是跟你学来的…",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = -1,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			say = "等等、谁是姐——",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "{namecode:92}，听好了！",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			side = 1,
 			withoutActorName = true,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "{namecode:161}突然换上了认真的表情，对{namecode:92}说道",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "我从一开始来到世界时便带着缺陷，是一个十足的“弱者”。",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "本来想着如果成为“强者”的话，就能保护妹妹和周围的人了。",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "结果，最终还是没能改变世界的选择…",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -212,7 +212,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "而到那时，改装成航母的你和{namecode:91}，将会成为重樱的中流砥柱。",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "然后世界在世界的各个地方也会出现跟你们一样…不，甚至比你们更厉害的对手。",
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "——永远不要轻敌，永远不要停下变强的脚步",
 			typewriter = {
 				speed = 0.05,
@@ -260,7 +260,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "与作为「弱者」而生的我不同，你已经是「强者」，并且注定成为更强的存在",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "你们有这样的资格、与义务。",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "所以，请背负起并非作为“弱者”的{namecode:161}，而是你认为是“强者”的我的意志……",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 304051,
+			actor = 304050,
 			say = "代替我，守护重樱的未来。",
 			typewriter = {
 				speed = 0.05,

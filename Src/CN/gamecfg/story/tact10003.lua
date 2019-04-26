@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -25,7 +25,7 @@ return {
 		{
 			side = 1,
 			dir = 0,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "啊…可恶…局面不应该是这个样子的，要是不挠号之前没有触礁掉队的话…",
 			flash = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",

@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "本大人在后宅捡到家具币了！还不跪谢！",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "我在后宅捡到家具币了呦，笨蛋指挥官♪",
 			typewriter = {
@@ -74,12 +74,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "什么啊！为什么{namecode:22}也在这里啊！",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -166,12 +166,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "可恶，没想到{namecode:22}这个笨蛋在……",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -258,12 +258,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -297,7 +297,7 @@ return {
 				x = 0,
 				number = 1
 			},
-			actor = 301154,
+			actor = 301150,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_outdoor",
 			say = "啊哈哈哈！连一次都没有赢过本大人的家伙居然说要一决胜负！哼！尽管放马过来吧！",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "时、{namecode:17}酱，不要吵架啦……",
 			typewriter = {
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -386,7 +386,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "{namecode:19}、{namecode:19}和{namecode:24}你们也来劝劝啊……",
 			typewriter = {
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "Zzzzzzz",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "哈哈哈！你看指挥官不也在看戏嘛！",
 			typewriter = {
@@ -437,7 +437,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:17}",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "哈…哈…没想到这家伙这么厉害……说你光运气好是错怪你了呢……",
 			flashout = {
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "……Zzzzzzz",
 			typewriter = {
@@ -510,7 +510,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301114,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301124,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "但是为什么抽个签就能弄到这么累呢？{namecode:14}酱不明白……",
 			typewriter = {

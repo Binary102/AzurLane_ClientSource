@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_room",
 			bgm = "main-newyear",
-			actor = 900156,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "哇~荞麦面和年糕！终于可以开饭啦！",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205062,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "唔…！？虽然看上去很软，但是吃起来的口感却意外地不同……",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101263,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201103,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102051,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "不用担心的，海伦娜，克利夫兰怎么可能会那么容易受伤呢？你太多虑了啦。",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "可是……",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "嘿！我回来啦！",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "你看，我说什么来着。回来的正好，这种面条一旦冷掉就不好吃了哦。",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900156,
+			actor = 301601,
 			actorName = "{namecode:143}",
 			say = "这个是暖炉，是为了应对冬天的最强战术哦！",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			say = "其他阵营的各位也完全和暖炉融为一体了呢",
 			flashout = {
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			say = "对了喵！忘记给在场的各位准备贺年卡了喵",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "哇，这……这么精致的卡片，上面……还贴了花瓣！感……感谢！",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "这个图案是……啊，是象征幸福的青鸟吧！谢谢，我会珍惜的。",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900151,
+			actor = 101263,
 			nameColor = "#a9f548",
 			say = "小闪电的图案，可爱，喜欢~",
 			typewriter = {
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -454,7 +454,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900158,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "还，还是不了，现在这样也不错，大姐头。",
 			typewriter = {

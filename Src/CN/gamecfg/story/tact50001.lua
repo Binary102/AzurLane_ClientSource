@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "凭这点兵力就敢进攻，重樱的胆子姐姐我今天算是见识到了。",
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "虽然不甘心，不过你说的没错呢……",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "多说无益，就让我会会你们吧！",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

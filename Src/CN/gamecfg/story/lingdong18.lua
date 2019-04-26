@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 205074,
+			actor = 205070,
 			nameColor = "#a9f548",
 			say = "赐予汝鲜血的消亡！回到冰冷的海底去吧——",
 			flash = {
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 205074,
+			actor = 205070,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 207044,
+			actor = 207040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

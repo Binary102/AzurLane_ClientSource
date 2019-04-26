@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "哈啊……独角兽……想不明白……",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "那时候的哥哥……好像全身都散发着光芒一样……",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "有种……输了的感觉……",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "（猛摇头）嗯嗯，不对…独角兽只是…想要让指挥官……哥哥开心……",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "哈啊……究竟怎么做……才能让哥哥……那么开心呢……",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "星尘……姐姐吗？嗯……感觉那个姐姐身上……也散发着光芒呢……",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "哥哥好像说过……“不耻下问”？",
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "独角兽……要去问问那位姐姐……",

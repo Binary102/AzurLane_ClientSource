@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "嗯，本来这次组成舰队就十分仓促，{namecode:41}和{namecode:37}还有{namecode:153}的战斗力有限，敌人的综合兵力也远超我们，不能给他们反应的时间。",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

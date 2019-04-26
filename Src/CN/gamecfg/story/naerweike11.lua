@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			say = "勇敢！",
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -1000,
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 201201,
+			actor = 201200,
 			say = "呀啊啊！",
 			flashN = {
 				color = {
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "猎人！！",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "可恶…是增援吗！？先、先撤——",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			hideOther = true,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "呼，真是难缠的对手……要是没有增援的话，这次可要一败涂地了呢……",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "不怪你，Z18你的选择是对的……保存实力比无谓的勇敢要更重要。",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -250,7 +250,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "不出意外的话，对方的下一波攻势马上就会到来的，我们要快点回去做好准备才行。",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,

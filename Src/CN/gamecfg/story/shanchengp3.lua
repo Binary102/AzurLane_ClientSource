@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "{namecode:78}姐姐～我们来帮你了～！……哇哇哇！",
 			typewriter = {
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "对不起啊姐姐……啊！今天殿下让我包场了，我们一起来大扫除吧！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "包场是什么意思？呃，就是今天一天殿下都让我给包了，就是这个意思！",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "{namecode:17}告诉我的“包租男友”，应该就是包场没错了！",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			actorName = "{namecode:78}",
 			dir = 1,
 			optionFlag = 1,
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "包场是什么意思？嗯……我也不太明白……",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "{namecode:79}这孩子，大概又从别人那里学到什么一知半解的新词了吧……",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			actorName = "{namecode:79}",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "……嗯？你说这神社是什么时候建的……？",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "是啊，这么说来，上次过年的时候殿下因为工作太忙，没有来新年参拜呢……",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "嗯，过年用的临时设施，本来是想在别的地方临时搭一个的……",
 			typewriter = {
@@ -330,7 +330,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "重樱的成员也越来越多了，既然要搭的话，我想要是能做个给大家留下回忆的地方就好了，就和姐姐商量着盖了这座神社！",
 			typewriter = {

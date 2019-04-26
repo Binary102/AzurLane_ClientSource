@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "真的有啦！我真的遇到了！",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "顺着声音的方向追过去，结果…什么都没有！",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101061,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,12 +108,12 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "一定是“图书室的妖精”啦！指挥官！",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 685
 					}
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "嘁…为什么那家伙不一起来上学呢",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "说什么自己是侍奉女王的女仆…我也是女仆呀…",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "那家伙不在一点意思都没有…",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "还好学院还有这么个图书室~",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			actorName = "？？？",
 			say = "又安静…又宽敞…还偶尔能戏弄一下来借书的驱逐们嘻嘻嘻——",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			say = "哇！哇哇！！",
 			flashN = {
 				color = {
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "贝法那家伙…明明我才是姐姐…",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "话说今天爱看书的驱逐们怎么还没来呢——",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "哇！哇哇！！",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101061,
 			nameColor = "#a9f548",
 			say = "原来妖精是爱丁堡呀~",
 			flashout = {
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202111,
 			nameColor = "#a9f548",
 			say = "要、要跟贝法报告？唯有这点请放过我呜呜——",
 			typewriter = {

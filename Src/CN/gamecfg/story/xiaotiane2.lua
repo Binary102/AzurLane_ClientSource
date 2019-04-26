@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			say = "哼哼，这种时候，就交给我吧！",
 			typewriter = {
@@ -39,20 +39,20 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900078,
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "小天鹅&彗星&新月",
 			say = "哦哦哦…",
 			subActors = {
 				{
-					actor = 201084,
+					actor = 201080,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 201094,
+					actor = 201090,
 					pos = {
 						x = 750
 					}
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -123,14 +123,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 201084,
+			actor = 201080,
 			dir = 1,
 			hideOther = true,
 			actorName = "彗星&新月",
 			say = "是、是吗……",
 			subActors = {
 				{
-					actor = 201094,
+					actor = 201090,
 					pos = {
 						x = 750
 					}
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			say = "气味到这里就没了呢…",
 			flashout = {
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,

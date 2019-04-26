@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "虽然大家都知道我喜欢智取，但我从来也没说过不擅长正面作战哦~",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "……你真是，幸好你不是我真正的敌人。",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "{namecode:161}，想要过去的话，就先过我这一关吧！",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

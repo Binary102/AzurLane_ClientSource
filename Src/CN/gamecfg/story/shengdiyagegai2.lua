@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			say = "强袭模式展开，切换为最大出力！",
 			bgm = "story-1",
-			actor = 900125,
+			actor = 201219,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			seDelay = 2.2,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900126,
+			actor = 301059,
 			dir = 1,
 			actorName = "{namecode:6}",
 			say = "“鬼神”之力，好好感受吧！",
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900127,
+			actor = 101179,
 			nameColor = "#a9f548",
 			say = "呼啊…有点困了",
 			effects = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900128,
+			actor = 401239,
 			nameColor = "#a9f548",
 			say = "啊！拉菲，不行啦，难得大家凑在一起摆个pose，要睡觉等一会再睡！",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "啊啊啊！还有人在看着呢！好歹让人家看到我们帅气的一面嘛…",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "噢噢？！",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "噢噢…！改造原来是件这么厉害的事情！",
 			typewriter = {
@@ -392,18 +392,18 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			actorName = "标枪&{namecode:6}&拉菲",
 			say = "噢噢……",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "怎么连你们都这样了啦！！！！",
 			typewriter = {

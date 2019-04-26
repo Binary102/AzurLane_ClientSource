@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "指挥官果然…还是选了{namecode:95}姐准备的……",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "两边都要？",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "不用勉强自己哦…？难得{namecode:95}姐准备了，我的就下次再说吧？",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……“{namecode:96}和{namecode:95}都是我的翅膀，不可能只选择一边”……？",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……啊、啊呜……（///）",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "虽然知道指挥官是想解围……但这台词实在有点……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "指挥官，刚才谢谢你了",
 			flashout = {
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "明知道指挥官对{namecode:95}姐和我都一样重视…我还像那样乱了阵脚……",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "如果我又失去自信，像这样陷入消沉的话……",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "不对，不会再这样了！我可是不屈的{namecode:96}！",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "不过…要是听到“我更重视{namecode:96}哦”这类的话……",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "我大概会更高兴……吧？",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "呐…指挥官…？",
 			typewriter = {

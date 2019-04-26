@@ -347,7 +347,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "呼…呼…{namecode:89}大人……{namecode:89}大人，现在…呼…有时间吗？",
 			flashout = {
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "…能拜托你派出飞机去镜面海域寻找{namecode:92}吗？！",
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -591,7 +591,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -619,7 +619,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -653,7 +653,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "{namecode:91}，你也看到了吧？舰载机并不是你想象的那么没用。",
 			typewriter = {
 				speed = 0.05,
@@ -665,7 +665,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -699,7 +699,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "傻孩子，听姐姐的话。我一定会带{namecode:92}一起平安的回来的。",
 			typewriter = {
 				speed = 0.05,

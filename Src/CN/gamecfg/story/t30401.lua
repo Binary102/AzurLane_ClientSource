@@ -7,7 +7,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "…",
 			shake = {
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "是么，一航战和{namecode:93}都已经…",
 			shake = {
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "不能就这么空着手回去，所有舰载机立刻起飞！",
 			shake = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "让你们看看二航战的底力，这是我们“最后的反击”！",
 			shake = {

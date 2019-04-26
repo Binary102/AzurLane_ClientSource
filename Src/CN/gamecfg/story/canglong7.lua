@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "今天的路上，大家都用很不可思议的眼光在看着我们呢。",
 			flashout = {
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "{namecode:93}扶了一下眼镜，直视着这边。",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "虽然做着大胆的表白，然而{namecode:93}的脸上却没有丝毫羞涩。",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "指挥官，你还记得之前我和{namecode:94}的对话吧？",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "原来如此，以为是自己适应了{namecode:93}的节奏，实际上，自己也悄悄影响了{namecode:93}吗……",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "对{namecode:93}的心意，自然不必多说，但是这个时候，果然还是应该……",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "…………噗。",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307031,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "指挥官要是能从我手里赢下一局的话，我什么都答应你哦？",
 			typewriter = {

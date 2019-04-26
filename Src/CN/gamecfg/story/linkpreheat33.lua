@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "——视线刺痛",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			say = "怎么了指挥官大人？从刚才开始您就一直盯着我们看",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "可疑的视线……",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			say = "十分抱歉。可以把我们当作性目标来看待的仅限主人一人",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "主人可以分得出",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			say = "指挥官大人可以分出我们来吗？来…请闭上眼试一试吧",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -283,13 +283,13 @@ return {
 			say = "呵呵……指挥官肯定会猜对的吧",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -383,13 +383,13 @@ return {
 			say = "不只是这种程度吧？让我们看看…指挥官认真起来的样子吧",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}

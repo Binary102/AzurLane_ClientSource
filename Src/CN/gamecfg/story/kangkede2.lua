@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "喂~快点，甜品店就在前面！",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "放心吧~小罗利吃不下的部分，就由我来帮你品尝~",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102021,
+			actor = 102020,
 			nameColor = "#a9f548",
 			say = "说了很多次了，我可是姐姐！CALL ME SISTER！",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_104",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "这边品种可不少哦~果然首先还得品尝草莓圣代——",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "哦~有拿破仑蛋糕，我也不客气了！",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_104",
 			say = "姐姐，你不是说要减肥么…一来就拿了五人份的蛋糕——",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "哈哈，甜品也是零食的一部分！为了好吃的零食，减肥这种话题就让它消失吧！",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "康克德的面前已经不知不觉堆上了大大小小的碟子。就象是被甜品和糖分包围了一样。",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嘁、嘁、嘁，补充糖分可是我的日常义务！",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "糖分和其他零食是有区别的啦~",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "所以就放开吃吧~嘻嘻~",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

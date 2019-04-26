@@ -21,11 +21,11 @@ function slot0.register(slot0)
 			if not pg.activity_template[slot5.id] then
 				Debugger.LogError("活动acvitity_template不存在: " .. slot5.id)
 			else
-				slot0.data[slot5.id] = Activity.New(slot5)
-			end
+				if Activity.New(slot5).getConfig(slot6, "type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+					slot0:updateActivityFleet(slot5)
+				end
 
-			if pg.activity_template[slot5.id].type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
-				slot0:updateActivityFleet(slot5)
+				slot0.data[slot5.id] = slot6
 			end
 		end
 
@@ -137,7 +137,8 @@ function slot0.getPanelActivities(slot0)
 		ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD,
 		ActivityConst.ACTIVITY_TYPE_MONOPOLY,
 		ActivityConst.ACTIVITY_TYPE_BUILD,
-		ActivityConst.ACTIVITY_TYPE_DODGEM
+		ActivityConst.ACTIVITY_TYPE_DODGEM,
+		ActivityConst.ACTIVITY_TYPE_PT_ACCUM
 	}
 
 	return _(_.values(slot0.data)):chain():filter(function (slot0)

@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官大人，下次开会要用的资料给你拿过来了哦。…没错，就放在老地方。有时间记得确认一下～",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "当然，{namecode:91}都已经仔细检查筛选过了。真是的…指挥官大人明明只要放轻松，将一切都交给{namecode:91}就好了…",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "…果然是怕{namecode:91}太累，在担心我吧～{namecode:91}好感动～",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "呜…企、企业…",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "指挥官大人…哼，我知道，现在我们并非敌人，而是同伴。算了，有什么报告就快说吧。",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -215,7 +215,7 @@ return {
 			actorName = "{namecode:91}",
 			dir = 1,
 			optionFlag = 2,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "…………（咬牙切齿）",
 			action = {
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "报告完毕…我也不打算在这里久留，先告辞了。",
 			flashout = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "哈啊…指挥官不用担心，{namecode:91}可是很公私分明的…不会打扰指挥官的公务哦。",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "没错！就算之后准备把害虫都“打扫”干净，把指挥官变成{namecode:91}的…在工作时间还是…对吧？",
 			typewriter = {

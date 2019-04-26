@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 202114,
+			actor = 202110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201104,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "圣、圣诞大餐……火鸡……布丁……三文鱼……我、我开动了！",
 			flashout = {
@@ -112,7 +112,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201104,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "这个好棒！",
 			flashout = {
@@ -144,7 +144,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201104,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "这个也好好吃！",
 			flashout = {
@@ -176,7 +176,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201104,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "哈啊~~活着真好~~~",
 			flashout = {
@@ -208,7 +208,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			say = "每次看到小天鹅放开了吃东西的样子，都会让咱觉得自愧不如呢……",
 			flashout = {
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -302,7 +302,7 @@ return {
 			}
 		},
 		{
-			actor = 201104,
+			actor = 201100,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -362,7 +362,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -398,7 +398,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 204034,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "接下来，就是交换礼物的时间咯，大家从前面放好的礼物堆里各自选一个礼物盒吧~交换要遵循自愿原则哦~",
 			flashout = {
@@ -428,7 +428,7 @@ return {
 			}
 		},
 		{
-			actor = 201104,
+			actor = 201100,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 201104,
+			actor = 201100,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 204034,
+			actor = 204030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 201104,
+			actor = 201100,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -494,7 +494,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			say = "怎、怎么样？",
 			flashout = {
@@ -524,7 +524,7 @@ return {
 			}
 		},
 		{
-			actor = 204034,
+			actor = 204030,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 900057,
+			actor = 201102,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

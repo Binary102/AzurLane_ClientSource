@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "恩，不愧是传说中的三大武勋舰，实力果然不同凡响",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "哈？原来你早就认识我们的嘛",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "对的，只不过机会难得，想试试传说中的武勋舰的实力而已",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "那么，按照之前说好的…能带我们去见她了吗？",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "如果是你们的话，或许…真的能拯救她吧……",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,

@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "这份资料放在这里可以吗？……嗯，听从你的命令。",
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "……人类果然有趣。仅仅为了驱动兵器，就要处理这么多文件。",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "调运与储备燃料、确保弹药资源、粮食补给、备用品补充与废弃处理。除了对兵器本身的整修，还要顾及一切生活必需品，实在繁琐。",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "话虽如此，整理十分有效。秘书舰的工作，会让人有种自己才是舰队指挥者的错觉。",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "指挥官，我来提交报告书了，请你查收。",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "铁血这个月的会计账本，誊抄和整理好了，濒临赤字。",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "节约很重要——对驱逐舰还好，说服重巡花费了很大功夫。战舰本来就需要更多的物资，确实比较难以控制成本",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "能理解表扬的意义，但我不太明白，隔着布料触摸身体这一行为有何意义？",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "也不会因此增加报酬，这样的触摸究竟有何好处？",

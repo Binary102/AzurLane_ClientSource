@@ -28,7 +28,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 305061,
+			actor = 305060,
 			say = "哇，姐姐姐姐，我刚才往外偷看了一下，外面已经聚集了好多信徒了，好——厉害啊~",
 			flashout = {
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,

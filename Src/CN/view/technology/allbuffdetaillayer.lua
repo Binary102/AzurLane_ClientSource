@@ -38,6 +38,10 @@ function slot0.findUI(slot0)
 	slot0.viewportFitterCom = GetComponent(slot0.viewport, "ContentSizeFitter")
 end
 
+function slot0.onBackPressed(slot0)
+	triggerButton(slot0.backBtn)
+end
+
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:emit(slot1.ON_CLOSE)

@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "方才战斗的报告书……不要忘了确认。",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "我们尽了最大努力，直到用尽所有弹药。敌人若也有自我，应该也会感到骄傲吧。",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "为了确保一切可能入手的战果。结果上来说，比起撤退的情况，我们给予了敌人更为巨大的打击不是吗。",
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "虽然身为秘书舰，但仍是兵器。仍只是为了战斗而生的存在。",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "在成为“Z46”之前，我首先是那艘在大战中被设计建造、背负了众人期待的“Z46号舰”。",

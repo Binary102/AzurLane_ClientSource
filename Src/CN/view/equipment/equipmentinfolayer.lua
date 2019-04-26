@@ -564,7 +564,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 			setActive(findTF(slot16, "locked"), not slot19)
 
 			if slot19 then
-				setText(findTF(slot16, "value"), getSkillDescGet(slot19.id))
+				setText(slot20, getSkillDescGet(slot19.id))
 			end
 
 			for slot26 = 1, 8, 1 do
@@ -578,10 +578,6 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 				end
 
 				slot5[slot26] = slot27
-
-				if slot27 then
-					print("prpo:" .. AttributeType.Type2Name(slot27.type))
-				end
 
 				if slot26 <= 5 then
 					setActive(slot28, true)

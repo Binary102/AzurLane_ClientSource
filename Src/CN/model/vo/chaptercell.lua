@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.trait = ChapterConst.TraitNone
 	slot0.item = nil
 	slot0.itemOffset = Vector2(0, 0)
+	slot0.flagList = slot1.flag_list or {}
 
 	if slot0.attachment == ChapterConst.AttachRival then
 		slot2 = {}
@@ -30,6 +31,14 @@ function slot0.Ctor(slot0, slot1)
 
 		slot0.rival = slot3
 	end
+end
+
+function slot0.updateFlagList(slot0, slot1)
+	slot0.flagList = slot1.flag_list
+end
+
+function slot0.checkHadFlag(slot0, slot1)
+	return table.contains(slot0.flagList, slot1)
 end
 
 function slot0.Line2Name(slot0, slot1)

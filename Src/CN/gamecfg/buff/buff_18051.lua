@@ -153,7 +153,7 @@ return {
 	name = "心神合一 +",
 	init_effect = "jinengchufablue",
 	id = 18051,
-	time = 0,
+	time = 6,
 	picture = "",
 	desc = "",
 	stack = 1,

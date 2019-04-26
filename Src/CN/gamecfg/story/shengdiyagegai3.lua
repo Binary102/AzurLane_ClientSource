@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "唔…好像有点明白了，又好像不太明白…",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "不过聪明如圣地亚哥，一定早晚能搞明白的，嗯！",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900129,
+			actor = 101319,
 			nameColor = "#a9f548",
 			say = "啊哇哇哇哇！敌、敌袭？！还是地震！？天灾来了！？",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "噢噢！多睡觉就能有所成长吗！我记下来了！",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 		{
 			say = "才不是那样的啦啦啦啦啦！！！",
 			side = 2,
-			actor = 900130,
+			actor = 101259,
 			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			say = "呀吼~哈曼~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 102081,
+			actor = 102080,
 			dir = 1,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "这边可是历经了千辛万苦，好不容易才完成的“改造”啊！",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900130,
+			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "没、没什么啦！总之我想说的就是，改造才没有那么容易呢！要做好心理准备才行啦！",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

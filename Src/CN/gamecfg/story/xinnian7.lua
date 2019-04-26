@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303122,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312011,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900068,
+			actor = 301331,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			say = "这就是所谓的神社？感觉……气氛很不错嘛。",
 			flashout = {
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -250,7 +250,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "好了～既然都到了，我们就去参拜吧",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "先来的人已经挂上绘马了吗……还真是有各种各样的愿望呢",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "这个歪歪扭扭的字……“希望来年有许多肉”……？一看就是{namecode:16}的……",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "是呢，大家都有些好愿望呢。看到这些就觉得准备了这么多是值得的了~",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "也谢谢你的破魔矢，我会好好保管的。",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "要是能起效就再好不过了~好了，大家过来参拜吧，欧根…还有拉菲也在吗？那我就稍微讲解一下好了～",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "先来这边洗一下手，接着到神像前摇一下铃铛，然后以“二拜二拍手再一拜”的作法来进行就可以了哦。",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 1,
@@ -381,7 +381,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 0,
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "那就开始吧。",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			actorName = "{namecode:93}",
 			say = "（希望这样平和的日子能够继续下去……）",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900069,
+			actor = 303122,
 			actorName = "{namecode:67}",
 			say = "（希望指挥官能够更加地依赖我~）",
 			typewriter = {
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900061,
+			actor = 307012,
 			actorName = "{namecode:91}",
 			say = "（指挥官一定会和我永远在一起的对吧，神明大人？当然，指挥官身边的害虫就由我……呵呵呵……）",
 			typewriter = {
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900062,
+			actor = 307022,
 			actorName = "{namecode:92}",
 			say = "（愿来年也能遇到让人热血沸腾的战斗与对手……）",
 			typewriter = {
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "（希望今年也能和{namecode:33}还有大家开心地一起玩……）",
 			typewriter = {
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312011,
 			actorName = "{namecode:98}",
 			say = "（希望明年大家也能多多关照{namecode:98}小店的生意喵……）",
 			typewriter = {
@@ -590,7 +590,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900066,
+			actor = 301141,
 			actorName = "{namecode:16}",
 			say = "希望以后也能一直吃到许多许多好吃的！",
 			typewriter = {
@@ -608,7 +608,7 @@ return {
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:93}",
 			dir = 1,
-			actor = 900064,
+			actor = 307031,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -634,7 +634,7 @@ return {
 			}
 		},
 		{
-			actor = 900067,
+			actor = 403032,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
@@ -660,7 +660,7 @@ return {
 			}
 		},
 		{
-			actor = 900065,
+			actor = 101172,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,

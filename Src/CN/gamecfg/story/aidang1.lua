@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "明天不用值班，你只管休息，夜班就交给姐姐我吧。",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "啊啦，约会？……开玩笑的。",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "不过“明天陪我去买东西吧”这种话，未免太无趣了吧？姐姐想听的是别的话呢。",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "反正明天看来也没什么事，什么时候回去都没关系，陪陪你也行啊。",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "然后呢，你想买什么？",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "唔，还真是“港区买不到但也不至于出远门网购又太麻烦的”东西大集合啊……",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "你还真是准备充分呢，这样一来姐姐也可以放心让你带路啦。",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "好了，明天还要早起，今天你就早点睡吧。",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "我很期待和指挥官逛街哦♪",
 			typewriter = {

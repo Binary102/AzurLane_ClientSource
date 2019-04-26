@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "“心中的故乡”…我一直在意的东西…没有什么头绪啊",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "算了，现在不是该烦恼这个的时候。",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "自从有了{namecode:63}姐的指导，秘书舰的工作变得越来越得心应手了。",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指挥官看起来也很高兴，真的是太好了呢",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "要是能这样保持下去的话，指挥官一定会更加关注我的吧…",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "然后就能…咦……？就能怎么样呢……？",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "唔唔，今天的训练好累……感觉要睡着了……",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "唔唔……怎么了……是紧急任务吗……",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-1",
-			actor = 303091,
+			actor = 303090,
 			say = "啊已经这个时间了吗！",
 			flashN = {
 				color = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "要、要迟到了！（手忙脚乱）衣，衣服穿反了？怎么会这样？头发、头发…平时都是{namecode:63}姐帮我弄的……",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指挥官要是看到我这幅样子的话，一定会……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_room",
 			say = "{namecode:124}、{namecode:124}前辈？你怎么会在这里？",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……抱歉",
 			typewriter = {
@@ -437,7 +437,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -505,7 +505,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "欸？那，那是因为——",
 			typewriter = {
@@ -518,7 +518,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（我在意指挥官的看法？等等，我为什么对指挥官这么在意……）",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（难道说，其实我……）",
 			typewriter = {

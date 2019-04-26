@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 201034,
+			actor = 201030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			say = "啊哈哈，光荣姐姐还是一如既往的可靠呢。不过该做的还是要做的呢，阿卡司塔，我们没有雷达，还是靠前一点吧，这样好发现敌人。",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -123,7 +123,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "光荣姐姐的航速是…17节，目前风力…大概是2-3级，西北风…视野良好…虽然有点慢，不过看样子还算顺利呢",
 			flashout = {
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,

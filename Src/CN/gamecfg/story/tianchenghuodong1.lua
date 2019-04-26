@@ -29,7 +29,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "还没准备好吗！？对方已经展开反击了！",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 307031,
+			actor = 307030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 307021,
+			actor = 307020,
 			say = "啊——",
 			flashN = {
 				color = {
@@ -604,7 +604,7 @@ return {
 			stopbgm = true,
 			side = 2,
 			dir = 1,
-			actor = 305061,
+			actor = 305060,
 			nameColor = "#a9f548",
 			say = "姐姐大人，我去探查了一下~这一届的候选者们都很兴致昂扬呢，这一次的演习有得看了。",
 			flashout = {
@@ -634,7 +634,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -664,7 +664,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -679,7 +679,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

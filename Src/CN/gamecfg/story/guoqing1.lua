@@ -289,7 +289,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……这是…?",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "诶！？？居然又大难不死了！！！",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "只是…头好痛，刚才一瞬间的事情已经完全记不起来了…",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "可恶，{namecode:95}姐也联系不上，情况一点也没有好转嘛…",
 			typewriter = {
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "收回前言…至少，终于让我找到你了…",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "传说中的的“圣域”",
 			typewriter = {

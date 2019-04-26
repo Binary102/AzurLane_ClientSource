@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "我回来了喵！",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "哦哦…好香的味道…",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "嘿嘿，是呀~虽然大夏天的火锅什么的听起来有点微妙，不过这香味还真是让人忍不住嘴馋呀",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "{namecode:6}，报到——",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "这是…肉的气味！",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "可恶，虽然不想承认，但是真的挺香的，肚子都咕咕叫了…",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "呼…呼…果然还是挺热的呢…我、我来了——",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "……欸？",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			say = "{namecode:34}，在这种大夏天穿冬装可是会中暑的哟？",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "冬、冬天的火锅，不是应该穿上冬天的服装吃才是礼仪吗…？",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "是、是{namecode:33}她——",
 			typewriter = {

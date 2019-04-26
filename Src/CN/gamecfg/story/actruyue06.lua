@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_room",
 			bgm = "story-1",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "好、好了喵！{namecode:33}看上去已经知道错了喵！{namecode:34}可以原谅{namecode:33}了喵！",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "而、而且喵！穿上冬装过来也许是正确的决定喵！",
 			typewriter = {
@@ -75,12 +75,12 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "嗯…？",
 			subActors = {
 				{
-					actor = 900068,
+					actor = 301331,
 					pos = {
 						x = 750
 					}
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "哼哼，因为{namecode:98}还准备了这个喵！",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 312011,
+			actor = 312010,
 			dir = 1,
 			actorName = "{namecode:98}",
 			say = "《温度调控装置》喵！",
@@ -139,7 +139,7 @@ return {
 			say = "不就是空调吗…",
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 301181,
+			actor = 301180,
 			dir = 1,
 			actorName = "{namecode:20}",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "装置启动喵！",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "啊哈…嚏！",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "哈啊…这下倒是有冬天的感觉了呢…",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "好了喵！火锅大会现在正式开始喵！",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 301141,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "肉类确保！我咬！",
 			flashout = {
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "哼哼，这里可是弱肉强食的战场！",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "蔬菜也要吃点啦…",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "噢…汤也很好喝！",
 			flashout = {
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -379,7 +379,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "喵哈哈哈，多吃点多吃点喵！",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 301321,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "{namecode:34}{namecode:34}，对不起啦…肉肉和糖都给你，不要生我气好不好",
 			flashout = {
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -451,7 +451,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "嗯！",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_room",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "这是美味与科技的胜利喵！",
 			flashout = {
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "呼喵？…等等喵！难道…这是新的商机喵？《炎夏特供——严冬火锅·冬装限定》？！",
 			typewriter = {
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "真是…笨蛋…",
 			typewriter = {
@@ -537,7 +537,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900068,
+			actor = 301331,
 			actorName = "{namecode:34}",
 			say = "嘻嘻…下次，再一起来办火锅大会吧——",
 			typewriter = {

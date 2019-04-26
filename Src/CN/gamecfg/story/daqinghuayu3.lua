@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "看招！",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "拉菲，小心！",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "欸？",
 			dialogShake = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "不，现在放弃还太早了。",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "这次就先听我的指挥试试吧！",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "那就……mission restart！",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "这就是最后一击了！接招吧，四人合体技——“无限冲击”！",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			actorName = "长岛&拉菲&本森",
 			say = "噢噢噢噢！！！！！",
 			effects = {
@@ -437,13 +437,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101161,
+					actor = 101160,
 					pos = {
 						x = 750
 					}
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101161,
+			actor = 101160,
 			nameColor = "#a9f548",
 			say = "哦哦！我们赢了！",
 			typewriter = {
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "哼哼哼，轻轻松松！在我大青花鱼面前可没有打不过去的关卡！",
 			typewriter = {

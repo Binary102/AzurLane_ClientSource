@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "来开火锅大会喵！",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "想吃什么都有喵！可以尽情吃到饱喵！",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "什么？！有吃的吗！",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			say = "不过…火锅啊…好像很美味的样子呢——",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "连{namecode:15}都…",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "食材有很多喵！尽管来喵~",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "火锅…能加糖果吗？",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "这些蔬菜切好放这里…",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -273,7 +273,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "锅子和水…还有调味料——",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "哦哦…大家都好熟练…谢谢，帮大忙了…",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "也不是什么大事啦~",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -345,7 +345,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			say = "{namecode:98}的想法还是一如既往地崭新呢，啊哈哈",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……",
 			typewriter = {

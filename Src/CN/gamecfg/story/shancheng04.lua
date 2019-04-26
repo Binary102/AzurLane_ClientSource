@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -36,7 +36,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			actorName = "{namecode:78}",
 			side = 2,
 			dir = 1,
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			say = "这里，找到啦",
 			flashout = {
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305024,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,

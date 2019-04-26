@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -51,7 +51,7 @@ return {
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 0,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 0,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 0,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 0,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 0,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#ff0000",
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "很快就能见到「那位大人」了哦，呵呵呵….",
 			typewriter = {

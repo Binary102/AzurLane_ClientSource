@@ -58,7 +58,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000] = {
 		sink_limit = 1,
@@ -106,7 +107,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001] = {
 		sink_limit = 1,
@@ -154,7 +156,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002] = {
 		sink_limit = 1,
@@ -202,7 +205,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[2000] = {
 		sink_limit = 1,
@@ -248,7 +252,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2001] = {
 		sink_limit = 1,
@@ -294,7 +299,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2002] = {
 		sink_limit = 1,
@@ -345,7 +351,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2003] = {
 		sink_limit = 1,
@@ -396,7 +403,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2004] = {
 		sink_limit = 1,
@@ -447,7 +455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2005] = {
 		sink_limit = 1,
@@ -498,7 +507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2006] = {
 		sink_limit = 1,
@@ -554,7 +564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2007] = {
 		sink_limit = 1,
@@ -610,7 +621,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2008] = {
 		sink_limit = 1,
@@ -666,7 +678,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[2009] = {
 		sink_limit = 1,
@@ -722,7 +735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[3000] = {
 		sink_limit = 1,
@@ -768,7 +782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[3001] = {
 		sink_limit = 1,
@@ -819,7 +834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			80
-		}
+		},
+		bufficon = {}
 	},
 	[3002] = {
 		sink_limit = 1,
@@ -870,7 +886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			80
-		}
+		},
+		bufficon = {}
 	},
 	[3003] = {
 		sink_limit = 1,
@@ -926,7 +943,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			80
-		}
+		},
+		bufficon = {}
 	},
 	[3004] = {
 		sink_limit = 1,
@@ -982,7 +1000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			90
-		}
+		},
+		bufficon = {}
 	},
 	[4000] = {
 		sink_limit = 1,
@@ -1032,7 +1051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[4001] = {
 		sink_limit = 1,
@@ -1087,7 +1107,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[4002] = {
 		sink_limit = 1,
@@ -1142,7 +1163,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[4003] = {
 		sink_limit = 1,
@@ -1197,7 +1219,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[4004] = {
 		sink_limit = 1,
@@ -1252,7 +1275,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[5009] = {
 		sink_limit = 1,
@@ -1291,7 +1315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[5010] = {
 		sink_limit = 1,
@@ -1330,7 +1355,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[5011] = {
 		sink_limit = 1,
@@ -1369,7 +1395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[5012] = {
 		sink_limit = 1,
@@ -1408,7 +1435,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[6000] = {
 		sink_limit = 1,
@@ -1458,7 +1486,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6001] = {
 		sink_limit = 1,
@@ -1508,7 +1537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6002] = {
 		sink_limit = 1,
@@ -1558,7 +1588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6991] = {
 		sink_limit = 1,
@@ -1580,7 +1611,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1597,7 +1628,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6992] = {
 		sink_limit = 1,
@@ -1619,7 +1651,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1636,7 +1668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6993] = {
 		sink_limit = 1,
@@ -1658,7 +1691,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1675,7 +1708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6994] = {
 		sink_limit = 1,
@@ -1697,7 +1731,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1714,7 +1748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6995] = {
 		sink_limit = 1,
@@ -1736,7 +1771,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1753,7 +1788,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[6996] = {
 		sink_limit = 1,
@@ -1775,7 +1811,7 @@ pg.expedition_data_template = {
 		limit_type = 1,
 		rank_activity_id = 0,
 		icon_type = 1,
-		map_id = 10005,
+		map_id = 10001,
 		activity_id2 = 0,
 		bonus_time = 0,
 		extraenemy_difficulty = 0,
@@ -1792,7 +1828,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[9901] = {
 		sink_limit = 1,
@@ -1831,7 +1868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9907] = {
 		sink_limit = 1,
@@ -1870,7 +1908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9908] = {
 		sink_limit = 1,
@@ -1909,7 +1948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9909] = {
 		sink_limit = 1,
@@ -1948,7 +1988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9910] = {
 		sink_limit = 1,
@@ -1987,7 +2028,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9911] = {
 		sink_limit = 1,
@@ -2026,7 +2068,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[9912] = {
 		sink_limit = 1,
@@ -2065,7 +2108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[80000] = {
 		sink_limit = 1,
@@ -2099,7 +2143,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[80001] = {
 		sink_limit = 1,
@@ -2133,7 +2178,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[80002] = {
 		sink_limit = 1,
@@ -2167,7 +2213,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[80003] = {
 		sink_limit = 1,
@@ -2201,7 +2248,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90001] = {
 		sink_limit = 1,
@@ -2235,7 +2283,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90002] = {
 		sink_limit = 1,
@@ -2269,7 +2318,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90003] = {
 		sink_limit = 1,
@@ -2303,7 +2353,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90004] = {
 		sink_limit = 1,
@@ -2337,7 +2388,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90005] = {
 		sink_limit = 1,
@@ -2371,7 +2423,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90006] = {
 		sink_limit = 1,
@@ -2405,7 +2458,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90007] = {
 		sink_limit = 1,
@@ -2439,7 +2493,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90008] = {
 		sink_limit = 1,
@@ -2473,7 +2528,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90009] = {
 		sink_limit = 1,
@@ -2507,7 +2563,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90010] = {
 		sink_limit = 1,
@@ -2541,7 +2598,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90021] = {
 		sink_limit = 1,
@@ -2575,7 +2633,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90022] = {
 		sink_limit = 1,
@@ -2609,7 +2668,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90023] = {
 		sink_limit = 1,
@@ -2643,7 +2703,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90024] = {
 		sink_limit = 1,
@@ -2677,7 +2738,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90025] = {
 		sink_limit = 1,
@@ -2711,7 +2773,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90026] = {
 		sink_limit = 1,
@@ -2745,7 +2808,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90027] = {
 		sink_limit = 1,
@@ -2779,7 +2843,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90028] = {
 		sink_limit = 1,
@@ -2813,7 +2878,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90029] = {
 		sink_limit = 1,
@@ -2847,7 +2913,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[90030] = {
 		sink_limit = 1,
@@ -2881,7 +2948,8 @@ pg.expedition_data_template = {
 		award_display = {},
 		objective_3 = {
 			8
-		}
+		},
+		bufficon = {}
 	},
 	[10141] = {
 		sink_limit = 1,
@@ -2933,7 +3001,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[10500] = {
 		sink_limit = 1,
@@ -2985,7 +3054,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[10211] = {
 		sink_limit = 1,
@@ -3045,7 +3115,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10221] = {
 		sink_limit = 1,
@@ -3105,7 +3176,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10291] = {
 		sink_limit = 1,
@@ -3161,7 +3233,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10241] = {
 		sink_limit = 1,
@@ -3213,7 +3286,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[10501] = {
 		sink_limit = 1,
@@ -3273,7 +3347,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10311] = {
 		sink_limit = 1,
@@ -3333,7 +3408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10321] = {
 		sink_limit = 1,
@@ -3393,7 +3469,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10391] = {
 		sink_limit = 1,
@@ -3449,7 +3526,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10341] = {
 		sink_limit = 1,
@@ -3501,7 +3579,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			4,
 			60
-		}
+		},
+		bufficon = {}
 	},
 	[10502] = {
 		sink_limit = 1,
@@ -3561,7 +3640,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[100000] = {
 		sink_limit = 1,
@@ -3600,7 +3680,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101010] = {
 		sink_limit = 1,
@@ -3660,7 +3741,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101011] = {
 		sink_limit = 1,
@@ -3720,7 +3802,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101012] = {
 		sink_limit = 1,
@@ -3780,7 +3863,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101020] = {
 		sink_limit = 1,
@@ -3840,7 +3924,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101021] = {
 		sink_limit = 1,
@@ -3900,7 +3985,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101022] = {
 		sink_limit = 1,
@@ -3960,7 +4046,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101030] = {
 		sink_limit = 1,
@@ -4020,7 +4107,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101031] = {
 		sink_limit = 1,
@@ -4080,7 +4168,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101032] = {
 		sink_limit = 1,
@@ -4140,7 +4229,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101100] = {
 		sink_limit = 1,
@@ -4192,7 +4282,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101101] = {
 		sink_limit = 1,
@@ -4244,7 +4335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101102] = {
 		sink_limit = 1,
@@ -4296,7 +4388,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101210] = {
 		sink_limit = 1,
@@ -4352,7 +4445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[101000] = {
 		sink_limit = 1,
@@ -4408,7 +4502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102010] = {
 		sink_limit = 1,
@@ -4468,7 +4563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102011] = {
 		sink_limit = 1,
@@ -4528,7 +4624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102012] = {
 		sink_limit = 1,
@@ -4588,7 +4685,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102020] = {
 		sink_limit = 1,
@@ -4648,7 +4746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102021] = {
 		sink_limit = 1,
@@ -4708,7 +4807,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102022] = {
 		sink_limit = 1,
@@ -4768,7 +4868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102030] = {
 		sink_limit = 1,
@@ -4828,7 +4929,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102031] = {
 		sink_limit = 1,
@@ -4888,7 +4990,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102032] = {
 		sink_limit = 1,
@@ -4948,7 +5051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102100] = {
 		sink_limit = 1,
@@ -5000,7 +5104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102101] = {
 		sink_limit = 1,
@@ -5052,7 +5157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102102] = {
 		sink_limit = 1,
@@ -5104,7 +5210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102210] = {
 		sink_limit = 1,
@@ -5164,7 +5271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[102000] = {
 		sink_limit = 1,
@@ -5220,7 +5328,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103010] = {
 		sink_limit = 1,
@@ -5280,7 +5389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103011] = {
 		sink_limit = 1,
@@ -5340,7 +5450,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103012] = {
 		sink_limit = 1,
@@ -5400,7 +5511,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103020] = {
 		sink_limit = 1,
@@ -5460,7 +5572,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103021] = {
 		sink_limit = 1,
@@ -5520,7 +5633,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103022] = {
 		sink_limit = 1,
@@ -5580,7 +5694,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103030] = {
 		sink_limit = 1,
@@ -5640,7 +5755,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103031] = {
 		sink_limit = 1,
@@ -5700,7 +5816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103032] = {
 		sink_limit = 1,
@@ -5760,7 +5877,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103100] = {
 		sink_limit = 1,
@@ -5812,7 +5930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103101] = {
 		sink_limit = 1,
@@ -5864,7 +5983,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103102] = {
 		sink_limit = 1,
@@ -5916,7 +6036,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103110] = {
 		sink_limit = 1,
@@ -5968,7 +6089,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103111] = {
 		sink_limit = 1,
@@ -6020,7 +6142,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103112] = {
 		sink_limit = 1,
@@ -6072,7 +6195,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103210] = {
 		sink_limit = 1,
@@ -6132,7 +6256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[103000] = {
 		sink_limit = 1,
@@ -6188,7 +6313,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104010] = {
 		sink_limit = 1,
@@ -6248,7 +6374,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104011] = {
 		sink_limit = 1,
@@ -6308,7 +6435,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104012] = {
 		sink_limit = 1,
@@ -6368,7 +6496,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104020] = {
 		sink_limit = 1,
@@ -6428,7 +6557,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104021] = {
 		sink_limit = 1,
@@ -6488,7 +6618,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104022] = {
 		sink_limit = 1,
@@ -6548,7 +6679,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104030] = {
 		sink_limit = 1,
@@ -6608,7 +6740,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104031] = {
 		sink_limit = 1,
@@ -6668,7 +6801,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104032] = {
 		sink_limit = 1,
@@ -6728,7 +6862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104040] = {
 		sink_limit = 1,
@@ -6788,7 +6923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104041] = {
 		sink_limit = 1,
@@ -6848,7 +6984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104042] = {
 		sink_limit = 1,
@@ -6908,7 +7045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104070] = {
 		sink_limit = 1,
@@ -6968,7 +7106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104071] = {
 		sink_limit = 1,
@@ -7028,7 +7167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104072] = {
 		sink_limit = 1,
@@ -7088,7 +7228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104073] = {
 		sink_limit = 1,
@@ -7148,7 +7289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104100] = {
 		sink_limit = 1,
@@ -7200,7 +7342,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104101] = {
 		sink_limit = 1,
@@ -7252,7 +7395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104102] = {
 		sink_limit = 1,
@@ -7304,7 +7448,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104110] = {
 		sink_limit = 1,
@@ -7356,7 +7501,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104111] = {
 		sink_limit = 1,
@@ -7408,7 +7554,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104112] = {
 		sink_limit = 1,
@@ -7460,7 +7607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104120] = {
 		sink_limit = 1,
@@ -7512,7 +7660,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104121] = {
 		sink_limit = 1,
@@ -7564,7 +7713,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104122] = {
 		sink_limit = 1,
@@ -7616,7 +7766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104210] = {
 		sink_limit = 1,
@@ -7676,7 +7827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[104000] = {
 		sink_limit = 1,
@@ -7736,7 +7888,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201010] = {
 		sink_limit = 1,
@@ -7796,7 +7949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201011] = {
 		sink_limit = 1,
@@ -7856,7 +8010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201012] = {
 		sink_limit = 1,
@@ -7916,7 +8071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201020] = {
 		sink_limit = 1,
@@ -7976,7 +8132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201021] = {
 		sink_limit = 1,
@@ -8036,7 +8193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201022] = {
 		sink_limit = 1,
@@ -8096,7 +8254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201030] = {
 		sink_limit = 1,
@@ -8156,7 +8315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201031] = {
 		sink_limit = 1,
@@ -8216,7 +8376,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201032] = {
 		sink_limit = 1,
@@ -8276,7 +8437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201040] = {
 		sink_limit = 1,
@@ -8336,7 +8498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201041] = {
 		sink_limit = 1,
@@ -8396,7 +8559,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201042] = {
 		sink_limit = 1,
@@ -8456,7 +8620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201050] = {
 		sink_limit = 1,
@@ -8516,7 +8681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201051] = {
 		sink_limit = 1,
@@ -8576,7 +8742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201052] = {
 		sink_limit = 1,
@@ -8636,7 +8803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201060] = {
 		sink_limit = 1,
@@ -8696,7 +8864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201061] = {
 		sink_limit = 1,
@@ -8756,7 +8925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201062] = {
 		sink_limit = 1,
@@ -8816,7 +8986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201070] = {
 		sink_limit = 1,
@@ -8876,7 +9047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201071] = {
 		sink_limit = 1,
@@ -8936,7 +9108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201072] = {
 		sink_limit = 1,
@@ -8996,7 +9169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201080] = {
 		sink_limit = 1,
@@ -9056,7 +9230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201081] = {
 		sink_limit = 1,
@@ -9116,7 +9291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201082] = {
 		sink_limit = 1,
@@ -9176,7 +9352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201090] = {
 		sink_limit = 1,
@@ -9236,7 +9413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201091] = {
 		sink_limit = 1,
@@ -9296,7 +9474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201092] = {
 		sink_limit = 1,
@@ -9356,7 +9535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201100] = {
 		sink_limit = 1,
@@ -9408,7 +9588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201101] = {
 		sink_limit = 1,
@@ -9460,7 +9641,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201102] = {
 		sink_limit = 1,
@@ -9512,7 +9694,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201110] = {
 		sink_limit = 1,
@@ -9564,7 +9747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201111] = {
 		sink_limit = 1,
@@ -9616,7 +9800,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201112] = {
 		sink_limit = 1,
@@ -9668,7 +9853,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201120] = {
 		sink_limit = 1,
@@ -9720,7 +9906,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201121] = {
 		sink_limit = 1,
@@ -9772,7 +9959,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201122] = {
 		sink_limit = 1,
@@ -9824,7 +10012,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201210] = {
 		sink_limit = 1,
@@ -9884,7 +10073,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201211] = {
 		sink_limit = 1,
@@ -9944,7 +10134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[201000] = {
 		sink_limit = 1,
@@ -10004,7 +10195,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202010] = {
 		sink_limit = 1,
@@ -10064,7 +10256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202011] = {
 		sink_limit = 1,
@@ -10124,7 +10317,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202012] = {
 		sink_limit = 1,
@@ -10184,7 +10378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202020] = {
 		sink_limit = 1,
@@ -10244,7 +10439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202021] = {
 		sink_limit = 1,
@@ -10304,7 +10500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202022] = {
 		sink_limit = 1,
@@ -10364,7 +10561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202030] = {
 		sink_limit = 1,
@@ -10424,7 +10622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202031] = {
 		sink_limit = 1,
@@ -10484,7 +10683,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202032] = {
 		sink_limit = 1,
@@ -10544,7 +10744,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202040] = {
 		sink_limit = 1,
@@ -10604,7 +10805,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202041] = {
 		sink_limit = 1,
@@ -10664,7 +10866,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202042] = {
 		sink_limit = 1,
@@ -10724,7 +10927,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202050] = {
 		sink_limit = 1,
@@ -10784,7 +10988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202051] = {
 		sink_limit = 1,
@@ -10844,7 +11049,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202052] = {
 		sink_limit = 1,
@@ -10904,7 +11110,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202060] = {
 		sink_limit = 1,
@@ -10964,7 +11171,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202061] = {
 		sink_limit = 1,
@@ -11024,7 +11232,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202062] = {
 		sink_limit = 1,
@@ -11084,7 +11293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202070] = {
 		sink_limit = 1,
@@ -11144,7 +11354,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202071] = {
 		sink_limit = 1,
@@ -11204,7 +11415,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202072] = {
 		sink_limit = 1,
@@ -11264,7 +11476,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202080] = {
 		sink_limit = 1,
@@ -11324,7 +11537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202081] = {
 		sink_limit = 1,
@@ -11384,7 +11598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202082] = {
 		sink_limit = 1,
@@ -11444,7 +11659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202090] = {
 		sink_limit = 1,
@@ -11504,7 +11720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202091] = {
 		sink_limit = 1,
@@ -11564,7 +11781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202092] = {
 		sink_limit = 1,
@@ -11624,7 +11842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202100] = {
 		sink_limit = 1,
@@ -11676,7 +11895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202101] = {
 		sink_limit = 1,
@@ -11728,7 +11948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202102] = {
 		sink_limit = 1,
@@ -11780,7 +12001,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202110] = {
 		sink_limit = 1,
@@ -11832,7 +12054,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202111] = {
 		sink_limit = 1,
@@ -11884,7 +12107,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202112] = {
 		sink_limit = 1,
@@ -11936,7 +12160,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202120] = {
 		sink_limit = 1,
@@ -11988,7 +12213,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202121] = {
 		sink_limit = 1,
@@ -12040,7 +12266,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202122] = {
 		sink_limit = 1,
@@ -12092,7 +12319,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202210] = {
 		sink_limit = 1,
@@ -12152,7 +12380,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202211] = {
 		sink_limit = 1,
@@ -12212,7 +12441,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[202000] = {
 		sink_limit = 1,
@@ -12272,7 +12502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203010] = {
 		sink_limit = 1,
@@ -12332,7 +12563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203011] = {
 		sink_limit = 1,
@@ -12392,7 +12624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203012] = {
 		sink_limit = 1,
@@ -12452,7 +12685,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203020] = {
 		sink_limit = 1,
@@ -12512,7 +12746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203021] = {
 		sink_limit = 1,
@@ -12572,7 +12807,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203022] = {
 		sink_limit = 1,
@@ -12632,7 +12868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203030] = {
 		sink_limit = 1,
@@ -12692,7 +12929,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203031] = {
 		sink_limit = 1,
@@ -12752,7 +12990,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203032] = {
 		sink_limit = 1,
@@ -12812,7 +13051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203040] = {
 		sink_limit = 1,
@@ -12872,7 +13112,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203041] = {
 		sink_limit = 1,
@@ -12932,7 +13173,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203042] = {
 		sink_limit = 1,
@@ -12992,7 +13234,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203050] = {
 		sink_limit = 1,
@@ -13052,7 +13295,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203051] = {
 		sink_limit = 1,
@@ -13112,7 +13356,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203052] = {
 		sink_limit = 1,
@@ -13172,7 +13417,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203060] = {
 		sink_limit = 1,
@@ -13232,7 +13478,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203061] = {
 		sink_limit = 1,
@@ -13292,7 +13539,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203062] = {
 		sink_limit = 1,
@@ -13352,7 +13600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203070] = {
 		sink_limit = 1,
@@ -13412,7 +13661,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203071] = {
 		sink_limit = 1,
@@ -13472,7 +13722,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203072] = {
 		sink_limit = 1,
@@ -13532,7 +13783,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203080] = {
 		sink_limit = 1,
@@ -13592,7 +13844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203081] = {
 		sink_limit = 1,
@@ -13652,7 +13905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203082] = {
 		sink_limit = 1,
@@ -13712,7 +13966,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203090] = {
 		sink_limit = 1,
@@ -13772,7 +14027,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203091] = {
 		sink_limit = 1,
@@ -13832,7 +14088,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203092] = {
 		sink_limit = 1,
@@ -13892,7 +14149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203100] = {
 		sink_limit = 1,
@@ -13944,7 +14202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203101] = {
 		sink_limit = 1,
@@ -13996,7 +14255,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203102] = {
 		sink_limit = 1,
@@ -14048,7 +14308,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203110] = {
 		sink_limit = 1,
@@ -14100,7 +14361,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203111] = {
 		sink_limit = 1,
@@ -14152,7 +14414,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203112] = {
 		sink_limit = 1,
@@ -14204,7 +14467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203120] = {
 		sink_limit = 1,
@@ -14256,7 +14520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203121] = {
 		sink_limit = 1,
@@ -14308,7 +14573,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203122] = {
 		sink_limit = 1,
@@ -14360,7 +14626,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203210] = {
 		sink_limit = 1,
@@ -14420,7 +14687,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203211] = {
 		sink_limit = 1,
@@ -14480,7 +14748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[203000] = {
 		sink_limit = 1,
@@ -14540,7 +14809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204010] = {
 		sink_limit = 1,
@@ -14600,7 +14870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204011] = {
 		sink_limit = 1,
@@ -14660,7 +14931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204012] = {
 		sink_limit = 1,
@@ -14720,7 +14992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204020] = {
 		sink_limit = 1,
@@ -14780,7 +15053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204021] = {
 		sink_limit = 1,
@@ -14840,7 +15114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204022] = {
 		sink_limit = 1,
@@ -14900,7 +15175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204030] = {
 		sink_limit = 1,
@@ -14960,7 +15236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204031] = {
 		sink_limit = 1,
@@ -15020,7 +15297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204032] = {
 		sink_limit = 1,
@@ -15080,7 +15358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204040] = {
 		sink_limit = 1,
@@ -15140,7 +15419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204041] = {
 		sink_limit = 1,
@@ -15200,7 +15480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204042] = {
 		sink_limit = 1,
@@ -15260,7 +15541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204050] = {
 		sink_limit = 1,
@@ -15320,7 +15602,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204051] = {
 		sink_limit = 1,
@@ -15380,7 +15663,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204052] = {
 		sink_limit = 1,
@@ -15440,7 +15724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204060] = {
 		sink_limit = 1,
@@ -15500,7 +15785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204061] = {
 		sink_limit = 1,
@@ -15560,7 +15846,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204062] = {
 		sink_limit = 1,
@@ -15620,7 +15907,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204070] = {
 		sink_limit = 1,
@@ -15680,7 +15968,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204071] = {
 		sink_limit = 1,
@@ -15740,7 +16029,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204072] = {
 		sink_limit = 1,
@@ -15800,7 +16090,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204080] = {
 		sink_limit = 1,
@@ -15860,7 +16151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204081] = {
 		sink_limit = 1,
@@ -15920,7 +16212,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204082] = {
 		sink_limit = 1,
@@ -15980,7 +16273,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204090] = {
 		sink_limit = 1,
@@ -16040,7 +16334,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204091] = {
 		sink_limit = 1,
@@ -16100,7 +16395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204092] = {
 		sink_limit = 1,
@@ -16160,7 +16456,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204100] = {
 		sink_limit = 1,
@@ -16212,7 +16509,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204101] = {
 		sink_limit = 1,
@@ -16264,7 +16562,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204102] = {
 		sink_limit = 1,
@@ -16316,7 +16615,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204110] = {
 		sink_limit = 1,
@@ -16368,7 +16668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204111] = {
 		sink_limit = 1,
@@ -16420,7 +16721,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204112] = {
 		sink_limit = 1,
@@ -16472,7 +16774,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204120] = {
 		sink_limit = 1,
@@ -16524,7 +16827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204121] = {
 		sink_limit = 1,
@@ -16576,7 +16880,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204122] = {
 		sink_limit = 1,
@@ -16628,7 +16933,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204210] = {
 		sink_limit = 1,
@@ -16688,7 +16994,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204211] = {
 		sink_limit = 1,
@@ -16748,7 +17055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[204000] = {
 		sink_limit = 1,
@@ -16808,7 +17116,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301010] = {
 		sink_limit = 1,
@@ -16868,7 +17177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301011] = {
 		sink_limit = 1,
@@ -16928,7 +17238,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301012] = {
 		sink_limit = 1,
@@ -16988,7 +17299,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301020] = {
 		sink_limit = 1,
@@ -17048,7 +17360,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301021] = {
 		sink_limit = 1,
@@ -17108,7 +17421,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301022] = {
 		sink_limit = 1,
@@ -17168,7 +17482,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301030] = {
 		sink_limit = 1,
@@ -17228,7 +17543,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301031] = {
 		sink_limit = 1,
@@ -17288,7 +17604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301032] = {
 		sink_limit = 1,
@@ -17348,7 +17665,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301040] = {
 		sink_limit = 1,
@@ -17408,7 +17726,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301041] = {
 		sink_limit = 1,
@@ -17468,7 +17787,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301042] = {
 		sink_limit = 1,
@@ -17528,7 +17848,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301050] = {
 		sink_limit = 1,
@@ -17588,7 +17909,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301051] = {
 		sink_limit = 1,
@@ -17648,7 +17970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301052] = {
 		sink_limit = 1,
@@ -17708,7 +18031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301060] = {
 		sink_limit = 1,
@@ -17768,7 +18092,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301061] = {
 		sink_limit = 1,
@@ -17828,7 +18153,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301062] = {
 		sink_limit = 1,
@@ -17888,7 +18214,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301070] = {
 		sink_limit = 1,
@@ -17948,7 +18275,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301071] = {
 		sink_limit = 1,
@@ -18008,7 +18336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301072] = {
 		sink_limit = 1,
@@ -18068,7 +18397,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301080] = {
 		sink_limit = 1,
@@ -18128,7 +18458,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301081] = {
 		sink_limit = 1,
@@ -18188,7 +18519,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301082] = {
 		sink_limit = 1,
@@ -18248,7 +18580,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301090] = {
 		sink_limit = 1,
@@ -18308,7 +18641,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301091] = {
 		sink_limit = 1,
@@ -18368,7 +18702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301092] = {
 		sink_limit = 1,
@@ -18428,7 +18763,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301100] = {
 		sink_limit = 1,
@@ -18480,7 +18816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301101] = {
 		sink_limit = 1,
@@ -18532,7 +18869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301102] = {
 		sink_limit = 1,
@@ -18584,7 +18922,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301110] = {
 		sink_limit = 1,
@@ -18636,7 +18975,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301111] = {
 		sink_limit = 1,
@@ -18688,7 +19028,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301112] = {
 		sink_limit = 1,
@@ -18740,7 +19081,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301120] = {
 		sink_limit = 1,
@@ -18792,7 +19134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301121] = {
 		sink_limit = 1,
@@ -18844,7 +19187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301122] = {
 		sink_limit = 1,
@@ -18896,7 +19240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301210] = {
 		sink_limit = 1,
@@ -18956,7 +19301,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301211] = {
 		sink_limit = 1,
@@ -19016,7 +19362,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301212] = {
 		sink_limit = 1,
@@ -19076,7 +19423,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[301000] = {
 		sink_limit = 1,
@@ -19136,7 +19484,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302010] = {
 		sink_limit = 1,
@@ -19196,7 +19545,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302011] = {
 		sink_limit = 1,
@@ -19256,7 +19606,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302012] = {
 		sink_limit = 1,
@@ -19316,7 +19667,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302020] = {
 		sink_limit = 1,
@@ -19376,7 +19728,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302021] = {
 		sink_limit = 1,
@@ -19436,7 +19789,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302022] = {
 		sink_limit = 1,
@@ -19496,7 +19850,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302030] = {
 		sink_limit = 1,
@@ -19556,7 +19911,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302031] = {
 		sink_limit = 1,
@@ -19616,7 +19972,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302032] = {
 		sink_limit = 1,
@@ -19676,7 +20033,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302040] = {
 		sink_limit = 1,
@@ -19736,7 +20094,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302041] = {
 		sink_limit = 1,
@@ -19796,7 +20155,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302042] = {
 		sink_limit = 1,
@@ -19856,7 +20216,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302050] = {
 		sink_limit = 1,
@@ -19916,7 +20277,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302051] = {
 		sink_limit = 1,
@@ -19976,7 +20338,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302052] = {
 		sink_limit = 1,
@@ -20036,7 +20399,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302060] = {
 		sink_limit = 1,
@@ -20096,7 +20460,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302061] = {
 		sink_limit = 1,
@@ -20156,7 +20521,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302062] = {
 		sink_limit = 1,
@@ -20216,7 +20582,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302070] = {
 		sink_limit = 1,
@@ -20276,7 +20643,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302071] = {
 		sink_limit = 1,
@@ -20336,7 +20704,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302072] = {
 		sink_limit = 1,
@@ -20396,7 +20765,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302080] = {
 		sink_limit = 1,
@@ -20456,7 +20826,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302081] = {
 		sink_limit = 1,
@@ -20516,7 +20887,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302082] = {
 		sink_limit = 1,
@@ -20576,7 +20948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302090] = {
 		sink_limit = 1,
@@ -20636,7 +21009,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302091] = {
 		sink_limit = 1,
@@ -20696,7 +21070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302092] = {
 		sink_limit = 1,
@@ -20756,7 +21131,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302100] = {
 		sink_limit = 1,
@@ -20808,7 +21184,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302101] = {
 		sink_limit = 1,
@@ -20860,7 +21237,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302102] = {
 		sink_limit = 1,
@@ -20912,7 +21290,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302110] = {
 		sink_limit = 1,
@@ -20964,7 +21343,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302111] = {
 		sink_limit = 1,
@@ -21016,7 +21396,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302112] = {
 		sink_limit = 1,
@@ -21068,7 +21449,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302120] = {
 		sink_limit = 1,
@@ -21120,7 +21502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302121] = {
 		sink_limit = 1,
@@ -21172,7 +21555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302122] = {
 		sink_limit = 1,
@@ -21224,7 +21608,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302210] = {
 		sink_limit = 1,
@@ -21284,7 +21669,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302211] = {
 		sink_limit = 1,
@@ -21344,7 +21730,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302212] = {
 		sink_limit = 1,
@@ -21404,7 +21791,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[302000] = {
 		sink_limit = 1,
@@ -21464,7 +21852,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303010] = {
 		sink_limit = 1,
@@ -21524,7 +21913,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303011] = {
 		sink_limit = 1,
@@ -21584,7 +21974,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303012] = {
 		sink_limit = 1,
@@ -21644,7 +22035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303020] = {
 		sink_limit = 1,
@@ -21704,7 +22096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303021] = {
 		sink_limit = 1,
@@ -21764,7 +22157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303022] = {
 		sink_limit = 1,
@@ -21824,7 +22218,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303030] = {
 		sink_limit = 1,
@@ -21884,7 +22279,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303031] = {
 		sink_limit = 1,
@@ -21944,7 +22340,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303032] = {
 		sink_limit = 1,
@@ -22004,7 +22401,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303040] = {
 		sink_limit = 1,
@@ -22064,7 +22462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303041] = {
 		sink_limit = 1,
@@ -22124,7 +22523,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303042] = {
 		sink_limit = 1,
@@ -22184,7 +22584,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303050] = {
 		sink_limit = 1,
@@ -22244,7 +22645,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303051] = {
 		sink_limit = 1,
@@ -22304,7 +22706,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303052] = {
 		sink_limit = 1,
@@ -22364,7 +22767,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303060] = {
 		sink_limit = 1,
@@ -22424,7 +22828,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303061] = {
 		sink_limit = 1,
@@ -22484,7 +22889,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303062] = {
 		sink_limit = 1,
@@ -22544,7 +22950,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303070] = {
 		sink_limit = 1,
@@ -22604,7 +23011,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303071] = {
 		sink_limit = 1,
@@ -22664,7 +23072,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303072] = {
 		sink_limit = 1,
@@ -22724,7 +23133,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303080] = {
 		sink_limit = 1,
@@ -22784,7 +23194,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303081] = {
 		sink_limit = 1,
@@ -22844,7 +23255,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303082] = {
 		sink_limit = 1,
@@ -22904,7 +23316,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303090] = {
 		sink_limit = 1,
@@ -22964,7 +23377,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303091] = {
 		sink_limit = 1,
@@ -23024,7 +23438,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303092] = {
 		sink_limit = 1,
@@ -23084,7 +23499,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303100] = {
 		sink_limit = 1,
@@ -23136,7 +23552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303101] = {
 		sink_limit = 1,
@@ -23188,7 +23605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303102] = {
 		sink_limit = 1,
@@ -23240,7 +23658,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303110] = {
 		sink_limit = 1,
@@ -23292,7 +23711,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303111] = {
 		sink_limit = 1,
@@ -23344,7 +23764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303112] = {
 		sink_limit = 1,
@@ -23396,7 +23817,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303120] = {
 		sink_limit = 1,
@@ -23448,7 +23870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303121] = {
 		sink_limit = 1,
@@ -23500,7 +23923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303122] = {
 		sink_limit = 1,
@@ -23552,7 +23976,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303210] = {
 		sink_limit = 1,
@@ -23612,7 +24037,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303211] = {
 		sink_limit = 1,
@@ -23672,7 +24098,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303212] = {
 		sink_limit = 1,
@@ -23732,7 +24159,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[303000] = {
 		sink_limit = 1,
@@ -23792,7 +24220,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304010] = {
 		sink_limit = 1,
@@ -23852,7 +24281,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304011] = {
 		sink_limit = 1,
@@ -23912,7 +24342,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304012] = {
 		sink_limit = 1,
@@ -23972,7 +24403,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304020] = {
 		sink_limit = 1,
@@ -24032,7 +24464,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304021] = {
 		sink_limit = 1,
@@ -24092,7 +24525,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304022] = {
 		sink_limit = 1,
@@ -24152,7 +24586,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304030] = {
 		sink_limit = 1,
@@ -24212,7 +24647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304031] = {
 		sink_limit = 1,
@@ -24272,7 +24708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304032] = {
 		sink_limit = 1,
@@ -24332,7 +24769,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304040] = {
 		sink_limit = 1,
@@ -24392,7 +24830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304041] = {
 		sink_limit = 1,
@@ -24452,7 +24891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304042] = {
 		sink_limit = 1,
@@ -24512,7 +24952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304050] = {
 		sink_limit = 1,
@@ -24572,7 +25013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304051] = {
 		sink_limit = 1,
@@ -24632,7 +25074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304052] = {
 		sink_limit = 1,
@@ -24692,7 +25135,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304060] = {
 		sink_limit = 1,
@@ -24752,7 +25196,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304061] = {
 		sink_limit = 1,
@@ -24812,7 +25257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304062] = {
 		sink_limit = 1,
@@ -24872,7 +25318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304070] = {
 		sink_limit = 1,
@@ -24932,7 +25379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304071] = {
 		sink_limit = 1,
@@ -24992,7 +25440,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304072] = {
 		sink_limit = 1,
@@ -25052,7 +25501,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304080] = {
 		sink_limit = 1,
@@ -25112,7 +25562,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304081] = {
 		sink_limit = 1,
@@ -25172,7 +25623,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304082] = {
 		sink_limit = 1,
@@ -25232,7 +25684,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304090] = {
 		sink_limit = 1,
@@ -25292,7 +25745,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304091] = {
 		sink_limit = 1,
@@ -25352,7 +25806,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304092] = {
 		sink_limit = 1,
@@ -25412,7 +25867,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304100] = {
 		sink_limit = 1,
@@ -25464,7 +25920,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304101] = {
 		sink_limit = 1,
@@ -25516,7 +25973,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304102] = {
 		sink_limit = 1,
@@ -25568,7 +26026,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304110] = {
 		sink_limit = 1,
@@ -25620,7 +26079,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304111] = {
 		sink_limit = 1,
@@ -25672,7 +26132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304112] = {
 		sink_limit = 1,
@@ -25724,7 +26185,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304120] = {
 		sink_limit = 1,
@@ -25776,7 +26238,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304121] = {
 		sink_limit = 1,
@@ -25828,7 +26291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304122] = {
 		sink_limit = 1,
@@ -25880,7 +26344,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304210] = {
 		sink_limit = 1,
@@ -25940,7 +26405,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304211] = {
 		sink_limit = 1,
@@ -26000,7 +26466,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304212] = {
 		sink_limit = 1,
@@ -26060,7 +26527,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[304000] = {
 		sink_limit = 1,
@@ -26120,7 +26588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305010] = {
 		sink_limit = 1,
@@ -26176,7 +26645,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305011] = {
 		sink_limit = 1,
@@ -26232,7 +26702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305012] = {
 		sink_limit = 1,
@@ -26288,7 +26759,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305020] = {
 		sink_limit = 1,
@@ -26344,7 +26816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305021] = {
 		sink_limit = 1,
@@ -26400,7 +26873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305022] = {
 		sink_limit = 1,
@@ -26456,7 +26930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305030] = {
 		sink_limit = 1,
@@ -26512,7 +26987,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305031] = {
 		sink_limit = 1,
@@ -26568,7 +27044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305032] = {
 		sink_limit = 1,
@@ -26624,7 +27101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305040] = {
 		sink_limit = 1,
@@ -26680,7 +27158,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305041] = {
 		sink_limit = 1,
@@ -26736,7 +27215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305042] = {
 		sink_limit = 1,
@@ -26792,7 +27272,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305050] = {
 		sink_limit = 1,
@@ -26848,7 +27329,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305051] = {
 		sink_limit = 1,
@@ -26904,7 +27386,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305052] = {
 		sink_limit = 1,
@@ -26960,7 +27443,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305060] = {
 		sink_limit = 1,
@@ -27016,7 +27500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305061] = {
 		sink_limit = 1,
@@ -27072,7 +27557,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305062] = {
 		sink_limit = 1,
@@ -27128,7 +27614,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305070] = {
 		sink_limit = 1,
@@ -27184,7 +27671,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305071] = {
 		sink_limit = 1,
@@ -27240,7 +27728,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305072] = {
 		sink_limit = 1,
@@ -27296,7 +27785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305080] = {
 		sink_limit = 1,
@@ -27352,7 +27842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305081] = {
 		sink_limit = 1,
@@ -27408,7 +27899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305082] = {
 		sink_limit = 1,
@@ -27464,7 +27956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305090] = {
 		sink_limit = 1,
@@ -27520,7 +28013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305091] = {
 		sink_limit = 1,
@@ -27576,7 +28070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305092] = {
 		sink_limit = 1,
@@ -27632,7 +28127,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305100] = {
 		sink_limit = 1,
@@ -27684,7 +28180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305101] = {
 		sink_limit = 1,
@@ -27736,7 +28233,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305102] = {
 		sink_limit = 1,
@@ -27788,7 +28286,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305110] = {
 		sink_limit = 1,
@@ -27840,7 +28339,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305111] = {
 		sink_limit = 1,
@@ -27892,7 +28392,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305112] = {
 		sink_limit = 1,
@@ -27944,7 +28445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305120] = {
 		sink_limit = 1,
@@ -27996,7 +28498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305121] = {
 		sink_limit = 1,
@@ -28048,7 +28551,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305122] = {
 		sink_limit = 1,
@@ -28100,7 +28604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305210] = {
 		sink_limit = 1,
@@ -28160,7 +28665,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305211] = {
 		sink_limit = 1,
@@ -28220,7 +28726,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305212] = {
 		sink_limit = 1,
@@ -28280,7 +28787,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[305000] = {
 		sink_limit = 1,
@@ -28336,7 +28844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401010] = {
 		sink_limit = 1,
@@ -28396,7 +28905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401020] = {
 		sink_limit = 1,
@@ -28456,7 +28966,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401030] = {
 		sink_limit = 1,
@@ -28516,7 +29027,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401040] = {
 		sink_limit = 1,
@@ -28576,7 +29088,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401050] = {
 		sink_limit = 1,
@@ -28636,7 +29149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401060] = {
 		sink_limit = 1,
@@ -28696,7 +29210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401070] = {
 		sink_limit = 1,
@@ -28756,7 +29271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401080] = {
 		sink_limit = 1,
@@ -28816,7 +29332,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401090] = {
 		sink_limit = 1,
@@ -28876,7 +29393,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401100] = {
 		sink_limit = 1,
@@ -28928,7 +29446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401110] = {
 		sink_limit = 1,
@@ -28980,7 +29499,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401120] = {
 		sink_limit = 1,
@@ -29032,7 +29552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401210] = {
 		sink_limit = 1,
@@ -29092,7 +29613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401211] = {
 		sink_limit = 1,
@@ -29152,7 +29674,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401212] = {
 		sink_limit = 1,
@@ -29212,7 +29735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[401000] = {
 		sink_limit = 1,
@@ -29272,7 +29796,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402010] = {
 		sink_limit = 1,
@@ -29332,7 +29857,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402020] = {
 		sink_limit = 1,
@@ -29392,7 +29918,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402030] = {
 		sink_limit = 1,
@@ -29452,7 +29979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402040] = {
 		sink_limit = 1,
@@ -29512,7 +30040,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402050] = {
 		sink_limit = 1,
@@ -29572,7 +30101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402060] = {
 		sink_limit = 1,
@@ -29632,7 +30162,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402070] = {
 		sink_limit = 1,
@@ -29692,7 +30223,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402080] = {
 		sink_limit = 1,
@@ -29752,7 +30284,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402090] = {
 		sink_limit = 1,
@@ -29812,7 +30345,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402100] = {
 		sink_limit = 1,
@@ -29864,7 +30398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402110] = {
 		sink_limit = 1,
@@ -29916,7 +30451,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402120] = {
 		sink_limit = 1,
@@ -29968,7 +30504,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402210] = {
 		sink_limit = 1,
@@ -30028,7 +30565,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402211] = {
 		sink_limit = 1,
@@ -30088,7 +30626,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402212] = {
 		sink_limit = 1,
@@ -30148,7 +30687,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[402000] = {
 		sink_limit = 1,
@@ -30208,7 +30748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403010] = {
 		sink_limit = 1,
@@ -30268,7 +30809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403020] = {
 		sink_limit = 1,
@@ -30328,7 +30870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403030] = {
 		sink_limit = 1,
@@ -30388,7 +30931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403040] = {
 		sink_limit = 1,
@@ -30448,7 +30992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403050] = {
 		sink_limit = 1,
@@ -30508,7 +31053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403060] = {
 		sink_limit = 1,
@@ -30568,7 +31114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403070] = {
 		sink_limit = 1,
@@ -30628,7 +31175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403080] = {
 		sink_limit = 1,
@@ -30688,7 +31236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403090] = {
 		sink_limit = 1,
@@ -30748,7 +31297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403100] = {
 		sink_limit = 1,
@@ -30800,7 +31350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403110] = {
 		sink_limit = 1,
@@ -30852,7 +31403,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403120] = {
 		sink_limit = 1,
@@ -30904,7 +31456,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403210] = {
 		sink_limit = 1,
@@ -30964,7 +31517,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403211] = {
 		sink_limit = 1,
@@ -31024,7 +31578,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403212] = {
 		sink_limit = 1,
@@ -31084,7 +31639,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[403000] = {
 		sink_limit = 1,
@@ -31144,7 +31700,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404010] = {
 		sink_limit = 1,
@@ -31204,7 +31761,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404020] = {
 		sink_limit = 1,
@@ -31264,7 +31822,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404030] = {
 		sink_limit = 1,
@@ -31324,7 +31883,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404040] = {
 		sink_limit = 1,
@@ -31384,7 +31944,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404050] = {
 		sink_limit = 1,
@@ -31444,7 +32005,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404060] = {
 		sink_limit = 1,
@@ -31504,7 +32066,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404070] = {
 		sink_limit = 1,
@@ -31564,7 +32127,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404080] = {
 		sink_limit = 1,
@@ -31624,7 +32188,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404090] = {
 		sink_limit = 1,
@@ -31684,7 +32249,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404100] = {
 		sink_limit = 1,
@@ -31736,7 +32302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404110] = {
 		sink_limit = 1,
@@ -31788,7 +32355,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404120] = {
 		sink_limit = 1,
@@ -31840,7 +32408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404210] = {
 		sink_limit = 1,
@@ -31900,7 +32469,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404211] = {
 		sink_limit = 1,
@@ -31960,7 +32530,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404212] = {
 		sink_limit = 1,
@@ -32020,7 +32591,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[404000] = {
 		sink_limit = 1,
@@ -32080,7 +32652,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405010] = {
 		sink_limit = 1,
@@ -32136,7 +32709,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405020] = {
 		sink_limit = 1,
@@ -32192,7 +32766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405030] = {
 		sink_limit = 1,
@@ -32248,7 +32823,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405040] = {
 		sink_limit = 1,
@@ -32304,7 +32880,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405050] = {
 		sink_limit = 1,
@@ -32360,7 +32937,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405060] = {
 		sink_limit = 1,
@@ -32416,7 +32994,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405070] = {
 		sink_limit = 1,
@@ -32472,7 +33051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405080] = {
 		sink_limit = 1,
@@ -32528,7 +33108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405090] = {
 		sink_limit = 1,
@@ -32584,7 +33165,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405100] = {
 		sink_limit = 1,
@@ -32636,7 +33218,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405110] = {
 		sink_limit = 1,
@@ -32688,7 +33271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405120] = {
 		sink_limit = 1,
@@ -32740,7 +33324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405210] = {
 		sink_limit = 1,
@@ -32800,7 +33385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405211] = {
 		sink_limit = 1,
@@ -32860,7 +33446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405212] = {
 		sink_limit = 1,
@@ -32920,7 +33507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[405000] = {
 		sink_limit = 1,
@@ -32976,7 +33564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501010] = {
 		sink_limit = 1,
@@ -33036,7 +33625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501020] = {
 		sink_limit = 1,
@@ -33096,7 +33686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501030] = {
 		sink_limit = 1,
@@ -33156,7 +33747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501040] = {
 		sink_limit = 1,
@@ -33216,7 +33808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501050] = {
 		sink_limit = 1,
@@ -33276,7 +33869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501060] = {
 		sink_limit = 1,
@@ -33336,7 +33930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501070] = {
 		sink_limit = 1,
@@ -33396,7 +33991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501080] = {
 		sink_limit = 1,
@@ -33456,7 +34052,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501090] = {
 		sink_limit = 1,
@@ -33516,7 +34113,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501100] = {
 		sink_limit = 1,
@@ -33568,7 +34166,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501110] = {
 		sink_limit = 1,
@@ -33620,7 +34219,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501120] = {
 		sink_limit = 1,
@@ -33672,7 +34272,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501210] = {
 		sink_limit = 1,
@@ -33732,7 +34333,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501211] = {
 		sink_limit = 1,
@@ -33792,7 +34394,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501212] = {
 		sink_limit = 1,
@@ -33852,7 +34455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[501000] = {
 		sink_limit = 1,
@@ -33912,7 +34516,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502010] = {
 		sink_limit = 1,
@@ -33972,7 +34577,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502020] = {
 		sink_limit = 1,
@@ -34032,7 +34638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502030] = {
 		sink_limit = 1,
@@ -34092,7 +34699,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502040] = {
 		sink_limit = 1,
@@ -34152,7 +34760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502050] = {
 		sink_limit = 1,
@@ -34212,7 +34821,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502060] = {
 		sink_limit = 1,
@@ -34272,7 +34882,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502070] = {
 		sink_limit = 1,
@@ -34332,7 +34943,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502080] = {
 		sink_limit = 1,
@@ -34392,7 +35004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502090] = {
 		sink_limit = 1,
@@ -34452,7 +35065,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502100] = {
 		sink_limit = 1,
@@ -34504,7 +35118,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502110] = {
 		sink_limit = 1,
@@ -34556,7 +35171,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502120] = {
 		sink_limit = 1,
@@ -34608,7 +35224,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502210] = {
 		sink_limit = 1,
@@ -34668,7 +35285,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502211] = {
 		sink_limit = 1,
@@ -34728,7 +35346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502212] = {
 		sink_limit = 1,
@@ -34788,7 +35407,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[502000] = {
 		sink_limit = 1,
@@ -34848,7 +35468,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503010] = {
 		sink_limit = 1,
@@ -34908,7 +35529,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503020] = {
 		sink_limit = 1,
@@ -34968,7 +35590,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503030] = {
 		sink_limit = 1,
@@ -35028,7 +35651,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503040] = {
 		sink_limit = 1,
@@ -35088,7 +35712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503050] = {
 		sink_limit = 1,
@@ -35148,7 +35773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503060] = {
 		sink_limit = 1,
@@ -35208,7 +35834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503070] = {
 		sink_limit = 1,
@@ -35268,7 +35895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503080] = {
 		sink_limit = 1,
@@ -35328,7 +35956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503090] = {
 		sink_limit = 1,
@@ -35388,7 +36017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503100] = {
 		sink_limit = 1,
@@ -35440,7 +36070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503110] = {
 		sink_limit = 1,
@@ -35492,7 +36123,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503120] = {
 		sink_limit = 1,
@@ -35544,7 +36176,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503210] = {
 		sink_limit = 1,
@@ -35604,7 +36237,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503211] = {
 		sink_limit = 1,
@@ -35664,7 +36298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503212] = {
 		sink_limit = 1,
@@ -35724,7 +36359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[503000] = {
 		sink_limit = 1,
@@ -35784,7 +36420,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504010] = {
 		sink_limit = 1,
@@ -35844,7 +36481,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504020] = {
 		sink_limit = 1,
@@ -35904,7 +36542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504030] = {
 		sink_limit = 1,
@@ -35964,7 +36603,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504040] = {
 		sink_limit = 1,
@@ -36024,7 +36664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504050] = {
 		sink_limit = 1,
@@ -36084,7 +36725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504060] = {
 		sink_limit = 1,
@@ -36144,7 +36786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504070] = {
 		sink_limit = 1,
@@ -36204,7 +36847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504080] = {
 		sink_limit = 1,
@@ -36264,7 +36908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504090] = {
 		sink_limit = 1,
@@ -36324,7 +36969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504100] = {
 		sink_limit = 1,
@@ -36376,7 +37022,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504110] = {
 		sink_limit = 1,
@@ -36428,7 +37075,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504120] = {
 		sink_limit = 1,
@@ -36480,7 +37128,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504210] = {
 		sink_limit = 1,
@@ -36540,7 +37189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504211] = {
 		sink_limit = 1,
@@ -36600,7 +37250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504212] = {
 		sink_limit = 1,
@@ -36660,7 +37311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[504000] = {
 		sink_limit = 1,
@@ -36720,7 +37372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505010] = {
 		sink_limit = 1,
@@ -36776,7 +37429,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505020] = {
 		sink_limit = 1,
@@ -36832,7 +37486,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505030] = {
 		sink_limit = 1,
@@ -36888,7 +37543,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505040] = {
 		sink_limit = 1,
@@ -36944,7 +37600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505050] = {
 		sink_limit = 1,
@@ -37000,7 +37657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505060] = {
 		sink_limit = 1,
@@ -37056,7 +37714,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505070] = {
 		sink_limit = 1,
@@ -37112,7 +37771,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505080] = {
 		sink_limit = 1,
@@ -37168,7 +37828,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505090] = {
 		sink_limit = 1,
@@ -37224,7 +37885,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505100] = {
 		sink_limit = 1,
@@ -37276,7 +37938,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505110] = {
 		sink_limit = 1,
@@ -37328,7 +37991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505120] = {
 		sink_limit = 1,
@@ -37380,7 +38044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505210] = {
 		sink_limit = 1,
@@ -37440,7 +38105,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505211] = {
 		sink_limit = 1,
@@ -37500,7 +38166,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505212] = {
 		sink_limit = 1,
@@ -37560,7 +38227,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[505000] = {
 		sink_limit = 1,
@@ -37616,7 +38284,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601010] = {
 		sink_limit = 1,
@@ -37676,7 +38345,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601020] = {
 		sink_limit = 1,
@@ -37736,7 +38406,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601030] = {
 		sink_limit = 1,
@@ -37796,7 +38467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601040] = {
 		sink_limit = 1,
@@ -37856,7 +38528,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601050] = {
 		sink_limit = 1,
@@ -37916,7 +38589,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601060] = {
 		sink_limit = 1,
@@ -37976,7 +38650,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601070] = {
 		sink_limit = 1,
@@ -38036,7 +38711,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601080] = {
 		sink_limit = 1,
@@ -38096,7 +38772,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601090] = {
 		sink_limit = 1,
@@ -38156,7 +38833,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601100] = {
 		sink_limit = 1,
@@ -38208,7 +38886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601110] = {
 		sink_limit = 1,
@@ -38260,7 +38939,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601120] = {
 		sink_limit = 1,
@@ -38312,7 +38992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601210] = {
 		sink_limit = 1,
@@ -38372,7 +39053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601211] = {
 		sink_limit = 1,
@@ -38432,7 +39114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601212] = {
 		sink_limit = 1,
@@ -38492,7 +39175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[601000] = {
 		sink_limit = 1,
@@ -38552,7 +39236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602010] = {
 		sink_limit = 1,
@@ -38612,7 +39297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602020] = {
 		sink_limit = 1,
@@ -38672,7 +39358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602030] = {
 		sink_limit = 1,
@@ -38732,7 +39419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602040] = {
 		sink_limit = 1,
@@ -38792,7 +39480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602050] = {
 		sink_limit = 1,
@@ -38852,7 +39541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602060] = {
 		sink_limit = 1,
@@ -38912,7 +39602,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602070] = {
 		sink_limit = 1,
@@ -38972,7 +39663,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602080] = {
 		sink_limit = 1,
@@ -39032,7 +39724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602090] = {
 		sink_limit = 1,
@@ -39092,7 +39785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602100] = {
 		sink_limit = 1,
@@ -39144,7 +39838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602110] = {
 		sink_limit = 1,
@@ -39196,7 +39891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602120] = {
 		sink_limit = 1,
@@ -39248,7 +39944,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602210] = {
 		sink_limit = 1,
@@ -39308,7 +40005,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602211] = {
 		sink_limit = 1,
@@ -39368,7 +40066,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602212] = {
 		sink_limit = 1,
@@ -39428,7 +40127,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[602000] = {
 		sink_limit = 1,
@@ -39488,7 +40188,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603010] = {
 		sink_limit = 1,
@@ -39548,7 +40249,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603020] = {
 		sink_limit = 1,
@@ -39608,7 +40310,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603030] = {
 		sink_limit = 1,
@@ -39668,7 +40371,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603040] = {
 		sink_limit = 1,
@@ -39728,7 +40432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603050] = {
 		sink_limit = 1,
@@ -39788,7 +40493,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603060] = {
 		sink_limit = 1,
@@ -39848,7 +40554,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603070] = {
 		sink_limit = 1,
@@ -39908,7 +40615,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603080] = {
 		sink_limit = 1,
@@ -39968,7 +40676,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603090] = {
 		sink_limit = 1,
@@ -40028,7 +40737,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603100] = {
 		sink_limit = 1,
@@ -40080,7 +40790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603110] = {
 		sink_limit = 1,
@@ -40132,7 +40843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603120] = {
 		sink_limit = 1,
@@ -40184,7 +40896,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603210] = {
 		sink_limit = 1,
@@ -40244,7 +40957,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603211] = {
 		sink_limit = 1,
@@ -40304,7 +41018,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603212] = {
 		sink_limit = 1,
@@ -40364,7 +41079,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[603000] = {
 		sink_limit = 1,
@@ -40424,7 +41140,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604010] = {
 		sink_limit = 1,
@@ -40484,7 +41201,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604020] = {
 		sink_limit = 1,
@@ -40544,7 +41262,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604030] = {
 		sink_limit = 1,
@@ -40604,7 +41323,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604040] = {
 		sink_limit = 1,
@@ -40664,7 +41384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604050] = {
 		sink_limit = 1,
@@ -40724,7 +41445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604060] = {
 		sink_limit = 1,
@@ -40784,7 +41506,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604070] = {
 		sink_limit = 1,
@@ -40844,7 +41567,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604080] = {
 		sink_limit = 1,
@@ -40904,7 +41628,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604090] = {
 		sink_limit = 1,
@@ -40964,7 +41689,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604100] = {
 		sink_limit = 1,
@@ -41016,7 +41742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604110] = {
 		sink_limit = 1,
@@ -41068,7 +41795,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604120] = {
 		sink_limit = 1,
@@ -41120,7 +41848,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604210] = {
 		sink_limit = 1,
@@ -41180,7 +41909,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604211] = {
 		sink_limit = 1,
@@ -41240,7 +41970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604212] = {
 		sink_limit = 1,
@@ -41300,7 +42031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[604000] = {
 		sink_limit = 1,
@@ -41360,7 +42092,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605010] = {
 		sink_limit = 1,
@@ -41416,7 +42149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605020] = {
 		sink_limit = 1,
@@ -41472,7 +42206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605030] = {
 		sink_limit = 1,
@@ -41528,7 +42263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605040] = {
 		sink_limit = 1,
@@ -41584,7 +42320,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605050] = {
 		sink_limit = 1,
@@ -41640,7 +42377,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605060] = {
 		sink_limit = 1,
@@ -41696,7 +42434,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605070] = {
 		sink_limit = 1,
@@ -41752,7 +42491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605080] = {
 		sink_limit = 1,
@@ -41808,7 +42548,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605090] = {
 		sink_limit = 1,
@@ -41864,7 +42605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605100] = {
 		sink_limit = 1,
@@ -41916,7 +42658,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605110] = {
 		sink_limit = 1,
@@ -41968,7 +42711,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605120] = {
 		sink_limit = 1,
@@ -42020,7 +42764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605210] = {
 		sink_limit = 1,
@@ -42080,7 +42825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605211] = {
 		sink_limit = 1,
@@ -42140,7 +42886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605212] = {
 		sink_limit = 1,
@@ -42200,7 +42947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[605000] = {
 		sink_limit = 1,
@@ -42256,7 +43004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701010] = {
 		sink_limit = 1,
@@ -42316,7 +43065,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701020] = {
 		sink_limit = 1,
@@ -42376,7 +43126,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701030] = {
 		sink_limit = 1,
@@ -42436,7 +43187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701040] = {
 		sink_limit = 1,
@@ -42496,7 +43248,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701050] = {
 		sink_limit = 1,
@@ -42556,7 +43309,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701060] = {
 		sink_limit = 1,
@@ -42616,7 +43370,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701070] = {
 		sink_limit = 1,
@@ -42676,7 +43431,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701080] = {
 		sink_limit = 1,
@@ -42736,7 +43492,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701090] = {
 		sink_limit = 1,
@@ -42796,7 +43553,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701100] = {
 		sink_limit = 1,
@@ -42848,7 +43606,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701110] = {
 		sink_limit = 1,
@@ -42900,7 +43659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701120] = {
 		sink_limit = 1,
@@ -42952,7 +43712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701210] = {
 		sink_limit = 1,
@@ -43012,7 +43773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701211] = {
 		sink_limit = 1,
@@ -43072,7 +43834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701212] = {
 		sink_limit = 1,
@@ -43132,7 +43895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[701000] = {
 		sink_limit = 1,
@@ -43192,7 +43956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702010] = {
 		sink_limit = 1,
@@ -43252,7 +44017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702020] = {
 		sink_limit = 1,
@@ -43312,7 +44078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702030] = {
 		sink_limit = 1,
@@ -43372,7 +44139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702040] = {
 		sink_limit = 1,
@@ -43432,7 +44200,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702050] = {
 		sink_limit = 1,
@@ -43492,7 +44261,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702060] = {
 		sink_limit = 1,
@@ -43552,7 +44322,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702070] = {
 		sink_limit = 1,
@@ -43612,7 +44383,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702080] = {
 		sink_limit = 1,
@@ -43672,7 +44444,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702090] = {
 		sink_limit = 1,
@@ -43732,7 +44505,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702100] = {
 		sink_limit = 1,
@@ -43784,7 +44558,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702110] = {
 		sink_limit = 1,
@@ -43836,7 +44611,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702120] = {
 		sink_limit = 1,
@@ -43888,7 +44664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702210] = {
 		sink_limit = 1,
@@ -43948,7 +44725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702211] = {
 		sink_limit = 1,
@@ -44008,7 +44786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702212] = {
 		sink_limit = 1,
@@ -44068,7 +44847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[702000] = {
 		sink_limit = 1,
@@ -44128,7 +44908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703010] = {
 		sink_limit = 1,
@@ -44188,7 +44969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703020] = {
 		sink_limit = 1,
@@ -44248,7 +45030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703030] = {
 		sink_limit = 1,
@@ -44308,7 +45091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703040] = {
 		sink_limit = 1,
@@ -44368,7 +45152,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703050] = {
 		sink_limit = 1,
@@ -44428,7 +45213,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703060] = {
 		sink_limit = 1,
@@ -44488,7 +45274,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703070] = {
 		sink_limit = 1,
@@ -44548,7 +45335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703080] = {
 		sink_limit = 1,
@@ -44608,7 +45396,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703090] = {
 		sink_limit = 1,
@@ -44668,7 +45457,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703100] = {
 		sink_limit = 1,
@@ -44720,7 +45510,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703110] = {
 		sink_limit = 1,
@@ -44772,7 +45563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703120] = {
 		sink_limit = 1,
@@ -44824,7 +45616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703210] = {
 		sink_limit = 1,
@@ -44884,7 +45677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703211] = {
 		sink_limit = 1,
@@ -44944,7 +45738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703212] = {
 		sink_limit = 1,
@@ -45004,7 +45799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[703000] = {
 		sink_limit = 1,
@@ -45064,7 +45860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704010] = {
 		sink_limit = 1,
@@ -45124,7 +45921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704020] = {
 		sink_limit = 1,
@@ -45184,7 +45982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704030] = {
 		sink_limit = 1,
@@ -45244,7 +46043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704040] = {
 		sink_limit = 1,
@@ -45304,7 +46104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704050] = {
 		sink_limit = 1,
@@ -45364,7 +46165,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704060] = {
 		sink_limit = 1,
@@ -45424,7 +46226,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704070] = {
 		sink_limit = 1,
@@ -45484,7 +46287,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704080] = {
 		sink_limit = 1,
@@ -45544,7 +46348,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704090] = {
 		sink_limit = 1,
@@ -45604,7 +46409,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704100] = {
 		sink_limit = 1,
@@ -45656,7 +46462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704110] = {
 		sink_limit = 1,
@@ -45708,7 +46515,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704120] = {
 		sink_limit = 1,
@@ -45760,7 +46568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704210] = {
 		sink_limit = 1,
@@ -45820,7 +46629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704211] = {
 		sink_limit = 1,
@@ -45880,7 +46690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704212] = {
 		sink_limit = 1,
@@ -45940,7 +46751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[704000] = {
 		sink_limit = 1,
@@ -46000,7 +46812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705010] = {
 		sink_limit = 1,
@@ -46056,7 +46869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705020] = {
 		sink_limit = 1,
@@ -46112,7 +46926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705030] = {
 		sink_limit = 1,
@@ -46168,7 +46983,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705040] = {
 		sink_limit = 1,
@@ -46224,7 +47040,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705050] = {
 		sink_limit = 1,
@@ -46280,7 +47097,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705060] = {
 		sink_limit = 1,
@@ -46336,7 +47154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705070] = {
 		sink_limit = 1,
@@ -46392,7 +47211,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705080] = {
 		sink_limit = 1,
@@ -46448,7 +47268,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705090] = {
 		sink_limit = 1,
@@ -46504,7 +47325,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705100] = {
 		sink_limit = 1,
@@ -46556,7 +47378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705110] = {
 		sink_limit = 1,
@@ -46608,7 +47431,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705120] = {
 		sink_limit = 1,
@@ -46660,7 +47484,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705210] = {
 		sink_limit = 1,
@@ -46720,7 +47545,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705211] = {
 		sink_limit = 1,
@@ -46780,7 +47606,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705212] = {
 		sink_limit = 1,
@@ -46840,7 +47667,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[705000] = {
 		sink_limit = 1,
@@ -46896,7 +47724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801010] = {
 		sink_limit = 1,
@@ -46956,7 +47785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801020] = {
 		sink_limit = 1,
@@ -47016,7 +47846,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801030] = {
 		sink_limit = 1,
@@ -47076,7 +47907,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801040] = {
 		sink_limit = 1,
@@ -47136,7 +47968,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801050] = {
 		sink_limit = 1,
@@ -47196,7 +48029,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801060] = {
 		sink_limit = 1,
@@ -47256,7 +48090,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801070] = {
 		sink_limit = 1,
@@ -47316,7 +48151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801080] = {
 		sink_limit = 1,
@@ -47376,7 +48212,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801090] = {
 		sink_limit = 1,
@@ -47436,7 +48273,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801100] = {
 		sink_limit = 1,
@@ -47488,7 +48326,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801110] = {
 		sink_limit = 1,
@@ -47540,7 +48379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801120] = {
 		sink_limit = 1,
@@ -47592,7 +48432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801210] = {
 		sink_limit = 1,
@@ -47652,7 +48493,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801211] = {
 		sink_limit = 1,
@@ -47712,7 +48554,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801212] = {
 		sink_limit = 1,
@@ -47772,7 +48615,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[801000] = {
 		sink_limit = 1,
@@ -47832,7 +48676,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802010] = {
 		sink_limit = 1,
@@ -47892,7 +48737,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802020] = {
 		sink_limit = 1,
@@ -47952,7 +48798,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802030] = {
 		sink_limit = 1,
@@ -48012,7 +48859,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802040] = {
 		sink_limit = 1,
@@ -48072,7 +48920,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802050] = {
 		sink_limit = 1,
@@ -48132,7 +48981,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802060] = {
 		sink_limit = 1,
@@ -48192,7 +49042,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802070] = {
 		sink_limit = 1,
@@ -48252,7 +49103,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802080] = {
 		sink_limit = 1,
@@ -48312,7 +49164,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802090] = {
 		sink_limit = 1,
@@ -48372,7 +49225,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802100] = {
 		sink_limit = 1,
@@ -48424,7 +49278,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802110] = {
 		sink_limit = 1,
@@ -48476,7 +49331,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802120] = {
 		sink_limit = 1,
@@ -48528,7 +49384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802210] = {
 		sink_limit = 1,
@@ -48588,7 +49445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802211] = {
 		sink_limit = 1,
@@ -48648,7 +49506,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802212] = {
 		sink_limit = 1,
@@ -48708,7 +49567,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[802000] = {
 		sink_limit = 1,
@@ -48768,7 +49628,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803010] = {
 		sink_limit = 1,
@@ -48828,7 +49689,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803020] = {
 		sink_limit = 1,
@@ -48888,7 +49750,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803030] = {
 		sink_limit = 1,
@@ -48948,7 +49811,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803040] = {
 		sink_limit = 1,
@@ -49008,7 +49872,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803050] = {
 		sink_limit = 1,
@@ -49068,7 +49933,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803060] = {
 		sink_limit = 1,
@@ -49128,7 +49994,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803070] = {
 		sink_limit = 1,
@@ -49188,7 +50055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803080] = {
 		sink_limit = 1,
@@ -49248,7 +50116,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803090] = {
 		sink_limit = 1,
@@ -49308,7 +50177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803100] = {
 		sink_limit = 1,
@@ -49360,7 +50230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803110] = {
 		sink_limit = 1,
@@ -49412,7 +50283,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803120] = {
 		sink_limit = 1,
@@ -49464,7 +50336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803210] = {
 		sink_limit = 1,
@@ -49524,7 +50397,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803211] = {
 		sink_limit = 1,
@@ -49584,7 +50458,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803212] = {
 		sink_limit = 1,
@@ -49644,7 +50519,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[803000] = {
 		sink_limit = 1,
@@ -49704,7 +50580,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804010] = {
 		sink_limit = 1,
@@ -49764,7 +50641,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804020] = {
 		sink_limit = 1,
@@ -49824,7 +50702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804030] = {
 		sink_limit = 1,
@@ -49884,7 +50763,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804040] = {
 		sink_limit = 1,
@@ -49944,7 +50824,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804050] = {
 		sink_limit = 1,
@@ -50004,7 +50885,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804060] = {
 		sink_limit = 1,
@@ -50064,7 +50946,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804070] = {
 		sink_limit = 1,
@@ -50124,7 +51007,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804080] = {
 		sink_limit = 1,
@@ -50184,7 +51068,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804090] = {
 		sink_limit = 1,
@@ -50244,7 +51129,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804100] = {
 		sink_limit = 1,
@@ -50296,7 +51182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804110] = {
 		sink_limit = 1,
@@ -50348,7 +51235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804120] = {
 		sink_limit = 1,
@@ -50400,7 +51288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804210] = {
 		sink_limit = 1,
@@ -50460,7 +51349,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804211] = {
 		sink_limit = 1,
@@ -50520,7 +51410,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804212] = {
 		sink_limit = 1,
@@ -50580,7 +51471,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[804000] = {
 		sink_limit = 1,
@@ -50640,7 +51532,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805010] = {
 		sink_limit = 1,
@@ -50696,7 +51589,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805020] = {
 		sink_limit = 1,
@@ -50752,7 +51646,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805030] = {
 		sink_limit = 1,
@@ -50808,7 +51703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805040] = {
 		sink_limit = 1,
@@ -50864,7 +51760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805050] = {
 		sink_limit = 1,
@@ -50920,7 +51817,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805060] = {
 		sink_limit = 1,
@@ -50976,7 +51874,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805070] = {
 		sink_limit = 1,
@@ -51032,7 +51931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805080] = {
 		sink_limit = 1,
@@ -51088,7 +51988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805090] = {
 		sink_limit = 1,
@@ -51144,7 +52045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805100] = {
 		sink_limit = 1,
@@ -51196,7 +52098,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805110] = {
 		sink_limit = 1,
@@ -51248,7 +52151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805120] = {
 		sink_limit = 1,
@@ -51300,7 +52204,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805210] = {
 		sink_limit = 1,
@@ -51360,7 +52265,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805211] = {
 		sink_limit = 1,
@@ -51420,7 +52326,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805212] = {
 		sink_limit = 1,
@@ -51480,7 +52387,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[805000] = {
 		sink_limit = 1,
@@ -51536,7 +52444,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901010] = {
 		sink_limit = 1,
@@ -51596,7 +52505,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901020] = {
 		sink_limit = 1,
@@ -51656,7 +52566,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901030] = {
 		sink_limit = 1,
@@ -51716,7 +52627,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901040] = {
 		sink_limit = 1,
@@ -51776,7 +52688,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901050] = {
 		sink_limit = 1,
@@ -51836,7 +52749,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901060] = {
 		sink_limit = 1,
@@ -51896,7 +52810,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901070] = {
 		sink_limit = 1,
@@ -51956,7 +52871,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901080] = {
 		sink_limit = 1,
@@ -52016,7 +52932,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901090] = {
 		sink_limit = 1,
@@ -52076,7 +52993,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901100] = {
 		sink_limit = 1,
@@ -52128,7 +53046,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901110] = {
 		sink_limit = 1,
@@ -52180,7 +53099,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901120] = {
 		sink_limit = 1,
@@ -52232,7 +53152,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901210] = {
 		sink_limit = 1,
@@ -52292,7 +53213,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901211] = {
 		sink_limit = 1,
@@ -52352,7 +53274,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901212] = {
 		sink_limit = 1,
@@ -52412,7 +53335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[901000] = {
 		sink_limit = 1,
@@ -52472,7 +53396,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902010] = {
 		sink_limit = 1,
@@ -52532,7 +53457,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902020] = {
 		sink_limit = 1,
@@ -52592,7 +53518,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902030] = {
 		sink_limit = 1,
@@ -52652,7 +53579,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902040] = {
 		sink_limit = 1,
@@ -52712,7 +53640,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902050] = {
 		sink_limit = 1,
@@ -52772,7 +53701,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902060] = {
 		sink_limit = 1,
@@ -52832,7 +53762,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902070] = {
 		sink_limit = 1,
@@ -52892,7 +53823,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902080] = {
 		sink_limit = 1,
@@ -52952,7 +53884,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902090] = {
 		sink_limit = 1,
@@ -53012,7 +53945,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902100] = {
 		sink_limit = 1,
@@ -53064,7 +53998,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902110] = {
 		sink_limit = 1,
@@ -53116,7 +54051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902120] = {
 		sink_limit = 1,
@@ -53168,7 +54104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902210] = {
 		sink_limit = 1,
@@ -53228,7 +54165,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902211] = {
 		sink_limit = 1,
@@ -53288,7 +54226,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902212] = {
 		sink_limit = 1,
@@ -53348,7 +54287,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[902000] = {
 		sink_limit = 1,
@@ -53408,7 +54348,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903010] = {
 		sink_limit = 1,
@@ -53468,7 +54409,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903020] = {
 		sink_limit = 1,
@@ -53528,7 +54470,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903030] = {
 		sink_limit = 1,
@@ -53588,7 +54531,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903040] = {
 		sink_limit = 1,
@@ -53648,7 +54592,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903050] = {
 		sink_limit = 1,
@@ -53708,7 +54653,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903060] = {
 		sink_limit = 1,
@@ -53768,7 +54714,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903070] = {
 		sink_limit = 1,
@@ -53828,7 +54775,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903080] = {
 		sink_limit = 1,
@@ -53888,7 +54836,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903090] = {
 		sink_limit = 1,
@@ -53948,7 +54897,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903100] = {
 		sink_limit = 1,
@@ -54000,7 +54950,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903110] = {
 		sink_limit = 1,
@@ -54052,7 +55003,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903120] = {
 		sink_limit = 1,
@@ -54104,7 +55056,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903210] = {
 		sink_limit = 1,
@@ -54164,7 +55117,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903211] = {
 		sink_limit = 1,
@@ -54224,7 +55178,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903212] = {
 		sink_limit = 1,
@@ -54284,7 +55239,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[903000] = {
 		sink_limit = 1,
@@ -54344,7 +55300,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904010] = {
 		sink_limit = 1,
@@ -54404,7 +55361,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904020] = {
 		sink_limit = 1,
@@ -54464,7 +55422,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904030] = {
 		sink_limit = 1,
@@ -54524,7 +55483,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904040] = {
 		sink_limit = 1,
@@ -54584,7 +55544,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904050] = {
 		sink_limit = 1,
@@ -54644,7 +55605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904060] = {
 		sink_limit = 1,
@@ -54704,7 +55666,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904070] = {
 		sink_limit = 1,
@@ -54764,7 +55727,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904080] = {
 		sink_limit = 1,
@@ -54824,7 +55788,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904090] = {
 		sink_limit = 1,
@@ -54884,7 +55849,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904100] = {
 		sink_limit = 1,
@@ -54936,7 +55902,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904110] = {
 		sink_limit = 1,
@@ -54988,7 +55955,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904120] = {
 		sink_limit = 1,
@@ -55040,7 +56008,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904210] = {
 		sink_limit = 1,
@@ -55100,7 +56069,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904211] = {
 		sink_limit = 1,
@@ -55160,7 +56130,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904212] = {
 		sink_limit = 1,
@@ -55220,7 +56191,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[904000] = {
 		sink_limit = 1,
@@ -55280,7 +56252,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905010] = {
 		sink_limit = 1,
@@ -55336,7 +56309,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905020] = {
 		sink_limit = 1,
@@ -55392,7 +56366,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905030] = {
 		sink_limit = 1,
@@ -55448,7 +56423,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905040] = {
 		sink_limit = 1,
@@ -55504,7 +56480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905050] = {
 		sink_limit = 1,
@@ -55560,7 +56537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905060] = {
 		sink_limit = 1,
@@ -55616,7 +56594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905070] = {
 		sink_limit = 1,
@@ -55672,7 +56651,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905080] = {
 		sink_limit = 1,
@@ -55728,7 +56708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905090] = {
 		sink_limit = 1,
@@ -55784,7 +56765,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905100] = {
 		sink_limit = 1,
@@ -55836,7 +56818,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905110] = {
 		sink_limit = 1,
@@ -55888,7 +56871,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905120] = {
 		sink_limit = 1,
@@ -55940,7 +56924,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905210] = {
 		sink_limit = 1,
@@ -56000,7 +56985,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905211] = {
 		sink_limit = 1,
@@ -56060,7 +57046,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905212] = {
 		sink_limit = 1,
@@ -56120,7 +57107,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[905000] = {
 		sink_limit = 1,
@@ -56176,7 +57164,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001010] = {
 		sink_limit = 1,
@@ -56236,7 +57225,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001020] = {
 		sink_limit = 1,
@@ -56296,7 +57286,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001030] = {
 		sink_limit = 1,
@@ -56356,7 +57347,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001040] = {
 		sink_limit = 1,
@@ -56416,7 +57408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001050] = {
 		sink_limit = 1,
@@ -56476,7 +57469,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001060] = {
 		sink_limit = 1,
@@ -56536,7 +57530,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001070] = {
 		sink_limit = 1,
@@ -56596,7 +57591,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001080] = {
 		sink_limit = 1,
@@ -56656,7 +57652,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001090] = {
 		sink_limit = 1,
@@ -56716,7 +57713,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001100] = {
 		sink_limit = 1,
@@ -56768,7 +57766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001110] = {
 		sink_limit = 1,
@@ -56820,7 +57819,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001120] = {
 		sink_limit = 1,
@@ -56872,7 +57872,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001210] = {
 		sink_limit = 1,
@@ -56932,7 +57933,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001211] = {
 		sink_limit = 1,
@@ -56992,7 +57994,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001212] = {
 		sink_limit = 1,
@@ -57052,7 +58055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1001000] = {
 		sink_limit = 1,
@@ -57112,7 +58116,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002010] = {
 		sink_limit = 1,
@@ -57172,7 +58177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002020] = {
 		sink_limit = 1,
@@ -57232,7 +58238,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002030] = {
 		sink_limit = 1,
@@ -57292,7 +58299,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002040] = {
 		sink_limit = 1,
@@ -57352,7 +58360,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002050] = {
 		sink_limit = 1,
@@ -57412,7 +58421,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002060] = {
 		sink_limit = 1,
@@ -57472,7 +58482,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002070] = {
 		sink_limit = 1,
@@ -57532,7 +58543,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002080] = {
 		sink_limit = 1,
@@ -57592,7 +58604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002090] = {
 		sink_limit = 1,
@@ -57652,7 +58665,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002100] = {
 		sink_limit = 1,
@@ -57704,7 +58718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002110] = {
 		sink_limit = 1,
@@ -57756,7 +58771,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002120] = {
 		sink_limit = 1,
@@ -57808,7 +58824,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002210] = {
 		sink_limit = 1,
@@ -57868,7 +58885,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002211] = {
 		sink_limit = 1,
@@ -57928,7 +58946,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002212] = {
 		sink_limit = 1,
@@ -57988,7 +59007,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1002000] = {
 		sink_limit = 1,
@@ -58048,7 +59068,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003010] = {
 		sink_limit = 1,
@@ -58108,7 +59129,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003020] = {
 		sink_limit = 1,
@@ -58168,7 +59190,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003030] = {
 		sink_limit = 1,
@@ -58228,7 +59251,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003040] = {
 		sink_limit = 1,
@@ -58288,7 +59312,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003050] = {
 		sink_limit = 1,
@@ -58348,7 +59373,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003060] = {
 		sink_limit = 1,
@@ -58408,7 +59434,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003070] = {
 		sink_limit = 1,
@@ -58468,7 +59495,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003080] = {
 		sink_limit = 1,
@@ -58528,7 +59556,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003090] = {
 		sink_limit = 1,
@@ -58588,7 +59617,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003100] = {
 		sink_limit = 1,
@@ -58640,7 +59670,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003110] = {
 		sink_limit = 1,
@@ -58692,7 +59723,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003120] = {
 		sink_limit = 1,
@@ -58744,7 +59776,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003210] = {
 		sink_limit = 1,
@@ -58804,7 +59837,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003211] = {
 		sink_limit = 1,
@@ -58864,7 +59898,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003212] = {
 		sink_limit = 1,
@@ -58924,7 +59959,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1003000] = {
 		sink_limit = 1,
@@ -58984,7 +60020,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004010] = {
 		sink_limit = 1,
@@ -59044,7 +60081,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004020] = {
 		sink_limit = 1,
@@ -59104,7 +60142,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004030] = {
 		sink_limit = 1,
@@ -59164,7 +60203,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004040] = {
 		sink_limit = 1,
@@ -59224,7 +60264,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004050] = {
 		sink_limit = 1,
@@ -59284,7 +60325,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004060] = {
 		sink_limit = 1,
@@ -59344,7 +60386,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004070] = {
 		sink_limit = 1,
@@ -59404,7 +60447,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004080] = {
 		sink_limit = 1,
@@ -59464,7 +60508,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004090] = {
 		sink_limit = 1,
@@ -59524,7 +60569,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004100] = {
 		sink_limit = 1,
@@ -59576,7 +60622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004110] = {
 		sink_limit = 1,
@@ -59628,7 +60675,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004120] = {
 		sink_limit = 1,
@@ -59680,7 +60728,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004210] = {
 		sink_limit = 1,
@@ -59740,7 +60789,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004211] = {
 		sink_limit = 1,
@@ -59800,7 +60850,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004212] = {
 		sink_limit = 1,
@@ -59860,7 +60911,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1004000] = {
 		sink_limit = 1,
@@ -59920,7 +60972,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005010] = {
 		sink_limit = 1,
@@ -59976,7 +61029,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005020] = {
 		sink_limit = 1,
@@ -60032,7 +61086,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005030] = {
 		sink_limit = 1,
@@ -60088,7 +61143,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005040] = {
 		sink_limit = 1,
@@ -60144,7 +61200,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005050] = {
 		sink_limit = 1,
@@ -60200,7 +61257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005060] = {
 		sink_limit = 1,
@@ -60256,7 +61314,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005070] = {
 		sink_limit = 1,
@@ -60312,7 +61371,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005080] = {
 		sink_limit = 1,
@@ -60368,7 +61428,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005090] = {
 		sink_limit = 1,
@@ -60424,7 +61485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005100] = {
 		sink_limit = 1,
@@ -60476,7 +61538,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005110] = {
 		sink_limit = 1,
@@ -60528,7 +61591,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005120] = {
 		sink_limit = 1,
@@ -60580,7 +61644,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005210] = {
 		sink_limit = 1,
@@ -60640,7 +61705,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005211] = {
 		sink_limit = 1,
@@ -60700,7 +61766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005212] = {
 		sink_limit = 1,
@@ -60760,7 +61827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1005000] = {
 		sink_limit = 1,
@@ -60816,7 +61884,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101010] = {
 		sink_limit = 1,
@@ -60876,7 +61945,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101020] = {
 		sink_limit = 1,
@@ -60936,7 +62006,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101030] = {
 		sink_limit = 1,
@@ -60996,7 +62067,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101040] = {
 		sink_limit = 1,
@@ -61056,7 +62128,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101050] = {
 		sink_limit = 1,
@@ -61116,7 +62189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101060] = {
 		sink_limit = 1,
@@ -61176,7 +62250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101070] = {
 		sink_limit = 1,
@@ -61236,7 +62311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101080] = {
 		sink_limit = 1,
@@ -61296,7 +62372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101090] = {
 		sink_limit = 1,
@@ -61356,7 +62433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101100] = {
 		sink_limit = 1,
@@ -61408,7 +62486,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101110] = {
 		sink_limit = 1,
@@ -61460,7 +62539,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101120] = {
 		sink_limit = 1,
@@ -61512,7 +62592,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101210] = {
 		sink_limit = 1,
@@ -61572,7 +62653,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101211] = {
 		sink_limit = 1,
@@ -61632,7 +62714,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101212] = {
 		sink_limit = 1,
@@ -61692,7 +62775,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1101000] = {
 		sink_limit = 1,
@@ -61752,7 +62836,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102010] = {
 		sink_limit = 1,
@@ -61812,7 +62897,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102020] = {
 		sink_limit = 1,
@@ -61872,7 +62958,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102030] = {
 		sink_limit = 1,
@@ -61932,7 +63019,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102040] = {
 		sink_limit = 1,
@@ -61992,7 +63080,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102050] = {
 		sink_limit = 1,
@@ -62052,7 +63141,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102060] = {
 		sink_limit = 1,
@@ -62112,7 +63202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102070] = {
 		sink_limit = 1,
@@ -62172,7 +63263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102080] = {
 		sink_limit = 1,
@@ -62232,7 +63324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102090] = {
 		sink_limit = 1,
@@ -62292,7 +63385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102100] = {
 		sink_limit = 1,
@@ -62344,7 +63438,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102110] = {
 		sink_limit = 1,
@@ -62396,7 +63491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102120] = {
 		sink_limit = 1,
@@ -62448,7 +63544,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102210] = {
 		sink_limit = 1,
@@ -62508,7 +63605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102211] = {
 		sink_limit = 1,
@@ -62568,7 +63666,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102212] = {
 		sink_limit = 1,
@@ -62628,7 +63727,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1102000] = {
 		sink_limit = 1,
@@ -62688,7 +63788,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103010] = {
 		sink_limit = 1,
@@ -62748,7 +63849,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103020] = {
 		sink_limit = 1,
@@ -62808,7 +63910,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103030] = {
 		sink_limit = 1,
@@ -62868,7 +63971,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103040] = {
 		sink_limit = 1,
@@ -62928,7 +64032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103050] = {
 		sink_limit = 1,
@@ -62988,7 +64093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103060] = {
 		sink_limit = 1,
@@ -63048,7 +64154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103070] = {
 		sink_limit = 1,
@@ -63108,7 +64215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103080] = {
 		sink_limit = 1,
@@ -63168,7 +64276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103090] = {
 		sink_limit = 1,
@@ -63228,7 +64337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103100] = {
 		sink_limit = 1,
@@ -63280,7 +64390,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103110] = {
 		sink_limit = 1,
@@ -63332,7 +64443,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103120] = {
 		sink_limit = 1,
@@ -63384,7 +64496,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103210] = {
 		sink_limit = 1,
@@ -63444,7 +64557,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103211] = {
 		sink_limit = 1,
@@ -63504,7 +64618,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103212] = {
 		sink_limit = 1,
@@ -63564,7 +64679,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1103000] = {
 		sink_limit = 1,
@@ -63624,7 +64740,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104010] = {
 		sink_limit = 1,
@@ -63684,7 +64801,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104020] = {
 		sink_limit = 1,
@@ -63744,7 +64862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104030] = {
 		sink_limit = 1,
@@ -63804,7 +64923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104040] = {
 		sink_limit = 1,
@@ -63864,7 +64984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104050] = {
 		sink_limit = 1,
@@ -63924,7 +65045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104060] = {
 		sink_limit = 1,
@@ -63984,7 +65106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104070] = {
 		sink_limit = 1,
@@ -64044,7 +65167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104080] = {
 		sink_limit = 1,
@@ -64104,7 +65228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104090] = {
 		sink_limit = 1,
@@ -64164,7 +65289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104100] = {
 		sink_limit = 1,
@@ -64216,7 +65342,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104110] = {
 		sink_limit = 1,
@@ -64268,7 +65395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104120] = {
 		sink_limit = 1,
@@ -64320,7 +65448,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104210] = {
 		sink_limit = 1,
@@ -64380,7 +65509,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104211] = {
 		sink_limit = 1,
@@ -64440,7 +65570,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104212] = {
 		sink_limit = 1,
@@ -64500,7 +65631,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1104000] = {
 		sink_limit = 1,
@@ -64560,7 +65692,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105010] = {
 		sink_limit = 1,
@@ -64616,7 +65749,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105020] = {
 		sink_limit = 1,
@@ -64672,7 +65806,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105030] = {
 		sink_limit = 1,
@@ -64728,7 +65863,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105040] = {
 		sink_limit = 1,
@@ -64784,7 +65920,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105050] = {
 		sink_limit = 1,
@@ -64840,7 +65977,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105060] = {
 		sink_limit = 1,
@@ -64896,7 +66034,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105070] = {
 		sink_limit = 1,
@@ -64952,7 +66091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105080] = {
 		sink_limit = 1,
@@ -65008,7 +66148,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105090] = {
 		sink_limit = 1,
@@ -65064,7 +66205,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105100] = {
 		sink_limit = 1,
@@ -65116,7 +66258,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105110] = {
 		sink_limit = 1,
@@ -65168,7 +66311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105120] = {
 		sink_limit = 1,
@@ -65220,7 +66364,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105210] = {
 		sink_limit = 1,
@@ -65280,7 +66425,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105211] = {
 		sink_limit = 1,
@@ -65340,7 +66486,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105212] = {
 		sink_limit = 1,
@@ -65400,7 +66547,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1105000] = {
 		sink_limit = 1,
@@ -65456,7 +66604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201010] = {
 		sink_limit = 1,
@@ -65516,7 +66665,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201020] = {
 		sink_limit = 1,
@@ -65576,7 +66726,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201030] = {
 		sink_limit = 1,
@@ -65636,7 +66787,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201040] = {
 		sink_limit = 1,
@@ -65696,7 +66848,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201050] = {
 		sink_limit = 1,
@@ -65756,7 +66909,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201060] = {
 		sink_limit = 1,
@@ -65816,7 +66970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201070] = {
 		sink_limit = 1,
@@ -65876,7 +67031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201080] = {
 		sink_limit = 1,
@@ -65936,7 +67092,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201090] = {
 		sink_limit = 1,
@@ -65996,7 +67153,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201100] = {
 		sink_limit = 1,
@@ -66048,7 +67206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201110] = {
 		sink_limit = 1,
@@ -66100,7 +67259,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201120] = {
 		sink_limit = 1,
@@ -66152,7 +67312,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201210] = {
 		sink_limit = 1,
@@ -66212,7 +67373,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201211] = {
 		sink_limit = 1,
@@ -66272,7 +67434,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201212] = {
 		sink_limit = 1,
@@ -66332,7 +67495,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201000] = {
 		sink_limit = 1,
@@ -66392,7 +67556,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202010] = {
 		sink_limit = 1,
@@ -66452,7 +67617,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202020] = {
 		sink_limit = 1,
@@ -66512,7 +67678,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202030] = {
 		sink_limit = 1,
@@ -66572,7 +67739,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202040] = {
 		sink_limit = 1,
@@ -66632,7 +67800,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202050] = {
 		sink_limit = 1,
@@ -66692,7 +67861,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202060] = {
 		sink_limit = 1,
@@ -66752,7 +67922,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202070] = {
 		sink_limit = 1,
@@ -66812,7 +67983,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202080] = {
 		sink_limit = 1,
@@ -66872,7 +68044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202090] = {
 		sink_limit = 1,
@@ -66932,7 +68105,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202100] = {
 		sink_limit = 1,
@@ -66984,7 +68158,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202110] = {
 		sink_limit = 1,
@@ -67036,7 +68211,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202120] = {
 		sink_limit = 1,
@@ -67088,7 +68264,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202210] = {
 		sink_limit = 1,
@@ -67148,7 +68325,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202211] = {
 		sink_limit = 1,
@@ -67208,7 +68386,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202212] = {
 		sink_limit = 1,
@@ -67268,7 +68447,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1202000] = {
 		sink_limit = 1,
@@ -67328,7 +68508,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203010] = {
 		sink_limit = 1,
@@ -67388,7 +68569,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203020] = {
 		sink_limit = 1,
@@ -67448,7 +68630,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203030] = {
 		sink_limit = 1,
@@ -67508,7 +68691,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203040] = {
 		sink_limit = 1,
@@ -67568,7 +68752,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203050] = {
 		sink_limit = 1,
@@ -67628,7 +68813,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203060] = {
 		sink_limit = 1,
@@ -67688,7 +68874,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203070] = {
 		sink_limit = 1,
@@ -67748,7 +68935,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203080] = {
 		sink_limit = 1,
@@ -67808,7 +68996,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203090] = {
 		sink_limit = 1,
@@ -67868,7 +69057,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203100] = {
 		sink_limit = 1,
@@ -67920,7 +69110,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203110] = {
 		sink_limit = 1,
@@ -67972,7 +69163,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203120] = {
 		sink_limit = 1,
@@ -68024,7 +69216,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203210] = {
 		sink_limit = 1,
@@ -68084,7 +69277,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203211] = {
 		sink_limit = 1,
@@ -68144,7 +69338,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203212] = {
 		sink_limit = 1,
@@ -68204,7 +69399,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1203000] = {
 		sink_limit = 1,
@@ -68264,7 +69460,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204010] = {
 		sink_limit = 1,
@@ -68324,7 +69521,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204020] = {
 		sink_limit = 1,
@@ -68384,7 +69582,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204030] = {
 		sink_limit = 1,
@@ -68444,7 +69643,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204040] = {
 		sink_limit = 1,
@@ -68504,7 +69704,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204050] = {
 		sink_limit = 1,
@@ -68564,7 +69765,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204060] = {
 		sink_limit = 1,
@@ -68624,7 +69826,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204070] = {
 		sink_limit = 1,
@@ -68684,7 +69887,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204080] = {
 		sink_limit = 1,
@@ -68744,7 +69948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204090] = {
 		sink_limit = 1,
@@ -68804,7 +70009,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204100] = {
 		sink_limit = 1,
@@ -68856,7 +70062,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204110] = {
 		sink_limit = 1,
@@ -68908,7 +70115,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204120] = {
 		sink_limit = 1,
@@ -68960,7 +70168,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204210] = {
 		sink_limit = 1,
@@ -69020,7 +70229,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204211] = {
 		sink_limit = 1,
@@ -69080,7 +70290,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204212] = {
 		sink_limit = 1,
@@ -69140,7 +70351,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1204000] = {
 		sink_limit = 1,
@@ -69200,7 +70412,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205010] = {
 		sink_limit = 1,
@@ -69256,7 +70469,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205020] = {
 		sink_limit = 1,
@@ -69312,7 +70526,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205030] = {
 		sink_limit = 1,
@@ -69368,7 +70583,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205040] = {
 		sink_limit = 1,
@@ -69424,7 +70640,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205050] = {
 		sink_limit = 1,
@@ -69480,7 +70697,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205060] = {
 		sink_limit = 1,
@@ -69536,7 +70754,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205070] = {
 		sink_limit = 1,
@@ -69592,7 +70811,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205080] = {
 		sink_limit = 1,
@@ -69648,7 +70868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205090] = {
 		sink_limit = 1,
@@ -69704,7 +70925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205100] = {
 		sink_limit = 1,
@@ -69756,7 +70978,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205110] = {
 		sink_limit = 1,
@@ -69808,7 +71031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205120] = {
 		sink_limit = 1,
@@ -69860,7 +71084,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205210] = {
 		sink_limit = 1,
@@ -69920,7 +71145,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205211] = {
 		sink_limit = 1,
@@ -69980,7 +71206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205212] = {
 		sink_limit = 1,
@@ -70040,7 +71267,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1205000] = {
 		sink_limit = 1,
@@ -70096,7 +71324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301010] = {
 		sink_limit = 1,
@@ -70156,7 +71385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301020] = {
 		sink_limit = 1,
@@ -70216,7 +71446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301030] = {
 		sink_limit = 1,
@@ -70276,7 +71507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301040] = {
 		sink_limit = 1,
@@ -70336,7 +71568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301050] = {
 		sink_limit = 1,
@@ -70396,7 +71629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301060] = {
 		sink_limit = 1,
@@ -70456,7 +71690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301070] = {
 		sink_limit = 1,
@@ -70516,7 +71751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301080] = {
 		sink_limit = 1,
@@ -70576,7 +71812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301090] = {
 		sink_limit = 1,
@@ -70636,7 +71873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301100] = {
 		sink_limit = 1,
@@ -70688,7 +71926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301110] = {
 		sink_limit = 1,
@@ -70740,7 +71979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301120] = {
 		sink_limit = 1,
@@ -70792,7 +72032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301210] = {
 		sink_limit = 1,
@@ -70852,7 +72093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301211] = {
 		sink_limit = 1,
@@ -70912,7 +72154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301212] = {
 		sink_limit = 1,
@@ -70972,7 +72215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1301000] = {
 		sink_limit = 1,
@@ -71032,7 +72276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302010] = {
 		sink_limit = 1,
@@ -71092,7 +72337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302020] = {
 		sink_limit = 1,
@@ -71152,7 +72398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302030] = {
 		sink_limit = 1,
@@ -71212,7 +72459,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302040] = {
 		sink_limit = 1,
@@ -71272,7 +72520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302050] = {
 		sink_limit = 1,
@@ -71332,7 +72581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302060] = {
 		sink_limit = 1,
@@ -71392,7 +72642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302070] = {
 		sink_limit = 1,
@@ -71452,7 +72703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302080] = {
 		sink_limit = 1,
@@ -71512,7 +72764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302090] = {
 		sink_limit = 1,
@@ -71572,7 +72825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302100] = {
 		sink_limit = 1,
@@ -71624,7 +72878,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302110] = {
 		sink_limit = 1,
@@ -71676,7 +72931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302120] = {
 		sink_limit = 1,
@@ -71728,7 +72984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302210] = {
 		sink_limit = 1,
@@ -71788,7 +73045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302211] = {
 		sink_limit = 1,
@@ -71848,7 +73106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302212] = {
 		sink_limit = 1,
@@ -71908,7 +73167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1302000] = {
 		sink_limit = 1,
@@ -71968,7 +73228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303010] = {
 		sink_limit = 1,
@@ -72028,7 +73289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303020] = {
 		sink_limit = 1,
@@ -72088,7 +73350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303030] = {
 		sink_limit = 1,
@@ -72148,7 +73411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303040] = {
 		sink_limit = 1,
@@ -72208,7 +73472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303050] = {
 		sink_limit = 1,
@@ -72268,7 +73533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303060] = {
 		sink_limit = 1,
@@ -72328,7 +73594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303070] = {
 		sink_limit = 1,
@@ -72388,7 +73655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303080] = {
 		sink_limit = 1,
@@ -72448,7 +73716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303090] = {
 		sink_limit = 1,
@@ -72508,7 +73777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303100] = {
 		sink_limit = 1,
@@ -72560,7 +73830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303110] = {
 		sink_limit = 1,
@@ -72612,7 +73883,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303120] = {
 		sink_limit = 1,
@@ -72664,7 +73936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303210] = {
 		sink_limit = 1,
@@ -72724,7 +73997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303211] = {
 		sink_limit = 1,
@@ -72784,7 +74058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303212] = {
 		sink_limit = 1,
@@ -72844,7 +74119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1303000] = {
 		sink_limit = 1,
@@ -72904,7 +74180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304010] = {
 		sink_limit = 1,
@@ -72964,7 +74241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304020] = {
 		sink_limit = 1,
@@ -73024,7 +74302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304030] = {
 		sink_limit = 1,
@@ -73084,7 +74363,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304040] = {
 		sink_limit = 1,
@@ -73144,7 +74424,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304050] = {
 		sink_limit = 1,
@@ -73204,7 +74485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304060] = {
 		sink_limit = 1,
@@ -73264,7 +74546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304070] = {
 		sink_limit = 1,
@@ -73324,7 +74607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304080] = {
 		sink_limit = 1,
@@ -73384,7 +74668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304090] = {
 		sink_limit = 1,
@@ -73444,7 +74729,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304100] = {
 		sink_limit = 1,
@@ -73496,7 +74782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304110] = {
 		sink_limit = 1,
@@ -73548,7 +74835,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304120] = {
 		sink_limit = 1,
@@ -73600,7 +74888,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304210] = {
 		sink_limit = 1,
@@ -73660,7 +74949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304211] = {
 		sink_limit = 1,
@@ -73720,7 +75010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304212] = {
 		sink_limit = 1,
@@ -73780,7 +75071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1304000] = {
 		sink_limit = 1,
@@ -73840,7 +75132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305010] = {
 		sink_limit = 1,
@@ -73896,7 +75189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305020] = {
 		sink_limit = 1,
@@ -73952,7 +75246,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305030] = {
 		sink_limit = 1,
@@ -74008,7 +75303,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305040] = {
 		sink_limit = 1,
@@ -74064,7 +75360,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305050] = {
 		sink_limit = 1,
@@ -74120,7 +75417,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305060] = {
 		sink_limit = 1,
@@ -74176,7 +75474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305070] = {
 		sink_limit = 1,
@@ -74232,7 +75531,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305080] = {
 		sink_limit = 1,
@@ -74288,7 +75588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305090] = {
 		sink_limit = 1,
@@ -74344,7 +75645,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305100] = {
 		sink_limit = 1,
@@ -74396,7 +75698,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305110] = {
 		sink_limit = 1,
@@ -74448,7 +75751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305120] = {
 		sink_limit = 1,
@@ -74500,7 +75804,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305210] = {
 		sink_limit = 1,
@@ -74560,7 +75865,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305211] = {
 		sink_limit = 1,
@@ -74620,7 +75926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305212] = {
 		sink_limit = 1,
@@ -74680,7 +75987,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1305000] = {
 		sink_limit = 1,
@@ -74736,7 +76044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101010] = {
 		sink_limit = 1,
@@ -74796,7 +76105,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101011] = {
 		sink_limit = 1,
@@ -74856,7 +76166,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101012] = {
 		sink_limit = 1,
@@ -74916,7 +76227,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101020] = {
 		sink_limit = 1,
@@ -74976,7 +76288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101021] = {
 		sink_limit = 1,
@@ -75036,7 +76349,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101022] = {
 		sink_limit = 1,
@@ -75096,7 +76410,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101030] = {
 		sink_limit = 1,
@@ -75156,7 +76471,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101031] = {
 		sink_limit = 1,
@@ -75216,7 +76532,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101032] = {
 		sink_limit = 1,
@@ -75276,7 +76593,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101100] = {
 		sink_limit = 1,
@@ -75328,7 +76646,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101101] = {
 		sink_limit = 1,
@@ -75380,7 +76699,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101102] = {
 		sink_limit = 1,
@@ -75432,7 +76752,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101210] = {
 		sink_limit = 1,
@@ -75488,7 +76809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10101000] = {
 		sink_limit = 1,
@@ -75548,7 +76870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102010] = {
 		sink_limit = 1,
@@ -75608,7 +76931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102011] = {
 		sink_limit = 1,
@@ -75668,7 +76992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102012] = {
 		sink_limit = 1,
@@ -75728,7 +77053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102020] = {
 		sink_limit = 1,
@@ -75788,7 +77114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102021] = {
 		sink_limit = 1,
@@ -75848,7 +77175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102022] = {
 		sink_limit = 1,
@@ -75908,7 +77236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102030] = {
 		sink_limit = 1,
@@ -75968,7 +77297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102031] = {
 		sink_limit = 1,
@@ -76028,7 +77358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102032] = {
 		sink_limit = 1,
@@ -76088,7 +77419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102100] = {
 		sink_limit = 1,
@@ -76140,7 +77472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102101] = {
 		sink_limit = 1,
@@ -76192,7 +77525,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102102] = {
 		sink_limit = 1,
@@ -76244,7 +77578,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10210102] = {
 		sink_limit = 1,
@@ -76296,7 +77631,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102210] = {
 		sink_limit = 1,
@@ -76356,7 +77692,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10102000] = {
 		sink_limit = 1,
@@ -76416,7 +77753,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103010] = {
 		sink_limit = 1,
@@ -76476,7 +77814,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103011] = {
 		sink_limit = 1,
@@ -76536,7 +77875,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103012] = {
 		sink_limit = 1,
@@ -76596,7 +77936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103020] = {
 		sink_limit = 1,
@@ -76656,7 +77997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103021] = {
 		sink_limit = 1,
@@ -76716,7 +78058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103022] = {
 		sink_limit = 1,
@@ -76776,7 +78119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103030] = {
 		sink_limit = 1,
@@ -76836,7 +78180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103031] = {
 		sink_limit = 1,
@@ -76896,7 +78241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103032] = {
 		sink_limit = 1,
@@ -76956,7 +78302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103100] = {
 		sink_limit = 1,
@@ -77008,7 +78355,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103101] = {
 		sink_limit = 1,
@@ -77060,7 +78408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103102] = {
 		sink_limit = 1,
@@ -77112,7 +78461,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103110] = {
 		sink_limit = 1,
@@ -77164,7 +78514,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103111] = {
 		sink_limit = 1,
@@ -77216,7 +78567,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103112] = {
 		sink_limit = 1,
@@ -77268,7 +78620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103210] = {
 		sink_limit = 1,
@@ -77328,7 +78681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10103000] = {
 		sink_limit = 1,
@@ -77388,7 +78742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104010] = {
 		sink_limit = 1,
@@ -77448,7 +78803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104011] = {
 		sink_limit = 1,
@@ -77508,7 +78864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104012] = {
 		sink_limit = 1,
@@ -77568,7 +78925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104020] = {
 		sink_limit = 1,
@@ -77628,7 +78986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104021] = {
 		sink_limit = 1,
@@ -77688,7 +79047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104022] = {
 		sink_limit = 1,
@@ -77748,7 +79108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104030] = {
 		sink_limit = 1,
@@ -77808,7 +79169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104031] = {
 		sink_limit = 1,
@@ -77868,7 +79230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104032] = {
 		sink_limit = 1,
@@ -77928,7 +79291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104040] = {
 		sink_limit = 1,
@@ -77988,7 +79352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104041] = {
 		sink_limit = 1,
@@ -78048,7 +79413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104042] = {
 		sink_limit = 1,
@@ -78108,7 +79474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104070] = {
 		sink_limit = 1,
@@ -78168,7 +79535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104071] = {
 		sink_limit = 1,
@@ -78228,7 +79596,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104072] = {
 		sink_limit = 1,
@@ -78288,7 +79657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104073] = {
 		sink_limit = 1,
@@ -78348,7 +79718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104100] = {
 		sink_limit = 1,
@@ -78400,7 +79771,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104101] = {
 		sink_limit = 1,
@@ -78452,7 +79824,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104102] = {
 		sink_limit = 1,
@@ -78504,7 +79877,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104110] = {
 		sink_limit = 1,
@@ -78556,7 +79930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104111] = {
 		sink_limit = 1,
@@ -78608,7 +79983,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104112] = {
 		sink_limit = 1,
@@ -78660,7 +80036,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104120] = {
 		sink_limit = 1,
@@ -78712,7 +80089,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104121] = {
 		sink_limit = 1,
@@ -78764,7 +80142,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104122] = {
 		sink_limit = 1,
@@ -78816,7 +80195,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104210] = {
 		sink_limit = 1,
@@ -78876,7 +80256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10104000] = {
 		sink_limit = 1,
@@ -78936,7 +80317,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201010] = {
 		sink_limit = 1,
@@ -78996,7 +80378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201011] = {
 		sink_limit = 1,
@@ -79056,7 +80439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201012] = {
 		sink_limit = 1,
@@ -79116,7 +80500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201020] = {
 		sink_limit = 1,
@@ -79176,7 +80561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201021] = {
 		sink_limit = 1,
@@ -79236,7 +80622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201022] = {
 		sink_limit = 1,
@@ -79296,7 +80683,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201030] = {
 		sink_limit = 1,
@@ -79356,7 +80744,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201031] = {
 		sink_limit = 1,
@@ -79416,7 +80805,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201032] = {
 		sink_limit = 1,
@@ -79476,7 +80866,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201040] = {
 		sink_limit = 1,
@@ -79536,7 +80927,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201041] = {
 		sink_limit = 1,
@@ -79596,7 +80988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201042] = {
 		sink_limit = 1,
@@ -79656,7 +81049,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201050] = {
 		sink_limit = 1,
@@ -79716,7 +81110,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201051] = {
 		sink_limit = 1,
@@ -79776,7 +81171,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201052] = {
 		sink_limit = 1,
@@ -79836,7 +81232,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201060] = {
 		sink_limit = 1,
@@ -79896,7 +81293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201061] = {
 		sink_limit = 1,
@@ -79956,7 +81354,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201062] = {
 		sink_limit = 1,
@@ -80016,7 +81415,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201070] = {
 		sink_limit = 1,
@@ -80076,7 +81476,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201071] = {
 		sink_limit = 1,
@@ -80136,7 +81537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201072] = {
 		sink_limit = 1,
@@ -80196,7 +81598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201080] = {
 		sink_limit = 1,
@@ -80256,7 +81659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201081] = {
 		sink_limit = 1,
@@ -80316,7 +81720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201082] = {
 		sink_limit = 1,
@@ -80376,7 +81781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201090] = {
 		sink_limit = 1,
@@ -80436,7 +81842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201091] = {
 		sink_limit = 1,
@@ -80496,7 +81903,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201092] = {
 		sink_limit = 1,
@@ -80556,7 +81964,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201100] = {
 		sink_limit = 1,
@@ -80608,7 +82017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201101] = {
 		sink_limit = 1,
@@ -80660,7 +82070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201102] = {
 		sink_limit = 1,
@@ -80712,7 +82123,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201110] = {
 		sink_limit = 1,
@@ -80764,7 +82176,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201111] = {
 		sink_limit = 1,
@@ -80816,7 +82229,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201112] = {
 		sink_limit = 1,
@@ -80868,7 +82282,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201120] = {
 		sink_limit = 1,
@@ -80920,7 +82335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201121] = {
 		sink_limit = 1,
@@ -80972,7 +82388,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201122] = {
 		sink_limit = 1,
@@ -81024,7 +82441,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201210] = {
 		sink_limit = 1,
@@ -81084,7 +82502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201211] = {
 		sink_limit = 1,
@@ -81144,7 +82563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10201000] = {
 		sink_limit = 1,
@@ -81204,7 +82624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202010] = {
 		sink_limit = 1,
@@ -81264,7 +82685,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202011] = {
 		sink_limit = 1,
@@ -81324,7 +82746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202012] = {
 		sink_limit = 1,
@@ -81384,7 +82807,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202020] = {
 		sink_limit = 1,
@@ -81444,7 +82868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202021] = {
 		sink_limit = 1,
@@ -81504,7 +82929,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202022] = {
 		sink_limit = 1,
@@ -81564,7 +82990,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202030] = {
 		sink_limit = 1,
@@ -81624,7 +83051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202031] = {
 		sink_limit = 1,
@@ -81684,7 +83112,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202032] = {
 		sink_limit = 1,
@@ -81744,7 +83173,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202040] = {
 		sink_limit = 1,
@@ -81804,7 +83234,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202041] = {
 		sink_limit = 1,
@@ -81864,7 +83295,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202042] = {
 		sink_limit = 1,
@@ -81924,7 +83356,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202050] = {
 		sink_limit = 1,
@@ -81984,7 +83417,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202051] = {
 		sink_limit = 1,
@@ -82044,7 +83478,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202052] = {
 		sink_limit = 1,
@@ -82104,7 +83539,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202060] = {
 		sink_limit = 1,
@@ -82164,7 +83600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202061] = {
 		sink_limit = 1,
@@ -82224,7 +83661,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202062] = {
 		sink_limit = 1,
@@ -82284,7 +83722,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202070] = {
 		sink_limit = 1,
@@ -82344,7 +83783,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202071] = {
 		sink_limit = 1,
@@ -82404,7 +83844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202072] = {
 		sink_limit = 1,
@@ -82464,7 +83905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202080] = {
 		sink_limit = 1,
@@ -82524,7 +83966,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202081] = {
 		sink_limit = 1,
@@ -82584,7 +84027,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202082] = {
 		sink_limit = 1,
@@ -82644,7 +84088,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202090] = {
 		sink_limit = 1,
@@ -82704,7 +84149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202091] = {
 		sink_limit = 1,
@@ -82764,7 +84210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202092] = {
 		sink_limit = 1,
@@ -82824,7 +84271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202100] = {
 		sink_limit = 1,
@@ -82876,7 +84324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202101] = {
 		sink_limit = 1,
@@ -82928,7 +84377,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202102] = {
 		sink_limit = 1,
@@ -82980,7 +84430,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202110] = {
 		sink_limit = 1,
@@ -83032,7 +84483,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202111] = {
 		sink_limit = 1,
@@ -83084,7 +84536,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202112] = {
 		sink_limit = 1,
@@ -83136,7 +84589,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202120] = {
 		sink_limit = 1,
@@ -83188,7 +84642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202121] = {
 		sink_limit = 1,
@@ -83240,7 +84695,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202122] = {
 		sink_limit = 1,
@@ -83292,7 +84748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202210] = {
 		sink_limit = 1,
@@ -83352,7 +84809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202211] = {
 		sink_limit = 1,
@@ -83412,7 +84870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10202000] = {
 		sink_limit = 1,
@@ -83472,7 +84931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203010] = {
 		sink_limit = 1,
@@ -83532,7 +84992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203011] = {
 		sink_limit = 1,
@@ -83592,7 +85053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203012] = {
 		sink_limit = 1,
@@ -83652,7 +85114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203020] = {
 		sink_limit = 1,
@@ -83712,7 +85175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203021] = {
 		sink_limit = 1,
@@ -83772,7 +85236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203022] = {
 		sink_limit = 1,
@@ -83832,7 +85297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203030] = {
 		sink_limit = 1,
@@ -83892,7 +85358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203031] = {
 		sink_limit = 1,
@@ -83952,7 +85419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203032] = {
 		sink_limit = 1,
@@ -84012,7 +85480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203040] = {
 		sink_limit = 1,
@@ -84072,7 +85541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203041] = {
 		sink_limit = 1,
@@ -84132,7 +85602,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203042] = {
 		sink_limit = 1,
@@ -84192,7 +85663,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203050] = {
 		sink_limit = 1,
@@ -84252,7 +85724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203051] = {
 		sink_limit = 1,
@@ -84312,7 +85785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203052] = {
 		sink_limit = 1,
@@ -84372,7 +85846,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203060] = {
 		sink_limit = 1,
@@ -84432,7 +85907,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203061] = {
 		sink_limit = 1,
@@ -84492,7 +85968,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203062] = {
 		sink_limit = 1,
@@ -84552,7 +86029,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203070] = {
 		sink_limit = 1,
@@ -84612,7 +86090,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203071] = {
 		sink_limit = 1,
@@ -84672,7 +86151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203072] = {
 		sink_limit = 1,
@@ -84732,7 +86212,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203080] = {
 		sink_limit = 1,
@@ -84792,7 +86273,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203081] = {
 		sink_limit = 1,
@@ -84852,7 +86334,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203082] = {
 		sink_limit = 1,
@@ -84912,7 +86395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203090] = {
 		sink_limit = 1,
@@ -84972,7 +86456,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203091] = {
 		sink_limit = 1,
@@ -85032,7 +86517,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203092] = {
 		sink_limit = 1,
@@ -85092,7 +86578,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203100] = {
 		sink_limit = 1,
@@ -85144,7 +86631,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203101] = {
 		sink_limit = 1,
@@ -85196,7 +86684,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203102] = {
 		sink_limit = 1,
@@ -85248,7 +86737,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203110] = {
 		sink_limit = 1,
@@ -85300,7 +86790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203111] = {
 		sink_limit = 1,
@@ -85352,7 +86843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203112] = {
 		sink_limit = 1,
@@ -85404,7 +86896,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203120] = {
 		sink_limit = 1,
@@ -85456,7 +86949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203121] = {
 		sink_limit = 1,
@@ -85508,7 +87002,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203122] = {
 		sink_limit = 1,
@@ -85560,7 +87055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203210] = {
 		sink_limit = 1,
@@ -85620,7 +87116,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203211] = {
 		sink_limit = 1,
@@ -85680,7 +87177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10203000] = {
 		sink_limit = 1,
@@ -85740,7 +87238,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204010] = {
 		sink_limit = 1,
@@ -85800,7 +87299,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204011] = {
 		sink_limit = 1,
@@ -85860,7 +87360,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204012] = {
 		sink_limit = 1,
@@ -85920,7 +87421,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204020] = {
 		sink_limit = 1,
@@ -85980,7 +87482,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204021] = {
 		sink_limit = 1,
@@ -86040,7 +87543,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204022] = {
 		sink_limit = 1,
@@ -86100,7 +87604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204030] = {
 		sink_limit = 1,
@@ -86160,7 +87665,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204031] = {
 		sink_limit = 1,
@@ -86220,7 +87726,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204032] = {
 		sink_limit = 1,
@@ -86280,7 +87787,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204040] = {
 		sink_limit = 1,
@@ -86340,7 +87848,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204041] = {
 		sink_limit = 1,
@@ -86400,7 +87909,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204042] = {
 		sink_limit = 1,
@@ -86460,7 +87970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204050] = {
 		sink_limit = 1,
@@ -86520,7 +88031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204051] = {
 		sink_limit = 1,
@@ -86580,7 +88092,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204052] = {
 		sink_limit = 1,
@@ -86640,7 +88153,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204060] = {
 		sink_limit = 1,
@@ -86700,7 +88214,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204061] = {
 		sink_limit = 1,
@@ -86760,7 +88275,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204062] = {
 		sink_limit = 1,
@@ -86820,7 +88336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204070] = {
 		sink_limit = 1,
@@ -86880,7 +88397,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204071] = {
 		sink_limit = 1,
@@ -86940,7 +88458,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204072] = {
 		sink_limit = 1,
@@ -87000,7 +88519,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204080] = {
 		sink_limit = 1,
@@ -87060,7 +88580,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204081] = {
 		sink_limit = 1,
@@ -87120,7 +88641,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204082] = {
 		sink_limit = 1,
@@ -87180,7 +88702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204090] = {
 		sink_limit = 1,
@@ -87240,7 +88763,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204091] = {
 		sink_limit = 1,
@@ -87300,7 +88824,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204092] = {
 		sink_limit = 1,
@@ -87360,7 +88885,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204100] = {
 		sink_limit = 1,
@@ -87412,7 +88938,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204101] = {
 		sink_limit = 1,
@@ -87464,7 +88991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204102] = {
 		sink_limit = 1,
@@ -87516,7 +89044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204110] = {
 		sink_limit = 1,
@@ -87568,7 +89097,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204111] = {
 		sink_limit = 1,
@@ -87620,7 +89150,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204112] = {
 		sink_limit = 1,
@@ -87672,7 +89203,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204120] = {
 		sink_limit = 1,
@@ -87724,7 +89256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204121] = {
 		sink_limit = 1,
@@ -87776,7 +89309,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204122] = {
 		sink_limit = 1,
@@ -87828,7 +89362,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204210] = {
 		sink_limit = 1,
@@ -87888,7 +89423,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204211] = {
 		sink_limit = 1,
@@ -87948,7 +89484,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10204000] = {
 		sink_limit = 1,
@@ -88008,7 +89545,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301010] = {
 		sink_limit = 1,
@@ -88068,7 +89606,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301011] = {
 		sink_limit = 1,
@@ -88128,7 +89667,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301012] = {
 		sink_limit = 1,
@@ -88188,7 +89728,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301020] = {
 		sink_limit = 1,
@@ -88248,7 +89789,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301021] = {
 		sink_limit = 1,
@@ -88308,7 +89850,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301022] = {
 		sink_limit = 1,
@@ -88368,7 +89911,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301030] = {
 		sink_limit = 1,
@@ -88428,7 +89972,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301031] = {
 		sink_limit = 1,
@@ -88488,7 +90033,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301032] = {
 		sink_limit = 1,
@@ -88548,7 +90094,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301040] = {
 		sink_limit = 1,
@@ -88608,7 +90155,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301041] = {
 		sink_limit = 1,
@@ -88668,7 +90216,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301042] = {
 		sink_limit = 1,
@@ -88728,7 +90277,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301050] = {
 		sink_limit = 1,
@@ -88788,7 +90338,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301051] = {
 		sink_limit = 1,
@@ -88848,7 +90399,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301052] = {
 		sink_limit = 1,
@@ -88908,7 +90460,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301060] = {
 		sink_limit = 1,
@@ -88968,7 +90521,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301061] = {
 		sink_limit = 1,
@@ -89028,7 +90582,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301062] = {
 		sink_limit = 1,
@@ -89088,7 +90643,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301070] = {
 		sink_limit = 1,
@@ -89148,7 +90704,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301071] = {
 		sink_limit = 1,
@@ -89208,7 +90765,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301072] = {
 		sink_limit = 1,
@@ -89268,7 +90826,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301080] = {
 		sink_limit = 1,
@@ -89328,7 +90887,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301081] = {
 		sink_limit = 1,
@@ -89388,7 +90948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301082] = {
 		sink_limit = 1,
@@ -89448,7 +91009,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301090] = {
 		sink_limit = 1,
@@ -89508,7 +91070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301091] = {
 		sink_limit = 1,
@@ -89568,7 +91131,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301092] = {
 		sink_limit = 1,
@@ -89628,7 +91192,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301100] = {
 		sink_limit = 1,
@@ -89680,7 +91245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301101] = {
 		sink_limit = 1,
@@ -89732,7 +91298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301102] = {
 		sink_limit = 1,
@@ -89784,7 +91351,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301110] = {
 		sink_limit = 1,
@@ -89836,7 +91404,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301111] = {
 		sink_limit = 1,
@@ -89888,7 +91457,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301112] = {
 		sink_limit = 1,
@@ -89940,7 +91510,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301120] = {
 		sink_limit = 1,
@@ -89992,7 +91563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301121] = {
 		sink_limit = 1,
@@ -90044,7 +91616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301122] = {
 		sink_limit = 1,
@@ -90096,7 +91669,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301210] = {
 		sink_limit = 1,
@@ -90156,7 +91730,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301211] = {
 		sink_limit = 1,
@@ -90216,7 +91791,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301212] = {
 		sink_limit = 1,
@@ -90276,7 +91852,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10301000] = {
 		sink_limit = 1,
@@ -90336,7 +91913,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302010] = {
 		sink_limit = 1,
@@ -90396,7 +91974,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302011] = {
 		sink_limit = 1,
@@ -90456,7 +92035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302012] = {
 		sink_limit = 1,
@@ -90516,7 +92096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302020] = {
 		sink_limit = 1,
@@ -90576,7 +92157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302021] = {
 		sink_limit = 1,
@@ -90636,7 +92218,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302022] = {
 		sink_limit = 1,
@@ -90696,7 +92279,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302030] = {
 		sink_limit = 1,
@@ -90756,7 +92340,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302031] = {
 		sink_limit = 1,
@@ -90816,7 +92401,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302032] = {
 		sink_limit = 1,
@@ -90876,7 +92462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302040] = {
 		sink_limit = 1,
@@ -90936,7 +92523,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302041] = {
 		sink_limit = 1,
@@ -90996,7 +92584,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302042] = {
 		sink_limit = 1,
@@ -91056,7 +92645,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302050] = {
 		sink_limit = 1,
@@ -91116,7 +92706,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302051] = {
 		sink_limit = 1,
@@ -91176,7 +92767,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302052] = {
 		sink_limit = 1,
@@ -91236,7 +92828,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302060] = {
 		sink_limit = 1,
@@ -91296,7 +92889,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302061] = {
 		sink_limit = 1,
@@ -91356,7 +92950,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302062] = {
 		sink_limit = 1,
@@ -91416,7 +93011,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302070] = {
 		sink_limit = 1,
@@ -91476,7 +93072,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302071] = {
 		sink_limit = 1,
@@ -91536,7 +93133,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302072] = {
 		sink_limit = 1,
@@ -91596,7 +93194,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302080] = {
 		sink_limit = 1,
@@ -91656,7 +93255,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302081] = {
 		sink_limit = 1,
@@ -91716,7 +93316,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302082] = {
 		sink_limit = 1,
@@ -91776,7 +93377,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302090] = {
 		sink_limit = 1,
@@ -91836,7 +93438,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302091] = {
 		sink_limit = 1,
@@ -91896,7 +93499,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302092] = {
 		sink_limit = 1,
@@ -91956,7 +93560,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302100] = {
 		sink_limit = 1,
@@ -92008,7 +93613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302101] = {
 		sink_limit = 1,
@@ -92060,7 +93666,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302102] = {
 		sink_limit = 1,
@@ -92112,7 +93719,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302110] = {
 		sink_limit = 1,
@@ -92164,7 +93772,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302111] = {
 		sink_limit = 1,
@@ -92216,7 +93825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302112] = {
 		sink_limit = 1,
@@ -92268,7 +93878,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302120] = {
 		sink_limit = 1,
@@ -92320,7 +93931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302121] = {
 		sink_limit = 1,
@@ -92372,7 +93984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302122] = {
 		sink_limit = 1,
@@ -92424,7 +94037,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302210] = {
 		sink_limit = 1,
@@ -92484,7 +94098,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302211] = {
 		sink_limit = 1,
@@ -92544,7 +94159,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302212] = {
 		sink_limit = 1,
@@ -92604,7 +94220,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10302000] = {
 		sink_limit = 1,
@@ -92664,7 +94281,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303010] = {
 		sink_limit = 1,
@@ -92724,7 +94342,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303011] = {
 		sink_limit = 1,
@@ -92784,7 +94403,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303012] = {
 		sink_limit = 1,
@@ -92844,7 +94464,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303020] = {
 		sink_limit = 1,
@@ -92904,7 +94525,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303021] = {
 		sink_limit = 1,
@@ -92964,7 +94586,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303022] = {
 		sink_limit = 1,
@@ -93024,7 +94647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303030] = {
 		sink_limit = 1,
@@ -93084,7 +94708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303031] = {
 		sink_limit = 1,
@@ -93144,7 +94769,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303032] = {
 		sink_limit = 1,
@@ -93204,7 +94830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303040] = {
 		sink_limit = 1,
@@ -93264,7 +94891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303041] = {
 		sink_limit = 1,
@@ -93324,7 +94952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303042] = {
 		sink_limit = 1,
@@ -93384,7 +95013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303050] = {
 		sink_limit = 1,
@@ -93444,7 +95074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303051] = {
 		sink_limit = 1,
@@ -93504,7 +95135,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303052] = {
 		sink_limit = 1,
@@ -93564,7 +95196,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303060] = {
 		sink_limit = 1,
@@ -93624,7 +95257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303061] = {
 		sink_limit = 1,
@@ -93684,7 +95318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303062] = {
 		sink_limit = 1,
@@ -93744,7 +95379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303070] = {
 		sink_limit = 1,
@@ -93804,7 +95440,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303071] = {
 		sink_limit = 1,
@@ -93864,7 +95501,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303072] = {
 		sink_limit = 1,
@@ -93924,7 +95562,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303080] = {
 		sink_limit = 1,
@@ -93984,7 +95623,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303081] = {
 		sink_limit = 1,
@@ -94044,7 +95684,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303082] = {
 		sink_limit = 1,
@@ -94104,7 +95745,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303090] = {
 		sink_limit = 1,
@@ -94164,7 +95806,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303091] = {
 		sink_limit = 1,
@@ -94224,7 +95867,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303092] = {
 		sink_limit = 1,
@@ -94284,7 +95928,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303100] = {
 		sink_limit = 1,
@@ -94336,7 +95981,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303101] = {
 		sink_limit = 1,
@@ -94388,7 +96034,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303102] = {
 		sink_limit = 1,
@@ -94440,7 +96087,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303110] = {
 		sink_limit = 1,
@@ -94492,7 +96140,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303111] = {
 		sink_limit = 1,
@@ -94544,7 +96193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303112] = {
 		sink_limit = 1,
@@ -94596,7 +96246,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303120] = {
 		sink_limit = 1,
@@ -94648,7 +96299,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303121] = {
 		sink_limit = 1,
@@ -94700,7 +96352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303122] = {
 		sink_limit = 1,
@@ -94752,7 +96405,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303210] = {
 		sink_limit = 1,
@@ -94812,7 +96466,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303211] = {
 		sink_limit = 1,
@@ -94872,7 +96527,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303212] = {
 		sink_limit = 1,
@@ -94932,7 +96588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10303000] = {
 		sink_limit = 1,
@@ -94992,7 +96649,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304010] = {
 		sink_limit = 1,
@@ -95052,7 +96710,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304011] = {
 		sink_limit = 1,
@@ -95112,7 +96771,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304012] = {
 		sink_limit = 1,
@@ -95172,7 +96832,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304020] = {
 		sink_limit = 1,
@@ -95232,7 +96893,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304021] = {
 		sink_limit = 1,
@@ -95292,7 +96954,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304022] = {
 		sink_limit = 1,
@@ -95352,7 +97015,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304030] = {
 		sink_limit = 1,
@@ -95412,7 +97076,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304031] = {
 		sink_limit = 1,
@@ -95472,7 +97137,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304032] = {
 		sink_limit = 1,
@@ -95532,7 +97198,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304040] = {
 		sink_limit = 1,
@@ -95592,7 +97259,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304041] = {
 		sink_limit = 1,
@@ -95652,7 +97320,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304042] = {
 		sink_limit = 1,
@@ -95712,7 +97381,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304050] = {
 		sink_limit = 1,
@@ -95772,7 +97442,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304051] = {
 		sink_limit = 1,
@@ -95832,7 +97503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304052] = {
 		sink_limit = 1,
@@ -95892,7 +97564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304060] = {
 		sink_limit = 1,
@@ -95952,7 +97625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304061] = {
 		sink_limit = 1,
@@ -96012,7 +97686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304062] = {
 		sink_limit = 1,
@@ -96072,7 +97747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304070] = {
 		sink_limit = 1,
@@ -96132,7 +97808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304071] = {
 		sink_limit = 1,
@@ -96192,7 +97869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304072] = {
 		sink_limit = 1,
@@ -96252,7 +97930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304080] = {
 		sink_limit = 1,
@@ -96312,7 +97991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304081] = {
 		sink_limit = 1,
@@ -96372,7 +98052,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304082] = {
 		sink_limit = 1,
@@ -96432,7 +98113,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304090] = {
 		sink_limit = 1,
@@ -96492,7 +98174,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304091] = {
 		sink_limit = 1,
@@ -96552,7 +98235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304092] = {
 		sink_limit = 1,
@@ -96612,7 +98296,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304100] = {
 		sink_limit = 1,
@@ -96664,7 +98349,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304101] = {
 		sink_limit = 1,
@@ -96716,7 +98402,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304102] = {
 		sink_limit = 1,
@@ -96768,7 +98455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304110] = {
 		sink_limit = 1,
@@ -96820,7 +98508,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304111] = {
 		sink_limit = 1,
@@ -96872,7 +98561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304112] = {
 		sink_limit = 1,
@@ -96924,7 +98614,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304120] = {
 		sink_limit = 1,
@@ -96976,7 +98667,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304121] = {
 		sink_limit = 1,
@@ -97028,7 +98720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304122] = {
 		sink_limit = 1,
@@ -97080,7 +98773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304210] = {
 		sink_limit = 1,
@@ -97140,7 +98834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304211] = {
 		sink_limit = 1,
@@ -97200,7 +98895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304212] = {
 		sink_limit = 1,
@@ -97260,7 +98956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10304000] = {
 		sink_limit = 1,
@@ -97320,7 +99017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401010] = {
 		sink_limit = 1,
@@ -97380,7 +99078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401020] = {
 		sink_limit = 1,
@@ -97440,7 +99139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401030] = {
 		sink_limit = 1,
@@ -97500,7 +99200,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401040] = {
 		sink_limit = 1,
@@ -97560,7 +99261,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401050] = {
 		sink_limit = 1,
@@ -97620,7 +99322,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401060] = {
 		sink_limit = 1,
@@ -97680,7 +99383,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401070] = {
 		sink_limit = 1,
@@ -97740,7 +99444,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401080] = {
 		sink_limit = 1,
@@ -97800,7 +99505,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401090] = {
 		sink_limit = 1,
@@ -97860,7 +99566,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401100] = {
 		sink_limit = 1,
@@ -97912,7 +99619,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401110] = {
 		sink_limit = 1,
@@ -97964,7 +99672,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401120] = {
 		sink_limit = 1,
@@ -98016,7 +99725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401210] = {
 		sink_limit = 1,
@@ -98076,7 +99786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401211] = {
 		sink_limit = 1,
@@ -98136,7 +99847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401212] = {
 		sink_limit = 1,
@@ -98196,7 +99908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10401000] = {
 		sink_limit = 1,
@@ -98256,7 +99969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402010] = {
 		sink_limit = 1,
@@ -98316,7 +100030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402020] = {
 		sink_limit = 1,
@@ -98376,7 +100091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402030] = {
 		sink_limit = 1,
@@ -98436,7 +100152,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402040] = {
 		sink_limit = 1,
@@ -98496,7 +100213,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402050] = {
 		sink_limit = 1,
@@ -98556,7 +100274,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402060] = {
 		sink_limit = 1,
@@ -98616,7 +100335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402070] = {
 		sink_limit = 1,
@@ -98676,7 +100396,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402080] = {
 		sink_limit = 1,
@@ -98736,7 +100457,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402090] = {
 		sink_limit = 1,
@@ -98796,7 +100518,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402100] = {
 		sink_limit = 1,
@@ -98848,7 +100571,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402110] = {
 		sink_limit = 1,
@@ -98900,7 +100624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402120] = {
 		sink_limit = 1,
@@ -98952,7 +100677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402210] = {
 		sink_limit = 1,
@@ -99012,7 +100738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402211] = {
 		sink_limit = 1,
@@ -99072,7 +100799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402212] = {
 		sink_limit = 1,
@@ -99132,7 +100860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10402000] = {
 		sink_limit = 1,
@@ -99192,7 +100921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403010] = {
 		sink_limit = 1,
@@ -99252,7 +100982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403020] = {
 		sink_limit = 1,
@@ -99312,7 +101043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403030] = {
 		sink_limit = 1,
@@ -99372,7 +101104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403040] = {
 		sink_limit = 1,
@@ -99432,7 +101165,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403050] = {
 		sink_limit = 1,
@@ -99492,7 +101226,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403060] = {
 		sink_limit = 1,
@@ -99552,7 +101287,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403070] = {
 		sink_limit = 1,
@@ -99612,7 +101348,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403080] = {
 		sink_limit = 1,
@@ -99672,7 +101409,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403090] = {
 		sink_limit = 1,
@@ -99732,7 +101470,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403100] = {
 		sink_limit = 1,
@@ -99784,7 +101523,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403110] = {
 		sink_limit = 1,
@@ -99836,7 +101576,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403120] = {
 		sink_limit = 1,
@@ -99888,7 +101629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403210] = {
 		sink_limit = 1,
@@ -99948,7 +101690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403211] = {
 		sink_limit = 1,
@@ -100008,7 +101751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403212] = {
 		sink_limit = 1,
@@ -100068,7 +101812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10403000] = {
 		sink_limit = 1,
@@ -100128,7 +101873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404010] = {
 		sink_limit = 1,
@@ -100188,7 +101934,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404020] = {
 		sink_limit = 1,
@@ -100248,7 +101995,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404030] = {
 		sink_limit = 1,
@@ -100308,7 +102056,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404040] = {
 		sink_limit = 1,
@@ -100368,7 +102117,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404050] = {
 		sink_limit = 1,
@@ -100428,7 +102178,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404060] = {
 		sink_limit = 1,
@@ -100488,7 +102239,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404070] = {
 		sink_limit = 1,
@@ -100548,7 +102300,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404080] = {
 		sink_limit = 1,
@@ -100608,7 +102361,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404090] = {
 		sink_limit = 1,
@@ -100668,7 +102422,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404100] = {
 		sink_limit = 1,
@@ -100720,7 +102475,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404110] = {
 		sink_limit = 1,
@@ -100772,7 +102528,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404120] = {
 		sink_limit = 1,
@@ -100824,7 +102581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404210] = {
 		sink_limit = 1,
@@ -100884,7 +102642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404211] = {
 		sink_limit = 1,
@@ -100944,7 +102703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404212] = {
 		sink_limit = 1,
@@ -101004,7 +102764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10404000] = {
 		sink_limit = 1,
@@ -101064,7 +102825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501010] = {
 		sink_limit = 1,
@@ -101124,7 +102886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501020] = {
 		sink_limit = 1,
@@ -101184,7 +102947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501030] = {
 		sink_limit = 1,
@@ -101244,7 +103008,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501040] = {
 		sink_limit = 1,
@@ -101304,7 +103069,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501050] = {
 		sink_limit = 1,
@@ -101364,7 +103130,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501060] = {
 		sink_limit = 1,
@@ -101424,7 +103191,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501070] = {
 		sink_limit = 1,
@@ -101484,7 +103252,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501080] = {
 		sink_limit = 1,
@@ -101544,7 +103313,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501090] = {
 		sink_limit = 1,
@@ -101604,7 +103374,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501100] = {
 		sink_limit = 1,
@@ -101656,7 +103427,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501110] = {
 		sink_limit = 1,
@@ -101708,7 +103480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501120] = {
 		sink_limit = 1,
@@ -101760,7 +103533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501210] = {
 		sink_limit = 1,
@@ -101820,7 +103594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501211] = {
 		sink_limit = 1,
@@ -101880,7 +103655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501212] = {
 		sink_limit = 1,
@@ -101940,7 +103716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10501000] = {
 		sink_limit = 1,
@@ -102000,7 +103777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502010] = {
 		sink_limit = 1,
@@ -102060,7 +103838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502020] = {
 		sink_limit = 1,
@@ -102120,7 +103899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502030] = {
 		sink_limit = 1,
@@ -102180,7 +103960,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502040] = {
 		sink_limit = 1,
@@ -102240,7 +104021,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502050] = {
 		sink_limit = 1,
@@ -102300,7 +104082,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502060] = {
 		sink_limit = 1,
@@ -102360,7 +104143,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502070] = {
 		sink_limit = 1,
@@ -102420,7 +104204,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502080] = {
 		sink_limit = 1,
@@ -102480,7 +104265,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502090] = {
 		sink_limit = 1,
@@ -102540,7 +104326,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502100] = {
 		sink_limit = 1,
@@ -102592,7 +104379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502110] = {
 		sink_limit = 1,
@@ -102644,7 +104432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502120] = {
 		sink_limit = 1,
@@ -102696,7 +104485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502210] = {
 		sink_limit = 1,
@@ -102756,7 +104546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502211] = {
 		sink_limit = 1,
@@ -102816,7 +104607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502212] = {
 		sink_limit = 1,
@@ -102876,7 +104668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10502000] = {
 		sink_limit = 1,
@@ -102936,7 +104729,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503010] = {
 		sink_limit = 1,
@@ -102996,7 +104790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503020] = {
 		sink_limit = 1,
@@ -103056,7 +104851,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503030] = {
 		sink_limit = 1,
@@ -103116,7 +104912,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503040] = {
 		sink_limit = 1,
@@ -103176,7 +104973,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503050] = {
 		sink_limit = 1,
@@ -103236,7 +105034,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503060] = {
 		sink_limit = 1,
@@ -103296,7 +105095,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503070] = {
 		sink_limit = 1,
@@ -103356,7 +105156,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503080] = {
 		sink_limit = 1,
@@ -103416,7 +105217,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503090] = {
 		sink_limit = 1,
@@ -103476,7 +105278,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503100] = {
 		sink_limit = 1,
@@ -103528,7 +105331,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503110] = {
 		sink_limit = 1,
@@ -103580,7 +105384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503120] = {
 		sink_limit = 1,
@@ -103632,7 +105437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503210] = {
 		sink_limit = 1,
@@ -103692,7 +105498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503211] = {
 		sink_limit = 1,
@@ -103752,7 +105559,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503212] = {
 		sink_limit = 1,
@@ -103812,7 +105620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10503000] = {
 		sink_limit = 1,
@@ -103872,7 +105681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504010] = {
 		sink_limit = 1,
@@ -103932,7 +105742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504020] = {
 		sink_limit = 1,
@@ -103992,7 +105803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504030] = {
 		sink_limit = 1,
@@ -104052,7 +105864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504040] = {
 		sink_limit = 1,
@@ -104112,7 +105925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504050] = {
 		sink_limit = 1,
@@ -104172,7 +105986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504060] = {
 		sink_limit = 1,
@@ -104232,7 +106047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504070] = {
 		sink_limit = 1,
@@ -104292,7 +106108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504080] = {
 		sink_limit = 1,
@@ -104352,7 +106169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504090] = {
 		sink_limit = 1,
@@ -104412,7 +106230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504100] = {
 		sink_limit = 1,
@@ -104464,7 +106283,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504110] = {
 		sink_limit = 1,
@@ -104516,7 +106336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504120] = {
 		sink_limit = 1,
@@ -104568,7 +106389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504210] = {
 		sink_limit = 1,
@@ -104628,7 +106450,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504211] = {
 		sink_limit = 1,
@@ -104688,7 +106511,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504212] = {
 		sink_limit = 1,
@@ -104748,7 +106572,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10504000] = {
 		sink_limit = 1,
@@ -104808,7 +106633,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601010] = {
 		sink_limit = 1,
@@ -104868,7 +106694,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601020] = {
 		sink_limit = 1,
@@ -104928,7 +106755,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601030] = {
 		sink_limit = 1,
@@ -104988,7 +106816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601040] = {
 		sink_limit = 1,
@@ -105048,7 +106877,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601050] = {
 		sink_limit = 1,
@@ -105108,7 +106938,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601060] = {
 		sink_limit = 1,
@@ -105168,7 +106999,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601070] = {
 		sink_limit = 1,
@@ -105228,7 +107060,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601080] = {
 		sink_limit = 1,
@@ -105288,7 +107121,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601090] = {
 		sink_limit = 1,
@@ -105348,7 +107182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601100] = {
 		sink_limit = 1,
@@ -105400,7 +107235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601110] = {
 		sink_limit = 1,
@@ -105452,7 +107288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601120] = {
 		sink_limit = 1,
@@ -105504,7 +107341,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601210] = {
 		sink_limit = 1,
@@ -105564,7 +107402,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601211] = {
 		sink_limit = 1,
@@ -105624,7 +107463,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601212] = {
 		sink_limit = 1,
@@ -105684,7 +107524,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10601000] = {
 		sink_limit = 1,
@@ -105744,7 +107585,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602010] = {
 		sink_limit = 1,
@@ -105804,7 +107646,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602020] = {
 		sink_limit = 1,
@@ -105864,7 +107707,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602030] = {
 		sink_limit = 1,
@@ -105924,7 +107768,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602040] = {
 		sink_limit = 1,
@@ -105984,7 +107829,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602050] = {
 		sink_limit = 1,
@@ -106044,7 +107890,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602060] = {
 		sink_limit = 1,
@@ -106104,7 +107951,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602070] = {
 		sink_limit = 1,
@@ -106164,7 +108012,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602080] = {
 		sink_limit = 1,
@@ -106224,7 +108073,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602090] = {
 		sink_limit = 1,
@@ -106284,7 +108134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602100] = {
 		sink_limit = 1,
@@ -106336,7 +108187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602110] = {
 		sink_limit = 1,
@@ -106388,7 +108240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602120] = {
 		sink_limit = 1,
@@ -106440,7 +108293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602210] = {
 		sink_limit = 1,
@@ -106500,7 +108354,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602211] = {
 		sink_limit = 1,
@@ -106560,7 +108415,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602212] = {
 		sink_limit = 1,
@@ -106620,7 +108476,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10602000] = {
 		sink_limit = 1,
@@ -106680,7 +108537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603010] = {
 		sink_limit = 1,
@@ -106740,7 +108598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603020] = {
 		sink_limit = 1,
@@ -106800,7 +108659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603030] = {
 		sink_limit = 1,
@@ -106860,7 +108720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603040] = {
 		sink_limit = 1,
@@ -106920,7 +108781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603050] = {
 		sink_limit = 1,
@@ -106980,7 +108842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603060] = {
 		sink_limit = 1,
@@ -107040,7 +108903,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603070] = {
 		sink_limit = 1,
@@ -107100,7 +108964,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603080] = {
 		sink_limit = 1,
@@ -107160,7 +109025,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603090] = {
 		sink_limit = 1,
@@ -107220,7 +109086,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603100] = {
 		sink_limit = 1,
@@ -107272,7 +109139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603110] = {
 		sink_limit = 1,
@@ -107324,7 +109192,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603120] = {
 		sink_limit = 1,
@@ -107376,7 +109245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603210] = {
 		sink_limit = 1,
@@ -107436,7 +109306,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603211] = {
 		sink_limit = 1,
@@ -107496,7 +109367,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603212] = {
 		sink_limit = 1,
@@ -107556,7 +109428,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10603000] = {
 		sink_limit = 1,
@@ -107616,7 +109489,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604010] = {
 		sink_limit = 1,
@@ -107676,7 +109550,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604020] = {
 		sink_limit = 1,
@@ -107736,7 +109611,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604030] = {
 		sink_limit = 1,
@@ -107796,7 +109672,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604040] = {
 		sink_limit = 1,
@@ -107856,7 +109733,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604050] = {
 		sink_limit = 1,
@@ -107916,7 +109794,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604060] = {
 		sink_limit = 1,
@@ -107976,7 +109855,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604070] = {
 		sink_limit = 1,
@@ -108036,7 +109916,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604080] = {
 		sink_limit = 1,
@@ -108096,7 +109977,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604090] = {
 		sink_limit = 1,
@@ -108156,7 +110038,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604100] = {
 		sink_limit = 1,
@@ -108208,7 +110091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604110] = {
 		sink_limit = 1,
@@ -108260,7 +110144,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604120] = {
 		sink_limit = 1,
@@ -108312,7 +110197,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604210] = {
 		sink_limit = 1,
@@ -108372,7 +110258,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604211] = {
 		sink_limit = 1,
@@ -108432,7 +110319,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604212] = {
 		sink_limit = 1,
@@ -108492,7 +110380,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10604000] = {
 		sink_limit = 1,
@@ -108552,7 +110441,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701010] = {
 		sink_limit = 1,
@@ -108612,7 +110502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701020] = {
 		sink_limit = 1,
@@ -108672,7 +110563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701030] = {
 		sink_limit = 1,
@@ -108732,7 +110624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701040] = {
 		sink_limit = 1,
@@ -108792,7 +110685,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701050] = {
 		sink_limit = 1,
@@ -108852,7 +110746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701060] = {
 		sink_limit = 1,
@@ -108912,7 +110807,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701070] = {
 		sink_limit = 1,
@@ -108972,7 +110868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701080] = {
 		sink_limit = 1,
@@ -109032,7 +110929,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701090] = {
 		sink_limit = 1,
@@ -109092,7 +110990,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701100] = {
 		sink_limit = 1,
@@ -109144,7 +111043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701110] = {
 		sink_limit = 1,
@@ -109196,7 +111096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701120] = {
 		sink_limit = 1,
@@ -109248,7 +111149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701210] = {
 		sink_limit = 1,
@@ -109308,7 +111210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701211] = {
 		sink_limit = 1,
@@ -109368,7 +111271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701212] = {
 		sink_limit = 1,
@@ -109428,7 +111332,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10701000] = {
 		sink_limit = 1,
@@ -109488,7 +111393,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702010] = {
 		sink_limit = 1,
@@ -109548,7 +111454,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702020] = {
 		sink_limit = 1,
@@ -109608,7 +111515,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702030] = {
 		sink_limit = 1,
@@ -109668,7 +111576,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702040] = {
 		sink_limit = 1,
@@ -109728,7 +111637,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702050] = {
 		sink_limit = 1,
@@ -109788,7 +111698,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702060] = {
 		sink_limit = 1,
@@ -109848,7 +111759,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702070] = {
 		sink_limit = 1,
@@ -109908,7 +111820,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702080] = {
 		sink_limit = 1,
@@ -109968,7 +111881,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702090] = {
 		sink_limit = 1,
@@ -110028,7 +111942,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702100] = {
 		sink_limit = 1,
@@ -110080,7 +111995,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702110] = {
 		sink_limit = 1,
@@ -110132,7 +112048,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702120] = {
 		sink_limit = 1,
@@ -110184,7 +112101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702210] = {
 		sink_limit = 1,
@@ -110244,7 +112162,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702211] = {
 		sink_limit = 1,
@@ -110304,7 +112223,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702212] = {
 		sink_limit = 1,
@@ -110364,7 +112284,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10702000] = {
 		sink_limit = 1,
@@ -110424,7 +112345,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703010] = {
 		sink_limit = 1,
@@ -110484,7 +112406,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703020] = {
 		sink_limit = 1,
@@ -110544,7 +112467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703030] = {
 		sink_limit = 1,
@@ -110604,7 +112528,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703040] = {
 		sink_limit = 1,
@@ -110664,7 +112589,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703050] = {
 		sink_limit = 1,
@@ -110724,7 +112650,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703060] = {
 		sink_limit = 1,
@@ -110784,7 +112711,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703070] = {
 		sink_limit = 1,
@@ -110844,7 +112772,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703080] = {
 		sink_limit = 1,
@@ -110904,7 +112833,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703090] = {
 		sink_limit = 1,
@@ -110964,7 +112894,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703100] = {
 		sink_limit = 1,
@@ -111016,7 +112947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703110] = {
 		sink_limit = 1,
@@ -111068,7 +113000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703120] = {
 		sink_limit = 1,
@@ -111120,7 +113053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703210] = {
 		sink_limit = 1,
@@ -111180,7 +113114,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703211] = {
 		sink_limit = 1,
@@ -111240,7 +113175,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703212] = {
 		sink_limit = 1,
@@ -111300,7 +113236,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10703000] = {
 		sink_limit = 1,
@@ -111360,7 +113297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704010] = {
 		sink_limit = 1,
@@ -111420,7 +113358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704020] = {
 		sink_limit = 1,
@@ -111480,7 +113419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704030] = {
 		sink_limit = 1,
@@ -111540,7 +113480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704040] = {
 		sink_limit = 1,
@@ -111600,7 +113541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704050] = {
 		sink_limit = 1,
@@ -111660,7 +113602,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704060] = {
 		sink_limit = 1,
@@ -111720,7 +113663,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704070] = {
 		sink_limit = 1,
@@ -111780,7 +113724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704080] = {
 		sink_limit = 1,
@@ -111840,7 +113785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704090] = {
 		sink_limit = 1,
@@ -111900,7 +113846,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704100] = {
 		sink_limit = 1,
@@ -111952,7 +113899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704110] = {
 		sink_limit = 1,
@@ -112004,7 +113952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704120] = {
 		sink_limit = 1,
@@ -112056,7 +114005,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704210] = {
 		sink_limit = 1,
@@ -112116,7 +114066,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704211] = {
 		sink_limit = 1,
@@ -112176,7 +114127,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704212] = {
 		sink_limit = 1,
@@ -112236,7 +114188,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10704000] = {
 		sink_limit = 1,
@@ -112296,7 +114249,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801010] = {
 		sink_limit = 1,
@@ -112356,7 +114310,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801020] = {
 		sink_limit = 1,
@@ -112416,7 +114371,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801030] = {
 		sink_limit = 1,
@@ -112476,7 +114432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801040] = {
 		sink_limit = 1,
@@ -112536,7 +114493,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801050] = {
 		sink_limit = 1,
@@ -112596,7 +114554,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801060] = {
 		sink_limit = 1,
@@ -112656,7 +114615,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801070] = {
 		sink_limit = 1,
@@ -112716,7 +114676,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801080] = {
 		sink_limit = 1,
@@ -112776,7 +114737,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801090] = {
 		sink_limit = 1,
@@ -112836,7 +114798,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801100] = {
 		sink_limit = 1,
@@ -112888,7 +114851,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801110] = {
 		sink_limit = 1,
@@ -112940,7 +114904,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801120] = {
 		sink_limit = 1,
@@ -112992,7 +114957,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801210] = {
 		sink_limit = 1,
@@ -113052,7 +115018,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801211] = {
 		sink_limit = 1,
@@ -113112,7 +115079,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801212] = {
 		sink_limit = 1,
@@ -113172,7 +115140,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10801000] = {
 		sink_limit = 1,
@@ -113232,7 +115201,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802010] = {
 		sink_limit = 1,
@@ -113292,7 +115262,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802020] = {
 		sink_limit = 1,
@@ -113352,7 +115323,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802030] = {
 		sink_limit = 1,
@@ -113412,7 +115384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802040] = {
 		sink_limit = 1,
@@ -113472,7 +115445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802050] = {
 		sink_limit = 1,
@@ -113532,7 +115506,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802060] = {
 		sink_limit = 1,
@@ -113592,7 +115567,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802070] = {
 		sink_limit = 1,
@@ -113652,7 +115628,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802080] = {
 		sink_limit = 1,
@@ -113712,7 +115689,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802090] = {
 		sink_limit = 1,
@@ -113772,7 +115750,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802100] = {
 		sink_limit = 1,
@@ -113824,7 +115803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802110] = {
 		sink_limit = 1,
@@ -113876,7 +115856,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802120] = {
 		sink_limit = 1,
@@ -113928,7 +115909,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802210] = {
 		sink_limit = 1,
@@ -113988,7 +115970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802211] = {
 		sink_limit = 1,
@@ -114048,7 +116031,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802212] = {
 		sink_limit = 1,
@@ -114108,7 +116092,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10802000] = {
 		sink_limit = 1,
@@ -114168,7 +116153,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803010] = {
 		sink_limit = 1,
@@ -114228,7 +116214,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803020] = {
 		sink_limit = 1,
@@ -114288,7 +116275,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803030] = {
 		sink_limit = 1,
@@ -114348,7 +116336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803040] = {
 		sink_limit = 1,
@@ -114408,7 +116397,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803050] = {
 		sink_limit = 1,
@@ -114468,7 +116458,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803060] = {
 		sink_limit = 1,
@@ -114528,7 +116519,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803070] = {
 		sink_limit = 1,
@@ -114588,7 +116580,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803080] = {
 		sink_limit = 1,
@@ -114648,7 +116641,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803090] = {
 		sink_limit = 1,
@@ -114708,7 +116702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803100] = {
 		sink_limit = 1,
@@ -114760,7 +116755,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803110] = {
 		sink_limit = 1,
@@ -114812,7 +116808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803120] = {
 		sink_limit = 1,
@@ -114864,7 +116861,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803210] = {
 		sink_limit = 1,
@@ -114924,7 +116922,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803211] = {
 		sink_limit = 1,
@@ -114984,7 +116983,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803212] = {
 		sink_limit = 1,
@@ -115044,7 +117044,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10803000] = {
 		sink_limit = 1,
@@ -115104,7 +117105,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804010] = {
 		sink_limit = 1,
@@ -115164,7 +117166,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804020] = {
 		sink_limit = 1,
@@ -115224,7 +117227,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804030] = {
 		sink_limit = 1,
@@ -115284,7 +117288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804040] = {
 		sink_limit = 1,
@@ -115344,7 +117349,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804050] = {
 		sink_limit = 1,
@@ -115404,7 +117410,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804060] = {
 		sink_limit = 1,
@@ -115464,7 +117471,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804070] = {
 		sink_limit = 1,
@@ -115524,7 +117532,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804080] = {
 		sink_limit = 1,
@@ -115584,7 +117593,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804090] = {
 		sink_limit = 1,
@@ -115644,7 +117654,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804100] = {
 		sink_limit = 1,
@@ -115696,7 +117707,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804110] = {
 		sink_limit = 1,
@@ -115748,7 +117760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804120] = {
 		sink_limit = 1,
@@ -115800,7 +117813,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804210] = {
 		sink_limit = 1,
@@ -115860,7 +117874,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804211] = {
 		sink_limit = 1,
@@ -115920,7 +117935,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804212] = {
 		sink_limit = 1,
@@ -115980,7 +117996,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10804000] = {
 		sink_limit = 1,
@@ -116040,7 +118057,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901010] = {
 		sink_limit = 1,
@@ -116100,7 +118118,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901020] = {
 		sink_limit = 1,
@@ -116160,7 +118179,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901030] = {
 		sink_limit = 1,
@@ -116220,7 +118240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901040] = {
 		sink_limit = 1,
@@ -116280,7 +118301,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901050] = {
 		sink_limit = 1,
@@ -116340,7 +118362,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901060] = {
 		sink_limit = 1,
@@ -116400,7 +118423,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901070] = {
 		sink_limit = 1,
@@ -116460,7 +118484,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901080] = {
 		sink_limit = 1,
@@ -116520,7 +118545,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901090] = {
 		sink_limit = 1,
@@ -116580,7 +118606,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901100] = {
 		sink_limit = 1,
@@ -116632,7 +118659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901110] = {
 		sink_limit = 1,
@@ -116684,7 +118712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901120] = {
 		sink_limit = 1,
@@ -116736,7 +118765,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901210] = {
 		sink_limit = 1,
@@ -116796,7 +118826,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901211] = {
 		sink_limit = 1,
@@ -116856,7 +118887,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901212] = {
 		sink_limit = 1,
@@ -116916,7 +118948,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10901000] = {
 		sink_limit = 1,
@@ -116976,7 +119009,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902010] = {
 		sink_limit = 1,
@@ -117036,7 +119070,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902020] = {
 		sink_limit = 1,
@@ -117096,7 +119131,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902030] = {
 		sink_limit = 1,
@@ -117156,7 +119192,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902040] = {
 		sink_limit = 1,
@@ -117216,7 +119253,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902050] = {
 		sink_limit = 1,
@@ -117276,7 +119314,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902060] = {
 		sink_limit = 1,
@@ -117336,7 +119375,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902070] = {
 		sink_limit = 1,
@@ -117396,7 +119436,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902080] = {
 		sink_limit = 1,
@@ -117456,7 +119497,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902090] = {
 		sink_limit = 1,
@@ -117516,7 +119558,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902100] = {
 		sink_limit = 1,
@@ -117568,7 +119611,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902110] = {
 		sink_limit = 1,
@@ -117620,7 +119664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902120] = {
 		sink_limit = 1,
@@ -117672,7 +119717,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902210] = {
 		sink_limit = 1,
@@ -117732,7 +119778,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902211] = {
 		sink_limit = 1,
@@ -117792,7 +119839,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902212] = {
 		sink_limit = 1,
@@ -117852,7 +119900,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10902000] = {
 		sink_limit = 1,
@@ -117912,7 +119961,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903010] = {
 		sink_limit = 1,
@@ -117972,7 +120022,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903020] = {
 		sink_limit = 1,
@@ -118032,7 +120083,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903030] = {
 		sink_limit = 1,
@@ -118092,7 +120144,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903040] = {
 		sink_limit = 1,
@@ -118152,7 +120205,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903050] = {
 		sink_limit = 1,
@@ -118212,7 +120266,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903060] = {
 		sink_limit = 1,
@@ -118272,7 +120327,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903070] = {
 		sink_limit = 1,
@@ -118332,7 +120388,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903080] = {
 		sink_limit = 1,
@@ -118392,7 +120449,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903090] = {
 		sink_limit = 1,
@@ -118452,7 +120510,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903100] = {
 		sink_limit = 1,
@@ -118504,7 +120563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903110] = {
 		sink_limit = 1,
@@ -118556,7 +120616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903120] = {
 		sink_limit = 1,
@@ -118608,7 +120669,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903210] = {
 		sink_limit = 1,
@@ -118668,7 +120730,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903211] = {
 		sink_limit = 1,
@@ -118728,7 +120791,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903212] = {
 		sink_limit = 1,
@@ -118788,7 +120852,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10903000] = {
 		sink_limit = 1,
@@ -118848,7 +120913,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904010] = {
 		sink_limit = 1,
@@ -118908,7 +120974,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904020] = {
 		sink_limit = 1,
@@ -118968,7 +121035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904030] = {
 		sink_limit = 1,
@@ -119028,7 +121096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904040] = {
 		sink_limit = 1,
@@ -119088,7 +121157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904050] = {
 		sink_limit = 1,
@@ -119148,7 +121218,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904060] = {
 		sink_limit = 1,
@@ -119208,7 +121279,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904070] = {
 		sink_limit = 1,
@@ -119268,7 +121340,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904080] = {
 		sink_limit = 1,
@@ -119328,7 +121401,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904090] = {
 		sink_limit = 1,
@@ -119388,7 +121462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904100] = {
 		sink_limit = 1,
@@ -119440,7 +121515,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904110] = {
 		sink_limit = 1,
@@ -119492,7 +121568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904120] = {
 		sink_limit = 1,
@@ -119544,7 +121621,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904210] = {
 		sink_limit = 1,
@@ -119604,7 +121682,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904211] = {
 		sink_limit = 1,
@@ -119664,7 +121743,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904212] = {
 		sink_limit = 1,
@@ -119724,7 +121804,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[10904000] = {
 		sink_limit = 1,
@@ -119784,7 +121865,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000001] = {
 		sink_limit = 1,
@@ -119844,7 +121926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000002] = {
 		sink_limit = 1,
@@ -119904,7 +121987,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000003] = {
 		sink_limit = 1,
@@ -119964,7 +122048,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000004] = {
 		sink_limit = 1,
@@ -120024,7 +122109,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000005] = {
 		sink_limit = 1,
@@ -120084,7 +122170,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000006] = {
 		sink_limit = 1,
@@ -120144,7 +122231,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000007] = {
 		sink_limit = 1,
@@ -120204,7 +122292,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000008] = {
 		sink_limit = 1,
@@ -120264,7 +122353,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000009] = {
 		sink_limit = 1,
@@ -120324,7 +122414,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000010] = {
 		sink_limit = 1,
@@ -120376,7 +122467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000011] = {
 		sink_limit = 1,
@@ -120428,7 +122520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000012] = {
 		sink_limit = 1,
@@ -120480,7 +122573,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000013] = {
 		sink_limit = 1,
@@ -120540,7 +122634,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000014] = {
 		sink_limit = 1,
@@ -120600,7 +122695,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000015] = {
 		sink_limit = 1,
@@ -120660,7 +122756,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000016] = {
 		sink_limit = 1,
@@ -120720,7 +122817,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000017] = {
 		sink_limit = 1,
@@ -120780,7 +122878,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000018] = {
 		sink_limit = 1,
@@ -120840,7 +122939,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000019] = {
 		sink_limit = 1,
@@ -120900,7 +123000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000020] = {
 		sink_limit = 1,
@@ -120960,7 +123061,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000021] = {
 		sink_limit = 1,
@@ -121020,7 +123122,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000022] = {
 		sink_limit = 1,
@@ -121080,7 +123183,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000023] = {
 		sink_limit = 1,
@@ -121140,7 +123244,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000024] = {
 		sink_limit = 1,
@@ -121200,7 +123305,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000025] = {
 		sink_limit = 1,
@@ -121260,7 +123366,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000026] = {
 		sink_limit = 1,
@@ -121312,7 +123419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000027] = {
 		sink_limit = 1,
@@ -121364,7 +123472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000028] = {
 		sink_limit = 1,
@@ -121416,7 +123525,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000029] = {
 		sink_limit = 1,
@@ -121476,7 +123586,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000030] = {
 		sink_limit = 1,
@@ -121536,7 +123647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000031] = {
 		sink_limit = 1,
@@ -121596,7 +123708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000032] = {
 		sink_limit = 1,
@@ -121656,7 +123769,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000033] = {
 		sink_limit = 1,
@@ -121716,7 +123830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000034] = {
 		sink_limit = 1,
@@ -121776,7 +123891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000035] = {
 		sink_limit = 1,
@@ -121836,7 +123952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000036] = {
 		sink_limit = 1,
@@ -121896,7 +124013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000037] = {
 		sink_limit = 1,
@@ -121956,7 +124074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000038] = {
 		sink_limit = 1,
@@ -122016,7 +124135,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000039] = {
 		sink_limit = 1,
@@ -122076,7 +124196,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000040] = {
 		sink_limit = 1,
@@ -122136,7 +124257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000041] = {
 		sink_limit = 1,
@@ -122196,7 +124318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000042] = {
 		sink_limit = 1,
@@ -122248,7 +124371,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000043] = {
 		sink_limit = 1,
@@ -122300,7 +124424,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000044] = {
 		sink_limit = 1,
@@ -122352,7 +124477,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000045] = {
 		sink_limit = 1,
@@ -122412,7 +124538,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000046] = {
 		sink_limit = 1,
@@ -122472,7 +124599,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000047] = {
 		sink_limit = 1,
@@ -122532,7 +124660,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000048] = {
 		sink_limit = 1,
@@ -122592,7 +124721,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000049] = {
 		sink_limit = 1,
@@ -122652,7 +124782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000050] = {
 		sink_limit = 1,
@@ -122712,7 +124843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000051] = {
 		sink_limit = 1,
@@ -122772,7 +124904,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000052] = {
 		sink_limit = 1,
@@ -122832,7 +124965,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000053] = {
 		sink_limit = 1,
@@ -122892,7 +125026,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000054] = {
 		sink_limit = 1,
@@ -122952,7 +125087,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000055] = {
 		sink_limit = 1,
@@ -123012,7 +125148,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000056] = {
 		sink_limit = 1,
@@ -123072,7 +125209,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000057] = {
 		sink_limit = 1,
@@ -123132,7 +125270,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000058] = {
 		sink_limit = 1,
@@ -123184,7 +125323,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000059] = {
 		sink_limit = 1,
@@ -123236,7 +125376,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000060] = {
 		sink_limit = 1,
@@ -123288,7 +125429,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000061] = {
 		sink_limit = 1,
@@ -123348,7 +125490,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000062] = {
 		sink_limit = 1,
@@ -123408,7 +125551,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000063] = {
 		sink_limit = 1,
@@ -123468,7 +125612,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000064] = {
 		sink_limit = 1,
@@ -123528,7 +125673,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000065] = {
 		sink_limit = 1,
@@ -123588,7 +125734,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000066] = {
 		sink_limit = 1,
@@ -123648,7 +125795,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000067] = {
 		sink_limit = 1,
@@ -123708,7 +125856,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000068] = {
 		sink_limit = 1,
@@ -123768,7 +125917,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000069] = {
 		sink_limit = 1,
@@ -123828,7 +125978,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000070] = {
 		sink_limit = 1,
@@ -123888,7 +126039,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000071] = {
 		sink_limit = 1,
@@ -123948,7 +126100,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000072] = {
 		sink_limit = 1,
@@ -124008,7 +126161,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000073] = {
 		sink_limit = 1,
@@ -124068,7 +126222,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000074] = {
 		sink_limit = 1,
@@ -124120,7 +126275,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000075] = {
 		sink_limit = 1,
@@ -124172,7 +126328,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000076] = {
 		sink_limit = 1,
@@ -124224,7 +126381,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000077] = {
 		sink_limit = 1,
@@ -124284,7 +126442,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000078] = {
 		sink_limit = 1,
@@ -124344,7 +126503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000079] = {
 		sink_limit = 1,
@@ -124404,7 +126564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000080] = {
 		sink_limit = 1,
@@ -124464,7 +126625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000081] = {
 		sink_limit = 1,
@@ -124524,7 +126686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000082] = {
 		sink_limit = 1,
@@ -124584,7 +126747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000083] = {
 		sink_limit = 1,
@@ -124644,7 +126808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000084] = {
 		sink_limit = 1,
@@ -124704,7 +126869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000085] = {
 		sink_limit = 1,
@@ -124764,7 +126930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000086] = {
 		sink_limit = 1,
@@ -124824,7 +126991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000087] = {
 		sink_limit = 1,
@@ -124884,7 +127052,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000088] = {
 		sink_limit = 1,
@@ -124944,7 +127113,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000089] = {
 		sink_limit = 1,
@@ -125004,7 +127174,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000090] = {
 		sink_limit = 1,
@@ -125056,7 +127227,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000091] = {
 		sink_limit = 1,
@@ -125108,7 +127280,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000092] = {
 		sink_limit = 1,
@@ -125160,7 +127333,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000093] = {
 		sink_limit = 1,
@@ -125220,7 +127394,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000094] = {
 		sink_limit = 1,
@@ -125280,7 +127455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000095] = {
 		sink_limit = 1,
@@ -125340,7 +127516,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000096] = {
 		sink_limit = 1,
@@ -125400,7 +127577,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000097] = {
 		sink_limit = 1,
@@ -125460,7 +127638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000098] = {
 		sink_limit = 1,
@@ -125520,7 +127699,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000099] = {
 		sink_limit = 1,
@@ -125580,7 +127760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000100] = {
 		sink_limit = 1,
@@ -125640,7 +127821,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000101] = {
 		sink_limit = 1,
@@ -125700,7 +127882,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000102] = {
 		sink_limit = 1,
@@ -125760,7 +127943,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000103] = {
 		sink_limit = 1,
@@ -125820,7 +128004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000104] = {
 		sink_limit = 1,
@@ -125880,7 +128065,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000105] = {
 		sink_limit = 1,
@@ -125940,7 +128126,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000106] = {
 		sink_limit = 1,
@@ -125992,7 +128179,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000107] = {
 		sink_limit = 1,
@@ -126044,7 +128232,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000108] = {
 		sink_limit = 1,
@@ -126096,7 +128285,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000109] = {
 		sink_limit = 1,
@@ -126156,7 +128346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000110] = {
 		sink_limit = 1,
@@ -126216,7 +128407,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000111] = {
 		sink_limit = 1,
@@ -126276,7 +128468,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000112] = {
 		sink_limit = 1,
@@ -126336,7 +128529,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000113] = {
 		sink_limit = 1,
@@ -126396,7 +128590,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000114] = {
 		sink_limit = 1,
@@ -126456,7 +128651,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000115] = {
 		sink_limit = 1,
@@ -126516,7 +128712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000116] = {
 		sink_limit = 1,
@@ -126576,7 +128773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000117] = {
 		sink_limit = 1,
@@ -126636,7 +128834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000118] = {
 		sink_limit = 1,
@@ -126696,7 +128895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000119] = {
 		sink_limit = 1,
@@ -126756,7 +128956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000120] = {
 		sink_limit = 1,
@@ -126816,7 +129017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000121] = {
 		sink_limit = 1,
@@ -126876,7 +129078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000122] = {
 		sink_limit = 1,
@@ -126928,7 +129131,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000123] = {
 		sink_limit = 1,
@@ -126980,7 +129184,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000124] = {
 		sink_limit = 1,
@@ -127032,7 +129237,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000125] = {
 		sink_limit = 1,
@@ -127092,7 +129298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000126] = {
 		sink_limit = 1,
@@ -127152,7 +129359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000127] = {
 		sink_limit = 1,
@@ -127212,7 +129420,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000128] = {
 		sink_limit = 1,
@@ -127272,7 +129481,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000200] = {
 		sink_limit = 1,
@@ -127332,7 +129542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000201] = {
 		sink_limit = 1,
@@ -127392,7 +129603,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000202] = {
 		sink_limit = 1,
@@ -127452,7 +129664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000203] = {
 		sink_limit = 1,
@@ -127512,7 +129725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000204] = {
 		sink_limit = 1,
@@ -127572,7 +129786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000205] = {
 		sink_limit = 1,
@@ -127632,7 +129847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000206] = {
 		sink_limit = 1,
@@ -127692,7 +129908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000207] = {
 		sink_limit = 1,
@@ -127752,7 +129969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000208] = {
 		sink_limit = 1,
@@ -127812,7 +130030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000209] = {
 		sink_limit = 1,
@@ -127864,7 +130083,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000210] = {
 		sink_limit = 1,
@@ -127916,7 +130136,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000211] = {
 		sink_limit = 1,
@@ -127968,7 +130189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000212] = {
 		sink_limit = 1,
@@ -128028,7 +130250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000213] = {
 		sink_limit = 1,
@@ -128088,7 +130311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000214] = {
 		sink_limit = 1,
@@ -128148,7 +130372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000215] = {
 		sink_limit = 1,
@@ -128208,7 +130433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000216] = {
 		sink_limit = 1,
@@ -128268,7 +130494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000217] = {
 		sink_limit = 1,
@@ -128328,7 +130555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000218] = {
 		sink_limit = 1,
@@ -128388,7 +130616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000219] = {
 		sink_limit = 1,
@@ -128448,7 +130677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000220] = {
 		sink_limit = 1,
@@ -128508,7 +130738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000221] = {
 		sink_limit = 1,
@@ -128568,7 +130799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000222] = {
 		sink_limit = 1,
@@ -128628,7 +130860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000223] = {
 		sink_limit = 1,
@@ -128688,7 +130921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000224] = {
 		sink_limit = 1,
@@ -128748,7 +130982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000225] = {
 		sink_limit = 1,
@@ -128800,7 +131035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000226] = {
 		sink_limit = 1,
@@ -128852,7 +131088,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000227] = {
 		sink_limit = 1,
@@ -128904,7 +131141,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000228] = {
 		sink_limit = 1,
@@ -128964,7 +131202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000229] = {
 		sink_limit = 1,
@@ -129024,7 +131263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000230] = {
 		sink_limit = 1,
@@ -129084,7 +131324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000231] = {
 		sink_limit = 1,
@@ -129144,7 +131385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000232] = {
 		sink_limit = 1,
@@ -129204,7 +131446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000233] = {
 		sink_limit = 1,
@@ -129264,7 +131507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000234] = {
 		sink_limit = 1,
@@ -129324,7 +131568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000235] = {
 		sink_limit = 1,
@@ -129384,7 +131629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000236] = {
 		sink_limit = 1,
@@ -129444,7 +131690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000237] = {
 		sink_limit = 1,
@@ -129504,7 +131751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000238] = {
 		sink_limit = 1,
@@ -129564,7 +131812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000239] = {
 		sink_limit = 1,
@@ -129624,7 +131873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000240] = {
 		sink_limit = 1,
@@ -129684,7 +131934,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000241] = {
 		sink_limit = 1,
@@ -129736,7 +131987,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000242] = {
 		sink_limit = 1,
@@ -129788,7 +132040,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000243] = {
 		sink_limit = 1,
@@ -129840,7 +132093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000244] = {
 		sink_limit = 1,
@@ -129900,7 +132154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000245] = {
 		sink_limit = 1,
@@ -129960,7 +132215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000246] = {
 		sink_limit = 1,
@@ -130020,7 +132276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000247] = {
 		sink_limit = 1,
@@ -130080,7 +132337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000248] = {
 		sink_limit = 1,
@@ -130140,7 +132398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000249] = {
 		sink_limit = 1,
@@ -130200,7 +132459,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000250] = {
 		sink_limit = 1,
@@ -130260,7 +132520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000251] = {
 		sink_limit = 1,
@@ -130320,7 +132581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000252] = {
 		sink_limit = 1,
@@ -130380,7 +132642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000253] = {
 		sink_limit = 1,
@@ -130440,7 +132703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000254] = {
 		sink_limit = 1,
@@ -130500,7 +132764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000255] = {
 		sink_limit = 1,
@@ -130560,7 +132825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000256] = {
 		sink_limit = 1,
@@ -130620,7 +132886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000257] = {
 		sink_limit = 1,
@@ -130672,7 +132939,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000258] = {
 		sink_limit = 1,
@@ -130724,7 +132992,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000259] = {
 		sink_limit = 1,
@@ -130776,7 +133045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000260] = {
 		sink_limit = 1,
@@ -130836,7 +133106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000261] = {
 		sink_limit = 1,
@@ -130896,7 +133167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000262] = {
 		sink_limit = 1,
@@ -130956,7 +133228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000263] = {
 		sink_limit = 1,
@@ -131016,7 +133289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000264] = {
 		sink_limit = 1,
@@ -131076,7 +133350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000265] = {
 		sink_limit = 1,
@@ -131136,7 +133411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000266] = {
 		sink_limit = 1,
@@ -131196,7 +133472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000267] = {
 		sink_limit = 1,
@@ -131256,7 +133533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000268] = {
 		sink_limit = 1,
@@ -131316,7 +133594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000269] = {
 		sink_limit = 1,
@@ -131376,7 +133655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000270] = {
 		sink_limit = 1,
@@ -131436,7 +133716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000271] = {
 		sink_limit = 1,
@@ -131496,7 +133777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000272] = {
 		sink_limit = 1,
@@ -131556,7 +133838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000273] = {
 		sink_limit = 1,
@@ -131608,7 +133891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000274] = {
 		sink_limit = 1,
@@ -131660,7 +133944,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000275] = {
 		sink_limit = 1,
@@ -131712,7 +133997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000276] = {
 		sink_limit = 1,
@@ -131772,7 +134058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000277] = {
 		sink_limit = 1,
@@ -131832,7 +134119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000278] = {
 		sink_limit = 1,
@@ -131892,7 +134180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000279] = {
 		sink_limit = 1,
@@ -131952,7 +134241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000280] = {
 		sink_limit = 1,
@@ -132012,7 +134302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000281] = {
 		sink_limit = 1,
@@ -132072,7 +134363,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000282] = {
 		sink_limit = 1,
@@ -132132,7 +134424,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000283] = {
 		sink_limit = 1,
@@ -132192,7 +134485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000284] = {
 		sink_limit = 1,
@@ -132252,7 +134546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000285] = {
 		sink_limit = 1,
@@ -132312,7 +134607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000286] = {
 		sink_limit = 1,
@@ -132372,7 +134668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000287] = {
 		sink_limit = 1,
@@ -132432,7 +134729,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000288] = {
 		sink_limit = 1,
@@ -132492,7 +134790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000289] = {
 		sink_limit = 1,
@@ -132544,7 +134843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000290] = {
 		sink_limit = 1,
@@ -132596,7 +134896,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000291] = {
 		sink_limit = 1,
@@ -132648,7 +134949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000292] = {
 		sink_limit = 1,
@@ -132708,7 +135010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000293] = {
 		sink_limit = 1,
@@ -132768,7 +135071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000294] = {
 		sink_limit = 1,
@@ -132828,7 +135132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000295] = {
 		sink_limit = 1,
@@ -132888,7 +135193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000296] = {
 		sink_limit = 1,
@@ -132948,7 +135254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000297] = {
 		sink_limit = 1,
@@ -133008,7 +135315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000298] = {
 		sink_limit = 1,
@@ -133068,7 +135376,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000299] = {
 		sink_limit = 1,
@@ -133128,7 +135437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000300] = {
 		sink_limit = 1,
@@ -133188,7 +135498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000301] = {
 		sink_limit = 1,
@@ -133248,7 +135559,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000302] = {
 		sink_limit = 1,
@@ -133308,7 +135620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000303] = {
 		sink_limit = 1,
@@ -133368,7 +135681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000304] = {
 		sink_limit = 1,
@@ -133428,7 +135742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000305] = {
 		sink_limit = 1,
@@ -133480,7 +135795,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000306] = {
 		sink_limit = 1,
@@ -133532,7 +135848,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000307] = {
 		sink_limit = 1,
@@ -133584,7 +135901,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000308] = {
 		sink_limit = 1,
@@ -133644,7 +135962,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000309] = {
 		sink_limit = 1,
@@ -133704,7 +136023,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000310] = {
 		sink_limit = 1,
@@ -133764,7 +136084,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000311] = {
 		sink_limit = 1,
@@ -133824,7 +136145,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000312] = {
 		sink_limit = 1,
@@ -133884,7 +136206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000313] = {
 		sink_limit = 1,
@@ -133944,7 +136267,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000314] = {
 		sink_limit = 1,
@@ -134004,7 +136328,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000315] = {
 		sink_limit = 1,
@@ -134064,7 +136389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000316] = {
 		sink_limit = 1,
@@ -134124,7 +136450,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000317] = {
 		sink_limit = 1,
@@ -134184,7 +136511,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000318] = {
 		sink_limit = 1,
@@ -134244,7 +136572,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000319] = {
 		sink_limit = 1,
@@ -134304,7 +136633,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000320] = {
 		sink_limit = 1,
@@ -134364,7 +136694,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000321] = {
 		sink_limit = 1,
@@ -134416,7 +136747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000322] = {
 		sink_limit = 1,
@@ -134468,7 +136800,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000323] = {
 		sink_limit = 1,
@@ -134520,7 +136853,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000324] = {
 		sink_limit = 1,
@@ -134580,7 +136914,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000325] = {
 		sink_limit = 1,
@@ -134640,7 +136975,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000326] = {
 		sink_limit = 1,
@@ -134700,7 +137036,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000327] = {
 		sink_limit = 1,
@@ -134760,7 +137097,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1000331] = {
 		sink_limit = 1,
@@ -134799,7 +137137,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1010010] = {
 		sink_limit = 1,
@@ -134859,7 +137198,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010020] = {
 		sink_limit = 1,
@@ -134919,7 +137259,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010030] = {
 		sink_limit = 1,
@@ -134979,7 +137320,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010040] = {
 		sink_limit = 1,
@@ -135039,7 +137381,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010050] = {
 		sink_limit = 1,
@@ -135099,7 +137442,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010060] = {
 		sink_limit = 1,
@@ -135159,7 +137503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010070] = {
 		sink_limit = 1,
@@ -135219,7 +137564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010080] = {
 		sink_limit = 1,
@@ -135279,7 +137625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010090] = {
 		sink_limit = 1,
@@ -135339,7 +137686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010100] = {
 		sink_limit = 1,
@@ -135391,7 +137739,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010110] = {
 		sink_limit = 1,
@@ -135443,7 +137792,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010120] = {
 		sink_limit = 1,
@@ -135495,7 +137845,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010210] = {
 		sink_limit = 1,
@@ -135555,7 +137906,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010211] = {
 		sink_limit = 1,
@@ -135615,7 +137967,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010212] = {
 		sink_limit = 1,
@@ -135675,7 +138028,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1010500] = {
 		sink_limit = 1,
@@ -135735,7 +138089,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011010] = {
 		sink_limit = 1,
@@ -135795,7 +138150,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011020] = {
 		sink_limit = 1,
@@ -135855,7 +138211,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011030] = {
 		sink_limit = 1,
@@ -135915,7 +138272,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011040] = {
 		sink_limit = 1,
@@ -135975,7 +138333,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011050] = {
 		sink_limit = 1,
@@ -136035,7 +138394,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011060] = {
 		sink_limit = 1,
@@ -136095,7 +138455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011070] = {
 		sink_limit = 1,
@@ -136155,7 +138516,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011080] = {
 		sink_limit = 1,
@@ -136215,7 +138577,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011090] = {
 		sink_limit = 1,
@@ -136275,7 +138638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011100] = {
 		sink_limit = 1,
@@ -136327,7 +138691,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011110] = {
 		sink_limit = 1,
@@ -136379,7 +138744,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011120] = {
 		sink_limit = 1,
@@ -136431,7 +138797,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011210] = {
 		sink_limit = 1,
@@ -136491,7 +138858,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011211] = {
 		sink_limit = 1,
@@ -136551,7 +138919,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011212] = {
 		sink_limit = 1,
@@ -136611,7 +138980,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1011500] = {
 		sink_limit = 1,
@@ -136671,7 +139041,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012010] = {
 		sink_limit = 1,
@@ -136731,7 +139102,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012020] = {
 		sink_limit = 1,
@@ -136791,7 +139163,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012030] = {
 		sink_limit = 1,
@@ -136851,7 +139224,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012040] = {
 		sink_limit = 1,
@@ -136911,7 +139285,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012050] = {
 		sink_limit = 1,
@@ -136971,7 +139346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012060] = {
 		sink_limit = 1,
@@ -137031,7 +139407,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012070] = {
 		sink_limit = 1,
@@ -137091,7 +139468,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012080] = {
 		sink_limit = 1,
@@ -137151,7 +139529,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012090] = {
 		sink_limit = 1,
@@ -137211,7 +139590,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012100] = {
 		sink_limit = 1,
@@ -137263,7 +139643,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012110] = {
 		sink_limit = 1,
@@ -137315,7 +139696,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012120] = {
 		sink_limit = 1,
@@ -137367,7 +139749,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012210] = {
 		sink_limit = 1,
@@ -137427,7 +139810,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012211] = {
 		sink_limit = 1,
@@ -137487,7 +139871,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012212] = {
 		sink_limit = 1,
@@ -137547,7 +139932,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1012500] = {
 		sink_limit = 1,
@@ -137607,7 +139993,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020010] = {
 		sink_limit = 1,
@@ -137667,7 +140054,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020020] = {
 		sink_limit = 1,
@@ -137727,7 +140115,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020030] = {
 		sink_limit = 1,
@@ -137787,7 +140176,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020040] = {
 		sink_limit = 1,
@@ -137847,7 +140237,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020050] = {
 		sink_limit = 1,
@@ -137907,7 +140298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020060] = {
 		sink_limit = 1,
@@ -137967,7 +140359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020070] = {
 		sink_limit = 1,
@@ -138027,7 +140420,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020080] = {
 		sink_limit = 1,
@@ -138087,7 +140481,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020090] = {
 		sink_limit = 1,
@@ -138147,7 +140542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020100] = {
 		sink_limit = 1,
@@ -138199,7 +140595,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020110] = {
 		sink_limit = 1,
@@ -138251,7 +140648,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020120] = {
 		sink_limit = 1,
@@ -138303,7 +140701,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020210] = {
 		sink_limit = 1,
@@ -138363,7 +140762,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020211] = {
 		sink_limit = 1,
@@ -138423,7 +140823,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020212] = {
 		sink_limit = 1,
@@ -138483,7 +140884,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1020500] = {
 		sink_limit = 1,
@@ -138543,7 +140945,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021010] = {
 		sink_limit = 1,
@@ -138603,7 +141006,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021020] = {
 		sink_limit = 1,
@@ -138663,7 +141067,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021030] = {
 		sink_limit = 1,
@@ -138723,7 +141128,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021040] = {
 		sink_limit = 1,
@@ -138783,7 +141189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021050] = {
 		sink_limit = 1,
@@ -138843,7 +141250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021060] = {
 		sink_limit = 1,
@@ -138903,7 +141311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021070] = {
 		sink_limit = 1,
@@ -138963,7 +141372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021080] = {
 		sink_limit = 1,
@@ -139023,7 +141433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021090] = {
 		sink_limit = 1,
@@ -139083,7 +141494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021100] = {
 		sink_limit = 1,
@@ -139135,7 +141547,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021110] = {
 		sink_limit = 1,
@@ -139187,7 +141600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021120] = {
 		sink_limit = 1,
@@ -139239,7 +141653,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021210] = {
 		sink_limit = 1,
@@ -139299,7 +141714,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021211] = {
 		sink_limit = 1,
@@ -139359,7 +141775,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021212] = {
 		sink_limit = 1,
@@ -139419,7 +141836,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1021500] = {
 		sink_limit = 1,
@@ -139479,7 +141897,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022010] = {
 		sink_limit = 1,
@@ -139539,7 +141958,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022020] = {
 		sink_limit = 1,
@@ -139599,7 +142019,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022030] = {
 		sink_limit = 1,
@@ -139659,7 +142080,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022040] = {
 		sink_limit = 1,
@@ -139719,7 +142141,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022050] = {
 		sink_limit = 1,
@@ -139779,7 +142202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022060] = {
 		sink_limit = 1,
@@ -139839,7 +142263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022070] = {
 		sink_limit = 1,
@@ -139899,7 +142324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022080] = {
 		sink_limit = 1,
@@ -139959,7 +142385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022090] = {
 		sink_limit = 1,
@@ -140019,7 +142446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022100] = {
 		sink_limit = 1,
@@ -140071,7 +142499,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022110] = {
 		sink_limit = 1,
@@ -140123,7 +142552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022120] = {
 		sink_limit = 1,
@@ -140175,7 +142605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022210] = {
 		sink_limit = 1,
@@ -140235,7 +142666,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022211] = {
 		sink_limit = 1,
@@ -140295,7 +142727,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022212] = {
 		sink_limit = 1,
@@ -140355,7 +142788,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1022500] = {
 		sink_limit = 1,
@@ -140415,7 +142849,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030001] = {
 		sink_limit = 1,
@@ -140475,7 +142910,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030002] = {
 		sink_limit = 1,
@@ -140535,7 +142971,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030003] = {
 		sink_limit = 1,
@@ -140595,7 +143032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030004] = {
 		sink_limit = 1,
@@ -140655,7 +143093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030005] = {
 		sink_limit = 1,
@@ -140715,7 +143154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030006] = {
 		sink_limit = 1,
@@ -140775,7 +143215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030007] = {
 		sink_limit = 1,
@@ -140835,7 +143276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030008] = {
 		sink_limit = 1,
@@ -140895,7 +143337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030009] = {
 		sink_limit = 1,
@@ -140955,7 +143398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030010] = {
 		sink_limit = 1,
@@ -141007,7 +143451,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030011] = {
 		sink_limit = 1,
@@ -141059,7 +143504,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030012] = {
 		sink_limit = 1,
@@ -141111,7 +143557,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030013] = {
 		sink_limit = 1,
@@ -141171,7 +143618,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030014] = {
 		sink_limit = 1,
@@ -141231,7 +143679,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030015] = {
 		sink_limit = 1,
@@ -141291,7 +143740,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030016] = {
 		sink_limit = 1,
@@ -141351,7 +143801,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030017] = {
 		sink_limit = 1,
@@ -141411,7 +143862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030018] = {
 		sink_limit = 1,
@@ -141471,7 +143923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030019] = {
 		sink_limit = 1,
@@ -141531,7 +143984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030020] = {
 		sink_limit = 1,
@@ -141591,7 +144045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030021] = {
 		sink_limit = 1,
@@ -141651,7 +144106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030022] = {
 		sink_limit = 1,
@@ -141711,7 +144167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030023] = {
 		sink_limit = 1,
@@ -141771,7 +144228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030024] = {
 		sink_limit = 1,
@@ -141831,7 +144289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030025] = {
 		sink_limit = 1,
@@ -141891,7 +144350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030026] = {
 		sink_limit = 1,
@@ -141943,7 +144403,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030027] = {
 		sink_limit = 1,
@@ -141995,7 +144456,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030028] = {
 		sink_limit = 1,
@@ -142047,7 +144509,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030029] = {
 		sink_limit = 1,
@@ -142107,7 +144570,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030030] = {
 		sink_limit = 1,
@@ -142167,7 +144631,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030031] = {
 		sink_limit = 1,
@@ -142227,7 +144692,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030032] = {
 		sink_limit = 1,
@@ -142287,7 +144753,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030033] = {
 		sink_limit = 1,
@@ -142347,7 +144814,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030034] = {
 		sink_limit = 1,
@@ -142407,7 +144875,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030035] = {
 		sink_limit = 1,
@@ -142467,7 +144936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030036] = {
 		sink_limit = 1,
@@ -142527,7 +144997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030037] = {
 		sink_limit = 1,
@@ -142587,7 +145058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030038] = {
 		sink_limit = 1,
@@ -142647,7 +145119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030039] = {
 		sink_limit = 1,
@@ -142707,7 +145180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030040] = {
 		sink_limit = 1,
@@ -142767,7 +145241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030041] = {
 		sink_limit = 1,
@@ -142827,7 +145302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030042] = {
 		sink_limit = 1,
@@ -142879,7 +145355,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030043] = {
 		sink_limit = 1,
@@ -142931,7 +145408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030044] = {
 		sink_limit = 1,
@@ -142983,7 +145461,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030045] = {
 		sink_limit = 1,
@@ -143043,7 +145522,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030046] = {
 		sink_limit = 1,
@@ -143103,7 +145583,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030047] = {
 		sink_limit = 1,
@@ -143163,7 +145644,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030048] = {
 		sink_limit = 1,
@@ -143223,7 +145705,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030049] = {
 		sink_limit = 1,
@@ -143283,7 +145766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030050] = {
 		sink_limit = 1,
@@ -143343,7 +145827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030051] = {
 		sink_limit = 1,
@@ -143403,7 +145888,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030052] = {
 		sink_limit = 1,
@@ -143463,7 +145949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030053] = {
 		sink_limit = 1,
@@ -143523,7 +146010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030054] = {
 		sink_limit = 1,
@@ -143583,7 +146071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030055] = {
 		sink_limit = 1,
@@ -143643,7 +146132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030056] = {
 		sink_limit = 1,
@@ -143703,7 +146193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030057] = {
 		sink_limit = 1,
@@ -143763,7 +146254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030058] = {
 		sink_limit = 1,
@@ -143815,7 +146307,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030059] = {
 		sink_limit = 1,
@@ -143867,7 +146360,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030060] = {
 		sink_limit = 1,
@@ -143919,7 +146413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030061] = {
 		sink_limit = 1,
@@ -143979,7 +146474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030062] = {
 		sink_limit = 1,
@@ -144039,7 +146535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030063] = {
 		sink_limit = 1,
@@ -144099,7 +146596,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030064] = {
 		sink_limit = 1,
@@ -144159,7 +146657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030065] = {
 		sink_limit = 1,
@@ -144219,7 +146718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030066] = {
 		sink_limit = 1,
@@ -144279,7 +146779,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030067] = {
 		sink_limit = 1,
@@ -144339,7 +146840,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030068] = {
 		sink_limit = 1,
@@ -144399,7 +146901,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030069] = {
 		sink_limit = 1,
@@ -144459,7 +146962,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030070] = {
 		sink_limit = 1,
@@ -144519,7 +147023,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030071] = {
 		sink_limit = 1,
@@ -144579,7 +147084,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030072] = {
 		sink_limit = 1,
@@ -144639,7 +147145,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030073] = {
 		sink_limit = 1,
@@ -144699,7 +147206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030074] = {
 		sink_limit = 1,
@@ -144751,7 +147259,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030075] = {
 		sink_limit = 1,
@@ -144803,7 +147312,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030076] = {
 		sink_limit = 1,
@@ -144855,7 +147365,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030077] = {
 		sink_limit = 1,
@@ -144915,7 +147426,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030078] = {
 		sink_limit = 1,
@@ -144975,7 +147487,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030079] = {
 		sink_limit = 1,
@@ -145035,7 +147548,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030080] = {
 		sink_limit = 1,
@@ -145095,7 +147609,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030081] = {
 		sink_limit = 1,
@@ -145155,7 +147670,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030082] = {
 		sink_limit = 1,
@@ -145215,7 +147731,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030083] = {
 		sink_limit = 1,
@@ -145275,7 +147792,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030084] = {
 		sink_limit = 1,
@@ -145335,7 +147853,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030085] = {
 		sink_limit = 1,
@@ -145395,7 +147914,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030086] = {
 		sink_limit = 1,
@@ -145455,7 +147975,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030087] = {
 		sink_limit = 1,
@@ -145515,7 +148036,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030088] = {
 		sink_limit = 1,
@@ -145575,7 +148097,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030089] = {
 		sink_limit = 1,
@@ -145635,7 +148158,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030090] = {
 		sink_limit = 1,
@@ -145687,7 +148211,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030091] = {
 		sink_limit = 1,
@@ -145739,7 +148264,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030092] = {
 		sink_limit = 1,
@@ -145791,7 +148317,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030093] = {
 		sink_limit = 1,
@@ -145851,7 +148378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030094] = {
 		sink_limit = 1,
@@ -145911,7 +148439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030095] = {
 		sink_limit = 1,
@@ -145971,7 +148500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030096] = {
 		sink_limit = 1,
@@ -146031,7 +148561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030200] = {
 		sink_limit = 1,
@@ -146091,7 +148622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030201] = {
 		sink_limit = 1,
@@ -146151,7 +148683,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030202] = {
 		sink_limit = 1,
@@ -146211,7 +148744,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030203] = {
 		sink_limit = 1,
@@ -146271,7 +148805,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030204] = {
 		sink_limit = 1,
@@ -146331,7 +148866,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030205] = {
 		sink_limit = 1,
@@ -146391,7 +148927,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030206] = {
 		sink_limit = 1,
@@ -146451,7 +148988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030207] = {
 		sink_limit = 1,
@@ -146511,7 +149049,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030208] = {
 		sink_limit = 1,
@@ -146571,7 +149110,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030209] = {
 		sink_limit = 1,
@@ -146623,7 +149163,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030210] = {
 		sink_limit = 1,
@@ -146675,7 +149216,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030211] = {
 		sink_limit = 1,
@@ -146727,7 +149269,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030212] = {
 		sink_limit = 1,
@@ -146787,7 +149330,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030213] = {
 		sink_limit = 1,
@@ -146847,7 +149391,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030214] = {
 		sink_limit = 1,
@@ -146907,7 +149452,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030215] = {
 		sink_limit = 1,
@@ -146967,7 +149513,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030216] = {
 		sink_limit = 1,
@@ -147027,7 +149574,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030217] = {
 		sink_limit = 1,
@@ -147087,7 +149635,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030218] = {
 		sink_limit = 1,
@@ -147147,7 +149696,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030219] = {
 		sink_limit = 1,
@@ -147207,7 +149757,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030220] = {
 		sink_limit = 1,
@@ -147267,7 +149818,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030221] = {
 		sink_limit = 1,
@@ -147327,7 +149879,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030222] = {
 		sink_limit = 1,
@@ -147387,7 +149940,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030223] = {
 		sink_limit = 1,
@@ -147447,7 +150001,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030224] = {
 		sink_limit = 1,
@@ -147507,7 +150062,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030225] = {
 		sink_limit = 1,
@@ -147559,7 +150115,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030226] = {
 		sink_limit = 1,
@@ -147611,7 +150168,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030227] = {
 		sink_limit = 1,
@@ -147663,7 +150221,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030228] = {
 		sink_limit = 1,
@@ -147723,7 +150282,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030229] = {
 		sink_limit = 1,
@@ -147783,7 +150343,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030230] = {
 		sink_limit = 1,
@@ -147843,7 +150404,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030231] = {
 		sink_limit = 1,
@@ -147903,7 +150465,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030232] = {
 		sink_limit = 1,
@@ -147963,7 +150526,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030233] = {
 		sink_limit = 1,
@@ -148023,7 +150587,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030234] = {
 		sink_limit = 1,
@@ -148083,7 +150648,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030235] = {
 		sink_limit = 1,
@@ -148143,7 +150709,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030236] = {
 		sink_limit = 1,
@@ -148203,7 +150770,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030237] = {
 		sink_limit = 1,
@@ -148263,7 +150831,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030238] = {
 		sink_limit = 1,
@@ -148323,7 +150892,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030239] = {
 		sink_limit = 1,
@@ -148383,7 +150953,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030240] = {
 		sink_limit = 1,
@@ -148443,7 +151014,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030241] = {
 		sink_limit = 1,
@@ -148495,7 +151067,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030242] = {
 		sink_limit = 1,
@@ -148547,7 +151120,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030243] = {
 		sink_limit = 1,
@@ -148599,7 +151173,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030244] = {
 		sink_limit = 1,
@@ -148659,7 +151234,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030245] = {
 		sink_limit = 1,
@@ -148719,7 +151295,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030246] = {
 		sink_limit = 1,
@@ -148779,7 +151356,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030247] = {
 		sink_limit = 1,
@@ -148839,7 +151417,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030248] = {
 		sink_limit = 1,
@@ -148899,7 +151478,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030249] = {
 		sink_limit = 1,
@@ -148959,7 +151539,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030250] = {
 		sink_limit = 1,
@@ -149019,7 +151600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030251] = {
 		sink_limit = 1,
@@ -149079,7 +151661,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030252] = {
 		sink_limit = 1,
@@ -149139,7 +151722,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030253] = {
 		sink_limit = 1,
@@ -149199,7 +151783,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030254] = {
 		sink_limit = 1,
@@ -149259,7 +151844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030255] = {
 		sink_limit = 1,
@@ -149319,7 +151905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030256] = {
 		sink_limit = 1,
@@ -149379,7 +151966,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030257] = {
 		sink_limit = 1,
@@ -149431,7 +152019,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030258] = {
 		sink_limit = 1,
@@ -149483,7 +152072,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030259] = {
 		sink_limit = 1,
@@ -149535,7 +152125,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030260] = {
 		sink_limit = 1,
@@ -149595,7 +152186,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030261] = {
 		sink_limit = 1,
@@ -149655,7 +152247,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030262] = {
 		sink_limit = 1,
@@ -149715,7 +152308,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030263] = {
 		sink_limit = 1,
@@ -149775,7 +152369,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030264] = {
 		sink_limit = 1,
@@ -149835,7 +152430,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030265] = {
 		sink_limit = 1,
@@ -149895,7 +152491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030266] = {
 		sink_limit = 1,
@@ -149955,7 +152552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030267] = {
 		sink_limit = 1,
@@ -150015,7 +152613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030268] = {
 		sink_limit = 1,
@@ -150075,7 +152674,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030269] = {
 		sink_limit = 1,
@@ -150135,7 +152735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030270] = {
 		sink_limit = 1,
@@ -150195,7 +152796,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030271] = {
 		sink_limit = 1,
@@ -150255,7 +152857,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030272] = {
 		sink_limit = 1,
@@ -150315,7 +152918,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030273] = {
 		sink_limit = 1,
@@ -150367,7 +152971,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030274] = {
 		sink_limit = 1,
@@ -150419,7 +153024,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030275] = {
 		sink_limit = 1,
@@ -150471,7 +153077,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030276] = {
 		sink_limit = 1,
@@ -150531,7 +153138,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030277] = {
 		sink_limit = 1,
@@ -150591,7 +153199,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030278] = {
 		sink_limit = 1,
@@ -150651,7 +153260,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030279] = {
 		sink_limit = 1,
@@ -150711,7 +153321,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030280] = {
 		sink_limit = 1,
@@ -150771,7 +153382,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030281] = {
 		sink_limit = 1,
@@ -150831,7 +153443,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030282] = {
 		sink_limit = 1,
@@ -150891,7 +153504,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030283] = {
 		sink_limit = 1,
@@ -150951,7 +153565,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030284] = {
 		sink_limit = 1,
@@ -151011,7 +153626,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030285] = {
 		sink_limit = 1,
@@ -151071,7 +153687,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030286] = {
 		sink_limit = 1,
@@ -151131,7 +153748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030287] = {
 		sink_limit = 1,
@@ -151191,7 +153809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030288] = {
 		sink_limit = 1,
@@ -151251,7 +153870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030289] = {
 		sink_limit = 1,
@@ -151303,7 +153923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030290] = {
 		sink_limit = 1,
@@ -151355,7 +153976,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030291] = {
 		sink_limit = 1,
@@ -151407,7 +154029,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030292] = {
 		sink_limit = 1,
@@ -151467,7 +154090,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030293] = {
 		sink_limit = 1,
@@ -151527,7 +154151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030294] = {
 		sink_limit = 1,
@@ -151587,7 +154212,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030295] = {
 		sink_limit = 1,
@@ -151647,7 +154273,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030296] = {
 		sink_limit = 1,
@@ -151686,7 +154313,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030297] = {
 		sink_limit = 1,
@@ -151725,7 +154353,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030298] = {
 		sink_limit = 1,
@@ -151764,7 +154393,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030299] = {
 		sink_limit = 1,
@@ -151803,7 +154433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030300] = {
 		sink_limit = 1,
@@ -151842,7 +154473,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030301] = {
 		sink_limit = 1,
@@ -151881,7 +154513,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030302] = {
 		sink_limit = 1,
@@ -151920,7 +154553,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030303] = {
 		sink_limit = 1,
@@ -151959,7 +154593,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030304] = {
 		sink_limit = 1,
@@ -151998,7 +154633,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030305] = {
 		sink_limit = 1,
@@ -152037,7 +154673,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030306] = {
 		sink_limit = 1,
@@ -152076,7 +154713,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030307] = {
 		sink_limit = 1,
@@ -152115,7 +154753,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030308] = {
 		sink_limit = 1,
@@ -152154,7 +154793,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030309] = {
 		sink_limit = 1,
@@ -152193,7 +154833,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030310] = {
 		sink_limit = 1,
@@ -152232,7 +154873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1030311] = {
 		sink_limit = 1,
@@ -152271,7 +154913,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050010] = {
 		sink_limit = 1,
@@ -152331,7 +154974,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050020] = {
 		sink_limit = 1,
@@ -152391,7 +155035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050030] = {
 		sink_limit = 1,
@@ -152451,7 +155096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050040] = {
 		sink_limit = 1,
@@ -152511,7 +155157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050050] = {
 		sink_limit = 1,
@@ -152571,7 +155218,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050060] = {
 		sink_limit = 1,
@@ -152631,7 +155279,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050070] = {
 		sink_limit = 1,
@@ -152691,7 +155340,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050080] = {
 		sink_limit = 1,
@@ -152751,7 +155401,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050090] = {
 		sink_limit = 1,
@@ -152811,7 +155462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050100] = {
 		sink_limit = 1,
@@ -152863,7 +155515,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050110] = {
 		sink_limit = 1,
@@ -152915,7 +155568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050120] = {
 		sink_limit = 1,
@@ -152967,7 +155621,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050210] = {
 		sink_limit = 1,
@@ -153027,7 +155682,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050211] = {
 		sink_limit = 1,
@@ -153087,7 +155743,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050212] = {
 		sink_limit = 1,
@@ -153147,7 +155804,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1050500] = {
 		sink_limit = 1,
@@ -153207,7 +155865,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051010] = {
 		sink_limit = 1,
@@ -153267,7 +155926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051020] = {
 		sink_limit = 1,
@@ -153327,7 +155987,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051030] = {
 		sink_limit = 1,
@@ -153387,7 +156048,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051040] = {
 		sink_limit = 1,
@@ -153447,7 +156109,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051050] = {
 		sink_limit = 1,
@@ -153507,7 +156170,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051060] = {
 		sink_limit = 1,
@@ -153567,7 +156231,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051070] = {
 		sink_limit = 1,
@@ -153627,7 +156292,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051080] = {
 		sink_limit = 1,
@@ -153687,7 +156353,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051090] = {
 		sink_limit = 1,
@@ -153747,7 +156414,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051100] = {
 		sink_limit = 1,
@@ -153799,7 +156467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051110] = {
 		sink_limit = 1,
@@ -153851,7 +156520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051120] = {
 		sink_limit = 1,
@@ -153903,7 +156573,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051210] = {
 		sink_limit = 1,
@@ -153963,7 +156634,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051211] = {
 		sink_limit = 1,
@@ -154023,7 +156695,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051212] = {
 		sink_limit = 1,
@@ -154083,7 +156756,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1051500] = {
 		sink_limit = 1,
@@ -154143,7 +156817,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052010] = {
 		sink_limit = 1,
@@ -154203,7 +156878,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052020] = {
 		sink_limit = 1,
@@ -154263,7 +156939,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052030] = {
 		sink_limit = 1,
@@ -154323,7 +157000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052040] = {
 		sink_limit = 1,
@@ -154383,7 +157061,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052050] = {
 		sink_limit = 1,
@@ -154443,7 +157122,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052060] = {
 		sink_limit = 1,
@@ -154503,7 +157183,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052070] = {
 		sink_limit = 1,
@@ -154563,7 +157244,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052080] = {
 		sink_limit = 1,
@@ -154623,7 +157305,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052090] = {
 		sink_limit = 1,
@@ -154683,7 +157366,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052100] = {
 		sink_limit = 1,
@@ -154735,7 +157419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052110] = {
 		sink_limit = 1,
@@ -154787,7 +157472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052120] = {
 		sink_limit = 1,
@@ -154839,7 +157525,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052210] = {
 		sink_limit = 1,
@@ -154899,7 +157586,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052211] = {
 		sink_limit = 1,
@@ -154959,7 +157647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052212] = {
 		sink_limit = 1,
@@ -155019,7 +157708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1052500] = {
 		sink_limit = 1,
@@ -155079,7 +157769,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060000] = {
 		sink_limit = 1,
@@ -155139,7 +157830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060001] = {
 		sink_limit = 1,
@@ -155199,7 +157891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060002] = {
 		sink_limit = 1,
@@ -155259,7 +157952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060003] = {
 		sink_limit = 1,
@@ -155319,7 +158013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060004] = {
 		sink_limit = 1,
@@ -155379,7 +158074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060005] = {
 		sink_limit = 1,
@@ -155439,7 +158135,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060006] = {
 		sink_limit = 1,
@@ -155499,7 +158196,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060007] = {
 		sink_limit = 1,
@@ -155559,7 +158257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060008] = {
 		sink_limit = 1,
@@ -155619,7 +158318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060009] = {
 		sink_limit = 1,
@@ -155679,7 +158379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060010] = {
 		sink_limit = 1,
@@ -155731,7 +158432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060011] = {
 		sink_limit = 1,
@@ -155783,7 +158485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060012] = {
 		sink_limit = 1,
@@ -155835,7 +158538,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060013] = {
 		sink_limit = 1,
@@ -155895,7 +158599,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060014] = {
 		sink_limit = 1,
@@ -155955,7 +158660,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060015] = {
 		sink_limit = 1,
@@ -156015,7 +158721,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060016] = {
 		sink_limit = 1,
@@ -156075,7 +158782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060017] = {
 		sink_limit = 1,
@@ -156135,7 +158843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060018] = {
 		sink_limit = 1,
@@ -156195,7 +158904,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060019] = {
 		sink_limit = 1,
@@ -156255,7 +158965,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060020] = {
 		sink_limit = 1,
@@ -156315,7 +159026,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060021] = {
 		sink_limit = 1,
@@ -156375,7 +159087,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060022] = {
 		sink_limit = 1,
@@ -156435,7 +159148,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060023] = {
 		sink_limit = 1,
@@ -156495,7 +159209,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060024] = {
 		sink_limit = 1,
@@ -156555,7 +159270,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060025] = {
 		sink_limit = 1,
@@ -156615,7 +159331,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060026] = {
 		sink_limit = 1,
@@ -156667,7 +159384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060027] = {
 		sink_limit = 1,
@@ -156719,7 +159437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060028] = {
 		sink_limit = 1,
@@ -156771,7 +159490,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060029] = {
 		sink_limit = 1,
@@ -156831,7 +159551,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060030] = {
 		sink_limit = 1,
@@ -156891,7 +159612,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060031] = {
 		sink_limit = 1,
@@ -156951,7 +159673,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060032] = {
 		sink_limit = 1,
@@ -157011,7 +159734,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060033] = {
 		sink_limit = 1,
@@ -157071,7 +159795,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060034] = {
 		sink_limit = 1,
@@ -157131,7 +159856,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060035] = {
 		sink_limit = 1,
@@ -157191,7 +159917,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060036] = {
 		sink_limit = 1,
@@ -157251,7 +159978,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060037] = {
 		sink_limit = 1,
@@ -157311,7 +160039,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060038] = {
 		sink_limit = 1,
@@ -157371,7 +160100,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060039] = {
 		sink_limit = 1,
@@ -157431,7 +160161,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060040] = {
 		sink_limit = 1,
@@ -157491,7 +160222,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060041] = {
 		sink_limit = 1,
@@ -157551,7 +160283,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060042] = {
 		sink_limit = 1,
@@ -157603,7 +160336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060043] = {
 		sink_limit = 1,
@@ -157655,7 +160389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060044] = {
 		sink_limit = 1,
@@ -157707,7 +160442,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060045] = {
 		sink_limit = 1,
@@ -157767,7 +160503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060046] = {
 		sink_limit = 1,
@@ -157827,7 +160564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060047] = {
 		sink_limit = 1,
@@ -157887,7 +160625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060048] = {
 		sink_limit = 1,
@@ -157947,7 +160686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060049] = {
 		sink_limit = 1,
@@ -158007,7 +160747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060050] = {
 		sink_limit = 1,
@@ -158067,7 +160808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060051] = {
 		sink_limit = 1,
@@ -158127,7 +160869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060052] = {
 		sink_limit = 1,
@@ -158187,7 +160930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060053] = {
 		sink_limit = 1,
@@ -158247,7 +160991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060054] = {
 		sink_limit = 1,
@@ -158307,7 +161052,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060055] = {
 		sink_limit = 1,
@@ -158367,7 +161113,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060056] = {
 		sink_limit = 1,
@@ -158427,7 +161174,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060057] = {
 		sink_limit = 1,
@@ -158487,7 +161235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060058] = {
 		sink_limit = 1,
@@ -158539,7 +161288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060059] = {
 		sink_limit = 1,
@@ -158591,7 +161341,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060060] = {
 		sink_limit = 1,
@@ -158643,7 +161394,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060061] = {
 		sink_limit = 1,
@@ -158703,7 +161455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060062] = {
 		sink_limit = 1,
@@ -158763,7 +161516,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060063] = {
 		sink_limit = 1,
@@ -158823,7 +161577,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060064] = {
 		sink_limit = 1,
@@ -158883,7 +161638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060065] = {
 		sink_limit = 1,
@@ -158943,7 +161699,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060066] = {
 		sink_limit = 1,
@@ -159003,7 +161760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060067] = {
 		sink_limit = 1,
@@ -159063,7 +161821,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060068] = {
 		sink_limit = 1,
@@ -159123,7 +161882,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060069] = {
 		sink_limit = 1,
@@ -159183,7 +161943,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060070] = {
 		sink_limit = 1,
@@ -159243,7 +162004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060071] = {
 		sink_limit = 1,
@@ -159303,7 +162065,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060072] = {
 		sink_limit = 1,
@@ -159363,7 +162126,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060073] = {
 		sink_limit = 1,
@@ -159423,7 +162187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060074] = {
 		sink_limit = 1,
@@ -159475,7 +162240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060075] = {
 		sink_limit = 1,
@@ -159527,7 +162293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060076] = {
 		sink_limit = 1,
@@ -159579,7 +162346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060077] = {
 		sink_limit = 1,
@@ -159639,7 +162407,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060078] = {
 		sink_limit = 1,
@@ -159699,7 +162468,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060079] = {
 		sink_limit = 1,
@@ -159759,7 +162529,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060080] = {
 		sink_limit = 1,
@@ -159819,7 +162590,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060081] = {
 		sink_limit = 1,
@@ -159879,7 +162651,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060082] = {
 		sink_limit = 1,
@@ -159939,7 +162712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060083] = {
 		sink_limit = 1,
@@ -159999,7 +162773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060084] = {
 		sink_limit = 1,
@@ -160059,7 +162834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060085] = {
 		sink_limit = 1,
@@ -160119,7 +162895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060086] = {
 		sink_limit = 1,
@@ -160179,7 +162956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060087] = {
 		sink_limit = 1,
@@ -160239,7 +163017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060088] = {
 		sink_limit = 1,
@@ -160299,7 +163078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060089] = {
 		sink_limit = 1,
@@ -160359,7 +163139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060090] = {
 		sink_limit = 1,
@@ -160411,7 +163192,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060091] = {
 		sink_limit = 1,
@@ -160463,7 +163245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060092] = {
 		sink_limit = 1,
@@ -160515,7 +163298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060093] = {
 		sink_limit = 1,
@@ -160575,7 +163359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060094] = {
 		sink_limit = 1,
@@ -160635,7 +163420,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060095] = {
 		sink_limit = 1,
@@ -160695,7 +163481,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060096] = {
 		sink_limit = 1,
@@ -160755,7 +163542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060200] = {
 		sink_limit = 1,
@@ -160815,7 +163603,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060201] = {
 		sink_limit = 1,
@@ -160875,7 +163664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060202] = {
 		sink_limit = 1,
@@ -160935,7 +163725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060203] = {
 		sink_limit = 1,
@@ -160995,7 +163786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060204] = {
 		sink_limit = 1,
@@ -161055,7 +163847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060205] = {
 		sink_limit = 1,
@@ -161115,7 +163908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060206] = {
 		sink_limit = 1,
@@ -161175,7 +163969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060207] = {
 		sink_limit = 1,
@@ -161235,7 +164030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060208] = {
 		sink_limit = 1,
@@ -161295,7 +164091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060209] = {
 		sink_limit = 1,
@@ -161347,7 +164144,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060210] = {
 		sink_limit = 1,
@@ -161399,7 +164197,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060211] = {
 		sink_limit = 1,
@@ -161451,7 +164250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060212] = {
 		sink_limit = 1,
@@ -161511,7 +164311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060213] = {
 		sink_limit = 1,
@@ -161571,7 +164372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060214] = {
 		sink_limit = 1,
@@ -161631,7 +164433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060215] = {
 		sink_limit = 1,
@@ -161691,7 +164494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060216] = {
 		sink_limit = 1,
@@ -161751,7 +164555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060217] = {
 		sink_limit = 1,
@@ -161811,7 +164616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060218] = {
 		sink_limit = 1,
@@ -161871,7 +164677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060219] = {
 		sink_limit = 1,
@@ -161931,7 +164738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060220] = {
 		sink_limit = 1,
@@ -161991,7 +164799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060221] = {
 		sink_limit = 1,
@@ -162051,7 +164860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060222] = {
 		sink_limit = 1,
@@ -162111,7 +164921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060223] = {
 		sink_limit = 1,
@@ -162171,7 +164982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060224] = {
 		sink_limit = 1,
@@ -162231,7 +165043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060225] = {
 		sink_limit = 1,
@@ -162283,7 +165096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060226] = {
 		sink_limit = 1,
@@ -162335,7 +165149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060227] = {
 		sink_limit = 1,
@@ -162387,7 +165202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060228] = {
 		sink_limit = 1,
@@ -162447,7 +165263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060229] = {
 		sink_limit = 1,
@@ -162507,7 +165324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060230] = {
 		sink_limit = 1,
@@ -162567,7 +165385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060231] = {
 		sink_limit = 1,
@@ -162627,7 +165446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060232] = {
 		sink_limit = 1,
@@ -162687,7 +165507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060233] = {
 		sink_limit = 1,
@@ -162747,7 +165568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060234] = {
 		sink_limit = 1,
@@ -162807,7 +165629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060235] = {
 		sink_limit = 1,
@@ -162867,7 +165690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060236] = {
 		sink_limit = 1,
@@ -162927,7 +165751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060237] = {
 		sink_limit = 1,
@@ -162987,7 +165812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060238] = {
 		sink_limit = 1,
@@ -163047,7 +165873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060239] = {
 		sink_limit = 1,
@@ -163107,7 +165934,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060240] = {
 		sink_limit = 1,
@@ -163167,7 +165995,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060241] = {
 		sink_limit = 1,
@@ -163219,7 +166048,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060242] = {
 		sink_limit = 1,
@@ -163271,7 +166101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060243] = {
 		sink_limit = 1,
@@ -163323,7 +166154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060244] = {
 		sink_limit = 1,
@@ -163383,7 +166215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060245] = {
 		sink_limit = 1,
@@ -163443,7 +166276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060246] = {
 		sink_limit = 1,
@@ -163503,7 +166337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060247] = {
 		sink_limit = 1,
@@ -163563,7 +166398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060248] = {
 		sink_limit = 1,
@@ -163623,7 +166459,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060249] = {
 		sink_limit = 1,
@@ -163683,7 +166520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060250] = {
 		sink_limit = 1,
@@ -163743,7 +166581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060251] = {
 		sink_limit = 1,
@@ -163803,7 +166642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060252] = {
 		sink_limit = 1,
@@ -163863,7 +166703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060253] = {
 		sink_limit = 1,
@@ -163923,7 +166764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060254] = {
 		sink_limit = 1,
@@ -163983,7 +166825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060255] = {
 		sink_limit = 1,
@@ -164043,7 +166886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060256] = {
 		sink_limit = 1,
@@ -164103,7 +166947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060257] = {
 		sink_limit = 1,
@@ -164155,7 +167000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060258] = {
 		sink_limit = 1,
@@ -164207,7 +167053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060259] = {
 		sink_limit = 1,
@@ -164259,7 +167106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060260] = {
 		sink_limit = 1,
@@ -164319,7 +167167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060261] = {
 		sink_limit = 1,
@@ -164379,7 +167228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060262] = {
 		sink_limit = 1,
@@ -164439,7 +167289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060263] = {
 		sink_limit = 1,
@@ -164499,7 +167350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060264] = {
 		sink_limit = 1,
@@ -164559,7 +167411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060265] = {
 		sink_limit = 1,
@@ -164619,7 +167472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060266] = {
 		sink_limit = 1,
@@ -164679,7 +167533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060267] = {
 		sink_limit = 1,
@@ -164739,7 +167594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060268] = {
 		sink_limit = 1,
@@ -164799,7 +167655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060269] = {
 		sink_limit = 1,
@@ -164859,7 +167716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060270] = {
 		sink_limit = 1,
@@ -164919,7 +167777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060271] = {
 		sink_limit = 1,
@@ -164979,7 +167838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060272] = {
 		sink_limit = 1,
@@ -165039,7 +167899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060273] = {
 		sink_limit = 1,
@@ -165091,7 +167952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060274] = {
 		sink_limit = 1,
@@ -165143,7 +168005,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060275] = {
 		sink_limit = 1,
@@ -165195,7 +168058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060276] = {
 		sink_limit = 1,
@@ -165255,7 +168119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060277] = {
 		sink_limit = 1,
@@ -165315,7 +168180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060278] = {
 		sink_limit = 1,
@@ -165375,7 +168241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060279] = {
 		sink_limit = 1,
@@ -165435,7 +168302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060280] = {
 		sink_limit = 1,
@@ -165495,7 +168363,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060281] = {
 		sink_limit = 1,
@@ -165555,7 +168424,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060282] = {
 		sink_limit = 1,
@@ -165615,7 +168485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060283] = {
 		sink_limit = 1,
@@ -165675,7 +168546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060284] = {
 		sink_limit = 1,
@@ -165735,7 +168607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060285] = {
 		sink_limit = 1,
@@ -165795,7 +168668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060286] = {
 		sink_limit = 1,
@@ -165855,7 +168729,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060287] = {
 		sink_limit = 1,
@@ -165915,7 +168790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060288] = {
 		sink_limit = 1,
@@ -165975,7 +168851,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060289] = {
 		sink_limit = 1,
@@ -166027,7 +168904,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060290] = {
 		sink_limit = 1,
@@ -166079,7 +168957,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060291] = {
 		sink_limit = 1,
@@ -166131,7 +169010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060292] = {
 		sink_limit = 1,
@@ -166191,7 +169071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060293] = {
 		sink_limit = 1,
@@ -166251,7 +169132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060294] = {
 		sink_limit = 1,
@@ -166311,7 +169193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060295] = {
 		sink_limit = 1,
@@ -166371,7 +169254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060400] = {
 		sink_limit = 1,
@@ -166431,7 +169315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060401] = {
 		sink_limit = 1,
@@ -166491,7 +169376,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060402] = {
 		sink_limit = 1,
@@ -166551,7 +169437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060403] = {
 		sink_limit = 1,
@@ -166611,7 +169498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060404] = {
 		sink_limit = 1,
@@ -166671,7 +169559,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060405] = {
 		sink_limit = 1,
@@ -166731,7 +169620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060406] = {
 		sink_limit = 1,
@@ -166791,7 +169681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060407] = {
 		sink_limit = 1,
@@ -166851,7 +169742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060408] = {
 		sink_limit = 1,
@@ -166911,7 +169803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060409] = {
 		sink_limit = 1,
@@ -166971,7 +169864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060410] = {
 		sink_limit = 1,
@@ -167031,7 +169925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060411] = {
 		sink_limit = 1,
@@ -167091,7 +169986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060412] = {
 		sink_limit = 1,
@@ -167151,7 +170047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060413] = {
 		sink_limit = 1,
@@ -167211,7 +170108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060414] = {
 		sink_limit = 1,
@@ -167271,7 +170169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060415] = {
 		sink_limit = 1,
@@ -167331,7 +170230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060416] = {
 		sink_limit = 1,
@@ -167391,7 +170291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060417] = {
 		sink_limit = 1,
@@ -167451,7 +170352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060418] = {
 		sink_limit = 1,
@@ -167511,7 +170413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060419] = {
 		sink_limit = 1,
@@ -167571,7 +170474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1060500] = {
 		sink_limit = 1,
@@ -167610,7 +170514,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1060600] = {
 		sink_limit = 1,
@@ -167670,7 +170575,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071010] = {
 		sink_limit = 1,
@@ -167730,7 +170636,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071020] = {
 		sink_limit = 1,
@@ -167790,7 +170697,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071030] = {
 		sink_limit = 1,
@@ -167850,7 +170758,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071040] = {
 		sink_limit = 1,
@@ -167910,7 +170819,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071050] = {
 		sink_limit = 1,
@@ -167970,7 +170880,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071060] = {
 		sink_limit = 1,
@@ -168030,7 +170941,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071070] = {
 		sink_limit = 1,
@@ -168090,7 +171002,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071080] = {
 		sink_limit = 1,
@@ -168150,7 +171063,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071090] = {
 		sink_limit = 1,
@@ -168210,7 +171124,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071100] = {
 		sink_limit = 1,
@@ -168262,7 +171177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071110] = {
 		sink_limit = 1,
@@ -168314,7 +171230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071120] = {
 		sink_limit = 1,
@@ -168366,7 +171283,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071210] = {
 		sink_limit = 1,
@@ -168426,7 +171344,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071211] = {
 		sink_limit = 1,
@@ -168486,7 +171405,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071212] = {
 		sink_limit = 1,
@@ -168546,7 +171466,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1071500] = {
 		sink_limit = 1,
@@ -168606,7 +171527,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072010] = {
 		sink_limit = 1,
@@ -168666,7 +171588,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072020] = {
 		sink_limit = 1,
@@ -168726,7 +171649,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072030] = {
 		sink_limit = 1,
@@ -168786,7 +171710,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072040] = {
 		sink_limit = 1,
@@ -168846,7 +171771,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072050] = {
 		sink_limit = 1,
@@ -168906,7 +171832,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072060] = {
 		sink_limit = 1,
@@ -168966,7 +171893,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072070] = {
 		sink_limit = 1,
@@ -169026,7 +171954,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072080] = {
 		sink_limit = 1,
@@ -169086,7 +172015,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072090] = {
 		sink_limit = 1,
@@ -169146,7 +172076,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072100] = {
 		sink_limit = 1,
@@ -169198,7 +172129,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072110] = {
 		sink_limit = 1,
@@ -169250,7 +172182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072120] = {
 		sink_limit = 1,
@@ -169302,7 +172235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072210] = {
 		sink_limit = 1,
@@ -169362,7 +172296,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072211] = {
 		sink_limit = 1,
@@ -169422,7 +172357,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072212] = {
 		sink_limit = 1,
@@ -169482,7 +172418,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1072500] = {
 		sink_limit = 1,
@@ -169542,7 +172479,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073010] = {
 		sink_limit = 1,
@@ -169602,7 +172540,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073020] = {
 		sink_limit = 1,
@@ -169662,7 +172601,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073030] = {
 		sink_limit = 1,
@@ -169722,7 +172662,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073040] = {
 		sink_limit = 1,
@@ -169782,7 +172723,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073050] = {
 		sink_limit = 1,
@@ -169842,7 +172784,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073060] = {
 		sink_limit = 1,
@@ -169902,7 +172845,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073070] = {
 		sink_limit = 1,
@@ -169962,7 +172906,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073080] = {
 		sink_limit = 1,
@@ -170022,7 +172967,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073090] = {
 		sink_limit = 1,
@@ -170082,7 +173028,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073100] = {
 		sink_limit = 1,
@@ -170134,7 +173081,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073110] = {
 		sink_limit = 1,
@@ -170186,7 +173134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073120] = {
 		sink_limit = 1,
@@ -170238,7 +173187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073210] = {
 		sink_limit = 1,
@@ -170298,7 +173248,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073211] = {
 		sink_limit = 1,
@@ -170358,7 +173309,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073212] = {
 		sink_limit = 1,
@@ -170418,7 +173370,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1073500] = {
 		sink_limit = 1,
@@ -170477,7 +173430,8 @@ pg.expedition_data_template = {
 		},
 		objective_3 = {
 			6
-		}
+		},
+		bufficon = {}
 	},
 	[1081010] = {
 		sink_limit = 1,
@@ -170537,7 +173491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081020] = {
 		sink_limit = 1,
@@ -170597,7 +173552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081030] = {
 		sink_limit = 1,
@@ -170657,7 +173613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081040] = {
 		sink_limit = 1,
@@ -170717,7 +173674,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081050] = {
 		sink_limit = 1,
@@ -170777,7 +173735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081060] = {
 		sink_limit = 1,
@@ -170837,7 +173796,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081070] = {
 		sink_limit = 1,
@@ -170897,7 +173857,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081080] = {
 		sink_limit = 1,
@@ -170957,7 +173918,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081090] = {
 		sink_limit = 1,
@@ -171017,7 +173979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081100] = {
 		sink_limit = 1,
@@ -171069,7 +174032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081110] = {
 		sink_limit = 1,
@@ -171121,7 +174085,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081120] = {
 		sink_limit = 1,
@@ -171173,7 +174138,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081210] = {
 		sink_limit = 1,
@@ -171233,7 +174199,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081211] = {
 		sink_limit = 1,
@@ -171293,7 +174260,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081212] = {
 		sink_limit = 1,
@@ -171353,7 +174321,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1081500] = {
 		sink_limit = 1,
@@ -171413,7 +174382,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082010] = {
 		sink_limit = 1,
@@ -171473,7 +174443,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082020] = {
 		sink_limit = 1,
@@ -171533,7 +174504,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082030] = {
 		sink_limit = 1,
@@ -171593,7 +174565,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082040] = {
 		sink_limit = 1,
@@ -171653,7 +174626,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082050] = {
 		sink_limit = 1,
@@ -171713,7 +174687,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082060] = {
 		sink_limit = 1,
@@ -171773,7 +174748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082070] = {
 		sink_limit = 1,
@@ -171833,7 +174809,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082080] = {
 		sink_limit = 1,
@@ -171893,7 +174870,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082090] = {
 		sink_limit = 1,
@@ -171953,7 +174931,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082100] = {
 		sink_limit = 1,
@@ -172005,7 +174984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082110] = {
 		sink_limit = 1,
@@ -172057,7 +175037,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082120] = {
 		sink_limit = 1,
@@ -172109,7 +175090,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082210] = {
 		sink_limit = 1,
@@ -172169,7 +175151,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082211] = {
 		sink_limit = 1,
@@ -172229,7 +175212,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082212] = {
 		sink_limit = 1,
@@ -172289,7 +175273,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1082500] = {
 		sink_limit = 1,
@@ -172349,7 +175334,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083010] = {
 		sink_limit = 1,
@@ -172409,7 +175395,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083020] = {
 		sink_limit = 1,
@@ -172469,7 +175456,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083030] = {
 		sink_limit = 1,
@@ -172529,7 +175517,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083040] = {
 		sink_limit = 1,
@@ -172589,7 +175578,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083050] = {
 		sink_limit = 1,
@@ -172649,7 +175639,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083060] = {
 		sink_limit = 1,
@@ -172709,7 +175700,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083070] = {
 		sink_limit = 1,
@@ -172769,7 +175761,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083080] = {
 		sink_limit = 1,
@@ -172829,7 +175822,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083090] = {
 		sink_limit = 1,
@@ -172889,7 +175883,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083100] = {
 		sink_limit = 1,
@@ -172941,7 +175936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083110] = {
 		sink_limit = 1,
@@ -172993,7 +175989,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083120] = {
 		sink_limit = 1,
@@ -173045,7 +176042,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083210] = {
 		sink_limit = 1,
@@ -173105,7 +176103,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083211] = {
 		sink_limit = 1,
@@ -173165,7 +176164,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083212] = {
 		sink_limit = 1,
@@ -173225,7 +176225,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1083500] = {
 		sink_limit = 1,
@@ -173285,7 +176286,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084010] = {
 		sink_limit = 1,
@@ -173345,7 +176347,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084020] = {
 		sink_limit = 1,
@@ -173405,7 +176408,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084030] = {
 		sink_limit = 1,
@@ -173465,7 +176469,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084040] = {
 		sink_limit = 1,
@@ -173525,7 +176530,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084050] = {
 		sink_limit = 1,
@@ -173585,7 +176591,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084060] = {
 		sink_limit = 1,
@@ -173645,7 +176652,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084070] = {
 		sink_limit = 1,
@@ -173705,7 +176713,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084080] = {
 		sink_limit = 1,
@@ -173765,7 +176774,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084090] = {
 		sink_limit = 1,
@@ -173825,7 +176835,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084100] = {
 		sink_limit = 1,
@@ -173877,7 +176888,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084110] = {
 		sink_limit = 1,
@@ -173929,7 +176941,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084120] = {
 		sink_limit = 1,
@@ -173981,7 +176994,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084210] = {
 		sink_limit = 1,
@@ -174041,7 +177055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084211] = {
 		sink_limit = 1,
@@ -174101,7 +177116,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084212] = {
 		sink_limit = 1,
@@ -174161,7 +177177,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1084500] = {
 		sink_limit = 1,
@@ -174221,7 +177238,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085010] = {
 		sink_limit = 1,
@@ -174260,7 +177278,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085020] = {
 		sink_limit = 1,
@@ -174299,7 +177318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085030] = {
 		sink_limit = 1,
@@ -174338,7 +177358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085040] = {
 		sink_limit = 1,
@@ -174377,7 +177398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085050] = {
 		sink_limit = 1,
@@ -174416,7 +177438,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085060] = {
 		sink_limit = 1,
@@ -174455,7 +177478,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085070] = {
 		sink_limit = 1,
@@ -174494,7 +177518,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085080] = {
 		sink_limit = 1,
@@ -174533,7 +177558,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085090] = {
 		sink_limit = 1,
@@ -174572,7 +177598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085100] = {
 		sink_limit = 1,
@@ -174611,7 +177638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085110] = {
 		sink_limit = 1,
@@ -174650,7 +177678,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085120] = {
 		sink_limit = 1,
@@ -174689,7 +177718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085210] = {
 		sink_limit = 1,
@@ -174728,7 +177758,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085211] = {
 		sink_limit = 1,
@@ -174767,7 +177798,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085212] = {
 		sink_limit = 1,
@@ -174806,7 +177838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1085500] = {
 		sink_limit = 1,
@@ -174845,7 +177878,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			200
-		}
+		},
+		bufficon = {}
 	},
 	[1090001] = {
 		sink_limit = 1,
@@ -174905,7 +177939,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090002] = {
 		sink_limit = 1,
@@ -174965,7 +178000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090003] = {
 		sink_limit = 1,
@@ -175025,7 +178061,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090004] = {
 		sink_limit = 1,
@@ -175085,7 +178122,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090005] = {
 		sink_limit = 1,
@@ -175145,7 +178183,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090006] = {
 		sink_limit = 1,
@@ -175205,7 +178244,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090007] = {
 		sink_limit = 1,
@@ -175265,7 +178305,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090008] = {
 		sink_limit = 1,
@@ -175325,7 +178366,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090009] = {
 		sink_limit = 1,
@@ -175385,7 +178427,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090010] = {
 		sink_limit = 1,
@@ -175437,7 +178480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090011] = {
 		sink_limit = 1,
@@ -175489,7 +178533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090012] = {
 		sink_limit = 1,
@@ -175541,7 +178586,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090013] = {
 		sink_limit = 1,
@@ -175601,7 +178647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090014] = {
 		sink_limit = 1,
@@ -175661,7 +178708,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090015] = {
 		sink_limit = 1,
@@ -175721,7 +178769,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090016] = {
 		sink_limit = 1,
@@ -175781,7 +178830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090017] = {
 		sink_limit = 1,
@@ -175841,7 +178891,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090018] = {
 		sink_limit = 1,
@@ -175901,7 +178952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090019] = {
 		sink_limit = 1,
@@ -175961,7 +179013,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090020] = {
 		sink_limit = 1,
@@ -176021,7 +179074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090021] = {
 		sink_limit = 1,
@@ -176081,7 +179135,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090022] = {
 		sink_limit = 1,
@@ -176141,7 +179196,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090023] = {
 		sink_limit = 1,
@@ -176201,7 +179257,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090024] = {
 		sink_limit = 1,
@@ -176261,7 +179318,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090025] = {
 		sink_limit = 1,
@@ -176321,7 +179379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090026] = {
 		sink_limit = 1,
@@ -176373,7 +179432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090027] = {
 		sink_limit = 1,
@@ -176425,7 +179485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090028] = {
 		sink_limit = 1,
@@ -176477,7 +179538,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090029] = {
 		sink_limit = 1,
@@ -176537,7 +179599,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090030] = {
 		sink_limit = 1,
@@ -176597,7 +179660,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090031] = {
 		sink_limit = 1,
@@ -176657,7 +179721,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090032] = {
 		sink_limit = 1,
@@ -176717,7 +179782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090033] = {
 		sink_limit = 1,
@@ -176777,7 +179843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090034] = {
 		sink_limit = 1,
@@ -176837,7 +179904,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090035] = {
 		sink_limit = 1,
@@ -176897,7 +179965,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090036] = {
 		sink_limit = 1,
@@ -176957,7 +180026,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090037] = {
 		sink_limit = 1,
@@ -177017,7 +180087,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090038] = {
 		sink_limit = 1,
@@ -177077,7 +180148,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090039] = {
 		sink_limit = 1,
@@ -177137,7 +180209,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090040] = {
 		sink_limit = 1,
@@ -177197,7 +180270,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090041] = {
 		sink_limit = 1,
@@ -177257,7 +180331,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090042] = {
 		sink_limit = 1,
@@ -177309,7 +180384,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090043] = {
 		sink_limit = 1,
@@ -177361,7 +180437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090044] = {
 		sink_limit = 1,
@@ -177413,7 +180490,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090045] = {
 		sink_limit = 1,
@@ -177473,7 +180551,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090046] = {
 		sink_limit = 1,
@@ -177533,7 +180612,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090047] = {
 		sink_limit = 1,
@@ -177593,7 +180673,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090048] = {
 		sink_limit = 1,
@@ -177653,7 +180734,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090049] = {
 		sink_limit = 1,
@@ -177713,7 +180795,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090050] = {
 		sink_limit = 1,
@@ -177773,7 +180856,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090051] = {
 		sink_limit = 1,
@@ -177833,7 +180917,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090052] = {
 		sink_limit = 1,
@@ -177893,7 +180978,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090053] = {
 		sink_limit = 1,
@@ -177953,7 +181039,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090054] = {
 		sink_limit = 1,
@@ -178013,7 +181100,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090055] = {
 		sink_limit = 1,
@@ -178073,7 +181161,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090056] = {
 		sink_limit = 1,
@@ -178133,7 +181222,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090057] = {
 		sink_limit = 1,
@@ -178193,7 +181283,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090058] = {
 		sink_limit = 1,
@@ -178245,7 +181336,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090059] = {
 		sink_limit = 1,
@@ -178297,7 +181389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090060] = {
 		sink_limit = 1,
@@ -178349,7 +181442,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090061] = {
 		sink_limit = 1,
@@ -178409,7 +181503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090062] = {
 		sink_limit = 1,
@@ -178469,7 +181564,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090063] = {
 		sink_limit = 1,
@@ -178529,7 +181625,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090064] = {
 		sink_limit = 1,
@@ -178589,7 +181686,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090065] = {
 		sink_limit = 1,
@@ -178649,7 +181747,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090066] = {
 		sink_limit = 1,
@@ -178709,7 +181808,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090067] = {
 		sink_limit = 1,
@@ -178769,7 +181869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090068] = {
 		sink_limit = 1,
@@ -178829,7 +181930,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090069] = {
 		sink_limit = 1,
@@ -178889,7 +181991,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090070] = {
 		sink_limit = 1,
@@ -178949,7 +182052,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090071] = {
 		sink_limit = 1,
@@ -179009,7 +182113,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090072] = {
 		sink_limit = 1,
@@ -179069,7 +182174,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090073] = {
 		sink_limit = 1,
@@ -179129,7 +182235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090074] = {
 		sink_limit = 1,
@@ -179181,7 +182288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090075] = {
 		sink_limit = 1,
@@ -179233,7 +182341,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090076] = {
 		sink_limit = 1,
@@ -179285,7 +182394,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090077] = {
 		sink_limit = 1,
@@ -179345,7 +182455,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090078] = {
 		sink_limit = 1,
@@ -179405,7 +182516,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090079] = {
 		sink_limit = 1,
@@ -179465,7 +182577,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090080] = {
 		sink_limit = 1,
@@ -179525,7 +182638,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090081] = {
 		sink_limit = 1,
@@ -179585,7 +182699,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090082] = {
 		sink_limit = 1,
@@ -179645,7 +182760,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090083] = {
 		sink_limit = 1,
@@ -179705,7 +182821,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090084] = {
 		sink_limit = 1,
@@ -179765,7 +182882,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090085] = {
 		sink_limit = 1,
@@ -179825,7 +182943,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090086] = {
 		sink_limit = 1,
@@ -179885,7 +183004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090087] = {
 		sink_limit = 1,
@@ -179945,7 +183065,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090088] = {
 		sink_limit = 1,
@@ -180005,7 +183126,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090089] = {
 		sink_limit = 1,
@@ -180065,7 +183187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090090] = {
 		sink_limit = 1,
@@ -180117,7 +183240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090091] = {
 		sink_limit = 1,
@@ -180169,7 +183293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090092] = {
 		sink_limit = 1,
@@ -180221,7 +183346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090093] = {
 		sink_limit = 1,
@@ -180281,7 +183407,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090094] = {
 		sink_limit = 1,
@@ -180341,7 +183468,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090095] = {
 		sink_limit = 1,
@@ -180401,7 +183529,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090096] = {
 		sink_limit = 1,
@@ -180461,7 +183590,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090200] = {
 		sink_limit = 1,
@@ -180521,7 +183651,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090201] = {
 		sink_limit = 1,
@@ -180581,7 +183712,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090202] = {
 		sink_limit = 1,
@@ -180641,7 +183773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090203] = {
 		sink_limit = 1,
@@ -180701,7 +183834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090204] = {
 		sink_limit = 1,
@@ -180761,7 +183895,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090205] = {
 		sink_limit = 1,
@@ -180821,7 +183956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090206] = {
 		sink_limit = 1,
@@ -180881,7 +184017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090207] = {
 		sink_limit = 1,
@@ -180941,7 +184078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090208] = {
 		sink_limit = 1,
@@ -181001,7 +184139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090209] = {
 		sink_limit = 1,
@@ -181053,7 +184192,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090210] = {
 		sink_limit = 1,
@@ -181105,7 +184245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090211] = {
 		sink_limit = 1,
@@ -181157,7 +184298,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090212] = {
 		sink_limit = 1,
@@ -181217,7 +184359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090213] = {
 		sink_limit = 1,
@@ -181277,7 +184420,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090214] = {
 		sink_limit = 1,
@@ -181337,7 +184481,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090215] = {
 		sink_limit = 1,
@@ -181397,7 +184542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090216] = {
 		sink_limit = 1,
@@ -181457,7 +184603,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090217] = {
 		sink_limit = 1,
@@ -181517,7 +184664,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090218] = {
 		sink_limit = 1,
@@ -181577,7 +184725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090219] = {
 		sink_limit = 1,
@@ -181637,7 +184786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090220] = {
 		sink_limit = 1,
@@ -181697,7 +184847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090221] = {
 		sink_limit = 1,
@@ -181757,7 +184908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090222] = {
 		sink_limit = 1,
@@ -181817,7 +184969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090223] = {
 		sink_limit = 1,
@@ -181877,7 +185030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090224] = {
 		sink_limit = 1,
@@ -181937,7 +185091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090225] = {
 		sink_limit = 1,
@@ -181989,7 +185144,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090226] = {
 		sink_limit = 1,
@@ -182041,7 +185197,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090227] = {
 		sink_limit = 1,
@@ -182093,7 +185250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090228] = {
 		sink_limit = 1,
@@ -182153,7 +185311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090229] = {
 		sink_limit = 1,
@@ -182213,7 +185372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090230] = {
 		sink_limit = 1,
@@ -182273,7 +185433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090231] = {
 		sink_limit = 1,
@@ -182333,7 +185494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090232] = {
 		sink_limit = 1,
@@ -182393,7 +185555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090233] = {
 		sink_limit = 1,
@@ -182453,7 +185616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090234] = {
 		sink_limit = 1,
@@ -182513,7 +185677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090235] = {
 		sink_limit = 1,
@@ -182573,7 +185738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090236] = {
 		sink_limit = 1,
@@ -182633,7 +185799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090237] = {
 		sink_limit = 1,
@@ -182693,7 +185860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090238] = {
 		sink_limit = 1,
@@ -182753,7 +185921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090239] = {
 		sink_limit = 1,
@@ -182813,7 +185982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090240] = {
 		sink_limit = 1,
@@ -182873,7 +186043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090241] = {
 		sink_limit = 1,
@@ -182925,7 +186096,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090242] = {
 		sink_limit = 1,
@@ -182977,7 +186149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090243] = {
 		sink_limit = 1,
@@ -183029,7 +186202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090244] = {
 		sink_limit = 1,
@@ -183089,7 +186263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090245] = {
 		sink_limit = 1,
@@ -183149,7 +186324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090246] = {
 		sink_limit = 1,
@@ -183209,7 +186385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090247] = {
 		sink_limit = 1,
@@ -183269,7 +186446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090248] = {
 		sink_limit = 1,
@@ -183329,7 +186507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090249] = {
 		sink_limit = 1,
@@ -183389,7 +186568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090250] = {
 		sink_limit = 1,
@@ -183449,7 +186629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090251] = {
 		sink_limit = 1,
@@ -183509,7 +186690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090252] = {
 		sink_limit = 1,
@@ -183569,7 +186751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090253] = {
 		sink_limit = 1,
@@ -183629,7 +186812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090254] = {
 		sink_limit = 1,
@@ -183689,7 +186873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090255] = {
 		sink_limit = 1,
@@ -183749,7 +186934,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090256] = {
 		sink_limit = 1,
@@ -183809,7 +186995,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090257] = {
 		sink_limit = 1,
@@ -183861,7 +187048,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090258] = {
 		sink_limit = 1,
@@ -183913,7 +187101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090259] = {
 		sink_limit = 1,
@@ -183965,7 +187154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090260] = {
 		sink_limit = 1,
@@ -184025,7 +187215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090261] = {
 		sink_limit = 1,
@@ -184085,7 +187276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090262] = {
 		sink_limit = 1,
@@ -184145,7 +187337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090263] = {
 		sink_limit = 1,
@@ -184205,7 +187398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090264] = {
 		sink_limit = 1,
@@ -184265,7 +187459,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090265] = {
 		sink_limit = 1,
@@ -184325,7 +187520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090266] = {
 		sink_limit = 1,
@@ -184385,7 +187581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090267] = {
 		sink_limit = 1,
@@ -184445,7 +187642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090268] = {
 		sink_limit = 1,
@@ -184505,7 +187703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090269] = {
 		sink_limit = 1,
@@ -184565,7 +187764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090270] = {
 		sink_limit = 1,
@@ -184625,7 +187825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090271] = {
 		sink_limit = 1,
@@ -184685,7 +187886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090272] = {
 		sink_limit = 1,
@@ -184745,7 +187947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090273] = {
 		sink_limit = 1,
@@ -184797,7 +188000,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090274] = {
 		sink_limit = 1,
@@ -184849,7 +188053,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090275] = {
 		sink_limit = 1,
@@ -184901,7 +188106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090276] = {
 		sink_limit = 1,
@@ -184961,7 +188167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090277] = {
 		sink_limit = 1,
@@ -185021,7 +188228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090278] = {
 		sink_limit = 1,
@@ -185081,7 +188289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090279] = {
 		sink_limit = 1,
@@ -185141,7 +188350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090280] = {
 		sink_limit = 1,
@@ -185201,7 +188411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090281] = {
 		sink_limit = 1,
@@ -185261,7 +188472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090282] = {
 		sink_limit = 1,
@@ -185321,7 +188533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090283] = {
 		sink_limit = 1,
@@ -185381,7 +188594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090284] = {
 		sink_limit = 1,
@@ -185441,7 +188655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090285] = {
 		sink_limit = 1,
@@ -185501,7 +188716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090286] = {
 		sink_limit = 1,
@@ -185561,7 +188777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090287] = {
 		sink_limit = 1,
@@ -185621,7 +188838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090288] = {
 		sink_limit = 1,
@@ -185681,7 +188899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090289] = {
 		sink_limit = 1,
@@ -185733,7 +188952,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090290] = {
 		sink_limit = 1,
@@ -185785,7 +189005,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090291] = {
 		sink_limit = 1,
@@ -185837,7 +189058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090292] = {
 		sink_limit = 1,
@@ -185897,7 +189119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090293] = {
 		sink_limit = 1,
@@ -185957,7 +189180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090294] = {
 		sink_limit = 1,
@@ -186017,7 +189241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090295] = {
 		sink_limit = 1,
@@ -186077,7 +189302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090296] = {
 		sink_limit = 1,
@@ -186116,7 +189342,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090297] = {
 		sink_limit = 1,
@@ -186155,7 +189382,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090298] = {
 		sink_limit = 1,
@@ -186194,7 +189422,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090299] = {
 		sink_limit = 1,
@@ -186233,7 +189462,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090300] = {
 		sink_limit = 1,
@@ -186272,7 +189502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090301] = {
 		sink_limit = 1,
@@ -186311,7 +189542,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090302] = {
 		sink_limit = 1,
@@ -186350,7 +189582,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090303] = {
 		sink_limit = 1,
@@ -186389,7 +189622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090304] = {
 		sink_limit = 1,
@@ -186428,7 +189662,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090305] = {
 		sink_limit = 1,
@@ -186467,7 +189702,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090306] = {
 		sink_limit = 1,
@@ -186506,7 +189742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090307] = {
 		sink_limit = 1,
@@ -186545,7 +189782,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090308] = {
 		sink_limit = 1,
@@ -186584,7 +189822,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090309] = {
 		sink_limit = 1,
@@ -186623,7 +189862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090310] = {
 		sink_limit = 1,
@@ -186662,7 +189902,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090311] = {
 		sink_limit = 1,
@@ -186701,7 +189942,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090400] = {
 		sink_limit = 1,
@@ -186761,7 +190003,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090401] = {
 		sink_limit = 1,
@@ -186821,7 +190064,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090402] = {
 		sink_limit = 1,
@@ -186881,7 +190125,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090403] = {
 		sink_limit = 1,
@@ -186941,7 +190186,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090404] = {
 		sink_limit = 1,
@@ -187001,7 +190247,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090405] = {
 		sink_limit = 1,
@@ -187061,7 +190308,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090406] = {
 		sink_limit = 1,
@@ -187121,7 +190369,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090407] = {
 		sink_limit = 1,
@@ -187181,7 +190430,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090408] = {
 		sink_limit = 1,
@@ -187241,7 +190491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090409] = {
 		sink_limit = 1,
@@ -187301,7 +190552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090410] = {
 		sink_limit = 1,
@@ -187361,7 +190613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090411] = {
 		sink_limit = 1,
@@ -187421,7 +190674,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090412] = {
 		sink_limit = 1,
@@ -187481,7 +190735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090413] = {
 		sink_limit = 1,
@@ -187541,7 +190796,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090500] = {
 		sink_limit = 1,
@@ -187601,7 +190857,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090501] = {
 		sink_limit = 1,
@@ -187661,7 +190918,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090502] = {
 		sink_limit = 1,
@@ -187721,7 +190979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090503] = {
 		sink_limit = 1,
@@ -187781,7 +191040,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090504] = {
 		sink_limit = 1,
@@ -187841,7 +191101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090505] = {
 		sink_limit = 1,
@@ -187901,7 +191162,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090506] = {
 		sink_limit = 1,
@@ -187961,7 +191223,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090507] = {
 		sink_limit = 1,
@@ -188021,7 +191284,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090508] = {
 		sink_limit = 1,
@@ -188081,7 +191345,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090509] = {
 		sink_limit = 1,
@@ -188141,7 +191406,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090510] = {
 		sink_limit = 1,
@@ -188201,7 +191467,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090511] = {
 		sink_limit = 1,
@@ -188261,7 +191528,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090512] = {
 		sink_limit = 1,
@@ -188321,7 +191589,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1090513] = {
 		sink_limit = 1,
@@ -188381,7 +191650,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130010] = {
 		sink_limit = 1,
@@ -188441,7 +191711,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130020] = {
 		sink_limit = 1,
@@ -188501,7 +191772,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130030] = {
 		sink_limit = 1,
@@ -188561,7 +191833,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130040] = {
 		sink_limit = 1,
@@ -188621,7 +191894,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130050] = {
 		sink_limit = 1,
@@ -188681,7 +191955,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130060] = {
 		sink_limit = 1,
@@ -188741,7 +192016,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130070] = {
 		sink_limit = 1,
@@ -188801,7 +192077,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130080] = {
 		sink_limit = 1,
@@ -188861,7 +192138,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130090] = {
 		sink_limit = 1,
@@ -188921,7 +192199,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130100] = {
 		sink_limit = 1,
@@ -188973,7 +192252,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130110] = {
 		sink_limit = 1,
@@ -189025,7 +192305,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130120] = {
 		sink_limit = 1,
@@ -189077,7 +192358,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1130500] = {
 		sink_limit = 1,
@@ -189137,7 +192419,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131010] = {
 		sink_limit = 1,
@@ -189197,7 +192480,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131020] = {
 		sink_limit = 1,
@@ -189257,7 +192541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131030] = {
 		sink_limit = 1,
@@ -189317,7 +192602,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131040] = {
 		sink_limit = 1,
@@ -189377,7 +192663,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131050] = {
 		sink_limit = 1,
@@ -189437,7 +192724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131060] = {
 		sink_limit = 1,
@@ -189497,7 +192785,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131070] = {
 		sink_limit = 1,
@@ -189557,7 +192846,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131080] = {
 		sink_limit = 1,
@@ -189617,7 +192907,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131090] = {
 		sink_limit = 1,
@@ -189677,7 +192968,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131100] = {
 		sink_limit = 1,
@@ -189729,7 +193021,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131110] = {
 		sink_limit = 1,
@@ -189781,7 +193074,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131120] = {
 		sink_limit = 1,
@@ -189833,7 +193127,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1131500] = {
 		sink_limit = 1,
@@ -189893,7 +193188,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132010] = {
 		sink_limit = 1,
@@ -189953,7 +193249,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132020] = {
 		sink_limit = 1,
@@ -190013,7 +193310,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132030] = {
 		sink_limit = 1,
@@ -190073,7 +193371,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132040] = {
 		sink_limit = 1,
@@ -190133,7 +193432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132050] = {
 		sink_limit = 1,
@@ -190193,7 +193493,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132060] = {
 		sink_limit = 1,
@@ -190253,7 +193554,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132070] = {
 		sink_limit = 1,
@@ -190313,7 +193615,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132080] = {
 		sink_limit = 1,
@@ -190373,7 +193676,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132090] = {
 		sink_limit = 1,
@@ -190433,7 +193737,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132100] = {
 		sink_limit = 1,
@@ -190485,7 +193790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132110] = {
 		sink_limit = 1,
@@ -190537,7 +193843,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132120] = {
 		sink_limit = 1,
@@ -190589,7 +193896,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1132500] = {
 		sink_limit = 1,
@@ -190649,7 +193957,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1140001] = {
 		sink_limit = 1,
@@ -190693,7 +194002,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[1140002] = {
 		sink_limit = 1,
@@ -190745,7 +194055,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[1140003] = {
 		sink_limit = 1,
@@ -190797,7 +194108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[1140004] = {
 		sink_limit = 1,
@@ -190849,7 +194161,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			180
-		}
+		},
+		bufficon = {}
 	},
 	[1140101] = {
 		sink_limit = 1,
@@ -190887,7 +194200,8 @@ pg.expedition_data_template = {
 		},
 		objective_3 = {
 			6
-		}
+		},
+		bufficon = {}
 	},
 	[1140102] = {
 		sink_limit = 1,
@@ -190925,7 +194239,8 @@ pg.expedition_data_template = {
 		},
 		objective_3 = {
 			6
-		}
+		},
+		bufficon = {}
 	},
 	[1140103] = {
 		sink_limit = 1,
@@ -190963,7 +194278,8 @@ pg.expedition_data_template = {
 		},
 		objective_3 = {
 			6
-		}
+		},
+		bufficon = {}
 	},
 	[1160101] = {
 		sink_limit = 1,
@@ -191023,7 +194339,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160102] = {
 		sink_limit = 1,
@@ -191083,7 +194400,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160103] = {
 		sink_limit = 1,
@@ -191143,7 +194461,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160111] = {
 		sink_limit = 1,
@@ -191203,7 +194522,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160112] = {
 		sink_limit = 1,
@@ -191263,7 +194583,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160113] = {
 		sink_limit = 1,
@@ -191323,7 +194644,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160121] = {
 		sink_limit = 1,
@@ -191383,7 +194705,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160122] = {
 		sink_limit = 1,
@@ -191443,7 +194766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160123] = {
 		sink_limit = 1,
@@ -191503,7 +194827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160131] = {
 		sink_limit = 1,
@@ -191555,7 +194880,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160132] = {
 		sink_limit = 1,
@@ -191607,7 +194933,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160133] = {
 		sink_limit = 1,
@@ -191659,7 +194986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160141] = {
 		sink_limit = 1,
@@ -191719,7 +195047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160501] = {
 		sink_limit = 1,
@@ -191779,7 +195108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160201] = {
 		sink_limit = 1,
@@ -191839,7 +195169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160202] = {
 		sink_limit = 1,
@@ -191899,7 +195230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160203] = {
 		sink_limit = 1,
@@ -191959,7 +195291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160211] = {
 		sink_limit = 1,
@@ -192019,7 +195352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160212] = {
 		sink_limit = 1,
@@ -192079,7 +195413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160213] = {
 		sink_limit = 1,
@@ -192139,7 +195474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160221] = {
 		sink_limit = 1,
@@ -192199,7 +195535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160222] = {
 		sink_limit = 1,
@@ -192259,7 +195596,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160223] = {
 		sink_limit = 1,
@@ -192319,7 +195657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160231] = {
 		sink_limit = 1,
@@ -192371,7 +195710,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160232] = {
 		sink_limit = 1,
@@ -192423,7 +195763,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160233] = {
 		sink_limit = 1,
@@ -192475,7 +195816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160241] = {
 		sink_limit = 1,
@@ -192535,7 +195877,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160502] = {
 		sink_limit = 1,
@@ -192595,7 +195938,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160301] = {
 		sink_limit = 1,
@@ -192655,7 +195999,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160302] = {
 		sink_limit = 1,
@@ -192715,7 +196060,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160303] = {
 		sink_limit = 1,
@@ -192775,7 +196121,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160304] = {
 		sink_limit = 1,
@@ -192835,7 +196182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160311] = {
 		sink_limit = 1,
@@ -192895,7 +196243,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160312] = {
 		sink_limit = 1,
@@ -192955,7 +196304,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160313] = {
 		sink_limit = 1,
@@ -193015,7 +196365,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160314] = {
 		sink_limit = 1,
@@ -193075,7 +196426,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160321] = {
 		sink_limit = 1,
@@ -193135,7 +196487,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160322] = {
 		sink_limit = 1,
@@ -193195,7 +196548,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160323] = {
 		sink_limit = 1,
@@ -193255,7 +196609,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160331] = {
 		sink_limit = 1,
@@ -193307,7 +196662,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160332] = {
 		sink_limit = 1,
@@ -193359,7 +196715,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160333] = {
 		sink_limit = 1,
@@ -193411,7 +196768,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160341] = {
 		sink_limit = 1,
@@ -193471,7 +196829,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160503] = {
 		sink_limit = 1,
@@ -193531,7 +196890,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160401] = {
 		sink_limit = 1,
@@ -193591,7 +196951,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160402] = {
 		sink_limit = 1,
@@ -193651,7 +197012,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160403] = {
 		sink_limit = 1,
@@ -193711,7 +197073,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160404] = {
 		sink_limit = 1,
@@ -193771,7 +197134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160411] = {
 		sink_limit = 1,
@@ -193831,7 +197195,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160412] = {
 		sink_limit = 1,
@@ -193891,7 +197256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160413] = {
 		sink_limit = 1,
@@ -193951,7 +197317,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160414] = {
 		sink_limit = 1,
@@ -194011,7 +197378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160421] = {
 		sink_limit = 1,
@@ -194071,7 +197439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160422] = {
 		sink_limit = 1,
@@ -194131,7 +197500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160423] = {
 		sink_limit = 1,
@@ -194191,7 +197561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160424] = {
 		sink_limit = 1,
@@ -194251,7 +197622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160431] = {
 		sink_limit = 1,
@@ -194303,7 +197675,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160432] = {
 		sink_limit = 1,
@@ -194355,7 +197728,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160433] = {
 		sink_limit = 1,
@@ -194407,7 +197781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160441] = {
 		sink_limit = 1,
@@ -194467,7 +197842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160504] = {
 		sink_limit = 1,
@@ -194527,7 +197903,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160505] = {
 		sink_limit = 1,
@@ -194587,7 +197964,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160506] = {
 		sink_limit = 1,
@@ -194647,7 +198025,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160507] = {
 		sink_limit = 1,
@@ -194707,7 +198086,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160508] = {
 		sink_limit = 1,
@@ -194767,7 +198147,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160509] = {
 		sink_limit = 1,
@@ -194827,7 +198208,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1160510] = {
 		sink_limit = 1,
@@ -194866,7 +198248,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			200
-		}
+		},
+		bufficon = {}
 	},
 	[1170001] = {
 		sink_limit = 1,
@@ -194926,7 +198309,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170002] = {
 		sink_limit = 1,
@@ -194986,7 +198370,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170003] = {
 		sink_limit = 1,
@@ -195046,7 +198431,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170004] = {
 		sink_limit = 1,
@@ -195106,7 +198492,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170005] = {
 		sink_limit = 1,
@@ -195166,7 +198553,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170006] = {
 		sink_limit = 1,
@@ -195226,7 +198614,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170007] = {
 		sink_limit = 1,
@@ -195286,7 +198675,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170008] = {
 		sink_limit = 1,
@@ -195346,7 +198736,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170009] = {
 		sink_limit = 1,
@@ -195406,7 +198797,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170010] = {
 		sink_limit = 1,
@@ -195458,7 +198850,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170011] = {
 		sink_limit = 1,
@@ -195510,7 +198903,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170012] = {
 		sink_limit = 1,
@@ -195562,7 +198956,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170101] = {
 		sink_limit = 1,
@@ -195622,7 +199017,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170021] = {
 		sink_limit = 1,
@@ -195682,7 +199078,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170022] = {
 		sink_limit = 1,
@@ -195742,7 +199139,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170023] = {
 		sink_limit = 1,
@@ -195802,7 +199200,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170024] = {
 		sink_limit = 1,
@@ -195862,7 +199261,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170025] = {
 		sink_limit = 1,
@@ -195922,7 +199322,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170026] = {
 		sink_limit = 1,
@@ -195982,7 +199383,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170027] = {
 		sink_limit = 1,
@@ -196042,7 +199444,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170028] = {
 		sink_limit = 1,
@@ -196102,7 +199505,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170029] = {
 		sink_limit = 1,
@@ -196162,7 +199566,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170030] = {
 		sink_limit = 1,
@@ -196214,7 +199619,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170031] = {
 		sink_limit = 1,
@@ -196266,7 +199672,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170032] = {
 		sink_limit = 1,
@@ -196318,7 +199725,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170102] = {
 		sink_limit = 1,
@@ -196378,7 +199786,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170041] = {
 		sink_limit = 1,
@@ -196438,7 +199847,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170042] = {
 		sink_limit = 1,
@@ -196498,7 +199908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170043] = {
 		sink_limit = 1,
@@ -196558,7 +199969,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170044] = {
 		sink_limit = 1,
@@ -196618,7 +200030,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170045] = {
 		sink_limit = 1,
@@ -196678,7 +200091,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170046] = {
 		sink_limit = 1,
@@ -196738,7 +200152,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170047] = {
 		sink_limit = 1,
@@ -196798,7 +200213,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170048] = {
 		sink_limit = 1,
@@ -196858,7 +200274,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170049] = {
 		sink_limit = 1,
@@ -196918,7 +200335,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170050] = {
 		sink_limit = 1,
@@ -196970,7 +200388,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170051] = {
 		sink_limit = 1,
@@ -197022,7 +200441,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170052] = {
 		sink_limit = 1,
@@ -197074,7 +200494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1170103] = {
 		sink_limit = 1,
@@ -197134,7 +200555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180001] = {
 		sink_limit = 1,
@@ -197194,7 +200616,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180002] = {
 		sink_limit = 1,
@@ -197254,7 +200677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180003] = {
 		sink_limit = 1,
@@ -197314,7 +200738,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180004] = {
 		sink_limit = 1,
@@ -197374,7 +200799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180005] = {
 		sink_limit = 1,
@@ -197434,7 +200860,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180006] = {
 		sink_limit = 1,
@@ -197494,7 +200921,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180007] = {
 		sink_limit = 1,
@@ -197554,7 +200982,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180008] = {
 		sink_limit = 1,
@@ -197614,7 +201043,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180009] = {
 		sink_limit = 1,
@@ -197674,7 +201104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180010] = {
 		sink_limit = 1,
@@ -197726,7 +201157,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180011] = {
 		sink_limit = 1,
@@ -197778,7 +201210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180012] = {
 		sink_limit = 1,
@@ -197830,7 +201263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180013] = {
 		sink_limit = 1,
@@ -197890,7 +201324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180101] = {
 		sink_limit = 1,
@@ -197950,7 +201385,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180102] = {
 		sink_limit = 1,
@@ -198010,7 +201446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180103] = {
 		sink_limit = 1,
@@ -198070,7 +201507,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180104] = {
 		sink_limit = 1,
@@ -198130,7 +201568,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180105] = {
 		sink_limit = 1,
@@ -198190,7 +201629,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180106] = {
 		sink_limit = 1,
@@ -198250,7 +201690,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180107] = {
 		sink_limit = 1,
@@ -198310,7 +201751,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180108] = {
 		sink_limit = 1,
@@ -198370,7 +201812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180109] = {
 		sink_limit = 1,
@@ -198430,7 +201873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180110] = {
 		sink_limit = 1,
@@ -198482,7 +201926,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180111] = {
 		sink_limit = 1,
@@ -198534,7 +201979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180112] = {
 		sink_limit = 1,
@@ -198586,7 +202032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180113] = {
 		sink_limit = 1,
@@ -198646,7 +202093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180201] = {
 		sink_limit = 1,
@@ -198706,7 +202154,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180202] = {
 		sink_limit = 1,
@@ -198766,7 +202215,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180203] = {
 		sink_limit = 1,
@@ -198826,7 +202276,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180204] = {
 		sink_limit = 1,
@@ -198886,7 +202337,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180205] = {
 		sink_limit = 1,
@@ -198946,7 +202398,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180206] = {
 		sink_limit = 1,
@@ -199006,7 +202459,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180207] = {
 		sink_limit = 1,
@@ -199066,7 +202520,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180208] = {
 		sink_limit = 1,
@@ -199126,7 +202581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180209] = {
 		sink_limit = 1,
@@ -199186,7 +202642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180210] = {
 		sink_limit = 1,
@@ -199238,7 +202695,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180211] = {
 		sink_limit = 1,
@@ -199290,7 +202748,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180212] = {
 		sink_limit = 1,
@@ -199342,7 +202801,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180213] = {
 		sink_limit = 1,
@@ -199402,7 +202862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180221] = {
 		sink_limit = 1,
@@ -199462,7 +202923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180231] = {
 		sink_limit = 1,
@@ -199522,7 +202984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180232] = {
 		sink_limit = 1,
@@ -199582,7 +203045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180241] = {
 		sink_limit = 1,
@@ -199642,7 +203106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180242] = {
 		sink_limit = 1,
@@ -199702,7 +203167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180243] = {
 		sink_limit = 1,
@@ -199762,7 +203228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180301] = {
 		sink_limit = 1,
@@ -199822,7 +203289,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180302] = {
 		sink_limit = 1,
@@ -199882,7 +203350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180303] = {
 		sink_limit = 1,
@@ -199942,7 +203411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180304] = {
 		sink_limit = 1,
@@ -200002,7 +203472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180305] = {
 		sink_limit = 1,
@@ -200062,7 +203533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180306] = {
 		sink_limit = 1,
@@ -200122,7 +203594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180307] = {
 		sink_limit = 1,
@@ -200182,7 +203655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180308] = {
 		sink_limit = 1,
@@ -200242,7 +203716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180309] = {
 		sink_limit = 1,
@@ -200302,7 +203777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180310] = {
 		sink_limit = 1,
@@ -200354,7 +203830,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180311] = {
 		sink_limit = 1,
@@ -200406,7 +203883,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180312] = {
 		sink_limit = 1,
@@ -200458,7 +203936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180313] = {
 		sink_limit = 1,
@@ -200518,7 +203997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180401] = {
 		sink_limit = 1,
@@ -200578,7 +204058,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180402] = {
 		sink_limit = 1,
@@ -200638,7 +204119,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180403] = {
 		sink_limit = 1,
@@ -200698,7 +204180,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180404] = {
 		sink_limit = 1,
@@ -200758,7 +204241,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180405] = {
 		sink_limit = 1,
@@ -200818,7 +204302,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180406] = {
 		sink_limit = 1,
@@ -200878,7 +204363,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180407] = {
 		sink_limit = 1,
@@ -200938,7 +204424,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180408] = {
 		sink_limit = 1,
@@ -200998,7 +204485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180409] = {
 		sink_limit = 1,
@@ -201058,7 +204546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180410] = {
 		sink_limit = 1,
@@ -201110,7 +204599,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180411] = {
 		sink_limit = 1,
@@ -201162,7 +204652,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180412] = {
 		sink_limit = 1,
@@ -201214,7 +204705,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180413] = {
 		sink_limit = 1,
@@ -201274,7 +204766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180501] = {
 		sink_limit = 1,
@@ -201334,7 +204827,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180502] = {
 		sink_limit = 1,
@@ -201394,7 +204888,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180503] = {
 		sink_limit = 1,
@@ -201454,7 +204949,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180504] = {
 		sink_limit = 1,
@@ -201514,7 +205010,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180505] = {
 		sink_limit = 1,
@@ -201574,7 +205071,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180506] = {
 		sink_limit = 1,
@@ -201634,7 +205132,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180507] = {
 		sink_limit = 1,
@@ -201694,7 +205193,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180508] = {
 		sink_limit = 1,
@@ -201754,7 +205254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180509] = {
 		sink_limit = 1,
@@ -201814,7 +205315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180510] = {
 		sink_limit = 1,
@@ -201866,7 +205368,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180511] = {
 		sink_limit = 1,
@@ -201918,7 +205421,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180512] = {
 		sink_limit = 1,
@@ -201970,7 +205474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180513] = {
 		sink_limit = 1,
@@ -202030,7 +205535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180521] = {
 		sink_limit = 1,
@@ -202090,7 +205596,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180531] = {
 		sink_limit = 1,
@@ -202150,7 +205657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180532] = {
 		sink_limit = 1,
@@ -202210,7 +205718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180541] = {
 		sink_limit = 1,
@@ -202270,7 +205779,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180542] = {
 		sink_limit = 1,
@@ -202330,7 +205840,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180543] = {
 		sink_limit = 1,
@@ -202390,7 +205901,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180601] = {
 		sink_limit = 1,
@@ -202450,7 +205962,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180602] = {
 		sink_limit = 1,
@@ -202510,7 +206023,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180603] = {
 		sink_limit = 1,
@@ -202570,7 +206084,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180604] = {
 		sink_limit = 1,
@@ -202630,7 +206145,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180605] = {
 		sink_limit = 1,
@@ -202690,7 +206206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180606] = {
 		sink_limit = 1,
@@ -202750,7 +206267,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180607] = {
 		sink_limit = 1,
@@ -202810,7 +206328,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180608] = {
 		sink_limit = 1,
@@ -202870,7 +206389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180609] = {
 		sink_limit = 1,
@@ -202930,7 +206450,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180610] = {
 		sink_limit = 1,
@@ -202982,7 +206503,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180611] = {
 		sink_limit = 1,
@@ -203034,7 +206556,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180612] = {
 		sink_limit = 1,
@@ -203086,7 +206609,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180613] = {
 		sink_limit = 1,
@@ -203146,7 +206670,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180701] = {
 		sink_limit = 1,
@@ -203206,7 +206731,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180702] = {
 		sink_limit = 1,
@@ -203266,7 +206792,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180703] = {
 		sink_limit = 1,
@@ -203326,7 +206853,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180704] = {
 		sink_limit = 1,
@@ -203386,7 +206914,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180705] = {
 		sink_limit = 1,
@@ -203446,7 +206975,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180706] = {
 		sink_limit = 1,
@@ -203506,7 +207036,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180707] = {
 		sink_limit = 1,
@@ -203566,7 +207097,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180708] = {
 		sink_limit = 1,
@@ -203626,7 +207158,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180709] = {
 		sink_limit = 1,
@@ -203686,7 +207219,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180710] = {
 		sink_limit = 1,
@@ -203738,7 +207272,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180711] = {
 		sink_limit = 1,
@@ -203790,7 +207325,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180712] = {
 		sink_limit = 1,
@@ -203842,7 +207378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180713] = {
 		sink_limit = 1,
@@ -203902,7 +207439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180801] = {
 		sink_limit = 1,
@@ -203962,7 +207500,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180802] = {
 		sink_limit = 1,
@@ -204022,7 +207561,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180803] = {
 		sink_limit = 1,
@@ -204082,7 +207622,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180804] = {
 		sink_limit = 1,
@@ -204142,7 +207683,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180805] = {
 		sink_limit = 1,
@@ -204202,7 +207744,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180806] = {
 		sink_limit = 1,
@@ -204262,7 +207805,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180807] = {
 		sink_limit = 1,
@@ -204322,7 +207866,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180808] = {
 		sink_limit = 1,
@@ -204382,7 +207927,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180809] = {
 		sink_limit = 1,
@@ -204442,7 +207988,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180810] = {
 		sink_limit = 1,
@@ -204494,7 +208041,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180811] = {
 		sink_limit = 1,
@@ -204546,7 +208094,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180812] = {
 		sink_limit = 1,
@@ -204598,7 +208147,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180813] = {
 		sink_limit = 1,
@@ -204658,7 +208208,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180821] = {
 		sink_limit = 1,
@@ -204718,7 +208269,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180822] = {
 		sink_limit = 1,
@@ -204778,7 +208330,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180831] = {
 		sink_limit = 1,
@@ -204838,7 +208391,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180832] = {
 		sink_limit = 1,
@@ -204898,7 +208452,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180833] = {
 		sink_limit = 1,
@@ -204958,7 +208513,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180841] = {
 		sink_limit = 1,
@@ -205018,7 +208574,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180842] = {
 		sink_limit = 1,
@@ -205078,7 +208635,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180843] = {
 		sink_limit = 1,
@@ -205138,7 +208696,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180844] = {
 		sink_limit = 1,
@@ -205198,7 +208757,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180901] = {
 		sink_limit = 1,
@@ -205258,7 +208818,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180902] = {
 		sink_limit = 1,
@@ -205318,7 +208879,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180903] = {
 		sink_limit = 1,
@@ -205378,7 +208940,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180904] = {
 		sink_limit = 1,
@@ -205438,7 +209001,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180905] = {
 		sink_limit = 1,
@@ -205498,7 +209062,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180906] = {
 		sink_limit = 1,
@@ -205558,7 +209123,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180907] = {
 		sink_limit = 1,
@@ -205618,7 +209184,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180908] = {
 		sink_limit = 1,
@@ -205678,7 +209245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180909] = {
 		sink_limit = 1,
@@ -205738,7 +209306,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180910] = {
 		sink_limit = 1,
@@ -205790,7 +209359,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180911] = {
 		sink_limit = 1,
@@ -205842,7 +209412,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180912] = {
 		sink_limit = 1,
@@ -205894,7 +209465,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1180913] = {
 		sink_limit = 1,
@@ -205954,7 +209526,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181001] = {
 		sink_limit = 1,
@@ -206014,7 +209587,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181002] = {
 		sink_limit = 1,
@@ -206074,7 +209648,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181003] = {
 		sink_limit = 1,
@@ -206134,7 +209709,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181004] = {
 		sink_limit = 1,
@@ -206194,7 +209770,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181005] = {
 		sink_limit = 1,
@@ -206254,7 +209831,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181006] = {
 		sink_limit = 1,
@@ -206314,7 +209892,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181007] = {
 		sink_limit = 1,
@@ -206374,7 +209953,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181008] = {
 		sink_limit = 1,
@@ -206434,7 +210014,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181009] = {
 		sink_limit = 1,
@@ -206494,7 +210075,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181010] = {
 		sink_limit = 1,
@@ -206546,7 +210128,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181011] = {
 		sink_limit = 1,
@@ -206598,7 +210181,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181012] = {
 		sink_limit = 1,
@@ -206650,7 +210234,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181013] = {
 		sink_limit = 1,
@@ -206710,7 +210295,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181101] = {
 		sink_limit = 1,
@@ -206770,7 +210356,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181102] = {
 		sink_limit = 1,
@@ -206830,7 +210417,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181103] = {
 		sink_limit = 1,
@@ -206890,7 +210478,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181104] = {
 		sink_limit = 1,
@@ -206950,7 +210539,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181105] = {
 		sink_limit = 1,
@@ -207010,7 +210600,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181106] = {
 		sink_limit = 1,
@@ -207070,7 +210661,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181107] = {
 		sink_limit = 1,
@@ -207130,7 +210722,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181108] = {
 		sink_limit = 1,
@@ -207190,7 +210783,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181109] = {
 		sink_limit = 1,
@@ -207250,7 +210844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181110] = {
 		sink_limit = 1,
@@ -207302,7 +210897,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181111] = {
 		sink_limit = 1,
@@ -207354,7 +210950,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181112] = {
 		sink_limit = 1,
@@ -207406,7 +211003,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181113] = {
 		sink_limit = 1,
@@ -207466,7 +211064,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181121] = {
 		sink_limit = 1,
@@ -207526,7 +211125,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181122] = {
 		sink_limit = 1,
@@ -207586,7 +211186,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181131] = {
 		sink_limit = 1,
@@ -207646,7 +211247,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181132] = {
 		sink_limit = 1,
@@ -207706,7 +211308,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181133] = {
 		sink_limit = 1,
@@ -207766,7 +211369,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181141] = {
 		sink_limit = 1,
@@ -207826,7 +211430,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181142] = {
 		sink_limit = 1,
@@ -207886,7 +211491,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181143] = {
 		sink_limit = 1,
@@ -207946,7 +211552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181144] = {
 		sink_limit = 1,
@@ -208006,7 +211613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1181201] = {
 		sink_limit = 1,
@@ -208045,7 +211653,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1191201] = {
 		sink_limit = 1,
@@ -208084,7 +211693,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1201201] = {
 		sink_limit = 1,
@@ -208136,7 +211746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1201202] = {
 		sink_limit = 1,
@@ -208188,7 +211799,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1201203] = {
 		sink_limit = 1,
@@ -208240,7 +211852,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1201204] = {
 		sink_limit = 1,
@@ -208292,7 +211905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1201205] = {
 		sink_limit = 1,
@@ -208344,7 +211958,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[1210013] = {
 		sink_limit = 1,
@@ -208383,7 +211998,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210101] = {
 		sink_limit = 1,
@@ -208443,7 +212059,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210102] = {
 		sink_limit = 1,
@@ -208503,7 +212120,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210103] = {
 		sink_limit = 1,
@@ -208563,7 +212181,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210110] = {
 		sink_limit = 1,
@@ -208623,7 +212242,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210111] = {
 		sink_limit = 1,
@@ -208683,7 +212303,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210113] = {
 		sink_limit = 1,
@@ -208743,7 +212364,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210201] = {
 		sink_limit = 1,
@@ -208803,7 +212425,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210202] = {
 		sink_limit = 1,
@@ -208863,7 +212486,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210203] = {
 		sink_limit = 1,
@@ -208923,7 +212547,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210210] = {
 		sink_limit = 1,
@@ -208983,7 +212608,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210211] = {
 		sink_limit = 1,
@@ -209043,7 +212669,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210213] = {
 		sink_limit = 1,
@@ -209103,7 +212730,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210301] = {
 		sink_limit = 1,
@@ -209163,7 +212791,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210302] = {
 		sink_limit = 1,
@@ -209223,7 +212852,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210303] = {
 		sink_limit = 1,
@@ -209283,7 +212913,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210310] = {
 		sink_limit = 1,
@@ -209343,7 +212974,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210311] = {
 		sink_limit = 1,
@@ -209403,7 +213035,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[1210313] = {
 		sink_limit = 1,
@@ -209463,7 +213096,5180 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
+		},
+		bufficon = {}
+	},
+	[1220001] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型侦查舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220001,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 30,
+		exp = 150,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220001,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220002] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型侦查舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220002,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 31,
+		exp = 170,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220002,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220003] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220003,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 32,
+		exp = 192,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220003,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220004] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型主力舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220004,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 30,
+		exp = 150,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220004,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220005] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型主力舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220005,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 31,
+		exp = 170,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220005,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220006] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型主力舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220006,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 32,
+		exp = 192,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220006,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220007] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220007,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 30,
+		exp = 150,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220007,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220008] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220008,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 31,
+		exp = 170,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220008,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220009] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220009,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 32,
+		exp = 192,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220009,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57575
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型运输舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220010,
+		icon = "ys1",
+		difficulty = 1,
+		level = 30,
+		exp = 150,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220011] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型运输舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220011,
+		icon = "ys1",
+		difficulty = 1,
+		level = 31,
+		exp = 170,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220011,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220012] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型运输舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220012,
+		icon = "ys1",
+		difficulty = 1,
+		level = 32,
+		exp = 192,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220012,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220013] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220013,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 33,
+		exp = 223,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220013,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57570
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220014] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220013,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 33,
+		exp = 223,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220014,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57570
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 0,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220101,
+		icon = "aijiangCL",
+		difficulty = 1,
+		level = 35,
+		exp = 254,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50023,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57570
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220021] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220021,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 40,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220021,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220022] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220022,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 41,
+		exp = 225,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220022,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220023] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220023,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 42,
+		exp = 252,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220023,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220024,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 40,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220024,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220025,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 41,
+		exp = 225,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220025,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220026,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 42,
+		exp = 252,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220026,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220027,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 40,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220027,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220028,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 41,
+		exp = 225,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220028,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220029] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220029,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 42,
+		exp = 252,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220029,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220030,
+		icon = "ys1",
+		difficulty = 1,
+		level = 40,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220031] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220031,
+		icon = "ys1",
+		difficulty = 1,
+		level = 41,
+		exp = 225,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220031,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220032] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220032,
+		icon = "ys1",
+		difficulty = 1,
+		level = 42,
+		exp = 252,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220032,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220033] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220033,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 43,
+		exp = 290,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220033,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57571
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220034] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220034,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 42,
+		exp = 252,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220034,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57576
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220035] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220033,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 43,
+		exp = 290,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220035,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57571
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220102] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 1,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220102,
+		icon = "aijiangCV",
+		difficulty = 1,
+		level = 45,
+		exp = 326,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50024,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220102,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57571
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220041] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220041,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 60,
+		exp = 300,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220041,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220042] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220042,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 61,
+		exp = 335,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220042,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220043] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220043,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 62,
+		exp = 372,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220043,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220044] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220044,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 60,
+		exp = 300,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220044,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220045] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220045,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 61,
+		exp = 335,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220045,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220046] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型主力舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220046,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 62,
+		exp = 372,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220046,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220047] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220047,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 60,
+		exp = 300,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220047,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220048] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220048,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 61,
+		exp = 335,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220048,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220049] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220049,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 62,
+		exp = 372,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220049,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57577
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220050,
+		icon = "ys1",
+		difficulty = 1,
+		level = 60,
+		exp = 300,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220051] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220051,
+		icon = "ys1",
+		difficulty = 1,
+		level = 61,
+		exp = 335,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220051,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220052] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型运输舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220052,
+		icon = "ys1",
+		difficulty = 1,
+		level = 62,
+		exp = 372,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220052,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220053] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220053,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 63,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220053,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220054] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220053,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 63,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220054,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220103] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 1,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220103,
+		icon = "aijiangBB",
+		difficulty = 1,
+		level = 65,
+		exp = 471,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220103,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			2
 		}
+	},
+	[1220113] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 1,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220113,
+		icon = "aijiangBB",
+		difficulty = 1,
+		level = 65,
+		exp = 471,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220113,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			3
+		}
+	},
+	[1220123] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 1,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220123,
+		icon = "aijiangBB",
+		difficulty = 1,
+		level = 65,
+		exp = 471,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220123,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57572
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {
+			1
+		}
+	},
+	[1220061] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220061,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 85,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220061,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220062] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220062,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 86,
+		exp = 473,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220062,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220063] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220063,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 87,
+		exp = 522,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220063,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220064] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220064,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 85,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220064,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220065] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220065,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 86,
+		exp = 473,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220065,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220066] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220066,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 87,
+		exp = 522,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220066,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220067] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220067,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 85,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220067,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220068] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220068,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 86,
+		exp = 473,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220068,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220069] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220069,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 87,
+		exp = 522,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220069,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57578
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220070,
+		icon = "ys1",
+		difficulty = 1,
+		level = 85,
+		exp = 425,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220071] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220071,
+		icon = "ys1",
+		difficulty = 1,
+		level = 86,
+		exp = 473,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220071,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220072] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220072,
+		icon = "ys1",
+		difficulty = 1,
+		level = 87,
+		exp = 522,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220072,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220073] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220073,
+		icon = "mingyunnvshen",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220073,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220074] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220074,
+		icon = "gaoxiong_h",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220074,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220075] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220075,
+		icon = "ougen_h",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220075,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220076] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220076,
+		icon = "xianghe",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220076,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220077] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220073,
+		icon = "mingyunnvshen",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220077,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220078] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220074,
+		icon = "gaoxiong_h",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220078,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220079] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220075,
+		icon = "ougen_h",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220079,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220076,
+		icon = "xianghe",
+		difficulty = 2,
+		level = 88,
+		exp = 594,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220080,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220104] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 2,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220104,
+		icon = "aijiangDD",
+		difficulty = 1,
+		level = 90,
+		exp = 652,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220104,
+		scale = 250,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57573
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220081] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220081,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 525,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220081,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220082] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220082,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 577,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220082,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220083] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型侦查舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220083,
+		icon = "qzbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 630,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220083,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220084] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220084,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 525,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220084,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220085] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220085,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 577,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220085,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220086] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型主力舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220086,
+		icon = "zlbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 630,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220086,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220087] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220087,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 525,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220087,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220088] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220088,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 577,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220088,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220089] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型航空舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220089,
+		icon = "hmbanai",
+		difficulty = 1,
+		level = 105,
+		exp = 630,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220089,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57579
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220090,
+		icon = "ys1",
+		difficulty = 1,
+		level = 105,
+		exp = 525,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220091] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "中型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220091,
+		icon = "ys1",
+		difficulty = 1,
+		level = 105,
+		exp = 577,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220091,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220092] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "大型运输舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220092,
+		icon = "ys1",
+		difficulty = 1,
+		level = 105,
+		exp = 630,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220092,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220093] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220093,
+		icon = "mingyunnvshen",
+		difficulty = 2,
+		level = 105,
+		exp = 709,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220093,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220094] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220094,
+		icon = "gaoxiong_h",
+		difficulty = 2,
+		level = 105,
+		exp = 709,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220094,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220095] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220095,
+		icon = "ougen_h",
+		difficulty = 2,
+		level = 105,
+		exp = 709,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220095,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220096] = {
+		sink_limit = 1,
+		ai = 3,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 3,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 2,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1220096,
+		icon = "xianghe",
+		difficulty = 2,
+		level = 105,
+		exp = 709,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220096,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1220105] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 2,
+		activity_id = 280,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1220105,
+		icon = "aijiangCV",
+		difficulty = 1,
+		level = 105,
+		exp = 761,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50025,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1220105,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57574
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59126
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1221201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "bg_boss",
+		name = "敌方旗舰",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 120,
+		dungeon_id = 1221201,
+		icon = "aijiangDD",
+		difficulty = 2,
+		level = 120,
+		exp = 0,
+		limit_type = 1,
+		rank_activity_id = 281,
+		icon_type = 2,
+		map_id = 50022,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1221201,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
 	},
 	[5000001] = {
 		sink_limit = 1,
@@ -209519,7 +218325,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000002] = {
 		sink_limit = 1,
@@ -209575,7 +218382,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000003] = {
 		sink_limit = 1,
@@ -209631,7 +218439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000004] = {
 		sink_limit = 1,
@@ -209687,7 +218496,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000005] = {
 		sink_limit = 1,
@@ -209743,7 +218553,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000006] = {
 		sink_limit = 1,
@@ -209799,7 +218610,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000007] = {
 		sink_limit = 1,
@@ -209855,7 +218667,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000008] = {
 		sink_limit = 1,
@@ -209911,7 +218724,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000009] = {
 		sink_limit = 1,
@@ -209967,7 +218781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000010] = {
 		sink_limit = 1,
@@ -210019,7 +218834,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000011] = {
 		sink_limit = 1,
@@ -210071,7 +218887,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000012] = {
 		sink_limit = 1,
@@ -210123,7 +218940,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000013] = {
 		sink_limit = 1,
@@ -210179,7 +218997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000014] = {
 		sink_limit = 1,
@@ -210235,7 +219054,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000015] = {
 		sink_limit = 1,
@@ -210291,7 +219111,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000016] = {
 		sink_limit = 1,
@@ -210347,7 +219168,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000017] = {
 		sink_limit = 1,
@@ -210403,7 +219225,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000018] = {
 		sink_limit = 1,
@@ -210459,7 +219282,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000019] = {
 		sink_limit = 1,
@@ -210515,7 +219339,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000020] = {
 		sink_limit = 1,
@@ -210567,7 +219392,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000021] = {
 		sink_limit = 1,
@@ -210619,7 +219445,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000022] = {
 		sink_limit = 1,
@@ -210671,7 +219498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000023] = {
 		sink_limit = 1,
@@ -210723,7 +219551,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000024] = {
 		sink_limit = 1,
@@ -210775,7 +219604,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000030] = {
 		sink_limit = 1,
@@ -210827,7 +219657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000031] = {
 		sink_limit = 1,
@@ -210879,7 +219710,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000032] = {
 		sink_limit = 1,
@@ -210931,7 +219763,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000033] = {
 		sink_limit = 1,
@@ -210983,7 +219816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000034] = {
 		sink_limit = 1,
@@ -211035,7 +219869,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000040] = {
 		sink_limit = 1,
@@ -211087,7 +219922,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000041] = {
 		sink_limit = 1,
@@ -211139,7 +219975,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000042] = {
 		sink_limit = 1,
@@ -211191,7 +220028,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000043] = {
 		sink_limit = 1,
@@ -211243,7 +220081,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000044] = {
 		sink_limit = 1,
@@ -211295,7 +220134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000045] = {
 		sink_limit = 1,
@@ -211347,7 +220187,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000046] = {
 		sink_limit = 1,
@@ -211399,7 +220240,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000047] = {
 		sink_limit = 1,
@@ -211451,7 +220293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000048] = {
 		sink_limit = 1,
@@ -211503,7 +220346,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000049] = {
 		sink_limit = 1,
@@ -211555,7 +220399,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000050] = {
 		sink_limit = 1,
@@ -211607,7 +220452,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000051] = {
 		sink_limit = 1,
@@ -211659,7 +220505,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000052] = {
 		sink_limit = 1,
@@ -211711,7 +220558,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000053] = {
 		sink_limit = 1,
@@ -211763,7 +220611,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000054] = {
 		sink_limit = 1,
@@ -211811,7 +220660,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000055] = {
 		sink_limit = 1,
@@ -211859,7 +220709,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000056] = {
 		sink_limit = 1,
@@ -211907,7 +220758,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000057] = {
 		sink_limit = 1,
@@ -211959,7 +220811,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000058] = {
 		sink_limit = 1,
@@ -212011,7 +220864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000059] = {
 		sink_limit = 1,
@@ -212063,7 +220917,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000060] = {
 		sink_limit = 1,
@@ -212115,7 +220970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000061] = {
 		sink_limit = 1,
@@ -212167,7 +221023,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000062] = {
 		sink_limit = 1,
@@ -212219,7 +221076,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000063] = {
 		sink_limit = 1,
@@ -212271,7 +221129,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000064] = {
 		sink_limit = 1,
@@ -212323,7 +221182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000065] = {
 		sink_limit = 1,
@@ -212375,7 +221235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000066] = {
 		sink_limit = 1,
@@ -212423,7 +221284,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000067] = {
 		sink_limit = 1,
@@ -212471,7 +221333,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000068] = {
 		sink_limit = 1,
@@ -212519,7 +221382,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000069] = {
 		sink_limit = 1,
@@ -212571,7 +221435,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000070] = {
 		sink_limit = 1,
@@ -212623,7 +221488,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000071] = {
 		sink_limit = 1,
@@ -212675,7 +221541,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000072] = {
 		sink_limit = 1,
@@ -212727,7 +221594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000073] = {
 		sink_limit = 1,
@@ -212779,7 +221647,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000074] = {
 		sink_limit = 1,
@@ -212831,7 +221700,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000075] = {
 		sink_limit = 1,
@@ -212883,7 +221753,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000076] = {
 		sink_limit = 1,
@@ -212935,7 +221806,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000077] = {
 		sink_limit = 1,
@@ -212987,7 +221859,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000078] = {
 		sink_limit = 1,
@@ -213035,7 +221908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000079] = {
 		sink_limit = 1,
@@ -213083,7 +221957,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[5000080] = {
 		sink_limit = 1,
@@ -213131,7 +222006,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000001] = {
 		sink_limit = 1,
@@ -213191,7 +222067,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000002] = {
 		sink_limit = 1,
@@ -213251,7 +222128,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000003] = {
 		sink_limit = 1,
@@ -213311,7 +222189,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000004] = {
 		sink_limit = 1,
@@ -213371,7 +222250,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000005] = {
 		sink_limit = 1,
@@ -213431,7 +222311,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000006] = {
 		sink_limit = 1,
@@ -213491,7 +222372,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000007] = {
 		sink_limit = 1,
@@ -213551,7 +222433,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000008] = {
 		sink_limit = 1,
@@ -213611,7 +222494,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000009] = {
 		sink_limit = 1,
@@ -213671,7 +222555,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000010] = {
 		sink_limit = 1,
@@ -213723,7 +222608,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000011] = {
 		sink_limit = 1,
@@ -213775,7 +222661,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000012] = {
 		sink_limit = 1,
@@ -213827,7 +222714,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000013] = {
 		sink_limit = 1,
@@ -213887,7 +222775,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000101] = {
 		sink_limit = 1,
@@ -213947,7 +222836,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000102] = {
 		sink_limit = 1,
@@ -214007,7 +222897,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000103] = {
 		sink_limit = 1,
@@ -214067,7 +222958,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000104] = {
 		sink_limit = 1,
@@ -214127,7 +223019,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000105] = {
 		sink_limit = 1,
@@ -214187,7 +223080,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000106] = {
 		sink_limit = 1,
@@ -214247,7 +223141,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000107] = {
 		sink_limit = 1,
@@ -214307,7 +223202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000108] = {
 		sink_limit = 1,
@@ -214367,7 +223263,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000109] = {
 		sink_limit = 1,
@@ -214427,7 +223324,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000110] = {
 		sink_limit = 1,
@@ -214479,7 +223377,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000111] = {
 		sink_limit = 1,
@@ -214531,7 +223430,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000112] = {
 		sink_limit = 1,
@@ -214583,7 +223483,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000113] = {
 		sink_limit = 1,
@@ -214643,7 +223544,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000201] = {
 		sink_limit = 1,
@@ -214703,7 +223605,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000202] = {
 		sink_limit = 1,
@@ -214763,7 +223666,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000203] = {
 		sink_limit = 1,
@@ -214823,7 +223727,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000204] = {
 		sink_limit = 1,
@@ -214883,7 +223788,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000205] = {
 		sink_limit = 1,
@@ -214943,7 +223849,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000206] = {
 		sink_limit = 1,
@@ -215003,7 +223910,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000207] = {
 		sink_limit = 1,
@@ -215063,7 +223971,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000208] = {
 		sink_limit = 1,
@@ -215123,7 +224032,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000209] = {
 		sink_limit = 1,
@@ -215183,7 +224093,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000210] = {
 		sink_limit = 1,
@@ -215235,7 +224146,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000211] = {
 		sink_limit = 1,
@@ -215287,7 +224199,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000212] = {
 		sink_limit = 1,
@@ -215339,7 +224252,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000213] = {
 		sink_limit = 1,
@@ -215399,7 +224313,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000221] = {
 		sink_limit = 1,
@@ -215459,7 +224374,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000231] = {
 		sink_limit = 1,
@@ -215519,7 +224435,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000232] = {
 		sink_limit = 1,
@@ -215579,7 +224496,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000241] = {
 		sink_limit = 1,
@@ -215639,7 +224557,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000242] = {
 		sink_limit = 1,
@@ -215699,7 +224618,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000243] = {
 		sink_limit = 1,
@@ -215759,7 +224679,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000301] = {
 		sink_limit = 1,
@@ -215819,7 +224740,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000302] = {
 		sink_limit = 1,
@@ -215879,7 +224801,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000303] = {
 		sink_limit = 1,
@@ -215939,7 +224862,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000304] = {
 		sink_limit = 1,
@@ -215999,7 +224923,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000305] = {
 		sink_limit = 1,
@@ -216059,7 +224984,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000306] = {
 		sink_limit = 1,
@@ -216119,7 +225045,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000307] = {
 		sink_limit = 1,
@@ -216179,7 +225106,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000308] = {
 		sink_limit = 1,
@@ -216239,7 +225167,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000309] = {
 		sink_limit = 1,
@@ -216299,7 +225228,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000310] = {
 		sink_limit = 1,
@@ -216351,7 +225281,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000311] = {
 		sink_limit = 1,
@@ -216403,7 +225334,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000312] = {
 		sink_limit = 1,
@@ -216455,7 +225387,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000313] = {
 		sink_limit = 1,
@@ -216515,7 +225448,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000401] = {
 		sink_limit = 1,
@@ -216575,7 +225509,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000402] = {
 		sink_limit = 1,
@@ -216635,7 +225570,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000403] = {
 		sink_limit = 1,
@@ -216695,7 +225631,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000404] = {
 		sink_limit = 1,
@@ -216755,7 +225692,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000405] = {
 		sink_limit = 1,
@@ -216815,7 +225753,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000406] = {
 		sink_limit = 1,
@@ -216875,7 +225814,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000407] = {
 		sink_limit = 1,
@@ -216935,7 +225875,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000408] = {
 		sink_limit = 1,
@@ -216995,7 +225936,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000409] = {
 		sink_limit = 1,
@@ -217055,7 +225997,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000410] = {
 		sink_limit = 1,
@@ -217107,7 +226050,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000411] = {
 		sink_limit = 1,
@@ -217159,7 +226103,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000412] = {
 		sink_limit = 1,
@@ -217211,7 +226156,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000413] = {
 		sink_limit = 1,
@@ -217271,7 +226217,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000501] = {
 		sink_limit = 1,
@@ -217331,7 +226278,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000502] = {
 		sink_limit = 1,
@@ -217391,7 +226339,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000503] = {
 		sink_limit = 1,
@@ -217451,7 +226400,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000504] = {
 		sink_limit = 1,
@@ -217511,7 +226461,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000505] = {
 		sink_limit = 1,
@@ -217571,7 +226522,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000506] = {
 		sink_limit = 1,
@@ -217631,7 +226583,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000507] = {
 		sink_limit = 1,
@@ -217691,7 +226644,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000508] = {
 		sink_limit = 1,
@@ -217751,7 +226705,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000509] = {
 		sink_limit = 1,
@@ -217811,7 +226766,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000510] = {
 		sink_limit = 1,
@@ -217863,7 +226819,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000511] = {
 		sink_limit = 1,
@@ -217915,7 +226872,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000512] = {
 		sink_limit = 1,
@@ -217967,7 +226925,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000513] = {
 		sink_limit = 1,
@@ -218027,7 +226986,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000521] = {
 		sink_limit = 1,
@@ -218087,7 +227047,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000531] = {
 		sink_limit = 1,
@@ -218147,7 +227108,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000532] = {
 		sink_limit = 1,
@@ -218207,7 +227169,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000541] = {
 		sink_limit = 1,
@@ -218267,7 +227230,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000542] = {
 		sink_limit = 1,
@@ -218327,7 +227291,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000543] = {
 		sink_limit = 1,
@@ -218387,7 +227352,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000601] = {
 		sink_limit = 1,
@@ -218447,7 +227413,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000602] = {
 		sink_limit = 1,
@@ -218507,7 +227474,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000603] = {
 		sink_limit = 1,
@@ -218567,7 +227535,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000604] = {
 		sink_limit = 1,
@@ -218627,7 +227596,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000605] = {
 		sink_limit = 1,
@@ -218687,7 +227657,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000606] = {
 		sink_limit = 1,
@@ -218747,7 +227718,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000607] = {
 		sink_limit = 1,
@@ -218807,7 +227779,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000608] = {
 		sink_limit = 1,
@@ -218867,7 +227840,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000609] = {
 		sink_limit = 1,
@@ -218927,7 +227901,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000610] = {
 		sink_limit = 1,
@@ -218979,7 +227954,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000611] = {
 		sink_limit = 1,
@@ -219031,7 +228007,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000612] = {
 		sink_limit = 1,
@@ -219083,7 +228060,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000613] = {
 		sink_limit = 1,
@@ -219143,7 +228121,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000701] = {
 		sink_limit = 1,
@@ -219203,7 +228182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000702] = {
 		sink_limit = 1,
@@ -219263,7 +228243,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000703] = {
 		sink_limit = 1,
@@ -219323,7 +228304,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000704] = {
 		sink_limit = 1,
@@ -219383,7 +228365,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000705] = {
 		sink_limit = 1,
@@ -219443,7 +228426,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000706] = {
 		sink_limit = 1,
@@ -219503,7 +228487,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000707] = {
 		sink_limit = 1,
@@ -219563,7 +228548,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000708] = {
 		sink_limit = 1,
@@ -219623,7 +228609,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000709] = {
 		sink_limit = 1,
@@ -219683,7 +228670,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000710] = {
 		sink_limit = 1,
@@ -219735,7 +228723,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000711] = {
 		sink_limit = 1,
@@ -219787,7 +228776,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000712] = {
 		sink_limit = 1,
@@ -219839,7 +228829,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000713] = {
 		sink_limit = 1,
@@ -219899,7 +228890,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000801] = {
 		sink_limit = 1,
@@ -219959,7 +228951,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000802] = {
 		sink_limit = 1,
@@ -220019,7 +229012,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000803] = {
 		sink_limit = 1,
@@ -220079,7 +229073,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000804] = {
 		sink_limit = 1,
@@ -220139,7 +229134,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000805] = {
 		sink_limit = 1,
@@ -220199,7 +229195,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000806] = {
 		sink_limit = 1,
@@ -220259,7 +229256,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000807] = {
 		sink_limit = 1,
@@ -220319,7 +229317,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000808] = {
 		sink_limit = 1,
@@ -220379,7 +229378,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000809] = {
 		sink_limit = 1,
@@ -220439,7 +229439,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000810] = {
 		sink_limit = 1,
@@ -220491,7 +229492,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000811] = {
 		sink_limit = 1,
@@ -220543,7 +229545,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000812] = {
 		sink_limit = 1,
@@ -220595,7 +229598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000813] = {
 		sink_limit = 1,
@@ -220655,7 +229659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000821] = {
 		sink_limit = 1,
@@ -220715,7 +229720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000822] = {
 		sink_limit = 1,
@@ -220775,7 +229781,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000831] = {
 		sink_limit = 1,
@@ -220835,7 +229842,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000832] = {
 		sink_limit = 1,
@@ -220895,7 +229903,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000833] = {
 		sink_limit = 1,
@@ -220955,7 +229964,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000841] = {
 		sink_limit = 1,
@@ -221015,7 +230025,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000842] = {
 		sink_limit = 1,
@@ -221075,7 +230086,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000843] = {
 		sink_limit = 1,
@@ -221135,7 +230147,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000844] = {
 		sink_limit = 1,
@@ -221195,7 +230208,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000901] = {
 		sink_limit = 1,
@@ -221255,7 +230269,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000902] = {
 		sink_limit = 1,
@@ -221315,7 +230330,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000903] = {
 		sink_limit = 1,
@@ -221375,7 +230391,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000904] = {
 		sink_limit = 1,
@@ -221435,7 +230452,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000905] = {
 		sink_limit = 1,
@@ -221495,7 +230513,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000906] = {
 		sink_limit = 1,
@@ -221555,7 +230574,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000907] = {
 		sink_limit = 1,
@@ -221615,7 +230635,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000908] = {
 		sink_limit = 1,
@@ -221675,7 +230696,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000909] = {
 		sink_limit = 1,
@@ -221735,7 +230757,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000910] = {
 		sink_limit = 1,
@@ -221787,7 +230810,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000911] = {
 		sink_limit = 1,
@@ -221839,7 +230863,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000912] = {
 		sink_limit = 1,
@@ -221891,7 +230916,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3000913] = {
 		sink_limit = 1,
@@ -221951,7 +230977,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001001] = {
 		sink_limit = 1,
@@ -222011,7 +231038,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001002] = {
 		sink_limit = 1,
@@ -222071,7 +231099,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001003] = {
 		sink_limit = 1,
@@ -222131,7 +231160,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001004] = {
 		sink_limit = 1,
@@ -222191,7 +231221,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001005] = {
 		sink_limit = 1,
@@ -222251,7 +231282,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001006] = {
 		sink_limit = 1,
@@ -222311,7 +231343,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001007] = {
 		sink_limit = 1,
@@ -222371,7 +231404,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001008] = {
 		sink_limit = 1,
@@ -222431,7 +231465,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001009] = {
 		sink_limit = 1,
@@ -222491,7 +231526,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001010] = {
 		sink_limit = 1,
@@ -222543,7 +231579,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001011] = {
 		sink_limit = 1,
@@ -222595,7 +231632,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001012] = {
 		sink_limit = 1,
@@ -222647,7 +231685,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001013] = {
 		sink_limit = 1,
@@ -222707,7 +231746,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001101] = {
 		sink_limit = 1,
@@ -222767,7 +231807,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001102] = {
 		sink_limit = 1,
@@ -222827,7 +231868,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001103] = {
 		sink_limit = 1,
@@ -222887,7 +231929,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001104] = {
 		sink_limit = 1,
@@ -222947,7 +231990,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001105] = {
 		sink_limit = 1,
@@ -223007,7 +232051,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001106] = {
 		sink_limit = 1,
@@ -223067,7 +232112,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001107] = {
 		sink_limit = 1,
@@ -223127,7 +232173,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001108] = {
 		sink_limit = 1,
@@ -223187,7 +232234,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001109] = {
 		sink_limit = 1,
@@ -223247,7 +232295,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001110] = {
 		sink_limit = 1,
@@ -223299,7 +232348,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001111] = {
 		sink_limit = 1,
@@ -223351,7 +232401,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001112] = {
 		sink_limit = 1,
@@ -223403,7 +232454,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001113] = {
 		sink_limit = 1,
@@ -223463,7 +232515,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001121] = {
 		sink_limit = 1,
@@ -223523,7 +232576,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001122] = {
 		sink_limit = 1,
@@ -223583,7 +232637,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001131] = {
 		sink_limit = 1,
@@ -223643,7 +232698,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001132] = {
 		sink_limit = 1,
@@ -223703,7 +232759,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001133] = {
 		sink_limit = 1,
@@ -223763,7 +232820,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001141] = {
 		sink_limit = 1,
@@ -223823,7 +232881,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001142] = {
 		sink_limit = 1,
@@ -223883,7 +232942,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001143] = {
 		sink_limit = 1,
@@ -223943,7 +233003,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001144] = {
 		sink_limit = 1,
@@ -224003,7 +233064,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[3001201] = {
 		sink_limit = 1,
@@ -224042,7 +233104,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	[4000001] = {
 		sink_limit = 1,
@@ -224102,7 +233165,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000002] = {
 		sink_limit = 1,
@@ -224162,7 +233226,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000003] = {
 		sink_limit = 1,
@@ -224222,7 +233287,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000004] = {
 		sink_limit = 1,
@@ -224282,7 +233348,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000005] = {
 		sink_limit = 1,
@@ -224342,7 +233409,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000006] = {
 		sink_limit = 1,
@@ -224402,7 +233470,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000007] = {
 		sink_limit = 1,
@@ -224462,7 +233531,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000008] = {
 		sink_limit = 1,
@@ -224522,7 +233592,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000009] = {
 		sink_limit = 1,
@@ -224582,7 +233653,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000010] = {
 		sink_limit = 1,
@@ -224634,7 +233706,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000011] = {
 		sink_limit = 1,
@@ -224686,7 +233759,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000012] = {
 		sink_limit = 1,
@@ -224738,7 +233812,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000013] = {
 		sink_limit = 1,
@@ -224798,7 +233873,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000101] = {
 		sink_limit = 1,
@@ -224858,7 +233934,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000102] = {
 		sink_limit = 1,
@@ -224918,7 +233995,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000103] = {
 		sink_limit = 1,
@@ -224978,7 +234056,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000104] = {
 		sink_limit = 1,
@@ -225038,7 +234117,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000105] = {
 		sink_limit = 1,
@@ -225098,7 +234178,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000106] = {
 		sink_limit = 1,
@@ -225158,7 +234239,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000107] = {
 		sink_limit = 1,
@@ -225218,7 +234300,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000108] = {
 		sink_limit = 1,
@@ -225278,7 +234361,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000109] = {
 		sink_limit = 1,
@@ -225338,7 +234422,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000110] = {
 		sink_limit = 1,
@@ -225390,7 +234475,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000111] = {
 		sink_limit = 1,
@@ -225442,7 +234528,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000112] = {
 		sink_limit = 1,
@@ -225494,7 +234581,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000113] = {
 		sink_limit = 1,
@@ -225554,7 +234642,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000201] = {
 		sink_limit = 1,
@@ -225614,7 +234703,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000202] = {
 		sink_limit = 1,
@@ -225674,7 +234764,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000203] = {
 		sink_limit = 1,
@@ -225734,7 +234825,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000204] = {
 		sink_limit = 1,
@@ -225794,7 +234886,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000205] = {
 		sink_limit = 1,
@@ -225854,7 +234947,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000206] = {
 		sink_limit = 1,
@@ -225914,7 +235008,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000207] = {
 		sink_limit = 1,
@@ -225974,7 +235069,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000208] = {
 		sink_limit = 1,
@@ -226034,7 +235130,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000209] = {
 		sink_limit = 1,
@@ -226094,7 +235191,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000210] = {
 		sink_limit = 1,
@@ -226146,7 +235244,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000211] = {
 		sink_limit = 1,
@@ -226198,7 +235297,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000212] = {
 		sink_limit = 1,
@@ -226250,7 +235350,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000213] = {
 		sink_limit = 1,
@@ -226310,7 +235411,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000221] = {
 		sink_limit = 1,
@@ -226370,7 +235472,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000231] = {
 		sink_limit = 1,
@@ -226430,7 +235533,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000232] = {
 		sink_limit = 1,
@@ -226490,7 +235594,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000241] = {
 		sink_limit = 1,
@@ -226550,7 +235655,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000242] = {
 		sink_limit = 1,
@@ -226610,7 +235716,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000243] = {
 		sink_limit = 1,
@@ -226670,7 +235777,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000301] = {
 		sink_limit = 1,
@@ -226730,7 +235838,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000302] = {
 		sink_limit = 1,
@@ -226790,7 +235899,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000303] = {
 		sink_limit = 1,
@@ -226850,7 +235960,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000304] = {
 		sink_limit = 1,
@@ -226910,7 +236021,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000305] = {
 		sink_limit = 1,
@@ -226970,7 +236082,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000306] = {
 		sink_limit = 1,
@@ -227030,7 +236143,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000307] = {
 		sink_limit = 1,
@@ -227090,7 +236204,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000308] = {
 		sink_limit = 1,
@@ -227150,7 +236265,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000309] = {
 		sink_limit = 1,
@@ -227210,7 +236326,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000310] = {
 		sink_limit = 1,
@@ -227262,7 +236379,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000311] = {
 		sink_limit = 1,
@@ -227314,7 +236432,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000312] = {
 		sink_limit = 1,
@@ -227366,7 +236485,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000313] = {
 		sink_limit = 1,
@@ -227426,7 +236546,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000401] = {
 		sink_limit = 1,
@@ -227486,7 +236607,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000402] = {
 		sink_limit = 1,
@@ -227546,7 +236668,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000403] = {
 		sink_limit = 1,
@@ -227606,7 +236729,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000404] = {
 		sink_limit = 1,
@@ -227666,7 +236790,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000405] = {
 		sink_limit = 1,
@@ -227726,7 +236851,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000406] = {
 		sink_limit = 1,
@@ -227786,7 +236912,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000407] = {
 		sink_limit = 1,
@@ -227846,7 +236973,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000408] = {
 		sink_limit = 1,
@@ -227906,7 +237034,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000409] = {
 		sink_limit = 1,
@@ -227966,7 +237095,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000410] = {
 		sink_limit = 1,
@@ -228018,7 +237148,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000411] = {
 		sink_limit = 1,
@@ -228070,7 +237201,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000412] = {
 		sink_limit = 1,
@@ -228122,7 +237254,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000413] = {
 		sink_limit = 1,
@@ -228182,7 +237315,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000501] = {
 		sink_limit = 1,
@@ -228242,7 +237376,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000502] = {
 		sink_limit = 1,
@@ -228302,7 +237437,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000503] = {
 		sink_limit = 1,
@@ -228362,7 +237498,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000504] = {
 		sink_limit = 1,
@@ -228422,7 +237559,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000505] = {
 		sink_limit = 1,
@@ -228482,7 +237620,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000506] = {
 		sink_limit = 1,
@@ -228542,7 +237681,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000507] = {
 		sink_limit = 1,
@@ -228602,7 +237742,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000508] = {
 		sink_limit = 1,
@@ -228662,7 +237803,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000509] = {
 		sink_limit = 1,
@@ -228722,7 +237864,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000510] = {
 		sink_limit = 1,
@@ -228774,7 +237917,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000511] = {
 		sink_limit = 1,
@@ -228826,7 +237970,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000512] = {
 		sink_limit = 1,
@@ -228878,7 +238023,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000513] = {
 		sink_limit = 1,
@@ -228938,7 +238084,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000521] = {
 		sink_limit = 1,
@@ -228998,7 +238145,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000522] = {
 		sink_limit = 1,
@@ -229058,7 +238206,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000531] = {
 		sink_limit = 1,
@@ -229118,7 +238267,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000532] = {
 		sink_limit = 1,
@@ -229178,7 +238328,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000533] = {
 		sink_limit = 1,
@@ -229238,7 +238389,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000541] = {
 		sink_limit = 1,
@@ -229298,7 +238450,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000542] = {
 		sink_limit = 1,
@@ -229358,7 +238511,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000543] = {
 		sink_limit = 1,
@@ -229418,7 +238572,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000544] = {
 		sink_limit = 1,
@@ -229478,7 +238633,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000601] = {
 		sink_limit = 1,
@@ -229538,7 +238694,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000602] = {
 		sink_limit = 1,
@@ -229598,7 +238755,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000603] = {
 		sink_limit = 1,
@@ -229658,7 +238816,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000604] = {
 		sink_limit = 1,
@@ -229718,7 +238877,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000605] = {
 		sink_limit = 1,
@@ -229778,7 +238938,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000606] = {
 		sink_limit = 1,
@@ -229838,7 +238999,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000607] = {
 		sink_limit = 1,
@@ -229898,7 +239060,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000608] = {
 		sink_limit = 1,
@@ -229958,7 +239121,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000609] = {
 		sink_limit = 1,
@@ -230018,7 +239182,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000610] = {
 		sink_limit = 1,
@@ -230070,7 +239235,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000611] = {
 		sink_limit = 1,
@@ -230122,7 +239288,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000612] = {
 		sink_limit = 1,
@@ -230174,7 +239341,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000613] = {
 		sink_limit = 1,
@@ -230234,7 +239402,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000701] = {
 		sink_limit = 1,
@@ -230294,7 +239463,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000702] = {
 		sink_limit = 1,
@@ -230354,7 +239524,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000703] = {
 		sink_limit = 1,
@@ -230414,7 +239585,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000704] = {
 		sink_limit = 1,
@@ -230474,7 +239646,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000705] = {
 		sink_limit = 1,
@@ -230534,7 +239707,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000706] = {
 		sink_limit = 1,
@@ -230594,7 +239768,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000707] = {
 		sink_limit = 1,
@@ -230654,7 +239829,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000708] = {
 		sink_limit = 1,
@@ -230714,7 +239890,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000709] = {
 		sink_limit = 1,
@@ -230774,7 +239951,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000710] = {
 		sink_limit = 1,
@@ -230826,7 +240004,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000711] = {
 		sink_limit = 1,
@@ -230878,7 +240057,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000712] = {
 		sink_limit = 1,
@@ -230930,7 +240110,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000713] = {
 		sink_limit = 1,
@@ -230990,7 +240171,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000801] = {
 		sink_limit = 1,
@@ -231050,7 +240232,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000802] = {
 		sink_limit = 1,
@@ -231110,7 +240293,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000803] = {
 		sink_limit = 1,
@@ -231170,7 +240354,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000804] = {
 		sink_limit = 1,
@@ -231230,7 +240415,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000805] = {
 		sink_limit = 1,
@@ -231290,7 +240476,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000806] = {
 		sink_limit = 1,
@@ -231350,7 +240537,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000807] = {
 		sink_limit = 1,
@@ -231410,7 +240598,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000808] = {
 		sink_limit = 1,
@@ -231470,7 +240659,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000809] = {
 		sink_limit = 1,
@@ -231530,7 +240720,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000810] = {
 		sink_limit = 1,
@@ -231582,7 +240773,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000811] = {
 		sink_limit = 1,
@@ -231634,7 +240826,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000812] = {
 		sink_limit = 1,
@@ -231686,7 +240879,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000813] = {
 		sink_limit = 1,
@@ -231746,7 +240940,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000821] = {
 		sink_limit = 1,
@@ -231806,7 +241001,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000831] = {
 		sink_limit = 1,
@@ -231866,7 +241062,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000832] = {
 		sink_limit = 1,
@@ -231926,7 +241123,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000841] = {
 		sink_limit = 1,
@@ -231986,7 +241184,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000842] = {
 		sink_limit = 1,
@@ -232046,7 +241245,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000843] = {
 		sink_limit = 1,
@@ -232106,7 +241306,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000901] = {
 		sink_limit = 1,
@@ -232166,7 +241367,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000902] = {
 		sink_limit = 1,
@@ -232226,7 +241428,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000903] = {
 		sink_limit = 1,
@@ -232286,7 +241489,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000904] = {
 		sink_limit = 1,
@@ -232346,7 +241550,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000905] = {
 		sink_limit = 1,
@@ -232406,7 +241611,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000906] = {
 		sink_limit = 1,
@@ -232466,7 +241672,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000907] = {
 		sink_limit = 1,
@@ -232526,7 +241733,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000908] = {
 		sink_limit = 1,
@@ -232586,7 +241794,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000909] = {
 		sink_limit = 1,
@@ -232646,7 +241855,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000910] = {
 		sink_limit = 1,
@@ -232698,7 +241908,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000911] = {
 		sink_limit = 1,
@@ -232750,7 +241961,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000912] = {
 		sink_limit = 1,
@@ -232802,7 +242014,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4000913] = {
 		sink_limit = 1,
@@ -232862,7 +242075,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001001] = {
 		sink_limit = 1,
@@ -232922,7 +242136,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001002] = {
 		sink_limit = 1,
@@ -232982,7 +242197,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001003] = {
 		sink_limit = 1,
@@ -233042,7 +242258,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001004] = {
 		sink_limit = 1,
@@ -233102,7 +242319,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001005] = {
 		sink_limit = 1,
@@ -233162,7 +242380,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001006] = {
 		sink_limit = 1,
@@ -233222,7 +242441,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001007] = {
 		sink_limit = 1,
@@ -233282,7 +242502,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001008] = {
 		sink_limit = 1,
@@ -233342,7 +242563,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001009] = {
 		sink_limit = 1,
@@ -233402,7 +242624,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001010] = {
 		sink_limit = 1,
@@ -233454,7 +242677,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001011] = {
 		sink_limit = 1,
@@ -233506,7 +242730,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001012] = {
 		sink_limit = 1,
@@ -233558,7 +242783,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001013] = {
 		sink_limit = 1,
@@ -233618,7 +242844,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001101] = {
 		sink_limit = 1,
@@ -233678,7 +242905,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001102] = {
 		sink_limit = 1,
@@ -233738,7 +242966,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001103] = {
 		sink_limit = 1,
@@ -233798,7 +243027,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001104] = {
 		sink_limit = 1,
@@ -233858,7 +243088,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001105] = {
 		sink_limit = 1,
@@ -233918,7 +243149,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001106] = {
 		sink_limit = 1,
@@ -233978,7 +243210,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001107] = {
 		sink_limit = 1,
@@ -234038,7 +243271,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001108] = {
 		sink_limit = 1,
@@ -234098,7 +243332,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001109] = {
 		sink_limit = 1,
@@ -234158,7 +243393,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001110] = {
 		sink_limit = 1,
@@ -234210,7 +243446,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001111] = {
 		sink_limit = 1,
@@ -234262,7 +243499,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001112] = {
 		sink_limit = 1,
@@ -234314,7 +243552,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001113] = {
 		sink_limit = 1,
@@ -234374,7 +243613,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001121] = {
 		sink_limit = 1,
@@ -234434,7 +243674,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001122] = {
 		sink_limit = 1,
@@ -234494,7 +243735,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001131] = {
 		sink_limit = 1,
@@ -234554,7 +243796,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001132] = {
 		sink_limit = 1,
@@ -234614,7 +243857,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001133] = {
 		sink_limit = 1,
@@ -234674,7 +243918,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001141] = {
 		sink_limit = 1,
@@ -234734,7 +243979,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001142] = {
 		sink_limit = 1,
@@ -234794,7 +244040,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001143] = {
 		sink_limit = 1,
@@ -234854,7 +244101,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001144] = {
 		sink_limit = 1,
@@ -234914,7 +244162,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			120
-		}
+		},
+		bufficon = {}
 	},
 	[4001201] = {
 		sink_limit = 1,
@@ -234953,7 +244202,8 @@ pg.expedition_data_template = {
 		objective_3 = {
 			5,
 			150
-		}
+		},
+		bufficon = {}
 	},
 	all = {
 		1,
@@ -238590,6 +247840,93 @@ pg.expedition_data_template = {
 		1210310,
 		1210311,
 		1210313,
+		1220001,
+		1220002,
+		1220003,
+		1220004,
+		1220005,
+		1220006,
+		1220007,
+		1220008,
+		1220009,
+		1220010,
+		1220011,
+		1220012,
+		1220013,
+		1220014,
+		1220101,
+		1220021,
+		1220022,
+		1220023,
+		1220024,
+		1220025,
+		1220026,
+		1220027,
+		1220028,
+		1220029,
+		1220030,
+		1220031,
+		1220032,
+		1220033,
+		1220034,
+		1220035,
+		1220102,
+		1220041,
+		1220042,
+		1220043,
+		1220044,
+		1220045,
+		1220046,
+		1220047,
+		1220048,
+		1220049,
+		1220050,
+		1220051,
+		1220052,
+		1220053,
+		1220054,
+		1220103,
+		1220113,
+		1220123,
+		1220061,
+		1220062,
+		1220063,
+		1220064,
+		1220065,
+		1220066,
+		1220067,
+		1220068,
+		1220069,
+		1220070,
+		1220071,
+		1220072,
+		1220073,
+		1220074,
+		1220075,
+		1220076,
+		1220077,
+		1220078,
+		1220079,
+		1220080,
+		1220104,
+		1220081,
+		1220082,
+		1220083,
+		1220084,
+		1220085,
+		1220086,
+		1220087,
+		1220088,
+		1220089,
+		1220090,
+		1220091,
+		1220092,
+		1220093,
+		1220094,
+		1220095,
+		1220096,
+		1220105,
+		1221201,
 		5000001,
 		5000002,
 		5000003,

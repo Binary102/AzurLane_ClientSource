@@ -27,7 +27,7 @@ return {
 			actorName = "？？？",
 			actorShadow = true,
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "呵呵呵呵，一群蝼蚁们居然嗅着味道找上门来了",
 			shake = {
@@ -47,7 +47,7 @@ return {
 			side = 1,
 			actorName = "？？？",
 			actorShadow = true,
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ffffff",
 			say = "…外围的防御舰队居然被突破了么…这可是在计划之外的情况",
 			shake = {
@@ -68,7 +68,7 @@ return {
 			actorName = "？？？",
 			actorShadow = true,
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "无妨，主要任务已经达成，剩下的就是陪这群蝼蚁们好好玩耍的时间了~呵呵呵呵~",
 			shake = {
@@ -89,7 +89,7 @@ return {
 			nameColor = "#ff0000",
 			actorShadow = true,
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "「重樱」第一航空战队，{namecode:91}",
 			shake = {
@@ -109,7 +109,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			actorShadow = true,
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "「重樱」第一航空战队，{namecode:92}",
 			shake = {
@@ -129,13 +129,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:91}&{namecode:92}",
-			actor = 307011,
+			actor = 307010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "                                                                <size=30>参上！</size>",
 			subActors = {
 				{
-					actor = 307021,
+					actor = 307020,
 					pos = {
 						x = 750
 					}

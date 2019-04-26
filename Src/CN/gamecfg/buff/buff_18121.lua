@@ -139,9 +139,8 @@ return {
 			}
 		}
 	},
-	name = "Engine boost +",
-	init_effect = "jinengchufablue",
 	id = 18121,
+	name = "Engine boost +",
 	time = 0,
 	picture = "",
 	desc = "机动提高",
@@ -149,13 +148,6 @@ return {
 	color = "blue",
 	icon = 18120,
 	last_effect = "",
-	blink = {
-		0,
-		0.7,
-		1,
-		0.3,
-		0.3
-	},
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",

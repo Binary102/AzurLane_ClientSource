@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "呜…抚顺姐，我们到底要去哪里找火药呀？",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "重樱的伙伴，{namecode:32}，抚顺应该是第一次见。",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "啊，初次见面，我是{namecode:32}，请、请多指教……",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "{namecode:6}、拉菲和{namecode:32}的新衣服都好可爱…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "这个是大家一起做的…",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "虽然比预想的花了更多时间…不过还是赶上了东煌的春节，问题不大…的说。",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "…火药的话，之前祭典做烟花用的…应该还有，就在旧仓库…的说",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "哦哦！旧仓库吗！嘿嘿嘿，没想到真的这么顺利就找到了～",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			nameColor = "#a9f548",
 			say = "爆竹…是什么？",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "火药危险…的说，不过，小心点的话…",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "旧、旧仓库吗…那我就先回去了，姐姐还在等我，而且旧仓库那里总有些阴森森的，有些可怕…",
 			typewriter = {
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "路上要注意安全……的说。",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "…找到了，在这里",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "这个棋盘…{namecode:6}之前好像见过，是“双六”…的说？",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "诶？这个不是“大富翁”的棋盘嘛！",
 			typewriter = {
@@ -558,18 +558,18 @@ return {
 			bgName = "bg_story_task",
 			hideOther = true,
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			actorName = "抚顺&拉菲&{namecode:6}",
 			say = "……",
 			subActors = {
 				{
-					actor = 501021,
+					actor = 501020,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 370
 					}
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "那、那要不要大家一起玩这个，鞭炮什么的就——",
 			typewriter = {
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "那就做完鞭炮以后再一起来玩这个吧！嘿嘿，游戏我可是很擅长的呢～",
 			typewriter = {
@@ -631,14 +631,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900169,
+			actor = 101173,
 			dir = 1,
 			hideOther = true,
 			actorName = "拉菲&{namecode:6}",
 			say = "喔——",
 			subActors = {
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 850
 					}
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "诶，诶诶诶！？——",
 			typewriter = {

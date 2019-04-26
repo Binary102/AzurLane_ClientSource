@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "来到港区以后，齐柏林的酸菜腌制手艺也越来越好了。",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "没关系。齐柏林是我重要的朋友，出手帮你乃是理所当然。",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "另外，我并没有做任何值得感谢的事。同为铁血舰，相互照应是理所当然",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "齐柏林也没资格说我吧。不过，为何要改口气？",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "…………",
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "我、试试看……好了。",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_school",
 			say = "……嗯……下次我们还、交换便当……吧？",
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			actor = 407010,
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,

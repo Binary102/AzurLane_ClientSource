@@ -54,7 +54,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
-			actor = 302041,
+			actor = 302040,
 			nameColor = "#a9f548",
 			say = "怎么了，{namecode:48}？在烦恼{namecode:87}说的幽灵小姐的事情吗？",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 302041,
+			actor = 302040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -110,7 +110,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "我、我果然还是不行的啦，幽灵什么的对我来说太勉强了…",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 302041,
+			actor = 302040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 302041,
+			actor = 302040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 302041,
+			actor = 302040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -176,7 +176,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "啊…确、确实是这样…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 302041,
+			actor = 302040,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "啊！发现新的魔女了～嘿！",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "呀啊～！！",
 			typewriter = {
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "哇啊！！吓、吓了我一跳",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "诶…是贝利啊，这一身是…魔女？",
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "跟你说哦，我刚才听到了情报呢，幽灵小姐其实在仓库！",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "幽灵小姐…？啊，是、是的，我也在找幽灵小姐来着",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "那就跟贝利一起往仓库去吧，Let's go～",
 			typewriter = {
@@ -422,7 +422,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "嗯，嗯！一起去吧！",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 			actorName = "{namecode:48}",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "（有同伴一起的话……我就不会那么害怕了！）",
 			typewriter = {

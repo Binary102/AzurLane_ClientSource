@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嗯～～已经工作了好一会了呢，该休息一会，到糖分摄取的时间了～",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "唔姆~真棒！工作后的棒棒糖果然最棒了~",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 102181,
+			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "啊呀~光顾着说补充糖分的事了。桌上的训练报告还有很多要汇总呢~",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "该专心工作了~♪",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "喂！那边的小{namecode:33}，要不要交换棒棒糖？",
 			flashout = {
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "那不是笨蛋奥马哈大姐嘛……啊，又去买零食了~待会儿也去蹭一些过来，嘻嘻~",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "啊哈，工作全做完了~好累~还不快来给我揉揉肩~♪",
 			flashout = {
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指挥官给我揉揉肩膀嘛~我会给你回礼的哦~？",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嘻嘻，挺卖力嘛，指挥官~揉肩膀的力度也掌控得很好。",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "好~给你我的回礼~",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "嘻嘻，快坐好哦~作为回礼，我也想给指挥官揉揉肩~",
 			typewriter = {

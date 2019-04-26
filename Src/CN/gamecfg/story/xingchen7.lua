@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "哥、哥哥……在独角兽说可以之前，不可以睁开眼睛哦……",
 			nameColor = "#a9f548",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "呜…果然还是……",
 			nameColor = "#a9f548",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "星尘姐姐……给我勇气……",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "（唱歌）……",
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "呼……怎、怎么样……星尘姐姐送的这套衣服……还有这首歌……",
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "星尘姐姐说这样……就能让哥哥开心……",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "独角兽…有努力了吧？",
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "欸？哥、哥哥？！！！",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "呼…还好……哥哥没什么事…",
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "嗯？太兴奋所以晕过去了？",
@@ -197,7 +197,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "哥哥……(///)",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "呼……谢谢……哥哥……能让哥哥开心，独角兽就满足了……果然就像星尘姐姐说的那样呢……",
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "「小小的勇气，就是最大的魔法」…嘻嘻…",

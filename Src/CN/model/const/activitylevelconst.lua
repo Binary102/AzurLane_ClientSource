@@ -20,6 +20,26 @@ function slot0.isClearMaps(slot0, slot1)
 	return true
 end
 
+function slot0.canSwitchToEx(slot0, slot1)
+	function slot2(slot0)
+		if slot0[pg.chapter_template[slot0].map] then
+			return slot2:getChapter(slot0):isClear()
+		end
+	end
+
+	slot3 = false
+
+	for slot7, slot8 in pairs(slot1.chapters) do
+		if slot8:getConfig("pre_chapter") == 0 or slot2(slot9) then
+			slot3 = true
+		end
+
+		break
+	end
+
+	return slot3
+end
+
 function slot0.getMapsByType(slot0, slot1, slot2)
 	slot3 = {}
 

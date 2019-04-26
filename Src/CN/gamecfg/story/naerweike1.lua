@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level02",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			say = "为什么我们非要来这种地方执行任务啊！",
 			typewriter = {
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "这项任务，将由Z21作为旗舰，带领Z2，Z9，Z11，Z12，Z17，Z13，Z18，Z19，Z22，共10艘驱逐级共同完成。",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "纳尔维克目前为止一直保持着中立，港内布置的防卫力量并不充裕，凭我们的力量可以轻松解决。",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "问题不在占领，而在之后……呼，总之，先完成占领再说吧。",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "别说傻话。",
 			typewriter = {
 				speed = 0.05,

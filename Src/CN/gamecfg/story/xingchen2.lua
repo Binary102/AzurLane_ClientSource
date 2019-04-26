@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "这就是……歌唱的力量吗……好厉害……",
 			flashout = {
@@ -342,7 +342,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "感觉独角兽……都被感染了一样……",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			mode = 2,
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "独角兽也想……让哥哥那么开心……",
 			typewriter = {

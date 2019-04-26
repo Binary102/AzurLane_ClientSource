@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900150,
+			actor = 301660,
 			actorName = "{namecode:148}",
 			say = "指挥官，欢迎来我们第八驱逐队的茶道会~",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 301651,
+			actor = 301650,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 301641,
+			actor = 301640,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			actor = 301631,
+			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301631,
+			actor = 301630,
 			nameColor = "#a9f548",
 			say = "{namecode:146}……很痒啦……",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 301651,
+			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900150,
+			actor = 301660,
 			actorName = "{namecode:148}",
 			say = "{namecode:145}酱真是……嗯？指挥官您似乎不太习惯坐姿呢，请用这个坐垫吧。",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 301641,
+			actor = 301640,
 			nameColor = "#a9f548",
 			say = "指挥官对今天的茶会还满意吗？",
 			flashout = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900150,
+			actor = 301660,
 			actorName = "{namecode:148}",
 			say = "再帮您倒一杯茶，指挥官。啊，也给{namecode:145}酱倒一杯~",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 301651,
+			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

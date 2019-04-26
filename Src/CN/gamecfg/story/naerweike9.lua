@@ -11,7 +11,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			stopbgm = true,
 			say = "勇敢，刚才收到急性的报告，对方的增援出现了。",
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "对方应该也已经察觉到我们的目的，会拦截我们的……",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "这不是早就已经知道了的事吗？",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "事到如今，就算猎人你突然怕了，我也不会管你哦？",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……是呢。那就……出发吧？",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "嗯，开始撤退吧。",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -183,7 +183,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "……嗯，在无忧无虑的时候，会觉得……它很美丽。",
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "那我就稍微期待一下，你所说的雪景吧。",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "好！那就出发吧！",
 			typewriter = {
 				speed = 0.05,

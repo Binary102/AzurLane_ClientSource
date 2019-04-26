@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "main-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "在那片不可思议的海域里会遇到跟自己或同伴一模一样的敌人呢",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "是、是的……我到现在都还很不习惯……感觉像是在攻击大家一样，总是会害怕……",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "我也很讨厌那个。明知道是假扮的，还是对长得像姐姐大人和露露缇耶一样的人还是下不了手……",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "那个果然是叫塞壬的那群人弄出来的吧？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "标枪她们也说她们和跟自己长得一样的敌人战斗过。塞壬们还真是恶趣味",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "就是说啊。要和自己，和朋友战斗什么的简直就是噩梦，真是饶了我吧",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "那个，那些叫做塞壬的人，为什么要做这样的事呢……？",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "把我们召唤到这个世界，然后丢进那片海域也是为了这个目的……是吗？",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "与同伴一模一样的敌人就已经让人感觉很糟糕了……更别说和自己一模一样的敌人出现在眼前……真是让人背后发凉",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "嗯，我懂你露露缇耶……就像被迫面对自己的阴暗面一样的感觉呢",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 2,
 			nameColor = "#ff0000",
@@ -30,7 +30,7 @@ return {
 			side = 0,
 			say = "{namecode:95}姐！！！你平安无事真是太好…",
 			actorName = "{namecode:96}",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -110,7 +110,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "为了能让神明赐予我们更多的恩惠～优质的祭品自然是理所必要的",
 			shake = {
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "呵呵呵，在此之前，不如好好想想怎么对付你眼前的这个对手吧～",
 			shake = {
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			actorName = "{namecode:91}",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "她的灵魂，早已经献给伟大的神明了，而剩下的这副无用的躯壳，将会成为你的终点！",
 			shake = {

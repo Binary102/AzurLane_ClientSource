@@ -32,7 +32,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "哈啊……今天事情真多啊……平常这个点指挥官都该睡觉了……",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "嗯…已经这么晚了，指挥官要不要吃点东西？",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "{namecode:95}姐？！",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "想说怎么这么晚了还没回宿舍，原来还在工作啊……",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "工作过度对身体可不好哦？“先手必胜～”♡",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "我、我正要准备的说……话说这是、酒？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "上次我喝醉的时候……哎呀，这事还没跟{namecode:96}说过吧……？",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "（果然在我不知道的地方{namecode:95}和指挥官有各种各样的……）",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "（也是…{namecode:95}姐那么漂亮…又沉稳…就算战斗力差不多，作为秘书舰又比我做的好…呜呜果然我还是……）",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "…那…我这些就放回冷藏库了……",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:95}",
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "…是不是玩笑有点开过头了呢？",
 			flashout = {

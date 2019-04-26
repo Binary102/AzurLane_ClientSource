@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "不知道指挥官…哥哥找独角兽有什么事…",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "不过…能见到哥哥…就好开心了…嘻嘻……",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "独角兽…报到…找独角兽有什么事情吗？哥哥？",
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_star0",
 			bgspeed = 2,
 			blackBg = true,
-			actor = 105031,
+			actor = 105030,
 			mode = 3,
 			withoutPainting = true,
 			flashout = {
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "这个是……？票？",
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "演-唱-会？虽然不是很明白那是什么……",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "和哥哥……一起去？",
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "难道……这就是传说中的……yue-hui？",
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "嘻嘻……能和哥哥一起出去，独角兽……很期待……",

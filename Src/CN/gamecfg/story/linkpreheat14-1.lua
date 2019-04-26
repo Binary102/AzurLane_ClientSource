@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "我来执行这个任务吧",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "不，这个任务请交给我自己来完成",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "由我自己从远距离用大火力的武装进行攻击，借此吸引敌人的注意力",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "萨拉娜……注意安全",
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,7 +147,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "好的，我明白",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "知道了。那么——我出发了",
 			typewriter = {
 				speed = 0.05,

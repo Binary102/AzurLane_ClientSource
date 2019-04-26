@@ -25,7 +25,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：约克城级航空母舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -37,6 +36,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -64,7 +66,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：列克星敦级航空母舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -76,6 +77,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -103,7 +107,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：亚特兰大级轻巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -115,6 +118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -142,7 +148,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：布鲁克林级轻巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -154,6 +159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -181,7 +189,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：北安普顿级重巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -193,6 +200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -220,7 +230,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：伊丽莎白女王级战列舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -232,6 +241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -259,7 +271,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：胡德号战列巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -271,6 +282,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -298,7 +312,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：弗莱彻级驱逐舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -310,6 +323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -337,7 +353,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：纳尔逊级战列舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -349,6 +364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -376,7 +394,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：利安得级轻巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -388,6 +405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -415,7 +435,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：柯尼斯堡级轻巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -427,6 +446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -454,7 +476,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：格里德利级驱逐舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -466,6 +487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -493,7 +517,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：C级驱逐舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -505,6 +528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -532,7 +558,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：郡级重巡洋舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -544,6 +569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -571,7 +599,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：光辉级航空母舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -583,6 +610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -610,7 +640,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：俾斯麦战列舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -622,6 +651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -649,7 +681,6 @@ pg.furniture_data_template = {
 		describe = "特殊家具：鲐号战列舰1:100舰船模型",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -661,6 +692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[101] = {
@@ -688,7 +722,6 @@ pg.furniture_data_template = {
 		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#fad545>——纪念在2017.4.18—4.26的光荣作战</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -700,6 +733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[102] = {
@@ -727,7 +763,6 @@ pg.furniture_data_template = {
 		describe = "USS Arizona 1915.6.19—1941.12.7",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -739,6 +774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[103] = {
@@ -766,7 +804,6 @@ pg.furniture_data_template = {
 		describe = "又大又圆的炸弹，上面有个奇怪的标志，看起来很好吃的样子？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -778,6 +815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[104] = {
@@ -805,7 +845,6 @@ pg.furniture_data_template = {
 		describe = "白鹰第23驱逐舰中队\n<color=#fad545>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -817,6 +856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[105] = {
@@ -844,7 +886,6 @@ pg.furniture_data_template = {
 		describe = "坚守阵地。在敌人没有开枪射击以前，不要先开枪；但是，如果敌人硬要把战争强加在我们头上，那么，就让战争从这儿开始吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -856,6 +897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[106] = {
@@ -883,7 +927,6 @@ pg.furniture_data_template = {
 		describe = "遗落在「异色格」作战最终战场的陈旧勋章，经指挥部回收后，赠与一部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到铁血众人的执念与意志\n\t\t\t<color=#fad545>——纪念于2017年夏参与的异色格作战中获得的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -895,6 +938,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[107] = {
@@ -922,7 +968,6 @@ pg.furniture_data_template = {
 		describe = "波利斯的挂画，这可是珍藏哦~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -934,6 +979,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[108] = {
@@ -961,7 +1009,6 @@ pg.furniture_data_template = {
 		describe = "仙人居高处，秋千且为戏",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -986,6 +1033,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/qiuqianqixi_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -1014,7 +1064,6 @@ pg.furniture_data_template = {
 		describe = "纤云弄巧， 飞星传恨， 银汉迢迢暗度",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1083,6 +1132,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[111] = {
@@ -1110,7 +1162,6 @@ pg.furniture_data_template = {
 		describe = "起舞徘徊风露下，今夕不知何夕",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1122,6 +1173,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[112] = {
@@ -1149,7 +1203,6 @@ pg.furniture_data_template = {
 		describe = "遗落在塞壬的试验场中，由“红染的参访者”们回收的陈旧勋章，经过处理后，赠予部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到重樱众人的信念与意志\n\t\t\t<color=#fad545>——纪念参与特殊作战中获得的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1161,6 +1214,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[115] = {
@@ -1188,7 +1244,6 @@ pg.furniture_data_template = {
 		describe = "感受到来自校园啦啦队的注目了么~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1200,6 +1255,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"matongB",
@@ -1270,7 +1328,6 @@ pg.furniture_data_template = {
 		describe = "战争什么的太无聊了～还是来听我唱歌吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1282,6 +1339,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jinkelawutaiB",
@@ -1338,7 +1398,6 @@ pg.furniture_data_template = {
 		describe = "遗落在战火燃烧的废墟中，经指挥部回收后，赠与部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到白鹰众人们的坚定意志\n\t\t\t<color=#fad545>——参与坠落之翼作战的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1350,6 +1409,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[118] = {
@@ -1377,7 +1439,6 @@ pg.furniture_data_template = {
 		describe = "授予接受了《超次元的挑战》并且获取胜利的勇者的纪念奖章，似乎使用了来自异次元的素材，透着奇妙的光芒",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1389,6 +1450,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[119] = {
@@ -1416,7 +1480,6 @@ pg.furniture_data_template = {
 		describe = "授予接受了《凛冬的挑战书》并且获取胜利的勇者的勋章，从中可以感受到皇家的荣耀与骄傲",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1428,6 +1491,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[120] = {
@@ -1455,7 +1521,6 @@ pg.furniture_data_template = {
 		describe = "软软的座椅，散发着粽叶的香气",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		new = 1,
@@ -1478,6 +1543,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -1532,7 +1600,6 @@ pg.furniture_data_template = {
 		describe = "粽叶状的睡袋，让你安稳睡眠",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		new = 1,
@@ -1556,6 +1623,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/zongziwo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -1604,17 +1674,15 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "chuanmo/renouwo",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 122,
 		comfortable = 4,
 		describe = "盔甲人偶来保护你！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
-		new = 1,
-		discount_time = "",
+		new = 0,
 		size = {
 			4,
 			3
@@ -1646,10 +1714,13 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
-					2018,
+					2019,
 					4,
 					26
 				},
@@ -1661,9 +1732,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					5,
-					9
+					15
 				},
 				{
 					23,
@@ -1672,7 +1743,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[123] = {
 		can_rotate = 0,
@@ -1693,27 +1790,28 @@ pg.furniture_data_template = {
 		rarity = 4,
 		picture = "chuanmo/liyuqiwo",
 		canputon = 0,
-		discount = 0,
+		discount = 20,
 		id = 123,
 		comfortable = 4,
 		describe = "超巨大的鲤鱼旗！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
-		new = 1,
-		discount_time = "",
+		new = 0,
 		size = {
 			6,
 			5
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
-					2018,
+					2019,
 					4,
 					26
 				},
@@ -1725,9 +1823,9 @@ pg.furniture_data_template = {
 			},
 			{
 				{
-					2018,
+					2019,
 					5,
-					9
+					15
 				},
 				{
 					23,
@@ -1736,7 +1834,33 @@ pg.furniture_data_template = {
 				}
 			}
 		},
-		interAction_group = {}
+		interAction_group = {},
+		discount_time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[124] = {
 		can_rotate = 0,
@@ -1763,7 +1887,6 @@ pg.furniture_data_template = {
 		describe = "授予在《墨染的钢铁之花》的行动中获得杰出成就者的勋章，愿你的内心永远坚强",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1775,6 +1898,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[125] = {
@@ -1802,7 +1928,6 @@ pg.furniture_data_template = {
 		describe = "一周年了喵！感谢指挥官的支持喵！往后的每个周年都请多指教喵！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1814,6 +1939,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"1zhounianwutaiB",
@@ -1870,7 +1998,6 @@ pg.furniture_data_template = {
 		describe = "这个是…钻石的气息喵！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1882,6 +2009,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yizhounian2",
@@ -1919,7 +2049,6 @@ pg.furniture_data_template = {
 		describe = "以迷之技术制作而成的展台(一人用)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1931,6 +2060,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"1zhouniandengB",
@@ -1992,7 +2124,6 @@ pg.furniture_data_template = {
 		describe = "授予在「光与影的鸢尾之华」行动中获得杰出成就者的纪念钟。长久聆听，你会感受到庄严与肃穆的钟声。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2004,6 +2135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[130] = {
@@ -2031,7 +2165,6 @@ pg.furniture_data_template = {
 		describe = "咳～咳～咳～台下的诸位辛苦了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2056,6 +2189,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/fayantai"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -2084,7 +2220,6 @@ pg.furniture_data_template = {
 		describe = "车子是用来乘坐的，不可以偷吃哦！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2096,6 +2231,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guoqingdangaocheB",
@@ -2162,7 +2300,6 @@ pg.furniture_data_template = {
 		describe = "呀哈哈哈～好高好高～～",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2174,6 +2311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guoqingqiqiu",
@@ -2237,7 +2377,6 @@ pg.furniture_data_template = {
 		describe = "500日纪念~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2273,6 +2412,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[137] = {
@@ -2300,7 +2442,6 @@ pg.furniture_data_template = {
 		describe = "生日快乐～真正的美少女，永远都是18岁哟～",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2312,6 +2453,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dangaoB",
@@ -2387,7 +2531,6 @@ pg.furniture_data_template = {
 		describe = "「在镜面海域深处发现、似乎是由塞壬制作的假面。作为与异世界接触的纪念被带回了港区。」 ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2399,6 +2542,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[139] = {
@@ -2426,7 +2572,6 @@ pg.furniture_data_template = {
 		describe = "30W！30W！向指挥官们献上最高的感激与祝福！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2438,6 +2583,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"30w",
@@ -2506,7 +2654,6 @@ pg.furniture_data_template = {
 		describe = "某座城池的微缩模型，制作得十分精巧，可以感受到重樱的历史感——纪念参与《苍红的回响》特殊作战中获得的最高荣誉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2518,47 +2665,52 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[141] = {
 		can_rotate = 0,
-		name = "",
-		gain_by = "",
-		type = 0,
+		name = "晃悠悠纪念章",
+		gain_by = "虚拟链接的共时性",
+		type = 7,
 		dir = 0,
-		picture = "",
-		size = "",
-		is_get_time_note = 0,
-		count = 0,
-		advice = 0,
 		effect = "",
-		dorm_icon_price = 0,
-		not_for_sale = 0,
-		icon = "",
-		deblocking = 0,
-		level = 0,
-		interaction_bgm = "",
-		rarity = 0,
-		interAction_group = "",
-		spine = "",
-		belong = 0,
+		icon = "kizunaaiicon",
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		picture = "chuanmo/kizunaai",
 		canputon = 0,
 		discount = 0,
 		id = 141,
 		comfortable = 0,
-		describe = "",
+		describe = "「作为彻底净化虚拟空间的谢礼，请收下这个绊爱特制晃悠悠1:1比例纪念章，从今往后也请多关照了~」\n\t\t\t<color=#fad545>——绊爱</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
-		canputonGrid = "",
-		time = "",
-		interAction = "",
-		animator = "",
-		offset = "",
+		time = "always",
 		new = 0,
-		discount_time = ""
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1,
+			"event:/cv/furniture/kizunavoice"
+		},
+		interAction_group = {}
 	},
 	[142] = {
 		can_rotate = 0,
@@ -2583,9 +2735,9 @@ pg.furniture_data_template = {
 		id = 142,
 		comfortable = 0,
 		describe = "只要坚持不懈地努力，总是能够实现伟大的梦想的！",
-		dorm_id = 0,
+		dorm_id = 3,
 		gem_price = 0,
-		can_trigger = 0,
+		can_trigger = "",
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2633,6 +2785,113 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[143] = {
+		can_rotate = 0,
+		name = "决战用鲤鱼旗（误）",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "liyuqiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 143,
+		comfortable = 0,
+		describe = "骑上各自的鲤鱼旗，一决胜负吧！",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.3
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"liyuCharControl",
+				"liyuCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -2658,7 +2917,6 @@ pg.furniture_data_template = {
 		describe = "本ID禁用",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		time = "always",
 		new = 1,
@@ -2669,6 +2927,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"201901login",
@@ -2745,7 +3006,6 @@ pg.furniture_data_template = {
 		describe = "飞高高～飞高高～…唔！？太高了太高了！！QAQ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		time = "always",
 		new = 1,
@@ -2756,6 +3016,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"201901login",
@@ -2832,7 +3095,6 @@ pg.furniture_data_template = {
 		describe = "于天空自由飞翔的梦想，在此实现！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2844,6 +3106,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhuqingting",
@@ -2911,7 +3176,6 @@ pg.furniture_data_template = {
 		describe = "哼哼～猜猜看，这次能变出什么来？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2923,6 +3187,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"moshumaoB",
@@ -3001,7 +3268,6 @@ pg.furniture_data_template = {
 		describe = "将将～猜猜看，她在哪个箱子里？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -3013,6 +3279,108 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"MagicBoxB",
+				"normal"
+			},
+			{
+				"MagicBoxT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"stand21",
+						0,
+						"walk"
+					},
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"stand22",
+						0,
+						"dance"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				{
+					"MagicBoxCharControl",
+					"MagicBoxCharControl2"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100006] = {
+		can_rotate = 0,
+		name = "闪亮的舞台秀",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutaiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100006,
+		comfortable = 0,
+		describe = "就是今天，你也能成为展台上最闪亮的那颗星星！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"MagicBoxB",
@@ -3098,7 +3466,6 @@ pg.furniture_data_template = {
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3107,6 +3474,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1002] = {
@@ -3134,7 +3504,6 @@ pg.furniture_data_template = {
 		describe = "这么斑驳的墙壁，居然还有洞！这...能用么？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3143,6 +3512,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1101] = {
@@ -3170,7 +3542,6 @@ pg.furniture_data_template = {
 		describe = "这地垫都已经被咬的破破烂烂的啊，好穷酸的样子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3182,6 +3553,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1102] = {
@@ -3209,7 +3583,6 @@ pg.furniture_data_template = {
 		describe = "根本没有坐的地方啊！没办法，只要用这个来代替下了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3221,6 +3594,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1103] = {
@@ -3248,7 +3624,6 @@ pg.furniture_data_template = {
 		describe = "（┬＿┬） 居然连被子都买不起",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3268,6 +3643,9 @@ pg.furniture_data_template = {
 					10
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -3296,7 +3674,6 @@ pg.furniture_data_template = {
 		describe = "这个破破烂烂的架子，真的能当屏风用？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3308,6 +3685,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1105] = {
@@ -3335,7 +3715,6 @@ pg.furniture_data_template = {
 		describe = "一堆旧报纸，勉强当做坐垫用用吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3347,6 +3726,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1106] = {
@@ -3374,7 +3756,6 @@ pg.furniture_data_template = {
 		describe = "刚刚从旧货市场淘回来的旧电视，能用就好嘛",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3397,6 +3778,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -3425,7 +3809,6 @@ pg.furniture_data_template = {
 		describe = "长官说，在外面吃饭好花钱，自给自足才是王道！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3437,6 +3820,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1108] = {
@@ -3464,7 +3850,6 @@ pg.furniture_data_template = {
 		describe = "寒风中的煤油灯，代表着我们坚强的精神！...指挥官，我们真不换个门么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3476,6 +3861,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1109] = {
@@ -3503,7 +3891,6 @@ pg.furniture_data_template = {
 		describe = "豁了口的脸盆，这下可以不用担心屋顶的漏水了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3515,6 +3902,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1110] = {
@@ -3542,7 +3932,6 @@ pg.furniture_data_template = {
 		describe = "看上去很新的拖把，为了解决漏水的问题特地准备的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3554,6 +3943,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1111] = {
@@ -3581,7 +3973,6 @@ pg.furniture_data_template = {
 		describe = "QAQ衣柜好贵啊，只好用这些纸箱暂时代替下了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3593,6 +3984,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1112] = {
@@ -3620,7 +4014,6 @@ pg.furniture_data_template = {
 		describe = "纸箱真的是一个万能的东西！发明纸箱的人真是太棒了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3652,6 +4045,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1201] = {
@@ -3679,7 +4075,6 @@ pg.furniture_data_template = {
 		describe = "由莱比锡酱忍痛提供的，这下可以省掉不少电费了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3691,6 +4086,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1202] = {
@@ -3718,7 +4116,6 @@ pg.furniture_data_template = {
 		describe = "再穷喝茶的享受也不能放弃！茶具嘛，就勉强凑活下算了。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3730,6 +4127,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1203] = {
@@ -3757,7 +4157,6 @@ pg.furniture_data_template = {
 		describe = "一只猫，本来是想用来抓老鼠的，但是怎么一直在睡觉啊。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3769,6 +4168,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1204] = {
@@ -3796,7 +4198,6 @@ pg.furniture_data_template = {
 		describe = "元凶！破坏房子的元凶！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3808,6 +4209,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1205] = {
@@ -3835,7 +4239,6 @@ pg.furniture_data_template = {
 		describe = "今天的饭菜是......清汤树叶，诶，人家想吃肉啦~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3847,6 +4250,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1206] = {
@@ -3874,7 +4280,6 @@ pg.furniture_data_template = {
 		describe = "烛光会是夜晚最美丽的景色哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3886,6 +4291,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1301] = {
@@ -3913,7 +4321,6 @@ pg.furniture_data_template = {
 		describe = "记录备忘的便签，不要总是随手贴到墙上啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3925,6 +4332,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1302] = {
@@ -3952,7 +4362,6 @@ pg.furniture_data_template = {
 		describe = "这个窗户视野开阔，风景优美，就是，好像拦不住什么啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3964,6 +4373,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1303] = {
@@ -3991,7 +4403,6 @@ pg.furniture_data_template = {
 		describe = "这个窗户视野开阔，风景优美，就是，好像拦不住什么啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4003,6 +4414,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1304] = {
@@ -4030,7 +4444,6 @@ pg.furniture_data_template = {
 		describe = "平时用来写通知的地方",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4042,6 +4455,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1305] = {
@@ -4069,7 +4485,6 @@ pg.furniture_data_template = {
 		describe = "注意！开门的时候不要太大力！已经没钱买新的了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4081,6 +4496,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1306] = {
@@ -4108,7 +4526,6 @@ pg.furniture_data_template = {
 		describe = "不太稳固的手拉门，一用力就好像会坏掉的样子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4120,6 +4537,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1307] = {
@@ -4147,7 +4567,6 @@ pg.furniture_data_template = {
 		describe = "不太稳固的手拉门，一用力就好像会坏掉的样子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4159,6 +4578,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1308] = {
@@ -4186,7 +4608,6 @@ pg.furniture_data_template = {
 		describe = "勉强能用的喇叭，广播的时候还会有沙沙声",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4198,6 +4619,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1309] = {
@@ -4225,7 +4649,6 @@ pg.furniture_data_template = {
 		describe = "不知道从哪里弄过来装饰墙壁的海报",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -4237,6 +4660,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2001] = {
@@ -4264,7 +4690,6 @@ pg.furniture_data_template = {
 		describe = "(＾－＾)崭新的榻榻米，一定要好好爱护，不能随便弄脏哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4273,6 +4698,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2002] = {
@@ -4300,7 +4728,6 @@ pg.furniture_data_template = {
 		describe = "看起来软软的墙纸，好想蹭一下，可是会坏的吧？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4309,6 +4736,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2101] = {
@@ -4336,7 +4766,6 @@ pg.furniture_data_template = {
 		describe = "软蓬蓬的坐垫！上面还有樱花的图案！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4348,6 +4777,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2102] = {
@@ -4375,7 +4807,6 @@ pg.furniture_data_template = {
 		describe = "和风的卧床，上面印着樱花的纹样",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4411,6 +4842,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2105] = {
@@ -4438,7 +4872,6 @@ pg.furniture_data_template = {
 		describe = "透过罩子的烛光打扮房间的效果绝赞！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4450,6 +4883,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2106] = {
@@ -4477,7 +4913,6 @@ pg.furniture_data_template = {
 		describe = "大屏高清显示电视，你，值得拥有！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4489,6 +4924,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2107] = {
@@ -4516,7 +4954,6 @@ pg.furniture_data_template = {
 		describe = "厚实的棉被！温暖的被窝！人生的超绝享受！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4568,6 +5005,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2108] = {
@@ -4595,7 +5035,6 @@ pg.furniture_data_template = {
 		describe = "知道吗，每把剑都有自己的故事，就像每艘船，都有自己的过去",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4607,6 +5046,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2109] = {
@@ -4634,7 +5076,6 @@ pg.furniture_data_template = {
 		describe = "居然是半透明的材质！这样怎么躲在后面...额，没什么..",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4646,6 +5087,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2110] = {
@@ -4673,7 +5117,6 @@ pg.furniture_data_template = {
 		describe = "招财猫不去招财，居然抱着逗猫棒睡觉啊喂！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4685,6 +5128,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2201] = {
@@ -4712,7 +5158,6 @@ pg.furniture_data_template = {
 		describe = "古色古香的茶具，偶尔静下来，品一口茶吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4724,6 +5169,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2202] = {
@@ -4751,7 +5199,6 @@ pg.furniture_data_template = {
 		describe = "Ψ(￣-￣)Ψ 大！多！美味！超豪华的食物，超豪华的享受！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4763,6 +5210,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2203] = {
@@ -4790,7 +5240,6 @@ pg.furniture_data_template = {
 		describe = "樱花佐酒，不...来一杯么？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4802,6 +5251,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2204] = {
@@ -4829,7 +5281,6 @@ pg.furniture_data_template = {
 		describe = "作为成功人士，总需要点点缀嘛",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4841,6 +5292,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2205] = {
@@ -4868,7 +5322,6 @@ pg.furniture_data_template = {
 		describe = "某个民族的传统技艺作品，用来装点房间再适合不过了。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4880,6 +5333,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2206] = {
@@ -4907,7 +5363,6 @@ pg.furniture_data_template = {
 		describe = "要是能把秋天留在这些枫叶中就好了啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4919,6 +5374,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2207] = {
@@ -4946,7 +5404,6 @@ pg.furniture_data_template = {
 		describe = "充满设计感的和风鱼缸啊，Σ( ° △ °|||)︴ ，谁在这里面养了这个！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4958,6 +5415,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2301] = {
@@ -4985,7 +5445,6 @@ pg.furniture_data_template = {
 		describe = "大大的窗户，装上之后通风一定很棒！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4997,6 +5456,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2302] = {
@@ -5024,7 +5486,6 @@ pg.furniture_data_template = {
 		describe = "不知道是谁的手笔，但是很神奇的会让人平静下来",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -5036,6 +5497,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2303] = {
@@ -5063,7 +5527,6 @@ pg.furniture_data_template = {
 		describe = "和风的手拉门，注意不要太用力，要不然会坏的呀",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -5075,6 +5538,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2304] = {
@@ -5102,7 +5568,6 @@ pg.furniture_data_template = {
 		describe = "开个壁橱来存放点值得纪念的东西吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -5114,6 +5579,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2305] = {
@@ -5141,7 +5609,6 @@ pg.furniture_data_template = {
 		describe = "大大的扇挂，金纹黑底，不知道有没有什么代表的意义呢？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -5153,6 +5620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3001] = {
@@ -5180,7 +5650,6 @@ pg.furniture_data_template = {
 		describe = "这种黑色地板的优势在于不用经常打扫也不会显得很脏",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5189,6 +5658,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3002] = {
@@ -5216,7 +5688,6 @@ pg.furniture_data_template = {
 		describe = "淡蓝色墙壁是象征这天空与海洋吗？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5225,6 +5696,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3101] = {
@@ -5252,7 +5726,6 @@ pg.furniture_data_template = {
 		describe = "在地板上摊上软软的地垫，这样就能打滚了哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5264,6 +5737,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3102] = {
@@ -5291,7 +5767,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放杂物的架子，上面可以摆些.....呀，快把酒什么的收起来！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5303,6 +5778,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3103] = {
@@ -5330,7 +5808,6 @@ pg.furniture_data_template = {
 		describe = "Hey,boy！Game start！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5342,6 +5819,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3104] = {
@@ -5369,7 +5849,6 @@ pg.furniture_data_template = {
 		describe = "大大的航母床，除了爬上爬下比较烦外，还要记得不要摔下来啊。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5389,6 +5868,9 @@ pg.furniture_data_template = {
 					70
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5417,7 +5899,6 @@ pg.furniture_data_template = {
 		describe = "红白条纹的配色，嘛，看在这么软的份上就不纠结了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5455,6 +5936,9 @@ pg.furniture_data_template = {
 				"meishi/shafa4a_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3107] = {
@@ -5482,7 +5966,6 @@ pg.furniture_data_template = {
 		describe = "用来研究作战的台子，平时的主要作用是用来打扑克",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5534,6 +6017,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3108] = {
@@ -5561,7 +6047,6 @@ pg.furniture_data_template = {
 		describe = "BBQ！吃货的最爱！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5573,6 +6058,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3109] = {
@@ -5600,7 +6088,6 @@ pg.furniture_data_template = {
 		describe = "绝妙的音质，撼动你的耳朵！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5612,6 +6099,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3110] = {
@@ -5639,7 +6129,6 @@ pg.furniture_data_template = {
 		describe = "上方下圆的新款坐凳，以某种武器外形为蓝本制作",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5659,6 +6148,9 @@ pg.furniture_data_template = {
 					55
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5687,7 +6179,6 @@ pg.furniture_data_template = {
 		describe = "红白条纹配色的同款座椅，也是又软有蓬松的感觉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5707,6 +6198,9 @@ pg.furniture_data_template = {
 					40
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5735,7 +6229,6 @@ pg.furniture_data_template = {
 		describe = "长官新送的植物，放在地上容易踢到，就放在凳子上吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5747,6 +6240,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3202] = {
@@ -5774,7 +6270,6 @@ pg.furniture_data_template = {
 		describe = "这个箱子用来存储出远门用的东西，只是感觉，有点大啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5786,6 +6281,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3203] = {
@@ -5813,7 +6311,6 @@ pg.furniture_data_template = {
 		describe = "最受欢迎的娱乐活动之一，赶紧来一把。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5825,6 +6322,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3204] = {
@@ -5852,7 +6352,6 @@ pg.furniture_data_template = {
 		describe = "新款式的夜灯耶！等等，这个外形，这不是小男孩嘛？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5864,6 +6363,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3301] = {
@@ -5891,7 +6393,6 @@ pg.furniture_data_template = {
 		describe = "面朝大海...海风好大！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5903,6 +6404,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3302] = {
@@ -5930,7 +6434,6 @@ pg.furniture_data_template = {
 		describe = "这是一张充满了象征意义的海报。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5942,6 +6445,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3303] = {
@@ -5969,7 +6475,6 @@ pg.furniture_data_template = {
 		describe = "做成救生圈样式的时钟，设计别具一格。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5981,6 +6486,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3304] = {
@@ -6008,7 +6516,6 @@ pg.furniture_data_template = {
 		describe = "坚固的铁制门，感觉用力带上会发出哐哐的巨响。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -6020,6 +6527,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3305] = {
@@ -6047,7 +6557,6 @@ pg.furniture_data_template = {
 		describe = "挂在墙上的世界地图，只是用来做装饰的啦。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -6059,6 +6568,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3306] = {
@@ -6086,7 +6598,6 @@ pg.furniture_data_template = {
 		describe = "用来演示战略的工具，不过更多是用来看电影什么的。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -6098,6 +6609,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4001] = {
@@ -6125,7 +6639,6 @@ pg.furniture_data_template = {
 		describe = "典雅贵气的实木地板，能够有效提升家里舒适度！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6134,6 +6647,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4002] = {
@@ -6161,7 +6677,6 @@ pg.furniture_data_template = {
 		describe = "淡绿色的墙壁，不知为何，总是有种淡然温馨的感觉。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6170,6 +6685,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4101] = {
@@ -6197,7 +6715,6 @@ pg.furniture_data_template = {
 		describe = "纯白色的地毯，柔软舒适，很受猫咪欢迎的哦~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6209,6 +6726,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4102] = {
@@ -6236,7 +6756,6 @@ pg.furniture_data_template = {
 		describe = "高高的灯架，散发着温黄灯光的灯罩。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6248,6 +6767,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4103] = {
@@ -6275,7 +6797,6 @@ pg.furniture_data_template = {
 		describe = "小小的圆桌，放在手边的话，随手就能拿到摆放的东西，十分方便。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6287,6 +6808,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4104] = {
@@ -6314,7 +6838,6 @@ pg.furniture_data_template = {
 		describe = "小小的圆桌，放在手边的话，随手就能拿到摆放的东西，十分方便。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6326,6 +6849,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4105] = {
@@ -6353,7 +6879,6 @@ pg.furniture_data_template = {
 		describe = "想要提升一个人的自我修养，一个书柜是必不可少的！诶？你问有什么书？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6365,6 +6890,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4106] = {
@@ -6392,7 +6920,6 @@ pg.furniture_data_template = {
 		describe = "一款风靡世界的娱乐活动，但是小心不要捅到人啊！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6404,6 +6931,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4107] = {
@@ -6431,7 +6961,6 @@ pg.furniture_data_template = {
 		describe = "厚实的沙发座椅，感觉好像能整个人都陷进去啊。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6455,6 +6984,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6483,7 +7015,6 @@ pg.furniture_data_template = {
 		describe = "小号的沙发凳，在座位不够的时候可以拿出来应急",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6507,6 +7038,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6535,7 +7069,6 @@ pg.furniture_data_template = {
 		describe = "镂空椅背的座椅，用来会客的话是个不错的选择。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6559,6 +7092,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6587,7 +7123,6 @@ pg.furniture_data_template = {
 		describe = "平时用来摆放物品的架子，能够容纳很多东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6599,6 +7134,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4113] = {
@@ -6626,7 +7164,6 @@ pg.furniture_data_template = {
 		describe = "蓝色桌布覆盖的圆桌，空间很大，看上去能放很多东西的样子。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6658,6 +7195,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4114] = {
@@ -6685,7 +7225,6 @@ pg.furniture_data_template = {
 		describe = "软蓬蓬的床上还放着一只可爱的小熊！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6721,6 +7260,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4201] = {
@@ -6748,7 +7290,6 @@ pg.furniture_data_template = {
 		describe = "闲暇时，来练练大提琴吧！悠扬的琴声很适合放松自己。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6760,6 +7301,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4202] = {
@@ -6787,7 +7331,6 @@ pg.furniture_data_template = {
 		describe = "整套红茶茶具，感觉一下子就有下午茶的气氛了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6799,6 +7342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4203] = {
@@ -6826,7 +7372,6 @@ pg.furniture_data_template = {
 		describe = "喵~ ＞▽＜ ！一只超可爱的小英短。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6838,6 +7383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4301] = {
@@ -6865,7 +7413,6 @@ pg.furniture_data_template = {
 		describe = "放在墙壁高处的壁灯，小小一盏就能照亮很大范围。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6877,6 +7424,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4302] = {
@@ -6904,7 +7454,6 @@ pg.furniture_data_template = {
 		describe = "其实只是仿制品啦，才不会用真的鹿头挂在墙上",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6916,6 +7465,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4303] = {
@@ -6943,7 +7495,6 @@ pg.furniture_data_template = {
 		describe = "蛮啾king的画像，小市场淘回来，价格意外的便宜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6955,6 +7506,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4304] = {
@@ -6982,7 +7536,6 @@ pg.furniture_data_template = {
 		describe = "平时一点也不突出，寒冷的时候可是很有存在感的东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6994,6 +7547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4305] = {
@@ -7021,7 +7577,6 @@ pg.furniture_data_template = {
 		describe = "大大的落地窗！透光效果良好！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -7033,6 +7588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4306] = {
@@ -7060,7 +7618,6 @@ pg.furniture_data_template = {
 		describe = "经典款式的门，由实木制作而成。相当的上档次！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -7072,6 +7629,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4307] = {
@@ -7099,7 +7659,6 @@ pg.furniture_data_template = {
 		describe = "这些照片记录下了日不落曾经的辉煌与荣耀。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -7111,6 +7670,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5001] = {
@@ -7138,7 +7700,6 @@ pg.furniture_data_template = {
 		describe = "纯钢的地板，走在上面一定要有铿锵之声！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7147,6 +7708,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5002] = {
@@ -7174,7 +7738,6 @@ pg.furniture_data_template = {
 		describe = "简洁，朴素，毫无装饰，极至的实用主义！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7183,6 +7746,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5101] = {
@@ -7210,7 +7776,6 @@ pg.furniture_data_template = {
 		describe = "这块地毯的红色是由敌人的鲜血染成的荣耀！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7222,6 +7787,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5102] = {
@@ -7249,7 +7817,6 @@ pg.furniture_data_template = {
 		describe = "可折叠的办公椅，方便实用！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7273,6 +7840,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7301,7 +7871,6 @@ pg.furniture_data_template = {
 		describe = "黑灰配色的办公桌，感觉做事的时候很酷哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7349,6 +7918,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5105] = {
@@ -7376,7 +7948,6 @@ pg.furniture_data_template = {
 		describe = "哼哼，我铁血公国技术世界第一。这个可以在你睡觉的时候帮你修复身体哦~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7412,6 +7983,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5106] = {
@@ -7439,7 +8013,6 @@ pg.furniture_data_template = {
 		describe = "正规的作战桌，还附赠地图。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7451,6 +8024,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5107] = {
@@ -7478,7 +8054,6 @@ pg.furniture_data_template = {
 		describe = "纯红色的沙发，比起一般沙发来说有点小。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7514,6 +8089,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5108] = {
@@ -7541,7 +8119,6 @@ pg.furniture_data_template = {
 		describe = "放着图纸设计的盒子，喂喂，放的这么随便小心被偷走啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7553,6 +8130,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5109] = {
@@ -7580,7 +8160,6 @@ pg.furniture_data_template = {
 		describe = "test~test~1，2，3！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7592,6 +8171,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5111] = {
@@ -7619,7 +8201,6 @@ pg.furniture_data_template = {
 		describe = "开会用的椅子，坐在上面的时候一定要注意姿势。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7643,6 +8224,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7671,7 +8255,6 @@ pg.furniture_data_template = {
 		describe = "砖头砌成的台子，平时用来摆些零食什么的再好不过了。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7698,6 +8281,9 @@ pg.furniture_data_template = {
 				2,
 				0
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7726,7 +8312,6 @@ pg.furniture_data_template = {
 		describe = "储放了很多重要资料的柜子，小心注意不要被窃取机密！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7738,6 +8323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5114] = {
@@ -7765,7 +8353,6 @@ pg.furniture_data_template = {
 		describe = "啤酒！烤肠！壁炉兼任烧烤的想法真是太棒了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7777,6 +8364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5201] = {
@@ -7804,7 +8394,6 @@ pg.furniture_data_template = {
 		describe = "古老的传输信息的系统。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7816,6 +8405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5202] = {
@@ -7843,7 +8435,6 @@ pg.furniture_data_template = {
 		describe = "待客用的红酒，但是真的不如啤酒爽快啊。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7855,6 +8446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5203] = {
@@ -7882,7 +8476,6 @@ pg.furniture_data_template = {
 		describe = "大大的啤酒桶，随时可饮！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7894,6 +8487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5301] = {
@@ -7921,7 +8517,6 @@ pg.furniture_data_template = {
 		describe = "给潜艇设计的窗户，顺手就用来给房子安上吧，",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7933,6 +8528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5302] = {
@@ -7960,7 +8558,6 @@ pg.furniture_data_template = {
 		describe = "铁血公国的旗帜！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7972,6 +8569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5303] = {
@@ -7999,7 +8599,6 @@ pg.furniture_data_template = {
 		describe = "俾斯麦酱的画像，虽然她本人觉得有点羞耻啦。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -8011,6 +8610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5304] = {
@@ -8038,7 +8640,6 @@ pg.furniture_data_template = {
 		describe = "大大的铁门，还附带有温度计。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -8050,6 +8651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5305] = {
@@ -8077,7 +8681,6 @@ pg.furniture_data_template = {
 		describe = "战舰设计图，正在更新改进中。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -8089,6 +8692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5306] = {
@@ -8116,7 +8722,6 @@ pg.furniture_data_template = {
 		describe = "铁血公国的世界地图，代表着他们眼中的世界划分。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -8128,6 +8733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5307] = {
@@ -8155,7 +8763,6 @@ pg.furniture_data_template = {
 		describe = "家中常备修理设备，才能做到有备无患。",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -8167,6 +8774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6001] = {
@@ -8194,7 +8804,6 @@ pg.furniture_data_template = {
 		describe = "bili系列地板，小心不要弄脏哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8203,6 +8812,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6002] = {
@@ -8230,7 +8842,6 @@ pg.furniture_data_template = {
 		describe = "bili系列的墙壁，数数上面的图案吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8239,6 +8850,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6101] = {
@@ -8266,7 +8880,6 @@ pg.furniture_data_template = {
 		describe = "bilibili~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8278,6 +8891,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6102] = {
@@ -8305,7 +8921,6 @@ pg.furniture_data_template = {
 		describe = "这个浴缸好像有点不对啊，哇哇哇！指挥官要煮了吃掉我么！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8330,6 +8945,9 @@ pg.furniture_data_template = {
 				},
 				"bili/noddleshower_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8358,7 +8976,6 @@ pg.furniture_data_template = {
 		describe = "一整套的豪华影视设备",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8402,6 +9019,9 @@ pg.furniture_data_template = {
 				11
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6104] = {
@@ -8429,7 +9049,6 @@ pg.furniture_data_template = {
 		describe = "动次打次！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8441,6 +9060,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6105] = {
@@ -8468,7 +9090,6 @@ pg.furniture_data_template = {
 		describe = "啊！这就是懒人的梦想啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8504,6 +9125,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6106] = {
@@ -8531,7 +9155,6 @@ pg.furniture_data_template = {
 		describe = "这个难道是战术桌！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8579,6 +9202,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6107] = {
@@ -8606,7 +9232,6 @@ pg.furniture_data_template = {
 		describe = "放在角落的柜子，还有手办哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8618,6 +9243,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6108] = {
@@ -8645,7 +9273,6 @@ pg.furniture_data_template = {
 		describe = "诶？有人会弹琴么？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8657,6 +9284,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6109] = {
@@ -8684,7 +9314,6 @@ pg.furniture_data_template = {
 		describe = "1~2~3~茄子！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8696,6 +9325,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6110] = {
@@ -8723,7 +9355,6 @@ pg.furniture_data_template = {
 		describe = "两箱卷纸能用很久了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8735,6 +9366,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6111] = {
@@ -8762,7 +9396,6 @@ pg.furniture_data_template = {
 		describe = "多读书多努力！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8785,6 +9418,9 @@ pg.furniture_data_template = {
 				6,
 				5
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8813,7 +9449,6 @@ pg.furniture_data_template = {
 		describe = "累了就来放松一下吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8825,6 +9460,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6113] = {
@@ -8852,7 +9490,6 @@ pg.furniture_data_template = {
 		describe = "test~test~1，2，3！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8864,6 +9501,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6114] = {
@@ -8891,7 +9531,6 @@ pg.furniture_data_template = {
 		describe = "桌上放满了各种各样的游戏机",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8903,6 +9542,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6115] = {
@@ -8930,7 +9572,6 @@ pg.furniture_data_template = {
 		describe = "平时要好好整理衣服哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8942,6 +9583,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6118] = {
@@ -8969,7 +9613,6 @@ pg.furniture_data_template = {
 		describe = "长长的沙发都可以躺着睡了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -8994,6 +9637,9 @@ pg.furniture_data_template = {
 				},
 				"bili/shanfabi1_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9022,7 +9668,6 @@ pg.furniture_data_template = {
 		describe = "长长的小电视",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9034,6 +9679,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6201] = {
@@ -9061,7 +9709,6 @@ pg.furniture_data_template = {
 		describe = "家具：22的抱枕",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9073,6 +9720,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6202] = {
@@ -9100,7 +9750,6 @@ pg.furniture_data_template = {
 		describe = "家具：33的抱枕",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9112,6 +9761,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6203] = {
@@ -9139,7 +9791,6 @@ pg.furniture_data_template = {
 		describe = "一个叫群众的人送过来的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9151,6 +9802,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6204] = {
@@ -9178,7 +9832,6 @@ pg.furniture_data_template = {
 		describe = "为什么每次进来都是切换到桌面呢？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9190,6 +9843,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6205] = {
@@ -9217,7 +9873,6 @@ pg.furniture_data_template = {
 		describe = "请调频2233频道",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9229,6 +9884,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6206] = {
@@ -9256,7 +9914,6 @@ pg.furniture_data_template = {
 		describe = "速食万岁！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9268,6 +9925,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6207] = {
@@ -9295,7 +9955,6 @@ pg.furniture_data_template = {
 		describe = "叮铃铃！叮铃铃！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9307,6 +9966,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6208] = {
@@ -9334,7 +9996,6 @@ pg.furniture_data_template = {
 		describe = "bilibili~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9346,6 +10007,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6209] = {
@@ -9373,7 +10037,6 @@ pg.furniture_data_template = {
 		describe = "要记得爱干净哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9385,6 +10048,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6210] = {
@@ -9412,7 +10078,6 @@ pg.furniture_data_template = {
 		describe = "吃枣",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9424,6 +10089,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6211] = {
@@ -9451,7 +10119,6 @@ pg.furniture_data_template = {
 		describe = "书本是知识的海洋",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9463,6 +10130,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6212] = {
@@ -9490,7 +10160,6 @@ pg.furniture_data_template = {
 		describe = "矮矮的小桌上面有几台电脑",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9502,6 +10171,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6213] = {
@@ -9529,7 +10201,6 @@ pg.furniture_data_template = {
 		describe = "恶魔的饮料！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9541,6 +10212,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6301] = {
@@ -9568,7 +10242,6 @@ pg.furniture_data_template = {
 		describe = "玩累了的时候远眺下也是个放松的好办法",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9580,6 +10253,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6302] = {
@@ -9607,7 +10283,6 @@ pg.furniture_data_template = {
 		describe = "记得随手关门哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9619,6 +10294,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[6303] = {
@@ -9646,7 +10324,6 @@ pg.furniture_data_template = {
 		describe = "这是哪个活动的纪念吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 6,
 		spine_extra = "",
 		time = "always",
@@ -9658,6 +10335,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7001] = {
@@ -9685,7 +10365,6 @@ pg.furniture_data_template = {
 		describe = "蓝色在这炎热夏天多少有点作用吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9694,6 +10373,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7002] = {
@@ -9721,7 +10403,6 @@ pg.furniture_data_template = {
 		describe = "蓝色在这炎热夏天多少有点作用吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9730,6 +10411,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7101] = {
@@ -9757,7 +10441,6 @@ pg.furniture_data_template = {
 		describe = "放在门口给进门用清理鞋底用的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9769,6 +10452,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7102] = {
@@ -9796,7 +10482,6 @@ pg.furniture_data_template = {
 		describe = "在家里营造出海滩的感觉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9808,6 +10493,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7103] = {
@@ -9835,7 +10523,6 @@ pg.furniture_data_template = {
 		describe = "圆形的蓝色地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9847,6 +10534,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7104] = {
@@ -9874,7 +10564,6 @@ pg.furniture_data_template = {
 		describe = "大大的西瓜浴缸",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9899,6 +10588,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/yushixg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9927,7 +10619,6 @@ pg.furniture_data_template = {
 		describe = "冰镇的饮料是夏天的天使！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9939,6 +10630,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7106] = {
@@ -9966,7 +10660,6 @@ pg.furniture_data_template = {
 		describe = "来猜猜这里面藏着什么呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -9978,6 +10671,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7107] = {
@@ -10005,7 +10701,6 @@ pg.furniture_data_template = {
 		describe = "好大的瓜啊!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10030,6 +10725,9 @@ pg.furniture_data_template = {
 				},
 				"xigua/chuangxg_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10058,7 +10756,6 @@ pg.furniture_data_template = {
 		describe = "冲浪板诶！不过在房间里用不了啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10070,6 +10767,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7109] = {
@@ -10097,7 +10797,6 @@ pg.furniture_data_template = {
 		describe = "庭院边的地垫，上面有好多吃的啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10109,6 +10808,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7110] = {
@@ -10136,7 +10838,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放东西的柜子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10176,6 +10877,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7111] = {
@@ -10203,7 +10907,6 @@ pg.furniture_data_template = {
 		describe = "好多果汁啊，可以喝个痛快了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10215,6 +10918,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7112] = {
@@ -10242,7 +10948,6 @@ pg.furniture_data_template = {
 		describe = "西瓜主题的梳妆柜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10269,6 +10974,9 @@ pg.furniture_data_template = {
 				3,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10297,7 +11005,6 @@ pg.furniture_data_template = {
 		describe = "西瓜配色的沙发",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10344,6 +11051,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7114] = {
@@ -10371,7 +11081,6 @@ pg.furniture_data_template = {
 		describe = "自动售货机",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10383,6 +11092,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7115] = {
@@ -10410,7 +11122,6 @@ pg.furniture_data_template = {
 		describe = "书柜里有好多书啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10466,6 +11177,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7116] = {
@@ -10493,7 +11207,6 @@ pg.furniture_data_template = {
 		describe = "冰镇的水果，大家不要吃坏肚子哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10505,6 +11218,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7117] = {
@@ -10532,7 +11248,6 @@ pg.furniture_data_template = {
 		describe = "这种颜色的躺椅躺上去会不会很舒服呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10556,6 +11271,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10584,7 +11302,6 @@ pg.furniture_data_template = {
 		describe = "专门用来水镇西瓜的柜子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10596,6 +11313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7119] = {
@@ -10623,7 +11343,6 @@ pg.furniture_data_template = {
 		describe = "加了椰子树是不是有更多沙滩的感觉了？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10635,6 +11354,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7120] = {
@@ -10662,7 +11384,6 @@ pg.furniture_data_template = {
 		describe = "小鱼儿，游啊游",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10674,6 +11395,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7121] = {
@@ -10701,7 +11425,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放东西的柜子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10733,6 +11456,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7122] = {
@@ -10760,7 +11486,6 @@ pg.furniture_data_template = {
 		describe = "大大的西瓜桌，吃东西不要抢啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10812,6 +11537,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7123] = {
@@ -10839,7 +11567,6 @@ pg.furniture_data_template = {
 		describe = "西瓜小凳，一张只能坐一个人",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10863,6 +11590,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10891,7 +11621,6 @@ pg.furniture_data_template = {
 		describe = "咝~~~~大脑在颤抖！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10903,6 +11632,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7202] = {
@@ -10930,7 +11662,6 @@ pg.furniture_data_template = {
 		describe = "咝~~~~大脑在颤抖！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10942,6 +11673,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7203] = {
@@ -10969,7 +11703,6 @@ pg.furniture_data_template = {
 		describe = "神秘群众1：我跟你说，这瓜超甜的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -10981,6 +11714,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7204] = {
@@ -11008,7 +11744,6 @@ pg.furniture_data_template = {
 		describe = "神秘群众2：我跟你说，这瓜一点都不甜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11020,6 +11755,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7205] = {
@@ -11047,7 +11785,6 @@ pg.furniture_data_template = {
 		describe = "淡绿色的植物",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11059,6 +11796,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7206] = {
@@ -11086,7 +11826,6 @@ pg.furniture_data_template = {
 		describe = "小发发好可爱！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11098,6 +11837,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7207] = {
@@ -11125,7 +11867,6 @@ pg.furniture_data_template = {
 		describe = "西瓜色记事本",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11137,6 +11878,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7208] = {
@@ -11164,7 +11908,6 @@ pg.furniture_data_template = {
 		describe = "平铺的毯子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11176,6 +11919,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7209] = {
@@ -11203,7 +11949,6 @@ pg.furniture_data_template = {
 		describe = "海豹相框么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11215,6 +11960,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7210] = {
@@ -11242,7 +11990,6 @@ pg.furniture_data_template = {
 		describe = "洗发水物品，要爱护头发哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11254,6 +12001,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7211] = {
@@ -11281,7 +12031,6 @@ pg.furniture_data_template = {
 		describe = "挖着吃的西瓜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11293,6 +12042,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7212] = {
@@ -11320,7 +12072,6 @@ pg.furniture_data_template = {
 		describe = "片好的西瓜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11332,6 +12083,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7213] = {
@@ -11359,7 +12113,6 @@ pg.furniture_data_template = {
 		describe = "好喝的饮料",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11371,6 +12124,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7214] = {
@@ -11398,7 +12154,6 @@ pg.furniture_data_template = {
 		describe = "洗刷刷！洗刷刷！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11410,6 +12165,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7301] = {
@@ -11437,7 +12195,6 @@ pg.furniture_data_template = {
 		describe = "一边吃瓜一边看风景",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11449,6 +12206,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7302] = {
@@ -11476,7 +12236,6 @@ pg.furniture_data_template = {
 		describe = "蓝色空调，夏日的神器！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11488,6 +12247,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7303] = {
@@ -11515,7 +12277,6 @@ pg.furniture_data_template = {
 		describe = "淡蓝色的门，出入要小心哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11527,6 +12288,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[7304] = {
@@ -11554,7 +12318,6 @@ pg.furniture_data_template = {
 		describe = "累了也可以去庭院中休息下",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 7,
 		spine_extra = "",
 		time = "always",
@@ -11566,6 +12329,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8001] = {
@@ -11593,7 +12359,6 @@ pg.furniture_data_template = {
 		describe = "铁血工艺制造的地板",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11602,6 +12367,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8002] = {
@@ -11629,7 +12397,6 @@ pg.furniture_data_template = {
 		describe = "素雅的墙壁给酒吧营造了良好的氛围",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11638,6 +12405,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8101] = {
@@ -11665,7 +12435,6 @@ pg.furniture_data_template = {
 		describe = "厚厚的地毯，踩上去好舒服",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11677,6 +12446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8102] = {
@@ -11704,7 +12476,6 @@ pg.furniture_data_template = {
 		describe = "放在门口给进门用清理鞋底用的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11716,6 +12487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8103] = {
@@ -11743,7 +12517,6 @@ pg.furniture_data_template = {
 		describe = "哇！好大的池子！能进几个人呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11793,6 +12566,9 @@ pg.furniture_data_template = {
 				"ger/gerpijiuchi_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8104] = {
@@ -11820,7 +12596,6 @@ pg.furniture_data_template = {
 		describe = "汪！汪！！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11832,6 +12607,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8105] = {
@@ -11859,7 +12637,6 @@ pg.furniture_data_template = {
 		describe = "这里显示的999是什么意思啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11871,6 +12648,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8106] = {
@@ -11898,7 +12678,6 @@ pg.furniture_data_template = {
 		describe = "喝醉了就直接睡会吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11922,6 +12701,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11950,7 +12732,6 @@ pg.furniture_data_template = {
 		describe = "来点杯喝的吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -11975,6 +12756,9 @@ pg.furniture_data_template = {
 				},
 				"ger/gerbatai_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12003,7 +12787,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放东西的柜子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12015,6 +12798,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8109] = {
@@ -12042,7 +12828,6 @@ pg.furniture_data_template = {
 		describe = "矮矮的楼梯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12054,6 +12839,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8110] = {
@@ -12081,7 +12869,6 @@ pg.furniture_data_template = {
 		describe = "高高的楼梯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12093,6 +12880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8111] = {
@@ -12120,7 +12910,6 @@ pg.furniture_data_template = {
 		describe = "坐在一起喝酒感觉最好了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12178,6 +12967,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8112] = {
@@ -12205,7 +12997,6 @@ pg.furniture_data_template = {
 		describe = "偶尔加一抹绿色也不错",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12217,6 +13008,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8113] = {
@@ -12244,7 +13038,6 @@ pg.furniture_data_template = {
 		describe = "隔开座位用的木板",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12256,6 +13049,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8114] = {
@@ -12283,7 +13079,6 @@ pg.furniture_data_template = {
 		describe = "摆些食物上桌子吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12315,6 +13110,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8115] = {
@@ -12342,7 +13140,6 @@ pg.furniture_data_template = {
 		describe = "漂亮的矢车菊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12354,6 +13151,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8116] = {
@@ -12381,7 +13181,6 @@ pg.furniture_data_template = {
 		describe = "用来坐的凳子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12405,6 +13204,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12433,7 +13235,6 @@ pg.furniture_data_template = {
 		describe = "酒窖底台，不要站上去啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12445,6 +13246,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8118] = {
@@ -12472,7 +13276,6 @@ pg.furniture_data_template = {
 		describe = "单人酒桶浴缸",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12497,6 +13300,9 @@ pg.furniture_data_template = {
 				},
 				"ger/geryugang_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12525,7 +13331,6 @@ pg.furniture_data_template = {
 		describe = "桌子不够了，就用酒桶来当桌子吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12548,6 +13353,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12576,7 +13384,6 @@ pg.furniture_data_template = {
 		describe = "桌子不够了，就用酒桶来当桌子吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12599,6 +13406,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -12627,7 +13437,6 @@ pg.furniture_data_template = {
 		describe = "香喷喷的食物",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12639,6 +13448,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8201] = {
@@ -12666,7 +13478,6 @@ pg.furniture_data_template = {
 		describe = "敦~敦~敦~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12678,6 +13489,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8202] = {
@@ -12705,7 +13519,6 @@ pg.furniture_data_template = {
 		describe = "不喝酒？那来喝点咖啡吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12717,6 +13530,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8203] = {
@@ -12744,7 +13560,6 @@ pg.furniture_data_template = {
 		describe = "一大扎啤酒！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12756,6 +13571,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8204] = {
@@ -12783,7 +13601,6 @@ pg.furniture_data_template = {
 		describe = "喝酒必备零嘴！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12795,6 +13612,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8301] = {
@@ -12822,7 +13642,6 @@ pg.furniture_data_template = {
 		describe = "酒吧里还有地图啊，唉，破坏心情啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12834,6 +13653,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8302] = {
@@ -12861,7 +13683,6 @@ pg.furniture_data_template = {
 		describe = "昏暗灯光的来源",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12873,6 +13694,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8303] = {
@@ -12900,7 +13724,6 @@ pg.furniture_data_template = {
 		describe = "门在这，这边走",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12912,6 +13735,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8304] = {
@@ -12939,7 +13765,6 @@ pg.furniture_data_template = {
 		describe = "桶装酒储藏处",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12951,6 +13776,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8305] = {
@@ -12978,7 +13806,6 @@ pg.furniture_data_template = {
 		describe = "装饰用的救生圈",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -12990,6 +13817,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8306] = {
@@ -13017,7 +13847,6 @@ pg.furniture_data_template = {
 		describe = "神秘二楼的入口",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -13029,6 +13858,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8307] = {
@@ -13056,7 +13888,6 @@ pg.furniture_data_template = {
 		describe = "荣耀的记录处",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -13068,6 +13899,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9001] = {
@@ -13095,7 +13929,6 @@ pg.furniture_data_template = {
 		describe = "学校的地板，注意要时刻保持整洁哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13104,6 +13937,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9002] = {
@@ -13131,7 +13967,6 @@ pg.furniture_data_template = {
 		describe = "不要在墙壁上乱涂乱画！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13140,6 +13975,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9101] = {
@@ -13167,7 +14005,6 @@ pg.furniture_data_template = {
 		describe = "这幅画好像在哪见过诶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13179,6 +14016,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9102] = {
@@ -13206,7 +14046,6 @@ pg.furniture_data_template = {
 		describe = "这么大的刷子用来干嘛的啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13231,6 +14070,9 @@ pg.furniture_data_template = {
 				},
 				"sc/yugangsc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13259,7 +14101,6 @@ pg.furniture_data_template = {
 		describe = "…....",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13271,6 +14112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9104] = {
@@ -13298,7 +14142,6 @@ pg.furniture_data_template = {
 		describe = "万物皆可度量",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13310,6 +14153,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9105] = {
@@ -13337,7 +14183,6 @@ pg.furniture_data_template = {
 		describe = "这个可是挤不出颜料的哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13362,6 +14207,9 @@ pg.furniture_data_template = {
 				},
 				"sc/yanliaochuangsc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13390,7 +14238,6 @@ pg.furniture_data_template = {
 		describe = "上课之前要收好东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13402,6 +14249,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9107] = {
@@ -13429,7 +14279,6 @@ pg.furniture_data_template = {
 		describe = "摆些小东西进去吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13485,6 +14334,9 @@ pg.furniture_data_template = {
 				5
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9108] = {
@@ -13512,7 +14364,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放画板的架子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13524,6 +14375,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9109] = {
@@ -13551,7 +14405,6 @@ pg.furniture_data_template = {
 		describe = "麦克笔的沙发，好大！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13589,6 +14442,9 @@ pg.furniture_data_template = {
 				"sc/makebishafasc_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9110] = {
@@ -13616,7 +14472,6 @@ pg.furniture_data_template = {
 		describe = "老师的位置，学生不要乱站",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13664,6 +14519,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9111] = {
@@ -13691,7 +14549,6 @@ pg.furniture_data_template = {
 		describe = "摆放静物的台子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13703,6 +14560,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9112] = {
@@ -13730,7 +14590,6 @@ pg.furniture_data_template = {
 		describe = "桌子上不要乱放东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13757,6 +14616,9 @@ pg.furniture_data_template = {
 				1,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13785,7 +14647,6 @@ pg.furniture_data_template = {
 		describe = "大家坐好先",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13809,6 +14670,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13837,7 +14701,6 @@ pg.furniture_data_template = {
 		describe = "manjuu~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13849,6 +14712,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9115] = {
@@ -13876,7 +14742,6 @@ pg.furniture_data_template = {
 		describe = "著名的石膏像",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13888,6 +14753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9116] = {
@@ -13915,7 +14783,6 @@ pg.furniture_data_template = {
 		describe = "好大的调色板！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -13955,6 +14822,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9117] = {
@@ -13982,7 +14852,6 @@ pg.furniture_data_template = {
 		describe = "小小的桌子，能放的位置很有限",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14034,6 +14903,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9118] = {
@@ -14061,7 +14933,6 @@ pg.furniture_data_template = {
 		describe = "一桶水",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14073,6 +14944,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9119] = {
@@ -14100,7 +14974,6 @@ pg.furniture_data_template = {
 		describe = "红色的颜料",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14124,6 +14997,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -14152,7 +15028,6 @@ pg.furniture_data_template = {
 		describe = "蓝色的颜料",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14176,6 +15051,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -14204,7 +15082,6 @@ pg.furniture_data_template = {
 		describe = "绿色的颜料",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14228,6 +15105,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -14256,7 +15136,6 @@ pg.furniture_data_template = {
 		describe = "口渴的时候记得补充水分哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14268,6 +15147,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9123] = {
@@ -14295,7 +15177,6 @@ pg.furniture_data_template = {
 		describe = "坐好不要乱动",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14319,6 +15200,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -14347,7 +15231,6 @@ pg.furniture_data_template = {
 		describe = "画笔不用的时候要放好！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14359,6 +15242,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9202] = {
@@ -14386,7 +15272,6 @@ pg.furniture_data_template = {
 		describe = "用来科普地理的道具",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14398,6 +15283,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9203] = {
@@ -14425,7 +15313,6 @@ pg.furniture_data_template = {
 		describe = "儿童的涂鸦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14437,6 +15324,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9204] = {
@@ -14464,7 +15354,6 @@ pg.furniture_data_template = {
 		describe = "蛮啾的画像",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14476,6 +15365,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9205] = {
@@ -14503,7 +15395,6 @@ pg.furniture_data_template = {
 		describe = "记笔记，记笔记",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14515,6 +15406,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9206] = {
@@ -14542,7 +15436,6 @@ pg.furniture_data_template = {
 		describe = "好多书本啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14554,6 +15447,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9207] = {
@@ -14581,7 +15477,6 @@ pg.furniture_data_template = {
 		describe = "画完记得洗干净笔哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14593,6 +15488,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9208] = {
@@ -14620,7 +15518,6 @@ pg.furniture_data_template = {
 		describe = "画画用的调色板",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14632,6 +15529,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9209] = {
@@ -14659,7 +15559,6 @@ pg.furniture_data_template = {
 		describe = "各种颜料的盒子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14671,6 +15570,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9301] = {
@@ -14698,7 +15600,6 @@ pg.furniture_data_template = {
 		describe = "好好学习，天天向上",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14710,6 +15611,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9302] = {
@@ -14737,7 +15641,6 @@ pg.furniture_data_template = {
 		describe = "窗外的风景真不错啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14749,6 +15652,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9303] = {
@@ -14776,7 +15682,6 @@ pg.furniture_data_template = {
 		describe = "用来发布公告的地方",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14788,6 +15693,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9304] = {
@@ -14815,7 +15723,6 @@ pg.furniture_data_template = {
 		describe = "黑板上写了好多题目啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14827,6 +15734,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9305] = {
@@ -14854,7 +15764,6 @@ pg.furniture_data_template = {
 		describe = "这是谁的奖状",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14866,6 +15775,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[9306] = {
@@ -14893,7 +15805,6 @@ pg.furniture_data_template = {
 		describe = "出入教室要注意哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 9,
 		spine_extra = "",
 		time = "always",
@@ -14905,6 +15816,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10001] = {
@@ -14932,7 +15846,6 @@ pg.furniture_data_template = {
 		describe = "朴素的地板，简洁大方",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -14941,6 +15854,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10002] = {
@@ -14968,7 +15884,6 @@ pg.furniture_data_template = {
 		describe = "古风墙壁，清新高雅",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -14977,6 +15892,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10101] = {
@@ -15004,7 +15922,6 @@ pg.furniture_data_template = {
 		describe = "大大的喷泉浴池！龙头在喷水耶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15042,6 +15959,9 @@ pg.furniture_data_template = {
 				"cn/yuchicn_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10102] = {
@@ -15069,7 +15989,6 @@ pg.furniture_data_template = {
 		describe = "用来摆放展示物的台子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15141,6 +16060,9 @@ pg.furniture_data_template = {
 				7
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10103] = {
@@ -15168,7 +16090,6 @@ pg.furniture_data_template = {
 		describe = "双人椅，坐上去小心不要掉下来",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15206,6 +16127,9 @@ pg.furniture_data_template = {
 				"cn/changyicn_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10104] = {
@@ -15233,7 +16157,6 @@ pg.furniture_data_template = {
 		describe = "这里的莲子可不能吃哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15245,6 +16168,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10105] = {
@@ -15272,7 +16198,6 @@ pg.furniture_data_template = {
 		describe = "大大的东煌风木床",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15297,6 +16222,9 @@ pg.furniture_data_template = {
 				},
 				"cn/chuangcn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15325,7 +16253,6 @@ pg.furniture_data_template = {
 		describe = "窗边的小凳，并不清楚用途",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15361,6 +16288,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10107] = {
@@ -15388,7 +16318,6 @@ pg.furniture_data_template = {
 		describe = "红纸大灯笼",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15400,6 +16329,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10108] = {
@@ -15427,7 +16359,6 @@ pg.furniture_data_template = {
 		describe = "长长的凳子，可以坐很多人哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15474,6 +16405,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10109] = {
@@ -15501,7 +16435,6 @@ pg.furniture_data_template = {
 		describe = "优美的陶瓷花瓶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15513,6 +16446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10110] = {
@@ -15540,7 +16476,6 @@ pg.furniture_data_template = {
 		describe = "红木扶手的楼梯，通往楼上",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15552,6 +16487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10111] = {
@@ -15579,7 +16517,6 @@ pg.furniture_data_template = {
 		describe = "太师椅这个名字怎么来的呀？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15604,6 +16541,9 @@ pg.furniture_data_template = {
 				},
 				"cn/laorenyicn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15632,7 +16572,6 @@ pg.furniture_data_template = {
 		describe = "金龙绕柱",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15644,6 +16583,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10113] = {
@@ -15671,7 +16613,6 @@ pg.furniture_data_template = {
 		describe = "隔开内室外室的东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15683,6 +16624,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10114] = {
@@ -15710,7 +16654,6 @@ pg.furniture_data_template = {
 		describe = "画满仙鹤的屏风",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15722,6 +16665,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10115] = {
@@ -15749,7 +16695,6 @@ pg.furniture_data_template = {
 		describe = "放满了藏书的柜子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15761,6 +16706,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10116] = {
@@ -15788,7 +16736,6 @@ pg.furniture_data_template = {
 		describe = "书卷什么的可以顺手放在里面",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15800,6 +16747,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10117] = {
@@ -15827,7 +16777,6 @@ pg.furniture_data_template = {
 		describe = "太师椅这个名字怎么来的呀？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15852,6 +16801,9 @@ pg.furniture_data_template = {
 				},
 				"cn/laorenyicn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -15880,7 +16832,6 @@ pg.furniture_data_template = {
 		describe = "铺上宣纸，尽情地挥毫泼墨吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15912,6 +16863,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10119] = {
@@ -15939,7 +16893,6 @@ pg.furniture_data_template = {
 		describe = "铺上宣纸，尽情地挥毫泼墨吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -15971,6 +16924,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10120] = {
@@ -15998,7 +16954,6 @@ pg.furniture_data_template = {
 		describe = "铺上宣纸，尽情地挥毫泼墨吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16038,6 +16993,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10121] = {
@@ -16065,7 +17023,6 @@ pg.furniture_data_template = {
 		describe = "气质非凡的铜质香炉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16077,6 +17034,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10122] = {
@@ -16104,7 +17064,6 @@ pg.furniture_data_template = {
 		describe = "小小的方桌",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16136,6 +17095,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10123] = {
@@ -16163,7 +17125,6 @@ pg.furniture_data_template = {
 		describe = "十八般武艺，样样精通",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16175,6 +17136,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10124] = {
@@ -16202,7 +17166,6 @@ pg.furniture_data_template = {
 		describe = "写字的书台",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16229,6 +17192,9 @@ pg.furniture_data_template = {
 				3,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -16257,7 +17223,6 @@ pg.furniture_data_template = {
 		describe = "大大的方桌",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16309,6 +17274,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10201] = {
@@ -16336,7 +17304,6 @@ pg.furniture_data_template = {
 		describe = "小小的茶杯，可以慢慢品茶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16348,6 +17315,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10202] = {
@@ -16375,7 +17345,6 @@ pg.furniture_data_template = {
 		describe = "一整套茶具，使用前后记得清洗好",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16387,6 +17356,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10203] = {
@@ -16414,7 +17386,6 @@ pg.furniture_data_template = {
 		describe = "放茶叶的茶瓶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16426,6 +17397,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10204] = {
@@ -16453,7 +17427,6 @@ pg.furniture_data_template = {
 		describe = "墨绿色的茶水缸",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16465,6 +17438,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10205] = {
@@ -16492,7 +17468,6 @@ pg.furniture_data_template = {
 		describe = "展示用的青瓷碟，千万不要打碎",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16504,6 +17479,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10206] = {
@@ -16531,7 +17509,6 @@ pg.furniture_data_template = {
 		describe = "为房间点缀一丝绿意",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16543,6 +17520,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10207] = {
@@ -16570,7 +17550,6 @@ pg.furniture_data_template = {
 		describe = "插了孔雀翎的瓶子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16582,6 +17561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10208] = {
@@ -16609,7 +17591,6 @@ pg.furniture_data_template = {
 		describe = "桃色的盆栽",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16621,6 +17602,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10209] = {
@@ -16648,7 +17632,6 @@ pg.furniture_data_template = {
 		describe = "绿松的盆栽",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16660,6 +17643,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10210] = {
@@ -16687,7 +17673,6 @@ pg.furniture_data_template = {
 		describe = "青竹的盆栽",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16699,6 +17684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10211] = {
@@ -16726,7 +17714,6 @@ pg.furniture_data_template = {
 		describe = "一本厚厚的书籍",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16738,6 +17725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10212] = {
@@ -16765,7 +17755,6 @@ pg.furniture_data_template = {
 		describe = "上好的宣纸，可以用来写字作画",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16777,6 +17766,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10213] = {
@@ -16804,7 +17796,6 @@ pg.furniture_data_template = {
 		describe = "这是哪里产的砚台啊？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16816,6 +17807,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10214] = {
@@ -16843,7 +17837,6 @@ pg.furniture_data_template = {
 		describe = "用完的毛笔要记得放好",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16855,6 +17848,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10215] = {
@@ -16882,7 +17878,6 @@ pg.furniture_data_template = {
 		describe = "小小的香炉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16894,6 +17889,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10301] = {
@@ -16921,7 +17919,6 @@ pg.furniture_data_template = {
 		describe = "可以看到庭院风景的窗子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16933,6 +17930,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10302] = {
@@ -16960,7 +17960,6 @@ pg.furniture_data_template = {
 		describe = "小小房间的窗户，并不能看到外面",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -16972,6 +17971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[10303] = {
@@ -16999,7 +18001,6 @@ pg.furniture_data_template = {
 		describe = "练字多年最满意的一副作品",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 10,
 		spine_extra = "",
 		time = "always",
@@ -17011,6 +18012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11001] = {
@@ -17038,7 +18042,6 @@ pg.furniture_data_template = {
 		describe = "粉红色、透着少女趣味的墙壁",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17047,6 +18050,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11002] = {
@@ -17074,7 +18080,6 @@ pg.furniture_data_template = {
 		describe = "粉红色、透着少女趣味地板",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17083,6 +18088,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11101] = {
@@ -17110,7 +18118,6 @@ pg.furniture_data_template = {
 		describe = "中等大小的茶杯浴池，仅供一人使用",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17135,6 +18142,9 @@ pg.furniture_data_template = {
 				},
 				"ap/dieziap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17163,7 +18173,6 @@ pg.furniture_data_template = {
 		describe = "柜台里摆满了可口的蛋糕",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17186,6 +18195,9 @@ pg.furniture_data_template = {
 				3,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17214,7 +18226,6 @@ pg.furniture_data_template = {
 		describe = "摆在花园里的长椅，走累了可以坐上去休息下",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17250,6 +18261,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11104] = {
@@ -17277,7 +18291,6 @@ pg.furniture_data_template = {
 		describe = "今日的特别菜单是——",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17289,6 +18302,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11105] = {
@@ -17316,7 +18332,6 @@ pg.furniture_data_template = {
 		describe = "大大的茶壶，睡在里面一定很舒服",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17341,6 +18356,9 @@ pg.furniture_data_template = {
 				},
 				"ap/chabeichuangap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17369,7 +18387,6 @@ pg.furniture_data_template = {
 		describe = "看起来很好吃，就是好像有点硬",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17393,6 +18410,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17421,7 +18441,6 @@ pg.furniture_data_template = {
 		describe = "可以看到小彩虹的喷泉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17433,6 +18452,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11108] = {
@@ -17460,7 +18482,6 @@ pg.furniture_data_template = {
 		describe = "看起来很好吃，就是好像有点硬",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17484,6 +18505,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17512,7 +18536,6 @@ pg.furniture_data_template = {
 		describe = "多吃水果有益身体健康哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17524,6 +18547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11110] = {
@@ -17551,7 +18577,6 @@ pg.furniture_data_template = {
 		describe = "乳白色的楼梯，记得要经常打扫哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17563,6 +18588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11111] = {
@@ -17590,7 +18618,6 @@ pg.furniture_data_template = {
 		describe = "看起来又甜又软的沙发",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17615,6 +18642,9 @@ pg.furniture_data_template = {
 				},
 				"ap/shafaap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17643,7 +18673,6 @@ pg.furniture_data_template = {
 		describe = "这个甜甜圈可不能吃哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17655,6 +18684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11113] = {
@@ -17682,7 +18714,6 @@ pg.furniture_data_template = {
 		describe = "用来分隔花园和房间的门",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17694,6 +18725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11114] = {
@@ -17721,7 +18755,6 @@ pg.furniture_data_template = {
 		describe = "可以锻炼园艺的花坛，要好好爱护哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17733,6 +18766,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11115] = {
@@ -17760,7 +18796,6 @@ pg.furniture_data_template = {
 		describe = "一辆小马车，其实跑不起来啦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17798,6 +18833,9 @@ pg.furniture_data_template = {
 				"ap/nanguacheap_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11116] = {
@@ -17825,7 +18863,6 @@ pg.furniture_data_template = {
 		describe = "饼干造型的屏风，不要想着咬下一片来",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17837,6 +18874,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11117] = {
@@ -17864,7 +18904,6 @@ pg.furniture_data_template = {
 		describe = "看起来又甜又软的小圆凳",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17888,6 +18927,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17916,7 +18958,6 @@ pg.furniture_data_template = {
 		describe = "放在房间里的小桌子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17939,6 +18980,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -17967,7 +19011,6 @@ pg.furniture_data_template = {
 		describe = "放在房间里的小椅子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -17991,6 +19034,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -18019,7 +19065,6 @@ pg.furniture_data_template = {
 		describe = "分隔庭院空间的纯白栅栏",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18031,6 +19076,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11121] = {
@@ -18058,7 +19106,6 @@ pg.furniture_data_template = {
 		describe = "新品上市，欢迎品尝",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18070,6 +19117,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11122] = {
@@ -18097,7 +19147,6 @@ pg.furniture_data_template = {
 		describe = "庭院中聚会用的长桌",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18137,6 +19186,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11123] = {
@@ -18164,7 +19216,6 @@ pg.furniture_data_template = {
 		describe = "「有什么能帮您的啾？」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18176,6 +19227,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11124] = {
@@ -18203,7 +19257,6 @@ pg.furniture_data_template = {
 		describe = "储藏饼干的小瓶子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18215,6 +19268,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11125] = {
@@ -18242,7 +19298,6 @@ pg.furniture_data_template = {
 		describe = "需要园艺工经常修剪的草丛",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18254,6 +19309,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11126] = {
@@ -18281,7 +19339,6 @@ pg.furniture_data_template = {
 		describe = "新款式的地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18293,6 +19350,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11127] = {
@@ -18320,7 +19380,6 @@ pg.furniture_data_template = {
 		describe = "镶着蕾丝花边的圆地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18332,6 +19391,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11128] = {
@@ -18359,7 +19421,6 @@ pg.furniture_data_template = {
 		describe = "草坪地皮",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18371,6 +19432,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11201] = {
@@ -18398,7 +19462,6 @@ pg.furniture_data_template = {
 		describe = "喝茶也需要保持优雅～",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18410,6 +19473,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11202] = {
@@ -18437,7 +19503,6 @@ pg.furniture_data_template = {
 		describe = "让人食指大动的甜点，色香味俱全",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18449,6 +19514,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11203] = {
@@ -18476,7 +19544,6 @@ pg.furniture_data_template = {
 		describe = "香薰小蜡烛",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18488,6 +19555,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11301] = {
@@ -18515,7 +19585,6 @@ pg.furniture_data_template = {
 		describe = "透过窗户可以看到好景色哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18527,6 +19596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11302] = {
@@ -18554,7 +19626,6 @@ pg.furniture_data_template = {
 		describe = "高处摆放饼干瓶的架子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18566,6 +19637,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11303] = {
@@ -18593,7 +19667,6 @@ pg.furniture_data_template = {
 		describe = "进入房间的精致木门",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18605,6 +19678,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11304] = {
@@ -18632,7 +19708,6 @@ pg.furniture_data_template = {
 		describe = "摆放着茶会道具的玻璃墙柜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18644,6 +19719,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11305] = {
@@ -18671,7 +19749,6 @@ pg.furniture_data_template = {
 		describe = "通往庭院的木门",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18683,6 +19760,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11306] = {
@@ -18710,7 +19790,6 @@ pg.furniture_data_template = {
 		describe = "窗外透着些许绿意",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18722,6 +19801,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11307] = {
@@ -18749,7 +19831,6 @@ pg.furniture_data_template = {
 		describe = "装饰着小东西的墙柜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -18761,6 +19842,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12101] = {
@@ -18788,7 +19872,6 @@ pg.furniture_data_template = {
 		describe = "摇呀摇～好开心～",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -18813,6 +19896,9 @@ pg.furniture_data_template = {
 				},
 				"r2/yaoyaocher2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -18841,7 +19927,6 @@ pg.furniture_data_template = {
 		describe = "用来展示华丽衣服的衣架",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -18853,6 +19938,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12103] = {
@@ -18880,7 +19968,6 @@ pg.furniture_data_template = {
 		describe = "漫天神佛在上，佑我武运昌隆",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -18892,6 +19979,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12104] = {
@@ -18919,7 +20009,6 @@ pg.furniture_data_template = {
 		describe = "照亮一方天地",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -18931,6 +20020,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12106] = {
@@ -18958,7 +20050,6 @@ pg.furniture_data_template = {
 		describe = "期盼男儿成材之物（不过这里好像没有男生吧）",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -18970,6 +20061,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12107] = {
@@ -18997,7 +20091,6 @@ pg.furniture_data_template = {
 		describe = "累的话就好好休息下吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19021,6 +20114,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -19049,7 +20145,6 @@ pg.furniture_data_template = {
 		describe = "喵喵喵！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19061,6 +20156,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12109] = {
@@ -19088,7 +20186,6 @@ pg.furniture_data_template = {
 		describe = "这是在涂涂画画些什么呀",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19113,6 +20210,9 @@ pg.furniture_data_template = {
 				},
 				"r2/zhuor2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -19141,7 +20241,6 @@ pg.furniture_data_template = {
 		describe = "财源广进",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19165,6 +20264,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -19193,7 +20295,6 @@ pg.furniture_data_template = {
 		describe = "这是一条失去了梦想的咸鱼",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19205,6 +20306,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12202] = {
@@ -19232,7 +20336,6 @@ pg.furniture_data_template = {
 		describe = "嫌闷就去庭院透透气吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -19244,6 +20347,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13001] = {
@@ -19271,7 +20377,6 @@ pg.furniture_data_template = {
 		describe = "深紫色的地板，似乎有些地方好像还有什么东西凝固干涸的样子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19280,6 +20385,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13002] = {
@@ -19307,7 +20415,6 @@ pg.furniture_data_template = {
 		describe = "画满纹路的墙壁，很优雅的样子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19316,6 +20423,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13101] = {
@@ -19343,7 +20453,6 @@ pg.furniture_data_template = {
 		describe = "有人不听话的就会被埋掉哦",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -19354,6 +20463,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"fenkenghlB",
@@ -19445,7 +20557,6 @@ pg.furniture_data_template = {
 		describe = "辛苦收集的枯草，到时候有大用场",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19477,6 +20588,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13103] = {
@@ -19504,7 +20618,6 @@ pg.furniture_data_template = {
 		describe = "小小的木凳，感觉年代久远",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19528,6 +20641,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -19556,7 +20672,6 @@ pg.furniture_data_template = {
 		describe = "这里是一个神秘地点的入口",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19568,6 +20683,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13105] = {
@@ -19595,7 +20713,6 @@ pg.furniture_data_template = {
 		describe = "诶？什么？这里是睡觉的地方么？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19620,6 +20737,9 @@ pg.furniture_data_template = {
 				},
 				"hl/guancaihl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -19648,7 +20768,6 @@ pg.furniture_data_template = {
 		describe = "神奇南瓜，凳子都是长出来的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19686,6 +20805,9 @@ pg.furniture_data_template = {
 				"hl/nanguazhuohl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13107] = {
@@ -19713,7 +20835,6 @@ pg.furniture_data_template = {
 		describe = "一片沼泽地，注意不要踩上去",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19725,6 +20846,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13108] = {
@@ -19752,7 +20876,6 @@ pg.furniture_data_template = {
 		describe = "这个喷泉的颜色有点诡异啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19764,6 +20887,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13109] = {
@@ -19791,7 +20917,6 @@ pg.furniture_data_template = {
 		describe = "一大罐瓶子，罐子里的东西不要深究哟",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19803,6 +20928,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13110] = {
@@ -19830,7 +20958,6 @@ pg.furniture_data_template = {
 		describe = "来来，进来给你们看个好东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19880,6 +21007,9 @@ pg.furniture_data_template = {
 				"hl/qiulonghl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13111] = {
@@ -19907,7 +21037,6 @@ pg.furniture_data_template = {
 		describe = "兴趣使然的飞行器",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19919,6 +21048,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13112] = {
@@ -19946,7 +21078,6 @@ pg.furniture_data_template = {
 		describe = "无名人的碑",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19958,6 +21089,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13113] = {
@@ -19985,7 +21119,6 @@ pg.furniture_data_template = {
 		describe = "不要靠近！不要靠近！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -19997,6 +21130,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13114] = {
@@ -20024,7 +21160,6 @@ pg.furniture_data_template = {
 		describe = "记住保证实验桌的整洁哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20072,6 +21207,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13115] = {
@@ -20099,7 +21237,6 @@ pg.furniture_data_template = {
 		describe = "看上去是一块铺了破布的桌子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20131,6 +21268,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13116] = {
@@ -20158,7 +21298,6 @@ pg.furniture_data_template = {
 		describe = "梯形书柜，摆放了各种各样的书籍",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20170,6 +21309,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13117] = {
@@ -20197,7 +21339,6 @@ pg.furniture_data_template = {
 		describe = "袋子里装满了卷卷的糖果",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20209,6 +21350,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13118] = {
@@ -20236,7 +21380,6 @@ pg.furniture_data_template = {
 		describe = "我，从阴影中降临！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20248,6 +21391,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13119] = {
@@ -20275,7 +21421,6 @@ pg.furniture_data_template = {
 		describe = "袋子里装满了圈圈的糖果",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20287,6 +21432,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13120] = {
@@ -20314,7 +21462,6 @@ pg.furniture_data_template = {
 		describe = "布满星星的地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20326,6 +21473,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13121] = {
@@ -20353,7 +21503,6 @@ pg.furniture_data_template = {
 		describe = "石像鬼不是这样的！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20365,6 +21514,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13122] = {
@@ -20392,7 +21544,6 @@ pg.furniture_data_template = {
 		describe = "深紫色地毯，在紫色地板上很难看出来",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20404,6 +21555,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13123] = {
@@ -20431,7 +21585,6 @@ pg.furniture_data_template = {
 		describe = "这个盆栽的来历无人知晓",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20443,6 +21596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13124] = {
@@ -20470,7 +21626,6 @@ pg.furniture_data_template = {
 		describe = "没有人知道这里埋藏的是个什么东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20482,6 +21637,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13125] = {
@@ -20509,7 +21667,6 @@ pg.furniture_data_template = {
 		describe = "分隔开两种地方的道具",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20521,6 +21678,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13126] = {
@@ -20548,7 +21708,6 @@ pg.furniture_data_template = {
 		describe = "咕嘟、咕嘟，魔女的药锅，今天的材料是什么呢？咕嘻嘻嘻……",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -20559,6 +21718,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guohlB",
@@ -20641,7 +21803,6 @@ pg.furniture_data_template = {
 		describe = "哔哩卡哔哩啦啦波波利那贝贝鲁多，出来吧～小恶魔～",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -20652,6 +21813,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mofazhenhlB",
@@ -20732,7 +21896,6 @@ pg.furniture_data_template = {
 		describe = "黄色土地，用处不明",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20744,6 +21907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13201] = {
@@ -20771,7 +21937,6 @@ pg.furniture_data_template = {
 		describe = "禁止触碰！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20783,6 +21948,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13202] = {
@@ -20810,7 +21978,6 @@ pg.furniture_data_template = {
 		describe = "摇曳的火光，十分微弱",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20822,6 +21989,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13203] = {
@@ -20849,7 +22019,6 @@ pg.furniture_data_template = {
 		describe = "喵~ ＞▽＜ ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20861,6 +22030,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13204] = {
@@ -20888,7 +22060,6 @@ pg.furniture_data_template = {
 		describe = "偶尔会发出笑声的南瓜灯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20900,6 +22071,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13205] = {
@@ -20927,7 +22101,6 @@ pg.furniture_data_template = {
 		describe = "精通巫术的南瓜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20939,6 +22112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13206] = {
@@ -20966,7 +22142,6 @@ pg.furniture_data_template = {
 		describe = "用于各种研究的器材",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -20978,6 +22153,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13301] = {
@@ -21005,7 +22183,6 @@ pg.furniture_data_template = {
 		describe = "挂满蛛丝的窗户，玻璃都被打碎了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21017,6 +22194,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13302] = {
@@ -21044,7 +22224,6 @@ pg.furniture_data_template = {
 		describe = "要打开这个大门可是需要很大力气的",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21056,6 +22235,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13303] = {
@@ -21083,7 +22265,6 @@ pg.furniture_data_template = {
 		describe = "一副名为“午夜”的挂画",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21095,6 +22276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13304] = {
@@ -21122,7 +22306,6 @@ pg.furniture_data_template = {
 		describe = "这里的阳台可以远眺远方",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21134,6 +22317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13305] = {
@@ -21161,7 +22347,6 @@ pg.furniture_data_template = {
 		describe = "铁门背后是什么呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21173,6 +22358,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13306] = {
@@ -21200,7 +22388,6 @@ pg.furniture_data_template = {
 		describe = "“咔.....咔....咔...”传来微弱声响的骷髅",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -21212,6 +22399,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14001] = {
@@ -21239,7 +22429,6 @@ pg.furniture_data_template = {
 		describe = "无尽深邃的星空之下，一切都显得微不足道了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21248,6 +22437,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14002] = {
@@ -21275,7 +22467,6 @@ pg.furniture_data_template = {
 		describe = "无尽深邃的星空之下，一切都显得微不足道了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21284,6 +22475,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14101] = {
@@ -21311,7 +22505,6 @@ pg.furniture_data_template = {
 		describe = "真空存物的柜子，密封性十分优秀",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21323,6 +22516,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14102] = {
@@ -21350,7 +22546,6 @@ pg.furniture_data_template = {
 		describe = "太阳系第八行星-Neptune",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21374,6 +22569,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -21402,7 +22600,6 @@ pg.furniture_data_template = {
 		describe = "太阳系第六行星-Mars",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21426,6 +22623,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -21454,7 +22654,6 @@ pg.furniture_data_template = {
 		describe = "软乎乎的云朵躺椅",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21479,6 +22678,9 @@ pg.furniture_data_template = {
 				},
 				"st/guifeiyist_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -21507,7 +22709,6 @@ pg.furniture_data_template = {
 		describe = "太阳系第五行星-Jupiter",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21531,6 +22732,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -21559,7 +22763,6 @@ pg.furniture_data_template = {
 		describe = "满布星空的屏风，那些星星会是真的么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21571,6 +22774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14107] = {
@@ -21598,7 +22804,6 @@ pg.furniture_data_template = {
 		describe = "粉色的星星气球",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21610,6 +22815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14108] = {
@@ -21637,7 +22845,6 @@ pg.furniture_data_template = {
 		describe = "黄色的星星气球",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21649,6 +22856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14109] = {
@@ -21676,7 +22886,6 @@ pg.furniture_data_template = {
 		describe = "繁星点缀的夜空，有种未知的魅力",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21688,6 +22897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14110] = {
@@ -21715,7 +22927,6 @@ pg.furniture_data_template = {
 		describe = "坐上去整个人就会陷进去呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21740,6 +22951,9 @@ pg.furniture_data_template = {
 				},
 				"st/shafast_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -21768,7 +22982,6 @@ pg.furniture_data_template = {
 		describe = "小小的道具能投影出这样美丽的景色啊",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21780,6 +22993,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14112] = {
@@ -21807,7 +23023,6 @@ pg.furniture_data_template = {
 		describe = "巨大的土星可以用来做桌子呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21819,6 +23034,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14113] = {
@@ -21846,7 +23064,6 @@ pg.furniture_data_template = {
 		describe = "软乎乎的小桌子，铺上桌布才能放好东西",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21894,6 +23111,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14114] = {
@@ -21921,7 +23141,6 @@ pg.furniture_data_template = {
 		describe = "来，让我们看看远处有些什么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -21933,6 +23152,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14115] = {
@@ -21960,7 +23182,6 @@ pg.furniture_data_template = {
 		describe = "月亮船，摇啊摇，摇到那天边",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -21971,6 +23192,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yueliangstB",
@@ -22053,7 +23277,6 @@ pg.furniture_data_template = {
 		describe = "洗白白~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22078,6 +23301,9 @@ pg.furniture_data_template = {
 				},
 				"st/yugangst_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -22106,7 +23332,6 @@ pg.furniture_data_template = {
 		describe = "呼啊~呼啊~软软的好想陷进去",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22130,6 +23355,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -22158,7 +23386,6 @@ pg.furniture_data_template = {
 		describe = "通往天堂的阶梯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22170,6 +23397,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14119] = {
@@ -22197,7 +23427,6 @@ pg.furniture_data_template = {
 		describe = "小心不要掉下来哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22235,6 +23464,9 @@ pg.furniture_data_template = {
 				"st/chuangst_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14120] = {
@@ -22262,7 +23494,6 @@ pg.furniture_data_template = {
 		describe = "biu~biu~biu~",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -22273,6 +23504,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feichuanstB",
@@ -22373,7 +23607,6 @@ pg.furniture_data_template = {
 		describe = "烟雾氤氲中，星星隐隐可见",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22385,6 +23618,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14201] = {
@@ -22412,7 +23648,6 @@ pg.furniture_data_template = {
 		describe = "培养罩中的植物，这里唯一的绿色",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22424,6 +23659,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14301] = {
@@ -22451,7 +23689,6 @@ pg.furniture_data_template = {
 		describe = "这个的另一面会是什么呢",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22463,6 +23700,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14302] = {
@@ -22490,7 +23730,6 @@ pg.furniture_data_template = {
 		describe = "看似空寂的宇宙，隐藏着无尽的变化",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22502,6 +23741,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14303] = {
@@ -22529,7 +23771,6 @@ pg.furniture_data_template = {
 		describe = "出门前记得穿好宇航服哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22541,6 +23782,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14304] = {
@@ -22568,7 +23812,6 @@ pg.furniture_data_template = {
 		describe = "警告：出门前切记穿好装备",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -22580,6 +23823,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[16001] = {
@@ -22607,7 +23853,6 @@ pg.furniture_data_template = {
 		describe = "标准的木质地板，小心不要弄湿了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22615,6 +23860,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22668,7 +23916,6 @@ pg.furniture_data_template = {
 		describe = "圣诞快乐！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22676,6 +23923,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22729,7 +23979,6 @@ pg.furniture_data_template = {
 		describe = "礼物盒子里洗白白！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22753,6 +24002,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yugangcr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -22807,7 +24059,6 @@ pg.furniture_data_template = {
 		describe = "嘟嘟嘟！火车到站了！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22818,6 +24069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22871,7 +24125,6 @@ pg.furniture_data_template = {
 		describe = "吃饭的时候要好好坐着！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22894,6 +24147,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -22948,7 +24204,6 @@ pg.furniture_data_template = {
 		describe = "走累了就坐着休息下吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -22982,6 +24237,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -23036,7 +24294,6 @@ pg.furniture_data_template = {
 		describe = "把饭菜都摆放好！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23099,6 +24356,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23152,7 +24412,6 @@ pg.furniture_data_template = {
 		describe = "暂替圣诞老人的蛮啾来咯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23163,6 +24422,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23216,7 +24478,6 @@ pg.furniture_data_template = {
 		describe = "装满礼物的袋子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23227,6 +24488,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23280,7 +24544,6 @@ pg.furniture_data_template = {
 		describe = "圣诞礼物中的沙发，软软的陷进去吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23316,6 +24579,9 @@ pg.furniture_data_template = {
 				},
 				"cr/shafacr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -23370,7 +24636,6 @@ pg.furniture_data_template = {
 		describe = "圣诞节必备的物件",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23381,6 +24646,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23434,7 +24702,6 @@ pg.furniture_data_template = {
 		describe = "亮闪闪的水晶球",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23445,6 +24712,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuijingqiuB",
@@ -23545,7 +24815,6 @@ pg.furniture_data_template = {
 		describe = "大大的雪橇，可以当床睡哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23593,6 +24862,9 @@ pg.furniture_data_template = {
 				},
 				"cr/xueqiaocr_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -23647,7 +24919,6 @@ pg.furniture_data_template = {
 		describe = "好大的一只熊玩偶！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23670,6 +24941,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -23724,7 +24998,6 @@ pg.furniture_data_template = {
 		describe = "这是一个在屋子里都不会融化的雪人",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23735,6 +25008,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23788,7 +25064,6 @@ pg.furniture_data_template = {
 		describe = "不要欺负小驯鹿哟",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23799,6 +25074,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23852,7 +25130,6 @@ pg.furniture_data_template = {
 		describe = "小摇椅，摇啊摇",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23876,6 +25153,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yaoyaoyicr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -23930,7 +25210,6 @@ pg.furniture_data_template = {
 		describe = "印有雪花的地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -23941,6 +25220,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23994,7 +25276,6 @@ pg.furniture_data_template = {
 		describe = "雪白色的地毯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24005,6 +25286,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24058,7 +25342,6 @@ pg.furniture_data_template = {
 		describe = "圣诞特色菜肴",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24069,6 +25352,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24122,7 +25408,6 @@ pg.furniture_data_template = {
 		describe = "一大块牛肉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24133,6 +25418,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24186,7 +25474,6 @@ pg.furniture_data_template = {
 		describe = "面包吐司才是主食",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24197,6 +25484,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24250,7 +25540,6 @@ pg.furniture_data_template = {
 		describe = "一大块猪肉",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24261,6 +25550,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24314,7 +25606,6 @@ pg.furniture_data_template = {
 		describe = "冬日必备！壁炉万岁！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24325,6 +25616,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24378,7 +25672,6 @@ pg.furniture_data_template = {
 		describe = "可以看到雪景的窗子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24389,6 +25682,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24442,7 +25738,6 @@ pg.furniture_data_template = {
 		describe = "摆放了很多书籍的书柜",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24453,6 +25748,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24506,7 +25804,6 @@ pg.furniture_data_template = {
 		describe = "透明的玻璃门",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24517,6 +25814,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24570,7 +25870,6 @@ pg.furniture_data_template = {
 		describe = "Merry Christmas",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24581,6 +25880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24634,7 +25936,6 @@ pg.furniture_data_template = {
 		describe = "庭院的雪景好美啊！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -24645,6 +25946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24698,7 +26002,6 @@ pg.furniture_data_template = {
 		describe = "好好走路，不要乱蹦乱跳哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -24706,6 +26009,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24759,7 +26065,6 @@ pg.furniture_data_template = {
 		describe = "一富士,二鹰,三茄子。今年有做个好梦吗？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -24767,6 +26072,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -24820,7 +26128,6 @@ pg.furniture_data_template = {
 		describe = "格外受到欢迎的浸足温泉！快来试试！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -24856,6 +26163,9 @@ pg.furniture_data_template = {
 				},
 				"mh/zutangmh_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -24910,7 +26220,6 @@ pg.furniture_data_template = {
 		describe = "山石、竹筒与潺潺的流水，注意不要跌进水里哦",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -24921,6 +26230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chitang",
@@ -24980,7 +26292,6 @@ pg.furniture_data_template = {
 		describe = "希望来年也能福到运到",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -24991,6 +26302,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25044,7 +26358,6 @@ pg.furniture_data_template = {
 		describe = "重樱风格的石灯笼",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25055,6 +26368,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25108,7 +26424,6 @@ pg.furniture_data_template = {
 		describe = "成对的灯笼，上面有樱花的纹样",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25119,6 +26434,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25172,7 +26490,6 @@ pg.furniture_data_template = {
 		describe = "“啪”“啪”，希望明年能有好运！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25183,6 +26500,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25236,7 +26556,6 @@ pg.furniture_data_template = {
 		describe = "“咚咚咚”神缘大鼓！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25247,6 +26566,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25300,7 +26622,6 @@ pg.furniture_data_template = {
 		describe = "在绘马上写下新年愿望挂上去吧！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25311,6 +26632,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25364,7 +26688,6 @@ pg.furniture_data_template = {
 		describe = "一口深深的古井",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25375,6 +26698,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25428,7 +26754,6 @@ pg.furniture_data_template = {
 		describe = "点缀着石灯笼的阶梯",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25439,6 +26764,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25492,7 +26820,6 @@ pg.furniture_data_template = {
 		describe = "一条长长的石板路",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25503,6 +26830,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25556,7 +26886,6 @@ pg.furniture_data_template = {
 		describe = "一条长长的石板路",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25567,6 +26896,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25620,7 +26952,6 @@ pg.furniture_data_template = {
 		describe = "红色鸟居，挂着粗粗的注连绳",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25631,6 +26962,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25684,7 +27018,6 @@ pg.furniture_data_template = {
 		describe = "嘿咻！嘿咻！捣年糕！",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25695,6 +27028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"daniangao",
@@ -25754,7 +27090,6 @@ pg.furniture_data_template = {
 		describe = "颜色斑斓的彩球，要带一个回去么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25765,6 +27100,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25818,7 +27156,6 @@ pg.furniture_data_template = {
 		describe = "红色的大伞，走累了可以坐着休息下",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25829,6 +27166,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25882,7 +27222,6 @@ pg.furniture_data_template = {
 		describe = "恋爱的祈愿石",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25893,6 +27232,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -25946,7 +27288,6 @@ pg.furniture_data_template = {
 		describe = "供奉点小东西，说不定能得到什么回报哦？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -25957,6 +27298,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26010,7 +27354,6 @@ pg.furniture_data_template = {
 		describe = "挂满红签的大树，不妨也来许个新年愿望？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26021,6 +27364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26074,7 +27420,6 @@ pg.furniture_data_template = {
 		describe = "放轻松，不用正坐也没关系的哟",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26129,6 +27474,9 @@ pg.furniture_data_template = {
 				1
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26182,7 +27530,6 @@ pg.furniture_data_template = {
 		describe = "可以自由活动的空间",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26613,6 +27960,9 @@ pg.furniture_data_template = {
 				14
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26666,7 +28016,6 @@ pg.furniture_data_template = {
 		describe = "看起来很好吃的和式点心",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26677,6 +28026,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26730,7 +28082,6 @@ pg.furniture_data_template = {
 		describe = "咬一口鲷鱼烧，满满的豆沙！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26741,6 +28092,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26794,7 +28148,6 @@ pg.furniture_data_template = {
 		describe = "新年供奉的镜饼，不知道味道如何",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26805,6 +28158,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26858,7 +28214,6 @@ pg.furniture_data_template = {
 		describe = "祈愿绘马、许愿签、破魔箭～想要买点什么吗？",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -26869,6 +28224,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -26922,7 +28280,6 @@ pg.furniture_data_template = {
 		describe = "时不时浮现线条的地板",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -26930,6 +28287,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26983,7 +28343,6 @@ pg.furniture_data_template = {
 		describe = "印满了山峰，爱心还有无数史莱姆的墙壁",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -26991,6 +28350,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27044,7 +28406,6 @@ pg.furniture_data_template = {
 		describe = "通往异世界的传送阵列的一部分",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27055,6 +28416,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27108,7 +28472,6 @@ pg.furniture_data_template = {
 		describe = "大大的史莱努玩偶，放进抓娃娃机的话大概要好几百块才能抓到吧",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27119,6 +28482,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27172,7 +28538,6 @@ pg.furniture_data_template = {
 		describe = "模仿黑色连帽连衣裙口袋做的椅子，可不是按钮哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27195,6 +28560,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27249,7 +28617,6 @@ pg.furniture_data_template = {
 		describe = "模仿连帽连衣裙口袋做的椅子，绝对不是按钮哦！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27272,6 +28639,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27326,7 +28696,6 @@ pg.furniture_data_template = {
 		describe = "3点钟方向发现敌方反应～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27337,6 +28706,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27390,7 +28762,6 @@ pg.furniture_data_template = {
 		describe = "闪着蓝色的光纹",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27401,6 +28772,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27454,7 +28828,6 @@ pg.furniture_data_template = {
 		describe = "开始连接…传送～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27478,6 +28851,9 @@ pg.furniture_data_template = {
 				},
 				"cy/linkcy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27532,7 +28908,6 @@ pg.furniture_data_template = {
 		describe = "人形猫咪的玩偶",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27543,6 +28918,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27596,7 +28974,6 @@ pg.furniture_data_template = {
 		describe = "触碰一下也许会有什么好事也说不定？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27619,6 +28996,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27673,7 +29053,6 @@ pg.furniture_data_template = {
 		describe = "似乎能召唤出四位拯救世界的英雄的水晶",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27684,6 +29063,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27737,7 +29119,6 @@ pg.furniture_data_template = {
 		describe = "稍微小一号的史莱努玩偶",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27748,6 +29129,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27801,7 +29185,6 @@ pg.furniture_data_template = {
 		describe = "浮在空中的心形坐垫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27824,6 +29207,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27878,7 +29264,6 @@ pg.furniture_data_template = {
 		describe = "透着不祥气息的黑色水晶",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27889,6 +29274,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27942,7 +29330,6 @@ pg.furniture_data_template = {
 		describe = "“打针的时间到了～♪”",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -27953,6 +29340,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28006,7 +29396,6 @@ pg.furniture_data_template = {
 		describe = "在游戏业界经常能看到的柱子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28017,6 +29406,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28070,7 +29462,6 @@ pg.furniture_data_template = {
 		describe = "在迷宫门口时常能见到的光柱",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28081,6 +29472,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28134,7 +29528,6 @@ pg.furniture_data_template = {
 		describe = "模仿主机PurpleHeart造型的桌子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28197,6 +29590,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28250,7 +29646,6 @@ pg.furniture_data_template = {
 		describe = "史莱努造型的座垫，整个人都会陷进去的样子",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28274,6 +29669,9 @@ pg.furniture_data_template = {
 				},
 				"cy/zuoyicy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28328,7 +29726,6 @@ pg.furniture_data_template = {
 		describe = "模仿Ngear的造型制作的移动电源。并不能玩游戏",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28339,6 +29736,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chongdianbaochuangB",
@@ -28421,7 +29821,6 @@ pg.furniture_data_template = {
 		describe = "以伊斯特瓦尔为原型设计的家具",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28432,6 +29831,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shubenyizi",
@@ -28520,7 +29922,6 @@ pg.furniture_data_template = {
 		describe = "用于跨越障碍，还可以用于…抓娃娃？",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28587,6 +29988,9 @@ pg.furniture_data_template = {
 				0,
 				14
 			}
+		},
+		can_trigger = {
+			0
 		},
 		spine = {
 			{
@@ -28675,7 +30079,6 @@ pg.furniture_data_template = {
 		describe = "仿佛站上去就能得到女神的加护一般，虽然实际上什么都不会发生",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28686,6 +30089,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jiaju4B",
@@ -28768,7 +30174,6 @@ pg.furniture_data_template = {
 		describe = "放出幽幽绿光的台灯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28779,6 +30184,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28832,7 +30240,6 @@ pg.furniture_data_template = {
 		describe = "小号的史莱努玩偶，甚至可以捧在手上",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28843,6 +30250,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28896,7 +30306,6 @@ pg.furniture_data_template = {
 		describe = "挂在墙壁上的四片显示屏，实际上很难看清内容",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28907,6 +30316,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28960,7 +30372,6 @@ pg.furniture_data_template = {
 		describe = "科技感满满的大门，另一侧也许是异世界？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -28971,6 +30382,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29024,7 +30438,6 @@ pg.furniture_data_template = {
 		describe = "不停刷新数据的电子屏",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -29035,6 +30448,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29088,7 +30504,6 @@ pg.furniture_data_template = {
 		describe = "经常出现在画面右上方的那个东西",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -29099,6 +30514,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29152,7 +30570,6 @@ pg.furniture_data_template = {
 		describe = "脑电波控制器造型的装饰",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -29163,6 +30580,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29216,7 +30636,6 @@ pg.furniture_data_template = {
 		describe = "黑色脑电波控制器造型的装饰",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -29227,6 +30646,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29280,7 +30702,6 @@ pg.furniture_data_template = {
 		describe = "新春佳节到！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29288,6 +30709,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29341,7 +30765,6 @@ pg.furniture_data_template = {
 		describe = "新春佳节到！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29349,6 +30772,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29402,7 +30828,6 @@ pg.furniture_data_template = {
 		describe = "“嘭”的一声蹿上天",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29413,6 +30838,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29466,7 +30894,6 @@ pg.furniture_data_template = {
 		describe = "财源广进！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29477,6 +30904,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29530,7 +30960,6 @@ pg.furniture_data_template = {
 		describe = "得儿咙咚呛",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29553,6 +30982,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -29607,7 +31039,6 @@ pg.furniture_data_template = {
 		describe = "大红灯笼高高挂！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29618,6 +31049,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29671,7 +31105,6 @@ pg.furniture_data_template = {
 		describe = "祝你吉祥如意~啾",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29682,6 +31115,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29735,7 +31171,6 @@ pg.furniture_data_template = {
 		describe = "千万不要翻越隔栏哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29746,6 +31181,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29799,7 +31237,6 @@ pg.furniture_data_template = {
 		describe = "一只黄色的汪酱",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29810,6 +31247,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29863,7 +31303,6 @@ pg.furniture_data_template = {
 		describe = "一只黑色的汪酱",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -29874,6 +31313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -29927,7 +31369,6 @@ pg.furniture_data_template = {
 		describe = "大大的果盒，甚至能够躲人进去",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30012,6 +31453,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30065,7 +31509,6 @@ pg.furniture_data_template = {
 		describe = "庭院里的小花坛，不要踩进去哟",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30076,6 +31519,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30129,7 +31575,6 @@ pg.furniture_data_template = {
 		describe = "一小段廊道，可以走上去看看",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30153,6 +31598,9 @@ pg.furniture_data_template = {
 				},
 				"cj/langcj_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -30207,7 +31655,6 @@ pg.furniture_data_template = {
 		describe = "大吉大利！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30218,6 +31665,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30271,7 +31721,6 @@ pg.furniture_data_template = {
 		describe = "铺满石头的小路",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30282,6 +31731,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30335,7 +31787,6 @@ pg.furniture_data_template = {
 		describe = "好多落叶，都堆成一堆了",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30346,6 +31797,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30399,7 +31853,6 @@ pg.furniture_data_template = {
 		describe = "铺了红毯的大门台阶",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30410,6 +31863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30463,7 +31919,6 @@ pg.furniture_data_template = {
 		describe = "画了一只蛮啾的大舞台",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30508,6 +31963,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -30562,7 +32020,6 @@ pg.furniture_data_template = {
 		describe = "让我们为来年许愿吧",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30573,6 +32030,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30626,7 +32086,6 @@ pg.furniture_data_template = {
 		describe = "大大一颗金元宝",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30637,6 +32096,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30690,7 +32152,6 @@ pg.furniture_data_template = {
 		describe = "大鼓样式的桌子",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30712,6 +32173,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -30766,7 +32230,6 @@ pg.furniture_data_template = {
 		describe = "一飞冲天，红红火火",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30777,6 +32240,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yanhuaB",
@@ -30881,7 +32347,6 @@ pg.furniture_data_template = {
 		describe = "要来一口热乎乎的汤圆么",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30892,6 +32357,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -30945,7 +32413,6 @@ pg.furniture_data_template = {
 		describe = "过年当然要吃饺子啦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -30956,6 +32423,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31009,7 +32479,6 @@ pg.furniture_data_template = {
 		describe = "噼里啪啦！！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31020,6 +32489,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31073,7 +32545,6 @@ pg.furniture_data_template = {
 		describe = "五角形的窗户",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31084,6 +32555,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31137,7 +32611,6 @@ pg.furniture_data_template = {
 		describe = "充满了喜庆气息的对联",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31148,6 +32621,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31201,7 +32677,6 @@ pg.furniture_data_template = {
 		describe = "充满了喜庆气息的对联",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31212,6 +32687,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31265,7 +32743,6 @@ pg.furniture_data_template = {
 		describe = "福到咯！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31276,6 +32753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31329,7 +32809,6 @@ pg.furniture_data_template = {
 		describe = "红木房间门，不要偷看房间里哦",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31340,6 +32819,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31393,7 +32875,6 @@ pg.furniture_data_template = {
 		describe = "宅邸的扣环大门",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -31404,6 +32885,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -31457,7 +32941,6 @@ pg.furniture_data_template = {
 		describe = "欢迎来到啾啾之森！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31465,6 +32948,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31518,7 +33004,6 @@ pg.furniture_data_template = {
 		describe = "欢迎来到啾啾之森！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31526,6 +33011,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31579,7 +33067,6 @@ pg.furniture_data_template = {
 		describe = "铺了干草的木床，睡上去感觉应该不会太舒服…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31603,6 +33090,9 @@ pg.furniture_data_template = {
 				},
 				"zo/chuangzo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31657,7 +33147,6 @@ pg.furniture_data_template = {
 		describe = "迷路的时候，就朝着红色旗帜前进吧",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31668,6 +33157,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31721,7 +33213,6 @@ pg.furniture_data_template = {
 		describe = "千万千万不要偷看哦",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31757,6 +33248,9 @@ pg.furniture_data_template = {
 					"zo/gengyishizo_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31811,7 +33305,6 @@ pg.furniture_data_template = {
 		describe = "啾啾之森欢迎你们的到来～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31822,6 +33315,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31875,7 +33371,6 @@ pg.furniture_data_template = {
 		describe = "welcome~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31886,6 +33381,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31939,7 +33437,6 @@ pg.furniture_data_template = {
 		describe = "不可以恶作剧戳破气球哟",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -31950,6 +33447,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32003,7 +33503,6 @@ pg.furniture_data_template = {
 		describe = "呼…遮阳措施还是要做好呢～",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32014,6 +33513,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32067,7 +33569,6 @@ pg.furniture_data_template = {
 		describe = "我才是森林之王～嗷呜～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32091,6 +33592,9 @@ pg.furniture_data_template = {
 				},
 				"zo/shizizo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32145,7 +33649,6 @@ pg.furniture_data_template = {
 		describe = "不知道会不会有面包果实？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32156,6 +33659,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32209,7 +33715,6 @@ pg.furniture_data_template = {
 		describe = "天然秘汤，一起来泡温泉吧～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32220,6 +33725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32273,7 +33781,6 @@ pg.furniture_data_template = {
 		describe = "在探险之前，先填饱肚子吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32297,6 +33804,9 @@ pg.furniture_data_template = {
 				},
 				"zo/yecanzhuozo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32351,7 +33861,6 @@ pg.furniture_data_template = {
 		describe = "充分休息过后，就继续我们的冒险吧！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32374,6 +33883,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32428,7 +33940,6 @@ pg.furniture_data_template = {
 		describe = "绿意盎然的草丛，不知道里面会不会藏着什么?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32439,6 +33950,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32492,7 +34006,6 @@ pg.furniture_data_template = {
 		describe = "嘿！嘿！嘿嘿！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -32526,6 +34039,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32580,7 +34096,6 @@ pg.furniture_data_template = {
 		describe = "MARIAGE D'AMOUR",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32588,6 +34103,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32641,7 +34159,6 @@ pg.furniture_data_template = {
 		describe = "MARIAGE D'AMOUR",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32649,6 +34166,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32702,7 +34222,6 @@ pg.furniture_data_template = {
 		describe = "在粉钻的闪耀下做个好梦吧",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32726,6 +34245,9 @@ pg.furniture_data_template = {
 				},
 				"wd/jiezhichuangwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32780,7 +34302,6 @@ pg.furniture_data_template = {
 		describe = "让我们一起见证这个瞬间吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32803,6 +34324,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32857,7 +34381,6 @@ pg.furniture_data_template = {
 		describe = "梦想中的气球",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32868,6 +34391,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32921,7 +34447,6 @@ pg.furniture_data_template = {
 		describe = "在桌上摆满甜蜜的蛋糕和布丁吧～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -32984,6 +34509,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33037,7 +34565,6 @@ pg.furniture_data_template = {
 		describe = "粉色的蝴蝶结透出梦幻的气息",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33048,6 +34575,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33101,7 +34631,6 @@ pg.furniture_data_template = {
 		describe = "为新人弹奏一曲梦幻的恋歌啾",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33112,6 +34641,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33165,7 +34697,6 @@ pg.furniture_data_template = {
 		describe = "一起分享这幸福而又美味的一刻吧！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33195,6 +34726,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33249,7 +34783,6 @@ pg.furniture_data_template = {
 		describe = "爱与幸福的拱门",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33260,6 +34793,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33313,7 +34849,6 @@ pg.furniture_data_template = {
 		describe = "快乘上马车，去参加梦幻的婚礼吧",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33337,6 +34872,9 @@ pg.furniture_data_template = {
 				},
 				"wd/machewd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33391,7 +34929,6 @@ pg.furniture_data_template = {
 		describe = "大大的蛋糕，祝你们幸福啾",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33402,6 +34939,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33455,7 +34995,6 @@ pg.furniture_data_template = {
 		describe = "大大的婚床，可以两个人一起睡哦",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33491,6 +35030,9 @@ pg.furniture_data_template = {
 				},
 				"wd/hunchuangwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33545,7 +35087,6 @@ pg.furniture_data_template = {
 		describe = "滴！滴！婚车马上要开了！新人赶紧上车！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33569,6 +35110,9 @@ pg.furniture_data_template = {
 				},
 				"wd/qichewd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33623,7 +35167,6 @@ pg.furniture_data_template = {
 		describe = "开启幸福美满的新生活～",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33647,6 +35190,9 @@ pg.furniture_data_template = {
 				},
 				"wd/xiangbintongwd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33701,7 +35247,6 @@ pg.furniture_data_template = {
 		describe = "宴会上不可缺少的香槟塔",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33712,6 +35257,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33765,7 +35313,6 @@ pg.furniture_data_template = {
 		describe = "只在梦中出现的奇幻城堡",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33776,6 +35323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"tonghuachengbaoB",
@@ -33862,7 +35412,6 @@ pg.furniture_data_template = {
 		describe = "甜甜酸酸的梦幻滋味",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33873,6 +35422,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33926,7 +35478,6 @@ pg.furniture_data_template = {
 		describe = "幸福是草莓的味道",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -33937,6 +35488,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33990,7 +35544,6 @@ pg.furniture_data_template = {
 		describe = "一起分享甜蜜的喜悦吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34001,6 +35554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34054,7 +35610,6 @@ pg.furniture_data_template = {
 		describe = "不要着急，每个孩子都能拿到哟～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34065,6 +35620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34118,7 +35676,6 @@ pg.furniture_data_template = {
 		describe = "啵～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34129,6 +35686,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34182,7 +35742,6 @@ pg.furniture_data_template = {
 		describe = "一口就能吃掉的小蛋糕",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34193,6 +35752,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34246,7 +35808,6 @@ pg.furniture_data_template = {
 		describe = "为这梦幻的婚礼特别准备的马卡龙哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34257,6 +35818,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34310,7 +35874,6 @@ pg.furniture_data_template = {
 		describe = "木质的大门缠绕着爱的玫瑰",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34321,6 +35884,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34374,7 +35940,6 @@ pg.furniture_data_template = {
 		describe = "披着粉色薄纱的木窗",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 21,
 		spine_extra = "",
 		new = 1,
@@ -34385,6 +35950,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34438,7 +36006,6 @@ pg.furniture_data_template = {
 		describe = "花纹中透着皇家独有的优雅",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34446,6 +36013,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34499,7 +36069,6 @@ pg.furniture_data_template = {
 		describe = "花纹中透着皇家独有的优雅",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34507,6 +36076,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34560,7 +36132,6 @@ pg.furniture_data_template = {
 		describe = "皇家著名景点！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34608,6 +36179,9 @@ pg.furniture_data_template = {
 				},
 				"yl/taqiaoyl_using1"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34662,7 +36236,6 @@ pg.furniture_data_template = {
 		describe = "好大～～～～～～的摩天轮！",
 		dorm_id = 0,
 		gem_price = 250,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34673,6 +36246,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"motianlunB",
@@ -34773,7 +36349,6 @@ pg.furniture_data_template = {
 		describe = "“如果……就好了呢”",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -34785,6 +36360,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22104] = {
@@ -34812,7 +36390,6 @@ pg.furniture_data_template = {
 		describe = "被用作茶几的皮质行李箱",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34823,6 +36400,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34876,7 +36456,6 @@ pg.furniture_data_template = {
 		describe = "书信的交流是一种传统的浪漫～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34887,6 +36466,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34940,7 +36522,6 @@ pg.furniture_data_template = {
 		describe = "皇家风格的下午茶是需要精心准备的呢",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -34970,6 +36551,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35024,7 +36608,6 @@ pg.furniture_data_template = {
 		describe = "皇家风格的下午茶是需要精心准备的呢",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35048,6 +36631,9 @@ pg.furniture_data_template = {
 				},
 				"yl/zuoyiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35102,7 +36688,6 @@ pg.furniture_data_template = {
 		describe = "人类，总是向往着天空",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -35127,6 +36712,9 @@ pg.furniture_data_template = {
 				},
 				"yl/qiqiuyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -35155,7 +36743,6 @@ pg.furniture_data_template = {
 		describe = "要来一点咖啡吗？",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35166,6 +36753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kafeijiB",
@@ -35267,7 +36857,6 @@ pg.furniture_data_template = {
 		describe = "每条咸鱼，都有个一飞冲天的梦",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35278,6 +36867,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yangwangxingkongpaiB",
@@ -35378,7 +36970,6 @@ pg.furniture_data_template = {
 		describe = "有皇冠薄纱的大床！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35414,6 +37005,9 @@ pg.furniture_data_template = {
 				},
 				"yl/chuangyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35468,7 +37062,6 @@ pg.furniture_data_template = {
 		describe = "视野很好的红色观光巴士",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35529,6 +37122,9 @@ pg.furniture_data_template = {
 				"yl/bashiyl_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35582,7 +37178,6 @@ pg.furniture_data_template = {
 		describe = "造型雅致的路灯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35593,6 +37188,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35646,7 +37244,6 @@ pg.furniture_data_template = {
 		describe = "要把自己洗的香香的！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35670,6 +37267,9 @@ pg.furniture_data_template = {
 				},
 				"yl/yuchiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35724,7 +37324,6 @@ pg.furniture_data_template = {
 		describe = "不知道这封信是要寄到何处的远方呢？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35735,6 +37334,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35788,7 +37390,6 @@ pg.furniture_data_template = {
 		describe = "这里可是女王的座位哦！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35812,6 +37413,9 @@ pg.furniture_data_template = {
 				},
 				"yl/shafa1yl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35866,7 +37470,6 @@ pg.furniture_data_template = {
 		describe = "一顶大大的皇冠，可以坐上去哦",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -35901,6 +37504,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35955,7 +37561,6 @@ pg.furniture_data_template = {
 		describe = "稍息！立正！鸣枪！啾！",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -35967,6 +37572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22119] = {
@@ -35994,7 +37602,6 @@ pg.furniture_data_template = {
 		describe = "高高的皇家风格的楼梯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36005,6 +37612,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36058,7 +37668,6 @@ pg.furniture_data_template = {
 		describe = "一条特别长～～～的地毯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36069,6 +37678,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36122,7 +37734,6 @@ pg.furniture_data_template = {
 		describe = "来一杯香醇的红茶如何？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36133,6 +37744,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36186,7 +37800,6 @@ pg.furniture_data_template = {
 		describe = "来一杯香醇的红茶如何？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36197,6 +37810,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36250,7 +37866,6 @@ pg.furniture_data_template = {
 		describe = "为女王特别准备的小点心",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36261,6 +37876,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36314,7 +37932,6 @@ pg.furniture_data_template = {
 		describe = "“镜子啊镜子，告诉我世界上最可爱的人是谁？”",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36325,6 +37942,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36378,7 +37998,6 @@ pg.furniture_data_template = {
 		describe = "点缀室内的些许绿意",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36389,6 +38008,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36442,7 +38064,6 @@ pg.furniture_data_template = {
 		describe = "装满巧克力豆的墙柱，看着就有种牙疼的感觉",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36453,6 +38074,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36506,7 +38130,6 @@ pg.furniture_data_template = {
 		describe = "纪念美好的旧时光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36517,6 +38140,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36570,7 +38196,6 @@ pg.furniture_data_template = {
 		describe = "出门请注意交通安全～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -36581,6 +38206,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36634,7 +38262,6 @@ pg.furniture_data_template = {
 		describe = "窗外可以看到著名的大钟",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -36646,6 +38273,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[23001] = {
@@ -36673,7 +38303,6 @@ pg.furniture_data_template = {
 		describe = "小朋友当心不要摔倒了哟",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -36681,6 +38310,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36734,7 +38366,6 @@ pg.furniture_data_template = {
 		describe = "画着蛮啾图案的墙壁",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -36742,6 +38373,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36795,7 +38429,6 @@ pg.furniture_data_template = {
 		describe = "不可以直接跳进去哟",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -36831,6 +38464,9 @@ pg.furniture_data_template = {
 				},
 				"yy/bobochiyy_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36885,7 +38521,6 @@ pg.furniture_data_template = {
 		describe = "积木堆成的小火车",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -36908,6 +38543,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -36962,7 +38600,6 @@ pg.furniture_data_template = {
 		describe = "好孩子要乖乖午睡才行哟",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -36986,6 +38623,9 @@ pg.furniture_data_template = {
 				},
 				"yy/chuangyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37040,7 +38680,6 @@ pg.furniture_data_template = {
 		describe = "坐好了才能吃点心哟",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37063,6 +38702,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37117,7 +38759,6 @@ pg.furniture_data_template = {
 		describe = "注意不要弄脏了桌子哟",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37155,6 +38796,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37209,7 +38853,6 @@ pg.furniture_data_template = {
 		describe = "1…9！—不对不对，怎么不顺着念呢…",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37220,6 +38863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37273,7 +38919,6 @@ pg.furniture_data_template = {
 		describe = "金黄色的向日葵盆景",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37284,6 +38929,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37337,7 +38985,6 @@ pg.furniture_data_template = {
 		describe = "大大的滑梯，玩的时候要排队来哦？",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37385,6 +39032,9 @@ pg.furniture_data_template = {
 				},
 				"yy/huatiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37439,7 +39089,6 @@ pg.furniture_data_template = {
 		describe = "玩乐用的沙地，一起来堆个沙堡吧",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37463,6 +39112,9 @@ pg.furniture_data_template = {
 				},
 				"yy/shachiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37517,7 +39169,6 @@ pg.furniture_data_template = {
 		describe = "要一起来玩跳房子吗？",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37528,6 +39179,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37581,7 +39235,6 @@ pg.furniture_data_template = {
 		describe = "肥啾太重了，根本翘不动><",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37605,6 +39258,9 @@ pg.furniture_data_template = {
 				},
 				"yy/qiaoqiaobanyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37659,7 +39315,6 @@ pg.furniture_data_template = {
 		describe = "耶～好高好高～",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37670,6 +39325,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"bengchuang",
@@ -37758,7 +39416,6 @@ pg.furniture_data_template = {
 		describe = "摇啊摇…摇啊…摇…啊呜…有点困了…",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37769,6 +39426,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mumaB",
@@ -37859,7 +39519,6 @@ pg.furniture_data_template = {
 		describe = "一～二～三～飞呀～",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37870,6 +39529,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"qiuqianB",
@@ -37960,7 +39622,6 @@ pg.furniture_data_template = {
 		describe = "蔬菜和肉肉都要吃掉，不可以挑食哟？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -37971,6 +39632,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38024,7 +39688,6 @@ pg.furniture_data_template = {
 		describe = "还温热的美味牛奶",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38035,6 +39698,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38088,7 +39754,6 @@ pg.furniture_data_template = {
 		describe = "小熊形状的窗户",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38099,6 +39764,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38152,7 +39820,6 @@ pg.furniture_data_template = {
 		describe = "云朵状的小灯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38163,6 +39830,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38216,7 +39886,6 @@ pg.furniture_data_template = {
 		describe = "月亮状的小灯",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38227,6 +39896,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38280,7 +39952,6 @@ pg.furniture_data_template = {
 		describe = "星星状的小灯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38291,6 +39962,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38344,7 +40018,6 @@ pg.furniture_data_template = {
 		describe = "猜猜看，这是谁的大作？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38355,6 +40028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38408,7 +40084,6 @@ pg.furniture_data_template = {
 		describe = "小熊形状的木门",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38419,6 +40094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38472,7 +40150,6 @@ pg.furniture_data_template = {
 		describe = "为了装饰墙面特地买的墙贴",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -38483,6 +40160,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38536,7 +40216,6 @@ pg.furniture_data_template = {
 		describe = "印着可爱的猫咪花纹的地板",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38544,6 +40223,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38597,7 +40279,6 @@ pg.furniture_data_template = {
 		describe = "精致可爱的咖啡馆墙壁",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38605,6 +40286,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38658,7 +40342,6 @@ pg.furniture_data_template = {
 		describe = "要来一杯蓝山？还是曼特宁喵？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38669,6 +40352,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38722,7 +40408,6 @@ pg.furniture_data_template = {
 		describe = "呼呼…看书看累了就睡觉吧，晚安喵…",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38758,6 +40443,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/chuang2cf_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38812,7 +40500,6 @@ pg.furniture_data_template = {
 		describe = "不可以随便扯尾巴哦？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38835,6 +40522,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38889,7 +40579,6 @@ pg.furniture_data_template = {
 		describe = "享受加大版的猫爪治愈喵",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38912,6 +40601,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38966,7 +40658,6 @@ pg.furniture_data_template = {
 		describe = "请轻踩喵…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -38977,6 +40668,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39030,7 +40724,6 @@ pg.furniture_data_template = {
 		describe = "地毯没特色怎么办？按几个猫爪印上去！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39041,6 +40734,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39094,7 +40790,6 @@ pg.furniture_data_template = {
 		describe = "要、要沉下去了喵！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39118,6 +40813,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/kafeibeicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39172,7 +40870,6 @@ pg.furniture_data_template = {
 		describe = "给喵喵们玩乐的大猫爬架，甚至可以坐在上面。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39206,6 +40903,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39260,7 +40960,6 @@ pg.furniture_data_template = {
 		describe = "看起来…很好吃喵？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39271,6 +40970,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39324,7 +41026,6 @@ pg.furniture_data_template = {
 		describe = "喵呜！（扑）",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39335,6 +41036,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39388,7 +41092,6 @@ pg.furniture_data_template = {
 		describe = "制造废人的机器·红色",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39411,6 +41114,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39465,7 +41171,6 @@ pg.furniture_data_template = {
 		describe = "制造废人的机器·蓝色",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39488,6 +41193,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39542,7 +41250,6 @@ pg.furniture_data_template = {
 		describe = "制造废人的机器·黄色",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39565,6 +41272,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39619,7 +41329,6 @@ pg.furniture_data_template = {
 		describe = "不要跟喵喵抢窝喵！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39654,6 +41363,9 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39708,7 +41420,6 @@ pg.furniture_data_template = {
 		describe = "喵喵们喝水的地方",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39719,6 +41430,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39772,7 +41486,6 @@ pg.furniture_data_template = {
 		describe = "美味的鱼罐头喵！美味…大概……",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39783,6 +41496,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feiyuguantouB",
@@ -39868,7 +41584,6 @@ pg.furniture_data_template = {
 		describe = "大型机关的核心部分喵！",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39879,6 +41594,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"maoxianghexin",
@@ -39938,7 +41656,6 @@ pg.furniture_data_template = {
 		describe = "好想钻进去喵…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -39962,6 +41679,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhidaicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40016,7 +41736,6 @@ pg.furniture_data_template = {
 		describe = "好想！钻进去！喵！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40040,6 +41759,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhixiangcf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40094,7 +41816,6 @@ pg.furniture_data_template = {
 		describe = "我开动了喵！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40105,6 +41826,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40158,7 +41882,6 @@ pg.furniture_data_template = {
 		describe = "喵喵们进餐的地方",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40169,6 +41892,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40222,7 +41948,6 @@ pg.furniture_data_template = {
 		describe = "喵脸形状的桌子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40252,6 +41977,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40306,7 +42034,6 @@ pg.furniture_data_template = {
 		describe = "吓你一跳喵！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40317,6 +42044,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxbrownB",
@@ -40414,7 +42144,6 @@ pg.furniture_data_template = {
 		describe = "吓你一跳喵！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40425,6 +42154,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxgrayB",
@@ -40522,7 +42254,6 @@ pg.furniture_data_template = {
 		describe = "吓你一跳喵！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40533,6 +42264,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxcolorB",
@@ -40630,7 +42364,6 @@ pg.furniture_data_template = {
 		describe = "喵喵咖啡特供饼干喵",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40641,6 +42374,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40694,7 +42430,6 @@ pg.furniture_data_template = {
 		describe = "才、才没有偷吃喵!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40705,6 +42440,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40758,7 +42496,6 @@ pg.furniture_data_template = {
 		describe = "要来一点喵喵吗？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40769,6 +42506,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40822,7 +42562,6 @@ pg.furniture_data_template = {
 		describe = "这里是喵喵们的特等席喵!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40833,6 +42572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40886,7 +42628,6 @@ pg.furniture_data_template = {
 		describe = "看起来很开心的样子……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40897,6 +42638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40950,7 +42694,6 @@ pg.furniture_data_template = {
 		describe = "挂在墙壁上的猫窝，要跳上去可不容易",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -40961,6 +42704,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41014,7 +42760,6 @@ pg.furniture_data_template = {
 		describe = "欢迎光临喵！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -41025,6 +42770,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41078,7 +42826,6 @@ pg.furniture_data_template = {
 		describe = "一起晒太阳喵",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -41089,6 +42836,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41142,7 +42892,6 @@ pg.furniture_data_template = {
 		describe = "看上去像是很久没有清洁的布满灰尘的地面",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41150,6 +42899,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41203,7 +42955,6 @@ pg.furniture_data_template = {
 		describe = "斑驳的墙壁，看来要找时间修补下了",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41211,6 +42962,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41264,7 +43018,6 @@ pg.furniture_data_template = {
 		describe = "一种搬运东西的道具，可以节省不少人力",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41288,6 +43041,9 @@ pg.furniture_data_template = {
 				},
 				"xiangcun/banchexc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41342,7 +43098,6 @@ pg.furniture_data_template = {
 		describe = "扁担宽，扁担长，扁担要扛在板凳...噗！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41353,6 +43108,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41406,7 +43164,6 @@ pg.furniture_data_template = {
 		describe = "翠绿色的老旧冰箱",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41417,6 +43174,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41470,7 +43230,6 @@ pg.furniture_data_template = {
 		describe = "卖菜咯！有需要的各位来看一看咯！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41481,6 +43240,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41534,7 +43296,6 @@ pg.furniture_data_template = {
 		describe = "这个大小，两个人有点挤吧？",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41570,6 +43331,9 @@ pg.furniture_data_template = {
 				},
 				"xiangcun/maokengxc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41624,7 +43388,6 @@ pg.furniture_data_template = {
 		describe = "拆！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41635,6 +43398,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41688,7 +43454,6 @@ pg.furniture_data_template = {
 		describe = "大大的炕，坐在上面感觉暖暖的",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41722,6 +43487,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41776,7 +43544,6 @@ pg.furniture_data_template = {
 		describe = "高效燃烧的煤炭",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41787,6 +43554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41840,7 +43610,6 @@ pg.furniture_data_template = {
 		describe = "铺了格子桌布的方桌",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41890,6 +43659,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41944,7 +43716,6 @@ pg.furniture_data_template = {
 		describe = "色彩对比强烈的胶袋，耐久实用",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -41955,6 +43726,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42008,7 +43782,6 @@ pg.furniture_data_template = {
 		describe = "帅气啾的理发座椅，包你满意",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42032,6 +43805,9 @@ pg.furniture_data_template = {
 				},
 				"xiangcun/lifadengxc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42086,7 +43862,6 @@ pg.furniture_data_template = {
 		describe = "禁止通行",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42097,6 +43872,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42150,7 +43928,6 @@ pg.furniture_data_template = {
 		describe = "方方的八仙桌",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42200,6 +43977,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42254,7 +44034,6 @@ pg.furniture_data_template = {
 		describe = "多喝热水",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42265,6 +44044,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42318,7 +44100,6 @@ pg.furniture_data_template = {
 		describe = "懒人经典标配",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42329,6 +44110,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42382,7 +44166,6 @@ pg.furniture_data_template = {
 		describe = "小小的水桶，可以接屋顶漏水什么的",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42393,6 +44176,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42446,7 +44232,6 @@ pg.furniture_data_template = {
 		describe = "不垫床垫睡上面可是会很痛的",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42469,6 +44254,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42523,7 +44311,6 @@ pg.furniture_data_template = {
 		describe = "劳累之后好好泡个澡吧（记得洗完换水",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42547,6 +44334,9 @@ pg.furniture_data_template = {
 				},
 				"xiangcun/zaopengxc_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42601,7 +44391,6 @@ pg.furniture_data_template = {
 		describe = "大锅饭菜很香的！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42612,6 +44401,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42665,7 +44457,6 @@ pg.furniture_data_template = {
 		describe = "排排坐，吃饭饭",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42699,6 +44490,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42753,7 +44547,6 @@ pg.furniture_data_template = {
 		describe = "居家旅行必备利器",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42776,6 +44569,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42830,7 +44626,6 @@ pg.furniture_data_template = {
 		describe = "补充肉食可是很重要的",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42854,6 +44649,9 @@ pg.furniture_data_template = {
 				},
 				"xiangcun/zhurouxc"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42908,7 +44706,6 @@ pg.furniture_data_template = {
 		describe = "吱呀作响的竹凳",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -42931,6 +44728,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42985,7 +44785,6 @@ pg.furniture_data_template = {
 		describe = "每天要记得清理",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43008,6 +44807,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43062,7 +44864,6 @@ pg.furniture_data_template = {
 		describe = "污水井盖，注意不要被绊倒哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43073,6 +44874,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43126,7 +44930,6 @@ pg.furniture_data_template = {
 		describe = "香喷喷的小馒头",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43137,6 +44940,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43190,7 +44996,6 @@ pg.furniture_data_template = {
 		describe = "厕纸用完记得要收好",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43201,6 +45006,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43254,7 +45062,6 @@ pg.furniture_data_template = {
 		describe = "新到的锅，看上去很高级的样子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43265,6 +45072,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43318,7 +45128,6 @@ pg.furniture_data_template = {
 		describe = "办证了解一下？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43329,6 +45138,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43382,7 +45194,6 @@ pg.furniture_data_template = {
 		describe = "每逢过年都会更新窗花的窗户",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43393,6 +45204,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43446,7 +45260,6 @@ pg.furniture_data_template = {
 		describe = "给家里添了一分喜庆的气息",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43457,6 +45270,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43510,7 +45326,6 @@ pg.furniture_data_template = {
 		describe = "那个....了解一下？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43521,6 +45336,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43574,7 +45392,6 @@ pg.furniture_data_template = {
 		describe = "这三色的意义你知道吗？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 25,
 		spine_extra = "",
 		new = 1,
@@ -43585,6 +45402,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43638,7 +45458,6 @@ pg.furniture_data_template = {
 		describe = "泳池边上的白色地板，防滑",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -43646,6 +45465,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43699,7 +45521,6 @@ pg.furniture_data_template = {
 		describe = "周围满是树丛，确认里面没有藏人哦",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -43707,6 +45528,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43760,7 +45584,6 @@ pg.furniture_data_template = {
 		describe = "黄色的水球，不可以拿来砸人哦",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -43783,6 +45606,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43837,7 +45663,6 @@ pg.furniture_data_template = {
 		describe = "蓝色的水球，不可以拿来砸人哦",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -43860,6 +45685,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43914,7 +45742,6 @@ pg.furniture_data_template = {
 		describe = "听说蓝白条纹很受欢迎？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -43925,6 +45752,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43978,7 +45808,6 @@ pg.furniture_data_template = {
 		describe = "「哔哔！那边的小朋友，不可以直接跳进泳池里哦！」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44002,6 +45831,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/jiushengyisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44056,7 +45888,6 @@ pg.furniture_data_template = {
 		describe = "深水区危险！！没有救生圈不要轻易靠近哦！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44215,6 +46046,9 @@ pg.furniture_data_template = {
 				5
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44268,7 +46102,6 @@ pg.furniture_data_template = {
 		describe = "下泳池的时候当心脚滑哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44291,6 +46124,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44345,7 +46181,6 @@ pg.furniture_data_template = {
 		describe = "蛮啾·潜水中——",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44356,6 +46191,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44409,7 +46247,6 @@ pg.furniture_data_template = {
 		describe = "水上锻炼用的好器材！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44433,6 +46270,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/qiusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44487,7 +46327,6 @@ pg.furniture_data_template = {
 		describe = "躺椅专用的遮阳伞",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44498,6 +46337,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44551,7 +46393,6 @@ pg.furniture_data_template = {
 		describe = "在遮阳伞下喝杯冰凉的饮料吧",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44577,6 +46418,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44631,7 +46475,6 @@ pg.furniture_data_template = {
 		describe = "软软的充气沙发，应该不会坐坏吧…？",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44655,6 +46498,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shafasly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44709,7 +46555,6 @@ pg.furniture_data_template = {
 		describe = "要来点夏天的美食吗？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44720,6 +46565,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44773,7 +46621,6 @@ pg.furniture_data_template = {
 		describe = "西瓜形状的躺椅，看起来就很凉快的样子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44796,6 +46643,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44850,7 +46700,6 @@ pg.furniture_data_template = {
 		describe = "造型梦幻的充气躺椅",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44873,6 +46722,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44927,7 +46779,6 @@ pg.furniture_data_template = {
 		describe = "记得做好防晒措施哟",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -44951,6 +46802,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/tangyi4sly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45005,7 +46859,6 @@ pg.furniture_data_template = {
 		describe = "这个没有刺…吧？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45028,6 +46881,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45082,7 +46938,6 @@ pg.furniture_data_template = {
 		describe = "高高的椰子树，然而上面并没有椰子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45093,6 +46948,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45146,7 +47004,6 @@ pg.furniture_data_template = {
 		describe = "椰子样式的浴缸，里面装的是水…大概",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45170,6 +47027,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yezisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45224,7 +47084,6 @@ pg.furniture_data_template = {
 		describe = "红白条纹的游泳圈",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45247,6 +47106,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45301,7 +47163,6 @@ pg.furniture_data_template = {
 		describe = "黄色的游泳圈",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45324,6 +47185,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45378,7 +47242,6 @@ pg.furniture_data_template = {
 		describe = "进入泳池之前记得一定要先淋浴哟！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45402,6 +47265,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yuchisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45456,7 +47322,6 @@ pg.furniture_data_template = {
 		describe = "彩虹桥的凳子，坐上去软软的",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45490,6 +47355,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45544,7 +47412,6 @@ pg.furniture_data_template = {
 		describe = "进入泳池之前记得一定要先淋浴哟！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45568,6 +47435,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/linyusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45622,7 +47492,6 @@ pg.furniture_data_template = {
 		describe = "排好队，一个一个来哟！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45633,6 +47502,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shayuhuatiB",
@@ -45733,7 +47605,6 @@ pg.furniture_data_template = {
 		describe = "蛮啾造型的喷水池，不知道能不能看到彩虹？",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45744,6 +47615,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuupengquan",
@@ -45803,7 +47677,6 @@ pg.furniture_data_template = {
 		describe = "夏天果然还是泡在泳池里最舒服了~  ",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45853,6 +47726,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shuichisly_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45907,7 +47783,6 @@ pg.furniture_data_template = {
 		describe = "未成年人不可以喝酒哟！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45918,6 +47793,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45971,7 +47849,6 @@ pg.furniture_data_template = {
 		describe = "来几片西瓜消消暑吧！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -45982,6 +47859,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46035,7 +47915,6 @@ pg.furniture_data_template = {
 		describe = "似乎拉上窗纱也遮挡不住视线呢…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -46046,6 +47925,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46099,7 +47981,6 @@ pg.furniture_data_template = {
 		describe = "贴上之后就能在房间里享受森林的感觉了",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46107,6 +47988,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46160,7 +48044,6 @@ pg.furniture_data_template = {
 		describe = "特地在房间里营造出草地的感觉",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46168,6 +48051,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46221,7 +48107,6 @@ pg.furniture_data_template = {
 		describe = "森林里常见的小草堆",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46232,6 +48117,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46285,7 +48173,6 @@ pg.furniture_data_template = {
 		describe = "稍微大一点的草堆，可还是没法藏人",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46296,6 +48183,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46349,7 +48239,6 @@ pg.furniture_data_template = {
 		describe = "富有森林气息的床铺，有着大大的叶子",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46373,6 +48262,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/chuangsl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46427,7 +48319,6 @@ pg.furniture_data_template = {
 		describe = "森林里就是要自给自足！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46438,6 +48329,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46491,7 +48385,6 @@ pg.furniture_data_template = {
 		describe = "森林里就是要自给自足！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46502,6 +48395,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46555,7 +48451,6 @@ pg.furniture_data_template = {
 		describe = "这个路灯好奇怪啊。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46566,6 +48461,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46619,7 +48517,6 @@ pg.furniture_data_template = {
 		describe = "多彩系列花朵凳之一",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46642,6 +48539,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46696,7 +48596,6 @@ pg.furniture_data_template = {
 		describe = "多彩系列花朵凳之一",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46719,6 +48618,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46773,7 +48675,6 @@ pg.furniture_data_template = {
 		describe = "多彩系列花朵凳之一",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46796,6 +48697,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46850,7 +48754,6 @@ pg.furniture_data_template = {
 		describe = "这个吃了也不能变大哦",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46873,6 +48776,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46927,7 +48833,6 @@ pg.furniture_data_template = {
 		describe = "不是很明白这个形状的地毯意义在哪",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -46938,6 +48843,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46991,7 +48899,6 @@ pg.furniture_data_template = {
 		describe = "这个踩上去感觉和草地一样么",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47002,6 +48909,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47055,7 +48965,6 @@ pg.furniture_data_template = {
 		describe = "野餐的时候记得带上桌布哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47066,6 +48975,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47119,7 +49031,6 @@ pg.furniture_data_template = {
 		describe = "森林里熊的最爱！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47143,6 +49054,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/fengmisl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47197,7 +49111,6 @@ pg.furniture_data_template = {
 		describe = "睡床边上最后有些触手可及的东西",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47215,6 +49128,9 @@ pg.furniture_data_template = {
 				2,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47269,7 +49185,6 @@ pg.furniture_data_template = {
 		describe = "没有条幅，只好用布条先救下场了",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47299,6 +49214,9 @@ pg.furniture_data_template = {
 				0,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47353,7 +49271,6 @@ pg.furniture_data_template = {
 		describe = "石头围起的花坛，用来点缀下周围",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47364,6 +49281,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47417,7 +49337,6 @@ pg.furniture_data_template = {
 		describe = "亲切和蔼的啾妈妈",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47428,6 +49347,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47481,7 +49403,6 @@ pg.furniture_data_template = {
 		describe = "水果都是抱枕，是不能吃的哦",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47515,6 +49436,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47569,7 +49493,6 @@ pg.furniture_data_template = {
 		describe = "用来指引方向的路牌",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47580,6 +49503,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47633,7 +49559,6 @@ pg.furniture_data_template = {
 		describe = "晚上精神抖擞！白天睡觉。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47644,6 +49569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47697,7 +49625,6 @@ pg.furniture_data_template = {
 		describe = "森林里造木屋必不可少的地板",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47708,6 +49635,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47761,7 +49691,6 @@ pg.furniture_data_template = {
 		describe = "单人休息用的小木屋",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47785,6 +49714,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/muwusl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47839,7 +49771,6 @@ pg.furniture_data_template = {
 		describe = "树干小秋千，感觉树枝不是很牢靠，应该没法荡起来",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47863,6 +49794,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/qiuqiansl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47917,7 +49851,6 @@ pg.furniture_data_template = {
 		describe = "覆盖了部分苔藓的树干",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -47951,6 +49884,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48005,7 +49941,6 @@ pg.furniture_data_template = {
 		describe = "红色水壶，浇灌花朵用",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48016,6 +49951,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48069,7 +50007,6 @@ pg.furniture_data_template = {
 		describe = "这应该是某颗老树遗留的最后痕迹",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48092,6 +50029,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48146,7 +50086,6 @@ pg.furniture_data_template = {
 		describe = "木桩做成的围栏",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48157,6 +50096,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48210,7 +50152,6 @@ pg.furniture_data_template = {
 		describe = "单人温泉，请一位一位轮流进去",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48234,6 +50175,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan1sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48288,7 +50232,6 @@ pg.furniture_data_template = {
 		describe = "双人温泉（指挥官禁止",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48324,6 +50267,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan2sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48378,7 +50324,6 @@ pg.furniture_data_template = {
 		describe = "从哪里找到的这么大一圈的树啊",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48412,6 +50357,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48466,7 +50414,6 @@ pg.furniture_data_template = {
 		describe = "这么不规则的木板还是第一次见",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48504,6 +50451,9 @@ pg.furniture_data_template = {
 				2,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48558,7 +50508,6 @@ pg.furniture_data_template = {
 		describe = "野生啾啾出没中！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48569,6 +50518,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuushandong",
@@ -48628,7 +50580,6 @@ pg.furniture_data_template = {
 		describe = "「请不要使用锤子，谢谢」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48639,6 +50590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dishu",
@@ -48698,7 +50652,6 @@ pg.furniture_data_template = {
 		describe = "新鲜的草莓汁",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48709,6 +50662,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48762,7 +50718,6 @@ pg.furniture_data_template = {
 		describe = "蘑菇形状的台灯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48773,6 +50728,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48826,7 +50784,6 @@ pg.furniture_data_template = {
 		describe = "早起提神的饮料",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48837,6 +50794,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48890,7 +50850,6 @@ pg.furniture_data_template = {
 		describe = "丰富的野餐食物",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48901,6 +50860,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48954,7 +50916,6 @@ pg.furniture_data_template = {
 		describe = "长条面包",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -48965,6 +50926,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49018,7 +50982,6 @@ pg.furniture_data_template = {
 		describe = "超高热量！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49029,6 +50992,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49082,7 +51048,6 @@ pg.furniture_data_template = {
 		describe = "细长的窗户，可以看到森林的风景",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49093,6 +51058,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49146,7 +51114,6 @@ pg.furniture_data_template = {
 		describe = "充满田园风格的木窗",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49157,6 +51124,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49210,7 +51180,6 @@ pg.furniture_data_template = {
 		describe = "给新房子多加一份空间吧",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49221,6 +51190,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49274,7 +51246,6 @@ pg.furniture_data_template = {
 		describe = "夜晚照明用的道具",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49285,6 +51256,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49338,7 +51312,6 @@ pg.furniture_data_template = {
 		describe = "进房间要先敲门哦",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49349,6 +51322,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49402,7 +51378,6 @@ pg.furniture_data_template = {
 		describe = "森林里造木屋必不可少的墙壁",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49413,6 +51388,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49466,7 +51444,6 @@ pg.furniture_data_template = {
 		describe = "木制的机械时钟",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -49477,6 +51454,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49530,7 +51510,6 @@ pg.furniture_data_template = {
 		describe = "水底的世界同样精彩缤纷",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49538,6 +51517,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49591,7 +51573,6 @@ pg.furniture_data_template = {
 		describe = "海底的地面会倒映出水光么",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49599,6 +51580,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49652,7 +51636,6 @@ pg.furniture_data_template = {
 		describe = "孕育了超大珍珠的床铺，睡上去感觉如何呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49676,6 +51659,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/beikehy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49730,7 +51716,6 @@ pg.furniture_data_template = {
 		describe = "水母床铺？这又是个什么构造呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49766,6 +51751,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/chuanghy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49820,7 +51808,6 @@ pg.furniture_data_template = {
 		describe = "大大的海螺座椅，不要钻进去哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49844,6 +51831,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/dengzi2hy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49898,7 +51888,6 @@ pg.furniture_data_template = {
 		describe = "讲贝壳打磨成光滑的平面真是不容易啊",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49921,6 +51910,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49975,7 +51967,6 @@ pg.furniture_data_template = {
 		describe = "海星形状的粉红色地毯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -49986,6 +51977,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50039,7 +52033,6 @@ pg.furniture_data_template = {
 		describe = "海底的沙子都会是软软的么",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50050,6 +52043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50103,7 +52099,6 @@ pg.furniture_data_template = {
 		describe = "缀挂了珍珠的屏风",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50114,6 +52109,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50167,7 +52165,6 @@ pg.furniture_data_template = {
 		describe = "哇哇哇！吞进去了！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50203,6 +52200,9 @@ pg.furniture_data_template = {
 					"haiyang/haikuihy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50257,7 +52257,6 @@ pg.furniture_data_template = {
 		describe = "这个海螺会发光耶！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50268,6 +52267,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50321,7 +52323,6 @@ pg.furniture_data_template = {
 		describe = "驾！啊？这不是马么",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50345,6 +52346,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/haimahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50399,7 +52403,6 @@ pg.furniture_data_template = {
 		describe = "这个不会喷发的，不用害怕哦",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50410,6 +52413,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50463,7 +52469,6 @@ pg.furniture_data_template = {
 		describe = "珍珠般晶莹的气泡",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50474,6 +52479,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50527,7 +52535,6 @@ pg.furniture_data_template = {
 		describe = "漂浮的水泡坐凳，蹦啊蹦啊",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50550,6 +52557,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50604,7 +52614,6 @@ pg.furniture_data_template = {
 		describe = "大大的水泡，很舒适的泡澡",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50640,6 +52649,9 @@ pg.furniture_data_template = {
 					"haiyang/pao3hy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50694,7 +52706,6 @@ pg.furniture_data_template = {
 		describe = "装有海星海螺的装饰用气泡",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50705,6 +52716,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50758,7 +52772,6 @@ pg.furniture_data_template = {
 		describe = "大大的贝壳沙发（实际上是用特殊材料制作）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50794,6 +52807,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/shafahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50848,7 +52864,6 @@ pg.furniture_data_template = {
 		describe = "海底常见的珊瑚",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50859,6 +52874,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50912,7 +52930,6 @@ pg.furniture_data_template = {
 		describe = "深海常见的石头块",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -50923,6 +52940,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50976,7 +52996,6 @@ pg.furniture_data_template = {
 		describe = "珊瑚加石板组成的桌子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51014,6 +53033,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51068,7 +53090,6 @@ pg.furniture_data_template = {
 		describe = "一整块岩石形成的天然桌子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51106,6 +53127,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51160,7 +53184,6 @@ pg.furniture_data_template = {
 		describe = "摇摆的海草！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51171,6 +53194,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51224,7 +53250,6 @@ pg.furniture_data_template = {
 		describe = "深海泉水泡泡浴缸！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51235,6 +53260,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shenhaiyugangB",
@@ -51317,7 +53345,6 @@ pg.furniture_data_template = {
 		describe = "我会吐泡泡！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51328,6 +53355,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhangyuB",
@@ -51413,7 +53443,6 @@ pg.furniture_data_template = {
 		describe = "晃晃悠悠和蹦蹦跳跳。",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51424,6 +53453,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuimubengchuang",
@@ -51512,7 +53544,6 @@ pg.furniture_data_template = {
 		describe = "可食用的螺类",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51523,6 +53554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51576,7 +53610,6 @@ pg.furniture_data_template = {
 		describe = "寿司！最爱寿司！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51587,6 +53620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51640,7 +53676,6 @@ pg.furniture_data_template = {
 		describe = "不知道从哪里找到的船舵，挂在墙上做装饰用",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51651,6 +53686,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51704,7 +53742,6 @@ pg.furniture_data_template = {
 		describe = "透明墙壁上真的有必要装上窗户么？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -51715,6 +53752,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51768,7 +53808,6 @@ pg.furniture_data_template = {
 		describe = "七彩色墙壁，梦幻至极",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -51776,6 +53815,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51829,7 +53871,6 @@ pg.furniture_data_template = {
 		describe = "彩色格子拼成的地板，色彩斑斓",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -51837,6 +53878,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51890,7 +53934,6 @@ pg.furniture_data_template = {
 		describe = "这个冰沙看起来有好多味道啊",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -51914,6 +53957,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/bingshach_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51968,7 +54014,6 @@ pg.furniture_data_template = {
 		describe = "彩虹色的蛋糕上覆盖了一层厚厚的巧克力",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -51992,6 +54037,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chuangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52046,7 +54094,6 @@ pg.furniture_data_template = {
 		describe = "是时候展现自己了！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52082,6 +54129,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/dadaoch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52136,7 +54186,6 @@ pg.furniture_data_template = {
 		describe = "印有花朵图案的软糖凳子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52159,6 +54208,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52213,7 +54265,6 @@ pg.furniture_data_template = {
 		describe = "印有爱心图案的软糖凳子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52236,6 +54287,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52290,7 +54344,6 @@ pg.furniture_data_template = {
 		describe = "果冻质感的座位，坐上去会抖动么？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52313,6 +54366,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52367,7 +54423,6 @@ pg.furniture_data_template = {
 		describe = "刷了一层多彩涂料的甜甜圈",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52390,6 +54445,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52444,7 +54502,6 @@ pg.furniture_data_template = {
 		describe = "颜料滴落凝固成的地毯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52455,6 +54512,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52508,7 +54568,6 @@ pg.furniture_data_template = {
 		describe = "七色虹彩，波浪状的地毯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52519,6 +54578,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52572,7 +54634,6 @@ pg.furniture_data_template = {
 		describe = "好孩子不要偷吃糖果哦",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52596,6 +54657,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/guanzich_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52650,7 +54714,6 @@ pg.furniture_data_template = {
 		describe = "有请明星从彩虹拱门出场！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52674,6 +54737,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/mench_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52728,7 +54794,6 @@ pg.furniture_data_template = {
 		describe = "螺旋纠缠的棉花糖",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52739,6 +54804,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52792,7 +54860,6 @@ pg.furniture_data_template = {
 		describe = "淡蓝色的棉花糖",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52803,6 +54870,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52856,7 +54926,6 @@ pg.furniture_data_template = {
 		describe = "草绿色的棉花糖",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52867,6 +54936,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52920,7 +54992,6 @@ pg.furniture_data_template = {
 		describe = "淡粉色的棉花糖",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52931,6 +55002,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52984,7 +55058,6 @@ pg.furniture_data_template = {
 		describe = "飘啊飘的气球装饰",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -52995,6 +55068,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53048,7 +55124,6 @@ pg.furniture_data_template = {
 		describe = "大小波板糖！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53059,6 +55134,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53112,7 +55190,6 @@ pg.furniture_data_template = {
 		describe = "使用时会出现彩虹的浴池",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53136,6 +55213,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/yugangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53190,7 +55270,6 @@ pg.furniture_data_template = {
 		describe = "刷了一层多彩涂料的桌子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53253,6 +55332,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53306,7 +55388,6 @@ pg.furniture_data_template = {
 		describe = "从完整蛋糕上切下的部分",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53328,6 +55409,9 @@ pg.furniture_data_template = {
 				2,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53382,7 +55466,6 @@ pg.furniture_data_template = {
 		describe = "大大的彩虹城堡！，一次可以进去三个人！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53430,6 +55513,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chengbaoch_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53484,7 +55570,6 @@ pg.furniture_data_template = {
 		describe = "预备～～～发射！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53495,6 +55580,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongdapaoB",
@@ -53589,7 +55677,6 @@ pg.furniture_data_template = {
 		describe = "Let’s go～没有人能追上我的speed～",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53600,6 +55687,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongyun",
@@ -53693,7 +55783,6 @@ pg.furniture_data_template = {
 		describe = "收下这份惊喜吧！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53704,6 +55793,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang1B",
@@ -53798,7 +55890,6 @@ pg.furniture_data_template = {
 		describe = "收下这份惊喜吧！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53809,6 +55900,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang2B",
@@ -53903,7 +55997,6 @@ pg.furniture_data_template = {
 		describe = "小小的食用棉花糖",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53914,6 +56007,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53967,7 +56063,6 @@ pg.furniture_data_template = {
 		describe = "健康的绿色沙拉",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -53978,6 +56073,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54031,7 +56129,6 @@ pg.furniture_data_template = {
 		describe = "能看到窗外彩虹的云朵状窗户",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -54042,6 +56139,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54095,7 +56195,6 @@ pg.furniture_data_template = {
 		describe = "天气播报挂饰",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -54106,6 +56205,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54159,7 +56261,6 @@ pg.furniture_data_template = {
 		describe = "七色彩虹钟",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -54170,6 +56271,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54223,7 +56327,6 @@ pg.furniture_data_template = {
 		describe = "记得要补充货物哦！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -54248,6 +56351,9 @@ pg.furniture_data_template = {
 				},
 				"luosen/huojials_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -54276,7 +56382,6 @@ pg.furniture_data_template = {
 		describe = "水温…正合适！",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -54326,6 +56431,9 @@ pg.furniture_data_template = {
 				"luosen/shiwuls_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[32105] = {
@@ -54353,7 +56461,6 @@ pg.furniture_data_template = {
 		describe = "叮～要顺道来个披萨或咖啡吗？",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -54378,6 +56485,9 @@ pg.furniture_data_template = {
 				},
 				"luosen/shouyinls_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -54406,7 +56516,6 @@ pg.furniture_data_template = {
 		describe = "欢迎光临～",
 		dorm_id = 0,
 		gem_price = 1000,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -54418,6 +56527,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"luosenmenB",
@@ -54486,7 +56598,6 @@ pg.furniture_data_template = {
 		describe = "鬼魂荒野之地",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54494,6 +56605,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54547,7 +56661,6 @@ pg.furniture_data_template = {
 		describe = "这片草地隐藏了很多东西...很多很多",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54555,6 +56668,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54608,7 +56724,6 @@ pg.furniture_data_template = {
 		describe = "看似普通的小草堆",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54619,6 +56734,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54672,7 +56790,6 @@ pg.furniture_data_template = {
 		describe = "这推车里的骨头是哪来的呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54696,6 +56813,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/chehl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54750,7 +56870,6 @@ pg.furniture_data_template = {
 		describe = "巨大骷髅直接压扁而成的",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54761,6 +56880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54814,7 +56936,6 @@ pg.furniture_data_template = {
 		describe = "大大的紫色地毯，似乎是蕴含某种奇特含义",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54825,6 +56946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54878,7 +57002,6 @@ pg.furniture_data_template = {
 		describe = "碎石铺就而成的小径，不要光脚走上去哦",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54889,6 +57012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54942,7 +57068,6 @@ pg.furniture_data_template = {
 		describe = "来猜猜这斗篷下面有没有什么呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -54953,6 +57078,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55006,7 +57134,6 @@ pg.furniture_data_template = {
 		describe = "几根黑色长矛瓦加紫色布条形成的格栏",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55017,6 +57144,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55070,7 +57200,6 @@ pg.furniture_data_template = {
 		describe = "与庭院风格及其不搭的金色栏杆",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55081,6 +57210,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55134,7 +57266,6 @@ pg.furniture_data_template = {
 		describe = "本庭院的重头戏，女巫的精心杰作！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55145,6 +57276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55198,7 +57332,6 @@ pg.furniture_data_template = {
 		describe = "万圣节要吃啥来着..",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55209,6 +57342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55262,7 +57398,6 @@ pg.furniture_data_template = {
 		describe = "我是死而复生的啾！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55273,6 +57408,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55326,7 +57464,6 @@ pg.furniture_data_template = {
 		describe = "这个坑感觉大小正合适",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55362,6 +57499,9 @@ pg.furniture_data_template = {
 					"halloween2/kenghl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55416,7 +57556,6 @@ pg.furniture_data_template = {
 		describe = "点亮的南瓜灯在注视着你",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55427,6 +57566,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55480,7 +57622,6 @@ pg.furniture_data_template = {
 		describe = "迷路的朋友请看下这边！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55491,6 +57632,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55544,7 +57688,6 @@ pg.furniture_data_template = {
 		describe = "时间久远，结满蛛网的墓碑",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55555,6 +57698,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55608,7 +57754,6 @@ pg.furniture_data_template = {
 		describe = "纪念XXX（字迹模糊到看不清了）",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55619,6 +57764,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55672,7 +57820,6 @@ pg.furniture_data_template = {
 		describe = "大大的南瓜灯，也可以用来盛放一些东西",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55696,6 +57843,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/nangua2hl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55750,7 +57900,6 @@ pg.furniture_data_template = {
 		describe = "一堆的照明用南瓜灯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55761,6 +57910,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55814,7 +57966,6 @@ pg.furniture_data_template = {
 		describe = "扫帚坐骑，你值得拥有！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55837,6 +57988,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55891,7 +58045,6 @@ pg.furniture_data_template = {
 		describe = "一个枯树，没什稀奇",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55902,6 +58055,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55955,7 +58111,6 @@ pg.furniture_data_template = {
 		describe = "巫女的住所",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -55978,6 +58133,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56032,7 +58190,6 @@ pg.furniture_data_template = {
 		describe = "已经破了紫色绸缎覆盖的座椅",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56055,6 +58212,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56109,7 +58269,6 @@ pg.furniture_data_template = {
 		describe = "已经破了白色绸缎覆盖的座椅",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56132,6 +58291,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56186,7 +58348,6 @@ pg.furniture_data_template = {
 		describe = "幽幽烛光点缀的长椅",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56209,6 +58370,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56263,7 +58427,6 @@ pg.furniture_data_template = {
 		describe = "干枯的树干，流出了绿色的液体",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56286,6 +58449,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56340,7 +58506,6 @@ pg.furniture_data_template = {
 		describe = "不断冒出气泡的紫色池子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56376,6 +58541,9 @@ pg.furniture_data_template = {
 					"halloween2/zhaozehl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56430,7 +58598,6 @@ pg.furniture_data_template = {
 		describe = "欢迎欢迎，需要吃些什么呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56472,6 +58639,9 @@ pg.furniture_data_template = {
 				6,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56526,7 +58696,6 @@ pg.furniture_data_template = {
 		describe = "「哇哈哈哈～抓得到我就来试试吧！」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56537,6 +58706,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"ghost",
@@ -56600,7 +58772,6 @@ pg.furniture_data_template = {
 		describe = "「有荣幸与你共乘一匹马吗，小姐？」",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56611,6 +58782,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"nanguaqishiB",
@@ -56696,7 +58870,6 @@ pg.furniture_data_template = {
 		describe = "成堆蜡烛照亮更多的地方",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56707,6 +58880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56760,7 +58936,6 @@ pg.furniture_data_template = {
 		describe = "一只孤单的小蜡烛",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56771,6 +58946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56824,7 +59002,6 @@ pg.furniture_data_template = {
 		describe = "蓝色液体，作用未知",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56835,6 +59012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56888,7 +59068,6 @@ pg.furniture_data_template = {
 		describe = "红色液体，作用未知",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56899,6 +59078,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56952,7 +59134,6 @@ pg.furniture_data_template = {
 		describe = "宴会标配红烛台",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -56963,6 +59144,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57016,7 +59200,6 @@ pg.furniture_data_template = {
 		describe = "金色大门，富丽堂皇",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -57027,6 +59210,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57080,7 +59266,6 @@ pg.furniture_data_template = {
 		describe = "深夜的明月",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -57091,6 +59276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57144,7 +59332,6 @@ pg.furniture_data_template = {
 		describe = "大大的一张蛛网",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -57155,6 +59342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57208,7 +59398,6 @@ pg.furniture_data_template = {
 		describe = "风格华丽的墙纸",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57216,6 +59405,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57269,7 +59461,6 @@ pg.furniture_data_template = {
 		describe = "实木制作的地板",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57277,6 +59468,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57330,7 +59524,6 @@ pg.furniture_data_template = {
 		describe = "要来一串丸子吗？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57353,6 +59546,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57407,7 +59603,6 @@ pg.furniture_data_template = {
 		describe = "透着温和的黄光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57418,6 +59613,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57471,7 +59669,6 @@ pg.furniture_data_template = {
 		describe = "不可以工作得太晚哦？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57482,6 +59679,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57535,7 +59735,6 @@ pg.furniture_data_template = {
 		describe = "似曾相识的…灯光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57546,6 +59745,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57599,7 +59801,6 @@ pg.furniture_data_template = {
 		describe = "哈啾！…再泡会澡吧……",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57633,6 +59834,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57687,7 +59891,6 @@ pg.furniture_data_template = {
 		describe = "绣着精致纹路的地毯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57698,6 +59901,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57751,7 +59957,6 @@ pg.furniture_data_template = {
 		describe = "猛兽的毛皮制作的地毯",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57762,6 +59967,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57815,7 +60023,6 @@ pg.furniture_data_template = {
 		describe = "进入浴池前洗身体用用的热水",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57826,6 +60033,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57879,7 +60089,6 @@ pg.furniture_data_template = {
 		describe = "冬日里提供温暖的围炉",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57890,6 +60099,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57943,7 +60155,6 @@ pg.furniture_data_template = {
 		describe = "泡澡前清理身体用的木盆",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -57954,6 +60165,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58007,7 +60221,6 @@ pg.furniture_data_template = {
 		describe = "木制的隔板，阻隔效果不是很好",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58018,6 +60231,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58071,7 +60287,6 @@ pg.furniture_data_template = {
 		describe = "不要在上面戳洞！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58082,6 +60297,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58135,7 +60353,6 @@ pg.furniture_data_template = {
 		describe = "让人忍不住想躺下的沙发",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58158,6 +60375,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58212,7 +60432,6 @@ pg.furniture_data_template = {
 		describe = "嘿咻、嘿咻…水打来啦！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58223,6 +60442,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58276,7 +60498,6 @@ pg.furniture_data_template = {
 		describe = "似乎…有点困了",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58287,6 +60508,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58340,7 +60564,6 @@ pg.furniture_data_template = {
 		describe = "描绘了金色纹路的座椅",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58363,6 +60586,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58417,7 +60643,6 @@ pg.furniture_data_template = {
 		describe = "呼哈…复活的感觉～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58441,6 +60666,9 @@ pg.furniture_data_template = {
 				},
 				"chuansong/zaopengcs_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58495,7 +60723,6 @@ pg.furniture_data_template = {
 		describe = "大大的澡堂，一次可以容纳好多人！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58604,6 +60831,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58657,7 +60887,6 @@ pg.furniture_data_template = {
 		describe = "办公用的长桌，擦得很干净",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58703,6 +60932,9 @@ pg.furniture_data_template = {
 				4,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58757,7 +60989,6 @@ pg.furniture_data_template = {
 		describe = "很适合摆满点心零食的桌子",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58795,6 +61026,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58849,7 +61083,6 @@ pg.furniture_data_template = {
 		describe = "通往圣庙之路两旁的大柱子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58860,6 +61093,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58913,7 +61149,6 @@ pg.furniture_data_template = {
 		describe = "原来干草坐上去也会很舒服啊",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -58936,6 +61171,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58990,7 +61228,6 @@ pg.furniture_data_template = {
 		describe = "似乎是某人的好朋友？！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59001,6 +61238,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chuansong1",
@@ -59064,7 +61304,6 @@ pg.furniture_data_template = {
 		describe = "停！停下来啊！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59075,6 +61314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kekeboB",
@@ -59170,7 +61412,6 @@ pg.furniture_data_template = {
 		describe = "上面写着……唔、看不懂！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59181,6 +61422,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59234,7 +61478,6 @@ pg.furniture_data_template = {
 		describe = "风格华丽的红色木栏",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59245,6 +61488,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59298,7 +61544,6 @@ pg.furniture_data_template = {
 		describe = "似乎很名贵的挂画",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59309,6 +61554,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59362,7 +61610,6 @@ pg.furniture_data_template = {
 		describe = "绣着精美花纹的挂饰",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59373,6 +61620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59426,7 +61676,6 @@ pg.furniture_data_template = {
 		describe = "通往隔间的双侧都可拉开的门",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -59437,6 +61686,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59490,7 +61742,6 @@ pg.furniture_data_template = {
 		describe = "让人想起圣诞雪夜的壁纸",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59498,6 +61749,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59551,7 +61805,6 @@ pg.furniture_data_template = {
 		describe = "浅色调砖石格地砖",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59559,6 +61812,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59612,7 +61868,6 @@ pg.furniture_data_template = {
 		describe = "装饰华丽的圣诞商店，里面是卖礼物的嘛？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59623,6 +61878,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59676,7 +61934,6 @@ pg.furniture_data_template = {
 		describe = "雪花状的风车似乎带来了寒冷的空气",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59687,6 +61944,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59740,7 +62000,6 @@ pg.furniture_data_template = {
 		describe = "圣诞老人也要遵守交通规则哦！",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59751,6 +62010,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59804,7 +62066,6 @@ pg.furniture_data_template = {
 		describe = "可以在等车的时候遮风挡雨",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59828,6 +62089,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/houcheyics2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -59882,7 +62146,6 @@ pg.furniture_data_template = {
 		describe = "从袋子中变出来的鲜花",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59893,6 +62156,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59946,7 +62212,6 @@ pg.furniture_data_template = {
 		describe = "装满圣诞礼物的小火车，每人一个不可以多拿！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -59982,6 +62247,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/huochecs2_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60036,7 +62304,6 @@ pg.furniture_data_template = {
 		describe = "嗯？圣诞老人招募中？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60047,6 +62314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60100,7 +62370,6 @@ pg.furniture_data_template = {
 		describe = "霓虹灯与松针环装饰的大门，欢迎来到圣诞之家",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60111,6 +62380,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60164,7 +62436,6 @@ pg.furniture_data_template = {
 		describe = "看上去非常可口的巧克力球，这颗星星可以吃吗？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60188,6 +62459,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/qiucs2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60242,7 +62516,6 @@ pg.furniture_data_template = {
 		describe = "圣诞树形状的巧克力喷泉，搭配水果最棒了！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60253,6 +62526,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60306,7 +62582,6 @@ pg.furniture_data_template = {
 		describe = "屋顶坐着圣诞老人的售票亭",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60342,6 +62617,9 @@ pg.furniture_data_template = {
 					"christmas2/shoupiaocs2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60396,7 +62674,6 @@ pg.furniture_data_template = {
 		describe = "华丽的圣诞树，上面挂满了礼物",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60407,6 +62684,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60460,7 +62740,6 @@ pg.furniture_data_template = {
 		describe = "大概是还没有长大的圣诞树吧！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60471,6 +62750,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60524,7 +62806,6 @@ pg.furniture_data_template = {
 		describe = "下水道的入口，圣诞老人是不会从这里钻出来的",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60535,6 +62816,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60588,7 +62872,6 @@ pg.furniture_data_template = {
 		describe = "一小堆软绵绵的白雪，应该正好可以堆起一个雪人？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60599,6 +62882,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60652,7 +62938,6 @@ pg.furniture_data_template = {
 		describe = "你以为是大雪人，其实我大浴缸哒！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60676,6 +62961,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/xuerencs2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -60730,7 +63018,6 @@ pg.furniture_data_template = {
 		describe = "蛮啾送来了圣诞的贺卡~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60741,6 +63028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60794,7 +63084,6 @@ pg.furniture_data_template = {
 		describe = "红色的邮筒，快打开看看里面有没有礼物！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60805,6 +63094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60858,7 +63150,6 @@ pg.furniture_data_template = {
 		describe = "石砖铺设的圆形地台",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60869,6 +63160,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60922,7 +63216,6 @@ pg.furniture_data_template = {
 		describe = "一大片厚厚的雪地！大家来打雪仗吧！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60933,6 +63226,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -60986,7 +63282,6 @@ pg.furniture_data_template = {
 		describe = "开着它去给大家送圣诞礼物咯！驯鹿们就好好休息吧！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -60997,6 +63292,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdancheB",
@@ -61094,7 +63392,6 @@ pg.furniture_data_template = {
 		describe = "华丽的秋千，荡得太高会飞出去钻进雪堆也说不定哦！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -61105,6 +63402,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdanqiuqianB",
@@ -61195,7 +63495,6 @@ pg.furniture_data_template = {
 		describe = "广袤的大森林！当然是墙纸图案啦……",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61203,6 +63502,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61256,7 +63558,6 @@ pg.furniture_data_template = {
 		describe = "苍翠的草地会让人心情放松。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61264,6 +63565,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61317,7 +63621,6 @@ pg.furniture_data_template = {
 		describe = "画有可爱野猪图案的板凳",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61340,6 +63643,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61394,7 +63700,6 @@ pg.furniture_data_template = {
 		describe = "叮咚叮咚，巴士要发车咯～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61430,6 +63735,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/bashiyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61484,7 +63792,6 @@ pg.furniture_data_template = {
 		describe = "感觉躺上去会睡得很熟呢",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61508,6 +63815,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/chuangyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61562,7 +63872,6 @@ pg.furniture_data_template = {
 		describe = "透着温暖的光",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61573,6 +63882,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61626,7 +63938,6 @@ pg.furniture_data_template = {
 		describe = "巨大而光滑的石头，可以当椅子坐",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61649,6 +63960,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61703,7 +64017,6 @@ pg.furniture_data_template = {
 		describe = "小一点的石头，坐上去要小心滑倒哦",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61726,6 +64039,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -61780,7 +64096,6 @@ pg.furniture_data_template = {
 		describe = "白色底红色缝边的地毯，摸上去手感很不错。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61791,6 +64106,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61844,7 +64162,6 @@ pg.furniture_data_template = {
 		describe = "请勿食用，是地砖不是巧克力！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61855,6 +64172,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61908,7 +64228,6 @@ pg.furniture_data_template = {
 		describe = "可以带来温暖的小火堆，还可以烤棉花糖哦！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61919,6 +64238,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -61972,7 +64294,6 @@ pg.furniture_data_template = {
 		describe = "每天浇水一次，切记切记。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -61983,6 +64304,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62036,7 +64360,6 @@ pg.furniture_data_template = {
 		describe = "能为房间带来清新的空气，别忘记浇水。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62047,6 +64370,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62100,7 +64426,6 @@ pg.furniture_data_template = {
 		describe = "可以种植许多植物的花坛",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62111,6 +64436,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62164,7 +64492,6 @@ pg.furniture_data_template = {
 		describe = "都说了，进屋子要脱鞋呀！嗯？这似乎是野猪的脚印？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62175,6 +64502,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62228,7 +64558,6 @@ pg.furniture_data_template = {
 		describe = "满脚是泥跑进屋子的野猪被抓住之后的样子。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62239,6 +64568,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62292,7 +64624,6 @@ pg.furniture_data_template = {
 		describe = "森林中的蘑菇，看起来很美味的样子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62303,6 +64634,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62356,7 +64690,6 @@ pg.furniture_data_template = {
 		describe = "用来生火的木柴要放在安全干燥的地方哦。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62367,6 +64700,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62420,7 +64756,6 @@ pg.furniture_data_template = {
 		describe = "富含丰富矿物质，有益身体健康～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62444,6 +64779,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/nitanyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -62498,7 +64836,6 @@ pg.furniture_data_template = {
 		describe = "一松手就会飞走的气球。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62509,6 +64846,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62562,7 +64902,6 @@ pg.furniture_data_template = {
 		describe = "很美味的样子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62573,6 +64912,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62626,7 +64968,6 @@ pg.furniture_data_template = {
 		describe = "要注意防火哦？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62637,6 +64978,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62690,7 +65034,6 @@ pg.furniture_data_template = {
 		describe = "草丛里似乎有什么？！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62701,6 +65044,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62754,7 +65100,6 @@ pg.furniture_data_template = {
 		describe = "放满了各类书籍的书柜，乱翻的话一定会有人抓狂的。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62765,6 +65110,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62818,7 +65166,6 @@ pg.furniture_data_template = {
 		describe = "毛茸茸的小毯子，适合小动物（或者驱逐舰）睡觉。",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62829,6 +65176,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62882,7 +65232,6 @@ pg.furniture_data_template = {
 		describe = "进屋请换鞋。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62893,6 +65242,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -62946,7 +65298,6 @@ pg.furniture_data_template = {
 		describe = "哇哇哇！野猪大暴走，快按住它！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -62957,6 +65308,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63010,7 +65364,6 @@ pg.furniture_data_template = {
 		describe = "可以挂上许多可爱衣服的衣架。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63021,6 +65374,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63074,7 +65430,6 @@ pg.furniture_data_template = {
 		describe = "不可以乱丢枕头哦？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63097,6 +65452,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63151,7 +65509,6 @@ pg.furniture_data_template = {
 		describe = "如果房间的空间不够了，就用这把椅子吧。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63174,6 +65531,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63228,7 +65588,6 @@ pg.furniture_data_template = {
 		describe = "一起露营吧！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63264,6 +65623,9 @@ pg.furniture_data_template = {
 					"yezhu/zhangpengyz_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63318,7 +65680,6 @@ pg.furniture_data_template = {
 		describe = "适合两人一起吃饭的桌子",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63336,6 +65697,9 @@ pg.furniture_data_template = {
 				1,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63390,7 +65754,6 @@ pg.furniture_data_template = {
 		describe = "可以摆下一桌美食的餐桌",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63428,6 +65791,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63482,7 +65848,6 @@ pg.furniture_data_template = {
 		describe = "猪鼻子？不，这是爱心的图案！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63505,6 +65870,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -63559,7 +65927,6 @@ pg.furniture_data_template = {
 		describe = "新年伊始，要不要换个全新的造型呢？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63570,6 +65937,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63623,7 +65993,6 @@ pg.furniture_data_template = {
 		describe = "要注意荤素搭配哦？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63634,6 +66003,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63687,7 +66059,6 @@ pg.furniture_data_template = {
 		describe = "看上去就能感到喜庆气息的壁纸。",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63698,6 +66069,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63751,7 +66125,6 @@ pg.furniture_data_template = {
 		describe = "可以看到雪景的窗户——嗯？有什么正在接近？！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63762,6 +66135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63815,7 +66191,6 @@ pg.furniture_data_template = {
 		describe = "似乎能感受到一丝凛冽的风",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63826,6 +66201,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63879,7 +66257,6 @@ pg.furniture_data_template = {
 		describe = "可以看到朵朵白云",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63890,6 +66267,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -63943,7 +66323,6 @@ pg.furniture_data_template = {
 		describe = "唔…似乎够不到上面的书呢……",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -63954,6 +66333,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64007,7 +66389,6 @@ pg.furniture_data_template = {
 		describe = "画着节日风格纹路的红色墙纸，温暖而喜庆",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64015,6 +66396,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64068,7 +66452,6 @@ pg.furniture_data_template = {
 		describe = "精巧的嵌花木质地板，看起来制作难度不低",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64076,6 +66459,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64129,7 +66515,6 @@ pg.furniture_data_template = {
 		describe = "花瓶里的梅枝是真的，不要忘记浇水",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64140,6 +66525,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64193,7 +66581,6 @@ pg.furniture_data_template = {
 		describe = "可爱得让人甚至有些不忍心下口",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64204,6 +66591,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64257,7 +66647,6 @@ pg.furniture_data_template = {
 		describe = "一盘茶点一壶茶，又是一个闲适的午后～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64295,6 +66684,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -64349,7 +66741,6 @@ pg.furniture_data_template = {
 		describe = "舒适温暖的双人床，躺上去就不容易下来了",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64383,6 +66774,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -64437,7 +66831,6 @@ pg.furniture_data_template = {
 		describe = "每天一个硬币，一月一把硬币~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64448,6 +66841,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64501,7 +66897,6 @@ pg.furniture_data_template = {
 		describe = "精心编制的红色手工地毯，很有节庆的氛围",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64512,6 +66907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64565,7 +66963,6 @@ pg.furniture_data_template = {
 		describe = "精心编制的白底手工地毯，很有节庆的氛围",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64576,6 +66973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64629,7 +67029,6 @@ pg.furniture_data_template = {
 		describe = "快打开看看吧~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64640,6 +67039,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64693,7 +67095,6 @@ pg.furniture_data_template = {
 		describe = "放置了各种各样年货的柜子，家中必备",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64704,6 +67105,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64757,7 +67161,6 @@ pg.furniture_data_template = {
 		describe = "东煌风格的床头柜，看起来很贵的样子",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64768,6 +67171,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -64821,7 +67227,6 @@ pg.furniture_data_template = {
 		describe = "手工制作的布老虎，嗷~嗷~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64845,6 +67250,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/huzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -64899,7 +67307,6 @@ pg.furniture_data_template = {
 		describe = "小心不要泡太久了，会晕的哟",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64923,6 +67330,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/jiugangzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -64977,7 +67387,6 @@ pg.furniture_data_template = {
 		describe = "小孩子是不可以喝酒的哦！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -64988,6 +67397,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65041,7 +67453,6 @@ pg.furniture_data_template = {
 		describe = "东煌风格的屏风，上面的梅花刺绣是谁做的呢？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65052,6 +67463,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65105,7 +67519,6 @@ pg.furniture_data_template = {
 		describe = "来写一副春节对联吧~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65116,6 +67529,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65169,7 +67585,6 @@ pg.furniture_data_template = {
 		describe = "猪猪造型的糯米团子，猜一猜里面是什么馅的",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65180,6 +67595,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65233,7 +67651,6 @@ pg.furniture_data_template = {
 		describe = "节日风格的客厅小沙发",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65257,6 +67674,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi2zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65311,7 +67731,6 @@ pg.furniture_data_template = {
 		describe = "小猪和大家都喜欢的节日躺椅",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65335,6 +67754,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi3zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65389,7 +67811,6 @@ pg.furniture_data_template = {
 		describe = "可以坐两个人的长排沙发，小猪说坐起来很舒服",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65413,6 +67834,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi4zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65467,7 +67891,6 @@ pg.furniture_data_template = {
 		describe = "实木的椅子和软软的坐垫，靠背上的字是什么呢？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65490,6 +67913,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65544,7 +67970,6 @@ pg.furniture_data_template = {
 		describe = "招财进宝，恭喜发财~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65555,6 +67980,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65608,7 +68036,6 @@ pg.furniture_data_template = {
 		describe = "快来坐坐好~年夜饭要开饭咯！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65658,6 +68085,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65712,7 +68142,6 @@ pg.furniture_data_template = {
 		describe = "说不定…可以套在头上？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65736,6 +68165,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/zhuzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65790,7 +68222,6 @@ pg.furniture_data_template = {
 		describe = "似乎很软的坐垫，坐起来应该很舒服吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65813,6 +68244,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -65867,7 +68301,6 @@ pg.furniture_data_template = {
 		describe = "乍一看是普通的盆栽，其实这是摇钱树~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -65878,6 +68311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -65931,7 +68367,6 @@ pg.furniture_data_template = {
 		describe = "硕大的火锅，香味四溢，让人难以抑制食欲",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 39,
 		new = 1,
 		discount_time = "",
@@ -65941,6 +68376,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xiaozhuhuoguoB",
@@ -66051,7 +68489,6 @@ pg.furniture_data_template = {
 		describe = "小号的火锅，不过食材跟大火锅是一样的",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66062,6 +68499,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66115,7 +68555,6 @@ pg.furniture_data_template = {
 		describe = "发红包咯！快来看看你的手气吧！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66126,6 +68565,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66179,7 +68621,6 @@ pg.furniture_data_template = {
 		describe = "新鲜的水果摆放在篮子里，要多吃水果哦~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66190,6 +68631,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66243,7 +68687,6 @@ pg.furniture_data_template = {
 		describe = "透过红色薄纱看到的庭院，别有一番风韵",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66254,6 +68697,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66307,7 +68753,6 @@ pg.furniture_data_template = {
 		describe = "吉祥如意，喜迎新春",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66318,6 +68763,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66371,7 +68819,6 @@ pg.furniture_data_template = {
 		describe = "祈福吉祥的挂帘，应该一对一起挂才是",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66382,6 +68829,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66435,7 +68885,6 @@ pg.furniture_data_template = {
 		describe = "许愿如意的挂帘，应该一对一起挂才是",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66446,6 +68895,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66499,7 +68951,6 @@ pg.furniture_data_template = {
 		describe = "木雕镂空的窗户，从空隙中可以看到窗外",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66510,6 +68961,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66563,7 +69017,6 @@ pg.furniture_data_template = {
 		describe = "山水笔墨恢弘磅礴，不知道是出自哪位大家之手？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66574,6 +69027,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66627,7 +69083,6 @@ pg.furniture_data_template = {
 		describe = "可以看到窗外的庭院，怡人的风也能吹进室内",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -66638,6 +69093,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66691,7 +69149,6 @@ pg.furniture_data_template = {
 		describe = "没法听到呐喊后的回声是唯一的遗憾了吧～",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -66699,6 +69156,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66752,7 +69212,6 @@ pg.furniture_data_template = {
 		describe = "一起来踩雪吧！",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -66760,6 +69219,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66813,7 +69275,6 @@ pg.furniture_data_template = {
 		describe = "虽然是冰做的，里面却还是很温暖，为什么呢……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -66824,6 +69285,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66877,7 +69341,6 @@ pg.furniture_data_template = {
 		describe = "点缀白雪世界的一抹绿～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -66888,6 +69351,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -66941,7 +69407,6 @@ pg.furniture_data_template = {
 		describe = "无论是用来烤红薯还是取暖都很好用哦~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -66952,6 +69417,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67005,7 +69473,6 @@ pg.furniture_data_template = {
 		describe = "果然雪山就应该搭配温泉呢～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67029,6 +69496,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/chixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -67083,7 +69553,6 @@ pg.furniture_data_template = {
 		describe = "小小的灯火，照亮你我的笑颜～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67094,6 +69563,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67147,7 +69619,6 @@ pg.furniture_data_template = {
 		describe = "经过雕琢的冰块就成了装饰品，坐上去合个影吧~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67170,6 +69641,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -67224,7 +69698,6 @@ pg.furniture_data_template = {
 		describe = "烤红薯是童年回忆的味道",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67235,6 +69708,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67288,7 +69764,6 @@ pg.furniture_data_template = {
 		describe = "可爱的小海豹…可爱…大概",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67299,6 +69774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67352,7 +69830,6 @@ pg.furniture_data_template = {
 		describe = "在雪地里睡着…会死的哦？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67363,6 +69840,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67416,7 +69896,6 @@ pg.furniture_data_template = {
 		describe = "打碎冰块就可以垂钓了！但是小心不要掉下去哦？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67427,6 +69906,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67480,7 +69962,6 @@ pg.furniture_data_template = {
 		describe = "前方危险，不要轻易靠近哦？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67491,6 +69972,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67544,7 +70028,6 @@ pg.furniture_data_template = {
 		describe = "残留着积雪的木板路，小心滑倒哟",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67555,6 +70038,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67608,7 +70094,6 @@ pg.furniture_data_template = {
 		describe = "咦？企鹅…玩偶？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67619,6 +70104,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67672,7 +70160,6 @@ pg.furniture_data_template = {
 		describe = "打雪仗还是堆雪人呢？当然是两个都要！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67683,6 +70170,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67736,7 +70226,6 @@ pg.furniture_data_template = {
 		describe = "如果撞到了大概会很疼吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67747,6 +70236,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67800,7 +70292,6 @@ pg.furniture_data_template = {
 		describe = "白雪中的另一抹绿",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67811,6 +70302,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -67864,7 +70358,6 @@ pg.furniture_data_template = {
 		describe = "咦……？这种地方会有…北极熊吗？",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67887,6 +70380,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -67941,7 +70437,6 @@ pg.furniture_data_template = {
 		describe = "保暖又轻巧，而且最重要的是可以防止跌倒~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -67952,6 +70447,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68005,7 +70503,6 @@ pg.furniture_data_template = {
 		describe = "这是…悬疑案件的预感！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68016,6 +70513,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68069,7 +70569,6 @@ pg.furniture_data_template = {
 		describe = "滑雪累了就坐下来休息下吧？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68093,6 +70592,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/yizixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -68147,7 +70649,6 @@ pg.furniture_data_template = {
 		describe = "打雪仗时候的绝佳掩体，嘿~看我的！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68158,6 +70659,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68211,7 +70715,6 @@ pg.furniture_data_template = {
 		describe = "不可以随便翻过去哦？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68222,6 +70725,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68275,7 +70781,6 @@ pg.furniture_data_template = {
 		describe = "在温暖的帐篷里小睡，仿佛窗外的风雪都变得温柔起来。",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68299,6 +70804,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/zhangpengxd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -68353,7 +70861,6 @@ pg.furniture_data_template = {
 		describe = "前进！前进！不要停下来～",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68364,6 +70871,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xueqiaoB",
@@ -68461,7 +70971,6 @@ pg.furniture_data_template = {
 		describe = "在缆车上乱动的话，会掉下去的哟？",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -68472,6 +70981,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"lancheB",
@@ -68569,7 +71081,6 @@ pg.furniture_data_template = {
 		describe = "远处高高的过山车轨道传来了一阵阵的尖叫声，可怕>-<",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68577,6 +71088,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68630,7 +71144,6 @@ pg.furniture_data_template = {
 		describe = "精心打磨的地砖，不能让客人伤到",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68638,6 +71151,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68691,7 +71207,6 @@ pg.furniture_data_template = {
 		describe = "请诸位游客仔细观察公告板，合理安排行程！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68702,6 +71217,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -68755,7 +71273,6 @@ pg.furniture_data_template = {
 		describe = "绿色清柠旋转杯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68779,6 +71296,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei1vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -68833,7 +71353,6 @@ pg.furniture_data_template = {
 		describe = "红色草莓旋转杯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68857,6 +71376,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei2vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -68911,7 +71433,6 @@ pg.furniture_data_template = {
 		describe = "紫色葡萄旋转杯",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -68935,6 +71456,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei3vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -68989,7 +71513,6 @@ pg.furniture_data_template = {
 		describe = "海盗主题洞窟，欢迎探险！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69000,6 +71523,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69053,7 +71579,6 @@ pg.furniture_data_template = {
 		describe = "哪位勇敢的人能登顶帆船呢！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69077,6 +71602,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/haidaochuanvt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69131,7 +71659,6 @@ pg.furniture_data_template = {
 		describe = "精心修剪的爱心状园艺",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69142,6 +71669,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69195,7 +71725,6 @@ pg.furniture_data_template = {
 		describe = "请不要偷偷摘下来哦",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69206,6 +71735,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69259,7 +71791,6 @@ pg.furniture_data_template = {
 		describe = "客人要不要来一个棉花糖呢？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69295,6 +71826,9 @@ pg.furniture_data_template = {
 					"valentine/miahuatangchevt_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69349,7 +71883,6 @@ pg.furniture_data_template = {
 		describe = "启动！加速！砰！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69385,6 +71918,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/pengpengchevt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69439,7 +71975,6 @@ pg.furniture_data_template = {
 		describe = "乐园中著名的蛮啾气球喷泉",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69450,6 +71985,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69503,7 +72041,6 @@ pg.furniture_data_template = {
 		describe = "香喷喷的热狗！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69514,6 +72051,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69567,7 +72107,6 @@ pg.furniture_data_template = {
 		describe = "严禁圣地亚哥靠近此树！",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69578,6 +72117,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -69631,7 +72173,6 @@ pg.furniture_data_template = {
 		describe = "冰淇凌小屋一日员工招募中",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69655,6 +72196,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuegaovt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69709,7 +72253,6 @@ pg.furniture_data_template = {
 		describe = "逛累了不如来休息下吧",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69745,6 +72288,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/yizivt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69799,7 +72345,6 @@ pg.furniture_data_template = {
 		describe = "好像这个设施断电了TAT",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69835,6 +72380,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuanzhuanmumavt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -69889,7 +72437,6 @@ pg.furniture_data_template = {
 		describe = "地面好挤，去空中飞呀飞！",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -69900,6 +72447,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"reqiqiuB",
@@ -69995,7 +72545,6 @@ pg.furniture_data_template = {
 		describe = "古色古香的墙纸，有着木色的纹路。能让人感到放松~",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70003,6 +72552,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70056,7 +72608,6 @@ pg.furniture_data_template = {
 		describe = "传统的木质地板，踩上去应该挺舒服的～",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70064,6 +72615,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70117,7 +72671,6 @@ pg.furniture_data_template = {
 		describe = "泡菜造型的床，实际上可不能吃哦",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70140,6 +72693,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -70194,7 +72750,6 @@ pg.furniture_data_template = {
 		describe = "乘风破浪，勇往直前～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70230,6 +72785,9 @@ pg.furniture_data_template = {
 				},
 				"korea/chuanko_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -70284,7 +72842,6 @@ pg.furniture_data_template = {
 		describe = "传统的木质板凳，坐在上面仿佛回到过去～",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70307,6 +72864,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -70361,7 +72921,6 @@ pg.furniture_data_template = {
 		describe = "刚刚做好的拌饭，散发着蔬菜和米饭的香味，大快朵颐的时间到了~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70385,6 +72944,9 @@ pg.furniture_data_template = {
 				},
 				"korea/fanko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -70439,7 +73001,6 @@ pg.furniture_data_template = {
 		describe = "来享受最高级的美味吧～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70450,6 +73011,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70503,7 +73067,6 @@ pg.furniture_data_template = {
 		describe = "再等等哦，多腌制一会更加美味呢～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70514,6 +73077,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70567,7 +73133,6 @@ pg.furniture_data_template = {
 		describe = "简约大气的木质屏风，作为装饰品来说还有优秀的实用性哦~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70578,6 +73143,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70631,7 +73199,6 @@ pg.furniture_data_template = {
 		describe = "礼乐专用的大鼓，我来敲敲看，咚~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70642,6 +73209,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70695,7 +73265,6 @@ pg.furniture_data_template = {
 		describe = "咕嘟咕嘟咕嘟——哈～果然啤酒还是要大口喝才行呢～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70719,6 +73288,9 @@ pg.furniture_data_template = {
 				},
 				"korea/jiuko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -70773,7 +73345,6 @@ pg.furniture_data_template = {
 		describe = "烤肉的规则就是……先到先得！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70784,6 +73355,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70837,7 +73411,6 @@ pg.furniture_data_template = {
 		describe = "来自东方的神秘药材，不知道有没有美容的功效呢~？",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70848,6 +73421,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70901,7 +73477,6 @@ pg.furniture_data_template = {
 		describe = "美味的传统食物之一，真的很美味的哟～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70912,6 +73487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -70965,7 +73543,6 @@ pg.furniture_data_template = {
 		describe = "要是能发光就更好了呢～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -70976,6 +73553,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71029,7 +73609,6 @@ pg.furniture_data_template = {
 		describe = "浓香可口的酱汤只要尝一口就会有温暖幸福的感觉~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71053,6 +73632,9 @@ pg.furniture_data_template = {
 				},
 				"korea/tangko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71107,7 +73689,6 @@ pg.furniture_data_template = {
 		describe = "清新爽口的葡萄汁，在罐底好像还有果肉的样子~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71118,6 +73699,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71171,7 +73755,6 @@ pg.furniture_data_template = {
 		describe = "罐装的橙汁，受到所有人的好评，当然也有果肉哦~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71182,6 +73765,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71235,7 +73821,6 @@ pg.furniture_data_template = {
 		describe = "随时都能立刻享用的美味炸鸡～",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71246,6 +73831,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71299,7 +73887,6 @@ pg.furniture_data_template = {
 		describe = "一边喝茶，一边闲聊一番家常吧～？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71310,6 +73897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71363,7 +73953,6 @@ pg.furniture_data_template = {
 		describe = "传统的游戏桌～",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71401,6 +73990,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71455,7 +74047,6 @@ pg.furniture_data_template = {
 		describe = "是桌子一样的鼓，还是鼓一样的桌子？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71485,6 +74076,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71539,7 +74133,6 @@ pg.furniture_data_template = {
 		describe = "是凳子一样的鼓，还是鼓一样的凳子？",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71562,6 +74155,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71616,7 +74212,6 @@ pg.furniture_data_template = {
 		describe = "填充了优质棉花，就算怎么拍都不会扁下去呢。",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71639,6 +74234,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71693,7 +74291,6 @@ pg.furniture_data_template = {
 		describe = "用来玩游戏的道具，要用一些技巧才能扔好~哎咻！",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71716,6 +74313,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -71770,7 +74370,6 @@ pg.furniture_data_template = {
 		describe = "虽然是木质的，但是十分坚固而美观~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71781,6 +74380,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71834,7 +74436,6 @@ pg.furniture_data_template = {
 		describe = "房间里必备的装饰品，花朵是对未来的祈愿~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71845,6 +74446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71898,7 +74502,6 @@ pg.furniture_data_template = {
 		describe = "有着花朵图案的装饰品，上面也有花朵的香味哦~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71909,6 +74512,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71962,7 +74568,6 @@ pg.furniture_data_template = {
 		describe = "简易而方便的推拉门，散发着古老木材的味道~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -71973,6 +74578,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -71991,6 +74599,2578 @@ pg.furniture_data_template = {
 					2019,
 					4,
 					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43001] = {
+		can_rotate = 0,
+		name = "虚拟壁纸",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/qiangbika",
+		canputon = 0,
+		discount = 0,
+		id = 43001,
+		comfortable = 4,
+		describe = "模仿绊爱的“白色空间”风格的壁纸",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43002] = {
+		can_rotate = 0,
+		name = "虚拟地板",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "KizunaAI/dibanka",
+		canputon = 0,
+		discount = 0,
+		id = 43002,
+		comfortable = 4,
+		describe = "模仿绊爱的“白色空间”风格的地板",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43101] = {
+		can_rotate = 1,
+		name = "画架",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/banka",
+		canputon = 0,
+		discount = 0,
+		id = 43101,
+		comfortable = 3,
+		describe = "绊爱自己制作的画架，能摆上自己喜欢的画",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43102] = {
+		can_rotate = 0,
+		name = "小食酒吧沙发",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "bataikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/bataika",
+		canputon = 0,
+		discount = 0,
+		id = 43102,
+		comfortable = 3,
+		describe = "很有《小食酒吧-爱》风格的沙发（附小桌）。推荐饮料是姜汁苏打",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-87,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					15,
+					77
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					104,
+					29
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43103] = {
+		can_rotate = 0,
+		name = "爱酱冰箱",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingxiangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/bingxiangka",
+		canputon = 0,
+		discount = 0,
+		id = 43103,
+		comfortable = 1,
+		describe = "由爱酱负责调节温度的超高性能冰箱",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43104] = {
+		can_rotate = 0,
+		name = "AI睡床",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chuangka",
+		canputon = 0,
+		discount = 0,
+		id = 43104,
+		comfortable = 3,
+		describe = "搭载了超级智能AI的睡床，让你享受由AI带来的完美睡眠！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.9,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					79.1,
+					15.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43105] = {
+		can_rotate = 0,
+		name = "AI系统厨房",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chufangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chufangka",
+		canputon = 0,
+		discount = 0,
+		id = 43105,
+		comfortable = 3,
+		describe = "搭载了天才AI，使用十分方便的系统厨房。只要安装了菜单，什么料理都能搞定…应该",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43106] = {
+		can_rotate = 0,
+		name = "爱酱矮凳",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi2kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43106,
+		comfortable = 2,
+		describe = "又轻又结实的小凳子！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43107] = {
+		can_rotate = 0,
+		name = "爱酱椅子",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi3kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi3ka",
+		canputon = 0,
+		discount = 0,
+		id = 43107,
+		comfortable = 2,
+		describe = "没有靠背？这样才能保持更好的坐姿嘛！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43108] = {
+		can_rotate = 0,
+		name = "心形坐凳",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzika",
+		canputon = 0,
+		discount = 0,
+		id = 43108,
+		comfortable = 2,
+		describe = "坐上去其实非常柔软的坐垫",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43109] = {
+		can_rotate = 1,
+		name = "4K爱酱电视组合",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "dianshikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43109,
+		comfortable = 4,
+		describe = "曲面屏带来更加震撼人心的沉浸感！想要入手就趁现在了！",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ai_tv",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43110] = {
+		can_rotate = 0,
+		name = "晃悠悠地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/ditan2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43110,
+		comfortable = 2,
+		describe = "印着“晃悠悠”造型的地毯",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43111] = {
+		can_rotate = 1,
+		name = "AI地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/ditanka",
+		canputon = 0,
+		discount = 0,
+		id = 43111,
+		comfortable = 1,
+		describe = "超级智能AI风格的地毯",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43112] = {
+		can_rotate = 0,
+		name = "随机单词生成器",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/jika",
+		canputon = 0,
+		discount = 0,
+		id = 43112,
+		comfortable = 3,
+		describe = "以和绊爱一起穿越到这个世界的神秘箱子为原型设计的装置。能自动生成各种各样的单词。原型要更厉害哦！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-3,
+					-37
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/jika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43113] = {
+		can_rotate = 0,
+		name = "AI酒柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/jiuguika",
+		canputon = 0,
+		discount = 0,
+		id = 43113,
+		comfortable = 2,
+		describe = "很有《小食酒吧-爱》风格的酒柜——啊，要成年了才能饮酒哦！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43114] = {
+		can_rotate = 0,
+		name = "小猫",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "maokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/maoka",
+		canputon = 0,
+		discount = 0,
+		id = 43114,
+		comfortable = 2,
+		describe = "普通的猫。既不是曼基康，也不是鹦鹉，更不是咯叽咯叽鸟",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43115] = {
+		can_rotate = 0,
+		name = "AI培养槽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "peiyangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/peiyangka",
+		canputon = 0,
+		discount = 0,
+		id = 43115,
+		comfortable = 4,
+		describe = "搭载了超级AI的培养槽。呆在里面没准可以比平时更快的恢复健康",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-3,
+					-109
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/peiyangka_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43116] = {
+		can_rotate = 0,
+		name = "虚拟盆栽",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penzaikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/penzaika",
+		canputon = 0,
+		discount = 0,
+		id = 43116,
+		comfortable = 2,
+		describe = "爱心造型的虚拟盆栽——因为是虚拟盆栽所以什么形状都能摆啦！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43117] = {
+		can_rotate = 0,
+		name = "爱酱L型沙发",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafakaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/shafaka",
+		canputon = 0,
+		discount = 0,
+		id = 43117,
+		comfortable = 3,
+		describe = "绊爱构想的多功能沙发。各处设有能存放物品的机关，最大限度利用空间",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-34,
+					79
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43118] = {
+		can_rotate = 0,
+		name = "AI衣柜",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yiguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yiguika",
+		canputon = 0,
+		discount = 0,
+		id = 43118,
+		comfortable = 2,
+		describe = "收集了用来cos绊爱的各样衣服和装饰品的衣柜。——有了它你也是超级AI啦！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43119] = {
+		can_rotate = 0,
+		name = "爱酱沙发",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yizika",
+		canputon = 0,
+		discount = 0,
+		id = 43119,
+		comfortable = 2,
+		describe = "并没有什么特别的虚拟要素（咦？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-99,
+					39
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-38,
+					6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					16,
+					-21
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43120] = {
+		can_rotate = 0,
+		name = "AI浴池",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yugangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/yugangka",
+		canputon = 0,
+		discount = 0,
+		id = 43120,
+		comfortable = 3,
+		describe = "浴池（附带透明液晶显示屏），洗澡的时候也要看爱酱的动画哦！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					22,
+					-12
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/yugang_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43121] = {
+		can_rotate = 0,
+		name = "AI办公桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuo2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuo2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43121,
+		comfortable = 2,
+		describe = "看起来很有工作氛围的电脑桌，非常适合用来编辑动画，大概",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43122] = {
+		can_rotate = 0,
+		name = "AI圆桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuoka",
+		canputon = 1,
+		discount = 0,
+		id = 43122,
+		comfortable = 2,
+		describe = "大家围着桌子聊天马上就能打成一片呢！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {
+			0,
+			-5.23
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43123] = {
+		can_rotate = 1,
+		name = "AI舞台",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "wutaikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43123,
+		comfortable = 4,
+		describe = "为了爱酱在港区举办演唱会而准备的舞台。后面的心形屏幕可以实现各种演出效果",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ai_Stage",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				63,
+				-107
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43201] = {
+		can_rotate = 0,
+		name = "AI荧光棒",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "bangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 4,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/bangka",
+		canputon = 0,
+		discount = 0,
+		id = 43201,
+		comfortable = 1,
+		describe = "爱酱演唱会专用荧光棒，让我看到你们的手！",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43202] = {
+		can_rotate = 0,
+		name = "AI手柄",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "shoubingkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/shoubingka",
+		canputon = 0,
+		discount = 0,
+		id = 43202,
+		comfortable = 1,
+		describe = "搭载了超级AI的游戏手柄，再怎么手残的玩家都能变成游戏高手！（预订",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43205] = {
+		can_rotate = 0,
+		name = "AI抱枕",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "baozhengkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		picture = "KizunaAI/baozhengka",
+		canputon = 0,
+		discount = 0,
+		id = 43205,
+		comfortable = 3,
+		describe = "爱酱造型的大抱枕（短发的玩家外型版",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43301] = {
+		can_rotate = 0,
+		name = "AI演唱会海报",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "KizunaAI/huaka",
+		canputon = 0,
+		discount = 0,
+		id = 43301,
+		comfortable = 2,
+		describe = "似乎是爱酱的初次演唱会使用的宣传海报——Hello world！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43302] = {
+		can_rotate = 0,
+		name = "AI衣架",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazi2kaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/jiazi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43302,
+		comfortable = 3,
+		describe = "爱酱的衣架，白衣和眼镜给人一种十分知性的感觉…大概",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43303] = {
+		can_rotate = 0,
+		name = "AI书架",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazikaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 1,
+		picture = "KizunaAI/jiazika",
+		canputon = 0,
+		discount = 0,
+		id = 43303,
+		comfortable = 1,
+		describe = "偶尔看看纸质的书也不错呢，很有“知性”的感觉！",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43304] = {
+		can_rotate = 0,
+		name = "AI任意门",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/menka",
+		canputon = 0,
+		discount = 0,
+		id = 43304,
+		comfortable = 3,
+		describe = "哆啦AI的秘密道具。不过前往的地点大多是环境恶劣的地方",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43305] = {
+		can_rotate = 0,
+		name = "虚拟屏幕",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "pingmukaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/pingmuka",
+		canputon = 0,
+		discount = 0,
+		id = 43305,
+		comfortable = 3,
+		describe = "搭载了最新的空间投影技术的虚拟屏幕——这下无论在哪里都能看爱酱的动画了呢！",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43306] = {
+		can_rotate = 0,
+		name = "心型壁架",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "shujiakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/shujiaka",
+		canputon = 0,
+		discount = 0,
+		id = 43306,
+		comfortable = 3,
+		describe = "摆满了游戏的壁架，都是爱酱为了实况而购买的游戏吗？",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43307] = {
+		can_rotate = 0,
+		name = "《Kizuna AI》墙贴",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "zikaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/zika",
+		canputon = 0,
+		discount = 0,
+		id = 43307,
+		comfortable = 3,
+		describe = "印着爱酱名字的墙贴。——“爱酱，曾经是个好人啊……”“爱酱还好好活着呢？！”",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
 				},
 				{
 					23,
@@ -72054,11 +77234,13 @@ pg.furniture_data_template = {
 		140,
 		141,
 		142,
+		143,
 		100001,
 		100002,
 		100003,
 		100004,
 		100005,
+		100006,
 		1001,
 		1002,
 		1101,
@@ -73178,7 +78360,42 @@ pg.furniture_data_template = {
 		42301,
 		42302,
 		42303,
-		42304
+		42304,
+		43001,
+		43002,
+		43101,
+		43102,
+		43103,
+		43104,
+		43105,
+		43106,
+		43107,
+		43108,
+		43109,
+		43110,
+		43111,
+		43112,
+		43113,
+		43114,
+		43115,
+		43116,
+		43117,
+		43118,
+		43119,
+		43120,
+		43121,
+		43122,
+		43123,
+		43201,
+		43202,
+		43205,
+		43301,
+		43302,
+		43303,
+		43304,
+		43305,
+		43306,
+		43307
 	}
 }
 

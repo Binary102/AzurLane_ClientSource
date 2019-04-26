@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "锵锵！",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "这就是今天要展示的“超级南瓜灯”吗？",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900144,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			say = "顺便一提，里面的东西吾辈已经全部做成派了！",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:87}",
@@ -176,7 +176,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900141,
+					actor = 306051,
 					pos = {
 						x = 687
 					}
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "唔…有点麻烦了啊，晚上的派对马上就要开始了…",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "南瓜的嘴巴那里…好像有个东西",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "“万圣节派对中混进了一个迷路的幽灵，要集三位善良的魔女之力才能将其送回家”？",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "这是什么意思？",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:19}",
@@ -287,7 +287,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 687
 					}
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "哼哼，这时候！就轮到热心的兔兔星魔女登场了！",
 			effects = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900142,
+			actor = 102091,
 			nameColor = "#a9f548",
 			say = "哇，魔女真的出现啦！",
 			effects = {
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "就让来自兔兔星的魔女贝利来帮忙吧！",
 			typewriter = {
@@ -380,18 +380,18 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900143,
+			actor = 301051,
 			nameColor = "#a9f548",
 			say = "哦哦哦——",
 			subActors = {
 				{
-					actor = 900144,
+					actor = 301171,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900142,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = 750

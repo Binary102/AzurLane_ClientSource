@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			say = "不过这样一来，也算是…帮上大家的忙了吧……",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 103061,
+			actor = 103060,
 			nameColor = "#a9f548",
 			say = "赢了……吗？",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "{namecode:90}最后…还是输掉了吗…",
 			flashout = {
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -210,7 +210,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -243,7 +243,7 @@ return {
 			side = 0,
 			dir = 1,
 			bgm = "battle-boss-2",
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "等等，姐姐！{namecode:39}那边传来情报，她带领的舰队突然遇袭，运输计划受阻！",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

@@ -19,14 +19,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:87}&{namecode:19}",
-			actor = 900036,
+			actor = 301171,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Trick or treat！",
 			subActors = {
 				{
-					actor = 900038,
+					actor = 306051,
 					dir = -1,
 					pos = {
 						x = -750
@@ -42,14 +42,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:6}&克利夫兰",
-			actor = 900037,
+			actor = 301051,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Trick or treat！",
 			subActors = {
 				{
-					actor = 900035,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = -750
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "吾们走啦~",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "呀——南瓜灯都飘起来了？是、是幽灵吗——！",
 			flashout = {
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -333,7 +333,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			say = "南瓜灯都飞到天空中了……{namecode:96}也不见了！",
 			flashout = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "翔——White姐，我本来也想像你那样缝几套衣服，可是动手后发现缝衣服好难……所以，先勉强用这个吧",
 			flashout = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307054,
+			actor = 307050,
 			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
@@ -445,7 +445,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "咳咳，我是gold，她是gray。总、总之，现在我们不是“大人”而是“孩子”，所以在万圣夜大闹一番也完全没问题！",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "我是输给了瑞……gold，所以来帮她忙——",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "喂，你难道一点不甘心都没有吗！",
 			typewriter = {
@@ -499,7 +499,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "好好好，那么长不大的孩子们就尽情恶作剧吧，我会用南瓜灯配合你们的",
 			typewriter = {
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "哼哼，毕竟“我”可比你小不少，gray",
 			typewriter = {

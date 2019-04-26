@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.isStart(slot0)
-	return slot0.state == slot0.STATE_STARTING or slot0.STATE_FINISHED == slot0.state
+	return slot0.state == slot0.STATE_STARTING or slot0.state == slot0.STATE_FINISHED
 end
 
 function slot0.isStarting(slot0)
@@ -48,7 +48,7 @@ function slot0.isFinished(slot0)
 	end
 end
 
-function slot0.gteState(slot0)
+function slot0.getState(slot0)
 	return slot0.state
 end
 

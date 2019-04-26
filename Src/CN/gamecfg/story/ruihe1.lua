@@ -52,7 +52,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "呼…哈啊…咕…Zzzzzzz",
 			flashout = {
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "如您所见…指挥官，非常抱歉……",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "不知道是不是昨晚特训太拼命了…明明平常都比我早起得多",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "好啦{namecode:96}，快起床，指挥官来了哦？",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_room",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "哎呀呀……姐姐帮你整理，快去洗漱一下吧",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "…指挥官在等着你哦？呵呵",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

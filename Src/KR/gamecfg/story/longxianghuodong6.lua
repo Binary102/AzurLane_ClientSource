@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = -1,
-			actor = 305061,
+			actor = 305060,
 			nameColor = "#a9f548",
 			say = "어째서 무츠도 같은 전함인데 히에이랑 키리시마보다 발이 느린 거야?",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -87,7 +87,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 103061,
+			actor = 103060,
 			nameColor = "#a9f548",
 			say = "……인디만큼은 아니지만 훌륭한 여동생인 거 같아!",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 103061,
+			actor = 103060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 102061,
+			actor = 102060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,

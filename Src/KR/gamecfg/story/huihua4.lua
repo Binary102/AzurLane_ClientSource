@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "요리 콘테스트는 내일 개최되고……아, 회장 준비가 벌써 다 됐나~",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "이 길로 가면 해변인데. 팻말에 뭐라 쓰인 거야…? 「우리의 여름은 아직 끝나지 않았다! 당신의 수영복 함선소녀에게 투표하세요!」",
 			flashout = {
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "함대에 착임한지 얼마 안 됐는데 잘 알고 있군요.",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "다이호도 방 안에 틀어박혀만 있으면 재미없잖아?",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "(손수 만든 드레스를 입고 지휘관님과 파티에 참가하고, 함께 멋진 밤을 보내는 게 바로 목적이지만 말이죠…)",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			say = "……무슨 소리지?",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "에취! ……누가 내 얘기 하나……",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "어~이! 여기 여기!",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 900123,
+			actor = 408011,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "잠깐 기다려~ 이거 들고선 잘 못 뛰겠다고오~~",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "후부키가 들고 있는 건 뭐야?",
 			flashout = {
@@ -309,7 +309,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "(교향악단…오케스트라…후후후, 나쁘지 않군요, 다이호와 지휘관님의 등장에 최고의 음악이 울려퍼질테니…)",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "엥? 후부키, 튜바 불 줄 알아?",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "못 불지!",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "…가 아니지, 지금은 연습 중이야! 그런 눈으로 보지 말라고!",
 			typewriter = {
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "으, 으응……맞다! 모항제일 무술대회의 결승이 슬슬 시작될 거야! 다들 빨리 보러 가자!",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "칫, 사랑하는 지휘관님을 매혹시킬 드레스 제작을 방해하는 걸로 모자라, 게다가 자꾸 여기저기 딴 길로 새기나 하고……자, 잠깐 기다려!",
 			typewriter = {
@@ -452,7 +452,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900112,
+			actor = 301013,
 			dir = -1,
 			hideOther = true,
 			actorName = "U81&{namecode:2}",
@@ -460,7 +460,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 900123,
+					actor = 408011,
 					pos = {
 						x = -687
 					}
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			say = "시합 종료!! 이야~ 역시 여기까지 승승장구하던 즈이카쿠도, 마지막 경기에선 영원한 라이벌 엔터프라이즈에 한 발 차이로 지고 말았군요~!!",
 			flashout = {
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "굉장한 박수 소리야……역시 늦었나보네……",
 			typewriter = {
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "지휘관님……칫, 역시 계시지 않았군요… 냄새도 발자국도 ●●도 찾을 수 없었던 시점부터 계시진 않았을 거라 생각했었지만……",
 			typewriter = {
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 900112,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "뿌우~!! 뿌~!! 응응! 승리의 행진곡, 느낌 좋고!",
 			typewriter = {
@@ -561,7 +561,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "으윽……후부키가 계속 튜바를 불어서 누가 이겼다는지 못 들었어……",
 			typewriter = {
@@ -578,7 +578,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 900123,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "응…? 저기 있는 건…에식스?",
 			typewriter = {

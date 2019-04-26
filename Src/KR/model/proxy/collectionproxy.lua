@@ -122,8 +122,6 @@ function slot0.flushCollection(slot0, slot1)
 
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then
 			slot3 = true
-
-			pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot1.groupId].pt_get, pg.fleet_tech_ship_template[slot1.groupId].add_get_shiptype, pg.fleet_tech_ship_template[slot1.groupId].add_get_attr, pg.fleet_tech_ship_template[slot1.groupId].add_get_value)
 		end
 	else
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then

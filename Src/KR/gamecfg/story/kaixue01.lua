@@ -38,7 +38,7 @@ return {
 			actorName = "{namecode:2}",
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 900080,
+			actor = 301011,
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "story-1",
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "우으으… 동생들은 왜 다 날 깨우지 않은거야아아!",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "음… 불량학생이라면 역시 당당하게 땡땡이… 겠지?",
 			effects = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "아니야, 역시 안 되겠지… 언니가 또 화낼 거야.",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "하, 하지만 언니가 선도부장이라면, 이쪽은 불량학생에 걸맞아야겠지…암!",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "어라?",
 			flashout = {
@@ -239,7 +239,7 @@ return {
 		{
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 900082,
+			actor = 307041,
 			dir = 1,
 			actorName = "{namecode:2}&{namecode:94}",
 			hideOther = true,
@@ -267,7 +267,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "쾅! 누구야! 눈을 대체 어디 두고... 다니는 거야!",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "후부키였군요! 뭐가 그렇게 급한 겁니까?",
 			typewriter = {
@@ -350,7 +350,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "곧 지각하겠다구요! 그나저나 히류씨?! 그 모습은…",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "혹시 부...불량학생인 겁니까!",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "후훗, 어떻습니까! 꽤 불량학생처럼 보이지 않습니까? 이걸로 언니도…",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "히~류우우~~!",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "우왓! 언니?!",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "묘코씨로 부터 부탁받은 일일 선도부원으로서, 아무리 동생이라도... 아니, 동생이니까 더 갱생시켜주도록 하겠어!",
 			typewriter = {
@@ -453,12 +453,12 @@ return {
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			dir = 1,
-			actor = 900082,
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "그런…",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301011,
 					pos = {
 						x = 750
 					}
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "음? 왜 후부키도 여기 있는 거야?",
 			typewriter = {
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "벌써 시간이... 어, 어쨌든 학교에 빨리 가야 해, 지각하겠어!",
 			typewriter = {
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "히류! 이따 야단맞을 준비해!",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900082,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "네…",
 			typewriter = {

@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900142,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "짜잔~!",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900141,
+			actor = 306050,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "이게 오늘 전시할 '슈퍼 펌프킨 라이트' 인가요?",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102090,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900144,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			say = "참고로, 이 몸이 남은 내용물로는 호박파이를 만들었네!",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301050,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:87}",
@@ -176,7 +176,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900141,
+					actor = 306050,
 					pos = {
 						x = 687
 					}
@@ -196,7 +196,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306050,
 			actorName = "{namecode:87}",
 			say = "귀찮아져뿟네… 핼러윈 파티 곧 시작한다카이…",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900143,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "호박의 입에…뭔가 있는 것 같아요.",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			actor = 900142,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306050,
 			actorName = "{namecode:87}",
 			say = "\"길 잃은 유령이 무서워하고 있으니 라이트를 껐다. 3인의 선한 마녀가 힘을 합쳐 집까지 데려가 주길 바란다\"…뭐고 이거?",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900141,
+			actor = 306050,
 			actorName = "{namecode:87}",
 			say = "뭐야 이거?",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900143,
+			actor = 301050,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:19}",
@@ -287,7 +287,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 900144,
+					actor = 301170,
 					pos = {
 						x = 687
 					}
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "토끼토끼별에서 온 어둠의 마녀 베일리, 화려하게 등장!",
 			effects = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 900142,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "오오! 때마침 마녀가 등장해주다니! 이것 좀 부탁할 수 있을까……",
 			effects = {
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "좋아! 이 토끼토끼 마녀 베일리에게 맡겨줘!",
 			typewriter = {
@@ -380,18 +380,18 @@ return {
 			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actor = 900143,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "오오오!",
 			subActors = {
 				{
-					actor = 900144,
+					actor = 301170,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900142,
+					actor = 102090,
 					dir = -1,
 					pos = {
 						x = 750

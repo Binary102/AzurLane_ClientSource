@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 101174,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 201214,
+			actor = 201210,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 301054,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -83,19 +83,19 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "세 함선 소녀",
-			actor = 101174,
+			actor = 101170,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "(모두 다 함께) \"가르쳐주세요! Z23 선생님!!!\"",
 			subActors = {
 				{
-					actor = 201214,
+					actor = 201210,
 					pos = {
 						x = 750
 					}
 				},
 				{
-					actor = 301054,
+					actor = 301050,
 					pos = {
 						x = 400
 					}
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900052,
+			actor = 401231,
 			nameColor = "#a9f548",
 			say = "여기가 포인트입니다! 잘 메모해두지 않으면 Z23 선생님이 벌을 내려줄 거에요!",
 			flashout = {

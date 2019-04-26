@@ -3109,6 +3109,10 @@ pg.gametip = {
 		tip = "지휘관 <color=#A9F548>Lv.$1</color> 달성 시 개방됩니다.",
 		key = "levelScene_chapter_level_limit"
 	},
+	levelScene_chapter_count_tip = {
+		tip = "오늘 횟수 : ",
+		key = "levelScene_chapter_count_tip"
+	},
 	levelScene_tracking_error_retry = {
 		tip = "출격 중에 에러가 발생했습니다.",
 		key = "levelScene_tracking_error_retry"
@@ -3920,6 +3924,10 @@ pg.gametip = {
 	word_shipNation_um = {
 		tip = "칭송받는 자",
 		key = "word_shipNation_um"
+	},
+	word_shipNation_ai = {
+		tip = "키즈나 아이 ",
+		key = "word_shipNation_ai"
 	},
 	word_reset = {
 		tip = "초기화",
@@ -4848,7 +4856,10 @@ pg.gametip = {
 						<color=#60a9ff>          Rare</color>：$4%
 						          Normal：$5% 
 
-									]],
+									【한정건조】
+							<color=#966af6>꼬마 히에이</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>꼬마 아카기</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#966af6>꼬마 그라프 체펠린</color>：2.5%<color=#A9F548>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4869,11 +4880,10 @@ pg.gametip = {
 									Normal：$5%
 
 									【한정건조】
-							<color=#fff157>장 바르</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>매사추세츠</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#966af6>됭케르크</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>쉬르쿠프</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>포르뱅</color>：5.0%<color=#A9F548>(up!)</color></size>]],
+							<color=#fff157>키즈나 아이 - 애니버서리</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>키즈나 아이 - 슈퍼 게이머</color>：2.0%<color=#A9F548>(up!)</color>
+							<color=#fff157>키즈나 아이 – 엘레강트</color>：0.5%</size>
+]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -7166,7 +7176,7 @@ pg.gametip = {
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>1.31-2.13</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>4.26-5.15</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7448,7 +7458,7 @@ pg.gametip = {
  · 제2기 스페셜 프로젝트 함선 추가에 따라, 과학 연구 항목에 
 「제2기」가 새롭게 추가되었습니다. 기존 연구 항목 「제1기」와
 「제2기」의 구분은 과학 연구 항목 왼쪽 위의 「Ⅰ」,「Ⅱ」마크로
- 확인할 수 있습니다. 
+확인할 수 있습니다. 
  · 또한, 연구 항목 일람 화면 오른쪽 아래의 「연구 지향」에서
 「제1기」「제2기」를 선택하면, 해당 연구 항목을 최소 2개씩 출현
 시킬 수 있습니다. 
@@ -7472,7 +7482,8 @@ pg.gametip = {
 3.연구 중지
  ·「연구 중지」를 터치하면 진행 중인 연구 항목을 중단할 수 
 있습니다. 
- · 연구를 중단하더라도 연구 개시 때 소비된 자원은 반환되지 않습니다. 
+ · 연구를 중단하더라도 연구 개시 때 소비된 자원은 반환되지
+않습니다. 
  · 연구를 중단하면, 「연구 완성 조건」의 진척도와 연구에 사용한 
 시간이 초기화됩니다. 
 
@@ -8994,6 +9005,10 @@ pg.gametip = {
 		tip = "스토리 <color=#A9F548>「$1」</color> 개방 성공!",
 		key = "map_event_memory_collected"
 	},
+	map_event_save_kizuna = {
+		tip = "<color=#A9F548>키즈나 아이</color>를 성공적으로 구조했습니다 ",
+		key = "map_event_save_kizuna"
+	},
 	five_choose_one = {
 		tip = "함께 크리스마스를 보낼 함선소녀는 1명만 초대할 수 있습니다.\n<color=#A9F548>$1</color>를 초대하시겠습니까?\n초대 후엔 해당 캐릭터와 답례를 획득할 수 있습니다.",
 		key = "five_choose_one"
@@ -9279,6 +9294,53 @@ pg.gametip = {
 		tip = "위험",
 		key = "ambush_display_6"
 	},
+	black_white_grid_notice = {
+		key = "black_white_grid_notice",
+		tip = {
+			{
+				info = "이벤트 설명: "
+			},
+			{
+				info = "1. 정화 버츄얼 공간에 총 5장의 게임 사진이 있습니다.\n이벤트 기강 동안 반복 플레이가 가능하지만 첫 4장의 사진은\n<color=#A9F548>처음</color> 정화완료할 때에만 보상을 획득하실 수 있습니다."
+			},
+			{
+				info = "2. 첫 4장의 게임 사진은 고정이며, 5번째 사진은 랜덤입니다."
+			},
+			{
+				info = "3. 게임 사진은 상응하는 이벤트 해역을 별 3개로 클리어해야지만\n해제할 수 있습니다."
+			},
+			{
+				info = "4. 우선 이전 장의 게임 사진을 완료해야 다음 장의 게임 사진을\n진행할 수 있습니다."
+			},
+			{
+				info = "5. 매 게임마다 지휘관 님에게 뒤집을 수 있는 기회가 3회\n부여됩니다."
+			},
+			{
+				info = "6. 게임 사진의 같은 칸을 두번 연속 클릭하여 뒤집을 수 있습니다."
+			},
+			{
+				info = [[
+7. 뒤집기 기능은 연속 클릭한 칸을 중심으로 주변에 있는
+<color=#A9F548>9칸</color>의 색이<color=#A9F548>반대 방향으로 돕니다</color>.
+(검은 칸은 하얀 칸으로 변경되며, 하얀 칸은 검은 칸으로
+변경됩니다)]]
+			},
+			{
+				info = "8. 3회 뒤집으면 결산이 진행됩니다."
+			},
+			{
+				info = "9.결산 중 게임 사진 위에 있는 검은 칸마다 <color=#A9F548>-1</color>점, 하얀 칸마다\n<color=#A9F548>+1</color>점이 부여됩니다.최종 점수가 <color=#A9F548>0보다 같거나 클 시</color> 정화에 성공한\n것이고 <color=#A9F548>0보다 작을 시</color> 정화에 실패한 것입니다. "
+			}
+		}
+	},
+	black_white_grid_reset = {
+		tip = "초기화하시겠습니까? ",
+		key = "black_white_grid_reset"
+	},
+	black_white_grid_switch_tip = {
+		tip = "이번 게임이 종료되지 않아 뒤집을 수 없습니다 ",
+		key = "black_white_grid_switch_tip"
+	},
 	no_way_to_escape = {
 		tip = "탈출할 수 있는 경로가 없습니다. ",
 		key = "no_way_to_escape"
@@ -9378,14 +9440,15 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 ※이른바 「모항의 함선들을 편애 없이 골고루 키우는 것」에
 혜택이 가는 시스템입니다. 
 
-함대 기술은 나아가「함대 기술」,「진영 기술」로 나눌 수 있습니다. 
+함대 기술은 나아가「함대 기술」,「진영 기술」로 나눌 수
+있습니다. 
 
 「함대 기술」에 대해
 
- 함대 기술이란, 함선을 육성함으로써 함대 전체에 강화 효과를 주는 
-시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 기술의 발전 순서
-(Tier)에 따라 함선의 수집 및 기술 습득 상황을 확인할 수 있습니다. 
-아래 조건을 달성하면, 대응되는 함선 강화 효과를 얻을 수 
+ 함대 기술이란, 함선을 육성함으로써 함대 전체에 강화 효과를
+주는 시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 기술의
+발전 순서(Tier)에 따라 함선의 수집 및 기술 습득 상황을 확인할 수
+있습니다. 아래 조건을 달성하면, 대응되는 함선 강화 효과를 얻을 수 
 있습니다. 
 ・함선을 도감에 등록한다
 ・함선의 레벨을 120으로 만든다.
@@ -9441,6 +9504,95 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	blueprint_simulation_confirm = {
 		tip = "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>",
 		key = "blueprint_simulation_confirm"
+	},
+	blueprint_simulation_confirm_19901 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+시제형 3연장 152mm 양용포 Mk17
+시제형 3연장 152mm 양용포 Mk17
+40mm 4연장 보포스 기관포
+</color></size>]],
+		key = "blueprint_simulation_confirm_19901"
+	},
+	blueprint_simulation_confirm_19902 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+시제형 457mm 연장포 MKA
+127mm 연장 양용포 MK12
+40mm 4연장 보포스 기관포
+</color></size>]],
+		key = "blueprint_simulation_confirm_19902"
+	},
+	blueprint_simulation_confirm_39903 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+98식 100mm 연장 고사포
+610mm 4연장 어뢰
+시제형 5식 40mm 고사기관포
+</color></size>]],
+		key = "blueprint_simulation_confirm_39903"
+	},
+	blueprint_simulation_confirm_39904 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+시제형 3연장 310mm 주포
+98식 100mm 연장 고사포
+시제형 5식 40mm 고사기관포
+</color></size>]],
+		key = "blueprint_simulation_confirm_39904"
+	},
+	blueprint_simulation_confirm_49902 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+시제형 406mm SKC 연장포
+시제형 406mm SKC 연장포
+105mm SKC 연장 고사포
+</color></size>]],
+		key = "blueprint_simulation_confirm_49902"
+	},
+	blueprint_simulation_confirm_99901 = {
+		tip = [[
+<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#A9F548>
+380mm 4연장포 Mle 1935
+152mm 3연장포 Mle 1930
+2연장 37mm 고사포 Mle1936
+</color></size>]],
+		key = "blueprint_simulation_confirm_99901"
+	},
+	electrotherapy_wanning = {
+		tip = "안전 구역의 범위가 제한됩니다. ",
+		key = "electrotherapy_wanning"
+	},
+	memorybook_get_award_tip = {
+		tip = "항구의 추억'을 모두 수집하면 '키즈나 아이 기념장'을 획득하실 수 있습니다 ",
+		key = "memorybook_get_award_tip"
+	},
+	memorybook_notice = {
+		key = "memorybook_notice",
+		tip = {
+			{
+				info = "이벤트 설명: "
+			},
+			{
+				info = "1. 이벤트 기간 동안 게임에 참여하여 '항구의 추억'을 수집합니다.\n24장의 추억을 모두 수집하면 한정 가구 '키즈나 아이 기념장'을\n획득하실 수 있습니다."
+			},
+			{
+				info = [[
+2. 아래 내용에 참여하면 '항구의 추억'을 수집하실 수 있습니다: 
+ 이벤트 해역 클리어, 일상편 일일 임무, 버츄얼 공간 정화 완료,
+누적Pt - 키즈나 아이 
+ 이벤트 임무 완료]]
+			},
+			{
+				info = "3. 블랙-SP 1회 클리어 후 SP1 - SP4를 다시 클리어하여 신규\n추억을 수집해주세요!"
+			}
+		}
 	}
 }
 

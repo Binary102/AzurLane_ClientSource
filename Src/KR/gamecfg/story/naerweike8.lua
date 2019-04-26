@@ -10,7 +10,7 @@ return {
 			side = 1,
 			dir = 1,
 			bgm = "battle-boss-1",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#ff5c5c",
 			say = "……더, 더이상은 무리야……",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "기절했어……",
 			typewriter = {
 				speed = 0.05,
@@ -52,7 +52,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "요전의 두 명보다는 만만치 않았지만…",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			say = "로열 네이비 H급의 적수는 아니에요!",
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "게다가, 지금 걸로 적도 이쪽 전력을 파악했을테고, 곧 지원군이 오겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -179,7 +179,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "적어도, 저기 있는 화물선 정도는 가라앉혀야죠.",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "하지만…… 위험하다구?",
 			typewriter = {
 				speed = 0.05,
@@ -211,7 +211,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "나 혼자라도 할 작정이에요. 이 기회는 절대로 놓치지 않겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "바보.",
 			typewriter = {
 				speed = 0.05,
@@ -242,7 +242,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "아야! 갑자기 왜 때려요!",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "우리는 한 팀. 하디는 기함. 모두 함께 하는 쪽이, 화력이 강해.",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "……고마워요.",
 			typewriter = {
 				speed = 0.05,
@@ -301,7 +301,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "자, 철저하게 공격해주자구요!",
 			typewriter = {
 				speed = 0.05,

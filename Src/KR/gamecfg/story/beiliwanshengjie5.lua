@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "우으으…어두워……뭐 나올 거 같아……",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "유령아~! 빨리……응? 이건…관?",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "우냐아앗!! 과, 관?!",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "왠지 이상하니까 열어본다! 에잇!",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "베일리, 잠깐……",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213020,
 			nameColor = "#a9f548",
 			say = "그, 그웨에에에에~",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "우냐아아아아아아앗?!?! (털썩)",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "오오! 뭔가 나왔다!",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -286,7 +286,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "무, 무서웠어……",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "…왜 테러가 관 안에 있는 거야? ",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213020,
 			nameColor = "#a9f548",
 			say = "테러, 말할 수 없어요. 비밀로 하겠다고 약속해서……",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "아! 다들, 저기 봐!",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "우냣?! 유령이 나타난 거야?!",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900140,
+			actor = 205030,
 			nameColor = "#a9f548",
 			say = "대체 누군데?!",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -461,7 +461,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900139,
+			actor = 213020,
 			nameColor = "#a9f548",
 			say = "자, 잠깐…이 '하늘을 나는 빗자루' 를 가져가세요……",
 			typewriter = {
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "고마워! 하나, 둘, 셋~ 좋아, 빗자루 다 챙겼지~",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900138,
+			actor = 101270,
 			nameColor = "#a9f548",
 			say = "토끼토끼로부턴 도망칠 수 없다구~ 베일리, 출발~!",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900137,
+			actor = 302050,
 			actorName = "{namecode:48}",
 			say = "베일리, 기다려……",
 			typewriter = {

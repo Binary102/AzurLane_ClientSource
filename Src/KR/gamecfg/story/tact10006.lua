@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 0,
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			say = "그러니까 소인이 처음부터...",
 			dir = -1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 303124,
+			actor = 303120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 0,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 303114,
+			actor = 303110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

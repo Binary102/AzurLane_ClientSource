@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "와우! 떡이다! 빨리 내놔! ……하지만 왠지 코타츠에서 못 나가겠어……우으……",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 301601,
+			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301601,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "우왓! 뭔가 옷에 묻었어!",
 			flashout = {
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -315,7 +315,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "그건 아직 미완성이야! 게다가 한 벌밖에 못 만들었고……",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "알았어, 알았다고! 정말, 사고 친 건 이소카제인데 왜 내가 한 소리 듣는 거야……",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:143}",
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "짜잔! 우라카제님이 만든 옷, 엄청 귀여워서 나한테 딱이야!",
 			flashout = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 301591,
+			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900156,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "그럼 우린 먼저 철수할게! 떡국 다 만들어지면 나눠주는 거 도와줄 테니까!",
 			typewriter = {

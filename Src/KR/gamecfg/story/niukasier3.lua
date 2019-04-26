@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 203031,
+			actor = 203030,
 			nameColor = "#a9f548",
 			say = "Question？뉴캐슬씨가 어디로 갔냐고?",
 			flashout = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 203031,
+			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 203041,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "어, 어라? 저 구름은……앗, 저 농땡이 친 거 아니에요! 정말 아니라구요!",
 			flashout = {
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 203041,
+			actor = 203040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202081,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "아뇨, 못 봤습니다…죄송합니다.",
 			flashout = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202111,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "뉴캐슬씨? 셰피랑 같이 있는 게 아니라면, 아마 혼자서 책을 읽고 있을 거에요!",
 			flashout = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

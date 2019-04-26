@@ -132,7 +132,6 @@ end
 
 function slot0.updateTecItem(slot0, slot1)
 	slot3 = slot0:findTF("BaseInfo", slot2)
-	slot4 = slot0:findTF("BG/Title", slot3)
 	slot5 = slot0:findTF("BG/UpLevelColor", slot3)
 	slot10 = slot0:findTF("UpLevelBtn", slot9)
 	slot11 = slot0:findTF("FinishBtn", slot9)
@@ -140,12 +139,12 @@ function slot0.updateTecItem(slot0, slot1)
 	slot15 = slot0:findTF("ProgressBarBG/Progress", slot3)
 	slot17 = slot0:findTF("LevelText/Text", slot3)
 	slot18 = slot0:findTF("PointTextBar", slot3)
-	slot19 = pg.fleet_tech_group[slot1].name
 
 	setImageSprite(slot6, GetSpriteFromAtlas("TecNation", "camptec_nation_bar_" .. slot20))
 	setImageSprite(slot8, GetSpriteFromAtlas("TecNation", "camptec_nation_text_" .. slot20), true)
 	setImageSprite(slot14, GetSpriteFromAtlas("TecNation", "camp_tec_english_" .. slot20), true)
 	setImageSprite(slot16, GetSpriteFromAtlas("TecNation", "camptec_logo_" .. pg.fleet_tech_group[slot1].nation[1]))
+	setText(slot4, slot19)
 
 	slot21, slot22 = nil
 	slot21 = (not slot0.tecList[slot1] and 0) or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.tecList[slot1].completeID, 1) or 0
@@ -239,6 +238,12 @@ function slot0.updateTecItem(slot0, slot1)
 
 				if slot0 == #pg.fleet_tech_group.all then
 					slot2.scrollRectCom.horizontalNormalizedPosition = 1
+				end
+
+				return
+			end)):setOnComplete(System.Action(function ()
+				if slot0 == #pg.fleet_tech_group.all then
+					slot1.scrollRectCom.horizontalNormalizedPosition = 1
 				end
 
 				return

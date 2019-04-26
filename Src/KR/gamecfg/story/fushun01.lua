@@ -21,7 +21,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-china",
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "여기가 창춘이 말했던 창고인가. 헤헤헤~, 분명 재밌는 게 잔뜩 있을 거야!",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			actor = 501044,
+			actor = 501040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 501024,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "쿨럭쿨럭! …먼지가 많네…",
 			flashout = {
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			actor = 501044,
+			actor = 501040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 501024,
+			actor = 501020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 501044,
+			actor = 501040,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

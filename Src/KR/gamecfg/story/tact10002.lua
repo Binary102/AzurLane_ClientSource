@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 201234,
+			actor = 201230,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "아무래도 얕보인 모양이군. 하지만 하루살이가 이렇게 무리 지어 다니는 걸 보니, 분명 잠수함도 있을 터. ...훗, 정말이지 두더지 같은 녀석들이군.",
 			dir = -1,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",

@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -35,7 +35,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900036,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900037,
+			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 107064,
+			actor = 107060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 107064,
+			actor = 107060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 107064,
+			actor = 107060,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -306,7 +306,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = 1,
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			say = "호박의 고도를 좀 낮춰줄 수 없겠는가? 시라누이가 저쪽에서 혼자 뭔가를 부둥켜안고 있는 것처럼 보였네만……",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -356,7 +356,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -468,7 +468,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -484,7 +484,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -516,7 +516,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -548,7 +548,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -564,7 +564,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -580,7 +580,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -596,7 +596,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,

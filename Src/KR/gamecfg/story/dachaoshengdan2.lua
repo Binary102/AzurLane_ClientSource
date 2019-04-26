@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actorName = "{namecode:146}",
 			bgm = "story-1",
-			actor = 900148,
+			actor = 301641,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_104",
 			say = "{namecode:142}酱，不要着急嘛！再等一会，就一会，我马上就选好了啦！",
@@ -60,7 +60,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			say = "等不下去啦！说到底为什么选个礼物要花上两个小时啊！",
-			actor = 900147,
+			actor = 301591,
 			actorName = "{namecode:142}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "因为人数众多呀，不是{namecode:142}酱提议说要送给每一个人礼物的嘛？",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			actorName = "{namecode:142}",
 			say = "真……真没办法，这里只能发挥一下成熟的风度了，不过，这是最后一个小时哦！",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "嗯？是重樱的驱逐舰们呢，似乎是发生了争吵？",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "啊啦，皇家的可爱战列舰和可爱驱逐舰！你们也是来选礼物的嘛？",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -212,7 +212,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "哦？可爱的女孩子们遇到了烦恼吗？有什么{namecode:146}能够帮忙的地方只管说哦！",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			actorName = "{namecode:142}",
 			say = "可真敢说，明明自己还没选好礼物，就要帮起别人来了！",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 0,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -273,7 +273,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900147,
+			actor = 301591,
 			actorName = "{namecode:142}",
 			say = "这是我自己设计的战国风圣诞华服哦，夸赞之词就免了吧，我都知道。",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900148,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "我的主题是送上礼物的驯鹿哦！有没有感受到，满满的，圣诞节的气息呀？",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -320,7 +320,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 201101,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "前辈……那样……就没有收到礼物时的……惊喜和快乐了。",
 			typewriter = {
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -410,7 +410,7 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -426,7 +426,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			actor = 900148,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "圣诞快乐呀~再见，可爱的战列舰~",
 			typewriter = {

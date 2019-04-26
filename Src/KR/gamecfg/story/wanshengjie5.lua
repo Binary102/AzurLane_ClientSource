@@ -19,14 +19,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:87}&{namecode:19}",
-			actor = 900036,
+			actor = 301171,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "\"트릭 오어 트릿!\"",
 			subActors = {
 				{
-					actor = 900038,
+					actor = 306051,
 					dir = -1,
 					pos = {
 						x = -750
@@ -42,14 +42,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "{namecode:6}&클리블랜드",
-			actor = 900037,
+			actor = 301051,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "\"트릭 오어 트릿~!\"",
 			subActors = {
 				{
-					actor = 900035,
+					actor = 102091,
 					dir = -1,
 					pos = {
 						x = -750
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "그럼 우린 간데이~",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "우갸갸갹!! 호, 호박 랜턴이 떠 있다꼬!? 지, 지난번 그 귀신이가~!",
 			flashout = {
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900037,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 900035,
+			actor = 102091,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -333,7 +333,7 @@ return {
 			actorName = "{namecode:19}",
 			side = 2,
 			dir = -1,
-			actor = 900036,
+			actor = 301171,
 			nameColor = "#a9f548",
 			say = "하늘에 랜턴이 가득한 게야…… 즈, 즈이카쿠는!?",
 			flashout = {
@@ -367,7 +367,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			withoutPainting = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "쇼…… 아니지, 화이트 언니, 열심히 의상을 만들려 했었지만, 좀 많이 어려워서…… 이걸로 참아줘!",
 			flashout = {
@@ -424,7 +424,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307054,
+			actor = 307050,
 			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
@@ -445,7 +445,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "크흠! 나는 골드, 엔터프라이즈는 그레이라구? 어쨌든, 지금은 우리 모두 \"어른\"이 아니라 \"아이\"니까, 핼러윈을 마음껏 즐겨야지!",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "나는 단지 즈이…… 가 아니라 골드와의 내기에서 졌으니까 어쩔 수 없이 도와주고 있을 뿐이지, 딱히……",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "그런 말 할 땐 좀 더 분한 감정을 실어달라고!",
 			typewriter = {
@@ -499,7 +499,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 107064,
+			actor = 107060,
 			actorName = "？？？",
 			say = "그래, 그래, 장난은 호박 랜턴으로 도와줄 테니까, 마음껏 즐기라고. \"꼬맹이님\".",
 			typewriter = {
@@ -517,7 +517,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			actorName = "？？？",
 			say = "흐흥, 그걸로 됐어. 애당초 난 함력만 놓고 보면 너보단 훨씬 젊으니까 말야, 그레이.",
 			typewriter = {

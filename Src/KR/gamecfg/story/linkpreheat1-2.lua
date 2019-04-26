@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "큭, 이렇게나 많은 수의 대군을 끌고 와 놓곤, 무슨 말을 하는 걸까나!",
 			flashN = {
 				color = {
@@ -134,7 +134,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "질보다 양.",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			say = "적군 하나하나는 그렇게 강하지 않지만, 이 정도로 전력 차이가 심해지면 상대하기 어렵습니다.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -170,7 +170,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "적의 수도 성가시지만……왜지, 어째서……",
 			typewriter = {
 				speed = 0.05,
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "후미뤼르(?)",
 			say = "…………",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 10300011,
+			actor = 10300010,
 			say = "어째서 우리를 공격하는 걸까나, 후미뤼르!",
 			flashN = {
 				color = {
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "저거, 후미뤼르가 아니야.",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			side = 1,
 			say = "외관이나 능력은 거의 똑같지만 혼의 색깔이 다릅니다. 아니, 혼에 색깔 자체가 없습니다……마치 인형처럼.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -288,7 +288,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "그 말은……가짜라는 걸까나?",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10300061,
+			actor = 10300060,
 			actorName = "후미뤼르(?)",
 			say = "…………",
 			typewriter = {
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "여기로 온 건……적의 원군인가?!",
 			typewriter = {
 				speed = 0.05,
@@ -481,7 +481,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "반격할 용의 있음.",
 			typewriter = {
 				speed = 0.05,
@@ -516,7 +516,7 @@ return {
 			side = 1,
 			say = "누가 되었든, 우리들을 노린다면 용서하지 않겠습니다.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

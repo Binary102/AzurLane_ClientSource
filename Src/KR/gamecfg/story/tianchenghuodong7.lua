@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "이제 왔는가, 아마기. 조금 안 좋은 일이 있어서 그러네만, 잠깐 같이 가도록 하지.",
 			typewriter = {
 				speed = 0.05,

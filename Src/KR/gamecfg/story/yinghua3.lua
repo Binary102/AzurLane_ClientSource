@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "세이렌에 침입당했을 줄이야…… 어쩐지 계속 이 해역에 접근할 수 없다 했어……",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "그런데 쇼카쿠 언니, 이제와서 뭐 때문에 돌아온 거야?",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			say = "'중앵'이야. 개전 이후의 관측으로 그 나무가 시들기 시작한 것이 판명됐어. 이번에는 그 조사와……",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "그리고 '그 아이'를 구하기 위해서지. 신생 연합함대의 재건은 생각보다 순조롭기는 하다만, 세이렌에게 대항하기에는 역시 그 아이의 힘도 필요하다.",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "'그 아이'라니, 설마…",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "'나가토'다. 계속 이곳에 있다는 것은 알고 있었지.",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 1,
 			dir = 1,
 			say = "……개전을 저지하지 못한 것을 자책하여 괴로워한 채… 이지만 말이다. 구해내야만 한다.",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 1,
 			say = "그럼 어서 행동하자! 우선 눈앞의 이 녀석들을 정리하겠어!",
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307021,
+			actor = 307020,
 			stopbgm = true,
 			say = "'중앵'을 향하고 있는 것 같군요. 이대로라면 나가토와 접촉하게 됩니다. 괜찮습니까?",
 			flashout = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			say = "방해꾼은 아무리 시간이 흘러도 제대로 청소가 안 되네요…… 번거롭기 그지없군요.",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			dir = 1,
 			blackBg = true,

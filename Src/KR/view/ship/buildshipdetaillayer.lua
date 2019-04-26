@@ -255,28 +255,29 @@ function slot0.updateProject(slot0, slot1, slot2)
 	end
 end
 
-function slot0.playGetShipAnimate(slot0, slot1)
+function slot0.playGetShipAnimate(slot0, slot1, slot2)
+	slot4 = slot0.projectList
+	slot5 = slot2 or 1
 	slot0.isPlayAnim = true
-	slot2 = slot0._tf:GetComponent("Animator")
 
-	function slot3()
+	function slot6()
 		slot0.enabled = true
 
-		SetParent(true.buildAni, slot1._tf)
-		slot1.buildAni:SetActive(true)
+		setParent(slot1.buildAni, pg.UIMgr:GetInstance().OverlayMain.transform)
+		setParent.buildAni:SetActive(true)
 
-		slot1.buildAni.aniPlay = true
-		slot0 = slot1._tf:GetComponent("DftAniEvent")
+		setParent.buildAni.SetActive.aniPlay = true
 
-		slot0:SetEndEvent(function (slot0)
-			slot0.buildAni:SetActive(false)
+		if true and slot2.build_voice ~= "" then
+			slot1:playCV(slot2.build_voice)
+		end
 
-			slot0.aniPlay = false
-			slot0.enabled = false
-			slot0.multLineTF.localScale = Vector3(1, 1, 1)
-			slot0.singleLineTF.localScale = Vector3(1, 1, 1)
+		slot1 = slot1._tf:GetComponent("DftAniEvent")
+
+		slot1:SetEndEvent(function (slot0)
+			slot0()
 		end)
-		slot0:SetTriggerEvent(function (slot0)
+		slot1:SetTriggerEvent(function (slot0)
 			slot0.isPlayAnim = false
 
 			if slot0 then
@@ -287,7 +288,9 @@ function slot0.playGetShipAnimate(slot0, slot1)
 		end)
 	end
 
-	function slot4()
+	slot8 = slot0
+	slot7 = slot0.findTF
+	slot9 = pg.ship_data_create_material[slot0._tf:GetComponent("Animator")[function ()
 		slot0.isPlayAnim = false
 
 		if false then
@@ -306,14 +309,22 @@ function slot0.playGetShipAnimate(slot0, slot1)
 		slot2.enabled = false
 		slot2.multLineTF.localScale = Vector3(1, 1, 1)
 		slot2.multLineTF.singleLineTF.localScale = Vector3(1, 1, 1)
-	end
 
-	if slot0:findTF("Building(Clone)") then
-		slot0.buildAni = go(slot5)
+		if slot2.multLineTF.singleLineTF.buildAni then
+			Destroy(slot0.buildAni)
+
+			Destroy.buildAni = nil
+		end
+
+		slot0:stopCV()
+	end].type].build_anim or "Building"
+
+	if slot7(slot8, slot9 .. "(Clone)") then
+		slot0.buildAni = go(slot7)
 	end
 
 	if not slot0.buildAni then
-		PoolMgr.GetInstance():GetUI("Building", true, function (slot0)
+		PoolMgr.GetInstance():GetUI(slot3.build_anim or "Building", true, function (slot0)
 			slot0:SetActive(false)
 
 			slot0.buildAni = slot0
@@ -324,7 +335,7 @@ function slot0.playGetShipAnimate(slot0, slot1)
 			slot0()
 		end)
 	else
-		slot3()
+		slot6()
 		onButton(slot0, slot0.buildAni, function ()
 			slot0()
 		end)
@@ -337,6 +348,58 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.buildTimers = nil
+
+	slot0:stopCV()
+
+	if slot0.loadedCVBankName then
+		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
+
+		slot0.loadedCVBankName = nil
+	end
+
+	if slot0.buildAni then
+		Destroy(slot0.buildAni)
+
+		slot0.buildAni = nil
+	end
+end
+
+function slot0.playCV(slot0, slot1)
+	voiceContent = "event:/cv/build/" .. slot1
+
+	if voiceContent then
+		function slot2()
+			slot0:stopCV()
+
+			slot0.stopCV._currentVoice = playSoundEffect(voiceContent)
+		end
+
+		if slot0.loadedCVBankName then
+			slot2()
+		else
+			pg.CriMgr:LoadCV("build", function ()
+				slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
+
+				if pg.CriMgr.GetCVBankName.exited then
+					pg.CriMgr.UnloadCVBank(slot0)
+				else
+					slot2()
+
+					if slot2._currentVoice then
+						slot1.loadedCVBankName = slot0
+					end
+				end
+			end)
+		end
+	end
+end
+
+function slot0.stopCV(slot0)
+	if slot0._currentVoice then
+		slot0._currentVoice:Stop(true)
+	end
+
+	slot0._currentVoice = nil
 end
 
 return slot0

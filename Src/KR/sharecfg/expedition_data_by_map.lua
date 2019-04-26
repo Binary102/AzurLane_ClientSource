@@ -3003,6 +3003,88 @@ pg.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {}
 	},
+	[1220001] = {
+		map = 1220001,
+		name = "버츄얼 연결고리의 공시성|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 4,
+		on_activity = 20172,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "AIGUANQIA2",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1220021] = {
+		map = 1220021,
+		name = "버츄얼 연결고리의 공시성·EX|| ||CHAPTER EX||E.X.",
+		bgm = "ai-fb-inst",
+		type = 8,
+		on_activity = 20172,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1210001",
+		cloud_suffix = "",
+		bg = "map_1210001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1220001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -3116,6 +3198,8 @@ pg.expedition_data_by_map = {
 		1180012,
 		1180021,
 		1200100,
+		1220001,
+		1220021,
 		2200000
 	}
 }

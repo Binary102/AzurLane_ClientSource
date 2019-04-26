@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			say = "그럼… 오이겐, 히퍼, 티르피츠, 그리고 Z1, 와주셔서 감사합니다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 403051,
+			actor = 403050,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			say = "역시……도이칠란트 얘기지?",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			say = "네. 그 아이가 즐겁게 지낼 수 있도록, 우리는 가능한 한 그 아이의 고집을 들어주기로 약속했습니다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			say = "……모두 기억하고 계시죠?",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "?!……지금, 뭐라고……",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "이거 놔……!",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -386,7 +386,7 @@ return {
 			say = "그렇지. 확실히 그렇게 약속했었지……뭐 그 아이에게 벌써 익숙해졌으니 약속을 하든 말든 상관없지만.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -402,7 +402,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -411,7 +411,7 @@ return {
 			say = "그렇지만, 마음 써주는 것과는 다른 문제로, 그 아이에게 있어 나쁜 짓을 한 것도 사실이야.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -427,7 +427,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -436,7 +436,7 @@ return {
 			say = "네. 다른 아이들에게도 폐를 끼쳤습니다. 그리고 그 아이는 우리가 신경을 써주고 있다는 것을 알게 되어 더욱 상처받았죠.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			say = "그러니까, 앞으로 어떻게 하면 좋을지 한 번 의논해보고자 모두를 이곳으로 부른 겁니다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -477,7 +477,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -513,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "(작은 소리로) 하인, 난 어떻게 하면 좋지……",
 			typewriter = {

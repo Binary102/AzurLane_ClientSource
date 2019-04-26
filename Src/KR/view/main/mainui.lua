@@ -99,6 +99,8 @@ function slot0.init(slot0)
 	slot0._bossBattleBtn = slot0:findTF("rightPanel/linkBtns/boss_act_btn")
 	slot0._activitySummaryBtn = slot0:findTF("rightPanel/activitySummary")
 	slot0._monopolyBtn = slot0:findTF("rightPanel/linkBtns/monopoly_btn")
+	slot0._blackWhitBtn = slot0:findTF("rightPanel/linkBtns/blackwhite_btn")
+	slot0._memoryBookBtn = slot0:findTF("rightPanel/linkBtns/memorybook_btn")
 	slot0._voteBtn = slot0:findTF("rightPanel/linkBtns/vote_btn")
 	slot0._lotteryBtn = slot0:findTF("rightPanel/linkBtns/lottery_btn")
 	slot0._coloringBtn = slot0:findTF("rightPanel/linkBtns/coloring_btn")
@@ -202,6 +204,11 @@ function slot0.closeSecondaryPanel(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._secondaryPanel, slot0._tf)
 	setActive(slot0._secondaryPanel, false)
+end
+
+function slot0.disableTraningCampAndRefluxTip(slot0)
+	setActive(slot0.traingCampBtn:Find("xinshou01"), false)
+	setActive(slot0.refluxBtn:Find("effect"), false)
 end
 
 function slot0.updateTraningCampBtn(slot0)
@@ -494,6 +501,26 @@ function slot0.updateAnniversaryBtn(slot0, slot1)
 	if slot1 and not slot1.isEnd() then
 		onButton(slot0, slot0._anniversaryBtn, function ()
 			slot0:emit(MainUIMediator.ON_ANNIVERSARY)
+		end, SFX_PANEL)
+	end
+end
+
+function slot0.updateBlackWhitBtn(slot0, slot1)
+	setActive(slot0._blackWhitBtn, slot1 and not slot1:isEnd())
+
+	if slot1 and not slot1.isEnd() then
+		onButton(slot0, slot0._blackWhitBtn, function ()
+			slot0:emit(MainUIMediator.ON_BLACKWHITE)
+		end, SFX_PANEL)
+	end
+end
+
+function slot0.updateMemoryBookBtn(slot0, slot1)
+	setActive(slot0._memoryBookBtn, slot1 and not slot1:isEnd() and not slot1:isShow())
+
+	if slot1 and not slot1.isEnd() and not slot1.isShow() then
+		onButton(slot0, slot0._memoryBookBtn, function ()
+			slot0:emit(MainUIMediator.ON_MEMORYBOOK)
 		end, SFX_PANEL)
 	end
 end
@@ -1374,8 +1401,8 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 
 	if pg.gameset.event_tips or .key_value == 1 then
 		function slot4(slot0)
-			PoolMgr.GetInstance():GetSpineChar("notice_manjuu", true, function (slot0)
-				tf(slot0).localScale = Vector3(0.5, 0.5, 1)
+			PoolMgr.GetInstance():GetSpineChar("Ai_manjuuu", true, function (slot0)
+				tf(slot0).localScale = Vector3(0.25, 0.25, 1)
 				tf(slot0).localPosition = Vector3(0, -55, 0)
 
 				pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)

@@ -288,7 +288,7 @@ return {
 			mode = 2,
 			side = 2,
 			blackBg = true,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "......",
 			flashout = {
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -364,7 +364,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			mode = 2,
 			nameColor = "#a9f548",
 			side = 2,

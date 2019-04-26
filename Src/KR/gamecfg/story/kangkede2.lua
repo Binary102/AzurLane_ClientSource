@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "빨리~! 가게는 저 쪽이라구~!",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -132,7 +132,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "괜찮아~ 롤리가 못 먹는 만큼 내가 많이 먹어줄 테니까~♪",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102021,
+			actor = 102020,
 			nameColor = "#a9f548",
 			say = "어린애 취급하지 마! 함력은 롤리가 더 기니까 말야!",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_104",
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "디저트 종류도 생각보다 많네♪ 우선은 스트로베리 선데부터……",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "오오! 나폴레옹 파이도 있네! 잘 먹겠습니다~!",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_104",
 			say = "오마하, 저번에 다이어트 한다고 하지 않았었어? 갑자기 5인분을 먹으면 괜찮을…",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102011,
+			actor = 102010,
 			nameColor = "#a9f548",
 			say = "마, 맛있게 먹으면 0칼로리라고! 음식 앞에서 다이어트 얘기하는 건 이 아이들에게 실례라구~!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "콩코드의 자리에는 디저트가 올려져 있는 크고 작은 접시들로 빼곡히 가득 차있었다.",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -363,7 +363,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "후후훗……당분으로 이뤄진 이 몸에게 있어, 당분 보충은 그냥 하루 일과에 불과하지!",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "그리고 하루 일과는 매일 꾸준히 해야 하는 법!",
 			typewriter = {
@@ -407,7 +407,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			actor = 102181,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "그러니까, 매일 잔뜩 먹을 수밖에 없다! 이 말씀이지♪ (크로스!)",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 102011,
+			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 102021,
+			actor = 102020,
 			side = 2,
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",

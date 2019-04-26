@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "지휘관님, 아크 로열씨를 찾는데 지휘관님의 손까지 빌리게 되어 죄송합니다…",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "…앗, 저기 있는 건!!",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "폐하, 저는 무고합니다! 저는 어디까지나 의뢰를 나간 구축함 동생들이 걱정되어 몰래 모항까지 호위를 했을 뿐, 딱히 워스파이트님을 미행하고 있었던 게 아닙니다!",
 			flashout = {
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205024,
+			actor = 205020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205014,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "조용히 해! 내가 다 봤어! 네가 음흉하게 웃으면서 워스파이트의 뒤에 몰래 따라붙는 걸 말야!!",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			actor = 202124,
+			actor = 202120,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 205014,
+			actor = 205010,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 205014,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "감히 아뢰옵니다만, 전 아크 로열씨가 무고하다는 것을 증명할 수 있습니다!",
 			typewriter = {

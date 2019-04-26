@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 303031,
+			actor = 303030,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:55}",
@@ -19,7 +19,7 @@ return {
 			}
 		},
 		{
-			actor = 303011,
+			actor = 303010,
 			nameColor = "#a9f548",
 			side = 1,
 			say = "그래, 우린 거의 피해도 입지 않았으니 계속 싸워도 문제없다고.",
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 303031,
+			actor = 303030,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "누, 누구였더라…왜 난 누군지 모르겠을까~",
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 900088,
+			actor = 303140,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:69}",

@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-uta",
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "지휘관님, 주목.",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			say = "무슨 일 있으신가요 지휘관님? 아까부터 저희를 계속 쳐다보고 계신 것 같습니다만.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "이상한 시선……",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			say = "대단히 송구스럽습니다. 저희들을 성적 대상으로 봐도 되는 건 주인님 하나 뿐으로 정해져있습니다.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "주인님은 알았다.",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			say = "지휘관님은 구분하실 수 있을까요? 그럼, 눈을 감고……한 번 시험해보십시오.",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -283,13 +283,13 @@ return {
 			say = "후후후……지휘관이라면 당연히 맞추겠지?",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -383,13 +383,13 @@ return {
 			say = "이 정도는 아니겠지? 지휘관의 진짜 실력……보여달라고.",
 			subActors = {
 				{
-					actor = 10300041,
+					actor = 10300040,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 10300051,
+					actor = 10300050,
 					pos = {
 						x = 370
 					}

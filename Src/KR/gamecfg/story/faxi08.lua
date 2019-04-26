@@ -8,7 +8,7 @@ return {
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			stopbgm = true,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "이 포탄은… 대구경포 건가. 그 아이인가?",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			dir = 1,
 			say = "이름이 뭐였지…… 장…… 장 포르?",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			say = "장 바르에요.",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "재밌겠네. 그 아이라면 나도 좀 더 진지하게 싸울 수 있겠어.",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 1,
 			dir = 1,
 			say = "매사추세츠… 태스크 포스 주력함의 역할을 잊은 건 아니겠죠…",
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "적의 위협을 줄이고, 상륙 중인 아군의 피해를 막는다…… 그게 내 역할이지. 알고 있어.",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "다녀올게.",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			side = 1,
 			dir = 1,
 			say = "이쪽도 준비 OK야!",
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 1,
 			dir = 1,
 			say = "아아아! 나도 갈래!",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 101301,
+			actor = 101300,
 			side = 0,
 			dir = 1,
 			say = "호, 호위하겠습니다!",
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "잠깐 기달……",
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "정말, 왜 이리도 다들, 앞뒤 사정 고려 안 하는 거야~~!",
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "함재기들, 아군 엄호를 서두르세요!",

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 107091,
+			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 107071,
+			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 107381,
+			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "오오! 뭔가 굉장히 불타오르고 있어!",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "생각 외로 많은 사람이 관전하러 왔네요……",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "아하하하…… 뭐, 모의전이라고 해서 봐주지 않을 거야!",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "그 점은 피차일반이네요. 잘 부탁해요! 호넷 씨!",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "함재기들, 공격!",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "미끼일 확률이 90%…… 이 정도는 파악하고 있다고요……!",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "쳇, 이건 어떠냐!",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			say = "이 정도는……!",
 			flashN = {
 				color = {
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			seDelay = 1,
 			flashout = {
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			soundeffect = "event:/battle/plane",
-			actor = 107071,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "미안하지만, 이쪽은 '샹그릴라에서 발진한' 쪽이라고!",
 			effects = {
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107381,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "앗?! 필사적인 폭격 공격이……!",
 			effects = {
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 107091,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "무승부……인 건가요……",
 			typewriter = {

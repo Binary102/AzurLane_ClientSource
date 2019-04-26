@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "후냥! 벌써 이런 시간이냥!?",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900152,
+			actor = 399010,
 			actorName = "{namecode:152}",
 			say = "첫 참배 말씀이시군요. 새로운 해를 맞아 처음으로 신께 비는 소원은 반드시 이루어진다고 합니다.",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "새해 소원인가. (작은 목소리로) 정말 이루어진다고 하면……",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900158,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "아무것도 아닙니다. 새해에도 언니를 목표로 힘낼 뿐이에요.",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900155,
+			actor = 102130,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102050,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900153,
+			actor = 399020,
 			actorName = "{namecode:151}",
 			say = "잠깐, 소원을 입 밖에 내면 이루어지지 않아. 각자의 소원은 신께만 들려주는 거다.",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:151}",
 			bgName = "star_level_bg_101",
-			actor = 900153,
+			actor = 399020,
 			nameColor = "#a9f548",
 			say = "오오! 모항의 신사에 오는 건 처음이다만, 설마 이렇게 훌륭할 줄은!",
 			flashout = {
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399010,
 			actorName = "{namecode:152}",
 			say = "모항에도 이렇게 영험한 곳이 있다니…… 신께서도 분명 지켜주고 계실 거예요.",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205060,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 900156,
+			actor = 301600,
 			nameColor = "#a9f548",
 			bgName = "star_level_bg_101",
 			side = 2,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900155,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "아까는 다들 어떤 소원 빌었니?",
 			flashout = {
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900154,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "어쨌든, 건강과 기쁨을 기원하는 건 어디든 똑같다. 새해 복 많이 받도록.",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900152,
+			actor = 399010,
 			actorName = "{namecode:152}",
 			say = "그렇네요. 올해야말로 서로 힘내서 평화로운 세계를 되찾도록 하죠.",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "………후후후후후.",
 			typewriter = {
@@ -466,7 +466,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -503,7 +503,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "냥♪ 올해도 성업, 번창하는 한 해가 될 것 같다냥! 새해 복 많이 받아라냥!",
 			typewriter = {

@@ -27,7 +27,7 @@ return {
 			say = "……",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -48,7 +48,7 @@ return {
 			say = "눈을 떠라. 전투가 시작된다.",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -69,7 +69,7 @@ return {
 			say = "………",
 			nameColor = "#ff0000",
 			blackBg = true,
-			actor = 107061,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
 			shake = {
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -128,7 +128,7 @@ return {
 			say = "꿈……? 아니, 「체스말<Piece>」 에 불과한 네가 꿈 같은 걸 꿀 수 있을 리 없다. 만약 있다면…그건 인격이라 불리는 사념의 파편, 환각 같은 거지.",
 			dir = -1,
 			blackBg = true,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -208,7 +208,7 @@ return {
 			side = 0,
 			say = "「새크리파이스<Sacrifice>」, 인가……",
 			blackBg = true,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 1,
 			nameColor = "#ff0000",
 			blackBg = true,

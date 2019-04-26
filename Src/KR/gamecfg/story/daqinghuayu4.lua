@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "지휘관!",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "지휘관, 혹시……요 며칠 동안 알바코어를 스토킹 했었어?",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "아~ 역시~ 그랬구나~~",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "지휘관, 거짓말은 하면 안 되지~",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "헤헤헤~ 이 사실이 모항 사람들에게 알려진다면~",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "\"흥! 역시 변태 지휘관이네!\", \"그, 그럴 리가, 지휘관은 어째서 그런 짓을…! 설마 저도……\", \"지휘관님은 역시 갈기갈기 찢은 다음에 옆에 두는 편이 좋겠네요……\"",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "어쨌든, 지휘관은 뭘 하면 좋을 거 같아?",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그랬구나……저번에 했던 얘기는 일단 접어두고, 인간관계에 대해 걱정해주고 있었구나.",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "첫 번째는…지금 나 조금 피곤하니까, 지휘관의 무릎 위에서 오후엔 푹 낮잠 잘래~ 그렇게 하면 나, 다시 기운이 날지도!",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그리고 또 하나는…일단 보류야! 생각나면 다시 얘기해줄게! 헤헤헤~",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "응? 오후는 업무라고? 흠흠……내 알 바 아니지~~",
 			typewriter = {

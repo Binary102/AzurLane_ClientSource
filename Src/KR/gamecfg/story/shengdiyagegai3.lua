@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "알듯말듯 하단 말이지……",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "그래도 샌디에이고는 머리가 좋으니까, 언젠가 반드시 알 게 될 거야! 응응!",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900129,
+			actor = 101319,
 			nameColor = "#a9f548",
 			say = "으에에에에에?!! 적의 기습인가? 지진 태풍 쓰나미? 아니면 지휘관이 인사고과라도 하러 온 거야?!?!",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "개조란 건 자면 되는 거야?! 좋아~! 메모해야지!!",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 		{
 			say = "아니야~~~~!!",
 			side = 2,
-			actor = 900130,
+			actor = 101259,
 			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -312,7 +312,7 @@ return {
 			say = "야호~ 허먼!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 102081,
+			actor = 102080,
 			dir = 1,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "난 갖은 고생을 하면서 창피를 당하고, 겨우 개조됐단 말이야!",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900130,
+			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900130,
+			actor = 101259,
 			nameColor = "#a9f548",
 			say = "아, 아무것도 아니야! 아무튼 말하고 싶은 건, 개조란 건 그렇게 간단한 일이 아니란 거야! 마음의 준비를 단단히 해둬야 한다고!",
 			typewriter = {
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			}
 		},
 		{
-			actor = 900129,
+			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",

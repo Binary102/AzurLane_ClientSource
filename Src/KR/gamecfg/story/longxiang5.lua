@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "역시 머릿속에서 잊혀지지 않아……그런 추한 모습을 주군에게 보이다니, 이건 무사의 수치…!",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "큭…! 설마 이렇게까지 신경이 쓰일 줄은……!",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "이대로는 비서함 뿐만 아니라 군인으로서의 업무마저 손에 잡힐리가…!",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "에잇, 아야나미에게 추천받은 '게임' 인지 뭔지도 전혀 못하고…!",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "생각하면, 요즘 상태가 계속 좋지 않은 것 같기도…",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "왔구나! 그레이 고스트! 과거 1항전에 몸 담았던 자로서, 원수를 갚아주마!",
 			flashout = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 306061,
+			actor = 306060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "아얏! ……피, 피탄 판정?! 말도 안 돼!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "일러스트리어스씨, 주군과 물건을 사러 외출할 때 입을 귀여운 옷이 필요하다고 말한 건 저지만……",
 			flashout = {
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "아, 아무리 그래도 이렇게 하늘하늘 거리는 옷은 좀……!",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			actor = 306061,
+			actor = 306060,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			say = "난 대체 왜 이러지………",

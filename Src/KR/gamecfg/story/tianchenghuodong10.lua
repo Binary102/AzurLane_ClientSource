@@ -347,7 +347,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "하아…하아……호쇼씨, 지금 잠깐…시간을…하아하아……내주실 수 있을까요?",
 			flashout = {
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "호쇼씨, 당신의 함재기로 거울해역에 있는 카가를 찾아볼 수 있을까요……?",
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -562,7 +562,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -577,7 +577,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -634,7 +634,7 @@ return {
 			}
 		},
 		{
-			actor = 306031,
+			actor = 306030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -668,7 +668,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "응, 이 아이들은 의외로 유용하게 쓰일 수 있을지도 모른답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -680,7 +680,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -714,7 +714,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "언니 말 들어요. 카가는 반드시 데려올 테니까요.",
 			typewriter = {
 				speed = 0.05,

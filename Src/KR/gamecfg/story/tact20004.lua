@@ -8,7 +8,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			dir = 0,
 			mode = 2,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "…",
 			flashout = {
@@ -106,7 +106,7 @@ return {
 			say = "무슨 일이라도 생겼나?",
 			nameColor = "#FF0000",
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "이번의 「백<White>」은, 지금까지와는 다른 움직임을 보이고 있어……",
 			shake = {
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "그런가. 허나 그게 바로 「심판」이 원하는 것이겠지.",
 			shake = {
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "짐작 가는 게 하나 있네만……만약……우리가 그저……그 「백<White>」 이 '진화' 하기 위한 단순한 '발판' 이라면……",
 			shake = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "우리가 '세이렌' 으로부터 힘을 얻은 것도…그 자체가 '세이렌' 의 계획의 일부였다면……",
 			shake = {
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "그만해……그대로 생각을 멈추지 않으면 자아가 붕괴될 거다. 메탈 블러드를 위해 '그녀' 의 희생을 헛되게 하지 마라……",
 			shake = {
@@ -229,7 +229,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = " '그녀'…라니?",
 			shake = {
@@ -249,7 +249,7 @@ return {
 			side = 1,
 			mode = 2,
 			dir = 0,
-			actor = 407011,
+			actor = 407010,
 			nameColor = "#FF0000",
 			say = "…아무것도 아니다. 너와 꽤 닮은 재미없는 망상가의 얘기다. 흥, 그 쓸모없는 망상을 위해 몸을 내던질 줄이야…어리석은……",
 			shake = {
@@ -269,7 +269,7 @@ return {
 			side = 0,
 			mode = 2,
 			dir = 0,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#FF0000",
 			say = "……",
 			shake = {

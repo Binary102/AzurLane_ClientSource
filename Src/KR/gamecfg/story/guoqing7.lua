@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "구난 신호는 이런 뜻이었다 이거지... 이세 선배, 휴가 선배... 설마...",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "......",
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "......",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "알았어... 전투 준비!",

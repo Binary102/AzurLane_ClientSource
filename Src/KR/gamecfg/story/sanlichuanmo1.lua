@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "이, 이게 바로 소문의…",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "오오오…미카사 선배가 함선 프라모델을 모으고 있었다니!",
 			effects = {
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "그래도 자기 자신의 함선 프라모델을 보는 건 역시 왠지 좀 부끄럽단 말이지…아하하하…",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "어머, 1항전 선배들의 함선 프라모델도 있네요~",
 			flashout = {
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "하하하, 사양 말게나! 여기 있는 전시품을 소개하도록 하지! 여기 있는 건 전장의 불꽃을 헤치고 싸웠던 우리 전함들의 프라모델이다! 그리고 저쪽에 있는 건 정규 항공모함인……",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_2",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "그리고, 이 방에는 침입자에 대처하기 위해 프라모델을 지킬 수 있는 경보장치가 설치되어 있다. 잘못해서 경보장치를 만지지 않도록.",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "이 소리는……! 설마 자폭장치가 기동 된 건가?!",
 			typewriter = {
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "왜 자폭장치 같은 게 있는 거에요?!",
 			typewriter = {
@@ -574,7 +574,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -596,7 +596,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
-			actor = 305111,
+			actor = 305110,
 			say = "선배, 위험해요!",
 			flashN = {
 				color = {
@@ -632,7 +632,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 307061,
+					actor = 307060,
 					pos = {
 						x = -400
 					}
@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -774,7 +774,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "……이렇게 가만히 있는다고 해결될 리 없지…어떻게 정리하고 다시 세울지를 먼저 생각하는 편이……",
 			typewriter = {
@@ -791,7 +791,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "자자, 무츠키랑 키사라기도 울지 말고, 뚝! 즈이카쿠, 모두를 불러주지 않겠어? 손이 꽤 많이 필요할 것 같으니까……",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			bgName = "bg_sanli_cg_4",
 			say = "쇼카쿠 언니…알았어! 지금 모두를 불러올게!",
 			dir = 1,
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

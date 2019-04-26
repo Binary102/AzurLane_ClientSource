@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			say = "무츠, 보아라. 다음 의식은 이 자세로 하는 것이 어떻겠느냐?",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			say = "응? 잠깐 그대로 있어 봐~ 으~음, 조금 바보 같나? 손을 똑바로 뻗어보는 게 어때?",
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 305061,
+			actor = 305060,
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 305051,
+			actor = 305050,
 			side = 2,
 			dir = 1,
 			blackBg = true,

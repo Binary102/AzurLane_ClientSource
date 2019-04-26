@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "스킬 발동……",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "라피, 위험해!",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101171,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "…응?",
 			dialogShake = {
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "아직 포기하긴 일러.",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "이번엔 내가 이니시를 걸 테니까 한 번만 더 해보자!",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 101161,
+			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그럼 한 번만 더……퀘스트 스타트!",
 			typewriter = {
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "이걸로 막타다! 받아랏! 합체 오의……이터널 포스 크래셔~!!",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_room",
 			hideOther = true,
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			actorName = "모두",
 			say = "오오오오오오!!!",
 			effects = {
@@ -437,13 +437,13 @@ return {
 			},
 			subActors = {
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101161,
+					actor = 101160,
 					pos = {
 						x = 750
 					}
@@ -459,7 +459,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 101161,
+			actor = 101160,
 			nameColor = "#a9f548",
 			say = "우오오오오! 깼다아아아아아아!!",
 			typewriter = {
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "크하하하하하! 투 이지~! 이 알바코어가 못 깨는 보스는 없다고~!",
 			typewriter = {

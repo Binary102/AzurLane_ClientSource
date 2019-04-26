@@ -21,7 +21,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "진짜 있다니까요! 그 도서관에!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101060,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			say = "목소리가 들려 따라가 봤더니 아무도 없었다던지…",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101060,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -108,12 +108,12 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			actor = 900084,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "'도서관의 요정' 이 틀림없어요! 지휘관!",
 			subActors = {
 				{
-					actor = 900080,
+					actor = 301010,
 					pos = {
 						x = 685
 					}
@@ -181,7 +181,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			actorName = "？？？",
 			say = "왜 그 녀석은 나랑 같이 학교에 오지 않는 거야!",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			actorName = "？？？",
 			say = "정말이지, \"저는 폐하께 봉사하는 메이드니까요\" 같은 소리나 하고…",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			actorName = "？？？",
 			say = "역시 그 녀석이 없으면 재미가 없는 걸…",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			actorName = "？？？",
 			say = "뭐, 이 도서관에 오게 된 게 불행 중 다행이려나…",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			actorName = "？？？",
 			say = "조용하고 넓고, 가끔 오는 구축함들을 놀려주는 것도 재미있고...후후훗",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			say = "아와와앗!",
 			flashN = {
 				color = {
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "벨파스트 녀석... 내가 언니인데…",
 			flashout = {
@@ -384,7 +384,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "그러고 보니 매번 오던 구축함들, 슬슬 올 때가 됐는데…",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			actor = 900086,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "아와와앗!",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202110,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-1",
-			actor = 900084,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "역시, 에든버러씨가 요정이었군요~",
 			flashout = {
@@ -469,7 +469,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 900086,
+			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 900086,
+			actor = 202110,
 			nameColor = "#a9f548",
 			say = "벨파스트한테 솔직히 얘기하라고요?! 그, 그것만은 제발~!!",
 			typewriter = {

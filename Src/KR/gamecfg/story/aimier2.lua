@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			say = "에밀이라면 후다닥 해치워버릴 수 있다고~ 나, 이래 봬도 사람 보는 눈은 있으니까!",
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -322,7 +322,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			actor = 802011,
+			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -367,7 +367,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,

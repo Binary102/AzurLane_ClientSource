@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "이렇게 된 이상…… 새로 준비한 의상을 모두에게 입히는 수밖에 없다냥!",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "사쿠라 엠파이어 풍의 의상……우후후……제법 호화로운 소재를 썼네.",
 			flashout = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "와아아…… 이 옷…… 생각한 것보다 따뜻해~",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102050,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -206,7 +206,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900153,
+			actor = 399020,
 			actorName = "{namecode:151}",
 			say = "가부키라도 한 판 추고 싶어지는 의상이군. 움직이기 쉬운 것치곤 나쁘지 않다.",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900152,
+			actor = 399010,
 			actorName = "{namecode:152}",
 			say = "제 건 평범하군요. 왠지 차분해집니다.",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "과연, 여러 진영의 특징을 섞은 건가. 재밌네, 후후후.",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "…………이, 이이이이건………!?",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "나, 나 갑자기 급한 볼 일이 생겨서! 먼저 돌아갈게!!!",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 102141,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102141,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "뭐?!",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900158,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "(이게 바로 사쿠라 엠파이어의 의상인가…… 콜롬비아랑 덴버가 좋아하겠는걸.)",
 			flashout = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -447,7 +447,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "다, 다들 갈아입었냥? 그럼 빨리 정월 요리를 만끽해라냥!",
 			typewriter = {

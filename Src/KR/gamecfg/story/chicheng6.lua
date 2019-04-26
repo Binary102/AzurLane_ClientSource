@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "指挥官只要好好听{namecode:91}的话就行了……别让{namecode:91}伤心……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "{namecode:91}要是伤心了……就……",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……（舔）……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "{namecode:91}绝不会……伤害指挥官。就算指挥官成为了我的敌人——  ",
 			flashout = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "可是，如果指挥官受了伤，能为指挥官疗伤的只有{namecode:91}。",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官你要记住……",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为你做好一切。",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "所以…指挥官，闭上眼睛…把一切都交给{namecode:91}就好。",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			actorName = "{namecode:91}",
 			dir = 1,
 			optionFlag = 2,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "——指挥官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "这是说…指挥官也想对{namecode:91}好…的意思吗？",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "……指挥官……",
 			typewriter = {

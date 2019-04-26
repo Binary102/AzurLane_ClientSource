@@ -13,7 +13,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			nameColor = "#a9f548",
 			say = "아스토리아 언니!",
 			side = 2,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			say = "괜찮아, 아직 버틸 수 있어!",
 			nameColor = "#a9f548",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "언니……흐에엥……",
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "괜찮아, 빈센스.",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "후우…이렇게 험난한 전투에 두 동생이 옆에 있어 정말 다행이야. 너희가 없었으면 언니는 벌써 눈물 콧물 질질 짰을걸?",
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "아스토리아 언니……그렇네요.",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "웅……언니들이 없었으면, 나도 벌써 울었을 거야!",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "아하하하, 그럼…가볼까, 최후의 반격이다!",

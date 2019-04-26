@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 401461,
+			actor = 401460,
 			say = "挚爱的人啊，我究竟是何颜色？",
 			flashout = {
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "请你告诉我。究竟你期望的“我”，是什么样的？",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "我会试着成为，你所希望的那个存在。",
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "我的颜色…应是白色（Weiß）。",
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "为染上你的颜色，将原本透明的自身染为白色的愚昧之“物”——",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			say = "要成为纵使无数次满身战争的硝烟，也将洗尽心中灰色的“人”。",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,

@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
@@ -242,7 +242,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900058,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "응? 이게 아닌가…… 그리들리? 왜 그래 갑자기 쓰러지…",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -306,7 +306,7 @@ return {
 			}
 		},
 		{
-			actor = 900058,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -336,7 +336,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "어쨌든 사진은 찍었다! 음… 이름은 '메리 크리디에이고' 로 하자! 헤헤헤, 다음 타겟을 찾아볼까~!",
 			flashout = {

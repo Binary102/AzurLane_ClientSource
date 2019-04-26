@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "아, 아이리스랑 뷔시아네다!",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "로드니 선배님도 계시네요.",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "로드니 씨! 덩케르크 씨! 에밀 씨! 여기에요 여기~",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "네! 덩케르크 선배님, 에밀 베르탕 선배님, 그리고 로드니 선배님, 안녕하세요.",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205040,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "그렇군요. 기대하고 있을게요!",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205040,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -353,7 +353,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "……맛있어요!",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "그치 그치~ 나도 먹고 싶지만……먹게 되면 체중계를 볼 용기가 없어져서…",
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			actor = 900105,
+			actor = 205040,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -488,7 +488,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -508,7 +508,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "여름에 딱이네요!",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.3,

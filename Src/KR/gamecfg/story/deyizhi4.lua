@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-2",
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "하인인가. 무슨 일이냐?",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "도이칠란트는 강하다고 다들 말해주니까 정말 강한 줄 알고, 누구보다도 뛰어나다 혼자 착각해선 남들한테 으스댔으니……",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "만지지 마!",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "지휘관도 그렇지? 도움이 되니까가 아니라, 그냥 내가 바보짓을 했을 때 비웃으려고 비서함으로 둔 거 아니야?",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",

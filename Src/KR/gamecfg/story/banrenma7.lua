@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그동안, 여러 선배님들을 접하며 전장 밖에서의 일면을 알게 되었습니다.",
 			typewriter = {
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "후후, 지휘관님도 대단하신 분이지만 일을 하기 싫어하시고 농땡이를 부리는 일면이 있으시죠.",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "네. 말씀하신 대로, 그게 ‘평범하다’ 는 거죠. 모두 ‘평범’ 하니까, 생각이 서로 다르기도 하고, 가끔 의견이 충돌하기도 합니다만……",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "이게 바로 제가 동경해왔던 함대…모두를 존경하는 것뿐만이 아니라, 이 함대의 일원으로서, ‘동료’로서 모두가 너무 좋답니다.",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "무, 물론 지휘관님도 그렇고요……",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "예전의 저는 그 대전을 겪어 온 모두의 함력을 동경하고, 존경해서 ‘선배’ 라고 불렀었죠.",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "뭐랄까, 저 스스로 얘기하는 건 부끄럽지만……사실은 아주 조금, ‘선배’ 라 부르는 게 익숙해졌는걸요♪.",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그러니, 제 얘기는 여기까지 하도록 할게요.",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "으음, 긴 시간 동안 비서함을 담당하다 보니, ‘동료’로써 지휘관님에 대한 건 전부 알아갈 생각이에요!",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "제가 알고 싶은 건……바로 작은 비밀들이랍니다. 제가 방금 알려 드린 것 같이, 다른 분들은 모르는 진짜 속마음 같은 거 말이에요!",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그러니까…지휘관님에 대해서, 더 많이 알려주세요! 알겠죠? 선배님♪",
 			typewriter = {

@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "호박? 물론 알지! \"장난치는 날\"이 곧 다가오니까 말야!",
 			flashout = {
@@ -50,7 +50,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 107074,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "냐하하핫! 사쿠라 엠파이어의 아이들아~ 기대하라고~",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "으으…… 뭔가 찌릿찌릿하고 감은 왔었는데…… 아야나미, 어떻노?",
 			flashout = {
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "헬레나! 내다! 쇼호다!",
 			flashout = {
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = -1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "그렇구마~ 장난도 호박도 그 \"핼러윈\"인지 뭔지 하는 기념일 때문에 준비한 거 맞제?",
 			flashout = {
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -425,7 +425,7 @@ return {
 			}
 		},
 		{
-			actor = 102051,
+			actor = 102050,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -440,7 +440,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

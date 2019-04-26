@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "키사라기 키사라기~ '전골 대회' 가자~!",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "아카시가 다 함께 전골 먹재!",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "그치만…전골은 겨울에 먹는 거 아니야……?",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "응…응! 맞아!",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "그럼 겨울옷을 입고 가는 거야…?",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "응? 응……아마도!",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "그래……?",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "응! 겨울 전골 먹을 땐 겨울옷을 입을 필요가 있어!",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 301331,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "그, 그렇구나…",
 			typewriter = {

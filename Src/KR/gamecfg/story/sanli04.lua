@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
 			say = "사쿠라 엠파이어의 전함…",
 			effects = {
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			mode = 3,
 			say = "<size=35>미카사!!</size>",
 			dialogShake = {
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "자, 우리들의 힘을 보여주자! 싸움은 이제부터다!",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "낙숫물에 댓돌이 뚫리듯이,",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "저 단단한 장갑도 방법이 없지는 않을 터!",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "들어라! 이 세계의 흥망은 이 전투에 달렸으니!!",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "하늘은 맑고 파도는 높구나, 싸우기 딱 좋은 날이다.",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "나는 사쿠라 엠파이어 함대의 전함 미카사, ",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			mode = 3,
 			say = "참전하도록 하지!!",
 			typewriter = {

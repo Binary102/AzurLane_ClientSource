@@ -9,7 +9,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "제가 가겠습니다.",
 			flashin = {
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 10300041,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "아뇨, 여기는 저 혼자 맡겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "저 혼자서 원거리에서 화력을 집중시켜 공격을 진행, 적의 주의를 끌겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "사라나……조심해.",
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,7 +147,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "네, 알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			say = "알겠습니다. 그럼, 다녀오겠습니다.",
 			typewriter = {
 				speed = 0.05,

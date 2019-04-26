@@ -49,7 +49,7 @@ return {
 		},
 		{
 			side = 2,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "유니콘…… 모르겠어……",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "라이브 때 오빠…… 엄청 빛났었어……",
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "유니콘…… 이상하게 분해……",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "아니, 달라… 유니콘은… 지휘관… 오빠를 기쁘게 해주고 싶을 뿐이야……",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "하지만…… 어떻게……",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "스타…더스트님? 응…… 그 언니도…… 빛나고 있었어……",
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "오빠…… '정말로 부끄러운 건 모르면서 묻지 않는 것' 이라고 했어……",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "유니콘…… 편지로 그 언니한테 물어볼래…!",

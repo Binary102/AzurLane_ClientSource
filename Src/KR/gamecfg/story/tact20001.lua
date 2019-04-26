@@ -8,7 +8,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#FF0000",
 			mode = 2,
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,

@@ -5950,6 +5950,121 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30313] = {
+		display = "랜덤으로 키즈나 아이 컬레버래이션 장비 스킨을 획득한다. ",
+		rarity = 4,
+		type = 11,
+		name = "장비 스킨 상자 (키즈나 아이) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 30313,
+		icon = "Props/appearanceboxai",
+		display_icon = {
+			{
+				9,
+				1101,
+				1
+			},
+			{
+				9,
+				1102,
+				1
+			},
+			{
+				9,
+				1103,
+				1
+			},
+			{
+				9,
+				1104,
+				1
+			},
+			{
+				9,
+				1105,
+				1
+			},
+			{
+				9,
+				1106,
+				1
+			},
+			{
+				9,
+				1107,
+				1
+			},
+			{
+				9,
+				1108,
+				1
+			},
+			{
+				9,
+				1109,
+				1
+			},
+			{
+				9,
+				1110,
+				1
+			},
+			{
+				9,
+				1111,
+				1
+			},
+			{
+				9,
+				1112,
+				1
+			},
+			{
+				9,
+				1113,
+				1
+			},
+			{
+				9,
+				1114,
+				1
+			},
+			{
+				9,
+				1115,
+				1
+			},
+			{
+				9,
+				1116,
+				1
+			},
+			{
+				9,
+				1117,
+				1
+			},
+			{
+				9,
+				1118,
+				1
+			},
+			{
+				9,
+				1119,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[40004] = {
 		display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 		rarity = 4,
@@ -51187,6 +51302,1163 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57570] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57570,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				24,
+				1
+			},
+			{
+				2,
+				9,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57571] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57571,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				29,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57572] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57572,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10005,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57573] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57573,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11019,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				10052,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57574] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57574,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11023,
+				1
+			},
+			{
+				2,
+				10028,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57575] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57575,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10074,
+				1
+			},
+			{
+				2,
+				11,
+				1
+			},
+			{
+				2,
+				10056,
+				1
+			},
+			{
+				2,
+				24,
+				1
+			},
+			{
+				2,
+				9,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57576] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57576,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				29,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57577] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57577,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10057,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10040,
+				1
+			},
+			{
+				2,
+				10007,
+				1
+			},
+			{
+				2,
+				10005,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57578] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57578,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				10052,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57579] = {
+		display = "일정 확률로 다음의 설계도를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 설계도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57579,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10028,
+				1
+			},
+			{
+				2,
+				10029,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10067,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57580] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57580,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				102051,
+				1
+			},
+			{
+				4,
+				102091,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				303071,
+				1
+			},
+			{
+				4,
+				303081,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57581] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57581,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				206031,
+				1
+			},
+			{
+				4,
+				107031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				102111,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57582] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57582,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				204011,
+				1
+			},
+			{
+				4,
+				105041,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57583] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57583,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				207021,
+				1
+			},
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57584] = {
+		display = "일정 확률로 다음의 캐릭터를 얻을 수 있습니다.",
+		rarity = 1,
+		type = 99,
+		name = "랜덤 캐릭터",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57584,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				107051,
+				1
+			},
+			{
+				4,
+				107071,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				106011,
+				1
+			},
+			{
+				4,
+				301171,
+				1
+			},
+			{
+				4,
+				301131,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				107011,
+				1
+			},
+			{
+				4,
+				106021,
+				1
+			},
+			{
+				4,
+				107041,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57585] = {
+		display = "장비 스킨 상자를 몇 차례 획득하면, 장비 스킨 중 하나를 획득한다. ",
+		rarity = 4,
+		type = 99,
+		name = "키즈나 아이 컬레버래이션 장비 스킨 상자 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57585,
+		icon = "Props/appearanceboxai",
+		display_icon = {
+			{
+				9,
+				1101,
+				1
+			},
+			{
+				9,
+				1102,
+				1
+			},
+			{
+				9,
+				1103,
+				1
+			},
+			{
+				9,
+				1104,
+				1
+			},
+			{
+				9,
+				1105,
+				1
+			},
+			{
+				9,
+				1106,
+				1
+			},
+			{
+				9,
+				1107,
+				1
+			},
+			{
+				9,
+				1108,
+				1
+			},
+			{
+				9,
+				1109,
+				1
+			},
+			{
+				9,
+				1110,
+				1
+			},
+			{
+				9,
+				1111,
+				1
+			},
+			{
+				9,
+				1112,
+				1
+			},
+			{
+				9,
+				1113,
+				1
+			},
+			{
+				9,
+				1114,
+				1
+			},
+			{
+				9,
+				1115,
+				1
+			},
+			{
+				9,
+				1116,
+				1
+			},
+			{
+				9,
+				1117,
+				1
+			},
+			{
+				9,
+				1118,
+				1
+			},
+			{
+				9,
+				1119,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "참가한 캐릭터는 경험치를 획득할 수 있습니다.",
 		rarity = 2,
@@ -51601,6 +52873,22 @@ pg.item_data_statistics = {
 		icon = "Props/drum",
 		display_icon = {},
 		price = {},
+		index = {}
+	},
+	[59126] = {
+		display = "「버츄얼 연결고리의 공시성」 이벤트 교환에 사용되며, 이벤트 종료 후 제거 됩니다. ",
+		rarity = 2,
+		type = 98,
+		name = "Pt-키즈나 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59126,
+		icon = "Props/kizuna_pt",
+		price = "",
+		display_icon = {},
 		index = {}
 	},
 	[59601] = {
@@ -53583,6 +54871,390 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[70000] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.1 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.1",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70000,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70001] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.2 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70001,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70002] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.3 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70002,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70003] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.4 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.4",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70003,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70004] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.5 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.5",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70004,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70005] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.6 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.6",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70005,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70006] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.7 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.7",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70006,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70007] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.8 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.8",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70007,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70008] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.9 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.9",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70008,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70009] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.10 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.10",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70009,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70010] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.11 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.11",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70010,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70011] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.12 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.12",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70011,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70012] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.13 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.13",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70012,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70013] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.14 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.14",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70013,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70014] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.15 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.15",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70014,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70015] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.16 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.16",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70015,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70016] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.17 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.17",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70016,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70017] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.18 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.18",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70017,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70018] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.19 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.19",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70018,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70019] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.20 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.20",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70019,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70020] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.21 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.21",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70020,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70021] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.22 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.22",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70021,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70022] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.23 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.23",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70022,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[70023] = {
+		display = "사용하여 「항구의 추억 다이어리」 No.24 개방",
+		rarity = 4,
+		type = 0,
+		name = "「항구의 추억」 No.24",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20181,
+		id = 70023,
+		icon = "Props/gangquhuiyi",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -53896,6 +55568,7 @@ pg.item_data_statistics = {
 		30309,
 		30310,
 		30312,
+		30313,
 		40004,
 		40005,
 		40006,
@@ -54791,6 +56464,22 @@ pg.item_data_statistics = {
 		57567,
 		57568,
 		57569,
+		57570,
+		57571,
+		57572,
+		57573,
+		57574,
+		57575,
+		57576,
+		57577,
+		57578,
+		57579,
+		57580,
+		57581,
+		57582,
+		57583,
+		57584,
+		57585,
 		59000,
 		59001,
 		59002,
@@ -54817,6 +56506,7 @@ pg.item_data_statistics = {
 		59122,
 		59123,
 		59125,
+		59126,
 		59601,
 		59602,
 		59603,
@@ -54933,7 +56623,31 @@ pg.item_data_statistics = {
 		59903,
 		59904,
 		60011,
-		60012
+		60012,
+		70000,
+		70001,
+		70002,
+		70003,
+		70004,
+		70005,
+		70006,
+		70007,
+		70008,
+		70009,
+		70010,
+		70011,
+		70012,
+		70013,
+		70014,
+		70015,
+		70016,
+		70017,
+		70018,
+		70019,
+		70020,
+		70021,
+		70022,
+		70023
 	}
 }
 

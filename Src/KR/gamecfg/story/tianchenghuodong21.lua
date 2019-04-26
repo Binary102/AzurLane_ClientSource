@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actor = 304051,
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "실은 아카기에게도 같은 걸 준비했답니다. 당신에게 주는 것은 나머지 한 짝…아니, 예비용랄까요.",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 			say = "(아마기씨, 왜 갑자기……?)",
 			dir = -1,
 			blackBg = true,
-			actor = 305071,
+			actor = 305070,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -82,7 +82,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "후후후, 오던 길에 신사에서 샀을 뿐이니, 그렇게 진지한 얼굴로 생각하지 않아도 된답니다. 자, 어서 받아요.",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "네, 몸에 지니고 다니시면 기쁘겠네요.",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 305071,
+			actor = 305070,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			dir = -1,
 			blackBg = true,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "후후후, 또 쥐새끼가 숨어들어온 모양이네……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "5항전의 그 아이들이구나. 아무것도 모르는 주제에 어쩜 저리 우둔하고 한심스러운 짓을……",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_tiancheng7",
 			dir = -1,
 			blackBg = true,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = " '신' 에게 받은 이 신병기로, 그 힘을 한 번 시험해봐야겠어~",
 			typewriter = {

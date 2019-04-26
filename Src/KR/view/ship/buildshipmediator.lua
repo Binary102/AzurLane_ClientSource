@@ -94,23 +94,9 @@ function slot0.register(slot0)
 end
 
 function slot0.checkActivityBuild(slot0)
-	if #getProxy(ActivityProxy).getActivityListByType(slot1, ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) > 0 then
-		slot3 = {}
-
-		for slot7, slot8 in ipairs(slot2) do
-			if not slot8:isEnd() then
-				table.insert(slot3, slot8)
-			end
-		end
-
-		if #slot3 > 0 then
-			slot0.viewComponent:setActivity(slot3)
-
-			return
-		end
-	end
-
-	if slot0.contextData.projectName == BuildShipScene.PROJECTS.ACTIVITY then
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot2:isEnd() then
+		slot0.viewComponent:setActivity(slot2)
+	elseif slot0.contextData.projectName == BuildShipScene.PROJECTS.ACTIVITY then
 		slot0.contextData.projectName = nil
 	end
 end

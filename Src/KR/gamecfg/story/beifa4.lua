@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "잘 부탁드립니다. 메이드 벨파스트, 착임했습니다!",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "사실은……",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_night",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "이러이러하고 저러저러해서 말이다냥. 조금 복잡한 사정으로 착임이 늦어졌다냥……",
 			flashout = {
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "다행이다…역시 언니들이 얘기해준 대로, 지휘관님은 자상하신 분이시네요.",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			optionFlag = 2,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "이걸로…괜찮다는 의미인가요? 좀 이해하기 어려운데…그래도 지휘관님은 역시 언니들이 얘기해준 대로 좋은 분이네요.",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "지휘관이라면 꼬마 벨파를 버릴리 없다고 믿고 있었다냥~",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 202181,
+			actor = 202180,
 			nameColor = "#a9f548",
 			say = "네! 벨파스트, 열심히 할게요!",
 			action = {
@@ -257,7 +257,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "그런데…왜 꼬마 벨파가 여기 나타난 걸까냥……",
 			flashout = {
@@ -292,7 +292,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -312,7 +312,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "유바리…뭔가 짚이는 거라도 있는 거냥?",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "흐으음…뭔가 있었던 것 같기도 하고…없었던 것 같기도 하고…",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "계속해서 실험해봐야 겠구냥…",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 302011,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "응…그럼…257 번째의 실험은…",
 			typewriter = {

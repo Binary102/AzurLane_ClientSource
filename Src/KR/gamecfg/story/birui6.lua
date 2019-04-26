@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "후후후, 역시 키리시마는 인기가 많네요.",
 			flashout = {
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "저렇게나 많은 아이들 사이에서 종횡무진……역시 타고난 매력이 있어요.",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			bgm = "story-1",
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "지휘관과 히에이 발견~이다냥!",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "식재료는 아카시가 준비한 거다냥!",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -211,7 +211,7 @@ return {
 			}
 		},
 		{
-			actor = 304011,
+			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304011,
+			actor = 304010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 304011,
+			actor = 304010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "딱히……우냐앗?! 아카시를 갑자기 들어 올리지 마라냥! 아카시는 걸어갈 거다냥!",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 301181,
+			actor = 301180,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 304011,
+			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -387,7 +387,7 @@ return {
 			}
 		},
 		{
-			actor = 304021,
+			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 304021,
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "지휘관님. 저, 히에이와 한 곡 함께 어울려주시겠어요?",
 			typewriter = {

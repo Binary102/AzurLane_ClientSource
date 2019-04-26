@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 2,
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "!? 각 기 장비 교체를 멈춰! 긴급 발함!",
 			shake = {
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			say = "이미 늦었어! 맥클러스키 편대, 날려버려라!",
 			dir = -1,
-			actor = 107061,
+			actor = 107060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

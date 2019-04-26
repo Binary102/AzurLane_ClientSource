@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 900054,
+			actor = 101260,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,7 +233,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "크리스마스 기자 그리들리, 임무 완료 보고서를 제출하러 왔습니다! 지휘관, 여기에!",
 			flashout = {
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "후우… 좋은 사진이 찍혔다! 이름은 '성야의 포옹' 으로 짓자! 음음, 이건 퓰리쳐 상 감인데!",
 			flashout = {

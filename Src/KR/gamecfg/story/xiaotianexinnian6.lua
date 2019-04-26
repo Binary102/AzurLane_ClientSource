@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_room",
 			bgm = "main-newyear",
-			actor = 900156,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "와아! 국수랑 떡국이다! 드디어 밥이네!",
 			flashout = {
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 900154,
+			actor = 205060,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900154,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "으음……! 부드러울 것 같으면서도 좀처럼 끊어지지 않는 이 식감……",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 900151,
+			actor = 101260,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900160,
+			actor = 201100,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 900157,
+			actor = 102050,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "걱정 마렴, 헬레나. 클리블랜드가 그렇게 쉽게 다칠 리는 없잖니? 걱정이 지나쳐.",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "하지만……",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 102091,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "헤이! 돌아왔어!",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900155,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "우후후, 괜찮을 거라 했잖니? 클리블랜드, 마침 잘 왔어. 이 '국수'란 거, 식으면 맛없어지는 모양이야.",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900156,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "이건 코타츠란 거야. 사쿠라 엠파이어의 최종병기라구!",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900064,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "다른 진영 분들도 코타츠의 매력에 홀딱 반했네요.",
 			flashout = {
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			actor = 900063,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900063,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "맞다냥! 여기 있는 모두에게 연하장 보내는 걸 잊었다냥!",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -381,7 +381,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900160,
+			actor = 201100,
 			nameColor = "#a9f548",
 			say = "이건 꽃……? 귀여워! 고마워유!",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900157,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "이 그림은…… 아, 행복을 상징하는 파랑새군요! 감사합니다. 소중히 간직하겠습니다.",
 			typewriter = {
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900151,
+			actor = 101260,
 			nameColor = "#a9f548",
 			say = "엘드릿지, 찌릿찌릿 무늬. 귀여워. 좋아.",
 			typewriter = {
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			actor = 900158,
+			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -454,7 +454,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900158,
+			actor = 102140,
 			nameColor = "#a9f548",
 			say = "괘, 괜찮습니다! 이, 이대로도……",
 			typewriter = {

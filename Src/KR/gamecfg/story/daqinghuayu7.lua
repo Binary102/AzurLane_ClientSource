@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "진짜 자는 거야? 혹시 자는 척하는 거 아냐?",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……정말이지, 잠들어버린 거라면 별수 없지……",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……(문질문질)",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "있잖아, 지휘관……나, 지휘관한테 하고 싶은 말이 잔뜩 있다구.",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……아무튼 나, 함대의 모두가 너무 좋아.",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그리고 지휘관, 늘 괴롭히기만 하지만, 사실은……",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그리고, 내일도 서프라이즈를 잔뜩 준비할 테니까 기대하라고~♪……왜냐면 내가 모처럼 좋은 얘길 해줬는데, 계속 자는 척이나 하고 있으니 말야!  혼좀 나야겠어~! 헤헤헤♪~",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "지, 지지진짜로??! 지휘관이 알바코어랑 같은 방에서 하룻밤을 보냈다고?!",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -384,7 +384,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",

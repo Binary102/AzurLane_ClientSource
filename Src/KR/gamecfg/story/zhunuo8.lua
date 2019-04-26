@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "어떤 상대였어?",
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,

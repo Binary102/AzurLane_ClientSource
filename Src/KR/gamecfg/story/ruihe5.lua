@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その五  今日は料理担当！</size>",
+					"幸运之鹤\n\n<size=30>五  今天料理我负责！</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "執務室・夜",
+			say = "指挥室·夜",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "指揮官、お疲れ！そろそろ夕食を持ってきてもいい？",
+			say = "指挥官辛苦了！差不多该吃晚饭了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,9 +49,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "？今日は翔鶴姉ではなく私が料理担当するって言ったでしょ？いつまでも翔鶴姉に頼るわけにはいかないから、私なりに頑張ってみたの！",
+			say = "？前面说过今天不是{namecode:95}姐而是我做饭吧？也不能老是麻烦{namecode:95}姐，我也要努力尝试一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "というわけで、ちょっと待っててー",
+			say = "所以稍微等我一会～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "しばらくしたら、瑞鶴が夕食を持ってきた。",
+			say = "过了一会，{namecode:96}把晚饭端了上来",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -110,26 +110,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "はい、揚げ鶏のネギソースに漬物、麦飯にお麩と卵の味噌汁、南国の定番ココナッツジュースに将校支給のロイヤルバナナ！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_night",
-			dir = 1,
-			actor = 307064,
-			actorName = "{namecode:96}",
-			say = "さあ、どーんと召し上がって！",
+			say = "炸鸡块加香葱蘸料，三分大麦的米饭和加鸡蛋的味增汤，南国定番的椰子果汁，还有专供军官的高级皇家香蕉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "料理の見た目はいいが、盛り付けが若干適当なのはなんとも瑞鶴らしい。",
+			say = "料理看起来很好吃，但摆盘和盛菜又微妙地有些随便，很有{namecode:96}的风格",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "こっそり揚げ鶏に沿えてある天ぷらは隠しメニューということだろうか？",
+			say = "鸡块旁边偷偷放着的天妇罗莫非是隐藏的小菜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,9 +147,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "で、どう？",
+			say = "怎么样？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +173,7 @@ return {
 			},
 			options = {
 				{
-					content = "普通に美味しい",
+					content = "很好吃",
 					flag = 1
 				}
 			}
@@ -200,9 +183,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "……普通においしい？やった！ふっふん翔鶴姉の助けがなくてもこれぐらいはできるんだからねっ！",
+			say = "……好吃吗？太好了！哼哼，就算没有{namecode:95}姐帮忙，这点程度的我还是可以的嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,9 +200,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "グレイゴーストのよりもおいしい？ありがとう指揮官！",
+			say = "比灰色幽灵做的还好吃？谢谢指挥官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,9 +217,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "あっちはヴェスタルに学んでいるらしいけど、まあ私の敵じゃないってことね！",
+			say = "虽然那边有女灶神的指导，但也不是我的对手呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,9 +235,9 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "ふふん♪今日はグレイゴーストに勝っちゃった♪",
+			say = "哼哼♪今天赢了灰色幽灵♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

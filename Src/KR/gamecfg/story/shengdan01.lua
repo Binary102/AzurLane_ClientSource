@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 101054,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "우왓! ……지휘관이구나~ 정말! 사람이 생각에 잠겨있을 때 갑자기 말 걸지 말라고~",
 			flashout = {
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 101054,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900060,
+			actor = 101050,
 			nameColor = "#a9f548",
 			say = "짜잔~! 그리들리, 크리스마스 취재 모드, 준비 완료!",
 			flashout = {
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 900060,
+			actor = 101050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

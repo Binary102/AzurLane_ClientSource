@@ -1646,12 +1646,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 2,
 		pt_get = 3,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[10802] = {
@@ -1666,12 +1664,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 1,
 		pt_get = 5,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[11201] = {
@@ -4554,12 +4550,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 1,
 		pt_get = 6,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[30802] = {
@@ -4574,12 +4568,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 2,
 		pt_get = 4,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[30803] = {
@@ -4594,12 +4586,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 2,
 		pt_get = 4,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[31201] = {
@@ -5138,12 +5128,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 1,
 		pt_get = 12,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[49901] = {
@@ -5418,12 +5406,10 @@ pg.fleet_tech_ship_template = {
 		add_get_value = 1,
 		pt_get = 8,
 		add_get_shiptype = {
-			8,
-			17
+			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[89901] = {

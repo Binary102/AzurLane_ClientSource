@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "level02",
-			actor = 401211,
+			actor = 401210,
 			nameColor = "#a9f548",
 			say = "왜 하필 이런 데로 임무가 나온 거야!",
 			typewriter = {
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "기함은 Z21, 휘하로 Z2, Z9, Z11, Z12, Z13, Z18, Z19, Z21, Z22, 합계 10척을 전력으로 한다.",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,7 +182,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "중립이었던 나르비크의 방위 전력은 대단치 않아. 충분히 대응 가능할 것으로 보여.",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "점령 자체는 쉽겠지만, 문제는 그 다음이야. 그래, 우선은 지금 작전목표에 집중하자.",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			actor = 401211,
+			actor = 401210,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 401021,
+			actor = 401020,
 			say = "……바보 같은 소리 마.",
 			typewriter = {
 				speed = 0.05,

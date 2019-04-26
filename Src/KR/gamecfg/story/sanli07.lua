@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -58,7 +58,7 @@ return {
 			}
 		},
 		{
-			actor = 301134,
+			actor = 301130,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 301184,
+			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 301144,
+			actor = 301140,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 301114,
+			actor = 301110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 301124,
+			actor = 301120,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 301134,
+			actor = 301130,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 301174,
+			actor = 301170,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -294,7 +294,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -342,7 +342,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -406,7 +406,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -438,7 +438,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -454,7 +454,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -470,7 +470,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -486,7 +486,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -518,7 +518,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -550,7 +550,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -566,7 +566,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -582,7 +582,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -598,7 +598,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,

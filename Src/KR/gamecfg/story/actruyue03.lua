@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "돌아왔다냥!",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "오오, 냄새 좋네요!",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307031,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "네! 이야~ 여름에 전골이라니 좀 이상할 줄 알았는데, 이 냄새에는 못 당해내겠네요~",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "아야나미, 끌려온 거에요……",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301141,
+			actor = 301140,
 			actorName = "{namecode:16}",
 			say = "고…고기 냄새다!",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301131,
+			actor = 301130,
 			actorName = "{namecode:15}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 301151,
+			actor = 301150,
 			actorName = "{namecode:17}",
 			say = "크으윽…인정하긴 싫지만, 냄새 진짜 좋네… 배고파 졌어……",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "하아…하아……역시 더워요…키사라기도 왔, 왔어요……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "……흐에?",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 302041,
+			actor = 302040,
 			actorName = "{namecode:46}",
 			say = "키사라기, 여름에 그런 옷 입으면 열사병 걸린다고!!?!",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301171,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900068,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "겨, 겨울의 '전골 대회' 는, 겨울옷을 입는 게 좋다고 그래서……",
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301181,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900068,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "무, 무츠키가……",
 			typewriter = {

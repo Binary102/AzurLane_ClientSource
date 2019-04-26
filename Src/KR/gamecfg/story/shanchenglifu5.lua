@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "싸울 줄만 알았던 과거의 나였다면, 상상도 못할 일이었을 텐데…",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202150,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_107",
 			say = "오로라, 연주 준비는 다 되었나?",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "네, 다 되었어요.",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202150,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "괜찮겠지, 그럼 아까하던 얘기 말이네만……",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -202,7 +202,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "하지만, 저희는 단지 싸우기만을 위해 태어난 건 아니잖아요.",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "이건 이 함대에 와서 모두에게, 그리고 지휘관에게 배운 가장 중요한 것…",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "모항에 오고 나서 변한 건 당신 뿐만이 아니랍니다, 다들 그럴 거에요. 많은 사람들과 만나, 생각과 생각이 부딪치게 되니까 변화가 생기는 거죠.",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "다양한 사람들을 만나, 서로의 생각이 부딪치는 과정에서 변화가 생기는 거…랄까요?",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "사우스다코타도, 예전에 비해 예뻐졌어요. 늘 진지한 이야기만 하는 건 변함없지만요.",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "……칭찬이라면 감사히 받아들이지.",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202150,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -336,7 +336,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "매사추세츠가 추천해줘서 말이야. 원래 나도 피아노같이 우아한 것과는 연이 없다고 생각했다만……",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -385,7 +385,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "감정 표현이 서툰 내겐, 오히려 음악이 가장 어울리는 취미일지도 모르지……",
 			typewriter = {
@@ -402,7 +402,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "후후……의외로 피아노와 궁합이 맞을지도 모르겠네요.",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "뭐 피아노도 피아노지만, 그……이 드레스, 이상하게 보이진 않나?",
 			typewriter = {
@@ -452,7 +452,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "늘 입는 옷과는 달리 이걸 입으면 왠지 이상한 기분이 든달까……",
 			typewriter = {
@@ -479,7 +479,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "……사우스다코타, 아무래도 당신은 아직 자신의 매력을 제대로 알지 못하고 있는 것 같네요.",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "뭐라고?",
 			typewriter = {
@@ -513,7 +513,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900121,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "후후, 지휘관씨가 오면, 어울리는지 아닌지 한 번 물어보는 건 어떨까요?",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "하아…",
 			typewriter = {
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 900121,
+			actor = 202150,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 900120,
+			actor = 105140,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900120,
+			actor = 105140,
 			nameColor = "#a9f548",
 			say = "그럼……시작해볼까.",
 			typewriter = {

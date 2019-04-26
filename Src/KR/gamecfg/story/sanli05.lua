@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,

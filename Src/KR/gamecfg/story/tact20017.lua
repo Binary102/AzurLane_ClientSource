@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "방금 거, 기록했어?",
@@ -18,7 +18,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "응…이젠 존재하지 않는 함대가 또 나타나다니…상황이 생각보다 훨씬 심각하네.",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "들켰다……소나에는 전혀 반응이 없었는데…",
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "이건 좀 위험한데…전속 잠항!",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "이곳의 정보를 지휘관에게 넘기지 않으면…!",
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "U-47, 먼저 가…적은 최대 심도까지 쫓아오지 못할 거야……",
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "속력은 네가 더 빠르니까, 내가 시간을 벌게.",
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "557…",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 408021,
+			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…알겠어. 행운을 빌게.",
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…나, 불행한 잠수함이라 불려 왔어…방금 전까까지만 해도 진짜 그런 줄 알았는데…",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "지금은…그렇게 생각하지 않아!",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "언니, 내게 용기를……!",

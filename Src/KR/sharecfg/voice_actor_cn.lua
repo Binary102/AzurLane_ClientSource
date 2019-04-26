@@ -699,6 +699,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Kiyono Yasuno",
 		code = 175
+	},
+	{
+		actor_name = "Kizuna AI ",
+		code = 176
 	}
 }
 

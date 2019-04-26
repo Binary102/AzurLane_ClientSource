@@ -7,7 +7,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 4000,
+					rant = 5000,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -22,7 +22,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 4330,
+					rant = 5330,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -37,7 +37,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 4660,
+					rant = 5660,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -52,7 +52,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 4990,
+					rant = 5990,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -67,7 +67,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 5320,
+					rant = 6320,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -82,7 +82,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 5650,
+					rant = 6650,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -97,7 +97,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 5980,
+					rant = 6980,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -112,7 +112,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 6310,
+					rant = 7310,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -127,7 +127,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 6640,
+					rant = 8640,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -142,7 +142,7 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					rant = 7000,
+					rant = 8000,
 					skill_id = 19160,
 					target = "TargetSelf"
 				}
@@ -166,7 +166,7 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				rant = 4000,
+				rant = 5000,
 				skill_id = 19160,
 				target = "TargetSelf"
 			}

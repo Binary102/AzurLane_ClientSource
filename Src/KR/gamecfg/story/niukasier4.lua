@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "좀 재미는 없지만……하인의 서포트로는 충분할 거야!",
 			effects = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "후우…………",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			optionFlag = 1,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "괜찮으신가요?",
 			flashout = {
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "지금 거는 돌발사고인가요……계획적인 건가요?",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202191,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "원하신다면, 이대로 원하는 만큼 계셔도 상관없습니다……나중에 야근을 해야 할지도 모르게 되겠지만.",
 			typewriter = {

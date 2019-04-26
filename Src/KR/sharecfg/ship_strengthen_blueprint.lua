@@ -2058,7 +2058,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[305] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+201|대공+9|회피+9|어뢰 발사 수+1|어뢰 탑재량+1|도감 개방: 메인1, 전투 개시, 임무",
+		effect_desc = "내구도+201|대공+9|회피+5|어뢰 발사 수+1|어뢰 탑재량+1|도감 개방: 메인1, 전투 개시, 임무",
 		extra_desc = "",
 		need_lv = 1,
 		effect_equipment_proficiency = "",
@@ -8991,7 +8991,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1025] = {
 		effect_breakout = 0,
-		effect_desc = "내구+945|대공+31|机动+5|주포 효율+5%|도감 개방 :  터치2, HP 경고",
+		effect_desc = "내구+945|대공+31|회피+5|주포 효율+5%|도감 개방 :  터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

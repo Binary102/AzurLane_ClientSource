@@ -183,7 +183,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			soundeffect = "event:/battle/boom2",
-			actor = 307061,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "쇼카쿠 언니! ...이런 일... 절대로 두 번 다시 반복하지 않아!",
 			flashout = {

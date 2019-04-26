@@ -16,28 +16,28 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "죠인죠인 롱·아일랜드 헤븐 오어 헬 타임 오브 레트뷰션 나깃 나깃 나깃 후─"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "하─ 나깃 승룡권 승룡권 용권선풍각 전광기관 해방 하앗─ 천상백렬권!"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "나깃 하아아아─ 키잉! 북두유정파안권 이 눈에 비─ K.O. 싸부─ 목숨은 내다 버리는 것!"
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

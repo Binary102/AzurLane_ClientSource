@@ -134,7 +134,7 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "防空支援",
-	painting = 1,
+	painting = 0,
 	id = 19130,
 	castCV = "",
 	aniEffect = {

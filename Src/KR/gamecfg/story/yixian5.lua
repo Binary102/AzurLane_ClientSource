@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = 1,
 			say = "终于要出发了!",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			dir = 1,
 			say = "嗯！",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "这可不是去远足呢",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			say = "我知道。不过，你究竟想在那片海找到什么？",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "谁知道呢，也许是回忆？",
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			say = "回忆？",
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			dir = -1,
 			say = "逸仙忘掉了什么吗？",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			dir = -1,
 			say = "只是有一种感觉，有那么一段很重要的回忆，被我弄丢了……",

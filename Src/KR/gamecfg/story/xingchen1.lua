@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "지휘관의 호출… 오빠가 유니콘한테 볼일이 있나…?",
@@ -78,7 +78,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "그래두… 오빠가 불려준 것만으로도… 기뻐… 에헤헤…",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "유니콘… 들어갈게? 유니콘한테 시킬 일 있어? 오빠?",
@@ -157,7 +157,7 @@ return {
 			side = 0,
 			bgName = "bg_story_star0",
 			bgspeed = 2,
-			actor = 105031,
+			actor = 105030,
 			mode = 3,
 			withoutPainting = true,
 			flashout = {
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "티켓……?",
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "라이브? 잘 모르겠지만……",
@@ -243,7 +243,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "오빠하고…… 같이?",
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "새러토가네가 항상 말하는…… '라이브 콘서트'…야?",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "에헤헤…… 오빠와 같이 외출… 유니콘…… 기대된다♪",

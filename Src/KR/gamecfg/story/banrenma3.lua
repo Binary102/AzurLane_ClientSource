@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgm = "story-2",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "누구에게나 선배라 부른다는 거 말인가요? …그러니까, 지휘관님께선 제가 그 대전 이후에 태어났다는 걸 아시나요?",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그땐 벌써 전쟁이 끝나서, 센토급은 하마터면 취소당할 위기에 처했었죠.",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그렇지만 전쟁은 이미 끝나있었고, 저희들은 그렇게 선배님들처럼 파란만장한 함력도 가질 수 없었어요.",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "하지만, 선배님들을 동경하는 이유는 함력 뿐만이 아닙니다.",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "저는 평화 속에서 태어나 평화 속에서 일생을 보냈습니다. 전쟁의 무게가 어떤 것인지 직접 느낄 수 없었어요.",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그래서 선배님들의 함력을 배우며 전쟁에 대해 제 나름대로 생각할 수 있었습니다.",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "전쟁……그건 단 한 번도 그것을 겪어보지 않은 제가 가볍게 입에 담을 수 있는 게 아닙니다.",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -236,7 +236,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "솔직히, ‘선배’ 라는 말로는 부족할 정도로 모두를 존경하고 있는걸요.",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "알겠습니다. 모두와 한 번 상담해볼게요. 폐가 된다면 이제 선배라곤 부르는 대신, 행동으로 존경을 표현하겠어요.",
 			typewriter = {

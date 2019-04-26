@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			say = "…!! 하디!",
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -1000,
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 201201,
+			actor = 201200,
 			say = "우윽!?",
 			flashN = {
 				color = {
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "헌터!!",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			expression = 2,
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			say = "큭, 지원군!? 빨리 퇴각을…!",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			hideOther = true,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "만만찮은 상대네…… 그래, 아군이 안 왔으면 당할 뻔했어.",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "아니, 한스의 판단은 정확했어. 무모하게 쫓는 것보다 아군과 합류하는 편이 나아.",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			actor = 401021,
+			actor = 401020,
 			side = 1,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -250,7 +250,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actor = 401021,
+			actor = 401020,
 			say = "그리 머지않아 제2파가 올 거야. 확실하게 대비해야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			side = 0,
 			nameColor = "#ff5c5c",
 			dir = -1,

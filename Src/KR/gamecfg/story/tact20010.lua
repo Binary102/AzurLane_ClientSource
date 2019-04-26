@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "…이런 전쟁에……의미 따윈 없다.",
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "그럼에도 당신들은 앞으로 나아가겠다는 건가. 그렇다면…그 각오를 보도록 하지.",

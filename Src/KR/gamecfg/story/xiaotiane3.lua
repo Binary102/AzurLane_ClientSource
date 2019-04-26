@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			bgm = "story-1",
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			say = "함부로 남을 의심하면 안 돼!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "어라? 시그넷, 겨울의 극기훈련인가요? 바람이 매서우니 조심하세요.",
 			flashout = {
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -150,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 207044,
+			actor = 207040,
 			nameColor = "#a9f548",
 			say = "으응, 나도 '저번의 그 사람' 은 못 봤어.",
 			flashout = {

@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "story-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……있잖아 루루티에. 슬슬 포기하는 게 어떨까나?",
 			flashout = {
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_story_school",
 			say = "아뇨, 아직이에요……이렇게 큰 도서관이라면, 반드시 있을 거에요!",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "그래도, 여기는 진지한 책 밖에 없으니까, 그런 책이 있을 것 같진 않은데……",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "반드시 있을 거에요! 제 직감이 그렇게 말하고 있어요!　",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "아, 지휘관 마침 잘 됐다……루루티에를 같이 좀 멈춰주지 않을래?",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "지, 지휘관님? 저기, 이건 그……저, 사실은 책을 좀 찾고 있어서……",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "에에, 찾아준다……고요? 아, 그럼……그…남자 사람들 끼리의, 뜨거운 우정을 그린 이야기를……",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "루루티에, 그게 틀린 건 아닌데……뭔가 다르달까나……",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "아뇨, 그런 게 아니라……아 그러니까……그래요, 예쁜 그림이 많이 실린 그림동화 같은 거에요! 지휘관님 같은 평범한 분께는 좀……추천하기 그렇기는 한데……",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "롱 아일랜드님?! 그거! 그거에요!!",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900034,
+			actor = 106010,
 			nameColor = "#a9f548",
 			say = "우왓! 뭐야 뭐야? 왜 그래?!",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "이것이……이 세계의……책! 아아, 감동적인 작품이에요……큭! 심지어 모든 것이 아름다운 그림으로 그려져 있다니……최고에요!",
 			typewriter = {
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106010,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "'후조시' 의 세계……인 거에요.",
 			typewriter = {

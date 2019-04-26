@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "즐거워~ 즐거워~ 페스티벌~♪ …응? 저건…?",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -127,7 +127,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "하하하하! 좋아! 해보자고! 술값은 미리 준비해두라고 휴가!",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "안녕! 이건 라이브용 무대? 겨우 하루 만에 이렇게까지 만들다니, 굉장해! ",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "근데, 모처럼 만의 축제인데 왜 여기서 무대 만드는 걸 돕고 있는 거야…?",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 305041,
+			actor = 305040,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -235,7 +235,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 305031,
+			actor = 305030,
 			nameColor = "#a9f548",
 			say = "「메인 아이돌, 여기에 등장! 페스티벌 스페셜 스테이지!」라는 거지. 하하하!",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "헤헤~",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 305031,
+			actor = 305030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "흠… 다음은 어디에 가 볼까… 지휘관은 바쁜 거 같고……",
 			flashout = {
@@ -345,7 +345,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "게다가 오늘은 축제 분위기니까, 오늘만큼은 어떻게 서프라이즈~! 를 해도 깜짝 놀라지 않을 거야……",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "「아카시의 숨겨진 개인기 대공개다냥!카펫 위에 다이아를 50개 놔둬 봐냥!」",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "헤헤헤",
 			action = {
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			flashout = {
 				dur = 0.5,
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = -500,
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "콜록콜록! 누구냥! 다이아 대신에 연막탄을 놔둔 건!",
 			typewriter = {
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "나와라냥! 아카시가 상품 가격을 두 배로 해서 팔 거다냥!",
 			typewriter = {
@@ -623,7 +623,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "풉……걸렸네!",
 			typewriter = {
@@ -650,7 +650,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그건 그렇고, 방금 전에 아카시가 다이아를 가져가려 했던 그 손동작…\"손은 눈보다 빠르다\" 는 건 바로 저럴 때 쓰는 말이구나…어쩜 저렇게 빠를 수 있지…",
 			typewriter = {
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -684,7 +684,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "아, 그렇지! 다이호를 찾아갈라 그랬지~!",
 			typewriter = {

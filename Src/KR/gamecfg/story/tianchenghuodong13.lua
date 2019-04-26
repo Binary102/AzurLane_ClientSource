@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 1,
 			dir = -1,
 			bgm = "story-6",
@@ -17,7 +17,7 @@ return {
 			subActors = {
 				{
 					dir = 1,
-					actor = 304051,
+					actor = 304050,
 					pos = {
 						x = 687
 					}
@@ -37,13 +37,13 @@ return {
 			side = 0,
 			hideOther = true,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "…호쇼씨가 함재기는 전부 무사귀환 시켜달라 했는데……곤란하게 됐네요……",
 			subActors = {
 				{
 					dir = 1,
-					actor = 303091,
+					actor = 303090,
 					pos = {
 						x = -687
 					}
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "연락이 두절된 건 세이렌에게 격추되었을 가능성이 높아요. 다른 방향에 카가가 있는 흔적이 보이지 않으니, 우선은 9시 방향으로 전진할 수 밖에 없겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			expression = 2,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "아마기씨, 크크, 큰일났어요!",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "에, 그그게…하늘에서 꽤 많은 수의 그림자가 접근 중이에요!",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -161,7 +161,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "항공모함 형태의 세이렌이 있다는 건 거의 확실하고…전 함, 대공 태세를 갖춰주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "대, 대공 태세요?",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "네. 지그재그로 움직이며 전진하고, 부포의 시야를 최대한 확보하여 날아다니는 걸 쏴주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			expression = 1,
 			side = 1,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			nameColor = "#a9f548",
 			say = "아, 네! 나카, 힘내볼게요!",
 			typewriter = {

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "마음의 요람, 마음에 두는 존재…대체 뭘까……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "지금 이런 걸 고민할 때가 아니지.",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "묘코 언니와의 특훈 덕에 비서함 업무도 익숙해졌으니",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "지휘관 나리도 기뻐할 것 같아. 정말 다행이다.",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "이대로 비서함을 계속하면, 지휘관 나리랑도 나를 더 봐주겠지…?",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "그러면…어라……? 그러면 어떻게 되는 거지……?",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "으으, 왠지…훈련 때문인가, 피곤하네……잠들 것 같아……",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "후으……무슨 일이죠……긴급 임무인가요……",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-1",
-			actor = 303091,
+			actor = 303090,
 			say = "벌써 시간이 이렇게?!",
 			flashN = {
 				color = {
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "지, 지각하겠다! ……옷이 잘 안 입혀! 그리고 머리는…머리는…늘 묘코 언니가 해줬는데……",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "이런 모습을 지휘관 나리에게 보여지면 난…!",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_room",
 			say = "카, 카미카제씨?! 어떻게 여기에?",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……죄송해요.",
 			typewriter = {
@@ -437,7 +437,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -505,7 +505,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "에? 그, 그건……",
 			typewriter = {
@@ -518,7 +518,7 @@ return {
 			}
 		},
 		{
-			actor = 301301,
+			actor = 301300,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
@@ -571,7 +571,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(내가, 지휘관 나리를……)",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 303091,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(혹시 난……)",
 			typewriter = {

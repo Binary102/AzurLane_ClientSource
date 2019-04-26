@@ -33,7 +33,7 @@ function ys.Battle.ManualWeaponQueue.Containers(slot0, slot1)
 end
 
 function ys.Battle.ManualWeaponQueue.GetQueueHead(slot0)
-	return slot0._overheatQueue[1]
+	return slot0._overheatQueue[#slot0._overheatQueue] or slot0._cooldownList[1]
 end
 
 function ys.Battle.ManualWeaponQueue.CheckWeaponInitalCD(slot0)
@@ -79,11 +79,13 @@ end
 function ys.Battle.ManualWeaponQueue.addWeaponEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.MANUAL_WEAPON_FIRE, slot0.onManualWeaponFire)
 	slot1:RegisterEventListener(slot0, slot0.MANUAL_WEAPON_READY, slot0.onManualWeaponReady)
+	slot1:RegisterEventListener(slot0, slot0.MANUAL_WEAPON_INSTANT_READY, slot0.onManualInstantReady)
 end
 
 function ys.Battle.ManualWeaponQueue.removeWeaponEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot0.MANUAL_WEAPON_READY)
 	slot1:UnregisterEventListener(slot0, slot0.MANUAL_WEAPON_FIRE)
+	slot1:UnregisterEventListener(slot0, slot0.MANUAL_WEAPON_INSTANT_READY)
 end
 
 function ys.Battle.ManualWeaponQueue.onManualWeaponFire(slot0, slot1)
@@ -96,6 +98,20 @@ end
 
 function ys.Battle.ManualWeaponQueue.onManualWeaponReady(slot0, slot1)
 	slot0:removeFromCDList(slot1.Dispatcher)
+	slot0:fillCooldownList()
+end
+
+function ys.Battle.ManualWeaponQueue.onManualInstantReady(slot0, slot1)
+	slot2 = slot1.Dispatcher
+
+	for slot6, slot7 in ipairs(slot0._overheatQueue) do
+		if slot2 == slot7 then
+			table.remove(slot0._overheatQueue, slot6)
+
+			break
+		end
+	end
+
 	slot0:fillCooldownList()
 end
 

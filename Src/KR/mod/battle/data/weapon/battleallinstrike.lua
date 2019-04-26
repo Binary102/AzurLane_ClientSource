@@ -19,6 +19,7 @@ function ys.Battle.BattleAllInStrike.Ctor(slot0, slot1)
 
 	slot0._skill = slot0.Battle.BattleSkillUnit.New(slot1)
 	slot0._reloadFacotrList = {}
+	slot0._jammingTime = 0
 end
 
 function ys.Battle.BattleAllInStrike.Update(slot0)
@@ -26,7 +27,7 @@ function ys.Battle.BattleAllInStrike.Update(slot0)
 end
 
 function ys.Battle.BattleAllInStrike.UpdateReload(slot0)
-	if slot0._CDstartTime then
+	if slot0._CDstartTime and not slot0._jammingStartTime then
 		if slot0:GetReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime() then
 			slot0:handleCoolDown()
 		else
@@ -183,6 +184,7 @@ function ys.Battle.BattleAllInStrike.handleCoolDown(slot0)
 	slot0:TriggerBuffOnReady()
 
 	slot0._CDstartTime = nil
+	slot0._jammingTime = 0
 end
 
 function ys.Battle.BattleAllInStrike.FlushReloadRequire(slot0)
@@ -200,14 +202,27 @@ function ys.Battle.BattleAllInStrike.QuickCoolDown(slot0)
 		slot0._currentState = slot0.STATE_READY
 
 		slot0._allInWeaponVo:InstantCoolDown(slot0)
-		slot0:DispatchEvent(slot1.Event.New(slot2.MANUAL_WEAPON_READY, {}))
+		slot0:DispatchEvent(slot1.Event.New(slot2.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
 	end
 end
 
 function ys.Battle.BattleAllInStrike.GetReloadFinishTimeStamp(slot0)
-	return slot0._reloadRequire + slot0._CDstartTime
+	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime
+end
+
+function ys.Battle.BattleAllInStrike.StartJamming(slot0)
+	slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+end
+
+function ys.Battle.BattleAllInStrike.JammingEliminate(slot0)
+	if not slot0._jammingStartTime then
+		return
+	end
+
+	slot0._jammingTime = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._jammingStartTime
+	slot0._jammingStartTime = nil
 end
 
 function ys.Battle.BattleAllInStrike.CLSBullet(slot0)

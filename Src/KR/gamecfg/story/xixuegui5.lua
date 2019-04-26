@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 301324,
+			actor = 301320,
 			nameColor = "#a9f548",
 			say = "지…히…간……",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			say = "응…아마 가벼운 몸살이었을 거야. 그래도 안심하면 안 돼. {namecode:34}, 젖은 수건 두 개랑 물 한 대접, 가져다줄 수 있을까?",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			actor = 301330,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "할 수 있는 건 다 했다냥, 한 숨 푹 자고 일어나면 정신을 차릴 거다냥. 보아하니 {namecode:98}가 나설 기회는 없었던 것 같구냥?",
 			flashout = {
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_room",
 			say = "후……다행이다.",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			say = "……역시 됐어, 난 간호에 간자도 모르는걸, 책 몇 줄 본 게 다야…그리고 그전엔 모두에게 폐만 끼쳤고……",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -212,7 +212,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			say = "뭐?! 너너너, 어떻게 안 거야?!",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 203011,
+			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			say = "……그래?",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900093,
+			actor = 201230,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

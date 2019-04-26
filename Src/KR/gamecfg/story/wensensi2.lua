@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			say = "怎么连阿斯托里亚姐姐都变成这样了……",
+			say = "怎么连阿斯托利亚姐姐都变成这样了……",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103101,
+			actor = 103100,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…阿斯托里亚姐姐…",
+			say = "唔…阿斯托利亚姐姐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "文森斯有些无奈地被阿斯托里亚一口一口喂着蛋糕。",
+			say = "文森斯有些无奈地被阿斯托利亚一口一口喂着蛋糕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 103102,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "指挥官，help me…",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "在一边，阿斯托里亚看着文森斯露出了有些……幸福的笑容？",
+			say = "在一边，阿斯托利亚看着文森斯露出了有些……幸福的笑容？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得阿斯托里亚的角色都变了……？",
+			say = "总觉得阿斯托利亚的角色都变了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿斯托里亚说着一把把文森斯抱在怀里。",
+			say = "阿斯托利亚说着一把把文森斯抱在怀里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "总觉得，阿斯托里亚莫非有变成波特兰的潜质……？",
+			say = "总觉得，阿斯托利亚莫非有变成波特兰的潜质……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			say = "嗯…偶然碰到指挥官然后说起哈曼怎么了…然后就…",
@@ -29,7 +29,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			say = "…你看，指挥官这不是因为担心哈曼才找过来的吗？",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 101251,
+			actor = 101250,
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 107051,
+			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 101241,
+			actor = 101240,
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -224,7 +224,7 @@ return {
 		{
 			bgName = "bg_story_room",
 			side = 2,
-			actor = 101251,
+			actor = 101250,
 			dir = 1,
 			blackBg = true,
 			hideOther = true,

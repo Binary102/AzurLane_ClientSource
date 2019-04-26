@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その七 不屈の鶴</size>",
+					"幸运之鹤\n\n<size=30>七 不屈之鹤</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "執務室・深夜",
+			say = "指挥室·深夜",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "指揮官はやっぱり…翔鶴姉が用意してくれた分を選ぶよね…",
+			say = "指挥官果然…还是选了{namecode:95}姐准备的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			},
 			options = {
 				{
-					content = "瑞鶴を呼び止める",
+					content = "叫住{namecode:96}",
 					flag = 1
 				}
 			}
@@ -68,9 +68,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "両方ほしい…？",
+			say = "两边都要？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			say = "うふふ、指揮官はずいぶんと小腹を空かせたご様子ですね♪",
+			say = "哈哈，看来指挥官肚子已经饿扁了呢♪",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -106,9 +106,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "無理しなくていいよ…？せっかく翔鶴姉が用意してくれたんだし、私また今度でいいから…ね？",
+			say = "不用勉强自己哦…？难得{namecode:95}姐准备了，我的就下次再说吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,9 +123,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "……瑞鶴も翔鶴も自分の翼だから、どちらかを選ぶだなんて言語道断…？",
+			say = "……“{namecode:96}和{namecode:95}都是我的翅膀，不可能只选择一边”……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,9 +140,9 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "…あ、あぅ…///",
+			say = "……啊、啊呜……（///）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "瑞鶴が一瞬真っ赤になった。",
+			say = "{namecode:96}一下子脸红了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,9 +175,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "フォローはいいですけど、そのセリフはちょっと痛いかも……",
+			say = "虽然知道指挥官是想解围……但这台词实在有点……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,9 +192,9 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "指揮官、さっきはありがとう。",
+			say = "指挥官，刚才谢谢你了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -226,9 +226,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "私も翔鶴姉も大切にしているとわかっていたのに、あんなに取り乱しちゃって……。",
+			say = "明知道指挥官对{namecode:95}姐和我都一样重视…我还像那样乱了阵脚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,9 +243,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "もし私がまた自信を無くして、ヘンに落ち込むことがあったら…",
+			say = "如果我又失去自信，像这样陷入消沉的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,9 +260,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "ううん、そんなことは二度としないわ！だって私、不屈の瑞鶴なんだからっ！",
+			say = "不对，不会再这样了！我可是不屈的{namecode:96}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,9 +285,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "でもたまには…「瑞鶴のほうがもっと大切だよ」って言ってくれると……",
+			say = "不过…要是听到“我更重视{namecode:96}哦”这类的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,9 +302,9 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "ちょっと嬉しい……かな…？",
+			say = "我大概会更高兴……吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,9 +320,9 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "…ね？指揮官…？",
+			say = "呐…指挥官…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

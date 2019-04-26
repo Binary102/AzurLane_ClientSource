@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "센토 씨는 온 지 얼마 안 됐으니 별수 없긴 하지만, 그래도 몸매가 이렇게 좋은데 수영복을 안 입으면 좀 아까운 거 같아서…",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "그렇죠…죄송해요, 함대에 이제 막 온 참이라 수영복 준비는 아직……",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "저기, 모항의 안내는……?",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900102,
+			actor = 101251,
 			nameColor = "#a9f548",
 			say = "새러토가 거기서어어어어어!!! 허먼이 먹으려 했던 거 변상해내!!",
 			flashout = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900103,
+			actor = 107031,
 			nameColor = "#a9f548",
 			say = "아하하하! 서라고 해서 순순히 잡혀줄 새러토가 님이 아니라고!",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_106",
 			say = "저분이 새러토가 선배님……대단하시네요……",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "아크 로열 선배님이시네요! 수영복이 멋있어요!",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "흠. 이 아크 로열! 구축함 아이들이 안심하고 놀 수 있도록, 전력을 다해 모항을 수호하겠다!",
 			effects = {
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			say = "뭐, 저렇게 보면 쿨하고 멋있어 보이지만……",
 			effects = {
@@ -362,7 +362,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -420,7 +420,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "모래사장! 푸른 하늘! 바다! 그리고 구축함 여동생들! 여름은 최고로구나아아!!",
 			effects = {
@@ -461,7 +461,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206041,
+			actor = 206040,
 			dir = 1,
 			say = "아크 로열 선배님! 안녕하세요!",
 			nameColor = "#a9f548",
@@ -488,7 +488,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "에, 엣헴! 센토?! 재블린도? 보기 힘든 조합이군.",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -527,7 +527,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -579,7 +579,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "그게, 전 이 함대에 배속 받은 지 얼마 안 돼서, 수영복은 아직 준비가……",
 			typewriter = {
@@ -602,7 +602,7 @@ return {
 			}
 		},
 		{
-			actor = 900104,
+			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -618,7 +618,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -637,7 +637,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900104,
+			actor = 207021,
 			nameColor = "#a9f548",
 			say = "아아… 이런 이런, 임무 수행하는 걸 잊고 있었군. 구축함 아이들을 감상……크흠! 아이들이 안전을 감시하지 않으면! 미안하네!",
 			flashout = {
@@ -681,7 +681,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201212,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -711,7 +711,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "아크 로열 선배님, 힘내세요!",
 			typewriter = {
@@ -724,7 +724,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",

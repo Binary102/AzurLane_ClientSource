@@ -394,20 +394,17 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_ENTER_EXTRA_CHAPTER, function (slot0)
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot1:isEnd() then
 			slot2 = getProxy(ChapterProxy)
-			slot3 = ActivityLevelConst.getMapsByActivityType(slot0.viewComponent.maps, slot1:getConfig("type"))
-			slot4 = ActivityLevelConst.hasExtraMap(slot3)
-			slot8 = (slot0.contextData.map:existHardMap() and ActivityLevelConst.isClearMaps(slot3, Map.ACTIVITY_HARD)) or (not slot5 and ActivityLevelConst.isClearMaps(slot3, Map.ACTIVITY_EASY))
 
-			if slot4 and slot8 then
-				slot9 = slot2:getUnlockActMapBytype(Map.ACT_EXTRA, slot4:getConfig("on_activity"))
+			if ActivityLevelConst.hasExtraMap(ActivityLevelConst.getMapsByActivityType(slot0.viewComponent.maps, slot1:getConfig("type"))) and ActivityLevelConst.canSwitchToEx(slot2:getMaps(), slot4) then
+				slot5 = slot2:getUnlockActMapBytype(Map.ACT_EXTRA, slot4:getConfig("on_activity"))
 
-				slot0.viewComponent:setMap(slot9.id)
+				slot0.viewComponent:setMap(slot5.id)
 
-				if slot9:getActiveChapter() then
-					slot0.viewComponent:switchToChapter(slot10)
+				if slot5:getActiveChapter() then
+					slot0.viewComponent:switchToChapter(slot6)
 				end
 			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n((slot5 and "extra_chapter_locked_tip") or "extra_chapter_locked_tip_1"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
 			end
 		end
 	end)
@@ -546,6 +543,7 @@ function slot0.listNotificationInterests(slot0)
 		ChapterProxy.CHAPTER_TIMESUP,
 		ChapterProxy.SHAM_CHAPTER_UPDATED,
 		ChapterProxy.GUILD_CHAPTER_UPDATED,
+		ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED,
 		PlayerProxy.UPDATED,
 		DailyLevelProxy.ELITE_QUOTA_UPDATE,
 		GAME.TRACKING_DONE,
@@ -581,6 +579,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateChapterVO(slot3.chapter, slot3.dirty)
 	elseif slot2 == ChapterProxy.CHAPTER_ADDED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, 0)
+	elseif slot2 == ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED then
+		slot0.viewComponent:kizunaFlagOperation(slot3)
 	elseif slot2 == ChapterProxy.SHAM_CHAPTER_UPDATED then
 		slot0.viewComponent:updateChapterVO(slot3.shamChapter, slot3.dirty)
 	elseif slot2 == ChapterProxy.GUILD_CHAPTER_UPDATED then
@@ -708,9 +708,10 @@ function slot0.handleNotification(slot0, slot1)
 							slot1.viewComponent:popStageStrategy()
 						end
 
-						slot1.viewComponent:updateBombPanel()
-						slot1.viewComponent.updateBombPanel.viewComponent:tryAutoTrigger()
-						slot1.viewComponent.updateBombPanel.viewComponent.tryAutoTrigger.viewComponent:dispatchGuide()
+						slot1.viewComponent:kizunaFlagOperation(slot2.extraFlagAddList)
+						slot1.viewComponent.kizunaFlagOperation.viewComponent:updateBombPanel()
+						slot1.viewComponent.kizunaFlagOperation.viewComponent.updateBombPanel.viewComponent:tryAutoTrigger()
+						slot1.viewComponent.kizunaFlagOperation.viewComponent.updateBombPanel.viewComponent.tryAutoTrigger.viewComponent:dispatchGuide()
 					end)
 				elseif slot0 == ChapterConst.OpAmbush then
 					slot1.viewComponent:tryAutoTrigger()
@@ -725,6 +726,12 @@ function slot0.handleNotification(slot0, slot1)
 							slot1.viewComponent:easeAvoid(slot1.viewComponent.grid.cellFleets[slot3.findex].tf.position, slot2)
 							coroutine.yield()
 						end
+					elseif slot6.type == ChapterConst.BoxBanaiDamage then
+						slot1.viewComponent:doPlayAnim("AirStrikeBanai", function (slot0)
+							setActive(slot0, false)
+							slot0()
+						end)
+						coroutine.yield()
 					elseif slot6.type == ChapterConst.BoxTorpedo then
 						if slot3.fleet:canClearTorpedo() then
 							pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_destroy_torpedo"))
@@ -746,6 +753,7 @@ function slot0.handleNotification(slot0, slot1)
 						getProxy(ChapterProxy).updateChapter(slot1, slot0)
 						slot0.viewComponent:updateBombPanel(true)
 						slot0.viewComponent:tryAutoTrigger()
+						slot0.viewComponent:updatePoisonAreaTip()
 					end)
 				elseif slot0 == ChapterConst.OpSubState then
 					slot1:saveSubState(slot3.subAutoAttack)
@@ -942,10 +950,12 @@ function slot0.playAIActions(slot0, slot1, slot2)
 	slot4 = coroutine.create(function ()
 		slot0.viewComponent:frozen()
 
-		for slot3, slot4 in ipairs(slot0.viewComponent) do
-			slot6, slot7 = slot4:applyTo(slot5, true)
+		slot0 = {}
 
-			slot0:playAIAction(slot4, function ()
+		for slot4, slot5 in ipairs(ipairs) do
+			slot7, slot8 = slot5:applyTo(slot6, true)
+
+			slot0:playAIAction(slot5, function ()
 				slot0, slot1 = slot0:applyTo(slot0, false)
 
 				if slot0 then
@@ -955,10 +965,29 @@ function slot0.playAIActions(slot0, slot1, slot2)
 				onNextTick(slot3)
 			end)
 			coroutine.yield()
+
+			if isa(slot5, FleetAIAction) and slot5.actType == ChapterConst.ActType_Poison and slot6:existFleet(FleetType.Normal, slot5.line.row, slot5.line.column) then
+				table.insert(slot0, slot6:getFleetIndex(FleetType.Normal, slot5.line.row, slot5.line.column))
+			end
+		end
+
+		if #slot0 > 0 then
+			slot1 = 0
+
+			for slot5 = 1, #slot0, 1 do
+				slot0.viewComponent.grid:showFleetPoisonDamage(slot0[slot5], function ()
+					if slot0 + 1 >= #slot1 then
+						slot2()
+						slot3.viewComponent:unfrozen()
+					end
+				end)
+			end
+
+			return
 		end
 
 		slot4()
-		slot4.viewComponent:unfrozen()
+		slot0.viewComponent:unfrozen()
 	end)
 
 	function ()
@@ -1024,11 +1053,13 @@ function slot0.playAIAction(slot0, slot1, slot2)
 		end
 	elseif isa(slot1, FleetAIAction) and slot3:getFleetIndex(FleetType.Normal, slot1.line.row, slot1.line.column) then
 		if slot3:isPlayingWithBombEnemy() then
-			if slot3:getMapShip(slot5).getShipType(slot6) == ShipType.QingHang or slot6:getShipType() == ShipType.ZhengHang then
+			if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot3:getMapShip(slot5):getShipType()) then
 				slot0.viewComponent:doPlayStrikeAnim(slot6, "AirStrikeUI", slot2)
 			else
 				slot0.viewComponent:doPlayStrikeAnim(slot6, "CannonUI", slot2)
 			end
+		elseif slot1.actType == ChapterConst.ActType_Poison then
+			slot2()
 		elseif slot1.target then
 			slot5 = slot3.fleets[slot4]
 
@@ -1036,7 +1067,7 @@ function slot0.playAIAction(slot0, slot1, slot2)
 				return slot0.row == slot0.target.row and slot0.column == slot0.target.column
 			end) and slot6.attachment == ChapterConst.AttachLandbase then
 				if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
-					if slot3:getMapShip(slot5).getShipType(slot8) == ShipType.QingHang or slot8:getShipType() == ShipType.ZhengHang then
+					if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot3:getMapShip(slot5):getShipType()) then
 						slot0.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot2)
 					else
 						slot0.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot2)

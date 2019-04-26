@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -40,7 +40,7 @@ return {
 			}
 		},
 		{
-			actor = 402014,
+			actor = 402010,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 402014,
+			actor = 402010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actor = 402014,
+			actor = 402010,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 402034,
+			actor = 402030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,13 +167,13 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "쾨니히스베르크 & 쾰른",
-			actor = 402034,
+			actor = 402030,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Z23 쨩?",
 			subActors = {
 				{
-					actor = 402014,
+					actor = 402010,
 					pos = {
 						x = 685
 					}
@@ -189,7 +189,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

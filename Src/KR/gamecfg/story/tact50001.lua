@@ -14,7 +14,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "이 정도 병력이면 충분히 해볼 만 하겠어, 사쿠라 엠파이어의 배짱이 어느 정도인지, 오늘 이 언니가 시험해주도록 하지!",
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -43,7 +43,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "인정하긴 싫지만, 틀린 말은 아니군……",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 103041,
+			actor = 103040,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "긴말 할 필요 없겠지. 자, 와라!",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

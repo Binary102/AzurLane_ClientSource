@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301791,
+			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "글쎄요. 확실히 전 계책을 구사하는 걸 좋아하지만, 정면 승부에 능하지 못하다곤 말한 적이 한 번도 없답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "흠흠……그대가 적이 아니라 다행이군, 거기까지 생각할 줄이야.",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 301791,
+			actor = 301790,
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
@@ -104,7 +104,7 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = -1,
-			actor = 301791,
+			actor = 301790,
 			say = "지나가고 싶다면 이 하타카제를 쓰러뜨리는 게 좋을게다!",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,

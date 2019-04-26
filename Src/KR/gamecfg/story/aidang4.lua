@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_school",
 			bgm = "story-1",
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "午饭也吃了，要买的东西也差不多了吧。还挺顺利的？",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "呵呵，看看你，一脸“就这么回去好可惜”的表情，有没有什么想去的地方呢？",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "嗯……我不是说了今天交给你带路的吗？这样是要扣分的哦。",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……说说而已，其实姐姐我倒是有点东西想看，你不妨……陪陪我吧？",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "门票，拿好。抱歉啊，让你陪着我到处跑。",
 			flashout = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "唉，好久没来看电影了呢。其实姐姐我挺喜欢这种爱情片的~",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……呃…………这…………该不会是我买错票了……？",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "嗯，嘛，这种偶尔也会看一看啦。好了指挥官，要开始了哦！",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "座位……嗯，就挨着坐好了，要是害怕的话可以扑到姐姐怀里来哦？",
 			flashout = {
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "实在不行的话，中途退场也可以啊。本来就是我硬拉你来的……",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "你可不要像{namecode:66}那样逞能哦。有什么事就和姐姐说知道吗？",
 			typewriter = {

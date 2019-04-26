@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "젠장, 적들은 남쪽에서 온 게 분명해, 왜 시카고 쪽에선 경보가 하나도 안 온 거야!",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			say = "어쩌면 오스트레일리아가 회의 때문에 바빠서, 제대로 지휘권을 인계하지 않았다던……가?",
 			nameColor = "#a9f548",
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "엥? 지휘권? 인계? 뭐야 그건?",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 103101,
+			actor = 103100,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "맛있는 거야?",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "지금은 설명할 때가 아니에요……최악의 상황은, 시카고 언니네가 있는 남부함대가 대응도 제대로 못 해보고 당한 경우……만약 이렇다면 정말 큰일이겠죠.",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 103091,
+			actor = 103090,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "아무튼, 제 쪽에서 전군에 경보를 보내긴 했지만, 지금 저희는 고립되어 도움을 기대하긴 힘든 상황이라 보는 게 좋아요.",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "그건 나도 알거 같네……그것보다, 적의 주력함대가 바로 눈앞에 있잖아!",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 103081,
+			actor = 103080,
 			side = 1,
 			nameColor = "#a9f548",
 			say = "퀸시, 빈센스, 다치지 않도록 해!",
@@ -139,14 +139,14 @@ return {
 		{
 			actorName = "퀸시 & 빈센스",
 			side = 0,
-			actor = 103091,
+			actor = 103090,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "라져!",
 			subActors = {
 				{
-					actor = 103101,
+					actor = 103100,
 					dir = -1,
 					pos = {
 						x = 750

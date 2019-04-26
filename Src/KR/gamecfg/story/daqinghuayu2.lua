@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "원, 투~! (쭉~쭈욱~)",
 			typewriter = {
@@ -91,14 +91,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308021,
+			actor = 308020,
 			dir = 1,
 			hideOther = true,
 			actorName = "이26 & 데이스",
 			say = "원, 투~! (쭉~쭈욱~)",
 			subActors = {
 				{
-					actor = 108011,
+					actor = 108010,
 					pos = {
 						x = 750
 					}
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "쓰리, 포~! (바들바들)",
 			typewriter = {
@@ -165,14 +165,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408011,
+			actor = 408010,
 			dir = 1,
 			hideOther = true,
 			actorName = "U-81 & 이19",
 			say = "쓰리, 포~~~! (바들바들)",
 			subActors = {
 				{
-					actor = 308011,
+					actor = 308010,
 					pos = {
 						x = 750
 					}
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "파이브, 식스~ (빙글빙글)",
 			typewriter = {
@@ -239,14 +239,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 308031,
+			actor = 308030,
 			dir = 1,
 			hideOther = true,
 			actorName = "이58 & U-557",
 			say = "파이브……식스……(빙글빙글)",
 			subActors = {
 				{
-					actor = 408031,
+					actor = 408030,
 					pos = {
 						x = 750
 					}
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "우선은 이렇게…다음은 이렇게……",
 			typewriter = {
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "피니쉬! '서브마린 체조', 끝!",
 			flashout = {
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 308021,
+			actor = 308020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 308031,
+			actor = 308030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 408011,
+			actor = 408010,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 108021,
+			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "내가 함께할 수 있도록 설득해둘게!",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			}
 		},
 		{
-			actor = 408031,
+			actor = 408030,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -495,7 +495,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "이 알바코어 님이라면 괜찮다니깐! 트러스트 미~!",
 			typewriter = {

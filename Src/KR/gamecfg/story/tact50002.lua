@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 2,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -47,7 +47,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "그렇네, 이번엔 함대를 굉장히 촉박하게 편성했으니… {namecode:94}, {namecode:37}, {namecode:153}의 전투력에도 한계가 있는데다 적들의 종합 전투력도 우리보다 월등한 상황… 저들에게 숨돌릴 틈을 줄 순 없어.",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			actor = 303041,
+			actor = 303040,
 			side = 1,
 			nameColor = "#a9f548",
 			actorName = "{namecode:56}",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 303021,
+			actor = 303020,
 			side = 0,
 			nameColor = "#a9f548",
 			actorName = "{namecode:54}",

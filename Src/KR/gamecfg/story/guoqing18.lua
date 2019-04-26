@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "AF에서 한 번 침몰한 것처럼 보인 건... 당신들은 대체 뭐야!?",
@@ -29,7 +29,7 @@ return {
 			side = 1,
 			say = "보는 바와 같이. 애초에 여긴 신께서 하사한 \"성역\", 여기선 우리는 무한한 힘을 발휘할 수 있단다.",
 			dir = -1,
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "동료를 희생시키면서 이런 짓을 한다고 해도, 그 녀석... \"고스트\"한테 이기진 못해!",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "이대로 도망쳐봤자 미래는 없어! 날 믿어! 지금이라면────",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			nameColor = "#ff0000",
 			dir = -1,
 			side = 1,
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "아카기!!! ...즈이카쿠, 말은 필요 없다! 네가 강자인지 아닌지, 싸워서 증명해 보여라!",

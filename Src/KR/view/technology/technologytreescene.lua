@@ -42,11 +42,6 @@ function slot0.initData(slot0)
 	slot0.nationSelectedCount = 0
 	slot0.typeSelectedCount = 0
 	slot0.countInEveryRow = 5
-	slot0.rowHeight = {
-		184,
-		380,
-		600
-	}
 	slot0.collectionProxy = getProxy(CollectionProxy)
 	slot0.groupIDGotList = {}
 
@@ -73,6 +68,7 @@ function slot0.findUI(slot0)
 	slot0.rightContainer = slot0:findTF("Right/ViewPort/Container")
 	slot0.headItem = slot0:findTF("HeadItem")
 	slot0.helpBtn = slot0:findTF("top/help_btn")
+	slot0.rowHeight = slot0.headItem.rect.height
 end
 
 function slot0.onBackPressed(slot0)
@@ -291,9 +287,11 @@ function slot0.updateTecItemList(slot0)
 			setActive(slot6, true)
 			removeOnButton(slot6)
 			onButton(slot0, slot6, function ()
-				if slot1.rowHeight[1] < GetComponent(slot0, "LayoutElement").preferredHeight then
+				if slot1.rowHeight < GetComponent(slot0, "LayoutElement").preferredHeight then
 					slot1.rightLSC.enabled = true
-					GetComponent(slot2, "LayoutElement").preferredHeight = slot1.rowHeight[1]
+					slot2 = slot1:findTF(slot0, slot1.rightContainer)
+					slot4 = slot1:findTF("ShipContainer", slot2)
+					GetComponent(slot2, "LayoutElement").preferredHeight = slot1.rowHeight
 
 					setLocalRotation(slot1:findTF("ClickBtn/ArrowBtn", slot2), {
 						z = 180
@@ -301,7 +299,7 @@ function slot0.updateTecItemList(slot0)
 				else
 					slot1.rightLSC:ScrollTo(slot2)
 
-					GetComponent(slot1:findTF(slot0, slot1.rightContainer), "LayoutElement").preferredHeight = slot1.rowHeight[math.modf(#pg.fleet_tech_ship_class[slot1.findTF(slot0, slot1.rightContainer)].ships / slot1.countInEveryRow) + 1]
+					GetComponent(slot1:findTF(slot0, slot1.rightContainer), "LayoutElement").preferredHeight = slot1:findTF("ShipContainer", slot1.findTF(slot0, slot1.rightContainer)).rect.height
 
 					setLocalRotation(slot4, {
 						z = 0
@@ -318,9 +316,11 @@ function slot0.updateTecItemList(slot0)
 	end
 
 	function slot0.rightLSC.onReturnItem(slot0, slot1)
-		setLocalRotation(slot0:findTF("ClickBtn/ArrowBtn", slot1), {
+		setLocalRotation(slot2, {
 			z = 180
 		})
+
+		GetComponent(slot1, "LayoutElement").preferredHeight = slot0.rowHeight
 	end
 
 	if slot0.rightLSC.totalCount ~= 0 then
@@ -396,8 +396,7 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 						setImageSprite(slot7, GetSpriteFromAtlas("ui/technologytreeui_atlas", "card_bg_finished"))
 						setActive(slot21, false)
 						setActive(slot24, false)
-						setActive(slot23, false)
-						setActive(slot22, false)
+						setActive(slot16, false)
 						setActive(slot25, true)
 					else
 						setText(slot11, "+" .. pg.fleet_tech_ship_template[slot26].pt_get + pg.fleet_tech_ship_template[slot26].pt_level)

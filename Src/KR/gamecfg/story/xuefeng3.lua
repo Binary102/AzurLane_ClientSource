@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その三　VS時雨！？</size>",
+					"叫我{namecode:22}大人！\n\n<size=30>三　VS{namecode:17}！？</size>",
 					1
 				}
 			}
@@ -21,9 +21,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
-			say = "寮舎でまたコインを拾ったわ、この馬鹿指揮官♪",
+			say = "本大人在后宅捡到家具币了！还不跪谢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "寮舎でコインを拾ったのだ！雪風様に感謝するのだ！",
+			say = "我在后宅捡到家具币了呦，笨蛋指挥官♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,12 +74,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -108,9 +108,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
-			say = "なんなのよ！なんで雪風がここにいるの！",
+			say = "什么啊！为什么{namecode:22}也在这里啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			say = "なんなのだ！この秘書艦の雪風様を差し置いて！",
+			say = "怎么回事！为什么这家伙会比作为秘书舰的{namecode:22}大人先报告！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -166,12 +166,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -200,9 +200,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
-			say = "ちっ、なんであの雪風がここにいるのよ……",
+			say = "可恶，没想到{namecode:22}这个笨蛋在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			say = "ぐぬぬ……まさか時雨がここにいるなんて……",
+			say = "呃呃呃…居然{namecode:17}这家伙会出现……",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -258,12 +258,12 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "…………",
 			subActors = {
 				{
-					actor = 301164,
+					actor = 301160,
 					pos = {
 						x = -750
 					}
@@ -297,14 +297,14 @@ return {
 				x = 0,
 				number = 1
 			},
-			actor = 301154,
+			actor = 301150,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:17}",
-			say = "もう我慢出来ないわ！雪風、勝負よ！",
+			say = "忍不下去了！{namecode:22}！一决胜负吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,9 +326,9 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "あーはっはっは！この雪風様に一度も勝てなかったあんたが勝負なのだと！ふん！なんでもかかってこいなのだ！",
+			say = "啊哈哈哈！连一次都没有赢过本大人的家伙居然说要一决胜负！哼！尽管放马过来吧！",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -348,9 +348,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "し、時雨ちゃん、ケンカはだめだよ……",
+			say = "时、{namecode:17}酱，不要吵架啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,12 +361,12 @@ return {
 			}
 		},
 		{
-			say = "良いではないか！うちの若いのは元気なのじゃな！",
+			say = "这不是挺好的嘛！我家的年轻人也很精神呢！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -386,9 +386,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301134,
+			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "か、陽炎も野分も二人を止めてよぉ……",
+			say = "{namecode:19}、{namecode:19}和{namecode:24}你们也来劝劝啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "Zzzzzzz",
 			typewriter = {
@@ -420,9 +420,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301174,
+			actor = 301170,
 			actorName = "{namecode:19}",
-			say = "はっはっは！指揮官も見て楽しんでいるのじゃな！",
+			say = "哈哈哈！你看指挥官不也在看戏嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,9 +437,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:17}",
-			actor = 301154,
+			actor = 301150,
 			nameColor = "#a9f548",
-			say = "はぁ…はぁ…まさかここまでやるとは……運だけと言って悪かったわね……",
+			say = "哈…哈…没想到这家伙这么厉害……说你光运气好是错怪你了呢……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			say = "ま、まだなのだ！野分！秘伝冷却水を持ってくるのだ！",
+			say = "还、还没完呢！{namecode:24}！快拿秘制冷却水过来！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301204,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			say = "……Zzzzzzz",
 			typewriter = {
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			say = "なるほどね！これが「フグタイテン」ということね！",
+			say = "原来如此！这就是所谓的「不共戴天」吧！",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301114,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -531,9 +531,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 301124,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "でも、たかがくじ引き勝負なのに、なんであんなに疲れてるの？電、ちょっとわかりません…",
+			say = "但是为什么抽个签就能弄到这么累呢？{namecode:14}酱不明白……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "대양 최강의 전함이며 당당한 기사님이, 지금은 외지인의 힘에 빌붙은 꼬락서니라니. 흥.",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
 			say = "……한심한 것도 정도가 있지. 이 바보 언니가.",

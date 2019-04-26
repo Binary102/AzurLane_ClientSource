@@ -20,7 +20,7 @@ return {
 			bgName = "bg_story_star3",
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			actorName = "스타더스트",
 			blackBg = true,
-			actor = 206031,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {

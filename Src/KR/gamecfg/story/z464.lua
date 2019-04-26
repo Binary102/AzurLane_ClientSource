@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			say = "提尔比茨，我来给你送指挥官给的东西。",
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "Z46？谢谢，我收下了。",
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "46你还在执行秘书舰任务吧？接下来有什么预定吗？",
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "并无其他预定，准备回自己的房间了。",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "是吗？那你陪我聊一会儿吧。感觉还是46好说话呢。",
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "没问题。不过我不会说话，大概只能听听，你不介意的话就好",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "当然没关系。就当我在自言自语也好",
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "46将来想做什么？",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 401461,
+			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "我？我想…………",

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その五　雪風と遊園地（上）</size>",
+					"叫我{namecode:22}大人！\n\n<size=30>五　{namecode:22}和游乐园·上</size>",
 					1
 				}
 			}
@@ -22,9 +22,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "遊園地に行きたいか？ふん、そんなとこ、この大人の雪風様が好きなわけ……ぐぬぬ……",
+			say = "想去游乐园了？哼，那种地方我{namecode:22}大人怎么会喜……呃呃呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "………こ、これは指揮官がどうしても雪風様を連れてってあげたいと言ったから仕方なく行ってあげたのだ！",
+			say = "……哼，这可是指挥官实在想去{namecode:22}大人迫不得已才跟着你去的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,9 +56,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "ふん！感謝するのだぞ！",
+			say = "哼！好好感谢本大人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "というわけで、休日の遊園地にて――",
+			say = "于是休息日去了游乐园——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,9 +83,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "メリーゴーランド？そんな子供っぽい遊具は雪風様は絶対に乗らないのだぞ！",
+			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -117,9 +117,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "ジェットコースター？海の荒波と比べれば話にすらならないのだ！",
+			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -151,9 +151,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "観覧車？あ、あれはでで、デートする時に乗るものなのだぞ！？雪風は別に……",
+			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -185,9 +185,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "ん？じゃあ、あのお化け屋敷に挑戦したいって？",
+			say = "嗯？要去那个鬼屋挑战一下吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,9 +202,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "あっはっはっは！お化け屋敷なんて所詮は子供騙しなのだ！この雪風が怖がるわけないのだ！",
+			say = "啊～哈哈哈！这种骗小孩的玩意，{namecode:22}大人是不会害怕的啦！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "5分後――",
+			say = "5分钟后",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -246,9 +246,9 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "うにゃあああああああああああ！！！",
+			say = "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,9 +272,9 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "（ブルブル）……こ、怖ぃ……！て、ててて手は離さないでぇ――！",
+			say = "（颤抖）……好、好可怕……！不不不不要松开手啊啊啊啊啊啊 ――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,9 +293,9 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指揮官！助けてええええ！！",
+			say = "指挥官！救救我啊啊啊啊啊啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,9 +329,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "し、死ぬかと思った……",
+			say = "要、要死了……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -373,9 +373,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "し、しきかん……うぇえええ……",
+			say = "指、指挥官……呜呜呜呜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "気づいたら雪風にべったりと抱きつかれてた。",
+			say = "不经意间发现{namecode:22}紧紧抱住了自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

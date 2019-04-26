@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "……큭!",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			expression = 4,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 303091,
+			actor = 303090,
 			dir = -1,
 			hideOther = true,
 			actorName = "{namecode:144}&{namecode:40}",
@@ -81,7 +81,7 @@ return {
 			subActors = {
 				{
 					dir = -1,
-					actor = 302141,
+					actor = 302140,
 					expression = 2,
 					pos = {
 						x = -687
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "괜찮아요, 긁힌 상처에요. 그래도…역시 이 자폭 능력은 예측할 수 없겠네요…제 불찰입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 303091,
+			actor = 303090,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "병의 생사를 고려하지 않고 책략만 고집한다면, 제아무리 뛰어난 비책이라 해도 공론에 불과하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -192,7 +192,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 302141,
+			actor = 302140,
 			say = "아마기씨……",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "그리고, 제가 이렇게 앞으로 나와서 싸우면, 이런 성과도 있을 수 있잖아요?",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 304051,
+			actor = 304050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = -1,
-			actor = 304051,
+			actor = 304050,
 			say = "……하아……",
 			typewriter = {
 				speed = 0.05,

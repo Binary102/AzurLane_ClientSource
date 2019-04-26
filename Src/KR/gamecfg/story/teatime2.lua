@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301120,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207030,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,7 +96,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301110,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			actorName = "？？？",
 			say = "잠~까~안!!",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			actorName = "{namecode:11}",
 			say = "혼자선 역시 좀…… 아냐… 아카츠키는 닌자인걸… 혼자라도 굴하지 않아! 노스 유니온, 소인이 상대해주겠소!",
 			typewriter = {

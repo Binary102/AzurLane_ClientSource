@@ -182,6 +182,22 @@ return {
 			},
 			arg_list = {
 				minWeaponNumber = 1,
+				skill_id = 19210,
+				check_weapon = true,
+				weapon_group = {
+					43100,
+					43120,
+					43140
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minWeaponNumber = 1,
 				skill_id = 19212,
 				check_weapon = true,
 				weapon_group = {

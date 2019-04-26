@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			actorName = "{namecode:87}",
 			dir = 1,
 			blackBg = true,
-			actor = 306051,
+			actor = 306050,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "에헤헤, 역시 내는 미인이 될 소질이 있구마!",
 			flashout = {
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "호박스프...... 으엑! 또 호박이가! 어제는 호박찜, 그제는 호박파이──── 내는 인자, 호박은 싫다!",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301051,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 2,
 			dir = 1,
-			actor = 307054,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "저는 별로…… 조사, 파이팅, 이에요.",
 			flashout = {
@@ -364,7 +364,7 @@ return {
 			actorName = "{namecode:98}",
 			side = 2,
 			dir = 1,
-			actor = 312011,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "호박? 호박은 맛있다냥~ 음식을 헛되이 낭비하는 건 중죄다냥~ 쇼호는 좀 더 호박을 먹어라냥~",
 			flashout = {
@@ -397,7 +397,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "튀김? 그, 그런 거 아냐! 그건 겨울나기용 식재료 준비라고!",
 			flashout = {
@@ -430,7 +430,7 @@ return {
 			actorName = "{namecode:87}",
 			side = 2,
 			dir = 1,
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			say = "사쿠라 엠파이어 애들...... 뭔가 이상한데...",
 			flashout = {
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 900038,
+			actor = 306051,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			withoutPainting = true,
 			flashout = {

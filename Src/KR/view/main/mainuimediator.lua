@@ -46,6 +46,8 @@ slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
 slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
+slot0.ON_BLACKWHITE = "MainUIMediator:ON_BLACKWHITE"
+slot0.ON_MEMORYBOOK = "MainUIMediator:ON_MEMORYBOOK"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -312,6 +314,21 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
 	slot0.viewComponent:updateSummaryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
 	slot0.viewComponent:updateBossBattleBtn(slot7:getActivityById(ActivityConst.BOSS_BATTLE_AISAIKESI))
+	slot0.viewComponent:updateBlackWhitBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE))
+	slot0.viewComponent:updateMemoryBookBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+	slot0:bind(slot0.ON_BLACKWHITE, function ()
+		slot0.viewComponent:disableTraningCampAndRefluxTip()
+		slot0.viewComponent.disableTraningCampAndRefluxTip:addSubLayers(Context.New({
+			viewComponent = BlackWhiteGridLayer,
+			mediator = BlackWhiteGridMediator
+		}))
+	end)
+	slot0:bind(slot0.ON_MEMORYBOOK, function ()
+		slot0:addSubLayers(Context.New({
+			viewComponent = MemoryBookLayer,
+			mediator = MemoryBookMediator
+		}))
+	end)
 	slot0:bind(slot0.ON_ACTIVITY, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
@@ -664,6 +681,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3.context.mediator == ServerNoticeMediator then
 			slot0:tryPlayGuide()
 		end
+
+		slot0.viewComponent:updateTraningCampBtn()
+		slot0.viewComponent:updateRefluxBtn()
 	elseif GAME.BOSS_EVENT_START_DONE == slot2 then
 		slot0:updateGuildNotices()
 	elseif ActivityProxy.ACTIVITY_OPERATION_DONE == slot2 then
@@ -831,6 +851,14 @@ function slot0.playStroys(slot0, slot1)
 		table.insert(slot3, function (slot0)
 			seriesAsync(slot0, slot0)
 		end)
+	end
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) and not slot7:isEnd() then
+		if type(slot7:getConfig("config_client")) == "table" and slot8[2] and type(slot8[2]) == "string" and not pg.StoryMgr:GetInstance():IsPlayed(slot8[2]) then
+			table.insert(slot3, function (slot0)
+				slot0:Play(slot1[2], slot0, true, true)
+			end)
+		end
 	end
 
 	seriesAsync(slot3, slot1)

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "아……지, 지휘관님. 마침 잘 오셨어요.",
 			flashout = {
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "아, 그게, 이거……식당에 있는 주방을 빌려서, 베스탈씨에게 배워서……여기 조리법으로 만들어봤어요.",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "에 그러니까, 이름이……'해군 카리' 였던 것 같은데, 맞나요?",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "……호, 혹시 폐를 끼쳤나요……?",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "다행이다……그, 그럼, 맛있게 드셔주셔요.",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "맛있단, 말씀이신가요? 지휘관님의 입에 맞는다니, 다행이에요……",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "또, 이쪽 세계의 요리에 도전해 볼 테니……저기, 괜찮으시다면 다음에 또 맛 봐주실 수 있을까요?",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "감사합니다, 지휘관님.",
 			typewriter = {

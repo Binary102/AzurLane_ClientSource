@@ -92,6 +92,12 @@ function slot0.execute(slot0, slot1)
 
 								pg.TipsMgr:GetInstance():ShowTips(slot13[3])
 								slot15:updateShip(slot16)
+
+								if getProxy(NavalAcademyProxy):getStudentByShipId(slot16.id) and slot21.skillId == slot17 then
+									slot21.skillId = slot18
+
+									slot20:updateStudent(slot21)
+								end
 							end
 						end
 					end
@@ -144,12 +150,6 @@ function slot0.upgradeStar(slot0, slot1)
 		end
 
 		getProxy(BayProxy):updateShip(slot1)
-
-		if slot4 then
-			slot4.star = slot1:getStar()
-
-			slot3:updateShipGroup(slot4)
-		end
 	end
 end
 

@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "아 정말, 아카스타도 딴짓 그만하고 좀 도와줘! 글로리어스씨를 도와주겠다고 약속했잖아!",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "글로리어스씨, 정말 괜찮아? 이거, 그렇게 만만한 일이 아닌데…",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "괜찮아요. 지휘관님도 괜찮다고 하니…",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "그치만……",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 1,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "지휘관한테 맡겨도 될까나. 아덴트, 저쪽 정리를 전부 끝내고 여기로 다시 돌아오면 되지?",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "지휘관님? 구축함 동료들은 아직 저쪽에 일이 남아있으니, 여긴 저희만으로 충분하다고 생각합니다만……",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			optionFlag = 2,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "우린 괜찮아! 글로리어스씨를 도와주겠다고 한 건 우리인걸……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			optionFlag = 2,
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			say = "아덴트, 잠깐 귀 좀……(속닥속닥)……알았어, 우리는 먼저 저쪽으로 가 있을 테니까.",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",

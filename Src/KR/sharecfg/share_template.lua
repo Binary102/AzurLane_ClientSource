@@ -169,7 +169,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#벽람항로",
 		name = "获得新指挥喵界面",
 		deck = 2,
 		move_comps = "",
@@ -185,7 +185,7 @@ pg.share_template = {
 			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
 		}
 	},
-	[10] = {
+	{
 		description = "#벽람항로",
 		name = "画图功能分享",
 		deck = 1,
@@ -199,6 +199,37 @@ pg.share_template = {
 			-261
 		}
 	},
+	{
+		description = "#벽람항로",
+		name = "获得新舰娘界面之科研彩皮",
+		deck = 2,
+		camera = "OverlayCamera",
+		id = 11,
+		qrcode_location = {
+			412,
+			-261
+		},
+		hidden_comps = {
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/New",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/property_btn",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/left_panel",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/right_panel",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type/stars",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/dialogue"
+		},
+		show_comps = {
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/half_nation",
+			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/special_rarity"
+		},
+		move_comps = {
+			{
+				y = -25,
+				x = 16,
+				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -208,8 +239,9 @@ pg.share_template = {
 		6,
 		7,
 		8,
+		9,
 		10,
-		9
+		11
 	}
 }
 

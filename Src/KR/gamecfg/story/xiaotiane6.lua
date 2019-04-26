@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "그·러·니·까! 진짜로 막 돌아왔는데, 무슨 일인지 옷이 방안에 널브러져 있어서…… 그걸 정리하려고 했던 것뿐이라고!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 201234,
+			actor = 201230,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900078,
+			actor = 201101,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 201234,
+			actor = 201230,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 201234,
+			actor = 201230,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 201114,
+			actor = 201110,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 201234,
+			actor = 201230,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 207024,
+			actor = 207020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 201094,
+			actor = 201090,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 201084,
+			actor = 201080,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -270,7 +270,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900078,
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "아크 로열 & 시그넷",
@@ -282,7 +282,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 207024,
+					actor = 207020,
 					pos = {
 						x = 750
 					}

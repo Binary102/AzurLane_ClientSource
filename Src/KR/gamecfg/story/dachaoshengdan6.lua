@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "接下来就剩下，给陛下的特别礼物了！",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			say = "那个的话！咱……咱也觉得女王大人她一定会喜欢的！",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "这下可麻烦了……这么多礼物我们两个肯定拿不回去的啊！",
 			flashout = {
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "可恶……都已经进行到这一步了，难道真的没办法了吗。",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
-			actor = 900145,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "竟然是企业？！她身后的是……尼古拉斯吗？",
 			typewriter = {
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			actor = 900055,
+			actor = 107061,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900146,
+			actor = 101312,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actor = 900145,
+			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900057,
+			actor = 201102,
 			nameColor = "#a9f548",
 			say = "得救了……那么，就这样把礼物山运回生活区吧！",
 			typewriter = {

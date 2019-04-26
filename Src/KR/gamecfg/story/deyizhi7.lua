@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 404011,
+			actor = 404010,
 			say = "좋았어! 또 나의 승리군!",
 			flashN = {
 				color = {
@@ -115,7 +115,7 @@ return {
 			}
 		},
 		{
-			actor = 404011,
+			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 404011,
+			actor = 404010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 403041,
+			actor = 403040,
 			say = "칫, 그런 말 안 해도 안다고!",
 			flashN = {
 				color = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "……공문서를 훑어보니, 사소한 실수가 몇 개 보이지만, 열심히 노력한 흔적이 보인다.",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301321,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "도이칠란트는 다른 이름이 있어?",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			actor = 301411,
+			actor = 301410,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -409,7 +409,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301331,
+			actor = 301330,
 			nameColor = "#a9f548",
 			say = "미카즈키, 도이칠란트 씨는 싫다고 할지도……",
 			typewriter = {
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -484,7 +484,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "아니면 뭐야? 하등생물 주제에 변태 같은 거라도 생각하고 있나 보지?",
 			typewriter = {
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "이봐, 멍하니 있지 말고 빨리 게임을 시작하라고! 자~ 나를 어디 한 번 즐겁게 해주실까~♪",
 			typewriter = {

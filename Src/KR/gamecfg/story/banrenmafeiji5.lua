@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "재블린 선배님, 메탈 블러드의 선배님들도 와 있어요.",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,7 +96,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -116,7 +116,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Z25 선배님, Z46 선배님, 안녕하세요!",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900108,
+			actor = 401250,
 			nameColor = "#a9f548",
 			say = "엣?! 아, 아아안녕하세요……",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401250,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401460,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			actor = 900109,
+			actor = 401460,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actor = 900106,
+			actor = 904010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 900094,
+			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "니코, 퓌제, 내 것도 괜찮으면 같이 먹을래?",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -307,7 +307,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -378,7 +378,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = -1,
-			actor = 900110,
+			actor = 407010,
 			nameColor = "#a9f548",
 			say = "고맙다. ……큭! 뭐지? 이 혀끝을 자극하는 궁극의 단맛은……!",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -417,7 +417,7 @@ return {
 			}
 		},
 		{
-			actor = 206041,
+			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -437,7 +437,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -453,7 +453,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 900110,
+			actor = 407010,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 206041,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "(작은 목소리로) 재블린 선배님, 메탈 블러드의 선배님들은 모두 좋은 분들이시네요.",
 			typewriter = {
@@ -506,7 +506,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401250,
 			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900111,
+			actor = 405020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actor = 900108,
+			actor = 401250,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -590,7 +590,7 @@ return {
 			}
 		},
 		{
-			actor = 900107,
+			actor = 802010,
 			side = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -625,7 +625,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_106",
 			dir = 1,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "티르피츠 씨가 스포츠도 좋아하는 타입이었던가…?",
 			typewriter = {
@@ -648,7 +648,7 @@ return {
 			}
 		},
 		{
-			actor = 900111,
+			actor = 405020,
 			side = 0,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
@@ -668,7 +668,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,
-			actor = 900094,
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "그런게 아니라!! 비치발리볼은 좋은 아이디어인 거 같고 나도 디저트 먹었으니까 좀 하고 싶어져서!! 그럼 다들, 같이 해볼까요~!",
 			typewriter = {

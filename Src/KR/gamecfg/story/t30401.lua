@@ -7,7 +7,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "...",
 			shake = {
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "그런가, 1항전 선배들도, 소류 언니도......",
 			shake = {
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "하지만 이대로 끝낼 수는 없어! 전 함재기, 즉시 발함!",
 			shake = {
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			actorName = "{namecode:94}",
 			dir = -1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#ff0000",
 			say = "2항전의 저력을 보여주겠어! 이것이 우리의 \"최후의 반격\"이다!!",
 			shake = {

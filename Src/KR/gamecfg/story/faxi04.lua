@@ -8,7 +8,7 @@ return {
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			stopbgm = true,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "……",
@@ -37,7 +37,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "스트라스부르는?",
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "기뢰원을 돌파해서 야음을 타 도망쳤……네요.",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "그렇군…… 이건 이거대로……",
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "그때와 똑같아요, 설마 제가…… 아군에게 손을 댈 줄은……",
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "…네 탓이 아냐. 이 시대가 그렇게 만든 거지.",
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "만들어진 존재인 우리들은 그저 지휘관의 명령, 그리고 본부의 명령을 지키는……병기일 뿐이야.",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "우리들이 단순한 병기일 뿐이였다면 얼마나 마음이 편했을는지……",
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "후드……",
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "미안해요. 잠시 평정을 잃었네요.",
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "과, 광역 전파통신을 수신했습니다!",
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "이건…… 그 리슐리외!?",
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "계속 찾았었는데, 그 아이, 자기 스스로…?",
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "신호원을 알려주세요!",
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "신호원은………",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "……",
@@ -265,7 +265,7 @@ return {
 			}
 		},
 		{
-			actor = 202131,
+			actor = 202130,
 			side = 0,
 			dir = 1,
 			say = "……로열 네이비 본섬.",
@@ -607,7 +607,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 2,
 			dir = 1,
 			say = "……",
@@ -644,7 +644,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			say = "저 아이는……추기경 자리에 올랐었던 아이리스의 최신예함 리슐리외……",
 			dir = 1,
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actor = 204031,
+			actor = 204030,
 			side = 1,
 			dir = 1,
 			say = "이걸로 세계의 세력도가 또 바뀌겠네요.",
@@ -676,7 +676,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 0,
 			dir = 1,
 			say = "이 폭풍은 언제까지 이어지련지…",

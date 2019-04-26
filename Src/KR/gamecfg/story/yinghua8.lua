@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "역시 무훈함, 굉장한 실력이다.",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "정말, 아는 사이라고 이렇게까지 안 해도 괜찮은데…",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "그 말대로다만, 무심코 전사의 본능에 이끌려 강한 상대와 싸우고 싶어져서 말이지.",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 2,
 			dir = 0,
 			say = "알았어 알았어…… 그럼 약속대로 안내해줄래?",
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			dir = 0,
 			say = "물론이다. 당신들이라면 나가토를 안심하고 맡길 수 있다.",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 301491,
+			actor = 301490,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			actor = 305111,
+			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 0,

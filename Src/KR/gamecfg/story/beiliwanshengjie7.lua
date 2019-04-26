@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actorName = "{namecode:48}",
 			bgm = "story-1",
-			actor = 900137,
+			actor = 302051,
 			nameColor = "#a9f548",
 			bgName = "bg_night",
 			say = "겨우 착지했네……",
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "드디어 찾았다, 길 잃은 유령!",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "…어라? 하얀 천이랑 램프를 얹은 함재기…? 엥? 왜 다들 여기 있는 거야?!",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "유령은 새러토가의 장난이었구나…",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그런 거지! 뭐 나도 거들었지만 말야~♪",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "\"있잖아, 모항 폐창고에 이상한 게 나타났다는 이야기 들었어??\"",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			actorName = "???",
 			say = "\"그럴 리가! 아무리 핼러윈이라도 진짜 유령이 나올 리 없잖아!\"",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "전부 알바코어 목소리였어?!",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "내 연기 실력, 꽤 괜찮지? 에헤헤~",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 900139,
+			actor = 213021,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -273,18 +273,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			actorName = "넬슨&{namecode:48}&베일리",
 			say = "테러!",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900138,
+					actor = 101271,
 					dir = 1,
 					pos = {
 						x = 750
@@ -311,7 +311,7 @@ return {
 			}
 		},
 		{
-			actor = 900140,
+			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 900138,
+			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900137,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "그, 그럼 유령은 이제 안 나타난다는 거지……?",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -393,7 +393,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "의, 의외로 나쁘지 않던데……가 아니지, 로드니! 너 처음부터 알고 있었지!",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			}
 		},
 		{
-			actor = 205041,
+			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -452,7 +452,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "이 일의 흑막은 아카시였군……",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
@@ -515,18 +515,18 @@ return {
 			bgName = "bg_night",
 			hideOther = true,
 			dir = 1,
-			actor = 900138,
+			actor = 101271,
 			actorName = "베일리&{namecode:48}&테러",
 			say = "오오~!",
 			subActors = {
 				{
-					actor = 900137,
+					actor = 302051,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 900139,
+					actor = 213021,
 					dir = -1,
 					pos = {
 						x = 750
@@ -547,7 +547,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			actor = 900140,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "잠깐! 갑자기 딴 얘기 하지 말라고~!!",
 			typewriter = {

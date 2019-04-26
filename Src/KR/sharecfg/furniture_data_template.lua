@@ -25,7 +25,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 요크타운 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -37,6 +36,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -64,7 +66,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 렉싱턴 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -76,6 +77,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -103,7 +107,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 애틀란타 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -115,6 +118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -142,7 +148,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 브루클린 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -154,6 +159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -181,7 +189,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 노샘프턴 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -193,6 +200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -220,7 +230,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 퀸 엘리자베스 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -232,6 +241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -259,7 +271,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 후드 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -271,6 +282,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -298,7 +312,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 플레처 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -310,6 +323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -337,7 +353,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 넬슨 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -349,6 +364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -376,7 +394,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 리엔더 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -388,6 +405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -415,7 +435,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 쾨니히스베르크 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -427,6 +446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -454,7 +476,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 그리들리 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -466,6 +487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -493,7 +517,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : C클래스 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -505,6 +528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -532,7 +558,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 카운티급 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -544,6 +569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -571,7 +599,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 일러스트리어스 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -583,6 +610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -610,7 +640,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 비스마르크 모형 (1:100)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -622,6 +651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	{
@@ -649,7 +681,6 @@ pg.furniture_data_template = {
 		describe = "특수 가구 : 아이템 - 전함 미카사의 1:100 프라모델 모형",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -661,6 +692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[102] = {
@@ -688,7 +722,6 @@ pg.furniture_data_template = {
 		describe = "USS Arizona 1915.6.19─1941.12.7",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -700,6 +733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[104] = {
@@ -727,7 +763,6 @@ pg.furniture_data_template = {
 		describe = "<color=#fad545>「유니온 제23 구축함 중대·비버즈, 31노트로 전진!」</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -739,6 +774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[105] = {
@@ -766,7 +804,6 @@ pg.furniture_data_template = {
 		describe = "「맞기 전까지는 쏘지 마라. 녀석들이 전쟁을 원한다면 여기서 시작하도록 하지」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -778,6 +815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[106] = {
@@ -805,7 +845,6 @@ pg.furniture_data_template = {
 		describe = "「거울해역」에서 회수한 훈장. 그 모습에서 메탈 블러드의 의지와 강함이 느껴진다. 기념으로 초고난이도의 작전을 클리어 한 지휘관에게 주어지는 훈장.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -817,6 +856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[107] = {
@@ -844,7 +886,6 @@ pg.furniture_data_template = {
 		describe = "「제 소중한 인디 콜렉션이라구요~」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -856,6 +897,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[108] = {
@@ -883,7 +927,6 @@ pg.furniture_data_template = {
 		describe = "그네 타던 정원에 밤은 깊어가네.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -908,6 +951,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/qiuqianqixi_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -936,7 +982,6 @@ pg.furniture_data_template = {
 		describe = "우리들의 그리움을 위하여서는 푸른 은핫물이 있어야 하네, 돌아서는 갈 수 없는 오롯한 이 자리에",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1005,6 +1050,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[111] = {
@@ -1032,7 +1080,6 @@ pg.furniture_data_template = {
 		describe = "저 토끼는 누굴 위해 방아를 찧고 있나",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1044,6 +1091,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[112] = {
@@ -1071,7 +1121,6 @@ pg.furniture_data_template = {
 		describe = "세이렌 실험장에서 「홍염의 방문자」들이 회수한 훈장. 초고난도 작전을 클리어한 지휘관에게 기념으로 드리는 물건──",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1083,6 +1132,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[114] = {
@@ -1110,7 +1162,6 @@ pg.furniture_data_template = {
 		describe = "사전예약자 수 30만 명 보상! ...예정이었으나...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1122,6 +1173,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhibojian",
@@ -1179,7 +1233,6 @@ pg.furniture_data_template = {
 		describe = "전쟁 같은 건 재미없다구~! 나의 노래를 들어줘!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1191,6 +1244,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jinkelawutaiB",
@@ -1247,7 +1303,6 @@ pg.furniture_data_template = {
 		describe = "포화에 불타는 폐허 속에 떨어져 있었으나 지휘부에서 이를 회수한 뒤 작전 중 지대한 공헌을 한 지휘관에게 수여하였다. 마치 이글 유니온 사람들의 견고한 의지가 전해져 오는 것만 같다.\n\t\t\t<color=#fad545>——2018년 가을 특수 작전 중에 획득한 최고의 영광을 기리며</color>",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1259,6 +1314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[118] = {
@@ -1286,7 +1344,6 @@ pg.furniture_data_template = {
 		describe = "『초차원의 도전장』을 클리어 한 용자에게 주어지는 기념 훈장. 다른 차원의 소재가 사용되어 신기한 빛이 난다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1298,6 +1355,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[119] = {
@@ -1325,7 +1385,6 @@ pg.furniture_data_template = {
 		describe = "「싸늘한 마지막 난관」을 돌파한 용자에게 주어지는 훈장. 로열 네이비의 영광과 긍지를 표창하기 위해 디자인되었다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1337,6 +1396,166 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[122] = {
+		can_rotate = 0,
+		name = "갑옷 인형",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "renouwoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "chuanmo/renouwo",
+		canputon = 0,
+		discount = 0,
+		id = 122,
+		comfortable = 4,
+		describe = "갑옷 인형이 널 지켜줄게!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 0,
+		spine_extra = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.5,
+					10
+				},
+				{
+					-1,
+					1,
+					1
+				},
+				"chuanmo/renou_using",
+				[6] = {
+					{
+						0,
+						50
+					},
+					{
+						175,
+						200
+					}
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[123] = {
+		can_rotate = 0,
+		name = "거대 잉어 깃발",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "liyuqiwoicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "chuanmo/liyuqiwo",
+		canputon = 0,
+		discount = 0,
+		id = 123,
+		comfortable = 4,
+		describe = "초거대한 잉어 깃발!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 0,
+		spine_extra = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		interAction_group = {}
 	},
 	[124] = {
@@ -1364,7 +1583,6 @@ pg.furniture_data_template = {
 		describe = "<검게 물든 강철의 벚꽃>을 끝까지 지켜본 자에게 수여되는 훈장. 끊이지 않는 용기를 그 마음에……",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1376,6 +1594,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[126] = {
@@ -1403,7 +1624,6 @@ pg.furniture_data_template = {
 		describe = "이것은……다이아의 냄새다냥!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1415,6 +1635,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yizhounian2",
@@ -1452,7 +1675,6 @@ pg.furniture_data_template = {
 		describe = "신성하고 장엄한 분위기가 느껴지는 자유 아이리스 교국의 성스러운 종. '빛과 그림자의 아이리스'에서 탁월한 전과를 올린 지휘관에게 수여된다. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1464,6 +1686,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[130] = {
@@ -1491,7 +1716,6 @@ pg.furniture_data_template = {
 		describe = "후! 후! 아아, 마이크 테스트 마이크 테스트, 자 지금부터…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1516,6 +1740,9 @@ pg.furniture_data_template = {
 				},
 				"chuanmo/fayantai"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -1544,7 +1771,6 @@ pg.furniture_data_template = {
 		describe = "멋대로 훔쳐 먹으면 안 돼!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1556,6 +1782,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guoqingdangaocheB",
@@ -1622,7 +1851,6 @@ pg.furniture_data_template = {
 		describe = "우와~ 높다 높아~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1634,6 +1862,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guoqingqiqiu",
@@ -1697,7 +1928,6 @@ pg.furniture_data_template = {
 		describe = "생일 축하합니다~! 생일 축하합니다~! ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1709,6 +1939,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dangaoB",
@@ -1784,7 +2017,6 @@ pg.furniture_data_template = {
 		describe = "거울해역 심층부에서 발견된, 세이렌이 만들었다고 하는 레플리카. 다른 세계와의 만남을 기념하는 뜻으로, 모항으로 가지고 돌아왔다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1796,6 +2028,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
 		interAction_group = {}
 	},
 	[140] = {
@@ -1823,7 +2058,6 @@ pg.furniture_data_template = {
 		describe = "사쿠라 엠파이어의 역사를 느낄 수 있는 어느 성을 축소해둔 모형, 상당히 정교하게 만들어졌다. 「청홍의 메아리」의 특수작전을 클리어 한 지휘관에게 주어지는 최고의 명예 훈장. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 1,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1835,6 +2069,158 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[141] = {
+		can_rotate = 0,
+		name = "키즈나 아이 기념장",
+		gain_by = "버츄얼 연결고리의 공시성 ",
+		type = 7,
+		dir = 0,
+		effect = "",
+		icon = "kizunaaiicon",
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 5,
+		picture = "chuanmo/kizunaai",
+		canputon = 0,
+		discount = 0,
+		id = 141,
+		comfortable = 0,
+		describe = "「버츄얼 공간을 모두 정화하는 감사 선물로 키즈나 아이 표코표코 1:1 기념장을 받아주세요, 오늘부터 잘 부탁드립니다~」\n\t\t\t<color=#fad545>——키즈나 아이</color>",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1,
+			"event:/cv/furniture/kizunavoice"
+		},
+		interAction_group = {}
+	},
+	[143] = {
+		can_rotate = 0,
+		name = "결전용 잉어어 깃발",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "liyuqiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 143,
+		comfortable = 0,
+		describe = "각자 잉어 깃발을 타고 승부를 겨루자!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		time = "always",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.3
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"liyuCharControl",
+				"liyuCharControl2"
+			}
+		},
 		interAction_group = {}
 	},
 	[100002] = {
@@ -1862,7 +2248,6 @@ pg.furniture_data_template = {
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		time = "always",
 		new = 1,
@@ -1873,6 +2258,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"201901login",
@@ -1949,7 +2337,6 @@ pg.furniture_data_template = {
 		describe = "하늘에서 자유롭게 날고싶은 꿈, 여기서 실현하다!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -1961,6 +2348,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhuqingting",
@@ -2028,7 +2418,6 @@ pg.furniture_data_template = {
 		describe = "흥흥~ 알아맞혀 보세요, 이번엔 어떤게 나올까요~?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2040,6 +2429,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"moshumaoB",
@@ -2095,7 +2487,7 @@ pg.furniture_data_template = {
 	},
 	[100005] = {
 		can_rotate = 0,
-		name = "秘密的魔术箱",
+		name = "비밀의 마술상자",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -2115,10 +2507,9 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 100005,
 		comfortable = 0,
-		describe = "将将～猜猜看，她在哪个箱子里？",
+		describe = "알아맞혀 보시라, 그녀는 어떤 상자 안에 있을까?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2130,6 +2521,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"MagicBoxB",
@@ -2215,7 +2609,6 @@ pg.furniture_data_template = {
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2224,6 +2617,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1002] = {
@@ -2251,7 +2647,6 @@ pg.furniture_data_template = {
 		describe = "초특가 물건 특유의 낡은 벽. 구멍 남. 벽지 없이 제대로 살 수 있을지 걱정이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2260,6 +2655,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1101] = {
@@ -2287,7 +2685,6 @@ pg.furniture_data_template = {
 		describe = "허울 뿐인 바닥 매트. 매트가 바닥보다 더 낡았다는 이야기는 엄금이야.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2299,6 +2696,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1102] = {
@@ -2326,7 +2726,6 @@ pg.furniture_data_template = {
 		describe = "앉을 곳이 없어! ...어쩔 수 없지. 이불로 참자 참아.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2338,6 +2737,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1103] = {
@@ -2365,7 +2767,6 @@ pg.furniture_data_template = {
 		describe = "맨땅에서 자는 것보단 나은 바닥 침대. 프롤레타리아 스타일...일지도?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2385,6 +2786,9 @@ pg.furniture_data_template = {
 					10
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -2413,7 +2817,6 @@ pg.furniture_data_template = {
 		describe = "목제 칸막이. 이곳저곳이 해진 것 같아 정말로 칸막이로 쓸만할지 의문이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2425,6 +2828,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1105] = {
@@ -2452,7 +2858,6 @@ pg.furniture_data_template = {
 		describe = "낡은 신문. 어디에 쓰는 걸까...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2464,6 +2869,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1106] = {
@@ -2491,7 +2899,6 @@ pg.furniture_data_template = {
 		describe = "재활용 가게에서 샀다고 할 것 같은 낡은 TV. 볼 수 있는 것만으로 만족.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2514,6 +2921,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -2542,7 +2952,6 @@ pg.furniture_data_template = {
 		describe = "언니는 외식비가 많이 드니까 자급자족만이 살길이래!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2554,6 +2963,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1108] = {
@@ -2581,7 +2993,6 @@ pg.furniture_data_template = {
 		describe = "차가운 밤을 밝히는 등유 램프는 우리 노동자의 혁명 정신을 상징하는 것이다! ...지휘관, 역시 조명을 사서 바꾸는 게...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2593,6 +3004,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1109] = {
@@ -2620,7 +3034,6 @@ pg.furniture_data_template = {
 		describe = "이 빠진 대야. 이걸로 지붕에서 새는 비도 걱정 없다구!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2632,6 +3045,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1110] = {
@@ -2659,7 +3075,6 @@ pg.furniture_data_template = {
 		describe = "신품 대걸레. 새는 비에 대한 대책으로써 장만했다는 듯하다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2671,6 +3086,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1111] = {
@@ -2698,7 +3116,6 @@ pg.furniture_data_template = {
 		describe = "옷걸이는 비싸니까 일단 이 상자로...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2710,6 +3127,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1112] = {
@@ -2737,7 +3157,6 @@ pg.furniture_data_template = {
 		describe = "상자 최고! 상자를 발명한 사람 최고!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2769,6 +3188,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1201] = {
@@ -2796,7 +3218,6 @@ pg.furniture_data_template = {
 		describe = "쾨니히스베르크가 마지못해 공출한 그 녀석. 이걸로 전기료도 줄겠네!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2808,6 +3229,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1202] = {
@@ -2835,7 +3259,6 @@ pg.furniture_data_template = {
 		describe = "아무리 가난하다 해도 차를 즐기는 건 포기할 수 없어! 차 도구는 일단 이 정도로.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2847,6 +3270,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1203] = {
@@ -2874,7 +3300,6 @@ pg.furniture_data_template = {
 		describe = "쥐를 잡으려고 기르기 시작한 냥이인데 왜 맨날 잠만 잘까.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2886,6 +3311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1204] = {
@@ -2913,7 +3341,6 @@ pg.furniture_data_template = {
 		describe = "방을 파괴하는 원흉. 이 모습이라면 사랑스러울지도.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2925,6 +3352,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1205] = {
@@ -2952,7 +3382,6 @@ pg.furniture_data_template = {
 		describe = "오늘의 저녁은...... 맹탕에 채소? 고기 먹고 싶어~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -2964,6 +3393,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1206] = {
@@ -2991,7 +3423,6 @@ pg.furniture_data_template = {
 		describe = "촛불로 비춘 밤의 경치. 아름답다는 생각은 안 드시나요?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3003,6 +3434,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1301] = {
@@ -3030,7 +3464,6 @@ pg.furniture_data_template = {
 		describe = "연락사항이 적혀있는 편지지. 그러니까 벽 아무 데나 붙이지 마!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3042,6 +3475,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1302] = {
@@ -3069,7 +3505,6 @@ pg.furniture_data_template = {
 		describe = "시야 양호, 풍경 최상, 밖에서의 시선은 막을 수 없는 모양이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3081,6 +3516,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1303] = {
@@ -3108,7 +3546,6 @@ pg.furniture_data_template = {
 		describe = "시야 양호, 풍경 최상, 밖에서의 시선은 막을 수 없는 모양이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3120,6 +3557,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1304] = {
@@ -3147,7 +3587,6 @@ pg.furniture_data_template = {
 		describe = "여러 가지를 적을 수 있을 것 같은 칠판.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3159,6 +3598,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1305] = {
@@ -3186,7 +3628,6 @@ pg.furniture_data_template = {
 		describe = "알겠어? 문을 열 때 힘을 너무 주지 마! 새것을 살 예산은 이제 없다구!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3198,6 +3639,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1306] = {
@@ -3225,7 +3669,6 @@ pg.furniture_data_template = {
 		describe = "그다지 튼튼하지 않은 문. 강하게 당기면 부서질 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3237,6 +3680,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1307] = {
@@ -3264,7 +3710,6 @@ pg.furniture_data_template = {
 		describe = "그다지 튼튼하지 않은 문. 강하게 당기면 부서질 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3276,6 +3721,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1308] = {
@@ -3303,7 +3751,6 @@ pg.furniture_data_template = {
 		describe = "간신히 소리가 나는 스피커. 방송할 때 지직거리는 잡음이 생긴다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3315,6 +3762,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[1309] = {
@@ -3342,7 +3792,6 @@ pg.furniture_data_template = {
 		describe = "어디서 얻어 왔는지 알 수 없는 포스터.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 1,
 		spine_extra = "",
 		time = "always",
@@ -3354,6 +3803,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2001] = {
@@ -3381,7 +3833,6 @@ pg.furniture_data_template = {
 		describe = "새로운 다다미. 이번엔 더럽히면 안 돼!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3390,6 +3841,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2002] = {
@@ -3417,7 +3871,6 @@ pg.furniture_data_template = {
 		describe = "단란한 분위기를 가진 벽지. 그대로 벽에 얼굴을 비벼보고 싶다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3426,6 +3879,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2101] = {
@@ -3453,7 +3909,6 @@ pg.furniture_data_template = {
 		describe = "앉는 느낌이 좋은 벚꽃 문양 방석.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3465,6 +3920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2102] = {
@@ -3492,7 +3950,6 @@ pg.furniture_data_template = {
 		describe = "벚꽃 문양이 들어간 일본풍 이불 세트. 요에 이불, 큰 베개.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3528,6 +3985,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2105] = {
@@ -3555,7 +4015,6 @@ pg.furniture_data_template = {
 		describe = "일본풍 커버에서 느껴지는 부드러운 불빛. 방 전체에 충만한 따뜻한 일본 분위기.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3567,6 +4026,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2106] = {
@@ -3594,7 +4056,6 @@ pg.furniture_data_template = {
 		describe = "큰 화면 16K 슬림형 TV. 너야말로 이걸 가질 자격이 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3606,6 +4067,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2107] = {
@@ -3633,7 +4097,6 @@ pg.furniture_data_template = {
 		describe = "두꺼운 포단과 난로로 자아낸 극락 공간. 들어가면 두 번 다시 나올 수 없다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3685,6 +4148,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2108] = {
@@ -3712,7 +4178,6 @@ pg.furniture_data_template = {
 		describe = "모든 칼에는 자신의 이야기가 있다. 모든 함선처럼...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3724,6 +4189,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2109] = {
@@ -3751,7 +4219,6 @@ pg.furniture_data_template = {
 		describe = "설마 하던 반투명! 이래선 뒤에서 못 갈아입어... 아, 아무것도 아니라구!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3763,6 +4230,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2110] = {
@@ -3790,7 +4260,6 @@ pg.furniture_data_template = {
 		describe = "마네키네코인데, 강아지풀을 안고 한결같이 잔다고 한다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3802,6 +4271,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2201] = {
@@ -3829,7 +4301,6 @@ pg.furniture_data_template = {
 		describe = "역사가 느껴지는 차 도구 세트. 가끔은 차를 내서 수수한 마음을 느껴보자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3841,6 +4312,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2202] = {
@@ -3868,7 +4342,6 @@ pg.furniture_data_template = {
 		describe = "주먹밥이 중심인 호화로운 일식 오르되브르. 맛있는 음식으로 행복이 잔뜩.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3880,6 +4353,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2203] = {
@@ -3907,7 +4383,6 @@ pg.furniture_data_template = {
 		describe = "벚꽃을 안주로 술을 즐기는 술잔 세트. 한잔... 어떠세요?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3919,6 +4394,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2204] = {
@@ -3946,7 +4424,6 @@ pg.furniture_data_template = {
 		describe = "성공한 지휘관이라면 뭔가를 장식해야지.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3958,6 +4435,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2205] = {
@@ -3985,7 +4465,6 @@ pg.furniture_data_template = {
 		describe = "인테리어에 어울리는 전통 공예 작품",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -3997,6 +4476,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2206] = {
@@ -4024,7 +4506,6 @@ pg.furniture_data_template = {
 		describe = "가을의 감촉도, 이 단풍잎에 남길 수 있다면 좋으련만...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4036,6 +4517,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2207] = {
@@ -4063,7 +4547,6 @@ pg.furniture_data_template = {
 		describe = "디자인 센스가 넘치는 일본풍 수조. ...누구야! 이걸 기른 건!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4075,6 +4558,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2301] = {
@@ -4102,7 +4588,6 @@ pg.furniture_data_template = {
 		describe = "커다란 창문. 통풍성이 좋아 보여!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4114,6 +4599,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2302] = {
@@ -4141,7 +4629,6 @@ pg.furniture_data_template = {
 		describe = "누가 썼는지는 모르겠지만, 한 획마다 묘하게 사람을 끌어들이는 매력이 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4153,6 +4640,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2303] = {
@@ -4180,7 +4670,6 @@ pg.furniture_data_template = {
 		describe = "THE·일본풍 맹장지. 당길 때 힘을 너무 주지 말도록!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4192,6 +4681,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2304] = {
@@ -4219,7 +4711,6 @@ pg.furniture_data_template = {
 		describe = "오목 선반에는 기념비적인 아이템을 장식하자!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4231,6 +4722,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[2305] = {
@@ -4258,7 +4752,6 @@ pg.furniture_data_template = {
 		describe = "커다란 장식용 부채. 하얀색이었다면 이것 저것 쓸 수 있었을 텐데...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 2,
 		spine_extra = "",
 		time = "always",
@@ -4270,6 +4763,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3001] = {
@@ -4297,7 +4793,6 @@ pg.furniture_data_template = {
 		describe = "검은 플로링. 자주 청소하지 않아도 크게 더러워 보이지 않는 게 장점.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4306,6 +4801,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3002] = {
@@ -4333,7 +4831,6 @@ pg.furniture_data_template = {
 		describe = "담청색 조합은 하늘과 바다를 연상시키는 걸까?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4342,6 +4839,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3101] = {
@@ -4369,7 +4869,6 @@ pg.furniture_data_template = {
 		describe = "누워서 뒹굴거릴 수 있는 푹신푹신한 양탄자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4381,6 +4880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3102] = {
@@ -4408,7 +4910,6 @@ pg.furniture_data_template = {
 		describe = "여러 가지 둘 수 있을 것 같은 테이블. 예를 들면... 아아, 술은 숨겨!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4420,6 +4921,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3103] = {
@@ -4447,7 +4951,6 @@ pg.furniture_data_template = {
 		describe = "Hey, boy! Let's start game!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4459,6 +4962,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3104] = {
@@ -4486,7 +4992,6 @@ pg.furniture_data_template = {
 		describe = "메가 사이즈의 항모풍 침대. 너무 커서 올라가는 것도 일이다. 굴러떨어질 수 있으니 요주의.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4506,6 +5011,9 @@ pg.furniture_data_template = {
 					70
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4534,7 +5042,6 @@ pg.furniture_data_template = {
 		describe = "적색과 백색의 줄무늬 소파. 뭐, 앉는 느낌이 좋으니까 괜찮지 않아?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4572,6 +5079,9 @@ pg.furniture_data_template = {
 				"meishi/shafa4a_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3107] = {
@@ -4599,7 +5109,6 @@ pg.furniture_data_template = {
 		describe = "작전 회의용 데스크. 평소엔 주로 포커 게임을 할 때 사용한다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4651,6 +5160,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3108] = {
@@ -4678,7 +5190,6 @@ pg.furniture_data_template = {
 		describe = "바비큐! 먹보에겐 참을 수 없는 울림!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4690,6 +5201,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3109] = {
@@ -4717,7 +5231,6 @@ pg.furniture_data_template = {
 		describe = "절묘한 음질이 당신의 귀도 사로잡는다!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4729,6 +5242,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3110] = {
@@ -4756,7 +5272,6 @@ pg.furniture_data_template = {
 		describe = "위가 사각지고 아래가 둥근 폭탄 모양의 의자. 어디서 본 것 같은데...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4776,6 +5291,9 @@ pg.furniture_data_template = {
 					55
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4804,7 +5322,6 @@ pg.furniture_data_template = {
 		describe = "적색과 백색을 띤 줄무늬 의자. 부드럽고 편해서 좋은 느낌.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4824,6 +5341,9 @@ pg.furniture_data_template = {
 					40
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -4852,7 +5372,6 @@ pg.furniture_data_template = {
 		describe = "지휘관에게 선물 받은 식물 분재.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4864,6 +5383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3202] = {
@@ -4891,7 +5413,6 @@ pg.furniture_data_template = {
 		describe = "출장 나갈 때 짐을 넣어 옮기는 트렁크. 살짝 큰 사이즈",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4903,6 +5424,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3203] = {
@@ -4930,7 +5454,6 @@ pg.furniture_data_template = {
 		describe = "인기 만점 엔터테인먼트. 지휘관이 없을 때 잠깐 해볼까",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4942,6 +5465,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3204] = {
@@ -4969,7 +5495,6 @@ pg.furniture_data_template = {
 		describe = "유니온 풍 나이트 램프.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -4981,6 +5506,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3301] = {
@@ -5008,7 +5536,6 @@ pg.furniture_data_template = {
 		describe = "창밖에 펼쳐진 여름 바다...... 바람이 너무 세서 아무것도 안 보여─!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5020,6 +5547,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3302] = {
@@ -5047,7 +5577,6 @@ pg.furniture_data_template = {
 		describe = "유니온의 상징인, 어느 마천루의 포스터",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5059,6 +5588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3303] = {
@@ -5086,7 +5618,6 @@ pg.furniture_data_template = {
 		describe = "튜브를 모티브로 디자인한 시계. 독특한 센스다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5098,6 +5629,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3304] = {
@@ -5125,7 +5659,6 @@ pg.furniture_data_template = {
 		describe = "무척 튼튼한 철제문. 치면 묵직한 소리를 낼 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5137,6 +5670,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3305] = {
@@ -5164,7 +5700,6 @@ pg.furniture_data_template = {
 		describe = "벽에 거는 세계지도. 그냥 장식이에요.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5176,6 +5711,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[3306] = {
@@ -5203,7 +5741,6 @@ pg.furniture_data_template = {
 		describe = "전략안을 발표할 때 사용하는 기기. 솔직히 영화 볼 때 사용할 때가 많다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 3,
 		spine_extra = "",
 		time = "always",
@@ -5215,6 +5752,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4001] = {
@@ -5242,7 +5782,6 @@ pg.furniture_data_template = {
 		describe = "귀족 느낌이 넘치는 천연 목재 플로링. 이걸로 쾌적도까지 철저하게!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5251,6 +5790,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4002] = {
@@ -5278,7 +5820,6 @@ pg.furniture_data_template = {
 		describe = "초록색 벽지. 어딘지 모르게 진정되는 따뜻한 분위기.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5287,6 +5828,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4101] = {
@@ -5314,7 +5858,6 @@ pg.furniture_data_template = {
 		describe = "순백색 카펫. 부드럽고 좋은 느낌. 냥이들에게 대인기.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5326,6 +5869,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4102] = {
@@ -5353,7 +5899,6 @@ pg.furniture_data_template = {
 		describe = "높은 램프 스탠드에 노란색으로 마무리한 커버로 저녁노을을 연출한다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5365,6 +5910,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4103] = {
@@ -5392,7 +5940,6 @@ pg.furniture_data_template = {
 		describe = "작은 라운드 테이블. 주변에 두면 여러모로 편리",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5404,6 +5951,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4104] = {
@@ -5431,7 +5981,6 @@ pg.furniture_data_template = {
 		describe = "작은 라운드 테이블. 주변에 두면 여러모로 편리",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5443,6 +5992,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4105] = {
@@ -5470,7 +6022,6 @@ pg.furniture_data_template = {
 		describe = "교양을 쌓기엔 독서! 책장은 반드시 필요하지! 어? 무슨 책이냐고?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5482,6 +6033,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4106] = {
@@ -5509,7 +6063,6 @@ pg.furniture_data_template = {
 		describe = "세계를 풍미한 스포츠. 큐로 사람을 찌르지 않도록만 주의해!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5521,6 +6074,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4107] = {
@@ -5548,7 +6104,6 @@ pg.furniture_data_template = {
 		describe = "두꺼운 가죽 소파 체어. 앉으면 소파에 빠져버릴 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5572,6 +6127,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5600,7 +6158,6 @@ pg.furniture_data_template = {
 		describe = "작은 소파 스툴. 부족한 의자의 보탬이 된다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5624,6 +6181,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5652,7 +6212,6 @@ pg.furniture_data_template = {
 		describe = "등받이에 정교한 세공 디자인이 들어간 의자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5676,6 +6235,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -5704,7 +6266,6 @@ pg.furniture_data_template = {
 		describe = "작은 물건을 여러 가지 넣을 수 있을 듯한 수납장.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5716,6 +6277,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4113] = {
@@ -5743,7 +6307,6 @@ pg.furniture_data_template = {
 		describe = "파란 식탁보로 덮은 큰 라운드 테이블. 많은 걸 올려둘 수 있을 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5775,6 +6338,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4114] = {
@@ -5802,7 +6368,6 @@ pg.furniture_data_template = {
 		describe = "고귀한 디자인. 사랑스러운 곰 인형은 공주님 같은 분위기를 연출한다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5838,6 +6403,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4201] = {
@@ -5865,7 +6433,6 @@ pg.furniture_data_template = {
 		describe = "바이올린 소리를 들으면 마음이 진정된다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5877,6 +6444,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4202] = {
@@ -5904,7 +6474,6 @@ pg.furniture_data_template = {
 		describe = "로열용 티 세트. 주변을 순식간에 애프터눈 티 분위기로 만들어 준다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5916,6 +6485,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4203] = {
@@ -5943,7 +6515,6 @@ pg.furniture_data_template = {
 		describe = "냥─! 귀여운 쇼트 헤어 (=^·ω·^=)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5955,6 +6526,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4301] = {
@@ -5982,7 +6556,6 @@ pg.furniture_data_template = {
 		describe = "높은 곳에 장식하는 조명 램프. 작은 램프라도 넓게 비춰준다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -5994,6 +6567,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4302] = {
@@ -6021,7 +6597,6 @@ pg.furniture_data_template = {
 		describe = "사슴 박제풍 장식. 물론 진짜는 아니다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6033,6 +6608,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4303] = {
@@ -6060,7 +6638,6 @@ pg.furniture_data_template = {
 		describe = "어느 스태프의 초상화. 생각보다 싸다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6072,6 +6649,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4304] = {
@@ -6099,7 +6679,6 @@ pg.furniture_data_template = {
 		describe = "평소엔 눈에 띄지 않지만 추운 날에 비로소 존재감을 나타낸다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6111,6 +6690,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4305] = {
@@ -6138,7 +6720,6 @@ pg.furniture_data_template = {
 		describe = "바닥까지 닿는 창문. 채광성 발군!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6150,6 +6731,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4306] = {
@@ -6177,7 +6761,6 @@ pg.furniture_data_template = {
 		describe = "천연 목재 소재인 로열풍 문.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6189,6 +6772,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[4307] = {
@@ -6216,7 +6802,6 @@ pg.furniture_data_template = {
 		describe = "태양이 지지 않는 제국의 영광을 나타낸 사진들.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 4,
 		spine_extra = "",
 		time = "always",
@@ -6228,6 +6813,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5001] = {
@@ -6255,7 +6843,6 @@ pg.furniture_data_template = {
 		describe = "강철로 플로링한 바닥.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6264,6 +6851,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5002] = {
@@ -6291,7 +6881,6 @@ pg.furniture_data_template = {
 		describe = "잡다한 장식이 일절 없는, 세련된 디자인의 메탈 블러드식 벽지.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6300,6 +6889,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5101] = {
@@ -6327,7 +6919,6 @@ pg.furniture_data_template = {
 		describe = "이 카펫, 적의 선혈로 물들여 영광 있으리!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6339,6 +6930,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5102] = {
@@ -6366,7 +6960,6 @@ pg.furniture_data_template = {
 		describe = "접이식 사무 의자. 간편하다!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6390,6 +6983,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6418,7 +7014,6 @@ pg.furniture_data_template = {
 		describe = "검정과 회색 기조로 만든 사무 데스크. 쿨하게 결정하는 사업가 스타일.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6466,6 +7061,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5105] = {
@@ -6493,7 +7091,6 @@ pg.furniture_data_template = {
 		describe = "자는 사이에 몸을 수리해주는 수리작업장. 메탈 블러드 제국의 기술은 세계제이이이이이일!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6529,6 +7126,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5106] = {
@@ -6556,7 +7156,6 @@ pg.furniture_data_template = {
 		describe = "정통적인 작전 회의용 데스크. 지도는 덤.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6568,6 +7167,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5107] = {
@@ -6595,7 +7197,6 @@ pg.furniture_data_template = {
 		describe = "붉은 소파. 평범한 소파보다 사이즈가 좀 작다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6631,6 +7232,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5108] = {
@@ -6658,7 +7262,6 @@ pg.furniture_data_template = {
 		describe = "신병기 설계도면이 수납되어 있는 박스.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6670,6 +7273,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5109] = {
@@ -6697,7 +7303,6 @@ pg.furniture_data_template = {
 		describe = "마이크테스트~ 마이크테스트~ 자, 1, 2, 3!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6709,6 +7314,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5111] = {
@@ -6736,7 +7344,6 @@ pg.furniture_data_template = {
 		describe = "회의용 의자. 앉을 때 자세를 바르게 잡아야 한다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6760,6 +7367,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6788,7 +7398,6 @@ pg.furniture_data_template = {
 		describe = "벽돌로 쌓아 올린 듯한 디자인 상자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6815,6 +7424,9 @@ pg.furniture_data_template = {
 				2,
 				0
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -6843,7 +7455,6 @@ pg.furniture_data_template = {
 		describe = "중요한 자료가 잔뜩 들어있는 자료 선반. 비밀정보 취급에 요주의!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6855,6 +7466,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5114] = {
@@ -6882,7 +7496,6 @@ pg.furniture_data_template = {
 		describe = "난로 옆에서 맥주와 소시지를 즐기는 아이디어, 천재적!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6894,6 +7507,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5201] = {
@@ -6921,7 +7537,6 @@ pg.furniture_data_template = {
 		describe = "고전적이면서도 유효한 정보전달수단.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6933,6 +7548,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5202] = {
@@ -6960,7 +7578,6 @@ pg.furniture_data_template = {
 		describe = "손님을 대접하기 위한 와인. 그래도 역시 맥주가 더 맛있는걸!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -6972,6 +7589,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5203] = {
@@ -6999,7 +7619,6 @@ pg.furniture_data_template = {
 		describe = "커다란 맥주 통. 수도꼭지를 틀면 기분은 옥토버페스트.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7011,6 +7630,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5301] = {
@@ -7038,7 +7660,6 @@ pg.furniture_data_template = {
 		describe = "잠수함용으로 설계된 현창이지만, 방에도 달아봤다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7050,6 +7671,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5302] = {
@@ -7077,7 +7701,6 @@ pg.furniture_data_template = {
 		describe = "메탈 블러드 제국 깃발.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7089,6 +7712,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5303] = {
@@ -7116,7 +7742,6 @@ pg.furniture_data_template = {
 		describe = "비스마르크가 그려져 있는 그림이야. 본인은 부끄러워하던 것 같다만...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7128,6 +7753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5304] = {
@@ -7155,7 +7783,6 @@ pg.furniture_data_template = {
 		describe = "메탈 블러드에서 특별히 제작한 강철 문. 온도계가 달려 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7167,6 +7794,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5305] = {
@@ -7194,7 +7824,6 @@ pg.furniture_data_template = {
 		describe = "전함 설계도. 현재 꼼꼼하게 재검토 중.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7206,6 +7835,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5306] = {
@@ -7233,7 +7865,6 @@ pg.furniture_data_template = {
 		describe = "메탈 블러드 제국에서 발행한 세계지도. 그 나라의 세계관은 이 한 장에도 나타나 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7245,6 +7876,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[5307] = {
@@ -7272,7 +7906,6 @@ pg.furniture_data_template = {
 		describe = "한 가구당 한 개 있는 비상용 수리 도구 세트. 유비무환!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 5,
 		spine_extra = "",
 		time = "always",
@@ -7284,6 +7917,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8001] = {
@@ -7311,7 +7947,6 @@ pg.furniture_data_template = {
 		describe = "메탈 블러드의 감성이 담긴 디자인의 바닥재.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7320,6 +7955,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8002] = {
@@ -7347,7 +7985,6 @@ pg.furniture_data_template = {
 		describe = "바의 분위기에 어울리는 재질의 벽지.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7356,6 +7993,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8101] = {
@@ -7383,7 +8023,6 @@ pg.furniture_data_template = {
 		describe = "두꺼운 카펫. 밟는 느낌이 좋다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7395,6 +8034,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8102] = {
@@ -7422,7 +8064,6 @@ pg.furniture_data_template = {
 		describe = "현관에 놔두면 프리미엄 느낌 UP!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7434,6 +8075,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8103] = {
@@ -7461,7 +8105,6 @@ pg.furniture_data_template = {
 		describe = "하지만 맥주는 담겨있지 않다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7511,6 +8154,9 @@ pg.furniture_data_template = {
 				"ger/gerpijiuchi_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8104] = {
@@ -7538,7 +8184,6 @@ pg.furniture_data_template = {
 		describe = "어디선가 소리 소문도 없이 나타난 수수께끼의 개. 아직 멀었구나, 지휘관!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7550,6 +8195,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8105] = {
@@ -7577,7 +8225,6 @@ pg.furniture_data_template = {
 		describe = " \"아홉, 아홉, 아홉…지히간, 이거, 무슨 뜻이야?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7589,6 +8236,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8106] = {
@@ -7616,7 +8266,6 @@ pg.furniture_data_template = {
 		describe = "살짝 취한 기분으로 바로 잠들 수 있는 침대.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7640,6 +8289,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7668,7 +8320,6 @@ pg.furniture_data_template = {
 		describe = " \"바텐더, 늘 먹던 걸로.\" / \"주문하신 우유 나왔습니다.\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7693,6 +8344,9 @@ pg.furniture_data_template = {
 				},
 				"ger/gerbatai_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -7721,7 +8375,6 @@ pg.furniture_data_template = {
 		describe = "와인을 비스듬히 눕혀 보관할 수 있는 수납장.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7733,6 +8386,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8109] = {
@@ -7760,7 +8416,6 @@ pg.furniture_data_template = {
 		describe = "낮은 계단.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7772,6 +8427,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8110] = {
@@ -7799,7 +8457,6 @@ pg.furniture_data_template = {
 		describe = "높은 계단.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7811,6 +8468,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8111] = {
@@ -7838,7 +8498,6 @@ pg.furniture_data_template = {
 		describe = " \"역시 술은 다 같이 마시는 게 맛있구만~! 안 그래, 휴가?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7896,6 +8555,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8112] = {
@@ -7923,7 +8585,6 @@ pg.furniture_data_template = {
 		describe = " \"헤헤~ 역시 어른의 방에는 분재를 심어놔야지!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7935,6 +8596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8113] = {
@@ -7962,7 +8626,6 @@ pg.furniture_data_template = {
 		describe = "자리를 나누어 개인실 기분을 누려보자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -7974,6 +8637,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8114] = {
@@ -8001,7 +8667,6 @@ pg.furniture_data_template = {
 		describe = "마른 안주와 요리가 땡기는 곳.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8033,6 +8698,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8115] = {
@@ -8060,7 +8728,6 @@ pg.furniture_data_template = {
 		describe = "예쁘게 핀 수레국화.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8072,6 +8739,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8116] = {
@@ -8099,7 +8769,6 @@ pg.furniture_data_template = {
 		describe = "바 카운터에 어울리는 의자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8123,6 +8792,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8151,7 +8823,6 @@ pg.furniture_data_template = {
 		describe = "오크통의 받침대. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8163,6 +8834,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8118] = {
@@ -8190,7 +8864,6 @@ pg.furniture_data_template = {
 		describe = "맥조 오크통 디자인의 욕조. 캔맥주가 아니라고!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8215,6 +8888,9 @@ pg.furniture_data_template = {
 				},
 				"ger/geryugang_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8243,7 +8919,6 @@ pg.furniture_data_template = {
 		describe = "테이블이 모자라! 요럴 때만 쓰는 오크통.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8266,6 +8941,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8294,7 +8972,6 @@ pg.furniture_data_template = {
 		describe = "테이블이 모자라! 요럴 때만 쓰는 오크통.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8317,6 +8994,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8345,7 +9025,6 @@ pg.furniture_data_template = {
 		describe = "메탈 블러드 특색 족발 구이 요리.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8357,6 +9036,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8201] = {
@@ -8384,7 +9066,6 @@ pg.furniture_data_template = {
 		describe = "몇 병째에 취하려나~",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8396,6 +9077,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8202] = {
@@ -8423,7 +9107,6 @@ pg.furniture_data_template = {
 		describe = "술을 잘 못해도 커피로 '어른의 한때' 를 즐길 수 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8435,6 +9118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8203] = {
@@ -8462,7 +9148,6 @@ pg.furniture_data_template = {
 		describe = "호쾌하게 생긴 생맥주잔.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8474,6 +9159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8204] = {
@@ -8501,7 +9189,6 @@ pg.furniture_data_template = {
 		describe = "술 안주. 마이쪙!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8513,6 +9200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8301] = {
@@ -8540,7 +9230,6 @@ pg.furniture_data_template = {
 		describe = "누군가가 멋대로 벽에 건 해도. 분위기를 망칠 줄 알았는데 의외로…?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8552,6 +9241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8302] = {
@@ -8579,7 +9271,6 @@ pg.furniture_data_template = {
 		describe = "술집의 열기를 비춰주는 은은한 빛.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8591,6 +9282,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8303] = {
@@ -8618,7 +9312,6 @@ pg.furniture_data_template = {
 		describe = "여기는 출구입니다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8630,6 +9323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8304] = {
@@ -8657,7 +9353,6 @@ pg.furniture_data_template = {
 		describe = "오크통을 보관하는 장소.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8669,6 +9364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8305] = {
@@ -8696,7 +9394,6 @@ pg.furniture_data_template = {
 		describe = "튜브의 형태를 한 장식품.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8708,6 +9405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8306] = {
@@ -8735,7 +9435,6 @@ pg.furniture_data_template = {
 		describe = "아직 위층은 안 뚫렸지만…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8747,6 +9446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[8307] = {
@@ -8774,7 +9476,6 @@ pg.furniture_data_template = {
 		describe = " \"내게 있어 중요한 물건이야.\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 8,
 		spine_extra = "",
 		time = "always",
@@ -8786,6 +9487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11001] = {
@@ -8813,7 +9517,6 @@ pg.furniture_data_template = {
 		describe = "귀여운 핑크색의 바닥재.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -8822,6 +9525,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11002] = {
@@ -8849,7 +9555,6 @@ pg.furniture_data_template = {
 		describe = "귀여운 핑크색의 벽지.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -8858,6 +9563,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11101] = {
@@ -8885,7 +9593,6 @@ pg.furniture_data_template = {
 		describe = "미듐 사이즈의 디자이너스 욕조, 1인용.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -8910,6 +9617,9 @@ pg.furniture_data_template = {
 				},
 				"ap/dieziap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8938,7 +9648,6 @@ pg.furniture_data_template = {
 		describe = "맛있어 보이는 케이크를 원하는 대로!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -8961,6 +9670,9 @@ pg.furniture_data_template = {
 				3,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -8989,7 +9701,6 @@ pg.furniture_data_template = {
 		describe = "정원 안뜰에 있을 법한 긴 의자, 누워도… 된다고요?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9025,6 +9736,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11104] = {
@@ -9052,7 +9766,6 @@ pg.furniture_data_template = {
 		describe = " \"오늘의 특별 메뉴는…\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9064,6 +9777,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11105] = {
@@ -9091,7 +9807,6 @@ pg.furniture_data_template = {
 		describe = "커다란 주전자 풍의 침대. 좋은 꿈을 꿀 수 있을 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9116,6 +9831,9 @@ pg.furniture_data_template = {
 				},
 				"ap/chabeichuangap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9144,7 +9862,6 @@ pg.furniture_data_template = {
 		describe = "맛있을 것 같은 외관과는 달리 착석감은 좀 애매하다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9168,6 +9885,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9196,7 +9916,6 @@ pg.furniture_data_template = {
 		describe = "작은 무지개가 보이는 분수.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9208,6 +9927,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11108] = {
@@ -9235,7 +9957,6 @@ pg.furniture_data_template = {
 		describe = "맛있을 것 같은 외관과는 달리 착석감은 좀 애매하다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9259,6 +9980,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9287,7 +10011,6 @@ pg.furniture_data_template = {
 		describe = " \"과일은 건강에 좋아요\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9299,6 +10022,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11110] = {
@@ -9326,7 +10052,6 @@ pg.furniture_data_template = {
 		describe = "밀크화이트색의 계단. 자주 청소할 수 있도록 하자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9338,6 +10063,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11111] = {
@@ -9365,7 +10093,6 @@ pg.furniture_data_template = {
 		describe = "달콤하고 부드러울 것 같은 소파.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9390,6 +10117,9 @@ pg.furniture_data_template = {
 				},
 				"ap/shafaap_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9418,7 +10148,6 @@ pg.furniture_data_template = {
 		describe = "※먹을 수 없습니다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9430,6 +10159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11113] = {
@@ -9457,7 +10189,6 @@ pg.furniture_data_template = {
 		describe = "건물과 정원을 나누는 경계선",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9469,6 +10200,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11114] = {
@@ -9496,7 +10230,6 @@ pg.furniture_data_template = {
 		describe = "멋들어진 화단. 관리해주도록 하자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9508,6 +10241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11115] = {
@@ -9535,7 +10271,6 @@ pg.furniture_data_template = {
 		describe = "12시가 되어도 호박으로 변하지 않는 안정감.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9573,6 +10308,9 @@ pg.furniture_data_template = {
 				"ap/nanguacheap_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11116] = {
@@ -9600,7 +10338,6 @@ pg.furniture_data_template = {
 		describe = "비스켓 디자인의 칸막이. ※먹을 수 없습니다. (두 번째)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9612,6 +10349,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11117] = {
@@ -9639,7 +10379,6 @@ pg.furniture_data_template = {
 		describe = "달콤하고 부드러울 것 같은 의자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9663,6 +10402,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9691,7 +10433,6 @@ pg.furniture_data_template = {
 		describe = "아동용 테이블.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9714,6 +10455,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9742,7 +10486,6 @@ pg.furniture_data_template = {
 		describe = "아동용 의자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9766,6 +10509,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -9794,7 +10540,6 @@ pg.furniture_data_template = {
 		describe = "정원 안뜰의 공간을 나누는 칸막이 울타리.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9806,6 +10551,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11121] = {
@@ -9833,7 +10581,6 @@ pg.furniture_data_template = {
 		describe = " \"최신작이다냥~\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9845,6 +10592,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11122] = {
@@ -9872,7 +10622,6 @@ pg.furniture_data_template = {
 		describe = "다과회 때 쓰는 긴 테이블.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9912,6 +10661,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11123] = {
@@ -9939,7 +10691,6 @@ pg.furniture_data_template = {
 		describe = " \"무슨 일이십니삐약?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9951,6 +10702,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11124] = {
@@ -9978,7 +10732,6 @@ pg.furniture_data_template = {
 		describe = "깔끔한 단맛이 나는 쿠키.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -9990,6 +10743,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11125] = {
@@ -10017,7 +10773,6 @@ pg.furniture_data_template = {
 		describe = "원예사가 관리해줄 필요가 있을 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10029,6 +10784,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11126] = {
@@ -10056,7 +10814,6 @@ pg.furniture_data_template = {
 		describe = "새로운 다과회용 카펫. [매트 계열 가구]",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10068,6 +10825,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11127] = {
@@ -10095,7 +10855,6 @@ pg.furniture_data_template = {
 		describe = "레이스 모양의 동글동글 귀여운 카펫 [매트 계열 가구]",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10107,6 +10866,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11128] = {
@@ -10134,7 +10896,6 @@ pg.furniture_data_template = {
 		describe = "잔디밭 (처럼 생긴) 카펫. [매트 계열 가구]",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10146,6 +10907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11201] = {
@@ -10173,7 +10937,6 @@ pg.furniture_data_template = {
 		describe = " \"다과회는 물론 우아함이 제일, 이지요!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10185,6 +10948,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11202] = {
@@ -10212,7 +10978,6 @@ pg.furniture_data_template = {
 		describe = " \"제 야심작이에요! 벨파한테도 지지 않아요!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10224,6 +10989,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11203] = {
@@ -10251,7 +11019,6 @@ pg.furniture_data_template = {
 		describe = "향기로운 향초.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10263,6 +11030,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11301] = {
@@ -10290,7 +11060,6 @@ pg.furniture_data_template = {
 		describe = "창 밖에는 예쁜 풍경이 펼쳐져 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10302,6 +11071,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11302] = {
@@ -10329,7 +11101,6 @@ pg.furniture_data_template = {
 		describe = "쿠키가 담긴 병이 놓여있는 선반.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10341,6 +11112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11303] = {
@@ -10368,7 +11142,6 @@ pg.furniture_data_template = {
 		describe = "정교하게 만들어진 목제 여닫이문.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10380,6 +11153,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11304] = {
@@ -10407,7 +11183,6 @@ pg.furniture_data_template = {
 		describe = "다과회에 쓰이는 티세트가 담겨있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10419,6 +11194,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11305] = {
@@ -10446,7 +11224,6 @@ pg.furniture_data_template = {
 		describe = "정원 안뜰로 가는 문.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10458,6 +11235,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11306] = {
@@ -10485,7 +11265,6 @@ pg.furniture_data_template = {
 		describe = "창 밖에는 초록빛의 풍경이 펼쳐져 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10497,6 +11276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[11307] = {
@@ -10524,7 +11306,6 @@ pg.furniture_data_template = {
 		describe = "귀여운 소품이 놓여있는 수납장.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 11,
 		spine_extra = "",
 		time = "always",
@@ -10536,6 +11317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12002] = {
@@ -10563,7 +11347,6 @@ pg.furniture_data_template = {
 		describe = "단풍나무를 이미지한 미닫이문. 가을의 분위기를 느낄 수 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10572,6 +11355,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12102] = {
@@ -10599,7 +11385,6 @@ pg.furniture_data_template = {
 		describe = "옷 등을 걸어두는 도구.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10611,6 +11396,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12103] = {
@@ -10638,7 +11426,6 @@ pg.furniture_data_template = {
 		describe = "「사쿠라 엠파이어의 신들이시여. 우리에게 가호를──」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10650,6 +11437,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12104] = {
@@ -10677,7 +11467,6 @@ pg.furniture_data_template = {
 		describe = "마음 한구석까지도 비추어내는 부드러운 빛.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10689,6 +11478,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12105] = {
@@ -10716,7 +11508,6 @@ pg.furniture_data_template = {
 		describe = "여행의 피로를 풀 겸, 안주도 곁들여서 가볍게 한 잔.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10740,6 +11531,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10768,7 +11562,6 @@ pg.furniture_data_template = {
 		describe = "남자아이들의 건강을 빌며... 여기엔 없지만♪",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10780,6 +11573,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12107] = {
@@ -10807,7 +11603,6 @@ pg.furniture_data_template = {
 		describe = "피곤하면 쉬자구요!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10831,6 +11626,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10859,7 +11657,6 @@ pg.furniture_data_template = {
 		describe = "냐오오옹!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10871,6 +11668,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12110] = {
@@ -10898,7 +11698,6 @@ pg.furniture_data_template = {
 		describe = "재물운이 가득하기를…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10922,6 +11721,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -10950,7 +11752,6 @@ pg.furniture_data_template = {
 		describe = "(낚여서) 살아갈 의미를... 잃었다...!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -10962,6 +11763,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[12202] = {
@@ -10989,7 +11793,6 @@ pg.furniture_data_template = {
 		describe = "답답하면 잠깐 정원으로 가 바람이라도 쐬어볼까요?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -11001,6 +11804,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13001] = {
@@ -11028,7 +11834,6 @@ pg.furniture_data_template = {
 		describe = "짙은 보라색 바닥. 어떤 액체가 굳은 흔적도 드문드문 보인다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11037,6 +11842,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13002] = {
@@ -11064,7 +11872,6 @@ pg.furniture_data_template = {
 		describe = "묘한 무늬가 희미하게 비치는 벽. 무늬가 아니...라고?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11073,6 +11880,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13101] = {
@@ -11100,7 +11910,6 @@ pg.furniture_data_template = {
 		describe = "말 안 듣는 아이는 묻어버린다─",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -11111,6 +11920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"fenkenghlB",
@@ -11202,7 +12014,6 @@ pg.furniture_data_template = {
 		describe = "쌓아 올린 건초. 이걸로 높은 곳에서 다이브 해도 괜찮아!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11234,6 +12045,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13103] = {
@@ -11261,7 +12075,6 @@ pg.furniture_data_template = {
 		describe = "노송나무로 만든 의자. 오래 써서 낡은 분위기가 느껴진다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11285,6 +12098,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11313,7 +12129,6 @@ pg.furniture_data_template = {
 		describe = "수수께끼의 장소로 가는 입구.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11325,6 +12140,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13105] = {
@@ -11352,7 +12170,6 @@ pg.furniture_data_template = {
 		describe = "「흥─ 좋아, 내 침실에 걸맞은 물건이야!」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11377,6 +12194,9 @@ pg.furniture_data_template = {
 				},
 				"hl/guancaihl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -11405,7 +12225,6 @@ pg.furniture_data_template = {
 		describe = "의자가 자라난 기묘한 호박.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11443,6 +12262,9 @@ pg.furniture_data_template = {
 				"hl/nanguazhuohl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13107] = {
@@ -11470,7 +12292,6 @@ pg.furniture_data_template = {
 		describe = "모르고 들어가 버리면 대미지를 입을 것 같은 독의 늪.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11482,6 +12303,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13108] = {
@@ -11509,7 +12333,6 @@ pg.furniture_data_template = {
 		describe = "「분수 색이 너무 이상하지 않아?」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11521,6 +12344,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13109] = {
@@ -11548,7 +12374,6 @@ pg.furniture_data_template = {
 		describe = "수수께끼의 액체가 들어가 있는 시약병. 내용물은 신경 쓰면 안 된다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11560,6 +12385,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13110] = {
@@ -11587,7 +12415,6 @@ pg.furniture_data_template = {
 		describe = "「네? 좋은 걸 보여주마!」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11637,6 +12464,9 @@ pg.furniture_data_template = {
 				"hl/qiulonghl_using"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13111] = {
@@ -11664,7 +12494,6 @@ pg.furniture_data_template = {
 		describe = "타면 날 수 있을지도?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11676,6 +12505,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13112] = {
@@ -11703,7 +12535,6 @@ pg.furniture_data_template = {
 		describe = "어느 무명용사를 기념하는 무덤.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11715,6 +12546,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13113] = {
@@ -11742,7 +12576,6 @@ pg.furniture_data_template = {
 		describe = "아아! 화분에! 화분에!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11754,6 +12587,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13114] = {
@@ -11781,7 +12617,6 @@ pg.furniture_data_template = {
 		describe = "실험대는 항상 정리정돈, 청결함을 유지하도록.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11829,6 +12664,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13115] = {
@@ -11856,7 +12694,6 @@ pg.furniture_data_template = {
 		describe = "너덜너덜한 천을 씌운 데스크.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11888,6 +12725,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13116] = {
@@ -11915,7 +12755,6 @@ pg.furniture_data_template = {
 		describe = "사다리꼴 선반. 수상한 책과 아이템이 잔뜩.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11927,6 +12766,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13117] = {
@@ -11954,7 +12796,6 @@ pg.furniture_data_template = {
 		describe = "빙글빙글 형태를 한 과자가 들어있는 자루.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -11966,6 +12807,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13118] = {
@@ -11993,7 +12837,6 @@ pg.furniture_data_template = {
 		describe = "「I'm back in black...」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12005,6 +12848,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13119] = {
@@ -12032,7 +12878,6 @@ pg.furniture_data_template = {
 		describe = "동글동글 형태를 한 과자가 들어있는 자루.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12044,6 +12889,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13120] = {
@@ -12071,7 +12919,6 @@ pg.furniture_data_template = {
 		describe = "별 문양을 새겨놓은 매트.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12083,6 +12930,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13121] = {
@@ -12110,7 +12960,6 @@ pg.furniture_data_template = {
 		describe = "「가고일은 이렇지 않다구─!」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12122,6 +12971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13122] = {
@@ -12149,7 +13001,6 @@ pg.furniture_data_template = {
 		describe = "짙은 보라색의 매트. 보라색 바닥 위에 있으면 구별이 되지 않는다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12161,6 +13012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13123] = {
@@ -12188,7 +13042,6 @@ pg.furniture_data_template = {
 		describe = "아무도 그 출처를 모르는 분재.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12200,6 +13053,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13124] = {
@@ -12227,7 +13083,6 @@ pg.furniture_data_template = {
 		describe = "갑자기 되살아나거나 하지 않을까 걱정이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12239,6 +13094,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13125] = {
@@ -12266,7 +13124,6 @@ pg.furniture_data_template = {
 		describe = "공간을 둘러싸거나 칸을 막는 철창 (테엥). 영화에선 잘 쓰러진다. ",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12278,6 +13135,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13126] = {
@@ -12305,7 +13165,6 @@ pg.furniture_data_template = {
 		describe = "부글부글, 오늘은 뭘 조합할까나? 날짜에 조심해야지...",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -12316,6 +13175,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"guohlB",
@@ -12398,7 +13260,6 @@ pg.furniture_data_template = {
 		describe = "피리카피리랄라 포포리나~ 나와라, 소악마!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		new = 0,
@@ -12409,6 +13270,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mofazhenhlB",
@@ -12489,7 +13353,6 @@ pg.furniture_data_template = {
 		describe = "흙, 용도 불명.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12501,6 +13364,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13201] = {
@@ -12528,7 +13394,6 @@ pg.furniture_data_template = {
 		describe = "노 터치! 접촉금지!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12540,6 +13405,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13202] = {
@@ -12567,7 +13435,6 @@ pg.furniture_data_template = {
 		describe = "방을 희미하게 비추는 빛.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12579,6 +13446,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13203] = {
@@ -12606,7 +13476,6 @@ pg.furniture_data_template = {
 		describe = "매직이다냥─ >▽<",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12618,6 +13487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13204] = {
@@ -12645,7 +13517,6 @@ pg.furniture_data_template = {
 		describe = "가끔 웃음소리를 내는 호박 라이트.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12657,6 +13528,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13205] = {
@@ -12684,7 +13558,6 @@ pg.furniture_data_template = {
 		describe = "「이 호박... 나와 같은 <†마도†> 소질이 있는 걸요!」",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12696,6 +13569,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13206] = {
@@ -12723,7 +13599,6 @@ pg.furniture_data_template = {
 		describe = "연구용 소재.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12735,6 +13610,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13301] = {
@@ -12762,7 +13640,6 @@ pg.furniture_data_template = {
 		describe = "거미줄이 쳐진 창문.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12774,6 +13651,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13302] = {
@@ -12801,7 +13681,6 @@ pg.furniture_data_template = {
 		describe = "어둠의 세계에 어서 오세요...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12813,6 +13692,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13303] = {
@@ -12840,7 +13722,6 @@ pg.furniture_data_template = {
 		describe = "「미드나이트」라는 이름이 붙은 그림이 담긴 액자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12852,6 +13733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13304] = {
@@ -12879,7 +13763,6 @@ pg.furniture_data_template = {
 		describe = "시야가 넓고 주변을 바라볼 수 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12891,6 +13774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13305] = {
@@ -12918,7 +13804,6 @@ pg.furniture_data_template = {
 		describe = "유감! 내 모험은 여기까지다!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12930,6 +13815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[13306] = {
@@ -12957,7 +13845,6 @@ pg.furniture_data_template = {
 		describe = "딱딱거리는 기묘한 소리가 들린다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 13,
 		spine_extra = "",
 		time = "always",
@@ -12969,6 +13856,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14001] = {
@@ -12996,7 +13886,6 @@ pg.furniture_data_template = {
 		describe = "펼쳐진 별을 나타내는 플로링.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13005,6 +13894,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14002] = {
@@ -13032,7 +13924,6 @@ pg.furniture_data_template = {
 		describe = "심원한 우주를 나타내는 벽지.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13041,6 +13932,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14101] = {
@@ -13068,7 +13962,6 @@ pg.furniture_data_template = {
 		describe = "진공 장치가 된 수납장. ...진공이 뭐야?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13080,6 +13973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14102] = {
@@ -13107,7 +14003,6 @@ pg.furniture_data_template = {
 		describe = "어느 행성계의 8번째 유성 - 해왕성",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13131,6 +14026,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13159,7 +14057,6 @@ pg.furniture_data_template = {
 		describe = "어느 행성계의 6번째 유성 - 화성",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13183,6 +14080,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13211,7 +14111,6 @@ pg.furniture_data_template = {
 		describe = "폭신폭신 구름 체어",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13236,6 +14135,9 @@ pg.furniture_data_template = {
 				},
 				"st/guifeiyist_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13264,7 +14166,6 @@ pg.furniture_data_template = {
 		describe = "어느 행성계의 5번째 유성 - 목성",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13288,6 +14189,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13316,7 +14220,6 @@ pg.furniture_data_template = {
 		describe = "별하늘 모양 병풍. 그려진 별들은 진짜일까, 아니면 환상일까?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13328,6 +14231,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14107] = {
@@ -13355,7 +14261,6 @@ pg.furniture_data_template = {
 		describe = "별 모양을 한 핑크색 벌룬.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13367,6 +14272,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14108] = {
@@ -13394,7 +14302,6 @@ pg.furniture_data_template = {
 		describe = "별 모양을 한 노란색 벌룬.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13406,6 +14313,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14109] = {
@@ -13433,7 +14343,6 @@ pg.furniture_data_template = {
 		describe = "별하늘을 이미지한 디자인은 미스테리어스한 매력을 자아낸다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13445,6 +14354,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14110] = {
@@ -13472,7 +14384,6 @@ pg.furniture_data_template = {
 		describe = "한 번 누우면 헤어나올 수 없는 푹신함.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13497,6 +14408,9 @@ pg.furniture_data_template = {
 				},
 				"st/shafast_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13525,7 +14439,6 @@ pg.furniture_data_template = {
 		describe = "작은 프로젝터로 비춘 어느 행성계의 경치.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13537,6 +14450,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14112] = {
@@ -13564,7 +14480,6 @@ pg.furniture_data_template = {
 		describe = "너무 커서 데스크가 된 토성 체어.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13576,6 +14491,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14113] = {
@@ -13603,7 +14521,6 @@ pg.furniture_data_template = {
 		describe = "부드러워 보여서 식탁보를 깔지 않으면 물건을 두지 못할 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13651,6 +14568,9 @@ pg.furniture_data_template = {
 				2
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14114] = {
@@ -13678,7 +14598,6 @@ pg.furniture_data_template = {
 		describe = "별하늘 저편을 들여다보자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13690,6 +14609,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14115] = {
@@ -13717,7 +14639,6 @@ pg.furniture_data_template = {
 		describe = "흔들흔들 달 모양 배.",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -13728,6 +14649,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yueliangstB",
@@ -13810,7 +14734,6 @@ pg.furniture_data_template = {
 		describe = "실은 우주욕탕이다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13835,6 +14758,9 @@ pg.furniture_data_template = {
 				},
 				"st/yugangst_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13863,7 +14789,6 @@ pg.furniture_data_template = {
 		describe = "포옹~ 하고 몸을 완전히 내던지고 싶다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13887,6 +14812,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -13915,7 +14843,6 @@ pg.furniture_data_template = {
 		describe = "천국으로 가는 계단.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13927,6 +14854,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14119] = {
@@ -13954,7 +14884,6 @@ pg.furniture_data_template = {
 		describe = "\"떨어지지 않도록 조심하세요~\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -13992,6 +14921,9 @@ pg.furniture_data_template = {
 				"st/chuangst_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14120] = {
@@ -14019,7 +14951,6 @@ pg.furniture_data_template = {
 		describe = "뿅뿅뿅~ 만쥬함대 전멸!? 원반은 가구였다!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		new = 0,
@@ -14030,6 +14961,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feichuanstB",
@@ -14130,7 +15064,6 @@ pg.furniture_data_template = {
 		describe = "어렴풋이 보이는 별들이 우리 함대의 진로를 밝혀준다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14142,6 +15075,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14201] = {
@@ -14169,7 +15105,6 @@ pg.furniture_data_template = {
 		describe = "케이스에 수납되어 있는 식물. 백아의 공간에 있는 녹색의 일우.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14181,6 +15116,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14301] = {
@@ -14208,7 +15146,6 @@ pg.furniture_data_template = {
 		describe = "\"자, 마지막 프런티어로\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14220,6 +15157,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14302] = {
@@ -14247,7 +15187,6 @@ pg.furniture_data_template = {
 		describe = "아무것도 없는 우주에는 무한한 가능성이 숨겨져 있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14259,6 +15198,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14303] = {
@@ -14286,7 +15228,6 @@ pg.furniture_data_template = {
 		describe = "게이트 개방 조건 : 우주복 착용, 기밀 체크에 주의할 것.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14298,6 +15239,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[14304] = {
@@ -14325,7 +15269,6 @@ pg.furniture_data_template = {
 		describe = "\"지휘관님, 오늘부터 우주복을 입고 출격해주세요.\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 14,
 		spine_extra = "",
 		time = "always",
@@ -14337,6 +15280,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[16001] = {
@@ -14364,7 +15310,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스 분위기에 맞는 깔끔한 바닥재. 습기에 주의.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14372,6 +15317,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -14425,7 +15373,6 @@ pg.furniture_data_template = {
 		describe = "메리 크리스마스!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14433,6 +15380,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -14486,7 +15436,6 @@ pg.furniture_data_template = {
 		describe = "선물 상자처럼 꾸민 욕조다!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14510,6 +15459,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yugangcr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -14564,7 +15516,6 @@ pg.furniture_data_template = {
 		describe = "기차 장난감이다. (레일 포함) 차종은…아 몰라!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14575,6 +15526,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -14628,7 +15582,6 @@ pg.furniture_data_template = {
 		describe = "\"이봐! 밥 먹을 땐 제대로 앉아서 먹어야지!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14651,6 +15604,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -14705,7 +15661,6 @@ pg.furniture_data_template = {
 		describe = "깃털이 가득 담겨 부드러운 착석감을 자랑하는 의자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14739,6 +15694,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -14793,7 +15751,6 @@ pg.furniture_data_template = {
 		describe = "\"맛있는 음식들을 잔뜩 놓자고!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14856,6 +15813,9 @@ pg.furniture_data_template = {
 				4
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -14909,7 +15869,6 @@ pg.furniture_data_template = {
 		describe = "올해는 산타가 밀린 업무가 많아서 못 온대요…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14920,6 +15879,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -14973,7 +15935,6 @@ pg.furniture_data_template = {
 		describe = "선물이 가득 담긴 보따리.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -14984,6 +15945,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15037,7 +16001,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스 스타일의 소파. 굉장히 푹신할 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15073,6 +16036,9 @@ pg.furniture_data_template = {
 				},
 				"cr/shafacr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -15127,7 +16093,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스엔 필수죠!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15138,6 +16103,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15191,7 +16159,6 @@ pg.furniture_data_template = {
 		describe = "반짝반짝 빛나는 수정 구슬.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15202,6 +16169,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuijingqiuB",
@@ -15302,7 +16272,6 @@ pg.furniture_data_template = {
 		describe = "커다란 썰매 침대. 산타가 된 꿈을 꿀 수 있을지도.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15350,6 +16319,9 @@ pg.furniture_data_template = {
 				},
 				"cr/xueqiaocr_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -15404,7 +16376,6 @@ pg.furniture_data_template = {
 		describe = "커다란 곰돌이 봉제인형",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15427,6 +16398,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -15481,7 +16455,6 @@ pg.furniture_data_template = {
 		describe = "방 안에 두어도 녹지 않는 굉장한 눈사람이다",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15492,6 +16465,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15545,7 +16521,6 @@ pg.furniture_data_template = {
 		describe = "\"순록을 괴롭히면 안 돼요!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15556,6 +16531,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15609,7 +16587,6 @@ pg.furniture_data_template = {
 		describe = "왠지 잠이 잘 올 것 같다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15633,6 +16610,9 @@ pg.furniture_data_template = {
 				},
 				"cr/yaoyaoyicr_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -15687,7 +16667,6 @@ pg.furniture_data_template = {
 		describe = "눈꽃 모양이 디자인된 카펫",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15698,6 +16677,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15751,7 +16733,6 @@ pg.furniture_data_template = {
 		describe = "눈처럼 밟으면 기분 좋을 것 같은 카펫",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15762,6 +16743,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15815,7 +16799,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스라고 하면 역시 이거지!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15826,6 +16809,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15879,7 +16865,6 @@ pg.furniture_data_template = {
 		describe = "레어 굽기로 구운 소고기 스테이크",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15890,6 +16875,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -15943,7 +16931,6 @@ pg.furniture_data_template = {
 		describe = "주식으로는 역시 빵이 어울리지!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -15954,6 +16941,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16007,7 +16997,6 @@ pg.furniture_data_template = {
 		describe = "커다란 돼지 등갈비 스테이크",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16018,6 +17007,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16071,7 +17063,6 @@ pg.furniture_data_template = {
 		describe = "너무 따뜻해! 난로 만세!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16082,6 +17073,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16135,7 +17129,6 @@ pg.furniture_data_template = {
 		describe = "바깥에 눈이 내리는 풍경이 비치는 창문",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16146,6 +17139,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16199,7 +17195,6 @@ pg.furniture_data_template = {
 		describe = "책을 가지런히 정리해둘 수 있는 책장",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16210,6 +17205,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16263,7 +17261,6 @@ pg.furniture_data_template = {
 		describe = "투명한 유리로 만든 문",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16274,6 +17271,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16327,7 +17327,6 @@ pg.furniture_data_template = {
 		describe = "메리 크리스마스!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16338,6 +17337,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16391,7 +17393,6 @@ pg.furniture_data_template = {
 		describe = "겨울을 만끽할 수 있는 정원",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 16,
 		spine_extra = "",
 		time = "always",
@@ -16402,6 +17403,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16455,7 +17459,6 @@ pg.furniture_data_template = {
 		describe = "미끄러져 넘어지지 않도록 주의",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16463,6 +17466,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16516,7 +17522,6 @@ pg.furniture_data_template = {
 		describe = "조상님들이 용과 돼지를 타고 꿈에 나타났다고? 올해엔 다들 대박 나시길!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16524,6 +17529,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16577,7 +17585,6 @@ pg.furniture_data_template = {
 		describe = "의외로 환영받는 족욕탕. 지휘관님도 한 번 들어와 보시겠어요?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16613,6 +17620,9 @@ pg.furniture_data_template = {
 				},
 				"mh/zutangmh_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -16667,7 +17677,6 @@ pg.furniture_data_template = {
 		describe = "바위와 돌, 죽통, 그리고 졸졸 흐르는 물… 물에 빠지지 않도록 조심해!",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16678,6 +17687,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chitang",
@@ -16737,7 +17749,6 @@ pg.furniture_data_template = {
 		describe = "새해에는 행운과 평안이 가득하기를",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16748,6 +17759,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16801,7 +17815,6 @@ pg.furniture_data_template = {
 		describe = "사쿠라 엠파이어에서 흔히 볼 수 있는 석등롱",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16812,6 +17825,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16865,7 +17881,6 @@ pg.furniture_data_template = {
 		describe = "두 개가 한 세트인 벚꽃이 그려진 제등.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16876,6 +17891,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16929,7 +17947,6 @@ pg.furniture_data_template = {
 		describe = "행운이 찾아오길 기도해보자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -16940,6 +17957,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -16993,7 +18013,6 @@ pg.furniture_data_template = {
 		describe = " \"펑펑 터뜨리는 것도 좋지만, 태고를 치는 것도 즐겁구만!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17004,6 +18023,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17057,7 +18079,6 @@ pg.furniture_data_template = {
 		describe = "\"올해는 꼭, ‘그레이 고스트’에게 이길 수 있기를...\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17068,6 +18089,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17121,7 +18145,6 @@ pg.furniture_data_template = {
 		describe = "깊고 깊은 오래된 우물",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17132,6 +18155,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17185,7 +18211,6 @@ pg.furniture_data_template = {
 		describe = "석등롱이 양쪽에 장식된 석단",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17196,6 +18221,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17249,7 +18277,6 @@ pg.furniture_data_template = {
 		describe = "기~다란 징검다리",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17260,6 +18287,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17313,7 +18343,6 @@ pg.furniture_data_template = {
 		describe = "기~다란 징검다리",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17324,6 +18353,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17377,7 +18409,6 @@ pg.furniture_data_template = {
 		describe = "금줄이 쳐진 도리이",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17388,6 +18419,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17441,7 +18475,6 @@ pg.furniture_data_template = {
 		describe = "영차! 영차! 떡이 목에 걸리지 않도록 조심!",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17452,6 +18485,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"daniangao",
@@ -17511,7 +18547,6 @@ pg.furniture_data_template = {
 		describe = "아름답고 정교한 화려한 색상으로 가득 채워진 공. \"하나 갖고 가도 될까요?\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17522,6 +18557,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17575,7 +18613,6 @@ pg.furniture_data_template = {
 		describe = "빨간 양산. 지치면 양산의 그늘에 앉아 한숨 돌려보자.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17586,6 +18623,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17639,7 +18679,6 @@ pg.furniture_data_template = {
 		describe = "연애운을 점쳐주는 바위",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17650,6 +18689,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17703,7 +18745,6 @@ pg.furniture_data_template = {
 		describe = "비나이다~ 비나이다~ 올해엔 꼭 더 성장해가 금마한테 미인 소리 들을 수 있길…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17714,6 +18755,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17767,7 +18811,6 @@ pg.furniture_data_template = {
 		describe = "제비뽑은 오미쿠지를 묶어두는 나무. 소원이 이뤄질 수 있기를...",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17778,6 +18821,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17831,7 +18877,6 @@ pg.furniture_data_template = {
 		describe = "정좌로 앉지 않아도 괜찮아!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -17886,6 +18931,9 @@ pg.furniture_data_template = {
 				1
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -17939,7 +18987,6 @@ pg.furniture_data_template = {
 		describe = "쪼~끔 높다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -18370,6 +19417,9 @@ pg.furniture_data_template = {
 				14
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18423,7 +19473,6 @@ pg.furniture_data_template = {
 		describe = "모두가 좋아하는 당고 3형제.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -18434,6 +19483,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18487,7 +19539,6 @@ pg.furniture_data_template = {
 		describe = "먹을 땐 꼬리부터? 아니면 머리부터?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -18498,6 +19549,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18551,7 +19605,6 @@ pg.furniture_data_template = {
 		describe = "새해에 먹는 떡. 맛이 있는지 없는진 모르겠다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -18562,6 +19615,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18615,7 +19671,6 @@ pg.furniture_data_template = {
 		describe = "복주머니, 하나 어떠냥?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 17,
 		spine_extra = "",
 		time = "always",
@@ -18626,6 +19681,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -18679,7 +19737,6 @@ pg.furniture_data_template = {
 		describe = "라인이 떠오르는 바닥재.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -18687,6 +19744,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18740,7 +19800,6 @@ pg.furniture_data_template = {
 		describe = "슬라이누가 한가득해 활기찬 느낌의 벽지.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -18748,6 +19807,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18801,7 +19863,6 @@ pg.furniture_data_template = {
 		describe = "이세계로의 전송장치(의 일부분).",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -18812,6 +19873,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18865,7 +19929,6 @@ pg.furniture_data_template = {
 		describe = "커다란 슬라이누의 봉제 인형. 인형 뽑기 기계에서 뽑으려면 적어도 10만 원은 써야 할 것 같다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -18876,6 +19939,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -18929,7 +19995,6 @@ pg.furniture_data_template = {
 		describe = "블랙 파카 원피스의 주머니를 형상화한 의자. '확인' 버튼이 아니다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -18952,6 +20017,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -19006,7 +20074,6 @@ pg.furniture_data_template = {
 		describe = "파카 원피스의 주머니를 형상화한 의자. '확인' 버튼이 아니래도?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19029,6 +20096,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -19083,7 +20153,6 @@ pg.furniture_data_template = {
 		describe = "3시 방향에 적함 발견!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19094,6 +20163,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19147,7 +20219,6 @@ pg.furniture_data_template = {
 		describe = "푸른 빛을 내뿜는 울타리.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19158,6 +20229,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19211,7 +20285,6 @@ pg.furniture_data_template = {
 		describe = "링 오픈… 전송~!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19235,6 +20308,9 @@ pg.furniture_data_template = {
 				},
 				"cy/linkcy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -19289,7 +20365,6 @@ pg.furniture_data_template = {
 		describe = "네코쨩의 봉제 인형.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19300,6 +20375,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19353,7 +20431,6 @@ pg.furniture_data_template = {
 		describe = "만지면 이벤트가 발생할 것 같은 큐브.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19376,6 +20453,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -19430,7 +20510,6 @@ pg.furniture_data_template = {
 		describe = "세계를 지키는 4인의 전사를 소환할 것 같은 크리스털.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19441,6 +20520,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19494,7 +20576,6 @@ pg.furniture_data_template = {
 		describe = "슬라이누의 봉제 인형.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19505,6 +20586,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19558,7 +20642,6 @@ pg.furniture_data_template = {
 		describe = "마음에 드는 히로인과 만나기 쉬운 장소에 놔두는 쿠션.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19581,6 +20664,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -19635,7 +20721,6 @@ pg.furniture_data_template = {
 		describe = "수상한 빛을 내뿜는 다크 크리스털.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19646,6 +20731,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19699,7 +20787,6 @@ pg.furniture_data_template = {
 		describe = "주사 맞을 시간이에요~♪",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19710,6 +20797,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19763,7 +20853,6 @@ pg.furniture_data_template = {
 		describe = "던전 입구의 양 옆에서 자주 볼 수 있는 홀로그램 타입의 기둥.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19774,6 +20863,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19827,7 +20919,6 @@ pg.furniture_data_template = {
 		describe = "게입업계에서 자주 볼 수 있는 디자인의 기둥.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19838,6 +20929,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -19891,7 +20985,6 @@ pg.furniture_data_template = {
 		describe = "퍼플 하트의 하드웨어를 형상화한 테이블.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -19954,6 +21047,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20007,7 +21103,6 @@ pg.furniture_data_template = {
 		describe = "슬라이누의 쿠션. (쿠션에 몸을) 묻고 싶다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20031,6 +21126,9 @@ pg.furniture_data_template = {
 				},
 				"cy/zuoyicy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -20085,7 +21183,6 @@ pg.furniture_data_template = {
 		describe = "N기어를 형상화한 외장 배터리. 게임은 안 된다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20096,6 +21193,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chongdianbaochuangB",
@@ -20178,7 +21278,6 @@ pg.furniture_data_template = {
 		describe = "이스투아르의 디자인이 들어간 가구.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20189,6 +21288,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shubenyizi",
@@ -20277,7 +21379,6 @@ pg.furniture_data_template = {
 		describe = "매달려서 이동할 수 있다. 그 모습은 우주의 기사와도 같으니.",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20344,6 +21445,9 @@ pg.furniture_data_template = {
 				0,
 				14
 			}
+		},
+		can_trigger = {
+			0
 		},
 		spine = {
 			{
@@ -20432,7 +21536,6 @@ pg.furniture_data_template = {
 		describe = "여신의 가호를 받을 수 있을 것 같은 서클. 하지만 아무 일도 일어나지 않는다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20443,6 +21546,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jiaju4B",
@@ -20525,7 +21631,6 @@ pg.furniture_data_template = {
 		describe = "초록빛을 내뿜는 라이트 스탠드.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20536,6 +21641,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20589,7 +21697,6 @@ pg.furniture_data_template = {
 		describe = "작은 슬라이누의 봉제 인형. 손바닥만한 사이즈다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20600,6 +21707,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20653,7 +21763,6 @@ pg.furniture_data_template = {
 		describe = "네 조각으로 구성된 벽걸이 모니터. 솔직히 보기 불편하다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20664,6 +21773,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20717,7 +21829,6 @@ pg.furniture_data_template = {
 		describe = "다른 차원으로 통할 수 있을 것 같은, SF 감성이 넘치는 게이트.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20728,6 +21839,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20781,7 +21895,6 @@ pg.furniture_data_template = {
 		describe = "정보가 계속해서 업데이트되는 모니터.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20792,6 +21905,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20845,7 +21961,6 @@ pg.furniture_data_template = {
 		describe = "게임 할 때 화면 구석에 자주 표시되는 녀석!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20856,6 +21971,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20909,7 +22027,6 @@ pg.furniture_data_template = {
 		describe = "뇌파 컨트롤러의 모양을 한 오브젝트.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20920,6 +22037,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -20973,7 +22093,6 @@ pg.furniture_data_template = {
 		describe = "블랙 뇌파 컨트롤러의 모양을 한 오브젝트.",
 		dorm_id = 0,
 		gem_price = 90,
-		can_trigger = 0,
 		themeId = 18,
 		spine_extra = "",
 		new = 0,
@@ -20984,6 +22103,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -21037,7 +22159,6 @@ pg.furniture_data_template = {
 		describe = "행복한 명절 되세요!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21045,6 +22166,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21098,7 +22222,6 @@ pg.furniture_data_template = {
 		describe = "행복한 명절 되세요!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21106,6 +22229,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21159,7 +22285,6 @@ pg.furniture_data_template = {
 		describe = "이름하여, '이스트 글림 콰쾅'!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21170,6 +22295,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21223,7 +22351,6 @@ pg.furniture_data_template = {
 		describe = "다들 부자 되길삐약!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21234,6 +22361,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21287,7 +22417,6 @@ pg.furniture_data_template = {
 		describe = "한 번 더 앉을 수 있다쿵!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21310,6 +22439,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -21364,7 +22496,6 @@ pg.furniture_data_template = {
 		describe = "설날에 장식하는 등롱.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21375,6 +22506,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21428,7 +22562,6 @@ pg.furniture_data_template = {
 		describe = "대길 쥬쥬가 그려져 있는 카펫.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21439,6 +22572,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21492,7 +22628,6 @@ pg.furniture_data_template = {
 		describe = "펜스 넘어가면 안 된다구.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21503,6 +22638,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21556,7 +22694,6 @@ pg.furniture_data_template = {
 		describe = "(∪＾ω＾) 멍멍멍컹컹 (황색)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21567,6 +22704,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21620,7 +22760,6 @@ pg.furniture_data_template = {
 		describe = "(∪＾ω＾) 멍멍멍컹컹 (흑색)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21631,6 +22770,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21684,7 +22826,6 @@ pg.furniture_data_template = {
 		describe = "몸을 숨길 수 있을 정도로 커다란 찬합.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21769,6 +22910,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21822,7 +22966,6 @@ pg.furniture_data_template = {
 		describe = "정원의 작은 화단. ※밟지 마시오.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21833,6 +22976,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -21886,7 +23032,6 @@ pg.furniture_data_template = {
 		describe = "연결 복도(의 일부). 올라가 볼래?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21910,6 +23055,9 @@ pg.furniture_data_template = {
 				},
 				"cj/langcj_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -21964,7 +23112,6 @@ pg.furniture_data_template = {
 		describe = "\"지휘관! 헤헤~ 오늘은 대길 모드라구!\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -21975,6 +23122,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22028,7 +23178,6 @@ pg.furniture_data_template = {
 		describe = "돌로 포장된 길.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22039,6 +23188,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22092,7 +23244,6 @@ pg.furniture_data_template = {
 		describe = "낙엽이 높게 쌓여있다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22103,6 +23254,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22156,7 +23310,6 @@ pg.furniture_data_template = {
 		describe = "붉은 카펫이 깔린 계단.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22167,6 +23320,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22220,7 +23376,6 @@ pg.furniture_data_template = {
 		describe = "쥬쥬가 그려져 있는 무대.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22265,6 +23420,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -22319,7 +23477,6 @@ pg.furniture_data_template = {
 		describe = "가는 해, 오는 해, 소망을 담아……",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22330,6 +23487,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22383,7 +23543,6 @@ pg.furniture_data_template = {
 		describe = "황금으로 만든 말굽 모양 은괴… 그럼 그냥 금괴아냐?",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22394,6 +23553,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22447,7 +23609,6 @@ pg.furniture_data_template = {
 		describe = "큰 북의 이미지로 디자인된 테이블.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22469,6 +23630,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {},
 		discount_time = {
@@ -22523,7 +23687,6 @@ pg.furniture_data_template = {
 		describe = "신년의 축포를 쏘아 올리자!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22534,6 +23697,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yanhuaB",
@@ -22638,7 +23804,6 @@ pg.furniture_data_template = {
 		describe = "따뜻한 탕위안 한그릇 드세요!",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22649,6 +23814,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22702,7 +23870,6 @@ pg.furniture_data_template = {
 		describe = "\"우리 이스트 글림은 역시 물만두 쪽이…\"",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22713,6 +23880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22766,7 +23936,6 @@ pg.furniture_data_template = {
 		describe = "다다다다다다다다다다(폭발음)",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22777,6 +23946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22830,7 +24002,6 @@ pg.furniture_data_template = {
 		describe = "오각형으로 만든 창",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22841,6 +24012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22894,7 +24068,6 @@ pg.furniture_data_template = {
 		describe = "설날을 맞이하여 준비한 족자…지만, 너무 악필이라서 뭐라고 썼는지 알 수 없다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22905,6 +24078,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -22958,7 +24134,6 @@ pg.furniture_data_template = {
 		describe = "설날을 맞이하여 준비한 족자…지만, 너무 악필이라서 뭐라고 썼는지 알 수 없다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -22969,6 +24144,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23022,7 +24200,6 @@ pg.furniture_data_template = {
 		describe = "거꾸로 걸어놓은, 복을 부른다는 벽보. 복이 이곳까지 올 수 있기를.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -23033,6 +24210,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23086,7 +24266,6 @@ pg.furniture_data_template = {
 		describe = "틈 사이로 엿보면 안 돼요.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -23097,6 +24276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23150,7 +24332,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림 저택의 문. 금속 고리로 만든 손잡이가 특징.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 19,
 		spine_extra = "",
 		time = "always",
@@ -23161,6 +24342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {},
 		discount_time = {
 			{
@@ -23214,7 +24398,6 @@ pg.furniture_data_template = {
 		describe = "쥬쥬 초원에 어서 오세요!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23222,6 +24405,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23275,7 +24461,6 @@ pg.furniture_data_template = {
 		describe = "쥬쥬 초원에 어서 오세요!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23283,6 +24468,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23336,7 +24524,6 @@ pg.furniture_data_template = {
 		describe = "볏짚을 깐 나무 침대. 잠자리가 그렇게 편할 거 같진 않다…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23360,6 +24547,9 @@ pg.furniture_data_template = {
 				},
 				"zo/chuangzo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23414,7 +24604,6 @@ pg.furniture_data_template = {
 		describe = "길을 잃었을 땐 붉은 깃발을 향해 전진하도록 하자.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23425,6 +24614,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23478,7 +24670,6 @@ pg.furniture_data_template = {
 		describe = "절대 절대 훔쳐보면 안 돼!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23514,6 +24705,9 @@ pg.furniture_data_template = {
 					"zo/gengyishizo_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23568,7 +24762,6 @@ pg.furniture_data_template = {
 		describe = "쥬쥬 초원은 여러분을 환영합니다~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23579,6 +24772,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23632,7 +24828,6 @@ pg.furniture_data_template = {
 		describe = "어서 오세요~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23643,6 +24838,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23696,7 +24894,6 @@ pg.furniture_data_template = {
 		describe = "장난친다고 풍선 터뜨리면 안돼요!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23707,6 +24904,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23760,7 +24960,6 @@ pg.furniture_data_template = {
 		describe = "후… 차양 설비도 확실히 해야죠~",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23771,6 +24970,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23824,7 +25026,6 @@ pg.furniture_data_template = {
 		describe = "내가 바로 숲의 왕이다~ 어흥~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23848,6 +25049,9 @@ pg.furniture_data_template = {
 				},
 				"zo/shizizo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -23902,7 +25106,6 @@ pg.furniture_data_template = {
 		describe = "나무에 빵이 열릴지도 모른다고?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23913,6 +25116,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -23966,7 +25172,6 @@ pg.furniture_data_template = {
 		describe = "와! 물이다! 여기서 좀 쉬다 갈까?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -23977,6 +25182,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24030,7 +25238,6 @@ pg.furniture_data_template = {
 		describe = "탐험하기 전엔 배불리 먹어놔야지.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -24054,6 +25261,9 @@ pg.furniture_data_template = {
 				},
 				"zo/yecanzhuozo_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24108,7 +25318,6 @@ pg.furniture_data_template = {
 		describe = "충분한 휴식을 취한 뒤 탐험을 계속하자구요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -24131,6 +25340,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24185,7 +25397,6 @@ pg.furniture_data_template = {
 		describe = "싱그러운 초록빛의 덤불. 안에는 과연 뭐가 감춰져 있을지?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -24196,6 +25407,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24249,7 +25463,6 @@ pg.furniture_data_template = {
 		describe = "헤이! 헤이! 헤이 헤이!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 20,
 		spine_extra = "",
 		new = 1,
@@ -24283,6 +25496,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24337,7 +25553,6 @@ pg.furniture_data_template = {
 		describe = "로열 네이비의 우아함이 느껴지는 패턴의 바닥재.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24345,6 +25560,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24398,7 +25616,6 @@ pg.furniture_data_template = {
 		describe = "로열 네이비의 우아함이 느껴지는 디자인의 벽지.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24406,6 +25623,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24459,7 +25679,6 @@ pg.furniture_data_template = {
 		describe = "도시의 유명 관광명소…를 모티브로 만들었다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24507,6 +25726,9 @@ pg.furniture_data_template = {
 				},
 				"yl/taqiaoyl_using1"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24561,7 +25783,6 @@ pg.furniture_data_template = {
 		describe = "웰컴 투 런던!",
 		dorm_id = 0,
 		gem_price = 250,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24572,6 +25793,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"motianlunB",
@@ -24672,7 +25896,6 @@ pg.furniture_data_template = {
 		describe = "여보세요 나야, 거기 잘 들리니…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -24684,6 +25907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22104] = {
@@ -24711,7 +25937,6 @@ pg.furniture_data_template = {
 		describe = "앉았을 때 편안해서인지, 언제부터인가 의자 취급 받기 시작한 레더굿즈.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24722,6 +25947,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24775,7 +26003,6 @@ pg.furniture_data_template = {
 		describe = "편지를 주고 받는 건 클래식한 로망스.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24786,6 +26013,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -24839,7 +26069,6 @@ pg.furniture_data_template = {
 		describe = "그렇구나! 로열 네이비의 애프터눈 티는 마음을 담아 준비해야 하는 거구나!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24869,6 +26098,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -24923,7 +26155,6 @@ pg.furniture_data_template = {
 		describe = "그렇구나! 로열 네이비의 애프터눈 티는 마음을 담아 준비해야 하는 거구나!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -24947,6 +26178,9 @@ pg.furniture_data_template = {
 				},
 				"yl/zuoyiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25001,7 +26235,6 @@ pg.furniture_data_template = {
 		describe = "하늘을 나는 동년의 추억을 자그마한 곤돌라에 담아…",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -25026,6 +26259,9 @@ pg.furniture_data_template = {
 				},
 				"yl/qiqiuyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -25054,7 +26290,6 @@ pg.furniture_data_template = {
 		describe = "커피 한 잔 어떠세요?",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25065,6 +26300,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kafeijiB",
@@ -25166,7 +26404,6 @@ pg.furniture_data_template = {
 		describe = "나, 실은 정어리 파이를 좋아하거든~응? 왜 그래? 안 먹어? 되게 맛있는데?",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25177,6 +26414,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"yangwangxingkongpaiB",
@@ -25277,7 +26517,6 @@ pg.furniture_data_template = {
 		describe = "이 침대는 여왕님 전용입니다! 선택받은 자만이 올라갈 수 있어요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25313,6 +26552,9 @@ pg.furniture_data_template = {
 				},
 				"yl/chuangyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25367,7 +26609,6 @@ pg.furniture_data_template = {
 		describe = "전망이 잘 보이는 관광버스. 왜 실내에 놔뒀는지는 수수께끼다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25428,6 +26669,9 @@ pg.furniture_data_template = {
 				"yl/bashiyl_using1"
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25481,7 +26725,6 @@ pg.furniture_data_template = {
 		describe = "로열 네이비에서 흔히 볼 수 있는 아름다운 디자인의 가로등.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25492,6 +26735,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25545,7 +26791,6 @@ pg.furniture_data_template = {
 		describe = "꽃잎이 떠있는 욕조. 들어가면 좋은 향기가 난다!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25569,6 +26814,9 @@ pg.furniture_data_template = {
 				},
 				"yl/yuchiyl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25623,7 +26871,6 @@ pg.furniture_data_template = {
 		describe = "안에 들어간 편지는 어디로 가는 걸까…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25634,6 +26881,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25687,7 +26937,6 @@ pg.furniture_data_template = {
 		describe = "이 소파는 여왕님 전용입니다! 네! 고개를 숙이십시오!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25711,6 +26960,9 @@ pg.furniture_data_template = {
 				},
 				"yl/shafa1yl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25765,7 +27017,6 @@ pg.furniture_data_template = {
 		describe = "커다란 왕관의 오브젝트. 위에 앉으면 왕이 된 기분을 느낄 수 있다는 소문이 있다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25800,6 +27051,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -25854,7 +27108,6 @@ pg.furniture_data_template = {
 		describe = "로열 네이비의 명물, 만쥬 근위병. 교대식은 꼭 구경해봐삐약.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -25866,6 +27119,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[22119] = {
@@ -25893,7 +27149,6 @@ pg.furniture_data_template = {
 		describe = "화려한 로열 스테어웨이.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25904,6 +27159,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -25957,7 +27215,6 @@ pg.furniture_data_template = {
 		describe = "굉장히 기이이이이이이이인 카펫.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -25968,6 +27225,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26021,7 +27281,6 @@ pg.furniture_data_template = {
 		describe = "차만 우려내서 마신다. 향이 굉장히 좋다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26032,6 +27291,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26085,7 +27347,6 @@ pg.furniture_data_template = {
 		describe = "차를 맛있게 우려내기 위해 사용되는 주전자.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26096,6 +27357,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26149,7 +27413,6 @@ pg.furniture_data_template = {
 		describe = "벨파는 비스켓, 나는 스콘, 서포크는 밀크 푸딩, 켄트는 미니 케이크, 셰피는 샌드위치…그리고 또…뭐가 남았더라?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26160,6 +27423,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26213,7 +27479,6 @@ pg.furniture_data_template = {
 		describe = "거울아 거울아, 세상에서 누가 제일 예쁘니?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26224,6 +27489,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26277,7 +27545,6 @@ pg.furniture_data_template = {
 		describe = "이 분재는 벽에 걸어도 될지도! …으음, 너무 높이 걸었나…아하하……아! 지휘관, 고마워!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26288,6 +27555,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26341,7 +27611,6 @@ pg.furniture_data_template = {
 		describe = "초콜릿으로 만들어진 벽. 깨물어 먹지 마세요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26352,6 +27621,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26405,7 +27677,6 @@ pg.furniture_data_template = {
 		describe = "함께 보내온 나날을 기념하자.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26416,6 +27687,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26469,7 +27743,6 @@ pg.furniture_data_template = {
 		describe = "교통안전에 주의하세요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		new = 1,
@@ -26480,6 +27753,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26533,7 +27809,6 @@ pg.furniture_data_template = {
 		describe = "모두에게 유명한 빅 벤이 보인다.",
 		dorm_id = 0,
 		gem_price = 0,
-		can_trigger = 0,
 		themeId = 22,
 		spine_extra = "",
 		time = "always",
@@ -26545,6 +27820,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		interAction_group = {}
 	},
 	[23001] = {
@@ -26572,7 +27850,6 @@ pg.furniture_data_template = {
 		describe = "넘어지지 않도록 조심!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26580,6 +27857,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26633,7 +27913,6 @@ pg.furniture_data_template = {
 		describe = "쥬쥬가 그려져 있는 벽지",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26641,6 +27920,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -26694,7 +27976,6 @@ pg.furniture_data_template = {
 		describe = "다이빙 금지!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26730,6 +28011,9 @@ pg.furniture_data_template = {
 				},
 				"yy/bobochiyy_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -26784,7 +28068,6 @@ pg.furniture_data_template = {
 		describe = "철도가 딱히 깔려있지 않아 진짜 기차인지는 수수께끼다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26807,6 +28090,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -26861,7 +28147,6 @@ pg.furniture_data_template = {
 		describe = "착한 아이는 낮잠도 잘 자야 해요",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26885,6 +28170,9 @@ pg.furniture_data_template = {
 				},
 				"yy/chuangyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -26939,7 +28227,6 @@ pg.furniture_data_template = {
 		describe = "밥은 제대로 앉아서 먹도록 해요",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -26962,6 +28249,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27016,7 +28306,6 @@ pg.furniture_data_template = {
 		describe = "책상을 더럽히면 쥬쥬가 삐약삐약 화낼 거에요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27054,6 +28343,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27108,7 +28400,6 @@ pg.furniture_data_template = {
 		describe = "1 다음은… 9?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27119,6 +28410,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27172,7 +28466,6 @@ pg.furniture_data_template = {
 		describe = "황금색 해바라기가 심어져 있는 분재",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27183,6 +28476,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27236,7 +28532,6 @@ pg.furniture_data_template = {
 		describe = "나 빼고 모두 줄 서서 타도록!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27284,6 +28579,9 @@ pg.furniture_data_template = {
 				},
 				"yy/huatiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27338,7 +28636,6 @@ pg.furniture_data_template = {
 		describe = "놀이용 모래밭… 아니아니, 모래성 짓기 수행장이란 건가?!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27362,6 +28659,9 @@ pg.furniture_data_template = {
 				},
 				"yy/shachiyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27416,7 +28716,6 @@ pg.furniture_data_template = {
 		describe = "다같이 콩콩콩 뛰어볼까요?",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27427,6 +28726,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27480,7 +28782,6 @@ pg.furniture_data_template = {
 		describe = "아르키메데스의 지렛대를 갖고 있다 해도, 이 쥬쥬님께서 그리 쉽게 움직여 줄 성싶으냐! ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27504,6 +28805,9 @@ pg.furniture_data_template = {
 				},
 				"yy/qiaoqiaobanyy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -27558,7 +28862,6 @@ pg.furniture_data_template = {
 		describe = "우왕~ 방방 뜬다아~",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27569,6 +28872,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"bengchuang",
@@ -27657,7 +28963,6 @@ pg.furniture_data_template = {
 		describe = "흔들 흔들… 흔들… 졸려……",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27668,6 +28973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"mumaB",
@@ -27758,7 +29066,6 @@ pg.furniture_data_template = {
 		describe = "누가 더 높이 가나 시합이다아아아!",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27769,6 +29076,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"qiuqianB",
@@ -27859,7 +29169,6 @@ pg.furniture_data_template = {
 		describe = "편식하기 없기! 고기도 채소도 잘 먹어야죠!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27870,6 +29179,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27923,7 +29235,6 @@ pg.furniture_data_template = {
 		describe = "아직 따뜻한 우유가 담겨 있다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27934,6 +29245,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -27987,7 +29301,6 @@ pg.furniture_data_template = {
 		describe = "곰돌이를 모티브로 한 창문",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -27998,6 +29311,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28051,7 +29367,6 @@ pg.furniture_data_template = {
 		describe = "진짜 구름은 아니지만 귀여워!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28062,6 +29377,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28115,7 +29433,6 @@ pg.furniture_data_template = {
 		describe = "달을 모티브로 한 전등",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28126,6 +29443,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28179,7 +29499,6 @@ pg.furniture_data_template = {
 		describe = "가득가득 걸고 싶어…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28190,6 +29509,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28243,7 +29565,6 @@ pg.furniture_data_template = {
 		describe = "과연 누구의 작품일까?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28254,6 +29575,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28307,7 +29631,6 @@ pg.furniture_data_template = {
 		describe = "곰돌이를 모티브로 한 문",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28318,6 +29641,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28371,7 +29697,6 @@ pg.furniture_data_template = {
 		describe = "벽에 붙이기 위해 굳이 산 스티커, 쉽게 뗄 수 있다.",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 23,
 		spine_extra = "",
 		new = 1,
@@ -28382,6 +29707,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28435,7 +29763,6 @@ pg.furniture_data_template = {
 		describe = "고양이 무늬가 가득한 바닥",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28443,6 +29770,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28496,7 +29826,6 @@ pg.furniture_data_template = {
 		describe = "냥냥 카페의 벽지",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28504,6 +29833,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28557,7 +29889,6 @@ pg.furniture_data_template = {
 		describe = "블루마운틴으로 하겠냥? 아니면 만델링으로 하겠냥?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28568,6 +29899,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28621,7 +29955,6 @@ pg.furniture_data_template = {
 		describe = "피곤하면 자라냥… 좋은 꿈 꿔냥…",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28657,6 +29990,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/chuang2cf_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28711,7 +30047,6 @@ pg.furniture_data_template = {
 		describe = "꼬리 잡아당기기 금지",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28734,6 +30069,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28788,7 +30126,6 @@ pg.furniture_data_template = {
 		describe = "냥냥 펀치를 대형화 시켜보았다냥! 이제 펀치력도 장난 아니겠… 잠깐, 왜 이런 걸 소파로 만든 거냥!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28811,6 +30148,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -28865,7 +30205,6 @@ pg.furniture_data_template = {
 		describe = "너무 힘줘서 밟진 말아줘냥",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28876,6 +30215,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28929,7 +30271,6 @@ pg.furniture_data_template = {
 		describe = "카펫이 좀 밋밋하다고냥? 이렇게 발자국을 좀 찍어주면 문제없어냥!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -28940,6 +30281,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -28993,7 +30337,6 @@ pg.furniture_data_template = {
 		describe = "우냣! 빠지겠다냥!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29017,6 +30360,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/kafeibeicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29071,7 +30417,6 @@ pg.furniture_data_template = {
 		describe = "고양이용 미니사이즈 레저 시설",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29105,6 +30450,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29159,7 +30507,6 @@ pg.furniture_data_template = {
 		describe = "맛있어 보여냥?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29170,6 +30517,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29223,7 +30573,6 @@ pg.furniture_data_template = {
 		describe = "살금… 살금… 지금이다냥! (퍽)",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29234,6 +30583,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29287,7 +30639,6 @@ pg.furniture_data_template = {
 		describe = "편안해냥… 아무것도 하기 싫어진다냥…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29310,6 +30661,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29364,7 +30718,6 @@ pg.furniture_data_template = {
 		describe = "편안해냥… 아무것도 하기 싫어진다냥…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29387,6 +30740,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29441,7 +30797,6 @@ pg.furniture_data_template = {
 		describe = "편안해냥… 아무것도 하기 싫어진다냥…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29464,6 +30819,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29518,7 +30876,6 @@ pg.furniture_data_template = {
 		describe = "냥냥 하우스를 점령하지 말아줬음 좋겠다냥!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29553,6 +30910,9 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29607,7 +30967,6 @@ pg.furniture_data_template = {
 		describe = "물도 할짝할짝 마실 수 있어냥!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29618,6 +30977,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -29671,7 +31033,6 @@ pg.furniture_data_template = {
 		describe = "우엑…마, 맛있어냥! 마, 마, 마, 맛있어냥…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29682,6 +31043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"feiyuguantouB",
@@ -29767,7 +31131,6 @@ pg.furniture_data_template = {
 		describe = "이제 어떤 고양이가 와도 문제 없다냥! ",
 		dorm_id = 0,
 		gem_price = 100,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29778,6 +31141,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"maoxianghexin",
@@ -29837,7 +31203,6 @@ pg.furniture_data_template = {
 		describe = "안에 쏙 들어가고 싶어냥…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29861,6 +31226,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhidaicf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29915,7 +31283,6 @@ pg.furniture_data_template = {
 		describe = "안에! 쏙! 들어가고! 싶어! 냥!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -29939,6 +31306,9 @@ pg.furniture_data_template = {
 				},
 				"cafe/zhixiangcf_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -29993,7 +31363,6 @@ pg.furniture_data_template = {
 		describe = "잘 먹겠습니다~냥!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30004,6 +31373,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30057,7 +31429,6 @@ pg.furniture_data_template = {
 		describe = "아니 정말, 고양이가 아니라니까냥!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30068,6 +31439,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30121,7 +31495,6 @@ pg.furniture_data_template = {
 		describe = "냥냥을 이미지화한 디자인의 테이블. \"고양이가 아니다냥!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30151,6 +31524,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -30205,7 +31581,6 @@ pg.furniture_data_template = {
 		describe = "안녕하세요. 고양입니다. 고양이가 있습니다.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30216,6 +31591,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxbrownB",
@@ -30313,7 +31691,6 @@ pg.furniture_data_template = {
 		describe = "후, 뒤치다꺼리가 힘든 아가씨구냥",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30324,6 +31701,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxgrayB",
@@ -30421,7 +31801,6 @@ pg.furniture_data_template = {
 		describe = "무츠키의 흉내를 내면 안돼~!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30432,6 +31811,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"amazingboxcolorB",
@@ -30529,7 +31911,6 @@ pg.furniture_data_template = {
 		describe = "냥냥 카페에서만 파는 쿠키다냥!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30540,6 +31921,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30593,7 +31977,6 @@ pg.furniture_data_template = {
 		describe = "\"모, 몰래 훔쳐먹지 않았다냥!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30604,6 +31987,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30657,7 +32043,6 @@ pg.furniture_data_template = {
 		describe = "\"주문은 고양이로 하시겠냥?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30668,6 +32053,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30721,7 +32109,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림 스타일의 특등석이다냥!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30732,6 +32119,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30785,7 +32175,6 @@ pg.furniture_data_template = {
 		describe = "기분 좋게 실뭉치를 갖고 노는 고양이가 그려져 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30796,6 +32185,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30849,7 +32241,6 @@ pg.furniture_data_template = {
 		describe = "도약력과 슬라이딩 능력을 시험할 수 있는 벽걸이형 캣하우스",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30860,6 +32251,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30913,7 +32307,6 @@ pg.furniture_data_template = {
 		describe = "어서와라냥!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30924,6 +32317,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -30977,7 +32373,6 @@ pg.furniture_data_template = {
 		describe = "낮잠 동아리, 전원 집합이다냥!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 24,
 		spine_extra = "",
 		new = 1,
@@ -30988,6 +32383,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31041,7 +32439,6 @@ pg.furniture_data_template = {
 		describe = "수영장을 둘러싸고 있는 흰색 바닥. (미끄럼 방지 기능)",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31049,6 +32446,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31102,7 +32502,6 @@ pg.furniture_data_template = {
 		describe = "주위가 온통 수풀로 둘려있지만, 안에 누가 숨어있진 않은지 확인하도록 하자.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31110,6 +32509,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31163,7 +32565,6 @@ pg.furniture_data_template = {
 		describe = "노란색 물놀이 공. 맞으면 아프다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31186,6 +32587,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31240,7 +32644,6 @@ pg.furniture_data_template = {
 		describe = "파란색 물놀이 공. 맞으면 아프다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31263,6 +32666,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31317,7 +32723,6 @@ pg.furniture_data_template = {
 		describe = "요즘 블루 & 화이트 패턴이 유행이라며?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31328,6 +32733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31381,7 +32789,6 @@ pg.furniture_data_template = {
 		describe = "「삐삑! 거기 있는 어린이, 수영장에 바로 다이빙하면 안 돼요!」",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31405,6 +32812,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/jiushengyisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31459,7 +32869,6 @@ pg.furniture_data_template = {
 		describe = "수심이 깊으니 조심할 것!! 구명 튜브가 없으면 이용에 각별히 주의해야 해요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31618,6 +33027,9 @@ pg.furniture_data_template = {
 				5
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31671,7 +33083,6 @@ pg.furniture_data_template = {
 		describe = "풀에 들어갈 땐 미끄러지지 않게 조심!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31694,6 +33105,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31748,7 +33162,6 @@ pg.furniture_data_template = {
 		describe = "에이젼트 만쥬, 잠수 임무 진행 중.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31759,6 +33172,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31812,7 +33228,6 @@ pg.furniture_data_template = {
 		describe = "수상훈련용으로 안성맞춤!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31836,6 +33251,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/qiusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -31890,7 +33308,6 @@ pg.furniture_data_template = {
 		describe = "덱체어 전용 파라솔",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31901,6 +33318,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -31954,7 +33374,6 @@ pg.furniture_data_template = {
 		describe = "파라솔 아래서 시원한 음료수 한잔, 캬아~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -31980,6 +33399,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32034,7 +33456,6 @@ pg.furniture_data_template = {
 		describe = "푹신푹신한 에어소파. 막 앉았다가 망가지진 않겠지…?",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32058,6 +33479,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shafasly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32112,7 +33536,6 @@ pg.furniture_data_template = {
 		describe = "여름의 제철 음식을 좀 드셔 보시겠어요?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32123,6 +33546,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32176,7 +33602,6 @@ pg.furniture_data_template = {
 		describe = "수박처럼 생긴 덱체어. 굉장히 시원해 보인다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32199,6 +33624,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32253,7 +33681,6 @@ pg.furniture_data_template = {
 		describe = "판타지 느낌이 가득한 에어덱체어",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32276,6 +33703,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32330,7 +33760,6 @@ pg.furniture_data_template = {
 		describe = "썬탠오일 바르는 걸 잊지 않도록!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32354,6 +33783,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/tangyi4sly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32408,7 +33840,6 @@ pg.furniture_data_template = {
 		describe = "찔리거나 하진 않…겠지?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32431,6 +33862,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32485,7 +33919,6 @@ pg.furniture_data_template = {
 		describe = "높게 솟은 야자수. 하지만 진짜 코코넛은 열려있지 않다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32496,6 +33929,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -32549,7 +33985,6 @@ pg.furniture_data_template = {
 		describe = "코코넛처럼 생긴 욕조. 안에 담긴 건 물이다…아마도.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32573,6 +34008,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yezisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32627,7 +34065,6 @@ pg.furniture_data_template = {
 		describe = "레드 & 화이트 패턴의 물놀이 튜브",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32650,6 +34087,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32704,7 +34144,6 @@ pg.furniture_data_template = {
 		describe = "노란색 물놀이 튜브",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32727,6 +34166,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32781,7 +34223,6 @@ pg.furniture_data_template = {
 		describe = "물놀이 전에는 꼭 샤워하도록 해요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32805,6 +34246,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/yuchisly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32859,7 +34303,6 @@ pg.furniture_data_template = {
 		describe = "무지개 다리가 걸려있는 의자. 앉으면 푹신푹신하다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32893,6 +34336,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -32947,7 +34393,6 @@ pg.furniture_data_template = {
 		describe = "물놀이 전에는 꼭 샤워하도록 해요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -32971,6 +34416,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/linyusly_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33025,7 +34473,6 @@ pg.furniture_data_template = {
 		describe = "자자 줄 서서, 한 명 한 명씩 내려가도록 해요!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33036,6 +34483,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shayuhuatiB",
@@ -33136,7 +34586,6 @@ pg.furniture_data_template = {
 		describe = "만쥬의 모양을 한 분수대. 무지개를 볼 수 있을지도?",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33147,6 +34596,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuupengquan",
@@ -33206,7 +34658,6 @@ pg.furniture_data_template = {
 		describe = "여름엔 역시 물놀이가 최고지~",
 		dorm_id = 0,
 		gem_price = 180,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33256,6 +34707,9 @@ pg.furniture_data_template = {
 				},
 				"shuileyuan/shuichisly_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33310,7 +34764,6 @@ pg.furniture_data_template = {
 		describe = "미성년자는 마시면 안 돼요!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33321,6 +34774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33374,7 +34830,6 @@ pg.furniture_data_template = {
 		describe = "여름엔 역시 수박이지!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33385,6 +34840,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33438,7 +34896,6 @@ pg.furniture_data_template = {
 		describe = "커튼을 쳐도 차광이 전혀 안 되는 것 같지만…",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 27,
 		spine_extra = "",
 		new = 1,
@@ -33449,6 +34906,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33502,7 +34962,6 @@ pg.furniture_data_template = {
 		describe = "붙이면 방에서도 숲의 느낌을 낼 수 있다!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33510,6 +34969,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33563,7 +35025,6 @@ pg.furniture_data_template = {
 		describe = "깔면 방안에서도 초원의 느낌을 낼 수 있다!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33571,6 +35032,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33624,7 +35088,6 @@ pg.furniture_data_template = {
 		describe = "숲에서 자주 볼 수 있는 작은 덤불",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33635,6 +35098,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33688,7 +35154,6 @@ pg.furniture_data_template = {
 		describe = "약간 큰 덤불. 그래도 사람이 숨을 수 있을 정도는 아니다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33699,6 +35164,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33752,7 +35220,6 @@ pg.furniture_data_template = {
 		describe = "숲의 느낌이 가득한 침대, 커다란 이파리가 특징이다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33776,6 +35243,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/chuangsl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -33830,7 +35300,6 @@ pg.furniture_data_template = {
 		describe = "숲에선 자급자족해야 한답니다!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33841,6 +35310,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33894,7 +35366,6 @@ pg.furniture_data_template = {
 		describe = "숲에선 자급자족해야 한답니다!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33905,6 +35376,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -33958,7 +35432,6 @@ pg.furniture_data_template = {
 		describe = "우와~신기해!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -33969,6 +35442,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34022,7 +35498,6 @@ pg.furniture_data_template = {
 		describe = "색깔이 다채로운 꽃잎 의자 시리즈 중 하나.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34045,6 +35520,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34099,7 +35577,6 @@ pg.furniture_data_template = {
 		describe = "색깔이 다채로운 꽃잎 의자 시리즈 중 하나.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34122,6 +35599,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34176,7 +35656,6 @@ pg.furniture_data_template = {
 		describe = "색깔이 다채로운 꽃잎 의자 시리즈 중 하나.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34199,6 +35678,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34253,7 +35735,6 @@ pg.furniture_data_template = {
 		describe = "먹어도 커지진 않는다고요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34276,6 +35757,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34330,7 +35814,6 @@ pg.furniture_data_template = {
 		describe = "카펫을 이렇게 디자인한 건 대체 무슨 까닭일까.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34341,6 +35824,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34394,7 +35880,6 @@ pg.furniture_data_template = {
 		describe = "풀밭을 거니는 느낌…이랄까?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34405,6 +35890,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34458,7 +35946,6 @@ pg.furniture_data_template = {
 		describe = "바깥에서 식사할 땐 꼭 깔아주도록 하자구요!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34469,6 +35956,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34522,7 +36012,6 @@ pg.furniture_data_template = {
 		describe = "숲 속 곰들이 제일 좋아한답니다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34546,6 +36035,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/fengmisl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34600,7 +36092,6 @@ pg.furniture_data_template = {
 		describe = "침대 옆 손 뻗으면 닿을 거리에 놔두면 편하겠죠?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34618,6 +36109,9 @@ pg.furniture_data_template = {
 				2,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34672,7 +36166,6 @@ pg.furniture_data_template = {
 		describe = "사실 현수막이 없어서 일단은 천쪼가리로 걸어두었다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34702,6 +36195,9 @@ pg.furniture_data_template = {
 				0,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34756,7 +36252,6 @@ pg.furniture_data_template = {
 		describe = "조약돌로 주위를 둘러싼 화단. 이걸로 한 번 주위를 장식해보는 건 어떨까?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34767,6 +36262,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34820,7 +36318,6 @@ pg.furniture_data_template = {
 		describe = "친절하고 상냥한 쥬쥬 엄마.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34831,6 +36328,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -34884,7 +36384,6 @@ pg.furniture_data_template = {
 		describe = "과일은 전부 끌어안는 쿠션이니까 먹진 않도록 하자.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34918,6 +36417,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -34972,7 +36474,6 @@ pg.furniture_data_template = {
 		describe = "방향을 알려주는데 쓰이는 표지판.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -34983,6 +36484,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35036,7 +36540,6 @@ pg.furniture_data_template = {
 		describe = "밤엔 정신이 말똥말똥하다! 대신 낮엔 잠만 자지만.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35047,6 +36550,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35100,7 +36606,6 @@ pg.furniture_data_template = {
 		describe = "숲 속 오두막엔 이게 빠져선 안 되겠죠.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35111,6 +36616,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35164,7 +36672,6 @@ pg.furniture_data_template = {
 		describe = "1인 휴식용으로 쓰이는 소형 오두막.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35188,6 +36695,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/muwusl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35242,7 +36752,6 @@ pg.furniture_data_template = {
 		describe = "나뭇가지에 걸어둔 그네. 왠지 안전해 보이진 않지만, 뭐 부러지진 않겠지.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35266,6 +36775,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/qiuqiansl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35320,7 +36832,6 @@ pg.furniture_data_template = {
 		describe = "이끼가 살짝 덮여있는 통나무.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35354,6 +36865,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35408,7 +36922,6 @@ pg.furniture_data_template = {
 		describe = "빨간 물뿌리개. 꽃에 물을 줄 때 쓴다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35419,6 +36932,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35472,7 +36988,6 @@ pg.furniture_data_template = {
 		describe = "어떤 나무가 죽어서 남긴 마지막 흔적이겠지.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35495,6 +37010,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35549,7 +37067,6 @@ pg.furniture_data_template = {
 		describe = "나무로 만든 울타리.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35560,6 +37077,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -35613,7 +37133,6 @@ pg.furniture_data_template = {
 		describe = "1인용 온천. 자자 다들 줄 서서 이용하도록 해요~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35637,6 +37156,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan1sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35691,7 +37213,6 @@ pg.furniture_data_template = {
 		describe = "2인용 온천. (지휘관 사용 금지)",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35727,6 +37248,9 @@ pg.furniture_data_template = {
 				},
 				"senlin/wenquan2sl_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35781,7 +37305,6 @@ pg.furniture_data_template = {
 		describe = "대체 어디서 이렇게 큰 나무를 구해온 걸까.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35815,6 +37338,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35869,7 +37395,6 @@ pg.furniture_data_template = {
 		describe = "이렇게 특이한 나무는 처음 보는걸.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35907,6 +37432,9 @@ pg.furniture_data_template = {
 				2,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -35961,7 +37489,6 @@ pg.furniture_data_template = {
 		describe = "야생 쥬쥬 출몰 주의!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -35972,6 +37499,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"manjuushandong",
@@ -36031,7 +37561,6 @@ pg.furniture_data_template = {
 		describe = "아 망치는 사용하지 말아주십시오, 감사합니다삐약",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36042,6 +37571,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"dishu",
@@ -36101,7 +37633,6 @@ pg.furniture_data_template = {
 		describe = "신선한 딸기 쥬스.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36112,6 +37643,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36165,7 +37699,6 @@ pg.furniture_data_template = {
 		describe = "버섯같이 생긴 스탠드.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36176,6 +37709,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36229,7 +37765,6 @@ pg.furniture_data_template = {
 		describe = "졸린 아침을 깨워주는 음료.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36240,6 +37775,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36293,7 +37831,6 @@ pg.furniture_data_template = {
 		describe = "풍성한 먹거리로 가득차있다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36304,6 +37841,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36357,7 +37897,6 @@ pg.furniture_data_template = {
 		describe = "바게트가 접시에 담겨있다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36368,6 +37907,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36421,7 +37963,6 @@ pg.furniture_data_template = {
 		describe = "고칼로리!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36432,6 +37973,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36485,7 +38029,6 @@ pg.furniture_data_template = {
 		describe = "얇고 길게 낸 창문. 숲의 풍경을 감상할 수 있다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36496,6 +38039,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36549,7 +38095,6 @@ pg.furniture_data_template = {
 		describe = "산촌의 느낌이 가득한 나무 창문",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36560,6 +38105,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36613,7 +38161,6 @@ pg.furniture_data_template = {
 		describe = "새집의 공간을 좀 더 활용해보자!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36624,6 +38171,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36677,7 +38227,6 @@ pg.furniture_data_template = {
 		describe = "밤을 밝혀주는 도구.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36688,6 +38237,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36741,7 +38293,6 @@ pg.furniture_data_template = {
 		describe = "방에 들어가기 전엔 먼저 노크를 해야 겠죠?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36752,6 +38303,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36805,7 +38359,6 @@ pg.furniture_data_template = {
 		describe = "숲 속 오두막엔 이게 빠져선 안 되겠죠.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36816,6 +38369,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36869,7 +38425,6 @@ pg.furniture_data_template = {
 		describe = "나무로 만든 벽시계",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 28,
 		spine_extra = "",
 		new = 1,
@@ -36880,6 +38435,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36933,7 +38491,6 @@ pg.furniture_data_template = {
 		describe = "컬러풀한 바닷속 세계",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -36941,6 +38498,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -36994,7 +38554,6 @@ pg.furniture_data_template = {
 		describe = "더 깊은 곳으로. 햇빛이 닿지 않는 곳까지…",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37002,6 +38561,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37055,7 +38617,6 @@ pg.furniture_data_template = {
 		describe = "커다란 진주를 배게 삼아",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37079,6 +38640,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/beikehy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37133,7 +38697,6 @@ pg.furniture_data_template = {
 		describe = "해파리 독의 느낌이 전혀 느껴지지 않아 안심하고 잘 수 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37169,6 +38732,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/chuanghy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37223,7 +38789,6 @@ pg.furniture_data_template = {
 		describe = "커다란 나사조개로 만든 의자. 바닷바람 소리가 조금 시끄럽다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37247,6 +38812,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/dengzi2hy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37301,7 +38869,6 @@ pg.furniture_data_template = {
 		describe = "조개껍질 표면을 평평하게 가공해 만든 의자",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37324,6 +38891,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37378,7 +38948,6 @@ pg.furniture_data_template = {
 		describe = "불가사리 모티브의 카펫. 별로 비슷하진 않지만.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37389,6 +38958,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37442,7 +39014,6 @@ pg.furniture_data_template = {
 		describe = "해저의 잔모래를 밟는 듯한 느낌을 재현한 카펫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37453,6 +39024,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37506,7 +39080,6 @@ pg.furniture_data_template = {
 		describe = "진주 장식이 달린 커튼",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37517,6 +39090,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37570,7 +39146,6 @@ pg.furniture_data_template = {
 		describe = "큰 물체도 통째로 집어삼켜 버리는 장식 (인체에 무해함)",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37606,6 +39181,9 @@ pg.furniture_data_template = {
 					"haiyang/haikuihy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37660,7 +39238,6 @@ pg.furniture_data_template = {
 		describe = "신비로운 빛을 내뿜는 나사조개",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37671,6 +39248,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37724,7 +39304,6 @@ pg.furniture_data_template = {
 		describe = "안장의 위치가 약간 이상한 바다의 말",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37748,6 +39327,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/haimahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -37802,7 +39384,6 @@ pg.furniture_data_template = {
 		describe = "분화하지 않는 화산 장식",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37813,6 +39394,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37866,7 +39450,6 @@ pg.furniture_data_template = {
 		describe = "바다에 흩뿌려진 거품 진주",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37877,6 +39460,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -37930,7 +39516,6 @@ pg.furniture_data_template = {
 		describe = "바다를 품은 거품 의자. …나 지금 떠있어?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -37953,6 +39538,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38007,7 +39595,6 @@ pg.furniture_data_template = {
 		describe = "바다를 품은 거품 침대. …침대 맞아?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38043,6 +39630,9 @@ pg.furniture_data_template = {
 					"haiyang/pao3hy_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38097,7 +39687,6 @@ pg.furniture_data_template = {
 		describe = "바다의 요소를 품은 거품 장식",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38108,6 +39697,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38161,7 +39753,6 @@ pg.furniture_data_template = {
 		describe = "조개껍질 모티브의 소파. 물론, 조개껍질로 만든 건 아님",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38197,6 +39788,9 @@ pg.furniture_data_template = {
 				},
 				"haiyang/shafahy_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38251,7 +39845,6 @@ pg.furniture_data_template = {
 		describe = "해저에서 흔히 볼 수 있는 산호",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38262,6 +39855,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38315,7 +39911,6 @@ pg.furniture_data_template = {
 		describe = "해저에서 흔히 볼 수 있는 바위",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38326,6 +39921,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38379,7 +39977,6 @@ pg.furniture_data_template = {
 		describe = "산호와 돌을 엮어서 만든 테이블",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38417,6 +40014,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38471,7 +40071,6 @@ pg.furniture_data_template = {
 		describe = "쓸만한 바위를 통째로 가져와 만든 책상",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38509,6 +40108,9 @@ pg.furniture_data_template = {
 				4,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -38563,7 +40165,6 @@ pg.furniture_data_template = {
 		describe = "파도의 출렁임에 따라 흔들리는 해초",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38574,6 +40175,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38627,7 +40231,6 @@ pg.furniture_data_template = {
 		describe = "해저의 천연 온천을 이용한 욕조",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38638,6 +40241,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shenhaiyugangB",
@@ -38720,7 +40326,6 @@ pg.furniture_data_template = {
 		describe = "먹물이 아닌 거품을 뿜어냄. 소파니까?!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38731,6 +40336,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"zhangyuB",
@@ -38816,7 +40424,6 @@ pg.furniture_data_template = {
 		describe = "\"찌릿찌릿 쏘이면 더 높이 뛸 수 있을려나…?\" (파직파직)",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38827,6 +40434,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shuimubengchuang",
@@ -38915,7 +40525,6 @@ pg.furniture_data_template = {
 		describe = "먹을 수 있는 나사조개",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38926,6 +40535,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -38979,7 +40591,6 @@ pg.furniture_data_template = {
 		describe = "밥위에 회가 얹어져있는 영양만점 초밥",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -38990,6 +40601,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39043,7 +40657,6 @@ pg.furniture_data_template = {
 		describe = "어딘가에서 발견한 조타 장치를 그대로 벽장식으로 만든 것",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -39054,6 +40667,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39107,7 +40723,6 @@ pg.furniture_data_template = {
 		describe = "창밖 풍경은 용궁이다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 29,
 		spine_extra = "",
 		new = 1,
@@ -39118,6 +40733,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39171,7 +40789,6 @@ pg.furniture_data_template = {
 		describe = "판타지의 정점, 일곱빛깔 무지개 벽지",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39179,6 +40796,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39232,7 +40852,6 @@ pg.furniture_data_template = {
 		describe = "무지갯빛 격자가 끼워 맞춰진 바닥, 알록달록한 색상이 특징",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39240,6 +40859,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39293,7 +40915,6 @@ pg.furniture_data_template = {
 		describe = "굉장히 다양한 맛이 섞여 있는 것 같다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39317,6 +40938,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/bingshach_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39371,7 +40995,6 @@ pg.furniture_data_template = {
 		describe = "무지갯빛의 케이크 위에 두꺼운 초콜릿을 한 층 입혔다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39395,6 +41018,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chuangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39449,7 +41075,6 @@ pg.furniture_data_template = {
 		describe = "지금, 당신을 마음껏 표현해보세요!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39485,6 +41110,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/dadaoch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39539,7 +41167,6 @@ pg.furniture_data_template = {
 		describe = "꽃이 디자인 된 젤리 의자",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39562,6 +41189,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39616,7 +41246,6 @@ pg.furniture_data_template = {
 		describe = "하트가 디자인 된 젤리 의자",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39639,6 +41268,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39693,7 +41325,6 @@ pg.furniture_data_template = {
 		describe = "젤리 텍스쳐의 걸상, 앉으면 탱글탱글 튕기려나?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39716,6 +41347,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39770,7 +41404,6 @@ pg.furniture_data_template = {
 		describe = "무지갯빛으로 칠한 도너츠",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39793,6 +41426,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -39847,7 +41483,6 @@ pg.furniture_data_template = {
 		describe = "떨어진 염료가 그대로 굳어버린 것 처럼 생긴 카펫",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39858,6 +41493,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39911,7 +41549,6 @@ pg.furniture_data_template = {
 		describe = "일곱 빛깔 무지개가 넘실거리는 듯한 카펫",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39922,6 +41559,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -39975,7 +41615,6 @@ pg.furniture_data_template = {
 		describe = "착한 아이는 몰래 꺼내 먹으면 안 돼요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -39999,6 +41638,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/guanzich_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40053,7 +41695,6 @@ pg.furniture_data_template = {
 		describe = "레인보우 아치 게이트를 통과하여 스타가 된 기분을 누려보세요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40077,6 +41718,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/mench_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40131,7 +41775,6 @@ pg.furniture_data_template = {
 		describe = "꽈배기처럼 생긴 솜사탕",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40142,6 +41785,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40195,7 +41841,6 @@ pg.furniture_data_template = {
 		describe = "하늘색의 솜사탕",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40206,6 +41851,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40259,7 +41907,6 @@ pg.furniture_data_template = {
 		describe = "연두색의 솜사탕",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40270,6 +41917,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40323,7 +41973,6 @@ pg.furniture_data_template = {
 		describe = "분홍색의 솜사탕",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40334,6 +41983,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40387,7 +42039,6 @@ pg.furniture_data_template = {
 		describe = "하늘로 날라가지 않도록 조심!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40398,6 +42049,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40451,7 +42105,6 @@ pg.furniture_data_template = {
 		describe = "크고 작은 막대사탕!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40462,6 +42115,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40515,7 +42171,6 @@ pg.furniture_data_template = {
 		describe = "사용하면 무지개가 나타난답니다!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40539,6 +42194,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/yugangch_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40593,7 +42251,6 @@ pg.furniture_data_template = {
 		describe = "무지갯빛으로 칠한 테이블",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40656,6 +42313,9 @@ pg.furniture_data_template = {
 				3
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -40709,7 +42369,6 @@ pg.furniture_data_template = {
 		describe = "동그란 케이크에서 잘라낸 일부분",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40731,6 +42390,9 @@ pg.furniture_data_template = {
 				2,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40785,7 +42447,6 @@ pg.furniture_data_template = {
 		describe = "커~다란 레인보우 캐슬! 한 번에 세 명까지 들어간다구요!",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40833,6 +42494,9 @@ pg.furniture_data_template = {
 				},
 				"caihong/chengbaoch_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -40887,7 +42551,6 @@ pg.furniture_data_template = {
 		describe = "준비~~발사!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -40898,6 +42561,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongdapaoB",
@@ -40992,7 +42658,6 @@ pg.furniture_data_template = {
 		describe = "Let's go~ 누구도 나의 Speed 를 따라올 순 없지~",
 		dorm_id = 0,
 		gem_price = 200,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41003,6 +42668,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongyun",
@@ -41096,7 +42764,6 @@ pg.furniture_data_template = {
 		describe = "서프라이즈!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41107,6 +42774,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang1B",
@@ -41201,7 +42871,6 @@ pg.furniture_data_template = {
 		describe = "서프라이즈!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41212,6 +42881,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"caihongxiarenxiang2B",
@@ -41306,7 +42978,6 @@ pg.furniture_data_template = {
 		describe = "쪼그만 식용 솜사탕",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41317,6 +42988,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41370,7 +43044,6 @@ pg.furniture_data_template = {
 		describe = "먹으면 몸이 건강해질 것 같은 채소 샐러드",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41381,6 +43054,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41434,7 +43110,6 @@ pg.furniture_data_template = {
 		describe = "창문 밖의 무지개를 볼 수 있는 구름형 디자인의 창문",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41445,6 +43120,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41498,7 +43176,6 @@ pg.furniture_data_template = {
 		describe = "일기예보를 형상화 한 악세서리",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41509,6 +43186,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41562,7 +43242,6 @@ pg.furniture_data_template = {
 		describe = "무지갯빛으로 꾸며진 벽시계",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 30,
 		spine_extra = "",
 		new = 1,
@@ -41573,6 +43252,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41626,7 +43308,6 @@ pg.furniture_data_template = {
 		describe = "괴물들에게 둘러싸여 핼러윈 나이트~♫",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41634,6 +43315,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41687,7 +43371,6 @@ pg.furniture_data_template = {
 		describe = "이 잔디밭엔 무지무지 많은 비밀이 감춰져 있다…",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41695,6 +43378,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41748,7 +43434,6 @@ pg.furniture_data_template = {
 		describe = "뭔가 튀어나올 것 같다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41759,6 +43444,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41812,7 +43500,6 @@ pg.furniture_data_template = {
 		describe = "\"흐음, 여기엔 무기를 장착해 개선해야겠는데……\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41836,6 +43523,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/chehl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -41890,7 +43580,6 @@ pg.furniture_data_template = {
 		describe = "거대한 해골이 그대로 찍혀버렸다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41901,6 +43590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -41954,7 +43646,6 @@ pg.furniture_data_template = {
 		describe = "수수께끼의 해골 디자인이 눈에 띄는 카펫.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -41965,6 +43656,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42018,7 +43712,6 @@ pg.furniture_data_template = {
 		describe = "맨발로는 걷지 않도록.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42029,6 +43722,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42082,7 +43778,6 @@ pg.furniture_data_template = {
 		describe = "이 망토의 밑엔 뭐가 있을까?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42093,6 +43788,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42146,7 +43844,6 @@ pg.furniture_data_template = {
 		describe = "\"테러, 너무 만지지 마.\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42157,6 +43854,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42210,7 +43910,6 @@ pg.furniture_data_template = {
 		describe = "정원 스타일과는 뭔가 잘 안 어울린다는 느낌이 넘쳐흐른다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42221,6 +43920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42274,7 +43976,6 @@ pg.furniture_data_template = {
 		describe = "마녀들이 마음을 담아 만든 핵심 어트랙션.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42285,6 +43986,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42338,7 +44042,6 @@ pg.furniture_data_template = {
 		describe = "핼러윈엔 뭘 먹는 거였더라……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42349,6 +44052,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42402,7 +44108,6 @@ pg.furniture_data_template = {
 		describe = "부활했드아만쥬쥬쥬쥬……",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42413,6 +44118,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42466,7 +44174,6 @@ pg.furniture_data_template = {
 		describe = "\"에레버스 언니도, 같이 들어갈래?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42502,6 +44209,9 @@ pg.furniture_data_template = {
 					"halloween2/kenghl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42556,7 +44266,6 @@ pg.furniture_data_template = {
 		describe = "THE PUMPKIN IS WATCHING OVER YOU.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42567,6 +44276,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42620,7 +44332,6 @@ pg.furniture_data_template = {
 		describe = "그 길의 앞은 빛인가, 아니면 어둠인가.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42631,6 +44342,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42684,7 +44398,6 @@ pg.furniture_data_template = {
 		describe = "관리되지 않아 거미집이 쳐진 묘비(뻥)",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42695,6 +44408,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42748,7 +44464,6 @@ pg.furniture_data_template = {
 		describe = "어느 마녀의 묘비(뻥)",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42759,6 +44474,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42812,7 +44530,6 @@ pg.furniture_data_template = {
 		describe = "커다란 호박 램프. 남는 공간을 살려 안에 물건을 넣을 수도 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42836,6 +44553,9 @@ pg.furniture_data_template = {
 				},
 				"halloween2/nangua2hl2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -42890,7 +44610,6 @@ pg.furniture_data_template = {
 		describe = "다양한 방향을 향해 불꽃을 내뿜어 주변을 밝게 해준다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42901,6 +44620,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -42954,7 +44676,6 @@ pg.furniture_data_template = {
 		describe = "앉으면 마녀가 된 기분!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -42977,6 +44698,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43031,7 +44755,6 @@ pg.furniture_data_template = {
 		describe = "평범한 고목나무",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43042,6 +44765,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43095,7 +44821,6 @@ pg.furniture_data_template = {
 		describe = "마녀가 사는 집",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43118,6 +44843,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43172,7 +44900,6 @@ pg.furniture_data_template = {
 		describe = "덮여있는 커버가 조금 뜯어져있다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43195,6 +44922,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43249,7 +44979,6 @@ pg.furniture_data_template = {
 		describe = "덮여있는 커버가 조금 뜯어져있다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43272,6 +45001,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43326,7 +45058,6 @@ pg.furniture_data_template = {
 		describe = "촛불로 장식된 벤치",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43349,6 +45080,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43403,7 +45137,6 @@ pg.furniture_data_template = {
 		describe = "수수께끼의 액체가 흘러내리고 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43426,6 +45159,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43480,7 +45216,6 @@ pg.furniture_data_template = {
 		describe = "끊임없이 기포가 나오는 보라색 늪지.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43516,6 +45251,9 @@ pg.furniture_data_template = {
 					"halloween2/zhaozehl2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43570,7 +45308,6 @@ pg.furniture_data_template = {
 		describe = "서양식 연회 자리에 쓰이는 긴 테이블.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43612,6 +45349,9 @@ pg.furniture_data_template = {
 				6,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -43666,7 +45406,6 @@ pg.furniture_data_template = {
 		describe = "무서워!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43677,6 +45416,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"ghost",
@@ -43740,7 +45482,6 @@ pg.furniture_data_template = {
 		describe = "핼러윈이라는 극장에서 춤을 추는 흑기사.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43751,6 +45492,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"nanguaqishiB",
@@ -43836,7 +45580,6 @@ pg.furniture_data_template = {
 		describe = "기분 나쁜 게 반감되었다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43847,6 +45590,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43900,7 +45646,6 @@ pg.furniture_data_template = {
 		describe = "기분 나쁜 불꽃",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43911,6 +45656,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -43964,7 +45712,6 @@ pg.furniture_data_template = {
 		describe = "효과는 불명.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -43975,6 +45722,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44028,7 +45778,6 @@ pg.furniture_data_template = {
 		describe = "효과는 불명.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -44039,6 +45788,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44092,7 +45844,6 @@ pg.furniture_data_template = {
 		describe = "\"이것도 연회의 비품이죠…\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -44103,6 +45854,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44156,7 +45910,6 @@ pg.furniture_data_template = {
 		describe = "호화로운 서양식 저택의 대문.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -44167,6 +45920,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44220,7 +45976,6 @@ pg.furniture_data_template = {
 		describe = "밤을 밝혀주는 달",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -44231,6 +45986,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44284,7 +46042,6 @@ pg.furniture_data_template = {
 		describe = "커다란 거미줄",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 35,
 		spine_extra = "",
 		new = 1,
@@ -44295,6 +46052,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44348,7 +46108,6 @@ pg.furniture_data_template = {
 		describe = "그곳에 있는 어떤 '색다른' 여관의 풍경을 재현한 벽지",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44356,6 +46115,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44409,7 +46171,6 @@ pg.furniture_data_template = {
 		describe = "그곳에 있는 어떤 '색다른' 여관의 풍경을 재현한 바닥",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44417,6 +46178,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44470,7 +46234,6 @@ pg.furniture_data_template = {
 		describe = "경단이라도 드시겠어요?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44493,6 +46256,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44547,7 +46313,6 @@ pg.furniture_data_template = {
 		describe = "밤의 거리를 밝히는 다정한 빛",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44558,6 +46323,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44611,7 +46379,6 @@ pg.furniture_data_template = {
 		describe = "떠들썩한 것도 적당히 해야겠지?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44622,6 +46389,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44675,7 +46445,6 @@ pg.furniture_data_template = {
 		describe = "그리운… 빛",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44686,6 +46455,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44739,7 +46511,6 @@ pg.furniture_data_template = {
 		describe = "\"에취! …나중에 다시 한번 들어가야겠군…\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44773,6 +46544,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -44827,7 +46601,6 @@ pg.furniture_data_template = {
 		describe = "예쁜 문양으로 만들어진 카펫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44838,6 +46611,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44891,7 +46667,6 @@ pg.furniture_data_template = {
 		describe = "맹수의 모피로 만들어진 카펫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44902,6 +46677,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -44955,7 +46733,6 @@ pg.furniture_data_template = {
 		describe = "욕조에 들어가기 전에 몸을 씻기 위한 유수장",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -44966,6 +46743,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45019,7 +46799,6 @@ pg.furniture_data_template = {
 		describe = "민가에 있는 이로리 화덕",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45030,6 +46809,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45083,7 +46865,6 @@ pg.furniture_data_template = {
 		describe = "몸에 물을 끼얹어 씻기 위한 용도의 목욕 나무통",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45094,6 +46875,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45147,7 +46931,6 @@ pg.furniture_data_template = {
 		describe = "여관 입구에 놓여 있는 칸막이",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45158,6 +46941,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45211,7 +46997,6 @@ pg.furniture_data_template = {
 		describe = "장수의 품격을 나타냄",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45222,6 +47007,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45275,7 +47063,6 @@ pg.furniture_data_template = {
 		describe = "사람을 망치는(?) 소파",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45298,6 +47085,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45352,7 +47142,6 @@ pg.furniture_data_template = {
 		describe = "집락에서 쓰고 있는 우물",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45363,6 +47152,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45416,7 +47208,6 @@ pg.furniture_data_template = {
 		describe = "\"조금… 졸리군…\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45427,6 +47218,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45480,7 +47274,6 @@ pg.furniture_data_template = {
 		describe = "등받이에는 금색 문양이…",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45503,6 +47296,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45557,7 +47353,6 @@ pg.furniture_data_template = {
 		describe = "\"후아~~! 살 것 같다~\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45581,6 +47376,9 @@ pg.furniture_data_template = {
 				},
 				"chuansong/zaopengcs_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45635,7 +47433,6 @@ pg.furniture_data_template = {
 		describe = "여관의 대욕조. 많은 사람이 동시에 들어갈 수 있다.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45744,6 +47541,9 @@ pg.furniture_data_template = {
 				}
 			}
 		},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -45797,7 +47597,6 @@ pg.furniture_data_template = {
 		describe = "여관 객실에 놓이는 집무용 책상",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45843,6 +47642,9 @@ pg.furniture_data_template = {
 				4,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45897,7 +47699,6 @@ pg.furniture_data_template = {
 		describe = "식당에 놓여있는 식기와 음식을 올려놓는 상",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -45935,6 +47736,9 @@ pg.furniture_data_template = {
 				3,
 				2
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -45989,7 +47793,6 @@ pg.furniture_data_template = {
 		describe = "성묘 거리 양편에 있는 기둥",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46000,6 +47803,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46053,7 +47859,6 @@ pg.furniture_data_template = {
 		describe = "건초로 만든 방석",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46076,6 +47881,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -46130,7 +47938,6 @@ pg.furniture_data_template = {
 		describe = "어떤 사람의 동료, 인듯하다",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46141,6 +47948,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"chuansong1",
@@ -46204,7 +48014,6 @@ pg.furniture_data_template = {
 		describe = "\"머, 멈춰~~!\"",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46215,6 +48024,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"kekeboB",
@@ -46310,7 +48122,6 @@ pg.furniture_data_template = {
 		describe = "\"뭐라고 쓰여있는 거지? …모, 못 읽겠어\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46321,6 +48132,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46374,7 +48188,6 @@ pg.furniture_data_template = {
 		describe = "화려한 여관 복도",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46385,6 +48198,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46438,7 +48254,6 @@ pg.furniture_data_template = {
 		describe = "비싸보이는 족자",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46449,6 +48264,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46502,7 +48320,6 @@ pg.furniture_data_template = {
 		describe = "객실에 장식된 이국적 문양의 걸이 장식",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46513,6 +48330,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46566,7 +48386,6 @@ pg.furniture_data_template = {
 		describe = "응접용 객실로 연결되는 미닫이문",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 36,
 		spine_extra = "",
 		new = 1,
@@ -46577,6 +48396,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46630,7 +48452,6 @@ pg.furniture_data_template = {
 		describe = "로맨틱한 화이트 크리스마스 분위기의 벽지",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46638,6 +48459,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46691,7 +48515,6 @@ pg.furniture_data_template = {
 		describe = "로열 네이비의 거리 풍경에 빠질 수 없는 보도블록",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46699,6 +48522,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46752,7 +48578,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스 맞이 장식이 되어 있는 상점. 선물이라도 팔고 있는 걸까?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46763,6 +48588,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46816,7 +48644,6 @@ pg.furniture_data_template = {
 		describe = "풍차가 돌면 왠지 냉풍이 불 것 같다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46827,6 +48654,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46880,7 +48710,6 @@ pg.furniture_data_template = {
 		describe = "산타클로스도 규칙은 준수해주세요!",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46891,6 +48720,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -46944,7 +48776,6 @@ pg.furniture_data_template = {
 		describe = "이대로 영원히 있을 수만 있다면, 오 그대여 그대여서 고마워요",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -46968,6 +48799,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/houcheyics2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47022,7 +48856,6 @@ pg.furniture_data_template = {
 		describe = "선물 보따리를 열자 예쁜 꽃이 가득 꽂혀있었다.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47033,6 +48866,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47086,7 +48922,6 @@ pg.furniture_data_template = {
 		describe = "선물이 가득 실린 열차. 한 사람당 하나씩이야!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47122,6 +48957,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/huochecs2_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47176,7 +49014,6 @@ pg.furniture_data_template = {
 		describe = "「구인 안내 - 산타 모집 중!」",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47187,6 +49024,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47240,7 +49080,6 @@ pg.furniture_data_template = {
 		describe = "네온사인과 가렌드로 장식된 문. 메리 크리스마스!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47251,6 +49090,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47304,7 +49146,6 @@ pg.furniture_data_template = {
 		describe = "맛있어 보이는 쵸코 볼. 별 장식도 먹을 수 있는 건가?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47328,6 +49169,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/qiucs2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47382,7 +49226,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스트리를 본따 만든 초콜릿 분수. \"당분 보급하기 딱이네~♪\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47393,6 +49236,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47446,7 +49292,6 @@ pg.furniture_data_template = {
 		describe = "산타가 있는 티켓 부스. ※복권은 판매 안 합니다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47482,6 +49327,9 @@ pg.furniture_data_template = {
 					"christmas2/shoupiaocs2_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47536,7 +49384,6 @@ pg.furniture_data_template = {
 		describe = "숙소의 모두가 만든 호화로운 크리스마스트리",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47547,6 +49394,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47600,7 +49450,6 @@ pg.furniture_data_template = {
 		describe = "언젠간 쑥쑥 자라 어엿한 크리스마스트리가 될 수 있겠지?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47611,6 +49460,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47664,7 +49516,6 @@ pg.furniture_data_template = {
 		describe = "하수도의 입구. 산타가 여기서 나오진 않겠지?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47675,6 +49526,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47728,7 +49582,6 @@ pg.furniture_data_template = {
 		describe = "\"두유워너빌더스노우맨…?\"",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47739,6 +49592,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47792,7 +49648,6 @@ pg.furniture_data_template = {
 		describe = "커다란 눈사람처럼 보이지만 사실은 목욕이 가능한 욕조다",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47816,6 +49671,9 @@ pg.furniture_data_template = {
 				},
 				"christmas2/xuerencs2_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -47870,7 +49728,6 @@ pg.furniture_data_template = {
 		describe = "크리스마스 우편엽서를 팔기 위해 나온 만쥬라고 한다",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47881,6 +49738,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47934,7 +49794,6 @@ pg.furniture_data_template = {
 		describe = "빨간 우체통. 선물이 들어있진 않은지 어서 확인해보자!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -47945,6 +49804,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -47998,7 +49860,6 @@ pg.furniture_data_template = {
 		describe = "석재 보도블록이 깔린 상점가의 광장",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -48009,6 +49870,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48062,7 +49926,6 @@ pg.furniture_data_template = {
 		describe = "\"오오! 눈싸움이라도 해볼까!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -48073,6 +49936,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48126,7 +49992,6 @@ pg.furniture_data_template = {
 		describe = "올해는 순록씨에게 휴가를 주자",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -48137,6 +50002,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdancheB",
@@ -48234,7 +50102,6 @@ pg.furniture_data_template = {
 		describe = "\"아하하하~! 그대로 제일 높은 곳까지 날아 눈더미를 부숴버리는 거야!\"",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 37,
 		spine_extra = "",
 		new = 1,
@@ -48245,6 +50112,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"shengdanqiuqianB",
@@ -48335,7 +50205,6 @@ pg.furniture_data_template = {
 		describe = "멧돼지들이 사는 숲속……풍의 벽지.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48343,6 +50212,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48396,7 +50268,6 @@ pg.furniture_data_template = {
 		describe = "야생의 느낌이 드는 바닥.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48404,6 +50275,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48457,7 +50331,6 @@ pg.furniture_data_template = {
 		describe = "멧돼지 문양이 그려진 의자.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48480,6 +50353,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48534,7 +50410,6 @@ pg.furniture_data_template = {
 		describe = "멧돼지 버스, 발진!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48570,6 +50445,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/bashiyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48624,7 +50502,6 @@ pg.furniture_data_template = {
 		describe = "멧돼지스러운 하품이 나올 것 같은 침대.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48648,6 +50525,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/chuangyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48702,7 +50582,6 @@ pg.furniture_data_template = {
 		describe = "커버가 진짜 푹신푹신하다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48713,6 +50592,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48766,7 +50648,6 @@ pg.furniture_data_template = {
 		describe = "그냥 돌. ※미끄럼 주의",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48789,6 +50670,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48843,7 +50727,6 @@ pg.furniture_data_template = {
 		describe = "그냥 돌. ※미끄럼 주의",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48866,6 +50749,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -48920,7 +50806,6 @@ pg.furniture_data_template = {
 		describe = "응접실에 깔고 싶은 카펫. 기분 좋은 감촉.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48931,6 +50816,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -48984,7 +50872,6 @@ pg.furniture_data_template = {
 		describe = "쵸코색 블록 플로링.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -48995,6 +50882,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49048,7 +50938,6 @@ pg.furniture_data_template = {
 		describe = "둘러앉으면 온기를 느낄 수 있는 작은 모닥불.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49059,6 +50948,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49112,7 +51004,6 @@ pg.furniture_data_template = {
 		describe = "\"잠깐! 얘는 아직 덜 자랐다구!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49123,6 +51014,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49176,7 +51070,6 @@ pg.furniture_data_template = {
 		describe = "\"매일 아침 물 주는 거 잊지 말아줘!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49187,6 +51080,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49240,7 +51136,6 @@ pg.furniture_data_template = {
 		describe = "\"언젠가 장미도 심어보고 싶네요.\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49251,6 +51146,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49304,7 +51202,6 @@ pg.furniture_data_template = {
 		describe = "평화로운 함선 숙소에 멧돼지의 발자국이…!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49315,6 +51212,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49368,7 +51268,6 @@ pg.furniture_data_template = {
 		describe = "그리고 그 멧돼지는 잡혔습니다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49379,6 +51278,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49432,7 +51334,6 @@ pg.furniture_data_template = {
 		describe = "표고버섯 사냥이다!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49443,6 +51344,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49496,7 +51400,6 @@ pg.furniture_data_template = {
 		describe = "통나무로 만든 받침대가 아니라, 통나무를 올려두는 받침대이다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49507,6 +51410,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49560,7 +51466,6 @@ pg.furniture_data_template = {
 		describe = "건강에 좋은 진흙 온천.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49584,6 +51489,9 @@ pg.furniture_data_template = {
 				},
 				"yezhu/nitanyz_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -49638,7 +51546,6 @@ pg.furniture_data_template = {
 		describe = "멧돼지 모양 풍선 하나.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49649,6 +51556,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49702,7 +51612,6 @@ pg.furniture_data_template = {
 		describe = "맛있어 보인다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49713,6 +51622,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49766,7 +51678,6 @@ pg.furniture_data_template = {
 		describe = "환기도 화재 대책도 완벽!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49777,6 +51688,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49830,7 +51744,6 @@ pg.furniture_data_template = {
 		describe = "풀숲에 숨은 멧돼지. 다 보인다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49841,6 +51754,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49894,7 +51810,6 @@ pg.furniture_data_template = {
 		describe = "깔끔하게 정리된 어느 함선의 책장.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49905,6 +51820,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -49958,7 +51876,6 @@ pg.furniture_data_template = {
 		describe = "푹신푹신한 융단.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -49969,6 +51886,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50022,7 +51942,6 @@ pg.furniture_data_template = {
 		describe = "실내용 건강 슬리퍼.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50033,6 +51952,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50086,7 +52008,6 @@ pg.furniture_data_template = {
 		describe = "폭주 중인 멧돼지. 빨리 잡자!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50097,6 +52018,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50150,7 +52074,6 @@ pg.furniture_data_template = {
 		describe = "평범한 행거 랙.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50161,6 +52084,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50214,7 +52140,6 @@ pg.furniture_data_template = {
 		describe = "베개 싸움 금지.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50237,6 +52162,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50291,7 +52219,6 @@ pg.furniture_data_template = {
 		describe = "베개 싸움 금지.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50314,6 +52241,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50368,7 +52298,6 @@ pg.furniture_data_template = {
 		describe = "디자인이 기발한 텐트",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50404,6 +52333,9 @@ pg.furniture_data_template = {
 					"yezhu/zhangpengyz_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50458,7 +52390,6 @@ pg.furniture_data_template = {
 		describe = "선 채로 식사하며 담소를 나눌 수 있는 테이블.",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50476,6 +52407,9 @@ pg.furniture_data_template = {
 				1,
 				1
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50530,7 +52464,6 @@ pg.furniture_data_template = {
 		describe = "고기 요리에 어울리는 식탁보.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50568,6 +52501,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50622,7 +52558,6 @@ pg.furniture_data_template = {
 		describe = "돼지코가 큼지막하게 그려진 라운드 체어. 사람에 따라 하트로 보일지도 모른다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50645,6 +52580,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -50699,7 +52637,6 @@ pg.furniture_data_template = {
 		describe = "새로운 스타일로 꾸며보는 건 어떠세요?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50710,6 +52647,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50763,7 +52703,6 @@ pg.furniture_data_template = {
 		describe = "야채도 먹자!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50774,6 +52713,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50827,7 +52769,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림에선 길조인 색깔의 벽지",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50838,6 +52779,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50891,7 +52835,6 @@ pg.furniture_data_template = {
 		describe = "설경과 멧돼지를 볼 수 있는 창문……잠깐, 멧돼지?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50902,6 +52845,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -50955,7 +52901,6 @@ pg.furniture_data_template = {
 		describe = "봄이 가까워지고 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -50966,6 +52911,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51019,7 +52967,6 @@ pg.furniture_data_template = {
 		describe = "\"귀여운 구름이 잔뜩 보여요~\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -51030,6 +52977,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51083,7 +53033,6 @@ pg.furniture_data_template = {
 		describe = "구축함들은 좀처럼 닿지 못하는 높은 곳에 설치된 수납장.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 38,
 		spine_extra = "",
 		new = 1,
@@ -51094,6 +53043,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51147,7 +53099,6 @@ pg.furniture_data_template = {
 		describe = "경사스러운 날을 축하하는 분위기가 느껴지는 붉은 벽지.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51155,6 +53106,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51208,7 +53162,6 @@ pg.furniture_data_template = {
 		describe = "정교하게 만들어진 이스트 글림풍 무늬의 우드 플로어. 장인도 좀처럼 만들 수 없는 명품.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51216,6 +53169,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51269,7 +53225,6 @@ pg.furniture_data_template = {
 		describe = "매화에 물 주는 것도 잊지 마시길.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51280,6 +53235,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51333,7 +53291,6 @@ pg.furniture_data_template = {
 		describe = "\"귀여워…… 그래두 역시 먹을래! 핑하이 배고프니까!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51344,6 +53301,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51397,7 +53357,6 @@ pg.furniture_data_template = {
 		describe = "\"어느 세력에든 오후 내내 차만 홀짝이는 애가 있지.\" \"우리는 커피인데?\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51435,6 +53394,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51489,7 +53451,6 @@ pg.furniture_data_template = {
 		describe = "대자로 누워 자는 사치스러운 사용법도 가능…?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51523,6 +53484,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -51577,7 +53541,6 @@ pg.furniture_data_template = {
 		describe = "측면에 합체자로 '초재진보(招財進寶)'라 쓰여있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51588,6 +53551,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51641,7 +53607,6 @@ pg.furniture_data_template = {
 		describe = "명절 분위기를 연출해주는 손뜨개 카펫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51652,6 +53617,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51705,7 +53673,6 @@ pg.furniture_data_template = {
 		describe = "명절 분위기를 연출해주는 손뜨개 카펫",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51716,6 +53683,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51769,7 +53739,6 @@ pg.furniture_data_template = {
 		describe = "뭐가 나올까 꿀꿀?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51780,6 +53749,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51833,7 +53805,6 @@ pg.furniture_data_template = {
 		describe = "설날 아이템이 잔뜩 수납되어 있다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51844,6 +53815,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51897,7 +53871,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림풍 사이드 테이블. 복고풍이면서도 고급스러운 질감.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51908,6 +53881,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -51961,7 +53937,6 @@ pg.furniture_data_template = {
 		describe = "천으로 만든 호랑이. 종이 호랑이보다는 강하지만 진짜 호랑이보다는 약하다.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -51985,6 +53960,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/huzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52039,7 +54017,6 @@ pg.furniture_data_template = {
 		describe = "너무 깊이 들어가면 취해버리는 한방 술목욕탕.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52063,6 +54040,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/jiugangzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52117,7 +54097,6 @@ pg.furniture_data_template = {
 		describe = "\"어린이는 마시면 안된다구요?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52128,6 +54107,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52181,7 +54163,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림풍의 병풍. 매화 자수는 누가 놓은 것일까?",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52192,6 +54173,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52245,7 +54229,6 @@ pg.furniture_data_template = {
 		describe = "\"이걸로 바닥에서 그릴 필요가 없어지겠군. 아타고, 붓을 가져와주지 않겠나?\" ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52256,6 +54239,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52309,7 +54295,6 @@ pg.furniture_data_template = {
 		describe = "찹쌀 경단. 외견적으로 너무 나간 듯한 느낌은 부정할 수 없다.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52320,6 +54305,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52373,7 +54361,6 @@ pg.furniture_data_template = {
 		describe = "명절에 맞춰 붉게 칠한 작은 소파",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52397,6 +54384,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi2zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52451,7 +54441,6 @@ pg.furniture_data_template = {
 		describe = "명절에 맞춰 붉게 칠한 라운지 체어",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52475,6 +54464,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi3zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52529,7 +54521,6 @@ pg.furniture_data_template = {
 		describe = "명절에 맞춰 붉게 칠한 커다란 소파",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52553,6 +54544,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/yizi4zn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52607,7 +54601,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림 테이블의 세트 의자",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52630,6 +54623,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52684,7 +54680,6 @@ pg.furniture_data_template = {
 		describe = "물자도 다이아도 모두 많이 벌리기를~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52695,6 +54690,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -52748,7 +54746,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림 요리에 가장 어울리는 테이블.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52798,6 +54795,9 @@ pg.furniture_data_template = {
 				4,
 				4
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52852,7 +54852,6 @@ pg.furniture_data_template = {
 		describe = "\"머, 머리에 써보라고요?!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52876,6 +54875,9 @@ pg.furniture_data_template = {
 				},
 				"zhunian/zhuzn_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -52930,7 +54932,6 @@ pg.furniture_data_template = {
 		describe = "모두에게 한 장씩 주고 싶은 복을 부르는 방석",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -52953,6 +54954,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -53007,7 +55011,6 @@ pg.furniture_data_template = {
 		describe = "\"평범한 분재처럼 보인다고? 아니, 이것이야말로 진정한 '돈이 열리는 나무'다! 봐, 코인이 달려읺잖아?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53018,6 +55021,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53071,7 +55077,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림에서 먹는 호화로운 요리. 뜨거운 요리에 뜨거운 증기, 입가심으로 뜨거운 국수 한 사발 뚝딱!",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 39,
 		new = 1,
 		discount_time = "",
@@ -53081,6 +55086,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xiaozhuhuoguoB",
@@ -53191,7 +55199,6 @@ pg.furniture_data_template = {
 		describe = "이스트 글림에서 먹는 호화로운 요리. 뜨거운 요리에 뜨거운 증기, 입가심으로 뜨거운 국수 한 사발 뚝딱!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53202,6 +55209,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53255,7 +55265,6 @@ pg.furniture_data_template = {
 		describe = "세뱃돈을 뿌려주마~ 금액은 봉투마다 랜덤이지만.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53266,6 +55275,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53319,7 +55331,6 @@ pg.furniture_data_template = {
 		describe = "겨울철엔 좀처럼 볼 수 없는 과일도 잔뜩.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53330,6 +55341,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53383,7 +55397,6 @@ pg.furniture_data_template = {
 		describe = "커튼 너머의 경색은 조금 매혹적인 정취.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53394,6 +55407,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53447,7 +55463,6 @@ pg.furniture_data_template = {
 		describe = "신춘을 맞이하자.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53458,6 +55473,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53511,7 +55529,6 @@ pg.furniture_data_template = {
 		describe = "행운을 기원하는 벽걸이 커튼의 한쪽",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53522,6 +55539,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53575,7 +55595,6 @@ pg.furniture_data_template = {
 		describe = "행운을 기원하는 벽걸이 커튼의 한쪽",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53586,6 +55605,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53639,7 +55661,6 @@ pg.furniture_data_template = {
 		describe = "돌로 된 원림을 즐길 수 있는 나무 창문",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53650,6 +55671,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53703,7 +55727,6 @@ pg.furniture_data_template = {
 		describe = "공필화인지 사의화인지 확실하지 않은 산수화. 누구의 작품일까.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53714,6 +55737,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53767,7 +55793,6 @@ pg.furniture_data_template = {
 		describe = "어미지향의 외딴집을 연상시키는 이스트 글림식 창문.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 39,
 		spine_extra = "",
 		new = 1,
@@ -53778,6 +55803,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53831,7 +55859,6 @@ pg.furniture_data_template = {
 		describe = "설국의 산들을 모티브로 한 벽지. 기분 최고♪",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -53839,6 +55866,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53892,7 +55922,6 @@ pg.furniture_data_template = {
 		describe = "스키 타기 매우 좋아 보이는(?) 눈이 쌓인 바닥",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -53900,6 +55929,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -53953,7 +55985,6 @@ pg.furniture_data_template = {
 		describe = "\"나, 알아! 밖은 얼음이지만, 안은 따뜻하단 거!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -53964,6 +55995,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54017,7 +56051,6 @@ pg.furniture_data_template = {
 		describe = "은색의 세계를 이어 주는 녹색",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54028,6 +56061,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54081,7 +56117,6 @@ pg.furniture_data_template = {
 		describe = "장작이 들어있는 나무 상자. 최고의 에너지원",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54092,6 +56127,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54145,7 +56183,6 @@ pg.furniture_data_template = {
 		describe = "눈 내린 경치를 보며 즐길 수 있는 온천",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54169,6 +56206,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/chixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54223,7 +56263,6 @@ pg.furniture_data_template = {
 		describe = "산 속 오두막집을 밝히는 희망의 등불",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54234,6 +56273,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54287,7 +56329,6 @@ pg.furniture_data_template = {
 		describe = "설산의 스노우 페스티벌!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54310,6 +56351,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -54364,7 +56408,6 @@ pg.furniture_data_template = {
 		describe = "어째선지 스키장에 설치된 군고구마 구이(드럼 캔 식). 뜨거운 군고구마는 대호평인 모양",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54375,6 +56418,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54428,7 +56474,6 @@ pg.furniture_data_template = {
 		describe = "작은 바다표범 군. 귀여울…지도…？",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54439,6 +56484,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54492,7 +56540,6 @@ pg.furniture_data_template = {
 		describe = "(※특수 방한 기능 있음. 단, 머플러 한 장만 두르고 설산에 도전하지는 말아주시기 바랍니다)",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54503,6 +56550,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54556,7 +56606,6 @@ pg.furniture_data_template = {
 		describe = "한 번은 해보고 싶은, 방어 낚시. (구멍에 빠지지 않도록 주의)",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54567,6 +56616,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54620,7 +56672,6 @@ pg.furniture_data_template = {
 		describe = "스키장을 가르는 펜스",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54631,6 +56682,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54684,7 +56738,6 @@ pg.furniture_data_template = {
 		describe = "녹은 눈으로 약간 미끄러워진 길",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54695,6 +56748,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54748,7 +56804,6 @@ pg.furniture_data_template = {
 		describe = "펭귄이 된 만쥬. \"만쥬란 건 대체 뭘까요…\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54759,6 +56814,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54812,7 +56870,6 @@ pg.furniture_data_template = {
 		describe = "커다란 눈덩이. \"이걸 눈싸움할 때 탄약고로 쓰자!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54823,6 +56880,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54876,7 +56936,6 @@ pg.furniture_data_template = {
 		describe = "스키 타다가 부딪히면 큰일",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54887,6 +56946,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -54940,7 +57002,6 @@ pg.furniture_data_template = {
 		describe = "은색의 세계를 이어 주는 녹색",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -54951,6 +57012,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55004,7 +57068,6 @@ pg.furniture_data_template = {
 		describe = "\"소인의 친구올시다!\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55027,6 +57090,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55081,7 +57147,6 @@ pg.furniture_data_template = {
 		describe = "방한, 방수, 미끄럼 방지 기능을 갖춘 스노우 부츠",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55092,6 +57157,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55145,7 +57213,6 @@ pg.furniture_data_template = {
 		describe = "이건… 사건이 터질 듯한 예감!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55156,6 +57223,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55209,7 +57279,6 @@ pg.furniture_data_template = {
 		describe = "스키 타다 지쳤을 땐 잠깐 휴식하자",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55233,6 +57302,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/yizixd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55287,7 +57359,6 @@ pg.furniture_data_template = {
 		describe = "버튼을 누르면 넘어갈 수 있을 것 같은 펜스",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55298,6 +57369,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55351,7 +57425,6 @@ pg.furniture_data_template = {
 		describe = "버튼을 눌러도 넘어갈 수 없을 것 같은 펜스",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55362,6 +57435,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55415,7 +57491,6 @@ pg.furniture_data_template = {
 		describe = "\"아하! 이게 '스노우 닌자 하우스'란 거네!\"",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55439,6 +57514,9 @@ pg.furniture_data_template = {
 				},
 				"xuedi/zhangpengxd_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55493,7 +57571,6 @@ pg.furniture_data_template = {
 		describe = "스키를 신지 않아도 내려갈 수 있는 미끄럼틀",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55504,6 +57581,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"xueqiaoB",
@@ -55601,7 +57681,6 @@ pg.furniture_data_template = {
 		describe = "설산의 초단거리 이동이 가능한 호화로운 만쥬 케이블카",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 40,
 		spine_extra = "",
 		new = 1,
@@ -55612,6 +57691,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"lancheB",
@@ -55709,7 +57791,6 @@ pg.furniture_data_template = {
 		describe = "이름하여 '만쥬 익스프레스'! 최고의 스릴을 당신에게~",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -55717,6 +57798,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55770,7 +57854,6 @@ pg.furniture_data_template = {
 		describe = "넘어짐 방지를 위해 가공된 유원지의 바닥재.",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -55778,6 +57861,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55831,7 +57917,6 @@ pg.furniture_data_template = {
 		describe = "\"다음엔 어떤 걸 타볼까나~?\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -55842,6 +57927,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -55895,7 +57983,6 @@ pg.furniture_data_template = {
 		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -55919,6 +58006,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei1vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -55973,7 +58063,6 @@ pg.furniture_data_template = {
 		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -55997,6 +58086,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei2vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56051,7 +58143,6 @@ pg.furniture_data_template = {
 		describe = "커피잔인지 찻잔인지 조금 애매한 디자인.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56075,6 +58166,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/chabei3vt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56129,7 +58223,6 @@ pg.furniture_data_template = {
 		describe = "\"두고 봐라! 이 몸께서 곧 제패해줄 테니까!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56140,6 +58233,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56193,7 +58289,6 @@ pg.furniture_data_template = {
 		describe = "\"이건 또 해군과는 다른 멋이 있구먼!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56217,6 +58312,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/haidaochuanvt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56271,7 +58369,6 @@ pg.furniture_data_template = {
 		describe = "\"언니는 이런 느낌의 분재를 갖고 있구나…\" / \"아, 아니라니깐!\"",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56282,6 +58379,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56335,7 +58435,6 @@ pg.furniture_data_template = {
 		describe = "행복함과 즐거움이 넘치는 화단.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56346,6 +58445,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56399,7 +58501,6 @@ pg.furniture_data_template = {
 		describe = "\"후후~ 불면은 구멍이 뚫리는 커다란 솜사탕!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56435,6 +58536,9 @@ pg.furniture_data_template = {
 					"valentine/miahuatangchevt_mask"
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56489,7 +58593,6 @@ pg.furniture_data_template = {
 		describe = "범퍼카로 배틀!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56525,6 +58628,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/pengpengchevt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56579,7 +58685,6 @@ pg.furniture_data_template = {
 		describe = "유원지의 트레이드마크인 만쥬 분수.",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56590,6 +58695,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56643,7 +58751,6 @@ pg.furniture_data_template = {
 		describe = "이글 유니온의 대표적인 음식…일지도?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56654,6 +58761,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56707,7 +58817,6 @@ pg.furniture_data_template = {
 		describe = "올라가면 안돼요!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56718,6 +58827,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -56771,7 +58883,6 @@ pg.furniture_data_template = {
 		describe = "\"오늘은 어떤 걸로 할까나…스위티!\"",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56795,6 +58906,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuegaovt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56849,7 +58963,6 @@ pg.furniture_data_template = {
 		describe = "놀다 지치면 한숨 쉬었다 가자.",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56885,6 +58998,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/yizivt_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -56939,7 +59055,6 @@ pg.furniture_data_template = {
 		describe = "사랑은…돌아오는거야!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -56975,6 +59090,9 @@ pg.furniture_data_template = {
 				},
 				"valentine/xuanzhuanmumavt_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57029,7 +59147,6 @@ pg.furniture_data_template = {
 		describe = "더욱더 높은 고도까지 상승할 수 있도록 개발된 열기구.",
 		dorm_id = 0,
 		gem_price = 150,
-		can_trigger = 0,
 		themeId = 41,
 		spine_extra = "",
 		new = 1,
@@ -57040,6 +59157,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"reqiqiuB",
@@ -57135,7 +59255,6 @@ pg.furniture_data_template = {
 		describe = "옛 풍모를 그대로 가지고 있는 벽지, 나무색을 가진 무늬. 편안함을 느끼게 해줍니다~",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57143,6 +59262,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57196,7 +59318,6 @@ pg.furniture_data_template = {
 		describe = "전통적인 나무재질의 바닥, 밟아보면 이렇게 편할 수가 ~",
 		dorm_id = 0,
 		gem_price = 450,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57204,6 +59325,9 @@ pg.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57257,7 +59381,6 @@ pg.furniture_data_template = {
 		describe = "김치모형의 침대, 먹는거 아니에요~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57280,6 +59403,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57334,7 +59460,6 @@ pg.furniture_data_template = {
 		describe = "바람을 타고 파도를 헤쳐서, 용감하게 앞으로~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57370,6 +59495,9 @@ pg.furniture_data_template = {
 				},
 				"korea/chuanko_using2"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57424,7 +59552,6 @@ pg.furniture_data_template = {
 		describe = "전통적인 나무재질의 걸상, 여기에 앉으면 마치 과거로 돌아간 느낌~",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57447,6 +59574,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57501,7 +59631,6 @@ pg.furniture_data_template = {
 		describe = "방금 만든 비빔밥, 맛있는 야채와 밥 냄새가 나고, 밥 먹을 시간이다!",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57525,6 +59654,9 @@ pg.furniture_data_template = {
 				},
 				"korea/fanko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57579,7 +59711,6 @@ pg.furniture_data_template = {
 		describe = "최고급 맛을 즐기러 오세요~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57590,6 +59721,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57643,7 +59777,6 @@ pg.furniture_data_template = {
 		describe = "좀 더 기다려주세요, 오래 담그면 더 맛있어져요~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57654,6 +59787,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57707,7 +59843,6 @@ pg.furniture_data_template = {
 		describe = "나무 재질의 병풍, 장식품으로는 완벽한 실용성입니다~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57718,6 +59853,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57771,7 +59909,6 @@ pg.furniture_data_template = {
 		describe = "의식 전용 큰북, 내가 쳐볼테니까 잘 봐,동~~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57782,6 +59919,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57835,7 +59975,6 @@ pg.furniture_data_template = {
 		describe = "벌컥벌컥벌컥---캬~ 역시 맥주는 큰 잔에 마셔야지~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57859,6 +59998,9 @@ pg.furniture_data_template = {
 				},
 				"korea/jiuko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -57913,7 +60055,6 @@ pg.furniture_data_template = {
 		describe = "바베큐의 규칙은....먼저 온 사람이 임자!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57924,6 +60065,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -57977,7 +60121,6 @@ pg.furniture_data_template = {
 		describe = "동양의 신비로운 약재, 미용 효과가 있을지 모른다고?",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -57988,6 +60131,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58041,7 +60187,6 @@ pg.furniture_data_template = {
 		describe = "맛있는 전통음식, 제일 맛있다구~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58052,6 +60197,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58105,7 +60253,6 @@ pg.furniture_data_template = {
 		describe = "빛이 난다면 더 좋을 텐데~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58116,6 +60263,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58169,7 +60319,6 @@ pg.furniture_data_template = {
 		describe = "진한 맛이 나는 된장국을 한입 맛보면 따뜻한 행복한 느낌이~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58193,6 +60342,9 @@ pg.furniture_data_template = {
 				},
 				"korea/tangko_using"
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58247,7 +60399,6 @@ pg.furniture_data_template = {
 		describe = "신선하고 상큼한 포도주스, 캔 바닥을 보니 포도알이 보이네~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58258,6 +60409,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58311,7 +60465,6 @@ pg.furniture_data_template = {
 		describe = "캔에든 오렌지주스, 모든 사람들이 좋아하고 당연히 오렌지가 듬쁙~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58322,6 +60475,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58375,7 +60531,6 @@ pg.furniture_data_template = {
 		describe = "언제든지 즉시 사용가능한 완벽한 치킨~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58386,6 +60541,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58439,7 +60597,6 @@ pg.furniture_data_template = {
 		describe = "차를 마시며, 오늘 뭐했는지 얘기해볼까~?",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58450,6 +60607,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58503,7 +60663,6 @@ pg.furniture_data_template = {
 		describe = "전통 게임책상",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58541,6 +60700,9 @@ pg.furniture_data_template = {
 				2,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58595,7 +60757,6 @@ pg.furniture_data_template = {
 		describe = "책상 모양의 북, 아니면 북 모양의 책상? ",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58625,6 +60786,9 @@ pg.furniture_data_template = {
 				3,
 				3
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58679,7 +60843,6 @@ pg.furniture_data_template = {
 		describe = "겉상 모양의 장구, 아니면 장구 모양의 겉상? ",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58702,6 +60865,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58756,7 +60922,6 @@ pg.furniture_data_template = {
 		describe = "목화를 채웠서, 아무리 눌러도 안 납작해지지. ",
 		dorm_id = 0,
 		gem_price = 60,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58779,6 +60944,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58833,7 +61001,6 @@ pg.furniture_data_template = {
 		describe = "윳놀이를 할 수 있는 도구, 기술을 사용해 잘 던져보라구~이얍!",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58856,6 +61023,9 @@ pg.furniture_data_template = {
 					1
 				}
 			}
+		},
+		can_trigger = {
+			0
 		},
 		time = {
 			{
@@ -58910,7 +61080,6 @@ pg.furniture_data_template = {
 		describe = "나무 재질이지만, 완벽한 견고함의 아름다움~",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58921,6 +61090,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -58974,7 +61146,6 @@ pg.furniture_data_template = {
 		describe = "방안에 꼭 필요한 장식품, 꽃송이는 미래의 기원을 담고있어요~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -58985,6 +61156,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59038,7 +61212,6 @@ pg.furniture_data_template = {
 		describe = "꽃송이그림의 장식품, 위에는 꽃향기가 난다~",
 		dorm_id = 0,
 		gem_price = 120,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -59049,6 +61222,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59102,7 +61278,6 @@ pg.furniture_data_template = {
 		describe = "쉽고 간편한 미닫이문, 오래된 목재의 냄새가 난다",
 		dorm_id = 0,
 		gem_price = 240,
-		can_trigger = 0,
 		themeId = 42,
 		spine_extra = "",
 		new = 1,
@@ -59113,6 +61288,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		time = {
 			{
 				{
@@ -59131,6 +61309,2578 @@ pg.furniture_data_template = {
 					2019,
 					4,
 					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43001] = {
+		can_rotate = 0,
+		name = "버츄얼 벽지",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		effect = "",
+		icon = "qiangbikaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/qiangbika",
+		canputon = 0,
+		discount = 0,
+		id = 43001,
+		comfortable = 4,
+		describe = "키즈나 아이가 존재하는 '하얀 공간'을 이미지한 벽지. 이걸로 당신의 방을 가상 공간으로 꾸며보자.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43002] = {
+		can_rotate = 0,
+		name = "버츄얼 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		effect = "",
+		icon = "dibankaicon",
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "KizunaAI/dibanka",
+		canputon = 0,
+		discount = 0,
+		id = 43002,
+		comfortable = 4,
+		describe = "키즈나 아이가 존재하는 '하얀 공간'을 이미지한 바닥. 이걸로 당신의 방을 가상 공간으로 꾸며보자.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43101] = {
+		can_rotate = 1,
+		name = "이젤",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/banka",
+		canputon = 0,
+		discount = 0,
+		id = 43101,
+		comfortable = 3,
+		describe = "키즈나 아이가 직접 만든 이젤. 좋아하는 일러스트를 걸어둘 수 있다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43102] = {
+		can_rotate = 0,
+		name = "스낵 바 소파",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "bataikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/bataika",
+		canputon = 0,
+		discount = 0,
+		id = 43102,
+		comfortable = 3,
+		describe = "키즈나 아이가 경영하는 바에 있을 것 같은 소파와 테이블. 추천 메뉴는 진저 에일.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-87,
+					47
+				},
+				{
+					1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					15,
+					77
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			},
+			{
+				"sit",
+				{
+					104,
+					29
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/bataika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43103] = {
+		can_rotate = 0,
+		name = "키즈나 아이 냉장고",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "bingxiangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/bingxiangka",
+		canputon = 0,
+		discount = 0,
+		id = 43103,
+		comfortable = 1,
+		describe = "키즈나 아이가 온도 조절을 해주는 초고성능 냉장고",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43104] = {
+		can_rotate = 0,
+		name = "AI 탑재 침대",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chuangka",
+		canputon = 0,
+		discount = 0,
+		id = 43104,
+		comfortable = 3,
+		describe = "키즈나 아이의 이미지를 구현화한 AI 탑재형 침대. AI에 의한 완벽한 수면 시간 관리로 숙면 생활을 시작합시다!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.9,
+					48.1
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sleep",
+				{
+					79.1,
+					15.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43105] = {
+		can_rotate = 0,
+		name = "AI 시스템 키친",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "chufangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/chufangka",
+		canputon = 0,
+		discount = 0,
+		id = 43105,
+		comfortable = 3,
+		describe = "천재 AI를 탑재하고 있어서 여러모로 사용하기 쉬운 시스템 키친. 레시피만 설치해두면 요리도 쉽게! ……될려나",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43106] = {
+		can_rotate = 0,
+		name = "키즈나 아이 스툴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi2kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43106,
+		comfortable = 2,
+		describe = "키즈나 아이를 이미지한 스툴. ……가볍고 튼튼해서 잘 부서지지 않아요!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-11,
+					59
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43107] = {
+		can_rotate = 0,
+		name = "키즈나 아이 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzi3kaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzi3ka",
+		canputon = 0,
+		discount = 0,
+		id = 43107,
+		comfortable = 2,
+		describe = "키즈나 아이를 이미지한 의자. 등받이? 그런 것에 기대니까 자세가 나빠지는 겁니다.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18,
+					54
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43108] = {
+		can_rotate = 0,
+		name = "하트 스툴",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/dengzika",
+		canputon = 0,
+		discount = 0,
+		id = 43108,
+		comfortable = 2,
+		describe = "키즈나 아이의 이미지를 구현화한 하트형 스툴. 사실 꽤 부드럽다.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43109] = {
+		can_rotate = 1,
+		name = "4K 키즈나 아이 TV",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "dianshikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43109,
+		comfortable = 4,
+		describe = "마치 현실처럼 리얼한 영상을 보여주는 4K TV ……게임의 몰입감도 굉장하네요!",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ai_tv",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43110] = {
+		can_rotate = 0,
+		name = "표코표코 양탄자",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditan2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/ditan2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43110,
+		comfortable = 2,
+		describe = "키즈나 아이가 머리에 쓰고 있는 '표코표코'를 이미지한 양탄자",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43111] = {
+		can_rotate = 1,
+		name = "키즈나 아이 양탄자",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		effect = "",
+		icon = "ditankaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "KizunaAI/ditanka",
+		canputon = 0,
+		discount = 0,
+		id = 43111,
+		comfortable = 1,
+		describe = "인텔리전트한 슈퍼 AI 키즈나 아이를 이미지한 양탄자",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43112] = {
+		can_rotate = 0,
+		name = "랜덤 워드 생성기",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/jika",
+		canputon = 0,
+		discount = 0,
+		id = 43112,
+		comfortable = 3,
+		describe = "키즈나 아이와 같이 이 세계에 흘러들어온 수수께끼의 상자를 모델로 한 장치. 다양한 워드를 자동으로 생성할 수 있다. 진짜는 더 대단하다고!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-3,
+					-37
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/jika_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43113] = {
+		can_rotate = 0,
+		name = "AI 보틀랙",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "jiuguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/jiuguika",
+		canputon = 0,
+		discount = 0,
+		id = 43113,
+		comfortable = 2,
+		describe = "키즈나 아이가 경영하는 바에 있을 것 같은 보틀랙 ……'A.I.Whisky'라는 게 추천 메뉴인데, 음주는 만 20세부터 가능하다고!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43114] = {
+		can_rotate = 0,
+		name = "야옹이",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "maokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/maoka",
+		canputon = 0,
+		discount = 0,
+		id = 43114,
+		comfortable = 2,
+		describe = "평범한 고양이. 먼치킨도, 앵무새도, 쫄랑쫄랑새도 아니다.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43115] = {
+		can_rotate = 0,
+		name = "AI 배양기",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		icon = "peiyangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "KizunaAI/peiyangka",
+		canputon = 0,
+		discount = 0,
+		id = 43115,
+		comfortable = 4,
+		describe = "슈퍼 AI를 탑재한 배양기. 안에 들어가면 평소보다 더 빨리 기운이 날지도 모른다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-3,
+					-109
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/peiyangka_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43116] = {
+		can_rotate = 0,
+		name = "버츄얼 분재",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "penzaikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/penzaika",
+		canputon = 0,
+		discount = 0,
+		id = 43116,
+		comfortable = 2,
+		describe = "하트 모양을 한 가상 분재.……가상이니까 모양도 내 맘대로! 모양 다듬기도 편해서 좋네요!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43117] = {
+		can_rotate = 0,
+		name = "키즈나 아이 L자 소파",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shafakaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/shafaka",
+		canputon = 0,
+		discount = 0,
+		id = 43117,
+		comfortable = 3,
+		describe = "키즈나 아이의 이미지를 구현화한 다기능 소파. 곳곳에 수납공간이 있어 공간을 최대한 활용할 수 있다.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-34,
+					79
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43118] = {
+		can_rotate = 0,
+		name = "AI 벽장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "yiguikaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yiguika",
+		canputon = 0,
+		discount = 0,
+		id = 43118,
+		comfortable = 2,
+		describe = "키즈나 아이의 다양한 의상이나 장식품을 모티브로 한 아이템이 수납된 벽장 ……이제 언제든 키즈나 아이가 될 수 있다!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43119] = {
+		can_rotate = 0,
+		name = "키즈나 아이 소파",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/yizika",
+		canputon = 0,
+		discount = 0,
+		id = 43119,
+		comfortable = 2,
+		describe = "키즈나 아이를 이미지한 소파. 딱히 가상적인 요소는 없다. 이거 레알?!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-99,
+					39
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-38,
+					6
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					16,
+					-21
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43120] = {
+		can_rotate = 0,
+		name = "AI 욕조",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yugangkaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "KizunaAI/yugangka",
+		canputon = 0,
+		discount = 0,
+		id = 43120,
+		comfortable = 3,
+		describe = "키즈나 아이의 이미지를 구현화한 욕조 ……투명판이 있어서 목욕 중에도 키즈나 아이의 영상을 볼 수 있어요!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					22,
+					-12
+				},
+				{
+					-1,
+					1
+				},
+				"KizunaAI/yugang_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43121] = {
+		can_rotate = 0,
+		name = "AI 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuo2kaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuo2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43121,
+		comfortable = 2,
+		describe = "키즈나 아이가 멋있게 작업하는 모습을 이미지한 책상. 이상적인 트리플 디스플레이로 영상 편집이 척척 진행될… 예정",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43122] = {
+		can_rotate = 0,
+		name = "AI 원형 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		icon = "zhuokaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "KizunaAI/zhuoka",
+		canputon = 1,
+		discount = 0,
+		id = 43122,
+		comfortable = 2,
+		describe = "키즈나 아이의 이미지를 구현화한 둥글고 큰 테이블. 여기에 둘러앉으면 금방 친해질 수 있을 터!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {
+			0,
+			-5.23
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43123] = {
+		can_rotate = 1,
+		name = "AI 스테이지",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		effect = "",
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "wutaikaicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 43123,
+		comfortable = 4,
+		describe = "키즈나 아이가 모항에서 라이브를 개최하기 위해 준비한 무대. 뒤에는 하트형 모니터가 있어서 다양한 연출이 가능하다.",
+		dorm_id = 0,
+		gem_price = 200,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"Ai_Stage",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				63,
+				-107
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43201] = {
+		can_rotate = 0,
+		name = "AI 형광봉",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "bangkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 4,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/bangka",
+		canputon = 0,
+		discount = 0,
+		id = 43201,
+		comfortable = 1,
+		describe = "키즈나 아이 전용 형광봉. 키즈나 아이의 라이브에 참가할 때 가져가자. 깜빡하면 가시방석에 앉은 기분이 될지도 모른다.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43202] = {
+		can_rotate = 0,
+		name = "AI 컨트롤러",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "shoubingkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "KizunaAI/shoubingka",
+		canputon = 0,
+		discount = 0,
+		id = 43202,
+		comfortable = 1,
+		describe = "키즈나 아이 전용 컨트롤러. 슈퍼 AI를 탑재하여 어떤 서투른 사람이라도 슈퍼 플레이를 할 수 있게 될… 지도",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43205] = {
+		can_rotate = 0,
+		name = "AI 쿠션",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		effect = "",
+		icon = "baozhengkaicon",
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 2,
+		rarity = 3,
+		picture = "KizunaAI/baozhengka",
+		canputon = 0,
+		discount = 0,
+		id = 43205,
+		comfortable = 3,
+		describe = "키즈나 아이를 이미지한 대형 쿠션. 숏컷의 게이머 버전.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43301] = {
+		can_rotate = 0,
+		name = "AI 라이브 포스터",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "huakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 3,
+		advice = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "KizunaAI/huaka",
+		canputon = 0,
+		discount = 0,
+		id = 43301,
+		comfortable = 2,
+		describe = "키즈나 아이의 첫 라이브 이벤트에서 사용되었을지도 모르는 포스터. ……hello world！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43302] = {
+		can_rotate = 0,
+		name = "AI 행거랙",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazi2kaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/jiazi2ka",
+		canputon = 0,
+		discount = 0,
+		id = 43302,
+		comfortable = 3,
+		describe = "키즈나 아이의 행거랙. 백의를 입고 안경을 쓰기만 하면, 아주 인텔리전트하고 지적인 인상을 줄 수 있을 것 같다… 는 기분이 든다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43303] = {
+		can_rotate = 0,
+		name = "AI 책장",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "jiazikaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		advice = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 1,
+		picture = "KizunaAI/jiazika",
+		canputon = 0,
+		discount = 0,
+		id = 43303,
+		comfortable = 1,
+		describe = "키즈나 아이가 사용한 자료가 놓여있는 평범한 책장. 이 세계에서는 종이로 된 책을 읽을 수 있는 게 기쁜 듯하다.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43304] = {
+		can_rotate = 0,
+		name = "AI 포탈",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "menkaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/menka",
+		canputon = 0,
+		discount = 0,
+		id = 43304,
+		comfortable = 3,
+		describe = "아이에몽의 비밀 도구. 데려가 주는 장소는 대체로 험난한 환경일 때가 많다.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43305] = {
+		can_rotate = 0,
+		name = "버츄얼 스크린",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "pingmukaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/pingmuka",
+		canputon = 0,
+		discount = 0,
+		id = 43305,
+		comfortable = 3,
+		describe = "공간 상에 영상을 투영해내는 최신 스크린. ……이것만 있으면 어디에서든 큰 화면으로 키즈나 아이의 영상을 볼 수 있다구요♪",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43306] = {
+		can_rotate = 0,
+		name = "하트형 스툴 선반",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "shujiakaicon",
+		is_get_time_note = 0,
+		belong = 2,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 0,
+		not_for_sale = 1,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/shujiaka",
+		canputon = 0,
+		discount = 0,
+		id = 43306,
+		comfortable = 3,
+		describe = "게임 소프트를 두기에 딱 알맞은 스툴 선반. 키즈나 아이가 방송용으로 구매한 소프트가 잔뜩 놓여있다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[43307] = {
+		can_rotate = 0,
+		name = "Kizuna AI 패널",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		effect = "",
+		icon = "zikaicon",
+		is_get_time_note = 0,
+		belong = 4,
+		count = 1,
+		advice = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "KizunaAI/zika",
+		canputon = 0,
+		discount = 0,
+		id = 43307,
+		comfortable = 3,
+		describe = "키즈나 아이의 이름이 한 글자씩 쓰여있는 패널. 슈퍼 AI의 이름을 방에 새겨두자. '아이… 좋은 사람이었죠' '저 아직 살아있다구요!?'",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 43,
+		spine_extra = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					4,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
 				},
 				{
 					23,
@@ -59173,6 +63923,8 @@ pg.furniture_data_template = {
 		117,
 		118,
 		119,
+		122,
+		123,
 		124,
 		126,
 		129,
@@ -59182,6 +63934,8 @@ pg.furniture_data_template = {
 		137,
 		138,
 		140,
+		141,
+		143,
 		100002,
 		100003,
 		100004,
@@ -60077,7 +64831,42 @@ pg.furniture_data_template = {
 		42301,
 		42302,
 		42303,
-		42304
+		42304,
+		43001,
+		43002,
+		43101,
+		43102,
+		43103,
+		43104,
+		43105,
+		43106,
+		43107,
+		43108,
+		43109,
+		43110,
+		43111,
+		43112,
+		43113,
+		43114,
+		43115,
+		43116,
+		43117,
+		43118,
+		43119,
+		43120,
+		43121,
+		43122,
+		43123,
+		43201,
+		43202,
+		43205,
+		43301,
+		43302,
+		43303,
+		43304,
+		43305,
+		43306,
+		43307
 	}
 }
 

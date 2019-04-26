@@ -32,7 +32,7 @@ return {
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
-			actor = 905011,
+			actor = 905010,
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 0,
 			bgName = "bg_story_faxi2",
 			say = "……리슐리외 언니, 이게 당신이 원한 결과인가……?",
@@ -392,7 +392,7 @@ return {
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			actor = 101301,
+			actor = 101300,
 			say = "이, 이건…… 비시아 함대가 공격해왔습니다!",
 			effects = {
 				{
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "막대한 손상 발생! 지원 바랍니다!",
 			dir = 1,
 			side = 1,
@@ -489,7 +489,7 @@ return {
 			}
 		},
 		{
-			actor = 102031,
+			actor = 102030,
 			say = "반복합니다! 막대한 손상 발생! 지원 바랍니다!",
 			dir = 1,
 			side = 1,
@@ -536,7 +536,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "평범한 방법으론 안 될 것 같네……",
 			dir = 1,
 			side = 1,
@@ -583,7 +583,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "주변 해역에서 전개 중인 함재기에게 알립니다. 지금부터 임무를 변경합니다.",
 			dir = 1,
 			side = 1,
@@ -630,7 +630,7 @@ return {
 			}
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			say = "연안포 제거를 우선하여, 상륙 엄호에 집중해주세요!",
 			dir = 1,
 			side = 1,
@@ -677,7 +677,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "역시 싸울 수 밖에 없나…… 적 항공기가 없으면 난 좀처럼 활약하기 힘들겠다만……",
 			dir = 1,
 			side = 1,
@@ -724,7 +724,7 @@ return {
 			}
 		},
 		{
-			actor = 102091,
+			actor = 102090,
 			say = "으와와와! 세이렌의 함재기!?",
 			dir = 1,
 			side = 1,
@@ -771,7 +771,7 @@ return {
 			}
 		},
 		{
-			actor = 103111,
+			actor = 103110,
 			say = "방심하지마! 이 부근의 대공은 너에게 맡긴다! 우린 세이렌의 신형 항공모함을 치겠어!",
 			dir = 1,
 			side = 1,

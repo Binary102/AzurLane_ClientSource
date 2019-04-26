@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgm = "story-1",
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "서, 설마 진짜로 이렇게 긴 시간동안 설교당할 줄은…",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "아! 지휘관!",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "아참! 죄송합니다, 그만…",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "그게... 언니가 선도부장 역할인 거죠? 제가 불량학생 역할을 하면 언니가 저를 좀 더 돌아봐 주지 않을까 해서…",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "게다가, 선도부장이 있는데 불량학생이 없으면 뭔가 섭섭하잖아요?",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900083,
+			actor = 401010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -277,7 +277,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "아, 아니거든요!",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 900081,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "하아... 벌써 시간이 이렇게……",
 			flashout = {
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "후부키쨩 미안해, 자료 정리를 부탁해서",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "응? 히류와 Z1?",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			say = "그리고 지휘관님도…?",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "지금 지휘관님이랑 무슨 얘길 하고 있었어?",
 			typewriter = {
@@ -433,7 +433,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "아, 별거 아니었어요. 새 학기가 시작된다는 얘기를…",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "그러고 보니 그렇네... 히류? 다음에도 언니 말 안 들으면, 그땐 준비해둔 제복을 입힐 거에요?",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -483,7 +483,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "지, 지금 입은 옷이 더 좋다구요!",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101060,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -517,7 +517,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -536,7 +536,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = -1,
-			actor = 900084,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "신출귀물한 치어리더 역할입니다! ...라고 해도 평소랑 별로 바뀐 건 없지만…",
 			typewriter = {
@@ -557,7 +557,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101060,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -573,7 +573,7 @@ return {
 			}
 		},
 		{
-			actor = 900084,
+			actor = 101060,
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -593,7 +593,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "지금 뭐라고..?",
 			typewriter = {
@@ -610,7 +610,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "아뇨! 아무 일도 아닙니닷!",
 			typewriter = {
@@ -627,7 +627,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "하아... 선도부장인 내 입장도 좀 생각해주면 좋으련만……",
 			typewriter = {
@@ -667,7 +667,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900081,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "물론이죠.",
 			typewriter = {
@@ -680,7 +680,7 @@ return {
 			}
 		},
 		{
-			actor = 900083,
+			actor = 401010,
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -700,7 +700,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900080,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			say = "추, 출석도 잘할게요!",
 			typewriter = {
@@ -717,7 +717,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 900082,
+			actor = 307040,
 			actorName = "{namecode:94}",
 			say = "좋아!",
 			typewriter = {
@@ -734,7 +734,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			blackBg = true,
-			actor = 900084,
+			actor = 101060,
 			nameColor = "#a9f548",
 			say = "모두~ 화이팅!",
 			typewriter = {

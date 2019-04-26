@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "\"로열의 피라미들 따위는 나 혼자로 충분해!\" 라고 출격 전에 의기양양하게 말했던 건 히퍼, 당신이었지요.",
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 404024,
+			actor = 404020,
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			actor = 404014,
+			actor = 404010,
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 403014,
+			actor = 403010,
 			nameColor = "#D6341D",
 			say = "멋대로 죽은 사람 취급하지 마! 어이, 사람 말을 좀 들으라고!!",
 			shake = {

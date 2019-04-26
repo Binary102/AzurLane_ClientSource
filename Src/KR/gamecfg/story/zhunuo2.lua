@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actor = 201034,
+			actor = 201030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -75,7 +75,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			say = "글로리어스씨, 고마워! 하지만 할 일은 제대로 해야지. 아카스타, 우리는 레이더를 가지고 있지 않으니, 적을 조기에 발견할 수 있도록 앞으로 나가는 편이 좋을거라구.",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -123,7 +123,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			say = "글로리어스씨의 속도는 17노트, 풍력은 2에서 3 정도, 풍향은 남동… 시야 양호… 좀 느린 것 같은데, 순조로운 거 맞지…?",
 			flashout = {
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 201024,
+			actor = 201020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,

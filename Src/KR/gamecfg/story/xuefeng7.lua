@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その七　いつもの雪風様</size>",
+					"叫我{namecode:22}大人！\n\n<size=30>七　一如既往？的{namecode:22}大人</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "そして、ある日母港にて――",
+			say = "在那之后，某一天的港区——",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "あっはっはっは！今日も雪風様が秘書艦として報告してやるのだ！",
+			say = "啊～哈哈哈！秘书舰{namecode:22}大人今天也来报告啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,74 +64,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "ふん！この雪風様がいないと仕事ちゃんとできないのだな？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "そういえば、雪風は昨日も深夜まで頑張ってた気がする。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301164,
-			actorName = "{namecode:22}",
-			say = "ふん！指揮官もようやくこの雪風様のありがたみを理解できるようになったのだな！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301164,
-			actorName = "{namecode:22}",
-			say = "そんな物分りのいい指揮官のために、雪風様がもうすこし頑張ってやらなくもないのだぞ！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301164,
-			actorName = "{namecode:22}",
-			say = "ほら、雪風様をもっともっと褒めるのだ♪",
+			say = "哼！没有{namecode:22}大人工作也没法做了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,11 +77,67 @@ return {
 			},
 			options = {
 				{
-					content = "ポンポン",
+					content = "说起来{namecode:22}昨天晚上也工作到很晚呢…"
+				}
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 301160,
+			actorName = "{namecode:22}",
+			say = "哼！看来指挥官终于也了解到有{namecode:22}大人在身边有多好了吧！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 301160,
+			actorName = "{namecode:22}",
+			say = "看指挥官你这么识时务，{namecode:22}大人就再稍稍微努力一点好了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 301160,
+			actorName = "{namecode:22}",
+			say = "好啦，再来多夸一下{namecode:22}大人吧！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "拍拍头",
 					flag = 1
 				},
 				{
-					content = "なでなで",
+					content = "摸摸头",
 					flag = 2
 				}
 			}
@@ -156,9 +147,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "えへへ……わぅわぅ……",
+			say = "诶嘿嘿……蹭蹭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,9 +184,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actorName = "{namecode:143}",
-			actor = 301604,
+			actor = 301600,
 			nameColor = "#a9f548",
-			say = "浦風さま！磯風も指揮官にモフモフさせたい！",
+			say = "{namecode:142}！{namecode:143}也想让指挥官摸摸头！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -223,12 +214,12 @@ return {
 			}
 		},
 		{
-			say = "わたしも…は！空気読め！今は雪風が秘書艦だぞ！",
+			say = "我也…啊！给我看看气氛啦！现在{namecode:22}是秘书舰啊！",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -248,9 +239,9 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
-			say = "お、おちたのね……",
+			say = "完、完全沦陷了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,9 +256,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
-			say = "雪風ちゃん……よかったです……",
+			say = "{namecode:22}酱……太好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,9 +284,9 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "{namecode:22}",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "しきかーん、もっとモフモフしていいのだぞー♪",
+			say = "指挥官～再蹭蹭尾巴也是可以的哦♪",
 			flashout = {
 				dur = 1,
 				black = true,

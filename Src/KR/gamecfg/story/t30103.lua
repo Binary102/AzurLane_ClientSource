@@ -10,7 +10,7 @@ return {
 			side = 2,
 			mode = 2,
 			actorName = "{namecode:92}",
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "큭...... 이 정도까지 계산이 어긋날 줄이야...... 분하다...",
 			shake = {
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			mode = 2,
 			actorName = "{namecode:92}",
-			actor = 307021,
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "...아카기, 언니......",
 			shake = {

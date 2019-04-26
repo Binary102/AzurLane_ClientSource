@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "롱·아일랜드 씨! 저와 승부해주세요!",
 			flashout = {
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 900034,
+			actor = 106011,
 			nameColor = "#a9f548",
 			say = "져, 졌다……",
 			flashout = {
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			actor = 900034,
+			actor = 106011,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 102084,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "뭐야 뭐야~? 재밌는 거~?",
 			flashout = {
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			actor = 102084,
+			actor = 102080,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -306,7 +306,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Z23쨩 미안, 저번에 장난쳤던 건 고의가 아니었어…",
 			flashout = {
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -370,7 +370,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -385,7 +385,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -400,7 +400,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -430,7 +430,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -445,7 +445,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -460,7 +460,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,7 +477,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			actor = 401234,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "좋아! 잘 됐어!",
 			flashout = {
@@ -507,7 +507,7 @@ return {
 			}
 		},
 		{
-			actor = 401234,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,

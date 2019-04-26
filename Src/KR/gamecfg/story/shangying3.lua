@@ -21,7 +21,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "네에~ 여기 준비도 부탁드릴게요~",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			say = "혼자 하는 건 역시 힘들겠죠…죄송합니다! 도와줄 분들을 데려왔어요!",
 			flashout = {
@@ -71,7 +71,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 301314,
+			actor = 301310,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 302044,
+			actor = 302040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 305014,
+			actor = 305010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 305024,
+			actor = 305020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actor = 307040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -187,7 +187,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,

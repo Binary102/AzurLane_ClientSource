@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "후우……또 이 꿈인가? 벌써 몇 번째 꾸는 거지……",
 			flashout = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			side = 2,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "마침 오늘의 업무 일정을 정리해두었으니 한 번 확인해보도록. 문제가 있다면 다시 수정하도록 하지.",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

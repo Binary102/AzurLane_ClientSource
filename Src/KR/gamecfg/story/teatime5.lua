@@ -16,7 +16,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			actor = 900048,
+			actor = 301111,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -185,7 +185,7 @@ return {
 			}
 		},
 		{
-			actor = 900047,
+			actor = 207031,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "폐하! 역시 여기 계셨군요!",
 			flashout = {
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -264,7 +264,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actor = 900049,
+			actor = 301121,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -373,7 +373,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -388,7 +388,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -403,7 +403,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,7 +418,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -433,7 +433,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			actor = 202110,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -463,7 +463,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 207021,
+			actor = 207020,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,7 +493,7 @@ return {
 			}
 		},
 		{
-			actor = 202121,
+			actor = 202120,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			actor = 205010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -568,7 +568,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 301091,
+			actor = 301090,
 			actorName = "{namecode:11}",
 			say = "아, 아직인가…… 이제 지쳤어…… 히비키, 줄곧 이렇게 험한 곳에 있었던 거야……? 으응, 히비키, 언니가 금방 갈게!",
 			typewriter = {

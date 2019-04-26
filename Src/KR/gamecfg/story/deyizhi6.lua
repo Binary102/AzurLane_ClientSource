@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			actor = 405021,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = " '뤼초우'……그 때문인가.",
 			flashout = {
@@ -45,7 +45,7 @@ return {
 			},
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -61,7 +61,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			say = "그래. 왜인지는 모르겠지만, 그 아이는 원래 메탈 블러드에서 '도이칠란트' 로만 있었던 게 아니라, '뤼초우' 라는 이름으로 노스 유니온에도 있었다고 해.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403041,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "?! 다들, 그걸 알고 있……",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			say = "그 전장에서 노력했던 '뤼초브' 가 아니라, 노스 유니온의 '뤼초우'  로써……",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			say = "그 아이는 자신의 함력을 분하게 생각하고 있어. 그러니까 동료가 되고 싶어서, 열심히 메탈 블러드 처럼 필사적으로 자기 자신을 꾸민 거야.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			say = "노스 유니온에 들어간 적이 있다곤 해도, 그 아이는 틀림없는 '도이칠란트' 고, 우리들의 동료다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -212,7 +212,7 @@ return {
 			say = "그러니까, 그렇게 좋은 아이인 도이칠란트를 동료로서 받아줄 수 있도록, 그리고 살짝 토라지기 쉬운 성격이기도 하니…그런 약속을 하게 되었다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -263,7 +263,7 @@ return {
 			say = "그 아이에게 진실을 밝히지 않으면서, 우리는 '지금의 도이칠란트' 를 동료로 받아주기로 했습니다.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -288,7 +288,7 @@ return {
 			say = "그렇지. 그 아이는 어찌 됐든 우리들의 동료야. 너무 신경을 써주다 되려 그 아이에게 상처를 주다니……일이 이렇게 될 줄은 정말 몰랐어.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -304,7 +304,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 			say = "난 딱히 그 아이는 지금 이대로도 괜찮다고 생각하는데…뭐, 조금만 더 자신에게 솔직해지면 좋겠지만 말이야.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -338,7 +338,7 @@ return {
 			say = "일시적으론 속상해할 수 있겠지만, 사실을 그냥 얘기하는 건 어때?",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -363,7 +363,7 @@ return {
 			say = "그래. 그 제멋대로인 도이칠란트를 못 보는 건 아쉽긴 해도, 더 솔직하게 살았으면 좋겠으니까.",
 			subActors = {
 				{
-					actor = 403041,
+					actor = 403040,
 					pos = {
 						x = 1000
 					}
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -405,7 +405,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 404021,
+			actor = 404020,
 			nameColor = "#a9f548",
 			say = "결론은 도이칠란트에게 사실을 말하자는 거군요.",
 			flashout = {
@@ -458,7 +458,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 403051,
+			actor = 403050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -474,7 +474,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 404021,
+			actor = 404020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -516,7 +516,7 @@ return {
 			}
 		},
 		{
-			actor = 403031,
+			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -542,7 +542,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -558,7 +558,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -574,7 +574,7 @@ return {
 			}
 		},
 		{
-			actor = 403041,
+			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

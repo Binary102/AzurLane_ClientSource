@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "真，真的假的！",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "那是女仆队的天狼星……！？",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "请尽管观阅欣赏天狼星努力的成果",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "我骄傲的主人啊——邀请您，与我共舞一曲",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-6",
-			actor = 205021,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "警报！陛下！塞壬的舰载机正在接近周边海域！",
 			flashout = {
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 205011,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "哼！竟敢打扰本王参加的宴会，胆子真大！召集一下待机中的女仆队，赶紧把那些塞壬赶出去！",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "……从这里直接出发应该能最先到达",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -338,7 +338,7 @@ return {
 			}
 		},
 		{
-			actor = 900178,
+			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900178,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "——如果这是您的愿望，天狼星将全力绽放光芒",
 			typewriter = {

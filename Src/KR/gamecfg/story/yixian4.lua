@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = 1,
 			say = "今天不看海了？",
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			dir = -1,
 			say = "与其待着什么都想不到，不如到实地感受一下，这，也是从你那里学到的呢",
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 1,
 			dir = 1,
 			say = "那我也——",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 0,
 			dir = 1,
 			say = "平海也要——",
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "不行",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			say = "我都还没说完呢……",
@@ -95,7 +95,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "那片海域，毕竟不太平，若是因此让你们受伤，岂不是本末倒置",
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			say = "居然让逸仙担心了……”这句话原封不动地还你！",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 1,
 			dir = 1,
 			say = "……",
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			actor = 502021,
+			actor = 502020,
 			side = 0,
 			dir = -1,
 			say = "正因为不太平，我才要跟着去！",
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			actor = 502030,
 			side = 1,
 			dir = -1,
 			say = "平海也是！",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actor = 502011,
+			actor = 502010,
 			side = 0,
 			dir = -1,
 			say = "那，至少也得先准备万全",

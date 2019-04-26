@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			say = "스트라이크 프레임 전개, 최대 출력!",
 			bgm = "story-1",
-			actor = 900125,
+			actor = 201219,
 			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			seDelay = 2.2,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900126,
+			actor = 301059,
 			dir = 1,
 			actorName = "{namecode:6}",
 			say = "귀신의 힘, 느껴봐라…!",
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900127,
+			actor = 101179,
 			nameColor = "#a9f548",
 			say = "섬멸 형태, 전환 완료………졸려……",
 			effects = {
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 900128,
+			actor = 401239,
 			nameColor = "#a9f548",
 			say = "중장 형태, 기동! 라피, 아직 자지 말라고요! 모처럼 모두와 함께 멋진 포즈를 정해보자니까 쫌!",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -167,7 +167,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "안 됩니다! 기왕 하는 거면, 적어도 포즈만이라도……",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 102081,
+			actor = 102080,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -303,7 +303,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -322,7 +322,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "???",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 102081,
+			actor = 102080,
 			nameColor = "#a9f548",
 			say = "오오오! 개조란 거, 굉장한 거였구나!",
 			typewriter = {
@@ -392,18 +392,18 @@ return {
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
-			actor = 201211,
+			actor = 201210,
 			actorName = "재블린&아야나미&라피",
 			say = "오오오! 개조란 거, 굉장한 거였구나!",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}
@@ -432,7 +432,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 401231,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "그럼요! …가 아니지, 에에에에?!",
 			typewriter = {

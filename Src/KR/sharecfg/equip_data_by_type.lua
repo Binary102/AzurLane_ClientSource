@@ -66,7 +66,7 @@ pg.equip_data_by_type = {
 	{
 		distory_resource_gold_ratio = 2,
 		type_name = "기타",
-		equip_skin = 0,
+		equip_skin = 1,
 		equip_type = 10,
 		type_name2 = "기타"
 	},

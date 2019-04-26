@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その二  瑞鶴と仲間たち</size>",
+					"幸运之鹤\n\n<size=30>二  {namecode:96}与小伙伴们</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "急いで支度した瑞鶴から朝の報告を受け、二人で朝の巡回を始めた。",
+			say = "听完匆忙洗漱完毕后就位的{namecode:96}的晨间报告，和她一起开始了早晨的巡逻",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "指揮官ごめん…昨日は深夜まで攻撃教科書を読みこんでたんだ…",
+			say = "指挥官对不起…昨晚看攻击教科书看太晚了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,9 +49,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "…はい、今後気をつけるわ…",
+			say = "是…我以后会注意的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "あっ、みんなが埠頭で集まっている…？",
+			say = "啊，大家聚在那里做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			say = "お！瑞鶴ちゃん、指揮官と朝の巡回かい？",
+			say = "喔？{namecode:96}和指挥官在巡逻吗？",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			actorName = "{namecode:76}",
 			dir = 1,
-			actor = 305034,
+			actor = 305030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -104,9 +104,9 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "そう！ってみんなここで何してるの？",
+			say = "是的！话说大家在这里做什么呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,9 +121,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305044,
+			actor = 305040,
 			actorName = "{namecode:77}",
-			say = "ユニオンの連中との共同演習の話さ。向こうにどうやって声かければいいかって。",
+			say = "在讨论和白鹰进行联合演习的事。在想怎么跟那边提出来比较合适",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,9 +138,9 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "どうやってって、普通に話せばいいんじゃない？",
+			say = "怎么提…正常地说不就好了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,9 +155,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 302094,
+			actor = 302090,
 			actorName = "{namecode:47}",
-			say = "伊勢や日向だけならまだしも、あてたち重桜から「共同演習したい」って言い出せる人があまり居なくて……",
+			say = "如果只有{namecode:76}{namecode:77}还好说，这里没什么人说得出“重樱希望和白鹰进行联合演习”的话呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303024,
+			actor = 303020,
 			actorName = "{namecode:54}",
-			say = "そうね。私や高雄さんだと固すぎてヘンに勘ぐられますし…",
+			say = "是啊。我或{namecode:66}讲话太生硬，只怕会造成奇怪的误解……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,9 +189,9 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "じゃあ私から声かけるってのはどう？これからちょうど向こうに行くから。",
+			say = "那我去说吧？反正一会也会经过那里",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,9 +206,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 305034,
+			actor = 305030,
 			actorName = "{namecode:76}",
-			say = "本当か！そりゃ助かるわー",
+			say = "真的吗！帮大忙了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,9 +223,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 302094,
+			actor = 302090,
 			actorName = "{namecode:47}",
-			say = "瑞鶴から言ってくれるなら、あても安心だよ。",
+			say = "{namecode:96}去说的话，一定没问题的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
-			actor = 303024,
+			actor = 303020,
 			actorName = "{namecode:54}",
-			say = "うん。ごめん、急に頼んじゃって。",
+			say = "嗯。抱歉，临时拜托你",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,9 +257,9 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "いいよいいよ！私にまかせなさいって！",
+			say = "没关系！就交给我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "ユニオン寮で瑞鶴が共同演習を提案すると、ほとんどの子が参加を承諾してくれた。",
+			say = "向白鹰阵营提出了联合演习的提议，取得了大多数人的同意",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -301,9 +301,9 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "ふぅ…これで一通り回ったよね？",
+			say = "呼…差不多就这样吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,9 +319,9 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "こういうの結構多いよね～いつの間にかなんか色々頼まれちゃって。",
+			say = "经常这样呢，不知不觉就收到了这样那样的拜托…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 2,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "리펄스! 큭, 네가 먼저 가면 후드와 리나운을 어떤 얼굴로 보라는 거지! ......뱀파이어! 여긴 내가 맡겠다! 리펄스를 부탁한다!",
 			dir = -1,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 201234,
+			actor = 201230,
 			side = 0,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",

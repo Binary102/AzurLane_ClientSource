@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 0,
 			bgName = "bg_story_5",
 			bgspeed = 2,
@@ -31,7 +31,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			side = 0,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			nameColor = "#ff0000",
 			side = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			side = 0,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			nameColor = "#ff0000",
 			side = 0,

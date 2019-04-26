@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201161,
+			actor = 201160,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "하지만 이렇게 멀리까지 초계 전력을 돌릴 수 있다는 건, 역시 나르비크는 이미 점령당한 것 같네요……",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "괜찮아. 해안 포격으로 탈환하면 돼.",
 			typewriter = {
 				speed = 0.05,
@@ -74,7 +74,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "……항상 '하디는 너무 힘이 들어가 있어'라고 하면서, 헌터야말로 갑자기 얼토당토않은 말을 하네요?",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201161,
+			actor = 201160,
 			say = "아, 아무튼! 협만 잠입에 성공한 이상, 주도권은 저희한테 있습니다! 서둘러 적의 정보를 수집하죠!",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 401191,
+			actor = 401190,
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "!?",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

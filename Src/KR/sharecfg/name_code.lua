@@ -828,17 +828,27 @@ pg.name_code = {
 	{
 		id = 166,
 		name = "特II型绫波",
-		code = "特II型柚"
+		code = "특II형 아야나미 "
 	},
 	{
 		id = 167,
 		name = "特I型吹雪",
-		code = "特I型桐"
+		code = "특I형 후부키 "
 	},
 	{
 		id = 168,
 		name = "特III型晓",
-		code = "特III型枫"
+		code = "특III형 아카츠키 "
+	},
+	{
+		id = 169,
+		name = "小比叡",
+		code = "꼬마 히에이"
+	},
+	{
+		id = 170,
+		name = "小赤城",
+		code = "꼬마 아카기"
 	}
 }
 

@@ -12,7 +12,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "story-french2",
-			actor = 107041,
+			actor = 107040,
 			say = "돈틀리스, 한 번 더 공격해!",
 			flashN = {
 				color = {
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "이제 됐어. 이 아이는 이제 움직이지 못해.",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "움직여! …움직여!! 움직이란 말야!!",
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…………",
@@ -111,7 +111,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "어째서냐! 어째서 날 완성하지 않은 거냐!!",
@@ -134,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "어째서 리슐리외 언니만!!",
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…2번 포탑, 안 쐈지? 나를 상대하면서 봐준 거야?",
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "……",
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900092,
+			actor = 900055,
 			stopbgm = true,
 			say = "리슐리외 언니, 우리 둘, 서로 다른 도크로 옮긴다고 그러는데, 그거 정말이야!?",
 			flashout = {
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -254,7 +254,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
-			actor = 905011,
+			actor = 905010,
 			say = "……내 장비는 처음부터 완성되지 않았다.",
 			flashout = {
 				dur = 1,
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "메탈 블러드와 그 세력에게 협공받는 상황이면, 대형함이 한 척 늘어봤자 적에게 이용당할 뿐. 처음부터 끝은 정해진 거였어.",
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "메탈 블러드 녀석들처럼 세이렌의 힘을 빌리려 해도, 결국 그것도 이루지 못했어.",
@@ -405,7 +405,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "흥, 나라를 지키려 했는데, 나라가 쪼개졌을 뿐이었다.",
@@ -419,7 +419,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 2,
 			dir = 1,
 			say = "줄곧 앞에 서있던 소중한 사람을 따라잡으려던 나머지, 그 사람에게도 배신당했다. …웃기지도 않는 농담같군, 정말이지.",
@@ -437,7 +437,7 @@ return {
 			soundeffect = "event:/ui/noice"
 		},
 		{
-			actor = 107041,
+			actor = 107040,
 			side = 2,
 			dir = 1,
 			say = "본부로부터 긴급 연락이……",
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			say = "…'메탈 블러드의 기동함대, 고속으로 남하 중. 전원 전투 준비' …지금?",
 			dir = 1,
@@ -469,7 +469,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "안심해라. 녀석들의 목표는 너희가 아냐.",
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "오히려, 우리 동료들이 이 해역의 다른 항구에도 배치되어 있으니까… 어쩌면……",
@@ -537,7 +537,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "…………",
@@ -551,7 +551,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "후, 후하하하하하!!",
@@ -565,7 +565,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "……무장을 해제하고, 저희에게……",
@@ -579,7 +579,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "닥쳐라! 케비르 항… 됭케르크들이 겪은 일을 두 번씩이나 일어나게 만들 것 같나!",
@@ -851,7 +851,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 2,
 			say = "대체 왜 그런 행동을.",
 			dir = 1,
@@ -872,7 +872,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			say = "과거 아이리스와 로열 네이비가 맹약을 체결해서 말야. 아이리스는 결코 메탈 블러드나 제국에 항복하지 않는다…… 우리 비시아 성좌도 아이리스의 일부니까, 도리를 관철할 뿐이다.",
 			dir = 1,
@@ -890,7 +890,7 @@ return {
 			}
 		},
 		{
-			actor = 204011,
+			actor = 204010,
 			side = 0,
 			dir = 1,
 			say = "장 바르……",
@@ -904,7 +904,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "솔직히, 너희들이 부럽다. 그토록 강한 나라를 가져서, 이렇게나 강한 대포와 선체를 만들 수 있어서……",
@@ -918,7 +918,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "나도… 이 정도만 되었더라면…… 분명……",
@@ -932,7 +932,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "기대하고 있을게.",
@@ -946,7 +946,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "싸움이 끝나면 당신은 분명 완성될 거야. '그때 다시 정정당당하게 싸우자'고.",
@@ -960,7 +960,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "흥, 너희 유니온이 어떻게 그런 잘나빠진 기사님이나 할 대사를 아는 거냐...",
@@ -976,7 +976,7 @@ return {
 		{
 			expression = "1",
 			side = 0,
-			actor = 105191,
+			actor = 105190,
 			dir = 1,
 			say = "그래? 카우보이가 할 법한 말인데.",
 			typewriter = {
@@ -989,7 +989,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "(내가 넘어서고 싶은 녀석이 또 한 명…나타났나. 의외로… 닮았군…)",
@@ -1003,7 +1003,7 @@ return {
 			}
 		},
 		{
-			actor = 905011,
+			actor = 905010,
 			side = 1,
 			dir = 1,
 			say = "좋아.… 그날을 기대하겠어……… 하지만 그 전에…… 잠깐, 쉬게 해 줘……",
@@ -1017,7 +1017,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "그래. 아이리스와 메탈 블러드, 그리고 '제국'……",
@@ -1031,7 +1031,7 @@ return {
 			}
 		},
 		{
-			actor = 105191,
+			actor = 105190,
 			side = 0,
 			dir = 1,
 			say = "우리들이, 결판을 내주겠어.",
@@ -1048,7 +1048,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 900091,
+			actor = 900054,
 			stopbgm = true,
 			say = "그나저나 우리 '이름'의 의미…… 알고 있나요?",
 			flashout = {
@@ -1078,7 +1078,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1093,7 +1093,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1108,7 +1108,7 @@ return {
 			}
 		},
 		{
-			actor = 900092,
+			actor = 900055,
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -1123,7 +1123,7 @@ return {
 			}
 		},
 		{
-			actor = 900091,
+			actor = 900054,
 			side = 2,
 			dir = 1,
 			blackBg = true,

@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207030,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -66,7 +66,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "우후후, 아무래도 폐하께선 이 연회가 무척 만족스러우신가 봅니다.",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "당연하지! 왜냐면 이 연회, 건물 양식에서 장식까지, 그리고 식자재랑 메뉴까지, 전부 우리 로열 네이비가 준비했는걸!",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "뭐 여기 오고 나서 부턴 품위 없는 건물과 식사에도 나름 익숙해지긴 했지만……",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -152,7 +152,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "아하하하하하하!!!",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207030,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "흠, 당연한 것 아니겠어?",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "어머, 그러고 보니 벨파스트씨와 셰필드씨는 폐하와 함께 있었지 않았나요?",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "그 둘은 조리실로 갔어. 요리도 당연히 최고로 대령해야 하니까 말야!",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "게다가 여기는 내 궁전처럼 안전하니까, 걱정할 필욘 없지!",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207030,
 			side = 0,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "……딱히 아무것도 아니랍니다. 축제란 원래 즐거운 법이니까요.",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -344,7 +344,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "이 거유 녀석! 흥! 그렇게 커 가지고 뭐 어쩌겠단 거야! 걸리적거리기나 하고!",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "꺄악! 폐, 폐하…다른 사람들 보는 앞에서 갑자기 찌르시면……",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "그리고, 정말 참가한 적 없답니다. 그런 장소는 아무래도 역시 어색해서……",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "어이, 엘리자베스, 부하를 괴롭히면 쓰나. 그러지 말고 같이 한잔하는 건 어떤가?",
 			typewriter = {
@@ -430,7 +430,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -460,7 +460,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 305111,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "아하하하……그렇다면……퀸 엘리자베스 폐하, 황송하오나 이 연회장에서 제가 술을 한 잔 따라줄 수 있는 영광을 주실 수 있겠사옵니까?",
 			typewriter = {
@@ -473,7 +473,7 @@ return {
 			}
 		},
 		{
-			actor = 900118,
+			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900118,
+			actor = 205010,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			actor = 900117,
+			actor = 207030,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "……어찌 됐든, 폐하께서도 즐거워하시는 것 같아 다행이네요.",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "……에이잭스씨, 폐하에게 무슨 말버릇입니까.",
 			typewriter = {
@@ -579,7 +579,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "누가 뭐래도 폐하는 폐하입니다. 그러는 당신이야말로, 그 성격을 어떻게든 하지 않으면 친구를 사귀긴 어려울 것 같습니다만.",
 			typewriter = {
@@ -592,7 +592,7 @@ return {
 			}
 		},
 		{
-			actor = 900119,
+			actor = 202030,
 			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -612,7 +612,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -632,7 +632,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "그럼, 축제는 어떻게 보내셨나요?",
 			typewriter = {
@@ -649,7 +649,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900119,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "아기돼지들이 필사적으로 일을 하니 즐거움이 조금 줄었지만, 이것도 나름 재미있지 않나요?",
 			typewriter = {
@@ -662,7 +662,7 @@ return {
 			}
 		},
 		{
-			actor = 900119,
+			actor = 202030,
 			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
@@ -682,7 +682,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "카드 게임……말인가요? 왠지 재미있을 것 같네요……",
 			typewriter = {
@@ -700,7 +700,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actor = 900117,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,

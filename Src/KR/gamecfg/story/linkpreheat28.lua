@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgName = "bg_story_task",
 			bgm = "main-uta",
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "그 신기한 해역에서 싸우고 있으면, 내 모습이나 동료의 모습을 한 적과 마주하게 되더라고.",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "네……전 지금까지도 잘 익숙해지지 않아요……여러분께 무기를 드는 것 같아, 무서워져요……",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "저도 싫은 거에요. 가짜란 건 물론 알지만, 언니나 루루티에씨를 공격한다니……",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "그건 역시, 세이렌인지 뭔지의 소행일까나?",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "재블린 일행도 자신과 똑같은 모습을 한 적과 싸워본 적이 있다고 얘기했었던 거에요. 세이렌이란 것들도 정상은 아닌 거 같아요.",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "그러게 말야. 자신이나 친구랑 싸우게 만드는 건, 마치 나쁜 꿈이라도 꾸는 기분이라 별로야.",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "그, 세이렌이라는 분들은 왜 그런 짓을 하는 걸까요……?",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "우리들을 이 세계로 불러서, 그 해역에 빠뜨린 것도 그 때문……인 걸까나?",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300031,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "동료와 같은 모습을 한 적도 싫지만……역시, 자신의 모습을 한 적이 눈 앞에서 나타나면……솔직히, 섬뜩해요.",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "응, 그 기분 알아 루루티에……왠지 자신의 나쁜 부분을 보여주고 있는 것 같은 기분이 들지.",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

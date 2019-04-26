@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			stopbgm = true,
 			withoutPainting = true,
-			actor = 303114,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "그런가, 그분이 돌아왔다는 건가.",
 			flashout = {
@@ -44,7 +44,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303124,
+			actor = 303120,
 			actorName = "？？？",
 			say = "과거에 활동했다던…그분? 정말 믿음직스럽네~",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "어찌 되었든… 그분을 이렇게 내어줄 순 없지…",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			actor = 303114,
+			actor = 303110,
 			actorName = "？？？",
 			say = "사쿠라 엠파이어는…신의 힘만 있다면…",
 			typewriter = {

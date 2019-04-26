@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その一　雪風様登場</size>",
+					"叫我{namecode:22}大人！\n\n<size=30>一　{namecode:22}大人登场</size>",
 					1
 				}
 			}
@@ -22,9 +22,9 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			bgm = "story-1",
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
-			say = "あーはっはっは！",
+			say = "啊～哈哈哈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
-			say = "よく聞け！えっと…このわたしこそ高貴にして天才の！幸運で無敵の！雪風・エイト・陽炎・ザジェネ…",
+			say = "听好了，我乃高贵的，幸运的，无敌的，{namecode:22}·Eight·{namecode:19}The.Geni……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,9 +71,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "？？？",
-			say = "じぇ、ジェネ、ジェネなんだっけ………と、とにかく雪風様なのだ！",
+			say = "Ge、Geni、Geni什么来着……总、总之是{namecode:22}大人啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 			},
 			options = {
 				{
-					content = "拝み倒す",
+					content = "跪拜{namecode:22}大人",
 					flag = 1
 				},
 				{
-					content = "こんな自己紹介ができるとは…やっぱり天才か…",
+					content = "居然能做这种自我介绍…果然是天才吗…",
 					flag = 2
 				}
 			}
@@ -98,9 +98,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "ふん！とにかく、これであんたの艦隊に着任してやったのだぞ。努力してこの雪風様を上手く使うがいいのだ！",
+			say = "总之{namecode:22}大人驾临到你的舰队了！努力发挥{namecode:22}大人的实力吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "キラ～ン！",
+			say = "(闪闪！)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,9 +131,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "さあ、この雪風様にひれ伏して、艦隊の主力にするのだ！",
+			say = "哼，给{namecode:22}大人跪好了吗？接下来就把{namecode:22}大人作为你舰队主力中的主力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "パチーン！",
+			say = "(啪啪！)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,9 +158,9 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_school",
-			actor = 301164,
+			actor = 301160,
 			nameColor = "#a9f548",
-			say = "この雪風様の威光に感服して言葉を失ったのか？所詮はカヨワイ人間なのだな！",
+			say = "被{namecode:22}大人的威严吓得连话都说不出来了吗？果然还是贫弱的人类嘛！",
 			effects = {
 				{
 					active = false,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "ヒュー。",
+			say = "一阵风吹过。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,9 +228,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "あ、あれ？",
+			say = "啊、啊咧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,9 +245,9 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 301614,
+			actor = 301610,
 			actorName = "{namecode:128}",
-			say = "ええと……指揮官、固まっている…",
+			say = "那个……指挥官石化了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			say = "ゆ、雪風ちゃんはこんな感じですから，…あまり驚かないで…ね？",
+			say = "那、那个，{namecode:22}酱就是这样的…不要太惊讶……吧？",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301624,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			paintingFadeOut = {
 				time = 0.5,
@@ -283,9 +283,9 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301604,
+			actor = 301600,
 			actorName = "{namecode:143}",
-			say = "か、かっこいい……浦風さま、磯風にもこの「ナンバン風自己紹介」作ってほしい！",
+			say = "好、好帅……{namecode:142}，也给{namecode:143}做一个这样的“南蛮风自我介绍”吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,9 +300,9 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
-			actor = 301594,
+			actor = 301590,
 			actorName = "{namecode:142}",
-			say = "はぐぅ！？わ、私が作るわけないでしょ！？それより指揮官、雪風をそのまま放置していいの？",
+			say = "诶！？我、我怎么会做这个啊！？指挥官，不理{namecode:22}真的没问题吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			},
 			options = {
 				{
-					content = "なにを言えばいいか忘れてた…",
+					content = "忘了该说什么了……",
 					flag = 1
 				}
 			}
@@ -324,9 +324,9 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 301164,
+			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "ぐぬぬぬ…！この雪風様を無視するなんて……万死に値するのだ！",
+			say = "呃呃呃…！居然敢无视{namecode:22}大人……你这是万死之罪口牙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

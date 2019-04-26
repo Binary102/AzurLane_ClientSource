@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 2,
 			actorName = "야마시로·改",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "...봐줬지?",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "...고마워. 다녀올게.",
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "이제 와서 뭔데?",
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -142,7 +142,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "......",
@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "응. 알았어!",

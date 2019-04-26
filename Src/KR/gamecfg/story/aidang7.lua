@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			actorName = "{namecode:67}",
-			actor = 303121,
+			actor = 303120,
 			nameColor = "#a9f548",
 			say = "我最想要的，就是你呀，指挥官。",
 			flashout = {
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "我当然明白，要独占你很难，虽然我很想。",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "不过姐姐我就是这个性子，指挥官也明白的吧。",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "没关系，也不是非得今天才行。",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "只要将来某个时刻能答应我，就算是最后的最后——这场战争结束以后，也行。",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "为了那一刻，我什么都能做，多久都能等。",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "让指挥官属于我——只要这个目标还在，姐姐就能战斗下去。",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "所以让我再说一次吧。",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "呐，指挥官，成为只属于姐姐的存在吧。你只要听姐姐的话，什么都不用想……",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "因为这次，我绝不会放过你的♪",
 			typewriter = {

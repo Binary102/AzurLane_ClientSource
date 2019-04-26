@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 10300021,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,

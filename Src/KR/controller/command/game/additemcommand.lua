@@ -6,8 +6,21 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot5:addResources({
 			[id2res(slot2.id)] = slot2.count
 		})
-		slot7(getProxy(ActivityProxy).getActivitiesByType(slot6, ActivityConst.ACTIVITY_TYPE_PT_RANK))
+
+		slot6 = getProxy(ActivityProxy)
+
+		slot7(slot6:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK))
 		slot4:updatePlayer(slot5)
+
+		for slot12, slot13 in ipairs(slot8) do
+			if slot2.id == slot13:getDataConfig("pt") and not slot13:isEnd() then
+				slot13.data1 = slot2.count + slot13.data1
+
+				slot6:updateActivity(slot13)
+
+				break
+			end
+		end
 
 		return
 	end
@@ -53,6 +66,13 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
 					slot7.data1_list[1] = slot7.data1_list[1] + slot2.count
 
+					slot6:updateActivity(slot7)
+				end
+			elseif slot5 == 10 then
+				slot6 = getProxy(ActivityProxy)
+
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MEMORYBOOK) and not table.contains(slot7.data1_list, slot2.id) then
+					table.insert(slot7.data1_list, slot2.id)
 					slot6:updateActivity(slot7)
 				end
 			end

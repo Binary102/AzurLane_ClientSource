@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			actor = 202151,
+			actor = 202150,
 			nameColor = "#a9f548",
 			say = "这样转一圈，然后这样……",
 			flashout = {
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 202151,
+			actor = 202150,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "我骄傲的主人，还请多多关照",
 			flashout = {
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "身兼秘书舰、女仆、宴会女伴三职的天狼星优雅地将手伸过来",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "……非常感谢您",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "对于区区女仆，您居然会照顾到这个地步……",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "我明白作为女仆不该说这样的话，不过……",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "…我骄傲的主人…",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actorScale = 1.5,
-			actor = 202201,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "实在抱歉！这是，那个……",
 			typewriter = {

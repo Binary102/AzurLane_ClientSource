@@ -48,7 +48,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……………",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……………",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……………",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "！！！！！",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "（哆哆嗦嗦……）",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "……………！",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "…………指挥官……？",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "…………嗯……我不怕，不怕……",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "刚才谢谢啦。就算是姐姐我，对幽灵也是有点怕的……",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "不是有这么个说法，再完美的人也会有一两个弱点嘛？",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "姐姐我也一样啊。倒是指挥官你，能了解到我的另一面也挺好不是吗？",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "啊不过，千万别告诉其他人哦？除了{namecode:66}……",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			actor = 303121,
+			actor = 303120,
 			actorName = "{namecode:67}",
 			say = "只有指挥官一个人知道的“秘密”，很珍贵对吧？呵呵。",
 			typewriter = {

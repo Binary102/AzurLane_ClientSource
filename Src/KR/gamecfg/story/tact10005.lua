@@ -4,7 +4,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 201234,
+			actor = 201230,
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -26,7 +26,7 @@ return {
 			side = 1,
 			say = "사쿠라 엠파이어의 주력이 드디어 온 건가? 아니야, 레이더에 반응이 없어......",
 			dir = -1,
-			actor = 205064,
+			actor = 205060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 205064,
+			actor = 205060,
 			side = 1,
 			dir = -1,
 			nameColor = "#a9f548",
@@ -122,7 +122,7 @@ return {
 			}
 		},
 		{
-			actor = 204024,
+			actor = 204020,
 			side = 0,
 			dir = 0,
 			nameColor = "#a9f548",

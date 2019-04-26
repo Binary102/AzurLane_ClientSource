@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 202021,
+			actor = 202020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -46,7 +46,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			say = "阿贾克斯你也该学学做饭了吧？每次都让指挥官做…",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202021,
+			actor = 202020,
 			nameColor = "#a9f548",
 			say = "不过本人也乐在其中，其实也没什么不好的嘛？",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "对吧？别看这样，我家的指挥官可是很能干的呢。",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 2,
-			actor = 202021,
+			actor = 202020,
 			nameColor = "#a9f548",
 			say = "是、是这样吗…？",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			optionFlag = 2,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "呵呵♪究竟是怎么回事呢～？",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 0,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 202021,
+			actor = 202020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			say = "来喝一口？还是说…想要我喂你喝？",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			actor = 202011,
+			actor = 202010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 1,
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			actor = 202021,
+			actor = 202020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
 			side = 2,
@@ -300,7 +300,7 @@ return {
 			}
 		},
 		{
-			actor = 202031,
+			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,

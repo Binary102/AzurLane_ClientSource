@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その四  瑞鶴と大先輩</size>",
+					"幸运之鹤\n\n<size=30>四  {namecode:96}与大前辈</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "夕方・演習海域",
+			say = "傍晚·演习海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -32,9 +32,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "良いぞ！その調子で攻撃してこい！",
+			say = "很好！就照这样子攻过来！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			say = "はい！",
+			say = "好的！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "瑞鶴の艦載機が投下した模擬弾が見事に三笠を直撃。",
+			say = "{namecode:96}的舰载机投下的模拟弹漂亮地击中了{namecode:82}",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "あいた！",
+			say = "好疼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			say = "勝負あり！…って三笠大先輩！大丈夫ですかー！",
+			say = "赢了！……啊！{namecode:82}前辈！没事吧！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -128,9 +128,9 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "う、うむ…それより、見事な爆撃だ！特訓を始めた頃と比べると素晴らしい進歩だぞ！",
+			say = "没、没事…漂亮的轰炸！比刚开始训练时进步了不少啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,9 +145,9 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "ありがとうございます！…指揮官、今のどうだ！",
+			say = "非常感谢！…指挥官觉得刚才我的表现怎么样！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,9 +170,9 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "…あははは！いいよいいよ別にそんなに褒めなくても～！よし、これで「グレイゴースト」に一歩近づけたはず！",
+			say = "…啊哈哈哈，不用这么夸我啦～！好！这下就离那个“灰色幽灵”更近一步了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,26 +187,9 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "そして、今度こそみんなと翔鶴姉を守ってみせる…！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 0,
-			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 307064,
-			actorName = "{namecode:96}",
-			say = "……今度出撃のとき、私とグレイゴーストを一緒に組ませて！絶対MVP取ってみせるんだから！",
+			say = "……下次出击请让我和“灰色幽灵”一起！我绝对会拿下MVP的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "瑞鶴は笑いながら先に母港へと舵をきって向かっていた。",
+			say = "{namecode:96}一边笑着一边把航向转向了港区",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,9 +214,9 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actorName = "{namecode:82}",
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
-			say = "指揮官、ちょっと良いか？",
+			say = "指挥官，能说句话不",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -265,9 +248,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "瑞鶴はああ見えても、とことん自分の「役目」を作りたがる――言い換えれば、自分を追い詰める性格だ。",
+			say = "虽然{namecode:96}平时那样，其实她是会不断给自己加担子的类型——换句话说，就是会不断逼自己走牛角尖的性格",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,9 +265,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "ただグレイゴーストを超えるだけでなく、翔鶴や重桜の同胞、母港の仲間たち、人類の世界、そして指揮官、お主も――なんでもひとりで背負おうとする。",
+			say = "不只是超越灰色幽灵这件事，对{namecode:95}和重樱的同胞、港区的同伴们、人类的世界、甚至还有指挥官你——都想要独自背负",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,9 +282,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "指揮官、あの子の大先輩として…部下ではなくひとりの個人として頼みたい――",
+			say = "指挥官，作为那孩子的前辈…我有个请求，不是作为您的部下，仅仅是个人的请求",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,9 +299,9 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 305114,
+			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "もしあの子がすべてを背負いきれなくなったら……その時は指揮官、お主が側で一緒に支えてあげて欲しい。",
+			say = "如果有一天，那孩子被责任所压垮，撑不住了的话……希望指挥官能在她身边，与她一起支撑下去",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,9 +330,9 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 305114,
+			actor = 305110,
 			nameColor = "#a9f548",
-			say = "……ふふ、お主の答え、しかと聞いたぞ。瑞鶴のこと、よろしく頼むよ。",
+			say = "……呵呵，你的回答，我会记着的。{namecode:96}就拜托你了啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,14 +10,14 @@ return {
 			actorShadow = true,
 			side = 0,
 			actorName = "아덴트 & 아카스타",
-			actor = 201034,
+			actor = 201030,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "         글로리어스씨!",
 			subActors = {
 				{
-					actor = 201024,
+					actor = 201020,
 					dir = -1,
 					pos = {
 						x = -750
@@ -30,7 +30,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actor = 201034,
+			actor = 201030,
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 207064,
+			actor = 207060,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,

@@ -16,7 +16,7 @@ end
 function slot1.GetDirection(slot0, slot1)
 	slot0._targetPos - slot1.y = 0
 
-	if slot0._targetPos - slot1.magnitude < slot0.Battle.AutoPilot.PILOT_VALVE then
+	if slot0._targetPos - slot1.magnitude < slot0._valve then
 		slot2 = Vector3.zero
 
 		slot0:Finish()

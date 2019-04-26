@@ -35341,7 +35341,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "36700",
-		value_1 = "47/轮",
+		value_1 = "47/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -35364,7 +35364,7 @@ pg.equip_data_statistics = {
 	[36701] = {
 		base = 36700,
 		id = 36701,
-		value_1 = "51/轮",
+		value_1 = "51/회",
 		weapon_id = {
 			36701
 		},
@@ -35373,7 +35373,7 @@ pg.equip_data_statistics = {
 	[36702] = {
 		base = 36700,
 		id = 36702,
-		value_1 = "55/轮",
+		value_1 = "55/회",
 		weapon_id = {
 			36702
 		},
@@ -35382,7 +35382,7 @@ pg.equip_data_statistics = {
 	[36703] = {
 		base = 36700,
 		id = 36703,
-		value_1 = "59/轮",
+		value_1 = "59/회",
 		weapon_id = {
 			36703
 		},
@@ -35391,7 +35391,7 @@ pg.equip_data_statistics = {
 	[36704] = {
 		base = 36700,
 		id = 36704,
-		value_1 = "63/轮",
+		value_1 = "63/회",
 		weapon_id = {
 			36704
 		},
@@ -35400,7 +35400,7 @@ pg.equip_data_statistics = {
 	[36705] = {
 		base = 36700,
 		id = 36705,
-		value_1 = "67/轮",
+		value_1 = "67/회",
 		weapon_id = {
 			36705
 		},
@@ -35409,7 +35409,7 @@ pg.equip_data_statistics = {
 	[36706] = {
 		base = 36700,
 		id = 36706,
-		value_1 = "71/轮",
+		value_1 = "71/회",
 		weapon_id = {
 			36706
 		},
@@ -35418,7 +35418,7 @@ pg.equip_data_statistics = {
 	[36707] = {
 		base = 36700,
 		id = 36707,
-		value_1 = "75/轮",
+		value_1 = "75/회",
 		weapon_id = {
 			36707
 		},
@@ -35427,7 +35427,7 @@ pg.equip_data_statistics = {
 	[36708] = {
 		base = 36700,
 		id = 36708,
-		value_1 = "79/轮",
+		value_1 = "79/회",
 		weapon_id = {
 			36708
 		},
@@ -35436,7 +35436,7 @@ pg.equip_data_statistics = {
 	[36709] = {
 		base = 36700,
 		id = 36709,
-		value_1 = "83/轮",
+		value_1 = "83/회",
 		weapon_id = {
 			36709
 		},
@@ -35445,7 +35445,7 @@ pg.equip_data_statistics = {
 	[36710] = {
 		base = 36700,
 		id = 36710,
-		value_1 = "87/轮",
+		value_1 = "87/회",
 		weapon_id = {
 			36710
 		},
@@ -46681,6 +46681,100 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60401] = {
+		name = "航空攻击展示-爱酱I",
+		type = 99,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "없음",
+		value_3 = 0,
+		id = 60401,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60401
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60402] = {
+		name = "航空攻击展示-爱酱II",
+		base = 60401,
+		id = 60402,
+		weapon_id = {
+			60402
+		},
+		property_rate = {}
+	},
+	[60403] = {
+		name = "航空攻击展示-爱酱III",
+		base = 60401,
+		id = 60403,
+		weapon_id = {
+			60403
+		},
+		property_rate = {}
+	},
+	[60411] = {
+		name = "航空攻击展示-小齐柏林I",
+		type = 99,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		descrip = "航母空袭展示用",
+		scatter = "0",
+		ammo = "없음",
+		value_3 = 0,
+		id = 60411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60412] = {
+		name = "航空攻击展示-小齐柏林II",
+		base = 60411,
+		id = 60412,
+		weapon_id = {
+			60412
+		},
+		property_rate = {}
+	},
+	[60413] = {
+		name = "航空攻击展示-小齐柏林III",
+		base = 60411,
+		id = 60413,
+		weapon_id = {
+			60413
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -51269,7 +51363,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-北风I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -51281,7 +51375,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		value_3 = 0,
 		id = 79381,
 		property_rate = {},
@@ -51307,7 +51401,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕鱼雷-北风I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -51319,7 +51413,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		value_3 = 0,
 		id = 79383,
 		property_rate = {},
@@ -51345,7 +51439,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-西雅图I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -51357,7 +51451,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		descrip = "技能弹幕",
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		value_3 = 0,
 		id = 79391,
 		property_rate = {},
@@ -51377,6 +51471,306 @@ pg.equip_data_statistics = {
 		weapon_id = {
 			79392
 		},
+		property_rate = {}
+	},
+	[89000] = {
+		name = "랜덤 워드 생성기 ",
+		type = 10,
+		id = 89000,
+		tech = 0,
+		speciality = "없음",
+		range = 0,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 6,
+		icon = "89000",
+		value_1 = "16",
+		attribute_2 = "dodge",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "없음",
+		descrip = "기회 구상에 아주 유용한 도구다. 아주 가끔씩 말을 할때가 있다고 한다…? ",
+		value_3 = 0,
+		attribute_1 = "hit",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6380
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89001] = {
+		id = 89001,
+		base = 89000,
+		property_rate = {}
+	},
+	[89002] = {
+		id = 89002,
+		base = 89000,
+		value_2 = 7,
+		value_1 = "17",
+		property_rate = {}
+	},
+	[89003] = {
+		id = 89003,
+		base = 89000,
+		value_2 = 8,
+		value_1 = "18",
+		property_rate = {}
+	},
+	[89004] = {
+		id = 89004,
+		base = 89000,
+		value_2 = 9,
+		value_1 = "19",
+		property_rate = {}
+	},
+	[89005] = {
+		id = 89005,
+		base = 89000,
+		value_2 = 10,
+		value_1 = "20",
+		property_rate = {}
+	},
+	[89006] = {
+		id = 89006,
+		base = 89000,
+		value_2 = 11,
+		value_1 = "21",
+		property_rate = {}
+	},
+	[89007] = {
+		id = 89007,
+		base = 89000,
+		value_2 = 12,
+		value_1 = "22",
+		property_rate = {}
+	},
+	[89008] = {
+		id = 89008,
+		base = 89000,
+		value_2 = 13,
+		value_1 = "23",
+		property_rate = {}
+	},
+	[89009] = {
+		id = 89009,
+		base = 89000,
+		value_2 = 14,
+		value_1 = "24",
+		property_rate = {}
+	},
+	[89010] = {
+		id = 89010,
+		base = 89000,
+		value_2 = 15,
+		value_1 = "25",
+		property_rate = {}
+	},
+	[89020] = {
+		name = "표코표코 ",
+		type = 10,
+		id = 89020,
+		tech = 0,
+		speciality = "없음",
+		range = 0,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 1,
+		icon = "89020",
+		value_1 = "200",
+		attribute_2 = "luck",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "없음",
+		descrip = "키즈나 아이의 머리띠, 다르게 말하면 표코표코의 본체다. 표코표코 머리띠를 가져가면 어떻게 될까... 정말 가져갈 수 있을까? ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6390
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89021] = {
+		id = 89021,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "230",
+		property_rate = {}
+	},
+	[89022] = {
+		id = 89022,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "260",
+		property_rate = {}
+	},
+	[89023] = {
+		id = 89023,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "290",
+		property_rate = {}
+	},
+	[89024] = {
+		id = 89024,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "320",
+		property_rate = {}
+	},
+	[89025] = {
+		id = 89025,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "350",
+		property_rate = {}
+	},
+	[89026] = {
+		id = 89026,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "380",
+		property_rate = {}
+	},
+	[89027] = {
+		id = 89027,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "410",
+		property_rate = {}
+	},
+	[89028] = {
+		id = 89028,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "440",
+		property_rate = {}
+	},
+	[89029] = {
+		id = 89029,
+		base = 89020,
+		value_2 = 1,
+		value_1 = "470",
+		property_rate = {}
+	},
+	[89030] = {
+		id = 89030,
+		base = 89020,
+		value_2 = 2,
+		value_1 = "500",
+		property_rate = {}
+	},
+	[89040] = {
+		name = "인텔리젼트 칩 ",
+		type = 10,
+		id = 89040,
+		tech = 0,
+		speciality = "없음",
+		range = 0,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 3,
+		icon = "89040",
+		value_1 = "98",
+		attribute_2 = "speed",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 104,
+		ammo = "없음",
+		descrip = "키즈나 아이는 접속할 때 칩을 사용한다…? 다른 사람에게 다시는 뭐라고 하지 못 할거야! <color=#D6341D>(해당 장비는 컬래버레이션 이벤트가 끝난 후 장비 효과가 사라진다.)</color> ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6400
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[89041] = {
+		id = 89041,
+		value_1 = "112",
+		base = 89040,
+		property_rate = {}
+	},
+	[89042] = {
+		id = 89042,
+		base = 89040,
+		value_2 = 4,
+		value_1 = "127",
+		property_rate = {}
+	},
+	[89043] = {
+		id = 89043,
+		base = 89040,
+		value_2 = 4,
+		value_1 = "142",
+		property_rate = {}
+	},
+	[89044] = {
+		id = 89044,
+		base = 89040,
+		value_2 = 5,
+		value_1 = "156",
+		property_rate = {}
+	},
+	[89045] = {
+		id = 89045,
+		base = 89040,
+		value_2 = 5,
+		value_1 = "171",
+		property_rate = {}
+	},
+	[89046] = {
+		id = 89046,
+		base = 89040,
+		value_2 = 6,
+		value_1 = "186",
+		property_rate = {}
+	},
+	[89047] = {
+		id = 89047,
+		base = 89040,
+		value_2 = 6,
+		value_1 = "200",
+		property_rate = {}
+	},
+	[89048] = {
+		id = 89048,
+		base = 89040,
+		value_2 = 7,
+		value_1 = "215",
+		property_rate = {}
+	},
+	[89049] = {
+		id = 89049,
+		base = 89040,
+		value_2 = 7,
+		value_1 = "230",
+		property_rate = {}
+	},
+	[89050] = {
+		id = 89050,
+		base = 89040,
+		value_2 = 8,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[90000] = {
@@ -52862,7 +53256,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "50600",
-		value_1 = "25/轮",
+		value_1 = "25/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -52885,7 +53279,7 @@ pg.equip_data_statistics = {
 	[90601] = {
 		base = 90600,
 		id = 90601,
-		value_1 = "29/轮",
+		value_1 = "29/회",
 		weapon_id = {
 			90601
 		},
@@ -52894,7 +53288,7 @@ pg.equip_data_statistics = {
 	[90602] = {
 		base = 90600,
 		id = 90602,
-		value_1 = "33/轮",
+		value_1 = "33/회",
 		weapon_id = {
 			90602
 		},
@@ -52903,7 +53297,7 @@ pg.equip_data_statistics = {
 	[90603] = {
 		base = 90600,
 		id = 90603,
-		value_1 = "37/轮",
+		value_1 = "37/회",
 		weapon_id = {
 			90603
 		},
@@ -52912,7 +53306,7 @@ pg.equip_data_statistics = {
 	[90604] = {
 		base = 90600,
 		id = 90604,
-		value_1 = "41/轮",
+		value_1 = "41/회",
 		weapon_id = {
 			90604
 		},
@@ -52921,7 +53315,7 @@ pg.equip_data_statistics = {
 	[90605] = {
 		base = 90600,
 		id = 90605,
-		value_1 = "45/轮",
+		value_1 = "45/회",
 		weapon_id = {
 			90605
 		},
@@ -52930,7 +53324,7 @@ pg.equip_data_statistics = {
 	[90606] = {
 		base = 90600,
 		id = 90606,
-		value_1 = "49/轮",
+		value_1 = "49/회",
 		weapon_id = {
 			90606
 		},
@@ -52939,7 +53333,7 @@ pg.equip_data_statistics = {
 	[90607] = {
 		base = 90600,
 		id = 90607,
-		value_1 = "53/轮",
+		value_1 = "53/회",
 		weapon_id = {
 			90607
 		},
@@ -52948,7 +53342,7 @@ pg.equip_data_statistics = {
 	[90608] = {
 		base = 90600,
 		id = 90608,
-		value_1 = "57/轮",
+		value_1 = "57/회",
 		weapon_id = {
 			90608
 		},
@@ -52957,7 +53351,7 @@ pg.equip_data_statistics = {
 	[90609] = {
 		base = 90600,
 		id = 90609,
-		value_1 = "61/轮",
+		value_1 = "61/회",
 		weapon_id = {
 			90609
 		},
@@ -52966,7 +53360,7 @@ pg.equip_data_statistics = {
 	[90610] = {
 		base = 90600,
 		id = 90610,
-		value_1 = "65/轮",
+		value_1 = "65/회",
 		weapon_id = {
 			90610
 		},
@@ -57050,6 +57444,12 @@ pg.equip_data_statistics = {
 		60391,
 		60392,
 		60393,
+		60401,
+		60402,
+		60403,
+		60411,
+		60412,
+		60413,
 		61007,
 		61008,
 		61009,
@@ -57292,6 +57692,39 @@ pg.equip_data_statistics = {
 		79384,
 		79391,
 		79392,
+		89000,
+		89001,
+		89002,
+		89003,
+		89004,
+		89005,
+		89006,
+		89007,
+		89008,
+		89009,
+		89010,
+		89020,
+		89021,
+		89022,
+		89023,
+		89024,
+		89025,
+		89026,
+		89027,
+		89028,
+		89029,
+		89030,
+		89040,
+		89041,
+		89042,
+		89043,
+		89044,
+		89045,
+		89046,
+		89047,
+		89048,
+		89049,
+		89050,
 		90000,
 		90001,
 		90002,

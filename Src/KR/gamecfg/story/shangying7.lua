@@ -22,7 +22,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			bgm = "story-2",
-			actor = 306034,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "연회는 즐겁습니다만, 연회가 끝난 후의 이 조용함은 왠지 쓸쓸하네요……",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "어라? 지휘관님? 벌써 쉬러 가신 줄 알았는데…아직 깨어있으셨나 봐요?",
 			typewriter = {
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "이 호쇼와 함께 벚꽃을 보고 싶다…고요?",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 306034,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "우후후…그러시다면, 잠시만 기다려주셔요. 지금 준비할게요.",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:89}",
-			actor = 900018,
+			actor = 306030,
 			nameColor = "#a9f548",
 			say = "\"낭군님, 오늘밤 꽃구경은 제가 모시도록 하겠사옵니다.\"",
 			flashout = {
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "어떠세요? …두근두근하시나요? 지휘관님?",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "우후후, 지휘관님께 칭찬받다니…호쇼는 몸 둘 바를 모르겠사와요.",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			actor = 900018,
+			actor = 306030,
 			actorName = "{namecode:89}",
 			say = "그럼, 계속해서 이 '월견주' 를…저 달과 밤 벚꽃을 바라보며 건배하실까요? 낭군님?",
 			typewriter = {

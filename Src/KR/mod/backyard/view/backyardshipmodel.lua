@@ -734,7 +734,11 @@ function slot0.callActionCB(slot0, slot1, slot2)
 end
 
 function slot0.resumeAnim(slot0)
-	slot0:playAnimsFollowFurniture(slot0.spineFurniture)
+	if slot0.spineFurniture:isFollowFurnitrueAnim() then
+		slot0:playAnimsFollowFurniture(slot1)
+	else
+		slot0:playAnims(slot1)
+	end
 
 	return
 end
@@ -797,6 +801,8 @@ function slot0.playAnims(slot0, slot1)
 
 			if slot1 == #slot3.roles then
 				if slot3 then
+					slot3:callActionCB("end")
+
 					if slot4 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
 						slot4()
 					else
@@ -819,23 +825,36 @@ function slot0.playAnims(slot0, slot1)
 				end
 			end
 		else
-			slot5(slot1, slot0, slot2)
+			slot3:callActionCB("update", slot0[slot1][1])
+			slot0:SetAction(slot0[slot1][1], 0)
 		end
 
 		return
 	end
 
 	function ()
-		slot0 = 0
+		if slot0:hasAnimator() then
+			slot1:endSpineAnimator(slot1.endSpineAnimator)
+			slot1:startSpineAnimator(slot1.startSpineAnimator)
+		end
+
+		slot2 = 0
 
 		for slot3, slot4 in pairs(slot1.roles) do
-			slot2(slot5, slot4, slot3)
-			slot4:SetActionCallBack(function (slot0)
-				if slot0 == "finish" then
-					slot0 + 1(slot2, slot0 + 1, )
-				end
+			if type(slot3[1][1]) == "table" then
+				slot6 = slot6[math.random(1, #slot6)]
+			end
 
-				return
+			if slot3 == 1 and slot3[slot5][3] then
+				slot4:SetAction(slot3[slot5][3], 0)
+			else
+				slot4:SetAction(slot6, 0)
+			end
+
+			slot1:callActionCB("update", slot6)
+
+			slot7 = _.detect(slot4, function (slot0)
+				return slot0[1] == slot0 and slot1.id == slot0[3]
 			end)
 		end
 
@@ -1434,7 +1453,11 @@ function slot0.addSpineExtra(slot0, slot1, slot2)
 	slot0.tf.localScale = Vector3(slot0 * slot5[3][1], slot0 * slot5[3][2], 1)
 	slot0.tf.anchoredPosition = Vector3(slot5[2][1], slot5[2][2], 0)
 
-	if slot0.viewComponent.furnitureVOs[slot1]:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
+	if slot0.viewComponent.furnitureVOs[slot1]:hasAnimator() then
+		slot0:startSpineAnimator(slot4, slot2)
+	end
+
+	if slot4:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
 		slot0:showBodyMask(slot6)
 	end
 

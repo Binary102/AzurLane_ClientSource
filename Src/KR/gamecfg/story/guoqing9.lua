@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 2,
 			actorName = "야마시로·改",
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "야마시로 씨! 당신까지 가짜가 되었다는 거야...?",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "당신이 \"당신\"이라면 알려줘. 쇼카쿠 언니는 지금 어디에 있어?",
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "...아아아! 선배들은 왜 죄다 이렇게 귀찮게 구는 거야!",
@@ -161,7 +161,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "이제 됐어! 싸우겠다면 끝까지 어울려 주겠어!",
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 900029,
+			actor = 305029,
 			nameColor = "#ff0000",
 			side = 1,
 			actorName = "야마시로·改",

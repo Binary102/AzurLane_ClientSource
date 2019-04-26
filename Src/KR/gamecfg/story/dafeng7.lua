@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 307051,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "지휘관님, 무슨 일이시죠? 안색이 굉장히 안 좋아 보이는데…",
 			flashout = {
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			actor = 307051,
+			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -139,7 +139,7 @@ return {
 			say = "지휘관?! 다행이다……빨리 와줘! 다, 다이호가…",
 			dir = 1,
 			bgName = "bg_story_task",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1000,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_103",
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "미안! 나, 어제 \"잡지에서 봤는데, 너무 헌신적인 여자는 미움받을 가능성이 있대~\" 하고 다이호한테 농담을 했는데,",
 			flashout = {
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그냥 농담이니까 그땐 별 생각 없었는데, 나중에 다이호가 갑자기 방으로 쾅! 하고 들어가선, 지금까지도 나오질 않고 있어……",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actor = 108021,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "부탁해 지휘관! 다이호를 방에서 꺼내줘! 아마 지휘관 말이라면 들을 거야!",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 307071,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "<size=30>지휘관 니이이임!!!</size>",
 			dialogShake = {

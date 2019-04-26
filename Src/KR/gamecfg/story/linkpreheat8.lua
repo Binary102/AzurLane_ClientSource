@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "걱정해줘서 고마워……라는 말 따윈 안 할 테니까 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			actor = 401230,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300041,
+			actor = 10300040,
 			say = "우리를 베꼈어.",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			say = "우리의 세계에 전해지는 기술을 훔쳐와서, 이쪽 세계로의 '길' 을 연 것만으로도 모자라, 이런 이질의 극치를 달리는 공간을 만든 것도……실험이라고 하는 겁니까?",
 			dir = 1,
-			actor = 10300051,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			actor = 10300031,
+			actor = 10300030,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300021,
+			actor = 10300020,
 			say = "뭔가요, 저 안색 나빠 보이는 기분 나쁜 여자는?",
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "아무튼……우리가 쓰러뜨려야 할 적, 이란 걸까나?",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			actor = 10300060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -260,7 +260,7 @@ return {
 			}
 		},
 		{
-			actor = 101171,
+			actor = 101170,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actor = 301050,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			actor = 201210,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,7 +324,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10300011,
+			actor = 10300010,
 			say = "응, 우린 다 한배를 탄 사이인걸. 마지막까지 함께라고.",
 			typewriter = {
 				speed = 0.05,
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			actor = 10300011,
+			actor = 10300010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -353,20 +353,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10300061,
+			actor = 10300060,
 			dir = 1,
 			hideOther = true,
 			actorName = "<칭송받는 자> 일행",
 			say = "오오오!",
 			subActors = {
 				{
-					actor = 10300031,
+					actor = 10300030,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 10300021,
+					actor = 10300020,
 					pos = {
 						x = 750
 					}
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			actor = 312010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -399,20 +399,20 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201211,
+			actor = 201210,
 			dir = 1,
 			hideOther = true,
 			actorName = "<벽람항로> 일행",
 			say = "오오오!",
 			subActors = {
 				{
-					actor = 301051,
+					actor = 301050,
 					pos = {
 						x = 370
 					}
 				},
 				{
-					actor = 101171,
+					actor = 101170,
 					pos = {
 						x = 750
 					}

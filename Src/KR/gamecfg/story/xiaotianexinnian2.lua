@@ -22,7 +22,7 @@ return {
 			dir = -1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			actor = 900066,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "후우~ 코타츠는 최고야~",
 			flashout = {
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303120,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 900066,
+			actor = 301140,
 			nameColor = "#a9f548",
 			say = "오오오! 눈이다! 눈이 내리고 있어!! 시구레, 눈싸움 하자!",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301151,
+			actor = 301150,
 			nameColor = "#a9f548",
 			say = "우와, 잠깐, 끌고가지 말라구!",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:143}",
 			bgName = "bg_story_room",
-			actor = 900156,
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "와아, 엄청 내리네! 벌써 이만큼 쌓였어!",
 			flashout = {
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900156,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "우라카제님, 꼬리가 바르르 떨리고 있다구? 아! 혹시 이것이 바로 전설의 '무사의 떨림'!?",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 301591,
+			actor = 301590,
 			nameColor = "#a9f548",
 			say = "아냐! 벼, 별로 눈 왔다고 들뜨거나 한 건 아니니까!",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900061,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "지휘관님께 드릴 선물은 이거랑, 그리고 이것도……후후후후……아아…지휘관님께서 기뻐하시는 모습을 보고 싶어 못 견디겠네요……",
 			flashout = {
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307010,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -292,7 +292,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 900062,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307010,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -324,7 +324,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307010,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -356,7 +356,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -396,7 +396,7 @@ return {
 			}
 		},
 		{
-			actor = 900069,
+			actor = 303120,
 			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -416,7 +416,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399021,
+			actor = 399020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			actor = 399011,
+			actor = 399010,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -448,7 +448,7 @@ return {
 			}
 		},
 		{
-			actor = 900061,
+			actor = 307010,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -467,7 +467,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = -1,
-			actor = 399011,
+			actor = 399010,
 			nameColor = "#a9f548",
 			say = "에, 에에에! 승부라니, 눈싸움 말씀이신가요!?",
 			typewriter = {
@@ -490,7 +490,7 @@ return {
 			}
 		},
 		{
-			actor = 900062,
+			actor = 307020,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -506,7 +506,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301140,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -522,7 +522,7 @@ return {
 			}
 		},
 		{
-			actor = 900064,
+			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -538,7 +538,7 @@ return {
 			}
 		},
 		{
-			actor = 900066,
+			actor = 301140,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -554,7 +554,7 @@ return {
 			}
 		},
 		{
-			actor = 301611,
+			actor = 301610,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -570,7 +570,7 @@ return {
 			}
 		},
 		{
-			actor = 301621,
+			actor = 301620,
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -586,7 +586,7 @@ return {
 			}
 		},
 		{
-			actor = 399021,
+			actor = 399020,
 			side = 0,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			actor = 900064,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "정월이 되니 다들 저렇게 들떠선…… 뭔가 사고라도 치지 않았으면 좋겠습니다만…… 하아, 벌써 머리가 지끈거리는 것 같네요…",
 			typewriter = {

@@ -10,13 +10,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その三  瑞鶴と先輩たち</size>",
+					"幸运之鹤\n\n<size=30>三  {namecode:96}与前辈们</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "執務室に戻っている途中……",
+			say = "返回指挥室的途中……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -31,9 +31,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指揮官様～！",
+			say = "指挥官大人～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "廊下で偶然、演習を終えた赤城と加賀に遭遇した。",
+			say = "在路上偶遇了刚结束演习的{namecode:91}与{namecode:92}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "先輩、お疲れさま！",
+			say = "前辈们辛苦了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,12 +71,12 @@ return {
 			}
 		},
 		{
-			say = "お前もな。指揮官と見回り中か？",
+			say = "你也辛苦了。和指挥官在巡逻中吗？",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -96,9 +96,9 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "はい！って指揮官なんで後ろに隠れるの！？",
+			say = "是的！诶？指挥官躲在我身后干嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
-			actor = 307014,
+			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "瑞鶴、指揮官様は赤城を見ると恥ずかしがってしまいますの。うふふ、報告書、あとで「例の場所」に置いておきますわ～",
+			say = "{namecode:96}，指挥官大人是看到{namecode:91}觉得害羞了呀。呵呵呵，报告书，我放在“老地方”了哟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,9 +130,9 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "ねえさ…こほん、赤城、あまり指揮官を困らせないでください。",
+			say = "姐…咳咳、{namecode:91}，别给指挥官添太多麻烦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,9 +147,9 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "瑞鶴お前もだ。秘書艦の務めをきっちり果たせ。…ほら、赤城、先に行ってください。",
+			say = "{namecode:96}你也是，要好好尽到秘书舰的职责…好了，{namecode:91}，你先走吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,9 +177,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "指揮官、赤城先輩はもう行っちゃったよ。",
+			say = "指挥官，{namecode:91}前辈已经走了哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,9 +194,9 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "っていうか、赤城先輩は確かにちょっと強引なんだけど、さっきの指揮官はちょっとオーバーリアクションじゃない？",
+			say = "话说，虽然{namecode:91}前辈是有点强硬，但刚才的指挥官是不是有点反应过度了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			say = "瑞鶴、お前は分かっていないな。",
+			say = "{namecode:96}，你还是没懂啊",
 			side = 1,
 			bgName = "bg_story_task",
 			actorName = "{namecode:92}",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -232,9 +232,9 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307064,
+			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "え？なんでですか？",
+			say = "诶？什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,9 +249,9 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "例えばほかの子と一緒だったら、赤城は指揮官ではなく「害虫」と言いながら一緒にいる子の排除を先にするだろう。いまの隠れ方は通用せん。",
+			say = "如果被看到和其他女孩子在一起，{namecode:91}就不会找指挥官，而是会念着“害虫”之类的词去找一起的女孩子算账了。就算像那样躲起来也没用的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,9 +266,9 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 307024,
+			actor = 307020,
 			actorName = "{namecode:92}",
-			say = "つまり、赤城はお前が指揮官と一緒にいても無害だと判断したから成立したのだ。",
+			say = "也就是说，{namecode:91}判断你和指挥官在一起是“无害”的，才没有发生什么事",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,9 +284,9 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 307064,
+			actor = 307060,
 			nameColor = "#a9f548",
-			say = "嬉しいやら悲しいやら……微妙な気分です……",
+			say = "该高兴还是该难过呢……心情真微妙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

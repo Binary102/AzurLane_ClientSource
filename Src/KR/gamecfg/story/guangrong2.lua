@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "네! 항공모함 운용이 뛰어난 이글 유니온의 기동부대, 제대로 배워둬야겠어요!",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 107034,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그래 그래! 이 새러토가가 항공모함 운용의 본보기를 보여줄게♪",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = -1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			actor = 107024,
+			actor = 107020,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "함재기 탑재 수로는 이길 수 없지만, 38.1cm포를 갖고 포격전으로 맞붙는다면…어라? 맞다, 저 항공모함이었죠……",
 			flashout = {
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "…그것보다, 왜 저 혼자 돌진하고 있는 건가요오오~!",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207034,
+			actor = 207030,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 107034,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			actor = 207034,
+			actor = 207030,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "미안해요, 모두에게 폐를 끼쳐서……",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			actor = 207064,
+			actor = 207060,
 			nameColor = "#a9f548",
 			say = "그러고 보니, 아크 로열씨는 아직 안 왔나요? 오늘은 조금 늦게 참가한다고 들었습니다만…",
 			typewriter = {

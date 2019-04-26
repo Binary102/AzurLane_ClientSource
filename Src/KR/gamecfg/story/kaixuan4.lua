@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actor = 213011,
+			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "트리옹팡 씨, 고마워. 트리옹팡 씨와 함께 출격하게 된 후로, 테러도 왠지 자신감이 붙은 거 같아…",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 213011,
+			actor = 213010,
 			say = "미안해. 햇볕이 너무 강하면 테러 몸에 안 좋으니까, 답례는 다음에 다시… 테러, 과자라도 먹으러 갈까?",
 			flashout = {
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			actor = 213021,
+			actor = 213020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 107021,
+			actor = 107020,
 			say = "어머, 트리옹팡? 지휘관이랑 모항 순찰이야?",
 			flashout = {
 				dur = 0.5,
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			say = "에? 에에엥! 어떻게 알았어!? 지휘관 깜짝 놀래켜주려 했는데~",
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -374,7 +374,7 @@ return {
 			}
 		},
 		{
-			actor = 107021,
+			actor = 107020,
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -389,7 +389,7 @@ return {
 			}
 		},
 		{
-			actor = 107031,
+			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			actor = 801011,
+			actor = 801010,
 			say = "어른스러운, 모습이라…",
 			flashout = {
 				dur = 1,
@@ -464,7 +464,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			actor = 801011,
+			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

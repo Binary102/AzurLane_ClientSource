@@ -5,7 +5,7 @@ return {
 	scripts = {
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "你们是……重樱不是也在准备七夕……？为什么{namecode:91}小姐和{namecode:92}小姐……会在这种地方……",
 			shake = {
 				speed = 1,
@@ -21,7 +21,7 @@ return {
 			}
 		},
 		{
-			actor = 307011,
+			actor = 307010,
 			side = 1,
 			dir = -1,
 			nameColor = "#D6341D",
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
+			actor = 213011,
 			say = "嗯……{namecode:91}小姐……今天也是状态绝佳呢……",
 			shake = {
 				speed = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 307021,
+			actor = 307020,
 			side = 1,
 			nameColor = "#D6341D",
 			say = "偶尔像这样热闹一下也不错呢，呵呵……那么，大家一起快快乐乐地打一场吧～？",
@@ -76,8 +76,8 @@ return {
 		},
 		{
 			side = 0,
-			actor = 900019,
-			say = "……加,{namecode:92}小姐……",
+			actor = 213011,
+			say = "……加、{namecode:92}小姐……",
 			shake = {
 				speed = 1,
 				number = 3

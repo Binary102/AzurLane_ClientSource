@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "아으…… 푸슌 언니, 대체 어디서 화약을……?",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			actor = 900164,
+			actor = 501041,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "사쿠라 엠파이어의 유구레입니다. 푸슌이 만나는 건 처음일 거…에요.",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "앗, 처음 뵙겠습니다. 유구레입니다. 잘 부탁드립니다.",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "아야나미랑 라피, 유구레의 새로운 옷…… 다들 귀여워요…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "모두 함께 만들었답니다.",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "예상보다도 시간이 걸렸어요…… 하지만 설날 때까지 시간 맞췄으니, 괜찮아요.",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -251,7 +251,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "……요 전의 축제에 쓴 불꽃놀이용 화약이라면, 옛 창고에 있을 거예요.",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "오오! 옛 창고인가! 헤헤헤, 설마 이렇게 빨리 찾을 줄은~",
 			typewriter = {
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			nameColor = "#a9f548",
 			say = "폭죽이…… 뭐야?",
 			typewriter = {
@@ -327,7 +327,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -343,7 +343,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "화약은 위험…… 해요. 하지만, 조심한다면……",
 			typewriter = {
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900168,
+			actor = 301262,
 			actorName = "{namecode:32}",
 			say = "예, 옛 창고인가요? 저, 저는 사양할게요…… 아리아케 언니도 기다리고 있고, 게다가 옛 창고 안은 좀 어두워서, 무서워요……",
 			typewriter = {
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "유구레, 조심, 하세요.",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "……찾았다. 여기, 에요.",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			actor = 900169,
+			actor = 101173,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -498,7 +498,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900167,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "아야나미는 본 적 있어요. '주사위 판'…… 인가요?",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			}
 		},
 		{
-			actor = 501021,
+			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -530,7 +530,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "엥? 이거 '세뱃돈마블' 판이잖아!",
 			typewriter = {
@@ -558,18 +558,18 @@ return {
 			bgName = "bg_story_task",
 			hideOther = true,
 			dir = 1,
-			actor = 900169,
+			actor = 101173,
 			actorName = "라피＆아야나미＆푸슌",
 			say = "……그렇다는 건……",
 			subActors = {
 				{
-					actor = 501021,
+					actor = 501020,
 					pos = {
 						x = -370
 					}
 				},
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 370
 					}
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "푸슌 언니, 폭죽 말고, 다 같이 이걸……",
 			typewriter = {
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			actor = 501021,
+			actor = 501020,
 			nameColor = "#a9f548",
 			say = "좋아, 그럼 폭죽을 만들고 나서, 다 같이 이걸로 놀자! 헤헷, 이런 게임은 잘하거든!",
 			typewriter = {
@@ -631,14 +631,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 900169,
+			actor = 101173,
 			dir = 1,
 			hideOther = true,
 			actorName = "라피＆아야나미",
 			say = "오오~~",
 			subActors = {
 				{
-					actor = 900167,
+					actor = 301054,
 					pos = {
 						x = 850
 					}
@@ -659,7 +659,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			actor = 900164,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "엣, 에에에에~~!?",
 			typewriter = {

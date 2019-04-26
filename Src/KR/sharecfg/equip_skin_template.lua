@@ -3202,6 +3202,498 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[1101] = {
+		bullet_name = "yulei_ai_faku",
+		name = "표코표코 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이가 머리에 쓰고있는 머리띠인 표코표코를 장비한 어뢰… 하지만 키즈나 아이의 표코표코가 맞는지 어떤지는 불명!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91621",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1101,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1102] = {
+		bullet_name = "yulei_ai_lingdai",
+		name = "넥타이 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "포멀하고 엘레강트한 넥타이인줄 알았다구요? 땡, 어뢰였습니다!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91622",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1102,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1103] = {
+		bullet_name = "yulei_ai_yingyuan",
+		name = "형광봉 어뢰",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "라이브에서 형광봉을 흔들 때에는 옆 사람에게 맞지 않도록 조심합시다. ※맞으면 폭발합니다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91623",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1103,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[1104] = {
+		bullet_name = "zidan_ai_dachui",
+		name = "100t 해머탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이 홈 쇼핑의 추천 상품. 극적으로 승률이 오른다고 하는 후기가 끊이지 않는다(자사 상품 대비).",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91611",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1104,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1105] = {
+		bullet_name = "zidan_ai_duandai",
+		name = "리본탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이가 가슴에 달고 있는 리본…은 아니다. 왜냐면 맞으면 폭발하는 걸!!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91612",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1105,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1106] = {
+		bullet_name = "zidan_ai_quantao",
+		name = "글러브탄",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이가 게임 방송을 할 때 자주 끼고 있는 유희용 장갑. 던지면 폭발도 한다. F*ck You~!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91613",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1106,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[1107] = {
+		bullet_name = "paodan_ai_1",
+		name = "자막 포탄(안녕하세요!)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이의 평소 인사. 어째선지 가상 공간을 뛰쳐나와 포탄이 되어버렸다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91614",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1107,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1108] = {
+		bullet_name = "paodan_ai_2",
+		name = "자막 포탄(유죄)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "판결을 내립니다……「유죄」입니다. 1주일간 저의 영상을 보는 형벌에 처합니다(그 후에 엄청나게 폭발한다)",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91615",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1108,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1109] = {
+		bullet_name = "paodan_ai_3",
+		name = "자막 포탄(귀여워♡)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "키즈나 아이의 사랑의 자막……계속 귀엽다고 하니까, 자막이 실체화해버렸습니다!(뜨거운 마음이 폭발한다!!)",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91616",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1109,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1110] = {
+		bullet_name = "paodan_ai_4",
+		name = "자막 폭탄: 법규",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "아이짱의 공포 게임중 등장 캐릭터 대사에 나온 신비한 단어, 다른 의미는 없습니다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91617",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1110,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[1111] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "미니 아이쨩(공격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1111,
+		derivate_torpedo = "yulei_ai_faku",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1112] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "미니 아이쨩(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1112,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1113] = {
+		bullet_name = "feiji_ai_aijiang",
+		name = "미니 아이쨩(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_4",
+		icon = "91631",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1113,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1114] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "미니 아이쨩 - 슈퍼 게이머(공격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1114,
+		derivate_torpedo = "yulei_ai_lingdai",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1115] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "미니 아이쨩 - 슈퍼 게이머(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1115,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1116] = {
+		bullet_name = "feiji_ai_gamer",
+		name = "미니 아이쨩 - 슈퍼 게이머(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_1",
+		icon = "91632",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1116,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[1117] = {
+		bullet_name = "feiji_ai_perform",
+		name = "미니 아이쨩 - 애니버서리(공격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1117,
+		derivate_torpedo = "yulei_ai_yingyuan",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[1118] = {
+		bullet_name = "feiji_ai_perform",
+		name = "미니 아이쨩 - 애니버서리(전투)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1118,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[1119] = {
+		bullet_name = "feiji_ai_perform",
+		name = "미니 아이쨩 - 애니버서리(폭격)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "「내 분신이 알아서 해주지 않을까」라는 정신으로부터 태어난 소형 AI. 자, 가라! 미니 아이쨩!",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_ai_2",
+		icon = "91633",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 1119,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3326,7 +3818,26 @@ pg.equip_skin_template = {
 		1065,
 		1066,
 		1067,
-		1068
+		1068,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119
 	}
 }
 

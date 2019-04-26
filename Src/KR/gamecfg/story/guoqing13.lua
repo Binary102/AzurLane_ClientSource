@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 2,
 			nameColor = "#ff0000",
 			say = "아우... 행운함이네 뭐네... 역시 다 미신이야...",
@@ -26,7 +26,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			say = "그렇지 않아. 상대가 나빴을 뿐이야.",
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "...가 아니지, 알고 있는 거 전부 알려줘.",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "\"그 사람들\"은 신께서 하사한 기술을 연구해서 전황을 만회하고 싶대...",
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "정보하고 똑같네. 아무래도 그 이야기... 거짓이 아니야.",
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "노와키. 나와 같이 쇼카쿠 언니를 구하러 가자? 아군은 많으면 많을수록 좋아.",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "난, \"그 사람들\"한테서 거스를 수 없어......",
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "그 신이라는 녀석은 허황이라고 해도?",
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			actor = 301201,
+			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
 			say = "\"그 사람들\"은 희망을 줬어... 이 길이 틀렸다고 해도, 난...",
@@ -193,7 +193,7 @@ return {
 			}
 		},
 		{
-			actor = 307061,
+			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
 			say = "그렇구나... 행운을 빌게.",

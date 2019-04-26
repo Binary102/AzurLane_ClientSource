@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "오, 오빠…… 유니콘이 괜찮다고 할 때까지, 눈 뜨면… 때찌, 할거야…",
 			nameColor = "#a9f548",
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "우으… 역시……",
 			nameColor = "#a9f548",
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "스타더스트님…… 유니콘한테 용기를……",
 			nameColor = "#a9f548",
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			actor = 206031,
+			actor = 206030,
 			side = 2,
 			say = "……오빠…… 이제 눈 떠도 돼……",
 			nameColor = "#a9f548",
@@ -81,7 +81,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "~♪",
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "하아…… 어, 어때…? 스타더스트님이 보내준 옷…… 그리고 이 노래……",
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "어때……? 오빠, 기뻐……?",
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "유니콘…… 잘 하고 있어……?",
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "…오빠? 오, 오빠!?",
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
 			say = "휴우… 다행이다…… 오빠… 괜찮은 것 같아……",
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "응? 너무 기뻐서… 정신을 잃었다고……?",
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "오빠…… (///)",
@@ -227,7 +227,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "…….고마워…… 오빠…… 오빠가 기쁘면, 유니콘도 기쁜걸? ……역시 스타더스트님이 말한 대로야…",
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			actor = 900039,
+			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
 			say = "\"자그마한 용기야말로 가장 강한 마법\"…… 에헤헤♪",

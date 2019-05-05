@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官~终于找到你了喵！",
+			say = "Commander~ I've been looking for you, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里这里，快来，有个厉害的东西要给你看喵！",
+			say = "Hurry, hurry, come here, nya! I have something good to show you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "面对近来发生的诸多事件，以及塞壬强大的科技力，司令部一直感到十分担忧喵……",
+			say = "In light of recent events and the increasing technology of the Sirens, the top brass at the naval headquarters have become concerned, nya...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以对【心智魔方】的黑箱解密工作也提高了优先级喵！于是——",
+			say = "As a result, research on decoding the Wisdom Cube's black box has been given the \"Priority\" designation, nya! That means–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵锵~在指挥官的努力和{namecode:98}的支援下~港区专用的「开发船坞」和「科研室」已经提前建设完工啦喵！",
+			say = "Ta-da~! Commander, with your hard work and my support, I'm proud to unveil the \"Development Dock\" and the \"Tech Academy\", nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都知道~数十年前伴随着“塞壬”一起出现的【心智魔方】，拥有赋予“舰船”思考能力与人类形态的作用",
+			say = "I'll explain, nya~! Decades ago, with the appearance of the Sirens and the \"Wisdom Cube,\" ships gained the ability to manifest in human form, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们依靠它们带来的科技勉强维持着生态圈，然而这样的进展并不能改变现状喵…",
+			say = "Although the technology that has come with the Wisdom Cubes has allowed us to hold our ground against the Sirens, that alone will not allow us to make any breakthroughs, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "【心智魔方】所具象化的，是不特定的多数人群对于某一件事物的认知集合，也就是所谓的「思念体」喵！",
+			say = "For ships to be able to manifest as humans... the Wisdom Cube allows the collections of various feelings, emotions, and images from an unspecified number of people to take on a physical form... in other words, a \"collective body,\" nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "理论上，就算是实际上不存在「舰历」的方案舰，只要收集到足够多的设计图和人类对她们的认知，她们也是能够被具象化的喵！",
+			say = "In theory, even if there was a ship that never existed, as long as peoples' beliefs in their form and function were strong enough, we would be able to manifest them as well, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“具现的具体原理”…？很、很遗憾，现在还是未解之谜喵……",
+			say = "\"How do we carry out that manifestation?\" Unfortunately, I don't have the answer to that, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过~这也是科研室未来的目标之一喵！这里集结着来自各大阵营的精英喵！",
+			say = "However, that's why the Tech Academy exists, nya! It is a place where the best brains from each camp come together to push the cutting edge of research, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信通过大家的的共同努力，迟早可以完全解开【心智魔方】的谜团喵！",
+			say = "Even if we don't understand it yet, as long as everyone works together, we will surely be able to unravel the mysteries of the Wisdom Cube, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，{namecode:98}的小店还是离不开指挥官的继续支持喵~所以，之后还请多多关照喵！",
+			say = "... Until then, Akashi expects your continued support and patronyage at her shop. It'll be a pleasure doing business with you, nya~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

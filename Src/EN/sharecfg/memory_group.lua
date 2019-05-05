@@ -60,6 +60,30 @@ pg.memory_group = {
 			28
 		}
 	},
+	[98] = {
+		title = "Unlock \"Fate Simulation.\" ",
+		type = 1,
+		id = 98,
+		icon = "title_main",
+		memories = {
+			716,
+			717,
+			718,
+			719,
+			720,
+			721
+		}
+	},
+	[100] = {
+		title = "Unlock the new Research feature. ",
+		type = 1,
+		id = 100,
+		icon = "title_main",
+		memories = {
+			299,
+			300
+		}
+	},
 	[101] = {
 		title = "Power, Hope and Plans",
 		type = 2,
@@ -701,6 +725,36 @@ pg.memory_group = {
 			266
 		}
 	},
+	[507] = {
+		title = "Red Spider Lily's Love",
+		type = 3,
+		id = 507,
+		icon = "title_chara_chicheng",
+		memories = {
+			281,
+			282,
+			283,
+			284,
+			285,
+			286,
+			287
+		}
+	},
+	[508] = {
+		title = "Knights & Awards",
+		type = 3,
+		id = 508,
+		icon = "title_chara_kelifulan",
+		memories = {
+			288,
+			289,
+			290,
+			291,
+			292,
+			293,
+			294
+		}
+	},
 	[511] = {
 		title = "Best Pictures! ",
 		type = 3,
@@ -931,6 +985,8 @@ pg.memory_group = {
 		2,
 		3,
 		4,
+		98,
+		100,
 		101,
 		102,
 		107,
@@ -968,6 +1024,8 @@ pg.memory_group = {
 		502,
 		503,
 		504,
+		507,
+		508,
 		511,
 		512,
 		513,

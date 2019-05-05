@@ -181,7 +181,7 @@ function slot0.GetAchieveDesc(slot0, slot1)
 	elseif slot3.type == slot0.AchieveType3 then
 		return "Defeat all enemies"
 	elseif slot3.type == slot0.AchieveType4 then
-		return string.format("Deployed < %d", slot3.config)
+		return string.format("Deployed ≤ %d", slot3.config)
 	elseif slot3.type == slot0.AchieveType5 then
 		return string.format("XX not deployed", ShipType.Type2Name(slot3.config))
 	end

@@ -39,7 +39,14 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.levelBg = findTF(slot0.tf, "level_bg")
 	slot0.armorNameTxt = slot0.tf:Find("icons/armor"):Find("name")
 	slot0.maxlevel_tip = findTF(slot0.tf, "level_bg/maxlevel_tip")
+	slot0.evalueToggle = slot0.tf:Find("evalue_toggle")
 	slot0.evalueIndex = slot0.viewComponent.contextData.evalueIndex or slot0.EQUIPMENT_ADDITION
+
+	onToggle(slot0.viewComponent, slot0.evalueToggle, function ()
+		slot0.evalueIndex = 1 - slot0.evalueIndex
+
+		slot0:updateEvalues()
+	end)
 end
 
 function slot0.enableEvent(slot0, slot1)
@@ -48,7 +55,12 @@ function slot0.enableEvent(slot0, slot1)
 end
 
 function slot0.flush(slot0, slot1)
-	slot2 = slot1:isMaxStar()
+	if not slot1:isMaxStar() and slot0.evalueIndex == slot0.TECHNOLOGY_ADDITION then
+		triggerToggle(slot0.evalueToggle, false)
+	end
+
+	setActive(slot0.evalueToggle, slot2)
+
 	slot0.shipDataTemplate = pg.ship_data_template[slot1.configId]
 	slot0.shipVO = slot1
 
@@ -171,33 +183,34 @@ function slot0.updateSKills(slot0)
 end
 
 function slot0.updateLevelInfo(slot0)
-	slot3 = nil
+	slot2 = slot0.shipVO.isReachNextMaxLevel(slot1)
+	slot4 = nil
 
 	if pg.ship_data_breakout[slot0.shipVO.configId].breakout_id > 0 then
-		slot3 = pg.ship_data_template[slot2.breakout_id]
+		slot4 = pg.ship_data_template[slot3.breakout_id]
 	end
 
 	setText(slot0.levelTxt, slot1.level)
 
-	slot4 = slot1:getLevelExpConfig()
+	slot5 = slot1:getLevelExpConfig()
 
-	print("最高等级为：" .. slot5)
+	print("最高等级为：" .. slot6)
 
 	if slot1.level ~= slot1:getMaxLevel() then
-		setSlider(slot0.levelSlider, 0, slot4.exp_interval, slot1.exp)
-		setText(slot0.expInfo, slot1:getExp() .. "/" .. slot4.exp_interval)
+		setSlider(slot0.levelSlider, 0, slot5.exp_interval, slot1.exp)
+		setText(slot0.expInfo, slot1.exp .. "/" .. slot5.exp_interval)
 
 		if slot0.maxlevel_tip then
 			setActive(slot0.maxlevel_tip, false)
 		end
 	else
 		setSlider(slot0.levelSlider, 0, 1, 1)
-		setText(slot0.expInfo, slot1:getExp() .. "/Max")
+		setText(slot0.expInfo, slot1.exp .. "/Max")
 
-		if slot3 ~= nil and slot0.maxlevel_tip then
+		if slot4 ~= nil and slot0.maxlevel_tip and not slot2 then
 			setActive(slot0.maxlevel_tip, true)
-			setText(slot0.maxlevel_tip, i18n("max_level_notice", slot3.max_level))
-		elseif slot0.maxlevel_tip then
+			setText(slot0.maxlevel_tip, i18n("max_level_notice", slot4.max_level))
+		else
 			setActive(slot0.maxlevel_tip, false)
 		end
 	end

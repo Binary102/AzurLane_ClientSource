@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>二 无双的传承</size>",
+					"Red Spider Lily's Love\n\n<size=30>Chapter 2 - The Unrivaled Legends</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "白天·演习海域",
+			say = "Noon - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -31,20 +31,19 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "舰载机紧急下落引起的凛冽风声、以及炸弹命中靶舰后的爆炸声、各种声响交织着——",
+			say = "The sound of planes swooping through the air intermingles with the sounds of ships being bombed and subsequently exploding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 307040,
-			actorName = "{namecode:94}",
-			say = "哈啊…哈啊…今，今天训练得比平时还凶啊…",
+			nameColor = "#a9f548",
+			say = "*Pant*... *Pant*... Don't you think she's being a lot stricter than usual today...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,10 +63,9 @@ return {
 			}
 		},
 		{
-			say = "是啊……{namecode:91}前辈这是怎么了…已经好久没经历过这么辛苦的共同训练了吧…？",
+			say = "She is... I wonder if something happened to upset Akagi. It's been a long time since we had a joint exercise this intense.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actorName = "{namecode:93}",
 			dir = 1,
 			actor = 307030,
 			nameColor = "#a9f548",
@@ -85,64 +83,60 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 0,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307060,
-			actorName = "{namecode:96}",
-			say = "唔！但只要熬过这关就能更接近前辈一些了！…怎么了{namecode:95}姐！？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			nameColor = "#a9f548",
-			side = 1,
 			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 307050,
-			actorName = "{namecode:95}",
-			say = "前辈真坏前辈真坏前辈真坏真坏真坏……（碎碎念）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 1,
-			bgName = "bg_story_nepu1",
-			dir = 1,
-			actor = 307020,
-			actorName = "{namecode:92}",
-			say = "你们还是别费口舌了。今天的姐姐是动真格的。一个不小心就会像当初姐姐绰号里说的那样…见识到什么是地狱。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
 			side = 0,
-			bgName = "bg_story_nepu1",
 			dir = 1,
+			say = "It's tough! But if we can overcome this, we'll be closer to matching our seniors in strength! ... Wait, Shoukaku, you okay?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 1,
+			dir = 1,
+			say = "Bad seniors, bad seniors, bad seniors, bad seniors, badseniorsbadseniorsbadseniors...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 1,
+			dir = 1,
+			say = "Don't waste your energy on chatter. Akagi is dead serious today. Stay focused or you'll learn how she got her nickname... You'll wish you were in hell.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 307040,
-			actorName = "{namecode:94}",
-			say = "不过为什么突然说要共同演习呢……{namecode:92}前辈知道原因吗？",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 0,
+			dir = 1,
+			say = "Still, why did she arrange these joint exercises on such short notice... Do you know anything, Kaga?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,13 +147,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 1,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307020,
-			actorName = "{namecode:92}",
-			say = "我也不清楚，不过据报告说上次演习的时候，白鹰那些家伙的成绩比我们重樱更好",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 1,
+			dir = 1,
+			say = "I don't know the full story either, but apparently, the Eagle Union got better results than we did during an exercise a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,13 +163,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 1,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307020,
-			actorName = "{namecode:92}",
-			say = "姐姐也好久没这么拼了。就让我好好享受吧……呵呵呵呵……",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 1,
+			dir = 1,
+			say = "Akagi was giving it everything she had, too. Enough talk, it's time for you to amuse me... *Cackling*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,10 +182,9 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "这点程度就叫苦…就这样也敢自称重樱航空战队的一员吗！？",
+			say = "Is that the best you can do...? And you call yourselves part of the Sakura Empire's carrier divisions?!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -221,13 +212,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "……指挥官大人？呵呵，让你见笑了……请见谅",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
+			say = "... Oh, you're here, Commander? *Giggle*, you've seen the unsightly side of me... I beg your forgiveness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,13 +228,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "不过…我并不是公报私仇，而是为了我们一航战…不，是为了我们重樱……",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
+			say = "But please listen... This is not because I bear a personal grudge, I'm doing this for the 1st Carrier Division's sake... Or, rather, the Sakura Empire's sake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,13 +244,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_nepu1",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "正是因为这些努力，我们才会在那场战斗里得到“无双”的称呼哦",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
+			say = "It's because of hard work like this that we used to be known as \"The Unrivaled Ones\" in the war.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,10 +260,9 @@ return {
 			}
 		},
 		{
-			say = "{namecode:91}，整队完毕了。指挥官，别看辛苦，为了获得足够的力量大家都很努力。你无需同情她们。",
+			say = "Akagi, everyone's lined up. And Commander, they might not look like much, but they're giving it everything they have and then some for this exercise. Don't feel bad for them.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actorName = "{namecode:92}",
 			dir = 1,
 			actor = 307020,
 			nameColor = "#a9f548",
@@ -293,14 +280,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "……那么指挥官，{namecode:91}就先回去共同训练了哦。想参观的话麻烦到那边去看吧。呵呵♪",
+			say = "... Now then, Commander, I must resume the joint exercise. If you wish to watch us, then please have a seat over here. *Giggle*~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

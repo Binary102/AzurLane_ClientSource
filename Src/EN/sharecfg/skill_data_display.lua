@@ -1472,21 +1472,121 @@ pg.skill_data_display = {
 		id = 12090,
 		name = "Taste My Wrath! "
 	},
+	[12091] = {
+		id = 12091,
+		name = "Prepare to launch~ "
+	},
+	[12092] = {
+		id = 12092,
+		name = "Taste My Wrath!!"
+	},
 	[12100] = {
 		id = 12100,
 		name = "Iron Blood Hatchling"
+	},
+	[18010] = {
+		id = 18010,
+		name = "MKV-Class AP Shell +"
+	},
+	[18040] = {
+		id = 18040,
+		name = "Against the Current +"
+	},
+	[18041] = {
+		id = 18041,
+		name = "Against the Current +"
+	},
+	[18050] = {
+		id = 18050,
+		name = "Body and Soul +"
+	},
+	[18070] = {
+		id = 18070,
+		name = "A Legend's Inheritance +"
+	},
+	[18071] = {
+		id = 18071,
+		name = "A Legend's Inheritance +"
+	},
+	[18100] = {
+		id = 18100,
+		name = "Well-Rounded Armor +"
+	},
+	[18120] = {
+		id = 18120,
+		name = "Engine boost +"
+	},
+	[19000] = {
+		id = 19000,
+		name = "Siren Killer Ⅰ"
+	},
+	[19001] = {
+		id = 19001,
+		name = "Siren Killer Ⅱ"
+	},
+	[19002] = {
+		id = 19002,
+		name = "Siren Killer Ⅲ"
+	},
+	[19010] = {
+		id = 19010,
+		name = "MKV-Class AP Shell"
+	},
+	[19020] = {
+		id = 19020,
+		name = "Goddess of the Sea"
+	},
+	[19030] = {
+		id = 19030,
+		name = "Monarch's Coercion"
 	},
 	[19031] = {
 		id = 19031,
 		name = "Monarch's Coercion"
 	},
+	[19040] = {
+		id = 19040,
+		name = "Against the Current"
+	},
 	[19041] = {
 		id = 19041,
 		name = "Against the Current"
 	},
+	[19050] = {
+		id = 19050,
+		name = "Body and Soul"
+	},
+	[19060] = {
+		id = 19060,
+		name = "Flash of Lightning"
+	},
+	[19070] = {
+		id = 19070,
+		name = "A Legend's Inheritance"
+	},
+	[19080] = {
+		id = 19080,
+		name = "Specialized Armor"
+	},
+	[19090] = {
+		id = 19090,
+		name = "Expert Loader"
+	},
 	[19091] = {
 		id = 19091,
 		name = "Expert Loader"
+	},
+	[19100] = {
+		id = 19100,
+		name = "Well-Rounded Armor"
+	},
+	[19110] = {
+		id = 19110,
+		name = "Augmented HE Ammo"
+	},
+	[19120] = {
+		id = 19120,
+		name = "Engine Boost"
 	},
 	[20011] = {
 		id = 20011,
@@ -2260,6 +2360,38 @@ pg.skill_data_display = {
 		id = 29212,
 		name = "EX Barrage: Z46 Ⅱ"
 	},
+	[29221] = {
+		id = 29221,
+		name = "EX Barrage: {namecode:152} Ⅰ"
+	},
+	[29222] = {
+		id = 29222,
+		name = "EX Barrage: {namecode:152} Ⅱ"
+	},
+	[29231] = {
+		id = 29231,
+		name = "EX Barrage: Neptune Ⅰ"
+	},
+	[29232] = {
+		id = 29232,
+		name = "EX Barrage: Neptune Ⅱ"
+	},
+	[29241] = {
+		id = 29241,
+		name = "EX Barrage: Roon Ⅰ"
+	},
+	[29242] = {
+		id = 29242,
+		name = "EX Barrage: Roon Ⅱ"
+	},
+	[29251] = {
+		id = 29251,
+		name = "EX Barrage: Saint Louis Ⅰ"
+	},
+	[29252] = {
+		id = 29252,
+		name = "EX Barrage: Saint Louis Ⅱ"
+	},
 	[29261] = {
 		id = 29261,
 		name = "All Out Assault Ⅰ"
@@ -2845,10 +2977,35 @@ pg.skill_data_display = {
 		12070,
 		12080,
 		12090,
+		12091,
+		12092,
 		12100,
+		18010,
+		18040,
+		18041,
+		18050,
+		18070,
+		18071,
+		18100,
+		18120,
+		19000,
+		19001,
+		19002,
+		19010,
+		19020,
+		19030,
 		19031,
+		19040,
 		19041,
+		19050,
+		19060,
+		19070,
+		19080,
+		19090,
 		19091,
+		19100,
+		19110,
+		19120,
 		20011,
 		20012,
 		20021,
@@ -3042,6 +3199,14 @@ pg.skill_data_display = {
 		29202,
 		29211,
 		29212,
+		29221,
+		29222,
+		29231,
+		29232,
+		29241,
+		29242,
+		29251,
+		29252,
 		29261,
 		29262,
 		29271,

@@ -4433,7 +4433,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
-			"commonbg/bg_fengshan",
+			"commonbg/bg_fengshan2",
 			{
 				1,
 				0.65,
@@ -5876,6 +5876,34 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[30517] = {
+		mark = 20190426,
+		bg = "",
+		time = "always",
+		type = 17,
+		config_id = 5091,
+		is_show = 0,
+		config_client = "",
+		id = 30517,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[30518] = {
+		mark = 20190426,
+		bg = "",
+		time = "always",
+		type = 17,
+		config_id = 5101,
+		is_show = 0,
+		config_client = "",
+		id = 30518,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -6031,7 +6059,9 @@ pg.activity_template = {
 		30513,
 		30514,
 		30515,
-		30516
+		30516,
+		30517,
+		30518
 	}
 }
 

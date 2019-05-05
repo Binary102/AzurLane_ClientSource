@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>三 情敌与…例外？</size>",
+					"Red Spider Lily's Love\n\n<size=30>Chapter 3 - Love Rivals and... Exceptions?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "白天·商店街",
+			say = "Noon - Shopping District",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -28,13 +28,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "放假和指挥官出门逛街……呵呵，呵呵呵♪",
+			nameColor = "#a9f548",
+			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
+			say = "Ahh, how wonderful, I get to spend my day off shopping with you, Commander... *Giggle*~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,20 +47,19 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:91}开心地提着购物袋走在身边",
+			say = "Akagi was cheerfully swinging around her shopping bag as she walked alongside me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "指挥官…？你累了吗？毕竟是人类嘛，不用那么逞强啊…{namecode:91}全都能帮你拿哦～",
+			nameColor = "#a9f548",
+			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
+			say = "Are you tired, Commander...? Please, you're only human, you needn't pretend to be stronger than you are... I will carry your bags for you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,14 +73,14 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说着{namecode:91}就把购物袋一手夺过，她这么一说，确实……",
+			say = "After saying that, Akagi took the shopping bags out of my hands. Actually, since she brought it up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（…可能精神上是真累了）",
+					content = "(... I might be a bit tired, mentally speaking.)",
 					flag = 1
 				}
 			}
@@ -91,10 +89,9 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "呵呵呵…这么微不足道的蝼蚁之辈，也想从我{namecode:91}手里抢走指挥官？先手…指挥官？为什么要阻止{namecode:91}？",
+			say = "*Giggle*... You filthy little insect, are you trying to steal the Commander from Akagi!? That will be the last mistake you ever— Commander? Why are you stopping Akagi?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -125,10 +122,9 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "刚才你看那个女孩子了吧？呐，为什么不看{namecode:91}？明明你是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
+			say = "You just stared at that girl, didn't you? Why won't you stare at Akagi? Akagi thought we were supposed to be shopping together? Are you saying that girl has seduced you? Akagi will have to dispose of her later...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -159,10 +155,9 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:91}",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "大…那个小丫头，跟在我们后面…！等有机会一定要把她解决了…！",
+			say = "Taih— That wench is right behind us! One day Akagi will end her, Akagi swears it...!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -190,13 +185,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "没，没什么！指挥官不用往后看，只要看着{namecode:91}就行啦～",
+			nameColor = "#a9f548",
+			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
+			say = "Ah, it was nothing, Commander! Please keep your eyes on Akagi and don't look behind you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +206,7 @@ return {
 			dir = 1,
 			actor = 307020,
 			nameColor = "#a9f548",
-			say = "姐…咳，{namecode:91}，和指挥官逛街啊。",
+			say = "Hello, bootl... *Ahem*, Akagi. I suppose you're shopping with the Commander.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -240,10 +234,9 @@ return {
 			}
 		},
 		{
-			say = "是啊。呐，{namecode:92}也来吧？",
+			say = "Yes. Would you care to join us?",
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "{namecode:91}",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
@@ -266,7 +259,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "我…就算了。难得你能和指挥官一起休假，我可不要做灯泡啊",
+			say = "I'm... Sorry, I'll pass. It's your day off with the Commander and I wouldn't want to be a third wheel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,13 +270,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 0,
-			bgName = "bg_story_school",
-			dir = 1,
 			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "不要逞强嘛。{namecode:92}的话指挥官分享给你一点也行哦。指挥官也没意见吧？",
+			nameColor = "#a9f548",
+			bgName = "bg_story_school",
+			side = 0,
+			dir = 1,
+			say = "Now, now, don't worry about that. I'm fine sharing the Commander with you. You certainly don't mind either, right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "{namecode:91}强行地把{namecode:92}拉了过来。",
+			say = "Akagi forcefully drew Kaga by her hand over to my side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +301,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "唉…{namecode:91}姐姐真是的……",
+			say = "Akagi... I would much rather not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +316,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "……和{namecode:91}还有{namecode:92}相安无事（？）地享受了购物的乐趣",
+			say = "... And so, Akagi, Kaga, and I enjoyed our day of peaceful (in some sense, anyway) shopping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

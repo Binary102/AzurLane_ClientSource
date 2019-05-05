@@ -485,13 +485,13 @@ function slot0.initFurnitures(slot0)
 
 	seriesAsync({
 		function (slot0)
-			parallelAsync(slot0, slot0)
+			limitedParallelAsync(slot0, 5, slot0)
 		end,
 		function (slot0)
-			parallelAsync(slot0, slot0)
+			limitedParallelAsync(slot0, 5, slot0)
 		end,
 		function (slot0)
-			parallelAsync(slot0, slot0)
+			limitedParallelAsync(slot0, 5, slot0)
 		end,
 		function (slot0)
 			seriesAsync(slot0, slot0)
@@ -538,22 +538,21 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 	slot6 = slot1:getPosition()
 
 	function slot7(slot0)
-		if not slot0 then
-			if slot0 then
-				slot0()
+		if not slot0 or IsNil(slot0) then
+			if slot1 then
+				slot1()
 			end
 
 			return
 		end
 
-		slot1 = slot1:Find("icon")
-		slot1.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
+		slot0.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
 
-		SetParent(slot1, slot1)
+		SetParent(slot1, slot0)
 
 		slot2 = SetParent.getSign
 		slot3 = slot1.dir == 2
-		slot1.localScale = Vector3(SetParent.getSign, 1, 1)
+		slot0.localScale = Vector3(SetParent.getSign, 1, 1)
 
 		Vector3(SetParent.getSign, 1, 1):setWallModalDir(Vector3(SetParent.getSign, 1, 1).setWallModalDir, )
 		Vector3(SetParent.getSign, 1, 1):updateFurnitruePos(Vector3(SetParent.getSign, 1, 1).updateFurnitruePos, true)
@@ -576,10 +575,10 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 			triggerButton(slot1)
 		end
 
-		setActive(slot1, true)
+		setActive(slot0, true)
 
-		if slot0 then
-			slot0(slot1)
+		if slot1 then
+			slot1(slot0)
 		end
 
 		return
@@ -638,11 +637,19 @@ function slot0.loadArchMask(slot0, slot1, slot2)
 	slot3 = slot0.furnitureModals[slot1.id]
 
 	ResourceMgr.Inst:getAssetAsync("furniture/" .. slot4, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		setActive(slot1, false)
-		setImageSprite(slot0.createImage(BackYardConst.ARCH_MASK_NAME, false, slot0.createImage, 2, true), slot0, true)
+		if IsNil(slot0._tf) and slot1 then
+			slot1()
 
-		if setImageSprite then
-			slot2()
+			return
+		end
+
+		slot1 = slot2.createImage(BackYardConst.ARCH_MASK_NAME, false, , 2, true)
+
+		setActive(slot1, false)
+		setImageSprite(slot1, slot0, true)
+
+		if slot1 then
+			slot1()
 		end
 
 		return
@@ -658,9 +665,17 @@ function slot0.loadFurnituresMasks(slot0, slot1, slot2)
 	for slot9, slot10 in pairs(slot4) do
 		table.insert(slot5, function (slot0)
 			ResourceMgr.Inst:getAssetAsync("furniture/" .. slot0, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				if IsNil(slot0._tf) then
+					if slot1 then
+						slot1()
+					end
+
+					return
+				end
+
 				setActive(slot1, false)
-				setImageSprite(slot0.createImage(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot1, false, , 2, true), slot0, true)
-				slot0.createImage(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot1, false, , 2, true)()
+				setImageSprite(slot2.createImage(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot3, false, slot4, 2, true), slot0, true)
+				true()
 
 				return
 			end), true, true)
@@ -717,9 +732,17 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2)
 			slot8, slot5 = slot4:getSpineMaskName()
 
 			LoadAndInstantiateAsync("sfurniture", slot4, function (slot0)
+				if IsNil(slot0._tf) then
+					if slot1 then
+						slot1()
+					end
+
+					return
+				end
+
 				setActive(slot0, false)
 				slot0(rtf(slot0), BackYardConst.FURNITRUE_MASK_NAME, 2)
-				slot0:loadSpineAnimator(slot0, function ()
+				slot0:loadSpineAnimator(BackYardConst.FURNITRUE_MASK_NAME, function ()
 					slot0(slot1)
 
 					return
@@ -750,11 +773,19 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2)
 			for slot14, slot15 in ipairs(slot10) do
 				table.insert(slot3, function (slot0)
 					LoadAndInstantiateAsync("sfurniture", slot0, function (slot0)
-						go(slot0).name = slot0:getAnimtorControlGoName(slot1 - 1, slot0)
+						if IsNil(slot0._tf) then
+							if slot1 then
+								slot1()
+							end
+
+							return
+						end
+
+						go(slot0).name = slot2:getAnimtorControlGoName(slot3 - 1, slot4)
 
 						setActive(slot0, false)
-						SetParent(slot0, )
-						slot0()
+						SetParent(slot0, slot5)
+						slot6()
 
 						return
 					end)
@@ -1017,7 +1048,9 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 	slot3 = nil
 
 	LoadSpriteAsync("FurnitureIcon/" .. slot1:getConfig("icon"), function (slot0)
-		slot0.miniIcon.sprite = slot0
+		if not IsNil(slot0._tf) then
+			slot0.miniIcon.sprite = slot0
+		end
 
 		return
 	end)
@@ -1033,7 +1066,9 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 			slot0.maxIcon.sprite = slot1
 		else
 			LoadSpriteAsync("FurnitureIcon/" .. slot2:getConfig("icon"), function (slot0)
-				slot0.maxIcon.sprite = slot0
+				if not IsNil(slot0._tf) then
+					slot0.maxIcon.sprite = slot0
+				end
 
 				return
 			end)

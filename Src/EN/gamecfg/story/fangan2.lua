@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官幸苦了喵！",
+			say = "Commander, good work, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经历了漫长的研究，还有不懈的努力…终于…迎来了第一位特别的同伴喵！",
+			say = "After countless hours of development, we've finally been able to manifest our first new comrade, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但、但是对【心智魔方】的研究还有很长的一段路要走喵……",
+			say = "However, we still have much to learn about the hidden powers of the Wisdom Cube, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然成功具现化出了新的强力同伴，但是…她们的状态还不是最完美的喵…",
+			say = "Even though this successful manifestation has allowed us to meet a powerful new ally, they are still in an incomplete state, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有进一步强化对她们的【认知】，才能逐步令她们变成最完美的状态喵！",
+			say = "Priority ships can only reach their full potential when we further strengthen their \"Cognition,\" nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过【研发】收集与她们相关的【蓝图】，使用收集到的【蓝图】对她们进行进一步的【开发】喵！",
+			say = "Discover specific \"Blueprints\" through the Tech Academy, and use them to further strengthen your comrade in the \"Development Dock,\" nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然…研究室的各位也会持续对这些课题进行研究的喵！大家一起努力喵！",
+			say = "In addition to the Tech Academy, these blueprints can also be obtained during events, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有需要的东西尽管来找{namecode:98}喵，小店随时为指挥官提供帮助喵～",
+			say = "If your head starts hurting from all the research, Akashi's shop is always open for you, nya~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

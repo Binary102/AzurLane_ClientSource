@@ -1053,6 +1053,94 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[109] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox.",
+		name = "Research Supply \n(daily) ",
+		descrip = "Contains 1 x Random Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
+		subject = "Research Supply (daily) ",
+		extra_service = 3,
+		money = 499,
+		tag = 2,
+		gem = 0,
+		limit_type = 99,
+		picture = "fudai55",
+		id_str = "com.yostaren.azurlane.diamond119",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 109,
+		airijp_id = "com.yostaren.azurlane.diamond119",
+		extra_service_item = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				20001,
+				6
+			},
+			{
+				2,
+				15003,
+				3
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				2,
+				20001,
+				6
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1070,7 +1158,8 @@ pg.pay_data_display = {
 		105,
 		106,
 		107,
-		108
+		108,
+		109
 	}
 }
 

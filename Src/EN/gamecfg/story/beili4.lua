@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>四 兔兔星人特征——“偶像”？</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=30>IV 「Rabbit Alien Characteristics—— “Idol”?」</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port area, Command Center",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "来到指挥室的时候，发现贝利和本森都在里面",
+			say = "Bailey and Benson were found inside the Command Center.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好很好～小贝利今天也很可爱～",
+			say = "Very nice~ You’re looking very cute today little Bailey~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "诶嘿嘿…被本森姐姐夸奖了呢",
+			say = "Hehehe… you praised Bailey too much.",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，就是这么可爱，所以才要当偶像嘛～",
+			say = "Heehee, you’re so cute. So that’s why you’re trying to become an idol~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天等你工作结束，也要来一起进行偶像训练哦！",
+			say = "Once you’re finished with work today, you should come join me for idol training!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "嗯！",
+			say = "OK!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官来了～",
+			say = "Ah, the Commander has arrived~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官早安～那么本超绝可爱美少女本森就懂事地不打扰指挥官工作了~",
+			say = "Good morning, Commander~ So, the super cute Benson will take her leave, and will not bother you while you’re working then~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "本森今天看起来也在正常运作的样子。",
+			say = "Looks like Benson is going about her regular duties today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,14 +195,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不过，为什么贝利会像霍比一样想要成为偶像呢？",
+			say = "So as Hobby, although, how come Bailey wants to be an idol?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "询问",
+					content = "Ask Bailey.",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……最开始，只是跟着本森姐姐一起唱歌跳舞，慢慢地就真的喜欢上了呢。",
+			say = "Right...at the very beginning, it was just all about having fun. I joined Benson and went singing and dancing. Slowly, the idea of becoming an idol really grew on me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……原来都是向本森学的吗。",
+			say = "...so you were influenced by Benson then.",
 			dialogShake = {
 				speed = 0.15,
 				x = 15,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且呢，指挥官，贝利悄悄告诉你，你不要笑哦……",
+			say = "Commander, let Bailey tell you something in secret, please don’t laugh ok...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是有一天，贝利成为了最出色的偶像，有名到外星人都知道贝利的名气了……",
+			say = "If one day, Bailey can become a famous idol, even Bailey’s fame will be known on other planets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定兔兔星就会来邀请贝利去都是兔兔的地方表演呢！",
+			say = "Maybe one day, the Rabbit Aliens will invite Bailey to the Rabbit Planet to give a live performance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……确实是很符合贝利的想法。",
+			say = "...that’s really typical of Bailey when it comes to crazy ideas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "感觉，对兔兔星似乎有了更多的了解。",
+			say = "I feel like I’m getting a better understanding of the Rabbit Alien as the days go by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

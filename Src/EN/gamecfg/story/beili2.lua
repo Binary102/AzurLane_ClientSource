@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>二 兔兔星人特征——“兔兔”！</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=30>II 「Rabbit Alien Characteristics—— “Rabbit Ears”!」</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port area, Command Center",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然还没搞清兔兔星是什么，不过并不妨碍贝利的秘书舰工作…",
+			say = "Although we haven’t figured out exactly what is Rabbit Planet, it’s certainly not interfering with Bailey’s secretarial work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，听好了哦～所谓的兔兔星人呢，其中一个特征就是——",
+			say = "Commander, listen up~ One of the key characteristics of the Rabbit Alien is——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这个文件给你——唔…贝利？",
+			say = "Commander, a report for you—— Zzz... Bailey?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "啊，拉菲来得正好～指挥官，兔兔星人的特征之一就是这个！",
+			say = "Ah, perfect timing Laffey~ Commander, one of the key characteristics of the Rabbit Alien is this!",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲的…耳朵？",
+			say = "Laffey’s...ears?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "嗯嗯！兔兔星人特征其一——“兔兔”！",
+			say = "Uh huh! A key feature of Rabbit Aliens are their—— “Rabbit ears”!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "是指外观像兔兔么…",
+			say = "Do you mean to say, they all look like rabbits...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…拉菲的耳朵，其实可以这样的哦——",
+			say = "Hmm? Laffey’s ears, can actually be like this——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "拉菲把耳朵拿了下来，嗯…？",
+			say = "Laffey took off her rabbit ears headband, emm…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "对了！就是这个！指挥官也想成为兔兔星人的话，只要这样就行了！",
+			say = "Yes! Just like this! Say Commander, if you want to become a Rabbit Alien, then you must do this as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "被戴上了拉菲的兔兔发卡…",
+			say = "The Commander was forced to wear Laffey’s headband...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…意外地…能行？",
+			say = "Oh...this is unexpected...is it working?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "呀哈哈哈！这下指挥官也是个值得骄傲的兔兔星人了！",
+			say = "Hahaha! Now the Commander is a proud member of the Rabbit Alien!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "嗯…？谜团似乎更进一步加深了…",
+			say = "Huh…? The confusion seems to get deeper and deeper...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

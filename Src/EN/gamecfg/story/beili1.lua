@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>一 兔兔星是什么？</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=30>I 「What is the Rabbit Planet?」</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port area, Command Center",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "最近轮到贝利担任秘书舰",
+			say = "Recently, it’s Bailey’s turn to be the Commander's secretary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "指挥官今天有精神吗~让贝利来给你点兔兔能量吧！",
+			say = "Is Commander a bit tired today?~ Let Bailey energize you with my bunny power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "指挥官，虽然储存萝卜是好事，但储存任务可没有好处哦",
+			say = "Commander, although stockpiling carrots is a good thing, going a mission to stockpile them will not be beneficial.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "指挥官，有邮件！是兔兔星来的吗？",
+			say = "Commander, you’ve got new mail! Is it from the Rabbit Planet?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…虽然贝利表现出了充分的积极性和与其外表不符的能干不过…",
+			say = "...although Bailey’s appearance doesn’t scream confidence in her ability to handle things, she is full of enthusiasm…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到了兔兔星的电波，要贝利帮指挥官工作，嗯嗯，指挥官不要客气，尽管交给贝利吧~",
+			say = "I just received a telepathic wave from the Rabbit Alien, they want me to help with the Commander’s work. So Commander, don’t be afraid to call on me for help~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "兔兔星…究竟是什么？该不该问贝利呢…",
+			say = "Exactly what is this… Rabbit Planet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，怎么啦，有什么烦心事吗？",
+			say = "What’s wrong Commander? Is there something troubles you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "嘿嘿，告诉贝利，让贝利用兔兔星的智慧帮你解决烦恼吧！",
+			say = "Hehe, you can tell Bailey. Let Bailey use the wisdom of the Rabbit Planet to help solve your problem!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问关于兔兔星",
+					content = "Ask Bailey about the Rabbit Planet.",
 					flag = 1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，原来是这个呀。",
+			say = "Ah, so you all were curious about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔～～怎么说呢～对贝利来说，兔兔星…就是兔兔星吧！",
+			say = "Hummm~~ How can Bailey explain...Rabbit Planet….is simply a planet full of rabbits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "得到了似是而非的答案——",
+			say = "What kind of implausible answer is that——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

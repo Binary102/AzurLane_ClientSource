@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>六　奋发努力！</size>",
+					"Knights & Awards\n\n<size=30>Chapter 6 - From The Brink</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "体育馆的休息室里。克利夫兰和队员们嘴上虽不说，每个人脸上都是愁云满布。",
+			say = "Cleveland's team went to cool down in the break room. They weren't exactly grumbling, but their faces showed signs of distress.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "给克利夫兰打气",
+					content = "Cheer Cleveland up",
 					flag = 1
 				}
 			}
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
+			say = "Thanks for trying to cheer me up, but this is all my fault... As the team leader, I'm trying to think of how to face everyone when we worked so hard to get here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再说这次比赛本来就是我把大家硬拉进来的，就更对不住……",
+			say = "Especially since I was the one who dragged you all into this thing in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不想看到克爹垂头丧气的样子”？……所以说为啥要叫我克爹啊！明、明明人家正在低落的时候！",
+			say = "\"I don't like seeing you depressed, Clevebro\"?! ... Why do you keep calling me Clevebro?! Especially right now when I'm not feeling too great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……“不想被叫克爹的话，就要有克爹的样子”？……",
+			say = "\"If you don't want me to call you Clevebro, then get your act together and be the dependable bro the team needs\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "行了！让你们看看就是了！……回头一定要让你后悔拿我开心！",
+			say = "Dammit, you're right! Let's rock and roll this thing! — Later, I'll make you regret calling me that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "被气呼呼的克利夫兰所感染，大家的表情也恢复了生气。",
+			say = "Once Cleveland started getting fired up, the rest of the team followed shortly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "各位！比赛还没有结束！让她们见识见识我们“海上骑士团”真正的实力吧！！",
+			say = "C'mon! We're not out of the game yet! We'll show 'em what the Knights of The Sea are truly made of!",
 			action = {
 				{
 					y = 20,
@@ -149,14 +149,14 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛＆蒙彼利埃",
+			actorName = "Denver & Montpelier",
 			side = 0,
 			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "噢噢噢！！！",
+			say = "Hooyah!",
 			action = {
 				{
 					y = 20,
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）谢啦，指挥官♪",
+			say = "(Whispering) Thanks, Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgm = "battle-boss-6",
 			actor = 303070,
 			nameColor = "#a9f548",
-			say = "这样下去要被反超了！一定要截住她们的传球！",
+			say = "They're going to break through! Stop them from passing the ball, no matter what!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			say = "！要是让她们配合成功，我们的战术就没用了…！",
+			say = "Crap! Now that they've formed up, our strategy ain't gonna work...!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了大家…为了指挥官……这场比赛我赢定了！！！",
+			say = "For the team... and for the Commander... this victory is OOOOUUUURS!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "（咣！！！）",
+			say = "HWEEEEEEE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "随着终场哨声的响起，克利夫兰的一记猛烈的灌篮，宣告了比赛的结束。",
+			say = "Just as the whistle marking the game's end sounded, Cleveland landed a powerful dunk through the opposing team's basket.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赢了！我们赢了！！！",
+			say = "WE DID IT! WE WOOOON!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "打进致胜一球的克利夫兰朝这边飞奔而来。",
+			say = "Immediately after scoring the winning goal, Cleveland came running over and threw herself at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你指挥官！！我爱你！！！",
+			say = "Thank you, Commander! I love you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "——少女的身体虽娇弱，分享胜利喜悦的拥抱却充满了力量。",
+			say = "Though she was exhausted from the match, her joy and excitement could be felt through her tight grip around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

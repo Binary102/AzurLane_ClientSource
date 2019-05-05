@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这下就算是告一段落了呢，呵呵～一直以来辛苦你了哟，指挥官？",
+			say = "It looks like we've finally finished the first chapter of our journey. I'll be counting on you a lot more moving forward. All right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘻嘻，是不是觉得可以松一口气的呢～？我们还有一段旅程需要共同进行下去呢～",
+			say = "Did you think it was already over? We are still just beginning our new journey~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么样？现在的心情是觉得很遗憾～还是很幸运呢？",
+			say = "Hee hee. Does hearing that make you disappointed? Or maybe, excited?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便一提，我可是觉得很幸运的哟？好啦，就让我们再一起努力一段时间吧～",
+			say = "By the way, I'm a bit excited too. So, let's write the next chapter of our story together~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

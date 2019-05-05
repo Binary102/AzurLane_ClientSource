@@ -656,6 +656,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[43] = {
+		display = "T3 Twin 550mm Torpedo Design",
+		rarity = 2,
+		type = 9,
+		name = "T3 Twin 550mm Torpedo Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 43,
+		icon = "Equips/5300",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[44] = {
+		display = "T3 Twin 100mm AA Gun Design",
+		rarity = 2,
+		type = 9,
+		name = "T3 Twin 100mm AA Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 44,
+		icon = "Equips/6100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[45] = {
 		display = "Basic Sonar T2 Design",
 		rarity = 2,
@@ -2288,6 +2320,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[10090] = {
+		display = "T3 Triple 550mm Torpedo Design",
+		rarity = 3,
+		type = 9,
+		name = "T3 Triple 550mm Torpedo Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10090,
+		icon = "Equips/5400",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10091] = {
 		display = "Basic Sonar T3 Design",
 		rarity = 3,
@@ -2940,6 +2988,182 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 11037,
 		icon = "Equips/45400",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13000] = {
+		display = "T0 Twin 381mm Main Gun - Variant Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Twin 381mm Main Gun - Variant Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13000,
+		icon = "Equips/24300",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13001] = {
+		display = "T0 Prototype Triple 381mm AA Gun Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Prototype Triple 381mm AA Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13001,
+		icon = "Equips/24160",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13002] = {
+		display = "T0 410mm Mounted Gun (Type 3 Shell) Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 410mm Mounted Gun (Type 3 Shell) Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13002,
+		icon = "Equips/34100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13003] = {
+		display = "T0 Prototype Triple 410mm Mounted Gun Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Prototype Triple 410mm Mounted Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13003,
+		icon = "Equips/34180",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13004] = {
+		display = "T0 Prototype Triple 203mm Main Gun (SK C) Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Prototype Triple 203mm Main Gun (SK C) Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13004,
+		icon = "Equips/43060",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13005] = {
+		display = "T0 Prototype Triple 203mm AA Gun Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Prototype Triple 203mm AA Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13005,
+		icon = "Equips/7300",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13006] = {
+		display = "T0 Prototype Triple 152mm AA Gun Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Prototype Triple 152mm AA Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13006,
+		icon = "Equips/22260",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13007] = {
+		display = "T0 Twin 40mm Bofors STAAG Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 Twin 40mm Bofors STAAG Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13007,
+		icon = "Equips/26600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13008] = {
+		display = "T0 100mm Mounted AA Gun Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 100mm Mounted AA Gun Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13008,
+		icon = "Equips/36560",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13009] = {
+		display = "T0 High Performance Air Radar Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 High Performance Air Radar Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13009,
+		icon = "Equips/1160",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13010] = {
+		display = "T0 High Performance Hydraulic Steering Gear Design",
+		rarity = 4,
+		type = 9,
+		name = "T0 High Performance Hydraulic Steering Gear Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13010,
+		icon = "Equips/1760",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -6147,6 +6371,48 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 				1,
 				6,
 				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40960] = {
+		display = "The sack contains 1 x Mystery Blueprint, 6 x Wisdom Cubes, 3 x Quick Finishers, 100 x Gems, and 3000 x Coins ",
+		rarity = 4,
+		type = 5,
+		name = "Research Supply (daily) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40960,
+		icon = "Props/fudai55",
+		display_icon = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				1,
+				4,
+				100
+			},
+			{
+				2,
+				15003,
+				3
+			},
+			{
+				2,
+				20001,
+				6
+			},
+			{
+				1,
+				1,
+				3000
 			}
 		},
 		price = {},
@@ -10872,7 +11138,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[42006] = {
-		display = "Blueprint for Iris the Liberty CA Saint Louis.\n<color=#A9F548>Can be used in the Shipyard to increase Saint Louis' stats once you've finished developing her.</color>",
+		display = "Blueprint for Iris Libre CA Saint Louis.\n<color=#A9F548>Can be used in the Shipyard to increase Saint Louis' stats once you've finished developing her.</color>",
 		rarity = 4,
 		type = 12,
 		name = "Blueprint - Saint Louis",
@@ -10999,6 +11265,402 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 			1,
 			100
 		},
+		index = {}
+	},
+	[52001] = {
+		display = "You can acquire a number of the following Blueprints at random:",
+		rarity = 4,
+		type = 99,
+		name = "Random Blueprint",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52001,
+		icon = "Props/52001",
+		display_icon = {
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52002] = {
+		display = "You can acquire a number of the following gear designs at random:",
+		rarity = 4,
+		type = 99,
+		name = "Random Gear Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52002,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				13007,
+				1
+			},
+			{
+				2,
+				13008,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52003] = {
+		display = "You can acquire a number of the following gear designs at random:",
+		rarity = 4,
+		type = 99,
+		name = "Random Gear Design T3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52003,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11000,
+				1
+			},
+			{
+				2,
+				11001,
+				1
+			},
+			{
+				2,
+				11002,
+				1
+			},
+			{
+				2,
+				11005,
+				1
+			},
+			{
+				2,
+				11006,
+				1
+			},
+			{
+				2,
+				11009,
+				1
+			},
+			{
+				2,
+				11010,
+				1
+			},
+			{
+				2,
+				11011,
+				1
+			},
+			{
+				2,
+				11012,
+				1
+			},
+			{
+				2,
+				11013,
+				1
+			},
+			{
+				2,
+				11014,
+				1
+			},
+			{
+				2,
+				11015,
+				1
+			},
+			{
+				2,
+				11016,
+				1
+			},
+			{
+				2,
+				11017,
+				1
+			},
+			{
+				2,
+				11018,
+				1
+			},
+			{
+				2,
+				11019,
+				1
+			},
+			{
+				2,
+				11021,
+				1
+			},
+			{
+				2,
+				11023,
+				1
+			},
+			{
+				2,
+				11024,
+				1
+			},
+			{
+				2,
+				11025,
+				1
+			},
+			{
+				2,
+				11026,
+				1
+			},
+			{
+				2,
+				11027,
+				1
+			},
+			{
+				2,
+				11031,
+				1
+			},
+			{
+				2,
+				11032,
+				1
+			},
+			{
+				2,
+				11033,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52004] = {
+		display = "You can acquire a number of the following gear designs at random:",
+		rarity = 3,
+		type = 98,
+		name = "Random Gear Design T2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52004,
+		icon = "Props/55000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[52011] = {
+		display = "You can acquire a number of the following Blueprints at random:",
+		rarity = 4,
+		type = 99,
+		name = "Random Blueprint",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52011,
+		icon = "Props/52001",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			},
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[52012] = {
+		display = "You can acquire a number of the following gear designs at random:",
+		rarity = 4,
+		type = 99,
+		name = "Random Gear Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 52012,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				13012,
+				1
+			},
+			{
+				2,
+				13000,
+				1
+			},
+			{
+				2,
+				13002,
+				1
+			},
+			{
+				2,
+				13009,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			},
+			{
+				2,
+				13011,
+				1
+			},
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
+		price = {},
 		index = {}
 	},
 	[53000] = {
@@ -48625,6 +49287,8 @@ Skins and their drop rates:
 		39,
 		40,
 		41,
+		43,
+		44,
 		45,
 		46,
 		47,
@@ -48727,6 +49391,7 @@ Skins and their drop rates:
 		10087,
 		10088,
 		10089,
+		10090,
 		10091,
 		10092,
 		10093,
@@ -48768,6 +49433,17 @@ Skins and their drop rates:
 		11035,
 		11036,
 		11037,
+		13000,
+		13001,
+		13002,
+		13003,
+		13004,
+		13005,
+		13006,
+		13007,
+		13008,
+		13009,
+		13010,
 		15001,
 		15002,
 		15003,
@@ -48876,6 +49552,7 @@ Skins and their drop rates:
 		40957,
 		40958,
 		40959,
+		40960,
 		41201,
 		41202,
 		41203,
@@ -49176,6 +49853,12 @@ Skins and their drop rates:
 		50004,
 		50005,
 		50006,
+		52001,
+		52002,
+		52003,
+		52004,
+		52011,
+		52012,
 		53000,
 		53010,
 		53011,

@@ -36,7 +36,7 @@ pg.skill_data_template = {
 	[14] = {
 		desc_get = "",
 		name = "Universal Bulin",
-		desc = "Can be used as material to Limit Break ships of Elite or below rarity.",
+		desc = "Can be used as material to Limit Break Elite (or below) ships.",
 		type = 3,
 		max_level = 1,
 		id = 14,
@@ -47,7 +47,7 @@ pg.skill_data_template = {
 	[15] = {
 		desc_get = "",
 		name = "Prototype Bulin MKII",
-		desc = "Can be used as material to Limit Break ships of Super Rare rarity.",
+		desc = "Can be used as material to Limit Break Super Rare ships.",
 		type = 3,
 		max_level = 1,
 		id = 15,
@@ -58,7 +58,7 @@ pg.skill_data_template = {
 	[1001] = {
 		desc_get = "",
 		name = "Artillery Command: Destroyers",
-		desc = "Increases the FP of all friendly DDs by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of all DDs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1001,
@@ -116,7 +116,7 @@ pg.skill_data_template = {
 	[1002] = {
 		desc_get = "",
 		name = "Artillery Command: Cruisers",
-		desc = "Increases the FP of all friendly Cruisers by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of all Cruisers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1002,
@@ -174,7 +174,7 @@ pg.skill_data_template = {
 	[1003] = {
 		desc_get = "",
 		name = "Artillery Command: Battleships",
-		desc = "Increases the FP of all friendly BBs by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of all BBs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1003,
@@ -232,7 +232,7 @@ pg.skill_data_template = {
 	[1004] = {
 		desc_get = "",
 		name = "Artillery Command: Vanguard",
-		desc = "Increases the FP of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of your Vanguard by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1004,
@@ -290,7 +290,7 @@ pg.skill_data_template = {
 	[1005] = {
 		desc_get = "",
 		name = "Artillery Command: Main Fleet",
-		desc = "Increases the FP of all friendlies in the Main Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of your Main Fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1005,
@@ -348,7 +348,7 @@ pg.skill_data_template = {
 	[1006] = {
 		desc_get = "",
 		name = "Artillery Command: All",
-		desc = "Increases the FP of all friendlies in the entire fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP of your entire fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1006,
@@ -406,7 +406,7 @@ pg.skill_data_template = {
 	[1011] = {
 		desc_get = "",
 		name = "Torpedo Command: Destroyers",
-		desc = "Increases the TRP of all friendly DDs by $1. Does not stack with the same skill.",
+		desc = "Increases the TRP of all DDs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1011,
@@ -464,7 +464,7 @@ pg.skill_data_template = {
 	[1012] = {
 		desc_get = "",
 		name = "Torpedo Command: Cruisers",
-		desc = "Increases the TRP of all friendly Cruisers by $1. Does not stack with the same skill.",
+		desc = "Increases the TRP of all Cruisers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1012,
@@ -522,7 +522,7 @@ pg.skill_data_template = {
 	[1013] = {
 		desc_get = "",
 		name = "Torpedo Command: Vanguard",
-		desc = "Increases the TRP of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the TRP of your Vanguard by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1013,
@@ -580,7 +580,7 @@ pg.skill_data_template = {
 	[1021] = {
 		desc_get = "",
 		name = "Aviation Command: All",
-		desc = "Increases the AVI of all friendlies in the entire fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the AVI of your entire fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1021,
@@ -638,7 +638,7 @@ pg.skill_data_template = {
 	[1031] = {
 		desc_get = "",
 		name = "Reload Command: Destroyers",
-		desc = "Increases the RLD of all friendly DDs by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of all DDs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1031,
@@ -696,7 +696,7 @@ pg.skill_data_template = {
 	[1032] = {
 		desc_get = "",
 		name = "Reload Command: Cruisers",
-		desc = "Increases the RLD of all friendly Cruisers by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of all Cruisers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1032,
@@ -754,7 +754,7 @@ pg.skill_data_template = {
 	[1033] = {
 		desc_get = "",
 		name = "Reload Command: Battleships",
-		desc = "Increases the RLD of all friendly BBs by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of all BBs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1033,
@@ -812,7 +812,7 @@ pg.skill_data_template = {
 	[1034] = {
 		desc_get = "",
 		name = "Reload Command: Vanguard",
-		desc = "Increases the RLD of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of your Vanguard by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1034,
@@ -870,7 +870,7 @@ pg.skill_data_template = {
 	[1035] = {
 		desc_get = "",
 		name = "Reload Command: Main Fleet",
-		desc = "Increases the RLD of all friendlies in the Main Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of your Main Fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1035,
@@ -928,7 +928,7 @@ pg.skill_data_template = {
 	[1036] = {
 		desc_get = "",
 		name = "Reload Command: All",
-		desc = "Increases the RLD of all friendlies in the entire fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of your entire fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1036,
@@ -986,7 +986,7 @@ pg.skill_data_template = {
 	[1037] = {
 		desc_get = "",
 		name = "Reload Command: Light Carriers",
-		desc = "Increases the RLD of all friendly CVLs by $1. Does not stack with the same skill.",
+		desc = "Increases the RLD of all CVLs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1037,
@@ -1044,7 +1044,7 @@ pg.skill_data_template = {
 	[1041] = {
 		desc_get = "",
 		name = "Anti-Air Command: Destroyers",
-		desc = "Increases the AA of all friendly DDs by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of all DDs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1041,
@@ -1102,7 +1102,7 @@ pg.skill_data_template = {
 	[1042] = {
 		desc_get = "",
 		name = "Anti-Air Command: Cruisers",
-		desc = "Increases the AA of all friendly Cruisers by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of all Cruisers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1042,
@@ -1160,7 +1160,7 @@ pg.skill_data_template = {
 	[1043] = {
 		desc_get = "",
 		name = "Anti-Air Command: Battleships",
-		desc = "Increases the AA of all friendly BBs by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of all BBs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1043,
@@ -1218,7 +1218,7 @@ pg.skill_data_template = {
 	[1044] = {
 		desc_get = "",
 		name = "Anti-Air Command: Vanguard",
-		desc = "Increases the AA of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of your Vanguard by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1044,
@@ -1276,7 +1276,7 @@ pg.skill_data_template = {
 	[1045] = {
 		desc_get = "",
 		name = "Anti-Air Command: Main Fleet",
-		desc = "Increases the AA of all friendlies in the Main Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of your Main Fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1045,
@@ -1334,7 +1334,7 @@ pg.skill_data_template = {
 	[1046] = {
 		desc_get = "",
 		name = "Anti-Air Command: All",
-		desc = "Increases the AA of all friendlies in the entire fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the AA of your entire fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1046,
@@ -1392,7 +1392,7 @@ pg.skill_data_template = {
 	[1051] = {
 		desc_get = "",
 		name = "Tactical Command: Destroyers",
-		desc = "Increases the FP, TRP, and RLD of all friendly DDs by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of all DDs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1051,
@@ -1450,7 +1450,7 @@ pg.skill_data_template = {
 	[1052] = {
 		desc_get = "",
 		name = "Tactical Command: Cruisers",
-		desc = "Increases the FP, TRP, and RLD of all friendly Cruisers by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of all Cruisers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1052,
@@ -1508,7 +1508,7 @@ pg.skill_data_template = {
 	[1053] = {
 		desc_get = "",
 		name = "Tactical Command: Battleships",
-		desc = "Increases the FP, TRP, and RLD of all friendly BBs by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of all BBs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1053,
@@ -1566,7 +1566,7 @@ pg.skill_data_template = {
 	[1054] = {
 		desc_get = "",
 		name = "Tactical Command: Vanguard",
-		desc = "Increases the FP, TRP, and RLD of all friendlies in the Vanguard Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of your Vanguard by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1054,
@@ -1624,7 +1624,7 @@ pg.skill_data_template = {
 	[1055] = {
 		desc_get = "",
 		name = "Tactical Command: Main Fleet",
-		desc = "Increases the FP, TRP, and RLD of all friendlies in the Main Fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of your Main Fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1055,
@@ -1682,7 +1682,7 @@ pg.skill_data_template = {
 	[1056] = {
 		desc_get = "",
 		name = "Tactical Command: All",
-		desc = "Increases the FP, TRP, and RLD of all friendlies in the entire fleet by $1. Does not stack with the same skill.",
+		desc = "Increases the FP, TRP, and RLD of your entire fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1056,
@@ -1740,7 +1740,7 @@ pg.skill_data_template = {
 	[1061] = {
 		desc_get = "",
 		name = "Flank Defense",
-		desc = "While this ship is afloat: decreases the DMG the Main Fleet takes by $1. Does not stack with the same skill.",
+		desc = "While this ship is afloat: decreases the DMG your Main Fleet takes by $1. Does not stack with the same skill.",
 		type = 2,
 		max_level = 10,
 		id = 1061,
@@ -1798,7 +1798,7 @@ pg.skill_data_template = {
 	[1071] = {
 		desc_get = "",
 		name = "Frontline Recon",
-		desc = "While this ship is afloat: increases the DMG that friendly BBs, BCs, and BMs deal by $1. Does not stack with the same skill.",
+		desc = "While this ship is afloat: increases the DMG of all BBs, BCs, and BMs in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1071,
@@ -1856,7 +1856,7 @@ pg.skill_data_template = {
 	[1081] = {
 		desc_get = "",
 		name = "Air Raid Assistance",
-		desc = "While this ship is afloat: increases the DMG that friendly Carriers deal by $1. Does not stack with the same skill.",
+		desc = "While this ship is afloat: increases the DMG of all Carriers in your fleet by $1. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 1081,
@@ -1914,7 +1914,7 @@ pg.skill_data_template = {
 	[1091] = {
 		desc_get = "",
 		name = "Torpedo Squadron",
-		desc = "While this ship is afloat: increases the TRP and RLD of all friendly DDs and CLs in the Vanguard Fleet by $1.",
+		desc = "While this ship is afloat: increases the TRP and RLD of all DDs and CLs in your fleet by $1.",
 		type = 3,
 		max_level = 10,
 		id = 1091,
@@ -1972,7 +1972,7 @@ pg.skill_data_template = {
 	[2001] = {
 		desc_get = "",
 		name = "Quick Reload",
-		desc = "$1 chance to activate every 20s: increases this ship's RLD by $2 for 10s.",
+		desc = "Every 20s: $1 chance to increase this ship's RLD by $2 for 10s.",
 		type = 1,
 		max_level = 10,
 		id = 2001,
@@ -2075,7 +2075,7 @@ pg.skill_data_template = {
 	[2011] = {
 		desc_get = "",
 		name = "Full Firepower",
-		desc = "$1 chance to activate every 20s: increases this ship's FP by $2 for 10s.",
+		desc = "Every 20s: $1 chance to increase this ship's FP by $2 for 10s.",
 		type = 1,
 		max_level = 10,
 		id = 2011,
@@ -2178,7 +2178,7 @@ pg.skill_data_template = {
 	[2021] = {
 		desc_get = "",
 		name = "Reload Order",
-		desc = "25.0% chance to activate every 20s: increases the RLD of all friendlies in the entire fleet by $1 for 8s. Does not stack with the same skill.",
+		desc = "Every 20s: 25.0% chance to increase the RLD of your entire fleet by $1 for 8s. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 2021,
@@ -2236,7 +2236,7 @@ pg.skill_data_template = {
 	[2031] = {
 		desc_get = "",
 		name = "Assault Order",
-		desc = "25.0% chance to activate every 20s: increases the DMG dealt by all friendlies in the entire fleet by $1 for 8s. Does not stack with the same skill.",
+		desc = "Every 20s: 25.0% chance to increase the DMG of your entire fleet by $1 for 8s. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 2031,
@@ -2690,7 +2690,7 @@ pg.skill_data_template = {
 	[2111] = {
 		desc_get = "Increase DMG against Bombing Ships, Torpedo Ships, and Cargo Ships by 10% (increase by 25% when fully upgraded).",
 		name = "Disturbance Strategy",
-		desc = "Increases the DMG this ship deals to Bombing Ships, Torpedo Ships, and Cargo Ships by $1.",
+		desc = "Increases this ship's DMG to Bombing Ships, Torpedo Ships, and Cargo Ships by $1.",
 		type = 1,
 		max_level = 10,
 		id = 2111,
@@ -2748,7 +2748,7 @@ pg.skill_data_template = {
 	[2121] = {
 		desc_get = "",
 		name = "Target Designator - Torpedo",
-		desc = "When this ship hits an enemy with its Torpedoes: $1 chance to apply a debuff, increasing the DMG the designated enemy takes from torpedoes by $2 for 8s. Effect does not stack.",
+		desc = "When this ship hits an enemy with its Torpedoes: $1 chance to apply a debuff, increasing the DMG the enemy takes from torpedoes by $2 for 8s. Effect does not stack.",
 		type = 1,
 		max_level = 10,
 		id = 2121,
@@ -2851,7 +2851,7 @@ pg.skill_data_template = {
 	[2131] = {
 		desc_get = "",
 		name = "Aerial Support",
-		desc = "When enemy aircraft are shot down within this ship's Anti-Air Gun range: increases this ship's FP and AA by $1 for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration.",
+		desc = "When an enemy aircraft is shot down within this ship's Anti-Air Gun range: increases this ship's FP and AA by $1 for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration.",
 		type = 1,
 		max_level = 10,
 		id = 2131,
@@ -2909,7 +2909,7 @@ pg.skill_data_template = {
 	[2141] = {
 		desc_get = "",
 		name = "Anti-Destroyer Tactics",
-		desc = "Increases this ship's Hit Rate against enemy DDs by $1 and decreases this ship's DMG taken from enemy DD Torpedoes by $1.",
+		desc = "Increases this ship's Hit Rate against enemy DDs by $1 and decreases the DMG it takes from enemy DD Torpedoes by $1.",
 		type = 2,
 		max_level = 10,
 		id = 2141,
@@ -3199,7 +3199,7 @@ pg.skill_data_template = {
 	[3021] = {
 		desc_get = "",
 		name = "Fleet Carrier",
-		desc = "When this ship launches an Airstrike: increases the DMG the Vanguard Fleet deals by $1 for 8s. Does not stack with the same skill.",
+		desc = "When this ship launches an Airstrike: increases the DMG of your Vanguard by $1 for 8s. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 3021,
@@ -3257,7 +3257,7 @@ pg.skill_data_template = {
 	[3031] = {
 		desc_get = "",
 		name = "Support Carrier",
-		desc = "When this ship launches an Airstrike: heals all friendlies in the Vanguard Fleet for $1 of their max HP.",
+		desc = "When this ship launches an Airstrike: heals your entire Vanguard for $1 of its max HP.",
 		type = 3,
 		max_level = 10,
 		id = 3031,
@@ -3315,7 +3315,7 @@ pg.skill_data_template = {
 	[3041] = {
 		desc_get = "",
 		name = "Air Support",
-		desc = "When this ship launches an Airstrike: increases the AVI of all friendly Carriers, excluding this ship, by $1 for 8s.",
+		desc = "When this ship launches an Airstrike: increases the AVI of all Carriers in your fleet, excluding this ship, by $1 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 3041,
@@ -3373,7 +3373,7 @@ pg.skill_data_template = {
 	[3051] = {
 		desc_get = "",
 		name = "Air Cover",
-		desc = "When this ship launches an Airstrike: decreases the DMG the Vanguard Fleet takes by $1 for 8s.",
+		desc = "When this ship launches an Airstrike: decreases the DMG your Vanguard takes by $1 for 8s.",
 		type = 2,
 		max_level = 10,
 		id = 3051,
@@ -3547,7 +3547,7 @@ pg.skill_data_template = {
 	[3531] = {
 		desc_get = "",
 		name = "Slow Torpedoes",
-		desc = "Increases the DMG of this ship's Torpedoes by $1 but decreases their speed by 1.",
+		desc = "Increases the DMG of this ship's Torpedoes by $1 but decreases their Speed by 1.",
 		type = 1,
 		max_level = 10,
 		id = 3531,
@@ -3605,7 +3605,7 @@ pg.skill_data_template = {
 	[3571] = {
 		desc_get = "",
 		name = "Light Cruiser Hunter",
-		desc = "Increases the DMG this ship deals to CLs by $1.",
+		desc = "Increases this ship's DMG to CLs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 3571,
@@ -3663,7 +3663,7 @@ pg.skill_data_template = {
 	[3581] = {
 		desc_get = "",
 		name = "Heavy Cruiser Hunter ",
-		desc = "Increases this boat's DMG to CAs by $1. ",
+		desc = "Increases this ship's DMG to CAs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 3581,
@@ -3721,7 +3721,7 @@ pg.skill_data_template = {
 	[3591] = {
 		desc_get = "",
 		name = "Carrier Hunter ",
-		desc = "Increases this boat's DMG to CVs by $1. ",
+		desc = "Increases this ship's DMG to CVs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 3591,
@@ -3837,7 +3837,7 @@ pg.skill_data_template = {
 	[4001] = {
 		desc_get = "",
 		name = "Defensive Stance",
-		desc = "$1 chance to activate every 20s: decreases the DMG this ship takes by $2 for 8s.",
+		desc = "Every 20s: $1 chance to decrease the DMG this ship takes by $2 for 8s.",
 		type = 2,
 		max_level = 10,
 		id = 4001,
@@ -3940,7 +3940,7 @@ pg.skill_data_template = {
 	[4011] = {
 		desc_get = "",
 		name = "Defense Order",
-		desc = "25.0% chance to activate every 20s: decreases the DMG all friendlies in the entire fleet take by $1 for 8s. Does not stack with the same skill.",
+		desc = "Every 20s: 25.0% chance to decrease the DMG your entire fleet takes by $1 for 8s. Does not stack with the same skill.",
 		type = 3,
 		max_level = 10,
 		id = 4011,
@@ -3998,7 +3998,7 @@ pg.skill_data_template = {
 	[4021] = {
 		desc_get = "",
 		name = "Vice Defense",
-		desc = "When this ship is attacked: $1 chance to reduce the DMG of the incoming attack by 50.0%.",
+		desc = "When this ship is attacked: $1 chance to decrease the DMG of the incoming attack by 50.0%.",
 		type = 2,
 		max_level = 10,
 		id = 4021,
@@ -4114,7 +4114,7 @@ pg.skill_data_template = {
 	[4041] = {
 		desc_get = "",
 		name = "Draw Fire",
-		desc = "$1 chance to activate every 20s: absorbs 50.0% of the DMG taken by the Vanguard Fleet for 8s. Does not stack with the same skill.",
+		desc = "Every 20s: $1 chance to absorb 50.0% of the DMG your Vanguard takes for 8s. Does not stack with the same skill.",
 		type = 2,
 		max_level = 10,
 		id = 4041,
@@ -4278,7 +4278,7 @@ pg.skill_data_template = {
 	[4071] = {
 		desc_get = "",
 		name = "Emergency Maneuvers",
-		desc = "$1 chance to activate every 20s: this ship evades all enemy attacks for 6s.",
+		desc = "Every 20s: $1 chance for this ship to evade all enemy attacks for 6s.",
 		type = 2,
 		max_level = 10,
 		id = 4071,
@@ -4336,7 +4336,7 @@ pg.skill_data_template = {
 	[4081] = {
 		desc_get = "",
 		name = "Smokescreen",
-		desc = "Activates after the battle begins and has a $1 chance to activate every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all friendlies within it. Does not stack with other smokescreen skills. Smokescreen lasts 5s.",
+		desc = "After the battle begins and $1 chance every 15s after that: deploys a smokescreen that increases Evasion Rate by $2 for all friendlies in it. Does not stack with other smokescreen skills. Smokescreen lasts 5s.",
 		type = 2,
 		max_level = 10,
 		id = 4081,
@@ -4542,7 +4542,7 @@ pg.skill_data_template = {
 	[4101] = {
 		desc_get = "",
 		name = "Smokescreen: Light Cruisers",
-		desc = "Activates 10s after the battle begins and has a 20.0% chance to activate every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases incoming AVI DMG by $2 for all friendlies within it. Smokescreen lasts 10s.",
+		desc = "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases enemy aircraft DMG by $2 for all friendlies in it. Smokescr",
 		type = 2,
 		max_level = 10,
 		id = 4101,
@@ -5028,7 +5028,7 @@ pg.skill_data_template = {
 	[5021] = {
 		desc_get = "",
 		name = "Carrier Escort",
-		desc = "While this ship is afloat: decreases the DMG taken by all friendly Carriers by $1. Does not stack with the same skill.",
+		desc = "While this ship is afloat: decreases the DMG all Carriers in your fleet take by $1. Does not stack with the same skill.",
 		type = 2,
 		max_level = 10,
 		id = 5021,
@@ -5086,7 +5086,7 @@ pg.skill_data_template = {
 	[5031] = {
 		desc_get = "",
 		name = "Battleship Escort",
-		desc = "While this ship is afloat: decreases the DMG taken by all friendly BCs and BBs by $1. Does not stack with the same skill.",
+		desc = "While this ship is afloat: decreases the DMG all BCs and BBs in your fleet take by $1. Does not stack with the same skill.",
 		type = 2,
 		max_level = 10,
 		id = 5031,
@@ -5144,7 +5144,7 @@ pg.skill_data_template = {
 	[5041] = {
 		desc_get = "",
 		name = "Flares",
-		desc = "10 seconds after battle begins, deploy a flare for 10 seconds. Every 20 seconds following, $1 chance to deploy another flare. Flare reduces Evasion of enemy ships within flare range by 25%. Effect does not stack. Flare will prioritize closest enemy target.",
+		desc = "10s after the battle begins and $1 chance every 20s after that: throws a flare that decreases the Evasion Rate of all enemies in its range by 25.0%. Flare lasts 10s. Prioritizes throwing flare at the enemy closest to this ship.",
 		type = 3,
 		max_level = 10,
 		id = 5041,
@@ -5202,7 +5202,7 @@ pg.skill_data_template = {
 	[5051] = {
 		desc_get = "",
 		name = "Flagship Cover",
-		desc = "While alive, reduce DMG taken by Flagship by $1.",
+		desc = "While this ship is afloat: decreases the DMG your Flagship takes by $1.",
 		type = 3,
 		max_level = 10,
 		id = 5051,
@@ -5434,7 +5434,7 @@ pg.skill_data_template = {
 	[6000] = {
 		desc_get = "",
 		name = "Beaver Squad",
-		desc = "Increase entire fleet's Speed by 20%.",
+		desc = "Increases your entire fleet's Speed by 20.0%.",
 		type = 0,
 		max_level = 0,
 		id = 6000,
@@ -5445,7 +5445,7 @@ pg.skill_data_template = {
 	[6010] = {
 		desc_get = "",
 		name = "Anti-Torpedo Bulge Ⅰ",
-		desc = "Reduce DMG taken from torpedoes by 10%. Effect does not stack.",
+		desc = "Decreases DMG taken from Torpedoes by 10.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6010,
@@ -5456,7 +5456,7 @@ pg.skill_data_template = {
 	[6020] = {
 		desc_get = "",
 		name = "Anti-Torpedo Bulge Ⅱ",
-		desc = "Reduce DMG taken from torpedoes by 20%. Effect does not stack.",
+		desc = "Decreases DMG taken from Torpedoes by 20.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6020,
@@ -5467,7 +5467,7 @@ pg.skill_data_template = {
 	[6030] = {
 		desc_get = "",
 		name = "Anti-Torpedo Bulge Ⅲ",
-		desc = "Reduce DMG taken from torpedoes by 30%. Effect does not stack.",
+		desc = "Decreases DMG taken from Torpedoes by 30.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6030,
@@ -5478,7 +5478,7 @@ pg.skill_data_template = {
 	[6040] = {
 		desc_get = "",
 		name = "SG Radar Ⅰ",
-		desc = "Provides enhanced reconnaissance abilities, decreasing chance of being ambushed by 5% and increases chance to avoid ambushes by 5%. Effect does not stack.",
+		desc = "Decreases Ambush chance by 5.0% and increases Ambush evasion chance by 5.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6040,
@@ -5489,7 +5489,7 @@ pg.skill_data_template = {
 	[6050] = {
 		desc_get = "",
 		name = "SG Radar Ⅱ",
-		desc = "Provides enhanced reconnaissance abilities, decreasing chance of being ambushed by 8% and increases chance to avoid ambushes by 8%. Effect does not stack.",
+		desc = "Decreases Ambush chance by 8.0% and increases Ambush evasion chance by 8.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6050,
@@ -5500,7 +5500,7 @@ pg.skill_data_template = {
 	[6060] = {
 		desc_get = "",
 		name = "SG Radar Ⅲ",
-		desc = "Provides enhanced reconnaissance abilities, decreasing chance of being ambushed by 12% and increases chance to avoid ambushes by 12%. Effect does not stack.",
+		desc = "Decreases Ambush chance by 12.0% and increases Ambush evasion chance by 12.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6060,
@@ -5511,7 +5511,7 @@ pg.skill_data_template = {
 	[6070] = {
 		desc_get = "",
 		name = "Aviation Oil Tank Ⅰ",
-		desc = "Increase Aircraft HP by 50. Effect does not stack.",
+		desc = "Increases the HP of equipped aircraft by 50. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6070,
@@ -5522,7 +5522,7 @@ pg.skill_data_template = {
 	[6080] = {
 		desc_get = "",
 		name = "Aviation Oil Tank Ⅱ",
-		desc = "Increase Aircraft HP by 80. Effect does not stack.",
+		desc = "Increases the HP of equipped aircraft by 80. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6080,
@@ -5533,7 +5533,7 @@ pg.skill_data_template = {
 	[6090] = {
 		desc_get = "",
 		name = "Aviation Oil Tank Ⅲ",
-		desc = "Increase Aircraft HP by 120. Effect does not stack.",
+		desc = "Increases the HP of equipped aircraft by 120. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6090,
@@ -5544,7 +5544,7 @@ pg.skill_data_template = {
 	[6100] = {
 		desc_get = "",
 		name = "Repair Tools Ⅰ",
-		desc = "Recover 0.3% HP every 15 seconds. Effect does not stack.",
+		desc = "Recovers 0.3% of max HP every 15s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6100,
@@ -5555,7 +5555,7 @@ pg.skill_data_template = {
 	[6110] = {
 		desc_get = "",
 		name = "Repair Tools Ⅱ",
-		desc = "Recover 0.6% HP every 15 seconds. Effect does not stack.",
+		desc = "Recovers 0.6% of max HP every 15s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6110,
@@ -5566,7 +5566,7 @@ pg.skill_data_template = {
 	[6120] = {
 		desc_get = "",
 		name = "Repair Tools Ⅲ",
-		desc = "Recover 1.0% HP every 15 seconds. Effect does not stack.",
+		desc = "Recovers 1.0% of max HP every 15s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6120,
@@ -5577,7 +5577,7 @@ pg.skill_data_template = {
 	[6130] = {
 		desc_get = "",
 		name = "Pearl's Tears ",
-		desc = "Restore 10% HP to all allied ships when being sunk.",
+		desc = "Heals all friendlies for 10.0% of their max HP when the ship with this item sinks.",
 		type = 0,
 		max_level = 0,
 		id = 6130,
@@ -5588,7 +5588,7 @@ pg.skill_data_template = {
 	[6140] = {
 		desc_get = "",
 		name = "Fire Suppressor Ⅰ",
-		desc = "Reduce chance of fire breaking out by 10% and DMG taken from fires by 10%. Effect does not stack.",
+		desc = "Decreases Burn DMG taken by 10.0% and chance of catching fire by 10.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6140,
@@ -5599,7 +5599,7 @@ pg.skill_data_template = {
 	[6150] = {
 		desc_get = "",
 		name = "Fire Suppressor Ⅱ",
-		desc = "Reduce chance of fire breaking out by 20%, DMG taken from fires by 15%, and duration of fires by 3 seconds. Effect does not stack.",
+		desc = "Decreases Burn DMG taken by 15.0%, chance of catching fire by 20.0%, and burn duration by 3s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6150,
@@ -5610,7 +5610,7 @@ pg.skill_data_template = {
 	[6160] = {
 		desc_get = "",
 		name = "Fire Suppressor Ⅲ",
-		desc = "Reduce chance of fire breaking out by 30%, DMG taken from fires by 25%, and duration of fires by 6 seconds. Effect does not stack.",
+		desc = "Decreases Burn DMG taken by 20.0%, chance of catching fire by 30.0%, and burn duration by 6s. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6160,
@@ -5676,7 +5676,7 @@ pg.skill_data_template = {
 	[6220] = {
 		desc_get = "",
 		name = "Swordfish (818 Squad)",
-		desc = "Reduces the Speed of all enemies hit by this aircraft's torpedoes by 60.0% for 8s.",
+		desc = "Decreases the Speed of enemies hit by this aircraft's torpedoes by 60.0% for 8s.",
 		type = 0,
 		max_level = 0,
 		id = 6220,
@@ -5687,7 +5687,7 @@ pg.skill_data_template = {
 	[6230] = {
 		desc_get = "",
 		name = "Z Flag",
-		desc = "Increase own Crit Rate by 5%. Specific ships will receive additional stat bonuses when equipping.",
+		desc = "Increases Crit Rate by 5.0%. Grants other bonuses when equipped by a certain ship.",
 		type = 0,
 		max_level = 0,
 		id = 6230,
@@ -5698,7 +5698,7 @@ pg.skill_data_template = {
 	[6240] = {
 		desc_get = "",
 		name = "Focused Bombing",
-		desc = "Increase own aircraft DMG against enemy Light Carriers and Carriers by 5.0% when using an airstrike.",
+		desc = "Increases the DMG the Carrier using this aircraft deals to enemy CVs and CVLs by 5.0%.",
 		type = 0,
 		max_level = 0,
 		id = 6240,
@@ -5709,7 +5709,7 @@ pg.skill_data_template = {
 	[6250] = {
 		desc_get = "",
 		name = "Jolly Rogers",
-		desc = "Increase entire fleet's Anti-Air by 5% for 8 seconds after deploying an airstrike. ",
+		desc = "Increases your entire fleet's AA by 5.0% for 8s when the Carrier using this aircraft launches an Airstrike.",
 		type = 0,
 		max_level = 0,
 		id = 6250,
@@ -5720,7 +5720,7 @@ pg.skill_data_template = {
 	[6260] = {
 		desc_get = "",
 		name = "Precision Lock-on ",
-		desc = "Reduces cooldown for first wave of main gun volley by 15% ",
+		desc = "Decreases the loading time of the first Main Gun Volley by 15.0%.",
 		type = 0,
 		max_level = 0,
 		id = 6260,
@@ -5731,7 +5731,7 @@ pg.skill_data_template = {
 	[6270] = {
 		desc_get = "",
 		name = "Powered Evasion",
-		desc = "Every 20 seconds, 30% chance to evade all attacks for 2 seconds. (May not avoid DMG from collisions, fire, or other status-inflicted DMG)",
+		desc = "Every 20s: 30.0% chance for the ship using this gear to evade all enemy attacks for 2s.",
 		type = 0,
 		max_level = 0,
 		id = 6270,
@@ -5742,7 +5742,7 @@ pg.skill_data_template = {
 	[6280] = {
 		desc_get = "",
 		name = "Aircraft Detection",
-		desc = "Provides excellent air search capabilities to reduce the chance of being ambushed by 12%. Effect does not stack.",
+		desc = "Decreases Ambush chance by 12.0%. Effect does not stack.",
 		type = 0,
 		max_level = 0,
 		id = 6280,
@@ -5885,7 +5885,7 @@ pg.skill_data_template = {
 	[10010] = {
 		desc_get = "",
 		name = "Baptismal Flames",
-		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP. This skill can only activate once per battle.",
+		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP. Can only activate once per battle.",
 		type = 2,
 		max_level = 10,
 		id = 10010,
@@ -5943,7 +5943,7 @@ pg.skill_data_template = {
 	[10020] = {
 		desc_get = "",
 		name = "Aquatic Vortex",
-		desc = "$1 chance to activate every 10s: increases this ship's EVA by $2 for 8s.",
+		desc = "Every 10s: $1 chance to increase this ship's EVA by $2 for 8s.",
 		type = 2,
 		max_level = 10,
 		id = 10020,
@@ -6046,7 +6046,7 @@ pg.skill_data_template = {
 	[10030] = {
 		desc_get = "",
 		name = "Sister's Temperament",
-		desc = "Increases the FP and EVA of all friendly Fletcher-class DDs by $1.",
+		desc = "Increases the FP and EVA of all Fletcher-class DDs in your fleet by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10030,
@@ -6104,7 +6104,7 @@ pg.skill_data_template = {
 	[10040] = {
 		desc_get = "",
 		name = "31-knot Burke",
-		desc = "When this ship fires its Main Guns: 4.0% chance to increase the Speed of all friendlies and increase the EVA of all friendlies in the Vanguard Fleet by $1 for 8s.",
+		desc = "When this ship fires its Main Guns: 4.0% chance to increase the Speed of your entire fleet and increase the EVA of your Vanguard by $1 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 10040,
@@ -6162,7 +6162,7 @@ pg.skill_data_template = {
 	[10050] = {
 		desc_get = "15% chance to grant 100% Evasion to vanguard ships for 5 seconds (10 seconds when fully upgraded) after being attacked.",
 		name = "Operation Rainbow",
-		desc = "When this ship takes DMG: 15.0% chance to grant 100% Evasion Rate to all friendlies in the Vanguard Fleet for $1s. May only activate 20s after the battle begins, and has a 20s cooldown every time it activates.",
+		desc = "When this ship takes DMG: 15.0% chance to grant 100% Evasion Rate to your entire Vanguard for $1s. Has a 20s cooldown when activated. Starts the battle on cooldown.",
 		type = 2,
 		max_level = 10,
 		id = 10050,
@@ -6215,7 +6215,7 @@ pg.skill_data_template = {
 	[10060] = {
 		desc_get = "",
 		name = "Red Phoenix",
-		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP and increases its FP by 30.0% for 15s. This skill can only activate once per battle.",
+		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP and increases its FP by 30.0% for 15s. Can only activate once per battle.",
 		type = 2,
 		max_level = 10,
 		id = 10060,
@@ -6273,7 +6273,7 @@ pg.skill_data_template = {
 	[10070] = {
 		desc_get = "",
 		name = "Radar Scan",
-		desc = "$1 chance to activate every 20s: applies a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s.",
+		desc = "Every 20s: $1 chance to apply a debuff to all onscreen enemies, increasing the DMG they take by $2 for 10s.",
 		type = 3,
 		max_level = 10,
 		id = 10070,
@@ -6376,7 +6376,7 @@ pg.skill_data_template = {
 	[10080] = {
 		desc_get = "",
 		name = "Martyr",
-		desc = "When this ship is sunk: heals all friendlies for $1 of their max HP.",
+		desc = "When this ship sinks: heals all friendlies for $1 of their max HP.",
 		type = 2,
 		max_level = 10,
 		id = 10080,
@@ -6434,7 +6434,7 @@ pg.skill_data_template = {
 	[10090] = {
 		desc_get = "",
 		name = "I Am No. 1!",
-		desc = "When this ship fires its Anti-Air Guns: 15.0% chance to increase the AA of all friendlies by $1 for 8s.",
+		desc = "When this ship fires its Anti-Air Guns: 15.0% chance to increase the AA of your entire fleet by $1 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 10090,
@@ -6661,7 +6661,7 @@ pg.skill_data_template = {
 	[10130] = {
 		desc_get = "",
 		name = "Sister Penn",
-		desc = "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level.",
+		desc = "Every 20s: $1 chance to fire a special barrage. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 10130,
@@ -6729,7 +6729,7 @@ pg.skill_data_template = {
 	[10140] = {
 		desc_get = "",
 		name = "Eagle's Tears",
-		desc = "When this ship fires its Main Guns: 50.0% chance to heal all friendlies in the Vanguard Fleet for $1 of their max HP.",
+		desc = "When this ship fires its Main Guns: 50.0% chance to heal your entire Vanguard for $1 of its max HP.",
 		type = 3,
 		max_level = 10,
 		id = 10140,
@@ -6787,7 +6787,7 @@ pg.skill_data_template = {
 	[10150] = {
 		desc_get = "",
 		name = "Coercion",
-		desc = "Every 30 seconds, reduce enemy's DMG by $1 for 8 seconds.",
+		desc = "Every 30s: decreases the DMG all enemies deal by $1 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 10150,
@@ -6845,7 +6845,7 @@ pg.skill_data_template = {
 	[10160] = {
 		desc_get = "",
 		name = "The Strongest Shield",
-		desc = "Every 30s: absorbs 50.0% of the DMG the Main Fleet takes for 8s. Once the effect ends: this ship heals itself for $1 of the DMG it took.",
+		desc = "Every 30s: absorbs 50.0% of the DMG your Main Fleet takes for 8s. Once the effect ends: this ship heals itself for $1 of the DMG it took.",
 		type = 2,
 		max_level = 10,
 		id = 10160,
@@ -6903,7 +6903,7 @@ pg.skill_data_template = {
 	[10170] = {
 		desc_get = "",
 		name = "First-Generation Carrier",
-		desc = "Increases the EXP that friendly Carriers earn after the battle by $1.",
+		desc = "Increases the EXP that friendly Carriers earn by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10170,
@@ -7014,7 +7014,7 @@ pg.skill_data_template = {
 	[10190] = {
 		desc_get = "",
 		name = "Vengeance",
-		desc = "When this ship's HP falls below 20.0%: recovers $1 of this ship's max HP. This effect can only activate once per battle. Additionally, each time this ship takes DMG: launches a special airstrike. Special airstrike has a cooldown of 20s and its damage is based on the skill's level.",
+		desc = "When this ship's HP falls below 20.0%: recovers $1 of its max HP. This effect can only activate once per battle. Additionally, each time this ship takes DMG: launches a special airstrike. Special airstrike has a cooldown of 20s and its damage is based on ",
 		type = 2,
 		max_level = 10,
 		id = 10190,
@@ -7166,7 +7166,7 @@ pg.skill_data_template = {
 	[10210] = {
 		desc_get = "",
 		name = "Doolittle Airstrike",
-		desc = "When this ship launches an Airstrike: $1 chance to launch an additional airstrike with B-25s.",
+		desc = "When this ship launches an Airstrike: $1 chance to launch an additional B-25 airstrike.",
 		type = 1,
 		max_level = 10,
 		id = 10210,
@@ -7224,7 +7224,7 @@ pg.skill_data_template = {
 	[10220] = {
 		desc_get = "",
 		name = "Damage Control",
-		desc = "When a friendly ship's HP falls below 20.0%: heals them for $1 of their max HP. If the recipient is Enterprise, the healing's potency is increased by 50.0%. This skill can only activate once per battle.",
+		desc = "When a friendly ship's HP falls below 20.0%: heals them for $1 of their max HP. If the recipient is Enterprise, the healing's potency is increased by 50.0%. Can only activate once per battle.",
 		type = 2,
 		max_level = 10,
 		id = 10220,
@@ -7282,7 +7282,7 @@ pg.skill_data_template = {
 	[10230] = {
 		desc_get = "",
 		name = "Prototype Destroyer",
-		desc = "Increases the EXP that friendly DDs earn after the battle by $1.",
+		desc = "Increases the EXP that friendly DDs earn by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10230,
@@ -7340,7 +7340,7 @@ pg.skill_data_template = {
 	[10240] = {
 		desc_get = "",
 		name = "Meteor Slam",
-		desc = "Increases the Ramming DMG the Vanguard Fleet deals to enemies by $1 and decreases the Ramming DMG the Vanguard Fleet takes by $2.",
+		desc = "Increases your Vanguard's Ramming DMG by $1 and decreases the Ramming DMG it takes by $2.",
 		type = 1,
 		max_level = 10,
 		id = 10240,
@@ -7559,7 +7559,7 @@ pg.skill_data_template = {
 	[10270] = {
 		desc_get = "",
 		name = "Final Glory",
-		desc = "When this ship fires its Main Guns: increases the DMG of the next Main Gun salvo by $1.",
+		desc = "When this ship fires its Main Guns: increases the DMG of the next Main Gun Salvo by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10270,
@@ -7675,7 +7675,7 @@ pg.skill_data_template = {
 	[10290] = {
 		desc_get = "",
 		name = "Royal Navy's Glory",
-		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage and increase the RLD of all friendlies in the Main Fleet by $2. Barrage damage is based on the skill's level.",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage and increase the RLD of your Main Fleet by $2. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 10290,
@@ -7989,7 +7989,7 @@ pg.skill_data_template = {
 	[10330] = {
 		desc_get = "",
 		name = "Swordfishes, Strike!",
-		desc = "When this ship launches an Airstrike: launches an additional special airstrike with Swordfishes $1 and decreases the Speed of all onscreen enemies by $2 for 8s.",
+		desc = "When this ship launches an Airstrike: launches an additional special Swordfish $1 airstrike and decreases the Speed of all onscreen enemies by $2 for 8s.",
 		type = 1,
 		max_level = 10,
 		id = 10330,
@@ -8083,7 +8083,7 @@ pg.skill_data_template = {
 	[10340] = {
 		desc_get = "",
 		name = "Armored Carrier",
-		desc = "When this ship launches an Airstrike: deploys protective barriers around all friendlies in the Vanguard Fleet. Barriers last for 8s and each can absorb the equivalent of $1 of this ship's max HP.",
+		desc = "When this ship launches an Airstrike: deploys protective barriers around all ships in your Vanguard. Barriers last for 8s and can each absorb the equivalent of $1 of this ship's max HP.",
 		type = 3,
 		max_level = 10,
 		id = 10340,
@@ -8141,7 +8141,7 @@ pg.skill_data_template = {
 	[10350] = {
 		desc_get = "",
 		name = "Infinite Darkness",
-		desc = "$1 chance every 20s: fires a special barrage. Barrage damage is based on the skill's level.",
+		desc = "Every 20s: $1 chance to fire a special barrage. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 10350,
@@ -8315,7 +8315,7 @@ pg.skill_data_template = {
 	[10380] = {
 		desc_get = "",
 		name = "Z Vanguard",
-		desc = "Increases the FP and EVA of all friendly Z-class DDs by $1.",
+		desc = "Increases the FP and EVA of all Z-class DDs in your Vanguard by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10380,
@@ -8373,7 +8373,7 @@ pg.skill_data_template = {
 	[10390] = {
 		desc_get = "",
 		name = "Unbreakable Shield",
-		desc = "$1 chance to activate every 20s: deploys 3 rotating shields that can each block up to 10 shells. Shields last for 10s.",
+		desc = "Every 20s: $1 chance to deploy 3 rotating shields that can each block up to 10 shells. Shields last for 10s.",
 		type = 2,
 		max_level = 10,
 		id = 10390,
@@ -8431,7 +8431,7 @@ pg.skill_data_template = {
 	[10400] = {
 		desc_get = "",
 		name = "Flagship Cover",
-		desc = "While this ship is afloat: decreases the DMG taken by the fleet's Flagship by $1.",
+		desc = "While this ship is afloat: decreases the DMG your Flagship takes by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10400,
@@ -8547,7 +8547,7 @@ pg.skill_data_template = {
 	[10420] = {
 		desc_get = "",
 		name = "Preemptive Strike",
-		desc = "Reduce the cooldown timer for the first wave of own aircraft by $1.",
+		desc = "Decreases the loading time of this ship's first Airstrike by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10420,
@@ -8721,7 +8721,7 @@ pg.skill_data_template = {
 	[10450] = {
 		desc_get = "When suffering a fatal strike, feign death and evade all DMG for 5 seconds (15 seconds when fully upgraded). Also deploy an airstrike. May only use once per battle.",
 		name = "Final Counter",
-		desc = "When this ship is hit by an attack that would otherwise sink it: this ship survives and becomes invulnerable for $1s and launches an Airstrike. This skill can only activate once per battle.",
+		desc = "When this ship is hit by an attack that would otherwise sink it: this ship survives, becomes invulnerable for $1s, and launches an Airstrike. Can only activate once per battle.",
 		type = 2,
 		max_level = 10,
 		id = 10450,
@@ -9006,7 +9006,7 @@ pg.skill_data_template = {
 	[10500] = {
 		desc_get = "",
 		name = "For The Dragon Empery",
-		desc = "Increases the DMG this ship deals to enemy Sakura Empire ships by $1.",
+		desc = "Increases this ship's DMG to enemy Sakura Empire ships by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10500,
@@ -9064,7 +9064,7 @@ pg.skill_data_template = {
 	[10510] = {
 		desc_get = "",
 		name = "Revolyutsiya",
-		desc = "Increases the DMG that all friendlies in the Vanguard Fleet deal by $1.",
+		desc = "Increases your Vanguard's DMG by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10510,
@@ -9387,7 +9387,7 @@ pg.skill_data_template = {
 	[10570] = {
 		desc_get = "",
 		name = "Arsonist",
-		desc = "Increases the DMG this ship deals with HE ammo by $3, increases its chance to ignite enemies by $1, and increases the Burn DMG it deals to enemies by $2.",
+		desc = "Increases the DMG this ship deals with HE ammo by $3, its chance to ignite enemies by $1, and the Burn DMG it deals to enemies by $2.",
 		type = 1,
 		max_level = 10,
 		id = 10570,
@@ -9535,7 +9535,7 @@ pg.skill_data_template = {
 	[10580] = {
 		desc_get = "Every 35 seconds (25 seconds when fully upgraded), launch 3 torpedoes and restore own HP by 20.0% of DMG dealt.",
 		name = "Vampire's Kiss",
-		desc = "Every $1s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG they deal.",
+		desc = "Every $1s: fires 3 special torpedoes that heal this ship for 20.0% of the DMG dealt.",
 		type = 2,
 		max_level = 10,
 		id = 10580,
@@ -9588,7 +9588,7 @@ pg.skill_data_template = {
 	[10590] = {
 		desc_get = "",
 		name = "Prototype Cruiser",
-		desc = "Increases the EXP that friendly Cruisers earn after the battle by $1.",
+		desc = "Increases the EXP that friendly Cruisers earn by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10590,
@@ -9749,7 +9749,7 @@ pg.skill_data_template = {
 	[10610] = {
 		desc_get = "",
 		name = "Burn Order",
-		desc = "Increases the DMG this ship deals with HE ammo by $1 and increases its chance to ignite enemies by $2.",
+		desc = "Increases this ship's DMG with HE ammo by $1 and chance to ignite enemies by $2.",
 		type = 1,
 		max_level = 10,
 		id = 10610,
@@ -9852,7 +9852,7 @@ pg.skill_data_template = {
 	[10620] = {
 		desc_get = "",
 		name = "Destroyer Division 6: {namecode:13}",
-		desc = "When in a fleet with any member of Destroyer Division 6 ({namecode:11}, {namecode:12}, or {namecode:14}), increase Firepower, Torpedo, and Reload by $1. Effect does not stack.",
+		desc = "When sortied with Akatsuki, Hibiki, or Inazuma: increases this ship's FP, TRP, and RLD by $1. Effect does not stack.",
 		type = 1,
 		max_level = 10,
 		id = 10620,
@@ -9910,7 +9910,7 @@ pg.skill_data_template = {
 	[10630] = {
 		desc_get = "",
 		name = "Destroyer Division 6: {namecode:14}",
-		desc = "When in a fleet with any member of Destroyer Division 6 ({namecode:11}, {namecode:12}, or {namecode:13}), increase Firepower, Torpedo, and Reload by $1. Effect does not stack.",
+		desc = "When sortied with Akatsuki, Hibiki, or Ikazuchi: increases this ship's FP, TRP, and RLD by $1. Effect does not stack.",
 		type = 1,
 		max_level = 10,
 		id = 10630,
@@ -9968,7 +9968,7 @@ pg.skill_data_template = {
 	[10640] = {
 		desc_get = "",
 		name = "Iron Wing Annihilation",
-		desc = "When an enemy aircraft is shot down within this ship's Anti-Air Gun radius: increases its FP and AA (including the bonus stats from gear) by $1 for 8s. Effect does not stack, but shooting down additional aircraft will refresh its duration.",
+		desc = "When an enemy aircraft is shot down within this ship's Anti-Air Gun range: Increases this ship's FP by $1 of its total AA stat (base stats plus extra stats gained from gear) for 8s. Effect does not stack, but shooting down additional aircraft will refresh",
 		type = 1,
 		max_level = 10,
 		id = 10640,
@@ -10026,7 +10026,7 @@ pg.skill_data_template = {
 	[10650] = {
 		desc_get = "",
 		name = "Pocket Battleship",
-		desc = "Increases the DMG this ship deals to DDs and CLs by $1.",
+		desc = "Increases this ship's DMG to enemy DDs and CLs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10650,
@@ -10084,7 +10084,7 @@ pg.skill_data_template = {
 	[10660] = {
 		desc_get = "Every 35 seconds (15 seconds when fully upgraded), attack a random enemy with a guaranteed critical attack. Power and ammo based on skill's level.",
 		name = "Sniper",
-		desc = "Every $1 seconds, attack a random enemy with a guaranteed critical $2 attack. Power is based on skill's level.",
+		desc = "Every $1s: fires a special $2 barrage which will always be a Critical Hit towards a random enemy. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 10660,
@@ -10169,7 +10169,7 @@ pg.skill_data_template = {
 	[10670] = {
 		desc_get = "",
 		name = "Lone Queen of the North",
-		desc = "Increases the DMG this ship deals by $1 when there are no other BBs or BCs in the Main Fleet.",
+		desc = "Increases this ship's DMG by $1 when there are no other BBs or BCs in your Main Fleet.",
 		type = 1,
 		max_level = 10,
 		id = 10670,
@@ -10227,7 +10227,7 @@ pg.skill_data_template = {
 	[10680] = {
 		desc_get = "",
 		name = "Iron Blood Wings",
-		desc = "Reduces the DMG taken by all friendly Iron Blood ships by $1.",
+		desc = "Decreases the DMG all Iron Blood ships in your fleet take by $1.",
 		type = 2,
 		max_level = 10,
 		id = 10680,
@@ -10285,7 +10285,7 @@ pg.skill_data_template = {
 	[10690] = {
 		desc_get = "",
 		name = "Iron Blood Hawk",
-		desc = "Increase gear efficiency by $1 when using Iron Blood tech aircraft (iBF-109T, ME-155A, and JU-87C).",
+		desc = "Increases this ship's gear efficiency with Iron Blood aircraft (BF-109T, ME-155A, JU-87, etc.) by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10690,
@@ -10401,7 +10401,7 @@ pg.skill_data_template = {
 	[10710] = {
 		desc_get = "",
 		name = "Giant Hunter",
-		desc = "Increases the DMG this ship deals to enemy CAs by $1.",
+		desc = "Increases this ship's DMG to enemy CAs by $1.",
 		type = 1,
 		max_level = 10,
 		id = 10710,
@@ -10570,7 +10570,7 @@ pg.skill_data_template = {
 	[10740] = {
 		desc_get = "",
 		name = "Body of War",
-		desc = "4% chance to increase own Evasion by $1 for 8 seconds when firing.",
+		desc = "When this ship fires its Main Guns: 4.0% chance to increase this ship's EVA by $1.",
 		type = 2,
 		max_level = 10,
 		id = 10740,
@@ -10731,7 +10731,7 @@ pg.skill_data_template = {
 	[10760] = {
 		desc_get = "",
 		name = "Dragon Empery Bond ",
-		desc = "When sortied with Ning Hai, Ping Hai, or both, Yat Sen and the aforementioned ship(s) receive the following buffs: DMG taken is decreased by $1 and Evasion Rate is increased by $2.",
+		desc = "When sortied with Ning Hai, Ping Hai, or both, Yat Sen and the aforementioned ship(s) receive the following buffs: decreases DMG taken by $1 and increases Evasion Rate by $2.",
 		type = 3,
 		max_level = 10,
 		id = 10760,
@@ -10834,7 +10834,7 @@ pg.skill_data_template = {
 	[10770] = {
 		desc_get = "",
 		name = "Destroyer Division 6: {namecode:11}",
-		desc = "When in a fleet with any member of Destroyer Division 6 ({namecode:12}, {namecode:13}, or {namecode:14}), increase Firepower, Torpedo, and Reload by $1. Effect does not stack.",
+		desc = "When sortied with Hibiki, Ikazuchi, or Inazuma: increases this ship's FP, TRP, and RLD by $1. Effect does not stack.",
 		type = 1,
 		max_level = 10,
 		id = 10770,
@@ -10892,7 +10892,7 @@ pg.skill_data_template = {
 	[10780] = {
 		desc_get = "Receive a random effect every 20 seconds for 5 seconds. (Effect lasts for 10.0 seconds when fully upgraded)",
 		name = "Lucky(?) Ship",
-		desc = "Activates every 20s. For $1s: this ship receives 1 of 3 effects chosen at random. Effect may be helpful or harmful.",
+		desc = "Every 20s: this ship receives 1 of 3 effects chosen at random for $1s. Effect may be helpful or harmful.",
 		type = 2,
 		max_level = 10,
 		id = 10780,
@@ -10945,7 +10945,7 @@ pg.skill_data_template = {
 	[10790] = {
 		desc_get = "",
 		name = "Fifth Carrier Division",
-		desc = "When sortied with Zuikaku: increases this ship's AVI by $1 but increases its DMG taken by 5.0%.",
+		desc = "When sortied with Zuikaku: increases this ship's AVI by $1 but increases the DMG it takes by 5.0%.",
 		type = 3,
 		max_level = 10,
 		id = 10790,
@@ -11003,7 +11003,7 @@ pg.skill_data_template = {
 	[10800] = {
 		desc_get = "",
 		name = "Fifth Carrier Division",
-		desc = "When sortied with Shoukaku: increases this ship's AVI by $1 and decreases its DMG taken by $2.",
+		desc = "When sortied with Shoukaku: increases this ship's AVI by $1 and decreases the DMG it takes by $2.",
 		type = 3,
 		max_level = 10,
 		id = 10800,
@@ -11106,7 +11106,7 @@ pg.skill_data_template = {
 	[10810] = {
 		desc_get = "",
 		name = "Crane's Protection",
-		desc = "When this ship launches an Airstrike: increases the DMG all friendlies deal by $1 and decreases the DMG they take by $2 for 12s.",
+		desc = "When this ship launches an Airstrike: increases your entire fleet's DMG by $1 and decreases the DMG it takes by $2 for 12s.",
 		type = 2,
 		max_level = 10,
 		id = 10810,
@@ -11209,7 +11209,7 @@ pg.skill_data_template = {
 	[10820] = {
 		desc_get = "",
 		name = "Crane's Endeavor",
-		desc = "When this ship launches an Airstrike: increases the DMG all its following Airstrikes deal by $1 for the rest of the battle. Can stack up to 3 times.",
+		desc = "When this ship launches an Airstrike: increases the DMG of all its following Airstrikes by $1 for the rest of the battle. Can be stacked up to 3 times.",
 		type = 1,
 		max_level = 10,
 		id = 10820,
@@ -11267,7 +11267,7 @@ pg.skill_data_template = {
 	[10830] = {
 		desc_get = "Launch an additional barrage attack when deploying an airstrike for the first time. Power based on skill level. May only use once per battle.",
 		name = "Aviation Preparations",
-		desc = "Launch an additional barrage attack for $1 when deploying an airstrike for the first time. May only use once per battle.",
+		desc = "When this ship launches its first Airstrike: launches an additional $1 special airstrike. Can only activate once per battle.",
 		type = 1,
 		max_level = 10,
 		id = 10830,
@@ -11311,7 +11311,7 @@ pg.skill_data_template = {
 	[10840] = {
 		desc_get = "",
 		name = "Death Raid",
-		desc = "Increase own DMG by $1 and DMG taken by $2 when becoming the only surviving ship in the vanguard.",
+		desc = "While this ship is the last one afloat in your Vanguard: increases its DMG by $1 but increases the DMG it takes by $2.",
 		type = 1,
 		max_level = 10,
 		id = 10840,
@@ -11414,7 +11414,7 @@ pg.skill_data_template = {
 	[10850] = {
 		desc_get = "",
 		name = "Dark Side of Fate",
-		desc = "Reduce J type Destroyers' DMG taken by $1 and increase own DMG taken by $2 when in the same fleet as another J type destroyer.",
+		desc = "Decreases the DMG other J-class DDs in your fleet take by $1 but increases the DMG this ship takes by $2. Can only activate if there are other J-class DDs in your fleet.",
 		type = 3,
 		max_level = 10,
 		id = 10850,
@@ -11517,7 +11517,7 @@ pg.skill_data_template = {
 	[10860] = {
 		desc_get = "Every 20 seconds, 40.0% chance (70.0% fully upgraded) to activate Assault Mode EX, launching a powerful barrage and increasing torpedo stats by 30.0% for 5 seconds. Power based on skill level.",
 		name = "Assault Mode",
-		desc = "$1 chance to activate every 20s: this ship enters Assault Mode, firing a powerful barrage and increasing this ship's TRP by 30.0% for 5s.",
+		desc = "Every 20s: $1 chance for this ship to enter Assault Mode, firing a powerful barrage and increasing this ship's TRP by 30.0% for 5s.",
 		type = 1,
 		max_level = 10,
 		id = 10860,
@@ -11570,7 +11570,7 @@ pg.skill_data_template = {
 	[10870] = {
 		desc_get = "",
 		name = "2nd Torpedo Squadron",
-		desc = "While this ship is afloat: increases the TRP and RLD of all friendly CLs and DDs by $1.",
+		desc = "While this ship is afloat: increases the TRP and RLD of all CLs and DDs in your fleet by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10870,
@@ -11628,7 +11628,7 @@ pg.skill_data_template = {
 	[10880] = {
 		desc_get = "",
 		name = "Lucky Lou",
-		desc = "$1 chance to activate every 20s: increases this ship's FP, RLD, and EVA by $2 for 8s.",
+		desc = "Every 20s: $1 chance to increase this ship's FP, RLD, and EVA by $2 for 8s.",
 		type = 1,
 		max_level = 10,
 		id = 10880,
@@ -11731,7 +11731,7 @@ pg.skill_data_template = {
 	[10890] = {
 		desc_get = "Reduce own DMG received by 20.0%. In addition, increase Destroyers' and Light Cruisers' Torpedo Crit Rate by 4.0%. When fully upgraded, increase Crit Rate by 10.0% and Crit DMG by 30.0%.",
 		name = "The Unyielding Jintsuu",
-		desc = "Reduce own DMG received by 20.0%. In addition, increase Destroyers' and Light Cruisers' Torpedo Crit Rate by $1$2. ",
+		desc = "Decreases the DMG this ship takes by 20.0%. While this ship is afloat: increases all friendly DDs' and CLs' Torpedo Crit Rate by $1. $2",
 		type = 3,
 		max_level = 10,
 		id = 10890,
@@ -11820,7 +11820,7 @@ pg.skill_data_template = {
 	[10900] = {
 		desc_get = "",
 		name = "Rescue Operations",
-		desc = "When a friendly ship is sunk: $1 chance to restore $2 of this ship's max HP and restore $3 of all other friendlies' max HP.",
+		desc = "When a friendly ship sinks: $1 chance to restore $2 of this ship's max HP and restore $3 of all other friendlies' max HP.",
 		type = 2,
 		max_level = 10,
 		id = 10900,
@@ -11968,7 +11968,7 @@ pg.skill_data_template = {
 	[10910] = {
 		desc_get = "",
 		name = "Reborn Combined Fleet Flagship",
-		desc = "When this ship is attacked: $1 chance to decrease the DMG of the incoming attack by 50.0%. When sortied as the Flagship: increases the FP and RLD of all friendly Sakura Empire ships by $2.",
+		desc = "When this ship is attacked: $1 chance to decrease the DMG of the incoming attack by 50.0%. When sortied as the Flagship: increases the FP and RLD of all Sakura Empire ships in your fleet by $2.",
 		type = 3,
 		max_level = 10,
 		id = 10910,
@@ -12071,7 +12071,7 @@ pg.skill_data_template = {
 	[10920] = {
 		desc_get = "When firing the Main Gun, 30.0% chance (60.0% when fully upgraded) to increase Battlecruisers' and Battleships' DMG by 5.0% (20.0% when fully upgraded) for 8 seconds.",
 		name = "T-Cross Formation",
-		desc = "When this ship fires its Main Guns: $1 chance to increase the DMG all friendly BCs and BBs deal by $2 for 8s.",
+		desc = "When this ship fires its Main Guns: $1 chance to increase the DMG of all BCs and BBs in your fleet by $2 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 10920,
@@ -12174,7 +12174,7 @@ pg.skill_data_template = {
 	[10930] = {
 		desc_get = "",
 		name = "Prestige",
-		desc = "10s after the battle begins and with a 20.0% chance every 20s after that: for 8s, absorbs $1 of the DMG the Main Fleet takes and increases the DMG one random enemy takes by $2.",
+		desc = "10s after the battle begins and 20.0% chance every 20s after that: for 8s, absorbs $1 of the DMG your Main Fleet takes and increases the DMG one random enemy takes by $2.",
 		type = 3,
 		max_level = 10,
 		id = 10930,
@@ -12277,7 +12277,7 @@ pg.skill_data_template = {
 	[10940] = {
 		desc_get = "Every 20 seconds, 40.0% chance (70.0% when fully upgraded) to activate Demon Dance, launching a powerful barrage and increasing Evasion by 30.0% for 5 seconds. Power based on skill level.",
 		name = "Demon Dance",
-		desc = "$1 chance to activate every 20s: this ship begins its Demon Dance, firing a powerful barrage and increasing its EVA by 30.0% for 5s.",
+		desc = "Every 20s: $1 chance for this ship to begin its Demon Dance, firing a powerful barrage and increasing its EVA by 30.0% for 5s.",
 		type = 2,
 		max_level = 10,
 		id = 10940,
@@ -12527,7 +12527,7 @@ pg.skill_data_template = {
 	[10970] = {
 		desc_get = "",
 		name = "Fighting Mary",
-		desc = "As Maryland's HP decreases, starting at below $1: increases the DMG she deals based on how low her HP is, up to a maximum of $2.",
+		desc = "As Maryland's HP decreases, starting at below $1: increases her DMG based on how low her HP is, up to a maximum of $2.",
 		type = 1,
 		max_level = 10,
 		id = 10970,
@@ -12630,7 +12630,7 @@ pg.skill_data_template = {
 	[10980] = {
 		desc_get = "",
 		name = "Air Cover",
-		desc = "While this ship is afloat: reduces the DMG the Main Fleet takes from enemy aircraft by $1.",
+		desc = "While this ship is afloat: decreases the DMG your Main Fleet takes from enemy aircraft by $1.",
 		type = 3,
 		max_level = 10,
 		id = 10980,
@@ -12688,7 +12688,7 @@ pg.skill_data_template = {
 	[10990] = {
 		desc_get = "",
 		name = "AA Firepower",
-		desc = "Increases this ship's FP by $1 of the total AA stat (base stats plus extra stats gained from gear) of this ship.",
+		desc = "Increases this ship's FP by $1 of its total AA stat (base stats plus extra stats gained from gear).",
 		type = 1,
 		max_level = 10,
 		id = 10990,
@@ -12746,7 +12746,7 @@ pg.skill_data_template = {
 	[11000] = {
 		desc_get = "Every 20 seconds, 40.0% chance (70.0% when fully upgraded) to launch a powerful barrage. Power based on skill level.",
 		name = "Courageous Shelling",
-		desc = "$1 chance every 20s: fires a special barrage.",
+		desc = "Every 20s: $1 chance to fire a special barrage.",
 		type = 1,
 		max_level = 10,
 		id = 11000,
@@ -12809,7 +12809,7 @@ pg.skill_data_template = {
 	[11010] = {
 		desc_get = "",
 		name = "Night of the Iron Bottom Sound",
-		desc = "Activates when (friendly only) South Dakota's HP falls below 30.0%: increases the DMG this ship deals by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. This skill can only activate once per battle.",
+		desc = "Activates when friendly South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate",
 		type = 2,
 		max_level = 10,
 		id = 11010,
@@ -12867,7 +12867,7 @@ pg.skill_data_template = {
 	[11020] = {
 		desc_get = "",
 		name = "Double Sting ",
-		desc = "When this ship launches an Airstrike and if there are 1 or more friendly Royal Navy ships in the Main Fleet: $1 chance to launch an additional airstrike with Seafires.",
+		desc = "If there are 1 or more friendly Royal Navy ships in your Main Fleet when this ship launches an Airstrike: $1 chance to launch an additional Seafire airstrike.",
 		type = 1,
 		max_level = 10,
 		id = 11020,
@@ -12925,7 +12925,7 @@ pg.skill_data_template = {
 	[11030] = {
 		desc_get = "",
 		name = "Miracle Wind",
-		desc = "While Tanikaze is the last ship afloat in the Vanguard Fleet: increases her EVA by $1 and decreases the DMG she takes from enemy aircraft by $2.",
+		desc = "While Tanikaze is the last ship afloat in your Vanguard: increases her EVA by $1 and decreases the DMG she takes from enemy aircraft by $2.",
 		type = 2,
 		max_level = 10,
 		id = 11030,
@@ -13028,7 +13028,7 @@ pg.skill_data_template = {
 	[11040] = {
 		desc_get = "",
 		name = "An Shan Name Ship",
-		desc = "Increases An Shan-class ships' Firepower and Accuracy by $1 and Evasion by $2.",
+		desc = "Increases the Accuracy and FP by $1 and EVA by $2 of all An Shan-class DDs in your fleet.",
 		type = 3,
 		max_level = 10,
 		id = 11040,
@@ -13189,7 +13189,7 @@ pg.skill_data_template = {
 	[11060] = {
 		desc_get = "",
 		name = "Mutual Assistance",
-		desc = "Increases the FP, RLD, and Accuracy of all friendly Northen Union and Dragon Empery ships in the Vanguard Fleet by $1.",
+		desc = "Increases the FP, RLD, and Accuracy of all Northen Union and Dragon Empery ships in your Vanguard by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11060,
@@ -13350,7 +13350,7 @@ pg.skill_data_template = {
 	[11080] = {
 		desc_get = "",
 		name = "Silver Phantom",
-		desc = "Increases the DMG this ship deals to DDs, Cargo Ships, Torpedo Ships, and Bombing Ships by $1.",
+		desc = "Increases this ship's DMG to DDs, Cargo Ships, Torpedo Ships, and Bombing Ships by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11080,
@@ -13408,7 +13408,7 @@ pg.skill_data_template = {
 	[11090] = {
 		desc_get = "",
 		name = "The Light of Dawn",
-		desc = "Decreases the Evasion Rate of enemy Destroyers and Light Cruisers by $1 while alive.",
+		desc = "While this ship is afloat: decreases the Evasion Rate of all enemy DDs and CLs by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11090,
@@ -13519,7 +13519,7 @@ pg.skill_data_template = {
 	[11110] = {
 		desc_get = "",
 		name = "Trepidation of Destruction",
-		desc = "During battle, increase first round of Main Gun DMG by $1. When Main Gun hits an enemy target, increase that target's DMG taken by $2 for 8 seconds.",
+		desc = "Increases the DMG of the first Salvo fired from this ship's Main Guns. When this ship hits an enemy with its Main Guns: increases the DMG the enemy takes by $2 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 11110,
@@ -13622,7 +13622,7 @@ pg.skill_data_template = {
 	[11120] = {
 		desc_get = "",
 		name = "Victorious Song",
-		desc = "Increase DMG dealt to enemy Battleships by $1 and reduce DMG taken from volleys by $1.",
+		desc = "Increases this ship's DMG to enemy BBs by $1 and decreases the DMG it takes from Salvo-based attacks by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11120,
@@ -13680,7 +13680,7 @@ pg.skill_data_template = {
 	[11130] = {
 		desc_get = "",
 		name = "First Destroyer",
-		desc = "When being hit by a torpedo, $1 chance to reduce DMG taken from torpedoes by $2 and increase own Torpedo DMG by $2 for 4 seconds.",
+		desc = "When this ship is hit by a torpedo: $1 chance to decrease the DMG of the incoming attack by $2 and increase this ship's TRP by $2 for 4s.",
 		type = 1,
 		max_level = 10,
 		id = 11130,
@@ -13886,7 +13886,7 @@ pg.skill_data_template = {
 	[11150] = {
 		desc_get = "",
 		name = "Counterattack of the Barents Sea",
-		desc = "Increase Crit Rate of Main Gun by $1 and Crit DMG by 30%.",
+		desc = "Increases this ship's Main Gun Crit Rate by $1 and increases its Crit DMG by 30.0%.",
 		type = 1,
 		max_level = 10,
 		id = 11150,
@@ -13944,7 +13944,7 @@ pg.skill_data_template = {
 	[11160] = {
 		desc_get = "",
 		name = "Crete's Black Cloud",
-		desc = "Every 20 seconds, reduce enemy's DMG by $1 and increase own Anti-Air by $2 for 6 seconds.",
+		desc = "Every 20s: increases this ship's AA by $2 and decreases the DMG all friendlies take by $1 for 6s.",
 		type = 2,
 		max_level = 10,
 		id = 11160,
@@ -14105,7 +14105,7 @@ pg.skill_data_template = {
 	[11180] = {
 		desc_get = "",
 		name = "Calibrated Firing",
-		desc = "Every 20 seconds, increase own Torpedo DMG by $1. May stack up to 8 times.",
+		desc = "Every 20s: increases this ship's Torpedo DMG by $1. Can be stacked up to 8 times.",
 		type = 1,
 		max_level = 10,
 		id = 11180,
@@ -14163,7 +14163,7 @@ pg.skill_data_template = {
 	[11190] = {
 		desc_get = "",
 		name = "Accompanying Wind ",
-		desc = "When in the same fleet as Hamakaze, increases own Firepower, Torpedo, Reload, and Anti-Air by $1 ",
+		desc = "When sortied with Hamakaze: increases this ship's FP, TRP, RLD, and AA by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11190,
@@ -14221,7 +14221,7 @@ pg.skill_data_template = {
 	[11200] = {
 		desc_get = "",
 		name = "Legend of the Solomons",
-		desc = "$1 chance to activate every 20s: increases the Accuracy and FP of all friendly Cruisers by $2 and decrease the DMG they take by $3 for 8s.",
+		desc = "Every 20s: $1 chance to increase the Accuracy and FP of all Cruisers in your fleet by $2 and decrease the DMG they take by $3 for 8s.",
 		type = 3,
 		max_level = 10,
 		id = 11200,
@@ -14369,7 +14369,7 @@ pg.skill_data_template = {
 	[11210] = {
 		desc_get = "",
 		name = "Annihilation Mode",
-		desc = "$1 chance to activate every 20s: this ship enters Annihilation Mode, firing a powerful barrage and increasing this ship's RLD by 200.0% for 10s.",
+		desc = "Every 20s: $1 chance for this ship to enter Annihilation Mode, firing a powerful barrage and increasing this ship's RLD by 200.0% for 10s.",
 		type = 1,
 		max_level = 10,
 		id = 11210,
@@ -14427,7 +14427,7 @@ pg.skill_data_template = {
 	[11220] = {
 		desc_get = "",
 		name = "Suppression Fire",
-		desc = "For every 5 times torpedoes hit enemies, increase own Firepower by $1. May stack up to 3 times.",
+		desc = "Every time this ship lands 5 hits with its Torpedoes: increases its FP by $1. Can be stacked up to 3 times.",
 		type = 1,
 		max_level = 10,
 		id = 11220,
@@ -14485,7 +14485,7 @@ pg.skill_data_template = {
 	[11230] = {
 		desc_get = "",
 		name = "Yukikaze of Kure ",
-		desc = "While this ship is afloat: decreases the DMG taken by the Main Fleet by $1. Once per battle, when a friendly Main Fleet ship's HP falls below 20.0%: heals them for $2 of their max HP.",
+		desc = "While this ship is afloat: decreases the DMG your Main Fleet takes by $1. Once per battle, when a friendly Main Fleet ship's HP falls below 20.0%: heals them for $2 of their max HP.",
 		type = 3,
 		max_level = 10,
 		id = 11230,
@@ -14646,7 +14646,7 @@ pg.skill_data_template = {
 	[11250] = {
 		desc_get = "",
 		name = "Leyte Gulf's Blitz",
-		desc = "Increases this ship's FP by $3. $1 chance to activate every 20s: increases the FP and TRP of all friendly Cruisers by $2 for 10s.",
+		desc = "Increases this ship's FP by $3. Every 20s: $1 chance to increase the FP and TRP of all Cruisers in your fleet by $2 for 10s.",
 		type = 3,
 		max_level = 10,
 		id = 11250,
@@ -14794,7 +14794,7 @@ pg.skill_data_template = {
 	[11260] = {
 		desc_get = "When deploying both the first and second airstrike during battle, launch an additional airstrike. Power based on level.",
 		name = "Eagle's Defiance",
-		desc = "When deploying both the first and second airstrike during battle, launch an additional airstrike ($1).",
+		desc = "When this ship launches its first and second Airstrike: launches an additional $1 special airstrike.",
 		type = 1,
 		max_level = 10,
 		id = 11260,
@@ -14838,7 +14838,7 @@ pg.skill_data_template = {
 	[11270] = {
 		desc_get = "",
 		name = "Blaze of Glory",
-		desc = "Increases the DMG this ship deals to enemy BBs by $1. When this ship fires its Main Guns: $2 chance to fire a special barrage (uses Type 3 Ammo.) Barrage damage is based on the skill's level.",
+		desc = "Increases this ship's DMG to enemy BBs by $1. When this ship fires its Main Guns: $2 chance to fire a special barrage (uses Type 3 Ammo.) Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 11270,
@@ -15161,7 +15161,7 @@ pg.skill_data_template = {
 	[11310] = {
 		desc_get = "",
 		name = "4th Combined Fleet Flagship",
-		desc = "When sortied as the Flagship: increases all friendly Sakura Empire ships' FP by $2 and RLD and Accuracy by $1. Also increases the DMG that all friendly Sakura Empire Carriers deal by $1.",
+		desc = "When sortied as the Flagship: increases all friendly Sakura Empire ships' FP by $2 and RLD and Accuracy by $1. Also increases the DMG of all friendly Sakura Empire Carriers by $1.",
 		type = 3,
 		max_level = 10,
 		id = 11310,
@@ -15264,7 +15264,7 @@ pg.skill_data_template = {
 	[11320] = {
 		desc_get = "",
 		name = "Destruction Mode",
-		desc = "$1 chance to activate every 20s: this ship enters Destruction Mode, firing a powerful barrage, deploying 2 rotating shields that can each block up to 5 shells (shields last for 10s) and increases this ship's Main Gun Crit Rate to 100% for 10s.",
+		desc = "Every 20s: $1 chance for this ship to enter Destruction Mode, firing a powerful barrage, deploying 2 rotating shields that can each block up to 5 shells (shields last for 10s,) and increasing this ship's Main Gun Crit Rate to 100% for 10s.",
 		type = 1,
 		max_level = 10,
 		id = 11320,
@@ -15644,7 +15644,7 @@ pg.skill_data_template = {
 	[11370] = {
 		desc_get = "8s after this boat enters the battle: fires a torpedo barrage $1 that can pierce through enemies, damaging up to 2 targets per torpedo. Barrage damage is based on the skill's level. ",
 		name = "Fatal Perforation ",
-		desc = "8s after this boat enters the battle: fires a torpedo barrage that can pierce through armor, damaging up to 2 targets per torpedo. Barrage damage is based on the skill's level. ",
+		desc = "8s after this boat enters the battle: fires a $1 torpedo barrage that can pierce through enemies, damaging up to 2 targets per torpedo. Barrage damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 11370,
@@ -16193,7 +16193,7 @@ pg.skill_data_template = {
 	[11450] = {
 		desc_get = "",
 		name = "Firepower Overload",
-		desc = "$1 chance to activate every 20s: increases this ship's FP by $2 and RLD by $3 for 10s. Once the effect ends: decreases this ship's RLD by 100% for 3s.",
+		desc = "Every 20s: $1 chance to increase this ship's FP by $2 and RLD by $3 for 10s. Once the effect ends: decreases this ship's RLD by 100% for 3s.",
 		type = 1,
 		max_level = 10,
 		id = 11450,
@@ -16560,7 +16560,7 @@ pg.skill_data_template = {
 	[11480] = {
 		desc_get = "",
 		name = "Battle of Kula Gulf ",
-		desc = "$1 chance to activate every 20s: increases this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a friendly in the Vanguard Fleet falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also restores 8.0% of her max HP.",
+		desc = "Every 20s: $1 chance to increase this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a friendly in the Vanguard falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also resto",
 		type = 2,
 		max_level = 10,
 		id = 11480,
@@ -17472,7 +17472,7 @@ pg.skill_data_template = {
 	[11600] = {
 		desc_get = "10s after each battle begins, launch an aerial barrage (damage dealt is based on skill level) when the first enemy enters her anti-air range, 10s cooldown. ",
 		name = "Melee Artillery",
-		desc = "Fires a $1 special barrage at enemies that come within close range of this ship. May only activate 10s after the battle begins, and has a 10s cooldown every time it activates.",
+		desc = "Fires a $1 special barrage at enemies that come within close range of this ship. Has a 10s cooldown between activations. Starts the battle on cooldown.",
 		type = 1,
 		max_level = 10,
 		id = 11600,
@@ -17525,7 +17525,7 @@ pg.skill_data_template = {
 	[11610] = {
 		desc_get = "Reduces cooldown by 5% (25% at max skill level) and will send extra Comet (damage dealt is based on skill level) for the first two waves of own air support in each battle; when paired with another Carrier in the same fleet, then the usage of this skill becomes unlimited. ",
 		name = "Aviation Battleship Fleet",
-		desc = "For the first 2 Airstrikes this ship launches: Airstrike reload time is decreased by $1, and launches extra $2 Suiseis with each Airstrike. If there are 1 or more friendly CVs or CVLs in the same fleet: the aforementioned effects apply to all of this ship's Airstrikes.",
+		desc = "For the first 2 Airstrikes this ship launches: Airstrike reload time is decreased by $1, and launches extra $2 Suiseis with each Airstrike. If there are 1 or more CVs or CVLs in your fleet: the aforementioned effects apply to all of this ship's Airstrikes",
 		type = 1,
 		max_level = 10,
 		id = 11610,
@@ -18343,7 +18343,7 @@ pg.skill_data_template = {
 	[11710] = {
 		desc_get = "",
 		name = "Dullahan ",
-		desc = "When this ship's HP falls below 30.0%: reduces the DMG it takes by $2 for the rest of the battle, and for 16s: reduces its Speed by 2 and recovers $1 of its max HP every 3s. This skill can only activate once per battle.",
+		desc = "When this ship's HP falls below 30.0%: decreases the DMG it takes by $2 for the rest of the battle, and for 16s: decreases its Speed by 2 and recovers $1 of its max HP every 3s. Can only activate once per battle.",
 		type = 2,
 		max_level = 10,
 		id = 11710,
@@ -18549,7 +18549,7 @@ pg.skill_data_template = {
 	[11730] = {
 		desc_get = "",
 		name = "Little Star",
-		desc = "15s after the battle begins: increases the FP, RLD, and EVA of all friendlies by $1 for 20s.",
+		desc = "15s after the battle begins: increases the FP, RLD, and EVA of your entire fleet by $1 for 20s.",
 		type = 3,
 		max_level = 10,
 		id = 11730,
@@ -18665,7 +18665,7 @@ pg.skill_data_template = {
 	[11750] = {
 		desc_get = "",
 		name = "Light Carrier Unit ",
-		desc = "When this ship launches an Airstrike: $1 chance to increase the RLD of all friendly Carriers by $2 and decrease the DMG they take by $2 for 8s.",
+		desc = "When this ship launches an Airstrike: $1 chance to increase the RLD of all Carriers in your fleet by $2 and decrease the DMG they take by $2 for 8s.",
 		type = 1,
 		max_level = 10,
 		id = 11750,
@@ -18768,7 +18768,7 @@ pg.skill_data_template = {
 	[11760] = {
 		desc_get = "",
 		name = "Raid Signal ",
-		desc = "5s after this ship has launched an Airstrike: launches an additional airstrike with a bomber squadron ($1). This skill can only active twice per battle.",
+		desc = "5s after this ship has finished loading its Airstrike: launches an additional Dive Bomber airstrike ($1). Can only activate twice per battle.",
 		type = 1,
 		max_level = 10,
 		id = 11760,
@@ -18884,7 +18884,7 @@ pg.skill_data_template = {
 	[11790] = {
 		desc_get = "",
 		name = "Efficacious Planning ",
-		desc = "While this ship is afloat: decreases the Burn DMG taken by all friendlies in the Main Fleet by $1 and increases their Evasion Rate by $2.",
+		desc = "While this ship is afloat: decreases the Burn DMG your Main Fleet takes by $1 and increases their Evasion Rate by $2.",
 		type = 2,
 		max_level = 10,
 		id = 11790,
@@ -18987,7 +18987,7 @@ pg.skill_data_template = {
 	[11800] = {
 		desc_get = "",
 		name = "Crippling Strike",
-		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Barrage damage is based on the skill's level. If the fleet contains 4 or more Sakura Empire ships: the loading time of the first Main Gun salvo is decreased by $2.",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Barrage damage is based on the skill's level. If your fleet contains 4 or more Sakura Empire ships: the loading time of the first Main Gun Salvo is decreased by $2.",
 		type = 1,
 		max_level = 10,
 		id = 11800,
@@ -19211,7 +19211,7 @@ pg.skill_data_template = {
 	[11850] = {
 		desc_get = "",
 		name = "Flashing Blade of Surabaya",
-		desc = "$1 chance to activate every 20s: fires a special barrage, increases this ship's FP by $2, and increases the DMG this ship deals to enemy CLs and CAs by $2 for 10s.",
+		desc = "Every 20s: $1 chance to fire a special barrage, increase this ship's FP by $2, and increase this ship's DMG to enemy CLs and CAs by $2 for 10s.",
 		type = 1,
 		max_level = 10,
 		id = 11850,
@@ -19314,7 +19314,7 @@ pg.skill_data_template = {
 	[11860] = {
 		desc_get = "",
 		name = "Mark of Sirius ",
-		desc = "Increases the AVI of all friendly CVs and CVLs by $1 and increases their Hit Rate against DDs, CLs, and CAs by $1. Additionally, for each friendly CV or CVL in the Main Fleet: increases this ship's FP, TRP, and RLD by $2.",
+		desc = "Increases the AVI of all your CVs and CVLs by $1 and increases their Hit Rate against DDs, CLs, and CAs by $1. Additionally, for each CV or CVL in your fleet: increases this ship's FP, TRP, and RLD by $2.",
 		type = 3,
 		max_level = 10,
 		id = 11860,
@@ -19520,7 +19520,7 @@ pg.skill_data_template = {
 	[11900] = {
 		desc_get = "",
 		name = "Protector of The North Passage",
-		desc = "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for $1s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Submarine torpedoes. Torpedo damage is based on the skill's level.",
+		desc = "When this ship launches an Airstrike: commences a Scan that reveals the location of all enemy Submarines for $1s. Additionally, launches a special airstrike with Swordfishes armed with Anti-Sub torpedoes. Torpedo damage is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 11900,
@@ -19923,10 +19923,1259 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[18010] = {
+		desc_get = "",
+		name = "MKV-Class AP Shell +",
+		desc = "Increases this ship's DMG with AP ammo by $1.",
+		type = 1,
+		max_level = 10,
+		id = 18010,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[18040] = {
+		desc_get = "",
+		name = "Against the Current+",
+		desc = "When this ship's HP falls below 20.0%: restores 15.0% of its max HP over 10s. This effect can only activate once per battle. Additionally, for every 1.0% of max HP lost since the start of the battle: increases this ship's RLD by $1.",
+		type = 2,
+		max_level = 10,
+		id = 18040,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"0.6",
+				"1"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"0.6",
+					"+0.04"
+				},
+				{
+					"0.64",
+					"+0.04"
+				},
+				{
+					"0.68",
+					"+0.05"
+				},
+				{
+					"0.73",
+					"+0.04"
+				},
+				{
+					"0.77",
+					"+0.04"
+				},
+				{
+					"0.81",
+					"+0.05"
+				},
+				{
+					"0.86",
+					"+0.04"
+				},
+				{
+					"0.9",
+					"+0.04"
+				},
+				{
+					"0.94",
+					"+0.06"
+				},
+				{
+					"1"
+				}
+			}
+		}
+	},
+	[18050] = {
+		desc_get = "",
+		name = "Body and Soul+",
+		desc = "Increases this ship's Torpedo Crit Rate by $1 and Torpedo Crit DMG by 65.0%. Additionally, when this ship fires its Torpedoes: increases this ship's EVA by $2 for 6s.",
+		type = 1,
+		max_level = 10,
+		id = 18050,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[18070] = {
+		desc_get = "",
+		name = "A Legend's Inheritance+",
+		desc = "When this ship fires its Main Guns: $1 chance to fire an improved special barrage. Barrage damage is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 18070,
+		system_transform = {
+			18071,
+			18071,
+			nil,
+			18071,
+			nil,
+			18071,
+			nil,
+			18071,
+			18071
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[18100] = {
+		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#A9F548FF>5</color>s (<color=#A9F548FF>15</color>s when fully upgraded.)",
+		name = "Well-Rounded Armor+",
+		desc = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
+		type = 2,
+		max_level = 10,
+		id = 18100,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10",
+					"+1"
+				},
+				{
+					"11",
+					"+1"
+				},
+				{
+					"12",
+					"+1"
+				},
+				{
+					"13",
+					"+2"
+				},
+				{
+					"15"
+				}
+			}
+		}
+	},
+	[18120] = {
+		desc_get = "Increases this ship's Speed by <color=#A9F548FF>3</color> (<color=#A9F548FF>8</color> when fully upgraded.) At the start of the battle: increases this ship's EVA by <color=#A9F548FF>15.0%</color> (<color=#A9F548FF>35.0%</color> when fully upgraded) for 50s.",
+		name = "Engine Boost+",
+		desc = "Increases this ship's Speed by $1. At the start of the battle: increases this ship's EVA by $2 for 50s.",
+		type = 2,
+		max_level = 10,
+		id = 18120,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"3",
+					"+0.5"
+				},
+				{
+					"3.5",
+					"+0.5"
+				},
+				{
+					"4",
+					"+0.5"
+				},
+				{
+					"4.5",
+					"+0.5"
+				},
+				{
+					"5",
+					"+0.5"
+				},
+				{
+					"5.5",
+					"+0.5"
+				},
+				{
+					"6",
+					"+0.5"
+				},
+				{
+					"6.5",
+					"+0.5"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
+	[19000] = {
+		desc_get = "",
+		name = "Siren Killer Ⅰ",
+		desc = "Increases this ship's DMG to Sirens by 5.0%.",
+		type = 1,
+		max_level = 1,
+		id = 19000,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[19001] = {
+		desc_get = "",
+		name = "Siren Killer Ⅱ",
+		desc = "Increases this ship's DMG to Sirens by 10.0%.",
+		type = 1,
+		max_level = 1,
+		id = 19001,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[19002] = {
+		desc_get = "",
+		name = "Siren Killer Ⅲ",
+		desc = "Increases this ship's DMG to Sirens by 15.0%.",
+		type = 1,
+		max_level = 1,
+		id = 19002,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[19010] = {
+		desc_get = "",
+		name = "MKV-Class AP Shell",
+		desc = "Increases this ship's DMG with AP ammo by $1.",
+		type = 1,
+		max_level = 10,
+		id = 19010,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
+	[19020] = {
+		desc_get = "",
+		name = "Goddess of the Sea",
+		desc = "When this ship's HP falls below 20.0%: restores $1 of its max HP and increases this ship's RLD by 30.0% for the rest of the battle. Can only activate once per battle.",
+		type = 2,
+		max_level = 10,
+		id = 19020,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15%",
+				"25%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[19030] = {
+		desc_get = "",
+		name = "Monarch's Coercion",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Decreases the Speed of enemies hit by the barrage by $2 for 6s. Barrage damage is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 19030,
+		system_transform = {
+			19031,
+			19031,
+			nil,
+			19031,
+			nil,
+			19031,
+			nil,
+			19031,
+			19031
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[19040] = {
+		desc_get = "",
+		name = "Against the Current",
+		desc = "When this ship's HP falls below 20.0%: restores 12.0% of its max HP over 8s. This effect can only activate once per battle. Additionally, for every 1.0% of max HP lost since the start of the battle: increases this ship's RLD by $1.",
+		type = 2,
+		max_level = 10,
+		id = 19040,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"0.6",
+				"1"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"0.6",
+					"+0.04"
+				},
+				{
+					"0.64",
+					"+0.04"
+				},
+				{
+					"0.68",
+					"+0.05"
+				},
+				{
+					"0.73",
+					"+0.04"
+				},
+				{
+					"0.77",
+					"+0.04"
+				},
+				{
+					"0.81",
+					"+0.05"
+				},
+				{
+					"0.86",
+					"+0.04"
+				},
+				{
+					"0.9",
+					"+0.04"
+				},
+				{
+					"0.94",
+					"+0.06"
+				},
+				{
+					"1"
+				}
+			}
+		}
+	},
+	[19050] = {
+		desc_get = "",
+		name = "Body and Soul",
+		desc = "Increases this ship's Torpedo Crit Rate by $1 and Torpedo Crit DMG by 65.0%.",
+		type = 1,
+		max_level = 10,
+		id = 19050,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[19060] = {
+		desc_get = "",
+		name = "Flash of Lightning",
+		desc = "When this ship fires its Torpedoes: $1 chance to launch a special torpedo barrage. Barrage damage is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 19060,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
+	[19070] = {
+		desc_get = "",
+		name = "A Legend's Inheritance",
+		desc = "When this ship fires its Main Guns: $1 chance to fire a special barrage. Barrage damage is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 19070,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			}
+		}
+	},
+	[19080] = {
+		desc_get = "",
+		name = "Specialized Armor",
+		desc = "Decreases the AP DMG this ship takes by $1 but slightly increases this ship's chance of catching fire (depends on the enemy's weapon caliber; maximum of 6.0%) and extends the duration it burns by 3s.",
+		type = 2,
+		max_level = 10,
+		id = 19080,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15%",
+				"30%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%",
+					"+1.5%"
+				},
+				{
+					"21.5%",
+					"+1.5%"
+				},
+				{
+					"23.0%",
+					"+2.0%"
+				},
+				{
+					"25.0%",
+					"+1.5%"
+				},
+				{
+					"26.5%",
+					"+1.5%"
+				},
+				{
+					"28.0%",
+					"+2.0%"
+				},
+				{
+					"30.0%"
+				}
+			}
+		}
+	},
+	[19090] = {
+		desc_get = "",
+		name = "Expert Loader",
+		desc = "Changes the ammo type of this ship's Main Guns to HE. Every time this ship fires its Main Guns: increases this ship's reload by $1 (can be stacked up to 12 times.) The ammo type of this ship's Main Guns will alternate between HE and AP every 2 shots.",
+		type = 1,
+		max_level = 10,
+		id = 19090,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"3.5%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.3%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.4%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%"
+				}
+			}
+		}
+	},
+	[19100] = {
+		desc_get = "Every 30 seconds, deploy 4 rotating shields which can block up to 8 rounds each. Shields last for 5 seconds (15 seconds when fully upgraded).",
+		name = "Well-Rounded Armor",
+		desc = "Every 30s: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
+		type = 2,
+		max_level = 10,
+		id = 19100,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10",
+					"+1"
+				},
+				{
+					"11",
+					"+1"
+				},
+				{
+					"12",
+					"+1"
+				},
+				{
+					"13",
+					"+2"
+				},
+				{
+					"15"
+				}
+			}
+		}
+	},
+	[19110] = {
+		desc_get = "",
+		name = "Augmented HE Ammo",
+		desc = "Increases this ship's DMG with HE ammo by $1 but decreases its chance to ignite enemies by 3.0%.",
+		type = 1,
+		max_level = 10,
+		id = 19110,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"35.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
+	[19120] = {
+		desc_get = "Increase Speed by 3 (increase by 8 when fully upgraded). When battle begins, increase Evasion by 15% (35% when fully upgraded) for 40 seconds.",
+		name = "Engine Boost",
+		desc = "Increases this ship's Speed by $1. At the start of the battle: increases this ship's EVA by $2 for 40s.",
+		type = 2,
+		max_level = 10,
+		id = 19120,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"3",
+					"+0.5"
+				},
+				{
+					"3.5",
+					"+0.5"
+				},
+				{
+					"4",
+					"+0.5"
+				},
+				{
+					"4.5",
+					"+0.5"
+				},
+				{
+					"5",
+					"+0.5"
+				},
+				{
+					"5.5",
+					"+0.5"
+				},
+				{
+					"6",
+					"+0.5"
+				},
+				{
+					"6.5",
+					"+0.5"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+2.2%"
+				},
+				{
+					"17.2%",
+					"+2.2%"
+				},
+				{
+					"19.4%",
+					"+2.2%"
+				},
+				{
+					"21.6%",
+					"+2.2%"
+				},
+				{
+					"23.8%",
+					"+2.2%"
+				},
+				{
+					"26.0%",
+					"+2.2%"
+				},
+				{
+					"28.2%",
+					"+2.2%"
+				},
+				{
+					"30.4%",
+					"+2.2%"
+				},
+				{
+					"32.6%",
+					"+2.4%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
 	[20011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Farragut Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Farragut Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20011,
@@ -19937,7 +21186,7 @@ pg.skill_data_template = {
 	[20012] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault I: Farragut Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Farragut Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20012,
@@ -19948,7 +21197,7 @@ pg.skill_data_template = {
 	[20021] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Mahan Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Mahan Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20021,
@@ -19959,7 +21208,7 @@ pg.skill_data_template = {
 	[20022] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Mahan Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Mahan Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20022,
@@ -19970,7 +21219,7 @@ pg.skill_data_template = {
 	[20031] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Gridley Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Gridley Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20031,
@@ -19981,7 +21230,7 @@ pg.skill_data_template = {
 	[20032] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Gridley Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Gridley Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20032,
@@ -19992,7 +21241,7 @@ pg.skill_data_template = {
 	[20041] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Fletcher Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Fletcher Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20041,
@@ -20003,7 +21252,7 @@ pg.skill_data_template = {
 	[20042] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Fletcher Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Fletcher Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20042,
@@ -20014,7 +21263,7 @@ pg.skill_data_template = {
 	[20051] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Sims Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Sims Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20051,
@@ -20025,7 +21274,7 @@ pg.skill_data_template = {
 	[20052] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Sims Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Sims Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20052,
@@ -20036,7 +21285,7 @@ pg.skill_data_template = {
 	[20061] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Benson Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Benson Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20061,
@@ -20047,7 +21296,7 @@ pg.skill_data_template = {
 	[20062] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Benson Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Benson Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20062,
@@ -20058,7 +21307,7 @@ pg.skill_data_template = {
 	[20071] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Gearing Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Gearing Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20071,
@@ -20069,7 +21318,7 @@ pg.skill_data_template = {
 	[20072] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Gearing Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Gearing Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20072,
@@ -20080,7 +21329,7 @@ pg.skill_data_template = {
 	[20111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Omaha Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Omaha Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20111,
@@ -20091,7 +21340,7 @@ pg.skill_data_template = {
 	[20112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Omaha Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Omaha Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20112,
@@ -20102,7 +21351,7 @@ pg.skill_data_template = {
 	[20121] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Brooklyn Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Brooklyn Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20121,
@@ -20113,7 +21362,7 @@ pg.skill_data_template = {
 	[20122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Brooklyn Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Brooklyn Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20122,
@@ -20124,7 +21373,7 @@ pg.skill_data_template = {
 	[20131] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Atlanta Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Atlanta Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20131,
@@ -20135,7 +21384,7 @@ pg.skill_data_template = {
 	[20132] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Atlanta Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Atlanta Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20132,
@@ -20146,7 +21395,7 @@ pg.skill_data_template = {
 	[20141] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Cleveland Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Cleveland Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20141,
@@ -20157,7 +21406,7 @@ pg.skill_data_template = {
 	[20142] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Cleveland Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Cleveland Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20142,
@@ -20168,7 +21417,7 @@ pg.skill_data_template = {
 	[20211] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Pensacola Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Pensacola Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20211,
@@ -20179,7 +21428,7 @@ pg.skill_data_template = {
 	[20212] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Pensacola Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Pensacola Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20212,
@@ -20190,7 +21439,7 @@ pg.skill_data_template = {
 	[20221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Northampton Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Northampton Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20221,
@@ -20201,7 +21450,7 @@ pg.skill_data_template = {
 	[20222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Northampton Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Northampton Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20222,
@@ -20212,7 +21461,7 @@ pg.skill_data_template = {
 	[20231] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Portland Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Portland Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20231,
@@ -20223,7 +21472,7 @@ pg.skill_data_template = {
 	[20232] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Portland Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Portland Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20232,
@@ -20234,7 +21483,7 @@ pg.skill_data_template = {
 	[20241] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: New Orleans Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: New Orleans Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20241,
@@ -20245,7 +21494,7 @@ pg.skill_data_template = {
 	[20242] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: New Orleans Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: New Orleans Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20242,
@@ -20256,7 +21505,7 @@ pg.skill_data_template = {
 	[20251] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Wichita once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Wichita once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20251,
@@ -20267,7 +21516,7 @@ pg.skill_data_template = {
 	[20252] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Wichita once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Wichita once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20252,
@@ -20278,7 +21527,7 @@ pg.skill_data_template = {
 	[20261] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Baltimore Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Baltimore Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20261,
@@ -20289,7 +21538,7 @@ pg.skill_data_template = {
 	[20262] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Baltimore Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Baltimore Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20262,
@@ -20300,7 +21549,7 @@ pg.skill_data_template = {
 	[20271] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Des Moines Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Des Moines Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20271,
@@ -20311,7 +21560,7 @@ pg.skill_data_template = {
 	[20272] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Des Moines Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Des Moines Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 20272,
@@ -20322,7 +21571,7 @@ pg.skill_data_template = {
 	[20311] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activates All Out Assault Ⅰ: Gato Class immediately after entering the battle.",
+		desc = "Immediately Activates All Out Assault Ⅰ: Gato Class when entering battle.",
 		type = 1,
 		max_level = 1,
 		id = 20311,
@@ -20333,7 +21582,7 @@ pg.skill_data_template = {
 	[20312] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activates All Out Assault Ⅱ: Gato Class immediately after entering the battle.",
+		desc = "Immediately Activates All Out Assault Ⅱ: Gato Class when entering battle.",
 		type = 1,
 		max_level = 1,
 		id = 20312,
@@ -20344,7 +21593,7 @@ pg.skill_data_template = {
 	[21011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: A Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: A Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21011,
@@ -20355,7 +21604,7 @@ pg.skill_data_template = {
 	[21012] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: A Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: A Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21012,
@@ -20366,7 +21615,7 @@ pg.skill_data_template = {
 	[21021] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: B Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: B Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21021,
@@ -20377,7 +21626,7 @@ pg.skill_data_template = {
 	[21022] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: B Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: B Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21022,
@@ -20388,7 +21637,7 @@ pg.skill_data_template = {
 	[21031] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: C Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: C Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21031,
@@ -20399,7 +21648,7 @@ pg.skill_data_template = {
 	[21032] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: C Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: C Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21032,
@@ -20410,7 +21659,7 @@ pg.skill_data_template = {
 	[21041] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: F Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: F Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21041,
@@ -20421,7 +21670,7 @@ pg.skill_data_template = {
 	[21042] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: F Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: F Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21042,
@@ -20432,7 +21681,7 @@ pg.skill_data_template = {
 	[21051] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: G Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: G Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21051,
@@ -20443,7 +21692,7 @@ pg.skill_data_template = {
 	[21052] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: G Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: G Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21052,
@@ -20454,7 +21703,7 @@ pg.skill_data_template = {
 	[21061] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: H Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: H Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21061,
@@ -20465,7 +21714,7 @@ pg.skill_data_template = {
 	[21062] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: H Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: H Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21062,
@@ -20476,7 +21725,7 @@ pg.skill_data_template = {
 	[21071] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: J Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: J Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21071,
@@ -20487,7 +21736,7 @@ pg.skill_data_template = {
 	[21072] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: J Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: J Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21072,
@@ -20498,7 +21747,7 @@ pg.skill_data_template = {
 	[21081] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: M Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: M Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21081,
@@ -20509,7 +21758,7 @@ pg.skill_data_template = {
 	[21082] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ ",
-		desc = "Activates All Out Assault Ⅱ: M Class once every 10 times the Main Guns are fired. ",
+		desc = "Activates All Out Assault Ⅱ: M Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21082,
@@ -20520,7 +21769,7 @@ pg.skill_data_template = {
 	[21111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Leander Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Leander Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21111,
@@ -20531,7 +21780,7 @@ pg.skill_data_template = {
 	[21112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Leander Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Leander Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21112,
@@ -20542,7 +21791,7 @@ pg.skill_data_template = {
 	[21121] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Dido Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Dido Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21121,
@@ -20553,7 +21802,7 @@ pg.skill_data_template = {
 	[21122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Dido Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Dido Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21122,
@@ -20564,7 +21813,7 @@ pg.skill_data_template = {
 	[21131] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Arethusa Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Arethusa Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21131,
@@ -20575,7 +21824,7 @@ pg.skill_data_template = {
 	[21132] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Arethusa Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Arethusa Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21132,
@@ -20586,7 +21835,7 @@ pg.skill_data_template = {
 	[21141] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Edinburgh Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Edinburgh Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21141,
@@ -20597,7 +21846,7 @@ pg.skill_data_template = {
 	[21142] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Edinburgh Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Edinburgh Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21142,
@@ -20608,7 +21857,7 @@ pg.skill_data_template = {
 	[21151] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Southampton Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Southampton Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21151,
@@ -20619,7 +21868,7 @@ pg.skill_data_template = {
 	[21152] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Southampton Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Southampton Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21152,
@@ -20630,7 +21879,7 @@ pg.skill_data_template = {
 	[21161] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Fiji Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Fiji once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21161,
@@ -20641,7 +21890,7 @@ pg.skill_data_template = {
 	[21162] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Fiji Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Fiji once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21162,
@@ -20652,7 +21901,7 @@ pg.skill_data_template = {
 	[21171] = {
 		desc_get = "",
 		name = "All Out Assault: Ceres-Class I",
-		desc = "Activate All Out Assault: Ceres-Class I once every 24 times the main guns are fired.",
+		desc = "Activates All Out Assault Ⅰ: Ceres Class once every 24 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21171,
@@ -20663,7 +21912,7 @@ pg.skill_data_template = {
 	[21172] = {
 		desc_get = "",
 		name = "All Out Assault: Ceres-Class II",
-		desc = "Activate All Out Assault: Ceres-Class II once every 24 times the main guns are fired.",
+		desc = "Activates All Out Assault Ⅱ: Ceres Class once every 16 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21172,
@@ -20674,7 +21923,7 @@ pg.skill_data_template = {
 	[21211] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: London Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: London Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21211,
@@ -20685,7 +21934,7 @@ pg.skill_data_template = {
 	[21212] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: London Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: London Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21212,
@@ -20696,7 +21945,7 @@ pg.skill_data_template = {
 	[21221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Kent Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Kent Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21221,
@@ -20707,7 +21956,7 @@ pg.skill_data_template = {
 	[21222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Kent Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Kent Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21222,
@@ -20718,7 +21967,7 @@ pg.skill_data_template = {
 	[21231] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Norfolk Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Norfolk Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21231,
@@ -20729,7 +21978,7 @@ pg.skill_data_template = {
 	[21232] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Norfolk Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Norfolk Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21232,
@@ -20740,7 +21989,7 @@ pg.skill_data_template = {
 	[21241] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: York Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: York Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21241,
@@ -20751,7 +22000,7 @@ pg.skill_data_template = {
 	[21242] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: York Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: York Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21242,
@@ -20762,7 +22011,7 @@ pg.skill_data_template = {
 	[22011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:33} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Mutsuki Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22011,
@@ -20773,7 +22022,7 @@ pg.skill_data_template = {
 	[22012] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:33} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Mutsuki Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22012,
@@ -20784,7 +22033,7 @@ pg.skill_data_template = {
 	[22021] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:2} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Fubuki Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22021,
@@ -20795,7 +22044,7 @@ pg.skill_data_template = {
 	[22022] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:2} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Fubuki Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22022,
@@ -20806,7 +22055,7 @@ pg.skill_data_template = {
 	[22031] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:15} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Shiratsuyu Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22031,
@@ -20817,7 +22066,7 @@ pg.skill_data_template = {
 	[22032] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:15} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Shiratsuyu Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22032,
@@ -20828,7 +22077,7 @@ pg.skill_data_template = {
 	[22041] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:30} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Hatsuharu Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22041,
@@ -20839,7 +22088,7 @@ pg.skill_data_template = {
 	[22042] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:30} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Hatsuharu Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22042,
@@ -20850,7 +22099,7 @@ pg.skill_data_template = {
 	[22051] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:19} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Kagerou Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22051,
@@ -20861,7 +22110,7 @@ pg.skill_data_template = {
 	[22052] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:19} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Kagerou Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22052,
@@ -20872,7 +22121,7 @@ pg.skill_data_template = {
 	[22056] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:35} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Yuugumo Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22056,
@@ -20883,7 +22132,7 @@ pg.skill_data_template = {
 	[22057] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:35} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Yuugumo Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22057,
@@ -20894,7 +22143,7 @@ pg.skill_data_template = {
 	[22061] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:26} Class once every 24 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Akizuki Class once every 24 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22061,
@@ -20905,7 +22154,7 @@ pg.skill_data_template = {
 	[22062] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:26} Class once every 16 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Akizuki Class once every 16 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22062,
@@ -20916,7 +22165,7 @@ pg.skill_data_template = {
 	[22071] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:11} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Akatsuki Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22071,
@@ -20927,7 +22176,7 @@ pg.skill_data_template = {
 	[22072] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:11} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Akatsuki Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22072,
@@ -20938,7 +22187,7 @@ pg.skill_data_template = {
 	[22081] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:124} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Kamikaze Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22081,
@@ -20949,7 +22198,7 @@ pg.skill_data_template = {
 	[22082] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:124} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Kamikaze Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22082,
@@ -20960,7 +22209,7 @@ pg.skill_data_template = {
 	[22091] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:145} Class once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Asashio Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22091,
@@ -20971,7 +22220,7 @@ pg.skill_data_template = {
 	[22092] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:145} Class once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Asashio Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22092,
@@ -20982,7 +22231,7 @@ pg.skill_data_template = {
 	[22111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:41} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Tenryuu Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22111,
@@ -20993,7 +22242,7 @@ pg.skill_data_template = {
 	[22112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:41} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Tenryuu Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22112,
@@ -21004,7 +22253,7 @@ pg.skill_data_template = {
 	[22121] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:43} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Kuma Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22121,
@@ -21015,7 +22264,7 @@ pg.skill_data_template = {
 	[22122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:43} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Kuma Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22122,
@@ -21026,7 +22275,7 @@ pg.skill_data_template = {
 	[22131] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:38} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Sendai Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22131,
@@ -21037,7 +22286,7 @@ pg.skill_data_template = {
 	[22132] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:38} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Sendai Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22132,
@@ -21048,7 +22297,7 @@ pg.skill_data_template = {
 	[22141] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:46} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Nagara Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22141,
@@ -21059,7 +22308,7 @@ pg.skill_data_template = {
 	[22142] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:46} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Nagara Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22142,
@@ -21070,7 +22319,7 @@ pg.skill_data_template = {
 	[22151] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:49} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Agano Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22151,
@@ -21081,7 +22330,7 @@ pg.skill_data_template = {
 	[22152] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:49} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Agano Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22152,
@@ -21092,7 +22341,7 @@ pg.skill_data_template = {
 	[22161] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:37} once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Yuubari once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22161,
@@ -21103,7 +22352,7 @@ pg.skill_data_template = {
 	[22162] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:37} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Yuubari Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22162,
@@ -21114,7 +22363,7 @@ pg.skill_data_template = {
 	[22211] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:53} Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Furutaka Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22211,
@@ -21125,7 +22374,7 @@ pg.skill_data_template = {
 	[22212] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:53} Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Furutaka Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22212,
@@ -21136,7 +22385,7 @@ pg.skill_data_template = {
 	[22221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:55} Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Aoba Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22221,
@@ -21147,7 +22396,7 @@ pg.skill_data_template = {
 	[22222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:55} Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Aoba Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22222,
@@ -21158,7 +22407,7 @@ pg.skill_data_template = {
 	[22231] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:63} Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Myoukou Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22231,
@@ -21169,7 +22418,7 @@ pg.skill_data_template = {
 	[22232] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:63} Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Myoukou Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22232,
@@ -21180,7 +22429,7 @@ pg.skill_data_template = {
 	[22241] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:61} Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Tone Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22241,
@@ -21191,7 +22440,7 @@ pg.skill_data_template = {
 	[22242] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:61} Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Tone Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22242,
@@ -21202,7 +22451,7 @@ pg.skill_data_template = {
 	[22251] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:57} Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Mogami Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22251,
@@ -21213,7 +22462,7 @@ pg.skill_data_template = {
 	[22252] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:57} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Mogami Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22252,
@@ -21224,7 +22473,7 @@ pg.skill_data_template = {
 	[22253] = {
 		desc_get = "",
 		name = "All Out Assault - Retrofit",
-		desc = "Activate All Out Assault Retrofit: {namecode:57} Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault - Retrofit once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22253,
@@ -21235,7 +22484,7 @@ pg.skill_data_template = {
 	[22261] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: {namecode:66} Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Takao Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22261,
@@ -21246,7 +22495,7 @@ pg.skill_data_template = {
 	[22262] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: {namecode:66} Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Takao Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 22262,
@@ -21279,7 +22528,7 @@ pg.skill_data_template = {
 	[23011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: 1934 Type once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: 1934 Type once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23011,
@@ -21290,7 +22539,7 @@ pg.skill_data_template = {
 	[23012] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: 1934 Type once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: 1934 Type once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23012,
@@ -21301,7 +22550,7 @@ pg.skill_data_template = {
 	[23031] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: 1936 Type once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: 1936 Type once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23031,
@@ -21312,7 +22561,7 @@ pg.skill_data_template = {
 	[23032] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: 1936 Type once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: 1936 Type once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23032,
@@ -21323,7 +22572,7 @@ pg.skill_data_template = {
 	[23041] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: 1936A Type once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: 1936A Type once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23041,
@@ -21334,7 +22583,7 @@ pg.skill_data_template = {
 	[23042] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: 1936a Type once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: 1936a Type once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23042,
@@ -21345,7 +22594,7 @@ pg.skill_data_template = {
 	[23051] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: 1936B Type once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: 1936B Type once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23051,
@@ -21356,7 +22605,7 @@ pg.skill_data_template = {
 	[23052] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: 1936B Type once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: 1936B Type once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23052,
@@ -21367,7 +22616,7 @@ pg.skill_data_template = {
 	[23111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Königsberg Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Königsberg Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23111,
@@ -21378,7 +22627,7 @@ pg.skill_data_template = {
 	[23112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Königsberg Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Königsberg Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23112,
@@ -21389,7 +22638,7 @@ pg.skill_data_template = {
 	[23121] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Leipzig Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Leipzig Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23121,
@@ -21400,7 +22649,7 @@ pg.skill_data_template = {
 	[23122] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Leipzig Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Leipzig Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23122,
@@ -21411,7 +22660,7 @@ pg.skill_data_template = {
 	[23211] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Admiral Hipper Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Admiral Hipper Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23211,
@@ -21422,7 +22671,7 @@ pg.skill_data_template = {
 	[23212] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Admiral Hipper Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Admiral Hipper Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23212,
@@ -21433,7 +22682,7 @@ pg.skill_data_template = {
 	[23221] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Deutschland Class once every 9 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Deutschland Class once every 9 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23221,
@@ -21444,7 +22693,7 @@ pg.skill_data_template = {
 	[23222] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Deutschland Class once every 6 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Deutschland Class once every 6 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 23222,
@@ -21477,7 +22726,7 @@ pg.skill_data_template = {
 	[24011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activates All Out Assault Ⅰ: An Shan Class once every 10 times the Main Guns are fired.",
+		desc = "Activates All Out Assault Ⅰ: An Shan Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 24011,
@@ -21499,7 +22748,7 @@ pg.skill_data_template = {
 	[24111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "Activate All Out Assault Ⅰ: Ning Hai Class once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Ning Hai Class once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 24111,
@@ -21510,7 +22759,7 @@ pg.skill_data_template = {
 	[24112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "Activate All Out Assault Ⅱ: Ning Hai Class once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Ning Hai Class once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 24112,
@@ -21521,7 +22770,7 @@ pg.skill_data_template = {
 	[24121] = {
 		desc_get = "",
 		name = "All Out Assault I",
-		desc = "Activate All Out Assault I once every 18 times the main guns are fired.",
+		desc = "Activates All Out Assault Ⅰ once every 18 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 24121,
@@ -21532,7 +22781,7 @@ pg.skill_data_template = {
 	[24122] = {
 		desc_get = "",
 		name = "All Out Assault II",
-		desc = "Activate All Out Assault II once every 12 times the main guns are fired.",
+		desc = "Activates All Out Assault Ⅱ once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 24122,
@@ -21620,7 +22869,7 @@ pg.skill_data_template = {
 	[29012] = {
 		desc_get = "",
 		name = "EX Barrage: England Ⅱ",
-		desc = "Activates All Out Assault Ⅱ: England Class once every 15 times the Main Guns are fired.",
+		desc = "Activates All Out Assault Ⅱ: England Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29012,
@@ -21631,7 +22880,7 @@ pg.skill_data_template = {
 	[29021] = {
 		desc_get = "",
 		name = "EX Barrage: Eldridge Ⅰ",
-		desc = "Activate EX Barrage: Eldridge Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Eldridge once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29021,
@@ -21642,7 +22891,7 @@ pg.skill_data_template = {
 	[29022] = {
 		desc_get = "",
 		name = "EX Barrage: Eldridge Ⅱ",
-		desc = "Activate EX Barrage: Eldridge Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Eldridge once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29022,
@@ -21653,7 +22902,7 @@ pg.skill_data_template = {
 	[29031] = {
 		desc_get = "",
 		name = "EX Barrage: William D. Porter Ⅰ",
-		desc = "Activate EX Barrage: William D. Porter Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: William D. Porter once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29031,
@@ -21664,7 +22913,7 @@ pg.skill_data_template = {
 	[29032] = {
 		desc_get = "",
 		name = "EX Barrage: William D. Porter Ⅱ",
-		desc = "Activate EX Barrage: William D. Porter Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: William D. Porter once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29032,
@@ -21675,7 +22924,7 @@ pg.skill_data_template = {
 	[29041] = {
 		desc_get = "",
 		name = "EX Barrage: Johnston Ⅰ",
-		desc = "Activate EX Barrage: Johnston Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Johnston once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29041,
@@ -21686,7 +22935,7 @@ pg.skill_data_template = {
 	[29042] = {
 		desc_get = "",
 		name = "EX Barrage: Johnston Ⅱ",
-		desc = "Activate EX Barrage: Johnston Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Johnston once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29042,
@@ -21697,7 +22946,7 @@ pg.skill_data_template = {
 	[29051] = {
 		desc_get = "",
 		name = "EX Barrage: Laffey Ⅰ",
-		desc = "Activate EX Barrage: Laffey Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Laffey once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29051,
@@ -21708,7 +22957,7 @@ pg.skill_data_template = {
 	[29052] = {
 		desc_get = "",
 		name = "EX Barrage: Laffey Ⅱ",
-		desc = "Activate EX Barrage: Laffey Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Laffey once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29052,
@@ -21719,7 +22968,7 @@ pg.skill_data_template = {
 	[29061] = {
 		desc_get = "",
 		name = "EX Barrage: Glowworm Ⅰ",
-		desc = "Activate EX Barrage: Glowworm Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Glowworm once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29061,
@@ -21730,7 +22979,7 @@ pg.skill_data_template = {
 	[29062] = {
 		desc_get = "",
 		name = "EX Barrage: Glowworm Ⅱ",
-		desc = "Activate EX Barrage: Glowworm Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Glowworm once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29062,
@@ -21741,7 +22990,7 @@ pg.skill_data_template = {
 	[29071] = {
 		desc_get = "",
 		name = "EX Barrage: Brave Ⅰ",
-		desc = "Activate EX Barrage: Brave Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Acasta once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29071,
@@ -21752,7 +23001,7 @@ pg.skill_data_template = {
 	[29072] = {
 		desc_get = "",
 		name = "EX Barrage: Brave Ⅱ",
-		desc = "Activate EX Barrage: Brave Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Acasta once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29072,
@@ -21763,7 +23012,7 @@ pg.skill_data_template = {
 	[29081] = {
 		desc_get = "",
 		name = "EX Barrage: Javelin Ⅰ",
-		desc = "Activate EX Barrage: Javelin Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Javelin once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29081,
@@ -21774,7 +23023,7 @@ pg.skill_data_template = {
 	[29082] = {
 		desc_get = "",
 		name = "EX Barrage: Javelin Ⅱ",
-		desc = "Activate EX Barrage: Javelin Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Javelin once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29082,
@@ -21785,7 +23034,7 @@ pg.skill_data_template = {
 	[29091] = {
 		desc_get = "",
 		name = "EX Barrage: Vampire Ⅰ",
-		desc = "Activate EX Barrage: Vampire Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Vampire once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29091,
@@ -21796,7 +23045,7 @@ pg.skill_data_template = {
 	[29092] = {
 		desc_get = "",
 		name = "EX Barrage: Vampire Ⅱ",
-		desc = "Activate EX Barrage: Vampire Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Vampire once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29092,
@@ -21807,7 +23056,7 @@ pg.skill_data_template = {
 	[29101] = {
 		desc_get = "",
 		name = "EX Barrage: Belfast Ⅰ",
-		desc = "Activate EX Barrage: Belfast Ⅰ once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Belfast once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29101,
@@ -21818,7 +23067,7 @@ pg.skill_data_template = {
 	[29102] = {
 		desc_get = "",
 		name = "EX Barrage: Belfast Ⅱ",
-		desc = "Activate EX Barrage: Belfast Ⅱ once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Belfast once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29102,
@@ -21829,7 +23078,7 @@ pg.skill_data_template = {
 	[29111] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:6} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:6} Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Ayanami once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29111,
@@ -21840,7 +23089,7 @@ pg.skill_data_template = {
 	[29112] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:6} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:6} Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Ayanami once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29112,
@@ -21851,7 +23100,7 @@ pg.skill_data_template = {
 	[29121] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:16} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:16} Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Yuudachi once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29121,
@@ -21862,7 +23111,7 @@ pg.skill_data_template = {
 	[29122] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:16} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:16} Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Yuudachi once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29122,
@@ -21873,7 +23122,7 @@ pg.skill_data_template = {
 	[29131] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:22} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:22} Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Yukikaze once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29131,
@@ -21884,7 +23133,7 @@ pg.skill_data_template = {
 	[29132] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:22} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:22} Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Yukikaze once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29132,
@@ -21895,7 +23144,7 @@ pg.skill_data_template = {
 	[29141] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:18} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:18} Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Shimakaze once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29141,
@@ -21906,7 +23155,7 @@ pg.skill_data_template = {
 	[29142] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:18} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:18} Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Shimakaze once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29142,
@@ -21917,7 +23166,7 @@ pg.skill_data_template = {
 	[29151] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:44} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:44} Ⅰ once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Kitakami once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29151,
@@ -21928,7 +23177,7 @@ pg.skill_data_template = {
 	[29152] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:44} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:44} Ⅱ once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Kitakami once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29152,
@@ -21939,7 +23188,7 @@ pg.skill_data_template = {
 	[29161] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:45} Ⅰ",
-		desc = "Activate EX Barrage: {namecode:45} Ⅰ once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Ooi Ⅰ once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29161,
@@ -21950,7 +23199,7 @@ pg.skill_data_template = {
 	[29162] = {
 		desc_get = "",
 		name = "EX Barrage: {namecode:45} Ⅱ",
-		desc = "Activate EX Barrage: {namecode:45} Ⅱ once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Ooi once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29162,
@@ -21961,7 +23210,7 @@ pg.skill_data_template = {
 	[29171] = {
 		desc_get = "",
 		name = "EX Barrage: Z1 Ⅰ",
-		desc = "Activate EX Barrage: Z1 Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Z1 once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29171,
@@ -21972,7 +23221,7 @@ pg.skill_data_template = {
 	[29172] = {
 		desc_get = "",
 		name = "EX Barrage: Z1 Ⅱ",
-		desc = "Activate EX Barrage: Z1 Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Z1 once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29172,
@@ -21983,7 +23232,7 @@ pg.skill_data_template = {
 	[29181] = {
 		desc_get = "",
 		name = "EX Barrage: Anshan Ⅰ",
-		desc = "Activate EX Barrage: Anshan Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: An Shan once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29181,
@@ -21994,7 +23243,7 @@ pg.skill_data_template = {
 	[29182] = {
 		desc_get = "",
 		name = "EX Barrage: Anshan Ⅱ",
-		desc = "Activate EX Barrage: Anshan Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: An Shan once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29182,
@@ -22005,7 +23254,7 @@ pg.skill_data_template = {
 	[29191] = {
 		desc_get = "",
 		name = "EX Barrage: Avrora Ⅰ",
-		desc = "Activate EX Barrage: Avrora Ⅰ once every 12 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Avrora once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29191,
@@ -22016,7 +23265,7 @@ pg.skill_data_template = {
 	[29192] = {
 		desc_get = "",
 		name = "EX Barrage: Avrora Ⅱ",
-		desc = "Activate EX Barrage: Avrora Ⅱ once every 8 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Avrora once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29192,
@@ -22027,7 +23276,7 @@ pg.skill_data_template = {
 	[29201] = {
 		desc_get = "",
 		name = "EX Barrage: Z23 Ⅰ",
-		desc = "Activate EX Barrage: Z23 Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Z23 once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29201,
@@ -22038,7 +23287,7 @@ pg.skill_data_template = {
 	[29202] = {
 		desc_get = "",
 		name = "EX Barrage: Z23 Ⅱ",
-		desc = "Activate EX Barrage: Z23 Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Z23 once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29202,
@@ -22049,7 +23298,7 @@ pg.skill_data_template = {
 	[29211] = {
 		desc_get = "",
 		name = "EX Barrage: Z46 Ⅰ",
-		desc = "Activate EX Barrage: Z46 Ⅰ once every 15 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅰ: Z46 once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29211,
@@ -22060,10 +23309,98 @@ pg.skill_data_template = {
 	[29212] = {
 		desc_get = "",
 		name = "EX Barrage: Z46 Ⅱ",
-		desc = "Activate EX Barrage: Z46 Ⅱ once every 10 times the main gun is fired.",
+		desc = "Activates All Out Assault Ⅱ: Z46 once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29212,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29221] = {
+		desc_get = "",
+		name = "EX Barrage: {namecode:152} Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Ibuki once every 9 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29221,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29222] = {
+		desc_get = "",
+		name = "EX Barrage: {namecode:152} Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Ibuki once every 6 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29222,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29231] = {
+		desc_get = "",
+		name = "EX Barrage: Neptune Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Neptune once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29231,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29232] = {
+		desc_get = "",
+		name = "EX Barrage: Neptune Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Neptune once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29232,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29241] = {
+		desc_get = "",
+		name = "EX Barrage: Roon Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Roon once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29241,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29242] = {
+		desc_get = "",
+		name = "EX Barrage: Roon Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Roon once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29242,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29251] = {
+		desc_get = "",
+		name = "EX Barrage: Saint Louis Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Saint Louis once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29251,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29252] = {
+		desc_get = "",
+		name = "EX Barrage: Saint Louis Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Saint Louis once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29252,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -22280,7 +23617,7 @@ pg.skill_data_template = {
 	[29361] = {
 		desc_get = "",
 		name = "All Out Assault: Sirius I ",
-		desc = "Activate All Out Assault: Sirius I once every 15 times the main guns are fired. ",
+		desc = "Activates All Out Assault Ⅰ: Sirius once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29361,
@@ -22291,7 +23628,7 @@ pg.skill_data_template = {
 	[29362] = {
 		desc_get = "",
 		name = "All Out Assault: Sirius II ",
-		desc = "Activate All Out Assault: Sirius II once every 10 times the main guns are fired. ",
+		desc = "Activates All Out Assault Ⅱ: Sirius once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29362,
@@ -24575,6 +25912,27 @@ pg.skill_data_template = {
 		12080,
 		12090,
 		12100,
+		18010,
+		18040,
+		18050,
+		18070,
+		18100,
+		18120,
+		19000,
+		19001,
+		19002,
+		19010,
+		19020,
+		19030,
+		19040,
+		19050,
+		19060,
+		19070,
+		19080,
+		19090,
+		19100,
+		19110,
+		19120,
 		20011,
 		20012,
 		20021,
@@ -24770,6 +26128,14 @@ pg.skill_data_template = {
 		29202,
 		29211,
 		29212,
+		29221,
+		29222,
+		29231,
+		29232,
+		29241,
+		29242,
+		29251,
+		29252,
 		29261,
 		29262,
 		29271,

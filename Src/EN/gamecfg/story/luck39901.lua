@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为区区{namecode:152}付出了这么多……能遇到这样的主上，我真是个幸运的人。",
+			say = "Milord, you've already done so much for me up to this point...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的{namecode:152}，已经能够独当一面了。",
+			say = "I've now become a worthy vessel who will not fall short of anyone else, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，我能感觉到，我还能……变得更强。",
+			say = "I feel that... I can still become stronger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是能够抵达下一个境界，一定能更好地帮助主上。",
+			say = "If you can help me push beyond my current limits, I'll be sure to be of even greater use to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，能再陪我一段时间吗，主上？",
+			say = "Therefore, Milord, would you continue to support me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

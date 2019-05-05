@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>二 骑士团结成！</size>",
+					"Knights & Awards\n\n<size=30>Chapter 2 - Knights, Group Up!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚·体育馆的一角",
+			say = "Evening - In the gymnasium",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我把队员找齐了！…虽然其实就是我那些妹妹吧。咳，“海上骑士团”，全体集合！",
+			say = "Alright, everyone's in one place! And by everyone, I mean my little sisters, but... *Ahem*! Knights of The Sea, are you motivated?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,14 +44,14 @@ return {
 			}
 		},
 		{
-			actorName = "丹佛&蒙彼利埃",
+			actorName = "Denver & Montpelier",
 			side = 0,
 			actor = 102150,
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "噢——！",
+			say = "Yeeaah!",
 			action = {
 				{
 					y = 20,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 102100,
 			nameColor = "#a9f548",
-			say = "……噗。……噢——！",
+			say = "……Yeeaah!",
 			action = {
 				{
 					y = 20,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看来是由克利夫兰级轻巡四人组成了队伍。",
+			say = "It looked like Cleveland had already assembled a team with 3 of her sister ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，这次就由我们四个人组队参赛！指挥官来担任我们的教练！大家一起努力争取冠军吧！",
+			say = "Okay, so, we'll be tackling a basketball tournament all as one team. For support, we'll have the Commander as our coach! Add some elbow grease and we have all the ingredients to win this thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我先来说一下这次事情的经过和比赛规则！指挥官如果有什么要补充的也尽管说吧！",
+			say = "Let's begin with a rundown of the tournament's rules! If you didn't catch anything, just tell me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = -1,
 			actor = 102140,
 			nameColor = "#a9f548",
-			say = "……明白了。只要大姐头一声令下，就算只有我一个人也会去干掉对方全队的",
+			say = "... Understood. Give me the order, and I'll wipe out every opposing team by myself if I have to.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "不是啦！不是干掉对方，是要靠比赛赢过她们啊！",
+			say = "No, no, Monty! We're not shooting anyone, we're playing basketball!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "懂了，大家一起比赛一起挥洒汗水，既能促进团队精神，更有利于消除势力间的隔阂对吧！不愧是大姐头！",
+			say = "Oh, I get it. A basketball tournament will promote the spirit of teamwork while at the same clearing out some friction between us! You're a genius, sis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我倒是没想那么远……唉……哥伦比亚应该明白我的意思吧？",
+			say = "Um, I didn't plan all THAT, but okay... *Sigh*... Columbia, you get the idea, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "重点我倒是明白啦……（小声）说白了就是大姐头让指挥官看到自己的优点嘛？",
+			say = "The gist of it, I guess... You basically wanted an excuse to show off to the Commander, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "……什么！？///（脸红）",
+			say = "... W-wha?!",
 			action = {
 				{
 					y = 0,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰瞬间变得满脸通红。",
+			say = "Cleveland blushed up to her ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "懂了！和指挥官确定恋爱关系的话，整个舰队的战力也能提高对吧！为了大姐头和舰队的幸福，我会全力支持你们的！",
+			say = "NOW I get it! If you can form a bond with the Commander, the fleet will grow stronger for sure! Okay! If it makes everyone happy, then I'll do all in my power to help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			say = "我明白了。……喂，大姐头为了讨你喜欢都做到这份上了，以后不许你离开她半步听见没有。你要把她的一言一行都牢牢记住。",
+			say = "That makes sense... Listen here, Cleveland's gone out of her way to captivate you. From this moment onwards, you'll need to always stay within 16 feet of her. Pay attention to everything she says and does and don't forget any of it.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -325,7 +325,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "不——是——啦！！你们倒是好好听人说话啊——！",
+			say = "No, you guys have it all wrong! Listen to me, for crying out loud!",
 			action = {
 				{
 					y = 20,

@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多亏了指挥官，我在这里见识到了许多有趣的东西哦",
+			say = "Commander, I must thank you for giving me the chance to see the many interesting sights of this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是…总觉得还缺点什么，似乎还有什么尚未真正寻找到…我的心中，依然有什么空缺着…",
+			say = "However... I still want more. There's something I've always been after... Something that can fill the void in my heart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "越是空缺，越是想用什么去填补…但是，不够，还不够…",
+			say = "The longer I go without it, the more things I must stuff inside the void to make do... But they aren't enough, not even close...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官愿意陪我再寻找一下吗……？呵呵呵，你是不会拒绝的，对吧…？",
+			say = "Commander, could you help me to finally fill this void forever? You're not going to just decline, are you? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -269,23 +269,23 @@ pg.gametip = {
 		key = "word_systemClose"
 	},
 	word_attr_antisub = {
-		tip = "Anti-sub ",
+		tip = "ASW ",
 		key = "word_attr_antisub"
 	},
 	word_attr_cannon = {
-		tip = "Firepower",
+		tip = "FP ",
 		key = "word_attr_cannon"
 	},
 	word_attr_torpedo = {
-		tip = "Torpedo",
+		tip = "TRP ",
 		key = "word_attr_torpedo"
 	},
 	word_attr_antiaircraft = {
-		tip = "Anti-Air",
+		tip = "AA ",
 		key = "word_attr_antiaircraft"
 	},
 	word_attr_air = {
-		tip = "Aviation",
+		tip = "AVI ",
 		key = "word_attr_air"
 	},
 	word_attr_durability = {
@@ -297,7 +297,7 @@ pg.gametip = {
 		key = "word_attr_armor"
 	},
 	word_attr_reload = {
-		tip = "Reload",
+		tip = "RLD ",
 		key = "word_attr_reload"
 	},
 	word_attr_speed = {
@@ -305,7 +305,7 @@ pg.gametip = {
 		key = "word_attr_speed"
 	},
 	word_attr_luck = {
-		tip = "Cost",
+		tip = "OIL ",
 		key = "word_attr_luck"
 	},
 	word_attr_range = {
@@ -321,11 +321,11 @@ pg.gametip = {
 		key = "word_attr_hit"
 	},
 	word_attr_dodge = {
-		tip = "Evasion",
+		tip = "EVA ",
 		key = "word_attr_dodge"
 	},
 	word_attr_luck1 = {
-		tip = "Luck",
+		tip = "LCK ",
 		key = "word_attr_luck1"
 	},
 	word_attr_damage = {
@@ -533,15 +533,15 @@ pg.gametip = {
 		key = "word_comingSoon"
 	},
 	word_lightArmor = {
-		tip = "Light Armor",
+		tip = "Light",
 		key = "word_lightArmor"
 	},
 	word_mediumArmor = {
-		tip = "Medium Armor",
+		tip = "Medium",
 		key = "word_mediumArmor"
 	},
 	word_heavyarmor = {
-		tip = "Heavy Armor",
+		tip = "Heavy",
 		key = "word_heavyarmor"
 	},
 	word_level_upperLimit = {
@@ -3434,23 +3434,23 @@ February 8th.]]
 		key = "attribute_durability"
 	},
 	attribute_cannon = {
-		tip = "Firepower",
+		tip = "FP ",
 		key = "attribute_cannon"
 	},
 	attribute_torpedo = {
-		tip = "Torpedo",
+		tip = "TRP ",
 		key = "attribute_torpedo"
 	},
 	attribute_antiaircraft = {
-		tip = "Anti-Air",
+		tip = "AA ",
 		key = "attribute_antiaircraft"
 	},
 	attribute_air = {
-		tip = "Aviation",
+		tip = "AVI ",
 		key = "attribute_air"
 	},
 	attribute_reload = {
-		tip = "Reload",
+		tip = "RLD ",
 		key = "attribute_reload"
 	},
 	attribute_cd = {
@@ -3474,15 +3474,15 @@ February 8th.]]
 		key = "attribute_speed"
 	},
 	attribute_luck = {
-		tip = "Luck",
+		tip = "LCK ",
 		key = "attribute_luck"
 	},
 	attribute_dodge = {
-		tip = "Evasion",
+		tip = "EVA ",
 		key = "attribute_dodge"
 	},
 	attribute_expend = {
-		tip = "Cost",
+		tip = "OIL ",
 		key = "attribute_expend"
 	},
 	attribute_damage = {
@@ -3514,7 +3514,7 @@ February 8th.]]
 		key = "attribute_ammo"
 	},
 	attribute_antisub = {
-		tip = "Anti-sub ",
+		tip = "ASW ",
 		key = "attribute_antisub"
 	},
 	attribute_sonarRange = {
@@ -3738,7 +3738,7 @@ February 8th.]]
 		key = "word_shipNation_dongHuang"
 	},
 	word_shipNation_beiLian = {
-		tip = "Northen Parliament",
+		tip = "Northern Parliament",
 		key = "word_shipNation_beiLian"
 	},
 	word_shipNation_other = {
@@ -3748,6 +3748,10 @@ February 8th.]]
 	word_shipNation_np = {
 		tip = "Neptune",
 		key = "word_shipNation_np"
+	},
+	word_shipNation_ziyou = {
+		tip = "Iris Libre",
+		key = "word_shipNation_ziyou"
 	},
 	word_shipNation_ai = {
 		tip = "KizunaAI",
@@ -4070,18 +4074,12 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 8,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4142,18 +4140,12 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 8,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4214,18 +4206,12 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 8,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4286,18 +4272,12 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 8,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4358,18 +4338,12 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 8,
+			defaultpage = 7,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -4416,7 +4390,7 @@ May be improved up to 3 times]]
 				info = "1.Stats Details:"
 			},
 			{
-				info = "       HP: The ship's Health stat, defines how much damage \nit can take before sinking.",
+				info = "       HP: The ship's Health stat, defines how much damage \nshe can take before sinking.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4516,7 +4490,7 @@ May be improved up to 3 times]]
 				}
 			},
 			{
-				info = "       OXY: The ship's Oxygen stat, defines how long it can \nstay underwater before it must resurface.",
+				info = "       OXY: The boat's Oxygen stat, defines how long she can \nstay underwater before she must resurface.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4527,10 +4501,10 @@ May be improved up to 3 times]]
 			},
 			{
 				info = [[
-       AMO: The ship's Ammunition stat, defines how many 
+       AMO: The boat's Ammunition stat, defines how many 
 times a Submarine Fleet can attack and/or provide support. 
-The total number of times is equal to the Submarine 
-Fleet's combined AMO stat.]],
+The total number of times is equal to the Submarine Fleet's 
+combined AMO stat.]],
 				icon = {
 					posX = 0,
 					atlas = "attricon",
@@ -4540,13 +4514,23 @@ Fleet's combined AMO stat.]],
 				}
 			},
 			{
-				info = "       ASR: The ship's Attack/Support Range, defines how far \nthe Flagship of the Submarine Fleet can move from its \nstarting location to attack or provide support.",
+				info = "       ASR: The boat's Attack/Support Range, defines how far \nthe Submarine Fleet can move from its starting location to \nattack or provide support.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
 					scale = 0.19,
 					path = "hunt_range"
+				}
+			},
+			{
+				info = "       LCK: The ship's Luck stat, influences the ship's chance \nof hitting the enemy and avoiding the enemy's attacks as \nwell as her chance to land and avoid Critical Hits.",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.66,
+					path = "icon_luck"
 				}
 			},
 			{
@@ -7316,99 +7300,115 @@ $3]],
 		key = "task_is_not_existence"
 	},
 	cannot_build_multiple_printblue = {
-		tip = "現在進行中の<color=#A9F548>$1</color>開発を一時停止し、開発対象を<color=#A9F548>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#A9F548>24時間以内</color>は開発対象を変更できません。",
+		tip = "Would you like to pause <color=#A9F548>$1</color>'s development and start on <color=#A9F548>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#A9F548>24 hours</color>. ",
 		key = "cannot_build_multiple_printblue"
 	},
 	printblue_build_success = {
-		tip = "開発開始",
+		tip = "Development started.",
 		key = "printblue_build_success"
 	},
 	printblue_build_erro = {
-		tip = "開発失敗",
+		tip = "Development failed.",
 		key = "printblue_build_erro"
 	},
 	blueprint_mod_success = {
-		tip = "強化成功",
+		tip = "Successfully enhanced.",
 		key = "blueprint_mod_success"
 	},
 	blueprint_mod_erro = {
-		tip = "強化失敗",
+		tip = "Failed to enhance.",
 		key = "blueprint_mod_erro"
 	},
 	technology_refresh_sucess = {
-		tip = "研究項目一覧・更新成功",
+		tip = "Successfully updated Research Project list.",
 		key = "technology_refresh_sucess"
 	},
 	technology_refresh_erro = {
-		tip = "研究項目一覧・更新失敗",
+		tip = "Failed to update Research Project list.",
 		key = "technology_refresh_erro"
 	},
+	change_technology_refresh_sucess = {
+		tip = "Successfully changed Research Projects.",
+		key = "change_technology_refresh_sucess"
+	},
+	change_technology_refresh_erro = {
+		tip = "Failed to change Research Projects.",
+		key = "change_technology_refresh_erro"
+	},
 	technology_start_up = {
-		tip = "研究開始",
+		tip = "Research started.",
 		key = "technology_start_up"
 	},
 	technology_start_erro = {
-		tip = "研究失敗",
+		tip = "Research failed.",
 		key = "technology_start_erro"
 	},
 	technology_stop_success = {
-		tip = "研究中止に成功しました",
+		tip = "Successfully suspended research.",
 		key = "technology_stop_success"
 	},
 	technology_stop_erro = {
-		tip = "研究中止に失敗しました",
+		tip = "Failed to suspend research.",
 		key = "technology_stop_erro"
 	},
+	technology_finish_success = {
+		tip = "Successfully completed Research.",
+		key = "technology_finish_success"
+	},
+	technology_finish_erro = {
+		tip = "Failed to complete Research.",
+		key = "technology_finish_erro"
+	},
 	blueprint_stop_success = {
-		tip = "開発中止に成功しました",
+		tip = "Successfully suspended development.",
 		key = "blueprint_stop_success"
 	},
 	blueprint_stop_erro = {
-		tip = "開発中止に失敗しました",
+		tip = "Failed to suspend development.",
 		key = "blueprint_stop_erro"
 	},
 	blueprint_destory_tip = {
-		tip = "特別計画艦は廃棄できません",
+		tip = "You can not retire Priority ships.",
 		key = "blueprint_destory_tip"
 	},
 	blueprint_task_update_tip = {
-		tip = "艦船の開発進捗に更新がありました。開発ドックをご確認ください",
+		tip = "The development progress of a ship has been updated. Please inspect your Shipyard.",
 		key = "blueprint_task_update_tip"
 	},
 	blueprint_mod_addition_lock = {
-		tip = "強化レベル$1到達で開放されます",
+		tip = "Will be unlocked at Dev. Level $1.",
 		key = "blueprint_mod_addition_lock"
 	},
 	blueprint_mod_word_unlock = {
-		tip = "セリフ開放：$1",
+		tip = "Unlocks voice line: $1",
 		key = "blueprint_mod_word_unlock"
 	},
 	blueprint_mod_skin_unlock = {
-		tip = "着せ替え獲得：$1",
+		tip = "Acquire skin: $1 ",
 		key = "blueprint_mod_skin_unlock"
 	},
 	blueprint_build_consume = {
-		tip = "$1を消費し、開発を行いますか？",
+		tip = "Spend $1 to commence development?",
 		key = "blueprint_build_consume"
 	},
 	blueprint_stop_tip = {
-		tip = "開発を中止しますか？（消費したアイテム・資源は元に戻りません）",
+		tip = "Would you like to suspend development? The items and resources you've spent will not be refunded.",
 		key = "blueprint_stop_tip"
 	},
 	technology_canot_refresh = {
-		tip = "研究中は研究項目一覧を更新できません",
+		tip = "You can not update the list when a Research Project is underway.",
 		key = "technology_canot_refresh"
 	},
 	technology_refresh_tip = {
-		tip = "研究項目一覧を更新しますか？",
+		tip = "Would you like to update the Research Project list?",
 		key = "technology_refresh_tip"
 	},
 	technology_is_actived = {
-		tip = "研究中の研究項目があります",
+		tip = "You are currently researching a project.",
 		key = "technology_is_actived"
 	},
 	technology_stop_tip = {
-		tip = "研究を中止しますか？（消費したアイテム・資源は元に戻りません）",
+		tip = "Would you like to suspend research? The items and resources you've spent will not be refunded.",
 		key = "technology_stop_tip"
 	},
 	technology_help_text = {
@@ -7416,65 +7416,70 @@ $3]],
 		tip = {
 			{
 				info = [[
+Starting Research
+1. When you select a Research Project from the list and 
+tap the "Start Researching" button, you will begin 
+research on the project.
+2. Certain Research Projects require you to spend some 
+resources to initiate them.
+3. You cannot research more than a single project at a time.
 
-1.研究開始
-  · 研究項目一覧から研究項目の「研究開始」をタップすると、
-該当項目の研究を行うことができます。
-  · 一部の研究項目を研究開始するには資源を消費します。
-  · 同時に複数の研究項目を研究することはできません。
+Completing Research
+1. It takes time for Research Projects to complete.
+2. Some Research Projects have additional conditions that 
+need to be fulfilled.
+3. Progress towards these conditions will only count 
+once you've initiated the research.
+4. You can still complete these additional requirements 
+even after the Research Project's required time has elapsed.
+5. When you complete a Research Project, you will 
+receive rewards from it, and the Research Project list 
+will update.
 
-2.研究完了
-  · 研究項目の研究には時間を要します。
-  · 一部の研究項目は時間以外に特定の条件を達成する必要が
-あります。
-  ·「研究完成条件」の進捗は、研究開始後にのみ進みます。
-  ·「研究完成条件」のある研究項目は、研究時間が終了しても、
-「研究完成条件」を進行・達成できます。
-  · 研究が完了し、研究報酬を受け取ると、研究項目一覧が更新
-されます。
+Stopping Research
+1. By tapping the "Stop Researching" button, you can 
+suspend a Research Project that's in progress.
+2. Suspending the Research Project will not refund any 
+resources you may have spent to start it.
+3. Furthermore, suspending the Research Project will reset 
+the time and resource requirements to start it again.
 
-3.研究中止
-  ·「研究中止」をタップすると、進行中の研究項目を中断する事が
-できます。
-  · 研究を中断しても、研究開始時に消費した資源は元に戻りません。
-  · 研究を中断すると、「研究完成条件」の進捗と研究に費やした
-時間がリセットされます。
-
-4.研究項目一覧を更新
-  · 0時以降、「項目更新」をタップすると、研究項目一覧を更新
-できます。
-  ·「項目更新」は一日一回しか行なえません。
-  · 研究中の項目が存在する場合、研究項目一覧を更新することが
-出来ません。]]
+Updating the Research Project list
+1. After server reset (midnight at server's local time,) 
+you can tap the "Update List" button to receive a new 
+list of Research Projects.
+2. You can only update the Research Project list once a day.
+3. You can not update the list if a Research Project is 
+underway.]]
 			}
 		}
 	},
 	blueprint_build_time_tip = {
-		tip = "開発開始・再開24時間以内は開発対象を変更できません。\n\nこのまま開発を開始しますか？",
+		tip = "Once you start or resume development, you can not change which ship to develop for 24 hours.\n\nWould you like to proceed?",
 		key = "blueprint_build_time_tip"
 	},
 	blueprint_cannot_build_tip = {
-		tip = "開発対象が変更可能になるまで$1間",
+		tip = "$1 remaining until you can change which ship to develop.",
 		key = "blueprint_cannot_build_tip"
 	},
 	technology_task_none_tip = {
-		tip = "-なし-",
+		tip = "-Nothing-",
 		key = "technology_task_none_tip"
 	},
 	technology_task_build_tip = {
-		tip = "研究開始するには下記の資源・アイテムを消費します：$1",
+		tip = "The following resources or items will be spent to commence research: $1",
 		key = "technology_task_build_tip"
 	},
 	blueprint_commit_tip = {
-		tip = "開発任務を完了するには<color=#A9F548>$1</color>を消費します。開発任務を完了しますか？",
+		tip = "$1 will be spent to complete the development mission. Would you like to proceed?",
 		key = "blueprint_commit_tip"
 	},
 	buleprint_need_level_tip = {
-		tip = "該当艦がレベル$1で開放",
+		tip = "The corresponding ship will be unlocked at Level $1.",
 		key = "buleprint_need_level_tip"
 	},
 	blueprint_max_level_tip = {
-		tip = "現在は最大レベルに到達しています",
+		tip = "The maximum level has already been achieved.",
 		key = "blueprint_max_level_tip"
 	},
 	ship_profile_voice_locked_intimacy = {
@@ -7489,13 +7494,55 @@ $3]],
 		tip = "Coming Soon",
 		key = "ship_profile_voice_locked_design"
 	},
+	help_technolog0 = {
+		key = "help_technolog0",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	},
 	help_technolog = {
 		key = "help_technolog",
 		tip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technology"
+					atlas = "helpbg/technologytree1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technologytree2"
 				}
 			},
 			{
@@ -7510,9 +7557,15 @@ $3]],
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/technology"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -7544,49 +7597,61 @@ $3]],
 		tip = {
 			{
 				info = [[
+Starting Development
 
-開発開始
-1. 「特別計画」艦の開発開放条件が達成されますと、艦の
-開発が可能になります。
-2. 「特別計画」艦の開発開放条件は画面中央に表示されます。
-3. 開発ドック画面にて対象艦を選択し、「開発開始」を
-タップすると、開発を開始できます。
-4. 同時に複数の開発を行うことできません。
+1. You can develop a Priority ship by completing their 
+development requirements.
+2. The Priority ship's development requirements are 
+shown on the right side of the screen.
+3. You can begin development on a ship by choosing one 
+from the Shipyard screen, then tapping the Begin 
+Development button.
+4. You can not develop several ships at once.
 
-開発任務
-1. 対象艦の開発任務を全て完了すると対象艦を入手できます。
-2. 開発中、24時間毎に新しい開発任務が開放されます。
-また、任務を完了することで開発が進みます。
-3. 最初の開発任務は開発を開始すると開放されます。
-4. 一部の開発任務は他の開発任務を完了しなければ進められ
-ません。
+Development Missions
+1. When you complete all of the development missions 
+for your chosen ship, you will receive the ship.
+2. While a ship is being developed, new development 
+missions for her will unlock every 24 hours.
+3. By completing these missions, the ship's development 
+will progress.
+4. The first development mission will be unlocked as soon 
+as you begin developing the ship.
+5. A few development missions require you to complete 
+previous ones before you can continue.
 
-開発対象変更
-1. 開発中に、開発対象を別の艦に変更することができます。
-2. 開発対象を変更すると、開発全体の進捗および進行中
-任務の進捗状況が保持されます。
-3. 開発開始・再開後、24時間以内は開発対象を変更でき
-ません。
+Changing The Ship in Development
+1. While developing a ship, you can choose to start 
+developing another instead.
+2. When you change which ship you are developing, your 
+progress on the ship you had been working on will be saved.
+3. Once you start or resume development, you can not 
+change which ship to develop for 24 hours.
 
-開発完了
-1. 対象艦の開発任務を全て完了すると対象艦を入手でき、
-強化機能が開放されます。
-2. 開発完了後、新しい開発対象は手動で指定する必要が
-あります。
+Completing Development
+1. When you complete all of the development missions 
+for your chosen ship, you will receive the ship and unlock 
+the ability to enhance it.
+2. Once you've finished development, you must manually 
+choose a new ship to develop.
 
-「特別計画」艦の強化
-1. 「特別計画」艦入手後、艦の強化機能が開放されます。
-2. 強化には艦の「強化ユニット」を消費します。
-3. 「強化ユニット」は科学研究室で研究を行うことにより
-入手出来ます。
-4. 強化を行うことで「特別計画」艦の性能を向上させられ
-ます。また、一定の強化レベルに達するとさらなる強化効果
-を獲得できます。
+Enhancing Priority Ships
+1. Once you acquire a Priority ship, you unlock the ability 
+to enhance it.
+2. To enhance a Priority ship, you need to spend PR 
+Blueprints on it.
+3. You can acquire PR Blueprints by conducting research 
+in the Tech Academy.
+4. By enhancing your Priority ship, you can increase 
+their stats.
+5. At regular Dev. Level intervals, they will also acquire 
+even more stats and abilities.
 
-「特別計画」艦のレベル上限について
-  「特別計画」艦は限界突破しなくても、レベルを100まで上げる
-  ことができますが、レベル上限を引き上げるには、資金とメンタル
-  ユニットを消費し「認識覚醒」を行う必要があります。]]
+About Level Caps for Priority Ships
+You do not need to Limit Break a Priority ship to get them 
+to Level 100, but in order to increase their Level Cap, 
+you must induce a Cognitive Awakening in them by 
+spending Cognitive Chips and Coins.]]
 			}
 		}
 	},
@@ -7595,14 +7660,16 @@ $3]],
 		tip = {
 			{
 				info = [[
-《天运拟合》系统
-
-1. 方案舰的研发等级<color=#A9F548>满级(Lv.30)</color>后才能解锁相应的《天运拟合》
-系统
-2. 《天运拟合》共分<color=#A9F548>5</color>个阶段，每个阶段需要消耗相应的<color=#A9F548>蓝图</color>提
-升完成度，完成度达到100%即可解锁对应的拟合阶段
-3. 解锁<color=#A9F548>阶段I~阶段V</color>时，会提升相应方案舰的<color=#A9F548>幸运值</color>
-4. 解锁阶段<color=#A9F548>V</color>时，将使对应的方案舰的<color=#A9F548>技能</color>发生<color=#A9F548>特殊变化</color>]]
+Fate Simulation:
+1. Once you get a Priority ship to <color=#A9F548>Dev. Level 30</color>, you'll unlock  
+their corresponding Fate Simulation.
+2. Fate Simulation is divided into <color=#A9F548>5 stages</color>.
+3. By spending the ship's corresponding <color=#A9F548>PR Blueprints</color>, you'll 
+fill up the progress bar for each stage.
+4. Once you've fully filled the bar, you've completed the 
+stage and will unlock the next one.
+5. Stages <color=#A9F548>I through IV</color> increase the ship's <color=#A9F548>LCK</color> stat.
+6. Stage <color=#A9F548>V</color> improves one of the ship's <color=#A9F548>Skills</color>.]]
 			}
 		}
 	},
@@ -8428,7 +8495,8 @@ disappear, leaving only the Boss Fleet</color>.
 2. On event Stages, the positioning and pathfinding of enemy 
 fleets will change.
 3. On event Stages, <color=#A9F548>the movement restriction placed on your 
-fleets is removed</color>, allowing you to move freely around the map.]]
+fleets is removed</color>, allowing you to move freely around the 
+map.]]
 			}
 		}
 	},
@@ -8537,6 +8605,94 @@ purification has failed.]]
 	refuse_and_add_into_bl = {
 		tip = "Decline and add to blacklist?",
 		key = "refuse_and_add_into_bl"
+	},
+	tech_simulate_closed = {
+		tip = "You have not yet unlocked the Battle Simulation feature.",
+		key = "tech_simulate_closed"
+	},
+	tech_simulate_quit = {
+		tip = "Would you like to end the Battle Simulation?",
+		key = "tech_simulate_quit"
+	},
+	technology_uplevel_error_no_res = {
+		tip = "Spend <color=#A9F548>$1</color> coins to unlock this tech level?\n Duration: <color=#A9F548>$2</color>\n Upgrade:<color=#A9F548>Lv.$3->Lv.$4</color> ",
+		key = "technology_uplevel_error_no_res"
+	},
+	help_technologytree = {
+		key = "help_technologytree",
+		tip = {
+			{
+				info = [[
+Tech Mechanics:
+1. The Tech Mechanics give stat buffs to your entire fleet.
+2. You unlock these buffs by collecting and getting your 
+ships to a high level.
+3. The buffs apply to ships which have been fully Limit 
+Broken.
+4. In essence, you will gain the most benefits by leveling 
+all the ships you have in your Dock.
+
+The Tech Mechanics can be separated into two 
+distinct types: Fleet Tech and Faction Tech.
+
+Fleet Tech:
+1. The Fleet Tech mechanic grants buffs, which are 
+unlocked by leveling your ships, to your entire fleet. 
+2. You can view your collection and Tech acquisition 
+statuses on the Fleet Tech screen.
+3. The ships are sorted into tiers based on their 
+historical technology development order.
+4. When you complete the following achievements with a 
+ship, your entire fleet will receive the corresponding stat 
+buff(s) associated with her group:
+ - Registering the ship in your Library
+ - Getting the ship to Level 120
+5. Please note: if you have 2 or more copies of the same 
+ship, you will only receive buffs from 1 of them.
+
+Faction Tech:
+1. Faction Tech is a mechanic that gives stat buffs to your 
+entire fleet based on your Tech Level with each faction.
+2. You can view a faction's Tech Level and the buffs it 
+gives to your fleet by tapping its corresponding tab on 
+the Faction Tech screen.
+3. By increasing a faction's Tech Level, you can further 
+increase the buffs that it gives.
+4. To increase a faction's Tech Level, you must spend Coins 
+and meet the Tech Point requirement for that faction.
+5. Lastly, you can only increase the Tech level of one 
+faction at a time.
+
+About Tech Points:
+1. To increase a faction's Tech Level, you need to have 
+collected a certain amount of Tech Points from ships of 
+that faction. 
+2. From the Faction Tech screen, you can view how many 
+Tech Points you have with each faction.
+3. You can acquire Tech Points through the following means:
+- Registering a new ship in your Library
+- Fully Limit Breaking a ship
+- Getting a ship to Level 120
+4. Please note: if you have 2 or more copies of the same 
+ship, you will only receive Tech Points from 1 of them.]]
+			}
+		}
+	},
+	tech_change_version_mark = {
+		tip = "Research Preference ",
+		key = "tech_change_version_mark"
+	},
+	technology_uplevel_error_studying = {
+		tip = "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. ",
+		key = "technology_uplevel_error_studying"
+	},
+	fate_attr_word = {
+		tip = "Results of Fate Sumulation:",
+		key = "fate_attr_word"
+	},
+	fate_phase_word = {
+		tip = "Research Progress: ",
+		key = "fate_phase_word"
 	},
 	electrotherapy_wanning = {
 		tip = "The electrified area is about to expand",

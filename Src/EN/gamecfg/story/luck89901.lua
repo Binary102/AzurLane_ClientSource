@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "承蒙厚爱，我的指挥官，现在的我已经能够应对一切状况。",
+			say = "I thank you sincerely for your guidance, Commander. Because of you, I have gained the power to overcome any tribulation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但我能感觉到，脚下的道路依然在延伸，在前方，还有新的力量在等着我。",
+			say = "But even now, I feel that my path continues further onward, beckoning me to even greater power...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——想必，那是神的馈赠。",
+			say = "... Surely, this is a gift from God.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是能取得那份馈赠，我一定能为你做到更多的事。",
+			say = "If I could receive that blessing, then I would be able to serve you even better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，让我们启程吧。",
+			say = "Now, let us walk forward on this new path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

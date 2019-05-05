@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>七 最棒的冠军奖励</size>",
+					"Knights & Awards\n\n<size=30>Chapter 7 - The Best Prize</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·体育馆",
+			say = "Port - Gymnasium",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "怀里抱着“摇钱树”——翡翠木的盆栽，喜不自胜的克利夫兰。",
+			say = "Cleveland was in high spirits as she was holding the prize — the \"money plant\" — over her head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "冠军奖品到手了！和想象中长得完全不一样，不过不妨碍种它的乐趣！",
+			say = "First place, baby! The prize isn't what I was expecting, but it's still worth growing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家……咦？指挥官，看见哥伦比亚她们了么？真是的，刚准备把奖品拿给她们看的……",
+			say = "So, let's... Huh? Commander, where's the team gone off to? I wanted to show them this thing, but I guess they left...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，指挥官？呃，不好意思……我本来是想，这个能长钱的话……就能给你添点经费了……",
+			say = "Oh, and uh... Sorry, Commander... I heard money grows on this thing... so I wanted to win and give it to you, so you'd have a bit more money on your hands...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始就知道？！…呃，那怎么不拦住我……难道是……！？",
+			say = "Huh?! You knew all along money doesn't grow on it?! ... Then why didn't you stop me back when... Wait, did you WANT to do this...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "克利夫兰变得满脸通红。",
+			say = "Cleveland blushed up to her ears again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "钱的问题倒是没什么，就是难得有机会在指挥官面前表现一下，结果还搞砸了……",
+			say = "Even putting the money stuff aside, this was a good chance to look cool in front of you, but I failed to capitalize on it...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后还被你安慰了……唔……结果呢，你觉得刚才我怎么样？ ",
+			say = "And in the end, you had to pick me up when I was feeling down... Oh well... All in all, how did I do during the tournament? ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "轻轻地揉了揉克利夫兰的头发。",
+			say = "I put my hand on Cleveland's head and gently ruffled her hair.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,23 +176,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“不是帅气的大姐头”……嗯，这点我无话可说……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102090,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“不过还是很可爱的克爹”…………",
+			say = "\"As Cleveland, the team captain, you really weren't all that cool\"... I mean, we've already established that much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +192,23 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？",
+			say = "\"But as Clevebro, my secretary, you were hella cute\"...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102090,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "可、可爱！？！？！？",
+			say = "Y-y-y-y-you think I was c-c-c-cute?!",
 			action = {
 				{
 					y = 20,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "啊、啊……我可爱……可爱……呀……嗷嗷…………///（脸红）",
+			say = "U-uh, uh... Um... C-cute, m-me...? Ahh... Oh, man... I...",
 			action = {
 				{
 					y = 0,
@@ -276,7 +276,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "不，不要叫我克爹～！",
+			say = "— H-hey, I told you to stop calling me Clevebro already!",
 			action = {
 				{
 					y = 20,
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "走在身旁的她，泪眼汪汪地发出了惹人怜爱的抗议（？）。",
+			say = "Then, Cleveland — fidgety, but with tears of joy in her eyes — and I left the gymnasium together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

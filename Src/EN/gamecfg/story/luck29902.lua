@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这段时间确实为了我而十分努力了啊，稍微称赞一下你的坚持吧。",
+			say = "Commander, I want to express my gratitude for the determination and dedication you've shown to me thus far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回想起来，面对曾经被遗弃的我，是你重新肯定了我的价值，给了我新的期待。",
+			say = "Thinking back, I've realized that, all along, you were the person who offered me hope and gave meaning to my life.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如今，我也可以用自己的力量，回应指挥官对我的期待了。",
+			say = "I'm growing powerful to the point where I, too, may live up to your expectations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官为我所做的努力，我都铭记于心。所以，那个......谢谢你。",
+			say = "To summarize my thoughts... I will never forget all that you've done for me. I also wish to say... thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，战争还远远没有结束，未知的道路已然开启。你愿意陪我一起踏上新的旅途吗？",
+			say = "The war still hasn't ended, though. Are you willing to accompany me once more into the unknown, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

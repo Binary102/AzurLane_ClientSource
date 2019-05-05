@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…不知不觉已经和指挥官共同走过不短的一段路途了啊",
+			say = "Hmph, it just dawned on me that we've known each other for such a long time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也慢慢变得可靠起来了，正是因为有你，我的刀刃才能像现在这样汇聚起力量",
+			say = "All the while, you've steadily gotten more reliable. And it's thanks to you that my blade is so mighty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，无论是我，还是这把利刃，都还有着突破极限的可能性",
+			say = "However, there's power within both me and my blade which we've yet to unlock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，您能和我一起，继续探寻我们的极限吗？",
+			say = "Commander, won't you join me so we can explore our new limits?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

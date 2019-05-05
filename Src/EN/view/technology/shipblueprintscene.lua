@@ -792,45 +792,6 @@ end
 slot0.init = slot7
 
 function slot7(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.shipBluePrintVO
-
-	if not slot1 then
-		slot1 = {
-			0,
-			0
-		}
-		slot2 = pairs
-		slot3 = slot0.bluePrintByIds
-		slot2, slot3, slot4 = slot2(slot3)
-
-		for slot5, slot6 in slot2, slot3, slot4 do
-			slot1[slot6.version] = slot1[slot6.version] + ((slot6.state == ShipBluePrint.STATE_UNLOCK and 1) or 0)
-			slot7 = slot6.state
-			slot8 = ShipBluePrint.STATE_DEV
-
-			if slot7 == slot8 then
-				slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot6
-
-				break
-			end
-		end
-
-		slot2 = slot0.contextData
-		slot2 = slot2.shipBluePrintVO
-
-		if not slot2 then
-			slot0.version = (slot1[1] <= 4 and 1) or 2
-			slot3 = slot0
-			slot2 = slot0.emit
-			slot4 = ShipBluePrintMediator
-			slot4 = slot4.SET_TECHNOLOGY_VERSION
-			slot5 = slot0.version
-
-			slot2(slot3, slot4, slot5)
-		end
-	end
-
 	slot2 = slot0
 	slot1 = slot0.initShips
 
@@ -2043,6 +2004,8 @@ function slot8(slot0)
 		slot1(slot2, slot3, slot4)
 	end
 
+	slot1 = 1
+	slot0.version = slot1
 	slot1 = {}
 	slot0.filterBlueprintVOs = slot1
 	slot1 = 0
@@ -8054,10 +8017,7 @@ end
 slot0.showFittingMsgPanel = slot10
 
 function slot10(slot0)
-	slot1 = {
-		nil,
-		"FANGAN3"
-	}
+	slot1 = {}
 	slot2 = slot0.storyMgr
 
 	if not slot2 then

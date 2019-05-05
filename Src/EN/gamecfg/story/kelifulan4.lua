@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>四　比赛开始！</size>",
+					"Knights & Awards\n\n<size=30>Chapter 4 - Game Day</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "篮球对抗赛当天·会场",
+			say = "Day of the basketball tournament - Assembly hall",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "这一天终于来了……指挥官，我们都准备好了！比赛的指挥就靠你了！",
+			say = "Finally, the day has come... We're all ready, Commander! We'll be counting on your instructions during the match!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,11 +44,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "It'll be easy!",
 					flag = 1
 				},
 				{
-					content = "大家加油！",
+					content = "Good luck!",
 					flag = 2
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "克利夫兰加油哦——！赢了再让海伦娜给你做便当哦——！",
+			say = "Good luck, Cleveland! If you win, I'll have Helena make more lunches for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "姐、姐姐！！别说了！",
+			say = "H-hey! Don't make promises like that without my say!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈……她还是老样子啊。先不管这些，趁比赛还没开始，我们再讨论一下战术吧！时间就是金钱♪",
+			say = "Ahahahah... Yep, that's just like her. But that aside, let's discuss our strategy one more time! Time's money... you know the drill~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "第一回合的比赛对手是“正义海狸”队。",
+			say = "The first round was against the Justice Beavers.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			actor = 101110,
 			nameColor = "#a9f548",
-			say = "让对手见识见识我们的正义吧！小海狸分队，出击！……咦？",
+			say = "Well met, friends! I'm afraid you stand no chance against our righteousness! Little Beavers, let's go! ... Wait, guys...?",
 			effects = {
 				{
 					active = true,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			say = "太麻烦了……我做替补就好啦。",
+			say = "Ugh, too bothersome for me... I'm sitting this one out.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			actor = 101140,
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 101120,
 			nameColor = "#a9f548",
-			say = "哈哈哈斯彭斯又差点摔了！……啊啊啊要撞上了！",
+			say = "Ahahaha! Spence looks like she's gonna trip again! ... Oh, shoot, we're gonna collide!",
 			action = {
 				{
 					y = 0,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！要撞上撒切尔了！！",
+			say = "Oh no, oh no! Look out, we're gonna collide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会来了！大家上啊！",
+			say = "This is our chance! Let's alley-oop for the slam-dunk!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "教练唐斯的努力也没能挽回局面，克利夫兰队大获全胜",
+			say = "Cleveland's team won easily, making all the efforts of the Justice Beavers' coach, Downes, in vain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "好，开局还不错！一口气赢下冠军吧！……不会有这么好的事吧，嘿嘿♪",
+			say = "Nice, we're off to a good start! If we keep this up, we'll win the finals! ... But the next one might not be so easy, heheh~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -282,7 +282,7 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍克利夫兰的肩",
+					content = "Pat Cleveland on the shoulder",
 					flag = 1
 				}
 			}
@@ -294,7 +294,7 @@ return {
 			blackBg = true,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "好！指挥官也睁大眼睛好好看着吧！我们会使出全力的♪",
+			say = "Thanks! Keep a watchful eye on us, Commander! We'll give it everything we have today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,9 +1,27 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "always",
+		type = 2,
+		id = 1,
+		pic = "temp12",
+		param = {
+			"seltechnology"
+		}
+	},
+	{
+		time = "always",
+		type = 2,
+		id = 2,
+		pic = "temp13",
+		param = {
+			"TECHNOLOGY_TREE_SCENE"
+		}
+	},
+	{
 		param = "30118",
 		type = 3,
-		id = 1,
+		id = 3,
 		pic = "temp1",
 		time = {
 			{
@@ -34,7 +52,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 4,
 		pic = "temp6",
 		param = {
 			"scene get boat",
@@ -71,7 +89,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 5,
 		pic = "temp9",
 		param = {
 			"scene get boat",
@@ -108,7 +126,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 6,
 		pic = "temp2",
 		param = {
 			"scene charge",
@@ -145,7 +163,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 7,
 		pic = "temp3",
 		param = {
 			"scene back yard"
@@ -179,7 +197,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 8,
 		pic = "temp4",
 		param = {
 			"scene shop",
@@ -216,7 +234,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
+		id = 9,
 		pic = "temp7",
 		param = {
 			"scene charge",
@@ -254,7 +272,7 @@ pg.activity_banner = {
 	{
 		param = "30115",
 		type = 3,
-		id = 8,
+		id = 10,
 		pic = "temp8",
 		time = {
 			{
@@ -273,7 +291,7 @@ pg.activity_banner = {
 				{
 					2019,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -286,7 +304,7 @@ pg.activity_banner = {
 	{
 		param = "30095",
 		type = 3,
-		id = 9,
+		id = 11,
 		pic = "temp5",
 		time = {
 			{
@@ -318,7 +336,7 @@ pg.activity_banner = {
 	{
 		param = "30114",
 		type = 3,
-		id = 10,
+		id = 12,
 		pic = "temp11",
 		time = {
 			{
@@ -351,7 +369,7 @@ pg.activity_banner = {
 		param = "0",
 		time = "always",
 		type = 3,
-		id = 11,
+		id = 13,
 		pic = "temp10"
 	},
 	all = {
@@ -365,7 +383,9 @@ pg.activity_banner = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12,
+		13
 	}
 }
 

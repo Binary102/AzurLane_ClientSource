@@ -158914,6 +158914,3090 @@ pg.ship_data_statistics = {
 			"KizunaAI"
 		}
 	},
+	[299011] = {
+		name = "Neptune",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Neptune",
+		skin_id = 299010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			815,
+			32,
+			67,
+			69,
+			0,
+			60,
+			0,
+			54,
+			28,
+			33.5,
+			0,
+			37
+		},
+		attrs_growth = {
+			19890,
+			628,
+			1312,
+			1356,
+			0,
+			300,
+			0,
+			804,
+			420,
+			0,
+			0,
+			366
+		},
+		attrs_growth_extra = {
+			0,
+			430,
+			548,
+			531,
+			0,
+			705,
+			0,
+			-4,
+			725,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299012] = {
+		name = "Neptune",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Neptune",
+		skin_id = 299010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			815,
+			32,
+			67,
+			69,
+			0,
+			60,
+			0,
+			54,
+			28,
+			33.5,
+			0,
+			46
+		},
+		attrs_growth = {
+			19890,
+			628,
+			1312,
+			1356,
+			0,
+			300,
+			0,
+			804,
+			420,
+			0,
+			0,
+			366
+		},
+		attrs_growth_extra = {
+			0,
+			430,
+			548,
+			531,
+			0,
+			705,
+			0,
+			-4,
+			725,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299013] = {
+		name = "Neptune",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Neptune",
+		skin_id = 299010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			815,
+			32,
+			67,
+			69,
+			0,
+			60,
+			0,
+			54,
+			28,
+			33.5,
+			0,
+			64
+		},
+		attrs_growth = {
+			19890,
+			628,
+			1312,
+			1356,
+			0,
+			300,
+			0,
+			804,
+			420,
+			0,
+			0,
+			366
+		},
+		attrs_growth_extra = {
+			0,
+			430,
+			548,
+			531,
+			0,
+			705,
+			0,
+			-4,
+			725,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299014] = {
+		name = "Neptune",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Neptune",
+		skin_id = 299010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			815,
+			32,
+			67,
+			69,
+			0,
+			60,
+			0,
+			54,
+			28,
+			33.5,
+			0,
+			92
+		},
+		attrs_growth = {
+			19890,
+			628,
+			1312,
+			1356,
+			0,
+			300,
+			0,
+			804,
+			420,
+			0,
+			0,
+			366
+		},
+		attrs_growth_extra = {
+			0,
+			430,
+			548,
+			531,
+			0,
+			705,
+			0,
+			-4,
+			725,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299021] = {
+		name = "Monarch",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Monarch",
+		skin_id = 299020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			43,
+			0,
+			62,
+			0,
+			21,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1628,
+			0,
+			840,
+			0,
+			308,
+			0,
+			306,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			58,
+			0,
+			578,
+			0,
+			727,
+			0,
+			249,
+			677,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299022] = {
+		name = "Monarch",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Monarch",
+		skin_id = 299020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			43,
+			0,
+			62,
+			0,
+			21,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1628,
+			0,
+			840,
+			0,
+			308,
+			0,
+			306,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			58,
+			0,
+			578,
+			0,
+			727,
+			0,
+			249,
+			677,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299023] = {
+		name = "Monarch",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Monarch",
+		skin_id = 299020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			43,
+			0,
+			62,
+			0,
+			21,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1628,
+			0,
+			840,
+			0,
+			308,
+			0,
+			306,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			58,
+			0,
+			578,
+			0,
+			727,
+			0,
+			249,
+			677,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[299024] = {
+		name = "Monarch",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 299024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Monarch",
+		skin_id = 299020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			43,
+			0,
+			62,
+			0,
+			21,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1628,
+			0,
+			840,
+			0,
+			308,
+			0,
+			306,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17892,
+			58,
+			0,
+			578,
+			0,
+			727,
+			0,
+			249,
+			677,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399011] = {
+		name = "Ibuki",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ibuki",
+		skin_id = 399010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			824,
+			51,
+			54,
+			36,
+			0,
+			69,
+			0,
+			47,
+			10,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			20095,
+			992,
+			1068,
+			712,
+			0,
+			342,
+			0,
+			690,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5024,
+			616,
+			608,
+			481,
+			0,
+			806,
+			0,
+			-1,
+			1976,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.6,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399012] = {
+		name = "Ibuki",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ibuki",
+		skin_id = 399010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			824,
+			51,
+			54,
+			36,
+			0,
+			69,
+			0,
+			47,
+			10,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			20095,
+			992,
+			1068,
+			712,
+			0,
+			342,
+			0,
+			690,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5024,
+			616,
+			608,
+			481,
+			0,
+			806,
+			0,
+			-1,
+			1976,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.6,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399013] = {
+		name = "Ibuki",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ibuki",
+		skin_id = 399010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			824,
+			51,
+			54,
+			36,
+			0,
+			69,
+			0,
+			47,
+			10,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			20095,
+			992,
+			1068,
+			712,
+			0,
+			342,
+			0,
+			690,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5024,
+			616,
+			608,
+			481,
+			0,
+			806,
+			0,
+			-1,
+			1976,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.7,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399014] = {
+		name = "Ibuki",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ibuki",
+		skin_id = 399010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 2,
+		attrs = {
+			824,
+			51,
+			54,
+			36,
+			0,
+			69,
+			0,
+			47,
+			10,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			20095,
+			992,
+			1068,
+			712,
+			0,
+			342,
+			0,
+			690,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5024,
+			616,
+			608,
+			481,
+			0,
+			806,
+			0,
+			-1,
+			1976,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.85,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399021] = {
+		name = "Izumo",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Izumo",
+		skin_id = 399020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 3,
+		attrs = {
+			1423,
+			84,
+			0,
+			44,
+			0,
+			54,
+			0,
+			20,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			34700,
+			1644,
+			0,
+			864,
+			0,
+			268,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			24290,
+			94,
+			0,
+			591,
+			0,
+			632,
+			0,
+			345,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2.1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399022] = {
+		name = "Izumo",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Izumo",
+		skin_id = 399020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 3,
+		attrs = {
+			1423,
+			84,
+			0,
+			44,
+			0,
+			54,
+			0,
+			20,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			34700,
+			1644,
+			0,
+			864,
+			0,
+			268,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			24290,
+			94,
+			0,
+			591,
+			0,
+			632,
+			0,
+			345,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2.1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399023] = {
+		name = "Izumo",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Izumo",
+		skin_id = 399020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 3,
+		attrs = {
+			1423,
+			84,
+			0,
+			44,
+			0,
+			54,
+			0,
+			20,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			34700,
+			1644,
+			0,
+			864,
+			0,
+			268,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			24290,
+			94,
+			0,
+			591,
+			0,
+			632,
+			0,
+			345,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2.1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399024] = {
+		name = "Izumo",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 399024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Izumo",
+		skin_id = 399020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		armor_type = 3,
+		attrs = {
+			1423,
+			84,
+			0,
+			44,
+			0,
+			54,
+			0,
+			20,
+			7,
+			28,
+			0,
+			0
+		},
+		attrs_growth = {
+			34700,
+			1644,
+			0,
+			864,
+			0,
+			268,
+			0,
+			300,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			24290,
+			94,
+			0,
+			591,
+			0,
+			632,
+			0,
+			345,
+			777,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2.1,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499011] = {
+		name = "Roon",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 499011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Roon",
+		skin_id = 499010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1041,
+			53,
+			40,
+			43,
+			0,
+			63,
+			0,
+			43,
+			9,
+			26,
+			0,
+			0
+		},
+		attrs_growth = {
+			25390,
+			1044,
+			788,
+			852,
+			0,
+			314,
+			0,
+			636,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			612,
+			540,
+			581,
+			0,
+			744,
+			0,
+			-3,
+			1672,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			331
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1,
+			1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499012] = {
+		name = "Roon",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 499012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Roon",
+		skin_id = 499010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1041,
+			53,
+			40,
+			43,
+			0,
+			63,
+			0,
+			43,
+			9,
+			26,
+			0,
+			0
+		},
+		attrs_growth = {
+			25390,
+			1044,
+			788,
+			852,
+			0,
+			314,
+			0,
+			636,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			612,
+			540,
+			581,
+			0,
+			744,
+			0,
+			-3,
+			1672,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			332
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.02,
+			1.02,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499013] = {
+		name = "Roon",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 499013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Roon",
+		skin_id = 499010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1041,
+			53,
+			40,
+			43,
+			0,
+			63,
+			0,
+			43,
+			9,
+			26,
+			0,
+			0
+		},
+		attrs_growth = {
+			25390,
+			1044,
+			788,
+			852,
+			0,
+			314,
+			0,
+			636,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			612,
+			540,
+			581,
+			0,
+			744,
+			0,
+			-3,
+			1672,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			333
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.05,
+			1.05,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499014] = {
+		name = "Roon",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 499014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Roon",
+		skin_id = 499010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 2,
+		attrs = {
+			1041,
+			53,
+			40,
+			43,
+			0,
+			63,
+			0,
+			43,
+			9,
+			26,
+			0,
+			0
+		},
+		attrs_growth = {
+			25390,
+			1044,
+			788,
+			852,
+			0,
+			314,
+			0,
+			636,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			612,
+			540,
+			581,
+			0,
+			744,
+			0,
+			-3,
+			1672,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			334
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[899011] = {
+		name = "Saint Louis",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 899011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Saint-Louis",
+		skin_id = 899010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 2,
+		attrs = {
+			943,
+			52,
+			42,
+			46,
+			0,
+			70,
+			0,
+			47,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			23000,
+			1016,
+			824,
+			908,
+			0,
+			348,
+			0,
+			696,
+			150,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			614,
+			564,
+			607,
+			0,
+			822,
+			0,
+			-13,
+			1670,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			371
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.1,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[899012] = {
+		name = "Saint Louis",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 899012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Saint-Louis",
+		skin_id = 899010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 2,
+		attrs = {
+			943,
+			52,
+			42,
+			46,
+			0,
+			70,
+			0,
+			47,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			23000,
+			1016,
+			824,
+			908,
+			0,
+			348,
+			0,
+			696,
+			150,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			614,
+			564,
+			607,
+			0,
+			822,
+			0,
+			-13,
+			1670,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			372
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[899013] = {
+		name = "Saint Louis",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 899013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Saint-Louis",
+		skin_id = 899010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 2,
+		attrs = {
+			943,
+			52,
+			42,
+			46,
+			0,
+			70,
+			0,
+			47,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			23000,
+			1016,
+			824,
+			908,
+			0,
+			348,
+			0,
+			696,
+			150,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			614,
+			564,
+			607,
+			0,
+			822,
+			0,
+			-13,
+			1670,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			373
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[899014] = {
+		name = "Saint Louis",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 899014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF Saint-Louis",
+		skin_id = 899010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 2,
+		attrs = {
+			943,
+			52,
+			42,
+			46,
+			0,
+			70,
+			0,
+			47,
+			10,
+			26.4,
+			0,
+			0
+		},
+		attrs_growth = {
+			23000,
+			1016,
+			824,
+			908,
+			0,
+			348,
+			0,
+			696,
+			150,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			614,
+			564,
+			607,
+			0,
+			822,
+			0,
+			-13,
+			1670,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			374
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	all = {
 		100001,
 		100011,
@@ -160136,7 +163220,31 @@ pg.ship_data_statistics = {
 		10400041,
 		10400042,
 		10400043,
-		10400044
+		10400044,
+		299011,
+		299012,
+		299013,
+		299014,
+		299021,
+		299022,
+		299023,
+		299024,
+		399011,
+		399012,
+		399013,
+		399014,
+		399021,
+		399022,
+		399023,
+		399024,
+		499011,
+		499012,
+		499013,
+		499014,
+		899011,
+		899012,
+		899013,
+		899014
 	}
 }
 

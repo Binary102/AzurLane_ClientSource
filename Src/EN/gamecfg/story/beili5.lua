@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>五 兔兔星人特征——“爱心”！</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=30>V 「Rabbit Alien Characteristics—— “Love”!」</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port area, City Square",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作差不多告一段落，是时候回去休息了。",
+			say = "We’re almost finished with today’s work, it’s time for us to go back and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "嘿咻，嘿咻……",
+			say = "Yayyy, hehehe...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "看到贝利抱着一箱干草正在往宿舍走。",
+			say = "Bailey is carrying a box of hay and rushing towards the dorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是指挥官~",
+			say = "Ah, Commander, good evening~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这个吗？这个是兔兔的饲料哦~",
+			say = "Oh, this? This is food for the rabbit~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "原来贝利真的有在养兔子吗……",
+			say = "Is Bailey actually raising a rabbit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "指挥官要来看看吗？兔兔超可爱的~",
+			say = "Commander, would you like to come and see? The rabbit is super cute~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Nods",
 					flag = 1
 				}
 			}
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "港区·贝利宿舍",
+			say = "Port Area, Bailey’s Dorm",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这只叫兔兔吉，这只叫兔兔美，它们都是好孩子哦~",
+			say = "This one is called Lucky, that one is called Pretty, they are both really adorable and nice~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……名字姑且不论，在笼子里的两只兔子确实白白的很可爱。",
+			say = "…No matter what you named them, they are indeed really cute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，到了散步时间咯~",
+			say = "Ok, it’s time for me to take them on a stroll.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说着，贝利打开了笼子的门，两只兔子从笼子中钻了出来。",
+			say = "Look, when Bailey opened the cage, the two rabbits both leaped out immediately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 101270,
 			nameColor = "#a9f548",
-			say = "不要乱跑哦~嗯，趁现在贝利来给你们添草和加水~",
+			say = "Don't hop around too far~ Here, Bailey is gonna give you more hay and water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			},
 			options = {
 				{
-					content = "帮助贝利",
+					content = "Help Bailey",
 					flag = 1
 				}
 			}
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，谢谢指挥官~",
+			say = "Ahhh, thank you Commander~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿咻……啊，果然你们两个又把房间弄脏了，真拿你们没办法呢……",
+			say = "Ack, you two made a mess of your cage again, you’re really a handful for Bailey...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "贝利说着，一脸习以为常地打扫起了两只兔子在房间里乱窜留下的痕迹。",
+			say = "Seems like you’re used to cleaning up for after the two Rabbits, huh Bailey.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实贝利一开始完全没想到养兔兔是这么困难的事……",
+			say = "Actually Bailey never thought that raising rabbits would be such a handful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过看到兔兔们这么可爱，就觉得努力都是值得的呢~",
+			say = "but just by looking at how cute they are, Bailey feels that all her hard work is all worth it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "这么说着的贝利，脸上露出了笑容。",
+			say = "Look at Bailey, just talking about them puts a smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_room",
 			blackBG = true,
 			dir = 1,
-			say = "看来又发现了一个兔兔星人的新特征呢",
+			say = "Looks like another characteristic of the Rabbit Alien was  just discovered.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

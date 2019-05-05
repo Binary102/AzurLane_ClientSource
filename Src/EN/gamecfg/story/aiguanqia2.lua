@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あ、ありがとう、ジャベリン",
+			say = "Thanks... thanks a ton, Javelin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

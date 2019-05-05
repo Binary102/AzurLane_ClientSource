@@ -4918,105 +4918,6 @@ pg.equip_data_statistics = {
 		value_1 = "245",
 		property_rate = {}
 	},
-	[1860] = {
-		name = "High Performance Boiler",
-		type = 10,
-		id = 1860,
-		tech = 0,
-		speciality = "N/A",
-		range = 0,
-		scatter = "N/A",
-		ambush_extra = 0,
-		value_2 = 4,
-		icon = "1860",
-		value_1 = "140",
-		attribute_2 = "speed",
-		avoid_extra = 0,
-		rarity = 5,
-		angle = 0,
-		nationality = 0,
-		ammo = "N/A",
-		descrip = "A massive boiler which improves speed and HP.",
-		value_3 = 0,
-		attribute_1 = "durability",
-		property_rate = {},
-		ammo_icon = {},
-		weapon_id = {},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {}
-	},
-	[1861] = {
-		id = 1861,
-		base = 1860,
-		value_2 = 5,
-		value_1 = "161",
-		property_rate = {}
-	},
-	[1862] = {
-		id = 1862,
-		base = 1860,
-		value_2 = 5,
-		value_1 = "182",
-		property_rate = {}
-	},
-	[1863] = {
-		id = 1863,
-		base = 1860,
-		value_2 = 6,
-		value_1 = "203",
-		property_rate = {}
-	},
-	[1864] = {
-		id = 1864,
-		base = 1860,
-		value_2 = 6,
-		value_1 = "224",
-		property_rate = {}
-	},
-	[1865] = {
-		id = 1865,
-		base = 1860,
-		value_2 = 7,
-		value_1 = "245",
-		property_rate = {}
-	},
-	[1866] = {
-		id = 1866,
-		base = 1860,
-		value_2 = 7,
-		value_1 = "266",
-		property_rate = {}
-	},
-	[1867] = {
-		id = 1867,
-		base = 1860,
-		value_2 = 8,
-		value_1 = "287",
-		property_rate = {}
-	},
-	[1868] = {
-		id = 1868,
-		base = 1860,
-		value_2 = 8,
-		value_1 = "308",
-		property_rate = {}
-	},
-	[1869] = {
-		id = 1869,
-		base = 1860,
-		value_2 = 9,
-		value_1 = "329",
-		property_rate = {}
-	},
-	[1870] = {
-		id = 1870,
-		base = 1860,
-		value_2 = 10,
-		value_1 = "350",
-		property_rate = {}
-	},
 	[1900] = {
 		name = "Navy Camouflage",
 		type = 10,
@@ -51673,7 +51574,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 6,
 		icon = "89000",
-		value_1 = "1",
+		value_1 = "16",
 		attribute_2 = "dodge",
 		avoid_extra = 0,
 		rarity = 5,
@@ -51695,7 +51596,6 @@ pg.equip_data_statistics = {
 	},
 	[89001] = {
 		id = 89001,
-		value_1 = "2",
 		base = 89000,
 		property_rate = {}
 	},
@@ -51703,63 +51603,63 @@ pg.equip_data_statistics = {
 		id = 89002,
 		base = 89000,
 		value_2 = 7,
-		value_1 = "3",
+		value_1 = "17",
 		property_rate = {}
 	},
 	[89003] = {
 		id = 89003,
 		base = 89000,
 		value_2 = 8,
-		value_1 = "4",
+		value_1 = "18",
 		property_rate = {}
 	},
 	[89004] = {
 		id = 89004,
 		base = 89000,
 		value_2 = 9,
-		value_1 = "5",
+		value_1 = "19",
 		property_rate = {}
 	},
 	[89005] = {
 		id = 89005,
 		base = 89000,
 		value_2 = 10,
-		value_1 = "6",
+		value_1 = "20",
 		property_rate = {}
 	},
 	[89006] = {
 		id = 89006,
 		base = 89000,
 		value_2 = 11,
-		value_1 = "7",
+		value_1 = "21",
 		property_rate = {}
 	},
 	[89007] = {
 		id = 89007,
 		base = 89000,
 		value_2 = 12,
-		value_1 = "8",
+		value_1 = "22",
 		property_rate = {}
 	},
 	[89008] = {
 		id = 89008,
 		base = 89000,
 		value_2 = 13,
-		value_1 = "9",
+		value_1 = "23",
 		property_rate = {}
 	},
 	[89009] = {
 		id = 89009,
 		base = 89000,
 		value_2 = 14,
-		value_1 = "10",
+		value_1 = "24",
 		property_rate = {}
 	},
 	[89010] = {
 		id = 89010,
 		base = 89000,
 		value_2 = 15,
-		value_1 = "11",
+		value_1 = "25",
 		property_rate = {}
 	},
 	[89020] = {
@@ -51773,7 +51673,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 1,
 		icon = "89020",
-		value_1 = "1",
+		value_1 = "200",
 		attribute_2 = "luck",
 		avoid_extra = 0,
 		rarity = 5,
@@ -51797,70 +51697,70 @@ pg.equip_data_statistics = {
 		id = 89021,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "2",
+		value_1 = "230",
 		property_rate = {}
 	},
 	[89022] = {
 		id = 89022,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "3",
+		value_1 = "260",
 		property_rate = {}
 	},
 	[89023] = {
 		id = 89023,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "4",
+		value_1 = "290",
 		property_rate = {}
 	},
 	[89024] = {
 		id = 89024,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "5",
+		value_1 = "320",
 		property_rate = {}
 	},
 	[89025] = {
 		id = 89025,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "6",
+		value_1 = "350",
 		property_rate = {}
 	},
 	[89026] = {
 		id = 89026,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "7",
+		value_1 = "380",
 		property_rate = {}
 	},
 	[89027] = {
 		id = 89027,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "8",
+		value_1 = "410",
 		property_rate = {}
 	},
 	[89028] = {
 		id = 89028,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "9",
+		value_1 = "440",
 		property_rate = {}
 	},
 	[89029] = {
 		id = 89029,
 		base = 89020,
 		value_2 = 1,
-		value_1 = "10",
+		value_1 = "470",
 		property_rate = {}
 	},
 	[89030] = {
 		id = 89030,
 		base = 89020,
 		value_2 = 2,
-		value_1 = "11",
+		value_1 = "500",
 		property_rate = {}
 	},
 	[89040] = {
@@ -51874,7 +51774,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 3,
 		icon = "89040",
-		value_1 = "1",
+		value_1 = "98",
 		attribute_2 = "speed",
 		avoid_extra = 0,
 		rarity = 5,
@@ -51896,7 +51796,7 @@ pg.equip_data_statistics = {
 	},
 	[89041] = {
 		id = 89041,
-		value_1 = "2",
+		value_1 = "112",
 		base = 89040,
 		property_rate = {}
 	},
@@ -51904,63 +51804,63 @@ pg.equip_data_statistics = {
 		id = 89042,
 		base = 89040,
 		value_2 = 4,
-		value_1 = "3",
+		value_1 = "127",
 		property_rate = {}
 	},
 	[89043] = {
 		id = 89043,
 		base = 89040,
 		value_2 = 4,
-		value_1 = "4",
+		value_1 = "142",
 		property_rate = {}
 	},
 	[89044] = {
 		id = 89044,
 		base = 89040,
 		value_2 = 5,
-		value_1 = "5",
+		value_1 = "156",
 		property_rate = {}
 	},
 	[89045] = {
 		id = 89045,
 		base = 89040,
 		value_2 = 5,
-		value_1 = "6",
+		value_1 = "171",
 		property_rate = {}
 	},
 	[89046] = {
 		id = 89046,
 		base = 89040,
 		value_2 = 6,
-		value_1 = "7",
+		value_1 = "186",
 		property_rate = {}
 	},
 	[89047] = {
 		id = 89047,
 		base = 89040,
 		value_2 = 6,
-		value_1 = "8",
+		value_1 = "200",
 		property_rate = {}
 	},
 	[89048] = {
 		id = 89048,
 		base = 89040,
 		value_2 = 7,
-		value_1 = "9",
+		value_1 = "215",
 		property_rate = {}
 	},
 	[89049] = {
 		id = 89049,
 		base = 89040,
 		value_2 = 7,
-		value_1 = "10",
+		value_1 = "230",
 		property_rate = {}
 	},
 	[89050] = {
 		id = 89050,
 		base = 89040,
 		value_2 = 8,
-		value_1 = "11",
+		value_1 = "245",
 		property_rate = {}
 	},
 	[90000] = {
@@ -54445,17 +54345,6 @@ pg.equip_data_statistics = {
 		1848,
 		1849,
 		1850,
-		1860,
-		1861,
-		1862,
-		1863,
-		1864,
-		1865,
-		1866,
-		1867,
-		1868,
-		1869,
-		1870,
 		1900,
 		1901,
 		1902,

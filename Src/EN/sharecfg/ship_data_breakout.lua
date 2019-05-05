@@ -16032,6 +16032,368 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[299011] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 29901,
+		breakout_id = 299012,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 299011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79231
+		}
+	},
+	[299012] = {
+		use_gold = 0,
+		pre_id = 299011,
+		use_char_num = 1,
+		use_char = 29901,
+		breakout_id = 299013,
+		breakout_view = "Torpedo efficiency +10%",
+		id = 299012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[299013] = {
+		use_gold = 0,
+		pre_id = 299012,
+		use_char_num = 2,
+		use_char = 29901,
+		breakout_id = 299014,
+		breakout_view = "Improve EX Barrage/Main gun efficiency +15%",
+		id = 299013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79232
+		}
+	},
+	[299014] = {
+		use_gold = 0,
+		pre_id = 299013,
+		use_char_num = 0,
+		use_char = 29901,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 299014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[299021] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 29902,
+		breakout_id = 299022,
+		breakout_view = "Main gun base +1/Main gun efficiency +5%",
+		id = 299021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			24160,
+			24160
+		}
+	},
+	[299022] = {
+		use_gold = 0,
+		pre_id = 299021,
+		use_char_num = 1,
+		use_char = 29902,
+		breakout_id = 299023,
+		breakout_view = "Auxiliary gun base +2/Main gun efficiency +10%",
+		id = 299022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[299023] = {
+		use_gold = 0,
+		pre_id = 299022,
+		use_char_num = 2,
+		use_char = 29902,
+		breakout_id = 299024,
+		breakout_view = "Main gun base +1/Main gun efficiency +15%",
+		id = 299023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			24160,
+			24160,
+			24160
+		}
+	},
+	[299024] = {
+		use_gold = 0,
+		pre_id = 299023,
+		use_char_num = 0,
+		use_char = 29902,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 299024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[399011] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 39901,
+		breakout_id = 399012,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 399011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79221
+		}
+	},
+	[399012] = {
+		use_gold = 0,
+		pre_id = 399011,
+		use_char_num = 1,
+		use_char = 39901,
+		breakout_id = 399013,
+		breakout_view = "Torpedo efficiency +10%",
+		id = 399012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[399013] = {
+		use_gold = 0,
+		pre_id = 399012,
+		use_char_num = 2,
+		use_char = 39901,
+		breakout_id = 399014,
+		breakout_view = "Improve EX Barrage/Torpedo efficiency +15%",
+		id = 399013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79222
+		}
+	},
+	[399014] = {
+		use_gold = 0,
+		pre_id = 399013,
+		use_char_num = 0,
+		use_char = 39901,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 399014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[399021] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 39902,
+		breakout_id = 399022,
+		breakout_view = "Main gun base +1/Main gun efficiency +5%",
+		id = 399021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			34180,
+			34180
+		}
+	},
+	[399022] = {
+		use_gold = 0,
+		pre_id = 399021,
+		use_char_num = 1,
+		use_char = 39902,
+		breakout_id = 399023,
+		breakout_view = "Auxiliary gun base +2/Main gun efficiency +10%",
+		id = 399022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[399023] = {
+		use_gold = 0,
+		pre_id = 399022,
+		use_char_num = 2,
+		use_char = 39902,
+		breakout_id = 399024,
+		breakout_view = "Main gun base +1/Main gun efficiency +15%",
+		id = 399023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			34180,
+			34180,
+			34180
+		}
+	},
+	[399024] = {
+		use_gold = 0,
+		pre_id = 399023,
+		use_char_num = 0,
+		use_char = 39902,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 399024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[499011] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 49901,
+		breakout_id = 499012,
+		breakout_view = "Unlock EX Barrage Ⅰ/All weapons' efficiency +2%",
+		id = 499011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79241
+		}
+	},
+	[499012] = {
+		use_gold = 0,
+		pre_id = 499011,
+		use_char_num = 1,
+		use_char = 49901,
+		breakout_id = 499013,
+		breakout_view = "All weapons' efficiency +3%",
+		id = 499012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			43060,
+			43060
+		}
+	},
+	[499013] = {
+		use_gold = 0,
+		pre_id = 499012,
+		use_char_num = 2,
+		use_char = 49901,
+		breakout_id = 499014,
+		breakout_view = "Improve EX Barrage/All weapons' efficiency +5%",
+		id = 499013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79242
+		}
+	},
+	[499014] = {
+		use_gold = 0,
+		pre_id = 499013,
+		use_char_num = 0,
+		use_char = 49901,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 499014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[899011] = {
+		use_gold = 0,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 89901,
+		breakout_id = 899012,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 899011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79251
+		}
+	},
+	[899012] = {
+		use_gold = 0,
+		pre_id = 899011,
+		use_char_num = 1,
+		use_char = 89901,
+		breakout_id = 899013,
+		breakout_view = "Torpedo efficiency +10%",
+		id = 899012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			7300,
+			7300
+		}
+	},
+	[899013] = {
+		use_gold = 0,
+		pre_id = 899012,
+		use_char_num = 2,
+		use_char = 89901,
+		breakout_id = 899014,
+		breakout_view = "Improve EX Barrage/Main gun efficiency +15%",
+		id = 899013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79252
+		}
+	},
+	[899014] = {
+		use_gold = 0,
+		pre_id = 899013,
+		use_char_num = 0,
+		use_char = 89901,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 899014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	all = {
 		100001,
 		100011,
@@ -17097,7 +17459,31 @@ pg.ship_data_breakout = {
 		10400041,
 		10400042,
 		10400043,
-		10400044
+		10400044,
+		299011,
+		299012,
+		299013,
+		299014,
+		299021,
+		299022,
+		299023,
+		299024,
+		399011,
+		399012,
+		399013,
+		399014,
+		399021,
+		399022,
+		399023,
+		399024,
+		499011,
+		499012,
+		499013,
+		499014,
+		899011,
+		899012,
+		899013,
+		899014
 	}
 }
 

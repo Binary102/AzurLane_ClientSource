@@ -83,6 +83,8 @@ function OnApplicationPause(slot0)
 	else
 		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
 	end
+
+	OnAppPauseForSDK(slot0)
 end
 
 function OnApplicationExit()

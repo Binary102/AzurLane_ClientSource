@@ -7988,6 +7988,29 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70058] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "Buy skin - Tanikaze: Lost Girl and Labyrinth Butterfly",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9873,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70058,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301621
+		}
+	},
 	[70059] = {
 		group_type = 0,
 		resource_num = 800,
@@ -8176,6 +8199,29 @@ pg.shop_template = {
 					59
 				}
 			}
+		}
+	},
+	[70064] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "Buy skin: Uzuki",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 9872,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70064,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301351
 		}
 	},
 	[70067] = {
@@ -11957,11 +12003,13 @@ pg.shop_template = {
 		70055,
 		70056,
 		70057,
+		70058,
 		70059,
 		70060,
 		70061,
 		70062,
 		70063,
+		70064,
 		70067,
 		70068,
 		70069,

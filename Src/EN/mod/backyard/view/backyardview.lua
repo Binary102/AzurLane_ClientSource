@@ -1304,7 +1304,6 @@ function slot0.removeFurn(slot0, slot1)
 	slot0.furnBottomGrids[slot1.id] = nil
 
 	slot0:clearFunriture(slot1)
-	slot0.backyardPoolMgr:Enqueue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE, slot2)
 
 	slot0.curFurnModal = nil
 	slot0.furnitureModals[slot1.id] = nil
@@ -1874,6 +1873,8 @@ function slot0.clearFunriture(slot0, slot1)
 		end)
 	end
 
+	slot0.backyardPoolMgr:Enqueue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE, slot2)
+
 	return
 end
 
@@ -1895,12 +1896,54 @@ function slot0.clearUI(slot0)
 		end
 	end
 
-	for slot4, slot5 in pairs(slot0.furnitureModals) do
-		if not IsNil(slot5) then
-			slot0:clearFunriture(slot0.furnitureVOs[slot4])
-			slot0.backyardPoolMgr:Enqueue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE, slot5)
+	slot1 = {}
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.furnitureModals) do
+		if slot0.furnitureVOs[slot7]:hasParent() and not slot9:hasChild() then
+			table.insert(slot1, function (slot0)
+				slot0:clearFunriture(slot0.clearFunriture)
+				slot0()
+
+				return
+			end)
+		else
+			if slot9:hasParent() and slot9:hasChild() then
+				table.insert(slot2, function (slot0)
+					slot0:clearFunriture(slot0.clearFunriture)
+					slot0()
+
+					return
+				end)
+			else
+				table.insert(slot3, function (slot0)
+					slot0:clearFunriture(slot0.clearFunriture)
+					slot0()
+
+					return
+				end)
+			end
 		end
 	end
+
+	seriesAsync({
+		function (slot0)
+			parallelAsync(slot0, slot0)
+
+			return
+		end,
+		function (slot0)
+			parallelAsync(slot0, slot0)
+
+			return
+		end,
+		function (slot0)
+			parallelAsync(slot0, slot0)
+
+			return
+		end
+	})
 
 	if not IsNil(slot0.furContain) then
 		removeAllChildren(slot0.furContain:Find("shadow"))
@@ -1930,8 +1973,8 @@ function slot0.clearUI(slot0)
 		setActive(slot0.floorGrid, false)
 	end
 
-	for slot4, slot5 in ipairs(slot0._attachmentList) do
-		Object.Destroy(slot5)
+	for slot7, slot8 in ipairs(slot0._attachmentList) do
+		Object.Destroy(slot8)
 	end
 
 	slot0._attachmentList = nil

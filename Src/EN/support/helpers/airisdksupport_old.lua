@@ -212,4 +212,8 @@ function getDeviceId()
 	return AiriSdkMgr.AiriSDKInst.GetDeviceUDID()
 end
 
+function OnAppPauseForSDK(slot0)
+	return
+end
+
 return

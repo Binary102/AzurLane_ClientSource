@@ -157,12 +157,6 @@ function slot0.interActionGroup(slot0)
 	return slot1
 end
 
-function slot0.getBgm(slot0)
-	if slot0:getConfig("interaction_bgm") and slot1 ~= "" then
-		return slot1
-	end
-end
-
 function slot0.setStageShip(slot0, slot1)
 	if not table.contains(slot0.stageShips, slot1) then
 		table.insert(slot0.stageShips, slot1)
@@ -310,11 +304,13 @@ function slot0.getSpineAinTriggerPos(slot0)
 end
 
 function slot0.getSpineAniPos(slot0)
-	if slot0:isInterActionSpine() and slot0:getConfig("spine")[5] and #slot1 > 0 then
-		return Vector3(slot1[1], slot1[2], 0)
-	end
+	if slot0:isInterActionSpine() then
+		if slot0:getConfig("spine")[5] and #slot1 > 0 then
+			return Vector3(slot1[1], slot1[2], 0)
+		end
 
-	return nil
+		return nil
+	end
 end
 
 function slot0.getSpineAniScale(slot0)
@@ -426,12 +422,6 @@ function slot0.clearInterAction(slot0, slot1)
 
 			break
 		end
-	end
-end
-
-function slot0.isFollowFurnitrueAnim(slot0)
-	if slot0:isSpine() then
-		return slot0:getInterActionSpineCfg()[3][2]
 	end
 end
 

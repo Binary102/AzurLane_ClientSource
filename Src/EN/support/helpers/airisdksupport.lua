@@ -1,6 +1,7 @@
 AIRI_PLATFORM_FACEBOOK = "facebook"
 AIRI_PLATFORM_TWITTER = "twitter"
 AIRI_PLATFORM_YOSTAR = "yostar"
+AIRI_SDK_INITED = false
 
 function AiriInit()
 	pg.UIMgr:GetInstance():LoadingOn()
@@ -109,6 +110,9 @@ end
 function AiriInitResult(slot0)
 	if AiriResultCodeHandler(slot0.R_CODE) then
 		pg.UIMgr:GetInstance():LoadingOff()
+
+		AIRI_SDK_INITED = true
+
 		AiriGoLogin()
 	end
 end
@@ -227,6 +231,18 @@ function GetAiriGenCodeTimeRemain()
 		return 0
 	else
 		return math.floor(AIRI_GEN_LIMIT_TIME - slot0)
+	end
+end
+
+function OnAppPauseForSDK(slot0)
+	if not AIRI_SDK_INITED then
+		return
+	end
+
+	if slot0 then
+		AiriSdkMgr.AiriSDKInst:OnPause()
+	else
+		AiriSdkMgr.AiriSDKInst:OnResume()
 	end
 end
 

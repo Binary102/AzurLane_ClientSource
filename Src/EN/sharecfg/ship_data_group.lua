@@ -3893,6 +3893,32 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[337] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 337,
+		type = 3,
+		group_type = 20309,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[127] = {
 		nationality = 2,
 		hide = 0,
@@ -4527,6 +4553,32 @@ pg.ship_data_group = {
 			},
 			{
 				"Light/Heavy Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[336] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 336,
+		type = 13,
+		group_type = 21304,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Heavy Ship Construction",
 				{
 					"GETBOAT",
 					{
@@ -8582,6 +8634,7 @@ pg.ship_data_group = {
 		124,
 		125,
 		126,
+		337,
 		127,
 		128,
 		129,
@@ -8598,6 +8651,7 @@ pg.ship_data_group = {
 		146,
 		149,
 		150,
+		336,
 		151,
 		155,
 		159,

@@ -61158,6 +61158,522 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[203091] = {
+		name = "Sussex",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			590,
+			37,
+			40,
+			48,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			311
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203092] = {
+		name = "Sussex",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			734,
+			46,
+			50,
+			60,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			312
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203093] = {
+		name = "Sussex",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1022,
+			65,
+			70,
+			83,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			313
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203094] = {
+		name = "Sussex",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1453,
+			93,
+			99,
+			118,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5035,
+			875,
+			934,
+			617,
+			0,
+			691,
+			0,
+			251,
+			2179,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			314
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[204011] = {
 		name = "Renown",
 		type = 4,
@@ -70281,6 +70797,514 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.2,
 			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213041] = {
+		name = "Abercrombie",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			609,
+			53,
+			0,
+			34,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213042] = {
+		name = "Abercrombie",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			758,
+			66,
+			0,
+			42,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213043] = {
+		name = "Abercrombie",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1055,
+			92,
+			0,
+			59,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213044] = {
+		name = "Abercrombie",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1500,
+			132,
+			0,
+			84,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			14850,
+			1142,
+			0,
+			454,
+			0,
+			638,
+			0,
+			-6,
+			1367,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.05,
 			1
 		},
 		strategy_list = {},
@@ -162469,6 +163493,10 @@ pg.ship_data_statistics = {
 		203082,
 		203083,
 		203084,
+		203091,
+		203092,
+		203093,
+		203094,
 		204011,
 		204012,
 		204013,
@@ -162541,6 +163569,10 @@ pg.ship_data_statistics = {
 		213022,
 		213023,
 		213024,
+		213041,
+		213042,
+		213043,
+		213044,
 		301011,
 		301012,
 		301013,

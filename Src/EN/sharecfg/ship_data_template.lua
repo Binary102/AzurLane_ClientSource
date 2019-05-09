@@ -21204,6 +21204,181 @@ pg.ship_data_template = {
 			53
 		}
 	},
+	[203091] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 26100,
+		oil_at_end = 4,
+		type = 3,
+		energy = 150,
+		name = "Sussex",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 23000,
+		group_type = 20309,
+		id = 203091,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[203092] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 3,
+		energy = 150,
+		name = "Sussex",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203092,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21211
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[203093] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 3,
+		energy = 150,
+		name = "Sussex",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203093,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21211
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {
+			53
+		}
+	},
+	[203094] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 3,
+		energy = 150,
+		name = "Sussex",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203094,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21212
+		},
+		buff_list_display = {
+			2061,
+			21212
+		},
+		hide_buff_list = {
+			53
+		}
+	},
 	[204011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -24226,6 +24401,170 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10350
+		},
+		hide_buff_list = {
+			1
+		}
+	},
+	[213041] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 13,
+		energy = 150,
+		name = "Abercrombie",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 21100,
+		equip_id_1 = 24100,
+		group_type = 21304,
+		id = 213041,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {}
+	},
+	[213042] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 13,
+		energy = 150,
+		name = "Abercrombie",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213042,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {}
+	},
+	[213043] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 13,
+		energy = 150,
+		name = "Abercrombie",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213043,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {
+			1
+		}
+	},
+	[213044] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 13,
+		energy = 150,
+		name = "Abercrombie",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213044,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
 		},
 		hide_buff_list = {
 			1
@@ -49282,6 +49621,10 @@ pg.ship_data_template = {
 		203082,
 		203083,
 		203084,
+		203091,
+		203092,
+		203093,
+		203094,
 		204011,
 		204012,
 		204013,
@@ -49350,6 +49693,10 @@ pg.ship_data_template = {
 		213022,
 		213023,
 		213024,
+		213041,
+		213042,
+		213043,
+		213044,
 		301011,
 		301012,
 		301013,

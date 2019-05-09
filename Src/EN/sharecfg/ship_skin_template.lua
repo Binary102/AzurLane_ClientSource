@@ -21725,6 +21725,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[203090] = {
+		ship_group = 20309,
+		name = "Sussex",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "susaikesi",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 203090,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "susaikesi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "London-class heavy cruiser – Sussex. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.05,
+					0.86,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.05,
+					0.85,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[204010] = {
 		ship_group = 20401,
 		name = "Renown",
@@ -25745,6 +25851,112 @@ pg.ship_skin_template = {
 						{
 							-0.528,
 							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[213040] = {
+		ship_group = 21304,
+		name = "Abercrombie",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "abeikelongbi",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 213040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "abeikelongbi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Roberts-class monitor – Abercrombie. ",
+		voice_actor = 105,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.65,
+					3.46,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.09,
+					0.55,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.09,
+					0.51,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.25,
 							0
 						}
 					}
@@ -30864,6 +31076,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301351] = {
+		ship_group = 30135,
+		name = "Sleepy Uzuki ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Maoyue_2",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 301351,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Maoyue_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70064,
+		desc = "*yawn* ... Kisaragi, Mutsuki, let's take a nap together... Commander? Do you want to join too? ",
+		voice_actor = 119,
+		air_bomb_skin = "",
+		illustrator = 34,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.4,
+					0.51,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					0.47,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.48,
+					-0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.42,
+					0.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301370] = {
 		ship_group = 30137,
 		name = "Minazuki ",
@@ -32516,6 +32834,112 @@ pg.ship_skin_template = {
 						{
 							-0.22,
 							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301621] = {
+		ship_group = 30162,
+		name = "Astray Girl and The Maze Butterfly ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Gufeng_2",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 301621,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Gufeng_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70058,
+		desc = "The butterfly flew... Huh? Where did it...? Hamakaze? Hamakaze?! Huh? Where are Urakaze and Isokaze? Where did...? We said we'd all go to the beach, so where did they go...? ",
+		voice_actor = 112,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.35,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.2,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.27,
 							0
 						}
 					}
@@ -58250,6 +58674,7 @@ pg.ship_skin_template = {
 		203060,
 		203070,
 		203080,
+		203090,
 		204010,
 		204020,
 		204030,
@@ -58287,6 +58712,7 @@ pg.ship_skin_template = {
 		213011,
 		213020,
 		213021,
+		213040,
 		301010,
 		301011,
 		301050,
@@ -58334,6 +58760,7 @@ pg.ship_skin_template = {
 		301330,
 		301331,
 		301350,
+		301351,
 		301370,
 		301380,
 		301381,
@@ -58350,6 +58777,7 @@ pg.ship_skin_template = {
 		301601,
 		301610,
 		301620,
+		301621,
 		301629,
 		301630,
 		301631,

@@ -53,7 +53,7 @@ end
 slot10 = {
 	"",
 	"JP",
-	""
+	"KR"
 }
 
 function slot11(slot0, slot1)
@@ -68,10 +68,9 @@ function slot11(slot0, slot1)
 	end
 
 	slot3 = "GameCfg.story"
-	slot4 = slot2
-	slot5 = "."
-	slot6 = slot1
-	slot3 = slot3 .. slot4 .. slot5 .. slot6
+	slot4 = "."
+	slot5 = slot1
+	slot3 = slot3 .. slot4 .. slot5
 	slot4 = Application
 	slot4 = slot4.isEditor
 

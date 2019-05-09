@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -132,7 +132,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actor = 900030,
+			actor = 502020,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actor = 900031,
+			actor = 502030,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,

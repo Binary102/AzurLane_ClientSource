@@ -849,6 +849,21 @@ pg.name_code = {
 		id = 170,
 		name = "小赤城",
 		code = "꼬마 아카기"
+	},
+	{
+		id = 171,
+		name = "阳炎级量产型.verAI",
+		code = "양산형 카게로급.ver AI"
+	},
+	{
+		id = 172,
+		name = "妙高级量产型.verAI",
+		code = "양산형 묘코급.ver AI"
+	},
+	{
+		id = 173,
+		name = "扶桑级量产型.verAI",
+		code = "양산형 후소급.ver AI"
 	}
 }
 

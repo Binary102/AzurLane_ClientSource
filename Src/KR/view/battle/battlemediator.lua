@@ -483,7 +483,7 @@ function slot0.GenBattleData(slot0)
 
 		for slot10, slot11 in ipairs(slot5.mainShips) do
 			if not slot11.hpRant or slot11.hpRant > 0 then
-				slot12 = slot0(slot2, slot11)
+				slot12 = slot0(slot2, slot11, nil, true)
 
 				if slot11.hpRant then
 					slot12.initHPRate = slot11.hpRant * 0.0001
@@ -495,7 +495,7 @@ function slot0.GenBattleData(slot0)
 
 		for slot10, slot11 in ipairs(slot5.vanguardShips) do
 			if not slot11.hpRant or slot11.hpRant > 0 then
-				slot12 = slot0(slot2, slot11)
+				slot12 = slot0(slot2, slot11, nil, true)
 
 				if slot11.hpRant then
 					slot12.initHPRate = slot11.hpRant * 0.0001

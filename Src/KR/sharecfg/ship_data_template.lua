@@ -33064,6 +33064,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10900,
+			4071,
 			22051
 		},
 		hide_buff_list = {
@@ -33110,6 +33111,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10900,
+			4071,
 			22051
 		},
 		hide_buff_list = {
@@ -33156,6 +33158,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10900,
+			4071,
 			22051
 		},
 		hide_buff_list = {
@@ -33202,6 +33205,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10900,
+			4071,
 			22052
 		},
 		hide_buff_list = {

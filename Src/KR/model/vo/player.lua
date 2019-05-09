@@ -131,7 +131,7 @@ end
 
 function slot0.Ctor(slot0, slot1)
 	if not slot0 then
-		slot0 = pg.StoryMgr:GetInstance():GetStoryByName("indexJP")
+		slot0 = pg.StoryMgr:GetInstance():GetStoryByName("index")
 	end
 
 	if not storyIndexAgain then

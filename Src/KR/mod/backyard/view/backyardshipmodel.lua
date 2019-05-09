@@ -642,18 +642,13 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 				slot1 = slot1[math.random(1, #slot1)]
 			end
 
-			if slot4.roles[1] then
-				if slot0[slot0][3] then
-					slot4.roles[1]:SetAction(slot0[slot0][3], 0)
-				else
-					slot4.roles[1]:SetAction(slot1, 0)
-				end
-			end
-
 			slot1:SetAction(slot1, 0)
 
+			if slot4.roles[1] then
+				slot4.roles[1]:SetAction(slot1, 0)
+			end
+
 			if slot4.roles[3] then
-				print(slot1)
 				slot4.roles[3]:SetAction(slot1, 0)
 			end
 

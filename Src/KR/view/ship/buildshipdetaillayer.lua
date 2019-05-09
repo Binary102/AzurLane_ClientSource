@@ -323,8 +323,12 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		slot0.buildAni = go(slot7)
 	end
 
-	if not slot0.buildAni then
+	if not slot0.buildAni and not slot0.onLoading then
+		slot0.onLoading = true
+
 		PoolMgr.GetInstance():GetUI(slot3.build_anim or "Building", true, function (slot0)
+			slot0.onLoading = false
+
 			slot0:SetActive(false)
 
 			slot0.buildAni = slot0
@@ -334,6 +338,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 			end)
 			slot0()
 		end)
+	elseif slot0.onLoading then
 	else
 		slot6()
 		onButton(slot0, slot0.buildAni, function ()
@@ -362,6 +367,8 @@ function slot0.willExit(slot0)
 
 		slot0.buildAni = nil
 	end
+
+	slot0.onLoading = false
 end
 
 function slot0.playCV(slot0, slot1)

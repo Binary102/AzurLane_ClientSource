@@ -4844,7 +4844,13 @@ pg.gametip = {
 						<color=#60a9ff>          Rare</color>：$4%
 						          Normal：$5% 
 
-							]],
+									【한정건조】
+							<color=#fff157>미카사</color>：2%<color=#A9F548>(up!)</color>
+							<color=#966af6>히에이</color>：2.5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>하마카제</color>：5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>쿠로시오</color>：5%<color=#A9F548>(up!)</color>
+							<color=#60a9ff>오야시오</color>：5%<color=#A9F548>(up!)</color>
+]],
 		key = "help_build"
 	},
 	help_build_1 = {

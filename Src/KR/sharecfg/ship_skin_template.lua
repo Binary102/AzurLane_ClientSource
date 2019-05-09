@@ -253,7 +253,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "패러것급 구축함 - 듀이(DD-349) ",
-		voice_actor = -1,
+		voice_actor = 178,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -15511,7 +15511,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "에식스급 항공모함 - 벙커힐(CV-17) ",
-		voice_actor = -1,
+		voice_actor = 179,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -24871,7 +24871,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "런던급 중순양함 - 서식스 (HMS Sussex） ",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -33097,7 +33097,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:30}级驱逐舰四番舰—{namecode:129}",
-		voice_actor = -1,
+		voice_actor = 180,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -36620,6 +36620,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301619] = {
+		name = "하마카제·改 ",
+		ship_group = 30161,
+		illustrator2 = -1,
+		bg = "",
+		bullet_skin_secondary = "",
+		painting = "bangfeng_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		id = 301619,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bangfeng_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "지휘관, 내가 와줘서 즐겁다고? ……그래… 다행이네! 에헤헤…하마카제, '텐션 업'! ",
+		voice_actor = 112,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.28,
+					0.99,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301620] = {
 		name = "타니카제",
 		ship_group = 30162,
@@ -37382,7 +37490,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "아사시오급 구축함 4번함 - 아라시오 ",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -44919,6 +45027,116 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.38,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305112] = {
+		name = "벚꽃놀이 가기 좋은 날 ",
+		ship_group = 30511,
+		illustrator2 = -1,
+		bg = "113",
+		bullet_skin_secondary = "",
+		painting = "sanli_4",
+		painting_hx = "",
+		air_bullet_skin = "",
+		hand_id = 0,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 305112,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanli_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70171,
+		desc = "슬슬 벚꽃이 피는 계절인가. 세월이란 참 빨리도 흐르는군……크흠, 지휘관, 어디, 나와 같이 꽃구경이라도 가지 않겠나? ",
+		voice_actor = 47,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.53,
+					1.18,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
 							2.33,
 							0
 						}
@@ -69537,6 +69755,7 @@ pg.ship_skin_template = {
 		301601,
 		301610,
 		301611,
+		301619,
 		301620,
 		301621,
 		301629,
@@ -69612,6 +69831,7 @@ pg.ship_skin_template = {
 		305070,
 		305110,
 		305111,
+		305112,
 		306010,
 		306020,
 		306030,

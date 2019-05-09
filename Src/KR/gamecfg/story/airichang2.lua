@@ -788,7 +788,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "타이위안",
+			actorName = "키즈나 아이",
 			actor = 10400040,
 			dir = 1,
 			blackBg = true,

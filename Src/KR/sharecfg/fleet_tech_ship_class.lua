@@ -1205,7 +1205,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30505] = {
 		shiptype = 5,
-		name = "시키시마급급",
+		name = "시키시마급",
 		t_level = 1,
 		id = 30505,
 		t_level_1 = 97,

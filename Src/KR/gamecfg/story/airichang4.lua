@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=30>四 먹고 살기 힘들면 BAR 스낵아이로!</size>",
+					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=30>4. 먹고 살기 힘들면 BAR 스낵아이로!</size>",
 					1
 				}
 			}

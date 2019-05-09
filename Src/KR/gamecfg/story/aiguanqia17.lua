@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 303118,
 			actorName = "타카오쨩",
-			say = "そ、そこは触れないでいてくれ……",
+			say = "그, 그건 묻지 말아다오……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

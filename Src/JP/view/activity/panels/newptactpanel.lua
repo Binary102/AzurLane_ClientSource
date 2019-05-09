@@ -510,13 +510,44 @@ function slot3(slot0)
 	slot3 = slot0.battleBtn
 
 	function slot4()
-		slot0 = slot0
+		slot0 = getProxy
+		slot1 = ActivityProxy
+		slot0 = slot0(slot1)
 		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ActivityMediator
-		slot2 = slot2.BATTLE_OPERA
+		slot0 = slot0.getActivityByType
+		slot2 = ActivityConst
+		slot2 = slot2.ACTIVITY_TYPE_ZPROJECT
+		slot0 = slot0(slot1, slot2)
 
-		slot0(slot1, slot2)
+		if slot0 then
+			slot2 = slot0
+			slot1 = slot0.isEnd
+			slot1 = slot1(slot2)
+
+			if slot1 then
+				slot1 = pg
+				slot1 = slot1.TipsMgr
+				slot2 = slot1
+				slot1 = slot1.GetInstance
+				slot1 = slot1(slot2)
+				slot2 = slot1
+				slot1 = slot1.ShowTips
+				slot3 = i18n
+				slot4 = "common_activity_end"
+
+				slot1(slot2, slot3(slot4))
+
+				return
+			end
+		end
+
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.emit
+		slot3 = ActivityMediator
+		slot3 = slot3.BATTLE_OPERA
+
+		slot1(slot2, slot3)
 	end
 
 	slot5 = SFX_PANEL

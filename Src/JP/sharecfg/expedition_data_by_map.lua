@@ -4027,6 +4027,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200010] = {
+		map = 2200010,
+		name = "グラーフ・シュペー追撃戦|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		on_activity = 0,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_1070000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4124,7 +4165,8 @@ pg.expedition_data_by_map = {
 		2100001,
 		2100010,
 		2100011,
-		2200000
+		2200000,
+		2200010
 	}
 }
 

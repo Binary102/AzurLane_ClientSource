@@ -4456,14 +4456,21 @@ pg.ship_data_group = {
 	[140] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 206019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 140,
 		type = 6,
 		group_type = 20601,
-		trans_type = 0,
-		trans_radar_chart = {},
+		trans_type = 6,
+		trans_radar_chart = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -6883,6 +6890,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8830,6 +8848,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8942,6 +8971,17 @@ pg.ship_data_group = {
 				"ログインスタンプ",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

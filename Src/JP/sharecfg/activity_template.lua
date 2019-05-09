@@ -10364,6 +10364,20 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2040] = {
+		mark = 20190509,
+		bg = "",
+		time = "always",
+		type = 17,
+		config_id = 5441,
+		is_show = 0,
+		config_client = "",
+		id = 2040,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -10655,7 +10669,8 @@ pg.activity_template = {
 		2035,
 		2036,
 		2037,
-		2038
+		2038,
+		2040
 	}
 }
 

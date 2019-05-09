@@ -245,7 +245,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "ファラガット級駆逐艦・デューイ（DD-349)",
-		voice_actor = -1,
+		voice_actor = 178,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4695,6 +4695,104 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101331] = {
+		name = "リトルペインター",
+		bullet_skin_main = "",
+		ship_group = 10133,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "bushi_2",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 101331,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bushi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70182,
+		desc = "じゃじゃーん！かーんせーい！見て見て、どうかな？ブッシュ、絵には自信がありますよ！",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.36,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.335,
+							2.623,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101340] = {
 		name = "ヘイゼルウッド",
 		bullet_skin_main = "",
@@ -8706,6 +8804,104 @@ pg.ship_skin_template = {
 						{
 							-0.49,
 							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102161] = {
+		name = "カジュアルバケーション",
+		bullet_skin_main = "",
+		ship_group = 10216,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "mengfeisi_2",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 102161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengfeisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70181,
+		desc = "あら、この格好はそんなに珍しいかしら？私だって非番の日はあるのよ？ふふん、こうしてのんびりと海風を浴びるのも気持ちいいと思わない？",
+		voice_actor = 159,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.025,
+					0.038,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.53,
 							-0.16
 						}
 					}
@@ -15184,7 +15380,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "エセックス級航空母艦・バンカー・ヒル（CV-17)",
-		voice_actor = -1,
+		voice_actor = 179,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -20144,7 +20340,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "J級駆逐艦・ジャージー（F72)",
-		voice_actor = -1,
+		voice_actor = 177,
 		air_bomb_skin = "",
 		illustrator = 40,
 		rarity_bg = "",
@@ -25254,7 +25450,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "ロンドン級重巡洋艦・サセックス (HMS Sussex）",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -27462,6 +27658,110 @@ pg.ship_skin_template = {
 				{
 					1.105,
 					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206019] = {
+		name = "ハーミーズ改",
+		bullet_skin_main = "",
+		ship_group = 20601,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "jingjishen_g",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 206019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jingjishen_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "集いし栄光が一つになるとき、新たなキズナは未来を照らし出す！限界を突き破る風は光の道筋とならん！ハーミーズ、改造終了！",
+		voice_actor = 122,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			},
+			plane = {
+				{
+					0.96,
+					1.06,
 					0
 				}
 			}
@@ -34103,7 +34403,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "初春型駆逐艦四番艦・初霜",
-		voice_actor = -1,
+		voice_actor = 180,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -38783,7 +39083,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "朝潮型駆逐艦四番艦・荒潮",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -43416,7 +43716,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "最上型重巡洋艦三番艦・鈴谷",
-		voice_actor = -1,
+		voice_actor = 181,
 		air_bomb_skin = "",
 		illustrator = 21,
 		rarity_bg = "",
@@ -46162,7 +46462,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70166,
-		desc = "今日は指揮官の招待をするぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
+		desc = "今日は指揮官を招待するぞ。饅頭たち、あとで余を盛装に着せ替えさせるがよい！余は、ふは……もう少しうたた寝を……ぬぅ、なにかが騒がしいぞ？…お、お主！？いつからいたのだ！？",
 		voice_actor = 11,
 		air_bomb_skin = "",
 		illustrator = -1,
@@ -69090,6 +69390,7 @@ pg.ship_skin_template = {
 		101312,
 		101319,
 		101330,
+		101331,
 		101340,
 		101360,
 		101361,
@@ -69127,6 +69428,7 @@ pg.ship_skin_template = {
 		102141,
 		102150,
 		102160,
+		102161,
 		102180,
 		102181,
 		103010,
@@ -69302,6 +69604,7 @@ pg.ship_skin_template = {
 		205070,
 		205072,
 		206010,
+		206019,
 		206030,
 		206031,
 		206032,

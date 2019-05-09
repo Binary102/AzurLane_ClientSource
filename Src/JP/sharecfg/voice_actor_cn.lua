@@ -703,6 +703,30 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "キズナアイ",
 		code = 176
+	},
+	{
+		actor_name = "嵩馬美歩",
+		code = 177
+	},
+	{
+		actor_name = "島袋美由利",
+		code = 178
+	},
+	{
+		actor_name = "市ノ瀬加那",
+		code = 179
+	},
+	{
+		actor_name = "岩佐夏芽",
+		code = 180
+	},
+	{
+		actor_name = "和氣あず未",
+		code = 181
+	},
+	{
+		actor_name = "内田真礼",
+		code = 182
 	}
 }
 

@@ -17098,6 +17098,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5441] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5324,
+		type = 5,
+		name = "彼女の願い",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		award_choice = "",
+		level = 1,
+		next_task = "5442",
+		visibility = 1,
+		story_id = "SIPEIBOJUE1",
+		target_id_for_client = 50003,
+		id = 5441,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5442] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5325,
+		type = 5,
+		name = "偶然の出逢い",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5443",
+		visibility = 1,
+		story_id = "SIPEIBOJUE2",
+		target_id_for_client = 0,
+		id = 5442,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5443] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5326,
+		type = 5,
+		name = "戦友たち",
+		count_inherit = 0,
+		desc = "アドミラル・グラーフ・シュペーを含めた艦隊で出撃し\n20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5444",
+		visibility = 1,
+		story_id = "SIPEIBOJUE3",
+		target_id_for_client = 40305,
+		id = 5443,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5444] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5327,
+		type = 5,
+		name = "仲間、そして……",
+		count_inherit = 0,
+		desc = "アドミラル・グラーフ・シュペーを含めた艦隊で3回\nデイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5445",
+		visibility = 1,
+		story_id = "SIPEIBOJUE4",
+		target_id_for_client = 40305,
+		id = 5444,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5445] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5328,
+		type = 5,
+		name = "孤独感",
+		count_inherit = 0,
+		desc = "アドミラル・グラーフ・シュペーの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5446",
+		visibility = 1,
+		story_id = "SIPEIBOJUE5",
+		target_id_for_client = 40305,
+		id = 5445,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5446] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5329,
+		type = 5,
+		name = "重量",
+		count_inherit = 0,
+		desc = "アドミラル・グラーフ・シュペーを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5447",
+		visibility = 1,
+		story_id = "SIPEIBOJUE6",
+		target_id_for_client = 403054,
+		id = 5446,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403054",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5447] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5330,
+		type = 5,
+		name = "暖かさ",
+		count_inherit = 0,
+		desc = "アドミラル・グラーフ・シュペーのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SIPEIBOJUE7",
+		target_id_for_client = 40305,
+		id = 5447,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -65414,6 +65670,13 @@ pg.task_data_template = {
 		5425,
 		5426,
 		5427,
+		5441,
+		5442,
+		5443,
+		5444,
+		5445,
+		5446,
+		5447,
 		6001,
 		6002,
 		6003,

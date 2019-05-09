@@ -618,7 +618,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:13}！？啧，竟然还没死透。可恶，我要替雷报仇！——的说！",
+			say = "{namecode:13}！？啧，竟然还没死透。可恶，我要替{namecode:13}报仇！——的说！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

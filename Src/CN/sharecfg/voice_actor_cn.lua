@@ -703,6 +703,30 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "绊爱",
 		code = 176
+	},
+	{
+		actor_name = "嵩马美步",
+		code = 177
+	},
+	{
+		actor_name = "岛袋美由利",
+		code = 178
+	},
+	{
+		actor_name = "市之濑加那",
+		code = 179
+	},
+	{
+		actor_name = "岩佐夏芽",
+		code = 180
+	},
+	{
+		actor_name = "和气杏未",
+		code = 181
+	},
+	{
+		actor_name = "内田真礼",
+		code = 182
 	}
 }
 

@@ -109,6 +109,89 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 4,
+		pic = "temp5",
+		param = {
+			"scene level",
+			{
+				open_remaster = 2
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 5,
+		pic = "temp3",
+		param = {
+			"scene back yard"
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 1
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
 		pic = "temp2",
 		param = {
 			"scene charge",
@@ -144,89 +227,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 5,
-		pic = "temp3",
-		param = {
-			"scene back yard"
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp4",
-		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp5",
-		param = {
-			"scene charge",
-			{
-				wrap = 3
-			}
-		}
-	},
-	{
 		type = 2,
 		id = 8,
 		pic = "temp7",
@@ -234,32 +235,6 @@ pg.activity_banner = {
 			"scene charge",
 			{
 				wrap = 1
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					4,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},

@@ -4458,15 +4458,24 @@ pg.ship_data_group = {
 	[140] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 206019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 140,
 		type = 6,
 		group_type = 20601,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 6,
+		trans_radar_chart = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			12110
+		},
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
@@ -6887,6 +6896,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：围剿斯佩伯爵",
 				{
 					""
@@ -8839,6 +8859,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -8951,6 +8982,17 @@ pg.ship_data_group = {
 				"月度签到",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

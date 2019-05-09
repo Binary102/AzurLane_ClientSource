@@ -485,7 +485,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们没事就好了。我们从港区一路感到虚拟镜面海域来了！",
+			say = "你们没事就好了。我们从港区一路赶到虚拟镜面海域来了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

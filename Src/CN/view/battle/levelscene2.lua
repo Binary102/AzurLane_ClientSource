@@ -762,6 +762,12 @@ function slot0.didEnter(slot0)
 		slot0:tryPlaySubGuide()
 	end
 
+	if slot0.contextData.open_remaster then
+		slot0:displayRemasterPanel(slot0.contextData.open_remaster)
+
+		slot0.contextData.open_remaster = nil
+	end
+
 	slot0:triggerCommanderPanel()
 end
 
@@ -1780,7 +1786,9 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 				setActive(slot1, true)
 			end
 
-			slot2()
+			if slot2 then
+				slot2()
+			end
 		end)
 
 		if slot2:isTriesLimit() then
@@ -3363,25 +3371,34 @@ function slot0.hideRepairWindow(slot0)
 	return
 end
 
-function slot0.displayRemasterPanel(slot0)
-	slot1 = getProxy(ChapterProxy)
+function slot0.displayRemasterPanel(slot0, slot1)
+	slot2 = getProxy(ChapterProxy)
 
 	if not slot0.remasterPanel then
-		slot2 = RemasterPanel.New(slot0.remasterWindow)
+		slot3 = RemasterPanel.New(slot0.remasterWindow)
 	end
 
-	slot0.remasterPanel = slot2
+	slot0.remasterPanel = slot3
 
 	slot0.remasterPanel:attach(slot0)
 
-	slot2 = {}
-	slot3 = pg.TimeMgr.GetInstance()
+	slot3 = {}
+	slot4 = pg.TimeMgr.GetInstance()
 
-	for slot7, slot8 in ipairs(pg.re_map_template.all) do
-		table.insert(slot2, pg.re_map_template[slot8])
+	for slot8, slot9 in ipairs(pg.re_map_template.all) do
+		table.insert(slot3, pg.re_map_template[slot9])
 	end
 
-	slot0.remasterPanel:set(slot2, slot1.remasterTickets)
+	slot6 = slot0.remasterPanel
+	slot5 = slot0.remasterPanel.set
+	slot7 = slot3
+	slot8 = slot2.remasterTickets
+
+	if not slot1 then
+		slot9 = 1
+	end
+
+	slot5(slot6, slot7, slot8, slot9)
 
 	function slot0.remasterPanel.onItem(slot0)
 		slot0:setMap(pg.chapter_template[slot0.config_data[1]].map)

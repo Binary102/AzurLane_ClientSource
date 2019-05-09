@@ -630,6 +630,8 @@ function slot0.playAnimsFollowFurniture(slot0, slot1)
 				slot1 = slot1[math.random(1, #slot1)]
 			end
 
+			slot1:SetAction(slot1, 0)
+
 			if slot4.roles[1] then
 				slot4.roles[1]:SetAction(slot1, 0)
 			end

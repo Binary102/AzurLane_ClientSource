@@ -8851,8 +8851,8 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
-		order = 8,
+		tag = 1,
+		order = 2,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8863,9 +8863,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
+					2019,
 					5,
-					24
+					9
 				},
 				{
 					0,
@@ -8875,9 +8875,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					6,
-					21
+					2019,
+					5,
+					15
 				},
 				{
 					23,
@@ -11881,25 +11881,21 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
-		order = 8,
+		tag = 1,
+		order = 2,
+		time = "always",
 		group = 0,
 		num = 1,
-		discount = 0,
+		discount = 20,
 		resource_type = 14,
 		id = 70125,
 		genre = "skin_shop",
-		discount_time = {},
-		limit_args = {},
-		effect_args = {
-			403052
-		},
-		time = {
+		discount_time = {
 			{
 				{
-					2018,
-					12,
-					14
+					2019,
+					5,
+					9
 				},
 				{
 					0,
@@ -11909,9 +11905,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					12,
-					19
+					2019,
+					5,
+					15
 				},
 				{
 					23,
@@ -11919,6 +11915,10 @@ pg.shop_template = {
 					59
 				}
 			}
+		},
+		limit_args = {},
+		effect_args = {
+			403052
 		}
 	},
 	[70126] = {
@@ -14088,7 +14088,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 2,
-		order = 1,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14328,7 +14328,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 2,
-		order = 1,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14376,7 +14376,7 @@ pg.shop_template = {
 		group_limit = 0,
 		group_buy_count = 0,
 		tag = 2,
-		order = 2,
+		order = 3,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -14394,6 +14394,102 @@ pg.shop_template = {
 					2019,
 					4,
 					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70181] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：孟菲斯常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70181,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			102161
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70182] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：布什小画家",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70182,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101331
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					9
 				},
 				{
 					0,
@@ -14797,7 +14893,9 @@ pg.shop_template = {
 		70177,
 		70178,
 		70179,
-		70180
+		70180,
+		70181,
+		70182
 	}
 }
 

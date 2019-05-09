@@ -245,7 +245,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "法拉格特级驱逐舰—杜威，舷号DD-349",
-		voice_actor = -1,
+		voice_actor = 178,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -4803,6 +4803,104 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101331] = {
+		name = "小小画家",
+		bullet_skin_main = "",
+		ship_group = 10133,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "bushi_2",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 101331,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bushi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70182,
+		desc = "锵锵~完成啦！你看你看，我画的怎么样？布什可是对自己的作品很有自信的！",
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.36,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.335,
+							2.623,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101340] = {
 		name = "黑泽伍德",
 		bullet_skin_main = "",
@@ -8810,6 +8908,104 @@ pg.ship_skin_template = {
 						{
 							-0.49,
 							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102161] = {
+		name = "海风之旅",
+		bullet_skin_main = "",
+		ship_group = 10216,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "mengfeisi_2",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 102161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengfeisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70181,
+		desc = "嗯？这身打扮很稀奇吗？我也是有休息日的哦？不觉得像这样悠闲地吹着海风很舒服么～？哼哼～",
+		voice_actor = 159,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.025,
+					0.038,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.53,
 							-0.16
 						}
 					}
@@ -15680,7 +15876,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "埃塞克斯级航空母舰—邦克山，舷号CV-17",
-		voice_actor = -1,
+		voice_actor = 179,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -20749,7 +20945,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "J级驱逐舰—泽西，舷号F72",
-		voice_actor = -1,
+		voice_actor = 177,
 		air_bomb_skin = "",
 		illustrator = 40,
 		rarity_bg = "",
@@ -25858,7 +26054,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "伦敦级重巡洋舰—苏塞克斯，舷号96",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -28164,6 +28360,110 @@ pg.ship_skin_template = {
 				{
 					1.105,
 					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206019] = {
+		name = "竞技神.改",
+		bullet_skin_main = "",
+		ship_group = 20601,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "jingjishen_g",
+		hand_id = 0,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 206019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jingjishen_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "聚集的荣耀化为一体时，新的羁绊将照亮未来！超越极限的风，将化作光芒闪耀的道路！竞技神，改造完成！",
+		voice_actor = 122,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			},
+			plane = {
+				{
+					0.96,
+					1.06,
 					0
 				}
 			}
@@ -34779,7 +35079,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:30}级驱逐舰四番舰—{namecode:129}",
-		voice_actor = -1,
+		voice_actor = 180,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -39459,7 +39759,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:145}级驱逐舰四番舰—{namecode:148}",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -44091,7 +44391,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:57}级重巡洋舰三番舰—{namecode:59}",
-		voice_actor = -1,
+		voice_actor = 181,
 		air_bomb_skin = "",
 		illustrator = 21,
 		rarity_bg = "",
@@ -47542,7 +47842,7 @@ pg.ship_skin_template = {
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		shop_id = 70174,
+		shop_id = 70171,
 		desc = "又到了樱花盛放的季节了啊，时间过得真快呢……咳咳，指挥官，一道去赏樱如何？",
 		voice_actor = 47,
 		air_bomb_skin = "",
@@ -69833,6 +70133,7 @@ pg.ship_skin_template = {
 		101312,
 		101319,
 		101330,
+		101331,
 		101340,
 		101360,
 		101361,
@@ -69870,6 +70171,7 @@ pg.ship_skin_template = {
 		102141,
 		102150,
 		102160,
+		102161,
 		102180,
 		102181,
 		103010,
@@ -70051,6 +70353,7 @@ pg.ship_skin_template = {
 		205070,
 		205072,
 		206010,
+		206019,
 		206030,
 		206031,
 		206032,

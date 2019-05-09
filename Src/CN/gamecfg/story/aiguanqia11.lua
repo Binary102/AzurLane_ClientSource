@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_ailevel",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此！这就是所谓的“人靠衣装”对吧！雷也觉得很可爱哦！",
+			say = "原来如此！这就是所谓的“人靠衣装”对吧！{namecode:13}！也觉得很可爱哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

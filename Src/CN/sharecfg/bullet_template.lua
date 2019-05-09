@@ -17402,9 +17402,9 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
-	[19870] = {
-		range_offset = 15,
-		modle_ID = "kuasheAP",
+	[19862] = {
+		range_offset = 20,
+		modle_ID = "BomberbombWhite",
 		type = 2,
 		antisub_enhancement = 0,
 		nobreakdown_sfx = "",
@@ -17412,40 +17412,40 @@ pg.bullet_template = {
 		nobreakdown_fx = "huohua",
 		out_bound = 0,
 		miss_fx = "ShellMissBig",
-		miss_sfx = "battle/sink",
-		hit_fx = "ShellHit",
-		range = 110,
+		miss_sfx = "",
+		hit_fx = "WhiteShellHit1",
+		range = 200,
 		effect_type = 1,
 		hit_sfx = "battle/hit",
 		track_fx = "",
 		pierce_count = 0,
 		ammo_type = 2,
-		id = 19870,
-		velocity = 15,
+		id = 19862,
+		velocity = 1,
 		damage_type = {
-			0.4,
-			1.25,
-			1.2
+			1,
+			1,
+			1
 		},
 		DMG_font = {
 			{
-				4,
-				0.6
+				2,
+				1.2
 			},
 			{
 				2,
-				1.1
+				1.2
 			},
 			{
 				2,
-				1.1
+				1.2
 			}
 		},
 		acceleration = {},
 		cld_box = {
-			5,
-			2,
-			2
+			1.8,
+			1,
+			1
 		},
 		cld_offset = {
 			0,
@@ -17454,13 +17454,158 @@ pg.bullet_template = {
 		},
 		hit_type = {
 			time = -1,
-			range = 16
+			range = 18
 		},
 		attach_buff = {},
 		extra_param = {
-			gravity = -0.05,
-			randomOffsetX = 20,
-			randomOffsetZ = 20,
+			gravity = -0.1,
+			dropOffset = true,
+			airdrop = true,
+			offsetY = 60,
+			randomOffsetX = 10,
+			randomOffsetZ = 10,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19863] = {
+		range_offset = 20,
+		modle_ID = "BomberbombBlack",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "RedShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 3,
+		id = 19863,
+		velocity = 1,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				1.2
+			},
+			{
+				3,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 34
+		},
+		attach_buff = {
+			{
+				rant = 5000,
+				buff_id = 320,
+				level = 3
+			}
+		},
+		extra_param = {
+			gravity = -0.1,
+			dropOffset = true,
+			airdrop = true,
+			offsetY = 60,
+			randomOffsetX = 3,
+			randomOffsetZ = 3,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
+	[19864] = {
+		range_offset = 20,
+		modle_ID = "BomberbombKnife",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "",
+		hit_fx = "ShellMissBig",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 19864,
+		velocity = 1,
+		damage_type = {
+			1,
+			1,
+			1
+		},
+		DMG_font = {
+			{
+				1,
+				1.1
+			},
+			{
+				1,
+				1.1
+			},
+			{
+				1,
+				1.1
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 7
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.2,
+			dropOffset = true,
+			airdrop = true,
+			offsetY = 60,
+			randomOffsetX = 35,
+			randomOffsetZ = 35,
 			diveFilter = {
 				2
 			}
@@ -92544,7 +92689,9 @@ pg.bullet_template = {
 		19859,
 		19860,
 		19861,
-		19870,
+		19862,
+		19863,
+		19864,
 		19871,
 		19872,
 		19873,

@@ -4870,10 +4870,7 @@ pg.gametip = {
 						<color=#60a9ff>レア</color>：$4%
 						ノーマル：$5%
 
-						【期間限定】
-					<color=#966af6>比叡ちゃん</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>赤城ちゃん</color>：2.5%<color=#A9F548>(up!)</color>
-					<color=#966af6>ツェッペリンちゃん</color>：2.5%<color=#A9F548>(up!)</color>]],
+						]],
 		key = "help_build_1"
 	},
 	help_build_2 = {

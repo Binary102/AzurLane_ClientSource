@@ -26,7 +26,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_210",
-			bgm = "ai-otr-inst",
+			bgm = "story-1",
 			actor = 900179,
 			nameColor = "#a9f548",
 			say = "はいどうもー！キズナアイです！",

@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgName = "bg_story_task",
-			bgm = "ai-fb-inst",
+			bgm = "story-2",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "これをこうして…こうじゃ！……よし！全部ウィルスの駆除が完了したね！",

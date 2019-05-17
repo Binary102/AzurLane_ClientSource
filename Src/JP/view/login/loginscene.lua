@@ -6,7 +6,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "ai-fb"
+	return "login"
 end
 
 function slot0.preload(slot0, slot1)

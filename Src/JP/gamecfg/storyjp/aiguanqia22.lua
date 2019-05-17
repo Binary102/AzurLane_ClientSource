@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			bgm = "ai-fb-inst",
+			bgm = "story-1",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "えへへ～、無事に帰ってこれちゃった～！",

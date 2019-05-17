@@ -7688,15 +7688,24 @@ pg.ship_data_group = {
 	[318] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 301619,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 318,
 		type = 1,
 		group_type = 30161,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_skill = {
+			4071
+		},
 		description = {
 			{
 				"이벤트 : 귀환과 신생",

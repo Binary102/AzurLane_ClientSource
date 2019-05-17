@@ -79,11 +79,17 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()
-		slot6.mapIdx, slot6.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
+		if not getProxy(ActivityProxy):getActivityByType(ACTIVITY_TYPE_ZPROJECT) or slot0:isEnd() then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		slot7.mapIdx, slot7.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
 
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
+			chapterId = slot2,
+			mapIdx = slot1
 		})
 	end)
 	slot0:bind(slot0.REQUEST_VOTE_INFO, function (slot0, slot1)

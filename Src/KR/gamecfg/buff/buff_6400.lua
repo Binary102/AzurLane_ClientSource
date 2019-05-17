@@ -12,24 +12,5 @@ return {
 	limit = {
 		SYSTEM_DUEL
 	},
-	effect_list = {
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onStartGame"
-			},
-			arg_list = {
-				minTargetNumber = 1,
-				quota = 1,
-				skill_id = 6400,
-				check_target = {
-					"TargetSelf",
-					"TargetNationality"
-				},
-				nationality = {
-					104
-				}
-			}
-		}
-	}
+	effect_list = {}
 }

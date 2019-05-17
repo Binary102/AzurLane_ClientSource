@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "ai-fb-inst",
+			bgm = "story-1",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "여차여차해서, 랜덤 워드 생성기가 내 3D 모델을 베이스로 카피를 만든 모양이어서 말야, 나도 조금 전에 정신이 들어서 깜짝 놀란 참이었어~",

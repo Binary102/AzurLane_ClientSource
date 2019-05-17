@@ -4645,11 +4645,7 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-									<size=23>【Building Event】</size>
-
-							<color=#966af6>   Akagi-chan</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Hiei-chan</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>   Zeppy</color>：2.5%<color=#A9F548>(up!)</color>]],
+									]],
 		key = "help_build_1"
 	},
 	help_build_2 = {

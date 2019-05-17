@@ -11268,7 +11268,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52001] = {
-		display = "You can acquire a number of the following Blueprints at random:",
+		display = "It contains a random Blueprint ",
 		rarity = 4,
 		type = 99,
 		name = "Random Blueprint",
@@ -11315,7 +11315,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52002] = {
-		display = "You can acquire a number of the following gear designs at random:",
+		display = "It contains a random Gear Design",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design",
@@ -11387,7 +11387,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52003] = {
-		display = "You can acquire a number of the following gear designs at random:",
+		display = "It contains a random T3 Gear Design",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design T3",
@@ -11529,7 +11529,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52004] = {
-		display = "You can acquire a number of the following gear designs at random:",
+		display = "It contains a random T2 Gear Design",
 		rarity = 3,
 		type = 98,
 		name = "Random Gear Design T2",
@@ -11545,7 +11545,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52011] = {
-		display = "You can acquire a number of the following Blueprints at random:",
+		display = "It contains a random Blueprint ",
 		rarity = 4,
 		type = 99,
 		name = "Random Blueprint",
@@ -11592,7 +11592,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52012] = {
-		display = "You can acquire a number of the following gear designs at random:",
+		display = "It contains a random Gear Design",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design",

@@ -4843,10 +4843,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							 <color=#60a9ff>稀有舰船</color>：$4%
 							 普通舰船：$5%
 
-							  【限时建造】
-							<color=#966af6>  小鲟</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>  小凰</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>  小齐柏林</color>：2.5%<color=#A9F548>(up!)</color>]],
+							  ]],
 		key = "help_build_1"
 	},
 	help_build_2 = {

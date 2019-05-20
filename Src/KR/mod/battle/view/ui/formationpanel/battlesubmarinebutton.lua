@@ -15,6 +15,7 @@ end
 function slot1.ConfigSkin(slot0, slot1)
 	slot0.super.ConfigSkin(slot0, slot1)
 	slot0._progress.gameObject:SetActive(false)
+	slot0._filledEffect.gameObject:SetActive(false)
 end
 
 function slot1.Update(slot0)
@@ -25,12 +26,8 @@ function slot1.updateProgressBar(slot0)
 	return
 end
 
-function slot1.OnUnfill(slot0)
-	slot0.super.OnUnfill(slot0)
-
-	slot0._filledEffect:GetComponent("Animator").enabled = false
-
-	slot0._filledEffect.gameObject:SetActive(false)
+function slot1.OnfilledEffect(slot0)
+	return
 end
 
 return

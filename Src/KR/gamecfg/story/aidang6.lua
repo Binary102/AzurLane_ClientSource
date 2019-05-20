@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>六 夕阳下的礼物</size>",
+					"和姐姐的一日约会\n\n<size=45>六 夕阳下的礼物</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "说得没错，有时候确实自己也会忘记本来的目的。",
@@ -234,7 +234,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "跨越了各个势力间的隔阂而聚集到港区来的大家，她们的信念究竟会如何……",
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我此时此刻最想要的东西——你能送给我吗？",
 			typewriter = {
 				speed = 0.05,

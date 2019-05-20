@@ -14,6 +14,7 @@ function ys.Battle.RandomStrategy.Ctor(slot0, slot1)
 	slot0._stopCount = 0
 	slot0._moveCount = 0
 	slot0._speed = Vector3.zero
+	slot0._speedCross = Vector3.zero
 end
 
 function ys.Battle.RandomStrategy.GetStrategyType(slot0)
@@ -25,14 +26,15 @@ function ys.Battle.RandomStrategy.Input(slot0, slot1, slot2)
 	slot0:shiftTick(0, 10)
 end
 
+slot4 = Vector3.up
+
 function ys.Battle.RandomStrategy._moveTick(slot0)
 	if slot0._moveCount <= 0 then
 		slot0:shiftTick(-1)
 	else
 		slot0._moveCount = slot0._moveCount - 1
-		slot0._speedNormal = slot0._speed / slot0._speed:Magnitude()
-		slot0._speedCross = Vector3.Cross(slot0._speedNormal, Vector3.up)
-		slot0._speed = slot0._speed + slot0._speedCross * slot0._crossAcc
+		slot0._speedCross = slot0._speedCross:Copy(slot0):Cross2(slot0._speed):Mul(slot0._crossAcc / slot0._speed:Magnitude())
+		slot0._speed = slot0._speed:Add(slot0._speedCross)
 		slot0._hrz = slot0._speed.x
 		slot0._vtc = slot0._speed.z
 	end

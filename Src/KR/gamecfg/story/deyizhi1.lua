@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"도이칠란트의 우울\n\n<size=30>발단</size>",
+					"도이칠란트의 우울\n\n<size=45>발단</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하인! ……재미없어.",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "비서함이라면 뭔가 재밌는 걸 할 수 있을 줄 알았는데, 결국 보잘것없는 방에 틀어박혀 있을뿐이잖아.",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 너 말야, 하등생물인 하인 주제에 설마 주인을 내팽개치고 혼자서 묵묵히 일이나 하고 있을 줄이야……",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "명령이야, 뭔가 재미있는 걸 좀 찾아와. 안 그러면 돌아갈 거다?!",
 			typewriter = {
 				speed = 0.05,
@@ -110,7 +110,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "도이칠란트가 계속 하고 싶다고 조르는 바람에 비서함을 맡게 해주었지만, 평소와 별반 다를 바 없구나.",
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "싫어. 하등생물의 뒤치다꺼리 따위.",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그런 눈으로 쳐다봐도 소용없어!",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……흥! 자기 일을 도와달라 주인에게 부탁하다니, 정말 구제불능인 하등생물이구나!",
 			typewriter = {
 				speed = 0.05,
@@ -199,7 +199,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201220,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저, 저기… 지휘관?",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201220,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "임무 보고서를 가져다 드리려고 왔어요……",
 			typewriter = {
 				speed = 0.05,
@@ -275,7 +275,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201220,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그, 그럼, 더 지시하실 일이 없으시면, 이, 이만 들어가 볼게요……",
 			typewriter = {
 				speed = 0.05,
@@ -317,7 +317,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -328,7 +328,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.5,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하하하! 하인이여, 지금 거 봤어?? 저 구축함의 겁먹은 눈!",
 			typewriter = {
 				speed = 0.05,
@@ -359,7 +359,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -372,7 +372,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말이지, 못 참겠단 말이야! 응응! 정했어!",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지금 같은 눈을 매일 볼 수 있다면…그래, 비서함 그까짓 거, 해줘도 좋겠네!",
 			typewriter = {

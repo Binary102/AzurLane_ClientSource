@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"선배와의 앙금\n\n<size=30>엄격한 비서함</size>",
+					"선배와의 앙금\n\n<size=45>엄격한 비서함</size>",
 					1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…아, 지휘관님, 좋은 아침입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조금 늦으셨네요. 무슨 일이라도 있으셨나요?",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "늦은 이유를 설명했다.",
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어젯밤, 늦게까지 업무를 보았다…는 거군요.",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님, 모항과 함대의 지도자로서, 스케쥴과 컨디션 관리는 제대로 해주시길 부탁드립니다.",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그것을 서포트 하는 것도 비서함의 업무이므로…",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "안심하십시오. 오늘부터 제가 당신의 생활 시간을 관리하도록 하겠습니다!",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 우선은, 금일 업무에 착수하여 주시기 바랍니다!",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우선은 확인해주실 서류입니다. 대략적으로는 분류하여 두었습니다……",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘의 스케쥴과 연습전 지도의 요건, 군사 의뢰의 내용 확인, 순찰 계획 및 과학연구 관련 신청, 그리고……",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "결재하실 내용은 꽤 양이 많습니다만, 꼼꼼히 하나하나씩 확인하여 주십시오!",
 			typewriter = {

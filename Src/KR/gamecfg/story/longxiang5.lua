@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"경항공모함 류조 참전!\n\n<size=30>5. 불안! 최근엔 어째서……?</size>",
+					"경항공모함 류조 참전!\n\n<size=45>5. 불안! 최근엔 어째서……?</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 머릿속에서 잊혀지지 않아……그런 추한 모습을 주군에게 보이다니, 이건 무사의 수치…!",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "큭…! 설마 이렇게까지 신경이 쓰일 줄은……!",
 			typewriter = {
 				speed = 0.05,
@@ -84,7 +84,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이대로는 비서함 뿐만 아니라 군인으로서의 업무마저 손에 잡힐리가…!",
 			typewriter = {
 				speed = 0.05,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에잇, 아야나미에게 추천받은 '게임' 인지 뭔지도 전혀 못하고…!",
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "생각하면, 요즘 상태가 계속 좋지 않은 것 같기도…",
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "죄, 죄송합니다! 어제 부탁받은 자료, 깜빡 잊고 있었습니다…!",
 			flashout = {
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_outdoor",
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "왔구나! 그레이 고스트! 과거 1항전에 몸 담았던 자로서, 원수를 갚아주마!",
 			flashout = {
 				dur = 0.5,
@@ -266,7 +266,7 @@ return {
 			actor = 306060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(주군이 보고 있다니, 이건 명예회복을 할 수 있는 절호의 기회! 그나저나, 주군이 있는 방향이……)",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아얏! ……피, 피탄 판정?! 말도 안 돼!",
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "일러스트리어스씨, 주군과 물건을 사러 외출할 때 입을 귀여운 옷이 필요하다고 말한 건 저지만……",
 			flashout = {
 				dur = 0.5,
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 아무리 그래도 이렇게 하늘하늘 거리는 옷은 좀……!",
 			typewriter = {
 				speed = 0.05,
@@ -356,7 +356,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			actor = 306060,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "난 대체 왜 이러지………",
 			flashout = {
 				dur = 0.5,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"비서함 다이호의 헌신\n\n<size=30>사라진 다이호</size>",
+					"비서함 다이호의 헌신\n\n<size=45>사라진 다이호</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 무슨 일이시죠? 안색이 굉장히 안 좋아 보이는데…",
 			flashout = {
 				dur = 0.5,
@@ -94,7 +94,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다이호요? …아뇨 전 못 봤습니다만…그 아이는 계속 지휘관님과 함께 있었던 게 아닌가요…?",
 			typewriter = {
@@ -140,9 +140,9 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorPosition = {
-				x = 1000,
+				x = 1500,
 				y = 0
 			},
 			action = {
@@ -151,7 +151,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.4,
-					x = -450
+					x = -675
 				}
 			},
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미안! 나, 어제 \"잡지에서 봤는데, 너무 헌신적인 여자는 미움받을 가능성이 있대~\" 하고 다이호한테 농담을 했는데,",
 			flashout = {
 				dur = 0.2,
@@ -203,7 +203,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그냥 농담이니까 그땐 별 생각 없었는데, 나중에 다이호가 갑자기 방으로 쾅! 하고 들어가선, 지금까지도 나오질 않고 있어……",
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "부탁해 지휘관! 다이호를 방에서 꺼내줘! 아마 지휘관 말이라면 들을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -232,7 +232,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -279,7 +279,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "지휘관님……",
@@ -291,7 +291,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "파르르 떨리는 다이호의 목소리가 들렸다.",
@@ -303,7 +303,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "계속..다이호가 하는 모든 것은 전부 지휘관님을 위해서라고 생각했었는데, 지휘관님의 마음을 단 한 번도 헤아리지 못했었어요…",
@@ -315,7 +315,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "어제 알바코어에게 그런 말을 듣곤, 다이호는 처음으로 스스로가 너무 밉고 싫었답니다.",
@@ -327,7 +327,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "하지만 다이호는 지휘관님을 정말로 사모한답니다…온종일 머릿속엔 온통 지휘관님 생각 뿐…그런 다이호는 이제 어떻게 해야 좋을지……",
@@ -345,7 +345,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "…지휘관님께선 다이호가 싫으시니까, 휴가를 권한 게 아닌가요?",
@@ -357,7 +357,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "다이호가 귀찮게 굴고, 지휘관님의 모든 걸 알고 싶어하고, 지휘관님께서 모든 걸 다이호에게 맡겨주었으면 하고, 지휘관님께서 다이호를 늘 필요로 하길 바라는데,",
@@ -369,7 +369,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "그래도 다이호가 싫지 않으시단 말씀이신가요?",
@@ -397,7 +397,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "…………",
@@ -409,7 +409,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "정말……이시죠?",
@@ -421,7 +421,7 @@ return {
 		{
 			actorName = "{namecode:97}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "다이호가 싫어진 게 아니라, 다이호를 적당히 달래려는 게 아니라, 다이호가 정말로 정말로 좋아서 하시는 말씀이시죠?",
@@ -456,11 +456,11 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
-			say = "<size=30>지휘관 니이이임!!!</size>",
+			nameColor = "#92fc63",
+			say = "<size=45>지휘관 니이이임!!!</size>",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			painting = {
@@ -479,7 +479,7 @@ return {
 					}
 				},
 				{
-					y = -150,
+					y = -225,
 					type = "move",
 					delay = 0.01,
 					dur = 0.2,

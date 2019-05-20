@@ -14,7 +14,7 @@ return {
 			stopbgm = true,
 			withoutPainting = true,
 			actor = 303110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그런가, 그분이 돌아왔다는 건가.",
 			flashout = {
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 303120,
@@ -55,7 +55,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 303110,
@@ -69,7 +69,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 303110,

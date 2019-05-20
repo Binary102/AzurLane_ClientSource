@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"오오시오의 선물♪\n\n<size=30>신뢰의 취재진</size>",
+					"오오시오의 선물♪\n\n<size=45>신뢰의 취재진</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "하아… 이 이상 기삿거리가 없으면 기자로서 벌이가 막막해지는데……",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "어디 빅 뉴스가 될만한 기삿거리 하나 굴러오지 않을까나~",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 303030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……차라리 내가 직접 기삿거리 하나 만들어 볼까!?",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -127,7 +127,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "옴마야, 저 있는 거 아오바 아이가? 또 뭔 고민을 저래 하고 있노…… 지휘관 씨, 쪼매 기다리고 있어레이~",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "또 기삿거리 고민이가?",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 303030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -186,7 +186,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후후♪ 실은 말이제…………",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = 550
+					x = 825
 				}
 			}
 		},
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 303030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오오! 그, 그런 거까지 알고 있는 거예요!? 오오시오 사실 재능있는 거 아니에요!?",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -280,7 +280,7 @@ return {
 			actor = 303030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "와! 진짜다, 지휘관이 나와 있잖아! 라져라져! 그 뒤는 지휘관이 없을 때 마저 부탁해요!",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			},
 			typewriter = {
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아오바랑 몬 말했는지 신경 쓰이나? 후후후♪ 가스나들끼리 비밀은 지휘관 씨에게 못 알려준데이~",
 			typewriter = {
 				speed = 0.05,

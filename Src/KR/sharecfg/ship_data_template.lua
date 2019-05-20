@@ -51868,6 +51868,126 @@ pg.ship_data_template = {
 		buff_list_display = {},
 		hide_buff_list = {}
 	},
+	[900180] = {
+		oil_at_start = 0,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 8,
+		energy = 150,
+		name = "U-556",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 40803,
+		equip_id_2 = 45300,
+		equip_id_1 = 45300,
+		group_type = 40803,
+		id = 900180,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {},
+		buff_list_display = {
+			3571,
+			3611,
+			23311
+		},
+		hide_buff_list = {}
+	},
+	[900181] = {
+		oil_at_start = 0,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 8,
+		energy = 150,
+		name = "U-556",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 40803,
+		equip_id_2 = 45300,
+		equip_id_1 = 45300,
+		group_type = 40803,
+		id = 900181,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {},
+		buff_list_display = {
+			3571,
+			3611,
+			23311
+		},
+		hide_buff_list = {}
+	},
+	[900182] = {
+		oil_at_start = 0,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 8,
+		energy = 150,
+		name = "U-556",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 40803,
+		equip_id_2 = 45300,
+		equip_id_1 = 45300,
+		group_type = 40803,
+		id = 900182,
+		equip_1 = {
+			13
+		},
+		equip_2 = {
+			13
+		},
+		equip_3 = {
+			1
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {},
+		buff_list_display = {
+			3571,
+			3611,
+			23311
+		},
+		hide_buff_list = {}
+	},
 	[900907] = {
 		oil_at_start = 1,
 		max_level = 100,
@@ -58886,6 +59006,9 @@ pg.ship_data_template = {
 		900134,
 		900135,
 		900161,
+		900180,
+		900181,
+		900182,
 		900907,
 		900908,
 		900909,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>六　奋发努力！</size>",
+					"骑士与奖赏\n\n<size=45>六　奋发努力！</size>",
 					1
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "谢谢你鼓励我指挥官，可事到如今都是我的责任……作为队长，我要怎么面对一路努力过来的队员和指挥官……",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "再说这次比赛本来就是我把大家硬拉进来的，就更对不住……",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "“不想看到克爹垂头丧气的样子”？……所以说为啥要叫我克爹啊！明、明明人家正在低落的时候！",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……“不想被叫克爹的话，就要有克爹的样子”？……",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "行了！让你们看看就是了！……回头一定要让你后悔拿我开心！",
 			typewriter = {
@@ -128,11 +128,11 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "各位！比赛还没有结束！让她们见识见识我们“海上骑士团”真正的实力吧！！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -155,11 +155,11 @@ return {
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "噢噢噢！！！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -171,7 +171,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -188,7 +188,7 @@ return {
 			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "（小声）谢啦，指挥官♪",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			bgm = "battle-boss-6",
 			actor = 303070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这样下去要被反超了！一定要截住她们的传球！",
 			flashout = {
 				dur = 1,
@@ -245,7 +245,7 @@ return {
 			say = "！要是让她们配合成功，我们的战术就没用了…！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302120,
 			actorName = "{namecode:38}",
@@ -266,7 +266,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "为了大家…为了指挥官……这场比赛我赢定了！！！",
 			typewriter = {
@@ -318,7 +318,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "赢了！我们赢了！！！",
 			typewriter = {
@@ -344,7 +344,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "谢谢你指挥官！！我爱你！！！",
 			typewriter = {

@@ -5,7 +5,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
@@ -26,7 +26,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,

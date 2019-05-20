@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>五　强敌出场！？</size>",
+					"骑士与奖赏\n\n<size=45>五　强敌出场！？</size>",
 					1
 				}
 			}
@@ -32,11 +32,11 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "下场比赛的对手是……不会吧！？{namecode:38}和{namecode:49}，还有{namecode:63}！？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -58,7 +58,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 102140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -76,7 +76,7 @@ return {
 			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "还是没那么好的事啊…她们应该有研究过我们的阵容了…这场比赛我们要小心。",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			dir = -1,
 			bgName = "star_level_bg_103",
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "嗯！",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -111,7 +111,7 @@ return {
 					actor = 102100,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -130,7 +130,7 @@ return {
 			dir = -1,
 			bgm = "story-4",
 			actor = 102140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不愧是三水战的旗舰，真难对付…！",
 			flashout = {
 				dur = 1,
@@ -165,7 +165,7 @@ return {
 			actor = 302120,
 			dir = 1,
 			actorName = "{namecode:38}",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			effects = {
 				{
 					active = true,
@@ -189,7 +189,7 @@ return {
 			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "就算对手是重巡…我也绝不会输的！",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			say = "来吧！让你们尝尝我卧薪尝胆的苦练成果！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 303070,
 			actorName = "{namecode:63}",
@@ -226,7 +226,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "竟然每个人都来一对一盯防…！是受了那时战训的启发吗！",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			say = "对我们的战术有意见的话，就赶紧认输吧，呵呵～",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302200,
 			actorName = "{namecode:49}",
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜……指挥官……我对不住大家……都是我这个队长太没用了……",
 			flashout = {
 				dur = 1,
@@ -312,7 +312,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "好不容易都打进决赛了……要是输在这里，我……",
 			typewriter = {

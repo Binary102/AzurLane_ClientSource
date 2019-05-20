@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"사쿠라 로맨스 - 새 학기\n\n<size=30>제6장　방과후의 HR타임</size>",
+					"사쿠라 로맨스 - 새 학기\n\n<size=45>제6장　방과후의 HR타임</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			say = "소류 언니는 교단에 서도 역시 위풍당당하네요!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307040,
 			actorName = "{namecode:94}",
@@ -59,7 +59,7 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "흐음, 왜 나까지 보충수업인 거야? 성적은 메탈 블러드 구축함 중 No.1 인데.",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -123,7 +123,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -182,7 +182,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "하아?",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -315,13 +315,13 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아……",
 			subActors = {
 				{
 					actor = 401010,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

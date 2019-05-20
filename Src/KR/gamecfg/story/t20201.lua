@@ -28,7 +28,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "무선 차단 해제. 호넷을 긴급 호출.",
 			shake = {
 				speed = 1,
@@ -49,7 +49,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,7 +72,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "적에게 발견된 모양이다. 이 이상 임무를 계속할지 판단 바람.",
 			shake = {
 				speed = 1,
@@ -92,7 +92,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "예정보다 조금 빨랐지만... 이 아이들이라면 분명 할 수 있을 거야!",
 			shake = {
 				speed = 1,
@@ -112,7 +112,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래, 적의 순찰대를 소탕한 후, 지휘관은 호넷을 원호하며 임무를 계속할 수 있도록.",
 			shake = {
 				speed = 1,
@@ -132,7 +132,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이제야 내 차례가 온 거네!",
 			shake = {
 				speed = 1,
@@ -152,7 +152,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇지. 이런 대담한 임무는 네가 아니면 수행해낼 수 없을 테니.",
 			shake = {
 				speed = 1,
@@ -176,7 +176,7 @@ return {
 			blackBg = true,
 			say = "...후─. 기습에 의해 상처 입은 자매와, 전쟁의 업화에 휩싸인 조국을 위해 ",
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

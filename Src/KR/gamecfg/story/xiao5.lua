@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>갑작스러운 어둠</size>",
+					"닌자의 길\n\n<size=45>갑작스러운 어둠</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "상선 호위와 토벌 작전, 연습전, 과학 연구에 군사 의뢰…… 이 보고서를 전부 읽어야 한단 말이오?",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역, 역시 좀 많은 것 같소만……",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 닌자는 이 정도로 꺾여선 아니 되지!",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 나리, 같이 노력하죠!",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 전부 읽었소!",
 			flashout = {
 				dur = 0.4,
@@ -176,7 +176,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? 벌써 시간이 이렇게……?",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하아…… 빨리 돌아가자…… 내일 쿠로시오 선생님의 특훈도 있으니……",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "꺄악?!",
@@ -260,7 +260,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……",
@@ -272,7 +272,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "미미, 미, 미안하오! 소인, 어어, 어두운 게 무서워서…그……",
@@ -284,7 +284,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "으으……",
@@ -312,7 +312,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "！！",
@@ -324,7 +324,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "고, 고맙소……",

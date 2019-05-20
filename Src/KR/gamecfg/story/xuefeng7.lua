@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>七　一如既往？的{namecode:22}大人</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>七　一如既往？的{namecode:22}大人</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -45,13 +45,13 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -164,7 +164,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.3,
-					x = 15,
+					x = 22.5,
 					number = 3
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			dir = -1,
 			actorName = "{namecode:143}",
 			actor = 301600,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "{namecode:142}！{namecode:143}也想让指挥官摸摸头！",
 			flashout = {
 				dur = 0.5,
@@ -217,7 +217,7 @@ return {
 			say = "我也…啊！给我看看气氛啦！现在{namecode:22}是秘书舰啊！",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301590,
 			actorName = "{namecode:142}",
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -285,7 +285,7 @@ return {
 			blackBg = true,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官～再蹭蹭尾巴也是可以的哦♪",
 			flashout = {
 				dur = 1,
@@ -318,7 +318,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.5,
-					x = 25,
+					x = 37.5,
 					number = 3
 				}
 			}

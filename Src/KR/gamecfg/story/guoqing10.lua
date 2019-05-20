@@ -28,7 +28,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "...봐줬지?",
 			paintingFadeOut = {
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "...고마워. 다녀올게.",
 			shake = {
 				speed = 1,
@@ -107,7 +107,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이제 와서 뭔데?",
 			shake = {
 				speed = 1,
@@ -144,7 +144,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "......",
 			shake = {
 				speed = 1,
@@ -162,7 +162,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응. 알았어!",
 			shake = {
 				speed = 1,

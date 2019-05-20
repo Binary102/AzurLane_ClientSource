@@ -727,6 +727,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Maaya Uchida",
 		code = 182
+	},
+	{
+		actor_name = "Ayako Kawasumi ",
+		code = 183
 	}
 }
 

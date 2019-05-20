@@ -6,7 +6,7 @@ return {
 	scripts = {
 		{
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 301120,
 			dir = 1,
 			hideOther = true,
@@ -22,7 +22,7 @@ return {
 				{
 					actor = 301110,
 					pos = {
-						x = 670
+						x = 1005
 					}
 				}
 			},
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "타카오 씨, 엄청 힘들었어요.",
@@ -158,7 +158,7 @@ return {
 		{
 			actor = 101170,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그보다 높아지면 곤란해…",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "포춘, 괜찮아… 아이쨩은 우리한테 맡겨줘…!",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오이겐 씨, 죄송합니다!",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 		{
 			actor = 301050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이를 지키기 위해서라곤 해도, 이래서는 왠지 아야나미들 쪽이 악역이 된 기분이에요.",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇네요… 그래도 키즈나 아이 함대의 모두의 몫까지, 우리가 힘내서 아이상을 구해줘야 해요.",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 		{
 			actor = 201210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이런 거, 빨리 끝내자! 아이쨩, 꼭 구해줄게!!",
 			typewriter = {

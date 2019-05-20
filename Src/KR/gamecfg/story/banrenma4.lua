@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"센토와 선배님들\n\n<size=30>의외의 전개</size>",
+					"센토와 선배님들\n\n<size=45>의외의 전개</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 301320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "센토、소꿉놀이 하자! 키사라기도 같이 하고 싶대!",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 네, 그럼요.",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101240,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "센토, 그 전에 숨바꼭질하기로 한 거 잊어버리진 않았겠지?",
 			flashout = {
 				dur = 0.5,
@@ -138,7 +138,7 @@ return {
 			say = "물론이죠! 심즈 선배님, 저도 무척 기대하고 있습니다!",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -156,7 +156,7 @@ return {
 			actor = 101240,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 빨리 가볼까~ 허먼 그 녀석이 짜증 내고 있을지도 몰라.",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저, 저기…지휘관, 저, 센토 씨랑 같이 레슨을 해볼까 하는디……",
 			flashout = {
 				dur = 0.5,
@@ -208,7 +208,7 @@ return {
 			say = "시그넷 선배님은 먼저 가 계셔요, 나중에 따라갈게요!",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -226,7 +226,7 @@ return {
 			actor = 201100,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…네! 센토 씨가 있으면 다들 자신감이 생길 테니까……꼭 와주셔유?",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "제 생각을 말씀드렸더니, 모두가 저를 받아주었어요.",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 구축함 선배님들은 모두 좋은 분들이시네요.",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 		{
 			actorName = "???",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……부럽다……왜 내 진심 어린 고백은 늘 거절당하는 걸까……",
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 아크 로열 선배님, 좋은 아침입니다!",
 			typewriter = {
 				speed = 0.05,

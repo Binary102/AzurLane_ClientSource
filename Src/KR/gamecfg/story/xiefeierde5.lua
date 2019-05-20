@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>五 休息日的约定</size>",
+					"这个女仆不太冷\n\n<size=45>五 休息日的约定</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "人，主人……",
@@ -66,7 +66,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……没办法——",
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			actorName = "？？？",
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "早上好，主人。",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "睁开眼看到的，是谢菲尔德冷淡的表情，看来响声是她开的枪",
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，您睡迷糊了吗，从这个休息日起，您的房间就由我来打扫了。",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "主人的房间想必也是和主人一样乱糟糟的，不好好清扫一番可不行。",
 			effects = {
 				{
@@ -251,7 +251,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "真是让人没辙的主人。另外，顺便帮您做了一些简单的早餐",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "虽然不如贝尔法斯特丰盛，不过应付主人应该足够了",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，用餐完毕了吗，请不要乱动，餐具等会我再收拾，交给主人只会把一切搞得更乱",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这只是女仆的职责。另外……",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "看起来接下来和主人的接触会越来越多，方便起见——",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "主人就用谢菲来称呼我吧。",
 			typewriter = {
 				speed = 0.05,

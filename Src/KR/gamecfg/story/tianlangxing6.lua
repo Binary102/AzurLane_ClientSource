@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>六 意外事件</size>",
+					"天狼星改造计划\n\n<size=45>六 意外事件</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "真，真的假的！",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -79,7 +79,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "陛下，怎么了？",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那是女仆队的天狼星……！？",
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -163,7 +163,7 @@ return {
 			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "如您的指示，天狼星会担任您的舞伴",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "请尽管观阅欣赏天狼星努力的成果",
 			typewriter = {
 				speed = 0.05,
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我骄傲的主人啊——邀请您，与我共舞一曲",
 			typewriter = {
 				speed = 0.05,
@@ -222,7 +222,7 @@ return {
 			bgmDelay = 1,
 			bgm = "story-6",
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "警报！陛下！塞壬的舰载机正在接近周边海域！",
 			flashout = {
 				dur = 0.5,
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哼！竟敢打扰本王参加的宴会，胆子真大！召集一下待机中的女仆队，赶紧把那些塞壬赶出去！",
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.2,
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……从这里直接出发应该能最先到达",
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "您怎么看，我骄傲的主人？",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			actor = 202201,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "明白了，我骄傲的主人。",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "——如果这是您的愿望，天狼星将全力绽放光芒",
 			typewriter = {
 				speed = 0.05,

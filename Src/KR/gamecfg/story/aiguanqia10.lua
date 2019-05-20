@@ -6,7 +6,7 @@ return {
 	scripts = {
 		{
 			actor = 10400020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "키즈나 아이",
@@ -23,7 +23,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "라피, 진짜 라이브를 보고 싶어.",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 		{
 			actor = 301050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아야나미도 보고 싶어요.",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나도~! 아이쨩, 이번 싸움이 끝나면 라이브 초대해줬으면 좋겠네♪",
 			typewriter = {
@@ -68,7 +68,7 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋았어~! 가까운 시일 내에 우리도 노래 연습해서 라이브 같은 거 할 수 있으면 좋겠네~!",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 		{
 			actor = 401230,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇네요. 매일 연습하지 않으면 안 된다구요?",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 그렇구나~>ㅁ< 재블린 노력하겠습니다아!",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 301110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연! 이게 바로 '애교 모드'란 거네!",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님은 분명 기뻐할 거예요.",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 아아아아냐~! 그런 게 아니라니까~~~!",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -185,7 +185,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -202,7 +202,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자, 다들 진정된 모양이니, 보급하고 또 다음 지역으로 출발하죠.",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 		{
 			actorName = "모두",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네~에!",
 			typewriter = {

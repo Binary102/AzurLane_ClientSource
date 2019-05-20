@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"영광스런 간주곡\n\n<size=30>제7장　그녀에게 영광이란 (하)</size>",
+					"영광스런 간주곡\n\n<size=45>제7장　그녀에게 영광이란 (하)</size>",
 					1
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 지휘관님과 단둘이 있을 땐 무리하지 말아 주었으면 좋겠다…는 말씀이신가요……",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 지휘관님의 눈에 비친 저는, 영광과는 거리가 먼가요……?",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼……전 어떻게 해야……",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모두의 앞에서 빛나는 만큼, 지휘관님의 앞에서는 빛나지 않아도 된다고요……?",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 207060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……앗……",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -150,7 +150,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님 앞에선 약해져도 좋다, 도움이 되지 않아도 좋다, 응석을 부려도 좋다……",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그런 글로리어스이기 때문에, 모두의 앞에 조금씩 조금씩 빛을 낼 수 있다……",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "서투르고 덤벙대는 글로리어스도 지휘관님께 있어선 더할 나위 없는 영광……이라고요?",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저, 저는……",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알겠습니다. 지휘관님께서 그렇게 말씀하신다면야……",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "명령을 받들겠습니다……당신의 영광이 될 수 있도록, 아, 아주 조금만 응석을 부릴게요.",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잠깐만…모두가 올 때 까지……이대로 조금 쉬어도 될까요?",
 			typewriter = {

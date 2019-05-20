@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			bgm = "level-uta",
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "제가 가겠습니다.",
 			flashin = {
 				delay = 0,
@@ -32,7 +32,7 @@ return {
 		},
 		{
 			actor = 10300040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "……사라나?",
@@ -52,7 +52,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사라나님이 혼자서? 둘이서 가는 게 좋진 않을는지요?",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당연히……혼자보다 둘이 더 강해.",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300050,
@@ -97,7 +97,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300050,
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "위험해지면 바로 우릴 불러줘!",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300050,
@@ -161,7 +161,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼, 사라나……부탁할게냥.",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300050,

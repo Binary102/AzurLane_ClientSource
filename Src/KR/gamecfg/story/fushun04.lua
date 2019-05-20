@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"푸슌의 대모험\n\n<size=30>제4장 - 그리고 세계는 평화로워졌다…</size>",
+					"푸슌의 대모험\n\n<size=45>제4장 - 그리고 세계는 평화로워졌다…</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-china",
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "거기거기! 공격해!",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			say = "알고 있어! 이거나 먹어라~!",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -64,13 +64,13 @@ return {
 			actorName = "푸슌&창춘",
 			actor = 501020,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오!",
 			subActors = {
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -87,7 +87,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "해냈어! 이걸로 세계를 구할 수 있어!",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "화면도 조작 방식도 완전 고전인데… 의외로 재밌네…",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어라? 이거 랭킹?",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어라? 푸슌 언니 말고 이름은 하나 밖에…",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흠흠…A… n…s…h…a…",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "서, 설마…",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "얘, 푸슌! 또 사고 쳤구나!",
 			shake = {
 				speed = 1,
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -223,7 +223,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "창고 열쇠 망가뜨린 것도 모자라선, 창고 안까지 엉망진창으로 만들고!",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "큰일 났다, 도망……",
 			shake = {
 				speed = 8,
@@ -261,7 +261,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "도망칠 생각 하지 마! 그리고 창춘! 푸슌을 부추긴 건 너지!",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "켁.",
 			shake = {
 				speed = 8,
@@ -299,7 +299,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "둘 다 거기 똑바로 서! 오늘이야말로……",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? 이, 이건 설마!?",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "창고에서 찾은 거야. 고장나 있었던 걸 아카시가 고쳐줬어!",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고, 고쳤구나……",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아까 이름… 설마……",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "스토오오오오옵! 어쨌든! 오늘이야말로 제대로 혼쭐 내주겠어!",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후에에에… 화난 안샨 언니는 최종보스만큼 무서워…",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "방금, 무슨 말 했어!?",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 아무것도 아닙니다!",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고 이거! 몰수!",
 			typewriter = {
@@ -462,13 +462,13 @@ return {
 			actorName = "푸슌&창춘",
 			actor = 501020,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에에에~~",
 			subActors = {
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그립네… 설마 정말 다시 찾을 줄은…",
 			flashout = {
 				dur = 1,
@@ -517,7 +517,7 @@ return {
 		{
 			actor = 501010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "그때 세이브 파일도… 에헤헤헤…",
@@ -536,7 +536,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -555,7 +555,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "꺄악!? 자, 잠깐, 창춘!?",
 			shake = {
 				speed = 5,
@@ -574,7 +574,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "어라라~ 안샨 언니 게임 좋아하는구나~",
@@ -590,7 +590,7 @@ return {
 		{
 			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "푸슌도!? 어느 틈에?",
@@ -606,7 +606,7 @@ return {
 		{
 			actor = 501040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "안샨 언니… 귀여워요…",
@@ -622,7 +622,7 @@ return {
 		{
 			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "타이위안까지?! 저… 저저저기, 이건 그게 아니……",
@@ -638,7 +638,7 @@ return {
 		{
 			actor = 501030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "자자, 누구나 어린 시절이 있다구! 그치? 안샨 언~니♪",
@@ -654,7 +654,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "헤헤헤~ 게임은 다 같이 하는 편이 더 재밌다구!",
@@ -670,7 +670,7 @@ return {
 		{
 			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "어, 어쩔 수 없네… 그럼……",
@@ -686,7 +686,7 @@ return {
 		{
 			actor = 501030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "그렇게, 세계는 다시 평화로워졌다~는 해피 엔딩입니다!",
@@ -704,7 +704,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "멋대로 마무리 짓지 마!",
 			shake = {
 				speed = 8,
@@ -725,19 +725,19 @@ return {
 			actor = 501040,
 			blackBg = true,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하하하하하……",
 			subActors = {
 				{
 					actor = 501020,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

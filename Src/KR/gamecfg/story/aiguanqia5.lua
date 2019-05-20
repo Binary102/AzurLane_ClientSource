@@ -24,7 +24,7 @@ return {
 		{
 			actor = 10400010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "거기까지야! 몰아붙였다구~!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "호위함은 대부분 정리했습니다. 당신은 혼자지만 이쪽은 7명, 어떻게 봐도 승산은 없다구요?",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 		{
 			actor = 301110,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "이게 바로 '절체절명'이란 거네! 이제 포기해주면 안 될까?",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401230,
@@ -113,7 +113,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이쨩! 아이쨩이 뭔가 한 거야!? 싸우기 엄청 힘들어~~~!",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "나 아냐!? 내가 아니라 저 가짜가 한 거 아닐까!?",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -154,7 +154,7 @@ return {
 		{
 			actor = 301050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "! ……이대로라면 제대로 싸울 수 없어요.",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 		{
 			actor = 101170,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "해킹으로, 시야를 뺏었어…?",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들 진정하세요! 눈앞에서 치우는 방법 정도는 있을 거예요!",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			expression = 6,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저한테 해킹으로 덤비다니 좋은 배짱이네요! 슈퍼 AI인 제가 진짜 해킹이란 걸 가르쳐드리죠! 되갚아주자구요~! 게임으로 길러진 내 손놀림을 보여주지~~~!",
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 		{
 			actor = 301110,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "과연! 아무튼 '화면에 나타나는 [가짜 키즈나 아이]를 [연타]!', 하면 되는 거지!",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 		{
 			actor = 10400010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "크흠! 맞아 맞아! 연타해서 해킹을 저지하자구!",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"비서함 다이호의 헌신\n\n<size=30>격돌!</size>",
+					"비서함 다이호의 헌신\n\n<size=45>격돌!</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카기 씨, 카가 씨, 안녕하세요.",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 307020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다이호로군……지휘관과 모항 순찰인가. 수고가 많네.",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님~ 다이호……칫.",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후, 후후후후후……그러고 보니, 지휘관님의 주변에 요즘 벌레가 자꾸 돌아다닌다는 얘길 들었는데……",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -127,7 +127,7 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이거, '청소' 를 또 한 번 해야겠군요……",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어머 그거 참 안 됐네요~ 지금 지휘관님의 곁에 있는 건 바로 다이호랍니다. 아카기 씨♪",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만 안심하세요. 다이호가 아카기 씨 대신 해충을 전부 깔끔히 '청소' 해 드릴테니까요~",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -218,7 +218,7 @@ return {
 			actor = 307070,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후후♡어머, 아카시를 협박해서 지휘관님께서 출장 가신 사이 도시락 식재료를 전부 본인이 먹던 걸로 바꾼 건 바로 아카기 씨 아니었던가요?",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			actor = 307020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 너도 참 고생이구나……",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이렇게 지휘관님과 어깨를 나란히 하고 걸을 수 있다니……",
 			flashout = {
 				dur = 0.5,
@@ -303,7 +303,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다이호는 세상에서 제일 행복한 여자네요~",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다이호는 비서함으로써 지휘관 을 보살피고, 지휘관님은 하고 싶으신 걸 마음껏 하시면,",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언젠가는, 다이호도 지휘관님도 그 보답을 받을 수 있겠죠.",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러면, 두 번 다신 그때의 후회를 하지 않을 테니까요……",
 			typewriter = {

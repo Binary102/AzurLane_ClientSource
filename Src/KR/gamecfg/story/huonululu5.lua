@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"호놀룰루 미니 스토리\n\n<size=30>호놀룰루의 고민</size>",
+					"호놀룰루 미니 스토리\n\n<size=45>호놀룰루의 고민</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…원래 잘 토라지는 성격이라서, 딱히 화가 난 것도 아닌데 솔직하게 마음속에 있는 얘길 잘 못하겠어……",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그나마 지휘관이니까 이런 날 지금까지 잘 받아준거지……",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "호놀룰루는 갑자기 입을 다물곤, 다시 부끄러워하며 입을 떼었다.",
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……어, 어쨌든! 난 루이스처럼 자신감이 넘치는 편도 아니고, 리엔더처럼 기품이 있지도 않다구!",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "다른 아이들 처럼 밝게 웃는 내 모습은, 상상도 못 하겠는걸…",
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			flag = 2,
 			say = "당신 말야, 정말 취향 한 번 독특하네……흐, 흥! ……으으……",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "딱히 나도 좋아서 성격이 이런 건 아니라고……",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나도 루이스처럼 모두랑 함께 수다도 떨고 싶고, 리엔더처럼 우아하게 애프터눈 티를 즐기고 싶어.",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "웃는 얼굴로 모두랑 사이좋게 지내고 싶고, 헬레나가 한숨을 쉬면 솔직하게 걱정된다 얘기해주고 위로도 해주고 싶은데……",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이런 거, 다들 평범하게 하는 일이지만 나한텐 너무 어려운걸…",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 난 어떻게 하면 좋을까……",
 			typewriter = {
 				speed = 0.05,
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………에?",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그렇지…조, 좋아해 주겠지?",
 			typewriter = {

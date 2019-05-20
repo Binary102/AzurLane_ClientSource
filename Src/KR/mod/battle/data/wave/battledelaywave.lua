@@ -17,7 +17,7 @@ function ys.Battle.BattleDelayWave.DoWave(slot0)
 
 	slot1 = nil
 	slot1 = pg.TimeMgr.GetInstance():AddBattleTimer("delayWave", 1, slot0._duration, function ()
-		slot0:doFinish()
+		slot0:doPass()
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(pg.TimeMgr.GetInstance())
 	end, true)
 end

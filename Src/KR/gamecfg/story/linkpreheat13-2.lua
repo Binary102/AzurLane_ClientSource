@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			bgm = "battle-boss-uta",
@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			actor = 10300040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "우루루？",
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",

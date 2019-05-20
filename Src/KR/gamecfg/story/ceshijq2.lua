@@ -6,7 +6,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "SP2·引导剧情…",
 			shake = {
 				speed = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "看起来道路被封上了",
 			shake = {
 				speed = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "检查与封印对应的法阵,看看是否可以解除封印吧",
 			shake = {
 				speed = 1,
@@ -60,7 +60,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			shake = {
 				speed = 1,

@@ -16,6 +16,10 @@ function slot1.ConfigCallback(slot0, slot1, slot2, slot3, slot4)
 	slot0._emptyFunc = slot4
 end
 
+function slot1.SetActive(slot0, slot1)
+	SetActive(slot0._skin, slot1)
+end
+
 function slot1.ConfigSkin(slot0, slot1)
 	slot0._skin = slot1
 	slot0._btn = slot1:Find("ActCtl")
@@ -23,14 +27,13 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._progress = slot1:Find("ActCtl/skill_progress")
 	slot0._progressBar = slot0._progress:GetComponent(typeof(Image))
 	slot0._icon = slot1:Find("ActCtl/skill_icon")
-	slot0._text = slot1:Find("ActCtl/CountText")
+	slot0._text = slot1:Find("ActCtl/Count/CountText")
 	slot0._selected = slot1:Find("ActCtl/selected")
 	slot0._unSelect = slot1:Find("ActCtl/unselect")
 	slot0._filledEffect = slot1:Find("ActCtl/filledEffect")
 	slot0._filled = slot0._icon:Find("filled")
 	slot0._unfill = slot0._icon:Find("unfill")
 	slot0._countTxt = slot0._text:GetComponent(typeof(Text))
-	slot0._labelNormal = slot0._icon:Find("label_normal")
 
 	slot1.gameObject:SetActive(true)
 	slot0._block:SetActive(false)
@@ -40,6 +43,10 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._filledEffect.gameObject.GetComponent(slot2, "DftAniEvent"):SetEndEvent(function (slot0)
 		SetActive(slot0._filledEffect, false)
 	end)
+end
+
+function slot1.GetSkin(slot0)
+	return slot0._skin
 end
 
 function slot1.Enabled(slot0, slot1)
@@ -63,13 +70,11 @@ end
 function slot1.OnSelected(slot0)
 	SetActive(slot0._unSelect, false)
 	SetActive(slot0._selected, true)
-	SetActive(slot0._labelNormal, false)
 end
 
 function slot1.OnUnSelect(slot0)
 	SetActive(slot0._selected, false)
 	SetActive(slot0._unSelect, true)
-	SetActive(slot0._labelNormal, true)
 end
 
 function slot1.OnFilled(slot0)

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「버츄얼 연결고리의 공시성」 -정화편\n\n<size=30>2. 바보와 천재는 종이 한 장 차이</size>",
+					"「버츄얼 연결고리의 공시성」 -정화편\n\n<size=45>2. 바보와 천재는 종이 한 장 차이</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋~아, 지휘관님! 오늘도 바이러스 퇴치, 같이 힘내요~! 아자, 아자, 파이팅~!",
 			flashout = {
 				dur = 1,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋은 자세네요~ 바로 시작하러 가죠!",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지~휘~관~님? 오늘 임무는 거의 끝났다고 들었는데요~? (싸늘)",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님의 스케줄은 전부 파악해뒀으니까요! 포기해주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -129,7 +129,7 @@ return {
 			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "안심해주세요. 오늘 바이러스 퇴치는 간단하니까, 식은 죽 먹기에요! 후딱 해치우고 쉬자구요!",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아… 하아… 어째서…… 이 바이러스 퇴치… 레벨 2인데도…… 너무… 어려워… (털퍽)",
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 1,
 					dur = 0.5,
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으으~! 완전 지~쳤~어~! 뭔가 이상해! 나 진짜 엄청 열심히 했는데~!",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -257,7 +257,7 @@ return {
 			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "야호~ 키즈나 두목님~! 뭐 하고 있어~? 이런 데서 자면 감기 걸린다구~?",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "괜찮아~? 바이러스 퇴치… 뭔가 재밌어 보이네~!",
 			typewriter = {
 				speed = 0.05,
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에? 괜찮은 거야~? 샌디에이고도 할래~!",
 			typewriter = {
 				speed = 0.05,
@@ -333,7 +333,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -348,7 +348,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관!? 괜찮아!?",
 			typewriter = {
 				speed = 0.05,
@@ -360,7 +360,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님… 좋은 사람이었어…",
 			typewriter = {
 				speed = 0.05,
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠깐 저기서 쉬고 있어도 돼~ 이 뒤는 샌디에이고한테 맡겨줘~!",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "근데 샌디에이고쨩, 괜찮겠어? 이거 꽤 어렵다구?",
 			typewriter = {
 				speed = 0.05,
@@ -425,7 +425,7 @@ return {
 			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "으응~ 할 수 있을지 없을지 모르지만, 한 번 해볼게~",
 			typewriter = {
@@ -486,7 +486,7 @@ return {
 			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러니까… 여기를 이렇게 해서~ 저걸 이렇게 하고~ 어라? 뭔가 없어져 버렸는데?",
 			typewriter = {
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "샌디에이고쨩!? 그거, 바이러스 퇴치 완료한 거라구!!??",
 			typewriter = {
 				speed = 0.05,
@@ -516,7 +516,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -543,7 +543,7 @@ return {
 			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에~? 이걸로 깨버린 거야~? 샌디에이고는 더 놀고 싶은데~~~",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "샌디에이고쨩! 고마워~~~!!! 엄청 굉장해~! 샌디에이고쨩 천재 아냐~!?",
 			typewriter = {
 				speed = 0.05,
@@ -601,7 +601,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -616,7 +616,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이대로 바이러스 퇴치도 전부 샌디에이고쨩한테 맡기면 금방 끝나는 거 아닐까요!?",
 			typewriter = {
 				speed = 0.05,
@@ -631,7 +631,7 @@ return {
 			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "OK~ 샌디에이고한테 맡겨줘~!",
 			typewriter = {

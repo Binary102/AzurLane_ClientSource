@@ -1,5 +1,8 @@
 slot0 = class("BackYardPaperModel")
 slot1 = require("Mod/BackYard/view/BackYardTool")
+slot0.PAPER_TYPE_WALL = 1
+slot0.PAPER_TYPE_FLOOR = 2
+slot0.PAPER_TYPE_BASEWALL = 3
 
 function slot0.getFloorScale(slot0)
 	if not slot0.sizes then
@@ -26,29 +29,35 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.update(slot0, slot1, slot2)
-	slot0:clear()
-
-	slot0.furniture = slot1
 	slot0.level = slot2
 
-	if not slot0.furniture then
-		return
-	end
+	if slot1 then
+		slot0.isSpine = slot1:isSpine()
 
-	slot0.isSpine = slot1:isSpine()
+		if slot0.isSpine then
+			slot7, slot8 = slot0.furniture:getSpineName()
 
-	if slot0.isSpine then
-		slot0:loadSpine()
-	else
-		slot0:loadImage()
+			slot0:loadSpine(slot3, slot4)
+		elseif slot0.type == slot0.PAPER_TYPE_BASEWALL then
+			slot0:loadImage("base/wall_")
+		else
+			slot0:loadImage(slot1:getConfig("picture"))
+		end
+	elseif slot0.type == slot0.PAPER_TYPE_WALL then
+		slot0:loadImage("base/wall_")
+	elseif slot0.type == slot0.PAPER_TYPE_FLOOR then
+		slot0:loadImage("base/floor_4")
+	elseif slot0.type == slot0.PAPER_TYPE_BASEWALL then
+		setActive(slot0._tf, false)
 	end
 end
 
-function slot0.loadSpine(slot0)
-	slot1, slot2 = slot0.furniture:getSpineName()
+function slot0.loadSpine(slot0, slot1, slot2)
+	setActive(slot0.img, false)
+
 	slot3 = nil
 
-	if slot0.type == Furniture.TYPE_WALLPAPER then
+	if slot0.type == slot0.PAPER_TYPE_WALL then
 		slot1 = slot1 .. slot0.level
 
 		function slot3(slot0)
@@ -56,7 +65,7 @@ function slot0.loadSpine(slot0)
 
 			tf(slot0):SetSiblingIndex(2)
 		end
-	elseif slot0.type == Furniture.TYPE_FLOORPAPER then
+	elseif slot0.type == slot0.PAPER_TYPE_FLOOR then
 		function slot3(slot0)
 			slot1 = slot0.getFloorScale(slot1.level)
 			rtf(slot0).localScale = Vector3(slot1, slot1, slot1)
@@ -86,16 +95,14 @@ function slot0.loadSpine(slot0)
 	end)
 end
 
-function slot0.loadImage(slot0)
-	slot2 = slot0.furniture.getConfig(slot1, "picture")
-
-	if slot0.type == Furniture.TYPE_FLOORPAPER then
-		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot2, "")
+function slot0.loadImage(slot0, slot1)
+	if slot0.type == slot0.PAPER_TYPE_FLOOR then
+		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot1, "")
 		rtf(go(slot0.img)).sizeDelta = Vector2(1877, 934)
-		slot3 = slot0.getFloorScale(slot0.level)
-		slot0._tf.localScale = Vector3(slot3, slot3, slot3)
-	elseif slot0.type == Furniture.TYPE_WALLPAPER then
-		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot2, "")
+		slot2 = slot0.getFloorScale(slot0.level)
+		slot0._tf.localScale = Vector3(slot2, slot2, slot2)
+	elseif slot0.type == slot0.PAPER_TYPE_WALL or slot0.type == slot0.PAPER_TYPE_BASEWALL then
+		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot1, "")
 
 		slot0.img:SetNativeSize()
 	end

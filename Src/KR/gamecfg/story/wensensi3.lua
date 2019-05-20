@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>三 妹妹的想法</size>",
+					"妹妹的变化\n\n<size=45>三 妹妹的想法</size>",
 					1
 				}
 			}
@@ -63,7 +63,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，今天也来一起发呆吗？",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊，来了——咦，印第酱？哦…又是躲你家姐姐吗？",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -149,7 +149,7 @@ return {
 			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "新奥尔良级和波特兰级关系很近哦？而且我和印第很合得来。",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			actor = 103070,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "………………嗯。",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "都喜欢不说话，也都有…稍微有些麻烦的姐姐。",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "虽然和印第比起来，我家的姐姐们要普通一些就是了",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "从以前开始，姐姐们就什么都抢着帮我做，到最后…好像我什么都不做也没什么关系了……",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			actor = 103070,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……做姐姐的都有点太爱操心了",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯，不过，这大概就是作为姐姐的关爱…吧…印第也是不讨厌波特兰姐姐的吧？",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 103070,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……嗯。",
 			typewriter = {

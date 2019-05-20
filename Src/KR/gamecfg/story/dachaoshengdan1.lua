@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=30>一　圣诞前的困扰？</size>",
+					"圣诞礼物大作战！\n\n<size=45>一　圣诞前的困扰？</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "嗯……礼服或许是不错的选择，可是……",
 			flashout = {
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不行不行，陛下怎么会缺礼服穿呢？而且也不够精致严肃。",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -81,7 +81,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "可是，这么想下去，总感觉陛下好像什么都不缺啊！",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这可如何是好，唉……",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯？哦，是小天鹅啊，抱歉没注意到你走进来，下午好。",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,7 +146,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -159,7 +159,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "并没有哦，不用在意，刚才只是在思考该买什么样的礼物送给大家……",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "对了，小天鹅去年是不是有跟大家一起准备圣诞礼物来着？",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是……是的，前辈。虽……虽然到最后也没有帮上什么忙，只买了……一些薯片和饼干之类的……",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "薯片和……饼干吗，似乎，也不是很合适。不过建议总是越多越好，很感谢你。",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜哇！前……前辈说哪里的话，这点事情怎么能让您道谢！",
 			typewriter = {
 				speed = 0.05,
@@ -236,7 +236,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -249,7 +249,7 @@ return {
 			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "如，如果前辈不介意的话，咱……咱可以试试帮您出出主意之类的，虽然不知道管不管用……",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "没关系，一定可以帮得上忙的，两个人考虑总要比自己苦想要强得多。事不宜迟，我们快出发去商店吧！",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "诶……诶！现在就要出门了嘛！咱要赶快……整理一下才行哇……",
 			typewriter = {
 				speed = 0.05,

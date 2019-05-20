@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제2장   작전개시!</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제2장   작전개시!</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "호박? 물론 알지! \"장난치는 날\"이 곧 다가오니까 말야!",
 			flashout = {
 				dur = 1,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "냐하하핫! 사쿠라 엠파이어의 아이들아~ 기대하라고~",
 			flashout = {
 				dur = 1,
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으으…… 뭔가 찌릿찌릿하고 감은 왔었는데…… 아야나미, 어떻노?",
 			flashout = {
 				dur = 1,
@@ -115,7 +115,7 @@ return {
 		{
 			say = "이글 유니온 쪽과의 한 판 전쟁이 있을 것, 같네요……",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301050,
 			actorName = "{namecode:6}",
@@ -134,7 +134,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -150,7 +150,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -166,7 +166,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -182,7 +182,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "헬레나! 내다! 쇼호다!",
 			flashout = {
 				dur = 1,
@@ -231,7 +231,7 @@ return {
 		},
 		{
 			actor = 102050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "기, 기기기기다려주세요────! 하아…… 방에 들어오기 전에 노크 좀 하라고!",
@@ -250,7 +250,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -267,7 +267,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에에에!?",
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇구마~ 장난도 호박도 그 \"핼러윈\"인지 뭔지 하는 기념일 때문에 준비한 거 맞제?",
 			flashout = {
 				dur = 1,
@@ -314,7 +314,7 @@ return {
 		},
 		{
 			actor = 102050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "사탕도 그렇지만, 뭐 즈이카쿠 씨라면 튀김을 준비할지도 모르지. 그 아이는 튀김을 정말 좋아하니까.",
@@ -334,7 +334,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(작은 목소리로) 클리블랜드는 호박파이 쪽을 좋아하지만 말야.",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -365,7 +365,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……핼러윈 날엔 모두 도깨비나 요괴 같은 걸로 변장하는 풍습이 있어. 그래서 나, 클리블랜드한테 서프라이즈를 해주고 싶어서 이 의상을 만들고 있는 거야…아, 이 일은 클리블랜드한테는 비밀이다?",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -396,7 +396,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에? 그냥 평범하게 참가할 수 있는데…?",
 			typewriter = {
@@ -410,7 +410,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -427,7 +427,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미안해, 이 의상만이라도 서둘러서 핼러윈 당일까지 만들어야 하다보니, 다른 사람들 건 아무래도……",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -462,7 +462,7 @@ return {
 			blackBg = true,
 			actorName = "？？？",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flashout = {
 				dur = 1,

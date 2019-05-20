@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>六 躲雨</size>",
+					"雨后天晴\n\n<size=45>六 躲雨</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -79,7 +79,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……好了！殿下，可以转过来了！",
 			flashout = {
 				dur = 1,
@@ -174,7 +174,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,

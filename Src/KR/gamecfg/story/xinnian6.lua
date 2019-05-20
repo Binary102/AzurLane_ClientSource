@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"근하신년\n\n<size=30>제6장 - 광란의 신년 연회?</size>",
+					"근하신년\n\n<size=45>제6장 - 광란의 신년 연회?</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -34,7 +34,7 @@ return {
 		{
 			say = "맛있겠다…",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:16}",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -165,7 +165,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -181,7 +181,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -197,7 +197,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -214,7 +214,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사쿠라 엠파이어의 술… 과연, 확실히 맛있군.",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "라피도…… 한 그릇 더 줘……",
@@ -247,7 +247,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -264,7 +264,7 @@ return {
 		{
 			say = "가게에서 만났다냥. 라피도 사쿠라 엠파이어의 정월에 흥미가 있어 보여서 데려왔다냥.",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
@@ -283,7 +283,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -299,7 +299,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -315,7 +315,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -331,7 +331,7 @@ return {
 		},
 		{
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:34}",
@@ -347,7 +347,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",

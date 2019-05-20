@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사랑과 평화의 성야제\n\n<size=30>제8장 - 메리 크리스마스!</size>",
+					"사랑과 평화의 성야제\n\n<size=45>제8장 - 메리 크리스마스!</size>",
 					1
 				}
 			}
@@ -31,7 +31,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헤헤, 그러고 보니 지휘관에겐 아직 이 말을 안 해줬지? 메리 크리스마스!",
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "엘드릿지도, 메리 크리스마스!",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 		},
 		{
 			actor = 101260,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "메리이, 크리스마스 (두 번째)",
@@ -96,7 +96,7 @@ return {
 		{
 			actor = 101050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "이야~ 그래도 진짜 좋은 사진들이 찍혔어! 엄청 좋은 추억들로 가득해! 봐봐, 지휘관~",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 		{
 			actor = 102080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "헬로~! 모두의 아이돌, 샌디에이고야! 지휘관에게 노래를 전해주러 왔어!",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -142,7 +142,7 @@ return {
 		{
 			say = "지히간의 집무실에 사람이 잔뜩~ 노라조~!",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301320,
 			actorName = "{namecode:33}",
@@ -162,7 +162,7 @@ return {
 		{
 			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우으… 후드 언니한테 \"귀여우니까 지휘관에게도 보여주고 오세요\" 라고 떠밀려서……",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 		{
 			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에? 모두… 왜 여기에?",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나! 지휘관이 아직 집무실에서 수고하는 걸 보고, 만나러 온 거야!",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 		},
 		{
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "언제나 노력하는 아이에게도 선물을 전해줘야 겠… 음?",
@@ -245,19 +245,19 @@ return {
 			actorName = "모두",
 			actor = 201100,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 엔터프라이즈다.",
 			subActors = {
 				{
 					actor = 305020,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301320,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -273,7 +273,7 @@ return {
 		{
 			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엔터프라이즈가 아니다. '산타클로스' 다. 자, 선물을 못 받은 아이들의 몫도 여기 있다고.",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 		},
 		{
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "와아~ 고마워요……",
@@ -306,7 +306,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -322,7 +322,7 @@ return {
 		},
 		{
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:33}",
@@ -339,7 +339,7 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "물론, 지휘관에게도. 메리 크리스마스다.",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "！！",
 			typewriter = {
 				speed = 0.05,
@@ -370,7 +370,7 @@ return {
 		{
 			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 메리 크리스마스… 지가 입은 크리스마스 의상…… 어때유?",
 			typewriter = {
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "！！！",
 			typewriter = {
 				speed = 0.05,
@@ -404,13 +404,13 @@ return {
 			actorName = "{namecode:79}&{namecode:33}",
 			actor = 301320,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 메리 크리스마스! (지히간~ 메리 크리슈마수!)",
 			subActors = {
 				{
 					actor = 305020,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -425,7 +425,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -458,7 +458,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오! 지금 지휘관 표정 좋아~ 찰칵!",
 			typewriter = {
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응응! 그래서, 모처럼 모두가 와줬으니까, 기념으로 단체 사진이나 찍자고!",
 			flashout = {
 				dur = 0.35,
@@ -505,7 +505,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…자! 그럼, 하나 두울~ 셋! 치~즈!",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "헤헤, 그리들리! 해피~ '사랑과 평화의 성야제', 크리스마스 이브야!",
 			flashout = {
 				dur = 0.35,
@@ -551,7 +551,7 @@ return {
 		},
 		{
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "그럼 마지막은 이 샌디에이고님이~ 크리스마스 노래를 불러줄게!",
@@ -571,7 +571,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앗…! 잠ㄲ……",
 			typewriter = {
@@ -585,10 +585,10 @@ return {
 		},
 		{
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
-			say = "<size=40>라~~~~~~~</size>",
+			say = "<size=60>라~~~~~~~</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

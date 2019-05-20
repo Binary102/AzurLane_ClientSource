@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>一　{namecode:22}大人登场</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>一　{namecode:22}大人登场</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -35,13 +35,13 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "被{namecode:22}大人的威严吓得连话都说不出来了吗？果然还是贫弱的人类嘛！",
 			effects = {
 				{
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			say = "那、那个，{namecode:22}酱就是这样的…不要太惊讶……吧？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301620,
 			actorName = "{namecode:127}",
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -296,7 +296,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -319,7 +319,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -337,7 +337,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

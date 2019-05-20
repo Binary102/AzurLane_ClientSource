@@ -16,7 +16,7 @@ return {
 		{
 			actor = 103040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 정도 병력이면 충분히 해볼 만 하겠어, 사쿠라 엠파이어의 배짱이 어느 정도인지, 오늘 이 언니가 시험해주도록 하지!",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 		{
 			actor = 303020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:54}",
 			say = "병력에 차이가 있어 일부러 기습한 거야. 당연한 거 아닌가? 오히려 당신들의 이 허술한 방어에 정말 놀랐는데… 이쪽은 오늘 여기서 모두 죽겠다는 각오로 왔는데 말이지.",
 			typewriter = {
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 103040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "인정하긴 싫지만, 틀린 말은 아니군……",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 		{
 			actor = 103040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "긴말 할 필요 없겠지. 자, 와라!",
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 		{
 			actor = 303020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:54}",
 			say = "사쿠라 엠파이어 제6함대, {namecode:54}，{namecode:56}, 우리가 상대해주도록 하지!",
 			typewriter = {

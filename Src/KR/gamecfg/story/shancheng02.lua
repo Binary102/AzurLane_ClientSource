@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름(?)의 대작전\n\n<size=30>제2장　동계 수영 대회?</size>",
+					"여름(?)의 대작전\n\n<size=45>제2장　동계 수영 대회?</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -50,7 +50,7 @@ return {
 		{
 			say = "아! 야마시로잖아! 산책하는 건가?",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305040,
 			actorName = "{namecode:77}",
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 305030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			actor = 305040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			actor = 305030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			actor = 305040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
@@ -165,7 +165,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",

@@ -8,13 +8,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最近,綾波の様子が…？\n\n<size=30>その二　弾幕が薄い！？</size>",
+					"最近,綾波の様子が…？\n\n<size=45>その二　弾幕が薄い！？</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "数分後・綾波の部屋",
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "（トントン）",
@@ -36,7 +36,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "（モニターを見て）あ,新着動画,おお…こっちも――",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "（トントン）",
@@ -61,7 +61,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "うぅ…誰ですか…綾波の休憩時間に……",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "（トントン）",
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "今行くのですよーー指揮官ですか…",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "綾波,大事なことをやっている最中です。指揮官はテキトウに座っていいです。",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "ーーこれですか？「ニコニコドウガ」ですよ。",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "友達から勧められたのです。",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "見た目はシンプルですけど,面白い放送が一杯あるのです。",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "友達と「弾幕」で話し合って……楽しいです…",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "キシンの弾幕,味わうが良い…！――",
 			typewriter = {

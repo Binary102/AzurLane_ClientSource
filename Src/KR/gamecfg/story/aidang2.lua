@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>二 出发！</size>",
+					"和姐姐的一日约会\n\n<size=45>二 出发！</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_outdoor",
 			actor = 303110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "{namecode:67}？还有……指挥官？你们也是来晨练的吗？",
 			flashout = {
 				dur = 1,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -270,7 +270,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,

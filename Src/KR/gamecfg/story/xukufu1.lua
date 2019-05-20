@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"쥬르네 쉬르쿠프\n\n<size=30>쉬르쿠프의 아침</size>",
+					"쥬르네 쉬르쿠프\n\n<size=45>쉬르쿠프의 아침</size>",
 					1
 				}
 			}
@@ -58,7 +58,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "헤헤헤… 간질간질간질간질… 이러면 일어날려나…?",
@@ -127,7 +127,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "Bonne journée! 좋은 아침, 지휘관! 비서함으로서 이 쉬르쿠프가 깨워주러 왔어!",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러고 보니 지휘관, 실은 어제 꿈에 지휘관이 나왔어~",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그게 말이지, 꿈속에서 슈퍼 사이즈 프렌치 디너를 먹었어! 게다가 무료! 근데 배부르게 먹지도 못했는데 '일해~!' 하면서 지휘관이 부르는 바람에 잠이 깼어……",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그 슈퍼 사이즈 새우, 먹고 싶었는데~",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래서 지휘관은? 쉬르쿠프 꿈에서 봤어?",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응응, 대답하지 않아도 알아~",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래서, 꿈속에서 난 뭐 하고 있었어?",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말~ 무시하지 말라고~ 딱히 꿈에서 나를 본 게 그렇게 부끄러운 것도 아닌데~",
 			typewriter = {

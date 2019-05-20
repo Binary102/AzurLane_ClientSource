@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=30>六　圣诞战士，前进！</size>",
+					"圣诞礼物大作战！\n\n<size=45>六　圣诞战士，前进！</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "那么，给大家的礼物差不多都买完了！兵贵神速！",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 205021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "接下来就剩下，给陛下的特别礼物了！",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 201102,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,7 +106,7 @@ return {
 			actor = 205021,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "放心吧，我记得前几天跟陛下出来，她曾经盯着那个超大号蛮啾玩偶看了很久。",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 201102,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那个的话！咱……咱也觉得女王大人她一定会喜欢的！",
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +135,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 205021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这下可麻烦了……这么多礼物我们两个肯定拿不回去的啊！",
 			flashout = {
 				dur = 0.5,
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 201102,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 205021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "可恶……都已经进行到这一步了，难道真的没办法了吗。",
 			typewriter = {
 				speed = 0.05,
@@ -218,7 +218,7 @@ return {
 			actorName = "？？？",
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "当盟友需要帮助，圣诞老人必将竭尽所能！",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 205021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "竟然是企业？！她身后的是……尼古拉斯吗？",
 			typewriter = {
 				speed = 0.05,
@@ -243,7 +243,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -256,7 +256,7 @@ return {
 			actor = 107061,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "看二位的样子，一定是很困扰如何把这一大堆礼物搬回去吧？如果需要，我可以用这辆“雪橇甲板”来帮助你们。",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			actor = 101312,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "企业的雪橇……好玩~",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "十分感谢，那么事不宜迟，我们尽快动手。",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 201102,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "得救了……那么，就这样把礼物山运回生活区吧！",
 			typewriter = {
 				speed = 0.05,

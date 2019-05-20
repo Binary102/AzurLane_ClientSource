@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 205070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "큭…\"본부에 긴급 연락, 세이렌 및 정체불명의 무기에 기습을 당해, 일시적으로 함대 진형이 무너졌다.\"",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "\"함대 진형을 다시 갖췄으나, 전체 손상률은 40% 이상에 달한다. 이대로는 '텅스텐 작전' 을 계속 진행하긴 어렵다고 판단된다……\"",
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "\"다음 작전 지시를 부탁한다……\"",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "………",
 			typewriter = {
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "교신이 끊어졌군.",
 			typewriter = {
@@ -99,7 +99,7 @@ return {
 		},
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "내 쪽도 안돼… 거울해역과 같은 상황이야…이제부턴 우리들 만으로 어떻게든 해볼 수밖에 없어……",
@@ -119,7 +119,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다행히도…이 장갑 덕분에 함재기 아이들은 대부분 무사해.",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 우리 로열 네이비의 자랑스런 장갑항모로군. 그대는 이 작전을 속행할 수 있다고 판단하나?",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! 여기까지 왔으니, 그 '고독한 북쪽의 여왕' 에게 인사라도 해둬야겠지.",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가, 그 아이를 위해 특별한 것도 준비했으니까!",
 			typewriter = {

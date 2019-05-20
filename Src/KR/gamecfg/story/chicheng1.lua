@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>一 赤色的秘书舰</size>",
+					"彼岸花之恋？\n\n<size=45>一 赤色的秘书舰</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 		},
 		{
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -105,7 +105,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -122,7 +122,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官大人…哼，我知道，现在我们并非敌人，而是同伴。算了，有什么报告就快说吧。",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -216,14 +216,14 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………（咬牙切齿）",
 			action = {
 				{
 					y = 0,
 					type = "shake",
 					dur = 0.15,
-					x = 10,
+					x = 15,
 					number = 4
 				}
 			},
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "报告完毕…我也不打算在这里久留，先告辞了。",
 			flashout = {
 				dur = 1,
@@ -291,7 +291,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "没错！就算之后准备把害虫都“打扫”干净，把指挥官变成{namecode:91}的…在工作时间还是…对吧？",
 			typewriter = {
 				speed = 0.05,

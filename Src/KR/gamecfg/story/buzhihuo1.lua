@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"만능 점원 시라누이\n\n<size=30>냉정한 시라누이</size>",
+					"만능 점원 시라누이\n\n<size=45>냉정한 시라누이</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오랜만이옵니다, 라고 말하면 될는지요…?",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 왕바보시군요. 귀중한 자원을 소녀에게 쓰시다니…",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "차가우니까 소녀에게 가까이 붙는다니……정녕 바보이신 겁니까?",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "1분간 기다렸사옵니다. 의뢰가 완료되었는데도 전혀 눈치채지 못하신 모양이라…역시 소녀가 없으면 아무것도 할 수 없는 왕바보이시군요.",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다음 장비상자엔 분명, 좋은 장비가 나올 것이어요…",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "할인? 그런 건 저희 가게에는 없사와요……",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 열 번 찍어 안 넘어가는 나무는 없는 법이지요. 자, 자신을 믿고 마음껏 꿈을 쫓아주시기를……",
 			typewriter = {
 				speed = 0.05,

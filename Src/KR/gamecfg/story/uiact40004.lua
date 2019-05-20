@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
@@ -30,7 +30,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者",
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
@@ -71,7 +71,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = 0,
 			blackBg = true,
 			actor = 502010,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = 0,
 			blackBg = true,
 			actor = 900012,

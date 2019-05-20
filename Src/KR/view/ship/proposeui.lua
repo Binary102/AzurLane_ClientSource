@@ -1,4 +1,8 @@
-slot0 = class("ProposeSceneUI", import("..base.BaseUI"))
+slot0 = class
+slot1 = "ProposeSceneUI"
+slot2 = import
+slot3 = "..base.BaseUI"
+slot0 = slot0(slot1, slot2(slot3))
 slot1 = {
 	1,
 	2,
@@ -14,303 +18,1232 @@ slot1 = {
 	6,
 	7
 }
+slot2 = {
+	us = 1,
+	de = 4,
+	cm = 0,
+	cn = 5,
+	np = 9,
+	um = 11,
+	en = 2,
+	jp = 3,
+	mnf = 8,
+	bili = 10,
+	ff = 7,
+	sn = 6
+}
+slot0.nationSpriteIndex = slot2
 
-function slot0.getUIName(slot0)
-	return "ProposeUI"
+function slot2(slot0)
+	slot1 = "ProposeUI"
+
+	return slot1
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.getUIName = slot2
+
+function slot2(slot0, slot1)
 	slot0.shipVO = slot1
+	slot3 = slot0
+	slot2 = slot0.setShipGroupID
+	slot4 = slot0.shipVO
+	slot5 = slot4
+	slot4 = slot4.getGroupId
 
-	slot0:setShipGroupID(slot0.shipVO:getGroupId())
+	slot2(slot3, slot4(slot5))
 end
 
-function slot0.setShipGroupID(slot0, slot1)
+slot0.setShip = slot2
+
+function slot2(slot0, slot1)
 	slot0.shipGroupID = slot1
 end
 
-function slot0.setWeddingReviewSkinID(slot0, slot1)
+slot0.setShipGroupID = slot2
+
+function slot2(slot0, slot1)
 	slot0.reviewSkinID = slot1
 end
 
-function slot0.setBagProxy(slot0, slot1)
+slot0.setWeddingReviewSkinID = slot2
+
+function slot2(slot0, slot1)
 	slot0.bagProxy = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setBagProxy = slot2
+
+function slot2(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
-	slot0.storybg = slot0:findTF("close/bg")
-	slot0.bgAdd = slot0:findTF("add")
+slot0.setPlayer = slot2
 
-	setActive(slot0.storybg, false)
-	setActive(slot0.bgAdd, false)
+function slot2(slot0)
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "close/bg"
+	slot1 = slot1(slot2, slot3)
+	slot0.storybg = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "add"
+	slot1 = slot1(slot2, slot3)
+	slot0.bgAdd = slot1
+	slot1 = setActive
+	slot2 = slot0.storybg
+	slot3 = false
 
-	slot0.targetActorTF = slot0:findTF("actor_middle")
-	slot0.maskTF = slot0:findTF("mask")
-	slot0.skipBtn = slot0:findTF("skip_button")
-	slot0.actorPainting = nil
-	slot0.weddingReview = slot0.contextData.review
-	slot0.commonTF = GameObject.Find("OverlayCamera/Overlay/UIMain/common")
+	slot1(slot2, slot3)
+
+	slot1 = setActive
+	slot2 = slot0.bgAdd
+	slot3 = false
+
+	slot1(slot2, slot3)
+
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "actor_middle"
+	slot1 = slot1(slot2, slot3)
+	slot0.targetActorTF = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "mask"
+	slot1 = slot1(slot2, slot3)
+	slot0.maskTF = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "skip_button"
+	slot1 = slot1(slot2, slot3)
+	slot0.skipBtn = slot1
+	slot1 = nil
+	slot0.actorPainting = slot1
+	slot1 = slot0.contextData
+	slot1 = slot1.review
+	slot0.weddingReview = slot1
+	slot1 = GameObject
+	slot1 = slot1.Find
+	slot2 = "OverlayCamera/Overlay/UIMain/common"
+	slot1 = slot1(slot2)
+	slot0.commonTF = slot1
 end
 
-function slot0.didEnter(slot0)
-	if slot0.contextData.review then
+slot0.init = slot2
+
+function slot2(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.review
+
+	if slot1 then
 	end
 
-	if slot0.commonTF then
-		setActive(slot0.commonTF, false)
+	slot1 = slot0.commonTF
+
+	if slot1 then
+		slot1 = setActive
+		slot2 = slot0.commonTF
+		slot3 = false
+
+		slot1(slot2, slot3)
 	end
 
-	slot0.weddingReview = slot0.contextData.review
+	slot1 = slot0.contextData
+	slot1 = slot1.review
+	slot0.weddingReview = slot1
+	slot1 = slot0.weddingReview
 
-	if slot0.weddingReview then
-		slot0.bgName = Nation.Nation2BG(slot1)
+	if slot1 then
+		slot1 = slot0.contextData
+		slot1 = slot1.group
+		slot2 = slot1
+		slot1 = slot1.getNation
+		slot1 = slot1(slot2)
+		slot2 = Nation
+		slot2 = slot2.Nation2BG
+		slot3 = slot1
+		slot2 = slot2(slot3)
+		slot0.bgName = slot2
+		slot2 = setActive
+		slot3 = slot0.skipBtn
+		slot4 = true
 
-		setActive(slot0.skipBtn, true)
-		onButton(slot0, slot0.skipBtn, function ()
-			LeanTween.cancelAll(false)
-			LeanTween.cancelAll:emit(slot1.ON_CLOSE)
-		end, SFX_CANCEL)
-		slot0:setMask(true)
-		slot0:showProposePanel()
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		slot2(slot3, slot4)
+
+		slot2 = onButton
+		slot3 = slot0
+		slot4 = slot0.skipBtn
+
+		function slot5()
+			slot0 = LeanTween
+			slot0 = slot0.cancelAll
+			slot1 = false
+
+			slot0(slot1)
+
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.emit
+			slot2 = slot1
+			slot2 = slot2.ON_CLOSE
+
+			slot0(slot1, slot2)
+		end
+
+		slot6 = SFX_CANCEL
+
+		slot2(slot3, slot4, slot5, slot6)
+
+		slot3 = slot0
+		slot2 = slot0.setMask
+		slot4 = true
+
+		slot2(slot3, slot4)
+
+		slot3 = slot0
+		slot2 = slot0.showProposePanel
+
+		slot2(slot3)
+
+		slot2 = pg
+		slot2 = slot2.UIMgr
+		slot2 = slot2.GetInstance
+		slot2 = slot2()
+		slot3 = slot2
+		slot2 = slot2.BlurPanel
+		slot4 = slot0._tf
+
+		slot2(slot3, slot4)
 	else
-		onButton(slot0, slot0:findTF("close0"), function ()
-			if slot0.proposeEndFlag then
-				slot0:DisplayRenamePanel()
+		slot1 = onButton
+		slot2 = slot0
+		slot4 = slot0
+		slot3 = slot0.findTF
+		slot5 = "close0"
+		slot3 = slot3(slot4, slot5)
+
+		function slot4()
+			slot0 = slot0
+			slot0 = slot0.proposeEndFlag
+
+			if slot0 then
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.DisplayRenamePanel
+
+				slot0(slot1)
 			else
-				slot0:emit(slot1.ON_CLOSE)
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = slot1
+				slot2 = slot2.ON_CLOSE
+
+				slot0(slot1, slot2)
 			end
-		end, SFX_CANCEL)
-		onButton(slot0, slot0:findTF("close_end"), function ()
-			if slot0.proposeEndFlag then
-				slot0:DisplayRenamePanel()
+		end
+
+		slot5 = SFX_CANCEL
+
+		slot1(slot2, slot3, slot4, slot5)
+
+		slot1 = onButton
+		slot2 = slot0
+		slot4 = slot0
+		slot3 = slot0.findTF
+		slot5 = "close_end"
+		slot3 = slot3(slot4, slot5)
+
+		function slot4()
+			slot0 = slot0
+			slot0 = slot0.proposeEndFlag
+
+			if slot0 then
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.DisplayRenamePanel
+
+				slot0(slot1)
 			else
-				slot0:emit(slot1.ON_CLOSE)
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = slot1
+				slot2 = slot2.ON_CLOSE
+
+				slot0(slot1, slot2)
 			end
-		end, SFX_CANCEL)
+		end
 
-		slot0.bgName = Nation.Nation2BG(slot1)
+		slot5 = SFX_CANCEL
 
-		PoolMgr.GetInstance():GetUI("Propose" .. Nation.Nation2Side(slot1) .. "UI", true, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
+		slot1(slot2, slot3, slot4, slot5)
 
-			if slot0.exited then
-				PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance().ReturnUI, slot0)
+		slot1 = slot0.shipVO
+		slot2 = slot1
+		slot1 = slot1.getConfigTable
+		slot1 = slot1(slot2)
+		slot1 = slot1.nationality
+		slot2 = "Propose"
+		slot3 = Nation
+		slot3 = slot3.Nation2Side
+		slot4 = slot1
+		slot3 = slot3(slot4)
+		slot4 = "UI"
+		slot2 = slot2 .. slot3 .. slot4
+		slot3 = Nation
+		slot3 = slot3.Nation2BG
+		slot4 = slot1
+		slot3 = slot3(slot4)
+		slot0.bgName = slot3
+		slot3 = PoolMgr
+		slot3 = slot3.GetInstance
+		slot3 = slot3()
+		slot4 = slot3
+		slot3 = slot3.GetUI
+		slot5 = slot2
+		slot6 = true
+
+		function slot7(slot0)
+			slot1 = pg
+			slot1 = slot1.UIMgr
+			slot2 = slot1
+			slot1 = slot1.GetInstance
+			slot1 = slot1(slot2)
+			slot2 = slot1
+			slot1 = slot1.LoadingOff
+
+			slot1(slot2)
+
+			slot1 = slot0
+			slot1 = slot1.exited
+
+			if slot1 then
+				slot1 = PoolMgr
+				slot1 = slot1.GetInstance
+				slot1 = slot1()
+				slot2 = slot1
+				slot1 = slot1.ReturnUI
+				slot3 = slot1
+				slot4 = slot0
+
+				slot1(slot2, slot3, slot4)
 
 				return
 			end
 
-			slot0.window = tf(slot0)
+			slot1 = slot0
+			slot2 = tf
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot1.window = slot2
+			slot1 = setParent
+			slot2 = tf
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot3 = slot0
+			slot4 = slot3
+			slot3 = slot3.findTF
+			slot5 = "window"
 
-			setParent(tf(slot0), slot0:findTF("window"))
+			slot1(slot2, slot3(slot4, slot5))
 
-			slot0.intimacyTF = slot0:findTF("intimacy/icon", slot0.window)
-			slot0.intimacyValueTF = slot0:findTF("intimacy/value", slot0.window)
-			slot0.button = slot0:findTF("button", slot0.window)
-			slot0.intimacyDesc = slot0:findTF("desc", slot0.window)
-			slot0.intimacydescTime = slot0:findTF("descPic/desc_time", slot0.window)
-			slot0.intimacyDescPic = slot0:findTF("descPic", slot0.window)
-			slot0.intimacyBuffDesc = slot0:findTF("desc_buff", slot0.window)
-			slot0._paintingTF = slot0:findTF("paint", slot0.window)
-			slot0.intimacyAchieved = slot0:findTF("intimacy/achieved", slot0.window)
-			slot0.intimacyNoAchieved = slot0:findTF("intimacy/no_achieved", slot0.window)
-			slot0.ringAchieved = slot0:findTF("ringCount/achieved", slot0.window)
-			slot0.ringNoAchieved = slot0:findTF("ringCount/no_achieved", slot0.window)
-			slot0.ringValue = slot0:findTF("ringCount/desc", slot0.window)
-			slot0.nameTF = slot0:findTF("title1/Text", slot0.window)
-			slot0.shipNameTF = slot0:findTF("title2/Text", slot0.window)
-			slot0.campTF = slot0:findTF("Camp", slot0.window)
-			slot0.doneTF = slot0:findTF("done", slot0.window)
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "intimacy/icon"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "intimacy/value"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyValueTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "button"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.button = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "desc"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyDesc = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "descPic/desc_time"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacydescTime = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "descPic"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyDescPic = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "desc_buff"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyBuffDesc = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "paintMask/paint"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1._paintingTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "intimacy/achieved"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyAchieved = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "intimacy/no_achieved"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.intimacyNoAchieved = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "ringCount/achieved"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.ringAchieved = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "ringCount/no_achieved"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.ringNoAchieved = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "ringCount/value"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.ringValue = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "title1/Text"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.nameTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "title2/Text"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.shipNameTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "Camp"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.campTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "done"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.doneTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "CampSprite"
+			slot5 = slot0
+			slot5 = slot5.window
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.CampSprite = slot2
+			slot1 = setActive
+			slot2 = slot0
+			slot2 = slot2.window
+			slot3 = true
 
-			setActive(slot0.window, true)
-			setText(slot0.nameTF, slot0.player.name)
-			setText(slot0.shipNameTF, slot0.shipVO:getName())
+			slot1(slot2, slot3)
 
-			if not LoadSprite("prints/" .. nation2print(slot2) .. "_1") then
-				warning("找不到印花, shipConfigId: " .. slot0.shipVO.configId)
-				setActive(slot0.campTF, false)
-			else
-				setImageSprite(slot0.campTF, slot1, false)
-				setActive(slot0.campTF, true)
+			slot1 = setText
+			slot2 = slot0
+			slot2 = slot2.nameTF
+			slot3 = slot0
+			slot3 = slot3.player
+			slot3 = slot3.name
+
+			slot1(slot2, slot3)
+
+			slot1 = setText
+			slot2 = slot0
+			slot2 = slot2.shipNameTF
+			slot3 = slot0
+			slot3 = slot3.shipVO
+			slot4 = slot3
+			slot3 = slot3.getName
+
+			slot1(slot2, slot3(slot4))
+
+			slot1 = slot0
+			slot1 = slot1.CampSprite
+
+			if slot1 then
+				slot1 = getImageSprite
+				slot2 = slot0
+				slot3 = slot2
+				slot2 = slot2.findTF
+				slot4 = Nation
+				slot4 = slot4.Nation2Print
+				slot5 = slot2
+				slot4 = slot4(slot5)
+				slot5 = slot0
+				slot5 = slot5.CampSprite
+				slot1 = slot1(slot2(slot3, slot4, slot5))
+
+				if not slot1 then
+					slot2 = warning
+					slot3 = "找不到印花, shipConfigId: "
+					slot4 = slot0
+					slot4 = slot4.shipVO
+					slot4 = slot4.configId
+					slot3 = slot3 .. slot4
+
+					slot2(slot3)
+
+					slot2 = setActive
+					slot3 = slot0
+					slot3 = slot3.campTF
+					slot4 = false
+
+					slot2(slot3, slot4)
+				else
+					slot2 = setImageSprite
+					slot3 = slot0
+					slot3 = slot3.campTF
+					slot4 = slot1
+					slot5 = false
+
+					slot2(slot3, slot4, slot5)
+
+					slot2 = setActive
+					slot3 = slot0
+					slot3 = slot3.campTF
+					slot4 = true
+
+					slot2(slot3, slot4)
+				end
 			end
 
-			slot7, slot3, slot10 = slot0.shipVO:getIntimacyDetail()
+			slot1 = slot0
+			slot1 = slot1.shipVO
+			slot2 = slot1
+			slot1 = slot1.getIntimacyDetail
+			slot1, slot2, slot3 = slot1(slot2)
+			slot4 = GetSpriteFromAtlas
+			slot5 = "energy"
+			slot6 = slot1
+			slot4 = slot4(slot5, slot6)
+			slot5 = setImageSprite
+			slot6 = slot0
+			slot6 = slot6.intimacyTF
+			slot7 = slot4
+			slot8 = true
 
-			setImageSprite(slot0.intimacyTF, slot5, true)
-			setActive(slot0.intimacyTF, true)
-			setText(slot0.intimacyValueTF, i18n("propose_intimacy_tip", slot4))
+			slot5(slot6, slot7, slot8)
+
+			slot5 = setActive
+			slot6 = slot0
+			slot6 = slot6.intimacyTF
+			slot7 = true
+
+			slot5(slot6, slot7)
+
+			slot5 = setText
+			slot6 = slot0
+			slot6 = slot6.intimacyValueTF
+			slot7 = i18n
+			slot8 = "propose_intimacy_tip"
+			slot9 = slot3
+
+			slot5(slot6, slot7(slot8, slot9))
+
+			slot5 = 100
+
+			if slot3 >= slot5 then
+				slot5 = setTextColor
+				slot6 = slot0
+				slot6 = slot6.intimacyValueTF
+				slot7 = Color
+				slot7 = slot7.white
+
+				slot5(slot6, slot7)
+			end
+
+			slot5 = not slot0.shipVO.propose and slot2 <= slot3
+
 			setActive(slot0.button, not slot0.shipVO.propose)
-			setActive(slot0.intimacyAchieved, slot0.shipVO.propose or slot4 >= 100)
-			setActive(slot0.intimacyNoAchieved, slot4 < 100 and not slot0.shipVO.propose)
 
-			slot7 = slot0.bagProxy:getItemCountById(ITEM_ID_FOR_PROPOSE)
+			slot6 = setActive
+			slot7 = slot0.intimacyAchieved
+			slot8 = slot0.shipVO.propose
 
-			setActive(slot0.ringAchieved, slot0.shipVO.propose or slot7 > 0)
-			setActive(slot0.ringNoAchieved, slot7 <= 0 and not slot0.shipVO.propose)
+			if not slot8 then
+				slot6(slot7, slot3 >= 100)
+
+				slot6 = setActive
+				slot7 = slot0.intimacyNoAchieved
+			end
+
+			slot8 = 100
+
+			if slot3 < slot8 then
+				slot8 = slot0
+				slot8 = slot8.shipVO
+				slot8 = slot8.propose
+				slot8 = not slot8
+			else
+				slot8 = false
+
+				if false then
+					slot8 = true
+				end
+			end
+
+			slot6(slot7, slot8)
+
+			slot6 = slot0
+			slot6 = slot6.bagProxy
+			slot7 = slot6
+			slot6 = slot6.getItemCountById
+			slot8 = ITEM_ID_FOR_PROPOSE
+			slot6 = slot6(slot7, slot8)
+			slot7 = setActive
+			slot8 = slot0
+			slot8 = slot8.ringAchieved
+			slot9 = slot0
+			slot9 = slot9.shipVO
+			slot9 = slot9.propose
+
+			if not slot9 then
+				slot7(slot8, slot6 > 0)
+
+				slot7 = setActive
+				slot8 = slot0.ringNoAchieved
+			end
+
+			slot9 = 0
+
+			if slot6 <= slot9 then
+				slot9 = slot0
+				slot9 = slot9.shipVO
+				slot9 = slot9.propose
+				slot9 = not slot9
+			else
+				slot9 = false
+
+				if false then
+					slot9 = true
+				end
+			end
+
+			slot7(slot8, slot9)
+
+			slot7 = slot0
+			slot7 = slot7.shipVO
+			slot7 = slot7.propose
+
+			if not slot7 then
+				slot7 = 0
+
+				if slot6 > slot7 then
+					slot7 = setTextColor
+					slot8 = slot0
+					slot8 = slot8.ringValue
+					slot9 = Color
+					slot9 = slot9.white
+
+					slot7(slot8, slot9)
+				end
+			end
+
 			setActive(slot0.doneTF, slot0.shipVO.propose)
 
-			slot0.button:GetComponent(typeof(Button)).interactable = slot7 > 0 and not slot0.shipVO.propose and slot3 <= slot4
-			slot8, slot9 = slot0.shipVO:getInitmacyInfo()
+			slot0.button:GetComponent(typeof(Button)).interactable = slot6 > 0 and slot5
+			slot7, slot8 = slot0.shipVO:getInitmacyInfo()
+			slot9 = slot0.shipVO.propose
 
-			if slot0.shipVO.propose then
-				if slot0.intimacyDescPic then
-					setActive(slot0.intimacyDescPic, true)
-					setActive(slot0.intimacyDesc, false)
-					setText(slot0.intimacydescTime, pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%B.%d,    %y", true))
-				elseif slot0.intimacyDesc then
-					setActive(slot0.intimacyDesc, true)
+			if slot9 then
+				slot9 = slot0
+				slot9 = slot9.intimacyDescPic
 
-					if GetComponent(slot0.intimacyDesc, "VerticalText") then
-						setText(slot0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true)))
-					else
-						setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%Y년%m월%d일", true)))
+				if slot9 then
+					slot9 = setActive
+					slot10 = slot0
+					slot10 = slot10.intimacyDescPic
+					slot11 = true
+
+					slot9(slot10, slot11)
+
+					slot9 = setActive
+					slot10 = slot0
+					slot10 = slot10.intimacyDesc
+					slot11 = false
+
+					slot9(slot10, slot11)
+
+					slot9 = setText
+					slot10 = slot0
+					slot10 = slot10.intimacydescTime
+					slot11 = pg
+					slot11 = slot11.TimeMgr
+					slot11 = slot11.GetInstance
+					slot11 = slot11()
+					slot12 = slot11
+					slot11 = slot11.DescTime
+					slot13 = slot0
+					slot13 = slot13.shipVO
+					slot13 = slot13.proposeTime
+					slot14 = "%B.%d,    %y"
+					slot15 = true
+
+					slot9(slot10, slot11(slot12, slot13, slot14, slot15))
+				else
+					slot9 = slot0
+					slot9 = slot9.intimacyDesc
+
+					if slot9 then
+						slot9 = setActive
+						slot10 = slot0
+						slot10 = slot10.intimacyDesc
+						slot11 = true
+
+						slot9(slot10, slot11)
+
+						slot9 = GetComponent
+						slot10 = slot0
+						slot10 = slot10.intimacyDesc
+						slot11 = "VerticalText"
+						slot9 = slot9(slot10, slot11)
+						slot10 = IsNil
+						slot11 = slot9
+						slot10 = slot10(slot11)
+
+						if not slot10 then
+							slot10 = true
+							slot9.enabled = slot10
+							slot10 = setText
+							slot11 = slot0
+							slot11 = slot11.intimacyDesc
+							slot12 = i18n
+							slot13 = "intimacy_desc_propose_vertical"
+							slot14 = pg
+							slot14 = slot14.TimeMgr
+							slot14 = slot14.GetInstance
+							slot14 = slot14()
+							slot15 = slot14
+							slot14 = slot14.ChieseDescTime
+							slot16 = slot0
+							slot16 = slot16.shipVO
+							slot16 = slot16.proposeTime
+							slot17 = true
+
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17)))
+						else
+							slot10 = setText
+							slot11 = slot0
+							slot11 = slot11.intimacyDesc
+							slot12 = i18n
+							slot13 = "intimacy_desc_propose"
+							slot14 = pg
+							slot14 = slot14.TimeMgr
+							slot14 = slot14.GetInstance
+							slot14 = slot14()
+							slot15 = slot14
+							slot14 = slot14.DescTime
+							slot16 = slot0
+							slot16 = slot16.shipVO
+							slot16 = slot16.proposeTime
+							slot17 = "%Y年%m月%d日"
+							slot18 = true
+
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
+						end
 					end
 				end
 			else
-				if slot0.intimacyDescPic then
-					setActive(slot0.intimacyDescPic, false)
+				slot9 = slot1
+
+				if slot9 == "ProposeJpUI" then
+					slot9 = GetComponent
+					slot10 = slot0
+					slot10 = slot10.intimacyDesc
+					slot11 = "VerticalText"
+					slot9 = slot9(slot10, slot11)
+					slot10 = IsNil
+					slot11 = slot9
+					slot10 = slot10(slot11)
+
+					if not slot10 then
+						slot10 = false
+						slot9.enabled = slot10
+					end
 				end
 
-				if slot0.intimacyDesc then
-					setActive(slot0.intimacyDesc, true)
-					setText(slot0.intimacyDesc, i18n(slot9, slot0.shipVO.name))
+				slot9 = slot0
+				slot9 = slot9.intimacyDescPic
+
+				if slot9 then
+					slot9 = setActive
+					slot10 = slot0
+					slot10 = slot10.intimacyDescPic
+					slot11 = false
+
+					slot9(slot10, slot11)
+				end
+
+				slot9 = slot0
+				slot9 = slot9.intimacyDesc
+
+				if slot9 then
+					slot9 = setActive
+					slot10 = slot0
+					slot10 = slot10.intimacyDesc
+					slot11 = true
+
+					slot9(slot10, slot11)
+
+					slot9 = setText
+					slot10 = slot0
+					slot10 = slot10.intimacyDesc
+					slot11 = i18n
+					slot12 = slot8
+					slot13 = slot0
+					slot13 = slot13.shipVO
+					slot13 = slot13.name
+
+					slot9(slot10, slot11(slot12, slot13))
 				end
 			end
 
-			setText(slot0.intimacyBuffDesc, "*" .. i18n(slot9 .. "_buff"))
-			slot0:loadChar()
-			pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
-			onButton(slot0, slot0.button, function ()
+			slot9 = setText
+			slot10 = slot0
+			slot10 = slot10.intimacyBuffDesc
+			slot11 = "*"
+			slot12 = i18n
+			slot13 = slot8
+			slot14 = "_buff"
+			slot13 = slot13 .. slot14
+			slot12 = slot12(slot13)
+			slot11 = slot11 .. slot12
+
+			slot9(slot10, slot11)
+
+			slot9 = slot0
+			slot10 = slot9
+			slot9 = slot9.loadChar
+
+			slot9(slot10)
+
+			slot9 = pg
+			slot9 = slot9.UIMgr
+			slot9 = slot9.GetInstance
+			slot9 = slot9()
+			slot10 = slot9
+			slot9 = slot9.BlurPanel
+			slot11 = slot0
+			slot11 = slot11._tf
+
+			slot9(slot10, slot11)
+
+			slot9 = onButton
+			slot10 = slot0
+			slot11 = slot0
+			slot11 = slot11.button
+
+			function slot12()
+				slot0 = slot0
+
 				if slot0 then
-					if slot1 < 1 then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
+					slot0 = slot1
+					slot1 = 1
+
+					if slot0 < slot1 then
+						slot0 = pg
+						slot0 = slot0.TipsMgr
+						slot1 = slot0
+						slot0 = slot0.GetInstance
+						slot0 = slot0(slot1)
+						slot1 = slot0
+						slot0 = slot0.ShowTips
+						slot2 = i18n
+						slot3 = "common_no_item_1"
+
+						slot0(slot1, slot2(slot3))
 
 						return
 					end
 
-					slot0, slot1 = Ship.canProposeShip(slot2.shipVO)
+					slot0 = Ship
+					slot0 = slot0.canProposeShip
+					slot1 = slot2
+					slot1 = slot1.shipVO
+					slot0, slot1 = slot0(slot1)
 
 					if not slot0 then
-						pg.TipsMgr:GetInstance():ShowTips(slot1)
+						slot2 = pg
+						slot2 = slot2.TipsMgr
+						slot3 = slot2
+						slot2 = slot2.GetInstance
+						slot2 = slot2(slot3)
+						slot3 = slot2
+						slot2 = slot2.ShowTips
+						slot4 = slot1
+
+						slot2(slot3, slot4)
 
 						return
 					end
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("word_propose_cost_tip", slot1),
-						onYes = function ()
-							slot0:setMask(true)
-							slot0.setMask:hideWindow()
-							slot0.setMask.hideWindow:showProposePanel()
-							setActive(slot0.window, false)
+					slot2 = pg
+					slot2 = slot2.MsgboxMgr
+					slot2 = slot2.GetInstance
+					slot2 = slot2()
+					slot3 = slot2
+					slot2 = slot2.ShowMsgBox
+					slot4 = {}
+					slot5 = i18n
+					slot6 = "word_propose_cost_tip"
+					slot7 = slot1
+					slot5 = slot5(slot6, slot7)
+					slot4.content = slot5
+
+					function slot5()
+						slot0 = slot0
+						slot0 = slot0.intimacydescTime
+
+						if slot0 then
+							slot0 = pg
+							slot0 = slot0.TimeMgr
+							slot0 = slot0.GetInstance
+							slot0 = slot0()
+							slot1 = slot0
+							slot0 = slot0.GetServerTime
+							slot0 = slot0(slot1)
+							slot1 = setText
+							slot2 = slot0
+							slot2 = slot2.intimacydescTime
+							slot3 = pg
+							slot3 = slot3.TimeMgr
+							slot3 = slot3.GetInstance
+							slot3 = slot3()
+							slot4 = slot3
+							slot3 = slot3.DescTime
+							slot5 = slot0
+							slot6 = "%B.%d,    %y"
+							slot7 = true
+
+							slot1(slot2, slot3(slot4, slot5, slot6, slot7))
 						end
-					})
+
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.setMask
+						slot2 = true
+
+						slot0(slot1, slot2)
+
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.hideWindow
+
+						slot0(slot1)
+
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.showProposePanel
+
+						slot0(slot1)
+
+						slot0 = setActive
+						slot1 = slot0
+						slot1 = slot1.window
+						slot2 = false
+
+						slot0(slot1, slot2)
+					end
+
+					slot4.onYes = slot5
+
+					slot2(slot3, slot4)
 				else
-					slot2:emit(slot3.ON_CLOSE)
+					slot0 = slot2
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = slot3
+					slot2 = slot2.ON_CLOSE
+
+					slot0(slot1, slot2)
 				end
-			end, SFX_PANEL)
-		end)
+			end
+
+			slot13 = SFX_PANEL
+
+			slot9(slot10, slot11, slot12, slot13)
+		end
+
+		slot3(slot4, slot5, slot6, slot7)
 	end
 end
 
-function slot0.onBackPressed(slot0)
-	if isActive(slot0.window) then
-		playSoundEffect(SFX_CANCEL)
-		triggerButton(slot0:findTF("close_end"))
-	end
-end
+slot0.didEnter = slot2
 
-function slot0.willExit(slot0)
-	if slot0.commonTF then
-		setActive(slot0.commonTF, true)
-	end
+function slot2(slot0)
+	slot1 = isActive
+	slot2 = slot0.window
+	slot1 = slot1(slot2)
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-
-	if slot0.l2dChar then
-		slot0.l2dChar:ClearPics()
-		pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.l2dChar.name)
-
-		slot0.l2dChar = nil
-	end
-
-	if slot0._delayVoiceTweenID then
-		LeanTween.cancel(slot0._delayVoiceTweenID)
-
-		slot0._delayVoiceTweenID = nil
-	end
-
-	LeanTween:cancelAll()
-	pg.CriMgr.GetInstance():resumeNormalBGM()
-end
-
-function slot0.setMask(slot0, slot1)
-	setActive(slot0.maskTF, slot1)
-end
-
-function slot0.bgAddAnimation(slot0, slot1)
-	setActive(slot0.storybg, true)
-	slot0:showbgAdd(true, slot1)
-end
-
-function slot0.showbgChurch(slot0)
-	LeanTween.scale(slot0.storybg, Vector3(1, 1, 1), 6)
-	setActive(slot0.churchLight, true)
-	LeanTween.delayedCall(6, System.Action(function ()
-		setActive(slot0.churchLight, false)
-	end))
-end
-
-function slot0.showbgAdd(slot0, slot1, slot2)
 	if slot1 then
-		slot3 = 1
-	else
-		slot3 = 0
+		slot1 = playSoundEffect
+		slot2 = SFX_CANCEL
+
+		slot1(slot2)
+
+		slot1 = triggerButton
+		slot3 = slot0
+		slot2 = slot0.findTF
+		slot4 = "close_end"
+
+		slot1(slot2(slot3, slot4))
+	end
+end
+
+slot0.onBackPressed = slot2
+
+function slot2(slot0)
+	slot1 = slot0.delayTId
+
+	if slot1 then
+		slot1 = LeanTween
+		slot1 = slot1.cancel
+		slot2 = slot0.delayTId
+
+		slot1(slot2)
 	end
 
-	slot4 = (slot1 and 0) or 1
-	slot5 = GetOrAddComponent(slot0.bgAdd, typeof(CanvasGroup))
+	slot1 = slot0.commonTF
 
-	LeanTween.value(go(slot0.bgAdd), slot3, (slot1 and 0) or 1, slot2):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	if slot1 then
+		slot1 = setActive
+		slot2 = slot0.commonTF
+		slot3 = true
 
-		return
-	end))
+		slot1(slot2, slot3)
+	end
+
+	slot1 = pg
+	slot1 = slot1.UIMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot2 = slot1
+	slot1 = slot1.UnblurPanel
+	slot3 = slot0._tf
+
+	slot1(slot2, slot3)
+
+	slot1 = slot0.l2dChar
+
+	if slot1 then
+		slot1 = slot0.l2dChar
+		slot2 = slot1
+		slot1 = slot1.ClearPics
+
+		slot1(slot2)
+
+		slot1 = pg
+		slot1 = slot1.Live2DMgr
+		slot1 = slot1.GetInstance
+		slot1 = slot1()
+		slot2 = slot1
+		slot1 = slot1.TryReleaseLive2dRes
+		slot3 = slot0.l2dChar
+		slot3 = slot3.name
+
+		slot1(slot2, slot3)
+
+		slot1 = nil
+		slot0.l2dChar = slot1
+	end
+
+	slot1 = slot0._delayVoiceTweenID
+
+	if slot1 then
+		slot1 = LeanTween
+		slot1 = slot1.cancel
+		slot2 = slot0._delayVoiceTweenID
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0._delayVoiceTweenID = slot1
+	end
+
+	slot1 = LeanTween
+	slot2 = slot1
+	slot1 = slot1.cancelAll
+
+	slot1(slot2)
+
+	slot1 = pg
+	slot1 = slot1.CriMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot2 = slot1
+	slot1 = slot1.resumeNormalBGM
+
+	slot1(slot2)
+
+	slot1 = slot0.contextData
+	slot1 = slot1.callback
+
+	if slot1 then
+		slot1 = slot0.contextData
+		slot1 = slot1.callback
+
+		slot1()
+	end
+end
+
+slot0.willExit = slot2
+
+function slot2(slot0, slot1)
+	slot2 = setActive
+	slot3 = slot0.maskTF
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+end
+
+slot0.setMask = slot2
+
+function slot2(slot0, slot1)
+	slot2 = setActive
+	slot3 = slot0.storybg
+	slot4 = true
+
+	slot2(slot3, slot4)
+
+	slot3 = slot0
+	slot2 = slot0.showbgAdd
+	slot4 = true
+	slot5 = slot1
+
+	slot2(slot3, slot4, slot5)
+end
+
+slot0.bgAddAnimation = slot2
+
+function slot2(slot0)
+	slot1 = LeanTween
+	slot1 = slot1.scale
+	slot2 = slot0.storybg
+	slot3 = Vector3
+	slot4 = 1
+	slot5 = 1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = 6
+
+	slot1(slot2, slot3, slot4)
+
+	slot1 = setActive
+	slot2 = slot0.churchLight
+	slot3 = true
+
+	slot1(slot2, slot3)
+
+	slot1 = LeanTween
+	slot1 = slot1.delayedCall
+	slot2 = 6
+	slot3 = System
+	slot3 = slot3.Action
+
+	function slot4()
+		slot0 = setActive
+		slot1 = slot0
+		slot1 = slot1.churchLight
+		slot2 = false
+
+		slot0(slot1, slot2)
+	end
+
+	slot1(slot2, slot3(slot4))
+end
+
+slot0.showbgChurch = slot2
+
+function slot2(slot0, slot1, slot2)
+	LeanTween.alphaCanvas(slot5, slot4, slot2):setFrom((slot1 and 1) or 0)
 	setActive(slot0.bgAdd, true)
-
-	return
-
-	slot4 = 0
-
-	if 0 then
-		slot4 = 1
-	end
 end
 
-function slot0.showBlackBG(slot0, slot1, slot2)
-	if slot1 then
-		slot3 = 1
-	else
-		slot3 = 0
-	end
+slot0.showbgAdd = slot2
 
-	if slot1 then
-		slot4 = 0
-	else
-		slot4 = 1
-	end
+function slot2(slot0, slot1, slot2)
+	slot3 = (slot1 and 1) or 0
 
-	slot5 = GetOrAddComponent(slot0.blackBG, typeof(CanvasGroup))
-
-	LeanTween.value(go(slot0.blackBG), slot3, slot4, slot2):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
-
-		return
-	end)):setOnComplete(System.Action(function ()
+	LeanTween.alphaCanvas(slot5, slot4, slot2):setFrom((slot1 and 1) or 0):setOnComplete(System.Action(function ()
 		if slot0 then
 			setActive(slot1.blackBG, false)
 		end
@@ -320,23 +1253,42 @@ function slot0.showBlackBG(slot0, slot1, slot2)
 	setActive(slot0.blackBG, true)
 
 	return
+
+	slot3 = 1
+
+	if 1 then
+		slot3 = 0
+	end
+
+	slot4 = 0
+
+	if 0 then
+		slot4 = 1
+	end
 end
 
-function slot0.showPainting(slot0, slot1, slot2)
+slot0.showBlackBG = slot2
+
+function slot2(slot0, slot1, slot2)
 	slot3 = false
 
 	function slot4()
+		slot0 = slot0
+
 		if slot0 then
 			return
 		end
 
 		slot0 = true
+		slot0 = slot1
 
-		if slot1 then
+		if slot0 then
 			slot0 = 0
 		else
 			slot0 = 1
 		end
+
+		slot1 = slot1
 
 		if slot1 then
 			slot1 = 1
@@ -344,595 +1296,2126 @@ function slot0.showPainting(slot0, slot1, slot2)
 			slot1 = 0
 		end
 
-		LeanTween.value(go(slot2.targetActorTF), slot0, slot1, LeanTween.value):setOnUpdate(System.Action_float(function (slot0)
-			slot0.alpha = slot0
+		slot2 = GetOrAddComponent
+		slot3 = slot2
+		slot3 = slot3.targetActorTF
+		slot4 = typeof
+		slot5 = CanvasGroup
+		slot2 = slot2(slot3, slot4(slot5))
+		slot3 = LeanTween
+		slot3 = slot3.alphaCanvas
+		slot4 = slot2
+		slot5 = slot1
+		slot6 = slot3
+		slot3 = slot3(slot4, slot5, slot6)
+		slot4 = slot3
+		slot3 = slot3.setFrom
+		slot5 = slot0
 
-			return
-		end))
+		slot3(slot4, slot5)
 
 		return
 	end
 
 	if slot1 then
-		slot0:loadChar(slot0.targetActorTF, "duihua", function ()
+		slot6 = slot0
+		slot5 = slot0.loadChar
+		slot7 = slot0.targetActorTF
+		slot8 = "duihua"
+
+		function slot9()
+			slot0 = slot0
+
 			slot0()
 
 			return
-		end)
+		end
+
+		slot5(slot6, slot7, slot8, slot9)
 	end
 
-	slot4()
+	slot5 = slot4
+
+	slot5()
 
 	return
 end
 
-function slot0.showLive2D(slot0, slot1)
-	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
-	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
+slot0.showPainting = slot2
 
-	slot2 = GetOrAddComponent(slot0.targetActorTF, typeof(CanvasGroup))
+function slot2(slot0, slot1)
+	slot2 = setActive
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "fitter"
+	slot6 = slot0.targetActorTF
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = false
 
-	LeanTween.value(go(slot0.targetActorTF), 0, 1, 2):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	slot2(slot3, slot4)
+
+	slot2 = setActive
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "live2d"
+	slot6 = slot0.targetActorTF
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = true
+
+	slot2(slot3, slot4)
+
+	slot2 = GetOrAddComponent
+	slot3 = slot0.targetActorTF
+	slot4 = typeof
+	slot5 = CanvasGroup
+	slot2 = slot2(slot3, slot4(slot5))
+	slot3 = LeanTween
+	slot3 = slot3.alphaCanvas
+	slot4 = slot2
+	slot5 = 1
+	slot6 = 2
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = slot3
+	slot3 = slot3.setFrom
+	slot5 = 0
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3
+	slot3 = slot3.setOnComplete
+	slot5 = System
+	slot5 = slot5.Action
+
+	function slot6()
+		slot0 = slot0
+		slot0 = slot0.l2dChar
+		slot1 = slot0
+		slot0 = slot0.SetAction
+		slot2 = pg
+		slot2 = slot2.AssistantInfo
+		slot2 = slot2.action2Id
+		slot3 = slot1
+		slot2 = slot2[slot3]
+
+		slot0(slot1, slot2)
 
 		return
-	end)):setOnComplete(System.Action(function ()
-		slot0.l2dChar:SetAction(pg.AssistantInfo.action2Id[slot0.l2dChar])
+	end
 
-		return
-	end))
+	slot3(slot4, slot5(slot6))
 
 	return
 end
 
-function slot0.hideWindow(slot0)
-	GetOrAddComponent(slot0.window, typeof(CanvasGroup)).interactable = false
+slot0.showLive2D = slot2
 
-	LeanTween.value(go(slot0.window), 1, 0, 0.2):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+function slot2(slot0)
+	slot1 = GetOrAddComponent
+	slot2 = slot0.window
+	slot3 = typeof
+	slot4 = CanvasGroup
+	slot1 = slot1(slot2, slot3(slot4))
+	slot2 = false
+	slot1.interactable = slot2
+	slot2 = LeanTween
+	slot2 = slot2.alphaCanvas
+	slot3 = slot1
+	slot4 = 0
+	slot5 = 0.2
+	slot2 = slot2(slot3, slot4, slot5)
+	slot3 = slot2
+	slot2 = slot2.setFrom
+	slot4 = 1
+	slot2 = slot2(slot3, slot4)
+	slot3 = slot2
+	slot2 = slot2.setOnComplete
+	slot4 = System
+	slot4 = slot4.Action
+
+	function slot5()
+		slot0 = slot0
+		slot1 = true
+		slot0.interactable = slot1
 
 		return
-	end)):setOnComplete(System.Action(function ()
-		slot0.interactable = true
+	end
 
-		return
-	end))
+	slot2(slot3, slot4(slot5))
 
 	return
 end
 
-function slot0.stampWindow(slot0)
-	slot0.proposeEndFlag = true
+slot0.hideWindow = slot2
 
-	slot0:loadChar()
-	setActive(slot0.window, true)
-	setActive(slot0.button, false)
+function slot2(slot0)
+	slot1 = true
+	slot0.proposeEndFlag = slot1
+	slot2 = slot0
+	slot1 = slot0.loadChar
+
+	slot1(slot2)
+
+	slot1 = setActive
+	slot2 = slot0.window
+	slot3 = true
+
+	slot1(slot2, slot3)
+
+	slot1 = setActive
+	slot2 = slot0.button
+	slot3 = false
+
+	slot1(slot2, slot3)
 
 	slot1 = nil
+	slot2 = slot0.intimacyDescPic
 
-	if slot0.intimacyDescPic then
-		setActive(slot0.intimacyDesc, false)
-		setActive(slot0.intimacyDescPic, true)
+	if slot2 then
+		slot2 = setActive
+		slot3 = slot0.intimacyDesc
+		slot4 = false
 
-		slot1 = GetOrAddComponent(slot0.intimacyDescPic, typeof(CanvasGroup))
+		slot2(slot3, slot4)
+
+		slot2 = setActive
+		slot3 = slot0.intimacyDescPic
+		slot4 = true
+
+		slot2(slot3, slot4)
+
+		slot2 = GetOrAddComponent
+		slot3 = slot0.intimacyDescPic
+		slot4 = typeof
+		slot5 = CanvasGroup
+		slot2 = slot2(slot3, slot4(slot5))
+		slot1 = slot2
 	else
-		if slot0.intimacyDesc and GetComponent(slot0.intimacyDesc, typeof(Text)) then
-			if GetComponent(slot0.intimacyDesc, "VerticalText") then
-				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose_vertical", pg.TimeMgr.GetInstance():ChieseDescTime(slot0.shipVO.proposeTime, true)))
-			else
-				setText(slot0.intimacyDesc, i18n("intimacy_desc_propose", pg.TimeMgr.GetInstance():DescTime(slot0.shipVO.proposeTime, "%Y년%m월%d일", true)))
-			end
+		slot2 = slot0.intimacyDesc
 
-			slot1 = GetOrAddComponent(slot0.intimacyDesc, typeof(CanvasGroup))
+		if slot2 then
+			slot2 = GetComponent
+			slot3 = slot0.intimacyDesc
+			slot4 = typeof
+			slot5 = Text
+			slot2 = slot2(slot3, slot4(slot5))
+
+			if slot2 then
+				slot2 = GetComponent
+				slot3 = slot0.intimacyDesc
+				slot4 = "VerticalText"
+				slot2 = slot2(slot3, slot4)
+
+				if slot2 then
+					slot2 = setText
+					slot3 = slot0.intimacyDesc
+					slot4 = i18n
+					slot5 = "intimacy_desc_propose_vertical"
+					slot6 = pg
+					slot6 = slot6.TimeMgr
+					slot6 = slot6.GetInstance
+					slot6 = slot6()
+					slot7 = slot6
+					slot6 = slot6.ChieseDescTime
+					slot8 = slot0.shipVO
+					slot8 = slot8.proposeTime
+					slot9 = true
+
+					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9)))
+				else
+					slot2 = setText
+					slot3 = slot0.intimacyDesc
+					slot4 = i18n
+					slot5 = "intimacy_desc_propose"
+					slot6 = pg
+					slot6 = slot6.TimeMgr
+					slot6 = slot6.GetInstance
+					slot6 = slot6()
+					slot7 = slot6
+					slot6 = slot6.DescTime
+					slot8 = slot0.shipVO
+					slot8 = slot8.proposeTime
+					slot9 = "%Y년%m월%d일"
+					slot10 = true
+
+					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9, slot10)))
+				end
+
+				slot2 = GetOrAddComponent
+				slot3 = slot0.intimacyDesc
+				slot4 = typeof
+				slot5 = CanvasGroup
+				slot2 = slot2(slot3, slot4(slot5))
+				slot1 = slot2
+			end
 		end
 	end
 
-	setText(slot0.intimacyBuffDesc, "")
-	setActive(slot0.doneTF, false)
+	slot2 = setText
+	slot3 = slot0.intimacyBuffDesc
+	slot4 = ""
 
-	slot1.alpha = 0
-	GetOrAddComponent(slot0.window, typeof(CanvasGroup)).interactable = false
+	slot2(slot3, slot4)
 
-	LeanTween.value(go(slot0.window), 0, 1, 0.8):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	slot2 = setActive
+	slot3 = slot0.doneTF
+	slot4 = false
+
+	slot2(slot3, slot4)
+
+	slot2 = 0
+	slot1.alpha = slot2
+	slot2 = GetOrAddComponent
+	slot3 = slot0.window
+	slot4 = typeof
+	slot5 = CanvasGroup
+	slot2 = slot2(slot3, slot4(slot5))
+	slot3 = false
+	slot2.interactable = slot3
+	slot3 = LeanTween
+	slot3 = slot3.alphaCanvas
+	slot4 = slot2
+	slot5 = 1
+	slot6 = 0.8
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = slot3
+	slot3 = slot3.setFrom
+	slot5 = 0
+
+	slot3(slot4, slot5)
+
+	slot3 = LeanTween
+	slot3 = slot3.delayedCall
+	slot4 = 1.5
+	slot5 = System
+	slot5 = slot5.Action
+
+	function slot6()
+		slot0 = LeanTween
+		slot0 = slot0.alphaCanvas
+		slot1 = slot0
+		slot2 = 1
+		slot3 = 2
+		slot0 = slot0(slot1, slot2, slot3)
+		slot1 = slot0
+		slot0 = slot0.setFrom
+		slot2 = 0
+
+		slot0(slot1, slot2)
 
 		return
-	end))
-	LeanTween.delayedCall(1.5, System.Action(function ()
-		LeanTween.value(go(slot0.intimacyDesc), 0, 1, 2):setOnUpdate(System.Action_float(function (slot0)
-			slot0.alpha = slot0
+	end
 
-			return
-		end))
+	slot3(slot4, slot5(slot6))
 
-		return
-	end))
-	LeanTween.delayedCall(5, System.Action(function ()
+	slot3 = LeanTween
+	slot3 = slot3.delayedCall
+	slot4 = 5
+	slot5 = System
+	slot5 = slot5.Action
+
+	function slot6()
+		slot0 = slot0
+
 		if not slot0 then
 			return
 		end
 
-		slot0.interactable = true
+		slot0 = slot0
+		slot1 = true
+		slot0.interactable = slot1
+		slot0 = setActive
+		slot1 = slot1
+		slot1 = slot1.doneTF
+		slot2 = true
 
-		setActive(true.doneTF, true)
-		true.doneTF:setMask(false)
-		setActive(true.doneTF:findTF("close_end"), true)
-		playSoundEffect(SFX_UI_SEAL)
+		slot0(slot1, slot2)
+
+		slot0 = slot1
+		slot1 = slot0
+		slot0 = slot0.setMask
+		slot2 = false
+
+		slot0(slot1, slot2)
+
+		slot0 = setActive
+		slot1 = slot1
+		slot2 = slot1
+		slot1 = slot1.findTF
+		slot3 = "close_end"
+		slot1 = slot1(slot2, slot3)
+		slot2 = true
+
+		slot0(slot1, slot2)
+
+		slot0 = playSoundEffect
+		slot1 = SFX_UI_SEAL
+
+		slot0(slot1)
 
 		return
-	end))
+	end
+
+	slot3 = slot3(slot4, slot5(slot6))
+	slot4 = slot3.id
+	slot0.delayTId = slot4
 
 	return
 end
 
-function slot0.showProposePanel(slot0)
-	slot0.proposeSkin = ShipGroup.getProposeSkin(slot0.shipGroupID)
+slot0.stampWindow = slot2
 
-	if slot0.proposeSkin and slot0.actorPainting then
-		PoolMgr.GetInstance():ReturnPainting(slot0.paintingName, slot0.actorPainting)
+function slot2(slot0)
+	slot1 = ShipGroup
+	slot1 = slot1.getProposeSkin
+	slot2 = slot0.shipGroupID
+	slot1 = slot1(slot2)
+	slot0.proposeSkin = slot1
+	slot1 = slot0.proposeSkin
 
-		slot0.actorPainting = nil
+	if slot1 then
+		slot1 = slot0.actorPainting
+
+		if slot1 then
+			slot1 = PoolMgr
+			slot1 = slot1.GetInstance
+			slot1 = slot1()
+			slot2 = slot1
+			slot1 = slot1.ReturnPainting
+			slot3 = slot0.paintingName
+			slot4 = slot0.actorPainting
+
+			slot1(slot2, slot3, slot4)
+
+			slot1 = nil
+			slot0.actorPainting = slot1
+		end
 	end
 
 	function slot1()
-		LeanTween.scale(slot0.door, Vector3(1.4, 1.4, 1.4), 4)
-		slot0.doorAni:SetActionCallBack(function (slot0)
-			if slot0 == "FINISH" then
-				slot0.doorAni:SetActionCallBack(nil)
-				setActive(slot0.door, false)
-				slot0:showBlackBG(true, 0.1)
-				setActive(slot0.doorLightBG, false)
-				setActive()
+		function slot0()
+			slot0 = slot0
+			slot0 = slot0.handTF
+			slot1 = slot0
+			slot0 = slot0.GetComponent
+			slot2 = typeof
+			slot3 = Image
+			slot0 = slot0(slot1, slot2(slot3))
+			slot1 = Color
+			slot1 = slot1.New
+			slot2 = 1
+			slot3 = 1
+			slot4 = 1
+			slot5 = 0
+			slot1 = slot1(slot2, slot3, slot4, slot5)
+			slot0.color = slot1
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.bgAddAnimation
+			slot2 = 2
+
+			slot0(slot1, slot2)
+
+			slot0 = LeanTween
+			slot0 = slot0.delayedCall
+			slot1 = 2
+			slot2 = System
+			slot2 = slot2.Action
+
+			function slot3()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.showPainting
+				slot2 = true
+				slot3 = 1.5
+
+				slot0(slot1, slot2, slot3)
+
+				return
 			end
 
-			return
-		end)
-		LeanTween.delayedCall(2, System.Action(function ()
-			slot0:showbgAdd(false, 2)
+			slot0(slot1, slot2(slot3))
 
-			return
-		end))
-		LeanTween.value(go(slot0.doorLightBG), 0, 1, 2):setOnUpdate(System.Action_float(function (slot0)
-			slot0.doorLightCG.alpha = slot0
+			slot0 = LeanTween
+			slot0 = slot0.delayedCall
+			slot1 = 5
+			slot2 = System
+			slot2 = slot2.Action
 
-			return
-		end))
-		slot0:showBlackBG(false, 0.1)
-		slot0.doorAni:SetAction("OPEN", 0)
-		playSoundEffect(SFX_UI_DOOR)
+			function slot3()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.showPainting
+				slot2 = false
+				slot3 = 1
 
-		return
-	end
-
-	pg.CriMgr.GetInstance():PlayBGM("wedding", true)
-
-	if not slot0.proposePanel then
-		PoolMgr.GetInstance():GetUI("ProposeRingUI", true, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
-
-			if slot0.exited then
-				PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance().ReturnUI, slot0)
+				slot0(slot1, slot2, slot3)
 
 				return
 			end
 
-			slot0.proposePanel = tf(slot0)
+			slot0(slot1, slot2(slot3))
 
-			if not slot0.weddingReview or not slot0.reviewSkinID then
-				slot1 = slot0.shipVO.skinId
-			end
+			slot0 = LeanTween
+			slot0 = slot0.delayedCall
+			slot1 = 6
+			slot2 = System
+			slot2 = slot2.Action
 
-			slot0.handId = pg.ship_skin_template[slot1].hand_id
-			slot2 = pg.TimeMgr.GetInstance():GetServerTime()
+			function slot3()
+				slot0 = setAnchoredPosition
+				slot1 = slot0
+				slot1 = slot1.handTF
+				slot2 = {}
+				slot3 = slot0
+				slot3 = slot3.handTF
+				slot3 = slot3.rect
+				slot3 = slot3.height
+				slot2.y = slot3
 
-			if SPECIAL_PROPOSE and pg.TimeMgr.GetInstance():ParseTime(SPECIAL_PROPOSE[1]) <= slot2 and slot2 < slot3 + 86400 then
-				for slot7, slot8 in ipairs(SPECIAL_PROPOSE[2]) do
-					if slot8[1] == slot1 then
-						slot0.handId = slot8[2]
-					end
-				end
-			end
+				slot0(slot1, slot2)
 
-			slot0.handName = "ProposeHand_" .. slot0.handId
+				slot0 = setAnchoredPosition
+				slot1 = slot0
+				slot1 = slot1.ringTF
+				slot2 = {
+					x = -195,
+					y = 0
+				}
 
-			PoolMgr.GetInstance():GetUI(slot0.handName, true, function (slot0)
-				slot0.transHand = tf(slot0)
+				slot0(slot1, slot2)
 
-				setParent(slot0.transHand, slot0.proposePanel)
+				slot0 = setActive
+				slot1 = slot0
+				slot1 = slot1.proposePanel
+				slot2 = true
 
-				slot0.handTF = slot0:findTF("hand", slot0.transHand)
-				slot0.ringTF = slot0:findTF("ring", slot0.transHand)
-				slot0.ringAnim = slot0.ringTF:GetComponent(typeof(Animator))
-				slot0.ringAnim.enabled = false
-				slot0.ringLight = slot0:findTF("ring_light", slot0.ringTF)
-				slot0.ringLightCG = GetOrAddComponent(slot0.ringLight, typeof(CanvasGroup))
-				slot0.ringCG = GetOrAddComponent(slot0.ringTF, typeof(CanvasGroup))
+				slot0(slot1, slot2)
 
-				return
-			end)
-			setParent(tf(slot0), slot0:findTF("contain"))
+				slot0 = setActive
+				slot1 = slot0
+				slot1 = slot1.transHand
+				slot2 = true
 
-			slot0.ringBoxTF = slot0:findTF("ringBox", slot0.proposePanel)
-			slot0.ringBoxFull = slot0:findTF("full", slot0.ringBoxTF)
-			slot0.ringBoxCG = GetOrAddComponent(slot0.ringBoxTF, typeof(CanvasGroup))
-			slot0.churchBefore = slot0:findTF("before", slot0.proposePanel)
-			slot0.churchLight = slot0:findTF("light", slot0.churchBefore)
+				slot0(slot1, slot2)
 
-			setParent(slot0.churchLight, slot0._tf)
-			slot0.churchLight:SetSiblingIndex(2)
+				slot0 = slot0
+				slot0 = slot0.ringBoxCG
+				slot1 = 0
+				slot0.alpha = slot1
+				slot0 = LeanTween
+				slot0 = slot0.alpha
+				slot1 = rtf
+				slot2 = slot0
+				slot2 = slot2.handTF
+				slot1 = slot1(slot2)
+				slot2 = 1
+				slot3 = 1.2
 
-			slot0.blackBG = slot0:findTF("blackbg", slot0.churchBefore)
-			slot0.doorLightBG = slot0:findTF("door_light", slot0.churchBefore)
-			slot0.doorLightCG = GetOrAddComponent(slot0.doorLightBG, typeof(CanvasGroup))
-			slot0.door = slot0:findTF("door", slot0.churchBefore)
-			slot0.doorAni = GetOrAddComponent(slot0.door, "SpineAnimUI")
+				slot0(slot1, slot2, slot3)
 
-			setParent(slot0.churchBefore, slot0:findTF("contain"))
+				slot0 = LeanTween
+				slot0 = slot0.moveY
+				slot1 = rtf
+				slot2 = slot0
+				slot2 = slot2.handTF
+				slot1 = slot1(slot2)
+				slot2 = 0
+				slot3 = 2
+				slot0 = slot0(slot1, slot2, slot3)
+				slot1 = slot0
+				slot0 = slot0.setOnComplete
+				slot2 = System
+				slot2 = slot2.Action
 
-			slot0.ringTipTF = slot0:findTF("tip", slot0.proposePanel)
-			slot0.ringTipCG = GetOrAddComponent(slot0.ringTipTF, typeof(CanvasGroup))
+				function slot3()
+					slot0 = LeanTween
+					slot0 = slot0.alphaCanvas
+					slot1 = slot0
+					slot1 = slot1.ringBoxCG
+					slot2 = 1
+					slot3 = 1.5
+					slot0 = slot0(slot1, slot2, slot3)
+					slot1 = slot0
+					slot0 = slot0.setFrom
+					slot2 = 0
+					slot0 = slot0(slot1, slot2)
+					slot1 = slot0
+					slot0 = slot0.setOnComplete
+					slot2 = System
+					slot2 = slot2.Action
 
-			setText(slot0:findTF("Text", slot0.ringTipTF), i18n("word_propose_ring_tip"))
-			setActive(slot0:findTF("finger", slot0.ringTipTF), false)
-			onButton(slot0, slot0.ringBoxTF, function ()
-				if slot0.ringBoxClicked then
-					return
-				end
+					function slot3()
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.setMask
+						slot2 = false
 
-				slot0.ringBoxClicked = true
+						slot0(slot1, slot2)
 
-				LeanTween.alpha(rtf(slot0.ringBoxFull), 0, 0.6):setOnComplete(System.Action(function ()
-					LeanTween.delayedCall(0.1, System.Action(function ()
-						slot0.ringAnim.enabled = true
+						slot0 = triggerButton
+						slot1 = slot0
+						slot1 = slot1.ringBoxTF
 
-						slot0.ringAnim.ringAnim:Play("movein")
-						LeanTween.delayedCall(0.5, System.Action(function ()
-							slot0.ringAnim:Play("blink")
-							LeanTween.value(slot0.ringTipTF.gameObject, 0, 1, 1.5):setOnUpdate(System.Action_float(function (slot0)
-								slot0.ringTipCG.alpha = slot0
-
-								return
-							end)):setOnComplete(System.Action(function ()
-								setActive(slot0:findTF("finger", slot0.ringTipTF), true)
-								setActive:enableRingDrag(true)
-
-								return
-							end))
-
-							return
-						end))
+						slot0(slot1)
 
 						return
-					end))
-
-					return
-				end))
-
-				return
-			end)
-			LoadImageSpriteAsync(slot0.bgName, slot0.storybg)
-
-			slot0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
-
-			onNextTick(function ()
-				if slot0.exited then
-					return
-				end
-
-				slot1()
-
-				return
-			end)
-
-			return
-		end)
-
-		return
-	end
-
-	slot1()
-end
-
-function slot0.ringOn(slot0)
-	if slot0.isRingOn then
-		return
-	end
-
-	setActive(slot0.ringTipTF, false)
-
-	slot0.isRingOn = true
-
-	slot0.ringTF:GetComponent("DftAniEvent").SetEndEvent(slot1, function (slot0)
-		slot0.ringAnim.enabled = false
-		slot0.isRingOn = false
-
-		if not slot0.weddingReview then
-			slot0:emit(ProposeMediator.ON_PROPOSE, slot0.shipVO.id)
-		else
-			slot0:RingFadeout(function ()
-				slot0:displayShipWord("propose")
-
-				return
-			end)
-		end
-
-		return
-	end)
-
-	slot0.ringAnim.enabled = true
-
-	slot0.ringAnim:Play("wear")
-
-	return
-end
-
-function slot0.enableRingDrag(slot0, slot1)
-	if not slot0.press then
-		slot0:addRingDragListenter()
-	end
-
-	slot0.press.enabled = slot1
-
-	return
-end
-
-function slot0.addRingDragListenter(slot0)
-	slot0.press = GetOrAddComponent(slot0.proposePanel, "EventTriggerListener")
-	slot1 = nil
-
-	slot0.press:AddBeginDragFunc(function ()
-		return
-	end)
-	slot0.press:AddDragFunc(function (slot0, slot1)
-		slot2 = slot1.position
-
-		if not slot0 then
-			slot0 = slot2
-		end
-
-		if slot2.y - slot0.y > 100 then
-			slot1:setMask(true)
-			slot1:ringOn()
-			slot1:enableRingDrag(false)
-		end
-
-		return
-	end)
-	slot0.press:AddDragEndFunc(function (slot0, slot1)
-		return
-	end)
-
-	return
-end
-
-function slot0.RingFadeout(slot0, slot1)
-	LeanTween.value(go(slot0.ringLight), 0, 0.7, 0.5):setOnUpdate(System.Action_float(function (slot0)
-		slot0.ringLightCG.alpha = slot0
-
-		return
-	end))
-	LeanTween.scale(slot0.ringLight, Vector3(8, 8, 8), 1)
-	LeanTween.rotate(slot0.ringLight, 90, 3)
-	LeanTween.delayedCall(3.5, System.Action(function ()
-		if slot0 then
-			slot0()
-		end
-
-		return
-	end))
-	LeanTween.delayedCall(1.2, System.Action(function ()
-		slot0:showbgAdd(false, 1.8)
-
-		return
-	end))
-	LeanTween.delayedCall(3.2, System.Action(function ()
-		setActive(slot0.proposePanel, false)
-		setActive:showbgAdd(true, 2)
-
-		return
-	end))
-
-	return
-end
-
-function slot0.displayShipWord(slot0, slot1)
-	slot3, slot4, slot5 = Ship.getWords(ShipGroup.getDefaultSkin(slot0.shipGroupID).id, slot1)
-	slot6 = nil
-
-	if slot0.reviewSkinID then
-		slot6 = slot0.reviewSkinID
-	else
-		if slot0.proposeSkin then
-			slot6 = slot0.proposeSkin.id
-		else
-			slot6 = slot0.shipVO.skinId
-		end
-	end
-
-	slot7 = Ship.getCVCalibrate(slot6, slot1)
-
-	slot0:showStoryUI(slot3)
-
-	if slot4 then
-		function slot8()
-			if slot0._currentVoice then
-				slot0._currentVoice:Stop(true)
-			end
-
-			slot0._currentVoice = playSoundEffect(playSoundEffect)
-
-			return
-		end
-
-		if slot0.l2dChar and slot7 and slot7 ~= 0 then
-			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot7, System.Action(function ()
-				slot0()
-
-				slot1._delayVoiceTweenID = nil
-
-				return
-			end)).id
-		else
-			slot8()
-		end
-	end
-
-	return
-end
-
-function slot0.showStoryUI(slot0, slot1)
-	function slot2()
-		if ResourceMgr.Inst:AssetExist("live2d/" .. string.lower(slot0.paintingName)) then
-			slot0:showLive2D("wedding")
-		else
-			slot0:showPainting(true, 2)
-		end
-
-		slot0 = ShipGroup.getDefaultShipNameByGroupID(slot0.shipGroupID)
-
-		setText(slot0.targetNameTF:Find("Text"), slot0)
-		setText(slot0.storyContent, "")
-
-		slot0.storyCG.alpha = 0
-
-		setActive(slot0.storyTF, true)
-
-		slot0.initStory = false
-
-		LeanTween.value(go(slot0.storyTF), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
-			slot0.storyCG.alpha = slot0
-
-			return
-		end)):setDelay(1):setOnComplete(System.Action(function ()
-			if findTF(slot0.targetActorTF, "fitter").childCount > 0 then
-				Ship.SetExpression(findTF(slot0.targetActorTF, "fitter"):GetChild(0), slot0.paintingName, "propose")
-			end
-
-			setText(slot0.storyContent, )
-
-			setText.onWords = true
-
-			setText:TypeWriter()
-
-			setText.TypeWriter.initStory = true
-
-			setText.TypeWriter:setMask(false)
-
-			if not setText.TypeWriter.setMask.weddingReview then
-				slot0:showTip()
-			end
-
-			return
-		end))
-
-		return
-	end
-
-	if not slot0.storyTF then
-		PoolMgr.GetInstance():GetUI("ProposeStoryUI", true, function (slot0)
-			pg.UIMgr:GetInstance():LoadingOff()
-
-			if slot0.exited then
-				PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance().ReturnUI, slot0)
-
-				return
-			end
-
-			slot0.storyTF = tf(slot0)
-
-			setParent(tf(slot0), slot0:findTF("contain"))
-
-			slot0.storyCG = GetOrAddComponent(slot0.storyTF, typeof(CanvasGroup))
-			slot0.storyContent = slot0:findTF("dialogue/main/content", slot0.storyTF)
-			slot0.typeWriter = slot0.storyContent:GetComponent(typeof(Typewriter))
-			slot0.targetNameTF = slot0:findTF("dialogue/main/name_left", slot0.storyTF)
-			slot0._renamePanel = slot0:findTF("changeName_panel", slot0.storyTF)
-
-			setActive(slot0._renamePanel, false)
-			onButton(slot0, slot0.storyTF, function ()
-				if slot0.inTypeWritter then
-					slot0.typeWriter:setSpeed(slot0.typeWritterSpeedUp)
-
-					return
-				end
-
-				if not slot0.initStory then
-					return
-				end
-
-				LeanTween.value(slot1, 1, 0, 1):setOnUpdate(System.Action_float(function (slot0)
-					slot0.storyCG.alpha = slot0
-
-					return
-				end)):setOnComplete(System.Action(function ()
-					setActive(slot0.storyTF, false)
-
-					return
-				end))
-
-				if LeanTween.value(slot1, 1, 0, 1).setOnUpdate(System.Action_float(function (slot0)
-					slot0.storyCG.alpha = slot0
-
-					return
-				end)).setOnComplete._currentVoice then
-					slot0._currentVoice:Stop(true)
-				end
-
-				slot0._currentVoice = nil
-
-				slot0:setMask(true)
-				LeanTween.delayedCall(0.5, System.Action(function ()
-					if slot0.weddingReview then
-						slot0:close()
-					else
-						slot0:initChangeNamePanel()
-						slot0.initChangeNamePanel:stampWindow()
 					end
 
-					return
-				end))
+					slot0(slot1, slot2(slot3))
 
-				return
-			end)
-			onNextTick(function ()
-				if slot0.exited then
 					return
 				end
 
-				slot1()
+				slot0(slot1, slot2(slot3))
 
 				return
-			end)
+			end
 
-			slot0.loadFinish = true
+			slot0(slot1, slot2(slot3))
+
+			slot0 = LeanTween
+			slot0 = slot0.delayedCall
+			slot1 = 5
+			slot2 = System
+			slot2 = slot2.Action
+
+			function slot3()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.showBlackBG
+				slot2 = false
+				slot3 = 1.2
+
+				slot0(slot1, slot2, slot3)
+
+				return
+			end
+
+			slot0(slot1, slot2(slot3))
+
+			slot0 = LeanTween
+			slot0 = slot0.delayedCall
+			slot1 = 6.2
+			slot2 = System
+			slot2 = slot2.Action
+
+			function slot3()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.showBlackBG
+				slot2 = true
+				slot3 = 1.2
+
+				slot0(slot1, slot2, slot3)
+
+				return
+			end
+
+			slot0(slot1, slot2(slot3))
 
 			return
-		end)
+		end
+
+		slot1 = LeanTween
+		slot1 = slot1.scale
+		slot2 = slot0
+		slot2 = slot2.door
+		slot3 = Vector3
+		slot4 = 2.1
+		slot5 = 2.1
+		slot6 = 2.1
+		slot3 = slot3(slot4, slot5, slot6)
+		slot4 = 4
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = slot0
+		slot1 = slot1.doorAni
+		slot2 = slot1
+		slot1 = slot1.SetActionCallBack
+
+		function slot3(slot0)
+			if slot0 == "FINISH" then
+				slot1 = slot0
+				slot1 = slot1.doorAni
+				slot2 = slot1
+				slot1 = slot1.SetActionCallBack
+				slot3 = nil
+
+				slot1(slot2, slot3)
+
+				slot1 = setActive
+				slot2 = slot0
+				slot2 = slot2.door
+				slot3 = false
+
+				slot1(slot2, slot3)
+
+				slot1 = slot0
+				slot2 = slot1
+				slot1 = slot1.showBlackBG
+				slot3 = true
+				slot4 = 0.1
+
+				slot1(slot2, slot3, slot4)
+
+				slot1 = setActive
+				slot2 = slot0
+				slot2 = slot2.doorLightBG
+				slot3 = false
+
+				slot1(slot2, slot3)
+
+				slot1 = slot1
+
+				slot1()
+			end
+
+			return
+		end
+
+		slot1(slot2, slot3)
+
+		slot1 = LeanTween
+		slot1 = slot1.delayedCall
+		slot2 = 2
+		slot3 = System
+		slot3 = slot3.Action
+
+		function slot4()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.showbgAdd
+			slot2 = false
+			slot3 = 2
+
+			slot0(slot1, slot2, slot3)
+
+			return
+		end
+
+		slot1(slot2, slot3(slot4))
+
+		slot1 = LeanTween
+		slot1 = slot1.alpha
+		slot2 = rtf
+		slot3 = slot0
+		slot3 = slot3.doorLightBG
+		slot2 = slot2(slot3)
+		slot3 = 1
+		slot4 = 2
+		slot1 = slot1(slot2, slot3, slot4)
+		slot2 = slot1
+		slot1 = slot1.setFrom
+		slot3 = 0
+
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.showBlackBG
+		slot3 = false
+		slot4 = 0.1
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = slot0
+		slot1 = slot1.doorAni
+		slot2 = slot1
+		slot1 = slot1.SetAction
+		slot3 = "OPEN"
+		slot4 = 0
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = playSoundEffect
+		slot2 = SFX_UI_DOOR
+
+		slot1(slot2)
 
 		return
 	end
+
+	slot2 = pg
+	slot2 = slot2.CriMgr
+	slot2 = slot2.GetInstance
+	slot2 = slot2()
+	slot3 = slot2
+	slot2 = slot2.PlayBGM
+	slot4 = "wedding"
+	slot5 = true
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = slot0.proposePanel
+
+	if not slot2 then
+		slot2 = "ProposeRingUI"
+		slot3 = PoolMgr
+		slot3 = slot3.GetInstance
+		slot3 = slot3()
+		slot4 = slot3
+		slot3 = slot3.GetUI
+		slot5 = slot2
+		slot6 = true
+
+		function slot7(slot0)
+			slot1 = pg
+			slot1 = slot1.UIMgr
+			slot2 = slot1
+			slot1 = slot1.GetInstance
+			slot1 = slot1(slot2)
+			slot2 = slot1
+			slot1 = slot1.LoadingOff
+
+			slot1(slot2)
+
+			slot1 = slot0
+			slot1 = slot1.exited
+
+			if slot1 then
+				slot1 = PoolMgr
+				slot1 = slot1.GetInstance
+				slot1 = slot1()
+				slot2 = slot1
+				slot1 = slot1.ReturnUI
+				slot3 = slot1
+				slot4 = slot0
+
+				slot1(slot2, slot3, slot4)
+
+				return
+			end
+
+			slot1 = slot0
+			slot2 = tf
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot1.proposePanel = slot2
+			slot1 = slot0
+			slot1 = slot1.weddingReview
+
+			if slot1 then
+				slot1 = slot0
+				slot1 = slot1.reviewSkinID
+
+				if not slot1 then
+					slot1 = slot0
+					slot1 = slot1.shipVO
+					slot1 = slot1.skinId
+				end
+			end
+
+			slot2 = slot0
+			slot3 = pg
+			slot3 = slot3.ship_skin_template
+			slot3 = slot3[slot1]
+			slot3 = slot3.hand_id
+			slot2.handId = slot3
+			slot2 = pg
+			slot2 = slot2.TimeMgr
+			slot2 = slot2.GetInstance
+			slot2 = slot2()
+			slot3 = slot2
+			slot2 = slot2.ServerTimeDesc
+			slot4 = "%Y%m%d"
+			slot2 = slot2(slot3, slot4)
+			slot3 = SPECIAL_PROPOSE
+
+			if slot3 then
+				slot3 = SPECIAL_PROPOSE
+				slot3 = slot3[1]
+
+				if slot3 == slot2 then
+					slot3 = ipairs
+					slot4 = SPECIAL_PROPOSE
+					slot4 = slot4[2]
+					slot3, slot4, slot5 = slot3(slot4)
+
+					for slot6, slot7 in slot3, slot4, slot5 do
+						slot8 = slot7[1]
+
+						if slot8 == slot1 then
+							slot8 = slot0
+							slot9 = slot7[2]
+							slot8.handId = slot9
+						end
+					end
+				end
+			end
+
+			slot3 = slot0
+			slot4 = "ProposeHand_"
+			slot5 = slot0
+			slot5 = slot5.handId
+			slot4 = slot4 .. slot5
+			slot3.handName = slot4
+			slot3 = PoolMgr
+			slot3 = slot3.GetInstance
+			slot3 = slot3()
+			slot4 = slot3
+			slot3 = slot3.GetUI
+			slot5 = slot0
+			slot5 = slot5.handName
+			slot6 = true
+
+			function slot7(slot0)
+				slot1 = slot0
+				slot2 = tf
+				slot3 = slot0
+				slot2 = slot2(slot3)
+				slot1.transHand = slot2
+				slot1 = setParent
+				slot2 = slot0
+				slot2 = slot2.transHand
+				slot3 = slot0
+				slot3 = slot3.proposePanel
+
+				slot1(slot2, slot3)
+
+				slot1 = slot0
+				slot2 = slot0
+				slot3 = slot2
+				slot2 = slot2.findTF
+				slot4 = "hand"
+				slot5 = slot0
+				slot5 = slot5.transHand
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.handTF = slot2
+				slot1 = slot0
+				slot2 = slot0
+				slot3 = slot2
+				slot2 = slot2.findTF
+				slot4 = "ring"
+				slot5 = slot0
+				slot5 = slot5.transHand
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.ringTF = slot2
+				slot1 = slot0
+				slot2 = slot0
+				slot2 = slot2.ringTF
+				slot3 = slot2
+				slot2 = slot2.GetComponent
+				slot4 = typeof
+				slot5 = Animator
+				slot2 = slot2(slot3, slot4(slot5))
+				slot1.ringAnim = slot2
+				slot1 = slot0
+				slot1 = slot1.ringAnim
+				slot2 = false
+				slot1.enabled = slot2
+				slot1 = slot0
+				slot2 = slot0
+				slot3 = slot2
+				slot2 = slot2.findTF
+				slot4 = "ring_light"
+				slot5 = slot0
+				slot5 = slot5.ringTF
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.ringLight = slot2
+				slot1 = slot0
+				slot2 = GetOrAddComponent
+				slot3 = slot0
+				slot3 = slot3.ringLight
+				slot4 = typeof
+				slot5 = CanvasGroup
+				slot2 = slot2(slot3, slot4(slot5))
+				slot1.ringLightCG = slot2
+				slot1 = slot0
+				slot2 = GetOrAddComponent
+				slot3 = slot0
+				slot3 = slot3.ringTF
+				slot4 = typeof
+				slot5 = CanvasGroup
+				slot2 = slot2(slot3, slot4(slot5))
+				slot1.ringCG = slot2
+
+				return
+			end
+
+			slot3(slot4, slot5, slot6, slot7)
+
+			slot3 = setParent
+			slot4 = tf
+			slot5 = slot0
+			slot4 = slot4(slot5)
+			slot5 = slot0
+			slot6 = slot5
+			slot5 = slot5.findTF
+			slot7 = "contain"
+
+			slot3(slot4, slot5(slot6, slot7))
+
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "ringBox"
+			slot7 = slot0
+			slot7 = slot7.proposePanel
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.ringBoxTF = slot4
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "full"
+			slot7 = slot0
+			slot7 = slot7.ringBoxTF
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.ringBoxFull = slot4
+			slot3 = slot0
+			slot4 = GetOrAddComponent
+			slot5 = slot0
+			slot5 = slot5.ringBoxTF
+			slot6 = typeof
+			slot7 = CanvasGroup
+			slot4 = slot4(slot5, slot6(slot7))
+			slot3.ringBoxCG = slot4
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "before"
+			slot7 = slot0
+			slot7 = slot7.proposePanel
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.churchBefore = slot4
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "light"
+			slot7 = slot0
+			slot7 = slot7.churchBefore
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.churchLight = slot4
+			slot3 = setParent
+			slot4 = slot0
+			slot4 = slot4.churchLight
+			slot5 = slot0
+			slot5 = slot5._tf
+
+			slot3(slot4, slot5)
+
+			slot3 = slot0
+			slot3 = slot3.churchLight
+			slot4 = slot3
+			slot3 = slot3.SetSiblingIndex
+			slot5 = 2
+
+			slot3(slot4, slot5)
+
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "blackbg"
+			slot7 = slot0
+			slot7 = slot7.churchBefore
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.blackBG = slot4
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "door_light"
+			slot7 = slot0
+			slot7 = slot7.churchBefore
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.doorLightBG = slot4
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "door"
+			slot7 = slot0
+			slot7 = slot7.churchBefore
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.door = slot4
+			slot3 = slot0
+			slot4 = GetOrAddComponent
+			slot5 = slot0
+			slot5 = slot5.door
+			slot6 = "SpineAnimUI"
+			slot4 = slot4(slot5, slot6)
+			slot3.doorAni = slot4
+			slot3 = setParent
+			slot4 = slot0
+			slot4 = slot4.churchBefore
+			slot5 = slot0
+			slot6 = slot5
+			slot5 = slot5.findTF
+			slot7 = "contain"
+
+			slot3(slot4, slot5(slot6, slot7))
+
+			slot3 = slot0
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "tip"
+			slot7 = slot0
+			slot7 = slot7.proposePanel
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.ringTipTF = slot4
+			slot3 = slot0
+			slot4 = GetOrAddComponent
+			slot5 = slot0
+			slot5 = slot5.ringTipTF
+			slot6 = typeof
+			slot7 = CanvasGroup
+			slot4 = slot4(slot5, slot6(slot7))
+			slot3.ringTipCG = slot4
+			slot3 = setText
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "Text"
+			slot7 = slot0
+			slot7 = slot7.ringTipTF
+			slot4 = slot4(slot5, slot6, slot7)
+			slot5 = i18n
+			slot6 = "word_propose_ring_tip"
+
+			slot3(slot4, slot5(slot6))
+
+			slot3 = setActive
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.findTF
+			slot6 = "finger"
+			slot7 = slot0
+			slot7 = slot7.ringTipTF
+			slot4 = slot4(slot5, slot6, slot7)
+			slot5 = false
+
+			slot3(slot4, slot5)
+
+			slot3 = onButton
+			slot4 = slot0
+			slot5 = slot0
+			slot5 = slot5.ringBoxTF
+
+			function slot6()
+				slot0 = slot0
+				slot0 = slot0.ringBoxClicked
+
+				if slot0 then
+					return
+				end
+
+				slot0 = slot0
+				slot1 = true
+				slot0.ringBoxClicked = slot1
+				slot0 = LeanTween
+				slot0 = slot0.alpha
+				slot1 = rtf
+				slot2 = slot0
+				slot2 = slot2.ringBoxFull
+				slot1 = slot1(slot2)
+				slot2 = 0
+				slot3 = 0.6
+				slot0 = slot0(slot1, slot2, slot3)
+				slot1 = slot0
+				slot0 = slot0.setOnComplete
+				slot2 = System
+				slot2 = slot2.Action
+
+				function slot3()
+					slot0 = LeanTween
+					slot0 = slot0.delayedCall
+					slot1 = 0.1
+					slot2 = System
+					slot2 = slot2.Action
+
+					function slot3()
+						slot0 = slot0
+						slot0 = slot0.ringAnim
+						slot1 = true
+						slot0.enabled = slot1
+						slot0 = slot0
+						slot0 = slot0.ringAnim
+						slot1 = slot0
+						slot0 = slot0.Play
+						slot2 = "movein"
+
+						slot0(slot1, slot2)
+
+						slot0 = LeanTween
+						slot0 = slot0.delayedCall
+						slot1 = 0.5
+						slot2 = System
+						slot2 = slot2.Action
+
+						function slot3()
+							slot0 = slot0
+							slot0 = slot0.ringAnim
+							slot1 = slot0
+							slot0 = slot0.Play
+							slot2 = "blink"
+
+							slot0(slot1, slot2)
+
+							slot0 = LeanTween
+							slot0 = slot0.alphaCanvas
+							slot1 = slot0
+							slot1 = slot1.ringTipCG
+							slot2 = 1
+							slot3 = 1.5
+							slot0 = slot0(slot1, slot2, slot3)
+							slot1 = slot0
+							slot0 = slot0.setFrom
+							slot2 = 0
+							slot0 = slot0(slot1, slot2)
+							slot1 = slot0
+							slot0 = slot0.setOnComplete
+							slot2 = System
+							slot2 = slot2.Action
+
+							function slot3()
+								slot0 = setActive
+								slot1 = slot0
+								slot2 = slot1
+								slot1 = slot1.findTF
+								slot3 = "finger"
+								slot4 = slot0
+								slot4 = slot4.ringTipTF
+								slot1 = slot1(slot2, slot3, slot4)
+								slot2 = true
+
+								slot0(slot1, slot2)
+
+								slot0 = slot0
+								slot1 = slot0
+								slot0 = slot0.enableRingDrag
+								slot2 = true
+
+								slot0(slot1, slot2)
+
+								return
+							end
+
+							slot0(slot1, slot2(slot3))
+
+							return
+						end
+
+						slot0(slot1, slot2(slot3))
+
+						return
+					end
+
+					slot0(slot1, slot2(slot3))
+
+					return
+				end
+
+				slot0(slot1, slot2(slot3))
+
+				return
+			end
+
+			slot3(slot4, slot5, slot6)
+
+			slot3 = LoadImageSpriteAsync
+			slot4 = slot0
+			slot4 = slot4.bgName
+			slot5 = slot0
+			slot5 = slot5.storybg
+
+			slot3(slot4, slot5)
+
+			slot3 = slot0
+			slot3 = slot3.storybg
+			slot4 = Vector3
+			slot5 = 1.2
+			slot6 = 1.2
+			slot7 = 1.2
+			slot4 = slot4(slot5, slot6, slot7)
+			slot3.localScale = slot4
+			slot3 = onNextTick
+
+			function slot4()
+				slot0 = slot0
+				slot0 = slot0.exited
+
+				if slot0 then
+					return
+				end
+
+				slot0 = slot1
+
+				slot0()
+
+				return
+			end
+
+			slot3(slot4)
+
+			return
+		end
+
+		slot3(slot4, slot5, slot6, slot7)
+
+		return
+	end
+
+	slot2 = slot1
 
 	slot2()
 end
 
-function slot0.TypeWriter(slot0)
-	slot0.inTypeWritter = true
-	slot0.typeWritterSpeedUp = 0.01
+slot0.showProposePanel = slot2
 
-	slot0.typeWriter:setSpeed(0.1)
-	slot0.typeWriter:Play()
+function slot2(slot0)
+	slot1 = slot0.isRingOn
 
-	function slot0.typeWriter.endFunc()
-		slot0.inTypeWritter = false
-		slot0.typeWritterSpeedUp = nil
+	if slot1 then
+		return
+	end
+
+	slot1 = setActive
+	slot2 = slot0.ringTipTF
+	slot3 = false
+
+	slot1(slot2, slot3)
+
+	slot1 = true
+	slot0.isRingOn = slot1
+	slot1 = slot0.ringTF
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = "DftAniEvent"
+	slot1 = slot1(slot2, slot3)
+	slot3 = slot1
+	slot2 = slot1.SetEndEvent
+
+	function slot4(slot0)
+		slot1 = slot0
+		slot1 = slot1.ringAnim
+		slot2 = false
+		slot1.enabled = slot2
+		slot1 = slot0
+		slot2 = false
+		slot1.isRingOn = slot2
+		slot1 = slot0
+		slot1 = slot1.weddingReview
+
+		if not slot1 then
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.emit
+			slot3 = ProposeMediator
+			slot3 = slot3.ON_PROPOSE
+			slot4 = slot0
+			slot4 = slot4.shipVO
+			slot4 = slot4.id
+
+			slot1(slot2, slot3, slot4)
+		else
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.RingFadeout
+
+			function slot3()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.displayShipWord
+				slot2 = "propose"
+
+				slot0(slot1, slot2)
+
+				return
+			end
+
+			slot1(slot2, slot3)
+		end
 
 		return
+	end
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.ringAnim
+	slot3 = true
+	slot2.enabled = slot3
+	slot2 = slot0.ringAnim
+	slot3 = slot2
+	slot2 = slot2.Play
+	slot4 = "wear"
+
+	slot2(slot3, slot4)
+
+	return
+end
+
+slot0.ringOn = slot2
+
+function slot2(slot0, slot1)
+	slot2 = slot0.press
+
+	if not slot2 then
+		slot3 = slot0
+		slot2 = slot0.addRingDragListenter
+
+		slot2(slot3)
+	end
+
+	slot2 = slot0.press
+	slot2.enabled = slot1
+
+	return
+end
+
+slot0.enableRingDrag = slot2
+
+function slot2(slot0)
+	slot1 = GetOrAddComponent
+	slot2 = slot0.proposePanel
+	slot3 = "EventTriggerListener"
+	slot1 = slot1(slot2, slot3)
+	slot0.press = slot1
+	slot1 = nil
+	slot2 = slot0.press
+	slot3 = slot2
+	slot2 = slot2.AddBeginDragFunc
+
+	function slot4()
+		return
+	end
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.press
+	slot3 = slot2
+	slot2 = slot2.AddDragFunc
+
+	function slot4(slot0, slot1)
+		slot2 = slot1.position
+		slot3 = slot0
+
+		if not slot3 then
+			slot0 = slot2
+		end
+
+		slot3 = slot2.y
+		slot4 = slot0
+		slot4 = slot4.y
+		slot3 = slot3 - slot4
+		slot4 = 100
+
+		if slot3 > slot4 then
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.setMask
+			slot5 = true
+
+			slot3(slot4, slot5)
+
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.ringOn
+
+			slot3(slot4)
+
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.enableRingDrag
+			slot5 = false
+
+			slot3(slot4, slot5)
+		end
+
+		return
+	end
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.press
+	slot3 = slot2
+	slot2 = slot2.AddDragEndFunc
+
+	function slot4(slot0, slot1)
+		return
+	end
+
+	slot2(slot3, slot4)
+
+	return
+end
+
+slot0.addRingDragListenter = slot2
+
+function slot2(slot0, slot1)
+	slot2 = LeanTween
+	slot2 = slot2.alphaCanvas
+	slot3 = slot0.ringLightCG
+	slot4 = 0.7
+	slot5 = 0.5
+	slot2 = slot2(slot3, slot4, slot5)
+	slot3 = slot2
+	slot2 = slot2.setFrom
+	slot4 = 0
+
+	slot2(slot3, slot4)
+
+	slot2 = LeanTween
+	slot2 = slot2.scale
+	slot3 = slot0.ringLight
+	slot4 = Vector3
+	slot5 = 8
+	slot6 = 8
+	slot7 = 8
+	slot4 = slot4(slot5, slot6, slot7)
+	slot5 = 1
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = LeanTween
+	slot2 = slot2.rotate
+	slot3 = slot0.ringLight
+	slot4 = 90
+	slot5 = 3
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = LeanTween
+	slot2 = slot2.delayedCall
+	slot3 = 3.5
+	slot4 = System
+	slot4 = slot4.Action
+
+	function slot5()
+		slot0 = slot0
+
+		if slot0 then
+			slot0 = slot0
+
+			slot0()
+		end
+
+		return
+	end
+
+	slot2(slot3, slot4(slot5))
+
+	slot2 = LeanTween
+	slot2 = slot2.delayedCall
+	slot3 = 1.2
+	slot4 = System
+	slot4 = slot4.Action
+
+	function slot5()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.showbgAdd
+		slot2 = false
+		slot3 = 1.8
+
+		slot0(slot1, slot2, slot3)
+
+		return
+	end
+
+	slot2(slot3, slot4(slot5))
+
+	slot2 = LeanTween
+	slot2 = slot2.delayedCall
+	slot3 = 3.2
+	slot4 = System
+	slot4 = slot4.Action
+
+	function slot5()
+		slot0 = setActive
+		slot1 = slot0
+		slot1 = slot1.proposePanel
+		slot2 = false
+
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.showbgAdd
+		slot2 = true
+		slot3 = 2
+
+		slot0(slot1, slot2, slot3)
+
+		return
+	end
+
+	slot2(slot3, slot4(slot5))
+
+	return
+end
+
+slot0.RingFadeout = slot2
+
+function slot2(slot0, slot1)
+	slot2 = ShipGroup
+	slot2 = slot2.getDefaultSkin
+	slot3 = slot0.shipGroupID
+	slot2 = slot2(slot3)
+	slot3 = Ship
+	slot3 = slot3.getWords
+	slot4 = slot2.id
+	slot5 = slot1
+	slot3, slot4, slot5 = slot3(slot4, slot5)
+	slot6 = nil
+	slot7 = slot0.reviewSkinID
+
+	if slot7 then
+		slot6 = slot0.reviewSkinID
+	else
+		slot7 = slot0.proposeSkin
+
+		if slot7 then
+			slot7 = slot0.proposeSkin
+			slot6 = slot7.id
+		else
+			slot7 = slot0.shipVO
+			slot6 = slot7.skinId
+		end
+	end
+
+	slot7 = Ship
+	slot7 = slot7.getCVCalibrate
+	slot8 = slot6
+	slot9 = slot1
+	slot7 = slot7(slot8, slot9)
+	slot9 = slot0
+	slot8 = slot0.showStoryUI
+	slot10 = slot3
+
+	slot8(slot9, slot10)
+
+	if slot4 then
+		function slot8()
+			slot0 = slot0
+			slot0 = slot0._currentVoice
+
+			if slot0 then
+				slot0 = slot0
+				slot0 = slot0._currentVoice
+				slot1 = slot0
+				slot0 = slot0.Stop
+				slot2 = true
+
+				slot0(slot1, slot2)
+			end
+
+			slot0 = slot0
+			slot1 = playSoundEffect
+			slot2 = slot1
+			slot1 = slot1(slot2)
+			slot0._currentVoice = slot1
+
+			return
+		end
+
+		slot9 = slot0.l2dChar
+
+		if slot9 and slot7 and slot7 ~= 0 then
+			slot9 = LeanTween
+			slot9 = slot9.delayedCall
+			slot10 = slot7
+			slot11 = System
+			slot11 = slot11.Action
+
+			function slot12()
+				slot0 = slot0
+
+				slot0()
+
+				slot0 = slot1
+				slot1 = nil
+				slot0._delayVoiceTweenID = slot1
+
+				return
+			end
+
+			slot9 = slot9(slot10, slot11(slot12))
+			slot10 = slot9.id
+			slot0._delayVoiceTweenID = slot10
+		else
+			slot9 = slot8
+
+			slot9()
+		end
 	end
 
 	return
 end
 
-function slot0.loadChar(slot0, slot1, slot2, slot3)
+slot0.displayShipWord = slot2
+
+function slot2(slot0, slot1)
+	function slot2()
+		slot0 = ResourceMgr
+		slot0 = slot0.Inst
+		slot1 = slot0
+		slot0 = slot0.AssetExist
+		slot2 = "live2d/"
+		slot3 = string
+		slot3 = slot3.lower
+		slot4 = slot0
+		slot4 = slot4.paintingName
+		slot3 = slot3(slot4)
+		slot2 = slot2 .. slot3
+		slot0 = slot0(slot1, slot2)
+
+		if slot0 then
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.showLive2D
+			slot2 = "wedding"
+
+			slot0(slot1, slot2)
+		else
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.showPainting
+			slot2 = true
+			slot3 = 2
+
+			slot0(slot1, slot2, slot3)
+		end
+
+		slot0 = ShipGroup
+		slot0 = slot0.getDefaultShipNameByGroupID
+		slot1 = slot0
+		slot1 = slot1.shipGroupID
+		slot0 = slot0(slot1)
+		slot1 = setText
+		slot2 = slot0
+		slot2 = slot2.targetNameTF
+		slot3 = slot2
+		slot2 = slot2.Find
+		slot4 = "Text"
+		slot2 = slot2(slot3, slot4)
+		slot3 = slot0
+
+		slot1(slot2, slot3)
+
+		slot1 = setText
+		slot2 = slot0
+		slot2 = slot2.storyContent
+		slot3 = ""
+
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot1 = slot1.storyCG
+		slot2 = 0
+		slot1.alpha = slot2
+		slot1 = setActive
+		slot2 = slot0
+		slot2 = slot2.storyTF
+		slot3 = true
+
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot2 = false
+		slot1.initStory = slot2
+		slot1 = LeanTween
+		slot1 = slot1.alphaCanvas
+		slot2 = slot0
+		slot2 = slot2.storyCG
+		slot3 = 1
+		slot4 = 1
+		slot1 = slot1(slot2, slot3, slot4)
+		slot2 = slot1
+		slot1 = slot1.setFrom
+		slot3 = 0
+		slot1 = slot1(slot2, slot3)
+		slot2 = slot1
+		slot1 = slot1.setDelay
+		slot3 = 1
+		slot1 = slot1(slot2, slot3)
+		slot2 = slot1
+		slot1 = slot1.setOnComplete
+		slot3 = System
+		slot3 = slot3.Action
+
+		function slot4()
+			slot0 = findTF
+			slot1 = slot0
+			slot1 = slot1.targetActorTF
+			slot2 = "fitter"
+			slot0 = slot0(slot1, slot2)
+			slot0 = slot0.childCount
+			slot1 = 0
+
+			if slot0 > slot1 then
+				slot0 = Ship
+				slot0 = slot0.SetExpression
+				slot1 = findTF
+				slot2 = slot0
+				slot2 = slot2.targetActorTF
+				slot3 = "fitter"
+				slot1 = slot1(slot2, slot3)
+				slot2 = slot1
+				slot1 = slot1.GetChild
+				slot3 = 0
+				slot1 = slot1(slot2, slot3)
+				slot2 = slot0
+				slot2 = slot2.paintingName
+				slot3 = "propose"
+
+				slot0(slot1, slot2, slot3)
+			end
+
+			slot0 = setText
+			slot1 = slot0
+			slot1 = slot1.storyContent
+			slot2 = slot1
+
+			slot0(slot1, slot2)
+
+			slot0 = slot0
+			slot1 = true
+			slot0.onWords = slot1
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.TypeWriter
+
+			slot0(slot1)
+
+			slot0 = slot0
+			slot1 = true
+			slot0.initStory = slot1
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.setMask
+			slot2 = false
+
+			slot0(slot1, slot2)
+
+			slot0 = slot0
+			slot0 = slot0.weddingReview
+
+			if not slot0 then
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.showTip
+
+				slot0(slot1)
+			end
+
+			return
+		end
+
+		slot1(slot2, slot3(slot4))
+
+		return
+	end
+
+	slot3 = slot0.storyTF
+
+	if not slot3 then
+		slot3 = "ProposeStoryUI"
+		slot4 = PoolMgr
+		slot4 = slot4.GetInstance
+		slot4 = slot4()
+		slot5 = slot4
+		slot4 = slot4.GetUI
+		slot6 = slot3
+		slot7 = true
+
+		function slot8(slot0)
+			slot1 = pg
+			slot1 = slot1.UIMgr
+			slot2 = slot1
+			slot1 = slot1.GetInstance
+			slot1 = slot1(slot2)
+			slot2 = slot1
+			slot1 = slot1.LoadingOff
+
+			slot1(slot2)
+
+			slot1 = slot0
+			slot1 = slot1.exited
+
+			if slot1 then
+				slot1 = PoolMgr
+				slot1 = slot1.GetInstance
+				slot1 = slot1()
+				slot2 = slot1
+				slot1 = slot1.ReturnUI
+				slot3 = slot1
+				slot4 = slot0
+
+				slot1(slot2, slot3, slot4)
+
+				return
+			end
+
+			slot1 = slot0
+			slot2 = tf
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot1.storyTF = slot2
+			slot1 = setParent
+			slot2 = tf
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot3 = slot0
+			slot4 = slot3
+			slot3 = slot3.findTF
+			slot5 = "contain"
+
+			slot1(slot2, slot3(slot4, slot5))
+
+			slot1 = slot0
+			slot2 = GetOrAddComponent
+			slot3 = slot0
+			slot3 = slot3.storyTF
+			slot4 = typeof
+			slot5 = CanvasGroup
+			slot2 = slot2(slot3, slot4(slot5))
+			slot1.storyCG = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "dialogue/main/content"
+			slot5 = slot0
+			slot5 = slot5.storyTF
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.storyContent = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot2 = slot2.storyContent
+			slot3 = slot2
+			slot2 = slot2.GetComponent
+			slot4 = typeof
+			slot5 = Typewriter
+			slot2 = slot2(slot3, slot4(slot5))
+			slot1.typeWriter = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "dialogue/main/name_left"
+			slot5 = slot0
+			slot5 = slot5.storyTF
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1.targetNameTF = slot2
+			slot1 = slot0
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.findTF
+			slot4 = "changeName_panel"
+			slot5 = slot0
+			slot5 = slot5.storyTF
+			slot2 = slot2(slot3, slot4, slot5)
+			slot1._renamePanel = slot2
+			slot1 = setActive
+			slot2 = slot0
+			slot2 = slot2._renamePanel
+			slot3 = false
+
+			slot1(slot2, slot3)
+
+			slot1 = onButton
+			slot2 = slot0
+			slot3 = slot0
+			slot3 = slot3.storyTF
+
+			function slot4()
+				slot0 = slot0
+				slot0 = slot0.inTypeWritter
+
+				if slot0 then
+					slot0 = slot0
+					slot0 = slot0.typeWriter
+					slot1 = slot0
+					slot0 = slot0.setSpeed
+					slot2 = slot0
+					slot2 = slot2.typeWritterSpeedUp
+
+					slot0(slot1, slot2)
+
+					return
+				end
+
+				slot0 = slot0
+				slot0 = slot0.initStory
+
+				if not slot0 then
+					return
+				end
+
+				slot0 = LeanTween
+				slot0 = slot0.alphaCanvas
+				slot1 = slot0
+				slot1 = slot1.storyCG
+				slot2 = 0
+				slot3 = 1
+				slot0 = slot0(slot1, slot2, slot3)
+				slot1 = slot0
+				slot0 = slot0.setFrom
+				slot2 = 1
+				slot0 = slot0(slot1, slot2)
+				slot1 = slot0
+				slot0 = slot0.setOnComplete
+				slot2 = System
+				slot2 = slot2.Action
+
+				function slot3()
+					slot0 = setActive
+					slot1 = slot0
+					slot1 = slot1.storyTF
+					slot2 = false
+
+					slot0(slot1, slot2)
+
+					return
+				end
+
+				slot0(slot1, slot2(slot3))
+
+				slot0 = slot0
+				slot0 = slot0._currentVoice
+
+				if slot0 then
+					slot0 = slot0
+					slot0 = slot0._currentVoice
+					slot1 = slot0
+					slot0 = slot0.Stop
+					slot2 = true
+
+					slot0(slot1, slot2)
+				end
+
+				slot0 = slot0
+				slot1 = nil
+				slot0._currentVoice = slot1
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.setMask
+				slot2 = true
+
+				slot0(slot1, slot2)
+
+				slot0 = LeanTween
+				slot0 = slot0.delayedCall
+				slot1 = 0.5
+				slot2 = System
+				slot2 = slot2.Action
+
+				function slot3()
+					slot0 = slot0
+					slot0 = slot0.weddingReview
+
+					if slot0 then
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.close
+
+						slot0(slot1)
+					else
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.initChangeNamePanel
+
+						slot0(slot1)
+
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.stampWindow
+
+						slot0(slot1)
+					end
+
+					return
+				end
+
+				slot0(slot1, slot2(slot3))
+
+				return
+			end
+
+			slot1(slot2, slot3, slot4)
+
+			slot1 = onNextTick
+
+			function slot2()
+				slot0 = slot0
+				slot0 = slot0.exited
+
+				if slot0 then
+					return
+				end
+
+				slot0 = slot1
+
+				slot0()
+
+				return
+			end
+
+			slot1(slot2)
+
+			slot1 = slot0
+			slot2 = true
+			slot1.loadFinish = slot2
+
+			return
+		end
+
+		slot4(slot5, slot6, slot7, slot8)
+
+		return
+	end
+
+	slot3 = slot2
+
+	slot3()
+end
+
+slot0.showStoryUI = slot2
+
+function slot2(slot0)
+	slot1 = 0.1
+	slot2 = true
+	slot0.inTypeWritter = slot2
+	slot2 = 0.01
+	slot0.typeWritterSpeedUp = slot2
+	slot2 = slot0.typeWriter
+	slot3 = slot2
+	slot2 = slot2.setSpeed
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.typeWriter
+	slot3 = slot2
+	slot2 = slot2.Play
+
+	slot2(slot3)
+
+	slot2 = slot0.typeWriter
+
+	function slot3()
+		slot0 = slot0
+		slot1 = false
+		slot0.inTypeWritter = slot1
+		slot0 = slot0
+		slot1 = nil
+		slot0.typeWritterSpeedUp = slot1
+
+		return
+	end
+
+	slot2.endFunc = slot3
+
+	return
+end
+
+slot0.TypeWriter = slot2
+
+function slot2(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot1 = slot0._paintingTF
 	end
@@ -942,198 +3425,666 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 	end
 
 	function slot4()
-		if not IsNil(IsNil) then
-			slot1 = GetOrAddComponent(slot0, "PaintingScaler")
-			slot1.FrameName = slot1
-			slot1.Tween = 1
+		slot0 = IsNil
+		slot1 = slot0
+		slot0 = slot0(slot1)
 
-			setParent(slot2.actorPainting, findTF(findTF, "fitter"))
+		if not slot0 then
+			slot0 = findTF
+			slot1 = slot0
+			slot2 = "fitter"
+			slot0 = slot0(slot1, slot2)
+			slot1 = GetOrAddComponent
+			slot2 = slot0
+			slot3 = "PaintingScaler"
+			slot1 = slot1(slot2, slot3)
+			slot2 = slot1
+			slot1.FrameName = slot2
+			slot2 = 1
+			slot1.Tween = slot2
+			slot2 = setParent
+			slot3 = slot2
+			slot3 = slot3.actorPainting
+			slot4 = slot0
+
+			slot2(slot3, slot4)
 		end
 
 		return
 	end
 
-	if not slot0.actorPainting then
-		if slot0.reviewSkinID then
-			slot0.paintingName = pg.ship_skin_template[slot0.reviewSkinID].painting
+	slot5 = slot0.actorPainting
 
-			if HXSet.isHx() and pg.ship_skin_template[slot0.reviewSkinID].painting_hx ~= "" then
-				slot0.paintingName = pg.ship_skin_template[slot0.reviewSkinID].painting_hx
+	if not slot5 then
+		slot5 = slot0.reviewSkinID
+
+		if slot5 then
+			slot5 = pg
+			slot5 = slot5.ship_skin_template
+			slot6 = slot0.reviewSkinID
+			slot5 = slot5[slot6]
+			slot5 = slot5.painting
+			slot0.paintingName = slot5
+			slot5 = HXSet
+			slot5 = slot5.isHx
+			slot5 = slot5()
+
+			if slot5 then
+				slot5 = pg
+				slot5 = slot5.ship_skin_template
+				slot6 = slot0.reviewSkinID
+				slot5 = slot5[slot6]
+				slot5 = slot5.painting_hx
+
+				if slot5 ~= "" then
+					slot5 = pg
+					slot5 = slot5.ship_skin_template
+					slot6 = slot0.reviewSkinID
+					slot5 = slot5[slot6]
+					slot5 = slot5.painting_hx
+					slot0.paintingName = slot5
+				end
 			end
 		else
-			if slot0.proposeSkin then
-				slot0.paintingName = slot0.proposeSkin.painting
+			slot5 = slot0.proposeSkin
+
+			if slot5 then
+				slot5 = slot0.proposeSkin
+				slot5 = slot5.painting
+				slot0.paintingName = slot5
 			else
-				slot0.paintingName = slot0.shipVO:getPainting()
+				slot5 = slot0.shipVO
+				slot6 = slot5
+				slot5 = slot5.getPainting
+				slot5 = slot5(slot6)
+				slot0.paintingName = slot5
 			end
 		end
 
-		PoolMgr.GetInstance():GetPainting(slot0.paintingName, true, function (slot0)
-			if not IsNil(findTF(slot0, "Touch")) then
-				setActive(slot1, false)
+		slot5 = PoolMgr
+		slot5 = slot5.GetInstance
+		slot5 = slot5()
+		slot6 = slot5
+		slot5 = slot5.GetPainting
+		slot7 = slot0.paintingName
+		slot8 = true
+
+		function slot9(slot0)
+			slot1 = findTF
+			slot2 = slot0
+			slot3 = "Touch"
+			slot1 = slot1(slot2, slot3)
+			slot2 = IsNil
+			slot3 = slot1
+			slot2 = slot2(slot3)
+
+			if not slot2 then
+				slot2 = setActive
+				slot3 = slot1
+				slot4 = false
+
+				slot2(slot3, slot4)
 			end
 
-			if findTF(slot0, "hx") then
-				setActive(slot2, HXSet.isHx())
-			end
-
-			slot0.actorPainting = slot0
-
-			slot1()
+			slot2 = findTF
+			slot3 = slot0
+			slot4 = "hx"
+			slot2 = slot2(slot3, slot4)
 
 			if slot2 then
-				slot2()
+				slot3 = setActive
+				slot4 = slot2
+				slot5 = HXSet
+				slot5 = slot5.isHx
+
+				slot3(slot4, slot5())
+			end
+
+			slot3 = slot0
+			slot3.actorPainting = slot0
+			slot3 = slot1
+
+			slot3()
+
+			slot3 = slot2
+
+			if slot3 then
+				slot3 = slot2
+
+				slot3()
 			end
 
 			return
-		end)
+		end
 
-		if ResourceMgr.Inst:AssetExist("live2d/" .. string.lower(slot0.paintingName)) then
-			slot0:createLive2D(slot0.paintingName)
+		slot5(slot6, slot7, slot8, slot9)
+
+		slot5 = ResourceMgr
+		slot5 = slot5.Inst
+		slot6 = slot5
+		slot5 = slot5.AssetExist
+		slot7 = "live2d/"
+		slot8 = string
+		slot8 = slot8.lower
+		slot9 = slot0.paintingName
+		slot8 = slot8(slot9)
+		slot7 = slot7 .. slot8
+		slot5 = slot5(slot6, slot7)
+
+		if slot5 then
+			slot6 = slot0
+			slot5 = slot0.createLive2D
+			slot7 = slot0.paintingName
+
+			slot5(slot6, slot7)
 		end
 	else
-		slot4()
+		slot5 = slot4
+
+		slot5()
 	end
 
 	return
 end
 
-function slot0.createLive2D(slot0, slot1)
-	pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot1, function (slot0)
-		if slot0.exited then
-			Destroy(slot0)
+slot0.loadChar = slot2
+
+function slot2(slot0, slot1)
+	slot2 = pg
+	slot2 = slot2.Live2DMgr
+	slot2 = slot2.GetInstance
+	slot2 = slot2()
+	slot3 = slot2
+	slot2 = slot2.GetLive2DModelAsync
+	slot4 = slot1
+
+	function slot5(slot0)
+		slot1 = slot0
+		slot1 = slot1.exited
+
+		if slot1 then
+			slot1 = Destroy
+			slot2 = slot0
+
+			slot1(slot2)
 
 			return
 		end
 
-		UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
-		slot0.transform.SetParent(slot2, slot0:findTF("live2d", slot0.targetActorTF), true)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.findTF
+		slot3 = "live2d"
+		slot4 = slot0
+		slot4 = slot4.targetActorTF
+		slot1 = slot1(slot2, slot3, slot4)
+		slot2 = UIUtil
+		slot2 = slot2.SetLayerRecursively
+		slot3 = slot0
+		slot4 = LayerMask
+		slot4 = slot4.NameToLayer
+		slot5 = "UI"
+
+		slot2(slot3, slot4(slot5))
+
+		slot2 = slot0.transform
+		slot4 = slot2
+		slot3 = slot2.SetParent
+		slot5 = slot1
+		slot6 = true
+
+		slot3(slot4, slot5, slot6)
 
 		slot3 = nil
+		slot4 = slot0
+		slot4 = slot4.reviewSkinID
 
-		if slot0.reviewSkinID then
-			slot3 = slot0.reviewSkinID
+		if slot4 then
+			slot4 = slot0
+			slot3 = slot4.reviewSkinID
 		else
-			if slot0.proposeSkin then
-				slot3 = slot0.proposeSkin.id
+			slot4 = slot0
+			slot4 = slot4.proposeSkin
+
+			if slot4 then
+				slot4 = slot0
+				slot4 = slot4.proposeSkin
+				slot3 = slot4.id
 			else
-				slot3 = slot0.shipVO.skinId
+				slot4 = slot0
+				slot4 = slot4.shipVO
+				slot3 = slot4.skinId
 			end
 		end
 
-		slot2.localPosition = BuildVector3(pg.ship_skin_template[slot3].live2d_offset) + Vector3(0, 0, 100)
-		slot2.localScale = Vector3.Scale(Vector3(1, 1, 10), slot2.localScale)
-		slot0.l2dChar = GetComponent(slot0, "Live2dChar")
-		slot0.l2dChar.name = slot1
+		slot4 = BuildVector3
+		slot5 = pg
+		slot5 = slot5.ship_skin_template
+		slot5 = slot5[slot3]
+		slot5 = slot5.live2d_offset
+		slot4 = slot4(slot5)
+		slot5 = Vector3
+		slot6 = 0
+		slot7 = 0
+		slot8 = 100
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4 = slot4 + slot5
+		slot2.localPosition = slot4
+		slot4 = Vector3
+		slot4 = slot4.Scale
+		slot5 = Vector3
+		slot6 = 1
+		slot7 = 1
+		slot8 = 10
+		slot5 = slot5(slot6, slot7, slot8)
+		slot6 = slot2.localScale
+		slot4 = slot4(slot5, slot6)
+		slot2.localScale = slot4
+		slot4 = slot0
+		slot5 = GetComponent
+		slot6 = slot0
+		slot7 = "Live2dChar"
+		slot5 = slot5(slot6, slot7)
+		slot4.l2dChar = slot5
+		slot4 = slot0
+		slot4 = slot4.l2dChar
+		slot5 = slot1
+		slot4.name = slot5
+		slot4 = pg
+		slot4 = slot4.AssistantInfo
+		slot4 = slot4.action2Id
+		slot4 = slot4.idle
+		slot5 = slot0
+		slot5 = slot5.l2dChar
 
-		function slot0.l2dChar.FinishAction(slot0)
-			if slot0 ~= slot0 then
-				slot1.l2dChar:SetAction(slot0)
+		function slot6(slot0)
+			slot1 = slot0
+
+			if slot1 ~= slot0 then
+				slot1 = slot1
+				slot1 = slot1.l2dChar
+				slot2 = slot1
+				slot1 = slot1.SetAction
+				slot3 = slot0
+
+				slot1(slot2, slot3)
 			end
 
 			return
 		end
 
-		slot0.l2dChar:SetAction(pg.AssistantInfo.action2Id.idle)
+		slot5.FinishAction = slot6
+		slot5 = slot0
+		slot5 = slot5.l2dChar
+		slot6 = slot5
+		slot5 = slot5.SetAction
+		slot7 = slot4
 
-		if CSharpVersion > 18 then
-			slot7 = pg.ship_skin_template[slot3].lip_smoothing
+		slot5(slot6, slot7)
 
-			if pg.ship_skin_template[slot3].lip_sync_gain and slot6 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot6
+		slot5 = CSharpVersion
+		slot6 = 18
+
+		if slot5 > slot6 then
+			slot5 = pg
+			slot5 = slot5.ship_skin_template
+			slot5 = slot5[slot3]
+			slot6 = slot5.lip_sync_gain
+			slot7 = slot5.lip_smoothing
+
+			if slot6 and slot6 ~= 0 then
+				slot9 = slot1
+				slot8 = slot1.GetChild
+				slot10 = 0
+				slot8 = slot8(slot9, slot10)
+				slot9 = slot8
+				slot8 = slot8.GetComponent
+				slot10 = "CubismCriSrcMouthInput"
+				slot8 = slot8(slot9, slot10)
+				slot8.Gain = slot6
 			end
 
 			if slot7 and slot7 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot7
+				slot9 = slot1
+				slot8 = slot1.GetChild
+				slot10 = 0
+				slot8 = slot8(slot9, slot10)
+				slot9 = slot8
+				slot8 = slot8.GetComponent
+				slot10 = "CubismCriSrcMouthInput"
+				slot8 = slot8(slot9, slot10)
+				slot8.Smoothing = slot7
 			end
 		end
 
 		return
-	end)
+	end
+
+	slot2(slot3, slot4, slot5)
 
 	return
 end
 
-function slot0.showTip(slot0)
-	if not slot0.proposeSkin then
+slot0.createLive2D = slot2
+
+function slot2(slot0)
+	slot1 = slot0.proposeSkin
+
+	if not slot1 then
 		return
 	end
 
-	slot2 = slot0:findTF("tip", slot0.storyTF)
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "tip"
+	slot5 = slot0.storyTF
+	slot2 = slot2(slot3, slot4, slot5)
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "Text"
+	slot6 = slot2
+	slot3 = slot3(slot4, slot5, slot6)
+	slot4 = setText
+	slot5 = slot3
+	slot6 = i18n
+	slot7 = "achieve_propose_tip"
+	slot8 = slot1.name
 
-	setText(slot3, i18n("achieve_propose_tip", slot1.name))
+	slot4(slot5, slot6(slot7, slot8))
 
-	slot4 = GetOrAddComponent(slot2, typeof(CanvasGroup))
+	slot4 = GetOrAddComponent
+	slot5 = slot2
+	slot6 = typeof
+	slot7 = CanvasGroup
+	slot4 = slot4(slot5, slot6(slot7))
+	slot5 = setActive
+	slot6 = slot2
+	slot7 = true
 
-	setActive(slot2, true)
-	LeanTween.value(go(slot2), 0, 1, 0.01):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	slot5(slot6, slot7)
 
-		return
-	end))
-	LeanTween.value(go(slot2), 1, 0, 1.5):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	slot5 = LeanTween
+	slot5 = slot5.alphaCanvas
+	slot6 = slot4
+	slot7 = 1
+	slot8 = 0.01
+	slot5 = slot5(slot6, slot7, slot8)
+	slot6 = slot5
+	slot5 = slot5.setFrom
+	slot7 = 0
 
-		return
-	end)):setDelay(4)
+	slot5(slot6, slot7)
+
+	slot5 = LeanTween
+	slot5 = slot5.alphaCanvas
+	slot6 = slot4
+	slot7 = 0
+	slot8 = 1.5
+	slot5 = slot5(slot6, slot7, slot8)
+	slot6 = slot5
+	slot5 = slot5.setFrom
+	slot7 = 1
+	slot5 = slot5(slot6, slot7)
+	slot6 = slot5
+	slot5 = slot5.setDelay
+	slot7 = 4
+
+	slot5(slot6, slot7)
 
 	return
 end
 
-function slot0.initChangeNamePanel(slot0)
-	setText(slot0._renamePanel:Find("frame/border/title"), i18n("word_propose_changename_title", slot0.shipVO:getName()))
-	setText(slot0._renamePanel:Find("frame/setting_ship_name/text"), i18n("word_propose_changename_tip1"))
-	setText(slot0._renamePanel:Find("frame/text"), i18n("word_propose_changename_tip2"))
+slot0.showTip = slot2
 
-	slot0._renameConfirmBtn = slot0._renamePanel:Find("frame/queren")
-	slot0._renameCancelBtn = slot0._renamePanel:Find("frame/cancel")
-	slot0._renameToggle = findTF(slot0._renamePanel, "frame/setting_ship_name"):GetComponent(typeof(Toggle))
-	slot0._renameRevert = slot0._renamePanel:Find("frame/revert_button")
-	slot0._closeBtn = slot0._renamePanel:Find("frame/top/btnBack")
+function slot2(slot0)
+	slot1 = setText
+	slot2 = slot0._renamePanel
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "frame/border/title"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_propose_changename_title"
+	slot5 = slot0.shipVO
+	slot6 = slot5
+	slot5 = slot5.getName
 
-	onButton(slot0, slot0._renameConfirmBtn, function ()
-		slot0 = getInputText(findTF(slot0._renamePanel, "frame/name_field"))
+	slot1(slot2, slot3(slot4, slot5(slot6)))
 
-		pg.PushNotificationMgr.GetInstance():setSwitchShipName(slot0._renameToggle.isOn)
-		slot0:emit(ProposeMediator.RENAME_SHIP, slot0.shipVO.id, slot0)
+	slot1 = setText
+	slot2 = slot0._renamePanel
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "frame/setting_ship_name/text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_propose_changename_tip1"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot2 = slot0._renamePanel
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "frame/text"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_propose_changename_tip2"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = slot0._renamePanel
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "frame/queren"
+	slot1 = slot1(slot2, slot3)
+	slot0._renameConfirmBtn = slot1
+	slot1 = slot0._renamePanel
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "frame/cancel"
+	slot1 = slot1(slot2, slot3)
+	slot0._renameCancelBtn = slot1
+	slot1 = findTF
+	slot2 = slot0._renamePanel
+	slot3 = "frame/setting_ship_name"
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = Toggle
+	slot1 = slot1(slot2, slot3(slot4))
+	slot0._renameToggle = slot1
+	slot1 = slot0._renamePanel
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "frame/revert_button"
+	slot1 = slot1(slot2, slot3)
+	slot0._renameRevert = slot1
+	slot1 = slot0._renamePanel
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "frame/close_btn"
+	slot1 = slot1(slot2, slot3)
+	slot0._closeBtn = slot1
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0._renameConfirmBtn
+
+	function slot4()
+		slot0 = getInputText
+		slot1 = findTF
+		slot2 = slot0
+		slot2 = slot2._renamePanel
+		slot3 = "frame/name_field"
+		slot0 = slot0(slot1(slot2, slot3))
+		slot1 = pg
+		slot1 = slot1.PushNotificationMgr
+		slot1 = slot1.GetInstance
+		slot1 = slot1()
+		slot2 = slot1
+		slot1 = slot1.setSwitchShipName
+		slot3 = slot0
+		slot3 = slot3._renameToggle
+		slot3 = slot3.isOn
+
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.emit
+		slot3 = ProposeMediator
+		slot3 = slot3.RENAME_SHIP
+		slot4 = slot0
+		slot4 = slot4.shipVO
+		slot4 = slot4.id
+		slot5 = slot0
+
+		slot1(slot2, slot3, slot4, slot5)
 
 		return
-	end, SFX_CONFIRM)
-	onButton(slot0, slot0._renameRevert, function ()
-		if not slot0.shipVO:isRemoulded() or not HXSet.hxLan(pg.ship_skin_template[slot0.shipVO:getRemouldSkinId()].name) then
-			slot0 = pg.ship_data_statistics[slot0.shipVO.configId].name
+	end
+
+	slot5 = SFX_CONFIRM
+
+	slot1(slot2, slot3, slot4, slot5)
+
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0._renameRevert
+
+	function slot4()
+		slot0 = slot0
+		slot0 = slot0.shipVO
+		slot1 = slot0
+		slot0 = slot0.isRemoulded
+		slot0 = slot0(slot1)
+
+		if slot0 then
+			slot0 = HXSet
+			slot0 = slot0.hxLan
+			slot1 = pg
+			slot1 = slot1.ship_skin_template
+			slot2 = slot0
+			slot2 = slot2.shipVO
+			slot3 = slot2
+			slot2 = slot2.getRemouldSkinId
+			slot2 = slot2(slot3)
+			slot1 = slot1[slot2]
+			slot1 = slot1.name
+			slot0 = slot0(slot1)
+
+			if not slot0 then
+				slot0 = pg
+				slot0 = slot0.ship_data_statistics
+				slot1 = slot0
+				slot1 = slot1.shipVO
+				slot1 = slot1.configId
+				slot0 = slot0[slot1]
+				slot0 = slot0.name
+			end
 		end
 
-		setInputText(findTF(slot0._renamePanel, "frame/name_field"), slot0)
+		slot1 = setInputText
+		slot2 = findTF
+		slot3 = slot0
+		slot3 = slot3._renamePanel
+		slot4 = "frame/name_field"
+		slot2 = slot2(slot3, slot4)
+		slot3 = slot0
+
+		slot1(slot2, slot3)
 
 		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0._renameCancelBtn, function ()
-		slot0:close()
+	end
+
+	slot5 = SFX_PANEL
+
+	slot1(slot2, slot3, slot4, slot5)
+
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0._renameCancelBtn
+
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.close
+
+		slot0(slot1)
 
 		return
-	end, SFX_CANCEL)
-	onButton(slot0, slot0._closeBtn, function ()
-		slot0:close()
+	end
+
+	slot5 = SFX_CANCEL
+
+	slot1(slot2, slot3, slot4, slot5)
+
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0._closeBtn
+
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.close
+
+		slot0(slot1)
 
 		return
-	end, SFX_CANCEL)
+	end
+
+	slot5 = SFX_CANCEL
+
+	slot1(slot2, slot3, slot4, slot5)
 
 	return
 end
 
-function slot0.close(slot0)
-	slot0:emit(slot0.ON_CLOSE)
+slot0.initChangeNamePanel = slot2
+
+function slot2(slot0)
+	slot2 = slot0
+	slot1 = slot0.emit
+	slot3 = slot0
+	slot3 = slot3.ON_CLOSE
+
+	slot1(slot2, slot3)
 
 	return
 end
 
-function slot0.DisplayRenamePanel(slot0)
-	setParent(slot0._renamePanel, slot0._tf)
-	setActive(slot0._renamePanel, true)
-	setInputText(findTF(slot0._renamePanel, "frame/name_field"), slot0.shipVO:getName())
+slot0.close = slot2
+
+function slot2(slot0)
+	slot1 = setParent
+	slot2 = slot0._renamePanel
+	slot3 = slot0._tf
+
+	slot1(slot2, slot3)
+
+	slot1 = setActive
+	slot2 = slot0._renamePanel
+	slot3 = true
+
+	slot1(slot2, slot3)
+
+	slot1 = slot0.shipVO
+	slot2 = slot1
+	slot1 = slot1.getName
+	slot1 = slot1(slot2)
+	slot2 = setInputText
+	slot3 = findTF
+	slot4 = slot0._renamePanel
+	slot5 = "frame/name_field"
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot1
+
+	slot2(slot3, slot4)
 
 	return
 end
+
+slot0.DisplayRenamePanel = slot2
 
 return slot0

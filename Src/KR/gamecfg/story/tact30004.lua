@@ -6,7 +6,7 @@ return {
 		{
 			actor = 204030,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "想不到会败在这里……咕……对不起，指挥官，胡德可能……",
 			shake = {
 				speed = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "哎呀，适当的幽默是淑女理应掌握的让生活充满乐趣的技巧哦？",
 			shake = {
 				speed = 1,
@@ -81,7 +81,7 @@ return {
 			actor = 205060,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "去吧……黑暗界，我们原本就是在追赶我们宿命的对手途中",
 			shake = {
 				speed = 1,
@@ -99,7 +99,7 @@ return {
 		{
 			actor = 213011,
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "……?",
 			shake = {
 				speed = 1,
@@ -117,7 +117,7 @@ return {
 		{
 			actor = 204030,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "「不幸啊，尊贵的皇家竟要败于铁血」",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			actor = 205060,
 			side = 0,
 			say = "「便是因为先后出发的差距——」",
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -149,7 +149,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "「可憎啊，先来的要被后来者超越」",
 			typewriter = {
 				speed = 0.05,
@@ -163,7 +163,7 @@ return {
 		{
 			actor = 205060,
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "「或者因为听信了同僚的谗言——」",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "所以带上皇家的荣耀",
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 		{
 			actor = 205060,
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "与这颗向往巧克力的心",
 			typewriter = {
 				speed = 0.05,
@@ -208,13 +208,13 @@ return {
 			actorName = "胡德&威尔士亲王",
 			actor = 204030,
 			hideOther = true,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "超越铁血，取得最后的胜利吧！",
 			subActors = {
 				{
 					actor = 205060,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -230,7 +230,7 @@ return {
 		{
 			actor = 213011,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "哦，哦……",
 			shake = {
 				speed = 1,

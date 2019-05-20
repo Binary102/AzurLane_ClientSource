@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"스위티 콩코드\n\n<size=30>당분 보급 연대?</size>",
+					"스위티 콩코드\n\n<size=45>당분 보급 연대?</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 101290,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "방에 달콤한 향기가 한가득~ 됭케르크씨의 방, 굉장해!",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 101290,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "물론 이 사탕도 그렇고 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "많이 기다렸지, 오늘은 좀 독특한 스타일로 만들어봤어.",
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오늘 디저트는 어때? 입맛에 맞으면 좋겠는데…",
 			flashout = {
 				dur = 0.5,
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 101290,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마카롱은 역시 됭케르크씨가 만든 게 최고야!",
 			typewriter = {
 				speed = 0.05,
@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 하아……",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마, 맛있어 (오물오물)",
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 마카롱은 이제 질렸어…",
 			typewriter = {
 				speed = 0.05,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 나, 역시 마카롱 같은 디저트보단 크림이 듬뿍 들어간 게 더……",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관? 아, 아무것도 아냐, 헤헤헤",
 			typewriter = {
 				speed = 0.05,
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 하아……",
 			typewriter = {
 				speed = 0.05,

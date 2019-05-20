@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			say = "카가!!",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아마기?! 어째서 여기에?!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -71,7 +71,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -165,7 +165,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -181,7 +181,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -198,7 +198,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "여기 오기 전에 나가토님께 부탁했습니다.",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "모항에 돌아와 한 번 더 싸워 자신의 힘을 보여주면, 처분이 바뀔 수 있도록요.",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……정말인가?",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "제가 카가를 속일 이윤 없잖아요.",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -299,7 +299,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -315,7 +315,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,

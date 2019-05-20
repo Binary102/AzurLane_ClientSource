@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>二 小加加的工作</size>",
+					"Best Pictures!\n\n<size=45>二 小加加的工作</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			bgmDelay = 2,
 			bgm = "level",
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好了！萨拉妹妹的机动舰队作战讲座，要开始咯——",
 			flashout = {
 				dur = 1,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 204010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "请您多多指导！",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -99,7 +99,7 @@ return {
 			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉老师，有劳你了。",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "要好好训练哦！……怎么连我也要参加！？",
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那我开始讲课咯！航母的攻击距离比战舰要长很多！所以最基本的作战方法就是灵活运用这个射程！",
 			typewriter = {
 				speed = 0.05,
@@ -153,7 +153,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -165,7 +165,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "也就是说呢，和恶作剧是一样的！在对方看不到的地方进行攻击是最有效的！",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我们白鹰使用空母的经历最长，大家要好好学习哦！",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 204010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "原来如此！确实学到了不少！",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呜……怎么觉得比我架子还大呢……",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "陛下，不能闹别扭哦？",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那边的！现在是无线通信管制期间，不许说悄悄话！",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -280,7 +280,7 @@ return {
 			actor = 207030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是——",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "可恶……",
 			typewriter = {
 				speed = 0.05,
@@ -313,7 +313,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

@@ -9,7 +9,7 @@ return {
 			actor = 404010,
 			side = 2,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "咕，干得漂亮，但我是不会逃的！",
 			shake = {
 				speed = 1,
@@ -49,7 +49,7 @@ return {
 			actor = 404020,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "姐姐，我建议你不要老是把逃跑挂在嘴边，这样会显得很欲盖弥彰的……",
 			shake = {
 				speed = 1,
@@ -68,7 +68,7 @@ return {
 			actor = 404010,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "可是我真的不想跑啊，明明是上面的人不懂战斗，打仗就是靠一口气，却怪我……",
 			shake = {
 				speed = 1,
@@ -87,7 +87,7 @@ return {
 			actor = 404020,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "好了姐姐，不要老是在意这种事，不是还有我理解你吗？",
 			shake = {
 				speed = 1,
@@ -106,7 +106,7 @@ return {
 			actor = 404010,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "格、格奈……",
 			shake = {
 				speed = 1,
@@ -344,7 +344,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			blackBg = true,
 			actor = 306031,
 			actorName = "{namecode:89}？？",
@@ -368,7 +368,7 @@ return {
 			actorName = "测试者β型",
 			blackBg = true,
 			actor = 900011,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -388,7 +388,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
 			actor = 900012,
@@ -409,7 +409,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者β型",
@@ -429,7 +429,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
 			actor = 900012,

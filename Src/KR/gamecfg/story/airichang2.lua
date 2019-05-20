@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=30>2. 인공지능은 전뇌돌고래를 꿈꾸는가?</size>",
+					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=45>2. 인공지능은 전뇌돌고래를 꿈꾸는가?</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			blackBg = true,
 			bgm = "story-1",
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "음~ 황폐한 건물이 보여요. 거기다 꽤 어두워요.",
 			typewriter = {
 				speed = 0.05,
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 106011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -118,7 +118,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -134,7 +134,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 106011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우와아아아아아아아!!! 왠지 무서운 사람이 나왔어~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -160,7 +160,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "으아아앗… 과, 과연…… 이게 '좀비'라는 녀석인 거네. (부들부들)",
@@ -191,7 +191,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -208,7 +208,7 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이야아압~! 덤벼라~~~~!!!",
 			flashout = {
 				dur = 0.5,
@@ -274,7 +274,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "꽤 익숙해졌어요. 이거라면 다들 클리어할 수 있을 것 같아요.",
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 106011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -310,7 +310,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "!? 롱 아일랜드, 조심해요. 뒤에 뭔가 있어요!",
@@ -326,7 +326,7 @@ return {
 		{
 			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "헤?",
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 106011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "꺄아아아아악!!! 이번엔 뭐야!?",
 			typewriter = {
 				speed = 0.05,
@@ -370,7 +370,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -382,7 +382,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "과연! 아마도 저건 '끝판왕'이 아닐까…?",
@@ -398,7 +398,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -416,7 +416,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 10400040,
 			dir = 1,
 			blackBg = true,
@@ -442,7 +442,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 106011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "공격이 거칠어~ 엄청나게 크고, 어지간한 공격으로는 쓰러뜨릴 수 없을 것 같아~!",
 			effects = {
 				{
@@ -462,7 +462,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -480,7 +480,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -498,7 +498,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "아야나미가 모두와 함께 잡고 있을게요. 아이는 그 틈에 방아쇠를 당기세요!",
@@ -512,7 +512,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -535,7 +535,7 @@ return {
 			say = "(콰아아아아아앙!!!)",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "………'해치웠나!?'에요.",
 			flashout = {
 				dur = 0.5,
@@ -583,7 +583,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -601,7 +601,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "과연! 역시 '로켓 런처'는 최강 무기야, 으악!?",
@@ -617,7 +617,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "이카즈치!? 큭, 아직 완전히 해치우지 못한 모양이에요. 네 이놈, 이카즈치의 원수! ……에요!",
@@ -633,7 +633,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -649,7 +649,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -675,7 +675,7 @@ return {
 		{
 			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "으아~~~ 이거 사기아냐?~~~ 에읍!",
@@ -691,7 +691,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -713,7 +713,7 @@ return {
 			blackBg = true,
 			actorName = "타이위안",
 			actor = 10400040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우으… 모두, 미안해…… 나 때문에…",
 			flashout = {
 				dur = 0.5,
@@ -744,7 +744,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 10400040,
@@ -764,7 +764,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "컨티뉴 하시겠습니까?",
 			typewriter = {
 				speed = 0.05,
@@ -792,7 +792,7 @@ return {
 			actor = 10400040,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아니, 이거 게임이잖아~~~~!!!",
 			effects = {
 				{

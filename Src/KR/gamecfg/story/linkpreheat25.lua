@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"꿈의 만남\n\n<size=30>목욕이라는 문화</size>",
+					"꿈의 만남\n\n<size=45>목욕이라는 문화</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-uta",
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 안녕 지휘관. 오늘도 날씨가 좋네.",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이렇게 방 안에만 있으면 모처럼만의 좋은 날씨가 아깝잖아.",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞다, 우리가 뭐 도와줄 건 없어? 신세를 지고 있으니까, 제대로 일을 좀 도와줄까나~",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "의뢰, 출격은 물론, 요리, 세탁, 청소, 그리고 설거지까지!",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "야마토에 있었던 시절엔 은신……이 아니지, 별의별 걸 다 했었으니까, 마음 놓고 맡겨줘!",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응, 환경이 무척 좋아서 지내기 편한걸.",
 			typewriter = {
@@ -147,7 +147,7 @@ return {
 			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저쪽 세계에는 없는, 편리한 도구나 신기한 게 잔뜩 있으니까 말야. 쓰는 법을 배우니까 너무 편리해서 버릇이 될 정도야.",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "숙소에 방까지 마련해주다니, 역시 지휘관님이네.",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응, 모두 여기 세계에서의 생활을 즐기고 있다고 생각해.",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "개인적으로 내가 가장 마음에 들었던 건……역시 그거려나?",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "맞아! 그거! 그 목욕탕!",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지금까지 많은 온천이나 목욕탕을 바왔지만, 여기 대형 목욕탕은 그 중에서도 손에 꼽을 정도로 굉장하달까나!",
 			typewriter = {

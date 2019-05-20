@@ -10,7 +10,7 @@ slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 function slot0.register(slot0)
 	slot1 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
 
-	if BattleScene.autoBotIsAcitve and slot1 then
+	if ys.Battle.BattleState.IsAutoBotActive() and slot1 then
 		playSoundEffect(SFX_AUTO_BATTLE)
 		LuaHelper.Vibrate()
 	end
@@ -65,13 +65,30 @@ function slot0.register(slot0)
 		if _.detect(slot11.fleets, function (slot0)
 			return slot0:getFleetType() == FleetType.Submarine
 		end) then
-			submarineTeam = slot15:getShipsByTeam(TeamType.Submarine, true)
+			for slot20, slot21 in ipairs(slot16) do
+				table.insert(slot10, slot21)
+			end
+		end
+	elseif slot9 == SYSTEM_WORLD then
+		slot10 = {}
+		slot14 = getProxy(WorldProxy).GetWorld(slot11).GetActiveMap(slot12).GetFleet(slot13)
+		slot16 = slot14:GetTeamShipVOs(TeamType.Vanguard, true)
 
-			for slot19, slot20 in ipairs(submarineTeam) do
-				table.insert(slot10, slot20)
+		for slot20, slot21 in ipairs(slot15) do
+			table.insert(slot10, slot21)
+		end
+
+		for slot20, slot21 in ipairs(slot16) do
+			table.insert(slot10, slot21)
+		end
+
+		if slot13:GetSubmarineFleet() then
+			for slot22, slot23 in ipairs(slot18) do
+				table.insert(slot10, slot23)
 			end
 		end
 	elseif slot9 == SYSTEM_DODGEM then
+	elseif slot9 == SYSTEM_SUBMARINE_RUN then
 	else
 		slot10 = slot6:getShipsByFleet(slot5:getFleetById(slot11))
 	end

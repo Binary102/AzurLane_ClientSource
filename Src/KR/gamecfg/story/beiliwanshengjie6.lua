@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"장난스런 핼러윈\n\n<size=30>유령 버스터즈!</size>",
+					"장난스런 핼러윈\n\n<size=45>유령 버스터즈!</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기야!",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아아! 저기로 갔다!",
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아…하아……설마 옥상까지 쫓아갈 줄은 몰랐는데……",
 			flashout = {
 				dur = 0.5,
@@ -112,7 +112,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.5,
@@ -125,7 +125,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래도 이제 도망칠 곳은 없어. 자, 누구냐 넌? 무슨 목적으로 이러는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "유령아, 우린 나쁜 사람이 아니야. 모두 널 도와주려고 온 거라구!",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			actorName = "???",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "날았어?!",
 			typewriter = {
 				speed = 0.05,
@@ -212,7 +212,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "날아다닌다, 플라잉, 마녀……맞다! 테러에게 받은 빗자루! 에잇!",
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "shake",
 					delay = 1,
 					dur = 0.15,
@@ -269,7 +269,7 @@ return {
 			actor = 205030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자, 잠깐! 이거 진짜 날 수 있을지 없을지도……",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아! 반드시 쫓아가 주지!",
 			typewriter = {
 				speed = 0.05,
@@ -329,7 +329,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "말도 안돼……이 빗자루, 대체……",
 			typewriter = {
 				speed = 0.05,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하하하! 진짜 마녀가 된 거 같아! 이스즈씨, 넬슨씨도 빨리 와!",
 			typewriter = {
 				speed = 0.05,
@@ -371,7 +371,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -379,7 +379,7 @@ return {
 			actor = 205030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나, 나는……",
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -412,7 +412,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -431,7 +431,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -439,7 +439,7 @@ return {
 			actor = 205030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "꿈이라도 꾸고 있는 걸까……",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			actorName = "???",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋지 않나요. 핼러윈이니까요♪",
 			typewriter = {
@@ -469,7 +469,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "로드니?!……꺄악?!",
 			typewriter = {
 				speed = 0.05,
@@ -481,7 +481,7 @@ return {
 			},
 			action = {
 				{
-					y = -2000,
+					y = -3000,
 					type = "move",
 					delay = 0.6,
 					dur = 0.8,
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 205040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "빗자루를 잘 쥐시고, 하늘을 나는 핼러윈을 마음껏 즐겨주세요. 넬슨 언니~♪",
 			typewriter = {
 				speed = 0.05,

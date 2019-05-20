@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"서브마린 트랩!\n\n<size=30>알바코어의 멱살 캐리</size>",
+					"서브마린 트랩!\n\n<size=45>알바코어의 멱살 캐리</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "스킬 발동……",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "라피, 위험해!",
 			typewriter = {
 				speed = 0.05,
@@ -94,11 +94,11 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…응?",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 4
 			},
 			flashN = {
@@ -146,7 +146,7 @@ return {
 			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우왓, 또 짤렸네……게임오버야~",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "으엑, 이 피격판정, 완전 사기 아니야……",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "으으윽…이 롱 아일랜드 님의 스킬을 맞고도 쓰러지지 않는 보스가 있을 줄은……레이드 게임, 만만히 볼 게 아니네!",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아직 포기하긴 일러.",
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "보스의 패턴을 대충 알 것 같아! ",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들 제대로 호흡만 맞추면 반드시 쓰러뜨릴 수 있어!",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이번엔 내가 이니시를 걸 테니까 한 번만 더 해보자!",
 			typewriter = {
 				speed = 0.05,
@@ -284,7 +284,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -297,7 +297,7 @@ return {
 			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오오…알바코어 왠지 믿음직스러워! 이게 바로 리더의 카리스마란 건가?!",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			actor = 101170,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "찬성……",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 101160,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알바코어, 굉장한 자신감이네……~",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼 한 번만 더……퀘스트 스타트!",
 			typewriter = {
 				speed = 0.05,
@@ -358,7 +358,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이걸로 막타다! 받아랏! 합체 오의……이터널 포스 크래셔~!!",
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -421,7 +421,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
 			hideOther = true,
@@ -439,13 +439,13 @@ return {
 				{
 					actor = 101170,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 101160,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			soundeffect = "event:/battle/cannon-356mm",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "보스……쓰러졌어……",
 			effects = {
 				{
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 101160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우오오오오! 깼다아아아아아아!!",
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -511,7 +511,7 @@ return {
 			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "깨, 깼어……이 초고난이도 퀘스트를 공략 사이트도 안 보고……",
 			typewriter = {
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "크하하하하하! 투 이지~! 이 알바코어가 못 깨는 보스는 없다고~!",
 			typewriter = {
 				speed = 0.05,
@@ -541,7 +541,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -55,7 +55,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -72,7 +72,7 @@ return {
 		{
 			expression = 4,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 303090,
 			dir = -1,
 			hideOther = true,
@@ -84,7 +84,7 @@ return {
 					actor = 302140,
 					expression = 2,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			},
@@ -99,7 +99,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 303090,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아마기씨는 무리하지 말아주세요! 여기는 저희들이…",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아뇨, 그렇게 놔둘 수는 없습니다.",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -162,7 +162,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "언제까지고 천막 안에 숨어있는 책사는 지장이 아니라 그냥 겁쟁이에 지나지 않습니다.",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 302140,
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -235,7 +235,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "혼자서 여기까지 올 수 있다니…생각보다 훨씬 강하네요.",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,

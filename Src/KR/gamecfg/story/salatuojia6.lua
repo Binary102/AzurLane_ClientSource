@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>六 取材秘辛系列・下</size>",
+					"Best Pictures!\n\n<size=45>六 取材秘辛系列・下</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "格里德利，帮我拿一下那个——",
 			flashout = {
 				dur = 1,
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -85,7 +85,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔……好吧，舰载机，呃，帮我拿一下，荷兰芹，胡椒还有香草的瓶子！格里德利把这根萝卜磨一下！",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "好的！这点小事当做照片钱太划算了！……不过这是怎么了，突然说什么“我也要做便当”？",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯，是指挥官明天要去学园视察，我跟重樱的孩子打听了一下，说在学园是要吃便当的，所以就——",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "停——！别说了！",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哇！怎么啦？",
 			typewriter = {
 				speed = 0.05,
@@ -162,7 +162,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -174,7 +174,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这些话别对我说，留着说给指挥官吧。",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "格里德利……",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我会支持你的！……对了，佐料放什么？……等等，那瓶是！？",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嘿嘿，重樱的孩子们说，便当是要符合每个人个性的！",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这是萨拉妹妹亲手做的特制便当，佐料当然也只能用这个啦~",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官快跑——！",
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -306,7 +306,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，你在看什么呢？",
 			typewriter = {

@@ -10,6 +10,7 @@ end
 
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
+	slot0._caster = slot2:GetCaster()
 	slot0._auraBuffID = slot0._tempData.arg_list.buff_id
 	slot0._target = slot0._tempData.arg_list.target
 	slot0._check_target = slot0._tempData.arg_list.check_target or "TargetNull"
@@ -28,7 +29,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 			if slot5.Active then
 				for slot10, slot11 in ipairs(slot6) do
 					if slot11:GetUniqueID() == slot5.UID then
-						slot11:AddBuff(slot2.Battle.BattleBuffUnit.New(slot0._auraBuffID, slot0._level))
+						slot11:AddBuff(slot2.Battle.BattleBuffUnit.New(slot0._auraBuffID, slot0._level, slot0._caster))
 
 						break
 					end

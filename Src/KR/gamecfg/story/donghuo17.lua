@@ -14,7 +14,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "\"위대한 분에게 들었다. '사탄이 번개와도 같이 하늘에서 떨어졌다' 고.\"",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
@@ -46,7 +46,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
@@ -64,7 +64,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
@@ -80,7 +80,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -114,7 +114,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

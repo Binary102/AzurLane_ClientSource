@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"오오시오의 선물♪\n\n<size=30>야근 데이!</size>",
+					"오오시오의 선물♪\n\n<size=45>야근 데이!</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨, 여 있는 자료는 다 아침까지가 마감이라카이. 확인 다 할 때까진 못 쉰데이……",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오시오도 여 남아가꼬 도와주꾸마, 쪼매만 더 욕 보제이…",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우유 한 잔 주까? 벌써 밤이 다 됐는데, 몸이라도 뜨시게 해야 되지 않겠나.",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actorName = "？？？",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…지휘관 씨, 지휘관 씨",
 			flashout = {
 				dur = 0.5,
@@ -181,7 +181,7 @@ return {
 			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301640,
 			say = "비서함이 깨워줬다. 아무래도 어제는 그대로 집무실에서 잠들어 버린 모양이다.",
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 씨, 잘 잤나. 어젠 그대로 집무실에서 자삐따이가…",
 			typewriter = {
 				speed = 0.05,
@@ -235,7 +235,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아침은 차려놨데이. 밥 묵을 준비되면 뎁혀줄테니까 알리도.",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "눈 뜨자마자 이런 소리 하는 것도 좀 그란데……",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 씨가 힘내준 덕에 끝이 보이기 시작하는기라~ 쪼매만 더 힘내제이?",
 			typewriter = {
 				speed = 0.05,
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후♪ 지휘관 씨는 역시 듬직하구마~",
 			typewriter = {
 				speed = 0.05,
@@ -326,7 +326,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

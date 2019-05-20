@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼별이 뭐야?</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼별이 뭐야?</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 굿모닝~? 베일리가 토끼토끼 파워를 주입해줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 당근을 모아두는 건 좋지만, 임무는 모아둬도 아무런 일도 안 생긴다구.",
 			flashout = {
 				dur = 0.5,
@@ -115,7 +115,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 우편이야! 토끼토끼별에서 온 거야?",
 			flashout = {
 				dur = 0.5,
@@ -158,7 +158,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.15,
@@ -181,7 +181,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "삐비빗…토끼토끼별에서 수신…\"베일리는 지휘관에게 전력으로 협력할 것\", 지휘관도 걱정하지 않아도 되니까, 전부 베일리에게 맡겨줘~~",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 왜 그래? 무슨 걱정거리라도 있는 거야?",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에헤헤, 곤란한 일이 있으면 베일리에게 알려줘♪ 베일리가 토끼토끼별의 지혜로 전부 해결해줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나, 그게 궁금했던 거구나.",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에 그러니까, 토끼토끼별은……베일리에게 토끼토끼별이란 토끼토끼별을 말하는 거야!",
 			typewriter = {

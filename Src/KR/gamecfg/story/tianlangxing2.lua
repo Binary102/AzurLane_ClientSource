@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>二 陛下的最高指令</size>",
+					"天狼星改造计划\n\n<size=45>二 陛下的最高指令</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这次各个阵营的联谊，仆人你也要参加！",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.2,
@@ -79,7 +79,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "本王会带着厌战去参加！仆人你也记得带个伴来！",
 			typewriter = {
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……可不准不来哦！",
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我在这里，请您放心吧，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
@@ -166,7 +166,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…符合宴会的装扮……吗？您对这身女仆装有什么不满吗？",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……如果天狼星引人注目的话，主人被盯上的危险就会降低。从这一点考虑，我也觉得以这身装扮出席宴会的话其实更好。",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "当您宴会的女伴……吗？",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "区区女仆，想要当主人的女伴…还是不太合适吧…",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "即便是女仆，若是女仆长或者库拉索还好，让从来没有以“参加者”的身份公开活动的我来担任女伴，这个……",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "您是说可以同时保护陛下和主人……吗？",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "实在抱歉！天狼星没能参透主人的意思，说了不该说的话……",
 			typewriter = {
 				speed = 0.05,
@@ -305,7 +305,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "请惩罚愚钝的女仆吧！",
 			typewriter = {
 				speed = 0.05,

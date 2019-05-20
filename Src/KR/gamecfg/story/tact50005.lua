@@ -41,7 +41,7 @@ return {
 		{
 			actor = 303020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:54}",
 			say = "{namecode:69}, 도와줄게!",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			actor = 303040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			say = "나도 도와줄게!",
 			actorName = "{namecode:56}",
@@ -84,7 +84,7 @@ return {
 		{
 			actor = 303140,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:69}",
 			say = "딱 맞춰 와줬네요. {namecode:53}, {namecode:55}, 포격을 유지하고 태세를 재정비해주세요, 여기서 신속히 승부를 내는 겁니다!",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 			actor = 303030,
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "라져!",
 			subActors = {
 				{
 					actor = 303010,
 					dir = 1,
 					pos = {
-						x = 650
+						x = 975
 					}
 				}
 			},

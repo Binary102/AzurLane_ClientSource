@@ -14,7 +14,7 @@ return {
 		},
 		{
 			actor = 103090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아스토리아 언니!",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -41,7 +41,7 @@ return {
 			actor = 103080,
 			side = 1,
 			say = "괜찮아, 아직 버틸 수 있어!",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "언니……흐에엥……",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 		{
 			actor = 103080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "괜찮아, 빈센스.",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 103080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우…이렇게 험난한 전투에 두 동생이 옆에 있어 정말 다행이야. 너희가 없었으면 언니는 벌써 눈물 콧물 질질 짰을걸?",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아스토리아 언니……그렇네요.",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "웅……언니들이 없었으면, 나도 벌써 울었을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 		{
 			actor = 103080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하, 그럼…가볼까, 최후의 반격이다!",
 			typewriter = {
 				speed = 0.05,

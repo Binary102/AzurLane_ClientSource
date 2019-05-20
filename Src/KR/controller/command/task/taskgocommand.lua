@@ -141,7 +141,7 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	elseif slot13 == 4 then
 		if slot14 == 2 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
-				warp = EquipmentScene.WARP_TO_DESIGN
+				warp = StoreHouseConst.WARP_TO_DESIGN
 			})
 		elseif slot14 == 3 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
@@ -151,13 +151,13 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			})
 		else
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
-				warp = EquipmentScene.WARP_TO_WEAPON
+				warp = StoreHouseConst.WARP_TO_WEAPON
 			})
 		end
 	elseif slot13 == 5 then
 		if slot14 == 0 or slot14 == 1 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
-				warp = EquipmentScene.WARP_TO_MATERIAL
+				warp = StoreHouseConst.WARP_TO_MATERIAL
 			})
 		end
 	elseif slot13 == 6 then

@@ -24,7 +24,7 @@ return {
 			actor = 307010,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "我感觉到了害虫们的计划…啊啊～竟然想用巧克力去诱惑我心爱的指挥官～不可原谅，不可原谅啊！就让我{namecode:91}来为指挥官“驱除虫害”吧！",
 			shake = {
 				speed = 1,
@@ -59,7 +59,7 @@ return {
 		{
 			actor = 307020,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "偶尔像这样热闹一下也不错呢，呵呵……那么，大家一起快快乐乐地打一场吧～？",
 			shake = {
 				speed = 1,

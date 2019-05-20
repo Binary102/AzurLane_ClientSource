@@ -40,7 +40,7 @@ function slot5.UpdateSpeed(slot0, slot1)
 	if slot0._speed ~= slot1 then
 		slot0._speed = slot1
 
-		if slot1 ~= Vector3.zero then
+		if not slot1:EqualZero() then
 			slot0._lastDir = slot1
 		end
 

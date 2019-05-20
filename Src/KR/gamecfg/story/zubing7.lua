@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"전진하라! 아시가라!\n\n<size=30>진도를 나가라! 아시가라!</size>",
+					"전진하라! 아시가라!\n\n<size=45>진도를 나가라! 아시가라!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-2",
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(무, 무슨 말이라도 해야 할 텐데…으으……)",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아시가라는 얼굴이 새빨개진 채로 말 없이 옆에 앉아있다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 나리! 데, 데이트 해주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "제제제제가 지금 무슨 소리를?!",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "정말 죄송합니다! 지금 건 잊어주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……?!",
 			typewriter = {
 				speed = 0.05,
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "괘, 괜찮습니다! 무리하면서 까지 저한테 안 맞춰주셔도 전……",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…그, 그렇죠! 저도 지휘관 나리에 대해 더 알고 싶기도 하고…",
 			typewriter = {
 				speed = 0.05,
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼……그럼 약속……이에요?",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 		},
 		{
 			stopbgm = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -307,7 +307,7 @@ return {
 			actorName = "{namecode:55}",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "망했다! 묘코잖아! ……아야야얏!",
 			typewriter = {
@@ -322,7 +322,7 @@ return {
 			say = "갑자기 방문이 열리면서, 아이들 몇 명이 앞으로 넘어졌다.",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "크으으…하필이면 제일 중요할 때에……",
 			typewriter = {
 				speed = 0.05,
@@ -351,7 +351,7 @@ return {
 			actor = 303080,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말이지! 묘코도 참, 분위기 파악 좀 하라고!",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			actor = 303030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모처럼 만의 특종 정보가……",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			actor = 303070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내, 내가 뭘 했다는 거냐! 방에 어질러진 이 종이학들은……대체 무슨 일이 있었던 거냐!",
 			typewriter = {

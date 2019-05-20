@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>五 细小的伤痕</size>",
+					"彼岸花之恋？\n\n<size=45>五 细小的伤痕</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -254,11 +254,11 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "别以为能逃掉哦。别看我这样，{namecode:91}对指挥官可是比谁都……呵呵",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.5,
 					x = 0,

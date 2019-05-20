@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>약속, 그리고 희망</size>",
+					"닌자의 길\n\n<size=45>약속, 그리고 희망</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘도 히비키의 정보는 손에 넣지 못했구나……",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이렇게 지휘관 나리와 히비키를 기다리는 것도, 좀 익숙해진 것 같소.",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "왠지 예전만큼 쓸쓸하진 않아진 것 같기도 하고…",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……따, 따딱히 히비키를 포기한다는 말은 아니오만!",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -149,7 +149,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 소인이 변한 건 지휘관 나리의 덕이 분명하오.",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 나리와 함께 있으면, 따뜻하고, 기뻐서……",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그리고 무엇보다, 소인이 용감해질 수 있는 느낌이 드니 말이오!",
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우와앗!",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "소, 소인을 괴롭히지 말아 주었으면 하오!",
 			typewriter = {
 				speed = 0.05,
@@ -251,7 +251,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "소인은 언제나, 늘…이 모항에서 제6 구축함대의 모두와 만나고 싶다 생각하고 있소! 히비키, 이카즈치, 이나즈마, 모두 소중한 동생들이니!",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리 제6 구축함대는 언젠가 모두 함께할 수 있을 것이오! 물론 그때는 지휘관 나리도 우리와 함께하여 주겠지!",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저, 저기! 지휘관 나리! 시, 실은 소인, 지휘관 나리를 좋……",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			actor = 301110,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관!! 아카츠키!!",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우와아앗?!",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -357,7 +357,7 @@ return {
 			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이카즈치, 낄 때 안 낄 때 파악 좀 했으면 좋겠어요……(작은 목소리로)",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 아카츠키, 같이 점심 먹으러 안 갈래?",
 			typewriter = {
 				speed = 0.05,
@@ -396,7 +396,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -409,7 +409,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! 모두 다 함께 가지!",
 			typewriter = {

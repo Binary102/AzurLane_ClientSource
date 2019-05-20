@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=30>七 逞强和真心・下</size>",
+					"我的美好回忆\n\n<size=45>七 逞强和真心・下</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜哇啊啊啊……",
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜呜…发生这种事……还怎么可能踩得上去啦……！",
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -236,7 +236,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -268,7 +268,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我可爱的小猪仔♡",
 			typewriter = {
 				speed = 0.05,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"소류 씨와 함께\n\n<size=30>제2장 - 가르쳐줘, 소류 선생님!</size>",
+					"소류 씨와 함께\n\n<size=45>제2장 - 가르쳐줘, 소류 선생님!</size>",
 					1
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……그럼, 오늘은 오케하자마 전투를 다루도록 하죠.",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301590,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "전국시대, 이마가와 가는 여전히 토카이도의 패권을 주장하고 있었습니다…… 어머, 지휘관께서 여긴 어쩐 일로?",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "보면 알잖아? 역사 수업이야.",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네, 우라카제가 전국시대에 대해 더 알고 싶어 하는 터라, 설명해주고 있었습니다.",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "혹시 지휘관께서도 흥미가 있으시면, 함께 들으셔도 괜찮습니다만.",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "들어볼까.",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……노부나가의 기습으로 요시모토가 전사한 건 누구도 예상하지 못했던 일입니다.",
 			flashout = {
 				dur = 0.5,
@@ -240,7 +240,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 싸움을 계기로 오다 가는……",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……자, 오늘 내용은 여기까지입니다.",
 			flashout = {
 				dur = 1,
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301590,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흠흠…… 과연, 감사합니다! 소류 선생님!",
 			typewriter = {
 				speed = 0.05,
@@ -312,7 +312,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -325,7 +325,7 @@ return {
 			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이소카제네 수업도 잘 부탁드립니다!",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응, 물론이야.",
 			typewriter = {
@@ -367,7 +367,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 무슨 생각 하시는지 얼굴에 다 드러나고 있습니다…… 이건 비서함으로서 당연히 갖춰야 할 소양입니다.",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래서, 무슨 용무이신지요?",
 			typewriter = {
 				speed = 0.05,
@@ -405,7 +405,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "화투를 배우고 싶으시다고요? 어째서 갑자기 흥미를……?",
 			typewriter = {
@@ -421,7 +421,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말 배우고 싶으시다면, 저는 물론 상관없습니다만……",
 			typewriter = {

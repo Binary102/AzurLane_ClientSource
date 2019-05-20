@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "level02",
 			actor = 401210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "왜 하필 이런 데로 임무가 나온 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -23,7 +23,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -34,7 +34,7 @@ return {
 		},
 		{
 			actor = 401180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "자자, 윌. 진정하구~ 나랑 같이… 스마일☆",
@@ -54,7 +54,7 @@ return {
 		{
 			actor = 401190,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……폭설이네요…",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "윌, 좀 투덜대지 마. 목표 해역에 도착했어. 즉, 이제부터는 네가 기함이라는 말이야. 자, 임무 복창 및 지시를.",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 		{
 			actor = 401210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼……틸레, 부탁해도 될까……?",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -109,7 +109,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……본 작전은 '베저위붕 작전'의 일환으로, '나르비크 항'의 점령을 목적으로 한다.",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -140,7 +140,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "여기까지, 질문은?",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 		{
 			actor = 401190,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저요! 적 병력의 정보를 알려주세요!",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -179,7 +179,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -196,7 +196,7 @@ return {
 		{
 			actor = 401210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 식은 죽 먹기잖아.",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -227,7 +227,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고 한스, 협만 너머로 요새가 있다는 정보가 들어왔어. 안톤이랑 함께 정찰 좀 부탁해.",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 		{
 			actor = 401180,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "라져~",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다른 사람들은 계속해서 윌과 함께 작전 목표 해역까지 이동할 것, 이상이야.",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 		{
 			actor = 401210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……뭔가 전부 다 말해줘 버렸네. 그냥 틸레가 기함 하는 게 낫지 않아?",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,

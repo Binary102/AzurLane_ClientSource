@@ -26,4 +26,12 @@ function ys.Battle.FloatOxyState.IsVisible(slot0)
 	return true
 end
 
+function ys.Battle.FloatOxyState.GetBarVisible(slot0)
+	return false
+end
+
+function ys.Battle.FloatOxyState.RunMode(slot0)
+	return false
+end
+
 return

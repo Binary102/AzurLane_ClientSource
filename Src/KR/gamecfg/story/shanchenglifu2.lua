@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"모항의 특별 연회\n\n<size=30>2.  집무실 바깥에서의 미니 스토리</size>",
+					"모항의 특별 연회\n\n<size=45>2.  집무실 바깥에서의 미니 스토리</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -63,7 +63,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -90,7 +90,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -120,7 +120,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -138,7 +138,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -156,7 +156,7 @@ return {
 			say = "아, 다이호씨. 다이호씨도 지휘관 나리랑 만나러 온 건가요?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -177,7 +177,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -195,7 +195,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -213,7 +213,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -283,7 +283,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -301,7 +301,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -319,7 +319,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -334,7 +334,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -347,7 +347,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -365,7 +365,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -400,7 +400,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -432,7 +432,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -452,7 +452,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -470,7 +470,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -485,7 +485,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -502,7 +502,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -522,7 +522,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -537,7 +537,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -547,7 +547,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -567,7 +567,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -582,7 +582,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -599,7 +599,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -619,7 +619,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -637,7 +637,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -652,7 +652,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -669,7 +669,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -679,7 +679,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -699,7 +699,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -717,7 +717,7 @@ return {
 			say = "야마시로, 당신도 같이 한잔해보는 건 어때요?",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -735,7 +735,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -752,7 +752,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -765,7 +765,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307070,
 			actorName = "{namecode:97}",
@@ -780,7 +780,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

@@ -2,6 +2,7 @@ slot0 = class("BackYardHouseProxy", pm.Proxy)
 slot0.HOUSE_UPDATE = "BackYardHouseProxy_backyard_house_update"
 slot0.BACKYARD_SHIP_MOVE = "BackYardHouseProxy_backyard_ship_move"
 slot0.BACKYARD_EXIT_SHIP = "BackYardHouseProxy_backyard_exit_ship"
+slot0.BACKYARD_ADD_SHIP = "BackYardHouseProxy_BACKYARD_ADD_SHIP"
 slot0.BACKYARD_CANT_PUT = "BackYardHouseProxy_backyard_cant_put"
 slot0.BACKYARD_ADD_FURNITURE = "BackYardHouseProxy_backyard_add_furniture"
 slot0.BACKYARD_FURNITURE_DIR_CHANGE = "BackYardHouseProxy_backyard_furniture_dir_change"
@@ -45,6 +46,16 @@ function slot0.onRegister(slot0)
 			slot0:Update()
 		end)
 	end
+end
+
+function slot0.existShip(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.data.ships) do
+		if slot6.id == slot1 then
+			return true
+		end
+	end
+
+	return false
 end
 
 function slot0.Update(slot0)
@@ -106,13 +117,35 @@ function slot0.onMoveHalf(slot0, slot1, slot2)
 	slot0:updateArchState(slot0.data.ships[slot1], slot2)
 end
 
+function slot0.addShip(slot0, slot1)
+	slot0.data.ships[slot1.id] = slot1
+
+	slot0:initShipPos(slot1.id)
+	slot0:sendNotification(slot0.BACKYARD_ADD_SHIP, slot1)
+	slot0:updateHouse(slot0.data)
+end
+
 function slot0.exitShipById(slot0, slot1)
 	slot0:cancelShipMove(slot1)
 	slot0:clearInterAction(slot1)
 
+	slot3 = Clone(slot2)
+
+	if slot0.data.ships[slot1]:hasSpineExtra() then
+		slot0:clearSpineExtraInterAction(slot1, slot2:getSpineExtraId())
+	end
+
+	if slot2:hasSpineInterAction() then
+		slot0:clearSpineInterAction(slot1)
+	end
+
+	if slot2:inStageFurniture() then
+		slot0:clearStageInteraction(slot1)
+	end
+
 	slot0.data.ships[slot1] = nil
 
-	slot0:sendNotification(slot0.BACKYARD_EXIT_SHIP, Clone(slot0.data.ships[slot1]))
+	slot0:sendNotification(slot0.BACKYARD_EXIT_SHIP, slot3)
 	slot0:updateHouse(slot0.data)
 end
 
@@ -934,15 +967,6 @@ end
 function slot0.updateHouseLevel(slot0, slot1)
 	slot0.data:updateLevel(slot1)
 	slot0:updateHouse(slot0.data)
-
-	if slot0.data.wallPaper then
-		slot0:replacePaper(slot0.data.wallPaper)
-	end
-
-	if slot0.data.floorPaper then
-		slot0:replacePaper(slot0.data.floorPaper)
-	end
-
 	slot0:sendNotification(slot0.HOUSE_LEVEL_UP, {
 		level = slot1
 	})

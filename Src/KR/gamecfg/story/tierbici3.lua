@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제3장 - 연습전</size>",
+					"녹아내리는 얼음\n\n<size=45>제3장 - 연습전</size>",
 					1
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고마워.",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오이겐인가…이 정도는 칭찬받을만한 일도 아니지만…너와 히퍼의 실력 또한 출중하지 않은가?",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "흐흥~ 티르피츠는 정말 겸손하네. 히퍼, 봤어? 너도 좀 보고 배우라고.",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 403010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하? 내가 왜 티르피츠를 보고 배워야 한다는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -189,7 +189,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -202,7 +202,7 @@ return {
 			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "봐봐, 티르피츠는 저~렇게나 대단한데, 전혀 자만하지 않잖아. 임무 하나만 완수해도 지휘관에게 자랑하려고 몸이 근질거리는 어딘가의 금발 바보 씨랑은 전혀 다르다니까.",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			actor = 405020,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오이겐, 그렇게 말하지 마. 히퍼도 히퍼의 장점이……",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 403010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하!? 내 성격이 이래서 정말 미안하네! 오이겐, 오늘 좀 맞고 싶어 온몸이 근질거리나 본데……",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후훗, 빨래판에 맞아봐야 얼마나 아프겠어?",
 			typewriter = {
 				speed = 0.05,
@@ -275,7 +275,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			},
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 403010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관은 신경 꺼! 쳇, 오이겐! 어딜 도망가, 거기서!! 오늘이야말로 언니는 괜히 언니가 아니란 걸 똑똑히 알려주겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -303,7 +303,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -315,7 +315,7 @@ return {
 					type = "move",
 					delay = 0.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -323,7 +323,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자매라……",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…………음?",
 			typewriter = {
@@ -371,7 +371,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "별일 아니야. 그냥, 자매 사이란 건 원래 이런 느낌인 걸까…하고……",
 			typewriter = {

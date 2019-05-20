@@ -10,7 +10,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "큭, 가짜가 계속해서... 폭풍우에서 함재기를 그렇게 잃지만 않았어도......",
 			shake = {
 				speed = 1,
@@ -28,7 +28,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응? 전방 해역에 구난 신호...? 혹시 쇼카쿠 언니!?",
 			shake = {
 				speed = 1,
@@ -46,7 +46,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쇼카쿠 언니 기다려, 이번엔 반드시...!",
 			shake = {
 				speed = 1,

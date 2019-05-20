@@ -58,6 +58,18 @@ function slot0.register(slot0)
 	end)
 end
 
+function slot0.getActivityListByType(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7:getConfig("type") == slot1 and not slot7:isEnd() then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 function slot0.getActivityByType(slot0, slot1)
 	slot2 = nil
 
@@ -138,7 +150,8 @@ function slot0.getPanelActivities(slot0)
 		ActivityConst.ACTIVITY_TYPE_MONOPOLY,
 		ActivityConst.ACTIVITY_TYPE_BUILD,
 		ActivityConst.ACTIVITY_TYPE_DODGEM,
-		ActivityConst.ACTIVITY_TYPE_PT_ACCUM
+		ActivityConst.ACTIVITY_TYPE_PT_ACCUM,
+		ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
 	}
 
 	return _(_.values(slot0.data)):chain():filter(function (slot0)

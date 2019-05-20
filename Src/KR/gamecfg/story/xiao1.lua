@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>설마 방향치?</size>",
+					"닌자의 길\n\n<size=45>설마 방향치?</size>",
 					1
 				}
 			}
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 지휘관! 안녕!",
 			flashout = {
 				dur = 0.5,
@@ -115,7 +115,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -128,7 +128,7 @@ return {
 			actor = 301010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? 아카츠키 말이지? 알았어!",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			actor = 301010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카츠키라면……그러니까……몇 분 전에 저쪽으로 가는 걸 봤어!",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아카츠키, 말인가요……?",
 			flashout = {
 				dur = 0.5,
@@ -193,7 +193,7 @@ return {
 			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아야나미, 저쪽으로 간 아카츠키를 봤어요.",
 			typewriter = {
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아카츠키 말인가? 이 몸도 오늘 아침에 본 기억이 나네만……흠흠……",
 			flashout = {
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오! 생각났네! 급히 저쪽으로 가더군!",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -305,7 +305,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러니까… 다음은 여기로 가면 될텐데……",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앗! 지, 지휘관 나리!?",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흐에!? 벌써 시간이 이렇게 됐나!? 며, 면목이 없소! 소인은 아침 일찍 집무실에 가려고 했으나……",
 			typewriter = {
 				speed = 0.05,
@@ -350,7 +350,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -363,7 +363,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "집무실 까지의 거리가 아무래도 생각한 것 보다 너무 멀다 보니……",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에에에!!? 집무실은 저기에 있었단 말인가?!",
 			typewriter = {
 				speed = 0.05,
@@ -402,7 +402,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -415,7 +415,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우으…고맙소……다, 다음에는 꼭 제 시간에 도착하겠소!",
 			typewriter = {

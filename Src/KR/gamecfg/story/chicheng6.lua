@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>六 黑暗之中的告白</size>",
+					"彼岸花之恋？\n\n<size=45>六 黑暗之中的告白</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			blackBg = true,
 			bgm = "story-2",
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官只要好好听{namecode:91}的话就行了……别让{namecode:91}伤心……",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………！？",
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "{namecode:91}绝不会……伤害指挥官。就算指挥官成为了我的敌人——  ",
 			flashout = {
 				dur = 1,
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "——指挥官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
 			typewriter = {
 				speed = 0.05,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

@@ -23,7 +23,7 @@ return {
 			},
 			action = {
 				{
-					y = -1000,
+					y = -1500,
 					type = "move",
 					delay = 1,
 					dur = 0.5,
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 201200,
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 201200,
@@ -69,7 +69,7 @@ return {
 			say = "로열 네이비 H급의 적수는 아니에요!",
 			dir = -1,
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하디, 이제 어쩔 거야?",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "항구의 상태는?",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "완전히 점령당했네. 우리들 화력으론 방어 시설 파괴에도 시간이 걸리니까.",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -147,7 +147,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……퇴각할래? 이런 악천후이기도 하고, 우리 전력도 꽤 소모됐고.",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……안 돼요. 당신이 말한 대로 당장 탈환은 못해도, 여기선 끈질기게 버텨서 최대한의 전과를 노려야 해요.",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -192,7 +192,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -208,7 +208,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -224,7 +224,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -243,7 +243,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아야! 갑자기 왜 때려요!",
 			typewriter = {
 				speed = 0.05,
@@ -255,7 +255,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -266,7 +266,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -282,7 +282,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -298,7 +298,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,

@@ -36,7 +36,7 @@ return {
 		{
 			actor = 303090,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아마기씨, 남은 탄환이 이제 얼마 없어요! 퇴각 지시를 부탁드릴게요!",
 			typewriter = {
@@ -51,7 +51,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "함재기를 이용한 파장 공격, 제공권이 없으니 이렇게까지 무서운 전략이 될 줄이야…",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -94,7 +94,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -110,7 +110,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어이! 아마기! 정신차려!",
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아마기!!",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -276,7 +276,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -293,7 +293,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "전함의 장갑을 우습게 보지 말라고. 넌 얌전히 입 다물고 모항까지 끌려오라고!",
 			typewriter = {
@@ -366,7 +366,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이대로는 전멸이야…! 어떻게 해야…!",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -421,7 +421,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -437,7 +437,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "조금만 더 뭘 어쩌란 거야! 어이! 아마기!",
 			typewriter = {
 				speed = 0.05,
@@ -468,7 +468,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "처음부터 날 찾아오지만 않았다면, 너희들은…!",
 			typewriter = {
 				speed = 0.05,
@@ -566,7 +566,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -608,7 +608,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -625,7 +625,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "호쇼씨의 함재기네요……이젠 구식일지도 모르지만……",
 			typewriter = {
@@ -640,7 +640,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "역시 훌륭한 실력입니다…이렇게 멀리까지 함재기들을 조종할 수 있다니……",
 			typewriter = {
@@ -654,7 +654,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 305070,
@@ -670,7 +670,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -686,7 +686,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -703,7 +703,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아마기………아니, 아마기씨……!",
 			typewriter = {
@@ -716,7 +716,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -728,7 +728,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신 말 대로, 내가 당신의 최강의 칼날이 되어, 사쿠라 엠파이어의 적을 전부 베어버리는 존재가 되겠습니다!",
 			typewriter = {
@@ -743,7 +743,7 @@ return {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조금만 더 버텨주세요! ……이대로 조금만 더 직위대를 따라가면 모항에 귀환할 수 있으니까!",
 			typewriter = {

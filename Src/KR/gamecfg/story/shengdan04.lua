@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사랑과 평화의 성야제\n\n<size=30>제4장 - 사쿠라 엠파이어의 크리스마스 (하)</size>",
+					"사랑과 평화의 성야제\n\n<size=45>제4장 - 사쿠라 엠파이어의 크리스마스 (하)</size>",
 					1
 				}
 			}
@@ -34,13 +34,13 @@ return {
 			actorName = "{namecode:78}&{namecode:79}",
 			actor = 305010,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "다녀왔습니다~",
 			subActors = {
 				{
 					actor = 305020,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -56,7 +56,7 @@ return {
 		{
 			actor = 301320,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다녀오셨어요!",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 		{
 			say = "음! 수고했다! 잘 돌아왔다!",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
@@ -90,7 +90,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -122,7 +122,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -138,7 +138,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -154,7 +154,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -171,7 +171,7 @@ return {
 		{
 			actor = 301320,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미카사 서언배! 무츠키 또 놀고 시퍼~!",
 			typewriter = {
@@ -185,7 +185,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -201,7 +201,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -217,7 +217,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -233,7 +233,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아! 그럼 우리들도 '사쿠라 엠파이어 크리스마스 파티' 를 시작하자꾸나!",
 			flashout = {
 				dur = 1,
@@ -282,7 +282,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -299,7 +299,7 @@ return {
 		{
 			say = "야마시로, 메리 크리스마스!",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
@@ -318,7 +318,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -334,7 +334,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -350,7 +350,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -366,7 +366,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -383,7 +383,7 @@ return {
 		{
 			actor = 301320,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "무츠키도 지히간 만나고 시퍼!",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -413,7 +413,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",

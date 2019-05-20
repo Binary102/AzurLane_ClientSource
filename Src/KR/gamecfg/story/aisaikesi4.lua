@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"선배와의 앙금\n\n<size=30>VS 엔터프라이즈</size>",
+					"선배와의 앙금\n\n<size=45>VS 엔터프라이즈</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이걸로 마지막 승부다! 여기까지 연전연승할 줄이야, 역시 내 자랑스러운 후배구나!",
 			typewriter = {
 				speed = 0.05,
@@ -69,7 +69,7 @@ return {
 			say = "선배야말로, 여유가 넘치시네요…!",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -87,7 +87,7 @@ return {
 			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이번엔 쉽지 않을 겁니다! 에식스의 실력, 제대로 봐두시라고요!",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actor = 107060,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어떤 때에도 전력을 다하는 게 나의 방식이다. 와라!",
 			typewriter = {
@@ -120,10 +120,10 @@ return {
 			bgName = "bg_story_nepu1",
 			actor = 107090,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			hideOther = true,
 			actorName = "에식스&엔터프라이즈",
-			say = "<size=30>하아아아아아아!!!</size>",
+			say = "<size=45>하아아아아아아!!!</size>",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 					dir = 1,
 					actor = 107060,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오…분위기 장난 아닌데~~",
 			effects = {
 				{
@@ -170,7 +170,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "가끔은 이런 것도 나쁘지 않네요. 후후후",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이건 어떻습니까!",
 			typewriter = {
 				speed = 0.05,
@@ -200,7 +200,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "거기까지에요!",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이거…동시에 격침 판정인가……",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무승부…인가. 이거, 좋은 건지 나쁜 건지…",
 			typewriter = {
@@ -379,7 +379,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만 네 실력은 이 눈에 확실히 담아두었다. 후후, 에식스, 강해졌구나.",
 			typewriter = {
@@ -395,7 +395,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에식스? 왜 그래?",
 			typewriter = {
@@ -427,7 +427,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(작은 목소리로) 이런 결과를 바란 게 아니었는데……",
 			typewriter = {
@@ -443,7 +443,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "죄송해요, 조금 피곤해서…먼저 실례할게요!",
 			typewriter = {

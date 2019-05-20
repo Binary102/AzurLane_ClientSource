@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>七 最重要的宝物</size>",
+					"Best Pictures!\n\n<size=45>七 最重要的宝物</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哇，这是我的照片！？指挥官莫非你——",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "太可疑了~那你是找谁拿来的~？",
 			typewriter = {
 				speed = 0.05,
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……不用问也知道吧。我们港区能拍到这些的除了她没有别人了。",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "诶！不会吧——！是指挥官拍的吗——！",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……不可能啦。指挥官才拍不了这样的照片呢。",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是谁的都好，只剩最后一张了吧？是什么样子？让萨拉妹妹看看！",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哇！？",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呃！指挥官！这张不许！不许看！",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……因为……萨拉妹妹这种事真的很难为情嘛……",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "连喜欢都说不出口的……",
 			typewriter = {
@@ -235,7 +235,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……回头要还给格里德利的……？那……",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "别的可以还给她……就这张，不还啦♪",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "因为这张我要——当做宝贝珍藏的！",
 			typewriter = {

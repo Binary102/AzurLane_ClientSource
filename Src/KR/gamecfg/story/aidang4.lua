@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>四 休息时间，然后——</size>",
+					"和姐姐的一日约会\n\n<size=45>四 休息时间，然后——</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_story_school",
 			bgm = "story-1",
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "午饭也吃了，要买的东西也差不多了吧。还挺顺利的？",
 			flashout = {
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "门票，拿好。抱歉啊，让你陪着我到处跑。",
 			flashout = {
 				dur = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "座位……嗯，就挨着坐好了，要是害怕的话可以扑到姐姐怀里来哦？",
 			flashout = {
 				dur = 1,
@@ -249,7 +249,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

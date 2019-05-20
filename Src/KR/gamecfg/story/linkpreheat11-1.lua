@@ -10,7 +10,7 @@ return {
 			dir = 1,
 			bgm = "level-uta",
 			actor = 10300030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼……제가 가겠습니다.",
 			flashin = {
 				delay = 0,
@@ -33,7 +33,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "루루티에씨, 무리하지 않으셔도……",
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 		{
 			actor = 10300030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괘, 괜찮아요……무리하는 거 없습니다.",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300030,
@@ -78,7 +78,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300030,
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "루루티에……알겠다냥, 부탁해도 될까냥?",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 		{
 			actor = 10300030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네……맡겨주세요!",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "루루티에, 무리만 하지마……무슨 일 생기면 바로 달려갈 테니까.",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 		{
 			actor = 10300040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무슨 일 생기면 불러.",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			say = "그 때는 작전을 중지하고 바로 그쪽으로 가도록 하죠.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -174,7 +174,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300030,
@@ -191,7 +191,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "루루티에……조심해.",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 		{
 			actor = 10300030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 알겠어요……그럼, 다녀올게요!",
 			typewriter = {

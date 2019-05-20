@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"여름의 전골 대회?!\n\n<size=30>제4장 - 전골 먹을 때도 옷을?!</size>",
+					"여름의 전골 대회?!\n\n<size=45>제4장 - 전골 먹을 때도 옷을?!</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 			say = "저, 전골 대회…?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -135,7 +135,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,

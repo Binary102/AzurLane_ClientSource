@@ -9,6 +9,7 @@ slot1 = 0.35
 slot2 = 19.8
 slot0.CHAT_SHOW_TIME = 3
 slot0.CHAT_ANIMATION_TIME = 0.3
+slot0.SKIN_LIST_ALPHA_CONSTANT = 1
 slot3 = {}
 
 for slot7, slot8 in pairs(pg.character_voice) do
@@ -33,13 +34,12 @@ function slot0.preload(slot0, slot1)
 		slot6 = slot6 + 1
 	end
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot3:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot6, slot0.contextData.groupId * 10 + ((slot0.contextData.showTrans and slot3.trans and 9) or 0)), "", slot1)
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot3:isBluePrintGroup() and "0") or "") .. shipRarity2bgPrint(slot6, slot0.contextData.groupId * 10 + ((slot0.contextData.showTrans and slot3.trans and 9) or 0)), "", slot1)
 end
 
 function slot0.reloadCVKey(slot0)
 	slot0.currentSkin = slot0.groupSkinList[1]
 	slot0.currentSkinWord = pg.ship_skin_words[slot0.currentSkin.id]
-	slot0.currentSkinWordEx = pg.ship_skin_words_extra[slot0.currentSkin.id]
 
 	if slot0.currentSkinWord.voice_key >= 0 then
 		slot1 = Ship.getCVKeyID(slot0.currentSkin.id)
@@ -93,8 +93,7 @@ function slot0.setOwnedSkinList(slot0, slot1)
 end
 
 function slot0.flushHearts(slot0)
-	SetActive(slot0.labelHeartplus, slot0.shipGroup.hearts > 999)
-	setText(slot0.labelHeart, (slot1 > 999 and "999") or slot1)
+	setText(slot0.labelHeart, (slot0.shipGroup.hearts > 999 and "999+") or slot1)
 
 	slot0.labelHeart:GetComponent("Text").color = (slot0.shipGroup.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
 
@@ -103,8 +102,10 @@ function slot0.flushHearts(slot0)
 end
 
 function slot0.init(slot0)
+	slot0.maskTxts = {}
 	slot0.bg = slot0:findTF("bg")
 	slot0.painting = slot0:findTF("paint")
+	slot0.paintingInitPos = slot0.painting.transform.localPosition
 	slot0.chat = slot0:findTF("chat", slot0.painting)
 	slot0.chatBg = slot0:findTF("chatbgtop", slot0.chat)
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
@@ -114,21 +115,22 @@ function slot0.init(slot0)
 	setActive(slot0.chat, false)
 
 	slot0.name = slot0:findTF("name")
-	slot0.labelName = slot0:findTF("Text", slot0.name)
+	slot0.nameInitPos = slot0.name.transform.localPosition
+	slot0.labelName = slot0:findTF("name_mask/Text", slot0.name)
 	slot0.labelEnName = slot0:findTF("english_name", slot0.name)
-	slot0.shipType = slot0:findTF("ship_type/type", slot0.name)
+	slot0.shipType = slot0:findTF("type", slot0.name)
 	slot0.stars = slot0:findTF("stars", slot0.name)
 	slot0.star = slot0:findTF("star_tpl", slot0.stars)
-	slot0.btnBack = slot0:findTF("top/back")
-	slot0.leftProfile = slot0:findTF("profile_left_panel")
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.top = slot0:findTF("blur_panel/adapt/top")
+	slot0.btnBack = slot0:findTF("back", slot0.top)
+	slot0.leftProfile = slot0:findTF("blur_panel/adapt/profile_left_panel")
 	slot0.profile = slot0:findTF("profile_panel")
-
-	setText(slot0:findTF("bg/lines_panel/title/label_common/GameObject", slot0.profile), i18n("ship_profile_label_common"))
-	setText(slot0:findTF("bg/lines_panel/title/label_diff/GameObject", slot0.profile), i18n("ship_profile_label_diff"))
-
-	slot0.live2dBtn = slot0:findTF("L2D_btn")
+	slot0.profileBlurRect = slot0:findTF("bg", slot0.profile)
+	slot0.live2dBtn = slot0:findTF("L2D_btn", slot0.blurPanel)
 	slot0.live2dToggle = slot0.live2dBtn:Find("toggle")
 	slot0.live2dState = slot0.live2dBtn:Find("state")
+	slot0.bottomTF = slot0:findTF("bottom")
 	slot0.toggles = {
 		slot0:findTF("bottom/detail"),
 		slot0:findTF("bottom/profile"),
@@ -142,29 +144,20 @@ function slot0.init(slot0)
 
 	setActive(slot0.star, false)
 
-	slot0.top = slot0:findTF("top")
+	slot0.skinTimers = {}
 end
 
 function slot0.uiStartAnimating(slot0)
-	setAnchoredPosition(slot0.top, {
-		y = 83
-	})
-	shiftPanel(slot0.top, nil, 0, slot2, slot1, true, true)
+	slot1 = 0
 
-	slot0.tweens = topAnimation(slot0:findTF("bg/left", slot0.top), slot0:findTF("bg/right", slot0.top), slot0:findTF("bg/title_data", slot0.top), slot0:findTF("bg/profile", slot0.top), 0.3, function ()
-		slot0.tweens = nil
-	end)
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.top, nil, 83, 0.3, 0, true, true)
+	LeanTween.alphaCanvas(slot3, 1, slot2):setFrom(0)
+	LeanTween.alphaCanvas(slot4, 1, 0.3):setFrom(0)
 end
 
 function slot0.didEnter(slot0)
 	slot0:uiStartAnimating()
 	onButton(slot0, slot0.btnBack, function ()
-		slot0:uiExitAnimating()
-		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
+		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
@@ -195,9 +188,18 @@ function slot0.didEnter(slot0)
 	slot0:initCommon()
 	triggerToggle(slot0.toggles[1], true)
 	slot0:switchLive2d(false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+		groupName = LayerWeightConst.GROUP_SHIP_PROFILE
+	})
 end
 
 function slot0.onBackPressed(slot0)
+	if isActive(GameObject.Find("OverlayCamera/Overlay/UIMain/DialogPanel")) then
+		triggerButton(slot1.transform:Find("dialog/title/back"))
+
+		return
+	end
+
 	if LeanTween.isTweening(go(slot0.painting)) then
 		return
 	end
@@ -215,6 +217,9 @@ end
 
 function slot0.switchLive2d(slot0, slot1)
 	slot0.l2dIsOn = slot1
+
+	setActive(slot0:findTF("view_btn", slot0.profile), true)
+
 	slot2 = "live2d/" .. slot0.paintingName
 
 	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot4 == DownloadState.CheckFailure then
@@ -277,20 +282,60 @@ end
 
 function slot0.switchTo(slot0, slot1)
 	if slot0.index ~= slot1 then
+		slot2 = pg.UIMgr.GetInstance()
+
 		if slot1 == slot0.INDEX_DETAIL then
+			slot2:OverlayPanelPB(slot0.detailRight, {
+				pbList = {
+					slot0.detailRightBlurRect
+				},
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
+			slot2:UnOverlayPanel(slot0.profile, slot0._tf)
+			slot2:OverlayPanel(slot0.bottomTF, {
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE
+			})
 			LeanTween.moveX(rtf(slot0.detailLeft), 0, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.detailRight), 0, slot1):setEase(LeanTweenType.easeInOutSine)
-			LeanTween.moveX(rtf(slot0.profile), 680, slot1):setEase(LeanTweenType.easeInOutSine)
-			LeanTween.moveX(rtf(slot0.leftProfile), -265, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.profile), 850, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.leftProfile), -500, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveY(rtf(slot0.live2dBtn), -70, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x, slot1):setEase(LeanTweenType.easeInOutSine)
 		end
 
 		if slot1 == slot0.INDEX_PROFILE then
+			slot2:OverlayPanelPB(slot0.profile, {
+				pbList = {
+					slot0.profileBlurRect
+				},
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
+			slot2:UnOverlayPanel(slot0.detailRight, slot0._tf)
+			slot2:OverlayPanel(slot0.bottomTF, {
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+				groupName = LayerWeightConst.GROUP_SHIP_PROFILE
+			})
 			LeanTween.moveX(rtf(slot0.profile), 0, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.leftProfile), 0, slot1):setEase(LeanTweenType.easeInOutSine)
-			LeanTween.moveX(rtf(slot0.detailRight), 680, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.detailRight), 850, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveY(rtf(slot0.live2dBtn), 60, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
 		end
+
+		LeanTween.moveX(rtf(slot0.bottomTF), 850, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
+			LeanTween.moveX(rtf(slot0.bottomTF), -14, 0):setEase(LeanTweenType.easeInOutSine)
+		end))
 
 		slot0.index = slot1
 	end
@@ -313,30 +358,31 @@ function slot0.initCommon(slot0)
 end
 
 function slot0.initDetail(slot0)
-	slot0.detailLeft = slot0:findTF("detail_left_panel")
+	slot0.detailLeft = slot0:findTF("blur_panel/adapt/detail_left_panel")
 	slot0.lockBtn = slot0:findTF("lock_btn", slot0.detailLeft)
 	slot0.unlockBtn = slot0:findTF("unlock_btn", slot0.detailLeft)
-	slot0.labelHeart = slot0:findTF("heart/label/heart", slot0.detailLeft)
-	slot0.labelHeartplus = slot0:findTF("heart/label/heart+", slot0.detailLeft)
+	slot0.labelHeart = slot0:findTF("heart/label", slot0.detailLeft)
 	slot0.btnLike = slot0:findTF("heart/btnLike", slot0.detailLeft)
 	slot0.detailRight = slot0:findTF("detail_right_panel")
+	slot0.detailRightBlurRect = slot0:findTF("bg", slot0.detailRight)
 	slot0.viewBtn = slot0:findTF("view_btn", slot0.detailRight)
 	slot0.evaBtn = slot0:findTF("eva_btn", slot0.detailRight)
 	slot0.shareBtn = slot0:findTF("share_btn", slot0.detailRight)
-	slot0.skillContainer = slot0:findTF("bg/skill_panel/frame/skill_list/viewport/content", slot0.detailRight)
-	slot0.skillTpl = slot0:getTpl("bg/skill_panel/frame/skilltpl", slot0.detailRight)
-	slot0.emptyTpl = slot0:getTpl("bg/skill_panel/frame/emptytpl", slot0.detailRight)
-	slot0.addTpl = slot0:getTpl("bg/skill_panel/frame/addtpl", slot0.detailRight)
+	slot0.skillRect = slot0:findTF("bg/skill_panel/frame/skills_rect", slot0.detailRight)
+	slot0.skillPanel = slot0:findTF("skills", slot0.skillRect)
+	slot0.skillTpl = slot0:findTF("skilltpl", slot0.skillRect)
+	slot0.skillArrLeft = slot0:findTF("bg/skill_panel/frame/arrow1", slot0.detailRight)
+	slot0.skillArrRight = slot0:findTF("bg/skill_panel/frame/arrow2", slot0.detailRight)
 
 	slot0:flushHearts()
 	slot0:initSkills()
 
 	slot0.propertyPanel = PropertyPanel.New(slot0.detailRight:Find("bg/property_panel/frame"))
 
+	slot0.propertyPanel:initProperty(slot0.shipGroup.shipConfig.id)
+
 	if slot0.showTrans and slot0.shipGroup.trans then
 		slot0.propertyPanel:initRadar(slot0.shipGroup.groupConfig.trans_radar_chart)
-	else
-		slot0.propertyPanel:initProperty(slot0.shipGroup.shipConfig.id)
 	end
 
 	setActive(slot0.evaBtn, not slot0.showTrans)
@@ -361,37 +407,50 @@ function slot0.initSkills(slot0)
 		end)
 	end
 
-	for slot7, slot8 in ipairs(slot3) do
-		if slot0.shipGroup:isBluePrintGroup() then
-			for slot12, slot13 in ipairs(slot0.shipGroup:getBluePrintChangeSkillList()) do
-				if slot13[1] == slot8 then
-					slot8 = slot13[2]
+	slot4 = slot0.skillPanel.childCount
+	slot5 = (#slot3 - 1 < 3 and 3) or #slot3 - 1
 
-					break
-				end
-			end
+	for slot9 = slot4, slot5, 1 do
+		cloneTplTo(slot0.skillTpl, slot0.skillPanel)
+	end
+
+	for slot9 = 1, slot0.skillPanel.childCount, 1 do
+		slot11 = slot9 <= #slot3
+		slot12 = findTF(slot0.skillPanel:GetChild(slot9 - 1), "icon")
+
+		if slot11 then
+			LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot3[slot9]).icon, slot12)
+			setActive(slot0:findTF("icon", slot10), true)
+			setActive(slot0:findTF("add", slot10), false)
+			onButton(slot0, slot10, function ()
+				slot0:emit(slot1.SHOW_SKILL_INFO, slot2.id, {
+					id = slot2.id,
+					level = pg.skill_data_template[slot2.id].max_level
+				})
+			end, SFX_PANEL)
+		else
+			setActive(slot0:findTF("icon", slot10), false)
+			setActive(slot0:findTF("add", slot10), true)
 		end
 
-		onButton(slot0, slot10, function ()
-			slot0:emit(slot1.SHOW_SKILL_INFO, slot2.id, {
-				id = slot2.id,
-				level = pg.skill_data_template[slot2.id].max_level
-			})
-		end, SFX_PANEL)
-
-		slot2 = slot2 + 1
-
-		LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot8).icon, findTF(cloneTplTo(slot0.skillTpl, slot0.skillContainer), "icon"))
+		setActive(slot10, slot9 <= slot5)
 	end
 
-	for slot7 = 1, 3 - slot2, 1 do
-		cloneTplTo(slot0.addTpl, slot0.skillContainer)
+	setActive(slot0.skillArrLeft, #slot3 > 3)
+	setActive(slot0.skillArrRight, #slot3 > 3)
+
+	if #slot3 > 3 then
+		onScroll(slot0, slot0.skillRect, function (slot0)
+			setActive(slot0.skillArrLeft, slot0.x > 0.01)
+			setActive(slot0.skillArrRight, slot0.x < 0.99)
+		end)
+	else
+		GetComponent(slot0.skillRect, typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
 	end
 
-	if slot2 > 3 then
-		slot0.skillContainer.pivot = Vector2.New(0, 1)
-		slot0.skillContainer.anchoredPosition = Vector2.zero
-	end
+	setAnchoredPosition(slot0.skillPanel, {
+		x = 0
+	})
 end
 
 function slot0.paintView(slot0)
@@ -407,6 +466,19 @@ function slot0.paintView(slot0)
 		end
 
 		slot3 = slot3 + 1
+	end
+
+	for slot7, slot8 in ipairs({
+		slot0.detailRight,
+		slot0.profile,
+		slot0.bottomTF,
+		slot0.blurPanel
+	}) do
+		if slot8 and slot8.gameObject.activeSelf then
+			slot1[#slot1 + 1] = slot8
+
+			setActive(slot8, false)
+		end
 	end
 
 	slot0.painting:GetComponent("CanvasGroup").blocksRaycasts = false
@@ -452,7 +524,7 @@ function slot0.paintView(slot0)
 		end)
 		slot5:AddDragFunc(function (slot0, slot1)
 			if slot0 then
-				tf(slot1.painting).localPosition = Vector3(slot1.position.x * slot2 - slot3 - slot4, slot1.position.y * slot5 -  - slot1.position.y * slot5, -22)
+				tf(slot1.painting).localPosition = Vector3(slot1.position.x * slot2 - slot3 - slot4 - 150, slot1.position.y * slot5 -  - slot1.position.y * slot5, -22)
 			end
 		end)
 
@@ -497,12 +569,13 @@ function slot0.initProfile(slot0)
 	slot0.linesPanel = slot0:findTF("bg/lines_panel", slot0.profile)
 	slot0.prototypePanel = slot0:findTF("bg/prototype_panel", slot0.profile)
 
+	slot0:clearScrollTxt()
 	setActive(slot0.chat, true)
 
 	slot0.chat.localScale = Vector3(0, 0)
-	slot0.voiceTpl = slot0:getTpl("frame/lines_list/lines_tpl", slot0.linesPanel)
-	slot0.voiceContainer = slot0:findTF("frame/lines_list/Grid", slot0.linesPanel)
-	slot0.voiceScroll = slot0:findTF("frame/lines_list", slot0.linesPanel).gameObject:GetComponent(typeof(ScrollRect))
+	slot0.voiceTpl = slot0:getTpl("lines_list/lines_tpl", slot0.linesPanel)
+	slot0.voiceContainer = slot0:findTF("lines_list/Grid", slot0.linesPanel)
+	slot0.voiceScroll = slot0:findTF("lines_list", slot0.linesPanel).gameObject:GetComponent(typeof(ScrollRect))
 	slot1 = 1
 
 	if HXSet.isHx() then
@@ -525,55 +598,99 @@ function slot0.initProfile(slot0)
 		end
 	end
 
-	slot2 = slot0.shipGroup.shipConfig.nationality
+	slot3 = ScrollTxt.New(slot0:findTF("bg/author_panel/illustPanel/illustrator/label/mask", slot0.profile), slot0:findTF("bg/author_panel/illustPanel/illustrator/label/mask/Text", slot0.profile))
 
-	if LOCK_ILLUSTRATOR then
-		setText(slot0:findTF("bg/author_panel/illustrator/Text", slot0.profile), Nation.Nation2Name(slot2))
-	else
-		setText(slot0:findTF("bg/author_panel/illustrator/Text", slot0.profile), Nation.Nation2facionName(slot2) .. "-" .. Nation.Nation2Name(slot2))
-	end
-
+	slot3:setText(Nation.Nation2facionName(slot2) .. "-" .. Nation.Nation2Name(slot0.shipGroup.shipConfig.nationality))
+	table.insert(slot0.maskTxts, slot3)
 	slot0:shiftSkin(slot1)
 	slot0:setProfileInfo()
 
-	slot0.skinList = slot0:findTF("skin_container", slot0.leftProfile)
+	slot0.skinScroll = slot0:findTF("scroll", slot0.leftProfile)
+	slot0.skinViewport = slot0:findTF("Viewport", slot0.skinScroll)
+	slot0.skinList = slot0:findTF("skin_container", slot0.skinViewport)
 
 	if #slot0.groupSkinList == 1 or slot0.showTrans then
 		setActive(slot0.skinList, false)
 	else
+		slot0.centerY = slot0.skinScroll.transform.position.y
+		slot0.skinCanvasGroup = {}
+		slot0.constant = 0.00392156862745098
+
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.RemoveAllListeners(slot4)
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.AddListener(slot4, function (slot0)
+			for slot4, slot5 in ipairs(slot0.skinCanvasGroup) do
+				slot5.alpha = slot1.SKIN_LIST_ALPHA_CONSTANT / Mathf.Max(Mathf.Abs(slot5.transform.position.y - slot0.centerY), slot0.constant)
+			end
+		end)
 		setActive(slot0.skinList, true)
 
-		slot3 = slot0:getTpl("skin_tpl", slot0.skinList)
+		slot5 = slot0:getTpl("skin_tpl", slot0.skinList)
+		slot0.currSkin = nil
 
-		for slot7, slot8 in ipairs(slot0.groupSkinList) do
-			slot10 = ScrollTxt.New(findTF(slot9, "mask"), findTF(cloneTplTo(slot3, slot0.skinList), "mask/Text"))
+		for slot9, slot10 in ipairs(slot0.groupSkinList) do
+			slot11 = cloneTplTo(slot5, slot0.skinList)
 
-			if slot8.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot0.ownedSkinList, slot8.id) or (slot8.skin_type == Ship.SKIN_TYPE_REMAKE and slot0.shipGroup.trans) or (slot8.skin_type == Ship.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1) then
-				slot10:setText(HXSet.hxLan(slot8.name))
-				onButton(slot0, slot9, function ()
-					slot0:shiftSkin(slot0)
+			table.insert(slot0.skinNameList, slot12)
+			table.insert(slot0.skinCanvasGroup, GetOrAddComponent(slot11, typeof(CanvasGroup)))
+
+			if slot10.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot0.ownedSkinList, slot10.id) or (slot10.skin_type == Ship.SKIN_TYPE_REMAKE and slot0.shipGroup.trans) or (slot10.skin_type == Ship.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1) then
+				slot12:setText(HXSet.hxLan(slot10.name))
+				onButton(slot0, slot11, function ()
+					if slot0.currSkin ~= slot1 then
+						slot0:shiftSkin(slot0)
+
+						slot0.shiftSkin.currSkin = slot0
+					end
+
+					if slot0.prevSelected then
+						setActive(slot0.prevSelected, false)
+					end
+
+					slot0.prevSelected = slot2:Find("selected")
+
+					setActive(slot0.prevSelected, true)
 				end)
 			else
-				slot10:setText(HXSet.hxLan(slot8.name))
-				onButton(slot0, slot9, function ()
+				slot12:setText(HXSet.hxLan(slot10.name))
+				onButton(slot0, slot11, function ()
 					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
 				end)
+				setActive(slot11:Find("lock"), true)
+			end
+
+			if slot9 == 1 then
+				triggerButton(slot11, true)
+			end
+
+			setActive(slot11:Find("timelimit"), getProxy(ShipSkinProxy):getSkinById(slot10.id) and slot13:isExpireType() and not slot13:isExpired())
+
+			if slot0.skinTimers[slot10.id] then
+				slot0.skinTimers[slot10.id]:Stop()
+			end
+
+			if slot14 then
+				slot0.skinTimers[slot13.id] = Timer.New(function ()
+					setText(slot1:Find("timelimit/Text"), skinTimeStamp(slot0:getRemainTime()))
+				end, 1, -1)
+
+				slot0.skinTimers[slot13.id]:Start()
+				slot0.skinTimers[slot13.id].func()
 			end
 		end
 	end
 
-	slot3 = slot0:findTF("bg/wedding", slot0.profile)
+	slot4 = slot0:findTF("bg/wedding", slot0.profile)
 
 	if slot0.shipGroup.married == 1 then
-		setActive(slot3, true)
-		onButton(slot0, slot3, function ()
+		setActive(slot4, true)
+		onButton(slot0, slot4, function ()
 			slot0:emit(slot1.WEDDING_REVIEW, {
 				group = slot0.shipGroup,
 				skinID = slot0.currentSkin.id
 			})
 		end)
 	elseif slot0.shipGroup.married == 0 then
-		setActive(slot3, false)
+		setActive(slot4, false)
 	end
 
 	onButton(slot0, slot0:findTF("view_btn", slot0.profile), function ()
@@ -594,12 +711,12 @@ function slot0.initProfile(slot0)
 	slot0.languageChangeTF = slot0:findTF("bg/language_change", slot0.profile)
 	slot0.languageBtnCH = slot0:findTF("btn_ch", slot0.languageChangeTF)
 	slot0.languageBtnJP = slot0:findTF("btn_jp", slot0.languageChangeTF)
-	slot5 = pg.ship_skin_words[slot0.currentSkin.id / 10 * 10].voice_key
+	slot6 = pg.ship_skin_words[slot0.currentSkin.id / 10 * 10].voice_key
 
-	if pg.ship_skin_words[slot0.currentSkin.id / 10 * 10].voice_key_2 >= 0 or slot4 == -2 then
+	if pg.ship_skin_words[slot0.currentSkin.id / 10 * 10].voice_key_2 >= 0 or slot5 == -2 then
 		slot0.languageType = PlayerPrefs.GetInt("CV_LANGUAGE_" .. slot0.currentSkin.ship_group)
 
-		if slot0.languageType == 0 and slot4 > 0 then
+		if slot0.languageType == 0 and slot5 > 0 then
 			slot0.languageType = pg.gameset.language_default.key_value
 
 			PlayerPrefs.SetInt("CV_LANGUAGE_" .. slot0.currentSkin.ship_group, slot0.languageType)
@@ -653,7 +770,6 @@ function slot0.shiftSkin(slot0, slot1)
 
 	slot0.currentSkin = slot0.groupSkinList[slot1]
 	slot0.currentSkinWord = pg.ship_skin_words[slot0.currentSkin.id]
-	slot0.currentSkinWordEx = pg.ship_skin_words_extra[slot0.currentSkin.id]
 
 	slot0:setAuthorInfo((slot0.languageType == 2 and slot0.currentSkin.voice_actor_2) or slot0.currentSkin.voice_actor, slot0.currentSkin.illustrator)
 	slot0:switchVoiceList(false)
@@ -677,16 +793,12 @@ function slot0.switchVoiceList(slot0, slot1)
 				slot0:appendVoiceButton(pg.character_voice[slot6], true)
 			end
 		end
-
-		setText(slot0:findTF("bg/lines_panel/title/Text", slot0.profile), i18n("ship_profile_action_words"))
 	else
 		for slot5, slot6 in ipairs(slot0) do
 			if not pg.AssistantInfo.isDisableSpecialClick(slot6.key) then
 				slot0:appendVoiceButton(slot6, false)
 			end
 		end
-
-		setText(slot0:findTF("bg/lines_panel/title/Text", slot0.profile), i18n("ship_profile_words"))
 	end
 
 	slot0.voiceScroll.enabled = false
@@ -703,23 +815,16 @@ function slot0.loadSkinBg(slot0, slot1)
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
 
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot0.isDesign and "1") or "") .. slot1, "", function (slot0)
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot0.isDesign and "0") or "") .. slot1, "", function (slot0)
 			if not slot0.exited and slot0.shipSkinBg ==  then
 				setImageSprite(slot0.bg, slot0)
 			end
 		end)
 
 		if slot0.isDesign then
-			if not slot0.designBg or slot0.designBg.name ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) .. "(Clone)" then
-				if slot0.designBg then
-					PoolMgr.GetInstance():ReturnUI("raritydesign" .. slot0.designName, slot0.designBg)
-
-					slot0.designBg = nil
-				end
-
-				PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
+			if not slot0.designBg then
+				PoolMgr.GetInstance():GetUI("raritydesign5", true, function (slot0)
 					slot0.designBg = slot0
-					slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
 
 					slot0.transform:SetParent(slot0.bg, false)
 
@@ -755,37 +860,46 @@ function slot0.shiftPainting(slot0)
 end
 
 function slot0.loadModel(slot0)
+	if slot0.inLoading then
+		return
+	end
+
 	slot1 = slot0:findTF("model", slot0.leftProfile)
 
 	if not IsNil(slot0.characterModel) then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.modelName, slot0.characterModel)
 	end
 
+	slot0.inLoading = true
+
 	PoolMgr.GetInstance():GetSpineChar(slot0.currentSkin.prefab, true, function (slot0)
+		slot0.inLoading = false
 		slot0.name = slot0
 		slot0.transform.localPosition = Vector3.zero
-		slot0.transform.localScale = Vector3(0.4, 0.4, 1)
+		slot0.transform.localScale = Vector3(0.8, 0.8, 1)
 
-		slot0.transform:SetParent(slot0.transform.SetParent, false)
-		slot0:GetComponent(typeof(SpineAnimUI)).SetAction(slot2, slot2.currentSkin.show_skin or "stand", true)
+		slot0.transform:SetParent(slot0.transform, false)
+		slot0:GetComponent(typeof(SpineAnimUI)):SetAction(slot0.currentSkin.show_skin or "stand", true)
 
-		slot2.characterModel = slot0
-		slot2.modelName = slot0
+		slot0.characterModel = slot0
+		slot0.modelName = slot0
 	end)
 end
 
 function slot0.setAuthorInfo(slot0, slot1, slot2, slot3)
 	slot4 = nil
+	slot5 = ScrollTxt.New(slot0:findTF("cvPanel/label/mask", slot0.authorPanel), slot0:findTF("cvPanel/label/mask/Text", slot0.authorPanel))
 
-	setText(slot0:findTF("cv/Text", slot0.authorPanel), (slot1 == -1 and "-") or pg.voice_actor_CN[slot1].actor_name)
+	slot5:setText((slot1 == -1 and "-") or pg.voice_actor_CN[slot1].actor_name)
+	table.insert(slot0.maskTxts, slot5)
 end
 
 function slot0.setProfileInfo(slot0)
 	slot5, slot2 = Ship.getWords(slot0.currentSkin.id, "profile")
 
-	setText(slot0:findTF("frame/description/desc/Text", slot0.prototypePanel), slot1)
+	setText(slot0:findTF("desc/scroll/Text", slot0.prototypePanel), slot1)
 
-	slot3 = slot0:findTF("playButton", slot0.prototypePanel)
+	slot3 = slot0:findTF("title/playButton", slot0.prototypePanel)
 
 	if slot0.currentSkinWord.voice_key >= 0 then
 		setActive(slot3, true)
@@ -887,95 +1001,43 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 			end
 
 			if slot1.live2dChecked and slot1.l2dChar then
-				slot1.l2dChar:SetAction(pg.AssistantInfo.action2Id[slot5.l2d_action])
+				slot1.l2dChar:TriggerAction(slot5.l2d_action, true)
 			end
 		else
 			pg.TipsMgr:GetInstance():ShowTips(slot6)
 		end
 	end)
-
-	if slot9 then
-		slot0:appendVoiceExButton(slot1, slot6)
-	end
 end
 
-function slot0.appendVoiceExButton(slot0, slot1, slot2)
-	slot4 = (slot2 and "main") or slot1.key
-	slot6 = slot0.shipGroup.maxIntimacy / 100 + ((slot0.shipGroup.married == 1 and 1000) or 0)
-
-	for slot10, slot11 in ipairs(slot5) do
-		if slot11[1] <= slot6 then
-			if slot2 and slot2 > #string.split(slot11[2], "|") then
-				return
-			end
-
-			slot12 = cloneTplTo(slot0.voiceTpl, slot0.voiceContainer)
-
-			setActive(slot12, true)
-			setText(slot0:findTF("Text", slot12), slot1.voice_name .. "Ex")
-			onButton(slot0, slot12, function ()
-				if slot0._currentVoice then
-					slot0._currentVoice:Stop(true)
-				end
-
-				if slot1 == "headtouch" and textContent == nil then
-					LeanTween.cancel(slot0.chat.gameObject)
-
-					LeanTween.cancel.chat.localScale = Vector3(0, 0)
-				else
-					slot0:showChat(slot0, , slot3[1])
-				end
-
-				if slot0.characterModel then
-					slot0 = nil
-					slot0 = (slot4.spine_action == "" and "stand") or slot4.spine_action
-
-					(slot4.spine_action == "" and "stand") or slot4.spine_action.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0, 0)
-
-					slot0 = "stand"
-
-					if "stand" then
-						slot0 = slot4.spine_action
-					end
-				end
-
-				if slot0.live2dChecked and slot0.l2dChar then
-					slot0.l2dChar:SetAction(pg.AssistantInfo.action2Id[slot4.l2d_action])
-				end
-			end)
-		end
-	end
-end
-
-function slot0.showChat(slot0, slot1, slot2, slot3)
-	slot4, slot5, slot6, slot7 = nil
+function slot0.showChat(slot0, slot1, slot2)
+	slot3, slot4, slot5, slot6 = nil
 
 	if slot2 then
 		if findTF(slot0.painting, "fitter").childCount > 0 then
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, "main_" .. slot2)
 		end
 
-		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, "main", slot2, nil, slot3)
-		slot6 = Ship.getCVCalibrate(slot0.currentSkin.id, "main", slot2)
-		slot7 = Ship.getL2dSoundEffect(slot0.currentSkin.id, "main", slot2)
+		slot3, slot4 = Ship.getWords(slot0.currentSkin.id, "main", slot2)
+		slot5 = Ship.getCVCalibrate(slot0.currentSkin.id, "main", slot2)
+		slot6 = Ship.getL2dSoundEffect(slot0.currentSkin.id, "main", slot2)
 	else
 		if findTF(slot0.painting, "fitter").childCount > 0 then
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, slot1)
 		end
 
-		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, slot1, nil, nil, slot3)
-		slot6 = Ship.getCVCalibrate(slot0.currentSkin.id, slot1)
-		slot7 = Ship.getL2dSoundEffect(slot0.currentSkin.id, slot1)
+		slot3, slot4 = Ship.getWords(slot0.currentSkin.id, slot1)
+		slot5 = Ship.getCVCalibrate(slot0.currentSkin.id, slot1)
+		slot6 = Ship.getL2dSoundEffect(slot0.currentSkin.id, slot1)
 	end
 
-	slot8 = slot0.CHAT_SHOW_TIME
+	slot7 = slot0.CHAT_SHOW_TIME
 
 	if not slot0.live2dChecked then
-		slot6 = 0
+		slot5 = 0
 	end
 
-	if slot6 and slot6 > 0 then
-		slot8 = slot8 + slot6
+	if slot5 and slot5 > 0 then
+		slot7 = slot7 + slot5
 	end
 
 	if slot0.currentSkinWord.voice_key >= 0 then
@@ -983,7 +1045,7 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 			slot0._currentVoice:Stop(true)
 		end
 
-		function slot9()
+		function slot8()
 			nil._currentVoice, slot0 = playSoundEffect(slot1)
 
 			if slot3 then
@@ -1003,8 +1065,8 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 			slot0._delayVoiceTweenID = nil
 		end
 
-		if slot0.l2dChar and slot6 and slot6 ~= 0 then
-			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot6, System.Action(function ()
+		if slot0.l2dChar and slot5 and slot5 ~= 0 then
+			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot5, System.Action(function ()
 				slot0()
 
 				slot1._delayVoiceTweenID = nil
@@ -1012,7 +1074,7 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 				return
 			end)).id
 		else
-			slot9()
+			slot8()
 		end
 	end
 
@@ -1022,8 +1084,8 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 		slot0._delayL2dSeID = nil
 	end
 
-	if slot0.l2dChar and slot7 then
-		slot0._delayL2dSeID = LeanTween.delayedCall(slot7[2], System.Action(function ()
+	if slot0.l2dChar and slot6 then
+		slot0._delayL2dSeID = LeanTween.delayedCall(slot6[2], System.Action(function ()
 			playSoundEffect("event:/ui/" .. slot0[1])
 
 			"event:/ui/" .. slot0[1]._delayL2dSeID = nil
@@ -1032,16 +1094,16 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 		end)).id
 	end
 
-	setText(slot0.chatText, slot4)
+	setText(slot0.chatText, slot3)
 
 	if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
-		slot9.alignment = TextAnchor.MiddleLeft
+		slot8.alignment = TextAnchor.MiddleLeft
 	else
-		slot9.alignment = TextAnchor.MiddleCenter
+		slot8.alignment = TextAnchor.MiddleCenter
 	end
 
-	if slot0.initChatBgH < slot9.preferredHeight + 26 then
-		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot10)
+	if slot0.initChatBgH < slot8.preferredHeight + 120 then
+		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot9)
 	else
 		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
 	end
@@ -1049,86 +1111,45 @@ function slot0.showChat(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(slot0.chat.gameObject)
 
 	slot0.chat.localScale = Vector3(0, 0)
-	slot12 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack)
-	slot11 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack).setDelay
+	slot11 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack)
+	slot10 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack).setDelay
+	slot12 = (slot5 and slot5) or 0
 
-	if not slot6 or not slot6 then
-		slot13 = 0
-	end
-
-	slot11(slot12, slot13):setOnComplete(System.Action(function ()
+	slot10(LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack), slot12):setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(slot0.CHAT_ANIMATION_TIME + LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeInBack))
 
 		return
 	end))
 
 	return
+
+	if not slot5 then
+		slot12 = 0
+	end
 end
 
 function slot0.createLive2D(slot0, slot1)
 	setActive(slot0.painting:Find("fitter"), false)
 
-	if slot0.l2dLoading then
-		return
-	end
-
-	slot0.l2dLoading = true
-
 	if slot0.l2dChar then
-		pg.Live2DMgr.GetInstance():AddRefCount(slot0.l2dChar.name)
-		Destroy(slot0.l2dChar)
-
-		slot0.l2dChar = nil
+		slot0.l2dChar:Dispose()
 	end
 
-	pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot1, function (slot0)
-		slot0.l2dLoading = false
+	setActive(slot2, true)
 
-		if slot0.exited then
-			Destroy(slot0)
+	slot0.l2dChar = Live2D.New(Live2D.live2dData({
+		ship = Ship.New({
+			configId = slot0.shipGroup:getShipConfigId(),
+			skin_id = slot0.currentSkin.id
+		}),
+		scale = Vector3(52, 52, 52),
+		position = Vector3(0, -40, 100),
+		parent = slot0:findTF("live2d", slot0.painting)
+	}))
 
-			return
-		end
-
-		slot1 = slot0:findTF("live2d", slot0.painting)
-
-		UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
-		slot0.transform.SetParent(slot2, slot1, true)
-
-		slot0.transform.localScale = Vector3(52, 52, 52)
-		slot0.transform.localPosition = Vector3(0, -40, 100) + slot0.live2dOffset
-		slot0.l2dChar = GetComponent(slot0, "Live2dChar")
-		slot0.l2dChar.name = slot1
-
-		function slot0.l2dChar.FinishAction(slot0)
-			if slot0 ~= slot0 then
-				slot1.l2dChar:SetAction(slot0)
-			end
-
-			return
-		end
-
-		slot0.l2dChar:SetAction(slot3)
-		setActive(slot1, true)
-
-		if CSharpVersion > 18 then
-			slot6 = pg.ship_skin_template[slot0.currentSkin.id].lip_smoothing
-
-			if pg.ship_skin_template[slot0.currentSkin.id].lip_sync_gain and slot5 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Gain = slot5
-			end
-
-			if slot6 and slot6 ~= 0 then
-				slot1:GetChild(0):GetComponent("CubismCriSrcMouthInput").Smoothing = slot6
-			end
-		end
-
-		if not slot0.l2dIsOn then
-			slot0:hideLive2D()
-		end
-
-		return
-	end)
+	if not slot0.l2dIsOn then
+		slot0:hideLive2D()
+	end
 
 	return
 end
@@ -1143,10 +1164,25 @@ function slot0.hideLive2D(slot0)
 	return
 end
 
-function slot0.willExit(slot0)
-	if slot0.designBg then
-		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+function slot0.clearScrollTxt(slot0)
+	if slot0.skinNameList ~= nil and #slot0.skinNameList > 0 then
+		for slot4, slot5 in ipairs(slot0.skinNameList) do
+			slot5:destroy()
+		end
 	end
+
+	slot0.skinNameList = {}
+
+	return
+end
+
+function slot0.willExit(slot0)
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot1:UnOverlayPanel(slot0.detailRight, slot0._tf)
+	slot1:UnOverlayPanel(slot0.profile, slot0._tf)
+	slot1:UnOverlayPanel(slot0.bottomTF, slot0._tf)
 
 	if slot0._delayVoiceTweenID then
 		LeanTween.cancel(slot0._delayVoiceTweenID)
@@ -1196,8 +1232,7 @@ function slot0.willExit(slot0)
 	end
 
 	if slot0.l2dChar then
-		slot0.l2dChar:ClearPics()
-		pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.l2dChar.name)
+		slot0.l2dChar:Dispose()
 
 		slot0.l2dChar = nil
 	end
@@ -1207,6 +1242,16 @@ function slot0.willExit(slot0)
 
 		slot0.live2dTimer = nil
 	end
+
+	for slot5, slot6 in ipairs(slot0.maskTxts) do
+		slot6:destroy()
+	end
+
+	for slot5, slot6 in pairs(slot0.skinTimers) do
+		slot6:Stop()
+	end
+
+	slot0.skinTimers = nil
 
 	return
 end

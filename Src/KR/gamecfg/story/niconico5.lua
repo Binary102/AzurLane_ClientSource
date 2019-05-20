@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最近,綾波の様子が…？\n\n<size=30>その五　綾波更生計画・中</size>",
+					"最近,綾波の様子が…？\n\n<size=45>その五　綾波更生計画・中</size>",
 					1
 				}
 			}
@@ -16,7 +16,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "綾波～明石がめっちゃすぺしゃるなケーキを作ったで！指揮官,ケーキ券を二枚くれたんやけど――",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "部屋に引きこもらんでうちと一緒にケーキを食べに行かへん？",
 			typewriter = {
@@ -45,7 +45,7 @@ return {
 		},
 		{
 			actor = 900053,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "うっ…ケーキ…",
@@ -65,7 +65,7 @@ return {
 		{
 			actor = 900053,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "だが断る,です！",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 		{
 			actor = 900053,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "今日の新着動画……まだチェックが終わっていない,です……",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 306054,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "んな！……やっぱケーキじゃアカンっちゅうことか……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 		{
 			actor = 306054,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "『ゲキウマ大作戦』,失敗したで……",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 301114,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "なるほどね！「きたかぜとたいよう」にすればいいよ！",
 			flashout = {
 				dur = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			actor = 306054,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "「きたかぜとたいよう」？",
@@ -176,7 +176,7 @@ return {
 		{
 			actor = 301114,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "そう！えっとね,「きたかぜとたいよう」っていうのは,同じことをずっとやらせると,いつか絶対飽きるってことだよ！うんうん,暁はそう言ってた！",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 		{
 			actor = 306054,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "そ,そうやな……",
 			typewriter = {

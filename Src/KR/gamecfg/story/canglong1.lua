@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"소류 씨와 함께\n\n<size=30>제1장 - 자업자득?</size>",
+					"소류 씨와 함께\n\n<size=45>제1장 - 자업자득?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "소류라고 합니다. 지휘관님, 이제부터는 뭔가 이상한 짓을 하기 전에 반드시 문서를 작성해서 신청해주십시오.",
 			flashout = {
 				dur = 1,
@@ -129,7 +129,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "안녕하십니까, 지휘관님. 서류는 전부 정리해두었습니다. 검토 부탁드립니다.",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 업무 중에는 말 걸지 말아주시기 바랍니다. 오늘 처리할 일이 아직 잔뜩 쌓여있습니다.",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 제 함재기들이 이미 전방위에서 목표를 조준 중이오니,",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "업무 시간에는 제대로 업무에 집중해주시기 바랍니다.",
 			typewriter = {
@@ -302,7 +302,7 @@ return {
 			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 또 서류 보는 척하면서 이상한 생각 하고 계신 건 아니시죠?",
 			typewriter = {

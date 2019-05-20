@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			say = "혹시 아무나 저 녀석을 유인해 줄 수 있을까냥?",
@@ -25,7 +25,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "유인한다……양동작전인가요?",
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 401230,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시씨, 뭔가 대책이 있는 거죠?",
 			typewriter = {
@@ -60,7 +60,7 @@ return {
 		{
 			actor = 312010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "있다냥. 이유는 모르겠지만, 이 '결계' 가 쳐진 거울해역은 아카시의 방해 전파가 통한다냥.",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 		{
 			actor = 312010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "계속 시도하다 보면 저쪽 세계의 사람과 힘을 합쳐 세이렌의 '결계' 를 깰 수 있을지도 모른다냥.",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 		{
 			actor = 312010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "잘만 되면, 녀석들의 계획을 망칠 수 있을……거다냥.",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알았어……라피, 할게.",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 		{
 			actor = 201210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "재블린도 도울게요!",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 		{
 			actor = 312010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아니다냥……이 작전은 쿠온 일행의 누군가에게 부탁해야 된다냥.",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리들 한테?",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "세이렌은 아카시보다도 다른 세계에서 온 쿠온네를 주목하고 있다냥. 아마 모두의 데이터를 얻고 싶어하는 거겠지냥.",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 		{
 			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저희들이 양동작전에 더 적합하단 건가요?",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어려운 부탁이란 건 물론 잘 알고 있지만냥……부탁해도 될까냥?",
 			typewriter = {
 				speed = 0.05,

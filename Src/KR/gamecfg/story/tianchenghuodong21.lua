@@ -12,7 +12,7 @@ return {
 			actor = 304050,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 장식, 받아주시겠습니까? 부적 대신 쓸 수 있도록.",
 			flashin = {
 				delay = 1,
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "실은 아카기에게도 같은 걸 준비했답니다. 당신에게 주는 것은 나머지 한 짝…아니, 예비용랄까요.",
 			typewriter = {
 				speed = 0.05,
@@ -63,7 +63,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후후, 오던 길에 신사에서 샀을 뿐이니, 그렇게 진지한 얼굴로 생각하지 않아도 된답니다. 자, 어서 받아요.",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 		{
 			actor = 305070,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "(아마기씨가 남에게 뭔가 선물하는 걸 지금까지 본 적이 없는데……) 그, 그럼 잘 쓰겠습니다.",
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네, 몸에 지니고 다니시면 기쁘겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 305070,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "네 네 알겠다고요, 아마기씨.",

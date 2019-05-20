@@ -9,7 +9,7 @@ return {
 		{
 			actor = 10100010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "스테이지 4도 무사 클리어! 넵튠 군단이 향하는 곳엔 오로지 승리뿐!",
 			typewriter = {
@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 10100020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "누가 넵튠 군단이란 거야! 멋대로 결성하지 마!",
@@ -43,7 +43,7 @@ return {
 		{
 			actor = 10100030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……이걸로 끝인가?",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 10100040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이스투아르의 말이 맞다면, 이 해역이 마지막일 텐데……",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 		{
 			say = "네, 여러분 수고하셨습니다.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -90,7 +90,7 @@ return {
 		{
 			actor = 10100010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "잇승?! 그럼……지금 게 진짜로 마지막 스테이지?!",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 		{
 			say = "그렇게 되네요. 거울해역에서의 정보, 여러분의 가짜가 갖고 있던 데이터…… 전부 수집이 끝났습니다.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -122,7 +122,7 @@ return {
 		{
 			say = "이제 게임업계와 그쪽의 차원을 잇는 웜홀을 만들 수 있습니다. 언제라도 돌아오실 수 있어요.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -139,7 +139,7 @@ return {
 		{
 			actor = 10100010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "해냈다~! 게임 클리어~! 컹그뤠츄뤠이션~♪",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 		},
 		{
 			actor = 10100020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "수고는 했지만, 이걸로 일단락되겠군.",
@@ -173,7 +173,7 @@ return {
 		{
 			actor = 10100030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……후우, 드디어 돌아갈 수 있게 됐어.",
 			typewriter = {
@@ -188,7 +188,7 @@ return {
 		{
 			actor = 10100040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "꽤 신선한 체험이었네요…… 하지만, 돌아가야 하는 건가요……",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 		{
 			actor = 101170,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "네푸네푸…… 돌아가는 거야?",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -234,7 +234,7 @@ return {
 		{
 			actor = 10100020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모두…… 미안해. 하지만 우리 4여신이 너무 오래 게임업계를 비우고 있을 순 없거든.",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 		{
 			actor = 10100010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "와앙! 싫어 싫어 싫어! 아직 돌아가기 싫어~! 좀 더 이 세계에서 모두랑 같이 놀고 싶어~! 돌아갈 예정일 늦추자, 한 3개월만!",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 		{
 			actor = 10100030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그게 되겠냐! 돌아갈 수 있게 되었으면 돌아가야지!",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 		{
 			actor = 401230,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 역시 아쉽네요……",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래! 적어도 하루나 사흘 정도 쉬어도 되잖아?",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 		{
 			actor = 10100040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇네요. 조금만 더, 모두와 함께 있어도……",
 			typewriter = {
@@ -324,7 +324,7 @@ return {
 		{
 			actor = 10100020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨까지 무슨 소릴 하는 거야?! 이스투아르, 빨리 돌아가야 하는 거지?",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 		{
 			say = "네, 되도록 빨리 돌아와 주세요.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -356,7 +356,7 @@ return {
 		{
 			say = "하지만 이쪽 차원에서 다시 가려고 마음먹으면, 언제든 다시 갈 수 있다고요.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -373,7 +373,7 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 10100010,
 			dir = -1,
 			hideOther = true,
@@ -384,7 +384,7 @@ return {
 					actor = 10100020,
 					dir = 1,
 					pos = {
-						x = -680
+						x = -1020
 					}
 				}
 			},
@@ -400,7 +400,7 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 10100030,
 			dir = 1,
 			hideOther = true,
@@ -411,7 +411,7 @@ return {
 					actor = 10100040,
 					dir = 1,
 					pos = {
-						x = 680
+						x = 1020
 					}
 				}
 			},
@@ -436,7 +436,7 @@ return {
 		{
 			say = "이번 일로 게임업계와 그쪽 차원의 친화성이 발견되어서 말이죠. 차원을 잇는 웜홀은 언제든 열 수 있습니다.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -453,7 +453,7 @@ return {
 		{
 			say = "그러므로, 이별은 아주 잠깐입니다. 만나려고 마음만 먹으면, 내일이라도 다시 올 수 있으니까, 이별을 슬퍼할 필요는 없어요.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -470,7 +470,7 @@ return {
 		{
 			actor = 10100010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "자……잘 됐다~! 모두와 계속 함께야~!",
 			typewriter = {
@@ -484,7 +484,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "……응, 네푸네푸, 매일 놀러 와……",
@@ -504,7 +504,7 @@ return {
 		{
 			actor = 10100010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "응응! 나, 맨날 모두랑 만나러 올게! 산소 콜라 갖고 기다리고 있어!",
 			typewriter = {
@@ -519,7 +519,7 @@ return {
 		{
 			actor = 10100020,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어이! 그런 건 너무 염치없잖아! 모두한테 민폐라고!",
 			typewriter = {
@@ -534,7 +534,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아뇨 아뇨, 사양 말고 와주세요. 언제든지 환영합니다.",
 			typewriter = {
@@ -549,7 +549,7 @@ return {
 		{
 			actor = 10100040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머 어머, 그렇게 얘기해준다면…… 이 언니도 매일 와야겠네요!",
 			typewriter = {
@@ -564,7 +564,7 @@ return {
 		{
 			actor = 10100030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……벨은 진짜 들어앉을 테니까 못 오게 하는 편이 좋을걸.",
 			typewriter = {
@@ -578,7 +578,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -595,7 +595,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고 가끔, 우리랑 같이 출격도 하자, 응?",
 			typewriter = {
@@ -610,7 +610,7 @@ return {
 		{
 			actor = 10100010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇네, 모처럼 장비도 받았으니…… 우리들도 싸울게!",
 			typewriter = {

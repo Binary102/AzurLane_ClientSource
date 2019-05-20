@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"무희 천사 에밀\n\n<size=30>황금의 우정?</size>",
+					"무희 천사 에밀\n\n<size=45>황금의 우정?</size>",
 					1
 				}
 			}

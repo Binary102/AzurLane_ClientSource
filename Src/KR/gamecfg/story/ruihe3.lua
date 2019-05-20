@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>三  {namecode:96}与前辈们</size>",
+					"幸运之鹤\n\n<size=45>三  {namecode:96}与前辈们</size>",
 					1
 				}
 			}
@@ -27,7 +27,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 		},
 		{
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			withoutPainting = true,
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -228,7 +228,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "该高兴还是该难过呢……心情真微妙……",
 			typewriter = {
 				speed = 0.05,

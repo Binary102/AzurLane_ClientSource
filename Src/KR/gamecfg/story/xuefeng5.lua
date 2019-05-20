@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>五　{namecode:22}和游乐园·上</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>五　{namecode:22}和游乐园·上</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
 			flashout = {
 				dur = 0.5,
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
 			flashout = {
 				dur = 0.5,
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
 			flashout = {
 				dur = 0.5,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -198,7 +198,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -259,7 +259,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -269,7 +269,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 301160,
@@ -289,7 +289,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -306,7 +306,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "要、要死了……",
 			flashout = {
 				dur = 0.5,
@@ -363,13 +363,13 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -390,7 +390,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}

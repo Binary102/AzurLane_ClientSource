@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"벚꽃놀이 대소동\n\n<size=30>제4장 - 연회의 시작</size>",
+					"벚꽃놀이 대소동\n\n<size=45>제4장 - 연회의 시작</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼, 봄철 벚꽃놀이를 시작해볼까요~!",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쇼카쿠 언니~ 이 튀김 맛있어~",
 			flashout = {
 				dur = 1,
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇구나! 모두가 함께 폭풍 흡입하는 게 '벚꽃놀이' 구나!",
 			flashout = {
 				dur = 1,
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -175,7 +175,7 @@ return {
 		},
 		{
 			actor = 302010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -191,7 +191,7 @@ return {
 		},
 		{
 			actor = 301200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			actor = 301200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -257,7 +257,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",

@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			bgm = "level-uta",
 			actor = 10300060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후후, 여기는 이 언니에게 맡겨주시길.",
 			flashin = {
 				delay = 0,
@@ -31,7 +31,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -48,7 +48,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네, 그럴 생각이에요.",
 			typewriter = {
@@ -62,7 +62,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300060,
@@ -78,7 +78,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300060,
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머머머! 어째서 다른 데도 전부 벗겨질 것만 같은 건데요?!",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -119,7 +119,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -135,7 +135,7 @@ return {
 		},
 		{
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "주인님을 매료시키기 위한 자연스러운 유혹, 늘 많이 배우고 있습니다.",
@@ -154,7 +154,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -171,7 +171,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "물론이에요, 쿠온의 곁으로 반드시 돌아올 테니까요.",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후미뤼르씨, 위험한 임무이지만……잘 부탁드립니다.",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조심해요……무리는 하지 말았으면 하는 거에요.",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알고 있습니다. 그럼, 잠깐 다녀올게요.",
 			typewriter = {

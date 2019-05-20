@@ -6,7 +6,7 @@ return {
 		{
 			actor = 404010,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "嘿，是皇家的小不点吗，没想到最后站到我们面前的是你啊，今天没带着僵尸妹妹嘛～",
 			shake = {
 				speed = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 404020,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "你的直觉并没有错，不愧是黑暗界小姐。欧根和吕佐夫倒是充满斗志的样子，虽然我觉得吕佐夫只是单纯的想吃而已……我们会在这里与其说是对巧克力有所执着，倒不如说是单纯地对这场竞争有兴趣，尤其是姐姐……",
 			shake = {
 				speed = 1,
@@ -63,7 +63,7 @@ return {
 		{
 			actor = 404010,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "我听到了战争之神的呼唤！他在我的脑海里高喊着“战斗吧！战斗吧！战斗吧！”，哇哈哈哈哈，来吧，让我们尽情大闹一场吧！",
 			shake = {
 				speed = 1,
@@ -81,7 +81,7 @@ return {
 		{
 			actor = 404020,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "如你所见……",
 			shake = {
 				speed = 1,
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 404010,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "哼，那就废话少说，来吧！",
 			shake = {
 				speed = 1,

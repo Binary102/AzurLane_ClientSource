@@ -6,7 +6,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "SP3·营救猫音剧情测试",
 			shake = {
 				speed = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "营救猫音成功",
 			shake = {
 				speed = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			shake = {
 				speed = 1,

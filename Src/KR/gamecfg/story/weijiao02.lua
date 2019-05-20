@@ -9,7 +9,7 @@ return {
 		{
 			actor = 203080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "설마 정말로 메탈 블러드의 함대가 있을 줄은……인정하긴 싫지만 네 판단이 옳았던 것 같군. 그럼 어서 정리하고 라플라타 강 하구로 서두르지.",
 			typewriter = {
@@ -43,7 +43,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 당신은……Z클래스?",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "동생이 많아서 힘들겠어요, 그렇죠?",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇군요. 우리 리엔더와 비슷할 정도로 좋은 언니네요.",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러고 보니 슬슬 그라프 슈피도 라플라타 강 하구에 도착할 때가 됐죠?",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 발끈하기는…이쪽이 더 괴롭히는 맛이 있겠네요…엑세터, 전투 준비를!",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 		{
 			actor = 203080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알겠어! 왠지 모르게 상대에게 동정심이 생기는데……",
 			typewriter = {

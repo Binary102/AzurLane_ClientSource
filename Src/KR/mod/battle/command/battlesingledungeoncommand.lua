@@ -28,8 +28,12 @@ function slot3.DoPrologue(slot0)
 		slot0._uiMediator:OpeningEffect(function ()
 			slot0._uiMediator:ShowAutoBtn()
 			slot0._uiMediator.ShowAutoBtn._uiMediator:ShowTimer()
-			slot0._uiMediator.ShowAutoBtn._uiMediator.ShowTimer._state:ChangeState(slot1.Battle.BattleState.BATTLE_STATE_FIGHT)
-			slot0._uiMediator.ShowAutoBtn._uiMediator.ShowTimer._state.ChangeState._waveUpdater:Start()
+
+			slot0 = slot0._uiMediator.ShowAutoBtn._uiMediator.ShowTimer._state:GetCommandByName(slot1.Battle.BattleControllerWeaponCommand.__name)
+
+			slot0:TryAutoSub()
+			slot0._state:ChangeState(slot1.Battle.BattleState.BATTLE_STATE_FIGHT)
+			slot0._waveUpdater:Start()
 		end)
 
 		slot0 = slot0._uiMediator.OpeningEffect._dataProxy:GetFleetByIFF(slot1.Battle.BattleConfig.FRIENDLY_CODE)

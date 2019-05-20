@@ -19,11 +19,9 @@ function slot0.init(slot0)
 
 	slot0.displayList = {}
 	slot0.typeList = {}
-	slot0.circle1 = slot0:findTF("circle1", slot0.panel)
-	slot0.circle2 = slot0:findTF("circle2", slot0.panel)
-	slot0.btnConfirm = slot0:findTF("ok", slot0.panel)
-	slot0.btnCancel = slot0:findTF("cancel", slot0.panel)
-	slot0.blackSprite = slot0:findTF("resource/black", slot0.panel):GetComponent(typeof(Image)).sprite
+	slot0.btnConfirm = slot0:findTF("layout/btns/ok", slot0.panel)
+	slot0.btnCancel = slot0:findTF("layout/btns/cancel", slot0.panel)
+	slot0.greySprite = slot0:findTF("resource/grey", slot0.panel):GetComponent(typeof(Image)).sprite
 	slot0.blueSprite = slot0:findTF("resource/blue", slot0.panel):GetComponent(typeof(Image)).sprite
 	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
 end
@@ -50,7 +48,6 @@ function slot0.didEnter(slot0)
 	slot0.panel.localScale = Vector3.zero
 
 	LeanTween.scale(slot0.panel, Vector3(1, 1, 1), 0.2)
-	slot0:circleRotate(true)
 	slot0:initDisplays()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
@@ -96,8 +93,9 @@ function slot0.initSort(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot7, slot6, true)
-			setImageSprite(slot2, slot1.blackSprite)
+			setText(slot6, slot5)
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
 			onButton(slot1, slot2, function ()
 				slot0.contextData.sort = slot1
 
@@ -114,8 +112,9 @@ function slot0.updateSort(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplaySort]
 
 	slot0.displayList[IndexConst.DisplaySort]:each(function (slot0, slot1)
-		setImageSprite(slot1, (slot0.contextData.sort == slot1[slot0 + 1] and slot0.yellowSprite) or slot0.blackSprite)
-		setOutlineColor(findTF(slot1, "Image"), (slot0.contextData.sort == slot1[slot0 + 1] and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
+		slot3 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (slot0.contextData.sort == slot1[slot0 + 1] and slot0.yellowSprite) or slot0.greySprite)
 	end)
 end
 
@@ -131,8 +130,9 @@ function slot0.initIndex(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot7, slot6, true)
-			setImageSprite(slot2, slot1.blackSprite)
+			setText(slot6, i18n(slot5))
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
 			onButton(slot1, slot2, function ()
 				slot0.contextData.index = IndexConst.ToggleBits(slot0.contextData.index, IndexConst.ToggleBits, IndexConst.IndexAll, )
 
@@ -149,8 +149,9 @@ function slot0.updateIndex(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayIndex]
 
 	slot0.displayList[IndexConst.DisplayIndex]:each(function (slot0, slot1)
-		setImageSprite(slot1, (bit.band(slot1.contextData.index, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.yellowSprite) or slot1.blackSprite)
-		setOutlineColor(findTF(slot1, "Image"), (bit.band(slot1.contextData.index, bit.lshift(1, slot0[slot0 + 1])) > 0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
+		slot4 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (bit.band(slot1.contextData.index, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.yellowSprite) or slot1.greySprite)
 	end)
 end
 
@@ -166,8 +167,9 @@ function slot0.initCamp(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot7, slot6, true)
-			setImageSprite(slot2, slot1.blackSprite)
+			setText(slot6, i18n(slot5))
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
 			onButton(slot1, slot2, function ()
 				slot0.contextData.camp = IndexConst.ToggleBits(slot0.contextData.camp, IndexConst.ToggleBits, IndexConst.CampAll, )
 
@@ -184,8 +186,9 @@ function slot0.updateCamp(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayCamp]
 
 	slot0.displayList[IndexConst.DisplayCamp]:each(function (slot0, slot1)
-		setImageSprite(slot1, (bit.band(slot1.contextData.camp, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.blueSprite) or slot1.blackSprite)
-		setOutlineColor(findTF(slot1, "Image"), (bit.band(slot1.contextData.camp, bit.lshift(1, slot0[slot0 + 1])) > 0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
+		slot4 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (bit.band(slot1.contextData.camp, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.blueSprite) or slot1.greySprite)
 	end)
 end
 
@@ -201,8 +204,9 @@ function slot0.initRarity(slot0)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot7, slot6, true)
-			setImageSprite(slot2, slot1.blackSprite)
+			setText(slot6, i18n(slot5))
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
 			onButton(slot1, slot2, function ()
 				slot0.contextData.rarity = IndexConst.ToggleBits(slot0.contextData.rarity, IndexConst.ToggleBits, IndexConst.RarityAll, )
 
@@ -219,24 +223,14 @@ function slot0.updateRarity(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayRarity]
 
 	slot0.displayList[IndexConst.DisplayRarity]:each(function (slot0, slot1)
-		setImageSprite(slot1, (bit.band(slot1.contextData.rarity, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.blueSprite) or slot1.blackSprite)
-		setOutlineColor(findTF(slot1, "Image"), (bit.band(slot1.contextData.rarity, bit.lshift(1, slot0[slot0 + 1])) > 0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
-	end)
-end
+		slot4 = findTF(slot1, "Image")
 
-function slot0.circleRotate(slot0, slot1)
-	if slot1 then
-		LeanTween.rotate(rtf(slot0.circle1), 360, 5):setLoopClamp()
-		LeanTween.rotate(rtf(slot0.circle2), -360, 5):setLoopClamp()
-	else
-		LeanTween.cancel(go(slot0.circle1))
-		LeanTween.cancel(go(slot0.circle2))
-	end
+		setImageSprite(slot1, (bit.band(slot1.contextData.rarity, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.blueSprite) or slot1.greySprite)
+	end)
 end
 
 function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0.panel))
-	slot0:circleRotate(false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

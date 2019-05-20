@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=30>四 是敌是友？</size>",
+					"我的美好回忆\n\n<size=45>四 是敌是友？</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我经常在想…像这样巡逻的时候，还是要有点“事件”发生才好呢…",
 			typewriter = {
 				speed = 0.05,
@@ -46,7 +46,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "阿贾克斯……",
 			flashout = {
 				dur = 1,
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -189,7 +189,7 @@ return {
 		},
 		{
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 		},
 		{
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
@@ -267,7 +267,7 @@ return {
 		},
 		{
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -303,7 +303,7 @@ return {
 		},
 		{
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
@@ -319,7 +319,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 		},
 		{
 			actor = 403050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
@@ -351,7 +351,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,

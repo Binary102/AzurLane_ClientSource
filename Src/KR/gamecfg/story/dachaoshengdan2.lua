@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=30>二　来自重樱的建议</size>",
+					"圣诞礼物大作战！\n\n<size=45>二　来自重樱的建议</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			actorName = "{namecode:146}",
 			bgm = "story-1",
 			actor = 301641,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "star_level_bg_104",
 			say = "{namecode:142}酱，不要着急嘛！再等一会，就一会，我马上就选好了啦！",
 			flashout = {
@@ -57,7 +57,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "等不下去啦！说到底为什么选个礼物要花上两个小时啊！",
 			actor = 301591,
@@ -76,7 +76,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -89,7 +89,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301641,
 			actorName = "{namecode:146}",
@@ -107,7 +107,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301591,
 			actorName = "{namecode:142}",
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "嗯？是重樱的驱逐舰们呢，似乎是发生了争吵？",
 			flashout = {
 				dur = 0.5,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是的，我们正是来为伙伴们购买礼物的，虽然……还没决定要买什么。",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
@@ -242,7 +242,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -255,7 +255,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我们也不希望耽误了你们的时间。不过，你们的服装，有些令我在意，这就是圣诞节时大家穿的服装吗？",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301591,
 			actorName = "{namecode:142}",
@@ -289,7 +289,7 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301641,
 			actorName = "{namecode:146}",
@@ -307,7 +307,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哦！原来是亲手制作的服装，的确很有圣诞节的感觉，不过，可能没办法当礼物送给大家。",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "给……每个人都制作服装，太花时间了呀……",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "看来在商店街也没法获得灵感啊……",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不过，还不是放弃的时候，我们干脆直接去问大家想要的礼物吧？",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "前辈……那样……就没有收到礼物时的……惊喜和快乐了。",
 			typewriter = {
 				speed = 0.05,
@@ -388,7 +388,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -397,7 +397,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔……那可如何是好，我们在这里想破头也不解决问题啊！",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不如，我们去……问问白鹰的各位吧？她们去年……也准备了很多礼物……",
 			typewriter = {
@@ -429,7 +429,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我们的盟友们吗？也好，现在眼下也没有更好的办法了。那么，重樱的二位，我们就先失陪了，圣诞快乐！",
 			typewriter = {
@@ -442,7 +442,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,

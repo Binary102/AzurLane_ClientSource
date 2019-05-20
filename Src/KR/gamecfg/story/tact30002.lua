@@ -7,7 +7,7 @@ return {
 			actor = 307010,
 			side = 2,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "可、可恶，难道是我爱的力量不够吗……",
 			shake = {
 				speed = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "已经被爱冲昏头了吧……{namecode:91}……不过，还是要夸你干得不错……对强者就应该奉上敬意，下次再来一起“玩”吧，嘻嘻",
 			shake = {
 				speed = 1,
@@ -44,7 +44,7 @@ return {
 			actor = 307010,
 			side = 2,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "哼，反正这些外国人就算做了巧克力也只会让指挥官一头雾水而已，到最后还是只有我{namecode:91}的祈愿会得到聆听，这次就先放过你好了，呵呵呵呵呵呵…",
 			shake = {
 				speed = 1,
@@ -62,7 +62,7 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "嗯…？刚才莫名的高扬感消失了…罢了…大概是尽情活动过心情畅快了吧",
 			shake = {
 				speed = 1,

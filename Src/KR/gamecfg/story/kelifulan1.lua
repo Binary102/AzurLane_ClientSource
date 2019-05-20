@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>一　突然的邀请</size>",
+					"骑士与奖赏\n\n<size=45>一　突然的邀请</size>",
 					1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，要不要和我们一起参加篮球赛？",
 			typewriter = {
 				speed = 0.05,
@@ -58,11 +58,11 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "别叫我克爹！……啊，不是叫指挥官亲自打球，是想问你能不能来给我们球队做教练？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.12,
 					x = 0,
@@ -82,7 +82,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "为什么？嘿嘿，其实是这样的…{namecode:98}之前说想办个白鹰和重樱的联谊会，结果说着说着就变成对抗赛了——",
 			typewriter = {
@@ -98,7 +98,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "比赛形式是3对3…总之就是要办一场4个人对4个人的篮球赛！想说既然都要参加，不如请指挥官来我们队做教练！",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "奖、奖品当然是有的！据说冠军的奖品是重樱的那个…应该是叫做“摇钱树”的，能长出钱的树呢！",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "没错，正所谓盆栽和钱一举两得一箭双雕！所以拜托了指挥官！行行好吧！",
 			typewriter = {
@@ -157,11 +157,11 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……你答应了？太好了！不愧是指挥官，就是爽快！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.08,
 					x = 0,
@@ -181,7 +181,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯？先工作要紧，今天要处理完的事挺多的呢～指挥官，我们加快进度吧！",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "等工作告一段落了了我就去召集队员！嘿嘿，好久没有这么充满干劲了！",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "好了先认真工作！来给这份文件盖个章吧～",
 			typewriter = {

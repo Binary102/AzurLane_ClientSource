@@ -9,7 +9,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -74,7 +74,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -91,7 +91,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,

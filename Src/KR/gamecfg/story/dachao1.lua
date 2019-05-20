@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"오오시오의 선물♪\n\n<size=30>비서함 오오시오</size>",
+					"오오시오의 선물♪\n\n<size=45>비서함 오오시오</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			say = "!?",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨, 안녕~ 오늘 비서함으로 착임한 오오시오라고 칸데이~",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "들고 있던 빗자루를 선반에 걸어두며, 소녀는 이 쪽에 인사를 건넸다.",
 			typewriter = {
 				speed = 0.05,
@@ -183,7 +183,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후후, 내 맘대로 청소 좀 했는데, 맘에 들어줬음 좋겠구마~",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨는 이리 앉으이소~",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "설탕은 건강 생각해가꼬 쫌만 넣으레이~",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아침은 뭐로 하는 기 좋겠나? 베이컨이랑 계란? 으~응, 둘 다로 괜찮제?",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오늘부터 매일 지휘관 씨랑 기~인 시간을 보낼 것 같구마♪ 지휘관 씨, 잘 부탁한데이~",
 			typewriter = {
 				speed = 0.05,

@@ -7,6 +7,7 @@ slot0.BATCHDESTROY_MODE = "EquipmentMediator:BATCHDESTROY_MODE"
 slot0.ON_EQUIPMENT_SKIN_INFO = "EquipmentMediator:ON_EQUIPMENT_SKIN_INFO"
 slot0.ON_UNEQUIP_EQUIPMENT_SKIN = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT_SKIN"
 slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
+slot0.NO_UPDATE = "EquipmentMediator:NO_UPDATE"
 slot0.ITEM_GO_SCENE = "item go scene"
 
 function slot0.register(slot0)
@@ -40,9 +41,14 @@ function slot0.register(slot0)
 			return
 		end
 
+		setActive(slot4, false)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EquipmentDesignLayer,
-			mediator = EquipmentDesignMediator
+			mediator = EquipmentDesignMediator,
+			data = {
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE,
+				indexTF = cloneTplTo(slot0.viewComponent.sortPanel, slot0.viewComponent.topItems)
+			}
 		}))
 	end)
 	slot0:bind(slot0.CLOSE_DESIGN_LAYER, function (slot0)
@@ -72,6 +78,9 @@ function slot0.register(slot0)
 			pos = slot0.contextData.pos
 		})
 	end)
+
+	slot0.canUpdate = true
+
 	slot0.viewComponent:setShip(getProxy(BayProxy).getShipById(slot1, slot0.contextData.shipId))
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
@@ -82,11 +91,25 @@ function slot0.register(slot0)
 	else
 		slot3 = slot0.equipmentProxy:getEquipments(true)
 
-		for slot8, slot9 in pairs(slot4) do
+		for slot7, slot8 in pairs(slot1:getEquipsInShips()) do
+			table.insert(slot3, slot8)
+		end
+
+		for slot7, slot8 in pairs(slot0.equipmentProxy:getEquipmentSkins()) do
 			table.insert(slot3, {
 				isSkin = true,
-				id = slot9.id,
-				count = slot9.count
+				id = slot8.id,
+				count = slot8.count
+			})
+		end
+
+		for slot7, slot8 in pairs(slot1:getEquipmentSkinInShips()) do
+			table.insert(slot3, {
+				isSkin = true,
+				count = 1,
+				id = slot8.id,
+				shipId = slot8.shipId,
+				shipPos = slot8.shipPos
 			})
 		end
 	end
@@ -101,6 +124,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
+		EquipmentProxy.EQUIPMENT_REMOVED,
 		BayProxy.SHIP_UPDATED,
 		PlayerProxy.UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -112,7 +136,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.REVERT_EQUIPMENT_DONE,
 		EquipmentProxy.EQUIPMENT_SKIN_UPDATED,
 		GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE,
-		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE
+		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
+		slot0.NO_UPDATE
 	}
 end
 
@@ -120,12 +145,16 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
+		if slot0.canUpdate then
+			slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
+			slot0.viewComponent:setEquipment(slot3)
+		end
+	elseif slot2 == EquipmentProxy.EQUIPMENT_REMOVED then
 		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-		slot0.viewComponent:setEquipment(slot3)
+		slot0.viewComponent:removeEquipment(slot3)
 	elseif slot2 == EquipmentProxy.EQUIPMENT_SKIN_UPDATED then
-		slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
-
-		if slot0.viewComponent.mode == EquipmentScene.SKIN or slot0.contextData.warp == EquipmentScene.WARP_TO_MATERIAL then
+		if slot0.canUpdate then
+			slot0.viewComponent:setCapacity(slot0.equipmentProxy:getCapacity())
 			slot0.viewComponent:setEquipmentSkin(slot3)
 		end
 	elseif slot2 == BayProxy.SHIP_UPDATED then
@@ -148,25 +177,28 @@ function slot0.handleNotification(slot0, slot1)
 			})
 		end
 	elseif slot2 == BagProxy.ITEM_ADDED or slot2 == BagProxy.ITEM_UPDATED then
-		slot0.viewComponent:setItems(getProxy(BagProxy).getItemsByExclude(slot4))
+		if slot0.canUpdate then
+			slot0.viewComponent:setItems(getProxy(BagProxy).getItemsByExclude(slot4))
+		end
 	elseif slot2 == slot0.BATCHDESTROY_MODE then
 		slot0.viewComponent:SwitchToDestroy()
-	elseif slot2 == GAME.EQUIP_TO_SHIP_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot2 == GAME.REVERT_EQUIPMENT_DONE then
 		if table.getCount(slot3.awards) > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards
 			})
 		end
+	elseif slot2 == GAME.EQUIP_TO_SHIP_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	elseif slot2 == GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE or slot2 == GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
+	elseif slot2 == slot0.NO_UPDATE then
+		slot0.canUpdate = false
 	end
 end
 
 function slot0.remove(slot0)
-	getProxy(SettingsProxy).setEquipSceneIndex(slot1, slot0.contextData.warp)
-	slot0.viewComponent:unPartialBlur()
+	getProxy(SettingsProxy):setEquipSceneIndex(slot0.contextData.warp)
 end
 
 return slot0

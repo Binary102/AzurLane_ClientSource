@@ -12,7 +12,7 @@ return {
 			sequenceSpd = 2,
 			sequence = {
 				{
-					"<size=30>대강당이 신규 개방된 걸 기념하여,</size>",
+					"<size=45>대강당이 신규 개방된 걸 기념하여,</size>",
 					2
 				},
 				{
@@ -20,7 +20,7 @@ return {
 					4
 				},
 				{
-					"<size=30>다함께 하루 동안 학교에서 역할 훈련을 받게 되는데――</size>",
+					"<size=45>다함께 하루 동안 학교에서 역할 훈련을 받게 되는데――</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사쿠라 로맨스 - 새 학기\n\n<size=30>제1장　지각 5분 전</size>",
+					"사쿠라 로맨스 - 새 학기\n\n<size=45>제1장　지각 5분 전</size>",
 					1
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "story-1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우와아아아!! 지각하겠어! 지각!",
 			effects = {
 				{
@@ -60,7 +60,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -77,7 +77,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -94,7 +94,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 307041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "음… 불량학생이라면 역시 당당하게 땡땡이… 겠지?",
 			effects = {
 				{
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 307041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어라?",
 			flashout = {
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:2}&{namecode:94}",
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우왓!",
 			flashN = {
 				color = {
@@ -269,7 +269,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -283,7 +283,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -311,7 +311,7 @@ return {
 			say = "아야야… 힉?! 미, 미안해요…",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301011,
 			actorName = "{namecode:2}",
@@ -329,7 +329,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -363,7 +363,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -380,7 +380,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -454,13 +454,13 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 307041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그런…",
 			subActors = {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -474,7 +474,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -491,7 +491,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -525,7 +525,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,

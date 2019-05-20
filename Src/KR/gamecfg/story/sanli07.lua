@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -24,7 +24,7 @@ return {
 		{
 			say = "그분? 으응? 무슨 일이야?",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
@@ -43,7 +43,7 @@ return {
 		},
 		{
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			actor = 301130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:15}",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:17}",
@@ -91,7 +91,7 @@ return {
 		},
 		{
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:17}",
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -139,7 +139,7 @@ return {
 		},
 		{
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:16}",
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:13}",
@@ -171,7 +171,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -187,7 +187,7 @@ return {
 		},
 		{
 			actor = 301130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:15}",
@@ -203,7 +203,7 @@ return {
 		},
 		{
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -243,7 +243,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -259,7 +259,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -275,7 +275,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -292,7 +292,7 @@ return {
 		{
 			say = "군항으로써, 말씀이신가요?",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
@@ -311,7 +311,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -327,7 +327,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -343,7 +343,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -359,7 +359,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -375,7 +375,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -391,7 +391,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -407,7 +407,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -423,7 +423,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -439,7 +439,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -455,7 +455,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
@@ -471,7 +471,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -487,7 +487,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -503,7 +503,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
@@ -519,7 +519,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -535,7 +535,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -551,7 +551,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:96}",
@@ -567,7 +567,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -583,7 +583,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -599,7 +599,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",

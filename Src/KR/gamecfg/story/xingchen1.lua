@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"스타더스트와 자그마한 용기\n\n<size=30>제1장 - 별에 닿을 수 있는 티켓</size>",
+					"스타더스트와 자그마한 용기\n\n<size=45>제1장 - 별에 닿을 수 있는 티켓</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관의 호출… 오빠가 유니콘한테 볼일이 있나…?",
 			flashout = {
 				dur = 1,
@@ -79,7 +79,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			say = "그래두… 오빠가 불려준 것만으로도… 기뻐… 에헤헤…",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "유니콘… 들어갈게? 유니콘한테 시킬 일 있어? 오빠?",
 			flashout = {
 				dur = 1,
@@ -185,7 +185,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "티켓……?",
 			flashout = {
 				dur = 1,
@@ -215,7 +215,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			say = "라이브? 잘 모르겠지만……",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 		},
 		{
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			side = 2,
 			withoutPainting = true,
@@ -244,7 +244,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			say = "오빠하고…… 같이?",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			say = "새러토가네가 항상 말하는…… '라이브 콘서트'…야?",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			say = "에헤헤…… 오빠와 같이 외출… 유니콘…… 기대된다♪",
 			typewriter = {

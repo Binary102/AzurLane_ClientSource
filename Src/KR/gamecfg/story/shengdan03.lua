@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사랑과 평화의 성야제\n\n<size=30>제3장 - 사쿠라 엠파이어의 크리스마스 (상)</size>",
+					"사랑과 평화의 성야제\n\n<size=45>제3장 - 사쿠라 엠파이어의 크리스마스 (상)</size>",
 					1
 				}
 			}
@@ -30,7 +30,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -47,7 +47,7 @@ return {
 		{
 			say = "와아~ 모항이구나, 이제 완전히 크리스마스 같네!",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -82,7 +82,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -98,7 +98,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -114,7 +114,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -146,7 +146,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -162,7 +162,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -178,7 +178,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어, 어때요…?",
 			flashout = {
 				dur = 1,
@@ -228,7 +228,7 @@ return {
 		{
 			say = "역시 내 여동생이네♪",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
@@ -248,7 +248,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 101050,
 			actorName = "목소리",
@@ -264,7 +264,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -281,7 +281,7 @@ return {
 		{
 			say = "그리들리?",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -301,7 +301,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리들리, 크리스마스 카메라맨 모드! 바로 지금 등장! 지휘관한테 부탁받아서, 크리스마스의 추억들을 찍고 있어!",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -331,7 +331,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -348,7 +348,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래 그래! 자 웃어요~ 치~즈!",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흠흠, 이름은 '성야의 대작전?' 으로 하지! 다음은 누구를 찍어볼까나…?",
 			flashout = {
 				dur = 0.3,

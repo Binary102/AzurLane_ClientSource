@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 404010,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			stopBGM = true,
 			say = "어떤 상대였어?",
 			typewriter = {
@@ -29,7 +29,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 404020,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 		},
 		{
 			actor = 404010,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			actor = 404020,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
 			blackBg = true,
@@ -77,7 +77,7 @@ return {
 		},
 		{
 			actor = 404010,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -93,7 +93,7 @@ return {
 		},
 		{
 			actor = 404020,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
 			blackBg = true,

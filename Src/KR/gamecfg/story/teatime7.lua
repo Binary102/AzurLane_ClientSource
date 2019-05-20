@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"왁자지껄\n\n<size=30>제7장 - 다음은 게임 대회?!</size>",
+					"왁자지껄\n\n<size=45>제7장 - 다음은 게임 대회?!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨파도 먹어봐~ 막 구운 군고구마야~",
 			typewriter = {
@@ -32,7 +32,7 @@ return {
 		},
 		{
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "꺄악?! 언니, 그, 고, 곤란합니답! (우웁!)",
@@ -52,7 +52,7 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨파~ 내가 구운 군고구마가 새카맣게 타버렸어~",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 		{
 			actor = 202120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "처음치고는 잘하셨으니, 신경 쓰지 않으시는 게 어떨지……",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨파도 처음 해봤으면서……",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 		{
 			actor = 202120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 폐하, 혹시 괜찮으시다면 군고구마를 서로 바꾸지 않으시겠습니까?",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! …벨파가 구운 고구마 맛있어! 근데 벨파는 안 먹고 뭐 해?",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 		{
 			actor = 202120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨파, 여왕으로서 명령한다! 자, 아~해봐! 아~앙",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 		{
 			actor = 202120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "별수 없군요……",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 202110,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아! 폐하 치사해요! 저도 벨파한테 먹여주고 싶어요!",
 			typewriter = {
@@ -190,13 +190,13 @@ return {
 			actorName = "{namecode:13}&{namecode:14}",
 			actor = 301120,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			subActors = {
 				{
 					actor = 301110,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -212,7 +212,7 @@ return {
 		{
 			actor = 207030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "먹여 드릴까요?",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 		{
 			say = "나, 난 괜찮으니까, 됐어……",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301110,
 			actorName = "{namecode:13}",
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "맞다! 슬슬 구축함 아이들이 의뢰에서 돌아올 시간이군. 미안하네, 난 먼저 실례하겠네!",
 			flashout = {
 				dur = 1,
@@ -279,7 +279,7 @@ return {
 		{
 			say = "사, 사라졌다…… 로열 네이비의 항공모함은 굉장하네……",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301110,
 			actorName = "{namecode:13}",
@@ -299,7 +299,7 @@ return {
 		{
 			actor = 207030,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아하하하…… 저도 일단은, 로열 네이비의 항공모함이랍니다?",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
@@ -330,7 +330,7 @@ return {
 		{
 			actor = 207030,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "？？",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 		{
 			actor = 202120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "슬슬 저녁을 준비할 시간이네요.",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 		{
 			actor = 202110,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 그럼 나도 미리 준비해야겠네.",
 			typewriter = {
@@ -375,7 +375,7 @@ return {
 		{
 			actor = 205010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "마침 잘 됐네. 나도 정무를 보러 돌아가야겠다.",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 		{
 			actor = 207030,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그럼 오늘은 이만 돌아가도록 할까요.",
 			typewriter = {
@@ -404,7 +404,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
@@ -420,7 +420,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:13}",
@@ -436,7 +436,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
@@ -492,7 +492,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"푸슌의 대모험\n\n<size=30>제1장 - 옛 창고에서 보물 찾기</size>",
+					"푸슌의 대모험\n\n<size=45>제1장 - 옛 창고에서 보물 찾기</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			blackBg = true,
 			bgm = "story-china",
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기가 창춘이 말했던 창고인가. 헤헤헤~, 분명 재밌는 게 잔뜩 있을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 501040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -56,7 +56,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "타이위안, 괜찮아! 열쇠도 너덜너덜하고, 분명 아무도 신경 쓰지 않을 테니까!",
@@ -72,7 +72,7 @@ return {
 		{
 			actor = 501040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "단순히 오래되서 낡은 건데요……",
@@ -88,7 +88,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "창고는 정기적으로 청소하지 않으면 안 된다구! 우리들은 지휘관을 위해 청소를 도와줄 뿐이야! 그리고…… 어쩌면 재밌는 책도 발견할지도!",
@@ -104,7 +104,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "타이위안은 그런 거 엄청 좋아하지?",
@@ -120,7 +120,7 @@ return {
 		{
 			actor = 501040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "재밌는… 책!(반짝반짝) 벼, 별로 흥미가 없지는……",
@@ -136,7 +136,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "그럼 보물 찾기 하자! 나는 여기, 타이위안은 저기부터 찾아줘!",
@@ -152,7 +152,7 @@ return {
 		{
 			actor = 501040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "우으… 죄송합니다! 창고 정리, 창고 정리니까요!",
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쿨럭쿨럭! …먼지가 많네…",
 			flashout = {
 				dur = 1,
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 501040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -221,7 +221,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "음… 남은 건 뭐에 쓸지 모를 부품만 잔뜩…",
@@ -237,7 +237,7 @@ return {
 		{
 			actor = 501020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "아! 타이위안! 이거! 이거 봐봐!",
@@ -253,7 +253,7 @@ return {
 		{
 			actor = 501040,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
 			say = "이, 이건……",

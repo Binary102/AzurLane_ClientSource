@@ -17,6 +17,21 @@ slot4 = {
 		"dance",
 		10,
 		100005
+	},
+	{
+		"walk",
+		2,
+		100006
+	},
+	{
+		"stand2",
+		2,
+		100006
+	},
+	{
+		"dance",
+		2,
+		100006
 	}
 }
 
@@ -39,8 +54,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 		slot0.bodyMask:SetSiblingIndex(0)
 		SetActive(slot0, false)
 	end, true, true)
-
-	slot0.timer = {}
 end
 
 function slot0.updateBoatVO(slot0, slot1)
@@ -740,92 +753,115 @@ end
 
 function slot0.playAnims(slot0, slot1)
 	slot2 = slot1:getSpineAnims()
-	slot3 = nil
-	slot4 = 0
-	slot5 = nil
+	slot3 = 0
+	slot4, slot5, slot6, slot7 = nil
 
-	function slot6(slot0, slot1, slot2)
-		if type(slot0[slot0][1]) == "table" then
-			slot3 = slot3[math.random(1, #slot3)]
+	function slot7(slot0)
+		slot0:SetActionCallBack(nil)
+
+		slot1, slot2 = slot0:isLoopSpineInterAction()
+
+		if not slot1 then
+			slot0:SetAction(slot1:getSpineNormalAction(slot0), 0)
 		end
 
-		if slot2 == 1 and slot0[slot0][3] then
-			slot3 = slot0[slot0][3]
-		end
+		if slot2 == #slot1.roles then
+			if slot1 then
+				slot1:callActionCB("end")
 
-		slot1:SetAction(slot3, 0)
+				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
+					slot3()
+				else
+					if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and slot0:hasAnimator() then
+						slot1:endSpineAnimator(slot0)
+						slot1:setSpineAnimtorParent(slot0)
+					end
+				end
+			else
+				if slot0:hasTailAction() then
+					slot1.viewComponent.blockEvent = nil
 
-		if _.detect(slot1, function (slot0)
-			return slot0[1] == slot0 and slot1.id == slot0[3]
-		end) then
-			slot5 = slot4[2]
-
-			if slot3.timer[slot1] then
-				slot3.timer[slot1]:Stop()
-
-				slot3.timer[slot1] = nil
+					slot1:playTailActions(slot0)
+				else
+					slot1:clearSpine()
+					slot1:updateShadowTF(true)
+					slot1:updateShadowPos()
+					slot1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot1.boatVO.id, true)
+				end
 			end
+		end
 
-			slot3.timer[slot1] = Timer.New(function ()
-				slot0.timer[slot1]:Stop()
+		return
+	end
 
-				slot0.timer[slot1].Stop.timer[slot0.timer[slot1]] = nil
+	function slot6(slot0, slot1)
+		if slot1 > #slot0 then
+			slot1 = slot1 + 1
 
-				slot3(slot0.timer[slot1], slot2 + 1, slot4)
+			slot1 + 1(slot0)
+		else
+			slot3(slot0, slot1, function ()
+				slot0 = slot0 + 1
+
+				slot1(slot2, slot1)
 
 				return
-			end, slot5, 1)
-
-			slot3.timer[slot1]:Start()
+			end)
 		end
 
 		return
 	end
 
 	function slot5(slot0, slot1, slot2)
-		if slot1 > #slot0 then
-			slot1 = slot1 + 1
+		if type(slot0[slot1][1]) == "table" then
+			slot3 = slot3[math.random(1, #slot3)]
+		end
 
-			slot0:SetActionCallBack(nil)
+		slot1:callActionCB("update", slot3)
 
-			slot3, slot4 = slot2:isLoopSpineInterAction()
+		if slot0 == slot1.roles[1] and slot0[slot1][3] then
+			slot3 = slot0[slot1][3]
+		end
 
-			if not slot3 then
-				slot0:SetAction(slot3:getSpineNormalAction(slot0), 0)
+		slot0:SetAction(slot3, 0)
+
+		if _.detect(slot2, function (slot0)
+			return slot0[1] == slot0 and slot1.id == slot0[3]
+		end) then
+			slot5 = slot4[2]
+
+			if slot1.timer[slot0] then
+				slot1.timer[slot0]:Stop()
+
+				slot1.timer[slot0] = nil
 			end
 
-			if slot1 == #slot3.roles then
-				if slot3 then
-					slot3:callActionCB("end")
+			slot1.timer[slot0] = Timer.New(function ()
+				slot0.timer[slot1]:Stop()
 
-					if slot4 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
-						slot4()
-					else
-						if slot4 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE and slot2:hasAnimator() then
-							slot3:endSpineAnimator(slot2)
-							slot3:setSpineAnimtorParent(slot2)
-						end
-					end
-				else
-					if slot2:hasTailAction() then
-						slot3.viewComponent.blockEvent = nil
+				slot0.timer[slot1].Stop.timer[slot0.timer[slot1]] = nil
 
-						slot3:playTailActions(slot2)
-					else
-						slot3:clearSpine()
-						slot3:updateShadowTF(true)
-						slot3:updateShadowPos()
-						slot3.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot3.boatVO.id, true)
-					end
-				end
-			end
+				nil()
+
+				return
+			end, slot5, 1)
+
+			slot1.timer[slot0]:Start()
 		else
-			slot3:callActionCB("update", slot0[slot1][1])
-			slot0:SetAction(slot0[slot1][1], 0)
+			slot0:SetActionCallBack(function (slot0)
+				if slot0 == "finish" then
+					slot0:SetActionCallBack(nil)
+					slot0.SetActionCallBack()
+				end
+
+				return
+			end)
 		end
 
 		return
 	end
+
+	slot0.timer = {}
 
 	function ()
 		if slot0:hasAnimator() then
@@ -836,20 +872,12 @@ function slot0.playAnims(slot0, slot1)
 		slot2 = 0
 
 		for slot3, slot4 in pairs(slot1.roles) do
-			if type(slot3[1][1]) == "table" then
-				slot6 = slot6[math.random(1, #slot6)]
-			end
+			slot3(slot4, 1, function ()
+				slot0 = slot0 + 1
 
-			if slot3 == 1 and slot3[slot5][3] then
-				slot4:SetAction(slot3[slot5][3], 0)
-			else
-				slot4:SetAction(slot6, 0)
-			end
+				slot1(slot2, slot1)
 
-			slot1:callActionCB("update", slot6)
-
-			slot7 = _.detect(slot4, function (slot0)
-				return slot0[1] == slot0 and slot1.id == slot0[3]
+				return
 			end)
 		end
 
@@ -1031,17 +1059,17 @@ function slot0.clearSpineInteraction(slot0, slot1)
 	slot0.print("clear spine interaction.............")
 
 	for slot5, slot6 in pairs(slot0.roles) do
-		if slot0.timer[slot6] then
-			slot0.timer[slot6]:Stop()
-
-			slot0.timer[slot6] = nil
-		end
-
 		slot6:SetActionCallBack(nil)
 		slot6:SetAction(slot0:getSpineNormalAction(slot6), 0)
 
 		if slot5 == 3 then
 			setActive(tf(go(slot6)).parent, false)
+		end
+
+		if slot0.timer[slot6] then
+			slot0.timer[slot6]:Stop()
+
+			slot0.timer[slot6] = nil
 		end
 	end
 
@@ -1575,8 +1603,6 @@ function slot0.dispose(slot0)
 		slot0.removeEffectTimer = nil
 	end
 
-	slot0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, slot0.boatVO.id)
-
 	if LeanTween.isTweening(slot0.go) then
 		LeanTween.cancel(slot0.go)
 	end
@@ -1587,7 +1613,13 @@ function slot0.dispose(slot0)
 		slot0.spineAnimUI:SetActionCallBack(nil)
 	end
 
+	if slot0.shadowTF then
+		Destroy(slot0.shadowTF)
+	end
+
 	slot0:closeBodyMask(true)
+	PoolMgr.GetInstance():ReturnSpineChar(slot0.boatVO:getPrefab(), go(slot0.model))
+	Destroy(slot0.go)
 
 	return
 end

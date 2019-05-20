@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 201200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "폭설이네. 항구 불빛도 희미하게 보여……",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "겨우 도착했네요… 나르비크 항…!",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -71,7 +71,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!? 중요한 정보인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -113,7 +113,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "네?",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -160,7 +160,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -176,7 +176,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -193,7 +193,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……잘 모르겠네요. 본 적도 없고. 헌터는요?",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -223,7 +223,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -239,7 +239,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -256,7 +256,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "전투에는 그렇지. ……확실히 좀 방해되긴 하지만. 아름답다고 생각해.",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……잘 모르겠네요.",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 		{
 			actor = 201201,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나, '헌터'니까, 이런 거엔 좀… 알지?",
 			typewriter = {
@@ -300,7 +300,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201201,
@@ -316,7 +316,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201161,
@@ -333,7 +333,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "다음 임무도 있고, 여기 머무를 여유는 없을 테니까요.",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -364,7 +364,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……우선은 눈앞의 임무에 집중하자구요.",
 			typewriter = {

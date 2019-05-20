@@ -47,7 +47,7 @@ return {
 			say = "이미 늦었어! 맥클러스키 편대, 날려버려라!",
 			dir = -1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

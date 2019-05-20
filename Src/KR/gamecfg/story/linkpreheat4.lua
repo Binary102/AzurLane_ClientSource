@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			bgm = "level-uta",
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리가 있으면……뭐가 어때서 그런가요?",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -71,7 +71,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그 점은 동의해냥.",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300060,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -165,7 +165,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -181,7 +181,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -197,7 +197,7 @@ return {
 		},
 		{
 			actor = 900011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "테스터",
@@ -213,7 +213,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -230,7 +230,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "쿠온씨, 아직 못 찾은 동료가 있는 건가요?",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -264,7 +264,7 @@ return {
 			say = "쿠온씨에게 있어 동생과도 같은 분과, 친구인 루루티에씨가 아직 행방불명입니다.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,7 +280,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -296,7 +296,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -313,7 +313,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저는 Z23과 다른 분들이 구해주셨지만……그 두 사람은 아직……",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼……구할래……",
 			typewriter = {
@@ -343,7 +343,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "찬성, 이에요.",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 해역 어딘가에 있을 겁니다. 그렇다면……",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "가자고요, 쿠온씨! 우리도 도와줄게요!",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "재블린, 다들……고마워! 좋아, 가자고!",
 			typewriter = {

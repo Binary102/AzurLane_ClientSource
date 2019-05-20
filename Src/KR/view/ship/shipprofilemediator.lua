@@ -6,7 +6,7 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setShipGroup(slot3)
 	slot0.viewComponent:setShowTrans(slot0.showTrans)
-	slot0.viewComponent:setOwnedSkinList(getProxy(BayProxy).getSkinList(slot2))
+	slot0.viewComponent:setOwnedSkinList(getProxy(ShipSkinProxy).getSkinList(slot2))
 	slot0:bind(ShipProfileScene.SHOW_SKILL_INFO, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			mediator = SkillInfoMediator,
@@ -36,7 +36,8 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.FETCH_EVALUATION_DONE,
-		CollectionProxy.GROUP_INFO_UPDATE
+		CollectionProxy.GROUP_INFO_UPDATE,
+		ShipSkinProxy.SHIP_SKINS_UPDATE
 	}
 end
 
@@ -52,9 +53,13 @@ function slot0.handleNotification(slot0, slot1)
 				showTrans = slot0.showTrans
 			}
 		}))
-	elseif slot2 == CollectionProxy.GROUP_INFO_UPDATE and slot0.groupId == slot3 then
-		slot0.viewComponent:setShipGroup(getProxy(CollectionProxy).getShipGroup(slot5, slot4))
-		slot0.viewComponent:flushHearts()
+	elseif slot2 == CollectionProxy.GROUP_INFO_UPDATE then
+		if slot0.groupId == slot3 then
+			slot0.viewComponent:setShipGroup(getProxy(CollectionProxy).getShipGroup(slot5, slot4))
+			slot0.viewComponent:flushHearts()
+		end
+	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then
+		slot0.viewComponent:setOwnedSkinList(getProxy(ShipSkinProxy):getSkinList())
 	end
 end
 

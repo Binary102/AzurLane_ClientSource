@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>三 情敌与…例外？</size>",
+					"彼岸花之恋？\n\n<size=45>三 情敌与…例外？</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:91}",
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呵呵呵…这么微不足道的蝼蚁之辈，也想从我{namecode:91}手里抢走指挥官？先手…指挥官？为什么要阻止{namecode:91}？",
 			flashout = {
 				dur = 1,
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:91}",
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "刚才你看那个女孩子了吧？呐，为什么不看{namecode:91}？明明你是和{namecode:91}来逛街的？被她勾引了么？就那种货色，{namecode:91}马上就收拾掉……",
 			flashout = {
 				dur = 1,
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:91}",
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "大…那个小丫头，跟在我们后面…！等有机会一定要把她解决了…！",
 			flashout = {
 				dur = 1,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "姐…咳，{namecode:91}，和指挥官逛街啊。",
 			flashout = {
 				dur = 1,
@@ -246,7 +246,7 @@ return {
 			actorName = "{namecode:91}",
 			dir = 1,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -262,7 +262,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,

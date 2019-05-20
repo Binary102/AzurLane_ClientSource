@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>닌자 수행?</size>",
+					"닌자의 길\n\n<size=45>닌자 수행?</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "핫!",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "대, 대단해……!",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 그럼 당장…… 하아아아!-- 우아아!?",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			},
 			action = {
 				{
-					y = 60,
+					y = 90,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -167,7 +167,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후우…… 고, 고맙소……",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "한 번 더 해 보겠소!",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아아아! 엥? 우아아아!?",
 			typewriter = {
 				speed = 0.05,
@@ -212,7 +212,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -236,7 +236,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으윽……다, 다시 한 번!",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이번엔 반드시 성공적으로… 하앗! 우와아앗?!!?",
 			typewriter = {
 				speed = 0.05,
@@ -274,7 +274,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -297,7 +297,7 @@ return {
 			actor = 301270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 조금 어려웠나요?",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -333,7 +333,7 @@ return {
 			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜찮습니다. 다들 처음엔 이렇게 되곤 하니 말이죠.",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…그런데, 어째서 아카츠키는 쿠로시오에게 특훈을 부탁한 건가요?",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그게…소인은 닌자이지만 여러모로 닌자답지 못해서 말이오……",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러니까, 더 강해지고 싶은 것이오! 그러면 히비키와 만났을 때 분명 깜짝 놀라게 해줄 수 있을 테니!",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "인술은 자랑하기 위한 것이 아닙니다.",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미, 미안하오……",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -439,7 +439,7 @@ return {
 			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 친한 사람에게 좋은 모습을 보여주고 싶은 점, 싫진 않답니다. 오야시오도 항상 그러고 있으니.",
 			typewriter = {
@@ -455,7 +455,7 @@ return {
 			actor = 301270,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어쨌든, 연습을 계속 하죠. 자세가 무너져도 제대로 받아줄 테니 안심하시고.",
 			typewriter = {
@@ -471,7 +471,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 알겠소!",
 			typewriter = {

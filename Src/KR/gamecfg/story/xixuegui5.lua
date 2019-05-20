@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"백의의 천사 or 악마?\n\n<size=30>제5장 - 프로 간호사 뱀파이어</size>",
+					"백의의 천사 or 악마?\n\n<size=45>제5장 - 프로 간호사 뱀파이어</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지…히…간……",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응…아마 가벼운 몸살이었을 거야. 그래도 안심하면 안 돼. {namecode:34}, 젖은 수건 두 개랑 물 한 대접, 가져다줄 수 있을까?",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 			actor = 301330,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응……",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "할 수 있는 건 다 했다냥, 한 숨 푹 자고 일어나면 정신을 차릴 거다냥. 보아하니 {namecode:98}가 나설 기회는 없었던 것 같구냥?",
 			flashout = {
 				dur = 0.5,
@@ -144,7 +144,7 @@ return {
 			say = "후……다행이다.",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,7 +162,7 @@ return {
 			actor = 312010,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그건 그렇고, 뱀파이어도 의외로 굉장하지 않냥? 앞으로 {namecode:98}를 도와줄 생각 없냥?",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……역시 됐어, 난 간호에 간자도 모르는걸, 책 몇 줄 본 게 다야…그리고 그전엔 모두에게 폐만 끼쳤고……",
 			typewriter = {
 				speed = 0.05,
@@ -195,7 +195,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "책 몇 줄이라뇨, 뱀파이어 아가씨는 간호를 공부하겠다고 매일 늦은 시간까지 책을 봤었는걸요.",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭐?! 너너너, 어떻게 안 거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -236,7 +236,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헤헤, 재블린과 다른 아이들이 말해줬습니다. 곤혹스러운 면도 다소 없지는 않았지만, 사실 그런 아가씨가 불만이라는 아이들은 아무도 없었는걸요. 일전엔 미처 말씀을 못 드렸지만…지금 이렇게 보니, 뱀파이어 아가씨도 간호사가 정말 잘 어울리는 것 같네요.",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……그래?",
 			typewriter = {
 				speed = 0.05,
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

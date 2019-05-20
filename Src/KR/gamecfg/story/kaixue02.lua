@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"사쿠라 로맨스 - 새 학기\n\n<size=30>제2장　운동장의 문제아들</size>",
+					"사쿠라 로맨스 - 새 학기\n\n<size=45>제2장　운동장의 문제아들</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 401011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "공부도 운동도 이 Z1님이 최강이다!",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "불만 있는 녀석들은 바로 이 몸과 '결투' 다!",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "달리기든 야구든, 뭐든지 다…",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			say = "흐흥, 그렇단 말이죠…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307041,
 			actorName = "{namecode:94}",
@@ -90,7 +90,7 @@ return {
 			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신은 사쿠라 엠파이어의…",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "말은 잘하는군~ 좋아, 승부다!",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101061,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우와아아, 한 판 붙겠는데!",
 			typewriter = {
 				speed = 0.05,
@@ -152,7 +152,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -163,7 +163,7 @@ return {
 			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "크레이븐은 어느 쪽을 응원하면 좋을까요…",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "계속 고민해봤자 끝이 없으니, 둘 다 응원해야지! 플레이~! HI☆RYU! 파이팅! Z~1~쨩!",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "Z~1~선~배~!!",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			say = "히~류우~!!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
@@ -232,7 +232,7 @@ return {
 			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "학교에서 싸움 붙이면 안 된다니까요!",
 			typewriter = {
@@ -248,7 +248,7 @@ return {
 			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헤이헤~이!",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 			actor = 401230,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "수업도 잘 안 듣고! 정말... 저도 다른 학생들이랑 선생님들한테 한 소리 들었다고요!",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 401011,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "별로 수업을 듣기 싫다는 게 아니라고! 그냥 선생님 수업이 너무 재미없으니까, 이 몸이 직접 알려주지! 라고 생각하던 게 그만…",
 			typewriter = {
 				speed = 0.05,
@@ -296,13 +296,13 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -322,7 +322,7 @@ return {
 			say = "히류는 뭐가 재밌다고 웃는 거에요!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307032,
 			actorName = "{namecode:93}",
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -357,7 +357,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -377,7 +377,7 @@ return {
 			actor = 101061,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "죄송합니다... 나도 모르게 그만…",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -414,19 +414,19 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네……",
 			subActors = {
 				{
 					actor = 101061,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 401011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -440,7 +440,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					dur = 0.8,
 					number = 1,
 					type = "shake"

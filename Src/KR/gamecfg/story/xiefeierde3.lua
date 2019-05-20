@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>三 女仆的兴趣</size>",
+					"这个女仆不太冷\n\n<size=45>三 女仆的兴趣</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "主人对我们女仆队平时的生活状态有兴趣？",
 			flashout = {
 				dur = 1,
@@ -60,7 +60,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…既然如此，请在假日的时候来看看吧，毕竟是主人，还是会招待您一下的——",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…是主人啊，姑且问一句，来找我有什么事吗？",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "开玩笑的，请进吧",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，请用红茶",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "那么，请您自便，主人。想要待多久就待多久吧",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…您想多了，“想待多久就呆多久”可是主人的特权",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "枪械也是需要保养的，如果不保养，就会像懒惰的主人一样慢慢生锈。",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "枪械只是一点点个人的兴趣而已，不过如果主人有兴趣的话……",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我来教您“工作用”枪械的选择、分解、维护、配件和射击的技巧吧",
 			typewriter = {
@@ -375,7 +375,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…是吗，既然如此，请做好心理准备吧，我会一点一滴、好好地“锻炼”您的",
 			typewriter = {

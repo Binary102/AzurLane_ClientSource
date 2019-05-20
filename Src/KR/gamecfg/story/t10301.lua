@@ -6,7 +6,7 @@ return {
 		{
 			side = 0,
 			say = "\"소속 불명함에게 전한다! 너희들은 우리의 영해를 침범하고 있다! 당장 무장을 해제하고 투항하라!\"",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = -1,
 			actorName = "통신",
 			withoutPainting = true,

@@ -42,7 +42,7 @@ return {
 		{
 			actor = 900072,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "…너희들과는 관계없는 일이다.",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 		{
 			actor = 900072,
 			side = 0,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "…(말없이 고개를 돌린다.)",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "목표에 명중! 그대로 계속 쏴라!",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "바라쿠다 편대 발진! 목표, 대형 세이렌…",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어? 식별 신호가 한 척 더?! 레이더엔 안 잡혔는데!",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 		{
 			actor = 900072,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -222,7 +222,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에잇! 콜세어 편대, 목표 변경! 미확인 세이렌도 해치워버려!",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "콜세어…전부 격추당하다니?!",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 상대편도 콜세어…당신은 대체?!",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 		{
 			actor = 900072,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "…빅토리어스인가…",
 			typewriter = {
@@ -303,7 +303,7 @@ return {
 		},
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "저기…어디서 만난 적이 있어? 그것보다, 당신은 적이야? 아니면 아군이야?",
@@ -323,7 +323,7 @@ return {
 		{
 			actor = 900072,
 			side = 1,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "아무래도 이쪽 계산이 틀렸던 것 같군…",
 			typewriter = {
@@ -338,7 +338,7 @@ return {
 		{
 			actor = 900072,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "퓨리파이어, 너희 터미널에 알려줘라. 두 번 다시 관계없는 자들을 휘말리게 하지 말라고……",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 		{
 			actor = 900072,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "…빅토리어스…",
 			typewriter = {
@@ -387,7 +387,7 @@ return {
 		},
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "에? 어어?",
@@ -407,7 +407,7 @@ return {
 		{
 			actor = 900072,
 			side = 1,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "다시 만나게 되어 반갑다.",
 			typewriter = {
@@ -422,7 +422,7 @@ return {
 		{
 			actor = 900072,
 			side = 1,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "지금의 당신은 이해할 수 없을지도 모르겠지만…미래의 당신은…훌륭한 전사였다.",
 			typewriter = {
@@ -437,7 +437,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래? 음…고마워?",
 			typewriter = {
@@ -452,7 +452,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? …자, 잠깐! 영문 모를 말만 하고 도망치는 거야??",
 			typewriter = {
@@ -515,7 +515,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저건…광학무기?! 전원, 각별히 조심하도록!",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"센토와 선배님들\n\n<size=30>동경하는 선배님께</size>",
+					"센토와 선배님들\n\n<size=45>동경하는 선배님께</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘은 파도를 향해 드로우를 연습할까.",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			actor = 206010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "나의 턴! 드로우!",
 			effects = {
 				{
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지, 지휘관님! 좋은 아침입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -151,7 +151,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "앗, 저기, 저, 수상한 짓은 아무것도……! 단지……",
 			typewriter = {
 				speed = 0.05,
@@ -191,7 +191,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "제 동형함 중에도 허미즈라는 아이가 있는데, 이름은 허미즈 선배님으로부터 물려받았다고 들었거든요. 그래서 만나고 싶다고 생각해서…",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그래도, 막상 만나면 어떻게 말을 걸어야 할지 몰라서…이렇게 멀리서 관찰하는 것밖에……",
 			typewriter = {
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 도와주실 수 있을까요…",
 			typewriter = {
 				speed = 0.05,
@@ -241,7 +241,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에엣?!",
 			typewriter = {
 				speed = 0.05,
@@ -269,7 +269,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -282,7 +282,7 @@ return {
 			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무슨 일이야 지휘관? 뜨거운 듀얼이라도 하고 싶어진 거야?",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			say = "저기, 허미즈 선배님……",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -319,7 +319,7 @@ return {
 			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신은……아아! 새로 이쪽에 들어온 센토구나! 허미즈? 허미스? 그런 아이도 있다고 들었는데, 정말이야?",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 네!",
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -372,7 +372,7 @@ return {
 			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋아! 그럼 듀얼로 네 혼이 얼마나 뜨거운지 시험해주지!",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			actor = 206010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 이 아이는 잠깐 빌릴게!",
 			typewriter = {
@@ -406,13 +406,13 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에, 에에??",
 			subActors = {
 				{
 					actor = 206010,
 					pos = {
-						x = -450
+						x = -675
 					}
 				}
 			},
@@ -426,7 +426,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -438,7 +438,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},

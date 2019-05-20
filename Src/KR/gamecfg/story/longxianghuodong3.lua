@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 103060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "애틀란타, 들어봐봐~ 우리 인디가 말이지………",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 102060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잠깐. 저기 있는 건……",
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 와줬군요.",
 			flashout = {
 				dur = 0.5,
@@ -72,7 +72,7 @@ return {
 		{
 			actor = 304040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "전함 하나에 중순양함 하나, 경순양함 하나에 구축함 수 척이라……꽤 얕보인 모양이군……",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 		{
 			actor = 304020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "후후, 그럼 저희 전력을 얕보지 못하도록, 저희의 힘을 한 번 보여주도록 해야겠군요.",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 		{
 			actor = 304040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그렇겠지!",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "상대는 전의가 넘치는 것 같네.",
 			flashout = {
 				dur = 0.5,
@@ -149,7 +149,7 @@ return {
 		{
 			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥, 전의라면 인디랑 헤어져버린 나도 만만치 않다고!",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -174,7 +174,7 @@ return {
 		{
 			actor = 102060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……좋아, 이곳을 돌파하는 거야!",
 			typewriter = {

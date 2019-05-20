@@ -254,7 +254,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 110,
-								icon = "sairenboss"
+								icon = "unknown3"
 							}
 						}
 					},

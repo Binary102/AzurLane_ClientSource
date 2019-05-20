@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"오오시오의 선물♪\n\n<size=30>인연이냐 이익이냐</size>",
+					"오오시오의 선물♪\n\n<size=45>인연이냐 이익이냐</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨, 함 드이소~ 직접 만든 과자라카이~",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨 건강 생각해가 설탕은 쪼매만 넣은기라~",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앗, 거서 반만 지휘관 씨 끼다. 다 묵어뿌믄 안 된데이?",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나머지 반은 누구줄끼냐고? 후후후♪ 따라와보면 알게 될끼다~",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "자아, 지휘관 씨, 똑디 봐레이♪",
 			flashout = {
 				dur = 0.5,
@@ -186,7 +186,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "시구레, 내다 오오시오~",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 오오시오잖아! 후후, 오늘은 새로운 네일이라도…… 흐~응, 지휘관도 있네.",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -248,7 +248,7 @@ return {
 			actor = 301150,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헤에~ 그렇구나. 그렇지만, 유다치는 아직 자고 있는데.",
 			typewriter = {
@@ -264,7 +264,7 @@ return {
 			actor = 301640,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "글나? 그럼 오오시오 비장의 잠깨우기 오의를 한 번 보여줘야 되겠구마~",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "킁킁…… 와우!?!? 과자 냄새다! 어디냐!?",
 			typewriter = {
 				speed = 0.05,
@@ -303,7 +303,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이, 이것은………!?",
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -362,7 +362,7 @@ return {
 			actor = 301140,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "오오시오가 만든 과자다! 오오오! 유다치, 이제 완전히 잠이 깼어! 빨리 줘!",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후♪ 천천히 무라~ 아직 마이 남았다~",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301640,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마, 시구레, 그런 오해 살 말은 하는 거 아이다~",
 			typewriter = {
 				speed = 0.05,

@@ -23,7 +23,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -34,7 +34,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201160,
@@ -64,7 +64,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "눈 때문에 시야가 거의 제로야…하디!",
 			typewriter = {
 				speed = 0.05,
@@ -94,7 +94,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.5,
-					x = -1000
+					x = -1500
 				}
 			}
 		},
@@ -104,7 +104,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네!",
 			typewriter = {
 				speed = 0.05,
@@ -120,7 +120,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 0.5,
-					x = -1000
+					x = -1500
 				}
 			}
 		},
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

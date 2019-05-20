@@ -64,17 +64,6 @@ return {
 					}
 				},
 				{
-					triggerType = 6,
-					waveIndex = 883,
-					preWaves = {
-						201
-					},
-					triggerParams = {
-						event = "ReleaseAfter2",
-						id = 1
-					}
-				},
-				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 101,

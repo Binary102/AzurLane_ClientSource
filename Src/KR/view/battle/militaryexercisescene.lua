@@ -165,7 +165,7 @@ slot0.setSeasonInfo = slot1
 function slot1(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "top/backBtn"
+	slot3 = "blur_panel/adapt/top/backBtn"
 	slot1 = slot1(slot2, slot3)
 	slot0.backBtn = slot1
 	slot1 = pg
@@ -206,7 +206,7 @@ function slot1(slot0)
 
 	slot1 = findTF
 	slot2 = slot0._tf
-	slot3 = "top"
+	slot3 = "blur_panel/adapt/top"
 	slot1 = slot1(slot2, slot3)
 	slot0.top = slot1
 	slot1 = SetParent
@@ -297,25 +297,6 @@ slot0.updatePlayer = slot1
 
 function slot1(slot0)
 	slot1 = 0
-	slot2 = setAnchoredPosition
-	slot3 = slot0.top
-	slot4 = {
-		y = 84
-	}
-
-	slot2(slot3, slot4)
-
-	slot2 = shiftPanel
-	slot3 = slot0.top
-	slot4 = nil
-	slot5 = 0
-	slot6 = 0.3
-	slot7 = slot1
-	slot8 = true
-	slot9 = true
-
-	slot2(slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-
 	slot2 = slot0.bottomPanel
 	slot2 = slot2.localPosition
 	slot2 = slot2.y
@@ -337,57 +318,12 @@ function slot1(slot0)
 	slot10 = true
 
 	slot3(slot4, slot5, slot6, slot7, slot8, slot9, slot10)
-
-	slot3 = topAnimation
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = "bg/left"
-	slot7 = slot0.top
-	slot4 = slot4(slot5, slot6, slot7)
-	slot6 = slot0
-	slot5 = slot0.findTF
-	slot7 = "bg/right"
-	slot8 = slot0.top
-	slot5 = slot5(slot6, slot7, slot8)
-	slot7 = slot0
-	slot6 = slot0.findTF
-	slot8 = "bg/title_operation"
-	slot9 = slot0.top
-	slot6 = slot6(slot7, slot8, slot9)
-	slot8 = slot0
-	slot7 = slot0.findTF
-	slot9 = "bg/operation"
-	slot10 = slot0.top
-	slot7 = slot7(slot8, slot9, slot10)
-	slot8 = nil
-
-	function slot9()
-		slot0 = slot0
-		slot1 = nil
-		slot0.tweens = slot1
-	end
-
-	slot3 = slot3(slot4, slot5, slot6, slot7, slot8, slot9)
-	slot0.tweens = slot3
 end
 
 slot0.uiStartAnimating = slot1
 
 function slot1(slot0)
 	slot1 = 0
-	slot2 = shiftPanel
-	slot3 = slot0.top
-	slot4 = nil
-	slot5 = slot0.top
-	slot5 = slot5.localPosition
-	slot5 = slot5.y
-	slot6 = 0.3
-	slot7 = slot1
-	slot8 = true
-	slot9 = true
-
-	slot2(slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-
 	slot2 = slot0.bottomPanel
 	slot2 = slot2.localPosition
 	slot2 = slot2.y
@@ -483,100 +419,90 @@ function slot1(slot0)
 
 	slot1(slot2, slot3, slot4, slot5)
 
-	slot1 = onToggle
+	slot1 = onButton
 	slot2 = slot0
 	slot4 = slot0
 	slot3 = slot0.findTF
 	slot5 = "bottom/buttons/rank_btn"
 	slot3 = slot3(slot4, slot5)
 
-	function slot4(slot0)
-		if slot0 then
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.emit
-			slot3 = MilitaryExerciseMediator
-			slot3 = slot3.OPEN_RANK
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = MilitaryExerciseMediator
+		slot2 = slot2.OPEN_RANK
 
-			slot1(slot2, slot3)
-		end
+		slot0(slot1, slot2)
 	end
 
 	slot5 = SFX_PANEL
 
 	slot1(slot2, slot3, slot4, slot5)
 
+	slot1 = onButton
 	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "bottom/buttons/shop_btn"
-	slot1 = slot1(slot2, slot3)
-	slot0.shopBtn = slot1
-	slot1 = onToggle
-	slot2 = slot0
-	slot3 = slot0.shopBtn
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "bottom/buttons/shop_btn"
+	slot3 = slot3(slot4, slot5)
 
-	function slot4(slot0)
-		if slot0 then
-			slot1 = slot0
-			slot2 = slot1
-			slot1 = slot1.emit
-			slot3 = MilitaryExerciseMediator
-			slot3 = slot3.OPEN_SHOP
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = MilitaryExerciseMediator
+		slot2 = slot2.OPEN_SHOP
 
-			slot1(slot2, slot3)
-		end
+		slot0(slot1, slot2)
 	end
 
 	slot5 = SFX_PANEL
 
 	slot1(slot2, slot3, slot4, slot5)
 
+	slot1 = onButton
 	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "bottom/buttons/award_btn"
-	slot1 = slot1(slot2, slot3)
-	slot0.awardBtn = slot1
-	slot1 = onToggle
-	slot2 = slot0
-	slot3 = slot0.awardBtn
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "bottom/buttons/award_btn"
+	slot3 = slot3(slot4, slot5)
 
-	function slot4(slot0)
-		if slot0 then
+	function slot4()
+		slot0 = slot0
+		slot1 = true
+		slot0.isOpenAwards = slot1
+		slot0 = pg
+		slot0 = slot0.UIMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.BlurPanel
+		slot2 = slot0
+		slot2 = slot2.awardPanel
+
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot0 = slot0.isInitAward
+
+		if not slot0 then
+			slot0 = slot0
 			slot1 = slot0
+			slot0 = slot0.initAwards
+
+			slot0(slot1)
+
+			slot0 = slot0
+			slot1 = true
+			slot0.isInitAward = slot1
+		else
+			slot0 = setActive
+			slot1 = slot0
+			slot1 = slot1.awardPanel
 			slot2 = true
-			slot1.isOpenAwards = slot2
-			slot1 = pg
-			slot1 = slot1.UIMgr
-			slot1 = slot1.GetInstance
-			slot1 = slot1()
-			slot2 = slot1
-			slot1 = slot1.BlurPanel
-			slot3 = slot0
-			slot3 = slot3.awardPanel
 
-			slot1(slot2, slot3)
-
-			slot1 = slot0
-			slot1 = slot1.isInitAward
-
-			if not slot1 then
-				slot1 = slot0
-				slot2 = slot1
-				slot1 = slot1.initAwards
-
-				slot1(slot2)
-
-				slot1 = slot0
-				slot2 = true
-				slot1.isInitAward = slot2
-			else
-				slot1 = setActive
-				slot2 = slot0
-				slot2 = slot2.awardPanel
-				slot3 = true
-
-				slot1(slot2, slot3)
-			end
+			slot0(slot1, slot2)
 		end
 	end
 
@@ -954,7 +880,7 @@ function slot1(slot0)
 			slot9 = slot0
 			slot10 = findTF
 			slot11 = slot7
-			slot12 = "icon_bg/Image"
+			slot12 = "icon_bg"
 			slot10 = slot10(slot11, slot12)
 
 			function slot11()
@@ -1007,7 +933,7 @@ function slot1(slot0)
 			slot9 = slot0
 			slot10 = findTF
 			slot11 = slot7
-			slot12 = "icon_bg/Image"
+			slot12 = "icon_bg"
 			slot10 = slot10(slot11, slot12)
 
 			function slot11()
@@ -1084,9 +1010,23 @@ function slot1(slot0)
 	slot8 = slot8 .. slot9
 	slot9 = findTF
 	slot10 = slot2
-	slot11 = "medal"
+	slot11 = "medal_bg/medal"
+	slot9 = slot9(slot10, slot11)
+	slot10 = true
 
-	slot7(slot8, slot9(slot10, slot11))
+	slot7(slot8, slot9, slot10)
+
+	slot7 = LoadImageSpriteAsync
+	slot8 = "emblem/n_"
+	slot9 = slot6
+	slot8 = slot8 .. slot9
+	slot9 = findTF
+	slot10 = slot2
+	slot11 = "medal_bg/Text"
+	slot9 = slot9(slot10, slot11)
+	slot10 = true
+
+	slot7(slot8, slot9, slot10)
 
 	slot7 = findTF
 	slot8 = slot2
@@ -1192,8 +1132,22 @@ function slot1(slot0, slot1)
 	slot9 = findTF
 	slot10 = slot2
 	slot11 = "medal"
+	slot9 = slot9(slot10, slot11)
+	slot10 = true
 
-	slot7(slot8, slot9(slot10, slot11))
+	slot7(slot8, slot9, slot10)
+
+	slot7 = LoadImageSpriteAsync
+	slot8 = "emblem/n_"
+	slot9 = slot6
+	slot8 = slot8 .. slot9
+	slot9 = findTF
+	slot10 = slot2
+	slot11 = "Text"
+	slot9 = slot9(slot10, slot11)
+	slot10 = true
+
+	slot7(slot8, slot9, slot10)
 
 	slot7 = updateDrop
 	slot8 = slot5
@@ -1213,6 +1167,15 @@ function slot1(slot0, slot1)
 	}
 
 	slot7(slot8, slot9, slot10)
+
+	slot7 = setActive
+	slot8 = findTF
+	slot9 = slot5
+	slot10 = "icon_bg/lv"
+	slot8 = slot8(slot9, slot10)
+	slot9 = false
+
+	slot7(slot8, slot9)
 
 	slot7 = setText
 	slot8 = findTF
@@ -1305,13 +1268,6 @@ function slot1(slot0)
 	slot3 = slot3(slot4, slot5, slot6)
 
 	function slot4()
-		slot0 = triggerToggle
-		slot1 = slot0
-		slot1 = slot1.awardBtn
-		slot2 = false
-
-		slot0(slot1, slot2)
-
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.closeAwards

@@ -26,7 +26,7 @@ return {
 			actor = 106010,
 			side = 0,
 			say = "호넷 씨가 공격만 생각하니까 그런 거라구~ 우린 그 빈틈을 파고들어서 이겼을 뿐이야~",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -127,7 +127,7 @@ return {
 		{
 			actor = 106010,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이쪽도 귀환 명령이 내려왔어... 상황이 별로 좋지 않을지도...",
 			shake = {
 				speed = 0,

@@ -22,39 +22,41 @@ slot15 = slot0.FieldDescriptor()
 slot16 = slot0.FieldDescriptor()
 slot17 = slot0.FieldDescriptor()
 slot18 = slot0.FieldDescriptor()
-SC_40004 = slot0.Descriptor()
 slot19 = slot0.FieldDescriptor()
+SC_40004 = slot0.Descriptor()
 slot20 = slot0.FieldDescriptor()
 slot21 = slot0.FieldDescriptor()
 slot22 = slot0.FieldDescriptor()
 slot23 = slot0.FieldDescriptor()
 slot24 = slot0.FieldDescriptor()
-CS_40005 = slot0.Descriptor()
 slot25 = slot0.FieldDescriptor()
-SC_40006 = slot0.Descriptor()
 slot26 = slot0.FieldDescriptor()
-DROPPERFORMANCE = slot0.Descriptor()
+CS_40005 = slot0.Descriptor()
 slot27 = slot0.FieldDescriptor()
+SC_40006 = slot0.Descriptor()
 slot28 = slot0.FieldDescriptor()
+DROPPERFORMANCE = slot0.Descriptor()
 slot29 = slot0.FieldDescriptor()
-STATISTICSINFO = slot0.Descriptor()
 slot30 = slot0.FieldDescriptor()
 slot31 = slot0.FieldDescriptor()
+STATISTICSINFO = slot0.Descriptor()
 slot32 = slot0.FieldDescriptor()
 slot33 = slot0.FieldDescriptor()
 slot34 = slot0.FieldDescriptor()
 slot35 = slot0.FieldDescriptor()
-SHIP_EXP = slot0.Descriptor()
 slot36 = slot0.FieldDescriptor()
 slot37 = slot0.FieldDescriptor()
+SHIP_EXP = slot0.Descriptor()
 slot38 = slot0.FieldDescriptor()
-COMMANDER_EXP = slot0.Descriptor()
 slot39 = slot0.FieldDescriptor()
 slot40 = slot0.FieldDescriptor()
-ENEMYINFO = slot0.Descriptor()
+COMMANDER_EXP = slot0.Descriptor()
 slot41 = slot0.FieldDescriptor()
 slot42 = slot0.FieldDescriptor()
+ENEMYINFO = slot0.Descriptor()
 slot43 = slot0.FieldDescriptor()
+slot44 = slot0.FieldDescriptor()
+slot45 = slot0.FieldDescriptor()
 slot2.name = "system"
 slot2.full_name = ".p40.cs_40001.system"
 slot2.number = 1
@@ -223,16 +225,25 @@ slot17.has_default_value = false
 slot17.default_value = ""
 slot17.type = 9
 slot17.cpp_type = 9
-slot18.name = "enemy_info"
-slot18.full_name = ".p40.cs_40003.enemy_info"
+slot18.name = "boss_hp"
+slot18.full_name = ".p40.cs_40003.boss_hp"
 slot18.number = 11
 slot18.index = 10
-slot18.label = 3
+slot18.label = 1
 slot18.has_default_value = false
-slot18.default_value = {}
-slot18.message_type = ENEMYINFO
-slot18.type = 11
-slot18.cpp_type = 10
+slot18.default_value = 0
+slot18.type = 13
+slot18.cpp_type = 3
+slot19.name = "enemy_info"
+slot19.full_name = ".p40.cs_40003.enemy_info"
+slot19.number = 12
+slot19.index = 11
+slot19.label = 3
+slot19.has_default_value = false
+slot19.default_value = {}
+slot19.message_type = ENEMYINFO
+slot19.type = 11
+slot19.cpp_type = 10
 CS_40003.name = "cs_40003"
 CS_40003.full_name = ".p40.cs_40003"
 CS_40003.nested_types = {}
@@ -248,119 +259,95 @@ CS_40003.fields = {
 	slot15,
 	slot16,
 	slot17,
-	slot18
+	slot18,
+	slot19
 }
 CS_40003.is_extendable = false
 CS_40003.extensions = {}
-slot19.name = "result"
-slot19.full_name = ".p40.sc_40004.result"
-slot19.number = 1
-slot19.index = 0
-slot19.label = 2
-slot19.has_default_value = false
-slot19.default_value = 0
-slot19.type = 13
-slot19.cpp_type = 3
-slot20.name = "drop_info"
-slot20.full_name = ".p40.sc_40004.drop_info"
-slot20.number = 2
-slot20.index = 1
-slot20.label = 3
+slot20.name = "result"
+slot20.full_name = ".p40.sc_40004.result"
+slot20.number = 1
+slot20.index = 0
+slot20.label = 2
 slot20.has_default_value = false
-slot20.default_value = {}
-slot20.message_type = require("common_pb").DROPINFO
-slot20.type = 11
-slot20.cpp_type = 10
-slot21.name = "player_exp"
-slot21.full_name = ".p40.sc_40004.player_exp"
-slot21.number = 3
-slot21.index = 2
-slot21.label = 2
+slot20.default_value = 0
+slot20.type = 13
+slot20.cpp_type = 3
+slot21.name = "drop_info"
+slot21.full_name = ".p40.sc_40004.drop_info"
+slot21.number = 2
+slot21.index = 1
+slot21.label = 3
 slot21.has_default_value = false
-slot21.default_value = 0
-slot21.type = 13
-slot21.cpp_type = 3
-slot22.name = "ship_exp_list"
-slot22.full_name = ".p40.sc_40004.ship_exp_list"
-slot22.number = 4
-slot22.index = 3
+slot21.default_value = {}
+slot21.message_type = require("common_pb").DROPINFO
+slot21.type = 11
+slot21.cpp_type = 10
+slot22.name = "extra_drop_info"
+slot22.full_name = ".p40.sc_40004.extra_drop_info"
+slot22.number = 3
+slot22.index = 2
 slot22.label = 3
 slot22.has_default_value = false
 slot22.default_value = {}
-slot22.message_type = SHIP_EXP
+slot22.message_type = require("common_pb").DROPINFO
 slot22.type = 11
 slot22.cpp_type = 10
-slot23.name = "mvp"
-slot23.full_name = ".p40.sc_40004.mvp"
-slot23.number = 5
-slot23.index = 4
+slot23.name = "player_exp"
+slot23.full_name = ".p40.sc_40004.player_exp"
+slot23.number = 4
+slot23.index = 3
 slot23.label = 2
 slot23.has_default_value = false
 slot23.default_value = 0
 slot23.type = 13
 slot23.cpp_type = 3
-slot24.name = "commander_exp"
-slot24.full_name = ".p40.sc_40004.commander_exp"
-slot24.number = 6
-slot24.index = 5
+slot24.name = "ship_exp_list"
+slot24.full_name = ".p40.sc_40004.ship_exp_list"
+slot24.number = 5
+slot24.index = 4
 slot24.label = 3
 slot24.has_default_value = false
 slot24.default_value = {}
-slot24.message_type = COMMANDER_EXP
+slot24.message_type = SHIP_EXP
 slot24.type = 11
 slot24.cpp_type = 10
-SC_40004.name = "sc_40004"
-SC_40004.full_name = ".p40.sc_40004"
-SC_40004.nested_types = {}
-SC_40004.enum_types = {}
-SC_40004.fields = {
-	slot19,
-	slot20,
-	slot21,
-	slot22,
-	slot23,
-	slot24
-}
-SC_40004.is_extendable = false
-SC_40004.extensions = {}
-slot25.name = "system"
-slot25.full_name = ".p40.cs_40005.system"
-slot25.number = 1
-slot25.index = 0
+slot25.name = "mvp"
+slot25.full_name = ".p40.sc_40004.mvp"
+slot25.number = 6
+slot25.index = 5
 slot25.label = 2
 slot25.has_default_value = false
 slot25.default_value = 0
 slot25.type = 13
 slot25.cpp_type = 3
-CS_40005.name = "cs_40005"
-CS_40005.full_name = ".p40.cs_40005"
-CS_40005.nested_types = {}
-CS_40005.enum_types = {}
-CS_40005.fields = {
-	slot25
-}
-CS_40005.is_extendable = false
-CS_40005.extensions = {}
-slot26.name = "result"
-slot26.full_name = ".p40.sc_40006.result"
-slot26.number = 1
-slot26.index = 0
-slot26.label = 2
+slot26.name = "commander_exp"
+slot26.full_name = ".p40.sc_40004.commander_exp"
+slot26.number = 7
+slot26.index = 6
+slot26.label = 3
 slot26.has_default_value = false
-slot26.default_value = 0
-slot26.type = 13
-slot26.cpp_type = 3
-SC_40006.name = "sc_40006"
-SC_40006.full_name = ".p40.sc_40006"
-SC_40006.nested_types = {}
-SC_40006.enum_types = {}
-SC_40006.fields = {
+slot26.default_value = {}
+slot26.message_type = COMMANDER_EXP
+slot26.type = 11
+slot26.cpp_type = 10
+SC_40004.name = "sc_40004"
+SC_40004.full_name = ".p40.sc_40004"
+SC_40004.nested_types = {}
+SC_40004.enum_types = {}
+SC_40004.fields = {
+	slot20,
+	slot21,
+	slot22,
+	slot23,
+	slot24,
+	slot25,
 	slot26
 }
-SC_40006.is_extendable = false
-SC_40006.extensions = {}
-slot27.name = "enemy_id"
-slot27.full_name = ".p40.dropperformance.enemy_id"
+SC_40004.is_extendable = false
+SC_40004.extensions = {}
+slot27.name = "system"
+slot27.full_name = ".p40.cs_40005.system"
 slot27.number = 1
 slot27.index = 0
 slot27.label = 2
@@ -368,171 +355,179 @@ slot27.has_default_value = false
 slot27.default_value = 0
 slot27.type = 13
 slot27.cpp_type = 3
-slot28.name = "resource_num"
-slot28.full_name = ".p40.dropperformance.resource_num"
-slot28.number = 2
-slot28.index = 1
+CS_40005.name = "cs_40005"
+CS_40005.full_name = ".p40.cs_40005"
+CS_40005.nested_types = {}
+CS_40005.enum_types = {}
+CS_40005.fields = {
+	slot27
+}
+CS_40005.is_extendable = false
+CS_40005.extensions = {}
+slot28.name = "result"
+slot28.full_name = ".p40.sc_40006.result"
+slot28.number = 1
+slot28.index = 0
 slot28.label = 2
 slot28.has_default_value = false
 slot28.default_value = 0
 slot28.type = 13
 slot28.cpp_type = 3
-slot29.name = "other_num"
-slot29.full_name = ".p40.dropperformance.other_num"
-slot29.number = 3
-slot29.index = 2
+SC_40006.name = "sc_40006"
+SC_40006.full_name = ".p40.sc_40006"
+SC_40006.nested_types = {}
+SC_40006.enum_types = {}
+SC_40006.fields = {
+	slot28
+}
+SC_40006.is_extendable = false
+SC_40006.extensions = {}
+slot29.name = "enemy_id"
+slot29.full_name = ".p40.dropperformance.enemy_id"
+slot29.number = 1
+slot29.index = 0
 slot29.label = 2
 slot29.has_default_value = false
 slot29.default_value = 0
 slot29.type = 13
 slot29.cpp_type = 3
-DROPPERFORMANCE.name = "dropperformance"
-DROPPERFORMANCE.full_name = ".p40.dropperformance"
-DROPPERFORMANCE.nested_types = {}
-DROPPERFORMANCE.enum_types = {}
-DROPPERFORMANCE.fields = {
-	slot27,
-	slot28,
-	slot29
-}
-DROPPERFORMANCE.is_extendable = false
-DROPPERFORMANCE.extensions = {}
-slot30.name = "ship_id"
-slot30.full_name = ".p40.statisticsinfo.ship_id"
-slot30.number = 1
-slot30.index = 0
+slot30.name = "resource_num"
+slot30.full_name = ".p40.dropperformance.resource_num"
+slot30.number = 2
+slot30.index = 1
 slot30.label = 2
 slot30.has_default_value = false
 slot30.default_value = 0
 slot30.type = 13
 slot30.cpp_type = 3
-slot31.name = "damage_cause"
-slot31.full_name = ".p40.statisticsinfo.damage_cause"
-slot31.number = 2
-slot31.index = 1
+slot31.name = "other_num"
+slot31.full_name = ".p40.dropperformance.other_num"
+slot31.number = 3
+slot31.index = 2
 slot31.label = 2
 slot31.has_default_value = false
 slot31.default_value = 0
 slot31.type = 13
 slot31.cpp_type = 3
-slot32.name = "damage_caused"
-slot32.full_name = ".p40.statisticsinfo.damage_caused"
-slot32.number = 3
-slot32.index = 2
+DROPPERFORMANCE.name = "dropperformance"
+DROPPERFORMANCE.full_name = ".p40.dropperformance"
+DROPPERFORMANCE.nested_types = {}
+DROPPERFORMANCE.enum_types = {}
+DROPPERFORMANCE.fields = {
+	slot29,
+	slot30,
+	slot31
+}
+DROPPERFORMANCE.is_extendable = false
+DROPPERFORMANCE.extensions = {}
+slot32.name = "ship_id"
+slot32.full_name = ".p40.statisticsinfo.ship_id"
+slot32.number = 1
+slot32.index = 0
 slot32.label = 2
 slot32.has_default_value = false
 slot32.default_value = 0
 slot32.type = 13
 slot32.cpp_type = 3
-slot33.name = "hp_rest"
-slot33.full_name = ".p40.statisticsinfo.hp_rest"
-slot33.number = 4
-slot33.index = 3
+slot33.name = "damage_cause"
+slot33.full_name = ".p40.statisticsinfo.damage_cause"
+slot33.number = 2
+slot33.index = 1
 slot33.label = 2
 slot33.has_default_value = false
 slot33.default_value = 0
 slot33.type = 13
 slot33.cpp_type = 3
-slot34.name = "max_damage_once"
-slot34.full_name = ".p40.statisticsinfo.max_damage_once"
-slot34.number = 5
-slot34.index = 4
+slot34.name = "damage_caused"
+slot34.full_name = ".p40.statisticsinfo.damage_caused"
+slot34.number = 3
+slot34.index = 2
 slot34.label = 2
 slot34.has_default_value = false
 slot34.default_value = 0
 slot34.type = 13
 slot34.cpp_type = 3
-slot35.name = "ship_gear_score"
-slot35.full_name = ".p40.statisticsinfo.ship_gear_score"
-slot35.number = 6
-slot35.index = 5
+slot35.name = "hp_rest"
+slot35.full_name = ".p40.statisticsinfo.hp_rest"
+slot35.number = 4
+slot35.index = 3
 slot35.label = 2
 slot35.has_default_value = false
 slot35.default_value = 0
 slot35.type = 13
 slot35.cpp_type = 3
-STATISTICSINFO.name = "statisticsinfo"
-STATISTICSINFO.full_name = ".p40.statisticsinfo"
-STATISTICSINFO.nested_types = {}
-STATISTICSINFO.enum_types = {}
-STATISTICSINFO.fields = {
-	slot30,
-	slot31,
-	slot32,
-	slot33,
-	slot34,
-	slot35
-}
-STATISTICSINFO.is_extendable = false
-STATISTICSINFO.extensions = {}
-slot36.name = "ship_id"
-slot36.full_name = ".p40.ship_exp.ship_id"
-slot36.number = 1
-slot36.index = 0
+slot36.name = "max_damage_once"
+slot36.full_name = ".p40.statisticsinfo.max_damage_once"
+slot36.number = 5
+slot36.index = 4
 slot36.label = 2
 slot36.has_default_value = false
 slot36.default_value = 0
 slot36.type = 13
 slot36.cpp_type = 3
-slot37.name = "exp"
-slot37.full_name = ".p40.ship_exp.exp"
-slot37.number = 2
-slot37.index = 1
+slot37.name = "ship_gear_score"
+slot37.full_name = ".p40.statisticsinfo.ship_gear_score"
+slot37.number = 6
+slot37.index = 5
 slot37.label = 2
 slot37.has_default_value = false
 slot37.default_value = 0
 slot37.type = 13
 slot37.cpp_type = 3
-slot38.name = "intimacy"
-slot38.full_name = ".p40.ship_exp.intimacy"
-slot38.number = 3
-slot38.index = 2
+STATISTICSINFO.name = "statisticsinfo"
+STATISTICSINFO.full_name = ".p40.statisticsinfo"
+STATISTICSINFO.nested_types = {}
+STATISTICSINFO.enum_types = {}
+STATISTICSINFO.fields = {
+	slot32,
+	slot33,
+	slot34,
+	slot35,
+	slot36,
+	slot37
+}
+STATISTICSINFO.is_extendable = false
+STATISTICSINFO.extensions = {}
+slot38.name = "ship_id"
+slot38.full_name = ".p40.ship_exp.ship_id"
+slot38.number = 1
+slot38.index = 0
 slot38.label = 2
 slot38.has_default_value = false
 slot38.default_value = 0
 slot38.type = 13
 slot38.cpp_type = 3
-SHIP_EXP.name = "ship_exp"
-SHIP_EXP.full_name = ".p40.ship_exp"
-SHIP_EXP.nested_types = {}
-SHIP_EXP.enum_types = {}
-SHIP_EXP.fields = {
-	slot36,
-	slot37,
-	slot38
-}
-SHIP_EXP.is_extendable = false
-SHIP_EXP.extensions = {}
-slot39.name = "commander_id"
-slot39.full_name = ".p40.commander_exp.commander_id"
-slot39.number = 1
-slot39.index = 0
+slot39.name = "exp"
+slot39.full_name = ".p40.ship_exp.exp"
+slot39.number = 2
+slot39.index = 1
 slot39.label = 2
 slot39.has_default_value = false
 slot39.default_value = 0
 slot39.type = 13
 slot39.cpp_type = 3
-slot40.name = "exp"
-slot40.full_name = ".p40.commander_exp.exp"
-slot40.number = 2
-slot40.index = 1
+slot40.name = "intimacy"
+slot40.full_name = ".p40.ship_exp.intimacy"
+slot40.number = 3
+slot40.index = 2
 slot40.label = 2
 slot40.has_default_value = false
 slot40.default_value = 0
 slot40.type = 13
 slot40.cpp_type = 3
-COMMANDER_EXP.name = "commander_exp"
-COMMANDER_EXP.full_name = ".p40.commander_exp"
-COMMANDER_EXP.nested_types = {}
-COMMANDER_EXP.enum_types = {}
-COMMANDER_EXP.fields = {
+SHIP_EXP.name = "ship_exp"
+SHIP_EXP.full_name = ".p40.ship_exp"
+SHIP_EXP.nested_types = {}
+SHIP_EXP.enum_types = {}
+SHIP_EXP.fields = {
+	slot38,
 	slot39,
 	slot40
 }
-COMMANDER_EXP.is_extendable = false
-COMMANDER_EXP.extensions = {}
-slot41.name = "enemy_id"
-slot41.full_name = ".p40.enemyinfo.enemy_id"
+SHIP_EXP.is_extendable = false
+SHIP_EXP.extensions = {}
+slot41.name = "commander_id"
+slot41.full_name = ".p40.commander_exp.commander_id"
 slot41.number = 1
 slot41.index = 0
 slot41.label = 2
@@ -540,8 +535,8 @@ slot41.has_default_value = false
 slot41.default_value = 0
 slot41.type = 13
 slot41.cpp_type = 3
-slot42.name = "damage_taken"
-slot42.full_name = ".p40.enemyinfo.damage_taken"
+slot42.name = "exp"
+slot42.full_name = ".p40.commander_exp.exp"
 slot42.number = 2
 slot42.index = 1
 slot42.label = 2
@@ -549,23 +544,51 @@ slot42.has_default_value = false
 slot42.default_value = 0
 slot42.type = 13
 slot42.cpp_type = 3
-slot43.name = "total_hp"
-slot43.full_name = ".p40.enemyinfo.total_hp"
-slot43.number = 3
-slot43.index = 2
+COMMANDER_EXP.name = "commander_exp"
+COMMANDER_EXP.full_name = ".p40.commander_exp"
+COMMANDER_EXP.nested_types = {}
+COMMANDER_EXP.enum_types = {}
+COMMANDER_EXP.fields = {
+	slot41,
+	slot42
+}
+COMMANDER_EXP.is_extendable = false
+COMMANDER_EXP.extensions = {}
+slot43.name = "enemy_id"
+slot43.full_name = ".p40.enemyinfo.enemy_id"
+slot43.number = 1
+slot43.index = 0
 slot43.label = 2
 slot43.has_default_value = false
 slot43.default_value = 0
 slot43.type = 13
 slot43.cpp_type = 3
+slot44.name = "damage_taken"
+slot44.full_name = ".p40.enemyinfo.damage_taken"
+slot44.number = 2
+slot44.index = 1
+slot44.label = 2
+slot44.has_default_value = false
+slot44.default_value = 0
+slot44.type = 13
+slot44.cpp_type = 3
+slot45.name = "total_hp"
+slot45.full_name = ".p40.enemyinfo.total_hp"
+slot45.number = 3
+slot45.index = 2
+slot45.label = 2
+slot45.has_default_value = false
+slot45.default_value = 0
+slot45.type = 13
+slot45.cpp_type = 3
 ENEMYINFO.name = "enemyinfo"
 ENEMYINFO.full_name = ".p40.enemyinfo"
 ENEMYINFO.nested_types = {}
 ENEMYINFO.enum_types = {}
 ENEMYINFO.fields = {
-	slot41,
-	slot42,
-	slot43
+	slot43,
+	slot44,
+	slot45
 }
 ENEMYINFO.is_extendable = false
 ENEMYINFO.extensions = {}

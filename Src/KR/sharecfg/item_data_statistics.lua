@@ -3777,7 +3777,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15008] = {
-		display = "인식 각성에 사용되는 성정 큐브의 기술 전용 유닛. <color=#A9F548>레벨이 100 이상, 한계 돌파를 3회 진행한</color> 함선소녀의 레벨 상한을 올려줍니다.",
+		display = "인식 각성에 사용되는 성정 큐브의 기술 전용 유닛. <color=#92fc63>레벨이 100 이상, 한계 돌파를 3회 진행한</color> 함선소녀의 레벨 상한을 올려줍니다.",
 		rarity = 4,
 		type = 1,
 		name = "성정 유닛",
@@ -3794,7 +3794,7 @@ pg.item_data_statistics = {
 	},
 	[15009] = {
 		display = [[
-지휘관의 이름을 변경할 때 제출해야 하는 신청서. <color=#A9F548>30일</color> 에 한 번만 바꿀 수 있다.
+지휘관의 이름을 변경할 때 제출해야 하는 신청서. <color=#92fc63>30일</color> 에 한 번만 바꿀 수 있다.
 메인화면 좌측 상단의 아이콘을 터치, 닉네임란의 '개명' 버튼을 눌러 지휘관의 닉네임을 변경할 수 있다.
 <주의사항>
 아래 방침을 위반하는 닉네임은 개명처리 될 수 있습니다.
@@ -3836,7 +3836,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16001] = {
-		display = "공격 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#fad545>6개</color>를 합성하여 <color=#966af6>공격 교본 T2</color> 제작 가능",
+		display = "공격 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>6개</color>를 합성하여 <color=#d797ff>공격 교본 T2</color> 제작 가능",
 		rarity = 2,
 		type = 10,
 		name = "공격 교본 T1",
@@ -3884,7 +3884,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16011] = {
-		display = "방어 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#fad545>6개</color>를 합성하여 <color=#966af6>방어 교본 T2</color> 제작 가능",
+		display = "방어 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>6개</color>를 합성하여 <color=#d797ff>방어 교본 T2</color> 제작 가능",
 		rarity = 2,
 		type = 10,
 		name = "방어 교본 T1",
@@ -3932,7 +3932,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16021] = {
-		display = "지원 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#fad545>6개</color>를 합성하여 <color=#966af6>지원 교본 T2</color> 제작 가능",
+		display = "지원 스킬 강화용 교본 T1, \n전술학원에서 함선 소녀의 스킬을 강화하는 데에 사용된다.\n*<color=#ffde38>6개</color>를 합성하여 <color=#d797ff>지원 교본 T2</color> 제작 가능",
 		rarity = 2,
 		type = 10,
 		name = "지원 교본 T1",
@@ -4281,7 +4281,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18001] = {
-		display = "구축함의 근대화 개수에 쓰이는 개조 도면.\n<color=#fad545>6개</color>를 모아 <color=#966af6>구축함 개조 도면 T2</color>로 합성 가능.",
+		display = "구축함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>구축함 개조 도면 T2</color>로 합성 가능.",
 		rarity = 2,
 		type = 7,
 		name = "구축함 개조 도면 T1",
@@ -4329,7 +4329,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18011] = {
-		display = "순양함의 근대화 개수에 쓰이는 개조 도면.\n<color=#fad545>6개</color>를 모아 <color=#966af6>순양함 개조 도면 T2</color>로 합성 가능.",
+		display = "순양함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>순양함 개조 도면 T2</color>로 합성 가능.",
 		rarity = 2,
 		type = 7,
 		name = "순양함 개조 도면 T1",
@@ -4377,7 +4377,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18021] = {
-		display = "전함의 근대화 개수에 쓰이는 개조 도면.\n<color=#fad545>6개</color>를 모아 <color=#966af6>전함 개조 도면 T2</color>로 합성 가능.",
+		display = "전함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>전함 개조 도면 T2</color>로 합성 가능.",
 		rarity = 2,
 		type = 7,
 		name = "전함 개조 도면 T1",
@@ -4425,7 +4425,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18031] = {
-		display = "항공모함의 근대화 개수에 쓰이는 개조 도면.\n<color=#fad545>6개</color>를 모아 <color=#966af6>항공모함 개조 도면 T2</color>로 합성 가능.",
+		display = "항공모함의 근대화 개수에 쓰이는 개조 도면.\n<color=#ffde38>6개</color>를 모아 <color=#d797ff>항공모함 개조 도면 T2</color>로 합성 가능.",
 		rarity = 2,
 		type = 7,
 		name = "항공모함 개조 도면 T1",
@@ -4549,7 +4549,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30001] = {
-		display = "잠수함 장비가 랜덤으로 1개 출현 :\n낮은 확률로<color=#60a9ff> 레어 장비</color>가 출현하고,\n높은 확률로 노멀 장비가 출현한다.",
+		display = "잠수함 장비가 랜덤으로 1개 출현 :\n낮은 확률로<color=#3dc6ff> 레어 장비</color>가 출현하고,\n높은 확률로 노멀 장비가 출현한다.",
 		rarity = 2,
 		type = 5,
 		name = "기본 잠수함대 장비 상자",
@@ -4568,7 +4568,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30011] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#60a9ff>크록히드 장비상자 T2</color>로 합성 가능.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크록히드 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "크록히드 장비상자 T1",
@@ -4587,7 +4587,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30012] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#966af6>크록히드 장비상자 T3</color>로 합성 가능.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크록히드 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "크록히드 장비상자 T2",
@@ -4606,7 +4606,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30013] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "크록히드 장비상자 T3",
@@ -4625,7 +4625,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30014] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#fff157>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "크록히드 장비상자 T4",
@@ -4644,7 +4644,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30015] = {
-		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n<color=#fff157>SS Rare 등급 장비</color>가 출현한다.",
+		display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "크록히드 장비상자 T5",
@@ -4663,7 +4663,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30021] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#60a9ff>비스커 장비상자 T2</color>로 합성 가능.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>비스커 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "비스커 장비상자 T1",
@@ -4682,7 +4682,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30022] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#966af6>비스커 장비상자 T3</color>로 합성 가능.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>비스커 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "비스커 장비상자 T2",
@@ -4701,7 +4701,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30023] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "비스커 장비상자 T3",
@@ -4720,7 +4720,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30024] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#fff157>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "비스커 장비상자 T4",
@@ -4739,7 +4739,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30025] = {
-		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#fff157>SS Rare 등급 장비</color>가 출현한다.",
+		display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "비스커 장비상자 T5",
@@ -4758,7 +4758,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30031] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#60a9ff>자오중공 장비상자 T2</color>로 합성 가능.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>자오중공 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "자오중공 장비상자 T1",
@@ -4777,7 +4777,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30032] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#966af6>자오중공 장비상자 T3</color>로 합성 가능.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>자오중공 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "자오중공 장비상자 T2",
@@ -4796,7 +4796,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30033] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "자오중공 장비상자 T3",
@@ -4815,7 +4815,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30034] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#fff157>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "자오중공 장비상자 T4",
@@ -4834,7 +4834,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30035] = {
-		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n<color=#fff157>SS Rare 등급 장비</color>가 출현한다.",
+		display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "자오중공 장비상자 T5",
@@ -4853,7 +4853,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30041] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#60a9ff>크라프 장비상자 T2</color>로 합성 가능.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크라프 장비상자 T2</color>로 합성 가능.",
 		rarity = 1,
 		type = 5,
 		name = "크라프 장비상자 T1",
@@ -4872,7 +4872,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30042] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.\n*<color=#fad545>5개</color>를 모아 <color=#966af6>크라프 장비상자 T3</color>로 합성 가능.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크라프 장비상자 T3</color>로 합성 가능.",
 		rarity = 2,
 		type = 5,
 		name = "크라프 장비상자 T2",
@@ -4891,7 +4891,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30043] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#60a9ff>Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
 		rarity = 3,
 		type = 5,
 		name = "크라프 장비상자 T3",
@@ -4910,7 +4910,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30044] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#fff157>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#966af6>S Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
 		rarity = 4,
 		type = 5,
 		name = "크라프 장비상자 T4",
@@ -4929,7 +4929,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30045] = {
-		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#fff157>SS Rare 등급 장비</color>가 출현한다.",
+		display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능:\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
 		rarity = 5,
 		type = 5,
 		name = "크라프 장비상자 T5",
@@ -4948,7 +4948,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30103] = {
-		display = "1~4개의 <color=#966af6>랜덤한 T3 부속</color>을 획득 가능 : \n각 부품의 출현 확률은 <color=#fad545>동일하다</color>.",
+		display = "1~4개의 <color=#d797ff>랜덤한 T3 부속</color>을 획득 가능 : \n각 부품의 출현 확률은 <color=#ffde38>동일하다</color>.",
 		rarity = 3,
 		type = 5,
 		name = "T3 부속 상자",
@@ -11589,7 +11589,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42001] = {
-		display = "로열 네이비의 순양함 「넵튠」의 강화 유닛.\n<color=#A9F548>「넵튠」개발 완료 후, 「개발 도크」에서 「넵튠」의 성능을 강화할 수 있다.</color>",
+		display = "로열 네이비의 순양함 「넵튠」의 강화 유닛.\n<color=#92fc63>「넵튠」개발 완료 후, 「개발 도크」에서 「넵튠」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「넵튠」",
@@ -11605,7 +11605,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42002] = {
-		display = "로열 네이비의 전함 「모나크」의 강화 유닛.\n<color=#A9F548>「모나크」개발 완료 후, 「개발 도크」에서 「모나크」의 성능을 강화할 수 있다.</color>",
+		display = "로열 네이비의 전함 「모나크」의 강화 유닛.\n<color=#92fc63>「모나크」개발 완료 후, 「개발 도크」에서 「모나크」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「모나크」",
@@ -11621,7 +11621,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42003] = {
-		display = "사쿠라 엠파이어 순양함 「이부키」의 강화 유닛.\n<color=#A9F548>「이부키」개발 완료 후, 「개발 도크」에서 「이부키」의 성능을 강화할 수 있다.</color>",
+		display = "사쿠라 엠파이어 순양함 「이부키」의 강화 유닛.\n<color=#92fc63>「이부키」개발 완료 후, 「개발 도크」에서 「이부키」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「이부키」",
@@ -11637,7 +11637,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42004] = {
-		display = "사쿠라 엠파이어 전함 「이즈모」의 강화 유닛.\n<color=#A9F548>「이즈모」개발 완료 후, 「개발 도크」에서 「이즈모」의 성능을 강화할 수 있다.</color>",
+		display = "사쿠라 엠파이어 전함 「이즈모」의 강화 유닛.\n<color=#92fc63>「이즈모」개발 완료 후, 「개발 도크」에서 「이즈모」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「이즈모」",
@@ -11653,7 +11653,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42005] = {
-		display = "메탈 블러드의 중순양함 「론」의 강화 유닛.\n<color=#A9F548>「론」개발 완료 후, 「개발 도크」에서 「론」의 성능을 강화할 수 있다.</color>",
+		display = "메탈 블러드의 중순양함 「론」의 강화 유닛.\n<color=#92fc63>「론」개발 완료 후, 「개발 도크」에서 「론」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「론」",
@@ -11669,7 +11669,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42006] = {
-		display = "아이리스 리브레 순양함 「생 루이」의 강화 유닛.\n<color=#A9F548>「생 루이」개발 완료 후, 「개발 도크」에서 「생 루이」의 성능을 강화할 수 있다.</color>",
+		display = "아이리스 리브레 순양함 「생 루이」의 강화 유닛.\n<color=#92fc63>「생 루이」개발 완료 후, 「개발 도크」에서 「생 루이」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "강화 유닛 「생 루이」",
@@ -11752,7 +11752,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42011] = {
-		display = "유니온 순양함 '시애틀'의 강화 유닛.\n<color=#A9F548> 」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
+		display = "유니온 순양함 '시애틀'의 강화 유닛.\n<color=#92fc63> 」개발 완료 후, 「개발 도크」에서 「시애틀」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "지향형 강화 유닛 「시애틀」",
@@ -11768,7 +11768,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42012] = {
-		display = "유니온 전함 「조지아」의 강화 유닛.\n<color=#A9F548>「조지아」개발 완료 후, 「개발 도크」에서 「조지아」의 성능을 강화할 수 있다.</color>",
+		display = "유니온 전함 「조지아」의 강화 유닛.\n<color=#92fc63>「조지아」개발 완료 후, 「개발 도크」에서 「조지아」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "지향형 강화 유닛 「조지아」",
@@ -11784,7 +11784,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42013] = {
-		display = "사쿠라 엠파이어 구축함 「키타카제」의 강화 유닛.\n<color=#A9F548>「키타카제」개발 완료 후, 「개발 도크」에서 「키타카제」의 성능을 강화할 수 있다.</color>",
+		display = "사쿠라 엠파이어 구축함 「키타카제」의 강화 유닛.\n<color=#92fc63>「키타카제」개발 완료 후, 「개발 도크」에서 「키타카제」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "지향형 강화 유닛 「키타카제」",
@@ -11800,7 +11800,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42014] = {
-		display = "사쿠라 엠파이어 장갑순양함 「아즈마」의 강화 유닛.\n<color=#A9F548>「아즈마」개발 완료 후, 「개발 도크」에서 「아즈마」의 성능을 강화할 수 있다.</color>",
+		display = "사쿠라 엠파이어 장갑순양함 「아즈마」의 강화 유닛.\n<color=#92fc63>「아즈마」개발 완료 후, 「개발 도크」에서 「아즈마」의 성능을 강화할 수 있다.</color>",
 		rarity = 5,
 		type = 12,
 		name = "지향형 강화 유닛 「아즈마」",
@@ -11816,7 +11816,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42015] = {
-		display = "메탈 블러드 전함 「프리드리히 데어 그로세」의 강화 유닛.\n<color=#A9F548>「프리드리히 데어 그로세」개발 완료 후, 「개발 도크」에서 「프리드리히 데어 그로세」의 성능을 강화할 수 있다.</color>",
+		display = "메탈 블러드 전함 「프리드리히 데어 그로세」의 강화 유닛.\n<color=#92fc63>「프리드리히 데어 그로세」개발 완료 후, 「개발 도크」에서 「프리드리히 데어 그로세」의 성능을 강화할 수 있다.</color>",
 		rarity = 5,
 		type = 12,
 		name = "지향형 강화 유닛 「프리드리히 데어 그로세」",
@@ -11832,7 +11832,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42016] = {
-		display = "비시아 전함 「가스코뉴」의 강화 유닛.\n<color=#A9F548>「가스코뉴」개발 완료 후, 「개발 도크」에서 「가스코뉴」의 성능을 강화할 수 있다.</color>",
+		display = "비시아 전함 「가스코뉴」의 강화 유닛.\n<color=#92fc63>「가스코뉴」개발 완료 후, 「개발 도크」에서 「가스코뉴」의 성능을 강화할 수 있다.</color>",
 		rarity = 4,
 		type = 12,
 		name = "지향형 강화 유닛 「가스코뉴」",
@@ -11932,7 +11932,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#A9F548>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
 		rarity = 2,
 		type = 3,
 		name = "해군 카레",
@@ -11951,7 +11951,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "로열 네이비 특제 요리라~구! <color=#A9F548>(180분 동안 숙소 경험치 효율 10% 상승)</color>",
+		display = "로열 네이비 특제 요리라~구! <color=#92fc63>(180분 동안 숙소 경험치 효율 10% 상승)</color>",
 		rarity = 3,
 		type = 3,
 		name = "정어리 파이",
@@ -11970,7 +11970,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "생긴 것이 기묘해 보이는 전통(?) 요리. <color=#A9F548>(360분 동안 숙소 경험치 효율 20% 상승)</color>",
+		display = "생긴 것이 기묘해 보이는 전통(?) 요리. <color=#92fc63>(360분 동안 숙소 경험치 효율 20% 상승)</color>",
 		rarity = 3,
 		type = 3,
 		name = "풀 코스 요리",
@@ -52917,8 +52917,40 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59126,
 		icon = "Props/kizuna_pt",
-		price = "",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59127] = {
+		display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		name = "집결 포인트 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59127,
+		icon = "Props/union_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59128] = {
+		display = "用于『限时体验商店』兑换角色限时换装，2019年7月11日后将无法使用",
+		rarity = 4,
+		type = 98,
+		name = "换装体验券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59128,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
 		index = {}
 	},
 	[59601] = {
@@ -53388,7 +53420,7 @@ pg.item_data_statistics = {
 	[59711] = {
 		display = "1주년 기념 이벤트 '재탄생의 새벽' 클리어 기념. \"지휘관님? 제가 들고 있는 보드카랑 흘롑 보셨나요? 우후후.\" ",
 		rarity = 3,
-		type = 1,
+		type = 5,
 		name = "재탄생의 새벽 ",
 		shop_id = -1,
 		shiptrans_id = 0,
@@ -54449,6 +54481,150 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59774] = {
+		display = "1주년 이벤트 [재탄생의 새벽] 완료 기념- 지휘관 님, 제가 들고 있던 빵과 보드카를 보신 적 있으신가요? ",
+		rarity = 3,
+		type = 1,
+		name = "재탄생의 새벽 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59774,
+		icon = "props/yizhounian",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59775] = {
+		display = "7장을 모을 경우, 한정 설비 '약속의 증명' 획득 가능 ",
+		rarity = 2,
+		type = 0,
+		name = "U-556의 훈장 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 20186,
+		id = 59775,
+		icon = "Props/u556xunzhang",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59776] = {
+		display = "물감 A, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59776,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59777] = {
+		display = "물감 B, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59777,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59778] = {
+		display = "물감 C, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59778,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59779] = {
+		display = "물감 D, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59779,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59780] = {
+		display = "물감 E, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59780,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59781] = {
+		display = "물감 F, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59781,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59782] = {
+		display = "물감 G, 그림 교실 이벤트에 쓰이며, 이벤트 종료 후엔 자동적으로 소멸된다.",
+		rarity = 2,
+		type = 0,
+		name = "물감 G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 20187,
+		id = 59782,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "A-1 조각",
 		rarity = 2,
@@ -54789,16 +54965,16 @@ pg.item_data_statistics = {
 		display = [[
 1개의 연회복 테마 스킨을 랜덤으로 획득합니다. (만약 획득 스킨이 이미 보유 중인 경우엔, 자동적으로 스킨 구매 금액에 상응하는 다이아로 변경됩니다.)
 획득 가능한 스킨 및 확률은 아래와 같습니다：
-（<color=#A9F548>8.81%</color>）후부키 [뮤직 픽시]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8.81%</color>）클리블랜드 [비스티 나이트]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8.81%</color>）다이호 [금단의 연회]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10.51%</color>）퀸 엘리자베스 [여왕님의 무도회]；
-（<color=#A9F548>10.51%</color>）에이잭스 [파티 퀸]；
-（<color=#A9F548>10.51%</color>）아카시 [검은 고양이의 습격!]；
-（<color=#A9F548>10.51%</color>）아마존 [리틀 오케스트라]；
-（<color=#A9F548>10.51%</color>）사우스다코타 [피아노 리사이틀]；
-（<color=#A9F548>10.51%</color>）U-81 [정밀한 세레나데]；
-（<color=#A9F548>10.51%</color>）일러스트리어스 [빛나는 무도회]；]],
+（<color=#92fc63>8.81%</color>）후부키 [뮤직 픽시]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.81%</color>）클리블랜드 [비스티 나이트]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.81%</color>）다이호 [금단의 연회]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.51%</color>）퀸 엘리자베스 [여왕님의 무도회]；
+（<color=#92fc63>10.51%</color>）에이잭스 [파티 퀸]；
+（<color=#92fc63>10.51%</color>）아카시 [검은 고양이의 습격!]；
+（<color=#92fc63>10.51%</color>）아마존 [리틀 오케스트라]；
+（<color=#92fc63>10.51%</color>）사우스다코타 [피아노 리사이틀]；
+（<color=#92fc63>10.51%</color>）U-81 [정밀한 세레나데]；
+（<color=#92fc63>10.51%</color>）일러스트리어스 [빛나는 무도회]；]],
 		rarity = 4,
 		type = 98,
 		name = "랜덤 스킨",
@@ -54817,15 +54993,15 @@ pg.item_data_statistics = {
 		display = [[
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
-（<color=#A9F548>9%</color>）엘드릿지 [정월의 손길]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）이부키 [영원한 꿈을 꾸는 청녀]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10%</color>）세인트루이스 [눈 내린 그날 밤, 잊지 못할 그 한 잔의 술]（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>12%</color>）이즈모 [구름을 벗어난 천 그루 벚꽃처럼]；
-（<color=#A9F548>12%</color>）프린스 오브 웨일즈 [로열 네이비의 풍류]；
-（<color=#A9F548>12%</color>）이소카제 [신년 대합전]；
-（<color=#A9F548>12%</color>）헬레나 [파랑새의 정월]；
-（<color=#A9F548>12%</color>）몬트필리어 [눈 내린 밤에 핀 꽃]；
-（<color=#A9F548>12%</color>）아시가라 [막간 휴식]； ]],
+（<color=#92fc63>9%</color>）엘드릿지 [정월의 손길]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）이부키 [영원한 꿈을 꾸는 청녀]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）세인트루이스 [눈 내린 그날 밤, 잊지 못할 그 한 잔의 술]（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）이즈모 [구름을 벗어난 천 그루 벚꽃처럼]；
+（<color=#92fc63>12%</color>）프린스 오브 웨일즈 [로열 네이비의 풍류]；
+（<color=#92fc63>12%</color>）이소카제 [신년 대합전]；
+（<color=#92fc63>12%</color>）헬레나 [파랑새의 정월]；
+（<color=#92fc63>12%</color>）몬트필리어 [눈 내린 밤에 핀 꽃]；
+（<color=#92fc63>12%</color>）아시가라 [막간 휴식]； ]],
 		rarity = 4,
 		type = 98,
 		name = "랜덤 신년 스킨 ",
@@ -54845,16 +55021,16 @@ pg.item_data_statistics = {
 다음의 스킨을 랜덤으로 입수할 수 있습니다.
 (입수한 스킨이 이미 소지하고 있는 스킨인 경우, 구매 시 소비한 만큼의 다이아로 변환되어 지급됩니다)
 스킨 출현 확률：
- (<color=#A9F548>8.5%</color>) 벨파스트 [채운의 장미] (<color=#A9F548>Live 2d</color>)；
- (<color=#A9F548>9%</color>) 라피：봄을 기다리는 토끼 (<color=#A9F548>Live 2d</color>)；
- (<color=#A9F548>9%</color>) 타이위안：봄을 깨우는 검은 거북이 (<color=#A9F548>Live 2d</color>)；
- (<color=#A9F548>10.5%</color>) 엔터프라이즈：블루밍 피어니；
- (<color=#A9F548>10.5%</color>) 센토：청량한 봄바람；
- (<color=#A9F548>10.5%</color>) 모나크：블랙 제라드；
- (<color=#A9F548>10.5%</color>) 유구레：해질 무렵에 피는 봄꽃；
- (<color=#A9F548>10.5%</color>) 아야나미：파도신년；
- (<color=#A9F548>10.5%</color>) 렉싱턴：봄꽃의 노래；
- (<color=#A9F548>10.5%</color>) 체이서：이스트 글림 견문록； ]],
+ (<color=#92fc63>8.5%</color>) 벨파스트 [채운의 장미] (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>9%</color>) 라피：봄을 기다리는 토끼 (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>9%</color>) 타이위안：봄을 깨우는 검은 거북이 (<color=#92fc63>Live 2d</color>)；
+ (<color=#92fc63>10.5%</color>) 엔터프라이즈：블루밍 피어니；
+ (<color=#92fc63>10.5%</color>) 센토：청량한 봄바람；
+ (<color=#92fc63>10.5%</color>) 모나크：블랙 제라드；
+ (<color=#92fc63>10.5%</color>) 유구레：해질 무렵에 피는 봄꽃；
+ (<color=#92fc63>10.5%</color>) 아야나미：파도신년；
+ (<color=#92fc63>10.5%</color>) 렉싱턴：봄꽃의 노래；
+ (<color=#92fc63>10.5%</color>) 체이서：이스트 글림 견문록； ]],
 		rarity = 4,
 		type = 98,
 		name = "랜덤 스킨 (설날) ",
@@ -56537,6 +56713,8 @@ pg.item_data_statistics = {
 		59123,
 		59125,
 		59126,
+		59127,
+		59128,
 		59601,
 		59602,
 		59603,
@@ -56628,6 +56806,15 @@ pg.item_data_statistics = {
 		59771,
 		59772,
 		59773,
+		59774,
+		59775,
+		59776,
+		59777,
+		59778,
+		59779,
+		59780,
+		59781,
+		59782,
 		59801,
 		59802,
 		59803,

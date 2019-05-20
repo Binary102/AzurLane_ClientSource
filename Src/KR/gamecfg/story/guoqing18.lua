@@ -10,7 +10,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "AF에서 한 번 침몰한 것처럼 보인 건... 당신들은 대체 뭐야!?",
 			shake = {
 				speed = 1,
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "동료를 희생시키면서 이런 짓을 한다고 해도, 그 녀석... \"고스트\"한테 이기진 못해!",
 			shake = {
 				speed = 1,
@@ -107,7 +107,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이대로 도망쳐봤자 미래는 없어! 날 믿어! 지금이라면────",
 			shake = {
 				speed = 1,

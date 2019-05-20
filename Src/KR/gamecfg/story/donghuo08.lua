@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -22,7 +22,7 @@ return {
 		},
 		{
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그들도 우리 '함선소녀'… '인간'과 똑같이 웃거나 울거나 하는 건가?",
 			side = 0,
 			dir = 1,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……그런가. 그럼 언제 그들과 만날 수 있단 말인가. 물어볼 게 산더미란 말이다.",
 			side = 0,
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

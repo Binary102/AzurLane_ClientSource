@@ -9,7 +9,7 @@ return {
 		{
 			actor = 207060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 정도면 따돌린 것 같네요… 아덴트, 아카스타, 수송선을 엄호하고, 진로를 변경해 주세요! 지금부터 철수합니다! ",
 			typewriter = {
@@ -28,14 +28,14 @@ return {
 			actor = 201030,
 			dir = -1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "라져!",
 			subActors = {
 				{
 					actor = 201020,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -47,7 +47,7 @@ return {
 		{
 			actor = 207060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저희가 방심한 부분도 있긴 했지만, 좋은 전투였습니다! 메탈 블러드의… 음…그러니까, 아드미럴 히퍼! 이 승부는 나중으로 미루도록 하죠!",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			actor = 403010,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 1,
 			dir = 1,
 			say = "도, 도망갔어!? 큭, 더 이상은 쫓을 수가… 기억해두라구!!!",

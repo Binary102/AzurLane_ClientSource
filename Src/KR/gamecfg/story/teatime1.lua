@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"왁자지껄 다과회\n\n<size=30>제1장 - 오후 3시의 숙녀들</size>",
+					"왁자지껄 다과회\n\n<size=45>제1장 - 오후 3시의 숙녀들</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:13}",
@@ -34,7 +34,7 @@ return {
 		{
 			actor = 202110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "저기, 그 전에 질문이 있습니다만… 왜 갑자기 다과회를?",
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:13}",
@@ -64,7 +64,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -81,7 +81,7 @@ return {
 		{
 			actor = 207030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저도 모두를 격려할 수 있는 좋은 기회라고 생각해요. 요즘, 방 안에 틀어박혀 있는 아이들이 많아져 큰일이라 하니……",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:13}",
@@ -111,7 +111,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -128,7 +128,7 @@ return {
 		{
 			actor = 207030,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "빛을 못 받는 장소에 틀어박힌다니, 저, 걱정되네요……",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:13}",
@@ -158,7 +158,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -175,7 +175,7 @@ return {
 		{
 			actor = 207030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "북쪽에 있는 그 아가씨 말인가요? 그 아가씨는 역시 좀 부끄러워해서…… 안타깝게 되었어요.",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "겨울이니까, 같이 눈사람 만들자고 부르는 게 좋을까 해서요.",
 			typewriter = {
@@ -204,7 +204,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -221,7 +221,7 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "후드 님도 웨일즈 님도 오늘은 비번인지라, 장을 보러 나간 걸로 알고 있습니다.",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 		{
 			actor = 202110,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……크흠, 뭐 잡담은 여기까지 하고… 그럼 여러분, 사쿠라 엠파이어의 애프터눈 티를 맛보아 주십시오!",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -267,7 +267,7 @@ return {
 		{
 			actor = 207030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 기대되네요~",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			hideOther = true,
 			side = 1,
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……이, 이건…!!!",
 			flashout = {
 				dur = 1,
@@ -308,13 +308,13 @@ return {
 				{
 					actor = 207030,
 					pos = {
-						x = -350
+						x = -525
 					}
 				},
 				{
 					actor = 202110,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -330,7 +330,7 @@ return {
 		{
 			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "…써! 뭡니까 이건! 너무 써서 눈물 나겠어요! 비터 초콜릿이 들어간 거 아니에요?!",
 			typewriter = {
@@ -344,7 +344,7 @@ return {
 		},
 		{
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "후우…… '말차' 의 맛…… 역시 독특하네요…… ",
@@ -364,7 +364,7 @@ return {
 		{
 			actor = 207030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러고 보니, 아카츠키는 아직 안 왔나요? 오늘은 비번이라 들었는데……",
 			typewriter = {
@@ -378,7 +378,7 @@ return {
 		},
 		{
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
@@ -394,7 +394,7 @@ return {
 		},
 		{
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:13}",
@@ -411,7 +411,7 @@ return {
 		{
 			actor = 207030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "편지?!",
 			typewriter = {
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "『히비키가 참가하지 않는 다과회따위 소인은 거절하겠소! 히비키, 기다려! 소인이 반드시 데려와보이겠소!』",
 			flashout = {
 				dur = 1,

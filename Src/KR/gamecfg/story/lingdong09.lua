@@ -61,7 +61,7 @@ return {
 		},
 		{
 			actor = 205070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "재미없는 발버둥이네. 네 역할은 여기까지야…가라앉아라!",

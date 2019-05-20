@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"스타더스트와 자그마한 용기\n\n<size=30>제5장 - 유니콘에게</size>",
+					"스타더스트와 자그마한 용기\n\n<size=45>제5장 - 유니콘에게</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			actorName = "스타더스트",
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

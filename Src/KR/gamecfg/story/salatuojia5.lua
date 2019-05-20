@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>五 取材秘辛系列・上</size>",
+					"Best Pictures!\n\n<size=45>五 取材秘辛系列・上</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "♪～♪～♪",
 			flashout = {
 				dur = 1,
@@ -65,7 +65,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呼……今天差不多就这样吧，回去晚了姐姐又要担心了……",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯，还是再练一下吧，姐姐和小彗星她们还好，千万不能输给重樱的孩子们！",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "♪～♪～♪",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -133,7 +133,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不过感觉很奇怪呢~偶像文化明明是从重樱推广到全世界的，我们舰队里的重樱偶像却很少啊……",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不管了，先拍照拍照……",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			actor = 101050,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊，忘记关掉快门声音了！",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -211,7 +211,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "为什么会知道是我！？",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "因为像这样拍照的人只有格里德利啊……{namecode:55}她们会事先问我的。",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "抱歉……我马上就删！",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "没事没事！反正我们港区也没有外人。实话说是有一点困扰，不过格里德利也不会拿去做坏事对吧？",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "所以呢！准了！个人收集的话OK，不许拿去商用哦~",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好了，来！笑一个~",
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哇哇！",
 			typewriter = {
 				speed = 0.05,
@@ -345,7 +345,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

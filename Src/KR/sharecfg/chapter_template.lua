@@ -57278,7 +57278,7 @@ pg.chapter_template = {
 		map = 70000,
 		enter_story_limit = "",
 		star_require_3 = 0,
-		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#A9F548> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
 		difficulty = 4,
 		avoid_ratio = 0,
 		star_require_2 = 0,
@@ -57733,7 +57733,7 @@ pg.chapter_template = {
 		map = 70000,
 		enter_story_limit = "",
 		star_require_3 = 0,
-		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#A9F548> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
 		difficulty = 4,
 		avoid_ratio = 0,
 		star_require_2 = 0,
@@ -58240,7 +58240,7 @@ pg.chapter_template = {
 		map = 70000,
 		enter_story_limit = "",
 		star_require_3 = 0,
-		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#A9F548> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63> 횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
 		difficulty = 4,
 		avoid_ratio = 0,
 		star_require_2 = 0,
@@ -58810,7 +58810,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING4",
 		chapter_safe = 0,
 		air_dominance = 150,
-		best_air_dominance = 175,
+		best_air_dominance = 195,
 		count = 0,
 		id = 1040001,
 		pre_chapter = 0,
@@ -58829,7 +58829,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "GUOQING3",
-		boss_refresh = 3,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -58841,7 +58841,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "폭풍에 의해 동료들과 떨어진 즈이카쿠는 알 수 없는 해역에 발을 딛게 된다. 그토록 찾았던 「성역」이 여기인 걸까.",
 		difficulty = 3,
-		avoid_ratio = 8,
+		avoid_ratio = 10,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -58935,6 +58935,8 @@ pg.chapter_template = {
 		},
 		enemy_refresh = {
 			0,
+			1,
+			1,
 			1,
 			1
 		},
@@ -59315,7 +59317,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING7",
 		chapter_safe = 0,
 		air_dominance = 205,
-		best_air_dominance = 235,
+		best_air_dominance = 270,
 		count = 0,
 		id = 1040002,
 		pre_chapter = 1040001,
@@ -59334,7 +59336,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "GUOQING6",
-		boss_refresh = 4,
+		boss_refresh = 5,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -59346,7 +59348,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "해역을 방황하는 즈이카쿠에게 온 구난 신호. 세이렌의 함정? 아니면 동료? 자신의 눈으로 확인할 수밖에 없다. ",
 		difficulty = 4,
-		avoid_ratio = 9,
+		avoid_ratio = 11,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -59440,6 +59442,7 @@ pg.chapter_template = {
 		},
 		enemy_refresh = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -59876,7 +59879,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING9",
 		chapter_safe = 0,
 		air_dominance = 270,
-		best_air_dominance = 310,
+		best_air_dominance = 355,
 		count = 0,
 		id = 1040003,
 		pre_chapter = 1040002,
@@ -59895,7 +59898,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "GUOQING8",
-		boss_refresh = 4,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -59907,7 +59910,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「성역」이라고 생각되는 수수께끼의 해역. 「그녀들」의 비밀을 지키려는 듯이, 즈이카쿠의 앞을 「야마시로」가 가로막는다.",
 		difficulty = 5,
-		avoid_ratio = 10,
+		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -60001,7 +60004,8 @@ pg.chapter_template = {
 		},
 		enemy_refresh = {
 			0,
-			2,
+			1,
+			1,
 			1,
 			1
 		},
@@ -60506,7 +60510,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING12",
 		chapter_safe = 0,
 		air_dominance = 330,
-		best_air_dominance = 375,
+		best_air_dominance = 430,
 		count = 0,
 		id = 1040004,
 		pre_chapter = 1040003,
@@ -60525,7 +60529,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "",
-		boss_refresh = 5,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -60537,7 +60541,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "단풍이 흩날리는 섬. 순례길에 있는 신사의 흔적. 그립기도 한 아름다운 풍경의 이면에는 남모르는 비밀이 숨겨져 있다.",
 		difficulty = 5,
-		avoid_ratio = 10,
+		avoid_ratio = 12,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -61087,7 +61091,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING15",
 		chapter_safe = 0,
 		air_dominance = 430,
-		best_air_dominance = 485,
+		best_air_dominance = 560,
 		count = 0,
 		id = 1040005,
 		pre_chapter = 1040004,
@@ -61106,7 +61110,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "GUOQING14",
-		boss_refresh = 5,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -61118,7 +61122,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「이런 일은 두 번 다시 겪지 않겠다고 다짐했는데... 혼자서 강해지겠다고 다짐했는데... 쇼카쿠 언니... 어째서...!!」",
 		difficulty = 6,
-		avoid_ratio = 11,
+		avoid_ratio = 13,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -61767,7 +61771,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING18",
 		chapter_safe = 0,
 		air_dominance = 535,
-		best_air_dominance = 600,
+		best_air_dominance = 700,
 		count = 0,
 		id = 1040006,
 		pre_chapter = 1040005,
@@ -61786,7 +61790,7 @@ pg.chapter_template = {
 		type = 1,
 		act_id = 20008,
 		enter_story = "GUOQING17",
-		boss_refresh = 5,
+		boss_refresh = 7,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -61798,7 +61802,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "진실을 알고 있는 것은 「아카기」와 「카가」...... 과거의 선배들과 마주할 각오를 품고, 즈이카쿠는 해역의 최심부로 향한다.",
 		difficulty = 7,
-		avoid_ratio = 12,
+		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -62444,7 +62448,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING4",
 		chapter_safe = 0,
 		air_dominance = 530,
-		best_air_dominance = 585,
+		best_air_dominance = 690,
 		count = 0,
 		id = 1040011,
 		pre_chapter = 0,
@@ -62475,7 +62479,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "폭풍에 의해 동료들과 떨어진 즈이카쿠는 알 수 없는 해역에 발을 딛게 된다. 그토록 찾았던 「성역」이 여기인 걸까.",
 		difficulty = 6,
-		avoid_ratio = 12,
+		avoid_ratio = 14,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -62501,7 +62505,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					5,
+					4,
 					0
 				},
 				{
@@ -62515,17 +62519,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				60
+				70
 			},
 			{
 				"torpedo",
 				1,
-				550
+				700
 			},
 			{
 				"dodge",
 				1,
-				320
+				400
 			}
 		},
 		expedition_id_weight_list = {
@@ -62992,7 +62996,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING7",
 		chapter_safe = 0,
 		air_dominance = 605,
-		best_air_dominance = 660,
+		best_air_dominance = 790,
 		count = 0,
 		id = 1040012,
 		pre_chapter = 1040011,
@@ -63011,7 +63015,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 20008,
 		enter_story = "GUOQING6",
-		boss_refresh = 5,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -63023,7 +63027,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "해역을 방황하는 즈이카쿠에게 온 구난 신호. 세이렌의 함정? 아니면 동료? 자신의 눈으로 확인할 수밖에 없다. ",
 		difficulty = 7,
-		avoid_ratio = 13,
+		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -63049,7 +63053,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					5,
+					4,
 					0
 				},
 				{
@@ -63063,17 +63067,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				64
+				73
 			},
 			{
 				"cannon",
 				1,
-				650
+				850
 			},
 			{
 				"dodge",
 				1,
-				360
+				450
 			}
 		},
 		expedition_id_weight_list = {
@@ -63595,7 +63599,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING9",
 		chapter_safe = 0,
 		air_dominance = 680,
-		best_air_dominance = 740,
+		best_air_dominance = 885,
 		count = 0,
 		id = 1040013,
 		pre_chapter = 1040012,
@@ -63614,7 +63618,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 20008,
 		enter_story = "GUOQING8",
-		boss_refresh = 5,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -63626,7 +63630,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「성역」이라고 생각되는 수수께끼의 해역. 「그녀들」의 비밀을 지키려는 듯이, 즈이카쿠의 앞을 「야마시로」가 가로막는다.",
 		difficulty = 8,
-		avoid_ratio = 14,
+		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -63652,7 +63656,7 @@ pg.chapter_template = {
 			{
 				{
 					5,
-					5,
+					4,
 					0
 				},
 				{
@@ -63666,17 +63670,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				68
+				76
 			},
 			{
 				"cannon",
 				1,
-				750
+				950
 			},
 			{
 				"air",
 				-1,
-				1800
+				2000
 			}
 		},
 		expedition_id_weight_list = {
@@ -64268,7 +64272,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING12",
 		chapter_safe = 0,
 		air_dominance = 810,
-		best_air_dominance = 880,
+		best_air_dominance = 1055,
 		count = 0,
 		id = 1040014,
 		pre_chapter = 1040013,
@@ -64287,7 +64291,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 20008,
 		enter_story = "",
-		boss_refresh = 5,
+		boss_refresh = 6,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -64299,7 +64303,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "단풍이 흩날리는 섬. 순례길에 있는 신사의 흔적. 그립기도 한 아름다운 풍경의 이면에는 남모르는 비밀이 숨겨져 있다.",
 		difficulty = 8,
-		avoid_ratio = 14,
+		avoid_ratio = 15,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -64313,7 +64317,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					5,
+					4,
 					0
 				},
 				{
@@ -64339,17 +64343,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				72
+				80
 			},
 			{
 				"torpedo",
 				1,
-				750
+				800
 			},
 			{
 				"dodge",
 				1,
-				450
+				550
 			}
 		},
 		expedition_id_weight_list = {
@@ -64891,7 +64895,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING15",
 		chapter_safe = 0,
 		air_dominance = 965,
-		best_air_dominance = 1045,
+		best_air_dominance = 1255,
 		count = 0,
 		id = 1040015,
 		pre_chapter = 1040014,
@@ -64910,7 +64914,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 20008,
 		enter_story = "GUOQING14",
-		boss_refresh = 6,
+		boss_refresh = 7,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -64922,7 +64926,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "「이런 일은 두 번 다시 겪지 않겠다고 다짐했는데... 혼자서 강해지겠다고 다짐했는데... 쇼카쿠 언니... 어째서...!!」",
 		difficulty = 9,
-		avoid_ratio = 15,
+		avoid_ratio = 16,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -64936,7 +64940,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					5,
+					4,
 					0
 				},
 				{
@@ -64962,17 +64966,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				76
+				83
 			},
 			{
 				"air",
 				1,
-				900
+				1200
 			},
 			{
 				"antiaircraft",
 				1,
-				1400
+				1800
 			}
 		},
 		expedition_id_weight_list = {
@@ -65613,7 +65617,7 @@ pg.chapter_template = {
 		story_refresh_boss = "GUOQING18",
 		chapter_safe = 0,
 		air_dominance = 1130,
-		best_air_dominance = 1220,
+		best_air_dominance = 1470,
 		count = 0,
 		id = 1040016,
 		pre_chapter = 1040015,
@@ -65632,7 +65636,7 @@ pg.chapter_template = {
 		type = 2,
 		act_id = 20008,
 		enter_story = "GUOQING17",
-		boss_refresh = 6,
+		boss_refresh = 7,
 		event_skip = 0,
 		oil = 10,
 		friendly_id = 0,
@@ -65644,7 +65648,7 @@ pg.chapter_template = {
 		star_require_3 = 3,
 		profiles = "진실을 알고 있는 것은 「아카기」와 「카가」...... 과거의 선배들과 마주할 각오를 품고, 즈이카쿠는 해역의 최심부로 향한다.",
 		difficulty = 10,
-		avoid_ratio = 16,
+		avoid_ratio = 17,
 		star_require_2 = 2,
 		time = 43200,
 		limit_move = 0,
@@ -65658,7 +65662,7 @@ pg.chapter_template = {
 			{
 				{
 					7,
-					5,
+					4,
 					0
 				},
 				{
@@ -65684,17 +65688,17 @@ pg.chapter_template = {
 			{
 				"level",
 				1,
-				80
+				86
 			},
 			{
 				"cannon",
 				1,
-				1000
+				1350
 			},
 			{
 				"antiaircraft",
 				1,
-				1800
+				2500
 			}
 		},
 		expedition_id_weight_list = {

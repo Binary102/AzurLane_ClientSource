@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"벚꽃놀이 대소동\n\n<size=30>제6장 - 꽃을 바라보며 한잔</size>",
+					"벚꽃놀이 대소동\n\n<size=45>제6장 - 꽃을 바라보며 한잔</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 305030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…푸하~ 역시 벚꽃놀이엔 이게 있어야지~",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 305040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -91,7 +91,7 @@ return {
 		},
 		{
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어라? 저쪽도 시끌벅적하네요……",
 			flashout = {
 				dur = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>一 约会的邀请</size>",
+					"和姐姐的一日约会\n\n<size=45>一 约会的邀请</size>",
 					1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -129,7 +129,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -163,7 +163,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -186,7 +186,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -237,7 +237,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

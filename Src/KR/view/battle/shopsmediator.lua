@@ -11,8 +11,17 @@ slot0.ACTIVITY_OPERATION = "ShopsMediator:ACTIVITY_OPERATION"
 slot0.GET_GUILD_SHOP = "ShopsMediator:GET_GUILD_SHOP"
 slot0.BUY_SHAM_ITEM = "ShopsMediator:BUY_SHAM_ITEM"
 slot0.BUY_ESCORT_ITEM = "ShopsMediator:BUY_ESCORT_ITEM"
+slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
+	slot0:bind(slot0.ON_SKIN_SHOP, function (slot0, slot1)
+		if getProxy(ContextProxy):getCurrentContext() and slot3.scene == SCENE.NAVALACADEMYSCENE then
+		elseif slot3 and slot3.scene == SCENE.CHARGE then
+			slot0.viewComponent:closeView()
+		end
+
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	end)
 	slot0:bind(slot0.GET_GUILD_SHOP, function ()
 		slot0:sendNotification(GAME.GET_GUILD_SHOP, {
 			type = 0

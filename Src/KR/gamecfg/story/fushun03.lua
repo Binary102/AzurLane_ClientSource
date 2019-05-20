@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"푸슌의 대모험\n\n<size=30>제3장 - 용사, 여행에 나서다</size>",
+					"푸슌의 대모험\n\n<size=45>제3장 - 용사, 여행에 나서다</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -58,7 +58,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…아차, 아니아니아니, 물건 사러 온 게 아냐! 아카시, 이거 좀 감정해주지 않을래?",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -91,7 +91,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그런 거 같아! 롱 아일랜드가, '아카시는 수리에 있어서 최강'이라고 했고!",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오…!",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우… 고쳤다냥!",
 			flashout = {
 				dur = 1,
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -228,7 +228,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연!",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "창춘~ 게임기 고쳤어~ 같이 하자?",
 			flashout = {
 				dur = 1,
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -297,7 +297,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헷헤~, 그럼 게임 스타트!",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어디어디… 오오… 이름 입력이라… 그럼…Fu…shun…",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 501030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "푸슌 언니는 실명 쓰는 타입이야…?",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞아! 몰입하기 쉽다고나 할까?",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋아! 이 용사 푸슌이 세계를 구하는 모험, 지금 시작된다!",
 			typewriter = {

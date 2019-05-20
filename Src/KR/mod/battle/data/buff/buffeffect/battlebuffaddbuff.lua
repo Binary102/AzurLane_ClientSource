@@ -13,7 +13,6 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._target = slot0._tempData.arg_list.target or "TargetSelf"
 	slot0._time = slot3.time or 0
 	slot0._rant = slot3.rant or 10000
-	slot0._hpRatioList = slot3.hpRatioList or {}
 	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._check_target = slot3.check_target
 	slot0._minTargetNumber = slot3.minTargetNumber or 0

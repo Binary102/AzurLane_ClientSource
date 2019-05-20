@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"비서함 다이호의 헌신\n\n<size=30>비서함의 업무? (상)</size>",
+					"비서함 다이호의 헌신\n\n<size=45>비서함의 업무? (상)</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님께선 이 서류를 필요로 하시는군요? 다이호는 다 안답니다~",
 			typewriter = {
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 차라도 한 잔 어떠신지요♡",
 			flashout = {
 				dur = 0.5,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 잠시 쉬시는 건 어떠세요? 다이호가 어깨를 주물러 드릴게요.",
 			flashout = {
 				dur = 0.5,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "♪～♪～",
 			flashout = {
 				dur = 0.5,
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님? 다이호는 신경 쓰지 마시고, 편하게 계셔주셔요♡",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "왜냐뇨, 당연히 지휘관님을 보고 싶으니까죠~",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이렇게 지휘관님을 눈에 담지 않으면, 어떻게 제가 지휘관님에 대해 더욱더 알 수 있겠어요?",
 			typewriter = {
 				speed = 0.05,
@@ -264,7 +264,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "계속, 늘, 쭉, 줄곧, 언제나, 지휘관님을 보고 있기 때문에, 다이호는 지휘관님께서 무얼 생각하고 계시는지 알 수 있고, 지휘관님을 도울 수 있는걸요~",
 			typewriter = {
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "비서함으로써 마땅한 업무가 아닐는지…?",
 			typewriter = {
 				speed = 0.05,
@@ -307,7 +307,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님께선 하고 싶은 것만 하셔요. 다른 건 전부 다이호에게 맡겨주시고요~",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 후후후…그래요…지휘관님의 곁엔 다이호만 있으면 되니까요……",
 			typewriter = {
 				speed = 0.05,

@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름(?)의 대작전\n\n<size=30>제6장　기합으로!</size>",
+					"여름(?)의 대작전\n\n<size=45>제6장　기합으로!</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 305040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:77}",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 305030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:76}",
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:66}",
@@ -66,7 +66,7 @@ return {
 		{
 			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에, 엣취!! 어어, 어째서 새러토가가 이런 벌칙 게임 같은 대회에 참가해야 하는 건데~!!",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -96,7 +96,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -112,7 +112,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -128,7 +128,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,

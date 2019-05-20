@@ -6,7 +6,7 @@ return {
 			expression = "14",
 			side = 0,
 			actor = 900004,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후드 언니! 와줬구나!",
 			shake = {
 				speed = 2,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 900006,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여러분 잘 버텨줬어요. 이제 저희에게 맡겨두세요! 목표 메탈 블러드 함대의 기함 비스마르크, 로열 네이비의 영광을 위하여! 일제 사격!",
 			shake = {
 				speed = 1,

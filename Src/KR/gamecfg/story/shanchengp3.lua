@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>三 微风轻拂</size>",
+					"雨后天晴\n\n<size=45>三 微风轻拂</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 4
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			say = "{namecode:79}？小心！……唉……不是跟你说过上楼梯的时候不要爬太快的吗……",
 			side = 0,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
@@ -76,7 +76,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -217,7 +217,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -275,7 +275,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,

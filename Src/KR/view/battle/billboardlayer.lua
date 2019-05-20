@@ -21,7 +21,7 @@ slot0.type2pic = {
 	"chara_rank_collect",
 	"challenge_rank",
 	"title_extra_chapter",
-	"chara_rank_boss_battle",
+	"title_extra_chapter",
 	military = "chara_rank_mil"
 }
 slot0.tpye2titleWord = {
@@ -65,7 +65,7 @@ slot0.tpye2titleWord = {
 		5,
 		7,
 		8,
-		10
+		4
 	},
 	military = {
 		5,
@@ -81,7 +81,7 @@ end
 
 function slot0.getRankMsgList(slot0)
 	if not slot0.rankMsgList then
-		slot0.rankMsgList, slot0.rankMsgInfo = getProxy(MilitaryExerciseProxy):getRankMsg()
+		slot0.rankMsgList, slot0.rankMsgInfo = BillboardMediator:getRankMsg()
 	end
 
 	return slot0.rankMsgList
@@ -128,23 +128,12 @@ function slot0.setRank(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.setPresonalPoint(slot0, slot1, slot2, slot3)
-	slot0.myPoint[slot0:getRankMsgId(slot2, slot3)] = math.max(defaultValue(slot0.myPoint[slot0.getRankMsgId(slot2, slot3)], 0), slot1)
-end
-
-function slot0.setSecondaryPoint(slot0, slot1, slot2, slot3)
-	slot4 = slot0:getRankMsgId(slot2, slot3)
-
-	if not slot0.mySecondaryPoint then
-		slot0.mySecondaryPoint = {}
-	end
-
-	slot0.mySecondaryPoint[slot4] = math.max(defaultValue(slot0.mySecondaryPoint[slot4], 0), slot1)
+	slot0.myPoint[slot4] = (slot0.myPoint[slot0:getRankMsgId(slot2, slot3)] and math.max(slot0.myPoint[slot4], slot1)) or slot1
 end
 
 function slot0.setPlayerRank(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0:getRankMsgId(slot3, slot4)
-	slot0.myPoint[slot5] = math.max(defaultValue(slot0.myPoint[slot5], 0), slot1)
-	slot0.myRank[slot5] = math.max(defaultValue(slot0.myRank[slot5], 0), slot2)
+	slot0.myPoint[slot5] = (slot0.myPoint[slot0:getRankMsgId(slot3, slot4)] and math.max(slot0.myPoint[slot5], slot1)) or slot1
+	slot0.myRank[slot5] = (slot0.myRank[slot5] and math.max(slot0.myRank[slot5], slot2)) or slot2
 
 	slot0:updatePlayerRankInfo(slot5)
 end
@@ -171,7 +160,6 @@ function slot0.init(slot0)
 	slot0.rankItems = {}
 	slot0.rtPage = {}
 	slot0.rtBtn = {}
-	slot0.pageInit = {}
 	slot0.closeBtn = slot0:findTF("top/btnBack")
 	slot0.res = slot0:findTF("frame/res")
 	slot0.sortBtns = slot0:findTF("frame/table_panel")
@@ -203,7 +191,7 @@ function slot0.init(slot0)
 		end
 
 		if slot8.type == 3 then
-			setText(slot9:GetChild(3), pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot8.act_id):getConfig("config_id"))].name)
+			setText(slot9:GetChild(3), pg.gameset.activity_res_id.description)
 		end
 
 		slot0.scroll[slot7] = slot0:findTF("content/rank_list", slot0.rtPage[slot7]):GetComponent("LScrollRect")
@@ -227,15 +215,9 @@ function slot0.init(slot0)
 
 		slot0.rtBtn[slot7] = cloneTplTo(slot0.tableTpl, slot0.sortBtns, slot0.type2name[slot8.type] .. "_btn")
 
-		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type], slot0:findTF("off/Image", slot0.rtBtn[slot7]), true)
-		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type] .. "_sel", slot0:findTF("on/Image", slot0.rtBtn[slot7]), true)
+		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type], slot0:findTF("Image", slot0.rtBtn[slot7]), true)
+		GetImageSpriteFromAtlasAsync("ui/billboardui_atlas", slot0.type2pic[slot8.type] .. "_sel", slot0:findTF("check_mark/Image", slot0.rtBtn[slot7]), true)
 		onToggle(slot0, slot0.rtBtn[slot7], function (slot0)
-			if slot0 and not slot0.pageInit[] then
-				slot0:emit(BillboardMediator.INIT_RANK, slot0:getRankMsgInfo(slot0.emit))
-
-				slot0.pageInit[] = true
-			end
-
 			setActive(slot0.rtPage[slot1], slot0)
 			setActive(slot0.tipText, slot0)
 		end, SFX_UI_TAG)
@@ -280,6 +262,7 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.sortBtns:Find(slot0.contextData.index or BillboardLayer.PAGE_MILITARY), true)
 	setActive(slot0.sortBtns, not ((slot0.contextData.index or BillboardLayer.PAGE_MILITARY) == BillboardLayer.PAGE_EXTRA_CHAPTER and slot0.contextData.view == "LevelScene2"))
 	setActive(slot0:findTF("frame/extra_chapter_bg"), (slot0.contextData.index or BillboardLayer.PAGE_MILITARY) == BillboardLayer.PAGE_EXTRA_CHAPTER and slot0.contextData.view == "LevelScene2")
+	setActive(slot0.sortBtns:Find("pledge_btn"), false)
 
 	return
 
@@ -600,8 +583,7 @@ function slot0.updatePowerRankTF(slot0, slot1, slot2)
 end
 
 function slot0.updatePlayerRankInfo(slot0, slot1)
-	setActive(slot2, true)
-
+	slot2 = slot0:findTF("content/player_info", slot0.rtPage[slot1])
 	slot3 = slot0:getRankMsgInfo(slot1)
 
 	if not slot0.collectCountAll then
@@ -618,12 +600,7 @@ function slot0.updatePlayerRankInfo(slot0, slot1)
 	end
 
 	slot7.rank = slot8
-
-	if slot0.myPoint[slot1] <= 0 or not slot0.myPoint[slot1] then
-		slot8 = defaultValue(slot0.mySecondaryPoint[slot1], 0)
-	end
-
-	slot7.power = slot8
+	slot7.power = slot0.myPoint[slot1]
 	slot7.icon = slot0.playerShip.configId
 	slot7.skinId = slot0.playerShip.skinId
 	slot7.lv = slot0.player.level

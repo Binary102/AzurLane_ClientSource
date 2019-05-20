@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>六 妹妹的努力</size>",
+					"妹妹的变化\n\n<size=45>六 妹妹的努力</size>",
 					1
 				}
 			}
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那么，首先是公文，为了能够有效地辅助指挥官，首先我们要了解他们都代表什么……",
 			flashout = {
 				dur = 0.5,
@@ -96,7 +96,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔，种类好多……",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "作为秘书舰，不清楚指挥官的日程安排可不行的。",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "而且，不仅要牢记，还要根据实际情况来调整……",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "所以呢，文森斯现在明白我们应该怎么做了吗？",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "要明白指挥官平时要做些什么吗？",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "没错~",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "唔唔唔，我该教些什么呢……啊，对了，我来教你指挥官喜欢吃什么吧！",
 			flashout = {
 				dur = 0.5,
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "让指挥官能够保持良好的工作状态也是很重要的！",
 			typewriter = {
 				speed = 0.05,
@@ -238,7 +238,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "喔！",
 			typewriter = {
 				speed = 0.05,
@@ -264,7 +264,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "文森斯，我来教你打猎！…话说为什么我也加入了教授的行列…",
 			flashout = {
 				dur = 0.5,
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "新奥尔良自己不是也没来嘛…要是不用我教打猎的话我就先走咯",
 			typewriter = {
 				speed = 0.05,
@@ -347,7 +347,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},

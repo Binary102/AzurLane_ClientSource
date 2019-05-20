@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>一 身为女仆……</size>",
+					"天狼星改造计划\n\n<size=45>一 身为女仆……</size>",
 					1
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "今天也请允许天狼星作为秘书舰协助您，我骄傲的主人",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "如果有什么天狼星能做的，请您尽管开口。虽然远不及女仆长能干，但是天狼星会全力以赴，定不负您的期待！",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………？",
 			flashout = {
 				dur = 0.5,
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "天狼星疑惑地歪了歪头。",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "您说昨天的演习报告……吗？",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "十分抱歉……昨天以为主人已经过目，就擅自处理了……",
 			typewriter = {
 				speed = 0.05,
@@ -197,7 +197,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我、我这就去找！",
 			typewriter = {
 				speed = 0.05,
@@ -224,7 +224,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不好意思主人，打扫要从哪里开始比较好……？",
 			flashout = {
 				dur = 0.5,
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "非常抱歉，泡茶一直是由女仆队的其他伙伴负责的，天狼星没有做过……",
 			flashout = {
 				dur = 0.5,
@@ -313,7 +313,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -353,7 +353,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "万分抱歉，天狼星身为秘书舰，不但无法胜任工作，还占用了骄傲的主人很多时间……",
 			typewriter = {
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "请……请惩罚犯了错误的女仆吧！",
 			typewriter = {
 				speed = 0.05,

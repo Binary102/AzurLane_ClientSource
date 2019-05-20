@@ -142,7 +142,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900012,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "觉醒的条件果然如想象的那样简单，只要在特定的时间点进行适量的刺激…呵呵呵",
 			flashout = {
 				dur = 3,
@@ -173,7 +173,7 @@ return {
 		{
 			say = "这一次不对“她们”进行销毁么？",
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者",
@@ -191,7 +191,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 0,
 			dir = -1,
 			blackBg = true,
@@ -209,7 +209,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
 			actor = 900021,
@@ -231,7 +231,7 @@ return {
 		{
 			say = "放心~很快就会有新的指令传递给你了~",
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
 			actor = 900012,
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 0,
 			dir = -1,
 			blackBg = true,

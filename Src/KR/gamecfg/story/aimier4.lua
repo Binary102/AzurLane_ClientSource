@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"무희 천사 에밀\n\n<size=30>참아야 하느니라!</size>",
+					"무희 천사 에밀\n\n<size=45>참아야 하느니라!</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……이번 임무 보고서 제출할게. 지휘관, 확인해줘.",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그리고… 과자를 좀 만들어봤는데, 지휘관, 먹을래?",
 			typewriter = {
 				speed = 0.05,
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어머, 에밀도 있었어? 이리 와서 다 같이 먹지 않을래?",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그게… 먹고 싶지만… 아니, 오늘은 안돼!",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래…? 아, 미안해, 오늘은 간식 금지일이었나. 그럼 다음에, 먹고 싶어지면 말해줘.",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고마워~",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 904010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼 여기 놔둘게. 지휘관, 맛있게 먹어.",
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 802010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 나…… 저, 절대 지지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 802010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 나 신경 쓰지 않아도 되는데……",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그치만 됭케르크가 만든 과자는 너무 맛있어서, 하나라도 먹으면 손이 멈추지 않는 걸…",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고 늘어가는 체중, 처지는 스텝… 두 번 다시 사람들 앞에서 춤출 수 없게 되는 슬픈 결말…",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그건 그야말로, 악마의 유혹이야! 그러니까 나, 됭케르크의 과자는 일주일에 한 번만 먹기로 했어! 이번 주는 이미…… 아아아…",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나도 나름 여자라서 신경 쓰인단 말야! 지휘관도, 그런 건 배려하는 게 좋다구?",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "몸매에 신경 쓰지 않으면 나중에 후회할 거야!",
 			typewriter = {
@@ -342,7 +342,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "애초에, 지휘관으로서……",
 			typewriter = {

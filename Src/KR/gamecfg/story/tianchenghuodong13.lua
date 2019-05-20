@@ -12,14 +12,14 @@ return {
 			dir = -1,
 			bgm = "story-6",
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이상하네요…9시 방항으로 간 함재기들이 연락이 없어요…",
 			subActors = {
 				{
 					dir = 1,
 					actor = 304050,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -38,14 +38,14 @@ return {
 			hideOther = true,
 			dir = -1,
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…호쇼씨가 함재기는 전부 무사귀환 시켜달라 했는데……곤란하게 됐네요……",
 			subActors = {
 				{
 					dir = 1,
 					actor = 303090,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			},
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -79,7 +79,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아마기씨, 크크, 큰일났어요!",
 			typewriter = {
 				speed = 0.05,
@@ -91,7 +91,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "나카, 무슨 일이죠?",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에, 그그게…하늘에서 꽤 많은 수의 그림자가 접근 중이에요!",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -144,7 +144,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "이건……!",
 			typewriter = {
@@ -158,7 +158,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -174,7 +174,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 302140,
@@ -190,7 +190,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -209,7 +209,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 네! 나카, 힘내볼게요!",
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

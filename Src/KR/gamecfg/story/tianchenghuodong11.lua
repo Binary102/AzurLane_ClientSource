@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			say = "여기는 세이렌에게 점령당한 해역……얼마 전 까지만 해도 여기를 지나다닐 수 있었는데, 역시 항로 외에는……",
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 301790,
@@ -41,7 +41,7 @@ return {
 		{
 			actor = 303090,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "호쇼씨의 함재기로부터 연락이 왔어요! 2시 방향에 전투의 흔적이 있다고 합니다!",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actor = 304050,
@@ -72,7 +72,7 @@ return {
 		{
 			actor = 304050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "전함, 경계 태세로 이동하여 주십시오. 접근하는 세이렌이 있는 경우, 응전은 각자의 판단에 맡기겠습니다.",
 			typewriter = {

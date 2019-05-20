@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"선배와의 앙금\n\n<size=30>당신과의 일상</size>",
+					"선배와의 앙금\n\n<size=45>당신과의 일상</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님, 가구의 주문서를 확인하였습니다. 날인 부탁드립니다.",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과학연구실의 경비 일람은 아직 시간이 더 걸리실까요? 저 쪽에서 만든 일람표와 대조하며 체크하고 싶습니다만…",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네! 오늘도 컨디션 최고입니다!",
 			typewriter = {
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……아, 어서 오세요! 바로 들어오시면 됩니다!",
 			flashout = {
 				dur = 1,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "엔터프라이즈 선배! 어쩐 일이세요?",
 			typewriter = {
 				speed = 0.05,
@@ -177,7 +177,7 @@ return {
 			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어제 군사 의뢰 리스트를 받았는데, 확인하고 싶은 게 있어서 말이지.",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠시만 기다려 주십시오. 지휘관님, 의뢰 리스트는 그 근처에 쌓여있는 서류 더미 안에 있을 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -215,7 +215,7 @@ return {
 			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고마워.",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -251,7 +251,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼, 실례하지.",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "제가…변했다고요?",
 			flashout = {
 				dur = 1,
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아마 지휘관님과 오랜 시간 동안 함께 지낸 덕이겠죠. 비서함이 되고 나서 부턴, 훈련도 다른 아이들과의 커뮤니케이션도 지휘관님께서 많이 도와주셨으니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그런 의미에선, 지휘관님과의 사이도, 뭐랄까……",
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "더욱 친밀해졌다 해야 하나……",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님, 사실은 저……",
 			typewriter = {
 				speed = 0.05,
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!!!!……/////////",
 			typewriter = {
 				speed = 0.05,
@@ -413,7 +413,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에식스의 표정이 살짝 무서울 정도로 부자연스럽게 변해, 문을 연 엔터프라이즈도 너무 머쓱한 나머지 움직임이 돌처럼 굳어버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -428,7 +428,7 @@ return {
 			actor = 107060,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아아, 이거……정말 미안하게 됐군. 방해해서 미안.",
 			typewriter = {

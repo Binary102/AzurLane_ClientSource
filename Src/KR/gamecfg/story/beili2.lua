@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼성인은 '토끼토끼'!</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '토끼토끼'!</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 잘~ 들어야 돼. 토끼토끼성인의 특징은……",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 자료 제출하러 왔어……음…베일리?",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -111,7 +111,7 @@ return {
 			actor = 101170,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "라피의……귀?",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "맞아! 토끼토끼성인은 '토끼토끼' 하다구!",
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -163,7 +163,7 @@ return {
 			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응…라피의 귀는, 사실 이렇게……",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "맞아! 그거! 지휘관도 토끼토끼성인이 되고 싶으면, 이 귀를 똑딱하고 붙이면 된다구!",
 			typewriter = {
 				speed = 0.05,
@@ -228,7 +228,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -251,7 +251,7 @@ return {
 			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오…의외로 봐줄만해……",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "축하해! 이걸로 지휘관은 긍지높은 토끼토끼성인이 되었어!",
 			typewriter = {
 				speed = 0.05,
@@ -280,7 +280,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

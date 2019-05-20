@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"평온한 일상을 바라며\n\n<size=30>그녀의 소원</size>",
+					"평온한 일상을 바라며\n\n<size=45>그녀의 소원</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgmDelay = 0.2,
 			bgm = "story-2",
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "\"저 자신이 뭘 바라든, 그런 건 다 작은 일에 불과하죠.\"",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신의 바람……말입니까?",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저로 괜찮으시다면, 당신의 바람이 이뤄질 수 있도록 기꺼이 도와드리겠습니다.",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무엇이든지 좋으니 말씀해 주십시오.",
 			typewriter = {
@@ -171,7 +171,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……………………",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신도 저처럼, 평온을 사랑하시는군요.",
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "제게 있어 당신은 중요한 존재…그러니 저 또한 당신이 지키고 싶은……",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고맙습니다.",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "폐하가 해주신 말씀을, 이제야 조금 알 것 같네요.",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "당신의 소중한 사람이 되는 것을… 허락하여 주시겠습니까?",
 			typewriter = {
 				speed = 0.05,

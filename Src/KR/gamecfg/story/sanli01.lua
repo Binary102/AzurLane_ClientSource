@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -40,7 +40,7 @@ return {
 		{
 			say = "\"미아가 되진 않아! 난 누가 뭐래도 행운함인 즈이카쿠니까!\" 라고 자신만만하게 얘기했던 건 누구였더라~",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -91,7 +91,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -139,7 +139,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -171,7 +171,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -187,7 +187,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",

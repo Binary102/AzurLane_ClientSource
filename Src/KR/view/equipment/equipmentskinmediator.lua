@@ -7,6 +7,7 @@ slot0.ON_EQUIP_FORM_SHIP = "EquipmentSkinMediator:ON_EQUIP_FORM_SHIP"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_EQUIP, function (slot0)
+		slot0:sendNotification(EquipmentMediator.NO_UPDATE)
 		slot0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
 			shipId = slot0.contextData.shipId,
 			pos = slot0.contextData.pos,
@@ -26,6 +27,7 @@ function slot0.register(slot0)
 			return
 		end
 
+		slot0:sendNotification(EquipmentMediator.NO_UPDATE)
 		slot0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP, {
 			oldShipId = slot0.contextData.oldShipInfo.id,
 			oldShipPos = slot0.contextData.oldShipInfo.pos,
@@ -47,11 +49,11 @@ function slot0.register(slot0)
 
 	slot0:bind(slot0.ON_SELECT, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
-			equipmentVOs = ShipInfoMediator.getEquipmentSkins(ship, slot1),
+			equipmentVOs = ShipMainMediator:getEquipmentSkins(ship, slot1),
 			shipId = slot0.contextData.shipId,
 			pos = slot1,
-			warp = EquipmentScene.WARP_TO_WEAPON,
-			mode = EquipmentScene.SKIN
+			warp = StoreHouseConst.WARP_TO_WEAPON,
+			mode = StoreHouseConst.SKIN
 		})
 	end)
 	slot0:bind(slot0.ON_PREVIEW, function (slot0, slot1)

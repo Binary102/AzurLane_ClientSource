@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼별에서 온 방문자</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼별에서 온 방문자</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 101360,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "으흠, 이건 분명 신님이 하비를 위해 내려준 유성일 거야~",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 101370,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하비~ 너무 호들갑 떠는 거 아냐?",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 303080,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "(무슨 소원을 빌면 좋을까?)",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흠흠흠~♪",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! 베일리도 유성우 잔뜩 기대하고 있다구~",
 			typewriter = {
@@ -159,7 +159,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "혹시, 토끼토끼별에서 베일리를 우주선을 보내 마중 나와줄지도 모르잖아!",
 			typewriter = {
@@ -195,7 +195,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우주선이 아니다냥. 아카시가 관측망원경으로 봐봤는데, 그냥 평범한 운석인 거 같다냥.",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "적어도 우리가 있는 은하에 토끼토끼별이 존재한다는 확증은 없다냥.",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_night",
 			withoutActorName = true,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마침 근처에 있던 아카시가 과학적으로 반박을 하며 지나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……앗, 그, 그치만냥! 아카시도 그렇게 확실히 본 건 아니다냥! 실은 우주선이 그 유성우 속에 섞여 있을지도 모른다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
@@ -271,7 +271,7 @@ return {
 					number = 2
 				},
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "토끼토끼별도 혹시 다른 은하에 있을지도 모르지냥!",
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -320,7 +320,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? 토끼토끼별은 벤슨 언니가 적당히 지어낸 얘긴데?",
 			typewriter = {

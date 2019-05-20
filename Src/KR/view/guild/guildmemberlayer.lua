@@ -21,9 +21,11 @@ end
 function slot0.init(slot0)
 	slot0.Timer = {}
 	slot0.rightPanel = slot0:findTF("right_panel")
-	slot0.rectView = slot0:findTF("right_panel/rect_view")
+	slot0.rightPanelBlurBg = slot0:findTF("blur_bg", slot0.rightPanel)
+	slot0.rectView = slot0:findTF("right_panel/scroll")
 	slot0.paintingTF = slot0:findTF("painting")
 	slot0.buttonsPanel = slot0:findTF("buttons_panel")
+	slot0.toggleGroup = slot0:findTF("buttons_panel"):GetComponent(typeof(ToggleGroup))
 	slot0.infoBtn = slot0:findTF("buttons_panel/info_btn")
 	slot0.dutyBtn = slot0:findTF("buttons_panel/duty_btn")
 	slot0.fireBtn = slot0:findTF("buttons_panel/fire_btn")
@@ -32,47 +34,74 @@ function slot0.init(slot0)
 
 	setActive(slot0.appiontPanel, false)
 
-	slot0.dutyContainer = slot0:findTF("appoint_panel/frame/dutys/container")
-	slot0.confirmBtn = slot0:findTF("appoint_panel/frame/confirm")
-	slot0.cancelBtn = slot0:findTF("appoint_panel/frame/cancel")
-	slot0.nameTF = slot0:findTF("frame/name/Text", slot0.appiontPanel):GetComponent(typeof(Text))
-	slot0.iconTF = slot0:findTF("frame/icon_contain/icon", slot0.appiontPanel):GetComponent(typeof(Image))
-	slot0.starsTF = slot0:findTF("frame/icon_contain/stars", slot0.appiontPanel)
-	slot0.starTF = slot0:findTF("frame/icon_contain/stars/star", slot0.appiontPanel)
-	slot0.levelTF = slot0:findTF("frame/icon_contain/lv/Text", slot0.appiontPanel):GetComponent(typeof(Text))
-	slot0.proposeTF = slot0:findTF("frame/icon_contain/propose", slot0.appiontPanel)
-	slot0.sortBtn = slot0:findTF("right_panel/sort_button")
-	slot0.sortPanel = slot0:findTF("right_panel/sort_panel")
-	slot0.sortItem = slot0:getTpl("mask/panel/tpl", slot0.sortPanel)
-	slot0.sortContainer = slot0:findTF("mask/panel", slot0.sortPanel)
-	slot0.ascBtn = slot0:findTF("right_panel/asc_button")
-	slot0.sortImgAsc = slot0:findTF("asc", slot0.ascBtn)
-	slot0.sortImgDesc = slot0:findTF("desc", slot0.ascBtn)
-	slot0.chatPanel = slot0:findTF("painting/chat")
+	slot0.dutyContainer = slot0:findTF("appoint_panel/frame/duty")
+	slot0.print = slot0:findTF("appoint_panel/frame/prints/print"):GetComponent(typeof(Image))
+	slot0.confirmBtn = slot0:findTF("appoint_panel/frame/confirm_btn")
+	slot0.nameTF = slot0:findTF("frame/info/name/Text", slot0.appiontPanel):GetComponent(typeof(Text))
+	slot0.iconTF = slot0:findTF("frame/info/shipicon/icon", slot0.appiontPanel):GetComponent(typeof(Image))
+	slot0.starsTF = slot0:findTF("frame/info/shipicon/stars", slot0.appiontPanel)
+	slot0.starTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.appiontPanel)
+	slot0.levelTF = slot0:findTF("frame/info/level/Text", slot0.appiontPanel):GetComponent(typeof(Text))
+	slot0.proposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.appiontPanel)
+	slot0.frameCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.appiontPanel)
+	slot0.firePanel = slot0:findTF("expel_panel")
+
+	setActive(slot0.firePanel, false)
+
+	slot0.fireconfirmBtn = slot0:findTF("expel_panel/frame/confirm_btn")
+	slot0.firecancelBtn = slot0:findTF("expel_panel/frame/cancel_btn")
+	slot0.firenameTF = slot0:findTF("frame/info/name/Text", slot0.firePanel):GetComponent(typeof(Text))
+	slot0.fireiconTF = slot0:findTF("frame/info/shipicon/icon", slot0.firePanel):GetComponent(typeof(Image))
+	slot0.fireduty = slot0:findTF("expel_panel/frame/duty"):GetComponent(typeof(Image))
+	slot0.firestarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.firePanel)
+	slot0.firestarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.firePanel)
+	slot0.firelevelTF = slot0:findTF("frame/info/level/Text", slot0.firePanel):GetComponent(typeof(Text))
+	slot0.fireproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.firePanel)
+	slot0.fireframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.firePanel)
+	slot0.impeachPanel = slot0:findTF("impeach_panel")
+
+	setActive(slot0.impeachPanel, false)
+
+	slot0.impeachconfirmBtn = slot0:findTF("impeach_panel/frame/confirm_btn")
+	slot0.impeachcancelBtn = slot0:findTF("impeach_panel/frame/cancel_btn")
+	slot0.impeachnameTF = slot0:findTF("frame/info/name/Text", slot0.impeachPanel):GetComponent(typeof(Text))
+	slot0.impeachiconTF = slot0:findTF("frame/info/shipicon/icon", slot0.impeachPanel):GetComponent(typeof(Image))
+	slot0.impeachduty = slot0:findTF("impeach_panel/frame/duty"):GetComponent(typeof(Image))
+	slot0.impeachstarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.impeachPanel)
+	slot0.impeachstarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.impeachPanel)
+	slot0.impeachlevelTF = slot0:findTF("frame/info/level/Text", slot0.impeachPanel):GetComponent(typeof(Text))
+	slot0.impeachproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.impeachPanel)
+	slot0.impeachframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.impeachPanel)
+	slot0.infoPanel = slot0:findTF("info_panel")
+
+	setActive(slot0.infoPanel, false)
+
+	slot0.infonameTF = slot0:findTF("frame/info/name/Text", slot0.infoPanel):GetComponent(typeof(Text))
+	slot0.infoiconTF = slot0:findTF("frame/info/shipicon/icon", slot0.infoPanel):GetComponent(typeof(Image))
+	slot0.infoduty = slot0:findTF("info_panel/frame/duty"):GetComponent(typeof(Image))
+	slot0.infostarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.infoPanel)
+	slot0.infostarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.infoPanel)
+	slot0.infolevelTF = slot0:findTF("frame/info/level/Text", slot0.infoPanel):GetComponent(typeof(Text))
+	slot0.infoproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.infoPanel)
+	slot0.infoframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.infoPanel)
+	slot0.resumeInfo = slot0:findTF("frame/content", slot0.infoPanel)
+	slot0.chatPanel = slot0:findTF("chat")
 
 	setActive(slot0.chatPanel, false)
 	setActive(slot0.buttonsPanel, false)
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.rightPanel, {
+		pbList = {
+			slot0.rightPanelBlurBg
+		},
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	})
 end
 
 function slot0.didEnter(slot0)
 	slot0:initMembers()
-	onButton(slot0, slot0.ascBtn, function ()
-		slot0.selectAsc = not slot0.selectAsc
-
-		slot0:sortMembers()
-	end, SFX_CANCEL)
 	onButton(slot0, slot0.appiontPanel, function ()
-		slot0:closeAppointPanel()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.sortBtn, function ()
-		if go(slot0.sortPanel).activeSelf then
-			slot0:closeSortPanel()
-		else
-			slot0:showSortPanel()
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.sortPanel, function ()
-		slot0:closeSortPanel()
+		slot0:closeButtons()
+		slot0.closeButtons:closeAppointPanel()
 	end, SFX_PANEL)
 end
 
@@ -96,22 +125,6 @@ slot1 = {
 		"sort_duty"
 	}
 }
-
-function slot0.initSortPanel(slot0)
-	for slot4, slot5 in ipairs(slot0) do
-		slot6 = cloneTplTo(slot0.sortItem, slot0.sortContainer)
-
-		setImageSprite(slot6:Find("Image"), slot7, true)
-		onToggle(slot0, slot6, function (slot0)
-			if slot0 then
-				slot0.sortIndex = slot0
-
-				slot0:sortMembers()
-				setActive(slot0.sortPanel, false)
-			end
-		end, SFX_PANEL)
-	end
-end
 
 function slot0.initMembers(slot0)
 	pg.UIMgr:GetInstance():LoadingOn()
@@ -163,24 +176,27 @@ function slot0.createMemberCard(slot0, slot1)
 	return {
 		go = slot1,
 		tf = tf(slot1),
-		iconTF = ()["tf"]:Find("icon_contain/icon"):GetComponent(typeof(Image)),
-		starsTF = ()["tf"]:Find("icon_contain/stars"),
-		starTF = ()["tf"]:Find("icon_contain/stars/star"),
-		levelTF = ()["tf"]:Find("icon_contain/lv/Text"):GetComponent(typeof(Text)),
-		nameTF = ()["tf"]:Find("name"):GetComponent(typeof(Text)),
+		iconTF = ()["tf"]:Find("shipicon/icon"):GetComponent(typeof(Image)),
+		iconCommonTF = ()["tf"]:Find("shipicon/frame_common"),
+		propose = ()["tf"]:Find("shipicon/frame_marry"),
+		starsTF = ()["tf"]:Find("shipicon/stars"),
+		starTF = ()["tf"]:Find("shipicon/stars/star"),
+		levelTF = ()["tf"]:Find("level/Text"):GetComponent(typeof(Text)),
+		nameTF = ()["tf"]:Find("name_bg/Text"):GetComponent(typeof(Text)),
 		dutyTF = ()["tf"]:Find("duty"):GetComponent(typeof(Image)),
-		livenessTF = ()["tf"]:Find("liveness_container/Text"):GetComponent(typeof(Text)),
-		onLine = ()["tf"]:Find("online"),
-		offLine = ()["tf"]:Find("offline_container"),
-		onLineLabel = ()["tf"]:Find("online_label"),
-		offLineLabel = ()["tf"]:Find("offline_label"),
-		offLineText = ()["tf"]:Find("offline_container/Text"):GetComponent(typeof(Text)),
+		livenessTF = ()["tf"]:Find("liveness/Text"):GetComponent(typeof(Text)),
+		onLine = ()["tf"]:Find("online_tag"),
+		offLine = ()["tf"]:Find("last_time"),
+		onLineLabel = ()["tf"]:Find("online"),
+		offLineLabel = ()["tf"]:Find("offline"),
+		offLineText = ()["tf"]:Find("last_time/Text"):GetComponent(typeof(Text)),
 		maskTF = ()["tf"]:Find("mask"),
 		timerTF = ()["tf"]:Find("mask/Text"):GetComponent(typeof(Text)),
-		borderTF = ()["tf"]:Find("check_mark"),
-		propose = ()["tf"]:Find("icon_contain/propose"),
+		borderTF = ()["tf"]:Find("selected"),
+		bg = ()["tf"]:Find("bg"),
 		update = function (slot0, slot1, slot2, slot3)
 			setActive(slot0.borderTF, slot3)
+			setActive(slot0.bg, not slot3)
 
 			slot0.memberVO = slot1
 
@@ -193,20 +209,15 @@ function slot0.createMemberCard(slot0, slot1)
 					slot0.iconTF.sprite = slot0
 				end
 			end)
-			LoadSpriteAsync("dutyicon/" .. slot1.duty, function (slot0)
-				if not IsNil(slot0.dutyTF) then
-					slot0.dutyTF.sprite = slot0
 
-					slot0.dutyTF:SetNativeSize()
-				end
-			end)
+			slot0.dutyTF.sprite = GetSpriteFromAtlas("dutyicon", slot1.duty)
 
-			for slot10 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+			for slot11 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 				cloneTplTo(slot0.starTF, slot0.starsTF)
 			end
 
-			for slot10 = 1, slot6, 1 do
-				setActive(slot0.starsTF:GetChild(slot10 - 1), slot10 <= slot4.star)
+			for slot11 = 1, slot7, 1 do
+				setActive(slot0.starsTF:GetChild(slot11 - 1), slot11 <= slot4.star)
 			end
 
 			slot0.levelTF.text = slot1.level
@@ -218,6 +229,7 @@ function slot0.createMemberCard(slot0, slot1)
 			setActive(slot0.onLineLabel, slot1:isOnline())
 			setActive(slot0.offLineLabel, not slot1:isOnline())
 			setActive(slot0.propose, slot5.propose)
+			setActive(slot0.iconCommonTF, not slot5.propose)
 
 			if not slot1:isOnline() then
 				slot0.offLineText.text = getOfflineTimeStamp(slot1.preOnLineTime)
@@ -284,44 +296,36 @@ function slot0.loadPainting(slot0, slot1)
 	}).getPainting(slot4), "chuanwu", function ()
 		pg.UIMgr:GetInstance():LoadingOff()
 	end)
-	onButton(slot0, slot0.infoBtn, function ()
-		slot0:emit(GuildMemberMediator.OPEN_DESC_INFO, slot0)
-	end, SFX_PANEL)
-	onButton(slot0, slot0.dutyBtn, function ()
-		if slot0.id == slot1.playerVO.id then
-			return
-		end
+	onToggle(slot0, slot0.infoBtn, function (slot0)
+		if slot0 then
+			slot0.contextData.memberVO = slot0.contextData
 
-		slot1:showAppointPanel(slot1.showAppointPanel)
-	end, SFX_PANEL)
-	onButton(slot0, slot0.fireBtn, function ()
-		if slot0.id == slot1.playerVO.id then
-			return
+			slot0:emit(GuildMemberMediator.OPEN_DESC_INFO, slot0.emit)
 		end
-
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("guild_fire_tip"),
-			onYes = function ()
-				slot0:emit(GuildMemberMediator.FIRE, slot1.id)
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.dutyBtn, function (slot0)
+		if slot0 then
+			if slot0.id == slot1.playerVO.id then
+				return
 			end
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0.impeachBtn, function ()
-		if slot0.id == slot1.playerVO.id then
-			return
-		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("guild_impeach_tip"),
-			onYes = function ()
-				slot0:emit(GuildMemberMediator.IMPEACH, slot1.id)
-			end
-		})
+			slot1:showAppointPanel(slot0)
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.fireBtn, function (slot0)
+		if slot0 then
+			slot0:showFirePanel(slot0.showFirePanel)
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.impeachBtn, function (slot0)
+		if slot0 then
+			slot0:showImpeachPanel(slot0.showImpeachPanel)
+		end
 	end, SFX_PANEL)
 	setActive(slot0.impeachBtn, slot3 == GuildMember.DUTY_DEPUTY_COMMANDER and slot2 == GuildMember.DUTY_COMMANDER and slot1:isLongOffLine())
-	setButtonEnabled(slot0.dutyBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
+	setToggleEnabled(slot0.dutyBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
 	setGray(slot0.dutyBtn, not ((slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2), true)
-	setButtonEnabled(slot0.fireBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
+	setToggleEnabled(slot0.fireBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
 	setGray(slot0.fireBtn, not ((slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2), true)
 end
 
@@ -333,6 +337,8 @@ slot2 = {
 }
 
 function slot0.showAppointPanel(slot0, slot1)
+	slot0:openButtons(slot0.appiontPanel)
+
 	slot0.isShowAppoint = true
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0.appiontPanel)
@@ -355,38 +361,274 @@ function slot0.showAppointPanel(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	slot0.nameTF.text = i18n("guild_set_duty_title", slot1.name)
+	if slot0.guildVO:getFaction() == Guild.FACTION_TYPE_BLHX then
+		slot0.print.color = Color.New(0.4235294117647059, 0.6313725490196078, 0.9568627450980393)
+	elseif slot5 == Guild.FACTION_TYPE_CSZZ then
+		slot0.print.color = Color.New(0.9568627450980393, 0.44313725490196076, 0.42745098039215684)
+	end
+
+	slot0.nameTF.text = slot1.name
 
 	setActive(slot0.proposeTF, slot1.propose)
+	setActive(slot0.frameCommonTF, not slot1.propose)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot6), function (slot0)
+	}).getPainting(slot7), function (slot0)
 		if not IsNil(slot0.iconTF) then
 			slot0.iconTF.sprite = slot0
 		end
 	end)
 
-	for slot11 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot12 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 		cloneTplTo(slot0.starTF, slot0.starsTF)
 	end
 
-	for slot11 = 1, slot7, 1 do
-		setActive(slot0.starsTF:GetChild(slot11 - 1), slot11 <= slot5.star)
+	for slot12 = 1, slot8, 1 do
+		setActive(slot0.starsTF:GetChild(slot12 - 1), slot12 <= slot6.star)
 	end
 
-	slot0.levelTF.text = slot1.level
+	slot0.levelTF.text = "Lv." .. slot1.level
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		slot0:setDuty(slot1.id, )
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:closeAppointPanel()
-	end, SFX_CANCEL)
 end
 
-function slot0.setDuty(slot0, slot1, slot2)
-	slot0:emit(GuildMemberMediator.SET_DUTY, slot1, slot2)
+function slot0.showFirePanel(slot0, slot1)
+	slot0:openButtons(slot0.firePanel)
+
+	slot0.isShowFire = true
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0.firePanel)
+	setActive(slot0.firePanel, true)
+
+	slot0.firenameTF.text = slot1.name
+
+	setActive(slot0.fireproposeTF, slot1.propose)
+	setActive(slot0.fireframeCommonTF, not slot1.propose)
+	LoadSpriteAsync("qicon/" .. Ship.New({
+		configId = slot1.icon,
+		skin_id = slot1.skinId
+	}).getPainting(slot3), function (slot0)
+		if not IsNil(slot0.fireiconTF) then
+			slot0.fireiconTF.sprite = slot0
+		end
+	end)
+
+	slot0.fireduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
+
+	for slot9 = slot0.firestarsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+		cloneTplTo(slot0.firestarTF, slot0.firestarsTF)
+	end
+
+	for slot9 = 1, slot5, 1 do
+		setActive(slot0.firestarsTF:GetChild(slot9 - 1), slot9 <= slot2.star)
+	end
+
+	slot0.firelevelTF.text = "Lv." .. slot1.level
+
+	onButton(slot0, slot0.fireconfirmBtn, function ()
+		if slot0.id == slot1.playerVO.id then
+			return
+		end
+
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("guild_fire_tip"),
+			onYes = function ()
+				slot0:emit(GuildMemberMediator.FIRE, slot1.id)
+				slot0.emit:closeButtons()
+				slot0.emit.closeButtons:closeFirePanel()
+			end
+		})
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.firecancelBtn, function ()
+		slot0:closeButtons()
+		slot0.closeButtons:closeFirePanel()
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.firePanel, function ()
+		slot0:closeButtons()
+		slot0.closeButtons:closeFirePanel()
+	end, SFX_CONFIRM)
+end
+
+function slot0.showImpeachPanel(slot0, slot1)
+	slot0:openButtons(slot0.impeachPanel)
+
+	slot0.isShowImpeach = true
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0.impeachPanel)
+	setActive(slot0.impeachPanel, true)
+
+	slot0.impeachnameTF.text = slot1.name
+
+	setActive(slot0.impeachproposeTF, slot1.propose)
+	setActive(slot0.impeachframeCommonTF, not slot1.propose)
+	LoadSpriteAsync("qicon/" .. Ship.New({
+		configId = slot1.icon,
+		skin_id = slot1.skinId
+	}).getPainting(slot3), function (slot0)
+		if not IsNil(slot0.impeachiconTF) then
+			slot0.impeachiconTF.sprite = slot0
+		end
+	end)
+
+	slot0.impeachduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
+
+	for slot9 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+		cloneTplTo(slot0.impeachstarTF, slot0.impeachstarsTF)
+	end
+
+	for slot9 = 1, slot5, 1 do
+		setActive(slot0.impeachstarsTF:GetChild(slot9 - 1), slot9 <= slot2.star)
+	end
+
+	slot0.impeachlevelTF.text = "Lv." .. slot1.level
+
+	onButton(slot0, slot0.impeachconfirmBtn, function ()
+		if slot0.id == slot1.playerVO.id then
+			return
+		end
+
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("guild_impeach_tip"),
+			onYes = function ()
+				slot0:emit(GuildMemberMediator.IMPEACH, slot1.id)
+				slot0.emit:closeButtons()
+				slot0.emit.closeButtons:closeimpeachPanel()
+			end
+		})
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.impeachcancelBtn, function ()
+		slot0:closeButtons()
+		slot0.closeButtons:closeimpeachPanel()
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.impeachPanel, function ()
+		slot0:closeButtons()
+		slot0.closeButtons:closeimpeachPanel()
+	end, SFX_CONFIRM)
+end
+
+slot3 = {
+	{
+		value = "shipCount",
+		type = 1,
+		tag = i18n("friend_resume_ship_count")
+	},
+	{
+		type = 3,
+		tag = i18n("friend_resume_collection_rate"),
+		value = {
+			"collectionCount"
+		}
+	},
+	{
+		value = "attackCount",
+		type = 1,
+		tag = i18n("friend_resume_attack_count")
+	},
+	{
+		type = 2,
+		tag = i18n("friend_resume_attack_win_rate"),
+		value = {
+			"attackCount",
+			"winCount"
+		}
+	},
+	{
+		value = "pvp_attack_count",
+		type = 1,
+		tag = i18n("friend_resume_manoeuvre_count")
+	},
+	{
+		type = 2,
+		tag = i18n("friend_resume_manoeuvre_win_rate"),
+		value = {
+			"pvp_attack_count",
+			"pvp_win_count"
+		}
+	},
+	{
+		value = "collect_attack_count",
+		type = 1,
+		tag = i18n("friend_event_count")
+	}
+}
+
+function slot0.showInfoPanel(slot0, slot1)
+	slot0:openButtons(slot0.infoPanel)
+
+	slot0.isShowinfo = true
+
+	pg.UIMgr.GetInstance():BlurPanel(slot0.infoPanel)
+	setActive(slot0.infoPanel, true)
+
+	slot0.infonameTF.text = slot0.contextData.memberVO.name
+
+	setActive(slot0.infoproposeTF, slot0.contextData.memberVO.propose)
+	setActive(slot0.infoframeCommonTF, not slot0.contextData.memberVO.propose)
+	LoadSpriteAsync("qicon/" .. Ship.New({
+		configId = slot0.contextData.memberVO.icon,
+		skin_id = slot0.contextData.memberVO.skinId
+	}).getPainting(slot4), function (slot0)
+		if not IsNil(slot0.infoiconTF) then
+			slot0.infoiconTF.sprite = slot0
+		end
+	end)
+
+	slot0.infoduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot0.contextData.memberVO.duty)
+
+	for slot10 = slot0.infostarsTF.childCount, pg.ship_data_statistics[slot0.contextData.memberVO.icon].star - 1, 1 do
+		cloneTplTo(slot0.infostarTF, slot0.infostarsTF)
+	end
+
+	for slot10 = 1, slot6, 1 do
+		setActive(slot0.infostarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
+	end
+
+	slot0.infolevelTF.text = "Lv." .. slot2.level
+
+	for slot10, slot11 in ipairs(slot0) do
+		slot12 = slot0.resumeInfo:GetChild(slot10 - 1)
+
+		setText(slot12:Find("tag"), slot11.tag)
+
+		slot13 = slot12:Find("tag (1)")
+
+		if slot11.type == 1 then
+			setText(slot13, slot1[slot11.value])
+		elseif slot11.type == 2 then
+			setText(slot13, string.format("%0.2f", math.max(slot1[slot11.value[2]], 0) / math.max(slot1[slot11.value[1]], 1) * 100) .. "%")
+		elseif slot11.type == 3 then
+			setText(slot13, string.format("%0.2f", (slot1[slot11.value[1]] or 1) / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
+		end
+	end
+
+	onButton(slot0, slot0.infoPanel, function ()
+		slot0:closeButtons()
+		slot0.closeButtons:closeInfoPanel()
+	end, SFX_CONFIRM)
+end
+
+function slot0.closeInfoPanel(slot0)
+	slot0.isShowinfo = nil
+
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.infoPanel, slot0._tf)
+	setActive(slot0.infoPanel, false)
+end
+
+function slot0.closeimpeachPanel(slot0)
+	slot0.isShowImpeach = nil
+
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.impeachPanel, slot0._tf)
+	setActive(slot0.impeachPanel, false)
+end
+
+function slot0.closeFirePanel(slot0)
+	slot0.isShowFire = nil
+
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.firePanel, slot0._tf)
+	setActive(slot0.firePanel, false)
 end
 
 function slot0.closeAppointPanel(slot0)
@@ -394,6 +636,23 @@ function slot0.closeAppointPanel(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.appiontPanel, slot0._tf)
 	setActive(slot0.appiontPanel, false)
+	slot0:closeButtons()
+end
+
+function slot0.openButtons(slot0, slot1)
+	slot0:closePrevPanel()
+	setParent(slot0.buttonsPanel, slot1)
+	setAnchoredPosition(slot0.buttonsPanel, Vector3(775, 285, 0))
+end
+
+function slot0.closeButtons(slot0)
+	slot0.toggleGroup:SetAllTogglesOff()
+	setParent(slot0.buttonsPanel, slot0._tf)
+	setAnchoredPosition(slot0.buttonsPanel, Vector3(-641, -380, 0))
+end
+
+function slot0.setDuty(slot0, slot1, slot2)
+	slot0:emit(GuildMemberMediator.SET_DUTY, slot1, slot2)
 end
 
 function slot0.onUpdateItem(slot0, slot1, slot2)
@@ -436,10 +695,7 @@ function slot0.sortMembers(slot0)
 		end)
 	end
 
-	setActive(slot0.sortImgAsc, slot0.selectAsc)
-	setActive(slot0.sortImgDesc, not slot0.selectAsc)
 	slot0.rectRect:SetTotalCount(#slot0.memberVOs, 0)
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/guildmemberui_atlas", slot2 .. "_selected"), true)
 end
 
 function slot0.showSortPanel(slot0)
@@ -449,8 +705,6 @@ function slot0.showSortPanel(slot0)
 
 	if not slot0.isInitSort then
 		slot0.isInitSort = true
-
-		slot0:initSortPanel()
 	end
 end
 
@@ -461,19 +715,34 @@ function slot0.closeSortPanel(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.isShowSortPanel then
-		slot0:closeSortPanel()
-	elseif slot0.isShowAppoint then
-		slot0:closeAppointPanel()
-	else
+	if not slot0:closePrevPanel() then
 		playSoundEffect(SFX_CANCEL)
 		slot0:emit(slot0.ON_BACK)
 	end
 end
 
+function slot0.closePrevPanel(slot0)
+	if slot0.isShowAppoint then
+		slot0:closeAppointPanel()
+	elseif slot0.isShowFire then
+		slot0:closeFirePanel()
+	elseif slot0.isShowImpeach then
+		slot0:closeimpeachPanel()
+	elseif slot0.isShowinfo then
+		slot0:closeInfoPanel()
+	else
+		return false
+	end
+
+	return true
+end
+
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rightPanel, slot0._tf)
 	slot0:closeAppointPanel()
-	slot0:closeSortPanel()
+	slot0:closeFirePanel()
+	slot0:closeimpeachPanel()
+	slot0:closeInfoPanel()
 
 	for slot4, slot5 in pairs(slot0.Timer) do
 		slot5:Stop()

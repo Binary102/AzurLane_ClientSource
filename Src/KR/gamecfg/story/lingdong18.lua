@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
 			actor = 205070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "허튼소리를…로열 네이비의 영광과 함께, 그대에게 선혈의 종언을 내리겠다! 저 바다 밑으로 돌아가거라!!",
 			flash = {
 				wait = 0.5,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "후우…이, 이겼네……본부에도 연락해두었으니, 이제 이 바다도 원래대로 돌아오겠지…",
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말이지, 이런 사태가 될 줄은, 상상도 못했어…",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만 이렇게 세이렌의 흉계를 저지해냈고, 신종 세이렌에 관련된 정보도 얻을 수 있었다…",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "빅토리어스, 존귀한 여전사여… 이 듀크 오브 요크, 그대와 함께 싸울 수 있어 영광으로 생각한다.",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에헤헤~",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "본부에서 티르피츠는 기지 항공대에 맡기라는 연락이 왔다.",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이제 모항으로 돌아갈 수 있겠군.",
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "왕관을 빼앗긴 북쪽의 여왕이라…이게 당신이 바란 운명이라면……",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…어머, 나도 참, 무슨 생각을 하는 거야……",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"전진하라! 아시가라!\n\n<size=30>(사랑에) 고민해라! 아시가라!</size>",
+					"전진하라! 아시가라!\n\n<size=45>(사랑에) 고민해라! 아시가라!</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "수고했네! 임무 서류는 이게 끝일세.",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아시가라도 큰일이구먼……매일 이렇게 많은 서류를 봐야하니 원.",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "처음보다는 그래도 많이 나아지지 않았나? 당연한 일일세. 이몸이 아끼는 후배니 말이야.",
 			typewriter = {
 				speed = 0.05,
@@ -124,7 +124,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흐음, 저번 일로 아시가라가 걱정된다 이건가? 허허허~",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 시간대라면 그 아이는 아마 방에 혼자 있을 걸세. 어디, 이몸이 한 번 문을 두들겨볼까?",
 			flashout = {
 				dur = 0.5,
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 301300,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……",
@@ -188,7 +188,7 @@ return {
 		{
 			actor = 301300,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "이상하구먼……혹시 자고 있는 겐가?",
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_room",
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어, 어떡하지…무심결에 너무 많이 접었다…지휘관 나리께는 이 정도만 보내면……",
 			flashout = {
 				dur = 0.25,
@@ -243,7 +243,7 @@ return {
 			actorName = "{namecode:144}&{namecode:124}",
 			bgName = "bg_story_room",
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -262,14 +262,14 @@ return {
 				}
 			},
 			actorPosition = {
-				x = -370,
+				x = -555,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301300,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지지지지휘관 나리?!",
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -313,7 +313,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(안 쉬고 있었던 겐가?! 게다가 방에 잔뜩 어질러 놓은 이건 대체…)",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(조, 종이학?!)",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(하긴 저번에 진정이 되지 않을 땐 종이학을 접어보라고 얘기한 적이 있지만 이건 수가 많아도 너무 많구먼 그래……)",
 			typewriter = {
@@ -361,7 +361,7 @@ return {
 			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(지휘관이 병문안을 온다는 건 꽤 큰일이니 말이야……흠, 이럴 땐 선배로써……)",
 			typewriter = {
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301300,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 구축함 아이들의 인솔 작전이 있다는 걸 내 깜빡하고 있었구먼 그래! 이몸은 먼저 실례하도록 하지!",
 			typewriter = {
 				speed = 0.05,
@@ -394,7 +394,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 2500
+					x = 3750
 				}
 			}
 		},
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에?! 카, 카미카제 선배님?! 호, 혼자 남겨두고 가지 마세요!!",
 			typewriter = {
 				speed = 0.05,
@@ -416,7 +416,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(이야기가 다르잖아요! 이이이이러면 지휘관 나리와 둘만 남게 되잖아요?!)",
 			typewriter = {
 				speed = 0.05,
@@ -448,7 +448,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(대, 대체 어떡하면 좋지……?!)",
 			typewriter = {
 				speed = 0.05,

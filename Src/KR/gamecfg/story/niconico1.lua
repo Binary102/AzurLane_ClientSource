@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最近,綾波の様子が…？\n\n<size=30>その一　ある日の綾波</size>",
+					"最近,綾波の様子が…？\n\n<size=45>その一　ある日の綾波</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指揮官,大変や！綾波,綾波がーー",
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "綾波が壊れたんや！",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "数日前から部屋に引きこもって,いくら呼んでも応えへん！",
 			typewriter = {
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "パソコンのモニターに見入ってて一歩も動かんのや！",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "んで,今日は――",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900053,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "「リアルなんてクソゲー,です！」",
 			flashout = {
 				dur = 1,
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900053,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "「愛が足りない,です！」",
 			flashout = {
 				dur = 1,
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900053,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "「出撃したら負け,です！」",
 			flashout = {
 				dur = 1,
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306054,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "――と,疲れた顔で変な話しばっかりしとるで！",
 			flashout = {
 				dur = 1,

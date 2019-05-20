@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"도이칠란트의 우울\n\n<size=30>진정한 고귀함</size>",
+					"도이칠란트의 우울\n\n<size=45>진정한 고귀함</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "벨파, 왜 나도 연습전에 나가야 한다는 거야?",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오늘은 컨디션이 안 좋으니까 안 나갈래! 워스파이트로 바꿔줘!",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -111,7 +111,7 @@ return {
 			actor = 202120,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "폐하, 그렇게 고집을 부리시면……",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흐음, 로열 네이비의 여왕 폐하가 하인에게 설교 따윌 당하다니, 우리 메탈 블러드에선 상상도 못할 일인데 말이야!",
 			flashout = {
 				dur = 0.5,
@@ -160,7 +160,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저기 있는 건 그나이제나우? ……마침 잘 됐군. 하인, 여길 잘 보라고!",
 			typewriter = {
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어이, 그나이제나우!",
 			typewriter = {
 				speed = 0.05,
@@ -189,7 +189,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -204,7 +204,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 404020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -222,7 +222,7 @@ return {
 			actor = 403040,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내일 연습전은 안 나갈 거야. 너희에게 맡길게!",
 			typewriter = {
@@ -238,7 +238,7 @@ return {
 			actor = 404020,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……딱히 문제 될 건 없죠. 연습전의 편성을 변경해달라 티르피츠에게 전해놓겠습니다.",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 404020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -285,7 +285,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하하! 하인, 봤느냐!",
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -331,7 +331,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 이 도이칠란트 님이야 말로 메탈 블러드에서 제일 존경받는 정신적 리더란 말이지!",
 			typewriter = {
 				speed = 0.05,
@@ -343,7 +343,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

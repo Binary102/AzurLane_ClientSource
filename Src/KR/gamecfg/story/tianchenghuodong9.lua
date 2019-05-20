@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "장은 포위하여 공략해야 하는 법……이제 도망칠 곳은 없답니다.",
@@ -40,7 +40,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -103,7 +103,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -133,7 +133,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -154,7 +154,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "한 가지 신경쓰였던 게 있었습니다만, 카가의 싸움에는 늘 냉정함이 부족합니다.",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,

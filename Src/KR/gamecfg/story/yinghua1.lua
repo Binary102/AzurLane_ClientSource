@@ -57,7 +57,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1.3,
 					dur = 0.1,

@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 900007,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_1",
 			side = 0,
 			bgSpeed = 1.5,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 900006,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 힘은...! 역시 당신들은 그 \"힘\"을...!",
 			subBgName = {
 				name = "bg_story_1_sub",
@@ -92,7 +92,7 @@ return {
 		{
 			actor = 900006,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "... 어째서... 어째서 그 맹약을... 벽람항로를 등지겠단 말인가요...?",
 			typewriter = {
 				speed = 0.05,

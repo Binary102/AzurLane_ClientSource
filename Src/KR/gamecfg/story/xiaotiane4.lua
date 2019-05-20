@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름 바람의 십자성\n\n<size=30>제4장 - 현행범?</size>",
+					"여름 바람의 십자성\n\n<size=45>제4장 - 현행범?</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 201101,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(꿀꺽) 여, 여기 맞지…?",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			actor = 201090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201101,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -170,24 +170,24 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에에에에에에에?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 201090,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 201110,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -205,11 +205,11 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에에에에에에에?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

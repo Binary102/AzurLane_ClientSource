@@ -1,5 +1,4 @@
-slot0 = class("BaseUI")
-slot1 = require("Framework.notify.event")
+slot0 = class("BaseUI", import("view.base.BaseEventLogic"))
 slot0.LOADED = "BaseUI:LOADED"
 slot0.DID_ENTER = "BaseUI:DID_ENTER"
 slot0.AVALIBLE = "BaseUI:AVALIBLE"
@@ -18,7 +17,8 @@ slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 
 function slot0.Ctor(slot0)
-	slot0.event = slot0.New()
+	slot0.super.Ctor(slot0)
+
 	slot0._isLoaded = false
 	slot0._go = nil
 	slot0._tf = nil
@@ -29,6 +29,10 @@ function slot0.setContextData(slot0, slot1)
 end
 
 function slot0.getUIName(slot0)
+	return nil
+end
+
+function slot0.getGroupName(slot0)
 	return nil
 end
 
@@ -78,30 +82,77 @@ function slot0.isLoaded(slot0)
 	return slot0._isLoaded
 end
 
+function slot0.getGroupNameFromData(slot0)
+	slot1 = nil
+
+	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_groupName or slot0.contextData.LayerWeightMgr_groupName) and slot0:getGroupName()
+end
+
+function slot0.getWeightFromData(slot0)
+	slot1 = nil
+
+	if slot0.contextData ~= nil and slot0.contextData.LayerWeightMgr_weight then
+		slot1 = slot0.contextData.LayerWeightMgr_weight
+	end
+
+	return slot1
+end
+
+function slot0.isLayer(slot0)
+	return slot0.contextData ~= nil and slot0.contextData.isLayer
+end
+
+function slot0.addToLayerMgr(slot0)
+	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SYSTEM, slot0._tf, {
+		globalBlur = false,
+		groupName = slot0:getGroupNameFromData(),
+		weight = slot0:getWeightFromData()
+	})
+end
+
 function slot0.onUILoaded(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
+	slot0.animTF = slot0:findTF("blur_panel")
 
-	setActive(slot0._tf, true)
+	if slot0:isLayer() then
+		slot0:addToLayerMgr()
+	end
+
+	pg.SeriesGuideMgr:GetInstance():dispatch({
+		view = slot0.__cname
+	})
 
 	slot0._isLoaded = true
 
 	pg.DelegateInfo.New(slot0)
+
+	slot0.optionBtns = {
+		slot0:findTF("top/option"),
+		slot0:findTF("top/left_top/option"),
+		slot0:findTF("blur_container/top/title/option"),
+		slot0:findTF("blur_container/top/option"),
+		slot0:findTF("top/top_chapter/option"),
+		slot0:findTF("top/top/option"),
+		slot0:findTF("common/top/option"),
+		slot0:findTF("blur_panel/top/option"),
+		slot0:findTF("blurPanel/top/option"),
+		slot0:findTF("blur_container/top/option"),
+		slot0:findTF("top/title/option"),
+		slot0:findTF("blur_panel/adapt/top/option"),
+		slot0:findTF("mainPanel/top/option"),
+		slot0:findTF("bg/top/option"),
+		slot0:findTF("blur_container/adapt/top/title/option"),
+		slot0:findTF("blur_container/adapt/top/option")
+	}
+
 	slot0:init()
-	pg.GuideMgr2:GetInstance():dispatch({
-		isView = true,
-		viewComponent = slot0.__cname,
-		event = slot0.__cname
-	})
+	setActive(slot0._tf, not slot0.event:chectConnect(slot0.LOADED))
 	slot0:emit(slot0.LOADED)
 end
 
-function slot0.dispatchUILoaded(slot0, slot1)
-	if slot1 or not slot0._guiderLoaded then
-		pg.GuideMgr2:GetInstance():dispatchLoaded({
-			viewComponent = slot0.__cname
-		})
-	end
+function slot0.onUIAnimEnd(slot0, slot1)
+	slot1()
 end
 
 function slot0.init(slot0)
@@ -109,34 +160,70 @@ function slot0.init(slot0)
 end
 
 function slot0.enter(slot0)
+	for slot4, slot5 in pairs(slot0.optionBtns) do
+		if not IsNil(slot5) then
+			onButton(slot0, slot5, function ()
+				slot0:emit(slot1.ON_HOME)
+			end, SFX_PANEL)
+		end
+	end
+
+	slot0:prepareAnimtion()
+	setActive(slot0._tf, true)
+
 	function slot1()
 		slot0:emit(slot1.DID_ENTER)
 		slot0.emit:didEnter()
-		slot0.emit.didEnter:dispatchUILoaded()
-		slot0.emit.didEnter.dispatchUILoaded:emit(slot1.AVALIBLE)
+		slot0.emit.didEnter:emit(slot1.AVALIBLE)
+		slot0.emit.didEnter.emit:onUIAnimEnd(function ()
+			pg.SeriesGuideMgr:GetInstance():start({
+				view = slot0.__cname,
+				code = {
+					pg.SeriesGuideMgr.CODES.MAINUI
+				}
+			})
+			pg.GuideMgr:GetInstance():onSceneAnimDone({
+				view = slot0.__cname
+			})
+		end)
 	end
 
-	if slot0._tf ~= nil then
-		slot3 = slot0._tf:GetComponent(typeof(UIEventTrigger))
+	slot2 = false
 
-		if slot0._tf:GetComponent(typeof(Animation)) ~= nil and slot3 ~= nil then
-			if slot2:get_Item("enter") == nil then
-				slot1()
+	if slot0.animTF ~= nil then
+		slot4 = slot0.animTF:GetComponent(typeof(UIEventTrigger))
 
-				return
+		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot4 ~= nil then
+			if slot3:get_Item("enter") == nil then
+				print("cound not found enter animation")
+			else
+				slot3:Play("enter")
 			end
-
-			slot3.didEnter:AddListener(slot1)
-			slot2:Play("enter")
-		elseif slot2 ~= nil then
-			print("cound not found [UIEventTrigger] component")
 		elseif slot3 ~= nil then
+			print("cound not found [UIEventTrigger] component")
+		elseif slot4 ~= nil then
 			print("cound not found [Animation] component")
-		else
-			slot1()
 		end
-	else
+	end
+
+	if not slot2 then
 		slot1()
+	end
+end
+
+function slot0.prepareAnimtion(slot0)
+	if slot0.animTF then
+		slot2 = slot0.animTF:Find("top_bg")
+		slot3 = slot0.animTF:Find("adapt/left_length")
+
+		if slot0.animTF:Find("adapt/top") and slot2 then
+			setAnchoredPosition(slot1, Vector3(slot1.anchoredPosition.x, 180, 0))
+			setAnchoredPosition(slot2, Vector3(slot2.anchoredPosition.x, 180, 0))
+		end
+
+		if slot3 then
+			setAnchoredPosition(slot3, Vector3(-180, slot3.anchoredPosition.y, 0))
+		end
 	end
 end
 
@@ -156,37 +243,17 @@ function slot0.exit(slot0)
 	slot0.exited = true
 
 	pg.DelegateInfo.Dispose(slot0)
-	slot0:willExit()
 
 	function slot1()
-		pg.GuideMgr2:GetInstance():dispatch({
-			viewComponent = slot0.__cname,
-			event = slot0.__cname .. "Exit"
+		slot0:willExit()
+		slot0.willExit:detach()
+		pg.GuideMgr:GetInstance():onSceneExit({
+			view = slot0.__cname
 		})
-		pg.GuideMgr2.GetInstance().dispatch:detach()
-		pg.GuideMgr2.GetInstance().dispatch.detach:emit(slot1.DID_EXIT)
+		pg.GuideMgr.GetInstance().onSceneExit:emit(slot1.DID_EXIT)
 	end
 
-	if slot0._tf ~= nil then
-		slot3 = slot0._tf:GetComponent(typeof(UIEventTrigger))
-
-		if slot0._tf:GetComponent(typeof(Animation)) ~= nil and slot3 ~= nil then
-			if slot2:get_Item("exit") == nil then
-				slot1()
-
-				return
-			end
-
-			slot3.didExit:AddListener(slot1)
-			slot2:Play("exit")
-		elseif slot2 ~= nil then
-			print("cound not found [UIEventTrigger] component")
-		elseif slot3 ~= nil then
-			print("cound not found [Animation] component")
-		else
-			slot1()
-		end
-	else
+	if not false then
 		slot1()
 	end
 end
@@ -197,19 +264,18 @@ end
 
 function slot0.detach(slot0, slot1)
 	slot0._isLoaded = false
-	slot0._tf = nil
-	slot2 = slot0:getUIName()
 
-	if slot0._go ~= nil and slot2 then
-		PoolMgr.GetInstance():ReturnUI(slot2, slot0._go)
+	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
+	slot0:disposeEvent()
+
+	slot0._tf = nil
+
+	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
+
+	if slot0._go ~= nil and slot3 then
+		slot2:ReturnUI(slot3, slot0._go)
 
 		slot0._go = nil
-	end
-end
-
-function slot0.emit(slot0, ...)
-	if slot0.event then
-		slot0.event:emit(...)
 	end
 end
 

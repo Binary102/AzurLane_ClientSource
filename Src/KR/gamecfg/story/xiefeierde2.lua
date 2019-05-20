@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>二 一切为了“清扫”</size>",
+					"这个女仆不太冷\n\n<size=45>二 一切为了“清扫”</size>",
 					1
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "谢菲尔德的要求真的差点难倒{namecode:98}了喵！不过…哼哼，最后还是完成了喵！",
 			typewriter = {
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "将将——这就是“{namecode:98}特制清洁弹“喵！",
 			effects = {
 				{
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…{namecode:98}小姐，了不起",
 			effects = {
 				{
@@ -147,7 +147,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…是主人吗",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哼哼哼，那边的客人，你看起来一脸困惑的样子喵？那就让{namecode:98}来——",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "喵！？吓了一跳喵！谢菲尔德你也太直接了喵！",
 			typewriter = {
 				speed = 0.05,
@@ -246,7 +246,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -259,7 +259,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "与其解释那么多，不如直接实践一下更方便",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯，我拜托{namecode:98}小姐制作了包含清洁剂的子弹",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "弹头是特殊材料制成的喵，一旦受到冲击就会释放出清洁剂喵！",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这样一来，平时一些不好打扫的地方也能到轻易地解决了",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"안샨의 그림 교실\n\n<size=30>제5장 안샨의 그림 수첩</size>",
+					"안샨의 그림 교실\n\n<size=45>제5장 안샨의 그림 수첩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-china",
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "음… 그럼 이 다음은 이렇게…",
 			typewriter = {
 				speed = 0.05,
@@ -40,19 +40,19 @@ return {
 			actorName = "푸슌&창춘&타이위안",
 			actor = 501040,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마지막 그림이 완성됐다!",
 			subActors = {
 				{
 					actor = 501020,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 501030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -71,13 +71,13 @@ return {
 			bgName = "bg_story_school",
 			actor = 502030,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "축하해~!",
 			subActors = {
 				{
 					actor = 502020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -144,7 +144,7 @@ return {
 		},
 		{
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -160,7 +160,7 @@ return {
 		},
 		{
 			actor = 501040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -208,7 +208,7 @@ return {
 		},
 		{
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -224,7 +224,7 @@ return {
 		},
 		{
 			actor = 502010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -260,7 +260,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -276,7 +276,7 @@ return {
 		},
 		{
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 		},
 		{
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -308,7 +308,7 @@ return {
 		},
 		{
 			actor = 502010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -324,7 +324,7 @@ return {
 		},
 		{
 			actor = 501040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -340,7 +340,7 @@ return {
 		},
 		{
 			actor = 502010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -356,7 +356,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -372,7 +372,7 @@ return {
 		},
 		{
 			actor = 502010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -388,7 +388,7 @@ return {
 		},
 		{
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -404,7 +404,7 @@ return {
 		},
 		{
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -420,7 +420,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -436,7 +436,7 @@ return {
 		},
 		{
 			actor = 501040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -452,7 +452,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -468,7 +468,7 @@ return {
 		},
 		{
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -484,7 +484,7 @@ return {
 		},
 		{
 			actor = 502010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -502,7 +502,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",
@@ -518,7 +518,7 @@ return {
 		},
 		{
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,

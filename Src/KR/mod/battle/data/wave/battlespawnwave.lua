@@ -65,7 +65,7 @@ function ys.Battle.BattleSpawnWave.DoWave(slot0)
 	end
 
 	if slot0._spawnCount == 0 then
-		slot0:doFinish()
+		slot0:doPass()
 	end
 
 	slot1.Battle.BattleState.GenerateVertifyData(1)
@@ -193,14 +193,14 @@ function ys.Battle.BattleSpawnWave.onWaveUnitDie(slot0, slot1)
 	end
 
 	if slot5 == 0 and slot0._spawnCount <= slot4 and slot0._reinforceCount <= slot0._reinforceTotalKillCount then
-		slot0:doFinish()
+		slot0:doPass()
 	end
 end
 
-function ys.Battle.BattleSpawnWave.doFinish(slot0)
+function ys.Battle.BattleSpawnWave.doPass(slot0)
 	slot0.clearTimerList(slot0._spawnTimerList)
 	slot0:clearReinforceTimer()
-	slot0.super.doFinish(slot0)
+	slot0.super.doPass(slot0)
 end
 
 function ys.Battle.BattleSpawnWave.clearTimerList(slot0)

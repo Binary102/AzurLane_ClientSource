@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"호놀룰루 미니 스토리\n\n<size=30>화를 잘 내는 그녀의 일상</size>",
+					"호놀룰루 미니 스토리\n\n<size=45>화를 잘 내는 그녀의 일상</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "비서함을 담당하고 있는 호놀루루가 책장 앞에서 서류를 정리하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저, 저기 말야…그렇게 빤히 쳐다보지 말아 줄래? 일하는데 신경 쓰이잖아…",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………(말없이 시선을 돌린다.)",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하아……이 자료는 이렇게 하면 되지?",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………(말없이 고개를 끄덕인다.)",
 			typewriter = {
 				speed = 0.05,
@@ -149,7 +149,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정비? 이상한 짓만 하지 않으면 뭐 상관없지만……",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………(말없이 자리에서 일어난다)",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭘 멍하니 있는 거야…? 의뢰, 완료되었는데.",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 102120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………(말없이 확인한다.)",
 			typewriter = {
 				speed = 0.05,
@@ -258,7 +258,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그렇게 갑자기 만지지 말라고! 정말 섬세하지 못하다니까……무슨 일 있어?",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……화난 것도 아니고, 고민거리가 있는 것도 아니야.",
 			typewriter = {
@@ -290,7 +290,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……딱히 당신이 싫은 건 아냐…원래 이런 성격이니까.",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "마음에 안 들면 다른 아이한테 비서함을 맡기던가.",
 			typewriter = {
@@ -322,9 +322,9 @@ return {
 			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=22>……(작은 목소리로) 역시 크니까 비서함 자릴 맡긴 거였어…</size>",
+			say = "<size=33>……(작은 목소리로) 역시 크니까 비서함 자릴 맡긴 거였어…</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

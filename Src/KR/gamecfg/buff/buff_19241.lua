@@ -19,9 +19,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -46,9 +44,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -73,9 +69,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -100,9 +94,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -127,9 +119,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -154,9 +144,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -181,9 +169,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -208,9 +194,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -235,9 +219,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -262,9 +244,7 @@ return {
 				},
 				arg_list = {
 					count = 1,
-					hpRatioList = {
-						0.7
-					}
+					hpUpperBound = 0.7
 				}
 			}
 		}
@@ -305,9 +285,7 @@ return {
 			},
 			arg_list = {
 				count = 1,
-				hpRatioList = {
-					0.7
-				}
+				hpUpperBound = 0.7
 			}
 		}
 	}

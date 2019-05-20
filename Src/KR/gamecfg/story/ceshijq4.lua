@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"剧情选项功能测试\n\n<size=30>SP4剧情</size>",
+					"剧情选项功能测试\n\n<size=45>SP4剧情</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 808010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "请选择分支，将影响BOSS战斗内容",
 			typewriter = {
 				speed = 0.05,

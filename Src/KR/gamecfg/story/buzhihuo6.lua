@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"만능 점원 시라누이\n\n<size=30>점원의 진심 (상)</size>",
+					"만능 점원 시라누이\n\n<size=45>점원의 진심 (상)</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "과로다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "비서함과 점원 일을 동시에 하다보니 피로가 쌓인 거다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +103,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "지휘관 때문이 아니다냥. 누이누이는 혼자서 모든 걸 떠맡으려 하는 성격이라, 어지간해선 남들에게 기대지 않는다냥.",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "게다가 피곤한 티가 전혀 얼굴에 나지 않으니, 아카시도 다른 사람들도 모두 눈치채지 못한 거다냥……",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -152,7 +152,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "환자는 얌전히 누워 있어라냥! 누이누이는 너무 무리한 거다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -191,7 +191,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……무리한 적 없사옵니다.",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언제나 처럼 혼자 늘 하던대로 하려 했을 뿐이온데……",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "귀찮은 녀석이다냥……",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아무튼, 생각보다 심하지 않아 다행이다.",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…………",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그건 누이누이가 납득하지 않으니, 근본적인 해결책이 될 순 없을 거다냥.",
 			typewriter = {
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아……역시 왕바보시군요.",
 			typewriter = {
 				speed = 0.05,

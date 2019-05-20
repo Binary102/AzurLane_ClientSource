@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "로열 네이비 메이드대 메이드장인 벨파스트라고 합니다. 인사 올립니다.",
@@ -43,7 +43,7 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "귀함이 이곳에 나타나지 않았다면, 지금쯤 스캐퍼플로에서 아가씨들께 드릴 애프터눈 티를 준비하고 있었을 텐데……",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "얌전히……이곳에서 가라앉아 주시겠습니까?",
 			typewriter = {

@@ -113,6 +113,7 @@ RectMask2D = UnityEngine.UI.RectMask2D
 Profiler = UnityEngine.Profiler
 HScrollSnap = UnityEngine.UI.Extensions.HScrollSnap
 CanvasScaler = UnityEngine.UI.CanvasScaler
+SleepTimeout = UnityEngine.SleepTimeout
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType

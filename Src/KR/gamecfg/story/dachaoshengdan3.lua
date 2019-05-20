@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=30>三　圣诞节的阴影（上）</size>",
+					"圣诞礼物大作战！\n\n<size=45>三　圣诞节的阴影（上）</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呼，又到圣诞节了啊！唔……突然想起去年扮演圣诞老人的姐姐，总感觉背后有些发凉……",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 101240,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "虽说收到礼物很高兴，但是毕竟扮做圣诞老人的是那位企业啊，紧张的不行呢……",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "诶嘿，扮做圣诞老人的企业萨拉很喜欢哦！不如今年就由我来……",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 107020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉？圣诞节不可以给大家添麻烦哦，这样下去大家要对圣诞节有阴影了。",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			actor = 112010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "今年企业酱她貌似出港去执行任务了。唔，总感觉有些寂寞……",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "总……总之，我已经不想像去年那样尴尬的从姐姐那边收礼物了！趁姐姐现在不在港区，我们赶快……",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜哇！不会是姐姐回来了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -191,7 +191,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "白鹰的各位盟友们，好久不见。我们是来找企业询问一些事情的，不知道她现在……",
 			typewriter = {
@@ -207,7 +207,7 @@ return {
 			actor = 112010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊呀，是皇家的厌战小姐！有些抱歉，企业酱现在还没有归港呢……",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "我们……想问问，白鹰的圣诞老人会选择……什么样的礼物送给大家……",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哦呀？如果是圣诞礼物相关的事情，萨拉小姐知道一个人或许可以帮上你们哦！",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不过……她现在不在这里呢！不如，我们去她的房间找她？",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是你的同伴吗？那么有劳带路了。",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "直……直接去女孩子的房间……真的好嘛……",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不用那么害羞啦！我们白鹰可是主张OPEN&FREE的啦！跟我来吧！",
 			typewriter = {
 				speed = 0.05,

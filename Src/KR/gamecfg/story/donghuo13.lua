@@ -9,7 +9,7 @@ return {
 		{
 			actor = 102050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "SG 레이더에 반응 있음! 데이터베이스에 없는 세이렌 함대의 그림자를 포착!",
 			typewriter = {
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 102050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이건… 수송함?",
 			typewriter = {
@@ -38,7 +38,7 @@ return {
 		},
 		{
 			actor = 105130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "세이렌의 수송함? 하하하하! 오늘은 제법 운이 따라주는군 그래!",
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 102050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "세이렌 수송함이 해역에서 이탈하려고 하고 있어!",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 		{
 			actor = 105130,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "발견한 이상 놓치지 않겠다! 언니, 헬레나, 적 수송함을 포위하여 나포하자고!",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 		{
 			actor = 105120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연 세이렌, 단순한 경고 포격으로는 멈출 수 있을 것 같지 않네.",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 105120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시에게 받았던 시험 중인 신장비… 이 '위협 수뢰'가 도움이 될 것 같은데…",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 		{
 			actor = 105130,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "수뢰…?",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 		{
 			actor = 105120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래. 이걸 설치해 두면, 수송함이 수뢰에 부딪히지 않으려고 수뢰와는 다른 방향으로 이동할 거야.",
 			typewriter = {
@@ -148,7 +148,7 @@ return {
 		{
 			actor = 105130,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "재미있군. …자, 술래잡기를 시작해 볼까!",
 			typewriter = {

@@ -7,7 +7,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무사히 버츄얼 거울 해역에 잠입할 수 있었어요.",
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 		{
 			actor = 301120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이나즈마랑 모두가 알고있는 거울 해역과 비슷하긴 합니다만……",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "왠지 잘 모르겠는 게 잔뜩 있네! 이게 '바이러스'이거나 '버그'인 거야?",
 			typewriter = {
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			expression = 5,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 900179,
@@ -68,7 +68,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잘 모르겠지만, 방심할 순 없겠네! 다들, 조심하면서 가자!",
 			typewriter = {

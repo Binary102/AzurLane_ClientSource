@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>四 妹妹的失落</size>",
+					"妹妹的变化\n\n<size=45>四 妹妹的失落</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，有关下一片海域的侦查人员配置…",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "昆西姐姐……",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊，文森斯，抱歉，姐姐现在和指挥官有些军务要商量，等结束了再陪你。",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯……",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，要把这一片海域分派给我吗。",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……嗯，我知道了，我会努力的！",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，有什么我能帮忙的吗？",
 			typewriter = {
 				speed = 0.05,
@@ -181,7 +181,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，文森斯能交给我吗，我一定会安排好的！",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "文森斯，你不用想复杂的事，一切都交给姐姐来安排就好了。",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哦……",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，来一起睡一会儿吗，已经工作很久了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "唔……那好吧……",
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

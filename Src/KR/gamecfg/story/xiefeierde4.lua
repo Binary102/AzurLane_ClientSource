@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>四 习惯成自然</size>",
+					"这个女仆不太冷\n\n<size=45>四 习惯成自然</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，请把脚稍微抬一下。",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "清扫很快乐，没有比看到一切都井井有条更让人高兴的事了",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "顺便一提，唯一不井井有条的就只有时不时会发呆的主人您了。",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "打扰了，主人。贝尔法斯特拜托我把这份文件转交给您。",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不用客气，这是我分内的事情，另外也是顺便来看看女仆队的同僚…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "谢菲，看起来秘书舰的工作相当合你的心意呢",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "请不要突然说一些不着边际的话。",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呵呵，原本还有些不放心，现在看来是不用操心了呢~",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，虽然谢菲平时说话很不客气，不过正因如此，她是绝不会做自己不喜欢做的事情的",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这里、稍微、有些脏了",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "刚刚才清洁过这里？不，还是有些灰尘，看来我还是不够仔细呢",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呵呵…看来我说了多余的话呢，主人、谢菲，就请你们继续好好相处咯？",
 			typewriter = {

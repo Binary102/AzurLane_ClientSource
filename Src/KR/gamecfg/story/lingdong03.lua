@@ -9,7 +9,7 @@ return {
 		{
 			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "왕가의 영광과 함께, 그대들에게 현란한 종언을 내리겠노라…\"여왕 폐하에 영광을!\"",
 			typewriter = {
@@ -46,7 +46,7 @@ return {
 		{
 			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "여러분, 수고하셨습니다. 아무래도 대단한 적은 아니었던 모양입니다.",
 			typewriter = {
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			actor = 203050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "후우…신형 세이렌도 그렇게 무섭지는 않네요. 혹시 우리가 엄청 강한 걸지도?",
@@ -80,7 +80,7 @@ return {
 		{
 			actor = 203050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응, 이젠 돌아갈 수 있…",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 202080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "노포크 님, 기다려주십시오. 지금 본부로부터 긴급 무전이……",
 			typewriter = {
@@ -110,7 +110,7 @@ return {
 		{
 			actor = 202080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 		{
 			actor = 202080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……",
 			typewriter = {
@@ -140,7 +140,7 @@ return {
 		{
 			actor = 202080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "…조금, 길을 돌아가야 할 것 같네요.",
 			typewriter = {

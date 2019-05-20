@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"평온한 일상을 바라며\n\n<size=30>장난 타임?</size>",
+					"평온한 일상을 바라며\n\n<size=45>장난 타임?</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좀 재미는 없지만……하인의 서포트로는 충분할 거야!",
 			effects = {
 				{
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우…………",
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -292,7 +292,7 @@ return {
 			say = "(퍼엉!!)",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "괜찮으신가요?",
 			flashout = {
 				dur = 0.5,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지금 거는 돌발사고인가요……계획적인 건가요?",
 			typewriter = {
 				speed = 0.05,
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "원하신다면, 이대로 원하는 만큼 계셔도 상관없습니다……나중에 야근을 해야 할지도 모르게 되겠지만.",
 			typewriter = {
 				speed = 0.05,

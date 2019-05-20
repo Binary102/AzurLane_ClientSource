@@ -21,7 +21,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하하핫! 어떻게 된 거야? 아까 그 기세는 어디 갔어? 계속 당하고만 있잖아?",
 			flashN = {
 				color = {
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -83,7 +83,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 10300010,
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -151,7 +151,7 @@ return {
 			say = "적군 하나하나는 그렇게 강하지 않지만, 이 정도로 전력 차이가 심해지면 상대하기 어렵습니다.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -184,7 +184,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10300060,
 			actorName = "후미뤼르(?)",
@@ -201,7 +201,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 10300010,
@@ -249,7 +249,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -269,7 +269,7 @@ return {
 			say = "외관이나 능력은 거의 똑같지만 혼의 색깔이 다릅니다. 아니, 혼에 색깔 자체가 없습니다……마치 인형처럼.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -285,7 +285,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -302,7 +302,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10300060,
 			actorName = "후미뤼르(?)",
@@ -318,7 +318,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -334,7 +334,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -392,7 +392,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 900021,
@@ -408,7 +408,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -419,7 +419,7 @@ return {
 		},
 		{
 			actor = 401230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "다들 무사하셨나요!",
@@ -436,7 +436,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "가세할게……맡겨줘……",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -466,7 +466,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -483,7 +483,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 아니에요! 우리는……!",
 			typewriter = {
@@ -497,7 +497,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -517,7 +517,7 @@ return {
 			say = "누가 되었든, 우리들을 노린다면 용서하지 않겠습니다.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -533,7 +533,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

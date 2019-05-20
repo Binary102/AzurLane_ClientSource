@@ -1,4 +1,4 @@
-slot0 = class("Player", import(".BaseVO"))
+slot0 = class("Player", import(".PlayerAttire"))
 slot1 = {
 	"gold",
 	"oil",
@@ -18,9 +18,10 @@ slot1 = {
 	[121.0] = "omamori1",
 	[104.0] = "star",
 	[112.0] = "jiujiu",
-	[2001.0] = "contribution_worldboss",
+	[124.0] = "union_pt",
 	[120.0] = "naerweikehaogan",
 	[111.0] = "faxipt",
+	[2001.0] = "contribution_worldboss",
 	[119.0] = "British_pt",
 	[102.0] = "pt",
 	[110.0] = "yisegefuke_pt",
@@ -28,13 +29,14 @@ slot1 = {
 	[103.0] = "ema",
 	[109.0] = "bilibili",
 	[117.0] = "longxiang",
+	[125.0] = "skinTicket",
 	[108.0] = "omamori",
 	[116.0] = "chuansong",
 	[101.0] = "battery",
 	[107.0] = "mengjiu",
 	[115.0] = "chuansonghaogan",
 	[123.0] = "kizuna_pt",
-	[106.0] = "ema1",
+	[106.0] = "ema",
 	[114.0] = "zhandouzhixing",
 	[122.0] = "battery1",
 	[105.0] = "grace"
@@ -48,7 +50,7 @@ slot2 = {
 	59006,
 	0,
 	59008,
-	nil,
+	0,
 	nil,
 	nil,
 	nil,
@@ -58,9 +60,10 @@ slot2 = {
 	[121.0] = 59124,
 	[104.0] = 59105,
 	[112.0] = 59113,
-	[2001.0] = 59122,
+	[124.0] = 59127,
 	[120.0] = 59123,
 	[111.0] = 59112,
+	[2001.0] = 59122,
 	[119.0] = 59121,
 	[102.0] = 59103,
 	[110.0] = 59111,
@@ -68,6 +71,7 @@ slot2 = {
 	[103.0] = 59104,
 	[109.0] = 59110,
 	[117.0] = 59119,
+	[125.0] = 59128,
 	[108.0] = 59109,
 	[116.0] = 59118,
 	[101.0] = 59102,
@@ -79,7 +83,6 @@ slot2 = {
 	[122.0] = 59125,
 	[105.0] = 59106
 }
-slot3 = nil
 slot0.MAX_SHIP_BAG = 2000
 slot0.MAX_EQUIP_BAG = 2000
 slot0.MAX_COMMANDER_BAG = 200
@@ -130,8 +133,10 @@ function slot0.skin2Res(slot0)
 end
 
 function slot0.Ctor(slot0, slot1)
-	if not slot0 then
-		slot0 = pg.StoryMgr:GetInstance():GetStoryByName("index")
+	slot0.super.Ctor(slot0, slot1)
+
+	if not storyIndex then
+		storyIndex = pg.StoryMgr:GetInstance():GetStoryByName("index")
 	end
 
 	if not storyIndexAgain then
@@ -143,11 +148,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.level = slot1.level or slot1.lv
 	slot0.configId = slot0.level
 	slot0.exp = slot1.exp or 0
-	slot0.icon = slot1.icon or 1
 	slot0.attackCount = slot1.attack_count or 0
 	slot0.winCount = slot1.win_count or 0
 	slot0.manifesto = slot1.adv or slot1.manifesto
-	slot0.character = slot1.character
 	slot0.ship_bag_max = slot1.ship_bag_max
 	slot0.equip_bag_max = slot1.equip_bag_max
 	slot0.buff_list = slot1.buffList or {}
@@ -161,6 +164,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.score = slot1.score or 0
 	slot0.guildWaitTime = slot1.guild_wait_time or 0
 	slot0.commanderBagMax = slot1.commander_bag_max
+	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.cdList = {}
 	slot2 = ipairs
 	slot3 = slot1.cd_list or {}
@@ -226,8 +230,8 @@ function slot0.Ctor(slot0, slot1)
 				slot6 = 1137
 			end
 
-			if slot0[slot6] then
-				slot0.stories[slot6] = slot0[slot6]
+			if storyIndex[slot6] then
+				slot0.stories[slot6] = storyIndex[slot6]
 			end
 
 			if storyIndexAgain[slot6] then
@@ -239,14 +243,18 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maxGold = pg.gameset.max_gold.key_value
 	slot0.maxOil = pg.gameset.max_oil.key_value
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
-	slot0.skinId = slot1.skin_id or 0
+	slot0.attireInfo = {
+		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
+		[AttireConst.TYPE_CHAT_FRAME] = slot0.chatFrame
+	}
+end
 
-	if slot0.skinId == 0 and pg.ship_data_statistics[slot0.icon] then
-		slot0.skinId = slot2.skin_id
-	end
+function slot0.updateAttireFrame(slot0, slot1, slot2)
+	slot0.attireInfo[slot1] = slot2
+end
 
-	slot0.propose = slot1.propose and slot1.propose > 0
-	slot0.proposeTime = slot1.propose
+function slot0.getAttireByType(slot0, slot1)
+	return slot0.attireInfo[slot1]
 end
 
 function slot0.canModifyName(slot0)
@@ -344,11 +352,11 @@ function slot0.setGuildWaitTime(slot0, slot1)
 end
 
 function slot0.addStory(slot0, slot1)
-	slot0.stories[slot1] = slot0[slot1]
+	slot0.stories[slot1] = storyIndex[slot1]
 end
 
 function slot0.getStoryIndexID(slot0, slot1)
-	for slot5, slot6 in pairs(slot0) do
+	for slot5, slot6 in pairs(storyIndex) do
 		if slot6 == slot1 then
 			return slot5
 		end
@@ -358,7 +366,7 @@ function slot0.getStoryIndexID(slot0, slot1)
 end
 
 function slot0.getStoryByIndexID(slot0, slot1)
-	return slot0[slot1]
+	return storyIndex[slot1]
 end
 
 function slot0.addStoryAgain(slot0, slot1)
@@ -544,7 +552,7 @@ function slot0.addExp(slot0, slot1)
 		slot0.exp = slot0.exp - slot0:getLevelExpConfig().exp_interval
 		slot0.level = slot0.level + 1
 
-		BilibiliSdkMgr.inst:levelUp()
+		pg.SDKMgr:GetInstance():levelUp(slot0.level)
 	end
 end
 

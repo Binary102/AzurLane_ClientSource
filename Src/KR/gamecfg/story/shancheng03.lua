@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름(?)의 대작전\n\n<size=30>제3장　잊어버린 선물·상</size>",
+					"여름(?)의 대작전\n\n<size=45>제3장　잊어버린 선물·상</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -65,7 +65,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어라? 없어……",
 			flashout = {
 				dur = 1,

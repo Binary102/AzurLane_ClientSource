@@ -36,7 +36,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 107050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flash = {
 				wait = 0.2,
@@ -56,7 +56,7 @@ return {
 		{
 			mode = 2,
 			actorShadow = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			hideOther = true,
 			dir = -1,
 			blackBg = true,
@@ -69,7 +69,7 @@ return {
 				{
 					actor = 107070,
 					pos = {
-						x = -550
+						x = -825
 					}
 				}
 			},
@@ -131,7 +131,7 @@ return {
 			actor = 107050,
 			say = "...슬퍼할 필요는 없어, 우린 승리한 거야...",
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			effects = {
 				{
@@ -147,7 +147,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "너흰 분명 칭송받는 함선이 될 거야.",
 			blackBg = true,
@@ -160,7 +160,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "이 전쟁도 곧 끝나겠지... 그때 인간은 손을 맞잡고, 이 바다를...",
 			blackBg = true,
@@ -173,7 +173,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "우리는 인류의 이상을 위해 태어난 것, 이렇게 되는 것도 바라던 바야...",
 			blackBg = true,
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 107060,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "틀려! ...이런 건...",
 			blackBg = true,
@@ -199,7 +199,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "슬슬 작별이네...",
 			blackBg = true,
@@ -212,7 +212,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "너희가 아이에서 에이스로 성장한 것을 지켜볼 수 있었던 건, 나의 자랑...",
 			blackBg = true,
@@ -230,7 +230,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			say = "마지막으로... 이 아이, '사신'을 잘 보살펴주길 바라. ",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			effects = {
 				{
@@ -246,7 +246,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "이 아이와 함께, 자유의 의지를 세계에......",
 			blackBg = true,
@@ -259,7 +259,7 @@ return {
 		{
 			actor = 107050,
 			mode = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "너희라면, 분명 할 수 있어...",
 			blackBg = true,

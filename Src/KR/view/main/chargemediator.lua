@@ -7,8 +7,14 @@ slot0.GET_CHARGE_LIST = "ChargeMediator:GET_CHARGE_LIST"
 slot0.GO_SHOPS_LAYER = "ChargeMediator:GO_SHOPS_LAYER"
 slot0.OPEN_ACTIVITY = "ChargeMediator:OPEN_ACTIVITY"
 slot0.OPEN_SCENE = "ChargeMediator:OPEN_SCENE"
+slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
+	slot0:bind(slot0.ON_SKIN_SHOP, function ()
+		slot0.contextData.wrap = ChargeScene.TYPE_MENU
+
+		slot0.contextData:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	end)
 	slot0:bind(slot0.GET_CHARGE_LIST, function (slot0)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
@@ -18,8 +24,6 @@ function slot0.register(slot0)
 	slot5 = slot3:getChargedList()
 	slot6 = slot3:GetNormalList()
 	slot7 = slot3:GetNormalGroupList()
-
-	slot0.viewComponent:setSkinList(getProxy(BayProxy):getSkinList())
 
 	if slot3:getFirstChargeList() then
 		slot0.viewComponent:setFirstChargeIds(slot4)
@@ -41,13 +45,13 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end
 
-	slot0:bind(slot0.SWITCH_TO_SHOP, function ()
+	slot0:bind(slot0.SWITCH_TO_SHOP, function (slot0, slot1)
+		slot1.fromCharge = true
+
 		slot0:addSubLayers(Context.New({
 			mediator = ShopsMediator,
 			viewComponent = ShopsLayer,
-			data = {
-				fromCharge = true
-			}
+			data = slot1
 		}), false, function ()
 			setActive(slot0.viewComponent._tf, false)
 		end)
@@ -105,7 +109,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.CLICK_MING_SHI_SUCCESS,
 		GAME.REMOVE_LAYERS,
 		PlayerResource.GO_MALL,
-		BayProxy.SHIP_SKINS_UPDATE,
 		GAME.CHARGE_SUCCESS
 	}
 end
@@ -126,6 +129,7 @@ function slot0.handleNotification(slot0, slot1)
 		getProxy(ShopsProxy):chargeFailed(slot3.payId, slot3.bsId)
 	elseif slot2 == GAME.SHOPPING_DONE then
 		if slot3.awards and #slot3.awards > 0 then
+			slot0.viewComponent:unBlurView()
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3.awards
 			})
@@ -145,17 +149,9 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:sortDamondItems()
 		end
 
-		slot0.viewComponent:checkBuyDone(slot3.id)
+		slot6 = pg.shop_template[slot3.id]
 
-		if pg.shop_template[slot3.id] and slot6.genre == ShopArgs.SkinShop then
-			slot0:addSubLayers(Context.New({
-				mediator = NewSkinMediator,
-				viewComponent = NewSkinLayer,
-				data = {
-					skinId = slot6.effect_args[1]
-				}
-			}))
-		end
+		slot0.viewComponent:checkBuyDone(slot3.id)
 	elseif slot2 == GAME.USE_ITEM_DONE then
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
@@ -191,7 +187,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		if slot3.context.mediator == ShopsMediator then
 			setActive(slot0.viewComponent._tf, true)
-			slot0.viewComponent:uiStartAnimating()
 		end
 	elseif slot2 == PlayerResource.GO_MALL then
 		slot4 = ChargeScene.TYPE_DIAMOND
@@ -199,18 +194,7 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3 then
 			slot0.viewComponent:triggerPageToggle(slot3.type or ChargeScene.TYPE_DIAMOND)
 			slot0.viewComponent:updateNoRes((slot3 and slot3.noRes) or nil)
-		end
-
-		if slot0.viewComponent.skinWindow then
-			slot0.viewComponent.skinWindow.closeWindow()
-		end
-
-		slot0.viewComponent:closeItemDetail()
-	elseif slot2 == BayProxy.SHIP_SKINS_UPDATE then
-		slot0.viewComponent:setSkinList(getProxy(BayProxy):getSkinList())
-
-		if slot0.contextData.page == ChargeScene.TYPE_SKIN then
-			slot0.viewComponent:updateSkinPage()
+			slot0.viewComponent:closeItemDetail()
 		end
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:checkBuyDone("damonds")

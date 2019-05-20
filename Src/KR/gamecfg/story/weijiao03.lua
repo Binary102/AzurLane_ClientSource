@@ -9,7 +9,7 @@ return {
 		{
 			actor = 202030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러고 보니 그라프 슈피는 상선을 몇 척이나 가라앉혀도 선원들은 다 구한다면서요? ……그 점을 봐서 이 정도로 봐주도록 하죠.",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		{
 			actor = 203080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기절한 모양이군. 이대로 두고 가도 되나?",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "제게 있어선, 장난감이 많은 쪽이 좋지만…그라프 슈피를 상대로 포로를 데리고 싸울 정도로 여유 있진 않잖아요?",
@@ -73,7 +73,7 @@ return {
 		{
 			actor = 202030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아니면, 로열 네이비의 영광인지 뭔지 때문에 이 아이를 끌고 다닐 셈인가요?",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 		{
 			actor = 203080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "너란 녀석은……됐어! 전진한다.",
 			typewriter = {

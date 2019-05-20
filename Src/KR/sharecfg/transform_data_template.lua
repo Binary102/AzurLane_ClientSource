@@ -2493,8 +2493,8 @@ pg.transform_data_template = {
 		descrip = [[
 근대화 개조 완료
 
-개조 후 <color=#A9F548>【주포 발사 수+1】,</color>
-<color=#A9F548>【전탄 발사II】</color> 스킬이 <color=#A9F548>【특수 탄막 - 샌디에이고 I】</color> 로 변경됩니다.]],
+개조 후 <color=#92fc63>【주포 발사 수+1】,</color>
+<color=#92fc63>【전탄 발사II】</color> 스킬이 <color=#92fc63>【특수 탄막 - 샌디에이고 I】</color> 로 변경됩니다.]],
 		condition_id = {
 			3609,
 			3610
@@ -10980,9 +10980,9 @@ pg.transform_data_template = {
 		descrip = [[
 개조 (근대화 개수) 완료
 
-개조 후<color=#A9F548>첫 번째 [설비]</color>칸에<color=#A9F548> [초계기]</color> 를 장비할 수 있게 되고
-<color=#A9F548> [대잠] </color>능력이 강화됩니다.
-스킬 <color=#A9F548>[절대 명중의 숙녀]</color>가 [절대 명중의 숙녀·改] 로 강화됩니다. ]],
+개조 후<color=#92fc63>첫 번째 [설비]</color>칸에<color=#92fc63> [초계기]</color> 를 장비할 수 있게 되고
+<color=#92fc63> [대잠] </color>능력이 강화됩니다.
+스킬 <color=#92fc63>[절대 명중의 숙녀]</color>가 [절대 명중의 숙녀·改] 로 강화됩니다.]],
 		condition_id = {
 			13106,
 			13109
@@ -13833,14 +13833,14 @@ pg.transform_data_template = {
 		descrip = [[
 개조(근대화 개수) 완료
 
-스킬 습득：<color=#A9F548>예비 항공대</color>
+스킬 습득：<color=#92fc63>예비 항공대</color>
 첫 번째 공중 지원 시, 추가 항공 탄막을 전개한다.
 (위력은 스킬 레벨에 비례) 1회의 전투에서 한 번만 발동된다.
 
-개조 후<color=#A9F548>【주포 발사 수-1】</color>
-개조 후<color=#A9F548> 주포 효율</color> +20%
-개조 후<color=#A9F548>【부무장】</color>장착 가능 장비 변경 :<color=#A9F548>【수상기】</color>
-<color=#A9F548>【수상기】</color>장비 중<color=#A9F548>【후소·改】</color>는<color=#A9F548> 공중 지원</color> 사용 가능]],
+개조 후<color=#92fc63>【주포 발사 수-1】</color>
+개조 후<color=#92fc63> 주포 효율</color> +20%
+개조 후<color=#92fc63>【부무장】</color>장착 가능 장비 변경 :<color=#92fc63>【수상기】</color>
+<color=#92fc63>【수상기】</color>장비 중<color=#92fc63>【후소·改】</color>는<color=#92fc63> 공중 지원</color> 사용 가능]],
 		condition_id = {
 			20808
 		},
@@ -14247,14 +14247,14 @@ pg.transform_data_template = {
 		descrip = [[
 개조(근대화 개수) 완료
 
-스킬 습득：<color=#A9F548>예비 항공대</color>
+스킬 습득：<color=#92fc63>예비 항공대</color>
 첫 번째 공중 지원 시, 추가 항공 탄막을 전개한다.
 (위력은 스킬 레벨에 비례) 1회의 전투에서 한 번만 발동된다.
 
-개조 후<color=#A9F548>【주포 발사 수-1】</color>
-개조 후<color=#A9F548> 주포 효율</color> +20%
-개조 후<color=#A9F548>【부무장】</color>장착 가능 장비 변경 :<color=#A9F548>【수상기】</color>
-<color=#A9F548>【수상기】</color>장비 중<color=#A9F548>【야마시로·改】</color>는<color=#A9F548> 공중 지원</color> 사용 가능]],
+개조 후<color=#92fc63>【주포 발사 수-1】</color>
+개조 후<color=#92fc63> 주포 효율</color> +20%
+개조 후<color=#92fc63>【부무장】</color>장착 가능 장비 변경 :<color=#92fc63>【수상기】</color>
+<color=#92fc63>【수상기】</color>장비 중<color=#92fc63>【야마시로·改】</color>는<color=#92fc63> 공중 지원</color> 사용 가능]],
 		condition_id = {
 			20908
 		},
@@ -14474,10 +14474,10 @@ pg.transform_data_template = {
 		descrip = [[
 근대화 개수 완료
 
-개조 후 <color=#A9F548>【주포 발사 수-1】</color>
-개조 후 <color=#A9F548>주포 효율이 </color>25% 상승
-개조 후 <color=#A9F548>【부무기】</color>장비란 위치의 장비 유형이 <color=#A9F548>【수상기】 로 변경됩니다.</color>
-<color=#A9F548>【수상기】</color>를 장비하고 있을 때, <color=#A9F548>【이세·改】</color>는 <color=#A9F548>공중지원</color>을 진행할 수 있습니다.]],
+개조 후 <color=#92fc63>【주포 발사 수-1】</color>
+개조 후 <color=#92fc63>주포 효율이 </color>25% 상승
+개조 후 <color=#92fc63>【부무기】</color>장비란 위치의 장비 유형이 <color=#92fc63>【수상기】 로 변경됩니다.</color>
+<color=#92fc63>【수상기】</color>를 장비하고 있을 때, <color=#92fc63>【이세·改】</color>는 <color=#92fc63>공중지원</color>을 진행할 수 있습니다.]],
 		condition_id = {
 			21002,
 			21003
@@ -14894,10 +14894,10 @@ pg.transform_data_template = {
 		descrip = [[
 근대화 개수 완료
 
-개조 후 <color=#A9F548>【주포 발사 수-1】</color>
-개조 후 <color=#A9F548>주포 효율이 </color>25% 상승
-개조 후 <color=#A9F548>【부무기】</color>장비란 위치의 장비 유형이 <color=#A9F548>【수상기】 로 변경됩니다.</color>
-<color=#A9F548>【수상기】</color>를 장비하고 있을 때, <color=#A9F548>【휴가·改】</color>는 <color=#A9F548>공중지원</color>을 진행할 수 있습니다.]],
+개조 후 <color=#92fc63>【주포 발사 수-1】</color>
+개조 후 <color=#92fc63>주포 효율이 </color>25% 상승
+개조 후 <color=#92fc63>【부무기】</color>장비란 위치의 장비 유형이 <color=#92fc63>【수상기】 로 변경됩니다.</color>
+<color=#92fc63>【수상기】</color>를 장비하고 있을 때, <color=#92fc63>【휴가·改】</color>는 <color=#92fc63>공중지원</color>을 진행할 수 있습니다.]],
 		condition_id = {
 			21102,
 			21103

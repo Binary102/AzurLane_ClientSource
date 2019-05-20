@@ -7,7 +7,7 @@ return {
 		{
 			actor = 201210,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이쨩, 데리러 왔어! 이제 돌아가자?",
 			typewriter = {
@@ -29,8 +29,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "반응이 없어. 역시 힘으로 설득하는 수밖에 없어.",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
@@ -107,7 +107,7 @@ return {
 		{
 			actor = 301050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "효과가 있을 거예요…! 이대로 간다면…",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			hideOther = true,
 			actor = 10400020,
@@ -153,14 +153,14 @@ return {
 					expression = 1,
 					actor = 10400030,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					expression = 6,
 					actor = 10400040,
 					pos = {
-						x = 850
+						x = 1275
 					}
 				}
 			},
@@ -176,7 +176,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "!? 지금까지 쓰러트려 왔던 가짜 키즈나 아이들이 부활한 건가요…!?",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 		{
 			actor = 301110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그럴 수가~!? 하나 쓰러트리는 것도 힘들었던 '보스'가 3명이나 늘어나다니…!",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이, 이렇게나 많이… 대체 어떻게 하면…!",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "Z23, 아직 진 건 아냐.",
 			typewriter = {
@@ -236,7 +236,7 @@ return {
 		{
 			actor = 301050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조금이라도 가능성이 있다면, 아야나미는 거기에 걸겠어요.",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 		{
 			actor = 201210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모두가 있는걸! 절대로 지지 않아!!",
 			typewriter = {
@@ -266,7 +266,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇네요! 우리는 절대 포기하지 않아요!",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 소리는… 대체……!?",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "! 저건……!?",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			say = "키즈나 아이 함대!?",
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			effects = {
 				{
 					active = true,
@@ -382,26 +382,26 @@ return {
 				}
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 403030,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201120,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 307050,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},
@@ -415,7 +415,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 403030,
@@ -438,7 +438,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기다리게 해서 미안하다냥! 지휘관의 명령을 받고 모두를 데리러 왔다냥!",
 			typewriter = {
@@ -453,7 +453,7 @@ return {
 		{
 			actor = 302010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "랜덤 워드 생성기의 해석에 시간이 걸려서 말야. 늦어서 미안하다.",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 		{
 			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들, 괜찮나요? 저희들이 왔으니 이제 괜찮아요.",
 			typewriter = {
@@ -483,7 +483,7 @@ return {
 		{
 			actor = 201120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들 무사해서 다행이에요. 모항에서 버츄얼 거울 해역까지 달려왔습니다!",
 			typewriter = {
@@ -498,7 +498,7 @@ return {
 		{
 			actor = 303110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 세 명은 소인들에게 맡겨라. 그대들은 저 커다란 녀석을 부탁한다!",
 			typewriter = {
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연! 지휘관이 이카즈치들을 위해 '지원군'을 보내준 거네!",
 			typewriter = {
@@ -528,7 +528,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조력, 감사.",
 			typewriter = {
@@ -543,7 +543,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이제 무서울 게 없어요.",
 			typewriter = {
@@ -558,7 +558,7 @@ return {
 		{
 			actor = 301120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "한 걸음만 더 가면 아이상을 되찾을 수 있어요!",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -595,7 +595,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그건……",
 			typewriter = {
@@ -610,7 +610,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이쨩은 우리의 친구니까!!",
 			typewriter = {

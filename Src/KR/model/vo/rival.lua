@@ -1,20 +1,13 @@
-slot0 = class("Rival", import(".BaseVO"))
+slot0 = class("Rival", import(".PlayerAttire"))
 
 function slot0.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1)
+
 	slot0.id = slot1.id
 	slot0.level = slot1.level
-	slot0.icon = slot1.icon
 	slot0.name = slot1.name
 	slot0.score = slot1.score or 0
 	slot0.rank = slot1.rank
-	slot0.remoulded = false
-
-	if slot1.remoulded and slot1.remoulded == 1 then
-		slot0.remoulded = true
-	end
-
-	slot0.propose = slot1.propose and slot1.propose > 0
-	slot0.proposeTime = slot1.propose
 	slot0.vanguardShips = {}
 	slot0.mainShips = {}
 
@@ -39,11 +32,6 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.score = slot0.score + SeasonInfo.INIT_POINT
-	slot0.skinId = slot1.skin_id or 0
-
-	if slot0.skinId == 0 and pg.ship_data_statistics[slot0.icon] then
-		slot0.skinId = slot3.skin_id
-	end
 end
 
 function slot0.getPainting(slot0)

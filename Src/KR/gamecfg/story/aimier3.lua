@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"무희 천사 에밀\n\n<size=30>의외의 특기</size>",
+					"무희 천사 에밀\n\n<size=45>의외의 특기</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					dur = 0.1,
 					number = 2,
 					type = "shake"
@@ -105,7 +105,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.4,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 802010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -150,7 +150,7 @@ return {
 			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래…? 요전에 가게 볼 때, 시라츠유한테 길 안내 해준 거랑, 에레버스 대신 아주 잠깐 테러 돌봐준 거랑,",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "동료들 상담거리 들어주고, 또 댄스 좀 보여준 거…… 그 정도밖에 짚이는 게 없는데.",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그랬었어…? 동료를 도와주는 건 당연한 거니까, 그냥 도와준 것 뿐이라구? 별로 보답할 거리는 아니……",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머머, 그런 말 들으면 왠지 부끄러운데~",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 802010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇게까지 대단한 건 아냐! 하지만 두 사람이 그렇게까지 말한다면, 다음에는 양쪽 가게 점원을 한 번씩 해보는 건 어떨까? 지휘관?",
 			typewriter = {
 				speed = 0.05,

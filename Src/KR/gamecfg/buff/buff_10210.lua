@@ -151,7 +151,7 @@ return {
 					"onAllInStrike"
 				},
 				arg_list = {
-					rant = 10000,
+					rant = 6000,
 					skill_id = 10210,
 					target = "TargetSelf",
 					time = 5

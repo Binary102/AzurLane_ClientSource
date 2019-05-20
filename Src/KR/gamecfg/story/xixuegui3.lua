@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"백의의 천사 or 악마?\n\n<size=30>제3장 = 신입 간호사 뱀파이어?</size>",
+					"백의의 천사 or 악마?\n\n<size=45>제3장 = 신입 간호사 뱀파이어?</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흥! 왜, 뭐! 평소에 많이 고생하니까 간호사 코스튬으로 좀 릴랙스 시켜주려 한 것 뿐인데!",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관 바보, 멍청이, 멍게, 말미잘, 해삼! 앞으로 상대해주나 봐라!",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이몸께서 특별히 간호 관련 지식도 배웠는데 말이야, 흥! 모두를 잘 돌봐줘서 그 바보의 입을 쩍 벌어지게 해주지!",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "재블린, 어디 불편한데는 없어?",
 			flashout = {
 				dur = 0.5,
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -174,7 +174,7 @@ return {
 			actor = 201210,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흠, 딱히 없는데요. 재블린은 건강하다구요~",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "글로우웜, 그렇게 여기저기 머리 들이밀지말고 이리 와서 앉아 봐, 내가 간호해줄게.",
 			flashout = {
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 201140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "라피, 이런데서 자면 감기 걸린다고, 여기 이불을 덮으렴.",
 			flashout = {
 				dur = 0.5,
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -334,7 +334,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저기, 뱀파이어 아가씨……",
 			typewriter = {
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응? 무슨 일이야 런던, 자신의 잘못을 뉘우치고 사과라도 하려고 온 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -378,7 +378,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -391,7 +391,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "물론 전 그러고 싶지만……지금 지휘관님께서 뱀파이어 아가씨를 찾고 계시는걸요.",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그 바보가 드디어 내 빈자리를 느꼈나 보네~ 뭐, 적당히 이쯤에서 용서해주도록 할까나~",
 			typewriter = {
 				speed = 0.05,
@@ -420,7 +420,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 203010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아……",
 			typewriter = {
 				speed = 0.05,

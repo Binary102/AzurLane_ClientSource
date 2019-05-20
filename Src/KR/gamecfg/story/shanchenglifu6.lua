@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"모항의 특별 연회\n\n<size=30>6. 울려라! 아마존 오케스트라!</size>",
+					"모항의 특별 연회\n\n<size=45>6. 울려라! 아마존 오케스트라!</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 201010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "후우, 다들 연회를 즐겁게 즐기고 있는 것 같네. 요 며칠 간의 노력이 헛되지 않아 다행이야.",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -117,7 +117,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "내가 어떻게 알아……",
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아……",
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "가장 중요한 그 녀석이 아직 안 와서 말이야. 곡 연주도 그 녀석이 와야 할 텐데…",
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "정말이지, 이 연회의 50%는 그 바보 녀석을 위해 준비한 셈인데 말야, 아직 코빼기도 안 보이니……",
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래……뭐 일부러 안 오는 건 아니겠지만.",
 			typewriter = {
 				speed = 0.05,
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……평소에 그 바보한테  기대는 건 별로 없지만, 여태까지 함대를 운영하는 것도 말야, 다들 말은 안해도 실은 전부 알고있다고.",
 			typewriter = {
 				speed = 0.05,
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "매일 얼마나 노력을 하는지, 얼마나 공무에 시간을 쏟는지도, 그리고 바쁜 와중에도 짬을 내서 우리랑 함께 어울리려 노력한다는 것도 말야.",
 			typewriter = {
 				speed = 0.05,
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "혹시 그 바보가 없었다면, 분명 오늘처럼 축제를 할 순 없었을 거야……",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……흥, 그런 거 없어. 그냥 말이 나온 김에 해본 소리야.",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -359,7 +359,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -381,7 +381,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래, 축제라고 하면, 역시 이런 게 있어야겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -396,7 +396,7 @@ return {
 			actor = 201010,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아무튼, 이번 축제는 우리들의 축제야.",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			actor = 201010,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "우리의 열심히 싸웠기 때문에 우린 요 며칠 동안 가슴을 펴고, 자신의 날개를 펼칠 수 있었어.",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			actor = 201010,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "하지만, 잊으면 안 되겠지. 우리보다 더욱 노력한, 우리가 날개를 펼치던 그 순간에도, 필사적으로 일해준 사람이 있다는 걸.",
 			typewriter = {
@@ -441,7 +441,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -461,7 +461,7 @@ return {
 			actor = 201010,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그렇긴 한데……그 녀석, 설마 집무실 안에서 자고 있는 건 아니겠지.",
 			typewriter = {
@@ -479,7 +479,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오늘 밤만은 꼭 오겠다고 해서 서프라이즈까지 준비했는데……",
 			typewriter = {
 				speed = 0.05,
@@ -496,7 +496,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아직도 안 온다면, 차라리 지금이라도 부르러 가는 게……",
 			typewriter = {
 				speed = 0.05,
@@ -511,7 +511,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -526,7 +526,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -541,7 +541,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우왓! 뭐야 후부키, 깜짝 놀랐잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -553,7 +553,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -563,7 +563,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -583,7 +583,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -603,7 +603,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = -1,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭐? 아무튼 지금 여기로 오고 있단 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -615,7 +615,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -632,7 +632,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -645,7 +645,7 @@ return {
 			actor = 201010,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "좋아, 후부키, 오로라랑 사우스다코타, 그리고 다른 애들한테도 알려줘, 다 알려주면 바로 자리로 돌아와 주고.",
 			typewriter = {
@@ -658,7 +658,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -678,7 +678,7 @@ return {
 			actor = 201010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "잘 들어, 지휘관이 문을 열고 들어오는 그 순간에, 가장 열렬하게 환영을 해주는 거야……",
 			typewriter = {
@@ -696,7 +696,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 201010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼, 각자 위치로…뮤직, 스타트!",
 			typewriter = {
 				speed = 0.05,

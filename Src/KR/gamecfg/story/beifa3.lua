@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"귀여운 꼬마 메이드\n\n<size=30>제3장 - 자매?</size>",
+					"귀여운 꼬마 메이드\n\n<size=45>제3장 - 자매?</size>",
 					1
 				}
 			}
@@ -30,14 +30,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "그리고, 열광선이 발사된 성정 큐브가 세상에냥, 번~쩍~하고 빛난 거다냥!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -53,7 +53,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -145,11 +145,11 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 벨파스트 언니도 오셨네요.",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.3,
 					number = 1,
 					type = "shake"
@@ -170,7 +170,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -189,11 +189,11 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저도 있어요! 앗, 꼬마 벨파 안녕~ 언니가 한 번 안아보자~",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
@@ -214,14 +214,14 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에, 에든버러 언니…숨 막혀요……",
 			action = {
 				{
 					y = 0,
 					type = "shake",
 					dur = 0.5,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			},
@@ -239,11 +239,11 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "꺅! 쪼끄매진 벨파 귀여워어어어어!!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
@@ -263,7 +263,7 @@ return {
 			actor = 202120,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……언니, 적당히 해두시죠……",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥! 벨파도 언니한테 안기고 싶은 거야~?",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하, 하아……뭐랄까 삼자매 처럼 보이네…",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -345,7 +345,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -365,7 +365,7 @@ return {
 			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리들은 태어날 때부터 이 모습입니다. 그렇기에 인간 처럼 '어릴 때의 기억' 은 확실히 갖고 있지 않지요.",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 이 아이도 메이드인 이상, 로열 메이드 팀의 리더로서 확실히 교육시킬 생각입니다.",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네! 언니와 어깨를 나란히 할 수 있도록 힘낼게요!",
 			typewriter = {
@@ -413,7 +413,7 @@ return {
 			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "음! 수고하도록!",
 			typewriter = {
@@ -429,7 +429,7 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언니도 꼬마 벨파를 잘 보살펴 줄 테니까~",
 			typewriter = {
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에든버러 언니도 참……",
 			typewriter = {
 				speed = 0.05,

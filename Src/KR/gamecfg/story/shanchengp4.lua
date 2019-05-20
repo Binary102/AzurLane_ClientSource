@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>四 低气压正在接近</size>",
+					"雨后天晴\n\n<size=45>四 低气压正在接近</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			say = "没事……但是殿下……呜呜……",
 			side = 1,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -90,7 +90,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_101",
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "殿下，抽、抽屉里面的东西不能看！……哇！",
 			flashout = {
 				dur = 1,
@@ -168,7 +168,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -222,7 +222,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.7,
 					dur = 0.1,
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_101",
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好了，我打算直接回宿舍了，{namecode:79}和殿下打算怎么办？",
 			flashout = {
 				dur = 1,
@@ -269,7 +269,7 @@ return {
 			say = "啊……我还有点事，晚点再走！殿下能再陪我留一会儿吗？",
 			side = 1,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -315,7 +315,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

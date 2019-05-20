@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>제6 구축함대의 일상 - 상</size>",
+					"닌자의 길\n\n<size=45>제6 구축함대의 일상 - 상</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			actor = 301120,
@@ -58,7 +58,7 @@ return {
 				{
 					actor = 301110,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -75,7 +75,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이카즈치와 이나즈마? 어찌하여 여기에?",
 			typewriter = {
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -117,7 +117,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이나즈마, 고마워!",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저기…아카츠키, 지휘관에게 폐 끼치거나 한 거 없어? 아카츠키가 걱정되서 이나즈마랑 같이 왔어!",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "비서함을 맡은 첫날에 길을 잃었다고 들어서 말이죠.",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으윽……",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -191,7 +191,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고, 저번에 다과회를 열었을 때, 아카츠키는 히비키를 찾아 오겠소~ 막 이러면서 메모 남기곤 뛰쳐나갔잖아?",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그, 그 얘기는……!",
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -233,7 +233,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그 후 왜인지 텐트를 친 아카츠키와 백곰의 단체 사진이 보내졌었죠. 백곰…귀여웠는데…",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나! 이게 말로만 듣던 '방향치' 라는 거구나!",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞아맞아! 저번에도 저번에도 아카츠키가 다 같이 연습전 나갔을 때는……",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이카즈치, 슬슬 돌아가도록 하죠.",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엥? 그치만 지금……",
 			typewriter = {
@@ -313,7 +313,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "선물도 전하였으니, 빨리 돌아가는 게 좋을 것 같습니다. 아카츠키 언니와 지휘관의 방해를 하면 좋지 않으니.",
 			typewriter = {
@@ -329,7 +329,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나! 그럼 아카츠키, 지휘관, 이카즈치랑 이나즈마는 먼저 돌아갈게! 바이바이!",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "살았다……",
 			typewriter = {
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "크, 크흠! 지휘관 나으리, 들으셨소! 소인의 한심한 모습을 보여드려 실로 유감이오……",
 			typewriter = {
 				speed = 0.05,
@@ -388,7 +388,7 @@ return {
 					type = "shake",
 					delay = 0.4,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "소인의 닌자 이름에 맹세컨데, 두번 다신 길을 잃거나 어두운 곳을 무서워하지 않겠소! 자신의 약점을 반드시 극복하여 보이겠소!",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오, 오오오! 왠지 불타오르군! 지휘관 나리, 지금의 소인이라면 어떤 일이라도 다 할 수 있을 것 같소!",
 			effects = {
 				{

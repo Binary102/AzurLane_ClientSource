@@ -18,14 +18,11 @@ function slot0.init(slot0)
 	slot0.refreshBtn = slot0:findTF("add_panel/center/refresh")
 	slot0.searchBtn = slot0:findTF("add_panel/center/search")
 	slot0.searchBar = slot0:findTF("add_panel/center/search_bar"):GetComponent(typeof(InputField))
-	slot0.backBtn = slot0:findTF("top/back")
+	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
 	slot0.sortBtn = slot0:findTF("add_panel/center/sort_button")
-	slot0.sortBtnContainer = slot0:findTF("add_panel/sort_panel/mask/panel")
-	slot0.sortBtnTpl = slot0:getTpl("add_panel/sort_panel/mask/panel/tpl")
+	slot0.sortBtnContainer = slot0:findTF("add_panel/sort_panel/mask/content")
+	slot0.sortBtnTpl = slot0:getTpl("add_panel/sort_panel/mask/content/tpl")
 	slot0.sortPanel = slot0:findTF("add_panel/sort_panel")
-	slot0.redScrollBar = slot0:findTF("add_panel/view/red_scrollbar"):GetComponent(typeof(Scrollbar))
-	slot0.yellowScrollBar = slot0:findTF("add_panel/view/yellow_scrollbar"):GetComponent(typeof(Scrollbar))
-	slot0.blueScrollBar = slot0:findTF("add_panel/view/blue_scrollbar"):GetComponent(typeof(Scrollbar))
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	setText(slot0:findTF("tip"), slot0)
@@ -150,29 +147,40 @@ function slot0.createGuildCard(slot0, slot1)
 	return {
 		go = slot1,
 		tf = tf(slot1),
-		nameTF = ()["tf"]:Find("name"):GetComponent(typeof(Text)),
-		lvTF = ()["tf"]:Find("lv/Text"):GetComponent(typeof(Text)),
-		countTF = ()["tf"]:Find("count_container/count"):GetComponent(typeof(Text)),
-		applyBtn = ()["tf"]:Find("apply_btn"),
-		flagName = ()["tf"]:Find("container/name"):GetComponent(typeof(Text)),
-		policy = ()["tf"]:Find("container/policy"):GetComponent(typeof(Text)),
-		frameTF = ()["tf"]:Find("icon_frame"):GetComponent(typeof(Image)),
-		iconTF = ()["tf"]:Find("icon_frame/icon"):GetComponent(typeof(Image)),
-		bg = ()["tf"]:GetComponent(typeof(Image)),
+		nameTF = ()["tf"]:Find("bg/name_bg/Text"):GetComponent(typeof(Text)),
+		lvTF = ()["tf"]:Find("bg/level/Text"):GetComponent(typeof(Text)),
+		lvLabelTF = ()["tf"]:Find("bg/level"):GetComponent(typeof(Text)),
+		countTF = ()["tf"]:Find("bg/count/Text"):GetComponent(typeof(Text)),
+		applyBtn = ()["tf"]:Find("bg/apply_btn"),
+		flagName = ()["tf"]:Find("bg/info/name"):GetComponent(typeof(Text)),
+		flagLabel = ()["tf"]:Find("bg/info/label1"):GetComponent(typeof(Text)),
+		policy = ()["tf"]:Find("bg/info/policy"):GetComponent(typeof(Text)),
+		policyLabel = ()["tf"]:Find("bg/info/label2"):GetComponent(typeof(Text)),
+		iconTF = ()["tf"]:Find("bg/icon"):GetComponent(typeof(Image)),
+		nameBG = ()["tf"]:Find("bg/name_bg"):GetComponent(typeof(Image)),
+		print = ()["tf"]:Find("bg/print"):GetComponent(typeof(Image)),
+		bg = ()["tf"]:Find("bg"):GetComponent(typeof(Image)),
 		applyBg = ()["applyBtn"]:GetComponent(typeof(Image)),
+		colorRed = Color(0.7529411764705882, 0.4392156862745098, 0.4627450980392157),
+		colorBlue = Color(0.6274509803921569, 0.7058823529411765, 0.9764705882352941),
 		update = function (slot0, slot1)
 			if not slot1 then
 				return
 			end
 
 			slot2 = JoinGuildLayer.getTheme(slot1:getFaction())
-			slot0.frameTF.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot2 .. "_icon_frame")
-			slot0.iconTF.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot2 .. "_icon")
-			slot0.bg.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot2 .. "_frame")
-			slot0.applyBg.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", slot2 .. "_apply")
+			slot0.bg.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", "bar_" .. slot2)
+			slot0.applyBg.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", "apply_" .. slot2)
+			slot0.iconTF.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", "icon_" .. slot2)
+			slot0.nameBG.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", "name_" .. slot2)
+			slot0.print.sprite = GetSpriteFromAtlas("ui/JoinGuildUI_atlas", "bar_bg_" .. slot2)
+			slot0.lvTF.color = (slot2 == "red" and slot0.colorRed) or slot0.colorBlue
+			slot0.lvLabelTF.color = (slot2 == "red" and slot0.colorRed) or slot0.colorBlue
+			slot0.flagLabel.color = (slot2 == "red" and slot0.colorRed) or slot0.colorBlue
+			slot0.policyLabel.color = (slot2 == "red" and slot0.colorRed) or slot0.colorBlue
 			slot0.guildVO = slot1
 			slot0.nameTF.text = slot1:getName()
-			slot0.lvTF.text = slot1.level
+			slot0.lvTF.text = (slot1.level < 9 and "0" .. slot1.level) or slot1.level
 			slot0.countTF.text = slot1.memberCount .. "/" .. slot1:getMaxMember()
 			slot0.flagName.text = slot1:getCommader().name
 			slot0.policy.text = slot1:getPolicyName()
@@ -235,23 +243,12 @@ end
 
 function slot0.filter(slot0, slot1)
 	slot0.sortVOs = {}
-
-	setActive(slot0.redScrollBar.gameObject, slot3)
-	setActive(slot0.blueScrollBar.gameObject, _.all(slot0.sortVOs, function (slot0)
-		return slot0:getFaction() == Guild.FACTION_TYPE_BLHX
-	end))
-	setActive(slot0.yellowScrollBar.gameObject, not _.all(slot0.sortVOs, function (slot0)
+	slot3 = _.all(slot0.sortVOs, function (slot0)
 		return slot0:getFaction() == Guild.FACTION_TYPE_CSZZ
-	end) and not slot4)
-
-	if slot3 then
-		slot0.viewRect.verticalScrollbar = slot0.redScrollBar
-	elseif slot4 then
-		slot0.viewRect.verticalScrollbar = slot0.blueScrollBar
-	else
-		slot0.viewRect.verticalScrollbar = slot0.yellowScrollBar
-	end
-
+	end)
+	slot4 = _.all(slot0.sortVOs, function (slot0)
+		return slot0:getFaction() == Guild.FACTION_TYPE_BLHX
+	end)
 	slot0.contextData.filterData = slot2
 
 	slot0.viewRect:SetTotalCount(#slot0.sortVOs, 0)
@@ -291,18 +288,19 @@ function slot0.showApply(slot0, slot1)
 end
 
 function slot0.initApplyPanel(slot0)
-	slot0.iconTF = findTF(slot0.appPanel, "apply_panel/frame/info_center/icon_contaon/icon"):GetComponent(typeof(Image))
-	slot0.manifesto = findTF(slot0.appPanel, "apply_panel/frame/manifesto"):GetComponent(typeof(Text))
-	slot0.starsTF = findTF(slot0.appPanel, "apply_panel/frame/info_center/icon_contaon/stars")
-	slot0.starTF = findTF(slot0.appPanel, "apply_panel/frame/info_center/icon_contaon/stars/star")
-	slot0.applyBtn = findTF(slot0.appPanel, "apply_panel/frame/confirm_btn")
-	slot0.cancelBtn = findTF(slot0.appPanel, "apply_panel/frame/cancel_btn")
-	slot0.nameTF = findTF(slot0.appPanel, "apply_panel/frame/info_top/name"):GetComponent(typeof(Text))
-	slot0.levelTF = findTF(slot0.appPanel, "apply_panel/frame/info_top/lv/Text"):GetComponent(typeof(Text))
-	slot0.factionTF = findTF(slot0.appPanel, "apply_panel/frame/info_top/faction/Text"):GetComponent(typeof(Text))
-	slot0.countTF = findTF(slot0.appPanel, "apply_panel/frame/info_top/count_container/Text"):GetComponent(typeof(Text))
-	slot0.flagName = findTF(slot0.appPanel, "apply_panel/frame/info_center/name_container/Text"):GetComponent(typeof(Text))
-	slot0.policyTF = findTF(slot0.appPanel, "apply_panel/frame/info_center/policy_container/Text"):GetComponent(typeof(Text))
+	slot0.iconTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/icon"):GetComponent(typeof(Image))
+	slot0.frontNormal = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/frame_common")
+	slot0.frontProp = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/frame_marry")
+	slot0.manifesto = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/Text"):GetComponent(typeof(Text))
+	slot0.starsTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/stars")
+	slot0.starTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/stars/star")
+	slot0.applyBtn = findTF(slot0.appPanel, "panel/frame/confirm_btn")
+	slot0.cancelBtn = findTF(slot0.appPanel, "panel/frame/cancel_btn")
+	slot0.nameTF = findTF(slot0.appPanel, "panel/frame/name"):GetComponent(typeof(Text))
+	slot0.levelTF = findTF(slot0.appPanel, "panel/frame/info/level/Text"):GetComponent(typeof(Text))
+	slot0.countTF = findTF(slot0.appPanel, "panel/frame/info/count/Text"):GetComponent(typeof(Text))
+	slot0.flagName = findTF(slot0.appPanel, "panel/frame/policy_container/name/Text"):GetComponent(typeof(Text))
+	slot0.policyTF = findTF(slot0.appPanel, "panel/frame/policy_container/policy/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.updateApplyPanel(slot0, slot1)
@@ -325,17 +323,19 @@ function slot0.updateApplyPanel(slot0, slot1)
 	end
 
 	slot0.nameTF.text = slot1.name
-	slot0.levelTF.text = slot1.level
-	slot0.factionTF.text = slot1:getFactionName()
+	slot0.levelTF.text = (slot1.level < 9 and "0" .. slot1.level) or slot1.level
 	slot0.countTF.text = slot1.memberCount .. "/" .. slot1:getMaxMember()
 	slot0.flagName.text = slot1:getCommader().name
 	slot0.policyTF.text = slot1:getPolicyName()
 
+	setActive(slot0.frontNormal, false)
+	setActive(slot0.frontProp, false)
 	onButton(slot0, slot0.applyBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowInputBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
 			yesText = "text_confirm",
 			limit = 20,
+			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("guild_request_msg_placeholder"),
 			title = i18n("guild_request_msg_title"),
 			onYes = function (slot0)

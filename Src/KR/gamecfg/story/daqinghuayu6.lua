@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"서브마린 트랩!\n\n<size=30>두 사람의 해변 (하)</size>",
+					"서브마린 트랩!\n\n<size=45>두 사람의 해변 (하)</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "최종 결과는 10승 0패. 후후~내게 이기려면 아직 100년은 이르다고~",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "확실히 좀 지치네……하아……",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 이렇게 마음껏 헤엄쳐본 건 또 오랜만이네.",
 			typewriter = {
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "전엔 언제 이렇게 마음 놓고 헤엄쳐봤더라…",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…기억이 안 나.",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아무튼, 오늘은 지휘관과 함께 놀아서 정말 즐거웠어! 두 번째 약속도 이걸로 오케이야!",
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +194,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응……?",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후, 후후후후, 다, 당연하지! 누가 같이 놀아줬는데!",
 			typewriter = {
 				speed = 0.05,
@@ -226,7 +226,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "나나나나도 참 뭐라는 거야~!!",
 			typewriter = {
 				speed = 0.05,
@@ -266,7 +266,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "몰라! 지휘관 때문에 분위기 이상해졌잖아!!",
 			typewriter = {
 				speed = 0.05,
@@ -293,7 +293,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -316,7 +316,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "받아라! 체인 웨이브 어택!",
 			typewriter = {
@@ -334,7 +334,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하! 이제 도망칠 덴 없다고~!",
 			typewriter = {
 				speed = 0.05,

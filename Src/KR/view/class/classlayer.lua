@@ -22,8 +22,8 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.top = slot0:findTF("top")
-	slot0.btnBack = slot0:findTF("top/back")
+	slot0.top = slot0:findTF("blur_panel/adapt/top")
+	slot0.btnBack = slot0:findTF("back", slot0.top)
 	slot0.desks = _.map({
 		1,
 		2,
@@ -34,20 +34,20 @@ function slot0.init(slot0)
 		return slot0:findTF("scene/desk" .. slot0)
 	end)
 	slot0.teacher = slot0:findTF("scene/teacher")
-	slot0.btnHelp = slot0:findTF("btn_help")
-	slot0.btnUpgrade = slot0:findTF("btn_upgrade")
-	slot0.btnStart = slot0:findTF("btn_start")
-	slot0.btnClass = slot0:findTF("btn_class")
-	slot0.textNums = slot0:findTF("btn_class/Text")
-	slot0.barProficiency = slot0:findTF("stock_bg/bar_exp/bar")
-	slot0.barCurProficiency = slot0:findTF("stock_bg/bar_exp/current")
-	slot0.textProficiency = slot0:findTF("stock_bg/bar_exp/Text")
-	slot0.textStaticSpeed = slot0:findTF("stock_bg/speed2")
-	slot0.textSpeed = slot0:findTF("stock_bg/speed")
-	slot0.textClassOn = slot0:findTF("stock_bg/class_on")
-	slot0.textClassOff = slot0:findTF("stock_bg/class_off")
-	slot0.textDuration = slot0:findTF("stock_bg/duration")
-	slot0.tipProficiency = slot0:findTF("top/proficiency")
+	slot0.btnHelp = slot0:findTF("btn_help", slot0.top)
+	slot0.btnUpgrade = slot0:findTF("scene/bg_room/btn_upgrade")
+	slot0.btnStart = slot0:findTF("scene/bg_room/btn_start")
+	slot0.btnClass = slot0:findTF("scene/bg_room/btn_class")
+	slot0.textNums = slot0:findTF("scene/bg_room/btn_class/Text")
+	slot0.barProficiency = slot0:findTF("scene/bg_room/stock_bg/bar_exp/bar")
+	slot0.barCurProficiency = slot0:findTF("scene/bg_room/stock_bg/bar_exp/current")
+	slot0.textProficiency = slot0:findTF("scene/bg_room/stock_bg/bar_exp/Text")
+	slot0.textStaticSpeed = slot0:findTF("scene/bg_room/stock_bg/speed2")
+	slot0.textSpeed = slot0:findTF("scene/bg_room/stock_bg/speed")
+	slot0.textClassOn = slot0:findTF("scene/bg_room/stock_bg/class_on")
+	slot0.textClassOff = slot0:findTF("scene/bg_room/stock_bg/class_off")
+	slot0.textDuration = slot0:findTF("scene/bg_room/stock_bg/duration")
+	slot0.tipProficiency = slot0:findTF("proficiency", slot0.top)
 	slot0.percentProficiency = slot0:findTF("Text", slot0.tipProficiency)
 	slot0.chatProficiency = slot0:findTF("chat", slot0.tipProficiency)
 	slot0.resourcePanel = slot0:findTF("resource_panel")
@@ -64,17 +64,16 @@ function slot0.didEnter(slot0)
 				content = i18n("course_exit_confirm"),
 				onYes = function ()
 					slot0:emit(ClassMediator.CLASS_CLEAR_STUDENT)
-					slot0.emit:uiExitAnimating()
-					slot0.emit.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
+					slot0.emit:emit(slot1.ON_BACK, nil, 0.3)
 				end
 			})
 		else
-			slot0:uiExitAnimating()
-			slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
+			slot0:emit(slot1.ON_BACK, nil, 0.3)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnHelp, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("course_class_help")
 		})
 	end, SFX_PANEL)
@@ -116,7 +115,7 @@ function slot0.didEnter(slot0)
 		setText(slot0.chatProficiency:Find("Text"), i18n("course_proficiency_tip", pg.gameset.level_get_proficency.key_value, slot0.resClass:getConfig("proficency_get_percent") * slot0.course:getExtraRate()))
 		setActive(slot0.chatProficiency, true)
 		setButtonEnabled(slot0.tipProficiency, false)
-		LeanTween.scale(rtf(slot0.chatProficiency), Vector3(1, 1, 1), 0.3):setFrom(Vector3.zero):setOnComplete(System.Action(function ()
+		LeanTween.scale(rtf(slot0.chatProficiency), Vector3(1.5, 1.5, 1), 0.3):setFrom(Vector3.zero):setOnComplete(System.Action(function ()
 			LeanTween.scale(rtf(slot0.chatProficiency), Vector3(0, 0, 0), 0.2):setDelay(2):setOnComplete(System.Action(function ()
 				if not IsNil(slot0.tipProficiency) then
 					setButtonEnabled(slot0.tipProficiency, true)
@@ -145,17 +144,6 @@ function slot0.didEnter(slot0)
 		PlayerPrefs.Save()
 		triggerButton(slot0.btnHelp)
 	end
-
-	setAnchoredPosition(slot0.top, {
-		y = 84
-	})
-	onNextTick(function ()
-		if slot0.exited then
-			return
-		end
-
-		slot0:uiStartAnimating()
-	end)
 end
 
 function slot0.uiStartAnimating(slot0)
@@ -177,7 +165,7 @@ function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 
 	if isActive(slot0.resourcePanel) then
-		triggerButton(slot0.resourcePanel:Find("btnBack"))
+		triggerButton(slot0.resourcePanel:Find("frame/btnBack"))
 	else
 		triggerButton(slot0.btnBack)
 	end
@@ -185,7 +173,7 @@ end
 
 function slot0.updateMainView(slot0)
 	if slot0.course.getExtraRate(slot1) > 1 then
-		setText(slot0.percentProficiency, "<color=#A9F548>" .. slot0.resClass:getConfig("proficency_get_percent") * slot2 .. "%</color>")
+		setText(slot0.percentProficiency, "<color=#92fc63>" .. slot0.resClass:getConfig("proficency_get_percent") * slot2 .. "%</color>")
 	else
 		setText(slot0.percentProficiency, slot0.resClass:getConfig("proficency_get_percent") .. "%")
 	end
@@ -248,7 +236,7 @@ function slot0.updateMainView(slot0)
 		id = slot1:getConfig("id"),
 		configId = slot1.getConfig("id")
 	}).getPrefab(slot6), function (slot0)
-		slot0.transform.localScale = Vector3(0.5, 0.5, 1)
+		slot0.transform.localScale = Vector3(1, 1, 1)
 
 		slot0:GetComponent("SpineAnimUI"):SetAction("stand2", 0)
 	end)
@@ -278,7 +266,7 @@ function slot0.updateMainView(slot0)
 		end
 
 		slot0:updateShipModel(slot14, slot16 and slot16:getPrefab(), function (slot0)
-			slot0.transform.localScale = Vector3(-0.5, 0.5, 1)
+			slot0.transform.localScale = Vector3(-0.8, 0.8, 1)
 
 			slot0:GetComponent("SpineAnimUI"):SetAction("sit", 0)
 		end)
@@ -322,7 +310,7 @@ function slot0.updateEffect(slot0)
 	end
 
 	setText(slot0.textDuration, pg.TimeMgr.GetInstance():DescCDTime(math.min(slot5, AcademyCourse.MaxStudyTime)))
-	setText(slot0.textProficiency, slot1.proficiency .. "<color=#A9F548>(-" .. slot2 .. ")</color>/" .. slot0.resClass:getConfig("store"))
+	setText(slot0.textProficiency, slot1.proficiency .. "<color=#92fc63>(-" .. slot2 .. ")</color>/" .. slot0.resClass:getConfig("store"))
 
 	slot0.barProficiency:GetComponent(typeof(Image)).fillAmount = slot1.proficiency / slot0.resClass:getConfig("store")
 	slot0.barCurProficiency:GetComponent(typeof(Image)).fillAmount = math.max(slot1.proficiency - slot2, 0) / slot0.resClass:getConfig("store")
@@ -390,58 +378,55 @@ function slot0.updateResourcePanel(slot0)
 	blinkAni(go(slot3), 0.8)
 
 	slot5 = slot0.resClass.bindConfigTable(slot4)
-	slot7 = slot0.resourcePanel:Find("upgrading_block")
-	slot8 = slot0.resourcePanel:Find("upgrade_btn").Find(slot6, "cost")
-	slot9 = slot0.resourcePanel:Find("upgrade_duration/Text")
-	slot10 = slot0.resourcePanel:Find("store")
-	slot11 = slot0.resourcePanel:Find("rate")
-	slot12 = slot0.resourcePanel:Find("exp")
-	slot13 = slot0.resourcePanel:Find("bg/title/lv/current")
-	slot14 = slot0.resourcePanel:Find("bg/title/lv/next")
-	slot15 = slot0.resourcePanel:Find("btnBack")
-	slot16 = slot0.resourcePanel:Find("mengban")
+	slot6 = slot0.resourcePanel:Find("frame/content/upgrade_btn")
+	slot7 = slot0.resourcePanel:Find("frame/content/upgrading_block")
+	slot8 = slot6:Find("Image")
+	slot9 = slot6:Find("cost")
+	slot10 = slot0.resourcePanel:Find("frame/upgrade_duration/Text")
+	slot11 = slot0.resourcePanel:Find("frame/content/info/store")
+	slot12 = slot0.resourcePanel:Find("frame/content/info/rate")
+	slot13 = slot0.resourcePanel:Find("frame/content/info/exp")
+	slot14 = slot0.resourcePanel:Find("frame/content/info/level/curr")
+	slot15 = slot0.resourcePanel:Find("frame/content/info/level/next")
+	slot16 = slot0.resourcePanel:Find("frame/btnBack")
+	slot17 = slot0.resourcePanel:Find("mengban")
 
-	setActive(slot0.resourcePanel:Find("icon/" .. slot0.resClass.GetKeyWord(slot4)), true)
-	setText(slot0.resourcePanel:Find("icon/" .. slot0.resClass.GetKeyWord(slot4) .. "/current"), "Lv." .. slot0.resClass.GetLevel(slot4))
-	eachChild(slot0.resourcePanel:Find("describe"), function (slot0)
-		setActive(slot0, false)
-
-		return
-	end)
-	setActive(slot17, true)
-	setText(slot17, i18n("naval_academy_res_desc_class"))
+	setText(slot0.resourcePanel:Find("frame/title/icon/current"), "Lv." .. slot0.resClass:GetLevel())
 
 	slot20 = slot5[slot0.resClass.GetLevel(slot4)]
 	slot21 = slot5[slot5.all[#slot5.all]]
 
 	if slot0.resClass.GetLevel(slot4) == slot5.all[#slot5.all] then
+		setActive(slot8, true)
 		setActive(slot7, false)
 		setButtonEnabled(slot6, false)
-		setText(slot8, "-")
 		setText(slot9, "-")
-		setText(slot13, "Lv.Max")
-		setText(slot14, "> -")
-		slot0:setBar(slot10, slot20.store, 0, slot21.store)
-		slot0:setBar(slot11, slot20.proficency_get_percent, 0, slot21.proficency_get_percent, "%")
-		slot0:setBar(slot12, slot20.proficency_cost_per_min * 60, 0, slot21.proficency_cost_per_min * 60, "/h")
+		setText(slot10, "-")
+		setText(slot14, "Lv.Max")
+		setText(slot15, "-")
+		slot0:setBar(slot11, slot20.store, 0, slot21.store)
+		slot0:setBar(slot12, slot20.proficency_get_percent, 0, slot21.proficency_get_percent, "%")
+		slot0:setBar(slot13, slot20.proficency_cost_per_min * 60, 0, slot21.proficency_cost_per_min * 60, "/h")
 	else
-		slot0:setBar(slot10, slot20.store, slot23, slot21.store)
-		slot0:setBar(slot11, slot20.proficency_get_percent, slot24, slot21.proficency_get_percent, "%")
-		slot0:setBar(slot12, slot20.proficency_cost_per_min * 60, (slot5[slot18 + 1].proficency_cost_per_min - slot20.proficency_cost_per_min) * 60, slot21.proficency_cost_per_min * 60, "/h")
-		setText(slot8, (slot20.use[2] <= slot0.playerVO.gold and slot20.use[2]) or "<color=#FB4A2C>" .. slot20.use[2] .. "</color>")
-		setText(slot13, "Lv." .. slot18)
-		setText(slot14, "> Lv." .. slot18 + 1)
+		slot0:setBar(slot11, slot20.store, slot23, slot21.store)
+		slot0:setBar(slot12, slot20.proficency_get_percent, slot24, slot21.proficency_get_percent, "%")
+		slot0:setBar(slot13, slot20.proficency_cost_per_min * 60, (slot5[slot18 + 1].proficency_cost_per_min - slot20.proficency_cost_per_min) * 60, slot21.proficency_cost_per_min * 60, "/h")
+		setText(slot9, (slot20.use[2] <= slot0.playerVO.gold and slot20.use[2]) or "<color=#FB4A2C>" .. slot20.use[2] .. "</color>")
+		setText(slot14, "Lv." .. slot18)
+		setText(slot15, "Lv." .. slot18 + 1)
 
 		if slot4:GetUpgradeTimeStamp() == 0 then
 			setActive(slot7, false)
-			setText(slot9, pg.TimeMgr.GetInstance():DescCDTime(slot20.time))
+			setText(slot10, pg.TimeMgr.GetInstance():DescCDTime(slot20.time))
 			setButtonEnabled(slot6, true)
+			setActive(slot8, true)
 			onButton(slot0, slot6, function ()
 				slot0:emit(ClassMediator.CLASS_UPGRADE, slot0)
 
 				return
 			end, SFX_UI_ACADEMY_LVLUP)
 		else
+			setActive(slot8, false)
 			setActive(slot7, true)
 			setButtonEnabled(slot6, false)
 
@@ -455,8 +440,8 @@ function slot0.updateResourcePanel(slot0)
 		end
 	end
 
-	onButton(slot0, slot16, slot22, SFX_CANCEL)
-	onButton(slot0, slot15, function ()
+	onButton(slot0, slot17, slot22, SFX_CANCEL)
+	onButton(slot0, slot16, function ()
 		slot0:onCloseRsourcePanel()
 		setActive(slot0.resourcePanel, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.resourcePanel, slot0._tf)
@@ -485,15 +470,15 @@ function slot0.setBar(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.setSliderValue(slot0, slot1, slot2)
-	slot1.value = (slot2 == 0 and slot2) or math.max(slot2, 0.08)
+	setFillAmount(slot1, (slot2 == 0 and slot2) or math.max(slot2, 0.08))
 
 	return
 end
 
 function slot0.onCloseRsourcePanel(slot0)
-	LeanTween.cancel(go(slot0.resourcePanel:Find("store/pre_value/fill_area/value")))
-	LeanTween.cancel(go(slot0.resourcePanel:Find("rate/pre_value/fill_area/value")))
-	LeanTween.cancel(go(slot0.resourcePanel:Find("exp/pre_value/fill_area/value")))
+	LeanTween.cancel(go(slot0.resourcePanel:Find("frame/content/info/store/prev")))
+	LeanTween.cancel(go(slot0.resourcePanel:Find("frame/content/info/rate/prev")))
+	LeanTween.cancel(go(slot0.resourcePanel:Find("frame/content/info/exp/prev")))
 
 	if slot0.resTickTimer then
 		pg.TimeMgr:GetInstance():RemoveTimer(slot0.resTickTimer)

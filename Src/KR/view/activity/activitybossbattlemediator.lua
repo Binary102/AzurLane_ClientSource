@@ -6,7 +6,7 @@ slot0.ON_RANK = "ActivityBossBattleMediator:ON_RANK"
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_RANK, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
-			index = BillboardLayer.PAGE_BOSS_BATTLE
+			index = PowerRank.TYPE_ACT_BOSS_BATTLE
 		})
 	end)
 	slot0:bind(slot0.ON_GET, function (slot0, slot1)

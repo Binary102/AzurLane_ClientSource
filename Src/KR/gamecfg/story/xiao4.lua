@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>제6 구축함대의 일상 - 하</size>",
+					"닌자의 길\n\n<size=45>제6 구축함대의 일상 - 하</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "호잇!",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어라라?! 당했군!",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……엥?",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관과 협력하여도 이카즈치를 이기지 못하다니…… 소, 소인이 이 게임을 제대로 알지 못할 뿐이오!",
 			typewriter = {
@@ -231,7 +231,7 @@ return {
 			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후후, 이 이카즈치님의 '슈퍼 플레이', 잘 보았느냐!",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아…… 그렇구나! 게임은 재밌구나!",
 			flashout = {
 				dur = 0.4,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -310,7 +310,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "히비키도 있었으면……(작은 목소리로)",
 			typewriter = {
@@ -342,7 +342,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카츠키 언니?",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 아무것도 아니야! 잠깐 딴생각을……",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "또 히비키 언니 때문에?",
 			typewriter = {
@@ -391,7 +391,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "괜찮아요. 모르는 편이 좋을 때도 있다고 이나즈마는 생각해요. 지휘관 씨도 그렇게 생각 안 하세요?",
 			typewriter = {
 				speed = 0.05,
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그런가? ……좀 지쳤으니, 먼저 돌아갈게……",
 			typewriter = {
 				speed = 0.05,
@@ -427,7 +427,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			}
@@ -436,7 +436,7 @@ return {
 			actor = 301110,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무슨 일이에요?",
 			typewriter = {

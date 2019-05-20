@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름 바람의 십자성\n\n<size=30>제6장 - 증인</size>",
+					"여름 바람의 십자성\n\n<size=45>제6장 - 증인</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그·러·니·까! 진짜로 막 돌아왔는데, 무슨 일인지 옷이 방안에 널브러져 있어서…… 그걸 정리하려고 했던 것뿐이라고!",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 201090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201101,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -140,7 +140,7 @@ return {
 		},
 		{
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -204,7 +204,7 @@ return {
 		},
 		{
 			actor = 201230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 		},
 		{
 			actor = 201090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 		},
 		{
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
 			actor = 201101,
@@ -277,14 +277,14 @@ return {
 			say = "에에에?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 207020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

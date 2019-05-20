@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"센토와 선배님들\n\n<size=30>너무 진지한 센토</size>",
+					"센토와 선배님들\n\n<size=45>너무 진지한 센토</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 204030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님, 안녕하신지요. 센토와 함께 순찰 중이신가요?",
 			typewriter = {
@@ -78,7 +78,7 @@ return {
 			say = "후드 선배님, 좋은 아침입니다! 말씀하시는대로, 지금 지휘관님과 함께 순찰 중입니다.",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -96,7 +96,7 @@ return {
 			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 예의 바른 후배네요. 하지만 그렇게 굳어있지 않아도 된답니다. 여기 있는 건 모두 동료인걸요.",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			actor = 206040,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "알고 있습니다. 하지만, 제게 있어 함대에 계신 분들은 모두 존경해야 할 선배들이니까요.",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후훗, 그렇게까지 말씀하신다면, 그렇게 하셔도 좋겠죠.",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			actor = 204030,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내일 다과회는 참가하시나요?",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네, 후드 선배님! 꼭 참가하도록 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지히간, 저기, 누구였더라……사탕 줄게~",
 			flashout = {
 				dur = 0.5,
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -250,7 +250,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "네! 무츠키 선배님, 키사라기 선배님, 로열 네이비의 센토라고 합니다.",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에에에?! 키사라기랑 무츠키가 서, 선배……?",
 			typewriter = {
 				speed = 0.05,
@@ -295,7 +295,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -328,7 +328,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "와아! 무츠키, 선배라 불린 거 처음이야!",
 			typewriter = {
@@ -344,7 +344,7 @@ return {
 			actor = 301330,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무츠키, 안돼……항공모함 언니한테 선배라니……",
 			typewriter = {
@@ -360,7 +360,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜찮아! 키사라기도 안심하고 선배라 불려도 돼!",
 			typewriter = {
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네, 신경쓰실 거 없습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

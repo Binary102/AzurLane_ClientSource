@@ -6,7 +6,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "SP3·引导剧情…",
 			shake = {
 				speed = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "需要帮助一名联动NPC作战",
 			shake = {
 				speed = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "击败与NPC相邻的带有剧情标志的敌人,即可帮助对应NPC",
 			shake = {
 				speed = 1,
@@ -60,7 +60,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			shake = {
 				speed = 1,

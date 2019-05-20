@@ -4,7 +4,7 @@ return {
 	scripts = {
 		{
 			actor = 900007,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "전 함선, 공격 목표를 최후미의 함으로! 저자가 바로 비스마르크다!",
 			shake = {
@@ -40,7 +40,7 @@ return {
 		},
 		{
 			actor = 900007,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "안타깝지만, 사람 잘못 봤군. 나는 프린스 오브 웨일즈다.",
 			shake = {

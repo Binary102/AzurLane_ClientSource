@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>五  今天料理我负责！</size>",
+					"幸运之鹤\n\n<size=45>五  今天料理我负责！</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哼哼♪今天赢了灰色幽灵♪",
 			typewriter = {
 				speed = 0.05,

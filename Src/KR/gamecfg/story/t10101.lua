@@ -83,7 +83,7 @@ return {
 			actor = 106010,
 			side = 0,
 			say = "지휘관, 공중 지원이 준비되고 있어~ 그때까지 호넷 씨의 공격을 지연시켜줘~ 부탁해~",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

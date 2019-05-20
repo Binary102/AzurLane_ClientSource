@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"귀여운 꼬마 메이드\n\n<size=30>제1장 - 조그만 방문자?</size>",
+					"귀여운 꼬마 메이드\n\n<size=45>제1장 - 조그만 방문자?</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -64,14 +64,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 202180,
 			actorName = "？？？",
 			say = "좋아! 아카시 씨가 말한 '지휘관' 에게 보고하러 가볼까요!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "폐하, 지휘관에게 건넬 자료는 이상이십니까?",
 			flashout = {
 				dur = 1,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -143,7 +143,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥! 하인 주제에 내게 자료를 전하라니, 정말이지…어라?",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -179,13 +179,13 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "벨파스트?",
 			subActors = {
 				{
 					actor = 205010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -239,7 +239,7 @@ return {
 			actor = 205020,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "대체 어떻게 된 일이지…?!",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 202180,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에…벨파스트는 작아지지 않았답니다?",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -308,7 +308,7 @@ return {
 			actor = 205010,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시?! 이건 대체 무슨 일이야!",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,

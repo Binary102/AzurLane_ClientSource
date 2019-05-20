@@ -3,9 +3,6 @@ slot1 = ys.Battle.BattleConst.WaveTriggerType
 slot2 = class("BattleWaveUpdater")
 ys.Battle.BattleWaveUpdater = slot2
 slot2.__name = "BattleWaveUpdater"
-slot2.STATE_DEACTIVE = "STATE_DEACTIVE"
-slot2.STATE_ACITVE = "STATE_ACTIVE"
-slot2.STATE_PASS = "STATE_PASS"
 slot2.PREWAVES_CONDITION_AND = 0
 slot2.PREWAVES_CONDITION_OR = 1
 
@@ -76,6 +73,12 @@ function slot2.SetWavesData(slot0, slot1)
 				slot12:AppendPostWave(slot6)
 			end
 		end
+
+		for slot10, slot11 in pairs(slot6:GetBranchWaveIDs()) do
+			if slot0._waveInfoList[slot10] then
+				slot6:AppendBranchWave(slot12)
+			end
+		end
 	end
 end
 
@@ -84,7 +87,7 @@ function slot2.Start(slot0)
 
 	for slot4, slot5 in pairs(slot0._waveInfoList) do
 		if slot5:IsReady() then
-			slot5:DoWave()
+			slot5:DoBranch()
 		end
 	end
 end
@@ -114,14 +117,14 @@ function slot2.onWaveFinish(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot3) do
 		if slot8:IsReady() and slot8:GetState() == slot8.STATE_DEACTIVE then
-			slot8:DoWave()
+			slot8:DoBranch()
 		end
 	end
 end
 
 function slot2.CheckAllKeyWave(slot0)
 	for slot4, slot5 in ipairs(slot0._keyList) do
-		if slot5:GetState() ~= slot5.STATE_PASS then
+		if not slot5:IsFinish() then
 			return false
 		end
 	end
@@ -150,7 +153,7 @@ function slot2.GetUnfinishedWaveCount(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
-		if slot6.state ~= slot0.STATE_PASS then
+		if not slot6:IsFinish() then
 			slot1 = slot1 + 1
 		end
 	end

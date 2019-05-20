@@ -54,7 +54,14 @@ slot18 = ({
 			z = slot0.z
 		}, slot0)
 	end,
-	CloneTo = function (slot0, slot1)
+	Copy = function (slot0, slot1)
+		slot0.x = slot1.x
+		slot0.y = slot1.y
+		slot0.z = slot1.z
+
+		return slot0
+	end,
+	Copy2 = function (slot0, slot1)
 		if slot1 then
 			slot1.x = slot0.x
 			slot1.y = slot0.y
@@ -204,12 +211,17 @@ slot18 = ({
 		slot0.z = slot0.x * slot1.y - slot0.y * slot1.x
 		slot0.y = slot0.z * slot1.x - slot0.x * slot1.z
 		slot0.x = slot0.y * slot1.z - slot0.z * slot1.y
+
+		return slot0
 	end,
 	Cross = function (slot0, slot1)
 		return slot0(slot0.y * slot1.z - slot0.z * slot1.y, slot0.z * slot1.x - slot0.x * slot1.z, slot0.x * slot1.y - slot0.y * slot1.x)
 	end,
 	Equals = function (slot0, slot1)
 		return slot0.x == slot1.x and slot0.y == slot1.y and slot0.z == slot1.z
+	end,
+	EqualZero = function (slot0)
+		return slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z < 1e-10
 	end,
 	Reflect = function (slot0, slot1)
 		slot1 * -2 * slot0(slot1, slot0):Add(slot0)

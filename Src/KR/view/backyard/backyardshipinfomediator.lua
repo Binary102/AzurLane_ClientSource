@@ -100,7 +100,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+	slot20 = {
 		callbackQuit = true,
 		activeShipId = slot6,
 		selectedMin = slot7,
@@ -139,6 +139,17 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 					return false, i18n("course_energy_not_enough", slot0:getName())
 				end
 
+				if slot0.inBackyard then
+					function onCalcBackYardExp(slot0)
+						pg.MsgboxMgr:GetInstance():ShowMsgBox({
+							hideNo = true,
+							content = i18n("exit_backyard_exp_display", slot0:getName(), slot0)
+						})
+
+						onCalcBackYardExp = nil
+					end
+				end
+
 				slot3 = "inClass"
 			end
 
@@ -147,7 +158,10 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 			if slot4 == Ship.STATE_CHANGE_FAIL then
 				return false, i18n(slot5)
 			elseif slot4 == Ship.STATE_CHANGE_CHECK then
-				return Ship.ChangeStateCheckBox(slot5, slot0, slot1)
+				return Ship.ChangeStateCheckBox(slot5, slot0, function (slot0)
+					onCalcBackYardExp(slot0)
+					slot0()
+				end)
 			end
 
 			return true
@@ -222,13 +236,29 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 				slot1()
 			end
 		end
-	})
+	}
+
+	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+		slot20.isLayer = true
+
+		slot0:addSubLayers(Context.New({
+			viewComponent = DockyardScene,
+			mediator = DockyardMediator,
+			data = slot20
+		}))
+	else
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, slot20)
+	end
 end
 
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.EXTEND_BACKYARD_DONE,
-		DormProxy.DORM_UPDATEED
+		DormProxy.DORM_UPDATEED,
+		GAME.ADD_SHIP_DONE,
+		GAME.EXIT_SHIP_DONE,
+		PlayerProxy.UPDATED,
+		GAME.REMOVE_LAYERS
 	}
 end
 
@@ -236,10 +266,17 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then
-		slot0.viewComponent:openLockPos()
 		pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardShipInfoMediator_ok_unlock"))
+		slot0.viewComponent:updateSlots()
 	elseif slot2 == DormProxy.DORM_UPDATEED then
 		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())
+	elseif slot2 == PlayerProxy.UPDATED then
+		slot0.viewComponent:setPlayerVO(slot3)
+	elseif slot2 == GAME.REMOVE_LAYERS and slot3.context.mediator == DockyardMediator then
+		slot0.viewComponent:blurPanel()
+		slot0.viewComponent:setTrainShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
+		slot0.viewComponent:setResetShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_REST))
+		slot0.viewComponent:updateSlots()
 	end
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"한여름의 사수자리\n\n<size=30>여름은 언제나처럼?</size>",
+					"한여름의 사수자리\n\n<size=45>여름은 언제나처럼?</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기가 바로 함선 전용 해수욕장이군요……",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "수평선에 한없이 펼쳐지는 푸른 바다, 밟으면 마음이 편안해지는 백사장……정말로 좋은 장소에요.",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "재블린 선배는……",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 센토! 여기 여기~!",
 			typewriter = {
 				speed = 0.05,
@@ -112,7 +112,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -128,7 +128,7 @@ return {
 			say = "재블린 선배, 좋은 아침입니다! 오늘 잘 부탁드려요!",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,7 +146,7 @@ return {
 			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(꺄야~ 내가 선배라 불리게 될 날이 올 줄이야~) 좋은 아침!",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……너무 그렇게 깍듯이 안 해도 돼! 지휘관은 나중에 쉴 수 있도록 지금 열심히 일하고 있으니까, 내가 안내해줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네!",
 			typewriter = {
 				speed = 0.05,
@@ -205,7 +205,7 @@ return {
 			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 걸으면서 설명해줄게.",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -244,7 +244,7 @@ return {
 			actor = 201210,
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -253,7 +253,7 @@ return {
 				{
 					actor = 307020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -272,7 +272,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으음, 저분인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "올해도 지휘관님을 노리는 해충이 많네……후후후, 이 아카기, 생각한 대로 되도록 놔두진 않겠어…",
 			flashout = {
 				dur = 0.2,
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -350,7 +350,7 @@ return {
 			actor = 307010,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후, 후후후, 후후후후후후……이거, 한 번 더 ‘청소’ 를 해야겠군……",
 			typewriter = {
@@ -366,7 +366,7 @@ return {
 			actor = 303120,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 대청소? 나도 좀 도와줘도 될까?",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "사, 사쿠라 엠파이어의 모두는 여전히 사이가 좋네요!",
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -411,7 +411,7 @@ return {
 			say = "정말 괜찮은 거 맞죠……?",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -429,7 +429,7 @@ return {
 			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜찮지 않을까? 아마도……",
 			typewriter = {
@@ -447,7 +447,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇군요, 서, 선배님들께선 다들 기운이 넘치시네요!",
 			typewriter = {
 				speed = 0.05,
@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저기 있는 건……타카오 선배님?",
 			flashout = {
 				dur = 1,
@@ -497,13 +497,13 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "타카오 씨는……아마 수행 중인 것 같네. ‘눈 가리고 수박을 부수기 직전에 멈추기’ 를 한다나 뭐라나. 수박이 부서지면 다 같이 먹을 수도 있으니까 일거양득일지도!",
 			subActors = {
 				{
 					actor = 303110,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -522,7 +522,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "확실히 괜찮은 생각이네요……",
 			typewriter = {
 				speed = 0.05,
@@ -539,7 +539,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "앗, 수박 깨졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -556,7 +556,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -575,7 +575,7 @@ return {
 			bgName = "star_level_bg_106",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠깐 수박 갖고 올게~",
 			typewriter = {
 				speed = 0.05,
@@ -587,7 +587,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -600,7 +600,7 @@ return {
 			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞다, 수박은 사령부에서 원 없이 지원해주니까 안심하고 먹어도 돼! 덕분에 사쿠라 엠파이어의 모두도 늘 즐거워한다나 봐!",
 			typewriter = {
@@ -619,7 +619,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 206040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그건 정말 다행이네요, 재블린 선배님!",
 			typewriter = {
 				speed = 0.05,

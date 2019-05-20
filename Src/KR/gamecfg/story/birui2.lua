@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"의전함의 연회\n\n<size=30>초대는 격식을 갖춰서</size>",
+					"의전함의 연회\n\n<size=45>초대는 격식을 갖춰서</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "제 기분이 좋아…보인다고요? 그 이유가 궁금하신 건가요?",
 			flashout = {
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋은 일이라도 있었느냐고요…? 그렇긴 하지만…역시 지휘관님께선 기억하지 못하고 계시는군요. 실은……",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			actor = 304010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "히에이, 겨우 찾았군요. 미안해요, 오늘은 히에이가 비서함 담당이란 걸 깜빡해서……크흠! 저번에 부탁한 건 전부 준비해뒀어요.",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,7 +107,7 @@ return {
 			actor = 304010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기대하고 있을게요. 히에이가 주최하는 거라면 절대 실망할 리 없으니까.",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기대하여 주시기 바랍니다.",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			actor = 304010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고 지휘관님, 이것도 받아주시길…사실 집무실에 계시면 직접 말씀드려도 상관없겠지만……",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "죄송합니다, 그건 일종의 격식이라서 말이죠♪",
 			typewriter = {

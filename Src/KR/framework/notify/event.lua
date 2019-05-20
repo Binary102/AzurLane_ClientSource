@@ -349,6 +349,18 @@ end
 
 slot8.disconnect = slot18
 
+function slot18(slot0, slot1)
+	slot2 = slot0
+	slot3 = slot0
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot2 = not slot2
+
+	return slot2
+end
+
+slot8.chectConnect = slot18
+
 function slot18(slot0, slot1, slot2)
 	slot3 = slot0
 	slot4 = slot0

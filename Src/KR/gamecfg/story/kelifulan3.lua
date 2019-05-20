@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>三　赛前集训！</size>",
+					"骑士与奖赏\n\n<size=45>三　赛前集训！</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actorScale = 0.6,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哈……哈……对不起我来晚了！",
 			effects = {
 				{
@@ -51,7 +51,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -68,7 +68,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -85,7 +85,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -113,7 +113,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "呼……抱歉！在港区出了点事！啊，指挥官，谢谢你的水！",
 			typewriter = {
@@ -130,25 +130,25 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "咕嘟咕嘟…哈！其实是刚才过来的路上——",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "诶诶！圣地亚哥害得宿舍后院里长满了小麦！？……那不是正好可以补贴粮食……",
 			flashout = {
 				dur = 1,
@@ -201,7 +201,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "放着不管的话弗莱彻那些孩子没地方玩！？……后院本来就玩不下那么多人吧！……",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "上次我捐过来的树也被埋起来了！？……捐都捐了埋就埋呗……",
 			typewriter = {
@@ -234,11 +234,11 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "行了行了！大家一起动手收割总行了吧，别再叫我克爹了！",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "所以就给白鹰宿舍帮忙去了……实在抱歉！",
 			flashout = {
 				dur = 1,
@@ -301,7 +301,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "马上开始练习！……啊，等等——各位！海伦娜给我们做了便当哦！等下一起吃吧！",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 102150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 102100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "大姐头太迟钝啦～海伦娜的便当虽然不错，偶尔也想尝尝克利夫兰的手艺啊，是吧指挥官？",
 			typewriter = {
 				speed = 0.05,
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "真，真的吗？那我下次问问海伦娜吧……是因为指挥官想吃我才做的哦！",
 			typewriter = {
 				speed = 0.05,

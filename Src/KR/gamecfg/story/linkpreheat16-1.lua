@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			bgm = "battle-boss-uta",
@@ -24,7 +24,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리를 너무 얕본 너희 잘못 아닐까나?",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		{
 			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저희들은……이래 보여도 줄곧 격전을 뚫고 헤쳐왔던 거에요!",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300030,
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아야나미도……지지 않는, 거에요.",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관과 함께, 당신들의 계획을 저지하기 위해 싸워왔으니까요!",
 			typewriter = {
@@ -99,7 +99,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -115,7 +115,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300040,
@@ -135,7 +135,7 @@ return {
 			say = "당신도 더 이상 전투가 가능한 상태는 아닙니다. 게다가……보십시오.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -152,7 +152,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아무래도……공간이 다시 안정된 것 같네요.",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -183,7 +183,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "네가 미끼에 정신이 팔려있는 동안, 이 거울해역이 사라지도록 아카시가 손을 쓴 거다냥!",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시씨의 작전이 들통나지 않도록 노력한 보람이 있네요.",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -244,7 +244,7 @@ return {
 		},
 		{
 			actor = 900021,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "퓨리파이어",
@@ -261,7 +261,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "두고보자는 사람……한 번 더 무서워……",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "라피, 그 땐 '하나도 안 무섭다더니' 라고 하는 거야.",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말로 한 번 더 오면……그땐 무서울지도 모르는 거에요.",
 			typewriter = {

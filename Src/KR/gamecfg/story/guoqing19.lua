@@ -73,7 +73,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "윽... 기, 기다려! 아직 얘기가────",

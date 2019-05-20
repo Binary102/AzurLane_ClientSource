@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"의전함의 연회\n\n<size=30>계기는 홀연히 다가오는 법</size>",
+					"의전함의 연회\n\n<size=45>계기는 홀연히 다가오는 법</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "기억나셨나요? 저번에 하셨던 말씀……",
 			flashout = {
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			actor = 304040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "주변 해역은…좋아, 이상 없음.",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 304030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -134,7 +134,7 @@ return {
 			actor = 304020,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "평화로운 나날을 소중히 여겨야지요. 전투가 언제 시작될지는 아무도 모르니까요.",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			actor = 304040,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하루나, 그렇게 심심하다면 나와 대련이라도 한 번 해보는 건 어때?",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 304030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아! 덤벼 보라고! 절대로 안 질 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -179,7 +179,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -192,7 +192,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기운 넘치는 건 좋지만…아직 임무가 안 끝났답니다. 하시려면 모항에 돌아가서 해주세요.",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			hideOther = true,
@@ -217,7 +217,7 @@ return {
 				{
 					actor = 304030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -244,7 +244,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……후우. 여기까지네요. 모항으로 귀환할까요.",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "모두들, 수고하셨어요.",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후, 수고라면 지휘관님께서 더 하셨지요……마침 얘기가 나와서 말입니다만,",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "연회를 열어보는 건 어떨까요?",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			actor = 304040,
 			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오! 히에이 씨의 연회!",
 			effects = {
 				{
@@ -329,7 +329,7 @@ return {
 				{
 					actor = 304030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -385,7 +385,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 지휘관님도 참……",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "도와주시러 오신 건 아닌가 하고 내심 기대했는데……",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 		},
 		action = {
 			{
-				y = -50,
+				y = -75,
 				type = "move",
 				delay = 0,
 				dur = 0.3,

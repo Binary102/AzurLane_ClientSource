@@ -170,6 +170,22 @@ pg.AssistantInfo = {
 
 		return false
 	end,
+	filterAssistantEvents = function (slot0, slot1)
+		slot2 = {}
+		slot3 = Ship.getMainwordsCount(slot1)
+
+		for slot7, slot8 in ipairs(slot0) do
+			if string.split(slot10, "_")[1] == "main" then
+				if tonumber(slot11[2]) <= slot3 then
+					table.insert(slot2, slot8)
+				end
+			else
+				table.insert(slot2, slot8)
+			end
+		end
+
+		return slot2
+	end,
 	Expressions = {
 		dunkeerke = {
 			faces = {
@@ -287,20 +303,6 @@ pg.AssistantInfo = {
 				win_mvp = "1",
 				main_3 = "1",
 				feeling1 = "2"
-			}
-		},
-		chuixue_4 = {
-			faces = {
-				feeling1 = "3",
-				mail = "2",
-				login = "2",
-				expedition = "2",
-				home = "1",
-				feeling2 = "2",
-				main_2 = "1",
-				touch = "1",
-				main_3 = "3",
-				detail = "3"
 			}
 		},
 		luodeni_3 = {
@@ -1249,16 +1251,17 @@ pg.AssistantInfo = {
 		},
 		sipeibojue_3 = {
 			faces = {
-				propose = "2",
-				login = "3",
+				mail = "5",
+				login = "1",
 				main_1 = "1",
-				win_mvp = "4",
+				propose = "2",
 				lose = "7",
-				upgrade = "5",
-				home = "4",
+				win_mvp = "4",
+				home = "2",
 				headtouch = "6",
+				touch2 = "2",
 				battle = "1",
-				main_2 = "3",
+				main_2 = "2",
 				touch = "2",
 				main_3 = "4"
 			}
@@ -1304,25 +1307,22 @@ pg.AssistantInfo = {
 		},
 		huonululu_4 = {
 			faces = {
-				feeling1 = "5",
-				feeling3 = "2",
-				main_1 = "3",
-				touch = "2",
-				mail = "2",
-				win_mvp = "3",
-				feeling4 = "2",
-				mission = "3",
-				touch2 = "5",
-				propose = "2",
-				main_2 = "2",
 				lose = "4",
-				main_3 = "2",
-				feeling5 = "2",
+				feeling3 = "2",
+				main_1 = "2",
+				mail = "2",
+				feeling1 = "5",
 				profile = "2",
 				mission_complete = "3",
+				mission = "3",
 				feeling2 = "3",
+				win_mvp = "3",
+				feeling4 = "2",
 				battle = "3",
-				login = "3"
+				login = "1",
+				touch = "2",
+				feeling5 = "1",
+				propose = "2"
 			}
 		},
 		pufeng_2 = {
@@ -1436,18 +1436,16 @@ pg.AssistantInfo = {
 		},
 		jiahezhanlie = {
 			faces = {
-				login = "1",
-				feeling3 = "2",
-				upgrade = "1",
-				feeling1 = "3",
-				feeling2 = "2",
-				profile = "2",
-				main_2 = "2",
-				mission = "3",
-				touch2 = "2",
-				feeling4 = "1",
-				mail = "3",
 				lose = "2",
+				feeling3 = "2",
+				feeling2 = "2",
+				mail = "3",
+				feeling4 = "1",
+				profile = "2",
+				mission = "1",
+				touch2 = "2",
+				main_2 = "2",
+				feeling1 = "1",
 				detail = "2"
 			}
 		},
@@ -1976,60 +1974,6 @@ pg.AssistantInfo = {
 				battle = "7",
 				login = "1",
 				detail = "5"
-			}
-		},
-		daqinghuayu_hx = {
-			faces = {
-				login = "3",
-				feeling1 = "1",
-				feeling4 = "3",
-				expedition = "2",
-				home = "2",
-				touch2 = "3",
-				main_2 = "3",
-				touch = "2",
-				main_3 = "1",
-				detail = "2"
-			}
-		},
-		dafeng_2_hx = {
-			faces = {
-				feeling1 = "1",
-				feeling3 = "2",
-				main_1 = "1",
-				feeling5 = "3",
-				mission_complete = "2",
-				lose = "1",
-				home = "1",
-				mission = "2",
-				hp_warning = "1",
-				skill = "3",
-				battle = "1",
-				mail = "3",
-				touch = "3",
-				main_3 = "3",
-				detail = "2"
-			}
-		},
-		pufeng_2_hx = {
-			faces = {
-				main_2 = "1",
-				feeling3 = "2",
-				main_1 = "2",
-				feeling1 = "3",
-				touch = "1",
-				win_mvp = "1",
-				home = "1",
-				mission = "3",
-				feeling4 = "1",
-				hp_warning = "2",
-				propose = "3",
-				lose = "3",
-				main_3 = "4",
-				feeling5 = "4",
-				upgrade = "3",
-				feeling2 = "1",
-				battle = "3"
 			}
 		}
 	}

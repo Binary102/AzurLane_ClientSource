@@ -58,7 +58,8 @@ function slot0.set(slot0, slot1)
 		end
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnAdHelp, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_ac")
 		})
 	end, SFX_UI_CLICK)

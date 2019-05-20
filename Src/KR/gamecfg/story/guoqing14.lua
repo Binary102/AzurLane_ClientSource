@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			actor = 900028,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "뇌격대 발함! 목표, 적 항모·렉싱턴!",
@@ -28,7 +28,7 @@ return {
 		},
 		{
 			actor = 900027,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			blackBg = true,
 			say = "호위기를 더 남겨두는 편이 좋아. 상대를 얕봐선 안 돼!",
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			actor = 900028,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "유니온의 신병따위 \"제로\"의 적수가 아냐! 공격은 최선의 방어!",
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			actor = 900027,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			blackBg = true,
 			say = "...적 뇌격대 발견! 호위기, 긴급 발함! 적의 접근을 막아줘!",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 900028,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "그, 그럴 수가...!?",
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 900027,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			blackBg = true,
 			say = "저 스콜에 빨리 들어가! 적은 내가 유인할게!",
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			actor = 900028,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "쇼카쿠 언니! 하지만...!",
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			actor = 900027,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			blackBg = true,
 			say = "시간이 없어! 쇼호는 이미 전투 불능이야. 더 이상 피해를 볼 순 없어!",
@@ -161,7 +161,7 @@ return {
 		},
 		{
 			actor = 900027,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			blackBg = true,
 			say = "널 언제까지나 지켜줄게. 하지만 지금은, 절대로────",
@@ -181,7 +181,7 @@ return {
 		{
 			side = 2,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			soundeffect = "event:/battle/boom2",
 			actor = 307060,
 			actorName = "{namecode:96}",

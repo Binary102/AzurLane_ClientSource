@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"장난스런 핼러윈\n\n<size=30>관에서 나온 조력자</size>",
+					"장난스런 핼러윈\n\n<size=45>관에서 나온 조력자</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "유령아~! 나와봐~! 모두 걱정하고 있다구~!",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			say = "베, 베일리씨…큰 소리로 부르면 유령이 무서워해서 도망가는 건……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -86,7 +86,7 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -105,7 +105,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "유령아~! 빨리……응? 이건…관?",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -146,7 +146,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "왠지 이상하니까 열어본다! 에잇!",
 			typewriter = {
 				speed = 0.05,
@@ -172,7 +172,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "베일리, 잠깐……",
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 213020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그, 그웨에에에에~",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -228,7 +228,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -243,7 +243,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 뭔가 나왔다!",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……테러?",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			actor = 213020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우으…테러……깜짝 놀라게 하는 건, 특기가 아니에요……",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -325,7 +325,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…왜 테러가 관 안에 있는 거야? ",
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아니, 애초에 왜 폐창고에 이런 관이 있는 거야?",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 213020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "테러, 말할 수 없어요. 비밀로 하겠다고 약속해서……",
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아! 다들, 저기 봐!",
 			typewriter = {
 				speed = 0.05,
@@ -386,7 +386,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -399,7 +399,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -414,7 +414,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "대체 누군데?!",
 			typewriter = {
 				speed = 0.05,
@@ -444,7 +444,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "유령이 도망쳤어! 빨리 쫓아가자!",
 			typewriter = {
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 213020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "자, 잠깐…이 '하늘을 나는 빗자루' 를 가져가세요……",
 			typewriter = {
 				speed = 0.05,
@@ -479,7 +479,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "고마워! 하나, 둘, 셋~ 좋아, 빗자루 다 챙겼지~",
 			typewriter = {
 				speed = 0.05,
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "토끼토끼로부턴 도망칠 수 없다구~ 베일리, 출발~!",
 			typewriter = {
 				speed = 0.05,
@@ -511,7 +511,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -519,7 +519,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 302050,

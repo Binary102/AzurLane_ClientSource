@@ -473,7 +473,7 @@ function slot6.TrackingTag(slot0, slot1, slot2)
 end
 
 function slot6.FilterTarget(slot0)
-	slot1 = {}
+	slot1 = nil
 
 	if slot0._hostIFF == slot0._dataProxy:GetFriendlyCode() then
 		slot1 = slot0._dataProxy:GetFoeShipList()
@@ -492,7 +492,7 @@ function slot6.FilterTarget(slot0)
 
 			if slot10 == slot0.OXY_STATE.FLOAT then
 			else
-				if slot10 == slot0.OXY_STATE.DIVE and not slot9:GetDiveDetected() and slot9:GetDiveInvisible() then
+				if slot10 == slot0.OXY_STATE.DIVE and not slot9:IsRunMode() and not slot9:GetDiveDetected() and slot9:GetDiveInvisible() then
 					slot11 = false
 				end
 			end

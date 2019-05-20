@@ -88,6 +88,14 @@ function slot2.Ctor(slot0)
 	slot0:ChangeState(slot0.BATTLE_STATE_IDLE)
 end
 
+function slot2.IsAutoBotActive()
+	return PlayerPrefs.GetInt("autoBotIsAcitve", 0) == 1 and AutoBotCommand.autoBotSatisfied()
+end
+
+function slot2.IsAutoSubActive()
+	return PlayerPrefs.GetInt("autoSubIsAcitve", 0) == 1
+end
+
 function slot2.GetState(slot0)
 	return slot0._state
 end
@@ -122,6 +130,8 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		slot0._battleCommand:ConfigBattleData(slot1)
 	elseif slot1.battleType == SYSTEM_DODGEM then
 		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleDodgemCommand.New())
+	elseif slot1.battleType == SYSTEM_SUBMARINE_RUN then
+		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleSubmarineRunCommand.New())
 	elseif slot1.battleType == SYSTEM_HP_SHARE_ACT_BOSS then
 		slot0._battleCommand = slot0:AddCommand(slot0.Battle.BattleInheritDungeonCommand.New())
 	elseif slot1.battleType == SYSTEM_DEBUG then
@@ -142,7 +152,7 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 		UpdateBeat:Add(slot0.Update, slot0)
 	end
 
-	GCThread.GetInstance():StartWatch(100)
+	GCThread.GetInstance():StartWatch(110)
 end
 
 function slot2.GetSceneMediator(slot0)

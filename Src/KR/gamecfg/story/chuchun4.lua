@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"하츠하루의 고민\n\n<size=30>비서함 하츠하루, 착임!</size>",
+					"하츠하루의 고민\n\n<size=45>비서함 하츠하루, 착임!</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "비, 비비, 비서함에 임명해주세요!!",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -89,7 +89,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저, 저, 그게, 나, 낯을 많이 가리긴 하지만…… 그, 그래도, 비서함 일은 여, 열심히 하겠습니다!",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "모, 모항의 모두에게 도움이 되고 싶어요!",
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -131,7 +131,7 @@ return {
 			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앗, 지휘관, 그렇게 놀라지 마~ 후우, 따라오길 잘했네… 실은 말야……",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에…… 그, 그럼 괘, 괜찮다는 말씀이세요?",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잘됐다! 그럼 하츠하루 언니, 힘내! 두 사람 방해는 하지 않을게! 바이바이!",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "엣, 아, 네! 여, 열심히 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어이, 사쿠라 엠파이어의 꼬마 아가씨. 내일 연습 해역 일정 알려주겠나?",
 			flashout = {
 				dur = 0.5,
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "꺅!? 죄, 죄송합니다!? 저, 저저……",
 			typewriter = {
 				speed = 0.05,
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -338,7 +338,7 @@ return {
 			actor = 103110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잠깐 기다려, 왜 갑자기 사과하는 거야? 마치 내가 괴롭히고 있는 거 같잖아.",
 			typewriter = {
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 203070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "내일 훈련<†엑서사이즈†>이 있을 영역<†필드†> 쪽 준비는 끝났나?",
 			flashout = {
 				dur = 0.5,
@@ -387,7 +387,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에… 에?",
 			typewriter = {
@@ -403,7 +403,7 @@ return {
 			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내 진의를 알아채지 못하다니… 역시 너는 힘<†포스†>의 소유자가 아니란 건가…",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우으… 죄송합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -436,7 +436,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "죄, 죄송합니다! 저, 전 역시…… 다른 사람이랑 대, 대화를 잘 못해서……",
 			typewriter = {
 				speed = 0.05,
@@ -498,7 +498,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아으으…… 고, 고맙습니다…",
 			typewriter = {
@@ -514,7 +514,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "대화 연습?? 지휘관님과 제가요!?",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말 괜찮으신가요!? 부, 부탁드립니다!!",
 			typewriter = {

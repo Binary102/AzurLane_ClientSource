@@ -29,7 +29,6 @@ function ys.Battle.BattleBuffCastSkill.SetArgs(slot0, slot1, slot2)
 	slot0._minWeaponNumber = slot3.minWeaponNumber or 0
 	slot0._maxWeaponNumber = slot3.maxWeaponNumber or 10000
 	slot0._rant = slot3.rant or 10000
-	slot0._hpRatioList = slot3.hpRatioList or {}
 	slot0._group = slot3.group
 end
 
@@ -82,13 +81,10 @@ function ys.Battle.BattleBuffCastSkill.castSkill(slot0, slot1, slot2)
 		end
 	end
 
-	if #slot0._hpRatioList ~= 0 then
+	if slot0._hpUpperBound or slot0._hpLowerBound then
 		slot4 = nil
-		slot4 = ((slot2 and slot2.unit) or slot1:GetHPRate()) and slot2.unit:GetHPRate()
-		slot5 = slot0._hpRatioList[1]
-		slot6 = slot0._hpRatioList[2] or 0
 
-		if slot5 < slot4 or slot4 <= slot6 then
+		if not slot0:hpIntervalRequire(((slot2 and slot2.unit) or slot1:GetHPRate()) and slot2.unit:GetHPRate()) then
 			return "check"
 		end
 	end

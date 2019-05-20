@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"剧情测试\n\n<size=30>SP2剧情</size>",
+					"剧情测试\n\n<size=45>SP2剧情</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "测试剧情",
 			typewriter = {

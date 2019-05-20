@@ -10,7 +10,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "구난 신호는 이런 뜻이었다 이거지... 이세 선배, 휴가 선배... 설마...",
 			shake = {
 				speed = 1,
@@ -64,7 +64,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "알았어... 전투 준비!",
 			shake = {
 				speed = 1,

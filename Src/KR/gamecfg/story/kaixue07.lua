@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"사쿠라 로맨스 - 새 학기\n\n<size=30>제7장　진짜 새 학기의 시작</size>",
+					"사쿠라 로맨스 - 새 학기\n\n<size=45>제7장　진짜 새 학기의 시작</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -40,7 +40,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 401010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 401010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -114,7 +114,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -129,7 +129,7 @@ return {
 			actor = 401010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "학교가 재밌냐고? 흠, 당연히 재밌지.",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			say = "재미가 있고 없고를 떠나서, 학교에서 전투 기술을 공부하고 실력을 높이는 것도 중요한 임무니까 말이죠.",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307040,
 			actorName = "{namecode:94}",
@@ -166,7 +166,7 @@ return {
 			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어... 방금 그 말, '불량학생' 역할이 할 대사 같진 않았어.",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 401010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "안심해. 동생을 걱정하지 않는 언니는 없으니까. Z클래스의 이몸께서 보증하지.",
 			typewriter = {
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아... 벌써 시간이 이렇게……",
 			flashout = {
 				dur = 1,
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -360,7 +360,7 @@ return {
 			say = "아뇨 아뇨, 이 정돈 괜찮아요~",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301010,
 			actorName = "{namecode:2}",
@@ -378,7 +378,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -395,7 +395,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = -1,
@@ -412,7 +412,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -429,7 +429,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -446,7 +446,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -466,7 +466,7 @@ return {
 			actor = 401010,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "(씨익)",
 			typewriter = {
@@ -479,7 +479,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -499,7 +499,7 @@ return {
 			actor = 101060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "불량학생 역의 히류씨도 멋있네요!",
 			typewriter = {
@@ -515,7 +515,7 @@ return {
 			say = "크레이븐! 언제 왔어요?",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307040,
 			actorName = "{namecode:94}",
@@ -537,7 +537,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = -1,
 			actor = 101060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "신출귀물한 치어리더 역할입니다! ...라고 해도 평소랑 별로 바뀐 건 없지만…",
 			typewriter = {
 				speed = 0.05,
@@ -549,7 +549,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -560,7 +560,7 @@ return {
 			actor = 101060,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "사실은 지휘관님과 얘기할 때 부터 여기 있었어요.",
 			typewriter = {
@@ -576,7 +576,7 @@ return {
 			actor = 101060,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "히류씨가 왜 불량학생 역할을 했는지도 들어읍으으우우으읍!!",
 			typewriter = {
@@ -589,7 +589,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -606,7 +606,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -623,7 +623,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -645,7 +645,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -663,7 +663,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -683,7 +683,7 @@ return {
 			actor = 401010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흐흠, 당연하지~!",
 			typewriter = {
@@ -696,7 +696,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -713,7 +713,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -735,7 +735,7 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 101060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "모두~ 화이팅!",
 			typewriter = {
 				speed = 0.05,

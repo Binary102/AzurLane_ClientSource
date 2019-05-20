@@ -8,7 +8,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -59,7 +59,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_jiangyin_memory",
 			dir = -1,
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "（又来了……）",
 			flashout = {
 				dur = 1,
@@ -160,7 +160,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			say = "（头好痛，这段记忆是怎么回事。）",
@@ -178,7 +178,7 @@ return {
 			say = "♫小笼包，叉烧包~奶黄芝麻豆沙包~大肉包，菜包，还有灌汤包~♫",
 			dir = -1,
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -198,7 +198,7 @@ return {
 		},
 		{
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "姐姐姐姐，你也饿了吗？看你的表情似乎不太妙呢。",
@@ -213,7 +213,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "没事的，我可没什么大碍。",
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "只是…自从来到这片海域之后就有些奇怪的片段在我的脑海中出现。",
@@ -243,7 +243,7 @@ return {
 		},
 		{
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "嗯？平海最近也总是会做一些奇怪的梦呢，虽然最后都被姐姐蒸的包子香味给唤醒了嘻嘻。",
@@ -258,7 +258,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "傻丫头，一点提防心都没有。",
@@ -273,7 +273,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "指挥官这次派我们姐妹来这里可是赋予了我们重任啊，你可别辜负了指挥官对我们的期待！",
@@ -288,7 +288,7 @@ return {
 		},
 		{
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "嗯嗯，我记得，任务说明是…嗯…是什么来着呢？- -",
@@ -303,7 +303,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "找到并消灭企图渗透进东煌沿海的重樱舰队！最近似乎有各种情报表明他们在和塞壬密谋着不为人知的行动。",
@@ -318,7 +318,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "啊，说着说着似乎就快到了呀，这个熟悉的地方…熟悉的海风",
@@ -333,7 +333,7 @@ return {
 		},
 		{
 			actor = 502020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "水上侦察机准备出发！平海，开始工作了！",
@@ -348,7 +348,7 @@ return {
 		},
 		{
 			actor = 502030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "是！",

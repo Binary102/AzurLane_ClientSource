@@ -27,7 +27,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "쇼카쿠 언니!! 무사해서 다행......",
 			paintingFadeOut = {
@@ -68,7 +68,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "......",
 			shake = {
 				speed = 1,
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "......왜 이런 짓을 하는 거야",
 			shake = {
 				speed = 1,
@@ -141,7 +141,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "......\"사쿠라 엠파이어의 미래\"... 그런 핑계로 몇 번이나 사람을 속일 수 있을 것 같아!? ",
 			shake = {
 				speed = 1,
@@ -159,7 +159,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이런 저주받은 힘이 신의 은총일 리 없어! 미래를 가져다줄 리 없잖아!",
 			shake = {
 				speed = 1,
@@ -177,7 +177,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "처음부터 눈치채고 있었어... 당신네가 하고 있는 일이 아무래도 이상하다고.",
 			shake = {
 				speed = 1,
@@ -195,7 +195,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이번엔 진심으로 화났어! 하필이면 쇼카쿠 언니를...!",
 			shake = {
 				speed = 1,

@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 401180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			say = "한스, 지금 막 도착했습니다☆",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 401180,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "하아… 지쳐버렸어… 협만 너머에 요새는 없던데.",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -56,7 +56,7 @@ return {
 		{
 			actor = 401190,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "틸레, 점령 쪽도 잘 마무리 됐어.",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "퀸네도 수고했어.",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 401180,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "정말, 틸레도 참 매정하네… 임무도 무사히 완료했으니까, 이럴 땐 웃으면서 승리를 축하해야지!",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내가 레베도 아니고. 그리고, 아직 긴장을 풀어선 안돼.",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 401210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 이미 점령 자체가 성공한 거 아냐?",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -140,7 +140,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래. 로열 네이비도 이 항구를 탐내고 있어. ……어제는 샤른호르스트 씨들이 그쪽 리나운과 교전했었고, 이틀 전에는 히퍼 씨도 적 구축함에 큰 피해를 입었어.",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -203,7 +203,7 @@ return {
 		{
 			actor = 401210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥! 올 테면 오라지! 메탈 블러드 구축함의 힘을 보여주겠어!",
 			typewriter = {
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -227,7 +227,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 401020,
@@ -244,7 +244,7 @@ return {
 		{
 			actor = 401020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "유조선은 한 번에 두 척만 동시 보급 가능하니까. 자, 다들, 순번을 정해서 움직이도록 해.",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			actor = 401180,
 			dir = -1,
@@ -269,14 +269,14 @@ return {
 					actor = 401190,
 					dir = -1,
 					pos = {
-						x = -450
+						x = -675
 					}
 				},
 				{
 					actor = 401210,
 					dir = -1,
 					pos = {
-						x = 450
+						x = 675
 					}
 				}
 			},

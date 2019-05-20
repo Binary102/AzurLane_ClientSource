@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"오오시오의 선물♪\n\n<size=30>앞으로도 잘 부탁한데이~</size>",
+					"오오시오의 선물♪\n\n<size=45>앞으로도 잘 부탁한데이~</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨, 뭘 그리 고민하노…?",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 우리들 방해한 거 아니냐니, 걱정도 팔자다~",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 씨, 너무 깊게 생각했구마~ 우리한테 지휘관 씨는 친구… 으응, 이젠 마 가족이나 마찬가지인기라♪",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자, 다들 그리 생각하제~♪",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아사시오는, 지휘관님이 걱정하지 않으셨으면 좋겠어요.",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앞으로도 지휘관님은 아사시오와 함께 해주실 거죠?",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			actor = 301660,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오시오와 지휘관님을 위해 맛있는 과자를 대령해드릴 테니………",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			actor = 301660,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "부디, 다음에도 저희 다과회에 어울려주시기 바랍니다.",
 			typewriter = {
@@ -241,7 +241,7 @@ return {
 			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님이 꽃과 노래를 즐기고 싶으시다면, 언제든지 저희를 불러주세요.",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후후♪ 봐라, 내 말이 맞제~",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -292,19 +292,19 @@ return {
 				{
 					actor = 301640,
 					pos = {
-						x = -250
+						x = -375
 					}
 				},
 				{
 					actor = 301660,
 					pos = {
-						x = 250
+						x = 375
 					}
 				},
 				{
 					actor = 301650,
 					pos = {
-						x = 500
+						x = 750
 					}
 				}
 			},

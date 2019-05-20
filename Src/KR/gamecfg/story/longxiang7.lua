@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"경항공모함 류조 참전!\n\n<size=30>7. 용기! 역시 지휘관이 제일 좋아!</size>",
+					"경항공모함 류조 참전!\n\n<size=45>7. 용기! 역시 지휘관이 제일 좋아!</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "………………………",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "………………………",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그그그그그렇죠! 지, 집무 시간 이후까지 함께해주셔서 감사합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "시, 실은 긴히 드릴 말씀이 있어서!",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "주군께서 매일 된장국을 만들고 계신 걸로 알고 있습니다!",
 			effects = {
 				{
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 아무튼, 저번에 식당에서 주군께 그런 모습을 보인 뒤로, 주군의 시선이 하루종일 신경쓰여 참을 수가 없습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -208,7 +208,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -221,7 +221,7 @@ return {
 			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 새러토가씨의 조언을 받은 거지만…그……제 마음을 전부 주군께 전하면 분명……",
 			typewriter = {
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "다시 말하자면, 교정 뒷편에서 주군께 고백을 하면 분명 카베동인지 벽쿵인지를 당해서 두근두근할 틈도 없이 전부 무사해결! 이 될 거라고 새러토가씨에게 설득당해서, 행동에 옮기게 된 겁니다!",
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아…하아……………여, 역시 저는 남녀사이의 이런 건 서툴다고나 할까…무리라고나 할까……",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "실은 단지…주군께 더 좋은 모습을 보여드리고 싶어서…그래서 절 다시 한 번 돌아봐주셨으면 해서……",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그러니까, 부디 제 마음을 받아주십시오! 불초 류조, 주군을 위해서라면 무엇이든지 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -311,7 +311,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.15,
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "주군을, 정말로 좋아합니다!",
 			typewriter = {
 				speed = 0.05,

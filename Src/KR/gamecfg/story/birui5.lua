@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"의전함의 연회\n\n<size=30>즐기는 법은 각양각색</size>",
+					"의전함의 연회\n\n<size=45>즐기는 법은 각양각색</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들 모이셨죠?",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘 모여주신 사쿠라 엠파이어의 여러분께 진심으로 감사의 말씀을 드립니다.",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘만큼은 일상의 피로를 벗어버리고 친목을 다지고자…저, 히에이가 연회를 열고자 하니 부디 마음껏 즐겨주시기 바랍니다!",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "고기다!! 헤헤헤, 유다치는 히에이의 연회가 제일 좋아!",
 			flashout = {
 				dur = 0.7,
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -164,7 +164,7 @@ return {
 			actor = 301140,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우걱우걱! 그래도 고기는 안 줄 거지롱! …먹고 싶으면 직접 갖고 가라고!",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "정말이지……",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 304040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "댄스 파트너가 되어달라고? 후후, 레이디를 위해서라면 기꺼이~(찡긋)",
 			flashout = {
 				dur = 0.7,
@@ -239,7 +239,7 @@ return {
 			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "날 위해 케이크를 가져온 건가? 고마워, 소중히 받을게 (찡긋~!)",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋아, 나와 한 곡 추자고. 아무도 보고 있지 않은 것처럼 말이야. (찡긋~☆)",
 			typewriter = {
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 304040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하하하, 모두 다 같이~ 건배~!!",
 			typewriter = {
 				speed = 0.05,
@@ -284,7 +284,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -324,7 +324,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후, 다들 자기만의 방식으로 연회를 즐기고 있네요.",
 			typewriter = {

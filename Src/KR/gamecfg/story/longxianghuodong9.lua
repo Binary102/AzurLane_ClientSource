@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "드디어 왔구나.",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 102060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "함재기를 회수하고 우리 습격에 대비하고 있었다 이건가.",
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 102060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "우리에겐 주력함도 있다고! 미끼가 되어 마지막까지 싸울 셈이야?",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		{
 			actor = 306060,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "마음을 동요시킬 셈인가? 웃기지도 않는군! 이미 각오는 되어 있다!",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 306060,
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 102060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "…………사쿠라 엠파이어의 결속력이라 이거군.",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 		{
 			actor = 103060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥! 나도 인디를 위해서라면 이 세계를 전부 파멸시킬 수도 있다고!",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 102060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……포틀랜드, 제발 쓸데없는 소리 좀……",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 306060,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이글 유니온의 함선은 연약한 녀석들뿐이라 들었는데, 나름 근성 있는 무사도 있구나!",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 		{
 			actor = 102060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……저 말에 공감대가 형성된 거야 지금?!",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 306060,
@@ -175,7 +175,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,
@@ -196,7 +196,7 @@ return {
 			actorName = "류조",
 			side = 2,
 			bgName = "bg_story_rj",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자유의 나라의 무사들에게 알린다! 이 몸은 해가 뜨는 나라의 무사, 류조라고 한다!",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			actorName = "류조",
 			side = 2,
 			bgName = "bg_story_rj",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "날 미끼라고 부르고 싶다면, 우선은 날 쓰러뜨려야 할 것이다!",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 		},
 		{
 			actorName = "류조",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,

@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"스타더스트와 자그마한 용기\n\n<size=30>제2장 - Quadimension</size>",
+					"스타더스트와 자그마한 용기\n\n<size=45>제2장 - Quadimension</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			bgName = "bg_story_star1",
 			mode = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgm = "star",
 			actor = 0,
 			actorName = "팬 A",
@@ -71,7 +71,7 @@ return {
 			actorName = "팬 B",
 			mode = 2,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 			actorName = "팬 C",
 			mode = 2,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응원 고마워~! 더 신나게 가보자~!!",
 			typewriter = {
 				speed = 0.05,
@@ -121,7 +121,7 @@ return {
 			actorName = "팬들",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -134,7 +134,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "괴, 굉장해…… 오, 오빠…?",
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "！！！",
 			side = 1,
 			blackBg = true,
@@ -165,7 +165,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "오빠도…… 들떠있어……",
@@ -180,7 +180,7 @@ return {
 		},
 		{
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			blackBg = true,
 			say = "왠지 즐거워 보여……",
@@ -199,7 +199,7 @@ return {
 			say = "모두 고마워~! 내 노래, 모두에게 전해졌을까나? 다음 라이브에서 또 만나자!!",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flashout = {
 				dur = 1,
@@ -233,7 +233,7 @@ return {
 			actorName = "팬들",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -250,7 +250,7 @@ return {
 			actorName = "팬 A",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			actorName = "팬 B",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -284,7 +284,7 @@ return {
 			actorName = "팬 C",
 			blackBg = true,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			blackBg = true,
 			actor = 206030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이게…… 노래의 힘…… 굉장해……",
 			flashout = {
 				dur = 1,
@@ -337,7 +337,7 @@ return {
 		{
 			actor = 206030,
 			mode = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			blackBg = true,
 			say = "뭐지…… 이 열기는……? 유니콘도…… ",
@@ -353,7 +353,7 @@ return {
 		{
 			actor = 206030,
 			mode = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			blackBg = true,
 			say = "유니콘도…… 오빠를 즐겁게 해주고 싶어……",

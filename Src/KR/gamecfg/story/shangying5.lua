@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"벚꽃놀이 대소동\n\n<size=30>제5장 - 하늘에 수 놓는 벚꽃</size>",
+					"벚꽃놀이 대소동\n\n<size=45>제5장 - 하늘에 수 놓는 벚꽃</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "봄이라 하면 역시 벚꽃이죠.",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 		},
 		{
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 401230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "연회는 여기서 하는 건가…와아, 다들 들떠있네!",
 			flashout = {
 				dur = 1,
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -140,7 +140,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -172,7 +172,7 @@ return {
 		},
 		{
 			actor = 401230,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 		},
 		{
 			actor = 201210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우후후, 왠지 흐뭇하네요~",
 			flashout = {
 				dur = 1,

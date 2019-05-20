@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름(?)의 대작전\n\n<size=30>제4장　잊어버린 선물·하</size>",
+					"여름(?)의 대작전\n\n<size=45>제4장　잊어버린 선물·하</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -34,7 +34,7 @@ return {
 		{
 			say = "응? 야마시로, 뭘 찾고 있니? 이렇게 어질러놓고선.",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이거네, 자.",
 			flashout = {
 				dur = 1,
@@ -135,7 +135,7 @@ return {
 		{
 			say = "우아! 언니 고마워… 우으으…",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -154,7 +154,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -170,7 +170,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -186,7 +186,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -202,7 +202,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -218,7 +218,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
@@ -234,7 +234,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",

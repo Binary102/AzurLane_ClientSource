@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"비서함 다이호의 헌신\n\n<size=30>위험한 동맹</size>",
+					"비서함 다이호의 헌신\n\n<size=45>위험한 동맹</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "？？？",
 			bgName = "star_level_bg_103",
 			side = 1,
@@ -65,7 +65,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다이호는 지휘관님과 있는 시간 말고는 방에 있는 걸 좋아하다보니…호호호",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 역시 다이호 답네요~♪",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 이렇게 만나보니, 역시 다이호가 더 상냥해서 다가가기 쉬운 것 같네요.",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "다른 아이가 존재하는 것 만으로 불편한 기색을 드러내 자리를 망쳐놓는 어느 선배와는 다르게 말이죠. 우후후♪",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
@@ -152,7 +152,7 @@ return {
 			say = "그럴지도 모르겠네요……이 냄새는…지휘관님?",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -170,7 +170,7 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "냄새……? 어머, 지휘관.",
 			typewriter = {
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 지휘관님이셨네요! 아아…지휘관님께선 다이호를 찾고 계셨던 건가요? 다이호, 감동했사와요~",
 			typewriter = {
 				speed = 0.05,
@@ -199,7 +199,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -222,7 +222,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내, 냄새만으로 맞추다니 역시 대단하네요……",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -260,7 +260,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하지만 전투력만 놓고 보자면, 확실히 아카기 씨가 전투 경험이 다이호 보다 훨씬 많다 보니 곤란하단 말이죠…",
 			typewriter = {
 				speed = 0.05,
@@ -275,7 +275,7 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇다면, 저와 함께 생각해 볼까요?",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쇼카쿠 씨와……?",
 			typewriter = {
 				speed = 0.05,
@@ -308,7 +308,7 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네, 힘을 합치면, 아카기 선배를 뛰어넘을 수 있는 방법을 찾을지도 모르니까요.",
 			typewriter = {
@@ -326,7 +326,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -354,7 +354,7 @@ return {
 			actor = 307070,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관님께서도 승낙하여 주셨으니, 그럼……",
 			typewriter = {
@@ -370,7 +370,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후♪ '안티 아카기 선배 동맹' 결성, 이란 거군요.",
 			typewriter = {
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 이걸로 아카기 씨를 잘라낼 패가 일단 하나 손에 들어왔군……후후후♡",
 			typewriter = {
 				speed = 0.05,

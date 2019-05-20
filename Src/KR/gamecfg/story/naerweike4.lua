@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "경계 중이던 구축함과 잠수함은 폭설 덕분에 무사히 피한 것 같네요.",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응, 운이 좋았어.",
 			typewriter = {
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201160,
@@ -55,7 +55,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -71,7 +71,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201160,
@@ -88,7 +88,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사냥은 끈기가 중요한 거야…",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 201160,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무슨 말이에요……?",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201160,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -166,7 +166,7 @@ return {
 		{
 			actor = 201160,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…우리가 먼저 공격해요!",
 			typewriter = {

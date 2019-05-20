@@ -7,7 +7,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이상! 본래의 당신을 기억해내주세요!",
 			typewriter = {
@@ -29,8 +29,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "바이러스 따위에 지면 안 돼.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "돌아가면 같이 게임하는 거야.",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -118,7 +118,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "원래 세계로 돌아가서 영상 업로드해야 하잖아!? 아이쨩을 기다리는 사람이 잔뜩 있잖아!? 원래의 아이쨩으로 돌아와 줘!!!",
 			typewriter = {
@@ -172,12 +172,12 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			action = {
 				{
-					y = 1100,
+					y = 1650,
 					type = "move",
 					delay = 0,
 					dur = 2,
@@ -196,7 +196,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400010,
 			say = "다들… 고마워…… 폐 끼쳐서, 미안……!",
@@ -232,7 +232,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜찮아. 어서 와, 아이쨩♪",
 			typewriter = {
@@ -247,7 +247,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "해냈어요! 원래대로 씩씩한 아이상으로 돌아와줬어요!",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "보세요! 아이상의 몸이 점점 원래 크기로 돌아오고 있어요!",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다행이야. 이걸로 '올 클리어'한 걸까나?",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			say = "쿠구구구구구구구구구구구구구궁………!!!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지진…? 설마, 이 버츄얼 거울 해역이 붕괴하려는 거야…?",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이, 이건 위험하다냥! 아카시들이 붕괴에 삼켜지면, 평생 이 버츄얼 공간에서 나오지 못하게 될지도 모른다냥!",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그, 그럴수가! 다들 빨리 탈출해요!",
 			typewriter = {
@@ -386,8 +386,16 @@ return {
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 200,
-						y = 100
+						x = 300,
+						y = 150
+					}
+				},
+				{
+					expression = 1,
+					actor = 10400010,
+					pos = {
+						x = 900,
+						y = 150
 					}
 				},
 				{
@@ -395,22 +403,14 @@ return {
 					actor = 10400010,
 					pos = {
 						x = 600,
-						y = 100
+						y = -150
 					}
 				},
 				{
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 400,
-						y = -100
-					}
-				},
-				{
-					expression = 1,
-					actor = 10400010,
-					pos = {
-						x = 800,
+						x = 1200,
 						y = 0
 					}
 				}
@@ -427,7 +427,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "가짜 키즈나 아이가 이렇게 많이!? 큰일이에요. 조금 전 싸움으로 탄약도 거의 떨어졌어요!",
 			typewriter = {
@@ -442,7 +442,7 @@ return {
 		{
 			actor = 301120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "출구도 여기서는 상당히 멀어요. 가짜 키즈나 아이들의 포위망을 돌파하면서 도착할 수 있을지는…",
 			typewriter = {
@@ -457,7 +457,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "키즈나 아이, 해킹으로 어떻게 안 돼?",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 		{
 			actor = 10400010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에, 해킹…?",
 			typewriter = {
@@ -487,7 +487,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "확실히, 적의 해킹에 대항할 수 있었던 아이라면, 어쩌면 어떻게든 될지도…?",
 			typewriter = {
@@ -501,7 +501,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10400010,
@@ -529,8 +529,16 @@ return {
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 200,
-						y = 100
+						x = 300,
+						y = 150
+					}
+				},
+				{
+					expression = 1,
+					actor = 10400010,
+					pos = {
+						x = 900,
+						y = 150
 					}
 				},
 				{
@@ -538,22 +546,14 @@ return {
 					actor = 10400010,
 					pos = {
 						x = 600,
-						y = 100
+						y = -150
 					}
 				},
 				{
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 400,
-						y = -100
-					}
-				},
-				{
-					expression = 1,
-					actor = 10400010,
-					pos = {
-						x = 800,
+						x = 1200,
 						y = 0
 					}
 				}
@@ -568,7 +568,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -580,7 +580,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "굉장해! 가짜 키즈나 아이의 움직임이 멈췄어!",
 			typewriter = {
@@ -594,7 +594,7 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10400010,
@@ -611,7 +611,7 @@ return {
 		{
 			actor = 10400010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 버츄얼 거울 해역의 시스템에 접속해서, 모두를 모항까지 전송할게! 붕괴는 멈출 수 없을 것 같지만, 전송만 하면 늦지 않을 거야!",
 			typewriter = {
@@ -625,7 +625,7 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10400010,
@@ -642,7 +642,7 @@ return {
 		{
 			actorName = "시스템 메시지",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "플레이어를 모항까지 전송합니다. 안전한 위치까지 이동하여 전송에 대비해주시기 바랍니다.",
 			typewriter = {
@@ -703,7 +703,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이쨩!? 아이쨩도 같이 가!",
 			typewriter = {
@@ -716,7 +716,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -730,7 +730,7 @@ return {
 			side = 2,
 			expression = 5,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미안해. 이 버츄얼 거울 해역을 제어해서 모두를 전송하려면, 내가 여기 남아 있어야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -744,7 +744,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럴 수가………!",
 			typewriter = {
@@ -761,7 +761,7 @@ return {
 			side = 2,
 			expression = 3,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기까지 함께 해줘서, 정말 고마워. 모두와 보낸 시간은 평생 잊지 못할 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -775,7 +775,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이상, 기다려 주세요!",
 			typewriter = {
@@ -790,7 +790,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "안 돼요…! 다들 같이 가야!",
 			typewriter = {
@@ -807,7 +807,7 @@ return {
 			side = 2,
 			expression = 3,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "모두는 꼭 원래 장소로 돌려보낼 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -821,7 +821,7 @@ return {
 		{
 			actor = 10400010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐니뭐니해도, 나,",
 			typewriter = {
@@ -838,7 +838,7 @@ return {
 			side = 2,
 			expression = 4,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "슈퍼 AI니까!",
 			typewriter = {
 				speed = 0.05,
@@ -864,7 +864,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

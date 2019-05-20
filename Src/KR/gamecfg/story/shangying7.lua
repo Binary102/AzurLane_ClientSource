@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"벚꽃놀이 대소동\n\n<size=30>제7장 - 둘만의 후야제</size>",
+					"벚꽃놀이 대소동\n\n<size=45>제7장 - 둘만의 후야제</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			bgm = "story-2",
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "연회는 즐겁습니다만, 연회가 끝난 후의 이 조용함은 왠지 쓸쓸하네요……",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:89}",
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "\"낭군님, 오늘밤 꽃구경은 제가 모시도록 하겠사옵니다.\"",
 			flashout = {
 				dur = 1,
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!!!",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!!",
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -205,7 +205,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,

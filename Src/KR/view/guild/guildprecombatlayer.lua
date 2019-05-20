@@ -7,7 +7,6 @@ end
 
 function slot0.init(slot0)
 	slot0.eventTriggers = {}
-	slot0._guiderLoaded = true
 	slot0.formation = slot0:findTF("formation")
 	slot0.fleetConfirm = slot0:findTF("fleet_confirm")
 
@@ -77,7 +76,8 @@ function slot0.didEnter(slot0)
 		end))
 	end)
 	onButton(slot0, slot0:findTF("fleet_confirm/help_button"), function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("sham_battle_help_tip")
 		})
 	end, SFX_PANEL)

@@ -9,7 +9,7 @@ return {
 			dir = 1,
 			bgm = "level-uta",
 			actor = 10300020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기는 제게 맡겨줬으면 좋겠는 거에요.",
 			flashin = {
 				delay = 0,
@@ -32,7 +32,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네코네……작은데 무리하면 안 되는 거에요.",
 			typewriter = {
@@ -46,7 +46,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300020,
@@ -63,7 +63,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네코네, 정말로 괜찮은거죠?",
 			typewriter = {
@@ -78,7 +78,7 @@ return {
 		{
 			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "물론인 거에요, 후미뤼르님.",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300020,
@@ -109,7 +109,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇군요. 네코네씨는 디코이를 만들어내는 능력을 갖고 있군요.",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 		{
 			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그런 거에요. 양동작전에는 딱인 거에요.",
 			typewriter = {
@@ -138,7 +138,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -155,7 +155,7 @@ return {
 		{
 			actor = 10300030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "위험해지면, 큰 소리로 불러주세요……바로 구하러 갈 테니까요.",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300020,
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "네코네……조심하는 거에요.",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 		{
 			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알고 있는 거에요, 그럼……출발하는 거에요!",
 			typewriter = {

@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제1장   호박 소동!?</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제1장   호박 소동!?</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 306050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 306050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에헤헤, 역시 내는 미인이 될 소질이 있구마!",
 			flashout = {
 				dur = 1,
@@ -84,7 +84,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "호박스프...... 으엑! 또 호박이가! 어제는 호박찜, 그제는 호박파이──── 내는 인자, 호박은 싫다!",
 			flashout = {
 				dur = 1,
@@ -134,7 +134,7 @@ return {
 		{
 			say = "확실히, 영양을 생각해서라도 이건 좀 안 되겠네요......",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301050,
 			actorName = "{namecode:6}",
@@ -153,7 +153,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -169,7 +169,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -185,7 +185,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -201,7 +201,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -217,7 +217,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -233,7 +233,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -249,7 +249,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -265,7 +265,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -281,7 +281,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -297,7 +297,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -313,7 +313,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저는 별로…… 조사, 파이팅, 이에요.",
 			flashout = {
 				dur = 1,
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "호박? 호박은 맛있다냥~ 음식을 헛되이 낭비하는 건 중죄다냥~ 쇼호는 좀 더 호박을 먹어라냥~",
 			flashout = {
 				dur = 1,
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "튀김? 그, 그런 거 아냐! 그건 겨울나기용 식재료 준비라고!",
 			flashout = {
 				dur = 1,
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "사쿠라 엠파이어 애들...... 뭔가 이상한데...",
 			flashout = {
 				dur = 1,
@@ -461,7 +461,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -482,7 +482,7 @@ return {
 			blackBg = true,
 			actorName = "？？？",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flashout = {
 				dur = 1,

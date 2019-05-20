@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=30>五 可爱的小猪仔</size>",
+					"我的美好回忆\n\n<size=45>五 可爱的小猪仔</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -65,7 +65,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -95,7 +95,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -143,7 +143,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "来，张嘴吧？啊——。",
 			typewriter = {
 				speed = 0.05,
@@ -211,7 +211,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好了，再来一次，啊～？",
 			typewriter = {
 				speed = 0.05,
@@ -263,7 +263,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -279,7 +279,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "要快点好起来哦，小猪仔♡",
 			typewriter = {
 				speed = 0.05,

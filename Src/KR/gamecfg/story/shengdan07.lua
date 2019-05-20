@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사랑과 평화의 성야제\n\n<size=30>제7장 - 성야의 포옹</size>",
+					"사랑과 평화의 성야제\n\n<size=45>제7장 - 성야의 포옹</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			say = "……？",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -67,7 +67,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 여기 있다……",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 피곤해 보여……",
 			typewriter = {
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엘드릿지, 선물.",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관한테.",
 			typewriter = {
@@ -143,7 +143,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "메리이, 크리스마스.",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "！！",
 			typewriter = {
 				speed = 0.05,
@@ -174,7 +174,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 기뻐?",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
@@ -205,7 +205,7 @@ return {
 		{
 			actor = 101260,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엘드릿지도, 기뻐, 에헤헤……",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "크리스마스 기자 그리들리, 임무 완료 보고서를 제출하러 왔습니다! 지휘관, 여기에!",
 			flashout = {
 				dur = 0.5,
@@ -267,7 +267,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……！",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 		{
 			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오? 오오! 이건! 찰칵찰칵 해야지!",
 			typewriter = {
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우… 좋은 사진이 찍혔다! 이름은 '성야의 포옹' 으로 짓자! 음음, 이건 퓰리쳐 상 감인데!",
 			flashout = {
 				dur = 0.35,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"스위티 콩코드\n\n<size=30>시식 스태프?</size>",
+					"스위티 콩코드\n\n<size=45>시식 스태프?</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이런 거였구나, 별거 아니네~♪",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……완성! 흐흥~ 콩코드 특제 레드벨벳 케이크~!",
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흐음…평가가 뭔가 좀 애매하네. 지휘관, 의외로 이런 쪽으론 까다롭구나?",
 			typewriter = {
 				speed = 0.05,
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "더 노력할게~♪",
 			typewriter = {
 				speed = 0.05,
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후후, 오늘은 마이 페이버릿, 스토로베리 선데야!",
 			flashout = {
 				dur = 0.5,
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_room",
 			withoutActorName = true,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "콩코드의 눈이 반짝거린다. 내 평가를 기대하고 있는 거겠지……",
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흐음…역시 좀 더 노력해야겠네……",
 			typewriter = {
 				speed = 0.05,
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오늘은 좀 더 커다란 서프라이즈를 준비했다구~♪",
 			flashout = {
 				dur = 0.5,
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시……맛없어…?",
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……나, 이런 거 역시 무리인 가봐. 손재주가 없어서……",
 			typewriter = {
 				speed = 0.05,
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "일단은 연습할 디저트를 바꾸지 말고 하나만 정해서 계속해보라고?……그러면 돼?",
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흠……뭔가 일리 있는 것 같네!",
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에헤헤, 정했어! 지휘관, 다음 시식 담당도 잘 부탁해♪",
 			typewriter = {
 				speed = 0.05,

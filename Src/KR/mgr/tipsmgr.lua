@@ -94,12 +94,8 @@ function pg.TipsMgr.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
 	setText(cloneTplTo(slot0._picTips, slot0._grid).transform:Find("Text"), "<color=" .. slot6 .. ">\"" .. slot1 .. "\" x" .. slot2 .. "</color>")
 
 	function slot7(slot0)
-		slot1 = GetOrAddComponent(slot0, "CanvasGroup")
-		slot2 = LeanTween.value(go(slot0), 1, 0, 5):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
-			slot0.alpha = slot0
-
-			return
-		end)):setOnComplete(System.Action(function ()
+		GetOrAddComponent(slot0, "CanvasGroup").alpha = 1
+		slot2 = LeanTween.alphaCanvas(slot1, 0, 5):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
 			Destroy(Destroy)
 
 			for slot3, slot4 in pairs(Destroy._tipTable) do

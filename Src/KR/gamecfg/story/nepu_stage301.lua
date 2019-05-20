@@ -11,14 +11,14 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=30>『이색 해역 WHITE』</size>",
+					"<size=45>『이색 해역 WHITE』</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 10100010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			say = "스테이지 2도 무난히 클리어~! 이걸로 사건 해결은 시간 문제아냐? ",
@@ -35,7 +35,7 @@ return {
 		{
 			say = "그럴 리가, 그게 그렇게 마음처럼 쉽진 않죠.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -52,7 +52,7 @@ return {
 		{
 			actor = 10100010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "네풋?! 잇승 또 목소리만 나오는 거?!",
 			typewriter = {
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			actor = 10100020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "쉽진 않다니……아직 뭔가 할 일이 더 남은 거야?",
@@ -86,7 +86,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "거울해역의 가짜들은, 저희와 넵튠 씨가 처리했다고요.",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -117,7 +117,7 @@ return {
 		{
 			say = "네, 정답이에요. 데이터가 많이 부족합니다.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -134,7 +134,7 @@ return {
 		{
 			actor = 10100030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……거울해역인지 뭔지의 데이터가 부족하단 거야?",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 		{
 			say = "그것도 있습니다만, 여러분…… 데이터를 카피한 가짜 여신들의 정보도, 웜홀을 열기 위해 필요하다는 것이 밝혀졌습니다.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -166,7 +166,7 @@ return {
 		{
 			actor = 10100040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "여기 온 우리들과의 인과관계도 있을 것 같네요.",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 		{
 			say = "그렇습니다…… 그래서, 이대로 거울해역 조사의 속행과, 정보를 카피한 가짜 여신들의 토벌을 부탁드립니다. 그럼 이만.",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "이스투아르",
@@ -198,7 +198,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……자기 말만 하고 통신이 끊어졌어.",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 		},
 		{
 			actor = 10100010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "괜찮아 괜찮아, 저게 평소의 잇승이니까.",
@@ -232,7 +232,7 @@ return {
 		{
 			actor = 10100020,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "중요한 것만 전달하고, \"뒤는 맡길게~\" 이러는 거 말이지.",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -263,7 +263,7 @@ return {
 		{
 			actor = 201210,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞아 맞아, 함대 편성하고 \"다들 힘내~\" 하고 배웅하는 그런 거 말이지?",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 		{
 			actor = 10100040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……뭐랄까요, 게이머로서 귀가 간지럽네요.",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 		{
 			actor = 10100030,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……뭐, 우리가 열심히 하는 수밖에 없지.",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 		{
 			actor = 10100020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇지. 달리 해결책도 없으니, 다 함께 힘내자고.",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 		{
 			actor = 10100010,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응. 힘내기 전에, 잠깐 쉬는 걸로!",
 			typewriter = {

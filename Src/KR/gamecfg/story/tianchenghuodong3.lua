@@ -25,7 +25,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "연습전은 술래잡기가 아니니까요. 제가 계속 나타나지 않으면, 카가가 곤란한 행동을 할지도 모르잖아요?",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -118,7 +118,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "서로 최선을 다하도록 하죠. 후후후후……",
 			typewriter = {

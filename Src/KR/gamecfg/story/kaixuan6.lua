@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"빛나는 아이리스\n\n<size=30>'대립'의 자매</size>",
+					"빛나는 아이리스\n\n<size=45>'대립'의 자매</size>",
 					1
 				}
 			}
@@ -349,7 +349,7 @@ return {
 			say = "정말, 누가 근육뇌에요!?",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

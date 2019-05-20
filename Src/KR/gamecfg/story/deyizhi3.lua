@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"도이칠란트의 우울\n\n<size=30>불협화음</size>",
+					"도이칠란트의 우울\n\n<size=45>불협화음</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 203010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼, 지금부터 연습전의 순위를 1위부터 발표하겠습니다.",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -75,7 +75,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "제5위, 로드니…",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 403040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……흠, 오늘은 컨디션이 좋지 않군. 뭐 BIG SEVEN 정도가 아니라 해도, 이 내가 다른 함선소녀들에게 질리가……",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "제13위, 퀸 엘리자베스…",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			actor = 403040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "제20위, 타카오. 타카오씨는 이번에 유일하게 상위 20위 권에 들어간 중순양함이네요. 축하드립니다.",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠깐! 나, 나는?!",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -181,7 +181,7 @@ return {
 			actor = 203010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "도이칠란트 씨는……잠시만요……",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 203010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -217,7 +217,7 @@ return {
 			actor = 203010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "끊임없는 연습이 필요하다고 생각합니다.",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "연습전 따위, 하등생물들이나 하는 거야! 이 내가……",
 			typewriter = {
@@ -252,7 +252,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "내가……",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하인! 나 말야, 진짜 강하지 않아?! 단지 손이 미끄러졌던 것뿐이지?! 그렇지??!",
 			typewriter = {
 				speed = 0.05,
@@ -304,7 +304,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "도이칠란트는 금방이라도 울 것 같다. 이럴 땐……",
 			typewriter = {
 				speed = 0.05,
@@ -340,7 +340,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나……알았어……",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나, 실은 강한 게 아니었구나……모두 속이고 있었을뿐이구나……",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 403040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후, 후후후후, 하하하하하……",
 			typewriter = {
 				speed = 0.05,
@@ -389,7 +389,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 1.5,
-					x = -1500
+					x = -2250
 				}
 			},
 			options = {

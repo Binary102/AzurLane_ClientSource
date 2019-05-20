@@ -180,7 +180,7 @@ return {
 			say = "아아아! 나도 갈래!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -204,7 +204,7 @@ return {
 			say = "호, 호위하겠습니다!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

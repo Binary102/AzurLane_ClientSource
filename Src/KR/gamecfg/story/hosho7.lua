@@ -169,7 +169,7 @@ return {
 			actor = 306031,
 			actorName = "{namecode:89}？？",
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			blackBg = true,
 			say = "呵呵……这边也有这边的乐趣呢",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 		},
 		{
 			actor = 900012,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 2,
 			actorName = "观察者？？",
 			blackBg = true,
@@ -199,7 +199,7 @@ return {
 		},
 		{
 			actor = 900012,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			side = 2,
 			actorName = "观察者？？",
 			blackBg = true,

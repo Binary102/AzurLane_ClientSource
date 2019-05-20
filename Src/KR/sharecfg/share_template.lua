@@ -65,7 +65,7 @@ pg.share_template = {
 		},
 		move_comps = {
 			{
-				y = -25,
+				y = -95,
 				x = 16,
 				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
 			},

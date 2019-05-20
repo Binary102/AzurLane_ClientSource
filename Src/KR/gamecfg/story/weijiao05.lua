@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "어머, 사정거리는 그쪽이 더 우세일 텐데 왜 접근을 해왔나 했더니……그냥 함선을 착각했던 거군요? 우후후, 그 그라프 슈피가 겨우 이 정도였을 줄은……",
@@ -58,7 +58,7 @@ return {
 		{
 			actor = 203080,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연 그럴까!",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "잔꾀인지 아닌지는 해보지 않으면 모르는 거겠죠……아킬레스, 준비하세요.",
@@ -107,7 +107,7 @@ return {
 		{
 			actor = 202020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아이 아이 썰~!",
 			typewriter = {

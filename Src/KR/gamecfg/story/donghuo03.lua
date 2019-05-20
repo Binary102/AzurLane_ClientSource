@@ -9,7 +9,7 @@ return {
 		{
 			actor = 102050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이것은…일전에 만났던 세이렌의 프로토타입…",
 			typewriter = {
@@ -23,7 +23,7 @@ return {
 		},
 		{
 			actor = 105130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "재미있군, 세이렌의 실험장 폐허에 시제형 세이렌이라…이렇게까지 수상한 조합은 좀처럼 보기 쉽지 않을 것 같은데.",
@@ -43,7 +43,7 @@ return {
 		{
 			actor = 105120,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "어찌 되었든 빨리 세이렌의 목적을 밝혀내자고.",
 			typewriter = {

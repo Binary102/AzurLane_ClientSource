@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제5장   트릭 오어 트릿!</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제5장   트릭 오어 트릿!</size>",
 					1
 				}
 			}
@@ -29,7 +29,7 @@ return {
 					actor = 306051,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -52,7 +52,7 @@ return {
 					actor = 102091,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -63,7 +63,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -80,7 +80,7 @@ return {
 		{
 			say = "호박은 인자 질렸다 생각했는데, 이렇게 먹으니까 또 맛나네…!",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 306051,
 			actorName = "{namecode:87}",
@@ -99,7 +99,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -115,7 +115,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -132,7 +132,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "음…… 뭐 개인적으론 헬레나가 만든 게 제일 맛있지만 말야.",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼 우린 간데이~",
 			flashout = {
 				dur = 1,
@@ -180,7 +180,7 @@ return {
 		{
 			say = "잘 다녀와~",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
@@ -199,7 +199,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우갸갸갹!! 호, 호박 랜턴이 떠 있다꼬!? 지, 지난번 그 귀신이가~!",
 			flashout = {
 				dur = 1,
@@ -249,7 +249,7 @@ return {
 		{
 			say = "호박 랜턴이, 이쪽을 향해서 날아오고 있어요!",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301051,
 			actorName = "{namecode:6}",
@@ -268,7 +268,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -285,7 +285,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "기다려~!",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -315,7 +315,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하늘에 랜턴이 가득한 게야…… 즈, 즈이카쿠는!?",
 			flashout = {
 				dur = 1,
@@ -365,7 +365,7 @@ return {
 		{
 			say = "이게 대체 무슨 일이고!",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 306051,
 			actorName = "{namecode:87}",
@@ -389,7 +389,7 @@ return {
 			blackBg = true,
 			withoutPainting = true,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쇼…… 아니지, 화이트 언니, 열심히 의상을 만들려 했었지만, 좀 많이 어려워서…… 이걸로 참아줘!",
 			flashout = {
 				dur = 1,
@@ -421,7 +421,7 @@ return {
 			withoutPainting = true,
 			side = 1,
 			say = "잠깐! 이 호박에 구멍 뚫는 거 깜빡한 거 아냐? 아무것도 안 보이잖아!? 즈이카쿠, 엔터프라이즈, 대체 뭐 하는 거야!?",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 307050,
@@ -442,7 +442,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
@@ -460,7 +460,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 107060,
@@ -478,7 +478,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
@@ -496,7 +496,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 107060,
@@ -514,7 +514,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			actor = 307060,

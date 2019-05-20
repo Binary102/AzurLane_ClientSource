@@ -15,6 +15,9 @@ function slot0.init(slot0)
 	slot0.btnBack = slot0:findTF("frame/title_pop/btnBack")
 	slot0.stopRemind = slot0:findTF("frame/title_pop/stopRemind")
 	slot0.bannerSnap = slot0:findTF("frame/top/scroll"):GetComponent("HScrollSnap")
+
+	slot0.bannerSnap:Init()
+
 	slot0.bannerContent = slot0:findTF("frame/top/scroll/content")
 	slot0.bannerItem = slot0:findTF("frame/top/scroll/item")
 	slot0.bannerDots = slot0:findTF("frame/top/scroll/dots")

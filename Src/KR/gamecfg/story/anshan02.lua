@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"안샨의 그림 교실\n\n<size=30>제2장 - 모항의 불가사의</size>",
+					"안샨의 그림 교실\n\n<size=45>제2장 - 모항의 불가사의</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-china",
 			actor = 501010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기는 이렇게…",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			actor = 501040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그다음 여기는 이렇게 해야겠죠…",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "여기는 이렇게 하자!",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아아! 푸슌 언니, 또 틀렸어요!",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이젠 뭐가 뭔지 모르겠네…",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 100010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "푸링! 아다다다다다! 달리는 거야~ 모항전선, 오늘도 이상 없음!",
 			flashout = {
 				dur = 1,
@@ -160,7 +160,7 @@ return {
 			say = "푸링! 오늘도 언니는 기운이 넘쳐 푸링! 하지만 부린도 질 수 없어 푸링!",
 			dir = 1,
 			actor = 100000,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -182,7 +182,7 @@ return {
 			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저, 저건…!?",
 			typewriter = {
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -218,7 +218,7 @@ return {
 			actor = 501040,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "부린을 보면 하루 종일 행운이 따른다는 소문이 있죠!",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			actor = 501010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그런 도시 전설은 또 어디서 나온 거야…",
 			typewriter = {
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "물감, 또 다 써버렸네…",
 			flashout = {
 				dur = 1,
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -303,7 +303,7 @@ return {
 			actor = 501010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "부린 쫓아가고 싶을 뿐이잖니…",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아니아니, 그럴 맘 없다구~ 마침 밖에서 좀 달려보고 싶어져서~ 부린… 이 아니고 물감! 지금 찾으러 갈게~!",
 			typewriter = {

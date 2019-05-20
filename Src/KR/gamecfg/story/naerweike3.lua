@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 201200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "북극권, 온통 눈으로 새하얗네……",
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -43,7 +43,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 201160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "헌터, 무슨 말을 하는 거예요!? 우린 임무 때문에 온 거라구요?",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -67,7 +67,7 @@ return {
 		{
 			actor = 201201,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하디, 나도 알고 있다고……",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……크흠! 미안해요, 나도 좀 긴장한 것 같네요… H급의 공동 작전이란 사실을 생각하다보니……",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응. 하디는 항상 힘이 너무 들어가 있다니까.",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "작전 중에 힘이 안 들어가 있으면 어쩌자는 거에요!",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -136,7 +136,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -153,7 +153,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아무튼, 하복과 호스틸, 핫스퍼 모두 배치가 끝났으므로, 임무 복창 및 지시를 내리겠습니다.",
 			typewriter = {
@@ -168,7 +168,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "메탈 블러드가 나르비크 항을 점령하고 있다는 정보에 따라, 구축함 전력은 척후 부대로서 적 전력 정찰을 수행하며, 가능하다면 피해를 입히고, 후속 부대의 작전 행동을 지원한다……",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "이틀 전, 글로우웜이 메탈 블러드의 아드미랄 히퍼와 조우, 동함은 나르비크에 향하는 증원군으로 추측됨. 어제는 구축함대와 리나운이 샤른호르스트급 전함 두 척을 포함한 함대와 교전…… 힘든 임무가 될 것 같네.",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -214,7 +214,7 @@ return {
 		{
 			actor = 201200,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "메탈 블러드에는 중형함이 적으니까, 여기엔……",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "요컨대 주된 적은 구축함이란 소리?",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -259,7 +259,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -275,7 +275,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201161,
@@ -292,7 +292,7 @@ return {
 		{
 			actor = 201161,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "히퍼를 격퇴한 글로우웜도 큰 부상을 입었지만…….",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 201160,
@@ -322,7 +322,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -339,7 +339,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그래도 그 행동은 존경할만하잖아요? 안 그래요?",
 			typewriter = {
@@ -353,7 +353,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -370,7 +370,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아무튼, 우리들도 의욕을 불태워야 해요. 헌터, 당신도요!",
 			typewriter = {
@@ -385,7 +385,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "자, 그럼, 이 앞은 오포트피오르…… 메탈 블러드도 분명, 우리의 등장을 예상하고 있을 터……",
 			typewriter = {
@@ -399,7 +399,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actor = 201200,
@@ -416,7 +416,7 @@ return {
 		{
 			actor = 201160,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "다들, 준비 됐나요? 구축함대, 나르비크를 향해 출발해요!",
 			typewriter = {
@@ -429,14 +429,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "구축함들",
 			dir = 1,
 			side = 2,
 			say = "네!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

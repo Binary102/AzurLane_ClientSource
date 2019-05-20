@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "찾~았다! 티르피츠!",
@@ -74,7 +74,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "로열 네이비 특수 작전 함대의 장갑항모 빅토리어스! 인사를 건네도록 하지!",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 그거 알아? 당신 말야, 저쪽 세계에서도 꽤 유명하다고!",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "설마 이 작전에서 '고독한 북쪽의 여왕' 과 싸울 수 있게 될 줄이야…나 엄청 기대했는걸!",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아참, 그렇지! 이번엔 이글 유니온에서 특별 선물을 가져왔어. 자 이거! 1600 파운드짜리 특제 철갑 폭탄이야!",
 			typewriter = {

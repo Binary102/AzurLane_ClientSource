@@ -7,7 +7,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이상을 놓아주세요! 가요, 이카즈치!",
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 		{
 			actor = 301110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언제든 갈 준비는 돼 있어, 이나즈마! 이거나 먹어랏!",
 			typewriter = {
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = 301120,
 			dir = 1,
 			hideOther = true,
@@ -69,7 +69,7 @@ return {
 				{
 					actor = 301110,
 					pos = {
-						x = 670
+						x = 1005
 					}
 				}
 			},
@@ -138,7 +138,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -149,7 +149,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "해냈어요! 아이상을 붙잡고 있던 가짜 키즈나 아이를 쓰러트렸어요!",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "키즈나 아이, 괜찮아? ……다친 데는 없어?",
 			typewriter = {
@@ -179,7 +179,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -194,7 +194,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -206,7 +206,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말, 아이쨩! 앞으론 혼자서 달려가면… 떼찌! 한다?",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -236,7 +236,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -248,7 +248,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "옳지 옳지, 키즈나 아이, 착하다 착해.",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"서브마린 트랩!\n\n<size=30>잠수 체조!</size>",
+					"서브마린 트랩!\n\n<size=45>잠수 체조!</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "원, 투~! (쭉~쭈욱~)",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actor = 308020,
@@ -100,7 +100,7 @@ return {
 				{
 					actor = 108010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.5,
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쓰리, 포~! (바들바들)",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -162,7 +162,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actor = 408010,
@@ -174,7 +174,7 @@ return {
 				{
 					actor = 308010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -188,7 +188,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "파이브, 식스~ (빙글빙글)",
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actor = 308030,
@@ -248,7 +248,7 @@ return {
 				{
 					actor = 408030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -262,7 +262,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -291,7 +291,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "허리 운동!",
 			typewriter = {
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우선은 이렇게…다음은 이렇게……",
 			typewriter = {
 				speed = 0.05,
@@ -320,7 +320,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -336,7 +336,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "피니쉬! '서브마린 체조', 끝!",
 			flashout = {
 				dur = 0.7,
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 308020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -388,7 +388,7 @@ return {
 			actor = 308030,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "빨리 잠수하고 싶어……",
 			typewriter = {
@@ -404,7 +404,7 @@ return {
 			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어라? U-47은?",
 			typewriter = {
@@ -420,7 +420,7 @@ return {
 			actor = 408010,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "U-47은 혼자 있는 걸 좋아하니까! 훈련 때도 비번일 때도 보통은 따로 있어!",
 			typewriter = {
@@ -436,7 +436,7 @@ return {
 			actor = 108020,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흠흠……",
 			typewriter = {
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "내가 함께할 수 있도록 설득해둘게!",
 			typewriter = {
 				speed = 0.05,
@@ -465,7 +465,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -478,7 +478,7 @@ return {
 			actor = 408030,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그건 …좀 어려울지도……",
 			typewriter = {
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 알바코어 님이라면 괜찮다니깐! 트러스트 미~!",
 			typewriter = {
 				speed = 0.05,

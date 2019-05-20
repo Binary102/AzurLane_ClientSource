@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>二 无双的传承</size>",
+					"彼岸花之恋？\n\n<size=45>二 无双的传承</size>",
 					1
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.3,
 					x = 0,
@@ -70,7 +70,7 @@ return {
 			actorName = "{namecode:93}",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:91}",
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这点程度就叫苦…就这样也敢自称重樱航空战队的一员吗！？",
 			flashout = {
 				dur = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -255,7 +255,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……那么指挥官，{namecode:91}就先回去共同训练了哦。想参观的话麻烦到那边去看吧。呵呵♪",
 			typewriter = {
 				speed = 0.05,

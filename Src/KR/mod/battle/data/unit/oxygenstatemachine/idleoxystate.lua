@@ -23,4 +23,12 @@ function ys.Battle.IdleOxyState.IsVisible(slot0)
 	return false
 end
 
+function ys.Battle.IdleOxyState.GetBarVisible(slot0)
+	return true
+end
+
+function ys.Battle.IdleOxyState.RunMode(slot0)
+	return false
+end
+
 return

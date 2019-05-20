@@ -164,7 +164,7 @@ function slot0.updateSkillTF(slot0, slot1)
 		if slot1 == 0 then
 			slot9 = ""
 		else
-			slot9 = "<color=#A9F548FF>(+" .. slot1 .. ")</color>"
+			slot9 = "<color=#92fc63FF>(+" .. slot1 .. ")</color>"
 		end
 
 		slot7.text = slot8 .. slot9 .. "/" .. slot4:getNextLevelExp()
@@ -192,7 +192,7 @@ function slot0.updateCommanderTF(slot0, slot1)
 	else
 		slot0.expSlider.value = slot2.exp / slot2:getNextLevelExp()
 
-		if slot1 <= 0 or not ("<color=#A9F548FF>(+" .. slot1 .. ")</color>") then
+		if slot1 <= 0 or not ("<color=#92fc63FF>(+" .. slot1 .. ")</color>") then
 			slot4 = ""
 		end
 

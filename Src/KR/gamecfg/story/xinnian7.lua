@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"근하신년\n\n<size=30>제7장 - 새해의 소원</size>",
+					"근하신년\n\n<size=45>제7장 - 새해의 소원</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -34,7 +34,7 @@ return {
 		{
 			say = "우후훗, 물론♪ 지휘관님의 건강, 그리고 해충이 옮지 않기 위해서라도 이런 기원 행사는 중요하지요~",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:67}",
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우으……",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "머리… 아파……",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇게나 마셨는데 어째서 이렇게 말짱한 얼굴을 하고 있는 거야……",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사쿠라 엠파이어의 힘… 무서워……",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -145,7 +145,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -161,7 +161,7 @@ return {
 		},
 		{
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:34}",
@@ -177,7 +177,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기가 '신사' 인가? 분위기가 나름 괜찮군.",
 			flashout = {
 				dur = 1,
@@ -231,7 +231,7 @@ return {
 			actorName = "{namecode:92}",
 			dir = 1,
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -263,7 +263,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -348,7 +348,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -366,7 +366,7 @@ return {
 		},
 		{
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "star_level_bg_101",
 			side = 1,
 			dir = 1,
@@ -382,7 +382,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "star_level_bg_101",
 			side = 0,
 			dir = 1,
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -424,7 +424,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -451,7 +451,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -478,7 +478,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -505,7 +505,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -532,7 +532,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -559,7 +559,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -586,7 +586,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -609,7 +609,7 @@ return {
 			actorName = "{namecode:93}",
 			dir = 1,
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -635,7 +635,7 @@ return {
 		},
 		{
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
@@ -661,7 +661,7 @@ return {
 		},
 		{
 			actor = 101170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
@@ -689,7 +689,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "모두",

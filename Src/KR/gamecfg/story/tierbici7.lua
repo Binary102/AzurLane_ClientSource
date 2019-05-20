@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제7장 - 온도</size>",
+					"녹아내리는 얼음\n\n<size=45>제7장 - 온도</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "바쁜 와중에도 짬을 내어 나와 함께해 주다니, 크나큰 영광이로군.",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아참, 오늘은 당신과 하나 보고 싶은 게 있었는데 말이야.",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "맞아, Polarstern. 북극성이지.",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "매번 저 별을 볼 때마다 난 그때를 떠올려. '현존 함대' 로서 줄곧 그 항구에 있었던 때의 나를.",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "추위와 고독, 이것들은 금방 내게 아무것도 아닌 게 되었지만,",
 			typewriter = {
@@ -166,7 +166,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "결국엔 아무것도 하지 못하고 항구에서 하늘만 바라보다 최후를 맞아야 했던 그 절망감…",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "참 웃기지, 그런 결말이라니.",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하지만, 지금은 달라.",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "타인과 어울리는 그 기쁨, 누군가와 함께할 때의 그 두근거림……이런 마음들이 내 마음을 따뜻함으로 가득 채워, 마음속의 차가움과 고독함을 전부 녹여버린 것 같아.",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = " '고독한 북쪽의 여왕'은 이제 더는 고독하지 않아.",
 			typewriter = {
@@ -262,7 +262,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "만약, 꿈속의 '또 다른' 내가 지금과 같다면 정말 좋을 텐데.",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흐음, 좀 피곤하네.",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "조금 더……날 기대게 해줘.",
 			typewriter = {
@@ -320,7 +320,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "당신의 따뜻함을 더 많이……느끼고 싶으니까 말야.",
 			typewriter = {

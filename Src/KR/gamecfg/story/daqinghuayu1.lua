@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"서브마린 트랩!\n\n<size=30>집무실의 올가미</size>",
+					"서브마린 트랩!\n\n<size=45>집무실의 올가미</size>",
 					1
 				}
 			}
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "맞아 맞아! 지휘관의 집무실에~아주 살~짝, 서프라이즈를 준비해뒀지!",
 			flashout = {
 				dur = 0.2,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "헤헤헤~! 기대해 줘!",
 			typewriter = {
 				speed = 0.05,
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관, 굿모닝~!",
 			typewriter = {
 				speed = 0.05,
@@ -318,7 +318,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -341,7 +341,7 @@ return {
 			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이름하여, '지휘관을 일찍 일어나게 하는 스위치'! 어때? 꽤 효과 있지? 헤헤헤~~",
 			typewriter = {
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 108020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "장치의 타이밍과 위치, 각도는 전부 철저히 계산했으니 지휘관의 머리 말고 다른 데를 적실 염려는 No!",
 			typewriter = {
 				speed = 0.05,
@@ -371,7 +371,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -56,7 +56,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:82}",
@@ -152,7 +152,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -169,7 +169,7 @@ return {
 		{
 			say = "즈이카쿠! 너무 쫓아가면 위험해!",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",

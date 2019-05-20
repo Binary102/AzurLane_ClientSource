@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름 바람의 십자성\n\n<size=30>제5장 - 변명</size>",
+					"여름 바람의 십자성\n\n<size=45>제5장 - 변명</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 201090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 당신이었네…",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -72,7 +72,7 @@ return {
 		},
 		{
 			actor = 201101,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 201090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			actor = 201110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -136,7 +136,7 @@ return {
 		},
 		{
 			actor = 201101,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 		},
 		{
 			actor = 201080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			actor = 207020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "다들",

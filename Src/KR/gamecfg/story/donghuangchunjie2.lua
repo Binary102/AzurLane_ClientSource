@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"시끌벅적 설날 축제\n\n<size=30>제2장 - 옛 창고의 신발견</size>",
+					"시끌벅적 설날 축제\n\n<size=45>제2장 - 옛 창고의 신발견</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아으…… 푸슌 언니, 대체 어디서 화약을……?",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,7 +86,7 @@ return {
 			actor = 501041,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "물어본다 해도, 그걸 알고 있는 아이가 아니면…… 아, 저기 있는 건……?",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "얏호~! 아야나미! 라피! 거기 있는 건 새로운 친구야?",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
@@ -136,7 +136,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
@@ -154,7 +154,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이쪽이야말로~ 어라? 뭔가 다들 새로운 옷 입고 있네! 심지어 이스트 글림 풍이야!",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아야나미랑 라피, 유구레의 새로운 옷…… 다들 귀여워요…",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
@@ -205,7 +205,7 @@ return {
 			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응, 아야나미랑 모두가…… 시간을 들여서, 만들었어.",
 			typewriter = {
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋네, 좋네~ 오, 그래! 조금 물어보고 싶은 게 있어서~",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "실은 설날 여흥 삼아 폭죽을 만들 화약을 찾고 있는데, 어디 있는지 알아?",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 옛 창고인가! 헤헤헤, 설마 이렇게 빨리 찾을 줄은~",
 			typewriter = {
 				speed = 0.05,
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101173,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "폭죽이…… 뭐야?",
 			typewriter = {
 				speed = 0.05,
@@ -330,7 +330,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엄청 재밌는 거야! 불을 붙이면 타닥타닥 큰 소리 낸다구!",
 			typewriter = {
@@ -346,7 +346,7 @@ return {
 			actor = 101173,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "재밌을지도…… 라피도 같이 만들래.",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
@@ -380,7 +380,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
@@ -398,7 +398,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
@@ -447,7 +447,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
@@ -465,7 +465,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에헤헤헤헤, 폭죽 재료는 찾았네, 다음은……",
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			actor = 101173,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "라피, 이거 찾았어. 부루마블……?",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -514,7 +514,7 @@ return {
 			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐야뭐야? 나한테도 보여줘~~",
 			typewriter = {
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "엥? 이거 '세뱃돈마블' 판이잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -543,7 +543,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -553,7 +553,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			hideOther = true,
@@ -565,13 +565,13 @@ return {
 				{
 					actor = 501020,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 301054,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},
@@ -590,7 +590,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 501041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "푸슌 언니, 폭죽 말고, 다 같이 이걸……",
 			typewriter = {
 				speed = 0.05,
@@ -606,7 +606,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 501020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아, 그럼 폭죽을 만들고 나서, 다 같이 이걸로 놀자! 헤헷, 이런 게임은 잘하거든!",
 			typewriter = {
 				speed = 0.05,
@@ -618,7 +618,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -628,7 +628,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			actor = 101173,
@@ -640,7 +640,7 @@ return {
 				{
 					actor = 301054,
 					pos = {
-						x = 850
+						x = 1275
 					}
 				}
 			},
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 501041,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "엣, 에에에에~~!?",
 			typewriter = {
 				speed = 0.05,
@@ -672,7 +672,7 @@ return {
 			},
 			action = {
 				{
-					y = 45,
+					y = 67.5,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

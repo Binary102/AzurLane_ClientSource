@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"경항공모함 류조 참전!\n\n<size=30>1. 등장! 해가 뜨는 나라의 경항공모함</size>",
+					"경항공모함 류조 참전!\n\n<size=45>1. 등장! 해가 뜨는 나라의 경항공모함</size>",
 					1
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "???",
 			bgName = "bg_story_task",
 			side = 2,
@@ -141,7 +141,7 @@ return {
 			say = "……위험해!",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			actorName = "???",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "해가 뜨는 나라의 무사, 경항공모함 류조 등장!",
 			typewriter = {
@@ -223,7 +223,7 @@ return {
 			actorName = "???",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……입니다!",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "주군! 괜찮으십니까? 지금 도와드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

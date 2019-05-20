@@ -40,20 +40,20 @@ end
 function slot0.Nation2Side(slot0)
 	if not slot0.side then
 		slot0.side = {
-			[0] = "East",
+			[0] = "West",
 			"West",
 			"West",
-			"East",
+			"Jp",
 			"West",
-			"East",
+			"Cn",
 			nil,
 			"West",
 			"West",
 			"West",
-			[102.0] = "East",
-			[101.0] = "East",
+			[102.0] = "Jp",
+			[101.0] = "Jp",
 			[104.0] = "West",
-			[103.0] = "East"
+			[103.0] = "Jp"
 		}
 	end
 
@@ -66,16 +66,15 @@ function slot0.Nation2BG(slot0)
 			[0] = "bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
+			"bg/bg_church_jp",
 			"bg/bg_church",
-			"bg/bg_church",
-			"bg/bg_church",
+			"bg/bg_church_cn",
 			nil,
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
 			[102.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
-			[104.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church"
 		}
 	end

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"평온한 일상을 바라며\n\n<size=30>점심 시간</size>",
+					"평온한 일상을 바라며\n\n<size=45>점심 시간</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 203030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "Question？뉴캐슬씨가 어디로 갔냐고?",
 			flashout = {
 				dur = 0.5,
@@ -98,7 +98,7 @@ return {
 			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "Hmmmm……미안, 켄트 선수, 잘 모르겠어……",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 203040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어, 어라? 저 구름은……앗, 저 농땡이 친 거 아니에요! 정말 아니라구요!",
 			flashout = {
 				dur = 0.5,
@@ -148,7 +148,7 @@ return {
 			actor = 203040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뉴캐슬씨는 어디로 갔냐고요? 잘 모르겠는데요?",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아뇨, 못 봤습니다…죄송합니다.",
 			flashout = {
 				dur = 0.4,
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 202110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뉴캐슬씨? 셰피랑 같이 있는 게 아니라면, 아마 혼자서 책을 읽고 있을 거에요!",
 			flashout = {
 				dur = 0.4,
@@ -230,7 +230,7 @@ return {
 			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어디에 있는진 모르겠지만……메이드 일을 도와주고 있으니, 어딘가 메이드와 관계있는 장소에 있지 않을까요?",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "예를 들면 로열 네이비 숙소 뒤에 있는 공터라든지? 침대 시트를 널어둔 곳이 있으니 혹시……",
 			typewriter = {

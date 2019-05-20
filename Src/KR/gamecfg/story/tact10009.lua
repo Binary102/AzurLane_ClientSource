@@ -6,7 +6,7 @@ return {
 		{
 			actor = 303120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			say = "타카오, 내가 말했지? 로열의 중장갑이라도 공격기의 어뢰 앞에선 이렇게 무르다구. 분할 정도로... 우후훗.",
 			typewriter = {
@@ -23,7 +23,7 @@ return {
 			side = 1,
 			say = "인정하기 싫지만...... 우리 수상함을 웃도는 전과다. 소인은 확실히 기지항공대의 힘을 얕보았네.",
 			dir = -1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 303120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			say = "뭐, 안심해. 이 애들은 도움이 됐지만 상부가 \"결전\"에 얽매이는 한 우리가 버려지는 일은 없어.",
 			typewriter = {
@@ -55,7 +55,7 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그렇군. 허면 이 검을 검집에서 뺄 순간이 올 때까지 영기를 기르도록 하지.",
 			typewriter = {
@@ -70,7 +70,7 @@ return {
 		{
 			actor = 303120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			say = "......우후훗. 항공전대의 대전과에 \"Z\"의 파멸... 조금만 더 있으면 세계는 격동해────",
 			typewriter = {
@@ -85,7 +85,7 @@ return {
 		{
 			actor = 303120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 0,
 			say = "새로운 시대의 개막을, 확실히 봐주겠어....",
 			typewriter = {

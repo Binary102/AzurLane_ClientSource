@@ -113,6 +113,28 @@ function pg.FontMgr.Init(slot0, slot1)
 
 				slot0.fonts()
 			end), false, false)
+		end,
+		function (slot0)
+			if isAiriJP() then
+				slot0()
+			else
+				ResourceMgr.Inst:getAssetAsync("font/number", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+					slot0.fonts.number = slot0
+
+					slot0.fonts()
+				end), false, false)
+			end
+		end,
+		function (slot0)
+			if isAiriJP() then
+				slot0()
+			else
+				ResourceMgr.Inst:getAssetAsync("font/sourcehanserifcn-bold_0", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+					slot0.fonts.sourcehanserifcn = slot0
+
+					slot0.fonts()
+				end), false, false)
+			end
 		end
 	}, function (slot0)
 		slot0(slot0)

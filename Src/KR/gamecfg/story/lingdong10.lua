@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 205070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "쓸데없는 발버둥이었다곤 하나…뭐 무인답게 마지막까지 잘 싸웠네.",
@@ -25,7 +25,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…로열 네이비의 자매들이여! 샤른호르스트와의 싸움은 우리가 승리하였으나……",
 			typewriter = {
@@ -40,7 +40,7 @@ return {
 		{
 			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "혹시 자신들의 몇 배나 되는 함대와 싸우게 된다면, 오늘의 샤른호르스트처럼 싸워주길 바란다!!",
 			typewriter = {
@@ -54,7 +54,7 @@ return {
 		},
 		{
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "……",
@@ -74,7 +74,7 @@ return {
 		{
 			actor = 205070,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 귀환하지. 앞으로의 작전에서도 빈틈없이 움직여달라고.",
 			typewriter = {

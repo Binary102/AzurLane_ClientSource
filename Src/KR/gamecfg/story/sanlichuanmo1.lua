@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"미카사 선배의 프라모델 박물관\n\n<size=30>하지 말라면 꼭…</size>",
+					"미카사 선배의 프라모델 박물관\n\n<size=45>하지 말라면 꼭…</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이, 이게 바로 소문의…",
 			typewriter = {
 				speed = 0.05,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,7 +92,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -105,7 +105,7 @@ return {
 			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "에헴! 예전부터 계속 모두에게 보여주고 싶었던 것이다. 막상 공개하고 싶었지만 왠지 좀 쑥스럽더군……",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_sanli_cg_1",
 			side = 2,
 			dir = 1,
@@ -139,7 +139,7 @@ return {
 			actorName = "{namecode:82}",
 			side = 2,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 완벽한 조형! 정교하게 재현된 포탑! 그리고 이 하늘 드높이 치솟은 함교!",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오…미카사 선배가 함선 프라모델을 모으고 있었다니!",
 			effects = {
 				{
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래도 자기 자신의 함선 프라모델을 보는 건 역시 왠지 좀 부끄럽단 말이지…아하하하…",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어머, 1항전 선배들의 함선 프라모델도 있네요~",
 			flashout = {
 				dur = 1,
@@ -228,7 +228,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하마터면 무슨 짓을 또 저·지·를·뻔 했네요. 후후후~♪",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -264,7 +264,7 @@ return {
 			actor = 304020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시…이 정도면 미카사 선배의 '박물관' 이라 할 만하네요… (작은 목소리로) 여기서 연회를 열면 딱일 것 같은데……",
 			typewriter = {
@@ -280,7 +280,7 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "히에이, 당신 혹시……",
 			typewriter = {
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_sanli_cg_1",
 			dir = 1,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하하하, 사양 말게나! 여기 있는 전시품을 소개하도록 하지! 여기 있는 건 전장의 불꽃을 헤치고 싸웠던 우리 전함들의 프라모델이다! 그리고 저쪽에 있는 건 정규 항공모함인……",
 			typewriter = {
 				speed = 0.05,
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_2",
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:34}",
 			say = "무, 무츠키, 너무 잡아당기지 마아……",
 			flashout = {
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_sanli_cg_2",
 			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -358,7 +358,7 @@ return {
 			actorName = "{namecode:34}",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미카사 선배, 대단해……",
 			typewriter = {
@@ -370,7 +370,7 @@ return {
 			actorName = "{namecode:82}",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오오, 너희들도 와있었구나? 하하하, 마음껏 봐도 좋다! 아, 바닥이 미끄러우니 넘어지지 않도록 조심하라고!",
 			typewriter = {
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_sanli_cg_2",
 			dir = 1,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그리고, 이 방에는 침입자에 대처하기 위해 프라모델을 지킬 수 있는 경보장치가 설치되어 있다. 잘못해서 경보장치를 만지지 않도록.",
 			typewriter = {
 				speed = 0.05,
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_sanli_cg_3",
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:33}",
 			say = "응? 이거 뭐야?",
 			flashout = {
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_sanli_cg_2",
 			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -444,7 +444,7 @@ return {
 			actorName = "{namecode:33}",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "영차~ 휴, 되게 높다~ 응? 만…지…지…마…시…오?",
 			typewriter = {
@@ -460,7 +460,7 @@ return {
 			actorName = "{namecode:33}",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "만지지 말라 그러면 더 만지고 싶잖아! …호잇!",
 			typewriter = {
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 소리는……! 설마 자폭장치가 기동 된 건가?!",
 			typewriter = {
 				speed = 0.05,
@@ -534,7 +534,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "왜 자폭장치 같은 게 있는 거에요?!",
 			typewriter = {
 				speed = 0.05,
@@ -560,7 +560,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -575,7 +575,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -590,7 +590,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			actorName = "{namecode:96}",
@@ -634,7 +634,7 @@ return {
 				{
 					actor = 307060,
 					pos = {
-						x = -400
+						x = -600
 					}
 				}
 			},
@@ -648,7 +648,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -656,17 +656,17 @@ return {
 					number = 2
 				},
 				{
-					y = -600,
+					y = -900,
 					type = "move",
 					delay = 0.5,
 					dur = 0.4,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
 		{
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -689,7 +689,7 @@ return {
 		{
 			actor = 304020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "저런……흔적도 없이 날아가 버렸네요……",
@@ -703,7 +703,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -741,7 +741,7 @@ return {
 			actorName = "{namecode:82}",
 			side = 2,
 			bgName = "bg_sanli_cg_4",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내가 그토록 힘들게 모아온 귀여운 후배들의 프라모델이……전부……(털썩)",
 			typewriter = {
@@ -757,7 +757,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			bgName = "bg_sanli_cg_4",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "선배, 정신 차려요!",
 			typewriter = {
@@ -775,7 +775,7 @@ return {
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……이렇게 가만히 있는다고 해결될 리 없지…어떻게 정리하고 다시 세울지를 먼저 생각하는 편이……",
 			typewriter = {
 				speed = 0.05,
@@ -792,7 +792,7 @@ return {
 			bgName = "bg_sanli_cg_4",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "자자, 무츠키랑 키사라기도 울지 말고, 뚝! 즈이카쿠, 모두를 불러주지 않겠어? 손이 꽤 많이 필요할 것 같으니까……",
 			typewriter = {
 				speed = 0.05,
@@ -810,7 +810,7 @@ return {
 			say = "쇼카쿠 언니…알았어! 지금 모두를 불러올게!",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -825,7 +825,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,

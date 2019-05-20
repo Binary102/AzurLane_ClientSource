@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>一 精彩瞬间！隔壁的小加加</size>",
+					"Best Pictures!\n\n<size=45>一 精彩瞬间！隔壁的小加加</size>",
 					1
 				}
 			}
@@ -31,7 +31,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "♪～♪～♪",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_school",
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "当场逮捕喵！偷拍也就算了，还盗用{namecode:98}的复印机，这是大罪喵！",
 			flashout = {
 				dur = 1,
@@ -104,7 +104,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 2,
 					type = "shake"
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -140,7 +140,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "诶诶……（倒地）",
 			typewriter = {
 				speed = 0.05,
@@ -173,7 +173,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					dur = 0.4,
 					number = 1,
 					type = "shake"
@@ -221,7 +221,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "♪～♪～♪",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官~我马上就弄完啦~然后我们再去找列克星敦姐姐上课吧！",
 			typewriter = {

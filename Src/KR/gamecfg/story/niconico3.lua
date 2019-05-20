@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最近,綾波の様子が…？\n\n<size=30>その三　干物同盟！？</size>",
+					"最近,綾波の様子が…？\n\n<size=45>その三　干物同盟！？</size>",
 					1
 				}
 			}
@@ -16,7 +16,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "「アヤナミ」凄いな…まさか幽霊さんとここまでやりあえるなんて～",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "「L・I」が本気を出せば,綾波は勝てないはず…",
 			typewriter = {
@@ -46,7 +46,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "フッフッフッ,「アヤナミ」の成長を楽しみにしてるよ～",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "で,これから何するのかな？うーん生放送巡り？新番アニメチェック？むむむ悩ましいの…",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "ふぅ……",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "（トントン）",
@@ -101,7 +101,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "うん,この音,指揮官ですね…今行くのです",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "やはり指揮官です…うん？部屋に誰も居ないのです……",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "「ニコ生」で知り合ったトモダチです。",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 		{
 			actor = 900053,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "お出かけ…ですか？えっと,この動画を見てから考えるのです――",
 			typewriter = {

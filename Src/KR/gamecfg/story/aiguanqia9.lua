@@ -7,7 +7,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이걸로 마지막! 에이!",
 			typewriter = {
@@ -69,7 +69,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -80,7 +80,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "해냈어요! 졸개들은 대부분 정리했어요!",
 			typewriter = {
@@ -95,7 +95,7 @@ return {
 		{
 			actor = 301110,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "과연! 이걸로 '2탄 보스'까지의 길이 열렸네!",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 		{
 			actor = 301120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "찾았습니다. 다음은 '2탄 보스'를 쓰러트리기만 하면 되네요.",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -159,7 +159,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "키즈나 아이, 조금 전처럼 되지 않도록 조심해. 그리고, 역시 혼자는 위험해.",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -189,7 +189,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -201,7 +201,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",

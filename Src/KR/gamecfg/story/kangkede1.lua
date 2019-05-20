@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"스위티 콩코드\n\n<size=30>달콤한 여자아이?</size>",
+					"스위티 콩코드\n\n<size=45>달콤한 여자아이?</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우……꽤 오래 일했네…잠깐 휴식~ 슬슬 당분 보충해야지~♪",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으음~ 마이쪙~! 일 끝난 뒤 먹는 사탕은 최고라니깐!",
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -103,7 +103,7 @@ return {
 			actor = 102180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후후, 지휘관도 당분 보충 안 해볼래? 업무 볼 때도 머리에도 좋다구♪",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "앗, 단 거 이야기하다 훈련 보고서 쓰는 걸 깜빡했어. 이것도 정리해야 되는데.",
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아자, 업무에 집중 집중~♪",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아! 무츠키! 사탕 안 바꿔 먹을래?",
 			flashout = {
 				dur = 0.5,
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저기 있는 건 오마하잖아……어~이! 또 간식 사고 있잖아! 나중에 좀 달라고 졸라봐야지~♪",
 			flashout = {
 				dur = 0.5,
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후하~ 업무 끄~읕! 아 피곤해! 지휘관, 어깨 좀 주물러줘~",
 			flashout = {
 				dur = 0.5,
@@ -272,7 +272,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관~ 어깨 좀 주물러줘~ 나중에 답례해 줄 테니까~",
 			typewriter = {
 				speed = 0.05,
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아좋아, 시원하네♪ 지휘관, 안마 잘하는구나~",
 			typewriter = {
 				speed = 0.05,
@@ -346,7 +346,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼그럼, 나도 답례를 해줘야겠지~?",
 			typewriter = {
 				speed = 0.05,
@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 102180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "자자, 앉아봐 앉아봐~ 답례로……나도 어깨를 주물러줄게!",
 			typewriter = {
 				speed = 0.05,

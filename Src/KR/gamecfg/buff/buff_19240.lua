@@ -28,12 +28,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 1,
 				quota = 1,
 				skill_id = 19240,
-				hpRatioList = {
-					1,
-					0.7
-				}
+				hpLowerBound = 0.7
 			}
 		},
 		{
@@ -43,12 +41,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.7,
 				quota = 1,
 				skill_id = 19241,
-				hpRatioList = {
-					0.7,
-					0.3
-				}
+				hpLowerBound = 0.3
 			}
 		},
 		{
@@ -58,12 +54,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.3,
 				quota = 1,
 				skill_id = 19242,
-				hpRatioList = {
-					0.3,
-					0
-				}
+				hpLowerBound = 0
 			}
 		}
 	}

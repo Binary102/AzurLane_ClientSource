@@ -48,7 +48,7 @@ return {
 					}
 				},
 				ui = {
-					path = "/UICamera/Canvas/UIMain/buildShipUI(Clone)/bg/frame/projectRect/projects/heavy",
+					path = "/UICamera/Canvas/UIMain/buildShipUI(Clone)/bg/frame/projects/heavy",
 					triggerType = {
 						2,
 						true

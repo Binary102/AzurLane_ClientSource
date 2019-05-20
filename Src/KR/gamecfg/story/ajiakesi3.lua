@@ -11,14 +11,14 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=30>三 秘书舰的责任</size>",
+					"我的美好回忆\n\n<size=45>三 秘书舰的责任</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好了，今天的秘书舰工作到此结束。指挥官，辛苦啦。",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -152,7 +152,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "阿贾克斯完成工作非常出色，但她作为秘书舰最大的特点却是——",
@@ -181,7 +181,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -197,7 +197,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -213,7 +213,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -245,7 +245,7 @@ return {
 		},
 		{
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 		},
 		{
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

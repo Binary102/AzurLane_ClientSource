@@ -11,7 +11,9 @@ function slot0.register(slot0)
 	slot0.viewComponent:updatePlayer(slot3)
 	slot0.viewComponent:setShips(slot5)
 	slot0:bind(slot0.OPEN_RANK, function (slot0)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+			page = PowerRank.TYPE_MILITARY_RANK
+		})
 	end)
 	slot0:bind(slot0.OPEN_RIVAL_INFO, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
@@ -88,9 +90,6 @@ function slot0.handleNotification(slot0, slot1)
 			}
 		}))
 	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == ShopsMediator then
-			triggerToggle(slot0.viewComponent.shopBtn, false)
-		end
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED and slot3.id == ActivityConst.MILITARY_EXERCISE_ACTIVITY_ID then
 		slot0.viewComponent:setActivity(slot3)
 		slot0.viewComponent:updateSeasonLeftTime(slot3.stopTime)

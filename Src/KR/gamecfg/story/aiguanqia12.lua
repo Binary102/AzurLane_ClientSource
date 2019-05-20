@@ -7,7 +7,7 @@ return {
 		{
 			actor = 301050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "장애물 때문에 저쪽으로 갈 수 없어요. 어떻게든 저걸 없애고 싶은데…",
 			typewriter = {
@@ -22,7 +22,7 @@ return {
 		{
 			actor = 101170,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저 수륙양용차, 방해돼.",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 		{
 			actor = 401230,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭔가 좋은 방법이 있었으면 좋겠는데요…",
 			typewriter = {
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			actor = 10400030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "키즈나 아이",
@@ -68,7 +68,7 @@ return {
 		{
 			actor = 301110,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이게 바로 '자폭 스위치'인 걸까나? 누르명 콰쾅~! '게임 오버'되어버린다거나!",
 			typewriter = {
@@ -83,7 +83,7 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이카즈치 말대로, 그럴 가능성도 있으니까, 너무 부주의하게 만지지 않는 편이 좋겠네요……",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 		{
 			expression = 5,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400030,
 			actorName = "키즈나 아이",
@@ -127,7 +127,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -137,7 +137,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			actor = 201210,
 			dir = 1,
@@ -148,13 +148,13 @@ return {
 				{
 					actor = 101170,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301110,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -183,7 +183,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어, 어라…? 사, 살아있어…?",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 		{
 			actor = 301120,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저쪽에서 폭발음이 들렸어요.",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저건… 조금 전까지 길을 막고 있던 차가 날아갔어요!",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -238,7 +238,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400030,
 			actorName = "키즈나 아이",
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			actor = 301120,
 			dir = 1,
@@ -264,13 +264,13 @@ return {
 				{
 					actor = 401230,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301050,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -286,7 +286,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400030,
 			actorName = "키즈나 아이",
@@ -301,7 +301,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -313,7 +313,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이, 노 프러블럼.",
 			typewriter = {

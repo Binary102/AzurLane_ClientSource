@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"여름(?)의 대작전\n\n<size=30>제5장　부탁</size>",
+					"여름(?)의 대작전\n\n<size=45>제5장　부탁</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -36,7 +36,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…？",
 			typewriter = {
 				speed = 0.05,
@@ -49,7 +49,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -68,7 +68,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……！？",
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래서… 심신단련을 위해, 함께 참가했으면 좋겠어요!",
 			flashout = {
 				dur = 1,
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			withoutPainting = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
@@ -178,7 +178,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",

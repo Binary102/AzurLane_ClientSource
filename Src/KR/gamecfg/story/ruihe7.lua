@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>七 不屈之鹤</size>",
+					"幸运之鹤\n\n<size=45>七 不屈之鹤</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			actorName = "{namecode:95}",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -119,7 +119,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -153,7 +153,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					dur = 0.8,
 					number = 1,
 					type = "shake"
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，刚才谢谢你了",
 			flashout = {
 				dur = 1,
@@ -222,7 +222,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -256,7 +256,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 2,
 					type = "shake"
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呐…指挥官…？",
 			typewriter = {
 				speed = 0.05,

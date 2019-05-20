@@ -10,7 +10,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 305070,
 			stopbgm = true,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 305070,
@@ -152,7 +152,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 305070,
@@ -168,7 +168,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 305070,
@@ -185,9 +185,9 @@ return {
 		{
 			actor = 305070,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
-			say = "<size=35>……카가급 전함, 카가!</size>",
+			say = "<size=52.5>……카가급 전함, 카가!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,27 +199,27 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "<size=35>……아마기급 순양전함, 아마기.</size>",
+			say = "<size=52.5>……아마기급 순양전함, 아마기.</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			actor = 305070,
 			dir = -1,
 			bgm = "theme",
 			hideOther = true,
 			actorName = "{namecode:92}&{namecode:161}",
-			say = "<size=40>전투 개시!</size>",
+			say = "<size=60>전투 개시!</size>",
 			subActors = {
 				{
 					dir = -1,
 					actor = 304050,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			}

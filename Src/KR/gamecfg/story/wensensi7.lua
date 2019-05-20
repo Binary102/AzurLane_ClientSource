@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>七 妹妹的笑容</size>",
+					"妹妹的变化\n\n<size=45>七 妹妹的笑容</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指挥官，这些文件你看是这样吗？",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "还有这是今天的日程……啊，这里写错了……",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "对了，指挥官，给你这个……",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "文森斯递过来……一包包装精美的饼干？",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "饼干的形状做成了自己的样子，虽然有些粗糙，但是能够感觉到烘烤的人的心意。",
 			typewriter = {
 				speed = 0.05,
@@ -159,7 +159,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这是，之前阿斯托利亚姐姐教我做指挥官喜欢的点心时一起做的。",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "想要感谢指挥官一直以来对我的照顾",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "同时也做了姐姐们的份，不过交给她们的时候，不知道为什么，昆西姐姐当场就哭出来了…",
 			typewriter = {
@@ -221,7 +221,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "虽然被照顾很幸福，能想睡就睡也很幸福…",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不过，和姐姐们还有指挥官一起努力好像更让人高兴…",
 			typewriter = {
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "以后文森斯也会慢慢加油的。",
 			typewriter = {
 				speed = 0.05,
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "嗯…！不过，指挥官…以后还会陪我一起午睡的，对吧？",
 			typewriter = {
 				speed = 0.05,

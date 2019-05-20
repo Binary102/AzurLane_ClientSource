@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>一  {namecode:96}的早晨</size>",
+					"幸运之鹤\n\n<size=45>一  {namecode:96}的早晨</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呼…哈啊…咕…Zzzzzzz",
 			flashout = {
 				dur = 1,
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -167,11 +167,11 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 1.2,
-					x = 20,
+					x = 30,
 					number = 1
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,
@@ -190,7 +190,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

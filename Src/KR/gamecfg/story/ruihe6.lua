@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>六  深夜的插曲</size>",
+					"幸运之鹤\n\n<size=45>六  深夜的插曲</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -78,7 +78,7 @@ return {
 			actorName = "{namecode:95}",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -110,7 +110,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -154,7 +154,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -177,7 +177,7 @@ return {
 			actorName = "{namecode:95}",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -236,7 +236,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -276,7 +276,7 @@ return {
 			blackBg = true,
 			actorName = "{namecode:95}",
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…是不是玩笑有点开过头了呢？",
 			flashout = {
 				dur = 0.5,

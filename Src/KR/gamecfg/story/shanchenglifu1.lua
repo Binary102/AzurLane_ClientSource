@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"모항의 특별 연회\n\n<size=30>1. 준비 완료다냥!</size>",
+					"모항의 특별 연회\n\n<size=45>1. 준비 완료다냥!</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -84,7 +84,7 @@ return {
 			say = "내려와 주십시오, 새 옷이 더러워지니.",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -105,7 +105,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -124,13 +124,13 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "히에이도 주방 관리 수고한다냥~ 오늘 밤에 쓸 식자재랑 다른 것도 전부 여기 있을 거다냥!",
 			actor = 312012,
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -189,7 +189,7 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -204,7 +204,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -221,7 +221,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -293,7 +293,7 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -308,7 +308,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -318,7 +318,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -335,7 +335,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -369,7 +369,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -389,7 +389,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -424,7 +424,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312012,
 			actorName = "{namecode:98}",
@@ -441,13 +441,13 @@ return {
 				{
 					y = 0,
 					dur = 0.7,
-					x = 450,
+					x = 675,
 					type = "move"
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -458,7 +458,7 @@ return {
 				{
 					actor = 301180,
 					pos = {
-						x = 100
+						x = 150
 					}
 				}
 			},
@@ -472,7 +472,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -482,7 +482,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -499,7 +499,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -509,7 +509,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -543,7 +543,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -563,7 +563,7 @@ return {
 			say = "그렇네요, 지금도 일을 하고 있는…",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301180,
 			actorName = "{namecode:20}",
@@ -581,7 +581,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -598,7 +598,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -615,7 +615,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -632,7 +632,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -649,7 +649,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
@@ -670,12 +670,12 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -692,7 +692,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,

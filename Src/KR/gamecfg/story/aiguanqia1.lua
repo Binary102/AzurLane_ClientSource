@@ -28,7 +28,7 @@ return {
 			bgName = "star_level_bg_210",
 			bgm = "story-1",
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "안녕하세요~! 키즈나 아이입니다!",
 			flashout = {
 				dur = 0.5,
@@ -58,7 +58,7 @@ return {
 			actor = 900179,
 			side = 2,
 			bgName = "star_level_bg_210",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아마 처음 제 영상을 보시는 분들도 있을 것 같아서, 자기소개부터 하겠습니다! 저, 사실은……AI랍니다!",
 			typewriter = {
@@ -74,7 +74,7 @@ return {
 			actor = 900179,
 			side = 2,
 			bgName = "star_level_bg_210",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "평소에는 이 하얀 공간에서 재밌는 걸 하거나, 게임 실황을 하거나 한다구요~!",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그래서, 오늘은 오랜만에 벽람항로 실황을 하고자 합니다~!",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			actor = 900179,
 			side = 2,
 			bgName = "star_level_bg_210",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "마침 곧 콜라보레이션이 시작되는 모양이네요~ 누구랑 콜라보레이션할까? 기대되네요~!",
 			typewriter = {
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어쩌면…… 나랑 콜라보레이션한다거나! 막 이래~!",
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "예전부터 계속 콜라보레이션 하고 싶다고 말은 하고 있지만요~ 언제쯤! 저와의 콜라보레이션이 개최되는 걸까요!!",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -169,7 +169,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭐, 다시 마음 가다듬고 벽람항로나 해야겠다~! 타카오쨩~! 잘 지냈어~!?",
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			actor = 900179,
 			side = 2,
 			bgName = "star_level_bg_210",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "평범하게 플레이하는 것도 좋겠지만, 오늘은 랜덤 워드 생성기를 써서 나온 단어에 대해 답하면서 플레이하겠습니다~!",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "간다~!, 두구두구~ 짠!",
 			typewriter = {
 				speed = 0.05,
@@ -214,7 +214,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,
@@ -229,7 +229,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어라? 갑자기 랜덤 워드 생성기에서 왠 빛이……",
 			flashN = {
 				color = {
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_210",
 			dir = 1,
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭔가요 이건!!?? 우와아아아아아아아아아아아아아아아아아아아아!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -278,7 +278,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			bgm = "level",
 			actor = 900179,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에!? 에!!??",
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -365,14 +365,14 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 900179,
 			blackNg = true,
 			say = "여기 어디야~~~~~~~~~~!!??",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {

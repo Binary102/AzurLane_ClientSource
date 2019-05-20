@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"유령 씨는 노력하지 않아\n\n<size=30>제3장　No more·훈련!</size>",
+					"유령 씨는 노력하지 않아\n\n<size=45>제3장　No more·훈련!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			actor = 106010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지, 지쳤어~ ……휴가 중인데 지쳤어……",
 			typewriter = {
@@ -33,7 +33,7 @@ return {
 		{
 			actor = 106010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "롱·아일랜드는, 이제 못 움직여……",
 			typewriter = {
@@ -48,7 +48,7 @@ return {
 		{
 			actor = 106010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐? 근육 트레이닝도 할 거라고!?",
 			typewriter = {
@@ -63,7 +63,7 @@ return {
 		{
 			actor = 106010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우으으─ 콜라랑 감자칩… 푹신푹신한 침대랑 에어컨… (털썩)",
 			typewriter = {

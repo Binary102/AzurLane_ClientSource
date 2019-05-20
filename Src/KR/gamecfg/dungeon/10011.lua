@@ -1,11 +1,11 @@
 return {
 	map_id = 10001,
-	id = 601120,
+	id = 10011,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 61,
+			timeCount = 41,
 			backGroundStageID = 1,
 			passCondition = 1,
 			totalArea = {
@@ -52,7 +52,7 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 13
+						timeout = 7
 					}
 				},
 				{
@@ -60,16 +60,32 @@ return {
 					waveIndex = 203,
 					preWaves = {},
 					triggerParams = {
-						timeout = 26
+						timeout = 12
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 204,
+					preWaves = {},
+					triggerParams = {
+						timeout = 17
+					}
+				},
+				{
+					triggerType = 1,
+					waveIndex = 205,
+					preWaves = {},
+					triggerParams = {
+						timeout = 22
 					}
 				},
 				{
 					triggerType = 1,
 					key = true,
-					waveIndex = 204,
+					waveIndex = 206,
 					preWaves = {},
 					triggerParams = {
-						timeout = 60
+						timeout = 40
 					}
 				},
 				{
@@ -88,16 +104,11 @@ return {
 							onceNumber = 3,
 							totalNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 31301,
+							delay = 0,
 							score = 1,
 							weaponID = {
-								316507
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
+								300015
 							}
 						}
 					}
@@ -118,22 +129,18 @@ return {
 							onceNumber = 3,
 							totalNumber = 6,
 							formation = 10006,
+							templateID = 31201,
 							delay = 0,
-							templateID = 31301,
 							score = 1,
 							weaponID = {
-								316507
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
+								300016
 							}
 						}
 					}
 				},
 				{
 					triggerType = 0,
+					key = true,
 					waveIndex = 103,
 					conditionType = 1,
 					preWaves = {
@@ -143,20 +150,65 @@ return {
 					spawn = {},
 					airFighter = {
 						{
-							interval = 6,
+							interval = 3,
 							onceNumber = 3,
 							totalNumber = 6,
 							formation = 10006,
+							templateID = 31301,
 							delay = 0,
-							templateID = 31201,
 							score = 1,
 							weaponID = {
-								316509
-							},
-							attr = {
-								airPower = 125,
-								maxHP = 90,
-								attackRating = 23
+								300015
+							}
+						}
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 104,
+					conditionType = 1,
+					preWaves = {
+						204
+					},
+					triggerParam = {},
+					spawn = {},
+					airFighter = {
+						{
+							interval = 3,
+							onceNumber = 3,
+							totalNumber = 6,
+							formation = 10006,
+							templateID = 31201,
+							delay = 0,
+							score = 1,
+							weaponID = {
+								300016
+							}
+						}
+					}
+				},
+				{
+					triggerType = 0,
+					key = true,
+					waveIndex = 105,
+					conditionType = 1,
+					preWaves = {
+						205
+					},
+					triggerParam = {},
+					spawn = {},
+					airFighter = {
+						{
+							interval = 3,
+							onceNumber = 3,
+							totalNumber = 6,
+							formation = 10006,
+							templateID = 31301,
+							delay = 0,
+							score = 1,
+							weaponID = {
+								300015
 							}
 						}
 					}

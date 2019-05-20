@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제4장 - 출격</size>",
+					"녹아내리는 얼음\n\n<size=45>제4장 - 출격</size>",
 					1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 		},
 		{
 			actor = 401200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 401190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -93,7 +93,7 @@ return {
 		},
 		{
 			actor = 401200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 		},
 		{
 			actor = 401210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 		},
 		{
 			actor = 401200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "곧 목적지에 도착한다. 회항할 준비를 해두도록.",
 			flashout = {
 				dur = 1,
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			hideOther = true,
@@ -185,13 +185,13 @@ return {
 				{
 					actor = 401200,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 401210,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -206,7 +206,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 401190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -242,7 +242,7 @@ return {
 		},
 		{
 			actor = 401200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -258,7 +258,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
@@ -311,7 +311,7 @@ return {
 		},
 		{
 			actor = 401200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 401190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -347,7 +347,7 @@ return {
 		},
 		{
 			actor = 401210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -363,7 +363,7 @@ return {
 		},
 		{
 			actor = 401210,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -379,7 +379,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 1,
 			dir = 1,
@@ -395,7 +395,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(내가 대체 왜 이러는 거지…?)",
 			flashout = {
 				dur = 1,

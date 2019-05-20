@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>三 女仆队的支援</size>",
+					"天狼星改造计划\n\n<size=45>三 女仆队的支援</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "“为了避免她在宴会上的举止被人看出是女仆，需要让她对女仆应有的举止拥有清晰的认识——",
 			flashout = {
 				dur = 1,
@@ -62,7 +62,7 @@ return {
 			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "“同时，既然身为秘书舰，从侍奉主人的角度出发，关于女仆的基本实力也需要更上一层楼”",
 			typewriter = {
@@ -78,7 +78,7 @@ return {
 			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……是这个意思吗，指挥官？",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "女仆长，请多多关照了",
 			typewriter = {
@@ -130,7 +130,7 @@ return {
 			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "虽然天狼星平时不负责基本的女仆业务，但是现在是特殊情况",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这次就不考虑平时的分工，让大家依次进行说明吧",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "那就拜托各位了。……为了主人……！",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202220,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "礼仪举止也得一并教呢",
 			flashout = {
 				dur = 0.5,
@@ -212,7 +212,7 @@ return {
 			actor = 202210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯，不用那么死板，先从能做和不能做的事情记起吧——",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……指挥室的扫除不要先擦地板，先整理柜子比较好做",
 			flashout = {
 				dur = 0.5,
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			actor = 202200,
@@ -270,7 +270,7 @@ return {
 				{
 					actor = 202180,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 203030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "emmm…肯特选手好像没什么可教的？",
 			flashout = {
 				dur = 0.5,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 203040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我可以教你一点不会被女仆长发现的摸鱼方法哦？",
 			typewriter = {
 				speed = 0.05,
@@ -337,7 +337,7 @@ return {
 			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……关于这点我也想恭听一下呢",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……深深感受到了自己的不足……",
 			typewriter = {
 				speed = 0.05,

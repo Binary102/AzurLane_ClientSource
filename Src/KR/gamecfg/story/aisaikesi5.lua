@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"선배와의 앙금\n\n<size=30>응어리 (상)</size>",
+					"선배와의 앙금\n\n<size=45>응어리 (상)</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네? 평소 제 활약에 대한 감사 표시로, 다음 비번 때 어디론가 외출하자…고요?",
 			flashout = {
 				dur = 0.5,
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "비서함으로서 해야 할 일을 한 것 뿐이니, 특별히 감사받을만한 일을 한 건…",
 			typewriter = {
 				speed = 0.05,
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지, 지휘관님께서 그렇게까지 말씀하신다면…",
 			typewriter = {
 				speed = 0.05,
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "장소가 다르다는 것 말고는, 평소 하는 모항의 순찰과 그다지 차이가 없네요…",
 			typewriter = {
 				speed = 0.05,
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아, 뭐 하실 말씀 있으세요?",
 			typewriter = {
 				speed = 0.05,
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "엔터프라이즈 선배를 어떻게 생각하는지…말씀이신가요……",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "엔터프라이즈 선배는 이글 유니온의 전설적인 영웅이죠, 모두가 존경하고 동경하는 존재…그리고 제 목표기도 해요.",
 			typewriter = {
@@ -243,7 +243,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저희들 에식스급은 그 대전 당시 탄생 이래로 언제나 기대받아왔지만, 많은 격전을 헤쳐온 엔터프라이즈 선배에는 미치지 못했어요.",
 			typewriter = {
@@ -259,7 +259,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래서 전 늘 선배에게 이겨서 인정받고 싶어요.",
 			typewriter = {
@@ -275,7 +275,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저번 연습전은 무승부로 끝났지만, 저…아무래도 승복할 수 없어서…",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "선배는 분명 절 귀여운 후배로만 대하느라 전력을 다하지 않았을 거에요.",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 저, 선배에게 인정받을 만큼 강해지진 않았나 봐요…",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러니까…응! 지금 정했습니다! 돌아가면 바로 특훈이에요!",
 			typewriter = {
@@ -339,7 +339,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러면, 언젠가 분명 선배를 뛰어넘어서, 선배에게…아니, 모두에게 인정받을 수 있을……",
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에, 엔터프라이즈 선배?!",
 			typewriter = {
 				speed = 0.05,
@@ -387,7 +387,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,

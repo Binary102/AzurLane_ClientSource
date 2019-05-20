@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"근하신년\n\n<size=30>제2장 - 연말의 대청소</size>",
+					"근하신년\n\n<size=45>제2장 - 연말의 대청소</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -34,7 +34,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "사쿠라 엠파이어의 여러분",
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			actor = 301140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:16}",
@@ -67,7 +67,7 @@ return {
 		{
 			say = "아아아앗! 방금 다 정리했는데……",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
@@ -86,7 +86,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:91}",
@@ -118,7 +118,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -134,7 +134,7 @@ return {
 		},
 		{
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:91}",
@@ -150,7 +150,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -167,7 +167,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머…… 뭔가 재밌는 거라도 하고 있니?",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 		},
 		{
 			actor = 307020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
@@ -197,7 +197,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -214,7 +214,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = " '대청소' 라…… 그러고 보니, 아까 지휘관이 누군가와 함께 있는 걸 봤는데……",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			actor = 307010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:91}",
@@ -249,14 +249,14 @@ return {
 			actor = 307030,
 			dir = -1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……",
 			subActors = {
 				{
 					actor = 307020,
 					dir = -1,
 					pos = {
-						x = -735
+						x = -1102.5
 					}
 				}
 			},
@@ -272,7 +272,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 '대청소' 는 이래야 재미있지. 우후훗",
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 		{
 			say = "계략으로 아카기를 꾀어내어 이쪽의 전력을 약화시키다니, 역시 메탈 블러드군.",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307020,
 			actorName = "{namecode:92}",
@@ -306,7 +306,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:93}",
@@ -322,7 +322,7 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:67}",
@@ -339,7 +339,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저기, 나도 도와줘도 될까?",
 			typewriter = {
@@ -353,7 +353,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -370,7 +370,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후, 사쿠라 엠파이어의 '정월' 이란 것에 꽤 흥미가 있어서 말이지…",
 			typewriter = {

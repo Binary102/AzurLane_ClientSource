@@ -25,7 +25,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -74,7 +74,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그러면 이렇게 하도록 할까요……당신이 이긴다면, 제가 당신의 길을 막는 것을 제거하는 존재가 되고,。",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,

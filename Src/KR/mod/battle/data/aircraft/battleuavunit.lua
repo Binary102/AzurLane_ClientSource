@@ -85,4 +85,18 @@ function ys.Battle.BattelUAVUnit._updateHover(slot0, slot1)
 	slot0._pos = Vector3(math.sin(slot2) * slot0._range, 15, math.cos(slot2) * slot0._range):Add(slot0._centerPos)
 end
 
+function ys.Battle.BattelUAVUnit.GetSize(slot0)
+	if slot0._portalState == slot0.HOVER_STATE then
+		if math.cos(slot1) > 0 and slot2 < 0.2 then
+			slot2 = 0.2
+		elseif slot2 <= 0 and slot2 > -0.2 then
+			slot2 = -0.2
+		end
+
+		return slot2
+	else
+		slot0.super.GetSize(slot0)
+	end
+end
+
 return

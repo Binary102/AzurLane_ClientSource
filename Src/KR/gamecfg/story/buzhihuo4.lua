@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"만능 점원 시라누이\n\n<size=30>비즈니스 회의?</size>",
+					"만능 점원 시라누이\n\n<size=45>비즈니스 회의?</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "시라누이냥!!!",
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = -1000,
+				x = -1500,
 				y = 0
 			},
 			action = {
@@ -80,7 +80,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.7,
-					x = 2000
+					x = 3000
 				}
 			}
 		},
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "너무해냥! 왜 아카시를 피하는 거냥!",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우리는 친구 아니였냥!!",
 			typewriter = {
 				speed = 0.05,
@@ -157,7 +157,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -170,7 +170,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "친구, 였던가요?",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……크흠! 누이누이는 여전히 어둡구냥! 아카시처럼 매일 기운 넘치게 지내는 편이 좋다냥!",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "쓸데없는 참견을 하시는군요. …그래서, 용건은?",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "새로운 프로모션 계획에 관해서다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -244,7 +244,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "혹시나 했는데, 역시나 또 쓸데없는 얘기였군요……이 멍청한 고양이, 매번 그렇게 이상한 걸 들고 나와서 사고를 친 게 정녕 기억이 안 나나 보군요……",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아니다냥! 이번엔 다르다냥! 분명 별문제 없을 거다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -286,7 +286,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어찌 됐든 이번에는 제발 좀 그냥 넘어가 주셨으면 좋겠습니다만.",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -311,7 +311,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -339,14 +339,14 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "큭, 이 멍청한 고양이가 또……들러붙지 좀 마십시오!",
 			subActors = {
 				{
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -372,7 +372,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -386,7 +386,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -400,14 +400,14 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아……알았사오니 제발 좀 떨어지셔요!",
 			subActors = {
 				{
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "다행이다냥! 계획서는 여기있다냥! 아카시는 준비하러 갈게냥!",
 			typewriter = {
 				speed = 0.05,
@@ -441,7 +441,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.7,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "계획서를 본 시라누이의 표정이 점점 어두워지는 게 눈에 보였다……",
 			typewriter = {
 				speed = 0.05,
@@ -466,7 +466,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하아……여전히 허점투성이군요. 결국 수습은 또 이쪽에서 할 수밖에……",
 			typewriter = {

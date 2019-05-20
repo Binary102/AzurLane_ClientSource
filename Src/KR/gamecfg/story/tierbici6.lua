@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제6장 - 북쪽의 여왕의 미소</size>",
+					"녹아내리는 얼음\n\n<size=45>제6장 - 북쪽의 여왕의 미소</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘 임무가 이렇게 많을 줄이야, 어제 업무 스케쥴 작성할 때 이 부분도 고려했었어야 했는데.",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "수고했어, 지휘관. 이렇게 늦은 시간까지 업무로 폐를 끼쳐 정말 미안하군.",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "혹시 피곤하면 먼저 들어가 쉬어도 돼. 남은 업무는 내게 맡기고.",
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "내가? 뭐가 어떻게 변했다는 거지?",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "남을 신경 써준다고? 그런 건 비서함 본연의 의무 아닌가.",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관을 아껴준다? 그것도 비서함 본연의 의무지.",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "곧잘 남들과 어울린다고? 그것 또한 비서함의 업무일 뿐이다.",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "얼음이 녹아내렸다…는 건가.",
 			typewriter = {
@@ -245,7 +245,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아아……",
 			typewriter = {
@@ -261,7 +261,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잊고 있던 게 아니었어……",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "난 그저 얼음처럼 차가운 껍데기에 몸을 감추고, 모든 것을 멀리했던 거야…동료마저도.",
 			typewriter = {
@@ -293,7 +293,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "난 나 스스로가 이미 차가움과 고독함에 익숙해진 줄 알았는데……사실은 그저 이 따뜻함을 잊고 있었을 뿐이었던 거야.",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고마워, 지휘관.",
 			typewriter = {

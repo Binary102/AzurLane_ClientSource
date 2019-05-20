@@ -8,7 +8,7 @@ class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_error_noShip", slot4))
 
 		if slot6 then
-			slot6()
+			slot6(100)
 		end
 
 		return
@@ -26,7 +26,7 @@ class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		pg.TipsMgr:GetInstance():ShowTips(i18n("ship_equipToShip_error_noEquip"))
 
 		if slot6 then
-			slot6()
+			slot6(101)
 		end
 
 		return
@@ -35,12 +35,11 @@ class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(12006, {
 		equip_id = slot3,
 		ship_id = slot4,
-		pos = slot5
+		pos = slot5,
+		type = slot10:GetCategory()
 	}, 12007, function (slot0)
 		if slot0.result == 0 then
-			slot2 = Equipment.New({
-				id = slot2.id
-			})
+			slot0:getEquipmentById(slot0).count = 1
 
 			if slot0:getEquip(slot0.getEquip) then
 				slot3 = pg.equip_skin_template
@@ -51,23 +50,25 @@ class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					end) then
 						slot2.skinId = slot1.skinId
 					else
-						slot3:addEquipmentSkin(slot1.skinId, 1)
+						slot2:addEquipmentSkin(slot1.skinId, 1)
 						pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
 					end
+
+					slot1.skinId = 0
 				end
 
-				slot3:addEquipmentById(slot1.id, 1, true)
+				slot2:addEquipment(slot1)
 			end
 
 			slot0:updateEquip(slot1, slot2)
 			slot0:updateShip(slot0)
-			slot0.updateShip:removeEquipmentById(slot0, 1)
-			slot6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, slot0)
-			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[i18n].name), "green")
+			slot2:removeEquipmentById(slot2.removeEquipmentById, 1)
+			slot5:sendNotification(GAME.EQUIP_TO_SHIP_DONE, slot0)
+			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_equipToShip_ok", slot2.config.name), "green")
 			playSoundEffect(SFX_UI_DOCKYARD_EQUIPON)
 
-			if pg.equip_data_statistics[i18n].name then
-				slot7()
+			if "green" then
+				slot6()
 			end
 
 			return
@@ -75,8 +76,8 @@ class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 
-		if slot7 then
-			slot7()
+		if slot6 then
+			slot6()
 		end
 	end)
 end

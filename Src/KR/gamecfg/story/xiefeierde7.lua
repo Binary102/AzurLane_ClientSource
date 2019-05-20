@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>七 谢菲尔德的心意·下</size>",
+					"这个女仆不太冷\n\n<size=45>七 谢菲尔德的心意·下</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "今天您竟然醒的这么早，难道太阳从西边出来了吗。",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……主人。",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "谢菲忽然走到自己身边，并用手搭上自己的额头",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……并没有发烧呢，难道是在哪里敲到脑袋了？",
 			typewriter = {
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "似乎被很失礼地担心了。",
 			typewriter = {
 				speed = 0.05,
@@ -203,7 +203,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "原来如此，您听到了刚才我和纽卡斯尔的交谈吗……",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "真是的，明明没听到或者全部听到就不会有这种误解，真是让人没辙的主人。",
 			typewriter = {
@@ -249,7 +249,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "刚才的谈话，其实是恋爱方面的谈心",
 			typewriter = {
@@ -279,7 +279,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "纽卡斯尔告诉我，既然爱慕您的话，就应该更勇敢地告诉您。",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "但我觉得，像这样待在您的身边就已经满足了，却没想到会导致您的这番行动，那就没有办法了……",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "主人，谢菲尔德平时的言行有令您困扰吗？",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "如果有的话，您可以理解为这是我的爱情表现",
 			typewriter = {
@@ -357,7 +357,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "对我来说，能够这样永远侍奉您就是我的愿望，我的幸福",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "——我深爱着您，主人。",
 			typewriter = {

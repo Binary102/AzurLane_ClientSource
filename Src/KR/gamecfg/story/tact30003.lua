@@ -6,7 +6,7 @@ return {
 		{
 			actor = 204030,
 			side = 2,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "哎呀，连黑暗界前辈都来参了一脚吗，{namecode:89}女士还真是手段高超呢……",
 			shake = {
 				speed = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "不妨先把你的“小姐”去了如何？",
 			shake = {
 				speed = 1,
@@ -81,7 +81,7 @@ return {
 			actor = 205060,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "咳咳，虽然我不介意开个茶会聊聊天，不过胡德，别忘了我们的目的",
 			shake = {
 				speed = 1,
@@ -99,7 +99,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "说的也是。那么，茶会就留到巧克力之后吧，为了友人的愿望，身为淑女，即使跨越sis萨拉和罗德尼的尸体，也要达成这个目的",
 			shake = {
 				speed = 1,
@@ -117,7 +117,7 @@ return {
 		{
 			actor = 213011,
 			side = 0,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "那两位还很精神呢……",
 			shake = {
 				speed = 1,
@@ -135,7 +135,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "以及，虽然只是题外话，身为淑女，我胡德对于巧克力并没有特别的兴趣哦？只是淑女兴致使然的助人为乐罢了",
 			shake = {
 				speed = 1,
@@ -154,7 +154,7 @@ return {
 			actor = 205060,
 			side = 1,
 			dir = -1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "真敢说呢……",
 			shake = {
 				speed = 1,
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			nameColor = "#D6341D",
+			nameColor = "#ff5c5c",
 			say = "愿荣耀存于这场战斗，全舰，开火！",
 			shake = {
 				speed = 1,

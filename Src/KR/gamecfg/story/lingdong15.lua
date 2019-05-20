@@ -46,7 +46,7 @@ return {
 		},
 		{
 			actor = 207040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "어째서야! 벌써 이렇게나 너덜너덜해졌는데, 왜 투항하지 않는 거야?!! 이대로라면 진짜 가라앉고 만다고!",
@@ -96,7 +96,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말이지! 당신 언니도 그렇고, 왜 메탈 블러드 사람들은 다 이렇게 꽉 막혔담?!",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래! 당신 언니와의 싸움은, 날 포함해서 거의 모든 로열 네이비의 함선들이 투입되었었어. 뭐, 나는 멀리서 함재기로 관찰만 했었지만…",
 			typewriter = {
@@ -141,7 +141,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그때, 비스마르크도 당신과 똑같은 말을 했었거든!",
 			typewriter = {
@@ -186,7 +186,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어……?",
 			typewriter = {
@@ -276,7 +276,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐야…그런 거, 치사하잖아…",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "비극의 히로인이라도 되고 싶은 거야?! 아니면 그런 게 멋있다고 생각하는 거야?!…살아남을 기회가 있는데, 자기 입으로 가라앉아도 좋다니…",
 			typewriter = {
@@ -336,7 +336,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러면 왠지 이쪽이 악당 같잖아……",
 			typewriter = {
@@ -351,7 +351,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥! …완전 어이없어. \"함대 방향 전환, 반속으로 작전 해역에서 이탈한다.\"",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무훈과 명예…물론 매력적이지…그치만! 이러면 당신이…",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 		{
 			actor = 207040,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아냐…하, 함재기의 연료가 떨어졌을 뿐이야! …운이 좋았네! 흥!",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "\"기함 듀크 오브 요크에게 보고한다…\"",
 			typewriter = {
@@ -426,7 +426,7 @@ return {
 		{
 			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "\"…'북쪽의 여왕' 에게 큰 피해를 입혔지만, 격침시키진 못했다. '텅스텐 작전' 은 실패……라고\"",
 			typewriter = {

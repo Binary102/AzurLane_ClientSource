@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"무희 천사 에밀\n\n<size=30>인기만점 무희</size>",
+					"무희 천사 에밀\n\n<size=45>인기만점 무희</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "구름 한 점 없이 파란 하늘, 따뜻하고도 눈 부신 태양……오늘도 날씨 좋네~",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모처럼 화창한 날이니까, 몸도 좀 움직여야지~",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 의뢰나간 애들 마중 나갈 때 말고도, 좀 더 밖에 나가는 게 좋아.",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "일도 중요하지만, 앉아있기만 하면 몸에 안 좋기도 하고 말야.",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 지휘관 업무 보는 거 참 힘들겠네~ 나, 비서함으로서 지휘관 일 따라가는 것만 해도 벅차다니깐……",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 802010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "역시 지휘관이 된 사람이라 그런지 대단하구나~",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 다들 돌아왔네.",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "수고했어. 위험하진 않았어?",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다들 소중한 동료잖니. 걱정하는 게 당연하잖아?",
 			typewriter = {
@@ -263,7 +263,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 이거 나 주는 거야? 고마워! Merci!",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 무슨 일이야? 그렇게 놀란 표정으로.",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			actor = 802010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……어머머, 다들 같은 함대의 동료인걸. 친하게 지내는 건 당연하잖아?",
 			typewriter = {

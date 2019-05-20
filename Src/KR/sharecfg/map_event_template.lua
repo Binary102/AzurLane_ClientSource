@@ -1014,6 +1014,22 @@ pg.map_event_template = {
 		},
 		effect = {}
 	},
+	[77] = {
+		gametip = "",
+		memory = 0,
+		id = 77,
+		type = 6,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 5,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			2
+		}
+	},
 	[78] = {
 		gametip = "",
 		memory = 0,
@@ -1030,6 +1046,133 @@ pg.map_event_template = {
 			5
 		},
 		effect = {}
+	},
+	[79] = {
+		gametip = "",
+		memory = 0,
+		id = 79,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			2,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				0,
+				4,
+				0,
+				5
+			}
+		}
+	},
+	[80] = {
+		gametip = "",
+		memory = 0,
+		id = 80,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			4,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				0,
+				4,
+				1,
+				5
+			}
+		}
+	},
+	[81] = {
+		gametip = "",
+		memory = 0,
+		id = 81,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			6,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				0,
+				4,
+				2,
+				5
+			}
+		}
+	},
+	[82] = {
+		gametip = "",
+		memory = 0,
+		id = 82,
+		type = 4,
+		c_type = 1,
+		animation = "",
+		preinstall = 3,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		round_gametip = {
+			8,
+			"electrotherapy_wanning"
+		},
+		effect = {
+			{
+				"map_flag",
+				0,
+				0,
+				4,
+				3,
+				5
+			}
+		}
+	},
+	[83] = {
+		gametip = "",
+		memory = 6,
+		id = 83,
+		type = 9,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 5,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			{
+				1,
+				"即将开始收圈"
+			},
+			{
+				4,
+				"即将开始收圈"
+			}
+		}
 	},
 	[84] = {
 		gametip = "",
@@ -1071,6 +1214,28 @@ pg.map_event_template = {
 				2,
 				4
 			}
+		}
+	},
+	[86] = {
+		gametip = "",
+		memory = 0,
+		id = 86,
+		type = 3,
+		round_gametip = "",
+		c_type = 0,
+		animation = "",
+		preinstall = 5,
+		ship_prefab = "",
+		icon = "",
+		address = {},
+		effect = {
+			1,
+			0,
+			0,
+			0,
+			3,
+			1,
+			"electrotherapy_wanning"
 		}
 	},
 	[87] = {
@@ -2570,9 +2735,16 @@ pg.map_event_template = {
 		74,
 		75,
 		76,
+		77,
 		78,
+		79,
+		80,
+		81,
+		82,
+		83,
 		84,
 		85,
+		86,
 		87,
 		88,
 		89,

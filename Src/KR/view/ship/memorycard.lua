@@ -11,6 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.group = findTF(slot0.tf, "group")
 	slot0.groupTitle = findTF(slot0.group, "title")
 	slot0.groupCount = findTF(slot0.group, "count")
+	slot0.itemIndexTF = findTF(slot0.tf, "id")
 end
 
 function slot0.update(slot0, slot1, slot2)
@@ -48,6 +49,14 @@ function slot0.flush(slot0)
 	else
 		setActive(slot0.lock, true)
 		setText(slot0.txCondition, HXSet.hxLan(slot0.info.condition))
+	end
+
+	if slot0.itemIndexTF then
+		setActive(slot0.itemIndexTF, not slot0.isGroup)
+
+		if not slot0.isGroup and slot0.info.index then
+			setText(slot0.itemIndexTF, string.format("%02u", slot0.info.index))
+		end
 	end
 end
 

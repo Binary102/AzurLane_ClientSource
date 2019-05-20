@@ -29,7 +29,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot12 = getProxy(BayProxy)
 
 	if not slot6 and getProxy(PlayerProxy).getData(slot14).ship_bag_max <= #slot12:getShips() then
-		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
+		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		if slot5 then
 			slot5()
@@ -73,7 +73,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if slot7 then
-				slot7(slot1)
+				slot7(slot1, slot1)
 			else
 				slot1()
 			end

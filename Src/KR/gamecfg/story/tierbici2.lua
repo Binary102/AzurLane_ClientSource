@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제2장 - 임무</size>",
+					"녹아내리는 얼음\n\n<size=45>제2장 - 임무</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "수량이 약간 많은 거 같은데……몇 번에 나눠서 보내야겠군.",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -78,7 +78,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "？？",
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			say = "티르피츠 양은 이것들을 연구부에 보내야 하는 거지?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 101110,
 			actorName = "???",
@@ -115,7 +115,7 @@ return {
 			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어떻게 안 거지? 그리고 당신은……",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -165,7 +165,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101130,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -195,7 +195,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "무, 무슨 일 있나요……",
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +221,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101140,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아 귀찮아…",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -260,7 +260,7 @@ return {
 			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모두 함께 힘을 합쳐 이것들을 과학연구부까지 옮기는 거다!",
 			typewriter = {
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠깐, 이건 비서함의 일이다, 내가 하면 된……",
 			typewriter = {
 				speed = 0.05,
@@ -289,7 +289,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.05,
@@ -359,7 +359,7 @@ return {
 			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다 옮겼군! 리틀 비버즈, 해산이다!",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -395,7 +395,7 @@ return {
 			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 괜찮아 괜찮아! 정의는 보답을 바라고 행하는 게 아니니까!",
 			typewriter = {
@@ -411,7 +411,7 @@ return {
 			actor = 101110,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가, 동료로서 서로 돕는 건 당연한 일이잖아. 다른 언니들이 봤어도 분명 똑같이 도와줬을 거야.",
 			typewriter = {
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "당연한 일이라…알겠어.",
 			typewriter = {
 				speed = 0.05,

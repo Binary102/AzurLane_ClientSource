@@ -247,6 +247,7 @@ slot0.EnemyAttackDisplay = "접적"
 slot0.ShipMoveAction = "move"
 slot0.ShipIdleAction = "normal"
 slot0.ShipStepDuration = 0.5
+slot0.ShipMoveTailLength = 2
 
 function slot0.GetRepairParams()
 	return 1, 3, 100

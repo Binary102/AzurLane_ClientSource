@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"하츠하루의 고민\n\n<size=30>부끄럼쟁이 검은 고양이</size>",
+					"하츠하루의 고민\n\n<size=45>부끄럼쟁이 검은 고양이</size>",
 					1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=20>그렇게나 연습했는데도……</size>",
+			say = "<size=30>그렇게나 연습했는데도……</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=20>여, 역시 전 못하겠어요!!</size>",
+			say = "<size=30>여, 역시 전 못하겠어요!!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},

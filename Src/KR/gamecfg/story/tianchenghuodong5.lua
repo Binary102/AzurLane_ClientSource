@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			say = "후후후후……당신이 공격 부대를 이끄는 거군요? 나카. ",
@@ -39,7 +39,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -70,7 +70,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 304050,
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 304050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그럼 당신의 그 힘, 사쿠라 엠파이어의 모두에게 한 번 보여주실 수 있을까요?",
 			typewriter = {

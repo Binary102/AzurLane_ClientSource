@@ -18,6 +18,7 @@ function ys.Battle.BattleBuffEffect.Ctor(slot0, slot1)
 	slot0._ammoTypeRequire = slot2.ammoType
 	slot0._ammoIndexRequire = slot2.ammoIndex
 
+	slot0:ConfigHPTrigger()
 	slot0:SetActive()
 end
 
@@ -31,6 +32,22 @@ function ys.Battle.BattleBuffEffect.HaveQuota(slot0)
 	else
 		return true
 	end
+end
+
+function ys.Battle.BattleBuffEffect.ConfigHPTrigger(slot0)
+	slot0._hpUpperBound = slot0._tempData.arg_list.hpUpperBound
+	slot0._hpLowerBound = slot0._tempData.arg_list.hpLowerBound
+
+	if slot0._hpUpperBound and slot0._hpLowerBound == nil then
+		slot0._hpLowerBound = 0
+	end
+
+	if slot0._hpLowerBound and slot0._hpUpperBound == nil then
+		slot0._hpUpperBound = 1
+	end
+
+	slot0._hpSigned = slot1.hpSigned or -1
+	slot0._hpOutInterval = slot1.hpOutInterval
 end
 
 function ys.Battle.BattleBuffEffect.SetCaster(slot0, slot1)
@@ -322,6 +339,10 @@ function ys.Battle.BattleBuffEffect.onTakeDamage(slot0, slot1, slot2, slot3)
 	end
 end
 
+function ys.Battle.BattleBuffEffect.onTakeHealing(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
 function ys.Battle.BattleBuffEffect.damageAttrRequire(slot0, slot1)
 	if not slot0._damageAttrRequire or table.contains(slot0._damageAttrRequire, slot1) then
 		return true
@@ -330,29 +351,40 @@ function ys.Battle.BattleBuffEffect.damageAttrRequire(slot0, slot1)
 	end
 end
 
-function ys.Battle.BattleBuffEffect.onHPRatioUpdate(slot0, slot1, slot2, slot3)
-	slot4 = slot1:GetHPRate()
-	slot5 = slot3.dHP
+function ys.Battle.BattleBuffEffect.hpIntervalRequire(slot0, slot1, slot2)
+	if slot0._hpUpperBound == nil and slot0._hpLowerBound == nil then
+		return true
+	end
 
-	if slot0._hpRatioList then
-		for slot9, slot10 in ipairs(slot0._hpRatioList) do
-			if slot5 < 0 and slot4 <= slot10 then
-				slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
-			end
+	if slot2 then
+		if slot0._hpSigned == 0 then
+		elseif slot2 * slot0._hpSigned < 0 then
+			return false
 		end
-	else
+	end
+
+	slot3 = nil
+
+	if slot0._hpOutInterval then
+		if slot0._hpUpperBound <= slot1 or slot1 <= slot0._hpLowerBound then
+			slot3 = true
+		end
+	elseif slot1 <= slot0._hpUpperBound and slot0._hpLowerBound <= slot1 then
+		slot3 = true
+	end
+
+	return slot3
+end
+
+function ys.Battle.BattleBuffEffect.onHPRatioUpdate(slot0, slot1, slot2, slot3)
+	if slot0:hpIntervalRequire(slot1:GetHPRate(), slot3.dHP) then
 		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
 
 function ys.Battle.BattleBuffEffect.onFriendlyHpRatioUpdate(slot0, slot1, slot2, slot3)
-	slot5 = slot3.dHP
-	slot6 = slot3.unit.GetHPRate(slot4)
-
-	for slot10, slot11 in ipairs(slot0._hpRatioList) do
-		if slot5 < 0 and slot6 <= slot11 then
-			slot0:doOnFriendlyHPRatioUpdate(slot1, slot2, slot3)
-		end
+	if slot0:hpIntervalRequire(slot3.unit.GetHPRate(slot4), slot3.dHP) then
+		slot0:doOnHPRatioUpdate(slot1, slot2, slot3)
 	end
 end
 
@@ -410,6 +442,18 @@ end
 
 function ys.Battle.BattleBuffEffect.onSubmarineAid(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function ys.Battle.BattleBuffEffect.onSubmarinFreeDive(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function ys.Battle.BattleBuffEffect.onSubmarinFreeFloat(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function ys.Battle.BattleBuffEffect.onAntiSubHateChain(slot0, slot1, slot2, slot3)
+	slot0:onTrigger(slot1, slot2, attach)
 end
 
 function ys.Battle.BattleBuffEffect.onRetreat(slot0, slot1, slot2, slot3)

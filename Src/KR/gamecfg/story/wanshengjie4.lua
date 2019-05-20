@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제4장   사라진 호박</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제4장   사라진 호박</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -34,7 +34,7 @@ return {
 		{
 			say = "내는 못 봤는데…… 뭔 일 있나?",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 306051,
 			actorName = "{namecode:87}",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -166,7 +166,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "헤헤, 실은 나도 있었어.",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -197,7 +197,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "헬레나가 만들어 준 핼러윈 의상이야. \"나는 리퍼, 영혼을 베어내는 악마일지어니\" 어때? 헤헤~",
 			typewriter = {
@@ -212,7 +212,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그땐 마침 카게로급네 방을 지나가고 있었는데…… 카게로가 옷을 갈아입고 있던 동안에는 아무도 현관으로 들어오지 않았어.",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -243,7 +243,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "물론 시간은 금이라곤 하지만! 뭐, 나라도 가끔 사치를 부리고 싶어진다고.",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -273,7 +273,7 @@ return {
 		},
 		{
 			actor = 301051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -290,7 +290,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그래서, 내가 더 도와줄 수 있는 건 없어?",
 			typewriter = {
@@ -304,7 +304,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -320,7 +320,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -336,7 +336,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -352,7 +352,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -368,7 +368,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -384,7 +384,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -400,7 +400,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -416,7 +416,7 @@ return {
 		},
 		{
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:20}",
@@ -433,7 +433,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "땡큐! 시라누이도 매점 일, 늘 수고가 많아!",
 			typewriter = {
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "클리블랜드, 헬레나는 와 같이 안 왔노?",
 			flashout = {
 				dur = 1,
@@ -480,7 +480,7 @@ return {
 		},
 		{
 			actor = 102091,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "사실 플레처급 아이들이 총출동해 사탕을 뜯으러 와서, 지금 헬레나 쪽은 대응해 주느라 큰일인 모양이야. 난 그런 일은 좀, 질색이니까 말야.",
@@ -499,7 +499,7 @@ return {
 		},
 		{
 			actor = 301051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -516,7 +516,7 @@ return {
 		{
 			actor = 102091,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇게 된 거지. 헤헤헤……",
 			typewriter = {
@@ -535,7 +535,7 @@ return {
 			blackBg = true,
 			actorName = "？？？",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flashout = {
 				dur = 1,

@@ -1,7 +1,7 @@
 slot0 = class("ShipStatus")
 
 function slot0.ShipStatu2Bg(slot0)
-	if slot0.inChapter or slot0.inElite or slot0.shamInFleet or slot0.inSham or slot0.inFleet or slot0.inActivity or slot0.inChallenge then
+	if slot0.inChapter or slot0.inElite or slot0.shamInFleet or slot0.inSham or slot0.inFleet or slot0.inWorld or slot0.inActivity or slot0.inChallenge then
 		return "red"
 	elseif slot0.inEvent then
 		return "green"
@@ -60,6 +60,21 @@ slot0.FILTER_SHIPS_FLAGS_1 = {
 	inBackyard = false,
 	isActivityNpc = true,
 	isActivity = true,
+	inAdmiral = true
+}
+slot0.FILTER_SHIPS_FLAGS_2 = {
+	inExercise = true,
+	inChapter = true,
+	inPvp = true,
+	inFleet = true,
+	inClass = true,
+	inChallenge = true,
+	inTactics = true,
+	inElite = true,
+	inSham = true,
+	inEvent = true,
+	inBackyard = true,
+	isActivityNpc = true,
 	inAdmiral = true
 }
 

@@ -5902,6 +5902,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6410] = {
+		desc_get = "",
+		name = "듣지 못한 대답 ",
+		desc = "U556이 해당 장비를 장착하면 자신의 수면 위에 전투 지속시간이 4초 상승하고, 자신의 사냥 범위 레벨이 1 상승한다. 비스마르크가 해당 장비를 장착하면 주력 함대가 받는 탄약 부족 상태로 인한 영향이 감소한다. ",
+		type = 0,
+		max_level = 0,
+		id = 6410,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "라인 연습",
@@ -21220,7 +21231,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 <color=#A9F548FF>5</color>초 간(최대 <color=#A9F548FF>15</color>초) 지속되는 회전 실드를 4장 생성한다.",
+		desc_get = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 <color=#92fc63FF>5</color>초 간(최대 <color=#92fc63FF>15</color>초) 지속되는 회전 실드를 4장 생성한다.",
 		name = "전방위 장갑 +",
 		desc = "전투 시작 시 30초 마다 적의 탄환을 8회 막아주고 $1초 간 지속되는 회전 실드를 4장 생성한다.",
 		type = 2,
@@ -21273,7 +21284,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "항속을 <color=#A9F548FF>3</color>(최대 <color=#A9F548FF>8</color>) 증가시키고, 전투 시작 시 50초 동안 회피를 <color=#A9F548FF>15%</color>(최대 <color=#A9F548FF>35%</color>) 증가시킨다.",
+		desc_get = "항속을 <color=#92fc63FF>3</color>(최대 <color=#92fc63FF>8</color>) 증가시키고, 전투 시작 시 50초 동안 회피를 <color=#92fc63FF>15%</color>(최대 <color=#92fc63FF>35%</color>) 증가시킨다.",
 		name = "엔진 부스트 +",
 		desc = "항속을 $1 증가시키고, 전투 시작 시 50초 동안 기동 수치를 $2 증가시킨다.",
 		type = 2,
@@ -28686,6 +28697,7 @@ pg.skill_data_template = {
 		6380,
 		6390,
 		6400,
+		6410,
 		7000,
 		9030,
 		9031,

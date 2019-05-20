@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>五 携手起舞</size>",
+					"天狼星改造计划\n\n<size=45>五 携手起舞</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 202150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这样转一圈，然后这样……",
 			flashout = {
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这样……吗？",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			actor = 202150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "对对，就是这样♪再跟舞伴练习一下就没问题了",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我骄傲的主人，还请多多关照",
 			flashout = {
 				dur = 0.5,
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_task",
 			withoutActorName = true,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "身兼秘书舰、女仆、宴会女伴三职的天狼星优雅地将手伸过来",
 			typewriter = {
 				speed = 0.05,
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actorScale = 1.5,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……非常感谢您",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actorScale = 1.5,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "对于区区女仆，您居然会照顾到这个地步……",
 			typewriter = {
 				speed = 0.05,
@@ -223,7 +223,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actorScale = 1.5,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我明白作为女仆不该说这样的话，不过……",
 			typewriter = {
 				speed = 0.05,
@@ -245,7 +245,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actorScale = 1.5,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…我骄傲的主人…",
 			typewriter = {
 				speed = 0.05,
@@ -295,7 +295,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actorScale = 1.5,
 			actor = 202200,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "实在抱歉！这是，那个……",
 			typewriter = {
 				speed = 0.05,
@@ -317,7 +317,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			},
 			action = {
 				{
@@ -331,7 +331,7 @@ return {
 					}
 				},
 				{
-					y = 150,
+					y = 225,
 					type = "move",
 					delay = 0,
 					dur = 0.2,

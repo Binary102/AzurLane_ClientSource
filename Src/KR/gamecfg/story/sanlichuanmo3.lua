@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"미카사 선배의 프라모델 박물관\n\n<size=30>노력하는 후배들</size>",
+					"미카사 선배의 프라모델 박물관\n\n<size=45>노력하는 후배들</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "이럴 때야말로 이 아카시 님의 도움이 필요하지 않겠냥!",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -95,7 +95,7 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "필요한 자재는 아카시가 조달하겠다냥! 물론 비용은 지휘관에게 청구하겠지만냥!",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "덕분에 모두 기운이 넘치는 것 같네요……",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "영차! 영차! 가장 높은 곳에 옮겼어! 키사라기! 브러쉬를 던져줘~! 무츠키가 해볼게!",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,7 +160,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
@@ -173,7 +173,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머어머, 무츠키, 키사라기! 조심해야죠!",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우리도 도울게!",
 			flashout = {
 				dur = 1,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2.2,
 					dur = 0.2,
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -252,7 +252,7 @@ return {
 			actor = 302010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "프라모델 조립? 재밌겠네~",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지금 왔어요! 아직 괜찮죠…?",
 			flashout = {
 				dur = 1,
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "나이스 타이밍! 마침 배고팠는데!",
 			typewriter = {
 				speed = 0.05,
@@ -334,7 +334,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -367,7 +367,7 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하긴, 이때 한 숨 돌리는 것도 나쁘진 않겠지…",
 			typewriter = {
@@ -383,7 +383,7 @@ return {
 			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "야마시로 언니, 사탕 있어?",
 			typewriter = {
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -446,7 +446,7 @@ return {
 			actor = 305110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미니 박물관이 한 번 무너진 건 애석하지만……그 덕분에 사쿠라 엠파이어 자매들의 활약을 눈에 담을 수 있게 되었구나.",
 			typewriter = {
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "나도 뒤에서 노력한 보람이 있군. 고맙다, 후배들!",
 			typewriter = {
 				speed = 0.05,

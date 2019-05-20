@@ -132,6 +132,7 @@ function slot0.clearShipAllFlag(slot0, slot1)
 	if slot0.shipsById[slot1] then
 		slot2.inFleet = nil
 		slot2.inChapter = nil
+		slot2.inWorld = nil
 		slot2.inEvent = nil
 		slot2.inBackyard = nil
 		slot2.inClass = nil

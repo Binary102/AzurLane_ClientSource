@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>六 谢菲尔德的心意·上</size>",
+					"这个女仆不太冷\n\n<size=45>六 谢菲尔德的心意·上</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "早上好，主人。早饭已经准备好了，请洗漱吧。",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "请不要带着奇怪的高扬感来打招呼，您就这么期待着我来吗",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……没想到主人居然会这么堕落，大意了",
 			typewriter = {
@@ -121,7 +121,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不能这么惯着主人，今天早饭吃完后的餐具自己收拾吧",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "还是说您就像成为一个永远要靠女仆收拾屋子照顾的废柴主人吗？",
 			typewriter = {
@@ -226,7 +226,7 @@ return {
 		{
 			actorName = "纽卡斯尔",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……真的好吗？",
@@ -242,7 +242,7 @@ return {
 		{
 			actorName = "谢菲尔德",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "女仆就该是这个样子的，我可没有贝尔法斯特那么贪心。",
@@ -258,7 +258,7 @@ return {
 		{
 			actorName = "纽卡斯尔",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "……但是谢菲“想要这样”的心情是不会就这样平复的哦",
@@ -274,7 +274,7 @@ return {
 		{
 			actorName = "谢菲尔德",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "我……",
@@ -290,7 +290,7 @@ return {
 		{
 			actorName = "纽卡斯尔",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "即便是要追求平稳，我还是觉得能够不用隐藏自己心情的“平稳”才是更好的吧",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>四 友军与过去</size>",
+					"彼岸花之恋？\n\n<size=45>四 友军与过去</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -65,7 +65,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -116,7 +116,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -181,7 +181,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -199,7 +199,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -298,7 +298,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -316,7 +316,7 @@ return {
 		},
 		{
 			actor = 407010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_night",
 			side = 1,
 			dir = -1,
@@ -331,7 +331,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
@@ -358,7 +358,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,

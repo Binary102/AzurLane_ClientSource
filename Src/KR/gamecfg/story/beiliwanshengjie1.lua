@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"장난스런 핼러윈\n\n<size=30>길 잃은 유령을 찾아서!</size>",
+					"장난스런 핼러윈\n\n<size=45>길 잃은 유령을 찾아서!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "짜잔~!",
 			flashout = {
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			say = "크기가 엄청나네……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 306050,
 			actorName = "{namecode:87}",
@@ -73,7 +73,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			actor = 102090,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그래! 호박은 재배부터 처리까지 전부 수작업한 거라고! 모두가 협력해준 덕분이야!",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "더는 못 기다리겠어! 빨리 달아보자고! 라이트 업!",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……이상하네? 불이 안 들어오네? 라이트가 고장났나……",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			actor = 301050,
@@ -178,7 +178,7 @@ return {
 					dir = 1,
 					actor = 306050,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "엥? 아! 진짜다! 이거는……쪽지?",
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -259,7 +259,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -276,7 +276,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_task",
 			actor = 301050,
@@ -289,7 +289,7 @@ return {
 					dir = 1,
 					actor = 301170,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "토끼토끼별에서 온 어둠의 마녀 베일리, 화려하게 등장!",
 			effects = {
 				{
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			dir = -1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 때마침 마녀가 등장해주다니! 이것 좀 부탁할 수 있을까……",
 			effects = {
 				{
@@ -347,7 +347,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "좋아! 이 토끼토끼 마녀 베일리에게 맡겨줘!",
 			typewriter = {
 				speed = 0.05,
@@ -381,20 +381,20 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오오!",
 			subActors = {
 				{
 					actor = 301170,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 102090,
 					dir = -1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

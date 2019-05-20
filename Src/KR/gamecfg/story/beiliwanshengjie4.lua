@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"장난스런 핼러윈\n\n<size=30>귀찮은 걸 싫어하는 마녀</size>",
+					"장난스런 핼러윈\n\n<size=45>귀찮은 걸 싫어하는 마녀</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 205040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "언니, 모항에서 길을 잃었다는 유령 이야기, 들으셨나요?",
 			flashout = {
 				dur = 1,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,7 +75,7 @@ return {
 			actor = 205030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐, 난 흥미 없지만.",
 			typewriter = {
@@ -91,7 +91,7 @@ return {
 			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말, 언니도 참…이번 여름에도 계속 흥미 없다 그러더니…",
 			typewriter = {
@@ -107,7 +107,7 @@ return {
 			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다 같이 수영복 입고 바다라도 갔으면 좋았을 텐데……",
 			typewriter = {
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그, 그런 부끄러운 모습을 할 리 없잖아…",
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			actor = 205040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알았다구요. 그래도 모처럼 만의 핼러윈인걸요, 다 함께 즐기지 않으면 손해일걸요?",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 205040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -186,7 +186,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이건 또 어디서……저, 적어도 갈아입는 것만큼은 혼자 하게 해달라고!",
 			typewriter = {
 				speed = 0.05,
@@ -198,7 +198,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -206,7 +206,7 @@ return {
 					number = 2
 				},
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
@@ -220,7 +220,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "큭…! 이건 재난일 거야……로드니 녀석은 대체 무슨 생각을 하는 거야!",
 			flashout = {
 				dur = 1,
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "'3인의 선한 마녀' 라니…어차피 또 애들 장난이겠지. 적당히 있다 바로 돌아갈까……",
 			typewriter = {
 				speed = 0.05,
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아! 세 번째 마녀 발견!",
 			typewriter = {
 				speed = 0.05,
@@ -282,7 +282,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "누구야?! ……베일리랑 이스즈잖아…",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -322,7 +322,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -342,7 +342,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에? 뭐, 뭐 그렇지…",
 			typewriter = {
 				speed = 0.05,
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(당했다! 나도 모르게 그만 대답해버렸다!)",
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 302050,
 			actorName = "{namecode:48}",
@@ -392,7 +392,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 다음은 베일리가 들은 정보대로, 폐창고로 가서 유령을 찾아보자!",
 			typewriter = {
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 205030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "(이 아이들도 그냥 보내긴 마음이 안 놓이고…아무튼 따라갈 수밖에 없나)",
 			typewriter = {
 				speed = 0.05,

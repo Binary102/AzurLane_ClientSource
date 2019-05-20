@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"평온한 일상을 바라며\n\n<size=30>임시 메이드대 리더</size>",
+					"평온한 일상을 바라며\n\n<size=45>임시 메이드대 리더</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			actor = 205010,
@@ -43,7 +43,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그동안 비서함은 뉴캐슬이 하도록!",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……왜 뭐가 어때서, 뉴캐슬은 벨파가 메이드대 리더를 맡기 전에 메이드대 총괄을 맡았던 적도 있다구!",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좀 재미는 없지만……하인의 서포트로는 충분할 거야!",
 			typewriter = {
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "왜 그러십니까?",
 			flashout = {
 				dur = 0.5,
@@ -148,7 +148,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저번에 말씀하신 합동 연습전의 보고서입니다. 확인하여 주십시오.",
 			typewriter = {
@@ -180,7 +180,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "음료는 어떻게 하시겠습니까?",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "커피, 진하게 우려낸 홍차, 페일 에일……",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저는 홍차를 추천드립니다만, 따로 좋아하시는 게 있으시다면 말씀해 주십시오. 바로 대령하겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 202190,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -270,7 +270,7 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벨파스트만큼은 아니겠지만, 이래 보여도 한때 메이드대를 맡았던 몸…오늘 하루는 최선을 다해 봉사하도록 하겠습니다.",
 			typewriter = {

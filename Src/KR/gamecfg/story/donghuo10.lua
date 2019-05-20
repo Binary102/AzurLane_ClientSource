@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "여기 있어요.",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…[심판자]님.",
 			typewriter = {
 				speed = 0.05,
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,

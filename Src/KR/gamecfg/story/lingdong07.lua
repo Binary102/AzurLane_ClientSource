@@ -24,7 +24,7 @@ return {
 		},
 		{
 			actor = 202120,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "여왕 폐하의 위광과 왕가의 영광을 위해, 전력을 다하겠습니다.",
@@ -44,7 +44,7 @@ return {
 		{
 			actor = 202120,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "전 포문, 샤른호르스트를 조준…포격 개시!",
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼성인은 '노력해'!</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '노력해'!</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋아, 오늘의 연습을 시작해보자~!",
 			typewriter = {
@@ -75,7 +75,7 @@ return {
 			actorName = "???",
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "하아, 또 너구나.",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 나치씨, 굿이브닝~",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 303080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그치만……",
 			typewriter = {
 				speed = 0.05,
@@ -150,7 +150,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -159,7 +159,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……뭐 지금은 어깨를 나란히 하는 동료니 네 맘대로 하던가. 딱히 그렇게 불린다고 달라지는 것도 없으니……",
 			typewriter = {
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오!",
 			typewriter = {
 				speed = 0.05,
@@ -188,7 +188,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -201,7 +201,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그렇긴 해도, 매일 함대 근무가 끝나고 이런 시간에까지 오다니, 꽤 노력파네.",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! 새러 선생님이 연습을 게을리해선 안 된다고 했으니까 말야!",
 			typewriter = {
@@ -233,7 +233,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "나치씨도 매일 이 시간에 여기서 연습하는 거야?",
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 303080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "연습이 아니라, 적당히 시간을 떼우는 것뿐이야! 흥, 나 같은 천재에겐 연습 따위 필요 없는걸!",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -275,7 +275,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇구나…나치씨는 역시 굉장해!",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "………………크흠, 아, 아무튼! 너한텐 비서함 직무가 있을 테니, 몸 관리도 더 잘해야지! 무리하면 안 된다고!",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응! 그치만 괜찮아! 지휘관을 돕는 것도 아이돌 연습도 똑같이 베일리에겐 중요한걸!",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "…역시 좋은 아이네.",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "에이 쑥쓰럽게~ 에헤헤",
 			typewriter = {
 				speed = 0.05,
@@ -356,7 +356,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -365,7 +365,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "뭐, 네가 여기서 연습할 생각이라면, 내가 장소를 바꿀게.",
 			typewriter = {
@@ -381,7 +381,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "있잖아 나치씨, 베일리의 연습 성과를 봐줄 수…있을까?",
 			typewriter = {
@@ -397,7 +397,7 @@ return {
 			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "……그럼 조, 조금만이야…",
 			typewriter = {
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "얏호!",
 			typewriter = {
 				speed = 0.05,
@@ -426,7 +426,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,

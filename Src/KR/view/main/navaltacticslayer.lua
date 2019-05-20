@@ -37,28 +37,27 @@ function slot0.updateShipVO(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.backBtn = slot0:findTF("mainPanel/top/btnBack")
+	slot0.shipCards = {}
+	slot0.backBtn = slot0:findTF("blur_container/adapt/top/btnBack")
 	slot0.mainPanel = slot0:findTF("mainPanel")
 
 	setActive(slot0.mainPanel, true)
 
 	slot0.helpBtn = slot0:findTF("paint/help_btn", slot0.mainPanel)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	slot0.UIMgr:OverlayPanel(slot0.mainPanel)
-
 	slot0.studentContain = slot0:findTF("students/contain/content", slot0.mainPanel)
-	slot0.skillsPanel = slot0:findTF("skillsPanel")
-	slot0.skillsMask = slot0:findTF("skillsPanel/mask")
+	slot0.skillsPanel = slot0:findTF("blurOther/skillsPanel/frame")
+	slot0.skillsMask = slot0:findTF("blurOther/skillsPanel")
 	slot0.skillSelBtn = slot0:findTF("confirm_btn", slot0.skillsPanel)
 	slot0.skillContent = slot0:findTF("skill_contain/content", slot0.skillsPanel)
-	slot0.lessonPanel = slot0:findTF("lessonPanel")
-	slot0.lessonMask = slot0:findTF("lessonPanel/mask")
+	slot0.lessonPanel = slot0:findTF("blurOther/lessonPanel/frame")
+	slot0.lessonMask = slot0:findTF("blurOther/lessonPanel")
 	slot0.lessonSelBtn = slot0:findTF("confirm_btn", slot0.lessonPanel)
 	slot0.lessonContent = slot0:findTF("bg/lessons/content", slot0.lessonPanel)
 	slot0.UIMain = GameObject.Find("/OverlayCamera/Overlay/UIMain")
 	slot0.nameTxts = {}
 	slot0.deleteStuentQueue = {}
+	slot0.blurPanelTF = slot0:findTF("blurOther")
 end
 
 function slot0.didEnter(slot0)
@@ -77,18 +76,19 @@ function slot0.didEnter(slot0)
 		getProxy(TaskProxy):dealMingshiTouchFlag(3)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.tactics_lesson_system_introduce.tip
 		})
 	end, SFX_PANEL)
 	checkFirstHelpShow("tactics_lesson_system_introduce")
 	onButton(slot0, slot0.lessonMask, function ()
 		slot0:closeLessonSel()
-		setParent(slot0.mainPanel, slot0.UIMain)
+		slot0.closeLessonSel:unblurView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.skillsMask, function ()
 		slot0:closeSkllSel()
-		setParent(slot0.mainPanel, slot0.UIMain)
+		slot0.closeSkllSel:unblurView()
 	end, SFX_PANEL)
 	slot0:initStudents()
 end
@@ -98,6 +98,10 @@ function slot0.initStudents(slot0)
 
 	for slot4 = 1, 4, 1 do
 		slot0.studentTFs[slot4] = slot0.studentContain:GetChild(slot4 - 1)
+
+		if slot4 == 3 or slot4 == 4 then
+			setActive(slot0.studentTFs[slot4], false)
+		end
 
 		if slot4 <= NavalAcademyProxy.MAX_SKILL_CLASS_NUM then
 			setActive(slot0.studentTFs[slot4], true)
@@ -184,8 +188,6 @@ function slot0.addStudent(slot0, slot1, slot2, slot3)
 		state = Student.WAIT
 	})
 
-	setParent(slot0.mainPanel, slot0._tf)
-
 	if slot3 then
 		slot4:setSkillIndex(slot3)
 	end
@@ -202,7 +204,6 @@ function slot0.addStudent(slot0, slot1, slot2, slot3)
 		slot1.studentVOs[slot3] = slot2
 
 		slot3:updateStudentTF(slot2.id, )
-		setParent(slot3.mainPanel, slot1.UIMain)
 	end)
 
 	slot0.select()
@@ -515,22 +516,33 @@ function slot0.updateSkillDesc(slot0, slot1, slot2, slot3, slot4)
 	setText(findTF(slot1, "name"), slot2.name)
 	setText(findTF(slot1, "level_contain/level"), slot2.level)
 	setText(findTF(slot1, "desc"), Student.getSkillDesc(slot2.id, slot2.level))
-	LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot1, "icon_bg/bg/icon"))
 
-	slot6 = slot0:findTF("next_contain/Text", slot1)
-	slot7 = getConfigFromLevel1(pg.skill_need_exp, slot2.level)
+	if 26 - math.floor((#findTF(slot1, "desc"):GetComponent(typeof(Text)).text - 160) / 40) < 20 then
+		slot6 = 20
+	end
+
+	if slot6 > 28 then
+		slot6 = 28
+	end
+
+	slot5.fontSize = slot6
+
+	LoadImageSpriteAsync("skillicon/" .. slot2.icon, findTF(slot1, "icon"))
+
+	slot8 = slot0:findTF("next_contain/Text", slot1)
+	slot9 = getConfigFromLevel1(pg.skill_need_exp, slot2.level)
 
 	if slot2.level == pg.skill_data_template[slot2.id].max_level then
-		setText(slot6, "MAX")
+		setText(slot8, "MAX")
 	else
 		if slot3 then
-			slot0:leanTweenValue(slot6, (slot4 and tonumber(string.sub(getText(slot6), 1, string.find(getText(slot6), "/") - 1))) or 0, slot2.exp, slot0, 0, function (slot0)
+			slot0:leanTweenValue(slot8, (slot4 and tonumber(string.sub(getText(slot8), 1, string.find(getText(slot8), "/") - 1))) or 0, slot2.exp, slot0, 0, function (slot0)
 				setText(slot0, math.floor(slot0) .. "/" .. slot1.exp)
 
 				return
 			end)
 		else
-			setText(slot6, slot2.exp .. "/" .. slot7.exp)
+			setText(slot8, slot2.exp .. "/" .. slot9.exp)
 		end
 	end
 
@@ -555,12 +567,8 @@ function slot0.updateSkillInfo(slot0, slot1, slot2)
 			return
 		end
 
-		setParent(slot0.mainPanel, slot0._tf)
-		setParent:showSkillSel(setParent, function ()
-			slot0 = slot0:findTF("infoPanel", slot0.studentTFs[slot1.id])
-
-			slot0:updateSkillInfo(slot0, slot0.updateSkillInfo)
-			setParent(slot0.mainPanel, slot0.UIMain)
+		slot0:showSkillSel(slot0, function ()
+			slot0:updateSkillInfo(slot0:findTF("infoPanel", slot0.studentTFs[slot1.id]), slot0.updateSkillInfo)
 
 			return
 		end)
@@ -574,80 +582,23 @@ function slot0.updateSkillInfo(slot0, slot1, slot2)
 end
 
 function slot0.updateShipInfo(slot0, slot1, slot2)
-	slot3 = slot0:findTF("ship_info", slot1)
-	slot6 = slot3:GetComponent(typeof(Image))
+	slot3 = slot0:findTF("ship_tpl", slot1)
 
-	LoadSpriteAsync("bg/star_level_card_" .. slot5, function (slot0)
-		slot0.sprite = slot0
-
-		return
-	end)
-
-	slot7 = slot0:findTF("frame", slot3):GetComponent(typeof(Image))
-
-	GetSpriteFromAtlasAsync("shipframe", (slot0.shipVOs[slot2.shipId].propose and "prop") or slot5, function (slot0)
-		slot0.sprite = slot0
-
-		slot0:SetNativeSize()
-
-		return
-	end)
-
-	slot0:findTF("icon", slot3):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
-
-	LoadSpriteAsync("shipYardIcon/" .. slot4:getPainting(), function (slot0)
-		slot0.sprite = slot0
-
-		slot0:SetNativeSize()
-
-		return
-	end)
-	onButton(slot0, slot3, function ()
-		if slot0.studentVOs[slot1.id]:getState() == Student.ATTEND then
-			return
-		end
-
-		slot0:goDockYard(slot0, slot1.id)
-
-		return
-	end, SFX_PANEL)
-	setText(findTF(slot3, "lv/Text"), slot4.level)
-
-	slot9 = nil
-
-	if slot0.nameTxts[slot3] then
-		slot9 = slot0.nameTxts[slot3]
-	else
-		slot0.nameTxts[slot3] = ScrollTxt.New(findTF(slot3, "name_mask"), findTF(slot3, "name_mask/name"))
+	if not slot0.shipCards[slot0.shipVOs[slot2.shipId].id] then
+		slot0.shipCards[slot4.id] = DockyardShipItem.New(slot3)
 	end
 
-	slot9:setText(slot4:getName())
-
-	slot11 = slot0:findTF("stars/star_tpl", slot3)
-	slot13 = slot4:getStar()
-
-	for slot18 = slot0:findTF("stars", slot3).childCount, slot4:getMaxStar() - 1, 1 do
-		cloneTplTo(slot11, slot10)
-	end
-
-	slot15 = slot14 - slot13
-
-	for slot19 = 0, slot10.childCount - 1, 1 do
-		slot10:GetChild(slot19).gameObject:SetActive(slot19 < slot14)
-		SetActive(slot20:Find("star_tpl"), slot15 <= slot19)
-		SetActive(slot20:Find("star_empty_tpl"), slot19 < slot15)
-	end
-
-	slot0:findTF("type", slot3):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot4:getConfigTable().type))
+	slot0.shipCards[slot4.id]:update(slot4)
 
 	return
 end
 
 function slot0.showSkillSel(slot0, slot1, slot2)
+	slot0:blurView()
+
 	slot0.openMsgBox = true
 
-	setActive(slot0.skillsPanel, true)
-	setParent(slot0.skillsPanel, slot0.UIMain)
+	setActive(slot0.skillsMask, true)
 
 	slot5 = 0
 
@@ -721,38 +672,44 @@ function slot0.showSkillSel(slot0, slot1, slot2)
 end
 
 function slot0.updateSkill(slot0, slot1, slot2, slot3)
-	slot6 = slot0:findTF("frame", slot2):GetComponent(typeof(Image))
-
 	setActive(slot4, slot3)
 	setActive(slot5, not slot3)
 	setToggleEnabled(slot2, slot3 and slot3.isLearn)
-	setActive(findTF(slot2, "mask"), slot3 and not slot3.isLearn)
+	setActive(findTF(slot2, "frame/mask"), slot3 and not slot3.isLearn)
 
 	if slot3 then
-		slot6.enabled = true
-
 		setText(findTF(slot4, "name_contain/name"), slot3.name)
-		LoadImageSpriteAsync("skillicon/" .. slot3.icon, findTF(slot4, "icon_bg/bg/icon"))
+		LoadImageSpriteAsync("skillicon/" .. slot3.icon, findTF(slot4, "icon"))
 		setText(findTF(slot4, "name_contain/level_contain/label"), (slot3.isLearn and "lv") or "")
 		setText(findTF(slot4, "name_contain/level_contain/Text"), (slot3.isLearn and slot3.level) or "")
 		setText(findTF(slot4, "next_contain/label"), (slot3.isLearn and "NEXT:") or "")
 
-		slot7 = nil
+		slot6 = nil
 
 		if slot3.isLearn then
-			slot8 = getConfigFromLevel1(pg.skill_need_exp, slot3.level)
-			slot9 = findTF(slot4, "next_contain/Text")
+			slot7 = getConfigFromLevel1(pg.skill_need_exp, slot3.level)
+			slot8 = findTF(slot4, "next_contain/Text")
 
 			if slot3.level == pg.skill_data_template[slot3.id].max_level then
-				setText(slot9, "MAX")
+				setText(slot8, "MAX")
 			else
-				setText(slot9, slot3.exp .. "/" .. slot8.exp)
+				setText(slot8, slot3.exp .. "/" .. slot7.exp)
 			end
 
 			setText(findTF(slot4, "desc"), Student.getSkillDesc(slot3.id, slot3.level))
 		else
 			setText(findTF(slot4, "desc"), slot3.desc)
 		end
+
+		if 26 - math.floor((#findTF(slot4, "desc"):GetComponent(typeof(Text)).text - 160) / 40) < 20 then
+			slot8 = 20
+		end
+
+		if slot8 > 28 then
+			slot8 = 28
+		end
+
+		slot7.fontSize = slot8
 
 		onToggle(slot0, slot2, function (slot0)
 			if not slot0.isLearn then
@@ -769,16 +726,13 @@ function slot0.updateSkill(slot0, slot1, slot2, slot3)
 		if slot1 == 1 then
 			triggerToggle(slot2, true)
 		end
-	else
-		slot6.enabled = false
 	end
 
 	return
 end
 
 function slot0.closeSkllSel(slot0)
-	setActive(slot0.skillsPanel, false)
-	setParent(slot0.skillsPanel, slot0._tf)
+	setActive(slot0.skillsMask, false)
 
 	slot0.openMsgBox = false
 
@@ -788,12 +742,13 @@ function slot0.closeSkllSel(slot0)
 end
 
 function slot0.showLessonSel(slot0, slot1, slot2)
+	slot0:blurView()
+
 	slot0.openMsgBox = true
 
-	setActive(slot0.lessonPanel, true)
-	setParent(slot0.lessonPanel, slot0.UIMain)
+	setActive(slot0.lessonMask, true)
 
-	slot4 = slot0.lessonContent:Find("icon_bg")
+	slot4 = slot0.lessonContent:Find("bg")
 
 	if slot0.lessonContent.childCount > #slot0.itemVOs then
 		for slot8 = slot3 - 1, #slot0.itemVOs, -1 do
@@ -806,16 +761,37 @@ function slot0.showLessonSel(slot0, slot1, slot2)
 	end
 
 	slot5 = slot0.shipVOs[slot1.shipId].configId
-	slot6 = slot1:getSkillId(slot0.shipVOs[slot1.shipId])
+	slot8 = slot0:findTF("skill/skilltpl_1", slot0.lessonMask)
+	slot9 = getSkillConfig(slot6)
 
-	for slot10 = 1, #slot0.itemVOs, 1 do
-		slot11 = slot0.lessonContent:GetChild(slot10 - 1)
+	if slot0.shipVOs[slot1.shipId].skills[slot1:getSkillId(slot0.shipVOs[slot1.shipId])] then
+		slot0:updateSkill(k, slot8, {
+			isLearn = true,
+			id = slot6,
+			name = getSkillName(slot6),
+			icon = slot9.icon,
+			desc = getSkillDesc(slot6, slot7.skills[slot6].level),
+			level = slot7.skills[slot6].level,
+			exp = slot7.skills[slot6].exp
+		})
+	else
+		slot0:updateSkill(k, slot8, {
+			isLearn = false,
+			id = slot6,
+			name = getSkillName(slot6),
+			icon = slot9.icon,
+			desc = getSkillDesc(slot6, slot7.skills[slot6].level)
+		})
+	end
 
-		updateItem(slot11, slot12)
-		SetActive(slot11:Find("icon_bg/addition"), slot0:getLessonAddition(slot6, slot0.itemVOs[slot10].id) > 1)
-		setText(slot14, slot13 * 100 .. "%exp")
-		setText(findTF(slot11, "icon_bg/Text"), slot12.count)
-		onToggle(slot0, slot11, function (slot0)
+	for slot13 = 1, #slot0.itemVOs, 1 do
+		slot14 = slot0.lessonContent:GetChild(slot13 - 1)
+
+		updateItem(slot14, slot15)
+		SetActive(slot14:Find("addition"), slot0:getLessonAddition(slot6, slot0.itemVOs[slot13].id) > 1)
+		setText(slot17, slot16 * 100 .. "%exp")
+		setText(findTF(slot14, "icon_bg/count"), slot15.count)
+		onToggle(slot0, slot14, function (slot0)
 			if slot0 then
 				slot0.selectedLessonId = slot1.id
 
@@ -825,8 +801,8 @@ function slot0.showLessonSel(slot0, slot1, slot2)
 			return
 		end)
 
-		if slot10 == 1 then
-			triggerToggle(slot11, true)
+		if slot13 == 1 then
+			triggerToggle(slot14, true)
 		end
 	end
 
@@ -881,8 +857,22 @@ function slot0.closeLessonSel(slot0)
 	slot0.openMsgBox = false
 
 	slot0:pushDeleteStudentQueue()
-	setActive(slot0.lessonPanel, false)
-	setParent(slot0.lessonPanel, slot0._tf)
+	setActive(slot0.lessonMask, false)
+	slot0:unblurView()
+
+	return
+end
+
+function slot0.blurView(slot0)
+	setActive(slot0.blurPanelTF, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanelTF)
+
+	return
+end
+
+function slot0.unblurView(slot0)
+	setActive(slot0.blurPanelTF, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanelTF, slot0._tf)
 
 	return
 end
@@ -891,6 +881,7 @@ function slot0.willExit(slot0)
 	slot0.UIMgr:UnOverlayPanel(slot0.mainPanel, slot0._tf)
 	slot0:closeLessonSel()
 	slot0:closeSkllSel()
+	slot0:unblurView()
 
 	if slot0.lessonOverTimer then
 		for slot4, slot5 in pairs(slot0.lessonOverTimer) do

@@ -22,43 +22,37 @@ end
 
 function slot0.init(slot0)
 	slot0.frame = slot0:findTF("frame")
-	slot0.friendView = slot0:findTF("left_length/bg/scrollView", slot0.frame)
-	slot0.friendContainer = slot0:findTF("friends", slot0.friendView)
-	slot0.leftBg = slot0:findTF("left_length/bg", slot0.frame)
-	slot0.arr = slot0:findTF("friend_btn/arr", slot0.leftBg)
-	slot0.friendCountLabel = slot0:findTF("left_length/bg/friend_btn/Text", slot0.frame):GetComponent(typeof(Text))
+	slot0.friendView = slot0:findTF("left_length/scrollView", slot0.frame)
 	slot0.chatPanel = slot0:findTF("notification_panel", slot0.frame)
+	slot0.chatPanelTitle = slot0:findTF("notification_panel/frame/top/name", slot0.frame)
 	slot0.sendBtn = slot0:findTF("frame/bottom/send", slot0.chatPanel)
-	slot0.inputTF = slot0:findTF("frame/bottom/inputbg/input", slot0.chatPanel)
+	slot0.inputTF = slot0:findTF("frame/bottom/input", slot0.chatPanel)
 	slot0.chatsRect = slot0:findTF("frame/list", slot0.chatPanel)
 	slot0.chatsContainer = slot0:findTF("frame/list/content", slot0.chatPanel)
-	slot0.otherPopTpl = slot0:getTpl("frame/list/popo_others", slot0.chatPanel)
+	slot0.closeBtn = slot0:findTF("frame/notification_panel/frame/top/close_btn")
+	slot0.otherPopTpl = slot0:getTpl("frame/list/popo_other", slot0.chatPanel)
 	slot0.selfPopTpl = slot0:getTpl("frame/list/popo_self", slot0.chatPanel)
-	slot0.friendBtn = slot0:findTF("friend_btn", slot0.leftBg)
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0.frame)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.frame, false, {
+		groupName = LayerWeightConst.GROUP_CHATROOM
+	})
 
 	slot0.mainPanel = pg.UIMgr:GetInstance().UIMain
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0:findTF("frame/bottom/emoji", slot0.chatPanel), function ()
-		slot0:emit(ChatRoomMediator.OPEN_EMOJI, function (slot0)
+	onButton(slot0, slot1, function ()
+		slot1:emit(ChatRoomMediator.OPEN_EMOJI, Vector3(slot0.position.x, slot0.position.y, 0), function (slot0)
 			slot0:sendMessage(string.gsub(ChatConst.EmojiCode, "code", slot0))
 		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
-	onToggle(slot0, slot0.friendBtn, function (slot0)
-		slot0.arr.eulerAngles = (slot0 and Vector3(0, 0, 0)) or Vector3(0, 0, 90)
-	end, SFX_PANEL)
-	triggerToggle(slot0.friendBtn, true)
+	onButton(slot0, slot0.closeBtn, function ()
+		slot0:emit(slot1.ON_CLOSE)
+	end, SOUND_BACK)
 	slot0:initFriends()
-end
-
-function slot0.updateFriendCountLabel(slot0)
-	slot0.friendCountLabel.text = #slot0.friendVOs .. "/" .. MAX_FRIEND_COUNT
 end
 
 function slot0.initFriends(slot0)
@@ -74,7 +68,6 @@ function slot0.initFriends(slot0)
 	end
 
 	slot0:sortFriend()
-	slot0:updateFriendCountLabel()
 end
 
 function slot0.createFriendItem(slot0, slot1)
@@ -83,26 +76,35 @@ function slot0.createFriendItem(slot0, slot1)
 	return {
 		tf = tf(slot1),
 		nameTF = ()["tf"]:Find("name"):GetComponent(typeof(Text)),
-		lvTF = ()["tf"]:Find("lv/Text"):GetComponent(typeof(Text)),
-		iconTF = ()["tf"]:Find("icon_bg/icon"):GetComponent(typeof(Image)),
+		iconTF = ()["tf"]:Find("shipicon/icon"):GetComponent(typeof(Image)),
+		maryyFrame = ()["tf"]:Find("shipicon/frame_marry"),
+		commonFrame = ()["tf"]:Find("shipicon/frame_common"),
 		toggle = ()["tf"]:GetComponent(typeof(Toggle)),
-		dateTF = ()["tf"]:Find("date"):GetComponent(typeof(Text)),
-		onlineTF = ()["tf"]:Find("online"),
+		tipTF = ()["tf"]:Find("tip"),
+		dateTF = ()["tf"]:Find("lv_bg/date"):GetComponent(typeof(Text)),
+		onlineTF = ()["tf"]:Find("lv_bg/online"),
+		levelTF = ()["tf"]:Find("lv_bg/Text"):GetComponent(typeof(Text)),
 		update = function (slot0, slot1, slot2)
+			setActive(slot0.tipTF, false)
+
 			slot0.friendVO = slot1
 			slot0.nameTF.text = slot1.name
-			slot0.lvTF.text = slot1.level
+			slot0.levelTF.text = "LV." .. slot1.level
 			slot3 = pg.ship_data_statistics[slot1.icon]
+			slot4 = Ship.New({
+				configId = slot1.icon,
+				skin_id = slot1.skinId
+			})
 
-			LoadSpriteAsync("qicon/" .. Ship.New({
-				configId = slot1.icon
-			}):getPainting(), function (slot0)
+			LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
 				if not slot0 then
 					slot0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")
 				else
 					slot0.iconTF.sprite = slot0
 				end
 			end)
+			setActive(slot0.maryyFrame, slot4.skinId and slot4.skinId ~= 0)
+			setActive(slot0.commonFrame, not slot4.skinId or slot4.skinId == 0)
 
 			if slot1.id == slot1.id and slot0.toggle.isOn == false then
 				triggerToggle(slot0.tf, true)
@@ -188,6 +190,7 @@ function slot0.openChatPanel(slot0, slot1)
 		slot0:appendMsg(slot7)
 	end
 
+	setText(slot0.chatPanelTitle, slot0.friendVO.name)
 	setActive(slot0.chatPanel, true)
 	onButton(slot0, slot0.sendBtn, function ()
 		slot0 = getInputText(slot0.inputTF)
@@ -198,12 +201,6 @@ function slot0.openChatPanel(slot0, slot1)
 end
 
 function slot0.sendMessage(slot0, slot1)
-	if slot0.friendVO.online == Friend.OFFLINE then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_send_msg_erro_tip"))
-
-		return
-	end
-
 	if slot1 == "" then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("friend_send_msg_null_tip"))
 
@@ -232,59 +229,18 @@ function slot0.appendMsg(slot0, slot1)
 
 	slot0:emit(ChatRoomMediator.CLEAR_UNREADCOUNT, slot0.friendVO.id)
 
-	slot4 = cloneTplTo((slot1.playerId == slot0.playerVO.id and slot0.selfPopTpl) or slot0.otherPopTpl, slot0.chatsContainer)
-	slot4:Find("popo/chat_bg/talk"):GetComponent(typeof(Text)).supportRichText = false
-	slot4.Find("popo/chat_bg/talk").GetComponent(typeof(Text)).text = slot1.content
+	slot2 = slot0.otherPopTpl
+	slot3 = slot0:getPlayer(slot1.playerId)
 
-	setText(slot4:Find("name"), slot0:getPlayer(slot1.playerId).name)
-	setText(slot4:Find("lv/Text"), slot0.getPlayer(slot1.playerId).level)
-	setText(slot4:Find("time"), slot7)
-
-	slot10 = slot0:findTF("circle/head", slot4):GetComponent("Image")
-
-	LoadSpriteAsync("qicon/" .. Ship.New({
-		configId = slot1.player.icon,
-		skin_id = slot1.player.skinId
-	}).getPainting(slot9), function (slot0)
-		if not IsNil(slot0) then
-			slot0.color = Color.white
-			slot0.sprite = slot0 or LoadSprite("heroicon/unknown")
-		end
-	end)
-
-	slot12 = slot0:findTF("star", slot11)
-
-	for slot17 = slot0:findTF("circle/head/stars", slot4).childCount, pg.ship_data_statistics[slot1.player.icon].star - 1, 1 do
-		cloneTplTo(slot12, slot11)
+	if slot1.playerId == slot0.playerVO.id then
+		slot2 = slot0.selfPopTpl
+		slot1.player = setmetatable(Clone(slot0.playerVO), {
+			__index = slot3
+		})
+		slot1.isSelf = true
 	end
 
-	for slot17 = 1, slot8.star, 1 do
-		setActive(slot11:GetChild(slot17 - 1), slot17 <= slot8.star)
-	end
-
-	if slot1.emojiId then
-		slot15 = slot0:findTF("face", slot4)
-
-		PoolMgr.GetInstance():GetPrefab("emoji/" .. pg.emoji_template[slot1.emojiId].pic, pg.emoji_template[slot1.emojiId].pic, true, function (slot0)
-			if slot0 then
-				slot0.name = slot1.pic
-
-				if slot0:GetComponent("Animator") then
-					slot1.enabled = true
-				end
-
-				setParent(slot0, slot0, false)
-			else
-				PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot1.pic, slot1.pic, slot0)
-			end
-		end)
-	end
-
-	setActive(slot4:Find("popo"), not slot1.emojiId)
-	setActive(slot4:Find("face"), slot1.emojiId)
-
-	slot4:GetComponent(typeof(LayoutElement)).preferredHeight = (slot1.emojiId and 213) or 133
-
+	ChatRoomBubble.New(slot4).update(slot5, slot1)
 	scrollToBottom(slot0.chatsRect)
 end
 

@@ -190,13 +190,11 @@ function slot0.register(slot0)
 				end
 
 				slot4:updateCommanderByPos(slot3, slot4)
-				slot4:updateCommanderSkills()
-				slot4.updateCommanderSkills:updateActivityFleet(slot6.id, slot1, slot4)
+				slot4.updateCommanderByPos:updateActivityFleet(slot6.id, slot1, slot4)
 				slot1()
 			end,
 			onQuit = function (slot0)
 				slot0:updateCommanderByPos(slot0.updateCommanderByPos, nil)
-				slot0:updateCommanderSkills()
 				slot0:updateActivityFleet(slot0.updateCommanderByPos.id, nil, slot0)
 				slot0()
 			end

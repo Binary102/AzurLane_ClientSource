@@ -181,11 +181,11 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							templateID = 1000843,
+							templateID = 1100838,
 							delay = 0,
 							totalNumber = 3,
 							weaponID = {
-								1000843
+								1100838
 							},
 							attr = {
 								airPower = 40,

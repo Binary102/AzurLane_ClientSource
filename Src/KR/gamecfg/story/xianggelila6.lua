@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"기행의 사프란\n\n<size=30>6 비장의 카드는…</size>",
+					"기행의 사프란\n\n<size=45>6 비장의 카드는…</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "샹그릴라, 괜찮아?",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "만반의 준비를 했어요. 남은 건 실전 응용 뿐.",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "흐흥, 그렇다면 호넷 님이 코를 꺾어줘야겠네~.",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저야말로, 호넷 씨의 움직임을 읽어 드리겠어요.",
 			typewriter = {
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "오오! 뭔가 굉장히 불타오르고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -139,7 +139,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어떤 전투가 될지 기대되네.",
 			typewriter = {
@@ -155,7 +155,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "호넷, 힘내~!",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107380,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "생각 외로 많은 사람이 관전하러 왔네요……",
 			typewriter = {
 				speed = 0.05,
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = -1,
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하…… 뭐, 모의전이라고 해서 봐주지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107380,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그 점은 피차일반이네요. 잘 부탁해요! 호넷 씨!",
 			typewriter = {
 				speed = 0.05,
@@ -264,7 +264,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/plane",
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "함재기들, 공격!",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107380,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미끼일 확률이 90%…… 이 정도는 파악하고 있다고요……!",
 			typewriter = {
 				speed = 0.05,
@@ -298,7 +298,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/plane",
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쳇, 이건 어떠냐!",
 			typewriter = {
 				speed = 0.05,
@@ -310,7 +310,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -361,7 +361,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "호넷이 밀리고 있네.",
 			typewriter = {
@@ -377,7 +377,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정보전을 한 보람이 있네요. 후후후♪",
 			typewriter = {
@@ -393,7 +393,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아니, 승패를 판단하기는 아직 일러.",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
 			actor = 107380,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			seDelay = 1,
 			flashout = {
 				dur = 0.5,
@@ -446,7 +446,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/plane",
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미안하지만, 이쪽은 '샹그릴라에서 발진한' 쪽이라고!",
 			effects = {
 				{
@@ -464,7 +464,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 107380,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "앗?! 필사적인 폭격 공격이……!",
 			effects = {
 				{
@@ -546,7 +546,7 @@ return {
 			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이건……",
 			typewriter = {
@@ -562,7 +562,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "착탄 판정이 동시에 들어갔네요.",
 			typewriter = {
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 107090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "무승부……인 건가요……",
 			typewriter = {
 				speed = 0.05,

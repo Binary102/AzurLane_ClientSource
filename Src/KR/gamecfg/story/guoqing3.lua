@@ -10,7 +10,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "폭풍우로 해역 전체를 감추다니... 당치도 않는 힘이네......",
 			shake = {
 				speed = 1,
@@ -28,7 +28,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "심해의 수수께끼를 풀려고 했던 녀석들은 벌써 가라앉았나보네... 나도 운이 없으면......",
 			shake = {
 				speed = 1,
@@ -46,7 +46,7 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "......어쨌든 쇼카쿠 언니에게 연락해야 해. 이 장소... 왠지 안 좋은 예감이 들어.",
 			shake = {
 				speed = 1,

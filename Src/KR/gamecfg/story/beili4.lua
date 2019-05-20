@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼성인은 '아이돌'!</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '아이돌'!</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			actor = 101160,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋아좋아…이걸로 끝! 오늘 베일리 엄청 귀여워!☆",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -95,7 +95,7 @@ return {
 			actor = 101160,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응응응응! 이렇게 귀여운데 아이돌이 안 되면 아깝지!",
 			typewriter = {
@@ -111,7 +111,7 @@ return {
 			actor = 101160,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘도 일이 끝나면, 같이 아이돌 레슨하는 거야!",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응~!",
 			typewriter = {
 				speed = 0.05,
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -153,7 +153,7 @@ return {
 			actor = 101270,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 지휘관!",
 			typewriter = {
@@ -169,7 +169,7 @@ return {
 			actor = 101160,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관 안녕~! 일하는 거 방해하면 안 되니까, 초절 큐티 소녀 벤슨은 이만 바이바이 할게~♪",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이돌? 에 그러니까, 베일리는 벤슨 언니와 함께 노래하고 춤추다 보니까, 어느샌가 아이돌이 좋아졌어!",
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			say = "역시 벤슨의 영향이었나.",
 			dialogShake = {
 				speed = 0.15,
-				x = 15,
+				x = 22.5,
 				number = 2
 			},
 			typewriter = {
@@ -242,7 +242,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 지휘관, 이건 베일리가 몰래 꿈꾸고 있는 건데 말야……",
 			typewriter = {
@@ -258,7 +258,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언젠가 베일리가 제일가는 아이돌이 되어서, 토끼토끼별 사람들한테까지 베일리를 알아주면……",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "베일리는 토끼토끼별에 초대받아 라이브를 할 수 있을지도 몰라!",
 			typewriter = {

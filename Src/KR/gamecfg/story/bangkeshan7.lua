@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=30>一 战斗吧，{namecode:144}！</size>",
+					"前进吧，{namecode:144}！\n\n<size=45>一 战斗吧，{namecode:144}！</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 303030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "身披舰装的少女们在海域里，赌上自己的一切，为着今天第一名的荣耀而奋斗……啊啊，这标题实在是太棒了！",
 			typewriter = {
 				speed = 0.05,
@@ -76,7 +76,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			actor = 303040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "别光顾着拍照啦，姐姐！你也是演习的一员啊！",
 			typewriter = {
@@ -101,7 +101,7 @@ return {
 			actor = 303070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "{namecode:64}也是！演习的时候稍微认真点啊！指挥官也在看着呢！",
 			typewriter = {
@@ -117,7 +117,7 @@ return {
 			actor = 303080,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哎呀，放心吧，区区训练演习，对我来说只是小事一桩~",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			actor = 303080,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "比起这个，不关注一下正在场上的妹妹吗？",
 			typewriter = {
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……喝！",
 			flashout = {
 				dur = 0.5,
@@ -182,7 +182,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 303090,
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "——",
 			typewriter = {
 				speed = 0.05,
@@ -249,7 +249,7 @@ return {
 					type = "move",
 					delay = 0.2,
 					dur = 1,
-					x = 2500
+					x = 3750
 				}
 			}
 		},
@@ -257,7 +257,7 @@ return {
 			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "！好快…而且好准",
 			typewriter = {
@@ -273,7 +273,7 @@ return {
 			actor = 303120,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊呀？总觉得你有些不甘心呢。",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔…在、在下也还可以更加——",
 			typewriter = {
@@ -305,7 +305,7 @@ return {
 			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……哈啊啊啊啊！",
 			typewriter = {
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_nepu1",
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呼——这样就结束了吗？",
 			flashout = {
 				dur = 0.5,
@@ -355,7 +355,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "辛苦了喵！刚刚的表现毫无疑问是目前最好的喵！一定可以给指挥官留下深刻印象的喵。",
 			typewriter = {
@@ -373,7 +373,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "真、真的吗！那、那实在是太好了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -385,7 +385,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 303090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不过，下次我会做得更好的——",
 			typewriter = {
 				speed = 0.05,
@@ -414,7 +414,7 @@ return {
 		{
 			actor = 303090,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "（我还要变得更强才行！）",

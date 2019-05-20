@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			actor = 900050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
@@ -24,7 +24,7 @@ return {
 		{
 			say = "늦지 않았네. 쇼카쿠가 보낸 정찰기 덕분이에요.",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 900051,
 			actorName = "？？？",
@@ -43,7 +43,7 @@ return {
 		},
 		{
 			actor = 900050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "？？？",
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:95}",
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -91,7 +91,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:96}",
@@ -109,7 +109,7 @@ return {
 			mode = 3,
 			side = 0,
 			bgName = "bg_story_mikasa",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
@@ -133,11 +133,11 @@ return {
 			actorName = "{namecode:95}&{namecode:96}",
 			side = 0,
 			bgName = "bg_story_mikasa",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			mode = 3,
-			say = "<size=35>미카사!!</size>",
+			say = "<size=52.5>미카사!!</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -157,7 +157,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -174,7 +174,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -191,7 +191,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -208,7 +208,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -225,7 +225,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -242,7 +242,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,
@@ -259,7 +259,7 @@ return {
 		{
 			actorName = "{namecode:82}",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305110,
 			mode = 3,

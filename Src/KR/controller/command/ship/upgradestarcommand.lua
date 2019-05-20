@@ -10,7 +10,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	for slot13, slot14 in pairs(slot6.equipments) do
 		if slot14 and slot9:isForbiddenAtPos(slot14, slot13) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("ship_upgrade_unequip_tip", slot9:getConfig("name"), "#fad545"),
+				content = i18n("ship_upgrade_unequip_tip", slot9:getConfig("name"), "#ffde38"),
 				onYes = function ()
 					slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
 						shipId = slot1.id,
@@ -50,10 +50,13 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					if slot11 then
 						if slot11:hasSkin() then
 							slot1:addEquipmentSkin(slot11.skinId, 1)
+
+							slot11.skinId = 0
+
 							pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
-						slot1:addEquipmentById(slot11.id, 1, true)
+						slot1:addEquipment(slot11)
 					end
 				end
 

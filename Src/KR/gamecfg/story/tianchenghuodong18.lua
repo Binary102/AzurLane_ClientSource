@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			bgm = "theme",
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "강해졌군요. 이제 제 계책이 쉽게 먹히지 않을 정도로…후후후후……",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actor = 305070,
@@ -43,7 +43,7 @@ return {
 		{
 			actor = 304050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그렇다면, 더는 가르쳐줄 게 없겠네요. 언니는 이제 만족이에요.",
 			typewriter = {
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 305070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "잠깐, 언니라니?!",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -103,7 +103,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아마기는 진지한 표정으로 입을 열기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -117,7 +117,7 @@ return {
 		{
 			actor = 304050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "세상에는 '강자' 와 '약자' 가 있다고 당신은 말했었죠.",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -148,7 +148,7 @@ return {
 		{
 			actor = 304050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…였습니다만, 이렇게 약한 저도 모두를, 그리고 동생인 아카기를 지키는 강자가 되고자 했답니다.",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -178,7 +178,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -195,7 +195,7 @@ return {
 		{
 			actor = 304050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앞으로는 항공모함의 시대…",
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -225,7 +225,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -241,7 +241,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -257,7 +257,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -273,7 +273,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -289,7 +289,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -305,7 +305,7 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 304050,
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgName = "bg_story_tiancheng5",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………………아카기를, 잘 부탁드립니다…",
 			flashout = {
 				dur = 1,

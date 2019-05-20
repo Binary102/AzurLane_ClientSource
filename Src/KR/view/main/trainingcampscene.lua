@@ -20,11 +20,12 @@ end
 
 function slot0.didEnter(slot0)
 	slot0:initToggles()
-	onButton(slot0, slot0:findTF("top/btnBack"), function ()
+	onButton(slot0, slot0:findTF("top/left_top/back_button"), function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("top/help"), function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.newplayer_help_tip.tip
 		})
 	end, SFX_PANEL)

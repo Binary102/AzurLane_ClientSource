@@ -6,7 +6,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "SP2·收集用隐藏剧情测试…",
 			shake = {
 				speed = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "这个剧情电应该只出现一次",
 			shake = {
 				speed = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "隐藏剧情触发",
 			shake = {
 				speed = 1,
@@ -60,7 +60,7 @@ return {
 		{
 			actor = -1,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			shake = {
 				speed = 1,

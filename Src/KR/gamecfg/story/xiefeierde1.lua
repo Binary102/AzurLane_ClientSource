@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>一 女仆队，清扫中</size>",
+					"这个女仆不太冷\n\n<size=45>一 女仆队，清扫中</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "？？？",
 			say = "萨福克，我们来比比谁先跑到那边的走廊吧！",
 			flashout = {
@@ -86,7 +86,7 @@ return {
 			actorName = "？？？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "欸，我才不要，反正我也跑不过你，让我再发会儿呆…",
 			typewriter = {
@@ -102,7 +102,7 @@ return {
 			actorName = "？？？",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "你们两个，我只是稍微离开了一会儿就变成这样了……",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 202080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "肯特，虽然你跑得很勤，但是在拖过的地面上跑多少次都不会变干净的。",
 			flashout = {
 				dur = 0.5,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 203030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "呜！…是——",
 			typewriter = {
 				speed = 0.05,
@@ -184,7 +184,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -197,7 +197,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…萨福克，我刚才离开的时候你就已经在那里了吧？",
 			typewriter = {
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 203040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "诶？怎怎怎么会呢！我已经动过了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -254,7 +254,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…？是主人啊…有什么事吗？",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……只是随便逛逛吗",
 			typewriter = {
@@ -286,7 +286,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "那请您后退几步，那里的地板刚刚拖过",
 			typewriter = {
@@ -316,7 +316,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "另外，若只是闲逛的话，请随便找个别的地方去，现在这一带正在清扫中",
 			typewriter = {
@@ -332,7 +332,7 @@ return {
 			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……要是大约一小时后回来的话，我还能为您泡一杯红茶或是准备一些点心，或许",
 			typewriter = {

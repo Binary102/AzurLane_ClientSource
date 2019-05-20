@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"의전함의 연회\n\n<size=30>주인공들에게 자리를</size>",
+					"의전함의 연회\n\n<size=45>주인공들에게 자리를</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후후후, 역시 키리시마는 인기가 많네요.",
 			flashout = {
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "저렇게나 많은 아이들 사이에서 종횡무진……역시 타고난 매력이 있어요.",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머, 지휘관님도 참. 저 말고 다른 아이들한테도 그런 얘기 자주 하시죠? 후후훗♪",
 			typewriter = {
@@ -105,7 +105,7 @@ return {
 			dir = -1,
 			bgm = "story-1",
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관과 히에이 발견~이다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -140,7 +140,7 @@ return {
 			actor = 304020,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시와 시라누이도 와줘서 고마워요. 연회는 재밌게 즐기고 계신가요?",
 			typewriter = {
@@ -156,7 +156,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 의전함, 뭐라 말이 나오지 않을 정도로 맛있는 요리를 준비해주셨더군요.",
 			typewriter = {
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "식재료는 아카시가 준비한 거다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -185,7 +185,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -198,7 +198,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "품목의 주문도 조리도 전부 히에이 씨가 하셨을 텐데…됐습니다, 오늘 연회는 하다못해 차마저 맛이 좋군요. (호로록)",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그건 내가 로열 네이비에서 가져온 홍차입니다. 당연히 맛이 좋을 수밖에.",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -250,7 +250,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "예, 감사드립니다, 콘고.",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 304010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 304010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_night",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "딱히……우냐앗?! 아카시를 갑자기 들어 올리지 마라냥! 아카시는 걸어갈 거다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -319,7 +319,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -332,7 +332,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "앗……지휘관, 히에이 씨, 즐거운 시간 되시길.",
 			typewriter = {
@@ -348,7 +348,7 @@ return {
 			actor = 304010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "주인공들에게 자리를 비켜주자고요, 우후후",
 			typewriter = {
@@ -364,7 +364,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어머 참, 콘고 씨는 여전히 사람을 곤란하게 하시네요…",
 			typewriter = {
@@ -390,7 +390,7 @@ return {
 			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "저렇게까지 신경 써 주셨으니…",
 			typewriter = {
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관님. 저, 히에이와 한 곡 함께 어울려주시겠어요?",
 			typewriter = {
 				speed = 0.05,

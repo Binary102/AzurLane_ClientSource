@@ -29,7 +29,7 @@ function slot0.refreshRedPoint(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.rightLSC.onReturnItem = nil
 end
@@ -53,21 +53,23 @@ function slot0.initData(slot0)
 end
 
 function slot0.findUI(slot0)
-	slot0.topPanel = slot0:findTF("top")
-	slot0.backBtn = slot0:findTF("BackBtn", slot0.topPanel)
-	slot0.additionDetailBtn = slot0:findTF("AdditionDetailBtn", slot0.topPanel)
-	slot0.switchBtn = slot0:findTF("SwitchToggle", slot0.topPanel)
-	slot0.pointTF = slot0:findTF("PointCount", slot0.topPanel)
-	slot0.pointNumText = slot0:findTF("PointCount/PointNumText", slot0.topPanel)
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.adapt = slot0:findTF("adapt", slot0.blurPanel)
+	slot0.backBtn = slot0:findTF("top/back", slot0.adapt)
+	slot0.homeBtn = slot0:findTF("top/option", slot0.adapt)
+	slot0.additionDetailBtn = slot0:findTF("AdditionDetailBtn", slot0.adapt)
+	slot0.switchBtn = slot0:findTF("SwitchToggle", slot0.adapt)
+	slot0.pointTF = slot0:findTF("PointCount", slot0.adapt)
+	slot0.pointNumText = slot0:findTF("PointCount/PointNumText", slot0.adapt)
 	slot0.redPointImg = slot0:findTF("RedPoint", slot0.switchBtn)
-	slot0.leftContainer = slot0:findTF("Left/Scroll View/Viewport/Content")
+	slot0.helpBtn = slot0:findTF("help_btn", slot0.adapt)
+	slot0.leftContainer = slot0:findTF("Adapt/Left/Scroll View/Viewport/Content")
 	slot0.selectNationItem = slot0:findTF("SelectCampItem")
-	slot0.bottomContainer = slot0:findTF("Bottom/Scroll View/Viewport/Content")
+	slot0.bottomContainer = slot0:findTF("Adapt/Bottom/Scroll View/Viewport/Content")
 	slot0.selectTypeItem = slot0:findTF("SelectTypeItem")
-	slot0.rightLSC = slot0:findTF("Right"):GetComponent("LScrollRect")
-	slot0.rightContainer = slot0:findTF("Right/ViewPort/Container")
+	slot0.rightLSC = slot0:findTF("Adapt/Right"):GetComponent("LScrollRect")
+	slot0.rightContainer = slot0:findTF("Adapt/Right/ViewPort/Container")
 	slot0.headItem = slot0:findTF("HeadItem")
-	slot0.helpBtn = slot0:findTF("top/help_btn")
 	slot0.rowHeight = slot0.headItem.rect.height
 end
 
@@ -85,11 +87,13 @@ function slot0.addBtnListener(slot0)
 	onToggle(slot0, slot0.switchBtn, function (slot0)
 		if slot0 then
 			setActive(slot0.pointTF, false)
-			pg.UIMgr.GetInstance():OverlayPanel(slot0.topPanel)
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+				weight = LayerWeightConst.SECOND_LAYER
+			})
 			slot0:emit(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER)
 		else
 			setActive(slot0.pointTF, true)
-			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topPanel, slot0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 			slot0:emit(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER)
 		end
 	end, SFX_PANEL)
@@ -202,8 +206,10 @@ function slot0.addBtnListener(slot0)
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.help_technologytree then
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
-				helps = pg.gametip.help_technologytree.tip
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_technologytree.tip,
+				weight = LayerWeightConst.TOP_LAYER
 			})
 		end
 	end, SFX_PANEL)
@@ -396,7 +402,8 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 						setImageSprite(slot7, GetSpriteFromAtlas("ui/technologytreeui_atlas", "card_bg_finished"))
 						setActive(slot21, false)
 						setActive(slot24, false)
-						setActive(slot16, false)
+						setActive(slot23, false)
+						setActive(slot22, false)
 						setActive(slot25, true)
 					else
 						setText(slot11, "+" .. pg.fleet_tech_ship_template[slot26].pt_get + pg.fleet_tech_ship_template[slot26].pt_level)

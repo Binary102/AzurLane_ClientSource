@@ -5,15 +5,15 @@ pg.gametip = {
 		key = "ad_0"
 	},
 	ad_1 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 건조 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 건조 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_1"
 	},
 	ad_2 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 출격 획득<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 출격 획득<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_2"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 함선 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 함선 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_3"
 	},
 	word_back = {
@@ -95,6 +95,14 @@ pg.gametip = {
 	word_get = {
 		tip = "획득",
 		key = "word_get"
+	},
+	word_got = {
+		tip = "수령 완료",
+		key = "word_got"
+	},
+	word_not_get = {
+		tip = "미수령",
+		key = "word_not_get"
 	},
 	word_next_level = {
 		tip = "다음 Lv",
@@ -197,19 +205,19 @@ pg.gametip = {
 		key = "word_levelup"
 	},
 	word_serverLoadVindicate = {
-		tip = "<color=#656565FF>점검</color>",
+		tip = "<color=#a2a2a2>점검</color>",
 		key = "word_serverLoadVindicate"
 	},
 	word_serverLoadNormal = {
-		tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>정상</color></material>",
+		tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>정상</color></material>",
 		key = "word_serverLoadNormal"
 	},
 	word_serverLoadFull = {
-		tip = "<color=#C41717FF>만원</color>",
+		tip = "<color=#ff5c5c>만원</color>",
 		key = "word_serverLoadFull"
 	},
 	word_registerFull = {
-		tip = "<color=#C41717FF>만원</color>",
+		tip = "<color=#ff5c5c>만원</color>",
 		key = "word_registerFull"
 	},
 	word_synthesize = {
@@ -369,7 +377,7 @@ pg.gametip = {
 		key = "word_shipState_event"
 	},
 	word_shipState_activity = {
-		tip = "해당 캐릭터는 특수 작전부대에 편성되어 있습니다. ",
+		tip = "해당 캐릭터는 특수 작전부대에 편성되어 있습니다.",
 		key = "word_shipState_activity"
 	},
 	word_shipState_sham = {
@@ -481,7 +489,7 @@ pg.gametip = {
 		key = "word_buy"
 	},
 	word_happy = {
-		tip = "<color=#4FFF00>환희</color>",
+		tip = "<color=#92fc63>환희</color>",
 		key = "word_happy"
 	},
 	word_normal = {
@@ -701,12 +709,36 @@ pg.gametip = {
 		key = "word_torpedo"
 	},
 	["word_ air_defense_artillery"] = {
-		tip = "대공포",
+		tip = "대공포 ",
 		key = "word_ air_defense_artillery"
+	},
+	word_air_defense_artillery = {
+		tip = "대공포 ",
+		key = "word_air_defense_artillery"
 	},
 	word_device = {
 		tip = "설비",
 		key = "word_device"
+	},
+	word_cannon = {
+		tip = "함포",
+		key = "word_cannon"
+	},
+	word_fighter = {
+		tip = "전투기",
+		key = "word_fighter"
+	},
+	word_bomber = {
+		tip = "폭격기",
+		key = "word_bomber"
+	},
+	word_attacker = {
+		tip = "뇌격기",
+		key = "word_attacker"
+	},
+	word_seaplane = {
+		tip = "수상기",
+		key = "word_seaplane"
 	},
 	word_online = {
 		tip = "로그인 중",
@@ -814,15 +846,15 @@ pg.gametip = {
 		key = "common_dont_remind_dur_login"
 	},
 	common_activity_end = {
-		tip = "<color=#A9F548>이미 종료</color>된 이벤트입니다.",
+		tip = "<color=#92fc63>이미 종료</color>된 이벤트입니다.",
 		key = "common_activity_end"
 	},
 	common_activity_notStartOrEnd = {
-		tip = "<color=#A9F548>미개방</color> 또는 <color=#A9F548>이미 종료</color>된 이벤트입니다.",
+		tip = "<color=#92fc63>미개방</color> 또는 <color=#92fc63>이미 종료</color>된 이벤트입니다.",
 		key = "common_activity_notStartOrEnd"
 	},
 	common_activity_not_start = {
-		tip = "이벤트가 <color=#A9F548>아직 개시되지</color> 않았습니다.",
+		tip = "이벤트가 <color=#92fc63>아직 개시되지</color> 않았습니다.",
 		key = "common_activity_not_start"
 	},
 	common_error = {
@@ -830,15 +862,15 @@ pg.gametip = {
 		key = "common_error"
 	},
 	common_no_gold = {
-		tip = "<color=#A9F548>물자</color>가 부족합니다!",
+		tip = "<color=#92fc63>물자</color>가 부족합니다!",
 		key = "common_no_gold"
 	},
 	common_no_oil = {
-		tip = "<color=#A9F548>연료</color>가 부족합니다!",
+		tip = "<color=#92fc63>연료</color>가 부족합니다!",
 		key = "common_no_oil"
 	},
 	common_no_rmb = {
-		tip = "<color=#A9F548>다이아</color>가 부족합니다!",
+		tip = "<color=#92fc63>다이아</color>가 부족합니다!",
 		key = "common_no_rmb"
 	},
 	common_count_noenough = {
@@ -846,7 +878,7 @@ pg.gametip = {
 		key = "common_count_noenough"
 	},
 	common_no_dorm_gold = {
-		tip = "<color=#A9F548>가구 코인</color>이 부족합니다!",
+		tip = "<color=#92fc63>가구 코인</color>이 부족합니다!",
 		key = "common_no_dorm_gold"
 	},
 	common_no_resource = {
@@ -854,7 +886,7 @@ pg.gametip = {
 		key = "common_no_resource"
 	},
 	common_no_item = {
-		tip = "아이템 <color=#A9F548>[$1]</color>가 부족합니다!",
+		tip = "아이템 <color=#92fc63>[$1]</color>가 부족합니다!",
 		key = "common_no_item"
 	},
 	common_no_item_1 = {
@@ -870,7 +902,7 @@ pg.gametip = {
 		key = "common_use_item_sos_used"
 	},
 	common_no_x = {
-		tip = "<color=#A9F548>$1</color>이(가) 부족합니다!",
+		tip = "<color=#92fc63>$1</color>이(가) 부족합니다!",
 		key = "common_no_x"
 	},
 	common_limit_cmd = {
@@ -890,7 +922,7 @@ pg.gametip = {
 		key = "common_buy_success"
 	},
 	common_limit_level = {
-		tip = "필요 지휘관 Lv：<color=#A9F548>$1</color>",
+		tip = "필요 지휘관 Lv：<color=#92fc63>$1</color>",
 		key = "common_limit_level"
 	},
 	common_shopId_noFound = {
@@ -941,12 +973,16 @@ pg.gametip = {
 		tip = "구입 가능 기간이 지났습니다.",
 		key = "common_skin_out_of_stock"
 	},
+	common_go_home = {
+		tip = "메인 화면으로 돌아가겠습니까?",
+		key = "common_go_home"
+	},
 	dont_remind_today = {
 		tip = "오늘은 그만 보기",
 		key = "dont_remind_today"
 	},
 	dont_remind_session = {
-		tip = "本次登录不再提示",
+		tip = "로그인이 더 이상 신청되지 않습니다.",
 		key = "dont_remind_session"
 	},
 	battle_no_oil = {
@@ -962,7 +998,7 @@ pg.gametip = {
 		key = "battle_duel_main_rage"
 	},
 	battle_main_emergent = {
-		tip = "<color=#A9F548>$1</color>이(가) 큰 손상을 입었습니다!",
+		tip = "<color=#92fc63>$1</color>이(가) 큰 손상을 입었습니다!",
 		key = "battle_main_emergent"
 	},
 	battle_battleMediator_goOnFight = {
@@ -1018,7 +1054,7 @@ pg.gametip = {
 		key = "battle_levelScene_noRaderCount"
 	},
 	battle_levelScene_lock = {
-		tip = "<color=#A9F548>이전 스테이지</color> 클리어 시 개방됩니다.",
+		tip = "<color=#92fc63>이전 스테이지</color> 클리어 시 개방됩니다.",
 		key = "battle_levelScene_lock"
 	},
 	battle_preCombatLayer_changeFormationError = {
@@ -1026,7 +1062,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_changeFormationError"
 	},
 	battle_preCombatLayer_changeFormationNumberError = {
-		tip = "전투 가능한 함선이 <color=#A9F548>$1</color>척 이상 필요합니다.",
+		tip = "전투 가능한 함선이 <color=#92fc63>$1</color>척 이상 필요합니다.",
 		key = "battle_preCombatLayer_changeFormationNumberError"
 	},
 	battle_preCombatLayer_ready = {
@@ -1034,7 +1070,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_ready"
 	},
 	battle_preCombatLayer_quest_leaveFleet = {
-		tip = "<color=#A9F548>$1</color>을(를) 배속해제 하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>을(를) 배속해제 하시겠습니까?",
 		key = "battle_preCombatLayer_quest_leaveFleet"
 	},
 	battle_preCombatLayer_clear_confirm = {
@@ -1078,7 +1114,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_time_hold"
 	},
 	battle_preCombatLayer_damage_before_end = {
-		tip = "가능한 목표에 더 많은 피해를 입히다 ",
+		tip = "가능한 목표에 더 많은 피해를 입히다",
 		key = "battle_preCombatLayer_damage_before_end"
 	},
 	battle_preCombatMediator_leastLimit = {
@@ -1086,23 +1122,23 @@ pg.gametip = {
 		key = "battle_preCombatMediator_leastLimit"
 	},
 	battle_preCombatMediator_timeout = {
-		tip = "<color=#A9F548>작전 제한 시간</color>을 초과했습니다. 작전 실패...",
+		tip = "<color=#92fc63>작전 제한 시간</color>을 초과했습니다. 작전 실패...",
 		key = "battle_preCombatMediator_timeout"
 	},
 	battle_resourceSiteLayer_collecTimeDefault = {
-		tip = "의뢰시간：<color=#A9F548>--:--:--</color>",
+		tip = "의뢰시간：<color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTimeDefault"
 	},
 	battle_resourceSiteLayer_collecTime = {
-		tip = "의뢰시간：<color=#A9F548>--:--:--</color>",
+		tip = "의뢰시간：<color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTime"
 	},
 	battle_resourceSiteLayer_maxLv = {
-		tip = "최고 레벨：<color=#A9F548>Lv.$1</color>",
+		tip = "최고 레벨：<color=#92fc63>Lv.$1</color>",
 		key = "battle_resourceSiteLayer_maxLv"
 	},
 	battle_resourceSiteLayer_avgLv = {
-		tip = "평균 레벨：<color=#A9F548>Lv.$1</color>",
+		tip = "평균 레벨：<color=#92fc63>Lv.$1</color>",
 		key = "battle_resourceSiteLayer_avgLv"
 	},
 	battle_resourceSiteLayer_shipTypeCount = {
@@ -1110,15 +1146,15 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_shipTypeCount"
 	},
 	battle_resourceSiteLayer_no_maxLv = {
-		tip = "최고 레벨이 <color=#A9F548>Lv.$1</color> 보다 낮습니다.",
+		tip = "최고 레벨이 <color=#92fc63>Lv.$1</color> 보다 낮습니다.",
 		key = "battle_resourceSiteLayer_no_maxLv"
 	},
 	battle_resourceSiteLayer_no_avgLv = {
-		tip = "평균 레벨이 <color=#A9F548>Lv.$1</color> 보다 낮습니다.",
+		tip = "평균 레벨이 <color=#92fc63>Lv.$1</color> 보다 낮습니다.",
 		key = "battle_resourceSiteLayer_no_avgLv"
 	},
 	battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "<color=#A9F548>$1X$2</color>이(가) 편성되어 있지 않습니다.",
+		tip = "<color=#92fc63>$1X$2</color>이(가) 편성되어 있지 않습니다.",
 		key = "battle_resourceSiteLayer_no_shipTypeCount"
 	},
 	battle_resourceSiteLayer_startError_collecting = {
@@ -1126,11 +1162,11 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_startError_collecting"
 	},
 	battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "<color=#A9F548> 5</color>척 이상 필요합니다.",
+		tip = "<color=#92fc63> 5</color>척 이상 필요합니다.",
 		key = "battle_resourceSiteLayer_startError_not5Ship"
 	},
 	battle_resourceSiteLayer_startError_limit = {
-		tip = "의뢰 조건에 맞지 않습니다：<color=#A9F548>$1</color>",
+		tip = "의뢰 조건에 맞지 않습니다：<color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_startError_limit"
 	},
 	battle_resourceSiteLayer_endError_notStar = {
@@ -1174,7 +1210,7 @@ pg.gametip = {
 		key = "battle_autobot_unlock"
 	},
 	backyard_addExp_Info = {
-		tip = "자리를 비우신 ||<color=#FAFAF7FF>$1</color>|| 동안, 충분히 휴식했습니다! ||식량을|| <color=#A9F548FF>$2</color>|| 소비해서, 경험치를 || <color=#A9F548FF>$3</color>|| 획득했습니다!",
+		tip = "자리를 비우신 ||<color=#FAFAF7FF>$1</color>|| 동안, 충분히 휴식했습니다! ||식량을|| <color=#92fc63FF>$2</color>|| 소비해서, 경험치를 || <color=#92fc63FF>$3</color>|| 획득했습니다!",
 		key = "backyard_addExp_Info"
 	},
 	backyard_extendCapacity_error = {
@@ -1182,7 +1218,7 @@ pg.gametip = {
 		key = "backyard_extendCapacity_error"
 	},
 	backyard_extendCapacity_ok = {
-		tip = "식량 창고가 <color=#A9F548>$1</color>으로 확장되었습니다!",
+		tip = "식량 창고가 <color=#92fc63>$1</color>으로 확장되었습니다!",
 		key = "backyard_extendCapacity_ok"
 	},
 	backyard_addShip_error = {
@@ -1202,7 +1238,7 @@ pg.gametip = {
 		key = "backyard_addFood_error"
 	},
 	backyard_addFood_ok = {
-		tip = "식량이 <color=#A9F548>+$1</color> 보충되었습니다!",
+		tip = "식량이 <color=#92fc63>+$1</color> 보충되었습니다!",
 		key = "backyard_addFood_ok"
 	},
 	backyard_putFurniture_ok = {
@@ -1214,7 +1250,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodCountLimit"
 	},
 	backyard_shipAddInimacy_ok = {
-		tip = "<color=#A9F548>$1</color>의 호감도가 <color=#A9F548>상승</color>했습니다.",
+		tip = "<color=#92fc63>$1</color>의 호감도가 <color=#92fc63>상승</color>했습니다.",
 		key = "backyard_shipAddInimacy_ok"
 	},
 	backyard_shipAddInimacy_error = {
@@ -1222,7 +1258,7 @@ pg.gametip = {
 		key = "backyard_shipAddInimacy_error"
 	},
 	backyard_shipAddMoney_ok = {
-		tip = "<color=#A9F548>$1</color>이(가) <color=#A9F548>$2</color> 가구 코인을 발견했습니다!",
+		tip = "<color=#92fc63>$1</color>이(가) <color=#92fc63>$2</color> 가구 코인을 발견했습니다!",
 		key = "backyard_shipAddMoney_ok"
 	},
 	backyard_shipAddMoney_error = {
@@ -1246,11 +1282,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_full"
 	},
 	backyard_backyardGranaryLayer_buyCountLimit = {
-		tip = "최대 <color=#A9F548>$1</color>까지만 구입 가능합니다!",
+		tip = "최대 <color=#92fc63>$1</color>까지만 구입 가능합니다!",
 		key = "backyard_backyardGranaryLayer_buyCountLimit"
 	},
 	backyard_backyardGranaryLayer_error_noResource = {
-		tip = "<color=#A9F548>$1</color>이(가) 부족하여 구입할 수 없습니다.",
+		tip = "<color=#92fc63>$1</color>이(가) 부족하여 구입할 수 없습니다.",
 		key = "backyard_backyardGranaryLayer_error_noResource"
 	},
 	backyard_backyardGranaryLayer_noFood = {
@@ -1258,7 +1294,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_noFood"
 	},
 	backyard_backyardGranaryLayer_noTimer = {
-		tip = "<color=#A9F548>식량을 보충</color>하면 경험치를 획득할 수 있습니다!",
+		tip = "<color=#92fc63>식량을 보충</color>하면 경험치를 획득할 수 있습니다!",
 		key = "backyard_backyardGranaryLayer_noTimer"
 	},
 	backyard_backyardGranaryLayer_word = {
@@ -1266,7 +1302,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_word"
 	},
 	backyard_backyardGranaryLayer_noShip = {
-		tip = "휴식 시킬 함선을 배치하기 전까지 <color=#A9F548>식량은 줄어들지 않습니다.</color>",
+		tip = "휴식 시킬 함선을 배치하기 전까지 <color=#92fc63>식량은 줄어들지 않습니다.</color>",
 		key = "backyard_backyardGranaryLayer_noShip"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1278,11 +1314,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodTimeNotice_bottom"
 	},
 	backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-		tip = "식량 창고를 <color=#A9F548>$1</color>에서 <color=#A9F548>$2</color>으로 확장",
+		tip = "식량 창고를 <color=#92fc63>$1</color>에서 <color=#92fc63>$2</color>으로 확장",
 		key = "backyard_backyardGranaryLayer_foodMaxIncreaseNotice"
 	},
 	backyard_backyardGranaryLayer_error_entendFail = {
-		tip = "<color=#A9F548>확장에 필요한 아이템이 부족합니다.</color>",
+		tip = "<color=#92fc63>확장에 필요한 아이템이 부족합니다.</color>",
 		key = "backyard_backyardGranaryLayer_error_entendFail"
 	},
 	backyard_backyardGranaryLayer_buy_max_count = {
@@ -1290,43 +1326,43 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=21>경험치<color=#A9EE48>+$1%</color></size><size=19>\n총합 쾌적도는 각 카테고리(카펫류 제외) 중 쾌적도가 높은 가구부터 순서대로, <color=#A9EE48>배치 가능한 가구들의</color> 총 합계치와 카펫류 가구 중 쾌적도가 높은 순서대로 <color=#5FD500>$2</color>번째 가구까지의 쾌적도를 더한 합계치가 적용됩니다.</size>",
+		tip = "<size=21>경험치<color=#A9EE48>+$1%</color></size><size=19>\n총합 쾌적도는 각 카테고리(카펫류 제외) 중 쾌적도가 높은 가구부터 순서대로, <color=#A9EE48>배치 가능한 가구들의</color> 총 합계치와 카펫류 가구 중 쾌적도가 높은 순서대로 <color=#92fc63>$2</color>번째 가구까지의 쾌적도를 더한 합계치가 적용됩니다.</size>",
 		key = "backyard_backyardScene_comforChatContent1"
 	},
 	backyard_buyExtendItem_question = {
-		tip = "<color=#A9F548>$1</color>을(를) 소비합니다. 진행하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>을(를) 소비합니다. 진행하시겠습니까?",
 		key = "backyard_buyExtendItem_question"
 	},
 	backyard_backyardScene_comforChatContent1_1 = {
-		tip = "<color=#CC0000>불편</color>",
+		tip = "<color=#ff5c5c>불편</color>",
 		key = "backyard_backyardScene_comforChatContent1_1"
 	},
 	backyard_backyardScene_comforChatContent2_2 = {
-		tip = "<color=#FFBB11>보통</color>",
+		tip = "<color=#ffde38>보통</color>",
 		key = "backyard_backyardScene_comforChatContent2_2"
 	},
 	backyard_backyardScene_comforChatContent3_3 = {
-		tip = "<color=#00EEFF>쾌적</color>",
+		tip = "<color=#c5cfdf>쾌적</color>",
 		key = "backyard_backyardScene_comforChatContent3_3"
 	},
 	backyard_backyardScene_quest_clearButton = {
-		tip = "현재 배치를 <color=#A9F548>초기화</color>하시겠습니까?",
+		tip = "현재 배치를 <color=#92fc63>초기화</color>하시겠습니까?",
 		key = "backyard_backyardScene_quest_clearButton"
 	},
 	backyard_backyardScene_quest_saveFurniture = {
-		tip = "현재 배치를 <color=#A9F548>저장</color>하시겠습니까?",
+		tip = "현재 배치를 <color=#92fc63>저장</color>하시겠습니까?",
 		key = "backyard_backyardScene_quest_saveFurniture"
 	},
 	backyard_backyardScene_restSuccess = {
-		tip = "<color=#A9F548>배치를 복원했습니다!</color>",
+		tip = "<color=#92fc63>배치를 복원했습니다!</color>",
 		key = "backyard_backyardScene_restSuccess"
 	},
 	backyard_backyardScene_clearSuccess = {
-		tip = "<color=#A9F548>배치를 초기화했습니다.</color>",
+		tip = "<color=#92fc63>배치를 초기화했습니다.</color>",
 		key = "backyard_backyardScene_clearSuccess"
 	},
 	backyard_backyardScene_name = {
-		tip = "<color=#A9F548>$1의 숙소</color>",
+		tip = "<color=#92fc63>$1의 숙소</color>",
 		key = "backyard_backyardScene_name"
 	},
 	backyard_backyardScene_exitShipAfterAddEnergy = {
@@ -1334,11 +1370,11 @@ pg.gametip = {
 		key = "backyard_backyardScene_exitShipAfterAddEnergy"
 	},
 	backyard_backyardScene_timeRest = {
-		tip = "남은 시간 <color=#A9F548>$1</color>",
+		tip = "남은 시간 <color=#92fc63>$1</color>",
 		key = "backyard_backyardScene_timeRest"
 	},
 	backyard_backyardScene_showAddExpInfo = {
-		tip = "휴식시간：<color=#A9F548>$1</color> 경험치 증가：<color=#A9F548>$2</color>",
+		tip = "휴식시간：<color=#92fc63>$1</color> 경험치 증가：<color=#92fc63>$2</color>",
 		key = "backyard_backyardScene_showAddExpInfo"
 	},
 	backyard_backyardScene_error_noPosPutFurniture = {
@@ -1354,7 +1390,7 @@ pg.gametip = {
 		key = "backyard_backyardScene_error_canNotRotate"
 	},
 	backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "<color=#A9F548>$1 다이아</color>를 사용하여 휴식 슬롯을 개방하시겠습니까?",
+		tip = "<color=#92fc63>$1 다이아</color>를 사용하여 휴식 슬롯을 개방하시겠습니까?",
 		key = "backyard_backyardShipInfoLayer_quest_openPos"
 	},
 	backyard_backyardShipInfoLayer_quest_addShipNoFood = {
@@ -1362,7 +1398,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoLayer_quest_addShipNoFood"
 	},
 	backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
-		tip = "<color=#A9F548>고속건조재</color>를 사용하여 건조를 가속하시겠습니까?",
+		tip = "<color=#92fc63>고속건조재</color>를 사용하여 건조를 가속하시겠습니까?",
 		key = "backyard_backyardShipInfoLayer_quest_quickAddEnergy"
 	},
 	backyard_backyardShipInfoLayer_error_noQuickItem = {
@@ -1422,7 +1458,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip"
 	},
 	backyard_open_2floor = {
-		tip = "<color=#A9F548>$1</color> 다이아를 사용하여 숙소의 2층을 개방하시겠습니까?\n※쾌적도가 <color=#A9F548>20</color> 증가합니다. ※휴식 슬롯의 개수는 1층과 동일합니다.",
+		tip = "<color=#92fc63>$1</color> 다이아를 사용하여 숙소의 2층을 개방하시겠습니까?\n※쾌적도가 <color=#92fc63>20</color> 증가합니다. ※휴식 슬롯의 개수는 1층과 동일합니다.",
 		key = "backyard_open_2floor"
 	},
 	backyarad_theme_replace = {
@@ -1434,7 +1470,7 @@ pg.gametip = {
 		key = "backyard_extendArea_ok"
 	},
 	backyard_extendArea_erro = {
-		tip = "숙소 확장에 실패했습니다... <color=#A9F548>$1</color>",
+		tip = "숙소 확장에 실패했습니다... <color=#92fc63>$1</color>",
 		key = "backyard_extendArea_erro"
 	},
 	backyard_extendArea_tip = {
@@ -1450,7 +1486,7 @@ pg.gametip = {
 		key = "backyard_no_ship_tip"
 	},
 	backyard_energy_qiuck_up_tip = {
-		tip = "에너지 커피를 <color=#A9F548FF>$1</color>개 사용하시겠습니까?\n\n보유 수：<color=$2>$3</color>",
+		tip = "에너지 커피를 <color=#92fc63FF>$1</color>개 사용하시겠습니까?\n\n보유 수：<color=$2>$3</color>",
 		key = "backyard_energy_qiuck_up_tip"
 	},
 	backyard_cant_put_tip = {
@@ -1462,15 +1498,15 @@ pg.gametip = {
 		key = "backyard_cant_buy_tip"
 	},
 	backyard_theme_lock_tip = {
-		tip = "이 세트는 현재 <color=#A9F548>미개방</color> 상태입니다.",
+		tip = "이 세트는 현재 <color=#92fc63>미개방</color> 상태입니다.",
 		key = "backyard_theme_lock_tip"
 	},
 	backyard_theme_open_tip = {
-		tip = "개방 조건：\n지휘관 Lv.<color=#A9F548>$1</color> 이상",
+		tip = "개방 조건：\n지휘관 Lv.<color=#92fc63>$1</color> 이상",
 		key = "backyard_theme_open_tip"
 	},
 	backyard_theme_furniture_buy_tip = {
-		tip = "<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$1</color></material> 가구 코인으로 <material=outline c=#473B3A x=1 y=-1><color=#A9F548>$2</color></material>을(를) 구입하시겠습니까?",
+		tip = "<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> 가구 코인으로 <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>을(를) 구입하시겠습니까?",
 		key = "backyard_theme_furniture_buy_tip"
 	},
 	backyard_cannot_repeat_purchase = {
@@ -1530,15 +1566,15 @@ pg.gametip = {
 		key = "equipment_equipDevUI_error_noPos"
 	},
 	equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "<color=#A9F548>$1</color>를 장비할 수 없습니다.",
+		tip = "<color=#92fc63>$1</color>를 장비할 수 없습니다.",
 		key = "equipment_equipmentInfoLayer_error_canNotEquip"
 	},
 	equipment_equipmentScene_selectError_more = {
-		tip = "<color=#A9F548>$1</color>개까지 선택할 수 있습니다.",
+		tip = "<color=#92fc63>$1</color>개까지 선택할 수 있습니다.",
 		key = "equipment_equipmentScene_selectError_more"
 	},
 	equipment_newEquipLayer_getNewEquip = {
-		tip = "장비 획득：<color=#A9F548>$1</color>",
+		tip = "장비 획득：<color=#92fc63>$1</color>",
 		key = "equipment_newEquipLayer_getNewEquip"
 	},
 	equipment_select_materials_tip = {
@@ -1550,7 +1586,7 @@ pg.gametip = {
 		key = "equipment_select_device_tip"
 	},
 	equipment_cant_unload = {
-		tip = "<color=#A9F548>창고에 공간이 없습니다.</color>... 장비를 해체할 수 없습니다.",
+		tip = "<color=#92fc63>창고에 공간이 없습니다.</color>... 장비를 해체할 수 없습니다.",
 		key = "equipment_cant_unload"
 	},
 	equipment_max_level = {
@@ -1562,11 +1598,11 @@ pg.gametip = {
 		key = "exercise_count_insufficient"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "<color=#A9F548>연습전 방어 함대</color>를 초기화 합니다. 진행하시겠습니까? (※초기화 시 제 1 함대가 방어를 담당합니다.)",
+		tip = "<color=#92fc63>연습전 방어 함대</color>를 초기화 합니다. 진행하시겠습니까? (※초기화 시 제 1 함대가 방어를 담당합니다.)",
 		key = "exercise_clear_fleet_tip"
 	},
 	exercise_fleet_exit_tip = {
-		tip = "해당 함선을 <color=#A9F548>연습전 방어 함대</color>에서 배속해제 하시겠습니까?",
+		tip = "해당 함선을 <color=#92fc63>연습전 방어 함대</color>에서 배속해제 하시겠습니까?",
 		key = "exercise_fleet_exit_tip"
 	},
 	exercise_replace_rivals_ok_tip = {
@@ -1574,19 +1610,19 @@ pg.gametip = {
 		key = "exercise_replace_rivals_ok_tip"
 	},
 	exercise_replace_rivals_question = {
-		tip = "<color=#A9F548>$1</color> 다이아를 사용하여 연습 상대를 초기화하시겠습니까?",
+		tip = "<color=#92fc63>$1</color> 다이아를 사용하여 연습 상대를 초기화하시겠습니까?",
 		key = "exercise_replace_rivals_question"
 	},
 	exercise_count_recover_tip = {
-		tip = "( <color=#A9F548>$1</color> 후 회복)",
+		tip = "( <color=#92fc63>$1</color> 후 회복)",
 		key = "exercise_count_recover_tip"
 	},
 	exercise_shop_refresh_tip = {
-		tip = "<color=#A9F548>$1</color> 다이아를 사용하여 리스트를 갱신하시겠습니까?",
+		tip = "<color=#92fc63>$1</color> 다이아를 사용하여 리스트를 갱신하시겠습니까?",
 		key = "exercise_shop_refresh_tip"
 	},
 	exercise_shop_buy_tip = {
-		tip = "<color=#A9F548>$1</color> 공훈으로 교환하시겠습니까?",
+		tip = "<color=#92fc63>$1</color> 공훈으로 교환하시겠습니까?",
 		key = "exercise_shop_buy_tip"
 	},
 	exercise_formation_title = {
@@ -1599,14 +1635,14 @@ pg.gametip = {
 	},
 	exercise_rule_tip = {
 		tip = [[
-1. 시즌 기간은 <color=#a9f548>14일</color>마다 1시즌이며, 기간 도중 승급 시 등급에 상응하는 보상을 얻을 수 있습니다
-2. 연습에서 승리하면, 등급에 따라 보상을 받을 수 있습니다. 패배하더라도 승리 시의 보상의 <color=#a9f548>절반</color>을 획득할 수 있습니다.
-3. 연습에서 승리하면 점수가 상승합니다. 패배하더라도 <color=#a9f548>점수는 내려가지 않습니다.</color>
+1. 시즌 기간은 <color=#92fc63>14일</color>마다 1시즌이며, 기간 도중 승급 시 등급에 상응하는 보상을 얻을 수 있습니다
+2. 연습에서 승리하면, 등급에 따라 보상을 받을 수 있습니다. 패배하더라도 승리 시의 보상의 <color=#92fc63>절반</color>을 획득할 수 있습니다.
+3. 연습에서 승리하면 점수가 상승합니다. 패배하더라도 <color=#92fc63>점수는 내려가지 않습니다.</color>
 4. 다른 유저에게 공격당하더라도, 공격당한 측의 점수는 변하지 않습니다.
-5. 점수가 일정 수치에 도달하면, 등급이(대령까지) 상승합니다. <color=#a9f548>대령 이상</color>의 등급은 랭킹 순위로 결정됩니다.
+5. 점수가 일정 수치에 도달하면, 등급이(대령까지) 상승합니다. <color=#92fc63>대령 이상</color>의 등급은 랭킹 순위로 결정됩니다.
 6. 등급 달성 시 보상은 한 번만 받을 수 있습니다.
 7. 공훈치를 모아 군수 상점에서 아이템과 교환할 수 있습니다.
-8. 연습 상대는 매일 <color=#a9f548>5회</color>까지 변경할 수 있습니다.
+8. 연습 상대는 매일 <color=#92fc63>5회</color>까지 변경할 수 있습니다.
 9. 연습 후, 연습 상대 리스트가 리셋됩니다.
 10. 연습 가능 횟수는 00:00, 12:00, 18:00 시에 리셋됩니다.
 11. 시즌 종료 후, 모든 유저의 등급과 점수는 리셋됩니다.]],
@@ -1617,7 +1653,7 @@ pg.gametip = {
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
-		tip = "<color=#A9F548>함선</color>을 선택해주세요.",
+		tip = "<color=#92fc63>함선</color>을 선택해주세요.",
 		key = "dock_yard_left_tips"
 	},
 	fleet_error_no_fleet = {
@@ -1633,7 +1669,7 @@ pg.gametip = {
 		key = "fleet_repairShips_error_noResource"
 	},
 	fleet_repairShips_quest = {
-		tip = "<color=#A9F548>$1</color> 물자를 소비하여 내구를 회복하시겠습니까?",
+		tip = "<color=#92fc63>$1</color> 물자를 소비하여 내구를 회복하시겠습니까?",
 		key = "fleet_repairShips_quest"
 	},
 	fleet_fleetRaname_error = {
@@ -1697,7 +1733,7 @@ pg.gametip = {
 		key = "friend_addblacklist_success"
 	},
 	friend_confirm_add_blacklist = {
-		tip = "<color=#A9F548>$1</color>을(를) 차단하시겠습니까?\n(차단 리스트는 친구관리에서 확인할 수 있습니다.)",
+		tip = "<color=#92fc63>$1</color>을(를) 차단하시겠습니까?\n(차단 리스트는 친구관리에서 확인할 수 있습니다.)",
 		key = "friend_confirm_add_blacklist"
 	},
 	friend_relieve_backlist_tip = {
@@ -1725,7 +1761,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "강화를 중지할 경우, 스킬 경험치는 일부 획득할 수 있으나, <color=#A9F548>교본은 그대로 소비됩니다.</color> 진행하시겠습니까?",
+		tip = "강화를 중지할 경우, 스킬 경험치는 일부 획득할 수 있으나, <color=#92fc63>교본은 그대로 소비됩니다.</color> 진행하시겠습니까?",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1741,24 +1777,20 @@ pg.gametip = {
 			pageMode = true,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	tactics_lesson_start_tip = {
-		tip = "<color=#A9F548>「$1」</color>을(를) <color=#A9F548>1권</color> 사용하여, <color=#A9F548>「$2」</color>의 <color=#A9F548>$3</color>을(를) 강화하시겠습니까?",
+		tip = "<color=#92fc63>「$1」</color>을(를) <color=#92fc63>1권</color> 사용하여, <color=#92fc63>「$2」</color>의 <color=#92fc63>$3</color>을(를) 강화하시겠습니까?",
 		key = "tactics_lesson_start_tip"
 	},
 	tactics_noskill_erro = {
@@ -1770,7 +1802,7 @@ pg.gametip = {
 		key = "tactics_max_level"
 	},
 	tactics_end_to_learn = {
-		tip = "<color=#A9F548>「$1」</color> 강화 완료. <color=#A9F548>「$2」</color> 스킬은 <color=#A9F548>$3</color>의 경험치를 획득했습니다!",
+		tip = "<color=#92fc63>「$1」</color> 강화 완료. <color=#92fc63>「$2」</color> 스킬은 <color=#92fc63>$3</color>의 경험치를 획득했습니다!",
 		key = "tactics_end_to_learn"
 	},
 	tactics_continue_to_learn = {
@@ -1978,11 +2010,11 @@ pg.gametip = {
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#A9F548>수령 실패：</color>\n\n<color=#A9F548>장비 창고가 꽉 차 있습니다.</color>",
+		tip = "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>장비 창고가 꽉 차 있습니다.</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#A9F548>수령 실패：</color>\n\n<color=#A9F548>도크가 꽉 차 있습니다.</color>",
+		tip = "<color=#92fc63>수령 실패：</color>\n\n<color=#92fc63>도크가 꽉 차 있습니다.</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -2014,15 +2046,15 @@ pg.gametip = {
 		key = "main_mailLayer_attachTaken"
 	},
 	main_mailLayer_quest_clear = {
-		tip = "읽은 우편을 전부 삭제하시겠습니까?<color=#A9F548>(첨부 아이템을 수령하지 않은 우편은 삭제되지 않습니다.)</color>",
+		tip = "읽은 우편을 전부 삭제하시겠습니까?<color=#92fc63>(첨부 아이템을 수령하지 않은 우편은 삭제되지 않습니다.)</color>",
 		key = "main_mailLayer_quest_clear"
 	},
 	main_mailLayer_quest_deleteNotTakeAttach = {
-		tip = "<color=#A9F548>아직 첨부 아이템을 수령하지 않았습니다.</color> 정말 삭제하시겠습니까?",
+		tip = "<color=#92fc63>아직 첨부 아이템을 수령하지 않았습니다.</color> 정말 삭제하시겠습니까?",
 		key = "main_mailLayer_quest_deleteNotTakeAttach"
 	},
 	main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#A9F548>아직 읽지 않은 우편이 있습니다.</color> 정말 삭제하시겠습니까?",
+		tip = "<color=#92fc63>아직 읽지 않은 우편이 있습니다.</color> 정말 삭제하시겠습니까?",
 		key = "main_mailLayer_quest_deleteNotRead"
 	},
 	main_mailMediator_mailDelete = {
@@ -2046,27 +2078,27 @@ pg.gametip = {
 		key = "main_navalAcademyScene_systemClose"
 	},
 	main_navalAcademyScene_quest_startClass = {
-		tip = "<color=#A9F548>수업 개시! 여러분, 집중해서 들어주세요~</color>",
+		tip = "<color=#92fc63>수업 개시! 여러분, 집중해서 들어주세요~</color>",
 		key = "main_navalAcademyScene_quest_startClass"
 	},
 	main_navalAcademyScene_quest_stopClass = {
-		tip = "同学们努力学习中，确认让她们一起逃课？\n<color=#A9F548>（逃课将不获得属性值加成）</color>",
+		tip = "同学们努力学习中，确认让她们一起逃课？\n<color=#92fc63>（逃课将不获得属性值加成）</color>",
 		key = "main_navalAcademyScene_quest_stopClass"
 	},
 	main_navalAcademyScene_quest_Classover_long = {
-		tip = "下课啦！<color=#A9F548>$1</color>认真学习，<color=#A9F548>$2+$3</color>；<color=#A9F548>$4+$5</color>！",
+		tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>；<color=#92fc63>$4+$5</color>！",
 		key = "main_navalAcademyScene_quest_Classover_long"
 	},
 	main_navalAcademyScene_quest_Classover_short = {
-		tip = "下课啦！<color=#A9F548>$1</color>认真学习，<color=#A9F548>$2+$3</color>！",
+		tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>！",
 		key = "main_navalAcademyScene_quest_Classover_short"
 	},
 	main_navalAcademyScene_upgrade_complete = {
-		tip = "<color=#A9F548>$1</color> 업그레이드 완료!",
+		tip = "<color=#92fc63>$1</color> 업그레이드 완료!",
 		key = "main_navalAcademyScene_upgrade_complete"
 	},
 	main_navalAcademyScene_class_upgrade_complete = {
-		tip = "<color=#A9F548>$1</color> 증축 완료, 비축 용량 <color=#9CFF5CE6>+$2</color>!",
+		tip = "<color=#92fc63>$1</color> 증축 완료, 비축 용량 <color=#9CFF5CE6>+$2</color>!",
 		key = "main_navalAcademyScene_class_upgrade_complete"
 	},
 	main_navalAcademyScene_work_done = {
@@ -2102,7 +2134,7 @@ pg.gametip = {
 		key = "main_notificationLayer_addFriendError_friendAlready"
 	},
 	main_notificationLayer_quest_deletFriend = {
-		tip = "<color=#A9F548>「$1」</color>을(를) 친구 목록에서 삭제하시겠습니까?",
+		tip = "<color=#92fc63>「$1」</color>을(를) 친구 목록에서 삭제하시겠습니까?",
 		key = "main_notificationLayer_quest_deletFriend"
 	},
 	main_notificationLayer_quest_request = {
@@ -2110,7 +2142,7 @@ pg.gametip = {
 		key = "main_notificationLayer_quest_request"
 	},
 	main_notificationLayer_enter_room = {
-		tip = "<color=#A9F548>$1</color> 채팅방에 입장했습니다.",
+		tip = "<color=#92fc63>$1</color> 채팅방에 입장했습니다.",
 		key = "main_notificationLayer_enter_room"
 	},
 	main_notificationLayer_not_roomId = {
@@ -2126,11 +2158,11 @@ pg.gametip = {
 		key = "main_notificationMediator_sendFriendRequest"
 	},
 	main_notificationMediator_beFriend = {
-		tip = "<color=#A9F548>「$1」</color>와(과) 친구가 되었습니다.",
+		tip = "<color=#92fc63>「$1」</color>와(과) 친구가 되었습니다.",
 		key = "main_notificationMediator_beFriend"
 	},
 	main_notificationMediator_deleteFriend = {
-		tip = "<color=#A9F548>「$1」</color>와(과) 절교했습니다.",
+		tip = "<color=#92fc63>「$1」</color>와(과) 절교했습니다.",
 		key = "main_notificationMediator_deleteFriend"
 	},
 	main_notificationMediator_room_max_number = {
@@ -2146,7 +2178,7 @@ pg.gametip = {
 		key = "main_playerInfoLayer_inputManifesto"
 	},
 	main_playerInfoLayer_quest_changeName = {
-		tip = "<color=#A9F548>100 다이아</color>를 사용합니다. 진행하시겠습니까?",
+		tip = "<color=#92fc63>100 다이아</color>를 사용합니다. 진행하시겠습니까?",
 		key = "main_playerInfoLayer_quest_changeName"
 	},
 	main_playerInfoLayer_error_changeNameNoGem = {
@@ -2187,36 +2219,29 @@ pg.gametip = {
 			{
 				info = [[
 <size=26>플레이 방법</size>
-・[그림 교실] 에선, 색깔칸에 지정된 번호의 물감을 선택하여 
-터치하면 칸에 색깔을 칠할 수 있습니다.；
+・[그림 교실] 에선, 색깔칸에 지정된 번호의 물감을 
+선택하여 터치하면 칸에 색깔을 칠할 수 있습니다.
 ・스케치북은 핀치 조작으로 확대 및 축소가 가능합니다.
 ・색깔을 채워넣을 땐, 같은 색깔칸이 완전히 칠해지거나,
-물감을 전부 소진할 때까지 자동으로 색칠이 진행됩니다.；
-・색깔을 칠할 때는 [물감]이 소비됩니다. 물감의 잔량이 0이 되면,
-해당 색깔칸에 색깔을 채울 수 없게 됩니다.；
+물감을 전부 소진할 때까지 자동으로 색칠이 진행됩니다.
+・색깔을 칠할 때는 [물감]이 소비됩니다. 물감의 잔량이 
+0이 되면,해당 색깔칸에 색깔을 채울 수 없게 됩니다.
 ・[물감]은 이벤트 한정 임무 '연료 누적 소비량'의 보수로 
-획득합니다. 색깔을 전부 채워 그림을 완성하면, 보수를 입수할 수 
-있습니다.
+획득합니다. 색깔을 전부 채워 그림을 완성하면, 보수를 
+입수할 수 있습니다.
 ・그림 교실 완성 보수 일람：
- No.1 랜덤 교본 T3 *1, 주사위 *3
- No.2 랜덤 교본 T3 *2, 주사위 *3 
- No.3 랜덤 교본 T3 *3, 주사위 *3 
- No.4 함포 파츠 T3 *2, 주사위 *2 
- No.5 함포 파츠 T3*3, 주사위 *2
- No.6 범용 파츠 T3*3, 주사위 *2
- No.7 범용 파츠 T3 *4, 주사위 *2 
- No.8 안샨 *1, 주사위 *1 
-・모든 그림을 완성시키면, ‘백지’ 를 사용할 수 있게 됩니다.
+ No.1 랜덤 교본 T3 *3 
+ No.2 법용 부속T3 *4 
+ No.3 아카시 스킨「아카시 특별 판매중이다냥!」・모든 그림을 
+완성시키면, ‘백지’ 를 사용할 수 있게 됩니다.
 ・백지에는 물감 제한없이 자유 사용이 가능하나, 획득 보수가 
 없습니다.
-・백지에는 [지우개]와 [리셋] 기능으로 색칠을 지울 수 있습니다.
-[지우개]는 한 칸의 색깔을 지울 수 있습니다.
+・백지에는 [지우개]와 [리셋] 기능으로 색칠을 지울 수 
+있습니다.[지우개]는 한 칸의 색깔을 지울 수 있습니다.
 ・[리셋]은 현재 그림의 모든 색칠을 전부 지울 수 있습니다.
 ・이벤트 종료 후 미사용한 물감은 전부 리셋됩니다.
-・2/7(목)까지 매일 새로운 그림이 하나씩 개방됩니다.
-・백지는 2/8(금) 이후 부터 개방됩니다.
-・[세뱃돈마블] 이벤트에서 주사위를 사용하여 보수를 
-획득해보세요!]]
+・5/22(수)까지 매일 새로운 그림이 하나씩 개방됩니다.
+・백지는 5/23(목) 이후 부터 개방됩니다.]]
 			}
 		}
 	},
@@ -2327,7 +2352,7 @@ pg.gametip = {
 		key = "resourceSite_startResourceSite_error"
 	},
 	ship_error_noShip = {
-		tip = "함선이 존재하지 않습니다.：<color=#A9F548>$1</color>",
+		tip = "함선이 존재하지 않습니다.：<color=#92fc63>$1</color>",
 		key = "ship_error_noShip"
 	},
 	ship_addStarExp_error = {
@@ -2339,7 +2364,7 @@ pg.gametip = {
 		key = "ship_buildShip_error"
 	},
 	ship_buildShip_error_noTemplate = {
-		tip = "건조 배치가 존재하지 않습니다.：<color=#A9F548>$1</color>",
+		tip = "건조 배치가 존재하지 않습니다.：<color=#92fc63>$1</color>",
 		key = "ship_buildShip_error_noTemplate"
 	},
 	ship_buildShip_error_notEnoughItem = {
@@ -2367,11 +2392,11 @@ pg.gametip = {
 		key = "ship_buildShip_not_position"
 	},
 	ship_buildBatchShip = {
-		tip = "<color=#A9F548>$1 다이아</color>를 사용하여 <color=#A9F548>10척 일괄 건조</color>를 진행하시겠습니까?",
+		tip = "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>10척 일괄 건조</color>를 진행하시겠습니까?",
 		key = "ship_buildBatchShip"
 	},
 	ship_buildSingleShip = {
-		tip = "<color=#A9F548>$1 다이아</color>를 사용하여 <color=#A9F548>1척 고속 건조</color>를 진행하시겠습니까?",
+		tip = "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>1척 고속 건조</color>를 진행하시겠습니까?",
 		key = "ship_buildSingleShip"
 	},
 	ship_buildShip_succeed = {
@@ -2383,7 +2408,7 @@ pg.gametip = {
 		key = "ship_buildShip_list_empty"
 	},
 	ship_buildship_tip = {
-		tip = "<color=#A9F548>$4</color> 건조 진행 시：\n<color=#A9F548>$1 물자</color>와 <color=#A9F548>$3을(를) $2개</color> 소모.",
+		tip = "<color=#92fc63>$4</color> 건조 진행 시：\n<color=#92fc63>$1 물자</color>와 <color=#92fc63>$3을(를) $2개</color> 소모.",
 		key = "ship_buildship_tip"
 	},
 	ship_destoryShips_error = {
@@ -2391,7 +2416,7 @@ pg.gametip = {
 		key = "ship_destoryShips_error"
 	},
 	ship_equipToShip_ok = {
-		tip = "<color=#A9F548>$1</color>을(를) 장착했습니다.",
+		tip = "<color=#92fc63>$1</color>을(를) 장착했습니다.",
 		key = "ship_equipToShip_ok"
 	},
 	ship_equipToShip_error = {
@@ -2415,7 +2440,7 @@ pg.gametip = {
 		key = "ship_getShip_error_notFinish"
 	},
 	ship_getShip_error_full = {
-		tip = "<color=#A9F548>도크에 공간이 없습니다</color>",
+		tip = "<color=#92fc63>도크에 공간이 없습니다</color>",
 		key = "ship_getShip_error_full"
 	},
 	ship_modShip_error = {
@@ -2423,7 +2448,7 @@ pg.gametip = {
 		key = "ship_modShip_error"
 	},
 	ship_modShip_error_notEnoughGold = {
-		tip = "<color=#A9F548>물자가 부족합니다.</color>",
+		tip = "<color=#92fc63>물자가 부족합니다.</color>",
 		key = "ship_modShip_error_notEnoughGold"
 	},
 	ship_remouldShip_error = {
@@ -2451,11 +2476,11 @@ pg.gametip = {
 		key = "ship_unequip_all_success"
 	},
 	ship_updateShipLock_ok_lock = {
-		tip = "<color=#A9F548>$1</color>을(를) 잠금 상태로 전환했습니다.",
+		tip = "<color=#92fc63>$1</color>을(를) 잠금 상태로 전환했습니다.",
 		key = "ship_updateShipLock_ok_lock"
 	},
 	ship_updateShipLock_ok_unlock = {
-		tip = "<color=#A9F548>$1</color>을(를) 잠금 해제 상태로 전환했습니다.",
+		tip = "<color=#92fc63>$1</color>을(를) 잠금 해제 상태로 전환했습니다.",
 		key = "ship_updateShipLock_ok_unlock"
 	},
 	ship_updateShipLock_error = {
@@ -2471,7 +2496,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_error_4010"
 	},
 	ship_upgradeStar_error_lvLimit = {
-		tip = "<color=#A9F548>Lv</color> 부족으로 인해 한계돌파할 수 없습니다.",
+		tip = "<color=#92fc63>Lv</color> 부족으로 인해 한계돌파할 수 없습니다.",
 		key = "ship_upgradeStar_error_lvLimit"
 	},
 	ship_upgradeStar_error_noEnoughMatrail = {
@@ -2479,7 +2504,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_error_noEnoughMatrail"
 	},
 	ship_upgradeStar_notConfig = {
-		tip = "한계돌파 <color=#A9F548>$1</color>　정보를 불러오는데 실패했습니다.",
+		tip = "한계돌파 <color=#92fc63>$1</color>　정보를 불러오는데 실패했습니다.",
 		key = "ship_upgradeStar_notConfig"
 	},
 	ship_upgradeStar_maxLevel = {
@@ -2491,7 +2516,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_select_material_tip"
 	},
 	ship_exchange_question = {
-		tip = "훈장을 <color=#A9F548>$1</color>개 사용하여, <color=#A9F548>$2</color>으로 교환하시겠습니까?",
+		tip = "훈장을 <color=#92fc63>$1</color>개 사용하여, <color=#92fc63>$2</color>으로 교환하시겠습니까?",
 		key = "ship_exchange_question"
 	},
 	ship_exchange_medalCount_noEnough = {
@@ -2499,11 +2524,11 @@ pg.gametip = {
 		key = "ship_exchange_medalCount_noEnough"
 	},
 	ship_exchange_erro = {
-		tip = "교환 실패：<color=#A9F548>$1</color>",
+		tip = "교환 실패：<color=#92fc63>$1</color>",
 		key = "ship_exchange_erro"
 	},
 	ship_exchange_confirm = {
-		tip = "훈장을 $1개 사용하여, <color=#A9F548>$2</color>으로 교환하시겠습니까?",
+		tip = "훈장을 $1개 사용하여, <color=#92fc63>$2</color>으로 교환하시겠습니까?",
 		key = "ship_exchange_confirm"
 	},
 	ship_exchange_tip = {
@@ -2571,7 +2596,7 @@ pg.gametip = {
 		key = "ship_buildShipMediator_finishBuild"
 	},
 	ship_buildShipScene_quest_quickFinish = {
-		tip = "고속건조재를 <color=#A9F548>$1개</color> 사용합니다.\n\n보유 수：<color=#A9F548>$3개</color>",
+		tip = "고속건조재를 <color=#92fc63>$1개</color> 사용합니다.\n\n보유 수：<color=#92fc63>$3개</color>",
 		key = "ship_buildShipScene_quest_quickFinish"
 	},
 	ship_dockyardMediator_destroy = {
@@ -2587,11 +2612,11 @@ pg.gametip = {
 		key = "ship_dockyardScene_noRole"
 	},
 	ship_dockyardScene_error_choiseRoleMore = {
-		tip = "<color=#A9F548>$1</color>척 이상 선택해주세요.",
+		tip = "<color=#92fc63>$1</color>척 이상 선택해주세요.",
 		key = "ship_dockyardScene_error_choiseRoleMore"
 	},
 	ship_dockyardScene_error_choiseRoleLess = {
-		tip = "<color=#A9F548>$1</color>척까지 선택할 수 있습니다.",
+		tip = "<color=#92fc63>$1</color>척까지 선택할 수 있습니다.",
 		key = "ship_dockyardScene_error_choiseRoleLess"
 	},
 	ship_formationMediator_leastLimit = {
@@ -2607,19 +2632,19 @@ pg.gametip = {
 		key = "ship_formationMediator_changeNameError_sameShip"
 	},
 	ship_formationMediator_addShipError_overlimit = {
-		tip = "<color=#A9F548>$2</color>을(를) <color=#A9F548>$1</color>척 이상 편성할 수 없습니다.",
+		tip = "<color=#92fc63>$2</color>을(를) <color=#92fc63>$1</color>척 이상 편성할 수 없습니다.",
 		key = "ship_formationMediator_addShipError_overlimit"
 	},
 	ship_formationMediator_replaceError_onlyShip = {
-		tip = "선택하신 <color=#A9F548>$1</color>은(는) 유일한 <color=#A9F548>$2</color>이기 때문에 변경할 수 없습니다.",
+		tip = "선택하신 <color=#92fc63>$1</color>은(는) 유일한 <color=#92fc63>$2</color>이기 때문에 변경할 수 없습니다.",
 		key = "ship_formationMediator_replaceError_onlyShip"
 	},
 	ship_formationMediator_quest_replace = {
-		tip = "선택하신 함선은 이미 <color=#A9F548>$1</color>에 편성되어 있습니다. 변경하시겠습니까?",
+		tip = "선택하신 함선은 이미 <color=#92fc63>$1</color>에 편성되어 있습니다. 변경하시겠습니까?",
 		key = "ship_formationMediator_quest_replace"
 	},
 	ship_formationMediaror_trash_warning = {
-		tip = "$1 <color=#A9F548>주력함대</color>와 <color=#A9F548>선봉함대</color>에는 각각 1척 이상의 함선을 배치해야 합니다. $1의 편성을 초기화하시겠습니까?",
+		tip = "$1 <color=#92fc63>주력함대</color>와 <color=#92fc63>선봉함대</color>에는 각각 1척 이상의 함선을 배치해야 합니다. $1의 편성을 초기화하시겠습니까?",
 		key = "ship_formationMediaror_trash_warning"
 	},
 	ship_formationUI_fleetName1 = {
@@ -2667,19 +2692,19 @@ pg.gametip = {
 		key = "ship_formationUI_changeFormationError_countError"
 	},
 	ship_formationUI_removeError_onlyShip = {
-		tip = "선택하신 <color=#A9F548>$1</color>은(는) 유일한 <color=#A9F548>$3</color>함선이기 때문에 함대에서 배속해제할 수 없습니다.",
+		tip = "선택하신 <color=#92fc63>$1</color>은(는) 유일한 <color=#92fc63>$3</color>함선이기 때문에 함대에서 배속해제할 수 없습니다.",
 		key = "ship_formationUI_removeError_onlyShip"
 	},
 	ship_formationUI_quest_remove = {
-		tip = "<color=#A9F548>$1</color>을(를) 함대에서 배속해제 하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>을(를) 함대에서 배속해제 하시겠습니까?",
 		key = "ship_formationUI_quest_remove"
 	},
 	ship_newShipLayer_get = {
-		tip = "<color=#A9F548>$1</color> - <color=#A9F548>$2</color>을(를) 획득",
+		tip = "<color=#92fc63>$1</color> - <color=#92fc63>$2</color>을(를) 획득",
 		key = "ship_newShipLayer_get"
 	},
 	ship_newSkinLayer_get = {
-		tip = "<color=#A9F548>$1</color>의 스킨 - <color=#A9F548>$2</color>을(를) 획득했습니다!",
+		tip = "<color=#92fc63>$1</color>의 스킨 - <color=#92fc63>$2</color>을(를) 획득했습니다!",
 		key = "ship_newSkinLayer_get"
 	},
 	ship_newSkin_name = {
@@ -2699,11 +2724,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_equipUnlockSlostYesText"
 	},
 	ship_shipInfoScene_effect = {
-		tip = "경험치：<color=#A9F548>$1/$2</color>\n",
+		tip = "경험치：<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipInfoScene_effect"
 	},
 	ship_shipInfoScene_effect1or2 = {
-		tip = "증가：<color=#A9F548>$1</color>",
+		tip = "증가：<color=#92fc63>$1</color>",
 		key = "ship_shipInfoScene_effect1or2"
 	},
 	ship_shipInfoScene_modLvMax = {
@@ -2715,11 +2740,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_choiseMod"
 	},
 	ship_shipModLayer_effect = {
-		tip = "경험치：<color=#A9F548>$1/$2</color>\n",
+		tip = "경험치：<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipModLayer_effect"
 	},
 	ship_shipModLayer_effect1or2 = {
-		tip = "증가 보정：<color=#A9F548>$1</color>",
+		tip = "증가 보정：<color=#92fc63>$1</color>",
 		key = "ship_shipModLayer_effect1or2"
 	},
 	ship_shipModLayer_modSuccess = {
@@ -2727,7 +2752,7 @@ pg.gametip = {
 		key = "ship_shipModLayer_modSuccess"
 	},
 	ship_mod_no_addition_tip = {
-		tip = "더 이상 성능을 <color=#A9F548>강화할 수 없습니다.</color> 진행하시겠습니까?",
+		tip = "더 이상 성능을 <color=#92fc63>강화할 수 없습니다.</color> 진행하시겠습니까?",
 		key = "ship_mod_no_addition_tip"
 	},
 	ship_shipModMediator_choiseMaterial = {
@@ -2747,7 +2772,7 @@ pg.gametip = {
 		key = "ship_shipModMediator_noticeSameButLargerStar"
 	},
 	ship_shipModMediator_quest = {
-		tip = "재료 중 <color=#A9F548>$1</color>인 함선이 존재합니다. 진행하시겠습니까?",
+		tip = "재료 중 <color=#92fc63>$1</color>인 함선이 존재합니다. 진행하시겠습니까?",
 		key = "ship_shipModMediator_quest"
 	},
 	ship_shipUpgradeLayer2_levelError = {
@@ -2763,11 +2788,11 @@ pg.gametip = {
 		key = "ship_shipUpgradeLayer2_ok"
 	},
 	ship_shipUpgradeLayer2_effect = {
-		tip = "경험치：<color=#A9F548>$1/$2</color>\n",
+		tip = "경험치：<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipUpgradeLayer2_effect"
 	},
 	ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "상승치：<color=#A9F548>$1</color>",
+		tip = "상승치：<color=#92fc63>$1</color>",
 		key = "ship_shipUpgradeLayer2_effect1or2"
 	},
 	ship_shipUpgradeLayer2_mod_uncommon_tip = {
@@ -2779,11 +2804,11 @@ pg.gametip = {
 		key = "ship_shipUpgradeLayer2_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "강화 재료 중<color=#A9F548>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?",
+		tip = "강화 재료 중<color=#92fc63>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?",
 		key = "ship_shipUpgradeLayer2_mod_advanced_tip"
 	},
 	ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "강화 재료 중<color=#A9F548>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?",
+		tip = "강화 재료 중<color=#92fc63>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?",
 		key = "ship_shipUpgradeLayer2_advanced_tip"
 	},
 	ship_mod_exp_to_attr_tip = {
@@ -2799,11 +2824,11 @@ pg.gametip = {
 		key = "ship_skill_unlock_tip"
 	},
 	ship_lock_tip = {
-		tip = "함선을 <color=#A9F548>잠금 상태</color>로 전환합니까?",
+		tip = "함선을 <color=#92fc63>잠금 상태</color>로 전환합니까?",
 		key = "ship_lock_tip"
 	},
 	ship_destroy_uncommon_tip = {
-		tip = "퇴역시킬 함선 중 <color=#A9F548>S Rare</color> 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?",
+		tip = "퇴역시킬 함선 중 <color=#92fc63>S Rare</color> 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?",
 		key = "ship_destroy_uncommon_tip"
 	},
 	ship_destroy_advanced_tip = {
@@ -2823,7 +2848,7 @@ pg.gametip = {
 		key = "ship_energy_low_warn"
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "함대에 <color=#A9F548FF>$2</color>이(가) <color=#D6341D>지친 상태</color>이며, 강제로 출격하면 <color=#D6341D>호감도가 감소합니다</color>. 그래도 출격하시겠습니까? ",
+		tip = "함대에 <color=#92fc63FF>$2</color>이(가) <color=#ff5c5c>지친 상태</color>이며, 강제로 출격하면 <color=#ff5c5c>호감도가 감소합니다</color>. 그래도 출격하시겠습니까? ",
 		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
@@ -2835,7 +2860,7 @@ pg.gametip = {
 		key = "test_ship_upgrade_tip"
 	},
 	shop_buyItem_ok = {
-		tip = "<color=#A9F548>$2을(를) $1개</color> 구입했습니다.",
+		tip = "<color=#92fc63>$2을(를) $1개</color> 구입했습니다.",
 		key = "shop_buyItem_ok"
 	},
 	shop_buyItem_error = {
@@ -2859,15 +2884,15 @@ pg.gametip = {
 		key = "stage_beginStage_error_fleetEmpty"
 	},
 	stage_beginStage_error_teamEmpty = {
-		tip = "<color=#A9F548>$1</color>은(는) 적어도<color=#A9F548>$2척</color> 이상 필요합니다!",
+		tip = "<color=#92fc63>$1</color>은(는) 적어도<color=#92fc63>$2척</color> 이상 필요합니다!",
 		key = "stage_beginStage_error_teamEmpty"
 	},
 	stage_beginStage_error_noEnergy = {
-		tip = "<color=#A9F548>체력</color>이 부족합니다!",
+		tip = "<color=#92fc63>체력</color>이 부족합니다!",
 		key = "stage_beginStage_error_noEnergy"
 	},
 	stage_beginStage_error_noResource = {
-		tip = "<color=#A9F548>연료</color>가 부족합니다!",
+		tip = "<color=#92fc63>연료</color>가 부족합니다!",
 		key = "stage_beginStage_error_noResource"
 	},
 	stage_finishStage_error = {
@@ -2875,15 +2900,15 @@ pg.gametip = {
 		key = "stage_finishStage_error"
 	},
 	levelScene_map_lock = {
-		tip = "해당 <color=#A9F548>챕터</color>를 클리어해야 합니다.",
+		tip = "해당 <color=#92fc63>챕터</color>를 클리어해야 합니다.",
 		key = "levelScene_map_lock"
 	},
 	levelScene_chapter_lock = {
-		tip = "<color=#A9F548>이전 스테이지</color>를 클리어해야 합니다.",
+		tip = "<color=#92fc63>이전 스테이지</color>를 클리어해야 합니다.",
 		key = "levelScene_chapter_lock"
 	},
 	levelScene_chapter_strategying = {
-		tip = "스테이지 <color=#A9F548>$1</color> 공략 중",
+		tip = "스테이지 <color=#92fc63>$1</color> 공략 중",
 		key = "levelScene_chapter_strategying"
 	},
 	levelScene_threat_to_rule_out = {
@@ -2891,7 +2916,7 @@ pg.gametip = {
 		key = "levelScene_threat_to_rule_out"
 	},
 	levelScene_whether_to_retreat = {
-		tip = "정말로 <color=#A9F548>퇴각</color>하시겠습니까?",
+		tip = "정말로 <color=#92fc63>퇴각</color>하시겠습니까?",
 		key = "levelScene_whether_to_retreat"
 	},
 	levelScene_who_to_retreat = {
@@ -2939,7 +2964,7 @@ pg.gametip = {
 		key = "levelScene_tracking_error_3001"
 	},
 	levelScene_chapter_unlock_tip = {
-		tip = "지휘관 <color=#A9F548>Lv.$1</color> 달성 시 개방",
+		tip = "지휘관 <color=#92fc63>Lv.$1</color> 달성 시 개방",
 		key = "levelScene_chapter_unlock_tip"
 	},
 	levelScene_chapter_win = {
@@ -3000,7 +3025,7 @@ pg.gametip = {
 		}
 	},
 	levelScene_escort_retreat = {
-		tip = "상선 호위 전투에서 퇴각하시겠습니까?\n ※오늘의 도전 횟수는 회복되지 않습니다.\n ※보상의 일부는 받을 수 있습니다. ",
+		tip = "상선 호위 전투에서 퇴각하시겠습니까?\n ※오늘의 도전 횟수는 회복되지 않습니다.\n ※보상의 일부는 받을 수 있습니다.",
 		key = "levelScene_escort_retreat"
 	},
 	levelScene_oni_retreat = {
@@ -3057,15 +3082,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -3075,13 +3100,31 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/spboom_1"
+					atlas = "helpbg/sphunt_1"
 				}
 			},
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/spboom_2"
+					atlas = "helpbg/sphunt_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_5"
 				}
 			},
 			disableScroll = true,
@@ -3089,15 +3132,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -3106,11 +3149,11 @@ pg.gametip = {
 		key = "levelScene_chapter_timeout"
 	},
 	levelScene_chapter_level_limit = {
-		tip = "지휘관 <color=#A9F548>Lv.$1</color> 달성 시 개방됩니다.",
+		tip = "지휘관 <color=#92fc63>Lv.$1</color> 달성 시 개방됩니다.",
 		key = "levelScene_chapter_level_limit"
 	},
 	levelScene_chapter_count_tip = {
-		tip = "오늘 횟수 : ",
+		tip = "오늘 횟수 :",
 		key = "levelScene_chapter_count_tip"
 	},
 	levelScene_tracking_error_retry = {
@@ -3150,15 +3193,15 @@ pg.gametip = {
 		key = "levelScene_chapter_not_open"
 	},
 	levelScene_activate_remaster = {
-		tip = "<color=#ffff00>데이터 키</color>를 소비하여 상설 복각 이벤트를 개방하시겠습니까? (개방 중인 상설 복각 이벤트는 예정보다 빨리 종료됩니다.) ",
+		tip = "<color=#ffde38>데이터 키</color>를 소비하여 상설 복각 이벤트를 개방하시겠습니까? (개방 중인 상설 복각 이벤트는 예정보다 빨리 종료됩니다.)",
 		key = "levelScene_activate_remaster"
 	},
 	levelScene_remaster_tickets_not_enough = {
-		tip = "데이터 키가 부족합니다. ",
+		tip = "데이터 키가 부족합니다.",
 		key = "levelScene_remaster_tickets_not_enough"
 	},
 	levelScene_remaster_do_not_open = {
-		tip = "아직 개방되지 않았습니다. ",
+		tip = "아직 개방되지 않았습니다.",
 		key = "levelScene_remaster_do_not_open"
 	},
 	levelScene_remaster_help_tip = {
@@ -3166,23 +3209,24 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-<color=#A9F548>작전 문서</color> 설명: 
-<color=#A9F548>작전 문서</color>란, 과거 개최된 이벤트 스테이지를 다시 공략
-할 수 있는<color=#A9F548>작전 내역</color>을 일정 시간 동안 개방할 수 있는 아이템입니다.
-<color=#A9F548>작전 내역</color>에 실장되기 전의 과거 플레이한 스테이지의 공략
+<color=#92fc63>작전 문서</color> 설명: 
+<color=#92fc63>작전 문서</color>란, 과거 개최된 이벤트 스테이지를 다시 공략
+할 수 있는<color=#92fc63>작전 내역</color>을 일정 시간 동안 개방할 수 있는 
+아이템입니다.
+<color=#92fc63>작전 내역</color>에 실장되기 전의 과거 플레이한 스테이지의 공략
  진척 상황은 이어지지 않습니다.]]
 			},
 			{
-				info = " \n 1.<color=#A9F548>데이터 키</color>는 현재 상황에서는 매일 데일리 임무를 통해 2개를\n입수할 수 있습니다."
+				info = " \n 1.<color=#92fc63>데이터 키</color>는 현재 상황에서는 매일 데일리 임무를 통해 \n2개를 입수할 수 있습니다."
 			},
 			{
-				info = " 2.<color=#A9F548>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 소지하고\n있는상태에서 새로 입수한<color=#A9F548>데이터 키</color>는 자동으로 제거됩니다."
+				info = " 2.<color=#92fc63>데이터 키</color>는 최대 30개까지 소지 가능합니다. 30개를 \n소지하고 있는상태에서 새로 입수한<color=#92fc63>데이터 키</color>는 자동으로 \n제거됩니다."
 			},
 			{
-				info = " 3.<color=#A9F548>데이터 키</color> 1개당, <color=#A9F548>작전 내역</color>의 상설 이벤트 하나를,\n15분간 개방할 수 있습니다."
+				info = " 3.<color=#92fc63>데이터 키</color> 1개당, <color=#92fc63>작전 내역</color>의 상설 이벤트 하나를,\n15분간 개방할 수 있습니다."
 			},
 			{
-				info = " 4.<color=#A9F548>작전 내역</color>에 실장된 이벤트의 엑스트라 스테이지 이외\n의 스테이지에 도전할 수 있습니다."
+				info = " 4.<color=#92fc63>작전 내역</color>에 실장된 이벤트의 엑스트라 스테이지 이외\n의 스테이지에 도전할 수 있습니다."
 			},
 			{
 				info = " 5.스테이지 도전 중에 이벤트 개방 시간이 지나도, 스테이지\n클리어, 퇴각, 작전 시간 종료까지 도전을 계속할 수 있습니다."
@@ -3190,7 +3234,7 @@ pg.gametip = {
 		}
 	},
 	levelScene_activate_loop_mode_failed = {
-		tip = "해역 위험도 [안전해역] 및 해역★3을 달성하면 주회 모드를 선택할 수 있습니다. ",
+		tip = "해역 위험도 [안전해역] 및 해역★3을 달성하면 주회 모드를 선택할 수 있습니다.",
 		key = "levelScene_activate_loop_mode_failed"
 	},
 	levelScene_coastalgun_help_tip = {
@@ -3226,7 +3270,7 @@ pg.gametip = {
 		}
 	},
 	tack_tickets_max_warning = {
-		tip = "<color=#ffff00>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#D6341DFF>$1</color> 만 입수 가능합니다. 임무 보수를 받으시겠습니까? ",
+		tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 만 입수 가능합니다. 임무 보수를 받으시겠습니까?",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -3250,15 +3294,15 @@ pg.gametip = {
 		key = "task_submitTask_error_notFinish"
 	},
 	task_taskMediator_getItem = {
-		tip = "획득：<color=#A9F548>$1</color>, 수량：<color=#A9F548>X$2</color>",
+		tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getItem"
 	},
 	task_taskMediator_getResource = {
-		tip = "획득：<color=#A9F548>$1</color>, 수량：<color=#A9F548>X$2</color>",
+		tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getResource"
 	},
 	task_taskMediator_getEquip = {
-		tip = "획득：<color=#A9F548>$1</color>, 수량：<color=#A9F548>X$2</color>",
+		tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getEquip"
 	},
 	task_target_chapter_in_progress = {
@@ -3266,7 +3310,7 @@ pg.gametip = {
 		key = "task_target_chapter_in_progress"
 	},
 	task_level_notenough = {
-		tip = "需要达到$1级才能进行任务",
+		tip = "$1 레벨 도달해야 임무를 진행할 수 있습니다.",
 		key = "task_level_notenough"
 	},
 	loading_tip_ShaderMgr = {
@@ -3374,7 +3418,7 @@ pg.gametip = {
 		key = "collection_fetched"
 	},
 	buyProp_noResource_error = {
-		tip = "<color=#A9F548>$1</color> 부족",
+		tip = "<color=#92fc63>$1</color> 부족",
 		key = "buyProp_noResource_error"
 	},
 	refresh_shopStreet_ok = {
@@ -3402,7 +3446,7 @@ pg.gametip = {
 		key = "buy_item_quest"
 	},
 	refresh_shopStreet_question = {
-		tip = "<color=#A9F548>$2</color>의 $1을(를) 사용하여 상품 리스트를 갱신하시겠습니까?\n\n<size=22>(오늘은 이미 <size=25><color=#FF0000>$3</color></size>회 구입했습니다.)</size>",
+		tip = "<color=#92fc63>$2</color>의 $1을(를) 사용하여 상품 리스트를 갱신하시겠습니까?\n\n<size=22>(오늘은 이미 <size=25><color=#FF0000>$3</color></size>회 구입했습니다.)</size>",
 		key = "refresh_shopStreet_question"
 	},
 	event_start_success = {
@@ -3454,7 +3498,7 @@ pg.gametip = {
 		key = "event_giveup"
 	},
 	event_minimus_ship_numbers = {
-		tip = "<color=#A9F548>$1척</color>이상 배치해야 합니다.",
+		tip = "<color=#92fc63>$1척</color>이상 배치해야 합니다.",
 		key = "event_minimus_ship_numbers"
 	},
 	event_confirm_giveup = {
@@ -3474,15 +3518,15 @@ pg.gametip = {
 		key = "event_same_type_not_allowed"
 	},
 	event_condition_ship_level = {
-		tip = "<color=#A9F548>Lv.$1</color> 이상의 함선이 <color=#A9F548>1척</color> 이상 필요합니다.",
+		tip = "<color=#92fc63>Lv.$1</color> 이상의 함선이 <color=#92fc63>1척</color> 이상 필요합니다.",
 		key = "event_condition_ship_level"
 	},
 	event_condition_ship_count = {
-		tip = "<color=#A9F548>$1</color>척 이상 필요합니다.",
+		tip = "<color=#92fc63>$1</color>척 이상 필요합니다.",
 		key = "event_condition_ship_count"
 	},
 	event_condition_ship_type = {
-		tip = "<color=#A9F548>$1</color> 한정",
+		tip = "<color=#92fc63>$1</color> 한정",
 		key = "event_condition_ship_type"
 	},
 	event_level_unreached = {
@@ -3494,7 +3538,7 @@ pg.gametip = {
 		key = "event_type_unreached"
 	},
 	event_oil_consume = {
-		tip = "의뢰 진행 시 <icon name=oil w=0.7 h=0.7/><color=#A9F548>$1</color>의 연료가 소비됩니다.",
+		tip = "의뢰 진행 시 <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color>의 연료가 소비됩니다.",
 		key = "event_oil_consume"
 	},
 	event_type_unlimit = {
@@ -3526,15 +3570,15 @@ pg.gametip = {
 		key = "just_now"
 	},
 	several_minutes_before = {
-		tip = "<color=#A9F548>$1</color>분 전",
+		tip = "<color=#92fc63>$1</color>분 전",
 		key = "several_minutes_before"
 	},
 	several_hours_before = {
-		tip = "<color=#A9F548>$1</color>시간 전",
+		tip = "<color=#92fc63>$1</color>시간 전",
 		key = "several_hours_before"
 	},
 	several_days_before = {
-		tip = "<color=#A9F548>$1일</color> 전",
+		tip = "<color=#92fc63>$1일</color> 전",
 		key = "several_days_before"
 	},
 	long_time_offline = {
@@ -3550,7 +3594,7 @@ pg.gametip = {
 		key = "no_activity"
 	},
 	which_day = {
-		tip = "<color=#A9F548>$1</color>일 째",
+		tip = "<color=#92fc63>$1</color>일 째",
 		key = "which_day"
 	},
 	which_day_2 = {
@@ -3562,7 +3606,7 @@ pg.gametip = {
 		key = "invalidate_evaluation"
 	},
 	chapter_no = {
-		tip = "제 <color=#A9F548>$1</color> 장",
+		tip = "제 <color=#92fc63>$1</color> 장",
 		key = "chapter_no"
 	},
 	reconnect_tip = {
@@ -3686,12 +3730,16 @@ pg.gametip = {
 		key = "attribute_sonarInterval"
 	},
 	attribute_oxy_max = {
-		tip = "잠항력 ",
+		tip = "잠항력",
 		key = "attribute_oxy_max"
 	},
 	attribute_dodge_limit = {
-		tip = "회피상한 ",
+		tip = "회피상한",
 		key = "attribute_dodge_limit"
+	},
+	attribute_intimacy = {
+		tip = "호감도",
+		key = "attribute_intimacy"
 	},
 	skill = {
 		tip = "스킬",
@@ -3718,7 +3766,7 @@ pg.gametip = {
 		key = "formation_switch_success"
 	},
 	formation_switch_tip = {
-		tip = "대열을 유지할 수 없습니다! 조작 함대를 <color=#A9F548>$1</color>로 전환합니다.",
+		tip = "대열을 유지할 수 없습니다! 조작 함대를 <color=#92fc63>$1</color>로 전환합니다.",
 		key = "formation_switch_tip"
 	},
 	formation_reform_tip = {
@@ -3750,11 +3798,11 @@ pg.gametip = {
 		key = "friend_info_page_tip"
 	},
 	friend_search_page_tip = {
-		tip = "한 번에 <color=#A9F548>$1</color>명까지 검색할 수 있습니다.",
+		tip = "한 번에 <color=#92fc63>$1</color>명까지 검색할 수 있습니다.",
 		key = "friend_search_page_tip"
 	},
 	friend_request_page_tip = {
-		tip = "신청은 최대 <color=#A9F548>$1건</color>까지 보존할 수 있습니다.",
+		tip = "신청은 최대 <color=#92fc63>$1건</color>까지 보존할 수 있습니다.",
 		key = "friend_request_page_tip"
 	},
 	friend_id_copy_ok = {
@@ -3778,7 +3826,7 @@ pg.gametip = {
 		key = "friend_request_msg_title"
 	},
 	friend_max_count = {
-		tip = "친구 목록에 <color=#A9F548>자리가 없습니다.</color>",
+		tip = "친구 목록에 <color=#92fc63>자리가 없습니다.</color>",
 		key = "friend_max_count"
 	},
 	friend_add_ok = {
@@ -3865,6 +3913,10 @@ pg.gametip = {
 		tip = "연습 승률：",
 		key = "friend_resume_manoeuvre_win_rate"
 	},
+	friend_resume_fleet_gs = {
+		tip = "함대 전력：",
+		key = "friend_resume_fleet_gs"
+	},
 	friend_event_count = {
 		tip = "의뢰 달성：",
 		key = "friend_event_count"
@@ -3926,7 +3978,7 @@ pg.gametip = {
 		key = "word_shipNation_um"
 	},
 	word_shipNation_ai = {
-		tip = "키즈나 아이 ",
+		tip = "키즈나 아이",
 		key = "word_shipNation_ai"
 	},
 	word_reset = {
@@ -3966,7 +4018,7 @@ pg.gametip = {
 		key = "batch_destroy"
 	},
 	equipment_select_device_destroy_tip = {
-		tip = "<color=#A9F548>해체</color>을(를) 진행할 장비를 선택해주세요.",
+		tip = "<color=#92fc63>해체</color>을(를) 진행할 장비를 선택해주세요.",
 		key = "equipment_select_device_destroy_tip"
 	},
 	equipment_select_device_destroy_bonus_tip = {
@@ -3982,7 +4034,7 @@ pg.gametip = {
 		key = "ship_equip_profiiency"
 	},
 	no_open_system_tip = {
-		tip = "<color=#A9F548>$1</color>은(는) 지휘관 <color=#A9F548>Lv.$2</color>에 개방됩니다.",
+		tip = "<color=#92fc63>$1</color>은(는) 지휘관 <color=#92fc63>Lv.$2</color>에 개방됩니다.",
 		key = "no_open_system_tip"
 	},
 	open_system_tip = {
@@ -4050,7 +4102,7 @@ pg.gametip = {
 		key = "energy_desc_3"
 	},
 	energy_desc_4 = {
-		tip = "좋은 일이 일어날 것 같은 예감!\n<color=#A9F548>(획득 경험치량 증가)</color>",
+		tip = "좋은 일이 일어날 것 같은 예감!\n<color=#92fc63>(획득 경험치량 증가)</color>",
 		key = "energy_desc_4"
 	},
 	intimacy_desc_1 = {
@@ -4120,23 +4172,23 @@ pg.gametip = {
 		key = "intimacy_desc_propose"
 	},
 	intimacy_desc_1_detail = {
-		tip = "$1은(는) 당신에게 실망했다...\n<color=#fad545><size=18>(효과 없음)</size></color>",
+		tip = "$1은(는) 당신에게 실망했다...\n<color=#ffde38><size=18>(효과 없음)</size></color>",
 		key = "intimacy_desc_1_detail"
 	},
 	intimacy_desc_2_detail = {
-		tip = "$1은(는) 당신을 좀 더 알고 싶어하는 것 같다.\n<color=#fad545><size=18>(효과 없음)</size></color>",
+		tip = "$1은(는) 당신을 좀 더 알고 싶어하는 것 같다.\n<color=#ffde38><size=18>(효과 없음)</size></color>",
 		key = "intimacy_desc_2_detail"
 	},
 	intimacy_desc_3_detail = {
-		tip = "$1은(는) 당신을 신뢰하고 있는 것 같다.\n<color=#A9F548><size=18>모든 능력치(항속 제외)＋1%</size></color>",
+		tip = "$1은(는) 당신을 신뢰하고 있는 것 같다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋1%</size></color>",
 		key = "intimacy_desc_3_detail"
 	},
 	intimacy_desc_4_detail = {
-		tip = "$1은(는) 당신과 함께 있으면 항상 즐거워 보인다.\n<color=#A9F548><size=18>모든 능력치(항속 제외)＋3%</size></color>",
+		tip = "$1은(는) 당신과 함께 있으면 항상 즐거워 보인다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋3%</size></color>",
 		key = "intimacy_desc_4_detail"
 	},
 	intimacy_desc_5_detail = {
-		tip = "$1의 눈에서 마음이 전해져 온다.\n<color=#A9F548><size=18>모든 능력치(항속 제외)＋6%</size></color>",
+		tip = "$1의 눈에서 마음이 전해져 온다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋6%</size></color>",
 		key = "intimacy_desc_5_detail"
 	},
 	intimacy_desc_6_detail = {
@@ -4223,12 +4275,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/equip"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/bullet"
 				}
 			},
@@ -4236,12 +4282,6 @@ pg.gametip = {
 				icon = {
 					path = "",
 					atlas = "helpbg/energy"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/fanqian"
 				}
 			},
 			{
@@ -4256,24 +4296,32 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 3,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4313,12 +4361,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/fanqian"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/maxlevel"
 				}
 			},
@@ -4328,36 +4370,32 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 5,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	help_shipinfo_intensify = {
 		key = "help_shipinfo_intensify",
 		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/strength"
-				}
-			},
 			{
 				icon = {
 					path = "",
@@ -4385,12 +4423,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/fanqian"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/maxlevel"
 				}
 			},
@@ -4400,24 +4432,32 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4433,7 +4473,69 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/bullet"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/energy"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/break"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 8,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_shipinfo_maxlevel = {
+		key = "help_shipinfo_maxlevel",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
 				}
 			},
 			{
@@ -4457,7 +4559,19 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
 				}
 			},
 			{
@@ -4466,30 +4580,20 @@ pg.gametip = {
 					atlas = "helpbg/maxlevel"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/levelup"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4559,12 +4663,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/fanqian"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/maxlevel"
 				}
 			},
@@ -4574,24 +4672,26 @@ pg.gametip = {
 					atlas = "helpbg/levelup"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 2,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4618,7 +4718,7 @@ pg.gametip = {
 				info = "1.스텟에 관하여 : "
 			},
 			{
-				info = " <color=#A9F548FF>장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
+				info = " <color=#92fc63FF>장비</color>：함선소녀 장비로 인한 속성이 상승합니다."
 			},
 			{
 				info = " <color=#FFDE00FF>기술</color>：함대 기술로 인한 속성이 상승합니다."
@@ -4627,142 +4727,142 @@ pg.gametip = {
 				info = "2.속성설명："
 			},
 			{
-				info = "      내구 : 함선소녀의 최대 HP 수치",
+				info = "     내구 : 함선소녀의 최대 HP 수치",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "durability"
 				}
 			},
 			{
-				info = "      포격 : 함포의 대미지가 상승합니다.",
+				info = "     포격 : 함포의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "damage"
 				}
 			},
 			{
-				info = "      대공 : 대공화기의 대미지가 상승합니다.",
+				info = "     대공 : 대공화기의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "antiaircraft"
 				}
 			},
 			{
-				info = "      장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는 피해가 \n감소하고,소구경 포로부터 받는 피해를 무효화 할 수도 있습니다.\n (피해 경감률 : 중장갑>중형장갑>경장갑)",
+				info = "     장갑 유형 : 장갑이 두꺼울수록 대구경 포로부터 받는\n피해가 감소하고,소구경 포로부터 받는 피해를 무효화 할\n수도 있습니다.(피해 경감률 : 중장갑>중형장갑>경장갑)",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "armor"
 				}
 			},
 			{
-				info = "      뇌장 : 어뢰의 대미지가 상승합니다.",
+				info = "     뇌장 : 어뢰의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "torpedo"
 				}
 			},
 			{
-				info = "      항공 : 함재기의 대미지가 상승합니다.",
+				info = "     항공 : 함재기의 대미지가 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "air"
 				}
 			},
 			{
-				info = "      장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다.",
+				info = "     장전 : 무장 및 스킬의 재사용 대기 시간이 감소합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "reload"
 				}
 			},
 			{
-				info = "      기동 : 적의 탄막을 회피할 확률이 상승합니다.",
+				info = "     기동 : 적의 탄막을 회피할 확률이 상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "dodge"
 				}
 			},
 			{
-				info = "      소모 : 매 전투에서 소비하는 연료",
+				info = "     소모 : 매 전투에서 소비하는 연료",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "luck"
 				}
 			},
 			{
-				info = "      대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가 상승합니다.",
+				info = "     대잠 : 잠수함에 대항하는 \"대잠 무기\"의 대미지가\n상승합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "antisub"
 				}
 			},
 			{
-				info = "      잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어, 잠항력이 0이\n 되면 수면 위로 떠오르게 됩니다.",
+				info = "     잠항력 : 최대 잠항 시간. 잠항 상태 동안 소비되어,\n잠항력이 0이 되면 수면 위로 떠오르게 됩니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "oxy_max"
 				}
 			},
 			{
-				info = "      탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을 소모하게\n 됩니다.",
+				info = "     탄약량 : 잠수함대가 해역 상의 적을 공격할 때, 탄약을\n소모하게 됩니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "ammo"
 				}
 			},
 			{
-				info = "      지원 범위 : 잠수함대의 지원 범위 내에서 전투 중, 잠수함대의 \n탄약을 소모하여 잠수함 지원이 가능. 잠수함대는 자동으로 지원 범위 \n내의 적을 공격합니다.",
+				info = "     지원 범위 : 잠수함대의 지원 범위 내에서 전투 중,\n잠수함대의 탄약을 소모하여 잠수함 지원이 가능.\n잠수함대는 자동으로 지원 범위 내의 적을 공격합니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "hunt_range"
 				}
 			},
 			{
-				info = "      행운：함선소녀의 기존 밈으로 인한 속성이 전투에 미세하게 \n영향을 줍니다.",
+				info = "     행운：함선소녀의 기존 밈으로 인한 속성이 전투에\n미세하게 영향을 줍니다.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.66,
+					posY = 6,
+					scale = 1.1,
 					path = "icon_luck"
 				}
 			},
@@ -4770,8 +4870,8 @@ pg.gametip = {
 				info = [[
  3.컨디션 : 
  컨디션이 좋은 함선소녀는 전투 시 능력치가 상승합니다.
- 컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고, 획득하는 
- 경험치가 절반으로 감소합니다.]]
+ 컨디션이 나쁜 상태에서 출격하는 경우, 호감도가 하락하고,
+ 획득하는 경험치가 절반으로 감소합니다.]]
 			}
 		}
 	},
@@ -4783,8 +4883,8 @@ pg.gametip = {
 함종마다 장착할 수 있는 장비가 달라집니다.
 
 • 140mm 구경 이하의 함포：
-구축함, 경순양함의 주포 혹은 전함, 중순양함, 경순양함의 부포로
- 장착 가능.
+구축함, 경순양함의 주포 혹은 전함, 중순양함, 경순양함의 
+부포로 장착 가능.
 
 • 140mm 구경 이상 ~ 200mm 구경 이하의 함포：
 경순양함의 주포 혹은 전함의 부포로 장착 가능.
@@ -4799,7 +4899,8 @@ pg.gametip = {
 
 • 대공화기는 대부분의 함선이 장착 가능.
 
-• 항공모함 계열은 장비 슬롯에 따라 서로 다른 함재기를 장착 가능.]]
+• 항공모함 계열은 장비 슬롯에 따라 서로 다른 함재기를 
+장착 가능.]]
 			}
 		}
 	},
@@ -4837,61 +4938,13 @@ pg.gametip = {
 	},
 	help_build = {
 		tip = [[
-					<size=25>            레어 출현 비율</size>
+					   <size=25>$1建造概率分布</size>
 
-						<color=#fff157>          SS Rare</color>：$2%
-						<color=#966af6>          S Rare</color>：$3%
-						<color=#60a9ff>          Rare</color>：$4%
-						          Normal：$5%]],
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%]],
 		key = "help_build"
-	},
-	help_build_1 = {
-		tip = [[
-					<size=25>            레어 출현 비율</size>
-
-						<color=#fff157>          SS Rare</color>：$2%
-						<color=#966af6>          S Rare</color>：$3%
-						<color=#60a9ff>          Rare</color>：$4%
-						          Normal：$5%]],
-		key = "help_build_1"
-	},
-	help_build_2 = {
-		tip = [[
-					<size=25>            레어 출현 비율</size>
-
-						<color=#fff157>          SS Rare</color>：$2%
-						<color=#966af6>          S Rare</color>：$3%
-						<color=#60a9ff>          Rare</color>：$4%
-						          Normal：$5%]],
-		key = "help_build_2"
-	},
-	help_build_4 = {
-		tip = [[
-<size=19>									<color=#fff157>SS Rare</color>：$2%
-									<color=#966af6>S Rare</color>：$3%
-									<color=#60a9ff>Rare</color>：$4%
-									Normal：$5%
-
-									【한정건조】
-							<color=#fff157>키즈나 아이 - 애니버서리</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>키즈나 아이 - 슈퍼 게이머</color>：2.0%<color=#A9F548>(up!)</color>
-							<color=#fff157>키즈나 아이 – 엘레강트</color>：0.5%</size>
-]],
-		key = "help_build_4"
-	},
-	help_build_5 = {
-		tip = [[
-<size=19>									<color=#fff157>SS Rare</color>：$2%
-									<color=#966af6>S Rare</color>：$3%
-									<color=#60a9ff>Rare</color>：$4%
-									Normal：$5%
-
-									【한정건조】
-								<color=#fff157>빅토리어스</color>：2.25%<color=#A9F548>(up!)</color>
-							<color=#966af6>       셰필드</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#966af6>     매치리스</color>：2.5%<color=#A9F548>(up!)</color>
-							<color=#60a9ff>     자메이카</color>：5.0%<color=#A9F548>(up!)</color></size>]],
-		key = "help_build_5"
 	},
 	help_shipinfo_hunting = {
 		key = "help_shipinfo_hunting",
@@ -4931,15 +4984,15 @@ pg.gametip = {
 		key = "shop_extendequip_success"
 	},
 	naval_academy_res_desc_cateen = {
-		tip = "모두가 좋아하는 떠들썩한 식당. 증축을 통해 <color=#A9F548>연료의 획득량</color>과 <color=#A9F548>최대 비축량</color>을 UP!",
+		tip = "모두가 좋아하는 떠들썩한 식당. 증축을 통해 <color=#92fc63>연료의 획득량</color>과 <color=#92fc63>최대 비축량</color>을 UP!",
 		key = "naval_academy_res_desc_cateen"
 	},
 	naval_academy_res_desc_shop = {
-		tip = "해군학원의 매점. 증축을 통해 <color=#A9F548>물자의 획득량</color>과 <color=#A9F548>최대 비축량</color>을 UP!",
+		tip = "해군학원의 매점. 증축을 통해 <color=#92fc63>물자의 획득량</color>과 <color=#92fc63>최대 비축량</color>을 UP!",
 		key = "naval_academy_res_desc_shop"
 	},
 	naval_academy_res_desc_class = {
-		tip = "대강당을 강화하면, <color=#A9F548>숙련도 상한, 숙련도 변환의 빠르기</color>와<color=#A9F548> 숙련도 입수 배율</color>이 상승합니다.",
+		tip = "대강당을 강화하면, <color=#92fc63>숙련도 상한, 숙련도 변환의 빠르기</color>와<color=#92fc63> 숙련도 입수 배율</color>이 상승합니다.",
 		key = "naval_academy_res_desc_class"
 	},
 	number_1 = {
@@ -4983,7 +5036,7 @@ pg.gametip = {
 		key = "number_10"
 	},
 	military_shop_no_open_tip = {
-		tip = "<color=#A9F548>군수상점</color>은 지휘관 <color=#A9F548>Lv.15</color>에 개방됩니다.",
+		tip = "<color=#92fc63>군수상점</color>은 지휘관 <color=#92fc63>Lv.15</color>에 개방됩니다.",
 		key = "military_shop_no_open_tip"
 	},
 	switch_to_shop_tip_1 = {
@@ -5009,6 +5062,10 @@ pg.gametip = {
 	text_noPos_buy = {
 		tip = "확장",
 		key = "text_noPos_buy"
+	},
+	text_noPos_intensify = {
+		tip = "강화",
+		key = "text_noPos_intensify"
 	},
 	switch_to_shop_tip_noDockyard = {
 		tip = "도크에 공간이 없습니다. 함선을 퇴역시키거나, 도크를 확장해주세요.",
@@ -5119,7 +5176,7 @@ pg.gametip = {
 		key = "text_shop_enoughRes_tip"
 	},
 	text_buy_fashion_tip = {
-		tip = "<color=#A9F548FF>$1</color> 다이아로 <color=#A9F548FF>$2</color>를 구입하시겠습니까?",
+		tip = "<color=#92fc63FF>$1</color> 다이아로 <color=#92fc63FF>$2</color>를 구입하시겠습니까?",
 		key = "text_buy_fashion_tip"
 	},
 	equip_part_title = {
@@ -5180,15 +5237,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -5218,11 +5275,11 @@ pg.gametip = {
 		}
 	},
 	backyard_theme_set_tip = {
-		tip = "프리셋 <color=#5FD500>$1</color> 을(를) 적용하시겠습니까?",
+		tip = "프리셋 <color=#92fc63>$1</color> 을(를) 적용하시겠습니까?",
 		key = "backyard_theme_set_tip"
 	},
 	backyard_theme_save_tip = {
-		tip = "숙소 배치를 저장하시겠습니까?：\n<color=#5FD500>$1</color>",
+		tip = "숙소 배치를 저장하시겠습니까?：\n<color=#92fc63>$1</color>",
 		key = "backyard_theme_save_tip"
 	},
 	backyard_theme_defaultname = {
@@ -5252,29 +5309,32 @@ pg.gametip = {
 				info = "                                         자율전투 시 이렇게 될 때도......",
 				line = true,
 				icon = {
-					posX = 2.4,
+					posX = -18,
 					atlas = "helpbg/zilv",
-					posY = -34,
-					scale = 1,
+					posY = -55,
+					scale = 1.5,
 					path = ""
 				}
 			},
 			disableScroll = true,
 			helpbg = true,
-			helpSize = {
-				y = 264
-			},
 			windowSize = {
-				y = 440
+				y = 660
+			},
+			helpSize = {
+				y = 400
+			},
+			helpPos = {
+				y = 20
 			}
 		}
 	},
 	gold_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>100</color></size>개를 사용하여 <size=25><color=#A9F548>3000</color></size><size=24>물자를 구입</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size>개를 사용하여 <size=25><color=#92fc63>3000</color></size><size=24>물자를 구입</size>",
 		key = "gold_buy_tip"
 	},
 	oil_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>$1</color></size>개를 사용하여  <size=25><color=#A9F548>$2</color></size><size=24>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size>개를 사용하여  <size=25><color=#92fc63>$2</color></size><size=24>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>",
 		key = "oil_buy_tip"
 	},
 	text_iknow = {
@@ -5530,19 +5590,19 @@ pg.gametip = {
 		key = "guild_msg_is_null"
 	},
 	guild_log_new_guild_join = {
-		tip = "새로운 멤버 <color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 이(가) 함대에 가입했습니다.",
+		tip = "새로운 멤버 <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 이(가) 함대에 가입했습니다.",
 		key = "guild_log_new_guild_join"
 	},
 	guild_log_duty_change = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 님의 직무가 $2로 변경되었습니다.",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님의 직무가 $2로 변경되었습니다.",
 		key = "guild_log_duty_change"
 	},
 	guild_log_quit = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대를 탈퇴했습니다.",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대를 탈퇴했습니다.",
 		key = "guild_log_quit"
 	},
 	guild_log_fire = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대에서 제명되었습니다.",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대에서 제명되었습니다.",
 		key = "guild_log_fire"
 	},
 	guild_leave_cd_time = {
@@ -5618,7 +5678,7 @@ pg.gametip = {
 		key = "guild_fire_succeed"
 	},
 	battle_repair_special_tip = {
-		tip = "<color=#a0ff40>응급 수리 소대</color>를 사용하시겠습니까?",
+		tip = "<color=#92fc63>응급 수리 소대</color>를 사용하시겠습니까?",
 		key = "battle_repair_special_tip"
 	},
 	battle_repair_normal_name = {
@@ -5750,7 +5810,7 @@ pg.gametip = {
 		key = "login_wait_tip"
 	},
 	ship_equip_exchange_tip = {
-		tip = "<color=#a0ff40>$1</color>에게 장착되어 있는 <color=#a0ff40>$2</color>을(를) <color=#a0ff40>$3</color>에게 장착하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>에게 장착되어 있는 <color=#92fc63>$2</color>을(를) <color=#92fc63>$3</color>에게 장착하시겠습니까?",
 		key = "ship_equip_exchange_tip"
 	},
 	ship_rename_success = {
@@ -5917,16 +5977,16 @@ pg.gametip = {
 			},
 			{
 				info = [[
-·「模拟战」将会<color=#a0ff40>限时</color>开放；
-·进入「模拟战」前，指挥官需要选择<color=#a0ff40>15名</color>参战角色，并且
- 可以选择一名<color=#a0ff40>好友</color>的秘书舰协力作战；
+·「模拟战」将会<color=#92fc63>限时</color>开放；
+·进入「模拟战」前，指挥官需要选择<color=#92fc63>15名</color>参战角色，并且
+ 可以选择一名<color=#92fc63>好友</color>的秘书舰协力作战；
 ·作战过程中，角色已损失的耐久不会自动恢复;
-·每回挑战需要击败<color=#a0ff40>10个</color>「镜像」，每击败一个「镜像」即可
- 获得<color=#a0ff40>核心数据</color>奖励， 可在补给商店的<color=#a0ff40>模拟战兑换</color>中使用
+·每回挑战需要击败<color=#92fc63>10个</color>「镜像」，每击败一个「镜像」即可
+ 获得<color=#92fc63>核心数据</color>奖励， 可在补给商店的<color=#92fc63>模拟战兑换</color>中使用
  （核心数据不会因系统暂时关闭而消失）；
 ·指挥官的挑战进度会自动保存。并且，从第二天起，指挥官
- 每日有<color=#a0ff40>一次</color>机会重置挑战；
-·<color=#a0ff40>该海域内出击不消耗石油</color>
+ 每日有<color=#92fc63>一次</color>机会重置挑战；
+·<color=#92fc63>该海域内出击不消耗石油</color>
  ——以上，期待诸君的奋斗]]
 			}
 		}
@@ -5992,7 +6052,7 @@ pg.gametip = {
 		key = "ship_remould_material_ship_on_exist"
 	},
 	ship_remould_material_unlock_skill = {
-		tip = "스킬 습득：<color=#a0ff40>$1</color>",
+		tip = "스킬 습득：<color=#92fc63>$1</color>",
 		key = "ship_remould_material_unlock_skill"
 	},
 	ship_remould_prev_lock = {
@@ -6032,47 +6092,47 @@ pg.gametip = {
 		key = "ship_remould_sueecss"
 	},
 	ship_remould_warning_102174 = {
-		tip = "이번 개조 과정에는 <color=#A9F548>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?",
+		tip = "이번 개조 과정에는 <color=#92fc63>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?",
 		key = "ship_remould_warning_102174"
 	},
 	ship_remould_warning_205124 = {
-		tip = "근대화 개수는 <color=#A9F548>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?",
+		tip = "근대화 개수는 <color=#92fc63>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?",
 		key = "ship_remould_warning_205124"
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-<size=26>개조를 통해 <color=#A9F548>$1</color>의 함종이 변경됩니다. 
-【부무장】이<color=#A9F548>【수상기】</color>로 변경됩니다.
+<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
+【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
-진행하시겠습니까? <color=#A9F548><material=underline c=#A9F548 event=clickDetail>상세확인</material></color></size>]],
+진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]],
 		key = "ship_remould_warning_310014"
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-<size=26>개조를 통해 <color=#A9F548>$1</color>의 함종이 변경됩니다. 
-【부무장】이<color=#A9F548>【수상기】</color>로 변경됩니다.
+<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
+【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
-진행하시겠습니까? <color=#A9F548><material=underline c=#A9F548 event=clickDetail>상세확인</material></color></size>]],
+진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]],
 		key = "ship_remould_warning_310024"
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
-<size=26>개조를 통해 <color=#A9F548>$1</color>의 함종이 변경됩니다. 
-【부무장】이<color=#A9F548>【수상기】</color>로 변경됩니다.
+<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
+【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
-진행하시겠습니까? <color=#A9F548><material=underline c=#A9F548 event=clickDetail>상세확인</material></color></size>]],
+진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]],
 		key = "ship_remould_warning_310034"
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
-<size=26>개조를 통해 <color=#A9F548>$1</color>의 함종이 변경됩니다. 
-【부무장】이<color=#A9F548>【수상기】</color>로 변경됩니다.
+<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
+【부무장】이<color=#92fc63>【수상기】</color>로 변경됩니다.
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
-진행하시겠습니까? <color=#A9F548><material=underline c=#A9F548 event=clickDetail>상세확인</material></color></size>]],
+진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]],
 		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
-		tip = "<size=26>개조를 통해 <color=#A9F548>$1</color>의 함종이 변경됩니다.\n주포 슬롯이<color=#A9F548>【주포(경순양함)】</color>→<color=#A9F548>【주포(중순양함)】</color>으로 변경되어, 현재 장비중인 주포 슬롯의 장비가 해제됩니다.\n진행하시겠습니까? <color=#A9F548><material=underline c=#A9F548 event=clickDetail>상세확인</material></color></size>",
+		tip = "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다.\n주포 슬롯이<color=#92fc63>【주포(경순양함)】</color>→<color=#92fc63>【주포(중순양함)】</color>으로 변경되어, 현재 장비중인 주포 슬롯의 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>",
 		key = "ship_remould_warning_303154"
 	},
 	word_soundfiles_download_title = {
@@ -6200,51 +6260,51 @@ pg.gametip = {
 		key = "mingshi_get_tip"
 	},
 	mingshi_task_tip_1 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>T</color>>\n다음 목표는... <<color=#a0ff40>재료를 보관하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>T</color>>\n다음 목표는... <<color=#92fc63>재료를 보관하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_1"
 	},
 	mingshi_task_tip_2 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>O</color>>\n다음 목표는... <<color=#a0ff40>전투 기술을 갈고 닦는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>O</color>>\n다음 목표는... <<color=#92fc63>전투 기술을 갈고 닦는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_2"
 	},
 	mingshi_task_tip_3 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>U</color>>\n다음 목표는... <<color=#a0ff40>아이템을 파는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>U</color>>\n다음 목표는... <<color=#92fc63>아이템을 파는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_3"
 	},
 	mingshi_task_tip_4 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>C</color>>\n다음 목표는... <<color=#a0ff40>임무를 받는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>C</color>>\n다음 목표는... <<color=#92fc63>임무를 받는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_4"
 	},
 	mingshi_task_tip_5 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>H</color>>\n다음 목표는... <<color=#a0ff40>진형을 편성하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>H</color>>\n다음 목표는... <<color=#92fc63>진형을 편성하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_5"
 	},
 	mingshi_task_tip_6 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>A</color>>\n다음 목표는... <<color=#a0ff40>휴식하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>A</color>>\n다음 목표는... <<color=#92fc63>휴식하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_6"
 	},
 	mingshi_task_tip_7 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>K</color>>\n다음 목표는... <<color=#a0ff40>수집을 확인하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>K</color>>\n다음 목표는... <<color=#92fc63>수집을 확인하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_7"
 	},
 	mingshi_task_tip_8 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>A</color>>\n다음 목표는... <<color=#a0ff40>의뢰를 배치하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>A</color>>\n다음 목표는... <<color=#92fc63>의뢰를 배치하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_8"
 	},
 	mingshi_task_tip_9 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>S</color>>\n다음 목표는... <<color=#a0ff40>결전을 하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>S</color>>\n다음 목표는... <<color=#92fc63>결전을 하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_9"
 	},
 	mingshi_task_tip_10 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>H</color>>\n마지막 목표는... <<color=#a0ff40>마음이 모이는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>H</color>>\n마지막 목표는... <<color=#92fc63>마음이 모이는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_10"
 	},
 	mingshi_task_tip_11 = {
-		tip = "발견한 거냥?\n암호는...... <<color=#a0ff40>I30</color>>\n처음 목표는... <<color=#a0ff40>정박하는 곳</color>>이다냥!",
+		tip = "발견한 거냥?\n암호는...... <<color=#92fc63>I30</color>>\n처음 목표는... <<color=#92fc63>정박하는 곳</color>>이다냥!",
 		key = "mingshi_task_tip_11"
 	},
 	word_propose_changename_title = {
-		tip = "<color=#a0ff40>$1</color>은(는) 당신의 전속 함선이 되었습니다.\n<color=#a0ff40>$1</color>의 이름을 변경하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>은(는) 당신의 전속 함선이 되었습니다.\n<color=#92fc63>$1</color>의 이름을 변경하시겠습니까?",
 		key = "word_propose_changename_title"
 	},
 	word_propose_changename_tip1 = {
@@ -6300,11 +6360,11 @@ pg.gametip = {
 		key = "ship_proposeShip_error_1"
 	},
 	word_rename_time_warning = {
-		tip = "이름을 변경하면, 30일 동안 이름을 변경할 수 없습니다. <color=#a0ff40>$1</color>의 이름을 <color=#a0ff40>$2</color>로 변경하시겠습니까?",
+		tip = "이름을 변경하면, 30일 동안 이름을 변경할 수 없습니다. <color=#92fc63>$1</color>의 이름을 <color=#92fc63>$2</color>로 변경하시겠습니까?",
 		key = "word_rename_time_warning"
 	},
 	word_propose_cost_tip = {
-		tip = "<size=22>서약 시 「서약의 반지」를 <color=#a0ff40>1</color>개 소모합니다. (보유 수：<color=#a0ff40>$1</color>)</size>\n\n<size=20>*서약을 진행한 함선은 전속 함선이 되어 이름을 변경할 수 있고, 추가로 능력치가 <color=#a0ff40>3%</color> 강화됩니다.</size>",
+		tip = "<size=22>서약 시 「서약의 반지」를 <color=#92fc63>1</color>개 소모합니다. (보유 수：<color=#92fc63>$1</color>)</size>\n\n<size=20>*서약을 진행한 함선은 전속 함선이 되어 이름을 변경할 수 있고, 추가로 능력치가 <color=#92fc63>3%</color> 강화됩니다.</size>",
 		key = "word_propose_cost_tip"
 	},
 	evaluate_too_loog = {
@@ -6316,23 +6376,23 @@ pg.gametip = {
 		key = "evaluate_ban_word"
 	},
 	activity_level_easy_tip = {
-		tip = "주의：통상 난이도를 선택할 경우 <color=#a0ff40>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있게 됩니다.",
+		tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있게 됩니다.",
 		key = "activity_level_easy_tip"
 	},
 	activity_level_difficulty_tip = {
-		tip = "주의：어려움 난이도를 선택할 경우 <color=#a0ff40>통상 난이도의 공략 진행도가 초기화됩니다.</color>",
+		tip = "주의：어려움 난이도를 선택할 경우 <color=#92fc63>통상 난이도의 공략 진행도가 초기화됩니다.</color>",
 		key = "activity_level_difficulty_tip"
 	},
 	activity_level_limit_tip = {
-		tip = "주의：<color=#a0ff40>지휘관 Lv.50 이상 혹은 통상 난이도를 전부 클리어하지 않으면</color> 어려움 난이도를 선택할 수 없습니다.",
+		tip = "주의：<color=#92fc63>지휘관 Lv.50 이상 혹은 통상 난이도를 전부 클리어하지 않으면</color> 어려움 난이도를 선택할 수 없습니다.",
 		key = "activity_level_limit_tip"
 	},
 	activity_level_inwarime_tip = {
-		tip = "이벤트 스테이지 <color=#a0ff40>$1</color> 공략 중. 난이도를 변경하기 위해서는 우선 출격 중인 함대를 퇴각해주세요.",
+		tip = "이벤트 스테이지 <color=#92fc63>$1</color> 공략 중. 난이도를 변경하기 위해서는 우선 출격 중인 함대를 퇴각해주세요.",
 		key = "activity_level_inwarime_tip"
 	},
 	activity_level_pass_easy_tip = {
-		tip = "주의：통상 난이도를 선택할 경우 <color=#a0ff40>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있습니다.",
+		tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있습니다.",
 		key = "activity_level_pass_easy_tip"
 	},
 	activity_level_is_closed = {
@@ -6340,7 +6400,7 @@ pg.gametip = {
 		key = "activity_level_is_closed"
 	},
 	activity_switch_tip = {
-		tip = "주의：통상 난이도를 선택할 경우 <color=#a0ff40>어려움 난이도의 공략 진행도가 초기화됩니다.</color> (통상 난이도를 전부 클리어하지 않으면 어려움 난이도를 선택할 수 없습니다.) 정말 난이도를 변경하시겠습니까?",
+		tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>어려움 난이도의 공략 진행도가 초기화됩니다.</color> (통상 난이도를 전부 클리어하지 않으면 어려움 난이도를 선택할 수 없습니다.) 정말 난이도를 변경하시겠습니까?",
 		key = "activity_switch_tip"
 	},
 	reduce_sp3_pass_count = {
@@ -6432,7 +6492,7 @@ pg.gametip = {
 		key = "chapter_tip_use"
 	},
 	chapter_tip_with_npc = {
-		tip = "<color=#D6341DFF>이벤트 스테이지</color>에 출격합니다.\n첫 번째 출격함대의 선봉에 <color=#D6341DFF>NPC $1</color>이(가) 일시 참가하므로\n선봉함대의 편성 슬롯을 1칸 비워주세요.",
+		tip = "<color=#ff5c5c>이벤트 스테이지</color>에 출격합니다.\n첫 번째 출격함대의 선봉에 <color=#ff5c5c>NPC $1</color>이(가) 일시 참가하므로\n선봉함대의 편성 슬롯을 1칸 비워주세요.",
 		key = "chapter_tip_with_npc"
 	},
 	chapter_tip_bp_ammo = {
@@ -6440,7 +6500,7 @@ pg.gametip = {
 		key = "chapter_tip_bp_ammo"
 	},
 	build_ship_tip = {
-		tip = "$2을(를) <color=#D6341DFF>$1척</color> 건조하기 위해 다음의 아이템이 사용됩니다.\n<color=$5>$3 물자</color>와 <color=$5>성정큐브 $4개</color>",
+		tip = "$2을(를) <color=#ff5c5c>$1척</color> 건조하기 위해 다음의 아이템이 사용됩니다.\n<color=$5>$3 물자</color>와 <color=$5>성정큐브 $4개</color>",
 		key = "build_ship_tip"
 	},
 	auto_battle_limit_tip = {
@@ -6448,11 +6508,11 @@ pg.gametip = {
 		key = "auto_battle_limit_tip"
 	},
 	build_ship_quickly_buy_stone = {
-		tip = "<color=#A9F548>$1</color>개의 다이아를 사용하여, 큐브를<color=#A9F548>$2</color>개 구입하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>개의 다이아를 사용하여, 큐브를<color=#92fc63>$2</color>개 구입하시겠습니까?",
 		key = "build_ship_quickly_buy_stone"
 	},
 	build_ship_quickly_buy_tool = {
-		tip = "<color=#A9F548>$1</color>개의 다이아를 사용하여, 고속건조재를<color=#A9F548>$2</color>개 구입하시겠습니까?",
+		tip = "<color=#92fc63>$1</color>개의 다이아를 사용하여, 고속건조재를<color=#92fc63>$2</color>개 구입하시겠습니까?",
 		key = "build_ship_quickly_buy_tool"
 	},
 	ship_profile_voice_locked = {
@@ -6855,33 +6915,36 @@ pg.gametip = {
 				info = [[
 대강당에 관해서
 
-대강당에 ‘학생’을 배치하고, ‘수업’을 진행하여 함대가 보유하고 
-있는 ‘숙련도’를 학생의 경험치로 변환할 수 있습니다.
+대강당에 ‘학생’을 배치하고, ‘수업’을 진행하여 함대가
+보유하고 있는 ‘숙련도’를 학생의 경험치로 변환할 수 
+있습니다.
 
 ・숙련도에 관해서
-한계 돌파를 3회 진행한 레벨 100 이상의 함선소녀는 출격 시, 얻게
-되는 경험치의 일부에 해당하는 양의 숙련도를 획득할 수 있습니다.
-숙련도는 함대 전체에 공유되며, 상한을 초과하는 양만 저장됩니다.
-대강당을 강화하면, 숙련도 보유 상한치 및 숙련도의 획득 효율을
-상승시킬수 있습니다.
+한계 돌파를 3회 진행한 레벨 100 이상의 함선소녀는
+출격 시, 얻게 되는 경험치의 일부에 해당하는 양의 
+숙련도를 획득할 수 있습니다.숙련도는 함대 전체에 
+공유되며, 상한을 초과하는 양만 저장됩니다.
+대강당을 강화하면, 숙련도 보유 상한치 및 숙련도의 
+획득 효율을 상승시킬수 있습니다.
 
 ・수업에 관해서
-‘수업’에선 매일 특정 함종의 함선소녀를 ‘학생’으로 배치할 수
-있습니다. 시작된 ‘수업’은 언제든 종료가 가능합니다.
-‘수업’을 종료하면, 경과한 시간에 대응하는 숙련도를 경험치로 변
-환할 수 있습니다.
-또한, 수업은 최대 12시간 진행이 가능합니다. 12시간이 경과하면, 
-수업은 자동으로 종료 상태가 됩니다.
-수업이 종료되지 않는 한, 수업 중에 획득한 숙련도는 자동적으로 
-수업에서 경험치로 변환됩니다.
+‘수업’에선 매일 특정 함종의 함선소녀를 ‘학생’으로 
+배치할 수 있습니다. 시작된 ‘수업’은 언제든 종료가 
+가능합니다.‘수업’을 종료하면, 경과한 시간에 대응하는 
+숙련도를 경험치로 변 환할 수 있습니다.
+또한, 수업은 최대 12시간 진행이 가능합니다. 12시간이
+경과하면,수업은 자동으로 종료 상태가 됩니다.
+수업이 종료되지 않는 한, 수업 중에 획득한 숙련도는 
+자동적으로 수업에서 경험치로 변환됩니다.
 
 ・학생에 관해서
 레벨 100 미만인 함선소녀를 ‘학생’으로 배치할 수 있습니다.
 ‘학생’이 많으면 많을 수록, 숙련도의 변환 효율이 상승합니다.
 ‘수업’에 참가한 학생은 컨디션이 약간 저하됩니다.
-모니터함은 전함의 수업에 참가할 수 있고,
-공작함은 구축함 및 순양함, 장갑함은 순양함의 수업에 참가할 수 있으며,
-항공전함은 항공모함 및 전함의 수업에 참가할 수 있습니다.
+모니터함은 전함의 수업에 참가할 
+수 있고,공작함은 구축함 및 순양함, 장갑함은 순양함의 
+수업에 참가할 수 있으며,항공전함은 항공모함 및 전함의 수
+업에 참가할 수 있습니다.
 
 ・수업의 시간 배분
 월요일 『구축함 및 잠수함 코스 : 아마존의 수뢰전 교실!』
@@ -6913,11 +6976,11 @@ pg.gametip = {
 		key = "course_state_lession"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#A9F548>$1</color>의 컨디션이 낮아 수업에 참가할 수 없습니다.",
+		tip = "<color=#92fc63>$1</color>의 컨디션이 낮아 수업에 참가할 수 없습니다.",
 		key = "course_energy_not_enough"
 	},
 	course_proficiency_tip = {
-		tip = "한계 돌파를 3회 진행한<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$1 레벨</color></material>의 함선소녀가 출격 시, 얻을 수 있는 경험치의<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material> 에 해당하는 숙련도를 획득할 수 있게 됩니다.",
+		tip = "한계 돌파를 3회 진행한<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$1 레벨</color></material>의 함선소녀가 출격 시, 얻을 수 있는 경험치의<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> 에 해당하는 숙련도를 획득할 수 있게 됩니다.",
 		key = "course_proficiency_tip"
 	},
 	course_sunday_tip = {
@@ -6953,11 +7016,11 @@ pg.gametip = {
 		key = "guild_shop_flash_success"
 	},
 	destroy_high_rarity_tip = {
-		tip = "<color=#A9F548>S Rare 이상</color>",
+		tip = "<color=#92fc63>S Rare 이상</color>",
 		key = "destroy_high_rarity_tip"
 	},
 	destroy_high_level_tip = {
-		tip = "<color=#A9F548>$1 Lv.1 이상</color>",
+		tip = "<color=#92fc63>$1 Lv.1 이상</color>",
 		key = "destroy_high_level_tip"
 	},
 	destroy_eliteequipment_tip = {
@@ -6965,7 +7028,7 @@ pg.gametip = {
 		key = "destroy_eliteequipment_tip"
 	},
 	destroy_high_intensify_tip = {
-		tip = "<color=#A9F548>$1 강화 후</color>",
+		tip = "<color=#92fc63>$1 강화 후</color>",
 		key = "destroy_high_intensify_tip"
 	},
 	ship_quick_change_noequip = {
@@ -6997,7 +7060,7 @@ pg.gametip = {
 		key = "take_nothing"
 	},
 	take_all_mail = {
-		tip = "<color='#A9F548FF'>모든 우편을 수령</color>하시겠습니까?",
+		tip = "<color='#92fc63FF'>모든 우편을 수령</color>하시겠습니까?",
 		key = "take_all_mail"
 	},
 	buy_furniture_overtime = {
@@ -7021,7 +7084,7 @@ pg.gametip = {
 		key = "not yet completed"
 	},
 	escort_less_count_to_combat = {
-		tip = "일일 도전 횟수가 부족하여 진입할 수 없습니다. ",
+		tip = "일일 도전 횟수가 부족하여 진입할 수 없습니다.",
 		key = "escort_less_count_to_combat"
 	},
 	ten_even_draw = {
@@ -7037,11 +7100,11 @@ pg.gametip = {
 		key = "level_risk_level_desc"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=24>현재 해역 위험 등급은 <color=#A9F548>【$1】</color> 입니다.\n출격 함대가 받는 대미지가 <color=#A9F548>$2%</color> 감소합니다.</size>",
+		tip = "<size=24>현재 해역 위험 등급은 <color=#92fc63>【$1】</color> 입니다.\n출격 함대가 받는 대미지가 <color=#92fc63>$2%</color> 감소합니다.</size>",
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>해당 해역을 <color=#A9F548>3☆ 클리어</color> 및 <color=#A9F548>안전해역</color>으로 변경시키면\n출격 함대가 <color=#A9F548>적 중요함대</color>를 직접 공격할 수 있게 됩니다. </size> ",
+		tip = "<size=24>해당 해역을 <color=#92fc63>3☆ 클리어</color> 및 <color=#92fc63>안전해역</color>으로 변경시키면\n출격 함대가 <color=#92fc63>적 중요함대</color>를 직접 공격할 수 있게 됩니다. </size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -7049,15 +7112,15 @@ pg.gametip = {
 		key = "level_chapter_state_high_risk"
 	},
 	level_chapter_state_risk = {
-		tip = "<color=#FFAF59>【위험해역】</color>",
+		tip = "<color=#ffde38>【위험해역】</color>",
 		key = "level_chapter_state_risk"
 	},
 	level_chapter_state_low_risk = {
-		tip = "<color=#8AFBF3>【저위험해역】</color>",
+		tip = "<color=#c5cfdf>【저위험해역】</color>",
 		key = "level_chapter_state_low_risk"
 	},
 	level_chapter_state_safety = {
-		tip = "<color=#A9F548>【안전해역】</color>",
+		tip = "<color=#92fc63>【안전해역】</color>",
 		key = "level_chapter_state_safety"
 	},
 	open_skill_class_success = {
@@ -7266,7 +7329,7 @@ pg.gametip = {
 		}
 	},
 	card_pairs_tips = {
-		tip = "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까? ",
+		tip = "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까?",
 		key = "card_pairs_tips"
 	},
 	upgrade_to_next_maxlevel_failed = {
@@ -7278,11 +7341,11 @@ pg.gametip = {
 		key = "upgrade_to_next_maxlevel_tip"
 	},
 	upgrade_to_next_maxlevel_succeed = {
-		tip = "인식 각성 완료\n최대 레벨이<color=#A9F548FF> $1</color>으로 상승되었습니다.",
+		tip = "인식 각성 완료\n최대 레벨이<color=#92fc63FF> $1</color>으로 상승되었습니다.",
 		key = "upgrade_to_next_maxlevel_succeed"
 	},
 	extra_chapter_socre_tip = {
-		tip = "오늘의 스코어：<color=#A9F548>$1</color>\n개인 최고 스코어：<color=#A9F548>$2</color>\n $3",
+		tip = "오늘의 스코어：<color=#92fc63>$1</color>\n개인 최고 스코어：<color=#92fc63>$2</color>\n $3",
 		key = "extra_chapter_socre_tip"
 	},
 	extra_chapter_record_updated = {
@@ -7302,19 +7365,19 @@ pg.gametip = {
 		key = "extra_chapter_locked_tip_1"
 	},
 	player_name_change_time_lv_tip = {
-		tip = "지휘관 레벨 <color=#A9F548>$1</color>를 달성 후 닉네임 변경 기능이 오픈됩니다.",
+		tip = "지휘관 레벨 <color=#92fc63>$1</color>를 달성 후 닉네임 변경 기능이 오픈됩니다.",
 		key = "player_name_change_time_lv_tip"
 	},
 	player_name_change_time_limit_tip = {
-		tip = "닉네임은 <color=#A9F548>$1</color>후 다시 변경 가능합니다.",
+		tip = "닉네임은 <color=#92fc63>$1</color>후 다시 변경 가능합니다.",
 		key = "player_name_change_time_limit_tip"
 	},
 	player_name_change_windows_tip = {
-		tip = "*닉네임 변경은 <color=#A9F548>$1:$2</color>를 소비하며\n<color=#A9F548>30</color>일 내에는 다시 변경할 수 없습니다.",
+		tip = "*닉네임 변경은 <color=#92fc63>$1:$2</color>를 소비하며\n<color=#92fc63>30</color>일 내에는 다시 변경할 수 없습니다.",
 		key = "player_name_change_windows_tip"
 	},
 	player_name_change_warning = {
-		tip = "닉네임 변경은 <color=#A9F548>$1</color>개의 <color=#A9F548>$2</color>를 필요로 하며, <color=#A9F548>30</color>일 후 다시 변경할 수 있습니다. 지휘관 닉네임을 <color=#A9F548>$3</color> 로 변경하시겠습니까?",
+		tip = "닉네임 변경은 <color=#92fc63>$1</color>개의 <color=#92fc63>$2</color>를 필요로 하며, <color=#92fc63>30</color>일 후 다시 변경할 수 있습니다. 지휘관 닉네임을 <color=#92fc63>$3</color> 로 변경하시겠습니까?",
 		key = "player_name_change_warning"
 	},
 	player_name_change_success = {
@@ -7330,7 +7393,7 @@ pg.gametip = {
 		key = "same_player_name_tip"
 	},
 	cannot_build_multiple_printblue = {
-		tip = "현재 진행 중인 <color=#A9F548>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#A9F548>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#A9F548>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다.",
+		tip = "현재 진행 중인 <color=#92fc63>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#92fc63>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#92fc63>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다.",
 		key = "cannot_build_multiple_printblue"
 	},
 	printblue_build_success = {
@@ -7506,7 +7569,7 @@ pg.gametip = {
 		key = "technology_task_build_tip"
 	},
 	blueprint_commit_tip = {
-		tip = "개발 임무를 완료하기 위해 <color=#A9F548>$1</color>를 소모합니다. 개발 임무를 완료하시겠습니까?",
+		tip = "개발 임무를 완료하기 위해 <color=#92fc63>$1</color>를 소모합니다. 개발 임무를 완료하시겠습니까?",
 		key = "blueprint_commit_tip"
 	},
 	buleprint_need_level_tip = {
@@ -7571,13 +7634,7 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technologytree1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technologytree2"
+					atlas = "helpbg/technology"
 				}
 			},
 			{
@@ -7592,30 +7649,20 @@ pg.gametip = {
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technology"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7687,13 +7734,13 @@ pg.gametip = {
 				info = [[
 「용골편찬」이란
 
-1. 스페셜 프로젝트 함선의 강화 레벨이<color=#A9F548>Lv.30</color>이 된 경우, 해당 함선의
+1. 스페셜 프로젝트 함선의 강화 레벨이<color=#92fc63>Lv.30</color>이 된 경우, 해당 함선의
 「용골 편찬」이 가능해집니다.
-2. 「용골편찬」에선, <color=#A9F548>최대 레벨5</color>까지 강화할 수 있으며, 함선에 
-대응하는<color=#A9F548>강화 유닛</color>을 소비하여 진척도를 100％까지 진행시키면 
+2. 「용골편찬」에선, <color=#92fc63>최대 레벨5</color>까지 강화할 수 있으며, 함선에 
+대응하는<color=#92fc63>강화 유닛</color>을 소비하여 진척도를 100％까지 진행시키면 
 그 레벨의 용골편찬이 완료됩니다.
-3. 레벨<color=#A9F548>I～V</color>에선 함선의<color=#A9F548>「운」</color>스테이터스가 강화됩니다.
-4. 레벨<color=#A9F548>V</color>에선 <color=#A9F548>스킬</color>을 일부<color=#A9F548> 강화</color>할 수 있습니다.]]
+3. 레벨<color=#92fc63>I～V</color>에선 함선의<color=#92fc63>「운」</color>스테이터스가 강화됩니다.
+4. 레벨<color=#92fc63>V</color>에선 <color=#92fc63>스킬</color>을 일부<color=#92fc63> 강화</color>할 수 있습니다.]]
 			}
 		}
 	},
@@ -7796,11 +7843,11 @@ pg.gametip = {
 		key = "sos_lock"
 	},
 	charge_scene_buy_confirm = {
-		tip = "<color=#A9F548FF>$1다이아</color>을(를) 사용하여 <color=#A9F548FF>$2</color>을(를) 구매하시겠습니까?",
+		tip = "<color=#92fc63FF>$1다이아</color>을(를) 사용하여 <color=#92fc63FF>$2</color>을(를) 구매하시겠습니까?",
 		key = "charge_scene_buy_confirm"
 	},
 	charge_scene_batch_buy_tip = {
-		tip = "<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>다이아을(를) 사용하여 <color=$3>을(를) $2</color>개 구매하시겠습니까?",
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>다이아을(를) 사용하여 <color=$3>을(를) $2</color>개 구매하시겠습니까?",
 		key = "charge_scene_batch_buy_tip"
 	},
 	help_level_ui = {
@@ -7860,41 +7907,25 @@ pg.gametip = {
 					atlas = "helpbg/level_ui_help"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_1"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 10,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	guild_modify_info_tip = {
-		tip = "<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>다이아를 사용하여 함대 명칭을 변경하시겠습니까?",
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>다이아를 사용하여 함대 명칭을 변경하시겠습니까?",
 		key = "guild_modify_info_tip"
 	},
 	ai_change_1 = {
@@ -7914,7 +7945,7 @@ pg.gametip = {
 		key = "word_bilibili"
 	},
 	levelScene_tracking_error_pre = {
-		tip = "<color=#A9F548>$1</color>를 클리어 후 오픈됩니다",
+		tip = "<color=#92fc63>$1</color>를 클리어 후 오픈됩니다",
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
@@ -8012,28 +8043,28 @@ pg.gametip = {
 				info = "작전 포인트 입수 방법："
 			},
 			{
-				info = " 1. 데일리 챌린지를 1회 클리어 + 20Pt (하루 최대 <color=#A9F548>[task=13852]</color>/120pt)"
+				info = " 1. 데일리 챌린지를 1회 클리어 + 20Pt (하루 최대 <color=#92fc63>[task=13852]</color>/120pt)"
 			},
 			{
-				info = " 2. 연습전 1회 진행 + 5Pt (하루 최대 <color=#A9F548>[task=13853]</color>/50pt)"
+				info = " 2. 연습전 1회 진행 + 5Pt (하루 최대 <color=#92fc63>[task=13853]</color>/50pt)"
 			},
 			{
-				info = " 3. 임의의 어려움 해역을 1회 클리어 + 20Pt (하루 최대 <color=#A9F548>[task=13854]</color>/60pt)"
+				info = " 3. 임의의 어려움 해역을 1회 클리어 + 20Pt (하루 최대 <color=#92fc63>[task=13854]</color>/60pt)"
 			},
 			{
-				info = " 4. 적 중요 함대를 1회 격파 + 10Pt (하루 최대<color=#A9F548>[task=13855]</color>/500pt)"
+				info = " 4. 적 중요 함대를 1회 격파 + 10Pt (하루 최대<color=#92fc63>[task=13855]</color>/500pt)"
 			},
 			{
-				info = " 5. 함선을 1회 강화 + 5Pt (하루 최대 <color=#A9F548>[task=13856]</color>/50pt)"
+				info = " 5. 함선을 1회 강화 + 5Pt (하루 최대 <color=#92fc63>[task=13856]</color>/50pt)"
 			},
 			{
-				info = " 6. 퇴역 1회 진행 + 5Pt (하루 최대 <color=#A9F548>[task=13857]</color>/50pt)"
+				info = " 6. 퇴역 1회 진행 + 5Pt (하루 최대 <color=#92fc63>[task=13857]</color>/50pt)"
 			},
 			{
-				info = " 7. 군사 의뢰 1회 진행 + 10Pt (하루 최대 <color=#A9F548>[task=13858]</color>/100pt)"
+				info = " 7. 군사 의뢰 1회 진행 + 10Pt (하루 최대 <color=#92fc63>[task=13858]</color>/100pt)"
 			},
 			{
-				info = " 8. 건조 1회 진행 + 15Pt (하루 최대<color=#A9F548>[task=13859]</color>/750pt)"
+				info = " 8. 건조 1회 진행 + 15Pt (하루 최대<color=#92fc63>[task=13859]</color>/750pt)"
 			}
 		}
 	},
@@ -8062,15 +8093,15 @@ pg.gametip = {
 		key = "collect_chapter_is_activation"
 	},
 	levelScene_chapter_is_activation = {
-		tip = "<color=#A9F548>$1</color> 스테이지를 현재 공략 중입니다, \n공략 중인 스테이지로 진입할지, 아니면 퇴각할지를 선택해 주십시오.",
+		tip = "<color=#92fc63>$1</color> 스테이지를 현재 공략 중입니다, \n공략 중인 스테이지로 진입할지, 아니면 퇴각할지를 선택해 주십시오.",
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
-		tip = "是否开始资源修复？修复会花费一定的时间，且修复过程中不会响应操作，手机可能会出现卡顿现象，请耐心等待",
+		tip = "리소스 복구를 시작하시겠습니까? 복구하는데 어느 정도의 시간이 걸리며 복구 프로세스 중에는 오류가 나타날 수 있으므로 휴대폰 사용을 하지말고 잠시만 기다려 주십시오.",
 		key = "resource_verify_warn"
 	},
 	resource_verify_fail = {
-		tip = "资源修复已完成，请重新打开游戏并进行更新，点击确认关闭游戏[$1]",
+		tip = "리소스 복구를 완료하였습니다. 게임을 다시 시작하여 업데이트를 해주시고 게임 종료 확인을 클릭해 주세요[$1].",
 		key = "resource_verify_fail"
 	},
 	resource_verify_success = {
@@ -8134,11 +8165,11 @@ pg.gametip = {
 		key = "resource_clear_all"
 	},
 	acl_oil_count = {
-		tip = "目标石油：",
+		tip = "목표 연료：",
 		key = "acl_oil_count"
 	},
 	acl_oil_total_count = {
-		tip = "累计使用石油：",
+		tip = "누적 사용 연료 :",
 		key = "acl_oil_total_count"
 	},
 	word_take_video_tip = {
@@ -8216,16 +8247,53 @@ pg.gametip = {
 			}
 		}
 	},
+	metalgearsub_help_tip = {
+		key = "metalgearsub_help_tip",
+		tip = {
+			{
+				info = "희망의 맹세 이벤트 설명:"
+			},
+			{
+				info = " 1. 지휘관이 잠수함을 조작해서 적군 호위 함대 및 기뢰를 피하고\n 최후까지 도달하여 운송함을 격침하면 전투에 승리할 수 있습니다. 승리 후 이벤트 화면으로 돌아가여\n 이벤트 아이템을 획득할 수 있습니다."
+			},
+			{
+				info = " 2. 이벤트 아이템은 매일 1회만 획득할 수 있으며, 누적됩니다. 이벤트 해역은\n 언제든지 도전할 수 있습니다. 이벤트 아이템 7개를 모두 수령하면 한정 장비를\n 획득할 수 있습니다."
+			},
+			{
+				info = [[
+ 3. 해역 내 호위 함대는 '무방비', '의심', '경계',
+ |'공격', 총 4종의 경계태세를 보유합니다.
+ 각 경계태세는 이와 같이 표시됩니다:
+ 무방비: 없음
+ 의심: ?
+ 경계: !
+ 공격: !!
+ 잠수함이 수면 위로 올라온 후 적군의 소나 범위에 진입하여 적군을 공격하거나
+ 기뢰를 터뜨릴 시, 호위 함대의 경계태세가 변합니다. 경계바 또한
+ 상승하고, 경계바가 최대치로 상승하면 호위 함대가 공격을 개시합니다. 이때,
+ 잠수함이 다시 잠수하거나 소나 범위에서 벗어나면 적군의 경계를 감소시킬 수 있습니다.]]
+			},
+			{
+				info = " 4. 해역 내 기뢰는 수상기뢰 및 수중기뢰로 나뉘며, 잠수 또는\n 부상을 통해 회피하거나 무기를 사용해 격파할 수 있습니다. 기뢰에 접촉하면 기뢰가 폭발함과 동시에\n 피해를 입게 됩니다."
+			},
+			{
+				info = " 5. 잠수함의 탄약 수는 한정되어 있으니 지휘관은 탄약을 적절하게\n 사용해야 합니다. 탄약을 아껴 최후의 운송함을 격침시키면 최종적으로\n 승리를 합니다."
+			},
+			{
+				info = " 6. 희망의 맹세 이벤트 해역 중 승리 또는 패배 결과는 수치 통계에 영향을 주지 않습니다."
+			}
+		}
+	},
 	acl_gold_count = {
-		tip = "目标金币：",
+		tip = "목표 물자 :",
 		key = "acl_gold_count"
 	},
 	acl_gold_total_count = {
-		tip = "累计使用金币：",
+		tip = "누적 사용 물자 :",
 		key = "acl_gold_total_count"
 	},
 	discount_time = {
-		tip = "<color=grey>잔여 할인 기간</color> <color=#A9F548>$1</color>",
+		tip = "<color=grey>잔여 할인 기간</color> <color=#92fc63>$1</color>",
 		key = "discount_time"
 	},
 	commander_talent_not_exist = {
@@ -8400,12 +8468,28 @@ pg.gametip = {
 		tip = "어빌리티 포인트가 부족합니다",
 		key = "commander_skill_point_noengough"
 	},
+	buildship_new_tip = {
+		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		key = "buildship_new_tip"
+	},
+	buildship_heavy_tip = {
+		tip = "중형함 : 중순양함, 모니터함, 순양전함, 전함 등을 건조 가능 ",
+		key = "buildship_heavy_tip"
+	},
+	buildship_light_tip = {
+		tip = "소형함 : 구축함, 경순양함, 경항모, 공작함, 모니터함 등을 건조 가능",
+		key = "buildship_light_tip"
+	},
+	buildship_special_tip = {
+		tip = "특형함 : 중순양함, 경항모, 정규항모, 공작함, 잠수함 등을 건조 가능",
+		key = "buildship_special_tip"
+	},
 	open_skill_pos = {
-		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color>이 필요합니다.\n오픈하시겠습니까?",
+		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>이 필요합니다.\n오픈하시겠습니까?",
 		key = "open_skill_pos"
 	},
 	open_skill_pos_discount = {
-		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color>이 필요합니다. \n오픈하시겠습니까?",
+		tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>이 필요합니다. \n오픈하시겠습니까?",
 		key = "open_skill_pos_discount"
 	},
 	event_recommend_fail = {
@@ -8419,16 +8503,16 @@ pg.gametip = {
 				info = "신병훈련 이벤트 설명: "
 			},
 			{
-				info = "1. 이벤트는 시간제한이 없고, 지휘관이 모든 이벤트 임무를 완료할 \n때까지 개방됩니다.;"
+				info = "1. 이벤트는 시간제한이 없고, 지휘관이 모든 이벤트 임무를 \n완료할 때까지 개방됩니다."
 			},
 			{
-				info = "2. 현 단계의 모든 임무를 완료하면, 시험 임무가 개방됩니다.;"
+				info = "2. 현 단계의 모든 임무를 완료하면, 시험 임무가 개방됩니다."
 			},
 			{
-				info = "3. 현 단계의 모든 시험 임무를 완료하면, 다음 이벤트 단계가 \n개방됩니다.;"
+				info = "3. 현 단계의 모든 시험 임무를 완료하면, 다음 이벤트 단계가 \n개방됩니다."
 			},
 			{
-				info = "4. 모든 이벤트 임무를 완료하면,이벤트가 닫히게 됩니다.;"
+				info = "4. 모든 이벤트 임무를 완료하면,이벤트가 닫히게 됩니다."
 			}
 		}
 	},
@@ -8489,7 +8573,7 @@ pg.gametip = {
 		key = "apply_permission_record_audio_tip3"
 	},
 	nine_choose_one = {
-		tip = "연회에는 단 한 명의 함선소녀만 초대할 수 있습니다.\n<color=#A9F548>$1</color>을(를) 초대하시겠습니까?\n초대 후엔 상응하는 함선소녀와 답례품을 획득할 수 있습니다.",
+		tip = "연회에는 단 한 명의 함선소녀만 초대할 수 있습니다.\n<color=#92fc63>$1</color>을(를) 초대하시겠습니까?\n초대 후엔 상응하는 함선소녀와 답례품을 획득할 수 있습니다.",
 		key = "nine_choose_one"
 	},
 	help_commander_info = {
@@ -8542,19 +8626,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8608,19 +8688,15 @@ pg.gametip = {
 			defaultpage = 5,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8674,19 +8750,15 @@ pg.gametip = {
 			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8712,19 +8784,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8790,7 +8858,7 @@ pg.gametip = {
 		key = "comander_repalce_tip"
 	},
 	commander_lock_tip = {
-		tip = "지휘냥을 <color=#A9F548>잠금 상태</color>로 전환하시겠습니까?",
+		tip = "지휘냥을 <color=#92fc63>잠금 상태</color>로 전환하시겠습니까?",
 		key = "commander_lock_tip"
 	},
 	commander_is_in_battle = {
@@ -8810,7 +8878,7 @@ pg.gametip = {
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "배틀 스타를 <color=#A9F548>$1</color>개 소비하여 보급을 <color=#A9F548>$2</color>회 진행하시겠습니까?",
+		tip = "배틀 스타를 <color=#92fc63>$1</color>개 소비하여 보급을 <color=#92fc63>$2</color>회 진행하시겠습니까?",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -8842,7 +8910,7 @@ pg.gametip = {
 		key = "ranking_word_2"
 	},
 	ranking_word_3 = {
-		tip = "",
+		tip = "誓约数",
 		key = "ranking_word_3"
 	},
 	ranking_word_4 = {
@@ -8870,7 +8938,7 @@ pg.gametip = {
 		key = "ranking_word_9"
 	},
 	ranking_word_10 = {
-		tip = "기여치 ",
+		tip = "기여치",
 		key = "ranking_word_10"
 	},
 	spece_illegal_tip = {
@@ -8983,27 +9051,27 @@ pg.gametip = {
 		key = "map_event_skip"
 	},
 	map_event_stop_tip = {
-		tip = "같은 색깔의 <color=#A9F548>해제 마크</color>를 밟으면 통행이 가능해집니다.",
+		tip = "같은 색깔의 <color=#92fc63>해제 마크</color>를 밟으면 통행이 가능해집니다.",
 		key = "map_event_stop_tip"
 	},
 	map_event_save_nekone = {
-		tip = "<color=#A9F548>네코네</color>의 구출에 성공했습니다!",
+		tip = "<color=#92fc63>네코네</color>의 구출에 성공했습니다!",
 		key = "map_event_save_nekone"
 	},
 	map_event_save_rurutie = {
-		tip = "<color=#A9F548>루루티에</color>의 구출에 성공했습니다!",
+		tip = "<color=#92fc63>루루티에</color>의 구출에 성공했습니다!",
 		key = "map_event_save_rurutie"
 	},
 	map_event_memory_collected = {
-		tip = "스토리 <color=#A9F548>「$1」</color> 개방 성공!",
+		tip = "스토리 <color=#92fc63>「$1」</color> 개방 성공!",
 		key = "map_event_memory_collected"
 	},
 	map_event_save_kizuna = {
-		tip = "<color=#A9F548>키즈나 아이</color>를 성공적으로 구조했습니다 ",
+		tip = "<color=#92fc63>키즈나 아이</color>를 성공적으로 구조했습니다",
 		key = "map_event_save_kizuna"
 	},
 	five_choose_one = {
-		tip = "함께 크리스마스를 보낼 함선소녀는 1명만 초대할 수 있습니다.\n<color=#A9F548>$1</color>를 초대하시겠습니까?\n초대 후엔 해당 캐릭터와 답례를 획득할 수 있습니다.",
+		tip = "함께 크리스마스를 보낼 함선소녀는 1명만 초대할 수 있습니다.\n<color=#92fc63>$1</color>를 초대하시겠습니까?\n초대 후엔 해당 캐릭터와 답례를 획득할 수 있습니다.",
 		key = "five_choose_one"
 	},
 	ship_preference_common = {
@@ -9049,6 +9117,34 @@ pg.gametip = {
 	ship_preference_non = {
 		tip = "<color=#92fc63>$1</color>의 즐겨찾기 등록이 취소되었습니다.",
 		key = "ship_preference_non"
+	},
+	school_title_dajiangtang = {
+		tip = "대강당",
+		key = "school_title_dajiangtang"
+	},
+	school_title_zhihuimiao = {
+		tip = "지휘냥",
+		key = "school_title_zhihuimiao"
+	},
+	school_title_shitang = {
+		tip = "해군식당",
+		key = "school_title_shitang"
+	},
+	school_title_xiaomaibu = {
+		tip = "해군매점",
+		key = "school_title_xiaomaibu"
+	},
+	school_title_shangdian = {
+		tip = "보급상점",
+		key = "school_title_shangdian"
+	},
+	school_title_xueyuan = {
+		tip = "전술학원",
+		key = "school_title_xueyuan"
+	},
+	school_title_shoucang = {
+		tip = "보관실",
+		key = "school_title_shoucang"
 	},
 	tag_level_fighting = {
 		tip = "공략 중",
@@ -9151,7 +9247,7 @@ pg.gametip = {
 		}
 	},
 	md5_error = {
-		tip = "에러가 발생했습니다. 게임을 재기동하여 주십시오. ",
+		tip = "에러가 발생했습니다. 게임을 재기동하여 주십시오.",
 		key = "md5_error"
 	},
 	world_boss_help = {
@@ -9206,11 +9302,11 @@ pg.gametip = {
 		}
 	},
 	world_boss_tip = {
-		tip = "「<color=#7e7e7f>$1</color>」훈련을 위해<color=#8299bc>$2</color>기여했다 ",
+		tip = "「<color=#7e7e7f>$1</color>」훈련을 위해<color=#8299bc>$2</color>기여했다",
 		key = "world_boss_tip"
 	},
 	world_boss_award_limit = {
-		tip = "훈련 진도가<color=#FFDE00FF>$1%</color>에 도달 후 잠금 해제 ",
+		tip = "훈련 진도가<color=#FFDE00FF>$1%</color>에 도달 후 잠금 해제",
 		key = "world_boss_award_limit"
 	},
 	backyard_is_loading = {
@@ -9222,22 +9318,172 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-해역 위협도가<color=#A9F548>"안전해역"</color>인 해역에서, 해역<color=#A9F548>☆3 클리어</color>를 달성하면, 
-해역 선택 화면에서 해당 스테이지를<color=#A9F548>"주회 모드"</color>로 설정할 수
-있게 됩니다.
+해역 위협도가<color=#92fc63>"안전해역"</color>인 해역에서, 해역<color=#92fc63>☆3 클리어</color>를 
+달성하면,해역 선택 화면에서 해당 스테이지를<color=#92fc63>"주회 모드"</color>로 
+설정할 수 있게 됩니다.
 
 "주회 모드"의 특징은 아래와 같습니다：
 1. 메인 스테이지의 어려움 모드 스테이지에서, 적 호위함대가
-<color=#A9F548>출현하지 않게 됩니다</color>.
+<color=#92fc63>출현하지 않게 됩니다</color>.
 2. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
-3. 이벤트 스테이지에서 아군의<color=#A9F548> 이동 제한이 해제되며</color>, 해역 지도에서
-자유롭게 이동할 수 있습니다.]]
+3. 이벤트 스테이지에서 아군의<color=#92fc63> 이동 제한이 해제되며</color>, 
+해역 지도에서 자유롭게 이동할 수 있습니다.]]
 			}
 		}
 	},
 	no_airspace_competition = {
-		tip = "제공전 없음 ",
+		tip = "제공전 없음",
 		key = "no_airspace_competition"
+	},
+	air_supremacy_value = {
+		tip = "제공수치",
+		key = "air_supremacy_value"
+	},
+	read_the_user_agreement = {
+		tip = "먼저 사용자 규약을 읽어주세요.",
+		key = "read_the_user_agreement"
+	},
+	award_max_warning = {
+		tip = "일부 보상은 상한을 초과하여 낭비됩니다. 그래도 수령하시겠습니까?",
+		key = "award_max_warning"
+	},
+	sub_item_warning = {
+		tip = "다음 물품을 제출하시겠습니까?",
+		key = "sub_item_warning"
+	},
+	select_award_warning = {
+		tip = "원하시는 보상을 선택해주세요.",
+		key = "select_award_warning"
+	},
+	no_item_selected_tip = {
+		tip = "보상을 선택하지 않아 수령을 포기합니다.",
+		key = "no_item_selected_tip"
+	},
+	backyard_traning_tip = {
+		tip = "숙소에서 훈련 중인 함선 소녀는 컨디션이 회복되며, 경험치를 얻습니다.",
+		key = "backyard_traning_tip"
+	},
+	backyard_rest_tip = {
+		tip = "숙소에서 휴식 중인 함선 소녀는 컨디션이 회복됩니다.",
+		key = "backyard_rest_tip"
+	},
+	backyard_class_tip = {
+		tip = "함선소녀가 수업에 참가하면 경험치가 상승합니다",
+		key = "backyard_class_tip"
+	},
+	medal_notice_1 = {
+		tip = "최고 등급만 표시",
+		key = "medal_notice_1"
+	},
+	medal_notice_2 = {
+		tip = "이미 선택",
+		key = "medal_notice_2"
+	},
+	medal_help_tip = {
+		key = "medal_help_tip",
+		tip = {
+			{
+				info = "-영전 훈장에 대해"
+			},
+			{
+				info = "・'영전 훈장'이란, 지휘관의 작전에 따른 활약을 실\n적(훈장)으로 등록할 수 있는 시스템입니다."
+			},
+			{
+				info = "・획득한 훈장 및 아직 획득하지 못한 훈장의 획득 조건은 \n'영전 훈장'에서 확인할 수 있습니다."
+			},
+			{
+				info = "-훈장의 획득 방법에 대해"
+			},
+			{
+				info = "・훈장의 획득 조건을 만족하면 '영전 훈장'에서 훈장을 획득\n할 수 있습니다."
+			},
+			{
+				info = "・여러 훈장의 획득 조건을 동시에 만족하는 것도 가능합니다"
+			},
+			{
+				info = "・같은 종류의 훈장에는 레벨이 있으며, 하위 레벨의 훈장\n을 획득하면, 상위 레벨의 훈장이 잠금해제됩니다."
+			},
+			{
+				info = "・일부 훈장은 획득하기 위해 여러가지 조건을 달성할 필\n요가 있습니다."
+			},
+			{
+				info = "-훈장을 장식하자"
+			},
+			{
+				info = "・획득한 훈장은 지휘관의 프로필 화면에 장식\n할 수 있습니다."
+			},
+			{
+				info = "・프로필 화면에 장식된 훈장은, 다른 사람이 볼 수\n있는 '개인정보 화면'과 '이력 화면'에도 표시됩니다."
+			},
+			{
+				info = "-그 외"
+			},
+			{
+				info = "・함선의 육성(레벨/호감도) 관련 획득 조건은, 한\n 종류의 함선을 여러 척 소지하고 있어도 가장 높은 수치인 한 척만 계\n산됩니다."
+			},
+			{
+				info = "・개조(근대화 개수)가 완료된 함선은 개조 전의 함선과 같은 \n함선으로 계산됩니다."
+			},
+			{
+				info = "・함선을 퇴역시켜도, 획득 조건의 진도에는 영향을 주지 않습니\n다."
+			}
+		}
+	},
+	trophy_achieved = {
+		tip = "훈장 잠금해제! ",
+		key = "trophy_achieved"
+	},
+	text_confirm = {
+		tip = "확인",
+		key = "text_confirm"
+	},
+	text_cancel = {
+		tip = "취소",
+		key = "text_cancel"
+	},
+	text_cancel_fight = {
+		tip = "전투 나가기",
+		key = "text_cancel_fight"
+	},
+	text_goon_fight = {
+		tip = "전투 계속하기",
+		key = "text_goon_fight"
+	},
+	text_exit = {
+		tip = "나가기",
+		key = "text_exit"
+	},
+	text_clear = {
+		tip = "정리",
+		key = "text_clear"
+	},
+	text_apply = {
+		tip = "신청",
+		key = "text_apply"
+	},
+	text_buy = {
+		tip = "구매",
+		key = "text_buy"
+	},
+	text_forward = {
+		tip = "바로가기",
+		key = "text_forward"
+	},
+	text_prepage = {
+		tip = "이전 장",
+		key = "text_prepage"
+	},
+	text_nextpage = {
+		tip = "다음 장",
+		key = "text_nextpage"
+	},
+	text_exchange = {
+		tip = "교환",
+		key = "text_exchange"
+	},
+	text_retreat = {
+		tip = "퇴각",
+		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
 		tip = "색적치:",
@@ -9256,11 +9502,11 @@ pg.gametip = {
 		key = "level_scene_title_word_4"
 	},
 	level_scene_title_word_5 = {
-		tip = "제공치： <color=#18ff23>        추천： </color>",
+		tip = "추천：",
 		key = "level_scene_title_word_5"
 	},
 	ambush_display_0 = {
-		tip = "접적 ",
+		tip = "접적",
 		key = "ambush_display_0"
 	},
 	ambush_display_1 = {
@@ -9294,7 +9540,7 @@ pg.gametip = {
 				info = "이벤트 설명: "
 			},
 			{
-				info = "1. 정화 버츄얼 공간에 총 5장의 게임 사진이 있습니다.\n이벤트 기강 동안 반복 플레이가 가능하지만 첫 4장의 사진은\n<color=#A9F548>처음</color> 정화완료할 때에만 보상을 획득하실 수 있습니다."
+				info = "1. 정화 버츄얼 공간에 총 5장의 게임 사진이 있습니다.\n이벤트 기강 동안 반복 플레이가 가능하지만 첫 4장의 사진은\n<color=#92fc63>처음</color> 정화완료할 때에만 보상을 획득하실 수 있습니다."
 			},
 			{
 				info = "2. 첫 4장의 게임 사진은 고정이며, 5번째 사진은 랜덤입니다."
@@ -9314,7 +9560,7 @@ pg.gametip = {
 			{
 				info = [[
 7. 뒤집기 기능은 연속 클릭한 칸을 중심으로 주변에 있는
-<color=#A9F548>9칸</color>의 색이<color=#A9F548>반대 방향으로 돕니다</color>.
+<color=#92fc63>9칸</color>의 색이<color=#92fc63>반대 방향으로 돕니다</color>.
 (검은 칸은 하얀 칸으로 변경되며, 하얀 칸은 검은 칸으로
 변경됩니다)]]
 			},
@@ -9322,24 +9568,24 @@ pg.gametip = {
 				info = "8. 3회 뒤집으면 결산이 진행됩니다."
 			},
 			{
-				info = "9.결산 중 게임 사진 위에 있는 검은 칸마다 <color=#A9F548>-1</color>점, 하얀 칸마다\n<color=#A9F548>+1</color>점이 부여됩니다.최종 점수가 <color=#A9F548>0보다 같거나 클 시</color> 정화에 성공한\n것이고 <color=#A9F548>0보다 작을 시</color> 정화에 실패한 것입니다. "
+				info = "9.결산 중 게임 사진 위에 있는 검은 칸마다 <color=#92fc63>-1</color>점, 하얀 칸마다\n<color=#92fc63>+1</color>점이 부여됩니다.최종 점수가 <color=#92fc63>0보다 같거나 클 시</color> 정화에 성공한\n것이고 <color=#92fc63>0보다 작을 시</color> 정화에 실패한 것입니다. "
 			}
 		}
 	},
 	black_white_grid_reset = {
-		tip = "초기화하시겠습니까? ",
+		tip = "초기화하시겠습니까?",
 		key = "black_white_grid_reset"
 	},
 	black_white_grid_switch_tip = {
-		tip = "이번 게임이 종료되지 않아 뒤집을 수 없습니다 ",
+		tip = "이번 게임이 종료되지 않아 뒤집을 수 없습니다",
 		key = "black_white_grid_switch_tip"
 	},
 	no_way_to_escape = {
-		tip = "탈출할 수 있는 경로가 없습니다. ",
+		tip = "탈출할 수 있는 경로가 없습니다.",
 		key = "no_way_to_escape"
 	},
 	word_attr_ac = {
-		tip = "제공 ",
+		tip = "제공",
 		key = "word_attr_ac"
 	},
 	help_battle_ac = {
@@ -9352,34 +9598,38 @@ pg.gametip = {
 제공수치
 ・제공수치는 함대 제공 능력 수치를 평가한다.
 ・제공수치는 지휘관이 출격하는 함대의 항공수치와 함재기
-갯수에 의해 결정된다. 대잠은 항공기의 제공수치에 포함되지 않는다.
+갯수에 의해 결정된다. 대잠은 항공기의 제공수치에 포함되지 
+않는다.
 P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 ・제공수치는 현재 스테이지의 공역 상태에 영향을 준다.
 
 공역 상태
-・함대의 현재 스테이지 공중 구역의 제어상태를 공역상태라고 한다. 
-・적과 아군의 제공수치는 현재 스테이지의 공역상태를 결정,
-공역상태 는 일부 속성에 영향을 준다.
+・함대의 현재 스테이지 공중 구역의 제어상태를 
+공역상태라고 한다. 
+・적과 아군의 제공수치는 현재 스테이지의 공역상태를 
+결정,공역상태 는 일부 속성에 영향을 준다.
 
 공역상태는 6가지로 구분된다: 
-제공권 확보: 함대 전체 항공 대미지가 20% 상승, 항공에 받는
-대미지가 10% 감소, 명중이 10% 상승, 매복 공격을 받을
-확률이 8% 감소한다.(연소 대미지와 침수에영향 받지 않는다.)
+제공권 확보: 함대 전체 항공 대미지가 20% 상승, 항공에 
+받는 대미지가 10% 감소, 명중이 10% 상승, 매복 공격을 
+받을 확률이 8% 감소한다.(연소 대미지와 침수에영향 받지 
+않는다.)
 
-제공권 우세: 함대 전체의 항공 대미지가 12% 상승, 항공에 받는
-대미지가 6% 감소, 명중이 5% 상승, 매복 공격을 받을 확률이 5%
-감소한다.(연소 대미지와 침수에 영향 받지 않는다.)
+제공권 우세: 함대 전체의 항공 대미지가 12% 상승, 항공에 
+받는 대미지가 6% 감소, 명중이 5% 상승, 매복 공격을 받을 
+확률이 5% 감소한다.(연소 대미지와 침수에 영향 받지 
+않는다.)
 
-백중지간：함대 전체 항공 대미지가 6% 감소, 항공에 받는 대미지가
-3% 감소한다.(연소 대미지와 침수에 영향 받지 않는다.)
+백중지간：함대 전체 항공 대미지가 6% 감소, 항공에 받는 
+대미지가 3% 감소한다.(연소 대미지와 침수에 영향 받지 않는다.)
 
-제공권 열세: 함대 전체의 항공 대미지가 12% 감소, 항공에 받는
-대미지가 6% 증가, 명중, 기동이 3% 감소한다.(연소 대미지와
-침수에 영향 받지 않는다.)
+제공권 열세: 함대 전체의 항공 대미지가 12% 감소, 항공에 
+받는 대미지가 6% 증가, 명중, 기동이 3% 감소한다.(연소
+대미지와 침수에 영향 받지 않는다.)
 
-제공권 상실: 함대 전체 항공 대미지가 20% 감소, 항공에 받는
-대미지가 10% 증가, 명중, 기동이 8% 감소한다.(연소 대미지와
-침수에 영향 받지 않는다.)
+제공권 상실: 함대 전체 항공 대미지가 20% 감소, 항공에 
+받는 대미지가 10% 증가, 명중, 기동이 8% 감소한다.(연소 
+대미지와 침수에 영향 받지 않는다.)
 
 공역쟁탈 없음: 특수효과 없음.]]
 			}
@@ -9416,7 +9666,7 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "tech_simulate_quit"
 	},
 	technology_uplevel_error_no_res = {
-		tip = "<color=#A9F548>$1</color>물자를 소모하여 기술 레벨을 해제하시겠습니까?\n필요시간 : <color=#A9F548>$2</color>\n레벨변화 : <color=#A9F548>Lv.$3->Lv.$4</color> ",
+		tip = "<color=#92fc63>$1</color>물자를 소모하여 기술 레벨을 해제하시겠습니까?\n필요시간 : <color=#92fc63>$2</color>\n레벨변화 : <color=#92fc63>Lv.$3->Lv.$4</color>",
 		key = "technology_uplevel_error_no_res"
 	},
 	help_technologytree = {
@@ -9479,11 +9729,11 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		}
 	},
 	tech_change_version_mark = {
-		tip = "연구 지향 ",
+		tip = "연구 지향",
 		key = "tech_change_version_mark"
 	},
 	technology_uplevel_error_studying = {
-		tip = "<color=#A9F548>$1</color>—진영 기술을 강화 중입니다.(진영 기술은 동시에 하나만 강화할 수 있습니다)",
+		tip = "<color=#92fc63>$1</color>—진영 기술을 강화 중입니다.(진영 기술은 동시에 하나만 강화할 수 있습니다)",
 		key = "technology_uplevel_error_studying"
 	},
 	fate_attr_word = {
@@ -9495,13 +9745,13 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "fate_phase_word"
 	},
 	blueprint_simulation_confirm = {
-		tip = "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>",
+		tip = "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>",
 		key = "blueprint_simulation_confirm"
 	},
 	blueprint_simulation_confirm_19901 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 시제형 3연장 152mm 양용포 Mk17
 시제형 3연장 152mm 양용포 Mk17
 40mm 4연장 보포스 기관포
@@ -9510,8 +9760,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	},
 	blueprint_simulation_confirm_19902 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 시제형 457mm 연장포 MKA
 127mm 연장 양용포 MK12
 40mm 4연장 보포스 기관포
@@ -9520,8 +9770,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	},
 	blueprint_simulation_confirm_39903 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 98식 100mm 연장 고사포
 610mm 4연장 어뢰
 시제형 5식 40mm 고사기관포
@@ -9530,8 +9780,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	},
 	blueprint_simulation_confirm_39904 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 시제형 3연장 310mm 주포
 98식 100mm 연장 고사포
 시제형 5식 40mm 고사기관포
@@ -9540,8 +9790,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	},
 	blueprint_simulation_confirm_49902 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 시제형 406mm SKC 연장포
 시제형 406mm SKC 연장포
 105mm SKC 연장 고사포
@@ -9550,8 +9800,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	},
 	blueprint_simulation_confirm_99901 = {
 		tip = [[
-<size=23>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#D6341D>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
-장작한 장비：<color=#A9F548>
+<size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
+장작한 장비：<color=#92fc63>
 380mm 4연장포 Mle 1935
 152mm 3연장포 Mle 1930
 2연장 37mm 고사포 Mle1936
@@ -9559,11 +9809,11 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 		key = "blueprint_simulation_confirm_99901"
 	},
 	electrotherapy_wanning = {
-		tip = "안전 구역의 범위가 제한됩니다. ",
+		tip = "안전 구역의 범위가 제한됩니다.",
 		key = "electrotherapy_wanning"
 	},
 	memorybook_get_award_tip = {
-		tip = "항구의 추억'을 모두 수집하면 '키즈나 아이 기념장'을 획득하실 수 있습니다 ",
+		tip = "항구의 추억'을 모두 수집하면 '키즈나 아이 기념장'을 획득하실 수 있습니다",
 		key = "memorybook_get_award_tip"
 	},
 	memorybook_notice = {
@@ -9586,6 +9836,186 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 				info = "3. 블랙-SP 1회 클리어 후 SP1 - SP4를 다시 클리어하여 신규\n추억을 수집해주세요!"
 			}
 		}
+	},
+	word_votes = {
+		tip = "득표 수량",
+		key = "word_votes"
+	},
+	number_0 = {
+		tip = "0",
+		key = "number_0"
+	},
+	intimacy_desc_propose_vertical = {
+		tip = [[
+사랑은 길을 안내하는 등, 정으로 잇는 마음의 선과 같습니다.
+상대방의 미소를 기대하고, 상대방의 기대를 기원합니다.
+서로를 영원히 존중하고, 신뢰하며, 바라봅니다.
+즉, 운명이 하나로 이끌어 서약을 맺습니다.
+
+ 서약일: $1 ]],
+		key = "intimacy_desc_propose_vertical"
+	},
+	without_selected_ship = {
+		tip = "항모의 조건에 적합하지 않습니다.",
+		key = "without_selected_ship"
+	},
+	index_all = {
+		tip = "전부",
+		key = "index_all"
+	},
+	index_fleetfront = {
+		tip = "선봉(전열)",
+		key = "index_fleetfront"
+	},
+	index_fleetrear = {
+		tip = "주력(후열)",
+		key = "index_fleetrear"
+	},
+	index_shipType_quZhu = {
+		tip = "구축",
+		key = "index_shipType_quZhu"
+	},
+	index_shipType_qinXun = {
+		tip = "경순",
+		key = "index_shipType_qinXun"
+	},
+	index_shipType_zhongXun = {
+		tip = "중순",
+		key = "index_shipType_zhongXun"
+	},
+	index_shipType_zhanLie = {
+		tip = "전함",
+		key = "index_shipType_zhanLie"
+	},
+	index_shipType_hangMu = {
+		tip = "항모",
+		key = "index_shipType_hangMu"
+	},
+	index_shipType_weiXiu = {
+		tip = "공작",
+		key = "index_shipType_weiXiu"
+	},
+	index_shipType_qianTing = {
+		tip = "잠수",
+		key = "index_shipType_qianTing"
+	},
+	index_other = {
+		tip = "기타",
+		key = "index_other"
+	},
+	index_rare2 = {
+		tip = "N",
+		key = "index_rare2"
+	},
+	index_rare3 = {
+		tip = "R",
+		key = "index_rare3"
+	},
+	index_rare4 = {
+		tip = "SR",
+		key = "index_rare4"
+	},
+	index_rare5 = {
+		tip = "SSR",
+		key = "index_rare5"
+	},
+	index_rare6 = {
+		tip = "UR",
+		key = "index_rare6"
+	},
+	warning_mail_max_1 = {
+		tip = "우편 소지량이 한계치(<color=#FF5C5C>$1</color>/1000)에 가까워지고 있습니다. 우편을 정리해주십시오.",
+		key = "warning_mail_max_1"
+	},
+	warning_mail_max_2 = {
+		tip = "우편 소지량이 한계치에 달했습니다. 우편을 정리해주십시오.",
+		key = "warning_mail_max_2"
+	},
+	return_award_bind_success = {
+		tip = "연동 완료",
+		key = "return_award_bind_success"
+	},
+	return_award_bind_erro = {
+		tip = "연동 실패 $1",
+		key = "return_award_bind_erro"
+	},
+	rename_commander_erro = {
+		tip = "닉네임 변경 실패 $1",
+		key = "rename_commander_erro"
+	},
+	change_display_medal_success = {
+		tip = "훈장 전시 수정 완료",
+		key = "change_display_medal_success"
+	},
+	limit_skin_time_day = {
+		tip = "남은 시간: $1일",
+		key = "limit_skin_time_day"
+	},
+	limit_skin_time_day_min = {
+		tip = "남은 시간: $1시간 $2",
+		key = "limit_skin_time_day_min"
+	},
+	limit_skin_time_min = {
+		tip = "남은 시간: $분",
+		key = "limit_skin_time_min"
+	},
+	limit_skin_time_overtime = {
+		tip = "만료되었습니다.",
+		key = "limit_skin_time_overtime"
+	},
+	award_window_pt_title = {
+		tip = "현재 PT:",
+		key = "award_window_pt_title"
+	},
+	return_have_participated_in_act = {
+		tip = "해당 이벤트를 이미 참여하셨습니다.",
+		key = "return_have_participated_in_act"
+	},
+	input_returner_code = {
+		tip = "터치하여 UID 작성",
+		key = "input_returner_code"
+	},
+	dress_up_success = {
+		tip = "데코레이션 완료",
+		key = "dress_up_success"
+	},
+	already_have_the_skin = {
+		tip = "이미 해당 스킨을 보유 중입니다.",
+		key = "already_have_the_skin"
+	},
+	exchange_limit_skin_tip = {
+		tip = "스킨 체험권x$1을 소모하여\n스킨 [$2]($3일 $4시간)으로 교환하시겠습니까?",
+		key = "exchange_limit_skin_tip"
+	},
+	returner_help = {
+		key = "returner_help",
+		tip = {
+			{
+				info = [[
+이벤트 설명：
+
+초대 받은 자：
+2019년 4월 20일에서 5월 20일 업데이트 기간에 로그인하지 않고
+ 지휘관 레벨이 15와 같거나 큰 지휘관들은
+ 스페셜 이벤트에 초대 받을 자격이 됩니다.
+초대는 스페셜 이벤트 화면 내 초대자의 UID를 기입하면 이벤트를 참여할 수 있습니다. 초대자: 
+2019년 4월 20일에서 5월 20일 업데이트 전까지 로그인했거나 이벤트 중 지휘관 레벨이 15 미만이였지만 15를 도달한 지휘관들 및
+이벤트 후 가입하여 지휘관 레벨 15를 도달한 지휘관들도 자신의 UID 를 사용해 상대방을 초대할 수 있습니다.
+ 지휘관 소환:
+ 초대자는 최대 3명의 지휘관을 초대할 수 있으며, 이벤트 전용 임무 완료 시
+집결 포인트를 획득할 수 있습니다. 집결 포인트가 특정 수치를 도달하면 풍부한 보상을
+획득할 수 있습니다.
+초대 받은 자가 초대자의 UID를 기입하는 즉시 이벤트 전용 임무를
+활성화합니다. 전용 임무를 완료하면 풍부한 보상을 획득하고 초대자에게 집결 포인트를 제공합니다.
+초대는 타 항구에서도 진행할 수 있지만, 타 서버에서는 불가능합니다.
+UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명 숫자이며,
+개인 정보 화면에서 확인할 수 있습니다.]]
+			}
+		}
+	},
+	attire_time_stamp = {
+		tip = "$1일 $2시간 $3분 ",
+		key = "attire_time_stamp"
 	}
 }
 

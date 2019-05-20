@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제6장   유령, 정체를 드러내다</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제6장   유령, 정체를 드러내다</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 301051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = -1,
 			actorName = "{namecode:6}",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			actor = 102091,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "호박 랜턴 위에 누군가가!?",
@@ -53,7 +53,7 @@ return {
 		{
 			say = "그래서, 무슨 장난을 칠 거야?",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "화이트(?)",
@@ -70,7 +70,7 @@ return {
 		{
 			say = "아, 그거? 쇼카쿠 언니가 핼러윈을 즐기고 싶다고 하니까, 분명 장난을 치려나 하고 생각했지 말야.",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307060,
 			actorName = "골드(?)",
@@ -87,7 +87,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 307050,
 			actorName = "화이트(?)",
@@ -104,7 +104,7 @@ return {
 		{
 			withoutPainting = false,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301051,
 			actorName = "{namecode:6}",
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "화이트(?)",
@@ -136,7 +136,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -152,7 +152,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "화이트(?)",
@@ -169,7 +169,7 @@ return {
 		{
 			actor = 102091,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아 예예…… 그래서, 화이트… 씨? 대체 뭘 할 셈이야?",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "화이트(?)",
@@ -199,7 +199,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -215,7 +215,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:87}",
@@ -231,7 +231,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "화이트(?)",
@@ -247,7 +247,7 @@ return {
 		},
 		{
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "그레이(?)",
@@ -263,7 +263,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "골드(?)",
@@ -279,7 +279,7 @@ return {
 		},
 		{
 			actor = 107060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "그레이(?)",
@@ -295,7 +295,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "화이트(?)",
@@ -311,7 +311,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "화이트(?)",

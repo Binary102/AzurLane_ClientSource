@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼별이란!</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼별이란!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-2",
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "음, 지휘관 말야, 베일리에 대해 오해하고 있지 않아?",
 			flashout = {
 				dur = 1,
@@ -61,7 +61,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러니까, 토끼토끼별이 '존재하지 않는다' 는 건, 베일리도 물론 알고 있다구.",
 			typewriter = {
@@ -77,7 +77,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그치만, 지휘관도 언니 성격 알잖아. 잠깐은 감출 수 있지만 계속 감출 순 없거든.",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그치만 그게 '토끼토끼성인'이 없다는 얘긴 아니야.",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "벤슨 언니는 토끼토끼성인이 상냥하고, 매사에 열심이고, 모두의 아이돌이라고 얘기했었으니까.",
 			typewriter = {
@@ -135,7 +135,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "베일리가 벤슨 언니가 얘기하는 토끼토끼성인이 되어 주는 건 딱히 틀린 건 아니잖아?",
 			typewriter = {
@@ -161,7 +161,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 아카시도 얘기했잖아. 다른 은하였던가? 거기엔 토끼토끼별이 있을지도 모른다고 말야!",
 			typewriter = {
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇다냥. 우주는 넓다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -190,7 +190,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -203,7 +203,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "실은 베일리, 토끼토끼별이 우주 어딘가엔 있지만 아직 모두가 모를 뿐이라고 생각하고 있거든.",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "언젠가 토끼토끼별이 발견되면, 지휘관과 함께 보러 가고 싶어!",
 			typewriter = {
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 101360,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "베일리, 유성우가 슬슬 쏟아질 거래!",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
@@ -281,7 +281,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지금 갈게~!",
 			typewriter = {

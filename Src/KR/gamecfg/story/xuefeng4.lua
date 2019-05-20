@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>四　{namecode:22}粉丝团？</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>四　{namecode:22}粉丝团？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			say = "你知道吗？蹭蹭{namecode:22}的尾巴据说就能提升运气呢！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			bgm = "story-1",
 			actor = 0,
@@ -39,7 +39,7 @@ return {
 			withoutPainting = true,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:22}",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哼，本大人在港区可是超人气的！",
 			flashout = {
 				dur = 1,
@@ -98,7 +98,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 		},
 		{
 			actor = 204020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 102060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -162,7 +162,7 @@ return {
 		},
 		{
 			actor = 102070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 		},
 		{
 			actor = 203070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 		},
 		{
 			actor = 107070,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 205060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "好啦好啦，大家排队",
 			typewriter = {
 				speed = 0.05,
@@ -248,7 +248,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:78}",
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "{namecode:22}酱果然是超人气呢……不过那样也很辛苦吧……",
 			flashout = {
 				dur = 1,
@@ -312,7 +312,7 @@ return {
 			say = "殿下知道吗？{namecode:22}酱她只要拜托一下什么都会做哦？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
@@ -336,7 +336,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,

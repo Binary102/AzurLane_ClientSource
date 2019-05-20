@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>一 妹妹的日常</size>",
+					"妹妹的变化\n\n<size=45>一 妹妹的日常</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，休息日来一起来玩吗？",
 			flashout = {
 				dur = 1,
@@ -113,7 +113,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊…指挥官，欢迎。我听文森斯说过了",
 			typewriter = {
@@ -129,7 +129,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "文森斯，别睡了，指挥官来咯，你们不是约好一起玩的吗？",
 			typewriter = {
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "唔……嗯？让我再睡会……",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不遵守约定可不是好孩子哦？",
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "那指挥官也来一起睡觉好了……呼……",
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "抱歉呢，指挥官，文森斯她就是这样的孩子。",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "说起来，文森斯担任秘书舰的时候，没有给指挥官带来什么麻烦吧？",
 			typewriter = {
@@ -269,7 +269,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "这孩子，该说性格稍微有些自由奔放吗…大概是因为我们都太宠她了吧……",
 			typewriter = {
@@ -285,7 +285,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "平时这样倒是没什么，但是毕竟工作是工作，要是指挥官觉得不好的话…",
 			typewriter = {
@@ -301,7 +301,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "让我来代替文森斯担任秘书舰也没关系的！",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "是、是吗…指挥官这么说我就放心了……",
 			typewriter = {
@@ -353,7 +353,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔，姐姐你们…有点吵",
 			typewriter = {
@@ -369,7 +369,7 @@ return {
 			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊哈哈，抱歉抱歉，那指挥官，要一起来午睡吗？",
 			typewriter = {

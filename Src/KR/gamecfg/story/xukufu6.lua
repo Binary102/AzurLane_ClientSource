@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"쥬르네 쉬르쿠프\n\n<size=30>쉬르쿠프의 오후 - 하</size>",
+					"쥬르네 쉬르쿠프\n\n<size=45>쉬르쿠프의 오후 - 하</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actorName = "？？？",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이봐, 일어나라! ……일어나라고!",
 			typewriter = {
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "점심시간에서 30분이나 지났다. 꽤나 한가하구나, 네놈은.",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "쉬르쿠프? 거기서 자고 있는 녀석 말인가?",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "내가 한마디 하자면, 이 녀석을 비서함으로 두는 게 애초에 잘못이었단 거다.",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "싫지는 않다. 같은 비시아 소속의 동료다.",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "간단히 말하면 나와 여러모로 정반대니까, 그런 점은 마음에 들지 않는다는 거다.",
 			typewriter = {
@@ -197,7 +197,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이름 높은 해적에게 함명을 받았는데도 패기라곤 찾아볼 수 없다. 불성실한 것도 정도가 있지.",
 			typewriter = {
@@ -213,7 +213,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥！",
 			typewriter = {
@@ -229,7 +229,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 말이다. 이 꼴로 정말 비서함을 맡을 수 있는 거냐.",
 			typewriter = {

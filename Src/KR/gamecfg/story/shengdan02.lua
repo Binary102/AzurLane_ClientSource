@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"사랑과 평화의 성야제\n\n<size=30>제2장 - 메리 크리디에이고!</size>",
+					"사랑과 평화의 성야제\n\n<size=45>제2장 - 메리 크리디에이고!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			actor = 102080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "랄라라~ 랄라~",
 			typewriter = {
@@ -32,7 +32,7 @@ return {
 		},
 		{
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "목표 발견! 지금부터 돌격 인터뷰~ 개시!",
@@ -52,7 +52,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "헤에? 돌격 인터뷰? 오오오! 나도 유명해졌구나!",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 나야, 굉장해! 자자, 어떤 질문이라도 해보라고!",
 			typewriter = {
@@ -82,7 +82,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아하하… 샌디에이고는 여전히 재밌네…",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그 모습이랑 아까 그 노랫소리… 파티에서 하려고?",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아하하하, 걸렸네~ 크리스마스 파티에서 부를 거야!",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그러면~ 분명 모두 내 노래에 감동할 거고~ 그렇게 되면 나도 모항의 아이돌로!",
 			typewriter = {
@@ -142,7 +142,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "크리스마스의 아이돌 샌디에이고, 줄여서 메리 크리디에이고! 에헤헤, 나 좀 천잰듯?",
 			typewriter = {
@@ -157,7 +157,7 @@ return {
 		{
 			actor = 101050,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "메리 크리디에이고…? 응응, 기대할게!",
 			typewriter = {
@@ -172,7 +172,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼, 모처럼 여기까지 왔으니 살짝 들려줄게!",
 			typewriter = {
@@ -186,10 +186,10 @@ return {
 		},
 		{
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
-			say = "<size=40>라~</size>",
+			say = "<size=60>라~</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "——",
 			flashout = {
 				dur = 0.3,
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102080,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "응? 이게 아닌가…… 그리들리? 왜 그래 갑자기 쓰러지…",
 			flashout = {
 				dur = 0.2,
@@ -274,7 +274,7 @@ return {
 		{
 			actor = 102080,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아! 혹시 내 노랫소리에 감동한 거야?",
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 		},
 		{
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "하아… 하아…… 꽤 임팩트 있는 보이스였어…… 역시 샌디에이고……",
@@ -308,7 +308,7 @@ return {
 		{
 			actor = 102080,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아잉 몰라! 그렇게 칭찬해주면 부끄럽잖아~",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어쨌든 사진은 찍었다! 음… 이름은 '메리 크리디에이고' 로 하자! 헤헤헤, 다음 타겟을 찾아볼까~!",
 			flashout = {
 				dur = 0.3,

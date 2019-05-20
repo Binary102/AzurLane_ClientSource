@@ -26,7 +26,7 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/bottomPanel/buttons_container/taskButton"
+					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/toTop/bottomPanel/btm/buttons_container/taskButton"
 				}
 			}
 		},
@@ -95,14 +95,14 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/OverlayCamera/Overlay/UIMain/top/title/back"
+					path = "/UICamera/Canvas/UIMain/TaskScene(Clone)/top/back_btn"
 				}
 			}
 		},
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/rightPanel/formationButton"
+					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/toTop/rightPanel/eventPanel/formationButton"
 				}
 			}
 		},
@@ -168,14 +168,14 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_container/top/title/back"
+					path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_container/top/back_btn"
 				}
 			}
 		},
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/bottomPanel/buttons_container/dockBtn"
+					path = "/UICamera/Canvas/UIMain/MainUI(Clone)/toTop/bottomPanel/btm/buttons_container/dockBtn"
 				}
 			}
 		},

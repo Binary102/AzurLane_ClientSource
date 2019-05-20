@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"벚꽃놀이 대소동\n\n<size=30>제3장 - 벚꽃놀이 준비하기</size>",
+					"벚꽃놀이 대소동\n\n<size=45>제3장 - 벚꽃놀이 준비하기</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "네에~ 여기 준비도 부탁드릴게요~",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 307040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "혼자 하는 건 역시 힘들겠죠…죄송합니다! 도와줄 분들을 데려왔어요!",
 			flashout = {
 				dur = 1,
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			actor = 301310,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 302040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			actor = 305010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -136,7 +136,7 @@ return {
 		},
 		{
 			actor = 305020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -172,7 +172,7 @@ return {
 		},
 		{
 			actor = 307040,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -188,7 +188,7 @@ return {
 		},
 		{
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 		},
 		{
 			actor = 306030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>七 星光闪耀于夜空</size>",
+					"天狼星改造计划\n\n<size=45>七 星光闪耀于夜空</size>",
 					1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "什么嘛！把本王的主力部队的风头给抢光了！",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -93,7 +93,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "陛下，就算是想宣示武力，也不用对舰载机用上主力部队吧……打倒敌人的是皇家海军，结果也挺好的不是吗？",
 			typewriter = {
@@ -109,7 +109,7 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "哼！",
 			typewriter = {
@@ -128,7 +128,7 @@ return {
 			bgmDelay = 1,
 			bgm = "story-2",
 			actor = 205020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不过…果然不愧是强化过对空能力的黛朵级——",
 			flashout = {
 				dur = 0.5,
@@ -160,7 +160,7 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "不对，能展示出如此身手，应该还是多亏了那时指挥官瞬间做出的判断吧",
 			typewriter = {
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "天狼星已为您扫清了前进道路，我骄傲的主人",
 			typewriter = {
 				speed = 0.05,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_battle_night",
 			withoutActorName = true,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "她静静的，优雅地把手伸向这边。仿佛夜色中的大海也是宴会的舞池一般",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "无论身着什么样的服饰，我都是您的女仆，必将全力实现您的期望",
 			typewriter = {
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 202201,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "如果您希望的话，那么天狼星会变的比任何人都耀眼，比任何人都美丽",
 			typewriter = {
 				speed = 0.05,
@@ -285,7 +285,7 @@ return {
 			actor = 202201,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "无论在宴会舞台的灯光下，还是硝烟弥漫的战场上，请让我一直看着您，陪伴在您的身边，直到永远——",
 			typewriter = {

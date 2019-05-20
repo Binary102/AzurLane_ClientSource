@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"토끼토끼성인의 수수께끼?\n\n<size=30>토끼토끼성인은 '상냥해'!</size>",
+					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '상냥해'!</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "으으……영차……",
 			flashout = {
 				dur = 0.5,
@@ -102,7 +102,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "지휘관, 안녕~",
 			typewriter = {
@@ -118,7 +118,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이거? 이건 토끼토끼 줄 밥이야~",
 			typewriter = {
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "지휘관도 보러 안 올래? 토끼토끼, 엄청 귀엽다구~",
 			typewriter = {
 				speed = 0.05,
@@ -193,7 +193,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 아이가 토돌이고, 이 아이가 토순이야. 둘 다 엄청 착해!",
 			typewriter = {
@@ -219,7 +219,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "좋~아, 다음은 산책 시간이야!",
 			typewriter = {
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 101270,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "너무 뛰어다니면 안돼~! 지금 베일리가 목초랑 물을 갈아주고 있으니까~",
 			typewriter = {
 				speed = 0.05,
@@ -267,7 +267,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고마워 지휘관!",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "토순이랑 토돌이, 산책 한 번 하면 꼭 방 여기저기에 발자국이 남는다니깐. 정말이지…",
 			typewriter = {
@@ -309,7 +309,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "토끼토끼를 키우는 게 이렇게 큰일일 줄은 몰랐지만……",
 			typewriter = {
@@ -325,7 +325,7 @@ return {
 			actor = 101270,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 토끼토끼들이 이렇게 귀엽게 자라주는 걸 보면, 베일리도 키운 보람이 느껴지거든!",
 			typewriter = {

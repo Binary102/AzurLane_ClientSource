@@ -196,12 +196,12 @@ return {
 			dir = 1,
 			bgm = "story-masazhusai",
 			actorName = "매사추세츠&장 바르",
-			say = "<size=40>대양 너머의 '최강전함'! 정정당당히 승부다!!</size>",
+			say = "<size=60>대양 너머의 '최강전함'! 정정당당히 승부다!!</size>",
 			subActors = {
 				{
 					actor = 905010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

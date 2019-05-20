@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>二 妹妹的忧郁</size>",
+					"妹妹的变化\n\n<size=45>二 妹妹的忧郁</size>",
 					1
 				}
 			}
@@ -63,7 +63,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "文森斯，这是我刚买的芒果千层，来，啊~~",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -99,7 +99,7 @@ return {
 			actor = 103080,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "我也是姐姐嘛！怎么能把疼爱妹妹的事情全部交给昆西呢！",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "唔…阿斯托利亚姐姐…",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 103100,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，help me…",
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "欸嘿嘿……",
 			typewriter = {
@@ -211,7 +211,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "什么嘛，指挥官，用那种眼神看着我。虽然比不上昆西，我也是姐姐，姐，姐！",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 			actor = 103080,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "而且以前我和文森斯分开比较多，像现在这样一起生活就会觉得，我的妹妹好可爱啊！",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "姐姐……别抱那么紧……",
 			typewriter = {

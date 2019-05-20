@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"미카사 선배의 프라모델 박물관\n\n<size=30>울지마, 무츠키!</size>",
+					"미카사 선배의 프라모델 박물관\n\n<size=45>울지마, 무츠키!</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하늘이 무너져내리는구나……",
 			flashout = {
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미니 박물관이 파괴된 (크흡!) 탓에 침울해졌다곤 하나…후배들에게 믿음직스럽지 못한 모습을 보였구나. 미안하다.",
 			typewriter = {
@@ -71,7 +71,7 @@ return {
 			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "거기 있는 건……무츠키?",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "미카사 선배, 미안……무츠키가 잘못했어요오……",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -108,7 +108,7 @@ return {
 					number = 2
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "가…간지러워……에헤헤헤",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -162,7 +162,7 @@ return {
 					number = 1
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -175,7 +175,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미카사 선배……무츠키한테 화 안 났어……?",
 			typewriter = {
@@ -191,7 +191,7 @@ return {
 			actor = 305110,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "화내고 할 것도 없지, 이미 벌어진 일은 별수 없으니 말이야.",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……무츠키, 무츠키가 잘못했으니까……꼭 뭔가 해줄게! 꼭꼭!",
 			typewriter = {
 				speed = 0.05,
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -234,7 +234,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "영차, 영차……무츠키도 옮기는 거 도와줄게!",
 			flashout = {
 				dur = 1,
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.2,
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -296,7 +296,7 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무츠키 괜찮아? 들고 있는 거 떨어질 거 같은데.",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜찮아! ……무츠키, 수송 임무는 특기니까!",
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "고치는 거, 무츠키도 도와줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -368,7 +368,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 304020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -401,7 +401,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무츠키, 미카사 선배를 기운 차리게 해주고 싶어!",
 			typewriter = {
@@ -417,7 +417,7 @@ return {
 			actor = 304020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "조급해하지 말고 천천히 하자고요. 자, 사탕을 줄게요.",
 			typewriter = {
@@ -434,7 +434,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "냠냠……오렌지맛 사탕, 맛있어!",
 			typewriter = {
 				speed = 0.05,
@@ -446,7 +446,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301320,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -506,7 +506,7 @@ return {
 			actor = 301330,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "무츠키, 기다려……",
 			typewriter = {
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301370,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_story_school",
 			dir = -1,
 			actor = 301350,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "너……너무 빨라……지쳤어……",
 			typewriter = {
 				speed = 0.05,
@@ -555,7 +555,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.4,
@@ -568,7 +568,7 @@ return {
 			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "모두, 옮기는 거 도와줘~!",
 			typewriter = {
@@ -584,7 +584,7 @@ return {
 			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사탕……아까 미카사 선배가 준 사탕이야! 모두한테 나눠줄게!",
 			typewriter = {
@@ -602,7 +602,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			actor = 301330,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -620,7 +620,7 @@ return {
 			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미카사 선배의 박물관을 위해, 열심히 하자~!",
 			typewriter = {
@@ -633,7 +633,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_school",
 			hideOther = true,
@@ -645,13 +645,13 @@ return {
 				{
 					actor = 301370,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				},
 				{
 					actor = 301350,
 					pos = {
-						x = -370
+						x = -555
 					}
 				}
 			},

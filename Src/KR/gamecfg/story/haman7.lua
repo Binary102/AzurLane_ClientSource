@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=30>七 坦率只有…一瞬间！</size>",
+					"哈曼观察日志\n\n<size=45>七 坦率只有…一瞬间！</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 2,
 					type = "shake"
@@ -131,7 +131,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					dur = 0.5,
 					number = 1,
 					type = "shake"
@@ -192,7 +192,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.4,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -257,7 +257,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 2,
 					type = "shake"
@@ -283,7 +283,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.1,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -304,7 +304,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.5,
 					number = 3,
 					type = "shake"
@@ -357,7 +357,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

@@ -25,7 +25,6 @@ slot0.GO_ACT_SHOP = "LevelMediator2:GO_ACT_SHOP"
 slot0.ON_SWITCH_NORMAL_MAP = "LevelMediator2:ON_SWITCH_NORMAL_MAP"
 slot0.NOTICE_AUTOBOT_ENABLED = "LevelMediator2:NOTICE_AUTOBOT_ENABLED"
 slot0.ON_OPEN_GUILD_PRE_COMABT = "LevelMediator2:ON_OPEN_GUILD_PRE_COMABT"
-slot0.ON_FLEET_SHIPINFO = "LevelMediator2:ON_FLEET_SHIPINFO"
 slot0.ON_ENTER_EXTRA_CHAPTER = "LevelMediator2:ON_ENTER_EXTRA_CHAPTER"
 slot0.ON_EXTRA_RANK = "LevelMediator2:ON_EXTRA_RANK"
 slot0.ON_FETCH_ESCORT = "LevelMediator2:ON_FETCH_ESCORT"
@@ -33,15 +32,22 @@ slot0.ON_FETCH_SUB_CHAPTER = "LevelMediator2:ON_FETCH_SUB_CHAPTER"
 slot0.ON_REFRESH_SUB_CHAPTER = "LevelMediator2:ON_REFRESH_SUB_CHAPTER"
 slot0.ON_STRATEGYING_CHAPTER = "LevelMediator2:ON_STRATEGYING_CHAPTER"
 slot0.ON_SELECT_COMMANDER = "LevelMediator2:ON_SELECT_COMMANDER"
+slot0.ON_STOP_REMIND_OPERATION = "LevelMediator2:ON_STOP_REMIND_OPERATION"
 slot0.ON_SELECT_ELITE_COMMANDER = "LevelMediator2:ON_SELECT_ELITE_COMMANDER"
 slot0.ON_COMMANDER_SKILL = "LevelMediator2:ON_COMMANDER_SKILL"
 slot0.ON_ACTIVATE_REMASTER = "LevelMediator2:ON_ACTIVATE_REMASTER"
+slot0.ON_SHIP_DETAIL = "LevelMediator2:ON_SHIP_DETAIL"
+slot0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN = "LevelMediator2:ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN"
+slot0.GET_REMASTER_TICKETS_DONE = "LevelMediator2:GET_REMASTER_TICKETS_DONE"
+slot0.ON_FLEET_SHIPINFO = "LevelMediator2:ON_FLEET_SHIPINFO"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
 
-	slot0:bind(slot0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2, slot3)
 		FormationMediator.onSelectCommander(slot1, slot2)
+
+		slot0.contextData.selectedChapterVO = getProxy(ChapterProxy).getChapterById(slot4, slot3)
 	end)
 	slot0:bind(slot0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2, slot3)
 		slot5 = getProxy(ChapterProxy).getChapterById(slot4, slot3)
@@ -238,7 +244,7 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
+		slot0.viewComponent.levelFleetView:setOnHard(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.NOTICE_AUTOBOT_ENABLED, function (slot0, slot1)
 		slot0:sendNotification(GAME.COMMON_FLAG, {
@@ -252,7 +258,7 @@ function slot0.register(slot0)
 		slot4:updateChapter(slot3)
 		slot4:duplicateEliteFleet(slot3, true)
 		slot0:duplicateEliteFleet(slot3)
-		slot0.viewComponent.levelEliteFleetPanel:set(slot1.chapterVO)
+		slot0.viewComponent.levelFleetView:setOnHard(slot1.chapterVO)
 	end)
 	slot0:bind(slot0.ON_ELITE_OEPN_DECK, function (slot0, slot1)
 		slot2 = slot1.shipType
@@ -383,6 +389,13 @@ function slot0.register(slot0)
 			slot0.viewComponent:onSubLayerOpen()
 		end)
 	end)
+	slot0:bind(slot0.ON_SHIP_DETAIL, function (slot0, slot1)
+		slot0.contextData.selectedChapterVO = slot1.chapter
+
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1.id
+		})
+	end)
 	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 			shipId = slot1.shipId,
@@ -410,8 +423,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_EXTRA_RANK, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
-			index = BillboardLayer.PAGE_EXTRA_CHAPTER,
-			view = slot0.viewComponent.__cname
+			page = PowerRank.TYPE_EXTRA_CHAPTER
 		})
 	end)
 	slot0:bind(slot0.ON_FETCH_ESCORT, function (slot0)
@@ -425,9 +437,13 @@ function slot0.register(slot0)
 			slot0:sendNotification(GAME.SUB_CHAPTER_FETCH)
 		end
 	end)
+	slot0:bind(slot0.ON_STOP_REMIND_OPERATION, function (slot0)
+		PlayerPrefs.SetInt("stop_remind_operation", 1)
+		PlayerPrefs.Save()
+	end)
 	slot0:bind(slot0.ON_STRATEGYING_CHAPTER, function (slot0)
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			yesText = "text_go",
+			yesText = "text_forward",
 			content = i18n("levelScene_chapter_is_activation", getProxy(ChapterProxy):getActiveChapter():getConfig("chapter_name")),
 			onYes = function ()
 				slot0.viewComponent:switchToChapter(slot0.viewComponent)
@@ -468,6 +484,9 @@ function slot0.register(slot0)
 			exitCallback = slot2
 		})
 	end)
+	slot0:bind(slot0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN, function (slot0)
+		slot0:sendNotification(GAME.GET_REMASTER_TICKETS)
+	end)
 
 	slot0.player = slot1:getData()
 
@@ -484,12 +503,11 @@ function slot0.register(slot0)
 
 	slot7 = getProxy(ActivityProxy)
 
-	slot0.viewComponent:updateEventActivityStyle(slot8)
-	slot0.viewComponent:updateBattleActivitys(slot9)
+	slot0.viewComponent:updateBattleActivitys(slot8)
 
-	for slot14, slot15 in ipairs(slot10) do
-		if slot15:getConfig("config_id") == pg.gameset.activity_res_id.key_value then
-			slot0.viewComponent:updatePtActivity(slot15)
+	for slot13, slot14 in ipairs(slot9) do
+		if slot14:getConfig("config_id") == pg.gameset.activity_res_id.key_value then
+			slot0.viewComponent:updatePtActivity(slot14)
 
 			break
 		end
@@ -497,36 +515,36 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setEliteQuota(getProxy(DailyLevelProxy).eliteCount, pg.gameset.elite_quota.key_value)
 
-	slot12 = getProxy(ChapterProxy)
+	slot11 = getProxy(ChapterProxy)
 
-	slot12:updateActiveChapterShips()
-	slot12:updateShamChapterShips()
-	slot12:updateGuildChapterShips()
-	slot0.viewComponent:updateSubInfo(slot12.subRefreshCount, slot12.subProgress)
+	slot11:updateActiveChapterShips()
+	slot11:updateShamChapterShips()
+	slot11:updateGuildChapterShips()
+	slot0.viewComponent:updateSubInfo(slot11.subRefreshCount, slot11.subProgress)
 
-	slot13 = slot0.viewComponent.maps
-	slot14 = slot0.contextData.mapIdx
-	slot15 = slot0.contextData.chapterId
-	slot17 = ChapterConst.TypeNone
+	slot12 = slot0.viewComponent.maps
+	slot13 = slot0.contextData.mapIdx
+	slot14 = slot0.contextData.chapterId
+	slot16 = ChapterConst.TypeNone
 
 	if slot0.contextData.chapterVO then
-		slot17 = slot16:getDataType()
+		slot16 = slot15:getDataType()
 	end
 
-	if slot17 == ChapterConst.TypeSham then
-		slot0.contextData.chapterVO = slot12:getShamChapter()
-	elseif slot17 == ChapterConst.TypeGuild then
-		slot0.contextData.chapterVO = slot12:getGuildChapter()
-	elseif slot17 == ChapterConst.TypeNone and slot15 and slot13[slot14] then
-		slot0.contextData.chapterVO = slot18:getChapter(slot15)
+	if slot16 == ChapterConst.TypeSham then
+		slot0.contextData.chapterVO = slot11:getShamChapter()
+	elseif slot16 == ChapterConst.TypeGuild then
+		slot0.contextData.chapterVO = slot11:getGuildChapter()
+	elseif slot16 == ChapterConst.TypeNone and slot14 and slot12[slot13] then
+		slot0.contextData.chapterVO = slot17:getChapter(slot14)
 	end
 
-	slot0.viewComponent:setMaps(slot13)
+	slot0.viewComponent:setMaps(slot12)
 
-	if slot0.contextData.chapterVO and slot16.active then
+	if slot0.contextData.chapterVO and slot15.active then
 		slot0.contextData.isSwitchToChapter = true
 
-		slot0.viewComponent:switchToChapter(slot16, function ()
+		slot0.viewComponent:switchToChapter(slot15, function ()
 			slot0:OnSwitchChapterDone()
 		end)
 	end
@@ -559,7 +577,8 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.ESCORT_FETCH_DONE,
 		GAME.SUB_CHAPTER_REFRESH_DONE,
-		GAME.SUB_CHAPTER_FETCH_DONE
+		GAME.SUB_CHAPTER_FETCH_DONE,
+		GAME.GET_REMASTER_TICKETS_DONE
 	}
 end
 
@@ -567,6 +586,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
+		slot0.viewComponent:emit(LevelUIConst.DESTROY_LEVEL_STAGE_VIEW)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:updateRes(slot3)
@@ -580,7 +600,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ChapterProxy.CHAPTER_ADDED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, 0)
 	elseif slot2 == ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED then
-		slot0.viewComponent:kizunaFlagOperation(slot3)
 	elseif slot2 == ChapterProxy.SHAM_CHAPTER_UPDATED then
 		slot0.viewComponent:updateChapterVO(slot3.shamChapter, slot3.dirty)
 	elseif slot2 == ChapterProxy.GUILD_CHAPTER_UPDATED then
@@ -632,7 +651,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 
 				if slot0 == ChapterConst.OpSkipBattle then
-					slot1.viewComponent:tryAutoTrigger()
+					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpRetreat then
 					if slot3:getDataType() == ChapterConst.TypeGuild then
 						slot1.viewComponent:emit(BaseUI.ON_BACK)
@@ -708,13 +727,11 @@ function slot0.handleNotification(slot0, slot1)
 							slot1.viewComponent:popStageStrategy()
 						end
 
-						slot1.viewComponent:kizunaFlagOperation(slot2.extraFlagAddList)
-						slot1.viewComponent.kizunaFlagOperation.viewComponent:updateBombPanel()
-						slot1.viewComponent.kizunaFlagOperation.viewComponent.updateBombPanel.viewComponent:tryAutoTrigger()
-						slot1.viewComponent.kizunaFlagOperation.viewComponent.updateBombPanel.viewComponent.tryAutoTrigger.viewComponent:dispatchGuide()
+						slot1.viewComponent.levelStageView:updateBombPanel()
+						slot1.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView:tryAutoTrigger()
 					end)
 				elseif slot0 == ChapterConst.OpAmbush then
-					slot1.viewComponent:tryAutoTrigger()
+					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpBox then
 					if pg.box_data_template[slot3:getChapterCell(slot3.fleet.line.row, slot3.fleet.line.column).attachmentId].type == ChapterConst.BoxAirStrike then
 						slot1.viewComponent:doPlayAirStrike(ChapterConst.SubjectChampion, false, slot2)
@@ -741,9 +758,9 @@ function slot0.handleNotification(slot0, slot1)
 						end
 					end
 
-					slot1.viewComponent:tryAutoTrigger()
+					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpStory then
-					slot1.viewComponent:tryAutoTrigger()
+					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				elseif slot0 == ChapterConst.OpSwitch then
 					slot1.viewComponent.grid:adjustCameraFocus()
 				elseif slot0 == ChapterConst.OpEnemyRound then
@@ -751,8 +768,8 @@ function slot0.handleNotification(slot0, slot1)
 						slot0.contextData.chapterVO.roundIndex = slot0.contextData.chapterVO.roundIndex + 1
 
 						getProxy(ChapterProxy).updateChapter(slot1, slot0)
-						slot0.viewComponent:updateBombPanel(true)
-						slot0.viewComponent:tryAutoTrigger()
+						slot0.viewComponent.levelStageView:updateBombPanel(true)
+						slot0.viewComponent.levelStageView:tryAutoTrigger()
 						slot0.viewComponent:updatePoisonAreaTip()
 					end)
 				elseif slot0 == ChapterConst.OpSubState then
@@ -768,7 +785,7 @@ function slot0.handleNotification(slot0, slot1)
 						end
 					end
 				elseif slot0 == ChapterConst.OpBarrier then
-					slot1.viewComponent:tryAutoTrigger()
+					slot1.viewComponent.levelStageView:tryAutoTrigger()
 				end
 			end)
 
@@ -845,6 +862,15 @@ function slot0.handleNotification(slot0, slot1)
 			else
 				slot0.viewComponent:updateMap()
 			end
+		elseif slot2 == GAME.GET_REMASTER_TICKETS_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+				if getProxy(ChapterProxy).remasterDailyCount > 1 then
+					SetActive(slot0.viewComponent.levelRemasterView.getRemasterTF, false)
+					SetActive(slot0.viewComponent.levelRemasterView.gotRemasterTF, true)
+					removeOnButton(slot0.viewComponent.levelRemasterView.getRemasterTF)
+					setText(slot0.viewComponent.levelRemasterView.numsTxt, slot0.remasterTickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
+				end
+			end)
 		end
 	end
 end
@@ -858,7 +884,8 @@ function slot0.OnEventUpdate(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = false,
 			hideNo = true,
-			content = i18n("event_special_update", (pg.collection_template[slot1.eventForMsg.id or 0] and pg.collection_template[slot1.eventForMsg.id or 0].title) or "")
+			content = i18n("event_special_update", (pg.collection_template[slot1.eventForMsg.id or 0] and pg.collection_template[slot1.eventForMsg.id or 0].title) or ""),
+			weight = LayerWeightConst.SECOND_LAYER
 		})
 
 		slot1.eventForMsg = nil
@@ -918,23 +945,12 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 		slot1 = slot0:getEliteFleetList()[]
 
 		if slot0.getEliteFleetList() then
-			slot2 = nil
-
-			for slot6, slot7 in ipairs(slot1) do
-				if slot7 == slot2.id then
-					slot2 = slot6
-
-					break
-				end
-			end
-
-			table.remove(slot1, slot2)
+			table.remove(slot1, table.indexof(slot1, slot2.id))
 		end
 
-		slot1[#slot1 + 1] = slot0[1]
-
-		slot0[1]:updateChapter(slot0)
-		slot0[1]:duplicateEliteFleet(slot0)
+		table.insert(slot1, slot0[1])
+		slot1:updateChapter(slot0)
+		slot1:duplicateEliteFleet(slot0)
 	end
 end
 

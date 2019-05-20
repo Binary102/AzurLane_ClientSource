@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -42,7 +42,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "…………",
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -75,7 +75,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "나를 모욕할 셈인가.",
@@ -89,7 +89,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -125,7 +125,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "…………",
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -158,7 +158,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "……계속해.",
@@ -174,7 +174,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "나는 계속 찾겠어… 몇 번이라도…",
@@ -190,7 +190,7 @@ return {
 		{
 			actor = 900070,
 			side = 2,
-			nameColor = "#D6341DFF",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
 			say = "그 사람을 찾아낼 때까지…",

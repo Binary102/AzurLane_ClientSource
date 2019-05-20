@@ -277,6 +277,14 @@ function slot15(slot0)
 	slot4 = "dialogue/actor/actor_middle"
 	slot2 = slot2(slot3, slot4)
 	slot0.actorMiddle = slot2
+	slot2 = {}
+	slot3 = slot0.actorLeft
+	slot2[1] = slot3
+	slot3 = slot0.actorRight
+	slot2[2] = slot3
+	slot3 = slot0.actorMiddle
+	slot2[3] = slot3
+	slot0.actors = slot2
 	slot2 = findTF
 	slot3 = slot0._go
 	slot4 = "options_panel"
@@ -409,7 +417,7 @@ end
 
 slot0.hideEffects = slot15
 slot15 = {
-	"LevelScene2",
+	"LevelScene",
 	"BattleScene",
 	"EventListScene",
 	"MilitaryExerciseScene",
@@ -444,6 +452,87 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot0.PlayOnTaskAdded = slot16
+
+function slot16(slot0, slot1, slot2, slot3)
+	slot4 = slot3 or function ()
+		return
+	end
+	slot5 = slot0:IsPlayed(slot1)
+
+	if slot5 then
+		slot5 = slot4
+
+		slot5()
+
+		return
+	end
+
+	slot5 = pg
+	slot5 = slot5.GuideMgr
+	slot6 = slot5
+	slot5 = slot5.GetInstance
+	slot5 = slot5(slot6)
+	slot6 = slot5
+	slot5 = slot5.canPlay
+	slot5 = slot5(slot6)
+
+	if not slot5 then
+		slot5 = slot4
+
+		slot5()
+
+		return
+	end
+
+	slot5 = isAiriJP
+	slot5 = slot5()
+
+	if slot5 then
+		if slot1 == "SYG001" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
+
+			slot5(slot6)
+		elseif slot1 == "SYG003" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
+
+			slot5(slot6)
+		elseif slot1 == "SYG006" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+
+			slot5(slot6)
+		end
+	end
+
+	slot5 = pg
+	slot5 = slot5.m02
+	slot6 = slot5
+	slot5 = slot5.sendNotification
+	slot7 = GAME
+	slot7 = slot7.STORY_UPDATE
+	slot8 = {
+		storyId = slot1
+	}
+
+	slot5(slot6, slot7, slot8)
+
+	slot5 = pg
+	slot5 = slot5.GuideMgr
+	slot6 = slot5
+	slot5 = slot5.GetInstance
+	slot5 = slot5(slot6)
+	slot6 = slot5
+	slot5 = slot5.play
+	slot7 = slot1
+	slot8 = slot2
+	slot9 = slot3
+
+	slot5(slot6, slot7, slot8, slot9)
+end
+
+slot0.PlayGuide = slot16
 
 function slot16()
 	slot0 = getProxy
@@ -502,7 +591,9 @@ function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot8(slot9, slot10, slot11)
 
-		return
+		slot8 = false
+
+		return slot8
 	end
 
 	slot0.storyId = slot1
@@ -547,7 +638,9 @@ function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				slot10(slot11)
 
-				return
+				slot10 = false
+
+				return slot10
 			end
 		end
 	end
@@ -576,7 +669,9 @@ function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				slot10(slot11)
 
-				return
+				slot10 = false
+
+				return slot10
 			end
 		end
 	end
@@ -626,6 +721,10 @@ function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot15 = slot5
 
 	slot10(slot11, slot12, slot13, slot14, slot15)
+
+	slot10 = true
+
+	return slot10
 end
 
 slot0.Play = slot17
@@ -813,6 +912,7 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 		removeAllChildren(slot0.actorMiddle:Find("actor_sub"))
 		SetActive(slot0.options, false)
 
+		slot0.optionsBg.transform.localPosition = Vector3(1485, 40)
 		slot7 = type(slot1.jumpto)
 
 		if slot7 == "string" then
@@ -829,6 +929,50 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 		slot7 = slot1.jumpto
 		slot7 = slot7()
 		slot0.nextEpisode = slot7
+	end
+
+	slot7 = slot1.randFlag
+
+	if slot7 then
+		slot7 = 0
+		slot8 = {}
+		slot9 = ipairs
+		slot10 = slot1.randFlag
+		slot9, slot10, slot11 = slot9(slot10)
+
+		for slot12, slot13 in slot9, slot10, slot11 do
+			slot14 = slot13[2]
+			slot7 = slot7 + slot14
+			slot14 = table
+			slot14 = slot14.insert
+			slot15 = slot8
+			slot16 = {}
+			slot17 = slot13[1]
+			slot16[1] = slot17
+			slot16[2] = slot7
+
+			slot14(slot15, slot16)
+		end
+
+		slot9 = math
+		slot9 = slot9.random
+		slot10 = 1
+		slot11 = slot7
+		slot9 = slot9(slot10, slot11)
+		slot10 = ipairs
+		slot11 = slot8
+		slot10, slot11, slot12 = slot10(slot11)
+
+		for slot13, slot14 in slot10, slot11, slot12 do
+			slot15 = slot14[2]
+
+			if slot9 <= slot15 then
+				slot15 = slot14[1]
+				slot0.optionFlag = slot15
+
+				break
+			end
+		end
 	end
 
 	slot7 = nil
@@ -1190,8 +1334,8 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 
 						for slot11 = slot8, slot9, slot10 do
 							slot12 = LeanTween
-							slot12 = slot12.value
-							slot13 = go
+							slot12 = slot12.alpha
+							slot13 = rtf
 							slot14 = slot1
 							slot14 = slot14._flash
 							slot13 = slot13(slot14)
@@ -1228,26 +1372,14 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 							slot14 = true
 							slot12 = slot12(slot13, slot14)
 							slot13 = slot12
-							slot12 = slot12.setOnUpdate
-							slot14 = System
-							slot14 = slot14.Action_float
-
-							function slot15(slot0)
-								slot1 = slot0
-								slot1 = slot1._flashCG
-								slot1.alpha = slot0
-							end
-
-							slot12 = slot12(slot13, slot14(slot15))
-							slot13 = slot12
 							slot12 = slot12.setOnComplete
 							slot14 = System
 							slot14 = slot14.Action
 
 							function slot15()
 								slot0 = LeanTween
-								slot0 = slot0.value
-								slot1 = go
+								slot0 = slot0.alpha
+								slot1 = rtf
 								slot2 = slot0
 								slot2 = slot2._flash
 								slot1 = slot1(slot2)
@@ -1281,18 +1413,6 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 								slot0 = slot0.setUseEstimatedTime
 								slot2 = true
 								slot0 = slot0(slot1, slot2)
-								slot1 = slot0
-								slot0 = slot0.setOnUpdate
-								slot2 = System
-								slot2 = slot2.Action_float
-
-								function slot3(slot0)
-									slot1 = slot0
-									slot1 = slot1._flashCG
-									slot1.alpha = slot0
-								end
-
-								slot0 = slot0(slot1, slot2(slot3))
 								slot1 = slot0
 								slot0 = slot0.setOnComplete
 								slot2 = System
@@ -1799,7 +1919,6 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 			slot5 = slot0
 			slot5 = slot5._go
 			slot4 = slot4(slot5)
-			slot4 = slot4.parent
 			slot3.parent = slot4
 			slot4 = i18n
 			slot5 = "story_skip_confirm"
@@ -2508,6 +2627,44 @@ function slot17(slot0, slot1)
 	slot4 = slot0.getTagetActorTF
 	slot6 = slot3
 	slot4, slot5 = slot4(slot5, slot6)
+	slot6 = _
+	slot6 = slot6.each
+	slot7 = slot0.actors
+
+	function slot8(slot0)
+		slot1 = LeanTween
+		slot1 = slot1.isTweening
+		slot2 = slot0.gameObject
+		slot1 = slot1(slot2)
+
+		if slot1 then
+			slot1 = LeanTween
+			slot1 = slot1.cancel
+			slot2 = go
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot3 = true
+
+			slot1(slot2, slot3)
+		end
+
+		slot1 = setActive
+		slot2 = slot0
+		slot3 = slot0
+
+		if slot0 ~= slot3 then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
+
+		return
+	end
+
+	slot6(slot7, slot8)
+
 	slot6 = setActive
 	slot7 = slot0.actorLeft
 	slot8 = slot0.actorLeft
@@ -4984,13 +5141,6 @@ end
 slot0.initOptions = slot17
 
 function slot17(slot0)
-	slot1 = slot0.optionsBg
-	slot1 = slot1.transform
-	slot2 = Vector3
-	slot3 = 816
-	slot4 = 40
-	slot2 = slot2(slot3, slot4)
-	slot1.localPosition = slot2
 	slot1 = setActive
 	slot2 = slot0.options
 	slot3 = true
@@ -5008,7 +5158,7 @@ function slot17(slot0)
 	slot2 = LeanTween
 	slot2 = slot2.moveX
 	slot3 = slot0.optionsBg
-	slot4 = 640
+	slot4 = 0
 	slot5 = 0.5
 
 	slot2(slot3, slot4, slot5)
@@ -5134,7 +5284,7 @@ function slot17(slot0, slot1, slot2)
 	slot4 = LeanTween
 	slot4 = slot4.moveX
 	slot5 = slot0.optionsBg
-	slot6 = 816
+	slot6 = 525
 	slot7 = 0.5
 
 	slot4(slot5, slot6, slot7)
@@ -5166,7 +5316,7 @@ function slot17(slot0, slot1, slot2)
 			slot10 = LeanTween
 			slot10 = slot10.moveX
 			slot11 = slot9
-			slot12 = 421
+			slot12 = 632
 			slot13 = 0.4
 			slot10 = slot10(slot11, slot12, slot13)
 			slot11 = slot10

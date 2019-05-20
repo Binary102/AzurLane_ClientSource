@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"最近,綾波の様子が…？\n\n<size=30>その四　綾波更生計画・上</size>",
+					"最近,綾波の様子が…？\n\n<size=45>その四　綾波更生計画・上</size>",
 					1
 				}
 			}
@@ -16,7 +16,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "こ,このままだと綾波が「ハイジン」になっちゃうで！",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 		{
 			actor = 306054,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "指揮官お願い！綾波を部屋から連れ出すんや！",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 312014,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "にゃにゃ♪この明石にはいい案があるにゃ！実は最近新しい食料を開発したにゃ。電子の海に溺れるコドモたちを引き上げるチョ～オイシイ,明石謹製エナジーチーズケーキにゃ！",
 			flashout = {
 				dur = 1,
@@ -78,7 +78,7 @@ return {
 		{
 			actor = 312014,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "名付けて――『ゲキウマ大作戦』にゃ！",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			actor = 306054,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "おおお！なんか強そうに聞こえるんやで！",
@@ -112,7 +112,7 @@ return {
 		{
 			actor = 312014,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "材料費は…指揮官に負担してもらうにゃ！",
 			typewriter = {

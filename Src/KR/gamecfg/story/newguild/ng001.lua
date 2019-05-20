@@ -32,7 +32,7 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/LevelUI2(Clone)/right_chapter/btn_signal"
+					path = "/UICamera/Canvas/UIMain/LevelUI2(Clone)/main/right_chapter/btn_signal"
 				}
 			}
 		},
@@ -75,7 +75,7 @@ return {
 			code = 1,
 			action = {
 				ui = {
-					path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)"
+					path = "/OverlayCamera/Overlay/UIMain/rescue_select/panel/start_button"
 				}
 			}
 		},

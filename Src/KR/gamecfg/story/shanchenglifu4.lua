@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"모항의 특별 연회\n\n<size=30>4. 연회의 여왕 폐하</size>",
+					"모항의 특별 연회\n\n<size=45>4. 연회의 여왕 폐하</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 207030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "폐하, 무얼하고 계신지요?",
 			typewriter = {
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "우후후, 아무래도 폐하께선 이 연회가 무척 만족스러우신가 봅니다.",
 			typewriter = {
 				speed = 0.05,
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "당연하지! 왜냐면 이 연회, 건물 양식에서 장식까지, 그리고 식자재랑 메뉴까지, 전부 우리 로열 네이비가 준비했는걸!",
 			typewriter = {
 				speed = 0.05,
@@ -121,7 +121,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭐 여기 오고 나서 부턴 품위 없는 건물과 식사에도 나름 익숙해지긴 했지만……",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래도 역시, 이렇게 한 번 연회를 열면 로열 네이비의 품격을 모두가 똑똑히 알게 될 것이야!",
 			typewriter = {
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아하하하하하하!!!",
 			typewriter = {
 				speed = 0.05,
@@ -165,7 +165,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -178,7 +178,7 @@ return {
 			actor = 207030,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "폐하께서 즐거워 보여 더할 나위 없이 기쁘네요. 함대원 모두 상당히 만족하고 있는 것 같고, 지금까지 연회는 원만히 진행되고 있는 것 같습니다.",
 			typewriter = {
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "흠, 당연한 것 아니겠어?",
 			typewriter = {
 				speed = 0.05,
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어머, 그러고 보니 벨파스트씨와 셰필드씨는 폐하와 함께 있었지 않았나요?",
 			typewriter = {
 				speed = 0.05,
@@ -230,7 +230,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그 둘은 조리실로 갔어. 요리도 당연히 최고로 대령해야 하니까 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "게다가 여기는 내 궁전처럼 안전하니까, 걱정할 필욘 없지!",
 			typewriter = {
 				speed = 0.05,
@@ -262,7 +262,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? ……갑자기 왜 웃는 거야.",
 			typewriter = {
@@ -278,7 +278,7 @@ return {
 			actor = 207030,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후후, 아무것도 아니랍니다……잠시 기쁜 일이 떠올라서 그만.",
 			typewriter = {
@@ -294,7 +294,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "기쁜 일이라고? 뭐가 기쁘다는 건데?",
 			typewriter = {
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……딱히 아무것도 아니랍니다. 축제란 원래 즐거운 법이니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥, 거짓말 하지마! 일러스트리어스, 그 수영복 콘테스트에 몰래 참가해서 1등 했지? 분명해!",
 			typewriter = {
@@ -345,7 +345,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이 거유 녀석! 흥! 그렇게 커 가지고 뭐 어쩌겠단 거야! 걸리적거리기나 하고!",
 			typewriter = {
 				speed = 0.05,
@@ -359,7 +359,7 @@ return {
 				{
 					y = 0,
 					dur = 0.2,
-					x = -100,
+					x = -150,
 					type = "move"
 				}
 			}
@@ -370,7 +370,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "꺄악! 폐, 폐하…다른 사람들 보는 앞에서 갑자기 찌르시면……",
 			typewriter = {
 				speed = 0.05,
@@ -382,7 +382,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -397,7 +397,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그리고, 정말 참가한 적 없답니다. 그런 장소는 아무래도 역시 어색해서……",
 			typewriter = {
 				speed = 0.05,
@@ -409,7 +409,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -431,7 +431,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -446,7 +446,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -456,7 +456,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -476,7 +476,7 @@ return {
 			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……흥, 그렇게까지 얘기한다면야…",
 			typewriter = {
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 205010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -512,7 +512,7 @@ return {
 			actor = 207030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "알겠사옵니다 폐하.",
 			typewriter = {
@@ -530,7 +530,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……어찌 됐든, 폐하께서도 즐거워하시는 것 같아 다행이네요.",
 			typewriter = {
 				speed = 0.05,
@@ -545,7 +545,7 @@ return {
 			actorName = "???",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "후후, '저런' 폐하라도, 역시 친구는 필요한가 보네요~",
 			typewriter = {
@@ -563,7 +563,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……에이잭스씨, 폐하에게 무슨 말버릇입니까.",
 			typewriter = {
 				speed = 0.05,
@@ -580,7 +580,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "누가 뭐래도 폐하는 폐하입니다. 그러는 당신이야말로, 그 성격을 어떻게든 하지 않으면 친구를 사귀긴 어려울 것 같습니다만.",
 			typewriter = {
 				speed = 0.05,
@@ -595,7 +595,7 @@ return {
 			actor = 202030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래서 전 친구를 만들어야겠다고 생각한 적이 단 한 번도 없답니다~ 후후, 제일 재미있는 건 역시 제 아기돼지를 괴롭히는 거니까요. ",
 			typewriter = {
@@ -613,7 +613,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -633,7 +633,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그럼, 축제는 어떻게 보내셨나요?",
 			typewriter = {
 				speed = 0.05,
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 202030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아기돼지들이 필사적으로 일을 하니 즐거움이 조금 줄었지만, 이것도 나름 재미있지 않나요?",
 			typewriter = {
 				speed = 0.05,
@@ -665,7 +665,7 @@ return {
 			actor = 202030,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "로열 네이비의 허미즈가 만든 카드 게임도 의외로 재미있어 보였고요. 쉬는 시간에 한 번 연구해볼 만 할 것 같더군요.",
 			typewriter = {
@@ -683,7 +683,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "카드 게임……말인가요? 왠지 재미있을 것 같네요……",
 			typewriter = {
 				speed = 0.05,
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 207030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

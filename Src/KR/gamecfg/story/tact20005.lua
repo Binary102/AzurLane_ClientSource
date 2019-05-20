@@ -10,7 +10,7 @@ return {
 		{
 			actor = 405020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			say = "또 그 꿈…새하얀 눈, 몰아치는 바람……굉음을 울려대는 폭격기의 엔진……",
 			shake = {
@@ -29,7 +29,7 @@ return {
 		{
 			actor = 405020,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			say = "폭발, 침수, 그리고…수면 밑에 있는 영원한 어둠……",
 			shake = {
@@ -48,7 +48,7 @@ return {
 		{
 			side = 1,
 			say = "당신이야?",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
@@ -71,7 +71,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
@@ -92,7 +92,7 @@ return {
 		{
 			actor = 405020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			say = "당신은……??",
 			shake = {
@@ -110,7 +110,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 405020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			say = "비스마르크…언니? …그런……내 기억에는……당신은 존재하지 않을 텐데……",
 			shake = {
@@ -149,7 +149,7 @@ return {
 		},
 		{
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			actor = 900010,
 			actorName = "???",
@@ -170,7 +170,7 @@ return {
 		{
 			actor = 405020,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			blackBg = true,
 			say = "큭…머리가…아파……또…이런 상실감에……",
 			shake = {

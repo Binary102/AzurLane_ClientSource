@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>四  {namecode:96}与大前辈</size>",
+					"幸运之鹤\n\n<size=45>四  {namecode:96}与大前辈</size>",
 					1
 				}
 			}
@@ -28,7 +28,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -51,7 +51,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			actorName = "{namecode:96}",
 			dir = 1,
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 3,
 					type = "shake"
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -183,7 +183,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:82}",
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "指挥官，能说句话不",
 			flashout = {
 				dur = 1,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -278,7 +278,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -295,7 +295,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -313,7 +313,7 @@ return {
 		},
 		{
 			actor = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_nepu1",
 			withoutPainting = true,
 			dir = 1,
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 305110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……呵呵，你的回答，我会记着的。{namecode:96}就拜托你了啊",
 			typewriter = {
 				speed = 0.05,

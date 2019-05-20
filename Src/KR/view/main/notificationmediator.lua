@@ -56,8 +56,8 @@ function slot0.register(slot0)
 				})
 			elseif slot6.level < 10 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
-			elseif slot10 - slot9 <= 10 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently"))
+			elseif slot10 - slot9 < 10 then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot10 - slot9)))
 			else
 				slot11, slot12 = wordVer(slot2, {
 					isReplace = true
@@ -94,12 +94,14 @@ function slot0.register(slot0)
 			keyword = slot1.id
 		})
 	end)
-	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EmojiLayer,
 			mediator = EmojiMediator,
 			data = {
-				callback = slot1
+				callback = slot1,
+				pos = slot2,
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 			}
 		}))
 	end)
@@ -153,7 +155,8 @@ function slot0.handleNotification(slot0, slot1)
 					pos = slot0.contextData.pos,
 					msg = slot0.contextData.msg,
 					form = slot0.contextData.form,
-					parent = slot0.contextData.chatViewParent
+					parent = slot0.contextData.chatViewParent,
+					LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 				}
 			}))
 

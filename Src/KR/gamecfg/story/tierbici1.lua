@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"녹아내리는 얼음\n\n<size=30>제1장 - 비서함</size>",
+					"녹아내리는 얼음\n\n<size=45>제1장 - 비서함</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -51,7 +51,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -74,7 +74,7 @@ return {
 			bgmDelay = 1,
 			bgm = "story-2",
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우……또 이 꿈인가? 벌써 몇 번째 꾸는 거지……",
 			flashout = {
 				dur = 0.5,
@@ -104,7 +104,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -120,7 +120,7 @@ return {
 		},
 		{
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -167,7 +167,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 지휘관, 왔는가.",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 405020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마침 오늘의 업무 일정을 정리해두었으니 한 번 확인해보도록. 문제가 있다면 다시 수정하도록 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -205,7 +205,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그리고, 어제 지휘관이 준 함대 사무 자료는 내가 어느 정도 한 번 처리해보았네만.",
 			typewriter = {
@@ -237,7 +237,7 @@ return {
 			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이런 일로 감사해 할 필욘 없네, 이런 건 비서함의 책무이지 않은가.",
 			typewriter = {

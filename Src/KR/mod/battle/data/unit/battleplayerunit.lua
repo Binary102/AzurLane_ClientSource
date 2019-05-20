@@ -136,7 +136,7 @@ function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 				for slot7 = 1, slot0[slot1], 1 do
 					slot9 = slot2:AddWeapon(slot0, slot1, slot2, slot3, slot1).GetTemplateData(slot8).type
 
-					if slot7 <= slot4 and (slot9 == slot5.POINT_HIT_AND_LOCK or slot9 == slot5.MANUAL_TORPEDO) then
+					if slot7 <= slot4 and (slot9 == slot5.POINT_HIT_AND_LOCK or slot9 == slot5.MANUAL_TORPEDO or slot9 == slot5.DISPOSABLE_TORPEDO) then
 						slot8:SetModifyInitialCD()
 					end
 				end
@@ -205,7 +205,7 @@ function ys.Battle.BattlePlayerUnit.AddWeapon(slot0, slot1, slot2, slot3, slot4,
 		slot0._chargeList[#slot0._chargeList + 1] = slot6
 
 		slot0._weaponQueue:AppendChargeWeapon(slot6)
-	elseif slot7 == slot1.MANUAL_TORPEDO then
+	elseif slot7 == slot1.MANUAL_TORPEDO or slot7 == slot1.DISPOSABLE_TORPEDO then
 		slot0._manualTorpedoList[#slot0._manualTorpedoList + 1] = slot6
 
 		slot0._weaponQueue:AppendManualTorpedo(slot6)
@@ -315,6 +315,14 @@ function ys.Battle.BattlePlayerUnit.ConfigBubbleFX(slot0)
 	slot0._bubbleFX = slot0.PLAYER_SUB_BUBBLE_FX
 
 	slot0._oxyState:SetBubbleTemplate(slot0.PLAYER_SUB_BUBBLE_INIT, slot0.PLAYER_SUB_BUBBLE_INTERVAL)
+end
+
+function ys.Battle.BattlePlayerUnit.OxyConsume(slot0)
+	slot0.super.OxyConsume(slot0)
+
+	if slot0._currentOxy <= 0 then
+		slot0._fleet:ChangeSubmarineState(slot1.Battle.OxyState.STATE_FREE_FLOAT)
+	end
 end
 
 function ys.Battle.BattlePlayerUnit.SetFormationIndex(slot0, slot1)

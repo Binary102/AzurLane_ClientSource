@@ -7,19 +7,21 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = slot0:getWeightFromData()
+	})
 
-	slot0.desc = slot0:findTF("window/panel/item/desc")
-	slot0.name = slot0:findTF("window/panel/item/name_container/name")
-	slot0.iconType = slot0:findTF("window/panel/item/name_container/shiptype"):GetComponent(typeof(Image))
-	slot0.count = slot0:findTF("window/panel/item/icon_bg/count")
-	slot0.shipIcon = slot0:findTF("window/panel/item/icon_bg/icon/icon")
-	slot0.okBtn = slot0:findTF("window/panel/actions/ok_button")
-	slot0.useBtn = slot0:findTF("window/panel/actions/use_button")
-	slot0.batchUseBtn = slot0:findTF("window/panel/actions/batch_use_button")
-	slot0.useOneBtn = slot0:findTF("window/panel/actions/use_one_button")
-	slot0.composeBtn = slot0:findTF("window/panel/actions/compose_button")
-	slot0.itemTF = slot0:findTF("window/panel/item")
+	slot0.desc = slot0:findTF("window/item/display_panel/desc")
+	slot0.name = slot0:findTF("window/item/display_panel/name_container/name")
+	slot0.iconType = slot0:findTF("window/item/display_panel/name_container/shiptype"):GetComponent(typeof(Image))
+	slot0.count = slot0:findTF("window/item/display_panel/icon_bg/count")
+	slot0.shipIcon = slot0:findTF("window/item/display_panel/icon_bg/icon/icon")
+	slot0.okBtn = slot0:findTF("window/actions/ok_button")
+	slot0.useBtn = slot0:findTF("window/actions/use_button")
+	slot0.batchUseBtn = slot0:findTF("window/actions/batch_use_button")
+	slot0.useOneBtn = slot0:findTF("window/actions/use_one_button")
+	slot0.composeBtn = slot0:findTF("window/actions/compose_button")
+	slot0.itemTF = slot0:findTF("window/item")
 	slot0.stars = slot0.itemTF:Find("icon_bg/stars")
 
 	SetActive(slot0.batchUseBtn, false)
@@ -29,7 +31,7 @@ function slot0.init(slot0)
 	setActive(slot0.useOneBtn, false)
 
 	slot0.window = slot0:findTF("window")
-	slot0.top = slot0:findTF("top")
+	slot0.top = slot0:findTF("window/top")
 	slot0.composePanel = slot0:findTF("compose")
 	slot0.countTF = slot0:findTF("compose/item/icon_bg/count"):GetComponent(typeof(Text))
 	slot0.composeConfirm = slot0:findTF("actions/compose_button", slot0.composePanel)
@@ -39,64 +41,39 @@ function slot0.init(slot0)
 	SetActive(slot0.window, true)
 	SetActive(slot0.top, true)
 
-	slot0.composeBonusList = slot0:findTF("got/list", slot0.composePanel)
-	slot0.composeBonusTpl = slot0:findTF("got/list/item", slot0.composePanel)
-	slot0.composeValue = slot0:findTF("count/value", slot0.composePanel)
-	slot0.composeLeftButton = slot0:findTF("count/left", slot0.composePanel)
-	slot0.composeRightButton = slot0:findTF("count/right", slot0.composePanel)
+	slot0.composeBonusList = slot0:findTF("got/panel_bg/list", slot0.composePanel)
+	slot0.composeBonusTpl = slot0:findTF("got/panel_bg/list/item", slot0.composePanel)
+	slot0.composeValue = slot0:findTF("count/number_panel/value", slot0.composePanel)
+	slot0.composeLeftButton = slot0:findTF("count/number_panel/left", slot0.composePanel)
+	slot0.composeRightButton = slot0:findTF("count/number_panel/right", slot0.composePanel)
 	slot0.composeMaxButton = slot0:findTF("count/max", slot0.composePanel)
 end
 
 function slot0.setItemInfo(slot0, slot1, slot2)
 	slot3 = slot2:Find("icon_bg/stars")
-	slot4 = slot2:Find("desc")
-	slot5 = slot2:Find("name_container/name")
-	slot6 = slot2:Find("name_container/shiptype"):GetComponent(typeof(Image))
+	slot4 = slot2:Find("display_panel/desc")
+	slot5 = slot2:Find("display_panel/name_container/name")
+	slot6 = slot2:Find("display_panel/name_container/shiptype"):GetComponent(typeof(Image))
 	slot7 = slot2:Find("icon_bg/count")
 	slot8 = slot2:Find("icon_bg/icon/icon")
 
-	if slot2:Find("detail") ~= nil then
-		setActive(slot9, slot1:getConfig("type") == 11)
-
-		if slot1.getConfig("type") == 11 then
-			slot9:GetComponent("RichText"):AddListener(function (slot0, slot1)
-				pg.MsgboxMgr.GetInstance():ShowItemBox({
-					items = _.map(slot0:getConfig("display_icon"), function (slot0)
+	if slot2:Find("detail") then
+		if slot1:getConfig("type") == 11 then
+			onButton(slot0, slot9, function ()
+				slot0:emit(BaseUI.ON_DROP_LIST, {
+					item2Row = true,
+					itemList = _.map(slot1:getConfig("display_icon"), function (slot0)
 						return {
 							type = slot0[1],
 							id = slot0[2]
 						}
 					end),
-					content = slot0:getConfig("display"),
-					item2Row = true,
-					hideNo = true,
-					itemFunc = function (slot0)
-						pg.MsgboxMgr.GetInstance():showSingleItemBox({
-							hideNo = true,
-							drop = slot0
-						})
-					end
+					content = slot1:getConfig("display")
 				})
-			end)
+			end, SFX_PANEL)
 		end
-	end
 
-	if detailActive then
-		slot10 = slot9:GetComponent("RichText")
-
-		slot10:RemoveAllListeners()
-		slot10:AddListener(function (slot0, slot1)
-			slot0:emit(BaseUI.ON_DROP_LIST, {
-				item2Row = true,
-				itemList = _.map(slot1:getConfig("display_icon"), function (slot0)
-					return {
-						type = slot0[1],
-						id = slot0[2]
-					}
-				end),
-				content = slot1:getConfig("display")
-			})
-		end)
+		setActive(slot9, slot10)
 	end
 
 	setText(slot4, HXSet.hxLan(slot1:getConfig("display")))
@@ -227,7 +204,7 @@ function slot0.didEnter(slot0)
 
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0._tf:Find("top/btnBack"), function ()
+	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
 		if slot0.playing then
 			return
 		end
@@ -253,14 +230,12 @@ function slot0.didEnter(slot0)
 		SetActive(slot0.top, false)
 		SetActive:setComposeCount(1)
 	end, SFX_CONFIRM)
-
-	slot0.leftEventTrigger = pressPersistTrigger(slot0.composeLeftButton, slot2, function ()
+	onButton(slot0, slot0.composeLeftButton, function ()
 		slot0:setComposeCount(slot0.composeCount - 1)
-	end, nil, true, true, 0.1, SFX_PANEL)
-	slot0.rightEventTrigger = pressPersistTrigger(slot0.composeRightButton, slot2, function ()
+	end)
+	onButton(slot0, slot0.composeRightButton, function ()
 		slot0:setComposeCount(slot0.composeCount + 1)
-	end, nil, true, true, 0.1, SFX_PANEL)
-
+	end)
 	onButton(slot0, slot0.composeMaxButton, function ()
 		slot0:setComposeCount(slot0.composeMax)
 	end, SFX_PANEL)
@@ -315,26 +290,15 @@ function slot0.updateComposeCount(slot0)
 	for slot7 = 1, #slot3, 1 do
 		slot8 = slot0.composeBonusList:GetChild(slot7 - 1)
 
-		if slot3[slot7].type == DROP_TYPE_SHIP then
-			slot0.hasShip = true
-		end
-
-		GetComponent(slot8:Find("icon_bg/icon"), typeof(Image)).enabled = true
-
-		if not IsNil(slot8:Find("icon_bg/icon/icon")) then
-			setActive(slot10, false)
-		end
-
-		setActive(findTF(slot8, "icon_bg/slv"), false)
 		updateDrop(slot8, slot9)
-		setText(slot8:Find("name"), slot9.cfg.name)
+		setText(slot8:Find("name"), slot3[slot7].cfg.name)
 		onButton(slot0, slot8, function ()
 			if slot0.type == DROP_TYPE_RESOURCE or slot0.type == DROP_TYPE_ITEM then
 				slot1:emit(AwardInfoMediator.ON_ITEM, slot0.cfg.id)
 			elseif slot0.type == DROP_TYPE_EQUIP then
 				slot1:emit(slot2.ON_EQUIPMENT, {
 					equipmentId = slot0.cfg.id,
-					type = EquipmentInfoMediator.DISPLAY
+					type = EquipmentInfoMediator.TYPE_DISPLAY
 				})
 			end
 		end, SFX_PANEL)
@@ -398,7 +362,7 @@ function slot0.PlayOpenBox(slot0, slot1, slot2)
 	end
 
 	if not slot0[slot1] then
-		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
+		PoolMgr.GetInstance():GetPrefab("ui/" .. string.lower(slot1), "", true, function (slot0)
 			slot0:SetActive(true)
 
 			slot0[] = slot0

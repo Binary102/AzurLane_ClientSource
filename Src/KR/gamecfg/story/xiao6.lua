@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"닌자의 길\n\n<size=30>어둠속에서</size>",
+					"닌자의 길\n\n<size=45>어둠속에서</size>",
 					1
 				}
 			}
@@ -47,7 +47,7 @@ return {
 		{
 			say = "……",
 			actorName = "{namecode:11}",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -60,7 +60,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "소인은 참 한심한 것 같소……",
@@ -72,7 +72,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "타의 모범을 보여야 할 이 몸이, 되려 어두운 걸 무서워하기나 하고……",
@@ -84,7 +84,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "아니될 일이지, 어두운 곳 따위 닌자가 두려워해서는 아니될텐데…!",
@@ -96,7 +96,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "큭…! 늘 몸이 말을 듣질 않아서…",
@@ -124,7 +124,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "지휘관 나리는 역시 상냥하고 믿음직스러운 어른인 것 같소.",
@@ -136,7 +136,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "지휘관 나리의 곁에 있으면, 소인 또한 용기가 샘솟는 기분이 들곤 하오.",
@@ -148,7 +148,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "조, 조금만 더 기다려주시오. 소인이 이 어둠을 이겨내 보일 테니!",
@@ -176,7 +176,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "저, 정말이오?!",
@@ -198,7 +198,7 @@ return {
 		{
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
 			say = "오오! 찾았어! 다행이다!",
@@ -218,7 +218,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 301090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "헉!?",
 			typewriter = {
 				speed = 0.05,
@@ -261,7 +261,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 102060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "마침 집무실을 지나가다 걱정되어 왔을 뿐인데… 괜, 괜찮아!?",
 			typewriter = {
 				speed = 0.05,

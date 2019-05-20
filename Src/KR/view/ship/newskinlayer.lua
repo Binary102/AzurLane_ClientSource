@@ -17,32 +17,36 @@ function slot0.setShipVOs(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0._guiderLoaded = true
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
 	slot0._bg = slot0._shake:Find("bg")
 	slot0._paintingTF = slot0._shake:Find("paint")
 	slot0._dialogue = slot0._shake:Find("dialogue")
-	slot0._skinName = slot0._dialogue:Find("title"):GetComponent(typeof(Text))
-	slot0._dialogueText = slot0._dialogue:Find("Text")
+	slot0._skinName = slot0._dialogue:Find("name"):GetComponent(typeof(Text))
 	slot0._left = slot0._shake:Find("left_panel")
 	slot0._viewBtn = slot0._left:Find("view_btn")
 	slot0._shareBtn = slot0._left:Find("share_btn")
 	slot0.clickTF = slot0._shake:Find("click")
 	slot0.newTF = slot0._shake:Find("New")
+	slot0.timelimit = slot0._shake:Find("timelimit")
+
+	setActive(slot0.newTF, false)
+
 	slot0.changeSkinBtn = slot0:findTF("set_skin_btn", slot0._shake)
 	slot0.selectPanel = slot0:findTF("select_ship_panel")
-	slot0.selectPanelCloseBtn = slot0:findTF("frame/top/btnBack", slot0.selectPanel)
+	slot0.selectPanelCloseBtn = slot0:findTF("window/top/btnBack", slot0.selectPanel)
+	slot0.shipContent = slot0:findTF("window/sliders/scroll_rect/content", slot0.selectPanel)
+	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+	slot0.confirmChangeBtn = slot0:findTF("window/exchange_btn", slot0.selectPanel)
 
 	setActive(slot0.selectPanel, false)
 
-	slot0.shipTpl = slot0:getTpl("ship_tpl", slot0.selectPanel)
-	slot0.shipContent = slot0:findTF("frame/scroll_rect/content", slot0.selectPanel)
-	slot0.confirmChangeBtn = slot0:findTF("frame/exchange_btn", slot0.selectPanel)
+	slot0.isTimeLimit = slot0.contextData.timeLimit
 
+	setActive(slot0.timelimit, slot0.isTimeLimit)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
-	slot0.isLoadBg = true
+	slot0.isLoadBg = false
 end
 
 function slot0.voice(slot0, slot1)
@@ -90,11 +94,7 @@ function slot0.setSkin(slot0, slot1)
 		setImageSprite(slot0._bg, slot0, true)
 
 		slot0.isLoadBg = true
-
-		slot0:dispatchUILoaded(true)
 	end)
-	LoadImageSpriteAsync("clutter/new", slot0.newTF)
-	setActive(slot0.newTF, true)
 
 	slot5 = nil
 
@@ -110,7 +110,7 @@ function slot0.setSkin(slot0, slot1)
 		slot6, slot7 = Ship.getWords(slot1, "unlock")
 	end
 
-	setWidgetText(slot0._dialogue, slot6, "Text")
+	setWidgetText(slot0._dialogue, slot6, "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
@@ -185,8 +185,6 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.onSwitch(slot0, slot1, slot2)
-	setActive(slot1:Find("inactive"), not slot2)
-	setActive(slot1:Find("active"), slot2)
 	onButton(slot0, slot1, function ()
 		if slot0 then
 			slot1:openSelectPanel()
@@ -283,7 +281,9 @@ function slot0.paintView(slot0)
 		slot1.enabled = false
 		slot1.enabled = false
 
-		for slot5, slot6 in ipairs(false) do
+		RemoveComponent(slot0._bg, "Button")
+
+		for slot5, slot6 in ipairs(slot0._bg) do
 			setActive(slot6, true)
 		end
 
@@ -316,6 +316,7 @@ function slot0.openSelectPanel(slot0)
 	slot0.selectIds = {}
 
 	setActive(slot0.selectPanel, true)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.selectPanel)
 
 	slot0.shipCards = {}
 	slot1 = {}
@@ -341,7 +342,7 @@ function slot0.openSelectPanel(slot0)
 	end)
 
 	for slot5, slot6 in ipairs(slot1) do
-		slot8 = ShipDetailCard.New(cloneTplTo(slot0.shipTpl, slot0.shipContent).gameObject)
+		slot8 = ShipDetailCard.New(cloneTplTo(slot0.shipCardTpl, slot0.shipContent).gameObject)
 
 		slot8:update(slot6, slot0.contextData.skinId)
 
@@ -399,6 +400,7 @@ function slot0.closeSelectPanel(slot0)
 		slot0.isOpenSelPanel = nil
 
 		setActive(slot0.selectPanel, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectPanel, slot0._tf)
 	end
 end
 

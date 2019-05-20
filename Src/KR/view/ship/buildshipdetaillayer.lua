@@ -48,9 +48,7 @@ function slot0.init(slot0)
 	slot0.quickCountTF = slot0:findTF("quick_count/value")
 	slot0.noneBg = slot0:findTF("none_bg")
 	slot0.allLaunch = slot0:findTF("all_launch")
-	slot0.leftLength = slot0:findTF("blur_container", pg.UIMgr:GetInstance().OverlayMain)
-
-	slot0.leftLength:SetAsLastSibling()
+	slot0.aniBgTF = slot0:findTF("aniBg")
 end
 
 function slot0.updatePlayer(slot0, slot1)
@@ -63,10 +61,11 @@ function slot0.didEnter(slot0)
 	slot0:initProjectList()
 	slot0:updateItem()
 	slot0:updateListCount()
+	slot0.aniBgTF.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
 	onButton(slot0, slot0.allLaunch, function ()
 		if slot0:getNeedCount() > 0 and not slot0.isStopSpeedUpRemind then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				showStopRamind = true,
+				showStopRemind = true,
 				content = i18n("ship_buildShipScene_quest_quickFinish", slot0, (slot0.itemVO.count == 0 and COLOR_RED) or COLOR_GREEN, slot0.itemVO.count),
 				stopRamindContent = i18n("common_dont_remind_dur_login"),
 				onYes = function ()
@@ -168,17 +167,31 @@ function slot0.updateProject(slot0, slot1, slot2)
 	setActive(slot0:findTF("frame/finished", slot3), slot2.state == BuildShip.FINISH)
 
 	slot3:GetComponent("CanvasGroup").alpha = (slot2.state == BuildShip.INACTIVE and 0.6) or 1
+	slot9 = tonumber(pg.ship_data_create_material[slot2.type].ship_icon)
 
-	slot0:setSpriteTo(slot0[tonumber(pg.ship_data_create_material[slot2.type].ship_icon)], slot0:findTF("ship_modal", slot0.findTF("frame/finished", slot3)), false)
-	slot0:setSpriteTo(slot0[tonumber(pg.ship_data_create_material[slot2.type].ship_icon)], slot0:findTF("ship_modal", slot4), false)
+	for slot14 = 0, slot0:findTF("ship_modal", slot4).childCount - 1, 1 do
+		setActive(slot10:GetChild(slot14), false)
+	end
 
 	if slot2.state == BuildShip.ACTIVE then
-		rotateAni(rtf(slot9), -1, 2)
-		rotateAni(rtf(slot0:findTF("wheel/middle", slot3)), -1, 2)
-		rotateAni(rtf(slot0:findTF("wheel/small", slot3)), -1, 2)
-		rotateAni(rtf(slot0:findTF("wheel/middle1", slot3)), -1, 2)
+		if not slot0:findTF("ship_modal/ship_model_" .. slot9) then
+			PoolMgr.GetInstance():GetUI("shipModelBuliding" .. slot9, true, function (slot0)
+				slot0.transform:SetParent(slot0, false)
 
-		slot10 = slot0:findTF("timer/Text", slot4)
+				slot0.transform.localPosition = Vector3(1, 1, 1)
+				slot0.transform.localScale = Vector3(1, 1, 1)
+
+				slot0.transform:SetAsFirstSibling()
+
+				slot0.name = "ship_model_" .. 
+
+				setActive(slot0, true)
+			end)
+		else
+			setActive(slot11, true)
+		end
+
+		slot12 = slot0:findTF("timer/Text", slot4)
 
 		onButton(slot0, slot0:findTF("quick_btn", slot4), function ()
 			slot0, slot1, slot2 = BuildShip.canQuickBuildShip(BuildShip.canQuickBuildShip)
@@ -197,7 +210,7 @@ function slot0.updateProject(slot0, slot1, slot2)
 				slot1:emit(BuildShipDetailMediator.ON_QUICK, slot0)
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					showStopRamind = true,
+					showStopRemind = true,
 					content = i18n("ship_buildShipScene_quest_quickFinish", 1, (slot1.itemVO.count == 0 and COLOR_RED) or COLOR_GREEN, slot1.itemVO.count),
 					stopRamindContent = i18n("common_dont_remind_dur_login"),
 					onYes = function ()
@@ -207,7 +220,7 @@ function slot0.updateProject(slot0, slot1, slot2)
 			end
 		end, SFX_UI_BUILDING_FASTBUILDING)
 
-		function slot11()
+		function slot13()
 			pg.TimeMgr.GetInstance():RemoveTimer(slot0.buildTimers[pg.TimeMgr.GetInstance()])
 
 			pg.TimeMgr.GetInstance().RemoveTimer.buildTimers[pg.TimeMgr.GetInstance()] = nil
@@ -216,7 +229,7 @@ function slot0.updateProject(slot0, slot1, slot2)
 			setActive(pg.TimeMgr.GetInstance(), true)
 		end
 
-		function slot12(slot0)
+		function slot14(slot0)
 			setText(slot0, pg.TimeMgr.GetInstance():DescCDTime(slot0))
 		end
 
@@ -238,11 +251,8 @@ function slot0.updateProject(slot0, slot1, slot2)
 	end
 
 	if slot2.state == BuildShip.FINISH then
-		if not LeanTween.isTweening(go(slot0:findTF("timer/name", slot5))) then
-			blinkAni(rtf(slot9), 1)
-		end
-
-		onButton(slot0, slot10, function ()
+		slot0:setSpriteTo(slot0[tonumber(slot8.ship_icon)], slot0:findTF("ship_modal", slot5), false)
+		onButton(slot0, slot11, function ()
 			slot0:emit(BuildShipDetailMediator.ON_LAUNCHED, slot0)
 		end, SFX_PANEL)
 		onButton(slot0, slot3, function ()
@@ -261,31 +271,32 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 	slot0.isPlayAnim = true
 
 	function slot6()
-		slot0.enabled = true
+		slot0 = slot0._tf:GetComponent("DftAniEvent")
 
-		setParent(slot1.buildAni, pg.UIMgr:GetInstance().OverlayMain.transform)
-		setParent.buildAni:SetActive(true)
-
-		setParent.buildAni.SetActive.aniPlay = true
-
-		if true and slot2.build_voice ~= "" then
-			slot1:playCV(slot2.build_voice)
-		end
-
-		slot1 = slot1._tf:GetComponent("DftAniEvent")
-
-		slot1:SetEndEvent(function (slot0)
-			slot0()
+		slot0:SetStartEvent(function (slot0)
+			setActive(slot0.buildAni, true)
 		end)
-		slot1:SetTriggerEvent(function (slot0)
+		slot0:SetEndEvent(function (slot0)
+			slot0()
+
 			slot0.isPlayAnim = false
 
-			if slot0 then
-				slot1()
+			if false then
+				slot2()
 
-				slot1 = nil
+				slot2 = nil
 			end
 		end)
+		slot0:SetTriggerEvent(function (slot0)
+			slot0.buildAni:SetActive(false)
+		end)
+
+		slot3.enabled = true
+		slot0.aniPlay = true
+
+		if slot4 and slot4.build_voice ~= "" then
+			slot0:playCV(slot4.build_voice)
+		end
 	end
 
 	slot8 = slot0
@@ -303,14 +314,12 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 			return
 		end
 
-		slot0.buildAni:SetActive(false)
-
-		slot0.buildAni.SetActive.aniPlay = false
 		slot2.enabled = false
-		slot2.multLineTF.localScale = Vector3(1, 1, 1)
-		slot2.multLineTF.singleLineTF.localScale = Vector3(1, 1, 1)
+		slot2.aniPlay = false
 
-		if slot2.multLineTF.singleLineTF.buildAni then
+		setActive(slot0.aniBgTF, false)
+
+		if setActive.buildAni then
 			Destroy(slot0.buildAni)
 
 			Destroy.buildAni = nil
@@ -333,10 +342,12 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 
 			slot0.buildAni = slot0
 
+			slot0.buildAni.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
+			setActive(slot0.buildAni, false)
 			onButton(slot0, slot0.buildAni, function ()
 				slot0()
 			end)
-			slot0()
+			onButton()
 		end)
 	elseif slot0.onLoading then
 	else
@@ -350,6 +361,10 @@ end
 function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.buildTimers) do
 		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
+	end
+
+	if slot0.aniBgTF then
+		SetParent(slot0.aniBgTF, slot0._tf)
 	end
 
 	slot0.buildTimers = nil

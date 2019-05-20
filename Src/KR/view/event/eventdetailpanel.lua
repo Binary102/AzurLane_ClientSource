@@ -7,7 +7,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.dispatch = slot2
-	slot0.btn = slot0:findTF("btn$").gameObject
+	slot0.btn = slot0:findTF("btn").gameObject
 	slot0.conditions = findTF(slot0.tr, "conditions")
 	slot0.condition1 = ScrollTxt.New(findTF(slot0.conditions, "condition_1"), findTF(slot0.conditions, "condition_1/Text"), true)
 	slot0.condition2 = ScrollTxt.New(findTF(slot0.conditions, "condition_2"), findTF(slot0.conditions, "condition_2/Text"), true)
@@ -53,13 +53,23 @@ function slot0.Flush(slot0)
 			SetActive(slot0, false)
 		end
 	end)
-	SetActive(slot0.disabeleBtn, not slot0.event:reachLevel() or not slot0.event:reachNum() or not slot0.event:reachTypes())
+
+	slot2 = slot0.event:reachNum()
+	slot3 = slot0.event:reachTypes()
+
+	SetActive(slot0.disabeleBtn, not slot0.event:reachLevel() or not slot2 or not slot3)
 
 	slot4 = slot0.event.ships
 
-	slot0.condition1:setText(not slot0.event.reachLevel() or not slot0.event.reachNum() or not slot0.event.reachTypes())
+	slot0.condition1:setText(not slot0.event.reachLevel() or not slot2 or not slot3)
+	setActive(findTF(slot0.conditions, "condition_1/mark"), slot1)
+	setActive(findTF(slot0.conditions, "condition_1/mark1"), not slot1)
 	slot0.condition2:setText(slot7)
+	setActive(findTF(slot0.conditions, "condition_2/mark"), slot2)
+	setActive(findTF(slot0.conditions, "condition_2/mark1"), not slot2)
 	slot0.condition3:setText(slot8)
+	setActive(findTF(slot0.conditions, "condition_3/mark"), slot3)
+	setActive(findTF(slot0.conditions, "condition_3/mark1"), not slot3)
 	setText(slot0.consume, slot0.event:getOilConsume())
 
 	for slot12, slot13 in ipairs(slot0.shipItems) do
@@ -75,7 +85,7 @@ function slot0.Flush(slot0)
 				slot0:onRemoveClick(slot0)
 			end, SFX_PANEL)
 		else
-			onButton(slot0, findTF(slot15, "icon_bg"), function ()
+			onButton(slot0, slot15, function ()
 				slot0:onChangeClick()
 			end)
 		end

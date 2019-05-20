@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"근하신년\n\n<size=30>제3장 - 미지에 손을 뻗어</size>",
+					"근하신년\n\n<size=45>제3장 - 미지에 손을 뻗어</size>",
 					1
 				}
 			}
@@ -27,7 +27,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "또 일 년이 가는구나…",
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "송년이라… 매년 똑같이 모두와 '디너 포 원' 을 보고… 뭐랄까 슬슬 질린단 말이지……",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "응? 저기 있는 건 사쿠라 엠파이어의…?",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 		{
 			say = "냥! 오이겐이다냥! 왜 그러냥? 왠지 기운 없어보인다냥…",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
@@ -92,7 +92,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "상점의 아카시잖아… 뭔가 바빠 보이네. 요즘은 어때?",
 			typewriter = {
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -123,7 +123,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흐~음. 사쿠라 엠파이어의 '정월' 이라. 그렇게 준비할 게 많아?",
 			typewriter = {
@@ -137,7 +137,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -154,7 +154,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오호라… 뭔가 재밌어보이는데……",
 			typewriter = {
@@ -194,7 +194,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -210,7 +210,7 @@ return {
 		},
 		{
 			actor = 403030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "알겠어. …이 대나무 같은 건 어디에 쓰는 거지?",
@@ -229,7 +229,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -246,7 +246,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이걸 문에 놔두면 확실히 눈에 띄겠네…… 이 지푸라기 같은 건? 꽤 멋진데.",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 		},
 		{
 			actor = 307030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
@@ -277,7 +277,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "풍습이 꽤 많네…… 다 됐어.",
 			typewriter = {
@@ -292,7 +292,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 하얀 떡 같은 건 먹는 거야?",
 			typewriter = {
@@ -306,7 +306,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -323,7 +323,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그래? 되게 먹어달라는 듯한 모습을 하고 있는데, 지금은 먹으면 안 된다는 거야?",
 			typewriter = {
@@ -337,7 +337,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -354,7 +354,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사쿠라 엠파이어의 파티라 이거지…… 흐~음~ 나도 참가해도 돼?",
 			typewriter = {
@@ -368,7 +368,7 @@ return {
 		},
 		{
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
@@ -385,7 +385,7 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우후훗…… 그럼 기대하고 있을게…… 사쿠라 엠파이어의 술은 맛있다고 들었으니까 말야.",
 			typewriter = {

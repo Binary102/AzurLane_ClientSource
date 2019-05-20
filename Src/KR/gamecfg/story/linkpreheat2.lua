@@ -6,7 +6,7 @@ return {
 	scripts = {
 		{
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			say = "저 안색 안 좋던 애들은……다 쫓아낸 걸까나?",
@@ -23,7 +23,7 @@ return {
 		{
 			actor = 10300040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "적 반응 없음.",
 			typewriter = {
@@ -41,7 +41,7 @@ return {
 			say = "이곳을 감싸고 있던 기운이 사라졌습니다. 우선은, 위기에서 벗어난 것 같습니다.",
 			dir = 1,
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -57,7 +57,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -74,7 +74,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "남은 건, 너희들 뿐일까나?",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		{
 			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "잠깐만요! 저희는……!",
 			typewriter = {
@@ -104,7 +104,7 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "부탁이니까 잠깐만 얘길 들어줘요! 우리는 구해주러……!",
 			typewriter = {
@@ -119,7 +119,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10300060,
 			stopbgm = true,
@@ -136,7 +136,7 @@ return {
 		{
 			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이 아이들은 저의 은인이랍니다. 그리고, 여러분을 구해주러 왔다구요.",
 			typewriter = {
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			bgm = "main-uta",
 			actor = 10300010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후미뤼르?! 지, 진짜 후미뤼르지? ……다행이다, 무사했구나!",
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300060,
@@ -184,7 +184,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "우루루와 사라나도 창을 거둬줘냥. 이 아이들은 동료다냥, 아카시가 보증할게냥!",
 			typewriter = {
@@ -199,7 +199,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아카시도 무사했군요……가만 보면, 명이 참 긴 거 같아요.",
 			typewriter = {
@@ -214,7 +214,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그건 칭찬으로 받아들여도 될까냥?",
 			typewriter = {
@@ -228,7 +228,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,
@@ -245,7 +245,7 @@ return {
 		{
 			actor = 101170,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "고양이……신…님…?",
 			typewriter = {
@@ -260,7 +260,7 @@ return {
 		{
 			actor = 10300040,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우리들의 은인.",
 			typewriter = {
@@ -274,7 +274,7 @@ return {
 		},
 		{
 			actor = 10300050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "이 바다를 헤메다가, 수수께끼의 적의 공격을 받은 저희들에게, 신비한 장비를 준 은인……고양이신님이십니다.",
@@ -294,7 +294,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "냐하하핫! 고양이신님을 숭배하거라냥! 헌금이라면 언제든지 웰컴이다냥!",
 			typewriter = {
@@ -307,7 +307,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
@@ -319,7 +319,7 @@ return {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "우쭐해 하고 있는 거, 에요……정말이지, 걱정시키지 좀 말라고, 인 거에요.",
 			typewriter = {
@@ -334,7 +334,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "우냣?! 걱정하게 한 건 사과할게냥……미안해냥.",
 			typewriter = {
@@ -349,7 +349,7 @@ return {
 		{
 			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "미안해, 무심코 저 녀석들의 동료라고 생각해버려서……후미뤼르를 구해줘서 고마워.",
 			typewriter = {
@@ -363,7 +363,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actor = 10300010,

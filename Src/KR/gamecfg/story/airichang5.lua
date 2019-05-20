@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=30>5. 좋은 아침, 안녕, 잘자</size>",
+					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=45>5. 좋은 아침, 안녕, 잘자</size>",
 					1
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 10400020,
 			actorName = "키즈나 아이",
@@ -118,7 +118,7 @@ return {
 			actor = 403030,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "대단하잖아, 이 모항에 막 왔던 시절과 비교하면 못 알아볼 정도로 강해졌네.",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -151,7 +151,7 @@ return {
 			actor = 303110,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "이걸로 아이공도 한 사람 몫의 중순양함으로서 활약할 수 있겠군.",
 			typewriter = {
@@ -167,7 +167,7 @@ return {
 			actor = 307050,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘은 이제 늦었고, 모항에 돌아가서 쉬어요.",
 			typewriter = {
@@ -183,7 +183,7 @@ return {
 			actor = 201120,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "여러분…… 수고하셨어요><",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "후우, 오늘도 지쳤다~ 내일도 훈련에 임무, 영상 업로드… 이것저것 힘내야지!",
 			typewriter = {
 				speed = 0.05,
@@ -249,7 +249,7 @@ return {
 			actor = 301050,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "오늘도 훈련 수고하셨습니다.",
 			typewriter = {
@@ -265,7 +265,7 @@ return {
 			actor = 301110,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "너무 노력하면 '열폭주'같은 상태가 될지도 모르니까, 쉬어야겠지!",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그러네~ 슬슬 슬립해야지. 또 봐~!\n부우우우……웅.",
 			typewriter = {
 				speed = 0.05,
@@ -298,7 +298,7 @@ return {
 			actor = 301120,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아이상, 안녕히 주무세요. 좋은 꿈을 꾸었으면 좋겠네요.",
 			typewriter = {
@@ -317,7 +317,7 @@ return {
 			stopbgm = true,
 			bgName = "bg_battle_night",
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "어떡하지, 연습해역에서 돌아오는 중에 미아가 되어버렸어…",
 			flashout = {
 				dur = 0.5,
@@ -357,7 +357,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!? 저건 세이렌의 함대!? 게다가 어느샌가 포위당했어!?",
 			typewriter = {
 				speed = 0.05,
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이, 이 정도로 겁먹으면 안 되겠지! 모두에게 받은 훈련의 성과를 보여주마! 이야아아아~~~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			bgName = "bg_battle_night",
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "하아… 하아… 어떻게든… 전부 쓰러뜨렸다……",
 			flashout = {
 				dur = 0.5,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "!? 아차! 아직 뒤에……",
 			typewriter = {
 				speed = 0.05,
@@ -483,7 +483,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -500,7 +500,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "키즈나 아이 함대의 모두!? 고마워~! 하지만 어떻게 여기에!?",
 			typewriter = {
 				speed = 0.05,
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -551,7 +551,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -568,7 +568,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -585,7 +585,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -605,7 +605,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 303118,
 			actorName = "타카오쨩",
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "뭐? 뭐어어어어!?",
 			typewriter = {
 				speed = 0.05,
@@ -637,7 +637,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -702,7 +702,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301110,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "일어나~~~!",
 			effects = {
 				{
@@ -725,7 +725,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			bgm = "story-1",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아까부터 계속 이상한 이름을 외치고 있었다고요. '프린쨩~~!이라든가 '쇼쨩~~~!'이라든가.",
 			effects = {
 				{
@@ -746,7 +746,7 @@ return {
 			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "정말, 아카시가 편지 쓰기 전에 어서 만나러 가줘야지. 오늘도 출격이니까 준비하라고. 이카즈치는 먼저 밖에서 기다릴 테니까.",
 			typewriter = {
@@ -762,7 +762,7 @@ return {
 			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아, 응… 이카즈치쨩, 깨워줘서 고마워.",
 			typewriter = {
@@ -780,7 +780,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 10400010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "앗, 그보다 이거…",
 			typewriter = {
 				speed = 0.05,
@@ -798,7 +798,7 @@ return {
 			actor = 10400010,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "………결국 꿈이였냐!?",
 			effects = {
 				{

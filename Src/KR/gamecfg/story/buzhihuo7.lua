@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"만능 점원 시라누이\n\n<size=30>점원의 진심 (하)</size>",
+					"만능 점원 시라누이\n\n<size=45>점원의 진심 (하)</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "생각을 해봐냥……",
 			typewriter = {
@@ -65,7 +65,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "아카시네 가게에 있는 상품은 유료긴 하지만, 자금은 결국 지휘관의 지갑과 함대 모두의 급여에서 융통되는 거잖냥.",
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그 말은 곧, 결국엔 이 함대의 자산이 된다는 거다냥.",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그러니까, 아카시와 시라누이에게 있어서는 가게 일도 결국은 지휘관의 함대를 도와주는 일인 거다냥! 그러니까 누이누이도 저렇게 힘내는 거다냥!",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -133,7 +133,7 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "게다나 누이누이는 말은 안하지만 비서함을 맡게 되어 사실 되게 기뻐하고 있다냥!",
 			typewriter = {
@@ -149,7 +149,7 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "그러니까 어느 한 쪽을 포기한다는 건 납득이 되지 않는다는 거다냥,",
 			typewriter = {
@@ -165,7 +165,7 @@ return {
 			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			say = "양쪽 다 지휘관을 돕는 일이니까냥!",
 			typewriter = {
@@ -181,7 +181,7 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "……정말 시끄러운 고양이로군요.",
 			typewriter = {
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_room",
 			dir = -1,
 			actor = 312010,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "아카시는 여기까지만 말할 테니, 이 다음은 지휘관에게 맡길게냥! 바이바이냥!",
 			typewriter = {
 				speed = 0.05,
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -222,7 +222,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 0.5,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			bgm = "story-2",
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "……저 바보 고양이 말은 별로 신경 쓰지 않으셔도 됩니다. 혼자서도 괜찮사오니.",
 			typewriter = {
 				speed = 0.05,
@@ -264,7 +264,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "신경 쓰지 않으셔도 된다고 말씀드렸습니다만……",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			actor = 301180,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "소녀는 단지, 해야 할 일을 할 뿐……",
 			typewriter = {
 				speed = 0.05,
@@ -297,7 +297,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -312,7 +312,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "…………………좋을 대로 하시어요…………",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "역시 왕바보시네요……이러니까 소녀는 지휘관님이……",
 			typewriter = {

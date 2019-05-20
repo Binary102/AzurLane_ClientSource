@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=30>五 哈曼和约克城</size>",
+					"哈曼观察日志\n\n<size=45>五 哈曼和约克城</size>",
 					1
 				}
 			}
@@ -130,7 +130,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -276,7 +276,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

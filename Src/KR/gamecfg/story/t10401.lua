@@ -7,7 +7,7 @@ return {
 		{
 			side = 0,
 			say = "\"적 침공함대의 기함을 발견했습니다!\"",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actor = -1,
 			actorName = "통신",
 			withoutPainting = true,
@@ -134,12 +134,12 @@ return {
 			actor = 307010,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "                                                              <size=30>────참전!!</size>",
+			say = "                                                              <size=45>────참전!!</size>",
 			subActors = {
 				{
 					actor = 307020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 306060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "큭…여기까지인가…………",
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actor = 306060,
@@ -41,7 +41,7 @@ return {
 		{
 			actor = 306060,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "다음엔…다음엔 절대 지지 않겠다……!",
 			typewriter = {
@@ -58,7 +58,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "이겼어……?",
 			flashout = {
 				dur = 0.5,
@@ -96,7 +96,7 @@ return {
 		},
 		{
 			actor = 102060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			say = "사쿠라 엠파이어 함대가 퇴각하기 시작했어!",
@@ -116,7 +116,7 @@ return {
 		{
 			actor = 102060,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "포틀랜드, 괜찮아?",
 			typewriter = {
@@ -131,7 +131,7 @@ return {
 		{
 			actor = 103060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "괜, 괜찮은 거 같아…위험했다~",
 			typewriter = {
@@ -146,7 +146,7 @@ return {
 		{
 			actor = 102060,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그럼 다행이네. 새러토가 일행은……",
 			typewriter = {
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "류조, 졌나 보네……",
 			flashout = {
 				dur = 1,
@@ -192,7 +192,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			say = "우리가 직접 적과 싸웠었다면……!",
@@ -212,7 +212,7 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "즈이카쿠, 이건 명령이니까 별수 없어. 게다가 그 아이의 노력은 결코 헛된 게 아니야.",
 			typewriter = {
@@ -227,7 +227,7 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그레이 고스트에게 중상을 입히고, 선배들의 복수를 할 기회를 만들어 냈잖아. 다음은 우리가……",
 			typewriter = {
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-2",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "쇼카쿠 언니, 잠깐! 진츠가 있는 2수전이 지금 적과 조우했다고 연락을 해 왔어!",
 			typewriter = {
 				speed = 0.05,
@@ -256,7 +256,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -268,7 +268,7 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "뭐라고……?!",
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

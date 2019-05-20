@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>七 最棒的冠军奖励</size>",
+					"骑士与奖赏\n\n<size=45>七 最棒的冠军奖励</size>",
 					1
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "冠军奖品到手了！和想象中长得完全不一样，不过不妨碍种它的乐趣！",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "大家……咦？指挥官，看见哥伦比亚她们了么？真是的，刚准备把奖品拿给她们看的……",
 			typewriter = {
@@ -73,7 +73,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "啊，指挥官？呃，不好意思……我本来是想，这个能长钱的话……就能给你添点经费了……",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "一开始就知道？！…呃，那怎么不拦住我……难道是……！？",
 			typewriter = {
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "钱的问题倒是没什么，就是难得有机会在指挥官面前表现一下，结果还搞砸了……",
 			flashout = {
 				dur = 1,
@@ -148,7 +148,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "最后还被你安慰了……唔……结果呢，你觉得刚才我怎么样？ ",
 			typewriter = {
@@ -174,7 +174,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "“不是帅气的大姐头”……嗯，这点我无话可说……",
 			typewriter = {
@@ -190,7 +190,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "“不过还是很可爱的克爹”…………",
 			typewriter = {
@@ -206,7 +206,7 @@ return {
 			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "诶？",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "可、可爱！？！？！？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "啊、啊……我可爱……可爱……呀……嗷嗷…………///（脸红）",
 			action = {
 				{
@@ -256,7 +256,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
-					x = 20,
+					x = 30,
 					number = 2
 				}
 			},
@@ -275,11 +275,11 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 102090,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "不，不要叫我克爹～！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

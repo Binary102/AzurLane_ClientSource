@@ -10,14 +10,14 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"\"마녀들\"의 전야제\n\n<size=30>제3장   심야의 장난?</size>",
+					"\"마녀들\"의 전야제\n\n<size=45>제3장   심야의 장난?</size>",
 					1
 				}
 			}
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -34,7 +34,7 @@ return {
 		{
 			say = "와아아! 이제 쫌 \"핼러윈\" 느낌이 나는구마!",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 306051,
 			actorName = "{namecode:87}",
@@ -53,7 +53,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
@@ -69,7 +69,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -85,7 +85,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -117,7 +117,7 @@ return {
 		},
 		{
 			actor = 307050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:95}",
@@ -133,7 +133,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그것뿐만이 아닐세, 쇼호. 사실은 이 몸도 요즘 참으로 기괴한 것을 보았다네!",
 			flashout = {
 				dur = 1,
@@ -183,7 +183,7 @@ return {
 		{
 			say = "기괴한!?",
 			side = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 306051,
 			actorName = "{namecode:87}",
@@ -202,7 +202,7 @@ return {
 		},
 		{
 			actor = 301170,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:19}",
@@ -218,7 +218,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -234,7 +234,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -250,7 +250,7 @@ return {
 		},
 		{
 			actor = 301171,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:19}",
@@ -266,7 +266,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -282,7 +282,7 @@ return {
 		},
 		{
 			actor = 301050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "드디어 핼러윈이 왔데이! 흐흥~ 내 코스튬, 귀엽제? (빙글)",
 			flashout = {
 				dur = 1,
@@ -332,7 +332,7 @@ return {
 		{
 			say = "아야나미도, \"선물\"을 받았어요.",
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = -1,
 			actor = 301051,
 			actorName = "{namecode:6}",
@@ -351,7 +351,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -367,7 +367,7 @@ return {
 		},
 		{
 			actor = 301051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:6}",
@@ -383,7 +383,7 @@ return {
 		},
 		{
 			actor = 306051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:87}",
@@ -399,7 +399,7 @@ return {
 		},
 		{
 			actor = 301051,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:6}",
@@ -420,7 +420,7 @@ return {
 			blackBg = true,
 			actorName = "？？？",
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			withoutPainting = true,
 			flashout = {
 				dur = 1,

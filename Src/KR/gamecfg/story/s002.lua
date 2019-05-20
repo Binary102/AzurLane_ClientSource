@@ -4,7 +4,7 @@ return {
 	scripts = {
 		{
 			actor = 900005,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "서포크 씨, 저희 정말 굉장한 것 같아요!  한 번에 적을 이만큼이나 쓰러뜨리다니!",
 			shake = {
@@ -22,7 +22,7 @@ return {
 		},
 		{
 			actor = 900004,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			expression = "11",
 			side = 1,
 			say = "조금 전 부대는 메탈 블러드의 졸개들일 뿐이야. 정찰 부대가 있다는 것은 어쩌면...",
@@ -63,7 +63,7 @@ return {
 			say = "!! 우현 방향에 적 대형함 발견! 저건... 메탈 블러드의 신형 전함이잖아?! 노포크, 전투 준비해!",
 			expression = "13",
 			actor = 900004,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			actor = 900005,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "우으——",
 			shake = {
@@ -116,7 +116,7 @@ return {
 		},
 		{
 			actor = 900006,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "\"고작 순양함 두 척\"이 아니랍니다. 로열 네이비 함대의 후드, 프린스 오브 웨일즈, 전투 개시! 자아, 우아하게 가보도록 하죠.",
 			shake = {

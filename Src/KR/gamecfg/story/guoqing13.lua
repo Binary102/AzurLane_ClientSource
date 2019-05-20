@@ -27,7 +27,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "그렇지 않아. 상대가 나빴을 뿐이야.",
 			paintingFadeOut = {
@@ -50,7 +50,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "...가 아니지, 알고 있는 거 전부 알려줘.",
 			shake = {
 				speed = 1,
@@ -105,7 +105,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "정보하고 똑같네. 아무래도 그 이야기... 거짓이 아니야.",
 			shake = {
 				speed = 1,
@@ -123,7 +123,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "노와키. 나와 같이 쇼카쿠 언니를 구하러 가자? 아군은 많으면 많을수록 좋아.",
 			shake = {
 				speed = 1,
@@ -159,7 +159,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그 신이라는 녀석은 허황이라고 해도?",
 			shake = {
 				speed = 1,
@@ -195,7 +195,7 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "그렇구나... 행운을 빌게.",
 			shake = {
 				speed = 1,

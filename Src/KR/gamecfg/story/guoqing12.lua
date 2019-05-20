@@ -27,7 +27,7 @@ return {
 		},
 		{
 			actor = 307060,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			say = "노와키, 미안해. 쇼카쿠 언니가 위험해서 놀아줄 시간 없거든. 전력으로 갈게.",
 			paintingFadeOut = {

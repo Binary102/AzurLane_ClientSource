@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>三　VS{namecode:17}！？</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>三　VS{namecode:17}！？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "本大人在后宅捡到家具币了！还不跪谢！",
 			typewriter = {
 				speed = 0.05,
@@ -34,7 +34,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			bgm = "story-1",
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "我在后宅捡到家具币了呦，笨蛋指挥官♪",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -75,13 +75,13 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			subActors = {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -95,7 +95,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "什么啊！为什么{namecode:22}也在这里啊！",
 			typewriter = {
 				speed = 0.05,
@@ -125,7 +125,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -155,7 +155,7 @@ return {
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -167,13 +167,13 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			subActors = {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -187,7 +187,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "可恶，没想到{namecode:22}这个笨蛋在……",
 			typewriter = {
 				speed = 0.05,
@@ -217,7 +217,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 301160,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -247,7 +247,7 @@ return {
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -259,13 +259,13 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "…………",
 			subActors = {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -279,7 +279,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -290,7 +290,7 @@ return {
 		},
 		{
 			{
-				y = 25,
+				y = 37.5,
 				type = "shake",
 				delay = 0,
 				dur = 0.1,
@@ -300,7 +300,7 @@ return {
 			actor = 301150,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:17}",
@@ -316,14 +316,14 @@ return {
 		},
 		{
 			{
-				y = 25,
+				y = 37.5,
 				type = "shake",
 				delay = 0.5,
 				dur = 0.1,
 				x = 0,
 				number = 1
 			},
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			say = "啊哈哈哈！连一次都没有赢过本大人的家伙居然说要一决胜负！哼！尽管放马过来吧！",
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -364,7 +364,7 @@ return {
 			say = "这不是挺好的嘛！我家的年轻人也很精神呢！",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301170,
 			actorName = "{namecode:19}",
@@ -382,7 +382,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -399,7 +399,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:17}",
 			actor = 301150,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哈…哈…没想到这家伙这么厉害……说你光运气好是错怪你了呢……",
 			flashout = {
 				dur = 1,
@@ -470,7 +470,7 @@ return {
 			say = "还、还没完呢！{namecode:24}！快拿秘制冷却水过来！",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
@@ -488,7 +488,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -508,7 +508,7 @@ return {
 			say = "原来如此！这就是所谓的「不共戴天」吧！",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			actor = 301110,
 			actorName = "{namecode:13}",
@@ -526,7 +526,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,

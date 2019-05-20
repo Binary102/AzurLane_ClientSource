@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>四 小加加和姐姐</size>",
+					"Best Pictures!\n\n<size=45>四 小加加和姐姐</size>",
 					1
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "今天萨拉妹妹的恶作剧也是大成功~诶嘿♪",
 			flashout = {
 				dur = 1,
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,
@@ -74,7 +74,7 @@ return {
 			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "嗯……下一个轮到谁了呢？小千岁生气了有点可怕，还是指挥官——",
 			typewriter = {
@@ -92,7 +92,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 107020,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "哇！姐，姐姐！？",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -135,7 +135,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉，姐姐听说了哦？你又对别的孩子恶作剧了吧……",
 			typewriter = {
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "对，对不起……",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -176,7 +176,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉老是这样，不光是别的孩子，指挥官也会困扰啊？指挥官要去安抚别的孩子，",
 			typewriter = {
@@ -192,7 +192,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "就会影响到日常业务，不光是被你恶作剧的孩子，大家都会难过的。而且下次出击的时候如果受了影响，别的孩子和指挥官都会有危险，",
 			typewriter = {
@@ -208,7 +208,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉你和他们一起出击的话也很危险啊。姐姐是不想看到萨拉受伤，这么说你是为了让你明白恶作剧以后不好好道歉会有什么后果。",
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉也不是小孩子了，让你别再恶作剧你不听，那至少做到能马上对人家道歉好不好？",
 			typewriter = {
@@ -240,7 +240,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "姐姐一听说萨拉又对别的孩子恶作剧了就特别特别伤心啊……",
 			typewriter = {
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 107030,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			say = "姐姐……对不起……",
 			typewriter = {
 				speed = 0.05,
@@ -269,7 +269,7 @@ return {
 			},
 			action = {
 				{
-					y = -25,
+					y = -37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,
@@ -281,7 +281,7 @@ return {
 			actor = 107020,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "萨拉啊……等下要好好给人家道歉哦……",
 			typewriter = {

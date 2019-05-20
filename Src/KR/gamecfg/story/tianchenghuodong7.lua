@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 304050,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 0,
 			dir = -1,
 			stopbgm = true,
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
 			actor = 301790,
@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			side = 1,
 			dir = 1,
 			bgmDelay = 2,
@@ -91,7 +91,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "\"내가 연습전에 참가할 수 있으면 아마기 언니가 나올 것도 없다\" 라니, 그 미완성된 장비랑 그 멍청한 머리로 말이냐?",
 			typewriter = {
@@ -103,7 +103,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "그쪽이야 말로 전투에서 꽁무니 빼고 도망친 주제에 잘도 그런 말을 하는군요!",
 			typewriter = {
@@ -115,7 +115,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "까불지 마라. 그 약아빠진 여우는 말야, 교활한 책략으로 상대를 함정에 빠뜨리는 걸 제일 잘한단 말이다.",
 			typewriter = {
@@ -127,7 +127,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "본인이 전선에 나온다고 해서 바로 공격을 하러 가는 멍청한 짓은, 아무리 너 같은 얼간이라 해도 안 하겠다!",
 			typewriter = {
@@ -139,7 +139,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "게다가 난 '전함' 이다. '순양전함' 과는 방호 능력이 애초에 다르단 말이다.",
 			typewriter = {
@@ -151,7 +151,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "너희 얇은 장갑을 다시 한 번 보고 내게 얘기해보시지. 나, '전함' 카가가 정면 승부에서 두려워 할 거라 생각하나?？",
 			typewriter = {
@@ -163,7 +163,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "어쩜 그런 말을?! 나와 언니는 처음부터 당신과는 달리 속력이 빠르다고! 당신의 그 둔한 다리로 우리 30노트를 애시당초 따라잡을 수 있을 거라 생각하나요?",
 			typewriter = {
@@ -175,7 +175,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥, 설마 지금 도망치는 게 빠르다고 자랑이라도 하는 건가?",
 			typewriter = {
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:91}",
 			bgName = "bg_story_tiancheng2",
 			side = 0,
@@ -192,7 +192,7 @@ return {
 			say = "이…이……촌스러운 백발요괴가!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -201,7 +201,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
@@ -209,7 +209,7 @@ return {
 			say = "이 쓸데없이 가슴만 큰 멍청이가!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			say = "――딱!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -253,7 +253,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
@@ -261,7 +261,7 @@ return {
 			say = "헉?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "약아빠진 여우란 누구를 얘기하는 걸까요?",
 			typewriter = {
@@ -295,7 +295,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "아마기 언니!",
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			say = "――딱!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -342,7 +342,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "전부 사이좋게 지내자고 하지 않았나요? 카가와 말다툼을 해서 어쩌겠단 거죠~?",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng2",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자~ 서로 악수하고 화해하는 거에요~",
 			typewriter = {
@@ -406,7 +406,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자, 이걸로 화해했네요. 잘 됐어요~",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "사쿠라 엠파이어의 미래는 우리에게 달려있으니까, 서로 사이좋게 지내지 않으면 적과 싸울 수 없다구요~",
 			typewriter = {
@@ -440,7 +440,7 @@ return {
 			actorName = "{namecode:161}",
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "자자, 오늘 연습전도 이제 곧 시작되니까, 각자 자리로 돌아가도록 하죠.",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "목숨은 건졌구나 왕가슴. 네가 전장에 서게 되면 똑똑히 알려주도록 하마.",
 			typewriter = {
@@ -484,7 +484,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			bgName = "bg_story_tiancheng3",
-			nameColor = "#a9f548",
+			nameColor = "#92fc63",
 			dir = 1,
 			say = "흥, 오늘이야 말로 아마기 언니가 아마기급이야말로 최강이란 걸 확실히 알려줄 테니, 도망이나 치지 마시죠.",
 			typewriter = {

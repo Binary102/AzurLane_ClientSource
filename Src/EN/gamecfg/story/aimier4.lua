@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=30>四 我慢我慢！</size>",
+					"踊り子天使エミール\n\n<size=45>四 我慢我慢！</size>",
 					1
 				}
 			}

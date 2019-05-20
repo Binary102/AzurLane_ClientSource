@@ -238,33 +238,8 @@ function slot0.didEnter(slot0)
 			slot0.clearSkin.updateShowType:updateSkin()
 		end
 	end)
-
-	function slot2()
-		if slot0.state == slot1.STATE_TAKE_VIDEO then
-			return
-		end
-
-		slot0.state = slot1.STATE_TAKE_VIDEO
-
-		LeanTween.moveY(rtf(slot0.modePnlTF), -56, 0.1)
-		SetActive(slot0.videoTakeImg, true)
-	end
-
 	onButton(slot0, slot0.takePhotoBtn, slot1)
-	onButton(slot0, slot0.takeVideoBtn, function ()
-		if CheckPermissionGranted(ANDROID_RECORD_AUDIO_PERMISSION) then
-			slot0:changeToTakeVideo()
-		else
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("apply_permission_record_audio_tip1"),
-				onYes = function ()
-					ApplyPermission({
-						ANDROID_RECORD_AUDIO_PERMISSION
-					})
-				end
-			})
-		end
-	end)
+	onButton(slot0, slot0.takeVideoBtn, slot2)
 	slot1()
 	onButton(slot0, slot0.stopRecBtn, function ()
 		if not LeanTween.isTweening(go(slot0.stopRecBtn)) then
@@ -314,17 +289,6 @@ function slot0.didEnter(slot0)
 	end)
 	cameraPaintViewAdjust(true)
 	slot0:updateCameraCanvas()
-end
-
-function slot0.changeToTakeVideo(slot0)
-	if slot0.state == slot0.STATE_TAKE_VIDEO then
-		return
-	end
-
-	slot0.state = slot0.STATE_TAKE_VIDEO
-
-	LeanTween.moveY(rtf(slot0.modePnlTF), -56, 0.1)
-	SetActive(slot0.videoTakeImg, true)
 end
 
 function slot0.willExit(slot0)

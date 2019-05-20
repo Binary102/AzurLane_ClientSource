@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=30>四　圣地亚哥、向前进～！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>四　圣地亚哥、向前进～！</size>",
 					1
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -338,7 +338,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,

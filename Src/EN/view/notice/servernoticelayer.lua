@@ -15,6 +15,9 @@ function slot0.init(slot0)
 	slot0.btnBack = slot0:findTF("frame/title_pop/btnBack")
 	slot0.stopRemind = slot0:findTF("frame/title_pop/stopRemind")
 	slot0.bannerSnap = slot0:findTF("frame/top/scroll"):GetComponent("HScrollSnap")
+
+	slot0.bannerSnap:Init()
+
 	slot0.bannerContent = slot0:findTF("frame/top/scroll/content")
 	slot0.bannerItem = slot0:findTF("frame/top/scroll/item")
 	slot0.bannerDots = slot0:findTF("frame/top/scroll/dots")
@@ -26,7 +29,7 @@ function slot0.init(slot0)
 
 	slot0.bannerSnap.autoSnap = 5
 
-	if isAiriUS() then
+	if isAiriJP() then
 		slot0.userAgreeContainer = slot0:findTF("frame/container")
 		slot0.userAgreeBtns = slot0:findTF("frame/btns")
 		slot0.userAgreeBtn1 = slot0:findTF("frame/btns/UserAgreeBtn")
@@ -41,7 +44,7 @@ end
 function slot0.didEnter(slot0)
 	triggerToggle(slot0.stopRemind, slot2)
 	onButton(slot0, slot0.btnBack, function ()
-		if isAiriUS() and slot0.agreeActive then
+		if isAiriJP() and slot0.agreeActive then
 			slot0:activeUserAgree(false)
 
 			return
@@ -62,7 +65,7 @@ function slot0.didEnter(slot0)
 	end))
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 
-	if isAiriUS() then
+	if isAiriJP() then
 		slot0:activeUserAgree("", false)
 		onButton(slot0, slot0.userAgreeBtn1, function ()
 			slot0:activeUserAgree(require("ShareCfg.UserAgreement").content, true)

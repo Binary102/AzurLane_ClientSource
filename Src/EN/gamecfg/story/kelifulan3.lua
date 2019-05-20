@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 3 - Make It Grain!</size>",
+					"Knights & Awards\n\n<size=45>Chapter 3 - Make It Grain!</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -68,7 +68,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -85,7 +85,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -134,21 +134,21 @@ return {
 			say = "*Glug*... *Gug*... Ahhh! Just what I needed! Okay, okay, I'm late because I was just about done with my shift and...",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -238,7 +238,7 @@ return {
 			say = "But I, like, gotta go, you know, so I just said, \"Okay, fine! I've got stuff to do, so we'll just have to harvest all that wheat super quickly! And stop calling me Clevebro!...\"",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

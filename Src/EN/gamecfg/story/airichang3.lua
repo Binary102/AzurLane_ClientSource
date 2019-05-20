@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=30>Chapter 3 - Helloooo! San Diego Here♪!</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 3 - Helloooo! San Diego Here♪!</size>",
 					1
 				}
 			}

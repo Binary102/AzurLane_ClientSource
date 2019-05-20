@@ -69,7 +69,7 @@ return {
 				{
 					actor = 301110,
 					pos = {
-						x = 670
+						x = 1005
 					}
 				}
 			},
@@ -138,7 +138,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -194,7 +194,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -236,7 +236,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Lunar New Year!\n\n<size=30>Chapter 1 - The Start of a New Adventure!</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 1 - The Start of a New Adventure!</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -128,7 +128,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 0.5,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -140,14 +140,14 @@ return {
 			actor = 501010,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 501020,
 					pos = {
-						x = -550
+						x = -825
 					}
 				}
 			},
@@ -165,7 +165,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.5,
-					x = 500
+					x = 750
 				}
 			}
 		},
@@ -421,7 +421,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -494,7 +494,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

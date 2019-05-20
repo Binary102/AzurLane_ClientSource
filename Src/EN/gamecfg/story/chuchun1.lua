@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"The Timid Black Cat\n\n<size=30>The Nervous Black Cat</size>",
+					"The Timid Black Cat\n\n<size=45>The Nervous Black Cat</size>",
 					1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=20>I practiced so hard, y-yet I still can't do it...</size>",
+			say = "<size=30>I practiced so hard, y-yet I still can't do it...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "<size=20>I-I should've known this would be impossible for me!</size>",
+			say = "<size=30>I-I should've known this would be impossible for me!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},

@@ -80,6 +80,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 	end
 
+	PlayerPrefs.SetInt("extraOperationItemID", slot5)
 	pg.ConnectionMgr.GetInstance():Send(13101, {
 		id = slot3,
 		group_id_list = slot4,

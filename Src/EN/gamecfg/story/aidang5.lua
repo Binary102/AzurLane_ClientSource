@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"A Date With Atago\n\n<size=30>Chapter 5: Engulfed by Darkness</size>",
+					"A Date With Atago\n\n<size=45>Chapter 5: Engulfed by Darkness</size>",
 					1
 				}
 			}
@@ -144,7 +144,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -278,7 +278,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,

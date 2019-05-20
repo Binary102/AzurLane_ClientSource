@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Trick or Treat, Halloween!\n\n<size=30>II 「A Curious Witch」</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>II 「A Curious Witch」</size>",
 					1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -283,7 +283,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -309,7 +309,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=30>五　幻想的半人马</size>",
+					"半人马与港区的“前辈”们\n\n<size=45>五　幻想的半人马</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -230,7 +230,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -584,7 +584,7 @@ return {
 					type = "shake",
 					delay = 1.5,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},

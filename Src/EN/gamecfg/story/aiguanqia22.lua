@@ -170,26 +170,26 @@ return {
 			hideOther = true,
 			actorName = "Everyone",
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},
@@ -235,26 +235,26 @@ return {
 				number = 4
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},

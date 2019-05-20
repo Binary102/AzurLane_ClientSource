@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Gentle and Sweet Ooshio!\n\n<size=30>See Ya Next Time~</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=45>See Ya Next Time~</size>",
 					1
 				}
 			}
@@ -292,19 +292,19 @@ return {
 				{
 					actor = 301640,
 					pos = {
-						x = -250
+						x = -375
 					}
 				},
 				{
 					actor = 301660,
 					pos = {
-						x = 250
+						x = 375
 					}
 				},
 				{
 					actor = 301650,
 					pos = {
-						x = 500
+						x = 750
 					}
 				}
 			},

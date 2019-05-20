@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Loaded with Lead and Love\n\n<size=30>Chapter 6 - A Maid's Feelings (Part 1)</size>",
+					"Loaded with Lead and Love\n\n<size=45>Chapter 6 - A Maid's Feelings (Part 1)</size>",
 					1
 				}
 			}

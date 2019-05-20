@@ -11,31 +11,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>Now, I understand.</size>",
+					"<size=51>Now, I understand.</size>",
 					2
 				},
 				{
-					"<size=34>One must evolve in order to survive.</size>",
+					"<size=51>One must evolve in order to survive.</size>",
 					4
 				},
 				{
-					"<size=34>For the weak to become extinct is a fact of nature.</size> ",
+					"<size=51>For the weak to become extinct is a fact of nature.</size> ",
 					6
 				},
 				{
-					"<size=34>Those who perished were simply too weak. Nothing more.</size>",
+					"<size=51>Those who perished were simply too weak. Nothing more.</size>",
 					8
 				},
 				{
-					"<size=34>If this is to be my fate, then at least let me meet my end on the battlefield.</size>",
+					"<size=51>If this is to be my fate, then at least let me meet my end on the battlefield.</size>",
 					10
 				},
 				{
-					"<size=34>I now entrust the future of the Combined Fleet- no, of the Sakura Empire to you...</size>",
+					"<size=51>I now entrust the future of the Combined Fleet- no, of the Sakura Empire to you...</size>",
 					12
 				},
 				{
-					"<size=34>My... sworn... rival...</size>",
+					"<size=51>My... sworn... rival...</size>",
 					14
 				}
 			}

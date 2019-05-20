@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 1 - Sudden Invitation</size>",
+					"Knights & Awards\n\n<size=45>Chapter 1 - Sudden Invitation</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			say = "Stop calling me Clevebro already! ... Also, I'm not asking if you wanna play, I'm asking if you wanna be our coach!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.12,
 					x = 0,
@@ -161,7 +161,7 @@ return {
 			say = "... You'll do it? Sweet! I knew I could count on you!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.08,
 					x = 0,

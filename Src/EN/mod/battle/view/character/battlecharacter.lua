@@ -6,7 +6,7 @@ slot4 = ys.Battle.BattleResourceManager
 slot5 = class("BattleCharacter", ys.Battle.BattleSceneObject)
 ys.Battle.BattleCharacter = slot5
 slot5.__name = "BattleCharacter"
-slot6 = Vector2(-800, 0)
+slot6 = Vector2(-1200, 0)
 slot7 = Vector3.New(0.3, -1.8, 0)
 
 function slot5.Ctor(slot0)
@@ -31,6 +31,8 @@ function slot5.Init(slot0)
 	slot0._referenceVector = Vector3.zero
 	slot0._referenceVectorTemp = Vector3.zero
 	slot0._hpBarPos = Vector3.zero
+	slot0._arrowVector = Vector3.zero
+	slot0._arrowAngleVector = Vector3.zero
 end
 
 function slot5.InitBulletFactory(slot0)
@@ -224,6 +226,7 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, slot0.ADD_BLINK, slot0.onBlink)
 	slot0._unitData:RegisterEventListener(slot0, slot0.SUBMARINE_VISIBLE, slot0.onUpdateDiveInvisible)
 	slot0._unitData:RegisterEventListener(slot0, slot0.SUBMARINE_DETECTED, slot0.onDetected)
+	slot0._unitData:RegisterEventListener(slot0, slot0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
 	slot0._unitData:RegisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
 	slot0._unitData:RegisterEventListener(slot0, slot0.UPDATE_SCORE, slot0.onUpdateScore)
@@ -249,6 +252,9 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.ADD_BLINK)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.SUBMARINE_VISIBLE)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.UPDATE_SCORE)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.CHANGE_ANTI_SUB_VIGILANCE)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.INIT_ANIT_SUB_VIGILANCE)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.ANTI_SUB_VIGILANCE_SONAR_CHECK)
 	slot0._unitData:UnregisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE)
 	slot0._unitData:UnregisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON)
 
@@ -400,7 +406,9 @@ function slot5.UpdateDiveInvisible(slot0)
 	slot2 = slot0._unitData:GetIFF() == slot0.FOE_CODE
 
 	if slot1 then
-		SetActive(slot0._waveFX.transform, false)
+		if slot0._waveFX then
+			SetActive(slot0._waveFX.transform, false)
+		end
 
 		slot3 = slot0:GetFactory():GetDivingFilterColor()
 
@@ -413,7 +421,9 @@ function slot5.UpdateDiveInvisible(slot0)
 
 		slot0._animator:ChangeRenderQueue(2999)
 	else
-		SetActive(slot0._waveFX.transform, true)
+		if slot0._waveFX then
+			SetActive(slot0._waveFX.transform, true)
+		end
 
 		if slot2 then
 			slot0:SwitchShader()
@@ -462,6 +472,39 @@ function slot5.updateComponentDiveInvisible(slot0)
 	else
 		slot3 = true
 	end
+end
+
+function slot5.onInitVigilantState(slot0, slot1)
+	slot0._factory:MakeVigilantBar(slot0)
+
+	range = slot1.Data.sonarRange * 0.5
+	slot0:AddFX("AntiSubArea", true).transform.localScale = Vector3(range, 0, range)
+
+	slot0._unitData:RegisterEventListener(slot0, slot0.CHANGE_ANTI_SUB_VIGILANCE, slot0.onVigilantStateChange)
+	slot0._unitData:RegisterEventListener(slot0, slot0.ANTI_SUB_VIGILANCE_SONAR_CHECK, function ()
+		slot0 = slot0:Find("Quad"):GetComponent(typeof(Animator))
+		slot0.enabled = true
+
+		slot0:Play("antiSubZoom", -1, 0)
+
+		return
+	end)
+
+	return
+end
+
+function slot5.onVigilantStateChange(slot0, slot1)
+	slot0:updateVigilantMark()
+
+	return
+end
+
+function slot5.updateVigilantMark(slot0)
+	if slot0._vigilantBar then
+		slot0._vigilantBar:UpdateVigilantMark()
+	end
+
+	return
 end
 
 function slot5.OnActionChange(slot0, slot1)
@@ -523,7 +566,7 @@ end
 
 function slot5.UpdateHPBarPostition(slot0)
 	if not slot0._hideHP then
-		slot0._referenceVector:CloneTo(slot0._hpBarPos):Add(slot0._hpBarOffset)
+		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 
 		slot0._HPBarTf.position = slot0._hpBarPos
 	end
@@ -557,15 +600,19 @@ function slot5.UpdateCastClockPosition(slot0)
 end
 
 function slot5.SetArrowPoint(slot0)
-	slot0._arrowVector = Vector3.zero
+	slot0._arrowVector:Set()
+
 	slot0._cameraUtil = slot0.Battle.BattleCameraUtil:GetInstance()
 	slot0._arrowCenterPos = slot0._cameraUtil:GetArrowCenterPos()
 
 	return
 end
 
+slot8 = Vector3(-1, 1, 1)
+slot9 = Vector3(1, 1, 1)
+
 function slot5.UpdateArrowBarPostition(slot0)
-	if not slot0._cameraUtil:GetCharacterArrowBarPosition(slot0._referenceVector) then
+	if not slot0._cameraUtil:GetCharacterArrowBarPosition(slot0._referenceVector, slot0._arrowVector) then
 		if not slot0._inViewArea then
 			slot0._inViewArea = true
 			slot0._arrowBarTf.anchoredPosition = slot0
@@ -576,6 +623,12 @@ function slot5.UpdateArrowBarPostition(slot0)
 
 		if not slot0._alwaysHideArrow then
 			slot0._arrowBarTf.position = slot0._arrowVector
+
+			if slot0._arrowVector.x > 0 then
+				slot0._arrowBarTf.localScale = slot1
+			else
+				slot0._arrowBarTf.localScale = slot0._arrowBarTf
+			end
 		end
 	end
 
@@ -587,7 +640,8 @@ function slot5.UpdateArrowBarRotation(slot0)
 		return
 	end
 
-	slot0._arrowBarTf.eulerAngles = Vector3(0, 0, math.rad2Deg * math.atan2(slot0._arrowVector.y - slot0._arrowCenterPos.y, slot0._arrowVector.x - slot0._arrowCenterPos.x))
+	slot0._arrowAngleVector.z = math.rad2Deg * math.atan2(slot0._arrowVector.y - slot0._arrowCenterPos.y, slot0._arrowVector.x - slot0._arrowCenterPos.x)
+	slot0._arrowBarTf.eulerAngles = slot0._arrowAngleVector
 
 	return
 end
@@ -768,6 +822,22 @@ function slot5.AddCastClock(slot0, slot1)
 	slot0._castClock = slot0.Battle.BattleCastBar.New(slot2)
 
 	slot0:UpdateCastClockPosition()
+
+	return
+end
+
+function slot5.AddVigilantBar(slot0, slot1)
+	slot0._vigilantBar = slot0.Battle.BattleVigilantBar.New(slot1.transform)
+
+	slot0._vigilantBar:ConfigVigilant(slot0._unitData:GetAntiSubState())
+	slot0._vigilantBar:UpdateVigilantProgress()
+	slot0:updateVigilantMark()
+
+	return
+end
+
+function slot5.UpdateVigilantBarPosition(slot0)
+	slot0._vigilantBar:UpdateVigilantBarPosition(slot0._hpBarPos)
 
 	return
 end

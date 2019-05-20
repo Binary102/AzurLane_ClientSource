@@ -652,6 +652,17 @@ pg.memory_group = {
 			767
 		}
 	},
+	[156] = {
+		title = "\"One Small Promise\" ",
+		type = 2,
+		id = 156,
+		icon = "title_event",
+		memories = {
+			775,
+			776,
+			777
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1020,6 +1031,7 @@ pg.memory_group = {
 		153,
 		154,
 		155,
+		156,
 		501,
 		502,
 		503,

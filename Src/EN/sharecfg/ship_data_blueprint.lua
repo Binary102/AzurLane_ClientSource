@@ -5,7 +5,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK29901",
 		strengthen_item = 42001,
-		unlock_word = "Register <color=#A9F548>20</color> or more Royal Navy Vanguard Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>20</color> or more Royal Navy Vanguard Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 29901,
 		unlock_task_open_condition = {
@@ -103,7 +103,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK29902",
 		strengthen_item = 42002,
-		unlock_word = "Register <color=#A9F548>10</color> or more Royal Navy Main Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>10</color> or more Royal Navy Main Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 29902,
 		unlock_task_open_condition = {
@@ -201,7 +201,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK39901",
 		strengthen_item = 42003,
-		unlock_word = "Register <color=#A9F548>20</color> or more Sakura Empire Vanguard Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>20</color> or more Sakura Empire Vanguard Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 39901,
 		unlock_task_open_condition = {
@@ -299,7 +299,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK39902",
 		strengthen_item = 42004,
-		unlock_word = "Register <color=#A9F548>10</color> or more Sakura Empire Main Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>10</color> or more Sakura Empire Main Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 39902,
 		unlock_task_open_condition = {
@@ -397,7 +397,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK49901",
 		strengthen_item = 42005,
-		unlock_word = "Register <color=#A9F548>7</color> or more Iron Blood Vanguard Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>7</color> or more Iron Blood Vanguard Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 49901,
 		unlock_task_open_condition = {
@@ -495,7 +495,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK89901",
 		strengthen_item = 42006,
-		unlock_word = "Register <color=#A9F548>20</color> or more Eagle Union Vanguard Fleet ships in your Library.",
+		unlock_word = "Register <color=#92fc63>20</color> or more Eagle Union Vanguard Fleet ships in your Library.",
 		blueprint_version = 1,
 		id = 89901,
 		unlock_task_open_condition = {

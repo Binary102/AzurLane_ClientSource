@@ -1,23 +1,10 @@
 slot0 = class("Summary", import(".BaseVO"))
 
 function slot0.Ctor(slot0, slot1)
-	slot2 = pg.TimeMgr:GetInstance()
-	slot3 = slot2:parseTimeFromConfig({
-		{
-			2018,
-			5,
-			24
-		},
-		{
-			10,
-			0,
-			0
-		}
-	})
 	slot0.name = getProxy(PlayerProxy):getData().name
-	slot0.registerTime = slot2:DescTime(slot1.register_date, "%Y/%m/%d")
-	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY).getStartTime(slot4) - slot1.register_date) / 86400) + 1
-	slot0.serverName = (getProxy(ServerProxy):getRawData()[(getProxy(UserProxy):getRawData() and slot6.server) or 0] and getProxy(ServerProxy).getRawData().name) or ""
+	slot0.registerTime = pg.TimeMgr:GetInstance().DescTime(slot2, slot1.register_date, "%Y/%m/%d")
+	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY).getStartTime(slot3) - slot1.register_date) / 86400) + 1
+	slot0.serverName = (getProxy(ServerProxy):getRawData()[(getProxy(UserProxy):getRawData() and slot5.server) or 0] and getProxy(ServerProxy).getRawData().name) or ""
 	slot0.chapterName = pg.chapter_template[math.max(slot1.chapter_id, 101)].chapter_name .. " " .. pg.chapter_template[math.max(slot1.chapter_id, 101)].name
 	slot0.guildName = slot1.guild_name
 	slot0.proposeCount = slot1.marry_number
@@ -39,7 +26,7 @@ function slot0.Ctor(slot0, slot1)
 		slot0.firstProposeName = slot1.first_lady_name
 	end
 
-	slot0.proposeTime = math.ceil((slot5 - slot1.first_lady_time) / 86400) + 1
+	slot0.proposeTime = math.ceil((slot4 - slot1.first_lady_time) / 86400) + 1
 	slot0.firstLadyTime = slot2:DescTime(slot1.first_lady_time, "%Y-%m-%d %H:%M")
 	slot0.unMarryShipId = 100001
 	slot0.medalList = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getConfig("config_data") or {}

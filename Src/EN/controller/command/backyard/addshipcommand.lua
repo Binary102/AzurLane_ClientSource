@@ -35,13 +35,16 @@ class("AddShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot1:updateShip(slot1)
 			slot1:addShip(slot1.id)
-			slot4:sendNotification(GAME.ADD_SHIP_DONE)
+			slot4:sendNotification(GAME.ADD_SHIP_DONE, {
+				id = slot5,
+				type = slot0
+			})
 		else
 			pg.TipsMgr:GetInstance():ShowTips(errorTip("backyard_addShip", slot0.result))
 		end
 
-		if slot5 then
-			slot5()
+		if slot6 then
+			slot6()
 		end
 	end)
 end

@@ -15,20 +15,16 @@ function slot0.init(slot0)
 	slot0.factionPanel = slot0:findTF("faction_panel")
 	slot0.createBtn = slot0:findTF("create_panel/frame/create_btn")
 	slot0.joinBtn = slot0:findTF("create_panel/frame/join_btn")
-	slot0.topPanel = slot0:findTF("top")
+	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0._playerResOb = slot0:findTF("playerRes", slot0.topPanel)
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
-	setActive(slot0.topPanel, false)
 
 	slot0.backBtn = slot0:findTF("back", slot0.topPanel)
 
 	setActive(slot0.factionPanel, false)
 
-	slot0.blhxImg = slot0:findTF("faction_panel/bg/blhx"):GetComponent(typeof(Image))
-	slot0.cszzImg = slot0:findTF("faction_panel/bg/cszz"):GetComponent(typeof(Image))
-	slot0.humanImg = slot0:findTF("faction_panel/human"):GetComponent(typeof(Image))
 	slot0.mask = slot0:findTF("mask")
 
 	SetActive(slot0.mask, false)
@@ -39,7 +35,6 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.startCreate(slot0)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	setActive(slot0.createPanel, true)
 end
 
@@ -54,12 +49,16 @@ function slot0.select(slot0)
 	onButton(slot0, slot0.createPanel, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
+	onButton(slot0, slot0.backBtn, function ()
+		if go(slot0.createPanel).activeSelf then
+			slot0:emit(slot1.ON_BACK)
+		end
+	end, SFX_CANCEL)
 end
 
 function slot0.createGuild(slot0)
 	setActive(slot0.createPanel, false)
 	setActive(slot0.factionPanel, false)
-	setActive(slot0.topPanel, false)
 
 	slot0.createProcess = coroutine.wrap(function ()
 		setActive(slot0.createPanel, false)
@@ -75,83 +74,99 @@ function slot0.createGuild(slot0)
 end
 
 function slot0.selectFaction(slot0, slot1, slot2)
-	setActive(slot0.topPanel, true)
-	setActive(slot0._playerResOb, false)
+	function slot3(slot0, slot1)
+		slot0.isPlaying = true
+		slot2 = slot0:Find("bg")
+
+		setActive(slot2, true)
+
+		slot3 = slot2:GetComponent("CanvasGroup")
+
+		LeanTween.value(go(slot2), 1, 3, 0.5):setOnUpdate(System.Action_float(function (slot0)
+			slot0.localScale = Vector3(slot0, slot0, 1)
+			slot0.alpha = 1 - slot0 / 3
+		end)):setOnComplete(System.Action(function ()
+			setActive(setActive, false)
+
+			setActive.localScale = Vector3(1, 1, 1)
+			Vector3(1, 1, 1).isPlaying = false
+
+			1()
+		end))
+	end
+
 	setActive(slot0.factionPanel, true)
-	onButton(slot0, slot0:findTF("faction_panel/bg/blhx"), function ()
-		setActive(slot0.mask, true)
-		LeanTween.value(go(slot0._tf), 1, 0.2, 0.2):setOnUpdate(System.Action_float(function (slot0)
-			slot0.cszzImg.color = Color.New(slot0, slot0, slot0)
-		end)):setOnComplete(System.Action(function ()
-			LeanTween.delayedCall(0.3, System.Action(function ()
-				slot0:setFaction(Guild.FACTION_TYPE_BLHX)
 
-				if slot0 then
-					slot1()
-				end
+	slot5 = slot0.factionPanel.Find(slot4, "panel")
+	slot6 = slot5:Find("blhx")
+	slot7 = slot5:Find("cszz")
+	slot8 = slot5:Find("bg")
 
-				slot2.createProcess = nil
+	function slot9()
+		setImageSprite(setImageSprite, GetSpriteFromAtlas("commonbg/camp_bg", ""))
+		setImageSprite(setImageSprite:Find("bg"), GetSpriteFromAtlas("clutter/blhx_icon", ""))
+		setImageSprite(GetSpriteFromAtlas:Find("bg"), GetSpriteFromAtlas("clutter/cszz_icon", ""))
+		setActive(GetSpriteFromAtlas.Find("bg"):Find("bg"), false)
+		setActive(false:Find("bg"), false)
 
-				LeanTween.delayedCall(0.2, System.Action(function ()
-					slot0.cszzImg.color = Color.white
+		return
+	end
 
-					setActive(slot0.mask, false)
-				end))
-			end))
-		end))
-	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("faction_panel/bg/cszz"), function ()
-		setActive(slot0.mask, true)
-		LeanTween.value(go(slot0._tf), 1, 0, 0.2):setOnUpdate(System.Action_float(function (slot0)
-			slot0.blhxImg.color = Color.New(slot0, slot0, slot0)
+	if not slot0.isInitFaction then
+		slot9()
 
-			if slot0 > 0.15 then
-				slot0.humanImg.color = Color.New(slot0, slot0, slot0)
-			end
+		slot0.isInitFaction = true
+	end
 
+	onButton(slot0, slot6, function ()
+		if slot0.isPlaying then
 			return
-		end)):setOnComplete(System.Action(function ()
-			LeanTween.delayedCall(0.3, System.Action(function ()
-				slot0:setFaction(Guild.FACTION_TYPE_CSZZ)
+		end
 
-				if slot0 then
-					slot1()
-				end
-
-				slot2.createProcess = nil
-
-				LeanTween.delayedCall(0.2, System.Action(function ()
-					slot0.blhxImg.color = Color.white
-					slot0.blhxImg.humanImg.color = Color.white
-
-					setActive(slot0.mask, false)
-
-					return
-				end))
-
-				return
-			end))
-
+		slot1:setFaction(Guild.FACTION_TYPE_BLHX)
+		slot2()
+		slot3(slot4, function ()
 			return
-		end))
+		end)
 
 		return
 	end, SFX_PANEL)
+	onButton(slot0, slot7, function ()
+		if slot0.isPlaying then
+			return
+		end
+
+		slot1:setFaction(Guild.FACTION_TYPE_CSZZ)
+		slot2()
+		slot3(slot4, function ()
+			return
+		end)
+
+		return
+	end)
 	onButton(slot0, slot0.backBtn, function ()
+		if slot0.isPlaying then
+			return
+		end
+
+		slot0.createProcess = nil
+
 		setActive(slot0.createPanel, true)
 		setActive(slot0.factionPanel, false)
-		setActive(slot0.topPanel, false)
+		onButton(onButton, slot0.backBtn, function ()
+			slot0:emit(slot1.ON_BACK)
 
-		setActive.createProcess = nil
+			return
+		end, SFX_CANCEL)
 
 		return
-	end, SOUND_BACK)
+	end, SFX_CANCEL)
+	setActive(slot0.topPanel, true)
 end
 
 function slot0.setDescInfo(slot0, slot1, slot2)
 	pg.UIMgr:GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
-		setActive(slot0.factionPanel, false)
 		setActive(slot0._playerResOb, true)
 
 		slot0.name = setActive
@@ -160,12 +175,9 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 
 		setParent(slot1, slot0._tf)
 		setActive(slot1, true)
+		setActive(slot0.topPanel, true)
 		slot0.topPanel:SetAsLastSibling()
 
-		slot5 = findTF(slot1, "bg/frame/policy_container/switch/off")
-		slot6 = findTF(slot1, "bg/frame/policy_container/switch/on")
-		slot10 = findTF(slot1, "bg/frame/policy_container/relax"):GetComponent(typeof(Text))
-		slot11 = findTF(slot1, "bg/frame/policy_container/power"):GetComponent(typeof(Text))
 		findTF(slot1, "bg/frame/confirm_btn/print_container/Text"):GetComponent(typeof(Text)).text = pg.gameset.create_guild_cost.key_value
 
 		onInputChanged(slot0, slot2, function ()
@@ -191,7 +203,7 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 			return
 		end)
 
-		function slot13()
+		function slot10()
 			slot1:setName(slot0)
 
 			slot2 = wordVer(slot1)
@@ -202,19 +214,21 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 		end
 
 		onToggle(slot0, slot4, function (slot0)
-			setActive(slot0, not slot0)
-			setActive(setActive, slot0)
-
-			slot1 = Color.New(0.9803921568627451, 0.9803921568627451, 0.9686274509803922)
-			Color.New(1, 0.8235294117647058, 0).color = (slot0 and slot1) or slot2
-			Color.New(1, 0.8235294117647058, 0).color = (slot0 and slot2) or slot1
-
-			(slot0 and slot2) or slot1:setPolicy((not slot0 and Guild.POLICY_TYPE_RELAXATION) or Guild.POLICY_TYPE_POWER)
+			if slot0 then
+				slot0:setPolicy(Guild.POLICY_TYPE_RELAXATION)
+			end
 
 			return
 		end, SFX_PANEL)
-		triggerToggle(slot4, false)
-		onButton(slot0, slot7, function ()
+		onToggle(slot0, slot5, function (slot0)
+			if slot0 then
+				slot0:setPolicy(Guild.POLICY_TYPE_POWER)
+			end
+
+			return
+		end, SFX_PANEL)
+		triggerToggle(slot4, true)
+		onButton(slot0, slot6, function ()
 			slot0.createProcess = nil
 
 			slot0:createGuild()
@@ -223,11 +237,18 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 			return
 		end, SFX_CANCEL)
 		onButton(slot0, slot0.backBtn, function ()
-			triggerButton(triggerButton)
+			if slot0.isPlaying then
+				return
+			end
+
+			slot0.createProcess = nil
+
+			slot0:createGuild()
+			PoolMgr.GetInstance():ReturnUI(PoolMgr.GetInstance(), slot0.infoGameobject)
 
 			return
-		end)
-		onButton(slot0, findTF(slot1, "bg/frame/confirm_btn"), function ()
+		end, SFX_CANCEL)
+		onButton(slot0, slot7, function ()
 			slot0 = slot0()
 
 			if not slot1:getName() or slot1 == "" then
@@ -280,6 +301,21 @@ function slot0.setDescInfo(slot0, slot1, slot2)
 		end, SFX_CONFIRM)
 		pg.UIMgr:GetInstance():LoadingOff()
 
+		GetOrAddComponent(slot1, "CanvasGroup").alpha = 0
+		slot0.isPlaying = true
+
+		LeanTween.value(slot0, 0, 1, 0.6):setOnUpdate(System.Action_float(function (slot0)
+			slot0.alpha = slot0
+
+			return
+		end)):setOnComplete(System.Action(function ()
+			slot0.isPlaying = false
+
+			setActive(slot0.factionPanel, false)
+
+			return
+		end)):setDelay(0.5)
+
 		return
 	end)
 
@@ -293,7 +329,6 @@ function slot0.closeInfoPanel(slot0)
 end
 
 function slot0.joinGuild(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:emit(NewGuildMediator.OPEN_GUILD_LIST)
 
 	return
@@ -310,8 +345,6 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
-
 	if slot0._resPanel then
 		slot0._resPanel:exit()
 

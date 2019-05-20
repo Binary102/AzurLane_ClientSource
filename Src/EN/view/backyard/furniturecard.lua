@@ -70,7 +70,7 @@ function slot0.updateCountdown(slot0, slot1)
 
 	slot0:destoryTimer()
 
-	slot3 = os.server_time(slot1)
+	slot3 = os.time(slot1)
 	slot0.updateTimer = Timer.New(function ()
 		if slot0:LaterThan(os.server_date("*t", slot0), ) then
 			slot2.countDownTm.text = ""

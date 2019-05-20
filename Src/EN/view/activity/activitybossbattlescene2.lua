@@ -160,18 +160,21 @@ function slot2(slot0, slot1)
 
 	slot2(slot3, slot4)
 
+	slot2 = slot0.player
+	slot3 = slot2
+	slot2 = slot2.getResource
+	slot4 = slot0.ptId
+	slot2 = slot2(slot3, slot4)
+	slot0.ptScore = slot2
 	slot2 = setText
 	slot4 = slot0
 	slot3 = slot0.findTF
 	slot5 = "point"
 	slot6 = slot0.awardBtn
 	slot3 = slot3(slot4, slot5, slot6)
-	slot4 = slot0.player
-	slot5 = slot4
-	slot4 = slot4.getResource
-	slot6 = slot0.ptId
+	slot4 = slot0.ptScore
 
-	slot2(slot3, slot4(slot5, slot6))
+	slot2(slot3, slot4)
 
 	slot2 = pg
 	slot2 = slot2.SystemOpenMgr
@@ -288,30 +291,34 @@ function slot2(slot0, slot1)
 
 		slot3 = false
 		slot0.enterStage = slot3
-		slot3 = slot0.timeMgr
-		slot4 = slot3
-		slot3 = slot3.GetServerTime
-		slot3 = slot3(slot4)
-		slot4 = slot0.timeMgr
-		slot5 = slot4
-		slot4 = slot4.parseTimeFromConfig
-		slot6 = slot0.battleTime
-		slot4 = slot4(slot5, slot6)
+		slot3 = slot0.battleTime
 
-		if slot4 <= slot3 then
-			slot3 = pg
-			slot3 = slot3.TipsMgr
+		if slot3 ~= 0 then
+			slot3 = slot0.timeMgr
 			slot4 = slot3
-			slot3 = slot3.GetInstance
+			slot3 = slot3.GetServerTime
 			slot3 = slot3(slot4)
-			slot4 = slot3
-			slot3 = slot3.ShowTips
-			slot5 = i18n
-			slot6 = "common_activity_end"
+			slot4 = slot0.timeMgr
+			slot5 = slot4
+			slot4 = slot4.parseTimeFromConfig
+			slot6 = slot0.battleTime
+			slot4 = slot4(slot5, slot6)
 
-			slot3(slot4, slot5(slot6))
+			if slot4 <= slot3 then
+				slot3 = pg
+				slot3 = slot3.TipsMgr
+				slot4 = slot3
+				slot3 = slot3.GetInstance
+				slot3 = slot3(slot4)
+				slot4 = slot3
+				slot3 = slot3.ShowTips
+				slot5 = i18n
+				slot6 = "common_activity_end"
 
-			return
+				slot3(slot4, slot5(slot6))
+
+				return
+			end
 		end
 
 		slot4 = slot0
@@ -382,6 +389,18 @@ function slot2(slot0)
 	slot3 = "bg"
 	slot1 = slot1(slot2, slot3)
 	slot0.bg = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "title"
+	slot4 = slot0.mainTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.titleTF = slot1
+	slot1 = setActive
+	slot2 = slot0.titleTF
+	slot3 = false
+
+	slot1(slot2, slot3)
+
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "rank"
@@ -565,17 +584,6 @@ function slot2(slot0)
 
 	slot1 = false
 	slot0.enterStage = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "title"
-	slot1 = slot1(slot2, slot3)
-	slot0.titleTF = slot1
-	slot1 = setActive
-	slot2 = slot0.titleTF
-	slot3 = false
-
-	slot1(slot2, slot3)
-
 	slot1 = slot0._tf
 	slot2 = slot1
 	slot1 = slot1.GetComponent
@@ -885,8 +893,10 @@ function slot2(slot0)
 		slot0 = slot0.GetInstance
 		slot0 = slot0()
 		slot1 = slot0
-		slot0 = slot0.ShowHelpWindow
+		slot0 = slot0.ShowMsgBox
 		slot2 = {}
+		slot3 = MSGBOX_TYPE_HELP
+		slot2.type = slot3
 		slot3 = pg
 		slot3 = slot3.gametip
 		slot3 = slot3.world_boss_help
@@ -1079,8 +1089,8 @@ function slot2(slot0)
 
 		setSlider(slot0:findTF("Slider", slot8), 0, 2500, math.min(math.max(slot0.bossHP - (slot7 - 1) * 2500, 0), 2500))
 		setActive(slot0:findTF("mood", slot8), slot7 == slot0.phase)
-		setActive(slot0:findTF("monument/item", slot8), defaultValue(slot0.monument[slot7], 0) == 0)
-		setActive(slot0:findTF("monument/time", slot8), defaultValue(slot0.monument[slot7], 0) > 0)
+		setActive(slot0:findTF("monument/item", slot8), defaultValue(slot0.monument[5 - slot7], 0) == 0)
+		setActive(slot0:findTF("monument/time", slot8), defaultValue(slot0.monument[5 - slot7], 0) > 0)
 
 		slot9 = slot0.monument[5 - slot7]
 
@@ -1089,7 +1099,8 @@ function slot2(slot0)
 			slot10 = slot9
 			slot9 = slot9.DescClientTime
 			slot11 = slot0.monument
-			slot11 = slot11[slot7]
+			slot12 = 5 - slot7
+			slot11 = slot11[slot12]
 			slot12 = "%m/%d/%H:%M"
 			slot9 = slot9(slot10, slot11, slot12)
 			slot10 = setText
@@ -1255,6 +1266,16 @@ function slot2(slot0)
 				slot8 = slot8 .. slot9
 
 				slot6(slot7, slot8)
+
+				slot6 = setText
+				slot8 = slot2
+				slot7 = slot2.Find
+				slot9 = "target/title"
+				slot7 = slot7(slot8, slot9)
+				slot8 = i18n
+				slot9 = "qiuqiu_count"
+
+				slot6(slot7, slot8(slot9))
 
 				slot6 = setText
 				slot8 = slot2

@@ -4,9 +4,9 @@ slot2 = 0.2
 slot3 = 1
 slot0.MODE_OVERVIEW = "overview"
 slot0.MODE_DESTROY = "destroy"
-slot0.MODE_UPGRADE = "upgrade"
 slot0.MODE_SELECT = "select"
 slot0.MODE_MOD = "modify"
+slot0.MODE_WORLD = "world"
 slot0.TITLE_CN_OVERVIEW = i18n("word_dockyard")
 slot0.TITLE_CN_UPGRADE = i18n("word_dockyardUpgrade")
 slot0.TITLE_CN_DESTROY = i18n("word_dockyardDestroy")
@@ -27,14 +27,15 @@ slot4 = {
 	"index_other"
 }
 slot5 = {
-	"index_all",
-	"index_shipNation_baiYing",
-	"index_shipNation_huangJia",
-	"index_shipNation_chongYing",
-	"index_shipNation_tieXue",
-	"index_shipNation_dongHuang",
-	"index_shipNation_beiLian",
-	"index_other"
+	"word_shipNation_all",
+	"word_shipNation_baiYing",
+	"word_shipNation_huangJia",
+	"word_shipNation_chongYing",
+	"word_shipNation_tieXue",
+	"word_shipNation_dongHuang",
+	"word_shipNation_beiLian",
+	"word_shipNation_ziyou",
+	"word_shipNation_other"
 }
 slot6 = {
 	"index_all",
@@ -117,7 +118,9 @@ end
 
 function slot0.init(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
-	slot0._guiderLoaded = true
+
+	slot0._tf:SetAsLastSibling()
+
 	slot0.mode = defaultValue(slot0.contextData.mode, slot0.MODE_SELECT)
 	slot0.contextData.prevFlag = defaultValue(slot0.contextData.prevFlag, false)
 	slot0.contextData.displayAttr = defaultValue(slot0.contextData.displayAttr, true)
@@ -132,8 +135,8 @@ function slot0.init(slot0)
 	slot0.onCancelShip = slot1.onCancelShip or function (slot0)
 		return true
 	end
-	slot0.onClick = slot1.onClick or function (slot0)
-		return
+	slot0.onClick = slot1.onClick or function (slot0, slot1)
+		slot0:emit(DockyardMediator.ON_SHIP_DETAIL, slot0, slot1)
 	end
 	slot0.onPassShip = slot1.onPassShip or function (slot0, slot1)
 		return {}
@@ -146,29 +149,23 @@ function slot0.init(slot0)
 	slot0.onSelected = slot1.onSelected or function ()
 		warning("not implemented.")
 	end
-	slot0.shipInfo = slot0:findTF("main/character")
-	slot0.shipInfoStarTpl = slot0:findTF("name/stars/star_tpl", slot0.shipInfo)
-	slot0.shipAttrs = findTF(slot0.shipInfo, "attrs")
-	slot0.topPanel = slot0:findTF("top")
-	slot0.expansionBtn = slot0:findTF("top/kuorong")
-
-	SetParent(slot0.topPanel, pg.UIMgr.GetInstance().OverlayMain)
-	pg.UIMgr.GetInstance():PartialBlur(slot0.topPanel:Find("title"), true)
-
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
+	slot0.sortBtn = slot0:findTF("sort_button", slot0.topPanel)
+	slot0.sortImgAsc = slot0:findTF("asc", slot0.sortBtn)
+	slot0.sortImgDesc = slot0:findTF("desc", slot0.sortBtn)
 	slot0.leftTipsText = findTF(slot0.topPanel, "capacity")
 	slot0.bottomTipsText = slot0:findTF("select_panel/tip")
 	slot0.selectPanel = slot0:findTF("select_panel")
 
 	setActive(slot0.selectPanel, true)
-	setActive(slot0.expansionBtn, false)
 
 	slot0.energyDescTF = slot0:findTF("energy_desc")
 	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
 	slot0.awardTF = slot0:findTF("select_panel/bottom_info/bg_award")
-	slot0.lineTF = slot0:findTF("select_panel/line")
 	slot0.modAttrsTF = slot0:findTF("select_panel/bottom_info/bg_mod")
 
-	if slot0.mode == slot0.MODE_OVERVIEW or slot0.mode == slot0.MODE_UPGRADE then
+	if slot0.mode == slot0.MODE_OVERVIEW then
 		slot0.selecteEnabled = false
 	elseif slot0.mode == slot0.MODE_DESTROY then
 		slot0.selecteEnabled = true
@@ -181,15 +178,20 @@ function slot0.init(slot0)
 		setText(slot0.modAttrsTF:Find("title/Text"), i18n("word_mod_value"))
 
 		slot0.modAttrContainer = slot0.modAttrsTF:Find("attrs")
+	elseif slot0.mode == slot0.MODE_WORLD then
+		slot0.selecteEnabled = true
+		slot0.worldPanel = slot0:findTF("world_port_panel")
+
+		setActive(slot0.worldPanel, true)
+		setActive(slot0.selectPanel, false)
 	else
 		slot0.selecteEnabled = true
 	end
 
 	slot0.shipContainer = (slot0.contextData.selectFriend and slot0:findTF("main/friend_container"):GetComponent("LScrollRect")) or slot0:findTF("main/ship_container"):GetComponent("LScrollRect")
-	slot0.shipContainer.decelerationRate = 0.3
+	slot0.shipContainer.decelerationRate = 0.07
 
 	setActive(slot0:findTF("main/ship_container"), not slot0.contextData.selectFriend)
-	setActive(slot0:findTF("main/friend_container"), slot0.contextData.selectFriend)
 
 	function slot0.shipContainer.onInitItem(slot0)
 		slot0:onInitItem(slot0)
@@ -207,10 +209,6 @@ function slot0.init(slot0)
 		slot0:updateSelected()
 	end
 
-	slot0.shipTpl = slot0:findTF("main/ship_tpl")
-
-	slot0.shipTpl.gameObject:SetActive(false)
-
 	slot0.shipLayout = slot0:findTF("main/ship_container/ships")
 	slot0.scrollItems = {}
 
@@ -220,18 +218,21 @@ function slot0.init(slot0)
 		slot0.indexFlag = (slot2.dockIndexFlag and slot2.dockIndexFlag) or {}
 		slot0.indexFlag2 = (slot2.dockIndexFlag2 and slot2.dockIndexFlag2) or {}
 		slot0.indexFlag3 = (slot2.dockIndexFlag3 and slot2.dockIndexFlag3) or {}
+		slot0.filterTag = slot2.filterTag or Ship.PREFERENCE_TAG_NONE
 	elseif slot0.contextData.sortData then
 		slot0.selectedSort = slot0.contextData.sortData.sort or 2
 		slot0.selectAsc = slot3.Asc or false
 		slot0.indexFlag = slot3.indexFlag or {}
 		slot0.indexFlag2 = slot3.indexFlag2 or {}
 		slot0.indexFlag3 = slot3.indexFlag3 or {}
+		slot0.filterTag = slot3.filterTag or Ship.PREFERENCE_TAG_NONE
 	else
 		slot0.selectAsc = DockyardScene.selectAsc or false
 		slot0.selectedSort = DockyardScene.selectedSort or 2
 		slot0.indexFlag = (DockyardScene.indexFlag and DockyardScene.indexFlag) or {}
 		slot0.indexFlag2 = (DockyardScene.indexFlag2 and DockyardScene.indexFlag2) or {}
 		slot0.indexFlag3 = (DockyardScene.indexFlag3 and DockyardScene.indexFlag3) or {}
+		slot0.filterTag = DockyardScene.filterTag or Ship.PREFERENCE_TAG_NONE
 	end
 
 	slot0.tmpSort = 2
@@ -268,6 +269,9 @@ function slot0.onInitItem(slot0, slot1)
 	slot2 = nil
 
 	(slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.showTagNoBlock)) and DockyardFriend.New(slot1, slot0.contextData.showTagNoBlock):updateDetail(slot0.itemDetailType)
+
+	(slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.showTagNoBlock)) and DockyardFriend.New(slot1, slot0.contextData.showTagNoBlock).isLoading = true
+
 	onButton(slot0, (slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.showTagNoBlock)) and DockyardFriend.New(slot1, slot0.contextData.showTagNoBlock).go, function ()
 		if slot0.shipVO then
 			if not slot1.selecteEnabled then
@@ -275,10 +279,9 @@ function slot0.onInitItem(slot0, slot1)
 
 				DockyardScene.value = SFX_UI_CLICK.shipContainer.value
 
-				SFX_UI_CLICK.shipContainer.value:emit(DockyardMediator.ON_SHIP_DETAIL, slot0.shipVO, slot1.shipVOs)
+				slot1.onClick(slot0.shipVO, slot1.shipVOs)
 			else
 				slot0((table.contains(slot1.selectedIds, slot0.shipVO.id) and SFX_UI_CANCEL) or SFX_UI_FORMATION_SELECT)
-				(table.contains(slot1.selectedIds, slot0.shipVO.id) and SFX_UI_CANCEL) or SFX_UI_FORMATION_SELECT:displayShip(slot0.shipVO)
 				(table.contains(slot1.selectedIds, slot0.shipVO.id) and SFX_UI_CANCEL) or SFX_UI_FORMATION_SELECT:selectShip(slot0.shipVO)
 			end
 		else
@@ -288,7 +291,7 @@ function slot0.onInitItem(slot0, slot1)
 				slot1.onSelected({}, function ()
 					slot0:back()
 				end)
-			else
+			elseif not slot0.isLoading then
 				slot1:back()
 				slot1.onSelected({})
 			end
@@ -345,6 +348,8 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	end
 
 	slot3:updateSelected(slot5)
+
+	slot3.isLoading = false
 end
 
 function slot0.onReturnItem(slot0, slot1, slot2)
@@ -359,62 +364,92 @@ end
 
 function slot0.initIndexPanel(slot0)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.topPanel)
-	slot0.indexPanel = slot0:findTF("index_panel")
-
-	setActive(slot0.indexPanel, false)
-
-	slot0.indexPanel.localScale = Vector3.zero
 
 	onButton(slot0, slot0.indexBtn, function ()
-		if not slot0.indexPanel.gameObject.activeSelf then
-			slot0:animationOut()
+		if not slot0.indexPanel then
+			slot0.indexPanel = findTF(slot0._tf, "index_panel")
+
+			if not slot0.indexPanel then
+				PoolMgr.GetInstance():GetPrefab("ui/indexui", "", false, function (slot0)
+					slot0.indexPanelParent = slot0
+					slot0.indexPanel = findTF(slot0, "index_panel")
+
+					setParent(slot0, slot0._tf, false)
+					setActive(slot0.indexPanelParent, false)
+				end)
+			end
+
+			slot0.greySprite = slot0:findTF("resource/grey", slot0.indexPanel):GetComponent(typeof(Image)).sprite
+			slot0.blueSprite = slot0:findTF("resource/blue", slot0.indexPanel):GetComponent(typeof(Image)).sprite
+			slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.indexPanel):GetComponent(typeof(Image)).sprite
+
+			slot0:initIndex()
+			slot0.initIndex:initSort()
+			slot0.initIndex.initSort:animationOut()
 			setActive(slot0.indexPanel, true)
+
+			setActive.indexPanel.localScale = Vector3.zero
+
 			LeanTween.scale(slot0.indexPanel, Vector3(1, 1, 1), 0.2)
-			slot0:circleRotate(true)
-			slot0:updateIndex()
-			slot0.UIMgr:BlurPanel(slot0.indexPanel)
-		else
+			LeanTween.scale:updateIndex()
+			LeanTween.scale.updateIndex.UIMgr:BlurPanel(slot0.indexPanel)
+			onButton(onButton, findTF(slot0.indexPanel, "layout/btns/ok"), function ()
+				slot0.selectAsc = slot0.tmpAsc
+				slot0.selectedSort = slot0.tmpSort
+				slot1 = slot0.tmpIndexFlag or {}
+
+				for slot3, slot4 in slot0(slot1) do
+					slot0.indexFlag[slot3] = slot4
+				end
+
+				slot1 = slot0.tmpIndexFlag2 or {}
+
+				for slot3, slot4 in slot0(slot1) do
+					slot0.indexFlag2[slot3] = slot4
+				end
+
+				slot1 = slot0.tmpIndexFlag3 or {}
+
+				for slot3, slot4 in slot0(slot1) do
+					slot0.indexFlag3[slot3] = slot4
+				end
+
+				slot0:filter()
+				triggerButton(slot0.indexBtn)
+				triggerButton.UIMgr:UnblurPanel(slot0.indexPanel, slot0._tf)
+			end, SFX_CONFIRM)
+			onButton(onButton, findTF(slot0.indexPanel, "layout/btns/cancel"), function ()
+				triggerButton(slot0.indexBtn)
+			end, SFX_CANCEL)
+			onButton(onButton, findTF(slot0.indexPanel, "btn"), function ()
+				triggerButton(slot0.indexBtn)
+			end, SFX_CANCEL)
+		elseif slot0.indexPanel.gameObject.activeSelf then
 			LeanTween.scale(slot0.indexPanel, Vector3(0, 0, 0), 0.2):setOnComplete(System.Action(function ()
 				setActive(slot0.indexPanel, false)
 			end))
-			slot0:circleRotate(false)
 			slot0:animationIn()
 			slot0.UIMgr:UnblurPanel(slot0.indexPanel, slot0._tf)
+		else
+			slot0:animationOut()
+			setActive(slot0.indexPanel, true)
+
+			slot0.indexPanel.localScale = Vector3.zero
+
+			LeanTween.scale(slot0.indexPanel, Vector3(1, 1, 1), 0.2)
+			slot0:updateIndex()
+			slot0.UIMgr:BlurPanel(slot0.indexPanel)
 		end
 	end, SFX_PANEL)
-	slot0:initIndex()
-	slot0:initSort()
-	onButton(slot0, findTF(slot0.indexPanel, "ok"), function ()
-		slot0.selectAsc = slot0.tmpAsc
-		slot0.selectedSort = slot0.tmpSort
-		slot1 = slot0.tmpIndexFlag or {}
-
-		for slot3, slot4 in slot0(slot1) do
-			slot0.indexFlag[slot3] = slot4
-		end
-
-		slot1 = slot0.tmpIndexFlag2 or {}
-
-		for slot3, slot4 in slot0(slot1) do
-			slot0.indexFlag2[slot3] = slot4
-		end
-
-		slot1 = slot0.tmpIndexFlag3 or {}
-
-		for slot3, slot4 in slot0(slot1) do
-			slot0.indexFlag3[slot3] = slot4
+	onToggle(slot0, findTF(slot0.topPanel, "preference_toggle"), function (slot0)
+		if slot0 then
+			slot0.filterTag = Ship.PREFERENCE_TAG_COMMON
+		else
+			slot0.filterTag = Ship.PREFERENCE_TAG_NONE
 		end
 
 		slot0:filter()
-		triggerButton(slot0.indexBtn)
-		triggerButton.UIMgr:UnblurPanel(slot0.indexPanel, slot0._tf)
-	end, SFX_CONFIRM)
-	onButton(slot0, findTF(slot0.indexPanel, "cancel"), function ()
-		triggerButton(slot0.indexBtn)
-	end, SFX_CANCEL)
-	onButton(slot0, findTF(slot0.indexPanel, "btn"), function ()
-		triggerButton(slot0.indexBtn)
-	end, SFX_CANCEL)
+	end)
 end
 
 function slot0.updateIndex(slot0)
@@ -446,7 +481,7 @@ function slot0.updateIndex(slot0)
 end
 
 function slot0.initIndex(slot0)
-	slot0.indexs = findTF(slot0.indexPanel, "index1/panel")
+	slot0.indexs = findTF(slot0.indexPanel, "layout/index/panel")
 	slot0.indexTpl = slot0:findTF("tpl", slot0.indexs)
 
 	setActive(slot0.indexTpl, false)
@@ -457,39 +492,39 @@ function slot0.initIndex(slot0)
 		if slot4 == 1 then
 			slot0.indexTFAll = slot0:findTF("all", slot0.indexs)
 
-			setImageSprite(findTF(slot0.indexTFAll, "Image"), GetSpriteFromAtlas("indextext", "index_all"))
-			findTF(slot0.indexTFAll, "Image"):GetComponent("Image"):SetNativeSize()
+			setText(findTF(slot0.indexTFAll, "Image"), i18n(slot0[slot4]))
 			onButton(slot0, slot0.indexTFAll, function ()
 				for slot3, slot4 in pairs(slot0.indexTFs) do
 					triggerToggle(slot4, false)
+					setImageSprite(slot0.indexTFs[slot3], slot0.greySprite)
 				end
 
-				setActive(findTF(slot0.indexTFAll, "mark"), true)
-				setOutlineColor(findTF(slot0.indexTFAll, "Image"), Color.New(0, 0, 0, 1))
+				setImageSprite(slot0.indexTFAll, slot0.yellowSprite)
 			end, SFX_UI_TAG)
 		else
-			setImageSprite(findTF(slot0.indexs:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6), "Image"), GetSpriteFromAtlas("indextext", slot0[slot4]))
+			setText(findTF(slot0.indexs:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6), "Image"), i18n(slot0[slot4]))
+			GetOrAddComponent(slot0.indexs.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6), typeof(Toggle))
 			onToggle(slot0, slot0.indexs.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6), function (slot0)
 				slot0.tmpIndexFlag[slot1 - 1] = slot0
 
 				if slot0:selectAll(slot0.tmpIndexFlag, #slot2 - 1) then
 					triggerButton(slot0.indexTFAll)
+					setImageSprite(slot0.indexTFAll, slot0.yellowSprite)
+					setImageSprite(slot0.yellowSprite, slot0.greySprite)
 				elseif slot0:selectNone(slot0.tmpIndexFlag, #slot2 - 1) then
-					setActive(findTF(slot0.indexTFAll, "mark"), true)
-					setOutlineColor(findTF(slot0.indexTFAll, "Image"), Color.New(0, 0, 0, 1))
+					setImageSprite(slot0.indexTFAll, slot0.yellowSprite)
+					setImageSprite(slot0.yellowSprite, slot0.greySprite)
 				else
-					setActive(findTF(slot0.indexTFAll, "mark"), false)
-					setOutlineColor(findTF(slot0.indexTFAll, "Image"), Color.New(0, 0, 0, 0))
+					setImageSprite(slot0.indexTFAll, slot0.greySprite)
+					setImageSprite(slot0.greySprite, (slot0 and slot0.yellowSprite) or slot0.greySprite)
 				end
-
-				setOutlineColor(findTF(slot3, "Image"), (slot0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
 			end, SFX_UI_TAG, SFX_UI_TAG)
 
 			slot0.indexTFs[slot4 - 1] = slot0.indexs.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl, slot0.indexs, slot6)
 		end
 	end
 
-	slot0.indexs2 = findTF(slot0.indexPanel, "index2/panel")
+	slot0.indexs2 = findTF(slot0.indexPanel, "layout/camp/panel")
 	slot0.indexTpl2 = slot0:findTF("tpl", slot0.indexs2)
 
 	setActive(slot0.indexTpl2, false)
@@ -500,39 +535,39 @@ function slot0.initIndex(slot0)
 		if slot4 == 1 then
 			slot0.indexTFAll2 = slot0:findTF("all", slot0.indexs2)
 
-			setImageSprite(findTF(slot0.indexTFAll2, "Image"), GetSpriteFromAtlas("indextext", "index_all"))
-			findTF(slot0.indexTFAll2, "Image"):GetComponent("Image"):SetNativeSize()
+			setText(findTF(slot0.indexTFAll2, "Image"), i18n(slot1[slot4]))
 			onButton(slot0, slot0.indexTFAll2, function ()
 				for slot3, slot4 in pairs(slot0.indexTFs2) do
 					triggerToggle(slot4, false)
+					setImageSprite(slot0.indexTFs2[slot3], slot0.greySprite)
 				end
 
-				setActive(findTF(slot0.indexTFAll2, "mark"), true)
-				setOutlineColor(findTF(slot0.indexTFAll2, "Image"), Color.New(0, 0, 0, 1))
+				setImageSprite(slot0.indexTFAll2, slot0.blueSprite)
 			end, SFX_UI_TAG)
 		else
-			setImageSprite(findTF(slot0.indexs2:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6), "Image"), GetSpriteFromAtlas("indextext", slot1[slot4]))
+			setText(findTF(slot0.indexs2:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6), "Image"), i18n(slot1[slot4]))
+			GetOrAddComponent(slot0.indexs2.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6), typeof(Toggle))
 			onToggle(slot0, slot0.indexs2.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6), function (slot0)
 				slot0.tmpIndexFlag2[slot1 - 1] = slot0
 
 				if slot0 and slot0:selectAll(slot0.tmpIndexFlag2, #slot2 - 1) then
 					triggerButton(slot0.indexTFAll2)
+					setImageSprite(slot0.indexTFAll2, slot0.blueSprite)
+					setImageSprite(slot0.blueSprite, slot0.greySprite)
 				elseif slot0:selectNone(slot0.tmpIndexFlag2, #slot2 - 1) then
-					setActive(findTF(slot0.indexTFAll2, "mark"), true)
-					setOutlineColor(findTF(slot0.indexTFAll2, "Image"), Color.New(0, 0, 0, 1))
+					setImageSprite(slot0.indexTFAll2, slot0.blueSprite)
+					setImageSprite(slot0.blueSprite, slot0.greySprite)
 				else
-					setActive(findTF(slot0.indexTFAll2, "mark"), false)
-					setOutlineColor(findTF(slot0.indexTFAll2, "Image"), Color.New(0, 0, 0, 0))
+					setImageSprite(slot0.indexTFAll2, slot0.greySprite)
+					setImageSprite(slot0.greySprite, (slot0 and slot0.blueSprite) or slot0.greySprite)
 				end
-
-				setOutlineColor(findTF(slot3, "Image"), (slot0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
 			end, SFX_UI_TAG, SFX_UI_TAG)
 
 			slot0.indexTFs2[slot4 - 1] = slot0.indexs2.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl2, slot0.indexs2, slot6)
 		end
 	end
 
-	slot0.indexs3 = findTF(slot0.indexPanel, "index3/panel")
+	slot0.indexs3 = findTF(slot0.indexPanel, "layout/rarity/panel")
 	slot0.indexTpl3 = slot0:findTF("tpl", slot0.indexs3)
 
 	setActive(slot0.indexTpl3, false)
@@ -543,32 +578,32 @@ function slot0.initIndex(slot0)
 		if slot4 == 1 then
 			slot0.indexTFAll3 = slot0:findTF("all", slot0.indexs3)
 
-			setImageSprite(findTF(slot0.indexTFAll3, "Image"), GetSpriteFromAtlas("indextext", "index_all"))
-			findTF(slot0.indexTFAll3, "Image"):GetComponent("Image"):SetNativeSize()
+			setText(findTF(slot0.indexTFAll3, "Image"), i18n(slot2[slot4]))
 			onButton(slot0, slot0.indexTFAll3, function ()
 				for slot3, slot4 in pairs(slot0.indexTFs3) do
 					triggerToggle(slot4, false)
+					setImageSprite(slot0.indexTFs3[slot3], slot0.greySprite)
 				end
 
-				setActive(findTF(slot0.indexTFAll3, "mark"), true)
-				setOutlineColor(findTF(slot0.indexTFAll3, "Image"), Color.New(0, 0, 0, 1))
+				setImageSprite(slot0.indexTFAll3, slot0.blueSprite)
 			end, SFX_UI_TAG)
 		else
-			setImageSprite(findTF(slot0.indexs3:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6), "Image"), GetSpriteFromAtlas("indextext", slot2[slot4]))
+			setText(findTF(slot0.indexs3:Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6), "Image"), i18n(slot2[slot4]))
+			GetOrAddComponent(slot0.indexs3.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6), typeof(Toggle))
 			onToggle(slot0, slot0.indexs3.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6), function (slot0)
 				slot0.tmpIndexFlag3[slot1 - 1] = slot0
 
 				if slot0 and slot0:selectAll(slot0.tmpIndexFlag3, #slot2 - 1) then
 					triggerButton(slot0.indexTFAll3)
+					setImageSprite(slot0.indexTFAll3, slot0.blueSprite)
+					setImageSprite(slot0.blueSprite, slot0.greySprite)
 				elseif slot0:selectNone(slot0.tmpIndexFlag3, #slot2 - 1) then
-					setActive(findTF(slot0.indexTFAll3, "mark"), true)
-					setOutlineColor(findTF(slot0.indexTFAll3, "Image"), Color.New(0, 0, 0, 1))
+					setImageSprite(slot0.indexTFAll3, slot0.blueSprite)
+					setImageSprite(slot0.blueSprite, slot0.greySprite)
 				else
-					setActive(findTF(slot0.indexTFAll3, "mark"), false)
-					setOutlineColor(findTF(slot0.indexTFAll3, "Image"), Color.New(0, 0, 0, 0))
+					setImageSprite(slot0.indexTFAll3, slot0.greySprite)
+					setImageSprite(slot0.greySprite, (slot0 and slot0.blueSprite) or slot0.greySprite)
 				end
-
-				setOutlineColor(findTF(slot3, "Image"), (slot0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
 			end, SFX_UI_TAG, SFX_UI_TAG)
 
 			slot0.indexTFs3[slot4 - 1] = slot0.indexs3.Find("index_" .. slot5) or cloneTplTo(slot0.indexTpl3, slot0.indexs3, slot6)
@@ -577,53 +612,31 @@ function slot0.initIndex(slot0)
 end
 
 function slot0.initSort(slot0)
-	slot0.sortBtn = slot0:findTF("sort_button", slot0.topPanel)
-	slot0.sortImgAsc = slot0:findTF("asc", slot0.sortBtn)
-	slot0.sortImgDesc = slot0:findTF("desc", slot0.sortBtn)
-	slot0.sorts = findTF(slot0.indexPanel, "sort/panel")
+	slot0.sorts = findTF(slot0.indexPanel, "layout/sort/panel")
 	slot0.sortTpl = slot0:findTF("tpl", slot0.sorts)
 
 	setActive(slot0.sortTpl, false)
 
+	slot0.sortsToggleGroup = GetOrAddComponent(slot0.sorts, typeof(ToggleGroup))
 	slot0.sortTFs = {}
 
 	for slot4, slot5 in ipairs(slot0) do
-		setImageSprite(findTF(slot0.sorts:Find("sort_" .. slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6), "Image"), slot8, true)
-		onToggle(slot0, slot0.sorts.Find("sort_" .. slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6), function (slot0)
+		setText(findTF(slot0.sorts:Find(slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6), "Image"), slot5)
+
+		GetOrAddComponent(slot0.sorts.Find(slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6), typeof(Toggle)).group = slot0.sortsToggleGroup
+
+		onToggle(slot0, slot0.sorts.Find(slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6), function (slot0)
 			if slot0 then
 				slot0.tmpSort = slot0
-			end
 
-			setOutlineColor(findTF(findTF, "Image"), (slot0 and Color.New(0, 0, 0, 1)) or Color.New(0, 0, 0, 0))
+				setImageSprite(slot0, slot0.yellowSprite)
+			else
+				setImageSprite(slot2, slot0.greySprite)
+			end
 		end, SFX_UI_TAG, SFX_UI_TAG)
 
-		slot0.sortTFs[slot4] = slot0.sorts.Find("sort_" .. slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6)
+		slot0.sortTFs[slot4] = slot0.sorts.Find(slot5) or cloneTplTo(slot0.sortTpl, slot0.sorts, slot6)
 	end
-
-	onButton(slot0, slot0.sortBtn, function ()
-		slot0.selectAsc = not slot0.selectAsc
-
-		slot0:filter()
-	end, SFX_UI_CLICK)
-end
-
-function slot0.initPreview(slot0)
-	if slot0.contextData.activeShipId then
-		slot0:displayShip(slot0.shipVOsById[slot0.contextData.activeShipId])
-
-		if #slot0.selectedIds == 0 then
-			slot0.selectedIds[1] = slot0.contextData.activeShipId
-		end
-	elseif #slot0.selectedIds > 0 then
-		slot0:displayShip(slot0.shipVOsById[slot0.selectedIds[1]])
-	elseif #slot0.shipVOs > 0 then
-		slot0:displayShip(slot0.shipVOs[1])
-	else
-		slot0.contextData.prevFlag = false
-	end
-
-	slot0:updateSelected()
-	slot0:initBlackBlocks()
 end
 
 function slot0.setShips(slot0, slot1)
@@ -644,8 +657,14 @@ function slot0.setFriends(slot0, slot1)
 	end
 end
 
+function slot0.setWorld(slot0, slot1)
+	slot0.world = slot1
+end
+
 function slot0.updateBarInfo(slot0)
-	if slot0.contextData.leftTopInfo then
+	if slot0.contextData.mode == slot0.MODE_WORLD then
+		setActive(slot0.leftTipsText, false)
+	elseif slot0.contextData.leftTopInfo then
 		setText(slot0.bottomTipsText, i18n("dock_yard_left_tips", slot0.contextData.leftTopInfo))
 		setActive(slot0.leftTipsText, false)
 	else
@@ -653,6 +672,71 @@ function slot0.updateBarInfo(slot0)
 		setActive(slot0.leftTipsText, true)
 		setText(slot0.leftTipsText:Find("label"), i18n("ship_dockyardScene_capacity"))
 		setText(slot0.leftTipsText:Find("Text"), slot0.shipsCount .. "/" .. slot0.player.ship_bag_max)
+	end
+end
+
+function slot0.initWorldPanel(slot0)
+	onButton(slot0, slot0.worldPanel:Find("repair_all_button"), function ()
+		slot1 = 0
+
+		for slot5, slot6 in pairs(slot0.shipVOsById) do
+			if slot6.bindingData:IsBroken() or not slot7:IsHpFull() then
+				table.insert(slot0, slot7.id)
+
+				slot1 = slot1 + slot0.world:CalcRepairCost(slot7)
+			end
+		end
+
+		if #slot0 == 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_ship_repair_no_need"))
+		else
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("world_ship_repair_all", slot1),
+				onYes = function ()
+					slot0:emit(DockyardMediator.ON_SHIP_REPAIR, slot0, )
+				end
+			})
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.worldPanel:Find("toggle_list/repair_toggle"), function (slot0)
+		if slot0 then
+		end
+
+		if #slot0.selectedIds > 0 then
+			slot0:repairWorldShip(slot0.shipVOsById[slot0.selectedIds[1]])
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.worldPanel:Find("toggle_list/formation_toggle"), function (slot0)
+		if slot0 then
+			slot0:emit(DockyardMediator.ON_WORLD_FORMATION)
+		end
+	end, SFX_PANEL)
+	triggerToggle(slot0.worldPanel:Find("toggle_list/repair_toggle"), true)
+end
+
+function slot0.repairWorldShip(slot0, slot1)
+	slot3 = slot0.world:CalcRepairCost(slot2)
+
+	if slot1.bindingData:IsBroken() then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("world_ship_repair_2", slot1:getName(), slot3),
+			onYes = function ()
+				slot0:emit(DockyardMediator.ON_SHIP_REPAIR, {
+					slot1.id
+				}, )
+			end
+		})
+	elseif not slot2:IsHpFull() then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("world_ship_repair_1", slot1:getName(), slot3),
+			onYes = function ()
+				slot0:emit(DockyardMediator.ON_SHIP_REPAIR, {
+					slot1.id
+				}, )
+			end
+		})
+	else
+		pg.TipsMgr.GetInstance():ShowTips(i18n("world_ship_repair_no_need"))
 	end
 end
 
@@ -683,7 +767,7 @@ function slot0.filter(slot0)
 	for slot5, slot6 in pairs(slot0.shipVOsById) do
 		if slot0.contextData.blockLock and slot6:GetLockState() == Ship.LOCK_STATE_LOCK then
 		elseif slot0.teamTypeFilter and slot6:getTeamType() ~= slot0.teamTypeFilter then
-		elseif (slot0:selectNone(slot0.indexFlag, #slot0 - 1) or slot0.indexFlag[slot1[slot6:getShipType()] + 2] or slot0.indexFlag[slot2[slot6:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #slot3 - 1) or slot0.indexFlag2[slot4[slot6:getConfig("nationality")]] or ((slot6:getConfig("nationality") == 0 or Nation.IsLinkType(slot6:getNation())) and slot0.indexFlag2[#slot0.indexFlag2])) and (slot0:selectNone(slot0.indexFlag3, #slot5 - 1) or slot0.indexFlag3[slot6[slot6:getRarity()]]) then
+		elseif (slot0:selectNone(slot0.indexFlag, #slot0 - 1) or slot0.indexFlag[slot1[slot6:getShipType()] + 2] or slot0.indexFlag[slot2[slot6:getTeamType()]]) and (slot0:selectNone(slot0.indexFlag2, #slot3 - 1) or slot0.indexFlag2[slot4[slot6:getConfig("nationality")]] or ((slot6:getConfig("nationality") == 0 or Nation.IsLinkType(slot6:getNation())) and slot0.indexFlag2[#slot0.indexFlag2])) and (slot0:selectNone(slot0.indexFlag3, #slot5 - 1) or slot0.indexFlag3[slot6[slot6:getRarity()]]) and (slot0.filterTag == Ship.PREFERENCE_TAG_NONE or slot0.filterTag == slot6:GetPreferenceTag()) then
 			table.insert(slot0.shipVOs, slot6)
 		end
 	end
@@ -715,7 +799,9 @@ function slot0.filter(slot0)
 
 	if slot2 then
 		table.sort(slot0.shipVOs, function (slot0, slot1)
-			if slot0.isFormTactics then
+			if pg.GuideMgr:GetInstance():isRuning() then
+				return IndexConst.sortForGuider(slot0, slot1)
+			elseif slot0.isFormTactics then
 				return IndexConst.sortByPriorityFullSkill(slot0, slot1, slot1)
 			elseif slot0.mode == slot2.MODE_OVERVIEW then
 				if slot0.activityNpc == slot1.activityNpc then
@@ -744,29 +830,40 @@ function slot0.filter(slot0)
 	slot0:updateSelected()
 	setActive(slot0.sortImgAsc, slot0.selectAsc)
 	setActive(slot0.sortImgDesc, not slot0.selectAsc)
-	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("indextext", slot8[slot1] .. "_selected"))
+	setText(slot0:findTF("Image", slot0.sortBtn), slot8[slot1])
 end
 
 function slot0.didEnter(slot0)
+	setActive(go(slot0.shipContainer).transform:Find("ships"), true)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 	setActive(slot0:findTF("stamp", slot0.topPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-
-	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp", slot0.topPanel), false)
-	end
-
 	onButton(slot0, slot0:findTF("stamp", slot0.topPanel), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(1)
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0:findTF("back", slot0.topPanel), function ()
 		slot0:back()
 	end, SFX_CANCEL)
+	onButton(slot0, slot0.sortBtn, function ()
+		slot0.selectAsc = not slot0.selectAsc
 
-	slot2 = slot0:findTF("off", slot1):GetComponent("Image")
-	slot3 = slot0:findTF("on", slot0:findTF("attr_toggle", slot0.topPanel):GetComponent("Button")):GetComponent("Image")
+		slot0:filter()
+	end, SFX_UI_CLICK)
+	eachChild(slot0:findTF("attr_toggle", slot0.topPanel):GetComponent("Button"), function (slot0)
+		setActive(slot0, false)
+	end)
+
 	slot0.isFormTactics = slot0.contextData.prevPage == "NavalTacticsMediator"
+	slot2 = slot0:findTF("off", slot1):GetComponent("Image")
+	slot3 = slot0:findTF("on", slot1):GetComponent("Image")
 
-	setActive(tf(slot1):Find("attr"), not slot0.isFormTactics)
-	setActive(tf(slot1):Find("skill"), slot0.isFormTactics)
+	if slot0.isFormTactics then
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot2)
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_on", slot3)
+	else
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_off", slot2)
+		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_on", slot3)
+	end
+
 	onButton(slot0, slot1, function ()
 		if not slot0.isFormTactics then
 			slot0.itemDetailType = (slot0.itemDetailType + 1) % 4
@@ -774,30 +871,14 @@ function slot0.didEnter(slot0)
 			slot0.itemDetailType = (slot0.itemDetailType == DockyardShipItem.DetailType0 and DockyardShipItem.DetailType3) or DockyardShipItem.DetailType0
 		end
 
-		slot0.targetGraphic = (slot0.itemDetailType == DockyardShipItem.DetailType0 and function ()
-			setActive(setActive, false)
-			setActive(setActive, true)
+		slot0(slot1, slot0.itemDetailType ~= DockyardShipItem.DetailType0)
+		slot0(slot0.itemDetailType ~= DockyardShipItem.DetailType0, slot0.itemDetailType == DockyardShipItem.DetailType0)
 
-			return setActive
-		end()) or function ()
-			setActive(setActive, false)
-			setActive(setActive, true)
-
-			return setActive
-		end()
+		slot0.targetGraphic = (slot0.itemDetailType == DockyardShipItem.DetailType0 and slot0.itemDetailType == DockyardShipItem.DetailType0) or slot0.itemDetailType ~= DockyardShipItem.DetailType0
 
 		slot0:updateItemDetailType()
 	end, SFX_PANEL)
 	triggerButton(slot1)
-	onButton(slot0, slot0.shipInfo, function ()
-		slot0.contextData.displayAttr = not slot0.contextData.displayAttr
-
-		if slot0.contextData.contextData.displayAttr then
-			shiftPanel(slot0.shipAttrs, 0, nil, nil, nil, true, true)
-		else
-			shiftPanel(slot0.shipAttrs, -480, nil, nil, nil, true, true)
-		end
-	end, SFX_PANEL)
 	onButton(slot0, findTF(slot0.selectPanel, "cancel_button"), function ()
 		if slot0.animating then
 			return
@@ -856,9 +937,11 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	slot0:filter()
-	slot0:initPreview()
 	slot0:updateBarInfo()
-	setActive(slot0.shipInfo, slot0.contextData.prevFlag)
+
+	if slot0.contextData.mode == slot0.MODE_WORLD then
+		slot0:initWorldPanel()
+	end
 
 	if not slot0.contextData.selectFriend then
 		if slot0.contextData.prevFlag then
@@ -874,10 +957,6 @@ function slot0.didEnter(slot0)
 			slot0.shipContainer:GetComponentInChildren(typeof(GridLayoutGroup)).constraintCount = 4
 
 			slot0.shipContainer:EndLayout()
-
-			if slot0.shipInfoDirty then
-				slot0:displayShip(slot0.lastActiveShip)
-			end
 		else
 			slot0.shipContainer:BeginLayout()
 
@@ -888,19 +967,6 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	slot4 = pg.shop_template[slot1]
-
-	onButton(slot0, slot0.expansionBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = slot0.desc,
-			onYes = function ()
-				pg.m02:sendNotification(GAME.SHOPPING, {
-					count = 1,
-					id = pg.m02.sendNotification
-				})
-			end
-		})
-	end, SFX_PANEL)
 	setAnchoredPosition(slot0.topPanel, {
 		y = slot0.topPanel.rect.height
 	})
@@ -924,7 +990,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onBackPressed(slot0)
-	if LeanTween.isTweening(go(slot0.indexPanel)) then
+	if slot0.indexPanel and LeanTween.isTweening(go(slot0.indexPanel)) then
 		return
 	end
 
@@ -934,7 +1000,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.indexPanel.gameObject.activeSelf then
+	if slot0.indexPanel and slot0.indexPanel.gameObject.activeSelf then
 		playSoundEffect(SFX_CANCEL)
 		triggerButton(slot0.indexBtn)
 	else
@@ -972,89 +1038,6 @@ function slot0.updateShipStatusById(slot0, slot1)
 			slot6:flush()
 		end
 	end
-end
-
-function slot0.displayShip(slot0, slot1)
-	if not go(slot0.shipInfo).activeSelf then
-		if not slot0.lastActiveShip or slot1.id ~= slot0.lastActiveShip.id then
-			slot0.shipInfoDirty = true
-		end
-
-		slot0.lastActiveShip = slot1
-
-		return
-	end
-
-	if not slot0.shipInfoDirty and slot0.lastActiveShip and slot0.lastActiveShip.id == slot1.id then
-		return
-	end
-
-	slot3 = pg.ship_data_template[slot1.configId]
-
-	setWidgetText(findTF(slot0.shipInfo, "name"), slot0.shipVO:getName())
-	setText(findTF(slot0.shipInfo, "name/english_name"), slot1:getConfigTable().english_name)
-	removeAllChildren(slot4)
-
-	for slot9 = 1, slot1:getStar(), 1 do
-		cloneTplTo(slot0.shipInfoStarTpl, slot4)
-	end
-
-	slot6 = findTF(slot0.shipInfo, "painting")
-
-	if slot0.lastPainting then
-		retPaintingPrefab(slot6, slot0.lastPainting)
-
-		slot0.lastPainting = nil
-	end
-
-	setPaintingPrefabAsync(slot6, slot7, "chuanwu")
-
-	slot0.lastPainting = slot1:getPainting()
-
-	setActive(findTF(slot0.shipInfo, "print"), false)
-
-	if not GetSpriteFromAtlas("shiptype", slot0.shipVO:getShipType()) then
-		warning("找不到船形, shipConfigId: " .. slot1.configId)
-	end
-
-	setImageSprite(slot0:findTF(slot0.shipInfo, "name/ship_type/type"), slot8, true)
-
-	slot9 = intProperties(slot1:getShipProperties())
-	slot13, slot13 = slot1:getEquipmentProperties()
-	slot10 = intProperties(slot10)
-	slot11 = intProperties(slot11)
-
-	for slot16, slot17 in ipairs(slot12) do
-		setText(findTF(slot0.shipAttrs, slot17), slot18)
-
-		slot19 = findTF(slot0.shipAttrs, slot17 .. "_add")
-		slot21 = math.floor((slot10[slot17] + slot18) * (slot11[slot17] or 1)) - slot18
-
-		if LOCK_EQUIP_DEVELOPMENT then
-			setText(slot19, "+" .. slot10[slot17])
-			setActive(slot19, slot10[slot17] ~= 0)
-		else
-			setText(slot19, "+" .. slot21)
-			setActive(slot19, slot21 ~= 0)
-		end
-	end
-
-	if slot0.contextData.displayAttr then
-		setAnchoredPosition(slot0.shipAttrs, {
-			x = 0
-		})
-	else
-		setAnchoredPosition(slot0.shipAttrs, {
-			x = -480
-		})
-	end
-
-	setText(findTF(slot0.shipAttrs, "level"), slot1.level)
-	setFillAmount(findTF(slot0.shipAttrs, "exp"), slot1.exp / slot1:getLevelExpConfig().exp_interval)
-	setText(findTF(slot0.shipAttrs, "exp_info"), slot1.exp .. "/" .. slot1.getLevelExpConfig().exp_interval)
-
-	slot0.lastActiveShip = slot1
-	slot0.shipInfoDirty = nil
 end
 
 function slot0.checkDestroyGold(slot0, slot1)
@@ -1101,66 +1084,60 @@ function slot0.selectShip(slot0, slot1)
 	end
 
 	function slot3()
-		if not slot0.selecteEnabled then
-			slot0.selectedIds[1] = slot1.id
+		slot0, slot1 = slot0()
 
-			slot0.selectedIds.onClick(slot1.id)
-		else
-			slot0, slot1 = slot2()
+		if not slot0 then
+			slot2, slot3 = slot1.checkShip(slot1.checkShip, function ()
+				if not slot0.exited then
+					slot0:selectShip(slot0)
+				end
+			end, slot1.selectedIds)
 
-			if not slot0 then
-				slot2, slot3 = slot0.checkShip(slot1, function ()
-					if not slot0.exited then
-						slot0:selectShip(slot0)
-					end
-				end, slot0.selectedIds)
-
-				if not slot2 then
-					if slot3 then
-						pg.TipsMgr:GetInstance():ShowTips(slot3)
-					end
-
-					return
+			if not slot2 then
+				if slot3 then
+					pg.TipsMgr:GetInstance():ShowTips(slot3)
 				end
 
-				if slot0.selectedMax == 0 or #slot0.selectedIds < slot0.selectedMax then
-					slot0:updateBlackBlocks(slot0.onPassShip(slot1, slot0.shipVOsById))
-					table.insert(slot0.selectedIds, slot1.id)
-				elseif slot0.selectedMax == 1 then
-					slot0:updateBlackBlocks(slot0.onPassShip(slot1, slot0.shipVOsById))
-
-					slot0.selectedIds[1] = slot1.id
-				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot0.selectedMax))
-
-					return
-				end
-			else
-				slot2, slot3 = slot0.onCancelShip(slot1, function ()
-					if not slot0.exited then
-						slot0:selectShip(slot0)
-					end
-				end, slot0.selectedIds)
-
-				if not slot2 then
-					if slot3 then
-						pg.TipsMgr:GetInstance():ShowTips(slot3)
-					end
-
-					return
-				end
-
-				slot0:updateBlackBlocks(slot0.onRemoveShip(slot1, slot0.shipVOsById))
-				table.remove(slot0.selectedIds, slot1)
+				return
 			end
+
+			if slot1.selectedMax == 0 or #slot1.selectedIds < slot1.selectedMax then
+				slot1:updateBlackBlocks(slot1.onPassShip(slot2, slot1.shipVOsById))
+				table.insert(slot1.selectedIds, slot2.id)
+			elseif slot1.selectedMax == 1 then
+				slot1:updateBlackBlocks(slot1.onPassShip(slot2, slot1.shipVOsById))
+
+				slot1.selectedIds[1] = slot2.id
+			else
+				pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot1.selectedMax))
+
+				return
+			end
+		else
+			slot2, slot3 = slot1.onCancelShip(slot1.onCancelShip, function ()
+				if not slot0.exited then
+					slot0:selectShip(slot0)
+				end
+			end, slot1.selectedIds)
+
+			if not slot2 then
+				if slot3 then
+					pg.TipsMgr:GetInstance():ShowTips(slot3)
+				end
+
+				return
+			end
+
+			slot1:updateBlackBlocks(slot1.onRemoveShip(slot2, slot1.shipVOsById))
+			table.remove(slot1.selectedIds, slot1)
 		end
 
-		slot0:updateSelected()
+		slot1:updateSelected()
 
-		if slot0.updateSelected.mode == slot3.MODE_DESTROY then
-			slot0:updateDestroyRes()
-		elseif slot0.mode == slot3.MODE_MOD then
-			slot0:updateModAttr()
+		if slot1.mode == slot1.MODE_DESTROY then
+			slot1:updateDestroyRes()
+		elseif slot1.mode == slot3.MODE_MOD then
+			slot1:updateModAttr()
 		end
 	end
 
@@ -1268,8 +1245,6 @@ end
 function slot0.closeDestroyMode(slot0)
 	setActive(slot0.awardTF, false)
 	setActive(slot0.bottomTipsText, true)
-
-	slot0.lineTF.anchoredPosition = Vector3(90, -10, 0)
 end
 
 function slot0.updateDestroyRes(slot0, slot1)
@@ -1278,8 +1253,6 @@ function slot0.updateDestroyRes(slot0, slot1)
 	else
 		setActive(slot0.awardTF, true)
 		setActive(slot0.bottomTipsText, false)
-
-		slot0.lineTF.anchoredPosition = Vector3(130, -10, 0)
 	end
 
 	slot2 = 0
@@ -1365,8 +1338,7 @@ function slot0.updateShipCount(slot0, slot1)
 end
 
 function slot0.unPartialBlur(slot0)
-	SetParent(slot0.topPanel, slot0._tf)
-	pg.UIMgr.GetInstance():PartialBlur(slot0.topPanel:Find("title"), false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 function slot0.willExit(slot0)
@@ -1382,19 +1354,15 @@ function slot0.willExit(slot0)
 			_G[slot0.contextData.preView].dockIndexFlag = slot0.indexFlag
 			_G[slot0.contextData.preView].dockIndexFlag2 = slot0.indexFlag2
 			_G[slot0.contextData.preView].dockIndexFlag3 = slot0.indexFlag3
+			_G[slot0.contextData.preView].filterTag = slot0.filterTag
 		else
 			DockyardScene.selectedSort = slot0.selectedSort
 			DockyardScene.selectAsc = slot0.selectAsc
 			DockyardScene.indexFlag = slot0.indexFlag
 			DockyardScene.indexFlag2 = slot0.indexFlag2
 			DockyardScene.indexFlag3 = slot0.indexFlag3
+			DockyardScene.filterTag = slot0.filterTag
 		end
-	end
-
-	if slot0.lastPainting then
-		retPaintingPrefab(findTF(slot0.shipInfo, "painting"), slot0.lastPainting)
-
-		slot0.lastPainting = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.scrollItems) do
@@ -1407,23 +1375,6 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:cancelAnimating()
-
-	if slot0.indexPanel.gameObject.activeSelf then
-		slot0.UIMgr:UnblurPanel(slot0.indexPanel, slot0._tf)
-	end
-end
-
-function slot0.circleRotate(slot0, slot1)
-	slot2 = findTF(slot0.indexPanel, "circle1")
-	slot3 = findTF(slot0.indexPanel, "circle2")
-
-	if slot1 then
-		LeanTween.rotate(rtf(slot2), 360, 5):setLoopClamp()
-		LeanTween.rotate(rtf(slot3), -360, 5):setLoopClamp()
-	else
-		LeanTween.cancel(go(slot2))
-		LeanTween.cancel(go(slot3))
-	end
 end
 
 function slot0.animationOut(slot0)
@@ -1444,24 +1395,17 @@ end
 
 function slot0.uiStartAnimating(slot0)
 	slot1 = slot0:findTF("back", slot0.topPanel)
-
-	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
+	slot2 = 0
+	slot3 = 0.3
 
 	if slot0.mode == slot0.MODE_OVERVIEW then
-	elseif slot0.mode == slot0.MODE_UPGRADE then
 	else
 		slot0.onSelect = true
 
 		shiftPanel(slot0.selectPanel, nil, 0, slot3, slot2, true, true)
 	end
 
-	slot0.tweens = topAnimation(slot0:findTF("bg/left", slot0.topPanel), slot0:findTF("bg/right", slot0.topPanel), slot0:findTF("bg/title_dockyard", slot0.topPanel), slot0:findTF("bg/dockyard", slot0.topPanel), 0.27, function ()
-		slot0.tweens = nil
-	end)
-
-	if not slot0.contextData.leftTopInfo then
+	if not slot0.contextData.leftTopInfo and not slot0.contextData.mode == slot0.MODE_WORLD then
 		setActive(slot0.leftTipsText, false)
 
 		for slot7 = 1, 3, 1 do
@@ -1475,12 +1419,7 @@ function slot0.uiStartAnimating(slot0)
 end
 
 function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, dur, delay, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
 	if slot0.mode == slot0.MODE_OVERVIEW then
-	elseif slot0.mode == slot0.MODE_UPGRADE then
 	else
 		shiftPanel(slot0.selectPanel, nil, -1 * slot0.selectPanel.rect.height, dur, delay, true, true)
 	end
@@ -1492,7 +1431,12 @@ function slot0.back(slot0)
 	end
 
 	slot0:uiExitAnimating()
-	slot0:emit(slot0.ON_BACK, nil, 0.3)
+
+	if slot0.contextData.isLayer then
+		slot0:emit(slot0.ON_CLOSE)
+	else
+		slot0:emit(slot0.ON_BACK, nil, 0.3)
+	end
 end
 
 function slot0.cancelAnimating(slot0)
@@ -1511,39 +1455,48 @@ end
 
 function slot0.displayDestroyPanel(slot0)
 	if not slot0.destoryPanel then
-		slot0.destoryPanel = slot0:findTF("destory_panel")
+		slot0.destoryPanel = slot0:findTF("DestoryInfoUI")
 
-		onButton(slot0, slot0:findTF("destory_panel/frame/confirm_button"), function ()
-			slot1, slot2 = slot0:checkDestroyGold()
+		if not slot0.destoryPanel then
+			PoolMgr.GetInstance():GetPrefab("ui/destoryinfoui", "", false, function (slot0)
+				setName(slot0, "DestoryInfoUI")
+				setParent(slot0, slot0._tf, false)
 
-			if not slot2 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
-					onYes = function ()
-						slot0()
-					end
-				})
-
-				return
-			end
-
-			slot0()
-		end, SFX_UI_BUILDING_RETIRE)
-		onButton(slot0, slot0:findTF("destory_panel/frame/cancel_button"), function ()
-			slot0:closeDestroyPanel()
-		end, SFX_CANCEL)
-		onButton(slot0, slot0:findTF("destory_panel/frame/top/btnBack"), function ()
-			slot0:closeDestroyPanel()
-		end, SFX_CANCEL)
-
-		slot0.destoryShipContent = slot0:findTF("destory_panel/frame/sliders/content")
-		slot0.destoryGoldText = slot0:findTF("destory_panel/frame/bg_award/gold/Text")
-		slot0.destoryMedalText = slot0:findTF("destory_panel/frame/bg_award/medal/Text")
-		slot0.destoryOilText = slot0:findTF("destory_panel/frame/bg_award/oil/Text")
+				slot0.destoryPanel = slot0
+			end)
+		end
 	end
 
-	SetParent(slot0.topPanel, slot0._tf)
-	slot0.UIMgr:BlurPanel(slot0.destoryPanel)
+	onButton(slot0, slot0:findTF("DestoryInfoUI/frame/confirm_button"), function ()
+		slot1, slot2 = slot0:checkDestroyGold()
+
+		if not slot2 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
+				onYes = function ()
+					slot0()
+				end
+			})
+
+			return
+		end
+
+		slot0()
+	end, SFX_UI_BUILDING_RETIRE)
+	onButton(slot0, slot0:findTF("DestoryInfoUI/frame/cancel_button"), function ()
+		slot0:closeDestroyPanel()
+	end, SFX_CANCEL)
+	onButton(slot0, slot0:findTF("DestoryInfoUI/frame/top/btnBack"), function ()
+		slot0:closeDestroyPanel()
+	end, SFX_CANCEL)
+
+	slot0.destoryShipContent = slot0:findTF("DestoryInfoUI/frame/sliders/content")
+	slot0.destoryGoldText = slot0:findTF("DestoryInfoUI/frame/bg_award/gold/Text")
+	slot0.destoryMedalText = slot0:findTF("DestoryInfoUI/frame/bg_award/medal/Text")
+	slot0.destoryOilText = slot0:findTF("DestoryInfoUI/frame/bg_award/oil/Text")
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	slot0.UIMgr:BlurPanel(tf(slot0.destoryPanel))
 	slot0:initDestoryShips()
 	setActive(slot0.destoryPanel, true)
 
@@ -1558,7 +1511,7 @@ function slot0.initDestoryShips(slot0)
 	end
 
 	for slot5 = slot0.destoryShipContent.childCount, #slot0.selectedIds - 1, 1 do
-		cloneTplTo(slot0.shipTpl, slot0.destoryShipContent)
+		cloneTplTo(slot0.shipContainer.prefabItem, slot0.destoryShipContent)
 	end
 
 	for slot5 = 1, slot0.destoryShipContent.childCount, 1 do
@@ -1594,8 +1547,8 @@ end
 
 function slot0.closeDestroyPanel(slot0)
 	if slot0.isOpenDestory then
-		SetParent(slot0.topPanel, pg.UIMgr.GetInstance().OverlayMain)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.destoryPanel, slot0._tf)
+		pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
+		pg.UIMgr.GetInstance():UnblurPanel(tf(slot0.destoryPanel), slot0._tf)
 		setActive(slot0.destoryPanel, false)
 
 		slot0.isOpenDestory = nil

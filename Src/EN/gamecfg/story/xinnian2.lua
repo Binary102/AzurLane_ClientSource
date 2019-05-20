@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Lunar New Year Celebration\n\n<size=30>Chapter 2 - The Great Spring \"Cleaning!\"</size>"
+					"Lunar New Year Celebration\n\n<size=45>Chapter 2 - The Great Spring \"Cleaning!\"</size>"
 				}
 			}
 		},
@@ -255,7 +255,7 @@ return {
 					actor = 307020,
 					dir = -1,
 					pos = {
-						x = -735
+						x = -1102.5
 					}
 				}
 			},

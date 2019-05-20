@@ -30,25 +30,17 @@ class("GetChargeListCommand", pm.SimpleCommand).execute = function (slot0, slot1
 			table.insert(slot4, slot9)
 		end
 
-		slot5 = {}
+		slot5 = getProxy(ShopsProxy)
 
-		for slot9, slot10 in ipairs(slot0.daily_pay_list) do
-			slot5[slot10.shop_id] = slot10.pay_count
-		end
-
-		slot6 = getProxy(ShopsProxy)
-
-		slot6:setChargedList(slot1)
-		slot6:setFirstChargeList(slot2)
-		slot6:setNormalList(slot3)
-		slot6:setNormalGroupList(slot4)
-		slot6:setDailyPayList(slot5)
+		slot5:setChargedList(slot1)
+		slot5:setFirstChargeList(slot2)
+		slot5:setNormalList(slot3)
+		slot5:setNormalGroupList(slot4)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST_DONE, {
 			chargedList = slot1,
 			firstChargeIds = slot2,
 			normalList = slot3,
-			normalGroupList = slot4,
-			dailyPayList = slot5
+			normalGroupList = slot4
 		})
 	end)
 end

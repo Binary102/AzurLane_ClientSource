@@ -213,13 +213,13 @@ return {
 			bgm = "theme",
 			hideOther = true,
 			actorName = "Amagi and Kaga",
-			say = "<size=40>Come!!</size>",
+			say = "<size=60>Come!!</size>",
 			subActors = {
 				{
 					dir = -1,
 					actor = 304050,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			}

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Holy Night of Love and Peace\n\n<size=30>Chapter 8 - Merry Christmas!</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 8 - Merry Christmas!</size>",
 					1
 				}
 			}
@@ -251,13 +251,13 @@ return {
 				{
 					actor = 305022,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301321,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -410,7 +410,7 @@ return {
 				{
 					actor = 305022,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -588,7 +588,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=40>LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</size>",
+			say = "<size=60>LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

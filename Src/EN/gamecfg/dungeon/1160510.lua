@@ -1,7 +1,7 @@
 return {
 	id = 1012500,
 	map_id = 10008,
-	bgm = "battle-uta2",
+	bgm = "battle-uta",
 	stages = {
 		{
 			stageIndex = 1,

@@ -22,7 +22,11 @@ function slot0.init(slot0)
 	slot1 = pg.shop_template
 
 	onButton(slot0, slot0.goldAddBtn, function ()
-		pg.MsgboxMgr:GetInstance():showSingleItemBox({
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_SINGLE_ITEM,
+			windowSize = {
+				y = 570
+			},
 			content = i18n("gold_buy_tip"),
 			drop = {
 				id = 1,
@@ -34,7 +38,8 @@ function slot0.init(slot0)
 					count = 1,
 					id = pg.m02.sendNotification
 				})
-			end
+			end,
+			weight = LayerWeightConst.TOP_LAYER
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
@@ -50,10 +55,12 @@ function slot0.init(slot0)
 			slot2 = ShopArgs.getOilByLevel(slot0.player.level)
 		end
 
-		limitCount = pg.gameset.buy_oil_limit.key_value
-
-		if slot0.player.buyOilCount < limitCount then
-			pg.MsgboxMgr:GetInstance():showSingleItemBox({
+		if slot0.player.buyOilCount < pg.gameset.buy_oil_limit.key_value then
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				windowSize = {
+					y = 570
+				},
 				content = i18n("oil_buy_tip", slot1.resource_num, slot2, slot0.player.buyOilCount),
 				drop = {
 					id = 2,
@@ -65,10 +72,12 @@ function slot0.init(slot0)
 						count = 1,
 						id = pg.m02.sendNotification
 					})
-				end
+				end,
+				weight = LayerWeightConst.TOP_LAYER
 			})
 		else
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = i18n("help_oil_buy_limit"),
 				custom = {
 					{
@@ -80,13 +89,27 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		function ()
-			pg.m02:sendNotification(slot0.GO_MALL)
-
+		function slot0()
 			if not pg.m02:hasMediator(ChargeMediator.__cname) then
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE)
+				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+					wrap = ChargeScene.TYPE_DIAMOND
+				})
+			else
+				pg.m02:sendNotification(slot0.GO_MALL)
 			end
-		end()
+		end
+
+		if isAiriJP() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				fontSize = 23,
+				yesText = "text_buy",
+				content = i18n("word_diamond_tip", slot1.player:getFreeGem(), slot1.player:getChargeGem(), slot1.player:getTotalGem()),
+				onYes = slot0,
+				alignment = TextAnchor.UpperLeft
+			})
+		else
+			slot0()
+		end
 	end, SFX_PANEL)
 end
 
@@ -97,9 +120,9 @@ end
 function slot0.setResources(slot0, slot1)
 	slot0.player = slot1
 
-	setText(slot0.goldMax, "MAX:" .. slot3)
+	setText(slot0.goldMax, "MAX: " .. slot3)
 	setText(slot0.goldValue, slot1.gold)
-	setText(slot0.oilMax, "MAX:" .. slot4)
+	setText(slot0.oilMax, "MAX: " .. slot4)
 	setText(slot0.oilValue, slot1.oil)
 	setText(slot0.gemValue, slot1:getTotalGem())
 end

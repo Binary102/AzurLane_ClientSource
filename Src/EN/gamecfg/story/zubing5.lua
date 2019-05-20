@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Ashigara, Advance!\n\n<size=30>Chapter 5 - Ashigara, Confused!</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 5 - Ashigara, Confused!</size>",
 					1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			say = "Heyyy! Ashigara! Get up already!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -281,7 +281,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -308,7 +308,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

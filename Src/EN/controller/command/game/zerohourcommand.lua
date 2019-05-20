@@ -80,24 +80,29 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	slot0:sendNotification(GAME.CLASS_FORCE_UPDATE)
 	getProxy(TechnologyProxy).updateRefreshFlag(slot20, 0)
+	PlayerPrefs.SetInt("stop_remind_operation", 0)
+	PlayerPrefs.Save()
 
 	slot21 = getProxy(TaskProxy)
 	slot22 = getProxy(ActivityProxy)
 
 	_.each(slot23, function (slot0)
 		if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 3 then
-			slot2 = pg.TimeMgr.GetInstance()
-			slot3 = math.clamp(slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1, 1, #slot0:getConfig("config_data"))
+			slot1 = slot0:getConfig("config_data")
 
-			if slot0.data3 == 0 or (slot4 < slot3 and _.all(_.flatten({
-				slot1[slot4]
-			}), function (slot0)
-				return slot0:getFinishTaskById(slot0) ~= nil
-			end)) then
-				pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
-					cmd = 1,
-					activity_id = slot0.id
-				})
+			if slot0.data1 < pg.TimeMgr.GetInstance():GetServerTime() then
+				slot3 = math.clamp(slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1, 1, #slot1)
+
+				if slot0.data3 == 0 or (slot4 < slot3 and _.all(_.flatten({
+					slot1[slot4]
+				}), function (slot0)
+					return slot0:getFinishTaskById(slot0) ~= nil
+				end)) then
+					pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
+						cmd = 1,
+						activity_id = slot0.id
+					})
+				end
 			end
 		end
 	end)

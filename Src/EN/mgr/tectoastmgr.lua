@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.TecToastMgr = singletonClass("TecToastMgr")
 pg.TecToastMgr.FADE_TIME = 0.4
-pg.TecToastMgr.FADE_OUT_TIME = 0.4
+pg.TecToastMgr.FADE_OUT_TIME = 1
 pg.TecToastMgr.SHOW_TIME = 1.5
 pg.TecToastMgr.DELAY_TIME = 0.3
 
@@ -71,11 +71,15 @@ function pg.TecToastMgr.Show(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	setActive(slot0._go, true)
+	setActive(slot0.pointItem, true)
 
 	function slot7()
+		LeanTween.moveX(rtf(slot0), 0, slot1.FADE_OUT_TIME)
 		LeanTween.value(LeanTween.value, 1, 0, slot1.FADE_OUT_TIME):setOnUpdate(System.Action_float(System.Action_float)):setOnComplete(System.Action(function ()
-			if not slot0 then
-				slot1:onLast()
+			setActive(tf(slot0), false)
+
+			if not tf(slot0) then
+				slot2:onLast()
 			end
 		end))
 	end
@@ -87,27 +91,30 @@ function pg.TecToastMgr.Show(slot0, slot1, slot2, slot3, slot4)
 	for slot11, slot12 in ipairs(slot0.itemList) do
 		LeanTween.delayedCall(slot5, slot11 * slot1.DELAY_TIME, System.Action(function ()
 			if slot0 == #slot1.itemList then
-				slot1:itemFunc(slot2, true)
+				slot1:itemFunc(slot2, slot1.itemFunc, true)
 			else
-				slot1:itemFunc(slot2)
+				slot1:itemFunc(slot2, slot1.itemFunc)
 			end
 		end))
 	end
 end
 
-function pg.TecToastMgr.itemFunc(slot0, slot1, slot2)
-	slot3 = GetComponent(slot1.transform, "CanvasGroup")
+function pg.TecToastMgr.itemFunc(slot0, slot1, slot2, slot3)
+	slot4 = GetComponent(slot1.transform, "CanvasGroup")
 
-	function slot5()
+	function slot6()
+		LeanTween.moveX(rtf(slot0), 0, slot1.FADE_OUT_TIME)
 		LeanTween.value(LeanTween.value, 1, 0, slot1.FADE_OUT_TIME):setOnUpdate(System.Action_float(System.Action_float)):setOnComplete(System.Action(function ()
-			if slot0 then
-				slot1:onLast()
+			setActive(setActive, false)
+
+			if setActive then
+				slot2:onLast()
 			end
 		end))
 	end
 
-	LeanTween.value(slot1, 0, 1, slot0.FADE_TIME):setOnUpdate(System.Action_float(slot4)):setOnComplete(System.Action(function ()
-		LeanTween.delayedCall(LeanTween.delayedCall, slot1.SHOW_TIME, System.Action(slot1.SHOW_TIME))
+	LeanTween.value(slot1, 0, 1, slot0.FADE_TIME):setOnUpdate(System.Action_float(slot5)):setOnComplete(System.Action(function ()
+		LeanTween.delayedCall(LeanTween.delayedCall, slot1.SHOW_TIME + (slot1.FADE_OUT_TIME - slot1.DELAY_TIME) * slot1.SHOW_TIME, System.Action(System.Action))
 	end))
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=30>七 逞强和真心・下</size>",
+					"我的美好回忆\n\n<size=45>七 逞强和真心・下</size>",
 					1
 				}
 			}
@@ -167,7 +167,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}

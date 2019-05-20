@@ -88,7 +88,17 @@ function pg.CriMgr.PlayCV(slot0, slot1, slot2)
 end
 
 function pg.CriMgr.StopCV(slot0)
+	print("CV track --> StopCV")
+
+	slot0.onStopCV = true
+
 	slot0.cvPlayer:Stop()
+end
+
+function pg.CriMgr.ResumeCV(slot0)
+	print("CV track --> ResumeCV")
+
+	slot0.onStopCV = false
 end
 
 function pg.CriMgr.setStoryBGM(slot0, slot1)

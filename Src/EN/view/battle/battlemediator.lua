@@ -9,6 +9,8 @@ slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
 
 function slot0.register(slot0)
+	Screen.sleepTimeout = SleepTimeout.NeverSleep
+
 	slot0:GenBattleData()
 
 	slot1 = ys.Battle.BattleState.GetInstance()
@@ -112,7 +114,8 @@ function slot0.onPauseBtn(slot0)
 			})
 		end
 
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_rule"),
 			onClose = function ()
 				ys.Battle.BattleState.GetInstance():Resume()
@@ -124,7 +127,8 @@ function slot0.onPauseBtn(slot0)
 		})
 		slot1:Pause()
 	elseif slot0.contextData.system == SYSTEM_DODGEM then
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_warspite"),
 			onClose = function ()
 				ys.Battle.BattleState.GetInstance():Resume()
@@ -146,7 +150,8 @@ function slot0.onPauseBtn(slot0)
 		})
 		slot1:Pause()
 	elseif slot0.contextData.system == SYSTEM_SIMULATION then
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_rule"),
 			onClose = function ()
 				ys.Battle.BattleState.GetInstance():Resume()
@@ -167,6 +172,11 @@ function slot0.onPauseBtn(slot0)
 			}
 		})
 		slot1:Pause()
+	elseif slot0.contextData.system == SYSTEM_SUBMARINE_RUN then
+		slot1:Pause()
+		slot0:warnFunc(function ()
+			ys.Battle.BattleState.GetInstance():Resume()
+		end)
 	else
 		slot0.viewComponent:updatePauseWindow()
 		slot1:Pause()
@@ -185,7 +195,7 @@ function slot0.warnFunc(slot0, slot1)
 		onClose = slot1,
 		custom = {
 			{
-				text = "text_cancel_g",
+				text = "text_cancel",
 				onCallback = slot1,
 				sound = SFX_CANCEL
 			},
@@ -212,12 +222,14 @@ function slot1(slot0, slot1, slot2, slot3)
 		if slot9 then
 			slot4[#slot4 + 1] = {
 				id = slot9.configId,
-				skin = slot9.skinId
+				skin = slot9.skinId,
+				equipmentInfo = slot9
 			}
 		else
 			slot4[#slot4 + 1] = {
 				skin = 0,
-				id = slot9
+				id = slot9,
+				equipmentInfo = slot9
 			}
 		end
 	end
@@ -294,77 +306,132 @@ function slot0.GenBattleData(slot0)
 		slot10 = slot6.fleet.getShipsByTeam(slot7, TeamType.Main, false)
 		slot11 = slot6.fleet.getShipsByTeam(slot7, TeamType.Vanguard, false)
 		slot12 = {}
+		slot13, slot14 = slot5.getSubAidFlag(slot6)
 
-		if _.detect(slot6.fleets, function (slot0)
-			return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
-		end) then
-			slot15 = getProxy(PlayerProxy).getRawData(slot14)
-			slot16, slot17 = slot6:getFleetCost(slot7)
-			slot18, slot19 = slot6:getFleetAmmo(slot13)
+		if slot13 == true then
+			slot1.SubFlag = 1
+			slot1.TotalSubAmmo = 1
+			slot12 = slot14:getShipsByTeam(TeamType.Submarine, false)
+		else
+			slot1.SubFlag = slot13
 
-			if slot19 <= 0 then
-				slot1.SubFlag = ys.Battle.BattleConst.SubAidFlag.AMMO_EMPTY
+			if slot13 ~= ys.Battle.BattleConst.SubAidFlag.AID_EMPTY then
 				slot1.TotalSubAmmo = 0
-			elseif slot15.oil < slot13:getSummonCost() + slot17.oil then
-				slot1.SubFlag = ys.Battle.BattleConst.SubAidFlag.OIL_EMPTY
+			end
+		end
+
+		slot0.mainShips = {}
+
+		for slot18, slot19 in ipairs(slot10) do
+			slot21 = slot19.hpRant * 0.0001
+
+			if table.contains(slot4, slot19.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot20
+			slot0(slot2, slot19, slot8).initHPRate = slot21
+
+			table.insert(slot0.mainShips, slot19)
+			table.insert(slot1.MainUnitList, slot0(slot2, slot19, slot8))
+		end
+
+		for slot18, slot19 in ipairs(slot11) do
+			slot21 = slot19.hpRant * 0.0001
+
+			if table.contains(slot4, slot19.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot20
+			slot0(slot2, slot19, slot8).initHPRate = slot21
+
+			table.insert(slot0.mainShips, slot19)
+			table.insert(slot1.VanguardUnitList, slot0(slot2, slot19, slot8))
+		end
+
+		for slot18, slot19 in ipairs(slot12) do
+			slot21 = slot19.hpRant * 0.0001
+
+			if table.contains(slot4, slot19.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot20
+			slot0(slot2, slot19, slot9).initHPRate = slot21
+
+			table.insert(slot0.mainShips, slot19)
+			table.insert(slot1.SubUnitList, slot0(slot2, slot19, slot9))
+		end
+
+		slot0.viewComponent:setFleet(slot10, slot11, slot12)
+	elseif slot2 == SYSTEM_WORLD then
+		slot6 = getProxy(WorldProxy).GetWorld(slot5)
+		slot7 = slot6:GetActiveMap()
+		slot8 = slot7:GetFleet()
+		slot1.AffixBuffList = slot7:GetCell(slot8.row, slot8.column).GetStageEnemy(slot9).GetBattleBuffList(slot10)
+		slot11 = slot8:GetTeamShipVOs(TeamType.Main, false)
+		slot12 = slot8:GetTeamShipVOs(TeamType.Vanguard, false)
+		slot13 = {}
+
+		if slot6:IsSubmarineSupporting() then
+			if slot7:GetSubmarineFleet().GetAmmo(slot14) <= 0 then
+				slot1.SubFlag = ys.Battle.BattleConst.SubAidFlag.AMMO_EMPTY
 				slot1.TotalSubAmmo = 0
 			else
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
-				slot12 = slot13:getShipsByTeam(TeamType.Submarine, false)
+				slot13 = slot14:GetTeamShipVOs(TeamType.Submarine, false)
 			end
-
-			slot9 = _.values(slot13:getCommanders())
-			slot20, slot1.SubCommanderList = slot6:getFleetBattleBuffs(slot13)
 		else
 			slot1.SubFlag = ys.Battle.BattleConst.SubAidFlag.AID_EMPTY
 		end
 
 		slot0.mainShips = {}
 
-		for slot17, slot18 in ipairs(slot10) do
-			slot20 = slot18.hpRant * 0.0001
-
-			if table.contains(slot4, slot18.id) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot19
-			slot0(slot2, slot18, slot8).initHPRate = slot20
-
-			table.insert(slot0.mainShips, slot18)
-			table.insert(slot1.MainUnitList, slot0(slot2, slot18, slot8))
-		end
-
 		for slot17, slot18 in ipairs(slot11) do
-			slot20 = slot18.hpRant * 0.0001
+			slot20 = slot18.bindingData.hpRant * 0.0001
 
 			if table.contains(slot4, slot18.id) then
 				BattleVertify.cloneShipVertiry = true
 			end
 
 			slot4[#slot4 + 1] = slot19
-			slot0(slot2, slot18, slot8).initHPRate = slot20
+			slot0(slot2, slot18).initHPRate = slot20
 
 			table.insert(slot0.mainShips, slot18)
-			table.insert(slot1.VanguardUnitList, slot0(slot2, slot18, slot8))
+			table.insert(slot1.MainUnitList, slot0(slot2, slot18))
 		end
 
 		for slot17, slot18 in ipairs(slot12) do
-			slot20 = slot18.hpRant * 0.0001
+			slot20 = slot18.bindingData.hpRant * 0.0001
 
 			if table.contains(slot4, slot18.id) then
 				BattleVertify.cloneShipVertiry = true
 			end
 
 			slot4[#slot4 + 1] = slot19
-			slot0(slot2, slot18, slot9).initHPRate = slot20
+			slot0(slot2, slot18).initHPRate = slot20
 
 			table.insert(slot0.mainShips, slot18)
-			table.insert(slot1.SubUnitList, slot0(slot2, slot18, slot9))
+			table.insert(slot1.VanguardUnitList, slot0(slot2, slot18))
 		end
 
-		slot0.viewComponent:setFleet(slot10, slot11, slot12)
+		for slot17, slot18 in ipairs(slot13) do
+			slot20 = slot18.bindingData.hpRant * 0.0001
+
+			if table.contains(slot4, slot18.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot4[#slot4 + 1] = slot19
+			slot0(slot2, slot18).initHPRate = slot20
+
+			table.insert(slot0.mainShips, slot18)
+			table.insert(slot1.SubUnitList, slot0(slot2, slot18))
+		end
+
+		slot0.viewComponent:setFleet(slot11, slot12, slot13)
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS then
 		if slot0.contextData.mainFleetId then
 			slot8 = getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][11]
@@ -507,59 +574,88 @@ function slot0.GenBattleData(slot0)
 	end
 
 	slot7 = slot0.contextData.prefabFleet.vanguard_unitList
+	slot8 = slot0.contextData.prefabFleet.submarine_unitList
 
 	if slot0.contextData.prefabFleet.main_unitList then
-		for slot11, slot12 in ipairs(slot6) do
-			slot13 = {}
+		for slot12, slot13 in ipairs(slot6) do
+			slot14 = {}
 
-			for slot17, slot18 in ipairs(slot12.equipment) do
-				slot13[#slot13 + 1] = {
+			for slot18, slot19 in ipairs(slot13.equipment) do
+				slot14[#slot14 + 1] = {
 					skin = 0,
-					id = slot18
+					id = slot19
 				}
 			end
 
 			table.insert(slot1.MainUnitList, {
-				id = slot12.id,
-				tmpID = slot12.configId,
-				skinId = slot12.skinId,
-				level = slot12.level,
-				equipment = slot13,
-				properties = slot12.properties,
+				id = slot13.id,
+				tmpID = slot13.configId,
+				skinId = slot13.skinId,
+				level = slot13.level,
+				equipment = slot14,
+				properties = slot13.properties,
 				proficiency = {
 					1,
 					1,
 					1
 				},
-				skills = slot12.skills
+				skills = slot13.skills
 			})
 		end
 	end
 
 	if slot7 then
-		for slot11, slot12 in ipairs(slot7) do
-			slot13 = {}
+		for slot12, slot13 in ipairs(slot7) do
+			slot14 = {}
 
-			for slot17, slot18 in ipairs(slot12.equipment) do
-				slot13[#slot13 + 1] = {
+			for slot18, slot19 in ipairs(slot13.equipment) do
+				slot14[#slot14 + 1] = {
 					skin = 0,
-					id = slot18
+					id = slot19
 				}
 			end
 
 			table.insert(slot1.VanguardUnitList, {
-				id = slot12.id,
-				tmpID = slot12.configId,
-				skinId = slot12.skinId,
-				level = slot12.level,
-				equipment = slot13,
-				properties = slot12.properties,
+				id = slot13.id,
+				tmpID = slot13.configId,
+				skinId = slot13.skinId,
+				level = slot13.level,
+				equipment = slot14,
+				properties = slot13.properties,
 				proficiency = {
 					1,
 					1,
 					1
 				},
-				skills = slot12.skills
+				skills = slot13.skills
+			})
+		end
+	end
+
+	if slot8 then
+		for slot12, slot13 in ipairs(slot8) do
+			slot14 = {}
+
+			for slot18, slot19 in ipairs(slot13.equipment) do
+				slot14[#slot14 + 1] = {
+					skin = 0,
+					id = slot19
+				}
+			end
+
+			table.insert(slot1.SubUnitList, {
+				id = slot13.id,
+				tmpID = slot13.configId,
+				skinId = slot13.skinId,
+				level = slot13.level,
+				equipment = slot14,
+				properties = slot13.properties,
+				proficiency = {
+					1,
+					1,
+					1
+				},
+				skills = slot13.skills
 			})
 		end
 	end
@@ -603,10 +699,17 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		else
 			slot6 = nil
+			slot6 = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and (slot5 ~= SYSTEM_SUBMARINE_RUN or BattleSubmarineRunResultLayer) and (slot5 ~= SYSTEM_HP_SHARE_ACT_BOSS or BattleContributionResultLayer) and BattleResultLayer
+			slot7 = {}
+
+			if slot5 == SYSTEM_SCENARIO then
+				chapter = getProxy(ChapterProxy):getActiveChapter()
+				slot7 = chapter.operationBuffList
+			end
 
 			slot0:addSubLayers(Context.New({
 				mediator = BattleResultMediator,
-				viewComponent = (slot5 ~= SYSTEM_CHALLENGE or BattleChallengeResultLayer) and (slot5 ~= SYSTEM_DODGEM or BattleDodgemResultLayer) and (slot5 ~= SYSTEM_HP_SHARE_ACT_BOSS or BattleContributionResultLayer) and BattleResultLayer,
+				viewComponent = slot6,
 				data = {
 					system = slot5,
 					rivalId = slot0.contextData.rivalId,
@@ -621,7 +724,9 @@ function slot0.handleNotification(slot0, slot1)
 					prefabFleet = slot3.prefabFleet,
 					commanderExps = slot3.commanderExps,
 					actId = slot0.contextData.actId,
-					result = slot3.result
+					result = slot3.result,
+					extraDrops = slot3.extraDrops,
+					extraBuffList = slot7
 				}
 			}))
 		end
@@ -640,6 +745,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == slot0.CLOSE_CHAT then
 		slot0.viewComponent:OnCloseChat()
 	end
+end
+
+function slot0.remove(slot0)
+	Screen.sleepTimeout = SleepTimeout.SystemSetting
 end
 
 return slot0

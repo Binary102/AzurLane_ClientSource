@@ -84,11 +84,7 @@ function slot4.UpdateSubVictory(slot0)
 end
 
 function slot4.UpdateOxygenBar(slot0)
-	slot1 = slot0._unitData:GetPhaseSwitcher()
-
-	if slot0._unitData:GetOxyState():GetCurrentStateName() == slot0.Battle.RaidOxyState.__name then
-		slot0._oxygenSlider.value = 1 - slot1:GetPhaseProgress()
-	end
+	slot0._oxygenSlider.value = slot0._unitData:GetOxygenProgress()
 end
 
 function slot4.UpdateVectorBar(slot0)
@@ -132,7 +128,7 @@ end
 function slot4.UpdateDiveInvisible(slot0)
 	slot0.super.UpdateDiveInvisible(slot0)
 	SetActive(slot0._diveMark, slot1)
-	SetActive(slot0._oxygenBar, slot0._unitData:GetDiveInvisible())
+	SetActive(slot0._oxygenBar, slot0._unitData:GetOxygenVisible())
 end
 
 function slot4.Dispose(slot0)

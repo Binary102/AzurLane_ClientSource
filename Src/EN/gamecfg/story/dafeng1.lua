@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=30>一 秘书舰的工作(?)·上</size>",
+					"“献身”的{namecode:97}\n\n<size=45>一 秘书舰的工作(?)·上</size>",
 					1
 				}
 			}

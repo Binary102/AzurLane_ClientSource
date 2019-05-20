@@ -58,7 +58,7 @@ function slot0.init(slot0)
 	slot0.overlay = pg.UIMgr:GetInstance().OverlayMain
 	slot1 = {
 		"grade_label_d",
-		"grade_label_over_time",
+		"grade_label_c",
 		"grade_label_b",
 		"grade_label_a",
 		"grade_label_s"
@@ -68,7 +68,7 @@ function slot0.init(slot0)
 	if slot0.contextData.score > 0 then
 		slot2 = slot1[slot3 + 1]
 	else
-		slot2 = (slot0.contextData.statistics._scoreMark == ys.Battle.BattleConst.DEAD_FLAG and "grade_label_flag_destroy") or "grade_label_team_kill"
+		slot2 = (slot0.contextData.statistics._scoreMark == ys.Battle.BattleConst.DEAD_FLAG and "grade_label_flag_destroy") or slot1[1]
 
 		SetActive(slot0._continueBtn, false)
 	end

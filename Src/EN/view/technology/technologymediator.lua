@@ -75,16 +75,10 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 
 			if #slot2.commons > 0 then
-				slot0:addSubLayers(Context.New({
-					mediator = AwardInfoMediator,
-					viewComponent = AwardInfoLayer,
-					data = {
-						animtion = true,
-						awards = {
-							items = slot5
-						}
-					}
-				}))
+				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+					animtion = true,
+					items = slot5
+				})
 			end
 
 			slot0:onRefresh()

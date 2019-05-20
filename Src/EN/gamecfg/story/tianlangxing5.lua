@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Sirius' Improvement Plan\n\n<size=30>Chapter 5 - Take My Hand</size>",
+					"Sirius' Improvement Plan\n\n<size=45>Chapter 5 - Take My Hand</size>",
 					1
 				}
 			}
@@ -201,7 +201,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -223,7 +223,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -245,7 +245,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -295,7 +295,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			}
 		},
 		{
@@ -317,7 +317,7 @@ return {
 			},
 			actorPosition = {
 				x = 0,
-				y = -150
+				y = -225
 			},
 			action = {
 				{
@@ -331,7 +331,7 @@ return {
 					}
 				},
 				{
-					y = 150,
+					y = 225,
 					type = "move",
 					delay = 0,
 					dur = 0.2,

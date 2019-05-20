@@ -46,8 +46,9 @@ end
 
 function slot0.init(slot0)
 	slot0.toggleType = slot0.TOGGLE_UNDEFINED
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.indexBtn = slot0:findTF("top/index_button")
+	slot0.topTF = slot0:findTF("blur_panel/adapt/top")
+	slot0.backBtn = slot0:findTF("back_btn", slot0.topTF)
+	slot0.indexBtn = slot0:findTF("index_button", slot0.topTF)
 	slot0.toggleChar = slot0:findTF("list_card/types/char")
 	slot0.toggleLink = slot0:findTF("list_card/types/link")
 	slot0.toggleBlueprint = slot0:findTF("list_card/types/blueprint")
@@ -66,9 +67,6 @@ function slot0.init(slot0)
 		slot0:onReturnCard(slot0, slot1)
 	end
 
-	slot0.cardShip = slot0:findTF("ship", slot0.cardList)
-
-	setActive(slot0.cardShip, false)
 	slot0:initSelectSkinPanel()
 	cameraPaintViewAdjust(false)
 end
@@ -246,7 +244,7 @@ end
 
 function slot3(slot0)
 	slot1 = {}
-	slot3 = getProxy(BayProxy).getSkinList(slot2)
+	slot3 = getProxy(ShipSkinProxy).getSkinList(slot2)
 
 	if getProxy(CollectionProxy):getShipGroup(slot0) then
 		for slot9, slot10 in ipairs(slot5) do
@@ -311,7 +309,7 @@ function slot0.initSelectSkinPanel(slot0)
 
 	slot0.skinScroll = slot0:findTF("select_skin/style_scroll", slot0.skinPanel)
 	slot0.skinContainer = slot0:findTF("view_port", slot0.skinScroll)
-	slot0.skinCard = slot0:findTF("style_card", slot0.skinScroll)
+	slot0.skinCard = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 
 	setActive(slot0.skinCard, false)
 	setActive(slot0.skinPanel, false)

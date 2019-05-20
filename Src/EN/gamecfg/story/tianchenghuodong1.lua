@@ -255,23 +255,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>............</size>",
+					"<size=51>............</size>",
 					2
 				},
 				{
-					"<size=34>......</size>",
+					"<size=51>......</size>",
 					4
 				},
 				{
-					"<size=34>To let my guard down... at such a critical time...</size>",
+					"<size=51>To let my guard down... at such a critical time...</size>",
 					6
 				},
 				{
-					"<size=34>…</size> ",
+					"<size=51>…</size> ",
 					8
 				},
 				{
-					"<size=34>...I'm sorry. Looks like I couldn't live up to your expectations...</size>",
+					"<size=51>...I'm sorry. Looks like I couldn't live up to your expectations...</size>",
 					10
 				},
 				{
@@ -279,7 +279,7 @@ return {
 					12
 				},
 				{
-					"<size=34>Amagi... san...</size>",
+					"<size=51>Amagi... san...</size>",
 					14
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=34>                                                              ——Crimson Echoes</size>",
+					"<size=51>                                                              ——Crimson Echoes</size>",
 					2
 				}
 			}
@@ -347,7 +347,7 @@ return {
 			say = "Argh!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			say = "Aaahh! God dammit!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

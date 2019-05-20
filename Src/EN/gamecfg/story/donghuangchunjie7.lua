@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Lunar New Year!\n\n<size=30>Chapter 7 - A Lively, Happy New Year</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 7 - A Lively, Happy New Year</size>",
 					1
 				}
 			}
@@ -152,14 +152,14 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.2,
-					x = 200
+					x = 300
 				},
 				{
 					y = 0,
 					type = "move",
 					delay = 0.2,
 					dur = 0.2,
-					x = -200
+					x = -300
 				}
 			}
 		},
@@ -194,7 +194,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -243,7 +243,7 @@ return {
 			},
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -287,7 +287,7 @@ return {
 			},
 			action = {
 				{
-					y = -1000,
+					y = -1500,
 					type = "move",
 					delay = 1,
 					dur = 0.2,
@@ -312,7 +312,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -338,7 +338,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -446,7 +446,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -645,7 +645,7 @@ return {
 			say = "Fu Shuuuuuuun!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>V 「Rabbit Alien Characteristics—— “Love”!」</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=45>V 「Rabbit Alien Characteristics—— “Love”!」</size>",
 					1
 				}
 			}

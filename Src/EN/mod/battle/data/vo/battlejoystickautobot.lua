@@ -3,7 +3,7 @@ ys.Battle.BattleJoyStickAutoBot = class("BattleJoyStickAutoBot")
 ys.Battle.BattleJoyStickAutoBot.__name = "BattleJoyStickAutoBot"
 ys.Battle.BattleJoyStickAutoBot.COUNTER_MAIN = "CounterMainRandomStrategy"
 ys.Battle.BattleJoyStickAutoBot.RANDOM = "RandomStrategy"
-ys.Battle.BattleJoyStickAutoBot.AUTO_PILOT = "AutoPilotStrategy"
+ys.Battle.BattleJoyStickAutoBot.AUTO_PILOT = "RandomStrategy"
 
 function ys.Battle.BattleJoyStickAutoBot.Ctor(slot0, slot1, slot2)
 	slot0._dataProxy = slot1

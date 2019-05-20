@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Class Z III\n\n<size=30>Who's There?</size>",
+					"Class Z III\n\n<size=45>Who's There?</size>",
 					1
 				}
 			}

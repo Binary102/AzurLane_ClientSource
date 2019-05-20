@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Sugary Concord\n\n<size=30>Chapter 1: A Sweet Girl?</size>",
+					"Sugary Concord\n\n<size=45>Chapter 1: A Sweet Girl?</size>",
 					1
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -272,7 +272,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -346,7 +346,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

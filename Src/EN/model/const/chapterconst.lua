@@ -243,10 +243,11 @@ function slot0.GetAmbushDisplay(slot0)
 	return slot1, slot2
 end
 
-slot0.EnemyAttackDisplay = "In action"
+slot0.EnemyAttackDisplay = "遇敌"
 slot0.ShipMoveAction = "move"
 slot0.ShipIdleAction = "normal"
 slot0.ShipStepDuration = 0.5
+slot0.ShipMoveTailLength = 2
 
 function slot0.GetRepairParams()
 	return 1, 3, 100
@@ -274,8 +275,8 @@ slot0.EnemySize = {
 	3,
 	[99.0] = 99
 }
-slot0.ActivateMirror = true
-slot0.MirrorShamId = 90000
+slot0.ActivateMirror = false
+slot0.MirrorShamId = 0
 slot0.ShamResetCountLimit = 1
 slot0.ShamShipLimit = 15
 slot0.ShamTeamShipLimit = 8

@@ -11,7 +11,7 @@ slot2 = 0
 slot3 = 1
 
 function slot0.getUIName(slot0)
-	return "EquipmentUI2"
+	return "EquipmentUI"
 end
 
 function slot0.setEquipments(slot0, slot1)
@@ -33,95 +33,120 @@ end
 slot4 = require("view.equipment.EquipmentSortCfg")
 
 function slot0.init(slot0)
-	slot0._guiderLoaded = true
-	slot0.showBusyEquip = true
-	slot0.emptySign = slot0:findTF("equipment_scrollview/equipment_empty")
+	slot1 = slot0.contextData
+	slot0.showBusyEquip = false
 	slot0.topItems = slot0:findTF("topItems")
 	slot0.equipmentView = slot0:findTF("equipment_scrollview")
-	slot0.topPanel = slot0:findTF("top")
-	slot0.indexBtn = findTF(slot0.topPanel, "buttons/index_button")
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
+	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
 	slot0.indexPanel = slot0:findTF("index", slot0.topItems)
+	slot0.indexContain = slot0:findTF("mask/panel", slot0.indexPanel)
+	slot0.indexTpl = slot0:findTF("tpl", slot0.indexContain)
 
-	setActive(slot0.indexPanel, false)
+	setActive(slot0.indexTpl, false)
 
-	slot0.indexTpl = slot0:getTpl("mask/panel/tpl", slot0.indexPanel)
-	slot0.indexContain = findTF(slot0.indexPanel, "mask/panel")
-	slot0.sortBtn = findTF(slot0.topPanel, "buttons/sort_button")
+	slot0.sortBtn = slot0:findTF("buttons/sort_button", slot0.topPanel)
 	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
-	slot0.sortContain = findTF(slot0.sortPanel, "mask/panel")
+	slot0.sortContain = slot0:findTF("mask/panel", slot0.sortPanel)
+	slot0.sortTpl = slot0:findTF("tpl", slot0.sortContain)
+
+	setActive(slot0.sortTpl, false)
+
 	slot0.itemView = slot0:findTF("item_scrollview")
+	slot2 = slot0.itemView.rect.width > 2000
+	slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (slot2 and 8) or 7
+	slot0.itemView:Find("item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = (slot2 and 8) or 7
 	slot0.decBtn = findTF(slot0.topPanel, "buttons/dec_btn")
 	slot0.sortImgAsc = findTF(slot0.decBtn, "asc")
 	slot0.sortImgDec = findTF(slot0.decBtn, "desc")
-	slot0.switchBtn = findTF(slot0.topPanel, "buttons/switch_button")
+	slot0.equipmentBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/equipment")
+	slot0.equipmentSkinBtn = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_root/skin")
+	slot0.filterBusyToggle = slot0:findTF("blur_panel/adapt/left_length/frame/toggle_equip")
+
+	setActive(slot0.filterBusyToggle, false)
+
 	slot0.bottomBack = slot0:findTF("bottom_back", slot0.topItems)
 	slot0.bottomPanel = slot0:findTF("types", slot0.bottomBack)
 	slot0.materialToggle = slot0.bottomPanel:Find("material")
 	slot0.weaponToggle = slot0.bottomPanel:Find("weapon")
 	slot0.designToggle = slot0.bottomPanel:Find("design")
-	slot0.filterBusyToggle = slot0.bottomBack:Find("filter_busy")
-
-	setActive(slot0.filterBusyToggle, false)
-
-	slot0.filterBusySkinToggle = slot0.bottomBack:Find("filter_busy_skin")
-
-	setActive(slot0.filterBusySkinToggle, false)
-
-	slot0.capacityTF = slot0:findTF("bottom_left/tip/Text", slot0.bottomBack)
+	slot0.capacityTF = slot0:findTF("bottom_left/tip/capcity/Text", slot0.bottomBack)
 	slot0.tipTF = slot0:findTF("bottom_left/tip", slot0.bottomBack)
 	slot0.tip = slot0.tipTF:Find("label")
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.topItems)
-	slot0.backBtn = slot0:findTF("top/title/bg/back")
-	slot0.expansionBtn = slot0:findTF("top/kuorong")
 
-	setActive(slot0.expansionBtn, false)
-	pg.UIMgr.GetInstance():PartialBlur(slot0.topPanel:Find("title"), true)
+	setActive(slot0.helpBtn, true)
 
+	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.selectedMin = defaultValue(slot0.contextData.selectedMin, 1)
 	slot0.selectedMax = defaultValue(slot0.contextData.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
-	slot0.selectedIds = Clone(slot1.selectedIds or {})
-	slot0.checkEquipment = slot1.onEquipment or function (slot0)
+	slot0.selectedIds = Clone(slot0.contextData.selectedIds or {})
+	slot0.checkEquipment = slot0.contextData.onEquipment or function (slot0)
 		return true
 	end
-	slot0.onSelected = slot1.onSelected or function ()
+	slot0.onSelected = slot0.contextData.onSelected or function ()
 		warning("not implemented.")
+
+		return
 	end
 	slot0.BatchDisposeBtn = slot0:findTF("dispos", slot0.bottomPanel)
 	slot0.selectPanel = slot0:findTF("select_panel", slot0.topItems)
 
 	setActive(slot0.selectPanel, true)
 	setAnchoredPosition(slot0.selectPanel, {
-		y = -120
+		y = -124
 	})
 
 	slot0.selectEnabled = false
 	slot0.destroyConfirm = slot0:findTF("destroy_confirm", slot0.topItems)
-	slot0.destroyBonusList = slot0.destroyConfirm:Find("got/scrollview/list")
-	slot0.destroyBonusItem = slot0.destroyConfirm:Find("got/scrollview/item")
-	slot0.destroyBonusGold = slot0.destroyConfirm:Find("got/got_gold/count")
-	slot0.destroyNoGotTip = slot0.destroyConfirm:Find("got/tip")
+	slot0.destroyBonusList = slot0.destroyConfirm:Find("frame/bg/scrollview/list")
+	slot0.destroyBonusItem = slot0.destroyBonusList:Find("equipment_tpl")
+	slot0.destroyNoGotTip = slot0.destroyConfirm:Find("frame/bg/tip")
 
 	setActive(slot0.destroyConfirm, false)
 	setActive(slot0.destroyBonusItem, false)
 	setActive(slot0.destroyNoGotTip, false)
-	setAnchoredPosition(slot0.topPanel, {
-		y = slot0.topPanel.rect.height
-	})
-	setAnchoredPosition(slot0.bottomBack, {
-		y = -1 * slot0.bottomBack.rect.height
-	})
-	onNextTick(function ()
-		if slot0.exited then
-			return
-		end
-
-		slot0:uiStartAnimating()
-	end)
-	setActive(slot1.onSelected or function ()
+	setActive(slot0.contextData.onSelected or function ()
 		warning("not implemented.")
+
+		return
 	end, false)
 
 	slot0.assignedItemPanel = AssignedItemPanel.New(slot0:findTF("item_assigned_panel", slot0.topItems), slot0)
+
+	return
+
+	slot2 = false
+
+	if false then
+		slot2 = true
+	end
+
+	slot4 = 8
+
+	if 8 then
+		slot4 = 7
+	end
+
+	slot5 = 8
+
+	if 8 then
+		slot5 = 7
+	end
+
+	slot7 = 0
+	slot6 = 
+
+	function slot5(slot0)
+		return true
+	end
+
+	function slot5()
+		warning("not implemented.")
+
+		return
+	end
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -139,8 +164,27 @@ function slot0.setEquipment(slot0, slot1)
 		table.insert(slot0.equipmentVOs, slot1)
 	end
 
-	slot0:filterEquipment()
-	slot0:updateCapacity()
+	if slot0.contextData.warp == slot0.WARP_TO_WEAPON then
+		slot0:filterEquipment()
+		slot0:updateCapacity()
+	end
+
+	return
+end
+
+function slot0.removeEquipment(slot0, slot1)
+	slot0.equipmentVOByIds[slot1] = nil
+
+	for slot5 = #slot0.equipmentVOs, 1, -1 do
+		if slot0.equipmentVOs[slot5].id == slot1 then
+			table.remove(slot0.equipmentVOs, slot5)
+		end
+	end
+
+	if slot0.contextData.warp == slot0.WARP_TO_WEAPON then
+		slot0:filterEquipment()
+		slot0:updateCapacity()
+	end
 
 	return
 end
@@ -167,17 +211,24 @@ function slot0.setEquipmentSkin(slot0, slot1)
 		})
 	end
 
-	slot0:filterEquipment()
-	slot0:updateCapacity()
+	if slot0.contextData.warp == slot0.WARP_TO_WEAPON then
+		slot0:filterEquipment()
+		slot0:updateCapacity()
+	end
 
 	return
 end
 
 function slot0.didEnter(slot0)
-	slot0.warp = slot0.contextData.warp or slot0.WARP_TO_MATERIAL
+	if not slot0.contextData.warp then
+		slot1 = slot0.WARP_TO_MATERIAL
+	end
+
+	slot0.warp = slot1
+	slot0.contextData.warp = nil
 
 	setText(slot0:findTF("tip", slot0.selectPanel), i18n("equipment_select_device_destroy_tip"))
-	setText(slot0:findTF("title_text", slot0.destroyConfirm), i18n("equipment_select_device_destroy_bonus_tip"))
+	setText(slot0:findTF("frame/title_text/Text", slot0.destroyConfirm), i18n("equipment_select_device_destroy_bonus_tip"))
 	setText(slot0.destroyNoGotTip, i18n("equipment_select_device_destroy_nobonus_tip"))
 	setActive(slot0:findTF("stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot0:findTF("stamp", slot0.topItems), function ()
@@ -186,67 +237,135 @@ function slot0.didEnter(slot0)
 		return
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
-			helps = (slot0.page ~=  or pg.gametip.help_equipment_skin.tip) and pg.gametip.help_equipment.tip
+		if slot0.page ==  then
+			slot0 = pg.gametip.help_equipment_skin.tip
+		else
+			slot0 = pg.gametip.help_equipment.tip
+		end
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = slot0
 		})
 
 		return
 	end, SFX_PANEL)
 
-	slot0.page = slot2
+	if slot0.contextData.mode ~= slot0.SKIN or not slot1 then
+		slot1 = slot2
+	end
 
-	table.insert(slot0.contextData.warp or slot0.WARP_TO_MATERIAL, GetSpriteFromAtlas("ui/equipui_atlas", "common"))
-	table.insert(slot0.contextData.warp or slot0.WARP_TO_MATERIAL, GetSpriteFromAtlas("ui/equipui_atlas", "equipment_skin_selected"))
+	slot0.page = slot1
 
-	slot2 = slot0:findTF("Image", slot0.switchBtn):GetComponent(typeof(Image))
+	onToggle(slot0, slot0.equipmentBtn, function (slot0)
+		if slot0 then
+			slot0.page = slot0
 
-	onButton(slot0, slot0.switchBtn, function ()
-		slot0.page = 1 - slot0.page
-		1 - slot0.page.sprite = slot2[slot0.page + 1]
+			slot0:updatePageFilterButtons(slot0.page)
+			slot0:filterEquipment()
 
-		1 - slot0.page:updatePageFilterButtons(slot0.page)
+			slot2 = slot0.BatchDisposeBtn
 
-		if 1 - slot0.page.updatePageFilterButtons.asc then
-			triggerButton(slot0.decBtn)
+			if slot0.page ~= setActive then
+				slot3 = false
+			else
+				slot3 = true
+			end
+
+			slot1(slot2, slot3)
+
+			slot2 = slot0.capacityTF.parent
+
+			if slot0.page ~= setActive then
+				slot3 = false
+			else
+				slot3 = true
+			end
+
+			slot1(slot2, slot3)
 		end
 
-		triggerToggle(slot0.indexButtons[1], true)
-		triggerToggle(slot0.sortButtons[1], true)
-		slot0(slot0.BatchDisposeBtn, slot0.page == slot3)
-		slot0(slot0.tip, slot0.page == slot3)
-		slot0(slot0.capacityTF, slot0.page == slot3)
+		return
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.equipmentSkinBtn, function (slot0)
+		if slot0 then
+			slot0.page = slot0
+
+			slot0:updatePageFilterButtons(slot0.page)
+			slot0:filterEquipment()
+
+			slot1 = setActive
+
+			if slot0.page ~= slot0.BatchDisposeBtn then
+				slot3 = false
+			else
+				slot3 = true
+			end
+
+			slot1(slot2, slot3)
+
+			slot1 = setActive
+
+			if slot0.page ~= slot0.capacityTF.parent then
+				slot3 = false
+			else
+				slot3 = true
+			end
+
+			slot1(slot2, slot3)
+		end
 
 		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0 = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
-		slot0.interactable = false
+		if slot0.selectEnabled then
+			triggerButton(slot0.BatchDisposeBtn)
 
-		slot0:uiExitAnimating()
-		slot0:emit(slot1.ON_BACK, nil, 0.2)
+			return
+		end
+
+		GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).interactable = false
+
+		slot0:emit(slot1.ON_BACK)
 
 		return
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.sortBtn, function ()
-		slot0:showSortPanel()
+	onToggle(slot0, slot0.sortBtn, function (slot0)
+		if slot0 then
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.sortPanel, {
+				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+			})
+			setActive(slot0.sortPanel, true)
+		else
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.sortPanel, slot0.topItems)
+			setActive(slot0.sortPanel, false)
+		end
 
 		return
 	end, SFX_PANEL)
-	onButton(slot0, slot0.indexBtn, function ()
-		slot0:showIndexPanel()
+	onButton(slot0, slot0.sortPanel, function ()
+		triggerToggle(slot0.sortBtn, false)
+
+		return
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.indexBtn, function (slot0)
+		if slot0 then
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.indexPanel, {
+				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+			})
+			setActive(slot0.indexPanel, true)
+		else
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0.topItems)
+			setActive(slot0.indexPanel, false)
+		end
 
 		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel, function ()
-		slot0:closeIndexPanel()
+		triggerToggle(slot0.indexBtn, false)
 
 		return
-	end, SFX_CANCEL)
-	onButton(slot0, slot0.sortPanel, function ()
-		slot0:closeSortPanel()
-
-		return
-	end, SFX_CANCEL)
+	end, SFX_PANEL)
 
 	slot0.equipmetItems = {}
 	slot0.itemCards = {}
@@ -258,59 +377,84 @@ function slot0.didEnter(slot0)
 		slot0.contextData.indexData = slot3.index[1]
 	end
 
-	slot0.asc = slot0.contextData.asc or false
+	if not slot0.contextData.asc then
+		slot1 = false
+	end
+
+	slot0.asc = slot1
 
 	if not slot0.contextData.sortData then
 		slot0.contextData.sortData = slot3.sort[1]
 	end
 
-	slot0:initEquipmentIndex()
 	slot0:initSort()
+	slot0:initEquipmentIndex()
 	setActive(slot0.itemView, false)
 	setActive(slot0.equipmentView, false)
 	onToggle(slot0, slot0.materialToggle, function (slot0)
 		slot0.inMaterial = slot0
 
-		if slot0 then
+		if slot0 and slot0.contextData.warp ~= slot1.WARP_TO_MATERIAL then
 			slot0.contextData.warp = slot1.WARP_TO_MATERIAL
 
 			setText(slot0.tip, i18n("equipment_select_materials_tip"))
-			setText(slot0.capacityTF, "")
+			setActive(slot0.capacityTF.parent, false)
+			setActive(slot0.tip, true)
+			setActive(slot0.capacityTF.parent, false)
+			slot0:sortItems()
 		end
 
-		setActive(slot0.BatchDisposeBtn, not slot0)
 		setActive(slot0.helpBtn, not slot0)
-		setActive(slot0.tip, true)
-		setActive(slot0.capacityTF, true)
 
 		return
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.weaponToggle, function (slot0)
-		if slot0 then
+		if slot0 and slot0.contextData.warp ~= slot1.WARP_TO_WEAPON then
 			slot0.contextData.warp = slot1.WARP_TO_WEAPON
 
 			slot0:updateCapacity()
+			setActive(slot0.tip, false)
+			setActive(slot0.capacityTF.parent, true)
+
+			if slot0.page == slot0.capacityTF.parent then
+				triggerToggle(slot0.equipmentSkinBtn, true)
+			else
+				if slot0.page == slot3 then
+					triggerToggle(slot0.equipmentBtn, true)
+				end
+			end
 		end
 
-		setActive(slot0.BatchDisposeBtn, slot0 and slot0.page == slot0.BatchDisposeBtn)
-		setActive(slot0.tip, slot0 and slot0.page == slot0.tip)
-		setActive(slot0.capacityTF, slot0 and slot0.page == slot0.capacityTF)
+		slot1 = setActive
+		slot2 = slot0.BatchDisposeBtn
+
+		if slot0 then
+			if slot0.page ~=  then
+				slot3 = false
+			else
+				slot3 = true
+			end
+		end
+
+		slot1(slot2, slot3)
+		setActive(slot0.filterBusyToggle, slot0)
 
 		return
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.designToggle, function (slot0)
 		if slot0 then
-			slot0.contextData.warp = slot1.WARP_TO_DESIGN
+			if slot0.contextData.warp ~= slot1.WARP_TO_DESIGN then
+				slot0.contextData.warp = slot1.WARP_TO_DESIGN
 
-			slot0:updateCapacity()
-			slot0:emit(EquipmentMediator.OPEN_DESIGN)
-			setText(slot0.tip, "")
-			setText(slot0.capacityTF, "")
+				slot0:updateCapacity()
+				slot0:emit(EquipmentMediator.OPEN_DESIGN)
+				setActive(slot0.tip, false)
+				setActive(slot0.capacityTF.parent, false)
+				setActive(slot0.filterBusyToggle, false)
+			end
 		else
 			slot0:emit(EquipmentMediator.CLOSE_DESIGN_LAYER)
 		end
-
-		setActive(slot0.BatchDisposeBtn, not slot0)
 
 		return
 	end, SFX_PANEL)
@@ -318,31 +462,6 @@ function slot0.didEnter(slot0)
 		slot0.showBusyEquip = slot0
 
 		slot0:filterEquipment()
-
-		return
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.filterBusySkinToggle, function (slot0)
-		slot0.showBusyEquip = slot0
-
-		slot0:filterEquipment()
-
-		return
-	end, SFX_PANEL)
-
-	slot3 = pg.shop_template[slot0]
-
-	onButton(slot0, slot0.expansionBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = slot0.desc,
-			onYes = function ()
-				pg.m02:sendNotification(GAME.SHOPPING, {
-					count = 1,
-					id = pg.m02.sendNotification
-				})
-
-				return
-			end
-		})
 
 		return
 	end, SFX_PANEL)
@@ -365,7 +484,7 @@ function slot0.didEnter(slot0)
 		if slot0.selectEnabled then
 			slot0.filterImportance = slot0.asc
 
-			shiftPanel(slot0.bottomBack, nil, -120, nil, 0, true, true)
+			shiftPanel(slot0.bottomBack, nil, -124, nil, 0, true, true)
 			shiftPanel(slot0.selectPanel, nil, 0, nil, 0, true, true)
 
 			shiftPanel.asc = true
@@ -381,11 +500,21 @@ function slot0.didEnter(slot0)
 			slot0.filterImportance = nil
 
 			shiftPanel(slot0.bottomBack, nil, 0, nil, 0, true, true)
-			shiftPanel(slot0.selectPanel, nil, -120, nil, 0, true, true)
+			shiftPanel(slot0.selectPanel, nil, -124, nil, 0, true, true)
 			shiftPanel:filterEquipment()
 		end
 
-		slot0(slot0.switchBtn, slot0.mode == slot2.OVERVIEW)
+		setActive(slot0.filterBusyToggle, not slot0.selectEnabled)
+
+		slot1 = slot0.equipmentBtn.parent
+
+		if slot0.mode ~= slot2.OVERVIEW then
+			slot2 = false
+		else
+			slot2 = true
+		end
+
+		slot0(slot1, slot2)
 
 		return
 	end, SFX_PANEL)
@@ -402,10 +531,26 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.selectPanel, "confirm_button"), function ()
 		if not _.all(slot0:hasEliteEquips(slot0.selectedIds, slot0.equipmentVOByIds), function (slot0)
-			return slot0 == ""
+			if slot0 ~= "" then
+				slot1 = false
+			else
+				slot1 = true
+			end
+
+			return slot1
 		end) then
+			slot2 = string.gsub
+			slot3 = table.concat(slot1, "")
+			slot4 = "$1"
+
+			if slot1[1] == "" then
+				slot5 = ""
+			else
+				slot5 = ","
+			end
+
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("destroy_eliteequipment_tip", string.gsub(table.concat(slot1, ""), "$1", (slot1[1] == "" and "") or ",")),
+				content = i18n("destroy_eliteequipment_tip", slot2(slot3, slot4, slot5)),
 				onYes = slot0
 			})
 		else
@@ -414,13 +559,25 @@ function slot0.didEnter(slot0)
 
 		return
 	end, SFX_CONFIRM)
-	onButton(slot0, findTF(slot0.destroyConfirm, "actions/cancel_button"), function ()
+	onButton(slot0, findTF(slot0.destroyConfirm, "frame/actions/cancel_btn"), function ()
 		setActive(slot0.destroyConfirm, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
 
 		return
 	end, SFX_CANCEL)
-	onButton(slot0, findTF(slot0.destroyConfirm, "actions/destroy_button"), function ()
+	onButton(slot0, slot0.destroyConfirm, function ()
+		setActive(slot0.destroyConfirm, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
+
+		return
+	end, SFX_CANCEL)
+	onButton(slot0, slot0.destroyConfirm:Find("frame/top/btnBack"), function ()
+		setActive(slot0.destroyConfirm, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
+
+		return
+	end, SFX_CANCEL)
+	onButton(slot0, findTF(slot0.destroyConfirm, "frame/actions/confirm_btn"), function ()
 		slot0:emit(EquipmentMediator.ON_DESTROY, slot0.selectedIds)
 		setActive(slot0.destroyConfirm, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
@@ -428,19 +585,23 @@ function slot0.didEnter(slot0)
 
 		return
 	end, SFX_UI_EQUIPMENT_RESOLVE)
-	setParent(slot0.topItems, pg.UIMgr:GetInstance().OverlayMain)
-	setParent(slot0.topPanel, pg.UIMgr:GetInstance().OverlayMain)
-	setActive(slot0.switchBtn, slot0.mode == slot0.OVERVIEW and slot0.warp == slot0.WARP_TO_WEAPON)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.topItems, {
+		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+	})
 
-	if slot0.mode == slot0.SKIN then
-		if slot0.page ~= slot1 then
-			triggerButton(slot0.switchBtn)
-		end
+	slot1 = setActive
+	slot2 = slot0.equipmentBtn.parent
+
+	if slot0.mode ~= slot0.OVERVIEW or slot0.warp ~= slot0.WARP_TO_WEAPON then
+		slot3 = false
 	else
-		if slot0.mode == slot0.EQUIPMENT and slot0.page ~= slot2 then
-			triggerButton(slot0.switchBtn)
-		end
+		slot3 = true
 	end
+
+	slot1(slot2, slot3)
 
 	return
 end
@@ -492,36 +653,12 @@ function slot0.hasEliteEquips(slot0, slot1, slot2)
 	}
 end
 
-function slot0.uiStartAnimating(slot0)
-	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true)
-	shiftPanel(slot0.bottomBack, nil, 0, slot2, slot1, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-
-		return
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0.topPanel), slot0:findTF("title/bg/right", slot0.topPanel), slot0:findTF("title/bg/title_equipment", slot0.topPanel), slot0:findTF("title/bg/equipment", slot0.topPanel), nil, function ()
-		slot0.tweens = nil
-
-		return
-	end)
-
-	return
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, slot2, slot1, true, true)
-	shiftPanel(slot0.bottomBack, nil, -1 * slot0.bottomBack.rect.height, 0.3, 0, true, true)
-
-	return
-end
-
 function slot0.updateCapacity(slot0)
 	if slot0.contextData.warp == slot0.WARP_TO_DESIGN or slot0.contextData.warp == slot0.WARP_TO_MATERIAL then
 		return
 	end
 
-	setText(slot0.tip, i18n("word_capacity"))
+	setText(slot0.tip, "")
 	setText(slot0.capacityTF, slot0.capacity .. "/" .. slot0.player.equip_bag_max)
 
 	return
@@ -534,21 +671,28 @@ function slot0.setCapacity(slot0, slot1)
 end
 
 function slot0.setShip(slot0, slot1)
-	slot0.mode = slot0.contextData.mode or EquipmentScene.OVERVIEW
+	if not slot0.contextData.mode then
+		slot2 = EquipmentScene.OVERVIEW
+	end
+
+	slot0.mode = slot2
 	slot0.shipVO = slot1
 
 	if slot1 then
 		if slot0.mode == EquipmentScene.EQUIPMENT then
-			slot0.contextData.qiutBtn = (slot1:getEquip(slot0.contextData.pos) and slot2) or nil
-
-			setActive(slot0.filterBusyToggle, true)
+			slot0.contextData.qiutBtn = defaultValue(slot1:getEquip(slot0.contextData.pos), nil)
 		else
 			if slot0.mode == EquipmentScene.SKIN then
 				slot0.contextData.qiutBtn = slot1:getEquip(slot0.contextData.pos).hasSkin(slot2)
-
-				setActive(slot0.filterBusySkinToggle, true)
 			end
 		end
+
+		slot0.showBusyEquip = true
+
+		setActive(findTF(slot0.filterBusyToggle, "on"), true)
+		setActive(findTF(slot0.filterBusyToggle, "off"), false)
+
+		slot0.filterBusyToggle:GetComponent(typeof(Toggle)).isOn = true
 
 		setActive(slot0.bottomPanel, false)
 	end
@@ -578,27 +722,34 @@ function slot0.initSort(slot0)
 
 	slot0.sortButtons = {}
 
-	for slot4, slot5 in ipairs(slot0.sort) do
-		slot6 = cloneTplTo(slot0.indexTpl, slot0.sortContain)
+	eachChild(slot0.sortContain, function (slot0)
+		setActive(slot0, false)
 
-		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipui_atlas", slot5.spr), true)
+		return
+	end)
+
+	for slot4, slot5 in ipairs(slot0.sort) do
+		if slot4 > slot0.sortContain.childCount or not slot0.sortContain:GetChild(slot4 - 1) then
+			slot6 = cloneTplTo(slot0.sortTpl, slot0.sortContain)
+		end
+
+		setActive(slot6, true)
+		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
 				slot0.contextData.sortData = slot0.contextData
 
 				slot0:filterEquipment()
-				slot0:closeSortPanel()
+				triggerToggle(slot0.sortBtn, false)
 			end
 
 			return
 		end, SFX_PANEL)
 
 		slot0.sortButtons[slot4] = slot6
-
-		if slot4 == 1 then
-			triggerToggle(slot6, true)
-		end
 	end
+
+	slot0.contextData.sortData = slot0.sort[1]
 
 	return
 end
@@ -606,27 +757,34 @@ end
 function slot0.initEquipmentIndex(slot0)
 	slot0.indexButtons = {}
 
-	for slot4, slot5 in ipairs(slot0.index) do
-		slot6 = cloneTplTo(slot0.indexTpl, slot0.indexContain)
+	eachChild(slot0.indexContain, function (slot0)
+		setActive(slot0, false)
 
-		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipui_atlas", slot5.spr), true)
+		return
+	end)
+
+	for slot4, slot5 in ipairs(slot0.index) do
+		if slot4 > slot0.indexContain.childCount or not slot0.indexContain:GetChild(slot4 - 1) then
+			slot6 = cloneTplTo(slot0.indexTpl, slot0.indexContain)
+		end
+
+		setActive(slot6, true)
+		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", slot5.spr), true)
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
 				slot0.contextData.indexData = slot0.contextData
 
 				slot0:filterEquipment()
-				slot0:closeIndexPanel()
+				triggerToggle(slot0.indexBtn, false)
 			end
 
 			return
 		end, SFX_PANEL)
 
 		slot0.indexButtons[slot4] = slot6
-
-		if slot4 == 1 then
-			triggerToggle(slot6, true)
-		end
 	end
+
+	slot0.contextData.indexData = slot0.index[1]
 
 	return
 end
@@ -645,32 +803,6 @@ function slot0.updatePageFilterButtons(slot0, slot1)
 	return
 end
 
-function slot0.showIndexPanel(slot0)
-	slot0:closeSortPanel()
-	setActive(slot0.indexPanel, true)
-
-	return
-end
-
-function slot0.closeIndexPanel(slot0)
-	setActive(slot0.indexPanel, false)
-
-	return
-end
-
-function slot0.showSortPanel(slot0)
-	slot0:closeIndexPanel()
-	setActive(slot0.sortPanel, true)
-
-	return
-end
-
-function slot0.closeSortPanel(slot0)
-	setActive(slot0.sortPanel, false)
-
-	return
-end
-
 function slot0.initEquipments(slot0)
 	slot0.isInitWeapons = true
 	slot0.equipmentRect = slot0.equipmentView:GetComponent("LScrollRect")
@@ -680,6 +812,8 @@ function slot0.initEquipments(slot0)
 
 		return
 	end
+
+	slot0.equipmentRect.decelerationRate = 0.07
 
 	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
 		slot0:updateEquipment(slot0, slot1)
@@ -720,6 +854,21 @@ function slot0.initEquipment(slot0, slot1)
 				slot1:selectEquip(slot0.equipmentVO, slot0.equipmentVO.count)
 
 				return
+			end
+
+			if (not slot1.shipVO or not {
+				type = EquipmentInfoMediator.TYPE_REPLACE,
+				equipmentId = slot0.equipmentVO.id,
+				shipId = slot0.equipmentVO.id.contextData.shipId,
+				pos = slot0.equipmentVO.id.contextData.shipId.contextData.pos,
+				oldShipId = slot0.equipmentVO.shipId,
+				oldPos = slot0.equipmentVO.shipPos
+			}) and (not slot0.equipmentVO.shipId or not {
+				type = EquipmentInfoMediator.TYPE_DISPLAY,
+				equipmentId = slot0.equipmentVO.id,
+				shipId = slot0.equipmentVO.shipId,
+				pos = slot0.equipmentVO.shipPos
+			}) then
 			end
 
 			slot1:emit(slot2.ON_EQUIPMENT, slot0)
@@ -778,8 +927,14 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 end
 
 function slot0.updateEquipmentCount(slot0, slot1)
-	slot0.equipmentRect:SetTotalCount(slot1 or #slot0.loadEquipmentVOs, -1)
-	SetActive(slot0.emptySign, (slot1 or #slot0.loadEquipmentVOs) <= 0)
+	slot3 = slot0.equipmentRect
+	slot2 = slot0.equipmentRect.SetTotalCount
+
+	if not slot1 then
+		slot4 = #slot0.loadEquipmentVOs
+	end
+
+	slot2(slot3, slot4, -1)
 
 	return
 end
@@ -813,7 +968,13 @@ function slot0.filterEquipment(slot0)
 			function slot6(slot0, slot1)
 				for slot5, slot6 in pairs(slot0) do
 					if _.any(slot1, function (slot0)
-						return slot0 == slot0
+						if slot0 ~= slot0 then
+							slot1 = false
+						else
+							slot1 = true
+						end
+
+						return slot1
 					end) then
 						return true
 					end
@@ -872,8 +1033,8 @@ function slot0.filterEquipment(slot0)
 
 	slot0:updateSelected()
 	slot0:updateEquipmentCount()
-	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipui_atlas", slot4.spr .. "_selected"), true)
-	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("ui/equipui_atlas", slot1.spr .. "_selected"), true)
+	setImageSprite(slot0:findTF("Image", slot0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot4.spr), true)
+	setImageSprite(slot0:findTF("Image", slot0.indexBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", slot1.spr), true)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
 
@@ -881,17 +1042,17 @@ function slot0.filterEquipment(slot0)
 end
 
 function slot0.checkFitBusyCondition(slot0, slot1)
-	if not slot0.showBusyEquip and slot1.shipId then
-		return false
+	if slot0.selectEnabled or not slot0.showBusyEquip then
+		slot2 = not slot1.shipId
 	end
 
-	return true
+	return slot2
 end
 
 function slot0.setItems(slot0, slot1)
 	slot0.itemVOs = slot1
 
-	if slot0.isInitItems then
+	if slot0.isInitItems and slot0.contextData.warp == slot0.WARP_TO_MATERIAL then
 		slot0:sortItems()
 	end
 
@@ -914,7 +1075,9 @@ function slot0.initItems(slot0)
 		return
 	end
 
-	slot0:sortItems()
+	slot0.itemRect.decelerationRate = 0.07
+
+	slot0.itemRect:ScrollTo(0)
 
 	return
 end
@@ -922,9 +1085,21 @@ end
 function slot0.sortItems(slot0)
 	table.sort(slot0.itemVOs, function (slot0, slot1)
 		if slot0:getConfig("rarity") == slot1:getConfig("rarity") then
-			return slot0.id < slot1.id
+			if slot0.id >= slot1.id then
+				slot4 = false
+			else
+				slot4 = true
+			end
+
+			return slot4
 		else
-			return slot3 < slot2
+			if slot3 >= slot2 then
+				slot4 = false
+			else
+				slot4 = true
+			end
+
+			return slot4
 		end
 
 		return
@@ -1067,7 +1242,11 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 		slot10 = slot9[2]
 
 		if pg.equip_data_template[slot9[1]] then
-			slot3 = slot3 + (slot11.destory_gold or 0) * slot10
+			if not slot11.destory_gold then
+				slot12 = 0
+			end
+
+			slot3 = slot3 + slot12 * slot10
 		end
 
 		if slot1 and slot9[1] == slot1.configId then
@@ -1076,7 +1255,11 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	end
 
 	if not slot4 and slot1 and slot2 > 0 then
-		slot3 = slot3 + (pg.equip_data_template[slot1.configId].destory_gold or 0) * slot2
+		if not pg.equip_data_template[slot1.configId].destory_gold then
+			slot6 = 0
+		end
+
+		slot3 = slot3 + slot6 * slot2
 	end
 
 	if slot0.player:GoldMax(slot3) then
@@ -1130,8 +1313,15 @@ function slot0.displayDestroyBonus(slot0)
 
 	for slot6, slot7 in ipairs(slot0.selectedIds) do
 		if pg.equip_data_template[slot7[1]] then
-			slot9 = slot8.destory_item or {}
-			slot2 = slot2 + (slot8.destory_gold or 0) * slot7[2]
+			if not slot8.destory_item then
+				slot9 = {}
+			end
+
+			if not slot8.destory_gold then
+				slot10 = 0
+			end
+
+			slot2 = slot2 + slot10 * slot7[2]
 
 			for slot14, slot15 in ipairs(slot9) do
 				slot16 = false
@@ -1164,55 +1354,55 @@ function slot0.displayDestroyBonus(slot0)
 		})
 	end
 
-	setActive(slot0.destroyNoGotTip, #slot1 <= 0)
-	setText(slot0.destroyBonusGold, slot2)
+	slot3 = setActive
+	slot4 = slot0.destroyNoGotTip
 
-	for slot6 = #slot1, slot0.destroyBonusList.childCount - 1, 1 do
-		Destroy(slot0.destroyBonusList:GetChild(slot6))
+	if #slot1 > 0 then
+		slot5 = false
+	else
+		slot5 = true
 	end
 
-	for slot6 = slot0.destroyBonusList.childCount, #slot1 - 1, 1 do
-		cloneTplTo(slot0.destroyBonusItem, slot0.destroyBonusList)
+	slot3(slot4, slot5)
+
+	if not slot0.destroyList then
+		slot0.destroyList = UIItemList.New(slot0.destroyBonusList, slot0.destroyBonusItem)
 	end
 
-	for slot6 = 1, #slot1, 1 do
-		slot7 = slot0.destroyBonusList:GetChild(slot6 - 1)
-
-		if slot1[slot6].type == DROP_TYPE_SHIP then
-			slot0.hasShip = true
-		end
-
-		GetComponent(slot7:Find("icon_bg/icon"), typeof(Image)).enabled = true
-
-		if not IsNil(slot7:Find("icon_bg/icon/icon")) then
-			setActive(slot9, false)
-		end
-
-		setActive(findTF(slot7, "icon_bg/slv"), false)
-		updateDrop(slot7, slot8)
-
-		slot11, slot12 = contentWrap(slot8.cfg.name, 10, 2)
-
-		if slot11 then
-			slot12 = slot12 .. "..."
-		end
-
-		setText(slot7:Find("name"), slot12)
-		onButton(slot0, slot7, function ()
-			if slot0.type == DROP_TYPE_RESOURCE or slot0.type == DROP_TYPE_ITEM then
-				slot1:emit(AwardInfoMediator.ON_ITEM, slot0.cfg.id)
-			else
-				if slot0.type == DROP_TYPE_EQUIP then
-					slot1:emit(slot2.ON_EQUIPMENT, {
-						equipmentId = slot0.cfg.id,
-						type = EquipmentInfoMediator.DISPLAY
-					})
-				end
+	slot0.destroyList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			if slot0[slot1 + 1].type == DROP_TYPE_SHIP then
+				slot1.hasShip = true
 			end
 
-			return
-		end, SFX_PANEL)
-	end
+			updateDrop(slot2:Find("bg"), slot3)
+
+			slot4, slot5 = contentWrap(slot3.cfg.name, 10, 2)
+
+			if slot4 then
+				slot5 = slot5 .. "..."
+			end
+
+			setText(slot2:Find("bg/name"), slot5)
+			onButton(slot1, slot2, function ()
+				if slot0.type == DROP_TYPE_RESOURCE or slot0.type == DROP_TYPE_ITEM then
+					slot1:emit(slot2.ON_ITEM, slot0.cfg.id)
+				else
+					if slot0.type == DROP_TYPE_EQUIP then
+						slot1:emit(slot2.ON_EQUIPMENT, {
+							equipmentId = slot0.cfg.id,
+							type = EquipmentInfoMediator.TYPE_DISPLAY
+						})
+					end
+				end
+
+				return
+			end, SFX_PANEL)
+		end
+
+		return
+	end)
+	slot0.destroyList:align(#slot1)
 
 	return
 end
@@ -1227,15 +1417,10 @@ function slot0.SwitchToDestroy(slot0)
 	return
 end
 
-function slot0.unPartialBlur(slot0)
-	setParent(slot0.topPanel, slot0._tf)
-	pg.UIMgr.GetInstance():PartialBlur(slot0.topPanel:Find("title"), false)
-	setParent(slot0.topItems, slot0._tf)
-
-	return
-end
-
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
+
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end

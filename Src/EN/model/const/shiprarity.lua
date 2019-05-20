@@ -8,7 +8,7 @@ slot0.SSR = 6
 function slot0.Rarity2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
-			"",
+			nil,
 			"1",
 			"2",
 			"3",
@@ -33,6 +33,21 @@ function slot0.Rarity2HexColor(slot0)
 	end
 
 	return slot0.colors[slot0]
+end
+
+function slot0.Rarity2FrameColor(slot0)
+	if not slot0.frameColors then
+		slot0.frameColors = {
+			Color(0.7411764705882353, 0.7411764705882353, 0.7411764705882353, 1),
+			Color(0.7411764705882353, 0.7411764705882353, 0.7411764705882353, 1),
+			Color(0.396078431372549, 0.7803921568627451, 1, 1),
+			Color(0.7490196078431373, 0.6392156862745098, 1, 1),
+			Color(1, 0.9058823529411765, 0.2627450980392157, 1),
+			Color(1, 1, 1, 1)
+		}
+	end
+
+	return slot0.frameColors[slot0]
 end
 
 function slot0.SSRGradient(slot0)

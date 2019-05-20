@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Bits of Courage \n\n<size=30>I 「A Concert Ticket」</size>",
+					"Bits of Courage \n\n<size=45>I 「A Concert Ticket」</size>",
 					1
 				}
 			}

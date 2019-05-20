@@ -15,7 +15,7 @@ end
 function ys.Battle.BattleSwitchBGMWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 	playBGM(slot0._bgmName)
-	slot0:doFinish()
+	slot0:doPass()
 end
 
 return

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Miniature Head Maid\n\n<size=30>Chapter 3 - Sisters?</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 3 - Sisters?</size>",
 					1
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			say = "The prismatic light dancing from the irradiated Wisdom Cube was spectacular, nya!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -149,7 +149,7 @@ return {
 			say = "Oh, my sister Madam Belfast is here too.",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.3,
 					number = 1,
 					type = "shake"
@@ -193,7 +193,7 @@ return {
 			say = "Oh, uhhh... good day, your majesty... Come now, Little Bel, give your big sister a hug~",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
@@ -221,7 +221,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.5,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			},
@@ -243,7 +243,7 @@ return {
 			say = "Awwww, you're so cute, Little Bel!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,

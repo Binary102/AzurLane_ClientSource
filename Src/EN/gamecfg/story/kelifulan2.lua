@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 2 - Knights, Group Up!</size>",
+					"Knights & Awards\n\n<size=45>Chapter 2 - Knights, Group Up!</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			say = "Yeeaah!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -66,7 +66,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -88,7 +88,7 @@ return {
 			say = "……Yeeaah!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -259,7 +259,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			},
@@ -328,7 +328,7 @@ return {
 			say = "No, you guys have it all wrong! Listen to me, for crying out loud!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,

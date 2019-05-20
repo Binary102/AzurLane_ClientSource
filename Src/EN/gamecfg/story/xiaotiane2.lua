@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Sea Star on Shore\n\n<size=30>2: An Interrupted Clue</size>",
+					"Sea Star on Shore\n\n<size=45>2: An Interrupted Clue</size>",
 					1
 				},
 				bgName = "bg_story_school"
@@ -48,13 +48,13 @@ return {
 				{
 					actor = 201080,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 201090,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -132,7 +132,7 @@ return {
 				{
 					actor = 201090,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

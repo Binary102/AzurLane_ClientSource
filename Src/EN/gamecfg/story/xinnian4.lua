@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Lunar New Year Celebration\n\n<size=30>Chapter 4 - Friendship, Hard Work, and Victory!</size>"
+					"Lunar New Year Celebration\n\n<size=45>Chapter 4 - Friendship, Hard Work, and Victory!</size>"
 				}
 			}
 		},
@@ -404,7 +404,7 @@ return {
 				{
 					actor = 401230,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -704,13 +704,13 @@ return {
 				{
 					actor = 101172,
 					pos = {
-						x = 350
+						x = 525
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

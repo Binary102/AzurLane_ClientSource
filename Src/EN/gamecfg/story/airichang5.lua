@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=30>Chapter 5 - Good Morning, Good Day, Good Night</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 5 - Good Morning, Good Day, Good Night</size>",
 					1
 				}
 			}

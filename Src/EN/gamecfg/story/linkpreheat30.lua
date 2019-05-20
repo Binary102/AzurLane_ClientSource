@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻的交汇\n\n<size=30>抱歉，不爱说话</size>",
+					"梦幻的交汇\n\n<size=45>抱歉，不爱说话</size>",
 					1
 				}
 			}

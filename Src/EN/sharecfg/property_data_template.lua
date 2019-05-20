@@ -72,7 +72,7 @@ pg.property_data_template = {
 	},
 	cd = {
 		view = "cd",
-		name = "Fire Rate",
+		name = "FR",
 		icon = "reload"
 	},
 	speciality = {

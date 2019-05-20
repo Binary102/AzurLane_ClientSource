@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"The Timid Black Cat\n\n<size=30>Advice From a Friend</size>",
+					"The Timid Black Cat\n\n<size=45>Advice From a Friend</size>",
 					1
 				}
 			}
@@ -82,7 +82,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -356,7 +356,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -426,7 +426,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -464,7 +464,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -494,7 +494,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2000
+					x = -3000
 				}
 			}
 		},

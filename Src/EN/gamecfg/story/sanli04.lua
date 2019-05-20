@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			mode = 3,
-			say = "<size=35>{namecode:82}！！</size>",
+			say = "<size=52.5>{namecode:82}！！</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

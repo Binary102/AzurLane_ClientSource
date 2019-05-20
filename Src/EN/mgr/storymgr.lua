@@ -278,6 +278,14 @@ function slot15(slot0)
 	slot4 = "dialogue/actor/actor_middle"
 	slot2 = slot2(slot3, slot4)
 	slot0.actorMiddle = slot2
+	slot2 = {}
+	slot3 = slot0.actorLeft
+	slot2[1] = slot3
+	slot3 = slot0.actorRight
+	slot2[2] = slot3
+	slot3 = slot0.actorMiddle
+	slot2[3] = slot3
+	slot0.actors = slot2
 	slot2 = findTF
 	slot3 = slot0._go
 	slot4 = "options_panel"
@@ -410,7 +418,7 @@ end
 
 slot0.hideEffects = slot15
 slot15 = {
-	"LevelScene2",
+	"LevelScene",
 	"BattleScene",
 	"EventListScene",
 	"MilitaryExerciseScene",
@@ -446,13 +454,113 @@ end
 
 slot0.PlayOnTaskAdded = slot16
 
-function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot16(slot0, slot1, slot2, slot3)
+	slot4 = slot3 or function ()
+		return
+	end
+	slot5 = slot0:IsPlayed(slot1)
+
+	if slot5 then
+		slot5 = slot4
+
+		slot5()
+
+		return
+	end
+
+	slot5 = pg
+	slot5 = slot5.GuideMgr
+	slot6 = slot5
+	slot5 = slot5.GetInstance
+	slot5 = slot5(slot6)
+	slot6 = slot5
+	slot5 = slot5.canPlay
+	slot5 = slot5(slot6)
+
+	if not slot5 then
+		slot5 = slot4
+
+		slot5()
+
+		return
+	end
+
+	slot5 = isAiriJP
+	slot5 = slot5()
+
+	if slot5 then
+		if slot1 == "SYG001" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
+
+			slot5(slot6)
+		elseif slot1 == "SYG003" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
+
+			slot5(slot6)
+		elseif slot1 == "SYG006" then
+			slot5 = SendAiriJPTracking
+			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+
+			slot5(slot6)
+		end
+	end
+
+	slot5 = pg
+	slot5 = slot5.m02
+	slot6 = slot5
+	slot5 = slot5.sendNotification
+	slot7 = GAME
+	slot7 = slot7.STORY_UPDATE
+	slot8 = {
+		storyId = slot1
+	}
+
+	slot5(slot6, slot7, slot8)
+
+	slot5 = pg
+	slot5 = slot5.GuideMgr
+	slot6 = slot5
+	slot5 = slot5.GetInstance
+	slot5 = slot5(slot6)
+	slot6 = slot5
+	slot5 = slot5.play
+	slot7 = slot1
+	slot8 = slot2
+	slot9 = slot3
+
+	slot5(slot6, slot7, slot8, slot9)
+end
+
+slot0.PlayGuide = slot16
+
+function slot16()
+	slot0 = getProxy
+	slot1 = ContextProxy
+	slot0 = slot0(slot1)
+	slot2 = slot0
+	slot1 = slot0.getContextByMediator
+	slot3 = LevelMediator2
+	slot1 = slot1(slot2, slot3)
+
+	if slot1 then
+		slot2 = slot1.data
+		slot2 = slot2.chapterVO
+
+		return slot2
+	end
+end
+
+function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = getProxy
 	slot7 = ChapterProxy
 	slot6 = slot6(slot7)
 	slot7 = false
+	slot8 = slot0
+	slot8 = slot8()
 
-	if slot6 then
+	if slot8 and slot6 then
 		slot9 = slot6
 		slot8 = slot6.getActiveChapter
 		slot8 = slot8(slot9)
@@ -484,25 +592,27 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot8(slot9, slot10, slot11)
 
-		return
+		slot8 = false
+
+		return slot8
 	end
 
 	slot0.storyId = slot1
-	slot8 = slot0
+	slot8 = slot1
 	slot10 = slot0
 	slot9 = slot0.GetStoryByName
 	slot11 = slot1
 
 	slot8(slot9(slot10, slot11))
 
-	slot8 = slot1
+	slot8 = slot2
 	slot8 = slot8[slot1]
-	slot9 = slot2
+	slot9 = slot3
 
 	if slot9 then
 		slot9 = true
 	else
-		slot9 = slot8.type ~= slot3
+		slot9 = slot8.type ~= slot4
 	end
 
 	if slot9 then
@@ -529,7 +639,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				slot10(slot11)
 
-				return
+				slot10 = false
+
+				return slot10
 			end
 		end
 	end
@@ -558,7 +670,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				slot10(slot11)
 
-				return
+				slot10 = false
+
+				return slot10
 			end
 		end
 	end
@@ -608,19 +722,23 @@ function slot16(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot15 = slot5
 
 	slot10(slot11, slot12, slot13, slot14, slot15)
+
+	slot10 = true
+
+	return slot10
 end
 
-slot0.Play = slot16
+slot0.Play = slot17
 
-function slot16(slot0)
+function slot17(slot0)
 	slot1 = slot0.selectedOptions
 
 	return slot1
 end
 
-slot0.getSelectedOptions = slot16
+slot0.getSelectedOptions = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = slot0
 	slot4 = slot0
 	slot3 = slot0.GetStoryByName
@@ -743,17 +861,15 @@ function slot16(slot0, slot1)
 	return slot3
 end
 
-slot0.storyLog = slot16
+slot0.storyLog = slot17
 
-function slot16(slot0)
-	slot1 = slot0.force
-
-	return slot1
+function slot17(slot0)
+	return getProxy(ContextProxy):getCurrentContext().mediator == CollectionMediator
 end
 
-slot0.isRecall = slot16
+slot0.isRecall = slot17
 
-function slot16(slot0, slot1, slot2, slot3, slot4)
+function slot17(slot0, slot1, slot2, slot3, slot4)
 	slot5 = pg
 	slot5 = slot5.CriMgr
 	slot5 = slot5.GetInstance
@@ -763,8 +879,13 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 	slot5(slot6)
 
-	slot5 = {}
-	slot0.selectedOptions = slot5
+	slot5 = slot0.keepSeletedOptions
+
+	if not slot5 then
+		slot5 = {}
+		slot0.selectedOptions = slot5
+	end
+
 	slot5 = nil
 	slot0.nextEpisode = slot5
 	slot5 = 0
@@ -792,6 +913,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 		removeAllChildren(slot0.actorMiddle:Find("actor_sub"))
 		SetActive(slot0.options, false)
 
+		slot0.optionsBg.transform.localPosition = Vector3(1485, 40)
 		slot7 = type(slot1.jumpto)
 
 		if slot7 == "string" then
@@ -808,6 +930,50 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 		slot7 = slot1.jumpto
 		slot7 = slot7()
 		slot0.nextEpisode = slot7
+	end
+
+	slot7 = slot1.randFlag
+
+	if slot7 then
+		slot7 = 0
+		slot8 = {}
+		slot9 = ipairs
+		slot10 = slot1.randFlag
+		slot9, slot10, slot11 = slot9(slot10)
+
+		for slot12, slot13 in slot9, slot10, slot11 do
+			slot14 = slot13[2]
+			slot7 = slot7 + slot14
+			slot14 = table
+			slot14 = slot14.insert
+			slot15 = slot8
+			slot16 = {}
+			slot17 = slot13[1]
+			slot16[1] = slot17
+			slot16[2] = slot7
+
+			slot14(slot15, slot16)
+		end
+
+		slot9 = math
+		slot9 = slot9.random
+		slot10 = 1
+		slot11 = slot7
+		slot9 = slot9(slot10, slot11)
+		slot10 = ipairs
+		slot11 = slot8
+		slot10, slot11, slot12 = slot10(slot11)
+
+		for slot13, slot14 in slot10, slot11, slot12 do
+			slot15 = slot14[2]
+
+			if slot9 <= slot15 then
+				slot15 = slot14[1]
+				slot0.optionFlag = slot15
+
+				break
+			end
+		end
 	end
 
 	slot7 = nil
@@ -831,30 +997,41 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 				slot4.say = slot5
 			end
 
-			slot5 = slot1
+			slot5 = slot4.optionFlag
 
 			if slot5 then
-				break
+				slot5 = slot1
+				slot5 = slot5.optionFlag
+				slot6 = slot4.optionFlag
+
+				if slot5 ~= slot6 then
+				end
 			else
-				slot5 = slot4.optionFlag
+				slot5 = slot2
 
 				if slot5 then
-					slot5 = slot2
-					slot5 = slot5.optionFlag
-					slot6 = slot4.optionFlag
+					slot5 = slot4.compulsory
 
-					if slot5 ~= slot6 then
+					if slot5 then
+						slot5 = slot1
+						slot6 = slot5
+						slot5 = slot5.isRecall
+						slot5 = slot5(slot6)
+
+						if slot5 then
+						end
 					end
 				else
+					slot2 = false
 					slot5 = true
 					slot6 = setActive
-					slot7 = slot2
+					slot7 = slot1
 					slot7 = slot7._flash
 					slot8 = false
 
 					slot6(slot7, slot8)
 
-					slot6 = slot2
+					slot6 = slot1
 					slot7 = false
 					slot6.blackSkip = slot7
 					slot6 = slot4.mode
@@ -871,7 +1048,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 						slot7 = slot4.flashout
 
 						if slot7 then
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = slot7
 							slot7 = slot7.flashout
 							slot9 = slot4
@@ -888,7 +1065,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 							slot7(slot8, slot9, slot10)
 						else
-							slot2:initAside(slot4)
+							slot1:initAside(slot4)
 
 							slot7 = table.getCount(slot4.sequence or {})
 
@@ -904,7 +1081,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 							slot7 = slot4.flashout
 
 							if slot7 then
-								slot7 = slot2
+								slot7 = slot1
 								slot8 = slot7
 								slot7 = slot7.flashout
 								slot9 = slot4
@@ -920,7 +1097,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 								slot7(slot8, slot9, slot10)
 							else
-								slot7 = slot2
+								slot7 = slot1
 								slot8 = slot7
 								slot7 = slot7.initDialog
 								slot9 = slot4
@@ -935,7 +1112,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 								slot7 = slot4.flashout
 
 								if slot7 then
-									slot7 = slot2
+									slot7 = slot1
 									slot8 = slot7
 									slot7 = slot7.flashout
 									slot9 = slot4
@@ -951,7 +1128,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 									slot7(slot8, slot9, slot10)
 								else
-									slot7 = slot2
+									slot7 = slot1
 									slot8 = slot7
 									slot7 = slot7.initBg
 									slot9 = slot4
@@ -968,7 +1145,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 						slot7 = slot4.typewriter
 
 						if not slot7 then
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = slot7
 							slot7 = slot7.initOptions
 							slot9 = slot4
@@ -981,7 +1158,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 							slot7(slot8, slot9, slot10)
 						else
-							slot7 = slot2
+							slot7 = slot1
 
 							function slot8()
 								slot0 = slot0
@@ -1008,7 +1185,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot4.effects
 
 					if slot7 then
-						slot7 = slot2
+						slot7 = slot1
 						slot8 = slot7
 						slot7 = slot7.setEffects
 						slot9 = slot4.effects
@@ -1017,7 +1194,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					end
 
 					slot7 = SetActive
-					slot8 = slot2
+					slot8 = slot1
 					slot8 = slot8.nextTF
 					slot9 = true
 
@@ -1039,7 +1216,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 							slot7(slot8, slot9)
 
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = true
 							slot7.stopBGM = slot8
 							slot7 = LeanTween
@@ -1071,10 +1248,10 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 							slot7(slot8, slot9(slot10))
 						else
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = slot4.bgm
 							slot7.bgm = slot8
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = nil
 							slot7.stopBGM = slot8
 							slot7 = pg
@@ -1102,7 +1279,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 							slot7(slot8, slot9)
 
-							slot7 = slot2
+							slot7 = slot1
 							slot8 = true
 							slot7.stopBGM = slot8
 						end
@@ -1111,7 +1288,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot4.flash
 
 					if slot7 then
-						slot7 = slot2
+						slot7 = slot1
 						slot7 = slot7._flash
 						slot8 = slot7
 						slot7 = slot7.GetComponent
@@ -1138,14 +1315,14 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 						end
 
 						slot7.color = slot8
-						slot8 = slot2
+						slot8 = slot1
 						slot8 = slot8._flashCG
 						slot9 = slot4.flash
 						slot9 = slot9.alpha
 						slot9 = slot9[1]
 						slot8.alpha = slot9
 						slot8 = setActive
-						slot9 = slot2
+						slot9 = slot1
 						slot9 = slot9._flash
 						slot10 = true
 
@@ -1158,9 +1335,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 						for slot11 = slot8, slot9, slot10 do
 							slot12 = LeanTween
-							slot12 = slot12.value
+							slot12 = slot12.alpha
 							slot13 = go
-							slot14 = slot2
+							slot14 = slot1
 							slot14 = slot14._flash
 							slot13 = slot13(slot14)
 							slot14 = slot4.flash
@@ -1196,26 +1373,14 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 							slot14 = true
 							slot12 = slot12(slot13, slot14)
 							slot13 = slot12
-							slot12 = slot12.setOnUpdate
-							slot14 = System
-							slot14 = slot14.Action_float
-
-							function slot15(slot0)
-								slot1 = slot0
-								slot1 = slot1._flashCG
-								slot1.alpha = slot0
-							end
-
-							slot12 = slot12(slot13, slot14(slot15))
-							slot13 = slot12
 							slot12 = slot12.setOnComplete
 							slot14 = System
 							slot14 = slot14.Action
 
 							function slot15()
 								slot0 = LeanTween
-								slot0 = slot0.value
-								slot1 = go
+								slot0 = slot0.alpha
+								slot1 = rtf
 								slot2 = slot0
 								slot2 = slot2._flash
 								slot1 = slot1(slot2)
@@ -1249,18 +1414,6 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 								slot0 = slot0.setUseEstimatedTime
 								slot2 = true
 								slot0 = slot0(slot1, slot2)
-								slot1 = slot0
-								slot0 = slot0.setOnUpdate
-								slot2 = System
-								slot2 = slot2.Action_float
-
-								function slot3(slot0)
-									slot1 = slot0
-									slot1 = slot1._flashCG
-									slot1.alpha = slot0
-								end
-
-								slot0 = slot0(slot1, slot2(slot3))
 								slot1 = slot0
 								slot0 = slot0.setOnComplete
 								slot2 = System
@@ -1299,7 +1452,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot4.flashN
 
 					if slot7 then
-						slot7 = slot2
+						slot7 = slot1
 						slot7 = slot7._flash
 						slot8 = slot7
 						slot7 = slot7.GetComponent
@@ -1333,7 +1486,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 						slot7.color = slot8
 						slot8 = setActive
-						slot9 = slot2
+						slot9 = slot1
 						slot9 = slot9._flash
 						slot10 = true
 
@@ -1345,7 +1498,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 						slot8, slot9, slot10 = slot8(slot9)
 
 						for slot11, slot12 in slot8, slot9, slot10 do
-							LeanTween.value(go(slot2._flash), slot12[1], slot12[2], slot12[3]):setDelay(slot12[4] or 0):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+							LeanTween.value(go(slot1._flash), slot12[1], slot12[2], slot12[3]):setDelay(slot12[4] or 0):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 								slot0._flashCG.alpha = slot0
 							end))
 						end
@@ -1354,12 +1507,12 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot4.dialogShake
 
 					if slot7 then
-						slot7 = slot2
+						slot7 = slot1
 						slot8 = false
 						slot7.interactive = slot8
 						slot7 = LeanTween
 						slot7 = slot7.moveX
-						slot8 = slot2
+						slot8 = slot1
 						slot8 = slot8._dialogue
 						slot9 = slot4.dialogShake
 						slot9 = slot9.x
@@ -1486,7 +1639,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot7(slot8)
 
 					if slot7 == "string" then
-						slot7 = slot2
+						slot7 = slot1
 						slot8 = slot4.jumpto
 						slot7.nextEpisode = slot8
 
@@ -1498,7 +1651,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot7(slot8)
 
 					if slot7 == "function" then
-						slot7 = slot2
+						slot7 = slot1
 						slot8 = slot4.jumpto
 						slot8 = slot8()
 						slot7.nextEpisode = slot8
@@ -1533,6 +1686,15 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot0 = slot1
+		slot0 = slot0.skipBtn
+		slot1 = slot0
+		slot0 = slot0.GetComponent
+		slot2 = typeof
+		slot3 = Button
+		slot0 = slot0(slot1, slot2(slot3))
+		slot1 = true
+		slot0.interactable = slot1
+		slot0 = slot2
 
 		if not slot0 then
 			slot0 = slot0
@@ -1550,7 +1712,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 
 						slot0()
 
-						slot0 = slot2
+						slot0 = slot1
 						slot1 = slot0
 						slot0 = slot0.fadeOut
 						slot2 = slot0
@@ -1561,7 +1723,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 						slot0(slot1, slot2, slot3)
 					end
 				else
-					slot0 = slot2
+					slot0 = slot1
 					slot1 = slot0
 					slot0 = slot0.fadeOut
 					slot2 = slot0
@@ -1573,20 +1735,20 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot0(slot1, slot2, slot3, slot4)
 				end
 
-				slot1 = true
+				slot2 = true
 			end
 		else
-			slot0 = slot1
+			slot0 = slot2
 
 			if not slot0 then
 				slot0 = slot0
 				slot0 = slot0.occlusion
 
 				if slot0 then
-					slot0 = slot2
+					slot0 = slot1
 					slot1 = true
 					slot0.occlusion = slot1
-					slot0 = slot2
+					slot0 = slot1
 					slot1 = Timer
 					slot1 = slot1.New
 
@@ -1624,17 +1786,17 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 					slot4 = 1
 					slot1 = slot1(slot2, slot3, slot4)
 					slot0.blackScreenTimer = slot1
-					slot0 = slot2
+					slot0 = slot1
 					slot0 = slot0.blackScreenTimer
 					slot1 = slot0
 					slot0 = slot0.Start
 
 					slot0(slot1)
 
-					slot1 = true
+					slot2 = true
 				end
 			else
-				slot0 = slot2
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.EndStory
 				slot2 = slot5
@@ -1699,10 +1861,44 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 				slot1(slot2, slot3)
 			end
 
-			slot1 = true
-			slot0 = slot2
+			slot0 = go
+			slot1 = slot0
+			slot1 = slot1._go
+			slot0 = slot0(slot1)
+			slot1 = slot0
+			slot0 = slot0.GetComponentsInChildren
+			slot2 = typeof
+			slot3 = Transform
+			slot0 = slot0(slot1, slot2(slot3))
+			slot1 = 0
+			slot2 = slot0.Length
+			slot2 = slot2 - 1
+			slot3 = 1
 
-			slot0()
+			for slot4 = slot1, slot2, slot3 do
+				slot5 = LeanTween
+				slot5 = slot5.cancel
+				slot6 = go
+				slot7 = slot0[slot4]
+				slot6 = slot6(slot7)
+				slot7 = true
+
+				slot5(slot6, slot7)
+			end
+
+			slot1 = slot0
+			slot1 = slot1.skipBtn
+			slot2 = slot1
+			slot1 = slot1.GetComponent
+			slot3 = typeof
+			slot4 = Button
+			slot1 = slot1(slot2, slot3(slot4))
+			slot2 = false
+			slot1.interactable = slot2
+			slot1 = true
+			slot1 = slot2
+
+			slot1()
 		end
 
 		slot1 = slot3
@@ -1724,7 +1920,6 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 			slot5 = slot0
 			slot5 = slot5._go
 			slot4 = slot4(slot5)
-			slot4 = slot4.parent
 			slot3.parent = slot4
 			slot4 = i18n
 			slot5 = "story_skip_confirm"
@@ -1849,9 +2044,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 	slot8()
 end
 
-slot0.StartStory = slot16
+slot0.StartStory = slot17
 
-function slot16(slot0, slot1, slot2, slot3)
+function slot17(slot0, slot1, slot2, slot3)
 	if slot1 == 1 then
 		slot4 = slot0._curtain or slot0._bg
 
@@ -1944,9 +2139,9 @@ function slot16(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.fadeOut = slot16
+slot0.fadeOut = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = slot1.asideType
 
 	if slot2 then
@@ -2251,9 +2446,9 @@ function slot16(slot0, slot1)
 	return
 end
 
-slot0.initAside = slot16
+slot0.initAside = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = slot0
 	slot3 = "enter dialogue mode............"
 
@@ -2433,6 +2628,44 @@ function slot16(slot0, slot1)
 	slot4 = slot0.getTagetActorTF
 	slot6 = slot3
 	slot4, slot5 = slot4(slot5, slot6)
+	slot6 = _
+	slot6 = slot6.each
+	slot7 = slot0.actors
+
+	function slot8(slot0)
+		slot1 = LeanTween
+		slot1 = slot1.isTweening
+		slot2 = slot0.gameObject
+		slot1 = slot1(slot2)
+
+		if slot1 then
+			slot1 = LeanTween
+			slot1 = slot1.cancel
+			slot2 = go
+			slot3 = slot0
+			slot2 = slot2(slot3)
+			slot3 = true
+
+			slot1(slot2, slot3)
+		end
+
+		slot1 = setActive
+		slot2 = slot0
+		slot3 = slot0
+
+		if slot0 ~= slot3 then
+			slot3 = false
+		else
+			slot3 = true
+		end
+
+		slot1(slot2, slot3)
+
+		return
+	end
+
+	slot6(slot7, slot8)
+
 	slot6 = setActive
 	slot7 = slot0.actorLeft
 	slot8 = slot0.actorLeft
@@ -3388,9 +3621,9 @@ function slot16(slot0, slot1)
 	return
 end
 
-slot0.initDialog = slot16
+slot0.initDialog = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = true
 	slot0.inflashin = slot3
 	slot3 = setText
@@ -3499,9 +3732,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.flashin = slot16
+slot0.flashin = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = true
 	slot0.inflashout = slot3
 	slot3 = slot0._flash
@@ -3599,9 +3832,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.flashout = slot16
+slot0.flashout = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = slot1.typewriter
 	slot4 = slot3.speed
 
@@ -3660,9 +3893,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.TypeWriter = slot16
+slot0.TypeWriter = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2, slot3, slot4 = nil
 	slot5 = slot0
 	slot5 = slot5.LEFT
@@ -3697,9 +3930,9 @@ function slot16(slot0, slot1)
 	return slot5, slot6, slot7
 end
 
-slot0.getTagetActorTF = slot16
+slot0.getTagetActorTF = slot17
 
-function slot16(slot0, slot1, slot2, slot3)
+function slot17(slot0, slot1, slot2, slot3)
 	slot4 = slot2.painting
 
 	if not slot4 then
@@ -3861,9 +4094,9 @@ function slot16(slot0, slot1, slot2, slot3)
 	return
 end
 
-slot0.paintingFadeOut = slot16
+slot0.paintingFadeOut = slot17
 
-function slot16(slot0, slot1, slot2, slot3, slot4)
+function slot17(slot0, slot1, slot2, slot3, slot4)
 	slot5 = LeanTween
 	slot5 = slot5.scale
 	slot6 = rtf
@@ -3885,9 +4118,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 	return
 end
 
-slot0.setScale = slot16
+slot0.setScale = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = slot0.inFadeOut
 
 	if slot2 then
@@ -3925,9 +4158,9 @@ function slot16(slot0, slot1)
 	return
 end
 
-slot0.setCurtainFade = slot16
+slot0.setCurtainFade = slot17
 
-function slot16(slot0, slot1, slot2, slot3, slot4)
+function slot17(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 
@@ -4187,9 +4420,9 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 	return
 end
 
-slot0.setFade = slot16
+slot0.setFade = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = slot0
 	slot3 = "enter bg mode............"
 
@@ -4670,9 +4903,9 @@ function slot16(slot0, slot1)
 	return
 end
 
-slot0.initBg = slot16
+slot0.initBg = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = ""
 	slot3 = ""
 	slot4 = slot1.actor
@@ -4782,14 +5015,22 @@ function slot16(slot0, slot1)
 	return slot6, slot7
 end
 
-slot0.getNameAndPainting = slot16
+slot0.getNameAndPainting = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = slot0
 	slot4 = "enter bg Options............"
 
 	slot3(slot4)
 
+	slot3 = slot0.skipBtn
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = typeof
+	slot6 = Button
+	slot3 = slot3(slot4, slot5(slot6))
+	slot4 = false
+	slot3.interactable = slot4
 	slot3 = slot0.optionItems
 
 	if not slot3 then
@@ -4898,16 +5139,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.initOptions = slot16
+slot0.initOptions = slot17
 
-function slot16(slot0)
-	slot1 = slot0.optionsBg
-	slot1 = slot1.transform
-	slot2 = Vector3
-	slot3 = 816
-	slot4 = 40
-	slot2 = slot2(slot3, slot4)
-	slot1.localPosition = slot2
+function slot17(slot0)
 	slot1 = setActive
 	slot2 = slot0.options
 	slot3 = true
@@ -4925,7 +5159,7 @@ function slot16(slot0)
 	slot2 = LeanTween
 	slot2 = slot2.moveX
 	slot3 = slot0.optionsBg
-	slot4 = 640
+	slot4 = 0
 	slot5 = 0.5
 
 	slot2(slot3, slot4, slot5)
@@ -5008,6 +5242,15 @@ function slot16(slot0)
 
 	function slot5()
 		slot0 = slot0
+		slot0 = slot0.skipBtn
+		slot1 = slot0
+		slot0 = slot0.GetComponent
+		slot2 = typeof
+		slot3 = Button
+		slot0 = slot0(slot1, slot2(slot3))
+		slot1 = true
+		slot0.interactable = slot1
+		slot0 = slot0
 		slot0 = slot0.optionsCg
 		slot1 = true
 		slot0.interactable = slot1
@@ -5020,9 +5263,17 @@ function slot16(slot0)
 	return
 end
 
-slot0.showOptions = slot16
+slot0.showOptions = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
+	slot3 = slot0.skipBtn
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = typeof
+	slot6 = Button
+	slot3 = slot3(slot4, slot5(slot6))
+	slot4 = false
+	slot3.interactable = slot4
 	slot3 = 0
 	slot4 = LeanTween
 	slot4 = slot4.cancel
@@ -5034,7 +5285,7 @@ function slot16(slot0, slot1, slot2)
 	slot4 = LeanTween
 	slot4 = slot4.moveX
 	slot5 = slot0.optionsBg
-	slot6 = 816
+	slot6 = 525
 	slot7 = 0.5
 
 	slot4(slot5, slot6, slot7)
@@ -5066,7 +5317,7 @@ function slot16(slot0, slot1, slot2)
 			slot10 = LeanTween
 			slot10 = slot10.moveX
 			slot11 = slot9
-			slot12 = 421
+			slot12 = 632
 			slot13 = 0.4
 			slot10 = slot10(slot11, slot12, slot13)
 			slot11 = slot10
@@ -5121,6 +5372,15 @@ function slot16(slot0, slot1, slot2)
 
 	function slot7()
 		slot0 = slot0
+		slot0 = slot0.skipBtn
+		slot1 = slot0
+		slot0 = slot0.GetComponent
+		slot2 = typeof
+		slot3 = Button
+		slot0 = slot0(slot1, slot2(slot3))
+		slot1 = true
+		slot0.interactable = slot1
+		slot0 = slot0
 		slot0 = slot0.optionsCg
 		slot1 = true
 		slot0.interactable = slot1
@@ -5155,9 +5415,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.hideOptions = slot16
+slot0.hideOptions = slot17
 
-function slot16(slot0)
+function slot17(slot0)
 	slot1 = slot0.optionItems
 
 	if not slot1 then
@@ -5179,9 +5439,9 @@ function slot16(slot0)
 	return
 end
 
-slot0.removeOptBtns = slot16
+slot0.removeOptBtns = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
 	slot2 = pairs
 	slot3 = slot1
 	slot2, slot3, slot4 = slot2(slot3)
@@ -5190,89 +5450,125 @@ function slot16(slot0, slot1)
 		slot7 = slot6.name
 
 		if slot7 then
-			slot7 = findTF
-			slot8 = slot0._effectPanel
-			slot9 = slot6.name
-			slot7 = slot7(slot8, slot9)
+			slot7 = LeanTween
+			slot7 = slot7.delayedCall
+			slot8 = slot6.delay
 
-			if not slot7 then
-				slot8 = slot0.effectObjs
-				slot9 = slot6.name
-				slot8 = slot8[slot9]
-
-				if not slot8 then
-					slot9 = PoolMgr
-					slot9 = slot9.GetInstance
-					slot9 = slot9()
-					slot10 = slot9
-					slot9 = slot9.GetUI
-					slot11 = "speed"
-					slot12 = false
-
-					function slot13(slot0)
-						slot1 = setParent
-						slot2 = slot0
-						slot3 = slot0
-						slot3 = slot3._effectPanel
-						slot3 = slot3.transform
-
-						slot1(slot2, slot3)
-
-						slot1 = setActive
-						slot2 = slot0
-						slot3 = slot1
-						slot3 = slot3.active
-
-						slot1(slot2, slot3)
-
-						slot1 = slot0
-						slot1 = slot1.effectObjs
-						slot2 = slot1
-						slot2 = slot2.name
-						slot3 = {}
-						slot1[slot2] = slot3
-						slot1 = slot0
-						slot1 = slot1.effectObjs
-						slot2 = slot1
-						slot2 = slot2.name
-						slot1 = slot1[slot2]
-						slot2 = slot1
-						slot2 = slot2.name
-						slot1[1] = slot2
-						slot1 = slot0
-						slot1 = slot1.effectObjs
-						slot2 = slot1
-						slot2 = slot2.name
-						slot1 = slot1[slot2]
-						slot1[2] = slot0
-
-						return
-					end
-
-					slot9(slot10, slot11, slot12, slot13)
-				else
-					slot9 = setActive
-					slot10 = slot8[2]
-					slot11 = slot6.active
-
-					slot9(slot10, slot11)
-				end
-			else
-				slot8 = SetActive
-				slot9 = slot7
-				slot10 = slot6.active
-
-				slot8(slot9, slot10)
+			if not slot8 then
+				slot8 = 0
 			end
+
+			slot9 = System
+			slot9 = slot9.Action
+
+			function slot10()
+				slot0 = findTF
+				slot1 = slot0
+				slot1 = slot1._effectPanel
+				slot2 = slot1
+				slot2 = slot2.name
+				slot0 = slot0(slot1, slot2)
+
+				if not slot0 then
+					slot1 = slot0
+					slot1 = slot1.effectObjs
+					slot2 = slot1
+					slot2 = slot2.name
+					slot1 = slot1[slot2]
+
+					if not slot1 then
+						slot2 = PoolMgr
+						slot2 = slot2.GetInstance
+						slot2 = slot2()
+						slot3 = slot2
+						slot2 = slot2.GetUI
+						slot4 = slot1
+						slot4 = slot4.name
+						slot5 = false
+
+						function slot6(slot0)
+							slot1 = slot0
+							slot1 = slot1.name
+							slot0.name = slot1
+							slot1 = setParent
+							slot2 = slot0
+							slot3 = slot1
+							slot3 = slot3._effectPanel
+							slot3 = slot3.transform
+
+							slot1(slot2, slot3)
+
+							slot1 = setActive
+							slot2 = slot0
+							slot3 = slot0
+							slot3 = slot3.active
+
+							slot1(slot2, slot3)
+
+							slot1 = slot1
+							slot1 = slot1.effectObjs
+							slot2 = slot0
+							slot2 = slot2.name
+							slot3 = {}
+							slot1[slot2] = slot3
+							slot1 = slot1
+							slot1 = slot1.effectObjs
+							slot2 = slot0
+							slot2 = slot2.name
+							slot1 = slot1[slot2]
+							slot2 = slot0
+							slot2 = slot2.name
+							slot1[1] = slot2
+							slot1 = slot1
+							slot1 = slot1.effectObjs
+							slot2 = slot0
+							slot2 = slot2.name
+							slot1 = slot1[slot2]
+							slot1[2] = slot0
+
+							return
+						end
+
+						slot2(slot3, slot4, slot5, slot6)
+					else
+						slot2 = setActive
+						slot3 = slot1[2]
+						slot4 = slot1
+						slot4 = slot4.active
+
+						slot2(slot3, slot4)
+					end
+				else
+					slot1 = SetActive
+					slot2 = slot0
+					slot3 = slot1
+					slot3 = slot3.active
+
+					slot1(slot2, slot3)
+				end
+
+				return
+			end
+
+			slot7(slot8, slot9(slot10))
 		end
 	end
 
 	return
 end
 
-slot0.setEffects = slot16
+slot0.setEffects = slot17
 
-function slot16(slot0, slot1)
+function slot17(slot0, slot1)
+	slot2 = pg
+	slot2 = slot2.CriMgr
+	slot2 = slot2.GetInstance
+	slot2 = slot2()
+	slot3 = slot2
+	slot2 = slot2.ResumeCV
+
+	slot2(slot3)
+
 	slot2 = pg
 	slot2 = slot2.DelegateInfo
 	slot2 = slot2.Dispose
@@ -5405,9 +5701,9 @@ function slot16(slot0, slot1)
 	return
 end
 
-slot0.EndStory = slot16
+slot0.EndStory = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = findTF
 	slot4 = slot1
 	slot5 = "actor_sub"
@@ -5528,9 +5824,9 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.setSubActors = slot16
+slot0.setSubActors = slot17
 
-function slot16(slot0)
+function slot17(slot0)
 	slot1 = table
 	slot1 = slot1.getCount
 	slot2 = slot0
@@ -5560,9 +5856,9 @@ function slot16(slot0)
 	return
 end
 
-slot0.popQuery = slot16
+slot0.popQuery = slot17
 
-function slot16(slot0, slot1, slot2)
+function slot17(slot0, slot1, slot2)
 	slot3 = table
 	slot3 = slot3.insert
 	slot4 = slot0
@@ -5575,15 +5871,15 @@ function slot16(slot0, slot1, slot2)
 	return
 end
 
-slot0.addQuery = slot16
+slot0.addQuery = slot17
 
-function slot16(slot0)
+function slot17(slot0)
 	slot1 = isActive
 	slot2 = slot0._go
 
 	return slot1(slot2)
 end
 
-slot0.isActive = slot16
+slot0.isActive = slot17
 
 return

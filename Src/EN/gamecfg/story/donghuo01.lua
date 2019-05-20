@@ -11,23 +11,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>“...I thought... by defeating all of my enemies... I’d finally get some peace.”</size>",
+					"<size=51>“...I thought... by defeating all of my enemies... I’d finally get some peace.”</size>",
 					2.5
 				},
 				{
-					"<size=34>“But it appears... the future has betrayed us.”</size>",
+					"<size=51>“But it appears... the future has betrayed us.”</size>",
 					5
 				},
 				{
-					"<size=34>“No matter the effort, there will always be battles ahead.”</size>",
+					"<size=51>“No matter the effort, there will always be battles ahead.”</size>",
 					7
 				},
 				{
-					"<size=34>“One by one they stand defiant in front of me... and one by one their faces disappear behind me... I can’t remember them anymore.”</size> ",
+					"<size=51>“One by one they stand defiant in front of me... and one by one their faces disappear behind me... I can’t remember them anymore.”</size> ",
 					10
 				},
 				{
-					"<size=34>“——It is time, sisters.”</size>",
+					"<size=51>“——It is time, sisters.”</size>",
 					12.5
 				},
 				{
@@ -35,11 +35,11 @@ return {
 					13
 				},
 				{
-					"<size=34>“The stars are mesmerizing tonight”</size>",
+					"<size=51>“The stars are mesmerizing tonight”</size>",
 					15
 				},
 				{
-					"<size=34>——Mission Codename: Fallen Wings</size>",
+					"<size=51>——Mission Codename: Fallen Wings</size>",
 					20
 				}
 			}

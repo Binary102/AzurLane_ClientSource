@@ -5,6 +5,7 @@ slot0.ON_FORMATION = "ActivityBossBattleMediator2:ON_FORMATION"
 slot0.ON_GET = "ActivityBossBattleMediator2:ON_GET"
 slot0.ON_RANK = "ActivityBossBattleMediator2:ON_RANK"
 slot0.UPDATE_BOSS_INFO = "ActivityBossBattleMediator2:UPDATE_BOSS_INFO"
+slot0.UPDATE_ACT_RANK_PT = "ActivityBossBattleMediator2:UPDATE_ACT_RANK_PT"
 slot0.ON_OPEN_DOCK = "ActivityBossBattleMediator2:ON_OPEN_DOCK"
 slot0.ON_FLEET_SHIPINFO = "ActivityBossBattleMediator2:ON_FLEET_SHIPINFO"
 slot0.ON_SELECT_COMMANDER = "ActivityBossBattleMediator2:ON_SELECT_COMMANDER"
@@ -201,15 +202,19 @@ function slot0.register(slot0)
 
 		slot2.contextData.editFleet = true
 	end)
+	slot0:bind(slot0.UPDATE_ACT_RANK_PT, function (slot0, slot1)
+		slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK).data1 = slot1
 
-	slot3 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
-	slot4 = slot3:getConfig("config_id")
+		slot0.activityProxy:updateActivity(slot0.activityProxy.getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK))
+	end)
+
+	slot4 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).getConfig(slot3, "config_id")
 
 	slot0.viewComponent:setPtID(pg.activity_event_worldboss[slot4].damage_resource)
 
 	pg.extraenemy_template[pg.activity_event_worldboss[slot4].boss_id[1]].expedition[0] = pg.extraenemy_template[pg.activity_event_worldboss[slot4].boss_id[1]].expedition_dead
 
-	slot0.viewComponent:setInfomation(slot6, slot5, slot8, slot9)
+	slot0.viewComponent:setInfomation((pg.activity_event_worldboss[slot4].time == "stop" and 0) or pg.activity_event_worldboss[slot4].time[2], pg.activity_event_worldboss[slot4].reward_pt, slot8, slot9)
 	slot0.viewComponent:setPlayer(slot10)
 	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
 		activity_id = slot3.id
@@ -247,6 +252,9 @@ function slot0.handleNotification(slot0, slot1)
 		end)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
+		slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
+			activity_id = slot0.viewComponent.activity.id
+		})
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 		if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			slot0.viewComponent:setActivity(slot3)

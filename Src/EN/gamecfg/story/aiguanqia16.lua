@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -220,7 +220,7 @@ return {
 			say = "MENACING!!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -303,12 +303,12 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 100,
-				y = 500
+				x = 150,
+				y = 750
 			},
 			action = {
 				{
-					y = -1100,
+					y = -1650,
 					type = "move",
 					delay = 1.5,
 					dur = 2.5,
@@ -379,8 +379,8 @@ return {
 			actorName = "Kizuna AI Titan",
 			say = "………",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			actorName = "Kizuna AI Titan",
 			say = "Haah... so tired, so damn tired... Why am I fighting in a place like this anyway... Come to think of it, I was just minding my own business, shooting a video... Isn't it strange that I've turned into this?",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			actorName = "Kizuna AI Titan",
 			say = "And now, my body's turned into this monstrosity... Maybe it's better to just completely destroy this world. Maybe that's how I can get back home...?",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -603,7 +603,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

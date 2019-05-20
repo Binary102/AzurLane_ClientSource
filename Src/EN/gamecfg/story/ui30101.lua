@@ -168,7 +168,7 @@ return {
 				{
 					actor = 107070,
 					pos = {
-						x = -550
+						x = -825
 					}
 				}
 			},
@@ -208,7 +208,7 @@ return {
 			sequence = {
 				{
 					[[
-          Chapter 3 - <size=23>Five Minutes of Fate</size> 
+          Chapter 3 - <size=34.5>Five Minutes of Fate</size> 
 
 
 

@@ -66,7 +66,7 @@ function slot0.updateStudent(slot0, slot1, slot2)
 			end
 
 			slot1.model = slot0
-			slot1.model.transform.localScale = Vector3(0.3, 0.3, 1)
+			slot1.model.transform.localScale = Vector3(0.5, 0.5, 1)
 			slot1.model.transform.model.transform.localPosition = Vector3.zero
 
 			slot1.model.transform.model.transform.model.transform:SetParent(slot1._tf, false)

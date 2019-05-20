@@ -2,33 +2,39 @@ pg = pg or {}
 pg.skin_page_template = {
 	{
 		id = 1,
-		name = "クリスマス",
-		res = "shengdan"
+		name = "圣诞快乐",
+		res = "shengdan",
+		english_name = "CHRISTMAS"
 	},
 	[3] = {
 		id = 3,
-		name = "旧正月",
-		res = "qipao"
+		name = "春之旗袍",
+		res = "chunzhiqipao",
+		english_name = "SPRING "
 	},
 	[4] = {
 		id = 4,
-		name = "学園",
-		res = "xiaoyuan"
+		name = "校园生活",
+		res = "xiaoyuan",
+		english_name = "SCHOOL"
 	},
 	[6] = {
 		id = 6,
-		name = "水着",
-		res = "yongzhuang"
+		name = "夏日泳装",
+		res = "yongzhuang",
+		english_name = "SUMMER "
 	},
 	[9] = {
 		id = 9,
 		name = "私服",
-		res = "sifu"
+		res = "sifu",
+		english_name = "！！占坑！！"
 	},
 	[9999] = {
 		id = 9999,
-		name = "その他",
-		res = "qita"
+		name = "其他",
+		res = "other",
+		english_name = "OTHERS"
 	},
 	all = {
 		1,

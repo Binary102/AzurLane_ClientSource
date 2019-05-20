@@ -227,7 +227,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -247,30 +247,30 @@ return {
 			say = "………！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			actorPosition = {
-				x = -150,
+				x = -225,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301120,
 					pos = {
-						x = -350
+						x = -525
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 350
+						x = 525
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				}
 			},
@@ -320,7 +320,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -342,7 +342,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -37,21 +37,26 @@ function slot0.createRequestCard(slot0, slot1)
 	return {
 		go = slot1,
 		tf = tf(slot1),
-		nameTF = ()["tf"]:Find("request_info/name"):GetComponent(typeof(Text)),
-		levelTF = ()["tf"]:Find("request_info/lv_bg/lv/Text"):GetComponent(typeof(Text)),
-		dateTF = ()["tf"]:Find("date"):GetComponent(typeof(Text)),
-		msg = ()["tf"]:Find("request_content/bg/Text"):GetComponent(typeof(Text)),
-		iconTF = ()["tf"]:Find("icon_contaon/icon"):GetComponent(typeof(Image)),
-		starsTF = ()["tf"]:Find("icon_contaon/stars"),
-		starTF = ()["tf"]:Find("icon_contaon/stars/star"),
-		rejectBtn = ()["tf"]:Find("refuse_btn"),
-		accpetBtn = ()["tf"]:Find("accpet_btn"),
+		nameTF = ()["tf"]:Find("frame/request_info/name"):GetComponent(typeof(Text)),
+		levelTF = ()["tf"]:Find("frame/request_info/level"):GetComponent(typeof(Text)),
+		dateTF = ()["tf"]:Find("frame/request_info/date"):GetComponent(typeof(Text)),
+		msg = ()["tf"]:Find("frame/request_content/Text"):GetComponent(typeof(Text)),
+		iconTF = ()["tf"]:Find("frame/shipicon/icon"):GetComponent(typeof(Image)),
+		starsTF = ()["tf"]:Find("frame/shipicon/stars"),
+		frameCommon = ()["tf"]:Find("frame/shipicon/frame_common"),
+		frameMarry = ()["tf"]:Find("frame/shipicon/frame_marry"),
+		starTF = ()["tf"]:Find("frame/shipicon/stars/star"),
+		rejectBtn = ()["tf"]:Find("frame/refuse_btn"),
+		accpetBtn = ()["tf"]:Find("frame/accpet_btn"),
 		update = function (slot0, slot1)
 			slot0.requestVO = slot1
 			slot0.nameTF.text = slot1.player.name
-			slot0.levelTF.text = slot1.player.level
+			slot0.levelTF.text = "Lv." .. slot1.player.level
 			slot0.dateTF.text = getOfflineTimeStamp(slot1.timestamp)
 			slot0.msg.text = slot1.content
+
+			setActive(slot0.frameCommon, not slot1.player.propose)
+			setActive(slot0.frameMarry, slot1.player.propose)
 
 			if pg.ship_data_statistics[slot1.player.icon] then
 				LoadSpriteAsync("qicon/" .. slot4, function (slot0)

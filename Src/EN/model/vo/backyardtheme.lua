@@ -160,7 +160,6 @@ function slot0.getRemainFurIds(slot0, slot1)
 
 		if not slot1[slot7] and slot8:inTime() then
 			table.insert(slot2, slot7)
-			print("id::" .. slot7)
 		end
 	end
 

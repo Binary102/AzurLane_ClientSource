@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>II 「Rabbit Alien Characteristics—— “Rabbit Ears”!」</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=45>II 「Rabbit Alien Characteristics—— “Rabbit Ears”!」</size>",
 					1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -228,7 +228,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -280,7 +280,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

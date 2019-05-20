@@ -8,10 +8,6 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
 
-	if pg.GuideMgr2.ENABLE_GUIDE then
-		pg.GuideMgr2:GetInstance():QuitGuide()
-	end
-
 	if pg.StoryMgr:GetInstance()._go.activeSelf then
 		pg.StoryMgr:GetInstance():EndStory()
 	end
@@ -19,8 +15,6 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if pg.MsgboxMgr:GetInstance()._go.activeSelf then
 		pg.MsgboxMgr:GetInstance():hide()
 	end
-
-	pg.PushNotificationMgr.GetInstance():PushAll()
 
 	slot5 = getProxy(SettingsProxy)
 
@@ -31,6 +25,7 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	BillboardMediator.time = nil
 	Map.lastMap = nil
+	Map.lastMapForActivity = nil
 	BuildShipScene.Page = nil
 	BuildShipScene.projectName = nil
 	DockyardScene.selectedSort = nil
@@ -39,18 +34,16 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	DockyardScene.indexFlag2 = nil
 	DockyardScene.indexFlag3 = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
-	MainUIMediator.lastRequestVersionTime = nil
-	BattleScene.autoBotIsAcitve = nil
+	ActivityMainScene.FetchReturnersTime = nil
+	ActivityMainScene.Data2Time = nil
 	InvestigationLayer.Caches = {}
+
+	pg.SeriesGuideMgr.GetInstance():dispose()
+	pg.GuideMgr.GetInstance():endGuider()
+	PoolMgr.GetInstance():DestroyAllPrefab()
 
 	if getProxy(UserProxy) and slot6:getRawData() then
 		slot7:clear()
-	end
-
-	slot8 = nil
-
-	if getProxy(PlayerProxy) and slot7:getRawData() then
-		slot8 = slot9.id
 	end
 
 	slot0.facade:removeProxy(PlayerProxy.__cname)
@@ -81,6 +74,9 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot0.facade:removeProxy(AnswerProxy.__cname)
 	slot0.facade:removeProxy(TechnologyProxy.__cname)
 	slot0.facade:removeProxy(TechnologyNationProxy.__cname)
+	slot0.facade:removeProxy(AttireProxy.__cname)
+	slot0.facade:removeProxy(ShipSkinProxy.__cname)
+	slot0.facade:removeProxy(PrayProxy.__cname)
 	slot0:sendNotification(GAME.LOAD_SCENE, {
 		context = Context.New({
 			cleanStack = true,
@@ -90,7 +86,14 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			data = slot2
 		})
 	})
-	SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGOUT, (slot8 == nil and "") or slot8)
+
+	if PLATFORM_CODE == PLATFORM_CH then
+		if slot2.code ~= SDK_EXIT_CODE then
+			BilibiliSdkMgr.inst:localLogout()
+		end
+	elseif PLATFORM_CODE == PLATFORM_US then
+		SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGOUT, (userId == nil and "") or userId)
+	end
 end
 
 return class("LogoutCommand", pm.SimpleCommand)

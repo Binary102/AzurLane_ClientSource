@@ -8,38 +8,38 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.mask = slot0:findTF("mask")
 	slot0.mainPanel = slot0:findTF("mainPanel")
 	slot0.head = slot0:findTF("bg/left_panel/ship_tpl", slot0.mainPanel)
-	slot0.labelHeart = slot0:findTF("bg/left_panel/zan_count/bg/Text", slot0.mainPanel)
-	slot0.labelEva = slot0:findTF("bg/left_panel/evaluation_count/bg/Text", slot0.mainPanel)
+	slot0.labelHeart = slot0:findTF("bg/left_panel/evaluation_count/heart", slot0.mainPanel)
+	slot0.labelEva = slot0:findTF("bg/left_panel/evaluation_count/count", slot0.mainPanel)
 	slot0.btnLike = slot0:findTF("bg/left_panel/btnLike", slot0.mainPanel)
 	slot0.btnEva = slot0:findTF("bg/bottom_panel/send_btn", slot0.mainPanel)
-	slot0.btnClose = slot0:findTF("bg/top_panel/btnBack", slot0.mainPanel)
 	slot0.input = slot0:findTF("bg/bottom_panel/Input", slot0.mainPanel)
 	slot0.inputText = slot0:findTF("Text", slot0.input)
-	slot0.labelTip = slot0:findTF("bg/bottom_panel/tip", slot0.mainPanel)
 	slot0.list = slot0:findTF("bg/right_panel/list", slot0.mainPanel)
-	slot0.content = slot0:findTF("content", slot0.list)
-	slot0.itemTpl = slot0:findTF("bg/right_panel/item", slot0.mainPanel)
-	slot0.iconType = findTF(slot0.head, "icon_bg/type"):GetComponent(typeof(Image))
-	slot0.imageBg = findTF(slot0.head, "icon_bg"):GetComponent(typeof(Image))
-	slot0.imageFrame = findTF(slot0.head, "icon_bg/frame"):GetComponent(typeof(Image))
-	slot0.iconShip = findTF(slot0.head, "icon_bg/icon"):GetComponent(typeof(Image))
-	slot0.labelName = findTF(slot0.head, "icon_bg/name"):GetComponent(typeof(Text))
-	slot0.stars = findTF(slot0.head, "icon_bg/stars")
-	slot0.star = findTF(slot0.head, "icon_bg/stars/star_tpl")
+	slot0.hotContent = slot0:findTF("content/hots", slot0.list)
+	slot0.commonContent = slot0:findTF("content/commons", slot0.list)
+	slot0.hotTpl = slot0:findTF("content/hot_tpl", slot0.list)
+	slot0.commonTpl = slot0:findTF("content/commom_tpl", slot0.list)
+	slot0.iconType = findTF(slot0.head, "content/main_bg/type_mask/type_icon"):GetComponent(typeof(Image))
+	slot0.imageBg = findTF(slot0.head, "content/icon_bg"):GetComponent(typeof(Image))
+	slot0.imageFrame = findTF(slot0.head, "content/main_bg")
+	slot0.iconShip = findTF(slot0.head, "content/icon"):GetComponent(typeof(Image))
+	slot0.labelName = findTF(slot0.head, "content/main_bg/name_mask/name"):GetComponent(typeof(Text))
+	slot0.stars = findTF(slot0.head, "content/main_bg/stars")
+	slot0.star = findTF(slot0.stars, "tpl")
+	slot0.bg = slot0:findTF("BG")
 
-	setActive(slot0.itemTpl, false)
-	setActive(slot0.labelTip, false)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		groupName = slot0:getGroupNameFromData()
+	})
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0.mask, function ()
+	onButton(slot0, slot0.bg, function ()
 		slot0:emit(BaseUI.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.btnClose, function ()
+	onButton(slot0, slot0:findTF("mainPanel/bg/top_panel/btnBack"), function ()
 		slot0:emit(BaseUI.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnLike, function ()
@@ -65,12 +65,10 @@ function slot0.didEnter(slot0)
 		end
 
 		if slot1 then
-			setActive(slot0.labelTip, true)
-			setText(slot0.labelTip, slot2)
 			setTextColor(slot0.inputText, Color.red)
 			setButtonEnabled(slot0.btnEva, false)
+			pg.TipsMgr:GetInstance():ShowTips(slot2)
 		else
-			setActive(slot0.labelTip, false)
 			setTextColor(slot0.inputText, Color.white)
 			setButtonEnabled(slot0.btnEva, true)
 		end
@@ -94,12 +92,12 @@ end
 function slot0.flushShip(slot0)
 	slot1 = slot0.shipGroup.shipConfig
 
-	GetImageSpriteFromAtlasAsync("shipframe", ((slot0.shipGroup:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), slot0.imageFrame)
-	LoadImageSpriteAsync("bg/star_level_card_" .. ((slot0.shipGroup:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), slot0.imageBg)
+	setShipCardFrame(slot0.imageFrame, slot4, nil)
+	LoadImageSpriteAsync("bg/star_level_card_" .. ((slot0.shipGroup:isBluePrintGroup() and "0") or "") .. slot4, slot0.imageBg)
 
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
-	LoadImageSpriteAsync("shipYardIcon/" .. slot0.shipGroup:getPainting(slot0.showTrans), slot0.iconShip, true)
+	LoadImageSpriteAsync("shipYardIcon/" .. slot0.shipGroup:getPainting(slot0.showTrans), slot0.iconShip)
 
 	slot0.labelName.text = slot0.shipGroup:getName(slot0.showTrans)
 
@@ -109,8 +107,8 @@ function slot0.flushShip(slot0)
 
 	slot0.iconType.sprite = slot5
 
-	for slot10 = slot0.stars.childCount, slot1.star - 1, 1 do
-		cloneTplTo(slot0.star, slot0.stars)
+	for slot11 = slot0.stars.childCount, pg.ship_data_template[slot1.id].star_max - 1, 1 do
+		slot12 = cloneTplTo(slot0.star, slot0.stars)
 	end
 end
 
@@ -122,47 +120,113 @@ end
 function slot0.flushEva(slot0)
 	setText(slot0.labelEva, slot0.shipGroup.evaluation.evaCount)
 
-	for slot7 = slot0.content.childCount - 1, #slot0.shipGroup.evaluation.evas, -1 do
-		Destroy(slot0.content:GetChild(slot7))
+	slot2 = slot0.shipGroup.evaluation.evas
+
+	for slot6 = 1, slot0.hotContent.childCount, 1 do
+		if go(slot0.hotContent:GetChild(slot6 - 1)).name ~= "tag" then
+			Destroy(slot7)
+		end
 	end
 
-	for slot7 = slot3, #slot2 - 1, 1 do
-		cloneTplTo(slot0.itemTpl, slot0.content)
+	for slot6 = 1, slot0.commonContent.childCount, 1 do
+		if go(slot0.commonContent:GetChild(slot6 - 1)).name ~= "tag" then
+			Destroy(slot7)
+		end
 	end
 
-	for slot7 = 1, #slot2, 1 do
-		setActive(slot10, slot2[slot7].hot)
-		setActive(slot0:findTF("normal", slot8), not slot2[slot7].hot)
-		setText(slot14, slot9.nick_name .. ":")
-		setText(slot15, slot9.good_count - slot9.bad_count)
+	for slot6 = 1, #slot2, 1 do
+		slot7 = nil
+		slot7 = (not slot2[slot6].hot or cloneTplTo(slot0.hotTpl, slot0.hotContent)) and cloneTplTo(slot0.commonTpl, slot0.commonContent)
 
-		slot0:findTF("evaluation_frame/Text", slot8):GetComponent(typeof(Text)).supportRichText = false
-		slot0.findTF("evaluation_frame/Text", slot8).GetComponent(typeof(Text)).text = slot9.context
+		setText(slot10, slot8.nick_name .. ":")
+		setText(slot11, slot8.good_count - slot8.bad_count)
 
-		function slot16(slot0)
+		slot0:findTF("bg/evaluation", (not slot2[slot6].hot or cloneTplTo(slot0.hotTpl, slot0.hotContent)) and cloneTplTo(slot0.commonTpl, slot0.commonContent)):GetComponent(typeof(Text)).supportRichText = false
+		slot0.findTF("bg/evaluation", (not slot2[slot6].hot or cloneTplTo(slot0.hotTpl, slot0.hotContent)) and cloneTplTo(slot0.commonTpl, slot0.commonContent)).GetComponent(typeof(Text)).text = slot8.context
+
+		function slot12(slot0)
 			if not slot0.izan then
 				slot1:emit(slot2.EVENT_ZAN, slot0.id, slot0)
 			else
 				pg.TipsMgr:GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
 			end
+
+			return
 		end
 
-		onButton(slot0, (slot2[slot7].hot and slot10) or slot11:Find("zan_bg/up"), function ()
+		onButton(slot0, slot7:Find("bg/zan_bg/up"), function ()
 			slot0(0)
+
+			return
 		end, SFX_PANEL)
-		onButton(slot0, (slot2[slot7].hot and slot10) or slot11:Find("zan_bg/down"), function ()
+		onButton(slot0, slot7:Find("bg/zan_bg/down"), function ()
 			slot0(1)
+
+			return
 		end, SFX_PANEL)
-		SetActive((slot2[slot7].hot and slot10) or slot11:Find("zan_bg/down"), not LOCK_DOWNVOTE or false)
+		SetActive(slot7:Find("bg/zan_bg/down"), not LOCK_DOWNVOTE or false)
+
+		slot7 = cloneTplTo(slot0.hotTpl, slot0.hotContent)
+
+		if cloneTplTo(slot0.hotTpl, slot0.hotContent) then
+			slot7 = cloneTplTo(slot0.commonTpl, slot0.commonContent)
+		end
+
+		slot15 = false
+
+		if false then
+			slot15 = false
+
+			if false then
+				slot15 = true
+			end
+		end
 
 		if LOCK_DOWNVOTE then
-			slot12:Find("zan_bg/up").position = slot12:Find("zan_bg/down").position + Vector3(0, 0.15, 0)
+			slot7:Find("bg/zan_bg/up").position = slot7:Find("bg/zan_bg/down").position
 		end
 	end
+
+	slot3 = 1
+
+	for slot7 = 1, slot0.hotContent.childCount, 1 do
+		if go(slot0.hotContent:GetChild(slot7 - 1)).name ~= "tag" then
+			slot9 = setActive
+			slot10 = slot8:Find("print1")
+
+			if slot3 % 2 == 0 then
+				slot11 = false
+			else
+				slot11 = true
+			end
+
+			slot9(slot10, slot11)
+
+			slot9 = setActive
+			slot10 = slot8:Find("print2")
+
+			if slot3 % 2 ~= 0 then
+				slot11 = false
+			else
+				slot11 = true
+			end
+
+			slot9(slot10, slot11)
+
+			slot3 = slot3 + 1
+		end
+	end
+
+	setActive(slot0.hotContent:Find("tag"), slot0.hotContent.childCount > 1)
+	setActive(slot0.commonContent:Find("tag"), slot0.commonContent.childCount > 1)
+	slot0.hotContent:Find("tag"):SetAsLastSibling()
+	slot0.commonContent:Find("tag"):SetAsLastSibling()
 end
 
 function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	return
 end
 
 return slot0

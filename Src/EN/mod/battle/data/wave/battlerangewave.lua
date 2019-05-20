@@ -21,7 +21,7 @@ function ys.Battle.BattleRangeWave.DoWave(slot0)
 		for slot5, slot6 in ipairs(slot0) do
 			if slot6.IFF ~= slot1:GetCldData().IFF then
 				slot1:SetActiveFlag(false)
-				slot0:doFinish()
+				slot0:doPass()
 
 				break
 			end

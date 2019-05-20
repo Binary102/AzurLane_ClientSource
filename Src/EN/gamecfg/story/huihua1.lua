@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=30>一　埃塞克斯的烦恼</size>",
+					"特别庆典·开幕！\n\n<size=45>一　埃塞克斯的烦恼</size>",
 					1
 				}
 			}
@@ -163,7 +163,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -347,7 +347,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,

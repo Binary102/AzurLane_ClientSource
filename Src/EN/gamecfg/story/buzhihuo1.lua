@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Shiranui, the Do-It-All Shopkeeper\n\n<size=30>Chapter 1: Ice-Cold Shiranui</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 1: Ice-Cold Shiranui</size>",
 					1
 				}
 			}

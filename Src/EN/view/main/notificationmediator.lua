@@ -10,63 +10,53 @@ function slot0.register(slot0)
 	slot0.viewComponent:setInGuild(getProxy(GuildProxy):getRawData() ~= nil)
 	slot0.viewComponent:setMessages(slot0.viewComponent.setInGuild)
 	slot0:bind(slot0.ON_SEND_PUBLIC, function (slot0, slot1, slot2)
-		slot3 = slot2:match("^$ (%S+)")
+		if slot2:match("^$ (%S+)") then
+			slot4 = {}
 
-		if slot2:match("$ pushTest") then
-			slot5 = {}
-
-			for slot9, slot10 in slot2:gmatch("%S+") do
-				table.insert(slot5, slot9)
-			end
-
-			pg.PushNotificationMgr.GetInstance():Push(slot5[3], slot5[4], os.time() + slot5[5])
-		elseif slot3 then
-			slot5 = {}
-
-			for slot9, slot10 in slot2:gmatch("%s+(%S+)") do
-				table.insert(slot5, slot9)
+			for slot8, slot9 in slot2:gmatch("%s+(%S+)") do
+				table.insert(slot4, slot8)
 			end
 
 			slot0:sendNotification(GAME.SEND_CMD, {
-				cmd = slot5[1],
-				arg1 = slot5[2],
-				arg2 = slot5[3],
-				arg3 = slot5[4]
+				cmd = slot4[1],
+				arg1 = slot4[2],
+				arg2 = slot4[3],
+				arg3 = slot4[4]
 			})
 		elseif slot2 == pg.gameset.code_switch.description then
-			if getProxy(PlayerProxy).getRawData(slot5).level >= 9 then
+			if getProxy(PlayerProxy).getRawData(slot4).level >= 9 then
 				HXSet.switchCodeMode()
 			end
 		else
-			slot6 = getProxy(PlayerProxy).getData(slot5)
-			slot9 = 0
+			slot5 = getProxy(PlayerProxy).getData(slot4)
+			slot8 = 0
 
-			for slot13 = #getProxy(ChatProxy).getData(slot7), 1, -1 do
-				if slot8[slot13].type == ChatConst.ChannelWorld and slot8[slot13].player.id == slot6.id then
-					slot9 = slot8[slot13].timestamp
+			for slot12 = #getProxy(ChatProxy).getData(slot6), 1, -1 do
+				if slot7[slot12].type == ChatConst.ChannelWorld and slot7[slot12].player.id == slot5.id then
+					slot8 = slot7[slot12].timestamp
 
 					break
 				end
 			end
 
-			if pg.TimeMgr.GetInstance():GetServerTime() < slot6.chatMsgBanTime then
+			if pg.TimeMgr.GetInstance():GetServerTime() < slot5.chatMsgBanTime then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
-					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot6.chatMsgBanTime))
+					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot5.chatMsgBanTime))
 				})
-			elseif slot6.level < 10 then
+			elseif slot5.level < 10 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
-			elseif slot10 - slot9 <= 10 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently"))
+			elseif slot9 - slot8 < 10 then
+				pg.TipsMgr:GetInstance():ShowTips(i18n("dont_send_message_frequently", 10 - (slot9 - slot8)))
 			else
-				slot11, slot12 = wordVer(slot2, {
+				slot10, slot11 = wordVer(slot2, {
 					isReplace = true
 				})
 
 				if slot1 == ChatConst.ChannelWorld then
-					slot0:sendNotification(GAME.SEND_MSG, slot12)
+					slot0:sendNotification(GAME.SEND_MSG, slot11)
 				elseif slot1 == ChatConst.ChannelGuild then
-					slot0:sendNotification(GAME.GUILD_SEND_MSG, slot12)
+					slot0:sendNotification(GAME.GUILD_SEND_MSG, slot11)
 				end
 			end
 		end
@@ -94,14 +84,16 @@ function slot0.register(slot0)
 			keyword = slot1.id
 		})
 	end)
-	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EmojiLayer,
 			mediator = EmojiMediator,
 			data = {
-				callback = slot1
+				callback = slot1,
+				pos = slot2,
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 			}
-		}))
+		}), true)
 	end)
 end
 
@@ -153,7 +145,8 @@ function slot0.handleNotification(slot0, slot1)
 					pos = slot0.contextData.pos,
 					msg = slot0.contextData.msg,
 					form = slot0.contextData.form,
-					parent = slot0.contextData.chatViewParent
+					parent = slot0.contextData.chatViewParent,
+					LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 				}
 			}))
 

@@ -42,7 +42,8 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnHelp, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("answer_help_tip")
 		})
 	end, SFX_PANEL)

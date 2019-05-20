@@ -42,20 +42,12 @@ function ys.Battle.BattleCastBar.Interrupt(slot0, slot1)
 	LeanTween.cancel(go(slot0._danger))
 
 	for slot5 = 1, 2, 1 do
-		LeanTween.value(go(slot0._castClockTF), 1, 0.3, 0.3):setOnUpdate(System.Action_float(function (slot0)
-			slot0._clockCG.alpha = slot0
-		end)):setDelay(0.3 * (slot5 - 1))
-		LeanTween.value(go(slot0._castClockTF), 0.3, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
-			slot0._clockCG.alpha = slot0
-
-			return
-		end)):setDelay(0.3 * slot5)
+		LeanTween.alphaCanvas(slot0._clockCG, 0.3, 0.3):setFrom(1):setDelay(0.3 * (slot5 - 1))
+		LeanTween.alphaCanvas(slot0._clockCG, 1, 0.3):setDelay(0.3 * slot5)
 	end
 
 	LeanTween.scale(rtf(slot0._castClockGO), Vector3.New(0.1, 0.1, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(1.25):setOnComplete(System.Action(function ()
 		SetActive(slot0._castClockTF, false)
-
-		return
 	end))
 end
 
@@ -65,14 +57,10 @@ end
 
 function ys.Battle.BattleCastBar.UpdateCastClockPosition(slot0, slot1)
 	slot0._castClockTF.position = slot1 + slot0.OFFSET
-
-	return
 end
 
 function ys.Battle.BattleCastBar.UpdateCastClock(slot0)
 	slot0._castProgress.fillAmount = 1 - (slot0._castFinishTime - pg.TimeMgr.GetInstance():GetCombatTime()) / slot0._castDuration
-
-	return
 end
 
 function ys.Battle.BattleCastBar.Dispose(slot0)
@@ -85,8 +73,6 @@ function ys.Battle.BattleCastBar.Dispose(slot0)
 	slot0._castProgress = nil
 	slot0._interrupt = nil
 	slot0._casting = nil
-
-	return
 end
 
 return

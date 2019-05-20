@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> IV   「Fairy of The Library」 </size>",
+					"School Day Celebrations\n\n<size=45> IV   「Fairy of The Library」 </size>",
 					1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

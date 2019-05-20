@@ -160,7 +160,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -371,23 +371,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>As long as you reach out, there will come a day when our hands can connect.</size>",
+					"<size=51>As long as you reach out, there will come a day when our hands can connect.</size>",
 					2
 				},
 				{
-					"<size=34>The \"Singularity\" that begins from beyond the boundaries of Pure White...</size>",
+					"<size=51>The \"Singularity\" that begins from beyond the boundaries of Pure White...</size>",
 					4
 				},
 				{
-					"<size=34>Builds a bond between those that would never meet.</size>",
+					"<size=51>Builds a bond between those that would never meet.</size>",
 					6
 				},
 				{
-					"<size=34>That is the reason why I was born into Pure White.</size> ",
+					"<size=51>That is the reason why I was born into Pure White.</size> ",
 					8
 				},
 				{
-					"<size=34>To make a promise with those who were born onto a star streaked with lanes of azur...</size>",
+					"<size=51>To make a promise with those who were born onto a star streaked with lanes of azur...</size>",
 					10
 				},
 				{
@@ -395,7 +395,7 @@ return {
 					11
 				},
 				{
-					"<size=34>                                                              -- \"Synchronicity.\"</size>",
+					"<size=51>                                                              -- \"Synchronicity.\"</size>",
 					12
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=30>七 {namecode:97}的消失(?)·下</size>",
+					"“献身”的{namecode:97}\n\n<size=45>七 {namecode:97}的消失(?)·下</size>",
 					1
 				}
 			}
@@ -142,7 +142,7 @@ return {
 			actor = 108020,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = 1000,
+				x = 1500,
 				y = 0
 			},
 			action = {
@@ -151,7 +151,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.4,
-					x = -450
+					x = -675
 				}
 			},
 			typewriter = {
@@ -232,7 +232,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -457,10 +457,10 @@ return {
 			dir = 1,
 			actor = 307070,
 			nameColor = "#a9f548",
-			say = "<size=30>指挥官大人！！！</size>",
+			say = "<size=45>指挥官大人！！！</size>",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			painting = {
@@ -479,7 +479,7 @@ return {
 					}
 				},
 				{
-					y = -150,
+					y = -225,
 					type = "move",
 					delay = 0.01,
 					dur = 0.2,

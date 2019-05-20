@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与{namecode:93}共度的时光\n\n<size=30>六 不变与变化（中）</size>",
+					"与{namecode:93}共度的时光\n\n<size=45>六 不变与变化（中）</size>",
 					1
 				}
 			}
@@ -243,7 +243,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,

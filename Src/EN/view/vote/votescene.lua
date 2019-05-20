@@ -223,19 +223,14 @@ function slot0.updateFinalPanel(slot0)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("rank"), slot0[slot1 + 1].rank <= 3)
-
-			if slot3.rank <= 3 then
-				setImageSprite(slot2:Find("rank"), getImageSprite(slot1.res:Find("rank" .. slot3.rank)))
-			end
-
+			setActive(slot2:Find("rank"), false)
 			setImageSprite(slot4, slot5)
-			LoadSpriteAsync("herohrzicon/" .. slot3.shipVO:getPainting(), function (slot0)
+			LoadSpriteAsync("herohrzicon/" .. slot0[slot1 + 1].shipVO:getPainting(), function (slot0)
 				if not slot0.exited and slot1 == slot2[slot3 + 1] then
 					setImageSprite(slot4, slot0, true)
 				end
 			end)
-			setText(slot2:Find("black/ticket_number"), slot3.votes)
+			setText(slot2:Find("black/ticket_number"), slot0[slot1 + 1].votes)
 			onButton(slot1, slot2, function ()
 				slot0:openVotePanel(slot0)
 			end, SFX_PANEL)
@@ -246,8 +241,6 @@ function slot0.updateFinalPanel(slot0)
 end
 
 function slot0.updateRacePanel(slot0)
-	slot0.raceNameDic = {}
-
 	setText(slot0.raceVotes, "X" .. slot0.votes)
 	setText(slot0.raceLoves, "X" .. slot0.loves)
 	setText(slot0.rankTag, i18n("vote_rank_refresh_time"))
@@ -258,19 +251,9 @@ function slot0.updateRacePanel(slot0)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot0[slot1 + 1]
-			slot4 = nil
-			slot4 = (slot1.raceNameDic[slot2] ~= nil or ScrollTxt.New(slot2:Find("name_mask"), slot2:Find("name_mask/name"))) and slot1.raceNameDic[slot2]
-
 			setText(slot2:Find("rank"), slot0[slot1 + 1].rank)
-			slot4:setText(slot0[slot1 + 1].shipVO:getName())
-			setText(slot2:Find("number"), slot3.votes)
-
-			slot4 = ScrollTxt.New(slot2.Find("name_mask"), slot2.Find("name_mask/name"))
-
-			if ScrollTxt.New(slot2.Find("name_mask"), slot2.Find("name_mask/name")) then
-				slot4 = slot1.raceNameDic[slot2]
-			end
+			setText(slot2:Find("name"), slot0[slot1 + 1].shipVO:getName())
+			setText(slot2:Find("number"), slot0[slot1 + 1].votes)
 		end
 	end)
 	slot2:align(#_.slice(slot0.voteGroup:getList(), 1, VoteConst.PrimayDisplayMax))
@@ -282,8 +265,6 @@ function slot0.updateRacePanel(slot0)
 		slot0.raceShipOrderAsc = not slot0.raceShipOrderAsc
 
 		not slot0.raceShipOrderAsc:sortFilterRaceShips()
-
-		return
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnIndex, function ()
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.overlay, slot0._tf)
@@ -300,16 +281,10 @@ function slot0.updateRacePanel(slot0)
 				slot0.raceShipIndex.rarity = slot0.rarity
 
 				slot0.raceShipIndex:sortFilterRaceShips()
-
-				return
 			end
 		}, function ()
 			pg.UIMgr.GetInstance():BlurPanel(slot0.overlay)
-
-			return
 		end)
-
-		return
 	end, SFX_PANEL)
 end
 
@@ -319,17 +294,11 @@ function slot0.sortFilterRaceShips(slot0)
 	setImageSprite(slot0.btnIndex:Find("Image"), slot3, true)
 
 	slot0.raceShipFiltered = _.filter(slot0.raceShipAll, function (slot0)
-		if IndexConst.filterByIndex(slot0.shipVO, slot0.raceShipIndex.index) and IndexConst.filterByCamp(slot0.shipVO, slot0.raceShipIndex.camp) then
-			slot1 = IndexConst.filterByRarity(slot0.shipVO, slot0.raceShipIndex.rarity)
-		end
-
-		return slot1
+		return IndexConst.filterByIndex(slot0.shipVO, slot0.raceShipIndex.index) and IndexConst.filterByCamp(slot0.shipVO, slot0.raceShipIndex.camp) and IndexConst.filterByRarity(slot0.shipVO, slot0.raceShipIndex.rarity)
 	end)
 
 	IndexConst.sortByOrder(slot0.raceShipFiltered, slot0.raceShipIndex.sort, slot0.raceShipOrderAsc)
 	slot0.raceShips:SetTotalCount(#slot0.raceShipFiltered)
-
-	return
 end
 
 function slot0.openVotePanel(slot0, slot1)
@@ -337,8 +306,6 @@ function slot0.openVotePanel(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.panelVote)
 	setActive(slot0.panelVote, true)
 	slot0:updateVotePanel(slot1)
-
-	return
 end
 
 function slot0.closeVotePanel(slot0)
@@ -347,8 +314,6 @@ function slot0.closeVotePanel(slot0)
 	setActive(slot0.panelVote, false)
 
 	slot0.currentVoteShip = nil
-
-	return
 end
 
 function slot0.updateVotePanel(slot0, slot1)
@@ -357,8 +322,6 @@ function slot0.updateVotePanel(slot0, slot1)
 		if not slot0.exited then
 			setImageSprite(slot0.voteIcon, slot0, true)
 		end
-
-		return
 	end)
 	setText(slot0.textVoteCount, slot1.votes)
 	setText(slot0.textVoteOrder, slot1.rank)
@@ -367,21 +330,7 @@ function slot0.updateVotePanel(slot0, slot1)
 	setImageSprite(slot0.textVoteShipType, GetSpriteFromAtlas("shiptype", slot1.shipVO:getShipType()), true)
 	setText(slot0.textVoteDesc, Ship.getShipWords(slot1.shipVO.skinId).profile)
 	setText(slot0.textVoteTip, i18n("vote_rank_in_current_server"))
-
-	if slot0.voteGroup:getConfig("type") ~= VoteConst.RacePrimary then
-		slot3 = false
-	else
-		slot3 = true
-	end
-
-	slot4 = setGray
-	slot5 = slot0.btnVote
-
-	if slot3 then
-		slot6 = slot1.ivoted
-	end
-
-	slot4(slot5, slot6, true)
+	setGray(slot0.btnVote, slot0.voteGroup:getConfig("type") == VoteConst.RacePrimary and slot1.ivoted, true)
 	onButton(slot0, slot0.btnVote, function ()
 		if not slot0 or not slot1.ivoted then
 			if slot2.votes <= 0 then
@@ -397,8 +346,6 @@ function slot0.updateVotePanel(slot0, slot1)
 				arg2 = slot1.group
 			})
 		end
-
-		return
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnLove, function ()
 		if not slot0.ivoted then
@@ -420,8 +367,6 @@ function slot0.updateVotePanel(slot0, slot1)
 				arg1 = slot0.voteGroup.configId,
 				arg2 = slot1.group
 			})
-
-			return
 		end
 
 		if slot2.DontRemindLove then
@@ -429,30 +374,22 @@ function slot0.updateVotePanel(slot0, slot1)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
-				showStopRamind = true,
+				showStopRemind = true,
 				content = i18n("vote_love_confirm"),
 				stopRamindContent = i18n("common_dont_remind_dur_login"),
 				onYes = function ()
 					slot0.DontRemindLove = slot1.stopRemindToggle.isOn
 
 					slot2()
-
-					return
 				end
 			})
 		end
-
-		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.panelVote, function ()
 		slot0:closeVotePanel()
-
-		return
 	end)
 
 	slot0.currentVoteShip = slot1
-
-	return
 end
 
 function slot0.onVoteGroupUpdate(slot0)
@@ -471,8 +408,6 @@ function slot0.onVoteGroupUpdate(slot0)
 	if slot0.currentVoteShip then
 		slot0:updateVotePanel(slot0.voteGroup:getVoteShip(slot1))
 	end
-
-	return
 end
 
 function slot0.willExit(slot0)
@@ -492,17 +427,7 @@ function slot0.willExit(slot0)
 		slot0.racePaintName = nil
 	end
 
-	if slot0.raceNameDic then
-		for slot4, slot5 in pairs(slot0.raceNameDic) do
-			slot5:destroy()
-		end
-	end
-
-	slot0.raceNameDic = nil
-
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.overlay, slot0._tf)
-
-	return
 end
 
 return slot0

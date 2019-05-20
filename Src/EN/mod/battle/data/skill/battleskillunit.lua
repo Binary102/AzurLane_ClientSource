@@ -44,27 +44,31 @@ function ys.Battle.BattleSkillUnit.Cast(slot0, slot1, slot2)
 		else
 			slot4:ShowSkillFloat(slot1, slot0._tempData.name)
 		end
+	elseif type(slot0._tempData.painting) == "string" then
+		slot4:ShowSkillFloatCover(slot1, slot0._tempData.name, slot0._tempData.painting)
 	end
 
-	if slot0._tempData.castCV then
+	if type(slot0._tempData.castCV) == "string" then
 		slot1:DispatchVoice(slot0._tempData.castCV)
+	elseif slot5 == "table" then
+		playSoundEffect(Ship.getCVPath(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key))
 	end
 
-	slot5 = slot0._attachData
+	slot6 = slot0._attachData
 
-	for slot9, slot10 in ipairs(slot0._effectList) do
-		slot0._lastEffectTarget = slot10:GetTarget(slot1, slot0)
+	for slot10, slot11 in ipairs(slot0._effectList) do
+		slot0._lastEffectTarget = slot11:GetTarget(slot1, slot0)
 
-		slot10:SetCommander(slot2)
-		slot10:Effect(slot1, slot10.GetTarget(slot1, slot0), slot5)
+		slot11:SetCommander(slot2)
+		slot11:Effect(slot1, slot11.GetTarget(slot1, slot0), slot6)
 	end
 
-	if slot0._tempData.aniEffect and slot6 ~= "" then
+	if slot0._tempData.aniEffect and slot7 ~= "" then
 		slot1:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.ADD_EFFECT, {
-			effect = slot6.effect,
-			time = slot6.time,
-			offset = slot6.offset,
-			posFun = slot6.posFun
+			effect = slot7.effect,
+			time = slot7.time,
+			offset = slot7.offset,
+			posFun = slot7.posFun
 		}))
 	end
 

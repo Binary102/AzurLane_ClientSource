@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 4: My Sister's Sadness</size>",
+					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 4: My Sister's Sadness</size>",
 					1
 				}
 			}
@@ -296,7 +296,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

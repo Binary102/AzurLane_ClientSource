@@ -47,11 +47,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 1,
 				quota = 1,
-				skill_id = 19222,
-				hpRatioList = {
-					1
-				}
+				skill_id = 19222
 			}
 		}
 	}

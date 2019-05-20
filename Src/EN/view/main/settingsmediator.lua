@@ -4,7 +4,9 @@ slot0.ON_VOTE = "SettingsMediator:ON_VOTE"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_LOGOUT, function (slot0)
-		SDKLogout()
+		slot0:sendNotification(GAME.LOGOUT, {
+			code = 0
+		})
 	end)
 
 	slot2 = getProxy(PlayerProxy):getData()

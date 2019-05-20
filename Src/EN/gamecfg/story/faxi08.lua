@@ -180,7 +180,7 @@ return {
 			say = "等等我！！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -204,7 +204,7 @@ return {
 			say = "我..我来为你们护航！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

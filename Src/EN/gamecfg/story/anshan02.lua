@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Shan's Coloring Book\n\n<size=30>Chapter 2 - One of the Base's 7 Wonders</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 2 - One of the Base's 7 Wonders</size>",
 					1
 				}
 			}

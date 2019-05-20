@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Bits of Courage \n\n<size=30>IV 「Letter to Stardust」</size>",
+					"Bits of Courage \n\n<size=45>IV 「Letter to Stardust」</size>",
 					1
 				}
 			}

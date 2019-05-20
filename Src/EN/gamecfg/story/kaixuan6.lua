@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>六 “对立”的姐妹</size>",
+					"骑士公主的忧郁\n\n<size=45>六 “对立”的姐妹</size>",
 					1
 				}
 			}
@@ -349,7 +349,7 @@ return {
 			say = "谁、谁是笨蛋了啦",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闪耀☆战斗之星！\n\n<size=30>三　圣地亚哥、苦恼中？！</size>",
+					"闪耀☆战斗之星！\n\n<size=45>三　圣地亚哥、苦恼中？！</size>",
 					1
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -154,7 +154,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -248,7 +248,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = 1500,
+				x = 2250,
 				y = 0
 			},
 			action = {
@@ -290,7 +290,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.2,
-					x = -1500
+					x = -2250
 				}
 			},
 			effects = {
@@ -351,7 +351,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -409,7 +409,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

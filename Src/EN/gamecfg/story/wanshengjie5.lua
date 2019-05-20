@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Witches' Eve V\n\n<size=30>「Trick or Treat!」</size>",
+					"Witches' Eve V\n\n<size=45>「Trick or Treat!」</size>",
 					1
 				}
 			}
@@ -29,7 +29,7 @@ return {
 					actor = 306051,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -52,7 +52,7 @@ return {
 					actor = 102091,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

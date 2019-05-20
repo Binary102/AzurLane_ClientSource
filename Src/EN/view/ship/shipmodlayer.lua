@@ -3,7 +3,7 @@ slot1 = 12
 slot0.IGNORE_ID = 4
 
 function slot0.getUIName(slot0)
-	return "ShipModUI1"
+	return "ShipModUI"
 end
 
 function slot0.setShipVOs(slot0, slot1)
@@ -11,14 +11,16 @@ function slot0.setShipVOs(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.shipContainer = slot0:findTF("main/bg/add_ship_panel/ships")
-	slot0.attrsPanel = slot0:findTF("main/bg/property_panel/attrs")
+	slot0.blurPanelTF = slot0:findTF("blur_panel")
+	slot0.mainPanel = slot0:findTF("blur_panel/main")
+	slot0.shipContainer = slot0:findTF("bg/add_ship_panel/ships", slot0.mainPanel)
+	slot0.attrsPanel = slot0:findTF("bg/property_panel/attrs", slot0.mainPanel)
 
-	setText(slot0:findTF("main/bg/add_ship_panel/title/tip"), i18n("ship_mod_exp_to_attr_tip"))
+	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0:findTF("main/ok_btn"), function ()
+	onButton(slot0, slot0:findTF("ok_btn", slot0.mainPanel), function ()
 		if slot0.shipVO:isActivityNpc() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("npc_strength_tip"),
@@ -28,28 +30,38 @@ function slot0.didEnter(slot0)
 			slot0()
 		end
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("main/cancel_btn"), function ()
+	onButton(slot0, slot0:findTF("cancel_btn", slot0.mainPanel), function ()
 		if not slot0.contextData.materialShipIds or table.getCount(slot0) == 0 then
 			return
 		end
 
 		slot0:clearAllShip()
 	end, SFX_CANCEL)
-
-	if not slot0.contextData.materialShipIds then
-		slot0:switchToPage(0.1)
-	end
-
+	onButton(slot0, slot0:findTF("select_btn", slot0.mainPanel), function ()
+		slot0:emit(ShipModMediator.ON_AUTO_SELECT_SHIP)
+	end, SFX_CANCEL)
 	slot0:initAttrs()
 
 	slot0.inited = true
 
-	slot0:emit(ShipModMediator.LOADEND, slot0._tf:Find("main"))
+	slot0:emit(ShipModMediator.LOADEND, slot0.mainPanel)
+	slot0:blurPanel(true)
 end
 
-function slot0.switchToPage(slot0, slot1)
-	setAnchoredPosition(slot0._tf:Find("main"), Vector3(1300, 0, 0))
-	LeanTween.moveLocal(go(findTF(slot0._tf, "main")), Vector3(620, 0, 0), 0.2):setEase(LeanTweenType.easeInOutSine):setDelay(slot1)
+function slot0.blurPanel(slot0, slot1)
+	slot2 = pg.UIMgr.GetInstance()
+
+	if slot1 then
+		slot2:OverlayPanelPB(slot0.blurPanelTF, {
+			pbList = {
+				slot0.mainPanel:Find("bg")
+			},
+			groupName = slot0:getGroupNameFromData(),
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		})
+	else
+		slot2:UnOverlayPanel(slot0.blurPanelTF, slot0._tf)
+	end
 end
 
 function slot0.startModShip(slot0)
@@ -106,8 +118,7 @@ function slot0.clearAllShip(slot0)
 	for slot4 = 1, slot0, 1 do
 		slot5 = slot0.shipContainer:GetChild(slot4 - 1)
 
-		setActive(slot5:Find("add"), true)
-		setActive(slot5:Find("icon_bg"), false)
+		setActive(slot5:Find("IconTpl"), false)
 		onButton(slot0, slot5:Find("add"), function ()
 			slot0:emit(ShipModMediator.ON_SELECT_MATERIAL_SHIPS)
 		end, SFX_PANEL)
@@ -132,8 +143,7 @@ function slot0.initSelectedShips(slot0)
 			end, SFX_PANEL)
 		end
 
-		setActive(slot7:Find("add"), slot2 < slot6)
-		setActive(slot7:Find("icon_bg"), slot6 <= slot2)
+		setActive(slot7:Find("IconTpl"), slot6 <= slot2)
 	end
 end
 
@@ -141,8 +151,7 @@ function slot0.updateShip(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		for slot3, slot4 in pairs(slot0.contextData.materialShipIds) do
 			if slot1 == slot4 then
-				setActive(slot5, true)
-				setActive(slot2:Find("icon_bg"), false)
+				setActive(slot2:Find("IconTpl"), false)
 				onButton(slot0, slot5, function ()
 					slot0:emit(ShipModMediator.ON_SELECT_MATERIAL_SHIPS)
 				end, SFX_PANEL)
@@ -153,10 +162,10 @@ function slot0.updateShip(slot0, slot1, slot2)
 			end
 		end
 	end, SFX_PANEL)
-	updateShip(slot1, slot3, {
+	updateShip(slot0:findTF("IconTpl", slot1), slot3, {
 		initStar = true
 	})
-	setText(slot1:Find("icon_bg/lv/Text"), slot0.shipVOs[slot2].level)
+	setText(slot1:Find("IconTpl/icon_bg/lv/Text"), slot0.shipVOs[slot2].level)
 end
 
 function slot0.initAttrs(slot0)
@@ -191,9 +200,9 @@ function slot0.updateAttr(slot0, slot1)
 		slot0.hasAddition = true
 	end
 
-	setText(slot0:findTF("info_container/addition", slot3), "+" .. ((isnan(math.max(math.min(math.floor((slot0.getRemainExp(slot0.shipVO, slot5) + slot9) / slot11), slot0.shipVO:getModAttrBaseMax(slot5) - slot7[slot5]), 0)) and 0) or slot14))
+	setText(slot0:findTF("info_container/addition", slot3), "+" .. slot14)
 	setText(slot0:findTF("info_container/name", slot3), AttributeType.Type2Name(slot5))
-	setText(slot0:findTF("max_container/Text", slot3), (isnan(slot12) and 0) or slot12)
+	setText(slot0:findTF("max_container/Text", slot3), slot12)
 	setText(slot0:findTF("info_container/value", slot3), slot7[slot5])
 
 	slot4.alpha = (slot7[slot5] == 0 and 0.3) or 1
@@ -407,6 +416,8 @@ function slot0.setSliderValue(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
+	slot0:blurPanel(false)
+
 	slot1 = pairs
 
 	if not slot0.tweens then

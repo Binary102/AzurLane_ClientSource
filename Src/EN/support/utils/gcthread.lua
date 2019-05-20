@@ -68,6 +68,10 @@ end
 function GCThread.StartWatch(slot0, slot1)
 	print("overhead: start watch")
 
+	if slot1 < collectgarbage("count") * slot0.R1024 + 12 then
+		slot1 = slot2 + 12
+	end
+
 	slot0.watcher = Timer.New(function ()
 		if not slot0.running and slot2 < collectgarbage("count") * "count".R1024 then
 			print("overhead: start gc " .. slot0 .. "MB")

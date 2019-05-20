@@ -331,7 +331,20 @@ return {
 						101
 					},
 					triggerParams = {
-						bgm = "battle-boss-nep2"
+						bgm = "battle-boss-uta"
+					}
+				},
+				{
+					triggerType = 3,
+					waveIndex = 501,
+					preWaves = {
+						101,
+						102,
+						103,
+						400
+					},
+					triggerParams = {
+						id = "LINKPREHEAT12-2"
 					}
 				},
 				{
@@ -339,7 +352,7 @@ return {
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
-						400
+						501
 					},
 					triggerParam = {},
 					spawn = {
@@ -472,6 +485,17 @@ return {
 					},
 					triggerParams = {
 						timeout = 0.5
+					}
+				},
+				{
+					triggerType = 3,
+					key = true,
+					waveIndex = 502,
+					preWaves = {
+						206
+					},
+					triggerParams = {
+						id = "LINKPREHEAT16-1"
 					}
 				}
 			}

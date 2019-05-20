@@ -2,7 +2,7 @@ slot0 = class("ShipUpgradeLayer2", import("..base.BaseUI"))
 slot1 = 3
 
 function slot0.getUIName(slot0)
-	return "ShipBreakUI"
+	return "ShipBreakOutUI"
 end
 
 function slot0.setShips(slot0, slot1)
@@ -18,15 +18,11 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	slot0.UIMgr:BlurPanel(slot0._go)
-
-	slot0.leftPanel = slot0:findTF("left_panel")
+	slot0.leftPanel = slot0:findTF("blur_panel/left_panel")
 	slot0.stages = slot0:findTF("stageScrollRect/stages", slot0.leftPanel)
 	slot0.stagesSnap = slot0:findTF("stageScrollRect", slot0.leftPanel):GetComponent("HorizontalScrollSnap")
 	slot0.breakView = slot0:findTF("content/Text", slot0.leftPanel)
-	slot0.rightPanel = slot0:findTF("right_panel")
+	slot0.rightPanel = slot0:findTF("blur_panel/right_panel")
 	slot0.attrs = slot0:findTF("top/attrs", slot0.rightPanel)
 	slot0.starTpl = slot0:findTF("top/rare/startpl", slot0.rightPanel)
 
@@ -51,12 +47,10 @@ function slot0.init(slot0)
 
 	setActive(slot0.healTF, false)
 
-	slot0.qCharaContain = slot0:findTF("right_panel/top/panel_bg/q_chara")
+	slot0.qCharaContain = slot0:findTF("top/panel_bg/q_chara", slot0.rightPanel)
 	slot0.seaLoading = slot0:findTF("bg/loading", slot0.leftPanel)
 
 	slot0:playLoadingAni()
-
-	slot0.pageShade = GameObject.Find("/OverlayCamera/Overlay/UIMain/common/page_shade")
 end
 
 function slot0.loadChar(slot0)
@@ -67,7 +61,7 @@ function slot0.loadChar(slot0)
 
 			slot0.shipPrefab = slot0
 			slot0.shipModel = slot0
-			tf(slot0).localScale = Vector3(1, 1, 1)
+			tf(slot0).localScale = Vector3(0.8, 0.8, 1)
 
 			slot0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
 			setParent(slot0, slot0.qCharaContain)
@@ -107,46 +101,25 @@ function slot0.addDragListenter(slot0)
 			slot0 = slot2
 		end
 
-		slot2:moveUIPanels(math.abs(slot2.x - slot0.x))
+		slot1 = slot2.x - slot0.x
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
 		if slot0 < -50 then
 			slot1:emit(ShipUpgradeMediator2.NEXTSHIP, -1)
 		elseif slot0 > 50 then
 			slot1:emit(ShipUpgradeMediator2.NEXTSHIP)
-		else
-			slot1:moveUIPanels(0)
 		end
 	end)
 end
 
-function slot0.moveUIPanels(slot0, slot1)
-	setAnchoredPosition(slot0.leftPanel, {
-		x = 150 - slot1
-	})
-	setAnchoredPosition(slot0.rightPanel, {
-		x = 353 + slot1
-	})
-end
-
-function slot0.switchToPage(slot0, slot1)
-	slot0:moveUIPanels(800)
-	shiftPanel(slot0.leftPanel, 150, nil, 0.2, delay, true, true)
-	shiftPanel(slot0.rightPanel, 353, nil, 0.2, delay, true, true)
-end
-
 function slot0.didEnter(slot0)
+	slot0.UIMgr = pg.UIMgr.GetInstance()
+
+	slot0.UIMgr:BlurPanel(slot0._tf, false, {
+		groupName = slot0:getGroupNameFromData(),
+		weight = LayerWeightConst.LOWER_LAYER
+	})
 	slot0:addDragListenter()
-
-	slot0.common = GameObject.Find("/OverlayCamera/Overlay/UIMain/common")
-	slot0.toggles = findTF(slot0.common, "toggles")
-
-	tf(slot0.common):SetAsLastSibling()
-	checkFirstHelpShow("help_shipinfo_upgrate")
-
-	slot0.upgradeToggle = findTF(slot0.toggles, "upgrade_toggle")
-
-	triggerToggle(slot0.upgradeToggle, true)
 	onButton(slot0, slot0.seaLoading, function ()
 		if not slot0.previewer then
 			slot0:showBarrage()
@@ -163,7 +136,6 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_CONFIRM)
 	slot0:initMaterialShips()
-	slot0:switchToPage()
 end
 
 function slot0.getSameGroupShips(slot0)
@@ -263,12 +235,12 @@ function slot0.updateBattleView(slot0)
 end
 
 slot2 = {
-	"level",
 	"durability",
 	"cannon",
 	"torpedo",
 	"antiaircraft",
-	"air"
+	"air",
+	"antisub"
 }
 
 function slot0.showBarrage(slot0)
@@ -326,7 +298,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 		setActive(slot6, false)
 	end
 
-	slot1:getShipProperties().level = slot1:getMaxLevel()
+	slot2 = slot1:getShipProperties()
 	Clone(slot1).configId = slot0.breakCfg.breakout_id
 	slot4 = {}
 	slot5 = slot0.breakCfg.breakout_id == 0
@@ -342,7 +314,8 @@ function slot0.updateBreakOutView(slot0, slot1)
 
 		setText(slot9, i18n("word_level_upperLimit"))
 	else
-		slot3:getShipProperties().level = slot0.shipTempCfg[slot0.breakCfg.breakout_id].max_level
+		slot8 = slot0.shipTempCfg[slot0.breakCfg.breakout_id].max_level
+		slot4 = slot3:getShipProperties()
 		slot7 = slot3:getBattleTotalExpend()
 
 		setColorCount(slot10, slot0.shipVO.level, slot0.breakCfg.level)
@@ -361,6 +334,16 @@ function slot0.updateBreakOutView(slot0, slot1)
 	end
 
 	slot12 = 0
+
+	if slot8 and slot8 ~= slot0.shipTempCfg[slot1.configId].max_level then
+		slot11(slot0:findTF("attr_1", slot0.attrs), {
+			preAttr = slot0.shipTempCfg[slot1.configId].max_level,
+			afterAttr = slot8,
+			name = i18n("word_level_upperLimit")
+		})
+
+		slot12 = 1
+	end
 
 	for slot16 = 1, #slot0, 1 do
 		slot11(slot0:findTF("attr_" .. slot12 + slot16, slot0.attrs), {
@@ -414,7 +397,7 @@ function slot0.initMaterialShips(slot0)
 		SetActive(slot0.itemTFs[slot5], slot5 <= slot1)
 
 		slot6 = slot0.itemTFs[slot5]:Find("add")
-		slot7 = slot0.itemTFs[slot5]:Find("icon_bg")
+		slot7 = slot0.itemTFs[slot5]:Find("IconTpl")
 		slot8 = slot0.contextData.materialShipIds
 
 		if slot5 <= slot1 and slot8 and slot8[slot5] then
@@ -423,13 +406,11 @@ function slot0.initMaterialShips(slot0)
 				propose = slot0.shipVOs[slot8[slot5]].proposeTime
 			}).remoulded = slot0.shipVOs[slot8[slot5]].isRemoulded(slot9)
 
-			updateShip(slot0.itemTFs[slot5], slot10, {
+			updateShip(slot7, slot10, {
 				initStar = true
 			})
-			SetActive(slot6, false)
 			SetActive(slot7, true)
 		else
-			SetActive(slot6, true)
 			SetActive(slot7, false)
 		end
 
@@ -440,7 +421,7 @@ function slot0.initMaterialShips(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._go, slot0.UIMain)
+	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
 	slot0:recycleSpineChar()
 
 	if slot0.previewer then

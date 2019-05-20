@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 5: Yukikaze and the Amusement Park (Pt 1)</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=45>Chapter 5: Yukikaze and the Amusement Park (Pt 1)</size>",
 					1
 				}
 			}
@@ -259,7 +259,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -306,7 +306,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -363,7 +363,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}
@@ -390,7 +390,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}

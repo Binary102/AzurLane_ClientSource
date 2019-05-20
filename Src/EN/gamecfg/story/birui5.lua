@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=30>五 宴会·上</size>",
+					"{namecode:71}的宴会\n\n<size=45>五 宴会·上</size>",
 					1
 				}
 			}
@@ -193,7 +193,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -284,7 +284,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

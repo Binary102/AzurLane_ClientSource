@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=30>四　新生{namecode:82}博物馆，开放！</size>",
+					"{namecode:82}前辈的收藏大公开\n\n<size=45>四　新生{namecode:82}博物馆，开放！</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.2,
@@ -82,7 +82,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=18>（小声）这个按钮就是大门幕布的开关，按下它大门的幕布就会升起吧…</size>",
+			say = "<size=27>（小声）这个按钮就是大门幕布的开关，按下它大门的幕布就会升起吧…</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -444,7 +444,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.7,
 					dur = 0.2,
@@ -470,7 +470,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -528,7 +528,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "move",
 					delay = 1.2,
 					dur = 0.3,

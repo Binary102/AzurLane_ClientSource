@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Shiranui, the Do-It-All Shopkeeper\n\n<size=30>Chapter 6: The Shopkeeper's True Feelings (Pt 1)</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 6: The Shopkeeper's True Feelings (Pt 1)</size>",
 					1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
@@ -200,7 +200,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

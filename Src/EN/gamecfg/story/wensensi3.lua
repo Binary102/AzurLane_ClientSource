@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"My Sister's Growth Spurt?!\n\n<size=30>Chapter 3: My Sister's Thoughts</size>",
+					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 3: My Sister's Thoughts</size>",
 					1
 				}
 			}

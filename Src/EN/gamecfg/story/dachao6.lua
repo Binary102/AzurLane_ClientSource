@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Gentle and Sweet Ooshio!\n\n<size=30>Catgirl Tea Party</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=45>Catgirl Tea Party</size>",
 					1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

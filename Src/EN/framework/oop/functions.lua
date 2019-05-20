@@ -94,6 +94,16 @@ function table.merge(slot0, slot1)
 	end
 end
 
+function table.isEmpty(slot0)
+	if type(slot0) == "table" then
+		for slot4, slot5 in pairs(slot0) do
+			return false
+		end
+	end
+
+	return true
+end
+
 function handler(slot0, slot1)
 	return function (...)
 		return slot0(slot1, ...)

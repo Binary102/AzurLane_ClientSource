@@ -1,13 +1,14 @@
 slot0 = class("FriendScene", import("..base.BaseUI"))
 
-function slot1(slot0)
+function slot1(slot0, slot1)
 	function (slot0)
+		slot0.parent = slot0
 		slot0.context = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
 		slot0.remind = slot0._tf:Find("window/remind")
 		slot0.confirmBtn = slot0._tf:Find("window/confirm_btn")
 		slot0.cancelBtn = slot0._tf:Find("window/cancel_btn")
-		slot0.closeBtn = slot0._tf:Find("top/btnBack")
-		slot0.checkLabel = slot0.remind:Find("Label"):GetComponent(typeof(Text))
+		slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
+		slot0.checkLabel = slot0.remind:Find("Text"):GetComponent(typeof(Text))
 
 		onButton(nil, slot0.cancelBtn, function ()
 			slot0:Hide()
@@ -34,6 +35,8 @@ function slot1(slot0)
 	end({
 		_tf = slot0,
 		Show = function (slot0, slot1, slot2, slot3)
+			pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+
 			slot0.func = slot3
 			slot0.context.text = slot1
 
@@ -43,6 +46,7 @@ function slot1(slot0)
 			slot0.checkLabel.text = slot2
 		end,
 		Hide = function (slot0)
+			pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
 			setActive(slot0._tf, false)
 
 			slot0.func = nil
@@ -68,16 +72,6 @@ slot3 = 2
 slot4 = 3
 slot5 = 4
 slot6 = 10
-slot7 = {
-	i18n("friend_info_page_tip"),
-	i18n("friend_search_page_tip", 30),
-	i18n("friend_request_page_tip", 30),
-	""
-}
-
-function slot0.getBGM(slot0)
-	return "main"
-end
 
 function slot0.setFriendVOs(slot0, slot1)
 	slot0.friendVOs = slot1
@@ -108,11 +102,13 @@ function slot0.setBlackList(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.togglesTF = slot0:findTF("left_length/toggles")
+	slot0.togglesTF = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
 	slot0.addPanel = slot0:findTF("add_panel")
 	slot0.requestPanel = slot0:findTF("request_panel")
 	slot0.friendPanel = slot0:findTF("friend_panel")
+	slot0.blackListPanel = slot0:findTF("blacklist_panel")
 	slot0.requestTopTF = slot0:findTF("request_view_top")
+	slot0.blacklistTopTF = slot0:findTF("blacklist_view_top")
 	slot0.friendTopTF = slot0:findTF("friend_view_top")
 	slot0.friendCountTF = slot0:findTF("friend_count/Text", slot0.friendTopTF)
 	slot0.friendIndexBtn = slot0:findTF("index_button", slot0.friendTopTF)
@@ -123,10 +119,7 @@ function slot0.init(slot0)
 	slot0.searchPanel = slot0:findTF("search_panel", slot0.addPanel)
 	slot0.searchBar = slot0:findTF("InputField", slot0.searchPanel)
 	slot0.sortPanel = slot0:findTF("friend_sort_panel")
-	slot0.tipTF = slot0:findTF("line_tip/Text")
-	slot0.blackListPanel = slot0:findTF("blacklist_panel")
-	slot0.blacklistTopTF = slot0:findTF("blacklist_view_top")
-	slot0.backListCount = slot0:findTF("friend_count/Text", slot0.blacklistTopTF):GetComponent(typeof(Text))
+	slot0.nofriendPanel = slot0:findTF("no_friend", slot0.friendPanel)
 	slot0.dec = false
 	slot0.sortdata = {}
 	slot0.toggles = {}
@@ -143,43 +136,18 @@ function slot0.init(slot0)
 
 	slot0.chatTipContainer = slot0.toggles[1]:Find("count")
 	slot0.chatTip = slot0.toggles[1]:Find("count/Text"):GetComponent(typeof(Text))
-	slot0._topPanel = slot0:findTF("top")
-	slot0._leftLength = slot0:findTF("left_length")
 	slot0._scrllPanel = slot0:findTF("friend_panel/view")
-end
-
-function slot0.uiStartAnimating(slot0)
-	setAnchoredPosition(slot0._topPanel, {
-		y = slot0._topPanel.transform.rect.height
-	})
-	setAnchoredPosition(slot0._leftLength, {
-		x = -1 * slot0._leftLength.rect.width
-	})
-	setAnchoredPosition(slot0._scrllPanel, {
-		x = slot0._scrllPanel.transform.localPosition.x + 1280
-	})
-	shiftPanel(slot0._topPanel, nil, 0, slot2, slot1, true, true)
-	shiftPanel(slot0._leftLength, 0, nil, slot2, slot1, true, true)
-	shiftPanel(slot0._scrllPanel, slot3, nil, slot2, slot1, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("bg/left", slot0._topPanel), slot0:findTF("bg/right", slot0._topPanel), slot0:findTF("bg/title", slot0._topPanel), slot0:findTF("bg/chara", slot0._topPanel), nil, function ()
-		slot0.tweens = nil
-	end)
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0._topPanel, nil, slot0._topPanel.transform.rect.height, slot2, slot1, true, true)
-	shiftPanel(slot0._leftLength, -1 * slot0._leftLength.rect.width, nil, slot2, slot1, true, true)
-	shiftPanel(slot0._scrllPanel, slot0._scrllPanel.transform.localPosition.x + 1280, nil, 0.3, 0, true, true)
+	slot0.bottomPanel = slot0:findTF("bottom")
 end
 
 function slot0.didEnter(slot0)
-	slot0:uiStartAnimating()
-	onButton(slot0, slot0:findTF("top/back"), function ()
-		slot0:uiExitAnimating()
-		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.2)
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.bottomPanel, {
+		pbList = {
+			slot0.bottomPanel
+		}
+	})
+	onButton(slot0, slot0:findTF("blur_panel/adapt/top/back_btn"), function ()
+		slot0:emit(slot1.ON_BACK, nil, 0.2)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.refuseAllBtn, function ()
 		slot0:emit(FriendMediator.REFUSE_ALL_REQUEST)
@@ -202,7 +170,7 @@ function slot0.didEnter(slot0)
 	end)
 	onButton(slot0, findTF(slot0.searchPanel, "search_btn"), function ()
 		if slot0.waitTimer and slot0.waitTimer - slot0 > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", math.ceil(slot0.waitTimer - slot0)))
+			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer - slot0))
 
 			return
 		end
@@ -221,7 +189,7 @@ function slot0.didEnter(slot0)
 	end)
 	onButton(slot0, findTF(slot0.searchPanel, "refresh_btn"), function ()
 		if slot0.waitTimer1 and slot0.waitTimer1 - slot0 > 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", math.ceil(slot0.waitTimer1 - slot0)))
+			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", slot0.waitTimer1 - slot0))
 
 			return
 		end
@@ -239,32 +207,22 @@ function slot0.updateRequestTip(slot0)
 end
 
 function slot0.switchPage(slot0, slot1)
-	setActive(slot0.addPanel, slot0 == slot1)
-	setActive(slot0.requestPanel, slot1 == slot1)
-	setActive(slot0.friendPanel, setActive == slot1)
-	setActive(slot0.requestTopTF, slot1 == slot1)
-	setActive(slot0.friendTopTF, setActive == slot1)
-	setActive(slot0.friendTopTF, slot1 == slot0.blackListPanel)
-	setActive(slot0.friendTopTF, slot1 == slot0.blacklistTopTF)
-
-	if slot1 == slot2 and not slot0.isInitFriend then
+	if slot1 == slot0 and not slot0.isInitFriend then
 		slot0:initFriendsPage()
-	elseif slot1 == slot0 and not slot0.isInitAdd then
+	elseif slot1 == slot1 and not slot0.isInitAdd then
 		slot0:emit(FriendMediator.SEARCH_FRIEND, 1)
 		slot0:initAddPage()
-	elseif slot1 == slot1 and not slot0.isInitRequest then
+	elseif slot1 == slot2 and not slot0.isInitRequest then
 		slot0:isInitRequestPage()
 	elseif slot1 == slot3 and not slot0.isInitBlackList then
 		slot0:initBlackList()
 	end
-
-	setText(slot0.tipTF, slot4[slot1])
 end
 
 function slot0.initFriendsPage(slot0)
 	slot0.isInitFriend = true
 	slot0.friendItems = {}
-	slot0.friendRect = slot0.friendPanel:Find("view"):GetComponent("LScrollRect")
+	slot0.friendRect = slot0.friendPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.friendRect.onInitItem(slot0)
 		slot0:onInitFriend(slot0)
@@ -313,41 +271,31 @@ function slot0.updateFriendCount(slot0)
 	setText(slot0.friendCountTF, #slot0.friendVOs .. "/" .. MAX_FRIEND_COUNT)
 end
 
-slot8 = 1
-slot9 = 2
-slot10 = 3
+slot7 = 1
+slot8 = 2
+slot9 = 3
 
 function slot0.createFriendItem(slot0, slot1, slot2)
 	function slot4(slot0)
 		slot0.nameTF.text = slot0.name
-		slot0.levelTF.text = slot0.level
+		slot0.levelTF.text = "Lv." .. slot0.level
 
-		LoadSpriteAsync("qicon/" .. slot0:getPainting(), function (slot0)
+		LoadSpriteAsync("qicon/" .. Ship.New({
+			configId = slot0.icon
+		}).getPrefab(slot2), function (slot0)
 			slot0.iconTF.sprite = slot0
 		end)
-		setActive(slot0.propose, slot0.propose)
-
-		if pg.ship_data_statistics[slot0.icon] then
-			for slot6 = slot0.starsTF.childCount, slot1.star - 1, 1 do
-				cloneTplTo(slot0.starTF, slot0.starsTF)
-			end
-
-			for slot6 = 1, slot2, 1 do
-				setActive(slot0.starsTF:GetChild(slot6 - 1), slot6 <= slot1.star)
-			end
-		else
-			removeAllChildren(slot0.starsTF)
-		end
-
-		onButton(slot1, slot0.resumeBtn, function ()
+		setActive(slot0.iconCommonTF, not slot0.propose)
+		setActive(slot0.iconPropTF, slot0.propose)
+		onButton(pg.ship_data_statistics[slot0.icon], slot0.resumeBtn, function ()
 			slot0:emit(FriendMediator.OPEN_RESUME, slot1.id)
 		end, SFX_PANEL)
 	end
 
 	if slot0 == slot2 then
-		slot3.acceptBtn = slot3.tf:Find("accpet_btn")
-		slot3.refuseBtn = slot3.tf:Find("refuse_btn")
-		slot3.date = slot3.tf:Find("date"):GetComponent(typeof(Text))
+		slot3.acceptBtn = slot3.tf:Find("frame/accpet_btn")
+		slot3.refuseBtn = slot3.tf:Find("frame/refuse_btn")
+		slot3.date = slot3.tf:Find("frame/request_info/date/Text"):GetComponent(typeof(Text))
 
 		function slot3.update(slot0, slot1, slot2, slot3)
 			slot0.friendVO = slot1
@@ -358,7 +306,7 @@ function slot0.createFriendItem(slot0, slot1, slot2)
 			slot1.date.text = pg.TimeMgr.GetInstance():DescTime(slot2)
 		end
 	elseif slot1 == slot2 then
-		slot3.addBtn = slot3.tf:Find("add_btn")
+		slot3.addBtn = slot3.tf:Find("frame/add_btn")
 
 		function slot3.update(slot0, slot1)
 			slot0.friendVO = slot1
@@ -368,11 +316,12 @@ function slot0.createFriendItem(slot0, slot1, slot2)
 			slot1.manifestoTF.text = slot1.manifesto or ""
 		end
 	elseif slot2 == slot2 then
-		slot3.occuptBtn = slot3.tf:Find("btns/occupy_btn")
-		slot3.deleteBtn = slot3.tf:Find("btns/delete_btn")
-		slot3.backYardBtn = slot3.tf:Find("btns/backyard_btn")
-		slot3.chatTip = slot3.tf:Find("btns/occupy_btn/tip")
-		slot3.date = slot3.tf:Find("date"):GetComponent(typeof(Text))
+		slot3.occuptBtn = slot3.tf:Find("frame/btns/occupy_btn")
+		slot3.deleteBtn = slot3.tf:Find("frame/btns/delete_btn")
+		slot3.backYardBtn = slot3.tf:Find("frame/btns/backyard_btn")
+		slot3.chatTip = slot3.tf:Find("frame/btns/occupy_btn/tip")
+		slot3.date = slot3.tf:Find("frame/request_info/date"):GetComponent(typeof(Text))
+		slot3.online = slot3.tf:Find("frame/request_info/online")
 
 		function slot3.update(slot0, slot1)
 			slot0.friendVO = slot1
@@ -382,9 +331,10 @@ function slot0.createFriendItem(slot0, slot1, slot2)
 
 			slot1.manifestoTF.text = slot1.manifesto or ""
 
-			if slot1.online == Friend.ONLINE then
-				slot1.date.text = i18n("word_online")
-			else
+			setActive(slot1.online, slot1.online == Friend.ONLINE)
+			setActive(slot1.date.gameObject, slot1.online ~= Friend.ONLINE)
+
+			if slot1.online ~= Friend.ONLINE then
 				slot1.date.text = getOfflineTimeStamp(slot1.preOnLineTime)
 			end
 		end
@@ -427,12 +377,13 @@ end
 function slot0.sortFriends(slot0)
 	if slot0.contextData.sortData then
 		slot0.contextData.sortData.data.func(slot0.friendVOs, slot0.dec)
-		setImageSprite(slot0:findTF("Image", slot0.friendIndexBtn), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr .. "_selected"), true)
+		setImageSprite(slot0:findTF("icon", slot0.friendIndexBtn), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
 		setActive(slot0.sortImgAsc, slot0.dec)
 		setActive(slot0.sortImgDec, not slot0.dec)
 	end
 
 	slot0.friendRect:SetTotalCount(#slot0.friendVOs, -1)
+	setActive(slot0.nofriendPanel, not slot0.friendVOs or #slot0.friendVOs == 0)
 end
 
 function slot0.initFriendsSortPanel(slot0)
@@ -468,6 +419,10 @@ function slot0.initFriendsSortPanel(slot0)
 end
 
 function slot0.openFriendsSortPanel(slot0)
+	if slot0.contextData.sortData then
+		setImageSprite(slot0:findTF("index_button/icon", slot0.sortPanel), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
+	end
+
 	setActive(slot0.sortPanel, true)
 end
 
@@ -482,7 +437,7 @@ function slot0.initAddPage(slot0)
 
 	setText(slot0:findTF("self_id_bg/Text", slot0.searchPanel), slot0.playerVO.id)
 
-	slot0.addRect = slot0.addPanel:Find("view"):GetComponent("LScrollRect")
+	slot0.addRect = slot0.addPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.addRect.onInitItem(slot0)
 		slot0:onInitSearch(slot0)
@@ -495,9 +450,10 @@ end
 
 function slot0.onInitSearch(slot0, slot1)
 	onButton(slot0, slot0:createFriendItem(slot1, slot0).addBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowInputBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
 			yesText = "text_apply",
+			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("friend_request_msg_placeholder"),
 			title = i18n("friend_request_msg_title"),
 			onYes = function (slot0)
@@ -522,13 +478,13 @@ end
 function slot0.updateSearchResult(slot0, slot1)
 	slot0.searchFriendVOs = slot1
 
-	slot0.addRect:SetTotalCount(#slot1, -1)
+	slot0.addRect:SetTotalCount(#slot0.searchFriendVOs, -1)
 end
 
 function slot0.isInitRequestPage(slot0)
 	slot0.isInitRequest = true
 	slot0.requestItems = {}
-	slot0.requestRect = slot0.requestPanel:Find("view"):GetComponent("LScrollRect")
+	slot0.requestRect = slot0.requestPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.requestRect.onInitItem(slot0)
 		slot0:onInitRequest(slot0)
@@ -577,7 +533,7 @@ function slot0.onInitRequest(slot0, slot1)
 	onButton(slot0, slot2.refuseBtn, function ()
 		if slot0.friendVO then
 			if not slot1.refuseMsgBox then
-				slot1.refuseMsgBox = slot2(slot1:findTF("request_refuse_panel"))
+				slot1.refuseMsgBox = slot2(slot1:findTF("request_refuse_panel"), slot1._tf)
 			end
 
 			slot1.refuseMsgBox:Show(i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
@@ -606,7 +562,7 @@ function slot0.initBlackList(slot0)
 
 	slot0.isInitBlackList = true
 	slot0.blackItems = {}
-	slot0.blackRect = slot0.blackListPanel:Find("view"):GetComponent("LScrollRect")
+	slot0.blackRect = slot0.blackListPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.blackRect.onInitItem(slot0)
 		slot0:initBlackListItem(slot0)
@@ -625,34 +581,23 @@ function slot0.createBlackItem(slot0, slot1)
 	return {
 		go = slot1,
 		tr = tf(slot1),
-		name = ()["tr"]:Find("request_info/name"):GetComponent(typeof(Text)),
-		level = ()["tr"]:Find("request_info/lv_bg/lv/Text"):GetComponent(typeof(Text)),
-		manifesto = ()["tr"]:Find("request_content/bg/Text"):GetComponent(typeof(Text)),
-		iconTF = ()["tr"]:Find("icon_contaon/icon"):GetComponent(typeof(Image)),
-		starsTF = ()["tr"]:Find("icon_contaon/stars"),
-		starTF = ()["tr"]:Find("icon_contaon/stars/star"),
-		btn = ()["tr"]:Find("occupy_btn"),
+		name = ()["tr"]:Find("frame/request_info/name_bg/Text"):GetComponent(typeof(Text)),
+		manifesto = ()["tr"]:Find("frame/request_content/Text"):GetComponent(typeof(Text)),
+		iconTF = ()["tr"]:Find("icon"),
+		btn = ()["tr"]:Find("frame/occupy_btn"),
 		update = function (slot0, slot1)
 			slot0.player = slot1
 			slot0.name.text = slot1.name
-			slot0.level.text = slot1.level
 			slot0.manifesto.text = slot1.manifesto
 
-			LoadSpriteAsync("qicon/" .. slot1:getPainting(), function (slot0)
-				if not slot0 then
-					slot0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")
-				else
-					slot0.iconTF.sprite = slot0
-				end
-			end)
-
-			for slot7 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
-				cloneTplTo(slot0.starTF, slot0.starsTF)
-			end
-
-			for slot7 = 1, slot3, 1 do
-				setActive(slot0.starsTF:GetChild(slot7 - 1), slot7 <= slot2.star)
-			end
+			updateDrop(slot0.iconTF, {
+				type = DROP_TYPE_SHIP,
+				id = slot1.icon,
+				id = slot1.icon,
+				skinId = slot1.skinId
+			}, {
+				initStar = true
+			})
 		end
 	}
 end
@@ -714,9 +659,6 @@ function slot0.sortBlackList(slot0)
 	table.sort(slot0.blackVOs, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)
-
-	slot0.backListCount.text = #slot0.blackVOs .. "/" .. MAX_BLACKLIST_COUNT
-
 	slot0.blackRect:SetTotalCount(#slot0.blackVOs, -1)
 end
 
@@ -727,13 +669,11 @@ function slot0.updateChatNotification(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.bottomPanel, slot0._tf)
+
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
-
-	setActive(slot0.addPanel, true)
-	setActive(slot0.requestPanel, true)
-	setActive(slot0.friendPanel, true)
 
 	if slot0.refuseMsgBox then
 		slot0.refuseMsgBox:Dispose()

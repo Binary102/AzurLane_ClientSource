@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Ashigara, Advance!\n\n<size=30>一 Chapter 1: Ashigara, Fight!</size>",
+					"Ashigara, Advance!\n\n<size=45>一 Chapter 1: Ashigara, Fight!</size>",
 					1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -249,7 +249,7 @@ return {
 					type = "move",
 					delay = 0.2,
 					dur = 1,
-					x = 2500
+					x = 3750
 				}
 			}
 		},
@@ -385,7 +385,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

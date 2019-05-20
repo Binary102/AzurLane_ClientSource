@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=30>四　突发状况？</size>",
+					"白衣天使or恶魔？\n\n<size=45>四　突发状况？</size>",
 					1
 				}
 			}
@@ -63,7 +63,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -221,7 +221,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -255,13 +255,13 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,

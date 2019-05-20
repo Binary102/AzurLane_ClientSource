@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Sea Star on Shore\n\n<size=30>5: Justification</size>",
+					"Sea Star on Shore\n\n<size=45>5: Justification</size>",
 					1
 				}
 			}

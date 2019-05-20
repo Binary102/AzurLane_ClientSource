@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=30>二　大青花鱼的闲逛</size>",
+					"特别庆典·开幕！\n\n<size=45>二　大青花鱼的闲逛</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -248,7 +248,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -358,7 +358,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -430,7 +430,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 1,
-					x = 450
+					x = 675
 				}
 			},
 			typewriter = {
@@ -467,7 +467,7 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 1000,
+				x = 1500,
 				y = 0
 			},
 			action = {
@@ -476,14 +476,14 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.4,
-					x = -450
+					x = -675
 				},
 				{
 					y = 0,
 					type = "move",
 					delay = 1,
 					dur = 0.2,
-					x = -750
+					x = -1125
 				}
 			},
 			typewriter = {
@@ -503,7 +503,7 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			action = {
@@ -512,14 +512,14 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.1,
-					x = 450
+					x = 675
 				},
 				{
 					y = 0,
 					type = "move",
 					delay = 0.15,
 					dur = 0.1,
-					x = -500
+					x = -750
 				}
 			},
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			},
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -584,7 +584,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -610,7 +610,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -636,7 +636,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

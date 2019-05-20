@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=30>七　真正的同伴</size>",
+					"半人马与港区的“前辈”们\n\n<size=45>七　真正的同伴</size>",
 					1
 				}
 			}
@@ -194,7 +194,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

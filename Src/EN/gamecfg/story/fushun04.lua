@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Fu Shun's Great Adventure\n\n<size=30>Chapter 4 - Then the World was at Peace...</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 4 - Then the World was at Peace...</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -468,7 +468,7 @@ return {
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -732,13 +732,13 @@ return {
 				{
 					actor = 501020,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 501030,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

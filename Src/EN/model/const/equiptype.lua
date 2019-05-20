@@ -31,10 +31,36 @@ slot1 = {
 	i18n("word_primary_weapons"),
 	i18n("word_sub_cannons"),
 	i18n("word_torpedo"),
-	i18n("word_ air_defense_artillery"),
+	i18n("word_air_defense_artillery"),
 	i18n("word_shipboard_aircraft"),
 	i18n("word_device"),
-	i18n("word_submarine_torpedo")
+	i18n("word_submarine_torpedo"),
+	i18n("wrod_sub_weapons"),
+	i18n("word_main_cannons"),
+	i18n("word_cannon"),
+	i18n("word_equipment_aircraft"),
+	i18n("word_fighter"),
+	i18n("word_bomber"),
+	i18n("word_attacker"),
+	i18n("word_seaplane"),
+	i18n("word_equipment")
+}
+slot2 = {
+	"cannon",
+	"cannon",
+	"cannon",
+	"cannon",
+	"torpedo",
+	"antiair",
+	"fighter",
+	"attacker",
+	"bomber",
+	"equipment",
+	"cannon",
+	"seaplane",
+	"torpedo",
+	"equipment",
+	"equipment"
 }
 
 function slot0.Type2Name(slot0)
@@ -89,81 +115,81 @@ function slot0.type2Title(slot0, slot1)
 	end
 end
 
-slot2 = {
+slot3 = {
 	1,
 	2,
 	3,
 	4,
 	11
 }
-slot3 = {
+slot4 = {
 	7,
 	8,
 	9
 }
-slot4 = {
+slot5 = {
 	1,
 	2
 }
 
-function slot5(slot0)
+function slot6(slot0)
 	if _.all(slot0, function (slot0)
 		return table.contains(slot0, slot0)
 	end) then
-		return i18n("word_main_cannons")
+		return "main_cannons"
 	elseif #slot0 == 1 then
-		return pg.equip_data_by_type[slot0[1]].type_name
+		return slot1[slot0[1]]
 	elseif #slot0 > 1 then
 		if _.all(slot0, function (slot0)
 			return table.contains(slot0, slot0)
 		end) then
-			return i18n("word_equipment_aircraft")
+			return "equipment_aircraft"
 		else
-			return i18n("word_primary_weapons")
+			return "primary_weapons"
 		end
 	end
 
 	return ""
 end
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 	if _.all(slot1, function (slot0)
 		return table.contains(slot0, slot0)
 	end) and _.is_equal(slot0, slot1) then
-		return i18n("word_main_cannons")
+		return "main_cannons"
 	elseif _.all(slot0, function (slot0)
 		return table.contains(slot0, slot0)
 	end) then
-		return i18n("word_sub_cannons")
+		return "sub_cannons"
 	elseif #slot0 == 1 then
-		return pg.equip_data_by_type[slot0[1]].type_name
+		return slot2[slot0[1]]
 	elseif #slot0 > 1 then
 		if _.all(slot0, function (slot0)
 			return table.contains(slot0, slot0)
 		end) then
-			return i18n("word_equipment_aircraft")
+			return "equipment_aircraft"
 		else
-			return i18n("word_sub_weapons")
+			return "sub_weapons"
 		end
 	end
 
 	return ""
 end
 
-function slot7(slot0)
+function slot8(slot0)
 	if _.all(slot0, function (slot0)
 		return table.contains(slot0, slot0)
 	end) then
-		return i18n("word_sub_cannons")
+		return "sub_cannons"
 	elseif #slot0 == 1 then
-		return pg.equip_data_by_type[slot0[1]].type_name
+		return slot1[slot0[1]]
 	elseif #slot0 > 1 then
 		if _.all(slot0, function (slot0)
 			return table.contains(slot0, slot0)
 		end) then
-			return i18n("word_equipment_aircraft")
+			return "equipment_aircraft"
 		else
-			return i18n("word_sub_weapons")
+			return "sub_weapons"
 		end
 	end
 
@@ -180,8 +206,18 @@ function slot0.Types2Title(slot0, slot1)
 	elseif slot0 == 3 then
 		return slot2(slot3)
 	elseif slot0 == 4 or slot0 == 5 then
-		return pg.equip_data_by_type[slot3[1]].type_name
+		return slot3[slot3[1]]
 	end
+end
+
+function slot0.LabelToName(slot0)
+	if slot0 == "antiair" then
+		slot0 = "air_defense_artillery"
+	elseif slot0 == "equipment" then
+		slot0 = "device"
+	end
+
+	return i18n("word_" .. slot0)
 end
 
 return slot0

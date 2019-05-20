@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> II　「Troublemakers on the Playground」</size>",
+					"School Day Celebrations\n\n<size=45> II　「Troublemakers on the Playground」</size>",
 					1
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -240,13 +240,13 @@ return {
 				{
 					actor = 401011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				},
 				{
 					actor = 101061,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},
@@ -263,7 +263,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.1,
-					x = 5,
+					x = 7.5,
 					number = 3
 				}
 			}
@@ -340,7 +340,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -464,13 +464,13 @@ return {
 				{
 					actor = 101061,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 401011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -484,7 +484,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					dur = 0.8,
 					number = 1,
 					type = "shake"

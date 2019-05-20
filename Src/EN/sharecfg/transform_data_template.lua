@@ -10036,10 +10036,10 @@ pg.transform_data_template = {
 		descrip = [[
 The effects of fully retrofitting this ship:
 
-The Main Gun slot will change to accept only <color=#A9F548>CA Main Guns</color>.
+The Main Gun slot will change to accept only <color=#92fc63>CA Main Guns</color>.
 The currently equipped Main Gun will be automatically sent back to your Storage.
-This ship will receive <color=#A9F548>Main Gun base +1</color> at the cost of <color=#A9F548>Torpedo base -1</color>.
-The skill <color=#A9F548>All Out Assault II</color> will change to <color=#A9F548>All Out Assault - Retrofit</color>. ]],
+This ship will receive <color=#92fc63>Main Gun base +1</color> at the cost of <color=#92fc63>Torpedo base -1</color>.
+The skill <color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault - Retrofit</color>. ]],
 		condition_id = {
 			18809,
 			18810
@@ -11234,13 +11234,13 @@ The skill <color=#A9F548>All Out Assault II</color> will change to <color=#A9F54
 		descrip = [[
 After modernization is complete:
 
-Learn skill: <color=#A9F548>Aviation Preparations</color>
+Learn skill: <color=#92fc63>Aviation Preparations</color>
 When using Air Support for the first time in a battle, launch an additional barrage (effectiveness determined by skill level). May only trigger 1 time per battle.
 
-<color=#A9F548>Main Gun base -1</color>
-<color=#A9F548>Main Gun Efficiency</color> +20%
-<color=#A9F548>Auxiliary Weapon</color> changes to <color=#A9F548>Reconnaissance</color>.
-When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Fusou Retrofit</color> may use <color=#A9F548>Air Support</color>.]],
+<color=#92fc63>Main Gun base -1</color>
+<color=#92fc63>Main Gun Efficiency</color> +20%
+<color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
+When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
 		condition_id = {
 			20808
 		},
@@ -11647,13 +11647,13 @@ When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Fusou Retro
 		descrip = [[
 After modernization is complete:
 
-Learn skill: <color=#A9F548>Aviation Preparations</color>
+Learn skill: <color=#92fc63>Aviation Preparations</color>
 When using Air Support for the first time in a battle, launch an additional barrage (effectiveness determined by skill level). May only trigger 1 time per battle.
 
-<color=#A9F548>Main Gun base -1</color>
-<color=#A9F548>Main Gun Efficiency</color> +20%
-<color=#A9F548>Auxiliary Weapon</color> changes to <color=#A9F548>Reconnaissance</color>.
-When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Yamashiro Retrofit</color> may use <color=#A9F548>Air Support</color>.]],
+<color=#92fc63>Main Gun base -1</color>
+<color=#92fc63>Main Gun Efficiency</color> +20%
+<color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
+When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
 		condition_id = {
 			20908
 		},
@@ -11873,10 +11873,10 @@ When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Yamashiro R
 		descrip = [[
 After modernization is complete:
 
-<color=#A9F548>Main Gun base -1</color>
-<color=#A9F548>Main Gun Efficiency</color> +20%
-<color=#A9F548>Auxiliary Weapon</color> changes to <color=#A9F548>Reconnaissance</color>.
-When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Ise Retrofit</color> may use <color=#A9F548>Air Support</color>.]],
+<color=#92fc63>Main Gun base -1</color>
+<color=#92fc63>Main Gun Efficiency</color> +20%
+<color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
+When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
 		condition_id = {
 			21002,
 			21003
@@ -12293,10 +12293,10 @@ When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Ise Retrofi
 		descrip = [[
 After modernization is complete:
 
-<color=#A9F548>Main Gun base -1</color>
-<color=#A9F548>Main Gun Efficiency</color> +20%
-<color=#A9F548>Auxiliary Weapon</color> changes to <color=#A9F548>Reconnaissance</color>.
-When equipping <color=#A9F548>Reconnaissance</color>, <color=#A9F548>Hyuuga Retrofit</color> may use <color=#A9F548>Air Support</color>.]],
+<color=#92fc63>Main Gun base -1</color>
+<color=#92fc63>Main Gun Efficiency</color> +20%
+<color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
+When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
 		condition_id = {
 			21102,
 			21103

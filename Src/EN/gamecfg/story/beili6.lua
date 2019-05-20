@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>VI 「The Rabbit Alien Has Arrived?!」</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=45>VI 「The Rabbit Alien Has Arrived?!」</size>",
 					1
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
@@ -271,7 +271,7 @@ return {
 					number = 2
 				},
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
@@ -297,7 +297,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

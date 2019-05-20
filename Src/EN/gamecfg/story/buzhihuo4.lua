@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Shiranui, the Do-It-All Shopkeeper\n\n<size=30>Chapter 4: An Encounter at the Store?</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 4: An Encounter at the Store?</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = -1000,
+				x = -1500,
 				y = 0
 			},
 			action = {
@@ -80,7 +80,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.7,
-					x = 2000
+					x = 3000
 				}
 			}
 		},
@@ -115,7 +115,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -231,7 +231,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -311,7 +311,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -346,7 +346,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -372,7 +372,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -386,7 +386,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -407,7 +407,7 @@ return {
 					actor = 312010,
 					dir = -1,
 					pos = {
-						x = -30
+						x = -45
 					}
 				}
 			},
@@ -441,7 +441,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.7,
-					x = 1500
+					x = 2250
 				}
 			}
 		},

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"New Year's Blessings\n\n<size=30>Chapter 7 New Year's Blessings</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 7 New Year's Blessings</size>",
 					1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=16>(Whispering) Psst, Akashi-san... last year, this place was...</size>",
+			say = "<size=24>(Whispering) Psst, Akashi-san... last year, this place was...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,14 +313,14 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=16>Shh! You don't need to tell anyone that nya!</size>",
+			say = "<size=24>Shh! You don't need to tell anyone that nya!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -455,7 +455,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -489,7 +489,7 @@ return {
 			say = "WHAAAAAT?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

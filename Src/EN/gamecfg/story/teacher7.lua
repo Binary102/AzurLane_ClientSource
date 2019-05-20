@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Class Z VII\n\n<size=30>Teach Me, Miss Z23! </size>",
+					"Class Z VII\n\n<size=45>Teach Me, Miss Z23! </size>",
 					1
 				}
 			}
@@ -98,13 +98,13 @@ return {
 				{
 					actor = 201210,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				},
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				}
 			},

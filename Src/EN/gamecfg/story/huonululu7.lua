@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 7 - A Date With Honolulu (Part 2)</size>",
+					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 7 - A Date With Honolulu (Part 2)</size>",
 					1
 				}
 			}
@@ -110,7 +110,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
@@ -307,7 +307,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -315,7 +315,7 @@ return {
 					number = 1
 				},
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,

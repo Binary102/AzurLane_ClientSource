@@ -42,7 +42,7 @@ return {
 			actor = 201200,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = -1000,
+				x = -1500,
 				y = 0
 			},
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.5,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -148,7 +148,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = -1000
+					x = -1500
 				}
 			}
 		},
@@ -307,7 +307,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

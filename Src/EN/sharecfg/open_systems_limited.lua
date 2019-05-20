@@ -6,6 +6,7 @@ pg.open_systems_limited = {
 		guid_end_id = 801,
 		guidId = 800,
 		id = 1,
+		story_id = "SYG001",
 		mediator = "BackYardMediator",
 		level = 8
 	},
@@ -15,6 +16,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 2,
+		story_id = "",
 		mediator = "DailyLevelMediator",
 		level = 10
 	},
@@ -24,6 +26,7 @@ pg.open_systems_limited = {
 		guid_end_id = 802,
 		guidId = 802,
 		id = 3,
+		story_id = "SYG002",
 		mediator = "NewGuildMediator",
 		level = 11
 	},
@@ -33,6 +36,7 @@ pg.open_systems_limited = {
 		guid_end_id = 804,
 		guidId = 804,
 		id = 4,
+		story_id = "SYG003",
 		mediator = "EventMediator",
 		level = 12
 	},
@@ -42,6 +46,7 @@ pg.open_systems_limited = {
 		guid_end_id = 805,
 		guidId = 805,
 		id = 5,
+		story_id = "SYG004",
 		mediator = "MilitaryExerciseMediator",
 		level = 15
 	},
@@ -51,6 +56,7 @@ pg.open_systems_limited = {
 		guid_end_id = 806,
 		guidId = 806,
 		id = 6,
+		story_id = "SYG005",
 		mediator = "BillboardMediator",
 		level = 16
 	},
@@ -60,6 +66,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 7,
+		story_id = "",
 		mediator = "ShamPreCombatMediator",
 		level = 10
 	},
@@ -69,6 +76,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 8,
+		story_id = "",
 		mediator = "ShamShop",
 		level = 10
 	},
@@ -78,6 +86,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 9,
+		story_id = "",
 		mediator = "ClassMediator",
 		level = 50
 	},
@@ -87,6 +96,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 10,
+		story_id = "",
 		mediator = "ShipBluePrintMediator",
 		level = 30
 	},
@@ -96,6 +106,7 @@ pg.open_systems_limited = {
 		guid_end_id = 0,
 		guidId = 0,
 		id = 11,
+		story_id = "",
 		mediator = "TechnologyMediator",
 		level = 30
 	},

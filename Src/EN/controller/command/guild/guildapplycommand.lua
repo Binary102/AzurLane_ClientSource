@@ -15,8 +15,6 @@ class("GuildApplyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot0.result == 0 then
 			slot0:sendNotification(GAME.GUILD_APPLY_DONE)
 			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_apply_sucess"))
-		elseif slot0.result == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("word_guild_join_err1"))
 		elseif slot0.result == 4 then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_join_cd"))
 		elseif slot0.result == 6 then

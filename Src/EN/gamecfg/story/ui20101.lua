@@ -11,7 +11,7 @@ return {
 			bgspeed = 2,
 			blackBg = true,
 			side = 0,
-			say = "<size=22>Hold your positions! Don't fire unless fired upon!</size>",
+			say = "<size=33>Hold your positions! Don't fire unless fired upon!</size>",
 			effects = {
 				{
 					active = true,
@@ -24,14 +24,14 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "<size=22>But if they mean to have a war...</size>"
+			say = "<size=33>But if they mean to have a war...</size>"
 		},
 		{
 			actor = 107020,
 			nameColor = "#a9f548",
 			side = 0,
 			blackBg = true,
-			say = "<size=22>Let it begin!</size>"
+			say = "<size=33>Let it begin!</size>"
 		},
 		{
 			mode = 1,
@@ -46,7 +46,7 @@ return {
 			sequence = {
 				{
 					[[
-          Chapter 2 - <size=29>Battle of Coral Sea</size>  
+          Chapter 2 - <size=43.5>Battle of Coral Sea</size>  
 
 
 

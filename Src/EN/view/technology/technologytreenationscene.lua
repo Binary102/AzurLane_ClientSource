@@ -103,6 +103,7 @@ function slot0.findUI(slot0)
 	slot0.tecItemTpl = slot0:findTF("CampTecItem")
 	slot0.typeItemTpl = slot0:findTF("TypeItem")
 	slot0.buffItemTpl = slot0:findTF("BuffItem")
+	slot0.tecItemTplOriginWidth = slot0.tecItemTpl.rect.width
 end
 
 function slot0.onBackPressed(slot0)
@@ -233,7 +234,10 @@ function slot0.updateTecItem(slot0, slot1)
 	onToggle(slot0, slot0:findTF("BG", slot3), function (slot0)
 		if slot0 then
 			triggerToggle(slot0, false)
-			LeanTween.value(go(slot1), 252, 605, 0.25):setOnUpdate(System.Action_float(function (slot0)
+
+			slot2 = go(slot1)
+
+			LeanTween.value(slot2, slot2.tecItemTplOriginWidth, slot2.tecItemTplOriginWidth + slot3.rect.width, 0.25):setOnUpdate(System.Action_float(function (slot0)
 				slot0.preferredWidth = slot0
 
 				if slot0 == #pg.fleet_tech_group.all then
@@ -250,7 +254,7 @@ function slot0.updateTecItem(slot0, slot1)
 			end))
 		else
 			LeanTween.cancel(go(LeanTween.cancel))
-			LeanTween.value(go(slot1), slot1, 252, 0.25):setOnUpdate(System.Action_float(function (slot0)
+			LeanTween.value(go(slot1), slot1, slot2.tecItemTplOriginWidth, 0.25):setOnUpdate(System.Action_float(function (slot0)
 				slot0.preferredWidth = slot0
 
 				return

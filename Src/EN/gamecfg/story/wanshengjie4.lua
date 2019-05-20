@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Witches' Eve IV\n\n<size=30>「The Missing Pumpkin Pie」</size>",
+					"Witches' Eve IV\n\n<size=45>「The Missing Pumpkin Pie」</size>",
 					1
 				}
 			}

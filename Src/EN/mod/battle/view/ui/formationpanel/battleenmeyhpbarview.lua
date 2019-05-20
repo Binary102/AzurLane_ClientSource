@@ -15,11 +15,10 @@ function slot1.Ctor(slot0, slot1)
 	slot0._lvText = slot1:Find("nameContain/Text"):GetComponent(typeof(Text))
 	slot0._level = slot1:Find("level")
 	slot0._typeIcon = slot1:Find("typeIcon/icon"):GetComponent(typeof(Image))
-	slot0._eliteTop = slot0._hpBarTF:Find("elite_top")
-	slot0._gradeText = slot1:Find("grade/Text"):GetComponent(typeof(Text))
+	slot0._eliteLabel = slot1:Find("grade/elite")
+	slot0._generalLabel = slot1:Find("grade/general")
 	slot0._flag = true
 	slot0._isExistBoos = false
-	slot0._eliteType = false
 
 	slot0:Show(false)
 end
@@ -47,15 +46,8 @@ function slot1.SetIconType(slot0, slot1)
 
 	slot0._eliteType = slot1
 
-	if slot1 then
-		setActive(slot0._eliteTop, true)
-
-		slot0._gradeText.text = "ELITE"
-	else
-		setActive(slot0._eliteTop, false)
-
-		slot0._gradeText.text = "GENERAL"
-	end
+	setActive(slot0._generalLabel, not slot1)
+	setActive(slot0._eliteLabel, slot1)
 end
 
 function slot1.SwitchTarget(slot0, slot1, slot2)

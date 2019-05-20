@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=30>Chapter 4 -  Until We Meet Again</size>",
+					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 4 -  Until We Meet Again</size>",
 					1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

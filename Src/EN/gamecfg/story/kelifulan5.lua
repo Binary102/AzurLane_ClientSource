@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 5 - A Tough Team</size>",
+					"Knights & Awards\n\n<size=45>Chapter 5 - A Tough Team</size>",
 					1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			say = "Next, we're up against... Wait, seriously?! Sendai, Agano, and Myoukou?!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -99,7 +99,7 @@ return {
 			say = "Hooyah!",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -111,7 +111,7 @@ return {
 					actor = 102100,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

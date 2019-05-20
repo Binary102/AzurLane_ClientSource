@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Red Spider Lily's Love\n\n<size=30>Chapter 1 - The Secretary in Red</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 1 - The Secretary in Red</size>",
 					1
 				}
 			}
@@ -118,7 +118,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -217,7 +217,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.15,
-					x = 10,
+					x = 15,
 					number = 4
 				}
 			},

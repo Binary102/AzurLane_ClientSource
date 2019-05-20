@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Flower Festival\n\n<size=30>Chapter 2 - Blooming Beckoning</size>",
+					"Flower Festival\n\n<size=45>Chapter 2 - Blooming Beckoning</size>",
 					1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 				{
 					actor = 307050,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

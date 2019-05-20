@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻的交汇-日常篇\n\n<size=30>六　不服输的盛宴</size>",
+					"梦幻的交汇-日常篇\n\n<size=45>六　不服输的盛宴</size>",
 					1
 				}
 			}
@@ -481,7 +481,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -653,7 +653,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=30>Chapter 3 -  Red Alert!?</size>",
+					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 3 -  Red Alert!?</size>",
 					1
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -200,7 +200,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -292,7 +292,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -403,7 +403,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "<size=65>KABOOM!</size>",
+			say = "<size=97.5>KABOOM!</size>",
 			effects = {
 				{
 					active = true,

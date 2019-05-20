@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Class Z V\n\n<size=30>The Melancholy of Z23</size>",
+					"Class Z V\n\n<size=45>The Melancholy of Z23</size>",
 					1
 				}
 			}

@@ -6,23 +6,24 @@ slot1 = pg.ship_data_group
 function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
-	slot0.btn = slot1:GetComponent("Button")
+	slot0.btn = GetOrAddComponent(slot1, "Button")
 	slot0.content = findTF(slot0.tr, "content").gameObject
-	slot0.imageBg = findTF(slot0.tr, "content/bg"):GetComponent("Image")
-	slot0.imageFrame = findTF(slot0.tr, "content/frame"):GetComponent("Image")
-	slot0.iconType = findTF(slot0.tr, "content/frame/info/type"):GetComponent("Image")
-	slot0.labelName = ScrollTxt.New(findTF(slot0.tr, "content/frame/info/name_mask"), findTF(slot0.tr, "content/frame/info/name_mask/name"))
-	slot0.iconShip = findTF(slot0.tr, "content/ship_icon"):GetComponent("Image")
-	slot0.stars = findTF(slot0.tr, "content/frame/info/stars")
-	slot0.star = findTF(slot0.tr, "content/frame/info/stars/star_tpl")
-	slot0.heart = findTF(slot0.tr, "content/frame/heart")
-	slot0.labelHeart = findTF(slot0.tr, "content/frame/heart/heart"):GetComponent("Text")
-	slot0.labelHeartIcon = findTF(slot0.tr, "content/frame/heart/icon"):GetComponent("Image")
-	slot0.labelHeartPlus = findTF(slot0.tr, "content/frame/heart/heart+"):GetComponent("Text")
-	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent("Image")
-	slot0.labelNumber = findTF(slot0.tr, "number/Text"):GetComponent("Text")
-	slot0.ringTF = findTF(slot0.tr, "ring")
-	slot0.maskTF = findTF(slot0.tr, "mask")
+
+	setActive(findTF(slot0.content, "dockyard"), false)
+	setActive(findTF(slot0.content, "collection"), true)
+
+	slot0.shipFrameImg = findTF(slot0.content, "front/frame")
+	slot0.iconShip = findTF(slot0.content, "ship_icon"):GetComponent(typeof(Image))
+	slot0.imageBg = findTF(slot0.content, "bg"):GetComponent(typeof(Image))
+	slot0.labelName = ScrollTxt.New(findTF(slot0.content, "info/name_mask"), findTF(slot0.content, "info/name_mask/name"))
+	slot0.iconType = findTF(slot0.content, "info/top/type"):GetComponent(typeof(Image))
+	slot0.ringTF = findTF(slot0.content, "front/ring")
+	slot0.maskTF = findTF(slot0.content, "collection/mask")
+	slot0.heart = findTF(slot0.content, "collection/heart")
+	slot0.labelHeart = findTF(slot0.heart, "heart"):GetComponent(typeof(Text))
+	slot0.labelHeartIcon = findTF(slot0.heart, "icon"):GetComponent(typeof(Image))
+	slot0.labelHeartPlus = findTF(slot0.heart, "heart+"):GetComponent(typeof(Text))
+	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent(typeof(Image))
 end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -38,6 +39,8 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot0:flush()
 	end
+
+	TweenItemAlphaAndWhite(slot0.go)
 end
 
 function slot0.flush(slot0)
@@ -62,58 +65,31 @@ function slot0.flush(slot0)
 
 		slot0:loadImage(slot0.shipGroup)
 	elseif slot0.state == ShipGroup.STATE_LOCK then
-		GetSpriteFromAtlasAsync("shipframe", "unknown", function (slot0)
-			if not IsNil(slot0.imageUnknown) then
-				slot0.imageUnknown.sprite = slot0
-			end
-		end)
 	end
 
 	setActive(slot0.content, slot0.state == ShipGroup.STATE_NOTGET or slot0.state == ShipGroup.STATE_UNLOCK)
 	setActive(slot0.imageUnknown, slot0.state == ShipGroup.STATE_LOCK)
 	setActive(slot0.maskTF, slot0.state == ShipGroup.STATE_NOTGET)
-
-	slot0.labelNumber.text = string.format("%03u", slot0.code)
-
 	setActive(slot0.ringTF, slot0.propose)
 end
 
 function slot0.loadImage(slot0, slot1)
+	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. ((slot1:isBluePrintGroup() and "0") or ""), "")
+	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
+
+	LoadSpriteAsync("shipYardIcon/" .. slot4, function (slot0)
+		if slot0.go then
+			slot0.iconShip.sprite = slot0
+		end
+	end)
+
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType(slot0.showTrans)))
 
 	slot0.labelName:setText(slot1:getName(slot0.showTrans))
-
-	slot3 = slot1:getPainting(slot0.showTrans)
-
-	GetImageSpriteFromAtlasAsync("shipframe", ((slot1:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), slot0.imageFrame, true)
-
-	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. ((slot1:isBluePrintGroup() and "1") or "") .. shipRarity2bgPrint(slot2), "")
-	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
-
-	if slot0.bufferTimer then
-		slot0.bufferTimer:Stop()
-	end
-
-	slot0.bufferTimer = Timer.New(function ()
-		LoadSpriteAsync("shipYardIcon/" .. slot0, function (slot0)
-			if slot0.go then
-				slot0.iconShip.sprite = slot0
-
-				slot0.iconShip:SetNativeSize()
-			end
-		end)
-	end, 0.1, 1)
-
-	slot0.bufferTimer:Start()
+	setShipCardFrame(slot0.shipFrameImg, ((slot1.isBluePrintGroup() and "0") or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans)))
 end
 
 function slot0.clear(slot0)
-	if slot0.bufferTimer then
-		slot0.bufferTimer:Stop()
-
-		slot0.bufferTimer = nil
-	end
-
 	slot0.labelName:clear()
 
 	slot0.shipGroup = nil

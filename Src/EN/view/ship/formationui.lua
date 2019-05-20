@@ -26,6 +26,15 @@ slot1 = {
 	cyan = "cyan"
 }
 slot0.BUFF_TYEP = slot1
+slot1 = {
+	FIFTH = "FIFTH",
+	FIRST = "FIRST",
+	SECNOD = "SECNOD",
+	THIRD = "THIRD",
+	SIXTH = "SIXTH",
+	FOURTH = "FOURTH"
+}
+slot0.TeamNum = slot1
 
 function slot1(slot0)
 	slot1 = "FormationUI"
@@ -46,12 +55,12 @@ function slot1(slot0)
 	slot0.eventTriggers = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container"
+	slot3 = "blur_panel"
 	slot1 = slot1(slot2, slot3)
 	slot0._blurLayer = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "top/title/back"
+	slot3 = "top/back_btn"
 	slot4 = slot0._blurLayer
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.backBtn = slot1
@@ -67,18 +76,21 @@ function slot1(slot0)
 	slot0._bgSub = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/bottom"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "bottom"
+	slot4 = slot0._blurLayer
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._bottomPanel = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/bottom/toggle_list/detail_toggle"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "toggle_list/detail_toggle"
+	slot4 = slot0._bottomPanel
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._detailToggle = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/bottom/toggle_list/formation_toggle"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "toggle_list/formation_toggle"
+	slot4 = slot0._bottomPanel
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._formationToggle = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
@@ -95,11 +107,6 @@ function slot1(slot0)
 	slot3 = "star_tpl"
 	slot1 = slot1(slot2, slot3)
 	slot0._starTpl = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "star_empty_tpl"
-	slot1 = slot1(slot2, slot3)
-	slot0._starEmptyTpl = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "heroInfo"
@@ -182,23 +189,27 @@ function slot1(slot0)
 	slot0._attachmentList = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/fleet_info"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "fleet_info"
+	slot4 = slot0._blurLayer
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._fleetInfo = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/fleet_info/fleet_number"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "fleet_number"
+	slot4 = slot0._fleetInfo
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._fleetNumText = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/fleet_info/fleet_name"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "fleet_name/Text"
+	slot4 = slot0._fleetInfo
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._fleetNameText = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/fleet_info/edit_btn"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "edit_btn"
+	slot4 = slot0._fleetInfo
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._fleetNameEditBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
@@ -227,111 +238,46 @@ function slot1(slot0)
 
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "buff_list"
-	slot1 = slot1(slot2, slot3)
-	slot0._buffPanel = slot1
+	slot3 = "property_frame"
+	slot4 = slot0._blurLayer
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._propertyFrame = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "buff_group"
-	slot4 = slot0._buffPanel
+	slot3 = "cannon/Text"
+	slot4 = slot0._propertyFrame
 	slot1 = slot1(slot2, slot3, slot4)
-	slot0._buffGroup = slot1
-	slot2 = slot0
-	slot1 = slot0.getTpl
-	slot3 = "buff_model"
-	slot4 = slot0._buffPanel
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0._buffModel = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/cannon/value"
-	slot1 = slot1(slot2, slot3)
 	slot0._cannonPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/torpedo/value"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "torpedo/Text"
+	slot4 = slot0._propertyFrame
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._torpedoPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/anti_air/value"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "antiaircraft/Text"
+	slot4 = slot0._propertyFrame
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._AAPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/air/value"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "air/Text"
+	slot4 = slot0._propertyFrame
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0._airPower = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/cost/value"
-	slot1 = slot1(slot2, slot3)
-	slot0._cost = slot1
+	slot3 = "ac/Text"
+	slot4 = slot0._propertyFrame
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._airDominance = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/property_frame/titles/ac/value"
-	slot1 = slot1(slot2, slot3)
-	slot0._airDominance = slot1
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/cannon/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_cannon"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/torpedo/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_torpedo"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/anti_air/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_antiaircraft"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/air/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_air"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/cost/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_luck"
-
-	slot1(slot2, slot3(slot4))
-
-	slot1 = setText
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "blur_container/property_frame/titles/ac/Text"
-	slot2 = slot2(slot3, slot4)
-	slot3 = i18n
-	slot4 = "word_attr_ac"
-
-	slot1(slot2, slot3(slot4))
-
+	slot3 = "cost/Text"
+	slot4 = slot0._propertyFrame
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._cost = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "gear_score/main"
@@ -347,16 +293,55 @@ function slot1(slot0)
 	slot3 = "gear_score/submarine"
 	slot1 = slot1(slot2, slot3)
 	slot0._subGS = slot1
+	slot1 = slot0._vanguardGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "up"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrUpVan = slot1
+	slot1 = slot0._vanguardGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "down"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrDownVan = slot1
+	slot1 = slot0._mainGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "up"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrUpMain = slot1
+	slot1 = slot0._mainGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "down"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrDownMain = slot1
+	slot1 = slot0._subGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "up"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrUpSub = slot1
+	slot1 = slot0._subGS
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "down"
+	slot1 = slot1(slot2, slot3)
+	slot0._arrDownSub = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/attr_frame"
+	slot3 = "blur_panel/attr_frame"
 	slot1 = slot1(slot2, slot3)
 	slot0._attrFrame = slot1
-	slot2 = slot0
-	slot1 = slot0.getTpl
-	slot3 = "ship"
-	slot4 = slot0._attrFrame
-	slot1 = slot1(slot2, slot3, slot4)
+	slot1 = slot0._tf
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = ItemList
+	slot1 = slot1(slot2, slot3(slot4))
+	slot1 = slot1.prefabItem
+	slot1 = slot1[0]
 	slot0._cardTpl = slot1
 	slot1 = {}
 	slot0._cards = slot1
@@ -395,13 +380,49 @@ function slot1(slot0)
 	slot0.btnRegular = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "fleet/enFleet"
+	slot4 = slot0.btnRegular
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._regularEnFllet = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "fleet/num"
+	slot4 = slot0.btnRegular
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._regularNum = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "fleet/CnFleet"
+	slot4 = slot0.btnRegular
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._regualrCnFleet = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "fleet_select/sub"
 	slot4 = slot0._bottomPanel
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.btnSub = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "blur_container/list_mask"
+	slot3 = "fleet/enFleet"
+	slot4 = slot0.btnSub
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._subEnFllet = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "fleet/num"
+	slot4 = slot0.btnSub
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._subNum = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "fleet/CnFleet"
+	slot4 = slot0.btnSub
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0._subCnFleet = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "blur_panel/list_mask"
 	slot1 = slot1(slot2, slot3)
 	slot0.fleetToggleMask = slot1
 	slot2 = slot0
@@ -429,26 +450,19 @@ function slot1(slot0)
 		slot5[slot4] = slot6
 	end
 
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "resource"
-	slot1 = slot1(slot2, slot3)
-	slot0.resource = slot1
-	slot1 = setAnchoredPosition
-	slot2 = slot0._bottomPanel
-	slot3 = {
-		y = -90
-	}
-
-	slot1(slot2, slot3)
-
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "AL_Biandui01"
-	slot1 = slot1(slot2, slot3)
-	slot0.subBottom = slot1
-	slot1 = CommanderFormationPanel
-	slot1 = slot1.New
+	slot0._vanGSTxt = slot0._vanguardGS:Find("Text"):GetComponent("Text")
+	slot0._mainGSTxt = slot0._mainGS:Find("Text"):GetComponent("Text")
+	slot0._subGSTxt = slot0._subGS:Find("Text"):GetComponent("Text")
+	slot0.prevMainGS = slot0.contextData.mainGS
+	slot0.prevVanGS = slot0.contextData.vanGS
+	slot0.prevSubGS = slot0.contextData.subGS
+	slot0.mainGSInited = (slot0.contextData.mainGS and true) or false
+	slot0.VanGSInited = (slot0.contextData.vanGS and true) or false
+	slot0.SubGSInited = (slot0.contextData.subGS and true) or false
+	slot0._vanGSTxt.text = slot0.prevVanGS or 0
+	slot0._mainGSTxt.text = slot0.prevMainGS or 0
+	slot0._subGSTxt.text = slot0.prevSubGS or 0
+	slot1 = CommanderFormationPanel.New
 	slot3 = slot0
 	slot2 = slot0.findTF
 	slot4 = "commander_panel"
@@ -460,6 +474,9 @@ function slot1(slot0)
 	slot3 = slot0
 
 	slot1(slot2, slot3)
+
+	slot1 = {}
+	slot0.index = slot1
 end
 
 slot0.init = slot1
@@ -646,116 +663,84 @@ slot0.updateGridVisibility = slot1
 
 function slot1(slot0)
 	slot1 = "commonbg/"
-	slot2 = slot0._currentFleetVO:getFleetType()
 
-	setActive(slot0._bgFleet, slot2 == FleetType.Normal)
-	setActive(slot0._bgSub, slot2 == FleetType.Submarine)
-	setActive(slot0.subBottom, slot2 == FleetType.Submarine)
-	setActive(slot0.subBottom, slot2 == FleetType.Submarine)
+	setActive(slot0._bgFleet, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
+	setActive(slot0._bgSub, slot0._currentFleetVO.getFleetType() == FleetType.Submarine)
 end
 
 slot0.updateFleetBg = slot1
 
 function slot1(slot0)
-	slot1 = slot0._currentFleetVO:getFleetType()
-
-	setActive(slot0.btnRegular:Find("title"), slot1 ~= FleetType.Normal)
-	setActive(slot0.btnRegular:Find("title_selected"), slot1 == FleetType.Normal)
-	setActive(slot0.btnRegular:Find("text"), slot1 ~= FleetType.Normal)
-	setActive(slot0.btnRegular:Find("text_selected"), slot1 == FleetType.Normal)
-
-	slot2 = FleetType.Normal
+	slot1 = slot0._currentFleetVO
+	slot2 = slot1
+	slot1 = slot1.getFleetType
+	slot1 = slot1(slot2)
+	slot2 = FleetType
+	slot2 = slot2.Normal
 
 	if slot1 == slot2 then
 		slot2 = slot0._currentFleetVO
 		slot3 = slot2
 		slot2 = slot2.getIndex
 		slot2 = slot2(slot3)
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/btn_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnRegular
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "fleet"
+		slot3 = setText
+		slot4 = slot0._regularEnFllet
+		slot5 = slot0.TeamNum
+		slot5 = slot5[slot2]
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5)
 
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/text_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnRegular
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "text"
+		slot3 = setText
+		slot4 = slot0._regualrCnFleet
+		slot5 = i18n
+		slot6 = "ship_formationUI_fleetName"
+		slot7 = slot2
+		slot6 = slot6 .. slot7
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5(slot6))
 
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/text_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnRegular
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "text_selected"
+		slot3 = setText
+		slot4 = slot0._regularNum
+		slot5 = slot2
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5)
 	end
 
-	setActive(slot0.btnSub:Find("title"), slot1 ~= FleetType.Submarine)
-	setActive(slot0.btnSub:Find("title_selected"), slot1 == FleetType.Submarine)
-	setActive(slot0.btnSub:Find("text"), slot1 ~= FleetType.Submarine)
-	setActive(slot0.btnSub:Find("text_selected"), slot1 == FleetType.Submarine)
-
-	slot2 = FleetType.Submarine
+	slot2 = FleetType
+	slot2 = slot2.Submarine
 
 	if slot1 == slot2 then
 		slot2 = slot0._currentFleetVO
 		slot3 = slot2
 		slot2 = slot2.getIndex
 		slot2 = slot2(slot3)
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/btn_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnSub
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "fleet"
+		slot3 = setText
+		slot4 = slot0._subEnFllet
+		slot5 = slot0.TeamNum
+		slot5 = slot5[slot2]
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5)
 
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/text_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnSub
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "text"
+		slot3 = setText
+		slot4 = slot0._subCnFleet
+		slot5 = i18n
+		slot6 = "ship_formationUI_fleetName"
+		slot7 = slot2
+		slot6 = slot6 .. slot7
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5(slot6))
 
-		slot4 = slot0
-		slot3 = slot0.setSpriteTo
-		slot5 = "resource/text_fleet_"
-		slot6 = slot2
-		slot5 = slot5 .. slot6
-		slot6 = slot0.btnSub
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = "text_selected"
+		slot3 = setText
+		slot4 = slot0._subNum
+		slot5 = slot2
 
-		slot3(slot4, slot5, slot6(slot7, slot8))
+		slot3(slot4, slot5)
 	end
+
+	setActive(slot0.btnRegular:Find("on"), slot1 == FleetType.Normal)
+	setActive(slot0.btnRegular:Find("off"), slot1 ~= FleetType.Normal)
+	setActive(slot0.btnSub:Find("on"), slot1 == FleetType.Submarine)
+	setActive(slot0.btnSub:Find("off"), slot1 ~= FleetType.Submarine)
 end
 
 slot0.updateFleetButton = slot1
@@ -770,88 +755,6 @@ function slot1(slot0)
 end
 
 slot0.SetFleetNameLabel = slot1
-
-function slot1(slot0)
-	slot1 = 0.3
-	slot2 = 0.3
-	slot3 = shiftPanel
-	slot4 = slot0.topPanel
-	slot5 = nil
-	slot6 = 0
-	slot7 = slot2
-	slot8 = slot1
-	slot9 = true
-	slot10 = true
-	slot11, slot12 = nil
-
-	slot3(slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
-
-	slot3 = topAnimation
-	slot5 = slot0
-	slot4 = slot0.findTF
-	slot6 = "title/bg/left"
-	slot7 = slot0.topPanel
-	slot4 = slot4(slot5, slot6, slot7)
-	slot6 = slot0
-	slot5 = slot0.findTF
-	slot7 = "title/bg/right"
-	slot8 = slot0.topPanel
-	slot5 = slot5(slot6, slot7, slot8)
-	slot7 = slot0
-	slot6 = slot0.findTF
-	slot8 = "title/bg/title_formation"
-	slot9 = slot0.topPanel
-	slot6 = slot6(slot7, slot8, slot9)
-	slot8 = slot0
-	slot7 = slot0.findTF
-	slot9 = "title/bg/formation"
-	slot10 = slot0.topPanel
-	slot7 = slot7(slot8, slot9, slot10)
-	slot8 = 0.57
-
-	function slot9()
-		slot0 = slot0
-		slot1 = nil
-		slot0.tweens = slot1
-	end
-
-	slot3 = slot3(slot4, slot5, slot6, slot7, slot8, slot9)
-	slot0.tweens = slot3
-end
-
-slot0.uiStartAnimating = slot1
-
-function slot1(slot0)
-	slot1 = shiftPanel
-	slot2 = slot0._bottomPanel
-	slot3 = nil
-	slot4 = slot0._bottomPanel
-	slot4 = slot4.rect
-	slot4 = slot4.height
-	slot4 = -slot4
-	slot5 = dur
-	slot6 = delay
-	slot7 = true
-	slot8 = true
-
-	slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-
-	slot1 = shiftPanel
-	slot2 = slot0.topPanel
-	slot3 = nil
-	slot4 = slot0.topPanel
-	slot4 = slot4.rect
-	slot4 = slot4.height
-	slot5 = dur
-	slot6 = delay
-	slot7 = true
-	slot8 = true
-	slot9, slot10 = nil
-
-	slot1(slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
-end
-
-slot0.uiExitAnimating = slot1
 
 function slot1(slot0)
 	slot1 = slot0.commanderFormationPanel
@@ -920,27 +823,11 @@ function slot1(slot0)
 				slot0.interactable = slot1
 				slot1 = slot0
 				slot2 = slot1
-				slot1 = slot1.uiExitAnimating
+				slot1 = slot1.emit
+				slot3 = slot1
+				slot3 = slot3.ON_BACK
 
-				slot1(slot2)
-
-				slot1 = LeanTween
-				slot1 = slot1.delayedCall
-				slot2 = 0.3
-				slot3 = System
-				slot3 = slot3.Action
-
-				function slot4()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = slot1
-					slot2 = slot2.ON_BACK
-
-					slot0(slot1, slot2)
-				end
-
-				slot1(slot2, slot3(slot4))
+				slot1(slot2, slot3)
 			end
 
 			slot1 = slot0
@@ -1200,32 +1087,32 @@ function slot1(slot0)
 		slot0:updateToggleList(_.filter(slot0._fleetVOs, function (slot0)
 			return slot0:getFleetType() == FleetType.Normal
 		end))
-		triggerToggle(slot0.fleetToggles[tonumber(getImageSprite(slot0.btnRegular:Find("text")).name.sub(slot1, #getImageSprite(slot0.btnRegular.Find("text")).name))], true)
+		triggerToggle(slot0.updateToggleList._currentFleetVO:getFleetType() == FleetType.Normal.fleetToggles[slot0.updateToggleList._currentFleetVO.getFleetType() == FleetType.Normal.index[FleetType.Normal] or 1], true)
 
-		if slot0.updateToggleList._currentFleetVO:getFleetType() == FleetType.Normal then
-			slot3 = setActive
-			slot4 = slot0
-			slot4 = slot4.fleetToggleMask
-			slot5 = true
-
-			slot3(slot4, slot5)
-
+		if slot0 then
+			slot2 = setActive
 			slot3 = slot0
-			slot4 = slot3
-			slot3 = slot3.tweenTabArrow
-			slot5 = false
+			slot3 = slot3.fleetToggleMask
+			slot4 = true
 
-			slot3(slot4, slot5)
+			slot2(slot3, slot4)
 
-			slot3 = setAnchoredPosition
-			slot4 = slot0
-			slot4 = slot4.fleetToggleList
-			slot5 = Vector3
-			slot5 = slot5.New
-			slot6 = 133
-			slot7 = 475
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.tweenTabArrow
+			slot4 = false
 
-			slot3(slot4, slot5(slot6, slot7))
+			slot2(slot3, slot4)
+
+			slot2 = setAnchoredPosition
+			slot3 = slot0
+			slot3 = slot3.fleetToggleList
+			slot4 = Vector3
+			slot4 = slot4.New
+			slot5 = 209
+			slot6 = 129
+
+			slot2(slot3, slot4(slot5, slot6))
 		end
 	end
 
@@ -1241,32 +1128,32 @@ function slot1(slot0)
 		slot0:updateToggleList(_.filter(slot0._fleetVOs, function (slot0)
 			return slot0:getFleetType() == FleetType.Submarine
 		end))
-		triggerToggle(slot0.fleetToggles[tonumber(getImageSprite(slot0.btnSub:Find("text")).name.sub(slot1, #getImageSprite(slot0.btnSub.Find("text")).name))], true)
+		triggerToggle(slot0.updateToggleList._currentFleetVO:getFleetType() == FleetType.Submarine.fleetToggles[slot0.updateToggleList._currentFleetVO.getFleetType() == FleetType.Submarine.index[FleetType.Submarine] or 1], true)
 
-		if slot0.updateToggleList._currentFleetVO:getFleetType() == FleetType.Submarine then
-			slot3 = setActive
-			slot4 = slot0
-			slot4 = slot4.fleetToggleMask
-			slot5 = true
-
-			slot3(slot4, slot5)
-
+		if slot0 then
+			slot2 = setActive
 			slot3 = slot0
-			slot4 = slot3
-			slot3 = slot3.tweenTabArrow
-			slot5 = false
+			slot3 = slot3.fleetToggleMask
+			slot4 = true
 
-			slot3(slot4, slot5)
+			slot2(slot3, slot4)
 
-			slot3 = setAnchoredPosition
-			slot4 = slot0
-			slot4 = slot4.fleetToggleList
-			slot5 = Vector3
-			slot5 = slot5.New
-			slot6 = 530
-			slot7 = 475
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.tweenTabArrow
+			slot4 = false
 
-			slot3(slot4, slot5(slot6, slot7))
+			slot2(slot3, slot4)
+
+			slot2 = setAnchoredPosition
+			slot3 = slot0
+			slot3 = slot3.fleetToggleList
+			slot4 = Vector3
+			slot4 = slot4.New
+			slot5 = 755
+			slot6 = 129
+
+			slot2(slot3, slot4(slot5, slot6))
 		end
 	end
 
@@ -1388,84 +1275,11 @@ function slot1(slot0)
 		slot2(slot3, slot4)
 	end
 
-	slot2 = shiftPanel
-	slot3 = slot0._bottomPanel
-	slot4 = nil
-	slot5 = 0
-	slot6 = nil
-	slot7 = 0.5
-	slot8 = true
-	slot9 = true
-
-	slot2(slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-
-	slot2 = setAnchoredPosition
-	slot3 = slot0.topPanel
-	slot4 = {}
-	slot5 = slot0.topPanel
-	slot5 = slot5.rect
-	slot5 = slot5.height
-	slot4.y = slot5
-
-	slot2(slot3, slot4)
-
-	slot2 = onNextTick
-
-	function slot3()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.uiStartAnimating
-
-		slot0(slot1)
-	end
-
-	slot2(slot3)
-
 	slot3 = slot0
 	slot2 = slot0.tweenTabArrow
 	slot4 = true
 
 	slot2(slot3, slot4)
-
-	slot2 = PoolMgr
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.GetUI
-	slot4 = "al_bg01"
-	slot5 = true
-
-	function slot6(slot0)
-		slot1 = IsNil
-		slot2 = slot0
-		slot2 = slot2._tf
-		slot1 = slot1(slot2)
-
-		if slot1 then
-			return
-		end
-
-		slot2 = slot0
-		slot1 = slot0.SetActive
-		slot3 = true
-
-		slot1(slot2, slot3)
-
-		slot1 = setParent
-		slot2 = slot0
-		slot3 = slot0
-		slot3 = slot3._tf
-
-		slot1(slot2, slot3)
-
-		slot1 = slot0.transform
-		slot2 = slot1
-		slot1 = slot1.SetAsFirstSibling
-
-		slot1(slot2)
-	end
-
-	slot2(slot3, slot4, slot5, slot6)
 end
 
 slot0.didEnter = slot1
@@ -1573,6 +1387,27 @@ function slot1(slot0, slot1)
 
 			slot14(slot15, slot16)
 
+			slot14 = setActive
+			slot16 = slot8
+			slot15 = slot8.Find
+			slot17 = "on"
+			slot15 = slot15(slot16, slot17)
+
+			if slot12 then
+				slot14(slot15, slot3 == slot9.id)
+
+				slot14 = setActive
+			end
+
+			slot16 = slot8
+			slot15 = slot8.Find
+			slot17 = "off"
+			slot15 = slot15(slot16, slot17)
+
+			if slot12 then
+				slot14(slot15, slot3 ~= slot9.id)
+			end
+
 			if slot12 then
 				slot10.isOn = slot9.id == slot3
 				slot14 = onToggle
@@ -1615,6 +1450,14 @@ function slot1(slot0, slot1)
 								slot1(slot2)
 							end
 
+							slot1 = slot0
+							slot1 = slot1.index
+							slot2 = slot1
+							slot3 = slot2
+							slot2 = slot2.getFleetType
+							slot2 = slot2(slot3)
+							slot3 = slot3
+							slot1[slot2] = slot3
 							slot1 = slot0
 							slot2 = slot1
 							slot1 = slot1.emit
@@ -1898,8 +1741,8 @@ function slot1(slot0)
 		end
 
 		slot15 = Vector3
-		slot16 = 0.5
-		slot17 = 0.5
+		slot16 = 0.8
+		slot17 = 0.8
 		slot18 = 1
 		slot15 = slot15(slot16, slot17, slot18)
 		slot13.localScale = slot15
@@ -2826,46 +2669,6 @@ slot0.resetGrid = slot1
 function slot1(slot0)
 	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(Fleet.MAIN) ~= 0)
 	SetActive(slot0._gridTFs.submarine[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(Fleet.SUBMARINE) ~= 0)
-	removeAllChildren(slot0._buffGroup)
-
-	slot2, slot3, slot4 = ipairs({})
-
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = cloneTplTo
-		slot8 = slot0._buffModel
-		slot9 = slot0._buffGroup
-		slot7 = slot7(slot8, slot9)
-		slot8 = tf
-		slot9 = slot7
-		slot8 = slot8(slot9)
-		slot9 = slot8
-		slot8 = slot8.SetAsFirstSibling
-
-		slot8(slot9)
-
-		slot8 = SetActive
-		slot10 = slot7
-		slot9 = slot7.Find
-		slot11 = "dot_list/"
-		slot12 = slot6.type
-		slot11 = slot11 .. slot12
-		slot9 = slot9(slot10, slot11)
-		slot10 = true
-
-		slot8(slot9, slot10)
-
-		slot9 = slot7
-		slot8 = slot7.Find
-		slot10 = "buff_describe"
-		slot8 = slot8(slot9, slot10)
-		slot9 = slot8
-		slot8 = slot8.GetComponent
-		slot10 = typeof
-		slot11 = Text
-		slot8 = slot8(slot9, slot10(slot11))
-		slot9 = slot6.describe
-		slot8.text = slot9
-	end
 end
 
 slot0.resetFormationComponent = slot1
@@ -3327,24 +3130,30 @@ function slot1(slot0)
 	slot2 = slot1
 	slot1 = slot1.GetPropertiesSum
 	slot1 = slot1(slot2)
-	slot2 = slot0._currentFleetVO
-	slot3 = slot2
-	slot2 = slot2.GetGearScoreSum
-	slot4 = Fleet
-	slot4 = slot4.VANGUARD
-	slot2 = slot2(slot3, slot4)
+	slot2 = math
+	slot2 = slot2.floor
 	slot3 = slot0._currentFleetVO
 	slot4 = slot3
 	slot3 = slot3.GetGearScoreSum
 	slot5 = Fleet
-	slot5 = slot5.MAIN
-	slot3 = slot3(slot4, slot5)
+	slot5 = slot5.VANGUARD
+	slot2 = slot2(slot3(slot4, slot5))
+	slot3 = math
+	slot3 = slot3.floor
 	slot4 = slot0._currentFleetVO
 	slot5 = slot4
 	slot4 = slot4.GetGearScoreSum
 	slot6 = Fleet
-	slot6 = slot6.SUBMARINE
-	slot4 = slot4(slot5, slot6)
+	slot6 = slot6.MAIN
+	slot3 = slot3(slot4(slot5, slot6))
+	slot4 = math
+	slot4 = slot4.floor
+	slot5 = slot0._currentFleetVO
+	slot6 = slot5
+	slot5 = slot5.GetGearScoreSum
+	slot7 = Fleet
+	slot7 = slot7.SUBMARINE
+	slot4 = slot4(slot5(slot6, slot7))
 	slot5 = slot0._currentFleetVO
 	slot6 = slot5
 	slot5 = slot5.GetCostSum
@@ -3425,6 +3234,35 @@ function slot1(slot0)
 
 		slot7(slot8, slot9)
 
+		slot7 = setActive
+		slot8 = slot0._arrUpVan
+		slot9 = false
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0._arrDownVan
+		slot9 = false
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0._arrUpMain
+		slot9 = false
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0._arrDownMain
+		slot9 = false
+
+		slot7(slot8, slot9)
+
+		slot7 = tonumber
+		slot8 = slot0._vanGSTxt
+		slot8 = slot8.text
+		slot7 = slot7(slot8)
+		slot0.prevVanGS = slot7
 		slot7 = slot0.tweenNumText
 		slot8 = slot0._vanguardGS
 		slot9 = slot8
@@ -3432,9 +3270,22 @@ function slot1(slot0)
 		slot10 = "Text"
 		slot8 = slot8(slot9, slot10)
 		slot9 = slot2
+		slot10, slot11 = nil
 
-		slot7(slot8, slot9)
+		slot7(slot8, slot9, slot10, slot11)
 
+		slot7 = slot0.VanGSInited
+
+		if slot7 then
+			setActive(slot0._arrUpVan, slot0.prevVanGS < slot2)
+			setActive(slot0._arrDownVan, slot2 < slot0.prevVanGS)
+		end
+
+		slot7 = tonumber
+		slot8 = slot0._mainGSTxt
+		slot8 = slot8.text
+		slot7 = slot7(slot8)
+		slot0.prevMainGS = slot7
 		slot7 = slot0.tweenNumText
 		slot8 = slot0._mainGS
 		slot9 = slot8
@@ -3442,19 +3293,53 @@ function slot1(slot0)
 		slot10 = "Text"
 		slot8 = slot8(slot9, slot10)
 		slot9 = slot3
+		slot10, slot11 = nil
 
-		slot7(slot8, slot9)
+		slot7(slot8, slot9, slot10, slot11)
+
+		slot7 = slot0.mainGSInited
+
+		if slot7 then
+			setActive(slot0._arrUpMain, slot0.prevMainGS < slot3)
+			setActive(slot0._arrDownMain, slot3 < slot0.prevMainGS)
+		end
+
+		slot7 = slot0.contextData
+		slot7.mainGS = slot3
+		slot7 = slot0.contextData
+		slot7.vanGS = slot2
+		slot7 = true
+		slot0.mainGSInited = slot7
+		slot7 = true
+		slot0.VanGSInited = slot7
 	else
 		slot7 = FleetType
 		slot7 = slot7.Submarine
 
 		if slot6 == slot7 then
 			slot7 = setActive
+			slot8 = slot0._arrUpSub
+			slot9 = false
+
+			slot7(slot8, slot9)
+
+			slot7 = setActive
+			slot8 = slot0._arrDownSub
+			slot9 = false
+
+			slot7(slot8, slot9)
+
+			slot7 = setActive
 			slot8 = slot0._subGS
 			slot9 = true
 
 			slot7(slot8, slot9)
 
+			slot7 = tonumber
+			slot8 = slot0._subGSTxt
+			slot8 = slot8.text
+			slot7 = slot7(slot8)
+			slot0.prevSubGS = slot7
 			slot7 = slot0.tweenNumText
 			slot8 = slot0._subGS
 			slot9 = slot8
@@ -3462,8 +3347,21 @@ function slot1(slot0)
 			slot10 = "Text"
 			slot8 = slot8(slot9, slot10)
 			slot9 = slot4
+			slot10, slot11 = nil
 
-			slot7(slot8, slot9)
+			slot7(slot8, slot9, slot10, slot11)
+
+			slot7 = slot0.SubGSInited
+
+			if slot7 then
+				setActive(slot0._arrUpSub, slot0.prevSubGS < slot4)
+				setActive(slot0._arrDownSub, slot4 < slot0.prevSubGS)
+			end
+
+			slot7 = slot0.contextData
+			slot7.subGS = slot4
+			slot7 = true
+			slot0.SubGSInited = slot7
 		end
 	end
 
@@ -3624,7 +3522,7 @@ function slot1(slot0)
 				slot15 = table
 				slot15 = slot15.insert
 				slot16 = slot8
-				slot17 = FormationCard
+				slot17 = FormationDetailCard
 				slot17 = slot17.New
 				slot18 = slot14
 
@@ -3740,7 +3638,7 @@ function slot1(slot0)
 
 	setActive(slot0:findTF(Fleet.MAIN, slot0._attrFrame), slot2 == FleetType.Normal)
 	setActive(slot0:findTF(Fleet.SUBMARINE, slot0._attrFrame), slot2 == FleetType.Submarine)
-	setActive(slot0:findTF(Fleet.VANGUARD .. "/d", slot0._attrFrame), slot2 == FleetType.Normal)
+	setActive(slot0:findTF(Fleet.VANGUARD .. "/vanguard", slot0._attrFrame), slot2 ~= FleetType.Submarine)
 	slot0:updateUltimateTitle()
 end
 
@@ -3762,7 +3660,7 @@ function slot1(slot0)
 		slot5 = 1
 
 		for slot6 = slot3, slot4, slot5 do
-			slot1[slot6].shipState:SetActive(slot6 == 1)
+			go(slot1[slot6].shipState):SetActive(slot6 == 1)
 		end
 	end
 end
@@ -4414,10 +4312,30 @@ end
 
 slot0.change2ScrPos = slot1
 
-function slot1(slot0, slot1, slot2)
-	LeanTween.value(go(slot0), 0, math.floor(slot1), slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
+function slot1(slot0, slot1, slot2, slot3, slot4)
+	slot5 = LeanTween
+	slot5 = LeanTween.value
+	slot6 = go
+	slot7 = slot0
+	slot6 = go(slot0)
+	slot7 = slot4 or 0
+
+	LeanTween.value(slot6, slot7, math.floor(slot1), slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
 		setText(slot0, math.floor(slot0))
+
+		return
+	end)):setOnComplete(System.Action(function ()
+		if slot0 then
+			slot0()
+		end
+
+		return
 	end))
+
+	return
+
+	slot7 = 0
+	slot9 = 0.7
 end
 
 slot0.tweenNumText = slot1
@@ -4441,6 +4359,8 @@ function slot1(slot0)
 			return slot1
 		end
 	end
+
+	return
 end
 
 slot0.defaultFleetName = slot1
@@ -4464,12 +4384,12 @@ function slot1(slot0, slot1)
 	slot2 = slot0.btnRegular
 	slot3 = slot2
 	slot2 = slot2.Find
-	slot4 = "title_selected/arrow"
+	slot4 = "arr"
 	slot2 = slot2(slot3, slot4)
 	slot3 = slot0.btnSub
 	slot4 = slot3
 	slot3 = slot3.Find
-	slot5 = "title_selected/arrow"
+	slot5 = "arr"
 	slot3 = slot3(slot4, slot5)
 	slot4 = setActive
 	slot5 = slot2
@@ -4549,6 +4469,8 @@ function slot1(slot0, slot1)
 		slot5.y = slot6
 		slot3.localPosition = slot5
 	end
+
+	return
 end
 
 slot0.tweenTabArrow = slot1
@@ -4588,6 +4510,8 @@ function slot1(slot0, slot1, slot2)
 			slot2[slot6] = slot9
 		end
 	end
+
+	return
 end
 
 slot0.recycleCharacterList = slot1
@@ -4609,6 +4533,8 @@ function slot1(slot0)
 			slot11(slot12)
 		end
 	end
+
+	return
 end
 
 slot0.recyclePainting = slot1
@@ -4635,6 +4561,8 @@ function slot1(slot0)
 
 		slot1(slot2)
 	end
+
+	return
 end
 
 slot0.onBackPressed = slot1
@@ -4747,6 +4675,8 @@ function slot1(slot0)
 		slot1 = nil
 		slot0.eventTriggers = slot1
 	end
+
+	return
 end
 
 slot0.willExit = slot1

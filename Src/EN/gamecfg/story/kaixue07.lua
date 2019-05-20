@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> VII   「The Start Of A New School Year」</size>",
+					"School Day Celebrations\n\n<size=45> VII   「The Start Of A New School Year」</size>",
 					1
 				}
 			}
@@ -549,7 +549,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"

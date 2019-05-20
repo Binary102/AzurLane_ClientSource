@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Gentle and Sweet Ooshio!\n\n<size=30>Time for Overtime!</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=45>Time for Overtime!</size>",
 					1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

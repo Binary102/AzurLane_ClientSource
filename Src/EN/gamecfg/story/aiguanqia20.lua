@@ -29,8 +29,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -153,14 +153,14 @@ return {
 					expression = 1,
 					actor = 10400030,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					expression = 6,
 					actor = 10400040,
 					pos = {
-						x = 850
+						x = 1275
 					}
 				}
 			},
@@ -382,26 +382,26 @@ return {
 				}
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 403030,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201120,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 307050,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},
@@ -580,8 +580,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,

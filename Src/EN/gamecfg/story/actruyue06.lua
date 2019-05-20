@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"炎夏的火锅大会？！\n\n<size=30>六  不分时节的美味</size>",
+					"炎夏的火锅大会？！\n\n<size=45>六  不分时节的美味</size>",
 					1
 				}
 			}
@@ -82,7 +82,7 @@ return {
 				{
 					actor = 301331,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

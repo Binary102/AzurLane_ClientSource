@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Holy Night of Love and Peace\n\n<size=30>Chapter 4 - A Very Sakura Empire Christmas (Part 2)</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 4 - A Very Sakura Empire Christmas (Part 2)</size>",
 					1
 				}
 			}
@@ -40,7 +40,7 @@ return {
 				{
 					actor = 305022,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

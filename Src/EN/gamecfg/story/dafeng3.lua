@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=30>三 天敌(?)登场</size>",
+					"“献身”的{namecode:97}\n\n<size=45>三 天敌(?)登场</size>",
 					1
 				}
 			}
@@ -75,11 +75,11 @@ return {
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
-				y = -500
+				y = -750
 			},
 			action = {
 				{
-					y = 500,
+					y = 750,
 					type = "move",
 					delay = 0,
 					dur = 0.3,
@@ -113,7 +113,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -177,7 +177,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -279,7 +279,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.3,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -349,7 +349,7 @@ return {
 					type = "move",
 					delay = 0.8,
 					dur = 0.5,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -381,7 +381,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -425,7 +425,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

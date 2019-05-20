@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 6: Enemies! The identity of the legendary idol is...?!</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 6: Enemies! The identity of the legendary idol is...?!</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -183,7 +183,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -242,7 +242,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -322,7 +322,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -385,7 +385,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 40,
+					x = 60,
 					number = 2
 				}
 			}

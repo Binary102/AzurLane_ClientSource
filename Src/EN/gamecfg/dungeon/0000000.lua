@@ -72,33 +72,13 @@ return {
 					}
 				},
 				{
-					triggerType = 6,
-					waveIndex = 886,
+					triggerType = 1,
+					waveIndex = 885,
 					preWaves = {
 						887
 					},
 					triggerParams = {
-						id = 1
-					}
-				},
-				{
-					triggerType = 1,
-					waveIndex = 885,
-					preWaves = {
-						886
-					},
-					triggerParams = {
 						timeout = 3
-					}
-				},
-				{
-					triggerType = 6,
-					waveIndex = 884,
-					preWaves = {
-						885
-					},
-					triggerParams = {
-						event = "BattleScene1"
 					}
 				},
 				{

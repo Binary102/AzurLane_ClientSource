@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"“献身”的{namecode:97}\n\n<size=30>四 同盟(?)结成</size>",
+					"“献身”的{namecode:97}\n\n<size=45>四 同盟(?)结成</size>",
 					1
 				}
 			}
@@ -136,7 +136,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
@@ -199,7 +199,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

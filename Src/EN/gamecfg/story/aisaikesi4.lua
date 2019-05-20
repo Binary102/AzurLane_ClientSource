@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前辈与心结\n\n<size=30>四　Essex vs Enterprise</size>",
+					"前辈与心结\n\n<size=45>四　Essex vs Enterprise</size>",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "埃塞克斯&企业",
-			say = "<size=30>哈啊啊啊啊啊！！！</size>",
+			say = "<size=45>哈啊啊啊啊啊！！！</size>",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 					dir = 107060,
 					actor = 107060,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},

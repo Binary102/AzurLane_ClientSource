@@ -6,7 +6,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.painting = findTF(slot0.tr, "bg/mask/painting")
 	slot0.nameBar = findTF(slot0.tr, "bg/desc/name_bar")
 	slot0.name = findTF(slot0.nameBar, "name")
-	slot0.scrollName = ScrollTxt.New(slot0.nameBar, slot0.name, true)
 	slot0.effectBar = findTF(slot0.tr, "bg/desc/effect_bar")
 	slot0.effect = findTF(slot0.effectBar, "effect")
 	slot0.bgUsing = findTF(slot0.tr, "bg/bg_using")
@@ -16,6 +15,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.picPropose = findTF(slot0.bgMark, "bg/pic_propose")
 	slot0.outline = findTF(slot0.tr, "bg/outline")
 	slot0.tags = findTF(slot0.tr, "bg/tags")
+	slot0.timelimitTag = findTF(slot0.tr, "bg/timelimit")
+	slot0.timelimitTimeTxt = findTF(slot0.tr, "bg/timelimit_time")
+
+	setActive(slot0.timelimitTag, false)
+	setActive(slot0.timelimitTimeTxt, false)
 end
 
 function slot0.updateSkin(slot0, slot1, slot2)
@@ -84,7 +88,7 @@ function slot0.updateData(slot0, slot1, slot2, slot3)
 
 		setActive(slot0.nameBar, true)
 		setActive(slot0.effectBar, false)
-		slot0.scrollName:setText(HXSet.hxLan(slot2.name))
+		setText(slot0.name, HXSet.hxLan(slot2.name))
 
 		slot4 = slot0.skin.id == slot0.ship:getConfig("skin_id")
 
@@ -138,6 +142,27 @@ function slot0.updateData(slot0, slot1, slot2, slot3)
 			return
 		end)
 		slot0:flushSkin()
+		setActive(slot0.timelimitTag, getProxy(ShipSkinProxy):getSkinById(slot0.skin.id) and slot6:isExpireType() and not slot6:isExpired())
+		setActive(slot0.timelimitTimeTxt, getProxy(ShipSkinProxy).getSkinById(slot0.skin.id) and slot6.isExpireType() and not slot6.isExpired())
+
+		if slot6.isExpireType() then
+			slot7 = not slot6.isExpired()
+		end
+
+		if slot0.skinTimer then
+			slot0.skinTimer:Stop()
+		end
+
+		if slot7 then
+			slot0.skinTimer = Timer.New(function ()
+				setText(slot1.timelimitTimeTxt:Find("Text"), skinTimeStamp(slot0:getRemainTime()))
+
+				return
+			end, 1, -1)
+
+			slot0.skinTimer:Start()
+			slot0.skinTimer.func()
+		end
 	end
 end
 
@@ -179,21 +204,11 @@ function slot0.clearPainting(slot0)
 end
 
 function slot0.loadPainting(slot0)
-	slot1 = nil
-
-	if HXSet.isHx() then
-		slot1 = slot0.skin.painting
-	else
-		if slot0.skin.painting_hx == "" or not slot0.skin.painting_hx then
-			slot1 = slot0.skin.painting
-		end
+	if not slot0.skin or not slot0.skin.painting then
+		slot1 = "unknown"
 	end
 
-	if not slot1 then
-		slot2 = "unknown"
-	end
-
-	slot0.paintingName = slot2
+	slot0.paintingName = slot1
 
 	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
 
@@ -207,7 +222,11 @@ function slot0.clear(slot0)
 	slot0.selected = nil
 	slot0.using = nil
 
-	slot0.scrollName:destroy()
+	if slot0.skinTimer then
+		slot0.skinTimer:Stop()
+
+		slot0.skinTimer = nil
+	end
 
 	return
 end

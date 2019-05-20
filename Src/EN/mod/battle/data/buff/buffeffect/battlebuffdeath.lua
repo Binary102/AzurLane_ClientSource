@@ -16,7 +16,6 @@ function ys.Battle.BattleBuffDeath.SetArgs(slot0, slot1, slot2)
 	slot0._maxY = slot3.maxY
 	slot0._minY = slot3.minY
 	slot0._countType = slot3.countType
-	slot0._hpRatioList = slot3.hpRatioList or {}
 end
 
 function ys.Battle.BattleBuffDeath.onUpdate(slot0, slot1, slot2, slot3)

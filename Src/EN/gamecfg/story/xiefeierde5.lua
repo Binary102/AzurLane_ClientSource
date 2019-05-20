@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Loaded with Lead and Love\n\n<size=30>Chapter 5 - Weekend Rendezvous</size>",
+					"Loaded with Lead and Love\n\n<size=45>Chapter 5 - Weekend Rendezvous</size>",
 					1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

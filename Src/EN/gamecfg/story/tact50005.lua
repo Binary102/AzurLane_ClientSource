@@ -74,7 +74,7 @@ return {
 					actor = 303010,
 					dir = 1,
 					pos = {
-						x = 650
+						x = 975
 					}
 				}
 			},

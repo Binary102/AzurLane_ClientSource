@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=30>三 缘由</size>",
+					"{namecode:71}的宴会\n\n<size=45>三 缘由</size>",
 					1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -217,7 +217,7 @@ return {
 				{
 					actor = 304030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -329,7 +329,7 @@ return {
 				{
 					actor = 304030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -426,7 +426,7 @@ return {
 		},
 		action = {
 			{
-				y = -50,
+				y = -75,
 				type = "move",
 				delay = 0,
 				dur = 0.3,

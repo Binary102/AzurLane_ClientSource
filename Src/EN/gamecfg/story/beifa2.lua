@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Miniature Head Maid\n\n<size=30>Chapter 2 - Accidents Have Consequences</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 2 - Accidents Have Consequences</size>",
 					1
 				}
 			}
@@ -405,7 +405,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

@@ -110,9 +110,11 @@ function slot0.updateChapters(slot0, slot1)
 end
 
 function slot0.isClear(slot0)
-	for slot4, slot5 in pairs(slot0.chapters) do
-		if not slot5:isClear() then
-			return false
+	if slot0:getMapType() == slot0.SCENARIO or slot1 == slot0.ACTIVITY_EASY then
+		for slot5, slot6 in pairs(slot0.chapters) do
+			if not slot6:isClear() then
+				return false
+			end
 		end
 	end
 

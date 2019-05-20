@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Lively Afternoon Tea Party V\n\n<size=30>「Afternoon Nap Time」</size>",
+					"Lively Afternoon Tea Party V\n\n<size=45>「Afternoon Nap Time」</size>",
 					1
 				}
 			}

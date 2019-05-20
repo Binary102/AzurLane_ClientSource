@@ -66,9 +66,9 @@ function slot0.execute(slot0, slot1)
 
 								slot16:updateShip(slot17)
 							elseif slot14 == ShipBluePrint.STRENGTHEN_TYPE_SKIN then
-								if not getProxy(BayProxy):hasSkin(slot13[2]) then
-									slot15:addSkin(slot13[2])
-								end
+								getProxy(ShipSkinProxy).addSkin(slot15, ShipSkin.New({
+									id = slot13[2]
+								}))
 
 								slot16 = pg.ship_skin_template[slot13[2]].name
 

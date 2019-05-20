@@ -5,7 +5,7 @@ pg.activity_event_blackwhite = {
 		random = 0,
 		story = "AIJINGHUA1",
 		num = 3,
-		condition = "Complete SP1 with 3 stars to unlock ",
+		condition = "三星通关SP1后解锁",
 		id = 1,
 		unlock = {
 			0,
@@ -293,7 +293,7 @@ pg.activity_event_blackwhite = {
 		random = 0,
 		story = "AIJINGHUA2",
 		num = 3,
-		condition = "Complete SP2 with 3 stars to unlock ",
+		condition = "三星通关SP2后解锁",
 		id = 2,
 		unlock = {
 			1,
@@ -581,7 +581,7 @@ pg.activity_event_blackwhite = {
 		random = 0,
 		story = "AIJINGHUA3",
 		num = 3,
-		condition = "Complete SP3 with 3 stars to unlock ",
+		condition = "三星通关SP3后解锁",
 		id = 3,
 		unlock = {
 			2,
@@ -869,7 +869,7 @@ pg.activity_event_blackwhite = {
 		random = 0,
 		story = "AIJINGHUA4",
 		num = 3,
-		condition = "Complete SP4 with 3 stars to unlock ",
+		condition = "三星通关SP4后解锁",
 		id = 4,
 		unlock = {
 			3,
@@ -1157,7 +1157,7 @@ pg.activity_event_blackwhite = {
 		random = 1,
 		story = "",
 		num = 3,
-		condition = "Unlock after completing \nPurification Virtual Space No 1-4 ",
+		condition = "完成净化空间NO1-4后解锁",
 		id = 5,
 		unlock = {
 			4,

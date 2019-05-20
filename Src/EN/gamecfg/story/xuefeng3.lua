@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Call me Yukikaze the Great!\"\n\n<size=30> Chapter 3: Shigure, Nemesis!?</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=45> Chapter 3: Shigure, Nemesis!?</size>",
 					1
 				}
 			}
@@ -34,7 +34,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -60,7 +60,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -81,7 +81,7 @@ return {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -95,7 +95,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -125,7 +125,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -155,7 +155,7 @@ return {
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -173,7 +173,7 @@ return {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -187,7 +187,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -217,7 +217,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -247,7 +247,7 @@ return {
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -265,7 +265,7 @@ return {
 				{
 					actor = 301160,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -279,7 +279,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -290,7 +290,7 @@ return {
 		},
 		{
 			{
-				y = 25,
+				y = 37.5,
 				type = "shake",
 				delay = 0,
 				dur = 0.1,
@@ -316,7 +316,7 @@ return {
 		},
 		{
 			{
-				y = 25,
+				y = 37.5,
 				type = "shake",
 				delay = 0.5,
 				dur = 0.1,

@@ -14,17 +14,19 @@ end
 
 slot1 = {
 	"OPEN_RESUME",
-	"TOGGLE_BLACK",
 	"OPEND_FRIEND",
-	"OPEN_INFORM",
-	"OPEN_BACKYARD"
+	"OPEN_BACKYARD",
+	"TOGGLE_BLACK",
+	"OPEN_INFORM"
 }
 
 function slot0.init(slot0)
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
-		setParent(slot0._tf, pg.UIMgr:GetInstance().OverlayMain)
+		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+			groupName = slot0:getGroupNameFromData()
+		})
 	end
 
 	slot0.frame = slot0:findTF("frame")
@@ -79,16 +81,17 @@ function slot0.didEnter(slot0)
 		slot0.btnTFs[slot5] = slot7
 	end
 
-	setActive(slot0.btnTFs[4], slot0.contextData.msg)
-	setButtonEnabled(slot0.btnTFs[3], not slot0.friendProxy:isFriend(slot0.friend.id))
+	setActive(slot0.btnTFs[5], slot0.contextData.msg)
+	setButtonEnabled(slot0.btnTFs[2], not slot0.friendProxy:isFriend(slot0.friend.id))
 	slot0:updateBlack()
 
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
-		setActive(slot0.btnTFs[5], false)
+		setActive(slot0.btnTFs[3], false)
 
-		slot0:findTF("frame").sizeDelta = Vector2(slot0.findTF("frame").sizeDelta.x - 80, slot0.findTF("frame").sizeDelta.y)
+		slot0:findTF("frame").sizeDelta = Vector2(slot0.findTF("frame").sizeDelta.x, slot0.findTF("frame").sizeDelta.y - 66.7)
 	end
 
+	setActive(slot0:findTF("frame/left_bg", false))
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
@@ -174,8 +177,8 @@ function slot0.initInfo(slot0)
 end
 
 function slot0.updateBlack(slot0)
-	setActive(findTF(slot0.btnTFs[2], "black"), not (slot0.friendProxy:getBlackPlayerById(slot0.friend.id) ~= nil))
-	setActive(findTF(slot0.btnTFs[2], "unblack"), slot0.friendProxy.getBlackPlayerById(slot0.friend.id) ~= nil)
+	setActive(findTF(slot0.btnTFs[4], "black"), not (slot0.friendProxy:getBlackPlayerById(slot0.friend.id) ~= nil))
+	setActive(findTF(slot0.btnTFs[4], "unblack"), slot0.friendProxy.getBlackPlayerById(slot0.friend.id) ~= nil)
 end
 
 function slot0.willExit(slot0)

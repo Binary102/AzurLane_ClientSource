@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Flower Festival\n\n<size=30>Chapter 1 - Spring Springs Forth</size>",
+					"Flower Festival\n\n<size=45>Chapter 1 - Spring Springs Forth</size>",
 					1
 				}
 			}

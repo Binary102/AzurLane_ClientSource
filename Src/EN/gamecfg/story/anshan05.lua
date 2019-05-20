@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Shan's Coloring Book\n\n<size=30>Chapter 5 - An Shan's Drawing Book</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 5 - An Shan's Drawing Book</size>",
 					1
 				}
 			}
@@ -46,13 +46,13 @@ return {
 				{
 					actor = 501020,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 501030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -77,7 +77,7 @@ return {
 				{
 					actor = 502020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

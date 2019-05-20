@@ -78,6 +78,10 @@ function slot8.GetInitData(slot0)
 	return slot0._battleInitData
 end
 
+function slot8.GetDungeonData(slot0)
+	return slot0._dungeonInfo
+end
+
 function slot8.InitData(slot0, slot1)
 	slot0.FrameIndex = 1
 	slot0._friendlyCode = 1
@@ -254,6 +258,12 @@ function slot8.DeactiveProxy(slot0)
 end
 
 function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
+	if slot0._battleInitData.battleType == SYSTEM_SUBMARINE_RUN then
+		for slot8, slot9 in ipairs(slot4) do
+			slot0:SpawnManualSub(slot9, slot3)
+		end
+	end
+
 	for slot8, slot9 in ipairs(slot2) do
 		slot10 = slot0:SpawnVanguard(slot9, slot3)
 	end
@@ -466,8 +476,8 @@ function slot8.Update(slot0, slot1)
 
 	for slot5, slot6 in pairs(slot0._foeShipList) do
 		if slot6:GetPosition().x + slot6:GetBoxSize().x < slot0._leftZoneLeftBound then
-			slot6:DeadAction()
 			slot6:SetDeathReason(slot0.UnitDeathReason.TOUCHDOWN)
+			slot6:DeadAction()
 			slot0:KillUnit(slot6:GetUniqueID())
 			slot0:HandleShipMissDamage(slot6, slot0._fleetList[slot2.FRIENDLY_CODE])
 		end
@@ -526,73 +536,93 @@ function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4)
 		}
 	end
 
-	slot8 = slot0.CreateBattleUnitData(slot5, slot3, slot4, slot1.monsterTemplateID, nil, slot7, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, nil)
+	slot9 = slot6.random_equipment_list
 
-	slot8:SetPosition(slot9)
-	slot8:SetAI(slot1.pilotAITemplateID or slot6.pilot_ai_template_id)
-	slot0:setShipUnitBound(slot8)
+	if slot6.random_nub ~= nil and slot9 ~= nil then
+		if slot8 > #slot9 then
+			for slot13, slot14 in ipairs(slot9) do
+				slot7[#slot7 + 1] = {
+					id = slot14
+				}
+			end
+		else
+			for slot13 = 1, slot8, 1 do
+				slot7[#slot7 + 1] = {
+					id = slot9[math.random(1, #slot9)]
+				}
+
+				table.remove(slot9, math.random(1, #slot9))
+			end
+		end
+	end
+
+	slot10 = slot0.CreateBattleUnitData(slot5, slot3, slot4, slot1.monsterTemplateID, nil, slot7, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, nil)
+
+	slot10:SetPosition(slot11)
+	slot10:SetAI(slot1.pilotAITemplateID or slot6.pilot_ai_template_id)
+	slot0:setShipUnitBound(slot10)
 
 	if table.contains(TeamType.SubShipType, slot6.type) then
-		slot8:InitOxygen()
+		slot10:InitOxygen()
 		slot0:UpdateHostileSubmarine(true)
 	end
 
-	slot0._freeShipList[slot5] = slot8
-	slot0._unitList[slot5] = slot8
+	slot0._freeShipList[slot5] = slot10
+	slot0._unitList[slot5] = slot10
 
-	slot0._cldSystem:InitShipCld(slot8)
-	slot8:SummonSickness(slot2.SUMMONING_SICKNESS_DURATION)
+	slot0._cldSystem:InitShipCld(slot10)
+	slot10:SummonSickness(slot2.SUMMONING_SICKNESS_DURATION)
 
 	if slot1.moveCast then
-		slot8:SetMoveCast()
+		slot10:SetMoveCast()
 	end
 
-	if slot8:GetIFF() == slot3.FRIENDLY_CODE then
-		slot0._friendlyShipList[slot5] = slot8
+	if slot10:GetIFF() == slot3.FRIENDLY_CODE then
+		slot0._friendlyShipList[slot5] = slot10
 	else
-		slot0._foeShipList[slot5] = slot8
+		slot0._foeShipList[slot5] = slot10
 
-		slot8:SetWaveIndex(slot2)
+		slot10:SetWaveIndex(slot2)
 	end
 
 	if slot1.reinforce then
-		slot8:Reinforce()
+		slot10:Reinforce()
 	end
 
 	if slot1.reinforceDelay then
-		slot8:SetReinforceCastTime(slot1.reinforceDelay)
+		slot10:SetReinforceCastTime(slot1.reinforceDelay)
 	end
 
 	if slot1.team then
-		slot0:GetNPCTeam(slot1.team):AppendUnit(slot8)
+		slot0:GetNPCTeam(slot1.team):AppendUnit(slot10)
 	end
 
 	if slot1.phase then
-		slot4.Battle.BattleUnitPhaseSwitcher.New(slot8):SetTemplateData(slot1.phase)
+		slot4.Battle.BattleUnitPhaseSwitcher.New(slot10):SetTemplateData(slot1.phase)
 	end
 
 	slot0:DispatchEvent(slot4.Event.New(slot5.ADD_UNIT, {
 		type = slot3,
-		unit = slot8,
+		unit = slot10,
 		bossData = slot1.bossData,
 		extraInfo = slot1.extraInfo
 	}))
 
-	slot11 = slot1.buffList or {}
+	slot13 = slot1.buffList or {}
 
-	for slot15, slot16 in ipairs(slot11) do
-		slot8:AddBuff(slot4.Battle.BattleBuffUnit.New(slot16))
+	for slot17, slot18 in ipairs(slot13) do
+		slot10:AddBuff(slot4.Battle.BattleBuffUnit.New(slot18))
 	end
 
-	slot12 = slot0._battleInitData.affixBuffList or {}
+	slot14 = slot0._battleInitData.AffixBuffList or {}
 
 	if slot1.affix then
-		for slot16, slot17 in ipairs(slot12) do
-			slot8:AddBuff(slot4.Battle.BattleBuffUnit.New(slot17))
+		for slot18, slot19 in ipairs(slot14) do
+			slot10:AddBuff(slot4.Battle.BattleBuffUnit.New(slot19))
 		end
 	end
 
-	slot8:CheckWeaponInitial()
+	slot10:CheckWeaponInitial()
 end
 
 function slot8.UpdateHostileSubmarine(slot0, slot1)
@@ -681,6 +711,19 @@ function slot8.SpawnSub(slot0, slot1, slot2)
 	end
 end
 
+function slot8.SpawnManualSub(slot0, slot1, slot2)
+	slot4 = slot0:generatePlayerUnit(slot1, slot2, BuildVector3(slot3), slot0._commanderBuff)
+
+	slot0:GetFleetByIFF(slot2).AddManualSubmarine(slot5, slot4)
+	slot0._cldSystem:InitShipCld(slot4)
+	slot0:DispatchEvent(slot1.Event.New(slot2.ADD_UNIT, {
+		type = slot0.UnitType.PLAYER_UNIT,
+		unit = slot4
+	}))
+
+	return slot4
+end
+
 function slot8.ShutdownPlayerUnit(slot0, slot1)
 	slot4 = slot0:GetFleetByIFF(slot3)
 
@@ -766,7 +809,7 @@ end
 
 function slot8.KillSubmarineByIFF(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._unitList) do
-		if slot6:GetIFF() == slot1 and slot6:IsAlive() and not slot6:IsBoss() and table.contains(TeamType.SubShipType, slot6:GetTemplate().type) then
+		if slot6:GetIFF() == slot1 and slot6:IsAlive() and table.contains(TeamType.SubShipType, slot6:GetTemplate().type) and not slot6:IsBoss() then
 			slot6:DeadAction()
 		end
 	end
@@ -1323,10 +1366,6 @@ function slot8.RemoveWall(slot0, slot1)
 	return
 end
 
-function slot8.GetWallList(slot0)
-	return slot0._wallList
-end
-
 function slot8.SpawnShelter(slot0, slot1, slot2)
 	slot0._shelterList[slot0:GernerateShelterID()] = slot0.Battle.BattleShelterData.New(slot3)
 
@@ -1342,6 +1381,10 @@ function slot8.RemoveShelter(slot0, slot1)
 	slot0._shelterList[slot1] = nil
 
 	return
+end
+
+function slot8.GetWallList(slot0)
+	return slot0._wallList
 end
 
 function slot8.GenerateWallID(slot0)
@@ -1406,28 +1449,6 @@ function slot8.SubmarineStrike(slot0, slot1)
 	slot2:SubWarcry()
 	slot2:GetSubList()[1].TriggerBuff(slot5, slot0.BuffEffectType.ON_SUB_LEADER)
 	slot2:GetSubAidVO():Cast()
-
-	return
-end
-
-function slot8.KizunaJamming(slot0)
-	for slot4, slot5 in pairs(slot0._fleetList) do
-		slot5:Jamming(true)
-	end
-
-	slot0:BlockManualCast(true)
-	slot0:DispatchEvent(slot0.Event.New(slot1.KIZUNA_JAMMING))
-
-	return
-end
-
-function slot8.KizunaJammingEliminate(slot0)
-	for slot4, slot5 in pairs(slot0._fleetList) do
-		slot5:Jamming(false)
-	end
-
-	slot0:BlockManualCast(false)
-	slot0:DispatchEvent(slot0.Event.New(slot1.KIZUNA_JAMMING_ELIMINATE))
 
 	return
 end

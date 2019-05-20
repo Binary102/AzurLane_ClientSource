@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=30>二　潜水体操！</size>",
+					"大青花鱼的“陷阱”\n\n<size=45>二　潜水体操！</size>",
 					1
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -100,7 +100,7 @@ return {
 				{
 					actor = 108010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.5,
@@ -146,7 +146,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -174,7 +174,7 @@ return {
 				{
 					actor = 308010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -188,7 +188,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -248,7 +248,7 @@ return {
 				{
 					actor = 408030,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -262,7 +262,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -320,7 +320,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -465,7 +465,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

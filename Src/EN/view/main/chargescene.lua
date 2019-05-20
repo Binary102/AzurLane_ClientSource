@@ -1,8 +1,9 @@
 slot0 = class("ChargeScene", import("..base.BaseUI"))
-slot0.TYPE_SKIN = 1
-slot0.TYPE_DIAMOND = 2
-slot0.TYPE_GIFT = 3
-slot0.TYPE_ITEM = 4
+slot0.TYPE_MENU = 1
+slot0.TYPE_SKIN = 2
+slot0.TYPE_DIAMOND = 3
+slot0.TYPE_GIFT = 4
+slot0.TYPE_ITEM = 5
 slot1 = pg.skin_page_template
 
 function slot0.getUIName(slot0)
@@ -33,57 +34,49 @@ function slot0.setNormalGroupList(slot0, slot1)
 	slot0:addRefreshTimer(GetZeroTime())
 end
 
-function slot0.setDailyPayList(slot0, slot1)
-	slot0.dailyPayList = slot1
-end
-
-function slot0.setSkinList(slot0, slot1)
-	slot0.skinList = slot1
-end
-
-function slot0.uiStartAnimating(slot0)
-	setAnchoredPosition(slot0.top, {
-		y = slot0.top.transform.rect.height
-	})
-	shiftPanel(slot0.top, nil, 0, slot2, slot1, true, true)
-
-	slot0.tweens = topAnimation(slot0:findTF("left_top/left", slot0.top), slot0:findTF("left_top/right", slot0.top), slot0:findTF("left_top/title", slot0.top), slot0:findTF("left_top/activity", slot0.top), nil, function ()
-		slot0.tweens = nil
-	end)
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.top, nil, slot0.top.transform.rect.height, 0.3, 0, true, true)
-end
-
 function slot0.init(slot0)
 	slot0.cards = {}
-	slot0.detail = slot0:findTF("frame/top/detail")
-
-	setActive(findTF(slot0.detail, "skin_window"), false)
-
-	slot0.togglePanel = slot0:findTF("frame/bottom/toggle_list")
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
+	slot0.detail = slot0:findTF("detail", slot0.blurPanel)
+	slot0.frame = slot0:findTF("frame")
 	slot0.viewContainer = slot0:findTF("frame/viewContainer")
+	slot0.bg = slot0:findTF("frame/viewContainer/bg")
+	slot0.painting = slot0:findTF("frame/painting")
+	slot0.chat = slot0:findTF("frame/painting/chat")
+	slot0.chatText = slot0:findTF("Text", slot0.chat)
+	slot0.menu = slot0:findTF("menu_screen")
+	slot0.itemToggle = slot0:findTF("toggle_list/item_toggle", slot0.viewContainer)
+	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
+	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
 	slot0.resPanel = PlayerResource.New()
 
-	slot0.resPanel:setParent(slot0:findTF("frame/top/res"), false)
+	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
 
-	slot0.top = slot0:findTF("frame/top")
-	slot0.frame = slot0:findTF("frame")
-	slot0.painting = slot0:findTF("frame/painting")
-	slot0.chat = slot0:findTF("frame/chat")
-	slot0.chatText = slot0:findTF("Text", slot0.chat)
-	slot0.bg = slot0:findTF("frame/viewContainer/bg")
-	slot0.skinSortBtn = slot0:findTF("frame/sort_btn")
-	slot0.skinSortPanel = slot0:findTF("skin_index_panel")
-
-	setActive(slot0.skinSortPanel, false)
-	setActive(slot0.skinSortBtn, false)
-	setActive(slot0.chat, false)
-
+	slot0.linkPage = {
+		1,
+		1,
+		slot0:findTF("diamondPanel", slot0.viewContainer),
+		slot0:findTF("giftPanel", slot0.viewContainer),
+		slot0:findTF("itemPanel", slot0.viewContainer)
+	}
+	slot0.linkTitle = {
+		slot0:findTF("title/title_shop", slot0.top),
+		1,
+		slot0:findTF("title/title_diamond", slot0.top),
+		slot0:findTF("title/title_gift", slot0.top),
+		slot0:findTF("title/title_item", slot0.top)
+	}
+	slot0.toggleList = {
+		1,
+		1,
+		slot0.diamondToggle,
+		slot0.giftToggle,
+		slot0.itemToggle
+	}
 	slot0.cvBankName = "cv-chargeShop"
 
-	slot0:createLive2D("mingshi")
+	slot0:createLive2D()
 
 	slot0.live2dTimer = Timer.New(function ()
 		if slot0:checkBuyDone(pg.ChargeShipTalkInfo.Actions[math.random(#pg.ChargeShipTalkInfo.Actions)].action) then
@@ -92,115 +85,68 @@ function slot0.init(slot0)
 	end, 20, -1)
 
 	slot0.live2dTimer:Start()
-
-	if isAiriUS() then
-		slot0.userAgreeContainer = slot0:findTF("frame/agreement")
-	end
 end
 
 function slot0.didEnter(slot0)
-	slot0:uiStartAnimating()
-	onButton(slot0, slot0.skinSortBtn, function ()
-		slot0:openSkinSortPanel()
-	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("frame/top/left_top/btnBack"), function ()
-		slot0:uiExitAnimating()
-		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.2)
+	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
+		if slot0.prePage ~= slot1.TYPE_MENU then
+			slot0:switchToMenu()
+		else
+			slot0:emit(slot1.ON_BACK, nil, 0.2)
+		end
 	end, SFX_CANCEL)
-	onButton(slot0, slot0:findTF("frame/switch_btn"), function ()
-		slot0:emit(ChargeMediator.SWITCH_TO_SHOP)
-		slot0.emit:stopCV()
-	end, SFX_PANEL)
 	onButton(slot0, slot0.painting, function ()
 		slot0:displayShipWord()
 		slot0.displayShipWord:emit(ChargeMediator.CLICK_MING_SHI)
 	end, SFX_PANEL)
-	slot0:setItemVOs()
 
-	slot0.toggles = {}
+	for slot4 = 1, #slot0.toggleList, 1 do
+		if slot0.toggleList[slot4] ~= 1 then
+			onToggle(slot0, slot0.toggleList[slot4], function (slot0)
+				setActive(slot0:findTF("dark", slot0.findTF), not slot0)
 
-	for slot4 = 1, 4, 1 do
-		table.insert(slot0.toggles, slot5)
-		onToggle(slot0, slot0.togglePanel:GetChild(slot4 - 1), function (slot0)
-			if slot0 then
-				slot0:switchPage(slot0.switchPage)
-			end
-		end, SFX_PANEL)
+				if slot0 then
+					slot0:goPage(slot0.goPage)
+				end
+			end, SFX_PANEL)
+		end
 	end
 
-	triggerToggle(slot0.toggles[slot0.contextData.wrap or slot0.TYPE_DIAMOND], true)
+	onButton(slot0, slot0:findTF("skin_shop", slot0.menu), function ()
+		slot0:jumpToSkinShop()
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("dimond_shop", slot0.menu), function ()
+		slot0:switchPage(slot1.TYPE_DIAMOND)
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("item_shop", slot0.menu), function ()
+		slot0:switchPage(slot1.TYPE_ITEM)
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("gift_shop", slot0.menu), function ()
+		slot0:switchPage(slot1.TYPE_GIFT)
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("supply_shop", slot0.menu), function ()
+		slot0:emit(ChargeMediator.SWITCH_TO_SHOP, {
+			chargePage = slot1.TYPE_DIAMOND
+		})
+		slot0.emit:stopCV()
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("switch_btn", slot0.frame), function ()
+		slot0:emit(ChargeMediator.SWITCH_TO_SHOP, {
+			chargePage = slot0.prePage
+		})
+		slot0.emit:stopCV()
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("skin_btn", slot0.frame), function ()
+		slot0:emit(ChargeMediator.ON_SKIN_SHOP)
+	end, SFX_PANEL)
+	slot0:setItemVOs()
 	slot0:updateNoRes()
 
-	if isAiriUS() then
+	if slot0.contextData.wrap ~= nil then
+		slot0:switchPage(slot0.contextData.wrap)
+	else
+		slot0:switchPage(slot0.TYPE_MENU)
 	end
-end
-
-function slot0.activeUserAgree(slot0, slot1, slot2)
-	SetActive(slot0.userAgreeContainer, slot2)
-
-	if slot2 then
-		setText(slot0:findTF("container/scrollrect/content/Text", slot0.userAgreeContainer), slot1)
-		scrollTo(slot0:findTF("container/scrollrect", slot0.userAgreeContainer), 0, 1)
-	end
-end
-
-function slot0.checkSetBirth(slot0)
-	if isAiriUS() and not AiriSdkMgr.AiriSDKInst.IsBirthSet then
-		setActive(slot0.birthWin, true)
-
-		slot0.birthTxt.text = ""
-
-		return false
-	end
-
-	return true
-end
-
-function slot0.openSkinSortPanel(slot0)
-	setActive(slot0.skinSortPanel, true)
-
-	slot0.isOpenSkinSortPanel = true
-
-	if not slot0.isInitSkinSortPanel then
-		slot0.isInitSkinSortPanel = true
-
-		onButton(slot0, slot0.skinSortPanel, function ()
-			slot0:closeSkinSortPanel()
-		end, SFX_PANEL)
-
-		slot1 = UIItemList.New(slot0:findTF("content", slot0.skinSortPanel), slot0:findTF("content/tpl", slot0.skinSortPanel))
-
-		slot1:make(function (slot0, slot1, slot2)
-			if slot0 == UIItemList.EventUpdate then
-				slot3, slot4 = nil
-
-				if slot1 == 0 then
-					slot4 = slot1
-					slot3 = GetSpriteFromAtlas("indextext", "index_skin_all")
-				else
-					slot3 = GetSpriteFromAtlas("indextext", "index_skin_" .. slot0[slot0.all[slot1]].res)
-				end
-
-				setImageSprite(slot2:Find("Image"), slot3, true)
-				onToggle(slot1, slot2, function (slot0)
-					if slot0 then
-						slot0.contextData.skinSortId = slot0.contextData
-
-						slot0:updateSkinPage()
-						setImageSprite(slot0.skinSortBtn:Find("Image"), , true)
-						slot0:closeSkinSortPanel()
-					end
-				end, SFX_PANEL)
-			end
-		end)
-		slot1:align(#slot0.all + 1)
-	end
-end
-
-function slot0.closeSkinSortPanel(slot0)
-	setActive(slot0.skinSortPanel, false)
-
-	slot0.isOpenSkinSortPanel = false
 end
 
 function slot0.triggerPageToggle(slot0, slot1)
@@ -208,21 +154,62 @@ function slot0.triggerPageToggle(slot0, slot1)
 		return
 	end
 
-	for slot5, slot6 in pairs(slot0.toggles) do
-		if slot6:GetComponent("Toggle").isOn then
-			triggerToggle(slot6, false)
-		end
-	end
+	slot0:switchPage(slot1)
+end
 
-	triggerToggle(slot0.toggles[slot1], true)
+function slot0.jumpToSkinShop(slot0)
+	slot0.timer = Timer.New(function ()
+		slot0:emit(ChargeMediator.ON_SKIN_SHOP)
+	end, 0.2, 1):Start()
 end
 
 function slot0.switchPage(slot0, slot1)
+	if slot0.toggleList[slot1] ~= 1 then
+		for slot5, slot6 in ipairs(slot0.toggleList) do
+			if slot6 ~= 1 then
+				triggerToggle(slot6, slot5 == slot1)
+			end
+		end
+	else
+		if slot1 == slot0.TYPE_MENU then
+			slot0:switchToMenu()
+		else
+			slot0:goPage(slot1)
+		end
+	end
+
+	return
+end
+
+function slot0.switchToMenu(slot0)
+	slot0:unBlurView()
+	setActive(slot0.frame, false)
+	setActive(slot0.menu, true)
+
+	slot0.prePage = slot0.TYPE_MENU
+	slot0.contextData.page = slot0.TYPE_MENU
+
+	slot0:ChangeTitle(slot0.prePage)
+
+	return
+end
+
+function slot0.goPage(slot0, slot1)
+	if slot1 == slot0.TYPE_MENU then
+		return
+	end
+
 	slot0.contextData.page = slot1
 
-	if slot1 == slot0.TYPE_DIAMOND or slot1 == slot0.TYPE_GIFT then
-		print(slot0.chargedList, slot0.firstChargeIds)
+	if slot0.prePage and slot0.prePage == slot1 then
+		return
+	end
 
+	setActive(slot0.frame, true)
+	setActive(slot0.menu, false)
+	slot0:blurView()
+
+	if slot1 == slot0.TYPE_DIAMOND then
 		if not slot0.isInitDamonds then
 			slot0:initDamonds()
 		end
@@ -230,19 +217,47 @@ function slot0.switchPage(slot0, slot1)
 		if slot0.chargedList and slot0.firstChargeIds then
 			slot0:sortDamondItems(0)
 		end
-	elseif slot1 == slot0.TYPE_SKIN then
-		if not slot0.isInitDamonds then
-			slot0:initDamonds()
-		end
+	else
+		if slot1 == slot0.TYPE_GIFT then
+			if not slot0.isInitDamonds then
+				slot0:initDamonds()
+			end
 
-		slot0:updateSkinPage()
-	elseif slot1 == slot0.TYPE_ITEM and not slot0.isInitItems then
-		slot0:initItems()
+			if slot0.chargedList and slot0.firstChargeIds then
+				slot0:sortDamondItems(0)
+			end
+		else
+			if slot1 == slot0.TYPE_SKIN then
+				slot0:jumpToSkinShop()
+			else
+				if slot1 == slot0.TYPE_ITEM and not slot0.isInitItems then
+					slot0:initItems()
+				end
+			end
+		end
 	end
 
-	setActive(slot0.skinSortBtn, not LOCK_SKIN_SORT and slot1 == slot0.TYPE_SKIN)
+	for slot5, slot6 in ipairs(slot0.linkPage) do
+		if slot6 ~= 1 then
+			setActive(slot6, slot5 == slot1)
+		end
+	end
+
+	slot0:ChangeTitle(slot1)
 
 	slot0.prePage = slot1
+
+	return
+end
+
+function slot0.ChangeTitle(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.linkTitle) do
+		if slot6 ~= 1 then
+			setActive(slot6, slot5 == slot1)
+		end
+	end
+
+	return
 end
 
 function slot0.initRect(slot0, slot1, slot2, slot3)
@@ -250,10 +265,14 @@ function slot0.initRect(slot0, slot1, slot2, slot3)
 
 	function slot4.onInitItem(slot0)
 		slot0(slot0)
+
+		return
 	end
 
 	function slot4.onUpdateItem(slot0, slot1)
 		slot0(slot0, slot1)
+
+		return
 	end
 
 	return slot4
@@ -278,6 +297,8 @@ function slot0.initDamondsData(slot0)
 			}, Goods.TYPE_GIFT_PACKAGE))
 		end
 	end
+
+	return
 end
 
 function slot0.initDamonds(slot0)
@@ -286,17 +307,22 @@ function slot0.initDamonds(slot0)
 	slot0:initDamondsData()
 
 	slot0.damondItems = {}
-	slot0.diamondRect = slot0:initRect(slot0.viewContainer:Find("diamondPanel"), function (slot0)
+	slot0.diamondRect = slot0:initRect(slot0.viewContainer:Find("diamondPanel"), slot1, slot2)
+	slot0.giftRect = slot0:initRect(slot0.viewContainer:Find("giftPanel"), function (slot0)
 		slot1 = slot0:createGoods(slot0)
 
 		onButton(slot0, slot1.tr, function ()
 			slot0:confirm(slot0)
+
+			return
 		end, SFX_PANEL)
 		onButton(slot0, slot1.mask, function ()
 			return
 		end, SFX_PANEL)
 
 		slot0.damondItems[slot0] = slot1
+
+		return
 	end, function (slot0, slot1)
 		if not slot0.damondItems[slot1] then
 			slot1(slot1)
@@ -304,8 +330,14 @@ function slot0.initDamonds(slot0)
 			slot2 = slot0.damondItems[slot1]
 		end
 
-		slot2:update(slot0.tempDamondVOs[slot0 + 1], slot0.player, slot0.firstChargeIds)
+		if slot0.tempDamondVOs[slot0 + 1] then
+			slot2:update(slot3, slot0.player, slot0.firstChargeIds)
+		end
+
+		return
 	end)
+
+	return
 end
 
 function slot0.confirm(slot0, slot1)
@@ -358,38 +390,28 @@ function slot0.confirm(slot0, slot1)
 				onYes = function ()
 					slot0:emit(ChargeMediator.CHARGE, slot1.goods.id)
 					SetActive(slot0.detail, false)
-					pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
+					SetActive:revertDetailBlur()
+
+					return
 				end
 			})
-		elseif slot1.goods:isGem() then
-			slot0:showItemDetail({
-				isChargeType = true,
-				icon = "chargeicon/" .. slot1.goods:getConfig("picture"),
-				name = slot1.goods:getConfig("name"),
-				price = slot1.goods:getConfig("money"),
-				tagType = slot4,
-				normalTip = i18n("charge_start_tip", slot1.goods:getConfig("money"), (slot3 and slot1.goods:getConfig("gem") + slot1.goods:getConfig("gem")) or slot1.goods.getConfig("gem") + slot1.goods:getConfig("extra_gem")),
-				onYes = function ()
-					slot0:emit(ChargeMediator.CHARGE, slot1.goods.id)
-					SetActive(slot0.detail, false)
-					pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
-				end
-			})
-		end
-	elseif slot1.goods.type == Goods.TYPE_SKIN then
-		slot3 = pg.ship_skin_template[slot1.goods:getConfig("effect_args")[1]]
-		slot4 = slot1.goods.buyCount or 0
+		else
+			if slot1.goods:isGem() then
+				slot0:showItemDetail({
+					isChargeType = true,
+					icon = "chargeicon/" .. slot1.goods:getConfig("picture"),
+					name = slot1.goods:getConfig("name"),
+					price = slot1.goods:getConfig("money"),
+					tagType = slot4,
+					normalTip = i18n("charge_start_tip", slot1.goods:getConfig("money"), (slot3 and slot1.goods:getConfig("gem") + slot1.goods:getConfig("gem")) or slot1.goods.getConfig("gem") + slot1.goods:getConfig("extra_gem")),
+					onYes = function ()
+						slot0:emit(ChargeMediator.CHARGE, slot1.goods.id)
+						SetActive(slot0.detail, false)
+						SetActive:revertDetailBlur()
 
-		if slot4 == 0 then
-			slot0:showSkinDetail(slot1.goods)
-		end
-	elseif slot1.goods.type == Goods.TYPE_ACTIVITY or slot1.goods.type == Goods.TYPE_ACTIVITY_EXTRA then
-		if slot1.goods:getConfig("commodity_type") == DROP_TYPE_SKIN then
-			slot3 = pg.ship_skin_template[slot1.goods:getConfig("commodity_id")]
-			slot4 = slot1.goods.buyCount or 0
-
-			if slot4 == 0 then
-				slot0:showSkinDetail(slot1.goods)
+						return
+					end
+				})
 			end
 		end
 	else
@@ -418,17 +440,27 @@ function slot0.confirm(slot0, slot1)
 				pg.MsgboxMgr:GetInstance():ShowMsgBox({
 					content = i18n("charge_scene_buy_confirm", slot0.goods:getConfig("resource_num"), slot1.name),
 					onYes = function ()
-						slot0:emit(ChargeMediator.BUY_ITEM, slot1.goods.id, 1)
+						slot0:revertDetailBlur()
+						slot0.revertDetailBlur:emit(ChargeMediator.BUY_ITEM, slot1.goods.id, 1)
 						SetActive(slot0.detail, false)
-						pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
+
+						return
 					end
 				})
+
+				return
 			end
 		})
 	end
+
+	return
 end
 
 function slot0.sortDamondItems(slot0, slot1)
+	if slot0.damondItemVOs == nil then
+		return
+	end
+
 	if slot0.contextData.page ~= slot0.TYPE_DIAMOND and slot2 ~= slot0.TYPE_GIFT then
 		return
 	end
@@ -436,42 +468,38 @@ function slot0.sortDamondItems(slot0, slot1)
 	slot0.tempDamondVOs = {}
 
 	for slot6, slot7 in ipairs(slot0.damondItemVOs) do
-		print(slot7.id, "---------------------------")
-
 		if slot7:isChargeType() then
-			if slot7:getConfig("limit_type") == 99 then
-				slot7:updateBuyCount(slot0:getDailyBuyCount(slot7.id))
-			else
-				slot7:updateBuyCount(slot0:getBuyCount(slot0.chargedList, slot7.id))
-			end
+			slot7:updateBuyCount(slot0:getBuyCount(slot0.chargedList, slot7.id))
 
 			if slot2 == slot0.TYPE_DIAMOND and (slot7:isMonthCard() or slot7:isGem() or slot7:isGiftBox()) then
-				print(slot7.id, "-----------------", slot7:canPurchase(), "============", slot7:inTime())
-
 				if slot7:canPurchase() and slot7:inTime() then
 					table.insert(slot0.tempDamondVOs, slot7)
 				end
-			elseif slot2 == slot0.TYPE_GIFT and slot7:isItemBox() and slot7:canPurchase() and slot7:inTime() then
-				table.insert(slot0.tempDamondVOs, slot7)
+			else
+				if slot2 == slot0.TYPE_GIFT and slot7:isItemBox() and slot7:canPurchase() and slot7:inTime() then
+					table.insert(slot0.tempDamondVOs, slot7)
+				end
 			end
-		elseif not slot7:isChargeType() and slot2 == slot0.TYPE_GIFT and not slot7:isLevelLimit(slot0.player.level, true) then
-			slot7:updateBuyCount(slot0:getBuyCount(slot0.normalList, slot7.id))
+		else
+			if not slot7:isChargeType() and slot2 == slot0.TYPE_GIFT and not slot7:isLevelLimit(slot0.player.level, true) then
+				slot7:updateBuyCount(slot0:getBuyCount(slot0.normalList, slot7.id))
 
-			slot9 = false
+				slot9 = false
 
-			if (slot7:getConfig("group") or 0) > 0 then
-				slot7:updateGroupCount(slot0:getGroupLimit(slot8))
+				if (slot7:getConfig("group") or 0) > 0 then
+					slot7:updateGroupCount(slot0:getGroupLimit(slot8))
 
-				slot9 = slot7:getConfig("group_limit") > 0 and slot10 <= slot11
-				slot10, slot11 = pg.TimeMgr.GetInstance():inTime(slot7:getConfig("time"))
-			end
+					slot9 = slot7:getConfig("group_limit") > 0 and slot10 <= slot11
+					slot10, slot11 = pg.TimeMgr.GetInstance():inTime(slot7:getConfig("time"))
+				end
 
-			if slot11 then
-				slot0:addUpdateTimer(slot11)
-			end
+				if slot11 then
+					slot0:addUpdateTimer(slot11)
+				end
 
-			if slot10 and slot7:canPurchase() and not slot9 then
-				table.insert(slot0.tempDamondVOs, slot7)
+				if slot10 and slot7:canPurchase() and not slot9 then
+					table.insert(slot0.tempDamondVOs, slot7)
+				end
 			end
 		end
 	end
@@ -505,85 +533,16 @@ function slot0.sortDamondItems(slot0, slot1)
 
 		return slot0.id < slot1.id
 	end)
-	slot0.diamondRect:SetTotalCount(#slot0.tempDamondVOs, slot1 or slot0.diamondRect.value)
-end
 
-function slot0.updateSkinPage(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(pg.shop_template.all) do
-		if pg.shop_template[slot6].genre == "skin_shop" then
-			slot7:updateBuyCount((table.contains(slot0.skinList, Goods.New({
-				shop_id = slot6
-			}, Goods.TYPE_SKIN).getConfig(slot7, "effect_args")[1]) and 1) or 0)
-
-			slot10, slot11 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot6].time)
-
-			if slot11 then
-				slot0:addUpdateTimer(slot11)
-			end
-
-			if slot10 then
-				table.insert(slot1, slot7)
-
-				slot12, slot13 = pg.TimeMgr.GetInstance():inTime(slot7:getConfig("discount_time"))
-
-				if slot13 then
-					slot0:addUpdateTimer(slot13)
-				end
-			end
+	if slot2 == slot0.TYPE_DIAMOND then
+		slot0.diamondRect:SetTotalCount(#slot0.tempDamondVOs, slot0.diamondRect.value)
+	else
+		if slot2 == slot0.TYPE_GIFT then
+			slot0.giftRect:SetTotalCount(#slot0.tempDamondVOs, slot0.diamondRect.value)
 		end
 	end
 
-	slot2 = getProxy(ActivityProxy)
-
-	for slot6, slot7 in ipairs(pg.activity_shop_template.all) do
-		if pg.activity_shop_template[slot7].commodity_type == DROP_TYPE_SKIN and slot2:getActivityById(slot8.activity) and not slot9:isEnd() then
-			slot10:updateBuyCount((table.contains(slot0.skinList, Goods.New({
-				shop_id = slot7
-			}, Goods.TYPE_ACTIVITY).getConfig(slot10, "commodity_id")) and 1) or 0)
-			table.insert(slot1, slot10)
-		end
-	end
-
-	for slot6, slot7 in ipairs(pg.activity_shop_extra.all) do
-		if pg.activity_shop_extra[slot7].commodity_type == DROP_TYPE_SKIN then
-			slot9 = slot2:getActivityById(slot8.activity)
-
-			if (slot8.activity == 0 and pg.TimeMgr.GetInstance():inTime(slot8.time)) or (slot9 and not slot9:isEnd()) then
-				slot10:updateBuyCount((table.contains(slot0.skinList, Goods.New({
-					shop_id = slot7
-				}, Goods.TYPE_ACTIVITY_EXTRA).getConfig(slot10, "commodity_id")) and 1) or 0)
-				table.insert(slot1, slot10)
-			end
-		end
-	end
-
-	slot3 = slot0.contextData.skinSortId or 0
-
-	for slot7 = #slot1, 1, -1 do
-		print(slot1[slot7]:getSkinId())
-
-		if pg.ship_skin_template[slot1[slot7].getSkinId()].shop_type_id ~= slot3 and slot3 ~= 0 and (slot9.shop_type_id ~= 0 or slot3 ~= 9999) then
-			table.remove(slot1, slot7)
-		end
-	end
-
-	table.sort(slot1, function (slot0, slot1)
-		if (slot0.buyCount or 0) == (slot1.buyCount or 0) then
-			if slot0:getConfig("order") == slot1:getConfig("order") then
-				return slot0.id < slot1.id
-			else
-				return slot4 < slot5
-			end
-		else
-			return slot2 < slot3
-		end
-	end)
-
-	slot0.tempDamondVOs = slot1
-
-	slot0.diamondRect:SetTotalCount(#slot0.tempDamondVOs, 0)
+	return
 end
 
 function slot0.createGoods(slot0, slot1)
@@ -601,6 +560,8 @@ function slot0.setItemVOs(slot0)
 			}, Goods.TYPE_MILITARY))
 		end
 	end
+
+	return
 end
 
 function slot0.initItems(slot0)
@@ -632,60 +593,71 @@ function slot0.initItems(slot0)
 					type = DROP_TYPE_ITEM,
 					id = Goods.SHIP_BAG_SIZE_ITEM
 				})["id"]
-			elseif slot0 == "equip_bag_size" then
-				if Player.MAX_EQUIP_BAG <= slot1.player.equip_bag_max then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("charge_equip_bag_max"))
-
-					return
-				end
-
-				slot2 = ({
-					count = 1,
-					type = DROP_TYPE_ITEM,
-					id = Goods.EQUIP_BAG_SIZE_ITEM
-				})["id"]
-			elseif slot0 == "commander_bag_size" then
-				if Player.MAX_COMMANDER_BAG <= slot1.player.commanderBagMax then
-					pg.TipsMgr:GetInstance():ShowTips(i18n("charge_commander_bag_max"))
-
-					return
-				end
-
-				slot2 = ({
-					count = 1,
-					type = DROP_TYPE_ITEM,
-					id = Goods.COMMANDER_BAG_SIZE_ITEM
-				})["id"]
 			else
-				slot2 = (slot0.goodsVO:getConfig("type") ~= DROP_TYPE_RESOURCE or id2ItemId(({
-					id = slot0.goodsVO:getConfig("effect_args")[1],
-					type = slot0.goodsVO:getConfig("type"),
-					count = slot0.goodsVO:getConfig("num")
-				})["id"])) and ()["id"]
+				if slot0 == "equip_bag_size" then
+					if Player.MAX_EQUIP_BAG <= slot1.player.equip_bag_max then
+						pg.TipsMgr:GetInstance():ShowTips(i18n("charge_equip_bag_max"))
 
-				pg.MsgboxMgr.GetInstance():showSingleItemBox({
-					hideLine = true,
-					yesText = "text_buy",
-					drop = ,
-					onYes = function ()
-						if slot0 then
-							pg.MsgboxMgr.GetInstance():ShowMsgBox({
-								content = i18n("charge_scene_buy_confirm", slot1.goodsVO:getConfig("resource_num"), Item.New({
-									id = slot0
-								}):getConfig("name")),
-								onYes = function ()
-									slot0:emit(ChargeMediator.BUY_ITEM, slot1.goodsVO.id, 1)
-								end
-							})
-						end
+						return
 					end
-				})
 
-				return
+					slot2 = ({
+						count = 1,
+						type = DROP_TYPE_ITEM,
+						id = Goods.EQUIP_BAG_SIZE_ITEM
+					})["id"]
+				else
+					if slot0 == "commander_bag_size" then
+						if Player.MAX_COMMANDER_BAG <= slot1.player.commanderBagMax then
+							pg.TipsMgr:GetInstance():ShowTips(i18n("charge_commander_bag_max"))
+
+							return
+						end
+
+						slot2 = ({
+							count = 1,
+							type = DROP_TYPE_ITEM,
+							id = Goods.COMMANDER_BAG_SIZE_ITEM
+						})["id"]
+					else
+						slot2 = (slot0.goodsVO:getConfig("type") ~= DROP_TYPE_RESOURCE or id2ItemId(({
+							id = slot0.goodsVO:getConfig("effect_args")[1],
+							type = slot0.goodsVO:getConfig("type"),
+							count = slot0.goodsVO:getConfig("num")
+						})["id"])) and ()["id"]
+
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							hideLine = true,
+							yesText = "text_buy",
+							type = MSGBOX_TYPE_SINGLE_ITEM,
+							drop = ,
+							onYes = function ()
+								if slot0 then
+									pg.MsgboxMgr.GetInstance():ShowMsgBox({
+										content = i18n("charge_scene_buy_confirm", slot1.goodsVO:getConfig("resource_num"), Item.New({
+											id = slot0
+										}):getConfig("name")),
+										onYes = function ()
+											slot0:emit(ChargeMediator.BUY_ITEM, slot1.goodsVO.id, 1)
+
+											return
+										end
+									})
+								end
+
+								return
+							end
+						})
+
+						return
+					end
+				end
 			end
 		end)
 
 		slot0.itemGos[slot0] = slot1
+
+		return
 	end, function (slot0, slot1)
 		if not slot0.itemGos[slot1] then
 			slot1(slot1)
@@ -696,19 +668,13 @@ function slot0.initItems(slot0)
 		slot2:update(slot3)
 		slot2:setLevelMask(slot0.player.level)
 		slot2:setGroupMask(slot0:getGroupLimit(slot0.itemVOs[slot0 + 1]:getConfig("group")))
+
+		return
 	end)
 
 	slot0:sortItems()
-end
 
-function slot0.updateItemVO(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.itemVOs) do
-		if slot1.id == slot6.id then
-			slot0.itemVOs[slot5] = slot1
-		end
-	end
-
-	slot0:sortItems()
+	return
 end
 
 function slot0.sortItems(slot0)
@@ -720,13 +686,17 @@ function slot0.sortItems(slot0)
 		return slot2 < slot3
 	end)
 	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
+
+	return
 end
 
 function slot0.closeItemDetail(slot0)
-	if slot0.detail then
+	if slot0.detail and isActive(slot0.detail) then
 		SetActive(slot0.detail, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
+		slot0:revertDetailBlur()
 	end
+
+	return
 end
 
 function slot0.showItemDetail(slot0, slot1)
@@ -775,6 +745,8 @@ function slot0.showItemDetail(slot0, slot1)
 		if slot0 then
 			slot0.detailIconTF.sprite = slot0
 		end
+
+		return
 	end)
 	setText(slot0.detailName, slot3)
 	setActive(slot0.detailRmb, slot9)
@@ -828,23 +800,30 @@ function slot0.showItemDetail(slot0, slot1)
 
 			setText(slot17:Find("name"), slot19)
 			onButton(slot0, slot17, function ()
-				pg.MsgboxMgr.GetInstance():showSingleItemBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					hideNo = true,
+					type = MSGBOX_TYPE_SINGLE_ITEM,
 					drop = slot0[pg.MsgboxMgr.GetInstance()]
 				})
+
+				return
 			end, SFX_PANEL)
 		end
 	end
 
 	onButton(slot0, slot0:findTF("button_container/button_cancel", slot0.detailWindow), function ()
 		SetActive(slot0.detail, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
+		SetActive:revertDetailBlur()
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("button_container/button_ok", slot0.detailWindow), slot1.onYes or function ()
 		return
 	end, SFX_PANEL)
 	setActive(slot0.detail, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.top)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
+
+	return
 end
 
 function slot0.bindDetailTF(slot0, slot1)
@@ -879,160 +858,8 @@ function slot0.bindDetailTF(slot0, slot1)
 	end
 
 	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
-end
 
-function slot0.showSkinDetail(slot0, slot1)
-	if not slot0.skinWindow then
-		slot0.skinWindow = {
-			tf = findTF(slot0.detail, "skin_window"),
-			tag = findTF(()["tf"], "goods/tag"),
-			tagDiscount = findTF(()["tf"], "goods/tag/discount"),
-			character = findTF(()["tf"], "goods/character"),
-			name = findTF(()["tf"], "goods/name"),
-			diamond = findTF(()["tf"], "prince_bg/diamond"),
-			price = findTF(()["tf"], "prince_bg/diamond/Text"),
-			activity = findTF(()["tf"], "prince_bg/activity"),
-			desc = findTF(()["tf"], "NormalTips/Text"),
-			confirm = findTF(()["tf"], "button_container/button_ok"),
-			cancel = findTF(()["tf"], "button_container/button_cancel"),
-			confirm_buy = findTF(()["confirm"], "buy"),
-			confirm_go = findTF(()["confirm"], "go"),
-			discount = findTF(()["tf"], "prince_bg/diamond/dicount"),
-			tags = findTF(()["tf"], "tags")
-		}
-	end
-
-	setActive(slot0:findTF("window2", slot0.detail), false)
-	setActive(slot0:findTF("window", slot0.detail), false)
-	setActive(slot2.diamond, false)
-	setActive(slot2.activity, false)
-	setActive(slot2.confirm_buy, false)
-	setActive(slot2.confirm_go, false)
-
-	slot3 = 0
-	slot4 = 0
-	slot5 = 0
-
-	if slot1.type == Goods.TYPE_SKIN then
-		slot3 = slot1:getConfig("effect_args")[1]
-		slot4 = slot1:getConfig("tag")
-
-		setActive(slot2.diamond, true)
-
-		slot5 = slot1:getConfig("resource_num")
-
-		if slot1:isDisCount() then
-			slot5 = slot5 * (100 - slot1:getConfig("discount")) / 100
-
-			setText(slot2.discount, slot1:getConfig("resource_num"))
-
-			slot4 = 7
-
-			setText(slot2.tagDiscount, slot1:getConfig("discount") .. " %OFF")
-		end
-
-		setActive(slot2.discount, slot6)
-		setText(slot2.price, slot5)
-		setActive(slot2.confirm_buy, true)
-	elseif slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA then
-		slot3 = slot1:getConfig("commodity_id")
-		slot4 = 5
-
-		setActive(slot2.activity, true)
-		setActive(slot2.confirm_go, true)
-	end
-
-	setActive(slot2.tag, slot4 > 0)
-
-	if slot4 > 0 then
-		for slot9 = slot2.tag.childCount - 1, 0, -1 do
-			setActive(slot2.tag:GetChild(slot9), slot9 + 1 == slot4)
-		end
-	end
-
-	slot2.prefabName = pg.ship_skin_template[slot3].prefab
-
-	PoolMgr.GetInstance():GetSpineChar(pg.ship_skin_template[slot3].prefab, true, function (slot0)
-		if slot0.prefab ~= slot1.prefabName then
-			PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab, slot0)
-		else
-			setParent(slot0, slot1.character, false)
-
-			slot0.name = slot0.prefab
-			slot0.transform.localScale = Vector3(0.5, 0.5, 1)
-
-			slot0:GetComponent(typeof(SpineAnimUI)):SetAction(slot0.show_skin or "stand", 0)
-		end
-	end)
-	setText(slot2.name, HXSet.hxLan(pg.ship_skin_template[slot3].name))
-	setActive(slot2.tags, true)
-
-	for slot10 = 0, slot2.tags.childCount - 1, 1 do
-		setActive(slot2.tags:GetChild(slot10), false)
-	end
-
-	_.each(slot6.tag, function (slot0)
-		setActive(slot0.tags:Find("tag" .. slot0), true)
-	end)
-	setTextEN(slot2.desc, HXSet.hxLan(slot7))
-
-	if #slot2.desc:GetComponent(typeof(Text)).text > 50 then
-		slot8.alignment = TextAnchor.MiddleLeft
-	else
-		slot8.alignment = TextAnchor.MiddleCenter
-	end
-
-	function slot0.skinWindow.closeWindow()
-		if slot0.prefabName then
-			if not IsNil(findTF(slot0.character, slot0.prefabName)) then
-				PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.gameObject)
-			end
-
-			slot0.prefabName = nil
-		end
-
-		setActive(slot0.tf, false)
-		SetActive(slot0.tf.detail, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot1.top, slot1.frame)
-	end
-
-	onButton(slot0, slot2.confirm, function ()
-		slot0.skinWindow.closeWindow()
-
-		if slot1.type == Goods.TYPE_SKIN then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("charge_scene_buy_confirm", , HXSet.hxLan(slot3.name)),
-				onYes = function ()
-					slot0:emit(ChargeMediator.BUY_ITEM, slot1.id, 1)
-				end
-			})
-		else
-			slot0.contextData.wrap = slot4.TYPE_SKIN
-
-			if slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA then
-				slot0 = slot1:getConfig("time")
-				slot2 = getProxy(ActivityProxy):getActivityById(slot1:getConfig("activity"))
-
-				if (slot1.getConfig("activity") == 0 and pg.TimeMgr.GetInstance():inTime(slot0)) or (slot2 and not slot2:isEnd()) then
-					if slot1.type == Goods.TYPE_ACTIVITY then
-						slot0:emit(ChargeMediator.GO_SHOPS_LAYER)
-					elseif slot1.type == Goods.TYPE_ACTIVITY_EXTRA then
-						if slot1:getConfig("scene") and #slot3 > 0 then
-							slot0:emit(ChargeMediator.OPEN_SCENE, slot3)
-						else
-							slot0:emit(ChargeMediator.OPEN_ACTIVITY, slot1)
-						end
-					end
-				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_not_start"))
-				end
-			end
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot2.cancel, slot0.skinWindow.closeWindow, SFX_PANEL)
-	setActive(slot2.tf, true)
-	setActive(slot0.detail, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.top)
+	return
 end
 
 function slot0.getBuyCount(slot0, slot1, slot2)
@@ -1041,16 +868,6 @@ function slot0.getBuyCount(slot0, slot1, slot2)
 	end
 
 	return (slot1[slot2] and slot3.buyCount) or 0
-end
-
-function slot0.getDailyBuyCount(slot0, slot1)
-	if slot0.dailyPayList == nil then
-		return 0
-	elseif slot0.dailyPayList[slot1] ~= nil then
-		return slot0.dailyPayList[slot1]
-	end
-
-	return 0
 end
 
 function slot0.getGroupLimit(slot0, slot1)
@@ -1109,6 +926,8 @@ function slot0.updateNoRes(slot0, slot1)
 	else
 		slot0:displayShipWord(i18n("text_shop_noRes_tip", slot4), true)
 	end
+
+	return
 end
 
 function slot0.displayShipWord(slot0, slot1, slot2, slot3)
@@ -1149,13 +968,21 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 						if setActive.contextData.noRes and #slot0.contextData.noRes > 0 then
 							slot0:updateNoRes()
 						end
+
+						return
 					end))
 				else
 					slot1.chatFlag = nil
 				end
+
+				return
 			end))
+
+			return
 		end()
 	end
+
+	return
 end
 
 function slot0.playHeartEffect(slot0)
@@ -1167,9 +994,13 @@ function slot0.playHeartEffect(slot0)
 
 	slot0.heartsTimer = Timer.New(function ()
 		setActive(setActive, false)
+
+		return
 	end, 1, 1)
 
 	slot0.heartsTimer:Start()
+
+	return
 end
 
 function slot0.addRefreshTimer(slot0, slot1)
@@ -1182,10 +1013,14 @@ function slot0.addRefreshTimer(slot0, slot1)
 		else
 			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end
+
+		return
 	end, 1, -1)
 
 	slot0.refreshTimer:Start()
 	slot0.refreshTimer.func()
+
+	return
 end
 
 function slot0.addUpdateTimer(slot0, slot1)
@@ -1202,17 +1037,16 @@ function slot0.addUpdateTimer(slot0, slot1)
 	slot0.updateTimer = Timer.New(function ()
 		if slot0:LaterThan(os.server_date("*t", slot0:GetServerTime()), slot0.LaterThan) then
 			slot2:removeUpdateTimer()
-
-			if slot2.contextData.page == slot3.TYPE_SKIN then
-				slot2:updateSkinPage()
-			else
-				slot2:sortDamondItems()
-			end
+			slot2:sortDamondItems()
 		end
+
+		return
 	end, 1, -1)
 
 	slot0.updateTimer:Start()
 	slot0.updateTimer.func()
+
+	return
 end
 
 function slot0.removeUpdateTimer(slot0)
@@ -1221,46 +1055,25 @@ function slot0.removeUpdateTimer(slot0)
 
 		slot0.updateTimer = nil
 	end
+
+	return
 end
 
-function slot0.createLive2D(slot0, slot1)
-	if slot0.l2dChar then
-		pg.Live2DMgr.GetInstance():AddRefCount(slot0.l2dChar.name)
-		Destroy(slot0.l2dChar.gameObject)
+function slot0.createLive2D(slot0)
+	slot0.live2dChar = Live2D.New(Live2D.live2dData({
+		ship = Ship.New({
+			configId = 312011
+		}),
+		scale = Vector3(75, 75, 75),
+		position = Vector3(0, 0, 100),
+		parent = slot0:findTF("frame/painting/live2d")
+	}))
 
-		slot0.l2dChar = nil
-	end
-
-	pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot1, function (slot0)
-		if slot0.exited then
-			Destroy(slot0)
-
-			return
-		end
-
-		UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
-		setParent(slot0, slot2, true)
-
-		slot0.transform.localScale = Vector3(52, 52, 52)
-		slot0.transform.localPosition = Vector3(0, 0, 100)
-		slot0.l2dChar = GetComponent(slot0, "Live2dChar")
-		slot0.l2dChar.name = slot1
-
-		function slot0.l2dChar.FinishAction(slot0)
-			slot0.preAniName = nil
-
-			if slot0 ~= slot0 then
-				slot0.l2dChar:SetAction(slot0.l2dChar.SetAction)
-			end
-		end
-
-		slot0.l2dChar:SetAction(slot4)
-		setActive(slot0:findTF("frame/painting/live2d"), true)
-	end)
+	return
 end
 
 function slot0.checkBuyDone(slot0, slot1)
-	if not slot0.l2dChar then
+	if not slot0.live2dChar then
 		return
 	end
 
@@ -1272,10 +1085,12 @@ function slot0.checkBuyDone(slot0, slot1)
 		else
 			slot2 = slot1
 		end
-	elseif pg.shop_template[slot1] and slot3.effect_args and type(slot3.effect_args) == "table" then
-		for slot7, slot8 in ipairs(slot3.effect_args) do
-			if slot8 == 1 then
-				slot2 = "gold"
+	else
+		if pg.shop_template[slot1] and slot3.effect_args and type(slot3.effect_args) == "table" then
+			for slot7, slot8 in ipairs(slot3.effect_args) do
+				if slot8 == 1 then
+					slot2 = "gold"
+				end
 			end
 		end
 	end
@@ -1296,7 +1111,7 @@ function slot0.checkBuyDone(slot0, slot1)
 	if slot5 then
 		slot0.preAniName = slot2
 
-		slot0.l2dChar:SetAction(pg.AssistantInfo.action2Id[slot2])
+		slot0.live2dChar:TriggerAction(slot2, true)
 	end
 
 	return slot5
@@ -1314,6 +1129,8 @@ function slot0.playCV(slot0, slot1)
 			slot0:stopCV()
 
 			slot0.stopCV._currentVoice = playSoundEffect(playSoundEffect)
+
+			return
 		end
 
 		if slot0.loadedCVBankName then
@@ -1331,9 +1148,13 @@ function slot0.playCV(slot0, slot1)
 						slot1.loadedCVBankName = slot0
 					end
 				end
+
+				return
 			end)
 		end
 	end
+
+	return
 end
 
 function slot0.stopCV(slot0)
@@ -1342,27 +1163,51 @@ function slot0.stopCV(slot0)
 	end
 
 	slot0._currentVoice = nil
+
+	return
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.isOpenSkinSortPanel then
-		slot0:closeSkinSortPanel()
-
-		return
-	end
-
-	if slot0.skinWindow and isActive(slot0.skinWindow.tf) then
-		slot0.skinWindow.closeWindow()
-	elseif slot0.detail and isActive(slot0.detail) then
+	if slot0.detail and isActive(slot0.detail) then
 		setActive(slot0.detail, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
+		slot0:revertDetailBlur()
 	else
-		playSoundEffect(SFX_CANCEL)
-		slot0:emit(slot0.ON_BACK)
+		if slot0.prePage ~= slot0.TYPE_MENU then
+			slot0:switchToMenu()
+		else
+			playSoundEffect(SFX_CANCEL)
+			slot0:emit(slot0.ON_BACK)
+		end
 	end
+
+	return
+end
+
+function slot0.revertDetailBlur(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0._tf)
+
+	return
+end
+
+function slot0.blurView(slot0)
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.viewContainer, {
+		pbList = {
+			slot0:findTF("blurBg", slot0.viewContainer)
+		}
+	})
+
+	return
+end
+
+function slot0.unBlurView(slot0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.viewContainer, slot0.frame)
+
+	return
 end
 
 function slot0.willExit(slot0)
+	slot0:unBlurView()
+
 	for slot4, slot5 in ipairs(slot0.cards) do
 		slot5:dispose()
 	end
@@ -1390,8 +1235,6 @@ function slot0.willExit(slot0)
 		cancelTweens(slot0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.top, slot0.frame)
-	SetParent(slot0.viewContainer, slot0.frame)
 	slot0:removeUpdateTimer()
 
 	if slot0.heartsTimer then
@@ -1400,10 +1243,8 @@ function slot0.willExit(slot0)
 		slot0.heartsTimer = nil
 	end
 
-	if slot0.l2dChar then
-		pg.Live2DMgr.GetInstance():SubRefCount(slot0.l2dChar.name)
-
-		slot0.l2dChar = nil
+	if slot0.live2dChar then
+		slot0.live2dChar:Dispose()
 	end
 
 	if slot0.live2dTimer then
@@ -1419,6 +1260,8 @@ function slot0.willExit(slot0)
 
 		slot0.loadedCVBankName = nil
 	end
+
+	return
 end
 
 return slot0

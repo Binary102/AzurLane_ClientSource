@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Call me Yukikaze the Great!\"\n\n<size=30>Chapter 4: Yukikaze's Fan Club?</size>",
+					"\"Call me Yukikaze the Great!\"\n\n<size=45>Chapter 4: Yukikaze's Fan Club?</size>",
 					1
 				}
 			}

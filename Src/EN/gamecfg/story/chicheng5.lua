@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Red Spider Lily's Love\n\n<size=30>Chapter 5 - A Small Scar</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 5 - A Small Scar</size>",
 					1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			say = "Don't even think about running away. No matter what you believe, nobody loves you more than Akagi does... *Giggle*",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.5,
 					x = 0,

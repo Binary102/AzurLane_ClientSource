@@ -29,7 +29,7 @@ function slot1.GetDirection(slot0, slot1)
 		slot0:Finish()
 	end
 
-	return slot2.normalized
+	return slot2:SetNormalize()
 end
 
 return

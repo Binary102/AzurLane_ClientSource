@@ -196,12 +196,12 @@ return {
 			dir = 1,
 			bgm = "story-masazhusai",
 			actorName = "马萨诸塞&让巴尔",
-			say = "<size=44>放马过来吧，大洋彼岸“最强”的战列舰！！</size>",
+			say = "<size=66>放马过来吧，大洋彼岸“最强”的战列舰！！</size>",
 			subActors = {
 				{
 					actor = 905010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

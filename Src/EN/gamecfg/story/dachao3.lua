@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Gentle and Sweet Ooshio!\n\n<size=30>Fate or Miracle?</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=45>Fate or Miracle?</size>",
 					1
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -349,7 +349,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

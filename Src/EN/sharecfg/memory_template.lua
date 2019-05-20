@@ -591,7 +591,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 1",
 		story = "AKASHI1",
 		id = 62,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[63] = {
@@ -602,7 +602,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 2",
 		story = "AKASHI2",
 		id = 63,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[64] = {
@@ -613,7 +613,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 3",
 		story = "AKASHI3",
 		id = 64,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[65] = {
@@ -624,7 +624,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 4",
 		story = "AKASHI4",
 		id = 65,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[66] = {
@@ -635,7 +635,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 5-1",
 		story = "AKASHI5",
 		id = 66,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[67] = {
@@ -646,7 +646,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 5-2",
 		story = "AKASHI51",
 		id = 67,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[68] = {
@@ -657,7 +657,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 6 I",
 		story = "AKASHI6",
 		id = 68,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[69] = {
@@ -668,7 +668,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 6-2",
 		story = "AKASHI62",
 		id = 69,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[70] = {
@@ -679,7 +679,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 6-3",
 		story = "AKASHI63",
 		id = 70,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[71] = {
@@ -690,7 +690,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 6-4",
 		story = "AKASHI64",
 		id = 71,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[72] = {
@@ -701,7 +701,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 7-1",
 		story = "AKASHI7",
 		id = 72,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[73] = {
@@ -712,7 +712,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 7-2",
 		story = "AKASHI72",
 		id = 73,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[74] = {
@@ -723,7 +723,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-1",
 		story = "AKASHI8",
 		id = 74,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[75] = {
@@ -734,7 +734,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-2",
 		story = "AKASHI82",
 		id = 75,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[76] = {
@@ -745,7 +745,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-3",
 		story = "AKASHI83",
 		id = 76,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[77] = {
@@ -756,7 +756,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-4",
 		story = "AKASHI84",
 		id = 77,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[78] = {
@@ -767,7 +767,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-5",
 		story = "AKASHI85",
 		id = 78,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[79] = {
@@ -778,7 +778,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 8-6",
 		story = "AKASHI86",
 		id = 79,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[80] = {
@@ -789,7 +789,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 9",
 		story = "AKASHI9",
 		id = 80,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[81] = {
@@ -800,7 +800,7 @@ pg.memory_template = {
 		condition = "Accept {namecode:98} mission 10",
 		story = "AKASHI10",
 		id = 81,
-		icon = "akashi",
+		icon = "activity",
 		is_open = 0
 	},
 	[107] = {
@@ -4950,6 +4950,39 @@ pg.memory_template = {
 		icon = "memory_gangqutaoli",
 		is_open = 0
 	},
+	[775] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Sortie Begins",
+		condition = "Begin mission \"One Small Promise\"",
+		story = "BSMXU1",
+		id = 775,
+		icon = "memory_u556",
+		is_open = 0
+	},
+	[776] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "After the First Fight",
+		condition = "Proceed with mission \"One Small Promise\"",
+		story = "BSMXU2",
+		id = 776,
+		icon = "memory_u556",
+		is_open = 0
+	},
+	[777] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "When the Dust Settles",
+		condition = "Complete mission \"One Small Promise\"",
+		story = "BSMXU3",
+		id = 777,
+		icon = "memory_u556",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -5984,6 +6017,9 @@ pg.memory_template = {
 		765,
 		766,
 		767,
+		775,
+		776,
+		777,
 		10011,
 		10012,
 		10013,

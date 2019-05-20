@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=30>一　收藏室、崩坏</size>",
+					"{namecode:82}前辈的收藏大公开\n\n<size=45>一　收藏室、崩坏</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -92,7 +92,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -534,7 +534,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -560,7 +560,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -634,7 +634,7 @@ return {
 				{
 					actor = 307060,
 					pos = {
-						x = -400
+						x = -600
 					}
 				}
 			},
@@ -648,7 +648,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -656,11 +656,11 @@ return {
 					number = 2
 				},
 				{
-					y = -600,
+					y = -900,
 					type = "move",
 					delay = 0.5,
 					dur = 0.4,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
@@ -825,7 +825,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,

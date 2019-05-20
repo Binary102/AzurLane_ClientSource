@@ -163,33 +163,61 @@ slot0.updateShipBluePrintVO = slot7
 function slot7(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "main/top"
+	slot3 = "main"
 	slot1 = slot1(slot2, slot3)
-	slot0.topPanel = slot1
+	slot0.main = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "main/top/back"
-	slot1 = slot1(slot2, slot3)
-	slot0.backBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "main/center_panel"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "center_panel"
+	slot4 = slot0.main
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.centerPanel = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "main/left_panel"
+	slot3 = "blur_panel"
 	slot1 = slot1(slot2, slot3)
+	slot0.blurPanel = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "adapt"
+	slot4 = slot0.blurPanel
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.top = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "top"
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.topPanel = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "top_bg"
+	slot4 = slot0.blurPanel
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.topBg = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "top/back"
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.backBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "left_panel"
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.leftPanle = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "main/bottom_panel"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "bottom_panel"
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.bottomPanel = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "main/right_panel"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "right_panel"
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.rightPanel = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
@@ -228,13 +256,13 @@ function slot7(slot0)
 	slot0.nameTF = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "Text"
+	slot3 = "name_mask/Text"
 	slot4 = slot0.nameTF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.shipName = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "ship_type/type"
+	slot3 = "type"
 	slot4 = slot0.nameTF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.shipType = slot1
@@ -276,12 +304,6 @@ function slot7(slot0)
 	slot0.attrBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "property_panel/top/move"
-	slot4 = slot0.leftPanle
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.propertyMoveTF = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
 	slot3 = "property_panel/btns/attr_toggle/disable"
 	slot4 = slot0.leftPanle
 	slot1 = slot1(slot2, slot3, slot4)
@@ -295,7 +317,7 @@ function slot7(slot0)
 	slot1 = PropertyPanel
 	slot1 = slot1.New
 	slot2 = slot0.initPanel
-	slot3 = 21.5
+	slot3 = 32
 	slot1 = slot1(slot2, slot3)
 	slot0.propertyPanel = slot1
 	slot2 = slot0
@@ -330,7 +352,7 @@ function slot7(slot0)
 	slot0.skillArrRight = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "property_panel/init_panel/property_title/simulation"
+	slot3 = "property_panel/init_panel/property_title2/simulation"
 	slot4 = slot0.leftPanle
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.simulationBtn = slot1
@@ -501,7 +523,7 @@ function slot7(slot0)
 	slot0.itemInfoIcon = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "count"
+	slot3 = "kc/count"
 	slot4 = slot0.itemInfo
 	slot1 = slot1(slot2, slot3, slot4)
 	slot2 = slot1
@@ -653,7 +675,7 @@ function slot7(slot0)
 	slot0.fittingItemInfoIcon = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "label/count"
+	slot3 = "kc/count"
 	slot4 = slot0.fittingItemInfo
 	slot1 = slot1(slot2, slot3, slot4)
 	slot2 = slot1
@@ -677,7 +699,8 @@ function slot7(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "msg_panel"
-	slot1 = slot1(slot2, slot3)
+	slot4 = slot0.blurPanel
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.msgPanel = slot1
 	slot1 = setActive
 	slot2 = slot0.msgPanel
@@ -770,7 +793,8 @@ function slot7(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "helpBtn"
-	slot1 = slot1(slot2, slot3)
+	slot4 = slot0.top
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.helpBtn = slot1
 	slot1 = slot0.bottomPanel
 	slot1 = slot1.rect
@@ -792,6 +816,45 @@ end
 slot0.init = slot7
 
 function slot7(slot0)
+	slot1 = slot0.contextData
+	slot1 = slot1.shipBluePrintVO
+
+	if not slot1 then
+		slot1 = {
+			0,
+			0
+		}
+		slot2 = pairs
+		slot3 = slot0.bluePrintByIds
+		slot2, slot3, slot4 = slot2(slot3)
+
+		for slot5, slot6 in slot2, slot3, slot4 do
+			slot1[slot6.version] = slot1[slot6.version] + ((slot6.state == ShipBluePrint.STATE_UNLOCK and 1) or 0)
+			slot7 = slot6.state
+			slot8 = ShipBluePrint.STATE_DEV
+
+			if slot7 == slot8 then
+				slot0.contextData.shipBluePrintVO = slot0.contextData.shipBluePrintVO or slot6
+
+				break
+			end
+		end
+
+		slot2 = slot0.contextData
+		slot2 = slot2.shipBluePrintVO
+
+		if not slot2 then
+			slot0.version = (slot1[1] <= 4 and 1) or 2
+			slot3 = slot0
+			slot2 = slot0.emit
+			slot4 = ShipBluePrintMediator
+			slot4 = slot4.SET_TECHNOLOGY_VERSION
+			slot5 = slot0.version
+
+			slot2(slot3, slot4, slot5)
+		end
+	end
+
 	slot2 = slot0
 	slot1 = slot0.initShips
 
@@ -948,10 +1011,32 @@ function slot7(slot0)
 
 	slot1 = onButton
 	slot2 = slot0
+	slot3 = slot0.main
+
+	function slot4()
+		slot0 = slot0
+		slot0 = slot0.flag
+
+		if slot0 then
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.hideUI
+
+			slot0(slot1)
+		end
+	end
+
+	slot5 = SFX_PANEL
+
+	slot1(slot2, slot3, slot4, slot5)
+
+	slot1 = onButton
+	slot2 = slot0
 	slot3 = slot0.helpBtn
 
 	function slot4()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip[(isActive(slot0.fittingPanel) and "help_shipblueprintui_luck") or "help_shipblueprintui"].tip
 		})
 	end
@@ -959,6 +1044,42 @@ function slot7(slot0)
 	slot5 = SFX_PANEL
 
 	slot1(slot2, slot3, slot4, slot5)
+
+	slot1 = pg
+	slot1 = slot1.UIMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot2 = slot1
+	slot1 = slot1.OverlayPanelPB
+	slot3 = slot0.blurPanel
+	slot4 = {}
+	slot5 = {}
+	slot6 = slot0.rightPanel
+	slot7 = slot6
+	slot6 = slot6.Find
+	slot8 = "task_list"
+	slot6 = slot6(slot7, slot8)
+	slot5[1] = slot6
+	slot6 = slot0.rightPanel
+	slot7 = slot6
+	slot6 = slot6.Find
+	slot8 = "mod_panel"
+	slot6 = slot6(slot7, slot8)
+	slot5[2] = slot6
+	slot6 = slot0.leftPanle
+	slot7 = slot6
+	slot6 = slot6.Find
+	slot8 = "property_panel"
+	slot6 = slot6(slot7, slot8)
+	slot5[3] = slot6
+	slot6 = slot0.bottomPanel
+	slot7 = slot6
+	slot6 = slot6.Find
+	slot8 = "ships/bg"
+	slot5[MULTRES] = slot6(slot7, slot8)
+	slot4.pbList = slot5
+
+	slot1(slot2, slot3, slot4)
 
 	slot1 = onButton
 	slot2 = slot0
@@ -978,7 +1099,50 @@ function slot7(slot0)
 		slot2 = slot0
 		slot2 = slot2.msgPanel
 		slot3 = slot0
-		slot3 = slot3._tf
+		slot3 = slot3.top
+
+		slot0(slot1, slot2, slot3)
+
+		slot0 = setActive
+		slot1 = slot0
+		slot1 = slot1.msgPanel
+		slot2 = false
+
+		slot0(slot1, slot2)
+	end
+
+	slot1(slot2, slot3, slot4)
+
+	slot1 = setText
+	slot3 = slot0
+	slot2 = slot0.findTF
+	slot4 = "window/confirm_btn/Text"
+	slot5 = slot0.msgPanel
+	slot2 = slot2(slot3, slot4, slot5)
+	slot3 = i18n
+	slot4 = "text_confirm"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = onButton
+	slot2 = slot0
+	slot4 = slot0
+	slot3 = slot0.findTF
+	slot5 = "window/confirm_btn"
+	slot6 = slot0.msgPanel
+	slot3 = slot3(slot4, slot5, slot6)
+
+	function slot4()
+		slot0 = pg
+		slot0 = slot0.UIMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.UnblurPanel
+		slot2 = slot0
+		slot2 = slot2.msgPanel
+		slot3 = slot0
+		slot3 = slot3.top
 
 		slot0(slot1, slot2, slot3)
 
@@ -1010,7 +1174,7 @@ function slot7(slot0)
 		slot2 = slot0
 		slot2 = slot2.msgPanel
 		slot3 = slot0
-		slot3 = slot3._tf
+		slot3 = slot3.top
 
 		slot0(slot1, slot2, slot3)
 
@@ -1086,137 +1250,41 @@ function slot7(slot0)
 
 	slot1(slot2, slot3, slot4)
 
-	slot1 = pg
-	slot1 = slot1.UIMgr
-	slot1 = slot1.GetInstance
-	slot1 = slot1()
-	slot3 = slot1
-	slot2 = slot1.PreparePartialMask
-	slot4 = slot0.rightPanel
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "task_list"
+	slot1 = LeanTween
+	slot1 = slot1.alpha
+	slot2 = rtf
+	slot3 = slot0.skillArrLeft
+	slot2 = slot2(slot3)
+	slot3 = 0.25
+	slot4 = 1
+	slot1 = slot1(slot2, slot3, slot4)
+	slot2 = slot1
+	slot1 = slot1.setEase
+	slot3 = LeanTweenType
+	slot3 = slot3.easeInOutSine
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.setLoopPingPong
 
-	slot2(slot3, slot4(slot5, slot6))
+	slot1(slot2)
 
-	slot3 = slot1
-	slot2 = slot1.PreparePartialMask
-	slot4 = slot0.rightPanel
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "mod_panel"
+	slot1 = LeanTween
+	slot1 = slot1.alpha
+	slot2 = rtf
+	slot3 = slot0.skillArrRight
+	slot2 = slot2(slot3)
+	slot3 = 0.25
+	slot4 = 1
+	slot1 = slot1(slot2, slot3, slot4)
+	slot2 = slot1
+	slot1 = slot1.setEase
+	slot3 = LeanTweenType
+	slot3 = slot3.easeInOutSine
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.setLoopPingPong
 
-	slot2(slot3, slot4(slot5, slot6))
-
-	slot3 = slot1
-	slot2 = slot1.PartialBlur
-	slot4 = slot0.leftPanle
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "property_panel/init_panel"
-	slot4 = slot4(slot5, slot6)
-	slot5 = true
-
-	slot2(slot3, slot4, slot5)
-
-	slot3 = slot1
-	slot2 = slot1.PartialBlur
-	slot4 = slot0.bottomPanel
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "ships/bg"
-	slot4 = slot4(slot5, slot6)
-	slot5 = true
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = SetParent
-	slot3 = slot0.leftPanle
-	slot4 = pg
-	slot4 = slot4.UIMgr
-	slot5 = slot4
-	slot4 = slot4.GetInstance
-	slot4 = slot4(slot5)
-	slot4 = slot4.OverlayMain
-
-	slot2(slot3, slot4)
-
-	slot2 = SetParent
-	slot3 = slot0.rightPanel
-	slot4 = pg
-	slot4 = slot4.UIMgr
-	slot5 = slot4
-	slot4 = slot4.GetInstance
-	slot4 = slot4(slot5)
-	slot4 = slot4.OverlayMain
-
-	slot2(slot3, slot4)
-
-	slot2 = SetParent
-	slot3 = slot0.bottomPanel
-	slot4 = pg
-	slot4 = slot4.UIMgr
-	slot5 = slot4
-	slot4 = slot4.GetInstance
-	slot4 = slot4(slot5)
-	slot4 = slot4.OverlayMain
-
-	slot2(slot3, slot4)
-
-	slot2 = LeanTween
-	slot2 = slot2.moveX
-	slot3 = slot0.propertyMoveTF
-	slot4 = -83
-	slot5 = 0.01
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = onToggle
-	slot3 = slot0
-	slot4 = slot0.initBtn
-
-	function slot5(slot0)
-		LeanTween.cancel(go(slot0.propertyMoveTF))
-		LeanTween.moveX(slot0.propertyMoveTF, (slot0 and -83) or 83, 0.2)
-	end
-
-	slot2(slot3, slot4, slot5)
-
-	slot2 = LeanTween
-	slot2 = slot2.alpha
-	slot3 = rtf
-	slot4 = slot0.skillArrLeft
-	slot3 = slot3(slot4)
-	slot4 = 0.25
-	slot5 = 1
-	slot2 = slot2(slot3, slot4, slot5)
-	slot3 = slot2
-	slot2 = slot2.setEase
-	slot4 = LeanTweenType
-	slot4 = slot4.easeInOutSine
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.setLoopPingPong
-
-	slot2(slot3)
-
-	slot2 = LeanTween
-	slot2 = slot2.alpha
-	slot3 = rtf
-	slot4 = slot0.skillArrRight
-	slot3 = slot3(slot4)
-	slot4 = 0.25
-	slot5 = 1
-	slot2 = slot2(slot3, slot4, slot5)
-	slot3 = slot2
-	slot2 = slot2.setEase
-	slot4 = LeanTweenType
-	slot4 = slot4.easeInOutSine
-	slot2 = slot2(slot3, slot4)
-	slot3 = slot2
-	slot2 = slot2.setLoopPingPong
-
-	slot2(slot3)
+	slot1(slot2)
 end
 
 slot0.didEnter = slot7
@@ -1262,6 +1330,7 @@ function slot8(slot0)
 		slot3 = slot3.rect
 		slot3 = slot3.width
 		slot3 = -slot3
+		slot3 = slot3 - 400
 		slot4 = slot0
 
 		slot1(slot2, slot3, slot4)
@@ -1269,7 +1338,7 @@ function slot8(slot0)
 		slot1 = LeanTween
 		slot1 = slot1.moveX
 		slot2 = slot0.rightPanel
-		slot3 = 0
+		slot3 = 400
 		slot4 = slot0
 
 		slot1(slot2, slot3, slot4)
@@ -1286,6 +1355,14 @@ function slot8(slot0)
 		slot1 = LeanTween
 		slot1 = slot1.moveY
 		slot2 = slot0.topPanel
+		slot3 = slot0.topWidth
+		slot4 = slot0
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = LeanTween
+		slot1 = slot1.moveY
+		slot2 = slot0.topBg
 		slot3 = slot0.topWidth
 		slot4 = slot0
 
@@ -1335,6 +1412,14 @@ function slot8(slot0)
 		slot1(slot2, slot3, slot4)
 
 		slot1 = LeanTween
+		slot1 = slot1.moveY
+		slot2 = slot0.topBg
+		slot3 = 0
+		slot4 = slot0
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = LeanTween
 		slot1 = slot1.moveX
 		slot2 = slot0.centerPanel
 		slot3 = 0
@@ -1352,6 +1437,13 @@ function slot8(slot0)
 
 	slot1 = setActive
 	slot2 = slot0.stateInfo
+	slot3 = slot0.flag
+	slot3 = not slot3
+
+	slot1(slot2, slot3)
+
+	slot1 = setActive
+	slot2 = slot0.helpBtn
 	slot3 = slot0.flag
 	slot3 = not slot3
 
@@ -1396,6 +1488,7 @@ function slot8(slot0, slot1, slot2)
 		slot5 = slot5.rect
 		slot5 = slot5.width
 		slot5 = -slot5
+		slot5 = slot5 - 400
 		slot6 = slot1
 
 		slot3(slot4, slot5, slot6)
@@ -1403,7 +1496,7 @@ function slot8(slot0, slot1, slot2)
 		slot3 = LeanTween
 		slot3 = slot3.moveX
 		slot4 = slot0.rightPanel
-		slot5 = 0
+		slot5 = 400
 		slot6 = slot1
 
 		slot3(slot4, slot5, slot6)
@@ -1452,6 +1545,7 @@ function slot8(slot0, slot1, slot2)
 		slot5 = slot5.rect
 		slot5 = slot5.width
 		slot5 = -slot5
+		slot5 = slot5 - 400
 		slot6 = slot1
 
 		slot3(slot4, slot5, slot6)
@@ -1459,7 +1553,7 @@ function slot8(slot0, slot1, slot2)
 		slot3 = LeanTween
 		slot3 = slot3.moveX
 		slot4 = slot0.rightPanel
-		slot5 = 0
+		slot5 = 400
 		slot6 = slot1
 
 		slot3(slot4, slot5, slot6)
@@ -1608,6 +1702,11 @@ function slot8(slot0, slot1)
 			end
 
 			slot3(slot4, slot5)
+
+			slot3 = print
+			slot4 = "asdfasdfasdf==============================="
+
+			slot3(slot4)
 		else
 			slot0.shipBluePrintVO = slot1
 			slot3 = slot0.shipBluePrintVO
@@ -1718,7 +1817,7 @@ function slot8(slot0, slot1)
 	slot2.update = slot3
 
 	function slot3(slot0, slot1)
-		LeanTween.moveY(slot0.iconTF, (slot1 and 25) or 0, 0.1)
+		LeanTween.moveY(slot0.iconTF, (slot1 and 0) or -25, 0.1)
 	end
 
 	slot2.updateSelectedStyle = slot3
@@ -1959,6 +2058,19 @@ function slot8(slot0)
 	slot2 = slot0.shipContainer
 
 	function slot3(slot0)
+		slot1 = print_r
+		slot2 = slot0
+		slot2 = slot2.contextData
+
+		slot1(slot2)
+
+		slot1 = print_r
+		slot2 = slot0
+		slot2 = slot2.bluePrintItems
+		slot2 = slot2[slot0]
+
+		slot1(slot2)
+
 		slot1 = slot0
 		slot1 = slot1.contextData
 		slot1 = slot1.shipBluePrintVO
@@ -2373,15 +2485,12 @@ function slot8(slot0, slot1)
 	end
 
 	slot10 = slot0.modLevel
-	slot11 = "<size=30>"
-	slot12 = slot1.level
-	slot13 = "</size> /"
-	slot14 = "<size=18>"
-	slot16 = slot1
-	slot15 = slot1.getMaxLevel
-	slot15 = slot15(slot16)
-	slot16 = "</size>"
-	slot11 = slot11 .. slot12 .. slot13 .. slot14 .. slot15 .. slot16
+	slot12 = slot0
+	slot11 = slot0.formatModLvTxt
+	slot13 = slot1.level
+	slot15 = slot1
+	slot14 = slot1.getMaxLevel
+	slot11 = slot11(slot12, slot13, slot14(slot15))
 	slot10.text = slot11
 	slot11 = slot3
 	slot10 = slot3.getNextLevelExp
@@ -2479,6 +2588,19 @@ function slot8(slot0)
 end
 
 slot0.inModAnim = slot8
+
+function slot8(slot0, slot1, slot2)
+	slot3 = "<size=45>"
+	slot4 = slot1
+	slot5 = "</size>/<size=27>"
+	slot6 = slot2
+	slot7 = "</size>"
+	slot3 = slot3 .. slot4 .. slot5 .. slot6 .. slot7
+
+	return slot3
+end
+
+slot0.formatModLvTxt = slot8
 slot8 = 0.2
 
 function slot9(slot0, slot1, slot2)
@@ -2615,13 +2737,12 @@ function slot9(slot0, slot1, slot2)
 
 					slot2 = slot4
 					slot2 = slot2.modLevel
-					slot3 = "<size=30>"
-					slot4 = slot1.level
-					slot5 = "</size> /"
-					slot6 = "<size=18>"
-					slot7 = slot6
-					slot8 = "</size>"
-					slot3 = slot3 .. slot4 .. slot5 .. slot6 .. slot7 .. slot8
+					slot3 = slot4
+					slot4 = slot3
+					slot3 = slot3.formatModLvTxt
+					slot5 = slot1.level
+					slot6 = slot6
+					slot3 = slot3(slot4, slot5, slot6)
 					slot2.text = slot3
 
 					return
@@ -4884,7 +5005,7 @@ function slot10(slot0)
 		slot12 = slot0.stars
 		slot13 = slot12
 		slot12 = slot12.GetChild
-		slot14 = slot11 - 1
+		slot14 = slot6 - slot11
 		slot12 = slot12(slot13, slot14)
 		slot13 = setActive
 		slot15 = slot12
@@ -5288,8 +5409,10 @@ function slot10(slot0)
 	slot4 = slot3
 	slot3 = slot3.initProperty
 	slot5 = slot2.configId
+	slot6 = PropertyPanel
+	slot6 = slot6.TypeFlat
 
-	slot3(slot4, slot5)
+	slot3(slot4, slot5, slot6)
 
 	slot3 = slot0
 	slot4 = slot2.configId
@@ -5353,22 +5476,6 @@ function slot10(slot0)
 			slot17 = slot10
 
 			function slot18()
-				slot0 = pg
-				slot0 = slot0.UIMgr
-				slot0 = slot0.GetInstance
-				slot0 = slot0()
-				slot1 = slot0
-				slot0 = slot0.PartialBlur
-				slot2 = slot0
-				slot2 = slot2.leftPanle
-				slot3 = slot2
-				slot2 = slot2.Find
-				slot4 = "property_panel/init_panel"
-				slot2 = slot2(slot3, slot4)
-				slot3 = false
-
-				slot0(slot1, slot2, slot3)
-
 				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
@@ -5389,22 +5496,6 @@ function slot10(slot0)
 				slot4.level = slot5
 
 				function slot5()
-					slot0 = pg
-					slot0 = slot0.UIMgr
-					slot0 = slot0.GetInstance
-					slot0 = slot0()
-					slot1 = slot0
-					slot0 = slot0.PartialBlur
-					slot2 = slot0
-					slot2 = slot2.leftPanle
-					slot3 = slot2
-					slot2 = slot2.Find
-					slot4 = "property_panel/init_panel"
-					slot2 = slot2(slot3, slot4)
-					slot3 = true
-
-					slot0(slot1, slot2, slot3)
-
 					return
 				end
 
@@ -6757,20 +6848,8 @@ function slot10(slot0)
 
 		slot2(slot3, slot4)
 
-		slot2 = SetParent
-		slot3 = slot0.leftPanle
-		slot4 = slot0._tf
-
-		slot2(slot3, slot4)
-
-		slot2 = SetParent
-		slot3 = slot0.rightPanel
-		slot4 = slot0._tf
-
-		slot2(slot3, slot4)
-
-		slot2 = SetParent
-		slot3 = slot0.bottomPanel
+		slot2 = setParent
+		slot3 = slot0.blurPanel
 		slot4 = slot0._tf
 
 		slot2(slot3, slot4)
@@ -7010,29 +7089,7 @@ function slot10(slot0, slot1)
 
 	if not slot1 then
 		slot2 = SetParent
-		slot3 = slot0.leftPanle
-		slot4 = pg
-		slot4 = slot4.UIMgr
-		slot5 = slot4
-		slot4 = slot4.GetInstance
-		slot4 = slot4(slot5)
-		slot4 = slot4.OverlayMain
-
-		slot2(slot3, slot4)
-
-		slot2 = SetParent
-		slot3 = slot0.rightPanel
-		slot4 = pg
-		slot4 = slot4.UIMgr
-		slot5 = slot4
-		slot4 = slot4.GetInstance
-		slot4 = slot4(slot5)
-		slot4 = slot4.OverlayMain
-
-		slot2(slot3, slot4)
-
-		slot2 = SetParent
-		slot3 = slot0.bottomPanel
+		slot3 = slot0.blurPanel
 		slot4 = pg
 		slot4 = slot4.UIMgr
 		slot5 = slot4
@@ -7367,109 +7424,82 @@ function slot10(slot0)
 	slot1 = slot1.UIMgr
 	slot1 = slot1.GetInstance
 	slot1 = slot1()
-	slot3 = slot1
-	slot2 = slot1.PartialBlur
-	slot4 = slot0.leftPanle
-	slot5 = slot4
-	slot4 = slot4.Find
-	slot6 = "property_panel/init_panel"
-	slot4 = slot4(slot5, slot6)
-	slot5 = false
-
-	slot2(slot3, slot4, slot5)
-
-	slot3 = slot1
-	slot2 = slot1.ClearPartialMask
-
-	slot2(slot3)
-
-	slot2 = SetParent
-	slot3 = slot0.leftPanle
+	slot2 = slot1
+	slot1 = slot1.UnOverlayPanel
+	slot3 = slot0.blurPanel
 	slot4 = slot0._tf
 
-	slot2(slot3, slot4)
+	slot1(slot2, slot3, slot4)
 
-	slot2 = SetParent
-	slot3 = slot0.rightPanel
-	slot4 = slot0._tf
+	slot1 = LeanTween
+	slot1 = slot1.cancel
+	slot2 = go
+	slot3 = slot0.fittingAttrPanel
 
-	slot2(slot3, slot4)
+	slot1(slot2(slot3))
 
-	slot2 = SetParent
-	slot3 = slot0.bottomPanel
-	slot4 = slot0._tf
+	slot1 = slot0.lastPaintingName
 
-	slot2(slot3, slot4)
+	if slot1 then
+		slot1 = retPaintingPrefab
+		slot2 = slot0.painting
+		slot3 = slot0.lastPaintingName
 
-	slot2 = LeanTween
-	slot2 = slot2.cancel
-	slot3 = go
-	slot4 = slot0.fittingAttrPanel
-
-	slot2(slot3(slot4))
-
-	slot2 = slot0.lastPaintingName
-
-	if slot2 then
-		slot2 = retPaintingPrefab
-		slot3 = slot0.painting
-		slot4 = slot0.lastPaintingName
-
-		slot2(slot3, slot4)
+		slot1(slot2, slot3)
 	end
 
-	slot2 = pairs
-	slot3 = slot0.taskTFs
+	slot1 = pairs
+	slot2 = slot0.taskTFs
 
-	if not slot3 then
-		slot3 = {}
+	if not slot2 then
+		slot2 = {}
 	end
 
-	slot2, slot3, slot4 = slot2(slot3)
+	slot1, slot2, slot3 = slot1(slot2)
 
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot8 = slot6
-		slot7 = slot6.clear
+	for slot4, slot5 in slot1, slot2, slot3 do
+		slot7 = slot5
+		slot6 = slot5.clear
 
-		slot7(slot8)
+		slot6(slot7)
 	end
 
-	slot3 = slot0
-	slot2 = slot0.closePreview
-	slot4 = true
+	slot2 = slot0
+	slot1 = slot0.closePreview
+	slot3 = true
 
-	slot2(slot3, slot4)
+	slot1(slot2, slot3)
 
-	slot3 = slot0
-	slot2 = slot0.clearLeanTween
-	slot4 = true
+	slot2 = slot0
+	slot1 = slot0.clearLeanTween
+	slot3 = true
 
-	slot2(slot3, slot4)
+	slot1(slot2, slot3)
 
-	slot2 = pairs
-	slot3 = slot0.nameTxts
-	slot2, slot3, slot4 = slot2(slot3)
+	slot1 = pairs
+	slot2 = slot0.nameTxts
+	slot1, slot2, slot3 = slot1(slot2)
 
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot8 = slot6
-		slot7 = slot6.destroy
+	for slot4, slot5 in slot1, slot2, slot3 do
+		slot7 = slot5
+		slot6 = slot5.destroy
 
-		slot7(slot8)
+		slot6(slot7)
 	end
 
-	slot2 = nil
-	slot0.nameTxts = slot2
-	slot2 = slot0.previewer
+	slot1 = nil
+	slot0.nameTxts = slot1
+	slot1 = slot0.previewer
 
-	if slot2 then
-		slot2 = slot0.previewer
-		slot3 = slot2
-		slot2 = slot2.clear
+	if slot1 then
+		slot1 = slot0.previewer
+		slot2 = slot1
+		slot1 = slot1.clear
 
-		slot2(slot3)
+		slot1(slot2)
 
-		slot2 = nil
-		slot0.previewer = slot2
+		slot1 = nil
+		slot0.previewer = slot1
 	end
 
 	return
@@ -7561,7 +7591,6 @@ function slot10(slot0, slot1, slot2)
 		slot2 = slot1
 		slot1 = slot1.BlurPanel
 		slot3 = slot0
-		slot3 = slot3.awakenAni
 
 		slot1(slot2, slot3)
 
@@ -7590,10 +7619,9 @@ function slot10(slot0, slot1, slot2)
 				slot1 = slot1()
 				slot2 = slot1
 				slot1 = slot1.UnblurPanel
-				slot3 = slot0
-				slot3 = slot3.awakenAni
+				slot3 = slot1
 				slot4 = slot0
-				slot4 = slot4._tf
+				slot4 = slot4.blurPanel
 
 				slot1(slot2, slot3, slot4)
 
@@ -7608,10 +7636,10 @@ function slot10(slot0, slot1, slot2)
 				slot1 = slot0
 				slot2 = false
 				slot1.awakenPlay = slot2
-				slot1 = slot1
+				slot1 = slot2
 
 				if slot1 then
-					slot1 = slot1
+					slot1 = slot2
 
 					slot1()
 				end
@@ -7636,9 +7664,9 @@ function slot10(slot0, slot1, slot2)
 		slot5 = go
 		slot6 = slot4
 		slot5 = slot5(slot6)
-		slot0.awakenAni = slot5
 	end
 
+	slot0.awakenAni = slot5
 	slot5 = slot0.awakenAni
 
 	if not slot5 then

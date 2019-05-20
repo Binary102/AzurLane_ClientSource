@@ -59,10 +59,12 @@ function slot0.init(slot0)
 	slot0.msgBoxPanel = slot0:findTF("msg_box")
 	slot0.warnCG = slot0.warn:GetComponent("CanvasGroup")
 	slot0.zoom = slot0:findTF("bg"):GetComponent("Zoom")
+	slot0.road = slot0:findTF("bg/road"):GetComponent(typeof(Image))
 	slot0.loadingCount = 0
 	slot0.loadingTotal = 0
-	slot0.wallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall"), Furniture.TYPE_WALLPAPER)
-	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), Furniture.TYPE_FLOORPAPER)
+	slot0.wallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall"), BackYardPaperModel.PAPER_TYPE_WALL)
+	slot0.baseWallPaperModel = BackYardPaperModel.New(slot0:findTF("bg/wall_base"), BackYardPaperModel.PAPER_TYPE_BASEWALL)
+	slot0.floorPaperModel = BackYardPaperModel.New(slot0:findTF("bg/floor"), BackYardPaperModel.PAPER_TYPE_FLOOR)
 
 	slot0:didEnter()
 	slot0:setMode()
@@ -187,13 +189,6 @@ function slot0.didEnter(slot0)
 			slot0:emit(BackyardMainMediator.OPEN_DECORATION)
 		end)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.warn, function ()
-		if slot0.isDraging then
-			return
-		end
-
-		triggerButton(slot0.baseBG)
-	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		if slot0.isDraging then
 			return
@@ -227,7 +222,6 @@ end
 
 function slot0.exitBoat(slot0, slot1)
 	slot0.shipModels[slot1.id].dispose(slot2)
-	PoolMgr.GetInstance():ReturnSpineChar(slot3, slot0.shipModels[slot1.id].go)
 
 	slot0.shipModels[slot1.id] = nil
 	slot0.boatVOs[slot1.id] = nil
@@ -237,38 +231,45 @@ function slot0.initHouse(slot0)
 	slot0.maps = {}
 	slot0.map = slot0:createMap(slot0.houseVO.endX + 1, slot0.houseVO.endY + 1)
 
-	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
-	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
-	slot0:initFurnitures()
 	slot0:updateHouseArea(slot0.houseVO.level)
+	slot0:initFurnitures()
 end
 
 function slot0.updateHouseArea(slot0, slot1)
-	slot2 = LoadAndInstantiateSync("dormbase", "state" .. slot1)
-
-	if not IsNil(slot0.baseBG) then
-		Destroy(slot0.baseBG)
+	if not slot0.roadPositions then
+		slot0.roadPositions = {
+			-920,
+			-1080,
+			-1230,
+			-1230
+		}
 	end
 
-	slot0.baseBG = tf(slot2)
+	slot0.road.sprite = GetSpriteFromAtlas("furniture/base/road_" .. slot1, "")
 
-	slot0.baseBG:SetParent(slot0:findTF("bg"), false)
-	slot0.baseBG:SetSiblingIndex(0)
+	slot0.road:SetNativeSize()
+	setActive(slot0.road, true)
 
-	slot0:findTF("bg").sizeDelta = Vector2(slot0.baseBG.rect.width + 50, slot0.baseBG.rect.height + 60 * slot0.houseVO.level)
+	tf(go(slot0.road)).anchoredPosition = Vector3(0, slot0.roadPositions[slot1], 0)
+	slot2 = slot0:findTF("bg")
 
 	scrollTo(slot0._tf, 0.5, 0.5)
 
 	if slot1 <= 0 or slot1 > 3 then
 		SetActive(slot0.warn, false)
-
-		return
+	else
+		slot0.warn.localPosition = BackYardConst.level2WarnPos(slot1)
 	end
 
-	slot0.warn.localPosition = BackYardConst.level2WarnPos(slot1)
+	onButton(slot0, slot0.warn, function ()
+		triggerButton(go(slot0.road))
+	end, SFX_PANEL)
+	onButton(slot0, go(slot0.road), function ()
+		if slot0 > 3 then
+			return
+		end
 
-	onButton(slot0, slot0.baseBG, function ()
-		slot3 = pg.item_data_statistics[id2ItemId(pg.shop_template[slot0.houseVO:getExpandId()].resource_type)].name
+		slot3 = pg.item_data_statistics[id2ItemId(pg.shop_template[slot1.houseVO:getExpandId()].resource_type)].name
 
 		function slot4()
 			if slot0.itemVO.count <= 0 then
@@ -291,8 +292,10 @@ function slot0.updateHouseArea(slot0, slot1)
 			slot6["text" .. slot10] = slot11
 		end
 
-		slot0:showMsgBox(slot4, slot6)
+		slot1:showMsgBox(slot4, slot6)
 	end, SFX_PANEL)
+	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
+	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
 end
 
 function slot0.updateItemCount(slot0, slot1)
@@ -510,6 +513,7 @@ end
 function slot0.loadWallPaper(slot0, slot1, slot2)
 	if slot2 == Furniture.TYPE_WALLPAPER then
 		slot0.wallPaperModel:update(slot1, slot0.houseVO.level)
+		slot0.baseWallPaperModel:update(slot1, slot0.houseVO.level)
 	elseif slot2 == Furniture.TYPE_FLOORPAPER then
 		slot0.floorPaperModel:update(slot1, slot0.houseVO.level)
 	end
@@ -526,7 +530,6 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 
 	slot4 = slot0.backyardPoolMgr:Dequeue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE)
 
-	setActive(slot4, false)
 	SetParent(slot4, slot0.furContain)
 
 	slot4.gameObject.name = slot1.id
@@ -1881,7 +1884,6 @@ end
 function slot0.clearUI(slot0)
 	for slot4, slot5 in pairs(slot0.shipModels) do
 		slot5:dispose()
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.boatVOs[slot4]:getPrefab(), go(slot5.model))
 	end
 
 	for slot4, slot5 in pairs(slot0.furnBottomGrids) do

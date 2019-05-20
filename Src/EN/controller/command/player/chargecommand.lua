@@ -25,7 +25,7 @@ class("ChargeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					AiriBuy(slot0:getConfig("airijp_id"), "preAudit", slot0.pay_id)
 				elseif AiriCheckPretest() then
 					print("serverTag:pretest 请求购买物品")
-					AiriSdkMgr.inst:NewBuy(slot0:getConfig("airijp_id"), "pretest", slot0.pay_id)
+					AiriBuy(slot0:getConfig("airijp_id"), "pretest", slot0.pay_id)
 				else
 					print("serverTag:production 请求购买物品")
 					AiriBuy(slot0:getConfig("airijp_id"), "production", slot0.pay_id)
@@ -36,7 +36,7 @@ class("ChargeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			else
 				slot7 = 0
 
-				BilibiliSdkMgr.inst:pay(slot0:getConfig("id_str"), slot0:getConfig("money") * 100, slot0:getConfig("name"), (slot0:isMonthCard() and 1) or (slot0:firstPayDouble() and slot1 and slot0:getConfig("gem") * 2) or slot0:getConfig("gem") + slot0:getConfig("extra_gem"), slot0.pay_id, slot0:getConfig("subject"), "-" .. getProxy(PlayerProxy).getData(slot2).id .. "-" .. slot8, getProxy(PlayerProxy).getData(slot2).name)
+				BilibiliSdkMgr.inst:pay(slot0:getConfig("id_str"), slot0:getConfig("money") * 100, slot0:getConfig("name"), (slot0:firstPayDouble() and slot1 and slot0:getConfig("gem") * 2) or slot0:getConfig("gem") + slot0:getConfig("extra_gem"), slot8, slot0:getConfig("subject"), "-" .. getProxy(PlayerProxy).getData(slot2).id .. "-" .. slot0.pay_id, getProxy(PlayerProxy).getData(slot2).name, slot0.url or "", slot0.order_sign or "")
 			end
 
 			getProxy(ShopsProxy):addWaitTimer()

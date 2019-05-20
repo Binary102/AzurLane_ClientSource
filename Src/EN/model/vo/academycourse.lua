@@ -38,8 +38,10 @@ function slot0.getDay(slot0)
 	end
 
 	if os.server_date("*t", slot1).wday - 1 == 0 then
-		return (slot0:inClass() and 6) or 7
+		slot2 = 7
 	end
+
+	return slot2
 end
 
 function slot0.getExtraRate(slot0)
@@ -47,12 +49,7 @@ function slot0.getExtraRate(slot0)
 end
 
 function slot0.existCourse(slot0)
-	print("day :" .. slot1)
-	print("cfg :" .. slot0:bindConfigTable()[slot0:getDay()].id)
-	print("time :" .. os.date("%Y/%m/%d %H:%M:%S", slot0.timestamp))
-	print("timestamp :" .. slot0.timestamp)
-
-	return slot0.bindConfigTable()[slot0.getDay()] and slot2.id and slot2.id > 0
+	return slot0:bindConfigTable()[slot0:getDay()] and slot2.id and slot2.id > 0
 end
 
 function slot0.inClass(slot0)

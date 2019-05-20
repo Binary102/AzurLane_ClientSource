@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Class Z I\n\n<size=30>Troublesome Kids Come From The Port</size>",
+					"Class Z I\n\n<size=45>Troublesome Kids Come From The Port</size>",
 					1
 				}
 			}
@@ -188,7 +188,7 @@ return {
 				{
 					actor = 402010,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

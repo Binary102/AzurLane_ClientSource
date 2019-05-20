@@ -138,7 +138,8 @@ function slot0.getPanelActivities(slot0)
 		ActivityConst.ACTIVITY_TYPE_MONOPOLY,
 		ActivityConst.ACTIVITY_TYPE_BUILD,
 		ActivityConst.ACTIVITY_TYPE_DODGEM,
-		ActivityConst.ACTIVITY_TYPE_PT_ACCUM
+		ActivityConst.ACTIVITY_TYPE_PT_ACCUM,
+		ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
 	}
 
 	return _(_.values(slot0.data)):chain():filter(function (slot0)
@@ -157,14 +158,10 @@ function slot0.getPanelActivities(slot0)
 						end
 					end
 				end
-			elseif slot1 == ActivityConst.ACTIVITY_TYPE_DAILY_TASK then
-				slot2 = getProxy(TaskProxy):getTaskById(slot0:getConfig("config_data")[1]) and not slot4:isReceive()
-			elseif slot1 == ActivityConst.ACTIVITY_TYPE_ZPROJECT or slot1 == ActivityConst.ACTIVITY_TYPE_TASKS or slot1 == ActivityConst.ACTIVITY_TYPE_SHOP or slot1 == ActivityConst.ACTIVITY_TYPE_TASK_LIST or slot1 == ActivityConst.ACTIVITY_TYPE_BB or slot1 == ActivityConst.ACTIVITY_TYPE_PUZZLA or slot1 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN or slot1 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or slot1 == ActivityConst.ACTIVITY_TYPE_LINK_LINK or slot1 == ActivityConst.ACTIVITY_TYPE_ANSWER or slot1 == ActivityConst.ACTIVITY_TYPE_TAISK_RES or slot1 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD or slot1 == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD or slot1 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-				slot2 = not slot0:isEnd()
+			else
+				return (slot1 ~= ActivityConst.ACTIVITY_TYPE_DAILY_TASK or false) and not slot0:isEnd()
 			end
 		end
-
-		return slot2
 	end):sort(function (slot0, slot1)
 		return slot0.id < slot1.id
 	end):value()

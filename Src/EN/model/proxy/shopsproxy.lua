@@ -110,17 +110,7 @@ function slot0.updateNormalGroupList(slot0, slot1, slot2)
 	})
 end
 
-function slot0.setDailyPayList(slot0, slot1)
-	slot0.dailyPayList = slot1
-end
-
-function slot0.getDailyPayList(slot0)
-	return Clone(slot0.dailyPayList)
-end
-
 function slot0.addActivityShops(slot0, slot1)
-	print("!!!!!!!!!!!!!!!!!!!!!!")
-
 	slot0.activityShops = slot1
 
 	slot0:sendNotification(slot0.ACTIVITY_SHOPS_UPDATED)
@@ -200,7 +190,7 @@ function slot0.addWaitTimer(slot0)
 			hideNo = true,
 			content = i18n("charge_time_out")
 		})
-	end, 60, 1)
+	end, 25, 1)
 
 	slot0.waitBiliTimer:Start()
 end

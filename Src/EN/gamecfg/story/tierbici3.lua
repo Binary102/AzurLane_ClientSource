@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"融冰\n\n<size=30>三　演习</size>",
+					"融冰\n\n<size=45>三　演习</size>",
 					1
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -275,7 +275,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			},
@@ -303,7 +303,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -315,7 +315,7 @@ return {
 					type = "move",
 					delay = 0.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Red Spider Lily's Love\n\n<size=30>Chapter 2 - The Unrivaled Legends</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 2 - The Unrivaled Legends</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.3,
 					x = 0,

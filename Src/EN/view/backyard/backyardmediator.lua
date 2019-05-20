@@ -95,6 +95,8 @@ function slot0.startUpBackyard(slot0, slot1)
 		return
 	end
 
+	playBGM(slot0.viewComponent:getBGM())
+
 	if not slot0.contextData.mode then
 		slot2 = BackYardConst.MODE_DEFAULT
 	end
@@ -184,11 +186,7 @@ function slot0.startUpBackyard(slot0, slot1)
 	if not IsNil(slot0.viewComponent._tf:Find(BackYardConst.MAIN_UI_NAME)) then
 		slot8(slot9)
 	else
-		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, function (slot0)
-			slot0(slot0)
-
-			return
-		end)
+		PoolMgr.GetInstance():GetUI(BackYardConst.MAIN_UI_NAME, true, slot8)
 	end
 
 	getProxy(DormProxy).floor = slot0.contextData.floor
@@ -231,12 +229,13 @@ function slot0.listNotificationInterests(slot0)
 		PlayerProxy.UPDATED,
 		GAME.PUT_FURNITURE_DONE,
 		GAME.OPEN_BACKYARD_GARNARY,
-		GAME.EXIT_SHIP_DONE,
 		GAME.BACKYARD_RENAME_DONE,
 		BackYardMediator.OPEN_NOFOOD,
 		GAME.OPEN_BACKYARD_SHOP,
 		BagProxy.ITEM_UPDATED,
-		BagProxy.ITEM_ADDED
+		BagProxy.ITEM_ADDED,
+		GAME.ADD_SHIP_DONE,
+		GAME.EXIT_SHIP_DONE
 	}
 end
 
@@ -310,6 +309,36 @@ function slot0.handleNotification(slot0, slot1)
 											mediator = BackYardShopMediator,
 											viewComponent = BackYardShopLayer
 										}))
+									else
+										if slot2 == GAME.ADD_SHIP_DONE then
+											if not pg.backyard then
+												return
+											end
+
+											if slot0.contextData.floor ~= slot3.type then
+												return
+											end
+
+											pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+												name = BACKYARD.SHIP_ADDED,
+												id = slot3.id
+											})
+										else
+											if slot2 == GAME.EXIT_SHIP_DONE then
+												if not pg.backyard then
+													return
+												end
+
+												if not getBackYardProxy(BackYardHouseProxy):existShip(slot3.id) then
+													return
+												end
+
+												pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+													name = BACKYARD.SHIP_EXITED,
+													id = slot3.id
+												})
+											end
+										end
 									end
 								end
 							end

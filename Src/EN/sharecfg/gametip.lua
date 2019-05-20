@@ -5,15 +5,15 @@ pg.gametip = {
 		key = "ad_0"
 	},
 	ad_1 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_1"
 	},
 	ad_2 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> loots<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> loots<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_2"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_3"
 	},
 	word_back = {
@@ -95,6 +95,14 @@ pg.gametip = {
 	word_get = {
 		tip = "Receive",
 		key = "word_get"
+	},
+	word_got = {
+		tip = "Granted ",
+		key = "word_got"
+	},
+	word_not_get = {
+		tip = "Ungranted ",
+		key = "word_not_get"
 	},
 	word_next_level = {
 		tip = "Next level",
@@ -197,7 +205,7 @@ pg.gametip = {
 		key = "word_levelup"
 	},
 	word_serverLoadVindicate = {
-		tip = "<color=#656565FF>Maintenance</color>",
+		tip = "<color=#a2a2a2>Maintenance</color>",
 		key = "word_serverLoadVindicate"
 	},
 	word_serverLoadNormal = {
@@ -337,7 +345,7 @@ pg.gametip = {
 		key = "word_attr_healthy"
 	},
 	word_attr_cd = {
-		tip = "Fire Rate",
+		tip = "FR",
 		key = "word_attr_cd"
 	},
 	word_attr_speciality = {
@@ -345,7 +353,7 @@ pg.gametip = {
 		key = "word_attr_speciality"
 	},
 	word_attr_level = {
-		tip = "Level Limit",
+		tip = "Max Level",
 		key = "word_attr_level"
 	},
 	word_shipState_fight = {
@@ -545,7 +553,7 @@ pg.gametip = {
 		key = "word_heavyarmor"
 	},
 	word_level_upperLimit = {
-		tip = "Level Limit",
+		tip = "Max Level",
 		key = "word_level_upperLimit"
 	},
 	word_level_require = {
@@ -593,11 +601,11 @@ pg.gametip = {
 		key = "word_wallpaper"
 	},
 	word_furniture = {
-		tip = "Furni\nture",
+		tip = "Furni",
 		key = "word_furniture"
 	},
 	word_decorate = {
-		tip = "Decora\ntions",
+		tip = "Décor",
 		key = "word_decorate"
 	},
 	word_special = {
@@ -696,12 +704,36 @@ pg.gametip = {
 		tip = "Anti-Air",
 		key = "word_ air_defense_artillery"
 	},
+	word_air_defense_artillery = {
+		tip = "Anti-Air",
+		key = "word_air_defense_artillery"
+	},
 	word_device = {
 		tip = "Auxiliary",
 		key = "word_device"
 	},
+	word_cannon = {
+		tip = "Main Gun ",
+		key = "word_cannon"
+	},
+	word_fighter = {
+		tip = "Fighter",
+		key = "word_fighter"
+	},
+	word_bomber = {
+		tip = "Dive Bomber",
+		key = "word_bomber"
+	},
+	word_attacker = {
+		tip = "Torpedo Bomber",
+		key = "word_attacker"
+	},
+	word_seaplane = {
+		tip = "Reconnaissance",
+		key = "word_seaplane"
+	},
 	word_submarine_torpedo = {
-		tip = "潜艇鱼雷",
+		tip = "Submarine Torpedo",
 		key = "word_submarine_torpedo"
 	},
 	word_online = {
@@ -729,7 +761,7 @@ pg.gametip = {
 		key = "word_wait"
 	},
 	word_consume = {
-		tip = "消耗",
+		tip = "Cost",
 		key = "word_consume"
 	},
 	word_sell_out = {
@@ -741,7 +773,7 @@ pg.gametip = {
 
                         無償<icon name=diamond w=0.7 h=0.7/>: $1
                         有償<icon name=diamond w=0.7 h=0.7/>: $2
-                        合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#A9F548><size=17>
+                        合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#92fc63><size=17>
                        ※購入時は無償ダイヤから消費されます
            ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
 		key = "word_diamond_tip"
@@ -811,15 +843,15 @@ pg.gametip = {
 		key = "common_dont_remind_dur_login"
 	},
 	common_activity_end = {
-		tip = "This event <color=#A9F548>has already ended</color>",
+		tip = "This event <color=#92fc63>has already ended</color>",
 		key = "common_activity_end"
 	},
 	common_activity_notStartOrEnd = {
-		tip = "This event <color=#A9F548>has not yet started</color> or <color=#A9F548>has already ended</color>",
+		tip = "This event <color=#92fc63>has not yet started</color> or <color=#92fc63>has already ended</color>",
 		key = "common_activity_notStartOrEnd"
 	},
 	common_activity_not_start = {
-		tip = "This event <color=#A9F548>is currently closed</color>",
+		tip = "This event <color=#92fc63>is currently closed</color>",
 		key = "common_activity_not_start"
 	},
 	common_error = {
@@ -827,15 +859,15 @@ pg.gametip = {
 		key = "common_error"
 	},
 	common_no_gold = {
-		tip = "You don't have enough <color=#A9F548>Coins</color>!",
+		tip = "You don't have enough <color=#92fc63>Coins</color>!",
 		key = "common_no_gold"
 	},
 	common_no_oil = {
-		tip = "You don't have enough <color=#A9F548>Oil</color>!",
+		tip = "You don't have enough <color=#92fc63>Oil</color>!",
 		key = "common_no_oil"
 	},
 	common_no_rmb = {
-		tip = "You don't have enough <color=#A9F548>Gems</color>!",
+		tip = "You don't have enough <color=#92fc63>Gems</color>!",
 		key = "common_no_rmb"
 	},
 	common_count_noenough = {
@@ -843,7 +875,7 @@ pg.gametip = {
 		key = "common_count_noenough"
 	},
 	common_no_dorm_gold = {
-		tip = "You don't have enough <color=#A9F548>Decor Tokens</color>!",
+		tip = "You don't have enough <color=#92fc63>Decor Tokens</color>!",
 		key = "common_no_dorm_gold"
 	},
 	common_no_resource = {
@@ -851,7 +883,7 @@ pg.gametip = {
 		key = "common_no_resource"
 	},
 	common_no_item = {
-		tip = "You don't have enough <color=#A9F548>[$1]</color>!",
+		tip = "You don't have enough <color=#92fc63>[$1]</color>!",
 		key = "common_no_item"
 	},
 	common_no_item_1 = {
@@ -867,7 +899,7 @@ pg.gametip = {
 		key = "common_use_item_sos_used"
 	},
 	common_no_x = {
-		tip = "You don't have enough <color=#A9F548>$1</color>!",
+		tip = "You don't have enough <color=#92fc63>$1</color>!",
 		key = "common_no_x"
 	},
 	common_limit_cmd = {
@@ -887,7 +919,7 @@ pg.gametip = {
 		key = "common_buy_success"
 	},
 	common_limit_level = {
-		tip = "Unlocked at Commander <color=#A9F548>lv. $1</color>",
+		tip = "Unlocked at Commander <color=#92fc63>lv. $1</color>",
 		key = "common_limit_level"
 	},
 	common_shopId_noFound = {
@@ -938,6 +970,10 @@ pg.gametip = {
 		tip = "Coming soon",
 		key = "common_skin_out_of_stock"
 	},
+	common_go_home = {
+		tip = "是否返回主界面",
+		key = "common_go_home"
+	},
 	dont_remind_today = {
 		tip = "Notified",
 		key = "dont_remind_today"
@@ -955,11 +991,11 @@ pg.gametip = {
 		key = "battle_emptyBlock"
 	},
 	battle_duel_main_rage = {
-		tip = "Both sides' <color=#A9F548>vanguards have been destroyed</color>. Battle accelerated.",
+		tip = "Both sides' <color=#92fc63>vanguards have been destroyed</color>. Battle accelerated.",
 		key = "battle_duel_main_rage"
 	},
 	battle_main_emergent = {
-		tip = "<color=#A9F548>$1</color> has been heavily damaged. Watch out for enemy ships!",
+		tip = "<color=#92fc63>$1</color> has been heavily damaged. Watch out for enemy ships!",
 		key = "battle_main_emergent"
 	},
 	battle_battleMediator_goOnFight = {
@@ -975,7 +1011,7 @@ pg.gametip = {
 		key = "battle_battleMediator_clear_warning"
 	},
 	battle_battleMediator_quest_exist = {
-		tip = "If you give up now, you'll lose the\n<color=#A9F548>resources, items, and ships you've collected.</color>Are you sure you want to exit?",
+		tip = "If you give up now, you'll lose the\n<color=#92fc63>resources, items, and ships you've collected.</color>Are you sure you want to exit?",
 		key = "battle_battleMediator_quest_exist"
 	},
 	battle_levelMediator_ok_takeResource = {
@@ -1015,7 +1051,7 @@ pg.gametip = {
 		key = "battle_levelScene_noRaderCount"
 	},
 	battle_levelScene_lock = {
-		tip = "Stage not yet open. Please clear <color=#A9F548>previous stage</color>.",
+		tip = "Stage not yet open. Please clear <color=#92fc63>previous stage</color>.",
 		key = "battle_levelScene_lock"
 	},
 	battle_preCombatLayer_changeFormationError = {
@@ -1023,7 +1059,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_changeFormationError"
 	},
 	battle_preCombatLayer_changeFormationNumberError = {
-		tip = "Your fleets need to have at least <color=#A9F548>$1</color> girls in them to battle!",
+		tip = "Your fleets need to have at least <color=#92fc63>$1</color> girls in them to battle!",
 		key = "battle_preCombatLayer_changeFormationNumberError"
 	},
 	battle_preCombatLayer_ready = {
@@ -1031,7 +1067,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_ready"
 	},
 	battle_preCombatLayer_quest_leaveFleet = {
-		tip = "Remove <color=#A9F548>$1</color> from formation?",
+		tip = "Remove <color=#92fc63>$1</color> from formation?",
 		key = "battle_preCombatLayer_quest_leaveFleet"
 	},
 	battle_preCombatLayer_clear_confirm = {
@@ -1083,23 +1119,23 @@ pg.gametip = {
 		key = "battle_preCombatMediator_leastLimit"
 	},
 	battle_preCombatMediator_timeout = {
-		tip = "<color=#A9F548>You're out of time!</color> Battle failed. Tap to return to main screen.",
+		tip = "<color=#92fc63>You're out of time!</color> Battle failed. Tap to return to main screen.",
 		key = "battle_preCombatMediator_timeout"
 	},
 	battle_resourceSiteLayer_collecTimeDefault = {
-		tip = "Harvesting time: <color=#A9F548>--:--:--</color>",
+		tip = "Harvesting time: <color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTimeDefault"
 	},
 	battle_resourceSiteLayer_collecTime = {
-		tip = "Harvesting time: <color=#A9F548>$1</color>",
+		tip = "Harvesting time: <color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_collecTime"
 	},
 	battle_resourceSiteLayer_maxLv = {
-		tip = "Highest level: <color=#A9F548>Lv. $1</color>",
+		tip = "Highest level: <color=#92fc63>Lv. $1</color>",
 		key = "battle_resourceSiteLayer_maxLv"
 	},
 	battle_resourceSiteLayer_avgLv = {
-		tip = "Average level: <color=#A9F548>Lv. $1</color>",
+		tip = "Average level: <color=#92fc63>Lv. $1</color>",
 		key = "battle_resourceSiteLayer_avgLv"
 	},
 	battle_resourceSiteLayer_shipTypeCount = {
@@ -1107,15 +1143,15 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_shipTypeCount"
 	},
 	battle_resourceSiteLayer_no_maxLv = {
-		tip = "Highest level has not reached <color=#A9F548>lv. $1</color>",
+		tip = "Highest level has not reached <color=#92fc63>lv. $1</color>",
 		key = "battle_resourceSiteLayer_no_maxLv"
 	},
 	battle_resourceSiteLayer_no_avgLv = {
-		tip = "Average level has not reached <color=#A9F548>lv. $1</color>",
+		tip = "Average level has not reached <color=#92fc63>lv. $1</color>",
 		key = "battle_resourceSiteLayer_no_avgLv"
 	},
 	battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "Missing <color=#A9F548>$1 x$2</color> in team",
+		tip = "Missing <color=#92fc63>$1 x$2</color> in team",
 		key = "battle_resourceSiteLayer_no_shipTypeCount"
 	},
 	battle_resourceSiteLayer_startError_collecting = {
@@ -1123,11 +1159,11 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_startError_collecting"
 	},
 	battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "At least <color=#A9F548>5 characters</color> required",
+		tip = "At least <color=#92fc63>5 characters</color> required",
 		key = "battle_resourceSiteLayer_startError_not5Ship"
 	},
 	battle_resourceSiteLayer_startError_limit = {
-		tip = "Requirements not met: <color=#A9F548>$1</color>",
+		tip = "Requirements not met: <color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_startError_limit"
 	},
 	battle_resourceSiteLayer_endError_notStar = {
@@ -1143,7 +1179,7 @@ pg.gametip = {
 		key = "battle_resourceSiteMediator_noSite"
 	},
 	battle_resourceSiteMediator_shipState_fight = {
-		tip = "She's currently <color=#A9F548>in battle</color>!",
+		tip = "She's currently <color=#92fc63>in battle</color>!",
 		key = "battle_resourceSiteMediator_shipState_fight"
 	},
 	battle_resourceSiteMediator_shipState_rest = {
@@ -1167,11 +1203,11 @@ pg.gametip = {
 		key = "battle_resourceSiteMediator_ok_end"
 	},
 	battle_autobot_unlock = {
-		tip = "Auto battle unlocked!",
+		tip = "Auto combat unlocked!",
 		key = "battle_autobot_unlock"
 	},
 	backyard_addExp_Info = {
-		tip = "Commander, everyone rested up while you were \ngone during\n||<color=#FAFAF7FF>$1</color>|| || You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP.",
+		tip = "Commander, everyone rested up while you were gone during\n||<color=#FAFAF7FF>$1</color>|| ||  You used up ||<color=#A9F548FF>$2</color>|| snacks, and received ||<color=#A9F548FF>$3</color>|| EXP.",
 		key = "backyard_addExp_Info"
 	},
 	backyard_extendCapacity_error = {
@@ -1179,7 +1215,7 @@ pg.gametip = {
 		key = "backyard_extendCapacity_error"
 	},
 	backyard_extendCapacity_ok = {
-		tip = "Supplies storage expanded! Storage capacity increased to <color=#A9F548>$1</color>.",
+		tip = "Supplies storage expanded! Storage capacity increased to <color=#92fc63>$1</color>.",
 		key = "backyard_extendCapacity_ok"
 	},
 	backyard_addShip_error = {
@@ -1199,7 +1235,7 @@ pg.gametip = {
 		key = "backyard_addFood_error"
 	},
 	backyard_addFood_ok = {
-		tip = "Restocking complete! Supplies <color=#A9F548>+$1</color>.",
+		tip = "Restocking complete! Supplies <color=#92fc63>+$1</color>.",
 		key = "backyard_addFood_ok"
 	},
 	backyard_putFurniture_ok = {
@@ -1211,7 +1247,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodCountLimit"
 	},
 	backyard_shipAddInimacy_ok = {
-		tip = "<color=#A9F548>$1</color>'s Affinity <color=#A9F548>increased</color>.",
+		tip = "<color=#92fc63>$1</color>'s Affinity <color=#92fc63>increased</color>.",
 		key = "backyard_shipAddInimacy_ok"
 	},
 	backyard_shipAddInimacy_error = {
@@ -1219,7 +1255,7 @@ pg.gametip = {
 		key = "backyard_shipAddInimacy_error"
 	},
 	backyard_shipAddMoney_ok = {
-		tip = "<color=#A9F548>$1</color> made an unexpected discovery! Decor Tokens <color=#A9F548>+$2</color>.",
+		tip = "<color=#92fc63>$1</color> made an unexpected discovery! Decor Tokens <color=#92fc63>+$2</color>.",
 		key = "backyard_shipAddMoney_ok"
 	},
 	backyard_shipAddMoney_error = {
@@ -1243,11 +1279,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_full"
 	},
 	backyard_backyardGranaryLayer_buyCountLimit = {
-		tip = "May only purchase <color=#A9F548>$1</color>.",
+		tip = "May only purchase <color=#92fc63>$1</color>.",
 		key = "backyard_backyardGranaryLayer_buyCountLimit"
 	},
 	backyard_backyardGranaryLayer_error_noResource = {
-		tip = "You don't have enough <color=#A9F548>$1</color> to make this purchase!",
+		tip = "You don't have enough <color=#92fc63>$1</color> to make this purchase!",
 		key = "backyard_backyardGranaryLayer_error_noResource"
 	},
 	backyard_backyardGranaryLayer_noFood = {
@@ -1255,7 +1291,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_noFood"
 	},
 	backyard_backyardGranaryLayer_noTimer = {
-		tip = "<color=#A9F548>Add snacks</color> to rest up your girls and grant them additional EXP!",
+		tip = "<color=#92fc63>Add snacks</color> to rest up your girls and grant them additional EXP!",
 		key = "backyard_backyardGranaryLayer_noTimer"
 	},
 	backyard_backyardGranaryLayer_word = {
@@ -1263,7 +1299,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_word"
 	},
 	backyard_backyardGranaryLayer_noShip = {
-		tip = "No girls are resting in the dorm right now, which means <color=#A9F548>none of these food will be consumed</color>.",
+		tip = "No girls are resting in the dorm right now, which means <color=#92fc63>none of these food will be consumed</color>.",
 		key = "backyard_backyardGranaryLayer_noShip"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1275,23 +1311,23 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodTimeNotice_bottom"
 	},
 	backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-		tip = "Supplies limit: <color=#A9F548>$1</color> increased to <color=#A9F548>$2</color>.",
+		tip = "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>.",
 		key = "backyard_backyardGranaryLayer_foodMaxIncreaseNotice"
 	},
 	backyard_backyardGranaryLayer_error_entendFail = {
-		tip = "<color=#A9F548>You don't have the required resources to expand storage.</color>",
+		tip = "<color=#92fc63>You don't have the required resources to expand storage.</color>",
 		key = "backyard_backyardGranaryLayer_error_entendFail"
 	},
 	backyard_backyardGranaryLayer_buy_max_count = {
-		tip = "<color=#A9F548>Supplies limit reached.</color>",
+		tip = "<color=#92fc63>Supplies limit reached.</color>",
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=18>EXP Gain <color=#5FD500>+$1%</color></size><size=16>\n<Happiness is the sum of Comfort derived from the top most n cozy furnitures and floors <color=#5FD500>$2</color>) (n represents the number each type of furniture can be arranged). Furniture arrangement has no effect on results.></size> ",
+		tip = "<size=22>EXP Gain <color=#5FD500>+$1%</color></size><size=22>\n<Happiness is the sum of Comfort derived from the top most n cozy furnitures and floors <color=#5FD500>$2</color>) (n represents the number each type of furniture can be arranged). Furniture arrangement has no effect on results.>\n</size>",
 		key = "backyard_backyardScene_comforChatContent1"
 	},
 	backyard_buyExtendItem_question = {
-		tip = "This will cost <color=#A9F548>$1</color>. Are you sure you want to continue?",
+		tip = "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?",
 		key = "backyard_buyExtendItem_question"
 	},
 	backyard_backyardScene_comforChatContent1_1 = {
@@ -1307,23 +1343,23 @@ pg.gametip = {
 		key = "backyard_backyardScene_comforChatContent3_3"
 	},
 	backyard_backyardScene_quest_clearButton = {
-		tip = "<color=#A9F548>Clear</color> current decorations?",
+		tip = "<color=#92fc63>Clear</color> current decorations?",
 		key = "backyard_backyardScene_quest_clearButton"
 	},
 	backyard_backyardScene_quest_saveFurniture = {
-		tip = "<color=#A9F548>Save</color> current settings?",
+		tip = "<color=#92fc63>Save</color> current settings?",
 		key = "backyard_backyardScene_quest_saveFurniture"
 	},
 	backyard_backyardScene_restSuccess = {
-		tip = "<color=#A9F548>Reset!</color>",
+		tip = "<color=#92fc63>Reset!</color>",
 		key = "backyard_backyardScene_restSuccess"
 	},
 	backyard_backyardScene_clearSuccess = {
-		tip = "<color=#A9F548>Cleared!</color>",
+		tip = "<color=#92fc63>Cleared!</color>",
 		key = "backyard_backyardScene_clearSuccess"
 	},
 	backyard_backyardScene_name = {
-		tip = "<color=#A9F548>$1's Dorm</color>",
+		tip = "<color=#92fc63>$1's Dorm</color>",
 		key = "backyard_backyardScene_name"
 	},
 	backyard_backyardScene_exitShipAfterAddEnergy = {
@@ -1331,11 +1367,11 @@ pg.gametip = {
 		key = "backyard_backyardScene_exitShipAfterAddEnergy"
 	},
 	backyard_backyardScene_timeRest = {
-		tip = "Time left: <color=#A9F548>$1</color>",
+		tip = "Time left: <color=#92fc63>$1</color>",
 		key = "backyard_backyardScene_timeRest"
 	},
 	backyard_backyardScene_showAddExpInfo = {
-		tip = "Resting time: <color=#A9F548>$1</color> - EXP added: <color=#A9F548>$2</color>",
+		tip = "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>",
 		key = "backyard_backyardScene_showAddExpInfo"
 	},
 	backyard_backyardScene_error_noPosPutFurniture = {
@@ -1347,19 +1383,19 @@ pg.gametip = {
 		key = "backyard_backyardScene_error_noFurniture"
 	},
 	backyard_backyardScene_error_canNotRotate = {
-		tip = "<color=#A9F548>May not rotate</color> this location.",
+		tip = "<color=#92fc63>May not rotate</color> this location.",
 		key = "backyard_backyardScene_error_canNotRotate"
 	},
 	backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "Unlock this row for <color=#A9F548>$1 Gems</color>?",
+		tip = "Unlock this row for <color=#92fc63>$1 Gems</color>?",
 		key = "backyard_backyardShipInfoLayer_quest_openPos"
 	},
 	backyard_backyardShipInfoLayer_quest_addShipNoFood = {
-		tip = "<color=#A9F548>You're running low on supplies.</color> Restock now?",
+		tip = "<color=#92fc63>You're running low on supplies.</color> Restock now?",
 		key = "backyard_backyardShipInfoLayer_quest_addShipNoFood"
 	},
 	backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
-		tip = "You must spend <color=#A9F548>Quick Finishers</color> to speed up. Speed up now?",
+		tip = "You must spend <color=#92fc63>Quick Finishers</color> to speed up. Speed up now?",
 		key = "backyard_backyardShipInfoLayer_quest_quickAddEnergy"
 	},
 	backyard_backyardShipInfoLayer_error_noQuickItem = {
@@ -1387,7 +1423,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoMediator_shipState_event"
 	},
 	backyard_backyardShipInfoMediator_quest_moveOutFleet = {
-		tip = "She's currently deployed for battle. Do you want to <color=#A9F548>remove her from the fleet formation</color>?",
+		tip = "She's currently deployed for battle. Do you want to <color=#92fc63>remove her from the fleet formation</color>?",
 		key = "backyard_backyardShipInfoMediator_quest_moveOutFleet"
 	},
 	backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
@@ -1431,7 +1467,7 @@ pg.gametip = {
 		key = "backyard_extendArea_ok"
 	},
 	backyard_extendArea_erro = {
-		tip = "Failed to expand dorm: <color=#A9F548>$1</color>",
+		tip = "Failed to expand dorm: <color=#92fc63>$1</color>",
 		key = "backyard_extendArea_erro"
 	},
 	backyard_extendArea_tip = {
@@ -1459,15 +1495,15 @@ pg.gametip = {
 		key = "backyard_cant_buy_tip"
 	},
 	backyard_theme_lock_tip = {
-		tip = "This theme is <color=#A9F548>not yet open</color>.",
+		tip = "This theme is <color=#92fc63>not yet open</color>.",
 		key = "backyard_theme_lock_tip"
 	},
 	backyard_theme_open_tip = {
-		tip = "To unlock:\nReach Commander lv. <color=#A9F548>$1</color>",
+		tip = "To unlock:\nReach Commander lv. <color=#92fc63>$1</color>",
 		key = "backyard_theme_open_tip"
 	},
 	backyard_theme_furniture_buy_tip = {
-		tip = "Spend <material=outline c=#473B3A x=1 y=-1><color=#A9F548>$1</color></material> Decor Tokens to buy <material=outline c=#473B3A x=1 y=-1><color=#A9F548>$2</color></material>?",
+		tip = "Spend <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> Decor Tokens to buy <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>?",
 		key = "backyard_theme_furniture_buy_tip"
 	},
 	backyard_cannot_repeat_purchase = {
@@ -1527,19 +1563,19 @@ pg.gametip = {
 		key = "equipment_equipDevUI_error_noPos"
 	},
 	equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "Unable to equip: <color=#A9F548>$1</color>",
+		tip = "Unable to equip: <color=#92fc63>$1</color>",
 		key = "equipment_equipmentInfoLayer_error_canNotEquip"
 	},
 	equipment_equipmentScene_selectError_more = {
-		tip = "May select up to <color=#A9F548>$1</color> pieces of gear",
+		tip = "May select up to <color=#92fc63>$1</color> pieces of gear",
 		key = "equipment_equipmentScene_selectError_more"
 	},
 	equipment_newEquipLayer_getNewEquip = {
-		tip = "Gear received: <color=#A9F548>$1</color>",
+		tip = "Gear received: <color=#92fc63>$1</color>",
 		key = "equipment_newEquipLayer_getNewEquip"
 	},
 	equipment_select_materials_tip = {
-		tip = "Please select required materials.",
+		tip = " ",
 		key = "equipment_select_materials_tip"
 	},
 	equipment_select_device_tip = {
@@ -1547,7 +1583,7 @@ pg.gametip = {
 		key = "equipment_select_device_tip"
 	},
 	equipment_cant_unload = {
-		tip = "<color=#A9F548>Your gear storage is full.</color> Unable to unequip gear.",
+		tip = "<color=#92fc63>Your gear storage is full.</color> Unable to unequip gear.",
 		key = "equipment_cant_unload"
 	},
 	equipment_max_level = {
@@ -1555,15 +1591,15 @@ pg.gametip = {
 		key = "equipment_max_level"
 	},
 	exercise_count_insufficient = {
-		tip = "<color=#A9F548>You don't have enough exercises.</color>",
+		tip = "<color=#92fc63>You don't have enough exercises.</color>",
 		key = "exercise_count_insufficient"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "Are you sure you want to <color=#A9F548>remove the defensive vanguard/main fleet</color> and name them as Fleet 1?",
+		tip = "Are you sure you want to <color=#92fc63>remove the defensive vanguard/main fleet</color> and name them as Fleet 1?",
 		key = "exercise_clear_fleet_tip"
 	},
 	exercise_fleet_exit_tip = {
-		tip = "This ship is currently part of an <color=#A9F548>Arena defensive fleet</color>. Are you sure you want to remove them?",
+		tip = "This ship is currently part of an <color=#92fc63>Arena defensive fleet</color>. Are you sure you want to remove them?",
 		key = "exercise_fleet_exit_tip"
 	},
 	exercise_replace_rivals_ok_tip = {
@@ -1571,19 +1607,19 @@ pg.gametip = {
 		key = "exercise_replace_rivals_ok_tip"
 	},
 	exercise_replace_rivals_question = {
-		tip = "Spend <color=#A9F548>$1</color> Gems to refresh list of opponents?",
+		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of opponents?",
 		key = "exercise_replace_rivals_question"
 	},
 	exercise_count_recover_tip = {
-		tip = "(Recover in <color=#A9F548>$1</color>)",
+		tip = "(Recover in <color=#92fc63>$1</color>)",
 		key = "exercise_count_recover_tip"
 	},
 	exercise_shop_refresh_tip = {
-		tip = "Spend <color=#A9F548>$1</color> Gems to refresh list of items?",
+		tip = "Spend <color=#92fc63>$1</color> Gems to refresh list of items?",
 		key = "exercise_shop_refresh_tip"
 	},
 	exercise_shop_buy_tip = {
-		tip = "Exchange <color=#A9F548>$1</color> Merit for this item?",
+		tip = "Exchange <color=#92fc63>$1</color> Merit for this item?",
 		key = "exercise_shop_buy_tip"
 	},
 	exercise_formation_title = {
@@ -1603,7 +1639,7 @@ pg.gametip = {
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
-		tip = "Select characters to <color=#A9F548>$1</color>: ",
+		tip = "Select characters to <color=#92fc63>$1</color>: ",
 		key = "dock_yard_left_tips"
 	},
 	fleet_error_no_fleet = {
@@ -1619,7 +1655,7 @@ pg.gametip = {
 		key = "fleet_repairShips_error_noResource"
 	},
 	fleet_repairShips_quest = {
-		tip = "Spend <color=#A9F548>$1</color> Coins to restore energy to all ships?",
+		tip = "Spend <color=#92fc63>$1</color> Coins to restore energy to all ships?",
 		key = "fleet_repairShips_quest"
 	},
 	fleet_fleetRaname_error = {
@@ -1683,7 +1719,7 @@ pg.gametip = {
 		key = "friend_addblacklist_success"
 	},
 	friend_confirm_add_blacklist = {
-		tip = "Are you sure you want to blacklist <color=#A9F548>$1</color>?\n(View your blacklist from your friends menu)",
+		tip = "Are you sure you want to blacklist <color=#92fc63>$1</color>?\n(View your blacklist from your friends menu)",
 		key = "friend_confirm_add_blacklist"
 	},
 	friend_relieve_backlist_tip = {
@@ -1711,7 +1747,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "If you cancel class, only partial EXP will be granted and you will <color=#A9F548>lose your textbook</color>. Continue canceling this class?",
+		tip = "If you cancel class, only partial EXP will be granted and you will <color=#92fc63>lose your textbook</color>. Continue canceling this class?",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1727,24 +1763,20 @@ pg.gametip = {
 			pageMode = true,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	tactics_lesson_start_tip = {
-		tip = "Are you sure you want to spend <color=#A9F548>1</color><color=#A9F548> \"$1\" </color>to train <color=#A9F548>$2's</color> <color=#A9F548>$3</color> skill?",
+		tip = "Are you sure you want to spend <color=#92fc63>1</color><color=#92fc63> \"$1\" </color>to train <color=#92fc63>$2's</color> <color=#92fc63>$3</color> skill?",
 		key = "tactics_lesson_start_tip"
 	},
 	tactics_noskill_erro = {
@@ -1756,7 +1788,7 @@ pg.gametip = {
 		key = "tactics_max_level"
 	},
 	tactics_end_to_learn = {
-		tip = "<color=#A9F548>$1</color> has finished class! Her <color=#A9F548>$2</color> skill received <color=#A9F548>$3</color> EXP.",
+		tip = "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP.",
 		key = "tactics_end_to_learn"
 	},
 	tactics_continue_to_learn = {
@@ -1960,15 +1992,15 @@ pg.gametip = {
 		key = "mail_takeAttachment_error_noAttach"
 	},
 	mail_count = {
-		tip = "Includes <color=#A9F548>$1</color> reward(s)",
+		tip = "Includes <color=#92fc63>$1</color> reward(s)",
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#A9F548>Failed to collect.</color>\n\nYour <color=#A9F548>gear storage is full</color>.",
+		tip = "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>gear storage is full</color>.",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#A9F548>Failed to collect.</color>\n\nYour <color=#A9F548>dock is full</color>.",
+		tip = "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>dock is full</color>.",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -2000,15 +2032,15 @@ pg.gametip = {
 		key = "main_mailLayer_attachTaken"
 	},
 	main_mailLayer_quest_clear = {
-		tip = "Are you sure you want to delete all read mails? <color=#A9F548>(Mail with rewards will not be deleted)</color>",
+		tip = "Are you sure you want to delete all read mails? <color=#92fc63>(Mail with rewards will not be deleted)</color>",
 		key = "main_mailLayer_quest_clear"
 	},
 	main_mailLayer_quest_deleteNotTakeAttach = {
-		tip = "<color=#A9F548>There are uncollected rewards.</color> Are you sure you want to delete this message?",
+		tip = "<color=#92fc63>There are uncollected rewards.</color> Are you sure you want to delete this message?",
 		key = "main_mailLayer_quest_deleteNotTakeAttach"
 	},
 	main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#A9F548>You have not read this message yet.</color> Are you sure you want to delete this message?",
+		tip = "<color=#92fc63>You have not read this message yet.</color> Are you sure you want to delete this message?",
 		key = "main_mailLayer_quest_deleteNotRead"
 	},
 	main_mailMediator_mailDelete = {
@@ -2040,27 +2072,27 @@ pg.gametip = {
 		key = "main_navalAcademyScene_noClassDialogue"
 	},
 	main_navalAcademyScene_quest_startClass = {
-		tip = "<color=#A9F548>Class is starting! Please take your seats~!</color>",
+		tip = "<color=#92fc63>Class is starting! Please take your seats~!</color>",
 		key = "main_navalAcademyScene_quest_startClass"
 	},
 	main_navalAcademyScene_quest_stopClass = {
-		tip = "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#A9F548>(They won't earn stat bonuses if they skip class)</color>",
+		tip = "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#92fc63>(They won't earn stat bonuses if they skip class)</color>",
 		key = "main_navalAcademyScene_quest_stopClass"
 	},
 	main_navalAcademyScene_quest_Classover_long = {
-		tip = "Class dismissed! <color=#A9F548>$1</color> studied hard. <color=#A9F548>$2 +$3</color>; <color=#A9F548>$4 +$5</color>!",
+		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>; <color=#92fc63>$4 +$5</color>!",
 		key = "main_navalAcademyScene_quest_Classover_long"
 	},
 	main_navalAcademyScene_quest_Classover_short = {
-		tip = "Class dismissed! <color=#A9F548>$1</color> studied hard. <color=#A9F548>$2 +$3</color>!",
+		tip = "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>!",
 		key = "main_navalAcademyScene_quest_Classover_short"
 	},
 	main_navalAcademyScene_full = {
-		tip = "This student has completed <color=#A9F548>all course credits</color>!",
+		tip = "This student has completed <color=#92fc63>all course credits</color>!",
 		key = "main_navalAcademyScene_full"
 	},
 	main_navalAcademyScene_upgrade_complete = {
-		tip = "<color=#A9F548>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!",
+		tip = "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!",
 		key = "main_navalAcademyScene_upgrade_complete"
 	},
 	main_navalAcademyScene_class_upgrade_complete = {
@@ -2100,7 +2132,7 @@ pg.gametip = {
 		key = "main_notificationLayer_addFriendError_friendAlready"
 	},
 	main_notificationLayer_quest_deletFriend = {
-		tip = "Are you sure you want to delete <color=#A9F548>$1</color>?",
+		tip = "Are you sure you want to delete <color=#92fc63>$1</color>?",
 		key = "main_notificationLayer_quest_deletFriend"
 	},
 	main_notificationLayer_quest_request = {
@@ -2108,7 +2140,7 @@ pg.gametip = {
 		key = "main_notificationLayer_quest_request"
 	},
 	main_notificationLayer_enter_room = {
-		tip = "Entered room <color=#A9F548>$1</color>.",
+		tip = "Entered room <color=#92fc63>$1</color>.",
 		key = "main_notificationLayer_enter_room"
 	},
 	main_notificationLayer_not_roomId = {
@@ -2124,11 +2156,11 @@ pg.gametip = {
 		key = "main_notificationMediator_sendFriendRequest"
 	},
 	main_notificationMediator_beFriend = {
-		tip = "You are now friends with <color=#A9F548>$1</color>!",
+		tip = "You are now friends with <color=#92fc63>$1</color>!",
 		key = "main_notificationMediator_beFriend"
 	},
 	main_notificationMediator_deleteFriend = {
-		tip = "You are no longer friends with <color=#A9F548>$1</color>.",
+		tip = "You are no longer friends with <color=#92fc63>$1</color>.",
 		key = "main_notificationMediator_deleteFriend"
 	},
 	main_notificationMediator_room_max_number = {
@@ -2144,7 +2176,7 @@ pg.gametip = {
 		key = "main_playerInfoLayer_inputManifesto"
 	},
 	main_playerInfoLayer_quest_changeName = {
-		tip = "This will cost <color=#A9F548>100 Gems</color>. Continue?",
+		tip = "This will cost <color=#92fc63>100 Gems</color>. Continue?",
 		key = "main_playerInfoLayer_quest_changeName"
 	},
 	main_playerInfoLayer_error_changeNameNoGem = {
@@ -2172,7 +2204,7 @@ pg.gametip = {
 		key = "coloring_erase_warning"
 	},
 	coloring_lock = {
-		tip = "Not Unlocked",
+		tip = "Locked",
 		key = "coloring_lock"
 	},
 	coloring_wait_open = {
@@ -2308,7 +2340,7 @@ February 8th.]]
 		key = "resourceSite_startResourceSite_error"
 	},
 	ship_error_noShip = {
-		tip = "Character does not exist: <color=#A9F548>$1</color>",
+		tip = "Character does not exist: <color=#92fc63>$1</color>",
 		key = "ship_error_noShip"
 	},
 	ship_addStarExp_error = {
@@ -2320,7 +2352,7 @@ February 8th.]]
 		key = "ship_buildShip_error"
 	},
 	ship_buildShip_error_noTemplate = {
-		tip = "Ship build config not found: <color=#A9F548>$1</color>",
+		tip = "Ship build config not found: <color=#92fc63>$1</color>",
 		key = "ship_buildShip_error_noTemplate"
 	},
 	ship_buildShip_error_notEnoughItem = {
@@ -2348,11 +2380,11 @@ February 8th.]]
 		key = "ship_buildShip_not_position"
 	},
 	ship_buildBatchShip = {
-		tip = "Spend <color=#A9F548>$1 Gems</color> to receive <color=#A9F548>10 high performance ships</color>?",
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?",
 		key = "ship_buildBatchShip"
 	},
 	ship_buildSingleShip = {
-		tip = "Spend <color=#A9F548>$1 Gems</color> to receive <color=#A9F548>1 high performance ships</color>?",
+		tip = "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>1 high performance ships</color>?",
 		key = "ship_buildSingleShip"
 	},
 	ship_buildShip_succeed = {
@@ -2364,7 +2396,7 @@ February 8th.]]
 		key = "ship_buildShip_list_empty"
 	},
 	ship_buildship_tip = {
-		tip = "Cost to build 1 <color=#A9F548>$4</color>:\n<color=#A9F548>$1 Coins</color> and <color=#A9F548>$2 $3</color>.",
+		tip = "Cost to build 1 <color=#92fc63>$4</color>:\n<color=#92fc63>$1 Coins</color> and <color=#92fc63>$2 $3</color>.",
 		key = "ship_buildship_tip"
 	},
 	ship_destoryShips_error = {
@@ -2372,7 +2404,7 @@ February 8th.]]
 		key = "ship_destoryShips_error"
 	},
 	ship_equipToShip_ok = {
-		tip = "<color=#A9F548>$1</color> equipped!",
+		tip = "<color=#92fc63>$1</color> equipped!",
 		key = "ship_equipToShip_ok"
 	},
 	ship_equipToShip_error = {
@@ -2396,7 +2428,7 @@ February 8th.]]
 		key = "ship_getShip_error_notFinish"
 	},
 	ship_getShip_error_full = {
-		tip = "<color=#A9F548>Your dock is full.</color> Unable to receive ship!",
+		tip = "<color=#92fc63>Your dock is full.</color> Unable to receive ship!",
 		key = "ship_getShip_error_full"
 	},
 	ship_modShip_error = {
@@ -2404,7 +2436,7 @@ February 8th.]]
 		key = "ship_modShip_error"
 	},
 	ship_modShip_error_notEnoughGold = {
-		tip = "<color=#A9F548>Not enough Coins</color>",
+		tip = "<color=#92fc63>Not enough Coins</color>",
 		key = "ship_modShip_error_notEnoughGold"
 	},
 	ship_remouldShip_error = {
@@ -2432,11 +2464,11 @@ February 8th.]]
 		key = "ship_unequip_all_success"
 	},
 	ship_updateShipLock_ok_lock = {
-		tip = "<color=#A9F548>$1</color> locked.",
+		tip = "<color=#92fc63>$1</color> locked.",
 		key = "ship_updateShipLock_ok_lock"
 	},
 	ship_updateShipLock_ok_unlock = {
-		tip = "<color=#A9F548>$1</color> unlocked.",
+		tip = "<color=#92fc63>$1</color> unlocked.",
 		key = "ship_updateShipLock_ok_unlock"
 	},
 	ship_updateShipLock_error = {
@@ -2452,7 +2484,7 @@ February 8th.]]
 		key = "ship_upgradeStar_error_4010"
 	},
 	ship_upgradeStar_error_lvLimit = {
-		tip = "May not Limit Break at current <color=#A9F548>level</color>.",
+		tip = "May not Limit Break at current <color=#92fc63>level</color>.",
 		key = "ship_upgradeStar_error_lvLimit"
 	},
 	ship_upgradeStar_error_noEnoughMatrail = {
@@ -2460,7 +2492,7 @@ February 8th.]]
 		key = "ship_upgradeStar_error_noEnoughMatrail"
 	},
 	ship_upgradeStar_notConfig = {
-		tip = "Unable to find Limit Break config <color=#A9F548>$1</color>.",
+		tip = "Unable to find Limit Break config <color=#92fc63>$1</color>.",
 		key = "ship_upgradeStar_notConfig"
 	},
 	ship_upgradeStar_maxLevel = {
@@ -2472,7 +2504,7 @@ February 8th.]]
 		key = "ship_upgradeStar_select_material_tip"
 	},
 	ship_exchange_question = {
-		tip = "Exchange <color=#A9F548>$1</color> Medals for <color=#A9F548>$2</color>?",
+		tip = "Exchange <color=#92fc63>$1</color> Medals for <color=#92fc63>$2</color>?",
 		key = "ship_exchange_question"
 	},
 	ship_exchange_medalCount_noEnough = {
@@ -2480,7 +2512,7 @@ February 8th.]]
 		key = "ship_exchange_medalCount_noEnough"
 	},
 	ship_exchange_erro = {
-		tip = "Exchange failed: <color=#A9F548>$1</color>",
+		tip = "Exchange failed: <color=#92fc63>$1</color>",
 		key = "ship_exchange_erro"
 	},
 	ship_exchange_confirm = {
@@ -2488,7 +2520,7 @@ February 8th.]]
 		key = "ship_exchange_confirm"
 	},
 	ship_exchange_tip = {
-		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#A9F548>06:00</color> and <color=#A9F548>18:00</color>.",
+		tip = "1. You will receive Medals of Honor when retiring a ship.\n2. You may exchange Medals for new ships.\n3. The Exchange Shop refreshes every day at <color=#92fc63>06:00</color> and <color=#92fc63>18:00</color>.",
 		key = "ship_exchange_tip"
 	},
 	ship_vo_fighting = {
@@ -2552,7 +2584,7 @@ February 8th.]]
 		key = "ship_buildShipMediator_finishBuild"
 	},
 	ship_buildShipScene_quest_quickFinish = {
-		tip = "You must spend <color=#A9F548>$1</color> x Quick Finisher to complete construction.\n\nQuick Finishers left: <color=#A9F548>$3</color>",
+		tip = "You must spend <color=#92fc63>$1</color> x Quick Finisher to complete construction.\n\nQuick Finishers left: <color=#92fc63>$3</color>",
 		key = "ship_buildShipScene_quest_quickFinish"
 	},
 	ship_dockyardMediator_destroy = {
@@ -2568,11 +2600,11 @@ February 8th.]]
 		key = "ship_dockyardScene_noRole"
 	},
 	ship_dockyardScene_error_choiseRoleMore = {
-		tip = "Must select at least <color=#A9F548>$1</color> character(s)",
+		tip = "Must select at least <color=#92fc63>$1</color> character(s)",
 		key = "ship_dockyardScene_error_choiseRoleMore"
 	},
 	ship_dockyardScene_error_choiseRoleLess = {
-		tip = "May select up to <color=#A9F548>$1</color> characters",
+		tip = "May select up to <color=#92fc63>$1</color> characters",
 		key = "ship_dockyardScene_error_choiseRoleLess"
 	},
 	ship_formationMediator_leastLimit = {
@@ -2588,19 +2620,19 @@ February 8th.]]
 		key = "ship_formationMediator_changeNameError_sameShip"
 	},
 	ship_formationMediator_addShipError_overlimit = {
-		tip = "Fleet may only have <color=#A9F548>$1</color> <color=#A9F548>$2</color>.",
+		tip = "Fleet may only have <color=#92fc63>$1</color> <color=#92fc63>$2</color>.",
 		key = "ship_formationMediator_addShipError_overlimit"
 	},
 	ship_formationMediator_replaceError_onlyShip = {
-		tip = "Selected ship, <color=#A9F548>$1</color>, is a unique <color=#A9F548>$2</color> and may not be changed!",
+		tip = "Selected ship, <color=#92fc63>$1</color>, is a unique <color=#92fc63>$2</color> and may not be changed!",
 		key = "ship_formationMediator_replaceError_onlyShip"
 	},
 	ship_formationMediator_quest_replace = {
-		tip = "The selected ship is already deployed to <color=#A9F548>$1</color>. Continue switching?",
+		tip = "The selected ship is already deployed to <color=#92fc63>$1</color>. Continue switching?",
 		key = "ship_formationMediator_quest_replace"
 	},
 	ship_formationMediaror_trash_warning = {
-		tip = "$1 must have at least <color=#A9F548>1 ship in the Vanguard</color> and <color=#A9F548>1 ship in the Main Fleet</color>. Confirm to clear $1 or cancel to go back.",
+		tip = "$1 must have at least <color=#92fc63>1 ship in the Vanguard</color> and <color=#92fc63>1 ship in the Main Fleet</color>. Confirm to clear $1 or cancel to go back.",
 		key = "ship_formationMediaror_trash_warning"
 	},
 	ship_formationUI_fleetName1 = {
@@ -2639,6 +2671,10 @@ February 8th.]]
 		tip = "Exercise Fleet",
 		key = "ship_formationUI_exercise_fleetName"
 	},
+	ship_formationUI_fleetName_world = {
+		tip = "大世界舰队",
+		key = "ship_formationUI_fleetName_world"
+	},
 	ship_formationUI_changeFormationError_flag = {
 		tip = "Formation switch error. Please check your formations!",
 		key = "ship_formationUI_changeFormationError_flag"
@@ -2648,23 +2684,23 @@ February 8th.]]
 		key = "ship_formationUI_changeFormationError_countError"
 	},
 	ship_formationUI_removeError_onlyShip = {
-		tip = "<color=#A9F548>$1</color> is a unique <color=#A9F548>$3</color> and may not be recalled!",
+		tip = "<color=#92fc63>$1</color> is a unique <color=#92fc63>$3</color> and may not be recalled!",
 		key = "ship_formationUI_removeError_onlyShip"
 	},
 	ship_formationUI_quest_remove = {
-		tip = "Are you sure you want to recall <color=#A9F548>$1</color>?",
+		tip = "Are you sure you want to recall <color=#92fc63>$1</color>?",
 		key = "ship_formationUI_quest_remove"
 	},
 	ship_newShipLayer_get = {
-		tip = "Receive <color=#A9F548>$1</color> - <color=#A9F548>$2</color>",
+		tip = "Receive <color=#92fc63>$1</color> - <color=#92fc63>$2</color>",
 		key = "ship_newShipLayer_get"
 	},
 	ship_newSkinLayer_get = {
-		tip = "Receive <color=#A9F548>$1</color> skin - <color=#A9F548>$2</color>",
+		tip = "Receive <color=#92fc63>$1</color> skin - <color=#92fc63>$2</color>",
 		key = "ship_newSkinLayer_get"
 	},
 	ship_newSkin_name = {
-		tip = "Skin \"$1\"",
+		tip = "$1",
 		key = "ship_newSkin_name"
 	},
 	ship_shipInfoMediator_destory = {
@@ -2680,11 +2716,11 @@ February 8th.]]
 		key = "ship_shipInfoScene_equipUnlockSlostYesText"
 	},
 	ship_shipInfoScene_effect = {
-		tip = "Current EXP: <color=#A9F548>$1/$2</color>\n",
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipInfoScene_effect"
 	},
 	ship_shipInfoScene_effect1or2 = {
-		tip = "Current bonus: <color=#A9F548>$1</color>",
+		tip = "Current bonus: <color=#92fc63>$1</color>",
 		key = "ship_shipInfoScene_effect1or2"
 	},
 	ship_shipInfoScene_modLvMax = {
@@ -2696,11 +2732,11 @@ February 8th.]]
 		key = "ship_shipInfoScene_choiseMod"
 	},
 	ship_shipModLayer_effect = {
-		tip = "Current EXP: <color=#A9F548>$1/$2</color>\n",
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipModLayer_effect"
 	},
 	ship_shipModLayer_effect1or2 = {
-		tip = "Current bonus: <color=#A9F548>$1</color>",
+		tip = "Current bonus: <color=#92fc63>$1</color>",
 		key = "ship_shipModLayer_effect1or2"
 	},
 	ship_shipModLayer_modSuccess = {
@@ -2708,7 +2744,7 @@ February 8th.]]
 		key = "ship_shipModLayer_modSuccess"
 	},
 	ship_mod_no_addition_tip = {
-		tip = "Enhancing <color=#A9F548>has no buffs</color>. Continue?",
+		tip = "Enhancing <color=#92fc63>has no buffs</color>. Continue?",
 		key = "ship_mod_no_addition_tip"
 	},
 	ship_shipModMediator_choiseMaterial = {
@@ -2728,7 +2764,7 @@ February 8th.]]
 		key = "ship_shipModMediator_noticeSameButLargerStar"
 	},
 	ship_shipModMediator_quest = {
-		tip = "Ship selected as material is <color=#A9F548>$1</color>. Continue limit break?",
+		tip = "Ship selected as material is <color=#92fc63>$1</color>. Continue limit break?",
 		key = "ship_shipModMediator_quest"
 	},
 	ship_shipUpgradeLayer2_levelError = {
@@ -2744,27 +2780,27 @@ February 8th.]]
 		key = "ship_shipUpgradeLayer2_ok"
 	},
 	ship_shipUpgradeLayer2_effect = {
-		tip = "Current EXP: <color=#A9F548>$1/$2</color>\n",
+		tip = "Current EXP: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipUpgradeLayer2_effect"
 	},
 	ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "Current bonus: <color=#A9F548>$1</color>",
+		tip = "Current bonus: <color=#92fc63>$1</color>",
 		key = "ship_shipUpgradeLayer2_effect1or2"
 	},
 	ship_shipUpgradeLayer2_mod_uncommon_tip = {
-		tip = "You have selected an <color=#A9F548>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
 		key = "ship_shipUpgradeLayer2_mod_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_uncommon_tip = {
-		tip = "You have selected an <color=#A9F548>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
+		tip = "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?",
 		key = "ship_shipUpgradeLayer2_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "You have selected a <color=#A9F548>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?",
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as an enhancing material. Continue enhancing?",
 		key = "ship_shipUpgradeLayer2_mod_advanced_tip"
 	},
 	ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "You have selected a <color=#A9F548>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?",
+		tip = "You have selected a <color=#92fc63>lv. 2 or higher</color> ship to use as a limit break material. Continue to limit break?",
 		key = "ship_shipUpgradeLayer2_advanced_tip"
 	},
 	ship_mod_exp_to_attr_tip = {
@@ -2772,7 +2808,7 @@ February 8th.]]
 		key = "ship_mod_exp_to_attr_tip"
 	},
 	ship_max_star = {
-		tip = "This ship's <color=#A9F548>stars have been fully upgraded</color>!",
+		tip = "This ship's <color=#92fc63>stars have been fully upgraded</color>!",
 		key = "ship_max_star"
 	},
 	ship_skill_unlock_tip = {
@@ -2780,11 +2816,11 @@ February 8th.]]
 		key = "ship_skill_unlock_tip"
 	},
 	ship_lock_tip = {
-		tip = "Are you sure you want to <color=#A9F548>lock</color> this ship?",
+		tip = "Are you sure you want to <color=#92fc63>lock</color> this ship?",
 		key = "ship_lock_tip"
 	},
 	ship_destroy_uncommon_tip = {
-		tip = "You are about to retire an <color=#A9F548>Elite or better</color> ship. Continue retiring ships?",
+		tip = "You are about to retire an <color=#92fc63>Elite or better</color> ship. Continue retiring ships?",
 		key = "ship_destroy_uncommon_tip"
 	},
 	ship_destroy_advanced_tip = {
@@ -2812,7 +2848,7 @@ February 8th.]]
 		key = "test_ship_upgrade_tip"
 	},
 	shop_buyItem_ok = {
-		tip = "Purchase complete! Received <color=#A9F548>$2 x$1</color>!",
+		tip = "Purchase complete! Received <color=#92fc63>$2 x$1</color>!",
 		key = "shop_buyItem_ok"
 	},
 	shop_buyItem_error = {
@@ -2836,15 +2872,15 @@ February 8th.]]
 		key = "stage_beginStage_error_fleetEmpty"
 	},
 	stage_beginStage_error_teamEmpty = {
-		tip = "<color=#A9F548>$1</color> requires at least <color=#A9F548>$2 ships</color>!",
+		tip = "<color=#92fc63>$1</color> requires at least <color=#92fc63>$2 ships</color>!",
 		key = "stage_beginStage_error_teamEmpty"
 	},
 	stage_beginStage_error_noEnergy = {
-		tip = "Your ships are <color=#A9F548>fatigued</color>!",
+		tip = "Your ships are <color=#92fc63>fatigued</color>!",
 		key = "stage_beginStage_error_noEnergy"
 	},
 	stage_beginStage_error_noResource = {
-		tip = "Your ships are <color=#A9F548>out of Oil</color>!",
+		tip = "Your ships are <color=#92fc63>out of Oil</color>!",
 		key = "stage_beginStage_error_noResource"
 	},
 	stage_finishStage_error = {
@@ -2852,15 +2888,15 @@ February 8th.]]
 		key = "stage_finishStage_error"
 	},
 	levelScene_map_lock = {
-		tip = "<color=#A9F548>Complete this chapter</color> in order to unlock the next.",
+		tip = "<color=#92fc63>Complete this chapter</color> in order to unlock the next.",
 		key = "levelScene_map_lock"
 	},
 	levelScene_chapter_lock = {
-		tip = "Please complete <color=#A9F548>the previous stage</color>.",
+		tip = "Please complete <color=#92fc63>the previous stage</color>.",
 		key = "levelScene_chapter_lock"
 	},
 	levelScene_chapter_strategying = {
-		tip = "Stage <color=#A9F548>$1</color> in progress...",
+		tip = "Stage <color=#92fc63>$1</color> in progress...",
 		key = "levelScene_chapter_strategying"
 	},
 	levelScene_threat_to_rule_out = {
@@ -2868,11 +2904,11 @@ February 8th.]]
 		key = "levelScene_threat_to_rule_out"
 	},
 	levelScene_whether_to_retreat = {
-		tip = "Commander, are you really sure you want to <color=#A9F548>retreat</color>?",
+		tip = "Commander, are you really sure you want to <color=#92fc63>retreat</color>?",
 		key = "levelScene_whether_to_retreat"
 	},
 	levelScene_who_to_retreat = {
-		tip = "Commander, are you sure you want to retreat from <color=#A9F548>$1</color>?",
+		tip = "Commander, are you sure you want to retreat from <color=#92fc63>$1</color>?",
 		key = "levelScene_who_to_retreat"
 	},
 	levelScene_time_out = {
@@ -2912,7 +2948,7 @@ February 8th.]]
 		key = "levelScene_tracking_error_3001"
 	},
 	levelScene_chapter_unlock_tip = {
-		tip = "Reach Commander lv. <color=#A9F548>$1</color> to unlock this chapter.",
+		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter.",
 		key = "levelScene_chapter_unlock_tip"
 	},
 	levelScene_chapter_win = {
@@ -3034,7 +3070,7 @@ February 8th.]]
 		key = "levelScene_chapter_timeout"
 	},
 	levelScene_chapter_level_limit = {
-		tip = "Reach Commander lv. <color=#A9F548>$1</color> to unlock this stage.",
+		tip = "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage.",
 		key = "levelScene_chapter_level_limit"
 	},
 	levelScene_chapter_count_tip = {
@@ -3077,6 +3113,54 @@ February 8th.]]
 		tip = "You cannot initiate any more Rescue Missions. ",
 		key = "error_refresh_sub_chapter"
 	},
+	world_ship_repair_1 = {
+		tip = "维护保养$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2",
+		key = "world_ship_repair_1"
+	},
+	world_ship_repair_2 = {
+		tip = "紧急维修$1需要：\n<icon name=diamond w=0.7 h=0.7/>*$2",
+		key = "world_ship_repair_2"
+	},
+	world_ship_repair_all = {
+		tip = "检修所有船需要：\n<icon name=diamond w=0.7 h=0.7/>*$1",
+		key = "world_ship_repair_all"
+	},
+	world_ship_repair_no_need = {
+		tip = "无需修理",
+		key = "world_ship_repair_no_need"
+	},
+	world_event_teleport_alter = {
+		tip = "即将传送到其他地图，交战中舰队将会撤退",
+		key = "world_event_teleport_alter"
+	},
+	world_transport_battle_alter = {
+		tip = "其他舰队处于交战中，无法传送",
+		key = "world_transport_battle_alter"
+	},
+	world_help_tip = {
+		key = "world_help_tip",
+		tip = {
+			{
+				info = "\n大世界说明："
+			}
+		}
+	},
+	world_stamina_exchange = {
+		tip = "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？",
+		key = "world_stamina_exchange"
+	},
+	world_stamina_not_enough = {
+		tip = "行动力不足",
+		key = "world_stamina_not_enough"
+	},
+	world_map_dangerous = {
+		tip = "该海域过于危险，禁止进入",
+		key = "world_map_dangerous"
+	},
+	world_item_allocate_panel_fleet_info_text = {
+		tip = "得到了塞壬的祝福，舰娘的状态被强化了！",
+		key = "world_item_allocate_panel_fleet_info_text"
+	},
 	task_notfound_error = {
 		tip = "Unable to find mission config. Update may be required. Error ID: ",
 		key = "task_notfound_error"
@@ -3094,15 +3178,15 @@ February 8th.]]
 		key = "task_submitTask_error_notFinish"
 	},
 	task_taskMediator_getItem = {
-		tip = "Items received: <color=#A9F548>$1</color> <color=#A9F548>x$2</color>",
+		tip = "Items received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
 		key = "task_taskMediator_getItem"
 	},
 	task_taskMediator_getResource = {
-		tip = "Resources received: <color=#A9F548>$1</color> <color=#A9F548>x$2</color>",
+		tip = "Resources received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
 		key = "task_taskMediator_getResource"
 	},
 	task_taskMediator_getEquip = {
-		tip = "Gear received: <color=#A9F548>$1</color> <color=#A9F548>x$2</color>",
+		tip = "Gear received: <color=#92fc63>$1</color> <color=#92fc63>x$2</color>",
 		key = "task_taskMediator_getEquip"
 	},
 	task_target_chapter_in_progress = {
@@ -3218,7 +3302,7 @@ February 8th.]]
 		key = "collection_fetched"
 	},
 	buyProp_noResource_error = {
-		tip = "You don't have enough <color=#A9F548>$1</color>.",
+		tip = "You don't have enough <color=#92fc63>$1</color>.",
 		key = "buyProp_noResource_error"
 	},
 	refresh_shopStreet_ok = {
@@ -3246,7 +3330,7 @@ February 8th.]]
 		key = "buy_item_quest"
 	},
 	refresh_shopStreet_question = {
-		tip = "Spend $1 <color=#A9F548>$2</color> to refresh the list of items in the shop?\n\n<size=22>(Bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
+		tip = "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=22>(Bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
 		key = "refresh_shopStreet_question"
 	},
 	event_start_success = {
@@ -3298,7 +3382,7 @@ February 8th.]]
 		key = "event_giveup"
 	},
 	event_minimus_ship_numbers = {
-		tip = "You need at least <color=#A9F548>$1 ships</color> in your fleet to proceed with this mission.",
+		tip = "You need at least <color=#92fc63>$1 ships</color> in your fleet to proceed with this mission.",
 		key = "event_minimus_ship_numbers"
 	},
 	event_confirm_giveup = {
@@ -3318,15 +3402,15 @@ February 8th.]]
 		key = "event_same_type_not_allowed"
 	},
 	event_condition_ship_level = {
-		tip = "Have at least <color=#A9F548>1</color> <color=#A9F548>lv. $1</color> ship.",
+		tip = "Have at least <color=#92fc63>1</color> <color=#92fc63>lv. $1</color> ship.",
 		key = "event_condition_ship_level"
 	},
 	event_condition_ship_count = {
-		tip = "Have at least <color=#A9F548>$1</color> ships in team.",
+		tip = "Have at least <color=#92fc63>$1</color> ships in team.",
 		key = "event_condition_ship_count"
 	},
 	event_condition_ship_type = {
-		tip = "<color=#A9F548>$1</color> only",
+		tip = "<color=#92fc63>$1</color> only",
 		key = "event_condition_ship_type"
 	},
 	event_level_unreached = {
@@ -3338,7 +3422,7 @@ February 8th.]]
 		key = "event_type_unreached"
 	},
 	event_oil_consume = {
-		tip = "This commission will expend <icon name=oil w=0.7 h=0.7/><color=#A9F548>$1</color> Oil.",
+		tip = "This commission will expend <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color> Oil.",
 		key = "event_oil_consume"
 	},
 	event_type_unlimit = {
@@ -3370,15 +3454,15 @@ February 8th.]]
 		key = "just_now"
 	},
 	several_minutes_before = {
-		tip = "<color=#A9F548>$1</color>m ago",
+		tip = "<color=#92fc63>$1</color>m ago",
 		key = "several_minutes_before"
 	},
 	several_hours_before = {
-		tip = "<color=#A9F548>$1</color>hr ago",
+		tip = "<color=#92fc63>$1</color>hr ago",
 		key = "several_hours_before"
 	},
 	several_days_before = {
-		tip = "<color=#A9F548>$1d ago</color>",
+		tip = "<color=#92fc63>$1d ago</color>",
 		key = "several_days_before"
 	},
 	long_time_offline = {
@@ -3386,7 +3470,7 @@ February 8th.]]
 		key = "long_time_offline"
 	},
 	dont_send_message_frequently = {
-		tip = "Please do not send too many messages.",
+		tip = "Slow down! You may not send messages for another $1 second(s). ",
 		key = "dont_send_message_frequently"
 	},
 	no_activity = {
@@ -3394,7 +3478,7 @@ February 8th.]]
 		key = "no_activity"
 	},
 	which_day = {
-		tip = "Day <color=#A9F548>$1</color>",
+		tip = "Day <color=#92fc63>$1</color>",
 		key = "which_day"
 	},
 	invalidate_evaluation = {
@@ -3402,7 +3486,7 @@ February 8th.]]
 		key = "invalidate_evaluation"
 	},
 	chapter_no = {
-		tip = "Chapter <color=#A9F548>$1</color>",
+		tip = "Chapter <color=#92fc63>$1</color>",
 		key = "chapter_no"
 	},
 	reconnect_tip = {
@@ -3454,7 +3538,7 @@ February 8th.]]
 		key = "attribute_reload"
 	},
 	attribute_cd = {
-		tip = "Fire Rate ",
+		tip = "FR ",
 		key = "attribute_cd"
 	},
 	attribute_armor_type = {
@@ -3529,12 +3613,20 @@ February 8th.]]
 		tip = "OXY ",
 		key = "attribute_oxy_max"
 	},
+	attribute_dodge_limit = {
+		tip = "Evasion Limit ",
+		key = "attribute_dodge_limit"
+	},
+	attribute_intimacy = {
+		tip = "Intimacy",
+		key = "attribute_intimacy"
+	},
 	skill = {
 		tip = "Skills",
 		key = "skill"
 	},
 	cd_normal = {
-		tip = "Fire rate",
+		tip = "FR",
 		key = "cd_normal"
 	},
 	intensify = {
@@ -3554,7 +3646,7 @@ February 8th.]]
 		key = "formation_switch_success"
 	},
 	formation_switch_tip = {
-		tip = "Current fleet cannot be formed. Auto switching to <color=#A9F548>$1</color>.",
+		tip = "Current fleet cannot be formed. Auto switching to <color=#92fc63>$1</color>.",
 		key = "formation_switch_tip"
 	},
 	formation_reform_tip = {
@@ -3586,11 +3678,11 @@ February 8th.]]
 		key = "friend_info_page_tip"
 	},
 	friend_search_page_tip = {
-		tip = "Display up to <color=#A9F548>$1</color>  players",
+		tip = "Display up to <color=#92fc63>$1</color>  players",
 		key = "friend_search_page_tip"
 	},
 	friend_request_page_tip = {
-		tip = "Save up to <color=#A9F548>$1</color> most recent friend requests",
+		tip = "Save up to <color=#92fc63>$1</color> most recent friend requests",
 		key = "friend_request_page_tip"
 	},
 	friend_id_copy_ok = {
@@ -3614,7 +3706,7 @@ February 8th.]]
 		key = "friend_request_msg_title"
 	},
 	friend_max_count = {
-		tip = "Friends list <color=#A9F548>is full</color>! Unable to add friend.",
+		tip = "Friends list <color=#92fc63>is full</color>! Unable to add friend.",
 		key = "friend_max_count"
 	},
 	friend_add_ok = {
@@ -3642,7 +3734,7 @@ February 8th.]]
 		key = "friend_offline"
 	},
 	friend_msg_forbid = {
-		tip = "May not send requests with <color=#A9F548>blocked characters</color>.",
+		tip = "May not send requests with <color=#92fc63>blocked characters</color>.",
 		key = "friend_msg_forbid"
 	},
 	dont_add_self = {
@@ -3682,7 +3774,7 @@ February 8th.]]
 		key = "friend_resume_title_metal"
 	},
 	friend_resume_collection_rate = {
-		tip = "Collection completion: ",
+		tip = "Collection:",
 		key = "friend_resume_collection_rate"
 	},
 	friend_resume_attack_count = {
@@ -3700,6 +3792,10 @@ February 8th.]]
 	friend_resume_manoeuvre_win_rate = {
 		tip = "EXER-WR:",
 		key = "friend_resume_manoeuvre_win_rate"
+	},
+	friend_resume_fleet_gs = {
+		tip = "Fleet Power:",
+		key = "friend_resume_fleet_gs"
 	},
 	friend_event_count = {
 		tip = "Commissions: ",
@@ -3753,6 +3849,10 @@ February 8th.]]
 		tip = "Iris Libre",
 		key = "word_shipNation_ziyou"
 	},
+	word_shipNation_weixi = {
+		tip = "Vichya Dominion",
+		key = "word_shipNation_weixi"
+	},
 	word_shipNation_ai = {
 		tip = "KizunaAI",
 		key = "word_shipNation_ai"
@@ -3782,7 +3882,7 @@ February 8th.]]
 		key = "oil_buy_limit_tip"
 	},
 	friend_resume_title = {
-		tip = "Profile",
+		tip = "Resume",
 		key = "friend_resume_title"
 	},
 	friend_resume_data_title = {
@@ -3810,7 +3910,7 @@ February 8th.]]
 		key = "ship_equip_profiiency"
 	},
 	no_open_system_tip = {
-		tip = "Reach Commander <color=#A9F548>lv. $2</color> to unlock <color=#A9F548>$1</color>.",
+		tip = "Reach Commander <color=#92fc63>lv. $2</color> to unlock <color=#92fc63>$1</color>.",
 		key = "no_open_system_tip"
 	},
 	open_system_tip = {
@@ -3878,7 +3978,7 @@ February 8th.]]
 		key = "energy_desc_3"
 	},
 	energy_desc_4 = {
-		tip = "Something good is going to happen~!\n<color=#A9F548>(EXP bonus)</color>",
+		tip = "Something good is going to happen~!\n<color=#92fc63>(EXP bonus)</color>",
 		key = "energy_desc_4"
 	},
 	intimacy_desc_1 = {
@@ -3955,15 +4055,15 @@ Promise date: $1]],
 		key = "intimacy_desc_2_detail"
 	},
 	intimacy_desc_3_detail = {
-		tip = "$1 thinks you're a trustworthy Commander.\n<color=#A9F548><size=18>All stats (except Speed) +1%</size></color>",
+		tip = "$1 thinks you're a trustworthy Commander.\n<color=#92fc63><size=18>All stats (except Speed) +1%</size></color>",
 		key = "intimacy_desc_3_detail"
 	},
 	intimacy_desc_4_detail = {
-		tip = "$1 is so happy and only wants to be with you!\n<color=#A9F548><size=18>All stats (except Speed) +3%</size></color>",
+		tip = "$1 is so happy and only wants to be with you!\n<color=#92fc63><size=18>All stats (except Speed) +3%</size></color>",
 		key = "intimacy_desc_4_detail"
 	},
 	intimacy_desc_5_detail = {
-		tip = "$1 looks at you with eyes full of love.\n<color=#A9F548><size=18>All stats (except Speed) +6%</size></color>",
+		tip = "$1 looks at you with eyes full of love.\n<color=#92fc63><size=18>All stats (except Speed) +6%</size></color>",
 		key = "intimacy_desc_5_detail"
 	},
 	intimacy_desc_6_detail = {
@@ -4050,12 +4150,6 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/equip"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/bullet"
 				}
 			},
@@ -4074,27 +4168,35 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4140,39 +4242,35 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	help_shipinfo_intensify = {
 		key = "help_shipinfo_intensify",
 		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/strength"
-				}
-			},
 			{
 				icon = {
 					path = "",
@@ -4206,27 +4304,35 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4242,12 +4348,6 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/break"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/equip"
 				}
 			},
@@ -4272,27 +4372,103 @@ Promise date: $1]],
 			{
 				icon = {
 					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
 					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 7,
+			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_shipinfo_maxlevel = {
+		key = "help_shipinfo_maxlevel",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/bullet"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/energy"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 8,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4390,146 +4566,142 @@ May be improved up to 3 times]]
 				info = "1.Stats Details:"
 			},
 			{
-				info = "       HP: The ship's Health stat, defines how much damage \nshe can take before sinking.",
+				info = "       HP: The ship's Health stat, defines how much damage she can take before sinking.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "durability"
 				}
 			},
 			{
-				info = "       FP: The ship's Firepower stat, defines the ship's damage \nwith Artillery.",
+				info = "       FP: The ship's Firepower stat, defines the ship's damage with Artillery.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "damage"
 				}
 			},
 			{
-				info = "       AA: The ship's Anti-Air stat, defines the ship's damage \nwith Anti-Air Guns.",
+				info = "       AA: The ship's Anti-Air stat, defines the ship's damage with Anti-Air Guns.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "antiaircraft"
 				}
 			},
 			{
-				info = "       Armor Type: The ship's Armor thickness, defines the \nship's degree of protection. \n(Greatest to least: Heavy>Medium>Light.)",
+				info = "       Armor Type: The ship's Armor thickness, defines the ship's degree of protection. \n(Greatest to least: Heavy>Medium>Light.)",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "armor"
 				}
 			},
 			{
-				info = "       TRP: The ship's Torpedo stat, defines the ship's damage \nwith Torpedoes.",
+				info = "       TRP: The ship's Torpedo stat, defines the ship's damage with Torpedoes.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "torpedo"
 				}
 			},
 			{
-				info = "       AVI: The ship's Aviation stat, defines the ship's damage \nwith Aircraft.",
+				info = "       AVI: The ship's Aviation stat, defines the ship's damage with Aircraft.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "air"
 				}
 			},
 			{
-				info = "       RLD: The ship's Reload stat, defines the ship's rate of \nfire with all weaponry.",
+				info = "       RLD: The ship's Reload stat, defines the ship's rate of fire with all weaponry.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "reload"
 				}
 			},
 			{
-				info = "       EVA: The ship's Evasion stat, defines the ship's chance \nto evade enemy attacks.",
+				info = "       EVA: The ship's Evasion stat, defines the ship's chance to evade enemy attacks.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "dodge"
 				}
 			},
 			{
-				info = "       OIL: The ship's Oil Cost, defines how much Oil the ship \nconsumes per battle.",
+				info = "       OIL: The ship's Oil Cost, defines how much Oil the ship consumes per battle.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "luck"
 				}
 			},
 			{
-				info = "       ASW: The ship's Anti-Submarine Warfare stat, defines \nhow much damage the ship's Anti-Sub weapons deal.",
+				info = "       ASW: The ship's Anti-Submarine Warfare stat, defines how much damage the ship's Anti-Sub weapons deal.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "antisub"
 				}
 			},
 			{
-				info = "       OXY: The boat's Oxygen stat, defines how long she can \nstay underwater before she must resurface.",
+				info = "       OXY: The boat's Oxygen stat, defines how long she can stay underwater before she must resurface.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "oxy_max"
 				}
 			},
 			{
-				info = [[
-       AMO: The boat's Ammunition stat, defines how many 
-times a Submarine Fleet can attack and/or provide support. 
-The total number of times is equal to the Submarine Fleet's 
-combined AMO stat.]],
+				info = "       AMO: The boat's Ammunition stat, defines how many times a Submarine Fleet can attack and/or provide support. \nThe total number of times is equal to the Submarine Fleet's combined AMO stat.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "ammo"
 				}
 			},
 			{
-				info = "       ASR: The boat's Attack/Support Range, defines how far \nthe Submarine Fleet can move from its starting location to \nattack or provide support.",
+				info = "       ASR: The boat's Attack/Support Range, defines how far the Submarine Fleet can move from its starting location to attack or provide support.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = 6,
+					scale = 0.66,
 					path = "hunt_range"
 				}
 			},
 			{
-				info = "       LCK: The ship's Luck stat, influences the ship's chance \nof hitting the enemy and avoiding the enemy's attacks as \nwell as her chance to land and avoid Critical Hits.",
+				info = "       LCK: The ship's Luck stat, influences the ship's chance of hitting the enemy and avoiding the enemy's attacks as well as her chance to land and avoid Critical Hits.",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.66,
+					scale = 1.1,
 					path = "icon_luck"
 				}
 			},
@@ -4546,13 +4718,11 @@ combined AMO stat.]],
 Different shipgirls use different weapons
 
 • Guns under 140mm:
-used as the main gun of Destroyers and some 
-Light Cruisers, and secondary gun of Battleships, 
+used as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, 
 Light Cruisers, Heavy Cruisers and Battlecruisers
 
 • Guns bigger than140mm and under 200mm:
-used as the main gun of  Light Cruisers, and secondary 
-gun of some Battleships
+used as the main gun of  Light Cruisers, and secondary gun of some Battleships
 
 • Guns bigger than 200mm and under 283mm:
 used as the main gun of Heavy Cruisers
@@ -4560,8 +4730,7 @@ used as the main gun of Heavy Cruisers
 • Guns bigger than 283mm:
 used as the main gun of Battleships and Battlecruisers
 
-• Torpedos are used as secondary weapons of 
-Destroyers and some Light Cruisers and Heavy Cruisers
+• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers
 
 • Anti-Air weapons are equipped on most shipgirls
 
@@ -4580,13 +4749,11 @@ Destroyers and some Light Cruisers and Heavy Cruisers
 Different shipgirls use different weapons
 
 • Guns under 140mm:
-used as the main gun of Destroyers and some 
-Light Cruisers, and secondary gun of Battleships, 
+used as the main gun of Destroyers and some Light Cruisers, and secondary gun of Battleships, 
 Light Cruisers, Heavy Cruisers and Battlecruisers
 
-• Guns bigger than 140mm and under 200mm:
-used as the main gun
-of  Light Cruisers, and secondary gun of some Battleships
+• Guns bigger than140mm and under 200mm:
+used as the main gun of  Light Cruisers, and secondary gun of some Battleships
 
 • Guns bigger than 200mm and under 283mm:
 used as the main gun of Heavy Cruisers
@@ -4594,16 +4761,14 @@ used as the main gun of Heavy Cruisers
 • Guns bigger than 283mm:
 used as the main gun of Battleships and Battlecruisers
 
-• Torpedos are used as secondary weapons of Destroyers 
-and some Light Cruisers and Heavy Cruisers
+• Torpedos are used as secondary weapons of Destroyers and some Light Cruisers and Heavy Cruisers
 
 • Anti-Air weapons are equipped on most shipgirls
 
 • Different Carriers can carry different aircrafts
 
 • Equipment avatars change animation effects
-(Equipment avatars do not take storage space
-) ]]
+(Equipment avatars do not take storage space) ]]
 			}
 		}
 	},
@@ -4645,7 +4810,11 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 								 <color=#60a9ff>Rare</color>: $4%
 								 Common: $5% 
 
-									]],
+									<size=23>【Building Event】</size>
+
+							<color=#966af6>   Akagi-chan</color>：2.5%<color=#92fc63>(up!)</color>
+							<color=#966af6>   Hiei-chan</color>：2.5%<color=#92fc63>(up!)</color>
+							<color=#966af6>   Zeppy</color>：2.5%<color=#92fc63>(up!)</color>]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
@@ -4671,9 +4840,9 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 
 							<size=23>【Building Event】</size>
 
-						<color=#fff157>KizunaAI·Anniversary</color>：2.0%<color=#A9F548>(up!)</color>
-						<color=#fff157>KizunaAI·SuperGamer</color>：2.0%<color=#A9F548>(up!)</color>
-						<color=#fff157>KizunaAI·Elegant</color>：0.5%<color=#A9F548>(up!)</color>
+						<color=#fff157>KizunaAI·Anniversary</color>：2.0%<color=#92fc63>(up!)</color>
+						<color=#fff157>KizunaAI·SuperGamer</color>：2.0%<color=#92fc63>(up!)</color>
+						<color=#fff157>KizunaAI·Elegant</color>：0.5%<color=#92fc63>(up!)</color>
 
 ]],
 		key = "help_build_4"
@@ -4688,12 +4857,12 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 										 Common: $5%
 							【Building Event】</size>
 
-					<color=#fff157>Purple Heart</color>：0.75%<color=#A9F548>(up!)</color>
-				<color=#fff157>      Black Heart</color>：2.25%<color=#A9F548>(up!)</color>
-				<color=#fff157>     White Heart</color>：0.75%<color=#A9F548>(up!)</color>
-					  <color=#fff157>Green Heart</color>：2.25%<color=#A9F548>(up!)</color>
-							<color=#966af6>       Noire</color>：3.15%<color=#A9F548>(up!)</color>
-							<color=#966af6>       Blanc</color>：1.05%<color=#A9F548>(up!)</color>
+					<color=#fff157>Purple Heart</color>：0.75%<color=#92fc63>(up!)</color>
+				<color=#fff157>      Black Heart</color>：2.25%<color=#92fc63>(up!)</color>
+				<color=#fff157>     White Heart</color>：0.75%<color=#92fc63>(up!)</color>
+					  <color=#fff157>Green Heart</color>：2.25%<color=#92fc63>(up!)</color>
+							<color=#966af6>       Noire</color>：3.15%<color=#92fc63>(up!)</color>
+							<color=#966af6>       Blanc</color>：1.05%<color=#92fc63>(up!)</color>
 ]],
 		key = "help_build_5"
 	},
@@ -4703,36 +4872,21 @@ Urgent Ops times: Wednesday, Saturday, Sunday]]
 			{
 				info = [[
 About Attack/Support Range:
-- The Flagship of the Submarine Fleet determines the 
-whole Submarine Fleet's Attack/Support Range (ASR.)
+- The Flagship of the Submarine Fleet determines the whole Submarine Fleet's Attack/Support Range (ASR.)
 
-- The Submarine Fleet can move on their own and attack 
-enemies within their range, lowering the enemy's 
-combat strength.
+- The Submarine Fleet can move on their own and attack enemies within their range, lowering the enemy's combat strength.
 
-- Tapping the "Submarine Support" button when in 
-combat with an enemy within the Submarine Fleet's range 
-will summon your Submarine Fleet to assist you in battle.
+- Tapping the "Submarine Support" button when in combat with an enemy within the Submarine Fleet's range will summon your Submarine Fleet to assist you in battle.
 
-- Submarines will only use Ammunition when attacking 
-enemies on their own. When summoned in a battle, they 
-will both use Ammunition and consume Oil.
+- Submarines will only use Ammunition when attacking enemies on their own. When summoned in a battle, they will both use Ammunition and consume Oil.
 
-- The Submarine Fleet has 2 settings: Support Mode (the 
-fleet will be on standby) and Attack Mode 
-(the fleet will attack enemies automatically.)
-- This setting can be changed at any time from the 
-Formation menu on the right side of the screen when 
-sortieing.
+- The Submarine Fleet has 2 settings: Support Mode (the fleet will be on standby) and Attack Mode (the fleet will attack enemies automatically.)
+- This setting can be changed at any time from the Formation menu on the right side of the screen when sortieing.
 
 Attack/Support Range Level:
-- The higher the ASR level the Submarine Fleet's Flagship 
-is, the further from their starting location they can 
-attack or provide support.
+- The higher the ASR level the Submarine Fleet's Flagship is, the further from their starting location they can attack or provide support.
 
-- You can increase the ASR level through Limit Breaking 
-your Submarines, leveling certain skills, and equipping 
-them with certain gear.]]
+- You can increase the ASR level through Limit Breaking your Submarines, leveling certain skills, and equipping them with certain gear.]]
 			}
 		}
 	},
@@ -4745,15 +4899,15 @@ them with certain gear.]]
 		key = "shop_extendequip_success"
 	},
 	naval_academy_res_desc_cateen = {
-		tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#A9F548>Oil production</color> and <color=#A9F548>Storage Limit</color>.",
+		tip = "This is where our girls get all their tasty meals! Upgrade to increase <color=#92fc63>Oil production</color> and <color=#92fc63>capacity</color>.",
 		key = "naval_academy_res_desc_cateen"
 	},
 	naval_academy_res_desc_shop = {
-		tip = "Upgrade the Academy's Merchant to increase <color=#A9F548>Coins production</color> and <color=#A9F548>Storage Limit</color>.",
+		tip = "Upgrade the Academy's Merchant to increase <color=#92fc63>Coins production</color> and <color=#92fc63>capacity</color>.",
 		key = "naval_academy_res_desc_shop"
 	},
 	naval_academy_res_desc_class = {
-		tip = "Upgrading the Lecture Hall will increase <color=#A9F548>Proficiency Limit</color>, <color=#A9F548>Proficiency Gain</color>, and <color=#A9F548>Proficiency to EXP</color> ",
+		tip = "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain</color>, and <color=#92fc63>Proficiency to EXP</color> ",
 		key = "naval_academy_res_desc_class"
 	},
 	number_1 = {
@@ -4797,7 +4951,7 @@ them with certain gear.]]
 		key = "number_10"
 	},
 	military_shop_no_open_tip = {
-		tip = "Reach Commander <color=#A9F548>lv. 15</color> to unlock the <color=#A9F548>Munitions Shop</color>.",
+		tip = "Reach Commander <color=#92fc63>lv. 15</color> to unlock the <color=#92fc63>Munitions Shop</color>.",
 		key = "military_shop_no_open_tip"
 	},
 	switch_to_shop_tip_1 = {
@@ -4823,6 +4977,10 @@ them with certain gear.]]
 	text_noPos_buy = {
 		tip = "Expand",
 		key = "text_noPos_buy"
+	},
+	text_noPos_intensify = {
+		tip = "Enhance ",
+		key = "text_noPos_intensify"
 	},
 	switch_to_shop_tip_noDockyard = {
 		tip = "Please sort or expand your dock!",
@@ -4994,15 +5152,15 @@ them with certain gear.]]
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -5063,32 +5221,35 @@ them with certain gear.]]
 		key = "help_battle_auto",
 		tip = {
 			{
-				info = "              The following may occur when using auto battle:",
+				info = "The following may occur when using auto combat:",
 				line = true,
 				icon = {
-					posX = 2.4,
+					posX = -18,
 					atlas = "helpbg/zilv",
-					posY = -34,
-					scale = 1,
+					posY = -55,
+					scale = 1.5,
 					path = ""
 				}
 			},
 			disableScroll = true,
 			helpbg = true,
-			helpSize = {
-				y = 264
-			},
 			windowSize = {
-				y = 440
+				y = 660
+			},
+			helpSize = {
+				y = 400
+			},
+			helpPos = {
+				y = 20
 			}
 		}
 	},
 	gold_buy_tip = {
-		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>100</color></size> to buy <size=25><color=#A9F548>3000</color></size><size=24> Coins</size>",
+		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>100</color></size> to buy <size=25><color=#92fc63>3000</color></size><size=24> Coins</size>",
 		key = "gold_buy_tip"
 	},
 	oil_buy_tip = {
-		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>$1</color></size> to buy <size=25><color=#A9F548>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
+		tip = "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size> to buy <size=25><color=#92fc63>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>",
 		key = "oil_buy_tip"
 	},
 	text_iknow = {
@@ -5344,19 +5505,19 @@ them with certain gear.]]
 		key = "guild_msg_is_null"
 	},
 	guild_log_new_guild_join = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!",
 		key = "guild_log_new_guild_join"
 	},
 	guild_log_duty_change = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> is now $2!",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> is now $2!",
 		key = "guild_log_duty_change"
 	},
 	guild_log_quit = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> has left the guild.",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has left the guild.",
 		key = "guild_log_quit"
 	},
 	guild_log_fire = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> was kicked from the guild.",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> was kicked from the guild.",
 		key = "guild_log_fire"
 	},
 	guild_leave_cd_time = {
@@ -5432,7 +5593,7 @@ them with certain gear.]]
 		key = "guild_fire_succeed"
 	},
 	battle_repair_special_tip = {
-		tip = "Are you sure you want to use an <color=#a0ff40>Elite management team</color>?",
+		tip = "Are you sure you want to use an \n<color=#a0ff40>Elite management team</color>?",
 		key = "battle_repair_special_tip"
 	},
 	battle_repair_normal_name = {
@@ -5829,42 +5990,42 @@ them with certain gear.]]
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
+<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#92fc63>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310014"
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
+<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#92fc63>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310024"
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
+<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#92fc63>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310034"
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
-Upon the retrofit <color=#A9F548>$1</color> the hull type of this unit will be changed
-<color=#A9F548>Secondary Weapon </color>will become<color=#A9F548> Water Detection </color> slot <color=#A9F548><material=underline c=#A9F548 event=clickDetail> Info </material></color>
-<color=#A9F548>your current Secondary Weapon </color> will be unequipped
+Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed
+<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>
+<color=#92fc63>your current Secondary Weapon </color> will be unequipped
  Would you like to continue?]],
 		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
 		tip = [[
-When retrofitted, <color=#A9F548>$1</color>'s hull type will change.
-The weapon type that can be equipped in the Main Gun slot will change from <color=#A9F548>CL Main Guns</color> to <color=#A9F548>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
+When retrofitted, <color=#92fc63>$1</color>'s hull type will change.
+The weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.
 Would you like to proceed with the retrofit?
-<color=#A9F548><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]],
+<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]],
 		key = "ship_remould_warning_303154"
 	},
 	word_soundfiles_download_title = {
@@ -6221,15 +6382,15 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "build_ship_tip"
 	},
 	auto_battle_limit_tip = {
-		tip = "Clear Stage 1-3 to unlock auto battle.",
+		tip = "Clear Stage 1-3 to unlock auto combat.",
 		key = "auto_battle_limit_tip"
 	},
 	build_ship_quickly_buy_stone = {
-		tip = "Spend <color=#A9F548>$1</color> Gems to buy Wisdom Cube x<color=$3>$2</color>?",
+		tip = "Spend <color=#92fc63>$1</color> Gems to buy Wisdom Cube x<color=$3>$2</color>?",
 		key = "build_ship_quickly_buy_stone"
 	},
 	build_ship_quickly_buy_tool = {
-		tip = "Spend <color=#A9F548>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?",
+		tip = "Spend <color=#92fc63>$1</color> Gems to buy Quick Finisher x<color=$3>$2</color>?",
 		key = "build_ship_quickly_buy_tool"
 	},
 	ship_profile_voice_locked = {
@@ -6329,7 +6490,7 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		key = "vote_rank_in_current_server"
 	},
 	words_auto_battle_label = {
-		tip = "Auto Battle Alert",
+		tip = "Auto Combat Alert",
 		key = "words_auto_battle_label"
 	},
 	words_show_ship_name_label = {
@@ -6815,57 +6976,37 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 				info = [[
 Lecture Hall Information
 
-When you put Students in the Lecture Hall, they can
- partake in a Lecture which converts the fleet's
- accumulated Proficiency into EXP.
+When you put Students in the Lecture Hall, they can partake in a Lecture which converts the fleet's accumulated Proficiency into EXP.
 
 - About Proficiency
-A set amount of the EXP earned by Level 100 or higher
- ships will be automatically added to the Lecture Hall in 
-the form of Proficiency.
-Proficiency is shared among the whole fleet and you
- cannot accumulate more than the Lecture Hall can hold.
-Upgrading the Lecture Hall will increase the cap of how
- much Proficiency you can accumulate as well as increase
- the amount of Proficiency earned.
+A set amount of the EXP earned by Level 100 or higher ships will be automatically added to the Lecture Hall in the form of Proficiency.
+Proficiency is shared among the whole fleet and you cannot accumulate more than the Lecture Hall can hold.
+Upgrading the Lecture Hall will increase the cap of how much Proficiency you can accumulate as well as increase the amount of Proficiency earned.
 
 - About Lectures
-The types of ships you can send to study in the Lecture Hall 
-depends on the day of the week.
-Once you have begun a Lecture, you can end it at any 
-time you wish.
-Ending the Lecture will convert Proficiency to EXP for the 
-Students depending on how long the Lecture lasted.
-The maximum amount of time a Lecture can last is 12 
-hours.
-Up to the point before the Lecture finishes, the 
-acquired Proficiency will be automatically converted into 
-EXP for the Students in attendance.
+The types of ships you can send to study in the Lecture Hall depends on the day of the week.
+Once you have begun a Lecture, you can end it at any time you wish.
+Ending the Lecture will convert Proficiency to EXP for the Students depending on how long the Lecture lasted.
+The maximum amount of time a Lecture can last is 12 hours.
+Up to the point before the Lecture finishes, the acquired Proficiency will be automatically converted into EXP for the Students in attendance.
 
 - About Students
 Only ships below Level 100 can be added the Lecture Hall.
-The more Students you add, the more efficient the 
-conversion rate of Proficiency to EXP will be.
-Students will lose a small amount of Morale when 
-participating in a Lecture.
-Monitors can partake in Battleship 
-Lectures.
+The more Students you add, the more efficient the conversion rate of Proficiency to EXP will be.
+Students will lose a small amount of Morale when participating in a Lecture.
+Monitors can partake in Battleship Lectures.
 Repair Ships can partake in Destroyer and Cruiser Lectures.
-Aviation Battleships can partake in Carrier and Battleship 
-Lectures.
+Aviation Battleships can partake in Carrier and Battleship Lectures.
 
 - Lecture Schedule
 Monday: Destroyers - Amazon's Amazing Torpedo Tactics!
 Tuesday: Cruisers - The Right Ammo for The Right Time
-Wednesday: Battleships - Why The "Bigger Gun Principle" 
-Works
+Wednesday: Battleships - Why The "Bigger Gun Principle" Works
 Thursday: Carriers - Positioning Out on The Open Ocean
-Friday: Destroyers - Tactics Even a Monkey Could 
-Understand!
+Friday: Destroyers - Tactics Even a Monkey Could Understand!
 Saturday: Cruisers - How To Maximize Your Firepower
 
-There are no Lectures on Sundays, but you will earn 
-double the amount of Proficiency from sorties.]]
+There are no Lectures on Sundays, but you will earn double the amount of Proficiency from sorties.]]
 			}
 		}
 	},
@@ -6886,15 +7027,15 @@ double the amount of Proficiency from sorties.]]
 		key = "course_state_lession"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#A9F548>$1</color> has too low Morale to attend the Lecture.",
+		tip = "<color=#92fc63>$1</color> has too low Morale to attend the Lecture.",
 		key = "course_energy_not_enough"
 	},
 	course_proficiency_tip = {
-		tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material> of the EXP they earn in the form of Proficiency.",
+		tip = "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> of the EXP they earn in the form of Proficiency.",
 		key = "course_proficiency_tip"
 	},
 	course_sunday_tip = {
-		tip = "There are no Lectures today, but the Proficiency you acquire when sortieing will be doubled.",
+		tip = "Lecture Hall is closed today, Proficiency acquired will be doubled. ",
 		key = "course_sunday_tip"
 	},
 	course_exit_confirm = {
@@ -6926,11 +7067,11 @@ double the amount of Proficiency from sorties.]]
 		key = "guild_shop_flash_success"
 	},
 	destroy_high_rarity_tip = {
-		tip = "<color=#A9F548>Elite and above</color>",
+		tip = "<color=#92fc63>Elite and above</color>",
 		key = "destroy_high_rarity_tip"
 	},
 	destroy_high_level_tip = {
-		tip = "<color=#A9F548>$1 is higher than lv. 1</color>",
+		tip = "<color=#92fc63>$1 is higher than lv. 1</color>",
 		key = "destroy_high_level_tip"
 	},
 	destroy_eliteequipment_tip = {
@@ -6938,7 +7079,7 @@ double the amount of Proficiency from sorties.]]
 		key = "destroy_eliteequipment_tip"
 	},
 	destroy_high_intensify_tip = {
-		tip = "<color=#A9F548>$1 enhanced</color>",
+		tip = "<color=#92fc63>$1 enhanced</color>",
 		key = "destroy_high_intensify_tip"
 	},
 	ship_quick_change_noequip = {
@@ -6970,7 +7111,7 @@ double the amount of Proficiency from sorties.]]
 		key = "take_nothing"
 	},
 	take_all_mail = {
-		tip = "Are you sure you want to collect <color=#A9F548>$1 rewards</color> from mail?\nYou will receive: ",
+		tip = "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: ",
 		key = "take_all_mail"
 	},
 	buy_furniture_overtime = {
@@ -6998,11 +7139,11 @@ double the amount of Proficiency from sorties.]]
 		key = "level_risk_level_desc"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=24>Threat Level Evaluation:<color=#A9F548>【$1】</color>\nDamage reduction received when sortieing: <color=#A9F548>$2%</color></size> ",
+		tip = "<size=24>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> ",
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>After you achieve <color=#A9F548>3 stars</color> in the stage and make it a <color=#A9F548>safe area</color>,\nyour fleets can attack <color=#A9F548>enemy flagships</color> directly.</size>",
+		tip = "<size=24>After you achieve <color=#92fc63>3 stars</color> in the stage and make it a <color=#92fc63>safe area</color>,\nyour fleets can attack <color=#92fc63>enemy flagships</color> directly.</size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -7018,7 +7159,7 @@ double the amount of Proficiency from sorties.]]
 		key = "level_chapter_state_low_risk"
 	},
 	level_chapter_state_safety = {
-		tip = "<color=#A9F548>【Threat: Safe】</color>",
+		tip = "<color=#92fc63>【Threat: Safe】</color>",
 		key = "level_chapter_state_safety"
 	},
 	open_skill_class_success = {
@@ -7252,9 +7393,9 @@ double the amount of Proficiency from sorties.]]
 	},
 	extra_chapter_socre_tip = {
 		tip = [[
-Current Record: <color=#A9F548>$1</color>
+Current Record: <color=#92fc63>$1</color>
 
-Record Best: <color=#A9F548>$2</color>
+Record Best: <color=#92fc63>$2</color>
 
 $3]],
 		key = "extra_chapter_socre_tip"
@@ -7276,19 +7417,19 @@ $3]],
 		key = "extra_chapter_locked_tip_1"
 	},
 	player_name_change_time_lv_tip = {
-		tip = "Identity Change will be available when you reach lv.<color=#A9F548>$1</color>",
+		tip = "Identity Change will be available when you reach lv.<color=#92fc63>$1</color>",
 		key = "player_name_change_time_lv_tip"
 	},
 	player_name_change_time_limit_tip = {
-		tip = "Subsequent Identity Change will be available after <color=#A9F548>$1</color>",
+		tip = "Subsequent Identity Change will be available after <color=#92fc63>$1</color>",
 		key = "player_name_change_time_limit_tip"
 	},
 	player_name_change_windows_tip = {
-		tip = "*It will cost you <color=#A9F548>$1:$2</color> to change your name, you will not be able to do it again in <color=#A9F548>30</color> days.",
+		tip = "*It will cost you <color=#92fc63>$1:$2</color> to change your name, you will not be able to do it again in <color=#92fc63>30</color> days.",
 		key = "player_name_change_windows_tip"
 	},
 	player_name_change_warning = {
-		tip = "It will cost you <color=#A9F548>$1</color> <color=#A9F548>$2</color>, are you sure you want to change your Commander’s name to <color=#A9F548>$3</color>?",
+		tip = "It will cost you <color=#92fc63>$1</color> <color=#92fc63>$2</color>, are you sure you want to change your Commander’s name to <color=#92fc63>$3</color>?",
 		key = "player_name_change_warning"
 	},
 	task_is_not_existence = {
@@ -7296,7 +7437,7 @@ $3]],
 		key = "task_is_not_existence"
 	},
 	cannot_build_multiple_printblue = {
-		tip = "Would you like to pause <color=#A9F548>$1</color>'s development and start on <color=#A9F548>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#A9F548>24 hours</color>. ",
+		tip = "Would you like to pause <color=#92fc63>$1</color>'s development and start on <color=#92fc63>$2</color> instead? Your development progress will be saved.\nOnce you start or resume development, you can not change which ship to develop for <color=#92fc63>24 hours</color>. ",
 		key = "cannot_build_multiple_printblue"
 	},
 	printblue_build_success = {
@@ -7413,40 +7554,26 @@ $3]],
 			{
 				info = [[
 Starting Research
-1. When you select a Research Project from the list and 
-tap the "Start Researching" button, you will begin 
-research on the project.
-2. Certain Research Projects require you to spend some 
-resources to initiate them.
+1. When you select a Research Project from the list and tap the "Start Researching" button, you will begin research on the project.
+2. Certain Research Projects require you to spend some resources to initiate them.
 3. You cannot research more than a single project at a time.
 
 Completing Research
 1. It takes time for Research Projects to complete.
-2. Some Research Projects have additional conditions that 
-need to be fulfilled.
-3. Progress towards these conditions will only count 
-once you've initiated the research.
-4. You can still complete these additional requirements 
-even after the Research Project's required time has elapsed.
-5. When you complete a Research Project, you will 
-receive rewards from it, and the Research Project list 
-will update.
+2. Some Research Projects have additional conditions that need to be fulfilled.
+3. Progress towards these conditions will only count once you've initiated the research.
+4. You can still complete these additional requirements even after the Research Project's required time has elapsed.
+5. When you complete a Research Project, you will receive rewards from it, and the Research Project list will update.
 
 Stopping Research
-1. By tapping the "Stop Researching" button, you can 
-suspend a Research Project that's in progress.
-2. Suspending the Research Project will not refund any 
-resources you may have spent to start it.
-3. Furthermore, suspending the Research Project will reset 
-the time and resource requirements to start it again.
+1. By tapping the "Stop Researching" button, you can suspend a Research Project that's in progress.
+2. Suspending the Research Project will not refund any resources you may have spent to start it.
+3. Furthermore, suspending the Research Project will reset the time and resource requirements to start it again.
 
 Updating the Research Project list
-1. After server reset (midnight at server's local time,) 
-you can tap the "Update List" button to receive a new 
-list of Research Projects.
+1. After server reset (midnight at server's local time,) you can tap the "Update List" button to receive a new list of Research Projects.
 2. You can only update the Research Project list once a day.
-3. You can not update the list if a Research Project is 
-underway.]]
+3. You can not update the list if a Research Project is underway.]]
 			}
 		}
 	},
@@ -7505,24 +7632,26 @@ underway.]]
 					atlas = "helpbg/technologytree2"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/blueprint_dev"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1255,
+				y = 1024
 			}
 		}
 	},
@@ -7544,39 +7673,23 @@ underway.]]
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/blueprint_build"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/blueprint_dev"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technology"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1255,
+				y = 1024
 			}
 		}
 	},
@@ -7595,59 +7708,36 @@ underway.]]
 				info = [[
 Starting Development
 
-1. You can develop a Priority ship by completing their 
-development requirements.
-2. The Priority ship's development requirements are 
-shown on the right side of the screen.
-3. You can begin development on a ship by choosing one 
-from the Shipyard screen, then tapping the Begin 
-Development button.
+1. You can develop a Priority ship by completing their development requirements.
+2. The Priority ship's development requirements are shown on the right side of the screen.
+3. You can begin development on a ship by choosing one from the Shipyard screen, then tapping the Begin Development button.
 4. You can not develop several ships at once.
 
 Development Missions
-1. When you complete all of the development missions 
-for your chosen ship, you will receive the ship.
-2. While a ship is being developed, new development 
-missions for her will unlock every 24 hours.
-3. By completing these missions, the ship's development 
-will progress.
-4. The first development mission will be unlocked as soon 
-as you begin developing the ship.
-5. A few development missions require you to complete 
-previous ones before you can continue.
+1. When you complete all of the development missions for your chosen ship, you will receive the ship.
+2. While a ship is being developed, new development missions for her will unlock every 24 hours.
+3. By completing these missions, the ship's development will progress.
+4. The first development mission will be unlocked as soon as you begin developing the ship.
+5. A few development missions require you to complete previous ones before you can continue.
 
 Changing The Ship in Development
-1. While developing a ship, you can choose to start 
-developing another instead.
-2. When you change which ship you are developing, your 
-progress on the ship you had been working on will be saved.
-3. Once you start or resume development, you can not 
-change which ship to develop for 24 hours.
+1. While developing a ship, you can choose to start developing another instead.
+2. When you change which ship you are developing, your progress on the ship you had been working on will be saved.
+3. Once you start or resume development, you can not change which ship to develop for 24 hours.
 
 Completing Development
-1. When you complete all of the development missions 
-for your chosen ship, you will receive the ship and unlock 
-the ability to enhance it.
-2. Once you've finished development, you must manually 
-choose a new ship to develop.
+1. When you complete all of the development missions for your chosen ship, you will receive the ship and unlock the ability to enhance it.
+2. Once you've finished development, you must manually choose a new ship to develop.
 
 Enhancing Priority Ships
-1. Once you acquire a Priority ship, you unlock the ability 
-to enhance it.
-2. To enhance a Priority ship, you need to spend PR 
-Blueprints on it.
-3. You can acquire PR Blueprints by conducting research 
-in the Tech Academy.
-4. By enhancing your Priority ship, you can increase 
-their stats.
-5. At regular Dev. Level intervals, they will also acquire 
-even more stats and abilities.
+1. Once you acquire a Priority ship, you unlock the ability to enhance it.
+2. To enhance a Priority ship, you need to spend PR Blueprints on it.
+3. You can acquire PR Blueprints by conducting research in the Tech Academy.
+4. By enhancing your Priority ship, you can increase their stats.
+5. At regular Dev. Level intervals, they will also acquire even more stats and abilities.
 
-About Level Caps for Priority Ships
-You do not need to Limit Break a Priority ship to get them 
-to Level 100, but in order to increase their Level Cap, 
-you must induce a Cognitive Awakening in them by 
-spending Cognitive Chips and Coins.]]
+About Level Caps for Priority Ships:
+You do not need to Limit Break a Priority ship to get them to Level 100, but in order to increase their Level Cap, you must induce a Cognitive Awakening in them by spending Cognitive Chips and Coins.]]
 			}
 		}
 	},
@@ -7657,15 +7747,12 @@ spending Cognitive Chips and Coins.]]
 			{
 				info = [[
 Fate Simulation:
-1. Once you get a Priority ship to <color=#A9F548>Dev. Level 30</color>, you'll unlock  
-their corresponding Fate Simulation.
-2. Fate Simulation is divided into <color=#A9F548>5 stages</color>.
-3. By spending the ship's corresponding <color=#A9F548>PR Blueprints</color>, you'll 
-fill up the progress bar for each stage.
-4. Once you've fully filled the bar, you've completed the 
-stage and will unlock the next one.
-5. Stages <color=#A9F548>I through IV</color> increase the ship's <color=#A9F548>LCK</color> stat.
-6. Stage <color=#A9F548>V</color> improves one of the ship's <color=#A9F548>Skills</color>.]]
+1. Once you get a Priority ship to <color=#92fc63>Dev. Level 30</color>, you'll unlock their corresponding Fate Simulation.
+2. Fate Simulation is divided into <color=#92fc63>5 stages</color>.
+3. By spending the ship's corresponding <color=#92fc63>PR Blueprints</color>, you'll fill up the progress bar for each stage.
+4. Once you've fully filled the bar, you've completed the stage and will unlock the next one.
+5. Stages <color=#92fc63>I through IV</color> increase the ship's <color=#92fc63>LCK</color> stat.
+6. Stage <color=#92fc63>V</color> improves one of the ship's <color=#92fc63>Skills</color>.]]
 			}
 		}
 	},
@@ -7728,7 +7815,7 @@ with Anti-Sub gear.
 		key = "charge_scene_buy_confirm"
 	},
 	charge_scene_batch_buy_tip = {
-		tip = "Spend <color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?",
+		tip = "Spend <color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>gems to buy <color=$3>$2</color>$4?",
 		key = "charge_scene_batch_buy_tip"
 	},
 	help_level_ui = {
@@ -7793,24 +7880,20 @@ with Anti-Sub gear.
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	guild_modify_info_tip = {
-		tip = "Are you sure you want to use<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?",
+		tip = "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?",
 		key = "guild_modify_info_tip"
 	},
 	ai_change_1 = {
@@ -7830,7 +7913,7 @@ with Anti-Sub gear.
 		key = "word_bilibili"
 	},
 	levelScene_tracking_error_pre = {
-		tip = "Available after <color=#A9F548>$1</color> cleared",
+		tip = "Available after <color=#92fc63>$1</color> cleared",
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
@@ -7966,7 +8049,7 @@ with Anti-Sub gear.
 		key = "collect_chapter_is_activation"
 	},
 	levelScene_chapter_is_activation = {
-		tip = "You are exploring Stage <color=#A9F548>$1</color>, \nplease choose to continue or retreat now",
+		tip = "You are exploring Stage <color=#92fc63>$1</color>, \nplease choose to continue or retreat now",
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
@@ -8024,16 +8107,48 @@ with Anti-Sub gear.
 			}
 		}
 	},
+	metalgearsub_help_tip = {
+		key = "metalgearsub_help_tip",
+		tip = {
+			{
+				info = "\"One Small Promise\" Event Details:"
+			},
+			{
+				info = "During this event, you'll be able to play a minigame where you control U-556 and defeat transport ships that appear at the end of a Stage to unlock time-limited gear."
+			},
+			{
+				info = "1. You'll receive an event item by clearing the event Stage. Once you've collected 7 of them, you'll receive the time-limited gear. You can attempt the Stage as many times as you want, but can only receive 1 of the items a day."
+			},
+			{
+				info = "2. U-556 does not control like regular ships. Instead of a Main Gun Volley or Airstrike, she has the ability to Dive. Additionally, she has an Emergency Boost that temporarily increases her speed and a Torpedo Strike with limited uses."
+			},
+			{
+				info = [[
+3. The event Stage has sea mines and enemy escort ships with distinct movement patterns.
+ - More on escort ships:
+ The escort ships have an Alertness Level. When they have 2 exclamation marks (!!) displaying over them, they will attack U-556.
+ Their Alertness Level increases when U-556 has Resurfaced, is within their sonar range, when she attacks an enemy, and when she comes into contact with a sea mine. However, it can also be lowered by Diving and leaving the enemy's sonar range.
+ - More on sea mines:
+ There are 2 types of sea mines: drifting mines and bottom mines. They detonate when U-556 comes into contact with them while she has Resurfaced and when she has Dived, respectively. Both can be destroyed by using a Torpedo Strike.]]
+			},
+			{
+				info = "Use U-556's abilities wisely and defeat the escort ships to make your way to the end of the Stage and take out her objective: the transport ship."
+			},
+			{
+				info = "4. Neither victories nor defeats on the event Stage have any effect on your ATK-WR."
+			}
+		}
+	},
 	acl_gold_count = {
-		tip = "目标金币：",
+		tip = "Target Coins:",
 		key = "acl_gold_count"
 	},
 	acl_gold_total_count = {
-		tip = "累计使用金币：",
+		tip = "Total Coins Spent:",
 		key = "acl_gold_total_count"
 	},
 	discount_time = {
-		tip = "<color=grey>Time left on discount</color> <color=#A9F548>$1</color> ",
+		tip = "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> ",
 		key = "discount_time"
 	},
 	ship_equip_same_group_equipment = {
@@ -8176,6 +8291,78 @@ with Anti-Sub gear.
 		tip = "FB Login verification failed, unable to unbind",
 		key = "airi_error_code_ 100818"
 	},
+	buildship_new_tip = {
+		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		key = "buildship_new_tip"
+	},
+	buildship_heavy_tip = {
+		tip = "Heavy: Heavy Cruisers, Monitors, Battlecruisers, Battleships, and more!",
+		key = "buildship_heavy_tip"
+	},
+	buildship_light_tip = {
+		tip = "Light: Destroyers, Light Cruisers, Light Carriers, Repair Ships, Monitors and more!",
+		key = "buildship_light_tip"
+	},
+	buildship_special_tip = {
+		tip = "Special: Heavy Cruisers, Light Carriers, Carriers, Repair Ships, Submarine and more!",
+		key = "buildship_special_tip"
+	},
+	world_log_1 = {
+		tip = "Mission [$task] complete.",
+		key = "world_log_1"
+	},
+	world_log_2 = {
+		tip = "Mission [$task] failed.",
+		key = "world_log_2"
+	},
+	world_log_3 = {
+		tip = "This mission seems to require [$chapter]...",
+		key = "world_log_3"
+	},
+	world_log_4 = {
+		tip = "[$fleet] has arrived at Port [$port]",
+		key = "world_log_4"
+	},
+	world_log_5 = {
+		tip = "[$fleet] has purchased [$goods] at Port [$port]",
+		key = "world_log_5"
+	},
+	world_log_6 = {
+		tip = "[$fleet] was defeated in combat...",
+		key = "world_log_6"
+	},
+	world_log_7 = {
+		tip = "Acquired <color=$rarity>[$item]*$itemnum</color>",
+		key = "world_log_7"
+	},
+	world_log_8 = {
+		tip = "Fleet power has reached [$rank], granting access to sea areas with a danger level of [$risk]",
+		key = "world_log_8"
+	},
+	world_log_9 = {
+		tip = "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>.",
+		key = "world_log_9"
+	},
+	world_log_10 = {
+		tip = "Changed the formation of [$fleet].",
+		key = "world_log_10"
+	},
+	world_log_11 = {
+		tip = "Submarine fleet called to [$chapter]!",
+		key = "world_log_11"
+	},
+	world_log_12 = {
+		tip = "Cannot move to this sea area.",
+		key = "world_log_12"
+	},
+	world_log_13 = {
+		tip = "Unable to move - insufficient movement",
+		key = "world_log_13"
+	},
+	world_log_14 = {
+		tip = "Completed the conditions for [$tasknum1/$tasknum2]",
+		key = "world_log_14"
+	},
 	open_skill_pos = {
 		tip = "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?",
 		key = "open_skill_pos"
@@ -8265,11 +8452,11 @@ with Anti-Sub gear.
 		key = "apply_permission_record_audio_tip3"
 	},
 	story_skip_confirm = {
-		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be viewed again in <color=#A1E400FF>Collection>Memories</COLOR>.",
+		tip = "Are you sure you want to skip story cutscene? Skipped story scenes can be replayed in <color=#A1E400FF>Collection>Memories</COLOR>.",
 		key = "story_skip_confirm"
 	},
 	amercian_notice_1 = {
-		tip = "Confirm using <color=#A9F548>$1</color> Battle Stars to redeem <color=#A9F548>$2</color>",
+		tip = "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -8337,28 +8524,32 @@ with Anti-Sub gear.
 		key = "map_event_skip"
 	},
 	map_event_stop_tip = {
-		tip = "Step on <color=#A9F548>mechanisms</color> to remove obstacles of the same color.",
+		tip = "Step on <color=#92fc63>mechanisms</color> to remove obstacles of the same color.",
 		key = "map_event_stop_tip"
 	},
 	map_event_save_nekone = {
-		tip = "Successfully Rescued <color=#A9F548>Nekone</color>",
+		tip = "Successfully Rescued <color=#92fc63>Nekone</color>",
 		key = "map_event_save_nekone"
 	},
 	map_event_save_rurutie = {
-		tip = "Successfully Rescued <color=#A9F548>Rulutieh</color>",
+		tip = "Successfully Rescued <color=#92fc63>Rulutieh</color>",
 		key = "map_event_save_rurutie"
 	},
 	map_event_memory_collected = {
-		tip = "Successfully unlocked hidden story <color=#A9F548>$1</color>!",
+		tip = "Successfully unlocked hidden story <color=#92fc63>$1</color>!",
 		key = "map_event_memory_collected"
 	},
 	map_event_save_kizuna = {
-		tip = "Successfully Rescued <color=#A9F548>Kizuna AI</color> ",
+		tip = "Successfully Rescued <color=#92fc63>Kizuna AI</color> ",
 		key = "map_event_save_kizuna"
 	},
 	five_choose_one = {
-		tip = "Using this will give you <color=#A9F548>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? ",
+		tip = "Using this will give you <color=#92fc63>$1</color> and a commemorative item.\nWould you like to use your Holy Night Gift? ",
 		key = "five_choose_one"
+	},
+	ship_preference_common = {
+		tip = "Set ship as Favorite.",
+		key = "ship_preference_common"
 	},
 	draw_big_luck_1 = {
 		tip = "You will have a lucky New Year's nya!",
@@ -8395,6 +8586,58 @@ with Anti-Sub gear.
 	draw_little_luck_3 = {
 		tip = "Your luck might improve if you come to my shop nya~",
 		key = "draw_little_luck_3"
+	},
+	ship_preference_non = {
+		tip = "Unset ship as Favorite.",
+		key = "ship_preference_non"
+	},
+	school_title_dajiangtang = {
+		tip = "Lecture Hall ",
+		key = "school_title_dajiangtang"
+	},
+	school_title_zhihuimiao = {
+		tip = "Cat Lodge ",
+		key = "school_title_zhihuimiao"
+	},
+	school_title_shitang = {
+		tip = "Canteen ",
+		key = "school_title_shitang"
+	},
+	school_title_xiaomaibu = {
+		tip = "Merchant ",
+		key = "school_title_xiaomaibu"
+	},
+	school_title_shangdian = {
+		tip = "Munition",
+		key = "school_title_shangdian"
+	},
+	school_title_xueyuan = {
+		tip = "Tactical Class",
+		key = "school_title_xueyuan"
+	},
+	school_title_shoucang = {
+		tip = "Medallion ",
+		key = "school_title_shoucang"
+	},
+	tag_level_fighting = {
+		tip = "In Progress",
+		key = "tag_level_fighting"
+	},
+	tag_level_oni = {
+		tip = "特殊单位",
+		key = "tag_level_oni"
+	},
+	tag_level_bomb = {
+		tip = "英系轰炸",
+		key = "tag_level_bomb"
+	},
+	ui_word_levelui2_inevent = {
+		tip = "In action",
+		key = "ui_word_levelui2_inevent"
+	},
+	exit_backyard_exp_display = {
+		tip = "$1 received $2 EXP through training.",
+		key = "exit_backyard_exp_display"
 	},
 	help_monopoly = {
 		key = "help_monopoly",
@@ -8472,6 +8715,65 @@ with Anti-Sub gear.
 			}
 		}
 	},
+	md5_error = {
+		tip = "An error has occurred. Please restart the game.",
+		key = "md5_error"
+	},
+	world_boss_help = {
+		key = "world_boss_help",
+		tip = {
+			{
+				info = "活动说明："
+			},
+			{
+				info = "1. 活动期间，参与演习战斗，当击破敌人、超时或作战失败时，\n根据演习战斗中造成的伤害总量结算贡献值；"
+			},
+			{
+				info = "2. 演习战斗中，造成的伤害越高，获得奖励越丰厚，获得的贡\n献值也越多；"
+			},
+			{
+				info = "3. 活动期间，根据本服所有玩家获得的贡献值，消耗埃塞克斯\n的演习据点耐久；"
+			},
+			{
+				info = "4. 当演习据点耐久下降至75%、50%、25%、以及耐久完全\n耗尽后，会记录本服达成的里程碑时间。同时，在演习中获得\n过贡献值的玩家可以获得演习奖励；"
+			},
+			{
+				info = "5. 演习奖励将在据点耐久完成耗尽后，通过邮件发放；"
+			},
+			{
+				info = "6. 如果活动结束时耐久未被耗尽，则会根据据点推进进度，为\n获得过贡献值的玩家发放对应进度的奖励；"
+			},
+			{
+				info = "7. 演习战斗的出击队伍可以通过【编队】按钮编组出击队伍，\n允许携带潜艇和指挥喵；"
+			},
+			{
+				info = "8. 演习战斗中，携带香格里拉和独立可以获得额外的总贡献值\n加成。携带香格里拉获得20%的加成，携带独立获得10%的加\n成，同时携带最多可获得30%的贡献值加成；"
+			},
+			{
+				info = "9. 演习战斗中，无法获得指挥舰、出战角色和指挥喵经验；"
+			},
+			{
+				info = "10. 演习战斗中，会正常增减出战角色的心情；"
+			},
+			{
+				info = "11. 随着据点耐久的下降，演习战斗中敌方旗舰的伤害能力会\n逐步提升，同时降低受到的炮击、雷击伤害，但会提高受到的\n航空伤害；"
+			},
+			{
+				info = "12. 活动期间，还可以领取个人贡献奖励，个人贡献奖励需要\n当据点攻略进度和拥有的贡献值达到指定要求后才能领取；"
+			},
+			{
+				info = "13. 2.28~3.7期间可以参与演习战斗，奖励领取的截止时间为\n3.13；"
+			}
+		}
+	},
+	world_boss_tip = {
+		tip = "「<color=#7e7e7f>$1</color>」为演习做出了<color=#8299bc>$2</color>贡献",
+		key = "world_boss_tip"
+	},
+	world_boss_award_limit = {
+		tip = "演习据点耐久降至<color=#FFDE00FF>$1%</color>及以下后解锁",
+		key = "world_boss_award_limit"
+	},
 	backyard_is_loading = {
 		tip = "Loading furniture... ",
 		key = "backyard_is_loading"
@@ -8481,24 +8783,174 @@ with Anti-Sub gear.
 		tip = {
 			{
 				info = [[
-Once you get a Stage's Threat Level down to <color=#A9F548>Safe</color> and clear 
-it with <color=#A9F548>3 Stars</color>, you can choose to enable <color=#A9F548>Clearing Mode</color> from 
+Once you get a Stage's Threat Level down to <color=#92fc63>Safe</color> and clear 
+it with <color=#92fc63>3 Stars</color>, you can choose to enable <color=#92fc63>Clearing Mode</color> from 
 the Stage's select screen.
 
 Enabling Clearing Mode affects a Stage in the following ways:
-1. On non-event Hard Mode Stages, <color=#A9F548>enemy mob fleets will 
+1. On non-event Hard Mode Stages, <color=#92fc63>enemy mob fleets will 
 disappear, leaving only the Boss Fleet</color>.
 2. On event Stages, the positioning and pathfinding of enemy 
 fleets will change.
-3. On event Stages, <color=#A9F548>the movement restriction placed on your 
+3. On event Stages, <color=#92fc63>the movement restriction placed on your 
 fleets is removed</color>, allowing you to move freely around the 
 map.]]
 			}
 		}
 	},
 	no_airspace_competition = {
-		tip = "无空域争夺",
+		tip = "No Aerial Combat ",
 		key = "no_airspace_competition"
+	},
+	air_supremacy_value = {
+		tip = "Air Control Degree",
+		key = "air_supremacy_value"
+	},
+	read_the_user_agreement = {
+		tip = "Please scroll to the bottom of the Terms of Service first.",
+		key = "read_the_user_agreement"
+	},
+	award_max_warning = {
+		tip = "Resources or items that exceed the maximum limit will be lost. Do you still wish to continue?",
+		key = "award_max_warning"
+	},
+	sub_item_warning = {
+		tip = "Do you wish to turn in these items to complete the mission?",
+		key = "sub_item_warning"
+	},
+	select_award_warning = {
+		tip = "Please select one of the following rewards",
+		key = "select_award_warning"
+	},
+	no_item_selected_tip = {
+		tip = "Rewards have not yet been collected",
+		key = "no_item_selected_tip"
+	},
+	backyard_traning_tip = {
+		tip = "Training grants EXP over time and improves Morale recovery.",
+		key = "backyard_traning_tip"
+	},
+	backyard_rest_tip = {
+		tip = "Resting greatly improves Morale recovery.",
+		key = "backyard_rest_tip"
+	},
+	backyard_class_tip = {
+		tip = "Attending Lectures grants EXP over time.",
+		key = "backyard_class_tip"
+	},
+	medal_notice_1 = {
+		tip = "Show highes rank ",
+		key = "medal_notice_1"
+	},
+	medal_notice_2 = {
+		tip = "Display ",
+		key = "medal_notice_2"
+	},
+	medal_help_tip = {
+		key = "medal_help_tip",
+		tip = {
+			{
+				info = "- About Medals:"
+			},
+			{
+				info = "1. Medals are awarded to a commander for exemplary achievements in the line of duty."
+			},
+			{
+				info = "2. You can inspect the Medals you've received and keep track of your progress on the prerequisites to unlock new ones in the Medal Collection Room."
+			},
+			{
+				info = "- How To Acquire Medals:"
+			},
+			{
+				info = "1. When you complete a Medal's prerequisites, you can collect it in the Medal Collection Room."
+			},
+			{
+				info = "2. You can work towards completing the prerequisites of several Medals simultaneously."
+			},
+			{
+				info = "3. To unlock a higher tier Medal of the same category, you must first acquire the Medals preceding it."
+			},
+			{
+				info = "4. Some Medals have multiple prerequisites that must be completed before you can acquire the Medal."
+			},
+			{
+				info = "- Decorating With Medals:"
+			},
+			{
+				info = "1. You can decorate your profile with the Medals you've acquired."
+			},
+			{
+				info = "2. The Medals you decorate your profile with will also be visible to other players on your personal page."
+			},
+			{
+				info = "- Other Info:"
+			},
+			{
+				info = "1. Any prerequisites that involve raising ships (Level, Affinity, etc.) only count the ship with the highest value(s) if you have duplicates of the same ship."
+			},
+			{
+				info = "2. Retrofitted ships are not treated any different from regular ships when tracking Medal progress."
+			},
+			{
+				info = "3. Retiring a ship does not affect the progress of your Medals."
+			}
+		}
+	},
+	trophy_achieved = {
+		tip = "Medal Unlocked!",
+		key = "trophy_achieved"
+	},
+	text_confirm = {
+		tip = "Confirm",
+		key = "text_confirm"
+	},
+	text_cancel = {
+		tip = "Cancel",
+		key = "text_cancel"
+	},
+	text_cancel_fight = {
+		tip = "Leave battle",
+		key = "text_cancel_fight"
+	},
+	text_goon_fight = {
+		tip = "Continue",
+		key = "text_goon_fight"
+	},
+	text_exit = {
+		tip = "Exit",
+		key = "text_exit"
+	},
+	text_clear = {
+		tip = "Clear",
+		key = "text_clear"
+	},
+	text_apply = {
+		tip = "Requests ",
+		key = "text_apply"
+	},
+	text_buy = {
+		tip = "Buy",
+		key = "text_buy"
+	},
+	text_forward = {
+		tip = "Go",
+		key = "text_forward"
+	},
+	text_prepage = {
+		tip = "Prev",
+		key = "text_prepage"
+	},
+	text_nextpage = {
+		tip = "Next",
+		key = "text_nextpage"
+	},
+	text_exchange = {
+		tip = "Exchange",
+		key = "text_exchange"
+	},
+	text_retreat = {
+		tip = "Retreat",
+		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
 		tip = "Recon value:",
@@ -8546,7 +8998,7 @@ map.]]
 				info = [[
 1.Purification Virtual Space consists of five boards, which 
 can be repeated over the course of the event, But only the 
-<color=#A9F548>first time</color> clearing each of the first four boards will earn 
+<color=#92fc63>first time</color> clearing each of the first four boards will earn 
 rewards.]]
 			},
 			{
@@ -8565,16 +9017,16 @@ rewards.]]
 				info = "6.Tap any square on the board twice to execute a flip"
 			},
 			{
-				info = "7.Executing a flip causes the tapped square to become the \ncenter of a <color=#A9F548>9-square</color> color <color=#A9F548>inversion</color>。\n（Black squares turn white, white squares turn black）"
+				info = "7.Executing a flip causes the tapped square to become the \ncenter of a <color=#92fc63>9-square</color> color <color=#92fc63>inversion</color>。\n（Black squares turn white, white squares turn black）"
 			},
 			{
 				info = "8.The game ends after 3 flips and scoring begins."
 			},
 			{
 				info = [[
-9.During scoring, each black piece on the board is worth <color=#A9F548>-1</color> 
-point, each white piece is worth <color=#A9F548>+1</color> point.
- A score of <color=#A9F548>≥0</color> means a completed purification, <color=#A9F548>＜0</color> means 
+9.During scoring, each black piece on the board is worth <color=#92fc63>-1</color> 
+point, each white piece is worth <color=#92fc63>+1</color> point.
+ A score of <color=#92fc63>≥0</color> means a completed purification, <color=#92fc63>＜0</color> means 
 purification has failed.]]
 			},
 			{
@@ -8593,6 +9045,18 @@ purification has failed.]]
 	no_way_to_escape = {
 		tip = "Can't escape!",
 		key = "no_way_to_escape"
+	},
+	help_attribute_dodge_limit = {
+		key = "help_attribute_dodge_limit",
+		tip = {
+			{
+				info = [[
+Evasion Cap Details:
+The Evasion Cap is the upper limit of the chance for an aircraft to avoid Anti-Air fire.
+
+The chance for an aircraft to avoid enemy Anti-Air fire depends on the AVI stat of the ship equipping the aircraft, the enemy's AA stat, and the aircraft itself.]]
+			}
+		}
 	},
 	refuse_friend = {
 		tip = "Really decline this request?",
@@ -8619,58 +9083,35 @@ purification has failed.]]
 		tip = {
 			{
 				info = [[
-Tech Mechanics:
+<color=#92fc63>Tech Mechanics:</color>
 1. The Tech Mechanics give stat buffs to your entire fleet.
-2. You unlock these buffs by collecting and getting your 
-ships to a high level.
-3. The buffs apply to ships which have been fully Limit 
-Broken.
-4. In essence, you will gain the most benefits by leveling 
-all the ships you have in your Dock.
+2. You unlock these buffs by collecting and getting your ships to a high level.
+3. <color=#92fc63>The buffs apply to ships which have been fully Limit Broken.</color>
+4. In essence, you will gain the most benefits by leveling all the ships you have in your Dock.
 
-The Tech Mechanics can be separated into two 
-distinct types: Fleet Tech and Faction Tech.
+The Tech Mechanics can be separated into two distinct types: Fleet Tech and Faction Tech.
 
 Fleet Tech:
-1. The Fleet Tech mechanic grants buffs, which are 
-unlocked by leveling your ships, to your entire fleet. 
-2. You can view your collection and Tech acquisition 
-statuses on the Fleet Tech screen.
-3. The ships are sorted into tiers based on their 
-historical technology development order.
-4. When you complete the following achievements with a 
-ship, your entire fleet will receive the corresponding stat 
-buff(s) associated with her group:
- - Registering the ship in your Library
- - Getting the ship to Level 120
-5. Please note: if you have 2 or more copies of the same 
-ship, you will only receive buffs from 1 of them.
+1. The Fleet Tech mechanic grants buffs, which are unlocked by leveling your ships, to your entire fleet. 
+2. You can view your collection and Tech acquisition statuses on the Fleet Tech screen.
+3. The ships are sorted into tiers based on their historical technology development order.
+4. When you complete the following achievements with a ship, your entire fleet will receive the corresponding stat buff(s) associated with her group:
+ - <color=#92fc63>Registering</color> the ship in your Library - Getting the ship to <color=#92fc63>Level 120</color>
+5. Please note: if you have 2 or more copies of the same ship, you will only receive buffs from <color=#92fc63>1</color> of them.
 
-Faction Tech:
-1. Faction Tech is a mechanic that gives stat buffs to your 
-entire fleet based on your Tech Level with each faction.
-2. You can view a faction's Tech Level and the buffs it 
-gives to your fleet by tapping its corresponding tab on 
-the Faction Tech screen.
-3. By increasing a faction's Tech Level, you can further 
-increase the buffs that it gives.
-4. To increase a faction's Tech Level, you must spend Coins 
-and meet the Tech Point requirement for that faction.
-5. Lastly, you can only increase the Tech level of one 
-faction at a time.
+<color=#92fc63>Faction Tech</color>:
+1. Faction Tech is a mechanic that gives stat buffs to your entire fleet based on your Tech Level with each faction.
+2. You can view a faction's Tech Level and the buffs it gives to your fleet by tapping its corresponding tab on the Faction Tech screen.
+3. By increasing a faction's Tech Level, you can further increase the buffs that it gives.
+4. To increase a faction's Tech Level, you must spend <color=#92fc63>Coins</color> and meet the Tech Point requirement for that faction.
+5. Lastly, you can only increase the Tech level of one faction at a time.
 
 About Tech Points:
-1. To increase a faction's Tech Level, you need to have 
-collected a certain amount of Tech Points from ships of 
-that faction. 
-2. From the Faction Tech screen, you can view how many 
-Tech Points you have with each faction.
+1. To increase a faction's Tech Level, you need to have collected a certain amount of Tech Points from ships of that faction. 
+2. From the Faction Tech screen, you can view how many Tech Points you have with each faction.
 3. You can acquire Tech Points through the following means:
-- Registering a new ship in your Library
-- Fully Limit Breaking a ship
-- Getting a ship to Level 120
-4. Please note: if you have 2 or more copies of the same 
-ship, you will only receive Tech Points from 1 of them.]]
+- <color=#92fc63>Registering</color> a new ship in your Library- <color=#92fc63>Fully Limit Breaking</color> a ship- Getting a ship to <color=#92fc63>Level 120</color>
+4. Please note: if you have 2 or more copies of the same ship, you will only receive Tech Points from <color=#92fc63>1</color> of them.]]
 			}
 		}
 	},
@@ -8715,6 +9156,28 @@ ship, you will only receive Tech Points from 1 of them.]]
 			}
 		}
 	},
+	word_votes = {
+		tip = "得票数量",
+		key = "word_votes"
+	},
+	number_0 = {
+		tip = "0",
+		key = "number_0"
+	},
+	intimacy_desc_propose_vertical = {
+		tip = [[
+Love shall be our guide, and forever shall we stand side by side.
+Our bond is our bliss, and for its permanence we shall wish.
+Through thick and thin for eternity, together we shall be.
+From now till forever, our fates are bound together.
+
+ $1 ]],
+		key = "intimacy_desc_propose_vertical"
+	},
+	without_selected_ship = {
+		tip = "Not enough items",
+		key = "without_selected_ship"
+	},
 	verification_code_req_tip1 = {
 		tip = "The e-mail box cannot be left blank.",
 		key = "verification_code_req_tip1"
@@ -8730,6 +9193,168 @@ ship, you will only receive Tech Points from 1 of them.]]
 	yostar_link_title = {
 		tip = "Yostar Account:$1",
 		key = "yostar_link_title"
+	},
+	index_all = {
+		tip = "All",
+		key = "index_all"
+	},
+	index_fleetfront = {
+		tip = "Vanguard ",
+		key = "index_fleetfront"
+	},
+	index_fleetrear = {
+		tip = "Main ",
+		key = "index_fleetrear"
+	},
+	index_shipType_quZhu = {
+		tip = "DD",
+		key = "index_shipType_quZhu"
+	},
+	index_shipType_qinXun = {
+		tip = "CL",
+		key = "index_shipType_qinXun"
+	},
+	index_shipType_zhongXun = {
+		tip = "CA",
+		key = "index_shipType_zhongXun"
+	},
+	index_shipType_zhanLie = {
+		tip = "BB",
+		key = "index_shipType_zhanLie"
+	},
+	index_shipType_hangMu = {
+		tip = "CV",
+		key = "index_shipType_hangMu"
+	},
+	index_shipType_weiXiu = {
+		tip = "Repair",
+		key = "index_shipType_weiXiu"
+	},
+	index_shipType_qianTing = {
+		tip = "SS",
+		key = "index_shipType_qianTing"
+	},
+	index_other = {
+		tip = "Others",
+		key = "index_other"
+	},
+	index_rare2 = {
+		tip = "Common",
+		key = "index_rare2"
+	},
+	index_rare3 = {
+		tip = "Rare",
+		key = "index_rare3"
+	},
+	index_rare4 = {
+		tip = "Elite",
+		key = "index_rare4"
+	},
+	index_rare5 = {
+		tip = "Super Rare",
+		key = "index_rare5"
+	},
+	index_rare6 = {
+		tip = "Legendary ",
+		key = "index_rare6"
+	},
+	warning_mail_max_1 = {
+		tip = "Your mailbox has almost reached its capacity of (<color=#FF5C5C>$1</color>/1,000.) Please check your mail!",
+		key = "warning_mail_max_1"
+	},
+	warning_mail_max_2 = {
+		tip = "Your mailbox is full!",
+		key = "warning_mail_max_2"
+	},
+	return_award_bind_success = {
+		tip = "UID entry successful.",
+		key = "return_award_bind_success"
+	},
+	return_award_bind_erro = {
+		tip = "UID entry failed $1.",
+		key = "return_award_bind_erro"
+	},
+	rename_commander_erro = {
+		tip = "Failed to change username.",
+		key = "rename_commander_erro"
+	},
+	change_display_medal_success = {
+		tip = "Changed Medal display settings.",
+		key = "change_display_medal_success"
+	},
+	limit_skin_time_day = {
+		tip = "Time remaining: $1 day(s)",
+		key = "limit_skin_time_day"
+	},
+	limit_skin_time_day_min = {
+		tip = "Time remaining: $1 hour(s) and $2 minute(s)",
+		key = "limit_skin_time_day_min"
+	},
+	limit_skin_time_min = {
+		tip = "Time remaining: $1 minute(s)",
+		key = "limit_skin_time_min"
+	},
+	limit_skin_time_overtime = {
+		tip = "Your rental period for this skin has concluded.",
+		key = "limit_skin_time_overtime"
+	},
+	award_window_pt_title = {
+		tip = "Returnee points:",
+		key = "award_window_pt_title"
+	},
+	return_have_participated_in_act = {
+		tip = "You have already participated in this event.",
+		key = "return_have_participated_in_act"
+	},
+	input_returner_code = {
+		tip = "Enter UID",
+		key = "input_returner_code"
+	},
+	dress_up_success = {
+		tip = "Successfully changed chat settings.",
+		key = "dress_up_success"
+	},
+	already_have_the_skin = {
+		tip = "You already have this skin.",
+		key = "already_have_the_skin"
+	},
+	exchange_limit_skin_tip = {
+		tip = "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?",
+		key = "exchange_limit_skin_tip"
+	},
+	returner_help = {
+		key = "returner_help",
+		tip = {
+			{
+				info = [[
+Event Information: 
+1. This event and the rewards you can receive from it are split into 2 categories depending on the player's last login status: 
+ a. Active Commander 
+ b. Returning Commander 
+2. All commanders that have reached Level 15 or higher may participate in this event. 
+3. If a player matches any of the following criteria, they are considered an Active Commander and are eligible for Active Commander rewards: 
+ a. The player has reached Level 15 or higher before the May 20th maintenance period and has logged in at least once between April 20th to May 20th. 
+ b. The player hasn't reached Level 15 before the May 20th maintenance period, but reached it during the duration of this event. 
+ c. The player registered after the May 20th maintenance period and achieved Level 15 during the duration of this event. 
+4. If the player doesn't match any of the above criteria, they are considered a Returning Commander and are eligible for Returning Commander rewards. 
+5. If you are unsure whether you are an Active Commander or a Returning Commander, please view the information in the Returnee Missions banner. 
+Active Commanders: 
+1. You can earn rewards based upon the total Returnee Points collected. 
+2. You can receive Returnee Points from up to 3 Returning Commanders. 
+3. Give your User ID (found on your event banner) to Returning Commanders to start earning points. 
+4. Returning Commanders can participate in Returnee missions by entering your UID into the event banner on their end. 
+5. You can see the User IDs of your linked Returning Commanders on the right side of the event banner. 
+Returning Commanders: 
+1. Take part in Returnee missions by entering an Active Commander's User ID into your event banner. 
+2. Receive various awards by completing new personal missions that are unlocked each day. 
+3. A single User ID can be entered up to 3 times.
+4. You can still enter an Active Commander’s User ID even if they play on a different server.]]
+			}
+		}
+	},
+	attire_time_stamp = {
+		tip = "$1D$2H$3M",
+		key = "attire_time_stamp"
 	}
 }
 

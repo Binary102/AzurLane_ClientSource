@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 6 - From The Brink</size>",
+					"Knights & Awards\n\n<size=45>Chapter 6 - From The Brink</size>",
 					1
 				}
 			}
@@ -132,7 +132,7 @@ return {
 			say = "C'mon! We're not out of the game yet! We'll show 'em what the Knights of The Sea are truly made of!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -159,7 +159,7 @@ return {
 			say = "Hooyah!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -171,7 +171,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

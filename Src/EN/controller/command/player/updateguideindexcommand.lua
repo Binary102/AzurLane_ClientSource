@@ -1,31 +1,24 @@
 class("UpdateGuideIndexCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = slot1:getBody().index
+	slot4 = slot1:getBody().callback
 
-	if getProxy(PlayerProxy) then
-		slot4:getData().guideIndex = slot3
-
-		slot4:updatePlayer(slot4.getData())
-
-		if slot3 == GUIDE_FINALE then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1, slot5.id)
-		elseif slot3 == 801 then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_2, slot5.id)
-		elseif slot3 == 804 then
-			SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_3, slot5.id)
-		end
-	end
-
-	if not slot2.cmd then
-		if slot3 <= GUIDE_FINALE then
-			pg.GuideMgr2:GetInstance():updateCurrentGuideStep(slot3)
-		else
-			pg.SystemOpenMgr:GetInstance():doNextSystemGuide(slot3)
-		end
-	end
-
+	print("update index.....", slot3)
 	pg.ConnectionMgr.GetInstance():Send(11016, {
-		guide_index = slot3
+		guide_index = slot1.getBody().index
 	})
+
+	slot5 = getProxy(PlayerProxy):getData()
+	slot5.guideIndex = slot1.getBody().index
+
+	getProxy(PlayerProxy):updatePlayer(slot5)
+	pg.SeriesGuideMgr:GetInstance():setPlayer(slot5)
+
+	if isAiriJP() and pg.SeriesGuideMgr:GetInstance():isEnd() then
+		SendAiriJPTracking(AIRIJP_TRACKING_TUTORIAL_COMPLETE_1)
+	end
+
+	if slot4 then
+		slot4()
+	end
 end
 
 return class("UpdateGuideIndexCommand", pm.SimpleCommand)

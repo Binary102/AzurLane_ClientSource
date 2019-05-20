@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 4 - Game Day</size>",
+					"Knights & Awards\n\n<size=45>Chapter 4 - Game Day</size>",
 					1
 				}
 			}
@@ -193,7 +193,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			},

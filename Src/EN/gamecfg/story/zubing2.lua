@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Ashigara, Advance!\n\n<size=30>Chapter 2: Ashigara, Work!</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 2: Ashigara, Work!</size>",
 					1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -241,7 +241,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -358,7 +358,7 @@ return {
 			say = "Fwoosh! ...Ashigara was buried under a landslide of loose papers.",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

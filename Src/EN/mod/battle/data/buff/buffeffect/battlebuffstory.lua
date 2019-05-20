@@ -9,7 +9,6 @@ end
 function ys.Battle.BattleBuffStory.SetArgs(slot0, slot1, slot2)
 	slot0._storyID = slot0._tempData.arg_list.story_id
 	slot0._countType = slot0._tempData.arg_list.countType
-	slot0._hpRatioList = slot0._tempData.arg_list.hpRatioList or {}
 end
 
 function ys.Battle.BattleBuffStory.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)

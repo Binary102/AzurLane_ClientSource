@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"The Lucky Crane\n\n<size=30>Chapter 7 - The Indomitable Crane</size>",
+					"The Lucky Crane\n\n<size=45>Chapter 7 - The Indomitable Crane</size>",
 					1
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					dur = 0.8,
 					number = 1,
 					type = "shake"
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 2,
 					type = "shake"

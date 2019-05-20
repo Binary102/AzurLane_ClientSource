@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"The Lucky Crane\n\n<size=30>Chapter 6 - Someone Like Me...</size>",
+					"The Lucky Crane\n\n<size=45>Chapter 6 - Someone Like Me...</size>",
 					1
 				}
 			}

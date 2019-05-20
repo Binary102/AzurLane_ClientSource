@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=30>Chapter 1 - Garbage-Tier Genius AI</size>",
+					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 1 - Garbage-Tier Genius AI</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -108,7 +108,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -150,7 +150,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -313,7 +313,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -409,7 +409,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -457,7 +457,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -565,30 +565,30 @@ return {
 			nameColor = "#a9f548",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},

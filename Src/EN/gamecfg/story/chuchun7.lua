@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"The Timid Black Cat\n\n<size=30>The Black Cat's Daily Life</size>",
+					"The Timid Black Cat\n\n<size=45>The Black Cat's Daily Life</size>",
 					1
 				}
 			}
@@ -94,7 +94,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
@@ -200,7 +200,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},
@@ -221,7 +221,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -293,7 +293,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -326,7 +326,7 @@ return {
 			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -345,14 +345,14 @@ return {
 			bgm = "story-1",
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "<size=45>W-w-what are you talking about, Wakaba?!</size>",
+			say = "<size=67.5>W-w-what are you talking about, Wakaba?!</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -394,7 +394,7 @@ return {
 			},
 			action = {
 				{
-					y = -500,
+					y = -750,
 					type = "move",
 					delay = 0,
 					dur = 0.4,
@@ -419,7 +419,7 @@ return {
 			},
 			action = {
 				{
-					y = 45,
+					y = 67.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -437,7 +437,7 @@ return {
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
-				y = -500
+				y = -750
 			},
 			typewriter = {
 				speed = 0.05,
@@ -449,7 +449,7 @@ return {
 			},
 			action = {
 				{
-					y = 500,
+					y = 750,
 					type = "move",
 					delay = 0,
 					dur = 0.4,
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 301210,
 			nameColor = "#a9f548",
-			say = "<size=45>D-don't say any more!</size>",
+			say = "<size=67.5>D-don't say any more!</size>",
 			effects = {
 				{
 					active = true,
@@ -492,7 +492,7 @@ return {
 			},
 			action = {
 				{
-					y = 45,
+					y = 67.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

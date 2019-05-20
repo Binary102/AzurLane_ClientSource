@@ -8,8 +8,7 @@ slot0.Letters = {
 	"F",
 	"G"
 }
-slot0.CharPrefab = "anshan"
-slot0.PageNums = 5
+slot0.PageNums = 4
 
 function slot0.getUIName(slot0)
 	return "ColoringUI"
@@ -29,38 +28,41 @@ end
 
 function slot0.init(slot0)
 	slot0.topPanel = slot0:findTF("top")
-	slot0.btnBack = slot0:findTF("top/back")
-	slot0.ship = slot0:findTF("ship")
-	slot0.title = slot0:findTF("title_bar/text")
-	slot0.bg = slot0:findTF("container/bg")
+	slot0.btnBack = slot0:findTF("top/btnBack")
+	slot0.title = slot0:findTF("center/title_bar/text")
+	slot0.bg = slot0:findTF("center/board/container/bg")
 	slot0.zoom = slot0.bg:GetComponent("Zoom")
 	slot0.zoom.maxZoom = 3
 	slot0.cells = slot0:findTF("cells", slot0.bg)
 	slot0.cell = slot0:findTF("cell", slot0.bg)
 	slot0.lines = slot0:findTF("lines", slot0.bg)
 	slot0.line = slot0:findTF("line", slot0.bg)
-	slot0.btnHelp = slot0:findTF("btnHelp")
-	slot0.btnShare = slot0:findTF("btnShare")
-	slot0.toggleAward = slot0:findTF("award_bar/award")
-	slot0.toggleAwardWhite = slot0:findTF("award_bar/award_white/toggle")
-	slot0.groupAward = slot0:findTF("award_bar/awards")
-	slot0.btnPageLast = slot0:findTF("award_bar/page_last")
-	slot0.btnPageNext = slot0:findTF("award_bar/page_next")
+	slot0.btnHelp = slot0:findTF("top/btnHelp")
+	slot0.btnShare = slot0:findTF("top/btnShare")
+	slot0.colorgroupbehind = slot0:findTF("center/colorgroupbehind")
+	slot0.colorgroupfront = slot0:findTF("center/colorgroupfront")
 	slot0.scrollColor = slot0:findTF("color_bar/scroll")
 	slot0.groupColor = slot0:findTF("content", slot0.scrollColor)
 	slot0.barExtra = slot0:findTF("color_bar/extra")
 	slot0.toggleEraser = slot0:findTF("eraser", slot0.barExtra)
 	slot0.btnEraserAll = slot0:findTF("eraser_all", slot0.barExtra)
 	slot0.arrowDown = slot0:findTF("arrow", slot0.barExtra)
-	slot0.awardDisplay = slot0:findTF("award_display")
-	slot0.resource = slot0:findTF("resource")
+	slot0.paintsgroup = {}
+	slot1 = 1
+
+	while true do
+		if not slot0:findTF(slot1, slot0.colorgroupbehind) then
+			break
+		end
+
+		table.insert(slot0.paintsgroup, slot2)
+
+		slot1 = slot1 + 1
+	end
 
 	setActive(slot0.cell, false)
 	setActive(slot0.line, false)
-	setActive(slot0.toggleAward, false)
-	setActive(slot0.toggleAwardWhite, false)
 	setActive(slot0.barExtra, false)
-	setActive(slot0.awardDisplay, false)
 end
 
 function slot0.didEnter(slot0)
@@ -73,7 +75,8 @@ function slot0.didEnter(slot0)
 		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.btnHelp, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("coloring_help_tip")
 		})
 	end, SFX_PANEL)
@@ -88,48 +91,17 @@ function slot0.didEnter(slot0)
 		slot0:uiStartAnimating()
 	end)
 	slot0:initColoring()
-	slot0:loadChar()
+	slot0:updatePage()
 end
 
 function slot0.uiStartAnimating(slot0)
 	slot0.topPanel.anchoredPosition = Vector2(0, slot0.topPanel.rect.height)
 
-	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("bg/left", slot0.topPanel), slot0:findTF("bg/right", slot0.topPanel), slot0:findTF("bg/title_vote", slot0.topPanel), slot0:findTF("bg/Text", slot0.topPanel), 0.27, function ()
-		slot0.tweens = nil
-	end)
+	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true, nil)
 end
 
 function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, dur, delay, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-end
-
-function slot0.loadChar(slot0)
-	PoolMgr.GetInstance():GetSpineChar(slot0.CharPrefab, true, function (slot0)
-		if slot0.exited then
-			PoolMgr.GetInstance():ReturnSpineChar(slot1.CharPrefab, slot0)
-		else
-			slot0.transform.localScale = Vector3.New(0.7, 0.7, 0.7)
-
-			slot0:GetComponent(typeof(SpineAnimUI)):SetAction("stand", 0)
-			setParent(slot0, slot0.ship, false)
-
-			slot0.charModel = slot0
-		end
-	end)
-end
-
-function slot0.unloadChar(slot0)
-	if slot0.charModel then
-		PoolMgr.GetInstance():ReturnSpineChar(slot0.CharPrefab, slot0.charModel)
-
-		slot0.charModel = nil
-	end
+	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, 0.3, 0, true, true, nil)
 end
 
 function slot0.initColoring(slot0)
@@ -149,35 +121,6 @@ function slot0.initColoring(slot0)
 	onButton(slot0, slot0.arrowDown, function ()
 		slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 0
 	end, SFX_PANEL)
-	onButton(slot0, slot0.btnPageLast, function ()
-		if slot0.currentPage == 1 then
-			slot0.currentPage = 0
-
-			slot0:updatePage()
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.btnPageNext, function ()
-		if slot0.currentPage == 0 then
-			slot0.currentPage = 1
-
-			slot0:updatePage()
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.toggleAwardWhite, function ()
-		for slot3, slot4 in ipairs(slot0.colorGroups) do
-			if slot4:canBeCustomised() and slot0.selectedIndex ~= slot3 then
-				if (slot0.selectedIndex - 1) % slot1.PageNums >= 0 and slot5 < slot0.groupAward.childCount then
-					setActive(slot0.groupAward:GetChild(slot5):Find("selected"), false)
-				end
-
-				slot0.selectedIndex = slot3
-
-				setActive(slot0.toggleAwardWhite:Find("selected"), true)
-				slot0:tryPlayStory()
-				slot0:updateSelectedColoring()
-			end
-		end
-	end, SFX_PANEL)
 
 	slot1 = 1
 
@@ -189,82 +132,82 @@ function slot0.initColoring(slot0)
 		end
 	end
 
-	slot0.currentPage = math.floor((slot1 - 1) / slot0.PageNums)
-
-	slot0:updatePage()
+	slot0:initInteractive()
 
 	slot0.selectedIndex = 0
 
-	if slot0.colorGroups[slot1]:canBeCustomised() then
-		triggerButton(slot0.toggleAwardWhite, true)
-	else
-		triggerButton(slot0.groupAward:GetChild((slot1 - 1) % slot0.PageNums), true)
+	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, slot0.PageNums)], true)
+
+	slot0.selectedColorIndex = 0
+
+	triggerToggle(slot0.groupColor:GetChild(0), true)
+end
+
+function slot0.initInteractive(slot0)
+	for slot4, slot5 in pairs(slot0.paintsgroup) do
+		slot7 = slot0.colorGroups[slot4]
+
+		onButton(slot0, slot5, function ()
+			slot0 = slot0:getState()
+
+			if slot0.selectedIndex ~= slot2 and slot0 ~= ColorGroup.StateLock then
+				if slot1.paintsgroup[slot1.selectedIndex] then
+					slot1:SetParent(slot1.colorgroupbehind)
+				end
+
+				slot1.selectedIndex = slot1
+
+				slot1:SetParent(slot1.colorgroupfront)
+				slot1:updateSelectedColoring()
+			elseif slot0 == ColorGroup.StateLock then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_lock"))
+			end
+
+			slot1:updatePage()
+		end, SFX_PANEL)
 	end
 
-	slot0.selectedColorIndex = 1
+	for slot4 = 0, slot0.groupColor.childCount - 1, 1 do
+		onToggle(slot0, slot0.groupColor:GetChild(slot4), function (slot0)
+			slot1 = slot0:findTF("icon", slot0.findTF)
 
-	triggerToggle(slot0.groupColor:GetChild(slot0.selectedColorIndex - 1), true)
+			if slot0 then
+				if slot0.selectedColorIndex ~= slot2 + 1 then
+					slot1.sizeDelta.x = 487
+					slot1.sizeDelta = slot1.sizeDelta
+					slot0.selectedColorIndex = slot2 + 1
+				end
+			else
+				slot1.sizeDelta.x = 387
+				slot1.sizeDelta = slot1.sizeDelta
+			end
+		end, SFX_PANEL)
+	end
+
+	onToggle(slot0, slot0.toggleEraser, function ()
+		if slot0.selectedColorIndex > 0 and slot0.selectedColorIndex <= slot0.groupColor.childCount then
+			triggerToggle(slot0.groupColor:GetChild(slot0.selectedColorIndex - 1), false)
+		end
+
+		slot0.selectedColorIndex = 0
+	end, SFX_PANEL)
 end
 
 function slot0.updatePage(slot0)
-	slot1 = UIItemList.New(slot0.groupAward, slot0.toggleAward)
+	for slot4, slot5 in pairs(slot0.paintsgroup) do
+		setActive(slot5:Find("lock"), slot0.colorGroups[slot4].getState(slot7) == ColorGroup.StateLock)
+		setActive(slot5:Find("get"), slot8 == ColorGroup.StateAchieved)
+	end
 
-	slot1:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
+	slot2 = 0
+
+	for slot6 = #slot0.paintsgroup, 1, -1 do
+		if slot6 ~= slot0.selectedIndex then
+			slot0.paintsgroup[slot6]:SetSiblingIndex(slot2)
+
+			slot2 = slot2 + 1
 		end
-	end)
-	slot1:align((slot0.currentPage == 0 and slot0.PageNums) or #slot0.colorGroups - slot0.PageNums - 1)
-
-	slot0.awardList = slot1
-
-	setActive(slot0.toggleAwardWhite, slot0.currentPage == 1 and _.any(slot0.colorGroups, function (slot0)
-		return slot0:canBeCustomised() and slot0:getState() == ColorGroup.StateColoring
-	end))
-	slot0:updateColoring()
-end
-
-function slot0.updateColoring(slot0)
-	slot0.awardList:each(function (slot0, slot1)
-		if not isActive(slot1) then
-			return
-		end
-
-		if not slot0.colorGroups[slot0.currentPage * slot1.PageNums + slot0 + 1]:canBeCustomised() then
-			setImageSprite(slot1:Find("number"), getImageSprite(slot0.resource:Find(tostring(slot2))), true)
-
-			if slot3:getState() == ColorGroup.StateLock then
-				setImageColor(slot1:Find("bg"), Color.gray)
-				setImageColor(slot1:Find("number"), Color.gray)
-			else
-				setImageColor(slot1:Find("bg"), Color.white)
-				setImageColor(slot1:Find("number"), Color.white)
-			end
-
-			setActive(slot1:Find("get"), slot4 == ColorGroup.StateAchieved)
-			onButton(slot0, slot1, function ()
-				if slot0:getState().selectedIndex ~= slot2 and slot0 ~= ColorGroup.StateLock then
-					if slot1.colorGroups[slot1.selectedIndex] then
-						if slot1:canBeCustomised() then
-							setActive(slot1.toggleAwardWhite:Find("selected"), false)
-						else
-							setActive(slot1.groupAward:GetChild(slot2):Find("selected"), false)
-						end
-					end
-
-					slot1.selectedIndex = slot1
-
-					setActive(slot4:Find("selected"), true)
-					slot1:tryPlayStory()
-					slot1:updateSelectedColoring()
-				elseif slot0 == ColorGroup.StateLock then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_lock"))
-				end
-			end, SFX_PANEL)
-		end
-
-		setActive(slot1:Find("selected"), slot0.selectedIndex == slot2)
-	end)
-	setActive(slot0.toggleAwardWhite:Find("selected"), slot0.colorGroups[slot0.selectedIndex] and slot1:canBeCustomised())
+	end
 end
 
 function slot0.updateSelectedColoring(slot0)
@@ -272,27 +215,19 @@ function slot0.updateSelectedColoring(slot0)
 	slot3 = slot0.colorGroups[slot0.selectedIndex].colors
 
 	for slot7 = 0, slot0.groupColor.childCount - 1, 1 do
-		setText(slot0.groupColor:GetChild(slot7).Find(slot8, "nums"), slot0.colorItems[slot2[slot7 + 1]] or 0)
-		onToggle(slot0, slot8, function (slot0)
-			if slot0 then
-				slot0.selectedColorIndex = slot1 + 1
-			end
-		end, SFX_PANEL)
+		setText(slot0.groupColor:GetChild(slot7).Find(slot8, "icon/x/nums"), slot0.colorItems[slot2[slot7 + 1]] or 0)
 	end
 
 	setText(slot0.title, slot1:getConfig("name"))
-	setActive(slot0.title.parent, false)
+	setActive(slot0.title.parent, slot1:getConfig("name") ~= nil)
 	setActive(slot0.barExtra, slot1:canBeCustomised())
 
-	slot0.scrollColor.sizeDelta.y = (slot1:canBeCustomised() and 480) or 634
+	slot0.scrollColor.sizeDelta.y = (slot1:canBeCustomised() and 812.5) or 1000
 	slot0.scrollColor.sizeDelta = slot0.scrollColor.sizeDelta
 	slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 
 	setActive(slot0.scrollColor, false)
 	setActive(slot0.scrollColor, true)
-	onToggle(slot0, slot0.toggleEraser, function ()
-		slot0.selectedColorIndex = 0
-	end, SFX_PANEL)
 
 	slot0.cellSize = slot0:calcCellSize()
 
@@ -515,18 +450,6 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.updateAwardDisplay(slot0)
-	slot1 = {
-		1,
-		3,
-		7
-	}
-
-	for slot5 = 1, 3, 1 do
-		setActive(slot0.awardDisplay:GetChild("item" .. slot5).Find(slot6, "get"), slot0.colorGroups[slot1[slot5]]:getState() == ColorGroup.StateColoring)
-	end
-end
-
 function slot0.tryPlayStory(slot0)
 	if pg.gameset.coloring_story.description[slot0.selectedIndex] then
 		pg.StoryMgr.GetInstance():Play(slot1)
@@ -536,10 +459,6 @@ end
 function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
-end
-
-function slot0.willExit(slot0)
-	slot0:unloadChar()
 end
 
 return slot0

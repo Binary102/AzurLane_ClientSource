@@ -744,8 +744,8 @@ pg.backyard_theme_template = {
 	},
 	[23] = {
 		Cfg_1 = 5,
-		name = "Manjuu Daycare",
-		desc = "The Manjuu Daycare is the perfect environment for young destroyers to have fun and learn!",
+		name = "Playground",
+		desc = "Let's have some fun on the slide!",
 		deblocking = 1,
 		new = 1,
 		hot = 1,

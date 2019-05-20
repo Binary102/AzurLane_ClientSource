@@ -10,6 +10,16 @@ class("SendCmdCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			for slot7, slot8 in pairs(slot3) do
 				print(slot8.id)
 			end
+		elseif slot2.arg1 == "guide" then
+			if Application.isEditor then
+				if not slot2.arg2 or slot2.arg2 == "" then
+					print(getProxy(PlayerProxy):getRawData().guideIndex)
+				else
+					slot0:sendNotification(GAME.UPDATE_GUIDE_INDEX, {
+						index = tonumber(slot2.arg2)
+					})
+				end
+			end
 		elseif slot2.arg1 == "clear" and slot2.arg2 == "buffer" then
 			PlayerPrefs.DeleteAll()
 			PlayerPrefs.Save()

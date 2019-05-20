@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻的交汇\n\n<size=30>猜猜我是谁？</size>",
+					"梦幻的交汇\n\n<size=45>猜猜我是谁？</size>",
 					1
 				}
 			}
@@ -285,13 +285,13 @@ return {
 				{
 					actor = 10300040,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 10300050,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},
@@ -311,7 +311,7 @@ return {
 			say = "等一下！？刚刚是不是出现了第三个人！？声音完全一样啊！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -385,13 +385,13 @@ return {
 				{
 					actor = 10300040,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 10300050,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},

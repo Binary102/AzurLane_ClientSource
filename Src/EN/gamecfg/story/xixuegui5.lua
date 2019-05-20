@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣天使or恶魔？\n\n<size=30>五　专业护士吸血鬼</size>",
+					"白衣天使or恶魔？\n\n<size=45>五　专业护士吸血鬼</size>",
 					1
 				}
 			}
@@ -225,7 +225,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"

@@ -22,10 +22,7 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		SnapshotSelectCharMediator.SELECT_CHAR,
-		PERMISSION_GRANTED,
-		PERMISSION_REJECT,
-		PERMISSION_NEVER_REMIND
+		SnapshotSelectCharMediator.SELECT_CHAR
 	}
 end
 
@@ -34,28 +31,6 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == SnapshotSelectCharMediator.SELECT_CHAR then
 		slot0.viewComponent:setSkin(slot3)
-	elseif PERMISSION_GRANTED == slot2 then
-		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
-			slot0.viewComponent:changeToTakeVideo()
-		end
-	elseif PERMISSION_REJECT == slot2 then
-		if slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("apply_permission_record_audio_tip3"),
-				onYes = function ()
-					ApplyPermission({
-						ANDROID_RECORD_AUDIO_PERMISSION
-					})
-				end
-			})
-		end
-	elseif PERMISSION_NEVER_REMIND and slot3 == ANDROID_RECORD_AUDIO_PERMISSION then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("apply_permission_record_audio_tip2"),
-			onYes = function ()
-				OpenDetailSetting()
-			end
-		})
 	end
 end
 

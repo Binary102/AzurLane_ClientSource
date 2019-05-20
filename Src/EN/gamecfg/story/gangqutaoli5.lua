@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Escape from the Port?\n\n<size=30>Chapter 5 - Mission Failed...?</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 5 - Mission Failed...?</size>",
 					1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -255,7 +255,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -331,7 +331,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

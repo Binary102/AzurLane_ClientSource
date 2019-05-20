@@ -3313,7 +3313,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16001] = {
-		display = "Use to grant additional EXP when training a ship's offensive skills.\n*May use <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Offensive Skill Book</color>.",
+		display = "Use to grant additional EXP when training a ship's offensive skills.\n*May use <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Offensive Skill Book</color>.",
 		rarity = 2,
 		type = 10,
 		name = "T1 Offensive Skill Book",
@@ -3361,7 +3361,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16011] = {
-		display = "Use to grant additional EXP when training a ship's defensive skills \n*May use <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Defensive Skill Book</color>.",
+		display = "Use to grant additional EXP when training a ship's defensive skills \n*May use <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Defensive Skill Book</color>.",
 		rarity = 2,
 		type = 10,
 		name = "T1 Defensive Skill Book",
@@ -3409,7 +3409,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16021] = {
-		display = "Use to grant additional EXP when training a ship's support skills.\n*May use <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Support Skill Book</color>.",
+		display = "Use to grant additional EXP when training a ship's support skills.\n*May use <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Support Skill Book</color>.",
 		rarity = 2,
 		type = 10,
 		name = "T1 Support Skill Book",
@@ -3758,7 +3758,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18001] = {
-		display = "Use to improve Destroyers\nMay combine <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Destroyer Retrofit Blueprint</color>",
+		display = "Use to improve Destroyers\nMay combine <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Destroyer Retrofit Blueprint</color>",
 		rarity = 2,
 		type = 7,
 		name = "T1 Destroyer Retrofit Blueprint",
@@ -3806,7 +3806,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18011] = {
-		display = "Use to improve Cruisers\nMay combine <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Cruiser Retrofit Blueprint</color>",
+		display = "Use to improve Cruisers\nMay combine <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Cruiser Retrofit Blueprint</color>",
 		rarity = 2,
 		type = 7,
 		name = "T1 Cruiser Retrofit Blueprint",
@@ -3854,7 +3854,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18021] = {
-		display = "Use to improve Battleships\nMay combine <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Battleship Retrofit Blueprint</color>",
+		display = "Use to improve Battleships\nMay combine <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Battleship Retrofit Blueprint</color>",
 		rarity = 2,
 		type = 7,
 		name = "T1 Battleship Retrofit Blueprint",
@@ -3902,7 +3902,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18031] = {
-		display = "Use to improve Carriers\nMay combine <color=#fad545>6</color> to craft <color=#fad545>1</color> <color=#966af6>T2 Carrier Retrofit Blueprint</color>",
+		display = "Use to improve Carriers\nMay combine <color=#ffde38>6</color> to craft <color=#ffde38>1</color> <color=#966af6>T2 Carrier Retrofit Blueprint</color>",
 		rarity = 2,
 		type = 7,
 		name = "T1 Carrier Retrofit Blueprint",
@@ -3988,7 +3988,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30011] = {
-		display = "Contains 1 piece of Common Eagle faction gear:\nContains Common gear\nMay combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#60a9ff>T2 Eagle Tech Pack</color>",
+		display = "Contains 1 piece of Common Eagle faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Eagle Tech Pack</color>",
 		rarity = 1,
 		type = 5,
 		name = "T1 Eagle Tech Pack",
@@ -4011,7 +4011,7 @@ pg.item_data_statistics = {
 May contain 1 piece of Rare Eagle faction gear:
 Low chance to receive <color=#60a9ff>Rare gear</color>
 High chance to receive Common gear
-May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#966af6>T3 Eagle Tech Pack</color>]],
+May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Eagle Tech Pack</color>]],
 		rarity = 2,
 		type = 5,
 		name = "T2 Eagle Tech Pack",
@@ -4087,7 +4087,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[30021] = {
-		display = "Contains 1 piece of Common Royal Navy faction gear:\nContains Common gear\nMay combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#60a9ff>T2 Royal Tech Pack</color>",
+		display = "Contains 1 piece of Common Royal Navy faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Royal Tech Pack</color>",
 		rarity = 1,
 		type = 5,
 		name = "T1 Royal Tech Pack",
@@ -4110,7 +4110,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 May contain 1 piece of Rare Royal Navy faction gear:
 Low chance to receive <color=#60a9ff>Rare gear</color>
 High chance to receive Common gear
-May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#966af6>T3 Royal Tech Pack</color>]],
+May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Royal Tech Pack</color>]],
 		rarity = 2,
 		type = 5,
 		name = "T2 Royal Tech Pack",
@@ -4186,7 +4186,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[30031] = {
-		display = "Contains 1 piece of Common Sakura Empire faction gear:\nContains Common gear\nMay combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#60a9ff>T2 Sakura Tech Pack</color>",
+		display = "Contains 1 piece of Common Sakura Empire faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Sakura Tech Pack</color>",
 		rarity = 1,
 		type = 5,
 		name = "T1 Sakura Tech Pack",
@@ -4209,7 +4209,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 May contain 1 piece of Rare Sakura Empire faction gear:
 Low chance to receive <color=#60a9ff>Rare gear</color>
 High chance to receive Common gear
-May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#966af6>T3 Sakura Tech Pack</color>]],
+May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Sakura Tech Pack</color>]],
 		rarity = 2,
 		type = 5,
 		name = "T2 Sakura Tech Pack",
@@ -4285,7 +4285,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[30041] = {
-		display = "Contains 1 piece of Common Ironblood faction gear:\nContains Common gear\nMay combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#60a9ff>T2 Ironblood Tech Pack</color>",
+		display = "Contains 1 piece of Common Ironblood faction gear:\nContains Common gear\nMay combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#60a9ff>T2 Ironblood Tech Pack</color>",
 		rarity = 1,
 		type = 5,
 		name = "T1 Ironblood Tech Pack",
@@ -4308,7 +4308,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 May contain 1 piece of Rare Ironblood faction gear:
 Low chance to receive <color=#60a9ff>Rare gear</color>
 High chance to receive Common gear
-May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#966af6>T3 Ironblood Tech Pack</color>]],
+May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#966af6>T3 Ironblood Tech Pack</color>]],
 		rarity = 2,
 		type = 5,
 		name = "T2 Ironblood Tech Pack",
@@ -4384,7 +4384,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[30103] = {
-		display = "Contains 1 to 4 <color=#966af6>random T3 Parts</color>:\nParts are granted with <color=#fad545>equal probability</color>",
+		display = "Contains 1 to 4 <color=#966af6>random T3 Parts</color>:\nParts are granted with <color=#ffde38>equal probability</color>",
 		rarity = 3,
 		type = 5,
 		name = "T3 Parts Pack",
@@ -5945,7 +5945,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		display = "Lunar New Year Lucky Bag contains 1 x random Ship skin, 2019 x Gems, T3 Cruiser Retrofit Blueprint *1, T2 Cruiser Retrofit Blueprint *5, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 5,
-		name = "Lunar New Year\nLucky Bag ",
+		name = "Lunar New Year Lucky Bag ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -6254,7 +6254,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		display = "Contains loads of valuable rewards",
 		rarity = 4,
 		type = 5,
-		name = "Lunar New Year\nLimited Build Supplies",
+		name = "Lunar New Year Limited Build Supplies",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -11268,7 +11268,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52001] = {
-		display = "It contains a random Blueprint ",
+		display = "You can acquire a number of the following Blueprints at random:",
 		rarity = 4,
 		type = 99,
 		name = "Random Blueprint",
@@ -11315,7 +11315,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52002] = {
-		display = "It contains a random Gear Design",
+		display = "You can acquire a number of the following gear designs at random:",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design",
@@ -11387,7 +11387,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52003] = {
-		display = "It contains a random T3 Gear Design",
+		display = "You can acquire a number of the following gear designs at random:",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design T3",
@@ -11529,7 +11529,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52004] = {
-		display = "It contains a random T2 Gear Design",
+		display = "You can acquire a number of the following gear designs at random:",
 		rarity = 3,
 		type = 98,
 		name = "Random Gear Design T2",
@@ -11545,7 +11545,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52011] = {
-		display = "It contains a random Blueprint ",
+		display = "You can acquire a number of the following Blueprints at random:",
 		rarity = 4,
 		type = 99,
 		name = "Random Blueprint",
@@ -11592,7 +11592,7 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[52012] = {
-		display = "It contains a random Gear Design",
+		display = "You can acquire a number of the following gear designs at random:",
 		rarity = 4,
 		type = 99,
 		name = "Random Gear Design",
@@ -47804,10 +47804,10 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[59100] = {
-		display = "Increase available Storage slots by 20",
+		display = "Increase Depot capacity by 20 slots",
 		rarity = 5,
 		type = 98,
-		name = "Expanded Storage",
+		name = "Depot Expansion",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -47820,10 +47820,10 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		index = {}
 	},
 	[59101] = {
-		display = "Increase available Dock slots by 10",
+		display = "Increase Dock capacity by 10 slots",
 		rarity = 5,
 		type = 98,
-		name = "Expanded Dock",
+		name = "Dock Expansion",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -48023,8 +48023,24 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		link_id = 0,
 		id = 59126,
 		icon = "Props/kizuna_pt",
-		price = "",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59128] = {
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time. Will disappear after the event period (until the July 11th maintenance) ends. ",
+		rarity = 4,
+		type = 98,
+		name = "Rental Outfit Voucher",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59128,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
 		index = {}
 	},
 	[59615] = {
@@ -48385,6 +48401,134 @@ May combine <color=#fad545>5</color> to craft <color=#fad545>1</color> <color=#9
 		link_id = 30077,
 		id = 59771,
 		icon = "props/memorycard",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59775] = {
+		display = "Collect 7 U-556's Medals to earn the limited gear \"Certificate of Sponsorship\" ",
+		rarity = 2,
+		type = 0,
+		name = "U-556's Medal ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 30132,
+		id = 59775,
+		icon = "Props/u556xunzhang",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59776] = {
+		display = "Paint A, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59776,
+		icon = "Props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59777] = {
+		display = "Paint B, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59777,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59778] = {
+		display = "Paint C, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59778,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59779] = {
+		display = "Paint D, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59779,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59780] = {
+		display = "Paint E, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59780,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59781] = {
+		display = "Paint F, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59781,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59782] = {
+		display = "Paint G, used in the Coloring Book event. Will be removed after the event ends",
+		rarity = 2,
+		type = 0,
+		name = "Paint G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30133,
+		id = 59782,
+		icon = "props/draw_g",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -50391,6 +50535,7 @@ Skins and their drop rates:
 		59121,
 		59125,
 		59126,
+		59128,
 		59615,
 		59750,
 		59751,
@@ -50412,6 +50557,14 @@ Skins and their drop rates:
 		59769,
 		59770,
 		59771,
+		59775,
+		59776,
+		59777,
+		59778,
+		59779,
+		59780,
+		59781,
+		59782,
 		59801,
 		59802,
 		59803,

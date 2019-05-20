@@ -10,6 +10,9 @@ function ys.Battle.BattleAircraftCharacter.Ctor(slot0)
 
 	slot0:SetYShakeMin()
 	slot0:SetYShakeMax()
+
+	slot0.shadowScale = Vector3.one
+	slot0.shadowPos = Vector3.zero
 end
 
 function ys.Battle.BattleAircraftCharacter.SetUnitData(slot0, slot1)
@@ -86,13 +89,20 @@ function ys.Battle.BattleAircraftCharacter.UpdateDirection(slot0)
 end
 
 function ys.Battle.BattleAircraftCharacter.UpdateHPBarPostition(slot0)
-	slot0._HPBarTf.position = slot0._referenceVector + slot0._hpBarOffset
+	slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
+
+	slot0._HPBarTf.position = slot0._hpBarPos
 end
 
 function ys.Battle.BattleAircraftCharacter.UpdateShadow(slot0)
 	if slot0._shadow and slot0._unitData:GetCurrentState() == slot0._unitData.STATE_CREATE then
-		slot0._shadowTF.localScale = Vector3(slot2, 1, slot2)
-		slot0._shadowTF.position = Vector3(slot0._unitData:GetPosition().x, 0, slot0._unitData.GetPosition().z)
+		slot1 = slot0._unitData:GetPosition()
+		slot0.shadowScale.z = math.min(4, math.max(2, 4 - (4 * slot1.y) / slot0.Battle.BattleConfig.AircraftHeight))
+		slot0.shadowScale.x = slot2
+		slot0._shadowTF.localScale = slot0.shadowScale
+		slot0.shadowPos.z = slot1.z
+		slot0.shadowPos.x = slot1.x
+		slot0._shadowTF.position = slot0.shadowPos
 	end
 end
 

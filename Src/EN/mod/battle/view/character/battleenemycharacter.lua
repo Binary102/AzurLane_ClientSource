@@ -29,9 +29,20 @@ function ys.Battle.BattleEnemyCharacter.Update(slot0)
 	slot0:UpdateMatrix()
 	slot0:UpdateArrowBarPostition()
 	slot0:UpdateArrowBarRotation()
+
+	if slot0._vigilantBar then
+		slot0:UpdateVigilantBarPosition()
+		slot0._vigilantBar:UpdateVigilantProgress()
+	end
 end
 
 function ys.Battle.BattleEnemyCharacter.Dispose(slot0)
+	if slot0._vigilantBar then
+		slot0._vigilantBar:Dispose()
+
+		slot0._vigilantBar = nil
+	end
+
 	slot0._factory:GetArrowPool():DestroyObj(slot0._arrowBar)
 	slot0.super.Dispose(slot0)
 end
@@ -62,7 +73,9 @@ end
 
 function ys.Battle.BattleEnemyCharacter.UpdateHPBarPostition(slot0)
 	if not slot0._hideHP then
-		slot0._HPBarTf.position = slot0._referenceVector + slot0._hpBarOffset
+		slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
+
+		slot0._HPBarTf.position = slot0._hpBarPos
 	end
 end
 

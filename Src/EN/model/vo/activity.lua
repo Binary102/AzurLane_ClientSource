@@ -39,6 +39,16 @@ function slot0.Ctor(slot0, slot1)
 			slot0.data1KeyValueList[slot6.key][slot11.key] = slot11.value
 		end
 	end
+
+	slot0.clientList = {}
+end
+
+function slot0.setClientList(slot0, slot1)
+	slot0.clientList = slot1
+end
+
+function slot0.getClientList(slot0)
+	return slot0.clientList
 end
 
 function slot0.updateDataList(slot0, slot1)
@@ -130,17 +140,57 @@ function slot0.readyToAchieve(slot0)
 		return not (slot0:getDataConfig("hp") <= slot0.data3) and slot0:getCountForHitMonster() > 0
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_DODGEM then
 		slot3 = pg.TimeMgr.GetInstance()
+		slot4 = slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1
 
-		return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1, 7) or slot0.data3 < slot3.DiffDay(slot0.data1, slot3.GetServerTime()) + 1
+		if slot0:getConfig("config_id") == 1 then
+			return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot4, 7) or slot0.data3 < slot4
+		elseif slot5 == 2 then
+			return (slot0.data4 == 0 and slot0.data2 >= 7) or defaultValue(slot0.data2_list[1], 0) > 0 or defaultValue(slot0.data2_list[2], 0) > 0 or slot0.data2 < math.min(slot4, 7)
+		end
 	elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 		return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
-	elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM and (table.indexof(slot0:getDataConfig("target"), slot0.data2) or 0) then
-		return not (slot4 == #slot3) and slot3[math.min(slot4 + 1, #slot3)] <= slot0.data1
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
+		if table.indexof(slot0:getDataConfig("target"), slot0.data2) or 0 then
+			slot1 = not (slot4 == #slot3) and slot3[math.min(slot4 + 1, #slot3)] <= slot0.data1
+		end
+	elseif slot2 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		if slot0.data1 == 1 then
+			slot5 = pg.activity_template_headhunting[slot0.id].target
+			slot6 = 0
+
+			for slot10, slot11 in ipairs(slot0:getClientList()) do
+				slot6 = slot6 + slot11:getPt()
+			end
+
+			slot7 = 0
+
+			for slot11 = #slot5, 1, -1 do
+				if table.contains(slot0.data1_list, slot5[slot11]) then
+					slot7 = slot11
+
+					break
+				end
+			end
+
+			return slot5[math.min(slot7 + 1, #slot4.drop_client)] <= slot6 and slot7 ~= #slot8
+		elseif slot3 == 2 then
+			slot4 = getProxy(TaskProxy)
+
+			return _.any(_.flatten(pg.activity_template_returnner[slot0.id].task_list), function (slot0)
+				return slot0:getTaskById(slot0) and slot1:isFinish()
+			end)
+		end
 	end
+
+	return slot1
 end
 
 function slot0.isShow(slot0)
-	return slot0:getConfig("is_show") > 0
+	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
+		return slot0:getConfig("is_show") > 0 and slot0.data1 ~= 0 and getProxy(PlayerProxy):getRawData().level >= 15
+	else
+		return slot0:getConfig("is_show") > 0
+	end
 end
 
 function slot0.getShowPriority(slot0)

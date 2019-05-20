@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Knights & Awards\n\n<size=30>Chapter 7 - The Best Prize</size>",
+					"Knights & Awards\n\n<size=45>Chapter 7 - The Best Prize</size>",
 					1
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			say = "Y-y-y-y-you think I was c-c-c-cute?!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -256,7 +256,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
-					x = 20,
+					x = 30,
 					number = 2
 				}
 			},
@@ -279,7 +279,7 @@ return {
 			say = "— H-hey, I told you to stop calling me Clevebro already!",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -215,7 +215,7 @@ function ys.Battle.BattleDebugConsole.initComponent(slot0)
 
 	onButton(nil, slot0._white, function ()
 		for slot3, slot4 in pairs(slot0._dataProxy._foeShipList) do
-			slot4:UpdateHP(-10000000000.0)
+			slot4:UpdateHP(-1000, {})
 		end
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)

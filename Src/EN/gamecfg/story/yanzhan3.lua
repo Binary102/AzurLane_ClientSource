@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家的骑士\n\n<size=30>三 “老女士”的速度</size>",
+					"皇家的骑士\n\n<size=45>三 “老女士”的速度</size>",
 					1
 				}
 			}
@@ -102,7 +102,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.3,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -139,7 +139,7 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = -1500,
+				x = -2250,
 				y = 0
 			},
 			action = {
@@ -148,7 +148,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.3,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -184,7 +184,7 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = -1500,
+				x = -2250,
 				y = 0
 			},
 			action = {
@@ -193,7 +193,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.3,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -254,7 +254,7 @@ return {
 			actor = 205020,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = -1500,
+				x = -2250,
 				y = 0
 			},
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.3,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -293,7 +293,7 @@ return {
 			},
 			action = {
 				{
-					y = -1000,
+					y = -1500,
 					type = "move",
 					delay = 0,
 					dur = 0.2,
@@ -308,7 +308,7 @@ return {
 			say = "砰咚",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -342,7 +342,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -413,7 +413,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -455,7 +455,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.3,

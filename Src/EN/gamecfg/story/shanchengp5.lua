@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>五 阴，转——</size>",
+					"雨后天晴\n\n<size=45>五 阴，转——</size>",
 					1
 				}
 			}
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

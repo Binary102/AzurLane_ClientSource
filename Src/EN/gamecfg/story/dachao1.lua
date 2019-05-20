@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Gentle and Sweet Ooshio!\n\n<size=30>Ooshio the Secretary</size>",
+					"Gentle and Sweet Ooshio!\n\n<size=45>Ooshio the Secretary</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			say = "What the...?",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

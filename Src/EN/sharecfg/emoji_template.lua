@@ -5,7 +5,7 @@ pg.emoji_template = {
 		id = 1,
 		index = 41,
 		pic = "1",
-		desc = "<color=#A9F548>[Don't]</color>",
+		desc = "<color=#92fc63>[Don't]</color>",
 		type = {
 			1
 		}
@@ -15,7 +15,7 @@ pg.emoji_template = {
 		id = 2,
 		index = 42,
 		pic = "2",
-		desc = "<color=#A9F548>[Just kidding]</color>",
+		desc = "<color=#92fc63>[Just kidding]</color>",
 		type = {
 			1
 		}
@@ -25,7 +25,7 @@ pg.emoji_template = {
 		id = 3,
 		index = 43,
 		pic = "3",
-		desc = "<color=#A9F548>[Humble❤]</color>",
+		desc = "<color=#92fc63>[Humble❤]</color>",
 		type = {
 			1
 		}
@@ -35,7 +35,7 @@ pg.emoji_template = {
 		id = 4,
 		index = 44,
 		pic = "4",
-		desc = "<color=#A9F548>[On your knees]</color>",
+		desc = "<color=#92fc63>[On your knees]</color>",
 		type = {
 			1
 		}
@@ -45,7 +45,7 @@ pg.emoji_template = {
 		id = 5,
 		index = 45,
 		pic = "5",
-		desc = "<color=#A9F548>[All-night]</color>",
+		desc = "<color=#92fc63>[All-night]</color>",
 		type = {
 			1
 		}
@@ -55,7 +55,7 @@ pg.emoji_template = {
 		id = 6,
 		index = 46,
 		pic = "6",
-		desc = "<color=#A9F548>[Wanna join?]</color>",
+		desc = "<color=#92fc63>[Wanna join?]</color>",
 		type = {
 			1
 		}
@@ -65,7 +65,7 @@ pg.emoji_template = {
 		id = 7,
 		index = 47,
 		pic = "7",
-		desc = "<color=#A9F548>[Snap snap]</color>",
+		desc = "<color=#92fc63>[Snap snap]</color>",
 		type = {
 			1
 		}
@@ -75,7 +75,7 @@ pg.emoji_template = {
 		id = 8,
 		index = 48,
 		pic = "8",
-		desc = "<color=#A9F548>[I'll be back]</color>",
+		desc = "<color=#92fc63>[I'll be back]</color>",
 		type = {
 			1
 		}
@@ -85,7 +85,7 @@ pg.emoji_template = {
 		id = 9,
 		index = 49,
 		pic = "9",
-		desc = "<color=#A9F548>[Can't decide]</color>",
+		desc = "<color=#92fc63>[Can't decide]</color>",
 		type = {
 			1
 		}
@@ -95,7 +95,7 @@ pg.emoji_template = {
 		id = 10,
 		index = 50,
 		pic = "10",
-		desc = "<color=#A9F548>[Idiot]</color>",
+		desc = "<color=#92fc63>[Idiot]</color>",
 		type = {
 			1
 		}
@@ -105,7 +105,7 @@ pg.emoji_template = {
 		id = 11,
 		index = 51,
 		pic = "11",
-		desc = "<color=#A9F548>[Kawaii!]</color>",
+		desc = "<color=#92fc63>[Kawaii!]</color>",
 		type = {
 			1
 		}
@@ -115,7 +115,7 @@ pg.emoji_template = {
 		id = 12,
 		index = 52,
 		pic = "12",
-		desc = "<color=#A9F548>[Morning!]</color>",
+		desc = "<color=#92fc63>[Morning!]</color>",
 		type = {
 			1
 		}
@@ -125,7 +125,7 @@ pg.emoji_template = {
 		id = 13,
 		index = 53,
 		pic = "13",
-		desc = "<color=#A9F548>[OK]</color>",
+		desc = "<color=#92fc63>[OK]</color>",
 		type = {
 			1
 		}
@@ -135,7 +135,7 @@ pg.emoji_template = {
 		id = 14,
 		index = 54,
 		pic = "14",
-		desc = "<color=#A9F548>[Hold tight]</color>",
+		desc = "<color=#92fc63>[Hold tight]</color>",
 		type = {
 			1
 		}
@@ -145,7 +145,7 @@ pg.emoji_template = {
 		id = 15,
 		index = 55,
 		pic = "15",
-		desc = "<color=#A9F548>[Pervert]</color>",
+		desc = "<color=#92fc63>[Pervert]</color>",
 		type = {
 			1
 		}
@@ -155,7 +155,7 @@ pg.emoji_template = {
 		id = 16,
 		index = 56,
 		pic = "16",
-		desc = "<color=#A9F548>[Fancy]</color>",
+		desc = "<color=#92fc63>[Fancy]</color>",
 		type = {
 			1
 		}
@@ -165,7 +165,7 @@ pg.emoji_template = {
 		id = 17,
 		index = 57,
 		pic = "17",
-		desc = "<color=#A9F548>[what the...]</color>",
+		desc = "<color=#92fc63>[what the...]</color>",
 		type = {
 			1
 		}
@@ -175,7 +175,7 @@ pg.emoji_template = {
 		id = 18,
 		index = 58,
 		pic = "18",
-		desc = "<color=#A9F548>[obsessed?]</color>",
+		desc = "<color=#92fc63>[obsessed?]</color>",
 		type = {
 			1
 		}
@@ -185,7 +185,7 @@ pg.emoji_template = {
 		id = 19,
 		index = 59,
 		pic = "19",
-		desc = "<color=#A9F548>[Pathetic]</color>",
+		desc = "<color=#92fc63>[Pathetic]</color>",
 		type = {
 			1
 		}
@@ -195,7 +195,7 @@ pg.emoji_template = {
 		id = 20,
 		index = 60,
 		pic = "20",
-		desc = "<color=#A9F548>[Good night]</color>",
+		desc = "<color=#92fc63>[Good night]</color>",
 		type = {
 			1
 		}
@@ -205,7 +205,7 @@ pg.emoji_template = {
 		id = 21,
 		index = 61,
 		pic = "21",
-		desc = "<color=#A9F548>[Here is my prey]</color>",
+		desc = "<color=#92fc63>[Here is my prey]</color>",
 		type = {
 			1
 		}
@@ -215,7 +215,7 @@ pg.emoji_template = {
 		id = 22,
 		index = 62,
 		pic = "22",
-		desc = "<color=#A9F548>[Limit Break]</color>",
+		desc = "<color=#92fc63>[Limit Break]</color>",
 		type = {
 			1
 		}
@@ -225,7 +225,7 @@ pg.emoji_template = {
 		id = 23,
 		index = 63,
 		pic = "23",
-		desc = "<color=#A9F548>[Want a punch?]</color>",
+		desc = "<color=#92fc63>[Want a punch?]</color>",
 		type = {
 			1
 		}
@@ -235,7 +235,7 @@ pg.emoji_template = {
 		id = 24,
 		index = 64,
 		pic = "24",
-		desc = "<color=#A9F548>[Nice to meet you]</color>",
+		desc = "<color=#92fc63>[Nice to meet you]</color>",
 		type = {
 			1
 		}
@@ -245,7 +245,7 @@ pg.emoji_template = {
 		id = 25,
 		index = 65,
 		pic = "25",
-		desc = "<color=#A9F548>[！？]</color>",
+		desc = "<color=#92fc63>[！？]</color>",
 		type = {
 			1
 		}
@@ -255,7 +255,7 @@ pg.emoji_template = {
 		id = 26,
 		index = 66,
 		pic = "26",
-		desc = "<color=#A9F548>[Arigato]</color>",
+		desc = "<color=#92fc63>[Arigato]</color>",
 		type = {
 			1
 		}
@@ -265,7 +265,7 @@ pg.emoji_template = {
 		id = 27,
 		index = 67,
 		pic = "27",
-		desc = "<color=#A9F548>[Alert]</color>",
+		desc = "<color=#92fc63>[Alert]</color>",
 		type = {
 			1
 		}
@@ -275,7 +275,7 @@ pg.emoji_template = {
 		id = 28,
 		index = 68,
 		pic = "28",
-		desc = "<color=#A9F548>[Your majesty~!]</color>",
+		desc = "<color=#92fc63>[Your majesty~!]</color>",
 		type = {
 			1
 		}
@@ -285,7 +285,7 @@ pg.emoji_template = {
 		id = 29,
 		index = 69,
 		pic = "29",
-		desc = "<color=#A9F548>[Lucky U!]</color>",
+		desc = "<color=#92fc63>[Lucky U!]</color>",
 		type = {
 			1
 		}
@@ -295,7 +295,7 @@ pg.emoji_template = {
 		id = 30,
 		index = 70,
 		pic = "30",
-		desc = "<color=#A9F548>[Food!]</color>",
+		desc = "<color=#92fc63>[Food!]</color>",
 		type = {
 			1
 		}
@@ -305,7 +305,7 @@ pg.emoji_template = {
 		id = 31,
 		index = 71,
 		pic = "31",
-		desc = "<color=#A9F548>[Seriously?]</color>",
+		desc = "<color=#92fc63>[Seriously?]</color>",
 		type = {
 			1
 		}
@@ -315,7 +315,7 @@ pg.emoji_template = {
 		id = 32,
 		index = 72,
 		pic = "32",
-		desc = "<color=#A9F548>[That's it]</color>",
+		desc = "<color=#92fc63>[That's it]</color>",
 		type = {
 			1
 		}
@@ -325,7 +325,7 @@ pg.emoji_template = {
 		id = 41,
 		index = 1001,
 		pic = "akk",
-		desc = "<color=#A9F548>[What?]</color>",
+		desc = "<color=#92fc63>[What?]</color>",
 		type = {
 			2
 		}
@@ -335,7 +335,7 @@ pg.emoji_template = {
 		id = 42,
 		index = 1002,
 		pic = "beifa",
-		desc = "<color=#A9F548>[Scared]</color>",
+		desc = "<color=#92fc63>[Scared]</color>",
 		type = {
 			2
 		}
@@ -345,7 +345,7 @@ pg.emoji_template = {
 		id = 43,
 		index = 1003,
 		pic = "biaoqiang",
-		desc = "<color=#A9F548>[Yeah!]</color>",
+		desc = "<color=#92fc63>[Yeah!]</color>",
 		type = {
 			2
 		}
@@ -355,7 +355,7 @@ pg.emoji_template = {
 		id = 44,
 		index = 1004,
 		pic = "buli",
-		desc = "<color=#A9F548>[Welcome]</color>",
+		desc = "<color=#92fc63>[Welcome]</color>",
 		type = {
 			2
 		}
@@ -365,7 +365,7 @@ pg.emoji_template = {
 		id = 45,
 		index = 1005,
 		pic = "dujiaoshou",
-		desc = "<color=#A9F548>[Love]</color>",
+		desc = "<color=#92fc63>[Love]</color>",
 		type = {
 			2
 		}
@@ -375,7 +375,7 @@ pg.emoji_template = {
 		id = 46,
 		index = 1006,
 		pic = "fangzhou",
-		desc = "<color=#A9F548>[Bleeding]</color>",
+		desc = "<color=#92fc63>[Bleeding]</color>",
 		type = {
 			2
 		}
@@ -385,7 +385,7 @@ pg.emoji_template = {
 		id = 47,
 		index = 1007,
 		pic = "gaoxiong",
-		desc = "<color=#A9F548>[NoNo]</color>",
+		desc = "<color=#92fc63>[NoNo]</color>",
 		type = {
 			2
 		}
@@ -395,7 +395,7 @@ pg.emoji_template = {
 		id = 48,
 		index = 1008,
 		pic = "haiwangxing",
-		desc = "<color=#A9F548>[Headnod]</color>",
+		desc = "<color=#92fc63>[Headnod]</color>",
 		type = {
 			2
 		}
@@ -405,7 +405,7 @@ pg.emoji_template = {
 		id = 49,
 		index = 1009,
 		pic = "haman",
-		desc = "<color=#A9F548>[Angry]</color>",
+		desc = "<color=#92fc63>[Angry]</color>",
 		type = {
 			2
 		}
@@ -415,7 +415,7 @@ pg.emoji_template = {
 		id = 50,
 		index = 1010,
 		pic = "kedie",
-		desc = "<color=#A9F548>[Sunglasses]</color>",
+		desc = "<color=#92fc63>[Sunglasses]</color>",
 		type = {
 			2
 		}
@@ -425,7 +425,7 @@ pg.emoji_template = {
 		id = 51,
 		index = 1011,
 		pic = "lafei",
-		desc = "<color=#A9F548>[Sleepy]</color>",
+		desc = "<color=#92fc63>[Sleepy]</color>",
 		type = {
 			2
 		}
@@ -435,7 +435,7 @@ pg.emoji_template = {
 		id = 52,
 		index = 1012,
 		pic = "lingbo",
-		desc = "<color=#A9F548>[Embarassed]</color>",
+		desc = "<color=#92fc63>[Embarassed]</color>",
 		type = {
 			2
 		}
@@ -445,7 +445,7 @@ pg.emoji_template = {
 		id = 54,
 		index = 1014,
 		pic = "mingshi",
-		desc = "<color=#A9F548>[Sweating]</color>",
+		desc = "<color=#92fc63>[Sweating]</color>",
 		type = {
 			2
 		}
@@ -455,7 +455,7 @@ pg.emoji_template = {
 		id = 55,
 		index = 1015,
 		pic = "muyue",
-		desc = "<color=#A9F548>[Staring]</color>",
+		desc = "<color=#92fc63>[Staring]</color>",
 		type = {
 			2
 		}
@@ -465,7 +465,7 @@ pg.emoji_template = {
 		id = 56,
 		index = 1016,
 		pic = "naerxun",
-		desc = "<color=#A9F548>[Rage]</color>",
+		desc = "<color=#92fc63>[Rage]</color>",
 		type = {
 			2
 		}
@@ -475,7 +475,7 @@ pg.emoji_template = {
 		id = 57,
 		index = 1017,
 		pic = "neet",
-		desc = "<color=#A9F548>[Lazy]</color>",
+		desc = "<color=#92fc63>[Lazy]</color>",
 		type = {
 			2
 		}
@@ -485,7 +485,7 @@ pg.emoji_template = {
 		id = 58,
 		index = 1018,
 		pic = "ninghai",
-		desc = "<color=#A9F548>[Confused]</color>",
+		desc = "<color=#92fc63>[Confused]</color>",
 		type = {
 			2
 		}
@@ -495,7 +495,7 @@ pg.emoji_template = {
 		id = 59,
 		index = 1019,
 		pic = "qiye",
-		desc = "<color=#A9F548>[…]</color>",
+		desc = "<color=#92fc63>[…]</color>",
 		type = {
 			2
 		}
@@ -505,7 +505,7 @@ pg.emoji_template = {
 		id = 60,
 		index = 1020,
 		pic = "ruihe",
-		desc = "<color=#A9F548>[High5]</color>",
+		desc = "<color=#92fc63>[High5]</color>",
 		type = {
 			2
 		}
@@ -515,7 +515,7 @@ pg.emoji_template = {
 		id = 61,
 		index = 1021,
 		pic = "ruyue",
-		desc = "<color=#A9F548>[Creepy]</color>",
+		desc = "<color=#92fc63>[Creepy]</color>",
 		type = {
 			2
 		}
@@ -525,7 +525,7 @@ pg.emoji_template = {
 		id = 62,
 		index = 1022,
 		pic = "shancheng",
-		desc = "<color=#A9F548>[Dizzy]</color>",
+		desc = "<color=#92fc63>[Dizzy]</color>",
 		type = {
 			2
 		}
@@ -535,7 +535,7 @@ pg.emoji_template = {
 		id = 63,
 		index = 1023,
 		pic = "xiefei",
-		desc = "<color=#A9F548>[Despise]</color>",
+		desc = "<color=#92fc63>[Despise]</color>",
 		type = {
 			2
 		}
@@ -545,7 +545,7 @@ pg.emoji_template = {
 		id = 64,
 		index = 1024,
 		pic = "xixue",
-		desc = "<color=#A9F548>[Tease]</color>",
+		desc = "<color=#92fc63>[Tease]</color>",
 		type = {
 			2
 		}
@@ -555,7 +555,7 @@ pg.emoji_template = {
 		id = 65,
 		index = 1025,
 		pic = "z23",
-		desc = "<color=#A9F548>[Triggered]</color>",
+		desc = "<color=#92fc63>[Triggered]</color>",
 		type = {
 			2
 		}
@@ -565,7 +565,7 @@ pg.emoji_template = {
 		id = 100,
 		index = 2001,
 		pic = "imsgSticke_akagi",
-		desc = "<color=#A9F548>[Akagifire]</color>",
+		desc = "<color=#92fc63>[Akagifire]</color>",
 		type = {
 			3
 		}
@@ -575,7 +575,7 @@ pg.emoji_template = {
 		id = 101,
 		index = 2002,
 		pic = "imsgSticke_akashi",
-		desc = "<color=#A9F548>[Akashischeme]</color>",
+		desc = "<color=#92fc63>[Akashischeme]</color>",
 		type = {
 			3
 		}
@@ -585,7 +585,7 @@ pg.emoji_template = {
 		id = 102,
 		index = 2003,
 		pic = "imsgSticke_arkroyal",
-		desc = "<color=#A9F548>[Arklolicon]</color>",
+		desc = "<color=#92fc63>[Arklolicon]</color>",
 		type = {
 			3
 		}
@@ -595,7 +595,7 @@ pg.emoji_template = {
 		id = 103,
 		index = 2004,
 		pic = "imsgSticke_enterprise",
-		desc = "<color=#A9F548>[Enterques]</color>",
+		desc = "<color=#92fc63>[Enterques]</color>",
 		type = {
 			3
 		}
@@ -605,7 +605,7 @@ pg.emoji_template = {
 		id = 104,
 		index = 2005,
 		pic = "imsgSticke_hammann",
-		desc = "<color=#A9F548>[Hammbite]</color>",
+		desc = "<color=#92fc63>[Hammbite]</color>",
 		type = {
 			3
 		}
@@ -615,7 +615,7 @@ pg.emoji_template = {
 		id = 105,
 		index = 2006,
 		pic = "imsgSticke_kaga",
-		desc = "<color=#A9F548>[Kagangry]</color>",
+		desc = "<color=#92fc63>[Kagangry]</color>",
 		type = {
 			3
 		}
@@ -625,7 +625,7 @@ pg.emoji_template = {
 		id = 106,
 		index = 2007,
 		pic = "imsgSticke_laffey",
-		desc = "<color=#A9F548>[Laffeydrink]</color>",
+		desc = "<color=#92fc63>[Laffeydrink]</color>",
 		type = {
 			3
 		}
@@ -635,7 +635,7 @@ pg.emoji_template = {
 		id = 107,
 		index = 2008,
 		pic = "imsgSticke_longisland",
-		desc = "<color=#A9F548>[Longcryland]</color>",
+		desc = "<color=#92fc63>[Longcryland]</color>",
 		type = {
 			3
 		}
@@ -645,7 +645,7 @@ pg.emoji_template = {
 		id = 108,
 		index = 2009,
 		pic = "imsgSticke_mutsuki",
-		desc = "<color=#A9F548>[Mutsukiwhaat]</color>",
+		desc = "<color=#92fc63>[Mutsukiwhaat]</color>",
 		type = {
 			3
 		}
@@ -655,7 +655,7 @@ pg.emoji_template = {
 		id = 109,
 		index = 2010,
 		pic = "imsgSticke_portland",
-		desc = "<color=#A9F548>[Pointland]</color>",
+		desc = "<color=#92fc63>[Pointland]</color>",
 		type = {
 			3
 		}
@@ -665,7 +665,7 @@ pg.emoji_template = {
 		id = 110,
 		index = 2011,
 		pic = "imsgSticke_sandiego",
-		desc = "<color=#A9F548>[Sandyhaunt]</color>",
+		desc = "<color=#92fc63>[Sandyhaunt]</color>",
 		type = {
 			3
 		}
@@ -675,7 +675,7 @@ pg.emoji_template = {
 		id = 111,
 		index = 2012,
 		pic = "imsgSticke_shiratsuyu",
-		desc = "<color=#A9F548>[Shiratsuyusleep]</color>",
+		desc = "<color=#92fc63>[Shiratsuyusleep]</color>",
 		type = {
 			3
 		}
@@ -685,7 +685,7 @@ pg.emoji_template = {
 		id = 112,
 		index = 2013,
 		pic = "imsgSticke_tirpitz",
-		desc = "<color=#A9F548>[Thinkpitz]</color>",
+		desc = "<color=#92fc63>[Thinkpitz]</color>",
 		type = {
 			3
 		}
@@ -695,7 +695,7 @@ pg.emoji_template = {
 		id = 113,
 		index = 2014,
 		pic = "imsgSticke_unicorn",
-		desc = "<color=#A9F548>[Uniyan]</color>",
+		desc = "<color=#92fc63>[Uniyan]</color>",
 		type = {
 			3
 		}
@@ -705,7 +705,7 @@ pg.emoji_template = {
 		id = 114,
 		index = 2015,
 		pic = "imsgSticke_warspite",
-		desc = "<color=#A9F548>[Warshrug]</color>",
+		desc = "<color=#92fc63>[Warshrug]</color>",
 		type = {
 			3
 		}

@@ -2,7 +2,6 @@ slot0 = class("LoginMediator", import("..base.ContextMediator"))
 slot0.ON_LOGIN = "LoginMediator:ON_LOGIN"
 slot0.ON_REGISTER = "LoginMediator:ON_REGISTER"
 slot0.ON_SERVER = "LoginMediator:ON_SERVER"
-slot0.ON_LOGIN_PROCESS = "LoginMediator:ON_LOGIN_PROCESS"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_LOGIN, function (slot0, slot1)
@@ -14,13 +13,7 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_SERVER, function (slot0, slot1)
 		slot0:sendNotification(GAME.SERVER_LOGIN, slot1)
 	end)
-	slot0:bind(slot0.ON_LOGIN_PROCESS, function (slot0)
-		slot0:loginProcessHandler()
-	end)
-	slot0:loginProcessHandler()
-end
 
-function slot0.loginProcessHandler(slot0)
 	slot1 = getProxy(SettingsProxy)
 	slot0.process = coroutine.wrap(function ()
 		if not slot0:getUserAgreement() then
@@ -29,7 +22,7 @@ function slot0.loginProcessHandler(slot0)
 			coroutine.yield:setUserAgreement()
 		end
 
-		slot0, slot1 = nil
+		slot0 = nil
 
 		if isPlatform() then
 			if isTencent() then
@@ -41,12 +34,18 @@ function slot0.loginProcessHandler(slot0)
 			end
 		else
 			slot1.viewComponent:switchToLogin()
-			slot1.viewComponent:setLastLogin(getProxy(UserProxy).getLastLoginUser(slot1))
+
+			slot1 = getProxy(UserProxy)
+
+			slot1.viewComponent:setLastLogin(slot1:getLastLoginUser())
 		end
 
-		if slot1.contextData.code then
+		slot1:CheckMaintain()
+		coroutine.yield()
+
+		if coroutine.yield.contextData.code then
 			if slot1.contextData.code ~= 0 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				slot1(pg.MsgboxMgr.GetInstance(), {
 					modal = true,
 					hideNo = true,
 					content = ({
@@ -87,6 +86,36 @@ function slot0.loginProcessHandler(slot0)
 	end)
 
 	slot0.process()
+end
+
+function slot0.CheckMaintain(slot0)
+	slot1 = -1
+	slot2 = 0
+	slot3 = 1
+	slot4 = 2
+
+	VersionMgr.Inst:GetServerState(function (slot0)
+		if slot0 == slot0 then
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("login_loginMediator_kickServerClose"),
+				onNo = function ()
+					slot0.process()
+				end,
+				onYes = function ()
+					slot0.process()
+				end
+			})
+		elseif slot0 == slot2 then
+			print("All servers working well. thanks God.")
+			print.process()
+		elseif slot0 == slot3 then
+			print("Check server maintain state failed. but it doesnt matter. keep going.")
+			print.process()
+		else
+			print("no servers working. anyway. you should have a try. ")
+			print.process()
+		end
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -133,8 +162,6 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.SERVER_LOGIN_SUCCESS then
 		if slot3.uid == 0 then
-			pg.GuideMgr2:GetInstance():Reset()
-			pg.GuideMgr2:GetInstance():updateCurrentGuideStep(0)
 			slot0:sendNotification(GAME.BEGIN_STAGE, {
 				system = SYSTEM_PROLOGUE
 			})

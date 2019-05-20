@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 2 - She Doesn't Have Many Friends?</size>",
+					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 2 - She Doesn't Have Many Friends?</size>",
 					1
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
@@ -316,7 +316,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
@@ -378,7 +378,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

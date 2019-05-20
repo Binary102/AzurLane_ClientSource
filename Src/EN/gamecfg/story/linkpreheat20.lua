@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻的交汇-日常篇\n\n<size=30>三　泡得真舒服！</size>",
+					"梦幻的交汇-日常篇\n\n<size=45>三　泡得真舒服！</size>",
 					1
 				}
 			}
@@ -838,7 +838,7 @@ return {
 				{
 					actor = 10300050,
 					pos = {
-						x = 650
+						x = 975
 					}
 				}
 			},

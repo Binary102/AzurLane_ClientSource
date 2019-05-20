@@ -11,12 +11,12 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAllInStrike"
 			},
 			arg_list = {
-				skill_id = 6320,
+				buff_id = 6340,
 				quota = 1
 			}
 		}

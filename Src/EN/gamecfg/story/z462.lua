@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"White Poem\n\n<size=30>II Trajectory</size>",
+					"White Poem\n\n<size=45>II Trajectory</size>",
 					1
 				}
 			}

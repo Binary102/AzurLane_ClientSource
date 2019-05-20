@@ -2,7 +2,7 @@ slot0 = class("DefenseFormationScene", import("..base.BaseUI"))
 slot0.RADIUS = 60
 slot0.LONGPRESS_Y = 30
 slot0.INTERVAL = math.pi / 2 / 6
-slot0.MAX_FLEET_NUM = 4
+slot0.MAX_FLEET_NUM = 6
 slot0.MAX_SHIPP_NUM = 5
 slot0.TOGGLE_DETAIL = "_detailToggle"
 slot0.TOGGLE_FORMATION = "_formationToggle"
@@ -18,13 +18,12 @@ end
 
 function slot0.init(slot0)
 	slot0.eventTriggers = {}
-	slot0._blurLayer = slot0:findTF("blur_container")
-	slot0.backBtn = slot0:findTF("top/title/back", slot0._blurLayer)
-	slot0._bottomPanel = slot0:findTF("blur_container/bottom")
-	slot0._detailToggle = slot0:findTF("blur_container/bottom/toggle_list/detail_toggle")
-	slot0._formationToggle = slot0:findTF("blur_container/bottom/toggle_list/formation_toggle")
+	slot0._blurLayer = slot0:findTF("blur_panel")
+	slot0.backBtn = slot0:findTF("top/back_btn", slot0._blurLayer)
+	slot0._bottomPanel = slot0:findTF("bottom", slot0._blurLayer)
+	slot0._detailToggle = slot0:findTF("toggle_list/detail_toggle", slot0._bottomPanel)
+	slot0._formationToggle = slot0:findTF("toggle_list/formation_toggle", slot0._bottomPanel)
 	slot0._starTpl = slot0:findTF("star_tpl")
-	slot0._starEmptyTpl = slot0:findTF("star_empty_tpl")
 	slot0._heroInfoTpl = slot0:findTF("heroInfo")
 	slot0._gridTFs = {
 		vanguard = {},
@@ -38,28 +37,27 @@ function slot0.init(slot0)
 	end
 
 	slot0._heroContainer = slot0:findTF("HeroContainer")
-	slot0._fleetNameText = slot0:findTF("blur_container/fleet_info/fleet_name")
+	slot0._fleetInfo = slot0:findTF("fleet_info", slot0._blurLayer)
+	slot0._fleetNameText = slot0:findTF("fleet_name/Text", slot0._fleetInfo)
 	slot0._buffPanel = slot0:findTF("buff_list")
 	slot0._buffGroup = slot0:findTF("buff_group", slot0._buffPanel)
 	slot0._buffModel = slot0:getTpl("buff_model", slot0._buffPanel)
-	slot0._cannonPower = slot0:findTF("blur_container/property_frame/titles/cannon/value")
-	slot0._torpedoPower = slot0:findTF("blur_container/property_frame/titles/torpedo/value")
-	slot0._AAPower = slot0:findTF("blur_container/property_frame/titles/anti_air/value")
-	slot0._airPower = slot0:findTF("blur_container/property_frame/titles/air/value")
-	slot0._cost = slot0:findTF("blur_container/property_frame/titles/cost/value")
-	slot0._airDominance = slot0:findTF("blur_container/property_frame/titles/ac/value")
-
-	setText(slot0:findTF("blur_container/property_frame/titles/cannon/Text"), i18n("word_attr_cannon"))
-	setText(slot0:findTF("blur_container/property_frame/titles/torpedo/Text"), i18n("word_attr_torpedo"))
-	setText(slot0:findTF("blur_container/property_frame/titles/anti_air/Text"), i18n("word_attr_antiaircraft"))
-	setText(slot0:findTF("blur_container/property_frame/titles/air/Text"), i18n("word_attr_air"))
-	setText(slot0:findTF("blur_container/property_frame/titles/cost/Text"), i18n("word_attr_luck"))
-	setText(slot0:findTF("blur_container/property_frame/titles/ac/Text"), i18n("word_attr_ac"))
-
+	slot0._propertyFrame = slot0:findTF("property_frame", slot0._blurLayer)
+	slot0._cannonPower = slot0:findTF("cannon/Text", slot0._propertyFrame)
+	slot0._torpedoPower = slot0:findTF("torpedo/Text", slot0._propertyFrame)
+	slot0._AAPower = slot0:findTF("antiaircraft/Text", slot0._propertyFrame)
+	slot0._airPower = slot0:findTF("air/Text", slot0._propertyFrame)
+	slot0._cost = slot0:findTF("cost/Text", slot0._propertyFrame)
 	slot0._mainGS = slot0:findTF("gear_score/main/Text")
 	slot0._vanguardGS = slot0:findTF("gear_score/vanguard/Text")
-	slot0._attrFrame = slot0:findTF("blur_container/attr_frame")
-	slot0._cardTpl = slot0:getTpl("ship", slot0._attrFrame)
+	slot0._airDominanceFrame = slot0:findTF("ac", slot0._propertyFrame)
+
+	if slot0._airDominanceFrame then
+		setActive(slot0._airDominanceFrame, false)
+	end
+
+	slot0._attrFrame = slot0:findTF("attr_frame", slot0._blurLayer)
+	slot0._cardTpl = slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 	slot0._cards = {
 		[Fleet.MAIN] = {},
 		[Fleet.VANGUARD] = {}
@@ -187,7 +185,7 @@ function slot0.loadAllCharacter(slot0)
 
 		slot0.name = "model"
 		slot0:GetComponent("SkeletonGraphic").raycastTarget = false
-		slot12.localScale = Vector3(0.5, 0.5, 1)
+		slot12.localScale = Vector3(0.8, 0.8, 1)
 
 		pg.ViewUtils.SetLayer(slot12, Layer.UI)
 		slot8:SetSiblingIndex(2)
@@ -384,6 +382,8 @@ function slot0.resetFormationComponent(slot0)
 		slot7:Find("buff_describe"):GetComponent(typeof(Text)).text = slot6.describe
 	end
 
+	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(Fleet.MAIN) ~= 0)
+
 	return
 end
 
@@ -495,22 +495,12 @@ end
 
 function slot0.displayFleetInfo(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
-	slot2 = slot0._currentFleetVO:GetGearScoreSum(Fleet.VANGUARD)
-	slot3 = slot0._currentFleetVO:GetGearScoreSum(Fleet.MAIN)
 
 	slot0.tweenNumText(slot0._cannonPower, slot1.cannon)
 	slot0.tweenNumText(slot0._torpedoPower, slot1.torpedo)
 	slot0.tweenNumText(slot0._AAPower, slot1.antiAir)
 	slot0.tweenNumText(slot0._airPower, slot1.air)
 	slot0.tweenNumText(slot0._cost, slot0._currentFleetVO:GetCostSum().oil)
-
-	if OPEN_AIR_DOMINANCE then
-		setActive(slot0._airDominance.parent, true)
-		slot0.tweenNumText(slot0._airDominance, slot0._currentFleetVO:getFleetAirDominanceValue())
-	else
-		setActive(slot0._airDominance.parent, false)
-	end
-
 	slot0.tweenNumText(slot0._vanguardGS, slot2)
 	slot0.tweenNumText(slot0._mainGS, slot3)
 	setActive(slot0:findTF("gear_score"), true)
@@ -577,16 +567,21 @@ function slot0.updateAttrFrame(slot0)
 	end
 
 	slot0:updateUltimateTitle()
+	setActive(slot0:findTF(Fleet.SUBMARINE, slot0._attrFrame), false)
 
 	return
 end
 
 function slot0.updateUltimateTitle(slot0)
-	slot2 = slot0._currentFleetVO.mainShips
-
 	if #slot0._cards[Fleet.MAIN] > 0 then
-		for slot6 = 1, #slot1, 1 do
-			slot1[slot6].shipState:SetActive(slot6 == 1)
+		for slot5 = 1, #slot1, 1 do
+			setActive(slot1[slot5].shipState, slot5 == 1)
+		end
+	end
+
+	if #slot0._cards[Fleet.VANGUARD] > 0 then
+		for slot6 = 1, #slot2, 1 do
+			setActive(slot2[slot6].shipState, false)
 		end
 	end
 

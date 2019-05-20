@@ -68,7 +68,7 @@ function slot1.GetDirection(slot0, slot1)
 		slot0._randomCount = slot0._randomCount + 1
 		slot0._moveCount = slot0._moveCount + 1
 
-		return slot2.normalized
+		return slot2:SetNormalize()
 	end
 end
 

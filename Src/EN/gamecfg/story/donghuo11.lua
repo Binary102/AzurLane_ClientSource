@@ -582,27 +582,27 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34> </size>",
+					"<size=51> </size>",
 					2
 				},
 				{
-					"<size=34>“Mankind, actually live a humble existence”</size>",
+					"<size=51>“Mankind, actually live a humble existence”</size>",
 					4.5
 				},
 				{
-					"<size=34>“But, our small bodies are filled with infinite expectations and ideals.”</size>",
+					"<size=51>“But, our small bodies are filled with infinite expectations and ideals.”</size>",
 					7
 				},
 				{
-					"<size=34>“We often put our own expectations and ideals and shape them to our desires, hoping they are eternal and powerful.”</size>",
+					"<size=51>“We often put our own expectations and ideals and shape them to our desires, hoping they are eternal and powerful.”</size>",
 					9
 				},
 				{
-					"<size=34>“Once strong enough, they will replace our  ephemeral physical existence, and become an infinite spiritual sustenance.”</size> ",
+					"<size=51>“Once strong enough, they will replace our  ephemeral physical existence, and become an infinite spiritual sustenance.”</size> ",
 					12
 				},
 				{
-					"<size=34>“This is also the meaning to your name”</size>",
+					"<size=51>“This is also the meaning to your name”</size>",
 					14.5
 				}
 			}
@@ -611,15 +611,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>“But... one day, if mankind abandons our highest ideals, and embarks on a completely contrary path.”</size>",
+					"<size=51>“But... one day, if mankind abandons our highest ideals, and embarks on a completely contrary path.”</size>",
 					2.5
 				},
 				{
-					"<size=34>“Are you willing… </size>",
+					"<size=51>“Are you willing… </size>",
 					5
 				},
 				{
-					"<size=34>... To help us correct the wrongdoings of the future?”</size>",
+					"<size=51>... To help us correct the wrongdoings of the future?”</size>",
 					7
 				}
 			}

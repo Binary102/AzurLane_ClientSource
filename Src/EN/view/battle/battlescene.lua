@@ -2,23 +2,25 @@ slot0 = class("BattleScene", import("..base.BaseUI"))
 slot0.IN_VIEW_FRIEND_SKILL_OFFSET = Vector3(-5, 0, 6)
 slot0.IN_VIEW_FOE_SKILL_OFFSET = Vector3(-15, 0, 6)
 slot0.FOE_SIDE_X_OFFSET = 250
+slot0.SKILL_FLOAT_SCALE = Vector3(1.5, 1.5, 0)
 slot0.SIDE_ALIGNMENT = {
 	{
 		-120,
-		-45,
-		-195
+		-7.5,
+		-232.5
 	},
 	{
-		30,
 		105,
-		180
+		217.5,
+		330
 	},
 	{
-		-270,
 		-345,
-		-420
+		-457.5,
+		-570
 	}
 }
+slot1 = nil
 
 function slot0.getUIName(slot0)
 	return "CombatUI"
@@ -30,23 +32,23 @@ end
 
 function slot0.init(slot0)
 	slot1 = GameObject.Find("MainCamera")
-	slot0.uiCanvas = findTF(slot2, "Canvas/UIMain")
-	slot0.skillTips = slot0:findTF("Skill_Activation")
-	slot0.skillRoot = slot0:findTF("Skill_Activation/Root")
-	slot0.skillTpl = slot0:findTF("Skill_Activation/mask").gameObject
-	slot0._skillFloatPool = pg.Pool.New(slot0.skillRoot, slot0.skillTpl, 4, 10, true, false):InitSize()
-	slot0.skillCMDRoot = slot0:findTF("Skill_Activation/Root_cmd")
-	slot0.skillCMDTpl = slot0:findTF("Skill_Activation/mask_cmd").gameObject
-	slot0._skillFloatCMDPool = pg.Pool.New(slot0.skillCMDRoot, slot0.skillCMDTpl, 2, 4, true, false):InitSize()
-	slot0.popupTpl = slot0:getTpl("popup")
+	ys.Battle.BattleVariable.uiCanvas = findTF(slot2, "Canvas/UIMain")
+	ys.Battle.BattleVariable.skillTips = ys.Battle.BattleVariable.findTF(slot0, "Skill_Activation")
+	ys.Battle.BattleVariable.skillRoot = ys.Battle.BattleVariable.findTF(slot0, "Skill_Activation/Root")
+	ys.Battle.BattleVariable.skillTpl = ys.Battle.BattleVariable.findTF(slot0, "Skill_Activation/mask").gameObject
+	ys.Battle.BattleVariable._skillFloatPool = pg.Pool.New(ys.Battle.BattleVariable.skillRoot, ys.Battle.BattleVariable.skillTpl, 4, 10, true, false):InitSize()
+	ys.Battle.BattleVariable.skillCMDRoot = ys.Battle.BattleVariable.findTF(slot0, "Skill_Activation/Root_cmd")
+	ys.Battle.BattleVariable.skillCMDTpl = ys.Battle.BattleVariable.findTF(slot0, "Skill_Activation/mask_cmd").gameObject
+	ys.Battle.BattleVariable._skillFloatCMDPool = pg.Pool.New(ys.Battle.BattleVariable.skillCMDRoot, ys.Battle.BattleVariable.skillCMDTpl, 2, 4, true, false):InitSize()
+	ys.Battle.BattleVariable.popupTpl = ys.Battle.BattleVariable.getTpl(slot0, "popup")
 
-	SetActive(slot0._go, false)
+	SetActive(ys.Battle.BattleVariable._go, false)
 
-	slot0._skillPaintings = {}
-	slot0._skillFloat = true
-	slot0._cacheSkill = {}
-	slot0._commanderSkillList = {}
-	slot0._sideSkillFloatStateList = {
+	ys.Battle.BattleVariable._skillPaintings = {}
+	ys.Battle.BattleVariable._skillFloat = true
+	ys.Battle.BattleVariable._cacheSkill = {}
+	ys.Battle.BattleVariable._commanderSkillList = {}
+	ys.Battle.BattleVariable._sideSkillFloatStateList = {
 		[ys.Battle.BattleConfig.FRIENDLY_CODE] = {
 			{},
 			{},
@@ -59,7 +61,7 @@ function slot0.init(slot0)
 		}
 	}
 
-	slot0:initPainting()
+	ys.Battle.BattleVariable:initPainting()
 end
 
 function slot0.initPainting(slot0)
@@ -99,7 +101,7 @@ function slot0.EnableSkillFloat(slot0, slot1)
 
 	if slot0._skillFloat then
 		for slot5, slot6 in ipairs(slot0._cacheSkill) do
-			slot0:appendSkill(slot6.skillName, slot6.caster)
+			slot0:appendSkill(slot6.skillName, slot6.caster, slot6.commander, slot6.hrzIcon)
 		end
 
 		slot0._cacheSkill = {}
@@ -114,85 +116,94 @@ function slot0.EnableSkillFloat(slot0, slot1)
 	SetActive(slot0.skillTips, slot1)
 end
 
-function slot0.appendSkill(slot0, slot1, slot2, slot3)
+function slot0.appendSkill(slot0, slot1, slot2, slot3, slot4)
 	if not slot0._skillFloat then
 		table.insert(slot0._cacheSkill, {
 			skillName = slot1,
 			caster = slot2,
-			commander = slot3
+			commander = slot3,
+			hrzIcon = slot4
 		})
 
 		return
 	end
 
-	slot4 = ys.Battle.BattleResourceManager:GetInstance()
-	slot5, slot6 = nil
+	slot5 = ys.Battle.BattleResourceManager:GetInstance()
+	slot6, slot7 = nil
 
 	if slot3 then
 		if slot0._commanderSkillList[slot3] and slot0._commanderSkillList[slot3][slot1] then
 			return
 		end
 
-		slot5 = slot0._skillFloatCMDPool
-		slot6 = slot4:GetCommanderHrzIcon(slot3)
+		slot6 = slot0._skillFloatCMDPool
+		slot7 = slot5:GetCommanderHrzIcon(slot3)
 	else
-		slot5 = slot0._skillFloatPool
+		slot6 = slot0._skillFloatPool
 
-		setText(findTF(slot8, "skill/skill_name/Text"), HXSet.hxLan(slot1))
-
-		findTF(slot8, "skill/icon").GetComponent(slot9, typeof(Image)).sprite = (slot2:GetUnitType() ~= ys.Battle.BattleConst.UnitType.PLAYER_UNIT or slot4:GetCharacterIcon(slot2:GetTemplate().painting)) and slot4:GetCharacterIcon(pg.enemy_data_statistics[slot2:GetTemplateID()].icon)
-		slot11, slot12 = slot2:GetIFF()
-		findTF(slot8, "skill/skill_name"):GetComponent(typeof(Image)).color = (slot2:GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
-		findTF(slot8, "skill"):GetComponent(typeof(Image)).color = (slot2.GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
+		if slot2:GetUnitType() == ys.Battle.BattleConst.UnitType.PLAYER_UNIT then
+			slot7 = slot5:GetCharacterIcon(slot4 or slot2:GetTemplate().painting)
+		else
+			slot7 = slot5:GetCharacterIcon(pg.enemy_data_statistics[slot2:GetTemplateID()].icon)
+		end
 	end
 
-	if slot3 then
-		slot0:commanderSkillFloat(slot3, slot1, slot7)
-	else
-		slot15 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
-		slot16 = slot2:GetMainUnitIndex()
+	slot6:GetObject().transform.localScale = slot0.SKILL_FLOAT_SCALE
 
-		if ys.Battle.BattleCameraUtil:GetInstance():GetCharacterArrowBarPosition(slot13) == nil or (slot14 == nil and slot15 and not slot2:IsMainFleetUnit()) then
-			slot8.position = Vector3((slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2:GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).x, (slot11 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FRIEND_SKILL_OFFSET)) and ys.Battle.BattleVariable.CameraPosToUICamera(slot2.GetPosition() + slot0.IN_VIEW_FOE_SKILL_OFFSET).y, -2)
+	setText(findTF(slot9, "skill/skill_name/Text"), HXSet.hxLan(slot1))
+
+	findTF(slot9, "skill/icon").GetComponent(slot10, typeof(Image)).sprite = slot7
+	slot12, slot13 = slot2:GetIFF()
+	findTF(slot9, "skill/skill_name"):GetComponent(typeof(Image)).color = (slot2:GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
+	findTF(slot9, "skill"):GetComponent(typeof(Image)).color = (slot2.GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
+
+	if slot3 then
+		slot0:commanderSkillFloat(slot3, slot1, slot8)
+	else
+		slot16 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
+		slot17 = slot2:GetMainUnitIndex()
+
+		if ys.Battle.BattleCameraUtil:GetInstance():GetCharacterArrowBarPosition(slot14) == nil or (slot15 == nil and slot16 and not slot2:IsMainFleetUnit()) then
+			slot9.position = Vector3((slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or slot1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(slot0.IN_VIEW_FRIEND_SKILL_OFFSET))) and slot1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(slot0.IN_VIEW_FOE_SKILL_OFFSET)).x, (slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or slot1.CameraPosToUICamera(slot2.GetPosition().Clone().Add(slot0.IN_VIEW_FRIEND_SKILL_OFFSET))) and slot1.CameraPosToUICamera(slot2.GetPosition().Clone().Add(slot0.IN_VIEW_FOE_SKILL_OFFSET)).y, -2)
 
 			if slot0._preSkillTF then
-				slot0.handleSkillFloatCld(slot0._preSkillTF, slot8)
+				slot0.handleSkillFloatCld(slot0._preSkillTF, slot9)
 			end
 
-			slot0._preSkillTF = slot8
+			slot0._preSkillTF = slot9
 
-			slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
 				slot0._preSkillTF = nil
 
 				slot0:Recycle(slot0)
 			end)
 		else
-			slot17 = nil
-			slot18 = slot0.SIDE_ALIGNMENT[slot16]
+			slot18 = nil
+			slot19 = slot0.SIDE_ALIGNMENT[slot17]
 
-			for slot23 = 1, #slot0._sideSkillFloatStateList[slot11][slot16], 1 do
-				if slot19[slot23] then
-					slot17 = slot23
+			for slot24 = 1, #slot0._sideSkillFloatStateList[slot12][slot17], 1 do
+				if slot20[slot24] then
+					slot18 = slot24
 
 					break
 				end
 			end
 
-			if slot17 == nil then
-				slot17 = #slot19 + 1
+			if slot18 == nil then
+				slot18 = #slot20 + 1
 			end
 
-			slot19[slot17] = false
-			slot8.position = slot14
-			slot8.anchoredPosition.y = slot18[slot17]
+			slot20[slot18] = false
+			slot9.position = slot15
+			slot9.anchoredPosition.y = slot19[slot18]
 
-			if slot11 == ys.Battle.BattleConfig.FOE_CODE then
-				slot20.x = slot0.FOE_SIDE_X_OFFSET
+			if slot12 == ys.Battle.BattleConfig.FOE_CODE then
+				slot21.x = slot0.FOE_SIDE_X_OFFSET
 			end
 
-			slot8.anchoredPosition = slot20
+			slot9.anchoredPosition = slot21
 
-			slot8:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot9:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
 				slot0[] = true
 
 				slot0:Recycle(true)
@@ -201,13 +212,13 @@ function slot0.appendSkill(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.shipSkillFloat(slot0)
-	return
+function slot0.appendSkillCover(slot0, slot1, slot2, slot3)
+	slot0:appendSkill(slot1, slot2, nil, slot3)
 end
 
 function slot0.handleSkillFloatCld(slot0, slot1)
-	if math.floor(math.abs(slot1.anchoredPosition.y - slot0.anchoredPosition.y)) <= 75 then
-		slot2.y = slot3 + 75
+	if math.floor(math.abs(slot1.anchoredPosition.y - slot0.anchoredPosition.y)) <= 112.5 then
+		slot2.y = slot3 + 112.5
 		slot1.anchoredPosition = slot2
 	end
 end
@@ -223,8 +234,8 @@ function slot0.commanderSkillFloat(slot0, slot1, slot2, slot3)
 	slot3.transform.anchoredPosition.y = 0
 	slot3.transform.anchoredPosition = slot3.transform.anchoredPosition
 
-	if slot0._preCommanderSkillTF and math.floor(math.abs(slot5.y - slot0._preCommanderSkillTF.anchoredPosition.y)) <= 65 then
-		slot5.y = slot6 - 65
+	if slot0._preCommanderSkillTF and math.floor(math.abs(slot5.y - slot0._preCommanderSkillTF.anchoredPosition.y)) <= 97.5 then
+		slot5.y = slot6 - 97.5
 	end
 
 	slot4.anchoredPosition = slot5
@@ -246,24 +257,14 @@ function slot0.painting(slot0, slot1, slot2, slot3)
 	end
 
 	if slot0._skillPaintings[slot1.id] == nil then
-		slot4 = nil
+		slot5 = ys.Battle.BattleResourceManager:GetInstance()
+		slot4 = ys.Battle.BattleResourceManager.GetInstance().InstPainting
+		slot6 = slot1.painting or slot1.prefab
+		slot0._skillPaintings[slot1.id] = slot4(ys.Battle.BattleResourceManager.GetInstance(), slot6)
 
-		if HXSet.isHx() then
-			slot4 = slot1.painting
-		else
-			if slot1.painting_hx == "" or not slot1.painting_hx then
-				slot4 = slot1.painting
-			end
-		end
+		setParent(slot4(ys.Battle.BattleResourceManager.GetInstance(), slot6), slot0._paintingFitter, false)
 
-		slot6 = ys.Battle.BattleResourceManager:GetInstance()
-		slot5 = ys.Battle.BattleResourceManager.GetInstance().InstPainting
-		slot7 = slot4 or slot1.prefab
-		slot0._skillPaintings[slot1.id] = slot5(ys.Battle.BattleResourceManager.GetInstance(), slot7)
-
-		setParent(slot5(ys.Battle.BattleResourceManager.GetInstance(), slot7), slot0._paintingFitter, false)
-
-		slot7 = slot1.prefab
+		slot6 = slot1.prefab
 	end
 
 	slot0._currentPainting = slot0._skillPaintings[slot1.id]
@@ -284,6 +285,8 @@ function slot0.painting(slot0, slot1, slot2, slot3)
 end
 
 function slot0.didEnter(slot0)
+	setActive(slot0._tf, false)
+
 	slot0.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
@@ -299,18 +302,17 @@ function slot0.didEnter(slot0)
 
 		return
 	end)
-	setActive(slot2, false)
 	onToggle(slot0, slot0:findTF("AutoBtn"), function (slot0)
 		slot0:emit(BattleMediator.ON_AUTO, {
 			isOn = not slot0,
 			toggle = slot0:findTF("AutoBtn")
 		})
-		slot0.emit:ActiveBot(BattleScene.autoBotIsAcitve)
+		slot0.emit:ActiveBot(ys.Battle.BattleState.IsAutoBotActive())
 
 		slot1 = setActive
 		slot2 = slot0.emit
 
-		if BattleScene.autoBotIsAcitve then
+		if ys.Battle.BattleState.IsAutoBotActive() then
 			if slot0.hideChatFlag and slot0.hideChatFlag == 1 then
 				slot3 = false
 			else
@@ -364,11 +366,12 @@ function slot0.activeBotHelp(slot0, slot1)
 
 	slot0.autoBotHelp = true
 
-	pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		type = MSGBOX_TYPE_HELP,
 		helps = i18n("help_battle_auto"),
 		custom = {
 			{
-				text = "text_confirm",
+				text = "text_iknow",
 				sound = SFX_CANCEL
 			}
 		},
@@ -512,14 +515,15 @@ function slot0.initPauseWindow(slot0)
 			pg.UIMgr.GetInstance():Resume()
 			pg.UIMgr.GetInstance():OpenConsole()
 		else
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = i18n("help_battle_rule")
 			})
 		end
 
 		return
 	end)
-	onButton(slot0, slot0:findTF("top/btnBack", slot0.pauseWindow), function ()
+	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.pauseWindow), function ()
 		triggerButton(slot0.continueBtn)
 
 		return

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Ashigara, Advance!\n\n<size=30>Chapter 4 - Ashigara, Why do you Fight?</size>",
+					"Ashigara, Advance!\n\n<size=45>Chapter 4 - Ashigara, Why do you Fight?</size>",
 					1
 				}
 			}

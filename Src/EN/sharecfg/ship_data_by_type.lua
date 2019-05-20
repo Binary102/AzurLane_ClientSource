@@ -14,6 +14,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			8,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -30,6 +45,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"antiaircraft"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -46,6 +76,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"antiaircraft"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -62,6 +107,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"armor"
+		},
+		strengthen_choose_type = {
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -78,6 +138,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"armor"
+		},
+		strengthen_choose_type = {
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -94,6 +169,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"air",
 			"antiaircraft"
+		},
+		strengthen_choose_type = {
+			7,
+			6,
+			9,
+			10,
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			12
 		}
 	},
 	{
@@ -110,6 +200,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"air",
 			"antiaircraft"
+		},
+		strengthen_choose_type = {
+			7,
+			6,
+			9,
+			10,
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			12
 		}
 	},
 	{
@@ -126,6 +231,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -142,6 +262,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			7,
+			6,
+			9,
+			10,
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			12
 		}
 	},
 	{
@@ -158,6 +293,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			7,
+			6,
+			9,
+			10,
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			12
 		}
 	},
 	{
@@ -174,6 +324,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			8,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -190,6 +355,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	{
@@ -206,6 +386,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			5,
+			4,
+			13,
+			1,
+			2,
+			11,
+			3,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	[17] = {
@@ -222,6 +417,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"torpedo"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			6,
+			7,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			12
 		}
 	},
 	[18] = {
@@ -238,6 +448,21 @@ pg.ship_data_by_type = {
 			"durability",
 			"cannon",
 			"antiaircraft"
+		},
+		strengthen_choose_type = {
+			1,
+			2,
+			11,
+			3,
+			4,
+			5,
+			13,
+			8,
+			10,
+			9,
+			6,
+			7,
+			12
 		}
 	},
 	all = {

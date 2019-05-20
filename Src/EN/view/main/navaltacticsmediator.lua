@@ -32,6 +32,7 @@ function slot0.register(slot0)
 			table.insert(slot4, slot9.shipId)
 		end
 
+		PoolMgr.GetInstance():AddTempCache("DockyardUI", "NavalAcademyUI")
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMax = 1,
 			ignoredIds = slot4,
@@ -81,7 +82,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot1.ON_CANCEL, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.CANCEL_LEARN_TACTICS, {
-			studentId = slot1,
+			shipId = slot1,
 			type = slot2
 		})
 	end)

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Holy Night of Love and Peace\n\n<size=30>Chapter 3 - A Very Sakura Empire Christmas (Part 1)</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 3 - A Very Sakura Empire Christmas (Part 1)</size>",
 					1
 				}
 			}

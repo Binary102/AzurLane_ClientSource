@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Sea Star on Shore\n\n<size=30>4: Caught Red-Handed?</size>",
+					"Sea Star on Shore\n\n<size=45>4: Caught Red-Handed?</size>",
 					1
 				}
 			}
@@ -174,20 +174,20 @@ return {
 			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 201090,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 201110,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -209,7 +209,7 @@ return {
 			say = "WHA?!?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

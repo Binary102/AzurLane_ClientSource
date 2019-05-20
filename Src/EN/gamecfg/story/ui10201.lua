@@ -135,7 +135,7 @@ return {
 			sequence = {
 				{
 					[[
-          Chapter 1 - <size=29>Pearl's Tears</size> 
+          Chapter 1 - <size=43.5>Pearl's Tears</size> 
 
 
 

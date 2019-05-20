@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Holy Night of Love and Peace\n\n<size=30>Chapter 2 - Sandy Claus!</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 2 - Sandy Claus!</size>",
 					1
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=40>LAAAA</size>",
+			say = "<size=60>LAAAA</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

@@ -3,13 +3,11 @@ slot1 = ys.Battle.BattleUnitEvent
 slot2 = ys.Battle.BattleEvent
 slot3 = ys.Battle.BattleFormulas
 slot4 = ys.Battle.BattleConst
+slot5 = ys.Battle.BattleConfig
 slot6 = ys.Battle.BattleDataFunction
 slot7 = class("BattleFleetVO")
 ys.Battle.BattleFleetVO = slot7
 slot7.__name = "BattleFleetVO"
-slot7.SIGHT_A = ys.Battle.BattleConfig.ChargeWeaponConfig.SIGHT_A
-slot7.SIGHT_B = ys.Battle.BattleConfig.ChargeWeaponConfig.SIGHT_B
-slot7.SIGHT_C = ys.Battle.BattleConfig.ChargeWeaponConfig.SIGHT_C
 
 function slot7.Ctor(slot0, slot1)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
@@ -52,6 +50,10 @@ function slot7.UpdateAutoComponent(slot0, slot1)
 		slot6:UpdatePhaseSwitcher()
 	end
 
+	for slot5, slot6 in ipairs(slot0._manualSubList) do
+		slot6:UpdateOxygen(slot1)
+	end
+
 	slot0._fleetAntiAir:Update(slot1)
 	slot0._fleetSonar:Update(slot1)
 
@@ -64,6 +66,9 @@ function slot7.UpdateManualWeaponVO(slot0, slot1)
 	slot0._chargeWeaponVO:Update(slot1)
 	slot0._torpedoWeaponVO:Update(slot1)
 	slot0._airAssistVO:Update(slot1)
+	slot0._submarineDiveVO:Update(slot1)
+	slot0._submarineFloatVO:Update(slot1)
+	slot0._submarineBoostVO:Update(slot1)
 end
 
 function slot7.UpdateFleetDamage(slot0, slot1)
@@ -297,6 +302,18 @@ function slot7.GetSubAidVO(slot0)
 	return slot0._submarineVO
 end
 
+function slot7.GetSubFreeDiveVO(slot0)
+	return slot0._submarineDiveVO
+end
+
+function slot7.GetSubFreeFloatVO(slot0)
+	return slot0._submarineFloatVO
+end
+
+function slot7.GetSubBoostVO(slot0)
+	return slot0._submarineBoostVO
+end
+
 function slot7.GetFleetAntiAirWeapon(slot0)
 	return slot0._fleetAntiAir
 end
@@ -381,6 +398,10 @@ function slot7.refreshFleetFormation(slot0, slot1)
 		slot0._leaderUnit = nil
 	end
 
+	if #slot0:GetUnitList() == 0 then
+		return
+	end
+
 	slot0:DispatchEvent(slot2.Event.New(slot2.Battle.BattleEvent.REFRESH_FLEET_FORMATION))
 end
 
@@ -388,6 +409,13 @@ function slot7.init(slot0)
 	slot0._chargeWeaponVO = slot0.Battle.BattleChargeWeaponVO.New()
 	slot0._torpedoWeaponVO = slot0.Battle.BattleTorpedoWeaponVO.New()
 	slot0._airAssistVO = slot0.Battle.BattleAllInStrikeVO.New()
+	slot0._submarineDiveVO = slot0.Battle.BattleSubmarineFuncVO.New(slot1.SR_CONFIG.DIVE_CD)
+	slot0._submarineFloatVO = slot0.Battle.BattleSubmarineFuncVO.New(slot1.SR_CONFIG.FLOAT_CD)
+	slot0._submarineVOList = {
+		slot0._submarineDiveVO,
+		slot0._submarineFloatVO
+	}
+	slot0._submarineBoostVO = slot0.Battle.BattleSubmarineFuncVO.New(slot1.SR_CONFIG.BOOST_CD)
 	slot0._fleetAntiAir = slot0.Battle.BattleFleetAntiAirUnit.New()
 	slot0._motionVO = slot0.Battle.BattleFleetMotionVO.New()
 	slot0._fleetSonar = slot0.Battle.BattleFleetSonar.New(slot0)
@@ -395,6 +423,7 @@ function slot7.init(slot0)
 	slot0._scoutList = {}
 	slot0._mainList = {}
 	slot0._subList = {}
+	slot0._manualSubList = {}
 	slot0._unitList = {}
 	slot0._maxCount = 0
 	slot0._blockCast = 0
@@ -517,7 +546,7 @@ function slot7.UnleashChrageWeapon(slot0)
 
 	if slot0._chargeWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_PRECAST then
 		if slot1:IsStrikeMode() then
-			slot0:fireChargeWeapon(slot1, true, Vector3.New(math.min(slot0._motionVO:GetPos().x + slot0.SIGHT_C, slot0._totalRightBound), 0, slot0._motionVO:GetPos().z))
+			slot0:fireChargeWeapon(slot1, true, Vector3.New(math.min(slot0._motionVO:GetPos().x + slot0.ChargeWeaponConfig.SIGHT_C, slot0._totalRightBound), 0, slot0._motionVO:GetPos().z))
 		else
 			slot1:CancelCharge()
 		end
@@ -741,8 +770,59 @@ function slot7.AddSubMarine(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot2.UPDATE_HP, slot0.onUnitUpdateHP)
 end
 
+function slot7.AddManualSubmarine(slot0, slot1)
+	slot0._unitList[#slot0._unitList + 1] = slot1
+	slot0._scoutList[#slot0._scoutList + 1] = slot1
+	slot0._manualSubList[#slot0._manualSubList + 1] = slot1
+	slot0._maxCount = slot0._maxCount + 1
+
+	for slot6, slot7 in ipairs(slot2) do
+		slot0._torpedoWeaponVO:AppendWeapon(slot7)
+	end
+
+	slot1:InitOxygen()
+	slot1:SetFleetVO(slot0)
+	slot1:SetMotion(slot0._motionVO)
+	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onUnitUpdateHP)
+
+	slot3 = 1
+	slot4 = #slot0._unitList
+	slot5 = {}
+
+	while slot3 < slot4 do
+		table.insert(slot5, slot3)
+
+		slot3 = slot3 + 1
+	end
+
+	table.insert(slot5, #slot0._scoutList, slot3)
+	slot0:refreshFleetFormation(slot5)
+end
+
 function slot7.GetSubList(slot0)
 	return slot0._subList
+end
+
+function slot7.ChangeSubmarineState(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._manualSubList) do
+		slot6:ChangeOxygenState(slot1)
+	end
+
+	for slot5, slot6 in ipairs(slot0._submarineVOList) do
+		slot6:ResetCurrent()
+	end
+
+	slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_SUBMARINE_SHIFT, {
+		state = slot1
+	}))
+end
+
+function slot7.SubmarinBoost(slot0)
+	for slot4, slot5 in ipairs(slot0._manualSubList) do
+		slot5:Boost(Vector3.right, slot0.SR_CONFIG.BOOST_SPEED, slot0.SR_CONFIG.BOOST_DECAY, slot0.SR_CONFIG.BOOST_DURATION, slot0.SR_CONFIG.BOOST_DECAY_STAMP)
+	end
+
+	slot0._submarineBoostVO:ResetCurrent()
 end
 
 function slot7.AppendIndieSonar(slot0, slot1, slot2)

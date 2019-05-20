@@ -163,8 +163,7 @@ function slot6.onDead(slot0)
 end
 
 function slot6.UpdateSpeed(slot0)
-	slot0._speed = slot0._speedDir.CloneTo(slot1, slot0._speed)
-
+	slot0._speed:Copy(slot1)
 	slot0._speed:Mul(slot2)
 
 	if slot0:GetPosition().y < slot0.HEIGHT then

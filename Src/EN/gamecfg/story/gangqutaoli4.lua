@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Escape from the Port?\n\n<size=30>Chapter 4 - Final Destination!</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 4 - Final Destination!</size>",
 					1
 				}
 			}
@@ -101,7 +101,7 @@ return {
 			},
 			action = {
 				{
-					y = -15,
+					y = -22.5,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -414,7 +414,7 @@ return {
 				{
 					actor = 407020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -428,7 +428,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

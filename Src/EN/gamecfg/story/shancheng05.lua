@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=30>5: The Invitation</size>",
+					"Winter Offensive\n\n<size=45>5: The Invitation</size>",
 					1
 				}
 			}

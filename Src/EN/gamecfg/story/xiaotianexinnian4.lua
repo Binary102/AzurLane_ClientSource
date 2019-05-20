@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"New Year's Blessings\n\n<size=30>Chapter 4 The Sakura Empire's New Year</size>",
+					"New Year's Blessings\n\n<size=45>Chapter 4 The Sakura Empire's New Year</size>",
 					1
 				}
 			}
@@ -172,7 +172,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -343,7 +343,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,

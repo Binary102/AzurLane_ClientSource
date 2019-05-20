@@ -9,6 +9,12 @@ slot5 = {
 	401231
 }
 slot6 = {
+	[201211.0] = "biaoqiang",
+	[301051.0] = "lingbo",
+	[401231.0] = "z23",
+	[101171.0] = "lafei"
+}
+slot7 = {
 	[101171] = i18n("login_newPlayerScene_word_laFei"),
 	[201211] = i18n("login_newPlayerScene_word_biaoqiang"),
 	[401231] = i18n("login_newPlayerScene_word_z23")
@@ -26,23 +32,37 @@ function slot0.init(slot0)
 	slot0.eventTriggers = {}
 	slot0.characters = slot0:findTF("select_character/characters")
 	slot0.propPanel = slot0:findTF("prop_panel")
+	slot0.selectPanel = slot0:findTF("select_character")
 
 	setActive(slot0.propPanel, false)
+	setActive(slot0.selectPanel, true)
 
-	slot0.confirmBtn = slot0:findTF("qr_btn", slot0.propPanel)
-	slot0.cancelBtn = slot0:findTF("cancel_btn", slot0.propPanel)
+	slot0.confirmBtn = slot0:findTF("bg/qr_btn", slot0.propPanel)
 	slot0.tip = slot0:findTF("select_character/tip")
-	slot0.skillTpl = slot0:getTpl("bg/skill_panel/frame/skills/skilltpl", slot0.propPanel)
-	slot0.skillContainer = slot0:findTF("bg/skill_panel/frame/skills", slot0.propPanel)
+	slot0.skillPanel = slot0:findTF("bg/skill_panel", slot0.propPanel)
+	slot0.skillTpl = slot0:getTpl("bg/skill_panel/frame/skilltpl", slot0.propPanel)
+	slot0.skillContainer = slot0:findTF("bg/skill_panel/frame", slot0.propPanel)
 	slot0.namedPanel = slot0:findTF("named_panel")
 
 	setActive(slot0.namedPanel, false)
 
 	slot0.info = slot0.namedPanel:Find("info")
 	slot0.nickname = slot0.info:Find("nickname")
-	slot0.qChar = slot0.info:Find("q_char")
+	slot0.qChar = slot0.propPanel:Find("q_char")
 	slot0.chat = slot0:findTF("info/tip/chatbgtop0/Text", slot0.namedPanel)
 	slot0.propertyPanel = PropertyPanel.New(slot0.propPanel:Find("bg/property_panel/frame"))
+	slot0.paintTF = slot0:findTF("prop_panel/bg/paint")
+	slot0.nameTF = slot0:findTF("prop_panel/bg/name")
+	slot0.nameEnTF = slot0:findTF("prop_panel/bg/english_name_bg")
+	slot0.titleShipinfoTF = slot0:findTF("lines/hori/shipinfo_text")
+	slot0.titleShipchooseTF = slot0:findTF("lines/hori/shipchoose_text")
+
+	setImageAlpha(slot0.titleShipinfoTF, 1)
+	setImageAlpha(slot0.titleShipchooseTF, 0)
+
+	slot0.randBtn = findTF(slot0.info, "random_button")
+
+	setActive(slot0.randBtn, not isAiriJP())
 end
 
 function slot0.onBackPressed(slot0)
@@ -58,52 +78,85 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	if slot0.inProp then
-		triggerButton(slot0.cancelBtn)
-
-		return
-	end
-
 	BilibiliSdkMgr.inst:onBackPressed()
+end
+
+function slot0.switchPanel(slot0)
+	setActive(slot0.propPanel, true)
+
+	slot1 = slot0.propPanel:GetComponent(typeof(CanvasGroup))
+	slot2 = slot0.selectPanel:GetComponent(typeof(CanvasGroup))
+
+	LeanTween.value(go(slot0.propPanel), 0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
+		slot0.alpha = slot0
+		slot0.alpha = 1 - slot0
+	end)):setOnComplete(System.Action(function ()
+		setActive(slot0.selectPanel, false)
+	end))
+
+	slot0.skillPanel.localPosition = Vector3.New(-1000, slot0.skillPanel.localPosition.y, slot0.skillPanel.localPosition.z)
+
+	LeanTween.moveX(slot0.skillPanel, 339, 0.2)
+	LeanTween.moveY(slot3, -328, 0.2)
+	LeanTween.moveX(slot4, -820, 0.2)
+
+	for slot8 = 1, 3, 1 do
+		slot9 = slot0:findTF("character_" .. slot8, slot0.characters)
+
+		setImageAlpha(slot9, 1)
+		LeanTween.alpha(slot9, 0, 0.25)
+		LeanTween.move(go(slot9), slot0:findTF("bg/characters/character_" .. slot8, slot0.propPanel).position, 0.3)
+		setImageAlpha(slot0.titleShipinfoTF, 0)
+		setImageAlpha(slot0.titleShipchooseTF, 1)
+		LeanTween.alpha(slot0.titleShipinfoTF, 1, 0.25)
+		LeanTween.alpha(slot0.titleShipchooseTF, 0, 0.25)
+	end
 end
 
 function slot0.initCharacters(slot0)
 	slot0.charInitPos = {}
 
 	for slot4 = 1, 3, 1 do
-		slot5 = slot0:findTF("character_" .. slot4, slot0.characters)
-		slot7 = slot5:Find("name_bg")
+		onToggle(slot0, slot0:findTF("prop_panel/bg/characters/character_" .. slot4), function (slot0)
+			if slot0 then
+				slot0:selectCharacterByIdx(slot0.selectCharacterByIdx, slot2[slot0.selectCharacterByIdx])
+				setActive(slot0:findTF("selected", setActive), true)
 
-		setActive(slot8, false)
+				setActive:GetComponent(typeof(RectTransform)).sizeDelta = Vector2(196, 196)
+			else
+				setActive(slot0:findTF("selected", setActive), false)
 
-		slot9 = GetOrAddComponent(slot6, "EventTriggerListener")
-		slot0.eventTriggers[slot9] = true
-
-		slot9:AddPointDownFunc(function ()
-			slot0.selectedCharacter = slot1
-
-			setActive(slot2, true)
-		end)
-		slot9:AddPointUpFunc(function ()
-			slot0.selectedCharacter = nil
-
-			setActive(nil, false)
-		end)
-		onButton(slot0, slot5:Find("fitter/char"), function ()
-			if slot0.inProp then
-				return
+				setActive:GetComponent(typeof(RectTransform)).sizeDelta = Vector2(140, 140)
 			end
 
-			slot0:selectCharacterByIdx(slot0, slot2[])
+			return
 		end)
 	end
 
-	LeanTween.value(slot0._go, 1, 0, LeanTween.value):setOnUpdate(System.Action_float(function (slot0)
-		if slot0.selectedCharacter then
-			GetComponent(slot1, "Image").color.a = slot0
-			GetComponent(slot1, "Image").color = GetComponent(slot1, "Image").color
-		end
-	end)):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+	slot1 = {
+		0.2,
+		0.3,
+		0.1
+	}
+
+	for slot5 = 1, 3, 1 do
+		slot6 = slot0:findTF("character_" .. slot5, slot0.characters)
+
+		onButton(slot0, slot6, function ()
+			slot0:switchPanel()
+			triggerToggle(slot0:findTF("prop_panel/bg/characters/character_" .. slot0.findTF), true)
+
+			return
+		end)
+
+		slot6.localPosition = Vector3.New(slot6.localPosition.x, 912, slot6.localPosition.z)
+
+		setImageAlpha(slot6, 0)
+		LeanTween.alpha(slot6, 1, 0.3):setDelay(slot1[slot5])
+		LeanTween.moveY(slot6, 0, 0.2):setDelay(slot1[slot5])
+	end
+
+	return
 end
 
 function slot0.didEnter(slot0)
@@ -115,8 +168,7 @@ function slot0.didEnter(slot0)
 	onButton(slot0, findTF(slot0.info, "random_button"), function ()
 		slot0 = require("GameCfg.names")
 
-		setInputText(slot0.nickname, slot1 .. slot2 .. slot0[3][math.random(#slot0[3])] .. slot0[4][math.random(#slot0[4])])
-		pg.TipsMgr:GetInstance():ShowTips(i18n("login_newPlayerScene_randomName"))
+		setInputText(slot0.nickname, slot1 .. slot0[2][math.random(#slot0[2])] .. slot0[3][math.random(#slot0[3])] .. slot0[4][math.random(#slot0[4])])
 
 		return
 	end, SFX_MAIN)
@@ -156,53 +208,45 @@ function slot0.didEnter(slot0)
 	return
 end
 
-slot7 = 0.3
-slot8 = -47
+slot8 = 0.3
+slot9 = -47
 
 function slot0.selectCharacterByIdx(slot0, slot1, slot2)
 	slot0.inProp = true
 	slot0.contextData.configId = slot2
-	slot4 = slot1:Find("name_bg")
-	slot5 = slot0.propPanel.anchoredPosition
-	slot6 = slot4.anchoredPosition
-
-	slot0:enableOtherChar(slot1, false)
-	LeanTween.moveX(rtf(slot1), slot0, slot1):setEase(LeanTweenType.easeInOutSine)
-	LeanTween.moveX(rtf(slot0.propPanel), slot2, slot1):setEase(LeanTweenType.easeInOutSine)
-	setParent(slot4, slot1.parent)
-
-	slot4.localPosition = slot3
 
 	slot0.propertyPanel:initProperty(slot2)
 	slot0:initSkills()
-	onButton(slot0, slot0.cancelBtn, function ()
-		slot0.inProp = nil
+	setPaintingPrefab(slot0.paintTF, slot0[slot2], "chuanwu")
+	setText(slot0:findTF("name_mask/Text", slot0.nameTF), pg.ship_data_statistics[slot2].name)
+	setText(slot0:findTF("english_name", slot0.nameTF), pg.ship_data_statistics[slot2].english_name)
+	setText(slot0.nameEnTF, string.upper(pg.ship_data_statistics[slot2].english_name))
 
-		setParent(nil, slot2)
-
-		slot2.anchoredPosition = slot3
-
-		slot2:enableOtherChar(slot2, true)
-
-		slot2.anchoredPosition = slot4
-		slot2.propPanel.anchoredPosition = slot5
-
+	if Ship.New({
+		configId = slot0.contextData.configId
+	}).getPrefab(slot4) == slot0.shipPrefab then
 		return
-	end, SFX_CANCEL)
+	end
 
-	return
-end
+	slot0:recycleSpineChar()
+	pg.UIMgr:GetInstance():LoadingOn()
+	PoolMgr.GetInstance():GetSpineChar(slot5, true, function (slot0)
+		pg.UIMgr:GetInstance():LoadingOff()
 
-function slot0.enableOtherChar(slot0, slot1, slot2)
-	eachChild(slot0.characters, function (slot0)
-		if slot0 ~= slot0 then
-			setActive(slot0, setActive)
-		end
+		slot0.shipPrefab = slot0
+		slot0.shipModel = slot0
+
+		slot0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
+
+		tf(slot0).localScale = Vector3(0.5, 0.5, 1)
+		tf(slot0).localPosition = Vector3(15, -95, 0)
+
+		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
+		removeAllChildren(slot0.qChar)
+		SetParent(slot0, slot0.qChar, false)
 
 		return
 	end)
-	setActive(slot0.propPanel, not slot2)
-	setActive(slot0.tip, slot2)
 
 	return
 end
@@ -226,36 +270,11 @@ function slot0.initSkills(slot0)
 end
 
 function slot0.showNamedPanel(slot0)
+	slot0.qChar:SetParent(slot0.info)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.namedPanel)
 	setActive(slot0.namedPanel, true)
 	setInputText(slot0.nickname, "")
 	setText(slot0.chat, slot0[slot0.contextData.configId])
-
-	if Ship.New({
-		configId = slot0.contextData.configId
-	}).getPrefab(slot1) == slot0.shipPrefab then
-		return
-	end
-
-	slot0:recycleSpineChar()
-	pg.UIMgr:GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetSpineChar(slot2, true, function (slot0)
-		pg.UIMgr:GetInstance():LoadingOff()
-
-		slot0.shipPrefab = slot0
-		slot0.shipModel = slot0
-
-		slot0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
-
-		tf(slot0).localScale = Vector3(0.5, 0.5, 1)
-		tf(slot0).localPosition = Vector3(15, -95, 0)
-
-		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
-		removeAllChildren(slot0.qChar)
-		SetParent(slot0, slot0.qChar, false)
-
-		return
-	end)
 
 	return
 end
@@ -263,7 +282,7 @@ end
 function slot0.closeNamedPanel(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.namedPanel, slot0._tf)
 	setActive(slot0.namedPanel, false)
-	slot0:recycleSpineChar()
+	slot0.qChar:SetParent(slot0.propPanel)
 
 	return
 end

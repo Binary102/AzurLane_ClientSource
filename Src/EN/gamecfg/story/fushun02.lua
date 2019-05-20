@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Fu Shun's Great Adventure\n\n<size=30>Chapter 2 - Can You Fix It?</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 2 - Can You Fix It?</size>",
 					1
 				}
 			}

@@ -11,36 +11,30 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = tf(slot0._go)
 	slot0.viewComponent = slot2
-	slot0.leftPanel = slot0._tf:Find("frame/left_panel")
-	slot0.nameTxt = slot0.leftPanel:Find("task_name"):GetComponent(typeof(Text))
-	slot0.descTxt = slot0.leftPanel:Find("task_desc"):GetComponent(typeof(Text))
-	slot0.tagTF = slot0.leftPanel:Find("task_tag")
-	slot0.rightPanel = slot0._tf:Find("frame/right_panel")
-	slot0.rewardPanel = slot0.rightPanel:Find("rewards_panel")
+	slot0.descTxt = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	slot0.tagTF = slot0._tf:Find("frame/tag")
+	slot0.rewardPanel = slot0._tf:Find("frame/awards")
 	slot0._rewardModel = slot0.rewardPanel:GetChild(0)
-	slot0.progressFrame = slot0.leftPanel:Find("progress_frame")
-	slot0.progressBar = slot0.leftPanel:Find("progress_frame/Fill"):GetComponent(typeof(Slider))
-	slot0.progressNum = slot0.leftPanel:Find("progress_frame/label"):GetComponent(typeof(Text))
-	slot0.finishTag = slot0.rightPanel:Find("GetBtn/finish_tag")
-
-	if not slot0.finishTag then
-		slot0.finishTag = slot0.rightPanel:Find("finish_tag")
-	end
-
-	slot0.GotoBtn = slot0.rightPanel:Find("GotoBtn")
-	slot0.GetBtn = slot0.rightPanel:Find("GetBtn")
-	slot0.isGet = slot0.rightPanel:Find("isGet")
-	slot0.finishImg = slot0.leftPanel:Find("progress_frame/finish_img")
-	slot0.isGetPanel = slot0._tf:Find("frame/isGet_panel")
-	slot0.storyIcon = slot0._tf:Find("frame/storyIcon")
+	slot0.progressBar = slot0._tf:Find("frame/slider"):GetComponent(typeof(Slider))
+	slot0.progressNum = slot0._tf:Find("frame/slider/Text"):GetComponent(typeof(Text))
+	slot0.GotoBtn = slot0._tf:Find("frame/go_btn")
+	slot0.GetBtn = slot0._tf:Find("frame/get_btn")
+	slot0.storyIconFrame = slot0._tf:Find("frame/storyIcon")
+	slot0.storyIcon = slot0._tf:Find("frame/storyIcon/icon")
 	slot0.frame = slot0._tf:Find("frame")
 	slot0._modelWidth = slot0.frame.rect.width + 100
+	slot0.finishBg = slot0._tf:Find("frame/finish_bg")
+	slot0.unfinishBg = slot0._tf:Find("frame/unfinish_bg")
+	slot0.tip = slot0._tf:Find("frame/tip")
 end
 
 function slot0.update(slot0, slot1)
 	slot0.taskVO = slot1
-	slot0._go.name = slot1.id
-	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
+
+	if slot1.id == 10302 then
+		slot0._go.name = slot1.id
+	end
+
 	slot0.descTxt.text = HXSet.hxLan(slot1:getConfig("desc"))
 
 	slot0.viewComponent:setSpriteTo("taskTagOb/" .. slot1:getConfig("type"), slot0.tagTF)
@@ -49,30 +43,34 @@ function slot0.update(slot0, slot1)
 
 	slot0:updateAwards(slot1)
 
-	slot3 = slot1:getProgress()
-
-	if slot1:getConfig("sub_type") == 1012 then
-		slot0.progressNum.text = math.floor(slot3 / 100) .. "/" .. math.floor(slot2 / 100)
+	if slot1:isFinish() then
+		slot0.progressNum.text = "COMPLETE"
+	elseif slot1:getConfig("sub_type") == 1012 then
+		slot0.progressNum.text = math.floor(slot1.progress / 100) .. "/" .. math.floor(slot2 / 100)
 	else
-		slot0.progressNum.text = slot3 .. "/" .. slot2
+		slot0.progressNum.text = slot1.progress .. "/" .. slot2
 	end
 
-	slot0.progressBar.value = slot3 / slot2
+	slot0.progressBar.value = slot1.progress / slot2
 
 	slot0:updateBtnState(slot1)
-	setActive(slot0.storyIcon, slot1:getConfig("story_id") and slot4 ~= "")
+	setActive(slot0.storyIconFrame, slot1:getConfig("story_id") and slot3 ~= "")
 
-	if slot4 and slot4 ~= "" then
-		if slot1:getConfig("story_icon") or slot5 == "" then
-			slot5 = "task_icon_default"
+	if slot3 and slot3 ~= "" then
+		if not slot1:getConfig("story_icon") or slot4 == "" then
+			slot4 = "task_icon_default"
 		end
 
-		slot0.viewComponent:setTaskStoryIconRes(slot0.storyIcon, slot5)
-		onButton(slot0, slot0.storyIcon, function ()
+		LoadSpriteAsync("shipmodels/" .. slot4, function (slot0)
+			if slot0 then
+				setImageSprite(slot0.storyIcon, slot0, true)
+			end
+		end)
+		onButton(slot0, slot0.storyIconFrame, function ()
 			pg.StoryMgr.GetInstance():Play(pg.StoryMgr.GetInstance().Play, nil, true)
 		end, SFX_PANEL)
 	else
-		removeOnButton(slot0.storyIcon)
+		removeOnButton(slot0.storyIconFrame)
 	end
 
 	setActive(slot0.frame, true)
@@ -108,28 +106,71 @@ function slot0.updateBtnState(slot0, slot1)
 				end
 			end
 
-			slot1 = 0
-
-			for slot6, slot7 in ipairs(slot2) do
-				if slot7[1] == DROP_TYPE_ITEM and slot7[2] == ITEM_ID_REACT_CHAPTER_TICKET then
-					slot1 = slot1 + slot7[3]
-				end
-			end
-
-			if pg.gameset.reactivity_ticket_max.key_value < getProxy(ChapterProxy).remasterTickets + slot1 then
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
-					content = i18n("tack_tickets_max_warning", math.max(slot4 - slot3, 0)),
-					onYes = function ()
-						slot0()
+			function slot3()
+				function slot0.choice.onYes()
+					if not slot0.index then
+						pg.TipsMgr:GetInstance():ShowTips("未选择奖励,放弃领取")
 
 						return
 					end
-				})
+
+					if slot1.overFlow then
+						slot2()
+					else
+						slot3()
+					end
+
+					return
+				end
+
+				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.choice)
 
 				return
 			end
 
-			slot0()
+			function slot4()
+				function slot0.sub.onYes()
+					if slot0.choice then
+						slot1()
+					else
+						if slot0.overFlow then
+							slot2()
+						else
+							slot3()
+						end
+					end
+
+					return
+				end
+
+				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.sub)
+
+				return
+			end
+
+			if function ()
+				function slot0.overFlow.onYes()
+					slot0()
+
+					return
+				end
+
+				pg.MsgboxMgr:GetInstance():ShowMsgBox(slot0.overFlow)
+
+				return
+			end:getConfirmSetting().sub then
+				slot4()
+			else
+				if slot1.choice then
+					slot3()
+				else
+					if slot1.overFlow then
+						slot2()
+					else
+						slot0()
+					end
+				end
+			end
 		end, SFX_PANEL)
 	else
 		slot2 = slot4
@@ -143,11 +184,9 @@ function slot0.updateBtnState(slot0, slot1)
 
 	SetActive(slot4, slot2 == slot0.GotoBtn)
 	SetActive(slot0.GetBtn, slot2 == slot2)
-	SetActive(slot0.isGet, slot2 == slot1)
-	SetActive(slot0.isGet, slot2 == slot0.progressNum.gameObject)
-	SetActive(slot0.finishTag, slot2 == slot2 or slot2 == slot1)
-	SetActive(slot0.finishImg, slot2 == slot2 or slot2 == slot1)
-	SetActive(slot0.isGetPanel, slot2 == slot1)
+	setActive(slot0.finishBg, slot2 == slot2 or slot2 == slot1)
+	setActive(slot0.unfinishBg, slot2 ~= slot2 and slot2 ~= BTN_STATE_FETC)
+	setActive(slot0.tip, slot2 == slot2 or slot2 == slot1)
 end
 
 function slot0.updateAwards(slot0, slot1)

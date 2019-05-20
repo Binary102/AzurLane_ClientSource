@@ -35,6 +35,7 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(12006, {
+		type = 0,
 		equip_id = 0,
 		ship_id = slot3,
 		pos = slot4
@@ -45,12 +46,15 @@ class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slo
 			if slot0:hasSkin() then
 				slot1:updateEquipmentSkin(slot1.updateEquipmentSkin, 0)
 				slot1:addEquipmentSkin(slot0.skinId, 1)
+
+				slot0.skinId = 0
+
 				pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
 			slot1:updateEquip(slot1.updateEquip, nil)
 			slot1:updateShip(slot1)
-			slot1:addEquipmentById(slot0.id, 1, true)
+			slot1:addEquipment(slot0)
 			slot4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
 			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot0.config.name), "red")
 		else

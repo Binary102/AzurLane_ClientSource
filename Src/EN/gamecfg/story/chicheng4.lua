@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Red Spider Lily's Love\n\n<size=30>Chapter 4 - Allies and Days of Old</size>",
+					"Red Spider Lily's Love\n\n<size=45>Chapter 4 - Allies and Days of Old</size>",
 					1
 				}
 			}

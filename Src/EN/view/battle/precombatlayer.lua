@@ -22,13 +22,12 @@ function slot0.init(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/start/popup")
 	slot0._costText = slot0:findTF("right/start/popup/Text")
-	slot0._backBtn = slot0:findTF("top/title/back")
 	slot0._moveLayer = slot0:findTF("moveLayer")
 	slot1 = slot0:findTF("middle")
 	slot0._autoToggle = slot0:findTF("auto_toggle")
 	slot0._fleetInfo = slot1:Find("fleet_info")
-	slot0._fleetNumList = slot1:Find("fleet_info/number_list")
-	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name")
+	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
+	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
 
 	setActive(slot0._fleetInfo, slot0.contextData.system ~= SYSTEM_DUEL)
 
@@ -49,7 +48,11 @@ function slot0.init(slot0)
 	slot0._prevPage = slot0:findTF("middle/prevPage")
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._checkBtn = slot1:Find("checkBtn")
-	slot0._playerResOb = slot0:findTF("top/title/playerRes")
+	slot0._blurPanel = slot0:findTF("blur_panel")
+	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
+	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
+	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
+	slot0._playerResOb = slot0:findTF("playerRes", slot0.topPanel)
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
@@ -60,22 +63,15 @@ function slot0.init(slot0)
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
 	slot0._middle = slot0:findTF("middle")
-	slot0._topLeft = slot0:findTF("top_left")
 	slot0._right = slot0:findTF("right")
-	slot0.topPanel = slot0:findTF("top")
 
 	setAnchoredPosition(slot0._middle, {
 		x = -840
-	})
-	setAnchoredPosition(slot0._topLeft, {
-		x = -520
 	})
 	setAnchoredPosition(slot0._right, {
 		x = 470
 	})
 
-	slot0.energyDescTF = slot0:findTF("energy_desc")
-	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
 	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
 
 	if slot0.contextData.stageId then
@@ -183,6 +179,7 @@ function slot0.UpdateFleetView(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0:resetGrid(Fleet.VANGUARD)
 	slot0:resetGrid(Fleet.MAIN)
+	SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
 
 	if slot1 then
 		slot0:loadAllCharacter()
@@ -192,25 +189,13 @@ function slot0.UpdateFleetView(slot0, slot1)
 end
 
 function slot0.uiStartAnimating(slot0)
-	shiftPanel(slot0._middle, 0, nil, 0.3, 0, true, true)
-	shiftPanel(slot0._topLeft, 0, nil, 0.3, 0, true, true)
+	shiftPanel(slot0._middle, 0, nil, slot2, slot1, true, true)
 	shiftPanel(slot0._right, 0, nil, 0.3, 0, true, true)
-	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0.topPanel), slot0:findTF("title/bg/right", slot0.topPanel), slot0:findTF("title/bg/title_formation", slot0.topPanel), slot0:findTF("title/bg/formation", slot0.topPanel), 0.27, function ()
-		slot0.tweens = nil
-	end)
 end
 
 function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0._middle, -840, nil, dur, delay, true, true)
-	shiftPanel(slot0._topLeft, -520, nil, dur, delay, true, true)
-	shiftPanel(slot0._right, 470, nil, dur, delay, true, true)
-	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, dur, delay, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
+	shiftPanel(slot0._middle, -840, nil, nil, nil, true, true)
+	shiftPanel(slot0._right, 470, nil, nil, nil, true, true)
 end
 
 function slot0.didEnter(slot0)
@@ -306,12 +291,9 @@ function slot0.didEnter(slot0)
 				toggle = slot0._autoToggle
 			})
 		end, SFX_PANEL, SFX_PANEL)
-		triggerToggle(slot0._autoToggle, BattleScene.autoBotIsAcitve)
+		triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	end
 
-	setAnchoredPosition(slot0.topPanel, {
-		y = slot0.topPanel.rect.height
-	})
 	onNextTick(function ()
 		slot0:uiStartAnimating()
 	end)
@@ -322,6 +304,10 @@ function slot0.didEnter(slot0)
 			setParent(slot0, slot0._tf)
 			slot0.transform:SetAsFirstSibling()
 		end)
+	end
+
+	if slot0._currentForm == slot0.FORM_PREVIEW and slot0.contextData.system == SYSTEM_DUEL and #slot0._currentFleetVO.mainShips <= 0 then
+		triggerButton(slot0._checkBtn)
 	end
 end
 
@@ -465,7 +451,7 @@ function slot0.loadAllCharacter(slot0)
 
 		tf(slot0):SetParent(slot0._heroContainer, false)
 
-		tf(slot0).localScale = Vector3(0.5, 0.5, 1)
+		tf(slot0).localScale = Vector3(0.65, 0.65, 1)
 
 		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
 
@@ -521,25 +507,6 @@ function slot0.loadAllCharacter(slot0)
 	parallelAsync({}, function (slot0)
 		pg.UIMgr:GetInstance():LoadingOff()
 	end)
-end
-
-function slot0.showEnergyDesc(slot0, slot1, slot2)
-	if LeanTween.isTweening(go(slot0.energyDescTF)) then
-		LeanTween.cancel(go(slot0.energyDescTF))
-
-		slot0.energyDescTF.localScale = Vector3.one
-	end
-
-	setText(slot0.energyDescTextTF, slot2)
-
-	slot0.energyDescTF.position = slot1
-
-	setActive(slot0.energyDescTF, true)
-	LeanTween.scale(slot0.energyDescTF, Vector3.zero, 0.2):setDelay(1):setFrom(Vector3.one):setOnComplete(System.Action(function ()
-		slot0.energyDescTF.localScale = Vector3.one
-
-		setActive(slot0.energyDescTF, false)
-	end))
 end
 
 function slot0.setAllCharacterPos(slot0, slot1)
@@ -778,18 +745,7 @@ function slot0.displayFleetInfo(slot0)
 	slot0.tweenNumText(slot0._vanguardGS, slot0._currentFleetVO:GetGearScoreSum(Fleet.VANGUARD))
 	slot0.tweenNumText(slot0._mainGS, slot0._currentFleetVO:GetGearScoreSum(Fleet.MAIN))
 	setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
-
-	slot5 = 1
-
-	while slot5 <= slot0.MAX_FLEET_NUM do
-		if slot5 == slot0._currentFleetVO.id then
-			SetActive(slot0._fleetNumList:Find(slot5), true)
-		else
-			SetActive(slot0._fleetNumList:Find(slot5), false)
-		end
-
-		slot5 = slot5 + 1
-	end
+	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 
 	return
 end

@@ -5805,6 +5805,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6410] = {
+		desc_get = "",
+		name = "The Unfulfilled Promise",
+		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
+		type = 0,
+		max_level = 0,
+		id = 6410,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -20211,7 +20222,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#A9F548FF>5</color>s (<color=#A9F548FF>15</color>s when fully upgraded.)",
+		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF5</color>s (<color=#92fc63FF15</color>s when fully upgraded.)",
 		name = "Well-Rounded Armor+",
 		desc = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
 		type = 2,
@@ -20264,7 +20275,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "Increases this ship's Speed by <color=#A9F548FF>3</color> (<color=#A9F548FF>8</color> when fully upgraded.) At the start of the battle: increases this ship's EVA by <color=#A9F548FF>15.0%</color> (<color=#A9F548FF>35.0%</color> when fully upgraded) for 50s.",
+		desc_get = "Increases this ship's Speed by <color=#92fc63FF3</color> (<color=#92fc63FF8</color> when fully upgraded.) At the start of the battle: increases this ship's EVA by <color=#92fc63FF15.0%</color> (<color=#92fc63FF35.0%</color> when fully upgraded) for 50s.",
 		name = "Engine Boost+",
 		desc = "Increases this ship's Speed by $1. At the start of the battle: increases this ship's EVA by $2 for 50s.",
 		type = 2,
@@ -25711,6 +25722,7 @@ pg.skill_data_template = {
 		6380,
 		6390,
 		6400,
+		6410,
 		7000,
 		9010,
 		9020,

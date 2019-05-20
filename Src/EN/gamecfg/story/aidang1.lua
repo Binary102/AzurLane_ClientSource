@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"A Date With Atago\n\n<size=30>Chapter 1: A Date Invitation</size>",
+					"A Date With Atago\n\n<size=45>Chapter 1: A Date Invitation</size>",
 					1
 				}
 			}

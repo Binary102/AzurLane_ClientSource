@@ -382,7 +382,7 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "小贝法",
+		description = "PT",
 		key = "activity_res_id",
 		key_value = 123
 	},
@@ -501,7 +501,27 @@ pg.gameset = {
 		key = "login_extra_voice",
 		key_value = 0,
 		description = {
-			20121
+			40101,
+			30156,
+			10701,
+			30301,
+			20216,
+			10124,
+			40201,
+			40202,
+			40203,
+			20507,
+			40305,
+			20102,
+			30161,
+			20706,
+			30162,
+			20103,
+			40118,
+			20121,
+			10117,
+			40123,
+			30105
 		}
 	},
 	commander_exp_a = {
@@ -700,21 +720,6 @@ pg.gameset = {
 		description = "",
 		key = "air_dominance_y",
 		key_value = 450
-	},
-	technology_protect_num = {
-		description = "",
-		key = "technology_protect_num",
-		key_value = 10
-	},
-	technology_daily_limit = {
-		description = "",
-		key = "technology_daily_limit",
-		key_value = 3
-	},
-	technology_once_limit = {
-		description = "",
-		key = "technology_once_limit",
-		key_value = 1
 	}
 }
 

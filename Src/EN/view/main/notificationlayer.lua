@@ -14,6 +14,10 @@ function slot0.getUIName(slot0)
 	return "NotificationUI"
 end
 
+function slot0.getGroupName(slot0)
+	return "group_NotificationUI"
+end
+
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
@@ -28,40 +32,56 @@ end
 
 function slot0.init(slot0)
 	slot0.close = slot0:findTF("close")
-	slot0.content = slot0:findTF("frame/contain/list/content")
-	slot0.prefabSelf = slot0:findTF("frame/contain/list/popo_self").gameObject
-	slot0.prefabOthers = slot0:findTF("frame/contain/list/popo_others").gameObject
-	slot0.prefabPublic = slot0:findTF("frame/contain/list/popo_public").gameObject
-	slot0.input = slot0:findTF("frame/inputbg/input"):GetComponent("InputField")
-	slot0.send = slot0:findTF("frame/send")
-	slot0.channelSend = slot0:findTF("frame/channel_send")
-	slot0.channelSendPop = slot0:findTF("frame/channel_pop")
-	slot0.scroll = slot0:findTF("frame/contain/list"):GetComponent("ScrollRect")
-	slot0.topMsg = slot0:findTF("frame/contain/topmsg")
-	slot0.contain = slot0:findTF("frame/contain")
+	slot0.frame = slot0:findTF("frame")
+	slot0.contain = slot0.frame:Find("contain")
+	slot1 = slot0.contain:Find("list")
+	slot0.content = slot1:Find("content")
+	slot0.prefabSelf = slot1:Find("popo_self").gameObject
+	slot0.prefabOthers = slot1:Find("popo_other").gameObject
+	slot0.prefabPublic = slot1:Find("popo_public").gameObject
+	slot0.input = slot0.frame:Find("inputbg/input"):GetComponent("InputField")
+	slot0.send = slot0.frame:Find("send")
+	slot0.channelSend = slot0.frame:Find("channel_send")
+	slot0.channelSendPop = slot0.frame:Find("channel_pop")
+	slot0.scroll = slot1:GetComponent("ScrollRect")
+	slot0.topMsg = slot0.contain:Find("topmsg")
 
 	SetActive(slot0.topMsg, false)
 
 	slot0.topPublic = slot0:findTF("popo_public", slot0.topMsg)
-	slot0.emoji = slot0:findTF("frame/inputbg/emoji")
+	slot0.emoji = slot0.frame:Find("inputbg/emoji")
 	slot0.changeRoomPanel = slot0:findTF("change_room_Panel")
 	slot0.roomSendBtns = slot0:findTF("frame/bg/type_send", slot0.changeRoomPanel)
 	slot0.roomRecvBtns = slot0:findTF("frame/bg/type_recv", slot0.changeRoomPanel)
-	slot0.enterRoomTip = slot0:findTF("enter_room_tip")
+	slot0.enterRoomTip = slot0.frame:Find("enter_room_tip")
 	slot0.enterRoomCG = slot0.enterRoomTip:GetComponent(typeof(CanvasGroup))
-	slot0.roomBtn = slot0:findTF("frame/contain/top/room")
-	slot0.typeBtns = slot0:findTF("frame/contain/top/type")
+	slot0.roomBtn = slot0.contain:Find("top/room")
+	slot0.typeBtns = slot0.contain:Find("top/type")
 	slot0.inputTF = slot0:findTF("frame/bg/InputField", slot0.changeRoomPanel):GetComponent(typeof(InputField))
 	slot0.resource = slot0:findTF("resource")
 	slot0.typeTpl = slot0:findTF("type_tpl", slot0.resource)
 	slot0.normalSprite = slot0:findTF("normal", slot0.resource):GetComponent(typeof(Image)).sprite
 	slot0.selectedSprite = slot0:findTF("selected", slot0.resource):GetComponent(typeof(Image)).sprite
+	slot0.bottomChannelTpl = slot0:findTF("channel_tpl", slot0.resource)
+	slot0.bottomChannelNormalSprite = slot0:findTF("channel_normal", slot0.resource):GetComponent(typeof(Image)).sprite
+	slot0.bottomChannelSelectedSprite = slot0:findTF("channel_selected", slot0.resource):GetComponent(typeof(Image)).sprite
+	slot0.switchTpl = slot0:findTF("switch_tpl", slot0.resource)
+	slot0.switchNormalSprite = slot0:findTF("switch_normal", slot0.resource):GetComponent(typeof(Image)).sprite
+	slot0.switchSelectedSprite = slot0:findTF("switch_selected", slot0.resource):GetComponent(typeof(Image)).sprite
 	slot0.textSprites = {}
 	slot0.textSelectedSprites = {}
+	slot0.bottomChannelTextSprites = {}
+	slot0.switchTextSprites = {}
 
-	for slot5, slot6 in pairs(slot1) do
-		slot0.textSprites[slot5] = slot0:findTF("text_" .. slot7, slot0.resource):GetComponent(typeof(Image)).sprite
-		slot0.textSelectedSprites[slot5] = slot0:findTF("text_" .. slot7 .. "_selected", slot0.resource):GetComponent(typeof(Image)).sprite
+	for slot6, slot7 in pairs(slot2) do
+		slot8 = ChatConst.GetChannelSprite(slot6)
+		slot0.textSprites[slot6] = slot0:findTF("text_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite
+		slot0.textSelectedSprites[slot6] = slot0:findTF("text_" .. slot8 .. "_selected", slot0.resource):GetComponent(typeof(Image)).sprite
+		slot0.switchTextSprites[slot6] = slot0:findTF("text_" .. slot8 .. "_switch", slot0.resource):GetComponent(typeof(Image)).sprite
+
+		if table.contains(ChatConst.SendChannels, slot6) then
+			slot0.bottomChannelTextSprites[slot6] = slot0:findTF("channel_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite
+		end
 	end
 
 	slot0.prefabSelf:SetActive(false)
@@ -176,8 +196,12 @@ function slot0.didEnter(slot0)
 
 	if slot0.currentForm == slot0.FORM_BATTLE then
 		slot0._tf:SetParent(slot0.contextData.chatViewParent, true)
+
+		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			groupName = slot0:getGroupName()
+		})
 	end
 
 	LeanTween.moveX(slot0._tf, slot0._tf.localPosition.x, 0.3):setFrom(700):setEase(LeanTweenType.easeInOutQuad):setUseEstimatedTime(true)
@@ -189,6 +213,9 @@ function slot0.didEnter(slot0)
 
 		return
 	end))
+
+	rtf(slot0._tf).offsetMax = Vector2(0, 0)
+	rtf(slot0._tf).offsetMin = Vector2(0, 0)
 end
 
 function slot0.onBackPressed(slot0)
@@ -238,12 +265,11 @@ function slot0.updateFilter(slot0)
 		end
 
 		if bit.band(slot2.ChannelBits.recv, bit.lshift(1, slot2)) > 0 then
-			setImageAlpha(slot1, 1)
 			setImageSprite(slot1, slot1.selectedSprite)
 			setActive(slot1:Find("text_selected"), true)
 		else
-			setImageAlpha(slot1, 0.01)
-			setActive(slot1:Find("text_selected"), true)
+			setImageSprite(slot1, slot1.normalSprite)
+			setActive(slot1:Find("text_selected"), false)
 		end
 
 		return
@@ -260,18 +286,17 @@ function slot0.updateFilter(slot0)
 end
 
 function slot0.updateChatChannel(slot0)
-	setImageSprite(slot0.channelSend:Find("Text"), slot0.textSprites[slot0.ChannelBits.send], true)
+	setImageSprite(slot0.channelSend:Find("Text"), slot0.bottomChannelTextSprites[slot0.ChannelBits.send], true)
 
 	return
 end
 
 function slot0.updateChannelSendPop(slot0)
-	slot2 = UIItemList.New(slot0.channelSendPop:Find("type_send"), slot0.typeTpl)
+	slot2 = UIItemList.New(slot0.channelSendPop:Find("type_send"), slot0.bottomChannelTpl)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot2:Find("text"), slot1.textSprites[slot0[slot1 + 1]], true)
-			setImageSprite(slot2:Find("text_selected"), slot1.textSelectedSprites[slot0[slot1 + 1]], true)
+			setImageSprite(slot2:Find("text"), slot1.bottomChannelTextSprites[slot0[slot1 + 1]], true)
 			onButton(slot1, slot2, function ()
 				setActive(slot0.channelSendPop, false)
 
@@ -294,12 +319,9 @@ function slot0.updateChannelSendPop(slot0)
 			end
 
 			if slot2.ChannelBits.send == slot2 then
-				setImageAlpha(slot1, 1)
-				setImageSprite(slot1, slot1.selectedSprite)
-				setActive(slot1:Find("text_selected"), true)
+				setImageSprite(slot1:Find("bottom"), slot1.bottomChannelSelectedSprite, true)
 			else
-				setImageAlpha(slot1, 0.01)
-				setActive(slot1:Find("text_selected"), false)
+				setImageSprite(slot1:Find("bottom"), slot1.bottomChannelNormalSprite, true)
 			end
 
 			return
@@ -313,21 +335,23 @@ end
 
 function slot0.updateRoom(slot0)
 	setText(slot0.enterRoomTip:Find("text"), i18n("main_notificationLayer_enter_room", (slot0.player.chatRoomId == 0 and "") or slot0.player.chatRoomId))
-	setText(slot0:findTF("Text", slot0.roomBtn), (slot0.player.chatRoomId == 0 and i18n("common_not_enter_room")) or i18n("word_room", slot0.player.chatRoomId))
+	setText(slot0:findTF("Text", slot0.roomBtn), (slot0.player.chatRoomId == 0 and i18n("common_not_enter_room")) or slot0.player.chatRoomId)
 	slot0:showEnterRommTip()
 
 	return
 end
 
 function slot0.showChangeRoomPanel(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0.changeRoomPanel)
+
 	slot0.inputTF.text = tostring(slot0.player.chatRoomId)
 	slot0.tempRoomSendBits = slot0.ChannelBits.send
-	slot2 = UIItemList.New(slot0.roomSendBtns, slot0.typeTpl)
+	slot2 = UIItemList.New(slot0.roomSendBtns, slot0.switchTpl)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot2:Find("text"), slot1.textSprites[slot0[slot1 + 1]], true)
-			setImageSprite(slot2:Find("text_selected"), slot1.textSelectedSprites[slot0[slot1 + 1]], true)
+			setImageSprite(slot2:Find("text"), slot1.switchTextSprites[slot0[slot1 + 1]], true)
 			onButton(slot1, slot2, function ()
 				slot0.tempRoomSendBits = slot1
 
@@ -343,12 +367,11 @@ function slot0.showChangeRoomPanel(slot0)
 	slot3()
 
 	slot0.tempRoomRecvBits = slot0.ChannelBits.recv
-	slot5 = UIItemList.New(slot0.roomRecvBtns, slot0.typeTpl)
+	slot5 = UIItemList.New(slot0.roomRecvBtns, slot0.switchTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot2:Find("text"), slot1.textSprites[slot0[slot1 + 1]], true)
-			setImageSprite(slot2:Find("text_selected"), slot1.textSelectedSprites[slot0[slot1 + 1]], true)
+			setImageSprite(slot2:Find("text"), slot1.switchTextSprites[slot0[slot1 + 1]], true)
 			onButton(slot1, slot2, function ()
 				_.filter.tempRoomRecvBits = IndexConst.ToggleBits(slot1.tempRoomRecvBits, _.filter(_.filter, function (slot0)
 					return slot0 ~= ChatConst.ChannelGuild or slot0.inGuild
@@ -370,6 +393,16 @@ function slot0.showChangeRoomPanel(slot0)
 end
 
 function slot0.closeChangeRoomPanel(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.changeRoomPanel, slot0._tf)
+
+	if slot0.currentForm == slot0.FORM_BATTLE then
+		slot0._tf:SetParent(slot0.contextData.chatViewParent, true)
+
+		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
+	else
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	end
+
 	setActive(slot0.changeRoomPanel, false)
 
 	return
@@ -447,6 +480,10 @@ function slot0.appendOthers(slot0, slot1, slot2)
 	if slot1.player.id == slot0.player.id then
 		slot4 = slot0.poolBubble.self
 		slot5 = slot0.prefabSelf
+		slot1.isSelf = true
+		slot1.player = setmetatable(Clone(slot0.player), {
+			__index = slot1.player
+		})
 	end
 
 	slot6 = nil
@@ -463,7 +500,7 @@ function slot0.appendOthers(slot0, slot1, slot2)
 	slot6:update(slot1)
 	removeOnButton(slot6.headTF)
 	onButton(slot0, slot6.headTF, function ()
-		slot0:emit(NotificationMediator.OPEN_INFO, slot0, slot0:findTF("circle/head", slot1.tf).position, slot3.content)
+		slot0:emit(NotificationMediator.OPEN_INFO, slot0.emit, slot0:findTF("circle/head", slot1.tf).position, slot3.content)
 
 		return
 	end, SFX_PANEL)
@@ -539,12 +576,16 @@ function slot0.showEnterRommTip(slot0)
 	return
 end
 
+function slot0.getPos(slot0, slot1)
+	return
+end
+
 function slot0.displayEmojiPanel(slot0)
 	slot0:emit(NotificationMediator.OPEN_EMOJI, function (slot0)
 		slot0:emit(NotificationMediator.ON_SEND_PUBLIC, slot1.ChannelBits.send, string.gsub(ChatConst.EmojiCode, "code", slot0))
 
 		return
-	end)
+	end, Vector3(slot0.emoji.position.x, slot0.emoji.position.y, 0))
 
 	return
 end

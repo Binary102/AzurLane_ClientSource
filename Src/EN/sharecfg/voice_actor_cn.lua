@@ -703,6 +703,34 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Kizuna AI ",
 		code = 176
+	},
+	{
+		actor_name = "Miho Takauma",
+		code = 177
+	},
+	{
+		actor_name = "Miyuri Shimabukuro",
+		code = 178
+	},
+	{
+		actor_name = "Kana Ichinose",
+		code = 179
+	},
+	{
+		actor_name = "Natsume Iwasa ",
+		code = 180
+	},
+	{
+		actor_name = "Azumi Waki",
+		code = 181
+	},
+	{
+		actor_name = "Maaya Uchida",
+		code = 182
+	},
+	{
+		actor_name = "Ayako Kawasumi",
+		code = 183
 	}
 }
 

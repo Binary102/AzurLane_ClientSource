@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Lunar New Year!\n\n<size=30>Chapter 6 - Celebrating Together (Part 2)</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 6 - Celebrating Together (Part 2)</size>",
 					1
 				}
 			}

@@ -129,7 +129,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -155,7 +155,7 @@ return {
 			}
 		},
 		{
-			actor = 401181,
+			actor = 401180,
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -269,14 +269,14 @@ return {
 					actor = 401190,
 					dir = -1,
 					pos = {
-						x = -450
+						x = -675
 					}
 				},
 				{
 					actor = 401210,
 					dir = -1,
 					pos = {
-						x = 450
+						x = 675
 					}
 				}
 			},

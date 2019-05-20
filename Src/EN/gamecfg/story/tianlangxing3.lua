@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Sirius' Improvement Plan\n\n<size=30>Chapter 3 - The Maids' Aid</size>",
+					"Sirius' Improvement Plan\n\n<size=45>Chapter 3 - The Maids' Aid</size>",
 					1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 				{
 					actor = 202180,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

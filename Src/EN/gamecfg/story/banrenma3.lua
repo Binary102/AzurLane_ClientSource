@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=30>三　何为尊敬</size>",
+					"半人马与港区的“前辈”们\n\n<size=45>三　何为尊敬</size>",
 					1
 				}
 			}

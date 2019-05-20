@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"The Miniature Head Maid\n\n<size=30>Chapter 1 - A Little Visitor</size>",
+					"The Miniature Head Maid\n\n<size=45>Chapter 1 - A Little Visitor</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			say = "Right! I must report to this \"Commander\" Akashi spoke of~",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -185,7 +185,7 @@ return {
 				{
 					actor = 205010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

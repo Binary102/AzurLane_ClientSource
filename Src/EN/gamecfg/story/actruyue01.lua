@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"炎夏的火锅大会？！\n\n<size=30>一  火锅大会喵！</size>",
+					"炎夏的火锅大会？！\n\n<size=45>一  火锅大会喵！</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -148,7 +148,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -222,7 +222,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -249,7 +249,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

@@ -17,8 +17,8 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_QUICK, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.BUILD_SHIP_IMMEDIATELY, {
 			pos = slot1,
-			anim = function (slot0)
-				slot0.viewComponent:playGetShipAnimate(slot0, pos)
+			anim = function (slot0, slot1)
+				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 
@@ -30,15 +30,15 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_LAUNCHED, function (slot0, slot1)
 		slot0:sendNotification(GAME.GET_SHIP, {
 			pos = slot1,
-			anim = function (slot0)
-				slot0.viewComponent:playGetShipAnimate(slot0, pos)
+			anim = function (slot0, slot1)
+				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 	end)
 	slot0:bind(slot0.LAUNCH_ALL, function (slot0, slot1)
 		slot0:sendNotification(GAME.GET_BATCH_SHIP, {
-			anim = function (slot0)
-				slot0.viewComponent:playGetShipAnimate(slot0)
+			anim = function (slot0, slot1)
+				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 

@@ -85,7 +85,7 @@ function slot0.getTypesStr(slot0)
 		slot4 = ""
 
 		for slot8, slot9 in ipairs(slot2) do
-			slot4 = slot4 .. slot1[slot9].type_name .. ((slot8 == #slot0.template.ship_type and "") or ", ")
+			slot4 = slot4 .. slot1[slot9].type_name .. ((slot8 == #slot0.template.ship_type and "") or "、")
 		end
 
 		return i18n("event_condition_ship_type", slot4)

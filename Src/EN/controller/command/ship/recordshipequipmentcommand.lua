@@ -1,9 +1,9 @@
 slot1 = {
-	"#CFCFCF",
-	"#9FECFF",
-	"#B8CFF9",
-	"#FDF3AA",
-	"#8EA7EB"
+	"#FFFFFF",
+	"#60a9ff",
+	"#966af6",
+	"#fff157",
+	"#EE799F"
 }
 
 class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
@@ -56,7 +56,7 @@ class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0,
 		slot13 = {}
 
 		for slot17, slot18 in ipairs(slot11) do
-			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not slot12(slot17, slot18) then
+			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not slot12(slot17, slot18) and pg.equip_data_statistics[slot18] then
 				slot11[slot17] = slot10:getSameTypeEquipmentId(Equipment.New({
 					id = slot18
 				})) or 0
@@ -100,7 +100,7 @@ class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0,
 			slot15 = ""
 
 			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("no_found_record_equipment", (#slot13 > 2 and table.concat(_.slice(slot13, 1, 2), ",") .. i18n("word_wait")) or table.concat(slot13, ",")),
+				content = i18n("no_found_record_equipment", (#slot13 > 2 and table.concat(_.slice(slot13, 1, 2), "、") .. i18n("word_wait")) or table.concat(slot13, "、")),
 				onYes = function ()
 					slot0(slot1)
 				end

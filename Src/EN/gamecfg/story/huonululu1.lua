@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 1 - An Easily Flustered Girl's Day</size>",
+					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 1 - An Easily Flustered Girl's Day</size>",
 					1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=22>(Whispering) ... I bet you just chose me because of my bust...</size>",
+			say = "<size=33>(Whispering) ... I bet you just chose me because of my bust...</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

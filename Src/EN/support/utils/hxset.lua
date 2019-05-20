@@ -1,6 +1,6 @@
 HXSet = {
 	codeModeKey = "hx_code_mode",
-	codeMode = true,
+	codeMode = false,
 	nameCodeMap = {},
 	codeNameMap = {},
 	nameCodeMap_EN = {
@@ -68,7 +68,10 @@ HXSet = {
 		end)
 	end,
 	isHx = function ()
-		return not slot0.codeMode
+		if slot0.codeMode then
+		end
+
+		return true
 	end
 }
 

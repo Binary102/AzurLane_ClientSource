@@ -25,6 +25,10 @@ function slot0.hasSpineExtra(slot0)
 	return slot0.spineExtra ~= nil
 end
 
+function slot0.getSpineExtraId(slot0)
+	return slot0.spineExtra
+end
+
 function slot0.addSpineExtra(slot0, slot1)
 	slot0.spineExtra = slot1
 end

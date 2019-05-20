@@ -234,18 +234,6 @@ function slot0.getWallPaper(slot0, slot1)
 	end
 end
 
-function slot0.getFurnitrueCount(slot0, slot1)
-	slot3 = 0
-
-	for slot7, slot8 in pairs(slot2) do
-		if slot8.configId == slot1 then
-			slot3 = slot3 + 1
-		end
-	end
-
-	return slot3
-end
-
 function slot0.addDorm(slot0, slot1)
 	slot0.data = slot1
 end

@@ -197,7 +197,7 @@ function slot2(slot0)
 
 		if slot10 == slot11 then
 			slot10 = getProxy
-			slot11 = BayProxy
+			slot11 = ShipSkinProxy
 			slot10 = slot10(slot11)
 			slot11 = slot10
 			slot10 = slot10.hasSkin

@@ -27,7 +27,8 @@ function slot0.set(slot0, slot1, slot2, slot3)
 
 	slot0:flush()
 	onButton(slot0, slot0.btnHelp, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_sos")
 		})
 	end, SFX_PANEL)

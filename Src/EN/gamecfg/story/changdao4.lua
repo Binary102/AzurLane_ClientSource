@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Long Island's Inner Peace\n\n<size=30>IV 「The Proper Relaxation Method」</size>",
+					"Long Island's Inner Peace\n\n<size=45>IV 「The Proper Relaxation Method」</size>",
 					1
 				}
 			}

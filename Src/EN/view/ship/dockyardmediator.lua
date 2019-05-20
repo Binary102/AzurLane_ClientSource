@@ -1,6 +1,8 @@
 slot0 = class("DockyardMediator", import("..base.ContextMediator"))
 slot0.ON_DESTROY_SHIPS = "DockyardMediator:ON_DESTROY_SHIPS"
 slot0.ON_SHIP_DETAIL = "DockyardMediator:ON_SHIP_DETAIL"
+slot0.ON_WORLD_FORMATION = "DockyardMediator:ON_WORLD_FORMATION"
+slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 
 function slot0.register(slot0)
 	if slot0.contextData.selectFriend then
@@ -15,6 +17,15 @@ function slot0.register(slot0)
 		for slot5, slot6 in ipairs(slot0.contextData.shipVOs) do
 			slot0.shipsById[slot6.id] = slot6
 		end
+	elseif slot0.contextData.mode == DockyardScene.MODE_WORLD then
+		slot0.shipsById = {}
+
+		for slot8, slot9 in ipairs(slot4) do
+			slot9.inWorld = true
+			slot0.shipsById[slot9.id] = slot9
+		end
+
+		slot0.viewComponent:setWorld(slot3)
 	else
 		slot0.shipsById = {}
 
@@ -23,7 +34,7 @@ function slot0.register(slot0)
 		end
 	end
 
-	if DockyardScene.MODE_DESTROY ~= slot0.contextData.mode and slot0.contextData.fromMediatorName ~= BackYardMediator.__cname and slot0.contextData.fromMediatorName ~= NavalAcademyMediator.__cname and not slot0.contextData.skipSelect then
+	if DockyardScene.MODE_DESTROY ~= slot0.contextData.mode and DockyardScene.MODE_OVERVIEW ~= slot0.contextData.mode and slot0.contextData.fromMediatorName ~= BackYardMediator.__cname and slot0.contextData.fromMediatorName ~= NavalAcademyMediator.__cname and not slot0.contextData.skipSelect then
 		slot0.contextData.selectShipId = slot1.selectShipId
 
 		slot1:setSelectShipId(nil)
@@ -48,13 +59,18 @@ function slot0.register(slot0)
 		end
 	end
 
-	slot0:sendNotification(GAME.SET_SHIP_FLAG, {
-		shipsById = slot0.shipsById,
-		flags = slot0.contextData.flags or {},
-		blackBlockShipIds = slot0.contextData.blackBlockShipIds
-	})
+	if not slot0.contextData.ignoreFlag then
+		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
+			shipsById = slot0.shipsById,
+			flags = slot0.contextData.flags or {},
+			blackBlockShipIds = slot0.contextData.blackBlockShipIds
+		})
+	else
+		slot0.viewComponent:setShips(slot0.shipsById)
+	end
+
 	slot0.viewComponent:setShipsCount(table.getCount(slot0.shipsById))
-	slot0.viewComponent:setPlayer(slot0)
+	slot0.viewComponent:setPlayer(slot3)
 	slot0:bind(slot0.ON_DESTROY_SHIPS, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.DESTROY_SHIPS, {
 			destroyEquipment = slot2,
@@ -69,6 +85,17 @@ function slot0.register(slot0)
 			shipVOs = slot2
 		})
 	end)
+	slot0:bind(slot0.ON_WORLD_FORMATION, function ()
+		slot0 = getProxy(WorldProxy)
+
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_FORMATION, slot0:GetWorld().GetActiveMap(slot1).ConstructFormationData(slot2))
+	end)
+	slot0:bind(slot0.ON_SHIP_REPAIR, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.WORLD_SHIP_REPAIR, {
+			shipIds = slot1,
+			totalCost = slot2
+		})
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -79,7 +106,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EXIT_SHIP_DONE,
 		GAME.UPDATE_EXERCISE_FLEET_DONE,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		GAME.WORLD_SHIP_REPAIR_DONE
 	}
 end
 
@@ -89,7 +117,7 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.SET_SHIP_FLAG_DONE then
 		slot0.viewComponent:setShips(slot3.shipsById)
 	elseif slot2 == GAME.DESTROY_SHIP_DONE then
-		if not pg.m02:hasMediator(ShipInfoMediator.__cname) then
+		if not pg.m02:hasMediator(ShipMainMediator.__cname) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_dockyardMediator_destroy"))
 		end
 
@@ -170,6 +198,10 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
+	elseif slot2 == GAME.WORLD_SHIP_REPAIR_DONE then
+		_.each(slot3.shipIds, function (slot0)
+			slot0.viewComponent:updateShipStatusById(slot0)
+		end)
 	end
 end
 

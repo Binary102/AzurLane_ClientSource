@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Trick or Treat, Halloween!\n\n<size=30>I 「In Search of Lost Ghosts!」</size>",
+					"Trick or Treat, Halloween!\n\n<size=45>I 「In Search of Lost Ghosts!」</size>",
 					1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -178,7 +178,7 @@ return {
 					dir = 1,
 					actor = 306051,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -289,7 +289,7 @@ return {
 					dir = 1,
 					actor = 301171,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -347,7 +347,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -387,14 +387,14 @@ return {
 				{
 					actor = 301171,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 102091,
 					dir = -1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

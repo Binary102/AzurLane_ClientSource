@@ -8,14 +8,6 @@ function slot0.init(slot0)
 	slot0.trFrame = slot0:findTF("frame")
 	slot0.txtTitle = slot0:findTF("frame/title"):GetComponent("Text")
 	slot0.txtContent = slot0:findTF("frame/content"):GetComponent("RichText")
-	slot0.txtContent.raycastTarget = true
-
-	slot0.txtContent:AddListener(function (slot0, slot1)
-		if slot0 == "url" then
-			Application.OpenURL(slot1)
-		end
-	end)
-
 	slot0.btnBack = slot0:findTF("frame/title_pop/btnBack")
 end
 

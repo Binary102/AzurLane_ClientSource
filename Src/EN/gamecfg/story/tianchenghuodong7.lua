@@ -192,7 +192,7 @@ return {
 			say = "...Your hair color says it all, the inside of your head is as white as a blank canvas, you idiot!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			say = "No you, you bootlicker! Your only redeeming feature is that big rack of yours...!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			say = "-- CLANG!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -261,7 +261,7 @@ return {
 			say = "Owww?!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			say = "-- CLANG!",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {

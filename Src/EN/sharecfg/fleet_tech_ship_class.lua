@@ -576,7 +576,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20301,
-			20302
+			20302,
+			20309
 		}
 	},
 	[20302] = {
@@ -751,6 +752,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			21301,
 			21302
+		}
+	},
+	[21302] = {
+		shiptype = 13,
+		name = "Roberts-Class",
+		t_level = 4,
+		id = 21302,
+		t_level_1 = 69,
+		nation = 2,
+		ships = {
+			21304
 		}
 	},
 	[30101] = {
@@ -1488,6 +1500,7 @@ pg.fleet_tech_ship_class = {
 		20701,
 		20703,
 		21301,
+		21302,
 		30101,
 		30102,
 		30103,

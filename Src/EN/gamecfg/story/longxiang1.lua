@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 1: Debut! Light Carrier from the Land of the Rising Sun</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 1: Debut! Light Carrier from the Land of the Rising Sun</size>",
 					1
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			say = "...Watch out!",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

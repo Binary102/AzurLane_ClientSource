@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>六 躲雨</size>",
+					"雨后天晴\n\n<size=45>六 躲雨</size>",
 					1
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> VI    「After School Special Training」 </size>",
+					"School Day Celebrations\n\n<size=45> VI    「After School Special Training」 </size>",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -266,7 +266,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -321,7 +321,7 @@ return {
 				{
 					actor = 401011,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

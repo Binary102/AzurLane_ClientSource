@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=30>五 心声</size>",
+					"骑士公主的忧郁\n\n<size=45>五 心声</size>",
 					1
 				}
 			}

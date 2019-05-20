@@ -72,9 +72,18 @@ function slot6.ActiveDebugConsole(slot0)
 	slot0._debugConsoleView:SetActive(true)
 end
 
-function slot6.OpeningEffect(slot0, slot1)
+function slot6.OpeningEffect(slot0, slot1, slot2)
 	slot0._uiMGR:SetActive(false)
-	slot0._ui._go:GetComponent("DftAniEvent").SetEndEvent(slot2, function (slot0)
+
+	if slot2 then
+		slot0._skillView:SubmarineButton()
+	elseif pg.SeriesGuideMgr.GetInstance().currIndex and slot3:isEnd() then
+		slot0._skillView:NormalButton()
+	else
+		slot0._skillView:CustomButton(slot0._dataProxy:GetDungeonData().skill_hide or {})
+	end
+
+	slot0._ui._go:GetComponent("DftAniEvent").SetEndEvent(slot3, function (slot0)
 		slot0._uiMGR:SetActive(true)
 		slot0:EnableComponent(true)
 
@@ -106,14 +115,6 @@ function slot6.InitJoystick(slot0)
 	slot0._stickController = slot0._joystick:GetComponent("StickController")
 
 	slot0._uiMGR:AttachStickOb(slot0._joystick)
-end
-
-function slot6.InitDrop(slot0)
-	slot0._dropView = slot0.Battle.BattleDropsView.New(slot0._ui:findTF("DropsView"), slot0._ui:findTF("DropContainer"))
-
-	slot0._dropView:AddCamera(slot0._camera, slot0._uiCamera)
-	slot0._dropView:RefreshScaleRate()
-	slot0._dataProxy:GetDropInfo():RegisterEventListener(slot0, slot1.ENEMY_DROP, slot0.onEnemyDrop)
 end
 
 function slot6.InitTimer(slot0)
@@ -247,21 +248,21 @@ function slot6.ShowSkillFloat(slot0, slot1, slot2, slot3)
 	slot0._ui:appendSkill(slot2, slot1, slot3)
 end
 
+function slot6.ShowSkillFloatCover(slot0, slot1, slot2, slot3)
+	slot0._ui:appendSkillCover(slot2, slot1, slot3)
+end
+
 function slot6.SeaSurfaceShift(slot0, slot1, slot2, slot3, slot4)
 	slot0._seaView:ShiftSurface(slot1, slot2, slot3 or slot0.Battle.BattleConfig.calcInterval, slot4)
 end
 
 function slot6.ShowAutoBtn(slot0)
 	SetActive(slot0._autoBtn.transform, true)
-	triggerToggle(slot0._autoBtn, BattleScene.autoBotIsAcitve)
+	triggerToggle(slot0._autoBtn, slot0.Battle.BattleState.IsAutoBotActive())
 end
 
 function slot6.ShowTimer(slot0)
 	slot0._timerView:SetActive(true)
-end
-
-function slot6.ShowDrops(slot0)
-	slot0._dropView:SetActive(true)
 end
 
 function slot6.ShowDuelBar(slot0)
@@ -329,10 +330,6 @@ function slot6.onCastSkill(slot0, slot1)
 	end
 end
 
-function slot6.onEnemyDrop(slot0, slot1)
-	slot0._dropView:ShowDrop(slot1.Data)
-end
-
 function slot6.onCommonInit(slot0, slot1)
 	slot0._skillView = slot0.Battle.BattleSkillView.New(slot0, slot1.Data)
 	slot0._userFleet = slot0._dataProxy:GetFleetByIFF(slot1.FRIENDLY_CODE)
@@ -340,6 +337,7 @@ function slot6.onCommonInit(slot0, slot1)
 	slot0._userFleet:RegisterEventListener(slot0, slot2.SHOW_BUFFER, slot0.onShowBuffer)
 	slot0._userFleet:RegisterEventListener(slot0, slot3.POINT_HIT_CHARGE, slot0.onPointHitSight)
 	slot0._userFleet:RegisterEventListener(slot0, slot3.POINT_HIT_CANCEL, slot0.onPointHitSight)
+	slot0._userFleet:RegisterEventListener(slot0, slot2.MANUAL_SUBMARINE_SHIFT, slot0.onManualSubShift)
 
 	slot0._sightView = slot0.Battle.BattleOpticalSightView.New(slot0._ui:findTF("ChargeAreaContainer"))
 
@@ -477,6 +475,10 @@ end
 
 function slot6.onShowBuffer(slot0, slot1)
 	slot0._seaView:UpdateBufferAlpha(slot1.Data.dist)
+end
+
+function slot6.onManualSubShift(slot0, slot1)
+	slot0._skillView:ShiftSubmarineManualButton(slot1.Data.state)
 end
 
 function slot6.onPointHitSight(slot0, slot1)

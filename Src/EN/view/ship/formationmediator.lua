@@ -427,7 +427,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = false,
-			content = i18n("ship_formationMediator_quest_replace", setSizeStr(slot4.defaultName, 28)),
+			content = i18n("ship_formationMediator_quest_replace", slot4.defaultName),
 			onYes = slot1
 		})
 	end, function (slot0)

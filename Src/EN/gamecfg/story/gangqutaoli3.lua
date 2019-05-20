@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Escape from the Port?\n\n<size=30>Chapter 3 - An Angel's Aid?!</size>",
+					"Escape from the Port?\n\n<size=45>Chapter 3 - An Angel's Aid?!</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = -15,
+					y = -22.5,
 					type = "shake",
 					delay = 2.5,
 					dur = 0.2,

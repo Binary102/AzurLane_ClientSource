@@ -25,13 +25,11 @@ function slot8(slot0, slot1)
 	slot0._speedLength = slot0._speed:Magnitude()
 
 	if slot0._speedLength ~= 0 then
-		slot0._speedNormal = slot0._speed:CloneTo(slot0._speedNormal)
-
+		slot0._speedNormal:Copy(slot0._speed)
 		slot0._speedNormal:Div(slot0._speedLength)
 	end
 
-	slot0._speedCross = slot0._speedNormal:CloneTo(slot0._speedCross)
-
+	slot0._speedCross:Copy(slot0._speedNormal)
 	slot0._speedCross:Cross2(slot0)
 end
 

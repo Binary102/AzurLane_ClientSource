@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Lunar New Year Celebration\n\n<size=30>Chapter 5 - New Year's Cards</size>"
+					"Lunar New Year Celebration\n\n<size=45>Chapter 5 - New Year's Cards</size>"
 				}
 			}
 		},

@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Bits of Courage \n\n<size=30>II LIVE「Four Parallel Worlds」</size>",
+					"Bits of Courage \n\n<size=45>II LIVE「Four Parallel Worlds」</size>",
 					1
 				}
 			}

@@ -719,7 +719,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 104,
 		comfortable = 2,
-		describe = "From the Eagles 23rd Destroyer Squadron\n<color=#fad545>All Beavers, maintain 31 knots! Forward! -- Charles Ausburne</color>",
+		describe = "From the Eagles 23rd Destroyer Squadron\n<color=#ffde38>All Beavers, maintain 31 knots! Forward! -- Charles Ausburne</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1077,7 +1077,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 112,
 		comfortable = 5,
-		describe = "An old medal recovered by the Visitors Dyed in Red and given to Commanders who have performed considerably well.\n\t\t\t<color=#fad545>-- Given to Commanders who made outstanding contributions in special event.</color>",
+		describe = "An old medal recovered by the Visitors Dyed in Red and given to Commanders who have performed considerably well.\n\t\t\t<color=#ffde38>-- Given to Commanders who made outstanding contributions in special event.</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1189,7 +1189,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 117,
 		comfortable = 5,
-		describe = "After having been recovered by HQ from the burning ruins, it was given to the Commander who has made an outstanding contribution in Operation: Fallen Wings.\n\t\t\t<color=#fad545>—— To commemorate those brave Eagles who fell for the cause of Azur Lane.</color>",
+		describe = "After having been recovered by HQ from the burning ruins, it was given to the Commander who has made an outstanding contribution in Operation: Fallen Wings.\n\t\t\t<color=#ffde38>—— To commemorate those brave Eagles who fell for the cause of Azur Lane.</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1690,7 +1690,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 141,
 		comfortable = 0,
-		describe = "「This 1:1 scale commemorative badge depicting Kizuna AI's legendary Pyoko-Pyoko was awarded for meritorious service in purifying the virtual world. Take good care of it. \n\t\t\t<color=#fad545>——Kizuna AI</color>",
+		describe = "「This 1:1 scale commemorative badge depicting Kizuna AI's legendary Pyoko-Pyoko was awarded for meritorious service in purifying the virtual world. Take good care of it. \n\t\t\t<color=#ffde38>——Kizuna AI</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1848,8 +1848,8 @@ pg.furniture_data_template = {
 		new = 1,
 		discount_time = "",
 		size = {
-			8,
-			5
+			10,
+			8
 		},
 		offset = {},
 		canputonGrid = {},
@@ -1858,11 +1858,11 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"MagicBoxB",
+				"xingguangwutaiB",
 				"normal"
 			},
 			{
-				"MagicBoxT"
+				"xingguangwutaiT"
 			},
 			{
 				{
@@ -1871,22 +1871,32 @@ pg.furniture_data_template = {
 				},
 				{
 					{
-						"stand21",
-						0,
-						"walk"
-					},
-					{
 						"walk1",
 						0,
 						"walk"
 					},
 					{
-						"stand22",
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
 						0,
 						"dance"
 					},
 					{
-						"walk2",
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
 						0,
 						"walk"
 					}
@@ -1908,10 +1918,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				{
-					"MagicBoxCharControl",
-					"MagicBoxCharControl2"
-				}
+				"xingguangwutaiCharControl"
 			}
 		},
 		interAction_group = {}
@@ -45620,8 +45627,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -45633,7 +45640,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -45683,8 +45690,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -45696,7 +45703,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -45749,8 +45756,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -45762,7 +45769,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -45829,8 +45836,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -45842,7 +45849,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -45909,8 +45916,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -45922,7 +45929,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -45989,8 +45996,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46002,7 +46009,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46055,8 +46062,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46068,7 +46075,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46135,8 +46142,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46148,7 +46155,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46201,8 +46208,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46214,7 +46221,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46267,8 +46274,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46280,7 +46287,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46359,8 +46366,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46372,7 +46379,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46451,8 +46458,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46464,7 +46471,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46517,8 +46524,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46530,7 +46537,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46583,8 +46590,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46596,7 +46603,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46649,8 +46656,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46662,7 +46669,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46729,8 +46736,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46742,7 +46749,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46821,8 +46828,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46834,7 +46841,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -46913,8 +46920,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -46926,7 +46933,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,
@@ -47016,8 +47023,8 @@ pg.furniture_data_template = {
 			{
 				{
 					2019,
-					1,
-					31
+					2,
+					15
 				},
 				{
 					0,
@@ -47029,7 +47036,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					3,
-					31
+					13
 				},
 				{
 					23,

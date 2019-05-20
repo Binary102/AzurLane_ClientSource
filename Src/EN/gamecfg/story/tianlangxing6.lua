@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Sirius' Improvement Plan\n\n<size=30>Chapter 6 - Banquet Panic</size>",
+					"Sirius' Improvement Plan\n\n<size=45>Chapter 6 - Banquet Panic</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -108,7 +108,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -267,7 +267,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.2,

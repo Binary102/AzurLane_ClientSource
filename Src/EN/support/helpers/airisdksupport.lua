@@ -113,6 +113,7 @@ function AiriInitResult(slot0)
 
 		AIRI_SDK_INITED = true
 
+		OnAppPauseForSDK(false)
 		AiriGoLogin()
 	end
 end

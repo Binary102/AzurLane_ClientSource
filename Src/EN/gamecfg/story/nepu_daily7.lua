@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=30>Chapter 7 - Well Then, Buh-Bye!</size>",
+					"<size=45>Chapter 7 - Well Then, Buh-Bye!</size>",
 					1
 				}
 			}

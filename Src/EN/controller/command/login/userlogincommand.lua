@@ -19,14 +19,13 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot3 = PLATFORM_LOCAL
 	end
 
-	print("platformCode : ", slot3)
+	print("platformCode", slot3)
 
 	if not slot2.arg4 then
 		slot2.arg4 = "0"
 	end
 
-	print("sessionid -- : " .. slot2.arg4)
-	print("login_type:", slot2.type, "arg1:", slot2.arg1, "arg2:", slot2.arg2, "arg3:", (slot2.arg4 == "0" and slot2.arg3) or slot2.arg4, "arg4:", slot3, "check_key:", HashUtil.CalcMD5(slot2.arg1 .. AABBUDUD), "device:", PLATFORM)
+	print("login type -- : ", slot2.type, ", arg3 -- : ", (slot2.arg4 == "0" and slot2.arg3) or slot2.arg4, ", sessionid -- : " .. slot2.arg4)
 	pg.ConnectionMgr.GetInstance():Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()
 		pg.ConnectionMgr.GetInstance():Send(10020, {
 			login_type = slot0.type,
@@ -59,20 +58,12 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				}
 
 				for slot7, slot8 in ipairs(slot0.serverlist) do
-					slot9, slot10 = nil
-
-					if CSharpVersion >= 14 and VersionMgr.Inst:OnProxyUsing() then
-						slot9 = ((slot8.proxy_ip == nil or slot8.proxy_ip == "") and slot8.ip) or slot8.proxy_ip
-						slot10 = ((slot8.proxy_ip == nil or slot8.proxy_ip == "") and slot8.port) or slot8.proxy_port
-					else
-						slot9 = slot8.ip
-						slot10 = slot8.port
-					end
-
-					slot11 = Server.New({
+					slot9 = Server.New({
 						id = slot8.ids[1],
-						host = slot9,
-						port = slot10,
+						host = slot8.ip,
+						port = slot8.port,
+						proxy_host = slot8.proxy_ip,
+						proxy_port = slot8.proxy_port,
 						status = slot8.state,
 						name = slot8.name,
 						tag_state = slot8.tag_state,
@@ -81,8 +72,8 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot3[#slot3 + 1] = slot8.proxy_ip .. ":" .. slot8.proxy_port
 					slot3[#slot3 + 1] = slot8.ip .. ":" .. slot8.port
 
-					slot11:display()
-					table.insert(slot2, slot11)
+					slot9:display()
+					table.insert(slot2, slot9)
 				end
 
 				print(table.concat(slot3, "\n"))
@@ -90,16 +81,29 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				getProxy(GatewayNoticeProxy).setGatewayNotices(slot5, slot0.notice_list)
 				slot1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, slot0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
-			elseif slot0.result == 13 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_gate_not_ready"))
-			elseif slot0.result == 15 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_rigister_full"))
-			elseif slot0.result == 18 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("system_database_busy"))
-			elseif slot0.result == 6 then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_login_full"))
+				print("user logined............", #slot2)
+
+				if PLATFORM_CODE == PLATFORM_CH then
+					BilibiliSdkMgr.inst.isLoging = false
+				end
 			else
-				slot1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
+				if PLATFORM_CODE == PLATFORM_CH then
+					BilibiliSdkMgr.inst.isLoging = false
+				end
+
+				print("user login failed ............")
+
+				if slot0.result == 13 then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("login_gate_not_ready"))
+				elseif slot0.result == 15 then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_rigister_full"))
+				elseif slot0.result == 18 then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("system_database_busy"))
+				elseif slot0.result == 6 then
+					pg.TipsMgr:GetInstance():ShowTips(i18n("login_game_login_full"))
+				else
+					slot1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
+				end
 			end
 		end, false)
 	end)

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 4 - A Friendly Gathering (Part 2)</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=45>Chapter 4 - A Friendly Gathering (Part 2)</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -427,7 +427,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			}

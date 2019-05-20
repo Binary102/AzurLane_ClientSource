@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 5 - Honolulu's Bothered</size>",
+					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 5 - Honolulu's Bothered</size>",
 					1
 				}
 			}

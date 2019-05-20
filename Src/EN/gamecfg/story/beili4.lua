@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Mysterious Rabbit Alien?!\n\n<size=30>IV 「Rabbit Alien Characteristics—— “Idol”?」</size>",
+					"Mysterious Rabbit Alien?!\n\n<size=45>IV 「Rabbit Alien Characteristics—— “Idol”?」</size>",
 					1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -230,7 +230,7 @@ return {
 			say = "...so you were influenced by Benson then.",
 			dialogShake = {
 				speed = 0.15,
-				x = 15,
+				x = 22.5,
 				number = 2
 			},
 			typewriter = {

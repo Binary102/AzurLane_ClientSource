@@ -28,21 +28,20 @@ slot16 = slot0.FieldDescriptor()
 slot17 = slot0.FieldDescriptor()
 slot18 = slot0.FieldDescriptor()
 slot19 = slot0.FieldDescriptor()
-slot20 = slot0.FieldDescriptor()
 CS_16106 = slot0.Descriptor()
-slot21 = slot0.FieldDescriptor()
+slot20 = slot0.FieldDescriptor()
 SC_16107 = slot0.Descriptor()
+slot21 = slot0.FieldDescriptor()
 slot22 = slot0.FieldDescriptor()
 slot23 = slot0.FieldDescriptor()
-slot24 = slot0.FieldDescriptor()
 CS_16108 = slot0.Descriptor()
+slot24 = slot0.FieldDescriptor()
 slot25 = slot0.FieldDescriptor()
-slot26 = slot0.FieldDescriptor()
 SC_16109 = slot0.Descriptor()
-slot27 = slot0.FieldDescriptor()
+slot26 = slot0.FieldDescriptor()
 SHOPINFO = slot0.Descriptor()
+slot27 = slot0.FieldDescriptor()
 slot28 = slot0.FieldDescriptor()
-slot29 = slot0.FieldDescriptor()
 slot2.name = "id"
 slot2.full_name = ".p16.cs_16001.id"
 slot2.number = 1
@@ -280,16 +279,6 @@ slot19.default_value = {}
 slot19.message_type = SHOPINFO
 slot19.type = 11
 slot19.cpp_type = 10
-slot20.name = "daily_pay_list"
-slot20.full_name = ".p16.sc_16105.daily_pay_list"
-slot20.number = 5
-slot20.index = 4
-slot20.label = 3
-slot20.has_default_value = false
-slot20.default_value = {}
-slot20.message_type = SHOPINFO
-slot20.type = 11
-slot20.cpp_type = 10
 SC_16105.name = "sc_16105"
 SC_16105.full_name = ".p16.sc_16105"
 SC_16105.nested_types = {}
@@ -298,13 +287,30 @@ SC_16105.fields = {
 	slot16,
 	slot17,
 	slot18,
-	slot19,
-	slot20
+	slot19
 }
 SC_16105.is_extendable = false
 SC_16105.extensions = {}
-slot21.name = "type"
-slot21.full_name = ".p16.cs_16106.type"
+slot20.name = "type"
+slot20.full_name = ".p16.cs_16106.type"
+slot20.number = 1
+slot20.index = 0
+slot20.label = 2
+slot20.has_default_value = false
+slot20.default_value = 0
+slot20.type = 13
+slot20.cpp_type = 3
+CS_16106.name = "cs_16106"
+CS_16106.full_name = ".p16.cs_16106"
+CS_16106.nested_types = {}
+CS_16106.enum_types = {}
+CS_16106.fields = {
+	slot20
+}
+CS_16106.is_extendable = false
+CS_16106.extensions = {}
+slot21.name = "item_flash_time"
+slot21.full_name = ".p16.sc_16107.item_flash_time"
 slot21.number = 1
 slot21.index = 0
 slot21.label = 2
@@ -312,83 +318,83 @@ slot21.has_default_value = false
 slot21.default_value = 0
 slot21.type = 13
 slot21.cpp_type = 3
-CS_16106.name = "cs_16106"
-CS_16106.full_name = ".p16.cs_16106"
-CS_16106.nested_types = {}
-CS_16106.enum_types = {}
-CS_16106.fields = {
-	slot21
-}
-CS_16106.is_extendable = false
-CS_16106.extensions = {}
-slot22.name = "item_flash_time"
-slot22.full_name = ".p16.sc_16107.item_flash_time"
-slot22.number = 1
-slot22.index = 0
-slot22.label = 2
+slot22.name = "item_shop_id_list"
+slot22.full_name = ".p16.sc_16107.item_shop_id_list"
+slot22.number = 2
+slot22.index = 1
+slot22.label = 3
 slot22.has_default_value = false
-slot22.default_value = 0
+slot22.default_value = {}
 slot22.type = 13
 slot22.cpp_type = 3
-slot23.name = "item_shop_id_list"
-slot23.full_name = ".p16.sc_16107.item_shop_id_list"
-slot23.number = 2
-slot23.index = 1
+slot23.name = "item_fetch_list"
+slot23.full_name = ".p16.sc_16107.item_fetch_list"
+slot23.number = 3
+slot23.index = 2
 slot23.label = 3
 slot23.has_default_value = false
 slot23.default_value = {}
 slot23.type = 13
 slot23.cpp_type = 3
-slot24.name = "item_fetch_list"
-slot24.full_name = ".p16.sc_16107.item_fetch_list"
-slot24.number = 3
-slot24.index = 2
-slot24.label = 3
-slot24.has_default_value = false
-slot24.default_value = {}
-slot24.type = 13
-slot24.cpp_type = 3
 SC_16107.name = "sc_16107"
 SC_16107.full_name = ".p16.sc_16107"
 SC_16107.nested_types = {}
 SC_16107.enum_types = {}
 SC_16107.fields = {
+	slot21,
 	slot22,
-	slot23,
-	slot24
+	slot23
 }
 SC_16107.is_extendable = false
 SC_16107.extensions = {}
-slot25.name = "shop_id"
-slot25.full_name = ".p16.cs_16108.shop_id"
-slot25.number = 1
-slot25.index = 0
+slot24.name = "shop_id"
+slot24.full_name = ".p16.cs_16108.shop_id"
+slot24.number = 1
+slot24.index = 0
+slot24.label = 2
+slot24.has_default_value = false
+slot24.default_value = 0
+slot24.type = 13
+slot24.cpp_type = 3
+slot25.name = "flash_time"
+slot25.full_name = ".p16.cs_16108.flash_time"
+slot25.number = 2
+slot25.index = 1
 slot25.label = 2
 slot25.has_default_value = false
 slot25.default_value = 0
 slot25.type = 13
 slot25.cpp_type = 3
-slot26.name = "flash_time"
-slot26.full_name = ".p16.cs_16108.flash_time"
-slot26.number = 2
-slot26.index = 1
-slot26.label = 2
-slot26.has_default_value = false
-slot26.default_value = 0
-slot26.type = 13
-slot26.cpp_type = 3
 CS_16108.name = "cs_16108"
 CS_16108.full_name = ".p16.cs_16108"
 CS_16108.nested_types = {}
 CS_16108.enum_types = {}
 CS_16108.fields = {
-	slot25,
-	slot26
+	slot24,
+	slot25
 }
 CS_16108.is_extendable = false
 CS_16108.extensions = {}
-slot27.name = "result"
-slot27.full_name = ".p16.sc_16109.result"
+slot26.name = "result"
+slot26.full_name = ".p16.sc_16109.result"
+slot26.number = 1
+slot26.index = 0
+slot26.label = 2
+slot26.has_default_value = false
+slot26.default_value = 0
+slot26.type = 13
+slot26.cpp_type = 3
+SC_16109.name = "sc_16109"
+SC_16109.full_name = ".p16.sc_16109"
+SC_16109.nested_types = {}
+SC_16109.enum_types = {}
+SC_16109.fields = {
+	slot26
+}
+SC_16109.is_extendable = false
+SC_16109.extensions = {}
+slot27.name = "shop_id"
+slot27.full_name = ".p16.shopinfo.shop_id"
 slot27.number = 1
 slot27.index = 0
 slot27.label = 2
@@ -396,40 +402,22 @@ slot27.has_default_value = false
 slot27.default_value = 0
 slot27.type = 13
 slot27.cpp_type = 3
-SC_16109.name = "sc_16109"
-SC_16109.full_name = ".p16.sc_16109"
-SC_16109.nested_types = {}
-SC_16109.enum_types = {}
-SC_16109.fields = {
-	slot27
-}
-SC_16109.is_extendable = false
-SC_16109.extensions = {}
-slot28.name = "shop_id"
-slot28.full_name = ".p16.shopinfo.shop_id"
-slot28.number = 1
-slot28.index = 0
+slot28.name = "pay_count"
+slot28.full_name = ".p16.shopinfo.pay_count"
+slot28.number = 2
+slot28.index = 1
 slot28.label = 2
 slot28.has_default_value = false
 slot28.default_value = 0
 slot28.type = 13
 slot28.cpp_type = 3
-slot29.name = "pay_count"
-slot29.full_name = ".p16.shopinfo.pay_count"
-slot29.number = 2
-slot29.index = 1
-slot29.label = 2
-slot29.has_default_value = false
-slot29.default_value = 0
-slot29.type = 13
-slot29.cpp_type = 3
 SHOPINFO.name = "shopinfo"
 SHOPINFO.full_name = ".p16.shopinfo"
 SHOPINFO.nested_types = {}
 SHOPINFO.enum_types = {}
 SHOPINFO.fields = {
-	slot28,
-	slot29
+	slot27,
+	slot28
 }
 SHOPINFO.is_extendable = false
 SHOPINFO.extensions = {}

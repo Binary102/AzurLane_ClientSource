@@ -5,12 +5,6 @@ class("ChargeConfirmCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		pay_id = slot1:getBody().payId,
 		pay_id_bili = slot1.getBody().bsId or ""
 	}, 11505, function (slot0)
-		if slot0 then
-			print("��Ϣ11505���ش�����Ϊ��" .. slot0.result)
-		else
-			print("��Ϣ11505��������Ϊ��")
-		end
-
 		if slot0.result == 0 then
 			slot0:removeChargeTimer(slot0.removeChargeTimer)
 			slot0:sendNotification(GAME.CHARGE_SUCCESS, {

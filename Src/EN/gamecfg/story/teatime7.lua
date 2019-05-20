@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Lively Afternoon Tea Party VII\n\n<size=30>「Next Time: Video Game Party!」</size>",
+					"Lively Afternoon Tea Party VII\n\n<size=45>「Next Time: Video Game Party!」</size>",
 					1
 				}
 			}
@@ -196,7 +196,7 @@ return {
 				{
 					actor = 301111,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

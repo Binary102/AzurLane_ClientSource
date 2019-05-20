@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Light Carrier Ryuujou, Moving Out!\n\n<size=30>Chapter 2: Training! Hard work is the tenet of the Sakura Empire!</size>",
+					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 2: Training! Hard work is the tenet of the Sakura Empire!</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -211,7 +211,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -365,20 +365,20 @@ return {
 			say = "Whaaaat....?!",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 307040,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 306050,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

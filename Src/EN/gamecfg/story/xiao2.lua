@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Enter: Akatsuki, The Ninja!\n\n<size=30>Chapter 2 - Ninja Training</size>",
+					"Enter: Akatsuki, The Ninja!\n\n<size=45>Chapter 2 - Ninja Training</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -98,7 +98,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -144,7 +144,7 @@ return {
 			},
 			action = {
 				{
-					y = 60,
+					y = 90,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -212,7 +212,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -252,7 +252,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -274,7 +274,7 @@ return {
 			},
 			action = {
 				{
-					y = 50,
+					y = 75,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -426,7 +426,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

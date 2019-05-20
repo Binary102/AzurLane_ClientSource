@@ -112,16 +112,6 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	if slot5.limit_args then
-		for slot16, slot17 in ipairs(slot5.limit_args) do
-			if type(slot17) == "table" and slot17[1] == "level" and slot7.level < slot17[2] then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("common_limit_level", slot17[2]))
-
-				return
-			end
-		end
-	end
-
 	pg.ConnectionMgr.GetInstance():Send(16001, {
 		id = slot3,
 		number = slot4
@@ -180,6 +170,14 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 				slot4:getGoodsById(slot4).reduceBuyCount(slot5)
 				slot5:setShopStreet(slot4)
+
+				if slot1[1].type == DROP_TYPE_ITEM and slot6:isEquipmentSkinBox() then
+					slot1:sendNotification(GAME.USE_ITEM, {
+						skip_check = true,
+						count = 1,
+						id = slot6.id
+					})
+				end
 			elseif slot0.genre == ShopArgs.ArenaShopLimit then
 				slot4 = getProxy(ShopsProxy)
 				slot5 = slot4:getMeritorousShop()
@@ -194,9 +192,20 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			elseif slot0.genre == ShopArgs.GiftPackage then
 				slot7:GetNormalByID(slot7.GetNormalByID):increaseBuyCount()
 			elseif slot0.genre == ShopArgs.SkinShop then
-				if not table.contains(getProxy(BayProxy).getSkinList(slot5), slot0.effect_args[1]) then
-					table.insert(slot6, slot4)
-					slot5:setSkinList(slot6)
+				getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
+					id = slot0.effect_args[1]
+				}))
+			elseif slot0.genre == ShopArgs.SkinShopTimeLimit then
+				if getProxy(ShipSkinProxy):getSkinById(slot0.effect_args[1]) and slot6:isExpireType() then
+					slot5:addSkin(ShipSkin.New({
+						id = slot4,
+						end_time = slot0.time_second * slot3 + slot6.endTime
+					}))
+				elseif not slot6 then
+					slot5:addSkin(ShipSkin.New({
+						id = slot4,
+						end_time = slot0.time_second * slot3 + pg.TimeMgr.GetInstance():GetServerTime()
+					}))
 				end
 			elseif slot0.genre == ShopArgs.guildShop then
 				slot4 = getProxy(ShopsProxy):getGuildShop()

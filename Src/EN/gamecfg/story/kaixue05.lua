@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> V   「Astonishingly Empty Classroom」 </size>",
+					"School Day Celebrations\n\n<size=45> V   「Astonishingly Empty Classroom」 </size>",
 					1
 				}
 			}

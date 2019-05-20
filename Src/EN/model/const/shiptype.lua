@@ -42,7 +42,6 @@ function slot0.Type2Print(slot0)
 			"battle_jinbi",
 			"battle_zibao",
 			"qianmu",
-			"zhongxun",
 			"chaoxun"
 		}
 	end

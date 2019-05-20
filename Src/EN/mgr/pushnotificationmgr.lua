@@ -115,7 +115,7 @@ function pg.PushNotificationMgr.PushEvent(slot0)
 	slot2 = slot0.push_data_template[slot0.PUSH_TYPE_EVENT]
 
 	for slot6, slot7 in ipairs(slot1) do
-		slot0:Push(slot2.title, string.gsub(slot2.content, "$1", slot7.template.title), slot7.finishTime - slot0.TimeMgr.GetInstance():GetServerTime() + os.time() + 60)
+		slot0:Push(slot2.title, string.gsub(slot2.content, "$1", slot7.template.title), slot7.finishTime)
 	end
 end
 
@@ -128,7 +128,7 @@ function pg.PushNotificationMgr.PushGold(slot0)
 	slot8 = getProxy(PlayerProxy).data.resUpdateTm
 
 	if getProxy(PlayerProxy).data.goldField < slot2[slot3].store and slot0.TimeMgr.GetInstance():GetServerTime() < slot8 + ((slot4 - slot9) / slot5 * 60 * 60) / 3 then
-		slot0:Push(slot2.title, slot0.push_data_template[slot0.PUSH_TYPE_GOLD].content, slot10 - slot0.TimeMgr.GetInstance():GetServerTime() + os.time())
+		slot0:Push(slot0.push_data_template[slot0.PUSH_TYPE_GOLD].title, slot0.push_data_template[slot0.PUSH_TYPE_GOLD].content, slot10)
 	end
 end
 
@@ -141,13 +141,13 @@ function pg.PushNotificationMgr.PushOil(slot0)
 	slot8 = getProxy(PlayerProxy).data.resUpdateTm
 
 	if getProxy(PlayerProxy).data.oilField < slot2[slot3].store and slot0.TimeMgr.GetInstance():GetServerTime() < slot8 + ((slot4 - slot9) / slot5 * 60 * 60) / 3 then
-		slot0:Push(slot2.title, slot0.push_data_template[slot0.PUSH_TYPE_OIL].content, slot10 - slot0.TimeMgr.GetInstance():GetServerTime() + os.time())
+		slot0:Push(slot0.push_data_template[slot0.PUSH_TYPE_OIL].title, slot0.push_data_template[slot0.PUSH_TYPE_OIL].content, slot10)
 	end
 end
 
 function pg.PushNotificationMgr.PushBackyard(slot0)
 	if slot0.TimeMgr.GetInstance():GetServerTime() < getProxy(DormProxy):getData().getFoodLeftTime(slot1) then
-		slot0:Push(slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].title, slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].content, slot2 - slot0.TimeMgr.GetInstance():GetServerTime() + os.time())
+		slot0:Push(slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].title, slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].content, slot2)
 	end
 end
 
@@ -159,7 +159,7 @@ function pg.PushNotificationMgr.PushSchool(slot0)
 		if slot0.TimeMgr.GetInstance():GetServerTime() < slot9.finishTime then
 			slot12 = slot4[slot9.shipId].skills[slot9:getSkillId(slot10)]
 
-			slot0:Push(slot2.title, string.gsub(string.gsub(slot2.content, "$1", slot13), "$2", slot14), slot9.finishTime - slot0.TimeMgr.GetInstance():GetServerTime() + os.time())
+			slot0:Push(slot2.title, string.gsub(string.gsub(slot2.content, "$1", slot13), "$2", slot14), slot9.finishTime)
 		end
 	end
 end
@@ -168,7 +168,7 @@ function pg.PushNotificationMgr.PushClass(slot0)
 	slot1 = slot0.push_data_template[slot0.PUSH_TYPE_CLASS]
 
 	if getProxy(NavalAcademyProxy):getCourse():inClass() and slot0.TimeMgr.GetInstance():GetServerTime() < slot2.timestamp + AcademyCourse.MaxStudyTime then
-		slot0:Push(slot1.title, slot1.content, slot3 - slot0.TimeMgr.GetInstance():GetServerTime() + os.time() + 60)
+		slot0:Push(slot1.title, slot1.content, slot3)
 	end
 end
 

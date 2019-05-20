@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Lunar New Year!\n\n<size=30>Chapter 4 - Peaceful Game</size>",
+					"Lunar New Year!\n\n<size=45>Chapter 4 - Peaceful Game</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.15,

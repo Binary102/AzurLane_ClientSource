@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"An Easily Flustered Girl's Story\n\n<size=30>Chapter 3 - You've Got a Friend in Me!</size>",
+					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 3 - You've Got a Friend in Me!</size>",
 					1
 				}
 			}
@@ -281,7 +281,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

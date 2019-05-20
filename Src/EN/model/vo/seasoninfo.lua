@@ -84,10 +84,6 @@ function slot0.updateExerciseCount(slot0, slot1)
 	slot0.fightCount = math.min(slot0.fightCount + slot1, slot0.MAX_FIGHTCOUNT)
 end
 
-function slot0.resetExerciseCount(slot0, slot1)
-	slot0.fightCount = slot1
-end
-
 function slot0.setExerciseCount(slot0, slot1)
 	slot0.fightCount = slot1
 end

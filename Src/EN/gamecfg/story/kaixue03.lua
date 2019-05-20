@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"School Day Celebrations\n\n<size=30> III   「Secret Lunch Hours」</size>",
+					"School Day Celebrations\n\n<size=45> III   「Secret Lunch Hours」</size>",
 					1
 				}
 			}

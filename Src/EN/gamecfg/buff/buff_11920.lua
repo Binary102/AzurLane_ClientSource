@@ -27,27 +27,12 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
+				check_target = "TargetShipTag",
 				skill_id = 11920,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					102091,
-					102092,
-					102093,
-					102094,
-					102101,
-					102102,
-					102102,
-					102104,
-					102141,
-					102142,
-					102143,
-					102144,
-					102151,
-					102152,
-					102153,
-					102154
+				ship_tag_list = {
+					"Cleveland-Class"
 				}
 			}
 		},
@@ -57,27 +42,12 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
+				check_target = "TargetShipTag",
 				skill_id = 11921,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					102091,
-					102092,
-					102093,
-					102094,
-					102101,
-					102102,
-					102102,
-					102104,
-					102141,
-					102142,
-					102143,
-					102144,
-					102151,
-					102152,
-					102153,
-					102154
+				ship_tag_list = {
+					"Cleveland-Class"
 				}
 			}
 		},
@@ -87,27 +57,12 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetTemplate",
 				minTargetNumber = 1,
+				check_target = "TargetShipTag",
 				skill_id = 11922,
 				target = "TargetSelf",
-				targetTemplateIDList = {
-					102091,
-					102092,
-					102093,
-					102094,
-					102101,
-					102102,
-					102102,
-					102104,
-					102141,
-					102142,
-					102143,
-					102144,
-					102151,
-					102152,
-					102153,
-					102154
+				ship_tag_list = {
+					"Cleveland-Class"
 				}
 			}
 		}

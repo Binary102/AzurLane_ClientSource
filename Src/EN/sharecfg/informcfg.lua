@@ -1,20 +1,20 @@
 return {
 	{
-		content = "Spam: meaningless symbols or characters."
+		content = "刷屏:大量无意义表情符号或字符"
 	},
 	{
-		content = "Lottery frauds, deceptions and scams"
+		content = "虚假中奖、抽奖、欺骗、钓鱼信息"
 	},
 	{
-		content = "Verbal abuse"
+		content = "谩骂、人身攻击信息"
 	},
 	{
-		content = "Unauthorized advertisements/links"
+		content = "滥发广告/连接"
 	},
 	{
-		content = "Improper Nicknames"
+		content = "不恰当的游戏昵称"
 	},
 	{
-		content = "Other"
+		content = "其他"
 	}
 }

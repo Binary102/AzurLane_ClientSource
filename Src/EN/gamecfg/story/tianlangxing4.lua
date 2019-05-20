@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Sirius' Improvement Plan\n\n<size=30>Chapter 4 - Big Seven Advice</size>",
+					"Sirius' Improvement Plan\n\n<size=45>Chapter 4 - Big Seven Advice</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.3,

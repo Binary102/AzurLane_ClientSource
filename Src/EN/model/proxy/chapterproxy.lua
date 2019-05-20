@@ -77,6 +77,8 @@ function slot0.register(slot0)
 			slot0.remasterId = slot0.react_chapter.active_id
 			slot0.remasterTime = slot0.react_chapter.active_timestamp
 			slot0.remasterTickets = slot0.react_chapter.count
+			slot0.remasterDailyCount = slot0.react_chapter.daily_count
+			slot0.remasterTip = slot0.remasterDailyCount <= 1
 		end
 
 		Map.lastMap = slot0:getLastMap(slot1.LAST_MAP)
@@ -106,6 +108,10 @@ function slot0.register(slot0)
 						if _.detect(slot0.cellAttachments, function (slot0)
 							return slot0.row == slot0.row and slot0.column == slot0.column
 						end) then
+							if slot2.flag == 3 and slot1.flag == 4 and pg.map_event_template[slot2.attachmentId].gametip ~= "" then
+								pg.TipsMgr:GetInstance():ShowTips(i18n(slot3))
+							end
+
 							slot2.attachment = slot1.attachment
 							slot2.attachmentId = slot1.attachmentId
 							slot2.flag = slot1.flag
@@ -148,20 +154,19 @@ function slot0.register(slot0)
 
 	slot0:on(23001, function (slot0)
 		slot1 = slot0.sim_id
-		slot2 = slot0.sim_id
 
 		if not ChapterConst.ActivateMirror then
-			if not slot2 or not pg.sim_battle_template[slot2] then
-				slot2 = os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).month
+			if not slot1 or not pg.sim_battle_template[slot1] then
+				slot1 = os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).month
 			end
 
-			slot0.shamShop:update(slot2, slot0.shop_list or {})
+			slot0.shamShop:update(slot1, slot0.shop_list or {})
 
-			slot0.shamChapter.simId = slot2
-		elseif not pg.sim_battle_template[slot2] then
+			slot0.shamChapter.simId = slot1
+		elseif not pg.sim_battle_template[slot1] then
 			slot0.shamShop = nil
 		else
-			slot0.shamShop:update(slot2, slot0.shop_list or {})
+			slot0.shamShop:update(slot1, slot0.shop_list or {})
 		end
 
 		slot0.shamChapter.shamResetCount = slot0.sham_count
@@ -607,21 +612,21 @@ function slot0.getUnlockActMapBytype(slot0, slot1, slot2)
 	return slot3[1]
 end
 
-function slot0.getLastMapForActivity(slot0, slot1)
-	slot3, slot4 = nil
+function slot0.getLastMapForActivity(slot0)
+	slot2, slot3 = nil
 
 	if getProxy(ChapterProxy):getActActiveChapter() then
-		slot3 = slot2.id
-		slot4 = slot2:getConfig("map")
+		slot2 = slot1.id
+		slot3 = slot1:getConfig("map")
 	else
-		slot5 = slot0:getMaps()
+		slot4 = slot0:getMaps()
 
-		function slot6(slot0)
+		function slot5(slot0)
 			return getProxy(ActivityProxy):getActivityById(slot0:getConfig("on_activity")) and not slot2:isEnd()
 		end
 
-		if Map.lastMapForActivity and slot5[Map.lastMapForActivity] and slot5[Map.lastMapForActivity]:isActivity() and slot6(slot5[Map.lastMapForActivity]) then
-			slot4 = Map.lastMapForActivity
+		if Map.lastMapForActivity and slot4[Map.lastMapForActivity] and slot4[Map.lastMapForActivity]:isActivity() and slot5(slot4[Map.lastMapForActivity]) then
+			slot3 = Map.lastMapForActivity
 		else
 			if Map.lastMapForActivity then
 				Map.lastMapForActivity = nil
@@ -629,12 +634,12 @@ function slot0.getLastMapForActivity(slot0, slot1)
 				slot0:recordLastMap(slot0.LAST_MAP_FOR_ACTIVITY, 0)
 			end
 
-			table.sort(slot7, function (slot0, slot1)
+			table.sort(slot6, function (slot0, slot1)
 				return slot0.id < slot1.id
 			end)
 
 			if #getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) > 0 then
-				_.each(slot7, function (slot0)
+				_.each(slot6, function (slot0)
 					if _.all(_.select(_.values(slot0), function (slot0)
 						return slot0:getConfig("on_activity") == slot0.id
 					end), function (slot0)
@@ -663,11 +668,11 @@ function slot0.getLastMapForActivity(slot0, slot1)
 				end)
 			end
 
-			slot4 = slot4 or slot1 or ActivityConst.ACTIVITY_BATTLE_MAP_ID
+			slot3 = slot3 or ActivityConst.ACTIVITY_BATTLE_MAP_ID
 		end
 	end
 
-	return slot4, slot3
+	return slot3, slot2
 end
 
 function slot0.inWarTime(slot0)
@@ -995,6 +1000,45 @@ function slot0.getOtherFleetCommander(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+function slot0.getSubAidFlag(slot0)
+	slot1 = ys.Battle.BattleConst.SubAidFlag
+	slot2 = slot0.fleet
+
+	if _.detect(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
+	end) then
+		slot5 = getProxy(PlayerProxy).getRawData(slot4)
+		slot6, slot7 = slot0:getFleetCost(slot2)
+		slot8, slot9 = slot0:getFleetAmmo(slot3)
+
+		if slot9 <= 0 then
+			return slot1.AMMO_EMPTY
+		elseif slot5.oil < slot3:getSummonCost() + slot7.oil then
+			return slot1.OIL_EMPTY
+		else
+			return true, slot3
+		end
+	else
+		return slot1.AID_EMPTY
+	end
+end
+
+function slot0.ifShowRemasterTip(slot0)
+	return slot0.remasterTip
+end
+
+function slot0.setRemasterTip(slot0, slot1)
+	slot0.remasterTip = slot1
+end
+
+function slot0.updateRemasterTicketsNum(slot0, slot1)
+	slot0.remasterTickets = slot1
+end
+
+function slot0.updateDailyCount(slot0)
+	slot0.remasterDailyCount = slot0.remasterDailyCount + 2
 end
 
 return slot0

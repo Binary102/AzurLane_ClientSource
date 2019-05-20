@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Shiranui, the Do-It-All Shopkeeper\n\n<size=30>Chapter 5: The Shopkeeper's Abnormality</size>",
+					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 5: The Shopkeeper's Abnormality</size>",
 					1
 				}
 			}
@@ -291,7 +291,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -323,7 +323,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

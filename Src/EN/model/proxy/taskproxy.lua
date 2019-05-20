@@ -4,8 +4,8 @@ slot0.TASK_UPDATED = "task updated"
 slot0.TASK_REMOVED = "task removed"
 slot0.TASK_FINISH = "task finish"
 mingshiTriggerId = 1
-mingshiActivityId = 30017
-changdaoActivityId = 30012
+mingshiActivityId = 21
+changdaoActivityId = 10006
 changdaoTaskStartId = 5031
 
 function slot0.register(slot0)

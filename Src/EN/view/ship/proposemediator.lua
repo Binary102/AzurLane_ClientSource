@@ -1,6 +1,6 @@
 slot0 = class("ProposeMediator", import("..base.ContextMediator"))
 slot0.ON_PROPOSE = "ProposeMediator:ON_PROPOSE"
-slot0.RENAME_SHIP = "ShipInfoMediator:RENAME_SHIP"
+slot0.RENAME_SHIP = "ShipMainMediator:RENAME_SHIP"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)

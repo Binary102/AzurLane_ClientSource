@@ -98,12 +98,10 @@ function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 
 			slot5(slot0)
-			slot6.GuideMgr2:GetInstance():dispatch({
-				checkView = false,
-				event = tostring(tostring),
-				arg = ,
-				data = slot0
-			})
+
+			if slot0 and slot0.result and slot0.result == 0 then
+				slot6.SeriesGuideMgr:GetInstance():receiceProtocol(slot4, , slot0)
+			end
 		end,
 		slot5,
 		slot6
@@ -152,7 +150,6 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot0.UIMgr.GetInstance():LoadingOn()
 
 		slot9 = nil
-		slot10 = nil
 
 		slot1[(slot5 and slot3 .. "_" .. slot8) or slot3] = function (slot0)
 			slot0.isSending = false
@@ -160,18 +157,20 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			slot0.UIMgr.GetInstance():LoadingOff()
 			slot0.connectionMgr:resetHBTimer()
 
-			if slot0.connectionMgr then
-				slot2:Stop()
+			if slot0.timer then
+				slot0.timer:Stop()
+
+				slot0.timer = nil
 			end
 
-			slot3(slot0)
+			slot2(slot0)
 
-			if slot4 and not slot0.isSending and #slot0.toSends > 0 then
+			if slot3 and not slot0.isSending and #slot0.toSends > 0 then
 				slot0:StartSend()
 			end
 		end
 
-		Timer.New(function ()
+		slot0.timer = Timer.New(function ()
 			slot0.UIMgr.GetInstance():LoadingOff()
 
 			slot0.UIMgr.GetInstance()[slot2] = nil
@@ -189,7 +188,9 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			slot3.retryCount = slot3.retryCount + 1
 
 			slot3:StartSend()
-		end, SEND_TIMEOUT, 1):Start()
+		end, SEND_TIMEOUT, 1)
+
+		slot0.timer:Start()
 	else
 		slot5 = false
 	end
@@ -208,15 +209,15 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				slot0[slot5] = slot6
 			end
 		end
-
-		return
 	end(slot0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1).GetMessage(slot9), slot2)
 
 	if slot5 then
 		slot7:Send(slot0.Packer.GetInstance():Pack(slot8, slot9:GetId(), slot11))
+		print("Network sent protocol: " .. slot1 .. " with idx: " .. slot8)
 		slot0:incPacketIdx()
 	else
 		slot7:Send(slot0.Packer.GetInstance():Pack(0, slot9:GetId(), slot11))
+		print("Network sent protocol: " .. slot1 .. " without idx")
 	end
 
 	if not slot3 then
@@ -240,24 +241,20 @@ function slot1.stopTimer(slot0)
 
 		slot0.timer = nil
 	end
-
-	return
 end
 
 function slot1.onData(slot0)
+	print("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
+
 	if slot1[slot0.cmd .. "_" .. slot0.idx] then
 		slot1[slot2](slot1)
 
 		slot1[slot2] = nil
-	else
-		if slot1[slot0.cmd] then
-			slot1[slot0.cmd](slot1)
+	elseif slot1[slot0.cmd] then
+		slot1[slot0.cmd](slot1)
 
-			slot1[slot0.cmd] = nil
-		end
+		slot1[slot0.cmd] = nil
 	end
-
-	return
 end
 
 if Application.isEditor then
@@ -271,8 +268,6 @@ if Application.isEditor then
 				slot1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1)
 			end
 		end
-
-		return
 	end
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=30>四 直到某日再会</size>",
+					"「虚拟链接的共时性」净化篇\n\n<size=45>四 直到某日再会</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgName = "bg_story_task",
-			bgm = "ai-fb-inst",
+			bgm = "story-2",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "这里像这样…然后这样！……好！所有的病毒都驱除完毕了！",
@@ -89,7 +89,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

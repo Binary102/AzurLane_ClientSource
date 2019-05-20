@@ -15,6 +15,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.picPropose = findTF(slot0.bgMark, "bg/pic_propose")
 	slot0.outline = findTF(slot0.tr, "bg/outline")
 	slot0.tags = findTF(slot0.tr, "bg/tags")
+	slot0.timelimitTag = findTF(slot0.tr, "bg/timelimit")
+	slot0.timelimitTimeTxt = findTF(slot0.tr, "bg/timelimit_time")
+
+	setActive(slot0.timelimitTag, false)
+	setActive(slot0.timelimitTimeTxt, false)
 end
 
 function slot0.updateSkin(slot0, slot1, slot2)
@@ -137,6 +142,27 @@ function slot0.updateData(slot0, slot1, slot2, slot3)
 			return
 		end)
 		slot0:flushSkin()
+		setActive(slot0.timelimitTag, getProxy(ShipSkinProxy):getSkinById(slot0.skin.id) and slot6:isExpireType() and not slot6:isExpired())
+		setActive(slot0.timelimitTimeTxt, getProxy(ShipSkinProxy).getSkinById(slot0.skin.id) and slot6.isExpireType() and not slot6.isExpired())
+
+		if slot6.isExpireType() then
+			slot7 = not slot6.isExpired()
+		end
+
+		if slot0.skinTimer then
+			slot0.skinTimer:Stop()
+		end
+
+		if slot7 then
+			slot0.skinTimer = Timer.New(function ()
+				setText(slot1.timelimitTimeTxt:Find("Text"), skinTimeStamp(slot0:getRemainTime()))
+
+				return
+			end, 1, -1)
+
+			slot0.skinTimer:Start()
+			slot0.skinTimer.func()
+		end
 	end
 end
 
@@ -195,6 +221,12 @@ function slot0.clear(slot0)
 	slot0.skin = nil
 	slot0.selected = nil
 	slot0.using = nil
+
+	if slot0.skinTimer then
+		slot0.skinTimer:Stop()
+
+		slot0.skinTimer = nil
+	end
 
 	return
 end

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=30>其四　消失的南瓜派</size>",
+					"“魔女们”的万圣夜\n\n<size=45>其四　消失的南瓜派</size>",
 					1
 				}
 			}

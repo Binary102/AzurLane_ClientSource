@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"捣蛋万圣夜！\n\n<size=30>六 幽灵追击队！</size>",
+					"捣蛋万圣夜！\n\n<size=45>六 幽灵追击队！</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -112,7 +112,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.5,
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -212,7 +212,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -256,7 +256,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "shake",
 					delay = 1,
 					dur = 0.15,
@@ -299,7 +299,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -329,7 +329,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -371,7 +371,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -431,7 +431,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -481,7 +481,7 @@ return {
 			},
 			action = {
 				{
-					y = -2000,
+					y = -3000,
 					type = "move",
 					delay = 0.6,
 					dur = 0.8,

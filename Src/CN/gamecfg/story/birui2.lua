@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:71}的宴会\n\n<size=30>二 邀请函</size>",
+					"{namecode:71}的宴会\n\n<size=45>二 邀请函</size>",
 					1
 				}
 			}

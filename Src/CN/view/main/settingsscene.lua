@@ -8,33 +8,36 @@ end
 
 function slot0.init(slot0)
 	slot0.eventTriggers = {}
-	slot0.bg = slot0:findTF("main")
-	slot0.backButton = slot0:findTF("main/btnBack")
-	slot0.logoutButton = slot0:findTF("nav/logout")
-	slot0.bbsButton = slot0:findTF("nav/bbs")
-	slot0.soundToggle = slot0:findTF("nav/sound")
-	slot0.notificationToggle = slot0:findTF("nav/notification")
-	slot0.exchangeToggle = slot0:findTF("nav/exchange")
-	slot0.interfaceToggle = slot0:findTF("nav/battle_preference")
-	slot0.resToggle = slot0:findTF("nav/res")
+	slot0.top = slot0:findTF("blur_panel/adapt/top")
+	slot0.backButton = slot0:findTF("blur_panel/adapt/top/back_btn")
+	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
+	slot0.logoutButton = slot0:findTF("logout", slot0.leftPanel)
+	slot0.bbsButton = slot0:findTF("bbs", slot0.leftPanel)
+	slot0.soundToggle = slot0:findTF("resources", slot0.leftPanel)
+	slot0.optionsToggle = slot0:findTF("options", slot0.leftPanel)
+	slot0.otherToggle = slot0:findTF("other", slot0.leftPanel)
+	slot0.interfaceToggle = slot0:findTF("battle_ui", slot0.leftPanel)
+	slot0.resToggle = slot0:findTF("resources", slot0.leftPanel)
 	slot0.repairMask = slot0:findTF("mask_repair")
 
-	slot0:initSoundPanel(slot0:findTF("main/sound"))
-	slot0:initNotificationPanel(slot0:findTF("main/notification"))
-	slot0:initInterfacePreference(slot0:findTF("edit"))
-	slot0:initResDownloadPanel(slot0:findTF("main/download"))
+	slot0:initSoundPanel(slot0:findTF("main/resources"))
+	slot0:initOptionsPanel(slot0:findTF("main/options"))
+	slot0:initInterfacePreference(slot0:findTF("main/battle_ui"))
+	slot0:initOtherPanel(slot0:findTF("main/other"))
+	slot0:initResDownloadPanel(slot0:findTF("main/resources"))
 end
 
 function slot0.initResDownloadPanel(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.live2DDownloadBtn = slot0:findTF("main/download/live2d")
-	slot0.live2DDownloadProgress = slot0:findTF("main/download/live2d/slider")
-	slot0.live2DDownloadInfo = slot0:findTF("main/download/live2d/info")
-	slot0.live2DDownloadInfo1 = slot0:findTF("main/download/live2d/tip/Text")
-	slot0.live2DDownloadInfo2 = slot0:findTF("main/download/live2d/version/Text")
-	slot0.live2DDownloadDot = slot0:findTF("main/download/live2d/dot")
-	slot0.live2DDownloadLoading = slot0:findTF("main/download/live2d/loading")
+	slot0.live2DDownloadBtn = slot0:findTF("main/resources/main_panel/live2d")
+	slot0.live2DDownloadProgress = slot0:findTF("main/resources/main_panel/live2d/progress")
+	slot0.live2DDownloadProgressHandle = slot0:findTF("main/resources/main_panel/live2d/progress/handle")
+	slot0.live2DDownloadInfo1 = slot0:findTF("main/resources/main_panel/live2d/status")
+	slot0.live2DDownloadInfo2 = slot0:findTF("main/resources/main_panel/live2d/version")
+	slot0.live2DDownloadLabelNew = slot0:findTF("main/resources/main_panel/live2d/version/new")
+	slot0.live2DDownloadDot = slot0:findTF("main/resources/main_panel/live2d/new")
+	slot0.live2DDownloadLoading = slot0:findTF("main/resources/main_panel/live2d/loading")
 
 	setSlider(slot0.live2DDownloadProgress, 0, 1, 0)
 	setActive(slot0.live2DDownloadDot, false)
@@ -59,13 +62,14 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		end
 	end, SFX_PANEL)
 
-	slot0.soundDownloadBtn = slot0:findTF("main/download/sound")
-	slot0.soundDownloadProgress = slot0:findTF("main/download/sound/slider")
-	slot0.soundDownloadInfo = slot0:findTF("main/download/sound/info")
-	slot0.soundDownloadInfo1 = slot0:findTF("main/download/sound/tip/Text")
-	slot0.soundDownloadInfo2 = slot0:findTF("main/download/sound/version/Text")
-	slot0.soundDownloadDot = slot0:findTF("main/download/sound/dot")
-	slot0.soundDownloadLoading = slot0:findTF("main/download/sound/loading")
+	slot0.soundDownloadBtn = slot0:findTF("main/resources/main_panel/cv")
+	slot0.soundDownloadProgress = slot0:findTF("main/resources/main_panel/cv/progress")
+	slot0.soundDownloadProgressHandle = slot0:findTF("main/resources/main_panel/cv/progress/handle")
+	slot0.soundDownloadInfo1 = slot0:findTF("main/resources/main_panel/cv/status")
+	slot0.soundDownloadInfo2 = slot0:findTF("main/resources/main_panel/cv/version")
+	slot0.soundDownloadLabelNew = slot0:findTF("main/resources/main_panel/cv/version/new")
+	slot0.soundDownloadDot = slot0:findTF("main/resources/main_panel/cv/new")
+	slot0.soundDownloadLoading = slot0:findTF("main/resources/main_panel/cv/loading")
 
 	setSlider(slot0.soundDownloadProgress, 0, 1, 0)
 	setActive(slot0.soundDownloadDot, false)
@@ -86,8 +90,8 @@ function slot0.initResDownloadPanel(slot0, slot1)
 		end
 	end, SFX_PANEL)
 
-	slot0.repairBtn = slot0:findTF("main/download/repair")
-	slot0.repairProgress = slot0.repairBtn:Find("slider")
+	slot0.repairBtn = slot0:findTF("main/resources/main_panel/settings/buttons/repair")
+	slot0.repairProgress = slot0.repairBtn:Find("progress")
 	slot0.repairHashPath = Application.persistentDataPath .. "/hashes.csv"
 
 	setActive(slot0.repairBtn, PathMgr.FileExists(slot0.repairHashPath))
@@ -104,22 +108,22 @@ end
 function slot0.initSoundPanel(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.revertBtn = slot0:findTF("main/sound/revert_button")
-	slot0.bgmSlider = slot0:findTF("main/sound/sliders/BGM/Slider")
+	slot0.revertBtn = slot0:findTF("main/resources/main_panel/settings/buttons/reset")
+	slot0.bgmSlider = slot0:findTF("main/resources/main_panel/settings/bgm/slider")
 
 	setSlider(slot0.bgmSlider, 0, 1, pg.CriMgr.GetInstance():getBGMVolume())
 	slot0:initSoundSlider(slot0.bgmSlider, function (slot0)
 		pg.CriMgr.GetInstance():setBGMVolume(slot0)
 	end)
 
-	slot0.effectSlider = slot0:findTF("main/sound/sliders/SFX/Slider")
+	slot0.effectSlider = slot0:findTF("main/resources/main_panel/settings/sfx/slider")
 
 	setSlider(slot0.effectSlider, 0, 1, pg.CriMgr.GetInstance():getSEVolume())
 	slot0:initSoundSlider(slot0.effectSlider, function (slot0)
 		pg.CriMgr.GetInstance():setSEVolume(slot0)
 	end)
 
-	slot0.mainSlider = slot0:findTF("main/sound/sliders/CV/Slider")
+	slot0.mainSlider = slot0:findTF("main/resources/main_panel/settings/cv/slider")
 
 	setSlider(slot0.mainSlider, 0, 1, pg.CriMgr.GetInstance():getCVVolume())
 	slot0:initSoundSlider(slot0.mainSlider, function (slot0)
@@ -149,12 +153,57 @@ function slot0.initSoundSlider(slot0, slot1, slot2)
 
 	slot4 = (slot3.maxValue - slot3.minValue) * 0.1
 
-	onButton(slot0, slot0:findTF("add", slot1.parent), function ()
+	onButton(slot0, slot1:Find("up"), function ()
 		slot0.value = math.clamp(slot0.value + slot1, slot0.minValue, slot0.maxValue)
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("sub", slot3.transform.parent), function ()
+	onButton(slot0, slot1:Find("down"), function ()
 		slot0.value = math.clamp(slot0.value - slot1, slot0.minValue, slot0.maxValue)
 	end, SFX_PANEL)
+end
+
+function slot0.initTransCodePanel(slot0, slot1)
+	slot0.userProxy = getProxy(UserProxy)
+	slot0.accountTwitterUI = slot0:findTF("page1", slot1)
+	slot0.goTranscodeUIBtn = slot0:findTF("bind_account", slot0.accountTwitterUI)
+	slot0.twitterBtn = slot0:findTF("bind_twitter", slot0.accountTwitterUI)
+	slot0.twitterUnlinkBtn = slot0:findTF("unlink_twitter", slot0.accountTwitterUI)
+	slot0.twitterLinkSign = slot0:findTF("twitter_status", slot0.accountTwitterUI)
+	slot0.transcodeUI = slot0:findTF("page2", slot1)
+	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
+	slot0.transcodeTxt = slot0:findTF("password/Text", slot0.transcodeUI)
+	slot0.getCodeBtn = slot0:findTF("publish_transcode", slot0.transcodeUI)
+	slot0.codeDesc = slot0:findTF("title_desc", slot0.transcodeUI)
+
+	slot0:checkTranscodeView()
+	slot0:checkAccountTwitterView()
+end
+
+function slot0.showTranscode(slot0, slot1)
+	pg.UIMgr.GetInstance():LoadingOff()
+	slot0.userProxy:saveTranscode(slot1)
+	slot0:checkTranscodeView()
+end
+
+function slot0.checkTranscodeView(slot0)
+	slot0.transcode = slot0.userProxy:getTranscode()
+
+	setActive(slot0.codeDesc, slot0.transcode ~= "")
+	setActive(slot0.getCodeBtn, slot0.transcode == "")
+
+	if slot0.transcode ~= "" then
+		setText(slot0.uidTxt, AiriSdkMgr.AiriSDKInst.Uid)
+		setText(slot0.transcodeTxt, slot0.transcode)
+	end
+end
+
+function slot0.checkAccountTwitterView(slot0)
+	setActive(slot0.twitterUnlinkBtn, AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
+	setActive(slot0.twitterLinkSign, AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
+	setActive(slot0.twitterBtn, not AiriSdkMgr.AiriSDKInst.IsTwitterLinked)
+
+	if AiriSdkMgr.AiriSDKInst.IsTwitterLinked then
+		setText(slot0.twitterLinkSign, i18n("twitter_link_title", AiriSdkMgr.AiriSDKInst.TwitterUsername))
+	end
 end
 
 slot1 = {}
@@ -178,50 +227,55 @@ slot2 = {
 	}
 }
 
-function slot0.initNotificationPanel(slot0, slot1)
-	slot2 = slot0:findTF("scrollrect/content/common/list", slot1)
-	slot3 = slot0:findTF("scrollrect/content/common/list1", slot1)
-	slot4 = slot0:findTF("scrollrect/content/other", slot1)
-	slot5 = slot0:findTF("toggle_tpl", slot1)
+function slot0.initOptionsPanel(slot0, slot1)
+	slot2 = slot1:Find("scroll_view/Viewport/content/fps_setting")
 
-	for slot10, slot11 in ipairs(slot6) do
-		slot12 = cloneTplTo(slot5, slot2)
+	onToggle(slot0, slot3, function (slot0)
+		if slot0 then
+			PlayerPrefs.SetInt("fps_limit", 30)
 
-		setText(slot0:findTF("text", slot12), slot11.title)
-		onToggle(slot0, slot12, function (slot0)
+			Application.targetFrameRate = 30
+		end
+	end, SFX_UI_TAG, SFX_UI_TAG)
+	onToggle(slot0, slot2:Find("options/60fps"), function (slot0)
+		if slot0 then
+			PlayerPrefs.SetInt("fps_limit", 60)
+
+			Application.targetFrameRate = 60
+		end
+	end, SFX_UI_TAG, SFX_UI_TAG)
+	triggerToggle(slot2:Find("options/30fps"), PlayerPrefs.GetInt("fps_limit", 30) == 30)
+	triggerToggle(slot4, slot5 == 60)
+
+	slot7 = slot0:findTF("scroll_view/Viewport/content/other_settings/options", slot1)
+	slot8 = slot0:findTF("scroll_view/Viewport/content/notifications/options", slot1).Find(triggerToggle, "notify_tpl")
+
+	for slot13, slot14 in ipairs(slot9) do
+		slot15 = cloneTplTo(slot8, slot6)
+
+		setText(slot0:findTF("Text", slot15), slot14.title)
+		onToggle(slot0, slot15:Find("on"), function (slot0)
 			pg.PushNotificationMgr.GetInstance():setSwitch(slot0.id, slot0)
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
-		triggerToggle(slot12, pg.PushNotificationMgr.GetInstance():isEnabled(slot11.id))
+		triggerToggle(slot15:Find("on"), slot16)
+		triggerToggle(slot15:Find("off"), not pg.PushNotificationMgr.GetInstance():isEnabled(slot14.id))
 	end
 
-	for slot10, slot11 in pairs(slot0) do
-		slot0[slot11.name] = PlayerPrefs.GetInt(slot11.name, 0) > 0
-		slot12 = cloneTplTo(slot5, slot3)
+	slot8 = slot7:Find("notify_tpl")
 
-		setText(slot0:findTF("text", slot12), slot11.title)
-		onToggle(slot0, slot12, function (slot0)
-			if slot0[slot1.name] ~= slot0 then
-				slot1(slot1.name, (slot0 and 1) or 0)
-				PlayerPrefs.Save()
+	for slot13, slot14 in pairs(slot0) do
+		setText(slot0:findTF("Text", cloneTplTo(slot8, slot7)), slot14.title)
 
-				slot0[slot1.name] = slot0
-			end
-		end, SFX_UI_TAG, SFX_UI_CANCEL)
-		triggerToggle(slot12, slot0[slot11.name])
-	end
-
-	for slot10, slot11 in pairs(slot1) do
-		setText(slot0:findTF("text", cloneTplTo(slot5, slot4)), slot11.title)
-
-		if slot10 == 1 then
-			onToggle(slot0, slot12, function (slot0)
+		if slot13 == 1 then
+			onToggle(slot0, slot15:Find("on"), function (slot0)
 				pg.PushNotificationMgr.GetInstance():setSwitchShipName(slot0)
 			end, SFX_UI_TAG, SFX_UI_CANCEL)
-			triggerToggle(slot12, pg.PushNotificationMgr.GetInstance():isEnableShipName())
+			triggerToggle(slot15:Find("on"), pg.PushNotificationMgr.GetInstance():isEnableShipName())
+			triggerToggle(slot15:Find("off"), not pg.PushNotificationMgr.GetInstance():isEnableShipName())
 		else
-			slot0[slot11.name] = PlayerPrefs.GetInt(slot11.name, slot11.default or 0) > 0
+			slot0[slot14.name] = PlayerPrefs.GetInt(slot14.name, slot14.default or 0) > 0
 
-			onToggle(slot0, slot12, function (slot0)
+			onToggle(slot0, slot15:Find("on"), function (slot0)
 				if slot0[slot1.name] ~= slot0 then
 					slot1(slot1.name, (slot0 and 1) or 0)
 					PlayerPrefs.Save()
@@ -229,7 +283,8 @@ function slot0.initNotificationPanel(slot0, slot1)
 					slot0[slot1.name] = slot0
 				end
 			end, SFX_UI_TAG, SFX_UI_CANCEL)
-			triggerToggle(slot12, slot0[slot11.name])
+			triggerToggle(slot15:Find("on"), slot0[slot14.name])
+			triggerToggle(slot15:Find("off"), not slot0[slot14.name])
 		end
 	end
 end
@@ -237,19 +292,13 @@ end
 function slot0.initInterfacePreference(slot0, slot1)
 	setActive(slot1, false)
 
-	slot0.editPanel = slot1
-	slot0.editBackBtn = findTF(slot2, "btnBack")
-
-	onButton(slot0, slot0.editBackBtn, function ()
-		slot0:emit(slot1.ON_BACK)
-	end, SFX_CANCEL)
-
-	slot0.normalBtns = findTF(slot3, "normal_buttons")
-	slot0.editBtns = findTF(slot3, "edit_buttons")
-	slot0.saveBtn = findTF(slot0.editBtns, "save_button")
-	slot0.cancelBtn = findTF(slot0.editBtns, "cancel_button")
-	slot0.editBtn = findTF(slot0.normalBtns, "edit_button")
-	slot0.revertBtn = findTF(slot0.normalBtns, "revert_button")
+	slot0.editPanel = slot1:Find("editor")
+	slot0.normalBtns = findTF(slot2, "normal")
+	slot0.editBtns = findTF(slot2, "editing")
+	slot0.saveBtn = findTF(slot0.editBtns, "save")
+	slot0.cancelBtn = findTF(slot0.editBtns, "cancel")
+	slot0.editBtn = findTF(slot0.normalBtns, "edit")
+	slot0.revertBtn = findTF(slot0.normalBtns, "reset")
 
 	onButton(slot0, slot0.editBtn, function ()
 		slot0:editModeEnabled(true)
@@ -287,14 +336,27 @@ function slot0.initInterfacePreference(slot0, slot1)
 		pg.TipsMgr:GetInstance():ShowTips(i18n("setting_interface_save_success"))
 	end, SFX_PANEL)
 
-	slot0.interface = slot0:findTF("edit/interface")
-	slot0.stick = findTF(slot0.interface, "stick")
-	slot0.skillBtn1 = findTF(slot0.interface, "skill_1")
-	slot0.skillBtn2 = findTF(slot0.interface, "skill_2")
-	slot0.skillBtn3 = findTF(slot0.interface, "skill_3")
-	slot0.skillBtn4 = findTF(slot0.interface, "skill_4")
+	slot0.interface = slot0:findTF("main/battle_ui/editor/editing_region")
 
-	slot0:initInterfaceComponent(slot0.stick, "joystick_anchorX", "joystick_anchorY", slot4)
+	if rtf(slot0.interface).rect.width / rtf(slot0.interface).rect.height > rtf(slot0._tf).rect.width / rtf(slot0._tf).rect.height then
+		slot8 = rtf(slot0.interface).sizeDelta.y
+		slot0.scale = slot4 / slot6
+		slot7 = rtf(slot0.interface).sizeDelta.x - (slot3 - (slot4 * slot5) / slot6)
+	else
+		slot7 = rtf(slot1).sizeDelta.x
+		slot0.scale = slot3 / slot5
+		slot8 = rtf(slot1).sizeDelta.y - (slot4 - (slot3 * slot6) / slot5)
+	end
+
+	slot7 = Vector3.New(slot0.scale, slot0.scale, 1)
+	slot0.stick = findTF(slot0.interface, "Stick")
+	slot0.skillBtn1 = findTF(slot0.interface, "Skill_1")
+	slot0.skillBtn2 = findTF(slot0.interface, "Skill_2")
+	slot0.skillBtn3 = findTF(slot0.interface, "Skill_3")
+	slot0.skillBtn4 = findTF(slot0.interface, "Skill_4")
+	slot0.mask = findTF(slot0.interface, "mask")
+
+	slot0:initInterfaceComponent(slot0.stick, "joystick_anchorX", "joystick_anchorY", slot8)
 	slot0:initInterfaceComponent(slot0.skillBtn1, "skill_1_anchorX", "skill_1_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[1])
 	slot0:initInterfaceComponent(slot0.skillBtn2, "skill_2_anchorX", "skill_2_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[2])
 	slot0:initInterfaceComponent(slot0.skillBtn3, "skill_3_anchorX", "skill_3_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[3])
@@ -309,13 +371,16 @@ function slot0.initInterfacePreference(slot0, slot1)
 		slot0.skillBtn4
 	}
 
+	for slot14 = 2, #slot0.components, 1 do
+		setLocalScale(slot0.components[slot14], slot7)
+	end
+
 	slot0:editModeEnabled(false)
-	slot0:initExchangeCodePanel()
 end
 
 function slot0.initInterfaceComponent(slot0, slot1, slot2, slot3, slot4)
-	slot7 = rtf(slot0._tf).rect.width * 0.5 + slot0.interface.localPosition.x
-	slot8 = rtf(slot0._tf).rect.height * 0.5 + rtf(slot0.interface).localPosition.y
+	slot7 = rtf(slot0._tf).rect.width * 0.5 + slot0.interface.localPosition.x + slot0.interface.parent.localPosition.x + slot0.interface.parent.parent.localPosition.x
+	slot8 = rtf(slot0._tf).rect.height * 0.5 + slot0.interface.localPosition.y + slot0.interface.parent.localPosition.y + slot0.interface.parent.parent.localPosition.y
 	slot9 = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot0.eventTriggers[slot9] = true
 	slot10, slot11, slot12, slot13 = nil
@@ -357,6 +422,7 @@ end
 
 function slot0.editModeEnabled(slot0, slot1)
 	setActive(slot0.normalBtns, not slot1)
+	setActive(slot0.mask, not slot1)
 	setActive(slot0.editBtns, slot1)
 
 	for slot5, slot6 in ipairs(slot0.components) do
@@ -367,13 +433,12 @@ function slot0.editModeEnabled(slot0, slot1)
 		end
 	end
 
-	slot0.logoutButton:GetComponent("ButtonExtend").interactable = not slot1
-	slot0.bbsButton:GetComponent("ButtonExtend").interactable = not slot1
-	slot0.notificationToggle:GetComponent(typeof(Toggle)).interactable = not slot1
-	slot0.exchangeToggle:GetComponent(typeof(Toggle)).interactable = not slot1
+	slot0.backButton:GetComponent(typeof(Button)).interactable = not slot1
+	slot0.otherToggle:GetComponent(typeof(Toggle)).interactable = not slot1
+	slot0.optionsToggle:GetComponent(typeof(Toggle)).interactable = not slot1
 	slot0.interfaceToggle:GetComponent(typeof(Toggle)).interactable = not slot1
-	slot0._tf:GetComponent(typeof(Button)).interactable = not slot1
-	slot0.editBackBtn:GetComponent(typeof(Button)).interactable = not slot1
+	slot0.resToggle:GetComponent(typeof(Toggle)).interactable = not slot1
+	slot0.logoutButton:GetComponent("ButtonExtend").interactable = not slot1
 end
 
 function slot0.setInterfaceAnchor(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -390,31 +455,35 @@ function slot0.setInterfaceAnchor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot1.localPosition = Vector3((slot6 - 0.5) * rtf(slot0.interface).rect.width, (slot7 - 0.5) * rtf(slot0.interface).rect.height, 0)
 end
 
+function slot3(slot0)
+	slot1 = rtf(slot0)
+
+	return UnityEngine.Rect.New(slot1.position.x - (slot1.rect.width * slot1.lossyScale.x) / 2, slot1.position.y - (slot1.rect.height * slot1.lossyScale.y) / 2, slot1.rect.width * slot1.lossyScale.x, slot1.rect.height * slot1.lossyScale.y)
+end
+
 function slot0.checkInterfaceIntersect(slot0)
 	slot1 = {}
 	slot2 = false
-	slot3 = rtf(slot0.interface).rect.width * 0.5
-	slot4 = rtf(slot0.interface).rect.height * 0.5
+	slot3 = {}
+	slot4 = slot0(slot0.interface)
 
 	for slot8, slot9 in ipairs(slot0.components) do
-		slot10 = slot9.localPosition.x
-		slot11 = slot9.localPosition.y
-		slot12 = rtf(slot9).rect.width * 0.5
-		slot13 = rtf(slot9).rect.height * 0.5
+		slot3[slot9] = slot0(slot9:Find("rect"))
+	end
 
-		for slot17, slot18 in ipairs(slot0.components) do
-			if slot9 ~= slot18 then
-				slot19 = slot18.localPosition.x
-				slot21 = rtf(slot18).rect.width * 0.5
-
-				if math.abs(slot11 - slot18.localPosition.y) < rtf(slot18).rect.height * 0.5 + slot13 and math.abs(slot10 - slot19) < slot21 + slot12 then
-					slot1[slot18] = true
-				end
+	for slot8, slot9 in ipairs(slot0.components) do
+		for slot13, slot14 in ipairs(slot0.components) do
+			if slot9 ~= slot14 and slot3[slot9]:Overlaps(slot3[slot14]) then
+				slot1[slot14] = true
 			end
 		end
 
-		if slot8 > 1 and (slot3 < slot10 + slot12 or slot10 - slot12 < slot3 * -1 or slot4 < slot11 + slot13 or slot11 - slot13 < slot4 * -1) then
-			slot1[slot9] = true
+		if slot8 > 1 then
+			slot11 = Vector2.New(slot3[slot9].xMax, slot3[slot9].yMax)
+
+			if not slot4:Contains(Vector2.New(slot3[slot9].xMin, slot3[slot9].yMin)) or not slot4:Contains(slot11) then
+				slot1[slot9] = true
+			end
 		end
 	end
 
@@ -422,10 +491,10 @@ function slot0.checkInterfaceIntersect(slot0)
 		slot10 = findTF(slot9, "rect"):GetComponent(typeof(Image))
 
 		if slot1[slot9] then
-			slot10.color = slot0.CLD_RED
+			slot10.color = slot1.CLD_RED
 			slot2 = true
 		else
-			slot10.color = slot0.DEFAULT_GREY
+			slot10.color = slot1.DEFAULT_GREY
 		end
 	end
 
@@ -454,20 +523,6 @@ function slot0.overrideInterfaceSetting(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetFloat(slot3, (slot1.localPosition.y + rtf(slot0.interface).rect.height * 0.5) / rtf(slot0.interface).rect.height)
 end
 
-function slot0.onSwitchToggle(slot0, slot1, slot2)
-	slot3 = rtf(findTF(slot1, "switch"))
-
-	onToggle(slot0, slot1, function (slot0)
-		if slot0 then
-			slot0.anchoredPosition = Vector2.New(21, 0)
-		else
-			slot0.anchoredPosition = Vector2.New(-21, 0)
-		end
-
-		slot1(slot0)
-	end, SFX_PANEL)
-end
-
 function slot0.updateSoundDownloadState(slot0)
 	slot3, slot4, slot5, slot6, slot7 = nil
 	slot8 = false
@@ -487,13 +542,13 @@ function slot0.updateSoundDownloadState(slot0)
 	elseif slot2 == DownloadState.CheckToUpdate then
 		slot3 = i18n("word_soundfiles_checkend_title")
 		slot4 = i18n("word_soundfiles_checkend")
-		slot5 = string.format("V%d-->V%d", slot1.localVersion.Build, slot1.serverVersion.Build)
+		slot5 = string.format("V.%d > V.%d", slot1.localVersion.Build, slot1.serverVersion.Build)
 		slot6 = 0
 		slot7 = true
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_soundfiles_checkend_title")
 		slot4 = i18n("word_soundfiles_noneedupdate")
-		slot5 = "V" .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.currentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -512,7 +567,7 @@ function slot0.updateSoundDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_soundfiles_update_end_title")
 		slot4 = i18n("word_soundfiles_update_end")
-		slot5 = "V" .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.currentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then
@@ -523,12 +578,20 @@ function slot0.updateSoundDownloadState(slot0)
 		slot7 = true
 	end
 
-	setText(slot0.soundDownloadInfo, slot3)
+	if slot5:len() > 15 then
+		slot5 = slot5:sub(1, 12) .. "..."
+	end
+
 	setText(slot0.soundDownloadInfo1, slot4)
 	setText(slot0.soundDownloadInfo2, slot5)
+	setAnchoredPosition(slot0.soundDownloadInfo2, {
+		x = (slot2 == DownloadState.CheckToUpdate and 82.5) or 91.5
+	})
 	setSlider(slot0.soundDownloadProgress, 0, 1, slot6)
+	setActive(slot0.soundDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
 	setActive(slot0.soundDownloadDot, slot7)
 	setActive(slot0.soundDownloadLoading, slot8)
+	setActive(slot0.soundDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
 end
 
 function slot0.updateLive2DDownloadState(slot0)
@@ -558,13 +621,13 @@ function slot0.updateLive2DDownloadState(slot0)
 
 		slot3 = i18n("word_live2dfiles_checkend_title")
 		slot4 = i18n("word_live2dfiles_checkend")
-		slot5 = string.format("V%d-->V%d", slot1.localVersion.Build, slot1.serverVersion.Build)
+		slot5 = string.format("V.%d > V.%d", slot1.localVersion.Build, slot1.serverVersion.Build)
 		slot6 = 0
 		slot7 = true
 	elseif slot2 == DownloadState.CheckOver then
 		slot3 = i18n("word_live2dfiles_checkend_title")
 		slot4 = i18n("word_live2dfiles_noneedupdate")
-		slot5 = "V" .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.currentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.CheckFailure then
@@ -583,7 +646,7 @@ function slot0.updateLive2DDownloadState(slot0)
 	elseif slot2 == DownloadState.UpdateSuccess then
 		slot3 = i18n("word_live2dfiles_update_end_title")
 		slot4 = i18n("word_live2dfiles_update_end")
-		slot5 = "V" .. slot1.currentVersion.Build
+		slot5 = "V." .. slot1.currentVersion.Build
 		slot6 = 1
 		slot7 = false
 	elseif slot2 == DownloadState.UpdateFailure then
@@ -594,32 +657,73 @@ function slot0.updateLive2DDownloadState(slot0)
 		slot7 = true
 	end
 
-	setText(slot0.live2DDownloadInfo, slot3)
+	if slot5:len() > 15 then
+		slot5 = slot5:sub(1, 12) .. "..."
+	end
+
 	setText(slot0.live2DDownloadInfo1, slot4)
 	setText(slot0.live2DDownloadInfo2, slot5)
+	setAnchoredPosition(slot0.live2DDownloadInfo2, {
+		x = (slot2 == DownloadState.CheckToUpdate and 82.5) or 91.5
+	})
 	setSlider(slot0.live2DDownloadProgress, 0, 1, slot6)
+	setActive(slot0.live2DDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
 	setActive(slot0.live2DDownloadDot, slot7)
 	setActive(slot0.live2DDownloadLoading, slot8)
+	setActive(slot0.live2DDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
 end
 
-function slot0.initExchangeCodePanel(slot0)
-	setActive(slot0:findTF("nav/exchange"), PLATFORM ~= PLATFORM_IPHONEPLAYER)
+function slot0.initOtherPanel(slot0)
+	slot0.otherTab = slot0:findTF("other", slot0.leftPanel)
+	slot0.redeem = slot0:findTF("main/other/redeem")
+	slot1 = true
 
-	slot0.codeInput = slot0:findTF("main/exchange/code_input")
-	slot0.placeholder = slot0:findTF("Placeholder", slot0.codeInput)
-	slot0.placeholder:GetComponent(typeof(Text)).text = i18n("exchangecode_use_placeholder")
-	slot0.achieveBtn = slot0:findTF("main/exchange/achieve_button")
+	setActive(slot0:findTF("main/other/account"), false)
 
-	setText(slot0:findTF("main/exchange/text"), i18n("exchangecode_title"))
-	onButton(slot0, slot0.achieveBtn, function ()
-		pg.m02:sendNotification(GAME.EXCHANGECODE_USE, {
-			key = slot0.codeInput:GetComponent(typeof(InputField)).text
-		})
-	end, SFX_CONFIRM)
-	setGray(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
-	onInputChanged(slot0, slot0.codeInput, function ()
-		slot0(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
-	end)
+	if PLATFORM_CODE == PLATFORM_CH then
+		setActive(slot0.otherTab, PLATFORM ~= PLATFORM_IPHONEPLAYER)
+
+		if PLATFORM == PLATFORM_IPHONEPLAYER then
+			slot1 = false
+		end
+	elseif PLATFORM_CODE == PLATFORM_JP then
+		slot0.accountJP = slot0:findTF("main/other/account")
+
+		setActive(slot0.otherTab, true)
+		setActive(slot0.accountJP, true)
+		slot0:initTransCodePanel(slot0.accountJP)
+
+		slot1 = false
+	elseif PLATFORM_CODE == PLATFORM_US then
+		slot0.accountUS = slot0:findTF("main/other/account_us")
+
+		setActive(slot0.otherTab, true)
+		setActive(slot0.accountUS, true)
+		slot0:initUSAccountPanel(slot0.accountUS)
+
+		slot1 = false
+	end
+
+	if slot1 then
+		setActive(slot0.redeem, true)
+
+		slot0.codeInput = slot0:findTF("voucher", slot0.redeem)
+		slot0.placeholder = slot0:findTF("Placeholder", slot0.codeInput)
+		slot0.placeholder:GetComponent(typeof(Text)).text = i18n("exchangecode_use_placeholder")
+		slot0.achieveBtn = slot0:findTF("submit", slot0.codeInput)
+
+		onButton(slot0, slot0.achieveBtn, function ()
+			pg.m02:sendNotification(GAME.EXCHANGECODE_USE, {
+				key = slot0.codeInput:GetComponent(typeof(InputField)).text
+			})
+		end, SFX_CONFIRM)
+		setGray(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
+		onInputChanged(slot0, slot0.codeInput, function ()
+			slot0(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
+		end)
+	else
+		setActive(slot0.redeem, false)
+	end
 end
 
 function slot0.clearExchangeCode(slot0)
@@ -627,11 +731,8 @@ function slot0.clearExchangeCode(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onBackButton(slot0, slot0.backButton, function ()
-		return true, 
-	end)
-	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_BACK)
+	onButton(slot0, slot0.backButton, function ()
+		slot0:emit(slot1.ON_BACK, nil, 0.3)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.logoutButton, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -641,35 +742,31 @@ function slot0.didEnter(slot0)
 			end
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0.bbsButton, function ()
-		Application.OpenURL(HOME_PAGE)
-	end, SFX_PANEL)
-
-	function slot1(slot0, slot1, slot2)
-		if slot0 then
-			slot0.bg.sizeDelta = Vector2.New((slot1 == nil and slot0.bg.sizeDelta.x) or slot1, (slot2 == nil and slot0.bg.sizeDelta.y) or slot2)
-		end
-	end
-
-	onToggle(slot0, slot0.soundToggle, function (slot0)
-		slot0(slot0, nil, 420)
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.notificationToggle, function (slot0)
-		slot0(slot0, nil, 390)
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.exchangeToggle, function (slot0)
-		slot0(slot0, nil, 390)
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.interfaceToggle, function (slot0)
-		slot0(slot0, nil, 390)
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.resToggle, function (slot0)
-		slot0(slot0, 672, 352)
-	end, SFX_PANEL)
 	triggerToggle(slot0.soundToggle, true)
 
 	slot0._cvTest = slot0:findTF("cvTest")
 	slot0._hpBtn = slot0:findTF("dungeon_hp")
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		onButton(slot0, slot0.getCodeBtn, function ()
+			if slot0.transcode == "" then
+				AiriSdkMgr.inst:TranscodeRequest()
+				pg.UIMgr.GetInstance():LoadingOn()
+			end
+		end)
+		onButton(slot0, slot0.twitterBtn, function ()
+			pg.UIMgr.GetInstance():LoadingOn()
+			AiriSdkMgr.inst:LinkTwitter()
+		end)
+		onButton(slot0, slot0.twitterUnlinkBtn, function ()
+			pg.UIMgr.GetInstance():LoadingOn()
+			AiriSdkMgr.inst:UnlinkTwitter()
+		end)
+		onButton(slot0, slot0.goTranscodeUIBtn, function ()
+			setActive(slot0.accountTwitterUI, false)
+			setActive(slot0.transcodeUI, true)
+		end)
+	end
 
 	if SFX_TEST then
 		setActive(slot0._cvTest, true)
@@ -814,7 +911,7 @@ function slot0.didEnter(slot0)
 			setActive._cvIndex = 1
 		end)
 
-		function slot2()
+		function slot1()
 			if slot0._currentVoice then
 				slot0._currentVoice:Stop(true)
 			end
@@ -929,7 +1026,11 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	triggerButton(slot0._tf)
+	slot0:emit(slot0.ON_BACK, nil, 0.3)
+
+	if BUTTON_SOUND_EFFECT then
+		playSoundEffect(SFX_CANCEL)
+	end
 end
 
 function slot0.clearCV(slot0)
@@ -966,6 +1067,7 @@ function slot0.willExit(slot0)
 	slot0.live2DDownloadTimer:Stop()
 
 	slot0.live2DDownloadTimer = nil
+	slot0.userProxy = nil
 end
 
 function slot0.resourceVerify(slot0)

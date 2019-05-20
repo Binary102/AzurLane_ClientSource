@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>四 危险！诱惑少女的谜之味觉 </size>",
+					"轻型航母{namecode:90}参上！\n\n<size=45>四 危险！诱惑少女的谜之味觉 </size>",
 					1
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -217,7 +217,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -292,7 +292,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -368,7 +368,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -399,7 +399,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

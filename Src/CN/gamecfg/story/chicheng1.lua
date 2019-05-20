@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>一 赤色的秘书舰</size>",
+					"彼岸花之恋？\n\n<size=45>一 赤色的秘书舰</size>",
 					1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -223,7 +223,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.15,
-					x = 10,
+					x = 15,
 					number = 4
 				}
 			},

@@ -7,35 +7,49 @@ slot0.REQUEST_VOTE_INFO = "event request vote info"
 slot0.GO_VOTE_LAYER = "event go vote layer"
 slot0.GO_BACKYARD = "event go backyard"
 slot0.GO_LOTTERY = "event go lottery"
-slot0.OPEN_HITMONSTERNIAN = "event open hit monster nian"
-slot0.CLOSE_HITMONSTERNIAN = "event close hit monster nian"
 slot0.EVENT_COLORING_ACHIEVE = "event coloring achieve"
 slot0.ON_TASK_SUBMIT = "event on task submit"
 slot0.ON_TASK_GO = "event on task go"
-slot0.OPEN_MONOPOLY = "event open monopoly"
-slot0.CLOSE_MONOPOLY = "event close monopoly"
-slot0.GO_DODGEM = "event go dodgem"
+slot0.OPEN_LAYER = "event OPEN_LAYER"
+slot0.CLOSE_LAYER = "event CLOSE_LAYER"
 slot0.EVENT_PT_OPERATION = "event pt op"
 slot0.BLACKWHITEGRID = "black white grid"
 slot0.MEMORYBOOK = "memory book"
+slot0.RETURN_AWARD_OP = "event return award op"
+slot0.SHOW_AWARD_WINDOW = "event show award window"
+slot0.GO_DODGEM = "event  go dodgem"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(slot0.GO_DODGEM, function (slot0, slot1)
+		slot0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_SUBMARINE_RUN,
+			stageId = slot1
+		})
+	end)
+	slot0:bind(slot0.RETURN_AWARD_OP, function (slot0, slot1)
+		if slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW then
+			slot0.viewComponent:ShowBonusWindow(slot1.arg1)
+		elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW then
+			slot0.viewComponent:ShowTaskBoundsWindow(slot1.arg1)
+		else
+			slot0:sendNotification(GAME.RETURN_AWARD_OP, slot1)
+		end
+	end)
+	slot0:bind(slot0.SHOW_AWARD_WINDOW, function (slot0, slot1)
+		slot0.viewComponent:ShowBonusWindow(slot1)
+	end)
 	slot0:bind(slot0.EVENT_PT_OPERATION, function (slot0, slot1)
 		slot0:sendNotification(GAME.ACT_NEW_PT, slot1)
 	end)
-	slot0:bind(slot0.OPEN_MONOPOLY, function ()
-		if slot0.UIAvalible then
-			slot0()
-		else
-			table.insert(slot0.UIAvalibleCallbacks, slot0)
-		end
+	slot0:bind(slot0.OPEN_LAYER, function (slot0, slot1)
+		slot0:addSubLayers(slot1)
 	end)
-	slot0:bind(slot0.CLOSE_MONOPOLY, function ()
-		if getProxy(ContextProxy):getContextByMediator(MonopolyMediator) then
+	slot0:bind(slot0.CLOSE_LAYER, function (slot0, slot1)
+		if getProxy(ContextProxy).getCurrentContext(slot2):getContextByMediator(slot1) then
 			slot0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = slot1
+				context = slot4
 			})
 		end
 	end)
@@ -79,11 +93,17 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()
-		slot6.mapIdx, slot6.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
+		if not getProxy(ActivityProxy):getActivityByType(ACTIVITY_TYPE_ZPROJECT) or slot0:isEnd() then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
+		slot7.mapIdx, slot7.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
 
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
+			chapterId = slot2,
+			mapIdx = slot1
 		})
 	end)
 	slot0:bind(slot0.REQUEST_VOTE_INFO, function (slot0, slot1)
@@ -108,31 +128,6 @@ function slot0.register(slot0)
 	slot0:bind(slot0.GO_BACKYARD, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD)
 	end)
-	slot0:bind(slot0.OPEN_HITMONSTERNIAN, function (slot0)
-		function slot1()
-			if getProxy(ContextProxy):getContextByMediator(HitMonsterNianMediator) then
-				return
-			end
-
-			slot0:addSubLayers(Context.New({
-				viewComponent = HitMonsterNianLayer,
-				mediator = HitMonsterNianMediator
-			}))
-		end
-
-		if slot0.UIAvalible then
-			slot1()
-		else
-			table.insert(slot0.UIAvalibleCallbacks, slot1)
-		end
-	end)
-	slot0:bind(slot0.CLOSE_HITMONSTERNIAN, function (slot0)
-		if getProxy(ContextProxy):getContextByMediator(HitMonsterNianMediator) then
-			slot0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = slot2
-			})
-		end
-	end)
 	slot0:bind(slot0.EVENT_COLORING_ACHIEVE, function (slot0, slot1)
 		slot0:sendNotification(GAME.COLORING_ACHIEVE, slot1)
 	end)
@@ -142,12 +137,6 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_TASK_GO, function (slot0, slot1)
 		slot0:sendNotification(GAME.TASK_GO, {
 			taskVO = slot1
-		})
-	end)
-	slot0:bind(slot0.GO_DODGEM, function (slot0)
-		slot0:sendNotification(GAME.BEGIN_STAGE, {
-			system = SYSTEM_DODGEM,
-			stageId = ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES[math.random(#ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES)]
 		})
 	end)
 
@@ -178,8 +167,9 @@ function slot0.listNotificationInterests(slot0)
 		ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT,
 		GAME.COLORING_ACHIEVE_DONE,
 		GAME.SUBMIT_TASK_DONE,
+		GAME.ACT_NEW_PT_DONE,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.ACT_NEW_PT_DONE
+		GAME.RETURN_AWARD_OP_DONE
 	}
 end
 
@@ -192,7 +182,15 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		slot0.viewComponent:updateActivity(slot3)
+
+		if ActivityConst.AOERLIANG_TASK_ID == slot3.id then
+			slot0.viewComponent:update_task_list_auto_aoerliang(slot3)
+		end
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
+		if ActivityConst.AOERLIANG_TASK_ID == slot3 then
+			return
+		end
+
 		slot0:showNextActivity()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
@@ -218,9 +216,11 @@ function slot0.handleNotification(slot0, slot1)
 			return
 		end
 
-		if slot2 == GAME.BEGIN_STAGE_DONE then
+		if slot2 == GAME.ACT_NEW_PT_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		elseif slot2 == GAME.BEGIN_STAGE_DONE then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-		elseif slot2 == GAME.ACT_NEW_PT_DONE then
+		elseif slot2 == GAME.RETURN_AWARD_OP_DONE then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end
 	end

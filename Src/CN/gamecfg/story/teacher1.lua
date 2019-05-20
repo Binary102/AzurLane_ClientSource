@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=30>一 问题儿童都来自——</size>",
+					"36年Z组 Z23老师\n\n<size=45>一 问题儿童都来自——</size>",
 					1
 				}
 			}
@@ -188,7 +188,7 @@ return {
 				{
 					actor = 402010,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

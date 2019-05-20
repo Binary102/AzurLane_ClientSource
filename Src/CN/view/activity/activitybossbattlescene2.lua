@@ -893,8 +893,10 @@ function slot2(slot0)
 		slot0 = slot0.GetInstance
 		slot0 = slot0()
 		slot1 = slot0
-		slot0 = slot0.ShowHelpWindow
+		slot0 = slot0.ShowMsgBox
 		slot2 = {}
+		slot3 = MSGBOX_TYPE_HELP
+		slot2.type = slot3
 		slot3 = pg
 		slot3 = slot3.gametip
 		slot3 = slot3.world_boss_help

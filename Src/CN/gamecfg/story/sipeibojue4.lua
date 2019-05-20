@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>“有能够理解你全部的人”</size>",
+					"<size=51>“有能够理解你全部的人”</size>",
 					1.5
 				},
 				{
-					"<size=34>“能够倾听你的烦恼”</size>",
+					"<size=51>“能够倾听你的烦恼”</size>",
 					3
 				},
 				{
-					"<size=34>“并且发自内心为你着想的人”</size>",
+					"<size=51>“并且发自内心为你着想的人”</size>",
 					4.5
 				},
 				{
-					"<size=34>“你就不会再感到自己是孤身一人了吧？呵呵~”</size>",
+					"<size=51>“你就不会再感到自己是孤身一人了吧？呵呵~”</size>",
 					6.5
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=30>四　同伴</size>",
+					"港湾\n\n<size=45>四　同伴</size>",
 					1
 				}
 			}
@@ -280,7 +280,7 @@ return {
 			say = "！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

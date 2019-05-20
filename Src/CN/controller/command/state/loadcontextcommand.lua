@@ -78,14 +78,6 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 			slot0()
 		end,
 		function (slot0)
-			slot0:enter({
-				slot1
-			}, slot0)
-		end,
-		function (slot0)
-			slot0:enter(slot0.enter, slot0)
-		end,
-		function (slot0)
 			slot0:remove(slot0.remove, function ()
 				if slot0 then
 					slot0:onContextRemoved()
@@ -93,6 +85,14 @@ function slot0.loadScene(slot0, slot1, slot2, slot3)
 
 				slot1()
 			end)
+		end,
+		function (slot0)
+			slot0:enter({
+				slot1
+			}, slot0)
+		end,
+		function (slot0)
+			slot0:enter(slot0.enter, slot0)
 		end,
 		function ()
 			if slot0 then

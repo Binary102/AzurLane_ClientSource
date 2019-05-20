@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=30>三　努力的后辈们</size>",
+					"{namecode:82}前辈的收藏大公开\n\n<size=45>三　努力的后辈们</size>",
 					1
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2.2,
 					dur = 0.2,
@@ -334,7 +334,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区逃离大作战！\n\n<size=30>三　有如天助！</size>",
+					"港区逃离大作战！\n\n<size=45>三　有如天助！</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = -15,
+					y = -22.5,
 					type = "shake",
 					delay = 2.5,
 					dur = 0.2,

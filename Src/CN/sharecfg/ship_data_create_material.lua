@@ -11,11 +11,11 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 1,
 		icon = "build_1",
-		probability = {
-			700,
-			1200,
-			5100,
-			3000
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
 		}
 	},
 	{
@@ -29,11 +29,11 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 2,
 		icon = "build_2",
-		probability = {
-			700,
-			1200,
-			2600,
-			5500
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：26%",
+			"普通舰船：55%"
 		}
 	},
 	{
@@ -47,11 +47,11 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 3,
 		icon = "build_3",
-		probability = {
-			700,
-			1200,
-			5100,
-			3000
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
 		}
 	},
 	{
@@ -65,11 +65,11 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
-		probability = {
-			700,
-			1200,
-			5100,
-			3000
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
 		}
 	},
 	{
@@ -83,11 +83,11 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 5,
 		icon = "build_5",
-		probability = {
-			700,
-			1200,
-			5100,
-			3000
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
 		}
 	},
 	all = {

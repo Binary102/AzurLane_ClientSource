@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家的骑士\n\n<size=30>二 舰队的工作</size>",
+					"皇家的骑士\n\n<size=45>二 舰队的工作</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -252,7 +252,7 @@ return {
 			},
 			action = {
 				{
-					y = 100,
+					y = 150,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -300,7 +300,7 @@ return {
 			say = "哗啦啦啦啦啦——",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			painting = {
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -399,7 +399,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -429,7 +429,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

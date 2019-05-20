@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>二 无双的传承</size>",
+					"彼岸花之恋？\n\n<size=45>二 无双的传承</size>",
 					1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.3,
 					x = 0,

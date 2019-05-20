@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=30>七 新年之祝</size>",
+					"新年的祝福\n\n<size=45>七 新年之祝</size>",
 					1
 				}
 			}
@@ -202,7 +202,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:143}",
-			say = "<size=16>（小声）{namecode:98}小姐……这里是不是去年才……</size>",
+			say = "<size=24>（小声）{namecode:98}小姐……这里是不是去年才……</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,14 +314,14 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=16>嘘！那种事就不要再提了喵！</size>",
+			say = "<size=24>嘘！那种事就不要再提了喵！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -456,7 +456,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -490,7 +490,7 @@ return {
 			say = "诶诶诶——！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

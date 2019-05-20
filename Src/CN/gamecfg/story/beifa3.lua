@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=30>三 姐妹？</size>",
+					"明日的淑女\n\n<size=45>三 姐妹？</size>",
 					1
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			say = "受到照射的心智魔方反射出了更耀眼的光喵！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -149,7 +149,7 @@ return {
 			say = "啊，贝尔法斯特姐姐大人也来了",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.3,
 					number = 1,
 					type = "shake"
@@ -193,7 +193,7 @@ return {
 			say = "我也来啦～小贝法原来在这里呀～来来快让姐姐抱抱～",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
@@ -221,7 +221,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.5,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			},
@@ -243,7 +243,7 @@ return {
 			say = "呀啊～～小贝法真是太可爱啦～～～",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.2,

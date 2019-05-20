@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=30>七  小小的魔法</size>",
+					"小小的勇气\n\n<size=45>七  小小的魔法</size>",
 					1
 				}
 			}

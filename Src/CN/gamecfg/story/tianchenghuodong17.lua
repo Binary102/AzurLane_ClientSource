@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "<size=35>{namecode:92}级战列舰首舰——{namecode:92}号！</size>",
+			say = "<size=52.5>{namecode:92}级战列舰首舰——{namecode:92}号！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "<size=35>{namecode:161}级战列巡洋舰——{namecode:161}号！</size>",
+			say = "<size=52.5>{namecode:161}级战列巡洋舰——{namecode:161}号！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,13 +213,13 @@ return {
 			bgm = "theme",
 			hideOther = true,
 			actorName = "{namecode:92}&{namecode:161}",
-			say = "<size=40>参上！！！</size>",
+			say = "<size=60>参上！！！</size>",
 			subActors = {
 				{
 					dir = -1,
 					actor = 304050,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			}

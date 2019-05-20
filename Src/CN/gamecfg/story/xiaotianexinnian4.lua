@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=30>四 樱花色的新年</size>",
+					"新年的祝福\n\n<size=45>四 樱花色的新年</size>",
 					1
 				}
 			}
@@ -179,7 +179,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -350,7 +350,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>三 女仆队的支援</size>",
+					"天狼星改造计划\n\n<size=45>三 女仆队的支援</size>",
 					1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 				{
 					actor = 202180,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

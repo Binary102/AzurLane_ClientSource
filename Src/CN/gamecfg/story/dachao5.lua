@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>五　加班夜！</size>",
+					"来自{namecode:146}的温柔\n\n<size=45>五　加班夜！</size>",
 					1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

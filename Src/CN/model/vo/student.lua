@@ -61,4 +61,12 @@ function slot0.getSkillDesc(slot0, slot1)
 	return getSkillDescLearn(slot0, slot1)
 end
 
+function slot0.getSkillName(slot0)
+	return getSkillName(slot0:getSkillId(getProxy(BayProxy):getShipById(slot0.shipId)))
+end
+
+function slot0.getShipVO(slot0)
+	return getProxy(BayProxy):getShipById(slot0.shipId)
+end
+
 return slot0

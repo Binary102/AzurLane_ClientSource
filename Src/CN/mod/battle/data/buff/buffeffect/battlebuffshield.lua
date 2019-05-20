@@ -17,7 +17,6 @@ function ys.Battle.BattleBuffShield.SetArgs(slot0, slot1, slot2)
 	end
 
 	slot0._shield = slot0:CalcNumber(slot1)
-	slot0._transRate = slot3.restoreTransRate or 0
 end
 
 function ys.Battle.BattleBuffShield.onStack(slot0, slot1, slot2)
@@ -28,25 +27,9 @@ function ys.Battle.BattleBuffShield.onTakeDamage(slot0, slot1, slot2, slot3)
 	slot0._shield = slot0._shield - slot3.damage
 
 	if slot0._shield > 0 then
-		if slot0._transRate ~= 0 and slot4 ~= 0 then
-			slot1:UpdateHP(math.floor(slot0._transRate * slot4), {
-				isMiss = false,
-				isCri = false,
-				isHeal = true
-			})
-		end
-
 		slot3.damage = 0
 	else
 		slot3.damage = -slot0._shield
-
-		if slot0._transRate ~= 0 and slot4 ~= 0 then
-			slot1:UpdateHP(math.floor(slot0._transRate * (slot4 - slot3.damage)), {
-				isMiss = false,
-				isCri = false,
-				isHeal = true
-			})
-		end
 
 		slot2:SetToCancel()
 	end

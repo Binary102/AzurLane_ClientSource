@@ -39,19 +39,19 @@ end
 
 function slot0.init(slot0)
 	slot0.isInited = true
-	slot0.itemTF = slot0:findTF("got/scroll/list/item")
-	slot0.itemContainer = slot0:findTF("got/scroll/list")
-	slot0.ulist = UIItemList.New(slot0.itemContainer, slot0.itemTF)
-	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
-	slot0.confirmBtn = slot0:findTF("actions/compose_button")
-	slot0.rightArr = slot0:findTF("count/right")
-	slot0.leftArr = slot0:findTF("count/left")
-	slot0.maxBtn = slot0:findTF("count/max")
-	slot0.valueText = slot0:findTF("count/value")
-	slot0.itemTF = slot0:findTF("item")
-	slot0.nameTF = slot0:findTF("item/name_container/name")
-	slot0.descTF = slot0:findTF("item/desc")
+	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
+	slot0.confirmBtn = slot0:findTF("calc/confirm")
+	slot0.rightArr = slot0:findTF("calc/value_bg/add")
+	slot0.leftArr = slot0:findTF("calc/value_bg/mius")
+	slot0.maxBtn = slot0:findTF("calc/max")
+	slot0.valueText = slot0:findTF("calc/value_bg/Text")
+	slot0.itemTF = slot0:findTF("item/bottom/item")
+	slot0.nameTF = slot0:findTF("item/bottom/name_bg/name")
+	slot0.descTF = slot0:findTF("item/bottom/desc")
 
+	onButton(slot0, slot0._tf, function ()
+		slot0:hide()
+	end, SFX_PANEL)
 	onButton(slot0, slot0.rightArr, function ()
 		if not slot0.itemVO then
 			return
@@ -60,7 +60,7 @@ function slot0.init(slot0)
 		slot0.count = math.min(slot0.count + 1, slot0.itemVO.count)
 
 		slot0:updateValue()
-	end)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.leftArr, function ()
 		if not slot0.itemVO then
 			return
@@ -69,7 +69,7 @@ function slot0.init(slot0)
 		slot0.count = math.max(slot0.count - 1, 1)
 
 		slot0:updateValue()
-	end)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
 		if not slot0.itemVO then
 			return
@@ -78,9 +78,6 @@ function slot0.init(slot0)
 		slot0.count = slot0.itemVO.count
 
 		slot0:updateValue()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if not slot0.selectedVO or not slot0.itemVO or slot0.count <= 0 then
@@ -94,10 +91,9 @@ end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
-
-	for slot5 = 1, slot0.itemContainer.childCount, 1 do
-		setText(slot0.itemContainer:GetChild(slot5 - 1).Find(slot6, "icon_bg/count"), slot0.count)
-	end
+	slot0.ulist:each(function (slot0, slot1)
+		setText(slot1:Find("item/bg/icon_bg/count"), slot0.count)
+	end)
 end
 
 function slot0.update(slot0, slot1)
@@ -111,10 +107,9 @@ function slot0.update(slot0, slot1)
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2, slot4)
+			updateDrop(slot2:Find("item/bg"), slot4)
 
-			slot5 = slot2:Find("name_mask/name")
-			slot6 = slot2:Find("icon_bg/count")
+			slot5 = slot2:Find("item/bg/icon_bg/count")
 
 			onToggle(slot1, slot2, function (slot0)
 				if slot0 then
@@ -126,19 +121,19 @@ function slot0.update(slot0, slot1)
 				end
 			end, SFX_PANEL)
 
-			slot7 = ScrollTxt.New(slot2:Find("name_mask"), slot2:Find("name_mask/name"))
+			slot6 = ScrollTxt.New(slot2:Find("name_bg"), slot2:Find("name_bg/Text"))
 
-			slot7:setText(({
+			slot6:setText(({
 				type = slot0[slot1 + 1][1],
 				id = slot0[slot1 + 1][2],
 				count = slot0[slot1 + 1][3]
 			})["cfg"].name)
-			table.insert(slot1.scrollTxts, slot7)
+			table.insert(slot1.scrollTxts, slot6)
 		end
 	end)
 	slot0.ulist:align(#slot1:getConfig("display_icon"))
 	slot0:updateValue()
-	updateDrop(slot0.itemTF, {
+	updateDrop(slot0.itemTF:Find("bg"), {
 		type = DROP_TYPE_ITEM,
 		id = slot1.id,
 		count = slot1.count

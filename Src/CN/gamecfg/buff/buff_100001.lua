@@ -25,12 +25,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.8,
 				skill_id = 100003,
 				target = "TargetSelf",
-				quota = 1,
-				hpRatioList = {
-					0.8
-				}
+				quota = 1
 			}
 		},
 		{
@@ -39,12 +37,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.5,
 				skill_id = 100004,
 				target = "TargetSelf",
-				quota = 1,
-				hpRatioList = {
-					0.5
-				}
+				quota = 1
 			}
 		},
 		{
@@ -53,12 +49,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.2,
 				skill_id = 100005,
 				target = "TargetSelf",
-				quota = 1,
-				hpRatioList = {
-					0.2
-				}
+				quota = 1
 			}
 		}
 	}

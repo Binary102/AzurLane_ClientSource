@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>二 特训！拼尽全力即是重樱之约</size>",
+					"轻型航母{namecode:90}参上！\n\n<size=45>二 特训！拼尽全力即是重樱之约</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -211,7 +211,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -365,20 +365,20 @@ return {
 			say = "诶——！",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 307040,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 306050,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

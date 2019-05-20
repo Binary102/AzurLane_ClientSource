@@ -166,7 +166,7 @@ function slot0.handleNotification(slot0, slot1)
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 	elseif slot2 == GAME.TAKE_ATTACHMENT_FULL_SHIP then
 		slot0.viewComponent:UnblurMailBox()
-		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
+		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE then
 		slot0.viewComponent:updateMailList()
 	end

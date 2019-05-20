@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=30>三 Hello~我是圣地亚哥哟~♪</size>",
+					"「虚拟链接的共时性」日常編\n\n<size=45>三 Hello~我是圣地亚哥哟~♪</size>",
 					1
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -403,7 +403,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -9,8 +9,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 1,
 		qrcode_location = {
-			-412,
-			-261
+			-592,
+			-381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/AdmiralUI(Clone)/top",
@@ -28,8 +28,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 2,
 		qrcode_location = {
-			412,
-			-261
+			-592,
+			-381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/detail_left_panel",
@@ -47,8 +47,8 @@ pg.share_template = {
 		camera = "OverlayCamera",
 		id = 3,
 		qrcode_location = {
-			412,
-			-261
+			592,
+			-381
 		},
 		hidden_comps = {
 			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/New",
@@ -65,7 +65,7 @@ pg.share_template = {
 		},
 		move_comps = {
 			{
-				y = -25,
+				y = -95,
 				x = 16,
 				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
 			},
@@ -85,8 +85,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 4,
 		qrcode_location = {
-			412,
-			-261
+			592,
+			-381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/BackYardUI(Clone)/top",
@@ -113,8 +113,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 5,
 		qrcode_location = {
-			412,
-			261
+			592,
+			381
 		},
 		hidden_comps = {
 			"OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/New",
@@ -131,8 +131,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 6,
 		qrcode_location = {
-			-412,
-			-261
+			-592,
+			-381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/PlayerSummaryUI(Clone)/bg/main/pages/page5/share"
@@ -147,8 +147,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 7,
 		qrcode_location = {
-			-412,
-			-261
+			-592,
+			-381
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/SnapshotShareUI(Clone)/BtnPanel"
@@ -164,8 +164,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 8,
 		qrcode_location = {
-			-412,
-			-261
+			-592,
+			-381
 		}
 	},
 	{
@@ -177,15 +177,15 @@ pg.share_template = {
 		show_comps = "",
 		id = 9,
 		qrcode_location = {
-			412,
-			-261
+			592,
+			381
 		},
 		hidden_comps = {
 			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
 			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
 		}
 	},
-	{
+	[10] = {
 		description = "#碧蓝航线#",
 		name = "画图功能分享",
 		deck = 1,
@@ -195,39 +195,8 @@ pg.share_template = {
 		show_comps = "",
 		id = 10,
 		qrcode_location = {
-			-412,
-			-261
-		}
-	},
-	{
-		description = "#碧蓝航线#",
-		name = "获得新舰娘界面之科研彩皮",
-		deck = 2,
-		camera = "OverlayCamera",
-		id = 11,
-		qrcode_location = {
-			412,
-			-261
-		},
-		hidden_comps = {
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/New",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/property_btn",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/left_panel",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/right_panel",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type/stars",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/dialogue"
-		},
-		show_comps = {
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/half_nation",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/special_rarity"
-		},
-		move_comps = {
-			{
-				y = -25,
-				x = 16,
-				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
-			}
+			-592,
+			-381
 		}
 	},
 	all = {
@@ -239,9 +208,8 @@ pg.share_template = {
 		6,
 		7,
 		8,
-		9,
 		10,
-		11
+		9
 	}
 }
 

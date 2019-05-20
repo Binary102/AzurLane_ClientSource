@@ -3,12 +3,14 @@ slot0.PAGE_BUILD = 1
 slot0.PAGE_QUEUE = 2
 slot0.PAGE_EXCHANGE = 3
 slot0.PAGE_UNSEAM = 4
+slot0.PAGE_PRAY = 5
 slot0.PROJECTS = {
 	SPECIAL = "special",
 	ACTIVITY = "new",
 	HEAVY = "heavy",
 	LIGHT = "light"
 }
+slot1 = pg.ship_data_create_material
 
 function slot0.getCreateId(slot0, slot1)
 	if slot1 == slot0.PROJECTS.ACTIVITY then
@@ -28,7 +30,124 @@ slot0.BUILD_TYPE_NORMAL = 1
 slot0.BUILD_TYPE_ACTIVITY = 2
 
 function slot0.getUIName(slot0)
-	return "buildShipUI"
+	return "BuildShipUI"
+end
+
+function slot2(slot0)
+	pg.DelegateInfo.New(slot1)
+
+	function slot2(slot0, slot1)
+		slot0.valueTxt.text = slot0
+
+		if slot1 then
+			slot0.text.text = slot1(slot0)
+		else
+			slot0.text.text = ""
+		end
+	end
+
+	return {
+		_go = slot0,
+		__cname = "buildmsgbox",
+		_tf = tf(slot0),
+		inited = false,
+		cancenlBtn = findTF(()["_go"], "window/btns/cancel_btn"),
+		confirmBtn = findTF(()["_go"], "window/btns/confirm_btn"),
+		closeBtn = findTF(()["_go"], "window/close_btn"),
+		count = 1,
+		minusBtn = findTF(()["_go"], "window/content/calc_panel/minus"),
+		addBtn = findTF(()["_go"], "window/content/calc_panel/add"),
+		maxBtn = findTF(()["_go"], "window/content/max"),
+		valueTxt = findTF(()["_go"], "window/content/calc_panel/Text"):GetComponent(typeof(Text)),
+		text = findTF(()["_go"], "window/content/Text"):GetComponent(typeof(Text)),
+		buildUI = slot0.parent,
+		active = false,
+		init = function (slot0)
+			slot0.inited = true
+
+			onButton(slot0, slot0._tf, function ()
+				slot0:hide()
+			end, SFX_PANEL)
+			onButton(slot0, slot0.cancenlBtn, function ()
+				slot0:hide()
+			end, SFX_PANEL)
+			onButton(slot0, slot0.confirmBtn, function ()
+				if slot0.onConfirm then
+					slot0.onConfirm(slot0.count)
+				end
+
+				slot0:hide()
+			end, SFX_PANEL)
+			onButton(slot0, slot0.closeBtn, function ()
+				slot0:hide()
+			end, SFX_PANEL)
+			onButton(slot0, slot0.minusBtn, function ()
+				if slot0:verifyCount(slot0.count - 1) then
+					slot0.count = math.max(slot0.count - 1, 1)
+
+					math.max(slot0.count - 1, 1)(slot0.count, slot0.updateText)
+				end
+			end, SFX_PANEL)
+			onButton(slot0, slot0.addBtn, function ()
+				if slot0:verifyCount(slot0.count + 1) then
+					slot0.count = math.min(slot0.count + 1, slot0.max)
+
+					math.min(slot0.count + 1, slot0.max)(slot0.count, slot0.updateText)
+				end
+			end, SFX_PANEL)
+			onButton(slot0, slot0.maxBtn, function ()
+				if slot0:verifyCount(slot0.max) then
+					slot0.count = slot0.max
+
+					slot0.max(slot0.count, slot0.updateText)
+				end
+			end, SFX_PANEL)
+		end,
+		verifyCount = function (slot0, slot1)
+			if slot0.verify then
+				return slot0.verify(slot1)
+			end
+
+			return true
+		end,
+		isActive = function (slot0)
+			return slot0.active
+		end,
+		show = function (slot0, slot1, slot2, slot3, slot4)
+			slot0.verify = slot2
+			slot0.onConfirm = slot3
+			slot0.active = true
+			slot0.max = slot1 or 1
+			slot0.count = 1
+			slot0.updateText = slot4
+
+			slot0(slot0.count, slot4)
+			setActive(slot1._go, true)
+
+			if not slot0.inited then
+				slot0:init()
+			end
+
+			pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+		end,
+		hide = function (slot0)
+			if slot0:isActive() then
+				slot0.onConfirm = nil
+				slot0.active = false
+				slot0.updateText = nil
+				slot0.count = 1
+				slot0.max = 1
+				slot0.verify = nil
+
+				setActive(slot0._go, false)
+				pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.buildUI)
+			end
+		end,
+		close = function (slot0)
+			slot0:hide()
+			pg.DelegateInfo.Dispose(slot0)
+		end
+	}
 end
 
 function slot0.setActivity(slot0, slot1)
@@ -65,18 +184,12 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.setUseItem(slot0, slot1)
-	slot0.useItem = slot1 or Item.New({
+	slot0.itemVO = slot1 or Item.New({
 		count = 0,
 		id = pg.ship_data_create_material[1].use_item
 	})
 
-	setText(slot0.useItemTF, slot0.useItem.count)
-end
-
-function slot0.setWorkCount(slot0, slot1)
-	slot0.workCount = slot1
-
-	setText(slot0.workCountTF, slot1)
+	setText(slot0.useItemTF, slot0.itemVO.count)
 end
 
 function slot0.setStartCount(slot0, slot1)
@@ -88,127 +201,61 @@ function slot0.setFlagShip(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0._guiderLoaded = true
-	slot0.backBtn = slot0:findTF("bg/blur_container/top/back")
-	slot0.togglesPanel = slot0:findTF("bg/blur_container/left_length/toggles")
-	slot0.projectTogglesPnael = slot0:findTF("bg/frame/projects")
-	slot0.projectBg = slot0:findTF("bg/frame/painting"):GetComponent(typeof(Image))
-	slot0.itemsPanel = slot0:findTF("bg/frame/painting/items_bg")
-	slot0.blurContainer = slot0:findTF("bg/blur_container")
-	slot0.startBtn = slot0:findTF("bg/frame/start_btn")
-	slot0.bgTF = slot0:findTF("bg")
+	slot0.blurPanel = slot0:findTF("blur_panel")
+	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
+	slot0.backBtn = slot0:findTF("back_btn", slot0.topPanel)
+	slot0.toggles = {
+		slot0:findTF("adapt/left_length/frame/tagRoot/build_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/queue_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/exchange_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/unseam_btn", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/pray_btn", slot0.blurPanel)
+	}
+	slot0.mainTF = slot0:findTF("bg/main")
 
-	setActive(slot0.bgTF, false)
+	setActive(slot0.mainTF, false)
 
-	slot0.helpBtn = slot0:findTF("bg/frame/help_btn")
-	slot0.tip = slot0:findTF("bg/blur_container/left_length/toggles/queue_btn/tip")
-	slot0.workCountTF = slot0:findTF("bg/title/value")
-	slot0.quickCount = slot0:findTF("bg/quick_count")
-	slot0.useItemTF = slot0:findTF("bg/quick_count/value")
-	slot0.useItemIconTF = slot0:findTF("bg/quick_count/icon"):GetComponent(typeof(Image))
-	slot0.useItemLabelTF = slot0:findTF("bg/quick_count/label"):GetComponent(typeof(Text))
-	slot0._topPanel = slot0:findTF("bg/blur_container/top")
-	slot0._leftPanel = slot0:findTF("bg/blur_container/left_length")
-	slot0._playerResOb = slot0:findTF("bg/blur_container/top/playerRes")
+	slot0.tip = slot0.toggles[2]:Find("tip")
+	slot0.quickCount = slot0:findTF("gallery/item", slot0.mainTF)
+	slot0.useItemTF = slot0:findTF("Text", slot0.quickCount)
+	slot0._playerResOb = slot0:findTF("res", slot0.topPanel)
 	slot0.resPanel = PlayerResource.New()
 
 	tf(slot0.resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
-	slot0.OverlayMain = pg.UIMgr:GetInstance().OverlayMain
+	slot0.patingTF = slot0:findTF("bg/main/painting")
+	slot0.msgbox = slot0(slot0:findTF("build_msg"))
 
-	setParent(slot0.blurContainer, slot0.OverlayMain)
-
-	slot0.materialCfg = pg.ship_data_create_material
-	slot0.patingTF = slot0:findTF("bg/painting")
-end
-
-function slot0.uiStartAnimating(slot0)
-	setAnchoredPosition(slot0._topPanel, {
-		y = 84
-	})
-	setAnchoredPosition(slot0._leftPanel, {
-		x = -1 * slot0._leftPanel.rect.width
-	})
-	shiftPanel(slot0._topPanel, nil, 0, slot2, slot1, true, true)
-	shiftPanel(slot0._leftPanel, 0, nil, slot2, slot1, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("bg/left", slot0._topPanel), slot0:findTF("bg/right", slot0._topPanel), slot0:findTF("bg/title_buildship", slot0._topPanel), slot0:findTF("bg/buildship", slot0._topPanel), nil, function ()
-		slot0.tweens = nil
-	end)
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0._topPanel, nil, 84, slot2, slot1, true, true)
-	shiftPanel(slot0._leftPanel, -1 * slot0._leftPanel.rect.width, nil, 0.3, 0, true, true, nil)
+	slot0:initHelpMsg()
 end
 
 function slot0.didEnter(slot0)
+	pg.UIMgr:GetInstance():OverlayPanel(slot0.blurPanel, {
+		groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+	})
 	onButton(slot0, slot0.quickCount, function ()
 		shoppingBatch(61008, {
 			id = pg.shop_template[61008].effect_args[1]
 		}, 9, "build_ship_quickly_buy_stone")
 	end)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:uiExitAnimating()
-
-		BuildShipScene.Page = nil
-		BuildShipScene.projectName = nil
-
-		BuildShipScene:emit(slot1.ON_BACK, nil, 0.3)
+		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
-	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-
-	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp"), false)
-	end
-
-	onButton(slot0, slot0:findTF("stamp"), function ()
+	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	onButton(slot0, slot1, function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(11)
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0.helpBtn, function ()
-		slot9, slot1, slot2, slot3, slot4, slot5 = slot0:getCurHelpContent()
-		slot6 = nil
-
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
-			helps = {
-				{
-					info = (not pg.gametip["help_build_" .. slot0] or i18n("help_build_" .. slot0, slot1, slot2, slot3, slot4, slot5)) and i18n("help_build", slot1, slot2, slot3, slot4, slot5)
-				},
-				helpbg = true,
-				helpSize = {
-					x = 490,
-					y = 220
-				},
-				windowSize = {
-					x = 520,
-					y = 380
-				}
-			},
-			custom = {
-				{
-					text = "text_iknow",
-					sound = SFX_CANCEL,
-					scale = {
-						x = 0.85,
-						y = 0.85
-					}
-				}
-			}
-		})
-	end)
 	setPaintingPrefabAsync(slot0.patingTF, slot0.falgShip:getPainting(), "build")
 
-	slot0.useItemIconTF.sprite = LoadSprite(slot0.useItem:getConfig("icon"))
-	slot0.useItemLabelTF.text = slot0.useItem:getConfig("name")
+	for slot5, slot6 in ipairs(slot0.toggles) do
+		onToggle(slot0, slot6, function (slot0)
+			slot0:switchPage(slot0.switchPage, slot0)
+		end, SFX_PANEL)
+	end
 
-	slot0:initToggles()
-
-	slot0.page = BuildShipScene.Page or slot0.contextData.page or slot0.PAGE_BUILD
+	slot0.page = slot0.contextData.page or BuildShipScene.Page or slot0.PAGE_BUILD
 
 	triggerToggle(slot0.toggles[slot0.page], true)
-	slot0:uiStartAnimating()
 	PoolMgr.GetInstance():GetUI("al_bg01", true, function (slot0)
 		slot0:SetActive(true)
 		setParent(slot0, slot0._tf)
@@ -216,24 +263,66 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
-	playSoundEffect(SFX_CANCEL)
+function slot0.initHelpMsg(slot0)
+	slot0.helpBtn = slot0:findTF("bg/main/gallery/help_btn")
+	slot0.helpMsgTF = slot0:findTF("build_help_msg")
+	slot0.shipListTF = slot0:findTF("window/list/scrollview/list", slot0.helpMsgTF)
+	slot0.shipListTpl = slot0:findTF("window/list/scrollview/item", slot0.helpMsgTF)
 
-	if slot0.isShowbuildMsgBox then
-		slot0:closeBuildMsgBox()
-	else
-		triggerButton(slot0.backBtn)
+	setActive(slot0.shipListTpl, false)
+
+	slot0.tipListTF = slot0:findTF("window/rateList/scrollview/list", slot0.helpMsgTF)
+	slot0.tipListTpl = slot0:findTF("window/rateList/scrollview/item", slot0.helpMsgTF)
+
+	setActive(slot0.tipListTpl, false)
+
+	function slot1()
+		setActive(slot0.helpMsgTF, true)
+		pg.UIMgr.GetInstance():BlurPanel(slot0.helpMsgTF)
 	end
-end
 
-function slot0.initToggles(slot0)
-	slot0.toggles = {}
+	function slot2()
+		setActive(slot0.helpMsgTF, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.helpMsgTF, slot0._tf)
+	end
 
-	for slot4 = 1, 4, 1 do
-		table.insert(slot0.toggles, slot5)
-		onToggle(slot0, slot0.togglesPanel:GetChild(slot4 - 1), function (slot0)
-			slot0:switchPage(slot0.switchPage, slot0)
-		end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("window/close_btn", slot0.helpMsgTF), function ()
+		slot0()
+	end)
+	onButton(slot0, slot0:findTF("window/confirm_btn", slot0.helpMsgTF), function ()
+		slot0()
+	end)
+	onButton(slot0, slot0.helpMsgTF, function ()
+		slot0()
+	end)
+
+	if slot0.helpBtn then
+		onButton(slot0, slot0.helpBtn, function ()
+			slot1 = slot0[slot0:getCreateId(slot0.curProjectName)]
+
+			for slot6 = 1, slot0.shipListTF.childCount, 1 do
+				if slot0.shipListTF:GetChild(slot6 - 1) then
+					setActive(slot7, false)
+				end
+			end
+
+			for slot7 = 1, slot0.tipListTF.childCount, 1 do
+				if slot0.tipListTF:GetChild(slot7 - 1) then
+					setActive(slot8, false)
+				end
+			end
+
+			for slot8 = 1, #slot1.rate_tip, 1 do
+				slot9 = nil
+
+				if (slot8 > slot3 or slot0.tipListTF:GetChild(slot8 - 1)) and cloneTplTo(slot0.tipListTpl, slot0.tipListTF) then
+					setActive(slot9, true)
+					setText(slot9, slot4[slot8])
+				end
+			end
+
+			slot2()
+		end)
 	end
 end
 
@@ -255,11 +344,17 @@ function slot0.switchPage(slot0, slot1, slot2)
 			slot0:emit(BuildShipMediator.CLOSE_EXCHANGE)
 		end
 	elseif slot1 == slot0.PAGE_BUILD then
-		setActive(slot0.bgTF, slot2)
+		setActive(slot0.mainTF, slot2)
 		slot0:initBuildPanel()
+	elseif slot1 == slot0.PAGE_PRAY then
+		if slot2 then
+			slot0:emit(BuildShipMediator.OPEN_PRAY_PAGE)
+		else
+			slot0:emit(BuildShipMediator.CLOSE_PRAY_PAGE)
+		end
 	end
 
-	BuildShipScene.Page = (slot1 == slot0.PAGE_UNSEAM and BuildShipScene.Page) or slot1
+	BuildShipScene.Page = (slot1 == slot0.PAGE_UNSEAM and slot0.PAGE_BUILD) or slot1
 end
 
 function slot0.initBuildPanel(slot0)
@@ -268,10 +363,31 @@ function slot0.initBuildPanel(slot0)
 	end
 
 	slot0.isInitBuild = true
-	slot0.tagsTF = slot0:findTF("bg/frame/prints/tag")
-	slot0.descsTF = slot0:findTF("bg/frame/prints/print_down")
+	slot0.projectToggles = {}
 
-	slot0:initProjectToggles()
+	for slot4, slot5 in pairs(slot0.PROJECTS) do
+		slot6 = slot0:findTF("gallery/toggle_bg/toggles/" .. slot5, slot0.mainTF)
+
+		onToggle(slot0, slot6:Find("frame"), function (slot0)
+			if slot0 then
+				slot0:switchProject(slot0.switchProject)
+			end
+		end, SFX_PANEL)
+
+		slot0.projectToggles[slot5] = slot6:Find("frame")
+	end
+
+	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY].parent, slot0.activity and not slot0.activity:isEnd())
+
+	if slot0.activity and not slot0.activity:isEnd() then
+		slot0.projectName = slot0.PROJECTS.ACTIVITY
+	elseif BuildShipScene.projectName == slot0.PROJECTS.ACTIVITY then
+		slot0.projectName = slot0.PROJECTS.HEAVY
+	else
+		slot0.projectName = slot0.contextData.projectName or BuildShipScene.projectName or slot0.PROJECTS.HEAVY
+	end
+
+	triggerToggle(slot0.projectToggles[slot0.projectName], true)
 end
 
 function slot0.updateActivityBuildPage(slot0)
@@ -282,157 +398,63 @@ function slot0.updateActivityBuildPage(slot0)
 	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY], slot0.activity and not slot0.activity:isEnd())
 end
 
-function slot0.initProjectToggles(slot0)
-	slot0.projectToggles = {}
-
-	for slot4, slot5 in pairs(slot0.PROJECTS) do
-		slot0.projectToggles[slot5] = slot0.projectTogglesPnael:Find(slot5)
-
-		onToggle(slot0, slot0.projectTogglesPnael.Find(slot5), function (slot0)
-			if slot0 then
-				slot0:switchProject(slot0.switchProject)
-			end
-		end, SFX_PANEL)
-	end
-
-	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY], slot0.activity)
-
-	if pg.GuideMgr2:GetInstance().ENABLE_GUIDE then
-		slot0.projectName = slot0.contextData.projectName or slot0.PROJECTS.LIGHT
-	else
-		slot0.projectName = BuildShipScene.projectName or slot0.contextData.projectName or (slot0.activity and slot0.PROJECTS.ACTIVITY) or slot0.PROJECTS.HEAVY
-	end
-
-	triggerToggle(slot0.projectToggles[slot0.projectName], true)
-end
-
-function slot0.notifacation(slot0, slot1)
+function slot0.updateQueueTip(slot0, slot1)
 	setActive(slot0.tip, slot1 > 0)
-end
-
-function slot0.getCurHelpContent(slot0)
-	return slot0:getCreateId(slot0.curProjectName), slot0.materialCfg[slot0.getCreateId(slot0.curProjectName)].name, slot0.materialCfg[slot0.getCreateId(slot0.curProjectName)].probability[1] / 100, slot0.materialCfg[slot0.getCreateId(slot0.curProjectName)].probability[2] / 100, slot0.materialCfg[slot0.getCreateId(slot0.curProjectName)].probability[3] / 100, slot0.materialCfg[slot0.getCreateId(slot0.curProjectName)].probability[4] / 100
 end
 
 function slot0.switchProject(slot0, slot1)
 	slot0.curProjectName = slot1
 	BuildShipScene.projectName = slot1
 
-	eachChild(slot0.tagsTF, function (slot0)
-		setActive(slot0, go(slot0).name == slot0)
-	end)
-	eachChild(slot0.descsTF, function (slot0)
-		setActive(slot0, go(slot0).name == slot0)
-	end)
+	slot0:setSpriteTo("resources/sub_title_" .. slot1, slot0:findTF("gallery/bg/type", slot0.mainTF), true)
+	setText(slot0:findTF("gallery/bg/type_intro/title", slot0.mainTF), i18n("buildship_" .. slot1 .. "_tip"))
 
-	slot0.projectBg.sprite = LoadSprite((getProxy(ActivityProxy).getBuildBgActivityByID(slot3, slot0.materialCfg[slot0:getCreateId(slot1)].id) and slot4) or "loadingbg/bg_" .. slot2.icon)
+	slot0:findTF("gallery/bg", slot0.mainTF):GetComponent(typeof(Image)).sprite = LoadSprite((getProxy(ActivityProxy).getBuildBgActivityByID(slot3, slot0[slot0:getCreateId(slot1)].id) and slot4) or "loadingbg/bg_" .. slot2.icon)
 
-	for slot9 = 1, 2, 1 do
-		slot11 = nil
-
-		updateDrop(slot0.itemsPanel:GetChild(slot9 - 1):Find("bg"), (slot9 ~= 1 or {
-			count = slot2.number_1,
-			type = DROP_TYPE_ITEM,
-			id = slot2.use_item
-		}) and {
-			id = 1,
-			type = DROP_TYPE_RESOURCE,
-			count = slot2.use_gold
-		})
-	end
-
-	slot6 = pg.item_data_statistics[slot2.use_item].name
-
-	onButton(slot0, slot0.startBtn, function ()
-		slot0:showBuildMsgBox({
-			max = math.max(MAX_BUILD_WORK_COUNT - slot0.startCount, 1),
-			name = slot1.name,
-			price = slot1.use_gold,
-			itemCount = slot1.number_1,
-			buildId = slot1.id
-		})
-	end, SFX_UI_BUILDING_STARTBUILDING)
-end
-
-function slot0.showBuildMsgBox(slot0, slot1)
-	slot0.buildShipCount = 0
-	slot0.info = slot1
-	slot0.isShowbuildMsgBox = true
-
-	if not slot0.isInitBuildMsgBox then
-		slot0.isInitBuildMsgBox = true
-		slot0.buildMsgBoxPanel = slot0:findTF("build_msg")
-		slot0.buildConfirmBtn = findTF(slot0.buildMsgBoxPanel, "window/bg/button_container/ok_btn")
-		slot0.buildCountNext = findTF(slot0.buildMsgBoxPanel, "window/bg/sliders/calc_panel/right_arr")
-		slot6 = findTF(slot0.buildMsgBoxPanel, "window/bg/sliders/calc_panel/value_bg/Text"):GetComponent(typeof(Text))
-		slot7 = findTF(slot0.buildMsgBoxPanel, "window/bg/sliders/content"):GetComponent(typeof(Text))
-
-		function updateCount(slot0)
-			slot0.buildShipCount = math.min(math.max(1, slot0), slot0.info.max)
-			slot0.text = slot0.buildShipCount
-			slot2 = tonumber(slot0.info.itemCount) * slot0.buildShipCount
-			slot3 = COLOR_GREEN
-
-			if slot0.player.gold < tonumber(slot0.info.price) * slot0.buildShipCount or slot0.useItem.count < slot2 then
-				slot3 = COLOR_RED
+	setText(slot7, slot2.number_1)
+	setText(slot8, slot2.use_gold)
+	onButton(slot0, slot0:findTF("gallery/start_btn", slot0.mainTF), function ()
+		slot0.msgbox:show(math.max(1, _.min({
+			math.floor(slot0.player.gold / slot1.use_gold),
+			math.floor(slot0.itemVO.count / slot1.number_1),
+			MAX_BUILD_WORK_COUNT - slot0.startCount
+		})), function (slot0)
+			if slot0 < slot0 or slot1.player.gold < slot0 * slot2.use_gold or slot1.itemVO.count < slot0 * slot2.number_1 then
+				return false
 			end
 
-			slot2.text = i18n("build_ship_tip", slot0.buildShipCount, slot0.info.name, slot1, slot2, slot3)
-		end
-
-		onButton(slot0, slot2, function ()
-			slot0:closeBuildMsgBox()
-		end, SFX_PANEL)
-		onButton(slot0, slot3, function ()
-			slot0:closeBuildMsgBox()
-		end, SFX_PANEL)
-		onButton(slot0, slot5, function ()
-			updateCount(slot0.info.max)
-		end, SFX_PANEL)
-		onButton(slot0, slot0.buildCountNext, function ()
-			updateCount(slot0.buildShipCount + 1)
-		end, SFX_PANEL)
-		onButton(slot0, findTF(slot0.buildMsgBoxPanel, "window/bg/sliders/calc_panel/left_arr"), function ()
-			updateCount(slot0.buildShipCount - 1)
-		end, SFX_PANEL)
-	end
-
-	triggerButton(slot0.buildCountNext)
-
-	slot2 = pg.ship_data_create_material[slot1.buildId]
-
-	onButton(slot0, slot0.buildConfirmBtn, function ()
-		print("buidId：" .. slot0.buildId .. "-- build count : " .. slot1.buildShipCount)
-
-		if slot2.type == slot3.BUILD_TYPE_ACTIVITY then
-			slot1:emit(BuildShipMediator.ACT_ON_BUILD, slot1.activity.id, slot0.buildId, slot1.buildShipCount)
-		elseif slot2.type == slot3.BUILD_TYPE_NORMAL then
-			slot1:emit(BuildShipMediator.ON_BUILD, slot0.buildId, slot1.buildShipCount)
-		end
-
-		slot1:closeBuildMsgBox()
+			return true
+		end, function (slot0)
+			if slot0.type == slot1.BUILD_TYPE_ACTIVITY then
+				slot2:emit(BuildShipMediator.ACT_ON_BUILD, slot2.activity.id, slot0.id, slot0)
+			elseif slot0.type == slot1.BUILD_TYPE_NORMAL then
+				slot2:emit(BuildShipMediator.ON_BUILD, slot0.id, slot0)
+			end
+		end, function (slot0)
+			return i18n("build_ship_tip", slot0, slot0.name, slot1, slot0 * slot0.number_1, (slot1(slot0) and COLOR_GREEN) or COLOR_RED)
+		end)
 	end, SFX_UI_BUILDING_STARTBUILDING)
-	setActive(slot0.buildMsgBoxPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(slot0.buildMsgBoxPanel)
 end
 
-function slot0.closeBuildMsgBox(slot0)
-	if slot0.isShowbuildMsgBox then
-		slot0.isShowbuildMsgBox = nil
+function slot0.onBackPressed(slot0)
+	if isActive(slot0.helpMsgTF) then
+		setActive(slot0.helpMsgTF, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.helpMsgTF, slot0._tf)
 
-		setActive(slot0.buildMsgBoxPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.buildMsgBoxPanel, slot0._tf)
+		return
 	end
+
+	if slot0.msgbox:isActive() then
+		slot0.msgbox:hide()
+
+		return
+	end
+
+	slot0:emit(slot0.ON_BACK_PRESSED)
 end
 
 function slot0.willExit(slot0)
-	setParent(slot0.blurContainer, slot0._tf)
-
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
-	end
-
-	slot0:closeBuildMsgBox()
+	slot0.msgbox:close()
 
 	if slot0.resPanel then
 		slot0.resPanel:exit()
@@ -441,6 +463,7 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:removeActTimer()
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
 return slot0

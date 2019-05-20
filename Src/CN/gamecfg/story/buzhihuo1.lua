@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=30>一　冷静的{namecode:20}</size>",
+					"万能看板娘{namecode:20}\n\n<size=45>一　冷静的{namecode:20}</size>",
 					1
 				}
 			}

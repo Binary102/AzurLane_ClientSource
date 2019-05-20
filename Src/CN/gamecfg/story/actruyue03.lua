@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"炎夏的火锅大会？！\n\n<size=30>三  冬天？夏天？</size>",
+					"炎夏的火锅大会？！\n\n<size=45>三  冬天？夏天？</size>",
 					1
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

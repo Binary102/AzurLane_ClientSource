@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>七 最重要的宝物</size>",
+					"Best Pictures!\n\n<size=45>七 最重要的宝物</size>",
 					1
 				}
 			}

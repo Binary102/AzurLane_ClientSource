@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=30>三 重樱的圣诞节·上</size>",
+					"爱与和平的圣夜祭\n\n<size=45>三 重樱的圣诞节·上</size>",
 					1
 				}
 			}

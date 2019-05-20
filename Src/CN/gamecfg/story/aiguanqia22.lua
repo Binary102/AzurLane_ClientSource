@@ -170,26 +170,26 @@ return {
 			hideOther = true,
 			actorName = "全员",
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			bgm = "ai-fb-inst",
+			bgm = "story-1",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "诶嘿嘿，平安回来了～！",
@@ -235,26 +235,26 @@ return {
 				number = 4
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},

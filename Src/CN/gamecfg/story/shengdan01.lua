@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=30>一　摄影大会！</size>",
+					"爱与和平的圣夜祭\n\n<size=45>一　摄影大会！</size>",
 					1
 				}
 			}

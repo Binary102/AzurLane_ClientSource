@@ -17,7 +17,7 @@ function slot0.setCapacity(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.parentTF = GameObject.Find("/UICamera/Canvas/UIMain/EquipmentUI2(Clone)")
+	slot0.parentTF = GameObject.Find("/UICamera/Canvas/UIMain/StoreHouseUI(Clone)")
 	slot0.equipmentView = slot0:findTF("equipment_scrollview", slot0.parentTF)
 	slot0.designScrollView = slot0:findTF("equipment_scrollview")
 	slot0.equipmentTpl = slot0:findTF("equipment_tpl")
@@ -27,13 +27,10 @@ function slot0.init(slot0)
 	setActive(slot0.msgBoxTF, false)
 
 	slot0.top = slot0:findTF("top")
-	slot0.sortBtn = slot0:findTF("top/sort_button")
-	slot0.decBtn = findTF(slot0.sortBtn, "dec_btn")
-	slot0.sortImgAsc = findTF(slot0.decBtn, "asc")
-	slot0.sortImgDec = findTF(slot0.decBtn, "desc")
-	slot0.indexPanel = slot0:findTF("index")
-	slot0.tagContainer = slot0:findTF("mask/panel", slot0.indexPanel)
-	slot0.tagTpl = slot0:getTpl("mask/panel/tpl", slot0.indexPanel)
+	slot0.sortBtn = slot0:findTF("sort_button", slot0.top)
+	slot0.decBtn = slot0:findTF("dec_btn", slot0.sortBtn)
+	slot0.sortImgAsc = slot0:findTF("asc", slot0.decBtn)
+	slot0.sortImgDec = slot0:findTF("desc", slot0.decBtn)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	setActive(slot0.equipmentView, false)
@@ -42,12 +39,6 @@ function slot0.init(slot0)
 end
 
 slot1 = {
-	i18n("word_default"),
-	i18n("word_rarity"),
-	i18n("word_count"),
-	i18n("word_kind")
-}
-slot2 = {
 	"sort_default",
 	"sort_rarity",
 	"sort_count",
@@ -55,19 +46,24 @@ slot2 = {
 }
 
 function slot0.didEnter(slot0)
-	slot0.topPanel = GameObject.Find("/OverlayCamera/Overlay/UIMain/top"):GetComponent("CanvasGroup")
+	slot0.topPanel = GameObject.Find("/OverlayCamera/Overlay/UIMain/blur_panel/adapt/top")
 
 	setParent(slot0.top, slot0.topPanel)
+
+	slot0.indexPanel = slot0.contextData.indexTF
+	slot0.tagContainer = slot0:findTF("adapt/mask/panel", slot0.indexPanel)
+	slot0.tagTpl = slot0:findTF("tpl", slot0.tagContainer)
+
 	slot0:initDesigns()
 	onToggle(slot0, slot0.sortBtn, function (slot0)
 		if slot0 then
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.indexPanel, {
+				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+			})
 			setActive(slot0.indexPanel, true)
-
-			slot0.topPanel.blocksRaycasts = false
 		else
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
 			setActive(slot0.indexPanel, false)
-
-			slot0.topPanel.blocksRaycasts = true
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel, function ()
@@ -86,19 +82,24 @@ function slot0.initTags(slot0)
 
 	slot0.tagTFs = {}
 
-	for slot4, slot5 in ipairs(slot0) do
-		slot6 = cloneTplTo(slot0.tagTpl, slot0.tagContainer)
+	eachChild(slot0.tagContainer, function (slot0)
+		setActive(slot0, false)
+	end)
 
-		setImageSprite(findTF(slot6, "Image"), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", slot1[slot4]))
-		onToggle(slot0, slot6, function (slot0)
+	for slot4, slot5 in ipairs(slot0) do
+		setActive((slot4 <= slot0.tagContainer.childCount and slot0.tagContainer:GetChild(slot4 - 1)) or cloneTplTo(slot0.tagTpl, slot0.tagContainer), true)
+		setImageSprite(findTF((slot4 <= slot0.tagContainer.childCount and slot0.tagContainer.GetChild(slot4 - 1)) or cloneTplTo(slot0.tagTpl, slot0.tagContainer), "Image"), GetSpriteFromAtlas("ui/equipmentdesignui_atlas", slot5))
+		onToggle(slot0, (slot4 <= slot0.tagContainer.childCount and slot0.tagContainer.GetChild(slot4 - 1)) or cloneTplTo(slot0.tagTpl, slot0.tagContainer), function (slot0)
 			if slot0 then
 				slot0:filter(slot0.filter)
 				triggerButton(slot0.indexPanel)
 
 				slot0.contextData.index = slot0.contextData
+			else
+				triggerButton(slot0.indexPanel)
 			end
 		end, SFX_PANEL)
-		table.insert(slot0.tagTFs, slot6)
+		table.insert(slot0.tagTFs, (slot4 <= slot0.tagContainer.childCount and slot0.tagContainer.GetChild(slot4 - 1)) or cloneTplTo(slot0.tagTpl, slot0.tagContainer))
 
 		if not slot0.contextData.index then
 			slot0.contextData.index = slot4
@@ -110,6 +111,7 @@ end
 
 function slot0.initDesigns(slot0)
 	slot0.scollRect = slot0.designScrollView:GetComponent("LScrollRect")
+	slot0.scollRect.decelerationRate = 0.07
 
 	slot0:filter(slot0.contextData.index or 1)
 
@@ -124,80 +126,80 @@ function slot0.initDesigns(slot0)
 	slot0.desgins = {}
 end
 
-function slot3(slot0, slot1, slot2)
-	setImageSprite(findTF(slot0, "tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(pg.equip_data_statistics[slot1.id].type)))
-	eachChild(slot3, function (slot0)
+function slot2(slot0, slot1)
+	setImageSprite(findTF(slot0, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot1.config.type)))
+	eachChild(slot2, function (slot0)
 		setActive(slot0, false)
 	end)
 
-	slot5 = slot1:GetProperties()
-	slot6 = (EquipType.Equipment == pg.equip_data_statistics[slot1.id].type and 3) or (slot2 and 8) or 4
+	slot4 = slot1:GetProperties()
+	slot5 = (EquipType.Equipment == slot1.config.type and 3) or 4
 
-	for slot10 = 1, slot6, 1 do
-		slot11 = EquipType.Equipment == slot4.type and slot10 == slot6
+	for slot9 = 1, slot5, 1 do
+		slot10 = EquipType.Equipment == slot3.type and slot9 == slot5
 
-		setActive((EquipType.Equipment == slot4.type and slot10 == slot6 and slot3:Find("attr_skill")) or slot3:Find("attr_" .. slot10), true)
+		setActive((EquipType.Equipment == slot3.type and slot9 == slot5 and slot2:Find("attr_skill")) or slot2:Find("attr_" .. slot9), true)
 
-		slot13 = (EquipType.Equipment == slot4.type and slot10 == slot6 and slot3.Find("attr_skill")) or slot3.Find("attr_" .. slot10):Find("panel/tag")
-		slot14 = (EquipType.Equipment == slot4.type and slot10 == slot6 and slot3.Find("attr_skill")) or slot3.Find("attr_" .. slot10):Find("panel")
-		slot15 = (EquipType.Equipment == slot4.type and slot10 == slot6 and slot3.Find("attr_skill")) or slot3.Find("attr_" .. slot10):Find("panel/value")
-		slot16 = (EquipType.Equipment == slot4.type and slot10 == slot6 and slot3.Find("attr_skill")) or slot3.Find("attr_" .. slot10):Find("lock")
+		slot12 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/tag")
+		slot13 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel")
+		slot14 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/value")
+		slot15 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("lock")
 
-		function slot17(slot0)
+		function slot16(slot0)
 			setActive(slot0, not slot0)
 			setActive(setActive, slot0)
 
 			return
 		end
 
-		if slot10 ~= slot6 then
-			slot11 = false
+		if slot9 ~= slot5 then
+			slot10 = false
 		else
-			slot11 = true
+			slot10 = true
 		end
 
-		if not slot3.Find("attr_skill") then
-			slot12 = slot3.Find("attr_" .. slot10)
+		if not slot2.Find("attr_skill") then
+			slot11 = slot2.Find("attr_" .. slot9)
 		end
 
 		if findTF(slot0, "skill/value") then
-			setText(slot18, "")
+			setText(slot17, "")
 		end
 
-		if slot11 then
-			if slot13 then
-				setText(slot13, i18n("skill"))
+		if slot10 then
+			if slot12 then
+				setText(slot12, i18n("skill"))
 			end
 
-			slot17(not slot4.skill_id[1])
+			slot16(not slot3.skill_id[1])
 
-			slot20 = findTF(slot0, "skill/value")
+			slot19 = findTF(slot0, "skill/value")
 
-			if slot4.skill_id[1] then
-				slot21 = getSkillConfig(slot19)
+			if slot3.skill_id[1] then
+				slot20 = getSkillConfig(slot18)
 
-				setText(slot15, getSkillName(slot19))
+				setText(slot14, getSkillName(slot18))
 
-				if slot20 then
-					setText(slot20, getSkillDescGet(slot19))
+				if slot19 then
+					setText(slot19, getSkillDescGet(slot18))
 				end
 			else
-				setText(slot15, "")
+				setText(slot14, "")
 
-				if slot20 then
-					setText(slot20, "")
+				if slot19 then
+					setText(slot19, "")
 				end
 			end
 		else
-			slot17(not slot5[slot10])
+			slot16(not slot4[slot9])
 
-			if slot5[slot10] then
-				if slot1.config.type ~= EquipType.Equipment and slot19.type == AttributeType.Reload and slot10 == 4 then
-					setText(slot13, i18n("word_attr_cd"))
-					setText(slot15, setColorStr(string.format("%0.2f", slot1:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
+			if slot4[slot9] then
+				if slot1.config.type ~= EquipType.Equipment and slot18.type == AttributeType.Reload and slot9 == 4 then
+					setText(slot12, i18n("word_attr_cd"))
+					setText(slot14, setColorStr(string.format("%0.2f", slot1:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 				else
-					setText(slot13, AttributeType.Type2Name(slot19.type))
-					setText(slot15, slot19.value)
+					setText(slot12, AttributeType.Type2Name(slot18.type))
+					setText(slot14, slot18.value)
 				end
 			end
 		end
@@ -205,12 +207,12 @@ function slot3(slot0, slot1, slot2)
 end
 
 function slot0.createDesign(slot0, slot1)
-	slot3 = findTF(slot1, "count")
-	slot4 = findTF(slot1, "mask")
+	slot2 = findTF(slot1, "info/count")
+	slot3 = findTF(slot1, "mask")
 
 	return {
 		go = slot1,
-		nameTxt = ScrollTxt.New(slot0:findTF("name_mask", slot2), slot0:findTF("name_mask/name", findTF(slot1, "equipment_info/panel_white/info_tpl_r"))),
+		nameTxt = slot0:findTF("name_bg/mask/name", slot1),
 		getItemById = function (slot0, slot1)
 			if not slot0.itemVOs[slot1] then
 				slot2 = Item.New({
@@ -225,8 +227,9 @@ function slot0.createDesign(slot0, slot1)
 			slot0.designId = slot1
 			slot0.itemVOs = slot2
 
-			slot0.nameTxt:setText(pg.equip_data_statistics[pg.compose_data_template[slot1].equip_id].name)
-			updateEquipment(slot0, slot6)
+			TweenItemAlphaAndWhite(slot0.go)
+			setText(slot0.nameTxt, shortenString(pg.equip_data_statistics[pg.compose_data_template[slot1].equip_id].name, 6))
+			updateEquipment(slot7, slot6)
 			slot3(slot0, Equipment.New({
 				id = pg.compose_data_template[slot1].equip_id
 			}))
@@ -264,7 +267,7 @@ function slot0.createDesign(slot0, slot1)
 end
 
 function slot0.initDesign(slot0, slot1)
-	onButton(slot0, tf(slot0:createDesign(slot1).go):Find("make_btn"), function ()
+	onButton(slot0, tf(slot0:createDesign(slot1).go):Find("info/make_btn"), function ()
 		slot0:showDesignDesc(slot1.designId)
 
 		return
@@ -279,7 +282,7 @@ function slot0.updateDesign(slot0, slot1, slot2)
 	if not slot0.desgins[slot2] then
 		slot0:initDesign(slot2)
 
-		slot3 = slot0.cardItems[slot2]
+		slot3 = slot0.desgins[slot2]
 	end
 
 	slot3:update(slot0.desginIds[slot1 + 1], slot0.itemVOs)
@@ -491,6 +494,7 @@ function slot0.filter(slot0, slot1)
 	slot0.desginIds = slot3
 
 	slot0.scollRect:SetTotalCount(#slot3, 0)
+	Canvas.ForceUpdateCanvases()
 	setImageSprite(slot0:findTF("Image", slot0.sortBtn), slot6)
 	setActive(slot0.sortImgAsc, slot0.asc)
 	setActive(slot0.sortImgDec, not slot0.asc)
@@ -519,24 +523,43 @@ function slot0.showDesignDesc(slot0, slot1)
 	slot0.UIMgr:BlurPanel(slot0.msgBoxTF)
 	setActive(slot0.msgBoxTF, true)
 
-	slot2 = slot0:findTF("msgbox", slot0.msgBoxTF)
-	slot5 = slot0:findTF("info_tpl_r", slot2)
-	slot6 = Equipment.New({
+	slot5 = Equipment.New({
 		id = pg.compose_data_template[slot1].equip_id
 	})
 
-	updateEquipment(slot5:Find("equip"), slot6)
-	slot0(slot5, slot6, true)
-	setText(slot5:Find("name"), slot6.config.name)
+	slot0:updateDescAttrs(slot0.msgBoxTF.Find(slot2, "bg/attrs"), slot5)
+	GetImageSpriteFromAtlasAsync("equips/" .. slot5.config.icon, "", slot6)
+	setText(slot0.msgBoxTF.Find(slot2, "bg/name"), slot5.config.name)
+	UIItemList.New(slot0.msgBoxTF.Find(slot2, "bg/frame/stars"), slot0.msgBoxTF.Find(slot2, "bg/frame/stars/sarttpl")).align(slot7, slot5.config.rarity)
+	setImageSprite(findTF(slot2, "bg/frame/type"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot5.config.type)))
 
-	slot8 = math.floor(slot0:getItemById(pg.compose_data_template[slot1].material_id).count / pg.compose_data_template[slot1].material_num)
-	slot10 = slot0:findTF("count_panel/value/Text", slot2)
-	slot11 = pg.compose_data_template[slot1].gold_num
-	slot12 = slot0:findTF("confirm_panel/consume/value", slot2)
+	slot0.msgBoxTF.Find(slot2, "bg/frame"):GetComponent(typeof(Image)).sprite = LoadSprite("bg/equipment_bg_" .. slot5.config.rarity)
+	slot9 = findTF(slot2, "bg/frame/numbers")
 
-	slot13(slot9)
+	if not slot5.config.tech then
+		slot10 = 1
+	end
 
-	slot0.leftEventTrigger = pressPersistTrigger(slot15, slot14, function ()
+	for slot14 = 0, slot9.childCount - 1, 1 do
+		slot16 = setActive
+		slot17 = slot9:GetChild(slot14)
+
+		if slot14 ~= slot10 then
+			slot18 = false
+		else
+			slot18 = true
+		end
+
+		slot16(slot17, slot18)
+	end
+
+	slot12 = math.floor(slot0:getItemById(slot3.material_id).count / slot3.material_num)
+	slot14 = slot0:findTF("bg/calc/values/Text", slot2)
+	slot15 = slot3.gold_num
+	slot16 = slot0:findTF("bg/calc/gold/Text", slot2)
+
+	slot17(slot13)
+	onButton(slot0, findTF(slot2, "bg/calc/minus"), function ()
 		if slot0 <= 1 then
 			return
 		end
@@ -546,8 +569,8 @@ function slot0.showDesignDesc(slot0, slot1)
 		slot1(slot1)
 
 		return
-	end, nil, nil, nil, nil, SFX_PANEL)
-	slot0.rightEventTrigger = pressPersistTrigger(slot16, slot14, function ()
+	end, SFX_PANEL)
+	onButton(slot0, findTF(slot2, "bg/calc/add"), function ()
 		if slot0 == slot1 then
 			return
 		end
@@ -557,9 +580,8 @@ function slot0.showDesignDesc(slot0, slot1)
 		slot2(slot2)
 
 		return
-	end, nil, nil, nil, nil, SFX_PANEL)
-
-	onButton(slot0, findTF(slot2, "count_panel/max"), function ()
+	end, SFX_PANEL)
+	onButton(slot0, findTF(slot2, "bg/calc/max"), function ()
 		if slot0 == slot1 then
 			return
 		end
@@ -568,35 +590,90 @@ function slot0.showDesignDesc(slot0, slot1)
 
 		return
 	end, SFX_PANEL)
-	onButton(slot0, findTF(slot2, "confirm_panel/cancel_button"), function ()
+	onButton(slot0, findTF(slot2, "bg/cancel_btn"), function ()
 		slot0:hideMsgBox()
 
 		return
 	end, SFX_CANCEL)
-	onButton(slot0, findTF(slot2, "confirm_panel/ok_button"), function ()
+	onButton(slot0, findTF(slot2, "bg/confirm_btn"), function ()
 		slot0:emit(EquipmentDesignMediator.MAKE_EQUIPMENT, slot0, )
 		slot0.emit:hideMsgBox()
 
 		return
 	end, SFX_CONFIRM)
+	onButton(slot0, slot2, function ()
+		slot0:hideMsgBox()
 
-	slot17 = findTF(slot0.msgBoxTF, "type")
+		return
+	end, SFX_CANCEL)
 
-	if not slot6.config.tech then
-		slot18 = 1
+	return
+end
+
+function slot3(slot0, slot1, slot2)
+	slot3 = findTF(slot0, "name")
+	slot4 = findTF(slot0, "value")
+
+	if slot2.config.type ~= EquipType.Equipment and slot1.type == AttributeType.Reload then
+		setText(slot3, i18n("word_attr_cd"))
+		setText(slot4, setColorStr(string.format("%0.2f", slot2:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
+	else
+		setText(slot3, AttributeType.Type2Name(slot1.type))
+		setText(slot4, slot1.value)
 	end
 
-	for slot22 = 0, slot17.childCount - 1, 1 do
-		slot24 = setActive
-		slot25 = slot17:GetChild(slot22)
+	return
+end
 
-		if slot22 ~= slot18 then
-			slot26 = false
-		else
-			slot26 = true
+function slot0.updateDescAttrs(slot0, slot1, slot2)
+	setImageSprite(findTF(slot1, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2.config.type)))
+
+	slot6 = findTF(slot5, "attr")
+	slot7 = findTF(slot3, "skill")
+	slot8 = slot2:GetProperties(true)
+	slot9 = slot2:GetSkill()
+
+	if not EquipType.isAircraft(slot2.configId) or not pg.aircraft_template[slot2.configId].weapon_ID then
+		slot11 = {}
+	end
+
+	setActive(slot7, slot9)
+
+	if slot9 then
+		setText(slot12, i18n("skill"))
+		setText(slot13, setColorStr(slot9.name, "#FFDE00FF"))
+		setText(findTF(slot7, "value/Text"), getSkillDescGet(slot9.id))
+	end
+
+	slot12 = 0
+
+	eachChild(slot5, function (slot0)
+		setActive(slot0, false)
+
+		return
+	end)
+
+	for slot16, slot17 in pairs(slot8) do
+		if slot12 + 1 > slot5.childCount or not slot5:GetChild(slot12 - 1) then
+			slot18 = cloneTplTo(slot6, slot5)
 		end
 
-		slot24(slot25, slot26)
+		setActive(slot18, slot17)
+
+		if slot17 then
+			slot0(slot18, slot17, slot2)
+		end
+	end
+
+	for slot16, slot17 in ipairs(slot11) do
+		if slot12 + 1 > slot5.childCount or not slot5:GetChild(slot12 - 1) then
+			slot18 = cloneTplTo(slot6, slot5)
+		end
+
+		setActive(slot18, true)
+		setTextFont(slot20, pg.FontMgr.GetInstance().fonts.heiti)
+		setText(slot19, "")
+		setText(findTF(slot18, "value"), setColorStr(pg.weapon_property[slot17].name, COLOR_YELLOW))
 	end
 
 	return
@@ -634,16 +711,6 @@ function slot0.willExit(slot0)
 	end
 
 	setParent(slot0.sortBtn.parent, slot0._tf)
-
-	slot0.topPanel.blocksRaycasts = true
-
-	for slot4, slot5 in pairs(slot0.desgins) do
-		if slot5.nameTxt then
-			slot5.nameTxt:destroy()
-
-			slot5.nameTxt = nil
-		end
-	end
 
 	return
 end

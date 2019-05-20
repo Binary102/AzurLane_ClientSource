@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「虚拟链接的共时性」日常編\n\n<size=30>一 有着“废柴”之名的天才AI</size>",
+					"「虚拟链接的共时性」日常編\n\n<size=45>一 有着“废柴”之名的天才AI</size>",
 					1
 				}
 			}
@@ -66,7 +66,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -109,7 +109,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -151,7 +151,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -315,7 +315,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -413,7 +413,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -562,30 +562,30 @@ return {
 			nameColor = "#a9f548",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			subActors = {
 				{
 					actor = 301050,
 					pos = {
-						x = 400
+						x = 600
 					}
 				},
 				{
 					actor = 201210,
 					pos = {
-						x = 700
+						x = 1050
 					}
 				},
 				{
 					actor = 401230,
 					pos = {
-						x = 1000
+						x = 1500
 					}
 				}
 			},

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>三 专心！未达目标绝不停歇</size>",
+					"轻型航母{namecode:90}参上！\n\n<size=45>三 专心！未达目标绝不停歇</size>",
 					1
 				}
 			}
@@ -207,7 +207,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

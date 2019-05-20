@@ -374,7 +374,7 @@ function slot0.updateVotePanel(slot0, slot1)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
-				showStopRamind = true,
+				showStopRemind = true,
 				content = i18n("vote_love_confirm"),
 				stopRamindContent = i18n("common_dont_remind_dur_login"),
 				onYes = function ()

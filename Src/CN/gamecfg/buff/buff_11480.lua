@@ -31,15 +31,13 @@ return {
 				targetMaxHPRatio = 0.2,
 				minTargetNumber = 1,
 				exceptCaster = true,
+				hpUpperBound = 0.2,
 				target = "TargetSelf",
 				quota = 1,
 				check_target = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet",
 					"TargetHelpLeastHP"
-				},
-				hpRatioList = {
-					0.2
 				}
 			}
 		},

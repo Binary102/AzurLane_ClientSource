@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=30>四　恶作剧时间？</size>",
+					"讴歌平稳的日常\n\n<size=45>四　恶作剧时间？</size>",
 					1
 				}
 			}
@@ -292,7 +292,7 @@ return {
 			say = "（咚！！！）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

@@ -1,9 +1,9 @@
 slot0 = class("EquipmentRarity")
-slot0.Gray = 1
-slot0.Blue = 2
-slot0.Purple = 3
-slot0.Gold = 4
-slot0.SSR = 5
+slot0.Gray = 2
+slot0.Blue = 3
+slot0.Purple = 4
+slot0.Gold = 5
+slot0.SSR = 6
 
 function slot0.Rarity2Print(slot0)
 	if not slot0.prints then
@@ -13,7 +13,9 @@ function slot0.Rarity2Print(slot0)
 			"2",
 			"3",
 			"4",
-			"5"
+			"5",
+			nil,
+			"7"
 		}
 	end
 

@@ -1,6 +1,11 @@
 return {
 	map_id = 10005,
 	id = 100000,
+	skill_hide = {
+		1,
+		2,
+		3
+	},
 	stages = {
 		{
 			stageIndex = 1,
@@ -56,10 +61,19 @@ return {
 					}
 				},
 				{
+					triggerType = 6,
+					waveIndex = 222,
+					preWaves = {},
+					triggerParams = {
+						event = "HideSkillUI",
+						id = "B001"
+					}
+				},
+				{
 					triggerType = 3,
 					waveIndex = 200,
 					preWaves = {
-						300
+						222
 					},
 					triggerParams = {
 						id = "S001"
@@ -73,7 +87,7 @@ return {
 					},
 					triggerParams = {
 						event = "ShowStick",
-						id = 1
+						id = "B001"
 					}
 				},
 				{
@@ -92,7 +106,7 @@ return {
 					},
 					triggerParams = {
 						event = "ShowSkill_2",
-						id = 1
+						id = "B001"
 					}
 				},
 				{
@@ -293,7 +307,7 @@ return {
 					},
 					triggerParams = {
 						event = "ShowSkill_1",
-						id = 1
+						id = "B001"
 					}
 				},
 				{

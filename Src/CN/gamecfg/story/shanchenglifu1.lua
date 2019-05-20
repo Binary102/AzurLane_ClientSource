@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区的特别宴会\n\n<size=30>一　准备完成喵！</size>",
+					"港区的特别宴会\n\n<size=45>一　准备完成喵！</size>",
 					1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -308,7 +308,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -441,7 +441,7 @@ return {
 				{
 					y = 0,
 					dur = 0.7,
-					x = 450,
+					x = 675,
 					type = "move"
 				}
 			}
@@ -458,7 +458,7 @@ return {
 				{
 					actor = 301180,
 					pos = {
-						x = 100
+						x = 150
 					}
 				}
 			},
@@ -472,7 +472,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -499,7 +499,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -670,7 +670,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 1000
+					x = 1500
 				}
 			}
 		},

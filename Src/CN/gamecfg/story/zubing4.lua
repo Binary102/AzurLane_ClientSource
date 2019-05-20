@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=30>四 {namecode:144}，为何而战？</size>",
+					"前进吧，{namecode:144}！\n\n<size=45>四 {namecode:144}，为何而战？</size>",
 					1
 				}
 			}

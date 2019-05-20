@@ -41,21 +41,21 @@ class("EquipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		content = i18n("ship_equip_exchange_tip", slot10:getName(), slot11.config.name, slot9:getName()),
 		onYes = function ()
 			function slot0(slot0, slot1, slot2, slot3)
+				slot5 = getProxy(EquipmentProxy).getEquipmentById(slot4, slot1)
+				slot5.count = 1
+
 				pg.ConnectionMgr.GetInstance():Send(12006, {
 					equip_id = slot1,
 					ship_id = slot2,
-					pos = slot3
+					pos = slot3,
+					type = slot5:GetCategory()
 				}, 12007, function (slot0)
 					if slot0.result == 0 then
-						slot2 = Equipment.New({
-							id = slot2.id
-						})
-						slot3 = getProxy(EquipmentProxy)
-						slot4 = pg.equip_skin_template
+						slot2 = pg.equip_skin_template
 
 						if slot0:getEquip(slot0.getEquip) then
 							if slot1:hasSkin() then
-								if _.any(slot4[slot1.skinId].equip_type, function (slot0)
+								if _.any(slot2[slot1.skinId].equip_type, function (slot0)
 									return slot0.config.type == slot0
 								end) then
 									slot2.skinId = slot1.skinId
@@ -63,39 +63,43 @@ class("EquipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slot1
 									slot3:addEquipmentSkin(slot1.skinId, 1)
 									pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
 								end
+
+								slot1.skinId = 0
 							end
 
-							slot3:addEquipmentById(slot1.id, 1, true)
+							slot3:addEquipment(slot1)
 						end
 
 						slot0:updateEquip(slot1, slot2)
-						slot3:updateShip(slot0)
-						slot3:removeEquipmentById(slot4, 1)
-						slot3.removeEquipmentById:sendNotification(GAME.EQUIP_TO_SHIP_DONE, slot0)
-						pg.TipsMgr:GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[slot4].name), "green")
-
-						return
+						slot0:updateShip(slot0)
+						slot0.updateShip:removeEquipmentById(slot0, 1)
+						slot6:sendNotification(GAME.EQUIP_TO_SHIP_DONE, slot0)
+						pg.TipsMgr:GetInstance():ShowTips(i18n("ship_equipToShip_ok", pg.equip_data_statistics[i18n].name), "green")
+					else
+						pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 					end
-
-					pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 				end)
 			end
 
 			pg.ConnectionMgr.GetInstance():Send(12006, {
+				type = 0,
 				equip_id = 0,
-				ship_id = slot3,
-				pos = slot4
+				ship_id = slot2,
+				pos = slot3
 			}, 12007, function (slot0)
 				if slot0.result == 0 then
 					if slot0:getEquip(getProxy(EquipmentProxy)) and slot2:hasSkin() then
 						slot1:addEquipmentSkin(slot2.skinId, 1)
+
+						slot2.skinId = 0
+
 						pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
 					end
 
 					slot0:updateEquip(slot1, nil)
 					slot2:updateShip(slot0)
-					slot1:addEquipmentById(slot1.addEquipmentById, 1, true)
-					slot1(slot1.addEquipmentById, slot1, 1, true)
+					slot1:addEquipment(slot2)
+					slot1:addEquipment(slot2, nil, slot7)
 				else
 					pg.TipsMgr:GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 				end

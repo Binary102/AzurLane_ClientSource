@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>一 身为女仆……</size>",
+					"天狼星改造计划\n\n<size=45>一 身为女仆……</size>",
 					1
 				}
 			}
@@ -197,7 +197,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -224,7 +224,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -313,7 +313,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

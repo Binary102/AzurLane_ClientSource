@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=30>七　新学年的开始</size>",
+					"樱花烂漫开学祭\n\n<size=45>七　新学年的开始</size>",
 					1
 				}
 			}
@@ -549,7 +549,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"

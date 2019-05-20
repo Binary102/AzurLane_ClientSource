@@ -23,4 +23,12 @@ function ys.Battle.RetreatOxyState.IsVisible(slot0)
 	return true
 end
 
+function ys.Battle.RetreatOxyState.GetBarVisible(slot0)
+	return false
+end
+
+function ys.Battle.RetreatOxyState.RunMode(slot0)
+	return false
+end
+
 return

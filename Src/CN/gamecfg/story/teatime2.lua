@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=30>二 怕寂寞的女王陛下</size>",
+					"热热闹闹的下午茶\n\n<size=45>二 怕寂寞的女王陛下</size>",
 					1
 				}
 			}

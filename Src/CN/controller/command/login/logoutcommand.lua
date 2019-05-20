@@ -8,10 +8,6 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	slot0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
 
-	if pg.GuideMgr2.ENABLE_GUIDE then
-		pg.GuideMgr2:GetInstance():QuitGuide()
-	end
-
 	if pg.StoryMgr:GetInstance()._go.activeSelf then
 		pg.StoryMgr:GetInstance():EndStory()
 	end
@@ -38,10 +34,12 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	DockyardScene.indexFlag2 = nil
 	DockyardScene.indexFlag3 = nil
 	LevelMediator2.prevRefreshBossTimeTime = nil
-	MainUIMediator.lastRequestVersionTime = nil
-	BattleScene.autoBotIsAcitve = nil
+	ActivityMainScene.FetchReturnersTime = nil
+	ActivityMainScene.Data2Time = nil
 	InvestigationLayer.Caches = {}
 
+	pg.SeriesGuideMgr.GetInstance():dispose()
+	pg.GuideMgr.GetInstance():endGuider()
 	PoolMgr.GetInstance():DestroyAllPrefab()
 
 	if getProxy(UserProxy) and slot6:getRawData() then
@@ -76,6 +74,9 @@ class("LogoutCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot0.facade:removeProxy(AnswerProxy.__cname)
 	slot0.facade:removeProxy(TechnologyProxy.__cname)
 	slot0.facade:removeProxy(TechnologyNationProxy.__cname)
+	slot0.facade:removeProxy(AttireProxy.__cname)
+	slot0.facade:removeProxy(ShipSkinProxy.__cname)
+	slot0.facade:removeProxy(PrayProxy.__cname)
 	slot0:sendNotification(GAME.LOAD_SCENE, {
 		context = Context.New({
 			cleanStack = true,

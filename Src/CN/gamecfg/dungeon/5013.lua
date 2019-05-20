@@ -34,7 +34,7 @@ return {
 					triggerParams = {},
 					spawn = {
 						{
-							monsterTemplateID = 900001,
+							monsterTemplateID = 900005,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -44,7 +44,7 @@ return {
 							},
 							bossData = {
 								hpBarNum = 30,
-								icon = "Z23"
+								icon = "lingbo"
 							},
 							phase = {
 								{
@@ -150,7 +150,8 @@ return {
 									index = 10,
 									switchParam = 2.5,
 									addWeapon = {
-										900191
+										900191,
+										950097
 									}
 								},
 								{

@@ -31,13 +31,9 @@ function ScrollTxt.changeToScroll(slot0, slot1)
 	slot2.anchorMin = Vector2(0.5, 0.5)
 	slot2.anchorMax = Vector2(0.5, 0.5)
 	slot2.localPosition = Vector3.zero
-	slot3 = ScrollTxt.New(slot1, slot2)
+	ScrollTxt.New(slot1, slot2)._txtIsClone = true
 
-	slot3:setText(getText(slot1))
-
-	slot3._txtIsClone = true
-
-	return slot3
+	return ScrollTxt.New(slot1, slot2)
 end
 
 function ScrollTxt.setText(slot0, slot1)

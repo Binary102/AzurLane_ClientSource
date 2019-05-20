@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>一　秘书舰{namecode:146}</size>",
+					"来自{namecode:146}的温柔\n\n<size=45>一　秘书舰{namecode:146}</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			say = "？！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

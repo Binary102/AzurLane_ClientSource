@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=30>四　图书室的妖精</size>",
+					"樱花烂漫开学祭\n\n<size=45>四　图书室的妖精</size>",
 					1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

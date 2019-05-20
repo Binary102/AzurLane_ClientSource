@@ -9,13 +9,21 @@ function slot0.init(slot0)
 	slot0.emojiGroup = slot0:findTF("frame/group")
 	slot0.emojiType = slot0:findTF("type", slot0.emojiGroup)
 	slot0.emojiSnap = slot0:findTF("frame/bg/mask/event"):GetComponent("HScrollSnap")
+
+	slot0.emojiSnap:Init()
+
 	slot0.emojiContent = slot0:findTF("content", slot0.emojiSnap)
 	slot0.emojiItem = slot0:findTF("item", slot0.emojiSnap)
-	slot0.emojiDots = slot0:findTF("dots", slot0.emojiSnap)
+	slot0.emojiDots = slot0:findTF("frame/dots")
 	slot0.emojiDot = slot0:findTF("dot", slot0.emojiSnap)
 
 	setActive(slot0.emojiItem, false)
 	setActive(slot0.emojiDot, false)
+
+	slot0.resource = slot0:findTF("frame/resource")
+	slot0.frame = slot0:findTF("frame")
+	slot0.frame.position = slot0.contextData.pos or Vector3(0, 0, 0)
+	slot0.frame.localPosition = Vector3(slot0.frame.localPosition.x, slot0.frame.localPosition.y, 0)
 end
 
 function slot0.didEnter(slot0)
@@ -23,7 +31,9 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-	setParent(slot0._tf, pg.UIMgr:GetInstance().OverlayMain, false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		groupName = slot0:getGroupNameFromData()
+	})
 end
 
 function slot0.display(slot0)

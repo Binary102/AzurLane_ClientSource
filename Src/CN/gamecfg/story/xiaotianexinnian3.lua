@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=30>三 雪地大混战！</size>",
+					"新年的祝福\n\n<size=45>三 雪地大混战！</size>",
 					1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -119,7 +119,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 1,
 					dur = 0.1,
@@ -161,7 +161,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -424,13 +424,13 @@ return {
 				{
 					actor = 301610,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301620,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -495,7 +495,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

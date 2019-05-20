@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"忍者修行之路？\n\n<size=30>四　第六驱逐队的日常·下</size>",
+					"忍者修行之路？\n\n<size=45>四　第六驱逐队的日常·下</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -427,7 +427,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			}

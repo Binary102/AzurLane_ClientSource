@@ -12,7 +12,7 @@ return {
 			sequenceSpd = 2,
 			sequence = {
 				{
-					"<size=30>新一年的春风造访了港区，昭示着「新学期」的开始</size>",
+					"<size=45>新一年的春风造访了港区，昭示着「新学期」的开始</size>",
 					2
 				},
 				{
@@ -20,7 +20,7 @@ return {
 					4
 				},
 				{
-					"<size=30>在盛放的樱花之下，春日的「开学祭」、开幕——</size>",
+					"<size=45>在盛放的樱花之下，春日的「开学祭」、开幕——</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=30>一　「迟到了迟到了！」</size>",
+					"樱花烂漫开学祭\n\n<size=45>一　「迟到了迟到了！」</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -77,7 +77,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -94,7 +94,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -269,7 +269,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -460,7 +460,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

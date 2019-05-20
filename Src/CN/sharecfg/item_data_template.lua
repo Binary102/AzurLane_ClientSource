@@ -13000,9 +13000,9 @@ pg.item_data_template = {
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
-		usage = "usage_undefined",
+		usage = "usage_drop",
 		other_item_cost = "[]",
-		usage_arg = "[]",
+		usage_arg = "90913",
 		id = 59711,
 		compose_number = 0,
 		target_id = 0,
@@ -13706,6 +13706,21 @@ pg.item_data_template = {
 		other_item_cost = "[]",
 		usage_arg = "[]",
 		id = 59773,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
+	[59774] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 59774,
 		compose_number = 0,
 		target_id = 0,
 		open_ui = {
@@ -14725,6 +14740,7 @@ pg.item_data_template = {
 		59760,
 		59762,
 		59773,
+		59774,
 		59823,
 		59900,
 		60001,

@@ -128,6 +128,10 @@ function pg.TimeMgr.GetServerWeek(slot0)
 	return math.ceil((slot0:GetServerTime() - slot0._begin) % slot0 / slot0.GetServerTime())
 end
 
+function pg.TimeMgr.GetServerHour(slot0)
+	return math.floor((slot0:GetServerTime() - slot0._begin) % slot0 / slot0.GetServerTime())
+end
+
 function pg.TimeMgr.GetServerTime(slot0)
 	return slot0:RealtimeSinceStartup() + slot0._deltaTime
 end
@@ -144,6 +148,14 @@ function pg.TimeMgr.DescTime(slot0, slot1, slot2, slot3)
 	else
 		return os.date(slot2, (slot1 - slot0._deltaTime + os.time()) - slot0:RealtimeSinceStartup())
 	end
+end
+
+function pg.TimeMgr.ChieseDescTime(slot0, slot1, slot2)
+	format = "%Y/%m/%d"
+	slot3 = nil
+	slot4 = split((not slot2 or os.date(format, slot1)) and os.date(format, (slot1 - slot0._deltaTime + os.time()) - slot0:RealtimeSinceStartup()), "/")
+
+	return NumberToChinese(slot4[1], false) .. "年" .. NumberToChinese(slot4[2], true) .. "月" .. NumberToChinese(slot4[3], true) .. "日"
 end
 
 function pg.TimeMgr.ServerTimeDesc(slot0, slot1, slot2)

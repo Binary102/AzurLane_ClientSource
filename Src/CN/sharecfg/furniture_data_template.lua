@@ -719,7 +719,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 101,
 		comfortable = 5,
-		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#fad545>——纪念在2017.4.18—4.26的光荣作战</color>",
+		describe = "内测期间完成指定任务，由司令部发放的荣耀之证\n<color=#ffde38>——纪念在2017.4.18—4.26的光荣作战</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -842,7 +842,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 104,
 		comfortable = 2,
-		describe = "白鹰第23驱逐舰中队\n<color=#fad545>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
+		describe = "白鹰第23驱逐舰中队\n<color=#ffde38>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -924,7 +924,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 106,
 		comfortable = 5,
-		describe = "遗落在「异色格」作战最终战场的陈旧勋章，经指挥部回收后，赠与一部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到铁血众人的执念与意志\n\t\t\t<color=#fad545>——纪念于2017年夏参与的异色格作战中获得的最高荣誉</color>",
+		describe = "遗落在「异色格」作战最终战场的陈旧勋章，经指挥部回收后，赠与一部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到铁血众人的执念与意志\n\t\t\t<color=#ffde38>——纪念于2017年夏参与的异色格作战中获得的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 8,
@@ -1200,7 +1200,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 112,
 		comfortable = 5,
-		describe = "遗落在塞壬的试验场中，由“红染的参访者”们回收的陈旧勋章，经过处理后，赠予部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到重樱众人的信念与意志\n\t\t\t<color=#fad545>——纪念参与特殊作战中获得的最高荣誉</color>",
+		describe = "遗落在塞壬的试验场中，由“红染的参访者”们回收的陈旧勋章，经过处理后，赠予部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到重樱众人的信念与意志\n\t\t\t<color=#ffde38>——纪念参与特殊作战中获得的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -1395,7 +1395,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 117,
 		comfortable = 5,
-		describe = "遗落在战火燃烧的废墟中，经指挥部回收后，赠与部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到白鹰众人们的坚定意志\n\t\t\t<color=#fad545>——参与坠落之翼作战的最高荣誉</color>",
+		describe = "遗落在战火燃烧的废墟中，经指挥部回收后，赠与部分在作战中做出杰出贡献的指挥官。仿佛能从中感受到白鹰众人们的坚定意志\n\t\t\t<color=#ffde38>——参与坠落之翼作战的最高荣誉</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -2692,7 +2692,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 141,
 		comfortable = 0,
-		describe = "「作为彻底净化虚拟空间的谢礼，请收下这个绊爱特制晃悠悠1:1比例纪念章，从今往后也请多关照了~」\n\t\t\t<color=#fad545>——绊爱</color>",
+		describe = "「作为彻底净化虚拟空间的谢礼，请收下这个绊爱特制晃悠悠1:1比例纪念章，从今往后也请多关照了~」\n\t\t\t<color=#ffde38>——绊爱</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,
@@ -3414,8 +3414,8 @@ pg.furniture_data_template = {
 		new = 1,
 		discount_time = "",
 		size = {
-			8,
-			5
+			10,
+			8
 		},
 		offset = {},
 		canputonGrid = {},
@@ -3424,11 +3424,11 @@ pg.furniture_data_template = {
 		},
 		spine = {
 			{
-				"MagicBoxB",
+				"xingguangwutaiB",
 				"normal"
 			},
 			{
-				"MagicBoxT"
+				"xingguangwutaiT"
 			},
 			{
 				{
@@ -3437,22 +3437,32 @@ pg.furniture_data_template = {
 				},
 				{
 					{
-						"stand21",
-						0,
-						"walk"
-					},
-					{
 						"walk1",
 						0,
 						"walk"
 					},
 					{
-						"stand22",
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
 						0,
 						"dance"
 					},
 					{
-						"walk2",
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
 						0,
 						"walk"
 					}
@@ -3474,10 +3484,7 @@ pg.furniture_data_template = {
 		},
 		animator = {
 			{
-				{
-					"MagicBoxCharControl",
-					"MagicBoxCharControl2"
-				}
+				"xingguangwutaiCharControl"
 			}
 		},
 		interAction_group = {}

@@ -278,34 +278,40 @@ function slot4.ResetFocus(slot0)
 	return
 end
 
-function slot4.GetCharacterArrowBarPosition(slot0, slot1)
-	slot2 = slot0._arrowLeftBottomPos
-	slot3 = slot0._arrowRightTopPos
-	slot4 = slot0._arrowCenterPos
+function slot4.GetCharacterArrowBarPosition(slot0, slot1, slot2)
+	slot3 = slot0._arrowLeftBottomPos
+	slot4 = slot0._arrowRightTopPos
+	slot5 = slot0._arrowCenterPos
 
 	if slot0._arrowLeftHorizon <= slot1.x and slot1.x < slot0._arrowRightHorizon and slot0._arrowBottomHorizon <= slot1.y and slot1.y <= slot0._arrowTopHorizon then
 		return nil
 	else
-		slot5 = slot1.y - slot4.y
-		slot6, slot7, slot8, slot9 = nil
+		slot6 = slot1.y - slot5.y
+		slot7, slot8, slot9, slot10 = nil
 
-		if slot4.x < slot1.x then
-			slot8 = slot3.x
-			slot9 = slot1.x - slot4.x
+		if slot5.x < slot1.x then
+			slot9 = slot4.x
+			slot10 = slot1.x - slot5.x
 		else
-			slot8 = slot2.x
-			slot9 = slot4.x - slot1.x
+			slot9 = slot3.x
+			slot10 = slot5.x - slot1.x
 		end
 
-		if slot3.y < slot5 / slot9 * slot0._arrowFieldHalfWidth then
-			slot8 = slot9 / slot5 * (slot3.y - slot4.y)
+		if slot4.y < slot6 / slot10 * slot0._arrowFieldHalfWidth then
+			slot9 = slot10 / slot6 * (slot4.y - slot5.y)
 		else
-			if slot7 < slot2.y then
-				slot8 = slot9 / slot5 * (slot2.y - slot4.y)
+			if slot8 < slot3.y then
+				slot9 = slot10 / slot6 * (slot3.y - slot5.y)
 			end
 		end
 
-		return Vector3(slot8, slot7, 10)
+		if slot2 then
+			slot2:Set(slot9, slot8, 10)
+
+			return slot2
+		else
+			return Vector3(slot9, slot8, 10)
+		end
 	end
 
 	return

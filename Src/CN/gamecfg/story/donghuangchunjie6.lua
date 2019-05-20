@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=30>六 热闹的“团聚”·下</size>",
+					"闹腾嬉戏东煌春节\n\n<size=45>六 热闹的“团聚”·下</size>",
 					1
 				}
 			}

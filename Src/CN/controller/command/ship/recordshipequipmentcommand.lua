@@ -56,7 +56,7 @@ class("RecordShipEquipmentCommand", pm.SimpleCommand).execute = function (slot0,
 		slot13 = {}
 
 		for slot17, slot18 in ipairs(slot11) do
-			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not slot12(slot17, slot18) then
+			if slot18 ~= -1 and (not slot10:getEquipmentById(slot18) or slot19.count <= 0) and not slot12(slot17, slot18) and pg.equip_data_statistics[slot18] then
 				slot11[slot17] = slot10:getSameTypeEquipmentId(Equipment.New({
 					id = slot18
 				})) or 0

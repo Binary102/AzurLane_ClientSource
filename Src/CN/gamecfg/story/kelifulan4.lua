@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>四　比赛开始！</size>",
+					"骑士与奖赏\n\n<size=45>四　比赛开始！</size>",
 					1
 				}
 			}
@@ -193,7 +193,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			},

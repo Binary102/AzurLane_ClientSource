@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"轻型航母{namecode:90}参上！\n\n<size=30>一 登场！日出之国的轻航母</size>",
+					"轻型航母{namecode:90}参上！\n\n<size=45>一 登场！日出之国的轻航母</size>",
 					1
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			say = "……危险！",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

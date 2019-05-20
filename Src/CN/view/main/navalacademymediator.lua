@@ -18,6 +18,7 @@ slot0.OPEN_ACTIVITY_PANEL = "NavalAcademyMediator:OPEN_ACTIVITY_PANEL"
 slot0.OPEN_ACTIVITY_SHOP = "NavalAcademyMediator:OPEN_ACTIVITY_SHOP"
 slot0.OPEN_SCROLL = "NavalAcademyMediator:OPEN_SCROLL"
 slot0.OPEN_COMMANDER = "NavalAcademyMediator:OPEN_COMMANDER"
+slot0.OPEN_TROPHY_GALLERY = "NavalAcademyMediator:OPEN_TROPHY_GALLERY"
 
 function slot0.register(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
@@ -33,16 +34,24 @@ function slot0.register(slot0)
 	end
 
 	slot0.viewComponent:SetTacticInfo(slot1:getStudents())
-	slot0:bind(slot0.OPEN_TACTIC, function (slot0)
+	slot0:bind(slot0.OPEN_TACTIC, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
 			mediator = NavalTacticsMediator,
 			viewComponent = NavalTacticsLayer,
 			data = {
 				shipToLesson = slot0.contextData.shipToLesson
-			}
+			},
+			onRemoved = slot1
 		}))
 
 		slot0.contextData.shipToLesson = nil
+	end)
+	slot0:bind(slot0.OPEN_TROPHY_GALLERY, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = TrophyGalleryMediator,
+			viewComponent = TrophyGalleryLayer,
+			onRemoved = slot1
+		}))
 	end)
 	slot0:bind(slot0.GO_SHOP, function (slot0)
 		slot0:addSubLayers(Context.New({
@@ -51,7 +60,10 @@ function slot0.register(slot0)
 			data = {
 				fromCharge = false,
 				warp = ShopsLayer.TYPE_SHOP_STREET
-			}
+			},
+			onRemoved = function ()
+				slot0.viewComponent:activeSakura(true)
+			end
 		}))
 	end)
 	slot0:bind(slot0.GET_RES, function (slot0, slot1)
@@ -166,10 +178,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:OpenResourcePanel(slot3.resVO)
 	elseif slot2 == ShopsMediator.OPEN then
 		slot0.viewComponent:activeSakura(false)
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == ShopsMediator then
-			slot0.viewComponent:activeSakura(true)
-		end
 	elseif slot2 ~= NavalAcademyProxy.START_LEARN_TACTICS then
 		if slot2 == NavalAcademyProxy.CANCEL_LEARN_TACTICS then
 		elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then

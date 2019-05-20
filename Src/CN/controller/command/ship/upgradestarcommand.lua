@@ -50,10 +50,13 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					if slot11 then
 						if slot11:hasSkin() then
 							slot1:addEquipmentSkin(slot11.skinId, 1)
+
+							slot11.skinId = 0
+
 							pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
-						slot1:addEquipmentById(slot11.id, 1, true)
+						slot1:addEquipment(slot11)
 					end
 				end
 

@@ -3,15 +3,28 @@ slot0.LoginLastTime = 0
 slot0.LoginSafeLock = 0
 
 function slot0.execute(slot0, slot1)
-	print("connect to game server - " .. slot1:getBody().host .. ":" .. slot1.getBody().port)
+	slot2 = slot1:getBody()
 
-	slot4 = getProxy(UserProxy).getData(slot3)
+	print("connect to game server - " .. slot3 .. ":" .. slot2:getPort())
 
-	if BilibiliSdkMgr.inst.channelUID == "" then
-		slot5 = PLATFORM_LOCAL
+	slot6 = getProxy(UserProxy).getData(slot5)
+	slot7 = ""
+
+	if PLATFORM_CODE == 1 then
+		if GetBiliServerId() == SHAREJOY_SERVER_ID then
+			slot7 = "cps"
+		elseif slot8 == BILI_SERVER_ID then
+			slot7 = "0"
+		elseif slot8 == UNION_SERVER_ID then
+			slot7 = BilibiliSdkMgr.inst.channelUID
+		end
 	end
 
-	function slot6(slot0)
+	if slot7 == "" then
+		slot7 = PLATFORM_LOCAL
+	end
+
+	function slot8(slot0)
 		slot1(pg.ConnectionMgr.GetInstance(), 10022, {
 			platform = slot0,
 			account_id = slot1.uid,
@@ -62,13 +75,14 @@ function slot0.execute(slot0, slot1)
 	slot0.LoginSafeLock = slot0.LoginSafeLock + 1
 
 	if math.abs(os.time() - slot0.LoginLastTime) > 1 or slot0.LoginSafeLock >= 5 then
-		slot0.LoginLastTime = slot7
+		slot0.LoginLastTime = slot9
 		slot0.LoginSafeLock = 0
 
 		if pg.ConnectionMgr.GetInstance():getConnection() and pg.ConnectionMgr.GetInstance():isConnected() then
-			slot6()
+			slot8()
 		else
-			pg.ConnectionMgr.GetInstance():Connect(slot2.host, slot2.port, function ()
+			pg.ConnectionMgr.GetInstance():SetProxyHost(slot2.proxyHost, slot2.proxyPort)
+			pg.ConnectionMgr.GetInstance():Connect(slot3, slot4, function ()
 				print("server: " .. slot0.id .. " uid: " .. slot1.uid)
 				slot0.id()
 			end, 6)

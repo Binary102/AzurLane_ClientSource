@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=30>三 危机发生！？</size>",
+					"「虚拟链接的共时性」净化篇\n\n<size=45>三 危机发生！？</size>",
 					1
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -200,7 +200,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -292,7 +292,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -403,7 +403,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			say = "<size=65>咚！</size>",
+			say = "<size=97.5>咚！</size>",
 			effects = {
 				{
 					active = true,

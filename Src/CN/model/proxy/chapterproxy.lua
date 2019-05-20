@@ -77,6 +77,8 @@ function slot0.register(slot0)
 			slot0.remasterId = slot0.react_chapter.active_id
 			slot0.remasterTime = slot0.react_chapter.active_timestamp
 			slot0.remasterTickets = slot0.react_chapter.count
+			slot0.remasterDailyCount = slot0.react_chapter.daily_count
+			slot0.remasterTip = slot0.remasterDailyCount <= 1
 		end
 
 		Map.lastMap = slot0:getLastMap(slot1.LAST_MAP)
@@ -998,6 +1000,45 @@ function slot0.getOtherFleetCommander(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+function slot0.getSubAidFlag(slot0)
+	slot1 = ys.Battle.BattleConst.SubAidFlag
+	slot2 = slot0.fleet
+
+	if _.detect(slot0.fleets, function (slot0)
+		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
+	end) then
+		slot5 = getProxy(PlayerProxy).getRawData(slot4)
+		slot6, slot7 = slot0:getFleetCost(slot2)
+		slot8, slot9 = slot0:getFleetAmmo(slot3)
+
+		if slot9 <= 0 then
+			return slot1.AMMO_EMPTY
+		elseif slot5.oil < slot3:getSummonCost() + slot7.oil then
+			return slot1.OIL_EMPTY
+		else
+			return true, slot3
+		end
+	else
+		return slot1.AID_EMPTY
+	end
+end
+
+function slot0.ifShowRemasterTip(slot0)
+	return slot0.remasterTip
+end
+
+function slot0.setRemasterTip(slot0, slot1)
+	slot0.remasterTip = slot1
+end
+
+function slot0.updateRemasterTicketsNum(slot0, slot1)
+	slot0.remasterTickets = slot1
+end
+
+function slot0.updateDailyCount(slot0)
+	slot0.remasterDailyCount = slot0.remasterDailyCount + 2
 end
 
 return slot0

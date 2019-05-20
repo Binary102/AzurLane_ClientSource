@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>一 妹妹的日常</size>",
+					"妹妹的变化\n\n<size=45>一 妹妹的日常</size>",
 					1
 				}
 			}
@@ -176,7 +176,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

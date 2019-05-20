@@ -10,11 +10,6 @@ function slot0.Ctor(slot0, slot1)
 	slot0.seaCameraGO.tag = "MainCamera"
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent(typeof(Camera))
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
-
-	if PLATFORM ~= PLATFORM_IPHONEPLAYER and PLATFORM_CODE == PLATFORM_CH then
-		slot0.seaCamera.rect = UnityEngine.Rect(0, 0, 1, 1)
-	end
-
 	slot0.seaCamera.enabled = true
 	slot0.mainCameraGO = GameObject.Find("MainCamera")
 end

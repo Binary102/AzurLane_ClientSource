@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Best Pictures!\n\n<size=30>六 取材秘辛系列・下</size>",
+					"Best Pictures!\n\n<size=45>六 取材秘辛系列・下</size>",
 					1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -267,7 +267,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

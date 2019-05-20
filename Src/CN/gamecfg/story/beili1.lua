@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>一 兔兔星是什么？</size>",
+					"神秘的兔兔星人？！\n\n<size=45>一 兔兔星是什么？</size>",
 					1
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -115,7 +115,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -158,7 +158,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.15,

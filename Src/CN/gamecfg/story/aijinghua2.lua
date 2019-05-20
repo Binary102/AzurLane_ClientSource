@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「虚拟链接的共时性」净化篇\n\n<size=30>二 天才与笨蛋只有一线之隔</size>",
+					"「虚拟链接的共时性」净化篇\n\n<size=45>二 天才与笨蛋只有一线之隔</size>",
 					1
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -190,7 +190,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 1,
 					dur = 0.5,
@@ -230,7 +230,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -333,7 +333,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -360,7 +360,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -516,7 +516,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -601,7 +601,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春天的赏樱大会\n\n<size=30>二  邀约</size>",
+					"春天的赏樱大会\n\n<size=45>二  邀约</size>",
 					1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 				{
 					actor = 307050,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

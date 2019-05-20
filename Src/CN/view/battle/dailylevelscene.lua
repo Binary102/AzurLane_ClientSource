@@ -13,33 +13,26 @@ end
 slot3 = 501
 
 function slot0.init(slot0)
-	slot0._guiderLoaded = true
-	slot0.top = slot0:findTF("top")
-	slot0.backBtn = slot0:findTF("top/title/back")
+	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
+	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)
 	slot0.resPanel = PlayerResource.New()
 
-	SetParent(slot0.resPanel._go, slot0:findTF("top/title/resources"), false)
+	SetParent(slot0.resPanel._go, slot0:findTF("res", slot0.topPanel), false)
 
-	slot0.content = slot0:findTF("list")
+	slot0.listPanel = slot0:findTF("list_panel")
+	slot0.content = slot0:findTF("list", slot0.listPanel)
 
-	setActive(slot0.content, false)
+	setActive(slot0.content, true)
 
-	slot0.dailylevelTpl = slot0:getTpl("list/captertpl")
+	slot0.dailylevelTpl = slot0:getTpl("list_panel/list/captertpl")
 	slot0.descPanel = slot0:findTF("desc_panel")
-	slot0.descMain = slot0:findTF("main", slot0.descPanel)
-	slot0.descChallengeNum = slot0:findTF("challenge_count", slot0.descPanel)
+	slot0.descMain = slot0:findTF("main_mask/main", slot0.descPanel)
+	slot0.descChallengeNum = slot0:findTF("challenge_count", slot0.descMain)
 	slot0.descChallengeText = slot0:findTF("Text", slot0.descChallengeNum)
 	slot0.stageTpl = slot0:getTpl("scrollview/content/stagetpl", slot0.descMain)
 	slot0.stageContain = slot0:findTF("scrollview/content", slot0.descMain)
 	slot0.arrows = slot0:findTF("arrows")
-	slot0.paint = slot0:findTF("paint", slot0.descPanel)
-
-	setActive(slot0.paint, false)
-
 	slot0.itemTpl = slot0:getTpl("item_tpl")
-
-	slot0:uiStartAnimating()
-
 	slot0.challengeStageView = slot0:findTF("stage_info")
 	slot0.challengeSetting = slot0:findTF("panel/setting", slot0.challengeStageView)
 	slot0.challengeBrief = slot0:findTF("panel/progress", slot0.challengeStageView)
@@ -76,26 +69,10 @@ function slot0.updateRes(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.uiStartAnimating(slot0)
-	setAnchoredPosition(slot0.top, {
-		y = slot0.top.rect.height
-	})
-	shiftPanel(slot0.top, nil, 0, 0.3, 0, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
-
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0.top), slot0:findTF("title/bg/right", slot0.top), slot0:findTF("title/bg/title_task", slot0.top), slot0:findTF("title/bg/daily", slot0.top), nil, function ()
-		slot0.tweens = nil
-	end)
-end
-
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0.top, nil, slot0.top.rect.height, 0.3, 0, true, true)
-end
-
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("help_btn"), function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_daily_task.tip
 		})
 	end, SFX_PANEL)
@@ -103,8 +80,7 @@ function slot0.didEnter(slot0)
 		if slot0.descMode then
 			slot0:enableDescMode(false)
 		else
-			slot0:uiExitAnimating()
-			slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.1)
+			slot0:emit(slot1.ON_BACK, nil, 0.1)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("rank_btn", slot0.challengeSetting), function ()
@@ -140,6 +116,11 @@ function slot0.initItems(slot0)
 		end
 	end
 
+	if slot0.contextData.dailyLevelId then
+		table.removebyvalue(slot2, slot3)
+		table.insert(slot2, math.ceil(#slot1.all / 2), slot0.contextData.dailyLevelId)
+	end
+
 	for slot6, slot7 in pairs(slot2) do
 		slot0.dailyLevelTFs[slot7] = cloneTplTo(slot0.dailylevelTpl, slot0.content, slot7)
 	end
@@ -153,6 +134,29 @@ function slot0.displayDailyLevels(slot0)
 	slot0.content:GetComponent(typeof(EnhancelScrollView)).onCenterClick = function (slot0)
 		slot0:tryOpenDesc(tonumber(slot0.name))
 	end
+
+	slot0.centerAniItem = nil
+	slot0.checkAniTimer = Timer.New(function ()
+		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
+			slot6 = slot4.localScale.x >= 0.98
+
+			if slot0.centerAniItem == slot4 then
+				return
+			else
+				slot0.centerAniItem = slot4
+
+				if slot0:findTF("icon/card", slot4) then
+					setActive(slot0:findTF("effect", slot7), slot6)
+
+					if slot0:findTF("mask/char", slot7):GetComponent(typeof(Animator)) then
+						slot8.speed = (slot6 and 1) or 0
+					end
+				end
+			end
+		end
+	end, 0.2, -1)
+
+	slot0.checkAniTimer:Start()
 end
 
 function slot0.tryOpenDesc(slot0, slot1)
@@ -172,9 +176,18 @@ function slot0.initDailyLevel(slot0, slot1)
 		slot0.index = slot1
 	end
 
+	setActive(findTF(slot3, "lock"), not slot4 and not table.isEmpty(slot2.weekday))
 	setText(findTF(slot3, "name"), slot2.title)
 	setActive(findTF(slot3, "time"), false)
-	setImageSprite(findTF(slot3, "icon"), GetSpriteFromAtlas("dailylevelicon/" .. slot2.pic, ""), true)
+
+	slot5 = findTF(slot3, "icon")
+
+	PoolMgr.GetInstance():GetPrefab("dailyui/" .. slot2.pic, "", true, function (slot0)
+		tf(slot0):SetParent(tf(slot0), false)
+
+		tf(slot0).localPosition = Vector3.zero
+		tf(slot0).name = "card"
+	end)
 
 	if slot0 == slot1 then
 		slot6 = 0
@@ -199,6 +212,8 @@ function slot0.initDailyLevel(slot0, slot1)
 end
 
 function slot0.openDailyDesc(slot0, slot1)
+	slot0.curId = slot1
+
 	slot0:enableDescMode(true)
 	slot0:displayStageList(slot1)
 end
@@ -270,7 +285,8 @@ function slot0.openChallengeView(slot0)
 	end
 
 	onButton(slot0, slot0:findTF("panel/right/rule_btn", slot0.challengeStageView), function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("challenge_rule")
 		})
 	end, SFX_PANEL)
@@ -433,7 +449,6 @@ end
 function slot0.updateStage(slot0, slot1)
 	setText(findTF(slot3, "left_panel/name"), pg.expedition_data_template[slot1.id].name)
 	setText(findTF(slot3, "left_panel/lv/Text"), "Lv." .. slot1.level)
-	setActive(findTF(slot3, "left_panel/class"), true)
 	setActive(slot0:findTF("mask", slot3), slot0.player.level < slot1.level)
 
 	if slot0.player.level < slot1.level then
@@ -477,12 +492,17 @@ function slot0.enableDescMode(slot0, slot1)
 
 	setActive(slot0:findTF("help_btn"), not slot1)
 
-	function slot2(slot0, slot1, slot2)
+	function slot2(slot0, slot1, slot2, slot3)
 		if LeanTween.isTweening(go(slot0)) then
 			LeanTween.cancel(go(slot0))
 		end
 
-		LeanTween.moveX(rtf(slot0), slot1, 0.5):setEase(LeanTweenType.easeInOutBack):setOnComplete(System.Action(function ()
+		slot4 = LeanTween.moveX
+		slot5 = rtf(slot0)
+		slot6 = slot1
+		slot7 = slot3 or 0.3
+
+		LeanTween.moveX(slot5, slot6, slot7):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
 			if slot0 then
 				slot0()
 			end
@@ -491,10 +511,43 @@ function slot0.enableDescMode(slot0, slot1)
 		end))
 
 		return
+
+		slot7 = 0.3
 	end
 
 	function slot3()
-		setActive(slot0.content, not slot1)
+		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
+			setButtonEnabled(slot4, not slot1)
+
+			if slot3 ~= slot0.curId then
+				if LeanTween.isTweening(go(slot4)) then
+					LeanTween.cancel(go(slot4))
+				end
+
+				slot5 = GetComponent(slot4, typeof(CanvasGroup))
+
+				if slot1 then
+					LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+						slot0.alpha = slot0
+
+						return
+					end))
+				else
+					LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+						slot0.alpha = slot0
+
+						return
+					end))
+				end
+			end
+		end
+
+		return
+	end
+
+	function slot4()
+		setActive(slot0.listPanel, true)
+		setActive(slot0.content, true)
 		setActive(slot0.descPanel, )
 		setActive(slot0.arrows, not slot1)
 
@@ -502,21 +555,43 @@ function slot0.enableDescMode(slot0, slot1)
 	end
 
 	if slot1 then
+		slot4()
 		slot3()
-		slot2(slot0.descMain, 0)
-		slot2(slot0.descChallengeNum, 35)
-		setActive(slot0.paint, true)
-		slot2(slot0.paint, 0)
-	else
-		slot3()
-		slot2(slot0.descMain, 895)
-		slot2(slot0.descChallengeNum, -214)
-		slot2(slot0.paint, -700, function ()
-			setActive(slot0.paint, false)
+		slot2(slot0.listPanel, -622, function ()
+			slot0(slot1.descMain, 0)
 
 			return
 		end)
+	else
+		slot4()
+		slot3()
+		slot2(slot0.listPanel, 0)
+		slot2(slot0.descMain, -1342)
 	end
+
+	return
+end
+
+function slot0.clearTween(slot0)
+	if slot0.tweens then
+		cancelTweens(slot0.tweens)
+	end
+
+	function slot1(slot0)
+		if LeanTween.isTweening(go(slot0)) then
+			LeanTween.cancel(go(slot0))
+		end
+
+		return
+	end
+
+	for slot5, slot6 in pairs(slot0.dailyLevelTFs) do
+		slot1(slot6)
+	end
+
+	slot1(slot0.listPanel)
+	slot1(slot0.descMain)
+	slot1(slot0.descChallengeNum)
 
 	return
 end
@@ -524,9 +599,12 @@ end
 function slot0.willExit(slot0)
 	slot0:closeChallengeSettingView()
 	slot0:closeChallengeFleetEditView()
+	slot0:clearTween()
 
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
+	if slot0.checkAniTimer then
+		slot0.checkAniTimer:Stop()
+
+		slot0.checkAniTimer = nil
 	end
 
 	if slot0.resPanel then

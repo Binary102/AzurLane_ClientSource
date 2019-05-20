@@ -200,10 +200,11 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 
 	slot6(slot7, slot8)
 
-	slot6 = Vector3
-	slot6 = slot6.zero
+	slot7 = slot4
+	slot6 = slot4.EqualZero
+	slot6 = slot6(slot7)
 
-	if slot4 == slot6 then
+	if slot6 then
 		slot7 = slot2
 		slot6 = slot2.GetPosition
 		slot6 = slot6(slot7)

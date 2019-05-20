@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=30>『异色海域GREEN』</size>",
+					"<size=45>『异色海域GREEN』</size>",
 					1
 				}
 			}

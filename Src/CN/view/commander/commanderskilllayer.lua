@@ -5,7 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.backBtn = slot0:findTF("panel/top/btnBack")
+	slot0.backBtn = slot0:findTF("top/btnBack")
 	slot0.skillInfoName = slot0:findTF("panel/bg/skill_name")
 	slot0.skillInfoLv = slot0:findTF("panel/bg/skill_lv")
 	slot0.skillInfoIntro = slot0:findTF("panel/bg/help_panel/skill_intro")

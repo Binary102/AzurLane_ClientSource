@@ -13,10 +13,6 @@ end
 function slot0.on(slot0, slot1, slot2)
 	pg.ConnectionMgr.GetInstance():On(slot1, function (slot0)
 		slot0(slot0)
-		pg.GuideMgr2:GetInstance():dispatch({
-			checkView = false,
-			event = tostring(pg.GuideMgr2.GetInstance().dispatch)
-		})
 	end)
 	table.insert(slot0.event, slot1)
 end

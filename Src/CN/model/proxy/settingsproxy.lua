@@ -1,6 +1,7 @@
 slot0 = class("SettingsProxy", pm.Proxy)
 
 function slot0.onRegister(slot0)
+	slot0._ShowBg = PlayerPrefs.GetInt("disableBG", 1) > 0
 	slot0._ShowLive2d = PlayerPrefs.GetInt("disableLive2d", 1) > 0
 	slot0._selectedShipId = PlayerPrefs.GetInt("playerShipId")
 	slot0._backyardFoodRemind = PlayerPrefs.GetString("backyardRemind")
@@ -22,6 +23,15 @@ function slot0.SetLive2dEnable(slot0, slot1)
 	end
 end
 
+function slot0.SetBGEnable(slot0, slot1)
+	if slot0._ShowBg ~= slot1 then
+		slot0._ShowBg = slot1
+
+		PlayerPrefs.SetInt("disableBG", (slot1 and 1) or 0)
+		PlayerPrefs.Save()
+	end
+end
+
 function slot0.getUserAgreement(slot0)
 	return slot0._userAgreement
 end
@@ -37,6 +47,10 @@ end
 
 function slot0.IsLive2dEnable(slot0)
 	return slot0._ShowLive2d
+end
+
+function slot0.IsBGEnable(slot0)
+	return slot0._ShowBg
 end
 
 function slot0.SetSelectedShipId(slot0, slot1)
@@ -61,7 +75,7 @@ function slot0.getEquipSceneIndex(slot0)
 end
 
 function slot0.resetEquipSceneIndex(slot0)
-	slot0._equipSceneIndex = EquipmentScene.WARP_TO_MATERIAL
+	slot0._equipSceneIndex = StoreHouseConst.WARP_TO_MATERIAL
 end
 
 function slot0.setActivityLayerIndex(slot0, slot1)
@@ -119,9 +133,9 @@ function slot0.checkReadHelp(slot0, slot1)
 		return true
 	end
 
-	if slot1 == "help_backyard" and slot3.guideIndex < pg.open_systems_limited[1].guid_end_id then
+	if slot1 == "help_backyard" then
 		return true
-	elseif GUIDE_FINALE <= slot3.guideIndex then
+	elseif pg.SeriesGuideMgr:GetInstance():isEnd() then
 		slot4 = PlayerPrefs.GetInt(slot1, 0)
 
 		return PlayerPrefs.GetInt(slot1, 0) > 0

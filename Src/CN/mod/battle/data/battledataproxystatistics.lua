@@ -80,6 +80,12 @@ function ys.Battle.BattleDataProxy.DodgemCountInit(slot0)
 	}
 end
 
+function ys.Battle.BattleDataProxy.SubmarineRunInit(slot0)
+	slot0._subRunStatistics = {
+		score = 0
+	}
+end
+
 function ys.Battle.BattleDataProxy.SetFlagShipID(slot0, slot1)
 	if slot1 then
 		slot0._statistics._flagShipID = slot1:GetAttrByName("id")
@@ -384,6 +390,25 @@ function ys.Battle.BattleDataProxy.CalcSpecificEnemyInfo(slot0, slot1)
 			totalHp = slot0._statistics["enemy_" .. slot8].max_hp
 		})
 	end
+end
+
+function ys.Battle.BattleDataProxy.CalcKillingSupplyShip(slot0)
+	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRunTimeUp(slot0)
+	slot0._statistics._battleScore = slot0.BattleScore.B
+	slot0._statistics.subRunResult = slot0._subRunStatistics
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRunScore(slot0)
+	slot0._statistics._battleScore = slot0.BattleScore.S
+	slot0._statistics.subRunResult = slot0._subRunStatistics
+end
+
+function ys.Battle.BattleDataProxy.CalcSubRunDead(slot0)
+	slot0._statistics._battleScore = slot0.BattleScore.D
+	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
 return

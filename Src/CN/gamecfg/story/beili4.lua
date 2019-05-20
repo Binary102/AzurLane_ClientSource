@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>四 兔兔星人特征——“偶像”？</size>",
+					"神秘的兔兔星人？！\n\n<size=45>四 兔兔星人特征——“偶像”？</size>",
 					1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -230,7 +230,7 @@ return {
 			say = "……原来都是向本森学的吗。",
 			dialogShake = {
 				speed = 0.15,
-				x = 15,
+				x = 22.5,
 				number = 2
 			},
 			typewriter = {

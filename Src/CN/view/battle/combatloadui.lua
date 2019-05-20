@@ -1,6 +1,6 @@
 slot0 = class("CombatLoadUI", import("..base.BaseUI"))
 slot0._loadObs = nil
-slot0.LOADING_ANIMA_DISTANCE = 980
+slot0.LOADING_ANIMA_DISTANCE = 1820
 
 function slot0.getUIName(slot0)
 	return "CombatLoadUI"
@@ -15,6 +15,8 @@ function slot0.init(slot0)
 	slot0._loadingAnimaPosY = slot0._loadingAnima.anchoredPosition.y
 	slot0._finishAnima = slot1:Find("done_anima")
 
+	SetActive(slot0._loadingAnima, true)
+	SetActive(slot0._finishAnima, false)
 	slot0._finishAnima:GetComponent("DftAniEvent").SetEndEvent(slot2, function (slot0)
 		slot0:emit(CombatLoadMediator.FINISH, slot0._loadObs)
 	end)
@@ -176,13 +178,14 @@ function slot0.Preload(slot0)
 
 		if slot0.contextData.prefabFleet then
 			slot6 = slot0.contextData.prefabFleet.vanguard_unitList
+			slot7 = slot0.contextData.prefabFleet.submarine_unitList
 
 			if slot0.contextData.prefabFleet.main_unitList then
-				for slot10, slot11 in ipairs(slot5) do
+				for slot11, slot12 in ipairs(slot5) do
 					table.insert(slot3, {
-						configId = slot11.configId,
-						equipments = slot11.equipment,
-						skinId = slot11.skinId,
+						configId = slot12.configId,
+						equipments = slot12.equipment,
+						skinId = slot12.skinId,
 						getActiveEquipments = function (slot0)
 							return slot0.equipments
 						end
@@ -191,11 +194,24 @@ function slot0.Preload(slot0)
 			end
 
 			if slot6 then
-				for slot10, slot11 in ipairs(slot6) do
+				for slot11, slot12 in ipairs(slot6) do
 					table.insert(slot3, {
-						configId = slot11.configId,
-						equipments = slot11.equipment,
-						skinId = slot11.skinId,
+						configId = slot12.configId,
+						equipments = slot12.equipment,
+						skinId = slot12.skinId,
+						getActiveEquipments = function (slot0)
+							return slot0.equipments
+						end
+					})
+				end
+			end
+
+			if slot7 then
+				for slot11, slot12 in ipairs(slot7) do
+					table.insert(slot3, {
+						configId = slot12.configId,
+						equipments = slot12.equipment,
+						skinId = slot12.skinId,
 						getActiveEquipments = function (slot0)
 							return slot0.equipments
 						end

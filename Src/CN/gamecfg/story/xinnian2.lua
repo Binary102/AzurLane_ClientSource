@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=30>二  扫除与“扫除”</size>",
+					"新年快乐\n\n<size=45>二  扫除与“扫除”</size>",
 					1
 				}
 			}
@@ -256,7 +256,7 @@ return {
 					actor = 307020,
 					dir = -1,
 					pos = {
-						x = -735
+						x = -1102.5
 					}
 				}
 			},

@@ -10,7 +10,6 @@ end
 
 function slot0.init(slot0)
 	slot0.eventTriggers = {}
-	slot0._guiderLoaded = true
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._backBtn = slot0:findTF("top/title/back")
 	slot0._moveLayer = slot0:findTF("moveLayer")
@@ -72,9 +71,7 @@ end
 
 function slot0.uiStartAnimating(slot0)
 	shiftPanel(slot0._middle, 0, nil, 0.3, 0, true, true)
-	shiftPanel(slot0._right, 0, nil, 0.3, 0, true, true, nil, function ()
-		slot0:dispatchUILoaded(true)
-	end)
+	shiftPanel(slot0._right, 0, nil, 0.3, 0, true, true, nil)
 	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil, nil)
 
 	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0.topPanel), slot0:findTF("title/bg/right", slot0.topPanel), slot0:findTF("title/bg/title_formation", slot0.topPanel), slot0:findTF("title/bg/formation", slot0.topPanel), 0.27, function ()

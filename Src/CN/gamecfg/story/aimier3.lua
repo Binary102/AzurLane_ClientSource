@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"自由的天使\n\n<size=30>三 意外的特长</size>",
+					"自由的天使\n\n<size=45>三 意外的特长</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					dur = 0.1,
 					number = 2,
 					type = "shake"
@@ -105,7 +105,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.4,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			}

@@ -15,9 +15,6 @@ function slot0.init(slot0)
 	slot0.talentsTextList = {}
 	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
 	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
-	slot0.btn = slot0:findTF("desc/Button")
-
-	setActive(slot0.btn, Application.isEditor)
 end
 
 function slot0.update(slot0, slot1)
@@ -37,20 +34,6 @@ end
 
 function slot0.attach(slot0, slot1)
 	slot0.super.attach(slot0, slot1)
-	onButton(slot0, slot0.btn, function ()
-		slot1 = slot0.fleet:getCommanders()
-
-		for slot5, slot6 in ipairs(slot0) do
-			slot7 = getProxy(BayProxy):getShipById(slot6)
-			slot9 = slot7:getName() .. "\n"
-
-			for slot13, slot14 in pairs(slot8) do
-				slot9 = slot9 .. slot13 .. ":" .. slot14 .. "\n"
-			end
-
-			print(slot9)
-		end
-	end)
 	onButton(slot0, slot0.samllTF, function ()
 		slot0:openDescPanel(0.2, function ()
 			slot0:updateDesc()
@@ -68,9 +51,9 @@ function slot0.openDescPanel(slot0, slot1, slot2)
 		return
 	end
 
-	LeanTween.moveX(slot0.samllTF, 204, slot3):setFrom(0):setOnComplete(System.Action(function ()
+	LeanTween.moveX(slot0.samllTF, 800, slot3):setFrom(0):setOnComplete(System.Action(function ()
 		setActive(slot0.descPanel, true)
-		LeanTween.moveX(slot0.descFrameTF, 0, ):setFrom(574):setOnComplete(System.Action(System.Action))
+		LeanTween.moveX(slot0.descFrameTF, 0, ):setFrom(800):setOnComplete(System.Action(System.Action))
 	end))
 
 	slot0.parent.contextData.inDescPage = true
@@ -85,9 +68,9 @@ function slot0.closeDescPanel(slot0, slot1)
 		return
 	end
 
-	LeanTween.moveX(slot0.descFrameTF, 574, slot2):setFrom(0):setOnComplete(System.Action(function ()
+	LeanTween.moveX(slot0.descFrameTF, 800, slot2):setFrom(0):setOnComplete(System.Action(function ()
 		setActive(slot0.descPanel, false)
-		LeanTween.moveX(slot0.samllTF, 0, ):setFrom(204)
+		LeanTween.moveX(slot0.samllTF, 0, ):setFrom(800)
 	end))
 
 	slot0.parent.contextData.inDescPage = false
@@ -132,6 +115,7 @@ function slot0.updateAdditions(slot0)
 	end)
 	slot0.talentsTF:align(#_.values(slot0.fleet.getCommandersTalentDesc(slot1)))
 	setActive(slot0.talentsArr, #_.values(slot0.fleet.getCommandersTalentDesc(slot1)) > 4)
+	Canvas.ForceUpdateCanvases()
 end
 
 function slot0.updateSkillTF(slot0, slot1, slot2)

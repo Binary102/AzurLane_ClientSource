@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=30>三 女王事件Ⅰ</size>",
+					"荣光的间奏曲\n\n<size=45>三 女王事件Ⅰ</size>",
 					1
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -92,7 +92,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
@@ -137,7 +137,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=30>一 明天的天气是……</size>",
+					"雨后天晴\n\n<size=45>一 明天的天气是……</size>",
 					1
 				}
 			}
@@ -59,7 +59,7 @@ return {
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -82,7 +82,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -180,7 +180,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.5,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -203,7 +203,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

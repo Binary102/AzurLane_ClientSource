@@ -17,9 +17,9 @@ slot0.ARCH_MASK_NAME = "icon_front_arch"
 slot0.FURNITRUE_MASK_NAME = "icon_front"
 slot0.FURNITRUE_MASK_ORDER_NAME = "icon_front_"
 slot1 = {
-	Vector2(216, -225),
+	Vector2(216, -81.5),
 	Vector2(190, -282),
-	Vector2(154, -352)
+	Vector2(154, -408.4)
 }
 
 function slot0.level2WarnPos(slot0)

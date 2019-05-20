@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大青花鱼的“陷阱”\n\n<size=30>一　指挥室的陷阱</size>",
+					"大青花鱼的“陷阱”\n\n<size=45>一　指挥室的陷阱</size>",
 					1
 				}
 			}
@@ -318,7 +318,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -371,7 +371,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

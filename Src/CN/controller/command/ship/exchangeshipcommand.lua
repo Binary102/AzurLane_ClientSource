@@ -5,7 +5,7 @@ class("ExchangeShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot11 = getProxy(BagProxy).getItemById(slot10, ITEM_ID_SILVER_HOOK)
 
 	if getProxy(PlayerProxy).getData(slot12).ship_bag_max <= #getProxy(BayProxy).getShips(slot8) then
-		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
+		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		return
 	end

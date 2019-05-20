@@ -11,11 +11,7 @@ function slot0.setShip(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-	slot0._overlayUIMain = pg.UIMgr:GetInstance().OverlayMain
-	slot0.UIMain = pg.UIMgr:GetInstance().UIMain
-
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.displayPanel = slot0:findTF("display")
 
@@ -27,12 +23,17 @@ function slot0.init(slot0)
 	slot0.replacePanel = slot0:findTF("replace")
 
 	setActive(slot0.replacePanel, false)
+
+	slot0.scrollTxtList = {}
 end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
+	onButton(slot0, slot0._tf:Find("display/top/btnBack"), function ()
+		slot0:emit(slot1.ON_CLOSE)
+	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("actions/cancel_button", slot0.replacePanel), function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -110,11 +111,13 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 
 	setActive(slot6, slot4)
 
-	if slot4 then
-		slot0:findTF("info/name", slot1):GetComponent(typeof(Text)).text = pg.equip_skin_template[slot2].name
-		slot0:findTF("info/desc", slot1):GetComponent(typeof(Text)).text = pg.equip_skin_template[slot2].desc
-		slot0:findTF("info/equip_type", slot1):GetComponent(typeof(Text)).text = i18n("word_fit") .. ": " .. table.concat(slot11, ",")
+	slot1:GetComponent(typeof(Image)).enabled = slot4
 
+	if slot4 then
+		slot0:findTF("info/display_panel/name_container/name", slot1):GetComponent(typeof(Text)).text = pg.equip_skin_template[slot2].name
+		slot0:findTF("info/display_panel/desc", slot1):GetComponent(typeof(Text)).text = pg.equip_skin_template[slot2].desc
+
+		slot0.scrollTxtList[slot1] or ScrollTxt.New(slot0:findTF("info/display_panel/equip_type/mask", slot1), slot0:findTF("info/display_panel/equip_type/mask/Text", slot1), true):setText(table.concat(slot11, ","))
 		setActive(slot12, true)
 		onButton(slot0, slot12, function ()
 			slot0:emit(EquipmentSkinMediator.ON_PREVIEW, slot0)
@@ -135,7 +138,11 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 end
 
 function slot0.willExit(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.UIMain)
+
+	for slot4, slot5 in ipairs(slot0.scrollTxtList) do
+		slot5:destroy()
+	end
 end
 
 return slot0

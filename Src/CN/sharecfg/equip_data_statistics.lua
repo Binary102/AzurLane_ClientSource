@@ -14,8 +14,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 2,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 2,
@@ -45,8 +46,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 2,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 3,
@@ -78,8 +80,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 5,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 4,
@@ -111,8 +114,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 3,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 5,
@@ -144,8 +148,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 2,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 6,
@@ -175,8 +180,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 2,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 7,
@@ -206,8 +212,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 2,
-		descrip = "序章用",
+		is_siren = 0,
 		scatter = "20",
+		descrip = "序章用",
 		ammo = "通常",
 		value_3 = 0,
 		id = 8,
@@ -217,6 +224,38 @@ pg.equip_data_statistics = {
 		},
 		weapon_id = {
 			8
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[20] = {
+		name = "U556关卡单发鱼雷",
+		type = 5,
+		nationality = 4,
+		speciality = "锁定",
+		range = 60,
+		angle = 60,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "2700",
+		value_1 = "0",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "20",
+		descrip = "序章用",
+		ammo = "通常",
+		value_3 = 0,
+		id = 20,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			20
 		},
 		skill_id = {},
 		part_main = {},
@@ -237,8 +276,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "测试装备",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "测试装备",
 		ammo = "无",
 		value_3 = 0,
 		id = 98,
@@ -266,8 +306,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "测试装备",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "测试装备",
 		ammo = "无",
 		value_3 = 0,
 		id = 99,
@@ -297,8 +338,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -329,8 +371,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "14°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -361,8 +404,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "15°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -393,8 +437,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "20",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -425,8 +470,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -455,8 +501,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "30°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -485,8 +532,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -515,8 +563,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "50°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -545,8 +594,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "60°",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -575,8 +625,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -606,8 +657,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -636,8 +688,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -666,8 +719,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -697,8 +751,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -727,8 +782,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -757,8 +813,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -788,8 +845,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -818,8 +876,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -848,8 +907,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -879,8 +939,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -909,8 +970,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -939,8 +1001,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -969,8 +1032,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "5",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1001,6 +1065,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -1030,8 +1095,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1049,6 +1115,7 @@ pg.equip_data_statistics = {
 	[202] = {
 		name = "白鹰雷击轻巡副炮T2",
 		base = 201,
+		is_siren = 0,
 		id = 202,
 		value_1 = "4 x 2",
 		weapon_id = {
@@ -1057,10 +1124,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[203] = {
+		value_1 = "4 x 2",
 		name = "白鹰雷击轻巡副炮T3",
 		base = 201,
+		is_siren = 0,
 		id = 203,
-		value_1 = "4 x 2",
 		weapon_id = {
 			203
 		},
@@ -1070,10 +1138,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[204] = {
+		value_1 = "5 x 2",
 		name = "白鹰雷击轻巡副炮T4",
 		base = 201,
+		is_siren = 0,
 		id = 204,
-		value_1 = "5 x 2",
 		weapon_id = {
 			204
 		},
@@ -1098,8 +1167,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1117,6 +1187,7 @@ pg.equip_data_statistics = {
 	[212] = {
 		name = "皇家雷击轻巡副炮T2",
 		base = 211,
+		is_siren = 0,
 		id = 212,
 		value_1 = "4 x 2",
 		weapon_id = {
@@ -1127,6 +1198,7 @@ pg.equip_data_statistics = {
 	[213] = {
 		name = "皇家雷击轻巡副炮T3",
 		base = 211,
+		is_siren = 0,
 		id = 213,
 		value_1 = "5 x 2",
 		weapon_id = {
@@ -1137,6 +1209,7 @@ pg.equip_data_statistics = {
 	[214] = {
 		name = "皇家雷击轻巡副炮T4",
 		base = 211,
+		is_siren = 0,
 		id = 214,
 		value_1 = "6 x 2",
 		weapon_id = {
@@ -1160,8 +1233,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1179,6 +1253,7 @@ pg.equip_data_statistics = {
 	[222] = {
 		name = "重樱雷击轻巡副炮T2",
 		base = 221,
+		is_siren = 0,
 		id = 222,
 		value_1 = "3 x 2",
 		weapon_id = {
@@ -1187,10 +1262,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[223] = {
+		value_1 = "3 x 2",
 		name = "重樱雷击轻巡副炮T3",
 		base = 221,
+		is_siren = 0,
 		id = 223,
-		value_1 = "3 x 2",
 		weapon_id = {
 			223
 		},
@@ -1200,10 +1276,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[224] = {
+		value_1 = "4 x 2",
 		name = "重樱雷击轻巡副炮T4",
 		base = 221,
+		is_siren = 0,
 		id = 224,
-		value_1 = "4 x 2",
 		weapon_id = {
 			224
 		},
@@ -1228,8 +1305,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1247,6 +1325,7 @@ pg.equip_data_statistics = {
 	[232] = {
 		name = "铁血雷击轻巡副炮T2",
 		base = 231,
+		is_siren = 0,
 		id = 232,
 		value_1 = "3 x 2",
 		weapon_id = {
@@ -1257,6 +1336,7 @@ pg.equip_data_statistics = {
 	[233] = {
 		name = "铁血雷击轻巡副炮T3",
 		base = 231,
+		is_siren = 0,
 		id = 233,
 		value_1 = "4 x 2",
 		weapon_id = {
@@ -1267,6 +1347,7 @@ pg.equip_data_statistics = {
 	[234] = {
 		name = "铁血雷击轻巡副炮T4",
 		base = 231,
+		is_siren = 0,
 		id = 234,
 		value_1 = "5 x 2",
 		weapon_id = {
@@ -1290,8 +1371,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1309,6 +1391,7 @@ pg.equip_data_statistics = {
 	[262] = {
 		name = "北方联合雷击轻巡副炮T2",
 		base = 261,
+		is_siren = 0,
 		id = 262,
 		value_1 = "4 x 2",
 		weapon_id = {
@@ -1317,10 +1400,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[263] = {
+		value_1 = "4 x 2",
 		name = "北方联合雷击轻巡副炮T3",
 		base = 261,
+		is_siren = 0,
 		id = 263,
-		value_1 = "4 x 2",
 		weapon_id = {
 			263
 		},
@@ -1330,10 +1414,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[264] = {
+		value_1 = "5 x 2",
 		name = "北方联合雷击轻巡副炮T4",
 		base = 261,
+		is_siren = 0,
 		id = 264,
-		value_1 = "5 x 2",
 		weapon_id = {
 			264
 		},
@@ -1358,8 +1443,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1377,6 +1463,7 @@ pg.equip_data_statistics = {
 	[272] = {
 		name = "鸢尾雷击轻巡副炮T2",
 		base = 271,
+		is_siren = 0,
 		id = 272,
 		value_1 = "3 x 3",
 		weapon_id = {
@@ -1385,10 +1472,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[273] = {
+		value_1 = "4 x 3",
 		name = "鸢尾雷击轻巡副炮T3",
 		base = 271,
+		is_siren = 0,
 		id = 273,
-		value_1 = "4 x 3",
 		weapon_id = {
 			273
 		},
@@ -1398,10 +1486,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[274] = {
+		value_1 = "5 x 3",
 		name = "鸢尾雷击轻巡副炮T4",
 		base = 271,
+		is_siren = 0,
 		id = 274,
-		value_1 = "5 x 3",
 		weapon_id = {
 			274
 		},
@@ -1426,8 +1515,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1445,6 +1535,7 @@ pg.equip_data_statistics = {
 	[302] = {
 		name = "白鹰雷击重巡副炮T2",
 		base = 301,
+		is_siren = 0,
 		id = 302,
 		value_1 = "4 x 3",
 		weapon_id = {
@@ -1453,10 +1544,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[303] = {
+		value_1 = "4 x 3",
 		name = "白鹰雷击重巡副炮T3",
 		base = 301,
+		is_siren = 0,
 		id = 303,
-		value_1 = "4 x 3",
 		weapon_id = {
 			303
 		},
@@ -1466,10 +1558,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[304] = {
+		value_1 = "5 x 3",
 		name = "白鹰雷击重巡副炮T4",
 		base = 301,
+		is_siren = 0,
 		id = 304,
-		value_1 = "5 x 3",
 		weapon_id = {
 			304
 		},
@@ -1494,8 +1587,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1513,6 +1607,7 @@ pg.equip_data_statistics = {
 	[312] = {
 		name = "皇家雷击重巡副炮T2",
 		base = 311,
+		is_siren = 0,
 		id = 312,
 		value_1 = "4 x 3",
 		weapon_id = {
@@ -1523,6 +1618,7 @@ pg.equip_data_statistics = {
 	[313] = {
 		name = "皇家雷击重巡副炮T3",
 		base = 311,
+		is_siren = 0,
 		id = 313,
 		value_1 = "5 x 3",
 		weapon_id = {
@@ -1533,6 +1629,7 @@ pg.equip_data_statistics = {
 	[314] = {
 		name = "皇家雷击重巡副炮T4",
 		base = 311,
+		is_siren = 0,
 		id = 314,
 		value_1 = "6 x 3",
 		weapon_id = {
@@ -1556,8 +1653,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1575,6 +1673,7 @@ pg.equip_data_statistics = {
 	[322] = {
 		name = "重樱雷击重巡副炮T2",
 		base = 321,
+		is_siren = 0,
 		id = 322,
 		value_1 = "3 x 3",
 		weapon_id = {
@@ -1583,10 +1682,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[323] = {
+		value_1 = "3 x 3",
 		name = "重樱雷击重巡副炮T3",
 		base = 321,
+		is_siren = 0,
 		id = 323,
-		value_1 = "3 x 3",
 		weapon_id = {
 			323
 		},
@@ -1596,10 +1696,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[324] = {
+		value_1 = "4 x 3",
 		name = "重樱雷击重巡副炮T4",
 		base = 321,
+		is_siren = 0,
 		id = 324,
-		value_1 = "4 x 3",
 		weapon_id = {
 			324
 		},
@@ -1624,8 +1725,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1643,6 +1745,7 @@ pg.equip_data_statistics = {
 	[332] = {
 		name = "铁血雷击重巡副炮T2",
 		base = 331,
+		is_siren = 0,
 		id = 332,
 		value_1 = "3 x 3",
 		weapon_id = {
@@ -1653,6 +1756,7 @@ pg.equip_data_statistics = {
 	[333] = {
 		name = "铁血雷击重巡副炮T3",
 		base = 331,
+		is_siren = 0,
 		id = 333,
 		value_1 = "4 x 3",
 		weapon_id = {
@@ -1663,6 +1767,7 @@ pg.equip_data_statistics = {
 	[334] = {
 		name = "铁血雷击重巡副炮T4",
 		base = 331,
+		is_siren = 0,
 		id = 334,
 		value_1 = "5 x 3",
 		weapon_id = {
@@ -1686,8 +1791,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "默认装备",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "默认装备",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -1705,6 +1811,7 @@ pg.equip_data_statistics = {
 	[372] = {
 		name = "鸢尾雷击重巡副炮T2",
 		base = 371,
+		is_siren = 0,
 		id = 372,
 		value_1 = "3 x 3",
 		weapon_id = {
@@ -1715,6 +1822,7 @@ pg.equip_data_statistics = {
 	[373] = {
 		name = "鸢尾雷击重巡副炮T3",
 		base = 371,
+		is_siren = 0,
 		id = 373,
 		value_1 = "4 x 3",
 		weapon_id = {
@@ -1725,6 +1833,7 @@ pg.equip_data_statistics = {
 	[374] = {
 		name = "鸢尾雷击重巡副炮T4",
 		base = 371,
+		is_siren = 0,
 		id = 374,
 		value_1 = "5 x 3",
 		weapon_id = {
@@ -1750,7 +1859,8 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 1,
 		ammo = "无",
-		descrip = "白鹰第23驱逐舰中队\n<color=#fad545>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
+		is_siren = 0,
+		descrip = "白鹰第23驱逐舰中队\n<color=#ffde38>全体小海狸，保持31节匀速前进！——查尔斯·奥斯本</color>",
 		value_3 = 0,
 		attribute_1 = "dodge",
 		property_rate = {},
@@ -1764,6 +1874,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[501] = {
+		is_siren = 0,
 		id = 501,
 		base = 500,
 		value_2 = 30,
@@ -1771,6 +1882,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[502] = {
+		is_siren = 0,
 		id = 502,
 		base = 500,
 		value_2 = 35,
@@ -1778,6 +1890,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[503] = {
+		is_siren = 0,
 		id = 503,
 		base = 500,
 		value_2 = 40,
@@ -1785,6 +1898,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[504] = {
+		is_siren = 0,
 		id = 504,
 		base = 500,
 		value_2 = 45,
@@ -1792,6 +1906,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[505] = {
+		is_siren = 0,
 		id = 505,
 		base = 500,
 		value_2 = 50,
@@ -1799,6 +1914,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[506] = {
+		is_siren = 0,
 		id = 506,
 		base = 500,
 		value_2 = 55,
@@ -1806,6 +1922,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[507] = {
+		is_siren = 0,
 		id = 507,
 		base = 500,
 		value_2 = 60,
@@ -1813,6 +1930,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[508] = {
+		is_siren = 0,
 		id = 508,
 		base = 500,
 		value_2 = 65,
@@ -1820,6 +1938,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[509] = {
+		is_siren = 0,
 		id = 509,
 		base = 500,
 		value_2 = 70,
@@ -1827,6 +1946,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[510] = {
+		is_siren = 0,
 		id = 510,
 		base = 500,
 		value_2 = 75,
@@ -1849,8 +1969,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "一颗奇怪的珠子，似乎记载着某一段历史",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "一颗奇怪的珠子，似乎记载着某一段历史",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -1865,62 +1986,72 @@ pg.equip_data_statistics = {
 	},
 	[521] = {
 		id = 521,
-		value_1 = "230",
 		base = 520,
+		is_siren = 0,
+		value_1 = "230",
 		property_rate = {}
 	},
 	[522] = {
 		id = 522,
-		value_1 = "260",
 		base = 520,
+		is_siren = 0,
+		value_1 = "260",
 		property_rate = {}
 	},
 	[523] = {
 		id = 523,
-		value_1 = "290",
 		base = 520,
+		is_siren = 0,
+		value_1 = "290",
 		property_rate = {}
 	},
 	[524] = {
 		id = 524,
-		value_1 = "320",
 		base = 520,
+		is_siren = 0,
+		value_1 = "320",
 		property_rate = {}
 	},
 	[525] = {
 		id = 525,
-		value_1 = "350",
 		base = 520,
+		is_siren = 0,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[526] = {
 		id = 526,
-		value_1 = "380",
 		base = 520,
+		is_siren = 0,
+		value_1 = "380",
 		property_rate = {}
 	},
 	[527] = {
 		id = 527,
-		value_1 = "410",
 		base = 520,
+		is_siren = 0,
+		value_1 = "410",
 		property_rate = {}
 	},
 	[528] = {
 		id = 528,
-		value_1 = "440",
 		base = 520,
+		is_siren = 0,
+		value_1 = "440",
 		property_rate = {}
 	},
 	[529] = {
 		id = 529,
-		value_1 = "470",
 		base = 520,
+		is_siren = 0,
+		value_1 = "470",
 		property_rate = {}
 	},
 	[530] = {
 		id = 530,
-		value_1 = "500",
 		base = 520,
+		is_siren = 0,
+		value_1 = "500",
 		property_rate = {}
 	},
 	[540] = {
@@ -1939,8 +2070,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "{namecode:89}酱用的猫爪，似乎有着某种治愈效果",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "{namecode:89}酱用的猫爪，似乎有着某种治愈效果",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -1955,62 +2087,72 @@ pg.equip_data_statistics = {
 	},
 	[541] = {
 		id = 541,
-		value_1 = "138",
 		base = 540,
+		is_siren = 0,
+		value_1 = "138",
 		property_rate = {}
 	},
 	[542] = {
 		id = 542,
-		value_1 = "156",
 		base = 540,
+		is_siren = 0,
+		value_1 = "156",
 		property_rate = {}
 	},
 	[543] = {
 		id = 543,
-		value_1 = "174",
 		base = 540,
+		is_siren = 0,
+		value_1 = "174",
 		property_rate = {}
 	},
 	[544] = {
 		id = 544,
-		value_1 = "192",
 		base = 540,
+		is_siren = 0,
+		value_1 = "192",
 		property_rate = {}
 	},
 	[545] = {
 		id = 545,
-		value_1 = "210",
 		base = 540,
+		is_siren = 0,
+		value_1 = "210",
 		property_rate = {}
 	},
 	[546] = {
 		id = 546,
-		value_1 = "228",
 		base = 540,
+		is_siren = 0,
+		value_1 = "228",
 		property_rate = {}
 	},
 	[547] = {
 		id = 547,
-		value_1 = "246",
 		base = 540,
+		is_siren = 0,
+		value_1 = "246",
 		property_rate = {}
 	},
 	[548] = {
 		id = 548,
-		value_1 = "264",
 		base = 540,
+		is_siren = 0,
+		value_1 = "264",
 		property_rate = {}
 	},
 	[549] = {
 		id = 549,
-		value_1 = "282",
 		base = 540,
+		is_siren = 0,
+		value_1 = "282",
 		property_rate = {}
 	},
 	[550] = {
 		id = 550,
-		value_1 = "300",
 		base = 540,
+		is_siren = 0,
+		value_1 = "300",
 		property_rate = {}
 	},
 	[560] = {
@@ -2029,8 +2171,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 800,
 		rarity = 4,
 		scatter = "无",
-		descrip = "宁海一直带着的侦察机，似乎很珍贵？",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "宁海一直带着的侦察机，似乎很珍贵？",
 		value_3 = 0,
 		attribute_1 = "hit",
 		property_rate = {},
@@ -2048,62 +2191,72 @@ pg.equip_data_statistics = {
 	},
 	[561] = {
 		id = 561,
-		value_1 = "17",
 		base = 560,
+		is_siren = 0,
+		value_1 = "17",
 		property_rate = {}
 	},
 	[562] = {
 		id = 562,
-		value_1 = "19",
 		base = 560,
+		is_siren = 0,
+		value_1 = "19",
 		property_rate = {}
 	},
 	[563] = {
 		id = 563,
-		value_1 = "21",
 		base = 560,
+		is_siren = 0,
+		value_1 = "21",
 		property_rate = {}
 	},
 	[564] = {
 		id = 564,
-		value_1 = "23",
 		base = 560,
+		is_siren = 0,
+		value_1 = "23",
 		property_rate = {}
 	},
 	[565] = {
 		id = 565,
-		value_1 = "25",
 		base = 560,
+		is_siren = 0,
+		value_1 = "25",
 		property_rate = {}
 	},
 	[566] = {
 		id = 566,
-		value_1 = "27",
 		base = 560,
+		is_siren = 0,
+		value_1 = "27",
 		property_rate = {}
 	},
 	[567] = {
 		id = 567,
-		value_1 = "29",
 		base = 560,
+		is_siren = 0,
+		value_1 = "29",
 		property_rate = {}
 	},
 	[568] = {
 		id = 568,
-		value_1 = "31",
 		base = 560,
+		is_siren = 0,
+		value_1 = "31",
 		property_rate = {}
 	},
 	[569] = {
 		id = 569,
-		value_1 = "33",
 		base = 560,
+		is_siren = 0,
+		value_1 = "33",
 		property_rate = {}
 	},
 	[570] = {
 		id = 570,
-		value_1 = "35",
 		base = 560,
+		is_siren = 0,
+		value_1 = "35",
 		property_rate = {}
 	},
 	[580] = {
@@ -2124,6 +2277,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 3,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "远距离炮击战的秘密武器『九一式穿甲弹』。提高了炮弹入水后的性能，能够有效破坏水线以下部分装甲并突入舰体内后爆炸的炮弹",
 		value_3 = 0,
 		attribute_1 = "cannon",
@@ -2138,6 +2292,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[581] = {
+		is_siren = 0,
 		id = 581,
 		base = 580,
 		value_2 = 5,
@@ -2145,6 +2300,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[582] = {
+		is_siren = 0,
 		id = 582,
 		base = 580,
 		value_2 = 5,
@@ -2152,6 +2308,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[583] = {
+		is_siren = 0,
 		id = 583,
 		base = 580,
 		value_2 = 6,
@@ -2159,6 +2316,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[584] = {
+		is_siren = 0,
 		id = 584,
 		base = 580,
 		value_2 = 6,
@@ -2166,6 +2324,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[585] = {
+		is_siren = 0,
 		id = 585,
 		base = 580,
 		value_2 = 7,
@@ -2173,6 +2332,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[586] = {
+		is_siren = 0,
 		id = 586,
 		base = 580,
 		value_2 = 7,
@@ -2180,6 +2340,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[587] = {
+		is_siren = 0,
 		id = 587,
 		base = 580,
 		value_2 = 8,
@@ -2187,6 +2348,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[588] = {
+		is_siren = 0,
 		id = 588,
 		base = 580,
 		value_2 = 8,
@@ -2194,6 +2356,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[589] = {
+		is_siren = 0,
 		id = 589,
 		base = 580,
 		value_2 = 9,
@@ -2201,6 +2364,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[590] = {
+		is_siren = 0,
 		id = 590,
 		base = 580,
 		value_2 = 10,
@@ -2225,6 +2389,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 3,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "『九一式穿甲弹』的改进型『一式穿甲弹』。比起九一式在性能上有所提升",
 		value_3 = 0,
 		attribute_1 = "cannon",
@@ -2240,11 +2405,13 @@ pg.equip_data_statistics = {
 	},
 	[601] = {
 		id = 601,
-		value_1 = "25",
 		base = 600,
+		is_siren = 0,
+		value_1 = "25",
 		property_rate = {}
 	},
 	[602] = {
+		is_siren = 0,
 		id = 602,
 		base = 600,
 		value_2 = 7,
@@ -2252,6 +2419,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[603] = {
+		is_siren = 0,
 		id = 603,
 		base = 600,
 		value_2 = 8,
@@ -2259,6 +2427,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[604] = {
+		is_siren = 0,
 		id = 604,
 		base = 600,
 		value_2 = 9,
@@ -2266,6 +2435,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[605] = {
+		is_siren = 0,
 		id = 605,
 		base = 600,
 		value_2 = 10,
@@ -2273,6 +2443,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[606] = {
+		is_siren = 0,
 		id = 606,
 		base = 600,
 		value_2 = 11,
@@ -2280,6 +2451,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[607] = {
+		is_siren = 0,
 		id = 607,
 		base = 600,
 		value_2 = 12,
@@ -2287,6 +2459,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[608] = {
+		is_siren = 0,
 		id = 608,
 		base = 600,
 		value_2 = 13,
@@ -2294,6 +2467,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[609] = {
+		is_siren = 0,
 		id = 609,
 		base = 600,
 		value_2 = 14,
@@ -2301,6 +2475,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[610] = {
+		is_siren = 0,
 		id = 610,
 		base = 600,
 		value_2 = 15,
@@ -2323,8 +2498,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "弹重系数远大于一般弹药的炮弹，称为『超重弹』，有着非同一般的重量",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "弹重系数远大于一般弹药的炮弹，称为『超重弹』，有着非同一般的重量",
 		value_3 = 0,
 		attribute_1 = "cannon",
 		property_rate = {},
@@ -2339,62 +2515,72 @@ pg.equip_data_statistics = {
 	},
 	[621] = {
 		id = 621,
-		value_1 = "32",
 		base = 620,
+		is_siren = 0,
+		value_1 = "32",
 		property_rate = {}
 	},
 	[622] = {
 		id = 622,
-		value_1 = "36",
 		base = 620,
+		is_siren = 0,
+		value_1 = "36",
 		property_rate = {}
 	},
 	[623] = {
 		id = 623,
-		value_1 = "40",
 		base = 620,
+		is_siren = 0,
+		value_1 = "40",
 		property_rate = {}
 	},
 	[624] = {
 		id = 624,
-		value_1 = "44",
 		base = 620,
+		is_siren = 0,
+		value_1 = "44",
 		property_rate = {}
 	},
 	[625] = {
 		id = 625,
-		value_1 = "49",
 		base = 620,
+		is_siren = 0,
+		value_1 = "49",
 		property_rate = {}
 	},
 	[626] = {
 		id = 626,
-		value_1 = "53",
 		base = 620,
+		is_siren = 0,
+		value_1 = "53",
 		property_rate = {}
 	},
 	[627] = {
 		id = 627,
-		value_1 = "57",
 		base = 620,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[628] = {
 		id = 628,
-		value_1 = "61",
 		base = 620,
+		is_siren = 0,
+		value_1 = "61",
 		property_rate = {}
 	},
 	[629] = {
 		id = 629,
-		value_1 = "65",
 		base = 620,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[630] = {
 		id = 630,
-		value_1 = "70",
 		base = 620,
+		is_siren = 0,
+		value_1 = "70",
 		property_rate = {}
 	},
 	[640] = {
@@ -2416,6 +2602,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		attribute_3 = "luck",
 		ammo = "无",
+		is_siren = 0,
 		descrip = "Z代表着好运，必胜和正义，挂上这面旗帜，开始战斗动员吧！",
 		value_3 = 5,
 		attribute_1 = "dodge",
@@ -2431,11 +2618,13 @@ pg.equip_data_statistics = {
 	},
 	[641] = {
 		id = 641,
-		value_1 = "7",
 		base = 640,
+		is_siren = 0,
+		value_1 = "7",
 		property_rate = {}
 	},
 	[642] = {
+		is_siren = 0,
 		id = 642,
 		base = 640,
 		value_2 = 5,
@@ -2443,6 +2632,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[643] = {
+		is_siren = 0,
 		id = 643,
 		base = 640,
 		value_2 = 6,
@@ -2450,6 +2640,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[644] = {
+		is_siren = 0,
 		id = 644,
 		base = 640,
 		value_2 = 6,
@@ -2457,6 +2648,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[645] = {
+		is_siren = 0,
 		id = 645,
 		base = 640,
 		value_2 = 7,
@@ -2464,6 +2656,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[646] = {
+		is_siren = 0,
 		id = 646,
 		base = 640,
 		value_2 = 8,
@@ -2471,6 +2664,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[647] = {
+		is_siren = 0,
 		id = 647,
 		base = 640,
 		value_2 = 8,
@@ -2478,6 +2672,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[648] = {
+		is_siren = 0,
 		id = 648,
 		base = 640,
 		value_2 = 9,
@@ -2485,6 +2680,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[649] = {
+		is_siren = 0,
 		id = 649,
 		base = 640,
 		value_2 = 10,
@@ -2492,6 +2688,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[650] = {
+		is_siren = 0,
 		id = 650,
 		base = 640,
 		value_2 = 10,
@@ -2514,8 +2711,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "性能值达到150的航空燃油，拥有纯异辛烷1.5倍的抗暴燃能力，能够大幅提升发动机的功率",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "性能值达到150的航空燃油，拥有纯异辛烷1.5倍的抗暴燃能力，能够大幅提升发动机的功率",
 		value_3 = 0,
 		attribute_1 = "air",
 		property_rate = {},
@@ -2530,62 +2728,72 @@ pg.equip_data_statistics = {
 	},
 	[661] = {
 		id = 661,
-		value_1 = "32",
 		base = 660,
+		is_siren = 0,
+		value_1 = "32",
 		property_rate = {}
 	},
 	[662] = {
 		id = 662,
-		value_1 = "36",
 		base = 660,
+		is_siren = 0,
+		value_1 = "36",
 		property_rate = {}
 	},
 	[663] = {
 		id = 663,
-		value_1 = "40",
 		base = 660,
+		is_siren = 0,
+		value_1 = "40",
 		property_rate = {}
 	},
 	[664] = {
 		id = 664,
-		value_1 = "44",
 		base = 660,
+		is_siren = 0,
+		value_1 = "44",
 		property_rate = {}
 	},
 	[665] = {
 		id = 665,
-		value_1 = "49",
 		base = 660,
+		is_siren = 0,
+		value_1 = "49",
 		property_rate = {}
 	},
 	[666] = {
 		id = 666,
-		value_1 = "53",
 		base = 660,
+		is_siren = 0,
+		value_1 = "53",
 		property_rate = {}
 	},
 	[667] = {
 		id = 667,
-		value_1 = "57",
 		base = 660,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[668] = {
 		id = 668,
-		value_1 = "61",
 		base = 660,
+		is_siren = 0,
+		value_1 = "61",
 		property_rate = {}
 	},
 	[669] = {
 		id = 669,
-		value_1 = "65",
 		base = 660,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[670] = {
 		id = 670,
-		value_1 = "70",
 		base = 660,
+		is_siren = 0,
+		value_1 = "70",
 		property_rate = {}
 	},
 	[680] = {
@@ -2604,8 +2812,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "72DM型返航指示信标，安装在航母主桅上方，帮助舰载机确认母舰的实时位置 ",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "72DM型返航指示信标，安装在航母主桅上方，帮助舰载机确认母舰的实时位置 ",
 		value_3 = 0,
 		attribute_1 = "air",
 		property_rate = {},
@@ -2620,62 +2829,72 @@ pg.equip_data_statistics = {
 	},
 	[681] = {
 		id = 681,
-		value_1 = "22",
 		base = 680,
+		is_siren = 0,
+		value_1 = "22",
 		property_rate = {}
 	},
 	[682] = {
 		id = 682,
-		value_1 = "26",
 		base = 680,
+		is_siren = 0,
+		value_1 = "26",
 		property_rate = {}
 	},
 	[683] = {
 		id = 683,
-		value_1 = "30",
 		base = 680,
+		is_siren = 0,
+		value_1 = "30",
 		property_rate = {}
 	},
 	[684] = {
 		id = 684,
-		value_1 = "34",
 		base = 680,
+		is_siren = 0,
+		value_1 = "34",
 		property_rate = {}
 	},
 	[685] = {
 		id = 685,
-		value_1 = "39",
 		base = 680,
+		is_siren = 0,
+		value_1 = "39",
 		property_rate = {}
 	},
 	[686] = {
 		id = 686,
-		value_1 = "43",
 		base = 680,
+		is_siren = 0,
+		value_1 = "43",
 		property_rate = {}
 	},
 	[687] = {
 		id = 687,
-		value_1 = "47",
 		base = 680,
+		is_siren = 0,
+		value_1 = "47",
 		property_rate = {}
 	},
 	[688] = {
 		id = 688,
-		value_1 = "51",
 		base = 680,
+		is_siren = 0,
+		value_1 = "51",
 		property_rate = {}
 	},
 	[689] = {
 		id = 689,
-		value_1 = "55",
 		base = 680,
+		is_siren = 0,
+		value_1 = "55",
 		property_rate = {}
 	},
 	[690] = {
 		id = 690,
-		value_1 = "60",
 		base = 680,
+		is_siren = 0,
+		value_1 = "60",
 		property_rate = {}
 	},
 	[700] = {
@@ -2694,8 +2913,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "九八式射击延迟装置，通过使各炮射击之间形成微小的时间差，从而减少炮弹飞行中的互相干扰，缩小散布界",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "九八式射击延迟装置，通过使各炮射击之间形成微小的时间差，从而减少炮弹飞行中的互相干扰，缩小散布界",
 		value_3 = 0,
 		attribute_1 = "cannon",
 		property_rate = {},
@@ -2710,62 +2930,184 @@ pg.equip_data_statistics = {
 	},
 	[701] = {
 		id = 701,
-		value_1 = "14",
 		base = 700,
+		is_siren = 0,
+		value_1 = "14",
 		property_rate = {}
 	},
 	[702] = {
 		id = 702,
-		value_1 = "16",
 		base = 700,
+		is_siren = 0,
+		value_1 = "16",
 		property_rate = {}
 	},
 	[703] = {
 		id = 703,
-		value_1 = "18",
 		base = 700,
+		is_siren = 0,
+		value_1 = "18",
 		property_rate = {}
 	},
 	[704] = {
 		id = 704,
-		value_1 = "20",
 		base = 700,
+		is_siren = 0,
+		value_1 = "20",
 		property_rate = {}
 	},
 	[705] = {
 		id = 705,
-		value_1 = "22",
 		base = 700,
+		is_siren = 0,
+		value_1 = "22",
 		property_rate = {}
 	},
 	[706] = {
 		id = 706,
-		value_1 = "24",
 		base = 700,
+		is_siren = 0,
+		value_1 = "24",
 		property_rate = {}
 	},
 	[707] = {
 		id = 707,
-		value_1 = "26",
 		base = 700,
+		is_siren = 0,
+		value_1 = "26",
 		property_rate = {}
 	},
 	[708] = {
 		id = 708,
-		value_1 = "28",
 		base = 700,
+		is_siren = 0,
+		value_1 = "28",
 		property_rate = {}
 	},
 	[709] = {
 		id = 709,
-		value_1 = "30",
 		base = 700,
+		is_siren = 0,
+		value_1 = "30",
 		property_rate = {}
 	},
 	[710] = {
 		id = 710,
-		value_1 = "32",
 		base = 700,
+		is_siren = 0,
+		value_1 = "32",
+		property_rate = {}
+	},
+	[720] = {
+		name = "约定的证明",
+		type = 10,
+		id = 720,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 80,
+		icon = "720",
+		value_1 = "12",
+		attribute_2 = "durability",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 4,
+		ammo = "无",
+		is_siren = 0,
+		descrip = "写着真诚誓言的“保证书”——「就算用拖的，我也会将俾斯麦安全带回家的！」",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6410
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[721] = {
+		is_siren = 0,
+		id = 721,
+		base = 720,
+		value_2 = 85,
+		value_1 = "13",
+		property_rate = {}
+	},
+	[722] = {
+		is_siren = 0,
+		id = 722,
+		base = 720,
+		value_2 = 90,
+		value_1 = "13",
+		property_rate = {}
+	},
+	[723] = {
+		is_siren = 0,
+		id = 723,
+		base = 720,
+		value_2 = 95,
+		value_1 = "14",
+		property_rate = {}
+	},
+	[724] = {
+		is_siren = 0,
+		id = 724,
+		base = 720,
+		value_2 = 100,
+		value_1 = "14",
+		property_rate = {}
+	},
+	[725] = {
+		is_siren = 0,
+		id = 725,
+		base = 720,
+		value_2 = 105,
+		value_1 = "15",
+		property_rate = {}
+	},
+	[726] = {
+		is_siren = 0,
+		id = 726,
+		base = 720,
+		value_2 = 110,
+		value_1 = "16",
+		property_rate = {}
+	},
+	[727] = {
+		is_siren = 0,
+		id = 727,
+		base = 720,
+		value_2 = 120,
+		value_1 = "17",
+		property_rate = {}
+	},
+	[728] = {
+		is_siren = 0,
+		id = 728,
+		base = 720,
+		value_2 = 130,
+		value_1 = "18",
+		property_rate = {}
+	},
+	[729] = {
+		is_siren = 0,
+		id = 729,
+		base = 720,
+		value_2 = 140,
+		value_1 = "19",
+		property_rate = {}
+	},
+	[730] = {
+		is_siren = 0,
+		id = 730,
+		base = 720,
+		value_2 = 150,
+		value_1 = "20",
 		property_rate = {}
 	},
 	[1000] = {
@@ -2784,8 +3126,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		scatter = "无",
-		descrip = "用于维修角色的设备，只有修理舰可以使用",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "用于维修角色的设备，只有修理舰可以使用",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -2802,38 +3145,44 @@ pg.equip_data_statistics = {
 	},
 	[1001] = {
 		id = 1001,
-		value_1 = "103",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "103",
 		property_rate = {}
 	},
 	[1002] = {
 		id = 1002,
-		value_1 = "117",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "117",
 		property_rate = {}
 	},
 	[1003] = {
 		id = 1003,
-		value_1 = "130",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "130",
 		property_rate = {}
 	},
 	[1004] = {
 		id = 1004,
-		value_1 = "144",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "144",
 		property_rate = {}
 	},
 	[1005] = {
 		id = 1005,
-		value_1 = "157",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "157",
 		property_rate = {}
 	},
 	[1006] = {
 		id = 1006,
-		value_1 = "171",
 		base = 1000,
+		is_siren = 0,
+		value_1 = "171",
 		property_rate = {}
 	},
 	[1020] = {
@@ -2852,8 +3201,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "用于维修角色的设备，只有修理舰可以使用",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "用于维修角色的设备，只有修理舰可以使用",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -2870,62 +3220,72 @@ pg.equip_data_statistics = {
 	},
 	[1021] = {
 		id = 1021,
-		value_1 = "161",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "161",
 		property_rate = {}
 	},
 	[1022] = {
 		id = 1022,
-		value_1 = "182",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "182",
 		property_rate = {}
 	},
 	[1023] = {
 		id = 1023,
-		value_1 = "203",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "203",
 		property_rate = {}
 	},
 	[1024] = {
 		id = 1024,
-		value_1 = "224",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "224",
 		property_rate = {}
 	},
 	[1025] = {
 		id = 1025,
-		value_1 = "245",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[1026] = {
 		id = 1026,
-		value_1 = "266",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "266",
 		property_rate = {}
 	},
 	[1027] = {
 		id = 1027,
-		value_1 = "287",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "287",
 		property_rate = {}
 	},
 	[1028] = {
 		id = 1028,
-		value_1 = "308",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "308",
 		property_rate = {}
 	},
 	[1029] = {
 		id = 1029,
-		value_1 = "329",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "329",
 		property_rate = {}
 	},
 	[1030] = {
 		id = 1030,
-		value_1 = "350",
 		base = 1020,
+		is_siren = 0,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[1040] = {
@@ -2944,8 +3304,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "用于维修角色的设备，只有修理舰可以使用",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "用于维修角色的设备，只有修理舰可以使用",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -2962,62 +3323,72 @@ pg.equip_data_statistics = {
 	},
 	[1041] = {
 		id = 1041,
-		value_1 = "230",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "230",
 		property_rate = {}
 	},
 	[1042] = {
 		id = 1042,
-		value_1 = "260",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "260",
 		property_rate = {}
 	},
 	[1043] = {
 		id = 1043,
-		value_1 = "290",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "290",
 		property_rate = {}
 	},
 	[1044] = {
 		id = 1044,
-		value_1 = "320",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "320",
 		property_rate = {}
 	},
 	[1045] = {
 		id = 1045,
-		value_1 = "350",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[1046] = {
 		id = 1046,
-		value_1 = "380",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "380",
 		property_rate = {}
 	},
 	[1047] = {
 		id = 1047,
-		value_1 = "410",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "410",
 		property_rate = {}
 	},
 	[1048] = {
 		id = 1048,
-		value_1 = "440",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "440",
 		property_rate = {}
 	},
 	[1049] = {
 		id = 1049,
-		value_1 = "470",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "470",
 		property_rate = {}
 	},
 	[1050] = {
 		id = 1050,
-		value_1 = "500",
 		base = 1040,
+		is_siren = 0,
+		value_1 = "500",
 		property_rate = {}
 	},
 	[1100] = {
@@ -3036,8 +3407,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		scatter = "无",
-		descrip = "对空搜索雷达，可以提高防空能力",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "对空搜索雷达，可以提高防空能力",
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
 		property_rate = {},
@@ -3050,20 +3422,23 @@ pg.equip_data_statistics = {
 	},
 	[1101] = {
 		id = 1101,
-		value_1 = "11",
 		base = 1100,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[1102] = {
 		id = 1102,
-		value_1 = "13",
 		base = 1100,
+		is_siren = 0,
+		value_1 = "13",
 		property_rate = {}
 	},
 	[1103] = {
 		id = 1103,
-		value_1 = "14",
 		base = 1100,
+		is_siren = 0,
+		value_1 = "14",
 		property_rate = {}
 	},
 	[1120] = {
@@ -3082,8 +3457,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		scatter = "无",
-		descrip = "对空搜索雷达，可以提高防空能力",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "对空搜索雷达，可以提高防空能力",
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
 		property_rate = {},
@@ -3096,38 +3472,44 @@ pg.equip_data_statistics = {
 	},
 	[1121] = {
 		id = 1121,
-		value_1 = "20",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "20",
 		property_rate = {}
 	},
 	[1122] = {
 		id = 1122,
-		value_1 = "23",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "23",
 		property_rate = {}
 	},
 	[1123] = {
 		id = 1123,
-		value_1 = "26",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "26",
 		property_rate = {}
 	},
 	[1124] = {
 		id = 1124,
-		value_1 = "28",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "28",
 		property_rate = {}
 	},
 	[1125] = {
 		id = 1125,
-		value_1 = "31",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "31",
 		property_rate = {}
 	},
 	[1126] = {
 		id = 1126,
-		value_1 = "34",
 		base = 1120,
+		is_siren = 0,
+		value_1 = "34",
 		property_rate = {}
 	},
 	[1140] = {
@@ -3146,8 +3528,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "对空搜索雷达，可以提高防空能力",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "对空搜索雷达，可以提高防空能力",
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
 		property_rate = {},
@@ -3160,62 +3543,72 @@ pg.equip_data_statistics = {
 	},
 	[1141] = {
 		id = 1141,
-		value_1 = "32",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "32",
 		property_rate = {}
 	},
 	[1142] = {
 		id = 1142,
-		value_1 = "36",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "36",
 		property_rate = {}
 	},
 	[1143] = {
 		id = 1143,
-		value_1 = "40",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "40",
 		property_rate = {}
 	},
 	[1144] = {
 		id = 1144,
-		value_1 = "44",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "44",
 		property_rate = {}
 	},
 	[1145] = {
 		id = 1145,
-		value_1 = "49",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "49",
 		property_rate = {}
 	},
 	[1146] = {
 		id = 1146,
-		value_1 = "53",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "53",
 		property_rate = {}
 	},
 	[1147] = {
 		id = 1147,
-		value_1 = "57",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[1148] = {
 		id = 1148,
-		value_1 = "61",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "61",
 		property_rate = {}
 	},
 	[1149] = {
 		id = 1149,
-		value_1 = "65",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[1150] = {
 		id = 1150,
-		value_1 = "70",
 		base = 1140,
+		is_siren = 0,
+		value_1 = "70",
 		property_rate = {}
 	},
 	[1160] = {
@@ -3234,8 +3627,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "293对空搜索雷达，可以提高防空能力",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "293对空搜索雷达，可以提高防空能力",
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
 		property_rate = {},
@@ -3252,62 +3646,72 @@ pg.equip_data_statistics = {
 	},
 	[1161] = {
 		id = 1161,
-		value_1 = "46",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "46",
 		property_rate = {}
 	},
 	[1162] = {
 		id = 1162,
-		value_1 = "52",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "52",
 		property_rate = {}
 	},
 	[1163] = {
 		id = 1163,
-		value_1 = "58",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "58",
 		property_rate = {}
 	},
 	[1164] = {
 		id = 1164,
-		value_1 = "64",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "64",
 		property_rate = {}
 	},
 	[1165] = {
 		id = 1165,
-		value_1 = "70",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "70",
 		property_rate = {}
 	},
 	[1166] = {
 		id = 1166,
-		value_1 = "76",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "76",
 		property_rate = {}
 	},
 	[1167] = {
 		id = 1167,
-		value_1 = "82",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "82",
 		property_rate = {}
 	},
 	[1168] = {
 		id = 1168,
-		value_1 = "88",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "88",
 		property_rate = {}
 	},
 	[1169] = {
 		id = 1169,
-		value_1 = "94",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "94",
 		property_rate = {}
 	},
 	[1170] = {
 		id = 1170,
-		value_1 = "100",
 		base = 1160,
+		is_siren = 0,
+		value_1 = "100",
 		property_rate = {}
 	},
 	[1200] = {
@@ -3328,6 +3732,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -3341,17 +3746,20 @@ pg.equip_data_statistics = {
 	},
 	[1201] = {
 		id = 1201,
-		value_1 = "4",
 		base = 1200,
+		is_siren = 0,
+		value_1 = "4",
 		property_rate = {}
 	},
 	[1202] = {
 		id = 1202,
-		value_1 = "4",
 		base = 1200,
+		is_siren = 0,
+		value_1 = "4",
 		property_rate = {}
 	},
 	[1203] = {
+		is_siren = 0,
 		id = 1203,
 		base = 1200,
 		value_2 = 4,
@@ -3376,6 +3784,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -3388,6 +3797,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1221] = {
+		is_siren = 0,
 		id = 1221,
 		base = 1220,
 		value_2 = 6,
@@ -3395,6 +3805,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1222] = {
+		is_siren = 0,
 		id = 1222,
 		base = 1220,
 		value_2 = 7,
@@ -3402,6 +3813,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1223] = {
+		is_siren = 0,
 		id = 1223,
 		base = 1220,
 		value_2 = 7,
@@ -3409,6 +3821,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1224] = {
+		is_siren = 0,
 		id = 1224,
 		base = 1220,
 		value_2 = 8,
@@ -3416,6 +3829,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1225] = {
+		is_siren = 0,
 		id = 1225,
 		base = 1220,
 		value_2 = 9,
@@ -3423,6 +3837,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1226] = {
+		is_siren = 0,
 		id = 1226,
 		base = 1220,
 		value_2 = 10,
@@ -3447,6 +3862,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "火控雷达，提高炮击命中和伤害",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -3459,6 +3875,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1241] = {
+		is_siren = 0,
 		id = 1241,
 		base = 1240,
 		value_2 = 9,
@@ -3466,6 +3883,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1242] = {
+		is_siren = 0,
 		id = 1242,
 		base = 1240,
 		value_2 = 10,
@@ -3473,6 +3891,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1243] = {
+		is_siren = 0,
 		id = 1243,
 		base = 1240,
 		value_2 = 12,
@@ -3480,6 +3899,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1244] = {
+		is_siren = 0,
 		id = 1244,
 		base = 1240,
 		value_2 = 13,
@@ -3487,6 +3907,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1245] = {
+		is_siren = 0,
 		id = 1245,
 		base = 1240,
 		value_2 = 14,
@@ -3494,6 +3915,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1246] = {
+		is_siren = 0,
 		id = 1246,
 		base = 1240,
 		value_2 = 15,
@@ -3501,6 +3923,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1247] = {
+		is_siren = 0,
 		id = 1247,
 		base = 1240,
 		value_2 = 17,
@@ -3508,6 +3931,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1248] = {
+		is_siren = 0,
 		id = 1248,
 		base = 1240,
 		value_2 = 18,
@@ -3515,6 +3939,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1249] = {
+		is_siren = 0,
 		id = 1249,
 		base = 1240,
 		value_2 = 19,
@@ -3522,6 +3947,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1250] = {
+		is_siren = 0,
 		id = 1250,
 		base = 1240,
 		value_2 = 21,
@@ -3546,6 +3972,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "先进的火控雷达，有效提高炮击命中和伤害，比普通的火控雷达性能更好",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -3560,6 +3987,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1261] = {
+		is_siren = 0,
 		id = 1261,
 		base = 1260,
 		value_2 = 13,
@@ -3567,6 +3995,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1262] = {
+		is_siren = 0,
 		id = 1262,
 		base = 1260,
 		value_2 = 14,
@@ -3574,6 +4003,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1263] = {
+		is_siren = 0,
 		id = 1263,
 		base = 1260,
 		value_2 = 16,
@@ -3581,6 +4011,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1264] = {
+		is_siren = 0,
 		id = 1264,
 		base = 1260,
 		value_2 = 18,
@@ -3588,6 +4019,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1265] = {
+		is_siren = 0,
 		id = 1265,
 		base = 1260,
 		value_2 = 20,
@@ -3595,6 +4027,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1266] = {
+		is_siren = 0,
 		id = 1266,
 		base = 1260,
 		value_2 = 22,
@@ -3602,6 +4035,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1267] = {
+		is_siren = 0,
 		id = 1267,
 		base = 1260,
 		value_2 = 24,
@@ -3609,6 +4043,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1268] = {
+		is_siren = 0,
 		id = 1268,
 		base = 1260,
 		value_2 = 26,
@@ -3616,6 +4051,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1269] = {
+		is_siren = 0,
 		id = 1269,
 		base = 1260,
 		value_2 = 28,
@@ -3623,6 +4059,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1270] = {
+		is_siren = 0,
 		id = 1270,
 		base = 1260,
 		value_2 = 30,
@@ -3645,8 +4082,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		scatter = "无",
-		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -3661,20 +4099,23 @@ pg.equip_data_statistics = {
 	},
 	[1301] = {
 		id = 1301,
-		value_1 = "57",
 		base = 1300,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[1302] = {
 		id = 1302,
-		value_1 = "65",
 		base = 1300,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[1303] = {
 		id = 1303,
-		value_1 = "72",
 		base = 1300,
+		is_siren = 0,
+		value_1 = "72",
 		property_rate = {}
 	},
 	[1320] = {
@@ -3693,8 +4134,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		scatter = "无",
-		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -3709,38 +4151,44 @@ pg.equip_data_statistics = {
 	},
 	[1321] = {
 		id = 1321,
-		value_1 = "103",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "103",
 		property_rate = {}
 	},
 	[1322] = {
 		id = 1322,
-		value_1 = "117",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "117",
 		property_rate = {}
 	},
 	[1323] = {
 		id = 1323,
-		value_1 = "130",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "130",
 		property_rate = {}
 	},
 	[1324] = {
 		id = 1324,
-		value_1 = "144",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "144",
 		property_rate = {}
 	},
 	[1325] = {
 		id = 1325,
-		value_1 = "157",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "157",
 		property_rate = {}
 	},
 	[1326] = {
 		id = 1326,
-		value_1 = "171",
 		base = 1320,
+		is_siren = 0,
+		value_1 = "171",
 		property_rate = {}
 	},
 	[1340] = {
@@ -3759,8 +4207,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防鱼雷隔舱，可以减少鱼雷造成的伤害",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -3775,62 +4224,72 @@ pg.equip_data_statistics = {
 	},
 	[1341] = {
 		id = 1341,
-		value_1 = "161",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "161",
 		property_rate = {}
 	},
 	[1342] = {
 		id = 1342,
-		value_1 = "182",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "182",
 		property_rate = {}
 	},
 	[1343] = {
 		id = 1343,
-		value_1 = "203",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "203",
 		property_rate = {}
 	},
 	[1344] = {
 		id = 1344,
-		value_1 = "224",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "224",
 		property_rate = {}
 	},
 	[1345] = {
 		id = 1345,
-		value_1 = "245",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[1346] = {
 		id = 1346,
-		value_1 = "266",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "266",
 		property_rate = {}
 	},
 	[1347] = {
 		id = 1347,
-		value_1 = "287",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "287",
 		property_rate = {}
 	},
 	[1348] = {
 		id = 1348,
-		value_1 = "308",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "308",
 		property_rate = {}
 	},
 	[1349] = {
 		id = 1349,
-		value_1 = "329",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "329",
 		property_rate = {}
 	},
 	[1350] = {
 		id = 1350,
-		value_1 = "350",
 		base = 1340,
+		is_siren = 0,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[1400] = {
@@ -3851,6 +4310,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -3863,6 +4323,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1401] = {
+		is_siren = 0,
 		id = 1401,
 		base = 1400,
 		value_2 = 21,
@@ -3870,6 +4331,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1402] = {
+		is_siren = 0,
 		id = 1402,
 		base = 1400,
 		value_2 = 24,
@@ -3877,6 +4339,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1403] = {
+		is_siren = 0,
 		id = 1403,
 		base = 1400,
 		value_2 = 27,
@@ -3884,6 +4347,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1404] = {
+		is_siren = 0,
 		id = 1404,
 		base = 1400,
 		value_2 = 30,
@@ -3891,6 +4355,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1405] = {
+		is_siren = 0,
 		id = 1405,
 		base = 1400,
 		value_2 = 33,
@@ -3898,6 +4363,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1406] = {
+		is_siren = 0,
 		id = 1406,
 		base = 1400,
 		value_2 = 36,
@@ -3922,6 +4388,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -3934,6 +4401,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1421] = {
+		is_siren = 0,
 		id = 1421,
 		base = 1420,
 		value_2 = 24,
@@ -3941,6 +4409,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1422] = {
+		is_siren = 0,
 		id = 1422,
 		base = 1420,
 		value_2 = 28,
@@ -3948,6 +4417,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1423] = {
+		is_siren = 0,
 		id = 1423,
 		base = 1420,
 		value_2 = 32,
@@ -3955,6 +4425,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1424] = {
+		is_siren = 0,
 		id = 1424,
 		base = 1420,
 		value_2 = 36,
@@ -3962,6 +4433,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1425] = {
+		is_siren = 0,
 		id = 1425,
 		base = 1420,
 		value_2 = 40,
@@ -3969,6 +4441,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1426] = {
+		is_siren = 0,
 		id = 1426,
 		base = 1420,
 		value_2 = 44,
@@ -3976,6 +4449,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1427] = {
+		is_siren = 0,
 		id = 1427,
 		base = 1420,
 		value_2 = 48,
@@ -3983,6 +4457,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1428] = {
+		is_siren = 0,
 		id = 1428,
 		base = 1420,
 		value_2 = 52,
@@ -3990,6 +4465,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1429] = {
+		is_siren = 0,
 		id = 1429,
 		base = 1420,
 		value_2 = 56,
@@ -3997,6 +4473,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1430] = {
+		is_siren = 0,
 		id = 1430,
 		base = 1420,
 		value_2 = 60,
@@ -4021,6 +4498,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "用于飞机弹射起飞，可以提高航空能力",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -4033,6 +4511,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1441] = {
+		is_siren = 0,
 		id = 1441,
 		base = 1440,
 		value_2 = 30,
@@ -4040,6 +4519,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1442] = {
+		is_siren = 0,
 		id = 1442,
 		base = 1440,
 		value_2 = 35,
@@ -4047,6 +4527,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1443] = {
+		is_siren = 0,
 		id = 1443,
 		base = 1440,
 		value_2 = 40,
@@ -4054,6 +4535,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1444] = {
+		is_siren = 0,
 		id = 1444,
 		base = 1440,
 		value_2 = 45,
@@ -4061,6 +4543,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1445] = {
+		is_siren = 0,
 		id = 1445,
 		base = 1440,
 		value_2 = 50,
@@ -4068,6 +4551,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1446] = {
+		is_siren = 0,
 		id = 1446,
 		base = 1440,
 		value_2 = 55,
@@ -4075,6 +4559,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1447] = {
+		is_siren = 0,
 		id = 1447,
 		base = 1440,
 		value_2 = 60,
@@ -4082,6 +4567,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1448] = {
+		is_siren = 0,
 		id = 1448,
 		base = 1440,
 		value_2 = 65,
@@ -4089,6 +4575,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1449] = {
+		is_siren = 0,
 		id = 1449,
 		base = 1440,
 		value_2 = 70,
@@ -4096,6 +4583,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1450] = {
+		is_siren = 0,
 		id = 1450,
 		base = 1440,
 		value_2 = 75,
@@ -4120,6 +4608,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -4137,6 +4626,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[1501] = {
+		is_siren = 0,
 		id = 1501,
 		base = 1500,
 		value_2 = 3,
@@ -4144,6 +4634,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1502] = {
+		is_siren = 0,
 		id = 1502,
 		base = 1500,
 		value_2 = 3,
@@ -4151,6 +4642,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1503] = {
+		is_siren = 0,
 		id = 1503,
 		base = 1500,
 		value_2 = 3,
@@ -4158,6 +4650,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1504] = {
+		is_siren = 0,
 		id = 1504,
 		base = 1500,
 		value_2 = 4,
@@ -4165,6 +4658,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1505] = {
+		is_siren = 0,
 		id = 1505,
 		base = 1500,
 		value_2 = 4,
@@ -4172,6 +4666,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1506] = {
+		is_siren = 0,
 		id = 1506,
 		base = 1500,
 		value_2 = 5,
@@ -4196,6 +4691,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -4214,11 +4710,13 @@ pg.equip_data_statistics = {
 	},
 	[1521] = {
 		id = 1521,
-		value_1 = "11",
 		base = 1520,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[1522] = {
+		is_siren = 0,
 		id = 1522,
 		base = 1520,
 		value_2 = 5,
@@ -4226,6 +4724,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1523] = {
+		is_siren = 0,
 		id = 1523,
 		base = 1520,
 		value_2 = 6,
@@ -4233,6 +4732,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1524] = {
+		is_siren = 0,
 		id = 1524,
 		base = 1520,
 		value_2 = 6,
@@ -4240,6 +4740,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1525] = {
+		is_siren = 0,
 		id = 1525,
 		base = 1520,
 		value_2 = 7,
@@ -4247,6 +4748,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1526] = {
+		is_siren = 0,
 		id = 1526,
 		base = 1520,
 		value_2 = 7,
@@ -4254,6 +4756,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1527] = {
+		is_siren = 0,
 		id = 1527,
 		base = 1520,
 		value_2 = 8,
@@ -4261,6 +4764,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1528] = {
+		is_siren = 0,
 		id = 1528,
 		base = 1520,
 		value_2 = 9,
@@ -4268,6 +4772,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1529] = {
+		is_siren = 0,
 		id = 1529,
 		base = 1520,
 		value_2 = 9,
@@ -4275,6 +4780,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1530] = {
+		is_siren = 0,
 		id = 1530,
 		base = 1520,
 		value_2 = 10,
@@ -4299,6 +4805,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "白鹰联邦的先进雷达，可以更有效的发现敌人并选择作战或避开",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -4317,11 +4824,13 @@ pg.equip_data_statistics = {
 	},
 	[1541] = {
 		id = 1541,
-		value_1 = "16",
 		base = 1540,
+		is_siren = 0,
+		value_1 = "16",
 		property_rate = {}
 	},
 	[1542] = {
+		is_siren = 0,
 		id = 1542,
 		base = 1540,
 		value_2 = 7,
@@ -4329,6 +4838,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1543] = {
+		is_siren = 0,
 		id = 1543,
 		base = 1540,
 		value_2 = 8,
@@ -4336,6 +4846,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1544] = {
+		is_siren = 0,
 		id = 1544,
 		base = 1540,
 		value_2 = 9,
@@ -4343,6 +4854,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1545] = {
+		is_siren = 0,
 		id = 1545,
 		base = 1540,
 		value_2 = 10,
@@ -4350,6 +4862,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1546] = {
+		is_siren = 0,
 		id = 1546,
 		base = 1540,
 		value_2 = 11,
@@ -4357,6 +4870,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1547] = {
+		is_siren = 0,
 		id = 1547,
 		base = 1540,
 		value_2 = 12,
@@ -4364,6 +4878,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1548] = {
+		is_siren = 0,
 		id = 1548,
 		base = 1540,
 		value_2 = 13,
@@ -4371,6 +4886,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1549] = {
+		is_siren = 0,
 		id = 1549,
 		base = 1540,
 		value_2 = 14,
@@ -4378,6 +4894,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1550] = {
+		is_siren = 0,
 		id = 1550,
 		base = 1540,
 		value_2 = 15,
@@ -4400,8 +4917,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "电动扬弹机，能够提高装填和炮击",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "电动扬弹机，能够提高装填和炮击",
 		value_3 = 0,
 		attribute_1 = "reload",
 		property_rate = {},
@@ -4413,6 +4931,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1601] = {
+		is_siren = 0,
 		id = 1601,
 		base = 1600,
 		value_2 = 1,
@@ -4420,6 +4939,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1602] = {
+		is_siren = 0,
 		id = 1602,
 		base = 1600,
 		value_2 = 1,
@@ -4428,6 +4948,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1603] = {
+		is_siren = 0,
 		id = 1603,
 		base = 1600,
 		value_2 = 2,
@@ -4453,6 +4974,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "电动扬弹机，能够提高装填和炮击",
 		value_3 = 0,
 		attribute_1 = "reload",
@@ -4465,12 +4987,14 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1621] = {
-		value_2 = 2,
+		is_siren = 0,
 		id = 1621,
 		base = 1620,
+		value_2 = 2,
 		property_rate = {}
 	},
 	[1622] = {
+		is_siren = 0,
 		id = 1622,
 		base = 1620,
 		value_2 = 2,
@@ -4478,6 +5002,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1623] = {
+		is_siren = 0,
 		id = 1623,
 		base = 1620,
 		value_2 = 3,
@@ -4502,6 +5027,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "电动扬弹机，能够提高装填和炮击",
 		value_3 = 0,
 		attribute_1 = "reload",
@@ -4515,17 +5041,20 @@ pg.equip_data_statistics = {
 	},
 	[1641] = {
 		id = 1641,
-		value_1 = "10",
 		base = 1640,
+		is_siren = 0,
+		value_1 = "10",
 		property_rate = {}
 	},
 	[1642] = {
 		id = 1642,
-		value_1 = "11",
 		base = 1640,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[1643] = {
+		is_siren = 0,
 		id = 1643,
 		base = 1640,
 		value_2 = 4,
@@ -4533,6 +5062,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1644] = {
+		is_siren = 0,
 		id = 1644,
 		base = 1640,
 		value_2 = 4,
@@ -4540,6 +5070,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1645] = {
+		is_siren = 0,
 		id = 1645,
 		base = 1640,
 		value_2 = 5,
@@ -4547,6 +5078,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1646] = {
+		is_siren = 0,
 		id = 1646,
 		base = 1640,
 		value_2 = 5,
@@ -4571,6 +5103,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -4583,12 +5116,14 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1701] = {
-		value_2 = 16,
+		is_siren = 0,
 		id = 1701,
 		base = 1700,
+		value_2 = 16,
 		property_rate = {}
 	},
 	[1702] = {
+		is_siren = 0,
 		id = 1702,
 		base = 1700,
 		value_2 = 18,
@@ -4596,6 +5131,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1703] = {
+		is_siren = 0,
 		id = 1703,
 		base = 1700,
 		value_2 = 20,
@@ -4620,6 +5156,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -4632,12 +5169,14 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1721] = {
-		value_2 = 19,
+		is_siren = 0,
 		id = 1721,
 		base = 1720,
+		value_2 = 19,
 		property_rate = {}
 	},
 	[1722] = {
+		is_siren = 0,
 		id = 1722,
 		base = 1720,
 		value_2 = 22,
@@ -4645,6 +5184,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1723] = {
+		is_siren = 0,
 		id = 1723,
 		base = 1720,
 		value_2 = 25,
@@ -4669,6 +5209,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "舵坏了可就麻烦啦，能够提高机动值",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -4681,6 +5222,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1741] = {
+		is_siren = 0,
 		id = 1741,
 		base = 1740,
 		value_2 = 24,
@@ -4688,6 +5230,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1742] = {
+		is_siren = 0,
 		id = 1742,
 		base = 1740,
 		value_2 = 28,
@@ -4695,6 +5238,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1743] = {
+		is_siren = 0,
 		id = 1743,
 		base = 1740,
 		value_2 = 32,
@@ -4702,6 +5246,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1744] = {
+		is_siren = 0,
 		id = 1744,
 		base = 1740,
 		value_2 = 36,
@@ -4709,6 +5254,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1745] = {
+		is_siren = 0,
 		id = 1745,
 		base = 1740,
 		value_2 = 40,
@@ -4716,6 +5262,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1746] = {
+		is_siren = 0,
 		id = 1746,
 		base = 1740,
 		value_2 = 44,
@@ -4740,6 +5287,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "高性能的舵机，能够提高机动值",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -4754,6 +5302,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1761] = {
+		is_siren = 0,
 		id = 1761,
 		base = 1760,
 		value_2 = 27,
@@ -4761,6 +5310,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1762] = {
+		is_siren = 0,
 		id = 1762,
 		base = 1760,
 		value_2 = 30,
@@ -4768,6 +5318,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1763] = {
+		is_siren = 0,
 		id = 1763,
 		base = 1760,
 		value_2 = 33,
@@ -4775,6 +5326,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1764] = {
+		is_siren = 0,
 		id = 1764,
 		base = 1760,
 		value_2 = 36,
@@ -4782,6 +5334,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1765] = {
+		is_siren = 0,
 		id = 1765,
 		base = 1760,
 		value_2 = 40,
@@ -4789,6 +5342,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1766] = {
+		is_siren = 0,
 		id = 1766,
 		base = 1760,
 		value_2 = 44,
@@ -4796,6 +5350,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1767] = {
+		is_siren = 0,
 		id = 1767,
 		base = 1760,
 		value_2 = 48,
@@ -4803,6 +5358,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1768] = {
+		is_siren = 0,
 		id = 1768,
 		base = 1760,
 		value_2 = 52,
@@ -4810,6 +5366,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1769] = {
+		is_siren = 0,
 		id = 1769,
 		base = 1760,
 		value_2 = 56,
@@ -4817,6 +5374,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1770] = {
+		is_siren = 0,
 		id = 1770,
 		base = 1760,
 		value_2 = 60,
@@ -4841,6 +5399,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -4854,20 +5413,23 @@ pg.equip_data_statistics = {
 	},
 	[1801] = {
 		id = 1801,
-		value_1 = "40",
 		base = 1800,
+		is_siren = 0,
+		value_1 = "40",
 		property_rate = {}
 	},
 	[1802] = {
 		id = 1802,
-		value_1 = "45",
 		base = 1800,
+		is_siren = 0,
+		value_1 = "45",
 		property_rate = {}
 	},
 	[1803] = {
 		id = 1803,
-		value_1 = "50",
 		base = 1800,
+		is_siren = 0,
+		value_1 = "50",
 		property_rate = {}
 	},
 	[1820] = {
@@ -4888,6 +5450,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -4901,17 +5464,20 @@ pg.equip_data_statistics = {
 	},
 	[1821] = {
 		id = 1821,
-		value_1 = "72",
 		base = 1820,
+		is_siren = 0,
+		value_1 = "72",
 		property_rate = {}
 	},
 	[1822] = {
 		id = 1822,
-		value_1 = "81",
 		base = 1820,
+		is_siren = 0,
+		value_1 = "81",
 		property_rate = {}
 	},
 	[1823] = {
+		is_siren = 0,
 		id = 1823,
 		base = 1820,
 		value_2 = 3,
@@ -4919,6 +5485,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1824] = {
+		is_siren = 0,
 		id = 1824,
 		base = 1820,
 		value_2 = 3,
@@ -4926,6 +5493,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1825] = {
+		is_siren = 0,
 		id = 1825,
 		base = 1820,
 		value_2 = 3,
@@ -4933,6 +5501,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1826] = {
+		is_siren = 0,
 		id = 1826,
 		base = 1820,
 		value_2 = 4,
@@ -4957,6 +5526,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "比较先进的锅炉，有效的提高了航速和耐久性能",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -4970,11 +5540,13 @@ pg.equip_data_statistics = {
 	},
 	[1841] = {
 		id = 1841,
-		value_1 = "112",
 		base = 1840,
+		is_siren = 0,
+		value_1 = "112",
 		property_rate = {}
 	},
 	[1842] = {
+		is_siren = 0,
 		id = 1842,
 		base = 1840,
 		value_2 = 4,
@@ -4982,6 +5554,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1843] = {
+		is_siren = 0,
 		id = 1843,
 		base = 1840,
 		value_2 = 4,
@@ -4989,6 +5562,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1844] = {
+		is_siren = 0,
 		id = 1844,
 		base = 1840,
 		value_2 = 5,
@@ -4996,6 +5570,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1845] = {
+		is_siren = 0,
 		id = 1845,
 		base = 1840,
 		value_2 = 5,
@@ -5003,6 +5578,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1846] = {
+		is_siren = 0,
 		id = 1846,
 		base = 1840,
 		value_2 = 6,
@@ -5010,6 +5586,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1847] = {
+		is_siren = 0,
 		id = 1847,
 		base = 1840,
 		value_2 = 6,
@@ -5017,6 +5594,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1848] = {
+		is_siren = 0,
 		id = 1848,
 		base = 1840,
 		value_2 = 7,
@@ -5024,6 +5602,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1849] = {
+		is_siren = 0,
 		id = 1849,
 		base = 1840,
 		value_2 = 7,
@@ -5031,6 +5610,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1850] = {
+		is_siren = 0,
 		id = 1850,
 		base = 1840,
 		value_2 = 8,
@@ -5055,6 +5635,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -5067,12 +5648,14 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1901] = {
-		value_2 = 16,
+		is_siren = 0,
 		id = 1901,
 		base = 1900,
+		value_2 = 16,
 		property_rate = {}
 	},
 	[1902] = {
+		is_siren = 0,
 		id = 1902,
 		base = 1900,
 		value_2 = 18,
@@ -5080,6 +5663,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1903] = {
+		is_siren = 0,
 		id = 1903,
 		base = 1900,
 		value_2 = 20,
@@ -5104,6 +5688,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -5116,12 +5701,14 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1921] = {
-		value_2 = 19,
+		is_siren = 0,
 		id = 1921,
 		base = 1920,
+		value_2 = 19,
 		property_rate = {}
 	},
 	[1922] = {
+		is_siren = 0,
 		id = 1922,
 		base = 1920,
 		value_2 = 22,
@@ -5129,6 +5716,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1923] = {
+		is_siren = 0,
 		id = 1923,
 		base = 1920,
 		value_2 = 25,
@@ -5153,6 +5741,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "虽说涂装可以随意，但是这么贵的东西就不要弄个一点隐蔽性能都没有的东西了吧",
 		value_3 = 0,
 		attribute_1 = "dodge",
@@ -5165,6 +5754,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[1941] = {
+		is_siren = 0,
 		id = 1941,
 		base = 1940,
 		value_2 = 24,
@@ -5172,6 +5762,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1942] = {
+		is_siren = 0,
 		id = 1942,
 		base = 1940,
 		value_2 = 28,
@@ -5179,6 +5770,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1943] = {
+		is_siren = 0,
 		id = 1943,
 		base = 1940,
 		value_2 = 32,
@@ -5186,6 +5778,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1944] = {
+		is_siren = 0,
 		id = 1944,
 		base = 1940,
 		value_2 = 36,
@@ -5193,6 +5786,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1945] = {
+		is_siren = 0,
 		id = 1945,
 		base = 1940,
 		value_2 = 40,
@@ -5200,6 +5794,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[1946] = {
+		is_siren = 0,
 		id = 1946,
 		base = 1940,
 		value_2 = 44,
@@ -5224,6 +5819,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "可以提高燃油质量哦",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -5237,20 +5833,23 @@ pg.equip_data_statistics = {
 	},
 	[2001] = {
 		id = 2001,
-		value_1 = "57",
 		base = 2000,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[2002] = {
 		id = 2002,
-		value_1 = "65",
 		base = 2000,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[2003] = {
 		id = 2003,
-		value_1 = "72",
 		base = 2000,
+		is_siren = 0,
+		value_1 = "72",
 		property_rate = {}
 	},
 	[2020] = {
@@ -5271,6 +5870,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "可以提高燃油质量哦",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -5284,23 +5884,27 @@ pg.equip_data_statistics = {
 	},
 	[2021] = {
 		id = 2021,
-		value_1 = "103",
 		base = 2020,
+		is_siren = 0,
+		value_1 = "103",
 		property_rate = {}
 	},
 	[2022] = {
 		id = 2022,
-		value_1 = "117",
 		base = 2020,
+		is_siren = 0,
+		value_1 = "117",
 		property_rate = {}
 	},
 	[2023] = {
 		id = 2023,
-		value_1 = "130",
 		base = 2020,
+		is_siren = 0,
+		value_1 = "130",
 		property_rate = {}
 	},
 	[2024] = {
+		is_siren = 0,
 		id = 2024,
 		base = 2020,
 		value_2 = 3,
@@ -5308,6 +5912,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2025] = {
+		is_siren = 0,
 		id = 2025,
 		base = 2020,
 		value_2 = 3,
@@ -5315,6 +5920,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2026] = {
+		is_siren = 0,
 		id = 2026,
 		base = 2020,
 		value_2 = 3,
@@ -5339,6 +5945,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "可以提高燃油质量哦",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -5352,23 +5959,27 @@ pg.equip_data_statistics = {
 	},
 	[2041] = {
 		id = 2041,
-		value_1 = "161",
 		base = 2040,
+		is_siren = 0,
+		value_1 = "161",
 		property_rate = {}
 	},
 	[2042] = {
 		id = 2042,
-		value_1 = "182",
 		base = 2040,
+		is_siren = 0,
+		value_1 = "182",
 		property_rate = {}
 	},
 	[2043] = {
 		id = 2043,
-		value_1 = "203",
 		base = 2040,
+		is_siren = 0,
+		value_1 = "203",
 		property_rate = {}
 	},
 	[2044] = {
+		is_siren = 0,
 		id = 2044,
 		base = 2040,
 		value_2 = 3,
@@ -5376,6 +5987,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2045] = {
+		is_siren = 0,
 		id = 2045,
 		base = 2040,
 		value_2 = 3,
@@ -5383,6 +5995,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2046] = {
+		is_siren = 0,
 		id = 2046,
 		base = 2040,
 		value_2 = 3,
@@ -5390,6 +6003,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2047] = {
+		is_siren = 0,
 		id = 2047,
 		base = 2040,
 		value_2 = 4,
@@ -5397,6 +6011,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2048] = {
+		is_siren = 0,
 		id = 2048,
 		base = 2040,
 		value_2 = 4,
@@ -5404,6 +6019,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2049] = {
+		is_siren = 0,
 		id = 2049,
 		base = 2040,
 		value_2 = 4,
@@ -5411,6 +6027,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2050] = {
+		is_siren = 0,
 		id = 2050,
 		base = 2040,
 		value_2 = 5,
@@ -5435,6 +6052,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -5449,6 +6067,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2101] = {
+		is_siren = 0,
 		id = 2101,
 		base = 2100,
 		value_2 = 16,
@@ -5456,6 +6075,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2102] = {
+		is_siren = 0,
 		id = 2102,
 		base = 2100,
 		value_2 = 18,
@@ -5463,6 +6083,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2103] = {
+		is_siren = 0,
 		id = 2103,
 		base = 2100,
 		value_2 = 20,
@@ -5487,6 +6108,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -5501,6 +6123,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2121] = {
+		is_siren = 0,
 		id = 2121,
 		base = 2120,
 		value_2 = 19,
@@ -5508,6 +6131,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2122] = {
+		is_siren = 0,
 		id = 2122,
 		base = 2120,
 		value_2 = 22,
@@ -5515,6 +6139,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2123] = {
+		is_siren = 0,
 		id = 2123,
 		base = 2120,
 		value_2 = 25,
@@ -5522,6 +6147,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2124] = {
+		is_siren = 0,
 		id = 2124,
 		base = 2120,
 		value_2 = 28,
@@ -5529,6 +6155,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2125] = {
+		is_siren = 0,
 		id = 2125,
 		base = 2120,
 		value_2 = 31,
@@ -5536,6 +6163,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2126] = {
+		is_siren = 0,
 		id = 2126,
 		base = 2120,
 		value_2 = 34,
@@ -5560,6 +6188,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "携带副油箱可以有效提高舰载机的耐久性能",
 		value_3 = 0,
 		attribute_1 = "air",
@@ -5574,6 +6203,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2141] = {
+		is_siren = 0,
 		id = 2141,
 		base = 2140,
 		value_2 = 24,
@@ -5581,6 +6211,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2142] = {
+		is_siren = 0,
 		id = 2142,
 		base = 2140,
 		value_2 = 28,
@@ -5588,6 +6219,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2143] = {
+		is_siren = 0,
 		id = 2143,
 		base = 2140,
 		value_2 = 32,
@@ -5595,6 +6227,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2144] = {
+		is_siren = 0,
 		id = 2144,
 		base = 2140,
 		value_2 = 36,
@@ -5602,6 +6235,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2145] = {
+		is_siren = 0,
 		id = 2145,
 		base = 2140,
 		value_2 = 40,
@@ -5609,6 +6243,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2146] = {
+		is_siren = 0,
 		id = 2146,
 		base = 2140,
 		value_2 = 44,
@@ -5616,6 +6251,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2147] = {
+		is_siren = 0,
 		id = 2147,
 		base = 2140,
 		value_2 = 48,
@@ -5623,6 +6259,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2148] = {
+		is_siren = 0,
 		id = 2148,
 		base = 2140,
 		value_2 = 52,
@@ -5630,6 +6267,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2149] = {
+		is_siren = 0,
 		id = 2149,
 		base = 2140,
 		value_2 = 56,
@@ -5637,6 +6275,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2150] = {
+		is_siren = 0,
 		id = 2150,
 		base = 2140,
 		value_2 = 60,
@@ -5661,6 +6300,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		value_3 = 0,
 		attribute_1 = "reload",
@@ -5673,17 +6313,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2201] = {
+		is_siren = 0,
 		id = 2201,
 		base = 2200,
 		property_rate = {}
 	},
 	[2202] = {
 		id = 2202,
-		value_1 = "6",
 		base = 2200,
+		is_siren = 0,
+		value_1 = "6",
 		property_rate = {}
 	},
 	[2203] = {
+		is_siren = 0,
 		id = 2203,
 		base = 2200,
 		value_2 = 2,
@@ -5708,6 +6351,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		value_3 = 0,
 		attribute_1 = "reload",
@@ -5721,17 +6365,20 @@ pg.equip_data_statistics = {
 	},
 	[2221] = {
 		id = 2221,
-		value_1 = "10",
 		base = 2220,
+		is_siren = 0,
+		value_1 = "10",
 		property_rate = {}
 	},
 	[2222] = {
 		id = 2222,
-		value_1 = "11",
 		base = 2220,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[2223] = {
+		is_siren = 0,
 		id = 2223,
 		base = 2220,
 		value_2 = 3,
@@ -5739,6 +6386,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2224] = {
+		is_siren = 0,
 		id = 2224,
 		base = 2220,
 		value_2 = 3,
@@ -5746,6 +6394,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2225] = {
+		is_siren = 0,
 		id = 2225,
 		base = 2220,
 		value_2 = 4,
@@ -5753,6 +6402,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2226] = {
+		is_siren = 0,
 		id = 2226,
 		base = 2220,
 		value_2 = 4,
@@ -5777,6 +6427,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "较先进的装弹机，总比一个个手动填装要好得多",
 		value_3 = 0,
 		attribute_1 = "reload",
@@ -5790,17 +6441,20 @@ pg.equip_data_statistics = {
 	},
 	[2241] = {
 		id = 2241,
-		value_1 = "16",
 		base = 2240,
+		is_siren = 0,
+		value_1 = "16",
 		property_rate = {}
 	},
 	[2242] = {
 		id = 2242,
-		value_1 = "18",
 		base = 2240,
+		is_siren = 0,
+		value_1 = "18",
 		property_rate = {}
 	},
 	[2243] = {
+		is_siren = 0,
 		id = 2243,
 		base = 2240,
 		value_2 = 4,
@@ -5808,6 +6462,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2244] = {
+		is_siren = 0,
 		id = 2244,
 		base = 2240,
 		value_2 = 4,
@@ -5815,6 +6470,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2245] = {
+		is_siren = 0,
 		id = 2245,
 		base = 2240,
 		value_2 = 5,
@@ -5822,6 +6478,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2246] = {
+		is_siren = 0,
 		id = 2246,
 		base = 2240,
 		value_2 = 5,
@@ -5829,6 +6486,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2247] = {
+		is_siren = 0,
 		id = 2247,
 		base = 2240,
 		value_2 = 6,
@@ -5836,6 +6494,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2248] = {
+		is_siren = 0,
 		id = 2248,
 		base = 2240,
 		value_2 = 6,
@@ -5843,6 +6502,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2249] = {
+		is_siren = 0,
 		id = 2249,
 		base = 2240,
 		value_2 = 7,
@@ -5850,6 +6510,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2250] = {
+		is_siren = 0,
 		id = 2250,
 		base = 2240,
 		value_2 = 7,
@@ -5874,6 +6535,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -5886,20 +6548,23 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2301] = {
+		is_siren = 0,
 		id = 2301,
 		base = 2300,
 		property_rate = {}
 	},
 	[2302] = {
 		id = 2302,
-		value_1 = "6",
 		base = 2300,
+		is_siren = 0,
+		value_1 = "6",
 		property_rate = {}
 	},
 	[2303] = {
 		id = 2303,
-		value_1 = "7",
 		base = 2300,
+		is_siren = 0,
+		value_1 = "7",
 		property_rate = {}
 	},
 	[2320] = {
@@ -5920,6 +6585,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -5933,17 +6599,20 @@ pg.equip_data_statistics = {
 	},
 	[2321] = {
 		id = 2321,
-		value_1 = "10",
 		base = 2320,
+		is_siren = 0,
+		value_1 = "10",
 		property_rate = {}
 	},
 	[2322] = {
 		id = 2322,
-		value_1 = "11",
 		base = 2320,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[2323] = {
+		is_siren = 0,
 		id = 2323,
 		base = 2320,
 		value_2 = 3,
@@ -5951,6 +6620,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2324] = {
+		is_siren = 0,
 		id = 2324,
 		base = 2320,
 		value_2 = 3,
@@ -5958,6 +6628,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2325] = {
+		is_siren = 0,
 		id = 2325,
 		base = 2320,
 		value_2 = 3,
@@ -5965,6 +6636,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2326] = {
+		is_siren = 0,
 		id = 2326,
 		base = 2320,
 		value_2 = 4,
@@ -5989,6 +6661,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "陀螺仪可以稳定舰体，从而提高命中和航速",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -6002,11 +6675,13 @@ pg.equip_data_statistics = {
 	},
 	[2341] = {
 		id = 2341,
-		value_1 = "16",
 		base = 2340,
+		is_siren = 0,
+		value_1 = "16",
 		property_rate = {}
 	},
 	[2342] = {
+		is_siren = 0,
 		id = 2342,
 		base = 2340,
 		value_2 = 4,
@@ -6014,6 +6689,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2343] = {
+		is_siren = 0,
 		id = 2343,
 		base = 2340,
 		value_2 = 4,
@@ -6021,6 +6697,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2344] = {
+		is_siren = 0,
 		id = 2344,
 		base = 2340,
 		value_2 = 5,
@@ -6028,6 +6705,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2345] = {
+		is_siren = 0,
 		id = 2345,
 		base = 2340,
 		value_2 = 5,
@@ -6035,6 +6713,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2346] = {
+		is_siren = 0,
 		id = 2346,
 		base = 2340,
 		value_2 = 6,
@@ -6042,6 +6721,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2347] = {
+		is_siren = 0,
 		id = 2347,
 		base = 2340,
 		value_2 = 6,
@@ -6049,6 +6729,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2348] = {
+		is_siren = 0,
 		id = 2348,
 		base = 2340,
 		value_2 = 7,
@@ -6056,6 +6737,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2349] = {
+		is_siren = 0,
 		id = 2349,
 		base = 2340,
 		value_2 = 7,
@@ -6063,6 +6745,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2350] = {
+		is_siren = 0,
 		id = 2350,
 		base = 2340,
 		value_2 = 8,
@@ -6085,8 +6768,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		scatter = "无",
-		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6101,20 +6785,23 @@ pg.equip_data_statistics = {
 	},
 	[2401] = {
 		id = 2401,
-		value_1 = "103",
 		base = 2400,
+		is_siren = 0,
+		value_1 = "103",
 		property_rate = {}
 	},
 	[2402] = {
 		id = 2402,
-		value_1 = "117",
 		base = 2400,
+		is_siren = 0,
+		value_1 = "117",
 		property_rate = {}
 	},
 	[2403] = {
 		id = 2403,
-		value_1 = "130",
 		base = 2400,
+		is_siren = 0,
+		value_1 = "130",
 		property_rate = {}
 	},
 	[2420] = {
@@ -6133,8 +6820,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		scatter = "无",
-		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6149,38 +6837,44 @@ pg.equip_data_statistics = {
 	},
 	[2421] = {
 		id = 2421,
-		value_1 = "161",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "161",
 		property_rate = {}
 	},
 	[2422] = {
 		id = 2422,
-		value_1 = "182",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "182",
 		property_rate = {}
 	},
 	[2423] = {
 		id = 2423,
-		value_1 = "203",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "203",
 		property_rate = {}
 	},
 	[2424] = {
 		id = 2424,
-		value_1 = "224",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "224",
 		property_rate = {}
 	},
 	[2425] = {
 		id = 2425,
-		value_1 = "245",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[2426] = {
 		id = 2426,
-		value_1 = "266",
 		base = 2420,
+		is_siren = 0,
+		value_1 = "266",
 		property_rate = {}
 	},
 	[2440] = {
@@ -6199,8 +6893,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "携带维修工具才能让损管队有效损管，但是只能维修自身",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6215,62 +6910,72 @@ pg.equip_data_statistics = {
 	},
 	[2441] = {
 		id = 2441,
-		value_1 = "230",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "230",
 		property_rate = {}
 	},
 	[2442] = {
 		id = 2442,
-		value_1 = "260",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "260",
 		property_rate = {}
 	},
 	[2443] = {
 		id = 2443,
-		value_1 = "290",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "290",
 		property_rate = {}
 	},
 	[2444] = {
 		id = 2444,
-		value_1 = "320",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "320",
 		property_rate = {}
 	},
 	[2445] = {
 		id = 2445,
-		value_1 = "350",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[2446] = {
 		id = 2446,
-		value_1 = "380",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "380",
 		property_rate = {}
 	},
 	[2447] = {
 		id = 2447,
-		value_1 = "410",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "410",
 		property_rate = {}
 	},
 	[2448] = {
 		id = 2448,
-		value_1 = "440",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "440",
 		property_rate = {}
 	},
 	[2449] = {
 		id = 2449,
-		value_1 = "470",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "470",
 		property_rate = {}
 	},
 	[2450] = {
 		id = 2450,
-		value_1 = "500",
 		base = 2440,
+		is_siren = 0,
+		value_1 = "500",
 		property_rate = {}
 	},
 	[2500] = {
@@ -6289,8 +6994,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "防止火灾啦",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防止火灾啦",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6305,20 +7011,23 @@ pg.equip_data_statistics = {
 	},
 	[2501] = {
 		id = 2501,
-		value_1 = "57",
 		base = 2500,
+		is_siren = 0,
+		value_1 = "57",
 		property_rate = {}
 	},
 	[2502] = {
 		id = 2502,
-		value_1 = "65",
 		base = 2500,
+		is_siren = 0,
+		value_1 = "65",
 		property_rate = {}
 	},
 	[2503] = {
 		id = 2503,
-		value_1 = "72",
 		base = 2500,
+		is_siren = 0,
+		value_1 = "72",
 		property_rate = {}
 	},
 	[2520] = {
@@ -6337,8 +7046,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		scatter = "无",
-		descrip = "防止火灾啦",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防止火灾啦",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6353,20 +7063,23 @@ pg.equip_data_statistics = {
 	},
 	[2521] = {
 		id = 2521,
-		value_1 = "103",
 		base = 2520,
+		is_siren = 0,
+		value_1 = "103",
 		property_rate = {}
 	},
 	[2522] = {
 		id = 2522,
-		value_1 = "117",
 		base = 2520,
+		is_siren = 0,
+		value_1 = "117",
 		property_rate = {}
 	},
 	[2523] = {
 		id = 2523,
-		value_1 = "130",
 		base = 2520,
+		is_siren = 0,
+		value_1 = "130",
 		property_rate = {}
 	},
 	[2540] = {
@@ -6385,8 +7098,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		scatter = "无",
-		descrip = "防止火灾啦",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "防止火灾啦",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -6401,38 +7115,44 @@ pg.equip_data_statistics = {
 	},
 	[2541] = {
 		id = 2541,
-		value_1 = "161",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "161",
 		property_rate = {}
 	},
 	[2542] = {
 		id = 2542,
-		value_1 = "182",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "182",
 		property_rate = {}
 	},
 	[2543] = {
 		id = 2543,
-		value_1 = "203",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "203",
 		property_rate = {}
 	},
 	[2544] = {
 		id = 2544,
-		value_1 = "224",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "224",
 		property_rate = {}
 	},
 	[2545] = {
 		id = 2545,
-		value_1 = "245",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "245",
 		property_rate = {}
 	},
 	[2546] = {
 		id = 2546,
-		value_1 = "266",
 		base = 2540,
+		is_siren = 0,
+		value_1 = "266",
 		property_rate = {}
 	},
 	[2600] = {
@@ -6453,6 +7173,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6466,11 +7187,13 @@ pg.equip_data_statistics = {
 	},
 	[2601] = {
 		id = 2601,
-		value_1 = "20",
 		base = 2600,
+		is_siren = 0,
+		value_1 = "20",
 		property_rate = {}
 	},
 	[2602] = {
+		is_siren = 0,
 		id = 2602,
 		base = 2600,
 		value_2 = 4,
@@ -6478,6 +7201,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2603] = {
+		is_siren = 0,
 		id = 2603,
 		base = 2600,
 		value_2 = 5,
@@ -6485,6 +7209,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2604] = {
+		is_siren = 0,
 		id = 2604,
 		base = 2600,
 		value_2 = 6,
@@ -6492,6 +7217,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2605] = {
+		is_siren = 0,
 		id = 2605,
 		base = 2600,
 		value_2 = 6,
@@ -6499,6 +7225,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2606] = {
+		is_siren = 0,
 		id = 2606,
 		base = 2600,
 		value_2 = 7,
@@ -6506,6 +7233,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2607] = {
+		is_siren = 0,
 		id = 2607,
 		base = 2600,
 		value_2 = 8,
@@ -6513,6 +7241,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2608] = {
+		is_siren = 0,
 		id = 2608,
 		base = 2600,
 		value_2 = 9,
@@ -6520,6 +7249,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2609] = {
+		is_siren = 0,
 		id = 2609,
 		base = 2600,
 		value_2 = 9,
@@ -6527,6 +7257,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2610] = {
+		is_siren = 0,
 		id = 2610,
 		base = 2600,
 		value_2 = 10,
@@ -6551,6 +7282,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6564,11 +7296,13 @@ pg.equip_data_statistics = {
 	},
 	[2621] = {
 		id = 2621,
-		value_1 = "32",
 		base = 2620,
+		is_siren = 0,
+		value_1 = "32",
 		property_rate = {}
 	},
 	[2622] = {
+		is_siren = 0,
 		id = 2622,
 		base = 2620,
 		value_2 = 4,
@@ -6576,6 +7310,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2623] = {
+		is_siren = 0,
 		id = 2623,
 		base = 2620,
 		value_2 = 5,
@@ -6583,6 +7318,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2624] = {
+		is_siren = 0,
 		id = 2624,
 		base = 2620,
 		value_2 = 6,
@@ -6590,6 +7326,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2625] = {
+		is_siren = 0,
 		id = 2625,
 		base = 2620,
 		value_2 = 6,
@@ -6597,6 +7334,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2626] = {
+		is_siren = 0,
 		id = 2626,
 		base = 2620,
 		value_2 = 7,
@@ -6604,6 +7342,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2627] = {
+		is_siren = 0,
 		id = 2627,
 		base = 2620,
 		value_2 = 8,
@@ -6611,6 +7350,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2628] = {
+		is_siren = 0,
 		id = 2628,
 		base = 2620,
 		value_2 = 9,
@@ -6618,6 +7358,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2629] = {
+		is_siren = 0,
 		id = 2629,
 		base = 2620,
 		value_2 = 9,
@@ -6625,6 +7366,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2630] = {
+		is_siren = 0,
 		id = 2630,
 		base = 2620,
 		value_2 = 10,
@@ -6649,6 +7391,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "九三式纯氧鱼雷，性能优于大部分鱼雷，可装备在设备栏，提高角色的雷击属性",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6662,11 +7405,13 @@ pg.equip_data_statistics = {
 	},
 	[2641] = {
 		id = 2641,
-		value_1 = "46",
 		base = 2640,
+		is_siren = 0,
+		value_1 = "46",
 		property_rate = {}
 	},
 	[2642] = {
+		is_siren = 0,
 		id = 2642,
 		base = 2640,
 		value_2 = 4,
@@ -6674,6 +7419,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2643] = {
+		is_siren = 0,
 		id = 2643,
 		base = 2640,
 		value_2 = 5,
@@ -6681,6 +7427,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2644] = {
+		is_siren = 0,
 		id = 2644,
 		base = 2640,
 		value_2 = 6,
@@ -6688,6 +7435,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2645] = {
+		is_siren = 0,
 		id = 2645,
 		base = 2640,
 		value_2 = 6,
@@ -6695,6 +7443,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2646] = {
+		is_siren = 0,
 		id = 2646,
 		base = 2640,
 		value_2 = 7,
@@ -6702,6 +7451,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2647] = {
+		is_siren = 0,
 		id = 2647,
 		base = 2640,
 		value_2 = 8,
@@ -6709,6 +7459,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2648] = {
+		is_siren = 0,
 		id = 2648,
 		base = 2640,
 		value_2 = 9,
@@ -6716,6 +7467,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2649] = {
+		is_siren = 0,
 		id = 2649,
 		base = 2640,
 		value_2 = 9,
@@ -6723,6 +7475,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2650] = {
+		is_siren = 0,
 		id = 2650,
 		base = 2640,
 		value_2 = 10,
@@ -6747,6 +7500,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "533mm磁性鱼雷，使用磁性引信的鱼雷，能够提高少量雷击属性，并且提高命中",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6759,6 +7513,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2701] = {
+		is_siren = 0,
 		id = 2701,
 		base = 2700,
 		value_2 = 3,
@@ -6766,6 +7521,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2702] = {
+		is_siren = 0,
 		id = 2702,
 		base = 2700,
 		value_2 = 3,
@@ -6773,6 +7529,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2703] = {
+		is_siren = 0,
 		id = 2703,
 		base = 2700,
 		value_2 = 3,
@@ -6780,6 +7537,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2704] = {
+		is_siren = 0,
 		id = 2704,
 		base = 2700,
 		value_2 = 4,
@@ -6787,6 +7545,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2705] = {
+		is_siren = 0,
 		id = 2705,
 		base = 2700,
 		value_2 = 4,
@@ -6794,6 +7553,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2706] = {
+		is_siren = 0,
 		id = 2706,
 		base = 2700,
 		value_2 = 5,
@@ -6818,6 +7578,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "533mm磁性鱼雷，使用磁性引信的鱼雷，能够提高少量雷击属性，并且提高命中",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6831,11 +7592,13 @@ pg.equip_data_statistics = {
 	},
 	[2721] = {
 		id = 2721,
-		value_1 = "22",
 		base = 2720,
+		is_siren = 0,
+		value_1 = "22",
 		property_rate = {}
 	},
 	[2722] = {
+		is_siren = 0,
 		id = 2722,
 		base = 2720,
 		value_2 = 5,
@@ -6843,6 +7606,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2723] = {
+		is_siren = 0,
 		id = 2723,
 		base = 2720,
 		value_2 = 6,
@@ -6850,6 +7614,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2724] = {
+		is_siren = 0,
 		id = 2724,
 		base = 2720,
 		value_2 = 6,
@@ -6857,6 +7622,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2725] = {
+		is_siren = 0,
 		id = 2725,
 		base = 2720,
 		value_2 = 7,
@@ -6864,6 +7630,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2726] = {
+		is_siren = 0,
 		id = 2726,
 		base = 2720,
 		value_2 = 7,
@@ -6871,6 +7638,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2727] = {
+		is_siren = 0,
 		id = 2727,
 		base = 2720,
 		value_2 = 8,
@@ -6878,6 +7646,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2728] = {
+		is_siren = 0,
 		id = 2728,
 		base = 2720,
 		value_2 = 9,
@@ -6885,6 +7654,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2729] = {
+		is_siren = 0,
 		id = 2729,
 		base = 2720,
 		value_2 = 9,
@@ -6892,6 +7662,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2730] = {
+		is_siren = 0,
 		id = 2730,
 		base = 2720,
 		value_2 = 10,
@@ -6916,6 +7687,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "533mm磁性鱼雷，使用磁性引信的鱼雷，能够提高少量雷击属性，并且提高命中",
 		value_3 = 0,
 		attribute_1 = "torpedo",
@@ -6929,11 +7701,13 @@ pg.equip_data_statistics = {
 	},
 	[2741] = {
 		id = 2741,
-		value_1 = "32",
 		base = 2740,
+		is_siren = 0,
+		value_1 = "32",
 		property_rate = {}
 	},
 	[2742] = {
+		is_siren = 0,
 		id = 2742,
 		base = 2740,
 		value_2 = 7,
@@ -6941,6 +7715,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2743] = {
+		is_siren = 0,
 		id = 2743,
 		base = 2740,
 		value_2 = 8,
@@ -6948,6 +7723,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2744] = {
+		is_siren = 0,
 		id = 2744,
 		base = 2740,
 		value_2 = 9,
@@ -6955,6 +7731,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2745] = {
+		is_siren = 0,
 		id = 2745,
 		base = 2740,
 		value_2 = 10,
@@ -6962,6 +7739,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2746] = {
+		is_siren = 0,
 		id = 2746,
 		base = 2740,
 		value_2 = 11,
@@ -6969,6 +7747,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2747] = {
+		is_siren = 0,
 		id = 2747,
 		base = 2740,
 		value_2 = 12,
@@ -6976,6 +7755,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2748] = {
+		is_siren = 0,
 		id = 2748,
 		base = 2740,
 		value_2 = 13,
@@ -6983,6 +7763,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2749] = {
+		is_siren = 0,
 		id = 2749,
 		base = 2740,
 		value_2 = 14,
@@ -6990,6 +7771,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2750] = {
+		is_siren = 0,
 		id = 2750,
 		base = 2740,
 		value_2 = 15,
@@ -7014,6 +7796,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 3,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "高角炮对空射击用的高射装置，安装了测距仪，用以支持高射炮进行有效的对空射击。",
 		value_3 = 0,
 		attribute_1 = "antiaircraft",
@@ -7026,6 +7809,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[2801] = {
+		is_siren = 0,
 		id = 2801,
 		base = 2800,
 		value_2 = 5,
@@ -7033,6 +7817,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2802] = {
+		is_siren = 0,
 		id = 2802,
 		base = 2800,
 		value_2 = 5,
@@ -7040,6 +7825,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2803] = {
+		is_siren = 0,
 		id = 2803,
 		base = 2800,
 		value_2 = 6,
@@ -7047,6 +7833,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2804] = {
+		is_siren = 0,
 		id = 2804,
 		base = 2800,
 		value_2 = 6,
@@ -7054,6 +7841,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2805] = {
+		is_siren = 0,
 		id = 2805,
 		base = 2800,
 		value_2 = 7,
@@ -7061,6 +7849,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2806] = {
+		is_siren = 0,
 		id = 2806,
 		base = 2800,
 		value_2 = 7,
@@ -7068,6 +7857,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2807] = {
+		is_siren = 0,
 		id = 2807,
 		base = 2800,
 		value_2 = 8,
@@ -7075,6 +7865,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2808] = {
+		is_siren = 0,
 		id = 2808,
 		base = 2800,
 		value_2 = 8,
@@ -7082,6 +7873,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2809] = {
+		is_siren = 0,
 		id = 2809,
 		base = 2800,
 		value_2 = 9,
@@ -7089,6 +7881,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2810] = {
+		is_siren = 0,
 		id = 2810,
 		base = 2800,
 		value_2 = 10,
@@ -7113,6 +7906,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7129,6 +7923,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2901] = {
+		is_siren = 0,
 		id = 2901,
 		base = 2900,
 		value_2 = 2,
@@ -7136,6 +7931,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2902] = {
+		is_siren = 0,
 		id = 2902,
 		base = 2900,
 		value_2 = 2,
@@ -7143,6 +7939,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2903] = {
+		is_siren = 0,
 		id = 2903,
 		base = 2900,
 		value_2 = 3,
@@ -7167,6 +7964,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7183,6 +7981,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2921] = {
+		is_siren = 0,
 		id = 2921,
 		base = 2920,
 		value_2 = 3,
@@ -7190,6 +7989,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2922] = {
+		is_siren = 0,
 		id = 2922,
 		base = 2920,
 		value_2 = 3,
@@ -7197,6 +7997,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2923] = {
+		is_siren = 0,
 		id = 2923,
 		base = 2920,
 		value_2 = 4,
@@ -7204,6 +8005,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2924] = {
+		is_siren = 0,
 		id = 2924,
 		base = 2920,
 		value_2 = 4,
@@ -7211,6 +8013,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2925] = {
+		is_siren = 0,
 		id = 2925,
 		base = 2920,
 		value_2 = 5,
@@ -7218,6 +8021,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2926] = {
+		is_siren = 0,
 		id = 2926,
 		base = 2920,
 		value_2 = 5,
@@ -7242,6 +8046,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7258,6 +8063,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[2941] = {
+		is_siren = 0,
 		id = 2941,
 		base = 2940,
 		value_2 = 4,
@@ -7265,6 +8071,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2942] = {
+		is_siren = 0,
 		id = 2942,
 		base = 2940,
 		value_2 = 5,
@@ -7272,6 +8079,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2943] = {
+		is_siren = 0,
 		id = 2943,
 		base = 2940,
 		value_2 = 5,
@@ -7279,6 +8087,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2944] = {
+		is_siren = 0,
 		id = 2944,
 		base = 2940,
 		value_2 = 6,
@@ -7286,6 +8095,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2945] = {
+		is_siren = 0,
 		id = 2945,
 		base = 2940,
 		value_2 = 6,
@@ -7293,6 +8103,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2946] = {
+		is_siren = 0,
 		id = 2946,
 		base = 2940,
 		value_2 = 7,
@@ -7300,6 +8111,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2947] = {
+		is_siren = 0,
 		id = 2947,
 		base = 2940,
 		value_2 = 7,
@@ -7307,6 +8119,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2948] = {
+		is_siren = 0,
 		id = 2948,
 		base = 2940,
 		value_2 = 8,
@@ -7314,6 +8127,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2949] = {
+		is_siren = 0,
 		id = 2949,
 		base = 2940,
 		value_2 = 8,
@@ -7321,6 +8135,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[2950] = {
+		is_siren = 0,
 		id = 2950,
 		base = 2940,
 		value_2 = 9,
@@ -7345,6 +8160,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7361,6 +8177,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3001] = {
+		is_siren = 0,
 		id = 3001,
 		base = 3000,
 		value_2 = 4,
@@ -7368,6 +8185,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3002] = {
+		is_siren = 0,
 		id = 3002,
 		base = 3000,
 		value_2 = 4,
@@ -7375,6 +8193,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3003] = {
+		is_siren = 0,
 		id = 3003,
 		base = 3000,
 		value_2 = 5,
@@ -7382,6 +8201,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3004] = {
+		is_siren = 0,
 		id = 3004,
 		base = 3000,
 		value_2 = 5,
@@ -7389,6 +8209,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3005] = {
+		is_siren = 0,
 		id = 3005,
 		base = 3000,
 		value_2 = 6,
@@ -7396,6 +8217,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3006] = {
+		is_siren = 0,
 		id = 3006,
 		base = 3000,
 		value_2 = 6,
@@ -7420,6 +8242,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7436,6 +8259,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3021] = {
+		is_siren = 0,
 		id = 3021,
 		base = 3020,
 		value_2 = 5,
@@ -7443,6 +8267,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3022] = {
+		is_siren = 0,
 		id = 3022,
 		base = 3020,
 		value_2 = 6,
@@ -7450,6 +8275,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3023] = {
+		is_siren = 0,
 		id = 3023,
 		base = 3020,
 		value_2 = 6,
@@ -7457,6 +8283,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3024] = {
+		is_siren = 0,
 		id = 3024,
 		base = 3020,
 		value_2 = 7,
@@ -7464,6 +8291,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3025] = {
+		is_siren = 0,
 		id = 3025,
 		base = 3020,
 		value_2 = 7,
@@ -7471,6 +8299,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3026] = {
+		is_siren = 0,
 		id = 3026,
 		base = 3020,
 		value_2 = 8,
@@ -7478,6 +8307,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3027] = {
+		is_siren = 0,
 		id = 3027,
 		base = 3020,
 		value_2 = 8,
@@ -7485,6 +8315,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3028] = {
+		is_siren = 0,
 		id = 3028,
 		base = 3020,
 		value_2 = 9,
@@ -7492,6 +8323,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3029] = {
+		is_siren = 0,
 		id = 3029,
 		base = 3020,
 		value_2 = 9,
@@ -7499,6 +8331,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3030] = {
+		is_siren = 0,
 		id = 3030,
 		base = 3020,
 		value_2 = 10,
@@ -7523,6 +8356,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 0,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "antisub",
@@ -7539,6 +8373,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[3041] = {
+		is_siren = 0,
 		id = 3041,
 		base = 3040,
 		value_2 = 7,
@@ -7546,6 +8381,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3042] = {
+		is_siren = 0,
 		id = 3042,
 		base = 3040,
 		value_2 = 8,
@@ -7553,6 +8389,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3043] = {
+		is_siren = 0,
 		id = 3043,
 		base = 3040,
 		value_2 = 8,
@@ -7560,6 +8397,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3044] = {
+		is_siren = 0,
 		id = 3044,
 		base = 3040,
 		value_2 = 9,
@@ -7567,6 +8405,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3045] = {
+		is_siren = 0,
 		id = 3045,
 		base = 3040,
 		value_2 = 9,
@@ -7574,6 +8413,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3046] = {
+		is_siren = 0,
 		id = 3046,
 		base = 3040,
 		value_2 = 10,
@@ -7581,6 +8421,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3047] = {
+		is_siren = 0,
 		id = 3047,
 		base = 3040,
 		value_2 = 10,
@@ -7588,6 +8429,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3048] = {
+		is_siren = 0,
 		id = 3048,
 		base = 3040,
 		value_2 = 11,
@@ -7595,6 +8437,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3049] = {
+		is_siren = 0,
 		id = 3049,
 		base = 3040,
 		value_2 = 11,
@@ -7602,6 +8445,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[3050] = {
+		is_siren = 0,
 		id = 3050,
 		base = 3040,
 		value_2 = 12,
@@ -7624,8 +8468,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		scatter = "无",
-		descrip = "充装气压约15兆帕的压缩空气,可提供长时间呼吸",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "充装气压约15兆帕的压缩空气,可提供长时间呼吸",
 		value_3 = 0,
 		attribute_1 = "oxy_max",
 		property_rate = {},
@@ -7638,62 +8483,72 @@ pg.equip_data_statistics = {
 	},
 	[3101] = {
 		id = 3101,
-		value_1 = "20",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "20",
 		property_rate = {}
 	},
 	[3102] = {
 		id = 3102,
-		value_1 = "22",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "22",
 		property_rate = {}
 	},
 	[3103] = {
 		id = 3103,
-		value_1 = "24",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "24",
 		property_rate = {}
 	},
 	[3104] = {
 		id = 3104,
-		value_1 = "27",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "27",
 		property_rate = {}
 	},
 	[3105] = {
 		id = 3105,
-		value_1 = "30",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "30",
 		property_rate = {}
 	},
 	[3106] = {
 		id = 3106,
-		value_1 = "33",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "33",
 		property_rate = {}
 	},
 	[3107] = {
 		id = 3107,
-		value_1 = "36",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "36",
 		property_rate = {}
 	},
 	[3108] = {
 		id = 3108,
-		value_1 = "39",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "39",
 		property_rate = {}
 	},
 	[3109] = {
 		id = 3109,
-		value_1 = "42",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "42",
 		property_rate = {}
 	},
 	[3110] = {
 		id = 3110,
-		value_1 = "45",
 		base = 3100,
+		is_siren = 0,
+		value_1 = "45",
 		property_rate = {}
 	},
 	[3120] = {
@@ -7712,8 +8567,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "通气管使潜艇能在潜望镜深度进行空气交换",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "通气管使潜艇能在潜望镜深度进行空气交换",
 		value_3 = 0,
 		attribute_1 = "oxy_max",
 		property_rate = {},
@@ -7726,62 +8582,72 @@ pg.equip_data_statistics = {
 	},
 	[3121] = {
 		id = 3121,
-		value_1 = "39",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "39",
 		property_rate = {}
 	},
 	[3122] = {
 		id = 3122,
-		value_1 = "44",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "44",
 		property_rate = {}
 	},
 	[3123] = {
 		id = 3123,
-		value_1 = "49",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "49",
 		property_rate = {}
 	},
 	[3124] = {
 		id = 3124,
-		value_1 = "54",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "54",
 		property_rate = {}
 	},
 	[3125] = {
 		id = 3125,
-		value_1 = "59",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "59",
 		property_rate = {}
 	},
 	[3126] = {
 		id = 3126,
-		value_1 = "64",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "64",
 		property_rate = {}
 	},
 	[3127] = {
 		id = 3127,
-		value_1 = "69",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "69",
 		property_rate = {}
 	},
 	[3128] = {
 		id = 3128,
-		value_1 = "74",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "74",
 		property_rate = {}
 	},
 	[3129] = {
 		id = 3129,
-		value_1 = "79",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "79",
 		property_rate = {}
 	},
 	[3130] = {
 		id = 3130,
-		value_1 = "85",
 		base = 3120,
+		is_siren = 0,
+		value_1 = "85",
 		property_rate = {}
 	},
 	[3140] = {
@@ -7800,8 +8666,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		scatter = "无",
-		descrip = "优化后的电池自能提供更长的潜航距离",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "优化后的电池自能提供更长的潜航距离",
 		value_3 = 0,
 		attribute_1 = "dodge",
 		property_rate = {},
@@ -7818,62 +8685,72 @@ pg.equip_data_statistics = {
 	},
 	[3141] = {
 		id = 3141,
-		value_1 = "3",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "3",
 		property_rate = {}
 	},
 	[3142] = {
 		id = 3142,
-		value_1 = "4",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "4",
 		property_rate = {}
 	},
 	[3143] = {
 		id = 3143,
-		value_1 = "5",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "5",
 		property_rate = {}
 	},
 	[3144] = {
 		id = 3144,
-		value_1 = "6",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "6",
 		property_rate = {}
 	},
 	[3145] = {
 		id = 3145,
-		value_1 = "7",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "7",
 		property_rate = {}
 	},
 	[3146] = {
 		id = 3146,
-		value_1 = "8",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "8",
 		property_rate = {}
 	},
 	[3147] = {
 		id = 3147,
-		value_1 = "9",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "9",
 		property_rate = {}
 	},
 	[3148] = {
 		id = 3148,
-		value_1 = "11",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "11",
 		property_rate = {}
 	},
 	[3149] = {
 		id = 3149,
-		value_1 = "13",
 		base = 3140,
+		is_siren = 0,
+		value_1 = "13",
 		property_rate = {}
 	},
 	[3150] = {
-		base = 3140,
-		id = 3150,
 		value_1 = "15",
+		base = 3140,
+		is_siren = 0,
+		id = 3150,
 		equip_parameters = {
 			hunting_lv = 2
 		},
@@ -7898,8 +8775,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "5",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -7913,8 +8791,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4001] = {
-		base = 4000,
 		id = 4001,
+		base = 4000,
+		is_siren = 0,
 		value_1 = "34 x 1",
 		weapon_id = {
 			4001
@@ -7922,8 +8801,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4002] = {
-		base = 4000,
 		id = 4002,
+		base = 4000,
+		is_siren = 0,
 		value_1 = "37 x 1",
 		weapon_id = {
 			4002
@@ -7931,8 +8811,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4003] = {
-		base = 4000,
 		id = 4003,
+		base = 4000,
+		is_siren = 0,
 		value_1 = "40 x 1",
 		weapon_id = {
 			4003
@@ -7957,6 +8838,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -7971,8 +8853,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4021] = {
-		base = 4020,
 		id = 4021,
+		base = 4020,
+		is_siren = 0,
 		value_1 = "41 x 1",
 		weapon_id = {
 			4021
@@ -7980,8 +8863,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4022] = {
-		base = 4020,
 		id = 4022,
+		base = 4020,
+		is_siren = 0,
 		value_1 = "44 x 1",
 		weapon_id = {
 			4022
@@ -7989,8 +8873,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4023] = {
-		base = 4020,
 		id = 4023,
+		base = 4020,
+		is_siren = 0,
 		value_1 = "48 x 1",
 		weapon_id = {
 			4023
@@ -8015,6 +8900,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8029,8 +8915,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4041] = {
-		base = 4040,
 		id = 4041,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "49 x 1",
 		weapon_id = {
 			4041
@@ -8038,8 +8925,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4042] = {
-		base = 4040,
 		id = 4042,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "53 x 1",
 		weapon_id = {
 			4042
@@ -8047,8 +8935,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4043] = {
-		base = 4040,
 		id = 4043,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "58 x 1",
 		weapon_id = {
 			4043
@@ -8056,8 +8945,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4044] = {
-		base = 4040,
 		id = 4044,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "63 x 1",
 		weapon_id = {
 			4044
@@ -8065,8 +8955,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4045] = {
-		base = 4040,
 		id = 4045,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "68 x 1",
 		weapon_id = {
 			4045
@@ -8074,8 +8965,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4046] = {
-		base = 4040,
 		id = 4046,
+		base = 4040,
+		is_siren = 0,
 		value_1 = "73 x 1",
 		weapon_id = {
 			4046
@@ -8100,6 +8992,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8114,8 +9007,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4101] = {
-		base = 4100,
 		id = 4101,
+		base = 4100,
+		is_siren = 0,
 		value_1 = "44 x 1",
 		weapon_id = {
 			4101
@@ -8123,8 +9017,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4102] = {
-		base = 4100,
 		id = 4102,
+		base = 4100,
+		is_siren = 0,
 		value_1 = "48 x 1",
 		weapon_id = {
 			4102
@@ -8132,8 +9027,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4103] = {
-		base = 4100,
 		id = 4103,
+		base = 4100,
+		is_siren = 0,
 		value_1 = "52 x 1",
 		weapon_id = {
 			4103
@@ -8158,6 +9054,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8172,8 +9069,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4121] = {
-		base = 4120,
 		id = 4121,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "53 x 1",
 		weapon_id = {
 			4121
@@ -8181,8 +9079,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4122] = {
-		base = 4120,
 		id = 4122,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "58 x 1",
 		weapon_id = {
 			4122
@@ -8190,8 +9089,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4123] = {
-		base = 4120,
 		id = 4123,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "63 x 1",
 		weapon_id = {
 			4123
@@ -8199,8 +9099,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4124] = {
-		base = 4120,
 		id = 4124,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "68 x 1",
 		weapon_id = {
 			4124
@@ -8208,8 +9109,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4125] = {
-		base = 4120,
 		id = 4125,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "73 x 1",
 		weapon_id = {
 			4125
@@ -8217,8 +9119,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4126] = {
-		base = 4120,
 		id = 4126,
+		base = 4120,
+		is_siren = 0,
 		value_1 = "78 x 1",
 		weapon_id = {
 			4126
@@ -8243,6 +9146,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8257,8 +9161,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4141] = {
-		base = 4140,
 		id = 4141,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "61 x 1",
 		weapon_id = {
 			4141
@@ -8266,8 +9171,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4142] = {
-		base = 4140,
 		id = 4142,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "67 x 1",
 		weapon_id = {
 			4142
@@ -8275,8 +9181,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4143] = {
-		base = 4140,
 		id = 4143,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "73 x 1",
 		weapon_id = {
 			4143
@@ -8284,8 +9191,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4144] = {
-		base = 4140,
 		id = 4144,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "79 x 1",
 		weapon_id = {
 			4144
@@ -8293,8 +9201,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4145] = {
-		base = 4140,
 		id = 4145,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "85 x 1",
 		weapon_id = {
 			4145
@@ -8302,8 +9211,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4146] = {
-		base = 4140,
 		id = 4146,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "92 x 1",
 		weapon_id = {
 			4146
@@ -8311,8 +9221,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4147] = {
-		base = 4140,
 		id = 4147,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "99 x 1",
 		weapon_id = {
 			4147
@@ -8320,8 +9231,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4148] = {
-		base = 4140,
 		id = 4148,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "106 x 1",
 		weapon_id = {
 			4148
@@ -8329,8 +9241,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4149] = {
-		base = 4140,
 		id = 4149,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "113 x 1",
 		weapon_id = {
 			4149
@@ -8338,8 +9251,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4150] = {
-		base = 4140,
 		id = 4150,
+		base = 4140,
+		is_siren = 0,
 		value_1 = "120 x 1",
 		weapon_id = {
 			4150
@@ -8364,6 +9278,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8378,8 +9293,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4201] = {
-		base = 4200,
 		id = 4201,
+		base = 4200,
+		is_siren = 0,
 		value_1 = "30 x 1",
 		weapon_id = {
 			4201
@@ -8387,8 +9303,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4202] = {
-		base = 4200,
 		id = 4202,
+		base = 4200,
+		is_siren = 0,
 		value_1 = "32 x 1",
 		weapon_id = {
 			4202
@@ -8396,8 +9313,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4203] = {
-		base = 4200,
 		id = 4203,
+		base = 4200,
+		is_siren = 0,
 		value_1 = "35 x 1",
 		weapon_id = {
 			4203
@@ -8422,6 +9340,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8436,8 +9355,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4221] = {
-		base = 4220,
 		id = 4221,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "37 x 1",
 		weapon_id = {
 			4221
@@ -8445,8 +9365,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4222] = {
-		base = 4220,
 		id = 4222,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "40 x 1",
 		weapon_id = {
 			4222
@@ -8454,8 +9375,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4223] = {
-		base = 4220,
 		id = 4223,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "43 x 1",
 		weapon_id = {
 			4223
@@ -8463,8 +9385,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4224] = {
-		base = 4220,
 		id = 4224,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "46 x 1",
 		weapon_id = {
 			4224
@@ -8472,8 +9395,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4225] = {
-		base = 4220,
 		id = 4225,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "49 x 1",
 		weapon_id = {
 			4225
@@ -8481,8 +9405,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4226] = {
-		base = 4220,
 		id = 4226,
+		base = 4220,
+		is_siren = 0,
 		value_1 = "52 x 1",
 		weapon_id = {
 			4226
@@ -8507,6 +9432,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "配备水面搜索雷达的版本,增设了翼下挂点",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8521,8 +9447,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4241] = {
-		base = 4240,
 		id = 4241,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "46 x 1",
 		weapon_id = {
 			4241
@@ -8530,8 +9457,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4242] = {
-		base = 4240,
 		id = 4242,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "50 x 1",
 		weapon_id = {
 			4242
@@ -8539,8 +9467,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4243] = {
-		base = 4240,
 		id = 4243,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "54 x 1",
 		weapon_id = {
 			4243
@@ -8548,8 +9477,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4244] = {
-		base = 4240,
 		id = 4244,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "58 x 1",
 		weapon_id = {
 			4244
@@ -8557,8 +9487,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4245] = {
-		base = 4240,
 		id = 4245,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "62 x 1",
 		weapon_id = {
 			4245
@@ -8566,8 +9497,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4246] = {
-		base = 4240,
 		id = 4246,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "66 x 1",
 		weapon_id = {
 			4246
@@ -8575,8 +9507,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4247] = {
-		base = 4240,
 		id = 4247,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "70 x 1",
 		weapon_id = {
 			4247
@@ -8584,8 +9517,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4248] = {
-		base = 4240,
 		id = 4248,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "74 x 1",
 		weapon_id = {
 			4248
@@ -8593,8 +9527,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4249] = {
-		base = 4240,
 		id = 4249,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "79 x 1",
 		weapon_id = {
 			4249
@@ -8602,8 +9537,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4250] = {
-		base = 4240,
 		id = 4250,
+		base = 4240,
+		is_siren = 0,
 		value_1 = "84 x 1",
 		weapon_id = {
 			4250
@@ -8628,6 +9564,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8642,8 +9579,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4301] = {
-		base = 4300,
 		id = 4301,
+		base = 4300,
+		is_siren = 0,
 		value_1 = "27 x 1",
 		weapon_id = {
 			4301
@@ -8651,8 +9589,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4302] = {
-		base = 4300,
 		id = 4302,
+		base = 4300,
+		is_siren = 0,
 		value_1 = "29 x 1",
 		weapon_id = {
 			4302
@@ -8660,8 +9599,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4303] = {
-		base = 4300,
 		id = 4303,
+		base = 4300,
+		is_siren = 0,
 		value_1 = "31 x 1",
 		weapon_id = {
 			4303
@@ -8686,6 +9626,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8700,8 +9641,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4321] = {
-		base = 4320,
 		id = 4321,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "33 x 1",
 		weapon_id = {
 			4321
@@ -8709,8 +9651,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4322] = {
-		base = 4320,
 		id = 4322,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "36 x 1",
 		weapon_id = {
 			4322
@@ -8718,8 +9661,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4323] = {
-		base = 4320,
 		id = 4323,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "39 x 1",
 		weapon_id = {
 			4323
@@ -8727,8 +9671,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4324] = {
-		base = 4320,
 		id = 4324,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "42 x 1",
 		weapon_id = {
 			4324
@@ -8736,8 +9681,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4325] = {
-		base = 4320,
 		id = 4325,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "45 x 1",
 		weapon_id = {
 			4325
@@ -8745,8 +9691,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4326] = {
-		base = 4320,
 		id = 4326,
+		base = 4320,
+		is_siren = 0,
 		value_1 = "48 x 1",
 		weapon_id = {
 			4326
@@ -8771,6 +9718,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "通用公司生产型TBF,换装了动力更大的发动机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8785,8 +9733,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[4341] = {
-		base = 4340,
 		id = 4341,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "39 x 1",
 		weapon_id = {
 			4341
@@ -8794,8 +9743,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4342] = {
-		base = 4340,
 		id = 4342,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "42 x 1",
 		weapon_id = {
 			4342
@@ -8803,8 +9753,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4343] = {
-		base = 4340,
 		id = 4343,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "45 x 1",
 		weapon_id = {
 			4343
@@ -8812,8 +9763,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4344] = {
-		base = 4340,
 		id = 4344,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "48 x 1",
 		weapon_id = {
 			4344
@@ -8821,8 +9773,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4345] = {
-		base = 4340,
 		id = 4345,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "52 x 1",
 		weapon_id = {
 			4345
@@ -8830,8 +9783,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4346] = {
-		base = 4340,
 		id = 4346,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "56 x 1",
 		weapon_id = {
 			4346
@@ -8839,8 +9793,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4347] = {
-		base = 4340,
 		id = 4347,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "60 x 1",
 		weapon_id = {
 			4347
@@ -8848,8 +9803,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4348] = {
-		base = 4340,
 		id = 4348,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "64 x 1",
 		weapon_id = {
 			4348
@@ -8857,8 +9813,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4349] = {
-		base = 4340,
 		id = 4349,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "68 x 1",
 		weapon_id = {
 			4349
@@ -8866,8 +9823,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[4350] = {
-		base = 4340,
 		id = 4350,
+		base = 4340,
+		is_siren = 0,
 		value_1 = "72 x 1",
 		weapon_id = {
 			4350
@@ -8890,8 +9848,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -8905,8 +9864,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5001] = {
-		base = 5000,
 		id = 5001,
+		base = 5000,
+		is_siren = 0,
 		value_1 = "54 x 3",
 		weapon_id = {
 			5001
@@ -8914,8 +9874,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5002] = {
-		base = 5000,
 		id = 5002,
+		base = 5000,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			5002
@@ -8923,8 +9884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5003] = {
-		base = 5000,
 		id = 5003,
+		base = 5000,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			5003
@@ -8949,6 +9911,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -8963,8 +9926,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5021] = {
-		base = 5020,
 		id = 5021,
+		base = 5020,
+		is_siren = 0,
 		value_1 = "59 x 3",
 		weapon_id = {
 			5021
@@ -8972,8 +9936,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5022] = {
-		base = 5020,
 		id = 5022,
+		base = 5020,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			5022
@@ -8981,8 +9946,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5023] = {
-		base = 5020,
 		id = 5023,
+		base = 5020,
+		is_siren = 0,
 		value_1 = "77 x 3",
 		weapon_id = {
 			5023
@@ -9007,6 +9973,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9021,8 +9988,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5041] = {
-		base = 5040,
 		id = 5041,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "66 x 3",
 		weapon_id = {
 			5041
@@ -9030,8 +9998,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5042] = {
-		base = 5040,
 		id = 5042,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "76 x 3",
 		weapon_id = {
 			5042
@@ -9039,8 +10008,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5043] = {
-		base = 5040,
 		id = 5043,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			5043
@@ -9048,8 +10018,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5044] = {
-		base = 5040,
 		id = 5044,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "96 x 3",
 		weapon_id = {
 			5044
@@ -9057,8 +10028,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5045] = {
-		base = 5040,
 		id = 5045,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			5045
@@ -9066,8 +10038,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5046] = {
-		base = 5040,
 		id = 5046,
+		base = 5040,
+		is_siren = 0,
 		value_1 = "116 x 3",
 		weapon_id = {
 			5046
@@ -9092,6 +10065,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9106,8 +10080,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5101] = {
-		base = 5100,
 		id = 5101,
+		base = 5100,
+		is_siren = 0,
 		value_1 = "54 x 4",
 		weapon_id = {
 			5101
@@ -9115,8 +10090,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5102] = {
-		base = 5100,
 		id = 5102,
+		base = 5100,
+		is_siren = 0,
 		value_1 = "62 x 4",
 		weapon_id = {
 			5102
@@ -9124,8 +10100,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5103] = {
-		base = 5100,
 		id = 5103,
+		base = 5100,
+		is_siren = 0,
 		value_1 = "70 x 4",
 		weapon_id = {
 			5103
@@ -9150,6 +10127,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9164,8 +10142,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5121] = {
-		base = 5120,
 		id = 5121,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "59 x 4",
 		weapon_id = {
 			5121
@@ -9173,8 +10152,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5122] = {
-		base = 5120,
 		id = 5122,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "68 x 4",
 		weapon_id = {
 			5122
@@ -9182,8 +10162,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5123] = {
-		base = 5120,
 		id = 5123,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "77 x 4",
 		weapon_id = {
 			5123
@@ -9191,8 +10172,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5124] = {
-		base = 5120,
 		id = 5124,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "86 x 4",
 		weapon_id = {
 			5124
@@ -9200,8 +10182,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5125] = {
-		base = 5120,
 		id = 5125,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "95 x 4",
 		weapon_id = {
 			5125
@@ -9209,8 +10192,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5126] = {
-		base = 5120,
 		id = 5126,
+		base = 5120,
+		is_siren = 0,
 		value_1 = "104 x 4",
 		weapon_id = {
 			5126
@@ -9235,6 +10219,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9249,8 +10234,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5141] = {
-		base = 5140,
 		id = 5141,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "66 x 4",
 		weapon_id = {
 			5141
@@ -9258,8 +10244,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5142] = {
-		base = 5140,
 		id = 5142,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "76 x 4",
 		weapon_id = {
 			5142
@@ -9267,8 +10254,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5143] = {
-		base = 5140,
 		id = 5143,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "86 x 4",
 		weapon_id = {
 			5143
@@ -9276,8 +10264,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5144] = {
-		base = 5140,
 		id = 5144,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "96 x 4",
 		weapon_id = {
 			5144
@@ -9285,8 +10274,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5145] = {
-		base = 5140,
 		id = 5145,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "106 x 4",
 		weapon_id = {
 			5145
@@ -9294,8 +10284,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5146] = {
-		base = 5140,
 		id = 5146,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "116 x 4",
 		weapon_id = {
 			5146
@@ -9303,8 +10294,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5147] = {
-		base = 5140,
 		id = 5147,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "126 x 4",
 		weapon_id = {
 			5147
@@ -9312,8 +10304,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5148] = {
-		base = 5140,
 		id = 5148,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "136 x 4",
 		weapon_id = {
 			5148
@@ -9321,8 +10314,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5149] = {
-		base = 5140,
 		id = 5149,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "146 x 4",
 		weapon_id = {
 			5149
@@ -9330,8 +10324,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5150] = {
-		base = 5140,
 		id = 5150,
+		base = 5140,
+		is_siren = 0,
 		value_1 = "156 x 4",
 		weapon_id = {
 			5150
@@ -9356,6 +10351,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9370,8 +10366,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5201] = {
-		base = 5200,
 		id = 5201,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "54 x 5",
 		weapon_id = {
 			5201
@@ -9379,8 +10376,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5202] = {
-		base = 5200,
 		id = 5202,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "62 x 5",
 		weapon_id = {
 			5202
@@ -9388,8 +10386,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5203] = {
-		base = 5200,
 		id = 5203,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "70 x 5",
 		weapon_id = {
 			5203
@@ -9397,8 +10396,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5204] = {
-		base = 5200,
 		id = 5204,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "78 x 5",
 		weapon_id = {
 			5204
@@ -9406,8 +10406,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5205] = {
-		base = 5200,
 		id = 5205,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "86 x 5",
 		weapon_id = {
 			5205
@@ -9415,8 +10416,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5206] = {
-		base = 5200,
 		id = 5206,
+		base = 5200,
+		is_siren = 0,
 		value_1 = "94 x 5",
 		weapon_id = {
 			5206
@@ -9441,6 +10443,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9455,8 +10458,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5221] = {
-		base = 5220,
 		id = 5221,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "59 x 5",
 		weapon_id = {
 			5221
@@ -9464,8 +10468,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5222] = {
-		base = 5220,
 		id = 5222,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "68 x 5",
 		weapon_id = {
 			5222
@@ -9473,8 +10478,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5223] = {
-		base = 5220,
 		id = 5223,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "77 x 5",
 		weapon_id = {
 			5223
@@ -9482,8 +10488,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5224] = {
-		base = 5220,
 		id = 5224,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "86 x 5",
 		weapon_id = {
 			5224
@@ -9491,8 +10498,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5225] = {
-		base = 5220,
 		id = 5225,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "95 x 5",
 		weapon_id = {
 			5225
@@ -9500,8 +10508,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5226] = {
-		base = 5220,
 		id = 5226,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "104 x 5",
 		weapon_id = {
 			5226
@@ -9509,8 +10518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5227] = {
-		base = 5220,
 		id = 5227,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "113 x 5",
 		weapon_id = {
 			5227
@@ -9518,8 +10528,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5228] = {
-		base = 5220,
 		id = 5228,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "122 x 5",
 		weapon_id = {
 			5228
@@ -9527,8 +10538,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5229] = {
-		base = 5220,
 		id = 5229,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "131 x 5",
 		weapon_id = {
 			5229
@@ -9536,8 +10548,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5230] = {
-		base = 5220,
 		id = 5230,
+		base = 5220,
+		is_siren = 0,
 		value_1 = "140 x 5",
 		weapon_id = {
 			5230
@@ -9562,6 +10575,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9576,8 +10590,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5241] = {
-		base = 5240,
 		id = 5241,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "66 x 5",
 		weapon_id = {
 			5241
@@ -9585,8 +10600,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5242] = {
-		base = 5240,
 		id = 5242,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "76 x 5",
 		weapon_id = {
 			5242
@@ -9594,8 +10610,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5243] = {
-		base = 5240,
 		id = 5243,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "86 x 5",
 		weapon_id = {
 			5243
@@ -9603,8 +10620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5244] = {
-		base = 5240,
 		id = 5244,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "96 x 5",
 		weapon_id = {
 			5244
@@ -9612,8 +10630,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5245] = {
-		base = 5240,
 		id = 5245,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "106 x 5",
 		weapon_id = {
 			5245
@@ -9621,8 +10640,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5246] = {
-		base = 5240,
 		id = 5246,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "116 x 5",
 		weapon_id = {
 			5246
@@ -9630,8 +10650,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5247] = {
-		base = 5240,
 		id = 5247,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "126 x 5",
 		weapon_id = {
 			5247
@@ -9639,8 +10660,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5248] = {
-		base = 5240,
 		id = 5248,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "136 x 5",
 		weapon_id = {
 			5248
@@ -9648,8 +10670,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5249] = {
-		base = 5240,
 		id = 5249,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "146 x 5",
 		weapon_id = {
 			5249
@@ -9657,8 +10680,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5250] = {
-		base = 5240,
 		id = 5250,
+		base = 5240,
+		is_siren = 0,
 		value_1 = "156 x 5",
 		weapon_id = {
 			5250
@@ -9681,8 +10705,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -9696,8 +10721,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5301] = {
-		base = 5300,
 		id = 5301,
+		base = 5300,
+		is_siren = 0,
 		value_1 = "49 x 2",
 		weapon_id = {
 			5301
@@ -9705,8 +10731,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5302] = {
-		base = 5300,
 		id = 5302,
+		base = 5300,
+		is_siren = 0,
 		value_1 = "57 x 2",
 		weapon_id = {
 			5302
@@ -9714,8 +10741,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5303] = {
-		base = 5300,
 		id = 5303,
+		base = 5300,
+		is_siren = 0,
 		value_1 = "65 x 2",
 		weapon_id = {
 			5303
@@ -9740,6 +10768,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9754,8 +10783,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5321] = {
-		base = 5320,
 		id = 5321,
+		base = 5320,
+		is_siren = 0,
 		value_1 = "55 x 2",
 		weapon_id = {
 			5321
@@ -9763,8 +10793,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5322] = {
-		base = 5320,
 		id = 5322,
+		base = 5320,
+		is_siren = 0,
 		value_1 = "63 x 2",
 		weapon_id = {
 			5322
@@ -9772,8 +10803,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5323] = {
-		base = 5320,
 		id = 5323,
+		base = 5320,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			5323
@@ -9798,6 +10830,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9812,8 +10845,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5341] = {
-		base = 5340,
 		id = 5341,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "61 x 2",
 		weapon_id = {
 			5341
@@ -9821,8 +10855,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5342] = {
-		base = 5340,
 		id = 5342,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			5342
@@ -9830,8 +10865,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5343] = {
-		base = 5340,
 		id = 5343,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "79 x 2",
 		weapon_id = {
 			5343
@@ -9839,8 +10875,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5344] = {
-		base = 5340,
 		id = 5344,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			5344
@@ -9848,8 +10885,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5345] = {
-		base = 5340,
 		id = 5345,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "98 x 2",
 		weapon_id = {
 			5345
@@ -9857,8 +10895,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5346] = {
-		base = 5340,
 		id = 5346,
+		base = 5340,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			5346
@@ -9883,6 +10922,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9897,8 +10937,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5401] = {
-		base = 5400,
 		id = 5401,
+		base = 5400,
+		is_siren = 0,
 		value_1 = "55 x 3",
 		weapon_id = {
 			5401
@@ -9906,8 +10947,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5402] = {
-		base = 5400,
 		id = 5402,
+		base = 5400,
+		is_siren = 0,
 		value_1 = "63 x 3",
 		weapon_id = {
 			5402
@@ -9915,8 +10957,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5403] = {
-		base = 5400,
 		id = 5403,
+		base = 5400,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			5403
@@ -9941,6 +10984,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -9955,8 +10999,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5421] = {
-		base = 5420,
 		id = 5421,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "61 x 3",
 		weapon_id = {
 			5421
@@ -9964,8 +11009,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5422] = {
-		base = 5420,
 		id = 5422,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			5422
@@ -9973,8 +11019,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5423] = {
-		base = 5420,
 		id = 5423,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			5423
@@ -9982,8 +11029,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5424] = {
-		base = 5420,
 		id = 5424,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			5424
@@ -9991,8 +11039,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5425] = {
-		base = 5420,
 		id = 5425,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "98 x 3",
 		weapon_id = {
 			5425
@@ -10000,8 +11049,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5426] = {
-		base = 5420,
 		id = 5426,
+		base = 5420,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			5426
@@ -10026,6 +11076,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10040,8 +11091,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5441] = {
-		base = 5440,
 		id = 5441,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			5441
@@ -10049,8 +11101,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5442] = {
-		base = 5440,
 		id = 5442,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "78 x 3",
 		weapon_id = {
 			5442
@@ -10058,8 +11111,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5443] = {
-		base = 5440,
 		id = 5443,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			5443
@@ -10067,8 +11121,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5444] = {
-		base = 5440,
 		id = 5444,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "98 x 3",
 		weapon_id = {
 			5444
@@ -10076,8 +11131,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5445] = {
-		base = 5440,
 		id = 5445,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			5445
@@ -10085,8 +11141,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5446] = {
-		base = 5440,
 		id = 5446,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			5446
@@ -10094,8 +11151,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5447] = {
-		base = 5440,
 		id = 5447,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "129 x 3",
 		weapon_id = {
 			5447
@@ -10103,8 +11161,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5448] = {
-		base = 5440,
 		id = 5448,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "140 x 3",
 		weapon_id = {
 			5448
@@ -10112,8 +11171,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5449] = {
-		base = 5440,
 		id = 5449,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "151 x 3",
 		weapon_id = {
 			5449
@@ -10121,8 +11181,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5450] = {
-		base = 5440,
 		id = 5450,
+		base = 5440,
+		is_siren = 0,
 		value_1 = "162 x 3",
 		weapon_id = {
 			5450
@@ -10147,6 +11208,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10161,8 +11223,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5501] = {
-		base = 5500,
 		id = 5501,
+		base = 5500,
+		is_siren = 0,
 		value_1 = "50 x 2",
 		weapon_id = {
 			5501
@@ -10170,8 +11233,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5502] = {
-		base = 5500,
 		id = 5502,
+		base = 5500,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			5502
@@ -10179,8 +11243,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5503] = {
-		base = 5500,
 		id = 5503,
+		base = 5500,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			5503
@@ -10205,6 +11270,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10219,8 +11285,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5521] = {
-		base = 5520,
 		id = 5521,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			5521
@@ -10228,8 +11295,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5522] = {
-		base = 5520,
 		id = 5522,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "63 x 2",
 		weapon_id = {
 			5522
@@ -10237,8 +11305,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5523] = {
-		base = 5520,
 		id = 5523,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			5523
@@ -10246,8 +11315,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5524] = {
-		base = 5520,
 		id = 5524,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "77 x 2",
 		weapon_id = {
 			5524
@@ -10255,8 +11325,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5525] = {
-		base = 5520,
 		id = 5525,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "84 x 2",
 		weapon_id = {
 			5525
@@ -10264,8 +11335,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5526] = {
-		base = 5520,
 		id = 5526,
+		base = 5520,
+		is_siren = 0,
 		value_1 = "91 x 2",
 		weapon_id = {
 			5526
@@ -10290,6 +11362,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10304,8 +11377,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[5541] = {
-		base = 5540,
 		id = 5541,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			5541
@@ -10313,8 +11387,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5542] = {
-		base = 5540,
 		id = 5542,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			5542
@@ -10322,8 +11397,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5543] = {
-		base = 5540,
 		id = 5543,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "78 x 2",
 		weapon_id = {
 			5543
@@ -10331,8 +11407,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5544] = {
-		base = 5540,
 		id = 5544,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			5544
@@ -10340,8 +11417,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5545] = {
-		base = 5540,
 		id = 5545,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "94 x 2",
 		weapon_id = {
 			5545
@@ -10349,8 +11427,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5546] = {
-		base = 5540,
 		id = 5546,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "102 x 2",
 		weapon_id = {
 			5546
@@ -10358,8 +11437,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5547] = {
-		base = 5540,
 		id = 5547,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "110 x 2",
 		weapon_id = {
 			5547
@@ -10367,8 +11447,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5548] = {
-		base = 5540,
 		id = 5548,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "118 x 2",
 		weapon_id = {
 			5548
@@ -10376,8 +11457,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5549] = {
-		base = 5540,
 		id = 5549,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "126 x 2",
 		weapon_id = {
 			5549
@@ -10385,8 +11467,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[5550] = {
-		base = 5540,
 		id = 5550,
+		base = 5540,
+		is_siren = 0,
 		value_1 = "135 x 2",
 		weapon_id = {
 			5550
@@ -10409,8 +11492,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -10424,8 +11508,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6001] = {
-		base = 6000,
 		id = 6001,
+		base = 6000,
+		is_siren = 0,
 		value_1 = "7/轮",
 		weapon_id = {
 			6001
@@ -10433,8 +11518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6002] = {
-		base = 6000,
 		id = 6002,
+		base = 6000,
+		is_siren = 0,
 		value_1 = "8/轮",
 		weapon_id = {
 			6002
@@ -10442,8 +11528,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6003] = {
-		base = 6000,
 		id = 6003,
+		base = 6000,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			6003
@@ -10468,6 +11555,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10482,8 +11570,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6021] = {
-		base = 6020,
 		id = 6021,
+		base = 6020,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			6021
@@ -10491,8 +11580,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6022] = {
-		base = 6020,
 		id = 6022,
+		base = 6020,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			6022
@@ -10500,8 +11590,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6023] = {
-		base = 6020,
 		id = 6023,
+		base = 6020,
+		is_siren = 0,
 		value_1 = "11/轮",
 		weapon_id = {
 			6023
@@ -10526,6 +11617,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 0,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10540,8 +11632,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6041] = {
-		base = 6040,
 		id = 6041,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			6041
@@ -10549,8 +11642,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6042] = {
-		base = 6040,
 		id = 6042,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			6042
@@ -10558,8 +11652,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6043] = {
-		base = 6040,
 		id = 6043,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "11/轮",
 		weapon_id = {
 			6043
@@ -10567,8 +11662,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6044] = {
-		base = 6040,
 		id = 6044,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			6044
@@ -10576,8 +11672,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6045] = {
-		base = 6040,
 		id = 6045,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "13/轮",
 		weapon_id = {
 			6045
@@ -10585,8 +11682,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6046] = {
-		base = 6040,
 		id = 6046,
+		base = 6040,
+		is_siren = 0,
 		value_1 = "15/轮",
 		weapon_id = {
 			6046
@@ -10609,8 +11707,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -10624,8 +11723,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6101] = {
-		base = 6100,
 		id = 6101,
+		base = 6100,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			6101
@@ -10633,8 +11733,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6102] = {
-		base = 6100,
 		id = 6102,
+		base = 6100,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			6102
@@ -10642,8 +11743,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6103] = {
-		base = 6100,
 		id = 6103,
+		base = 6100,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			6103
@@ -10668,6 +11770,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10682,8 +11785,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6121] = {
-		base = 6120,
 		id = 6121,
+		base = 6120,
+		is_siren = 0,
 		value_1 = "23/轮",
 		weapon_id = {
 			6121
@@ -10691,8 +11795,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6122] = {
-		base = 6120,
 		id = 6122,
+		base = 6120,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			6122
@@ -10700,8 +11805,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6123] = {
-		base = 6120,
 		id = 6123,
+		base = 6120,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			6123
@@ -10726,6 +11832,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10740,8 +11847,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[6141] = {
-		base = 6140,
 		id = 6141,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			6141
@@ -10749,8 +11857,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6142] = {
-		base = 6140,
 		id = 6142,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			6142
@@ -10758,8 +11867,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6143] = {
-		base = 6140,
 		id = 6143,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			6143
@@ -10767,8 +11877,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6144] = {
-		base = 6140,
 		id = 6144,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			6144
@@ -10776,8 +11887,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6145] = {
-		base = 6140,
 		id = 6145,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			6145
@@ -10785,8 +11897,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[6146] = {
-		base = 6140,
 		id = 6146,
+		base = 6140,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			6146
@@ -10809,8 +11922,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -10830,8 +11944,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7001] = {
-		base = 7000,
 		id = 7001,
+		base = 7000,
+		is_siren = 0,
 		value_1 = "18 x 3",
 		weapon_id = {
 			7001
@@ -10839,8 +11954,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7002] = {
-		base = 7000,
 		id = 7002,
+		base = 7000,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			7002
@@ -10848,8 +11964,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7003] = {
-		base = 7000,
 		id = 7003,
+		base = 7000,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			7003
@@ -10874,6 +11991,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 7,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10894,8 +12012,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7021] = {
-		base = 7020,
 		id = 7021,
+		base = 7020,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			7021
@@ -10903,8 +12022,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7022] = {
-		base = 7020,
 		id = 7022,
+		base = 7020,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			7022
@@ -10912,8 +12032,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7023] = {
-		base = 7020,
 		id = 7023,
+		base = 7020,
+		is_siren = 0,
 		value_1 = "24 x 3",
 		weapon_id = {
 			7023
@@ -10938,6 +12059,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 7,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -10958,8 +12080,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7041] = {
-		base = 7040,
 		id = 7041,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			7041
@@ -10967,8 +12090,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7042] = {
-		base = 7040,
 		id = 7042,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "24 x 3",
 		weapon_id = {
 			7042
@@ -10976,8 +12100,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7043] = {
-		base = 7040,
 		id = 7043,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "26 x 3",
 		weapon_id = {
 			7043
@@ -10985,8 +12110,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7044] = {
-		base = 7040,
 		id = 7044,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			7044
@@ -10994,8 +12120,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7045] = {
-		base = 7040,
 		id = 7045,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "32 x 3",
 		weapon_id = {
 			7045
@@ -11003,8 +12130,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7046] = {
-		base = 7040,
 		id = 7046,
+		base = 7040,
+		is_siren = 0,
 		value_1 = "34 x 3",
 		weapon_id = {
 			7046
@@ -11027,8 +12155,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "40°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -11048,8 +12177,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7101] = {
-		base = 7100,
 		id = 7101,
+		base = 7100,
+		is_siren = 0,
 		value_1 = "16 x 3",
 		weapon_id = {
 			7101
@@ -11057,8 +12187,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7102] = {
-		base = 7100,
 		id = 7102,
+		base = 7100,
+		is_siren = 0,
 		value_1 = "18 x 3",
 		weapon_id = {
 			7102
@@ -11066,8 +12197,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7103] = {
-		base = 7100,
 		id = 7103,
+		base = 7100,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			7103
@@ -11092,6 +12224,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 5,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11112,8 +12245,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7121] = {
-		base = 7120,
 		id = 7121,
+		base = 7120,
+		is_siren = 0,
 		value_1 = "18 x 3",
 		weapon_id = {
 			7121
@@ -11121,8 +12255,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7122] = {
-		base = 7120,
 		id = 7122,
+		base = 7120,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			7122
@@ -11130,8 +12265,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7123] = {
-		base = 7120,
 		id = 7123,
+		base = 7120,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			7123
@@ -11156,6 +12292,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 5,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11176,8 +12313,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7141] = {
-		base = 7140,
 		id = 7141,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			7141
@@ -11185,8 +12323,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7142] = {
-		base = 7140,
 		id = 7142,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			7142
@@ -11194,8 +12333,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7143] = {
-		base = 7140,
 		id = 7143,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "24 x 3",
 		weapon_id = {
 			7143
@@ -11203,8 +12343,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7144] = {
-		base = 7140,
 		id = 7144,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "26 x 3",
 		weapon_id = {
 			7144
@@ -11212,8 +12353,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7145] = {
-		base = 7140,
 		id = 7145,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			7145
@@ -11221,8 +12363,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7146] = {
-		base = 7140,
 		id = 7146,
+		base = 7140,
+		is_siren = 0,
 		value_1 = "32 x 3",
 		weapon_id = {
 			7146
@@ -11247,6 +12390,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 7,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11268,8 +12412,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7201] = {
-		base = 7200,
 		id = 7201,
+		base = 7200,
+		is_siren = 0,
 		value_1 = "5 x 3",
 		weapon_id = {
 			7201
@@ -11277,8 +12422,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7202] = {
-		base = 7200,
 		id = 7202,
+		base = 7200,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			7202
@@ -11286,8 +12432,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7203] = {
-		base = 7200,
 		id = 7203,
+		base = 7200,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			7203
@@ -11312,6 +12459,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 7,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11333,8 +12481,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7221] = {
-		base = 7220,
 		id = 7221,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			7221
@@ -11342,8 +12491,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7222] = {
-		base = 7220,
 		id = 7222,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			7222
@@ -11351,8 +12501,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7223] = {
-		base = 7220,
 		id = 7223,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			7223
@@ -11360,8 +12511,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7224] = {
-		base = 7220,
 		id = 7224,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			7224
@@ -11369,8 +12521,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7225] = {
-		base = 7220,
 		id = 7225,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			7225
@@ -11378,8 +12531,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7226] = {
-		base = 7220,
 		id = 7226,
+		base = 7220,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			7226
@@ -11404,6 +12558,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 7,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11425,8 +12580,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7241] = {
-		base = 7240,
 		id = 7241,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			7241
@@ -11434,8 +12590,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7242] = {
-		base = 7240,
 		id = 7242,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			7242
@@ -11443,8 +12600,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7243] = {
-		base = 7240,
 		id = 7243,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			7243
@@ -11452,8 +12610,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7244] = {
-		base = 7240,
 		id = 7244,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			7244
@@ -11461,8 +12620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7245] = {
-		base = 7240,
 		id = 7245,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			7245
@@ -11470,8 +12630,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7246] = {
-		base = 7240,
 		id = 7246,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			7246
@@ -11479,8 +12640,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7247] = {
-		base = 7240,
 		id = 7247,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			7247
@@ -11488,8 +12650,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7248] = {
-		base = 7240,
 		id = 7248,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			7248
@@ -11497,8 +12660,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7249] = {
-		base = 7240,
 		id = 7249,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "15 x 3",
 		weapon_id = {
 			7249
@@ -11506,8 +12670,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7250] = {
-		base = 7240,
 		id = 7250,
+		base = 7240,
+		is_siren = 0,
 		value_1 = "17 x 3",
 		weapon_id = {
 			7250
@@ -11532,6 +12697,7 @@ pg.equip_data_statistics = {
 		angle = 38,
 		nationality = 8,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11550,8 +12716,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7301] = {
-		base = 7300,
 		id = 7301,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "32 x 3",
 		weapon_id = {
 			7301
@@ -11559,8 +12726,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7302] = {
-		base = 7300,
 		id = 7302,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "34 x 3",
 		weapon_id = {
 			7302
@@ -11568,8 +12736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7303] = {
-		base = 7300,
 		id = 7303,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "36 x 3",
 		weapon_id = {
 			7303
@@ -11577,8 +12746,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7304] = {
-		base = 7300,
 		id = 7304,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "38 x 3",
 		weapon_id = {
 			7304
@@ -11586,8 +12756,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7305] = {
-		base = 7300,
 		id = 7305,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "40 x 3",
 		weapon_id = {
 			7305
@@ -11595,8 +12766,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7306] = {
-		base = 7300,
 		id = 7306,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "42 x 3",
 		weapon_id = {
 			7306
@@ -11604,8 +12776,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7307] = {
-		base = 7300,
 		id = 7307,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "44 x 3",
 		weapon_id = {
 			7307
@@ -11613,8 +12786,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7308] = {
-		base = 7300,
 		id = 7308,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			7308
@@ -11622,8 +12796,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7309] = {
-		base = 7300,
 		id = 7309,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "49 x 3",
 		weapon_id = {
 			7309
@@ -11631,8 +12806,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7310] = {
-		base = 7300,
 		id = 7310,
+		base = 7300,
+		is_siren = 0,
 		value_1 = "52 x 3",
 		weapon_id = {
 			7310
@@ -11657,6 +12833,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11678,8 +12855,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7321] = {
-		base = 7320,
 		id = 7321,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "5 x 4",
 		weapon_id = {
 			7321
@@ -11687,8 +12865,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7322] = {
-		base = 7320,
 		id = 7322,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			7322
@@ -11696,8 +12875,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7323] = {
-		base = 7320,
 		id = 7323,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			7323
@@ -11705,8 +12885,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7324] = {
-		base = 7320,
 		id = 7324,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			7324
@@ -11714,8 +12895,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7325] = {
-		base = 7320,
 		id = 7325,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			7325
@@ -11723,8 +12905,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7326] = {
-		base = 7320,
 		id = 7326,
+		base = 7320,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			7326
@@ -11749,6 +12932,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11767,8 +12951,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[7341] = {
-		base = 7340,
 		id = 7341,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "24 x 4",
 		weapon_id = {
 			7341
@@ -11776,8 +12961,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7342] = {
-		base = 7340,
 		id = 7342,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "26 x 4",
 		weapon_id = {
 			7342
@@ -11785,8 +12971,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7343] = {
-		base = 7340,
 		id = 7343,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			7343
@@ -11794,8 +12981,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7344] = {
-		base = 7340,
 		id = 7344,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			7344
@@ -11803,8 +12991,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7345] = {
-		base = 7340,
 		id = 7345,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			7345
@@ -11812,8 +13001,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7346] = {
-		base = 7340,
 		id = 7346,
+		base = 7340,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			7346
@@ -11836,8 +13026,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -11860,14 +13051,16 @@ pg.equip_data_statistics = {
 	[11001] = {
 		id = 11001,
 		base = 11000,
+		is_siren = 0,
 		weapon_id = {
 			11001
 		},
 		property_rate = {}
 	},
 	[11002] = {
-		base = 11000,
 		id = 11002,
+		base = 11000,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11002
@@ -11875,8 +13068,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11003] = {
-		base = 11000,
 		id = 11003,
+		base = 11000,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11003
@@ -11901,6 +13095,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11924,14 +13119,16 @@ pg.equip_data_statistics = {
 	[11021] = {
 		id = 11021,
 		base = 11020,
+		is_siren = 0,
 		weapon_id = {
 			11021
 		},
 		property_rate = {}
 	},
 	[11022] = {
-		base = 11020,
 		id = 11022,
+		base = 11020,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11022
@@ -11939,8 +13136,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11023] = {
-		base = 11020,
 		id = 11023,
+		base = 11020,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11023
@@ -11965,6 +13163,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -11988,14 +13187,16 @@ pg.equip_data_statistics = {
 	[11041] = {
 		id = 11041,
 		base = 11040,
+		is_siren = 0,
 		weapon_id = {
 			11041
 		},
 		property_rate = {}
 	},
 	[11042] = {
-		base = 11040,
 		id = 11042,
+		base = 11040,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11042
@@ -12003,8 +13204,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11043] = {
-		base = 11040,
 		id = 11043,
+		base = 11040,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			11043
@@ -12012,8 +13214,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11044] = {
-		base = 11040,
 		id = 11044,
+		base = 11040,
+		is_siren = 0,
 		value_1 = "5 x 1",
 		weapon_id = {
 			11044
@@ -12021,8 +13224,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11045] = {
-		base = 11040,
 		id = 11045,
+		base = 11040,
+		is_siren = 0,
 		value_1 = "5 x 1",
 		weapon_id = {
 			11045
@@ -12030,8 +13234,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11046] = {
-		base = 11040,
 		id = 11046,
+		base = 11040,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			11046
@@ -12056,6 +13261,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12079,14 +13285,16 @@ pg.equip_data_statistics = {
 	[11101] = {
 		id = 11101,
 		base = 11100,
+		is_siren = 0,
 		weapon_id = {
 			11101
 		},
 		property_rate = {}
 	},
 	[11102] = {
-		base = 11100,
 		id = 11102,
+		base = 11100,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			11102
@@ -12094,8 +13302,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11103] = {
-		base = 11100,
 		id = 11103,
+		base = 11100,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			11103
@@ -12120,6 +13329,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12143,14 +13353,16 @@ pg.equip_data_statistics = {
 	[11121] = {
 		id = 11121,
 		base = 11120,
+		is_siren = 0,
 		weapon_id = {
 			11121
 		},
 		property_rate = {}
 	},
 	[11122] = {
-		base = 11120,
 		id = 11122,
+		base = 11120,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			11122
@@ -12158,8 +13370,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11123] = {
-		base = 11120,
 		id = 11123,
+		base = 11120,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			11123
@@ -12167,8 +13380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11124] = {
-		base = 11120,
 		id = 11124,
+		base = 11120,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			11124
@@ -12176,8 +13390,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11125] = {
-		base = 11120,
 		id = 11125,
+		base = 11120,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			11125
@@ -12185,8 +13400,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11126] = {
-		base = 11120,
 		id = 11126,
+		base = 11120,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			11126
@@ -12211,6 +13427,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12234,14 +13451,16 @@ pg.equip_data_statistics = {
 	[11141] = {
 		id = 11141,
 		base = 11140,
+		is_siren = 0,
 		weapon_id = {
 			11141
 		},
 		property_rate = {}
 	},
 	[11142] = {
-		base = 11140,
 		id = 11142,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			11142
@@ -12249,8 +13468,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11143] = {
-		base = 11140,
 		id = 11143,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			11143
@@ -12258,8 +13478,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11144] = {
-		base = 11140,
 		id = 11144,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			11144
@@ -12267,8 +13488,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11145] = {
-		base = 11140,
 		id = 11145,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			11145
@@ -12276,8 +13498,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11146] = {
-		base = 11140,
 		id = 11146,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			11146
@@ -12285,8 +13508,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11147] = {
-		base = 11140,
 		id = 11147,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			11147
@@ -12294,8 +13518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11148] = {
-		base = 11140,
 		id = 11148,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			11148
@@ -12303,8 +13528,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11149] = {
-		base = 11140,
 		id = 11149,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			11149
@@ -12312,8 +13538,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11150] = {
-		base = 11140,
 		id = 11150,
+		base = 11140,
+		is_siren = 0,
 		value_1 = "15 x 3",
 		weapon_id = {
 			11150
@@ -12339,6 +13566,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		attribute_3 = "antiaircraft",
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 7,
 		attribute_1 = "damage",
@@ -12362,14 +13590,16 @@ pg.equip_data_statistics = {
 	[11201] = {
 		id = 11201,
 		base = 11200,
+		is_siren = 0,
 		weapon_id = {
 			11201
 		},
 		property_rate = {}
 	},
 	[11202] = {
-		base = 11200,
 		id = 11202,
+		base = 11200,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			11202
@@ -12377,8 +13607,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11203] = {
-		base = 11200,
 		id = 11203,
+		base = 11200,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			11203
@@ -12386,8 +13617,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11204] = {
-		base = 11200,
 		id = 11204,
+		base = 11200,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			11204
@@ -12395,8 +13627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11205] = {
-		base = 11200,
 		id = 11205,
+		base = 11200,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			11205
@@ -12404,8 +13637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11206] = {
-		base = 11200,
 		id = 11206,
+		base = 11200,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			11206
@@ -12431,6 +13665,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		attribute_3 = "antiaircraft",
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 14,
 		attribute_1 = "damage",
@@ -12454,14 +13689,16 @@ pg.equip_data_statistics = {
 	[11221] = {
 		id = 11221,
 		base = 11220,
+		is_siren = 0,
 		weapon_id = {
 			11221
 		},
 		property_rate = {}
 	},
 	[11222] = {
-		base = 11220,
 		id = 11222,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			11222
@@ -12469,8 +13706,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11223] = {
-		base = 11220,
 		id = 11223,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			11223
@@ -12478,8 +13716,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11224] = {
-		base = 11220,
 		id = 11224,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			11224
@@ -12487,8 +13726,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11225] = {
-		base = 11220,
 		id = 11225,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			11225
@@ -12496,8 +13736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11226] = {
-		base = 11220,
 		id = 11226,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			11226
@@ -12505,8 +13746,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11227] = {
-		base = 11220,
 		id = 11227,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			11227
@@ -12514,8 +13756,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11228] = {
-		base = 11220,
 		id = 11228,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			11228
@@ -12523,8 +13766,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11229] = {
-		base = 11220,
 		id = 11229,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			11229
@@ -12532,8 +13776,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11230] = {
-		base = 11220,
 		id = 11230,
+		base = 11220,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			11230
@@ -12559,6 +13804,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		attribute_3 = "antiaircraft",
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 25,
 		attribute_1 = "damage",
@@ -12582,14 +13828,16 @@ pg.equip_data_statistics = {
 	[11241] = {
 		id = 11241,
 		base = 11240,
+		is_siren = 0,
 		weapon_id = {
 			11241
 		},
 		property_rate = {}
 	},
 	[11242] = {
-		base = 11240,
 		id = 11242,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			11242
@@ -12597,8 +13845,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11243] = {
-		base = 11240,
 		id = 11243,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			11243
@@ -12606,8 +13855,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11244] = {
-		base = 11240,
 		id = 11244,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			11244
@@ -12615,8 +13865,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11245] = {
-		base = 11240,
 		id = 11245,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			11245
@@ -12624,8 +13875,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11246] = {
-		base = 11240,
 		id = 11246,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			11246
@@ -12633,8 +13885,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11247] = {
-		base = 11240,
 		id = 11247,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			11247
@@ -12642,8 +13895,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11248] = {
-		base = 11240,
 		id = 11248,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			11248
@@ -12651,8 +13905,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11249] = {
-		base = 11240,
 		id = 11249,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			11249
@@ -12660,8 +13915,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[11250] = {
-		base = 11240,
 		id = 11250,
+		base = 11240,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			11250
@@ -12684,8 +13940,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "28°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -12705,8 +13962,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12001] = {
-		base = 12000,
 		id = 12001,
+		base = 12000,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			12001
@@ -12714,8 +13972,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12002] = {
-		base = 12000,
 		id = 12002,
+		base = 12000,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			12002
@@ -12723,8 +13982,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12003] = {
-		base = 12000,
 		id = 12003,
+		base = 12000,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			12003
@@ -12749,6 +14009,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12769,8 +14030,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12021] = {
-		base = 12020,
 		id = 12021,
+		base = 12020,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			12021
@@ -12778,8 +14040,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12022] = {
-		base = 12020,
 		id = 12022,
+		base = 12020,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			12022
@@ -12787,8 +14050,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12023] = {
-		base = 12020,
 		id = 12023,
+		base = 12020,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			12023
@@ -12813,6 +14077,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12833,8 +14098,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12041] = {
-		base = 12040,
 		id = 12041,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			12041
@@ -12842,8 +14108,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12042] = {
-		base = 12040,
 		id = 12042,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			12042
@@ -12851,8 +14118,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12043] = {
-		base = 12040,
 		id = 12043,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			12043
@@ -12860,8 +14128,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12044] = {
-		base = 12040,
 		id = 12044,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			12044
@@ -12869,8 +14138,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12045] = {
-		base = 12040,
 		id = 12045,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			12045
@@ -12878,8 +14148,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12046] = {
-		base = 12040,
 		id = 12046,
+		base = 12040,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			12046
@@ -12904,6 +14175,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12924,8 +14196,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12101] = {
-		base = 12100,
 		id = 12101,
+		base = 12100,
+		is_siren = 0,
 		value_1 = "8 x 6",
 		weapon_id = {
 			12101
@@ -12933,8 +14206,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12102] = {
-		base = 12100,
 		id = 12102,
+		base = 12100,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			12102
@@ -12942,8 +14216,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12103] = {
-		base = 12100,
 		id = 12103,
+		base = 12100,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			12103
@@ -12968,6 +14243,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -12988,8 +14264,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12121] = {
-		base = 12120,
 		id = 12121,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			12121
@@ -12997,8 +14274,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12122] = {
-		base = 12120,
 		id = 12122,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			12122
@@ -13006,8 +14284,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12123] = {
-		base = 12120,
 		id = 12123,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			12123
@@ -13015,8 +14294,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12124] = {
-		base = 12120,
 		id = 12124,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			12124
@@ -13024,8 +14304,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12125] = {
-		base = 12120,
 		id = 12125,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			12125
@@ -13033,8 +14314,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12126] = {
-		base = 12120,
 		id = 12126,
+		base = 12120,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			12126
@@ -13059,6 +14341,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13079,8 +14362,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12141] = {
-		base = 12140,
 		id = 12141,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			12141
@@ -13088,8 +14372,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12142] = {
-		base = 12140,
 		id = 12142,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			12142
@@ -13097,8 +14382,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12143] = {
-		base = 12140,
 		id = 12143,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			12143
@@ -13106,8 +14392,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12144] = {
-		base = 12140,
 		id = 12144,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			12144
@@ -13115,8 +14402,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12145] = {
-		base = 12140,
 		id = 12145,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			12145
@@ -13124,8 +14412,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12146] = {
-		base = 12140,
 		id = 12146,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			12146
@@ -13133,8 +14422,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12147] = {
-		base = 12140,
 		id = 12147,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "16 x 6",
 		weapon_id = {
 			12147
@@ -13142,8 +14432,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12148] = {
-		base = 12140,
 		id = 12148,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "17 x 6",
 		weapon_id = {
 			12148
@@ -13151,8 +14442,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12149] = {
-		base = 12140,
 		id = 12149,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "18 x 6",
 		weapon_id = {
 			12149
@@ -13160,8 +14452,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12150] = {
-		base = 12140,
 		id = 12150,
+		base = 12140,
+		is_siren = 0,
 		value_1 = "19 x 6",
 		weapon_id = {
 			12150
@@ -13187,6 +14480,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		attribute_3 = "antiaircraft",
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 15,
 		attribute_1 = "damage",
@@ -13207,8 +14501,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[12201] = {
-		base = 12200,
 		id = 12201,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "6 x 6",
 		weapon_id = {
 			12201
@@ -13216,8 +14511,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12202] = {
-		base = 12200,
 		id = 12202,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "7 x 6",
 		weapon_id = {
 			12202
@@ -13225,8 +14521,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12203] = {
-		base = 12200,
 		id = 12203,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "8 x 6",
 		weapon_id = {
 			12203
@@ -13234,8 +14531,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12204] = {
-		base = 12200,
 		id = 12204,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			12204
@@ -13243,8 +14541,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12205] = {
-		base = 12200,
 		id = 12205,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			12205
@@ -13252,8 +14551,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12206] = {
-		base = 12200,
 		id = 12206,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			12206
@@ -13261,8 +14561,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12207] = {
-		base = 12200,
 		id = 12207,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			12207
@@ -13270,8 +14571,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12208] = {
-		base = 12200,
 		id = 12208,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			12208
@@ -13279,8 +14581,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12209] = {
-		base = 12200,
 		id = 12209,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			12209
@@ -13288,8 +14591,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12210] = {
-		base = 12200,
 		id = 12210,
+		base = 12200,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			12210
@@ -13312,8 +14616,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "45°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -13331,8 +14636,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13001] = {
-		base = 13000,
 		id = 13001,
+		base = 13000,
+		is_siren = 0,
 		value_1 = "24 x 3",
 		weapon_id = {
 			13001
@@ -13340,8 +14646,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13002] = {
-		base = 13000,
 		id = 13002,
+		base = 13000,
+		is_siren = 0,
 		value_1 = "26 x 3",
 		weapon_id = {
 			13002
@@ -13349,8 +14656,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13003] = {
-		base = 13000,
 		id = 13003,
+		base = 13000,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			13003
@@ -13375,6 +14683,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13393,8 +14702,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13021] = {
-		base = 13020,
 		id = 13021,
+		base = 13020,
+		is_siren = 0,
 		value_1 = "26 x 3",
 		weapon_id = {
 			13021
@@ -13402,8 +14712,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13022] = {
-		base = 13020,
 		id = 13022,
+		base = 13020,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			13022
@@ -13411,8 +14722,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13023] = {
-		base = 13020,
 		id = 13023,
+		base = 13020,
+		is_siren = 0,
 		value_1 = "30 x 3",
 		weapon_id = {
 			13023
@@ -13437,6 +14749,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13455,8 +14768,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13041] = {
-		base = 13040,
 		id = 13041,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			13041
@@ -13464,8 +14778,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13042] = {
-		base = 13040,
 		id = 13042,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "30 x 3",
 		weapon_id = {
 			13042
@@ -13473,8 +14788,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13043] = {
-		base = 13040,
 		id = 13043,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "32 x 3",
 		weapon_id = {
 			13043
@@ -13482,8 +14798,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13044] = {
-		base = 13040,
 		id = 13044,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "34 x 3",
 		weapon_id = {
 			13044
@@ -13491,8 +14808,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13045] = {
-		base = 13040,
 		id = 13045,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "36 x 3",
 		weapon_id = {
 			13045
@@ -13500,8 +14818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13046] = {
-		base = 13040,
 		id = 13046,
+		base = 13040,
+		is_siren = 0,
 		value_1 = "39 x 3",
 		weapon_id = {
 			13046
@@ -13526,6 +14845,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13544,8 +14864,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13101] = {
-		base = 13100,
 		id = 13101,
+		base = 13100,
+		is_siren = 0,
 		value_1 = "26 x 3",
 		weapon_id = {
 			13101
@@ -13553,8 +14874,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13102] = {
-		base = 13100,
 		id = 13102,
+		base = 13100,
+		is_siren = 0,
 		value_1 = "28 x 3",
 		weapon_id = {
 			13102
@@ -13562,8 +14884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13103] = {
-		base = 13100,
 		id = 13103,
+		base = 13100,
+		is_siren = 0,
 		value_1 = "30 x 3",
 		weapon_id = {
 			13103
@@ -13588,6 +14911,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13606,8 +14930,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13121] = {
-		base = 13120,
 		id = 13121,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "29 x 3",
 		weapon_id = {
 			13121
@@ -13615,8 +14940,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13122] = {
-		base = 13120,
 		id = 13122,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "31 x 3",
 		weapon_id = {
 			13122
@@ -13624,8 +14950,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13123] = {
-		base = 13120,
 		id = 13123,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "33 x 3",
 		weapon_id = {
 			13123
@@ -13633,8 +14960,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13124] = {
-		base = 13120,
 		id = 13124,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "35 x 3",
 		weapon_id = {
 			13124
@@ -13642,8 +14970,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13125] = {
-		base = 13120,
 		id = 13125,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "37 x 3",
 		weapon_id = {
 			13125
@@ -13651,8 +14980,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13126] = {
-		base = 13120,
 		id = 13126,
+		base = 13120,
+		is_siren = 0,
 		value_1 = "40 x 3",
 		weapon_id = {
 			13126
@@ -13677,6 +15007,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13695,8 +15026,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[13141] = {
-		base = 13140,
 		id = 13141,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "31 x 3",
 		weapon_id = {
 			13141
@@ -13704,8 +15036,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13142] = {
-		base = 13140,
 		id = 13142,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "34 x 3",
 		weapon_id = {
 			13142
@@ -13713,8 +15046,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13143] = {
-		base = 13140,
 		id = 13143,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "36 x 3",
 		weapon_id = {
 			13143
@@ -13722,8 +15056,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13144] = {
-		base = 13140,
 		id = 13144,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "38 x 3",
 		weapon_id = {
 			13144
@@ -13731,8 +15066,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13145] = {
-		base = 13140,
 		id = 13145,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "40 x 3",
 		weapon_id = {
 			13145
@@ -13740,8 +15076,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13146] = {
-		base = 13140,
 		id = 13146,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "43 x 3",
 		weapon_id = {
 			13146
@@ -13749,8 +15086,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13147] = {
-		base = 13140,
 		id = 13147,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			13147
@@ -13758,8 +15096,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13148] = {
-		base = 13140,
 		id = 13148,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "48 x 3",
 		weapon_id = {
 			13148
@@ -13767,8 +15106,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13149] = {
-		base = 13140,
 		id = 13149,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "50 x 3",
 		weapon_id = {
 			13149
@@ -13776,8 +15116,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[13150] = {
-		base = 13140,
 		id = 13150,
+		base = 13140,
+		is_siren = 0,
 		value_1 = "52 x 3",
 		weapon_id = {
 			13150
@@ -13802,6 +15143,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13821,8 +15163,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14001] = {
-		base = 14000,
 		id = 14001,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "40 x 3",
 		weapon_id = {
 			14001
@@ -13830,8 +15173,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14002] = {
-		base = 14000,
 		id = 14002,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "44 x 3",
 		weapon_id = {
 			14002
@@ -13839,8 +15183,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14003] = {
-		base = 14000,
 		id = 14003,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "48 x 3",
 		weapon_id = {
 			14003
@@ -13848,8 +15193,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14004] = {
-		base = 14000,
 		id = 14004,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "52 x 3",
 		weapon_id = {
 			14004
@@ -13857,8 +15203,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14005] = {
-		base = 14000,
 		id = 14005,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "56 x 3",
 		weapon_id = {
 			14005
@@ -13866,8 +15213,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14006] = {
-		base = 14000,
 		id = 14006,
+		base = 14000,
+		is_siren = 0,
 		value_1 = "60 x 3",
 		weapon_id = {
 			14006
@@ -13892,6 +15240,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -13911,8 +15260,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14021] = {
-		base = 14020,
 		id = 14021,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "44 x 3",
 		weapon_id = {
 			14021
@@ -13920,8 +15270,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14022] = {
-		base = 14020,
 		id = 14022,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "48 x 3",
 		weapon_id = {
 			14022
@@ -13929,8 +15280,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14023] = {
-		base = 14020,
 		id = 14023,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "53 x 3",
 		weapon_id = {
 			14023
@@ -13938,8 +15290,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14024] = {
-		base = 14020,
 		id = 14024,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "57 x 3",
 		weapon_id = {
 			14024
@@ -13947,8 +15300,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14025] = {
-		base = 14020,
 		id = 14025,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			14025
@@ -13956,8 +15310,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14026] = {
-		base = 14020,
 		id = 14026,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "66 x 3",
 		weapon_id = {
 			14026
@@ -13965,8 +15320,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14027] = {
-		base = 14020,
 		id = 14027,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			14027
@@ -13974,8 +15330,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14028] = {
-		base = 14020,
 		id = 14028,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "75 x 3",
 		weapon_id = {
 			14028
@@ -13983,8 +15340,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14029] = {
-		base = 14020,
 		id = 14029,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			14029
@@ -13992,8 +15350,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14030] = {
-		base = 14020,
 		id = 14030,
+		base = 14020,
+		is_siren = 0,
 		value_1 = "84 x 3",
 		weapon_id = {
 			14030
@@ -14018,6 +15377,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14037,8 +15397,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14041] = {
-		base = 14040,
 		id = 14041,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "48 x 3",
 		weapon_id = {
 			14041
@@ -14046,8 +15407,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14042] = {
-		base = 14040,
 		id = 14042,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "52 x 3",
 		weapon_id = {
 			14042
@@ -14055,8 +15417,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14043] = {
-		base = 14040,
 		id = 14043,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "58 x 3",
 		weapon_id = {
 			14043
@@ -14064,8 +15427,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14044] = {
-		base = 14040,
 		id = 14044,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			14044
@@ -14073,8 +15437,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14045] = {
-		base = 14040,
 		id = 14045,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			14045
@@ -14082,8 +15447,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14046] = {
-		base = 14040,
 		id = 14046,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			14046
@@ -14091,8 +15457,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14047] = {
-		base = 14040,
 		id = 14047,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "76 x 3",
 		weapon_id = {
 			14047
@@ -14100,8 +15467,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14048] = {
-		base = 14040,
 		id = 14048,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			14048
@@ -14109,8 +15477,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14049] = {
-		base = 14040,
 		id = 14049,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			14049
@@ -14118,8 +15487,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14050] = {
-		base = 14040,
 		id = 14050,
+		base = 14040,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			14050
@@ -14142,8 +15512,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "22",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -14162,8 +15533,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14101] = {
-		base = 14100,
 		id = 14101,
+		base = 14100,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			14101
@@ -14171,8 +15543,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14102] = {
-		base = 14100,
 		id = 14102,
+		base = 14100,
+		is_siren = 0,
 		value_1 = "50 x 3",
 		weapon_id = {
 			14102
@@ -14180,8 +15553,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14103] = {
-		base = 14100,
 		id = 14103,
+		base = 14100,
+		is_siren = 0,
 		value_1 = "56 x 3",
 		weapon_id = {
 			14103
@@ -14206,6 +15580,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14225,8 +15600,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14121] = {
-		base = 14120,
 		id = 14121,
+		base = 14120,
+		is_siren = 0,
 		value_1 = "50 x 3",
 		weapon_id = {
 			14121
@@ -14234,8 +15610,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14122] = {
-		base = 14120,
 		id = 14122,
+		base = 14120,
+		is_siren = 0,
 		value_1 = "55 x 3",
 		weapon_id = {
 			14122
@@ -14243,8 +15620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14123] = {
-		base = 14120,
 		id = 14123,
+		base = 14120,
+		is_siren = 0,
 		value_1 = "61 x 3",
 		weapon_id = {
 			14123
@@ -14269,6 +15647,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14288,8 +15667,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14141] = {
-		base = 14140,
 		id = 14141,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "55 x 3",
 		weapon_id = {
 			14141
@@ -14297,8 +15677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14142] = {
-		base = 14140,
 		id = 14142,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "60 x 3",
 		weapon_id = {
 			14142
@@ -14306,8 +15687,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14143] = {
-		base = 14140,
 		id = 14143,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "67 x 3",
 		weapon_id = {
 			14143
@@ -14315,8 +15697,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14144] = {
-		base = 14140,
 		id = 14144,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			14144
@@ -14324,8 +15707,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14145] = {
-		base = 14140,
 		id = 14145,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			14145
@@ -14333,8 +15717,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14146] = {
-		base = 14140,
 		id = 14146,
+		base = 14140,
+		is_siren = 0,
 		value_1 = "84 x 3",
 		weapon_id = {
 			14146
@@ -14359,6 +15744,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14378,8 +15764,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14201] = {
-		base = 14200,
 		id = 14201,
+		base = 14200,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			14201
@@ -14387,8 +15774,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14202] = {
-		base = 14200,
 		id = 14202,
+		base = 14200,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			14202
@@ -14396,8 +15784,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14203] = {
-		base = 14200,
 		id = 14203,
+		base = 14200,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			14203
@@ -14422,6 +15811,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14441,8 +15831,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14221] = {
-		base = 14220,
 		id = 14221,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			14221
@@ -14450,8 +15841,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14222] = {
-		base = 14220,
 		id = 14222,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			14222
@@ -14459,8 +15851,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14223] = {
-		base = 14220,
 		id = 14223,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "79 x 2",
 		weapon_id = {
 			14223
@@ -14468,8 +15861,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14224] = {
-		base = 14220,
 		id = 14224,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			14224
@@ -14477,8 +15871,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14225] = {
-		base = 14220,
 		id = 14225,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "97 x 2",
 		weapon_id = {
 			14225
@@ -14486,8 +15881,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14226] = {
-		base = 14220,
 		id = 14226,
+		base = 14220,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			14226
@@ -14512,6 +15908,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14531,8 +15928,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14241] = {
-		base = 14240,
 		id = 14241,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			14241
@@ -14540,8 +15938,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14242] = {
-		base = 14240,
 		id = 14242,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "76 x 2",
 		weapon_id = {
 			14242
@@ -14549,8 +15948,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14243] = {
-		base = 14240,
 		id = 14243,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			14243
@@ -14558,8 +15958,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14244] = {
-		base = 14240,
 		id = 14244,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			14244
@@ -14567,8 +15968,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14245] = {
-		base = 14240,
 		id = 14245,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			14245
@@ -14576,8 +15978,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14246] = {
-		base = 14240,
 		id = 14246,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "116 x 2",
 		weapon_id = {
 			14246
@@ -14585,8 +15988,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14247] = {
-		base = 14240,
 		id = 14247,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "124 x 2",
 		weapon_id = {
 			14247
@@ -14594,8 +15998,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14248] = {
-		base = 14240,
 		id = 14248,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "134 x 2",
 		weapon_id = {
 			14248
@@ -14603,8 +16008,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14249] = {
-		base = 14240,
 		id = 14249,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			14249
@@ -14612,8 +16018,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14250] = {
-		base = 14240,
 		id = 14250,
+		base = 14240,
+		is_siren = 0,
 		value_1 = "154 x 2",
 		weapon_id = {
 			14250
@@ -14638,6 +16045,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14657,8 +16065,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14301] = {
-		base = 14300,
 		id = 14301,
+		base = 14300,
+		is_siren = 0,
 		value_1 = "58 x 3",
 		weapon_id = {
 			14301
@@ -14666,8 +16075,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14302] = {
-		base = 14300,
 		id = 14302,
+		base = 14300,
+		is_siren = 0,
 		value_1 = "66 x 3",
 		weapon_id = {
 			14302
@@ -14675,8 +16085,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14303] = {
-		base = 14300,
 		id = 14303,
+		base = 14300,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			14303
@@ -14701,6 +16112,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14720,8 +16132,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14321] = {
-		base = 14320,
 		id = 14321,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "64 x 3",
 		weapon_id = {
 			14321
@@ -14729,8 +16142,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14322] = {
-		base = 14320,
 		id = 14322,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "73 x 3",
 		weapon_id = {
 			14322
@@ -14738,8 +16152,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14323] = {
-		base = 14320,
 		id = 14323,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "81 x 3",
 		weapon_id = {
 			14323
@@ -14747,8 +16162,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14324] = {
-		base = 14320,
 		id = 14324,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "90 x 3",
 		weapon_id = {
 			14324
@@ -14756,8 +16172,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14325] = {
-		base = 14320,
 		id = 14325,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "99 x 3",
 		weapon_id = {
 			14325
@@ -14765,8 +16182,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14326] = {
-		base = 14320,
 		id = 14326,
+		base = 14320,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			14326
@@ -14791,6 +16209,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14810,8 +16229,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14341] = {
-		base = 14340,
 		id = 14341,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			14341
@@ -14819,8 +16239,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14342] = {
-		base = 14340,
 		id = 14342,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "80 x 3",
 		weapon_id = {
 			14342
@@ -14828,8 +16249,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14343] = {
-		base = 14340,
 		id = 14343,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			14343
@@ -14837,8 +16259,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14344] = {
-		base = 14340,
 		id = 14344,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "98 x 3",
 		weapon_id = {
 			14344
@@ -14846,8 +16269,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14345] = {
-		base = 14340,
 		id = 14345,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			14345
@@ -14855,8 +16279,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14346] = {
-		base = 14340,
 		id = 14346,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			14346
@@ -14864,8 +16289,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14347] = {
-		base = 14340,
 		id = 14347,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "128 x 3",
 		weapon_id = {
 			14347
@@ -14873,8 +16299,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14348] = {
-		base = 14340,
 		id = 14348,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "136 x 3",
 		weapon_id = {
 			14348
@@ -14882,8 +16309,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14349] = {
-		base = 14340,
 		id = 14349,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "146 x 3",
 		weapon_id = {
 			14349
@@ -14891,8 +16319,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14350] = {
-		base = 14340,
 		id = 14350,
+		base = 14340,
+		is_siren = 0,
 		value_1 = "156 x 3",
 		weapon_id = {
 			14350
@@ -14917,6 +16346,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -14936,8 +16366,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14401] = {
-		base = 14400,
 		id = 14401,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			14401
@@ -14945,8 +16376,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14402] = {
-		base = 14400,
 		id = 14402,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			14402
@@ -14954,8 +16386,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14403] = {
-		base = 14400,
 		id = 14403,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			14403
@@ -14963,8 +16396,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14404] = {
-		base = 14400,
 		id = 14404,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			14404
@@ -14972,8 +16406,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14405] = {
-		base = 14400,
 		id = 14405,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "102 x 3",
 		weapon_id = {
 			14405
@@ -14981,8 +16416,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14406] = {
-		base = 14400,
 		id = 14406,
+		base = 14400,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			14406
@@ -15007,6 +16443,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15026,8 +16463,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14421] = {
-		base = 14420,
 		id = 14421,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			14421
@@ -15035,8 +16473,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14422] = {
-		base = 14420,
 		id = 14422,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			14422
@@ -15044,8 +16483,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14423] = {
-		base = 14420,
 		id = 14423,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "90 x 3",
 		weapon_id = {
 			14423
@@ -15053,8 +16493,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14424] = {
-		base = 14420,
 		id = 14424,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "101 x 3",
 		weapon_id = {
 			14424
@@ -15062,8 +16503,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14425] = {
-		base = 14420,
 		id = 14425,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			14425
@@ -15071,8 +16513,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14426] = {
-		base = 14420,
 		id = 14426,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "123 x 3",
 		weapon_id = {
 			14426
@@ -15080,8 +16523,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14427] = {
-		base = 14420,
 		id = 14427,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "134 x 3",
 		weapon_id = {
 			14427
@@ -15089,8 +16533,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14428] = {
-		base = 14420,
 		id = 14428,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "145 x 3",
 		weapon_id = {
 			14428
@@ -15098,8 +16543,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14429] = {
-		base = 14420,
 		id = 14429,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "156 x 3",
 		weapon_id = {
 			14429
@@ -15107,8 +16553,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14430] = {
-		base = 14420,
 		id = 14430,
+		base = 14420,
+		is_siren = 0,
 		value_1 = "167 x 3",
 		weapon_id = {
 			14430
@@ -15133,6 +16580,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15152,8 +16600,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14441] = {
-		base = 14440,
 		id = 14441,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			14441
@@ -15161,8 +16610,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14442] = {
-		base = 14440,
 		id = 14442,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			14442
@@ -15170,8 +16620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14443] = {
-		base = 14440,
 		id = 14443,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "98 x 3",
 		weapon_id = {
 			14443
@@ -15179,8 +16630,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14444] = {
-		base = 14440,
 		id = 14444,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "110 x 3",
 		weapon_id = {
 			14444
@@ -15188,8 +16640,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14445] = {
-		base = 14440,
 		id = 14445,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "122 x 3",
 		weapon_id = {
 			14445
@@ -15197,8 +16650,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14446] = {
-		base = 14440,
 		id = 14446,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "134 x 3",
 		weapon_id = {
 			14446
@@ -15206,8 +16660,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14447] = {
-		base = 14440,
 		id = 14447,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "146 x 3",
 		weapon_id = {
 			14447
@@ -15215,8 +16670,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14448] = {
-		base = 14440,
 		id = 14448,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "158 x 3",
 		weapon_id = {
 			14448
@@ -15224,8 +16680,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14449] = {
-		base = 14440,
 		id = 14449,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "170 x 3",
 		weapon_id = {
 			14449
@@ -15233,8 +16690,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14450] = {
-		base = 14440,
 		id = 14450,
+		base = 14440,
+		is_siren = 0,
 		value_1 = "182 x 3",
 		weapon_id = {
 			14450
@@ -15259,6 +16717,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15278,8 +16737,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[14501] = {
-		base = 14500,
 		id = 14501,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "91 x 2",
 		weapon_id = {
 			14501
@@ -15287,8 +16747,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14502] = {
-		base = 14500,
 		id = 14502,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "102 x 2",
 		weapon_id = {
 			14502
@@ -15296,8 +16757,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14503] = {
-		base = 14500,
 		id = 14503,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "116 x 2",
 		weapon_id = {
 			14503
@@ -15305,8 +16767,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14504] = {
-		base = 14500,
 		id = 14504,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "129 x 2",
 		weapon_id = {
 			14504
@@ -15314,8 +16777,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14505] = {
-		base = 14500,
 		id = 14505,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "143 x 2",
 		weapon_id = {
 			14505
@@ -15323,8 +16787,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14506] = {
-		base = 14500,
 		id = 14506,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "156 x 2",
 		weapon_id = {
 			14506
@@ -15332,8 +16797,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14507] = {
-		base = 14500,
 		id = 14507,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "167 x 2",
 		weapon_id = {
 			14507
@@ -15341,8 +16807,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14508] = {
-		base = 14500,
 		id = 14508,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "180 x 2",
 		weapon_id = {
 			14508
@@ -15350,8 +16817,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14509] = {
-		base = 14500,
 		id = 14509,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "194 x 2",
 		weapon_id = {
 			14509
@@ -15359,8 +16827,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14510] = {
-		base = 14500,
 		id = 14510,
+		base = 14500,
+		is_siren = 0,
 		value_1 = "207 x 2",
 		weapon_id = {
 			14510
@@ -15385,6 +16854,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15399,8 +16869,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15001] = {
-		base = 15000,
 		id = 15001,
+		base = 15000,
+		is_siren = 0,
 		value_1 = "48 x 3",
 		weapon_id = {
 			15001
@@ -15408,8 +16879,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15002] = {
-		base = 15000,
 		id = 15002,
+		base = 15000,
+		is_siren = 0,
 		value_1 = "54 x 3",
 		weapon_id = {
 			15002
@@ -15417,8 +16889,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15003] = {
-		base = 15000,
 		id = 15003,
+		base = 15000,
+		is_siren = 0,
 		value_1 = "60 x 3",
 		weapon_id = {
 			15003
@@ -15443,6 +16916,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15457,8 +16931,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15021] = {
-		base = 15020,
 		id = 15021,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "53 x 3",
 		weapon_id = {
 			15021
@@ -15466,8 +16941,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15022] = {
-		base = 15020,
 		id = 15022,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "60 x 3",
 		weapon_id = {
 			15022
@@ -15475,8 +16951,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15023] = {
-		base = 15020,
 		id = 15023,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "67 x 3",
 		weapon_id = {
 			15023
@@ -15484,8 +16961,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15024] = {
-		base = 15020,
 		id = 15024,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			15024
@@ -15493,8 +16971,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15025] = {
-		base = 15020,
 		id = 15025,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "81 x 3",
 		weapon_id = {
 			15025
@@ -15502,8 +16981,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15026] = {
-		base = 15020,
 		id = 15026,
+		base = 15020,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			15026
@@ -15528,6 +17008,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15542,8 +17023,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15041] = {
-		base = 15040,
 		id = 15041,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "59 x 3",
 		weapon_id = {
 			15041
@@ -15551,8 +17033,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15042] = {
-		base = 15040,
 		id = 15042,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "67 x 3",
 		weapon_id = {
 			15042
@@ -15560,8 +17043,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15043] = {
-		base = 15040,
 		id = 15043,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "75 x 3",
 		weapon_id = {
 			15043
@@ -15569,8 +17053,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15044] = {
-		base = 15040,
 		id = 15044,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "83 x 3",
 		weapon_id = {
 			15044
@@ -15578,8 +17063,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15045] = {
-		base = 15040,
 		id = 15045,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "91 x 3",
 		weapon_id = {
 			15045
@@ -15587,8 +17073,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15046] = {
-		base = 15040,
 		id = 15046,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "99 x 3",
 		weapon_id = {
 			15046
@@ -15596,8 +17083,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15047] = {
-		base = 15040,
 		id = 15047,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "107 x 3",
 		weapon_id = {
 			15047
@@ -15605,8 +17093,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15048] = {
-		base = 15040,
 		id = 15048,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "115 x 3",
 		weapon_id = {
 			15048
@@ -15614,8 +17103,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15049] = {
-		base = 15040,
 		id = 15049,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "123 x 3",
 		weapon_id = {
 			15049
@@ -15623,8 +17113,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15050] = {
-		base = 15040,
 		id = 15050,
+		base = 15040,
+		is_siren = 0,
 		value_1 = "131 x 3",
 		weapon_id = {
 			15050
@@ -15649,6 +17140,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15663,8 +17155,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15101] = {
-		base = 15100,
 		id = 15101,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "66 x 3",
 		weapon_id = {
 			15101
@@ -15672,8 +17165,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15102] = {
-		base = 15100,
 		id = 15102,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			15102
@@ -15681,8 +17175,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15103] = {
-		base = 15100,
 		id = 15103,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			15103
@@ -15690,8 +17185,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15104] = {
-		base = 15100,
 		id = 15104,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "91 x 3",
 		weapon_id = {
 			15104
@@ -15699,8 +17195,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15105] = {
-		base = 15100,
 		id = 15105,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "100 x 3",
 		weapon_id = {
 			15105
@@ -15708,8 +17205,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15106] = {
-		base = 15100,
 		id = 15106,
+		base = 15100,
+		is_siren = 0,
 		value_1 = "109 x 3",
 		weapon_id = {
 			15106
@@ -15734,6 +17232,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15748,8 +17247,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15121] = {
-		base = 15120,
 		id = 15121,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			15121
@@ -15757,8 +17257,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15122] = {
-		base = 15120,
 		id = 15122,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "83 x 3",
 		weapon_id = {
 			15122
@@ -15766,8 +17267,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15123] = {
-		base = 15120,
 		id = 15123,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "93 x 3",
 		weapon_id = {
 			15123
@@ -15775,8 +17277,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15124] = {
-		base = 15120,
 		id = 15124,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "103 x 3",
 		weapon_id = {
 			15124
@@ -15784,8 +17287,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15125] = {
-		base = 15120,
 		id = 15125,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "113 x 3",
 		weapon_id = {
 			15125
@@ -15793,8 +17297,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15126] = {
-		base = 15120,
 		id = 15126,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "123 x 3",
 		weapon_id = {
 			15126
@@ -15802,8 +17307,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15127] = {
-		base = 15120,
 		id = 15127,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "133 x 3",
 		weapon_id = {
 			15127
@@ -15811,8 +17317,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15128] = {
-		base = 15120,
 		id = 15128,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "143 x 3",
 		weapon_id = {
 			15128
@@ -15820,8 +17327,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15129] = {
-		base = 15120,
 		id = 15129,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "153 x 3",
 		weapon_id = {
 			15129
@@ -15829,8 +17337,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15130] = {
-		base = 15120,
 		id = 15130,
+		base = 15120,
+		is_siren = 0,
 		value_1 = "163 x 3",
 		weapon_id = {
 			15130
@@ -15855,6 +17364,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -15869,8 +17379,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[15141] = {
-		base = 15140,
 		id = 15141,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			15141
@@ -15878,8 +17389,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15142] = {
-		base = 15140,
 		id = 15142,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "93 x 3",
 		weapon_id = {
 			15142
@@ -15887,8 +17399,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15143] = {
-		base = 15140,
 		id = 15143,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "104 x 3",
 		weapon_id = {
 			15143
@@ -15896,8 +17409,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15144] = {
-		base = 15140,
 		id = 15144,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "115 x 3",
 		weapon_id = {
 			15144
@@ -15905,8 +17419,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15145] = {
-		base = 15140,
 		id = 15145,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "126 x 3",
 		weapon_id = {
 			15145
@@ -15914,8 +17429,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15146] = {
-		base = 15140,
 		id = 15146,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "137 x 3",
 		weapon_id = {
 			15146
@@ -15923,8 +17439,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15147] = {
-		base = 15140,
 		id = 15147,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "148 x 3",
 		weapon_id = {
 			15147
@@ -15932,8 +17449,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15148] = {
-		base = 15140,
 		id = 15148,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "159 x 3",
 		weapon_id = {
 			15148
@@ -15941,8 +17459,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15149] = {
-		base = 15140,
 		id = 15149,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "170 x 3",
 		weapon_id = {
 			15149
@@ -15950,8 +17469,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[15150] = {
-		base = 15140,
 		id = 15150,
+		base = 15140,
+		is_siren = 0,
 		value_1 = "181 x 3",
 		weapon_id = {
 			15150
@@ -15974,8 +17494,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -15989,8 +17510,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16001] = {
-		base = 16000,
 		id = 16001,
+		base = 16000,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			16001
@@ -15998,8 +17520,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16002] = {
-		base = 16000,
 		id = 16002,
+		base = 16000,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			16002
@@ -16007,8 +17530,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16003] = {
-		base = 16000,
 		id = 16003,
+		base = 16000,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			16003
@@ -16033,6 +17557,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16047,8 +17572,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16021] = {
-		base = 16020,
 		id = 16021,
+		base = 16020,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			16021
@@ -16056,8 +17582,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16022] = {
-		base = 16020,
 		id = 16022,
+		base = 16020,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			16022
@@ -16065,8 +17592,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16023] = {
-		base = 16020,
 		id = 16023,
+		base = 16020,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			16023
@@ -16091,6 +17619,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16105,8 +17634,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16041] = {
-		base = 16040,
 		id = 16041,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			16041
@@ -16114,8 +17644,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16042] = {
-		base = 16040,
 		id = 16042,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "13/轮",
 		weapon_id = {
 			16042
@@ -16123,8 +17654,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16043] = {
-		base = 16040,
 		id = 16043,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			16043
@@ -16132,8 +17664,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16044] = {
-		base = 16040,
 		id = 16044,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			16044
@@ -16141,8 +17674,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16045] = {
-		base = 16040,
 		id = 16045,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			16045
@@ -16150,8 +17684,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16046] = {
-		base = 16040,
 		id = 16046,
+		base = 16040,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			16046
@@ -16176,6 +17711,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16190,8 +17726,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16101] = {
-		base = 16100,
 		id = 16101,
+		base = 16100,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			16101
@@ -16199,8 +17736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16102] = {
-		base = 16100,
 		id = 16102,
+		base = 16100,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			16102
@@ -16208,8 +17746,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16103] = {
-		base = 16100,
 		id = 16103,
+		base = 16100,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			16103
@@ -16234,6 +17773,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16248,8 +17788,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16121] = {
-		base = 16120,
 		id = 16121,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "17/轮",
 		weapon_id = {
 			16121
@@ -16257,8 +17798,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16122] = {
-		base = 16120,
 		id = 16122,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			16122
@@ -16266,8 +17808,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16123] = {
-		base = 16120,
 		id = 16123,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			16123
@@ -16275,8 +17818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16124] = {
-		base = 16120,
 		id = 16124,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			16124
@@ -16284,8 +17828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16125] = {
-		base = 16120,
 		id = 16125,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			16125
@@ -16293,8 +17838,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16126] = {
-		base = 16120,
 		id = 16126,
+		base = 16120,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			16126
@@ -16319,6 +17865,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16333,8 +17880,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16141] = {
-		base = 16140,
 		id = 16141,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			16141
@@ -16342,8 +17890,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16142] = {
-		base = 16140,
 		id = 16142,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			16142
@@ -16351,8 +17900,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16143] = {
-		base = 16140,
 		id = 16143,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			16143
@@ -16360,8 +17910,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16144] = {
-		base = 16140,
 		id = 16144,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			16144
@@ -16369,8 +17920,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16145] = {
-		base = 16140,
 		id = 16145,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			16145
@@ -16378,8 +17930,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16146] = {
-		base = 16140,
 		id = 16146,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			16146
@@ -16387,8 +17940,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16147] = {
-		base = 16140,
 		id = 16147,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			16147
@@ -16396,8 +17950,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16148] = {
-		base = 16140,
 		id = 16148,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			16148
@@ -16405,8 +17960,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16149] = {
-		base = 16140,
 		id = 16149,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			16149
@@ -16414,8 +17970,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16150] = {
-		base = 16140,
 		id = 16150,
+		base = 16140,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			16150
@@ -16440,6 +17997,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16454,8 +18012,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16201] = {
-		base = 16200,
 		id = 16201,
+		base = 16200,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			16201
@@ -16463,8 +18022,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16202] = {
-		base = 16200,
 		id = 16202,
+		base = 16200,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			16202
@@ -16472,8 +18032,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16203] = {
-		base = 16200,
 		id = 16203,
+		base = 16200,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			16203
@@ -16498,6 +18059,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16512,8 +18074,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16221] = {
-		base = 16220,
 		id = 16221,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			16221
@@ -16521,8 +18084,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16222] = {
-		base = 16220,
 		id = 16222,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			16222
@@ -16530,8 +18094,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16223] = {
-		base = 16220,
 		id = 16223,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			16223
@@ -16539,8 +18104,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16224] = {
-		base = 16220,
 		id = 16224,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			16224
@@ -16548,8 +18114,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16225] = {
-		base = 16220,
 		id = 16225,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			16225
@@ -16557,8 +18124,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16226] = {
-		base = 16220,
 		id = 16226,
+		base = 16220,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			16226
@@ -16583,6 +18151,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16597,8 +18166,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16241] = {
-		base = 16240,
 		id = 16241,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			16241
@@ -16606,8 +18176,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16242] = {
-		base = 16240,
 		id = 16242,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			16242
@@ -16615,8 +18186,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16243] = {
-		base = 16240,
 		id = 16243,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			16243
@@ -16624,8 +18196,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16244] = {
-		base = 16240,
 		id = 16244,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			16244
@@ -16633,8 +18206,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16245] = {
-		base = 16240,
 		id = 16245,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			16245
@@ -16642,8 +18216,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16246] = {
-		base = 16240,
 		id = 16246,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			16246
@@ -16651,8 +18226,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16247] = {
-		base = 16240,
 		id = 16247,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			16247
@@ -16660,8 +18236,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16248] = {
-		base = 16240,
 		id = 16248,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			16248
@@ -16669,8 +18246,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16249] = {
-		base = 16240,
 		id = 16249,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			16249
@@ -16678,8 +18256,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16250] = {
-		base = 16240,
 		id = 16250,
+		base = 16240,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			16250
@@ -16704,6 +18283,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16718,8 +18298,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16301] = {
-		base = 16300,
 		id = 16301,
+		base = 16300,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			16301
@@ -16727,8 +18308,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16302] = {
-		base = 16300,
 		id = 16302,
+		base = 16300,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			16302
@@ -16736,8 +18318,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16303] = {
-		base = 16300,
 		id = 16303,
+		base = 16300,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			16303
@@ -16762,6 +18345,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16776,8 +18360,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16321] = {
-		base = 16320,
 		id = 16321,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			16321
@@ -16785,8 +18370,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16322] = {
-		base = 16320,
 		id = 16322,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			16322
@@ -16794,8 +18380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16323] = {
-		base = 16320,
 		id = 16323,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			16323
@@ -16803,8 +18390,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16324] = {
-		base = 16320,
 		id = 16324,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			16324
@@ -16812,8 +18400,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16325] = {
-		base = 16320,
 		id = 16325,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			16325
@@ -16821,8 +18410,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16326] = {
-		base = 16320,
 		id = 16326,
+		base = 16320,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			16326
@@ -16847,6 +18437,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16861,8 +18452,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16341] = {
-		base = 16340,
 		id = 16341,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			16341
@@ -16870,8 +18462,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16342] = {
-		base = 16340,
 		id = 16342,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			16342
@@ -16879,8 +18472,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16343] = {
-		base = 16340,
 		id = 16343,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			16343
@@ -16888,8 +18482,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16344] = {
-		base = 16340,
 		id = 16344,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "38/轮",
 		weapon_id = {
 			16344
@@ -16897,8 +18492,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16345] = {
-		base = 16340,
 		id = 16345,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			16345
@@ -16906,8 +18502,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16346] = {
-		base = 16340,
 		id = 16346,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			16346
@@ -16915,8 +18512,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16347] = {
-		base = 16340,
 		id = 16347,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			16347
@@ -16924,8 +18522,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16348] = {
-		base = 16340,
 		id = 16348,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			16348
@@ -16933,8 +18532,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16349] = {
-		base = 16340,
 		id = 16349,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			16349
@@ -16942,8 +18542,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16350] = {
-		base = 16340,
 		id = 16350,
+		base = 16340,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			16350
@@ -16968,6 +18569,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -16982,8 +18584,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16401] = {
-		base = 16400,
 		id = 16401,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			16401
@@ -16991,8 +18594,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16402] = {
-		base = 16400,
 		id = 16402,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			16402
@@ -17000,8 +18604,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16403] = {
-		base = 16400,
 		id = 16403,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			16403
@@ -17009,8 +18614,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16404] = {
-		base = 16400,
 		id = 16404,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			16404
@@ -17018,8 +18624,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16405] = {
-		base = 16400,
 		id = 16405,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			16405
@@ -17027,8 +18634,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16406] = {
-		base = 16400,
 		id = 16406,
+		base = 16400,
+		is_siren = 0,
 		value_1 = "76/轮",
 		weapon_id = {
 			16406
@@ -17053,6 +18661,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17067,8 +18676,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16421] = {
-		base = 16420,
 		id = 16421,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			16421
@@ -17076,8 +18686,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16422] = {
-		base = 16420,
 		id = 16422,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			16422
@@ -17085,8 +18696,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16423] = {
-		base = 16420,
 		id = 16423,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			16423
@@ -17094,8 +18706,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16424] = {
-		base = 16420,
 		id = 16424,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			16424
@@ -17103,8 +18716,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16425] = {
-		base = 16420,
 		id = 16425,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "73/轮",
 		weapon_id = {
 			16425
@@ -17112,8 +18726,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16426] = {
-		base = 16420,
 		id = 16426,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "80/轮",
 		weapon_id = {
 			16426
@@ -17121,8 +18736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16427] = {
-		base = 16420,
 		id = 16427,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "87/轮",
 		weapon_id = {
 			16427
@@ -17130,8 +18746,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16428] = {
-		base = 16420,
 		id = 16428,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "94/轮",
 		weapon_id = {
 			16428
@@ -17139,8 +18756,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16429] = {
-		base = 16420,
 		id = 16429,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "101/轮",
 		weapon_id = {
 			16429
@@ -17148,8 +18766,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16430] = {
-		base = 16420,
 		id = 16430,
+		base = 16420,
+		is_siren = 0,
 		value_1 = "108/轮",
 		weapon_id = {
 			16430
@@ -17174,6 +18793,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17188,8 +18808,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[16441] = {
-		base = 16440,
 		id = 16441,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			16441
@@ -17197,8 +18818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16442] = {
-		base = 16440,
 		id = 16442,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			16442
@@ -17206,8 +18828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16443] = {
-		base = 16440,
 		id = 16443,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			16443
@@ -17215,8 +18838,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16444] = {
-		base = 16440,
 		id = 16444,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "76/轮",
 		weapon_id = {
 			16444
@@ -17224,8 +18848,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16445] = {
-		base = 16440,
 		id = 16445,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "83/轮",
 		weapon_id = {
 			16445
@@ -17233,8 +18858,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16446] = {
-		base = 16440,
 		id = 16446,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "90/轮",
 		weapon_id = {
 			16446
@@ -17242,8 +18868,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16447] = {
-		base = 16440,
 		id = 16447,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "97/轮",
 		weapon_id = {
 			16447
@@ -17251,8 +18878,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16448] = {
-		base = 16440,
 		id = 16448,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "104/轮",
 		weapon_id = {
 			16448
@@ -17260,8 +18888,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16449] = {
-		base = 16440,
 		id = 16449,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "112/轮",
 		weapon_id = {
 			16449
@@ -17269,8 +18898,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[16450] = {
-		base = 16440,
 		id = 16450,
+		base = 16440,
+		is_siren = 0,
 		value_1 = "120/轮",
 		weapon_id = {
 			16450
@@ -17293,8 +18923,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -17309,8 +18940,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17001] = {
-		base = 17000,
 		id = 17001,
+		base = 17000,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			17001,
@@ -17319,8 +18951,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17002] = {
-		base = 17000,
 		id = 17002,
+		base = 17000,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			17002,
@@ -17329,8 +18962,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17003] = {
-		base = 17000,
 		id = 17003,
+		base = 17000,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			17003,
@@ -17356,6 +18990,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17371,8 +19006,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17021] = {
-		base = 17020,
 		id = 17021,
+		base = 17020,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			17021,
@@ -17381,8 +19017,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17022] = {
-		base = 17020,
 		id = 17022,
+		base = 17020,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			17022,
@@ -17391,8 +19028,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17023] = {
-		base = 17020,
 		id = 17023,
+		base = 17020,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			17023,
@@ -17418,6 +19056,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17433,8 +19072,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17041] = {
-		base = 17040,
 		id = 17041,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			17041,
@@ -17443,8 +19083,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17042] = {
-		base = 17040,
 		id = 17042,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			17042,
@@ -17453,8 +19094,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17043] = {
-		base = 17040,
 		id = 17043,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			17043,
@@ -17463,8 +19105,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17044] = {
-		base = 17040,
 		id = 17044,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			17044,
@@ -17473,8 +19116,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17045] = {
-		base = 17040,
 		id = 17045,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			17045,
@@ -17483,8 +19127,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17046] = {
-		base = 17040,
 		id = 17046,
+		base = 17040,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			17046,
@@ -17510,6 +19155,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17525,8 +19171,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17101] = {
-		base = 17100,
 		id = 17101,
+		base = 17100,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			17101,
@@ -17535,8 +19182,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17102] = {
-		base = 17100,
 		id = 17102,
+		base = 17100,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			17102,
@@ -17545,8 +19193,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17103] = {
-		base = 17100,
 		id = 17103,
+		base = 17100,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			17103,
@@ -17572,6 +19221,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17587,8 +19237,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17121] = {
-		base = 17120,
 		id = 17121,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			17121,
@@ -17597,8 +19248,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17122] = {
-		base = 17120,
 		id = 17122,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			17122,
@@ -17607,8 +19259,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17123] = {
-		base = 17120,
 		id = 17123,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			17123,
@@ -17617,8 +19270,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17124] = {
-		base = 17120,
 		id = 17124,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			17124,
@@ -17627,8 +19281,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17125] = {
-		base = 17120,
 		id = 17125,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			17125,
@@ -17637,8 +19292,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17126] = {
-		base = 17120,
 		id = 17126,
+		base = 17120,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			17126,
@@ -17664,6 +19320,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17679,8 +19336,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17141] = {
-		base = 17140,
 		id = 17141,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			17141,
@@ -17689,8 +19347,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17142] = {
-		base = 17140,
 		id = 17142,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			17142,
@@ -17699,8 +19358,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17143] = {
-		base = 17140,
 		id = 17143,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			17143,
@@ -17709,8 +19369,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17144] = {
-		base = 17140,
 		id = 17144,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			17144,
@@ -17719,8 +19380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17145] = {
-		base = 17140,
 		id = 17145,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			17145,
@@ -17729,8 +19391,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17146] = {
-		base = 17140,
 		id = 17146,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			17146,
@@ -17739,8 +19402,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17147] = {
-		base = 17140,
 		id = 17147,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			17147,
@@ -17749,8 +19413,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17148] = {
-		base = 17140,
 		id = 17148,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			17148,
@@ -17759,8 +19424,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17149] = {
-		base = 17140,
 		id = 17149,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			17149,
@@ -17769,8 +19435,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17150] = {
-		base = 17140,
 		id = 17150,
+		base = 17140,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			17150,
@@ -17796,6 +19463,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17811,8 +19479,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17201] = {
-		base = 17200,
 		id = 17201,
+		base = 17200,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			17201,
@@ -17821,8 +19490,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17202] = {
-		base = 17200,
 		id = 17202,
+		base = 17200,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			17202,
@@ -17831,8 +19501,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17203] = {
-		base = 17200,
 		id = 17203,
+		base = 17200,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			17203,
@@ -17858,6 +19529,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17873,8 +19545,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17221] = {
-		base = 17220,
 		id = 17221,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			17221,
@@ -17883,8 +19556,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17222] = {
-		base = 17220,
 		id = 17222,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			17222,
@@ -17893,8 +19567,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17223] = {
-		base = 17220,
 		id = 17223,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			17223,
@@ -17903,8 +19578,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17224] = {
-		base = 17220,
 		id = 17224,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			17224,
@@ -17913,8 +19589,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17225] = {
-		base = 17220,
 		id = 17225,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			17225,
@@ -17923,8 +19600,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17226] = {
-		base = 17220,
 		id = 17226,
+		base = 17220,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			17226,
@@ -17950,6 +19628,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -17965,8 +19644,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17241] = {
-		base = 17240,
 		id = 17241,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			17241,
@@ -17975,8 +19655,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17242] = {
-		base = 17240,
 		id = 17242,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			17242,
@@ -17985,8 +19666,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17243] = {
-		base = 17240,
 		id = 17243,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			17243,
@@ -17995,8 +19677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17244] = {
-		base = 17240,
 		id = 17244,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			17244,
@@ -18005,8 +19688,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17245] = {
-		base = 17240,
 		id = 17245,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			17245,
@@ -18015,8 +19699,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17246] = {
-		base = 17240,
 		id = 17246,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			17246,
@@ -18025,8 +19710,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17247] = {
-		base = 17240,
 		id = 17247,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			17247,
@@ -18035,8 +19721,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17248] = {
-		base = 17240,
 		id = 17248,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			17248,
@@ -18045,8 +19732,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17249] = {
-		base = 17240,
 		id = 17249,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			17249,
@@ -18055,8 +19743,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17250] = {
-		base = 17240,
 		id = 17250,
+		base = 17240,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			17250,
@@ -18082,6 +19771,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "以“海盗旗”为队徽而闻名的海军航空中队。",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18099,8 +19789,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17261] = {
-		base = 17260,
 		id = 17261,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			17261,
@@ -18109,8 +19800,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17262] = {
-		base = 17260,
 		id = 17262,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			17262,
@@ -18119,8 +19811,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17263] = {
-		base = 17260,
 		id = 17263,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			17263,
@@ -18129,8 +19822,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17264] = {
-		base = 17260,
 		id = 17264,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			17264,
@@ -18139,8 +19833,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17265] = {
-		base = 17260,
 		id = 17265,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			17265,
@@ -18149,8 +19844,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17266] = {
-		base = 17260,
 		id = 17266,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			17266,
@@ -18159,8 +19855,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17267] = {
-		base = 17260,
 		id = 17267,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			17267,
@@ -18169,8 +19866,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17268] = {
-		base = 17260,
 		id = 17268,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "68/轮",
 		weapon_id = {
 			17268,
@@ -18179,8 +19877,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17269] = {
-		base = 17260,
 		id = 17269,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "73/轮",
 		weapon_id = {
 			17269,
@@ -18189,8 +19888,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17270] = {
-		base = 17260,
 		id = 17270,
+		base = 17260,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			17270,
@@ -18216,6 +19916,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18231,8 +19932,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17301] = {
-		base = 17300,
 		id = 17301,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			17301,
@@ -18241,8 +19943,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17302] = {
-		base = 17300,
 		id = 17302,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			17302,
@@ -18251,8 +19954,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17303] = {
-		base = 17300,
 		id = 17303,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			17303,
@@ -18261,8 +19965,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17304] = {
-		base = 17300,
 		id = 17304,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			17304,
@@ -18271,8 +19976,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17305] = {
-		base = 17300,
 		id = 17305,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			17305,
@@ -18281,8 +19987,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17306] = {
-		base = 17300,
 		id = 17306,
+		base = 17300,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			17306,
@@ -18308,6 +20015,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18323,8 +20031,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17321] = {
-		base = 17320,
 		id = 17321,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			17321,
@@ -18333,8 +20042,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17322] = {
-		base = 17320,
 		id = 17322,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			17322,
@@ -18343,8 +20053,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17323] = {
-		base = 17320,
 		id = 17323,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			17323,
@@ -18353,8 +20064,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17324] = {
-		base = 17320,
 		id = 17324,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "52/轮",
 		weapon_id = {
 			17324,
@@ -18363,8 +20075,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17325] = {
-		base = 17320,
 		id = 17325,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			17325,
@@ -18373,8 +20086,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17326] = {
-		base = 17320,
 		id = 17326,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			17326,
@@ -18383,8 +20097,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17327] = {
-		base = 17320,
 		id = 17327,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			17327,
@@ -18393,8 +20108,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17328] = {
-		base = 17320,
 		id = 17328,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			17328,
@@ -18403,8 +20119,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17329] = {
-		base = 17320,
 		id = 17329,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			17329,
@@ -18413,8 +20130,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17330] = {
-		base = 17320,
 		id = 17330,
+		base = 17320,
+		is_siren = 0,
 		value_1 = "79/轮",
 		weapon_id = {
 			17330,
@@ -18440,6 +20158,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18455,8 +20174,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17341] = {
-		base = 17340,
 		id = 17341,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			17341,
@@ -18465,8 +20185,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17342] = {
-		base = 17340,
 		id = 17342,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			17342,
@@ -18475,8 +20196,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17343] = {
-		base = 17340,
 		id = 17343,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			17343,
@@ -18485,8 +20207,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17344] = {
-		base = 17340,
 		id = 17344,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			17344,
@@ -18495,8 +20218,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17345] = {
-		base = 17340,
 		id = 17345,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			17345,
@@ -18505,8 +20229,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17346] = {
-		base = 17340,
 		id = 17346,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			17346,
@@ -18515,8 +20240,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17347] = {
-		base = 17340,
 		id = 17347,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "71/轮",
 		weapon_id = {
 			17347,
@@ -18525,8 +20251,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17348] = {
-		base = 17340,
 		id = 17348,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "75/轮",
 		weapon_id = {
 			17348,
@@ -18535,8 +20262,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17349] = {
-		base = 17340,
 		id = 17349,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "81/轮",
 		weapon_id = {
 			17349,
@@ -18545,8 +20273,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17350] = {
-		base = 17340,
 		id = 17350,
+		base = 17340,
+		is_siren = 0,
 		value_1 = "86/轮",
 		weapon_id = {
 			17350,
@@ -18572,6 +20301,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "格鲁曼XF5F-1型号试验机，爬升速度极快，研发期间遇到了诸多问题，最终由于配件和其他一些特殊原因，并未大量投产。",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18587,8 +20317,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[17401] = {
-		base = 17400,
 		id = 17401,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			17401,
@@ -18597,8 +20328,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17402] = {
-		base = 17400,
 		id = 17402,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "38/轮",
 		weapon_id = {
 			17402,
@@ -18607,8 +20339,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17403] = {
-		base = 17400,
 		id = 17403,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			17403,
@@ -18617,8 +20350,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17404] = {
-		base = 17400,
 		id = 17404,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			17404,
@@ -18627,8 +20361,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17405] = {
-		base = 17400,
 		id = 17405,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			17405,
@@ -18637,8 +20372,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17406] = {
-		base = 17400,
 		id = 17406,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			17406,
@@ -18647,8 +20383,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17407] = {
-		base = 17400,
 		id = 17407,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			17407,
@@ -18657,8 +20394,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17408] = {
-		base = 17400,
 		id = 17408,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			17408,
@@ -18667,8 +20405,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17409] = {
-		base = 17400,
 		id = 17409,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			17409,
@@ -18677,8 +20416,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17410] = {
-		base = 17400,
 		id = 17410,
+		base = 17400,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			17410,
@@ -18702,8 +20442,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -18717,8 +20458,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18001] = {
-		base = 18000,
 		id = 18001,
+		base = 18000,
+		is_siren = 0,
 		value_1 = "104 x 2",
 		weapon_id = {
 			18001
@@ -18726,8 +20468,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18002] = {
-		base = 18000,
 		id = 18002,
+		base = 18000,
+		is_siren = 0,
 		value_1 = "118 x 2",
 		weapon_id = {
 			18002
@@ -18735,8 +20478,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18003] = {
-		base = 18000,
 		id = 18003,
+		base = 18000,
+		is_siren = 0,
 		value_1 = "132 x 2",
 		weapon_id = {
 			18003
@@ -18761,6 +20505,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18775,8 +20520,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18021] = {
-		base = 18020,
 		id = 18021,
+		base = 18020,
+		is_siren = 0,
 		value_1 = "112 x 2",
 		weapon_id = {
 			18021
@@ -18784,8 +20530,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18022] = {
-		base = 18020,
 		id = 18022,
+		base = 18020,
+		is_siren = 0,
 		value_1 = "128 x 2",
 		weapon_id = {
 			18022
@@ -18793,8 +20540,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18023] = {
-		base = 18020,
 		id = 18023,
+		base = 18020,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			18023
@@ -18819,6 +20567,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18833,8 +20582,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18041] = {
-		base = 18040,
 		id = 18041,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "126 x 2",
 		weapon_id = {
 			18041
@@ -18842,8 +20592,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18042] = {
-		base = 18040,
 		id = 18042,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			18042
@@ -18851,8 +20602,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18043] = {
-		base = 18040,
 		id = 18043,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "162 x 2",
 		weapon_id = {
 			18043
@@ -18860,8 +20612,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18044] = {
-		base = 18040,
 		id = 18044,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "180 x 2",
 		weapon_id = {
 			18044
@@ -18869,8 +20622,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18045] = {
-		base = 18040,
 		id = 18045,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "198 x 2",
 		weapon_id = {
 			18045
@@ -18878,8 +20632,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18046] = {
-		base = 18040,
 		id = 18046,
+		base = 18040,
+		is_siren = 0,
 		value_1 = "216 x 2",
 		weapon_id = {
 			18046
@@ -18904,6 +20659,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "中途岛海战中，大黄蜂号所属VT-8中队，约翰·沃尔德伦少校所率领的TBD蹂躏者鱼雷机机队",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -18920,9 +20676,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18061] = {
-		base = 18060,
-		id = 18061,
 		value_1 = "134 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18061,
 		skill_id = {
 			6321
 		},
@@ -18932,9 +20689,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18062] = {
-		base = 18060,
-		id = 18062,
 		value_1 = "152 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18062,
 		skill_id = {
 			6322
 		},
@@ -18944,9 +20702,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18063] = {
-		base = 18060,
-		id = 18063,
 		value_1 = "170 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18063,
 		skill_id = {
 			6323
 		},
@@ -18956,9 +20715,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18064] = {
-		base = 18060,
-		id = 18064,
 		value_1 = "188 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18064,
 		skill_id = {
 			6324
 		},
@@ -18968,9 +20728,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18065] = {
-		base = 18060,
-		id = 18065,
 		value_1 = "206 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18065,
 		skill_id = {
 			6325
 		},
@@ -18980,9 +20741,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18066] = {
-		base = 18060,
-		id = 18066,
 		value_1 = "224 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18066,
 		skill_id = {
 			6326
 		},
@@ -18992,9 +20754,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18067] = {
-		base = 18060,
-		id = 18067,
 		value_1 = "242 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18067,
 		skill_id = {
 			6327
 		},
@@ -19004,9 +20767,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18068] = {
-		base = 18060,
-		id = 18068,
 		value_1 = "260 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18068,
 		skill_id = {
 			6328
 		},
@@ -19016,9 +20780,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18069] = {
-		base = 18060,
-		id = 18069,
 		value_1 = "278 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18069,
 		skill_id = {
 			6329
 		},
@@ -19028,9 +20793,10 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18070] = {
-		base = 18060,
-		id = 18070,
 		value_1 = "296 x 2",
+		base = 18060,
+		is_siren = 0,
+		id = 18070,
 		skill_id = {
 			6330
 		},
@@ -19057,6 +20823,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19071,8 +20838,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18101] = {
-		base = 18100,
 		id = 18101,
+		base = 18100,
+		is_siren = 0,
 		value_1 = "104 x 3",
 		weapon_id = {
 			18101
@@ -19080,8 +20848,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18102] = {
-		base = 18100,
 		id = 18102,
+		base = 18100,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			18102
@@ -19089,8 +20858,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18103] = {
-		base = 18100,
 		id = 18103,
+		base = 18100,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			18103
@@ -19115,6 +20885,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19129,8 +20900,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18121] = {
-		base = 18120,
 		id = 18121,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			18121
@@ -19138,8 +20910,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18122] = {
-		base = 18120,
 		id = 18122,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "128 x 3",
 		weapon_id = {
 			18122
@@ -19147,8 +20920,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18123] = {
-		base = 18120,
 		id = 18123,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			18123
@@ -19156,8 +20930,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18124] = {
-		base = 18120,
 		id = 18124,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "160 x 3",
 		weapon_id = {
 			18124
@@ -19165,8 +20940,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18125] = {
-		base = 18120,
 		id = 18125,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "176 x 3",
 		weapon_id = {
 			18125
@@ -19174,8 +20950,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18126] = {
-		base = 18120,
 		id = 18126,
+		base = 18120,
+		is_siren = 0,
 		value_1 = "192 x 3",
 		weapon_id = {
 			18126
@@ -19200,6 +20977,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19214,8 +20992,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[18141] = {
-		base = 18140,
 		id = 18141,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "126 x 3",
 		weapon_id = {
 			18141
@@ -19223,8 +21002,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18142] = {
-		base = 18140,
 		id = 18142,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			18142
@@ -19232,8 +21012,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18143] = {
-		base = 18140,
 		id = 18143,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "162 x 3",
 		weapon_id = {
 			18143
@@ -19241,8 +21022,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18144] = {
-		base = 18140,
 		id = 18144,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "180 x 3",
 		weapon_id = {
 			18144
@@ -19250,8 +21032,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18145] = {
-		base = 18140,
 		id = 18145,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "198 x 3",
 		weapon_id = {
 			18145
@@ -19259,8 +21042,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18146] = {
-		base = 18140,
 		id = 18146,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "216 x 3",
 		weapon_id = {
 			18146
@@ -19268,8 +21052,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18147] = {
-		base = 18140,
 		id = 18147,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "234 x 3",
 		weapon_id = {
 			18147
@@ -19277,8 +21062,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18148] = {
-		base = 18140,
 		id = 18148,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "252 x 3",
 		weapon_id = {
 			18148
@@ -19286,8 +21072,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18149] = {
-		base = 18140,
 		id = 18149,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "270 x 3",
 		weapon_id = {
 			18149
@@ -19295,8 +21082,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[18150] = {
-		base = 18140,
 		id = 18150,
+		base = 18140,
+		is_siren = 0,
 		value_1 = "288 x 3",
 		weapon_id = {
 			18150
@@ -19319,8 +21107,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -19334,8 +21123,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19001] = {
-		base = 19000,
 		id = 19001,
+		base = 19000,
+		is_siren = 0,
 		value_1 = "102 x 3",
 		weapon_id = {
 			19001
@@ -19343,8 +21133,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19002] = {
-		base = 19000,
 		id = 19002,
+		base = 19000,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			19002
@@ -19352,8 +21143,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19003] = {
-		base = 19000,
 		id = 19003,
+		base = 19000,
+		is_siren = 0,
 		value_1 = "128 x 3",
 		weapon_id = {
 			19003
@@ -19378,6 +21170,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19392,8 +21185,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19021] = {
-		base = 19020,
 		id = 19021,
+		base = 19020,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			19021
@@ -19401,8 +21195,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19022] = {
-		base = 19020,
 		id = 19022,
+		base = 19020,
+		is_siren = 0,
 		value_1 = "126 x 3",
 		weapon_id = {
 			19022
@@ -19410,8 +21205,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19023] = {
-		base = 19020,
 		id = 19023,
+		base = 19020,
+		is_siren = 0,
 		value_1 = "140 x 3",
 		weapon_id = {
 			19023
@@ -19436,6 +21232,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19450,8 +21247,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19041] = {
-		base = 19040,
 		id = 19041,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "122 x 3",
 		weapon_id = {
 			19041
@@ -19459,8 +21257,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19042] = {
-		base = 19040,
 		id = 19042,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "138 x 3",
 		weapon_id = {
 			19042
@@ -19468,8 +21267,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19043] = {
-		base = 19040,
 		id = 19043,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "154 x 3",
 		weapon_id = {
 			19043
@@ -19477,8 +21277,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19044] = {
-		base = 19040,
 		id = 19044,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "170 x 3",
 		weapon_id = {
 			19044
@@ -19486,8 +21287,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19045] = {
-		base = 19040,
 		id = 19045,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "186 x 3",
 		weapon_id = {
 			19045
@@ -19495,8 +21297,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19046] = {
-		base = 19040,
 		id = 19046,
+		base = 19040,
+		is_siren = 0,
 		value_1 = "202 x 3",
 		weapon_id = {
 			19046
@@ -19521,6 +21324,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "中途岛英雄，企业号的麦克拉斯基少校所率领的SBD无畏式俯冲轰炸机机队",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19537,8 +21341,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19061] = {
-		base = 19060,
 		id = 19061,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "130 x 3",
 		weapon_id = {
 			19061
@@ -19546,8 +21351,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19062] = {
-		base = 19060,
 		id = 19062,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "147 x 3",
 		weapon_id = {
 			19062
@@ -19555,8 +21361,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19063] = {
-		base = 19060,
 		id = 19063,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "164 x 3",
 		weapon_id = {
 			19063
@@ -19564,8 +21371,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19064] = {
-		base = 19060,
 		id = 19064,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "181 x 3",
 		weapon_id = {
 			19064
@@ -19573,8 +21381,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19065] = {
-		base = 19060,
 		id = 19065,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "198 x 3",
 		weapon_id = {
 			19065
@@ -19582,8 +21391,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19066] = {
-		base = 19060,
 		id = 19066,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "215 x 3",
 		weapon_id = {
 			19066
@@ -19591,8 +21401,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19067] = {
-		base = 19060,
 		id = 19067,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "232 x 3",
 		weapon_id = {
 			19067
@@ -19600,8 +21411,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19068] = {
-		base = 19060,
 		id = 19068,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "249 x 3",
 		weapon_id = {
 			19068
@@ -19609,8 +21421,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19069] = {
-		base = 19060,
 		id = 19069,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "266 x 3",
 		weapon_id = {
 			19069
@@ -19618,8 +21431,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19070] = {
-		base = 19060,
 		id = 19070,
+		base = 19060,
+		is_siren = 0,
 		value_1 = "283 x 3",
 		weapon_id = {
 			19070
@@ -19644,6 +21458,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19658,8 +21473,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19101] = {
-		base = 19100,
 		id = 19101,
+		base = 19100,
+		is_siren = 0,
 		value_1 = "94 x 3",
 		weapon_id = {
 			19101
@@ -19667,8 +21483,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19102] = {
-		base = 19100,
 		id = 19102,
+		base = 19100,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			19102
@@ -19676,8 +21493,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19103] = {
-		base = 19100,
 		id = 19103,
+		base = 19100,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			19103
@@ -19702,6 +21520,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19716,8 +21535,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19121] = {
-		base = 19120,
 		id = 19121,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "105 x 3",
 		weapon_id = {
 			19121
@@ -19725,8 +21545,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19122] = {
-		base = 19120,
 		id = 19122,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			19122
@@ -19734,8 +21555,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19123] = {
-		base = 19120,
 		id = 19123,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "131 x 3",
 		weapon_id = {
 			19123
@@ -19743,8 +21565,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19124] = {
-		base = 19120,
 		id = 19124,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			19124
@@ -19752,8 +21575,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19125] = {
-		base = 19120,
 		id = 19125,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "158 x 3",
 		weapon_id = {
 			19125
@@ -19761,8 +21585,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19126] = {
-		base = 19120,
 		id = 19126,
+		base = 19120,
+		is_siren = 0,
 		value_1 = "171 x 3",
 		weapon_id = {
 			19126
@@ -19787,6 +21612,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19801,8 +21627,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19141] = {
-		base = 19140,
 		id = 19141,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			19141
@@ -19810,8 +21637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19142] = {
-		base = 19140,
 		id = 19142,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "129 x 3",
 		weapon_id = {
 			19142
@@ -19819,8 +21647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19143] = {
-		base = 19140,
 		id = 19143,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			19143
@@ -19828,8 +21657,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19144] = {
-		base = 19140,
 		id = 19144,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "159 x 3",
 		weapon_id = {
 			19144
@@ -19837,8 +21667,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19145] = {
-		base = 19140,
 		id = 19145,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "174 x 3",
 		weapon_id = {
 			19145
@@ -19846,8 +21677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19146] = {
-		base = 19140,
 		id = 19146,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "189 x 3",
 		weapon_id = {
 			19146
@@ -19855,8 +21687,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19147] = {
-		base = 19140,
 		id = 19147,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "204 x 3",
 		weapon_id = {
 			19147
@@ -19864,8 +21697,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19148] = {
-		base = 19140,
 		id = 19148,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "219 x 3",
 		weapon_id = {
 			19148
@@ -19873,8 +21707,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19149] = {
-		base = 19140,
 		id = 19149,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "234 x 3",
 		weapon_id = {
 			19149
@@ -19882,8 +21717,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19150] = {
-		base = 19140,
 		id = 19150,
+		base = 19140,
+		is_siren = 0,
 		value_1 = "249 x 3",
 		weapon_id = {
 			19150
@@ -19908,6 +21744,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -19922,8 +21759,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19201] = {
-		base = 19200,
 		id = 19201,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "176 x 2",
 		weapon_id = {
 			19201
@@ -19931,8 +21769,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19202] = {
-		base = 19200,
 		id = 19202,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "198 x 2",
 		weapon_id = {
 			19202
@@ -19940,8 +21779,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19203] = {
-		base = 19200,
 		id = 19203,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "221 x 2",
 		weapon_id = {
 			19203
@@ -19949,8 +21789,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19204] = {
-		base = 19200,
 		id = 19204,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "243 x 2",
 		weapon_id = {
 			19204
@@ -19958,8 +21799,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19205] = {
-		base = 19200,
 		id = 19205,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "266 x 2",
 		weapon_id = {
 			19205
@@ -19967,8 +21809,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19206] = {
-		base = 19200,
 		id = 19206,
+		base = 19200,
+		is_siren = 0,
 		value_1 = "288 x 2",
 		weapon_id = {
 			19206
@@ -19993,6 +21836,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20007,8 +21851,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19221] = {
-		base = 19220,
 		id = 19221,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "191 x 2",
 		weapon_id = {
 			19221
@@ -20016,8 +21861,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19222] = {
-		base = 19220,
 		id = 19222,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "215 x 2",
 		weapon_id = {
 			19222
@@ -20025,8 +21871,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19223] = {
-		base = 19220,
 		id = 19223,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "239 x 2",
 		weapon_id = {
 			19223
@@ -20034,8 +21881,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19224] = {
-		base = 19220,
 		id = 19224,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "264 x 2",
 		weapon_id = {
 			19224
@@ -20043,8 +21891,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19225] = {
-		base = 19220,
 		id = 19225,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "290 x 2",
 		weapon_id = {
 			19225
@@ -20052,8 +21901,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19226] = {
-		base = 19220,
 		id = 19226,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "315 x 2",
 		weapon_id = {
 			19226
@@ -20061,8 +21911,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19227] = {
-		base = 19220,
 		id = 19227,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "341 x 2",
 		weapon_id = {
 			19227
@@ -20070,8 +21921,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19228] = {
-		base = 19220,
 		id = 19228,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "366 x 2",
 		weapon_id = {
 			19228
@@ -20079,8 +21931,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19229] = {
-		base = 19220,
 		id = 19229,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "392 x 2",
 		weapon_id = {
 			19229
@@ -20088,8 +21941,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19230] = {
-		base = 19220,
 		id = 19230,
+		base = 19220,
+		is_siren = 0,
 		value_1 = "417 x 2",
 		weapon_id = {
 			19230
@@ -20114,6 +21968,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 1,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20128,8 +21983,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[19241] = {
-		base = 19240,
 		id = 19241,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "209 x 2",
 		weapon_id = {
 			19241
@@ -20137,8 +21993,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19242] = {
-		base = 19240,
 		id = 19242,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "236 x 2",
 		weapon_id = {
 			19242
@@ -20146,8 +22003,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19243] = {
-		base = 19240,
 		id = 19243,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "263 x 2",
 		weapon_id = {
 			19243
@@ -20155,8 +22013,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19244] = {
-		base = 19240,
 		id = 19244,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "290 x 2",
 		weapon_id = {
 			19244
@@ -20164,8 +22023,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19245] = {
-		base = 19240,
 		id = 19245,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "317 x 2",
 		weapon_id = {
 			19245
@@ -20173,8 +22033,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19246] = {
-		base = 19240,
 		id = 19246,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "344 x 2",
 		weapon_id = {
 			19246
@@ -20182,8 +22043,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19247] = {
-		base = 19240,
 		id = 19247,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "371 x 2",
 		weapon_id = {
 			19247
@@ -20191,8 +22053,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19248] = {
-		base = 19240,
 		id = 19248,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "399 x 2",
 		weapon_id = {
 			19248
@@ -20200,8 +22063,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19249] = {
-		base = 19240,
 		id = 19249,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "428 x 2",
 		weapon_id = {
 			19249
@@ -20209,8 +22073,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[19250] = {
-		base = 19240,
 		id = 19250,
+		base = 19240,
+		is_siren = 0,
 		value_1 = "456 x 2",
 		weapon_id = {
 			19250
@@ -20233,8 +22098,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "5°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -20257,14 +22123,16 @@ pg.equip_data_statistics = {
 	[21001] = {
 		id = 21001,
 		base = 21000,
+		is_siren = 0,
 		weapon_id = {
 			21001
 		},
 		property_rate = {}
 	},
 	[21002] = {
-		base = 21000,
 		id = 21002,
+		base = 21000,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21002
@@ -20272,8 +22140,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21003] = {
-		base = 21000,
 		id = 21003,
+		base = 21000,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21003
@@ -20298,6 +22167,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20321,14 +22191,16 @@ pg.equip_data_statistics = {
 	[21021] = {
 		id = 21021,
 		base = 21020,
+		is_siren = 0,
 		weapon_id = {
 			21021
 		},
 		property_rate = {}
 	},
 	[21022] = {
-		base = 21020,
 		id = 21022,
+		base = 21020,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21022
@@ -20336,8 +22208,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21023] = {
-		base = 21020,
 		id = 21023,
+		base = 21020,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21023
@@ -20362,6 +22235,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20385,14 +22259,16 @@ pg.equip_data_statistics = {
 	[21041] = {
 		id = 21041,
 		base = 21040,
+		is_siren = 0,
 		weapon_id = {
 			21041
 		},
 		property_rate = {}
 	},
 	[21042] = {
-		base = 21040,
 		id = 21042,
+		base = 21040,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21042
@@ -20400,8 +22276,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21043] = {
-		base = 21040,
 		id = 21043,
+		base = 21040,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			21043
@@ -20409,8 +22286,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21044] = {
-		base = 21040,
 		id = 21044,
+		base = 21040,
+		is_siren = 0,
 		value_1 = "5 x 1",
 		weapon_id = {
 			21044
@@ -20418,8 +22296,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21045] = {
-		base = 21040,
 		id = 21045,
+		base = 21040,
+		is_siren = 0,
 		value_1 = "5 x 1",
 		weapon_id = {
 			21045
@@ -20427,8 +22306,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21046] = {
-		base = 21040,
 		id = 21046,
+		base = 21040,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			21046
@@ -20451,8 +22331,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "10°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -20475,14 +22356,16 @@ pg.equip_data_statistics = {
 	[21101] = {
 		id = 21101,
 		base = 21100,
+		is_siren = 0,
 		weapon_id = {
 			21101
 		},
 		property_rate = {}
 	},
 	[21102] = {
-		base = 21100,
 		id = 21102,
+		base = 21100,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21102
@@ -20490,8 +22373,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21103] = {
-		base = 21100,
 		id = 21103,
+		base = 21100,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21103
@@ -20516,6 +22400,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20539,14 +22424,16 @@ pg.equip_data_statistics = {
 	[21121] = {
 		id = 21121,
 		base = 21120,
+		is_siren = 0,
 		weapon_id = {
 			21121
 		},
 		property_rate = {}
 	},
 	[21122] = {
-		base = 21120,
 		id = 21122,
+		base = 21120,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21122
@@ -20554,8 +22441,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21123] = {
-		base = 21120,
 		id = 21123,
+		base = 21120,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21123
@@ -20580,6 +22468,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20603,14 +22492,16 @@ pg.equip_data_statistics = {
 	[21141] = {
 		id = 21141,
 		base = 21140,
+		is_siren = 0,
 		weapon_id = {
 			21141
 		},
 		property_rate = {}
 	},
 	[21142] = {
-		base = 21140,
 		id = 21142,
+		base = 21140,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21142
@@ -20618,8 +22509,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21143] = {
-		base = 21140,
 		id = 21143,
+		base = 21140,
+		is_siren = 0,
 		value_1 = "4 x 2",
 		weapon_id = {
 			21143
@@ -20627,8 +22519,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21144] = {
-		base = 21140,
 		id = 21144,
+		base = 21140,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			21144
@@ -20636,8 +22529,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21145] = {
-		base = 21140,
 		id = 21145,
+		base = 21140,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			21145
@@ -20645,8 +22539,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21146] = {
-		base = 21140,
 		id = 21146,
+		base = 21140,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			21146
@@ -20671,6 +22566,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20694,14 +22590,16 @@ pg.equip_data_statistics = {
 	[21201] = {
 		id = 21201,
 		base = 21200,
+		is_siren = 0,
 		weapon_id = {
 			21201
 		},
 		property_rate = {}
 	},
 	[21202] = {
-		base = 21200,
 		id = 21202,
+		base = 21200,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21202
@@ -20709,8 +22607,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21203] = {
-		base = 21200,
 		id = 21203,
+		base = 21200,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21203
@@ -20735,6 +22634,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20758,14 +22658,16 @@ pg.equip_data_statistics = {
 	[21221] = {
 		id = 21221,
 		base = 21220,
+		is_siren = 0,
 		weapon_id = {
 			21221
 		},
 		property_rate = {}
 	},
 	[21222] = {
-		base = 21220,
 		id = 21222,
+		base = 21220,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21222
@@ -20773,8 +22675,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21223] = {
-		base = 21220,
 		id = 21223,
+		base = 21220,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21223
@@ -20782,8 +22685,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21224] = {
-		base = 21220,
 		id = 21224,
+		base = 21220,
+		is_siren = 0,
 		value_1 = "5 x 3",
 		weapon_id = {
 			21224
@@ -20791,8 +22695,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21225] = {
-		base = 21220,
 		id = 21225,
+		base = 21220,
+		is_siren = 0,
 		value_1 = "5 x 3",
 		weapon_id = {
 			21225
@@ -20800,8 +22705,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21226] = {
-		base = 21220,
 		id = 21226,
+		base = 21220,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			21226
@@ -20826,6 +22732,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -20849,14 +22756,16 @@ pg.equip_data_statistics = {
 	[21241] = {
 		id = 21241,
 		base = 21240,
+		is_siren = 0,
 		weapon_id = {
 			21241
 		},
 		property_rate = {}
 	},
 	[21242] = {
-		base = 21240,
 		id = 21242,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21242
@@ -20864,8 +22773,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21243] = {
-		base = 21240,
 		id = 21243,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "4 x 3",
 		weapon_id = {
 			21243
@@ -20873,8 +22783,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21244] = {
-		base = 21240,
 		id = 21244,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "5 x 3",
 		weapon_id = {
 			21244
@@ -20882,8 +22793,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21245] = {
-		base = 21240,
 		id = 21245,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "5 x 3",
 		weapon_id = {
 			21245
@@ -20891,8 +22803,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21246] = {
-		base = 21240,
 		id = 21246,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			21246
@@ -20900,8 +22813,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21247] = {
-		base = 21240,
 		id = 21247,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			21247
@@ -20909,8 +22823,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21248] = {
-		base = 21240,
 		id = 21248,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			21248
@@ -20918,8 +22833,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21249] = {
-		base = 21240,
 		id = 21249,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			21249
@@ -20927,8 +22843,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21250] = {
-		base = 21240,
 		id = 21250,
+		base = 21240,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			21250
@@ -20951,8 +22868,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "7°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -20975,14 +22893,16 @@ pg.equip_data_statistics = {
 	[21301] = {
 		id = 21301,
 		base = 21300,
+		is_siren = 0,
 		weapon_id = {
 			21301
 		},
 		property_rate = {}
 	},
 	[21302] = {
-		base = 21300,
 		id = 21302,
+		base = 21300,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			21302
@@ -20990,8 +22910,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21303] = {
-		base = 21300,
 		id = 21303,
+		base = 21300,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			21303
@@ -21016,6 +22937,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21039,14 +22961,16 @@ pg.equip_data_statistics = {
 	[21321] = {
 		id = 21321,
 		base = 21320,
+		is_siren = 0,
 		weapon_id = {
 			21321
 		},
 		property_rate = {}
 	},
 	[21322] = {
-		base = 21320,
 		id = 21322,
+		base = 21320,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			21322
@@ -21054,8 +22978,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21323] = {
-		base = 21320,
 		id = 21323,
+		base = 21320,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			21323
@@ -21080,6 +23005,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21103,14 +23029,16 @@ pg.equip_data_statistics = {
 	[21341] = {
 		id = 21341,
 		base = 21340,
+		is_siren = 0,
 		weapon_id = {
 			21341
 		},
 		property_rate = {}
 	},
 	[21342] = {
-		base = 21340,
 		id = 21342,
+		base = 21340,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			21342
@@ -21118,8 +23046,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21343] = {
-		base = 21340,
 		id = 21343,
+		base = 21340,
+		is_siren = 0,
 		value_1 = "8 x 1",
 		weapon_id = {
 			21343
@@ -21127,8 +23056,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21344] = {
-		base = 21340,
 		id = 21344,
+		base = 21340,
+		is_siren = 0,
 		value_1 = "9 x 1",
 		weapon_id = {
 			21344
@@ -21136,8 +23066,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21345] = {
-		base = 21340,
 		id = 21345,
+		base = 21340,
+		is_siren = 0,
 		value_1 = "10 x 1",
 		weapon_id = {
 			21345
@@ -21145,8 +23076,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21346] = {
-		base = 21340,
 		id = 21346,
+		base = 21340,
+		is_siren = 0,
 		value_1 = "11 x 1",
 		weapon_id = {
 			21346
@@ -21171,6 +23103,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21194,14 +23127,16 @@ pg.equip_data_statistics = {
 	[21401] = {
 		id = 21401,
 		base = 21400,
+		is_siren = 0,
 		weapon_id = {
 			21401
 		},
 		property_rate = {}
 	},
 	[21402] = {
-		base = 21400,
 		id = 21402,
+		base = 21400,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			21402
@@ -21209,8 +23144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21403] = {
-		base = 21400,
 		id = 21403,
+		base = 21400,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			21403
@@ -21235,6 +23171,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21258,14 +23195,16 @@ pg.equip_data_statistics = {
 	[21421] = {
 		id = 21421,
 		base = 21420,
+		is_siren = 0,
 		weapon_id = {
 			21421
 		},
 		property_rate = {}
 	},
 	[21422] = {
-		base = 21420,
 		id = 21422,
+		base = 21420,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			21422
@@ -21273,8 +23212,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21423] = {
-		base = 21420,
 		id = 21423,
+		base = 21420,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			21423
@@ -21282,8 +23222,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21424] = {
-		base = 21420,
 		id = 21424,
+		base = 21420,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			21424
@@ -21291,8 +23232,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21425] = {
-		base = 21420,
 		id = 21425,
+		base = 21420,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			21425
@@ -21300,8 +23242,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21426] = {
-		base = 21420,
 		id = 21426,
+		base = 21420,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			21426
@@ -21326,6 +23269,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21349,14 +23293,16 @@ pg.equip_data_statistics = {
 	[21441] = {
 		id = 21441,
 		base = 21440,
+		is_siren = 0,
 		weapon_id = {
 			21441
 		},
 		property_rate = {}
 	},
 	[21442] = {
-		base = 21440,
 		id = 21442,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			21442
@@ -21364,8 +23310,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21443] = {
-		base = 21440,
 		id = 21443,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			21443
@@ -21373,8 +23320,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21444] = {
-		base = 21440,
 		id = 21444,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			21444
@@ -21382,8 +23330,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21445] = {
-		base = 21440,
 		id = 21445,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			21445
@@ -21391,8 +23340,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21446] = {
-		base = 21440,
 		id = 21446,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			21446
@@ -21400,8 +23350,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21447] = {
-		base = 21440,
 		id = 21447,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			21447
@@ -21409,8 +23360,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21448] = {
-		base = 21440,
 		id = 21448,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			21448
@@ -21418,8 +23370,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21449] = {
-		base = 21440,
 		id = 21449,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			21449
@@ -21427,8 +23380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21450] = {
-		base = 21440,
 		id = 21450,
+		base = 21440,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			21450
@@ -21454,6 +23408,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		attribute_3 = "antiaircraft",
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 3,
 		attribute_1 = "damage",
@@ -21477,14 +23432,16 @@ pg.equip_data_statistics = {
 	[21501] = {
 		id = 21501,
 		base = 21500,
+		is_siren = 0,
 		weapon_id = {
 			21501
 		},
 		property_rate = {}
 	},
 	[21502] = {
-		base = 21500,
 		id = 21502,
+		base = 21500,
+		is_siren = 0,
 		value_1 = "6 x 2",
 		weapon_id = {
 			21502
@@ -21492,8 +23449,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21503] = {
-		base = 21500,
 		id = 21503,
+		base = 21500,
+		is_siren = 0,
 		value_1 = "6 x 2",
 		weapon_id = {
 			21503
@@ -21519,6 +23477,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		attribute_3 = "antiaircraft",
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 7,
 		attribute_1 = "damage",
@@ -21542,14 +23501,16 @@ pg.equip_data_statistics = {
 	[21521] = {
 		id = 21521,
 		base = 21520,
+		is_siren = 0,
 		weapon_id = {
 			21521
 		},
 		property_rate = {}
 	},
 	[21522] = {
-		base = 21520,
 		id = 21522,
+		base = 21520,
+		is_siren = 0,
 		value_1 = "6 x 2",
 		weapon_id = {
 			21522
@@ -21557,8 +23518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21523] = {
-		base = 21520,
 		id = 21523,
+		base = 21520,
+		is_siren = 0,
 		value_1 = "6 x 2",
 		weapon_id = {
 			21523
@@ -21566,8 +23528,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21524] = {
-		base = 21520,
 		id = 21524,
+		base = 21520,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			21524
@@ -21575,8 +23538,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21525] = {
-		base = 21520,
 		id = 21525,
+		base = 21520,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			21525
@@ -21584,8 +23548,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21526] = {
-		base = 21520,
 		id = 21526,
+		base = 21520,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			21526
@@ -21611,6 +23576,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		attribute_3 = "antiaircraft",
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 15,
 		attribute_1 = "damage",
@@ -21634,14 +23600,16 @@ pg.equip_data_statistics = {
 	[21541] = {
 		id = 21541,
 		base = 21540,
+		is_siren = 0,
 		weapon_id = {
 			21541
 		},
 		property_rate = {}
 	},
 	[21542] = {
-		base = 21540,
 		id = 21542,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			21542
@@ -21649,8 +23617,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21543] = {
-		base = 21540,
 		id = 21543,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			21543
@@ -21658,8 +23627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21544] = {
-		base = 21540,
 		id = 21544,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			21544
@@ -21667,8 +23637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21545] = {
-		base = 21540,
 		id = 21545,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			21545
@@ -21676,8 +23647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21546] = {
-		base = 21540,
 		id = 21546,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "9 x 2",
 		weapon_id = {
 			21546
@@ -21685,8 +23657,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21547] = {
-		base = 21540,
 		id = 21547,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "9 x 2",
 		weapon_id = {
 			21547
@@ -21694,8 +23667,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21548] = {
-		base = 21540,
 		id = 21548,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			21548
@@ -21703,8 +23677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21549] = {
-		base = 21540,
 		id = 21549,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			21549
@@ -21712,8 +23687,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[21550] = {
-		base = 21540,
 		id = 21550,
+		base = 21540,
+		is_siren = 0,
 		value_1 = "11 x 2",
 		weapon_id = {
 			21550
@@ -21736,8 +23712,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "14°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "穿甲弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -21757,8 +23734,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22001] = {
-		base = 22000,
 		id = 22001,
+		base = 22000,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			22001
@@ -21766,8 +23744,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22002] = {
-		base = 22000,
 		id = 22002,
+		base = 22000,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			22002
@@ -21775,8 +23754,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22003] = {
-		base = 22000,
 		id = 22003,
+		base = 22000,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			22003
@@ -21801,6 +23781,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21821,8 +23802,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22021] = {
-		base = 22020,
 		id = 22021,
+		base = 22020,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			22021
@@ -21830,8 +23812,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22022] = {
-		base = 22020,
 		id = 22022,
+		base = 22020,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			22022
@@ -21839,8 +23822,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22023] = {
-		base = 22020,
 		id = 22023,
+		base = 22020,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			22023
@@ -21865,6 +23849,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21885,8 +23870,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22041] = {
-		base = 22040,
 		id = 22041,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			22041
@@ -21894,8 +23880,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22042] = {
-		base = 22040,
 		id = 22042,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			22042
@@ -21903,8 +23890,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22043] = {
-		base = 22040,
 		id = 22043,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			22043
@@ -21912,8 +23900,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22044] = {
-		base = 22040,
 		id = 22044,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			22044
@@ -21921,8 +23910,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22045] = {
-		base = 22040,
 		id = 22045,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "15 x 3",
 		weapon_id = {
 			22045
@@ -21930,8 +23920,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22046] = {
-		base = 22040,
 		id = 22046,
+		base = 22040,
+		is_siren = 0,
 		value_1 = "16 x 3",
 		weapon_id = {
 			22046
@@ -21956,6 +23947,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -21976,8 +23968,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22101] = {
-		base = 22100,
 		id = 22101,
+		base = 22100,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			22101
@@ -21985,8 +23978,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22102] = {
-		base = 22100,
 		id = 22102,
+		base = 22100,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			22102
@@ -21994,8 +23988,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22103] = {
-		base = 22100,
 		id = 22103,
+		base = 22100,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			22103
@@ -22020,6 +24015,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22040,8 +24036,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22121] = {
-		base = 22120,
 		id = 22121,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			22121
@@ -22049,8 +24046,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22122] = {
-		base = 22120,
 		id = 22122,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			22122
@@ -22058,8 +24056,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22123] = {
-		base = 22120,
 		id = 22123,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			22123
@@ -22067,8 +24066,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22124] = {
-		base = 22120,
 		id = 22124,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			22124
@@ -22076,8 +24076,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22125] = {
-		base = 22120,
 		id = 22125,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			22125
@@ -22085,8 +24086,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22126] = {
-		base = 22120,
 		id = 22126,
+		base = 22120,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			22126
@@ -22111,6 +24113,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22131,8 +24134,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22141] = {
-		base = 22140,
 		id = 22141,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			22141
@@ -22140,8 +24144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22142] = {
-		base = 22140,
 		id = 22142,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			22142
@@ -22149,8 +24154,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22143] = {
-		base = 22140,
 		id = 22143,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			22143
@@ -22158,8 +24164,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22144] = {
-		base = 22140,
 		id = 22144,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			22144
@@ -22167,8 +24174,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22145] = {
-		base = 22140,
 		id = 22145,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			22145
@@ -22176,8 +24184,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22146] = {
-		base = 22140,
 		id = 22146,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "16 x 4",
 		weapon_id = {
 			22146
@@ -22185,8 +24194,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22147] = {
-		base = 22140,
 		id = 22147,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "17 x 4",
 		weapon_id = {
 			22147
@@ -22194,8 +24204,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22148] = {
-		base = 22140,
 		id = 22148,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "18 x 4",
 		weapon_id = {
 			22148
@@ -22203,8 +24214,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22149] = {
-		base = 22140,
 		id = 22149,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "20 x 4",
 		weapon_id = {
 			22149
@@ -22212,8 +24224,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22150] = {
-		base = 22140,
 		id = 22150,
+		base = 22140,
+		is_siren = 0,
 		value_1 = "22 x 4",
 		weapon_id = {
 			22150
@@ -22238,6 +24251,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22258,8 +24272,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22201] = {
-		base = 22200,
 		id = 22201,
+		base = 22200,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			22201
@@ -22267,8 +24282,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22202] = {
-		base = 22200,
 		id = 22202,
+		base = 22200,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			22202
@@ -22276,8 +24292,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22203] = {
-		base = 22200,
 		id = 22203,
+		base = 22200,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			22203
@@ -22302,6 +24319,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22322,8 +24340,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22221] = {
-		base = 22220,
 		id = 22221,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			22221
@@ -22331,8 +24350,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22222] = {
-		base = 22220,
 		id = 22222,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			22222
@@ -22340,8 +24360,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22223] = {
-		base = 22220,
 		id = 22223,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			22223
@@ -22349,8 +24370,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22224] = {
-		base = 22220,
 		id = 22224,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			22224
@@ -22358,8 +24380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22225] = {
-		base = 22220,
 		id = 22225,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			22225
@@ -22367,8 +24390,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22226] = {
-		base = 22220,
 		id = 22226,
+		base = 22220,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			22226
@@ -22393,6 +24417,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22413,8 +24438,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22241] = {
-		base = 22240,
 		id = 22241,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			22241
@@ -22422,8 +24448,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22242] = {
-		base = 22240,
 		id = 22242,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			22242
@@ -22431,8 +24458,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22243] = {
-		base = 22240,
 		id = 22243,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			22243
@@ -22440,8 +24468,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22244] = {
-		base = 22240,
 		id = 22244,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			22244
@@ -22449,8 +24478,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22245] = {
-		base = 22240,
 		id = 22245,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			22245
@@ -22458,8 +24488,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22246] = {
-		base = 22240,
 		id = 22246,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "16 x 6",
 		weapon_id = {
 			22246
@@ -22467,8 +24498,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22247] = {
-		base = 22240,
 		id = 22247,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "17 x 6",
 		weapon_id = {
 			22247
@@ -22476,8 +24508,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22248] = {
-		base = 22240,
 		id = 22248,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "18 x 6",
 		weapon_id = {
 			22248
@@ -22485,8 +24518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22249] = {
-		base = 22240,
 		id = 22249,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "20 x 6",
 		weapon_id = {
 			22249
@@ -22494,8 +24528,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22250] = {
-		base = 22240,
 		id = 22250,
+		base = 22240,
+		is_siren = 0,
 		value_1 = "22 x 6",
 		weapon_id = {
 			22250
@@ -22520,6 +24555,7 @@ pg.equip_data_statistics = {
 		angle = 115,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22540,8 +24576,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[22261] = {
-		base = 22260,
 		id = 22261,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			22261
@@ -22549,8 +24586,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22262] = {
-		base = 22260,
 		id = 22262,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			22262
@@ -22558,8 +24596,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22263] = {
-		base = 22260,
 		id = 22263,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			22263
@@ -22567,8 +24606,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22264] = {
-		base = 22260,
 		id = 22264,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "15 x 3",
 		weapon_id = {
 			22264
@@ -22576,8 +24616,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22265] = {
-		base = 22260,
 		id = 22265,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "16 x 3",
 		weapon_id = {
 			22265
@@ -22585,8 +24626,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22266] = {
-		base = 22260,
 		id = 22266,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "17 x 3",
 		weapon_id = {
 			22266
@@ -22594,8 +24636,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22267] = {
-		base = 22260,
 		id = 22267,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "18 x 3",
 		weapon_id = {
 			22267
@@ -22603,8 +24646,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22268] = {
-		base = 22260,
 		id = 22268,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "20 x 3",
 		weapon_id = {
 			22268
@@ -22612,8 +24656,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22269] = {
-		base = 22260,
 		id = 22269,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "22 x 3",
 		weapon_id = {
 			22269
@@ -22621,8 +24666,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[22270] = {
-		base = 22260,
 		id = 22270,
+		base = 22260,
+		is_siren = 0,
 		value_1 = "24 x 3",
 		weapon_id = {
 			22270
@@ -22647,6 +24693,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22665,8 +24712,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[23001] = {
-		base = 23000,
 		id = 23001,
+		base = 23000,
+		is_siren = 0,
 		value_1 = "26 x 4",
 		weapon_id = {
 			23001
@@ -22674,8 +24722,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23002] = {
-		base = 23000,
 		id = 23002,
+		base = 23000,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			23002
@@ -22683,8 +24732,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23003] = {
-		base = 23000,
 		id = 23003,
+		base = 23000,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			23003
@@ -22709,6 +24759,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22727,8 +24778,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[23021] = {
-		base = 23020,
 		id = 23021,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			23021
@@ -22736,8 +24788,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23022] = {
-		base = 23020,
 		id = 23022,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			23022
@@ -22745,8 +24798,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23023] = {
-		base = 23020,
 		id = 23023,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			23023
@@ -22754,8 +24808,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23024] = {
-		base = 23020,
 		id = 23024,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			23024
@@ -22763,8 +24818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23025] = {
-		base = 23020,
 		id = 23025,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "36 x 4",
 		weapon_id = {
 			23025
@@ -22772,8 +24828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23026] = {
-		base = 23020,
 		id = 23026,
+		base = 23020,
+		is_siren = 0,
 		value_1 = "38 x 4",
 		weapon_id = {
 			23026
@@ -22798,6 +24855,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22816,8 +24874,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[23041] = {
-		base = 23040,
 		id = 23041,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			23041
@@ -22825,8 +24884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23042] = {
-		base = 23040,
 		id = 23042,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			23042
@@ -22834,8 +24894,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23043] = {
-		base = 23040,
 		id = 23043,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			23043
@@ -22843,8 +24904,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23044] = {
-		base = 23040,
 		id = 23044,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "36 x 4",
 		weapon_id = {
 			23044
@@ -22852,8 +24914,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23045] = {
-		base = 23040,
 		id = 23045,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "38 x 4",
 		weapon_id = {
 			23045
@@ -22861,8 +24924,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23046] = {
-		base = 23040,
 		id = 23046,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "40 x 4",
 		weapon_id = {
 			23046
@@ -22870,8 +24934,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23047] = {
-		base = 23040,
 		id = 23047,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "42 x 4",
 		weapon_id = {
 			23047
@@ -22879,8 +24944,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23048] = {
-		base = 23040,
 		id = 23048,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "44 x 4",
 		weapon_id = {
 			23048
@@ -22888,8 +24954,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23049] = {
-		base = 23040,
 		id = 23049,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "46 x 4",
 		weapon_id = {
 			23049
@@ -22897,8 +24964,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[23050] = {
-		base = 23040,
 		id = 23050,
+		base = 23040,
+		is_siren = 0,
 		value_1 = "48 x 4",
 		weapon_id = {
 			23050
@@ -22923,6 +24991,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -22942,8 +25011,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24001] = {
-		base = 24000,
 		id = 24001,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "46 x 4",
 		weapon_id = {
 			24001
@@ -22951,8 +25021,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24002] = {
-		base = 24000,
 		id = 24002,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "50 x 4",
 		weapon_id = {
 			24002
@@ -22960,8 +25031,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24003] = {
-		base = 24000,
 		id = 24003,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "56 x 4",
 		weapon_id = {
 			24003
@@ -22969,8 +25041,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24004] = {
-		base = 24000,
 		id = 24004,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "60 x 4",
 		weapon_id = {
 			24004
@@ -22978,8 +25051,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24005] = {
-		base = 24000,
 		id = 24005,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "66 x 4",
 		weapon_id = {
 			24005
@@ -22987,8 +25061,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24006] = {
-		base = 24000,
 		id = 24006,
+		base = 24000,
+		is_siren = 0,
 		value_1 = "70 x 4",
 		weapon_id = {
 			24006
@@ -23013,6 +25088,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23032,8 +25108,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24021] = {
-		base = 24020,
 		id = 24021,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "50 x 4",
 		weapon_id = {
 			24021
@@ -23041,8 +25118,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24022] = {
-		base = 24020,
 		id = 24022,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "55 x 4",
 		weapon_id = {
 			24022
@@ -23050,8 +25128,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24023] = {
-		base = 24020,
 		id = 24023,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "61 x 4",
 		weapon_id = {
 			24023
@@ -23059,8 +25138,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24024] = {
-		base = 24020,
 		id = 24024,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "66 x 4",
 		weapon_id = {
 			24024
@@ -23068,8 +25148,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24025] = {
-		base = 24020,
 		id = 24025,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "72 x 4",
 		weapon_id = {
 			24025
@@ -23077,8 +25158,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24026] = {
-		base = 24020,
 		id = 24026,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "77 x 4",
 		weapon_id = {
 			24026
@@ -23086,8 +25168,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24027] = {
-		base = 24020,
 		id = 24027,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "83 x 4",
 		weapon_id = {
 			24027
@@ -23095,8 +25178,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24028] = {
-		base = 24020,
 		id = 24028,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "88 x 4",
 		weapon_id = {
 			24028
@@ -23104,8 +25188,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24029] = {
-		base = 24020,
 		id = 24029,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "94 x 4",
 		weapon_id = {
 			24029
@@ -23113,8 +25198,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24030] = {
-		base = 24020,
 		id = 24030,
+		base = 24020,
+		is_siren = 0,
 		value_1 = "99 x 4",
 		weapon_id = {
 			24030
@@ -23139,6 +25225,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23158,8 +25245,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24041] = {
-		base = 24040,
 		id = 24041,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "55 x 4",
 		weapon_id = {
 			24041
@@ -23167,8 +25255,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24042] = {
-		base = 24040,
 		id = 24042,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "60 x 4",
 		weapon_id = {
 			24042
@@ -23176,8 +25265,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24043] = {
-		base = 24040,
 		id = 24043,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "67 x 4",
 		weapon_id = {
 			24043
@@ -23185,8 +25275,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24044] = {
-		base = 24040,
 		id = 24044,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "72 x 4",
 		weapon_id = {
 			24044
@@ -23194,8 +25285,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24045] = {
-		base = 24040,
 		id = 24045,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "79 x 4",
 		weapon_id = {
 			24045
@@ -23203,8 +25295,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24046] = {
-		base = 24040,
 		id = 24046,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "84 x 4",
 		weapon_id = {
 			24046
@@ -23212,8 +25305,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24047] = {
-		base = 24040,
 		id = 24047,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "91 x 4",
 		weapon_id = {
 			24047
@@ -23221,8 +25315,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24048] = {
-		base = 24040,
 		id = 24048,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "96 x 4",
 		weapon_id = {
 			24048
@@ -23230,8 +25325,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24049] = {
-		base = 24040,
 		id = 24049,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "103 x 4",
 		weapon_id = {
 			24049
@@ -23239,8 +25335,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24050] = {
-		base = 24040,
 		id = 24050,
+		base = 24040,
+		is_siren = 0,
 		value_1 = "108 x 4",
 		weapon_id = {
 			24050
@@ -23265,6 +25362,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23284,8 +25382,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24101] = {
-		base = 24100,
 		id = 24101,
+		base = 24100,
+		is_siren = 0,
 		value_1 = "52 x 2",
 		weapon_id = {
 			24101
@@ -23293,8 +25392,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24102] = {
-		base = 24100,
 		id = 24102,
+		base = 24100,
+		is_siren = 0,
 		value_1 = "58 x 2",
 		weapon_id = {
 			24102
@@ -23302,8 +25402,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24103] = {
-		base = 24100,
 		id = 24103,
+		base = 24100,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			24103
@@ -23328,6 +25429,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23347,8 +25449,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24121] = {
-		base = 24120,
 		id = 24121,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "57 x 2",
 		weapon_id = {
 			24121
@@ -23356,8 +25459,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24122] = {
-		base = 24120,
 		id = 24122,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			24122
@@ -23365,8 +25469,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24123] = {
-		base = 24120,
 		id = 24123,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			24123
@@ -23374,8 +25479,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24124] = {
-		base = 24120,
 		id = 24124,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "77 x 2",
 		weapon_id = {
 			24124
@@ -23383,8 +25489,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24125] = {
-		base = 24120,
 		id = 24125,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "84 x 2",
 		weapon_id = {
 			24125
@@ -23392,8 +25499,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24126] = {
-		base = 24120,
 		id = 24126,
+		base = 24120,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			24126
@@ -23418,6 +25526,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23437,8 +25546,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24141] = {
-		base = 24140,
 		id = 24141,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			24141
@@ -23446,8 +25556,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24142] = {
-		base = 24140,
 		id = 24142,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			24142
@@ -23455,8 +25566,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24143] = {
-		base = 24140,
 		id = 24143,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "76 x 2",
 		weapon_id = {
 			24143
@@ -23464,8 +25576,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24144] = {
-		base = 24140,
 		id = 24144,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "84 x 2",
 		weapon_id = {
 			24144
@@ -23473,8 +25586,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24145] = {
-		base = 24140,
 		id = 24145,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "92 x 2",
 		weapon_id = {
 			24145
@@ -23482,8 +25596,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24146] = {
-		base = 24140,
 		id = 24146,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "98 x 2",
 		weapon_id = {
 			24146
@@ -23491,8 +25606,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24147] = {
-		base = 24140,
 		id = 24147,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			24147
@@ -23500,8 +25616,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24148] = {
-		base = 24140,
 		id = 24148,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "112 x 2",
 		weapon_id = {
 			24148
@@ -23509,8 +25626,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24149] = {
-		base = 24140,
 		id = 24149,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "120 x 2",
 		weapon_id = {
 			24149
@@ -23518,8 +25636,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24150] = {
-		base = 24140,
 		id = 24150,
+		base = 24140,
+		is_siren = 0,
 		value_1 = "128 x 2",
 		weapon_id = {
 			24150
@@ -23544,6 +25663,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23563,8 +25683,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24161] = {
-		base = 24160,
 		id = 24161,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "64 x 3",
 		weapon_id = {
 			24161
@@ -23572,8 +25693,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24162] = {
-		base = 24160,
 		id = 24162,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			24162
@@ -23581,8 +25703,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24163] = {
-		base = 24160,
 		id = 24163,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "80 x 3",
 		weapon_id = {
 			24163
@@ -23590,8 +25713,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24164] = {
-		base = 24160,
 		id = 24164,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			24164
@@ -23599,8 +25723,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24165] = {
-		base = 24160,
 		id = 24165,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "97 x 3",
 		weapon_id = {
 			24165
@@ -23608,8 +25733,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24166] = {
-		base = 24160,
 		id = 24166,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			24166
@@ -23617,8 +25743,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24167] = {
-		base = 24160,
 		id = 24167,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "115 x 3",
 		weapon_id = {
 			24167
@@ -23626,8 +25753,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24168] = {
-		base = 24160,
 		id = 24168,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			24168
@@ -23635,8 +25763,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24169] = {
-		base = 24160,
 		id = 24169,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "133 x 3",
 		weapon_id = {
 			24169
@@ -23644,8 +25773,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24170] = {
-		base = 24160,
 		id = 24170,
+		base = 24160,
+		is_siren = 0,
 		value_1 = "142 x 3",
 		weapon_id = {
 			24170
@@ -23670,6 +25800,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23689,8 +25820,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24201] = {
-		base = 24200,
 		id = 24201,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "56 x 3",
 		weapon_id = {
 			24201
@@ -23698,8 +25830,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24202] = {
-		base = 24200,
 		id = 24202,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "64 x 3",
 		weapon_id = {
 			24202
@@ -23707,8 +25840,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24203] = {
-		base = 24200,
 		id = 24203,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			24203
@@ -23716,8 +25850,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24204] = {
-		base = 24200,
 		id = 24204,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "80 x 3",
 		weapon_id = {
 			24204
@@ -23725,8 +25860,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24205] = {
-		base = 24200,
 		id = 24205,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			24205
@@ -23734,8 +25870,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24206] = {
-		base = 24200,
 		id = 24206,
+		base = 24200,
+		is_siren = 0,
 		value_1 = "96 x 3",
 		weapon_id = {
 			24206
@@ -23760,6 +25897,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23779,8 +25917,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24221] = {
-		base = 24220,
 		id = 24221,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			24221
@@ -23788,8 +25927,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24222] = {
-		base = 24220,
 		id = 24222,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			24222
@@ -23797,8 +25937,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24223] = {
-		base = 24220,
 		id = 24223,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			24223
@@ -23806,8 +25947,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24224] = {
-		base = 24220,
 		id = 24224,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			24224
@@ -23815,8 +25957,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24225] = {
-		base = 24220,
 		id = 24225,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "97 x 3",
 		weapon_id = {
 			24225
@@ -23824,8 +25967,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24226] = {
-		base = 24220,
 		id = 24226,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			24226
@@ -23833,8 +25977,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24227] = {
-		base = 24220,
 		id = 24227,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			24227
@@ -23842,8 +25987,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24228] = {
-		base = 24220,
 		id = 24228,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "123 x 3",
 		weapon_id = {
 			24228
@@ -23851,8 +25997,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24229] = {
-		base = 24220,
 		id = 24229,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			24229
@@ -23860,8 +26007,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24230] = {
-		base = 24220,
 		id = 24230,
+		base = 24220,
+		is_siren = 0,
 		value_1 = "141 x 3",
 		weapon_id = {
 			24230
@@ -23886,6 +26034,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -23905,8 +26054,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24241] = {
-		base = 24240,
 		id = 24241,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			24241
@@ -23914,8 +26064,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24242] = {
-		base = 24240,
 		id = 24242,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "76 x 3",
 		weapon_id = {
 			24242
@@ -23923,8 +26074,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24243] = {
-		base = 24240,
 		id = 24243,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			24243
@@ -23932,8 +26084,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24244] = {
-		base = 24240,
 		id = 24244,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "96 x 3",
 		weapon_id = {
 			24244
@@ -23941,8 +26094,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24245] = {
-		base = 24240,
 		id = 24245,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			24245
@@ -23950,8 +26104,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24246] = {
-		base = 24240,
 		id = 24246,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "116 x 3",
 		weapon_id = {
 			24246
@@ -23959,8 +26114,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24247] = {
-		base = 24240,
 		id = 24247,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			24247
@@ -23968,8 +26124,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24248] = {
-		base = 24240,
 		id = 24248,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "134 x 3",
 		weapon_id = {
 			24248
@@ -23977,8 +26134,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24249] = {
-		base = 24240,
 		id = 24249,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			24249
@@ -23986,8 +26144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24250] = {
-		base = 24240,
 		id = 24250,
+		base = 24240,
+		is_siren = 0,
 		value_1 = "154 x 3",
 		weapon_id = {
 			24250
@@ -24012,6 +26171,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "双联装381mm主炮的改进型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24031,8 +26191,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24301] = {
-		base = 24300,
 		id = 24301,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "53 x 2",
 		weapon_id = {
 			24301
@@ -24040,8 +26201,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24302] = {
-		base = 24300,
 		id = 24302,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "60 x 2",
 		weapon_id = {
 			24302
@@ -24049,8 +26211,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24303] = {
-		base = 24300,
 		id = 24303,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "67 x 2",
 		weapon_id = {
 			24303
@@ -24058,8 +26221,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24304] = {
-		base = 24300,
 		id = 24304,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			24304
@@ -24067,8 +26231,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24305] = {
-		base = 24300,
 		id = 24305,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "81 x 2",
 		weapon_id = {
 			24305
@@ -24076,8 +26241,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24306] = {
-		base = 24300,
 		id = 24306,
+		base = 24300,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			24306
@@ -24102,6 +26268,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "双联装381mm主炮的改进型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24121,8 +26288,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24321] = {
-		base = 24320,
 		id = 24321,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "58 x 2",
 		weapon_id = {
 			24321
@@ -24130,8 +26298,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24322] = {
-		base = 24320,
 		id = 24322,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "65 x 2",
 		weapon_id = {
 			24322
@@ -24139,8 +26308,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24323] = {
-		base = 24320,
 		id = 24323,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			24323
@@ -24148,8 +26318,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24324] = {
-		base = 24320,
 		id = 24324,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			24324
@@ -24157,8 +26328,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24325] = {
-		base = 24320,
 		id = 24325,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			24325
@@ -24166,8 +26338,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24326] = {
-		base = 24320,
 		id = 24326,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			24326
@@ -24175,8 +26348,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24327] = {
-		base = 24320,
 		id = 24327,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "104 x 2",
 		weapon_id = {
 			24327
@@ -24184,8 +26358,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24328] = {
-		base = 24320,
 		id = 24328,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "112 x 2",
 		weapon_id = {
 			24328
@@ -24193,8 +26368,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24329] = {
-		base = 24320,
 		id = 24329,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "120 x 2",
 		weapon_id = {
 			24329
@@ -24202,8 +26378,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24330] = {
-		base = 24320,
 		id = 24330,
+		base = 24320,
+		is_siren = 0,
 		value_1 = "128 x 2",
 		weapon_id = {
 			24330
@@ -24228,6 +26405,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 2,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "双联装381mm主炮的改进型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24247,8 +26425,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[24341] = {
-		base = 24340,
 		id = 24341,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "63 x 2",
 		weapon_id = {
 			24341
@@ -24256,8 +26435,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24342] = {
-		base = 24340,
 		id = 24342,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			24342
@@ -24265,8 +26445,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24343] = {
-		base = 24340,
 		id = 24343,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "77 x 2",
 		weapon_id = {
 			24343
@@ -24274,8 +26455,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24344] = {
-		base = 24340,
 		id = 24344,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "85 x 2",
 		weapon_id = {
 			24344
@@ -24283,8 +26465,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24345] = {
-		base = 24340,
 		id = 24345,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "93 x 2",
 		weapon_id = {
 			24345
@@ -24292,8 +26475,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24346] = {
-		base = 24340,
 		id = 24346,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "101 x 2",
 		weapon_id = {
 			24346
@@ -24301,8 +26485,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24347] = {
-		base = 24340,
 		id = 24347,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "109 x 2",
 		weapon_id = {
 			24347
@@ -24310,8 +26495,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24348] = {
-		base = 24340,
 		id = 24348,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "117 x 2",
 		weapon_id = {
 			24348
@@ -24319,8 +26505,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24349] = {
-		base = 24340,
 		id = 24349,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "125 x 2",
 		weapon_id = {
 			24349
@@ -24328,8 +26515,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[24350] = {
-		base = 24340,
 		id = 24350,
+		base = 24340,
+		is_siren = 0,
 		value_1 = "133 x 2",
 		weapon_id = {
 			24350
@@ -24352,8 +26540,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -24367,8 +26556,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26001] = {
-		base = 26000,
 		id = 26001,
+		base = 26000,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			26001
@@ -24376,8 +26566,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26002] = {
-		base = 26000,
 		id = 26002,
+		base = 26000,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			26002
@@ -24385,8 +26576,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26003] = {
-		base = 26000,
 		id = 26003,
+		base = 26000,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			26003
@@ -24411,6 +26603,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24425,8 +26618,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26021] = {
-		base = 26020,
 		id = 26021,
+		base = 26020,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			26021
@@ -24434,8 +26628,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26022] = {
-		base = 26020,
 		id = 26022,
+		base = 26020,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			26022
@@ -24443,8 +26638,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26023] = {
-		base = 26020,
 		id = 26023,
+		base = 26020,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			26023
@@ -24469,6 +26665,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24483,8 +26680,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26041] = {
-		base = 26040,
 		id = 26041,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			26041
@@ -24492,8 +26690,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26042] = {
-		base = 26040,
 		id = 26042,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			26042
@@ -24501,8 +26700,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26043] = {
-		base = 26040,
 		id = 26043,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			26043
@@ -24510,8 +26710,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26044] = {
-		base = 26040,
 		id = 26044,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			26044
@@ -24519,8 +26720,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26045] = {
-		base = 26040,
 		id = 26045,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			26045
@@ -24528,8 +26730,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26046] = {
-		base = 26040,
 		id = 26046,
+		base = 26040,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			26046
@@ -24554,6 +26757,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24568,8 +26772,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26101] = {
-		base = 26100,
 		id = 26101,
+		base = 26100,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			26101
@@ -24577,8 +26782,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26102] = {
-		base = 26100,
 		id = 26102,
+		base = 26100,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			26102
@@ -24586,8 +26792,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26103] = {
-		base = 26100,
 		id = 26103,
+		base = 26100,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			26103
@@ -24612,6 +26819,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24626,8 +26834,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26121] = {
-		base = 26120,
 		id = 26121,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			26121
@@ -24635,8 +26844,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26122] = {
-		base = 26120,
 		id = 26122,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			26122
@@ -24644,8 +26854,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26123] = {
-		base = 26120,
 		id = 26123,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			26123
@@ -24653,8 +26864,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26124] = {
-		base = 26120,
 		id = 26124,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			26124
@@ -24662,8 +26874,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26125] = {
-		base = 26120,
 		id = 26125,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			26125
@@ -24671,8 +26884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26126] = {
-		base = 26120,
 		id = 26126,
+		base = 26120,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			26126
@@ -24697,6 +26911,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24711,8 +26926,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26141] = {
-		base = 26140,
 		id = 26141,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			26141
@@ -24720,8 +26936,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26142] = {
-		base = 26140,
 		id = 26142,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			26142
@@ -24729,8 +26946,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26143] = {
-		base = 26140,
 		id = 26143,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			26143
@@ -24738,8 +26956,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26144] = {
-		base = 26140,
 		id = 26144,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			26144
@@ -24747,8 +26966,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26145] = {
-		base = 26140,
 		id = 26145,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			26145
@@ -24756,8 +26976,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26146] = {
-		base = 26140,
 		id = 26146,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "64/轮",
 		weapon_id = {
 			26146
@@ -24765,8 +26986,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26147] = {
-		base = 26140,
 		id = 26147,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			26147
@@ -24774,8 +26996,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26148] = {
-		base = 26140,
 		id = 26148,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			26148
@@ -24783,8 +27006,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26149] = {
-		base = 26140,
 		id = 26149,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "79/轮",
 		weapon_id = {
 			26149
@@ -24792,8 +27016,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26150] = {
-		base = 26140,
 		id = 26150,
+		base = 26140,
+		is_siren = 0,
 		value_1 = "84/轮",
 		weapon_id = {
 			26150
@@ -24818,6 +27043,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24832,8 +27058,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26201] = {
-		base = 26200,
 		id = 26201,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			26201
@@ -24841,8 +27068,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26202] = {
-		base = 26200,
 		id = 26202,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			26202
@@ -24850,8 +27078,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26203] = {
-		base = 26200,
 		id = 26203,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			26203
@@ -24859,8 +27088,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26204] = {
-		base = 26200,
 		id = 26204,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			26204
@@ -24868,8 +27098,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26205] = {
-		base = 26200,
 		id = 26205,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "73/轮",
 		weapon_id = {
 			26205
@@ -24877,8 +27108,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26206] = {
-		base = 26200,
 		id = 26206,
+		base = 26200,
+		is_siren = 0,
 		value_1 = "80/轮",
 		weapon_id = {
 			26206
@@ -24903,6 +27135,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -24917,8 +27150,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26221] = {
-		base = 26220,
 		id = 26221,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			26221
@@ -24926,8 +27160,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26222] = {
-		base = 26220,
 		id = 26222,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			26222
@@ -24935,8 +27170,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26223] = {
-		base = 26220,
 		id = 26223,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			26223
@@ -24944,8 +27180,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26224] = {
-		base = 26220,
 		id = 26224,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			26224
@@ -24953,8 +27190,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26225] = {
-		base = 26220,
 		id = 26225,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "81/轮",
 		weapon_id = {
 			26225
@@ -24962,8 +27200,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26226] = {
-		base = 26220,
 		id = 26226,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "88/轮",
 		weapon_id = {
 			26226
@@ -24971,8 +27210,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26227] = {
-		base = 26220,
 		id = 26227,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "95/轮",
 		weapon_id = {
 			26227
@@ -24980,8 +27220,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26228] = {
-		base = 26220,
 		id = 26228,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "102/轮",
 		weapon_id = {
 			26228
@@ -24989,8 +27230,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26229] = {
-		base = 26220,
 		id = 26229,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "109/轮",
 		weapon_id = {
 			26229
@@ -24998,8 +27240,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26230] = {
-		base = 26220,
 		id = 26230,
+		base = 26220,
+		is_siren = 0,
 		value_1 = "117/轮",
 		weapon_id = {
 			26230
@@ -25024,6 +27267,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25038,8 +27282,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26241] = {
-		base = 26240,
 		id = 26241,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			26241
@@ -25047,8 +27292,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26242] = {
-		base = 26240,
 		id = 26242,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "64/轮",
 		weapon_id = {
 			26242
@@ -25056,8 +27302,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26243] = {
-		base = 26240,
 		id = 26243,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			26243
@@ -25065,8 +27312,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26244] = {
-		base = 26240,
 		id = 26244,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "80/轮",
 		weapon_id = {
 			26244
@@ -25074,8 +27322,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26245] = {
-		base = 26240,
 		id = 26245,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "88/轮",
 		weapon_id = {
 			26245
@@ -25083,8 +27332,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26246] = {
-		base = 26240,
 		id = 26246,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "96/轮",
 		weapon_id = {
 			26246
@@ -25092,8 +27342,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26247] = {
-		base = 26240,
 		id = 26247,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "104/轮",
 		weapon_id = {
 			26247
@@ -25101,8 +27352,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26248] = {
-		base = 26240,
 		id = 26248,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "112/轮",
 		weapon_id = {
 			26248
@@ -25110,8 +27362,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26249] = {
-		base = 26240,
 		id = 26249,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "120/轮",
 		weapon_id = {
 			26249
@@ -25119,8 +27372,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26250] = {
-		base = 26240,
 		id = 26250,
+		base = 26240,
+		is_siren = 0,
 		value_1 = "128/轮",
 		weapon_id = {
 			26250
@@ -25145,6 +27399,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25159,8 +27414,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26301] = {
-		base = 26300,
 		id = 26301,
+		base = 26300,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			26301
@@ -25168,8 +27424,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26302] = {
-		base = 26300,
 		id = 26302,
+		base = 26300,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			26302
@@ -25177,8 +27434,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26303] = {
-		base = 26300,
 		id = 26303,
+		base = 26300,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			26303
@@ -25203,6 +27461,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25217,8 +27476,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26321] = {
-		base = 26320,
 		id = 26321,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			26321
@@ -25226,8 +27486,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26322] = {
-		base = 26320,
 		id = 26322,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			26322
@@ -25235,8 +27496,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26323] = {
-		base = 26320,
 		id = 26323,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			26323
@@ -25244,8 +27506,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26324] = {
-		base = 26320,
 		id = 26324,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			26324
@@ -25253,8 +27516,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26325] = {
-		base = 26320,
 		id = 26325,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			26325
@@ -25262,8 +27526,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26326] = {
-		base = 26320,
 		id = 26326,
+		base = 26320,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			26326
@@ -25288,6 +27553,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25302,8 +27568,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26341] = {
-		base = 26340,
 		id = 26341,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			26341
@@ -25311,8 +27578,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26342] = {
-		base = 26340,
 		id = 26342,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			26342
@@ -25320,8 +27588,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26343] = {
-		base = 26340,
 		id = 26343,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			26343
@@ -25329,8 +27598,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26344] = {
-		base = 26340,
 		id = 26344,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			26344
@@ -25338,8 +27608,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26345] = {
-		base = 26340,
 		id = 26345,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			26345
@@ -25347,8 +27618,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26346] = {
-		base = 26340,
 		id = 26346,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			26346
@@ -25356,8 +27628,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26347] = {
-		base = 26340,
 		id = 26347,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			26347
@@ -25365,8 +27638,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26348] = {
-		base = 26340,
 		id = 26348,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			26348
@@ -25374,8 +27648,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26349] = {
-		base = 26340,
 		id = 26349,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			26349
@@ -25383,8 +27658,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26350] = {
-		base = 26340,
 		id = 26350,
+		base = 26340,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			26350
@@ -25409,6 +27685,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25423,8 +27700,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26401] = {
-		base = 26400,
 		id = 26401,
+		base = 26400,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			26401
@@ -25432,8 +27710,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26402] = {
-		base = 26400,
 		id = 26402,
+		base = 26400,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			26402
@@ -25441,8 +27720,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26403] = {
-		base = 26400,
 		id = 26403,
+		base = 26400,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			26403
@@ -25467,6 +27747,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25481,8 +27762,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26421] = {
-		base = 26420,
 		id = 26421,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			26421
@@ -25490,8 +27772,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26422] = {
-		base = 26420,
 		id = 26422,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			26422
@@ -25499,8 +27782,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26423] = {
-		base = 26420,
 		id = 26423,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			26423
@@ -25508,8 +27792,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26424] = {
-		base = 26420,
 		id = 26424,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			26424
@@ -25517,8 +27802,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26425] = {
-		base = 26420,
 		id = 26425,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "38/轮",
 		weapon_id = {
 			26425
@@ -25526,8 +27812,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26426] = {
-		base = 26420,
 		id = 26426,
+		base = 26420,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			26426
@@ -25552,6 +27839,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25566,8 +27854,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26441] = {
-		base = 26440,
 		id = 26441,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			26441
@@ -25575,8 +27864,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26442] = {
-		base = 26440,
 		id = 26442,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			26442
@@ -25584,8 +27874,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26443] = {
-		base = 26440,
 		id = 26443,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			26443
@@ -25593,8 +27884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26444] = {
-		base = 26440,
 		id = 26444,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			26444
@@ -25602,8 +27894,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26445] = {
-		base = 26440,
 		id = 26445,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			26445
@@ -25611,8 +27904,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26446] = {
-		base = 26440,
 		id = 26446,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			26446
@@ -25620,8 +27914,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26447] = {
-		base = 26440,
 		id = 26447,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			26447
@@ -25629,8 +27924,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26448] = {
-		base = 26440,
 		id = 26448,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			26448
@@ -25638,8 +27934,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26449] = {
-		base = 26440,
 		id = 26449,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			26449
@@ -25647,8 +27944,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26450] = {
-		base = 26440,
 		id = 26450,
+		base = 26440,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			26450
@@ -25673,6 +27971,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25687,8 +27986,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26501] = {
-		base = 26500,
 		id = 26501,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			26501
@@ -25696,8 +27996,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26502] = {
-		base = 26500,
 		id = 26502,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			26502
@@ -25705,8 +28006,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26503] = {
-		base = 26500,
 		id = 26503,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			26503
@@ -25714,8 +28016,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26504] = {
-		base = 26500,
 		id = 26504,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			26504
@@ -25723,8 +28026,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26505] = {
-		base = 26500,
 		id = 26505,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "68/轮",
 		weapon_id = {
 			26505
@@ -25732,8 +28036,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26506] = {
-		base = 26500,
 		id = 26506,
+		base = 26500,
+		is_siren = 0,
 		value_1 = "75/轮",
 		weapon_id = {
 			26506
@@ -25758,6 +28063,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25772,8 +28078,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26521] = {
-		base = 26520,
 		id = 26521,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			26521
@@ -25781,8 +28088,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26522] = {
-		base = 26520,
 		id = 26522,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			26522
@@ -25790,8 +28098,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26523] = {
-		base = 26520,
 		id = 26523,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			26523
@@ -25799,8 +28108,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26524] = {
-		base = 26520,
 		id = 26524,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			26524
@@ -25808,8 +28118,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26525] = {
-		base = 26520,
 		id = 26525,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			26525
@@ -25817,8 +28128,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26526] = {
-		base = 26520,
 		id = 26526,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "84/轮",
 		weapon_id = {
 			26526
@@ -25826,8 +28138,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26527] = {
-		base = 26520,
 		id = 26527,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "91/轮",
 		weapon_id = {
 			26527
@@ -25835,8 +28148,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26528] = {
-		base = 26520,
 		id = 26528,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "98/轮",
 		weapon_id = {
 			26528
@@ -25844,8 +28158,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26529] = {
-		base = 26520,
 		id = 26529,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "105/轮",
 		weapon_id = {
 			26529
@@ -25853,8 +28168,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26530] = {
-		base = 26520,
 		id = 26530,
+		base = 26520,
+		is_siren = 0,
 		value_1 = "112/轮",
 		weapon_id = {
 			26530
@@ -25879,6 +28195,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -25893,8 +28210,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26541] = {
-		base = 26540,
 		id = 26541,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			26541
@@ -25902,8 +28220,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26542] = {
-		base = 26540,
 		id = 26542,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			26542
@@ -25911,8 +28230,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26543] = {
-		base = 26540,
 		id = 26543,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			26543
@@ -25920,8 +28240,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26544] = {
-		base = 26540,
 		id = 26544,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "82/轮",
 		weapon_id = {
 			26544
@@ -25929,8 +28250,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26545] = {
-		base = 26540,
 		id = 26545,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "90/轮",
 		weapon_id = {
 			26545
@@ -25938,8 +28260,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26546] = {
-		base = 26540,
 		id = 26546,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "98/轮",
 		weapon_id = {
 			26546
@@ -25947,8 +28270,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26547] = {
-		base = 26540,
 		id = 26547,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "106/轮",
 		weapon_id = {
 			26547
@@ -25956,8 +28280,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26548] = {
-		base = 26540,
 		id = 26548,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "114/轮",
 		weapon_id = {
 			26548
@@ -25965,8 +28290,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26549] = {
-		base = 26540,
 		id = 26549,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "122/轮",
 		weapon_id = {
 			26549
@@ -25974,8 +28300,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26550] = {
-		base = 26540,
 		id = 26550,
+		base = 26540,
+		is_siren = 0,
 		value_1 = "130/轮",
 		weapon_id = {
 			26550
@@ -26001,6 +28328,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		attribute_3 = "hit",
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 10,
 		attribute_1 = "damage",
@@ -26015,8 +28343,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26601] = {
-		base = 26600,
 		id = 26601,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			26601
@@ -26024,8 +28353,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26602] = {
-		base = 26600,
 		id = 26602,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			26602
@@ -26033,8 +28363,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26603] = {
-		base = 26600,
 		id = 26603,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			26603
@@ -26042,8 +28373,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26604] = {
-		base = 26600,
 		id = 26604,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			26604
@@ -26051,8 +28383,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26605] = {
-		base = 26600,
 		id = 26605,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			26605
@@ -26060,8 +28393,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26606] = {
-		base = 26600,
 		id = 26606,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			26606
@@ -26069,8 +28403,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26607] = {
-		base = 26600,
 		id = 26607,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			26607
@@ -26078,8 +28413,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26608] = {
-		base = 26600,
 		id = 26608,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "84/轮",
 		weapon_id = {
 			26608
@@ -26087,8 +28423,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26609] = {
-		base = 26600,
 		id = 26609,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "90/轮",
 		weapon_id = {
 			26609
@@ -26096,8 +28433,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26610] = {
-		base = 26600,
 		id = 26610,
+		base = 26600,
+		is_siren = 0,
 		value_1 = "96/轮",
 		weapon_id = {
 			26610
@@ -26123,6 +28461,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		attribute_3 = "hit",
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 5,
 		attribute_1 = "damage",
@@ -26137,8 +28476,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[26621] = {
-		base = 26620,
 		id = 26621,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			26621
@@ -26146,8 +28486,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26622] = {
-		base = 26620,
 		id = 26622,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			26622
@@ -26155,8 +28496,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26623] = {
-		base = 26620,
 		id = 26623,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			26623
@@ -26164,8 +28506,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26624] = {
-		base = 26620,
 		id = 26624,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			26624
@@ -26173,8 +28516,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26625] = {
-		base = 26620,
 		id = 26625,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			26625
@@ -26182,8 +28526,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26626] = {
-		base = 26620,
 		id = 26626,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			26626
@@ -26191,8 +28536,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26627] = {
-		base = 26620,
 		id = 26627,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			26627
@@ -26200,8 +28546,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26628] = {
-		base = 26620,
 		id = 26628,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "84/轮",
 		weapon_id = {
 			26628
@@ -26209,8 +28556,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26629] = {
-		base = 26620,
 		id = 26629,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "90/轮",
 		weapon_id = {
 			26629
@@ -26218,8 +28566,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26630] = {
-		base = 26620,
 		id = 26630,
+		base = 26620,
+		is_siren = 0,
 		value_1 = "96/轮",
 		weapon_id = {
 			26630
@@ -26244,6 +28593,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26259,8 +28609,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27001] = {
-		base = 27000,
 		id = 27001,
+		base = 27000,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			27001,
@@ -26269,8 +28620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27002] = {
-		base = 27000,
 		id = 27002,
+		base = 27000,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			27002,
@@ -26279,8 +28631,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27003] = {
-		base = 27000,
 		id = 27003,
+		base = 27000,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			27003,
@@ -26306,6 +28659,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26321,8 +28675,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27021] = {
-		base = 27020,
 		id = 27021,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			27021,
@@ -26331,8 +28686,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27022] = {
-		base = 27020,
 		id = 27022,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			27022,
@@ -26341,8 +28697,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27023] = {
-		base = 27020,
 		id = 27023,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			27023,
@@ -26351,8 +28708,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27024] = {
-		base = 27020,
 		id = 27024,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			27024,
@@ -26361,8 +28719,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27025] = {
-		base = 27020,
 		id = 27025,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			27025,
@@ -26371,8 +28730,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27026] = {
-		base = 27020,
 		id = 27026,
+		base = 27020,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			27026,
@@ -26398,6 +28758,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26413,8 +28774,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27041] = {
-		base = 27040,
 		id = 27041,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			27041,
@@ -26423,8 +28785,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27042] = {
-		base = 27040,
 		id = 27042,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			27042,
@@ -26433,8 +28796,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27043] = {
-		base = 27040,
 		id = 27043,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			27043,
@@ -26443,8 +28807,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27044] = {
-		base = 27040,
 		id = 27044,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			27044,
@@ -26453,8 +28818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27045] = {
-		base = 27040,
 		id = 27045,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			27045,
@@ -26463,8 +28829,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27046] = {
-		base = 27040,
 		id = 27046,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			27046,
@@ -26473,8 +28840,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27047] = {
-		base = 27040,
 		id = 27047,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			27047,
@@ -26483,8 +28851,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27048] = {
-		base = 27040,
 		id = 27048,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			27048,
@@ -26493,8 +28862,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27049] = {
-		base = 27040,
 		id = 27049,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "73/轮",
 		weapon_id = {
 			27049,
@@ -26503,8 +28873,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27050] = {
-		base = 27040,
 		id = 27050,
+		base = 27040,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			27050,
@@ -26530,6 +28901,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26545,8 +28917,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27101] = {
-		base = 27100,
 		id = 27101,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			27101,
@@ -26555,8 +28928,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27102] = {
-		base = 27100,
 		id = 27102,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			27102,
@@ -26565,8 +28939,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27103] = {
-		base = 27100,
 		id = 27103,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			27103,
@@ -26575,8 +28950,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27104] = {
-		base = 27100,
 		id = 27104,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			27104,
@@ -26585,8 +28961,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27105] = {
-		base = 27100,
 		id = 27105,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			27105,
@@ -26595,8 +28972,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27106] = {
-		base = 27100,
 		id = 27106,
+		base = 27100,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			27106,
@@ -26622,6 +29000,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26637,8 +29016,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27121] = {
-		base = 27120,
 		id = 27121,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			27121,
@@ -26647,8 +29027,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27122] = {
-		base = 27120,
 		id = 27122,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			27122,
@@ -26657,8 +29038,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27123] = {
-		base = 27120,
 		id = 27123,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			27123,
@@ -26667,8 +29049,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27124] = {
-		base = 27120,
 		id = 27124,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			27124,
@@ -26677,8 +29060,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27125] = {
-		base = 27120,
 		id = 27125,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "52/轮",
 		weapon_id = {
 			27125,
@@ -26687,8 +29071,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27126] = {
-		base = 27120,
 		id = 27126,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			27126,
@@ -26697,8 +29082,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27127] = {
-		base = 27120,
 		id = 27127,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			27127,
@@ -26707,8 +29093,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27128] = {
-		base = 27120,
 		id = 27128,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			27128,
@@ -26717,8 +29104,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27129] = {
-		base = 27120,
 		id = 27129,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			27129,
@@ -26727,8 +29115,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27130] = {
-		base = 27120,
 		id = 27130,
+		base = 27120,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			27130,
@@ -26754,6 +29143,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26769,8 +29159,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27141] = {
-		base = 27140,
 		id = 27141,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			27141,
@@ -26779,8 +29170,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27142] = {
-		base = 27140,
 		id = 27142,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			27142,
@@ -26789,8 +29181,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27143] = {
-		base = 27140,
 		id = 27143,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			27143,
@@ -26799,8 +29192,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27144] = {
-		base = 27140,
 		id = 27144,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			27144,
@@ -26809,8 +29203,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27145] = {
-		base = 27140,
 		id = 27145,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			27145,
@@ -26819,8 +29214,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27146] = {
-		base = 27140,
 		id = 27146,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			27146,
@@ -26829,8 +29225,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27147] = {
-		base = 27140,
 		id = 27147,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			27147,
@@ -26839,8 +29236,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27148] = {
-		base = 27140,
 		id = 27148,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			27148,
@@ -26849,8 +29247,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27149] = {
-		base = 27140,
 		id = 27149,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "75/轮",
 		weapon_id = {
 			27149,
@@ -26859,8 +29258,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27150] = {
-		base = 27140,
 		id = 27150,
+		base = 27140,
+		is_siren = 0,
 		value_1 = "80/轮",
 		weapon_id = {
 			27150,
@@ -26884,8 +29284,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -26900,8 +29301,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27201] = {
-		base = 27200,
 		id = 27201,
+		base = 27200,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			27201,
@@ -26910,8 +29312,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27202] = {
-		base = 27200,
 		id = 27202,
+		base = 27200,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			27202,
@@ -26920,8 +29323,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27203] = {
-		base = 27200,
 		id = 27203,
+		base = 27200,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			27203,
@@ -26947,6 +29351,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -26962,8 +29367,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27221] = {
-		base = 27220,
 		id = 27221,
+		base = 27220,
+		is_siren = 0,
 		value_1 = "15/轮",
 		weapon_id = {
 			27221,
@@ -26972,8 +29378,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27222] = {
-		base = 27220,
 		id = 27222,
+		base = 27220,
+		is_siren = 0,
 		value_1 = "17/轮",
 		weapon_id = {
 			27222,
@@ -26982,8 +29389,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27223] = {
-		base = 27220,
 		id = 27223,
+		base = 27220,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			27223,
@@ -27009,6 +29417,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27024,8 +29433,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27241] = {
-		base = 27240,
 		id = 27241,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			27241,
@@ -27034,8 +29444,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27242] = {
-		base = 27240,
 		id = 27242,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			27242,
@@ -27044,8 +29455,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27243] = {
-		base = 27240,
 		id = 27243,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			27243,
@@ -27054,8 +29466,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27244] = {
-		base = 27240,
 		id = 27244,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			27244,
@@ -27064,8 +29477,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27245] = {
-		base = 27240,
 		id = 27245,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			27245,
@@ -27074,8 +29488,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27246] = {
-		base = 27240,
 		id = 27246,
+		base = 27240,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			27246,
@@ -27101,6 +29516,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27116,8 +29532,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[27301] = {
-		base = 27300,
 		id = 27301,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			27301,
@@ -27126,8 +29543,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27302] = {
-		base = 27300,
 		id = 27302,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			27302,
@@ -27136,8 +29554,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27303] = {
-		base = 27300,
 		id = 27303,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			27303,
@@ -27146,8 +29565,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27304] = {
-		base = 27300,
 		id = 27304,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			27304,
@@ -27156,8 +29576,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27305] = {
-		base = 27300,
 		id = 27305,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			27305,
@@ -27166,8 +29587,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27306] = {
-		base = 27300,
 		id = 27306,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			27306,
@@ -27176,8 +29598,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27307] = {
-		base = 27300,
 		id = 27307,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "71/轮",
 		weapon_id = {
 			27307,
@@ -27186,8 +29609,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27308] = {
-		base = 27300,
 		id = 27308,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "76/轮",
 		weapon_id = {
 			27308,
@@ -27196,8 +29620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27309] = {
-		base = 27300,
 		id = 27309,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "81/轮",
 		weapon_id = {
 			27309,
@@ -27206,8 +29631,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[27310] = {
-		base = 27300,
 		id = 27310,
+		base = 27300,
+		is_siren = 0,
 		value_1 = "86/轮",
 		weapon_id = {
 			27310,
@@ -27233,6 +29659,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27247,8 +29674,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28001] = {
-		base = 28000,
 		id = 28001,
+		base = 28000,
+		is_siren = 0,
 		value_1 = "104 x 2",
 		weapon_id = {
 			28001
@@ -27256,8 +29684,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28002] = {
-		base = 28000,
 		id = 28002,
+		base = 28000,
+		is_siren = 0,
 		value_1 = "118 x 2",
 		weapon_id = {
 			28002
@@ -27265,8 +29694,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28003] = {
-		base = 28000,
 		id = 28003,
+		base = 28000,
+		is_siren = 0,
 		value_1 = "132 x 2",
 		weapon_id = {
 			28003
@@ -27291,6 +29721,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27305,8 +29736,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28021] = {
-		base = 28020,
 		id = 28021,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "112 x 2",
 		weapon_id = {
 			28021
@@ -27314,8 +29746,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28022] = {
-		base = 28020,
 		id = 28022,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "128 x 2",
 		weapon_id = {
 			28022
@@ -27323,8 +29756,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28023] = {
-		base = 28020,
 		id = 28023,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			28023
@@ -27332,8 +29766,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28024] = {
-		base = 28020,
 		id = 28024,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "160 x 2",
 		weapon_id = {
 			28024
@@ -27341,8 +29776,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28025] = {
-		base = 28020,
 		id = 28025,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "176 x 2",
 		weapon_id = {
 			28025
@@ -27350,8 +29786,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28026] = {
-		base = 28020,
 		id = 28026,
+		base = 28020,
+		is_siren = 0,
 		value_1 = "192 x 2",
 		weapon_id = {
 			28026
@@ -27376,6 +29813,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27390,8 +29828,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28041] = {
-		base = 28040,
 		id = 28041,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "126 x 2",
 		weapon_id = {
 			28041
@@ -27399,8 +29838,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28042] = {
-		base = 28040,
 		id = 28042,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			28042
@@ -27408,8 +29848,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28043] = {
-		base = 28040,
 		id = 28043,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "162 x 2",
 		weapon_id = {
 			28043
@@ -27417,8 +29858,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28044] = {
-		base = 28040,
 		id = 28044,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "180 x 2",
 		weapon_id = {
 			28044
@@ -27426,8 +29868,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28045] = {
-		base = 28040,
 		id = 28045,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "198 x 2",
 		weapon_id = {
 			28045
@@ -27435,8 +29878,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28046] = {
-		base = 28040,
 		id = 28046,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "216 x 2",
 		weapon_id = {
 			28046
@@ -27444,8 +29888,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28047] = {
-		base = 28040,
 		id = 28047,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "234 x 2",
 		weapon_id = {
 			28047
@@ -27453,8 +29898,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28048] = {
-		base = 28040,
 		id = 28048,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "252 x 2",
 		weapon_id = {
 			28048
@@ -27462,8 +29908,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28049] = {
-		base = 28040,
 		id = 28049,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "270 x 2",
 		weapon_id = {
 			28049
@@ -27471,8 +29918,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28050] = {
-		base = 28040,
 		id = 28050,
+		base = 28040,
+		is_siren = 0,
 		value_1 = "288 x 2",
 		weapon_id = {
 			28050
@@ -27497,6 +29945,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "由服役于皇家方舟号的818中队所驾驶的剑鱼式鱼雷轰炸机，曾经在围捕俾斯麦的战斗中完成了对俾斯麦的关键雷击",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27513,8 +29962,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28061] = {
-		base = 28060,
 		id = 28061,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "115 x 3",
 		weapon_id = {
 			28061
@@ -27522,8 +29972,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28062] = {
-		base = 28060,
 		id = 28062,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "131 x 3",
 		weapon_id = {
 			28062
@@ -27531,8 +29982,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28063] = {
-		base = 28060,
 		id = 28063,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "148 x 3",
 		weapon_id = {
 			28063
@@ -27540,8 +29992,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28064] = {
-		base = 28060,
 		id = 28064,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "164 x 3",
 		weapon_id = {
 			28064
@@ -27549,8 +30002,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28065] = {
-		base = 28060,
 		id = 28065,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "180 x 3",
 		weapon_id = {
 			28065
@@ -27558,8 +30012,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28066] = {
-		base = 28060,
 		id = 28066,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "197 x 3",
 		weapon_id = {
 			28066
@@ -27567,8 +30022,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28067] = {
-		base = 28060,
 		id = 28067,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "213 x 3",
 		weapon_id = {
 			28067
@@ -27576,8 +30032,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28068] = {
-		base = 28060,
 		id = 28068,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "229 x 3",
 		weapon_id = {
 			28068
@@ -27585,8 +30042,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28069] = {
-		base = 28060,
 		id = 28069,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "246 x 3",
 		weapon_id = {
 			28069
@@ -27594,8 +30052,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28070] = {
-		base = 28060,
 		id = 28070,
+		base = 28060,
+		is_siren = 0,
 		value_1 = "264 x 3",
 		weapon_id = {
 			28070
@@ -27620,6 +30079,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27634,8 +30094,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28101] = {
-		base = 28100,
 		id = 28101,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "104 x 3",
 		weapon_id = {
 			28101
@@ -27643,8 +30104,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28102] = {
-		base = 28100,
 		id = 28102,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			28102
@@ -27652,8 +30114,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28103] = {
-		base = 28100,
 		id = 28103,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			28103
@@ -27661,8 +30124,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28104] = {
-		base = 28100,
 		id = 28104,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "146 x 3",
 		weapon_id = {
 			28104
@@ -27670,8 +30134,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28105] = {
-		base = 28100,
 		id = 28105,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "160 x 3",
 		weapon_id = {
 			28105
@@ -27679,8 +30144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28106] = {
-		base = 28100,
 		id = 28106,
+		base = 28100,
+		is_siren = 0,
 		value_1 = "174 x 3",
 		weapon_id = {
 			28106
@@ -27705,6 +30171,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27719,8 +30186,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28121] = {
-		base = 28120,
 		id = 28121,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			28121
@@ -27728,8 +30196,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28122] = {
-		base = 28120,
 		id = 28122,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "128 x 3",
 		weapon_id = {
 			28122
@@ -27737,8 +30206,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28123] = {
-		base = 28120,
 		id = 28123,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			28123
@@ -27746,8 +30216,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28124] = {
-		base = 28120,
 		id = 28124,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "160 x 3",
 		weapon_id = {
 			28124
@@ -27755,8 +30226,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28125] = {
-		base = 28120,
 		id = 28125,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "176 x 3",
 		weapon_id = {
 			28125
@@ -27764,8 +30236,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28126] = {
-		base = 28120,
 		id = 28126,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "192 x 3",
 		weapon_id = {
 			28126
@@ -27773,8 +30246,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28127] = {
-		base = 28120,
 		id = 28127,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "208 x 3",
 		weapon_id = {
 			28127
@@ -27782,8 +30256,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28128] = {
-		base = 28120,
 		id = 28128,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "224 x 3",
 		weapon_id = {
 			28128
@@ -27791,8 +30266,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28129] = {
-		base = 28120,
 		id = 28129,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "240 x 3",
 		weapon_id = {
 			28129
@@ -27800,8 +30276,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28130] = {
-		base = 28120,
 		id = 28130,
+		base = 28120,
+		is_siren = 0,
 		value_1 = "256 x 3",
 		weapon_id = {
 			28130
@@ -27826,6 +30303,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27840,8 +30318,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28141] = {
-		base = 28140,
 		id = 28141,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "126 x 3",
 		weapon_id = {
 			28141
@@ -27849,8 +30328,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28142] = {
-		base = 28140,
 		id = 28142,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			28142
@@ -27858,8 +30338,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28143] = {
-		base = 28140,
 		id = 28143,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "162 x 3",
 		weapon_id = {
 			28143
@@ -27867,8 +30348,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28144] = {
-		base = 28140,
 		id = 28144,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "180 x 3",
 		weapon_id = {
 			28144
@@ -27876,8 +30358,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28145] = {
-		base = 28140,
 		id = 28145,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "198 x 3",
 		weapon_id = {
 			28145
@@ -27885,8 +30368,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28146] = {
-		base = 28140,
 		id = 28146,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "216 x 3",
 		weapon_id = {
 			28146
@@ -27894,8 +30378,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28147] = {
-		base = 28140,
 		id = 28147,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "234 x 3",
 		weapon_id = {
 			28147
@@ -27903,8 +30388,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28148] = {
-		base = 28140,
 		id = 28148,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "252 x 3",
 		weapon_id = {
 			28148
@@ -27912,8 +30398,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28149] = {
-		base = 28140,
 		id = 28149,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "270 x 3",
 		weapon_id = {
 			28149
@@ -27921,8 +30408,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28150] = {
-		base = 28140,
 		id = 28150,
+		base = 28140,
+		is_siren = 0,
 		value_1 = "288 x 3",
 		weapon_id = {
 			28150
@@ -27947,6 +30435,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -27961,8 +30450,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[28201] = {
-		base = 28200,
 		id = 28201,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "126 x 3",
 		weapon_id = {
 			28201
@@ -27970,8 +30460,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28202] = {
-		base = 28200,
 		id = 28202,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			28202
@@ -27979,8 +30470,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28203] = {
-		base = 28200,
 		id = 28203,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "162 x 3",
 		weapon_id = {
 			28203
@@ -27988,8 +30480,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28204] = {
-		base = 28200,
 		id = 28204,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "180 x 3",
 		weapon_id = {
 			28204
@@ -27997,8 +30490,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28205] = {
-		base = 28200,
 		id = 28205,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "198 x 3",
 		weapon_id = {
 			28205
@@ -28006,8 +30500,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28206] = {
-		base = 28200,
 		id = 28206,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "216 x 3",
 		weapon_id = {
 			28206
@@ -28015,8 +30510,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28207] = {
-		base = 28200,
 		id = 28207,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "234 x 3",
 		weapon_id = {
 			28207
@@ -28024,8 +30520,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28208] = {
-		base = 28200,
 		id = 28208,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "252 x 3",
 		weapon_id = {
 			28208
@@ -28033,8 +30530,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28209] = {
-		base = 28200,
 		id = 28209,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "270 x 3",
 		weapon_id = {
 			28209
@@ -28042,8 +30540,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[28210] = {
-		base = 28200,
 		id = 28210,
+		base = 28200,
+		is_siren = 0,
 		value_1 = "288 x 3",
 		weapon_id = {
 			28210
@@ -28066,8 +30565,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "8",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -28081,8 +30581,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29001] = {
-		base = 29000,
 		id = 29001,
+		base = 29000,
+		is_siren = 0,
 		value_1 = "138 x 1",
 		weapon_id = {
 			29001
@@ -28090,8 +30591,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29002] = {
-		base = 29000,
 		id = 29002,
+		base = 29000,
+		is_siren = 0,
 		value_1 = "156 x 1",
 		weapon_id = {
 			29002
@@ -28099,8 +30601,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29003] = {
-		base = 29000,
 		id = 29003,
+		base = 29000,
+		is_siren = 0,
 		value_1 = "174 x 1",
 		weapon_id = {
 			29003
@@ -28125,6 +30628,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28139,8 +30643,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29021] = {
-		base = 29020,
 		id = 29021,
+		base = 29020,
+		is_siren = 0,
 		value_1 = "152 x 1",
 		weapon_id = {
 			29021
@@ -28148,8 +30653,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29022] = {
-		base = 29020,
 		id = 29022,
+		base = 29020,
+		is_siren = 0,
 		value_1 = "171 x 1",
 		weapon_id = {
 			29022
@@ -28157,8 +30663,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29023] = {
-		base = 29020,
 		id = 29023,
+		base = 29020,
+		is_siren = 0,
 		value_1 = "191 x 1",
 		weapon_id = {
 			29023
@@ -28183,6 +30690,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28197,8 +30705,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29041] = {
-		base = 29040,
 		id = 29041,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "165 x 1",
 		weapon_id = {
 			29041
@@ -28206,8 +30715,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29042] = {
-		base = 29040,
 		id = 29042,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "186 x 1",
 		weapon_id = {
 			29042
@@ -28215,8 +30725,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29043] = {
-		base = 29040,
 		id = 29043,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "207 x 1",
 		weapon_id = {
 			29043
@@ -28224,8 +30735,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29044] = {
-		base = 29040,
 		id = 29044,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "228 x 1",
 		weapon_id = {
 			29044
@@ -28233,8 +30745,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29045] = {
-		base = 29040,
 		id = 29045,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "249 x 1",
 		weapon_id = {
 			29045
@@ -28242,8 +30755,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29046] = {
-		base = 29040,
 		id = 29046,
+		base = 29040,
+		is_siren = 0,
 		value_1 = "270 x 1",
 		weapon_id = {
 			29046
@@ -28268,6 +30782,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28282,8 +30797,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29101] = {
-		base = 29100,
 		id = 29101,
+		base = 29100,
+		is_siren = 0,
 		value_1 = "65 x 2",
 		weapon_id = {
 			29101
@@ -28291,8 +30807,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29102] = {
-		base = 29100,
 		id = 29102,
+		base = 29100,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			29102
@@ -28300,8 +30817,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29103] = {
-		base = 29100,
 		id = 29103,
+		base = 29100,
+		is_siren = 0,
 		value_1 = "81 x 2",
 		weapon_id = {
 			29103
@@ -28326,6 +30844,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28340,8 +30859,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29121] = {
-		base = 29120,
 		id = 29121,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			29121
@@ -28349,8 +30869,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29122] = {
-		base = 29120,
 		id = 29122,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "81 x 2",
 		weapon_id = {
 			29122
@@ -28358,8 +30879,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29123] = {
-		base = 29120,
 		id = 29123,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			29123
@@ -28367,8 +30889,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29124] = {
-		base = 29120,
 		id = 29124,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "99 x 2",
 		weapon_id = {
 			29124
@@ -28376,8 +30899,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29125] = {
-		base = 29120,
 		id = 29125,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			29125
@@ -28385,8 +30909,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29126] = {
-		base = 29120,
 		id = 29126,
+		base = 29120,
+		is_siren = 0,
 		value_1 = "117 x 2",
 		weapon_id = {
 			29126
@@ -28411,6 +30936,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28425,8 +30951,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29141] = {
-		base = 29140,
 		id = 29141,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "78 x 2",
 		weapon_id = {
 			29141
@@ -28434,8 +30961,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29142] = {
-		base = 29140,
 		id = 29142,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "89 x 2",
 		weapon_id = {
 			29142
@@ -28443,8 +30971,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29143] = {
-		base = 29140,
 		id = 29143,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "99 x 2",
 		weapon_id = {
 			29143
@@ -28452,8 +30981,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29144] = {
-		base = 29140,
 		id = 29144,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "110 x 2",
 		weapon_id = {
 			29144
@@ -28461,8 +30991,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29145] = {
-		base = 29140,
 		id = 29145,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "120 x 2",
 		weapon_id = {
 			29145
@@ -28470,8 +31001,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29146] = {
-		base = 29140,
 		id = 29146,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "131 x 2",
 		weapon_id = {
 			29146
@@ -28479,8 +31011,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29147] = {
-		base = 29140,
 		id = 29147,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "141 x 2",
 		weapon_id = {
 			29147
@@ -28488,8 +31021,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29148] = {
-		base = 29140,
 		id = 29148,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "152 x 2",
 		weapon_id = {
 			29148
@@ -28497,8 +31031,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29149] = {
-		base = 29140,
 		id = 29149,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "162 x 2",
 		weapon_id = {
 			29149
@@ -28506,8 +31041,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29150] = {
-		base = 29140,
 		id = 29150,
+		base = 29140,
+		is_siren = 0,
 		value_1 = "173 x 2",
 		weapon_id = {
 			29150
@@ -28532,6 +31068,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 2,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28546,8 +31083,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[29201] = {
-		base = 29200,
 		id = 29201,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "185 x 2",
 		weapon_id = {
 			29201
@@ -28555,8 +31093,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29202] = {
-		base = 29200,
 		id = 29202,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "209 x 2",
 		weapon_id = {
 			29202
@@ -28564,8 +31103,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29203] = {
-		base = 29200,
 		id = 29203,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "233 x 2",
 		weapon_id = {
 			29203
@@ -28573,8 +31113,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29204] = {
-		base = 29200,
 		id = 29204,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "257 x 2",
 		weapon_id = {
 			29204
@@ -28582,8 +31123,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29205] = {
-		base = 29200,
 		id = 29205,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "281 x 2",
 		weapon_id = {
 			29205
@@ -28591,8 +31133,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29206] = {
-		base = 29200,
 		id = 29206,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "305 x 2",
 		weapon_id = {
 			29206
@@ -28600,8 +31143,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29207] = {
-		base = 29200,
 		id = 29207,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "329 x 2",
 		weapon_id = {
 			29207
@@ -28609,8 +31153,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29208] = {
-		base = 29200,
 		id = 29208,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "353 x 2",
 		weapon_id = {
 			29208
@@ -28618,8 +31163,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29209] = {
-		base = 29200,
 		id = 29209,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "377 x 2",
 		weapon_id = {
 			29209
@@ -28627,8 +31173,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29210] = {
-		base = 29200,
 		id = 29210,
+		base = 29200,
+		is_siren = 0,
 		value_1 = "402 x 2",
 		weapon_id = {
 			29210
@@ -28653,6 +31200,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -28672,8 +31220,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[30001] = {
-		base = 30000,
 		id = 30001,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "45 x 2",
 		weapon_id = {
 			30001
@@ -28681,8 +31230,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[30002] = {
-		base = 30000,
 		id = 30002,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "50 x 2",
 		weapon_id = {
 			30002
@@ -28690,8 +31240,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[30003] = {
-		base = 30000,
 		id = 30003,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			30003
@@ -28699,8 +31250,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[30004] = {
-		base = 30000,
 		id = 30004,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			30004
@@ -28708,8 +31260,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[30005] = {
-		base = 30000,
 		id = 30005,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			30005
@@ -28717,8 +31270,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[30006] = {
-		base = 30000,
 		id = 30006,
+		base = 30000,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			30006
@@ -28744,6 +31298,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		attribute_3 = "antiaircraft",
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 8,
 		attribute_1 = "damage",
@@ -28767,14 +31322,16 @@ pg.equip_data_statistics = {
 	[31001] = {
 		id = 31001,
 		base = 31000,
+		is_siren = 0,
 		weapon_id = {
 			31001
 		},
 		property_rate = {}
 	},
 	[31002] = {
-		base = 31000,
 		id = 31002,
+		base = 31000,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			31002
@@ -28782,8 +31339,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31003] = {
-		base = 31000,
 		id = 31003,
+		base = 31000,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			31003
@@ -28791,8 +31349,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31004] = {
-		base = 31000,
 		id = 31004,
+		base = 31000,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			31004
@@ -28800,8 +31359,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31005] = {
-		base = 31000,
 		id = 31005,
+		base = 31000,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			31005
@@ -28809,8 +31369,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31006] = {
-		base = 31000,
 		id = 31006,
+		base = 31000,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			31006
@@ -28836,6 +31397,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		attribute_3 = "antiaircraft",
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 16,
 		attribute_1 = "damage",
@@ -28859,14 +31421,16 @@ pg.equip_data_statistics = {
 	[31021] = {
 		id = 31021,
 		base = 31020,
+		is_siren = 0,
 		weapon_id = {
 			31021
 		},
 		property_rate = {}
 	},
 	[31022] = {
-		base = 31020,
 		id = 31022,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			31022
@@ -28874,8 +31438,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31023] = {
-		base = 31020,
 		id = 31023,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			31023
@@ -28883,8 +31448,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31024] = {
-		base = 31020,
 		id = 31024,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			31024
@@ -28892,8 +31458,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31025] = {
-		base = 31020,
 		id = 31025,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			31025
@@ -28901,8 +31468,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31026] = {
-		base = 31020,
 		id = 31026,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			31026
@@ -28910,8 +31478,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31027] = {
-		base = 31020,
 		id = 31027,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			31027
@@ -28919,8 +31488,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31028] = {
-		base = 31020,
 		id = 31028,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			31028
@@ -28928,8 +31498,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31029] = {
-		base = 31020,
 		id = 31029,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			31029
@@ -28937,8 +31508,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31030] = {
-		base = 31020,
 		id = 31030,
+		base = 31020,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			31030
@@ -28964,6 +31536,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		attribute_3 = "antiaircraft",
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 30,
 		attribute_1 = "damage",
@@ -28987,14 +31560,16 @@ pg.equip_data_statistics = {
 	[31041] = {
 		id = 31041,
 		base = 31040,
+		is_siren = 0,
 		weapon_id = {
 			31041
 		},
 		property_rate = {}
 	},
 	[31042] = {
-		base = 31040,
 		id = 31042,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			31042
@@ -29002,8 +31577,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31043] = {
-		base = 31040,
 		id = 31043,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			31043
@@ -29011,8 +31587,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31044] = {
-		base = 31040,
 		id = 31044,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			31044
@@ -29020,8 +31597,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31045] = {
-		base = 31040,
 		id = 31045,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			31045
@@ -29029,8 +31607,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31046] = {
-		base = 31040,
 		id = 31046,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			31046
@@ -29038,8 +31617,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31047] = {
-		base = 31040,
 		id = 31047,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			31047
@@ -29047,8 +31627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31048] = {
-		base = 31040,
 		id = 31048,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			31048
@@ -29056,8 +31637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31049] = {
-		base = 31040,
 		id = 31049,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			31049
@@ -29065,8 +31647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31050] = {
-		base = 31040,
 		id = 31050,
+		base = 31040,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			31050
@@ -29089,8 +31672,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "5°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -29113,14 +31697,16 @@ pg.equip_data_statistics = {
 	[31101] = {
 		id = 31101,
 		base = 31100,
+		is_siren = 0,
 		weapon_id = {
 			31101
 		},
 		property_rate = {}
 	},
 	[31102] = {
-		base = 31100,
 		id = 31102,
+		base = 31100,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31102
@@ -29128,8 +31714,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31103] = {
-		base = 31100,
 		id = 31103,
+		base = 31100,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31103
@@ -29154,6 +31741,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29177,14 +31765,16 @@ pg.equip_data_statistics = {
 	[31121] = {
 		id = 31121,
 		base = 31120,
+		is_siren = 0,
 		weapon_id = {
 			31121
 		},
 		property_rate = {}
 	},
 	[31122] = {
-		base = 31120,
 		id = 31122,
+		base = 31120,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31122
@@ -29192,8 +31782,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31123] = {
-		base = 31120,
 		id = 31123,
+		base = 31120,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31123
@@ -29218,6 +31809,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29241,14 +31833,16 @@ pg.equip_data_statistics = {
 	[31141] = {
 		id = 31141,
 		base = 31140,
+		is_siren = 0,
 		weapon_id = {
 			31141
 		},
 		property_rate = {}
 	},
 	[31142] = {
-		base = 31140,
 		id = 31142,
+		base = 31140,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31142
@@ -29256,8 +31850,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31143] = {
-		base = 31140,
 		id = 31143,
+		base = 31140,
+		is_siren = 0,
 		value_1 = "4 x 1",
 		weapon_id = {
 			31143
@@ -29265,8 +31860,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31144] = {
-		base = 31140,
 		id = 31144,
+		base = 31140,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			31144
@@ -29274,8 +31870,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31145] = {
-		base = 31140,
 		id = 31145,
+		base = 31140,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			31145
@@ -29283,8 +31880,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31146] = {
-		base = 31140,
 		id = 31146,
+		base = 31140,
+		is_siren = 0,
 		value_1 = "8 x 1",
 		weapon_id = {
 			31146
@@ -29309,6 +31907,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29332,14 +31931,16 @@ pg.equip_data_statistics = {
 	[31201] = {
 		id = 31201,
 		base = 31200,
+		is_siren = 0,
 		weapon_id = {
 			31201
 		},
 		property_rate = {}
 	},
 	[31202] = {
-		base = 31200,
 		id = 31202,
+		base = 31200,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31202
@@ -29347,8 +31948,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31203] = {
-		base = 31200,
 		id = 31203,
+		base = 31200,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31203
@@ -29373,6 +31975,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29396,14 +31999,16 @@ pg.equip_data_statistics = {
 	[31221] = {
 		id = 31221,
 		base = 31220,
+		is_siren = 0,
 		weapon_id = {
 			31221
 		},
 		property_rate = {}
 	},
 	[31222] = {
-		base = 31220,
 		id = 31222,
+		base = 31220,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31222
@@ -29411,8 +32016,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31223] = {
-		base = 31220,
 		id = 31223,
+		base = 31220,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31223
@@ -29420,8 +32026,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31224] = {
-		base = 31220,
 		id = 31224,
+		base = 31220,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			31224
@@ -29429,8 +32036,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31225] = {
-		base = 31220,
 		id = 31225,
+		base = 31220,
+		is_siren = 0,
 		value_1 = "7 x 2",
 		weapon_id = {
 			31225
@@ -29438,8 +32046,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31226] = {
-		base = 31220,
 		id = 31226,
+		base = 31220,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			31226
@@ -29464,6 +32073,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29487,14 +32097,16 @@ pg.equip_data_statistics = {
 	[31241] = {
 		id = 31241,
 		base = 31240,
+		is_siren = 0,
 		weapon_id = {
 			31241
 		},
 		property_rate = {}
 	},
 	[31242] = {
-		base = 31240,
 		id = 31242,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31242
@@ -29502,8 +32114,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31243] = {
-		base = 31240,
 		id = 31243,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "5 x 2",
 		weapon_id = {
 			31243
@@ -29511,8 +32124,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31244] = {
-		base = 31240,
 		id = 31244,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			31244
@@ -29520,8 +32134,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31245] = {
-		base = 31240,
 		id = 31245,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "8 x 2",
 		weapon_id = {
 			31245
@@ -29529,8 +32144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31246] = {
-		base = 31240,
 		id = 31246,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "9 x 2",
 		weapon_id = {
 			31246
@@ -29538,8 +32154,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31247] = {
-		base = 31240,
 		id = 31247,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			31247
@@ -29547,8 +32164,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31248] = {
-		base = 31240,
 		id = 31248,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			31248
@@ -29556,8 +32174,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31249] = {
-		base = 31240,
 		id = 31249,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "11 x 2",
 		weapon_id = {
 			31249
@@ -29565,8 +32184,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31250] = {
-		base = 31240,
 		id = 31250,
+		base = 31240,
+		is_siren = 0,
 		value_1 = "12 x 2",
 		weapon_id = {
 			31250
@@ -29589,8 +32209,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "25°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -29610,8 +32231,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32001] = {
-		base = 32000,
 		id = 32001,
+		base = 32000,
+		is_siren = 0,
 		value_1 = "6 x 3",
 		weapon_id = {
 			32001
@@ -29619,8 +32241,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32002] = {
-		base = 32000,
 		id = 32002,
+		base = 32000,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			32002
@@ -29628,8 +32251,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32003] = {
-		base = 32000,
 		id = 32003,
+		base = 32000,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			32003
@@ -29654,6 +32278,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29674,8 +32299,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32021] = {
-		base = 32020,
 		id = 32021,
+		base = 32020,
+		is_siren = 0,
 		value_1 = "7 x 3",
 		weapon_id = {
 			32021
@@ -29683,8 +32309,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32022] = {
-		base = 32020,
 		id = 32022,
+		base = 32020,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			32022
@@ -29692,8 +32319,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32023] = {
-		base = 32020,
 		id = 32023,
+		base = 32020,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			32023
@@ -29718,6 +32346,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29738,8 +32367,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32041] = {
-		base = 32040,
 		id = 32041,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			32041
@@ -29747,8 +32377,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32042] = {
-		base = 32040,
 		id = 32042,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			32042
@@ -29756,8 +32387,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32043] = {
-		base = 32040,
 		id = 32043,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			32043
@@ -29765,8 +32397,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32044] = {
-		base = 32040,
 		id = 32044,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			32044
@@ -29774,8 +32407,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32045] = {
-		base = 32040,
 		id = 32045,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			32045
@@ -29783,8 +32417,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32046] = {
-		base = 32040,
 		id = 32046,
+		base = 32040,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			32046
@@ -29809,6 +32444,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29829,8 +32465,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32101] = {
-		base = 32100,
 		id = 32101,
+		base = 32100,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			32101
@@ -29838,8 +32475,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32102] = {
-		base = 32100,
 		id = 32102,
+		base = 32100,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			32102
@@ -29847,8 +32485,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32103] = {
-		base = 32100,
 		id = 32103,
+		base = 32100,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			32103
@@ -29873,6 +32512,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29893,8 +32533,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32121] = {
-		base = 32120,
 		id = 32121,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			32121
@@ -29902,8 +32543,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32122] = {
-		base = 32120,
 		id = 32122,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			32122
@@ -29911,8 +32553,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32123] = {
-		base = 32120,
 		id = 32123,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			32123
@@ -29920,8 +32563,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32124] = {
-		base = 32120,
 		id = 32124,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			32124
@@ -29929,8 +32573,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32125] = {
-		base = 32120,
 		id = 32125,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			32125
@@ -29938,8 +32583,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32126] = {
-		base = 32120,
 		id = 32126,
+		base = 32120,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			32126
@@ -29964,6 +32610,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -29984,8 +32631,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32141] = {
-		base = 32140,
 		id = 32141,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			32141
@@ -29993,8 +32641,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32142] = {
-		base = 32140,
 		id = 32142,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			32142
@@ -30002,8 +32651,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32143] = {
-		base = 32140,
 		id = 32143,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			32143
@@ -30011,8 +32661,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32144] = {
-		base = 32140,
 		id = 32144,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			32144
@@ -30020,8 +32671,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32145] = {
-		base = 32140,
 		id = 32145,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			32145
@@ -30029,8 +32681,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32146] = {
-		base = 32140,
 		id = 32146,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			32146
@@ -30038,8 +32691,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32147] = {
-		base = 32140,
 		id = 32147,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			32147
@@ -30047,8 +32701,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32148] = {
-		base = 32140,
 		id = 32148,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			32148
@@ -30056,8 +32711,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32149] = {
-		base = 32140,
 		id = 32149,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "16 x 4",
 		weapon_id = {
 			32149
@@ -30065,8 +32721,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32150] = {
-		base = 32140,
 		id = 32150,
+		base = 32140,
+		is_siren = 0,
 		value_1 = "17 x 4",
 		weapon_id = {
 			32150
@@ -30091,6 +32748,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30111,8 +32769,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32201] = {
-		base = 32200,
 		id = 32201,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "7 x 6",
 		weapon_id = {
 			32201
@@ -30120,8 +32779,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32202] = {
-		base = 32200,
 		id = 32202,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "8 x 6",
 		weapon_id = {
 			32202
@@ -30129,8 +32789,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32203] = {
-		base = 32200,
 		id = 32203,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			32203
@@ -30138,8 +32799,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32204] = {
-		base = 32200,
 		id = 32204,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			32204
@@ -30147,8 +32809,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32205] = {
-		base = 32200,
 		id = 32205,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			32205
@@ -30156,8 +32819,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32206] = {
-		base = 32200,
 		id = 32206,
+		base = 32200,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			32206
@@ -30182,6 +32846,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30202,8 +32867,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32221] = {
-		base = 32220,
 		id = 32221,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "8 x 6",
 		weapon_id = {
 			32221
@@ -30211,8 +32877,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32222] = {
-		base = 32220,
 		id = 32222,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			32222
@@ -30220,8 +32887,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32223] = {
-		base = 32220,
 		id = 32223,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			32223
@@ -30229,8 +32897,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32224] = {
-		base = 32220,
 		id = 32224,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			32224
@@ -30238,8 +32907,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32225] = {
-		base = 32220,
 		id = 32225,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			32225
@@ -30247,8 +32917,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32226] = {
-		base = 32220,
 		id = 32226,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			32226
@@ -30256,8 +32927,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32227] = {
-		base = 32220,
 		id = 32227,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			32227
@@ -30265,8 +32937,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32228] = {
-		base = 32220,
 		id = 32228,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			32228
@@ -30274,8 +32947,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32229] = {
-		base = 32220,
 		id = 32229,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "16 x 6",
 		weapon_id = {
 			32229
@@ -30283,8 +32957,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32230] = {
-		base = 32220,
 		id = 32230,
+		base = 32220,
+		is_siren = 0,
 		value_1 = "17 x 6",
 		weapon_id = {
 			32230
@@ -30309,6 +32984,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30329,8 +33005,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32241] = {
-		base = 32240,
 		id = 32241,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			32241
@@ -30338,8 +33015,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32242] = {
-		base = 32240,
 		id = 32242,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			32242
@@ -30347,8 +33025,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32243] = {
-		base = 32240,
 		id = 32243,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			32243
@@ -30356,8 +33035,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32244] = {
-		base = 32240,
 		id = 32244,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			32244
@@ -30365,8 +33045,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32245] = {
-		base = 32240,
 		id = 32245,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			32245
@@ -30374,8 +33055,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32246] = {
-		base = 32240,
 		id = 32246,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			32246
@@ -30383,8 +33065,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32247] = {
-		base = 32240,
 		id = 32247,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			32247
@@ -30392,8 +33075,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32248] = {
-		base = 32240,
 		id = 32248,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "16 x 6",
 		weapon_id = {
 			32248
@@ -30401,8 +33085,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32249] = {
-		base = 32240,
 		id = 32249,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "17 x 6",
 		weapon_id = {
 			32249
@@ -30410,8 +33095,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32250] = {
-		base = 32240,
 		id = 32250,
+		base = 32240,
+		is_siren = 0,
 		value_1 = "18 x 6",
 		weapon_id = {
 			32250
@@ -30436,6 +33122,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30456,8 +33143,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32301] = {
-		base = 32300,
 		id = 32301,
+		base = 32300,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			32301
@@ -30465,8 +33153,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32302] = {
-		base = 32300,
 		id = 32302,
+		base = 32300,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			32302
@@ -30474,8 +33163,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32303] = {
-		base = 32300,
 		id = 32303,
+		base = 32300,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			32303
@@ -30500,6 +33190,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30520,8 +33211,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32321] = {
-		base = 32320,
 		id = 32321,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			32321
@@ -30529,8 +33221,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32322] = {
-		base = 32320,
 		id = 32322,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			32322
@@ -30538,8 +33231,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32323] = {
-		base = 32320,
 		id = 32323,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			32323
@@ -30547,8 +33241,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32324] = {
-		base = 32320,
 		id = 32324,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			32324
@@ -30556,8 +33251,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32325] = {
-		base = 32320,
 		id = 32325,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			32325
@@ -30565,8 +33261,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32326] = {
-		base = 32320,
 		id = 32326,
+		base = 32320,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			32326
@@ -30591,6 +33288,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30611,8 +33309,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[32341] = {
-		base = 32340,
 		id = 32341,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			32341
@@ -30620,8 +33319,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32342] = {
-		base = 32340,
 		id = 32342,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			32342
@@ -30629,8 +33329,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32343] = {
-		base = 32340,
 		id = 32343,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			32343
@@ -30638,8 +33339,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32344] = {
-		base = 32340,
 		id = 32344,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			32344
@@ -30647,8 +33349,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32345] = {
-		base = 32340,
 		id = 32345,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			32345
@@ -30656,8 +33359,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32346] = {
-		base = 32340,
 		id = 32346,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			32346
@@ -30665,8 +33369,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32347] = {
-		base = 32340,
 		id = 32347,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			32347
@@ -30674,8 +33379,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32348] = {
-		base = 32340,
 		id = 32348,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "16 x 4",
 		weapon_id = {
 			32348
@@ -30683,8 +33389,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32349] = {
-		base = 32340,
 		id = 32349,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "17 x 4",
 		weapon_id = {
 			32349
@@ -30692,8 +33399,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[32350] = {
-		base = 32340,
 		id = 32350,
+		base = 32340,
+		is_siren = 0,
 		value_1 = "18 x 4",
 		weapon_id = {
 			32350
@@ -30718,6 +33426,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30736,8 +33445,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[33001] = {
-		base = 33000,
 		id = 33001,
+		base = 33000,
+		is_siren = 0,
 		value_1 = "24 x 4",
 		weapon_id = {
 			33001
@@ -30745,8 +33455,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33002] = {
-		base = 33000,
 		id = 33002,
+		base = 33000,
+		is_siren = 0,
 		value_1 = "26 x 4",
 		weapon_id = {
 			33002
@@ -30754,8 +33465,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33003] = {
-		base = 33000,
 		id = 33003,
+		base = 33000,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			33003
@@ -30780,6 +33492,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30798,8 +33511,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[33021] = {
-		base = 33020,
 		id = 33021,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "26 x 4",
 		weapon_id = {
 			33021
@@ -30807,8 +33521,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33022] = {
-		base = 33020,
 		id = 33022,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			33022
@@ -30816,8 +33531,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33023] = {
-		base = 33020,
 		id = 33023,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			33023
@@ -30825,8 +33541,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33024] = {
-		base = 33020,
 		id = 33024,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			33024
@@ -30834,8 +33551,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33025] = {
-		base = 33020,
 		id = 33025,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			33025
@@ -30843,8 +33561,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33026] = {
-		base = 33020,
 		id = 33026,
+		base = 33020,
+		is_siren = 0,
 		value_1 = "36 x 4",
 		weapon_id = {
 			33026
@@ -30869,6 +33588,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -30887,8 +33607,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[33041] = {
-		base = 33040,
 		id = 33041,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "28 x 4",
 		weapon_id = {
 			33041
@@ -30896,8 +33617,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33042] = {
-		base = 33040,
 		id = 33042,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			33042
@@ -30905,8 +33627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33043] = {
-		base = 33040,
 		id = 33043,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			33043
@@ -30914,8 +33637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33044] = {
-		base = 33040,
 		id = 33044,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			33044
@@ -30923,8 +33647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33045] = {
-		base = 33040,
 		id = 33045,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "36 x 4",
 		weapon_id = {
 			33045
@@ -30932,8 +33657,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33046] = {
-		base = 33040,
 		id = 33046,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "38 x 4",
 		weapon_id = {
 			33046
@@ -30941,8 +33667,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33047] = {
-		base = 33040,
 		id = 33047,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "40 x 4",
 		weapon_id = {
 			33047
@@ -30950,8 +33677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33048] = {
-		base = 33040,
 		id = 33048,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "42 x 4",
 		weapon_id = {
 			33048
@@ -30959,8 +33687,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33049] = {
-		base = 33040,
 		id = 33049,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "44 x 4",
 		weapon_id = {
 			33049
@@ -30968,8 +33697,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33050] = {
-		base = 33040,
 		id = 33050,
+		base = 33040,
+		is_siren = 0,
 		value_1 = "46 x 4",
 		weapon_id = {
 			33050
@@ -30994,6 +33724,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "带有试验性质的203mm连装炮强化版，由军需处少量发放",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31012,8 +33743,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[33061] = {
-		base = 33060,
 		id = 33061,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "30 x 4",
 		weapon_id = {
 			33061
@@ -31021,8 +33753,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33062] = {
-		base = 33060,
 		id = 33062,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "32 x 4",
 		weapon_id = {
 			33062
@@ -31030,8 +33763,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33063] = {
-		base = 33060,
 		id = 33063,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "34 x 4",
 		weapon_id = {
 			33063
@@ -31039,8 +33773,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33064] = {
-		base = 33060,
 		id = 33064,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "36 x 4",
 		weapon_id = {
 			33064
@@ -31048,8 +33783,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33065] = {
-		base = 33060,
 		id = 33065,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "38 x 4",
 		weapon_id = {
 			33065
@@ -31057,8 +33793,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33066] = {
-		base = 33060,
 		id = 33066,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "40 x 4",
 		weapon_id = {
 			33066
@@ -31066,8 +33803,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33067] = {
-		base = 33060,
 		id = 33067,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "42 x 4",
 		weapon_id = {
 			33067
@@ -31075,8 +33813,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33068] = {
-		base = 33060,
 		id = 33068,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "44 x 4",
 		weapon_id = {
 			33068
@@ -31084,8 +33823,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33069] = {
-		base = 33060,
 		id = 33069,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "46 x 4",
 		weapon_id = {
 			33069
@@ -31093,8 +33833,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33070] = {
-		base = 33060,
 		id = 33070,
+		base = 33060,
+		is_siren = 0,
 		value_1 = "48 x 4",
 		weapon_id = {
 			33070
@@ -31119,6 +33860,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31137,8 +33879,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[33101] = {
-		base = 33100,
 		id = 33101,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "38 x 6",
 		weapon_id = {
 			33101
@@ -31146,8 +33889,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33102] = {
-		base = 33100,
 		id = 33102,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "40 x 6",
 		weapon_id = {
 			33102
@@ -31155,8 +33899,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33103] = {
-		base = 33100,
 		id = 33103,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "42 x 6",
 		weapon_id = {
 			33103
@@ -31164,8 +33909,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33104] = {
-		base = 33100,
 		id = 33104,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "44 x 6",
 		weapon_id = {
 			33104
@@ -31173,8 +33919,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33105] = {
-		base = 33100,
 		id = 33105,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "46 x 6",
 		weapon_id = {
 			33105
@@ -31182,8 +33929,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33106] = {
-		base = 33100,
 		id = 33106,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "48 x 6",
 		weapon_id = {
 			33106
@@ -31191,8 +33939,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33107] = {
-		base = 33100,
 		id = 33107,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "50 x 6",
 		weapon_id = {
 			33107
@@ -31200,8 +33949,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33108] = {
-		base = 33100,
 		id = 33108,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "52 x 6",
 		weapon_id = {
 			33108
@@ -31209,8 +33959,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33109] = {
-		base = 33100,
 		id = 33109,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "54 x 6",
 		weapon_id = {
 			33109
@@ -31218,8 +33969,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33110] = {
-		base = 33100,
 		id = 33110,
+		base = 33100,
+		is_siren = 0,
 		value_1 = "56 x 6",
 		weapon_id = {
 			33110
@@ -31242,8 +33994,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "20",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -31262,8 +34015,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34001] = {
-		base = 34000,
 		id = 34001,
+		base = 34000,
+		is_siren = 0,
 		value_1 = "44 x 2",
 		weapon_id = {
 			34001
@@ -31271,8 +34025,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34002] = {
-		base = 34000,
 		id = 34002,
+		base = 34000,
+		is_siren = 0,
 		value_1 = "50 x 2",
 		weapon_id = {
 			34002
@@ -31280,8 +34035,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34003] = {
-		base = 34000,
 		id = 34003,
+		base = 34000,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			34003
@@ -31306,6 +34062,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31325,8 +34082,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34021] = {
-		base = 34020,
 		id = 34021,
+		base = 34020,
+		is_siren = 0,
 		value_1 = "48 x 2",
 		weapon_id = {
 			34021
@@ -31334,8 +34092,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34022] = {
-		base = 34020,
 		id = 34022,
+		base = 34020,
+		is_siren = 0,
 		value_1 = "55 x 2",
 		weapon_id = {
 			34022
@@ -31343,8 +34102,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34023] = {
-		base = 34020,
 		id = 34023,
+		base = 34020,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			34023
@@ -31369,6 +34129,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31388,8 +34149,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34041] = {
-		base = 34040,
 		id = 34041,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "52 x 2",
 		weapon_id = {
 			34041
@@ -31397,8 +34159,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34042] = {
-		base = 34040,
 		id = 34042,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "60 x 2",
 		weapon_id = {
 			34042
@@ -31406,8 +34169,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34043] = {
-		base = 34040,
 		id = 34043,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			34043
@@ -31415,8 +34179,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34044] = {
-		base = 34040,
 		id = 34044,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			34044
@@ -31424,8 +34189,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34045] = {
-		base = 34040,
 		id = 34045,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			34045
@@ -31433,8 +34199,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34046] = {
-		base = 34040,
 		id = 34046,
+		base = 34040,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			34046
@@ -31459,6 +34226,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31478,8 +34246,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34101] = {
-		base = 34100,
 		id = 34101,
+		base = 34100,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			34101
@@ -31487,8 +34256,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34102] = {
-		base = 34100,
 		id = 34102,
+		base = 34100,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			34102
@@ -31496,8 +34266,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34103] = {
-		base = 34100,
 		id = 34103,
+		base = 34100,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			34103
@@ -31522,6 +34293,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31541,8 +34313,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34121] = {
-		base = 34120,
 		id = 34121,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			34121
@@ -31550,8 +34323,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34122] = {
-		base = 34120,
 		id = 34122,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			34122
@@ -31559,8 +34333,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34123] = {
-		base = 34120,
 		id = 34123,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "79 x 2",
 		weapon_id = {
 			34123
@@ -31568,8 +34343,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34124] = {
-		base = 34120,
 		id = 34124,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			34124
@@ -31577,8 +34353,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34125] = {
-		base = 34120,
 		id = 34125,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "97 x 2",
 		weapon_id = {
 			34125
@@ -31586,8 +34363,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34126] = {
-		base = 34120,
 		id = 34126,
+		base = 34120,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			34126
@@ -31612,6 +34390,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31631,8 +34410,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34141] = {
-		base = 34140,
 		id = 34141,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			34141
@@ -31640,8 +34420,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34142] = {
-		base = 34140,
 		id = 34142,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "76 x 2",
 		weapon_id = {
 			34142
@@ -31649,8 +34430,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34143] = {
-		base = 34140,
 		id = 34143,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			34143
@@ -31658,8 +34440,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34144] = {
-		base = 34140,
 		id = 34144,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			34144
@@ -31667,8 +34450,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34145] = {
-		base = 34140,
 		id = 34145,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			34145
@@ -31676,8 +34460,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34146] = {
-		base = 34140,
 		id = 34146,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "116 x 2",
 		weapon_id = {
 			34146
@@ -31685,8 +34470,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34147] = {
-		base = 34140,
 		id = 34147,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "124 x 2",
 		weapon_id = {
 			34147
@@ -31694,8 +34480,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34148] = {
-		base = 34140,
 		id = 34148,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "134 x 2",
 		weapon_id = {
 			34148
@@ -31703,8 +34490,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34149] = {
-		base = 34140,
 		id = 34149,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			34149
@@ -31712,8 +34500,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34150] = {
-		base = 34140,
 		id = 34150,
+		base = 34140,
+		is_siren = 0,
 		value_1 = "154 x 2",
 		weapon_id = {
 			34150
@@ -31739,6 +34528,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		attribute_3 = "antiaircraft",
 		ammo = "三式弹",
+		is_siren = 0,
 		descrip = "装填三式弹的410mm连装炮，可对空，并且散射飞落的炮弹能够有效的点燃目标，造成火灾",
 		value_3 = 25,
 		attribute_1 = "damage",
@@ -31758,8 +34548,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34161] = {
-		base = 34160,
 		id = 34161,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "13 x 10 x 2",
 		weapon_id = {
 			34161
@@ -31767,8 +34558,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34162] = {
-		base = 34160,
 		id = 34162,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "14 x 10 x 2",
 		weapon_id = {
 			34162
@@ -31776,8 +34568,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34163] = {
-		base = 34160,
 		id = 34163,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "15 x 10 x 2",
 		weapon_id = {
 			34163
@@ -31785,8 +34578,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34164] = {
-		base = 34160,
 		id = 34164,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "16 x 10 x 2",
 		weapon_id = {
 			34164
@@ -31794,8 +34588,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34165] = {
-		base = 34160,
 		id = 34165,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "17 x 10 x 2",
 		weapon_id = {
 			34165
@@ -31803,8 +34598,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34166] = {
-		base = 34160,
 		id = 34166,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "18 x 10 x 2",
 		weapon_id = {
 			34166
@@ -31812,8 +34608,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34167] = {
-		base = 34160,
 		id = 34167,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "19 x 10 x 2",
 		weapon_id = {
 			34167
@@ -31821,8 +34618,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34168] = {
-		base = 34160,
 		id = 34168,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "20 x 10 x 2",
 		weapon_id = {
 			34168
@@ -31830,8 +34628,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34169] = {
-		base = 34160,
 		id = 34169,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "21 x 10 x 2",
 		weapon_id = {
 			34169
@@ -31839,8 +34638,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34170] = {
-		base = 34160,
 		id = 34170,
+		base = 34160,
+		is_siren = 0,
 		value_1 = "22 x 10 x 2",
 		weapon_id = {
 			34170
@@ -31865,6 +34665,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -31884,8 +34685,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34181] = {
-		base = 34180,
 		id = 34181,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			34181
@@ -31893,8 +34695,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34182] = {
-		base = 34180,
 		id = 34182,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "76 x 3",
 		weapon_id = {
 			34182
@@ -31902,8 +34705,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34183] = {
-		base = 34180,
 		id = 34183,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			34183
@@ -31911,8 +34715,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34184] = {
-		base = 34180,
 		id = 34184,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "96 x 3",
 		weapon_id = {
 			34184
@@ -31920,8 +34725,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34185] = {
-		base = 34180,
 		id = 34185,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			34185
@@ -31929,8 +34735,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34186] = {
-		base = 34180,
 		id = 34186,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "116 x 3",
 		weapon_id = {
 			34186
@@ -31938,8 +34745,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34187] = {
-		base = 34180,
 		id = 34187,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			34187
@@ -31947,8 +34755,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34188] = {
-		base = 34180,
 		id = 34188,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "134 x 3",
 		weapon_id = {
 			34188
@@ -31956,8 +34765,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34189] = {
-		base = 34180,
 		id = 34189,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			34189
@@ -31965,8 +34775,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34190] = {
-		base = 34180,
 		id = 34190,
+		base = 34180,
+		is_siren = 0,
 		value_1 = "154 x 3",
 		weapon_id = {
 			34190
@@ -31991,6 +34802,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32010,8 +34822,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34201] = {
-		base = 34200,
 		id = 34201,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			34201
@@ -32019,8 +34832,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34202] = {
-		base = 34200,
 		id = 34202,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "84 x 3",
 		weapon_id = {
 			34202
@@ -32028,8 +34842,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34203] = {
-		base = 34200,
 		id = 34203,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "96 x 3",
 		weapon_id = {
 			34203
@@ -32037,8 +34852,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34204] = {
-		base = 34200,
 		id = 34204,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			34204
@@ -32046,8 +34862,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34205] = {
-		base = 34200,
 		id = 34205,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "120 x 3",
 		weapon_id = {
 			34205
@@ -32055,8 +34872,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34206] = {
-		base = 34200,
 		id = 34206,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			34206
@@ -32064,8 +34882,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34207] = {
-		base = 34200,
 		id = 34207,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			34207
@@ -32073,8 +34892,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34208] = {
-		base = 34200,
 		id = 34208,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "156 x 3",
 		weapon_id = {
 			34208
@@ -32082,8 +34902,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34209] = {
-		base = 34200,
 		id = 34209,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "168 x 3",
 		weapon_id = {
 			34209
@@ -32091,8 +34912,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34210] = {
-		base = 34200,
 		id = 34210,
+		base = 34200,
+		is_siren = 0,
 		value_1 = "180 x 3",
 		weapon_id = {
 			34210
@@ -32117,6 +34939,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32136,8 +34959,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34221] = {
-		base = 34220,
 		id = 34221,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			34221
@@ -32145,8 +34969,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34222] = {
-		base = 34220,
 		id = 34222,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			34222
@@ -32154,8 +34979,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34223] = {
-		base = 34220,
 		id = 34223,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			34223
@@ -32163,8 +34989,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34224] = {
-		base = 34220,
 		id = 34224,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "119 x 3",
 		weapon_id = {
 			34224
@@ -32172,8 +34999,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34225] = {
-		base = 34220,
 		id = 34225,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			34225
@@ -32181,8 +35009,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34226] = {
-		base = 34220,
 		id = 34226,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "145 x 3",
 		weapon_id = {
 			34226
@@ -32190,8 +35019,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34227] = {
-		base = 34220,
 		id = 34227,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "158 x 3",
 		weapon_id = {
 			34227
@@ -32199,8 +35029,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34228] = {
-		base = 34220,
 		id = 34228,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "172 x 3",
 		weapon_id = {
 			34228
@@ -32208,8 +35039,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34229] = {
-		base = 34220,
 		id = 34229,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "185 x 3",
 		weapon_id = {
 			34229
@@ -32217,8 +35049,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34230] = {
-		base = 34220,
 		id = 34230,
+		base = 34220,
+		is_siren = 0,
 		value_1 = "198 x 3",
 		weapon_id = {
 			34230
@@ -32243,6 +35076,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 3,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32262,8 +35096,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[34241] = {
-		base = 34240,
 		id = 34241,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			34241
@@ -32271,8 +35106,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34242] = {
-		base = 34240,
 		id = 34242,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "100 x 3",
 		weapon_id = {
 			34242
@@ -32280,8 +35116,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34243] = {
-		base = 34240,
 		id = 34243,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "116 x 3",
 		weapon_id = {
 			34243
@@ -32289,8 +35126,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34244] = {
-		base = 34240,
 		id = 34244,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "130 x 3",
 		weapon_id = {
 			34244
@@ -32298,8 +35136,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34245] = {
-		base = 34240,
 		id = 34245,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			34245
@@ -32307,8 +35146,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34246] = {
-		base = 34240,
 		id = 34246,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "158 x 3",
 		weapon_id = {
 			34246
@@ -32316,8 +35156,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34247] = {
-		base = 34240,
 		id = 34247,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "172 x 3",
 		weapon_id = {
 			34247
@@ -32325,8 +35166,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34248] = {
-		base = 34240,
 		id = 34248,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "188 x 3",
 		weapon_id = {
 			34248
@@ -32334,8 +35176,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34249] = {
-		base = 34240,
 		id = 34249,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "202 x 3",
 		weapon_id = {
 			34249
@@ -32343,8 +35186,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[34250] = {
-		base = 34240,
 		id = 34250,
+		base = 34240,
+		is_siren = 0,
 		value_1 = "216 x 3",
 		weapon_id = {
 			34250
@@ -32367,8 +35211,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "30°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -32382,8 +35227,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35001] = {
-		base = 35000,
 		id = 35001,
+		base = 35000,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			35001
@@ -32391,8 +35237,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35002] = {
-		base = 35000,
 		id = 35002,
+		base = 35000,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			35002
@@ -32400,8 +35247,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35003] = {
-		base = 35000,
 		id = 35003,
+		base = 35000,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			35003
@@ -32426,6 +35274,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32440,8 +35289,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35021] = {
-		base = 35020,
 		id = 35021,
+		base = 35020,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			35021
@@ -32449,8 +35299,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35022] = {
-		base = 35020,
 		id = 35022,
+		base = 35020,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			35022
@@ -32458,8 +35309,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35023] = {
-		base = 35020,
 		id = 35023,
+		base = 35020,
+		is_siren = 0,
 		value_1 = "94 x 2",
 		weapon_id = {
 			35023
@@ -32484,6 +35336,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32498,8 +35351,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35041] = {
-		base = 35040,
 		id = 35041,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			35041
@@ -32507,8 +35361,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35042] = {
-		base = 35040,
 		id = 35042,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "94 x 2",
 		weapon_id = {
 			35042
@@ -32516,8 +35371,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35043] = {
-		base = 35040,
 		id = 35043,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			35043
@@ -32525,8 +35381,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35044] = {
-		base = 35040,
 		id = 35044,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "122 x 2",
 		weapon_id = {
 			35044
@@ -32534,8 +35391,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35045] = {
-		base = 35040,
 		id = 35045,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "136 x 2",
 		weapon_id = {
 			35045
@@ -32543,8 +35401,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35046] = {
-		base = 35040,
 		id = 35046,
+		base = 35040,
+		is_siren = 0,
 		value_1 = "150 x 2",
 		weapon_id = {
 			35046
@@ -32569,6 +35428,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32583,8 +35443,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35101] = {
-		base = 35100,
 		id = 35101,
+		base = 35100,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			35101
@@ -32592,8 +35453,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35102] = {
-		base = 35100,
 		id = 35102,
+		base = 35100,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			35102
@@ -32601,8 +35463,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35103] = {
-		base = 35100,
 		id = 35103,
+		base = 35100,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			35103
@@ -32627,6 +35490,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32641,8 +35505,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35121] = {
-		base = 35120,
 		id = 35121,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			35121
@@ -32650,8 +35515,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35122] = {
-		base = 35120,
 		id = 35122,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "82 x 3",
 		weapon_id = {
 			35122
@@ -32659,8 +35525,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35123] = {
-		base = 35120,
 		id = 35123,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "94 x 3",
 		weapon_id = {
 			35123
@@ -32668,8 +35535,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35124] = {
-		base = 35120,
 		id = 35124,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			35124
@@ -32677,8 +35545,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35125] = {
-		base = 35120,
 		id = 35125,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			35125
@@ -32686,8 +35555,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35126] = {
-		base = 35120,
 		id = 35126,
+		base = 35120,
+		is_siren = 0,
 		value_1 = "130 x 3",
 		weapon_id = {
 			35126
@@ -32712,6 +35582,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32726,8 +35597,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35141] = {
-		base = 35140,
 		id = 35141,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "80 x 3",
 		weapon_id = {
 			35141
@@ -32735,8 +35607,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35142] = {
-		base = 35140,
 		id = 35142,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "94 x 3",
 		weapon_id = {
 			35142
@@ -32744,8 +35617,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35143] = {
-		base = 35140,
 		id = 35143,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "108 x 3",
 		weapon_id = {
 			35143
@@ -32753,8 +35627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35144] = {
-		base = 35140,
 		id = 35144,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "122 x 3",
 		weapon_id = {
 			35144
@@ -32762,8 +35637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35145] = {
-		base = 35140,
 		id = 35145,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "136 x 3",
 		weapon_id = {
 			35145
@@ -32771,8 +35647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35146] = {
-		base = 35140,
 		id = 35146,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "150 x 3",
 		weapon_id = {
 			35146
@@ -32780,8 +35657,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35147] = {
-		base = 35140,
 		id = 35147,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "164 x 3",
 		weapon_id = {
 			35147
@@ -32789,8 +35667,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35148] = {
-		base = 35140,
 		id = 35148,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "178 x 3",
 		weapon_id = {
 			35148
@@ -32798,8 +35677,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35149] = {
-		base = 35140,
 		id = 35149,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "192 x 3",
 		weapon_id = {
 			35149
@@ -32807,8 +35687,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35150] = {
-		base = 35140,
 		id = 35150,
+		base = 35140,
+		is_siren = 0,
 		value_1 = "206 x 3",
 		weapon_id = {
 			35150
@@ -32833,6 +35714,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32847,8 +35729,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35201] = {
-		base = 35200,
 		id = 35201,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "62 x 4",
 		weapon_id = {
 			35201
@@ -32856,8 +35739,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35202] = {
-		base = 35200,
 		id = 35202,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "72 x 4",
 		weapon_id = {
 			35202
@@ -32865,8 +35749,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35203] = {
-		base = 35200,
 		id = 35203,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "82 x 4",
 		weapon_id = {
 			35203
@@ -32874,8 +35759,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35204] = {
-		base = 35200,
 		id = 35204,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "92 x 4",
 		weapon_id = {
 			35204
@@ -32883,8 +35769,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35205] = {
-		base = 35200,
 		id = 35205,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "102 x 4",
 		weapon_id = {
 			35205
@@ -32892,8 +35779,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35206] = {
-		base = 35200,
 		id = 35206,
+		base = 35200,
+		is_siren = 0,
 		value_1 = "112 x 4",
 		weapon_id = {
 			35206
@@ -32918,6 +35806,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -32932,8 +35821,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35221] = {
-		base = 35220,
 		id = 35221,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "70 x 4",
 		weapon_id = {
 			35221
@@ -32941,8 +35831,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35222] = {
-		base = 35220,
 		id = 35222,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "82 x 4",
 		weapon_id = {
 			35222
@@ -32950,8 +35841,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35223] = {
-		base = 35220,
 		id = 35223,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "94 x 4",
 		weapon_id = {
 			35223
@@ -32959,8 +35851,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35224] = {
-		base = 35220,
 		id = 35224,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "106 x 4",
 		weapon_id = {
 			35224
@@ -32968,8 +35861,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35225] = {
-		base = 35220,
 		id = 35225,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "118 x 4",
 		weapon_id = {
 			35225
@@ -32977,8 +35871,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35226] = {
-		base = 35220,
 		id = 35226,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "130 x 4",
 		weapon_id = {
 			35226
@@ -32986,8 +35881,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35227] = {
-		base = 35220,
 		id = 35227,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "142 x 4",
 		weapon_id = {
 			35227
@@ -32995,8 +35891,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35228] = {
-		base = 35220,
 		id = 35228,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "154 x 4",
 		weapon_id = {
 			35228
@@ -33004,8 +35901,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35229] = {
-		base = 35220,
 		id = 35229,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "166 x 4",
 		weapon_id = {
 			35229
@@ -33013,8 +35911,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35230] = {
-		base = 35220,
 		id = 35230,
+		base = 35220,
+		is_siren = 0,
 		value_1 = "178 x 4",
 		weapon_id = {
 			35230
@@ -33039,6 +35938,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33053,8 +35953,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35241] = {
-		base = 35240,
 		id = 35241,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "80 x 4",
 		weapon_id = {
 			35241
@@ -33062,8 +35963,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35242] = {
-		base = 35240,
 		id = 35242,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "94 x 4",
 		weapon_id = {
 			35242
@@ -33071,8 +35973,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35243] = {
-		base = 35240,
 		id = 35243,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "108 x 4",
 		weapon_id = {
 			35243
@@ -33080,8 +35983,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35244] = {
-		base = 35240,
 		id = 35244,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "122 x 4",
 		weapon_id = {
 			35244
@@ -33089,8 +35993,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35245] = {
-		base = 35240,
 		id = 35245,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "136 x 4",
 		weapon_id = {
 			35245
@@ -33098,8 +36003,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35246] = {
-		base = 35240,
 		id = 35246,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "150 x 4",
 		weapon_id = {
 			35246
@@ -33107,8 +36013,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35247] = {
-		base = 35240,
 		id = 35247,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "164 x 4",
 		weapon_id = {
 			35247
@@ -33116,8 +36023,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35248] = {
-		base = 35240,
 		id = 35248,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "178 x 4",
 		weapon_id = {
 			35248
@@ -33125,8 +36033,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35249] = {
-		base = 35240,
 		id = 35249,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "192 x 4",
 		weapon_id = {
 			35249
@@ -33134,8 +36043,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35250] = {
-		base = 35240,
 		id = 35250,
+		base = 35240,
+		is_siren = 0,
 		value_1 = "206 x 4",
 		weapon_id = {
 			35250
@@ -33160,6 +36070,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33174,8 +36085,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35301] = {
-		base = 35300,
 		id = 35301,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "62 x 5",
 		weapon_id = {
 			35301
@@ -33183,8 +36095,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35302] = {
-		base = 35300,
 		id = 35302,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "72 x 5",
 		weapon_id = {
 			35302
@@ -33192,8 +36105,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35303] = {
-		base = 35300,
 		id = 35303,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "82 x 5",
 		weapon_id = {
 			35303
@@ -33201,8 +36115,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35304] = {
-		base = 35300,
 		id = 35304,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "92 x 5",
 		weapon_id = {
 			35304
@@ -33210,8 +36125,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35305] = {
-		base = 35300,
 		id = 35305,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "102 x 5",
 		weapon_id = {
 			35305
@@ -33219,8 +36135,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35306] = {
-		base = 35300,
 		id = 35306,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "112 x 5",
 		weapon_id = {
 			35306
@@ -33228,8 +36145,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35307] = {
-		base = 35300,
 		id = 35307,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "122 x 5",
 		weapon_id = {
 			35307
@@ -33237,8 +36155,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35308] = {
-		base = 35300,
 		id = 35308,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "132 x 5",
 		weapon_id = {
 			35308
@@ -33246,8 +36165,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35309] = {
-		base = 35300,
 		id = 35309,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "142 x 5",
 		weapon_id = {
 			35309
@@ -33255,8 +36175,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35310] = {
-		base = 35300,
 		id = 35310,
+		base = 35300,
+		is_siren = 0,
 		value_1 = "152 x 5",
 		weapon_id = {
 			35310
@@ -33281,6 +36202,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33295,8 +36217,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35321] = {
-		base = 35320,
 		id = 35321,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "70 x 5",
 		weapon_id = {
 			35321
@@ -33304,8 +36227,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35322] = {
-		base = 35320,
 		id = 35322,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "82 x 5",
 		weapon_id = {
 			35322
@@ -33313,8 +36237,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35323] = {
-		base = 35320,
 		id = 35323,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "94 x 5",
 		weapon_id = {
 			35323
@@ -33322,8 +36247,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35324] = {
-		base = 35320,
 		id = 35324,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "106 x 5",
 		weapon_id = {
 			35324
@@ -33331,8 +36257,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35325] = {
-		base = 35320,
 		id = 35325,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "118 x 5",
 		weapon_id = {
 			35325
@@ -33340,8 +36267,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35326] = {
-		base = 35320,
 		id = 35326,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "130 x 5",
 		weapon_id = {
 			35326
@@ -33349,8 +36277,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35327] = {
-		base = 35320,
 		id = 35327,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "142 x 5",
 		weapon_id = {
 			35327
@@ -33358,8 +36287,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35328] = {
-		base = 35320,
 		id = 35328,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "154 x 5",
 		weapon_id = {
 			35328
@@ -33367,8 +36297,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35329] = {
-		base = 35320,
 		id = 35329,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "166 x 5",
 		weapon_id = {
 			35329
@@ -33376,8 +36307,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35330] = {
-		base = 35320,
 		id = 35330,
+		base = 35320,
+		is_siren = 0,
 		value_1 = "178 x 5",
 		weapon_id = {
 			35330
@@ -33402,6 +36334,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33416,8 +36349,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35341] = {
-		base = 35340,
 		id = 35341,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "80 x 5",
 		weapon_id = {
 			35341
@@ -33425,8 +36359,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35342] = {
-		base = 35340,
 		id = 35342,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "94 x 5",
 		weapon_id = {
 			35342
@@ -33434,8 +36369,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35343] = {
-		base = 35340,
 		id = 35343,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "108 x 5",
 		weapon_id = {
 			35343
@@ -33443,8 +36379,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35344] = {
-		base = 35340,
 		id = 35344,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "122 x 5",
 		weapon_id = {
 			35344
@@ -33452,8 +36389,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35345] = {
-		base = 35340,
 		id = 35345,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "136 x 5",
 		weapon_id = {
 			35345
@@ -33461,8 +36399,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35346] = {
-		base = 35340,
 		id = 35346,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "150 x 5",
 		weapon_id = {
 			35346
@@ -33470,8 +36409,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35347] = {
-		base = 35340,
 		id = 35347,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "164 x 5",
 		weapon_id = {
 			35347
@@ -33479,8 +36419,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35348] = {
-		base = 35340,
 		id = 35348,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "178 x 5",
 		weapon_id = {
 			35348
@@ -33488,8 +36429,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35349] = {
-		base = 35340,
 		id = 35349,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "192 x 5",
 		weapon_id = {
 			35349
@@ -33497,8 +36439,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35350] = {
-		base = 35340,
 		id = 35350,
+		base = 35340,
+		is_siren = 0,
 		value_1 = "206 x 5",
 		weapon_id = {
 			35350
@@ -33523,6 +36466,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33537,8 +36481,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35401] = {
-		base = 35400,
 		id = 35401,
+		base = 35400,
+		is_siren = 0,
 		value_1 = "55 x 2",
 		weapon_id = {
 			35401
@@ -33546,8 +36491,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35402] = {
-		base = 35400,
 		id = 35402,
+		base = 35400,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			35402
@@ -33555,8 +36501,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35403] = {
-		base = 35400,
 		id = 35403,
+		base = 35400,
+		is_siren = 0,
 		value_1 = "69 x 2",
 		weapon_id = {
 			35403
@@ -33581,6 +36528,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33595,8 +36543,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35421] = {
-		base = 35420,
 		id = 35421,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			35421
@@ -33604,8 +36553,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35422] = {
-		base = 35420,
 		id = 35422,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "70 x 2",
 		weapon_id = {
 			35422
@@ -33613,8 +36563,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35423] = {
-		base = 35420,
 		id = 35423,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "78 x 2",
 		weapon_id = {
 			35423
@@ -33622,8 +36573,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35424] = {
-		base = 35420,
 		id = 35424,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			35424
@@ -33631,8 +36583,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35425] = {
-		base = 35420,
 		id = 35425,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "94 x 2",
 		weapon_id = {
 			35425
@@ -33640,8 +36593,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35426] = {
-		base = 35420,
 		id = 35426,
+		base = 35420,
+		is_siren = 0,
 		value_1 = "102 x 2",
 		weapon_id = {
 			35426
@@ -33666,6 +36620,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33680,8 +36635,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35441] = {
-		base = 35440,
 		id = 35441,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "69 x 2",
 		weapon_id = {
 			35441
@@ -33689,8 +36645,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35442] = {
-		base = 35440,
 		id = 35442,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "78 x 2",
 		weapon_id = {
 			35442
@@ -33698,8 +36655,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35443] = {
-		base = 35440,
 		id = 35443,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "87 x 2",
 		weapon_id = {
 			35443
@@ -33707,8 +36665,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35444] = {
-		base = 35440,
 		id = 35444,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			35444
@@ -33716,8 +36675,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35445] = {
-		base = 35440,
 		id = 35445,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "105 x 2",
 		weapon_id = {
 			35445
@@ -33725,8 +36685,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35446] = {
-		base = 35440,
 		id = 35446,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "114 x 2",
 		weapon_id = {
 			35446
@@ -33734,8 +36695,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35447] = {
-		base = 35440,
 		id = 35447,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "123 x 2",
 		weapon_id = {
 			35447
@@ -33743,8 +36705,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35448] = {
-		base = 35440,
 		id = 35448,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "132 x 2",
 		weapon_id = {
 			35448
@@ -33752,8 +36715,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35449] = {
-		base = 35440,
 		id = 35449,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "141 x 2",
 		weapon_id = {
 			35449
@@ -33761,8 +36725,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35450] = {
-		base = 35440,
 		id = 35450,
+		base = 35440,
+		is_siren = 0,
 		value_1 = "150 x 2",
 		weapon_id = {
 			35450
@@ -33787,6 +36752,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33801,8 +36767,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35501] = {
-		base = 35500,
 		id = 35501,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			35501
@@ -33810,8 +36777,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35502] = {
-		base = 35500,
 		id = 35502,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			35502
@@ -33819,8 +36787,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35503] = {
-		base = 35500,
 		id = 35503,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			35503
@@ -33828,8 +36797,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35504] = {
-		base = 35500,
 		id = 35504,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			35504
@@ -33837,8 +36807,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35505] = {
-		base = 35500,
 		id = 35505,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			35505
@@ -33846,8 +36817,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35506] = {
-		base = 35500,
 		id = 35506,
+		base = 35500,
+		is_siren = 0,
 		value_1 = "104 x 2",
 		weapon_id = {
 			35506
@@ -33872,6 +36844,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -33886,8 +36859,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35521] = {
-		base = 35520,
 		id = 35521,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			35521
@@ -33895,8 +36869,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35522] = {
-		base = 35520,
 		id = 35522,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "81 x 2",
 		weapon_id = {
 			35522
@@ -33904,8 +36879,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35523] = {
-		base = 35520,
 		id = 35523,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			35523
@@ -33913,8 +36889,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35524] = {
-		base = 35520,
 		id = 35524,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "99 x 2",
 		weapon_id = {
 			35524
@@ -33922,8 +36899,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35525] = {
-		base = 35520,
 		id = 35525,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			35525
@@ -33931,8 +36909,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35526] = {
-		base = 35520,
 		id = 35526,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "117 x 2",
 		weapon_id = {
 			35526
@@ -33940,8 +36919,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35527] = {
-		base = 35520,
 		id = 35527,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "127 x 2",
 		weapon_id = {
 			35527
@@ -33949,8 +36929,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35528] = {
-		base = 35520,
 		id = 35528,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "137 x 2",
 		weapon_id = {
 			35528
@@ -33958,8 +36939,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35529] = {
-		base = 35520,
 		id = 35529,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "147 x 2",
 		weapon_id = {
 			35529
@@ -33967,8 +36949,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35530] = {
-		base = 35520,
 		id = 35530,
+		base = 35520,
+		is_siren = 0,
 		value_1 = "157 x 2",
 		weapon_id = {
 			35530
@@ -33993,6 +36976,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34007,8 +36991,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[35541] = {
-		base = 35540,
 		id = 35541,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			35541
@@ -34016,8 +37001,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35542] = {
-		base = 35540,
 		id = 35542,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			35542
@@ -34025,8 +37011,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35543] = {
-		base = 35540,
 		id = 35543,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "100 x 2",
 		weapon_id = {
 			35543
@@ -34034,8 +37021,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35544] = {
-		base = 35540,
 		id = 35544,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "110 x 2",
 		weapon_id = {
 			35544
@@ -34043,8 +37031,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35545] = {
-		base = 35540,
 		id = 35545,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "120 x 2",
 		weapon_id = {
 			35545
@@ -34052,8 +37041,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35546] = {
-		base = 35540,
 		id = 35546,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "130 x 2",
 		weapon_id = {
 			35546
@@ -34061,8 +37051,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35547] = {
-		base = 35540,
 		id = 35547,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "141 x 2",
 		weapon_id = {
 			35547
@@ -34070,8 +37061,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35548] = {
-		base = 35540,
 		id = 35548,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "152 x 2",
 		weapon_id = {
 			35548
@@ -34079,8 +37071,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35549] = {
-		base = 35540,
 		id = 35549,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "163 x 2",
 		weapon_id = {
 			35549
@@ -34088,8 +37081,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[35550] = {
-		base = 35540,
 		id = 35550,
+		base = 35540,
+		is_siren = 0,
 		value_1 = "174 x 2",
 		weapon_id = {
 			35550
@@ -34112,8 +37106,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -34127,8 +37122,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36101] = {
-		base = 36100,
 		id = 36101,
+		base = 36100,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			36101
@@ -34136,8 +37132,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36102] = {
-		base = 36100,
 		id = 36102,
+		base = 36100,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			36102
@@ -34145,8 +37142,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36103] = {
-		base = 36100,
 		id = 36103,
+		base = 36100,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			36103
@@ -34171,6 +37169,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34185,8 +37184,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36121] = {
-		base = 36120,
 		id = 36121,
+		base = 36120,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			36121
@@ -34194,8 +37194,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36122] = {
-		base = 36120,
 		id = 36122,
+		base = 36120,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			36122
@@ -34203,8 +37204,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36123] = {
-		base = 36120,
 		id = 36123,
+		base = 36120,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			36123
@@ -34229,6 +37231,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34243,8 +37246,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36141] = {
-		base = 36140,
 		id = 36141,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			36141
@@ -34252,8 +37256,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36142] = {
-		base = 36140,
 		id = 36142,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "13/轮",
 		weapon_id = {
 			36142
@@ -34261,8 +37266,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36143] = {
-		base = 36140,
 		id = 36143,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "15/轮",
 		weapon_id = {
 			36143
@@ -34270,8 +37276,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36144] = {
-		base = 36140,
 		id = 36144,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "17/轮",
 		weapon_id = {
 			36144
@@ -34279,8 +37286,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36145] = {
-		base = 36140,
 		id = 36145,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			36145
@@ -34288,8 +37296,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36146] = {
-		base = 36140,
 		id = 36146,
+		base = 36140,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			36146
@@ -34314,6 +37323,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34328,8 +37338,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36201] = {
-		base = 36200,
 		id = 36201,
+		base = 36200,
+		is_siren = 0,
 		value_1 = "15/轮",
 		weapon_id = {
 			36201
@@ -34337,8 +37348,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36202] = {
-		base = 36200,
 		id = 36202,
+		base = 36200,
+		is_siren = 0,
 		value_1 = "17/轮",
 		weapon_id = {
 			36202
@@ -34346,8 +37358,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36203] = {
-		base = 36200,
 		id = 36203,
+		base = 36200,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			36203
@@ -34372,6 +37385,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34386,8 +37400,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36221] = {
-		base = 36220,
 		id = 36221,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			36221
@@ -34395,8 +37410,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36222] = {
-		base = 36220,
 		id = 36222,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			36222
@@ -34404,8 +37420,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36223] = {
-		base = 36220,
 		id = 36223,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			36223
@@ -34413,8 +37430,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36224] = {
-		base = 36220,
 		id = 36224,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			36224
@@ -34422,8 +37440,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36225] = {
-		base = 36220,
 		id = 36225,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			36225
@@ -34431,8 +37450,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36226] = {
-		base = 36220,
 		id = 36226,
+		base = 36220,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			36226
@@ -34457,6 +37477,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34471,8 +37492,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36241] = {
-		base = 36240,
 		id = 36241,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			36241
@@ -34480,8 +37502,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36242] = {
-		base = 36240,
 		id = 36242,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			36242
@@ -34489,8 +37512,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36243] = {
-		base = 36240,
 		id = 36243,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			36243
@@ -34498,8 +37522,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36244] = {
-		base = 36240,
 		id = 36244,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			36244
@@ -34507,8 +37532,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36245] = {
-		base = 36240,
 		id = 36245,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			36245
@@ -34516,8 +37542,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36246] = {
-		base = 36240,
 		id = 36246,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			36246
@@ -34525,8 +37552,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36247] = {
-		base = 36240,
 		id = 36247,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			36247
@@ -34534,8 +37562,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36248] = {
-		base = 36240,
 		id = 36248,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			36248
@@ -34543,8 +37572,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36249] = {
-		base = 36240,
 		id = 36249,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			36249
@@ -34552,8 +37582,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36250] = {
-		base = 36240,
 		id = 36250,
+		base = 36240,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			36250
@@ -34578,6 +37609,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34592,8 +37624,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36301] = {
-		base = 36300,
 		id = 36301,
+		base = 36300,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			36301
@@ -34601,8 +37634,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36302] = {
-		base = 36300,
 		id = 36302,
+		base = 36300,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			36302
@@ -34610,8 +37644,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36303] = {
-		base = 36300,
 		id = 36303,
+		base = 36300,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			36303
@@ -34636,6 +37671,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34650,8 +37686,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36321] = {
-		base = 36320,
 		id = 36321,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			36321
@@ -34659,8 +37696,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36322] = {
-		base = 36320,
 		id = 36322,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			36322
@@ -34668,8 +37706,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36323] = {
-		base = 36320,
 		id = 36323,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			36323
@@ -34677,8 +37716,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36324] = {
-		base = 36320,
 		id = 36324,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			36324
@@ -34686,8 +37726,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36325] = {
-		base = 36320,
 		id = 36325,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			36325
@@ -34695,8 +37736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36326] = {
-		base = 36320,
 		id = 36326,
+		base = 36320,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			36326
@@ -34721,6 +37763,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34735,8 +37778,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36341] = {
-		base = 36340,
 		id = 36341,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			36341
@@ -34744,8 +37788,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36342] = {
-		base = 36340,
 		id = 36342,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			36342
@@ -34753,8 +37798,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36343] = {
-		base = 36340,
 		id = 36343,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			36343
@@ -34762,8 +37808,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36344] = {
-		base = 36340,
 		id = 36344,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			36344
@@ -34771,8 +37818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36345] = {
-		base = 36340,
 		id = 36345,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			36345
@@ -34780,8 +37828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36346] = {
-		base = 36340,
 		id = 36346,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			36346
@@ -34789,8 +37838,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36347] = {
-		base = 36340,
 		id = 36347,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			36347
@@ -34798,8 +37848,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36348] = {
-		base = 36340,
 		id = 36348,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			36348
@@ -34807,8 +37858,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36349] = {
-		base = 36340,
 		id = 36349,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			36349
@@ -34816,8 +37868,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36350] = {
-		base = 36340,
 		id = 36350,
+		base = 36340,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			36350
@@ -34842,6 +37895,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34856,8 +37910,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36401] = {
-		base = 36400,
 		id = 36401,
+		base = 36400,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			36401
@@ -34865,8 +37920,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36402] = {
-		base = 36400,
 		id = 36402,
+		base = 36400,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			36402
@@ -34874,8 +37930,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36403] = {
-		base = 36400,
 		id = 36403,
+		base = 36400,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			36403
@@ -34900,6 +37957,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34914,8 +37972,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36421] = {
-		base = 36420,
 		id = 36421,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			36421
@@ -34923,8 +37982,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36422] = {
-		base = 36420,
 		id = 36422,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			36422
@@ -34932,8 +37992,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36423] = {
-		base = 36420,
 		id = 36423,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			36423
@@ -34941,8 +38002,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36424] = {
-		base = 36420,
 		id = 36424,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			36424
@@ -34950,8 +38012,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36425] = {
-		base = 36420,
 		id = 36425,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			36425
@@ -34959,8 +38022,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36426] = {
-		base = 36420,
 		id = 36426,
+		base = 36420,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			36426
@@ -34985,6 +38049,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -34999,8 +38064,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36441] = {
-		base = 36440,
 		id = 36441,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			36441
@@ -35008,8 +38074,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36442] = {
-		base = 36440,
 		id = 36442,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			36442
@@ -35017,8 +38084,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36443] = {
-		base = 36440,
 		id = 36443,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			36443
@@ -35026,8 +38094,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36444] = {
-		base = 36440,
 		id = 36444,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			36444
@@ -35035,8 +38104,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36445] = {
-		base = 36440,
 		id = 36445,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			36445
@@ -35044,8 +38114,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36446] = {
-		base = 36440,
 		id = 36446,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			36446
@@ -35053,8 +38124,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36447] = {
-		base = 36440,
 		id = 36447,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			36447
@@ -35062,8 +38134,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36448] = {
-		base = 36440,
 		id = 36448,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			36448
@@ -35071,8 +38144,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36449] = {
-		base = 36440,
 		id = 36449,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			36449
@@ -35080,8 +38154,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36450] = {
-		base = 36440,
 		id = 36450,
+		base = 36440,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			36450
@@ -35106,6 +38181,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35120,8 +38196,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36501] = {
-		base = 36500,
 		id = 36501,
+		base = 36500,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			36501
@@ -35129,8 +38206,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36502] = {
-		base = 36500,
 		id = 36502,
+		base = 36500,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			36502
@@ -35138,8 +38216,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36503] = {
-		base = 36500,
 		id = 36503,
+		base = 36500,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			36503
@@ -35164,6 +38243,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35178,8 +38258,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36521] = {
-		base = 36520,
 		id = 36521,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "21/轮",
 		weapon_id = {
 			36521
@@ -35187,8 +38268,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36522] = {
-		base = 36520,
 		id = 36522,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			36522
@@ -35196,8 +38278,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36523] = {
-		base = 36520,
 		id = 36523,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			36523
@@ -35205,8 +38288,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36524] = {
-		base = 36520,
 		id = 36524,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			36524
@@ -35214,8 +38298,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36525] = {
-		base = 36520,
 		id = 36525,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			36525
@@ -35223,8 +38308,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36526] = {
-		base = 36520,
 		id = 36526,
+		base = 36520,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			36526
@@ -35249,6 +38335,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35263,8 +38350,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36541] = {
-		base = 36540,
 		id = 36541,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			36541
@@ -35272,8 +38360,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36542] = {
-		base = 36540,
 		id = 36542,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			36542
@@ -35281,8 +38370,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36543] = {
-		base = 36540,
 		id = 36543,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			36543
@@ -35290,8 +38380,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36544] = {
-		base = 36540,
 		id = 36544,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			36544
@@ -35299,8 +38390,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36545] = {
-		base = 36540,
 		id = 36545,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			36545
@@ -35308,8 +38400,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36546] = {
-		base = 36540,
 		id = 36546,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			36546
@@ -35317,8 +38410,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36547] = {
-		base = 36540,
 		id = 36547,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			36547
@@ -35326,8 +38420,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36548] = {
-		base = 36540,
 		id = 36548,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			36548
@@ -35335,8 +38430,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36549] = {
-		base = 36540,
 		id = 36549,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			36549
@@ -35344,8 +38440,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36550] = {
-		base = 36540,
 		id = 36550,
+		base = 36540,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			36550
@@ -35370,6 +38467,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35384,8 +38482,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36561] = {
-		base = 36560,
 		id = 36561,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			36561
@@ -35393,8 +38492,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36562] = {
-		base = 36560,
 		id = 36562,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "64/轮",
 		weapon_id = {
 			36562
@@ -35402,8 +38502,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36563] = {
-		base = 36560,
 		id = 36563,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "71/轮",
 		weapon_id = {
 			36563
@@ -35411,8 +38512,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36564] = {
-		base = 36560,
 		id = 36564,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			36564
@@ -35420,8 +38522,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36565] = {
-		base = 36560,
 		id = 36565,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "86/轮",
 		weapon_id = {
 			36565
@@ -35429,8 +38532,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36566] = {
-		base = 36560,
 		id = 36566,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "94/轮",
 		weapon_id = {
 			36566
@@ -35438,8 +38542,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36567] = {
-		base = 36560,
 		id = 36567,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "102/轮",
 		weapon_id = {
 			36567
@@ -35447,8 +38552,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36568] = {
-		base = 36560,
 		id = 36568,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "110/轮",
 		weapon_id = {
 			36568
@@ -35456,8 +38562,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36569] = {
-		base = 36560,
 		id = 36569,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "118/轮",
 		weapon_id = {
 			36569
@@ -35465,8 +38572,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36570] = {
-		base = 36560,
 		id = 36570,
+		base = 36560,
+		is_siren = 0,
 		value_1 = "126/轮",
 		weapon_id = {
 			36570
@@ -35491,6 +38599,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35505,8 +38614,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36601] = {
-		base = 36600,
 		id = 36601,
+		base = 36600,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			36601
@@ -35514,8 +38624,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36602] = {
-		base = 36600,
 		id = 36602,
+		base = 36600,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			36602
@@ -35523,8 +38634,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36603] = {
-		base = 36600,
 		id = 36603,
+		base = 36600,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			36603
@@ -35549,6 +38661,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35563,8 +38676,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36621] = {
-		base = 36620,
 		id = 36621,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			36621
@@ -35572,8 +38686,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36622] = {
-		base = 36620,
 		id = 36622,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			36622
@@ -35581,8 +38696,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36623] = {
-		base = 36620,
 		id = 36623,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			36623
@@ -35590,8 +38706,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36624] = {
-		base = 36620,
 		id = 36624,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			36624
@@ -35599,8 +38716,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36625] = {
-		base = 36620,
 		id = 36625,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			36625
@@ -35608,8 +38726,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36626] = {
-		base = 36620,
 		id = 36626,
+		base = 36620,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			36626
@@ -35634,6 +38753,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35648,8 +38768,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36641] = {
-		base = 36640,
 		id = 36641,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			36641
@@ -35657,8 +38778,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36642] = {
-		base = 36640,
 		id = 36642,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			36642
@@ -35666,8 +38788,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36643] = {
-		base = 36640,
 		id = 36643,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			36643
@@ -35675,8 +38798,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36644] = {
-		base = 36640,
 		id = 36644,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			36644
@@ -35684,8 +38808,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36645] = {
-		base = 36640,
 		id = 36645,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "81/轮",
 		weapon_id = {
 			36645
@@ -35693,8 +38818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36646] = {
-		base = 36640,
 		id = 36646,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "88/轮",
 		weapon_id = {
 			36646
@@ -35702,8 +38828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36647] = {
-		base = 36640,
 		id = 36647,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "95/轮",
 		weapon_id = {
 			36647
@@ -35711,8 +38838,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36648] = {
-		base = 36640,
 		id = 36648,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "102/轮",
 		weapon_id = {
 			36648
@@ -35720,8 +38848,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36649] = {
-		base = 36640,
 		id = 36649,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "109/轮",
 		weapon_id = {
 			36649
@@ -35729,8 +38858,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36650] = {
-		base = 36640,
 		id = 36650,
+		base = 36640,
+		is_siren = 0,
 		value_1 = "116/轮",
 		weapon_id = {
 			36650
@@ -35755,6 +38885,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35769,8 +38900,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[36701] = {
-		base = 36700,
 		id = 36701,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			36701
@@ -35778,8 +38910,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36702] = {
-		base = 36700,
 		id = 36702,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			36702
@@ -35787,8 +38920,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36703] = {
-		base = 36700,
 		id = 36703,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			36703
@@ -35796,8 +38930,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36704] = {
-		base = 36700,
 		id = 36704,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			36704
@@ -35805,8 +38940,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36705] = {
-		base = 36700,
 		id = 36705,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			36705
@@ -35814,8 +38950,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36706] = {
-		base = 36700,
 		id = 36706,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "71/轮",
 		weapon_id = {
 			36706
@@ -35823,8 +38960,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36707] = {
-		base = 36700,
 		id = 36707,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "75/轮",
 		weapon_id = {
 			36707
@@ -35832,8 +38970,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36708] = {
-		base = 36700,
 		id = 36708,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "79/轮",
 		weapon_id = {
 			36708
@@ -35841,8 +38980,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36709] = {
-		base = 36700,
 		id = 36709,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "83/轮",
 		weapon_id = {
 			36709
@@ -35850,8 +38990,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36710] = {
-		base = 36700,
 		id = 36710,
+		base = 36700,
+		is_siren = 0,
 		value_1 = "87/轮",
 		weapon_id = {
 			36710
@@ -35874,8 +39015,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -35890,8 +39032,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37001] = {
-		base = 37000,
 		id = 37001,
+		base = 37000,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			37001,
@@ -35900,8 +39043,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37002] = {
-		base = 37000,
 		id = 37002,
+		base = 37000,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			37002,
@@ -35910,8 +39054,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37003] = {
-		base = 37000,
 		id = 37003,
+		base = 37000,
+		is_siren = 0,
 		value_1 = "11/轮",
 		weapon_id = {
 			37003,
@@ -35937,6 +39082,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -35952,8 +39098,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37021] = {
-		base = 37020,
 		id = 37021,
+		base = 37020,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			37021,
@@ -35962,8 +39109,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37022] = {
-		base = 37020,
 		id = 37022,
+		base = 37020,
+		is_siren = 0,
 		value_1 = "11/轮",
 		weapon_id = {
 			37022,
@@ -35972,8 +39120,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37023] = {
-		base = 37020,
 		id = 37023,
+		base = 37020,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			37023,
@@ -35999,6 +39148,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36014,8 +39164,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37041] = {
-		base = 37040,
 		id = 37041,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "11/轮",
 		weapon_id = {
 			37041,
@@ -36024,8 +39175,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37042] = {
-		base = 37040,
 		id = 37042,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			37042,
@@ -36034,8 +39186,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37043] = {
-		base = 37040,
 		id = 37043,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "13/轮",
 		weapon_id = {
 			37043,
@@ -36044,8 +39197,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37044] = {
-		base = 37040,
 		id = 37044,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			37044,
@@ -36054,8 +39208,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37045] = {
-		base = 37040,
 		id = 37045,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			37045,
@@ -36064,8 +39219,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37046] = {
-		base = 37040,
 		id = 37046,
+		base = 37040,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			37046,
@@ -36091,6 +39247,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36106,8 +39263,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37101] = {
-		base = 37100,
 		id = 37101,
+		base = 37100,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			37101,
@@ -36116,8 +39274,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37102] = {
-		base = 37100,
 		id = 37102,
+		base = 37100,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			37102,
@@ -36126,8 +39285,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37103] = {
-		base = 37100,
 		id = 37103,
+		base = 37100,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			37103,
@@ -36153,6 +39313,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36168,8 +39329,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37121] = {
-		base = 37120,
 		id = 37121,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			37121,
@@ -36178,8 +39340,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37122] = {
-		base = 37120,
 		id = 37122,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			37122,
@@ -36188,8 +39351,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37123] = {
-		base = 37120,
 		id = 37123,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			37123,
@@ -36198,8 +39362,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37124] = {
-		base = 37120,
 		id = 37124,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37124,
@@ -36208,8 +39373,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37125] = {
-		base = 37120,
 		id = 37125,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			37125,
@@ -36218,8 +39384,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37126] = {
-		base = 37120,
 		id = 37126,
+		base = 37120,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			37126,
@@ -36245,6 +39412,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36260,8 +39428,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37141] = {
-		base = 37140,
 		id = 37141,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			37141,
@@ -36270,8 +39439,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37142] = {
-		base = 37140,
 		id = 37142,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			37142,
@@ -36280,8 +39450,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37143] = {
-		base = 37140,
 		id = 37143,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37143,
@@ -36290,8 +39461,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37144] = {
-		base = 37140,
 		id = 37144,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			37144,
@@ -36300,8 +39472,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37145] = {
-		base = 37140,
 		id = 37145,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			37145,
@@ -36310,8 +39483,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37146] = {
-		base = 37140,
 		id = 37146,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			37146,
@@ -36320,8 +39494,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37147] = {
-		base = 37140,
 		id = 37147,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			37147,
@@ -36330,8 +39505,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37148] = {
-		base = 37140,
 		id = 37148,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			37148,
@@ -36340,8 +39516,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37149] = {
-		base = 37140,
 		id = 37149,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "61/轮",
 		weapon_id = {
 			37149,
@@ -36350,8 +39527,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37150] = {
-		base = 37140,
 		id = 37150,
+		base = 37140,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			37150,
@@ -36377,6 +39555,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36392,8 +39571,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37201] = {
-		base = 37200,
 		id = 37201,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			37201,
@@ -36402,8 +39582,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37202] = {
-		base = 37200,
 		id = 37202,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			37202,
@@ -36412,8 +39593,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37203] = {
-		base = 37200,
 		id = 37203,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			37203,
@@ -36422,8 +39604,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37204] = {
-		base = 37200,
 		id = 37204,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37204,
@@ -36432,8 +39615,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37205] = {
-		base = 37200,
 		id = 37205,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			37205,
@@ -36442,8 +39626,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37206] = {
-		base = 37200,
 		id = 37206,
+		base = 37200,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			37206,
@@ -36469,6 +39654,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36484,8 +39670,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37221] = {
-		base = 37220,
 		id = 37221,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			37221,
@@ -36494,8 +39681,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37222] = {
-		base = 37220,
 		id = 37222,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			37222,
@@ -36504,8 +39692,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37223] = {
-		base = 37220,
 		id = 37223,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37223,
@@ -36514,8 +39703,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37224] = {
-		base = 37220,
 		id = 37224,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			37224,
@@ -36524,8 +39714,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37225] = {
-		base = 37220,
 		id = 37225,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			37225,
@@ -36534,8 +39725,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37226] = {
-		base = 37220,
 		id = 37226,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			37226,
@@ -36544,8 +39736,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37227] = {
-		base = 37220,
 		id = 37227,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			37227,
@@ -36554,8 +39747,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37228] = {
-		base = 37220,
 		id = 37228,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			37228,
@@ -36564,8 +39758,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37229] = {
-		base = 37220,
 		id = 37229,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			37229,
@@ -36574,8 +39769,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37230] = {
-		base = 37220,
 		id = 37230,
+		base = 37220,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			37230,
@@ -36601,6 +39797,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36616,8 +39813,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37241] = {
-		base = 37240,
 		id = 37241,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			37241,
@@ -36626,8 +39824,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37242] = {
-		base = 37240,
 		id = 37242,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37242,
@@ -36636,8 +39835,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37243] = {
-		base = 37240,
 		id = 37243,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			37243,
@@ -36646,8 +39846,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37244] = {
-		base = 37240,
 		id = 37244,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			37244,
@@ -36656,8 +39857,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37245] = {
-		base = 37240,
 		id = 37245,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			37245,
@@ -36666,8 +39868,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37246] = {
-		base = 37240,
 		id = 37246,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "51/轮",
 		weapon_id = {
 			37246,
@@ -36676,8 +39879,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37247] = {
-		base = 37240,
 		id = 37247,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			37247,
@@ -36686,8 +39890,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37248] = {
-		base = 37240,
 		id = 37248,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			37248,
@@ -36696,8 +39901,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37249] = {
-		base = 37240,
 		id = 37249,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "64/轮",
 		weapon_id = {
 			37249,
@@ -36706,8 +39912,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37250] = {
-		base = 37240,
 		id = 37250,
+		base = 37240,
+		is_siren = 0,
 		value_1 = "69/轮",
 		weapon_id = {
 			37250,
@@ -36733,6 +39940,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36748,8 +39956,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37301] = {
-		base = 37300,
 		id = 37301,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "33/轮",
 		weapon_id = {
 			37301,
@@ -36758,8 +39967,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37302] = {
-		base = 37300,
 		id = 37302,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			37302,
@@ -36768,8 +39978,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37303] = {
-		base = 37300,
 		id = 37303,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			37303,
@@ -36778,8 +39989,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37304] = {
-		base = 37300,
 		id = 37304,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			37304,
@@ -36788,8 +40000,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37305] = {
-		base = 37300,
 		id = 37305,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			37305,
@@ -36798,8 +40011,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37306] = {
-		base = 37300,
 		id = 37306,
+		base = 37300,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			37306,
@@ -36825,6 +40039,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36840,8 +40055,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37321] = {
-		base = 37320,
 		id = 37321,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			37321,
@@ -36850,8 +40066,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37322] = {
-		base = 37320,
 		id = 37322,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			37322,
@@ -36860,8 +40077,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37323] = {
-		base = 37320,
 		id = 37323,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			37323,
@@ -36870,8 +40088,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37324] = {
-		base = 37320,
 		id = 37324,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			37324,
@@ -36880,8 +40099,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37325] = {
-		base = 37320,
 		id = 37325,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "52/轮",
 		weapon_id = {
 			37325,
@@ -36890,8 +40110,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37326] = {
-		base = 37320,
 		id = 37326,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "57/轮",
 		weapon_id = {
 			37326,
@@ -36900,8 +40121,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37327] = {
-		base = 37320,
 		id = 37327,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			37327,
@@ -36910,8 +40132,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37328] = {
-		base = 37320,
 		id = 37328,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			37328,
@@ -36920,8 +40143,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37329] = {
-		base = 37320,
 		id = 37329,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			37329,
@@ -36930,8 +40154,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37330] = {
-		base = 37320,
 		id = 37330,
+		base = 37320,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			37330,
@@ -36957,6 +40182,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Mitsubishi A7M Reppū 烈风式舰载战斗机，搭载有4门20毫米九九式二号四型机关炮和2枚约500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -36972,8 +40198,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[37341] = {
-		base = 37340,
 		id = 37341,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			37341,
@@ -36982,8 +40209,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37342] = {
-		base = 37340,
 		id = 37342,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			37342,
@@ -36992,8 +40220,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37343] = {
-		base = 37340,
 		id = 37343,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			37343,
@@ -37002,8 +40231,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37344] = {
-		base = 37340,
 		id = 37344,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "55/轮",
 		weapon_id = {
 			37344,
@@ -37012,8 +40242,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37345] = {
-		base = 37340,
 		id = 37345,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "60/轮",
 		weapon_id = {
 			37345,
@@ -37022,8 +40253,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37346] = {
-		base = 37340,
 		id = 37346,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			37346,
@@ -37032,8 +40264,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37347] = {
-		base = 37340,
 		id = 37347,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			37347,
@@ -37042,8 +40275,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37348] = {
-		base = 37340,
 		id = 37348,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "75/轮",
 		weapon_id = {
 			37348,
@@ -37052,8 +40286,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37349] = {
-		base = 37340,
 		id = 37349,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "80/轮",
 		weapon_id = {
 			37349,
@@ -37062,8 +40297,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[37350] = {
-		base = 37340,
 		id = 37350,
+		base = 37340,
+		is_siren = 0,
 		value_1 = "85/轮",
 		weapon_id = {
 			37350,
@@ -37087,8 +40323,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -37102,8 +40339,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38001] = {
-		base = 38000,
 		id = 38001,
+		base = 38000,
+		is_siren = 0,
 		value_1 = "56 x 2",
 		weapon_id = {
 			38001
@@ -37111,8 +40349,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38002] = {
-		base = 38000,
 		id = 38002,
+		base = 38000,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			38002
@@ -37120,8 +40359,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38003] = {
-		base = 38000,
 		id = 38003,
+		base = 38000,
+		is_siren = 0,
 		value_1 = "88 x 2",
 		weapon_id = {
 			38003
@@ -37146,6 +40386,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37160,8 +40401,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38021] = {
-		base = 38020,
 		id = 38021,
+		base = 38020,
+		is_siren = 0,
 		value_1 = "62 x 2",
 		weapon_id = {
 			38021
@@ -37169,8 +40411,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38022] = {
-		base = 38020,
 		id = 38022,
+		base = 38020,
+		is_siren = 0,
 		value_1 = "79 x 2",
 		weapon_id = {
 			38022
@@ -37178,8 +40421,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38023] = {
-		base = 38020,
 		id = 38023,
+		base = 38020,
+		is_siren = 0,
 		value_1 = "97 x 2",
 		weapon_id = {
 			38023
@@ -37204,6 +40448,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37218,8 +40463,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38041] = {
-		base = 38040,
 		id = 38041,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			38041
@@ -37227,8 +40473,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38042] = {
-		base = 38040,
 		id = 38042,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			38042
@@ -37236,8 +40483,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38043] = {
-		base = 38040,
 		id = 38043,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			38043
@@ -37245,8 +40493,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38044] = {
-		base = 38040,
 		id = 38044,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "124 x 2",
 		weapon_id = {
 			38044
@@ -37254,8 +40503,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38045] = {
-		base = 38040,
 		id = 38045,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			38045
@@ -37263,8 +40513,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38046] = {
-		base = 38040,
 		id = 38046,
+		base = 38040,
+		is_siren = 0,
 		value_1 = "164 x 2",
 		weapon_id = {
 			38046
@@ -37289,6 +40540,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37303,8 +40555,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38101] = {
-		base = 38100,
 		id = 38101,
+		base = 38100,
+		is_siren = 0,
 		value_1 = "56 x 3",
 		weapon_id = {
 			38101
@@ -37312,8 +40565,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38102] = {
-		base = 38100,
 		id = 38102,
+		base = 38100,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			38102
@@ -37321,8 +40575,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38103] = {
-		base = 38100,
 		id = 38103,
+		base = 38100,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			38103
@@ -37347,6 +40602,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37361,8 +40617,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38121] = {
-		base = 38120,
 		id = 38121,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			38121
@@ -37370,8 +40627,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38122] = {
-		base = 38120,
 		id = 38122,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			38122
@@ -37379,8 +40637,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38123] = {
-		base = 38120,
 		id = 38123,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "97 x 3",
 		weapon_id = {
 			38123
@@ -37388,8 +40647,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38124] = {
-		base = 38120,
 		id = 38124,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			38124
@@ -37397,8 +40657,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38125] = {
-		base = 38120,
 		id = 38125,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			38125
@@ -37406,8 +40667,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38126] = {
-		base = 38120,
 		id = 38126,
+		base = 38120,
+		is_siren = 0,
 		value_1 = "150 x 3",
 		weapon_id = {
 			38126
@@ -37432,6 +40694,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37446,8 +40709,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38141] = {
-		base = 38140,
 		id = 38141,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			38141
@@ -37455,8 +40719,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38142] = {
-		base = 38140,
 		id = 38142,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			38142
@@ -37464,8 +40729,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38143] = {
-		base = 38140,
 		id = 38143,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			38143
@@ -37473,8 +40739,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38144] = {
-		base = 38140,
 		id = 38144,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			38144
@@ -37482,8 +40749,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38145] = {
-		base = 38140,
 		id = 38145,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			38145
@@ -37491,8 +40759,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38146] = {
-		base = 38140,
 		id = 38146,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "164 x 3",
 		weapon_id = {
 			38146
@@ -37500,8 +40769,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38147] = {
-		base = 38140,
 		id = 38147,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "182 x 3",
 		weapon_id = {
 			38147
@@ -37509,8 +40779,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38148] = {
-		base = 38140,
 		id = 38148,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "202 x 3",
 		weapon_id = {
 			38148
@@ -37518,8 +40789,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38149] = {
-		base = 38140,
 		id = 38149,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "220 x 3",
 		weapon_id = {
 			38149
@@ -37527,8 +40799,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38150] = {
-		base = 38140,
 		id = 38150,
+		base = 38140,
+		is_siren = 0,
 		value_1 = "240 x 3",
 		weapon_id = {
 			38150
@@ -37553,6 +40826,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37567,8 +40841,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38201] = {
-		base = 38200,
 		id = 38201,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "62 x 3",
 		weapon_id = {
 			38201
@@ -37576,8 +40851,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38202] = {
-		base = 38200,
 		id = 38202,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			38202
@@ -37585,8 +40861,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38203] = {
-		base = 38200,
 		id = 38203,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "97 x 3",
 		weapon_id = {
 			38203
@@ -37594,8 +40871,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38204] = {
-		base = 38200,
 		id = 38204,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			38204
@@ -37603,8 +40881,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38205] = {
-		base = 38200,
 		id = 38205,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "132 x 3",
 		weapon_id = {
 			38205
@@ -37612,8 +40891,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38206] = {
-		base = 38200,
 		id = 38206,
+		base = 38200,
+		is_siren = 0,
 		value_1 = "150 x 3",
 		weapon_id = {
 			38206
@@ -37638,6 +40918,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37652,8 +40933,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38221] = {
-		base = 38220,
 		id = 38221,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "68 x 3",
 		weapon_id = {
 			38221
@@ -37661,8 +40943,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38222] = {
-		base = 38220,
 		id = 38222,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			38222
@@ -37670,8 +40953,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38223] = {
-		base = 38220,
 		id = 38223,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			38223
@@ -37679,8 +40963,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38224] = {
-		base = 38220,
 		id = 38224,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			38224
@@ -37688,8 +40973,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38225] = {
-		base = 38220,
 		id = 38225,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			38225
@@ -37697,8 +40983,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38226] = {
-		base = 38220,
 		id = 38226,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "164 x 3",
 		weapon_id = {
 			38226
@@ -37706,8 +40993,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38227] = {
-		base = 38220,
 		id = 38227,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "182 x 3",
 		weapon_id = {
 			38227
@@ -37715,8 +41003,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38228] = {
-		base = 38220,
 		id = 38228,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "202 x 3",
 		weapon_id = {
 			38228
@@ -37724,8 +41013,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38229] = {
-		base = 38220,
 		id = 38229,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "220 x 3",
 		weapon_id = {
 			38229
@@ -37733,8 +41023,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38230] = {
-		base = 38220,
 		id = 38230,
+		base = 38220,
+		is_siren = 0,
 		value_1 = "240 x 3",
 		weapon_id = {
 			38230
@@ -37759,6 +41050,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi B7A Ryusei 流星式舰载攻击机，搭载有2门20毫米机炮、1门13mm机枪和800kg鱼雷",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37773,8 +41065,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[38241] = {
-		base = 38240,
 		id = 38241,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			38241
@@ -37782,8 +41075,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38242] = {
-		base = 38240,
 		id = 38242,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			38242
@@ -37791,8 +41085,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38243] = {
-		base = 38240,
 		id = 38243,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "113 x 3",
 		weapon_id = {
 			38243
@@ -37800,8 +41095,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38244] = {
-		base = 38240,
 		id = 38244,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "134 x 3",
 		weapon_id = {
 			38244
@@ -37809,8 +41105,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38245] = {
-		base = 38240,
 		id = 38245,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "155 x 3",
 		weapon_id = {
 			38245
@@ -37818,8 +41115,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38246] = {
-		base = 38240,
 		id = 38246,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "176 x 3",
 		weapon_id = {
 			38246
@@ -37827,8 +41125,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38247] = {
-		base = 38240,
 		id = 38247,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "197 x 3",
 		weapon_id = {
 			38247
@@ -37836,8 +41135,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38248] = {
-		base = 38240,
 		id = 38248,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "218 x 3",
 		weapon_id = {
 			38248
@@ -37845,8 +41145,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38249] = {
-		base = 38240,
 		id = 38249,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "239 x 3",
 		weapon_id = {
 			38249
@@ -37854,8 +41155,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[38250] = {
-		base = 38240,
 		id = 38250,
+		base = 38240,
+		is_siren = 0,
 		value_1 = "260 x 3",
 		weapon_id = {
 			38250
@@ -37880,6 +41182,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37894,8 +41197,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39001] = {
-		base = 39000,
 		id = 39001,
+		base = 39000,
+		is_siren = 0,
 		value_1 = "89 x 3",
 		weapon_id = {
 			39001
@@ -37903,8 +41207,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39002] = {
-		base = 39000,
 		id = 39002,
+		base = 39000,
+		is_siren = 0,
 		value_1 = "100 x 3",
 		weapon_id = {
 			39002
@@ -37912,8 +41217,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39003] = {
-		base = 39000,
 		id = 39003,
+		base = 39000,
+		is_siren = 0,
 		value_1 = "112 x 3",
 		weapon_id = {
 			39003
@@ -37938,6 +41244,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -37952,8 +41259,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39021] = {
-		base = 39020,
 		id = 39021,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "99 x 3",
 		weapon_id = {
 			39021
@@ -37961,8 +41269,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39022] = {
-		base = 39020,
 		id = 39022,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "111 x 3",
 		weapon_id = {
 			39022
@@ -37970,8 +41279,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39023] = {
-		base = 39020,
 		id = 39023,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "124 x 3",
 		weapon_id = {
 			39023
@@ -37979,8 +41289,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39024] = {
-		base = 39020,
 		id = 39024,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "136 x 3",
 		weapon_id = {
 			39024
@@ -37988,8 +41299,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39025] = {
-		base = 39020,
 		id = 39025,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "149 x 3",
 		weapon_id = {
 			39025
@@ -37997,8 +41309,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39026] = {
-		base = 39020,
 		id = 39026,
+		base = 39020,
+		is_siren = 0,
 		value_1 = "161 x 3",
 		weapon_id = {
 			39026
@@ -38023,6 +41336,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38037,8 +41351,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39041] = {
-		base = 39040,
 		id = 39041,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "107 x 3",
 		weapon_id = {
 			39041
@@ -38046,8 +41361,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39042] = {
-		base = 39040,
 		id = 39042,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "121 x 3",
 		weapon_id = {
 			39042
@@ -38055,8 +41371,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39043] = {
-		base = 39040,
 		id = 39043,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "135 x 3",
 		weapon_id = {
 			39043
@@ -38064,8 +41381,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39044] = {
-		base = 39040,
 		id = 39044,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "149 x 3",
 		weapon_id = {
 			39044
@@ -38073,8 +41391,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39045] = {
-		base = 39040,
 		id = 39045,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "163 x 3",
 		weapon_id = {
 			39045
@@ -38082,8 +41401,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39046] = {
-		base = 39040,
 		id = 39046,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "177 x 3",
 		weapon_id = {
 			39046
@@ -38091,8 +41411,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39047] = {
-		base = 39040,
 		id = 39047,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "192 x 3",
 		weapon_id = {
 			39047
@@ -38100,8 +41421,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39048] = {
-		base = 39040,
 		id = 39048,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "206 x 3",
 		weapon_id = {
 			39048
@@ -38109,8 +41431,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39049] = {
-		base = 39040,
 		id = 39049,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "221 x 3",
 		weapon_id = {
 			39049
@@ -38118,8 +41441,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39050] = {
-		base = 39040,
 		id = 39050,
+		base = 39040,
+		is_siren = 0,
 		value_1 = "235 x 3",
 		weapon_id = {
 			39050
@@ -38144,6 +41468,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38158,8 +41483,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39101] = {
-		base = 39100,
 		id = 39101,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "94 x 3",
 		weapon_id = {
 			39101
@@ -38167,8 +41493,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39102] = {
-		base = 39100,
 		id = 39102,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			39102
@@ -38176,8 +41503,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39103] = {
-		base = 39100,
 		id = 39103,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			39103
@@ -38185,8 +41513,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39104] = {
-		base = 39100,
 		id = 39104,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "131 x 3",
 		weapon_id = {
 			39104
@@ -38194,8 +41523,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39105] = {
-		base = 39100,
 		id = 39105,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "143 x 3",
 		weapon_id = {
 			39105
@@ -38203,8 +41533,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39106] = {
-		base = 39100,
 		id = 39106,
+		base = 39100,
+		is_siren = 0,
 		value_1 = "156 x 3",
 		weapon_id = {
 			39106
@@ -38229,6 +41560,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38243,8 +41575,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39121] = {
-		base = 39120,
 		id = 39121,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "105 x 3",
 		weapon_id = {
 			39121
@@ -38252,8 +41585,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39122] = {
-		base = 39120,
 		id = 39122,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "118 x 3",
 		weapon_id = {
 			39122
@@ -38261,8 +41595,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39123] = {
-		base = 39120,
 		id = 39123,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "131 x 3",
 		weapon_id = {
 			39123
@@ -38270,8 +41605,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39124] = {
-		base = 39120,
 		id = 39124,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			39124
@@ -38279,8 +41615,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39125] = {
-		base = 39120,
 		id = 39125,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "158 x 3",
 		weapon_id = {
 			39125
@@ -38288,8 +41625,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39126] = {
-		base = 39120,
 		id = 39126,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "171 x 3",
 		weapon_id = {
 			39126
@@ -38297,8 +41635,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39127] = {
-		base = 39120,
 		id = 39127,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "186 x 3",
 		weapon_id = {
 			39127
@@ -38306,8 +41645,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39128] = {
-		base = 39120,
 		id = 39128,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "200 x 3",
 		weapon_id = {
 			39128
@@ -38315,8 +41655,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39129] = {
-		base = 39120,
 		id = 39129,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "215 x 3",
 		weapon_id = {
 			39129
@@ -38324,8 +41665,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39130] = {
-		base = 39120,
 		id = 39130,
+		base = 39120,
+		is_siren = 0,
 		value_1 = "229 x 3",
 		weapon_id = {
 			39130
@@ -38350,6 +41692,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38364,8 +41707,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39141] = {
-		base = 39140,
 		id = 39141,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "114 x 3",
 		weapon_id = {
 			39141
@@ -38373,8 +41717,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39142] = {
-		base = 39140,
 		id = 39142,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "129 x 3",
 		weapon_id = {
 			39142
@@ -38382,8 +41727,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39143] = {
-		base = 39140,
 		id = 39143,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "144 x 3",
 		weapon_id = {
 			39143
@@ -38391,8 +41737,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39144] = {
-		base = 39140,
 		id = 39144,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "159 x 3",
 		weapon_id = {
 			39144
@@ -38400,8 +41747,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39145] = {
-		base = 39140,
 		id = 39145,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "174 x 3",
 		weapon_id = {
 			39145
@@ -38409,8 +41757,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39146] = {
-		base = 39140,
 		id = 39146,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "189 x 3",
 		weapon_id = {
 			39146
@@ -38418,8 +41767,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39147] = {
-		base = 39140,
 		id = 39147,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "204 x 3",
 		weapon_id = {
 			39147
@@ -38427,8 +41777,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39148] = {
-		base = 39140,
 		id = 39148,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "219 x 3",
 		weapon_id = {
 			39148
@@ -38436,8 +41787,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39149] = {
-		base = 39140,
 		id = 39149,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "234 x 3",
 		weapon_id = {
 			39149
@@ -38445,8 +41797,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39150] = {
-		base = 39140,
 		id = 39150,
+		base = 39140,
+		is_siren = 0,
 		value_1 = "249 x 3",
 		weapon_id = {
 			39150
@@ -38471,6 +41824,7 @@ pg.equip_data_statistics = {
 		rarity = 2,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi E16A Zuiun 瑞云式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38485,8 +41839,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39201] = {
-		base = 39200,
 		id = 39201,
+		base = 39200,
+		is_siren = 0,
 		value_1 = "138 x 1",
 		weapon_id = {
 			39201
@@ -38494,8 +41849,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39202] = {
-		base = 39200,
 		id = 39202,
+		base = 39200,
+		is_siren = 0,
 		value_1 = "156 x 1",
 		weapon_id = {
 			39202
@@ -38503,8 +41859,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39203] = {
-		base = 39200,
 		id = 39203,
+		base = 39200,
+		is_siren = 0,
 		value_1 = "174 x 1",
 		weapon_id = {
 			39203
@@ -38529,6 +41886,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi E16A Zuiun 瑞云式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38543,8 +41901,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39221] = {
-		base = 39220,
 		id = 39221,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "152 x 1",
 		weapon_id = {
 			39221
@@ -38552,8 +41911,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39222] = {
-		base = 39220,
 		id = 39222,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "171 x 1",
 		weapon_id = {
 			39222
@@ -38561,8 +41921,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39223] = {
-		base = 39220,
 		id = 39223,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "191 x 1",
 		weapon_id = {
 			39223
@@ -38570,8 +41931,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39224] = {
-		base = 39220,
 		id = 39224,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "210 x 1",
 		weapon_id = {
 			39224
@@ -38579,8 +41941,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39225] = {
-		base = 39220,
 		id = 39225,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "230 x 1",
 		weapon_id = {
 			39225
@@ -38588,8 +41951,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39226] = {
-		base = 39220,
 		id = 39226,
+		base = 39220,
+		is_siren = 0,
 		value_1 = "249 x 1",
 		weapon_id = {
 			39226
@@ -38614,6 +41978,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi E16A Zuiun 瑞云式水上侦察机，搭载有2门20毫米机炮、1门13mm机枪和1枚500磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38628,8 +41993,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39241] = {
-		base = 39240,
 		id = 39241,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "165 x 1",
 		weapon_id = {
 			39241
@@ -38637,8 +42003,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39242] = {
-		base = 39240,
 		id = 39242,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "186 x 1",
 		weapon_id = {
 			39242
@@ -38646,8 +42013,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39243] = {
-		base = 39240,
 		id = 39243,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "207 x 1",
 		weapon_id = {
 			39243
@@ -38655,8 +42023,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39244] = {
-		base = 39240,
 		id = 39244,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "228 x 1",
 		weapon_id = {
 			39244
@@ -38664,8 +42033,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39245] = {
-		base = 39240,
 		id = 39245,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "249 x 1",
 		weapon_id = {
 			39245
@@ -38673,8 +42043,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39246] = {
-		base = 39240,
 		id = 39246,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "270 x 1",
 		weapon_id = {
 			39246
@@ -38682,8 +42053,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39247] = {
-		base = 39240,
 		id = 39247,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "293 x 1",
 		weapon_id = {
 			39247
@@ -38691,8 +42063,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39248] = {
-		base = 39240,
 		id = 39248,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "315 x 1",
 		weapon_id = {
 			39248
@@ -38700,8 +42073,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39249] = {
-		base = 39240,
 		id = 39249,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "338 x 1",
 		weapon_id = {
 			39249
@@ -38709,8 +42083,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39250] = {
-		base = 39240,
 		id = 39250,
+		base = 39240,
+		is_siren = 0,
 		value_1 = "360 x 1",
 		weapon_id = {
 			39250
@@ -38735,6 +42110,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 3,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Aichi M6A1 Seiran 晴岚式特殊攻击机，搭载1门13mm机枪和1枚约1600磅炸弹",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38751,8 +42127,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[39301] = {
-		base = 39300,
 		id = 39301,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "196 x 1",
 		weapon_id = {
 			39301
@@ -38760,8 +42137,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39302] = {
-		base = 39300,
 		id = 39302,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "221 x 1",
 		weapon_id = {
 			39302
@@ -38769,8 +42147,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39303] = {
-		base = 39300,
 		id = 39303,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "247 x 1",
 		weapon_id = {
 			39303
@@ -38778,8 +42157,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39304] = {
-		base = 39300,
 		id = 39304,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "273 x 1",
 		weapon_id = {
 			39304
@@ -38787,8 +42167,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39305] = {
-		base = 39300,
 		id = 39305,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "299 x 1",
 		weapon_id = {
 			39305
@@ -38796,8 +42177,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39306] = {
-		base = 39300,
 		id = 39306,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "325 x 1",
 		weapon_id = {
 			39306
@@ -38805,8 +42187,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39307] = {
-		base = 39300,
 		id = 39307,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "351 x 1",
 		weapon_id = {
 			39307
@@ -38814,8 +42197,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39308] = {
-		base = 39300,
 		id = 39308,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "377 x 1",
 		weapon_id = {
 			39308
@@ -38823,8 +42207,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39309] = {
-		base = 39300,
 		id = 39309,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "403 x 1",
 		weapon_id = {
 			39309
@@ -38832,8 +42217,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[39310] = {
-		base = 39300,
 		id = 39310,
+		base = 39300,
+		is_siren = 0,
 		value_1 = "429 x 1",
 		weapon_id = {
 			39310
@@ -38856,8 +42242,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "10°",
-		descrip = "单装127mm主炮，大部分驱逐都可以使用",
+		is_siren = 0,
 		ammo = "穿甲弹",
+		descrip = "单装127mm主炮，大部分驱逐都可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -38880,14 +42267,16 @@ pg.equip_data_statistics = {
 	[41001] = {
 		id = 41001,
 		base = 41000,
+		is_siren = 0,
 		weapon_id = {
 			41001
 		},
 		property_rate = {}
 	},
 	[41002] = {
-		base = 41000,
 		id = 41002,
+		base = 41000,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			41002
@@ -38895,8 +42284,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41003] = {
-		base = 41000,
 		id = 41003,
+		base = 41000,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			41003
@@ -38921,6 +42311,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "单装127mm主炮，大部分驱逐都可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -38944,14 +42335,16 @@ pg.equip_data_statistics = {
 	[41021] = {
 		id = 41021,
 		base = 41020,
+		is_siren = 0,
 		weapon_id = {
 			41021
 		},
 		property_rate = {}
 	},
 	[41022] = {
-		base = 41020,
 		id = 41022,
+		base = 41020,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			41022
@@ -38959,8 +42352,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41023] = {
-		base = 41020,
 		id = 41023,
+		base = 41020,
+		is_siren = 0,
 		value_1 = "6 x 1",
 		weapon_id = {
 			41023
@@ -38985,6 +42379,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "单装127mm主炮，大部分驱逐都可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39008,14 +42403,16 @@ pg.equip_data_statistics = {
 	[41041] = {
 		id = 41041,
 		base = 41040,
+		is_siren = 0,
 		weapon_id = {
 			41041
 		},
 		property_rate = {}
 	},
 	[41042] = {
-		base = 41040,
 		id = 41042,
+		base = 41040,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			41042
@@ -39023,8 +42420,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41043] = {
-		base = 41040,
 		id = 41043,
+		base = 41040,
+		is_siren = 0,
 		value_1 = "7 x 1",
 		weapon_id = {
 			41043
@@ -39032,8 +42430,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41044] = {
-		base = 41040,
 		id = 41044,
+		base = 41040,
+		is_siren = 0,
 		value_1 = "8 x 1",
 		weapon_id = {
 			41044
@@ -39041,8 +42440,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41045] = {
-		base = 41040,
 		id = 41045,
+		base = 41040,
+		is_siren = 0,
 		value_1 = "8 x 1",
 		weapon_id = {
 			41045
@@ -39050,8 +42450,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41046] = {
-		base = 41040,
 		id = 41046,
+		base = 41040,
+		is_siren = 0,
 		value_1 = "9 x 1",
 		weapon_id = {
 			41046
@@ -39077,6 +42478,7 @@ pg.equip_data_statistics = {
 		nationality = 4,
 		attribute_3 = "antiaircraft",
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 		value_3 = 2,
 		attribute_1 = "damage",
@@ -39098,8 +42500,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[41101] = {
-		base = 41100,
 		id = 41101,
+		base = 41100,
+		is_siren = 0,
 		value_1 = "5 x 4",
 		weapon_id = {
 			41101
@@ -39107,8 +42510,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41102] = {
-		base = 41100,
 		id = 41102,
+		base = 41100,
+		is_siren = 0,
 		value_1 = "5 x 4",
 		weapon_id = {
 			41102
@@ -39116,8 +42520,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41103] = {
-		base = 41100,
 		id = 41103,
+		base = 41100,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			41103
@@ -39143,6 +42548,7 @@ pg.equip_data_statistics = {
 		nationality = 4,
 		attribute_3 = "antiaircraft",
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 		value_3 = 5,
 		attribute_1 = "damage",
@@ -39164,8 +42570,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[41121] = {
-		base = 41120,
 		id = 41121,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "5 x 4",
 		weapon_id = {
 			41121
@@ -39173,8 +42580,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41122] = {
-		base = 41120,
 		id = 41122,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "5 x 4",
 		weapon_id = {
 			41122
@@ -39182,8 +42590,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41123] = {
-		base = 41120,
 		id = 41123,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			41123
@@ -39191,8 +42600,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41124] = {
-		base = 41120,
 		id = 41124,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			41124
@@ -39200,8 +42610,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41125] = {
-		base = 41120,
 		id = 41125,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			41125
@@ -39209,8 +42620,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41126] = {
-		base = 41120,
 		id = 41126,
+		base = 41120,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			41126
@@ -39236,6 +42648,7 @@ pg.equip_data_statistics = {
 		nationality = 4,
 		attribute_3 = "antiaircraft",
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装128mmSKC41高平两用炮，伯鲁克科技新研发的驱逐舰主炮，加强了对空火力",
 		value_3 = 10,
 		attribute_1 = "damage",
@@ -39257,8 +42670,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[41141] = {
-		base = 41140,
 		id = 41141,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			41141
@@ -39266,8 +42680,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41142] = {
-		base = 41140,
 		id = 41142,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "6 x 4",
 		weapon_id = {
 			41142
@@ -39275,8 +42690,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41143] = {
-		base = 41140,
 		id = 41143,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			41143
@@ -39284,8 +42700,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41144] = {
-		base = 41140,
 		id = 41144,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "7 x 4",
 		weapon_id = {
 			41144
@@ -39293,8 +42710,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41145] = {
-		base = 41140,
 		id = 41145,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			41145
@@ -39302,8 +42720,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41146] = {
-		base = 41140,
 		id = 41146,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			41146
@@ -39311,8 +42730,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41147] = {
-		base = 41140,
 		id = 41147,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			41147
@@ -39320,8 +42740,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41148] = {
-		base = 41140,
 		id = 41148,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			41148
@@ -39329,8 +42750,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41149] = {
-		base = 41140,
 		id = 41149,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			41149
@@ -39338,8 +42760,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[41150] = {
-		base = 41140,
 		id = 41150,
+		base = 41140,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			41150
@@ -39364,6 +42787,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39384,8 +42808,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42001] = {
-		base = 42000,
 		id = 42001,
+		base = 42000,
+		is_siren = 0,
 		value_1 = "8 x 1",
 		weapon_id = {
 			42001
@@ -39393,8 +42818,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42002] = {
-		base = 42000,
 		id = 42002,
+		base = 42000,
+		is_siren = 0,
 		value_1 = "9 x 1",
 		weapon_id = {
 			42002
@@ -39402,8 +42828,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42003] = {
-		base = 42000,
 		id = 42003,
+		base = 42000,
+		is_siren = 0,
 		value_1 = "10 x 1",
 		weapon_id = {
 			42003
@@ -39428,6 +42855,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39448,8 +42876,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42021] = {
-		base = 42020,
 		id = 42021,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "9 x 1",
 		weapon_id = {
 			42021
@@ -39457,8 +42886,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42022] = {
-		base = 42020,
 		id = 42022,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "10 x 1",
 		weapon_id = {
 			42022
@@ -39466,8 +42896,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42023] = {
-		base = 42020,
 		id = 42023,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "11 x 1",
 		weapon_id = {
 			42023
@@ -39475,8 +42906,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42024] = {
-		base = 42020,
 		id = 42024,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "12 x 1",
 		weapon_id = {
 			42024
@@ -39484,8 +42916,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42025] = {
-		base = 42020,
 		id = 42025,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "13 x 1",
 		weapon_id = {
 			42025
@@ -39493,8 +42926,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42026] = {
-		base = 42020,
 		id = 42026,
+		base = 42020,
+		is_siren = 0,
 		value_1 = "14 x 1",
 		weapon_id = {
 			42026
@@ -39519,6 +42953,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "单装SKC28式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39539,8 +42974,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42041] = {
-		base = 42040,
 		id = 42041,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "10 x 1",
 		weapon_id = {
 			42041
@@ -39548,8 +42984,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42042] = {
-		base = 42040,
 		id = 42042,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "11 x 1",
 		weapon_id = {
 			42042
@@ -39557,8 +42994,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42043] = {
-		base = 42040,
 		id = 42043,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "12 x 1",
 		weapon_id = {
 			42043
@@ -39566,8 +43004,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42044] = {
-		base = 42040,
 		id = 42044,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "13 x 1",
 		weapon_id = {
 			42044
@@ -39575,8 +43014,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42045] = {
-		base = 42040,
 		id = 42045,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "14 x 1",
 		weapon_id = {
 			42045
@@ -39584,8 +43024,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42046] = {
-		base = 42040,
 		id = 42046,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "15 x 1",
 		weapon_id = {
 			42046
@@ -39593,8 +43034,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42047] = {
-		base = 42040,
 		id = 42047,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "16 x 1",
 		weapon_id = {
 			42047
@@ -39602,8 +43044,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42048] = {
-		base = 42040,
 		id = 42048,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "17 x 1",
 		weapon_id = {
 			42048
@@ -39611,8 +43054,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42049] = {
-		base = 42040,
 		id = 42049,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "19 x 1",
 		weapon_id = {
 			42049
@@ -39620,8 +43064,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42050] = {
-		base = 42040,
 		id = 42050,
+		base = 42040,
+		is_siren = 0,
 		value_1 = "21 x 1",
 		weapon_id = {
 			42050
@@ -39646,6 +43091,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39666,8 +43112,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42101] = {
-		base = 42100,
 		id = 42101,
+		base = 42100,
+		is_siren = 0,
 		value_1 = "8 x 3",
 		weapon_id = {
 			42101
@@ -39675,8 +43122,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42102] = {
-		base = 42100,
 		id = 42102,
+		base = 42100,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			42102
@@ -39684,8 +43132,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42103] = {
-		base = 42100,
 		id = 42103,
+		base = 42100,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			42103
@@ -39710,6 +43159,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39730,8 +43180,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42121] = {
-		base = 42120,
 		id = 42121,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "9 x 3",
 		weapon_id = {
 			42121
@@ -39739,8 +43190,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42122] = {
-		base = 42120,
 		id = 42122,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			42122
@@ -39748,8 +43200,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42123] = {
-		base = 42120,
 		id = 42123,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			42123
@@ -39757,8 +43210,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42124] = {
-		base = 42120,
 		id = 42124,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			42124
@@ -39766,8 +43220,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42125] = {
-		base = 42120,
 		id = 42125,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			42125
@@ -39775,8 +43230,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42126] = {
-		base = 42120,
 		id = 42126,
+		base = 42120,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			42126
@@ -39801,6 +43257,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联装SKC25式150mm主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39821,8 +43278,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42141] = {
-		base = 42140,
 		id = 42141,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "10 x 3",
 		weapon_id = {
 			42141
@@ -39830,8 +43288,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42142] = {
-		base = 42140,
 		id = 42142,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "11 x 3",
 		weapon_id = {
 			42142
@@ -39839,8 +43298,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42143] = {
-		base = 42140,
 		id = 42143,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "12 x 3",
 		weapon_id = {
 			42143
@@ -39848,8 +43308,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42144] = {
-		base = 42140,
 		id = 42144,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "13 x 3",
 		weapon_id = {
 			42144
@@ -39857,8 +43318,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42145] = {
-		base = 42140,
 		id = 42145,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "14 x 3",
 		weapon_id = {
 			42145
@@ -39866,8 +43328,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42146] = {
-		base = 42140,
 		id = 42146,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "15 x 3",
 		weapon_id = {
 			42146
@@ -39875,8 +43338,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42147] = {
-		base = 42140,
 		id = 42147,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "16 x 3",
 		weapon_id = {
 			42147
@@ -39884,8 +43348,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42148] = {
-		base = 42140,
 		id = 42148,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "17 x 3",
 		weapon_id = {
 			42148
@@ -39893,8 +43358,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42149] = {
-		base = 42140,
 		id = 42149,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "19 x 3",
 		weapon_id = {
 			42149
@@ -39902,8 +43368,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42150] = {
-		base = 42140,
 		id = 42150,
+		base = 42140,
+		is_siren = 0,
 		value_1 = "21 x 3",
 		weapon_id = {
 			42150
@@ -39928,6 +43395,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -39948,8 +43416,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42201] = {
-		base = 42200,
 		id = 42201,
+		base = 42200,
+		is_siren = 0,
 		value_1 = "8 x 4",
 		weapon_id = {
 			42201
@@ -39957,8 +43426,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42202] = {
-		base = 42200,
 		id = 42202,
+		base = 42200,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			42202
@@ -39966,8 +43436,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42203] = {
-		base = 42200,
 		id = 42203,
+		base = 42200,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			42203
@@ -39992,6 +43463,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40012,8 +43484,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42221] = {
-		base = 42220,
 		id = 42221,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "9 x 4",
 		weapon_id = {
 			42221
@@ -40021,8 +43494,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42222] = {
-		base = 42220,
 		id = 42222,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			42222
@@ -40030,8 +43504,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42223] = {
-		base = 42220,
 		id = 42223,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			42223
@@ -40039,8 +43514,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42224] = {
-		base = 42220,
 		id = 42224,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			42224
@@ -40048,8 +43524,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42225] = {
-		base = 42220,
 		id = 42225,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			42225
@@ -40057,8 +43534,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42226] = {
-		base = 42220,
 		id = 42226,
+		base = 42220,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			42226
@@ -40083,6 +43561,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装TbtsKC36式150mm主炮，1936A型驱逐舰主炮，轻巡和部分驱逐可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40103,8 +43582,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[42241] = {
-		base = 42240,
 		id = 42241,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "10 x 4",
 		weapon_id = {
 			42241
@@ -40112,8 +43592,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42242] = {
-		base = 42240,
 		id = 42242,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "11 x 4",
 		weapon_id = {
 			42242
@@ -40121,8 +43602,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42243] = {
-		base = 42240,
 		id = 42243,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "12 x 4",
 		weapon_id = {
 			42243
@@ -40130,8 +43612,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42244] = {
-		base = 42240,
 		id = 42244,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "13 x 4",
 		weapon_id = {
 			42244
@@ -40139,8 +43622,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42245] = {
-		base = 42240,
 		id = 42245,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "14 x 4",
 		weapon_id = {
 			42245
@@ -40148,8 +43632,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42246] = {
-		base = 42240,
 		id = 42246,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "15 x 4",
 		weapon_id = {
 			42246
@@ -40157,8 +43642,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42247] = {
-		base = 42240,
 		id = 42247,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "16 x 4",
 		weapon_id = {
 			42247
@@ -40166,8 +43652,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42248] = {
-		base = 42240,
 		id = 42248,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "17 x 4",
 		weapon_id = {
 			42248
@@ -40175,8 +43662,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42249] = {
-		base = 42240,
 		id = 42249,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "19 x 4",
 		weapon_id = {
 			42249
@@ -40184,8 +43672,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[42250] = {
-		base = 42240,
 		id = 42250,
+		base = 42240,
+		is_siren = 0,
 		value_1 = "21 x 4",
 		weapon_id = {
 			42250
@@ -40210,6 +43699,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40228,8 +43718,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43001] = {
-		base = 43000,
 		id = 43001,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "27 x 6",
 		weapon_id = {
 			43001
@@ -40237,8 +43728,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43002] = {
-		base = 43000,
 		id = 43002,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "29 x 6",
 		weapon_id = {
 			43002
@@ -40246,8 +43738,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43003] = {
-		base = 43000,
 		id = 43003,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "31 x 6",
 		weapon_id = {
 			43003
@@ -40255,8 +43748,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43004] = {
-		base = 43000,
 		id = 43004,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "33 x 6",
 		weapon_id = {
 			43004
@@ -40264,8 +43758,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43005] = {
-		base = 43000,
 		id = 43005,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "35 x 6",
 		weapon_id = {
 			43005
@@ -40273,8 +43768,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43006] = {
-		base = 43000,
 		id = 43006,
+		base = 43000,
+		is_siren = 0,
 		value_1 = "37 x 6",
 		weapon_id = {
 			43006
@@ -40299,6 +43795,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40317,8 +43814,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43021] = {
-		base = 43020,
 		id = 43021,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "29 x 6",
 		weapon_id = {
 			43021
@@ -40326,8 +43824,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43022] = {
-		base = 43020,
 		id = 43022,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "31 x 6",
 		weapon_id = {
 			43022
@@ -40335,8 +43834,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43023] = {
-		base = 43020,
 		id = 43023,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "33 x 6",
 		weapon_id = {
 			43023
@@ -40344,8 +43844,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43024] = {
-		base = 43020,
 		id = 43024,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "35 x 6",
 		weapon_id = {
 			43024
@@ -40353,8 +43854,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43025] = {
-		base = 43020,
 		id = 43025,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "37 x 6",
 		weapon_id = {
 			43025
@@ -40362,8 +43864,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43026] = {
-		base = 43020,
 		id = 43026,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "39 x 6",
 		weapon_id = {
 			43026
@@ -40371,8 +43874,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43027] = {
-		base = 43020,
 		id = 43027,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "41 x 6",
 		weapon_id = {
 			43027
@@ -40380,8 +43884,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43028] = {
-		base = 43020,
 		id = 43028,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "43 x 6",
 		weapon_id = {
 			43028
@@ -40389,8 +43894,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43029] = {
-		base = 43020,
 		id = 43029,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "45 x 6",
 		weapon_id = {
 			43029
@@ -40398,8 +43904,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43030] = {
-		base = 43020,
 		id = 43030,
+		base = 43020,
+		is_siren = 0,
 		value_1 = "47 x 6",
 		weapon_id = {
 			43030
@@ -40424,6 +43931,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40442,8 +43950,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43041] = {
-		base = 43040,
 		id = 43041,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "32 x 6",
 		weapon_id = {
 			43041
@@ -40451,8 +43960,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43042] = {
-		base = 43040,
 		id = 43042,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "34 x 6",
 		weapon_id = {
 			43042
@@ -40460,8 +43970,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43043] = {
-		base = 43040,
 		id = 43043,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "36 x 6",
 		weapon_id = {
 			43043
@@ -40469,8 +43980,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43044] = {
-		base = 43040,
 		id = 43044,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "38 x 6",
 		weapon_id = {
 			43044
@@ -40478,8 +43990,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43045] = {
-		base = 43040,
 		id = 43045,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "40 x 6",
 		weapon_id = {
 			43045
@@ -40487,8 +44000,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43046] = {
-		base = 43040,
 		id = 43046,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "42 x 6",
 		weapon_id = {
 			43046
@@ -40496,8 +44010,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43047] = {
-		base = 43040,
 		id = 43047,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "44 x 6",
 		weapon_id = {
 			43047
@@ -40505,8 +44020,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43048] = {
-		base = 43040,
 		id = 43048,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "46 x 6",
 		weapon_id = {
 			43048
@@ -40514,8 +44030,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43049] = {
-		base = 43040,
 		id = 43049,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "48 x 6",
 		weapon_id = {
 			43049
@@ -40523,8 +44040,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43050] = {
-		base = 43040,
 		id = 43050,
+		base = 43040,
+		is_siren = 0,
 		value_1 = "50 x 6",
 		weapon_id = {
 			43050
@@ -40549,6 +44067,7 @@ pg.equip_data_statistics = {
 		angle = 38,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联装203mmSKC主炮，希佩尔海军上将级重巡主炮，重巡可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40567,8 +44086,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43061] = {
-		base = 43060,
 		id = 43061,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "32 x 6",
 		weapon_id = {
 			43061
@@ -40576,8 +44096,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43062] = {
-		base = 43060,
 		id = 43062,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "34 x 6",
 		weapon_id = {
 			43062
@@ -40585,8 +44106,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43063] = {
-		base = 43060,
 		id = 43063,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "36 x 6",
 		weapon_id = {
 			43063
@@ -40594,8 +44116,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43064] = {
-		base = 43060,
 		id = 43064,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "38 x 6",
 		weapon_id = {
 			43064
@@ -40603,8 +44126,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43065] = {
-		base = 43060,
 		id = 43065,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "40 x 6",
 		weapon_id = {
 			43065
@@ -40612,8 +44136,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43066] = {
-		base = 43060,
 		id = 43066,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "42 x 6",
 		weapon_id = {
 			43066
@@ -40621,8 +44146,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43067] = {
-		base = 43060,
 		id = 43067,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "44 x 6",
 		weapon_id = {
 			43067
@@ -40630,8 +44156,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43068] = {
-		base = 43060,
 		id = 43068,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "46 x 6",
 		weapon_id = {
 			43068
@@ -40639,8 +44166,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43069] = {
-		base = 43060,
 		id = 43069,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "48 x 6",
 		weapon_id = {
 			43069
@@ -40648,8 +44176,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43070] = {
-		base = 43060,
 		id = 43070,
+		base = 43060,
+		is_siren = 0,
 		value_1 = "50 x 6",
 		weapon_id = {
 			43070
@@ -40674,6 +44203,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40692,8 +44222,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43101] = {
-		base = 43100,
 		id = 43101,
+		base = 43100,
+		is_siren = 0,
 		value_1 = "32 x 6",
 		weapon_id = {
 			43101
@@ -40701,8 +44232,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43102] = {
-		base = 43100,
 		id = 43102,
+		base = 43100,
+		is_siren = 0,
 		value_1 = "34 x 6",
 		weapon_id = {
 			43102
@@ -40710,8 +44242,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43103] = {
-		base = 43100,
 		id = 43103,
+		base = 43100,
+		is_siren = 0,
 		value_1 = "36 x 6",
 		weapon_id = {
 			43103
@@ -40736,6 +44269,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40754,8 +44288,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43121] = {
-		base = 43120,
 		id = 43121,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "34 x 6",
 		weapon_id = {
 			43121
@@ -40763,8 +44298,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43122] = {
-		base = 43120,
 		id = 43122,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "36 x 6",
 		weapon_id = {
 			43122
@@ -40772,8 +44308,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43123] = {
-		base = 43120,
 		id = 43123,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "38 x 6",
 		weapon_id = {
 			43123
@@ -40781,8 +44318,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43124] = {
-		base = 43120,
 		id = 43124,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "40 x 6",
 		weapon_id = {
 			43124
@@ -40790,8 +44328,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43125] = {
-		base = 43120,
 		id = 43125,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "42 x 6",
 		weapon_id = {
 			43125
@@ -40799,8 +44338,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43126] = {
-		base = 43120,
 		id = 43126,
+		base = 43120,
+		is_siren = 0,
 		value_1 = "44 x 6",
 		weapon_id = {
 			43126
@@ -40825,6 +44365,7 @@ pg.equip_data_statistics = {
 		angle = 40,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC28主炮，德意志级装甲舰主炮，仅德意志级可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40843,8 +44384,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[43141] = {
-		base = 43140,
 		id = 43141,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "37 x 6",
 		weapon_id = {
 			43141
@@ -40852,8 +44394,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43142] = {
-		base = 43140,
 		id = 43142,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "39 x 6",
 		weapon_id = {
 			43142
@@ -40861,8 +44404,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43143] = {
-		base = 43140,
 		id = 43143,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "41 x 6",
 		weapon_id = {
 			43143
@@ -40870,8 +44414,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43144] = {
-		base = 43140,
 		id = 43144,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "43 x 6",
 		weapon_id = {
 			43144
@@ -40879,8 +44424,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43145] = {
-		base = 43140,
 		id = 43145,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "45 x 6",
 		weapon_id = {
 			43145
@@ -40888,8 +44434,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43146] = {
-		base = 43140,
 		id = 43146,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "47 x 6",
 		weapon_id = {
 			43146
@@ -40897,8 +44444,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43147] = {
-		base = 43140,
 		id = 43147,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "49 x 6",
 		weapon_id = {
 			43147
@@ -40906,8 +44454,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43148] = {
-		base = 43140,
 		id = 43148,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "51 x 6",
 		weapon_id = {
 			43148
@@ -40915,8 +44464,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43149] = {
-		base = 43140,
 		id = 43149,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "53 x 6",
 		weapon_id = {
 			43149
@@ -40924,8 +44474,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[43150] = {
-		base = 43140,
 		id = 43150,
+		base = 43140,
+		is_siren = 0,
 		value_1 = "55 x 6",
 		weapon_id = {
 			43150
@@ -40950,6 +44501,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -40969,8 +44521,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44001] = {
-		base = 44000,
 		id = 44001,
+		base = 44000,
+		is_siren = 0,
 		value_1 = "38 x 3",
 		weapon_id = {
 			44001
@@ -40978,8 +44531,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44002] = {
-		base = 44000,
 		id = 44002,
+		base = 44000,
+		is_siren = 0,
 		value_1 = "42 x 3",
 		weapon_id = {
 			44002
@@ -40987,8 +44541,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44003] = {
-		base = 44000,
 		id = 44003,
+		base = 44000,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			44003
@@ -41013,6 +44568,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41032,8 +44588,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44021] = {
-		base = 44020,
 		id = 44021,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "42 x 3",
 		weapon_id = {
 			44021
@@ -41041,8 +44598,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44022] = {
-		base = 44020,
 		id = 44022,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			44022
@@ -41050,8 +44608,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44023] = {
-		base = 44020,
 		id = 44023,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "51 x 3",
 		weapon_id = {
 			44023
@@ -41059,8 +44618,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44024] = {
-		base = 44020,
 		id = 44024,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "55 x 3",
 		weapon_id = {
 			44024
@@ -41068,8 +44628,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44025] = {
-		base = 44020,
 		id = 44025,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "59 x 3",
 		weapon_id = {
 			44025
@@ -41077,8 +44638,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44026] = {
-		base = 44020,
 		id = 44026,
+		base = 44020,
+		is_siren = 0,
 		value_1 = "64 x 3",
 		weapon_id = {
 			44026
@@ -41103,6 +44665,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "三联283mmSKC34主炮，沙恩霍斯特级战列巡洋舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41122,8 +44685,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44041] = {
-		base = 44040,
 		id = 44041,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "46 x 3",
 		weapon_id = {
 			44041
@@ -41131,8 +44695,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44042] = {
-		base = 44040,
 		id = 44042,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "50 x 3",
 		weapon_id = {
 			44042
@@ -41140,8 +44705,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44043] = {
-		base = 44040,
 		id = 44043,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "56 x 3",
 		weapon_id = {
 			44043
@@ -41149,8 +44715,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44044] = {
-		base = 44040,
 		id = 44044,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "60 x 3",
 		weapon_id = {
 			44044
@@ -41158,8 +44725,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44045] = {
-		base = 44040,
 		id = 44045,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "64 x 3",
 		weapon_id = {
 			44045
@@ -41167,8 +44735,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44046] = {
-		base = 44040,
 		id = 44046,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "70 x 3",
 		weapon_id = {
 			44046
@@ -41176,8 +44745,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44047] = {
-		base = 44040,
 		id = 44047,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "74 x 3",
 		weapon_id = {
 			44047
@@ -41185,8 +44755,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44048] = {
-		base = 44040,
 		id = 44048,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "80 x 3",
 		weapon_id = {
 			44048
@@ -41194,8 +44765,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44049] = {
-		base = 44040,
 		id = 44049,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "84 x 3",
 		weapon_id = {
 			44049
@@ -41203,8 +44775,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44050] = {
-		base = 44040,
 		id = 44050,
+		base = 44040,
+		is_siren = 0,
 		value_1 = "88 x 3",
 		weapon_id = {
 			44050
@@ -41229,6 +44802,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41248,8 +44822,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44101] = {
-		base = 44100,
 		id = 44101,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "55 x 2",
 		weapon_id = {
 			44101
@@ -41257,8 +44832,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44102] = {
-		base = 44100,
 		id = 44102,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "61 x 2",
 		weapon_id = {
 			44102
@@ -41266,8 +44842,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44103] = {
-		base = 44100,
 		id = 44103,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "67 x 2",
 		weapon_id = {
 			44103
@@ -41275,8 +44852,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44104] = {
-		base = 44100,
 		id = 44104,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "73 x 2",
 		weapon_id = {
 			44104
@@ -41284,8 +44862,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44105] = {
-		base = 44100,
 		id = 44105,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "79 x 2",
 		weapon_id = {
 			44105
@@ -41293,8 +44872,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44106] = {
-		base = 44100,
 		id = 44106,
+		base = 44100,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			44106
@@ -41319,6 +44899,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41338,8 +44919,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44121] = {
-		base = 44120,
 		id = 44121,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "61 x 2",
 		weapon_id = {
 			44121
@@ -41347,8 +44929,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44122] = {
-		base = 44120,
 		id = 44122,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "67 x 2",
 		weapon_id = {
 			44122
@@ -41356,8 +44939,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44123] = {
-		base = 44120,
 		id = 44123,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			44123
@@ -41365,8 +44949,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44124] = {
-		base = 44120,
 		id = 44124,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			44124
@@ -41374,8 +44959,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44125] = {
-		base = 44120,
 		id = 44125,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "87 x 2",
 		weapon_id = {
 			44125
@@ -41383,8 +44969,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44126] = {
-		base = 44120,
 		id = 44126,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "93 x 2",
 		weapon_id = {
 			44126
@@ -41392,8 +44979,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44127] = {
-		base = 44120,
 		id = 44127,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "100 x 2",
 		weapon_id = {
 			44127
@@ -41401,8 +44989,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44128] = {
-		base = 44120,
 		id = 44128,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "107 x 2",
 		weapon_id = {
 			44128
@@ -41410,8 +44999,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44129] = {
-		base = 44120,
 		id = 44129,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "114 x 2",
 		weapon_id = {
 			44129
@@ -41419,8 +45009,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44130] = {
-		base = 44120,
 		id = 44130,
+		base = 44120,
+		is_siren = 0,
 		value_1 = "122 x 2",
 		weapon_id = {
 			44130
@@ -41445,6 +45036,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "双联380mmSKC主炮，俾斯麦级战列舰主炮，战巡和战列可以使用",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41464,8 +45056,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44141] = {
-		base = 44140,
 		id = 44141,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "64 x 2",
 		weapon_id = {
 			44141
@@ -41473,8 +45066,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44142] = {
-		base = 44140,
 		id = 44142,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "72 x 2",
 		weapon_id = {
 			44142
@@ -41482,8 +45076,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44143] = {
-		base = 44140,
 		id = 44143,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "80 x 2",
 		weapon_id = {
 			44143
@@ -41491,8 +45086,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44144] = {
-		base = 44140,
 		id = 44144,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			44144
@@ -41500,8 +45096,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44145] = {
-		base = 44140,
 		id = 44145,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "94 x 2",
 		weapon_id = {
 			44145
@@ -41509,8 +45106,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44146] = {
-		base = 44140,
 		id = 44146,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "100 x 2",
 		weapon_id = {
 			44146
@@ -41518,8 +45116,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44147] = {
-		base = 44140,
 		id = 44147,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			44147
@@ -41527,8 +45126,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44148] = {
-		base = 44140,
 		id = 44148,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "118 x 2",
 		weapon_id = {
 			44148
@@ -41536,8 +45136,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44149] = {
-		base = 44140,
 		id = 44149,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "124 x 2",
 		weapon_id = {
 			44149
@@ -41545,8 +45146,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44150] = {
-		base = 44140,
 		id = 44150,
+		base = 44140,
+		is_siren = 0,
 		value_1 = "132 x 2",
 		weapon_id = {
 			44150
@@ -41571,6 +45173,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 4,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41590,8 +45193,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[44201] = {
-		base = 44200,
 		id = 44201,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "68 x 2",
 		weapon_id = {
 			44201
@@ -41599,8 +45203,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44202] = {
-		base = 44200,
 		id = 44202,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "76 x 2",
 		weapon_id = {
 			44202
@@ -41608,8 +45213,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44203] = {
-		base = 44200,
 		id = 44203,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "86 x 2",
 		weapon_id = {
 			44203
@@ -41617,8 +45223,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44204] = {
-		base = 44200,
 		id = 44204,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "96 x 2",
 		weapon_id = {
 			44204
@@ -41626,8 +45233,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44205] = {
-		base = 44200,
 		id = 44205,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "106 x 2",
 		weapon_id = {
 			44205
@@ -41635,8 +45243,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44206] = {
-		base = 44200,
 		id = 44206,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "116 x 2",
 		weapon_id = {
 			44206
@@ -41644,8 +45253,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44207] = {
-		base = 44200,
 		id = 44207,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "124 x 2",
 		weapon_id = {
 			44207
@@ -41653,8 +45263,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44208] = {
-		base = 44200,
 		id = 44208,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "134 x 2",
 		weapon_id = {
 			44208
@@ -41662,8 +45273,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44209] = {
-		base = 44200,
 		id = 44209,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			44209
@@ -41671,8 +45283,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44210] = {
-		base = 44200,
 		id = 44210,
+		base = 44200,
+		is_siren = 0,
 		value_1 = "154 x 2",
 		weapon_id = {
 			44210
@@ -41697,6 +45310,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41711,8 +45325,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45001] = {
-		base = 45000,
 		id = 45001,
+		base = 45000,
+		is_siren = 0,
 		value_1 = "69 x 3",
 		weapon_id = {
 			45001
@@ -41720,8 +45335,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45002] = {
-		base = 45000,
 		id = 45002,
+		base = 45000,
+		is_siren = 0,
 		value_1 = "75 x 3",
 		weapon_id = {
 			45002
@@ -41729,8 +45345,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45003] = {
-		base = 45000,
 		id = 45003,
+		base = 45000,
+		is_siren = 0,
 		value_1 = "81 x 3",
 		weapon_id = {
 			45003
@@ -41755,6 +45372,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41769,8 +45387,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45021] = {
-		base = 45020,
 		id = 45021,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "72 x 3",
 		weapon_id = {
 			45021
@@ -41778,8 +45397,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45022] = {
-		base = 45020,
 		id = 45022,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "79 x 3",
 		weapon_id = {
 			45022
@@ -41787,8 +45407,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45023] = {
-		base = 45020,
 		id = 45023,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "86 x 3",
 		weapon_id = {
 			45023
@@ -41796,8 +45417,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45024] = {
-		base = 45020,
 		id = 45024,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			45024
@@ -41805,8 +45427,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45025] = {
-		base = 45020,
 		id = 45025,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "99 x 3",
 		weapon_id = {
 			45025
@@ -41814,8 +45437,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45026] = {
-		base = 45020,
 		id = 45026,
+		base = 45020,
+		is_siren = 0,
 		value_1 = "106 x 3",
 		weapon_id = {
 			45026
@@ -41840,6 +45464,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "三联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41854,8 +45479,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45041] = {
-		base = 45040,
 		id = 45041,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "77 x 3",
 		weapon_id = {
 			45041
@@ -41863,8 +45489,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45042] = {
-		base = 45040,
 		id = 45042,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "85 x 3",
 		weapon_id = {
 			45042
@@ -41872,8 +45499,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45043] = {
-		base = 45040,
 		id = 45043,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "92 x 3",
 		weapon_id = {
 			45043
@@ -41881,8 +45509,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45044] = {
-		base = 45040,
 		id = 45044,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "100 x 3",
 		weapon_id = {
 			45044
@@ -41890,8 +45519,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45045] = {
-		base = 45040,
 		id = 45045,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "107 x 3",
 		weapon_id = {
 			45045
@@ -41899,8 +45529,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45046] = {
-		base = 45040,
 		id = 45046,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "115 x 3",
 		weapon_id = {
 			45046
@@ -41908,8 +45539,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45047] = {
-		base = 45040,
 		id = 45047,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "122 x 3",
 		weapon_id = {
 			45047
@@ -41917,8 +45549,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45048] = {
-		base = 45040,
 		id = 45048,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "130 x 3",
 		weapon_id = {
 			45048
@@ -41926,8 +45559,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45049] = {
-		base = 45040,
 		id = 45049,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "137 x 3",
 		weapon_id = {
 			45049
@@ -41935,8 +45569,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45050] = {
-		base = 45040,
 		id = 45050,
+		base = 45040,
+		is_siren = 0,
 		value_1 = "145 x 3",
 		weapon_id = {
 			45050
@@ -41961,6 +45596,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -41975,8 +45611,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45101] = {
-		base = 45100,
 		id = 45101,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "69 x 4",
 		weapon_id = {
 			45101
@@ -41984,8 +45621,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45102] = {
-		base = 45100,
 		id = 45102,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "75 x 4",
 		weapon_id = {
 			45102
@@ -41993,8 +45631,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45103] = {
-		base = 45100,
 		id = 45103,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "81 x 4",
 		weapon_id = {
 			45103
@@ -42002,8 +45641,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45104] = {
-		base = 45100,
 		id = 45104,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "87 x 4",
 		weapon_id = {
 			45104
@@ -42011,8 +45651,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45105] = {
-		base = 45100,
 		id = 45105,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "93 x 4",
 		weapon_id = {
 			45105
@@ -42020,8 +45661,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45106] = {
-		base = 45100,
 		id = 45106,
+		base = 45100,
+		is_siren = 0,
 		value_1 = "99 x 4",
 		weapon_id = {
 			45106
@@ -42046,6 +45688,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42060,8 +45703,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45121] = {
-		base = 45120,
 		id = 45121,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "72 x 4",
 		weapon_id = {
 			45121
@@ -42069,8 +45713,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45122] = {
-		base = 45120,
 		id = 45122,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "79 x 4",
 		weapon_id = {
 			45122
@@ -42078,8 +45723,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45123] = {
-		base = 45120,
 		id = 45123,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "86 x 4",
 		weapon_id = {
 			45123
@@ -42087,8 +45733,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45124] = {
-		base = 45120,
 		id = 45124,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "92 x 4",
 		weapon_id = {
 			45124
@@ -42096,8 +45743,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45125] = {
-		base = 45120,
 		id = 45125,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "99 x 4",
 		weapon_id = {
 			45125
@@ -42105,8 +45753,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45126] = {
-		base = 45120,
 		id = 45126,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "106 x 4",
 		weapon_id = {
 			45126
@@ -42114,8 +45763,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45127] = {
-		base = 45120,
 		id = 45127,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "112 x 4",
 		weapon_id = {
 			45127
@@ -42123,8 +45773,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45128] = {
-		base = 45120,
 		id = 45128,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "119 x 4",
 		weapon_id = {
 			45128
@@ -42132,8 +45783,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45129] = {
-		base = 45120,
 		id = 45129,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "126 x 4",
 		weapon_id = {
 			45129
@@ -42141,8 +45793,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45130] = {
-		base = 45120,
 		id = 45130,
+		base = 45120,
+		is_siren = 0,
 		value_1 = "133 x 4",
 		weapon_id = {
 			45130
@@ -42167,6 +45820,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "四联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42181,8 +45835,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45141] = {
-		base = 45140,
 		id = 45141,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "77 x 4",
 		weapon_id = {
 			45141
@@ -42190,8 +45845,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45142] = {
-		base = 45140,
 		id = 45142,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "85 x 4",
 		weapon_id = {
 			45142
@@ -42199,8 +45855,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45143] = {
-		base = 45140,
 		id = 45143,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "92 x 4",
 		weapon_id = {
 			45143
@@ -42208,8 +45865,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45144] = {
-		base = 45140,
 		id = 45144,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "100 x 4",
 		weapon_id = {
 			45144
@@ -42217,8 +45875,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45145] = {
-		base = 45140,
 		id = 45145,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "107 x 4",
 		weapon_id = {
 			45145
@@ -42226,8 +45885,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45146] = {
-		base = 45140,
 		id = 45146,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "115 x 4",
 		weapon_id = {
 			45146
@@ -42235,8 +45895,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45147] = {
-		base = 45140,
 		id = 45147,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "122 x 4",
 		weapon_id = {
 			45147
@@ -42244,8 +45905,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45148] = {
-		base = 45140,
 		id = 45148,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "130 x 4",
 		weapon_id = {
 			45148
@@ -42253,8 +45915,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45149] = {
-		base = 45140,
 		id = 45149,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "137 x 4",
 		weapon_id = {
 			45149
@@ -42262,8 +45925,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45150] = {
-		base = 45140,
 		id = 45150,
+		base = 45140,
+		is_siren = 0,
 		value_1 = "145 x 4",
 		weapon_id = {
 			45150
@@ -42288,6 +45952,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42302,8 +45967,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45201] = {
-		base = 45200,
 		id = 45201,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "69 x 5",
 		weapon_id = {
 			45201
@@ -42311,8 +45977,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45202] = {
-		base = 45200,
 		id = 45202,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "75 x 5",
 		weapon_id = {
 			45202
@@ -42320,8 +45987,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45203] = {
-		base = 45200,
 		id = 45203,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "81 x 5",
 		weapon_id = {
 			45203
@@ -42329,8 +45997,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45204] = {
-		base = 45200,
 		id = 45204,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "87 x 5",
 		weapon_id = {
 			45204
@@ -42338,8 +46007,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45205] = {
-		base = 45200,
 		id = 45205,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "93 x 5",
 		weapon_id = {
 			45205
@@ -42347,8 +46017,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45206] = {
-		base = 45200,
 		id = 45206,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "99 x 5",
 		weapon_id = {
 			45206
@@ -42356,8 +46027,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45207] = {
-		base = 45200,
 		id = 45207,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "105 x 5",
 		weapon_id = {
 			45207
@@ -42365,8 +46037,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45208] = {
-		base = 45200,
 		id = 45208,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "111 x 5",
 		weapon_id = {
 			45208
@@ -42374,8 +46047,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45209] = {
-		base = 45200,
 		id = 45209,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "117 x 5",
 		weapon_id = {
 			45209
@@ -42383,8 +46057,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45210] = {
-		base = 45200,
 		id = 45210,
+		base = 45200,
+		is_siren = 0,
 		value_1 = "123 x 5",
 		weapon_id = {
 			45210
@@ -42409,6 +46084,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42423,8 +46099,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45221] = {
-		base = 45220,
 		id = 45221,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "72 x 5",
 		weapon_id = {
 			45221
@@ -42432,8 +46109,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45222] = {
-		base = 45220,
 		id = 45222,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "79 x 5",
 		weapon_id = {
 			45222
@@ -42441,8 +46119,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45223] = {
-		base = 45220,
 		id = 45223,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "86 x 5",
 		weapon_id = {
 			45223
@@ -42450,8 +46129,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45224] = {
-		base = 45220,
 		id = 45224,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "92 x 5",
 		weapon_id = {
 			45224
@@ -42459,8 +46139,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45225] = {
-		base = 45220,
 		id = 45225,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "99 x 5",
 		weapon_id = {
 			45225
@@ -42468,8 +46149,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45226] = {
-		base = 45220,
 		id = 45226,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "106 x 5",
 		weapon_id = {
 			45226
@@ -42477,8 +46159,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45227] = {
-		base = 45220,
 		id = 45227,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "112 x 5",
 		weapon_id = {
 			45227
@@ -42486,8 +46169,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45228] = {
-		base = 45220,
 		id = 45228,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "119 x 5",
 		weapon_id = {
 			45228
@@ -42495,8 +46179,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45229] = {
-		base = 45220,
 		id = 45229,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "126 x 5",
 		weapon_id = {
 			45229
@@ -42504,8 +46189,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45230] = {
-		base = 45220,
 		id = 45230,
+		base = 45220,
+		is_siren = 0,
 		value_1 = "133 x 5",
 		weapon_id = {
 			45230
@@ -42530,6 +46216,7 @@ pg.equip_data_statistics = {
 		angle = 60,
 		nationality = 3,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "五联装533mm磁性鱼雷，伯鲁克科技研发的特殊鱼雷，运用磁性引信和声导技术，能极大的提高鱼雷的命中率",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42544,8 +46231,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45241] = {
-		base = 45240,
 		id = 45241,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "77 x 5",
 		weapon_id = {
 			45241
@@ -42553,8 +46241,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45242] = {
-		base = 45240,
 		id = 45242,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "85 x 5",
 		weapon_id = {
 			45242
@@ -42562,8 +46251,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45243] = {
-		base = 45240,
 		id = 45243,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "92 x 5",
 		weapon_id = {
 			45243
@@ -42571,8 +46261,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45244] = {
-		base = 45240,
 		id = 45244,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "100 x 5",
 		weapon_id = {
 			45244
@@ -42580,8 +46271,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45245] = {
-		base = 45240,
 		id = 45245,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "107 x 5",
 		weapon_id = {
 			45245
@@ -42589,8 +46281,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45246] = {
-		base = 45240,
 		id = 45246,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "115 x 5",
 		weapon_id = {
 			45246
@@ -42598,8 +46291,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45247] = {
-		base = 45240,
 		id = 45247,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "122 x 5",
 		weapon_id = {
 			45247
@@ -42607,8 +46301,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45248] = {
-		base = 45240,
 		id = 45248,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "130 x 5",
 		weapon_id = {
 			45248
@@ -42616,8 +46311,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45249] = {
-		base = 45240,
 		id = 45249,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "137 x 5",
 		weapon_id = {
 			45249
@@ -42625,8 +46321,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45250] = {
-		base = 45240,
 		id = 45250,
+		base = 45240,
+		is_siren = 0,
 		value_1 = "145 x 5",
 		weapon_id = {
 			45250
@@ -42651,6 +46348,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42665,8 +46363,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45301] = {
-		base = 45300,
 		id = 45301,
+		base = 45300,
+		is_siren = 0,
 		value_1 = "52 x 2",
 		weapon_id = {
 			45301
@@ -42674,8 +46373,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45302] = {
-		base = 45300,
 		id = 45302,
+		base = 45300,
+		is_siren = 0,
 		value_1 = "59 x 2",
 		weapon_id = {
 			45302
@@ -42683,8 +46383,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45303] = {
-		base = 45300,
 		id = 45303,
+		base = 45300,
+		is_siren = 0,
 		value_1 = "66 x 2",
 		weapon_id = {
 			45303
@@ -42709,6 +46410,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42723,8 +46425,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45321] = {
-		base = 45320,
 		id = 45321,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "59 x 2",
 		weapon_id = {
 			45321
@@ -42732,8 +46435,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45322] = {
-		base = 45320,
 		id = 45322,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "66 x 2",
 		weapon_id = {
 			45322
@@ -42741,8 +46445,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45323] = {
-		base = 45320,
 		id = 45323,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			45323
@@ -42750,8 +46455,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45324] = {
-		base = 45320,
 		id = 45324,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			45324
@@ -42759,8 +46465,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45325] = {
-		base = 45320,
 		id = 45325,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			45325
@@ -42768,8 +46475,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45326] = {
-		base = 45320,
 		id = 45326,
+		base = 45320,
+		is_siren = 0,
 		value_1 = "98 x 2",
 		weapon_id = {
 			45326
@@ -42794,6 +46502,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42808,8 +46517,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45341] = {
-		base = 45340,
 		id = 45341,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "66 x 2",
 		weapon_id = {
 			45341
@@ -42817,8 +46527,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45342] = {
-		base = 45340,
 		id = 45342,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			45342
@@ -42826,8 +46537,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45343] = {
-		base = 45340,
 		id = 45343,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			45343
@@ -42835,8 +46547,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45344] = {
-		base = 45340,
 		id = 45344,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			45344
@@ -42844,8 +46557,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45345] = {
-		base = 45340,
 		id = 45345,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "99 x 2",
 		weapon_id = {
 			45345
@@ -42853,8 +46567,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45346] = {
-		base = 45340,
 		id = 45346,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			45346
@@ -42862,8 +46577,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45347] = {
-		base = 45340,
 		id = 45347,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "117 x 2",
 		weapon_id = {
 			45347
@@ -42871,8 +46587,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45348] = {
-		base = 45340,
 		id = 45348,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "126 x 2",
 		weapon_id = {
 			45348
@@ -42880,8 +46597,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45349] = {
-		base = 45340,
 		id = 45349,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "135 x 2",
 		weapon_id = {
 			45349
@@ -42889,8 +46607,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45350] = {
-		base = 45340,
 		id = 45350,
+		base = 45340,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			45350
@@ -42915,6 +46634,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -42929,8 +46649,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45401] = {
-		base = 45400,
 		id = 45401,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "59 x 2",
 		weapon_id = {
 			45401
@@ -42938,8 +46659,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45402] = {
-		base = 45400,
 		id = 45402,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "66 x 2",
 		weapon_id = {
 			45402
@@ -42947,8 +46669,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45403] = {
-		base = 45400,
 		id = 45403,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			45403
@@ -42956,8 +46679,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45404] = {
-		base = 45400,
 		id = 45404,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			45404
@@ -42965,8 +46689,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45405] = {
-		base = 45400,
 		id = 45405,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			45405
@@ -42974,8 +46699,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45406] = {
-		base = 45400,
 		id = 45406,
+		base = 45400,
+		is_siren = 0,
 		value_1 = "98 x 2",
 		weapon_id = {
 			45406
@@ -43000,6 +46726,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43014,8 +46741,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45421] = {
-		base = 45420,
 		id = 45421,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "66 x 2",
 		weapon_id = {
 			45421
@@ -43023,8 +46751,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45422] = {
-		base = 45420,
 		id = 45422,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "74 x 2",
 		weapon_id = {
 			45422
@@ -43032,8 +46761,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45423] = {
-		base = 45420,
 		id = 45423,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			45423
@@ -43041,8 +46771,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45424] = {
-		base = 45420,
 		id = 45424,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "90 x 2",
 		weapon_id = {
 			45424
@@ -43050,8 +46781,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45425] = {
-		base = 45420,
 		id = 45425,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "99 x 2",
 		weapon_id = {
 			45425
@@ -43059,8 +46791,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45426] = {
-		base = 45420,
 		id = 45426,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "108 x 2",
 		weapon_id = {
 			45426
@@ -43068,8 +46801,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45427] = {
-		base = 45420,
 		id = 45427,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "117 x 2",
 		weapon_id = {
 			45427
@@ -43077,8 +46811,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45428] = {
-		base = 45420,
 		id = 45428,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "126 x 2",
 		weapon_id = {
 			45428
@@ -43086,8 +46821,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45429] = {
-		base = 45420,
 		id = 45429,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "135 x 2",
 		weapon_id = {
 			45429
@@ -43095,8 +46831,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45430] = {
-		base = 45420,
 		id = 45430,
+		base = 45420,
+		is_siren = 0,
 		value_1 = "144 x 2",
 		weapon_id = {
 			45430
@@ -43121,6 +46858,7 @@ pg.equip_data_statistics = {
 		angle = 80,
 		nationality = 4,
 		ammo = "声导",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43135,8 +46873,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[45441] = {
-		base = 45440,
 		id = 45441,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "73 x 2",
 		weapon_id = {
 			45441
@@ -43144,8 +46883,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45442] = {
-		base = 45440,
 		id = 45442,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "82 x 2",
 		weapon_id = {
 			45442
@@ -43153,8 +46893,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45443] = {
-		base = 45440,
 		id = 45443,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "91 x 2",
 		weapon_id = {
 			45443
@@ -43162,8 +46903,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45444] = {
-		base = 45440,
 		id = 45444,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "100 x 2",
 		weapon_id = {
 			45444
@@ -43171,8 +46913,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45445] = {
-		base = 45440,
 		id = 45445,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "110 x 2",
 		weapon_id = {
 			45445
@@ -43180,8 +46923,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45446] = {
-		base = 45440,
 		id = 45446,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "120 x 2",
 		weapon_id = {
 			45446
@@ -43189,8 +46933,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45447] = {
-		base = 45440,
 		id = 45447,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "130 x 2",
 		weapon_id = {
 			45447
@@ -43198,8 +46943,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45448] = {
-		base = 45440,
 		id = 45448,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "140 x 2",
 		weapon_id = {
 			45448
@@ -43207,8 +46953,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45449] = {
-		base = 45440,
 		id = 45449,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "150 x 2",
 		weapon_id = {
 			45449
@@ -43216,8 +46963,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[45450] = {
-		base = 45440,
 		id = 45450,
+		base = 45440,
+		is_siren = 0,
 		value_1 = "160 x 2",
 		weapon_id = {
 			45450
@@ -43240,8 +46988,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "四联装20mm MG机枪，可以用于防空",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "四联装20mm MG机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -43255,8 +47004,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46001] = {
-		base = 46000,
 		id = 46001,
+		base = 46000,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			46001
@@ -43264,8 +47014,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46002] = {
-		base = 46000,
 		id = 46002,
+		base = 46000,
+		is_siren = 0,
 		value_1 = "23/轮",
 		weapon_id = {
 			46002
@@ -43273,8 +47024,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46003] = {
-		base = 46000,
 		id = 46003,
+		base = 46000,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			46003
@@ -43299,6 +47051,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "四联装20mm MG机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43313,8 +47066,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46021] = {
-		base = 46020,
 		id = 46021,
+		base = 46020,
+		is_siren = 0,
 		value_1 = "23/轮",
 		weapon_id = {
 			46021
@@ -43322,8 +47076,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46022] = {
-		base = 46020,
 		id = 46022,
+		base = 46020,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			46022
@@ -43331,8 +47086,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46023] = {
-		base = 46020,
 		id = 46023,
+		base = 46020,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			46023
@@ -43357,6 +47113,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "四联装20mm MG机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43371,8 +47128,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46041] = {
-		base = 46040,
 		id = 46041,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			46041
@@ -43380,8 +47138,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46042] = {
-		base = 46040,
 		id = 46042,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			46042
@@ -43389,8 +47148,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46043] = {
-		base = 46040,
 		id = 46043,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			46043
@@ -43398,8 +47158,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46044] = {
-		base = 46040,
 		id = 46044,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "38/轮",
 		weapon_id = {
 			46044
@@ -43407,8 +47168,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46045] = {
-		base = 46040,
 		id = 46045,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			46045
@@ -43416,8 +47178,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46046] = {
-		base = 46040,
 		id = 46046,
+		base = 46040,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			46046
@@ -43440,8 +47203,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "无",
-		descrip = "37mm机枪，可以用于防空",
+		is_siren = 0,
 		ammo = "通常",
+		descrip = "37mm机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -43455,8 +47219,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46101] = {
-		base = 46100,
 		id = 46101,
+		base = 46100,
+		is_siren = 0,
 		value_1 = "9/轮",
 		weapon_id = {
 			46101
@@ -43464,8 +47229,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46102] = {
-		base = 46100,
 		id = 46102,
+		base = 46100,
+		is_siren = 0,
 		value_1 = "10/轮",
 		weapon_id = {
 			46102
@@ -43473,8 +47239,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46103] = {
-		base = 46100,
 		id = 46103,
+		base = 46100,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			46103
@@ -43499,6 +47266,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "37mm机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43513,8 +47281,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46121] = {
-		base = 46120,
 		id = 46121,
+		base = 46120,
+		is_siren = 0,
 		value_1 = "12/轮",
 		weapon_id = {
 			46121
@@ -43522,8 +47291,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46122] = {
-		base = 46120,
 		id = 46122,
+		base = 46120,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			46122
@@ -43531,8 +47301,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46123] = {
-		base = 46120,
 		id = 46123,
+		base = 46120,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			46123
@@ -43557,6 +47328,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "37mm机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43571,8 +47343,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46141] = {
-		base = 46140,
 		id = 46141,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "14/轮",
 		weapon_id = {
 			46141
@@ -43580,8 +47353,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46142] = {
-		base = 46140,
 		id = 46142,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "16/轮",
 		weapon_id = {
 			46142
@@ -43589,8 +47363,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46143] = {
-		base = 46140,
 		id = 46143,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "18/轮",
 		weapon_id = {
 			46143
@@ -43598,8 +47373,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46144] = {
-		base = 46140,
 		id = 46144,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "20/轮",
 		weapon_id = {
 			46144
@@ -43607,8 +47383,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46145] = {
-		base = 46140,
 		id = 46145,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			46145
@@ -43616,8 +47393,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46146] = {
-		base = 46140,
 		id = 46146,
+		base = 46140,
+		is_siren = 0,
 		value_1 = "24/轮",
 		weapon_id = {
 			46146
@@ -43642,6 +47420,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联37mm手拉机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43656,8 +47435,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46201] = {
-		base = 46200,
 		id = 46201,
+		base = 46200,
+		is_siren = 0,
 		value_1 = "17/轮",
 		weapon_id = {
 			46201
@@ -43665,8 +47445,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46202] = {
-		base = 46200,
 		id = 46202,
+		base = 46200,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			46202
@@ -43674,8 +47455,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46203] = {
-		base = 46200,
 		id = 46203,
+		base = 46200,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			46203
@@ -43700,6 +47482,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联37mm手拉机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43714,8 +47497,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46221] = {
-		base = 46220,
 		id = 46221,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "19/轮",
 		weapon_id = {
 			46221
@@ -43723,8 +47507,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46222] = {
-		base = 46220,
 		id = 46222,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "22/轮",
 		weapon_id = {
 			46222
@@ -43732,8 +47517,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46223] = {
-		base = 46220,
 		id = 46223,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			46223
@@ -43741,8 +47527,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46224] = {
-		base = 46220,
 		id = 46224,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			46224
@@ -43750,8 +47537,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46225] = {
-		base = 46220,
 		id = 46225,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "31/轮",
 		weapon_id = {
 			46225
@@ -43759,8 +47547,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46226] = {
-		base = 46220,
 		id = 46226,
+		base = 46220,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			46226
@@ -43785,6 +47574,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联37mm手拉机枪，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43799,8 +47589,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46241] = {
-		base = 46240,
 		id = 46241,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "23/轮",
 		weapon_id = {
 			46241
@@ -43808,8 +47599,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46242] = {
-		base = 46240,
 		id = 46242,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "26/轮",
 		weapon_id = {
 			46242
@@ -43817,8 +47609,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46243] = {
-		base = 46240,
 		id = 46243,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			46243
@@ -43826,8 +47619,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46244] = {
-		base = 46240,
 		id = 46244,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			46244
@@ -43835,8 +47629,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46245] = {
-		base = 46240,
 		id = 46245,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			46245
@@ -43844,8 +47639,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46246] = {
-		base = 46240,
 		id = 46246,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "38/轮",
 		weapon_id = {
 			46246
@@ -43853,8 +47649,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46247] = {
-		base = 46240,
 		id = 46247,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			46247
@@ -43862,8 +47659,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46248] = {
-		base = 46240,
 		id = 46248,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			46248
@@ -43871,8 +47669,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46249] = {
-		base = 46240,
 		id = 46249,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			46249
@@ -43880,8 +47679,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46250] = {
-		base = 46240,
 		id = 46250,
+		base = 46240,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			46250
@@ -43906,6 +47706,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联105mmSKC高炮，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -43920,8 +47721,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46301] = {
-		base = 46300,
 		id = 46301,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "39/轮",
 		weapon_id = {
 			46301
@@ -43929,8 +47731,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46302] = {
-		base = 46300,
 		id = 46302,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "44/轮",
 		weapon_id = {
 			46302
@@ -43938,8 +47741,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46303] = {
-		base = 46300,
 		id = 46303,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			46303
@@ -43947,8 +47751,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46304] = {
-		base = 46300,
 		id = 46304,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			46304
@@ -43956,8 +47761,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46305] = {
-		base = 46300,
 		id = 46305,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			46305
@@ -43965,8 +47771,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46306] = {
-		base = 46300,
 		id = 46306,
+		base = 46300,
+		is_siren = 0,
 		value_1 = "68/轮",
 		weapon_id = {
 			46306
@@ -43991,6 +47798,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联105mmSKC高炮，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44005,8 +47813,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46321] = {
-		base = 46320,
 		id = 46321,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "47/轮",
 		weapon_id = {
 			46321
@@ -44014,8 +47823,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46322] = {
-		base = 46320,
 		id = 46322,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			46322
@@ -44023,8 +47833,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46323] = {
-		base = 46320,
 		id = 46323,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "59/轮",
 		weapon_id = {
 			46323
@@ -44032,8 +47843,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46324] = {
-		base = 46320,
 		id = 46324,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "65/轮",
 		weapon_id = {
 			46324
@@ -44041,8 +47853,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46325] = {
-		base = 46320,
 		id = 46325,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "71/轮",
 		weapon_id = {
 			46325
@@ -44050,8 +47863,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46326] = {
-		base = 46320,
 		id = 46326,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			46326
@@ -44059,8 +47873,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46327] = {
-		base = 46320,
 		id = 46327,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "83/轮",
 		weapon_id = {
 			46327
@@ -44068,8 +47883,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46328] = {
-		base = 46320,
 		id = 46328,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "89/轮",
 		weapon_id = {
 			46328
@@ -44077,8 +47893,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46329] = {
-		base = 46320,
 		id = 46329,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "95/轮",
 		weapon_id = {
 			46329
@@ -44086,8 +47903,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46330] = {
-		base = 46320,
 		id = 46330,
+		base = 46320,
+		is_siren = 0,
 		value_1 = "102/轮",
 		weapon_id = {
 			46330
@@ -44112,6 +47930,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "双联105mmSKC高炮，可以用于防空",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44126,8 +47945,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[46341] = {
-		base = 46340,
 		id = 46341,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			46341
@@ -44135,8 +47955,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46342] = {
-		base = 46340,
 		id = 46342,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			46342
@@ -44144,8 +47965,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46343] = {
-		base = 46340,
 		id = 46343,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			46343
@@ -44153,8 +47975,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46344] = {
-		base = 46340,
 		id = 46344,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			46344
@@ -44162,8 +47985,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46345] = {
-		base = 46340,
 		id = 46345,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "84/轮",
 		weapon_id = {
 			46345
@@ -44171,8 +47995,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46346] = {
-		base = 46340,
 		id = 46346,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "91/轮",
 		weapon_id = {
 			46346
@@ -44180,8 +48005,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46347] = {
-		base = 46340,
 		id = 46347,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "98/轮",
 		weapon_id = {
 			46347
@@ -44189,8 +48015,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46348] = {
-		base = 46340,
 		id = 46348,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "106/轮",
 		weapon_id = {
 			46348
@@ -44198,8 +48025,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46349] = {
-		base = 46340,
 		id = 46349,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "114/轮",
 		weapon_id = {
 			46349
@@ -44207,8 +48035,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[46350] = {
-		base = 46340,
 		id = 46350,
+		base = 46340,
+		is_siren = 0,
 		value_1 = "122/轮",
 		weapon_id = {
 			46350
@@ -44233,6 +48062,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44248,8 +48078,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47001] = {
-		base = 47000,
 		id = 47001,
+		base = 47000,
+		is_siren = 0,
 		value_1 = "23/轮",
 		weapon_id = {
 			47001,
@@ -44258,8 +48089,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47002] = {
-		base = 47000,
 		id = 47002,
+		base = 47000,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			47002,
@@ -44268,8 +48100,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47003] = {
-		base = 47000,
 		id = 47003,
+		base = 47000,
+		is_siren = 0,
 		value_1 = "28/轮",
 		weapon_id = {
 			47003,
@@ -44295,6 +48128,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44310,8 +48144,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47021] = {
-		base = 47020,
 		id = 47021,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "25/轮",
 		weapon_id = {
 			47021,
@@ -44320,8 +48155,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47022] = {
-		base = 47020,
 		id = 47022,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "27/轮",
 		weapon_id = {
 			47022,
@@ -44330,8 +48166,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47023] = {
-		base = 47020,
 		id = 47023,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "30/轮",
 		weapon_id = {
 			47023,
@@ -44340,8 +48177,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47024] = {
-		base = 47020,
 		id = 47024,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			47024,
@@ -44350,8 +48188,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47025] = {
-		base = 47020,
 		id = 47025,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "34/轮",
 		weapon_id = {
 			47025,
@@ -44360,8 +48199,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47026] = {
-		base = 47020,
 		id = 47026,
+		base = 47020,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			47026,
@@ -44387,6 +48227,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "BF-109的舰载用版本，铁血公国的老牌战斗机",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44402,8 +48243,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47041] = {
-		base = 47040,
 		id = 47041,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "29/轮",
 		weapon_id = {
 			47041,
@@ -44412,8 +48254,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47042] = {
-		base = 47040,
 		id = 47042,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "32/轮",
 		weapon_id = {
 			47042,
@@ -44422,8 +48265,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47043] = {
-		base = 47040,
 		id = 47043,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "35/轮",
 		weapon_id = {
 			47043,
@@ -44432,8 +48276,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47044] = {
-		base = 47040,
 		id = 47044,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "37/轮",
 		weapon_id = {
 			47044,
@@ -44442,8 +48287,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47045] = {
-		base = 47040,
 		id = 47045,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			47045,
@@ -44452,8 +48298,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47046] = {
-		base = 47040,
 		id = 47046,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "43/轮",
 		weapon_id = {
 			47046,
@@ -44462,8 +48309,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47047] = {
-		base = 47040,
 		id = 47047,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			47047,
@@ -44472,8 +48320,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47048] = {
-		base = 47040,
 		id = 47048,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			47048,
@@ -44482,8 +48331,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47049] = {
-		base = 47040,
 		id = 47049,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "52/轮",
 		weapon_id = {
 			47049,
@@ -44492,8 +48342,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47050] = {
-		base = 47040,
 		id = 47050,
+		base = 47040,
+		is_siren = 0,
 		value_1 = "56/轮",
 		weapon_id = {
 			47050,
@@ -44519,6 +48370,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "专门设计给齐柏林伯爵的战斗机，是铁血公国的新锐机型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44534,8 +48386,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47101] = {
-		base = 47100,
 		id = 47101,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "36/轮",
 		weapon_id = {
 			47101,
@@ -44544,8 +48397,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47102] = {
-		base = 47100,
 		id = 47102,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "40/轮",
 		weapon_id = {
 			47102,
@@ -44554,8 +48408,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47103] = {
-		base = 47100,
 		id = 47103,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			47103,
@@ -44564,8 +48419,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47104] = {
-		base = 47100,
 		id = 47104,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "49/轮",
 		weapon_id = {
 			47104,
@@ -44574,8 +48430,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47105] = {
-		base = 47100,
 		id = 47105,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			47105,
@@ -44584,8 +48441,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47106] = {
-		base = 47100,
 		id = 47106,
+		base = 47100,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			47106,
@@ -44611,6 +48469,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "专门设计给齐柏林伯爵的战斗机，是铁血公国的新锐机型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44626,8 +48485,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47121] = {
-		base = 47120,
 		id = 47121,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "41/轮",
 		weapon_id = {
 			47121,
@@ -44636,8 +48496,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47122] = {
-		base = 47120,
 		id = 47122,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "45/轮",
 		weapon_id = {
 			47122,
@@ -44646,8 +48507,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47123] = {
-		base = 47120,
 		id = 47123,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			47123,
@@ -44656,8 +48518,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47124] = {
-		base = 47120,
 		id = 47124,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			47124,
@@ -44666,8 +48529,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47125] = {
-		base = 47120,
 		id = 47125,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			47125,
@@ -44676,8 +48540,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47126] = {
-		base = 47120,
 		id = 47126,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "63/轮",
 		weapon_id = {
 			47126,
@@ -44686,8 +48551,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47127] = {
-		base = 47120,
 		id = 47127,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "68/轮",
 		weapon_id = {
 			47127,
@@ -44696,8 +48562,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47128] = {
-		base = 47120,
 		id = 47128,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "73/轮",
 		weapon_id = {
 			47128,
@@ -44706,8 +48573,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47129] = {
-		base = 47120,
 		id = 47129,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			47129,
@@ -44716,8 +48584,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47130] = {
-		base = 47120,
 		id = 47130,
+		base = 47120,
+		is_siren = 0,
 		value_1 = "83/轮",
 		weapon_id = {
 			47130,
@@ -44743,6 +48612,7 @@ pg.equip_data_statistics = {
 		angle = 30,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "专门设计给齐柏林伯爵的战斗机，是铁血公国的新锐机型",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44758,8 +48628,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[47141] = {
-		base = 47140,
 		id = 47141,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "48/轮",
 		weapon_id = {
 			47141,
@@ -44768,8 +48639,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47142] = {
-		base = 47140,
 		id = 47142,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "53/轮",
 		weapon_id = {
 			47142,
@@ -44778,8 +48650,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47143] = {
-		base = 47140,
 		id = 47143,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			47143,
@@ -44788,8 +48661,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47144] = {
-		base = 47140,
 		id = 47144,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			47144,
@@ -44798,8 +48672,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47145] = {
-		base = 47140,
 		id = 47145,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "67/轮",
 		weapon_id = {
 			47145,
@@ -44808,8 +48683,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47146] = {
-		base = 47140,
 		id = 47146,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "72/轮",
 		weapon_id = {
 			47146,
@@ -44818,8 +48694,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47147] = {
-		base = 47140,
 		id = 47147,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "77/轮",
 		weapon_id = {
 			47147,
@@ -44828,8 +48705,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47148] = {
-		base = 47140,
 		id = 47148,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "82/轮",
 		weapon_id = {
 			47148,
@@ -44838,8 +48716,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47149] = {
-		base = 47140,
 		id = 47149,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "87/轮",
 		weapon_id = {
 			47149,
@@ -44848,8 +48727,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[47150] = {
-		base = 47140,
 		id = 47150,
+		base = 47140,
+		is_siren = 0,
 		value_1 = "92/轮",
 		weapon_id = {
 			47150,
@@ -44875,6 +48755,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44889,8 +48770,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[49001] = {
-		base = 49000,
 		id = 49001,
+		base = 49000,
+		is_siren = 0,
 		value_1 = "80 x 5",
 		weapon_id = {
 			49001
@@ -44898,8 +48780,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49002] = {
-		base = 49000,
 		id = 49002,
+		base = 49000,
+		is_siren = 0,
 		value_1 = "89 x 5",
 		weapon_id = {
 			49002
@@ -44907,8 +48790,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49003] = {
-		base = 49000,
 		id = 49003,
+		base = 49000,
+		is_siren = 0,
 		value_1 = "100 x 5",
 		weapon_id = {
 			49003
@@ -44933,6 +48817,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -44947,8 +48832,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[49021] = {
-		base = 49020,
 		id = 49021,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "88 x 5",
 		weapon_id = {
 			49021
@@ -44956,8 +48842,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49022] = {
-		base = 49020,
 		id = 49022,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "99 x 5",
 		weapon_id = {
 			49022
@@ -44965,8 +48852,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49023] = {
-		base = 49020,
 		id = 49023,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "110 x 5",
 		weapon_id = {
 			49023
@@ -44974,8 +48862,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49024] = {
-		base = 49020,
 		id = 49024,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "121 x 5",
 		weapon_id = {
 			49024
@@ -44983,8 +48872,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49025] = {
-		base = 49020,
 		id = 49025,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "132 x 5",
 		weapon_id = {
 			49025
@@ -44992,8 +48882,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49026] = {
-		base = 49020,
 		id = 49026,
+		base = 49020,
+		is_siren = 0,
 		value_1 = "143 x 5",
 		weapon_id = {
 			49026
@@ -45018,6 +48909,7 @@ pg.equip_data_statistics = {
 		angle = 90,
 		nationality = 4,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "Ju-87的舰载用版本，是铁血公国最泛用的轰炸机型号，通称”斯图卡”",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -45032,8 +48924,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[49041] = {
-		base = 49040,
 		id = 49041,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "95 x 5",
 		weapon_id = {
 			49041
@@ -45041,8 +48934,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49042] = {
-		base = 49040,
 		id = 49042,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "108 x 5",
 		weapon_id = {
 			49042
@@ -45050,8 +48944,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49043] = {
-		base = 49040,
 		id = 49043,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "121 x 5",
 		weapon_id = {
 			49043
@@ -45059,8 +48954,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49044] = {
-		base = 49040,
 		id = 49044,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "134 x 5",
 		weapon_id = {
 			49044
@@ -45068,8 +48964,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49045] = {
-		base = 49040,
 		id = 49045,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "146 x 5",
 		weapon_id = {
 			49045
@@ -45077,8 +48974,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49046] = {
-		base = 49040,
 		id = 49046,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "159 x 5",
 		weapon_id = {
 			49046
@@ -45086,8 +48984,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49047] = {
-		base = 49040,
 		id = 49047,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "171 x 5",
 		weapon_id = {
 			49047
@@ -45095,8 +48994,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49048] = {
-		base = 49040,
 		id = 49048,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "185 x 5",
 		weapon_id = {
 			49048
@@ -45104,8 +49004,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49049] = {
-		base = 49040,
 		id = 49049,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "197 x 5",
 		weapon_id = {
 			49049
@@ -45113,8 +49014,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[49050] = {
-		base = 49040,
 		id = 49050,
+		base = 49040,
+		is_siren = 0,
 		value_1 = "210 x 5",
 		weapon_id = {
 			49050
@@ -45135,8 +49037,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 54010,
@@ -45151,45 +49054,50 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[54011] = {
+		id = 54011,
 		name = "轻航专用空中支援技能-轰炸Lv2",
 		base = 54010,
-		id = 54011,
+		is_siren = 0,
 		weapon_id = {
 			54011
 		},
 		property_rate = {}
 	},
 	[54012] = {
+		id = 54012,
 		name = "轻航专用空中支援技能-轰炸Lv3",
 		base = 54010,
-		id = 54012,
+		is_siren = 0,
 		weapon_id = {
 			54012
 		},
 		property_rate = {}
 	},
 	[54013] = {
+		id = 54013,
 		name = "正航专用空中支援技能-轰炸Lv1",
 		base = 54010,
-		id = 54013,
+		is_siren = 0,
 		weapon_id = {
 			54013
 		},
 		property_rate = {}
 	},
 	[54014] = {
+		id = 54014,
 		name = "正航专用空中支援技能-轰炸Lv2",
 		base = 54010,
-		id = 54014,
+		is_siren = 0,
 		weapon_id = {
 			54014
 		},
 		property_rate = {}
 	},
 	[54015] = {
+		id = 54015,
 		name = "正航专用空中支援技能-轰炸Lv3",
 		base = 54010,
-		id = 54015,
+		is_siren = 0,
 		weapon_id = {
 			54015
 		},
@@ -45209,8 +49117,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60001,
@@ -45225,18 +49134,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60002] = {
+		id = 60002,
 		name = "航空攻击展示-长岛II",
 		base = 60001,
-		id = 60002,
+		is_siren = 0,
 		weapon_id = {
 			60002
 		},
 		property_rate = {}
 	},
 	[60003] = {
+		id = 60003,
 		name = "航空攻击展示-长岛III",
 		base = 60001,
-		id = 60003,
+		is_siren = 0,
 		weapon_id = {
 			60003
 		},
@@ -45256,8 +49167,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60011,
@@ -45272,18 +49184,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60012] = {
+		id = 60012,
 		name = "航空攻击展示-博格II",
 		base = 60011,
-		id = 60012,
+		is_siren = 0,
 		weapon_id = {
 			60012
 		},
 		property_rate = {}
 	},
 	[60013] = {
+		id = 60013,
 		name = "航空攻击展示-博格III",
 		base = 60011,
-		id = 60013,
+		is_siren = 0,
 		weapon_id = {
 			60013
 		},
@@ -45303,8 +49217,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60021,
@@ -45319,18 +49234,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60022] = {
+		id = 60022,
 		name = "航空攻击展示-兰利II",
 		base = 60021,
-		id = 60022,
+		is_siren = 0,
 		weapon_id = {
 			60022
 		},
 		property_rate = {}
 	},
 	[60023] = {
+		id = 60023,
 		name = "航空攻击展示-兰利III",
 		base = 60021,
-		id = 60023,
+		is_siren = 0,
 		weapon_id = {
 			60023
 		},
@@ -45350,8 +49267,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60031,
@@ -45366,18 +49284,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60032] = {
+		id = 60032,
 		name = "航空攻击展示-列克星敦II",
 		base = 60031,
-		id = 60032,
+		is_siren = 0,
 		weapon_id = {
 			60032
 		},
 		property_rate = {}
 	},
 	[60033] = {
+		id = 60033,
 		name = "航空攻击展示-列克星敦III",
 		base = 60031,
-		id = 60033,
+		is_siren = 0,
 		weapon_id = {
 			60033
 		},
@@ -45397,8 +49317,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60041,
@@ -45413,18 +49334,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60042] = {
+		id = 60042,
 		name = "航空攻击展示-萨拉托加II",
 		base = 60041,
-		id = 60042,
+		is_siren = 0,
 		weapon_id = {
 			60042
 		},
 		property_rate = {}
 	},
 	[60043] = {
+		id = 60043,
 		name = "航空攻击展示-萨拉托加III",
 		base = 60041,
-		id = 60043,
+		is_siren = 0,
 		weapon_id = {
 			60043
 		},
@@ -45444,8 +49367,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60051,
@@ -45460,18 +49384,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60052] = {
+		id = 60052,
 		name = "航空攻击展示-突击者II",
 		base = 60051,
-		id = 60052,
+		is_siren = 0,
 		weapon_id = {
 			60052
 		},
 		property_rate = {}
 	},
 	[60053] = {
+		id = 60053,
 		name = "航空攻击展示-突击者III",
 		base = 60051,
-		id = 60053,
+		is_siren = 0,
 		weapon_id = {
 			60053
 		},
@@ -45491,8 +49417,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60061,
@@ -45507,18 +49434,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60062] = {
+		id = 60062,
 		name = "航空攻击展示-约克城II",
 		base = 60061,
-		id = 60062,
+		is_siren = 0,
 		weapon_id = {
 			60062
 		},
 		property_rate = {}
 	},
 	[60063] = {
+		id = 60063,
 		name = "航空攻击展示-约克城III",
 		base = 60061,
-		id = 60063,
+		is_siren = 0,
 		weapon_id = {
 			60063
 		},
@@ -45538,8 +49467,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60071,
@@ -45554,18 +49484,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60072] = {
+		id = 60072,
 		name = "航空攻击展示-企业II",
 		base = 60071,
-		id = 60072,
+		is_siren = 0,
 		weapon_id = {
 			60072
 		},
 		property_rate = {}
 	},
 	[60073] = {
+		id = 60073,
 		name = "航空攻击展示-企业III",
 		base = 60071,
-		id = 60073,
+		is_siren = 0,
 		weapon_id = {
 			60073
 		},
@@ -45585,8 +49517,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60081,
@@ -45601,18 +49534,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60082] = {
+		id = 60082,
 		name = "航空攻击展示-大黄蜂II",
 		base = 60081,
-		id = 60082,
+		is_siren = 0,
 		weapon_id = {
 			60082
 		},
 		property_rate = {}
 	},
 	[60083] = {
+		id = 60083,
 		name = "航空攻击展示-大黄蜂III",
 		base = 60081,
-		id = 60083,
+		is_siren = 0,
 		weapon_id = {
 			60083
 		},
@@ -45632,8 +49567,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60091,
@@ -45648,9 +49584,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60092] = {
+		id = 60092,
 		name = "航空攻击展示-竞技神II",
 		base = 60091,
-		id = 60092,
+		is_siren = 0,
 		weapon_id = {
 			60092
 		},
@@ -45670,8 +49607,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60101,
@@ -45686,18 +49624,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60102] = {
+		id = 60102,
 		name = "航空攻击展示-皇家方舟II",
 		base = 60101,
-		id = 60102,
+		is_siren = 0,
 		weapon_id = {
 			60102
 		},
 		property_rate = {}
 	},
 	[60103] = {
+		id = 60103,
 		name = "航空攻击展示-皇家方舟III",
 		base = 60101,
-		id = 60103,
+		is_siren = 0,
 		weapon_id = {
 			60103
 		},
@@ -45717,8 +49657,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60111,
@@ -45733,18 +49674,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60112] = {
+		id = 60112,
 		name = "航空攻击展示-光辉II",
 		base = 60111,
-		id = 60112,
+		is_siren = 0,
 		weapon_id = {
 			60112
 		},
 		property_rate = {}
 	},
 	[60113] = {
+		id = 60113,
 		name = "航空攻击展示-光辉III",
 		base = 60111,
-		id = 60113,
+		is_siren = 0,
 		weapon_id = {
 			60113
 		},
@@ -45764,8 +49707,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60121,
@@ -45780,18 +49724,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60122] = {
+		id = 60122,
 		name = "航空攻击展示-祥凤II",
 		base = 60121,
-		id = 60122,
+		is_siren = 0,
 		weapon_id = {
 			60122
 		},
 		property_rate = {}
 	},
 	[60123] = {
+		id = 60123,
 		name = "航空攻击展示-祥凤III",
 		base = 60121,
-		id = 60123,
+		is_siren = 0,
 		weapon_id = {
 			60123
 		},
@@ -45811,8 +49757,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60131,
@@ -45827,18 +49774,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60132] = {
+		id = 60132,
 		name = "航空攻击展示-赤城II",
 		base = 60131,
-		id = 60132,
+		is_siren = 0,
 		weapon_id = {
 			60132
 		},
 		property_rate = {}
 	},
 	[60133] = {
+		id = 60133,
 		name = "航空攻击展示-赤城II",
 		base = 60131,
-		id = 60133,
+		is_siren = 0,
 		weapon_id = {
 			60133
 		},
@@ -45858,8 +49807,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60141,
@@ -45874,18 +49824,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60142] = {
+		id = 60142,
 		name = "航空攻击展示-加贺II",
 		base = 60141,
-		id = 60142,
+		is_siren = 0,
 		weapon_id = {
 			60142
 		},
 		property_rate = {}
 	},
 	[60143] = {
+		id = 60143,
 		name = "航空攻击展示-加贺II",
 		base = 60141,
-		id = 60143,
+		is_siren = 0,
 		weapon_id = {
 			60143
 		},
@@ -45905,8 +49857,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60151,
@@ -45921,18 +49874,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60152] = {
+		id = 60152,
 		name = "航空攻击展示-苍龙II",
 		base = 60151,
-		id = 60152,
+		is_siren = 0,
 		weapon_id = {
 			60152
 		},
 		property_rate = {}
 	},
 	[60153] = {
+		id = 60153,
 		name = "航空攻击展示-苍龙II",
 		base = 60151,
-		id = 60153,
+		is_siren = 0,
 		weapon_id = {
 			60153
 		},
@@ -45952,8 +49907,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60161,
@@ -45968,18 +49924,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60162] = {
+		id = 60162,
 		name = "航空攻击展示-飞龙II",
 		base = 60161,
-		id = 60162,
+		is_siren = 0,
 		weapon_id = {
 			60162
 		},
 		property_rate = {}
 	},
 	[60163] = {
+		id = 60163,
 		name = "航空攻击展示-飞龙II",
 		base = 60161,
-		id = 60163,
+		is_siren = 0,
 		weapon_id = {
 			60163
 		},
@@ -45999,8 +49957,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60171,
@@ -46015,18 +49974,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60172] = {
+		id = 60172,
 		name = "航空攻击展示-独角兽II",
 		base = 60171,
-		id = 60172,
+		is_siren = 0,
 		weapon_id = {
 			60172
 		},
 		property_rate = {}
 	},
 	[60173] = {
+		id = 60173,
 		name = "航空攻击展示-独角兽III",
 		base = 60171,
-		id = 60173,
+		is_siren = 0,
 		weapon_id = {
 			60173
 		},
@@ -46046,8 +50007,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60181,
@@ -46062,18 +50024,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60182] = {
+		id = 60182,
 		name = "航空攻击展示-凤翔II",
 		base = 60181,
-		id = 60182,
+		is_siren = 0,
 		weapon_id = {
 			60182
 		},
 		property_rate = {}
 	},
 	[60183] = {
+		id = 60183,
 		name = "航空攻击展示-凤翔III",
 		base = 60181,
-		id = 60183,
+		is_siren = 0,
 		weapon_id = {
 			60183
 		},
@@ -46093,8 +50057,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60191,
@@ -46109,18 +50074,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60192] = {
+		id = 60192,
 		name = "航空攻击展示-齐柏林伯爵II",
 		base = 60191,
-		id = 60192,
+		is_siren = 0,
 		weapon_id = {
 			60192
 		},
 		property_rate = {}
 	},
 	[60193] = {
+		id = 60193,
 		name = "航空攻击展示-齐柏林伯爵II",
 		base = 60191,
-		id = 60193,
+		is_siren = 0,
 		weapon_id = {
 			60193
 		},
@@ -46140,8 +50107,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60201,
@@ -46156,18 +50124,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60202] = {
+		id = 60202,
 		name = "航空攻击展示-翔鹤II",
 		base = 60201,
-		id = 60202,
+		is_siren = 0,
 		weapon_id = {
 			60202
 		},
 		property_rate = {}
 	},
 	[60203] = {
+		id = 60203,
 		name = "航空攻击展示-翔鹤III",
 		base = 60201,
-		id = 60203,
+		is_siren = 0,
 		weapon_id = {
 			60203
 		},
@@ -46187,8 +50157,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60211,
@@ -46203,18 +50174,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60212] = {
+		id = 60212,
 		name = "航空攻击展示-瑞鹤II",
 		base = 60211,
-		id = 60212,
+		is_siren = 0,
 		weapon_id = {
 			60212
 		},
 		property_rate = {}
 	},
 	[60213] = {
+		id = 60213,
 		name = "航空攻击展示-瑞鹤III",
 		base = 60211,
-		id = 60213,
+		is_siren = 0,
 		weapon_id = {
 			60213
 		},
@@ -46234,8 +50207,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60221,
@@ -46250,18 +50224,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60222] = {
+		id = 60222,
 		name = "航空攻击展示-光荣II",
 		base = 60221,
-		id = 60222,
+		is_siren = 0,
 		weapon_id = {
 			60222
 		},
 		property_rate = {}
 	},
 	[60223] = {
+		id = 60223,
 		name = "航空攻击展示-光荣III",
 		base = 60221,
-		id = 60223,
+		is_siren = 0,
 		weapon_id = {
 			60223
 		},
@@ -46281,8 +50257,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60231,
@@ -46310,8 +50287,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60232,
@@ -46339,8 +50317,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60233,
@@ -46368,8 +50347,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60234,
@@ -46384,9 +50364,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60235] = {
+		id = 60235,
 		name = "雪风弹幕展示II",
 		base = 60234,
-		id = 60235,
+		is_siren = 0,
 		weapon_id = {
 			60235
 		},
@@ -46406,8 +50387,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60236,
@@ -46422,9 +50404,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60237] = {
+		id = 60237,
 		name = "夕立弹幕展示II",
 		base = 60236,
-		id = 60237,
+		is_siren = 0,
 		weapon_id = {
 			60237
 		},
@@ -46444,8 +50427,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60238,
@@ -46460,9 +50444,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60239] = {
+		id = 60239,
 		name = "江风弹幕展示II",
 		base = 60238,
-		id = 60239,
+		is_siren = 0,
 		weapon_id = {
 			60239
 		},
@@ -46482,8 +50467,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60241,
@@ -46498,18 +50484,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60242] = {
+		id = 60242,
 		name = "航空攻击展示-贝露II",
 		base = 60241,
-		id = 60242,
+		is_siren = 0,
 		weapon_id = {
 			60242
 		},
 		property_rate = {}
 	},
 	[60243] = {
+		id = 60243,
 		name = "航空攻击展示-贝露III",
 		base = 60241,
-		id = 60243,
+		is_siren = 0,
 		weapon_id = {
 			60243
 		},
@@ -46529,8 +50517,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60251,
@@ -46545,18 +50534,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60252] = {
+		id = 60252,
 		name = "航空攻击展示-翡绿之心II",
 		base = 60251,
-		id = 60252,
+		is_siren = 0,
 		weapon_id = {
 			60252
 		},
 		property_rate = {}
 	},
 	[60253] = {
+		id = 60253,
 		name = "航空攻击展示-翡绿之心III",
 		base = 60251,
-		id = 60253,
+		is_siren = 0,
 		weapon_id = {
 			60253
 		},
@@ -46576,8 +50567,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60261,
@@ -46592,18 +50584,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60262] = {
+		id = 60262,
 		name = "航空攻击展示-胡蜂II",
 		base = 60261,
-		id = 60262,
+		is_siren = 0,
 		weapon_id = {
 			60262
 		},
 		property_rate = {}
 	},
 	[60263] = {
+		id = 60263,
 		name = "航空攻击展示-胡蜂III",
 		base = 60261,
-		id = 60263,
+		is_siren = 0,
 		weapon_id = {
 			60263
 		},
@@ -46623,8 +50617,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60271,
@@ -46639,18 +50634,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60272] = {
+		id = 60272,
 		name = "航空攻击展示-胜利II",
 		base = 60271,
-		id = 60272,
+		is_siren = 0,
 		weapon_id = {
 			60272
 		},
 		property_rate = {}
 	},
 	[60273] = {
+		id = 60273,
 		name = "航空攻击展示-胜利III",
 		base = 60271,
-		id = 60273,
+		is_siren = 0,
 		weapon_id = {
 			60273
 		},
@@ -46670,8 +50667,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60281,
@@ -46686,18 +50684,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60282] = {
+		id = 60282,
 		name = "航空攻击展示-飞鹰II",
 		base = 60281,
-		id = 60282,
+		is_siren = 0,
 		weapon_id = {
 			60282
 		},
 		property_rate = {}
 	},
 	[60283] = {
+		id = 60283,
 		name = "航空攻击展示-飞鹰III",
 		base = 60281,
-		id = 60283,
+		is_siren = 0,
 		weapon_id = {
 			60283
 		},
@@ -46717,8 +50717,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60291,
@@ -46733,18 +50734,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60292] = {
+		id = 60292,
 		name = "航空攻击展示-隼鹰II",
 		base = 60291,
-		id = 60292,
+		is_siren = 0,
 		weapon_id = {
 			60292
 		},
 		property_rate = {}
 	},
 	[60293] = {
+		id = 60293,
 		name = "航空攻击展示-隼鹰III",
 		base = 60291,
-		id = 60293,
+		is_siren = 0,
 		weapon_id = {
 			60293
 		},
@@ -46764,8 +50767,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60301,
@@ -46780,9 +50784,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60302] = {
+		id = 60302,
 		name = "Z46弹幕展示II",
 		base = 60301,
-		id = 60302,
+		is_siren = 0,
 		weapon_id = {
 			60302
 		},
@@ -46802,8 +50807,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60311,
@@ -46818,18 +50824,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60312] = {
+		id = 60312,
 		name = "航空攻击展示-半人马II",
 		base = 60311,
-		id = 60312,
+		is_siren = 0,
 		weapon_id = {
 			60312
 		},
 		property_rate = {}
 	},
 	[60313] = {
+		id = 60313,
 		name = "航空攻击展示-半人马III",
 		base = 60311,
-		id = 60313,
+		is_siren = 0,
 		weapon_id = {
 			60313
 		},
@@ -46849,8 +50857,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60321,
@@ -46865,18 +50874,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60322] = {
+		id = 60322,
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
-		id = 60322,
+		is_siren = 0,
 		weapon_id = {
 			60322
 		},
 		property_rate = {}
 	},
 	[60323] = {
+		id = 60323,
 		name = "航空攻击展示-埃塞克斯II",
 		base = 60321,
-		id = 60323,
+		is_siren = 0,
 		weapon_id = {
 			60323
 		},
@@ -46896,8 +50907,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60331,
@@ -46912,18 +50924,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60332] = {
+		id = 60332,
 		name = "航空攻击展示-大凤II",
 		base = 60331,
-		id = 60332,
+		is_siren = 0,
 		weapon_id = {
 			60332
 		},
 		property_rate = {}
 	},
 	[60333] = {
+		id = 60333,
 		name = "航空攻击展示-大凤III",
 		base = 60331,
-		id = 60333,
+		is_siren = 0,
 		weapon_id = {
 			60333
 		},
@@ -46943,8 +50957,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60341,
@@ -46959,18 +50974,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60342] = {
+		id = 60342,
 		name = "航空攻击展示-芙米露露II",
 		base = 60341,
-		id = 60342,
+		is_siren = 0,
 		weapon_id = {
 			60342
 		},
 		property_rate = {}
 	},
 	[60343] = {
+		id = 60343,
 		name = "航空攻击展示-芙米露露III",
 		base = 60341,
-		id = 60343,
+		is_siren = 0,
 		weapon_id = {
 			60343
 		},
@@ -46990,8 +51007,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60351,
@@ -47006,18 +51024,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60352] = {
+		id = 60352,
 		name = "航空攻击展示-乌璐露II",
 		base = 60351,
-		id = 60352,
+		is_siren = 0,
 		weapon_id = {
 			60352
 		},
 		property_rate = {}
 	},
 	[60353] = {
+		id = 60353,
 		name = "航空攻击展示-乌璐露III",
 		base = 60351,
-		id = 60353,
+		is_siren = 0,
 		weapon_id = {
 			60353
 		},
@@ -47037,8 +51057,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60361,
@@ -47053,18 +51074,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60362] = {
+		id = 60362,
 		name = "航空攻击展示-萨拉娜II",
 		base = 60361,
-		id = 60362,
+		is_siren = 0,
 		weapon_id = {
 			60362
 		},
 		property_rate = {}
 	},
 	[60363] = {
+		id = 60363,
 		name = "航空攻击展示-萨拉娜III",
 		base = 60361,
-		id = 60363,
+		is_siren = 0,
 		weapon_id = {
 			60363
 		},
@@ -47084,8 +51107,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60371,
@@ -47100,18 +51124,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60372] = {
+		id = 60372,
 		name = "航空攻击展示-龙骧II",
 		base = 60371,
-		id = 60372,
+		is_siren = 0,
 		weapon_id = {
 			60372
 		},
 		property_rate = {}
 	},
 	[60373] = {
+		id = 60373,
 		name = "航空攻击展示-龙骧III",
 		base = 60371,
-		id = 60373,
+		is_siren = 0,
 		weapon_id = {
 			60373
 		},
@@ -47131,8 +51157,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60381,
@@ -47147,18 +51174,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60382] = {
+		id = 60382,
 		name = "航空攻击展示-追赶者II",
 		base = 60381,
-		id = 60382,
+		is_siren = 0,
 		weapon_id = {
 			60382
 		},
 		property_rate = {}
 	},
 	[60383] = {
+		id = 60383,
 		name = "航空攻击展示-追赶者III",
 		base = 60381,
-		id = 60383,
+		is_siren = 0,
 		weapon_id = {
 			60383
 		},
@@ -47178,8 +51207,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60391,
@@ -47194,18 +51224,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60392] = {
+		id = 60392,
 		name = "航空攻击展示-独立II",
 		base = 60391,
-		id = 60392,
+		is_siren = 0,
 		weapon_id = {
 			60392
 		},
 		property_rate = {}
 	},
 	[60393] = {
+		id = 60393,
 		name = "航空攻击展示-独立III",
 		base = 60391,
-		id = 60393,
+		is_siren = 0,
 		weapon_id = {
 			60393
 		},
@@ -47225,8 +51257,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "航母空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "航母空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 60401,
@@ -47241,67 +51274,22 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[60402] = {
+		id = 60402,
 		name = "航空攻击展示-爱酱II",
 		base = 60401,
-		id = 60402,
+		is_siren = 0,
 		weapon_id = {
 			60402
 		},
 		property_rate = {}
 	},
 	[60403] = {
+		id = 60403,
 		name = "航空攻击展示-爱酱III",
 		base = 60401,
-		id = 60403,
+		is_siren = 0,
 		weapon_id = {
 			60403
-		},
-		property_rate = {}
-	},
-	[60411] = {
-		name = "航空攻击展示-小齐柏林I",
-		type = 99,
-		nationality = 0,
-		speciality = "无",
-		range = 0,
-		angle = 0,
-		tech = 1,
-		ambush_extra = 0,
-		value_2 = 0,
-		icon = "1",
-		value_1 = "",
-		avoid_extra = 0,
-		rarity = 1,
-		descrip = "航母空袭展示用",
-		scatter = "0",
-		ammo = "无",
-		value_3 = 0,
-		id = 60411,
-		property_rate = {},
-		ammo_icon = {},
-		weapon_id = {
-			60411
-		},
-		skill_id = {},
-		part_main = {},
-		part_sub = {},
-		equip_parameters = {}
-	},
-	[60412] = {
-		name = "航空攻击展示-小齐柏林II",
-		base = 60411,
-		id = 60412,
-		weapon_id = {
-			60412
-		},
-		property_rate = {}
-	},
-	[60413] = {
-		name = "航空攻击展示-小齐柏林III",
-		base = 60411,
-		id = 60413,
-		weapon_id = {
-			60413
 		},
 		property_rate = {}
 	},
@@ -47319,8 +51307,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 61007,
@@ -47335,18 +51324,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[61008] = {
+		id = 61008,
 		name = "约克城技能随机扫射海面LV2",
 		base = 61007,
-		id = 61008,
+		is_siren = 0,
 		weapon_id = {
 			61008
 		},
 		property_rate = {}
 	},
 	[61009] = {
+		id = 61009,
 		name = "约克城技能随机扫射海面LV3",
 		base = 61007,
-		id = 61009,
+		is_siren = 0,
 		weapon_id = {
 			61009
 		},
@@ -47366,8 +51357,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 61010,
@@ -47382,18 +51374,20 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[61011] = {
+		id = 61011,
 		name = "皇家方舟技能LV2",
 		base = 61010,
-		id = 61011,
+		is_siren = 0,
 		weapon_id = {
 			61011
 		},
 		property_rate = {}
 	},
 	[61012] = {
+		id = 61012,
 		name = "皇家方舟技能LV3",
 		base = 61010,
-		id = 61012,
+		is_siren = 0,
 		weapon_id = {
 			61012
 		},
@@ -47413,8 +51407,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61031,
@@ -47442,8 +51437,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61041,
@@ -47471,8 +51467,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61051,
@@ -47500,8 +51497,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61052,
@@ -47529,8 +51527,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61053,
@@ -47558,8 +51557,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61054,
@@ -47587,8 +51587,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "外观空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "外观空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61501,
@@ -47616,8 +51617,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "外观空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "外观空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61503,
@@ -47645,8 +51647,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "外观空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "外观空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61504,
@@ -47674,8 +51677,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "外观空袭展示用",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "外观空袭展示用",
 		ammo = "无",
 		value_3 = 0,
 		id = 61505,
@@ -47703,8 +51707,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 66200,
@@ -47732,8 +51737,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 66220,
@@ -47761,8 +51767,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70011,
@@ -47777,9 +51784,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70012] = {
+		id = 70012,
 		name = "全弹发射-法拉格特级II",
 		base = 70011,
-		id = 70012,
+		is_siren = 0,
 		weapon_id = {
 			70012
 		},
@@ -47799,8 +51807,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70021,
@@ -47815,9 +51824,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70022] = {
+		id = 70022,
 		name = "全弹发射-马汉级II",
 		base = 70021,
-		id = 70022,
+		is_siren = 0,
 		weapon_id = {
 			70022
 		},
@@ -47837,8 +51847,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70031,
@@ -47853,9 +51864,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70032] = {
+		id = 70032,
 		name = "全弹发射-格里德利级II",
 		base = 70031,
-		id = 70032,
+		is_siren = 0,
 		weapon_id = {
 			70032
 		},
@@ -47875,8 +51887,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70041,
@@ -47891,9 +51904,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70042] = {
+		id = 70042,
 		name = "全弹发射-弗莱彻级II",
 		base = 70041,
-		id = 70042,
+		is_siren = 0,
 		weapon_id = {
 			70042
 		},
@@ -47913,8 +51927,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70051,
@@ -47929,9 +51944,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70052] = {
+		id = 70052,
 		name = "全弹发射-西姆斯级II",
 		base = 70051,
-		id = 70052,
+		is_siren = 0,
 		weapon_id = {
 			70052
 		},
@@ -47951,8 +51967,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70061,
@@ -47967,9 +51984,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70062] = {
+		id = 70062,
 		name = "全弹发射-本森级II",
 		base = 70061,
-		id = 70062,
+		is_siren = 0,
 		weapon_id = {
 			70062
 		},
@@ -47989,8 +52007,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70071,
@@ -48005,9 +52024,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70072] = {
+		id = 70072,
 		name = "全弹发射-基林级II",
 		base = 70071,
-		id = 70072,
+		is_siren = 0,
 		weapon_id = {
 			70072
 		},
@@ -48027,8 +52047,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70111,
@@ -48043,9 +52064,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70112] = {
+		id = 70112,
 		name = "全弹发射-奥马哈级II",
 		base = 70111,
-		id = 70112,
+		is_siren = 0,
 		weapon_id = {
 			70112
 		},
@@ -48065,8 +52087,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70121,
@@ -48081,9 +52104,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70122] = {
+		id = 70122,
 		name = "全弹发射-布鲁克林级II",
 		base = 70121,
-		id = 70122,
+		is_siren = 0,
 		weapon_id = {
 			70122
 		},
@@ -48103,8 +52127,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70131,
@@ -48119,9 +52144,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70132] = {
+		id = 70132,
 		name = "全弹发射-亚特兰大级II",
 		base = 70131,
-		id = 70132,
+		is_siren = 0,
 		weapon_id = {
 			70132
 		},
@@ -48141,8 +52167,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70141,
@@ -48157,9 +52184,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70142] = {
+		id = 70142,
 		name = "全弹发射-克利夫兰级II",
 		base = 70141,
-		id = 70142,
+		is_siren = 0,
 		weapon_id = {
 			70142
 		},
@@ -48179,8 +52207,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70211,
@@ -48195,9 +52224,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70212] = {
+		id = 70212,
 		name = "全弹发射-彭萨科拉级II",
 		base = 70211,
-		id = 70212,
+		is_siren = 0,
 		weapon_id = {
 			70212
 		},
@@ -48217,8 +52247,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70221,
@@ -48233,9 +52264,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70222] = {
+		id = 70222,
 		name = "全弹发射-北安普顿级II",
 		base = 70221,
-		id = 70222,
+		is_siren = 0,
 		weapon_id = {
 			70222
 		},
@@ -48255,8 +52287,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70231,
@@ -48271,9 +52304,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70232] = {
+		id = 70232,
 		name = "全弹发射-波特兰级II",
 		base = 70231,
-		id = 70232,
+		is_siren = 0,
 		weapon_id = {
 			70232
 		},
@@ -48293,8 +52327,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70241,
@@ -48309,9 +52344,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70242] = {
+		id = 70242,
 		name = "全弹发射-新奥尔良级II",
 		base = 70241,
-		id = 70242,
+		is_siren = 0,
 		weapon_id = {
 			70242
 		},
@@ -48331,8 +52367,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70251,
@@ -48347,9 +52384,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70252] = {
+		id = 70252,
 		name = "全弹发射-威奇塔II",
 		base = 70251,
-		id = 70252,
+		is_siren = 0,
 		weapon_id = {
 			70252
 		},
@@ -48369,8 +52407,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70261,
@@ -48385,9 +52424,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70262] = {
+		id = 70262,
 		name = "全弹发射-巴尔的摩级II",
 		base = 70261,
-		id = 70262,
+		is_siren = 0,
 		weapon_id = {
 			70262
 		},
@@ -48407,8 +52447,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70271,
@@ -48423,9 +52464,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70272] = {
+		id = 70272,
 		name = "全弹发射-得梅因级II",
 		base = 70271,
-		id = 70272,
+		is_siren = 0,
 		weapon_id = {
 			70272
 		},
@@ -48445,8 +52487,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 70311,
@@ -48461,9 +52504,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[70312] = {
+		id = 70312,
 		name = "全弹发射-猫鲨级II",
 		base = 70311,
-		id = 70312,
+		is_siren = 0,
 		weapon_id = {
 			70312
 		},
@@ -48483,8 +52527,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71011,
@@ -48499,9 +52544,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71012] = {
+		id = 71012,
 		name = "全弹发射-A级II",
 		base = 71011,
-		id = 71012,
+		is_siren = 0,
 		weapon_id = {
 			71012
 		},
@@ -48521,8 +52567,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71021,
@@ -48537,9 +52584,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71022] = {
+		id = 71022,
 		name = "全弹发射-B级II",
 		base = 71021,
-		id = 71022,
+		is_siren = 0,
 		weapon_id = {
 			71022
 		},
@@ -48559,8 +52607,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71031,
@@ -48575,9 +52624,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71032] = {
+		id = 71032,
 		name = "全弹发射-C级II",
 		base = 71031,
-		id = 71032,
+		is_siren = 0,
 		weapon_id = {
 			71032
 		},
@@ -48597,8 +52647,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71041,
@@ -48613,9 +52664,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71042] = {
+		id = 71042,
 		name = "全弹发射-F级II",
 		base = 71041,
-		id = 71042,
+		is_siren = 0,
 		weapon_id = {
 			71042
 		},
@@ -48635,8 +52687,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71051,
@@ -48651,9 +52704,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71052] = {
+		id = 71052,
 		name = "全弹发射-G级II",
 		base = 71051,
-		id = 71052,
+		is_siren = 0,
 		weapon_id = {
 			71052
 		},
@@ -48673,8 +52727,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71061,
@@ -48689,9 +52744,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71062] = {
+		id = 71062,
 		name = "全弹发射-H级II",
 		base = 71061,
-		id = 71062,
+		is_siren = 0,
 		weapon_id = {
 			71062
 		},
@@ -48711,8 +52767,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71071,
@@ -48727,9 +52784,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71072] = {
+		id = 71072,
 		name = "全弹发射-J级II",
 		base = 71071,
-		id = 71072,
+		is_siren = 0,
 		weapon_id = {
 			71072
 		},
@@ -48749,8 +52807,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71081,
@@ -48765,9 +52824,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71082] = {
+		id = 71082,
 		name = "全弹发射-M级II",
 		base = 71081,
-		id = 71082,
+		is_siren = 0,
 		weapon_id = {
 			71082
 		},
@@ -48787,8 +52847,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71111,
@@ -48803,9 +52864,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71112] = {
+		id = 71112,
 		name = "全弹发射-利安得级II",
 		base = 71111,
-		id = 71112,
+		is_siren = 0,
 		weapon_id = {
 			71112
 		},
@@ -48825,8 +52887,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71121,
@@ -48841,9 +52904,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71122] = {
+		id = 71122,
 		name = "全弹发射-黛朵级II",
 		base = 71121,
-		id = 71122,
+		is_siren = 0,
 		weapon_id = {
 			71122
 		},
@@ -48863,8 +52927,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71131,
@@ -48879,9 +52944,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71132] = {
+		id = 71132,
 		name = "全弹发射-阿瑞托莎级II",
 		base = 71131,
-		id = 71132,
+		is_siren = 0,
 		weapon_id = {
 			71132
 		},
@@ -48901,8 +52967,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71141,
@@ -48917,9 +52984,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71142] = {
+		id = 71142,
 		name = "全弹发射-爱丁堡级II",
 		base = 71141,
-		id = 71142,
+		is_siren = 0,
 		weapon_id = {
 			71142
 		},
@@ -48939,8 +53007,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71151,
@@ -48955,9 +53024,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71152] = {
+		id = 71152,
 		name = "全弹发射-南安普顿级II",
 		base = 71151,
-		id = 71152,
+		is_siren = 0,
 		weapon_id = {
 			71152
 		},
@@ -48977,8 +53047,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71161,
@@ -48993,9 +53064,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71162] = {
+		id = 71162,
 		name = "全弹发射-斐济级II",
 		base = 71161,
-		id = 71162,
+		is_siren = 0,
 		weapon_id = {
 			71162
 		},
@@ -49015,8 +53087,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71171,
@@ -49031,9 +53104,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71172] = {
+		id = 71172,
 		name = "全弹发射-谷物女神级II",
 		base = 71171,
-		id = 71172,
+		is_siren = 0,
 		weapon_id = {
 			71172
 		},
@@ -49053,8 +53127,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71211,
@@ -49069,9 +53144,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71212] = {
+		id = 71212,
 		name = "全弹发射-伦敦级II",
 		base = 71211,
-		id = 71212,
+		is_siren = 0,
 		weapon_id = {
 			71212
 		},
@@ -49091,8 +53167,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71221,
@@ -49107,9 +53184,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71222] = {
+		id = 71222,
 		name = "全弹发射-肯特级II",
 		base = 71221,
-		id = 71222,
+		is_siren = 0,
 		weapon_id = {
 			71222
 		},
@@ -49129,8 +53207,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71231,
@@ -49145,9 +53224,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71232] = {
+		id = 71232,
 		name = "全弹发射-诺福克级II",
 		base = 71231,
-		id = 71232,
+		is_siren = 0,
 		weapon_id = {
 			71232
 		},
@@ -49167,8 +53247,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 71241,
@@ -49183,9 +53264,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[71242] = {
+		id = 71242,
 		name = "全弹发射-约克级II",
 		base = 71241,
-		id = 71242,
+		is_siren = 0,
 		weapon_id = {
 			71242
 		},
@@ -49205,8 +53287,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72011,
@@ -49221,9 +53304,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72012] = {
+		id = 72012,
 		name = "全弹发射-睦月级II",
 		base = 72011,
-		id = 72012,
+		is_siren = 0,
 		weapon_id = {
 			72012
 		},
@@ -49243,8 +53327,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72021,
@@ -49259,9 +53344,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72022] = {
+		id = 72022,
 		name = "全弹发射-吹雪级II",
 		base = 72021,
-		id = 72022,
+		is_siren = 0,
 		weapon_id = {
 			72022
 		},
@@ -49281,8 +53367,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72031,
@@ -49297,9 +53384,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72032] = {
+		id = 72032,
 		name = "全弹发射-白露级II",
 		base = 72031,
-		id = 72032,
+		is_siren = 0,
 		weapon_id = {
 			72032
 		},
@@ -49319,8 +53407,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72041,
@@ -49335,9 +53424,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72042] = {
+		id = 72042,
 		name = "全弹发射-初春级II",
 		base = 72041,
-		id = 72042,
+		is_siren = 0,
 		weapon_id = {
 			72042
 		},
@@ -49357,8 +53447,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72051,
@@ -49373,9 +53464,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72052] = {
+		id = 72052,
 		name = "全弹发射-阳炎级II",
 		base = 72051,
-		id = 72052,
+		is_siren = 0,
 		weapon_id = {
 			72052
 		},
@@ -49395,8 +53487,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72056,
@@ -49411,9 +53504,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72057] = {
+		id = 72057,
 		name = "全弹发射-夕云级II",
 		base = 72056,
-		id = 72057,
+		is_siren = 0,
 		weapon_id = {
 			72057
 		},
@@ -49433,8 +53527,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72061,
@@ -49449,9 +53544,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72062] = {
+		id = 72062,
 		name = "全弹发射-秋月级II",
 		base = 72061,
-		id = 72062,
+		is_siren = 0,
 		weapon_id = {
 			72062
 		},
@@ -49471,8 +53567,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72071,
@@ -49487,9 +53584,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72072] = {
+		id = 72072,
 		name = "全弹发射-晓级II",
 		base = 72071,
-		id = 72072,
+		is_siren = 0,
 		weapon_id = {
 			72072
 		},
@@ -49509,8 +53607,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72081,
@@ -49525,9 +53624,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72082] = {
+		id = 72082,
 		name = "全弹发射-神风级II",
 		base = 72081,
-		id = 72082,
+		is_siren = 0,
 		weapon_id = {
 			72082
 		},
@@ -49547,8 +53647,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72091,
@@ -49563,9 +53664,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72092] = {
+		id = 72092,
 		name = "全弹发射-朝潮级II",
 		base = 72091,
-		id = 72092,
+		is_siren = 0,
 		weapon_id = {
 			72092
 		},
@@ -49585,8 +53687,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72111,
@@ -49601,9 +53704,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72112] = {
+		id = 72112,
 		name = "全弹发射-天龙级II",
 		base = 72111,
-		id = 72112,
+		is_siren = 0,
 		weapon_id = {
 			72112
 		},
@@ -49623,8 +53727,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72121,
@@ -49639,9 +53744,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72122] = {
+		id = 72122,
 		name = "全弹发射-球磨级II",
 		base = 72121,
-		id = 72122,
+		is_siren = 0,
 		weapon_id = {
 			72122
 		},
@@ -49661,8 +53767,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72131,
@@ -49677,9 +53784,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72132] = {
+		id = 72132,
 		name = "全弹发射-川内级II",
 		base = 72131,
-		id = 72132,
+		is_siren = 0,
 		weapon_id = {
 			72132
 		},
@@ -49699,8 +53807,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72141,
@@ -49715,9 +53824,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72142] = {
+		id = 72142,
 		name = "全弹发射-长良级II",
 		base = 72141,
-		id = 72142,
+		is_siren = 0,
 		weapon_id = {
 			72142
 		},
@@ -49737,8 +53847,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72151,
@@ -49753,9 +53864,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72152] = {
+		id = 72152,
 		name = "全弹发射-阿贺野级II",
 		base = 72151,
-		id = 72152,
+		is_siren = 0,
 		weapon_id = {
 			72152
 		},
@@ -49775,8 +53887,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72161,
@@ -49791,9 +53904,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72162] = {
+		id = 72162,
 		name = "全弹发射-夕张II",
 		base = 72161,
-		id = 72162,
+		is_siren = 0,
 		weapon_id = {
 			72162
 		},
@@ -49813,8 +53927,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72211,
@@ -49829,9 +53944,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72212] = {
+		id = 72212,
 		name = "全弹发射-古鹰级II",
 		base = 72211,
-		id = 72212,
+		is_siren = 0,
 		weapon_id = {
 			72212
 		},
@@ -49851,8 +53967,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72221,
@@ -49867,9 +53984,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72222] = {
+		id = 72222,
 		name = "全弹发射-青叶级II",
 		base = 72221,
-		id = 72222,
+		is_siren = 0,
 		weapon_id = {
 			72222
 		},
@@ -49889,8 +54007,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72231,
@@ -49905,9 +54024,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72232] = {
+		id = 72232,
 		name = "全弹发射-妙高级II",
 		base = 72231,
-		id = 72232,
+		is_siren = 0,
 		weapon_id = {
 			72232
 		},
@@ -49927,8 +54047,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72241,
@@ -49943,9 +54064,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72242] = {
+		id = 72242,
 		name = "全弹发射-利根级II",
 		base = 72241,
-		id = 72242,
+		is_siren = 0,
 		weapon_id = {
 			72242
 		},
@@ -49965,8 +54087,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72251,
@@ -49981,9 +54104,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72252] = {
+		id = 72252,
 		name = "全弹发射-最上级II",
 		base = 72251,
-		id = 72252,
+		is_siren = 0,
 		weapon_id = {
 			72252
 		},
@@ -50005,8 +54129,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		range = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 72254,
 		property_rate = {},
@@ -50020,9 +54145,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72255] = {
+		id = 72255,
 		name = "全弹发射-最上级铃谷型II",
 		base = 72251,
-		id = 72255,
+		is_siren = 0,
 		weapon_id = {
 			72255
 		},
@@ -50044,8 +54170,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		range = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		is_siren = 0,
 		ammo = "无",
+		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 72256,
 		property_rate = {},
@@ -50059,9 +54186,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72257] = {
+		id = 72257,
 		name = "全弹发射-最上级铃谷型II增强",
 		base = 72251,
-		id = 72257,
+		is_siren = 0,
 		weapon_id = {
 			72257
 		},
@@ -50081,8 +54209,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72261,
@@ -50097,9 +54226,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72262] = {
+		id = 72262,
 		name = "全弹发射-高雄级II",
 		base = 72261,
-		id = 72262,
+		is_siren = 0,
 		weapon_id = {
 			72262
 		},
@@ -50119,8 +54249,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 72311,
@@ -50135,9 +54266,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[72312] = {
+		id = 72312,
 		name = "全弹发射-伊乙级II",
 		base = 72311,
-		id = 72312,
+		is_siren = 0,
 		weapon_id = {
 			72312
 		},
@@ -50157,8 +54289,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73011,
@@ -50173,9 +54306,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73012] = {
+		id = 73012,
 		name = "全弹发射-1934型II",
 		base = 73011,
-		id = 73012,
+		is_siren = 0,
 		weapon_id = {
 			73012
 		},
@@ -50195,8 +54329,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73031,
@@ -50211,9 +54346,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73032] = {
+		id = 73032,
 		name = "全弹发射-1936型II",
 		base = 73031,
-		id = 73032,
+		is_siren = 0,
 		weapon_id = {
 			73032
 		},
@@ -50233,8 +54369,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73041,
@@ -50249,9 +54386,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73042] = {
+		id = 73042,
 		name = "全弹发射-1936A型II",
 		base = 73041,
-		id = 73042,
+		is_siren = 0,
 		weapon_id = {
 			73042
 		},
@@ -50271,8 +54409,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73051,
@@ -50287,9 +54426,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73052] = {
+		id = 73052,
 		name = "全弹发射-1936B型II",
 		base = 73051,
-		id = 73052,
+		is_siren = 0,
 		weapon_id = {
 			73052
 		},
@@ -50309,8 +54449,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73111,
@@ -50325,9 +54466,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73112] = {
+		id = 73112,
 		name = "全弹发射-柯尼斯堡级II",
 		base = 73111,
-		id = 73112,
+		is_siren = 0,
 		weapon_id = {
 			73112
 		},
@@ -50347,8 +54489,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73121,
@@ -50363,9 +54506,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73122] = {
+		id = 73122,
 		name = "全弹发射-莱比锡级II",
 		base = 73121,
-		id = 73122,
+		is_siren = 0,
 		weapon_id = {
 			73112
 		},
@@ -50385,8 +54529,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73211,
@@ -50401,9 +54546,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73212] = {
+		id = 73212,
 		name = "全弹发射-希佩尔海军上将级II",
 		base = 73211,
-		id = 73212,
+		is_siren = 0,
 		weapon_id = {
 			73212
 		},
@@ -50423,8 +54569,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73221,
@@ -50439,9 +54586,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73222] = {
+		id = 73222,
 		name = "全弹发射-德意志级II",
 		base = 73221,
-		id = 73222,
+		is_siren = 0,
 		weapon_id = {
 			73222
 		},
@@ -50461,8 +54609,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 73311,
@@ -50477,9 +54626,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[73312] = {
+		id = 73312,
 		name = "全弹发射-Type VIIC型II",
 		base = 73311,
-		id = 73312,
+		is_siren = 0,
 		weapon_id = {
 			73312
 		},
@@ -50499,8 +54649,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 74011,
@@ -50515,9 +54666,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[74012] = {
+		id = 74012,
 		name = "全弹发射-鞍山级II",
 		base = 74011,
-		id = 74012,
+		is_siren = 0,
 		weapon_id = {
 			74012
 		},
@@ -50537,8 +54689,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 74111,
@@ -50553,9 +54706,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[74112] = {
+		id = 74112,
 		name = "全弹发射-宁海级II",
 		base = 74111,
-		id = 74112,
+		is_siren = 0,
 		weapon_id = {
 			74112
 		},
@@ -50575,8 +54729,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 74121,
@@ -50591,9 +54746,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[74122] = {
+		id = 74122,
 		name = "全弹发射-逸仙II",
 		base = 74121,
-		id = 74122,
+		is_siren = 0,
 		weapon_id = {
 			74122
 		},
@@ -50613,8 +54769,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 78011,
@@ -50629,9 +54786,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[78012] = {
+		id = 78012,
 		name = "全弹发射-机敏级II",
 		base = 78011,
-		id = 78012,
+		is_siren = 0,
 		weapon_id = {
 			78012
 		},
@@ -50651,8 +54809,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 78021,
@@ -50667,9 +54826,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[78022] = {
+		id = 78022,
 		name = "全弹发射-大胆级II",
 		base = 78021,
-		id = 78022,
+		is_siren = 0,
 		weapon_id = {
 			78022
 		},
@@ -50689,8 +54849,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 78111,
@@ -50705,9 +54866,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[78112] = {
+		id = 78112,
 		name = "全弹发射-埃米尔·贝尔汀II",
 		base = 78111,
-		id = 78112,
+		is_siren = 0,
 		weapon_id = {
 			78112
 		},
@@ -50727,8 +54889,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79011,
@@ -50743,9 +54906,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79012] = {
+		id = 79012,
 		name = "专属弹幕-英格兰II",
 		base = 79011,
-		id = 79012,
+		is_siren = 0,
 		weapon_id = {
 			79012
 		},
@@ -50765,8 +54929,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79021,
@@ -50781,9 +54946,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79022] = {
+		id = 79022,
 		name = "专属弹幕-埃尔德里奇II",
 		base = 79021,
-		id = 79022,
+		is_siren = 0,
 		weapon_id = {
 			79022
 		},
@@ -50803,8 +54969,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79031,
@@ -50819,9 +54986,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79032] = {
+		id = 79032,
 		name = "专属弹幕-威廉·D·波特II",
 		base = 79031,
-		id = 79032,
+		is_siren = 0,
 		weapon_id = {
 			79032
 		},
@@ -50841,8 +55009,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79041,
@@ -50857,9 +55026,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79042] = {
+		id = 79042,
 		name = "专属弹幕-约翰斯顿II",
 		base = 79041,
-		id = 79042,
+		is_siren = 0,
 		weapon_id = {
 			79042
 		},
@@ -50879,8 +55049,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79051,
@@ -50895,9 +55066,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79052] = {
+		id = 79052,
 		name = "专属弹幕-拉菲II",
 		base = 79051,
-		id = 79052,
+		is_siren = 0,
 		weapon_id = {
 			79052
 		},
@@ -50917,8 +55089,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79061,
@@ -50933,9 +55106,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79062] = {
+		id = 79062,
 		name = "专属弹幕-萤火虫II",
 		base = 79061,
-		id = 79062,
+		is_siren = 0,
 		weapon_id = {
 			79062
 		},
@@ -50955,8 +55129,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79071,
@@ -50971,9 +55146,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79072] = {
+		id = 79072,
 		name = "专属弹幕-勇敢II",
 		base = 79071,
-		id = 79072,
+		is_siren = 0,
 		weapon_id = {
 			79072
 		},
@@ -50993,8 +55169,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79081,
@@ -51009,9 +55186,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79082] = {
+		id = 79082,
 		name = "专属弹幕-标枪II",
 		base = 79081,
-		id = 79082,
+		is_siren = 0,
 		weapon_id = {
 			79082
 		},
@@ -51031,8 +55209,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79091,
@@ -51047,9 +55226,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79092] = {
+		id = 79092,
 		name = "专属弹幕-吸血鬼II",
 		base = 79091,
-		id = 79092,
+		is_siren = 0,
 		weapon_id = {
 			79092
 		},
@@ -51069,8 +55249,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79101,
@@ -51085,9 +55266,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79102] = {
+		id = 79102,
 		name = "专属弹幕-贝尔法斯特II",
 		base = 79101,
-		id = 79102,
+		is_siren = 0,
 		weapon_id = {
 			79102
 		},
@@ -51107,8 +55289,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79111,
@@ -51123,9 +55306,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79112] = {
+		id = 79112,
 		name = "专属弹幕-绫波II",
 		base = 79111,
-		id = 79112,
+		is_siren = 0,
 		weapon_id = {
 			79112
 		},
@@ -51145,8 +55329,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79121,
@@ -51161,9 +55346,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79122] = {
+		id = 79122,
 		name = "专属弹幕-夕立II",
 		base = 79121,
-		id = 79122,
+		is_siren = 0,
 		weapon_id = {
 			79122
 		},
@@ -51183,8 +55369,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79131,
@@ -51199,9 +55386,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79132] = {
+		id = 79132,
 		name = "专属弹幕-雪风II",
 		base = 79131,
-		id = 79132,
+		is_siren = 0,
 		weapon_id = {
 			79132
 		},
@@ -51221,8 +55409,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79141,
@@ -51237,9 +55426,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79142] = {
+		id = 79142,
 		name = "专属弹幕-岛风II",
 		base = 79141,
-		id = 79142,
+		is_siren = 0,
 		weapon_id = {
 			79142
 		},
@@ -51259,8 +55449,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79151,
@@ -51275,9 +55466,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79152] = {
+		id = 79152,
 		name = "专属弹幕-北上II",
 		base = 79151,
-		id = 79152,
+		is_siren = 0,
 		weapon_id = {
 			79152
 		},
@@ -51297,8 +55489,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79161,
@@ -51313,9 +55506,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79162] = {
+		id = 79162,
 		name = "专属弹幕-大井II",
 		base = 79161,
-		id = 79162,
+		is_siren = 0,
 		weapon_id = {
 			79162
 		},
@@ -51335,8 +55529,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79171,
@@ -51351,9 +55546,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79172] = {
+		id = 79172,
 		name = "专属弹幕-Z1II",
 		base = 79171,
-		id = 79172,
+		is_siren = 0,
 		weapon_id = {
 			79172
 		},
@@ -51373,8 +55569,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79181,
@@ -51389,9 +55586,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79182] = {
+		id = 79182,
 		name = "专属弹幕-鞍山II",
 		base = 79181,
-		id = 79182,
+		is_siren = 0,
 		weapon_id = {
 			79182
 		},
@@ -51411,8 +55609,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79191,
@@ -51427,9 +55626,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79192] = {
+		id = 79192,
 		name = "专属弹幕-阿芙乐尔II",
 		base = 79191,
-		id = 79192,
+		is_siren = 0,
 		weapon_id = {
 			79192
 		},
@@ -51449,8 +55649,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79201,
@@ -51465,9 +55666,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79202] = {
+		id = 79202,
 		name = "专属弹幕-Z23II",
 		base = 79201,
-		id = 79202,
+		is_siren = 0,
 		weapon_id = {
 			79202
 		},
@@ -51487,8 +55689,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79211,
@@ -51503,9 +55706,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79212] = {
+		id = 79212,
 		name = "专属弹幕-Z46II",
 		base = 79211,
-		id = 79212,
+		is_siren = 0,
 		weapon_id = {
 			79212
 		},
@@ -51525,8 +55729,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79221,
@@ -51541,9 +55746,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79222] = {
+		id = 79222,
 		name = "专属弹幕-伊吹II",
 		base = 79221,
-		id = 79222,
+		is_siren = 0,
 		weapon_id = {
 			79222
 		},
@@ -51563,8 +55769,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79231,
@@ -51579,9 +55786,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79232] = {
+		id = 79232,
 		name = "专属弹幕-海王星II",
 		base = 79231,
-		id = 79232,
+		is_siren = 0,
 		weapon_id = {
 			79232
 		},
@@ -51601,8 +55809,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79241,
@@ -51617,9 +55826,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79242] = {
+		id = 79242,
 		name = "专属弹幕-罗恩II",
 		base = 79241,
-		id = 79242,
+		is_siren = 0,
 		weapon_id = {
 			79242
 		},
@@ -51639,8 +55849,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79251,
@@ -51655,9 +55866,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79252] = {
+		id = 79252,
 		name = "专属弹幕-路易九世II",
 		base = 79251,
-		id = 79252,
+		is_siren = 0,
 		weapon_id = {
 			79252
 		},
@@ -51677,8 +55889,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79261,
@@ -51693,9 +55906,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79262] = {
+		id = 79262,
 		name = "专属弹幕-I19II",
 		base = 79261,
-		id = 79262,
+		is_siren = 0,
 		weapon_id = {
 			79262
 		},
@@ -51715,8 +55929,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79271,
@@ -51731,9 +55946,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79272] = {
+		id = 79272,
 		name = "专属弹幕-U81II",
 		base = 79271,
-		id = 79272,
+		is_siren = 0,
 		weapon_id = {
 			79272
 		},
@@ -51753,8 +55969,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79291,
@@ -51769,9 +55986,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79292] = {
+		id = 79292,
 		name = "专属弹幕-22II",
 		base = 79291,
-		id = 79292,
+		is_siren = 0,
 		weapon_id = {
 			79292
 		},
@@ -51791,8 +56009,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79301,
@@ -51807,9 +56026,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79302] = {
+		id = 79302,
 		name = "专属弹幕-33II",
 		base = 79301,
-		id = 79302,
+		is_siren = 0,
 		weapon_id = {
 			79302
 		},
@@ -51829,8 +56049,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79311,
@@ -51845,9 +56066,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79312] = {
+		id = 79312,
 		name = "专属弹幕-U47II",
 		base = 79311,
-		id = 79312,
+		is_siren = 0,
 		weapon_id = {
 			79312
 		},
@@ -51867,8 +56089,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79321,
@@ -51883,9 +56106,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79322] = {
+		id = 79322,
 		name = "专属弹幕-絮库夫II",
 		base = 79321,
-		id = 79322,
+		is_siren = 0,
 		weapon_id = {
 			79322
 		},
@@ -51905,8 +56129,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79331,
@@ -51921,9 +56146,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79332] = {
+		id = 79332,
 		name = "专属弹幕-凯旋II",
 		base = 79321,
-		id = 79332,
+		is_siren = 0,
 		weapon_id = {
 			60304
 		},
@@ -51943,8 +56169,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79341,
@@ -51959,9 +56186,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79342] = {
+		id = 79342,
 		name = "专属弹幕-大青花鱼II",
 		base = 79341,
-		id = 79342,
+		is_siren = 0,
 		weapon_id = {
 			79342
 		},
@@ -51981,8 +56209,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79361,
@@ -51997,9 +56226,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79362] = {
+		id = 79362,
 		name = "专属弹幕-天狼星II",
 		base = 79361,
-		id = 79362,
+		is_siren = 0,
 		weapon_id = {
 			79362
 		},
@@ -52019,8 +56249,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79371,
@@ -52035,9 +56266,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79372] = {
+		id = 79372,
 		name = "专属弹幕-I13II",
 		base = 79371,
-		id = 79372,
+		is_siren = 0,
 		weapon_id = {
 			79372
 		},
@@ -52057,8 +56289,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79381,
@@ -52073,9 +56306,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79382] = {
+		id = 79382,
 		name = "专属弹幕-北风II",
 		base = 79381,
-		id = 79382,
+		is_siren = 0,
 		weapon_id = {
 			79382
 		},
@@ -52095,8 +56329,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79383,
@@ -52111,9 +56346,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79384] = {
+		id = 79384,
 		name = "专属弹幕鱼雷-北风II",
 		base = 79383,
-		id = 79384,
+		is_siren = 0,
 		weapon_id = {
 			79384
 		},
@@ -52133,8 +56369,9 @@ pg.equip_data_statistics = {
 		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "技能弹幕",
+		is_siren = 0,
 		scatter = "0",
+		descrip = "技能弹幕",
 		ammo = "无",
 		value_3 = 0,
 		id = 79391,
@@ -52149,9 +56386,10 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[79392] = {
+		id = 79392,
 		name = "专属弹幕-西雅图II",
 		base = 79391,
-		id = 79392,
+		is_siren = 0,
 		weapon_id = {
 			79392
 		},
@@ -52175,6 +56413,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 104,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "在构思企划时非常好用的道具。据说在在很稀有的情况下会开口说话…？",
 		value_3 = 0,
 		attribute_1 = "hit",
@@ -52189,11 +56428,13 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[89001] = {
+		is_siren = 0,
 		id = 89001,
 		base = 89000,
 		property_rate = {}
 	},
 	[89002] = {
+		is_siren = 0,
 		id = 89002,
 		base = 89000,
 		value_2 = 7,
@@ -52201,6 +56442,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89003] = {
+		is_siren = 0,
 		id = 89003,
 		base = 89000,
 		value_2 = 8,
@@ -52208,6 +56450,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89004] = {
+		is_siren = 0,
 		id = 89004,
 		base = 89000,
 		value_2 = 9,
@@ -52215,6 +56458,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89005] = {
+		is_siren = 0,
 		id = 89005,
 		base = 89000,
 		value_2 = 10,
@@ -52222,6 +56466,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89006] = {
+		is_siren = 0,
 		id = 89006,
 		base = 89000,
 		value_2 = 11,
@@ -52229,6 +56474,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89007] = {
+		is_siren = 0,
 		id = 89007,
 		base = 89000,
 		value_2 = 12,
@@ -52236,6 +56482,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89008] = {
+		is_siren = 0,
 		id = 89008,
 		base = 89000,
 		value_2 = 13,
@@ -52243,6 +56490,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89009] = {
+		is_siren = 0,
 		id = 89009,
 		base = 89000,
 		value_2 = 14,
@@ -52250,6 +56498,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89010] = {
+		is_siren = 0,
 		id = 89010,
 		base = 89000,
 		value_2 = 15,
@@ -52274,6 +56523,7 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 104,
 		ammo = "无",
+		is_siren = 0,
 		descrip = "绊爱的发箍。有一种说法是晃悠悠才是本体。拿掉晃悠悠的话会怎么样呢…话说真的拿得掉么？",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -52288,6 +56538,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[89021] = {
+		is_siren = 0,
 		id = 89021,
 		base = 89020,
 		value_2 = 1,
@@ -52295,6 +56546,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89022] = {
+		is_siren = 0,
 		id = 89022,
 		base = 89020,
 		value_2 = 1,
@@ -52302,6 +56554,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89023] = {
+		is_siren = 0,
 		id = 89023,
 		base = 89020,
 		value_2 = 1,
@@ -52309,6 +56562,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89024] = {
+		is_siren = 0,
 		id = 89024,
 		base = 89020,
 		value_2 = 1,
@@ -52316,6 +56570,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89025] = {
+		is_siren = 0,
 		id = 89025,
 		base = 89020,
 		value_2 = 1,
@@ -52323,6 +56578,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89026] = {
+		is_siren = 0,
 		id = 89026,
 		base = 89020,
 		value_2 = 1,
@@ -52330,6 +56586,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89027] = {
+		is_siren = 0,
 		id = 89027,
 		base = 89020,
 		value_2 = 1,
@@ -52337,6 +56594,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89028] = {
+		is_siren = 0,
 		id = 89028,
 		base = 89020,
 		value_2 = 1,
@@ -52344,6 +56602,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89029] = {
+		is_siren = 0,
 		id = 89029,
 		base = 89020,
 		value_2 = 1,
@@ -52351,6 +56610,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89030] = {
+		is_siren = 0,
 		id = 89030,
 		base = 89020,
 		value_2 = 2,
@@ -52375,7 +56635,8 @@ pg.equip_data_statistics = {
 		angle = 0,
 		nationality = 104,
 		ammo = "无",
-		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#D6341D>（该装备绊爱联动活动结束后装备技能失效）</color>",
+		is_siren = 0,
+		descrip = "绊爱在导入插件时使用的芯片…？——不会再让人说废柴了！<color=#ff5c5c>（该装备绊爱联动活动结束后装备技能失效）</color>",
 		value_3 = 0,
 		attribute_1 = "durability",
 		property_rate = {},
@@ -52390,11 +56651,13 @@ pg.equip_data_statistics = {
 	},
 	[89041] = {
 		id = 89041,
-		value_1 = "112",
 		base = 89040,
+		is_siren = 0,
+		value_1 = "112",
 		property_rate = {}
 	},
 	[89042] = {
+		is_siren = 0,
 		id = 89042,
 		base = 89040,
 		value_2 = 4,
@@ -52402,6 +56665,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89043] = {
+		is_siren = 0,
 		id = 89043,
 		base = 89040,
 		value_2 = 4,
@@ -52409,6 +56673,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89044] = {
+		is_siren = 0,
 		id = 89044,
 		base = 89040,
 		value_2 = 5,
@@ -52416,6 +56681,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89045] = {
+		is_siren = 0,
 		id = 89045,
 		base = 89040,
 		value_2 = 5,
@@ -52423,6 +56689,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89046] = {
+		is_siren = 0,
 		id = 89046,
 		base = 89040,
 		value_2 = 6,
@@ -52430,6 +56697,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89047] = {
+		is_siren = 0,
 		id = 89047,
 		base = 89040,
 		value_2 = 6,
@@ -52437,6 +56705,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89048] = {
+		is_siren = 0,
 		id = 89048,
 		base = 89040,
 		value_2 = 7,
@@ -52444,6 +56713,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89049] = {
+		is_siren = 0,
 		id = 89049,
 		base = 89040,
 		value_2 = 7,
@@ -52451,6 +56721,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89050] = {
+		is_siren = 0,
 		id = 89050,
 		base = 89040,
 		value_2 = 8,
@@ -52473,8 +56744,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "15°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -52495,8 +56767,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90001] = {
-		base = 90000,
 		id = 90001,
+		base = 90000,
+		is_siren = 0,
 		value_1 = "3 x 5",
 		weapon_id = {
 			90001
@@ -52504,8 +56777,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90002] = {
-		base = 90000,
 		id = 90002,
+		base = 90000,
+		is_siren = 0,
 		value_1 = "4 x 5",
 		weapon_id = {
 			90002
@@ -52513,8 +56787,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90003] = {
-		base = 90000,
 		id = 90003,
+		base = 90000,
+		is_siren = 0,
 		value_1 = "4 x 5",
 		weapon_id = {
 			90003
@@ -52539,6 +56814,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -52560,8 +56836,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90021] = {
-		base = 90020,
 		id = 90021,
+		base = 90020,
+		is_siren = 0,
 		value_1 = "4 x 5",
 		weapon_id = {
 			90021
@@ -52569,8 +56846,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90022] = {
-		base = 90020,
 		id = 90022,
+		base = 90020,
+		is_siren = 0,
 		value_1 = "4 x 5",
 		weapon_id = {
 			90022
@@ -52578,8 +56856,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90023] = {
-		base = 90020,
 		id = 90023,
+		base = 90020,
+		is_siren = 0,
 		value_1 = "5 x 5",
 		weapon_id = {
 			90023
@@ -52604,6 +56883,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -52625,8 +56905,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90041] = {
-		base = 90040,
 		id = 90041,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "5 x 5",
 		weapon_id = {
 			90041
@@ -52634,8 +56915,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90042] = {
-		base = 90040,
 		id = 90042,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "5 x 5",
 		weapon_id = {
 			90042
@@ -52643,8 +56925,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90043] = {
-		base = 90040,
 		id = 90043,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "6 x 5",
 		weapon_id = {
 			90043
@@ -52652,8 +56935,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90044] = {
-		base = 90040,
 		id = 90044,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "6 x 5",
 		weapon_id = {
 			90044
@@ -52661,8 +56945,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90045] = {
-		base = 90040,
 		id = 90045,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "7 x 5",
 		weapon_id = {
 			90045
@@ -52670,8 +56955,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90046] = {
-		base = 90040,
 		id = 90046,
+		base = 90040,
+		is_siren = 0,
 		value_1 = "8 x 5",
 		weapon_id = {
 			90046
@@ -52696,6 +56982,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -52717,8 +57004,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90101] = {
-		base = 90100,
 		id = 90101,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "4 x 5",
 		weapon_id = {
 			90101
@@ -52726,8 +57014,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90102] = {
-		base = 90100,
 		id = 90102,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "5 x 5",
 		weapon_id = {
 			90102
@@ -52735,8 +57024,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90103] = {
-		base = 90100,
 		id = 90103,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "6 x 5",
 		weapon_id = {
 			90103
@@ -52744,8 +57034,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90104] = {
-		base = 90100,
 		id = 90104,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "7 x 5",
 		weapon_id = {
 			90104
@@ -52753,8 +57044,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90105] = {
-		base = 90100,
 		id = 90105,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "8 x 5",
 		weapon_id = {
 			90105
@@ -52762,8 +57054,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90106] = {
-		base = 90100,
 		id = 90106,
+		base = 90100,
+		is_siren = 0,
 		value_1 = "9 x 5",
 		weapon_id = {
 			90106
@@ -52788,6 +57081,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -52809,8 +57103,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90121] = {
-		base = 90120,
 		id = 90121,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "5 x 5",
 		weapon_id = {
 			90121
@@ -52818,8 +57113,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90122] = {
-		base = 90120,
 		id = 90122,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "6 x 5",
 		weapon_id = {
 			90122
@@ -52827,8 +57123,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90123] = {
-		base = 90120,
 		id = 90123,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "7 x 5",
 		weapon_id = {
 			90123
@@ -52836,8 +57133,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90124] = {
-		base = 90120,
 		id = 90124,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "8 x 5",
 		weapon_id = {
 			90124
@@ -52845,8 +57143,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90125] = {
-		base = 90120,
 		id = 90125,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "9 x 5",
 		weapon_id = {
 			90125
@@ -52854,8 +57153,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90126] = {
-		base = 90120,
 		id = 90126,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "10 x 5",
 		weapon_id = {
 			90126
@@ -52863,8 +57163,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90127] = {
-		base = 90120,
 		id = 90127,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "11 x 5",
 		weapon_id = {
 			90127
@@ -52872,8 +57173,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90128] = {
-		base = 90120,
 		id = 90128,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "12 x 5",
 		weapon_id = {
 			90128
@@ -52881,8 +57183,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90129] = {
-		base = 90120,
 		id = 90129,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "13 x 5",
 		weapon_id = {
 			90129
@@ -52890,8 +57193,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90130] = {
-		base = 90120,
 		id = 90130,
+		base = 90120,
+		is_siren = 0,
 		value_1 = "14 x 5",
 		weapon_id = {
 			90130
@@ -52916,6 +57220,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -52937,8 +57242,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90141] = {
-		base = 90140,
 		id = 90141,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "6 x 5",
 		weapon_id = {
 			90141
@@ -52946,8 +57252,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90142] = {
-		base = 90140,
 		id = 90142,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "7 x 5",
 		weapon_id = {
 			90142
@@ -52955,8 +57262,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90143] = {
-		base = 90140,
 		id = 90143,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "8 x 5",
 		weapon_id = {
 			90143
@@ -52964,8 +57272,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90144] = {
-		base = 90140,
 		id = 90144,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "9 x 5",
 		weapon_id = {
 			90144
@@ -52973,8 +57282,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90145] = {
-		base = 90140,
 		id = 90145,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "10 x 5",
 		weapon_id = {
 			90145
@@ -52982,8 +57292,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90146] = {
-		base = 90140,
 		id = 90146,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "11 x 5",
 		weapon_id = {
 			90146
@@ -52991,8 +57302,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90147] = {
-		base = 90140,
 		id = 90147,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "12 x 5",
 		weapon_id = {
 			90147
@@ -53000,8 +57312,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90148] = {
-		base = 90140,
 		id = 90148,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "13 x 5",
 		weapon_id = {
 			90148
@@ -53009,8 +57322,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90149] = {
-		base = 90140,
 		id = 90149,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "14 x 5",
 		weapon_id = {
 			90149
@@ -53018,8 +57332,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90150] = {
-		base = 90140,
 		id = 90150,
+		base = 90140,
+		is_siren = 0,
 		value_1 = "15 x 5",
 		weapon_id = {
 			90150
@@ -53042,8 +57357,9 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 1,
 		scatter = "42°",
-		descrip = "说明未填写",
+		is_siren = 0,
 		ammo = "通常弹",
+		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
 		property_rate = {},
@@ -53063,8 +57379,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90201] = {
-		base = 90200,
 		id = 90201,
+		base = 90200,
+		is_siren = 0,
 		value_1 = "8 x 6",
 		weapon_id = {
 			90201
@@ -53072,8 +57389,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90202] = {
-		base = 90200,
 		id = 90202,
+		base = 90200,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			90202
@@ -53081,8 +57399,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90203] = {
-		base = 90200,
 		id = 90203,
+		base = 90200,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			90203
@@ -53107,6 +57426,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53127,8 +57447,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90221] = {
-		base = 90220,
 		id = 90221,
+		base = 90220,
+		is_siren = 0,
 		value_1 = "9 x 6",
 		weapon_id = {
 			90221
@@ -53136,8 +57457,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90222] = {
-		base = 90220,
 		id = 90222,
+		base = 90220,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			90222
@@ -53145,8 +57467,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90223] = {
-		base = 90220,
 		id = 90223,
+		base = 90220,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			90223
@@ -53171,6 +57494,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 8,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53191,8 +57515,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90241] = {
-		base = 90240,
 		id = 90241,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "10 x 6",
 		weapon_id = {
 			90241
@@ -53200,8 +57525,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90242] = {
-		base = 90240,
 		id = 90242,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "11 x 6",
 		weapon_id = {
 			90242
@@ -53209,8 +57535,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90243] = {
-		base = 90240,
 		id = 90243,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "12 x 6",
 		weapon_id = {
 			90243
@@ -53218,8 +57545,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90244] = {
-		base = 90240,
 		id = 90244,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "13 x 6",
 		weapon_id = {
 			90244
@@ -53227,8 +57555,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90245] = {
-		base = 90240,
 		id = 90245,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "14 x 6",
 		weapon_id = {
 			90245
@@ -53236,8 +57565,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90246] = {
-		base = 90240,
 		id = 90246,
+		base = 90240,
+		is_siren = 0,
 		value_1 = "15 x 6",
 		weapon_id = {
 			90246
@@ -53262,6 +57592,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53281,8 +57612,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90301] = {
-		base = 90300,
 		id = 90301,
+		base = 90300,
+		is_siren = 0,
 		value_1 = "39 x 4",
 		weapon_id = {
 			90301
@@ -53290,8 +57622,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90302] = {
-		base = 90300,
 		id = 90302,
+		base = 90300,
+		is_siren = 0,
 		value_1 = "44 x 4",
 		weapon_id = {
 			90302
@@ -53299,8 +57632,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90303] = {
-		base = 90300,
 		id = 90303,
+		base = 90300,
+		is_siren = 0,
 		value_1 = "49 x 4",
 		weapon_id = {
 			90303
@@ -53325,6 +57659,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53344,8 +57679,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90321] = {
-		base = 90320,
 		id = 90321,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "42 x 4",
 		weapon_id = {
 			90321
@@ -53353,8 +57689,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90322] = {
-		base = 90320,
 		id = 90322,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "47 x 4",
 		weapon_id = {
 			90322
@@ -53362,8 +57699,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90323] = {
-		base = 90320,
 		id = 90323,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "52 x 4",
 		weapon_id = {
 			90323
@@ -53371,8 +57709,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90324] = {
-		base = 90320,
 		id = 90324,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "57 x 4",
 		weapon_id = {
 			90324
@@ -53380,8 +57719,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90325] = {
-		base = 90320,
 		id = 90325,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "63 x 4",
 		weapon_id = {
 			90325
@@ -53389,8 +57729,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90326] = {
-		base = 90320,
 		id = 90326,
+		base = 90320,
+		is_siren = 0,
 		value_1 = "69 x 4",
 		weapon_id = {
 			90326
@@ -53415,6 +57756,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "穿甲弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53434,8 +57776,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90341] = {
-		base = 90340,
 		id = 90341,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "47 x 4",
 		weapon_id = {
 			90341
@@ -53443,8 +57786,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90342] = {
-		base = 90340,
 		id = 90342,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "53 x 4",
 		weapon_id = {
 			90342
@@ -53452,8 +57796,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90343] = {
-		base = 90340,
 		id = 90343,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "59 x 4",
 		weapon_id = {
 			90343
@@ -53461,8 +57806,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90344] = {
-		base = 90340,
 		id = 90344,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "65 x 4",
 		weapon_id = {
 			90344
@@ -53470,8 +57816,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90345] = {
-		base = 90340,
 		id = 90345,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "71 x 4",
 		weapon_id = {
 			90345
@@ -53479,8 +57826,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90346] = {
-		base = 90340,
 		id = 90346,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "77 x 4",
 		weapon_id = {
 			90346
@@ -53488,8 +57836,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90347] = {
-		base = 90340,
 		id = 90347,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "83 x 4",
 		weapon_id = {
 			90347
@@ -53497,8 +57846,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90348] = {
-		base = 90340,
 		id = 90348,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "89 x 4",
 		weapon_id = {
 			90348
@@ -53506,8 +57856,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90349] = {
-		base = 90340,
 		id = 90349,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "95 x 4",
 		weapon_id = {
 			90349
@@ -53515,8 +57866,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90350] = {
-		base = 90340,
 		id = 90350,
+		base = 90340,
+		is_siren = 0,
 		value_1 = "102 x 4",
 		weapon_id = {
 			90350
@@ -53541,6 +57893,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53560,8 +57913,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90401] = {
-		base = 90400,
 		id = 90401,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "46 x 4",
 		weapon_id = {
 			90401
@@ -53569,8 +57923,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90402] = {
-		base = 90400,
 		id = 90402,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "52 x 4",
 		weapon_id = {
 			90402
@@ -53578,8 +57933,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90403] = {
-		base = 90400,
 		id = 90403,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "58 x 4",
 		weapon_id = {
 			90403
@@ -53587,8 +57943,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90404] = {
-		base = 90400,
 		id = 90404,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "64 x 4",
 		weapon_id = {
 			90404
@@ -53596,8 +57953,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90405] = {
-		base = 90400,
 		id = 90405,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "70 x 4",
 		weapon_id = {
 			90405
@@ -53605,8 +57963,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90406] = {
-		base = 90400,
 		id = 90406,
+		base = 90400,
+		is_siren = 0,
 		value_1 = "76 x 4",
 		weapon_id = {
 			90406
@@ -53631,6 +57990,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53650,8 +58010,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90421] = {
-		base = 90420,
 		id = 90421,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "50 x 4",
 		weapon_id = {
 			90421
@@ -53659,8 +58020,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90422] = {
-		base = 90420,
 		id = 90422,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "56 x 4",
 		weapon_id = {
 			90422
@@ -53668,8 +58030,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90423] = {
-		base = 90420,
 		id = 90423,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "62 x 4",
 		weapon_id = {
 			90423
@@ -53677,8 +58040,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90424] = {
-		base = 90420,
 		id = 90424,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "68 x 4",
 		weapon_id = {
 			90424
@@ -53686,8 +58050,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90425] = {
-		base = 90420,
 		id = 90425,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "75 x 4",
 		weapon_id = {
 			90425
@@ -53695,8 +58060,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90426] = {
-		base = 90420,
 		id = 90426,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "82 x 4",
 		weapon_id = {
 			90426
@@ -53704,8 +58070,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90427] = {
-		base = 90420,
 		id = 90427,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "89 x 4",
 		weapon_id = {
 			90427
@@ -53713,8 +58080,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90428] = {
-		base = 90420,
 		id = 90428,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "96 x 4",
 		weapon_id = {
 			90428
@@ -53722,8 +58090,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90429] = {
-		base = 90420,
 		id = 90429,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "103 x 4",
 		weapon_id = {
 			90429
@@ -53731,8 +58100,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90430] = {
-		base = 90420,
 		id = 90430,
+		base = 90420,
+		is_siren = 0,
 		value_1 = "110 x 4",
 		weapon_id = {
 			90430
@@ -53757,6 +58127,7 @@ pg.equip_data_statistics = {
 		angle = 45,
 		nationality = 8,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53776,8 +58147,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90441] = {
-		base = 90440,
 		id = 90441,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "55 x 4",
 		weapon_id = {
 			90441
@@ -53785,8 +58157,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90442] = {
-		base = 90440,
 		id = 90442,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "62 x 4",
 		weapon_id = {
 			90442
@@ -53794,8 +58167,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90443] = {
-		base = 90440,
 		id = 90443,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "69 x 4",
 		weapon_id = {
 			90443
@@ -53803,8 +58177,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90444] = {
-		base = 90440,
 		id = 90444,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "76 x 4",
 		weapon_id = {
 			90444
@@ -53812,8 +58187,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90445] = {
-		base = 90440,
 		id = 90445,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "83 x 4",
 		weapon_id = {
 			90445
@@ -53821,8 +58197,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90446] = {
-		base = 90440,
 		id = 90446,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "90 x 4",
 		weapon_id = {
 			90446
@@ -53830,8 +58207,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90447] = {
-		base = 90440,
 		id = 90447,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "97 x 4",
 		weapon_id = {
 			90447
@@ -53839,8 +58217,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90448] = {
-		base = 90440,
 		id = 90448,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "104 x 4",
 		weapon_id = {
 			90448
@@ -53848,8 +58227,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90449] = {
-		base = 90440,
 		id = 90449,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "112 x 4",
 		weapon_id = {
 			90449
@@ -53857,8 +58237,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90450] = {
-		base = 90440,
 		id = 90450,
+		base = 90440,
+		is_siren = 0,
 		value_1 = "120 x 4",
 		weapon_id = {
 			90450
@@ -53883,6 +58264,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53906,14 +58288,16 @@ pg.equip_data_statistics = {
 	[90501] = {
 		id = 90501,
 		base = 90500,
+		is_siren = 0,
 		weapon_id = {
 			90501
 		},
 		property_rate = {}
 	},
 	[90502] = {
-		base = 90500,
 		id = 90502,
+		base = 90500,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			90502
@@ -53921,8 +58305,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90503] = {
-		base = 90500,
 		id = 90503,
+		base = 90500,
+		is_siren = 0,
 		value_1 = "10 x 2",
 		weapon_id = {
 			90503
@@ -53947,6 +58332,7 @@ pg.equip_data_statistics = {
 		angle = 360,
 		nationality = 8,
 		ammo = "通常",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -53961,8 +58347,9 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[90601] = {
-		base = 90600,
 		id = 90601,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "42/轮",
 		weapon_id = {
 			90601
@@ -53970,8 +58357,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90602] = {
-		base = 90600,
 		id = 90602,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "46/轮",
 		weapon_id = {
 			90602
@@ -53979,8 +58367,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90603] = {
-		base = 90600,
 		id = 90603,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "50/轮",
 		weapon_id = {
 			90603
@@ -53988,8 +58377,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90604] = {
-		base = 90600,
 		id = 90604,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "54/轮",
 		weapon_id = {
 			90604
@@ -53997,8 +58387,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90605] = {
-		base = 90600,
 		id = 90605,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "58/轮",
 		weapon_id = {
 			90605
@@ -54006,8 +58397,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90606] = {
-		base = 90600,
 		id = 90606,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "62/轮",
 		weapon_id = {
 			90606
@@ -54015,8 +58407,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90607] = {
-		base = 90600,
 		id = 90607,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "66/轮",
 		weapon_id = {
 			90607
@@ -54024,8 +58417,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90608] = {
-		base = 90600,
 		id = 90608,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "70/轮",
 		weapon_id = {
 			90608
@@ -54033,8 +58427,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90609] = {
-		base = 90600,
 		id = 90609,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "74/轮",
 		weapon_id = {
 			90609
@@ -54042,8 +58437,9 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90610] = {
-		base = 90600,
 		id = 90610,
+		base = 90600,
+		is_siren = 0,
 		value_1 = "78/轮",
 		weapon_id = {
 			90610
@@ -54064,8 +58460,9 @@ pg.equip_data_statistics = {
 		value_1 = "0",
 		avoid_extra = 0,
 		rarity = 1,
-		descrip = "敌人用武器",
+		is_siren = 0,
 		scatter = "无",
+		descrip = "敌人用武器",
 		ammo = "无",
 		value_3 = 0,
 		id = 100000,
@@ -54095,6 +58492,7 @@ pg.equip_data_statistics = {
 		angle = 120,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -54132,6 +58530,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -54168,6 +58567,7 @@ pg.equip_data_statistics = {
 		angle = 50,
 		nationality = 1,
 		ammo = "高爆弹",
+		is_siren = 0,
 		descrip = "说明未填写",
 		value_3 = 0,
 		attribute_1 = "damage",
@@ -54191,6 +58591,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】驱逐武器",
 		type = 1,
 		id = 800000,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800000
@@ -54202,6 +58603,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】重巡武器",
 		type = 3,
 		id = 800001,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800001
@@ -54213,6 +58615,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】防空炮",
 		type = 6,
 		id = 800002,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800002
@@ -54224,6 +58627,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】三联鱼雷",
 		type = 5,
 		id = 800003,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800003
@@ -54235,6 +58639,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】四联鱼雷",
 		type = 5,
 		id = 800004,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800004
@@ -54246,6 +58651,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】重樱战斗机",
 		type = 7,
 		id = 800005,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800005
@@ -54257,6 +58663,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】重樱鱼雷机",
 		type = 8,
 		id = 800006,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800006
@@ -54268,6 +58675,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】重樱轰炸机",
 		type = 9,
 		id = 800007,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800007
@@ -54279,6 +58687,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】三笠主炮",
 		type = 4,
 		id = 800008,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800008
@@ -54290,6 +58699,7 @@ pg.equip_data_statistics = {
 		name = "【三笠剧情】比叡主炮",
 		type = 4,
 		id = 800009,
+		is_siren = 0,
 		descrip = "三笠剧情",
 		weapon_id = {
 			800009
@@ -54304,6 +58714,7 @@ pg.equip_data_statistics = {
 		6,
 		7,
 		8,
+		20,
 		98,
 		99,
 		100,
@@ -54495,6 +58906,17 @@ pg.equip_data_statistics = {
 		708,
 		709,
 		710,
+		720,
+		721,
+		722,
+		723,
+		724,
+		725,
+		726,
+		727,
+		728,
+		729,
+		730,
 		1000,
 		1001,
 		1002,
@@ -58188,9 +62610,6 @@ pg.equip_data_statistics = {
 		60401,
 		60402,
 		60403,
-		60411,
-		60412,
-		60413,
 		61007,
 		61008,
 		61009,

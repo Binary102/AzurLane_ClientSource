@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=30>七  新年的祈愿</size>",
+					"新年快乐\n\n<size=45>七  新年的祈愿</size>",
 					1
 				}
 			}

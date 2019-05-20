@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>六　奋发努力！</size>",
+					"骑士与奖赏\n\n<size=45>六　奋发努力！</size>",
 					1
 				}
 			}
@@ -132,7 +132,7 @@ return {
 			say = "各位！比赛还没有结束！让她们见识见识我们“海上骑士团”真正的实力吧！！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -159,7 +159,7 @@ return {
 			say = "噢噢噢！！！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -171,7 +171,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

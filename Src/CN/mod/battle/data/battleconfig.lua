@@ -148,23 +148,23 @@ ys.Battle.BattleConfig.WARNING_HP_RATE_MAIN = 0.3
 ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE = {
 	{
 		scale = 1,
-		x = 0.9275,
-		y = 0.155
+		x = 0.924,
+		y = 0.135
 	},
 	{
 		scale = 1,
-		x = 0.792,
-		y = 0.155
+		x = 0.81,
+		y = 0.135
 	},
 	{
 		scale = 1,
-		x = 0.6562,
-		y = 0.155
+		x = 0.696,
+		y = 0.135
 	},
 	{
 		scale = 1,
-		x = 0.525,
-		y = 0.155
+		x = 0.58,
+		y = 0.135
 	}
 }
 ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE = {
@@ -174,7 +174,7 @@ ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE = {
 }
 ys.Battle.BattleConfig.AUTO_DEFAULT_PREFERENCE = {
 	scale = 1,
-	x = 0.105,
+	x = 0.0625,
 	y = 0.925
 }
 ys.Battle.BattleConfig.DOT_CONFIG = {
@@ -384,5 +384,14 @@ ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES = {
 	1140103
 }
 ys.Battle.BattleConfig.BATTLE_DODGEM_PASS_SCORE = 10
+ys.Battle.BattleConfig.SR_CONFIG = {
+	FLOAT_CD = 2,
+	DIVE_CD = 2,
+	BOOST_CD = 15,
+	BOOST_SPEED = 2,
+	BOOST_DECAY = 0.2,
+	BOOST_DURATION = 12,
+	BOOST_DECAY_STAMP = 9
+}
 
 return

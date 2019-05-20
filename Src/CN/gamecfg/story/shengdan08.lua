@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=30>八 Merry Christmas</size>",
+					"爱与和平的圣夜祭\n\n<size=45>八 Merry Christmas</size>",
 					1
 				}
 			}
@@ -251,13 +251,13 @@ return {
 				{
 					actor = 305022,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 301321,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -410,7 +410,7 @@ return {
 				{
 					actor = 305022,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},
@@ -588,7 +588,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=40>啦~~~~~~~~~~~~~~</size>",
+			say = "<size=60>啦~~~~~~~~~~~~~~</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

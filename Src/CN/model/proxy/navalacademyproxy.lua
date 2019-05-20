@@ -223,41 +223,42 @@ function slot0.fillStudens(slot0, slot1)
 		slot2 = math.random(1, slot2)
 		slot0._timeStamp = os.time()
 		slot0._studentsFiller = {}
-		slot8 = getProxy(BayProxy).getSkinList(slot7)
-		slot9 = {}
+		slot7 = getProxy(BayProxy)
+		slot9 = getProxy(ShipSkinProxy).getSkinList(slot8)
+		slot10 = {}
 
-		for slot13, slot14 in pairs(slot6) do
-			if not table.contains(slot3, slot13) then
-				slot9[#slot9 + 1] = slot13
+		for slot14, slot15 in pairs(slot6) do
+			if not table.contains(slot3, slot14) then
+				slot10[#slot10 + 1] = slot14
 			end
 		end
 
-		slot10 = #slot9
+		slot11 = #slot10
 
-		while slot2 > 0 and slot10 > 0 do
-			slot13 = slot6[slot9[math.random(#slot9)]]
-			slot15 = 10000000000.0 + slot9[math.random(#slot9)] * 10 + 1
-			slot17 = {}
-			slot18 = nil
-			slot19 = {}
+		while slot2 > 0 and slot11 > 0 do
+			slot14 = slot6[slot10[math.random(#slot10)]]
+			slot16 = 10000000000.0 + slot10[math.random(#slot10)] * 10 + 1
+			slot18 = {}
+			slot19 = nil
+			slot20 = {}
 
-			for slot23, slot24 in ipairs(slot16) do
-				if slot24.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot8, slot24.id) or (slot25 == Ship.SKIN_TYPE_REMAKE and slot13.trans) or (slot25 == Ship.SKIN_TYPE_PROPOSE and slot13.married == 1) then
-					slot19[#slot19 + 1] = slot24.id
+			for slot24, slot25 in ipairs(slot17) do
+				if slot25.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot9, slot25.id) or (slot26 == Ship.SKIN_TYPE_REMAKE and slot14.trans) or (slot26 == Ship.SKIN_TYPE_PROPOSE and slot14.married == 1) then
+					slot20[#slot20 + 1] = slot25.id
 				end
 
-				slot18 = slot19[math.random(#slot19)]
+				slot19 = slot20[math.random(#slot20)]
 			end
 
-			table.remove(slot9, slot11)
+			table.remove(slot10, slot12)
 
-			slot10 = slot10 - 1
+			slot11 = slot11 - 1
 			slot2 = slot2 - 1
 			slot0._studentsFiller[#slot0._studentsFiller + 1] = {
-				id = slot15,
-				groupId = slot12,
-				configId = slot14,
-				skin_id = slot18
+				id = slot16,
+				groupId = slot13,
+				configId = slot15,
+				skin_id = slot19
 			}
 		end
 	end

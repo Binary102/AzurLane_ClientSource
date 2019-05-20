@@ -5,7 +5,7 @@ pg.emoji_template = {
 		id = 1,
 		index = 41,
 		pic = "1",
-		desc = "<color=#A9F548>[不可以！]</color>",
+		desc = "<color=#92fc63>[不可以！]</color>",
 		type = {
 			1
 		}
@@ -15,7 +15,7 @@ pg.emoji_template = {
 		id = 2,
 		index = 42,
 		pic = "2",
-		desc = "<color=#A9F548>[开玩笑的]</color>",
+		desc = "<color=#92fc63>[开玩笑的]</color>",
 		type = {
 			1
 		}
@@ -25,7 +25,7 @@ pg.emoji_template = {
 		id = 3,
 		index = 43,
 		pic = "3",
-		desc = "<color=#A9F548>[胆小鬼]</color>",
+		desc = "<color=#92fc63>[胆小鬼]</color>",
 		type = {
 			1
 		}
@@ -35,7 +35,7 @@ pg.emoji_template = {
 		id = 4,
 		index = 44,
 		pic = "4",
-		desc = "<color=#A9F548>[给我跪下]</color>",
+		desc = "<color=#92fc63>[给我跪下]</color>",
 		type = {
 			1
 		}
@@ -45,7 +45,7 @@ pg.emoji_template = {
 		id = 5,
 		index = 45,
 		pic = "5",
-		desc = "<color=#A9F548>[通宵]</color>",
+		desc = "<color=#92fc63>[通宵]</color>",
 		type = {
 			1
 		}
@@ -55,7 +55,7 @@ pg.emoji_template = {
 		id = 6,
 		index = 46,
 		pic = "6",
-		desc = "<color=#A9F548>[要来吗？]</color>",
+		desc = "<color=#92fc63>[要来吗？]</color>",
 		type = {
 			1
 		}
@@ -65,7 +65,7 @@ pg.emoji_template = {
 		id = 7,
 		index = 47,
 		pic = "7",
-		desc = "<color=#A9F548>[咕嘿嘿…]</color>",
+		desc = "<color=#92fc63>[咕嘿嘿…]</color>",
 		type = {
 			1
 		}
@@ -75,7 +75,7 @@ pg.emoji_template = {
 		id = 8,
 		index = 48,
 		pic = "8",
-		desc = "<color=#A9F548>[I’LL BE BACK]</color>",
+		desc = "<color=#92fc63>[I’LL BE BACK]</color>",
 		type = {
 			1
 		}
@@ -85,7 +85,7 @@ pg.emoji_template = {
 		id = 9,
 		index = 49,
 		pic = "9",
-		desc = "<color=#A9F548>[怎么办呢~]</color>",
+		desc = "<color=#92fc63>[怎么办呢~]</color>",
 		type = {
 			1
 		}
@@ -95,7 +95,7 @@ pg.emoji_template = {
 		id = 10,
 		index = 50,
 		pic = "10",
-		desc = "<color=#A9F548>[笨蛋]</color>",
+		desc = "<color=#92fc63>[笨蛋]</color>",
 		type = {
 			1
 		}
@@ -105,7 +105,7 @@ pg.emoji_template = {
 		id = 11,
 		index = 51,
 		pic = "11",
-		desc = "<color=#A9F548>[萌]</color>",
+		desc = "<color=#92fc63>[萌]</color>",
 		type = {
 			1
 		}
@@ -115,7 +115,7 @@ pg.emoji_template = {
 		id = 12,
 		index = 52,
 		pic = "12",
-		desc = "<color=#A9F548>[早安]</color>",
+		desc = "<color=#92fc63>[早安]</color>",
 		type = {
 			1
 		}
@@ -125,7 +125,7 @@ pg.emoji_template = {
 		id = 13,
 		index = 53,
 		pic = "13",
-		desc = "<color=#A9F548>[OK]</color>",
+		desc = "<color=#92fc63>[OK]</color>",
 		type = {
 			1
 		}
@@ -135,7 +135,7 @@ pg.emoji_template = {
 		id = 14,
 		index = 54,
 		pic = "14",
-		desc = "<color=#A9F548>[拉紧]</color>",
+		desc = "<color=#92fc63>[拉紧]</color>",
 		type = {
 			1
 		}
@@ -145,7 +145,7 @@ pg.emoji_template = {
 		id = 15,
 		index = 55,
 		pic = "15",
-		desc = "<color=#A9F548>[变态！]</color>",
+		desc = "<color=#92fc63>[变态！]</color>",
 		type = {
 			1
 		}
@@ -155,7 +155,7 @@ pg.emoji_template = {
 		id = 16,
 		index = 56,
 		pic = "16",
-		desc = "<color=#A9F548>[优雅]</color>",
+		desc = "<color=#92fc63>[优雅]</color>",
 		type = {
 			1
 		}
@@ -165,7 +165,7 @@ pg.emoji_template = {
 		id = 17,
 		index = 57,
 		pic = "17",
-		desc = "<color=#A9F548>[女仆看见了]</color>",
+		desc = "<color=#92fc63>[女仆看见了]</color>",
 		type = {
 			1
 		}
@@ -175,7 +175,7 @@ pg.emoji_template = {
 		id = 18,
 		index = 58,
 		pic = "18",
-		desc = "<color=#A9F548>[迷上我了吗？]</color>",
+		desc = "<color=#92fc63>[迷上我了吗？]</color>",
 		type = {
 			1
 		}
@@ -185,7 +185,7 @@ pg.emoji_template = {
 		id = 19,
 		index = 59,
 		pic = "19",
-		desc = "<color=#A9F548>[差劲]</color>",
+		desc = "<color=#92fc63>[差劲]</color>",
 		type = {
 			1
 		}
@@ -195,7 +195,7 @@ pg.emoji_template = {
 		id = 20,
 		index = 60,
 		pic = "20",
-		desc = "<color=#A9F548>[晚安]</color>",
+		desc = "<color=#92fc63>[晚安]</color>",
 		type = {
 			1
 		}
@@ -205,7 +205,7 @@ pg.emoji_template = {
 		id = 21,
 		index = 61,
 		pic = "21",
-		desc = "<color=#A9F548>[发现猎物]</color>",
+		desc = "<color=#92fc63>[发现猎物]</color>",
 		type = {
 			1
 		}
@@ -215,7 +215,7 @@ pg.emoji_template = {
 		id = 22,
 		index = 62,
 		pic = "22",
-		desc = "<color=#A9F548>[限界突破]</color>",
+		desc = "<color=#92fc63>[限界突破]</color>",
 		type = {
 			1
 		}
@@ -225,7 +225,7 @@ pg.emoji_template = {
 		id = 23,
 		index = 63,
 		pic = "23",
-		desc = "<color=#A9F548>[揍你哦]</color>",
+		desc = "<color=#92fc63>[揍你哦]</color>",
 		type = {
 			1
 		}
@@ -235,7 +235,7 @@ pg.emoji_template = {
 		id = 24,
 		index = 64,
 		pic = "24",
-		desc = "<color=#A9F548>[请多指教]</color>",
+		desc = "<color=#92fc63>[请多指教]</color>",
 		type = {
 			1
 		}
@@ -245,7 +245,7 @@ pg.emoji_template = {
 		id = 25,
 		index = 65,
 		pic = "25",
-		desc = "<color=#A9F548>[！？]</color>",
+		desc = "<color=#92fc63>[！？]</color>",
 		type = {
 			1
 		}
@@ -255,7 +255,7 @@ pg.emoji_template = {
 		id = 26,
 		index = 66,
 		pic = "26",
-		desc = "<color=#A9F548>[谢谢茄子]</color>",
+		desc = "<color=#92fc63>[谢谢茄子]</color>",
 		type = {
 			1
 		}
@@ -265,7 +265,7 @@ pg.emoji_template = {
 		id = 27,
 		index = 67,
 		pic = "27",
-		desc = "<color=#A9F548>[紧急事件]</color>",
+		desc = "<color=#92fc63>[紧急事件]</color>",
 		type = {
 			1
 		}
@@ -275,7 +275,7 @@ pg.emoji_template = {
 		id = 28,
 		index = 68,
 		pic = "28",
-		desc = "<color=#A9F548>[殿下~！]</color>",
+		desc = "<color=#92fc63>[殿下~！]</color>",
 		type = {
 			1
 		}
@@ -285,7 +285,7 @@ pg.emoji_template = {
 		id = 29,
 		index = 69,
 		pic = "29",
-		desc = "<color=#A9F548>[真走运！]</color>",
+		desc = "<color=#92fc63>[真走运！]</color>",
 		type = {
 			1
 		}
@@ -295,7 +295,7 @@ pg.emoji_template = {
 		id = 30,
 		index = 70,
 		pic = "30",
-		desc = "<color=#A9F548>[吃的！]</color>",
+		desc = "<color=#92fc63>[吃的！]</color>",
 		type = {
 			1
 		}
@@ -305,7 +305,7 @@ pg.emoji_template = {
 		id = 31,
 		index = 71,
 		pic = "31",
-		desc = "<color=#A9F548>[说啥呢]</color>",
+		desc = "<color=#92fc63>[说啥呢]</color>",
 		type = {
 			1
 		}
@@ -315,7 +315,7 @@ pg.emoji_template = {
 		id = 32,
 		index = 72,
 		pic = "32",
-		desc = "<color=#A9F548>[就是这样]</color>",
+		desc = "<color=#92fc63>[就是这样]</color>",
 		type = {
 			1
 		}
@@ -325,7 +325,7 @@ pg.emoji_template = {
 		id = 41,
 		index = 1001,
 		pic = "akk",
-		desc = "<color=#A9F548>[惊]</color>",
+		desc = "<color=#92fc63>[惊]</color>",
 		type = {
 			2
 		}
@@ -335,7 +335,7 @@ pg.emoji_template = {
 		id = 42,
 		index = 1002,
 		pic = "beifa",
-		desc = "<color=#A9F548>[吓]</color>",
+		desc = "<color=#92fc63>[吓]</color>",
 		type = {
 			2
 		}
@@ -345,7 +345,7 @@ pg.emoji_template = {
 		id = 43,
 		index = 1003,
 		pic = "biaoqiang",
-		desc = "<color=#A9F548>[耶]</color>",
+		desc = "<color=#92fc63>[耶]</color>",
 		type = {
 			2
 		}
@@ -355,7 +355,7 @@ pg.emoji_template = {
 		id = 44,
 		index = 1004,
 		pic = "buli",
-		desc = "<color=#A9F548>[啦啦]</color>",
+		desc = "<color=#92fc63>[啦啦]</color>",
 		type = {
 			2
 		}
@@ -365,7 +365,7 @@ pg.emoji_template = {
 		id = 45,
 		index = 1005,
 		pic = "dujiaoshou",
-		desc = "<color=#A9F548>[爱心]</color>",
+		desc = "<color=#92fc63>[爱心]</color>",
 		type = {
 			2
 		}
@@ -375,7 +375,7 @@ pg.emoji_template = {
 		id = 46,
 		index = 1006,
 		pic = "fangzhou",
-		desc = "<color=#A9F548>[鼻血]</color>",
+		desc = "<color=#92fc63>[鼻血]</color>",
 		type = {
 			2
 		}
@@ -385,7 +385,7 @@ pg.emoji_template = {
 		id = 47,
 		index = 1007,
 		pic = "gaoxiong",
-		desc = "<color=#A9F548>[不]</color>",
+		desc = "<color=#92fc63>[不]</color>",
 		type = {
 			2
 		}
@@ -395,7 +395,7 @@ pg.emoji_template = {
 		id = 48,
 		index = 1008,
 		pic = "haiwangxing",
-		desc = "<color=#A9F548>[点头]</color>",
+		desc = "<color=#92fc63>[点头]</color>",
 		type = {
 			2
 		}
@@ -405,7 +405,7 @@ pg.emoji_template = {
 		id = 49,
 		index = 1009,
 		pic = "haman",
-		desc = "<color=#A9F548>[生气]</color>",
+		desc = "<color=#92fc63>[生气]</color>",
 		type = {
 			2
 		}
@@ -415,7 +415,7 @@ pg.emoji_template = {
 		id = 50,
 		index = 1010,
 		pic = "kedie",
-		desc = "<color=#A9F548>[墨镜]</color>",
+		desc = "<color=#92fc63>[墨镜]</color>",
 		type = {
 			2
 		}
@@ -425,7 +425,7 @@ pg.emoji_template = {
 		id = 51,
 		index = 1011,
 		pic = "lafei",
-		desc = "<color=#A9F548>[冒泡]</color>",
+		desc = "<color=#92fc63>[冒泡]</color>",
 		type = {
 			2
 		}
@@ -435,7 +435,7 @@ pg.emoji_template = {
 		id = 52,
 		index = 1012,
 		pic = "lingbo",
-		desc = "<color=#A9F548>[窘迫]</color>",
+		desc = "<color=#92fc63>[窘迫]</color>",
 		type = {
 			2
 		}
@@ -445,7 +445,7 @@ pg.emoji_template = {
 		id = 54,
 		index = 1014,
 		pic = "mingshi",
-		desc = "<color=#A9F548>[流汗]</color>",
+		desc = "<color=#92fc63>[流汗]</color>",
 		type = {
 			2
 		}
@@ -455,7 +455,7 @@ pg.emoji_template = {
 		id = 55,
 		index = 1015,
 		pic = "muyue",
-		desc = "<color=#A9F548>[发呆]</color>",
+		desc = "<color=#92fc63>[发呆]</color>",
 		type = {
 			2
 		}
@@ -465,7 +465,7 @@ pg.emoji_template = {
 		id = 56,
 		index = 1016,
 		pic = "naerxun",
-		desc = "<color=#A9F548>[嘎喔]</color>",
+		desc = "<color=#92fc63>[嘎喔]</color>",
 		type = {
 			2
 		}
@@ -475,7 +475,7 @@ pg.emoji_template = {
 		id = 57,
 		index = 1017,
 		pic = "neet",
-		desc = "<color=#A9F548>[躺]</color>",
+		desc = "<color=#92fc63>[躺]</color>",
 		type = {
 			2
 		}
@@ -485,7 +485,7 @@ pg.emoji_template = {
 		id = 58,
 		index = 1018,
 		pic = "ninghai",
-		desc = "<color=#A9F548>[疑惑]</color>",
+		desc = "<color=#92fc63>[疑惑]</color>",
 		type = {
 			2
 		}
@@ -495,7 +495,7 @@ pg.emoji_template = {
 		id = 59,
 		index = 1019,
 		pic = "qiye",
-		desc = "<color=#A9F548>[…]</color>",
+		desc = "<color=#92fc63>[…]</color>",
 		type = {
 			2
 		}
@@ -505,7 +505,7 @@ pg.emoji_template = {
 		id = 60,
 		index = 1020,
 		pic = "ruihe",
-		desc = "<color=#A9F548>[拍手]</color>",
+		desc = "<color=#92fc63>[拍手]</color>",
 		type = {
 			2
 		}
@@ -515,7 +515,7 @@ pg.emoji_template = {
 		id = 61,
 		index = 1021,
 		pic = "ruyue",
-		desc = "<color=#A9F548>[害怕]</color>",
+		desc = "<color=#92fc63>[害怕]</color>",
 		type = {
 			2
 		}
@@ -525,7 +525,7 @@ pg.emoji_template = {
 		id = 62,
 		index = 1022,
 		pic = "shancheng",
-		desc = "<color=#A9F548>[晕]</color>",
+		desc = "<color=#92fc63>[晕]</color>",
 		type = {
 			2
 		}
@@ -535,7 +535,7 @@ pg.emoji_template = {
 		id = 63,
 		index = 1023,
 		pic = "xiefei",
-		desc = "<color=#A9F548>[鄙视]</color>",
+		desc = "<color=#92fc63>[鄙视]</color>",
 		type = {
 			2
 		}
@@ -545,7 +545,7 @@ pg.emoji_template = {
 		id = 64,
 		index = 1024,
 		pic = "xixue",
-		desc = "<color=#A9F548>[鬼脸]</color>",
+		desc = "<color=#92fc63>[鬼脸]</color>",
 		type = {
 			2
 		}
@@ -555,7 +555,7 @@ pg.emoji_template = {
 		id = 65,
 		index = 1025,
 		pic = "z23",
-		desc = "<color=#A9F548>[发脾气]</color>",
+		desc = "<color=#92fc63>[发脾气]</color>",
 		type = {
 			2
 		}
@@ -565,7 +565,7 @@ pg.emoji_template = {
 		id = 100,
 		index = 2001,
 		pic = "imsgSticke_akagi",
-		desc = "<color=#A9F548>[热情似火]</color>",
+		desc = "<color=#92fc63>[热情似火]</color>",
 		type = {
 			3
 		}
@@ -575,7 +575,7 @@ pg.emoji_template = {
 		id = 101,
 		index = 2002,
 		pic = "imsgSticke_akashi",
-		desc = "<color=#A9F548>[今天来点什么？]</color>",
+		desc = "<color=#92fc63>[今天来点什么？]</color>",
 		type = {
 			3
 		}
@@ -585,7 +585,7 @@ pg.emoji_template = {
 		id = 102,
 		index = 2003,
 		pic = "imsgSticke_arkroyal",
-		desc = "<color=#A9F548>[awsl]</color>",
+		desc = "<color=#92fc63>[awsl]</color>",
 		type = {
 			3
 		}
@@ -595,7 +595,7 @@ pg.emoji_template = {
 		id = 103,
 		index = 2004,
 		pic = "imsgSticke_enterprise",
-		desc = "<color=#A9F548>[唔嗯？]</color>",
+		desc = "<color=#92fc63>[唔嗯？]</color>",
 		type = {
 			3
 		}
@@ -605,7 +605,7 @@ pg.emoji_template = {
 		id = 104,
 		index = 2005,
 		pic = "imsgSticke_hammann",
-		desc = "<color=#A9F548>[啊呜呜！]</color>",
+		desc = "<color=#92fc63>[啊呜呜！]</color>",
 		type = {
 			3
 		}
@@ -615,7 +615,7 @@ pg.emoji_template = {
 		id = 105,
 		index = 2006,
 		pic = "imsgSticke_kaga",
-		desc = "<color=#A9F548>[我没生气]</color>",
+		desc = "<color=#92fc63>[我没生气]</color>",
 		type = {
 			3
 		}
@@ -625,7 +625,7 @@ pg.emoji_template = {
 		id = 106,
 		index = 2007,
 		pic = "imsgSticke_laffey",
-		desc = "<color=#A9F548>[来点拉菲么]</color>",
+		desc = "<color=#92fc63>[来点拉菲么]</color>",
 		type = {
 			3
 		}
@@ -635,7 +635,7 @@ pg.emoji_template = {
 		id = 107,
 		index = 2008,
 		pic = "imsgSticke_longisland",
-		desc = "<color=#A9F548>[泪流成河]</color>",
+		desc = "<color=#92fc63>[泪流成河]</color>",
 		type = {
 			3
 		}
@@ -645,7 +645,7 @@ pg.emoji_template = {
 		id = 108,
 		index = 2009,
 		pic = "imsgSticke_mutsuki",
-		desc = "<color=#A9F548>[？？？]</color>",
+		desc = "<color=#92fc63>[？？？]</color>",
 		type = {
 			3
 		}
@@ -655,7 +655,7 @@ pg.emoji_template = {
 		id = 109,
 		index = 2010,
 		pic = "imsgSticke_portland",
-		desc = "<color=#A9F548>[萌萌哒]</color>",
+		desc = "<color=#92fc63>[萌萌哒]</color>",
 		type = {
 			3
 		}
@@ -665,7 +665,7 @@ pg.emoji_template = {
 		id = 110,
 		index = 2011,
 		pic = "imsgSticke_sandiego",
-		desc = "<color=#A9F548>[等我改造完...]</color>",
+		desc = "<color=#92fc63>[等我改造完...]</color>",
 		type = {
 			3
 		}
@@ -675,7 +675,7 @@ pg.emoji_template = {
 		id = 111,
 		index = 2012,
 		pic = "imsgSticke_shiratsuyu",
-		desc = "<color=#A9F548>[Zzzz]</color>",
+		desc = "<color=#92fc63>[Zzzz]</color>",
 		type = {
 			3
 		}
@@ -685,7 +685,7 @@ pg.emoji_template = {
 		id = 112,
 		index = 2013,
 		pic = "imsgSticke_tirpitz",
-		desc = "<color=#A9F548>[沉思ing]</color>",
+		desc = "<color=#92fc63>[沉思ing]</color>",
 		type = {
 			3
 		}
@@ -695,7 +695,7 @@ pg.emoji_template = {
 		id = 113,
 		index = 2014,
 		pic = "imsgSticke_unicorn",
-		desc = "<color=#A9F548>[要不要锉两刀？]</color>",
+		desc = "<color=#92fc63>[要不要锉两刀？]</color>",
 		type = {
 			3
 		}
@@ -705,7 +705,7 @@ pg.emoji_template = {
 		id = 114,
 		index = 2015,
 		pic = "imsgSticke_warspite",
-		desc = "<color=#A9F548>[哦豁，完蛋]</color>",
+		desc = "<color=#92fc63>[哦豁，完蛋]</color>",
 		type = {
 			3
 		}
@@ -715,7 +715,7 @@ pg.emoji_template = {
 		id = 201,
 		index = 1,
 		pic = "line_part2_1",
-		desc = "<color=#A9F548>[逮捕]</color>",
+		desc = "<color=#92fc63>[逮捕]</color>",
 		type = {
 			1
 		}
@@ -725,7 +725,7 @@ pg.emoji_template = {
 		id = 202,
 		index = 2,
 		pic = "line_part2_2",
-		desc = "<color=#A9F548>[鼓足气势]</color>",
+		desc = "<color=#92fc63>[鼓足气势]</color>",
 		type = {
 			1
 		}
@@ -735,7 +735,7 @@ pg.emoji_template = {
 		id = 203,
 		index = 3,
 		pic = "line_part2_3",
-		desc = "<color=#A9F548>[休息中]</color>",
+		desc = "<color=#92fc63>[休息中]</color>",
 		type = {
 			1
 		}
@@ -745,7 +745,7 @@ pg.emoji_template = {
 		id = 204,
 		index = 4,
 		pic = "line_part2_4",
-		desc = "<color=#A9F548>[你是笨蛋吗？]</color>",
+		desc = "<color=#92fc63>[你是笨蛋吗？]</color>",
 		type = {
 			1
 		}
@@ -755,7 +755,7 @@ pg.emoji_template = {
 		id = 205,
 		index = 5,
 		pic = "line_part2_5",
-		desc = "<color=#A9F548>[速度太慢了！]</color>",
+		desc = "<color=#92fc63>[速度太慢了！]</color>",
 		type = {
 			1
 		}
@@ -765,7 +765,7 @@ pg.emoji_template = {
 		id = 206,
 		index = 6,
 		pic = "line_part2_6",
-		desc = "<color=#A9F548>[抱抱]</color>",
+		desc = "<color=#92fc63>[抱抱]</color>",
 		type = {
 			1
 		}
@@ -775,7 +775,7 @@ pg.emoji_template = {
 		id = 207,
 		index = 7,
 		pic = "line_part2_7",
-		desc = "<color=#A9F548>[想死一次吗？]</color>",
+		desc = "<color=#92fc63>[想死一次吗？]</color>",
 		type = {
 			1
 		}
@@ -785,7 +785,7 @@ pg.emoji_template = {
 		id = 208,
 		index = 8,
 		pic = "line_part2_8",
-		desc = "<color=#A9F548>[Vctory]</color>",
+		desc = "<color=#92fc63>[Vctory]</color>",
 		type = {
 			1
 		}
@@ -795,7 +795,7 @@ pg.emoji_template = {
 		id = 209,
 		index = 9,
 		pic = "line_part2_9",
-		desc = "<color=#A9F548>[憎恨一切]</color>",
+		desc = "<color=#92fc63>[憎恨一切]</color>",
 		type = {
 			1
 		}
@@ -805,7 +805,7 @@ pg.emoji_template = {
 		id = 210,
 		index = 10,
 		pic = "line_part2_10",
-		desc = "<color=#A9F548>[加油♡加油♡]</color>",
+		desc = "<color=#92fc63>[加油♡加油♡]</color>",
 		type = {
 			1
 		}
@@ -815,7 +815,7 @@ pg.emoji_template = {
 		id = 211,
 		index = 11,
 		pic = "line_part2_11",
-		desc = "<color=#A9F548>[正确答案]</color>",
+		desc = "<color=#92fc63>[正确答案]</color>",
 		type = {
 			1
 		}
@@ -825,7 +825,7 @@ pg.emoji_template = {
 		id = 212,
 		index = 12,
 		pic = "line_part2_12",
-		desc = "<color=#A9F548>[咦？]</color>",
+		desc = "<color=#92fc63>[咦？]</color>",
 		type = {
 			1
 		}
@@ -835,7 +835,7 @@ pg.emoji_template = {
 		id = 213,
 		index = 13,
 		pic = "line_part2_13",
-		desc = "<color=#A9F548>[爱情表现]</color>",
+		desc = "<color=#92fc63>[爱情表现]</color>",
 		type = {
 			1
 		}
@@ -845,7 +845,7 @@ pg.emoji_template = {
 		id = 214,
 		index = 14,
 		pic = "line_part2_14",
-		desc = "<color=#A9F548>[！？]</color>",
+		desc = "<color=#92fc63>[！？]</color>",
 		type = {
 			1
 		}
@@ -855,7 +855,7 @@ pg.emoji_template = {
 		id = 215,
 		index = 15,
 		pic = "line_part2_15",
-		desc = "<color=#A9F548>[任务完成]</color>",
+		desc = "<color=#92fc63>[任务完成]</color>",
 		type = {
 			1
 		}
@@ -865,7 +865,7 @@ pg.emoji_template = {
 		id = 216,
 		index = 16,
 		pic = "line_part2_16",
-		desc = "<color=#A9F548>[空气玩家？]</color>",
+		desc = "<color=#92fc63>[空气玩家？]</color>",
 		type = {
 			1
 		}
@@ -875,7 +875,7 @@ pg.emoji_template = {
 		id = 217,
 		index = 17,
 		pic = "line_part2_17",
-		desc = "<color=#A9F548>[超辣]</color>",
+		desc = "<color=#92fc63>[超辣]</color>",
 		type = {
 			1
 		}
@@ -885,7 +885,7 @@ pg.emoji_template = {
 		id = 218,
 		index = 18,
 		pic = "line_part2_18",
-		desc = "<color=#A9F548>[这是品味哦]</color>",
+		desc = "<color=#92fc63>[这是品味哦]</color>",
 		type = {
 			1
 		}
@@ -895,7 +895,7 @@ pg.emoji_template = {
 		id = 219,
 		index = 19,
 		pic = "line_part2_19",
-		desc = "<color=#A9F548>[一起喝！]</color>",
+		desc = "<color=#92fc63>[一起喝！]</color>",
 		type = {
 			1
 		}
@@ -905,7 +905,7 @@ pg.emoji_template = {
 		id = 220,
 		index = 20,
 		pic = "line_part2_20",
-		desc = "<color=#A9F548>[超可爱]</color>",
+		desc = "<color=#92fc63>[超可爱]</color>",
 		type = {
 			1
 		}
@@ -915,7 +915,7 @@ pg.emoji_template = {
 		id = 221,
 		index = 21,
 		pic = "line_part2_21",
-		desc = "<color=#A9F548>[不准看！]</color>",
+		desc = "<color=#92fc63>[不准看！]</color>",
 		type = {
 			1
 		}
@@ -925,7 +925,7 @@ pg.emoji_template = {
 		id = 222,
 		index = 22,
 		pic = "line_part2_22",
-		desc = "<color=#A9F548>[见敌必杀]</color>",
+		desc = "<color=#92fc63>[见敌必杀]</color>",
 		type = {
 			1
 		}
@@ -935,7 +935,7 @@ pg.emoji_template = {
 		id = 223,
 		index = 23,
 		pic = "line_part2_23",
-		desc = "<color=#A9F548>[提不起劲]</color>",
+		desc = "<color=#92fc63>[提不起劲]</color>",
 		type = {
 			1
 		}
@@ -945,7 +945,7 @@ pg.emoji_template = {
 		id = 224,
 		index = 24,
 		pic = "line_part2_24",
-		desc = "<color=#A9F548>[期待哦]</color>",
+		desc = "<color=#92fc63>[期待哦]</color>",
 		type = {
 			1
 		}
@@ -955,7 +955,7 @@ pg.emoji_template = {
 		id = 225,
 		index = 25,
 		pic = "line_part2_25",
-		desc = "<color=#A9F548>[没有的不存在的]</color>",
+		desc = "<color=#92fc63>[没有的不存在的]</color>",
 		type = {
 			1
 		}
@@ -965,7 +965,7 @@ pg.emoji_template = {
 		id = 226,
 		index = 26,
 		pic = "line_part2_26",
-		desc = "<color=#A9F548>[欢迎回来]</color>",
+		desc = "<color=#92fc63>[欢迎回来]</color>",
 		type = {
 			1
 		}
@@ -975,7 +975,7 @@ pg.emoji_template = {
 		id = 227,
 		index = 27,
 		pic = "line_part2_27",
-		desc = "<color=#A9F548>[呵呵呵…]</color>",
+		desc = "<color=#92fc63>[呵呵呵…]</color>",
 		type = {
 			1
 		}
@@ -985,7 +985,7 @@ pg.emoji_template = {
 		id = 228,
 		index = 28,
 		pic = "line_part2_28",
-		desc = "<color=#A9F548>[刚起床]</color>",
+		desc = "<color=#92fc63>[刚起床]</color>",
 		type = {
 			1
 		}
@@ -995,7 +995,7 @@ pg.emoji_template = {
 		id = 229,
 		index = 29,
 		pic = "line_part2_29",
-		desc = "<color=#A9F548>[无妨]</color>",
+		desc = "<color=#92fc63>[无妨]</color>",
 		type = {
 			1
 		}
@@ -1005,7 +1005,7 @@ pg.emoji_template = {
 		id = 230,
 		index = 30,
 		pic = "line_part2_30",
-		desc = "<color=#A9F548>[有问题吗？]</color>",
+		desc = "<color=#92fc63>[有问题吗？]</color>",
 		type = {
 			1
 		}
@@ -1015,7 +1015,7 @@ pg.emoji_template = {
 		id = 231,
 		index = 31,
 		pic = "line_part2_31",
-		desc = "<color=#A9F548>[Excellent]</color>",
+		desc = "<color=#92fc63>[Excellent]</color>",
 		type = {
 			1
 		}
@@ -1025,7 +1025,7 @@ pg.emoji_template = {
 		id = 232,
 		index = 32,
 		pic = "line_part2_32",
-		desc = "<color=#A9F548>[为什么？为什么？]</color>",
+		desc = "<color=#92fc63>[为什么？为什么？]</color>",
 		type = {
 			1
 		}
@@ -1035,7 +1035,7 @@ pg.emoji_template = {
 		id = 233,
 		index = 33,
 		pic = "line_part2_33",
-		desc = "<color=#A9F548>[谢谢惠顾喵]</color>",
+		desc = "<color=#92fc63>[谢谢惠顾喵]</color>",
 		type = {
 			1
 		}
@@ -1045,7 +1045,7 @@ pg.emoji_template = {
 		id = 234,
 		index = 34,
 		pic = "line_part2_34",
-		desc = "<color=#A9F548>[♪]</color>",
+		desc = "<color=#92fc63>[♪]</color>",
 		type = {
 			1
 		}
@@ -1055,7 +1055,7 @@ pg.emoji_template = {
 		id = 235,
 		index = 35,
 		pic = "line_part2_35",
-		desc = "<color=#A9F548>[真拿你那没办法]</color>",
+		desc = "<color=#92fc63>[真拿你那没办法]</color>",
 		type = {
 			1
 		}
@@ -1065,7 +1065,7 @@ pg.emoji_template = {
 		id = 236,
 		index = 36,
 		pic = "line_part2_36",
-		desc = "<color=#A9F548>[好吃…]</color>",
+		desc = "<color=#92fc63>[好吃…]</color>",
 		type = {
 			1
 		}
@@ -1075,7 +1075,7 @@ pg.emoji_template = {
 		id = 237,
 		index = 37,
 		pic = "line_part2_37",
-		desc = "<color=#A9F548>[突破天际]</color>",
+		desc = "<color=#92fc63>[突破天际]</color>",
 		type = {
 			1
 		}
@@ -1085,7 +1085,7 @@ pg.emoji_template = {
 		id = 238,
 		index = 38,
 		pic = "line_part2_38",
-		desc = "<color=#A9F548>[刚出货！]</color>",
+		desc = "<color=#92fc63>[刚出货！]</color>",
 		type = {
 			1
 		}
@@ -1095,7 +1095,7 @@ pg.emoji_template = {
 		id = 239,
 		index = 39,
 		pic = "line_part2_39",
-		desc = "<color=#A9F548>[哒！]</color>",
+		desc = "<color=#92fc63>[哒！]</color>",
 		type = {
 			1
 		}
@@ -1105,7 +1105,7 @@ pg.emoji_template = {
 		id = 240,
 		index = 40,
 		pic = "line_part2_40",
-		desc = "<color=#A9F548>[大碗装]</color>",
+		desc = "<color=#92fc63>[大碗装]</color>",
 		type = {
 			1
 		}

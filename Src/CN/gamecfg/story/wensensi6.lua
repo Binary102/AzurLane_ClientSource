@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹妹的变化\n\n<size=30>六 妹妹的努力</size>",
+					"妹妹的变化\n\n<size=45>六 妹妹的努力</size>",
 					1
 				}
 			}
@@ -238,7 +238,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -264,7 +264,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -347,7 +347,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},

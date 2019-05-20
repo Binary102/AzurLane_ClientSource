@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"战斗！皇家女仆队！\n\n<size=30>三　闪耀的谢菲</size>",
+					"战斗！皇家女仆队！\n\n<size=45>三　闪耀的谢菲</size>",
 					1
 				}
 			}
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.2,

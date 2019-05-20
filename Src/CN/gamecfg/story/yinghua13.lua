@@ -18,7 +18,7 @@ return {
 				{
 					actor = 305050,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -211,7 +211,7 @@ return {
 		},
 		{
 			{
-				y = 10,
+				y = 15,
 				type = "shake",
 				delay = 0,
 				dur = 0.1,
@@ -233,17 +233,9 @@ return {
 			}
 		},
 		{
-			{
-				y = 900021,
-				type = "shake",
-				delay = 900021,
-				dur = 900021.900021,
-				x = 900021,
-				number = 900021
-			},
 			actor = 900021,
-			actorName = "净化者",
 			side = 2,
+			actorName = "净化者",
 			dir = 1,
 			say = "啊，这么中二的暗号到底是哪个子系统想出来的！说出来好丢人啊！",
 			typewriter = {

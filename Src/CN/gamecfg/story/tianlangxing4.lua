@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>四 来自Big seven的建议</size>",
+					"天狼星改造计划\n\n<size=45>四 来自Big seven的建议</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.3,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>三　赛前集训！</size>",
+					"骑士与奖赏\n\n<size=45>三　赛前集训！</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -68,7 +68,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -85,7 +85,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -134,21 +134,21 @@ return {
 			say = "咕嘟咕嘟…哈！其实是刚才过来的路上——",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -238,7 +238,7 @@ return {
 			say = "行了行了！大家一起动手收割总行了吧，别再叫我克爹了！",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

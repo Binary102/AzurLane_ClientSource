@@ -1003,6 +1003,17 @@ pg.memory_group = {
 			767
 		}
 	},
+	[156] = {
+		title = "小小的誓言",
+		type = 2,
+		id = 156,
+		icon = "title_event",
+		memories = {
+			775,
+			776,
+			777
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1678,6 +1689,7 @@ pg.memory_group = {
 		153,
 		154,
 		155,
+		156,
 		501,
 		502,
 		503,

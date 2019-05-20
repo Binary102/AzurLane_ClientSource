@@ -39,16 +39,16 @@ class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					if slot12 then
 						if slot12:hasSkin() then
 							slot2:addEquipmentSkin(slot12.skinId, 1)
+
+							slot12.skinId = 0
+
 							pg.TipsMgr:GetInstance():ShowTips(i18n("equipment_skin_unload"))
 						end
 
-						slot2:addEquipmentById(slot12.id, 1, true)
+						slot2:addEquipment(slot12)
 
 						if not slot1[slot12.id] then
-							slot1[slot12.id] = Equipment.New({
-								count = 1,
-								id = slot12.id
-							})
+							slot1[slot12.id] = slot12:clone()
 						else
 							slot1[slot12.id].count = slot1[slot12.id].count + 1
 						end

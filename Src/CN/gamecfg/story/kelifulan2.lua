@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>二 骑士团结成！</size>",
+					"骑士与奖赏\n\n<size=45>二 骑士团结成！</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			say = "噢——！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -66,7 +66,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -88,7 +88,7 @@ return {
 			say = "……噗。……噢——！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -259,7 +259,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			},
@@ -328,7 +328,7 @@ return {
 			say = "不——是——啦！！你们倒是好好听人说话啊——！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,

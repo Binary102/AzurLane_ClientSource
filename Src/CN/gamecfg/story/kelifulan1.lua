@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>一　突然的邀请</size>",
+					"骑士与奖赏\n\n<size=45>一　突然的邀请</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			say = "别叫我克爹！……啊，不是叫指挥官亲自打球，是想问你能不能来给我们球队做教练？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.12,
 					x = 0,
@@ -161,7 +161,7 @@ return {
 			say = "……你答应了？太好了！不愧是指挥官，就是爽快！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.08,
 					x = 0,

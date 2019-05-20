@@ -11,15 +11,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>“换句话说，要学会分享！”</size>",
+					"<size=51>“换句话说，要学会分享！”</size>",
 					2
 				},
 				{
-					"<size=34>“无论是快乐还是烦恼，全都可以告诉我！”</size>",
+					"<size=51>“无论是快乐还是烦恼，全都可以告诉我！”</size>",
 					4
 				},
 				{
-					"<size=34>“不会让你一直孤单一个人的！”</size>",
+					"<size=51>“不会让你一直孤单一个人的！”</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=30>二　偶遇</size>",
+					"港湾\n\n<size=45>二　偶遇</size>",
 					1
 				}
 			}
@@ -336,7 +336,7 @@ return {
 			say = "喵！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -481,7 +481,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=30>六　{namecode:22}和游乐园·下</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>六　{namecode:22}和游乐园·下</size>",
 					1
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -102,7 +102,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.5,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -239,7 +239,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.75,
-					x = 25,
+					x = 37.5,
 					number = 3
 				}
 			}
@@ -266,7 +266,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.75,
-					x = 25,
+					x = 37.5,
 					number = 3
 				}
 			}
@@ -289,7 +289,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -316,7 +316,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -1,6 +1,9 @@
 return {
 	map_id = 10008,
 	id = 105100,
+	skill_hide = {
+		3
+	},
 	stages = {
 		{
 			stageIndex = 1,
@@ -53,7 +56,8 @@ return {
 					preWaves = {},
 					triggerParams = {
 						event = "HideSkillUI",
-						id = "B003"
+						id = "B003",
+						type = 1
 					}
 				},
 				{
@@ -227,10 +231,13 @@ return {
 				},
 				{
 					triggerType = 0,
-					waveIndex = 103,
+					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
 						500
+					},
+					conditionWaves = {
+						[222.0] = false
 					},
 					triggerParam = {},
 					spawn = {
@@ -282,10 +289,73 @@ return {
 					}
 				},
 				{
+					triggerType = 0,
+					waveIndex = 103,
+					conditionType = 0,
+					preWaves = {
+						500
+					},
+					conditionWaves = {
+						[222.0] = true
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 105100,
+							delay = 0,
+							moveCast = true,
+							reinforceDelay = 5,
+							corrdinate = {
+								0,
+								0,
+								55
+							},
+							bossData = {
+								hpBarNum = 5,
+								icon = "dahuangfeng"
+							},
+							buffList = {
+								8604
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 1000,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								11,
+								0,
+								70
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						},
+						{
+							monsterTemplateID = 1000,
+							delay = 0,
+							moveCast = true,
+							corrdinate = {
+								11,
+								0,
+								40
+							},
+							buffList = {
+								8001,
+								8007
+							}
+						}
+					}
+				},
+				{
 					triggerType = 1,
 					waveIndex = 205,
 					preWaves = {
-						103
+						103,
+						104
 					},
 					triggerParams = {
 						timeout = 1.5
@@ -295,7 +365,8 @@ return {
 					triggerType = 8,
 					waveIndex = 206,
 					preWaves = {
-						103
+						103,
+						104
 					},
 					triggerParams = {}
 				},

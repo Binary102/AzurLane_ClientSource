@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"新年的祝福\n\n<size=30>五 来自{namecode:98}的盛装</size>",
+					"新年的祝福\n\n<size=45>五 来自{namecode:98}的盛装</size>",
 					1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -289,7 +289,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -319,7 +319,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -372,7 +372,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -480,7 +480,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=30>第三话　『异文化的交流』</size>",
+					"<size=45>第三话　『异文化的交流』</size>",
 					1
 				}
 			}
@@ -48,7 +48,7 @@ return {
 					actor = 101170,
 					dir = 1,
 					pos = {
-						x = 680
+						x = 1020
 					}
 				}
 			},
@@ -76,7 +76,7 @@ return {
 					actor = 301110,
 					dir = 1,
 					pos = {
-						x = 680
+						x = 1020
 					}
 				}
 			},
@@ -104,7 +104,7 @@ return {
 					actor = 102080,
 					dir = -1,
 					pos = {
-						x = -680
+						x = -1020
 					}
 				}
 			},

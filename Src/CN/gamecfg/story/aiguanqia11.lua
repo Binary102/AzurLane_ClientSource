@@ -104,7 +104,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -264,7 +264,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
@@ -289,7 +289,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -314,7 +314,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -341,7 +341,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -366,7 +366,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 1,
@@ -551,7 +551,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

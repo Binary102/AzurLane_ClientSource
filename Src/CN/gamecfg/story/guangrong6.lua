@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=30>六 于她而言的荣光·上</size>",
+					"荣光的间奏曲\n\n<size=45>六 于她而言的荣光·上</size>",
 					1
 				}
 			}

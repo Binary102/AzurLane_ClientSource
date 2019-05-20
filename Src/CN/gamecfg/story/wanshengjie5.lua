@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"“魔女们”的万圣夜\n\n<size=30>其五　Trick or treat！</size>",
+					"“魔女们”的万圣夜\n\n<size=45>其五　Trick or treat！</size>",
 					1
 				}
 			}
@@ -29,7 +29,7 @@ return {
 					actor = 306051,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -52,7 +52,7 @@ return {
 					actor = 102091,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

@@ -95,7 +95,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								45
+								35
 							}
 						},
 						{
@@ -106,7 +106,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								65
+								75
 							}
 						},
 						{

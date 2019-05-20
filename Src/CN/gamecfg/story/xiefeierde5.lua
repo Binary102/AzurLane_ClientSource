@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=30>五 休息日的约定</size>",
+					"这个女仆不太冷\n\n<size=45>五 休息日的约定</size>",
 					1
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

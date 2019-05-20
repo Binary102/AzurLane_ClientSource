@@ -22,4 +22,16 @@ function ys.Battle.IOxyState.IsVisible(slot0)
 	return true
 end
 
+function ys.Battle.IOxyState.DoUpdateOxy(slot0)
+	return
+end
+
+function ys.Battle.IOxyState.GetBarVisible(slot0)
+	return nil
+end
+
+function ys.Battle.IOxyState.RunMode(slot0)
+	return nil
+end
+
 return

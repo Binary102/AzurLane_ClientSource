@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"剧情选项功能测试\n\n<size=30>SP4剧情</size>",
+					"剧情选项功能测试\n\n<size=45>SP4剧情</size>",
 					1
 				}
 			}

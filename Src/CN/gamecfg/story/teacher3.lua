@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=30>三 这是谁，我是哪儿？</size>",
+					"36年Z组 Z23老师\n\n<size=45>三 这是谁，我是哪儿？</size>",
 					1
 				}
 			}

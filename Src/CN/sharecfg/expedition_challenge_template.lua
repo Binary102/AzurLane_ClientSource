@@ -60,11 +60,27 @@ pg.expedition_challenge_template = {
 			""
 		}
 	},
+	[10005] = {
+		id = 10005,
+		challenge = 10000,
+		index = 5,
+		dungeon_id = 5013,
+		chapter_description = "指挥官，你对自己的作战技巧很有自信吗？那就快来挑战一番吧！",
+		char_icon = {
+			"Z23"
+		},
+		chapter_name = {
+			"Challenge",
+			"  挑战模式",
+			""
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
-		10004
+		10004,
+		10005
 	}
 }
 

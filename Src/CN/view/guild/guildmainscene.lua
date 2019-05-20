@@ -4,6 +4,10 @@ function slot0.getUIName(slot0)
 	return "GuildMainUI"
 end
 
+function slot0.getGroupName(slot0)
+	return "group_GuildMainUI"
+end
+
 function slot0.setGuildVO(slot0, slot1)
 	slot0.guildVO = slot1
 	slot0.logs = slot1.logInfo
@@ -11,6 +15,8 @@ end
 
 function slot0.setPlayerVO(slot0, slot1)
 	slot0.playerVO = slot1
+
+	slot0._resPanel:setResources(slot1)
 end
 
 function slot0.setChatMsgs(slot0, slot1)
@@ -57,33 +63,28 @@ slot8 = {
 }
 
 function slot0.init(slot0)
-	slot0.togglesRoot = slot0:findTF("blur_panel/left_length/tagRoot")
+	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/res")
+	slot0._resPanel = PlayerResource.New()
+
+	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
+
+	slot0.togglesRoot = slot0:findTF("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot")
 	slot0.applyTip = slot0:findTF("apply/tip", slot0.togglesRoot)
-	slot0.back = slot0:findTF("blur_panel/top/title/back")
+	slot0.back = slot0:findTF("blur_panel/adapt/top/back")
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.overLay = pg.UIMgr:GetInstance().OverlayMain
 
-	setParent(slot0.blurPanel, slot0.overLay)
 	setActive(slot1, false)
 
-	slot0.titleApply = slot0:findTF("top/title/bg/title2", slot0.blurPanel)
-	slot0.titleFleet = slot0:findTF("top/title/bg/title", slot0.blurPanel)
-	slot0.titleText = slot0:findTF("top/title/bg/FLEET", slot0.blurPanel):GetComponent(typeof(Text))
 	slot0._bg = slot0:findTF("bg")
 
 	if slot0.bgSprite then
-		setImageSprite(slot0._bg, slot0.bgSprite, true)
+		setImageSprite(slot0._bg, slot0.bgSprite, false)
 	end
 
-	slot0._leftLength = findTF(slot0.blurPanel, "left_length")
-	slot0._topPanel = findTF(slot0.blurPanel, "top")
-
-	setAnchoredPosition(slot0._topPanel, {
-		y = slot0._topPanel.transform.rect.height
-	})
-	setAnchoredPosition(slot0._leftLength, {
-		x = -1 * slot0._leftLength.rect.width
-	})
+	slot0._leftLength = findTF(slot0.blurPanel, "adapt/left_length")
+	slot0._topPanel = findTF(slot0.blurPanel, "adapt/top")
+	slot0.init = true
 end
 
 function slot0.preload(slot0, slot1)
@@ -98,134 +99,28 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.uiStartAnimating(slot0)
-	shiftPanel(slot0._topPanel, nil, 0, slot2, slot1, true, true)
-	shiftPanel(slot0._leftLength, 0, nil, slot2, slot1, true, true)
+function slot0.updateBg(slot0)
+	slot1 = slot0.guildVO
+	slot2 = slot0.guildVO:getBgName()
 
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0._topPanel), slot0:findTF("title/bg/right", slot0._topPanel), slot0:findTF("title/bg/title", slot0._topPanel), slot0:findTF("title/bg/FLEET", slot0._topPanel), nil, function ()
-		slot0.tweens = nil
-	end)
-end
+	if GuildMainMediator.BG and slot2 ~= GuildMainMediator.BG then
+		GuildMainMediator.BG = slot2
 
-function slot0.uiExitAnimating(slot0)
-	shiftPanel(slot0._topPanel, nil, slot0._topPanel.rect.height, dur, delay, true, true)
-	shiftPanel(slot0._leftLength, -slot0._leftLength.rect.width, nil, dur, delay, true, true)
-end
-
-function slot0.updateModifyPanel(slot0)
-	slot0.modifyPanel = findTF(slot0.themePanel, "modify_panel")
-	slot0.nameInput = findTF(slot0.modifyPanel, "frame/name_container/InputField"):GetComponent(typeof(InputField))
-	slot0.factionToggle = findTF(slot0.modifyPanel, "frame/desc_container/faction/switch")
-	slot0.policyToggle = findTF(slot0.modifyPanel, "frame/desc_container/policy/switch")
-	slot0.manifestoInput = findTF(slot0.modifyPanel, "frame/desc_container/manifesto"):GetComponent(typeof(InputField))
-	slot0.confirmBtn = findTF(slot0.modifyPanel, "frame/buttons/confirm_btn")
-	slot0.cancelBtn = findTF(slot0.modifyPanel, "frame/buttons/cancel_btn")
-	slot0.quitBtn = findTF(slot0.modifyPanel, "frame/buttons/quit_btn")
-	slot0.dissolveBtn = findTF(slot0.modifyPanel, "frame/buttons/dissolve_btn")
-	slot0.factionMask = findTF(slot0.modifyPanel, "frame/desc_container/faction/mask")
-	slot0.costTF = findTF(slot0.modifyPanel, "frame/buttons/confirm_btn/print_container/Text"):GetComponent(typeof(Text))
-	slot1 = pg.gameset.modify_guild_cost.key_value or 0
-	slot0.costTF.text = 0
-
-	setActive(slot0.modifyPanel, false)
-	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:closeModifyPanel()
-	end, SFX_CANCEL)
-	onButton(slot0, slot0.dissolveBtn, function ()
-		if slot0.guildVO then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("guild_tip_dissolve"),
-				onYes = function ()
-					slot0:emit(GuildMainMediator.DISSOLVE, slot0.guildVO.id)
-				end
-			})
-		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.quitBtn, function ()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = i18n("guild_tip_quit"),
-			onYes = function ()
-				slot0:emit(GuildMainMediator.QUIT, slot0.guildVO.id)
+		GetSpriteFromAtlasAsync(GuildMainMediator.BG, "", function (slot0)
+			if not IsNil(slot0._bg) then
+				setImageSprite(slot0._bg, slot0, false)
 			end
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0.modifyPanel, function ()
-		slot0:closeModifyPanel()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.confirmBtn, function ()
-		slot2 = slot0.manifestoInput.text
-
-		if not slot0.nameInput.text or slot1 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_noname"))
-
-			return
-		end
-
-		if not nameValidityCheck(slot1, 0, 20, {
-			"spece_illegal_tip",
-			"login_newPlayerScene_name_tooShort",
-			"login_newPlayerScene_name_tooLong",
-			"err_name_existOtherChar"
-		}) then
-			return
-		end
-
-		if slot1 ~= slot0.guildVO:getName() and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_rmb"))
-
-			return
-		end
-
-		if not slot2 or slot2 == "" then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
-
-			return
-		end
-
-		slot0:setName(slot1)
-		slot0:setPolicy(slot0.policy)
-		slot0:setFaction(slot0.faction)
-		slot0:setManifesto(slot2)
-
-		function slot3()
-			if slot0:getPolicy() ~= slot0.guildVO:getPolicy() then
-				slot1:emit(GuildMainMediator.MODIFY, 3, slot0:getPolicy(), "")
-			end
-
-			if slot0:getManifesto() ~= slot0.guildVO:getManifesto() then
-				slot1:emit(GuildMainMediator.MODIFY, 4, 0, slot0:getManifesto())
-			end
-
-			if slot0:getName() ~= slot0.guildVO:getName() then
-				slot1:emit(GuildMainMediator.MODIFY, 1, 0, slot0:getName())
-			end
-		end
-
-		if slot0:getFaction() ~= slot0.guildVO:getFaction() then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("guild_faction_change_tip"),
-				onYes = function ()
-					slot0()
-					slot1:emit(GuildMainMediator.MODIFY, 2, slot2:getFaction(), "")
-				end
-			})
-		else
-			slot3()
-		end
-	end, SFX_CONFIRM)
-	slot2(slot0.nameInput)
-	slot2(slot0.manifestoInput)
-	slot0:updateAllLog(slot0.logs)
-	slot0:updateAllChat(slot0.chatMsgs)
+		end)
+	end
 end
 
 function slot0.didEnter(slot0)
+	setParent(slot0.blurPanel, slot0.overLay)
 	onButton(slot0, slot0.back, function ()
 		if not slot0.loadFinish then
 			return
 		end
 
-		slot0:uiExitAnimating()
 		LeanTween.delayedCall(0.31, System.Action(function ()
 			slot0:emit(GuildMainMediator.ON_BACK)
 		end))
@@ -252,7 +147,7 @@ function slot0.initTheme(slot0)
 
 		GetSpriteFromAtlasAsync(GuildMainMediator.BG, "", function (slot0)
 			if not IsNil(slot0._bg) then
-				setImageSprite(slot0._bg, slot0, true)
+				setImageSprite(slot0._bg, slot0, false)
 			end
 		end)
 	end
@@ -280,13 +175,6 @@ function slot0.initTheme(slot0)
 			slot0:updateGuildInfo(slot0.guildVO)
 			slot0:initToggles()
 			slot0:enterPage()
-			onNextTick(function ()
-				if slot0.exited then
-					return
-				end
-
-				slot0:uiStartAnimating()
-			end)
 			slot0:updateAdmin()
 
 			slot0.loadFinish = true
@@ -300,24 +188,14 @@ function slot0.initTheme(slot0)
 	slot0.curFaction = slot2
 end
 
-function slot0.onSwitch(slot0, slot1, slot2)
-	onToggle(slot0, slot1, function (slot0)
-		setActive(slot0:Find("on"), slot0)
-		setActive(slot0:Find("off"), not slot0)
-
-		if setActive then
-			slot1(slot0)
-		end
-	end, SFX_PANEL)
-end
-
 function slot0.initToggles(slot0)
 	slot0.toggles = {}
 
 	for slot4, slot5 in ipairs(slot0) do
-		slot0.toggles[slot5[1]] = slot0.togglesRoot:Find(slot6)
+		slot0.toggles[slot5[1]] = slot0.togglesRoot:Find(slot5[1])
 
-		onToggle(slot0, slot0.toggles[slot5[1]], function (slot0)
+		setActive(slot0.toggles[slot5[1]], slot4 <= 3)
+		onToggle(slot0, slot0.toggles[slot6], function (slot0)
 			if slot0 then
 				slot0:openPage(slot0.openPage)
 			else
@@ -338,42 +216,27 @@ function slot0.updateEventBtn(slot0, slot1)
 end
 
 function slot0.openPage(slot0, slot1)
-	if slot0.contextData.page == slot1 then
+	if slot0.contextData.page == slot1 and not slot0.init then
 		return
 	end
 
-	setActive(slot0.titleApply, slot1 == slot0)
-	setActive(slot0.titleFleet, slot1 == slot1 or slot1 == setActive)
+	slot0.init = nil
 
-	if slot1 == slot1 then
+	if slot1 == slot0 then
 		setActive(slot0.themePanel, true)
-
-		slot0.titleText.text = "FLEET"
-	elseif slot1 == slot2 then
+	elseif slot1 == slot1 then
 		slot0:emit(GuildMainMediator.OPEN_MEMBER)
-
-		slot0.titleText.text = "FLEET"
-	elseif slot1 == slot0 then
+	elseif slot1 == slot2 then
 		slot0:emit(GuildMainMediator.OPEN_APPLY)
-
-		slot0.titleText.text = "APPLY"
 	elseif slot1 == slot3 then
 		slot0:emit(GuildMainMediator.OPEN_ACTIVITY)
-
-		slot0.titleText.text = "ACTIVITY"
 	elseif slot1 == slot4 then
 		slot0:emit(GuildMainMediator.OPEN_BOSS_ACTIVITY, slot0.guildVO.faction)
-
-		slot0.titleText.text = "URGENCY EVENT"
 	elseif slot1 == slot5 then
-		setParent(slot0.blurPanel, slot0._tf)
+		slot0:unblurView()
 		slot0:emit(GuildMainMediator.OPEN_SHOP)
-
-		slot0.titleText.text = "SHOP"
 	elseif slot1 == slot6 then
 		slot0:emit(GuildMainMediator.OPEN_FACILITY)
-
-		slot0.titleText.text = "FACILITY"
 	end
 
 	if slot1 ~= slot5 then
@@ -394,7 +257,7 @@ function slot0.closePage(slot0, slot1)
 	elseif slot1 == slot4 then
 		slot0:emit(GuildMainMediator.CLOSE_BOSS_ACTIVITY)
 	elseif slot1 == slot5 then
-		setParent(slot0.blurPanel, slot0.overLay)
+		slot0:blurView()
 		slot0:emit(GuildMainMediator.CLOSE_SHOP)
 	elseif slot1 == slot6 then
 		slot0:emit(GuildMainMediator.CLOSE_FACILITY)
@@ -402,27 +265,27 @@ function slot0.closePage(slot0, slot1)
 end
 
 function slot0.updateTheme(slot0)
-	slot0.nameTF = slot0:findTF("infoPanel/name/Text", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.idTF = slot0:findTF("infoPanel/name/IDText", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.LevelTF = slot0:findTF("infoPanel/info/lvinfo/LvText", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.expTF = slot0:findTF("infoPanel/info/lvinfo/expText", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.expSlider = slot0:findTF("infoPanel/info/lvinfo/Slider", slot0.themePanel):GetComponent(typeof(Slider))
-	slot0.countTF = slot0:findTF("infoPanel/info/memberinfo/Text", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.polity = slot0:findTF("infoPanel/info/polityinfo/Text", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.courseinfo = slot0:findTF("infoPanel/info/courseinfo/Text", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.announce = slot0:findTF("infoPanel/announce/InputField", slot0.themePanel):GetComponent(typeof(InputField))
-	slot0.manifesto = slot0:findTF("infoPanel/desc/Text", slot0.themePanel):GetComponent(typeof(Text))
-	slot0.modifyBtn = slot0:findTF("infoPanel/modify", slot0.themePanel)
-	slot0.chatContent = slot0:findTF("dialogPanel/list/content", slot0.themePanel)
-	slot0.prefabOthers = slot0:findTF("dialogPanel/list/popo_others", slot0.themePanel)
-	slot0.prefabSelf = slot0:findTF("dialogPanel/list/popo_self", slot0.themePanel)
-	slot0.logContent = slot0:findTF("dialogPanel/system/list/content", slot0.themePanel)
-	slot0.prefabPublic = slot0:findTF("dialogPanel/system/popo_public", slot0.themePanel)
-	slot0.scroll = slot0:findTF("dialogPanel/system/list", slot0.themePanel):GetComponent(typeof(ScrollRect))
-	slot0.scrollChat = slot0:findTF("dialogPanel/list", slot0.themePanel):GetComponent(typeof(ScrollRect))
-	slot0.sendBtn = slot0:findTF("dialogPanel/bottom/send", slot0.themePanel)
-	slot0.emojiBtn = slot0:findTF("dialogPanel/bottom/emoji", slot0.themePanel)
-	slot0.msgInput = slot0:findTF("dialogPanel/bottom/inputbg/input", slot0.themePanel):GetComponent(typeof(InputField))
+	slot0.nameTF = slot0:findTF("infoPanel/top/name", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.idTF = slot0:findTF("infoPanel/top/number/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.LevelTF = slot0:findTF("infoPanel/top/level/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.expTF = slot0:findTF("infoPanel/top/exp/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.expSlider = slot0:findTF("infoPanel/top/exp/bar", slot0.themePanel)
+	slot0.countTF = slot0:findTF("infoPanel/bottom/memberinfo/value/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.polity = slot0:findTF("infoPanel/bottom/polityinfo/value/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.courseinfo = slot0:findTF("infoPanel/top/polityinfo/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.announce = slot0:findTF("infoPanel/bottom/announce/content/InputField", slot0.themePanel):GetComponent(typeof(InputField))
+	slot0.manifesto = slot0:findTF("infoPanel/bottom/desc/content/Text", slot0.themePanel):GetComponent(typeof(Text))
+	slot0.modifyBtn = slot0:findTF("infoPanel/top/modify", slot0.themePanel)
+	slot0.chatContent = slot0:findTF("dialogPanel/frame/bottom/list/content", slot0.themePanel)
+	slot0.prefabOthers = slot0:findTF("dialogPanel/frame/bottom/list/popo_other", slot0.themePanel)
+	slot0.prefabSelf = slot0:findTF("dialogPanel/frame/bottom/list/popo_self", slot0.themePanel)
+	slot0.logContent = slot0:findTF("dialogPanel/frame/top/content/list", slot0.themePanel)
+	slot0.prefabPublic = slot0:getTpl("dialogPanel/frame/top/content/list/popo_public", slot0.themePanel)
+	slot0.scroll = slot0:findTF("dialogPanel/frame/bottom/list", slot0.themePanel):GetComponent(typeof(ScrollRect))
+	slot0.scrollChat = slot0:findTF("dialogPanel/frame/top/content", slot0.themePanel):GetComponent(typeof(ScrollRect))
+	slot0.sendBtn = slot0:findTF("dialogPanel/frame/bottom/bottom/send", slot0.themePanel)
+	slot0.emojiBtn = slot0:findTF("dialogPanel/frame/bottom/bottom/emoji", slot0.themePanel)
+	slot0.msgInput = slot0:findTF("dialogPanel/frame/bottom/bottom/input", slot0.themePanel):GetComponent(typeof(InputField))
 	slot0.infoPanel = slot0:findTF("infoPanel", slot0.themePanel)
 	slot0.dialogPanel = slot0:findTF("dialogPanel", slot0.themePanel)
 
@@ -475,7 +338,7 @@ function slot0.updateTheme(slot0)
 		slot0.msgInput.text = ""
 	end, SFX_PANEL)
 	onButton(slot0, slot0.emojiBtn, function ()
-		slot0:emit(GuildMainMediator.OPEN_EMOJI, function (slot0)
+		slot0:emit(GuildMainMediator.OPEN_EMOJI, Vector3(slot0.emojiBtn.position.x, slot0.emojiBtn.position.y, 0), function (slot0)
 			slot0:emit(GuildMainMediator.SEND_MSG, string.gsub(ChatConst.EmojiCode, "code", slot0))
 		end)
 	end, SFX_PANEL)
@@ -495,6 +358,9 @@ function slot0.updateAdmin(slot0)
 end
 
 function slot0.showModifyPanel(slot0)
+	slot0:unblurView()
+	pg.UIMgr.GetInstance():BlurPanel(slot0.modifyPanel)
+
 	slot0.isShowModify = true
 
 	setActive(slot0.modifyPanel, true)
@@ -514,26 +380,175 @@ function slot0.showModifyPanel(slot0)
 		setText(slot0:findTF("timer_container/Text", slot0.factionMask), slot0.guildVO:changeFactionLeftTime())
 	end
 
-	slot0.policy = slot0.guildVO:getPolicy()
-
-	slot0:onSwitch(slot0.policyToggle, function (slot0)
-		slot0.policy = (slot0 and Guild.POLICY_TYPE_POWER) or Guild.POLICY_TYPE_RELAXATION
-	end)
-
 	slot0.faction = slot0.guildVO:getFaction()
 
-	slot0:onSwitch(slot0.factionToggle, function (slot0)
-		slot0.faction = (slot0 and Guild.FACTION_TYPE_BLHX) or Guild.FACTION_TYPE_CSZZ
-	end)
-	triggerToggle(slot0.policyToggle, slot0.guildVO:getPolicy() == Guild.POLICY_TYPE_POWER)
-	triggerToggle(slot0.factionToggle, slot0.guildVO:getFaction() == Guild.FACTION_TYPE_BLHX)
+	onToggle(slot0, slot0.factionBLHXToggle, function (slot0)
+		if slot0 then
+			slot0.faction = Guild.FACTION_TYPE_BLHX
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.factionCSZZToggle, function (slot0)
+		if slot0 then
+			slot0.faction = Guild.FACTION_TYPE_CSZZ
+		end
+	end, SFX_PANEL)
 
-	slot0.factionToggle:GetComponent(typeof(Toggle)).interactable = slot1
-	slot0.policyToggle:GetComponent(typeof(Toggle)).interactable = slot1
+	slot0.policy = slot0.guildVO:getPolicy()
+
+	onToggle(slot0, slot0.policyRELAXToggle, function (slot0)
+		if slot0 then
+			slot0.policy = Guild.POLICY_TYPE_RELAXATION
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.policyPOWERToggle, function (slot0)
+		if slot0 then
+			slot0.policy = Guild.POLICY_TYPE_POWER
+		end
+	end, SFX_PANEL)
+
+	if slot0.faction == Guild.FACTION_TYPE_BLHX then
+		triggerToggle(slot0.factionBLHXToggle, true)
+	elseif slot0.faction == Guild.FACTION_TYPE_CSZZ then
+		triggerToggle(slot0.factionCSZZToggle, true)
+	end
+
+	if slot0.policy == Guild.POLICY_TYPE_RELAXATION then
+		triggerToggle(slot0.policyRELAXToggle, true)
+	elseif slot0.policy == Guild.POLICY_TYPE_POWER then
+		triggerToggle(slot0.policyPOWERToggle, true)
+	end
+
+	slot0.policyPOWERToggle:GetComponent(typeof(Toggle)).interactable = slot1
+	slot0.policyRELAXToggle:GetComponent(typeof(Toggle)).interactable = slot1
+	slot0.factionCSZZToggle:GetComponent(typeof(Toggle)).interactable = slot1
+	slot0.factionBLHXToggle:GetComponent(typeof(Toggle)).interactable = slot1
+end
+
+function slot0.updateModifyPanel(slot0)
+	slot0.modifyPanel = findTF(slot0.themePanel, "modify_panel")
+	slot0.nameInput = findTF(slot0.modifyPanel, "frame/name_bg/input"):GetComponent(typeof(InputField))
+	slot0.factionBLHXToggle = findTF(slot0.modifyPanel, "frame/policy_container/faction/blhx")
+	slot0.factionCSZZToggle = findTF(slot0.modifyPanel, "frame/policy_container/faction/cszz")
+	slot0.policyRELAXToggle = findTF(slot0.modifyPanel, "frame/policy_container/policy/relax")
+	slot0.policyPOWERToggle = findTF(slot0.modifyPanel, "frame/policy_container/policy/power")
+	slot0.manifestoInput = findTF(slot0.modifyPanel, "frame/policy_container/input_frame/input"):GetComponent(typeof(InputField))
+	slot0.confirmBtn = findTF(slot0.modifyPanel, "frame/confirm_btn")
+	slot0.cancelBtn = findTF(slot0.modifyPanel, "frame/cancel_btn")
+	slot0.quitBtn = findTF(slot0.modifyPanel, "frame/quit_btn")
+	slot0.dissolveBtn = findTF(slot0.modifyPanel, "frame/dissolve_btn")
+	slot0.factionMask = findTF(slot0.modifyPanel, "frame/policy_container/faction/mask")
+	slot0.costTF = findTF(slot0.modifyPanel, "frame/confirm_btn/print_container/Text"):GetComponent(typeof(Text))
+	slot1 = pg.gameset.modify_guild_cost.key_value or 0
+	slot0.costTF.text = 0
+	slot0.modifyBackBG = slot0:findTF("bg_decorations", slot0.modifyPanel)
+
+	setActive(slot0.modifyPanel, false)
+	onButton(slot0, slot0.cancelBtn, function ()
+		slot0:closeModifyPanel()
+	end, SFX_CANCEL)
+	onButton(slot0, slot0.dissolveBtn, function ()
+		if slot0.guildVO then
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("guild_tip_dissolve"),
+				onYes = function ()
+					slot0:emit(GuildMainMediator.DISSOLVE, slot0.guildVO.id)
+				end
+			})
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.quitBtn, function ()
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("guild_tip_quit"),
+			onYes = function ()
+				slot0:emit(GuildMainMediator.QUIT, slot0.guildVO.id)
+			end
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.modifyBackBG, function ()
+		slot0:closeModifyPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.confirmBtn, function ()
+		slot2 = slot0.manifestoInput.text
+
+		if not slot0.nameInput.text or slot1 == "" then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_noname"))
+
+			return
+		end
+
+		if not nameValidityCheck(slot1, 0, 20, {
+			"spece_illegal_tip",
+			"login_newPlayerScene_name_tooShort",
+			"login_newPlayerScene_name_tooLong",
+			"err_name_existOtherChar"
+		}) then
+			return
+		end
+
+		if slot1 ~= slot0.guildVO:getName() and getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.modify_guild_cost.key_value then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_rmb"))
+
+			return
+		end
+
+		if not slot2 or slot2 == "" then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_create_error_nomanifesto"))
+
+			return
+		end
+
+		slot0:setName(slot1)
+		slot0:setPolicy(slot0.policy)
+		slot0:setFaction(slot0.faction)
+		slot0:setManifesto(slot2)
+
+		function slot3()
+			if slot0:getPolicy() ~= slot1.guildVO:getPolicy() then
+				slot1:emit(GuildMainMediator.MODIFY, 3, slot0:getPolicy(), "")
+
+				slot0 = true
+			end
+
+			if slot0:getManifesto() ~= slot1.guildVO:getManifesto() then
+				slot1:emit(GuildMainMediator.MODIFY, 4, 0, slot0:getManifesto())
+
+				slot0 = true
+			end
+
+			if slot0:getName() ~= slot1.guildVO:getName() then
+				slot1:emit(GuildMainMediator.MODIFY, 1, 0, slot0:getName())
+
+				slot0 = true
+			end
+
+			if not slot0 then
+				slot1:closeModifyPanel()
+			end
+		end
+
+		if slot0:getFaction() ~= slot0.guildVO:getFaction() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("guild_faction_change_tip"),
+				onYes = function ()
+					slot0()
+					slot1:emit(GuildMainMediator.MODIFY, 2, slot2:getFaction(), "")
+				end
+			})
+		else
+			slot3()
+		end
+	end, SFX_CONFIRM)
+	slot2(slot0.nameInput)
+	slot2(slot0.manifestoInput)
+	slot0:updateAllLog(slot0.logs)
+	slot0:updateAllChat(slot0.chatMsgs)
 end
 
 function slot0.closeModifyPanel(slot0)
 	if slot0.isShowModify then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.modifyPanel, slot0.themePanel)
+		slot0:blurView()
+
 		slot0.isShowModify = nil
 
 		setActive(slot0.modifyPanel, false)
@@ -549,14 +564,15 @@ function slot0.updateGuildInfo(slot0, slot1)
 
 	slot0.nameTF.text = slot1:getName()
 	slot0.idTF.text = slot1.id
-	slot0.LevelTF.text = slot1.level
+	slot0.LevelTF.text = (slot1.level <= 9 and "0" .. slot1.level) or slot1.level
 	slot0.expTF.text = slot1.exp .. "/" .. slot1:getLevelMaxExp()
 	slot0.countTF.text = slot1.memberCount .. "/" .. slot1:getMaxMember()
-	slot0.polity.text = slot1:getFactionName()
-	slot0.courseinfo.text = slot1:getPolicyName()
+	slot0.polity.text = slot1:getPolicyName()
+	slot0.courseinfo.text = slot1:getFactionName()
 	slot0.manifesto.text = slot1.manifesto
 	slot0.announce.text = slot1.announce
-	slot0.expSlider.value = slot1.exp / math.max(slot1:getLevelMaxExp(), 1)
+
+	setFillAmount(slot0.expSlider, slot1.exp / math.max(slot1:getLevelMaxExp(), 1))
 end
 
 function slot0.updateAllChat(slot0, slot1)
@@ -598,19 +614,24 @@ function slot0.append(slot0, slot1, slot2, slot3)
 end
 
 function slot0.appendWorld(slot0, slot1, slot2)
-	slot4 = slot0.prefabOthers
+	slot5 = slot0.prefabOthers
 
-	if slot1.player.id == slot0.playerVO.id then
-		slot4 = slot0.prefabSelf
+	if Clone(slot1).player.id == slot0.playerVO.id then
+		slot5 = slot0.prefabSelf
+		slot3.player = setmetatable(Clone(slot0.playerVO), {
+			__index = slot3.player
+		})
 	end
 
-	slot6 = ChatBubble.New(slot5)
+	slot7 = GuildChatBubble.New(slot6)
 
 	if slot2 >= 0 then
-		slot6.tf:SetSiblingIndex(slot2)
+		slot7.tf:SetSiblingIndex(slot2)
 	end
 
-	slot6:update(slot1)
+	slot3.isSelf = slot4.id == slot0.playerVO.id
+
+	slot7:update(slot3)
 end
 
 function slot0.updateAllLog(slot0, slot1)
@@ -649,6 +670,14 @@ function slot0.appendLog(slot0, slot1, slot2)
 	end
 end
 
+function slot0.unblurView(slot0)
+	return
+end
+
+function slot0.blurView(slot0)
+	return
+end
+
 function slot0.willExit(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
@@ -661,6 +690,7 @@ function slot0.willExit(slot0)
 	end
 
 	setParent(slot0.blurPanel, slot0._tf)
+	slot0:unblurView()
 end
 
 return slot0

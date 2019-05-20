@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -220,7 +220,7 @@ return {
 			say = "轰隆隆隆隆隆隆",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -303,12 +303,12 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 100,
-				y = 500
+				x = 150,
+				y = 750
 			},
 			action = {
 				{
-					y = -1100,
+					y = -1650,
 					type = "move",
 					delay = 1.5,
 					dur = 2.5,
@@ -379,8 +379,8 @@ return {
 			actorName = "绊爱(巨大化)",
 			say = "………",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			actorName = "绊爱(巨大化)",
 			say = "哈啊……好累，真的好累～为什么我会在这种地方战斗呢……说到底我本来就只是和平时一样在录动画而已，变成这样不是很奇怪吗？",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			actorName = "绊爱(巨大化)",
 			say = "甚至身体还突然变大了……不如就这样把这个世界彻底破坏掉，没准就能回到原来的世界了？",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -603,7 +603,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

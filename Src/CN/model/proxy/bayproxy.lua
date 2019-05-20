@@ -2,7 +2,6 @@ slot0 = class("BayProxy", import(".NetProxy"))
 slot0.SHIP_ADDED = "ship added"
 slot0.SHIP_REMOVED = "ship removed"
 slot0.SHIP_UPDATED = "ship updated"
-slot0.SHIP_SKINS_UPDATE = "ship skins update"
 
 function slot0.register(slot0)
 	slot0:on(12001, function (slot0)
@@ -59,15 +58,6 @@ function slot0.register(slot0)
 
 		slot2:setLikability(slot0.intimacy)
 		slot1:updateShip(slot2)
-	end)
-
-	slot0.skins = {}
-	slot0.oldSkins = {}
-
-	slot0:on(12201, function (slot0)
-		slot0.skins = _.map(slot0.skins, function (slot0)
-			return slot0
-		end)
 	end)
 
 	slot0.handbookTypeAssign = {}
@@ -201,7 +191,7 @@ function slot0.getShipsByFleet(slot0, slot1)
 		table.insert(slot2, slot0.data[slot7])
 	end
 
-	return Clone(slot2)
+	return slot2
 end
 
 function slot0.getSortShipsByFleet(slot0, slot1)
@@ -215,7 +205,7 @@ function slot0.getSortShipsByFleet(slot0, slot1)
 		table.insert(slot2, slot0.data[slot7])
 	end
 
-	return Clone(slot2)
+	return slot2
 end
 
 function slot0.getShipByTeam(slot0, slot1, slot2)
@@ -281,7 +271,7 @@ function slot0.getShips(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	return Clone(slot1)
+	return slot1
 end
 
 function slot0.getShipCount(slot0)
@@ -376,91 +366,47 @@ function slot0.getBayPower(slot0)
 	return math.floor(slot2)
 end
 
-function slot0.getSkinList(slot0)
-	return Clone(slot0.skins)
-end
-
-function slot0.getOldSkinList(slot0)
-	return Clone(slot0.oldSkins)
-end
-
-function slot0.setSkinList(slot0, slot1)
-	slot0.oldSkins = Clone(slot0.skins)
-	slot0.skins = Clone(slot1)
-
-	slot0.facade:sendNotification(slot0.SHIP_SKINS_UPDATE)
-end
-
-function slot0.addSkin(slot0, slot1)
-	slot0.oldSkins = Clone(slot0.skins)
-
-	table.insert(slot0.skins, slot1)
-	slot0.facade:sendNotification(slot0.SHIP_SKINS_UPDATE)
-end
-
-function slot0.removeSkinById(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.skins) do
-		if slot6 == slot1 then
-			table.remove(slot0.skins, slot5)
-
-			break
-		end
-	end
-end
-
-function slot0.hasSkin(slot0, slot1)
-	return table.contains(slot0.skins, slot1)
-end
-
-function slot0.hasOldSkin(slot0, slot1)
-	return table.contains(slot0.oldSkins, slot1)
-end
-
-function slot0.getSkinCountById(slot0, slot1)
-	slot2 = 0
-
-	for slot6, slot7 in ipairs(slot0.skins) do
-		if slot7 == slot1 then
-			slot2 = slot2 + 1
-		end
-	end
-
-	return slot2
+function slot0.getBayPowerRooted(slot0)
+	return slot0:getBayPower()^0.667
 end
 
 function slot0.getEquipsInShips(slot0, slot1, slot2)
-	slot3 = {}
+	function slot3(slot0, slot1, slot2)
+		slot0.shipId = slot1
+		slot0.shipPos = slot2
 
-	for slot7, slot8 in pairs(slot0.data) do
-		if not slot1 or slot1.id ~= slot8.id then
-			for slot12, slot13 in pairs(slot8.equipments) do
-				if slot13 and (not slot1 or not slot2 or not slot1:isForbiddenAtPos(slot13, slot2)) then
-					slot13.shipId = slot8.id
-					slot13.shipPos = slot12
+		return slot0
+	end
 
-					table.insert(slot3, slot13)
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot0.data) do
+		if not slot1 or slot1.id ~= slot9.id then
+			for slot13, slot14 in pairs(slot9.equipments) do
+				if slot14 and (not slot1 or not slot2 or not slot1:isForbiddenAtPos(slot14, slot2)) then
+					table.insert(slot4, slot3(Clone(slot14), slot9.id, slot13))
 				end
 			end
 		end
 	end
 
-	return Clone(slot3)
+	return slot4
 end
 
 function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
-	slot3 = {}
-
-	function slot4(slot0)
+	function slot3(slot0)
 		return _.any(pg.equip_skin_template[slot0].equip_type, function (slot0)
-			return slot0 == slot0
+			return not slot0 or slot0 == slot0
 		end)
 	end
+
+	slot4 = {}
 
 	for slot8, slot9 in pairs(slot0.data) do
 		if not slot1 or slot1.id ~= slot9.id then
 			for slot13, slot14 in pairs(slot9.equipments) do
-				if slot14 and slot14:hasSkin() and slot4(slot14.skinId, slot2) then
-					table.insert(slot3, {
+				if slot14 and slot14:hasSkin() and slot3(slot14.skinId) then
+					table.insert(slot4, {
 						id = slot14.skinId,
 						shipId = slot9.id,
 						shipPos = slot13
@@ -470,7 +416,7 @@ function slot0.getEquipmentSkinInShips(slot0, slot1, slot2)
 		end
 	end
 
-	return Clone(slot3)
+	return slot4
 end
 
 function slot0.setSelectShipId(slot0, slot1)
@@ -604,74 +550,81 @@ function slot0.getActivityRecommendShips(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getDelegationRecommendShips(slot0, slot1)
-	slot3 = math.max(slot1.template.ship_lv, 2)
+	slot2 = 6 - #slot1.shipIds
+	slot4 = math.max(slot1.template.ship_lv, 2)
 
-	table.sort(slot5, function (slot0, slot1)
+	table.sort(slot6, function (slot0, slot1)
 		return slot1.level < slot0.level
 	end)
 
-	slot6 = {}
-	slot7 = false
+	slot7 = {}
+	slot8 = false
 
-	for slot11, slot12 in ipairs(slot4) do
-		if slot3 <= slot0.data[slot12].level then
-			slot7 = true
+	for slot12, slot13 in ipairs(slot5) do
+		if slot4 <= slot0.data[slot13].level then
+			slot8 = true
 		end
 
-		slot6[#slot6 + 1] = slot13:getGroupId()
+		slot7[#slot7 + 1] = slot14:getGroupId()
 	end
 
-	slot8 = getProxy(EventProxy):getActiveShipIds()
-	slot9 = getProxy(FleetProxy):getAllShipIds()
-	slot10 = {}
+	slot9 = getProxy(EventProxy):getActiveShipIds()
+	slot10 = getProxy(FleetProxy):getAllShipIds()
+	slot11 = {}
 
-	for slot15, slot16 in ipairs(slot11) do
-		for slot20, slot21 in pairs(slot16:getChapters()) do
-			for slot25, slot26 in ipairs(slot21:getInEliteShipIDs()) do
-				table.insert(slot10, slot26)
+	for slot16, slot17 in ipairs(slot12) do
+		for slot22, slot23 in pairs(slot18) do
+			for slot28, slot29 in ipairs(slot24) do
+				table.insert(slot11, slot29)
 			end
 
 			break
 		end
 	end
 
-	slot12 = {}
+	slot13 = {}
 
-	for slot17, slot18 in ipairs(slot13) do
-		for slot22, slot23 in pairs(slot18:getChapters()) do
-			for slot27, slot28 in ipairs(slot23:getInEliteShipIDs()) do
-				table.insert(slot12, slot28)
+	for slot18, slot19 in ipairs(slot14) do
+		for slot24, slot25 in pairs(slot20) do
+			for slot30, slot31 in ipairs(slot26) do
+				table.insert(slot13, slot31)
 			end
 		end
 	end
 
-	slot14 = {}
+	slot15 = {}
 
-	for slot20, slot21 in pairs(slot16) do
-		for slot25, slot26 in pairs(slot21) do
-			for slot31, slot32 in ipairs(slot27) do
-				table.insert(slot14, slot32)
+	for slot21, slot22 in pairs(slot17) do
+		for slot26, slot27 in pairs(slot22) do
+			for slot32, slot33 in ipairs(slot28) do
+				table.insert(slot15, slot33)
 			end
 		end
 	end
 
-	if slot7 then
-		slot3 = 2
+	if slot8 then
+		slot4 = 2
 	end
 
-	slot17 = #slot5
-	slot18 = nil
+	slot18 = {}
+	slot19 = #slot6
 
-	while slot17 > 0 do
-		slot20 = slot5[slot17].id
-		slot21 = slot5[slot17].getGroupId(slot19)
-
-		if slot3 <= slot5[slot17].level and not slot19:isActivityNpc() and slot19.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot4, slot20) and not table.contains(slot8, slot20) and not table.contains(slot9, slot20) and not table.contains(slot10, slot20) and not table.contains(slot12, slot20) and not table.contains(slot14, slot20) and not table.contains(slot6, slot21) then
-			slot18 = slot19
-
+	while slot19 > 0 do
+		if slot2 <= 0 then
 			break
+		end
+
+		slot21 = slot6[slot19].id
+		slot22 = slot6[slot19].getGroupId(slot20)
+
+		if slot4 <= slot6[slot19].level and not slot20:isActivityNpc() and slot20.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot7, slot22) and not table.contains(slot5, slot21) and not table.contains(slot9, slot21) and not table.contains(slot10, slot21) and not table.contains(slot11, slot21) and not table.contains(slot13, slot21) and not table.contains(slot18, slot21) then
+			table.insert(slot7, slot22)
+			table.insert(slot9, slot21)
+			table.insert(slot18, slot21)
+
+			slot2 = slot2 - 1
 		else
-			slot17 = slot17 - 1
+			slot19 = slot19 - 1
 		end
 	end
 
@@ -693,8 +646,8 @@ function slot0.fileterShips(slot0, slot1)
 		end)
 	end
 
-	if defaultValue(slot1.inChallenge, false) then
-		_.each(getProxy(ChallengeProxy).getCurrentChallengeInfo(slot6).getShips(slot7), function (slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot5:isEnd() and defaultValue(slot1.inChallenge, false) then
+		_.each(getProxy(ChallengeProxy).getCurrentChallengeInfo(slot7).getShips(slot8), function (slot0)
 			table.insert(slot0, slot0.id)
 		end)
 	end
@@ -791,8 +744,7 @@ function slot0.getBlackBlackShipIds(slot0, slot1, slot2)
 		})
 	elseif slot1 == ClassMediator.__cname then
 		slot3 = slot0:fileterShips({
-			inClass = true,
-			inBackyard = true
+			inClass = true
 		})
 	end
 

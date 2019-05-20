@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特别庆典·开幕！\n\n<size=30>五　埃塞克斯与企业</size>",
+					"特别庆典·开幕！\n\n<size=45>五　埃塞克斯与企业</size>",
 					1
 				}
 			}
@@ -440,7 +440,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -523,7 +523,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -540,7 +540,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1,
 					dur = 0.1,
@@ -557,7 +557,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,
@@ -589,7 +589,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -616,7 +616,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -646,7 +646,7 @@ return {
 					type = "move",
 					delay = 0.2,
 					dur = 0.8,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -668,7 +668,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

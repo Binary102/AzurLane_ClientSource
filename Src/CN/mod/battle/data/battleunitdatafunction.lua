@@ -118,7 +118,7 @@ ys or .Battle.BattleDataFunction.InitUnitSkill = function (slot0, slot1)
 		end
 
 		if not slot10 then
-			slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot8.id, slot8.level))
+			slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot8.id, slot8.level, slot1))
 		end
 	end
 
@@ -140,6 +140,10 @@ ys or .Battle.BattleDataFunction.InitEquipSkill = function (slot0, slot1, slot2)
 				slot10 = slot1.GetWeaponDataFromID(slot9).skill_id
 			end
 
+			if type(slot8.equipmentInfo) == "table" then
+				slot10 = table.merge(slot10, slot8.equipmentInfo:GetAffixBuffList(), true)
+			end
+
 			for slot14, slot15 in ipairs(slot10) do
 				slot17 = false
 
@@ -154,7 +158,7 @@ ys or .Battle.BattleDataFunction.InitEquipSkill = function (slot0, slot1, slot2)
 				end
 
 				if not slot17 then
-					slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot15))
+					slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot15, 1, slot1))
 				end
 			end
 		end
@@ -184,7 +188,7 @@ ys or .Battle.BattleDataFunction.InitCommanderSkill = function (slot0, slot1)
 		end
 
 		if not slot9 then
-			slot10 = slot0.Battle.BattleBuffUnit.New(slot7.id, slot7.level)
+			slot10 = slot0.Battle.BattleBuffUnit.New(slot7.id, slot7.level, slot1)
 
 			slot10:SetCommander(slot7.commander)
 			slot1:AddBuff(slot10)
@@ -246,6 +250,10 @@ ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot
 														else
 															if slot6.type == slot1.EquipmentType.REPEATER_ANTI_AIR then
 																slot5 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
+															else
+																if slot6.type == slot1.EquipmentType.DISPOSABLE_TORPEDO then
+																	slot5 = slot2.Battle.BattleDisposableTorpedoUnit.New()
+																end
 															end
 														end
 													end

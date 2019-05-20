@@ -8,12 +8,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.3,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.3
-					}
+					quota = 1
 				}
 			}
 		}
@@ -27,12 +25,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.33,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.33
-					}
+					quota = 1
 				}
 			}
 		}
@@ -46,12 +42,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.36,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.36
-					}
+					quota = 1
 				}
 			}
 		}
@@ -65,12 +59,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.39,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.39
-					}
+					quota = 1
 				}
 			}
 		}
@@ -84,12 +76,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.43,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.43
-					}
+					quota = 1
 				}
 			}
 		}
@@ -103,12 +93,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.47,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.47
-					}
+					quota = 1
 				}
 			}
 		}
@@ -122,12 +110,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.52,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.52
-					}
+					quota = 1
 				}
 			}
 		}
@@ -141,12 +127,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.57,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.57
-					}
+					quota = 1
 				}
 			}
 		}
@@ -160,12 +144,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.63,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.63
-					}
+					quota = 1
 				}
 			}
 		}
@@ -179,12 +161,10 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
+					hpUpperBound = 0.7,
 					skill_id = 10970,
 					target = "TargetSelf",
-					quota = 1,
-					hpRatioList = {
-						0.7
-					}
+					quota = 1
 				}
 			}
 		}
@@ -208,12 +188,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.3,
 				skill_id = 10970,
 				target = "TargetSelf",
-				quota = 1,
-				hpRatioList = {
-					0.3
-				}
+				quota = 1
 			}
 		}
 	}

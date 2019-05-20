@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>一  {namecode:96}的早晨</size>",
+					"幸运之鹤\n\n<size=45>一  {namecode:96}的早晨</size>",
 					1
 				}
 			}
@@ -167,11 +167,11 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 1.2,
-					x = 20,
+					x = 30,
 					number = 1
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,

@@ -10,33 +10,32 @@ function slot0.setItems(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
-	slot0.UIMgr:BlurPanel(slot0._tf)
+	slot0.mainPanel = slot0:findTF("main")
+	slot0.finishPanel = slot0:findTF("finish_panel")
 
-	slot0.mask = slot0:findTF("mask")
-	slot0.equipmentList = slot0:findTF("main/equipment_list")
+	setActive(slot0.mainPanel, true)
+	setActive(slot0.finishPanel, false)
+
+	slot0.equipmentList = slot0:findTF("panel/equipment_list", slot0.mainPanel)
 	slot0.equipmentContain = slot0:findTF("equipments", slot0.equipmentList)
 	slot0.equipmentTpl = slot0:getTpl("equiptpl", slot0.equipmentContain)
 
 	setActive(slot0.equipmentList, false)
 
-	slot0.equipmentPanel = slot0:findTF("main/equipment_panel")
-	slot0.materialPanel = slot0:findTF("main/material_panel")
+	slot0.equipmentPanel = slot0:findTF("panel/equipment_panel", slot0.mainPanel)
+	slot0.materialPanel = slot0:findTF("panel/material_panel", slot0.mainPanel)
 	slot0.startBtn = slot0:findTF("start_btn", slot0.materialPanel)
-	slot0.notActiveBtn = slot0:findTF("not_active", slot0.startBtn)
-	slot0.finishPanel = slot0:findTF("finish_panel")
-
-	setActive(slot0.finishPanel, false)
-
 	slot0.overLimit = slot0:findTF("materials/limit", slot0.materialPanel)
 
-	setText(slot0.overLimit, i18n("equipment_upgrade_overlimit"))
+	setText(slot0:findTF("text", slot0.overLimit), i18n("equipment_upgrade_overlimit"))
 
 	slot0.materialsContain = slot0:findTF("materials/materials", slot0.materialPanel)
 	slot0.uiMain = pg.UIMgr:GetInstance().UIMain
 	slot0.Overlay = pg.UIMgr:GetInstance().OverlayMain
-	slot0.isShowUnique = table.contains(EquipmentInfoMediator.SHOW_UNIQUE, 5)
 end
 
 function slot0.updateRes(slot0, slot1)
@@ -44,21 +43,16 @@ function slot0.updateRes(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	if slot0:findTF("ShipInfoUI2(Clone)", slot0.uiMain) and isActive(slot1) then
-		slot0.common = slot0:findTF("common", slot0.Overlay)
-
-		SetParent(slot0.common, slot1)
-	end
-
-	onButton(slot0, slot0.mask, function ()
+	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:updateAll()
 end
 
 function slot0.updateAll(slot0)
+	setActive(slot0.equipmentList, slot0.contextData.shipVO)
+
 	if slot0.contextData.shipVO then
-		setActive(slot0.equipmentList, true)
 		slot0:displayEquipments()
 		triggerButton(slot0.equipmentTFs[slot0.contextData.pos])
 	else
@@ -124,22 +118,10 @@ end
 function slot0.updateEquipment(slot0)
 	slot0.contextData.equipmentId = slot0.contextData.equipmentVO.id
 
-	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, (slot0.contextData.equipmentVO.config.next > 0 and Equipment.New({
-		id = slot2.config.next
-	})) or nil)
-
-	slot4 = findTF(slot0.equipmentPanel, "name_container/name"):GetComponent(typeof(Text))
-	slot4.text = slot2.config.name
-	slot4.fontSize = 24 - (string.len(slot4.text) - 10) / 10
-
-	setActive(findTF(slot0.equipmentPanel, "name_container/unique"), slot2:isUnique() and slot0.isShowUnique)
-	updateEquipment(setActive, slot2)
-
-	slot6 = Equipment.canUpgrade(slot2.id)
-
-	setActive(slot0.notActiveBtn, not slot6)
-	setButtonEnabled(slot0.startBtn, slot6)
-	setActive(slot0.overLimit, not slot6)
+	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, (slot0.contextData.equipmentVO.config.next > 0 and slot2:MigrateTo(slot2.config.next)) or nil)
+	setText(findTF(slot0.equipmentPanel, "name_container"), slot2.config.name)
+	setActive(findTF(slot0.equipmentPanel, "unique"), slot2:isUnique())
+	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot2)
 end
 
 function slot0.updateAttrs(slot0, slot1, slot2, slot3)
@@ -148,81 +130,85 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 	slot6 = 0
 
 	function slot7(slot0)
-		setActive(slot3, slot1)
-		setActive(findTF(slot2, "lock"), not (slot1 + 1))
+		setActive(findTF(findTF, "attr_" .. slot1), slot1 + 1)
 
 		if slot1 + 1 then
-			slot5 = findTF(slot3, "tag")
-			slot6 = findTF(slot3, "from")
-			slot7 = findTF(slot3, ">")
-			slot8 = findTF(slot3, "to")
+			slot4 = findTF(slot2, "from")
+			slot5 = findTF(slot2, ">")
+			slot6 = findTF(slot2, "to")
 
-			setActive(slot9, false)
+			setActive(slot7, false)
 
-			slot10 = nil
+			slot8 = nil
 
 			if slot3.config.type ~= EquipType.Equipment and slot1.type == AttributeType.Reload then
-				slot11 = nil
+				slot9 = nil
 
 				if slot4.contextData.shipVO then
-					setText(slot5, AttributeType.Type2Name(AttributeType.CD))
+					setText(slot3, AttributeType.Type2Name(AttributeType.CD))
 
-					slot11 = slot4.contextData.shipVO:calcWeaponCD(slot3)
-					slot10 = (slot5 and slot4.contextData.shipVO:calcWeaponCD(slot5)) or nil
+					slot9 = slot4.contextData.shipVO:calcWeaponCD(slot3)
+					slot8 = (slot5 and slot4.contextData.shipVO:calcWeaponCD(slot5)) or nil
 				else
-					setText(slot5, i18n("cd_normal"))
+					setText(slot3, i18n("cd_normal"))
 
-					slot11 = slot3:getWeaponCD()
-					slot10 = (slot5 and slot5:getWeaponCD()) or nil
-					slot12 = 0
+					slot9 = slot3:getWeaponCD()
+					slot8 = (slot5 and slot5:getWeaponCD()) or nil
+					slot10 = 0
 				end
 
-				if slot10 then
-					setActive(slot9, true)
+				if slot8 then
+					setActive(slot7, true)
 
-					slot12 = slot10 - slot11
+					slot10 = slot8 - slot9
 				end
 
-				slot13 = (math.abs(slot12) < 0.01 and math.abs(slot12) ~= 0 and "%.3f") or "%.2f"
+				slot11 = (math.abs(slot10) < 0.01 and math.abs(slot10) ~= 0 and "%.3f") or "%.2f"
 
-				setText(slot6, slot14 .. "s" .. i18n("word_secondseach"))
+				setText(slot4, slot12 .. "s" .. i18n("word_secondseach"))
 
-				if slot10 then
-					setText(slot8, slot15 .. "s" .. i18n("word_secondseach"))
-					setText(slot9, string.format(slot13, slot14 - string.format(slot13, slot10)))
+				if slot8 then
+					setText(slot6, slot13 .. "s" .. i18n("word_secondseach"))
+					setText(slot7, string.format(slot11, slot12 - string.format(slot11, slot8)))
 				else
-					setText(slot8, "")
-					setText(slot9, "")
+					setText(slot6, "")
+					setText(slot7, "")
 				end
 			else
-				setText(slot6, slot1.value)
-				setText(slot5, AttributeType.Type2Name(slot1.type))
+				setText(slot4, slot1.value)
+				setText(slot3, AttributeType.Type2Name(slot1.type))
 
 				if (slot6 and slot6[slot0]) or nil then
-					if type(slot1.value) == "number" and slot10.value ~= slot1.value then
-						setActive(slot9, true)
-						setText(slot9, slot10.value - slot1.value)
-					elseif string.match(slot1.value, "%d+") ~= string.match(slot10.value, "%d+") then
-						setActive(slot9, true)
-						setText(slot9, slot12 - slot11)
+					if type(slot1.value) == "number" and slot8.value ~= slot1.value then
+						setActive(slot7, true)
+						setText(slot7, slot8.value - slot1.value)
+					elseif string.match(slot1.value, "%d+") ~= string.match(slot8.value, "%d+") then
+						setActive(slot7, true)
+						setText(slot7, slot10 - slot9)
 					end
 
-					setText(slot8, slot10.value)
+					setText(slot6, slot8.value)
 				end
 			end
 
-			setActive(slot8, slot10)
-			setActive(slot7, slot10)
+			setActive(slot6, slot8)
+			setActive(slot5, slot8)
 		end
 	end
 
 	if slot2.config.type == EquipType.Equipment then
-		for slot11 = 1, 2, 1 do
-			slot7(slot11)
+		for slot11, slot12 in ipairs({
+			1,
+			2
+		}) do
+			slot7(slot12)
 		end
 	else
-		for slot11 = 1, 4, 3 do
-			slot7(slot11)
+		for slot11, slot12 in ipairs({
+			1,
+			4
+		}) do
+			slot7(slot12)
 		end
 	end
 end
@@ -230,42 +216,41 @@ end
 function slot0.updateMaterials(slot0)
 	slot1 = true
 	slot4 = slot0.contextData.equipmentVO.config.trans_use_gold
+	slot3 = defaultValue(slot0.contextData.equipmentVO.config.trans_use_item, {})
 
-	removeAllChildren(slot0.materialsContain)
+	for slot8 = 1, 3, 1 do
+		setActive(findTF(slot9, "off"), not slot3[slot8])
+		setActive(findTF(slot9, "equiptpl"), slot3[slot8])
 
-	if not slot0.contextData.equipmentVO.config.trans_use_item then
-		return
-	end
+		if slot3[slot8] then
+			updateItem(slot11, Item.New({
+				id = slot3[slot8][1]
+			}))
 
-	for slot8 = 1, #slot3, 1 do
-		updateItem(slot10, Item.New({
-			id = slot3[slot8][1]
-		}))
+			slot13 = defaultValue(slot0.itemVOs[slot3[slot8][1]], {
+				count = 0
+			}).count .. "/" .. slot3[slot8][2]
 
-		slot12 = defaultValue(slot0.itemVOs[slot3[slot8][1]], {
-			count = 0
-		}).count .. "/" .. slot3[slot8][2]
+			if defaultValue(slot0.itemVOs[slot3[slot8][1]], ).count < slot3[slot8][2] then
+				slot13 = setColorStr(slot12.count, COLOR_RED) .. "/" .. slot3[slot8][2]
+				slot1 = false
+			end
 
-		if defaultValue(slot0.itemVOs[slot3[slot8][1]], ).count < slot3[slot8][2] then
-			slot12 = setColorStr(slot11.count, COLOR_RED) .. "/" .. slot3[slot8][2]
-			slot1 = false
+			setActive(slot14, true)
+			setText(slot14, slot13)
+			onButton(slot0, slot11, function ()
+				slot0:emit(slot1.ON_ITEM, )
+			end, SFX_PANEL)
 		end
-
-		setActive(slot13, true)
-		setText(slot13, slot12)
-		onButton(slot0, slot10, function ()
-			slot0:emit(slot1.ON_ITEM, )
-		end, SFX_PANEL)
-	end
-
-	for slot8 = #slot3 + 1, 3, 1 do
-		setActive(findTF(slot9, "icon_bg"), false)
-		setImageColor(findTF(slot9, "bg"), Color.New(0.5, 0.5, 0.5))
 	end
 
 	setText(slot0:findTF("cost/consume", slot0.materialPanel), slot4)
 	setActive(slot0.startBtn, slot3)
+
+	slot5 = Equipment.canUpgrade(slot2.configId)
+
 	setActive(slot0.materialsContain, slot5)
+	setActive(slot0.overLimit, not slot5)
 	onButton(slot0, slot0.startBtn, function ()
 		if not slot0 then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_noMaterail"))
@@ -287,30 +272,24 @@ function slot0.updateMaterials(slot0)
 
 		slot1:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
 	end, SFX_UI_DOCKYARD_REINFORCE)
+	setButtonEnabled(slot0.startBtn, slot5)
 end
 
 function slot0.upgradeFinish(slot0, slot1, slot2)
-	SetParent(slot0.finishPanel, slot0.Overlay)
-	SetParent(slot0._tf, slot0.uiMain)
+	setActive(slot0.mainPanel, false)
 	setActive(slot0.finishPanel, true)
 	onButton(slot0, slot0.finishPanel, function ()
+		setActive(slot0.mainPanel, true)
 		setActive(slot0.finishPanel, false)
-		SetParent(slot0.finishPanel, slot0._tf)
-		SetParent(slot0._tf, slot0.Overlay)
 	end, SFX_CANCEL)
-	setText(findTF(slot0.finishPanel, "frame/name_container/name"), slot2.config.name)
-	setActive(findTF(slot0.finishPanel, "frame/name_container/unique"), slot2:isUnique() and slot0.isShowUnique)
-	updateEquipment(setActive, slot2)
-	slot0:updateAttrs(slot0:findTF("frame/attrs", slot0.finishPanel), slot1, slot2)
+	setText(findTF(slot0.finishPanel, "frame/equipment_panel/name_container"), slot2.config.name)
+	setActive(findTF(slot0.finishPanel, "frame/equipment_panel/unique"), slot2:isUnique())
+	updateEquipment(slot3, slot2)
+	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/attrs", slot0.finishPanel), slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UImain)
-	SetParent(slot0.finishPanel, slot0._tf)
-
-	if slot0.common then
-		SetParent(slot0.common, slot0.Overlay)
-	end
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

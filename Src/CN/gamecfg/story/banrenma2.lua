@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"半人马与港区的“前辈”们\n\n<size=30>二　过于认真的半人马</size>",
+					"半人马与港区的“前辈”们\n\n<size=45>二　过于认真的半人马</size>",
 					1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -295,7 +295,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=30>一 幼小的访客</size>",
+					"明日的淑女\n\n<size=45>一 幼小的访客</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			say = "好！去找{namecode:98}姐姐说的“指挥官”报到吧～",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -185,7 +185,7 @@ return {
 				{
 					actor = 205010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

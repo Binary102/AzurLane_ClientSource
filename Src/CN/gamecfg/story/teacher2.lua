@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=30>二 尼特最后的尊严</size>",
+					"36年Z组 Z23老师\n\n<size=45>二 尼特最后的尊严</size>",
 					1
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=30>四  {namecode:96}与大前辈</size>",
+					"幸运之鹤\n\n<size=45>四  {namecode:96}与大前辈</size>",
 					1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 3,
 					type = "shake"

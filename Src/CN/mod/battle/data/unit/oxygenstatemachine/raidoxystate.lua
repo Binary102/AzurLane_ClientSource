@@ -25,4 +25,12 @@ function ys.Battle.RaidOxyState.IsVisible(slot0)
 	return false
 end
 
+function ys.Battle.RaidOxyState.GetBarVisible(slot0)
+	return true
+end
+
+function ys.Battle.RaidOxyState.RunMode(slot0)
+	return false
+end
+
 return

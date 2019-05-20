@@ -1,23 +1,35 @@
 pg = pg or {}
 pg.UIMgr = singletonClass("UIMgr")
 pg.UIMgr._loadPanel = nil
+pg.UIMgr.CameraLevel = 1
+pg.UIMgr.CameraOverlay = 2
 
 function pg.UIMgr.Init(slot0, slot1)
 	print("initializing ui manager...")
 
 	slot2 = GameObject.Find("UICamera")
-
-	if PLATFORM == PLATFORM_IPHONEPLAYER or PLATFORM_CODE ~= PLATFORM_CH then
-		slot0._cameraBlur = slot2:GetComponent("BlurOptimized")
-	else
-		slot0._cameraBlur = slot2:GetComponent("NewBlurOptimized")
-	end
-
+	slot0._cameraBlur = slot2:GetComponent("BlurOptimized")
 	slot0._staticBlur = slot2:GetComponent("UIStaticBlur")
 	slot0._cameraBlurPartial = slot2:GetComponent("UIPartialBlur")
 	slot0.UIMain = GameObject.Find("UICamera/Canvas/UIMain")
 	slot0.OverlayMain = GameObject.Find("OverlayCamera/Overlay/UIMain")
 	slot0.OverlayEffect = GameObject.Find("OverlayCamera/Overlay/UIEffect")
+	slot3 = GameObject.Find("LevelCamera")
+	slot4 = GameObject.Find("OverlayCamera")
+	slot0.cameraBlurs = {
+		[slot0.CameraLevel] = {
+			slot3:GetComponent("BlurOptimized"),
+			slot3:GetComponent("UIStaticBlur")
+		},
+		[slot0.CameraOverlay] = {
+			slot4:GetComponent("BlurOptimized"),
+			slot4:GetComponent("UIStaticBlur")
+		}
+	}
+	slot0.cameraBlurCounters = {
+		[slot0.CameraLevel] = 0,
+		[slot0.CameraOverlay] = 0
+	}
 	slot0._debugPanel = DebugPanel.New()
 
 	slot2:SetActive(false)
@@ -47,6 +59,13 @@ function pg.UIMgr.Init(slot0, slot1)
 			slot0:SetActive(true)
 
 			slot0.SetActive._loadPanel = LoadingPanel.New(slot0)
+		end,
+		function (slot0)
+			PoolMgr.GetInstance():GetUI("ClickEffect", true, function (slot0)
+				setParent(slot0, slot0.OverlayEffect)
+				SetActive(slot0.OverlayEffect, true)
+				SetActive()
+			end)
 		end
 	}, slot1)
 end
@@ -65,6 +84,10 @@ end
 
 function pg.UIMgr.LoadingOff(slot0)
 	slot0._loadPanel:off()
+end
+
+function pg.UIMgr.OnLoading(slot0)
+	return slot0._loadPanel:onLoading()
 end
 
 function pg.UIMgr.LoadingRetainCount(slot0)
@@ -196,23 +219,25 @@ end
 
 slot2 = 0
 slot3 = {}
-slot4, slot5 = nil
-slot6 = {}
-slot7 = false
+slot4 = nil
+slot5 = {}
+slot6 = false
 
-function pg.UIMgr.OverlayPanel(slot0, slot1)
-	setParent(slot1, slot0.OverlayMain, false)
+function pg.UIMgr.OverlayPanel(slot0, slot1, slot2)
+	slot2 or {}.globalBlur = false
+
+	slot0.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot2 or )
 
 	return
 end
 
 function pg.UIMgr.UnOverlayPanel(slot0, slot1, slot2)
-	setParent(slot1, slot2 or slot0.UIMain, false)
+	slot0.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
 
 	return
 end
 
-function pg.UIMgr.BlurPanel(slot0, slot1, slot2)
+function pg.UIMgr.BlurPanel(slot0, slot1, slot2, slot3)
 	if slot0[slot1] then
 		return
 	end
@@ -228,24 +253,15 @@ function pg.UIMgr.BlurPanel(slot0, slot1, slot2)
 
 		if not slot0._cameraBlur.enabled then
 			slot0._cameraBlur.enabled = true
-			slot0._cameraBlur.downsample = 1
-			slot0._cameraBlur.blurSize = 2
-			slot0._cameraBlur.blurIterations = 1
-
-			if not UnityEngine.Application.isEditor and slot0.UIMain.transform:Find("ActivityUI(Clone)") and PLATFORM ~= PLATFORM_IPHONEPLAYER and PLATFORM_CODE == PLATFORM_CH then
-				slot4 = tolua.getfield(typeof(UnityStandardAssets.ImageEffects.NewBlurOptimized), "rt", System.Reflection.BindingFlags.NonPublic + System.Reflection.BindingFlags.Instance)
-				slot5 = slot4:Get(slot0._cameraBlur)
-				slot7 = tolua.getmethod(typeof(UnityEngine.RenderTexture), "GetTemporary", typeof("System.Int32"), typeof("System.Int32"), typeof("System.Int32")).Call(slot6, slot5.width, slot5.height, 24)
-				GameObject.Find("UICamera"):GetComponent("Camera").targetTexture = slot7
-				UnityEngine.Camera.main.targetTexture = slot7
-
-				slot4:Set(slot0._cameraBlur, slot7)
-				UnityEngine.RenderTexture.ReleaseTemporary(slot5)
-			end
+			slot0._cameraBlur.downsample = 2
+			slot0._cameraBlur.blurSize = 4
+			slot0._cameraBlur.blurIterations = 2
 		end
 	end
 
-	setParent(slot1, slot0.OverlayMain, false)
+	slot3 or {}.globalBlur = true
+
+	slot2.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot3 or )
 	slot0:UpdatePBEnable()
 
 	return
@@ -261,42 +277,42 @@ function pg.UIMgr.UnblurPanel(slot0, slot1, slot2)
 	if slot1 - 1 == 0 then
 		slot0._staticBlur.enabled = false
 		slot0._cameraBlur.enabled = false
-
-		if blurTweenId then
-			LeanTween.cancel(blurTweenId)
-
-			blurTweenId = nil
-		end
 	end
 
-	setParent(slot1, slot2 or slot0.UIMain, false)
+	slot2.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
 	slot0:UpdatePBEnable()
 
 	return
 end
 
-function pg.UIMgr.PartialBlur(slot0, slot1, slot2)
-	slot0 = slot1
+function pg.UIMgr.OverlayPanelPB(slot0, slot1, slot2)
+	slot2 or {}.globalBlur = false
 
-	if slot1 ~= slot2 then
-		slot0:UpdatePBEnable()
+	slot0.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot1, slot2 or )
 
-		if not slot2 then
-			slot0 = nil
-		end
+	return
+end
+
+function pg.UIMgr.PartialBlurTfs(slot0, slot1)
+	slot1 = slot1
+
+	true:UpdatePBEnable()
+
+	return
+end
+
+function pg.UIMgr.ShutdownPartialBlur(slot0)
+	slot1 = {}
+
+	false:UpdatePBEnable()
+
+	return
+end
+
+function pg.UIMgr.RevertPBMaterial(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot6:GetComponent(typeof(Image)).material = (enabled and Material.New(Shader.Find("UI/Default"))) or nil
 	end
-
-	return
-end
-
-function pg.UIMgr.PreparePartialMask(slot0, slot1)
-	table.insert(slot0, slot1)
-
-	return
-end
-
-function pg.UIMgr.ClearPartialMask(slot0)
-	slot0 = {}
 
 	return
 end
@@ -311,14 +327,54 @@ function pg.UIMgr.UpdatePBEnable(slot0)
 
 	if not IsNil(IsNil) then
 		slot2:GetComponent(typeof(Image)).material = (slot1 and Material.New(Shader.Find("UI/PartialBlur"))) or nil
+	end
 
-		for slot6, slot7 in ipairs(ipairs) do
-			slot7:GetComponent(typeof(Image)).material = (slot1 and Material.New(Shader.Find("UI/PartialBlur"))) or nil
+	if slot3 ~= nil then
+		for slot5, slot6 in ipairs(slot3) do
+			slot6:GetComponent(typeof(Image)).material = (slot1 and Material.New(Shader.Find("UI/PartialBlur"))) or nil
 		end
 	end
 
 	if not slot1 then
 		slot0._cameraBlurPartial.enabled = false
+	end
+
+	return
+end
+
+function pg.UIMgr.BlurCamera(slot0, slot1, slot2)
+	slot3 = slot0.cameraBlurs[slot1][1]
+	slot4 = slot0.cameraBlurs[slot1][2]
+	slot0.cameraBlurCounters[slot1] = slot0.cameraBlurCounters[slot1] + 1
+
+	if slot2 then
+		slot3.enabled = false
+		slot4.enabled = true
+	else
+		slot4.enabled = false
+
+		if not slot3.enabled then
+			slot3.enabled = true
+			slot3.downsample = 1
+			slot3.blurSize = 2
+			slot3.blurIterations = 1
+		end
+	end
+
+	return
+end
+
+function pg.UIMgr.UnblurCamera(slot0, slot1, slot2)
+	if (slot2 or 1) <= 0 then
+		slot2 = slot0.cameraBlurCounters[slot1]
+	end
+
+	slot0.cameraBlurCounters[slot1] = slot0.cameraBlurCounters[slot1] - slot2
+	slot0.cameraBlurCounters[slot1] = math.max(slot0.cameraBlurCounters[slot1], 0)
+
+	if slot0.cameraBlurCounters[slot1] == 0 then
+		slot0.cameraBlurs[slot1][2].enabled = false
+		slot0.cameraBlurs[slot1][1].enabled = false
 	end
 
 	return

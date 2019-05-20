@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>四　信赖的取材班</size>",
+					"来自{namecode:146}的温柔\n\n<size=45>四　信赖的取材班</size>",
 					1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -186,7 +186,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -216,7 +216,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = 550
+					x = 825
 				}
 			}
 		},
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -305,7 +305,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			},
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=30>三 开春的巨响</size>",
+					"闹腾嬉戏东煌春节\n\n<size=45>三 开春的巨响</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -140,7 +140,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 1,
-					x = 2500
+					x = 3750
 				}
 			}
 		},
@@ -184,7 +184,7 @@ return {
 			},
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -230,7 +230,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -277,7 +277,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			actorPosition = {
-				x = 1000,
+				x = 1500,
 				y = 0
 			},
 			typewriter = {
@@ -356,7 +356,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.4,
-					x = -1000
+					x = -1500
 				}
 			}
 		},

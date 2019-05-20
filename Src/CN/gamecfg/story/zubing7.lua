@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"前进吧，{namecode:144}！\n\n<size=30>七 约会吧，{namecode:144}！</size>",
+					"前进吧，{namecode:144}！\n\n<size=45>七 约会吧，{namecode:144}！</size>",
 					1
 				}
 			}
@@ -164,7 +164,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -191,7 +191,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -322,7 +322,7 @@ return {
 			say = "门突然被推开了，几个身影拥挤着倒在了门前",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=30>五 和驱逐舰们一起</size>",
+					"荣光的间奏曲\n\n<size=45>五 和驱逐舰们一起</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

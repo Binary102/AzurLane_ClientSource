@@ -13,7 +13,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"<size=15>Opposite-colored Bishops\n</size>异色格象",
+					"<size=22.5>Opposite-colored Bishops\n</size>异色格象",
 					2
 				},
 				{

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=30>四 和平的游戏</size>",
+					"闹腾嬉戏东煌春节\n\n<size=45>四 和平的游戏</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.15,

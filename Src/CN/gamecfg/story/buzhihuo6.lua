@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"万能看板娘{namecode:20}\n\n<size=30>六　看板娘的真心·上</size>",
+					"万能看板娘{namecode:20}\n\n<size=45>六　看板娘的真心·上</size>",
 					1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
@@ -200,7 +200,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

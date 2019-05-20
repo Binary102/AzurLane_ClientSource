@@ -22,6 +22,15 @@ PLATFORM_KR = 3
 PLATFORM_US = 4
 PLATFORM_CODE = PLATFORM_CH
 SDK_EXIT_CODE = 99
+
+function luaIdeDebugFunc()
+	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
+	time = Timer.New(breakInfoFun, 0.5, -1, 1)
+
+	time:Start()
+	print("luaIdeDebugFunc")
+end
+
 BilibiliSdkMgr.sandboxKey = "BLHXSESAUH180704"
 
 if PLATFORM == 8 then
@@ -71,11 +80,7 @@ function OnApplicationPause(slot0)
 end
 
 function OnApplicationExit()
-	if pg.GuideMgr2.GetInstance().managerState == pg.GuideMgr2.MANAGER_STATE.BUSY then
-		return
-	end
-
-	if pg.GuideMgr.GetInstance().managerState == pg.GuideMgr.MANAGER_STATE.BUSY then
+	if pg.GuideMgr.GetInstance():isRuning() then
 		return
 	end
 
@@ -89,7 +94,14 @@ function OnApplicationExit()
 		return
 	end
 
-	if pg.StoryMgr.GetInstance() and slot2.storyId then
+	slot3 = pg.MsgboxMgr.GetInstance() and slot2:getMsgBoxOb()
+
+	if pg.StoryMgr.GetInstance() and slot4.storyId then
+		if slot3 and slot3.activeSelf then
+			playSoundEffect(SFX_CANCEL)
+			triggerButton(slot2._closeBtn)
+		end
+
 		return
 	end
 
@@ -97,50 +109,49 @@ function OnApplicationExit()
 		return
 	end
 
-	if not slot3:retrieveProxy(ContextProxy.__cname) then
+	if not slot5:retrieveProxy(ContextProxy.__cname) then
 		return
 	end
 
-	if not slot4:getCurrentContext() then
+	if not slot6:getCurrentContext() then
 		return
 	end
 
-	if pg.ShareMgr.GetInstance() and slot6.panel and slot7.gameObject.activeSelf then
+	if pg.ShareMgr.GetInstance() and slot8.panel and slot9.gameObject.activeSelf then
 		playSoundEffect(SFX_CANCEL)
-		triggerButton(slot7:Find("main/btnBack"))
+		triggerButton(slot9:Find("main/top/btnBack"))
 
 		return
 	end
 
-	if not slot3:retrieveMediator(slot5:retriveLastChild().mediator.__cname) or not slot8.viewComponent then
+	if not slot5:retrieveMediator(slot7:retriveLastChild().mediator.__cname) or not slot10.viewComponent then
 		return
 	end
 
-	slot10 = slot8.viewComponent._tf.parent
-	slot11 = slot8.viewComponent._tf:GetSiblingIndex()
-	slot13 = pg.MsgboxMgr.GetInstance() and slot12:getMsgBoxOb()
+	slot12 = slot10.viewComponent._tf.parent
+	slot13 = slot10.viewComponent._tf:GetSiblingIndex()
 	slot14 = -1
 	slot15 = nil
 
-	if slot13 and slot13.activeSelf then
-		slot15 = slot13.transform.parent
-		slot14 = slot13.transform:GetSiblingIndex()
+	if slot3 and slot3.activeSelf then
+		slot15 = slot3.transform.parent
+		slot14 = slot3.transform:GetSiblingIndex()
 	end
 
-	if slot10 == slot15 and slot14 < slot11 then
-		slot9:onBackPressed()
+	if slot12 == slot15 and slot14 < slot13 then
+		slot11:onBackPressed()
 
 		return
 	end
 
-	if slot13 and slot13.activeSelf then
+	if slot3 and slot3.activeSelf then
 		playSoundEffect(SFX_CANCEL)
-		triggerButton(slot12._closeBtn)
+		triggerButton(slot2._closeBtn)
 
 		return
 	end
 
-	slot9:onBackPressed()
+	slot11:onBackPressed()
 end
 
 function OnReceiveMemoryWarning()
@@ -245,6 +256,7 @@ slot2 = os.clock()
 
 seriesAsync({
 	function (slot0)
+		pg.LayerWeightMgr.GetInstance():Init()
 		pg.UIMgr.GetInstance():Init(slot0)
 	end,
 	function (slot0)
@@ -268,22 +280,35 @@ seriesAsync({
 				pg.MsgboxMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.GuideMgr2.GetInstance():Init(slot0)
-			end,
-			function (slot0)
 				pg.StoryMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
+				pg.GuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
 				pg.TecToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SeriesGuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.TrophyReminderMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ToastMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end
 }, function (slot0)
 	print("loading cost: " .. os.clock() - slot0)
+	CameraUtil.SetOnlyAdaptMainCam(true)
 	VersionMgr.Inst:DestroyUI()
+
+	Screen.sleepTimeout = SleepTimeout.SystemSetting
+
 	pg.UIMgr.GetInstance():displayLoadingBG(true)
 	pg.UIMgr.GetInstance():LoadingOn()
 

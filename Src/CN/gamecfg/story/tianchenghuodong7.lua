@@ -192,7 +192,7 @@ return {
 			say = "你！！你个不讲道理的白毛老妖怪！！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			say = "你才是不讲道理，胸大无脑的小跟屁虫！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			say = "——哐！（闪光）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -261,7 +261,7 @@ return {
 			say = "！啊——",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			say = "——哐！（闪光）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {

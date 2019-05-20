@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=30>三　舌尖上的东煌</size>",
+					"鞍山的绘图日记\n\n<size=45>三　舌尖上的东煌</size>",
 					1
 				}
 			}
@@ -149,13 +149,13 @@ return {
 				{
 					actor = 501030,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 501010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

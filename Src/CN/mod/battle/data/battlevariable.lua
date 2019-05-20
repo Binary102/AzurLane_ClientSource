@@ -89,9 +89,9 @@ ys or .Battle.BattleVariable.UpdateCameraPositionArgs = function ()
 end
 
 ys or .Battle.BattleVariable.CameraPosToUICamera = function (slot0)
-	slot0.CameraPosToUICameraByRef(slot0:Clone())
+	slot0:CameraPosToUICameraByRef()
 
-	return slot0.Clone()
+	return slot0
 end
 
 ys or .Battle.BattleVariable.CameraPosToUICameraByRef = function (slot0)

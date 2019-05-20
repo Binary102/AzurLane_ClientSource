@@ -917,7 +917,8 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.black_white_grid_notice.tip
 		})
 	end, SFX_PANEL)

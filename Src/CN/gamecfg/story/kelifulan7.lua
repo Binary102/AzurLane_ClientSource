@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"骑士与奖赏\n\n<size=30>七 最棒的冠军奖励</size>",
+					"骑士与奖赏\n\n<size=45>七 最棒的冠军奖励</size>",
 					1
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			say = "可、可爱！？！？！？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -256,7 +256,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
-					x = 20,
+					x = 30,
 					number = 2
 				}
 			},
@@ -279,7 +279,7 @@ return {
 			say = "不，不要叫我克爹～！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

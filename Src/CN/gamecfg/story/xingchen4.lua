@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=30>四  给星尘的信</size>",
+					"小小的勇气\n\n<size=45>四  给星尘的信</size>",
 					1
 				}
 			}

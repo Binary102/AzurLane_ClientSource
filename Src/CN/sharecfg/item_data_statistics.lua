@@ -3809,7 +3809,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15007] = {
-		display = "装备回收箱，可以将一件<color=#fad545>已经强化过</color>的装备回收。能够返还一件<color=#fad545>未强化过</color>的装备以及强化该装备所消耗的<color=#fad545>所有素材和物资</color>。",
+		display = "装备回收箱，可以将一件<color=#ffde38>已经强化过</color>的装备回收。能够返还一件<color=#ffde38>未强化过</color>的装备以及强化该装备所消耗的<color=#ffde38>所有素材和物资</color>。",
 		rarity = 4,
 		type = 1,
 		name = "装备回收箱",
@@ -3825,7 +3825,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15008] = {
-		display = "可用于认知觉醒，提升<color=#A9F548>100级以上且满足三次突破条件</color>的角色等级上限",
+		display = "可用于认知觉醒，提升<color=#92fc63>100级以上且满足三次突破条件</color>的角色等级上限",
 		rarity = 4,
 		type = 1,
 		name = "心智单元",
@@ -3841,7 +3841,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15009] = {
-		display = "更改指挥官登录名称时需要提交的证明，每<color=#A9F548>30天</color>仅限更改一次。\n通过主界面左上角的头像，点击名称旁的更名按钮可以变更指挥官的名称。",
+		display = "更改指挥官登录名称时需要提交的证明，每<color=#92fc63>30天</color>仅限更改一次。\n通过主界面左上角的头像，点击名称旁的更名按钮可以变更指挥官的名称。",
 		rarity = 5,
 		type = 1,
 		name = "身份变更证明",
@@ -3873,7 +3873,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16001] = {
-		display = "舰艇攻击教材T1，用于训练角色攻击技能可以获得额外的经验\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>舰艇攻击教材T2</color>",
+		display = "舰艇攻击教材T1，用于训练角色攻击技能可以获得额外的经验\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>舰艇攻击教材T2</color>",
 		rarity = 2,
 		type = 10,
 		name = "舰艇攻击教材T1",
@@ -3921,7 +3921,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16011] = {
-		display = "舰艇防御教材T1，用于训练角色防御技能可以获得额外的经验\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>舰艇防御教材T2</color>",
+		display = "舰艇防御教材T1，用于训练角色防御技能可以获得额外的经验\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>舰艇防御教材T2</color>",
 		rarity = 2,
 		type = 10,
 		name = "舰艇防御教材T1",
@@ -3969,7 +3969,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16021] = {
-		display = "舰艇辅助教材T1，用于训练角色辅助技能可以获得额外的经验\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>舰艇辅助教材T2</color>",
+		display = "舰艇辅助教材T1，用于训练角色辅助技能可以获得额外的经验\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>舰艇辅助教材T2</color>",
 		rarity = 2,
 		type = 10,
 		name = "舰艇辅助教材T1",
@@ -4318,7 +4318,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18001] = {
-		display = "用于改造驱逐舰的图纸\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>驱逐改造图纸T2</color>",
+		display = "用于改造驱逐舰的图纸\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>驱逐改造图纸T2</color>",
 		rarity = 2,
 		type = 7,
 		name = "驱逐改造图纸T1",
@@ -4366,7 +4366,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18011] = {
-		display = "用于改造巡洋舰的图纸\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>巡洋改造图纸T2</color>",
+		display = "用于改造巡洋舰的图纸\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>巡洋改造图纸T2</color>",
 		rarity = 2,
 		type = 7,
 		name = "巡洋改造图纸T1",
@@ -4414,7 +4414,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18021] = {
-		display = "用于改造战列舰的图纸\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>战列改造图纸T2</color>",
+		display = "用于改造战列舰的图纸\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>战列改造图纸T2</color>",
 		rarity = 2,
 		type = 7,
 		name = "战列改造图纸T1",
@@ -4462,7 +4462,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18031] = {
-		display = "用于改造航空母舰的图纸\n*可消耗<color=#fad545>6</color>个合成<color=#fad545>1</color>个<color=#966af6>航母改造图纸T2</color>",
+		display = "用于改造航空母舰的图纸\n*可消耗<color=#ffde38>6</color>个合成<color=#ffde38>1</color>个<color=#d797ff>航母改造图纸T2</color>",
 		rarity = 2,
 		type = 7,
 		name = "航母改造图纸T1",
@@ -4586,7 +4586,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30001] = {
-		display = "包含一件稀有的深海潜航版本装备：\n较低几率获得<color=#60a9ff>稀有装备</color>\n较高几率获得普通装备",
+		display = "包含一件稀有的深海潜航版本装备：\n较低几率获得<color=#3dc6ff>稀有装备</color>\n较高几率获得普通装备",
 		rarity = 2,
 		type = 5,
 		name = "深海潜航新手装备补给箱 ",
@@ -4605,7 +4605,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30011] = {
-		display = "包含一件普通的白鹰阵营装备：\n获得普通装备\n*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#60a9ff>克洛希德科技箱T2</color>",
+		display = "包含一件普通的白鹰阵营装备：\n获得普通装备\n*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#3dc6ff>克洛希德科技箱T2</color>",
 		rarity = 1,
 		type = 5,
 		name = "克洛希德科技箱T1",
@@ -4626,9 +4626,9 @@ pg.item_data_statistics = {
 	[30012] = {
 		display = [[
 包含一件稀有的白鹰阵营装备：
-较低几率获得<color=#60a9ff>稀有装备</color>
+较低几率获得<color=#3dc6ff>稀有装备</color>
 较高几率获得普通装备
-*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#966af6>克洛希德科技箱T3</color>]],
+*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>克洛希德科技箱T3</color>]],
 		rarity = 2,
 		type = 5,
 		name = "克洛希德科技箱T2",
@@ -4647,7 +4647,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30013] = {
-		display = "包含一件精锐的白鹰阵营装备：\n低几率获得<color=#966af6>精锐装备</color>\n较高几率获得<color=#60a9ff>稀有装备</color>",
+		display = "包含一件精锐的白鹰阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
 		rarity = 3,
 		type = 5,
 		name = "克洛希德科技箱T3",
@@ -4666,7 +4666,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30014] = {
-		display = "包含一件超稀有的白鹰阵营装备：\n极低几率获得<color=#fff157>超稀有装备</color>\n高几率获得<color=#966af6>精锐装备</color>",
+		display = "包含一件超稀有的白鹰阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
 		rarity = 4,
 		type = 5,
 		name = "克洛希德科技箱T4",
@@ -4685,7 +4685,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30015] = {
-		display = "包含一件超稀有的白鹰阵营装备：\n必定获得<color=#fff157>超稀有装备</color>",
+		display = "包含一件超稀有的白鹰阵营装备：\n必定获得<color=#ffde38>超稀有装备</color>",
 		rarity = 5,
 		type = 5,
 		name = "克洛希德科技箱T5",
@@ -4704,7 +4704,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30021] = {
-		display = "包含一件普通的皇家阵营装备：\n获得普通装备\n*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#60a9ff>威斯克科技箱T2</color>",
+		display = "包含一件普通的皇家阵营装备：\n获得普通装备\n*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#3dc6ff>威斯克科技箱T2</color>",
 		rarity = 1,
 		type = 5,
 		name = "威斯克科技箱T1",
@@ -4725,9 +4725,9 @@ pg.item_data_statistics = {
 	[30022] = {
 		display = [[
 包含一件稀有的皇家阵营装备：
-较低几率获得<color=#60a9ff>稀有装备</color>
+较低几率获得<color=#3dc6ff>稀有装备</color>
 较高几率获得普通装备
-*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#966af6>威斯克科技箱T3</color>]],
+*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>威斯克科技箱T3</color>]],
 		rarity = 2,
 		type = 5,
 		name = "威斯克科技箱T2",
@@ -4746,7 +4746,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30023] = {
-		display = "包含一件精锐的皇家阵营装备：\n低几率获得<color=#966af6>精锐装备</color>\n较高几率获得<color=#60a9ff>稀有装备</color>",
+		display = "包含一件精锐的皇家阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
 		rarity = 3,
 		type = 5,
 		name = "威斯克科技箱T3",
@@ -4765,7 +4765,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30024] = {
-		display = "包含一件超稀有的皇家阵营装备：\n极低几率获得<color=#fff157>超稀有装备</color>\n高几率获得<color=#966af6>精锐装备</color>",
+		display = "包含一件超稀有的皇家阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
 		rarity = 4,
 		type = 5,
 		name = "威斯克科技箱T4",
@@ -4784,7 +4784,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30025] = {
-		display = "包含一件超稀有的皇家阵营装备：\n必定获得<color=#fff157>超稀有装备</color>",
+		display = "包含一件超稀有的皇家阵营装备：\n必定获得<color=#ffde38>超稀有装备</color>",
 		rarity = 5,
 		type = 5,
 		name = "威斯克科技箱T5",
@@ -4803,7 +4803,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30031] = {
-		display = "包含一件普通的重樱阵营装备：\n获得普通装备\n*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#60a9ff>藏王重工科技箱T2</color>",
+		display = "包含一件普通的重樱阵营装备：\n获得普通装备\n*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#3dc6ff>藏王重工科技箱T2</color>",
 		rarity = 1,
 		type = 5,
 		name = "藏王重工科技箱T1",
@@ -4824,9 +4824,9 @@ pg.item_data_statistics = {
 	[30032] = {
 		display = [[
 包含一件稀有的重樱阵营装备：
-较低几率获得<color=#60a9ff>稀有装备</color>
+较低几率获得<color=#3dc6ff>稀有装备</color>
 较高几率获得普通装备
-*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#966af6>藏王重工科技箱T3</color>]],
+*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>藏王重工科技箱T3</color>]],
 		rarity = 2,
 		type = 5,
 		name = "藏王重工科技箱T2",
@@ -4845,7 +4845,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30033] = {
-		display = "包含一件精锐的重樱阵营装备：\n低几率获得<color=#966af6>精锐装备</color>\n较高几率获得<color=#60a9ff>稀有装备</color>",
+		display = "包含一件精锐的重樱阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
 		rarity = 3,
 		type = 5,
 		name = "藏王重工科技箱T3",
@@ -4864,7 +4864,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30034] = {
-		display = "包含一件超稀有的重樱阵营装备：\n极低几率获得<color=#fff157>超稀有装备</color>\n高几率获得<color=#966af6>精锐装备</color>",
+		display = "包含一件超稀有的重樱阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
 		rarity = 4,
 		type = 5,
 		name = "藏王重工科技箱T4",
@@ -4883,7 +4883,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30035] = {
-		display = "包含一件超稀有的重樱阵营装备：\n必定获得<color=#fff157>超稀有装备</color>",
+		display = "包含一件超稀有的重樱阵营装备：\n必定获得<color=#ffde38>超稀有装备</color>",
 		rarity = 5,
 		type = 5,
 		name = "藏王重工科技箱T5",
@@ -4902,7 +4902,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30041] = {
-		display = "包含一件普通的铁血阵营装备：\n获得普通装备\n*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#60a9ff>伯鲁克科技箱T2</color>",
+		display = "包含一件普通的铁血阵营装备：\n获得普通装备\n*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#3dc6ff>伯鲁克科技箱T2</color>",
 		rarity = 1,
 		type = 5,
 		name = "伯鲁克科技箱T1",
@@ -4923,9 +4923,9 @@ pg.item_data_statistics = {
 	[30042] = {
 		display = [[
 包含一件稀有的铁血阵营装备：
-较低几率获得<color=#60a9ff>稀有装备</color>
+较低几率获得<color=#3dc6ff>稀有装备</color>
 较高几率获得普通装备
-*可消耗<color=#fad545>5</color>个合成<color=#fad545>1</color>个<color=#966af6>伯鲁克科技箱T3</color>]],
+*可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>伯鲁克科技箱T3</color>]],
 		rarity = 2,
 		type = 5,
 		name = "伯鲁克科技箱T2",
@@ -4944,7 +4944,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30043] = {
-		display = "包含一件精锐的铁血阵营装备：\n低几率获得<color=#966af6>精锐装备</color>\n较高几率获得<color=#60a9ff>稀有装备</color>",
+		display = "包含一件精锐的铁血阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
 		rarity = 3,
 		type = 5,
 		name = "伯鲁克科技箱T3",
@@ -4963,7 +4963,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30044] = {
-		display = "包含一件超稀有的铁血阵营装备：\n极低几率获得<color=#fff157>超稀有装备</color>\n高几率获得<color=#966af6>精锐装备</color>",
+		display = "包含一件超稀有的铁血阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
 		rarity = 4,
 		type = 5,
 		name = "伯鲁克科技箱T4",
@@ -4982,7 +4982,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30045] = {
-		display = "包含一件超稀有的铁血阵营装备：\n必定获得<color=#fff157>超稀有装备</color>",
+		display = "包含一件超稀有的铁血阵营装备：\n必定获得<color=#ffde38>超稀有装备</color>",
 		rarity = 5,
 		type = 5,
 		name = "伯鲁克科技箱T5",
@@ -5001,7 +5001,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30103] = {
-		display = "包含1~4个<color=#966af6>随机T3部件</color>：\n各类部件出现<color=#fad545>概率均等</color>",
+		display = "包含1~4个<color=#d797ff>随机T3部件</color>：\n各类部件出现<color=#ffde38>概率均等</color>",
 		rarity = 3,
 		type = 5,
 		name = "T3部件箱",
@@ -5021,10 +5021,10 @@ pg.item_data_statistics = {
 	},
 	[30201] = {
 		display = [[
-包含一件本次活动的<color=#fad545>限定装备</color>：
-极低几率获得<color=#fff157>超稀有装备</color>
-较低几率获得<color=#966af6>精锐装备</color>
-较高几率获得<color=#60a9ff>稀有装备</color>]],
+包含一件本次活动的<color=#ffde38>限定装备</color>：
+极低几率获得<color=#ffde38>超稀有装备</color>
+较低几率获得<color=#d797ff>精锐装备</color>
+较高几率获得<color=#3dc6ff>稀有装备</color>]],
 		rarity = 3,
 		type = 5,
 		name = "event专属科技箱",
@@ -18299,7 +18299,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42001] = {
-		display = "皇家巡洋「海王星」的设计蓝图。\n<color=#A9F548>获得「海王星」后，可在「开发船坞」中用于增强「海王星」的能力。</color>",
+		display = "皇家巡洋「海王星」的设计蓝图。\n<color=#92fc63>获得「海王星」后，可在「开发船坞」中用于增强「海王星」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：海王星",
@@ -18315,7 +18315,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42002] = {
-		display = "皇家战列「君主」的设计蓝图。\n<color=#A9F548>获得「君主」后，可在「开发船坞」中用于增强「君主」的能力。</color>",
+		display = "皇家战列「君主」的设计蓝图。\n<color=#92fc63>获得「君主」后，可在「开发船坞」中用于增强「君主」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：君主",
@@ -18331,7 +18331,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42003] = {
-		display = "重樱巡洋「{namecode:152}」的设计蓝图。\n<color=#A9F548>获得「峦」后，可在「开发船坞」中用于增强「{namecode:152}」的能力。</color>",
+		display = "重樱巡洋「{namecode:152}」的设计蓝图。\n<color=#92fc63>获得「峦」后，可在「开发船坞」中用于增强「{namecode:152}」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：峦",
@@ -18347,7 +18347,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42004] = {
-		display = "重樱战列「{namecode:151}」的设计蓝图。\n<color=#A9F548>获得「侌」后，可在「开发船坞」中用于增强「{namecode:151}」的能力。</color>",
+		display = "重樱战列「{namecode:151}」的设计蓝图。\n<color=#92fc63>获得「侌」后，可在「开发船坞」中用于增强「{namecode:151}」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：侌",
@@ -18363,7 +18363,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42005] = {
-		display = "铁血巡洋「罗恩」的设计蓝图。\n<color=#A9F548>获得「罗恩」后，可在「开发船坞」中用于增强「罗恩」的能力。</color>",
+		display = "铁血巡洋「罗恩」的设计蓝图。\n<color=#92fc63>获得「罗恩」后，可在「开发船坞」中用于增强「罗恩」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：罗恩",
@@ -18379,7 +18379,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42006] = {
-		display = "自由鸢尾巡洋「路易九世」的设计蓝图。\n<color=#A9F548>获得「路易九世」后，可在「开发船坞」中用于增强「路易九世」的能力。</color>",
+		display = "自由鸢尾巡洋「路易九世」的设计蓝图。\n<color=#92fc63>获得「路易九世」后，可在「开发船坞」中用于增强「路易九世」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：路易九世",
@@ -18462,7 +18462,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42011] = {
-		display = "白鹰巡洋「西雅图」的设计蓝图。\n<color=#A9F548>获得「西雅图」后，可在「开发船坞」中用于增强「西雅图」的能力。</color>",
+		display = "白鹰巡洋「西雅图」的设计蓝图。\n<color=#92fc63>获得「西雅图」后，可在「开发船坞」中用于增强「西雅图」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：西雅图",
@@ -18478,7 +18478,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42012] = {
-		display = "白鹰战列「佐治亚」的设计蓝图。\n<color=#A9F548>获得「佐治亚」后，可在「开发船坞」中用于增强「佐治亚」的能力。</color>",
+		display = "白鹰战列「佐治亚」的设计蓝图。\n<color=#92fc63>获得「佐治亚」后，可在「开发船坞」中用于增强「佐治亚」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：佐治亚",
@@ -18494,7 +18494,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42013] = {
-		display = "重樱驱逐「苝」的设计蓝图。\n<color=#A9F548>获得「苝」后，可在「开发船坞」中用于增强「苝」的能力。</color>",
+		display = "重樱驱逐「苝」的设计蓝图。\n<color=#92fc63>获得「苝」后，可在「开发船坞」中用于增强「苝」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：苝",
@@ -18510,7 +18510,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42014] = {
-		display = "重樱超巡「猉」的设计蓝图。\n<color=#A9F548>获得「猉」后，可在「开发船坞」中用于增强「猉」的能力。</color>",
+		display = "重樱超巡「猉」的设计蓝图。\n<color=#92fc63>获得「猉」后，可在「开发船坞」中用于增强「猉」的能力。</color>",
 		rarity = 5,
 		type = 12,
 		name = "蓝图：猉",
@@ -18526,7 +18526,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42015] = {
-		display = "铁血战列「腓特烈大帝」的设计蓝图。\n<color=#A9F548>获得「腓特烈大帝」后，可在「开发船坞」中用于增强「腓特烈大帝」的能力。</color>",
+		display = "铁血战列「腓特烈大帝」的设计蓝图。\n<color=#92fc63>获得「腓特烈大帝」后，可在「开发船坞」中用于增强「腓特烈大帝」的能力。</color>",
 		rarity = 5,
 		type = 12,
 		name = "蓝图：腓特烈大帝",
@@ -18542,7 +18542,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42016] = {
-		display = "维希教廷战列「加斯科涅」的设计蓝图。\n<color=#A9F548>获得「加斯科涅」后，可在「开发船坞」中用于增强「加斯科涅」的能力。</color>",
+		display = "维希教廷战列「加斯科涅」的设计蓝图。\n<color=#92fc63>获得「加斯科涅」后，可在「开发船坞」中用于增强「加斯科涅」的能力。</color>",
 		rarity = 4,
 		type = 12,
 		name = "蓝图：加斯科涅",
@@ -18642,7 +18642,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#A9F548>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
 		name = "海军咖喱",
@@ -18661,7 +18661,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "皇家海军专用的料理！ <color=#A9F548>（提高经验加成10%，持续180分钟）</color>",
+		display = "皇家海军专用的料理！ <color=#92fc63>（提高经验加成10%，持续180分钟）</color>",
 		rarity = 3,
 		type = 3,
 		name = "皇家料理",
@@ -18680,7 +18680,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "著名的宫廷料理，造型较为奇怪！  <color=#A9F548>（提高经验加成20%，持续360分钟）</color>",
+		display = "著名的宫廷料理，造型较为奇怪！  <color=#92fc63>（提高经验加成20%，持续360分钟）</color>",
 		rarity = 3,
 		type = 3,
 		name = "满汉全席",
@@ -19289,6 +19289,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19326,16 +19336,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19366,6 +19366,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19403,16 +19413,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19443,6 +19443,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19480,16 +19490,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19520,6 +19520,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19557,16 +19567,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19597,6 +19597,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19634,16 +19644,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19674,6 +19674,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19711,16 +19721,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19751,6 +19751,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19788,16 +19798,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19828,6 +19828,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19865,16 +19875,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -19955,6 +19955,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19992,16 +20002,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -20082,6 +20082,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -20119,16 +20129,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -20209,6 +20209,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -20246,16 +20256,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -20326,16 +20326,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20343,6 +20333,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20443,16 +20443,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20460,6 +20450,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20560,16 +20560,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20577,6 +20567,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20677,16 +20677,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20694,6 +20684,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20794,16 +20794,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20811,6 +20801,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20911,16 +20911,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20928,6 +20918,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21028,16 +21028,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21045,6 +21035,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21145,16 +21145,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21162,6 +21152,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21246,12 +21246,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21272,16 +21272,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21289,6 +21279,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21373,12 +21373,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21399,16 +21399,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21416,6 +21406,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21500,12 +21500,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21526,16 +21526,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21543,6 +21533,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21627,12 +21627,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21653,16 +21653,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21670,6 +21660,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21754,12 +21754,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21780,16 +21780,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21797,6 +21787,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21881,12 +21881,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21907,16 +21907,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21924,6 +21914,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22008,12 +22008,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -22034,16 +22034,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22051,6 +22041,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22135,12 +22135,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22176,16 +22176,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22193,6 +22183,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22277,12 +22277,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22318,16 +22318,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22335,6 +22325,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22419,12 +22419,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22460,16 +22460,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22477,6 +22467,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22561,12 +22561,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22602,16 +22602,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22619,6 +22609,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22703,12 +22703,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22744,16 +22744,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22761,6 +22751,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22845,12 +22845,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22886,16 +22886,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22903,6 +22893,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22987,12 +22987,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -23079,12 +23079,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -63663,8 +63663,40 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59126,
 		icon = "Props/kizuna_pt",
-		price = "",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59127] = {
+		display = "用于『司令部动员指令』活动累计奖励，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "集结点",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59127,
+		icon = "Props/union_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59128] = {
+		display = "用于『限时体验商店』兑换角色限时换装，2019年7月11日后将无法使用",
+		rarity = 4,
+		type = 98,
+		name = "换装体验券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59128,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
 		index = {}
 	},
 	[59601] = {
@@ -64292,9 +64324,9 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59711] = {
-		display = "一周年活动「再诞·曙光」的完成感谢纪念——指挥官，瞧见我手里的面包和伏特加了吗！",
+		display = "一周年活动「再诞·曙光」的完成感谢纪念——开启之后会发生什么？",
 		rarity = 3,
-		type = 1,
+		type = 5,
 		name = "再诞·曙光",
 		shop_id = -1,
 		shiptrans_id = 0,
@@ -65371,6 +65403,150 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59774] = {
+		display = "一周年活动「再诞·曙光」的完成感谢纪念——指挥官，瞧见我手里的面包和伏特加了吗！",
+		rarity = 3,
+		type = 1,
+		name = "再诞·曙光",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59774,
+		icon = "props/yizhounian",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59775] = {
+		display = "收集7枚后，可以得到限定设备《约定的证明》",
+		rarity = 2,
+		type = 0,
+		name = "U556的勋章",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 294,
+		id = 59775,
+		icon = "Props/u556xunzhang",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59776] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59776,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59777] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59777,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59778] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59778,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59779] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59779,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59780] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59780,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59781] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59781,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59782] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 299,
+		id = 59782,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "拼图A-1",
 		rarity = 2,
@@ -65711,17 +65887,17 @@ pg.item_data_statistics = {
 		display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会转化为对应原价9折的钻石) 
 包含的换装和概率如下：
-（<color=#A9F548>8%</color>）桐换装  Music Pixy（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8%</color>）克利夫兰换装  骑士之夜（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8%</color>）鹩换装  毒苹果（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9.5%</color>）欧若拉换装  黎明的赞歌；
-（<color=#A9F548>9.5%</color>）伊丽莎白换装  女王的舞踏会；
-（<color=#A9F548>9.5%</color>）阿贾克斯换装  晚会女王；
-（<color=#A9F548>9.5%</color>）茗换装  黑猫来袭！；
-（<color=#A9F548>9.5%</color>）女将换装  小小的管弦乐队；
-（<color=#A9F548>9.5%</color>）南达科他换装  剧场上的独奏；
-（<color=#A9F548>9.5%</color>）U-81换装  静谧小夜曲；
-（<color=#A9F548>9.5%</color>）光辉换装  光辉的舞会；]],
+（<color=#92fc63>8%</color>）桐换装  Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）克利夫兰换装  骑士之夜（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）鹩换装  毒苹果（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）欧若拉换装  黎明的赞歌；
+（<color=#92fc63>9.5%</color>）伊丽莎白换装  女王的舞踏会；
+（<color=#92fc63>9.5%</color>）阿贾克斯换装  晚会女王；
+（<color=#92fc63>9.5%</color>）茗换装  黑猫来袭！；
+（<color=#92fc63>9.5%</color>）女将换装  小小的管弦乐队；
+（<color=#92fc63>9.5%</color>）南达科他换装  剧场上的独奏；
+（<color=#92fc63>9.5%</color>）U-81换装  静谧小夜曲；
+（<color=#92fc63>9.5%</color>）光辉换装  光辉的舞会；]],
 		rarity = 4,
 		type = 98,
 		name = "随机换装",
@@ -65740,15 +65916,15 @@ pg.item_data_statistics = {
 		display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#A9F548>9%</color>）埃尔德里奇换装 正月的牵手（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）峦换装  永梦的青女（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10%</color>）圣路易斯换装 雪下之饮（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>12%</color>）侌换装  出云千本樱；
-（<color=#A9F548>12%</color>）威尔士亲王换装  皇家式风流；
-（<color=#A9F548>12%</color>）柉换装  新年合战；
-（<color=#A9F548>12%</color>）海伦娜换装  正月与青鸟；
-（<color=#A9F548>12%</color>）蒙彼利埃换装  雪夜之花；
-（<color=#A9F548>12%</color>）狳换装  幕间小憩；]],
+（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）侌换装  出云千本樱；
+（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
+（<color=#92fc63>12%</color>）柉换装  新年合战；
+（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
+（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
+（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
 		rarity = 4,
 		type = 98,
 		name = "随机新年换装",
@@ -65767,16 +65943,16 @@ pg.item_data_statistics = {
 		display = [[
 从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
 包含的换装和概率如下：
-（<color=#A9F548>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）拉菲换装  白兔迎春（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）太原换装  金蛇闹春（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10.5%</color>）企业换装  傲春之牡丹；
-（<color=#A9F548>10.5%</color>）半人马换装  清冽的春风；
-（<color=#A9F548>10.5%</color>）君主换装  赭红爵祿；
-（<color=#A9F548>10.5%</color>）棭换装  夕暮春华；
-（<color=#A9F548>10.5%</color>）柚换装  新岁之鬼神；
-（<color=#A9F548>10.5%</color>）列克星敦换装  春华佳人；
-（<color=#A9F548>10.5%</color>）追赶者换装  东煌之道；]],
+（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
+（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
+（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
+（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
+（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
+（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
 		rarity = 4,
 		type = 98,
 		name = "随机春节换装",
@@ -67777,6 +67953,8 @@ pg.item_data_statistics = {
 		59124,
 		59125,
 		59126,
+		59127,
+		59128,
 		59601,
 		59602,
 		59603,
@@ -67879,6 +68057,15 @@ pg.item_data_statistics = {
 		59771,
 		59772,
 		59773,
+		59774,
+		59775,
+		59776,
+		59777,
+		59778,
+		59779,
+		59780,
+		59781,
+		59782,
 		59801,
 		59802,
 		59803,

@@ -10,7 +10,9 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = slot0:getWeightFromData()
+	})
 	slot0:addListener()
 	slot0:updateDetail()
 end
@@ -62,11 +64,11 @@ function slot0.updateDetail(slot0)
 	slot1:align(#slot0.typeOrder)
 	Canvas.ForceUpdateCanvases()
 
-	if slot0.scrollView.rect.height >= 520 then
+	if slot0.scrollView.rect.height >= 850 then
 		slot0.viewportGroupCom.enabled = false
 		slot0.viewportFitterCom.enabled = false
 		slot0.scrollViewFitterCom.enabled = false
-		slot0.scrollView.sizeDelta = Vector2.New(0, 520)
+		slot0.scrollView.sizeDelta = Vector2.New(0, 850)
 		GetComponent(slot0.scrollView, "ScrollRect").enabled = true
 	end
 

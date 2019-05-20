@@ -6065,10 +6065,21 @@ pg.skill_data_template = {
 	[6400] = {
 		desc_get = "",
 		name = "智慧模块",
-		desc = "任意KizunaAI装备时，改变自律移动轨迹，不影响演习战斗（绊爱联动活动结束后装备技能失效）",
+		desc = "<color=#a2a2a2>随着病毒危机的解除（KizunaAI联动活动结束），这件装备失去了特殊效果</color>",
 		type = 0,
 		max_level = 0,
 		id = 6400,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6410] = {
+		desc_get = "",
+		name = "未能抵达的承诺",
+		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		type = 0,
+		max_level = 0,
+		id = 6410,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -22173,7 +22184,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "战斗开始时，生成4面旋转的护盾，每个护盾阻挡8发子弹，护盾持续<color=#A9F548FF>5</color>秒(满级<color=#A9F548FF>15</color>秒)，每隔30秒再次生成该护盾",
+		desc_get = "战斗开始时，生成4面旋转的护盾，每个护盾阻挡8发子弹，护盾持续<color=#92fc63FF>5</color>秒(满级<color=#92fc63FF>15</color>秒)，每隔30秒再次生成该护盾",
 		name = "全方位装甲 +",
 		desc = "战斗开始时，生成4面旋转的护盾，每个护盾阻挡8发子弹，护盾持续$1秒，每隔30秒再次生成该护盾",
 		type = 2,
@@ -22226,7 +22237,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "增加<color=#A9F548FF>3</color>点(满级<color=#A9F548FF>8</color>点)航速，战斗开始时，机动属性提高<color=#A9F548FF>15%</color>(满级<color=#A9F548FF>35%</color>)，持续50秒",
+		desc_get = "增加<color=#92fc63FF>3</color>点(满级<color=#92fc63FF>8</color>点)航速，战斗开始时，机动属性提高<color=#92fc63FF>15%</color>(满级<color=#92fc63FF>35%</color>)，持续50秒",
 		name = "Engine boost +",
 		desc = "增加$1点航速；战斗开始时，机动属性提高$2，持续50秒",
 		type = 2,
@@ -29970,6 +29981,7 @@ pg.skill_data_template = {
 		6380,
 		6390,
 		6400,
+		6410,
 		7000,
 		9010,
 		9020,

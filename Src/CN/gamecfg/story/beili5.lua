@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"神秘的兔兔星人？！\n\n<size=30>五 兔兔星人特征——“爱心”！</size>",
+					"神秘的兔兔星人？！\n\n<size=45>五 兔兔星人特征——“爱心”！</size>",
 					1
 				}
 			}

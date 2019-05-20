@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>四　关心人的火奴鲁鲁</size>",
+					"有关火奴鲁鲁的二三事\n\n<size=45>四　关心人的火奴鲁鲁</size>",
 					1
 				}
 			}
@@ -306,7 +306,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

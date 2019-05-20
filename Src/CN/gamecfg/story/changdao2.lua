@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=30>二　No more 运动！</size>",
+					"长岛小姐提不起劲\n\n<size=45>二　No more 运动！</size>",
 					1
 				}
 			}

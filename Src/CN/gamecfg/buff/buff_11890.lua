@@ -36,12 +36,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.25,
 				skill_id = 11891,
 				target = "TargetSelf",
-				quota = 1,
-				hpRatioList = {
-					0.25
-				}
+				quota = 1
 			}
 		}
 	}

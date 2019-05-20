@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"炎夏的火锅大会？！\n\n<size=30>二  邀约与准备</size>",
+					"炎夏的火锅大会？！\n\n<size=45>二  邀约与准备</size>",
 					1
 				}
 			}

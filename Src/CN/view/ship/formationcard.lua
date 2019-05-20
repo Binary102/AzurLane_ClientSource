@@ -1,43 +1,85 @@
 slot0 = class("FormationCard")
+slot1 = 0
+slot2 = 1
+slot3 = 2
 
 function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
-	slot0.btn = slot1:GetComponent("Button")
-	slot0.lock = findTF(slot0.tr, "lock")
-	slot0.add = findTF(slot0.tr, "add").gameObject
-	slot0.addImage = slot0.add:GetComponent("Image")
-	slot0.detail = findTF(slot0.tr, "detail").gameObject
-	slot0.bgImage = findTF(slot0.detail, "bg"):GetComponent("Image")
-	slot0.paintingTr = findTF(slot0.detail, "mask/painting")
-	slot0.frameImage = findTF(slot0.detail, "frame/bg"):GetComponent("Image")
-	slot0.starsTr = findTF(slot0.detail, "frame/stars")
-	slot0.starTr = findTF(slot0.detail, "frame/stars/star_tpl")
-	slot0.nameTxt = ScrollTxt.New(findTF(slot0.detail, "frame/name_mask"), findTF(slot0.detail, "frame/name_mask/name"))
-	slot0.lvTxt = findTF(slot0.detail, "frame/lvbg/lv/Text"):GetComponent("Text")
-	slot0.shipTypeImage = findTF(slot0.detail, "frame/type"):GetComponent("Image")
-	slot0.shipState = findTF(slot0.detail, "frame/state").gameObject
-	slot0.propsTr = findTF(slot0.detail, "frame/list")
-	slot0.propsTr1 = findTF(slot0.detail, "frame/list1")
-	slot0.energyTF = findTF(slot0.tr, "energy")
-	slot0.duang = findTF(slot0.detail, "duang")
-	slot0.duang6 = findTF(slot0.detail, "duang_6_1")
-	slot0.duang6tuzhi = findTF(slot0.detail, "duang_6_tuzhi_1")
-	slot0.npc = findTF(slot0.detail, "frame/npc")
+	slot0.content = slot0.tr:Find("content")
+	slot0.bgImage = slot0.content:Find("bg"):GetComponent(typeof(Image))
+	slot0.paintingTr = slot0.content:Find("ship_icon/painting")
+	slot0.detailTF = slot0.content:Find("detail")
+	slot0.lvTxt = slot0.detailTF:Find("top/level"):GetComponent(typeof(Text))
+	slot0.shipType = slot0.detailTF:Find("top/type")
+	slot0.propsTr = slot0.detailTF:Find("info")
+	slot0.propsTr1 = slot0.detailTF:Find("info1")
+	slot0.nameTxt = ScrollTxt.New(findTF(slot0.detailTF, "name_mask"), findTF(slot0.detailTF, "name_mask/name"))
+	slot0.frame = slot0.content:Find("front/frame")
+	slot0.UIlist = UIItemList.New(slot0.content:Find("front/stars"), slot0.content:Find("front/stars/star_tpl"))
+	slot0.shipState = slot0.content:Find("front/flag")
+	slot0.otherBg = slot0.content:Find("front/bg_other")
 
-	if not IsNil(slot0.npc) then
-		setActive(slot0.npc, false)
-	end
-
-	slot0.shipState:SetActive(false)
-	slot0:updateProps({})
+	setActive(slot0.propsTr1, false)
+	setActive(slot0.shipState, false)
 end
 
-function slot0.update(slot0, slot1, slot2)
-	slot0.shipVO = slot1
-	slot0.isLocked = slot2
+function slot0.update(slot0, slot1)
+	if slot1 then
+		setActive(slot0.content, true)
 
-	slot0:flush()
+		slot0.shipVO = slot1
+
+		slot0:flush()
+	else
+		setActive(slot0.content, false)
+	end
+end
+
+function slot0.flush(slot0)
+	slot0.lvTxt.text = "Lv." .. slot0.shipVO.level
+	slot3 = slot0.shipVO.getStar(slot1)
+
+	slot0.UIlist:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setActive(slot2:Find("star"), slot1 <= slot0)
+		end
+	end)
+	slot0.UIlist:align(slot2)
+	slot0.nameTxt:setText(slot0.shipVO.getName(slot1))
+	slot0:updateProps({})
+	setPaintingPrefabAsync(slot0.paintingTr, slot0.shipVO.getPainting(slot1), "biandui")
+	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot0.shipVO.propose and "prop" .. ((slot1:isBluePrintShip() and "0" .. slot4) or "")) or nil)
+	GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", function (slot0)
+		slot0.bgImage.sprite = slot0
+	end)
+	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
+
+	slot6 = nil
+	slot7 = false
+
+	if slot1.propose then
+		slot6 = "duang_6_jiehun" .. ((slot1:isBluePrintShip() and "_tuzhi") or "") .. "_1"
+	elseif slot1:getRarity() == 6 then
+		slot6 = "duang_6_1"
+	end
+
+	if slot6 then
+		eachChild(slot0.otherBg, function (slot0)
+			setActive(slot0, slot0.name == slot0 .. "(Clone)")
+
+			slot1 = setActive or slot0.name == slot0 .. "(Clone)"
+			slot1 = slot1
+		end)
+
+		if not slot7 then
+			PoolMgr.GetInstance():GetPrefab("effect/" .. slot6, "", true, function (slot0)
+				setParent(slot0, slot0.otherBg)
+			end)
+		end
+	end
+
+	setActive(slot0.otherBg, slot6)
 end
 
 function slot0.updateProps(slot0, slot1)
@@ -67,86 +109,6 @@ function slot0.updateProps1(slot0, slot1)
 		else
 			slot6.gameObject:SetActive(false)
 		end
-	end
-end
-
-function slot0.flush(slot0)
-	if slot0.lock then
-		setActive(slot0.lock, false)
-	end
-
-	setActive(slot0.add, false)
-	setActive(slot0.detail, false)
-
-	if slot0.energyTF then
-		setActive(slot0.energyTF, false)
-	end
-
-	if slot0.isLocked then
-		if slot0.lock then
-			setActive(slot0.lock, true)
-			setImageSprite(slot0.lock, GetSpriteFromAtlas("shipframe", "bl"))
-		end
-	elseif slot0.shipVO then
-		if not IsNil(slot0.npc) then
-			setActive(slot0.npc, slot0.shipVO:isActivityNpc())
-		end
-
-		setActive(slot0.detail, true)
-
-		slot2 = slot0.shipVO.getConfigTable(slot1)
-		slot0.btn.targetGraphic = slot0.frameImage
-		slot0.lvTxt.text = tostring(slot0.shipVO.level)
-
-		slot0.nameTxt:setText(slot0.shipVO.getName(slot1))
-		setPaintingPrefabAsync(slot0.paintingTr, slot0.shipVO.getPainting(slot1), "biandui")
-		GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot3, "", function (slot0)
-			slot0.bgImage.sprite = slot0
-		end)
-
-		if slot0.energyTF then
-			if slot1.energy <= Ship.ENERGY_MID then
-				setImageSprite(slot0.energyTF, slot4)
-				setActive(slot0.energyTF, true)
-			else
-				setActive(slot0.energyTF, false)
-			end
-		end
-
-		slot0.frameImage.sprite = GetSpriteFromAtlas("shipframe", "b" .. ((slot1.propose and "prop") or slot3))
-
-		slot0.frameImage:SetNativeSize()
-
-		slot5 = slot1:isBluePrintShip()
-		slot6 = slot1:getRarity() == ShipRarity.SSR
-
-		setActive(slot0.duang, slot1.propose)
-
-		if slot0.duang6 then
-			setActive(slot0.duang6, slot6 and not slot4 and not slot5)
-		end
-
-		if slot0.duang6tuzhi then
-			setActive(slot0.duang6tuzhi, slot6 and not slot4 and slot5)
-		end
-
-		slot0.shipTypeImage.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot2.type))
-		slot10 = slot1:getMaxStar() - slot1:getStar()
-
-		for slot14 = slot0.starsTr.childCount, slot1.getMaxStar() - 1, 1 do
-			cloneTplTo(slot0.starTr, slot0.starsTr)
-		end
-
-		for slot14 = 0, slot0.starsTr.childCount - 1, 1 do
-			slot0.starsTr:GetChild(slot14).gameObject:SetActive(slot14 < slot9)
-			SetActive(slot15:Find("empty"), slot14 < slot10)
-			SetActive(slot15:Find("star"), slot10 <= slot14)
-		end
-	else
-		setActive(slot0.add, true)
-
-		slot0.addImage.sprite = GetSpriteFromAtlas("shipframe", "ba")
-		slot0.btn.targetGraphic = slot0.addImage
 	end
 end
 

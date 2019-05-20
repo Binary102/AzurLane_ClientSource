@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=30>二　圣诞亚哥！</size>",
+					"爱与和平的圣夜祭\n\n<size=45>二　圣诞亚哥！</size>",
 					1
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=40>啦~~~</size>",
+			say = "<size=60>啦~~~</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

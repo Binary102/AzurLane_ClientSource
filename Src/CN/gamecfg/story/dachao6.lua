@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>六　兽耳娘们的茶会</size>",
+					"来自{namecode:146}的温柔\n\n<size=45>六　兽耳娘们的茶会</size>",
 					1
 				}
 			}
@@ -279,7 +279,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=30>第二话　『有女神真好！』</size>",
+					"<size=45>第二话　『有女神真好！』</size>",
 					1
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=30>五 黑暗之中</size>",
+					"和姐姐的一日约会\n\n<size=45>五 黑暗之中</size>",
 					1
 				}
 			}
@@ -148,7 +148,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -222,7 +222,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -286,7 +286,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,

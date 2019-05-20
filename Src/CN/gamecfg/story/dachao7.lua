@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=30>七　今后也请多多关照！</size>",
+					"来自{namecode:146}的温柔\n\n<size=45>七　今后也请多多关照！</size>",
 					1
 				}
 			}
@@ -294,19 +294,19 @@ return {
 				{
 					actor = 301640,
 					pos = {
-						x = -250
+						x = -375
 					}
 				},
 				{
 					actor = 301660,
 					pos = {
-						x = 250
+						x = 375
 					}
 				},
 				{
 					actor = 301650,
 					pos = {
-						x = 500
+						x = 750
 					}
 				}
 			},

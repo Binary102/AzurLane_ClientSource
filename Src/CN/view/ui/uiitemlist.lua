@@ -13,27 +13,27 @@ function slot0.make(slot0, slot1)
 end
 
 function slot0.align(slot0, slot1)
-	for slot5 = slot1, slot0.container.childCount - 1, 1 do
-		setActive(slot0.container:GetChild(slot5), false)
+	for slot7 = slot1, slot0.container.childCount - 1, 1 do
+		setActive(slot2:GetChild(slot7), false)
 
 		if slot0.callback then
-			slot0.callback(slot0.EventExcess, slot5, slot6)
+			slot0.callback(slot0.EventExcess, slot7, slot8)
 		end
 	end
 
-	for slot5 = slot0.container.childCount, slot1 - 1, 1 do
-		slot6 = cloneTplTo(slot0.item, slot0.container)
+	for slot7 = slot3, slot1 - 1, 1 do
+		slot8 = cloneTplTo(slot0.item, slot2)
 
 		if slot0.callback then
-			slot0.callback(slot0.EventInit, slot5, slot6)
+			slot0.callback(slot0.EventInit, slot7, slot8)
 		end
 	end
 
-	for slot5 = 0, slot1 - 1, 1 do
-		setActive(slot0.container:GetChild(slot5), true)
+	for slot7 = 0, slot1 - 1, 1 do
+		setActive(slot2:GetChild(slot7), true)
 
 		if slot0.callback then
-			slot0.callback(slot0.EventUpdate, slot5, slot6)
+			slot0.callback(slot0.EventUpdate, slot7, slot8)
 		end
 	end
 end

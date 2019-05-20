@@ -5,7 +5,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK29901",
 		strengthen_item = 42001,
-		unlock_word = "皇家先锋角色图鉴登录数达到<color=#A9F548>20</color>个以上 ",
+		unlock_word = "皇家先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
 		blueprint_version = 1,
 		id = 29901,
 		unlock_task_open_condition = {
@@ -103,7 +103,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK29902",
 		strengthen_item = 42002,
-		unlock_word = "皇家主力角色图鉴登录数达到<color=#A9F548>10</color>个以上 ",
+		unlock_word = "皇家主力角色图鉴登录数达到<color=#92fc63>10</color>个以上 ",
 		blueprint_version = 1,
 		id = 29902,
 		unlock_task_open_condition = {
@@ -201,7 +201,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK39901",
 		strengthen_item = 42003,
-		unlock_word = "重樱先锋角色图鉴登录数达到<color=#A9F548>20</color>个以上 ",
+		unlock_word = "重樱先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
 		blueprint_version = 1,
 		id = 39901,
 		unlock_task_open_condition = {
@@ -299,7 +299,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK39902",
 		strengthen_item = 42004,
-		unlock_word = "重樱主力角色图鉴登录数达到<color=#A9F548>10</color>个以上 ",
+		unlock_word = "重樱主力角色图鉴登录数达到<color=#92fc63>10</color>个以上 ",
 		blueprint_version = 1,
 		id = 39902,
 		unlock_task_open_condition = {
@@ -397,7 +397,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK49901",
 		strengthen_item = 42005,
-		unlock_word = "铁血先锋角色图鉴登录数达到<color=#A9F548>7</color>个以上 ",
+		unlock_word = "铁血先锋角色图鉴登录数达到<color=#92fc63>7</color>个以上 ",
 		blueprint_version = 1,
 		id = 49901,
 		unlock_task_open_condition = {
@@ -495,7 +495,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 0,
 		luck_story = "LUCK89901",
 		strengthen_item = 42006,
-		unlock_word = "白鹰先锋角色图鉴登录数达到<color=#A9F548>20</color>个以上 ",
+		unlock_word = "白鹰先锋角色图鉴登录数达到<color=#92fc63>20</color>个以上 ",
 		blueprint_version = 1,
 		id = 89901,
 		unlock_task_open_condition = {
@@ -593,7 +593,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9907,
 		luck_story = "",
 		strengthen_item = 42011,
-		unlock_word = "白鹰阵营科技点数达到<color=#A9F548>760</color>",
+		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>",
 		blueprint_version = 2,
 		id = 19901,
 		unlock_task_open_condition = {
@@ -680,7 +680,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9908,
 		luck_story = "",
 		strengthen_item = 42012,
-		unlock_word = "白鹰阵营科技点数达到<color=#A9F548>810</color>",
+		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>810</color>",
 		blueprint_version = 2,
 		id = 19902,
 		unlock_task_open_condition = {
@@ -767,7 +767,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9909,
 		luck_story = "",
 		strengthen_item = 42013,
-		unlock_word = "重樱阵营科技点数达到<color=#A9F548>780</color>",
+		unlock_word = "重樱阵营科技点数达到<color=#92fc63>780</color>",
 		blueprint_version = 2,
 		id = 39903,
 		unlock_task_open_condition = {
@@ -854,7 +854,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9910,
 		luck_story = "",
 		strengthen_item = 42014,
-		unlock_word = "重樱阵营科技点数达到<color=#A9F548>900</color>",
+		unlock_word = "重樱阵营科技点数达到<color=#92fc63>900</color>",
 		blueprint_version = 2,
 		id = 39904,
 		unlock_task_open_condition = {
@@ -941,7 +941,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9911,
 		luck_story = "",
 		strengthen_item = 42015,
-		unlock_word = "铁血阵营科技点数达到<color=#A9F548>630</color>",
+		unlock_word = "铁血阵营科技点数达到<color=#92fc63>630</color>",
 		blueprint_version = 2,
 		id = 49902,
 		unlock_task_open_condition = {
@@ -1028,7 +1028,7 @@ pg.ship_data_blueprint = {
 		simulate_dungeon = 9912,
 		luck_story = "",
 		strengthen_item = 42016,
-		unlock_word = "白鹰阵营科技点数达到<color=#A9F548>760</color>、铁血阵营科技点数达到<color=#A9F548>420</color>",
+		unlock_word = "白鹰阵营科技点数达到<color=#92fc63>760</color>、铁血阵营科技点数达到<color=#92fc63>420</color>",
 		blueprint_version = 2,
 		id = 99901,
 		unlock_task_open_condition = {

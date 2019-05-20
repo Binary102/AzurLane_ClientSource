@@ -17,10 +17,8 @@ return {
 			arg_list = {
 				skill_id = 50110,
 				minTargetNumber = 1,
+				hpUpperBound = 0.8,
 				target = "TargetSelf",
-				hpRatioList = {
-					0.8
-				},
 				check_target = {
 					"TargetShipTag"
 				},

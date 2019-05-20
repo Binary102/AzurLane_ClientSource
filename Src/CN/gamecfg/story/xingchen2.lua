@@ -12,7 +12,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=30>二  LIVE「平行四界」</size>",
+					"小小的勇气\n\n<size=45>二  LIVE「平行四界」</size>",
 					1
 				}
 			}

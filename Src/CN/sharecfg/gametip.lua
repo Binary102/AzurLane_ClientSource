@@ -5,15 +5,15 @@ pg.gametip = {
 		key = "ad_0"
 	},
 	ad_1 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 建造获得 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 建造获得 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_1"
 	},
 	ad_2 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 出击获得 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 出击获得 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_2"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 获得角色 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 获得角色 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_3"
 	},
 	word_back = {
@@ -95,6 +95,14 @@ pg.gametip = {
 	word_get = {
 		tip = "获得",
 		key = "word_get"
+	},
+	word_got = {
+		tip = "已获得",
+		key = "word_got"
+	},
+	word_not_get = {
+		tip = "未获得",
+		key = "word_not_get"
 	},
 	word_next_level = {
 		tip = "下一级",
@@ -197,19 +205,19 @@ pg.gametip = {
 		key = "word_levelup"
 	},
 	word_serverLoadVindicate = {
-		tip = "<color=#656565FF>维护</color>",
+		tip = "<color=#a2a2a2>维护</color>",
 		key = "word_serverLoadVindicate"
 	},
 	word_serverLoadNormal = {
-		tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>正常</color></material>",
+		tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>正常</color></material>",
 		key = "word_serverLoadNormal"
 	},
 	word_serverLoadFull = {
-		tip = "<color=#C41717FF>已满</color>",
+		tip = "<color=#ff5c5c>已满</color>",
 		key = "word_serverLoadFull"
 	},
 	word_registerFull = {
-		tip = "<color=#C41717FF>爆满</color>",
+		tip = "<color=#ff5c5c>爆满</color>",
 		key = "word_registerFull"
 	},
 	word_synthesize = {
@@ -489,7 +497,7 @@ pg.gametip = {
 		key = "word_buy"
 	},
 	word_happy = {
-		tip = "<color=#4FFF00>开心</color>",
+		tip = "<color=#92fc63>开心</color>",
 		key = "word_happy"
 	},
 	word_normal = {
@@ -712,9 +720,33 @@ pg.gametip = {
 		tip = "防空炮",
 		key = "word_ air_defense_artillery"
 	},
+	word_air_defense_artillery = {
+		tip = "防空炮",
+		key = "word_air_defense_artillery"
+	},
 	word_device = {
 		tip = "设备",
 		key = "word_device"
+	},
+	word_cannon = {
+		tip = "舰炮",
+		key = "word_cannon"
+	},
+	word_fighter = {
+		tip = "战斗机",
+		key = "word_fighter"
+	},
+	word_bomber = {
+		tip = "轰炸机",
+		key = "word_bomber"
+	},
+	word_attacker = {
+		tip = "鱼雷机",
+		key = "word_attacker"
+	},
+	word_seaplane = {
+		tip = "水侦",
+		key = "word_seaplane"
 	},
 	word_online = {
 		tip = "在线",
@@ -813,15 +845,15 @@ pg.gametip = {
 		key = "common_dont_remind_dur_login"
 	},
 	common_activity_end = {
-		tip = "该活动<color=#A9F548>已经结束</color>",
+		tip = "该活动<color=#92fc63>已经结束</color>",
 		key = "common_activity_end"
 	},
 	common_activity_notStartOrEnd = {
-		tip = "该活动<color=#A9F548>未开始</color>或<color=#A9F548>已经结束</color>",
+		tip = "该活动<color=#92fc63>未开始</color>或<color=#92fc63>已经结束</color>",
 		key = "common_activity_notStartOrEnd"
 	},
 	common_activity_not_start = {
-		tip = "该活动<color=#A9F548>暂未开放</color>",
+		tip = "该活动<color=#92fc63>暂未开放</color>",
 		key = "common_activity_not_start"
 	},
 	common_error = {
@@ -829,15 +861,15 @@ pg.gametip = {
 		key = "common_error"
 	},
 	common_no_gold = {
-		tip = "<color=#A9F548>物资</color>不够啦！",
+		tip = "<color=#92fc63>物资</color>不够啦！",
 		key = "common_no_gold"
 	},
 	common_no_oil = {
-		tip = "<color=#A9F548>石油</color>不够啦！",
+		tip = "<color=#92fc63>石油</color>不够啦！",
 		key = "common_no_oil"
 	},
 	common_no_rmb = {
-		tip = "<color=#A9F548>钻石</color>不够啦！",
+		tip = "<color=#92fc63>钻石</color>不够啦！",
 		key = "common_no_rmb"
 	},
 	common_count_noenough = {
@@ -845,7 +877,7 @@ pg.gametip = {
 		key = "common_count_noenough"
 	},
 	common_no_dorm_gold = {
-		tip = "<color=#A9F548>家具币</color>不够啦！",
+		tip = "<color=#92fc63>家具币</color>不够啦！",
 		key = "common_no_dorm_gold"
 	},
 	common_no_resource = {
@@ -853,7 +885,7 @@ pg.gametip = {
 		key = "common_no_resource"
 	},
 	common_no_item = {
-		tip = "道具<color=#A9F548>[$1]</color>不足",
+		tip = "道具<color=#92fc63>[$1]</color>不足",
 		key = "common_no_item"
 	},
 	common_no_item_1 = {
@@ -869,7 +901,7 @@ pg.gametip = {
 		key = "common_use_item_sos_used"
 	},
 	common_no_x = {
-		tip = "<color=#A9F548>$1</color>不够啦！",
+		tip = "<color=#92fc63>$1</color>不够啦！",
 		key = "common_no_x"
 	},
 	common_limit_cmd = {
@@ -889,7 +921,7 @@ pg.gametip = {
 		key = "common_buy_success"
 	},
 	common_limit_level = {
-		tip = "需要指挥官等级:<color=#A9F548>Lv.$1</color>",
+		tip = "需要指挥官等级:<color=#92fc63>Lv.$1</color>",
 		key = "common_limit_level"
 	},
 	common_shopId_noFound = {
@@ -940,6 +972,10 @@ pg.gametip = {
 		tip = "未在换装上架时间内，敬请期待",
 		key = "common_skin_out_of_stock"
 	},
+	common_go_home = {
+		tip = "是否返回主界面",
+		key = "common_go_home"
+	},
 	dont_remind_today = {
 		tip = "今日不再提示",
 		key = "dont_remind_today"
@@ -957,11 +993,11 @@ pg.gametip = {
 		key = "battle_emptyBlock"
 	},
 	battle_duel_main_rage = {
-		tip = "双方<color=#A9F548>先锋全灭</color>，作战加速。",
+		tip = "双方<color=#92fc63>先锋全灭</color>，作战加速。",
 		key = "battle_duel_main_rage"
 	},
 	battle_main_emergent = {
-		tip = "<color=#A9F548>$1</color>受到重创，请注意拦截敌军",
+		tip = "<color=#92fc63>$1</color>受到重创，请注意拦截敌军",
 		key = "battle_main_emergent"
 	},
 	battle_battleMediator_goOnFight = {
@@ -973,11 +1009,11 @@ pg.gametip = {
 		key = "battle_battleMediator_existFight"
 	},
 	battle_battleMediator_clear_warning = {
-		tip = "是否要退出挑战模式？\n退出后将<color=#A9F548>重置挑战</color>，\n积分结算统计至本关开始前",
+		tip = "是否要退出挑战模式？\n退出后将<color=#92fc63>重置挑战</color>，\n积分结算统计至本关开始前",
 		key = "battle_battleMediator_clear_warning"
 	},
 	battle_battleMediator_quest_exist = {
-		tip = "现在退出将失去作战中获得的\n<color=#A9F548>资源、道具和角色。</color>您确定要退出吗？",
+		tip = "现在退出将失去作战中获得的\n<color=#92fc63>资源、道具和角色。</color>您确定要退出吗？",
 		key = "battle_battleMediator_quest_exist"
 	},
 	battle_levelMediator_ok_takeResource = {
@@ -1017,7 +1053,7 @@ pg.gametip = {
 		key = "battle_levelScene_noRaderCount"
 	},
 	battle_levelScene_lock = {
-		tip = "关卡尚未开放，请通关<color=#A9F548>前置关卡</color>",
+		tip = "关卡尚未开放，请通关<color=#92fc63>前置关卡</color>",
 		key = "battle_levelScene_lock"
 	},
 	battle_levelScene_lock_1 = {
@@ -1029,7 +1065,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_changeFormationError"
 	},
 	battle_preCombatLayer_changeFormationNumberError = {
-		tip = "舰队人数不足, 需要<color=#A9F548>$1</color>人才能使用此阵型",
+		tip = "舰队人数不足, 需要<color=#92fc63>$1</color>人才能使用此阵型",
 		key = "battle_preCombatLayer_changeFormationNumberError"
 	},
 	battle_preCombatLayer_ready = {
@@ -1037,7 +1073,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_ready"
 	},
 	battle_preCombatLayer_quest_leaveFleet = {
-		tip = "是否要把<color=#A9F548>$1</color>移出编队？",
+		tip = "是否要把<color=#92fc63>$1</color>移出编队？",
 		key = "battle_preCombatLayer_quest_leaveFleet"
 	},
 	battle_preCombatLayer_clear_confirm = {
@@ -1089,23 +1125,23 @@ pg.gametip = {
 		key = "battle_preCombatMediator_leastLimit"
 	},
 	battle_preCombatMediator_timeout = {
-		tip = "作战<color=#A9F548>时间用尽</color>，作战失败，点击确定返回选关界面",
+		tip = "作战<color=#92fc63>时间用尽</color>，作战失败，点击确定返回选关界面",
 		key = "battle_preCombatMediator_timeout"
 	},
 	battle_resourceSiteLayer_collecTimeDefault = {
-		tip = "采集时间: <color=#A9F548>--:--:--</color>",
+		tip = "采集时间: <color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTimeDefault"
 	},
 	battle_resourceSiteLayer_collecTime = {
-		tip = "采集时间: <color=#A9F548>$1</color>",
+		tip = "采集时间: <color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_collecTime"
 	},
 	battle_resourceSiteLayer_maxLv = {
-		tip = "最高等级<color=#A9F548>LV$1</color>",
+		tip = "最高等级<color=#92fc63>LV$1</color>",
 		key = "battle_resourceSiteLayer_maxLv"
 	},
 	battle_resourceSiteLayer_avgLv = {
-		tip = "平均等级<color=#A9F548>LV$1</color>",
+		tip = "平均等级<color=#92fc63>LV$1</color>",
 		key = "battle_resourceSiteLayer_avgLv"
 	},
 	battle_resourceSiteLayer_shipTypeCount = {
@@ -1113,15 +1149,15 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_shipTypeCount"
 	},
 	battle_resourceSiteLayer_no_maxLv = {
-		tip = "最高等级未达到<color=#A9F548>LV$1</color>",
+		tip = "最高等级未达到<color=#92fc63>LV$1</color>",
 		key = "battle_resourceSiteLayer_no_maxLv"
 	},
 	battle_resourceSiteLayer_no_avgLv = {
-		tip = "平均等级未达到<color=#A9F548>LV$1</color>",
+		tip = "平均等级未达到<color=#92fc63>LV$1</color>",
 		key = "battle_resourceSiteLayer_no_avgLv"
 	},
 	battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "队伍中缺少<color=#A9F548>$1X$2</color>",
+		tip = "队伍中缺少<color=#92fc63>$1X$2</color>",
 		key = "battle_resourceSiteLayer_no_shipTypeCount"
 	},
 	battle_resourceSiteLayer_startError_collecting = {
@@ -1129,11 +1165,11 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_startError_collecting"
 	},
 	battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "角色不足<color=#A9F548> 5 人</color>",
+		tip = "角色不足<color=#92fc63> 5 人</color>",
 		key = "battle_resourceSiteLayer_startError_not5Ship"
 	},
 	battle_resourceSiteLayer_startError_limit = {
-		tip = "未满足采集要求: <color=#A9F548>$1</color>",
+		tip = "未满足采集要求: <color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_startError_limit"
 	},
 	battle_resourceSiteLayer_endError_notStar = {
@@ -1149,7 +1185,7 @@ pg.gametip = {
 		key = "battle_resourceSiteMediator_noSite"
 	},
 	battle_resourceSiteMediator_shipState_fight = {
-		tip = "该角色正在<color=#A9F548>作战中</color>",
+		tip = "该角色正在<color=#92fc63>作战中</color>",
 		key = "battle_resourceSiteMediator_shipState_fight"
 	},
 	battle_resourceSiteMediator_shipState_rest = {
@@ -1177,7 +1213,7 @@ pg.gametip = {
 		key = "battle_autobot_unlock"
 	},
 	backyard_addExp_Info = {
-		tip = "指挥官不在的 ||<color=#FAFAF7FF>$1</color>|| 里得到了充分的休息！||一共消灭了|| <color=#A9F548FF>$2</color>|| 的食物，获得了|| <color=#A9F548FF>$3</color>|| 的经验~",
+		tip = "指挥官不在的 ||<color=#FAFAF7FF>$1</color>|| 里得到了充分的休息！||一共消灭了|| <color=#92fc63FF>$2</color>|| 的食物，获得了|| <color=#92fc63FF>$3</color>|| 的经验~",
 		key = "backyard_addExp_Info"
 	},
 	backyard_extendCapacity_error = {
@@ -1185,7 +1221,7 @@ pg.gametip = {
 		key = "backyard_extendCapacity_error"
 	},
 	backyard_extendCapacity_ok = {
-		tip = "存粮上限扩展成功！仓库容量提升<color=#A9F548>$1</color>",
+		tip = "存粮上限扩展成功！仓库容量提升<color=#92fc63>$1</color>",
 		key = "backyard_extendCapacity_ok"
 	},
 	backyard_addShip_error = {
@@ -1205,7 +1241,7 @@ pg.gametip = {
 		key = "backyard_addFood_error"
 	},
 	backyard_addFood_ok = {
-		tip = "补充成功，存粮<color=#A9F548>+$1</color>",
+		tip = "补充成功，存粮<color=#92fc63>+$1</color>",
 		key = "backyard_addFood_ok"
 	},
 	backyard_putFurniture_ok = {
@@ -1217,7 +1253,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodCountLimit"
 	},
 	backyard_shipAddInimacy_ok = {
-		tip = "<color=#A9F548>$1</color>亲密度<color=#A9F548>提高</color>",
+		tip = "<color=#92fc63>$1</color>亲密度<color=#92fc63>提高</color>",
 		key = "backyard_shipAddInimacy_ok"
 	},
 	backyard_shipAddInimacy_error = {
@@ -1225,7 +1261,7 @@ pg.gametip = {
 		key = "backyard_shipAddInimacy_error"
 	},
 	backyard_shipAddMoney_ok = {
-		tip = "<color=#A9F548>$1</color>有了意外的发现，家具币<color=#A9F548>+$2</color>",
+		tip = "<color=#92fc63>$1</color>有了意外的发现，家具币<color=#92fc63>+$2</color>",
 		key = "backyard_shipAddMoney_ok"
 	},
 	backyard_shipAddMoney_error = {
@@ -1249,11 +1285,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_full"
 	},
 	backyard_backyardGranaryLayer_buyCountLimit = {
-		tip = "最多只能购买<color=#A9F548>$1</color>",
+		tip = "最多只能购买<color=#92fc63>$1</color>",
 		key = "backyard_backyardGranaryLayer_buyCountLimit"
 	},
 	backyard_backyardGranaryLayer_error_noResource = {
-		tip = "购买失败，<color=#A9F548>$1</color>不足",
+		tip = "购买失败，<color=#92fc63>$1</color>不足",
 		key = "backyard_backyardGranaryLayer_error_noResource"
 	},
 	backyard_backyardGranaryLayer_noFood = {
@@ -1261,7 +1297,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_noFood"
 	},
 	backyard_backyardGranaryLayer_noTimer = {
-		tip = "<color=#A9F548>添加食物</color>可让大家回复疲劳和获得经验哦",
+		tip = "<color=#92fc63>添加食物</color>可让大家回复疲劳和获得经验哦",
 		key = "backyard_backyardGranaryLayer_noTimer"
 	},
 	backyard_backyardGranaryLayer_word = {
@@ -1269,7 +1305,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_word"
 	},
 	backyard_backyardGranaryLayer_noShip = {
-		tip = "后宅没还有添加休息的角色,<color=#A9F548>食物将不会消耗</color>",
+		tip = "后宅没还有添加休息的角色,<color=#92fc63>食物将不会消耗</color>",
 		key = "backyard_backyardGranaryLayer_noShip"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1281,55 +1317,55 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodTimeNotice_bottom"
 	},
 	backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-		tip = "存粮上限：<color=#A9F548>$1</color>提升到<color=#A9F548>$2</color>",
+		tip = "存粮上限：<color=#92fc63>$1</color>提升到<color=#92fc63>$2</color>",
 		key = "backyard_backyardGranaryLayer_foodMaxIncreaseNotice"
 	},
 	backyard_backyardGranaryLayer_error_entendFail = {
-		tip = "<color=#A9F548>扩充失败,资源不足</color>",
+		tip = "<color=#92fc63>扩充失败,资源不足</color>",
 		key = "backyard_backyardGranaryLayer_error_entendFail"
 	},
 	backyard_backyardGranaryLayer_buy_max_count = {
-		tip = "存粮条<color=#A9F548>已达上限</color>",
+		tip = "存粮条<color=#92fc63>已达上限</color>",
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=18>经验收益<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>+$1%</color></material></size><size=16>\n<舒适度计算<material=outline c=#3D3D3DFF x1y=1><color=#A9F548FF>各类家具</color></material>中舒适度最高的<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>前n件</color></material>(n依据各类家具<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>可摆放数量</color></material>，地垫为<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2</color></material>)的总和，不受摆放影响></size>",
+		tip = "<size=26>经验收益<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>+$1%</color></material></size><size=22>\n<舒适度计算<material=outline c=#3D3D3DFF x1y=1><color=#92fc63FF>各类家具</color></material>中舒适度最高的<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>前n件</color></material>(n依据各类家具<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>可摆放数量</color></material>，地垫为<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2</color></material>)的总和，不受摆放影响></size>",
 		key = "backyard_backyardScene_comforChatContent1"
 	},
 	backyard_buyExtendItem_question = {
-		tip = "将花费<color=#A9F548>$1</color>,是否继续？",
+		tip = "将花费<color=#92fc63>$1</color>,是否继续？",
 		key = "backyard_buyExtendItem_question"
 	},
 	backyard_backyardScene_comforChatContent1_1 = {
-		tip = "<color=#CC0000>艰苦</color>",
+		tip = "<color=#ff5c5c>艰苦</color>",
 		key = "backyard_backyardScene_comforChatContent1_1"
 	},
 	backyard_backyardScene_comforChatContent2_2 = {
-		tip = "<color=#FFBB11>普通</color>",
+		tip = "<color=#ffde38>普通</color>",
 		key = "backyard_backyardScene_comforChatContent2_2"
 	},
 	backyard_backyardScene_comforChatContent3_3 = {
-		tip = "<color=#00EEFF>舒适</color>",
+		tip = "<color=#c5cfdf>舒适</color>",
 		key = "backyard_backyardScene_comforChatContent3_3"
 	},
 	backyard_backyardScene_quest_clearButton = {
-		tip = "是否<color=#A9F548>清空</color>当前布置",
+		tip = "是否<color=#92fc63>清空</color>当前布置",
 		key = "backyard_backyardScene_quest_clearButton"
 	},
 	backyard_backyardScene_quest_saveFurniture = {
-		tip = "是否<color=#A9F548>保存</color>当前设置",
+		tip = "是否<color=#92fc63>保存</color>当前设置",
 		key = "backyard_backyardScene_quest_saveFurniture"
 	},
 	backyard_backyardScene_restSuccess = {
-		tip = "<color=#A9F548>还原成功</color>",
+		tip = "<color=#92fc63>还原成功</color>",
 		key = "backyard_backyardScene_restSuccess"
 	},
 	backyard_backyardScene_clearSuccess = {
-		tip = "<color=#A9F548>清空成功</color>",
+		tip = "<color=#92fc63>清空成功</color>",
 		key = "backyard_backyardScene_clearSuccess"
 	},
 	backyard_backyardScene_name = {
-		tip = "<color=#A9F548>$1的后宅</color>",
+		tip = "<color=#92fc63>$1的后宅</color>",
 		key = "backyard_backyardScene_name"
 	},
 	backyard_backyardScene_exitShipAfterAddEnergy = {
@@ -1337,11 +1373,11 @@ pg.gametip = {
 		key = "backyard_backyardScene_exitShipAfterAddEnergy"
 	},
 	backyard_backyardScene_timeRest = {
-		tip = "剩余时间:<color=#A9F548>$1</color>",
+		tip = "剩余时间:<color=#92fc63>$1</color>",
 		key = "backyard_backyardScene_timeRest"
 	},
 	backyard_backyardScene_showAddExpInfo = {
-		tip = "休息的时间为：<color=#A9F548>$1</color> 添加的经验值为：<color=#A9F548>$2</color>",
+		tip = "休息的时间为：<color=#92fc63>$1</color> 添加的经验值为：<color=#92fc63>$2</color>",
 		key = "backyard_backyardScene_showAddExpInfo"
 	},
 	backyard_backyardScene_error_noPosPutFurniture = {
@@ -1353,19 +1389,19 @@ pg.gametip = {
 		key = "backyard_backyardScene_error_noFurniture"
 	},
 	backyard_backyardScene_error_canNotRotate = {
-		tip = "该位置<color=#A9F548>无法旋转</color>",
+		tip = "该位置<color=#92fc63>无法旋转</color>",
 		key = "backyard_backyardScene_error_canNotRotate"
 	},
 	backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "开启栏位需要消耗<color=#A9F548>$1钻石</color>,是否确认开启",
+		tip = "开启栏位需要消耗<color=#92fc63>$1钻石</color>,是否确认开启",
 		key = "backyard_backyardShipInfoLayer_quest_openPos"
 	},
 	backyard_backyardShipInfoLayer_quest_addShipNoFood = {
-		tip = "当前<color=#A9F548>存粮不足</color>，是否补充食物？",
+		tip = "当前<color=#92fc63>存粮不足</color>，是否补充食物？",
 		key = "backyard_backyardShipInfoLayer_quest_addShipNoFood"
 	},
 	backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
-		tip = "加速需要<color=#A9F548>消耗快速道具</color>,是否加速",
+		tip = "加速需要<color=#92fc63>消耗快速道具</color>,是否加速",
 		key = "backyard_backyardShipInfoLayer_quest_quickAddEnergy"
 	},
 	backyard_backyardShipInfoLayer_error_noQuickItem = {
@@ -1393,7 +1429,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoMediator_shipState_event"
 	},
 	backyard_backyardShipInfoMediator_quest_moveOutFleet = {
-		tip = "该角色在战斗编队中，确认要将其<color=#A9F548>移出编队</color>？",
+		tip = "该角色在战斗编队中，确认要将其<color=#92fc63>移出编队</color>？",
 		key = "backyard_backyardShipInfoMediator_quest_moveOutFleet"
 	},
 	backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
@@ -1425,7 +1461,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip"
 	},
 	backyard_open_2floor = {
-		tip = "开启二层需要消耗<icon name=diamond w=0.7 h=0.7/><color=#A9F548FF>$1</color>是否确定开启\n *新楼层<color=#FF4B14>不会增加</color>训练栏位，仅用于摆放家具",
+		tip = "开启二层需要消耗<icon name=diamond w=0.7 h=0.7/><color=#92fc63FF>$1</color>是否确定开启\n *新楼层<color=#FF4B14>不会增加</color>训练栏位，仅用于摆放家具",
 		key = "backyard_open_2floor"
 	},
 	backyarad_theme_replace = {
@@ -1437,7 +1473,7 @@ pg.gametip = {
 		key = "backyard_extendArea_ok"
 	},
 	backyard_extendArea_erro = {
-		tip = "扩建后宅失败<color=#A9F548>$1</color>",
+		tip = "扩建后宅失败<color=#92fc63>$1</color>",
 		key = "backyard_extendArea_erro"
 	},
 	backyard_extendArea_tip = {
@@ -1453,7 +1489,7 @@ pg.gametip = {
 		key = "backyard_no_ship_tip"
 	},
 	backyard_energy_qiuck_up_tip = {
-		tip = "立即恢复需要<color=#A9F548FF>$1杯</color>能量恢复咖啡\n\n剩余能量咖啡：<color=$2>$3杯</color>",
+		tip = "立即恢复需要<color=#92fc63FF>$1杯</color>能量恢复咖啡\n\n剩余能量咖啡：<color=$2>$3杯</color>",
 		key = "backyard_energy_qiuck_up_tip"
 	},
 	backyard_cant_put_tip = {
@@ -1465,15 +1501,15 @@ pg.gametip = {
 		key = "backyard_cant_buy_tip"
 	},
 	backyard_theme_lock_tip = {
-		tip = "该主题<color=#A9F548>尚未开启</color>",
+		tip = "该主题<color=#92fc63>尚未开启</color>",
 		key = "backyard_theme_lock_tip"
 	},
 	backyard_theme_open_tip = {
-		tip = "解锁条件:\n指挥官等级提升到<color=#A9F548>$1</color>级",
+		tip = "解锁条件:\n指挥官等级提升到<color=#92fc63>$1</color>级",
 		key = "backyard_theme_open_tip"
 	},
 	backyard_theme_furniture_buy_tip = {
-		tip = "是否花费<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$1</color></material>家具币购买<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$2</color></material>？",
+		tip = "是否花费<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material>家具币购买<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>？",
 		key = "backyard_theme_furniture_buy_tip"
 	},
 	backyard_cannot_repeat_purchase = {
@@ -1533,15 +1569,15 @@ pg.gametip = {
 		key = "equipment_equipDevUI_error_noPos"
 	},
 	equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "无法装备:<color=#A9F548>$1</color>",
+		tip = "无法装备:<color=#92fc63>$1</color>",
 		key = "equipment_equipmentInfoLayer_error_canNotEquip"
 	},
 	equipment_equipmentScene_selectError_more = {
-		tip = "最多选择 <color=#A9F548>$1</color> 个装备",
+		tip = "最多选择 <color=#92fc63>$1</color> 个装备",
 		key = "equipment_equipmentScene_selectError_more"
 	},
 	equipment_newEquipLayer_getNewEquip = {
-		tip = "获得装备:<color=#A9F548>$1</color>",
+		tip = "获得装备:<color=#92fc63>$1</color>",
 		key = "equipment_newEquipLayer_getNewEquip"
 	},
 	equipment_select_materials_tip = {
@@ -1553,7 +1589,7 @@ pg.gametip = {
 		key = "equipment_select_device_tip"
 	},
 	equipment_cant_unload = {
-		tip = "<color=#A9F548>装备仓库已满</color>, 无法卸下装备",
+		tip = "<color=#92fc63>装备仓库已满</color>, 无法卸下装备",
 		key = "equipment_cant_unload"
 	},
 	equipment_max_level = {
@@ -1561,15 +1597,15 @@ pg.gametip = {
 		key = "equipment_max_level"
 	},
 	exercise_count_insufficient = {
-		tip = "演习<color=#A9F548>次数不足</color>",
+		tip = "演习<color=#92fc63>次数不足</color>",
 		key = "exercise_count_insufficient"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "该操作将会使<color=#A9F548>防守舰队先锋/主力被清空</color>，防守舰队将替换为第一舰队，是否确认？",
+		tip = "该操作将会使<color=#92fc63>防守舰队先锋/主力被清空</color>，防守舰队将替换为第一舰队，是否确认？",
 		key = "exercise_clear_fleet_tip"
 	},
 	exercise_fleet_exit_tip = {
-		tip = "该角色属于<color=#A9F548>竞技场防守舰队</color>，是否确认退出？",
+		tip = "该角色属于<color=#92fc63>竞技场防守舰队</color>，是否确认退出？",
 		key = "exercise_fleet_exit_tip"
 	},
 	exercise_replace_rivals_ok_tip = {
@@ -1577,19 +1613,19 @@ pg.gametip = {
 		key = "exercise_replace_rivals_ok_tip"
 	},
 	exercise_replace_rivals_question = {
-		tip = "是否花费<color=#A9F548>$1</color>钻石更换对手?",
+		tip = "是否花费<color=#92fc63>$1</color>钻石更换对手?",
 		key = "exercise_replace_rivals_question"
 	},
 	exercise_count_recover_tip = {
-		tip = "( <color=#A9F548>$1</color> 后恢复)",
+		tip = "( <color=#92fc63>$1</color> 后恢复)",
 		key = "exercise_count_recover_tip"
 	},
 	exercise_shop_refresh_tip = {
-		tip = "是否花费<color=#A9F548>$1</color>钻石刷新商品列表",
+		tip = "是否花费<color=#92fc63>$1</color>钻石刷新商品列表",
 		key = "exercise_shop_refresh_tip"
 	},
 	exercise_shop_buy_tip = {
-		tip = "是否花费<color=#A9F548>$1</color>功勋购买该商品",
+		tip = "是否花费<color=#92fc63>$1</color>功勋购买该商品",
 		key = "exercise_shop_buy_tip"
 	},
 	exercise_formation_title = {
@@ -1602,16 +1638,16 @@ pg.gametip = {
 	},
 	exercise_rule_tip = {
 		tip = [[
-   1、每<color=#a9f548>14</color>天为一个赛季，赛季中达到指定军衔，即可获得军衔对应奖励
-   2、战斗胜利可以按军衔等级获得功勋，即使失败也可获得<color=#a9f548>一半</color>的功勋
-   3、战斗胜利可以获得积分，战斗失败<color=#a9f548>不会扣除积分</color>
+   1、每<color=#92fc63>14</color>天为一个赛季，赛季中达到指定军衔，即可获得军衔对应奖励
+   2、战斗胜利可以按军衔等级获得功勋，即使失败也可获得<color=#92fc63>一半</color>的功勋
+   3、战斗胜利可以获得积分，战斗失败<color=#92fc63>不会扣除积分</color>
    4、受到其他人的挑战而失败不会扣除积分
-   5、积分达到一定值，就可以提升军衔，<color=#a9f548>将阶以上</color>军衔需要达到一定名次
+   5、积分达到一定值，就可以提升军衔，<color=#92fc63>将阶以上</color>军衔需要达到一定名次
    6、军衔只要达到过1次，就会立刻获得军衔奖励
    7、获得的功勋可以在功勋商店兑换科技箱、角色等奖励
-   8、演习对手可以免费手动更换，每天只能更换<color=#a9f548>5</color>次
+   8、演习对手可以免费手动更换，每天只能更换<color=#92fc63>5</color>次
    9、挑战后，无论成败，都会自动更换一组对手
-   10、演习次数每天00:00、12:00、18:00刷新，刷新时增加<color=#a9f548>5</color>次演习次数，演习次数上限为<color=#a9f548>10</color>次
+   10、演习次数每天00:00、12:00、18:00刷新，刷新时增加<color=#92fc63>5</color>次演习次数，演习次数上限为<color=#92fc63>10</color>次
    11、赛季结束后，所有玩家军衔和积分重置]],
 		key = "exercise_rule_tip"
 	},
@@ -1620,7 +1656,7 @@ pg.gametip = {
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
-		tip = "请选择用于<color=#A9F548>$1</color>的角色：",
+		tip = "请选择用于<color=#92fc63>$1</color>的角色：",
 		key = "dock_yard_left_tips"
 	},
 	fleet_error_no_fleet = {
@@ -1636,7 +1672,7 @@ pg.gametip = {
 		key = "fleet_repairShips_error_noResource"
 	},
 	fleet_repairShips_quest = {
-		tip = "是否花费<color=#A9F548>$1</color>物资恢复所有舰队的体力值？",
+		tip = "是否花费<color=#92fc63>$1</color>物资恢复所有舰队的体力值？",
 		key = "fleet_repairShips_quest"
 	},
 	fleet_fleetRaname_error = {
@@ -1700,7 +1736,7 @@ pg.gametip = {
 		key = "friend_addblacklist_success"
 	},
 	friend_confirm_add_blacklist = {
-		tip = "确定将<color=#A9F548>$1</color>屏蔽并拉入黑名单？\n（可在好友系统中看到黑名单列表）",
+		tip = "确定将<color=#92fc63>$1</color>屏蔽并拉入黑名单？\n（可在好友系统中看到黑名单列表）",
 		key = "friend_confirm_add_blacklist"
 	},
 	friend_relieve_backlist_tip = {
@@ -1728,7 +1764,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "取消训练将返还部分经验并<color=#A9F548>消耗课本</color>，是否确认？",
+		tip = "取消训练将返还部分经验并<color=#92fc63>消耗课本</color>，是否确认？",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1744,24 +1780,20 @@ pg.gametip = {
 			pageMode = true,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	tactics_lesson_start_tip = {
-		tip = "是否消耗<color=#A9F548>1本</color><color=#A9F548>「$1」</color>，训练<color=#A9F548>「$2」</color>的<color=#A9F548>$3</color>技能？",
+		tip = "是否消耗<color=#92fc63>1本</color><color=#92fc63>「$1」</color>，训练<color=#92fc63>「$2」</color>的<color=#92fc63>$3</color>技能？",
 		key = "tactics_lesson_start_tip"
 	},
 	tactics_noskill_erro = {
@@ -1773,7 +1805,7 @@ pg.gametip = {
 		key = "tactics_max_level"
 	},
 	tactics_end_to_learn = {
-		tip = "<color=#A9F548>「$1」</color>学习完成，<color=#A9F548>「$2」</color>技能获得<color=#A9F548>$3</color>点经验",
+		tip = "<color=#92fc63>「$1」</color>学习完成，<color=#92fc63>「$2」</color>技能获得<color=#92fc63>$3</color>点经验",
 		key = "tactics_end_to_learn"
 	},
 	tactics_continue_to_learn = {
@@ -1977,15 +2009,15 @@ pg.gametip = {
 		key = "mail_takeAttachment_error_noAttach"
 	},
 	mail_count = {
-		tip = "包含<color=#A9F548>$1个</color>附件",
+		tip = "包含<color=#92fc63>$1个</color>附件",
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#A9F548>领取失败</color>\n\n您的<color=#A9F548>装备仓库已满</color>",
+		tip = "<color=#92fc63>领取失败</color>\n\n您的<color=#92fc63>装备仓库已满</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#A9F548>领取失败</color>\n\n您的<color=#A9F548>船坞已满</color>",
+		tip = "<color=#92fc63>领取失败</color>\n\n您的<color=#92fc63>船坞已满</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -2017,15 +2049,15 @@ pg.gametip = {
 		key = "main_mailLayer_attachTaken"
 	},
 	main_mailLayer_quest_clear = {
-		tip = "真的要删除所有已读邮件吗？<color=#A9F548>（未领取附件的邮件将会保留）</color>",
+		tip = "真的要删除所有已读邮件吗？<color=#92fc63>（未领取附件的邮件将会保留）</color>",
 		key = "main_mailLayer_quest_clear"
 	},
 	main_mailLayer_quest_deleteNotTakeAttach = {
-		tip = "<color=#A9F548>附件未领取</color>，真的要删除该邮件吗?",
+		tip = "<color=#92fc63>附件未领取</color>，真的要删除该邮件吗?",
 		key = "main_mailLayer_quest_deleteNotTakeAttach"
 	},
 	main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#A9F548>邮件未阅读</color>，真的要删除该邮件吗?",
+		tip = "<color=#92fc63>邮件未阅读</color>，真的要删除该邮件吗?",
 		key = "main_mailLayer_quest_deleteNotRead"
 	},
 	main_mailMediator_mailDelete = {
@@ -2049,27 +2081,27 @@ pg.gametip = {
 		key = "main_navalAcademyScene_systemClose"
 	},
 	main_navalAcademyScene_quest_startClass = {
-		tip = "<color=#A9F548>上课啦，同学们请坐好，不要开小差~</color>",
+		tip = "<color=#92fc63>上课啦，同学们请坐好，不要开小差~</color>",
 		key = "main_navalAcademyScene_quest_startClass"
 	},
 	main_navalAcademyScene_quest_stopClass = {
-		tip = "同学们努力学习中，确认让她们一起逃课？\n<color=#A9F548>（逃课将不获得属性值加成）</color>",
+		tip = "同学们努力学习中，确认让她们一起逃课？\n<color=#92fc63>（逃课将不获得属性值加成）</color>",
 		key = "main_navalAcademyScene_quest_stopClass"
 	},
 	main_navalAcademyScene_quest_Classover_long = {
-		tip = "下课啦！<color=#A9F548>$1</color>认真学习，<color=#A9F548>$2+$3</color>；<color=#A9F548>$4+$5</color>！",
+		tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>；<color=#92fc63>$4+$5</color>！",
 		key = "main_navalAcademyScene_quest_Classover_long"
 	},
 	main_navalAcademyScene_quest_Classover_short = {
-		tip = "下课啦！<color=#A9F548>$1</color>认真学习，<color=#A9F548>$2+$3</color>！",
+		tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>！",
 		key = "main_navalAcademyScene_quest_Classover_short"
 	},
 	main_navalAcademyScene_upgrade_complete = {
-		tip = "<color=#A9F548>$1</color> 升级完成，最大容量<color=#9CFF5CE6>+$2</color>！",
+		tip = "<color=#92fc63>$1</color> 升级完成，最大容量<color=#9CFF5CE6>+$2</color>！",
 		key = "main_navalAcademyScene_upgrade_complete"
 	},
 	main_navalAcademyScene_class_upgrade_complete = {
-		tip = "<color=#A9F548>$1</color> 升级完成！",
+		tip = "<color=#92fc63>$1</color> 升级完成！",
 		key = "main_navalAcademyScene_class_upgrade_complete"
 	},
 	main_navalAcademyScene_work_done = {
@@ -2105,7 +2137,7 @@ pg.gametip = {
 		key = "main_notificationLayer_addFriendError_friendAlready"
 	},
 	main_notificationLayer_quest_deletFriend = {
-		tip = "您是否确认要删除好友<color=#A9F548>「$1」</color>？",
+		tip = "您是否确认要删除好友<color=#92fc63>「$1」</color>？",
 		key = "main_notificationLayer_quest_deletFriend"
 	},
 	main_notificationLayer_quest_request = {
@@ -2113,7 +2145,7 @@ pg.gametip = {
 		key = "main_notificationLayer_quest_request"
 	},
 	main_notificationLayer_enter_room = {
-		tip = "已经进入房间<color=#A9F548>$1</color>",
+		tip = "已经进入房间<color=#92fc63>$1</color>",
 		key = "main_notificationLayer_enter_room"
 	},
 	main_notificationLayer_not_roomId = {
@@ -2129,11 +2161,11 @@ pg.gametip = {
 		key = "main_notificationMediator_sendFriendRequest"
 	},
 	main_notificationMediator_beFriend = {
-		tip = "您与<color=#A9F548>「$1」</color>成为好友",
+		tip = "您与<color=#92fc63>「$1」</color>成为好友",
 		key = "main_notificationMediator_beFriend"
 	},
 	main_notificationMediator_deleteFriend = {
-		tip = "您与<color=#A9F548>「$1」</color>解除好友",
+		tip = "您与<color=#92fc63>「$1」</color>解除好友",
 		key = "main_notificationMediator_deleteFriend"
 	},
 	main_notificationMediator_room_max_number = {
@@ -2149,7 +2181,7 @@ pg.gametip = {
 		key = "main_playerInfoLayer_inputManifesto"
 	},
 	main_playerInfoLayer_quest_changeName = {
-		tip = "将消耗<color=#A9F548>钻石100</color>,是否继续",
+		tip = "将消耗<color=#92fc63>钻石100</color>,是否继续",
 		key = "main_playerInfoLayer_quest_changeName"
 	},
 	main_playerInfoLayer_error_changeNameNoGem = {
@@ -2192,30 +2224,25 @@ pg.gametip = {
 			},
 			{
 				info = [[
-1 每张绘图日记的单元格上标注有对应的颜料编号，选中对应 
-的颜料编号并点击单元格即可进行上色； 
+1 每张绘图日记的单元格上标注有对应的颜料编号，选中
+对应的颜料编号并点击单元格即可进行上色； 
 2 绘图区域可以通过双指拉伸或缩小；
 3 上色会对同色单元格自动上色，直到颜料耗尽或涂满；
 4 上色会消耗颜料，剩余颜料为0时不可以上色；
 5 颜料可通过活动任务累计消耗石油获得；
 6 完成上色可以获得奖励；
 7 各图完成奖励明细如下：
-	完成图1获得随机教材T3 x1，骰子 x3；
-	完成图2获得随机教材T3 x2，骰子 x3；
-	完成图3获得随机教材T3 x3，骰子 x3；
-	完成图4获得主炮部件T3 x2，骰子 x2；
-	完成图5获得主炮部件T3 x3，骰子 x2；
-	完成图6获得通用部件T3 x3，骰子 x2；
-	完成图7获得通用部件T3 x4，骰子 x2；
-	完成图8获得鞍山 x1，骰子 x1；
+	完成图1获得随机教材T3 x3；
+	完成图2获得通用部件T3 x4；
+	完成图3获得茗换装「茗_在A1摊位喵！」
 8 完成全部的绘图日记后解锁一张额外的空白绘图日记；
 9 空白绘图日记没有使用颜料限制，且不会消耗颜料；
 10 空白绘图日记可以使用橡皮擦和全部清除功能；
 11 橡皮擦可以擦除单个单元格上色颜色；
 12 全部清除功能可以擦除绘图日记上色所有颜色；
 13 活动结束后，未消耗的颜料会被清除。
-14 2月7日前每天解锁一个可完成的绘图，空白画板最快
-2月8日解锁；]]
+14 5月22日前每天解锁一个可完成的绘图，空白画板最快
+5月23日解锁；]]
 			}
 		}
 	},
@@ -2329,7 +2356,7 @@ pg.gametip = {
 		key = "resourceSite_startResourceSite_error"
 	},
 	ship_error_noShip = {
-		tip = "角色不存在: <color=#A9F548>$1</color>",
+		tip = "角色不存在: <color=#92fc63>$1</color>",
 		key = "ship_error_noShip"
 	},
 	ship_addStarExp_error = {
@@ -2341,7 +2368,7 @@ pg.gametip = {
 		key = "ship_buildShip_error"
 	},
 	ship_buildShip_error_noTemplate = {
-		tip = "造船配置不存在: <color=#A9F548>$1</color>",
+		tip = "造船配置不存在: <color=#92fc63>$1</color>",
 		key = "ship_buildShip_error_noTemplate"
 	},
 	ship_buildShip_error_notEnoughItem = {
@@ -2369,11 +2396,11 @@ pg.gametip = {
 		key = "ship_buildShip_not_position"
 	},
 	ship_buildBatchShip = {
-		tip = "确认消耗<color=#A9F548>$1钻石</color>，获得<color=#A9F548>10艘高性能舰船</color>？",
+		tip = "确认消耗<color=#92fc63>$1钻石</color>，获得<color=#92fc63>10艘高性能舰船</color>？",
 		key = "ship_buildBatchShip"
 	},
 	ship_buildSingleShip = {
-		tip = "确认消耗<color=#A9F548>$1钻石</color>，获得<color=#A9F548>1艘高性能舰船</color>？",
+		tip = "确认消耗<color=#92fc63>$1钻石</color>，获得<color=#92fc63>1艘高性能舰船</color>？",
 		key = "ship_buildSingleShip"
 	},
 	ship_buildShip_succeed = {
@@ -2385,7 +2412,7 @@ pg.gametip = {
 		key = "ship_buildShip_list_empty"
 	},
 	ship_buildship_tip = {
-		tip = "建造一艘<color=#A9F548>$4</color>需要消耗：\n<color=#A9F548>$1物资</color>和<color=#A9F548>$2个$3</color>",
+		tip = "建造一艘<color=#92fc63>$4</color>需要消耗：\n<color=#92fc63>$1物资</color>和<color=#92fc63>$2个$3</color>",
 		key = "ship_buildship_tip"
 	},
 	ship_destoryShips_error = {
@@ -2393,7 +2420,7 @@ pg.gametip = {
 		key = "ship_destoryShips_error"
 	},
 	ship_equipToShip_ok = {
-		tip = "<color=#A9F548>$1</color>装备成功",
+		tip = "<color=#92fc63>$1</color>装备成功",
 		key = "ship_equipToShip_ok"
 	},
 	ship_equipToShip_error = {
@@ -2417,7 +2444,7 @@ pg.gametip = {
 		key = "ship_getShip_error_notFinish"
 	},
 	ship_getShip_error_full = {
-		tip = "<color=#A9F548>船坞已满</color>, 无法获得角色",
+		tip = "<color=#92fc63>船坞已满</color>, 无法获得角色",
 		key = "ship_getShip_error_full"
 	},
 	ship_modShip_error = {
@@ -2425,7 +2452,7 @@ pg.gametip = {
 		key = "ship_modShip_error"
 	},
 	ship_modShip_error_notEnoughGold = {
-		tip = "<color=#A9F548>物资不足</color>",
+		tip = "<color=#92fc63>物资不足</color>",
 		key = "ship_modShip_error_notEnoughGold"
 	},
 	ship_remouldShip_error = {
@@ -2449,15 +2476,15 @@ pg.gametip = {
 		key = "ship_unequip_all_tip"
 	},
 	ship_unequip_all_success = {
-		tip = "装备<color=#FF0000>卸载</color>成功",
+		tip = "装备<color=#ff5c5c>卸载</color>成功",
 		key = "ship_unequip_all_success"
 	},
 	ship_updateShipLock_ok_lock = {
-		tip = "<color=#A9F548>$1</color>锁定成功",
+		tip = "<color=#92fc63>$1</color>锁定成功",
 		key = "ship_updateShipLock_ok_lock"
 	},
 	ship_updateShipLock_ok_unlock = {
-		tip = "<color=#A9F548>$1</color>解锁成功",
+		tip = "<color=#92fc63>$1</color>解锁成功",
 		key = "ship_updateShipLock_ok_unlock"
 	},
 	ship_updateShipLock_error = {
@@ -2473,7 +2500,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_error_4010"
 	},
 	ship_upgradeStar_error_lvLimit = {
-		tip = "<color=#A9F548>等级</color>不满足突破条件",
+		tip = "<color=#92fc63>等级</color>不满足突破条件",
 		key = "ship_upgradeStar_error_lvLimit"
 	},
 	ship_upgradeStar_error_noEnoughMatrail = {
@@ -2481,7 +2508,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_error_noEnoughMatrail"
 	},
 	ship_upgradeStar_notConfig = {
-		tip = "找不到突破配置<color=#A9F548>$1</color>",
+		tip = "找不到突破配置<color=#92fc63>$1</color>",
 		key = "ship_upgradeStar_notConfig"
 	},
 	ship_upgradeStar_maxLevel = {
@@ -2493,7 +2520,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_select_material_tip"
 	},
 	ship_exchange_question = {
-		tip = "是否花费<color=#A9F548>$1</color>个勋章兑换<color=#A9F548>$2</color>",
+		tip = "是否花费<color=#92fc63>$1</color>个勋章兑换<color=#92fc63>$2</color>",
 		key = "ship_exchange_question"
 	},
 	ship_exchange_medalCount_noEnough = {
@@ -2501,7 +2528,7 @@ pg.gametip = {
 		key = "ship_exchange_medalCount_noEnough"
 	},
 	ship_exchange_erro = {
-		tip = "兑换失败：<color=#A9F548>$1</color>",
+		tip = "兑换失败：<color=#92fc63>$1</color>",
 		key = "ship_exchange_erro"
 	},
 	ship_exchange_confirm = {
@@ -2509,7 +2536,7 @@ pg.gametip = {
 		key = "ship_exchange_confirm"
 	},
 	ship_exchange_tip = {
-		tip = "1.角色退役可以获得荣誉勋章\n2.使用荣誉勋章可以在兑换系统雇佣新的角色\n3.兑换系统每天<color=#A9F548>6点</color>和<color=#A9F548>18点</color>刷新",
+		tip = "1.角色退役可以获得荣誉勋章\n2.使用荣誉勋章可以在兑换系统雇佣新的角色\n3.兑换系统每天<color=#92fc63>6点</color>和<color=#92fc63>18点</color>刷新",
 		key = "ship_exchange_tip"
 	},
 	ship_vo_fighting = {
@@ -2573,7 +2600,7 @@ pg.gametip = {
 		key = "ship_buildShipMediator_finishBuild"
 	},
 	ship_buildShipScene_quest_quickFinish = {
-		tip = "快速完成需要消耗<color=#A9F548>$1个</color>快速完成工具\n\n剩余加速道具: <color=#A9F548>$3个</color>",
+		tip = "快速完成需要消耗<color=#92fc63>$1个</color>快速完成工具\n\n剩余加速道具: <color=#92fc63>$3个</color>",
 		key = "ship_buildShipScene_quest_quickFinish"
 	},
 	ship_dockyardMediator_destroy = {
@@ -2589,11 +2616,11 @@ pg.gametip = {
 		key = "ship_dockyardScene_noRole"
 	},
 	ship_dockyardScene_error_choiseRoleMore = {
-		tip = "至少选择 <color=#A9F548>$1</color> 个角色",
+		tip = "至少选择 <color=#92fc63>$1</color> 个角色",
 		key = "ship_dockyardScene_error_choiseRoleMore"
 	},
 	ship_dockyardScene_error_choiseRoleLess = {
-		tip = "最多选择 <color=#A9F548>$1</color> 个角色",
+		tip = "最多选择 <color=#92fc63>$1</color> 个角色",
 		key = "ship_dockyardScene_error_choiseRoleLess"
 	},
 	ship_formationMediator_leastLimit = {
@@ -2609,19 +2636,19 @@ pg.gametip = {
 		key = "ship_formationMediator_changeNameError_sameShip"
 	},
 	ship_formationMediator_addShipError_overlimit = {
-		tip = "舰队中最多只能有<color=#A9F548>$1</color>艘<color=#A9F548>$2</color>",
+		tip = "舰队中最多只能有<color=#92fc63>$1</color>艘<color=#92fc63>$2</color>",
 		key = "ship_formationMediator_addShipError_overlimit"
 	},
 	ship_formationMediator_replaceError_onlyShip = {
-		tip = "目标舰船是 <color=#A9F548>$1</color> 唯一一艘<color=#A9F548>$2</color>舰船，无法替换！",
+		tip = "目标舰船是 <color=#92fc63>$1</color> 唯一一艘<color=#92fc63>$2</color>舰船，无法替换！",
 		key = "ship_formationMediator_replaceError_onlyShip"
 	},
 	ship_formationMediator_quest_replace = {
-		tip = "您当前选择的舰船已经在<color=#A9F548>$1</color>中, 是否进行切换？",
+		tip = "您当前选择的舰船已经在<color=#92fc63>$1</color>中, 是否进行切换？",
 		key = "ship_formationMediator_quest_replace"
 	},
 	ship_formationMediaror_trash_warning = {
-		tip = "$1至少必须有<color=#A9F548>1个先锋</color>和<color=#A9F548>1个主力</color>角色，确定将清空$1，取消返回。",
+		tip = "$1至少必须有<color=#92fc63>1个先锋</color>和<color=#92fc63>1个主力</color>角色，确定将清空$1，取消返回。",
 		key = "ship_formationMediaror_trash_warning"
 	},
 	ship_formationUI_fleetName1 = {
@@ -2669,23 +2696,23 @@ pg.gametip = {
 		key = "ship_formationUI_changeFormationError_countError"
 	},
 	ship_formationUI_removeError_onlyShip = {
-		tip = "<color=#A9F548>$1</color>是唯一一艘<color=#A9F548>$3</color>舰船，无法下阵！",
+		tip = "<color=#92fc63>$1</color>是唯一一艘<color=#92fc63>$3</color>舰船，无法下阵！",
 		key = "ship_formationUI_removeError_onlyShip"
 	},
 	ship_formationUI_quest_remove = {
-		tip = "是否要把<color=#A9F548>$1</color>下阵？",
+		tip = "是否要把<color=#92fc63>$1</color>下阵？",
 		key = "ship_formationUI_quest_remove"
 	},
 	ship_newShipLayer_get = {
-		tip = "获得<color=#A9F548>$1</color> —<color=#A9F548>$2</color>",
+		tip = "获得<color=#92fc63>$1</color> —<color=#92fc63>$2</color>",
 		key = "ship_newShipLayer_get"
 	},
 	ship_newSkinLayer_get = {
-		tip = "获得<color=#A9F548>$1</color>换装—<color=#A9F548>$2</color>",
+		tip = "获得<color=#92fc63>$1</color>换装—<color=#92fc63>$2</color>",
 		key = "ship_newSkinLayer_get"
 	},
 	ship_newSkin_name = {
-		tip = "换装「$1」",
+		tip = "「$1」",
 		key = "ship_newSkin_name"
 	},
 	ship_shipInfoMediator_destory = {
@@ -2701,11 +2728,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_equipUnlockSlostYesText"
 	},
 	ship_shipInfoScene_effect = {
-		tip = "当前经验: <color=#A9F548>$1/$2</color>\n",
+		tip = "当前经验: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipInfoScene_effect"
 	},
 	ship_shipInfoScene_effect1or2 = {
-		tip = "当前增加: <color=#A9F548>$1</color>",
+		tip = "当前增加: <color=#92fc63>$1</color>",
 		key = "ship_shipInfoScene_effect1or2"
 	},
 	ship_shipInfoScene_modLvMax = {
@@ -2717,11 +2744,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_choiseMod"
 	},
 	ship_shipModLayer_effect = {
-		tip = "当前经验: <color=#A9F548>$1/$2</color>\n",
+		tip = "当前经验: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipModLayer_effect"
 	},
 	ship_shipModLayer_effect1or2 = {
-		tip = "当前加成: <color=#A9F548>$1</color>",
+		tip = "当前加成: <color=#92fc63>$1</color>",
 		key = "ship_shipModLayer_effect1or2"
 	},
 	ship_shipModLayer_modSuccess = {
@@ -2729,7 +2756,7 @@ pg.gametip = {
 		key = "ship_shipModLayer_modSuccess"
 	},
 	ship_mod_no_addition_tip = {
-		tip = "强化<color=#A9F548>没有增益</color>，是否继续？",
+		tip = "强化<color=#92fc63>没有增益</color>，是否继续？",
 		key = "ship_mod_no_addition_tip"
 	},
 	ship_shipModMediator_choiseMaterial = {
@@ -2749,7 +2776,7 @@ pg.gametip = {
 		key = "ship_shipModMediator_noticeSameButLargerStar"
 	},
 	ship_shipModMediator_quest = {
-		tip = "作为素材角色中有<color=#A9F548>$1</color>的角色，是否继续突破？",
+		tip = "作为素材角色中有<color=#92fc63>$1</color>的角色，是否继续突破？",
 		key = "ship_shipModMediator_quest"
 	},
 	ship_shipUpgradeLayer2_levelError = {
@@ -2765,27 +2792,27 @@ pg.gametip = {
 		key = "ship_shipUpgradeLayer2_ok"
 	},
 	ship_shipUpgradeLayer2_effect = {
-		tip = "当前经验: <color=#A9F548>$1/$2</color>\n",
+		tip = "当前经验: <color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipUpgradeLayer2_effect"
 	},
 	ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "当前增加: <color=#A9F548>$1</color>",
+		tip = "当前增加: <color=#92fc63>$1</color>",
 		key = "ship_shipUpgradeLayer2_effect1or2"
 	},
 	ship_shipUpgradeLayer2_mod_uncommon_tip = {
-		tip = "强化材料角色中有<color=#A9F548>精锐</color>以上的角色，是否确认？",
+		tip = "强化材料角色中有<color=#92fc63>精锐</color>以上的角色，是否确认？",
 		key = "ship_shipUpgradeLayer2_mod_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_uncommon_tip = {
-		tip = "强化材料角色中有<color=#A9F548>精锐</color>以上的角色，是否确认？",
+		tip = "强化材料角色中有<color=#92fc63>精锐</color>以上的角色，是否确认？",
 		key = "ship_shipUpgradeLayer2_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "强化材料角色中有<color=#A9F548>等级不为1</color>的角色，是否确认？",
+		tip = "强化材料角色中有<color=#92fc63>等级不为1</color>的角色，是否确认？",
 		key = "ship_shipUpgradeLayer2_mod_advanced_tip"
 	},
 	ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "突破材料角色中有<color=#A9F548>等级不为1</color>的角色，是否确认？",
+		tip = "突破材料角色中有<color=#92fc63>等级不为1</color>的角色，是否确认？",
 		key = "ship_shipUpgradeLayer2_advanced_tip"
 	},
 	ship_mod_exp_to_attr_tip = {
@@ -2793,7 +2820,7 @@ pg.gametip = {
 		key = "ship_mod_exp_to_attr_tip"
 	},
 	ship_max_star = {
-		tip = "该船已经达到<color=#A9F548>最大星级</color>",
+		tip = "该船已经达到<color=#92fc63>最大星级</color>",
 		key = "ship_max_star"
 	},
 	ship_skill_unlock_tip = {
@@ -2801,11 +2828,11 @@ pg.gametip = {
 		key = "ship_skill_unlock_tip"
 	},
 	ship_lock_tip = {
-		tip = "是否<color=#A9F548>锁定</color>该角色？",
+		tip = "是否<color=#92fc63>锁定</color>该角色？",
 		key = "ship_lock_tip"
 	},
 	ship_destroy_uncommon_tip = {
-		tip = "退役角色中有<color=#A9F548>精锐</color>以上的角色，是否确认？",
+		tip = "退役角色中有<color=#92fc63>精锐</color>以上的角色，是否确认？",
 		key = "ship_destroy_uncommon_tip"
 	},
 	ship_destroy_advanced_tip = {
@@ -2825,7 +2852,7 @@ pg.gametip = {
 		key = "ship_energy_low_warn"
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "编队中<color=#A9F548FF>$2</color>处于<color=#D6341D>低心情状态</color>，强制出击将<color=#D6341D>降低好感</color>，确定要继续出击吗？",
+		tip = "编队中<color=#92fc63FF>$2</color>处于<color=#ff5c5c>低心情状态</color>，强制出击将<color=#ff5c5c>降低好感</color>，确定要继续出击吗？",
 		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
@@ -2837,7 +2864,7 @@ pg.gametip = {
 		key = "test_ship_upgrade_tip"
 	},
 	shop_buyItem_ok = {
-		tip = "购买成功，获得<color=#A9F548>$1个$2</color>",
+		tip = "购买成功，获得<color=#92fc63>$1个$2</color>",
 		key = "shop_buyItem_ok"
 	},
 	shop_buyItem_error = {
@@ -2861,15 +2888,15 @@ pg.gametip = {
 		key = "stage_beginStage_error_fleetEmpty"
 	},
 	stage_beginStage_error_teamEmpty = {
-		tip = "<color=#A9F548>$1</color>舰船至少需要<color=#A9F548>$2艘</color>！",
+		tip = "<color=#92fc63>$1</color>舰船至少需要<color=#92fc63>$2艘</color>！",
 		key = "stage_beginStage_error_teamEmpty"
 	},
 	stage_beginStage_error_noEnergy = {
-		tip = "<color=#A9F548>疲劳值</color>不足!",
+		tip = "<color=#92fc63>疲劳值</color>不足!",
 		key = "stage_beginStage_error_noEnergy"
 	},
 	stage_beginStage_error_noResource = {
-		tip = "<color=#A9F548>石油</color>不足！",
+		tip = "<color=#92fc63>石油</color>不足！",
 		key = "stage_beginStage_error_noResource"
 	},
 	stage_finishStage_error = {
@@ -2877,27 +2904,27 @@ pg.gametip = {
 		key = "stage_finishStage_error"
 	},
 	levelScene_map_lock = {
-		tip = "该<color=#A9F548>章节未完成</color>无法前往下一章",
+		tip = "该<color=#92fc63>章节未完成</color>无法前往下一章",
 		key = "levelScene_map_lock"
 	},
 	levelScene_chapter_lock = {
-		tip = "请先完成<color=#A9F548>前一关卡</color>",
+		tip = "请先完成<color=#92fc63>前一关卡</color>",
 		key = "levelScene_chapter_lock"
 	},
 	levelScene_chapter_strategying = {
-		tip = "关卡<color=#A9F548>$1</color> 正在攻略中",
+		tip = "关卡<color=#92fc63>$1</color> 正在攻略中",
 		key = "levelScene_chapter_strategying"
 	},
 	levelScene_threat_to_rule_out = {
-		tip = "威胁排除<color=#A9F548>$1</color>",
+		tip = "威胁排除<color=#92fc63>$1</color>",
 		key = "levelScene_threat_to_rule_out"
 	},
 	levelScene_whether_to_retreat = {
-		tip = "真的要<color=#A9F548>撤退</color>吗?",
+		tip = "真的要<color=#92fc63>撤退</color>吗?",
 		key = "levelScene_whether_to_retreat"
 	},
 	levelScene_who_to_retreat = {
-		tip = "确定撤退<color=#A9F548>$1</color>吗?",
+		tip = "确定撤退<color=#92fc63>$1</color>吗?",
 		key = "levelScene_who_to_retreat"
 	},
 	levelScene_who_to_exchange = {
@@ -2941,7 +2968,7 @@ pg.gametip = {
 		key = "levelScene_tracking_error_3001"
 	},
 	levelScene_chapter_unlock_tip = {
-		tip = "指挥官等级到达<color=#A9F548>$1级</color>时解锁该章节",
+		tip = "指挥官等级到达<color=#92fc63>$1级</color>时解锁该章节",
 		key = "levelScene_chapter_unlock_tip"
 	},
 	levelScene_chapter_win = {
@@ -3044,15 +3071,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -3062,13 +3089,31 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/spboom_1"
+					atlas = "helpbg/sphunt_1"
 				}
 			},
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/spboom_2"
+					atlas = "helpbg/sphunt_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_4"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/sphunt_5"
 				}
 			},
 			disableScroll = true,
@@ -3076,15 +3121,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -3093,7 +3138,7 @@ pg.gametip = {
 		key = "levelScene_chapter_timeout"
 	},
 	levelScene_chapter_level_limit = {
-		tip = "指挥官等级到达<color=#A9F548>$1级</color>时解锁该关卡",
+		tip = "指挥官等级到达<color=#92fc63>$1级</color>时解锁该关卡",
 		key = "levelScene_chapter_level_limit"
 	},
 	levelScene_chapter_count_tip = {
@@ -3137,7 +3182,7 @@ pg.gametip = {
 		key = "levelScene_chapter_not_open"
 	},
 	levelScene_activate_remaster = {
-		tip = "消耗<color=#ffff00>档案密钥x1</color>解锁当前活动作战档案，持续15分钟\n是否确认开启？",
+		tip = "消耗<color=#ffde38>档案密钥x1</color>解锁当前活动作战档案，持续15分钟\n是否确认开启？",
 		key = "levelScene_activate_remaster"
 	},
 	levelScene_remaster_tickets_not_enough = {
@@ -3152,22 +3197,22 @@ pg.gametip = {
 		key = "levelScene_remaster_help_tip",
 		tip = {
 			{
-				info = "作战档案说明\n作战档案系统是通过研究特殊作战档案，进行模拟作战的系统\n以往的特殊作战的攻略进度不会被继承，需重新攻略 "
+				info = "作战档案说明\n作战档案系统是通过研究特殊作战档案，进行模拟作战的\n系统以往的特殊作战的攻略进度不会被继承，需重新攻略 "
 			},
 			{
-				info = "    \n1. 司令部每日能够提供两份<color=#A9F548>档案密钥</color>，请在每日任务中领取"
+				info = "    \n1. 司令部每日能够提供两份<color=#92fc63>档案密钥</color>，请在每日任务中\n领取"
 			},
 			{
-				info = "    2.<color=#A9F548>档案密钥</color>存储上限为30份，领取超过存储上限的<color=#A9F548>档案密钥</color>\n将自动消失"
+				info = "2.<color=#92fc63>档案密钥</color>存储上限为30份，领取超过存储上限的<color=#92fc63>档案密\n钥</color>将自动消失"
 			},
 			{
-				info = "    3.通过消耗<color=#A9F548>档案密钥</color>，可以解锁当前选择的特殊作战15分钟\n的开放权"
+				info = "3.通过消耗<color=#92fc63>档案密钥</color>，可以解锁当前选择的特殊作战15分\n钟的开放权"
 			},
 			{
-				info = "    4.特殊作战解锁期间，可以出击本作战内可挑战的任意关卡"
+				info = "4.特殊作战解锁期间，可以出击本作战内可挑战的任意关\n卡"
 			},
 			{
-				info = "    5.特殊作战解锁时间结束后，已经在关卡战斗地图中的舰队\n不会被强制撤离，可以继续完成该轮作战"
+				info = "5.特殊作战解锁时间结束后，已经在关卡战斗地图中的舰\n队不会被强制撤离，可以继续完成该轮作战"
 			}
 		}
 	},
@@ -3208,7 +3253,7 @@ pg.gametip = {
 		}
 	},
 	tack_tickets_max_warning = {
-		tip = "所持<color=#ffff00>档案密钥</color>数量达到上限，完成任务后只能获得<color=#D6341DFF>$1</color>份<color=#ffff00>档案密钥</color>，是否确认领取？",
+		tip = "所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -3232,15 +3277,15 @@ pg.gametip = {
 		key = "task_submitTask_error_notFinish"
 	},
 	task_taskMediator_getItem = {
-		tip = "获得道具：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "获得道具：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getItem"
 	},
 	task_taskMediator_getResource = {
-		tip = "获得资源：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "获得资源：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getResource"
 	},
 	task_taskMediator_getEquip = {
-		tip = "获得装备：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "获得装备：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getEquip"
 	},
 	task_target_chapter_in_progress = {
@@ -3356,7 +3401,7 @@ pg.gametip = {
 		key = "collection_fetched"
 	},
 	buyProp_noResource_error = {
-		tip = "<color=#A9F548>$1</color>不足",
+		tip = "<color=#92fc63>$1</color>不足",
 		key = "buyProp_noResource_error"
 	},
 	refresh_shopStreet_ok = {
@@ -3384,7 +3429,7 @@ pg.gametip = {
 		key = "buy_item_quest"
 	},
 	refresh_shopStreet_question = {
-		tip = "是否花费$1<color=#A9F548>$2</color>刷新商品列表\n\n <size=22>( 今日已经购买 <size=25><color=#FF0000>$3</color></size> 次 )</size>",
+		tip = "是否花费$1<color=#92fc63>$2</color>刷新商品列表\n\n <size=22>( 今日已经购买 <size=25><color=#ff5c5c>$3</color></size> 次 )</size>",
 		key = "refresh_shopStreet_question"
 	},
 	event_start_success = {
@@ -3436,7 +3481,7 @@ pg.gametip = {
 		key = "event_giveup"
 	},
 	event_minimus_ship_numbers = {
-		tip = "舰队人数不足，最少需要<color=#A9F548>$1人</color>才可执行该任务",
+		tip = "舰队人数不足，最少需要<color=#92fc63>$1人</color>才可执行该任务",
 		key = "event_minimus_ship_numbers"
 	},
 	event_confirm_giveup = {
@@ -3456,15 +3501,15 @@ pg.gametip = {
 		key = "event_same_type_not_allowed"
 	},
 	event_condition_ship_level = {
-		tip = "至少<color=#A9F548>1位</color>角色达到<color=#A9F548>$1级</color>",
+		tip = "至少<color=#92fc63>1位</color>角色达到<color=#92fc63>$1级</color>",
 		key = "event_condition_ship_level"
 	},
 	event_condition_ship_count = {
-		tip = "队伍人数至少<color=#A9F548>$1</color>",
+		tip = "队伍人数至少<color=#92fc63>$1</color>",
 		key = "event_condition_ship_count"
 	},
 	event_condition_ship_type = {
-		tip = "<color=#A9F548>$1</color>限定",
+		tip = "<color=#92fc63>$1</color>限定",
 		key = "event_condition_ship_type"
 	},
 	event_level_unreached = {
@@ -3476,7 +3521,7 @@ pg.gametip = {
 		key = "event_type_unreached"
 	},
 	event_oil_consume = {
-		tip = "本次委托需要花费<icon name=oil w=0.7 h=0.7/><color=#A9F548>$1</color>石油",
+		tip = "本次委托需要花费<icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color>石油",
 		key = "event_oil_consume"
 	},
 	event_type_unlimit = {
@@ -3508,15 +3553,15 @@ pg.gametip = {
 		key = "just_now"
 	},
 	several_minutes_before = {
-		tip = "<color=#A9F548>$1</color>分钟前",
+		tip = "<color=#92fc63>$1</color>分钟前",
 		key = "several_minutes_before"
 	},
 	several_hours_before = {
-		tip = "<color=#A9F548>$1</color>小时前",
+		tip = "<color=#92fc63>$1</color>小时前",
 		key = "several_hours_before"
 	},
 	several_days_before = {
-		tip = "<color=#A9F548>$1天</color>前",
+		tip = "<color=#92fc63>$1天</color>前",
 		key = "several_days_before"
 	},
 	long_time_offline = {
@@ -3524,7 +3569,7 @@ pg.gametip = {
 		key = "long_time_offline"
 	},
 	dont_send_message_frequently = {
-		tip = "请勿频繁发送消息",
+		tip = "$1秒后可以继续发送消息",
 		key = "dont_send_message_frequently"
 	},
 	no_activity = {
@@ -3532,7 +3577,7 @@ pg.gametip = {
 		key = "no_activity"
 	},
 	which_day = {
-		tip = "第<color=#A9F548>$1</color>天",
+		tip = "第<color=#92fc63>$1</color>天",
 		key = "which_day"
 	},
 	which_day_2 = {
@@ -3544,7 +3589,7 @@ pg.gametip = {
 		key = "invalidate_evaluation"
 	},
 	chapter_no = {
-		tip = "第<color=#A9F548>$1</color>章",
+		tip = "第<color=#92fc63>$1</color>章",
 		key = "chapter_no"
 	},
 	reconnect_tip = {
@@ -3675,6 +3720,10 @@ pg.gametip = {
 		tip = "回避上限",
 		key = "attribute_dodge_limit"
 	},
+	attribute_intimacy = {
+		tip = "好感度",
+		key = "attribute_intimacy"
+	},
 	skill = {
 		tip = "技能",
 		key = "skill"
@@ -3700,7 +3749,7 @@ pg.gametip = {
 		key = "formation_switch_success"
 	},
 	formation_switch_tip = {
-		tip = "当前选中舰队无法成型，将自动切换到<color=#A9F548>$1</color>",
+		tip = "当前选中舰队无法成型，将自动切换到<color=#92fc63>$1</color>",
 		key = "formation_switch_tip"
 	},
 	formation_reform_tip = {
@@ -3732,11 +3781,11 @@ pg.gametip = {
 		key = "friend_info_page_tip"
 	},
 	friend_search_page_tip = {
-		tip = "每次搜索好友<color=#A9F548>$1</color>人",
+		tip = "每次搜索好友<color=#92fc63>$1</color>人",
 		key = "friend_search_page_tip"
 	},
 	friend_request_page_tip = {
-		tip = "最多保存<color=#A9F548>$1条</color>申请",
+		tip = "最多保存<color=#92fc63>$1条</color>申请",
 		key = "friend_request_page_tip"
 	},
 	friend_id_copy_ok = {
@@ -3760,7 +3809,7 @@ pg.gametip = {
 		key = "friend_request_msg_title"
 	},
 	friend_max_count = {
-		tip = "好友<color=#A9F548>已达上限</color>添加失败",
+		tip = "好友<color=#92fc63>已达上限</color>添加失败",
 		key = "friend_max_count"
 	},
 	friend_add_ok = {
@@ -3788,7 +3837,7 @@ pg.gametip = {
 		key = "friend_offline"
 	},
 	friend_msg_forbid = {
-		tip = "不能发送带有<color=#A9F548>屏蔽字</color>的申请",
+		tip = "不能发送带有<color=#92fc63>屏蔽字</color>的申请",
 		key = "friend_msg_forbid"
 	},
 	dont_add_self = {
@@ -3846,6 +3895,10 @@ pg.gametip = {
 	friend_resume_manoeuvre_win_rate = {
 		tip = "演习胜率:",
 		key = "friend_resume_manoeuvre_win_rate"
+	},
+	friend_resume_fleet_gs = {
+		tip = "舰队实力:",
+		key = "friend_resume_fleet_gs"
 	},
 	friend_event_count = {
 		tip = "完成委托:",
@@ -3936,7 +3989,7 @@ pg.gametip = {
 		key = "word_own1"
 	},
 	oil_buy_limit_tip = {
-		tip = "<size=22>(今日购买次数剩余<color=#FF0000>$1</color>/$2次)</size>",
+		tip = "<size=22>(今日购买次数剩余<color=#ff5c5c>$1</color>/$2次)</size>",
 		key = "oil_buy_limit_tip"
 	},
 	friend_resume_title = {
@@ -3968,7 +4021,7 @@ pg.gametip = {
 		key = "ship_equip_profiiency"
 	},
 	no_open_system_tip = {
-		tip = "<color=#A9F548>$1</color>将在指挥官等级达到<color=#A9F548>$2级</color>后开放",
+		tip = "<color=#92fc63>$1</color>将在指挥官等级达到<color=#92fc63>$2级</color>后开放",
 		key = "no_open_system_tip"
 	},
 	open_system_tip = {
@@ -4036,7 +4089,7 @@ pg.gametip = {
 		key = "energy_desc_3"
 	},
 	energy_desc_4 = {
-		tip = "感觉一定会有好事情发生呢~\n<color=#A9F548>（经验收益增加）</color>",
+		tip = "感觉一定会有好事情发生呢~\n<color=#92fc63>（经验收益增加）</color>",
 		key = "energy_desc_4"
 	},
 	intimacy_desc_1 = {
@@ -4105,23 +4158,23 @@ pg.gametip = {
 		key = "intimacy_desc_propose"
 	},
 	intimacy_desc_1_detail = {
-		tip = "$1对你感到很失望\n<color=#fad545><size=18>(无加成)</size></color>",
+		tip = "$1对你感到很失望\n<color=#ffde38><size=18>(无加成)</size></color>",
 		key = "intimacy_desc_1_detail"
 	},
 	intimacy_desc_2_detail = {
-		tip = "$1正试图更多的了解你\n<color=#fad545><size=18>(无加成)</size></color>",
+		tip = "$1正试图更多的了解你\n<color=#ffde38><size=18>(无加成)</size></color>",
 		key = "intimacy_desc_2_detail"
 	},
 	intimacy_desc_3_detail = {
-		tip = "$1觉得你是值得信赖的指挥官\n<color=#A9F548><size=18>所有基础属性（除航速）提高1%</size></color>",
+		tip = "$1觉得你是值得信赖的指挥官\n<color=#92fc63><size=18>所有基础属性（除航速）提高1%</size></color>",
 		key = "intimacy_desc_3_detail"
 	},
 	intimacy_desc_4_detail = {
-		tip = "只要和你在一起，$1就很开心\n<color=#A9F548><size=18>所有基础属性（除航速）提高3%</size></color>",
+		tip = "只要和你在一起，$1就很开心\n<color=#92fc63><size=18>所有基础属性（除航速）提高3%</size></color>",
 		key = "intimacy_desc_4_detail"
 	},
 	intimacy_desc_5_detail = {
-		tip = "$1看向你的眼神充满了爱意\n<color=#A9F548><size=18>所有基础属性（除航速）提高6%</size></color>",
+		tip = "$1看向你的眼神充满了爱意\n<color=#92fc63><size=18>所有基础属性（除航速）提高6%</size></color>",
 		key = "intimacy_desc_5_detail"
 	},
 	intimacy_desc_6_detail = {
@@ -4208,12 +4261,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/equip"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/bullet"
 				}
 			},
@@ -4241,24 +4288,26 @@ pg.gametip = {
 					atlas = "helpbg/fanqian"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4318,31 +4367,21 @@ pg.gametip = {
 			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	help_shipinfo_intensify = {
 		key = "help_shipinfo_intensify",
 		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/strength"
-				}
-			},
 			{
 				icon = {
 					path = "",
@@ -4385,24 +4424,26 @@ pg.gametip = {
 					atlas = "helpbg/fanqian"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4418,12 +4459,6 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/break"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/equip"
 				}
 			},
@@ -4457,24 +4492,94 @@ pg.gametip = {
 					atlas = "helpbg/fanqian"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_shipinfo_maxlevel = {
+		key = "help_shipinfo_maxlevel",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/bullet"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/energy"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 8,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4483,7 +4588,7 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-NPC角色说明：<color=#A9F548>(NPC角色不可参与部分港区功能,详见下方说明)</color>
+NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见下方说明)</color>
 
 · NPC角色：
 活动期间临时加入港区的NPC角色，活动结束时若未正式加入，
@@ -4558,19 +4663,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 			defaultpage = 8,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4582,15 +4683,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 
 时装更换说明：
 
-       1.通过消耗相同角色或特殊角色，并消耗一定资源可试角色性
-  能提升，最多可提升三次]]
+       1.通过消耗相同角色或特殊角色，并消耗一定资源可试
+  角色性能提升，最多可提升三次]]
 			},
 			{
 				info = [[
 
-       2.角色星级提高后各项属性都会大幅提升，并且对应的武器效
-  率也会得到增强，部分角色还将获得特殊弹幕、额外舰载机等增
-  益]]
+       2.角色星级提高后各项属性都会大幅提升，并且对应的
+ 武器效率也会得到增强，部分角色还将获得特殊弹幕、额
+外舰载机等增益]]
 			}
 		}
 	},
@@ -4601,7 +4702,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 				info = "1.加成显示："
 			},
 			{
-				info = "       <color=#A9F548FF>装备</color>：角色装备产生的属性加成"
+				info = "       <color=#92fc63FF>装备</color>：角色装备产生的属性加成"
 			},
 			{
 				info = "       <color=#FFDE00FF>科技</color>：舰队科技产生的属性加成"
@@ -4615,7 +4716,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "durability"
 				}
 			},
@@ -4625,7 +4726,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "damage"
 				}
 			},
@@ -4635,17 +4736,17 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "antiaircraft"
 				}
 			},
 			{
-				info = "       装甲类型：共分三种，装甲型号越高，伤害减免越明显\n       被小口径火炮击中越容易规避伤害\n      （伤害减免效率：重型装甲>中型装甲>轻型装甲）",
+				info = "       装甲类型：共分三种，装甲型号越高，伤害减免越明\n       显，被小口径火炮击中越容易规避伤害\n      （伤害减免效率：重型装甲>中型装甲>轻型装甲）",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "armor"
 				}
 			},
@@ -4655,7 +4756,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "torpedo"
 				}
 			},
@@ -4665,7 +4766,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "air"
 				}
 			},
@@ -4675,7 +4776,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "reload"
 				}
 			},
@@ -4685,7 +4786,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "dodge"
 				}
 			},
@@ -4695,7 +4796,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "luck"
 				}
 			},
@@ -4705,7 +4806,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "antisub"
 				}
 			},
@@ -4715,42 +4816,42 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "oxy_max"
 				}
 			},
 			{
-				info = "       弹药量：潜艇编队进行作战、对地图上的敌人进行打击、\n       需要消耗弹药",
+				info = "       弹药量：潜艇编队进行作战、对地图上的敌人进行打\n       击、需要消耗弹药",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "ammo"
 				}
 			},
 			{
 				info = [[
-       狩猎范围：与潜艇作战范围内的敌人战斗时，
-       可以消耗潜艇编队的弹药，请求潜艇编队进行协助战斗；
-       潜艇编队可在待机模式与自主寻敌模式之间切换，
-       处于自主寻敌模式下的潜艇编队会自行寻找狩猎范围内的
-       敌人进行鱼雷打击]],
+       狩猎范围：与潜艇作战范围内的敌人战斗时，可以消
+       耗潜艇编队的弹药，请求潜艇编队进行协助战斗；
+       潜艇编队可在待机模式与自主寻敌模式之间切换，处
+       于自主寻敌模式下的潜艇编队会自行寻找狩猎范围内
+       的敌人进行鱼雷打击]],
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.19,
+					scale = 0.6,
 					path = "hunt_range"
 				}
 			},
 			{
-				info = "       幸运：角色由过去的模因产生的属性，在战斗中产生细微\n的影响",
+				info = "       幸运：角色由过去的模因产生的属性，在战斗中产生\n       细微的影响",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
 					posY = 0,
-					scale = 0.66,
+					scale = 1,
 					path = "icon_luck"
 				}
 			},
@@ -4767,8 +4868,8 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 不同级别的角色可以装备的武器口径也各不相同：
 
 · 140mm以下的舰炮：
-作为驱逐和部分轻巡的主炮，以及战列、战巡、重巡、轻巡的
-副炮使用。
+作为驱逐和部分轻巡的主炮，以及战列、战巡、重巡、轻
+巡的副炮使用。
 
 · 140mm以上，200mm以下的舰炮：
 作为轻巡的主炮，以及部分战列的副炮使用。
@@ -4783,7 +4884,8 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 
 · 防空炮可以被大部分舰船使用。
 
-· 根据航母角色身上的装备栏不同，可以装备不同的舰载机。
+· 根据航母角色身上的装备栏不同，可以装备不同的舰载
+机。
 
 · 外观装备可以用于改变对应的装备发射效果。
 （外观装备不占用仓库位置）   ]]
@@ -4818,9 +4920,12 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 斩首行动开启时间为：每周三、周六、周日
 
 战术研修开启时间为：每天开放
-<color=#A9F548>航空</color> 敌方旗舰拥有极高的耐久，使用<color=#A9F548>航空兵器</color>能造成巨量伤害
-<color=#A9F548>炮击</color> 敌方旗舰拥有极高的耐久，使用<color=#A9F548>炮击兵器</color>能造成巨量伤害
-<color=#A9F548>雷击</color> 敌方旗舰拥有极高的耐久，使用<color=#A9F548>鱼雷兵器</color>能造成巨量伤害]]
+<color=#92fc63>航空</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>航空兵器</color>能造成巨
+量伤害
+<color=#92fc63>炮击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>炮击兵器</color>能造成巨
+量伤害
+<color=#92fc63>雷击</color> 敌方旗舰拥有极高的耐久，使用<color=#92fc63>鱼雷兵器</color>能造成巨
+量伤害]]
 			}
 		}
 	},
@@ -4828,9 +4933,9 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		tip = [[
 					   <size=25>$1建造概率分布</size>
 
-							<color=#fff157>超稀有舰船</color>：$2%
-							 <color=#966af6>精锐舰船</color>：$3%
-							 <color=#60a9ff>稀有舰船</color>：$4%
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
 							 普通舰船：$5%]],
 		key = "help_build"
 	},
@@ -4838,50 +4943,46 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		tip = [[
 					   <size=25>$1建造概率分布</size>
 
-							<color=#fff157>超稀有舰船</color>：$2%
-							 <color=#966af6>精锐舰船</color>：$3%
-							 <color=#60a9ff>稀有舰船</color>：$4%
-							 普通舰船：$5%
-
-							  ]],
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
 		tip = [[
 					   <size=25>$1建造概率分布</size>
 
-							<color=#fff157>超稀有舰船</color>：$2%
-							 <color=#966af6>精锐舰船</color>：$3%
-							 <color=#60a9ff>稀有舰船</color>：$4%
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
 							 普通舰船：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
 		tip = [[
-<size=19>							<color=#fff157>超稀有舰船</color>：$2%
-							 <color=#966af6>精锐舰船</color>：$3%
-							 <color=#60a9ff>稀有舰船</color>：$4%
+<size=19>							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
 							 普通舰船：$5%
 
 							  【限时建造】
-
-					<color=#fff157>     绊爱•Anniversary</color>：2%<color=#A9F548>(up!)</color>
-					<color=#fff157>     绊爱•SuperGamer </color>：2%<color=#A9F548>(up!)</color>
-					<color=#fff157>     绊爱•Elegant</color>：0.5%<color=#A9F548></color>
-					</size>]],
+							<color=#ffde38>      猫音</color>：2%<color=#92fc63>(up!)</color>
+					<color=#ffde38>        露露缇耶</color>：2%<color=#92fc63>(up!)</color>
+						<color=#d797ff>       乌璐露</color>：2.5%<color=#92fc63>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
 		tip = [[
-<size=19>							<color=#fff157>超稀有舰船</color>：$2%
-							 <color=#966af6>精锐舰船</color>：$3%
-							 <color=#60a9ff>稀有舰船</color>：$4%
+<size=19>							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
 							 普通舰船：$5%
 
 							  【限时建造】
-			<color=#fff157>圣黑之心</color>：2.25%<color=#A9F548FF>(up!)</color>    <color=#fff157>翡绿之心</color>：2.25%<color=#A9F548FF>(up!)</color>
-			<color=#fff157>绀紫之心</color>：0.75%           <color=#fff157>群白之心</color>：0.75%
-			<color=#966af6>诺瓦露　</color>：3.15%<color=#A9F548FF>(up!)</color>     <color=#966af6>布兰　　</color>：1.05%</size>]],
+			<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>
+			<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%
+			<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>]],
 		key = "help_build_5"
 	},
 	help_shipinfo_hunting = {
@@ -4918,15 +5019,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "shop_extendequip_success"
 	},
 	naval_academy_res_desc_cateen = {
-		tip = "少女们进食的地方，升级设施可以提高每日<color=#A9F548>燃油的产量</color>和<color=#A9F548>库存上限</color>",
+		tip = "少女们进食的地方，升级设施可以提高每日<color=#92fc63>燃油的产量</color>和<color=#92fc63>库存上限</color>",
 		key = "naval_academy_res_desc_cateen"
 	},
 	naval_academy_res_desc_shop = {
-		tip = "学院的小卖部，升级设施可以提高每日<color=#A9F548>金币的产量</color>和<color=#A9F548>库存上限</color>",
+		tip = "学院的小卖部，升级设施可以提高每日<color=#92fc63>金币的产量</color>和<color=#92fc63>库存上限</color>",
 		key = "naval_academy_res_desc_shop"
 	},
 	naval_academy_res_desc_class = {
-		tip = "学院的大讲堂，升级设施可以提高<color=#A9F548>熟练度上限、熟练度消耗速度</color>和<color=#A9F548>熟练度获取比例</color>",
+		tip = "学院的大讲堂，升级设施可以提高<color=#92fc63>熟练度上限、熟练度消耗速度</color>和<color=#92fc63>熟练度获取比例</color>",
 		key = "naval_academy_res_desc_class"
 	},
 	number_1 = {
@@ -4970,7 +5071,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "number_10"
 	},
 	military_shop_no_open_tip = {
-		tip = "<color=#A9F548>军需商店</color>将在指挥官等级达到<color=#A9F548>15级</color>后开放",
+		tip = "<color=#92fc63>军需商店</color>将在指挥官等级达到<color=#92fc63>15级</color>后开放",
 		key = "military_shop_no_open_tip"
 	},
 	switch_to_shop_tip_1 = {
@@ -4996,6 +5097,10 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 	text_noPos_buy = {
 		tip = "扩展",
 		key = "text_noPos_buy"
+	},
+	text_noPos_intensify = {
+		tip = "强化",
+		key = "text_noPos_intensify"
 	},
 	switch_to_shop_tip_noDockyard = {
 		tip = "船坞已满，请前往整理或扩展",
@@ -5086,7 +5191,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "text_noRes_tip"
 	},
 	text_noRes_info_tip = {
-		tip = "<color=#FF0000>$2$1</color>",
+		tip = "<color=#ff5c5c>$2$1</color>",
 		key = "text_noRes_info_tip"
 	},
 	text_noRes_info_tip_link = {
@@ -5094,7 +5199,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "text_noRes_info_tip_link"
 	},
 	text_noRes_info_tip2 = {
-		tip = "<color=#FF0000>$2</color>个<color=#FF0000>$1</color>",
+		tip = "<color=#ff5c5c>$2</color>个<color=#ff5c5c>$1</color>",
 		key = "text_noRes_info_tip2"
 	},
 	text_shop_noRes_tip = {
@@ -5106,7 +5211,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "text_shop_enoughRes_tip"
 	},
 	text_buy_fashion_tip = {
-		tip = "是否消耗<color=#A9F548FF>$1</color>钻石购买<color=#A9F548FF>$2</color>？",
+		tip = "是否消耗<color=#92fc63FF>$1</color>钻石购买<color=#92fc63FF>$2</color>？",
 		key = "text_buy_fashion_tip"
 	},
 	equip_part_title = {
@@ -5167,15 +5272,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -5205,11 +5310,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		}
 	},
 	backyard_theme_set_tip = {
-		tip = "请选择将要对<color=#5FD500>$1</color>进行的操作",
+		tip = "请选择将要对<color=#92fc63>$1</color>进行的操作",
 		key = "backyard_theme_set_tip"
 	},
 	backyard_theme_save_tip = {
-		tip = "是否确定要将当前后宅配置保存为\n<color=#5FD500>$1</color>",
+		tip = "是否确定要将当前后宅配置保存为\n<color=#92fc63>$1</color>",
 		key = "backyard_theme_save_tip"
 	},
 	backyard_theme_defaultname = {
@@ -5239,29 +5344,52 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 				info = "                        注意，自律战斗时可能出现以下情况",
 				line = true,
 				icon = {
-					posX = 2.4,
+					posX = -18,
 					atlas = "helpbg/zilv",
-					posY = -34,
-					scale = 1,
+					posY = -55,
+					scale = 1.5,
 					path = ""
 				}
 			},
 			disableScroll = true,
 			helpbg = true,
-			helpSize = {
-				y = 264
-			},
 			windowSize = {
-				y = 440
+				y = 660
+			},
+			helpSize = {
+				y = 400
+			},
+			helpPos = {
+				y = 20
 			}
 		}
 	},
 	gold_buy_tip = {
-		tip = "<size=24>花费 </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>100</color></size> 购买 <size=25><color=#A9F548>3000</color></size><size=24> 物资</size>",
+		tip = "<size=30>花费 </size><icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>100</color></size> 购买 <size=30><color=#92fc63>3000</color></size><size=30> 物资</size>",
 		key = "gold_buy_tip"
 	},
 	oil_buy_tip = {
-		tip = "<size=24>花费 </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>$1</color></size> 购买 <size=25><color=#A9F548>$2</color></size><size=24> 石油</size><size=2>\n\n</size><size=22>( 今日已经购买 <size=25><color=#FF0000>$3</color></size> 次 )</size>",
+		tip = [[
+<size=30>花费 </size><icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size> 购买 <size=30><color=#92fc63>$2</color></size><size=30> 石油</size><size=2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</size><size=28><color=#a2a2a2>( 今日已经购买 <size=28><color=#ff5c5c>$3</color></size> 次 )</color></size>]],
 		key = "oil_buy_tip"
 	},
 	text_iknow = {
@@ -5345,7 +5473,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "guild_tip_quit"
 	},
 	guild_create_confirm = {
-		tip = "是否花费<icon name=diamond w=0.7 h=0.7/><color=#A9F548FF>$1</color>创建大舰队",
+		tip = "是否花费<icon name=diamond w=0.7 h=0.7/><color=#92fc63FF>$1</color>创建大舰队",
 		key = "guild_create_confirm"
 	},
 	guild_apply_erro = {
@@ -5517,19 +5645,19 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "guild_msg_is_null"
 	},
 	guild_log_new_guild_join = {
-		tip = "新成员 <color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 加入大舰队",
+		tip = "新成员 <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 加入大舰队",
 		key = "guild_log_new_guild_join"
 	},
 	guild_log_duty_change = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> 职务变更为 $2",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 职务变更为 $2",
 		key = "guild_log_duty_change"
 	},
 	guild_log_quit = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>离开大舰队",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>离开大舰队",
 		key = "guild_log_quit"
 	},
 	guild_log_fire = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>被开除出了大舰队",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>被开除出了大舰队",
 		key = "guild_log_fire"
 	},
 	guild_leave_cd_time = {
@@ -5605,7 +5733,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "guild_fire_succeed"
 	},
 	battle_repair_special_tip = {
-		tip = "是否确定使用<color=#a0ff40>精英损管小组</color>？",
+		tip = "是否确定使用<color=#92fc63>精英损管小组</color>？",
 		key = "battle_repair_special_tip"
 	},
 	battle_repair_normal_name = {
@@ -5737,7 +5865,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "login_wait_tip"
 	},
 	ship_equip_exchange_tip = {
-		tip = "是否将<color=#a0ff40>$1</color>的<color=#a0ff40>$2</color>装备到<color=#a0ff40>$3</color>上？",
+		tip = "是否将<color=#92fc63>$1</color>的<color=#92fc63>$2</color>装备到<color=#92fc63>$3</color>上？",
 		key = "ship_equip_exchange_tip"
 	},
 	ship_rename_success = {
@@ -5777,7 +5905,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "elite_warp_to_latest_map"
 	},
 	elite_fleet_confirm = {
-		tip = "$1<color=#ff0000>不满足</color>出击条件，将无法进入战斗，确认继续出击？",
+		tip = "$1<color=#ff5c5c>不满足</color>出击条件，将无法进入战斗，确认继续出击？",
 		key = "elite_fleet_confirm"
 	},
 	elite_condition_level = {
@@ -5904,16 +6032,16 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 			},
 			{
 				info = [[
-·「模拟战」将会<color=#a0ff40>限时</color>开放；
-·进入「模拟战」前，指挥官需要选择<color=#a0ff40>15名</color>参战角色，并且
-    可以选择一名<color=#a0ff40>好友</color>的秘书舰协力作战；
+·「模拟战」将会<color=#92fc63>限时</color>开放；
+·进入「模拟战」前，指挥官需要选择<color=#92fc63>15名</color>参战角色，并且
+    可以选择一名<color=#92fc63>好友</color>的秘书舰协力作战；
 ·作战过程中，角色已损失的耐久不会自动恢复;
-·每回挑战需要击败<color=#a0ff40>10个</color>「镜像」，每击败一个「镜像」即可
-    获得<color=#a0ff40>核心数据</color>奖励， 可在补给商店的<color=#a0ff40>核心兑换</color>中使用
+·每回挑战需要击败<color=#92fc63>10个</color>「镜像」，每击败一个「镜像」即可
+    获得<color=#92fc63>核心数据</color>奖励， 可在补给商店的<color=#92fc63>核心兑换</color>中使用
    （核心数据不会因系统暂时关闭而消失）；
 ·指挥官的挑战进度会自动保存。并且，从第二天起，指挥官
-    每日有<color=#a0ff40>一次</color>机会重置挑战；
-·<color=#a0ff40>该海域内出击不消耗石油</color>
+    每日有<color=#92fc63>一次</color>机会重置挑战；
+·<color=#92fc63>该海域内出击不消耗石油</color>
                                                     ——以上，期待诸君的奋斗]]
 			}
 		}
@@ -5979,7 +6107,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "ship_remould_material_ship_on_exist"
 	},
 	ship_remould_material_unlock_skill = {
-		tip = "习得技能：<color=#A9F548>$1</color>",
+		tip = "习得技能：<color=#92fc63>$1</color>",
 		key = "ship_remould_material_unlock_skill"
 	},
 	ship_remould_prev_lock = {
@@ -6019,51 +6147,51 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "ship_remould_sueecss"
 	},
 	ship_remould_warning_102174 = {
-		tip = "此次改造操作将消耗<color=#A9F548>闪耀的麦克风</color>\n是否确认继续操作？",
+		tip = "此次改造操作将消耗<color=#92fc63>闪耀的麦克风</color>\n是否确认继续操作？",
 		key = "ship_remould_warning_102174"
 	},
 	ship_remould_warning_205124 = {
-		tip = "此次改造操作将消耗<color=#A9F548>战士的心得</color>\n是否确认继续操作？",
+		tip = "此次改造操作将消耗<color=#92fc63>战士的心得</color>\n是否确认继续操作？",
 		key = "ship_remould_warning_205124"
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
-<color=#A9F548>【副武器】</color>栏的装备将被卸下
+此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
+<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310014"
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
-<color=#A9F548>【副武器】</color>栏的装备将被卸下
+此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
+<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310024"
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
-此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
-<color=#A9F548>【副武器】</color>栏的装备将被卸下
+此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
+<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310034"
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
-此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【副武器】</color>变更为<color=#A9F548>【水上机】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
-<color=#A9F548>【副武器】</color>栏的装备将被卸下
+此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
+<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【副武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
 		tip = [[
-此次改造操作将导致<color=#A9F548>$1</color>舰艇类型变化
-<color=#A9F548>【主武器（轻巡主炮）】</color>变更为
-<color=#A9F548>【主武器（重巡主炮）】</color>栏位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看详情</material></color>
-<color=#A9F548>【主武器】</color>栏的装备将被卸下
+此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化
+<color=#92fc63>【主武器（轻巡主炮）】</color>变更为
+<color=#92fc63>【主武器（重巡主炮）】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>
+<color=#92fc63>【主武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_303154"
 	},
@@ -6192,47 +6320,47 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "mingshi_get_tip"
 	},
 	mingshi_task_tip_1 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>T</color>>\n下一个目标是……<<color=#a0ff40>堆存材料之处</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>T</color>>\n下一个目标是……<<color=#92fc63>堆存材料之处</color>>",
 		key = "mingshi_task_tip_1"
 	},
 	mingshi_task_tip_2 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>O</color>>\n下一个目标是……<<color=#a0ff40>研习战术之屋</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>O</color>>\n下一个目标是……<<color=#92fc63>研习战术之屋</color>>",
 		key = "mingshi_task_tip_2"
 	},
 	mingshi_task_tip_3 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>U</color>>\n下一个目标是……<<color=#a0ff40>军火之店</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>U</color>>\n下一个目标是……<<color=#92fc63>军火之店</color>>",
 		key = "mingshi_task_tip_3"
 	},
 	mingshi_task_tip_4 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>C</color>>\n下一个目标是……<<color=#a0ff40>接受任务之处</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>C</color>>\n下一个目标是……<<color=#92fc63>接受任务之处</color>>",
 		key = "mingshi_task_tip_4"
 	},
 	mingshi_task_tip_5 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>H</color>>\n下一个目标是……<<color=#a0ff40>布阵之处</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>H</color>>\n下一个目标是……<<color=#92fc63>布阵之处</color>>",
 		key = "mingshi_task_tip_5"
 	},
 	mingshi_task_tip_6 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>A</color>>\n下一个目标是……<<color=#a0ff40>休憩之所</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>A</color>>\n下一个目标是……<<color=#92fc63>休憩之所</color>>",
 		key = "mingshi_task_tip_6"
 	},
 	mingshi_task_tip_7 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>K</color>>\n下一个目标是……<<color=#a0ff40>鉴赏收藏之所</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>K</color>>\n下一个目标是……<<color=#92fc63>鉴赏收藏之所</color>>",
 		key = "mingshi_task_tip_7"
 	},
 	mingshi_task_tip_8 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>A</color>>\n下一个目标是……<<color=#a0ff40>远行的起点</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>A</color>>\n下一个目标是……<<color=#92fc63>远行的起点</color>>",
 		key = "mingshi_task_tip_8"
 	},
 	mingshi_task_tip_9 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>S</color>>\n下一个目标是……<<color=#a0ff40>决胜之地</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>S</color>>\n下一个目标是……<<color=#92fc63>决胜之地</color>>",
 		key = "mingshi_task_tip_9"
 	},
 	mingshi_task_tip_10 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>H</color>>\n最后的目标是……<<color=#a0ff40>悲喜交织之地</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>H</color>>\n最后的目标是……<<color=#92fc63>悲喜交织之地</color>>",
 		key = "mingshi_task_tip_10"
 	},
 	mingshi_task_tip_11 = {
-		tip = "被发现了喵？\n暗号是……<<color=#a0ff40>I30</color>>\n最初的目标是……<<color=#a0ff40>停泊之地</color>>",
+		tip = "被发现了喵？\n暗号是……<<color=#92fc63>I30</color>>\n最初的目标是……<<color=#92fc63>停泊之地</color>>",
 		key = "mingshi_task_tip_11"
 	},
 	word_propose_changename_title = {
@@ -6292,11 +6420,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "ship_proposeShip_error_1"
 	},
 	word_rename_time_warning = {
-		tip = "改名后，需要30天才能重新改名，确定要将<color=#a0ff40>$1</color>更名为<color=#a0ff40>$2</color>吗？",
+		tip = "改名后，需要30天才能重新改名，确定要将<color=#92fc63>$1</color>更名为<color=#92fc63>$2</color>吗？",
 		key = "word_rename_time_warning"
 	},
 	word_propose_cost_tip = {
-		tip = "<size=22>誓约需要消耗<color=#a0ff40>1</color>枚誓约之戒（当前拥有<color=#a0ff40>$1</color>枚）</size>\n\n<size=20>*誓约后角色将成为专属舰，可重新命名并获得<color=#a0ff40>3%</color>属性加成</size>",
+		tip = "誓约需要消耗<color=#92fc63>1</color>枚誓约之戒（当前拥有<color=#92fc63>$1</color>枚）\n\n<size=32>*誓约后角色将成为专属舰，可重新命名并获得<color=#92fc63>3%</color>属性加成</size>",
 		key = "word_propose_cost_tip"
 	},
 	evaluate_too_loog = {
@@ -6308,23 +6436,23 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "evaluate_ban_word"
 	},
 	activity_level_easy_tip = {
-		tip = "注意：选择普通模式后，需要<color=#a0ff40>通关普通模式</color>才能进入困难模式",
+		tip = "注意：选择普通模式后，需要<color=#92fc63>通关普通模式</color>才能进入困难模式",
 		key = "activity_level_easy_tip"
 	},
 	activity_level_difficulty_tip = {
-		tip = "注意：选择困难模式后，<color=#a0ff40>未通关前切换模式</color>将会丢失困难模式的进度",
+		tip = "注意：选择困难模式后，<color=#92fc63>未通关前切换模式</color>将会丢失困难模式的进度",
 		key = "activity_level_difficulty_tip"
 	},
 	activity_level_limit_tip = {
-		tip = "指挥官等级需要达到<color=#a0ff40>50级或通关普通模式</color>才可进入困难模式",
+		tip = "指挥官等级需要达到<color=#92fc63>50级或通关普通模式</color>才可进入困难模式",
 		key = "activity_level_limit_tip"
 	},
 	activity_level_inwarime_tip = {
-		tip = "<color=#a0ff40>$1</color>关卡正在攻略中，若需切换难度请先撤离舰队",
+		tip = "<color=#92fc63>$1</color>关卡正在攻略中，若需切换难度请先撤离舰队",
 		key = "activity_level_inwarime_tip"
 	},
 	activity_level_pass_easy_tip = {
-		tip = "需要<color=#a0ff40>通关普通模式</color>才可进入EXTRA模式",
+		tip = "需要<color=#92fc63>通关普通模式</color>才可进入EXTRA模式",
 		key = "activity_level_pass_easy_tip"
 	},
 	activity_level_is_closed = {
@@ -6332,7 +6460,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "activity_level_is_closed"
 	},
 	activity_switch_tip = {
-		tip = "切换至普通模式将会<color=#a0ff40>丢失困难模式的进度</color>（PS:切换至普通模式后需要通关才可回到困难模式），是否切换模式？",
+		tip = "切换至普通模式将会<color=#92fc63>丢失困难模式的进度</color>（PS:切换至普通模式后需要通关才可回到困难模式），是否切换模式？",
 		key = "activity_switch_tip"
 	},
 	reduce_sp3_pass_count = {
@@ -6424,7 +6552,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "chapter_tip_use"
 	},
 	chapter_tip_with_npc = {
-		tip = "即将进入<color=#D6341DFF>活动关卡剧情任务模式</color>\n第一个出击舰队前锋将临时加入<color=#D6341DFF>NPC$1</color>\n请在第一个出击舰队预留空位",
+		tip = "即将进入<color=#ff5c5c>活动关卡剧情任务模式</color>\n第一个出击舰队前锋将临时加入<color=#ff5c5c>NPC$1</color>\n请在第一个出击舰队预留空位",
 		key = "chapter_tip_with_npc"
 	},
 	chapter_tip_bp_ammo = {
@@ -6432,7 +6560,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "chapter_tip_bp_ammo"
 	},
 	build_ship_tip = {
-		tip = "建造<color=#D6341DFF>$1艘</color>$2需要消耗:\n<color=$5>$3物资</color>和<color=$5>$4个心智魔方</color>",
+		tip = "建造<color=#ff5c5c>「$1艘」</color>$2需要消耗:\n<color=$5>「$3物资」</color>和<color=$5>「$4个心智魔方」</color>",
 		key = "build_ship_tip"
 	},
 	auto_battle_limit_tip = {
@@ -6440,11 +6568,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "auto_battle_limit_tip"
 	},
 	build_ship_quickly_buy_stone = {
-		tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4",
+		tip = "是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4",
 		key = "build_ship_quickly_buy_stone"
 	},
 	build_ship_quickly_buy_tool = {
-		tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个快速建造材料",
+		tip = "是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个快速建造材料",
 		key = "build_ship_quickly_buy_tool"
 	},
 	ship_profile_voice_locked = {
@@ -6575,63 +6703,63 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "words_display_ship_get_effect"
 	},
 	activity_puzzle_get1 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务7</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务7</color>",
 		key = "activity_puzzle_get1"
 	},
 	activity_puzzle_get2 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度2-1</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度2-1</color>",
 		key = "activity_puzzle_get2"
 	},
 	activity_puzzle_get3 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度2-3</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度2-3</color>",
 		key = "activity_puzzle_get3"
 	},
 	activity_puzzle_get4 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度3-1</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度3-1</color>",
 		key = "activity_puzzle_get4"
 	},
 	activity_puzzle_get5 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度3-3</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度3-3</color>",
 		key = "activity_puzzle_get5"
 	},
 	activity_puzzle_get6 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度3-4</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度3-4</color>",
 		key = "activity_puzzle_get6"
 	},
 	activity_puzzle_get7 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度4-1</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度4-1</color>",
 		key = "activity_puzzle_get7"
 	},
 	activity_puzzle_get8 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度4-2</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度4-2</color>",
 		key = "activity_puzzle_get8"
 	},
 	activity_puzzle_get9 = {
-		tip = "<color=#A9F548FF>获得方式\n普通难度4-4</color>",
+		tip = "<color=#92fc63FF>获得方式\n普通难度4-4</color>",
 		key = "activity_puzzle_get9"
 	},
 	activity_puzzle_get10 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务1</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务1</color>",
 		key = "activity_puzzle_get10"
 	},
 	activity_puzzle_get11 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务2</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务2</color>",
 		key = "activity_puzzle_get11"
 	},
 	activity_puzzle_get12 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务3</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务3</color>",
 		key = "activity_puzzle_get12"
 	},
 	activity_puzzle_get13 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务4</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务4</color>",
 		key = "activity_puzzle_get13"
 	},
 	activity_puzzle_get14 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务5</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务5</color>",
 		key = "activity_puzzle_get14"
 	},
 	activity_puzzle_get15 = {
-		tip = "<color=#A9F548FF>获得方式\n拼图任务6</color>",
+		tip = "<color=#92fc63FF>获得方式\n拼图任务6</color>",
 		key = "activity_puzzle_get15"
 	},
 	exchange_item_success = {
@@ -6674,12 +6802,12 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 大讲堂功能详情：
 
 · 熟练度：
-完成三阶突破的100级角色，出击时将根据获得经验同时获取一
-定比例的熟练度
+完成三阶突破的100级角色，出击时将根据获得经验同时
+获取一定比例的熟练度
 
 · 大讲堂等级：
-提升大讲堂等级，可以增加储存熟练度上限、熟练度消耗速度
-和获取熟练度比例
+提升大讲堂等级，可以增加储存熟练度上限、熟练度消耗
+速度和获取熟练度比例
 
 · 大讲堂课程：
 根据课程表，大讲堂每天将教授不同的课程
@@ -6693,13 +6821,13 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 周六：《巡洋实战教学—火力最大化手段分析》
 周日：大讲堂休息，出击获取熟练度比例翻倍
 
-（浅水重炮舰参加战列舰的课程，维修舰可以参加驱逐与巡洋
-的课程，航战可以参加航母与战列舰的课程，潜艇、潜母参加
-驱逐的课程，超巡参加巡洋的课程）
+（浅水重炮舰参加战列舰的课程，维修舰可以参加驱逐与
+巡洋的课程，航战可以参加航母与战列舰的课程，潜艇、
+潜母参加驱逐的课程，超巡参加巡洋的课程）
 
 · 上课：
-大讲堂课程最大时长为12小时，下课时扣除消耗的熟练度，角
-色获取经验
+大讲堂课程最大时长为12小时，下课时扣除消耗的熟练度
+，角色获取经验
 正在后宅休息和训练的角色无法上课
 上课会降低角色的心情，心情不好的话就无法开始上课了]]
 			}
@@ -6722,11 +6850,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "course_state_lession"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#A9F548>$1</color>不开心，不愿意来上课",
+		tip = "<color=#92fc63>$1</color>不开心，不愿意来上课",
 		key = "course_energy_not_enough"
 	},
 	course_proficiency_tip = {
-		tip = "完成三阶突破的<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$1级</color></material>角色，出击时将获取等于出击经验<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material>的熟练度",
+		tip = "完成三阶突破的<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$1级</color></material>角色，出击时将获取等于出击经验<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>的熟练度",
 		key = "course_proficiency_tip"
 	},
 	course_sunday_tip = {
@@ -6762,11 +6890,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "guild_shop_flash_success"
 	},
 	destroy_high_rarity_tip = {
-		tip = "<color=#A9F548>精锐以上</color>",
+		tip = "<color=#92fc63>精锐以上</color>",
 		key = "destroy_high_rarity_tip"
 	},
 	destroy_high_level_tip = {
-		tip = "<color=#A9F548>$1等级不为1</color>",
+		tip = "<color=#92fc63>$1等级不为1</color>",
 		key = "destroy_high_level_tip"
 	},
 	destroy_eliteequipment_tip = {
@@ -6774,7 +6902,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "destroy_eliteequipment_tip"
 	},
 	destroy_high_intensify_tip = {
-		tip = "<color=#A9F548>$1经过强化</color>",
+		tip = "<color=#92fc63>$1经过强化</color>",
 		key = "destroy_high_intensify_tip"
 	},
 	ship_quick_change_noequip = {
@@ -6806,7 +6934,7 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "take_nothing"
 	},
 	take_all_mail = {
-		tip = "是否领取已读取到的<color=#A9F548>$1封邮件附件</color>\n领取将获得：",
+		tip = "是否领取已读取到的<color=#92fc63>$1封邮件附件</color>\n领取将获得：",
 		key = "take_all_mail"
 	},
 	buy_furniture_overtime = {
@@ -6842,11 +6970,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "level_risk_level_desc"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=24>当前海域危险等级为<color=#A9F548>【$1】</color>\n出击舰队受到伤害减少<color=#A9F548>$2%</color></size>",
+		tip = "<size=36>当前海域危险等级为<color=#92fc63>【$1】</color>\n出击舰队受到伤害减少<color=#92fc63>$2%</color></size>",
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24>地图达成<color=#A9F548>3星收集</color>并成为<color=#A9F548>安全海域</color>后\n开启周回模式，出击舰队可直接攻击<color=#A9F548>敌方旗舰</color></size>",
+		tip = "<size=36>地图达成<color=#92fc63>3星收集</color>并成为<color=#92fc63>安全海域</color>后\n出击舰队可直接攻击<color=#92fc63>敌方旗舰</color></size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -6854,15 +6982,15 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "level_chapter_state_high_risk"
 	},
 	level_chapter_state_risk = {
-		tip = "<color=#FFAF59>【危险海域】</color>",
+		tip = "<color=#ffde38>【危险海域】</color>",
 		key = "level_chapter_state_risk"
 	},
 	level_chapter_state_low_risk = {
-		tip = "<color=#8AFBF3>【低危海域】</color>",
+		tip = "<color=#c5cfdf>【低危海域】</color>",
 		key = "level_chapter_state_low_risk"
 	},
 	level_chapter_state_safety = {
-		tip = "<color=#A9F548>【安全海域】</color>",
+		tip = "<color=#92fc63>【安全海域】</color>",
 		key = "level_chapter_state_safety"
 	},
 	open_skill_class_success = {
@@ -7454,14 +7582,14 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		key = "upgrade_to_next_maxlevel_tip"
 	},
 	upgrade_to_next_maxlevel_succeed = {
-		tip = "认知觉醒完成\n等级上限提升为<color=#A9F548FF>$1</color>",
+		tip = "认知觉醒完成\n等级上限提升为<color=#92fc63FF>$1</color>",
 		key = "upgrade_to_next_maxlevel_succeed"
 	},
 	extra_chapter_socre_tip = {
 		tip = [[
-本次挑战积分：<color=#A9F548>$1</color>
+本次挑战积分：<color=#92fc63>$1</color>
 
-历史最高积分：<color=#A9F548>$2</color>
+历史最高积分：<color=#92fc63>$2</color>
 
 $3]],
 		key = "extra_chapter_socre_tip"
@@ -7483,19 +7611,19 @@ $3]],
 		key = "extra_chapter_locked_tip_1"
 	},
 	player_name_change_time_lv_tip = {
-		tip = "指挥官等级达到<color=#A9F548>$1</color>后开放更名功能",
+		tip = "指挥官等级达到<color=#92fc63>$1</color>后开放更名功能",
 		key = "player_name_change_time_lv_tip"
 	},
 	player_name_change_time_limit_tip = {
-		tip = "<color=#A9F548>$1</color>后才允许再次更名",
+		tip = "<color=#92fc63>$1</color>后才允许再次更名",
 		key = "player_name_change_time_limit_tip"
 	},
 	player_name_change_windows_tip = {
-		tip = "*更名需要消耗<color=#A9F548>$1:$2</color>，且<color=#A9F548>30</color>天内不允许再次更改",
+		tip = "*更名需要消耗<color=#92fc63>$1:$2</color>，且<color=#92fc63>30</color>天内不允许再次更改",
 		key = "player_name_change_windows_tip"
 	},
 	player_name_change_warning = {
-		tip = "更名需要消耗<color=#A9F548>$1</color>个<color=#A9F548>$2</color>，且<color=#A9F548>30</color>天后才能再次修改，是否确定将指挥官昵称修改为：<color=#A9F548>$3</color> ？",
+		tip = "更名需要消耗<color=#92fc63>$1</color>个<color=#92fc63>$2</color>，且<color=#92fc63>30</color>天后才能再次修改，是否确定将指挥官昵称修改为：<color=#92fc63>$3</color> ？",
 		key = "player_name_change_warning"
 	},
 	player_name_change_success = {
@@ -7515,7 +7643,7 @@ $3]],
 		key = "task_is_not_existence"
 	},
 	cannot_build_multiple_printblue = {
-		tip = "是否中止<color=#A9F548>$1</color>的研究，并开启<color=#A9F548>$2</color>的研究？开始研究后<color=#A9F548>24小时之内</color>无法更换其他研究对象",
+		tip = "是否中止<color=#92fc63>$1</color>的研究，并开启<color=#92fc63>$2</color>的研究？开始研究后<color=#92fc63>24小时之内</color>无法更换其他研究对象",
 		key = "cannot_build_multiple_printblue"
 	},
 	printblue_build_success = {
@@ -7587,7 +7715,7 @@ $3]],
 		key = "blueprint_destory_tip"
 	},
 	blueprint_task_update_tip = {
-		tip = "当前研究中的<color=#A9F548>$1</color>有新的进展，请去开发船坞确认",
+		tip = "当前研究中的<color=#92fc63>$1</color>有新的进展，请去开发船坞确认",
 		key = "blueprint_task_update_tip"
 	},
 	blueprint_mod_addition_lock = {
@@ -7630,13 +7758,13 @@ $3]],
 		key = "technology_help_text",
 		tip = {
 			{
-				info = "<color=#A1E400FF><size=26>科研项目研发须知</size></color>\n"
+				info = "<color=#A1E400FF>科研项目研发须知</color>\n"
 			},
 			{
 				info = [[
 ※新增功能：研发倾向
-    ·选择一个研发版本倾向后，每次刷新研发项目时，将有
-两个项目固定刷新对应倾向的研发项目
+    ·选择一个研发版本倾向后，每次刷新研发项目时，将
+有两个项目固定刷新对应倾向的研发项目
 
 
 1 开始研发 
@@ -7647,33 +7775,34 @@ $3]],
 
 2 完成研发
     ·科研项目开始后，需要花费一定的时间才能完成。
-    ·部分科研项目有“研发完成条件”，需要同时满足时间和
-完成条件，才能完成该项目。
+    ·部分科研项目有“研发完成条件”，需要同时满足时
+间和完成条件，才能完成该项目。
     ·“研发完成条件”只有在开始科研项目后才会被统计。
-    ·科研倒计时为0后，“研发完成条件”依然可以被统计。
-    ·研发完成并领取奖励后，会刷新所有的科研项目。
+    ·科研倒计时为0后，“研发完成条件”依然可以被统
+计。
+    ·研发完成并领取奖励后，会刷新三个新的科研项目。
 
 
 3 中断研发
     ·点击“停止研发”后会中断当前正在进行的科研项目。
-    ·中断后，不会返还开启科研所消耗的资源，也不会刷新新
-的科研项目。同时“研发完成条件”的进度和花费的时间会被
-清空。
+    ·中断后，不会返还开启科研所消耗的资源，也不会刷
+新新的科研项目。同时“研发完成条件”的进度和花费
+的时间会被清空。
 
 
 4 刷新科研项目
-    ·每日0点后，点击“点击刷新”按钮，会刷新五个新的科
-研项目，每日只能刷新一次。
+    ·每日0点后，点击“点击刷新”按钮，会刷新三个新
+的科研项目，每日只能刷新一次。
     ·当有正在研发中的科研项目时，无法进行刷新。]]
 			}
 		}
 	},
 	blueprint_build_time_tip = {
-		tip = "开始研究后<color=#A9F548>24小时之内</color>无法更换其他研究对象",
+		tip = "开始研究后<color=#92fc63>24小时之内</color>无法更换其他研究对象",
 		key = "blueprint_build_time_tip"
 	},
 	blueprint_cannot_build_tip = {
-		tip = "<color=#A9F548>$1</color>后才能更换研究对象",
+		tip = "<color=#92fc63>$1</color>后才能更换研究对象",
 		key = "blueprint_cannot_build_tip"
 	},
 	technology_task_none_tip = {
@@ -7685,7 +7814,7 @@ $3]],
 		key = "technology_task_build_tip"
 	},
 	blueprint_commit_tip = {
-		tip = "需要提交<color=#A9F548>$1</color>，是否确认提交？",
+		tip = "需要提交<color=#92fc63>$1</color>，是否确认提交？",
 		key = "blueprint_commit_tip"
 	},
 	buleprint_need_level_tip = {
@@ -7750,13 +7879,7 @@ $3]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technologytree1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technologytree2"
+					atlas = "helpbg/technology"
 				}
 			},
 			{
@@ -7771,30 +7894,20 @@ $3]],
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technology"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7813,38 +7926,39 @@ $3]],
 				info = [[
 
 开始研究
-1. 开始方案舰的研究之前，需要满足对应方案舰的研究前置
-条件
+1. 开始方案舰的研究之前，需要满足对应方案舰的研究前
+置条件
 2. 研究前置条件会显示在画面中央
 3. 当满足前置条件后，点击开始研究按钮，即可开始研究
 4. 方案舰同时只能研究一艘
 
 研究任务
-1. 开始研究后，需要完成指定方案舰的所有研究任务才能获
-得该方案舰
+1. 开始研究后，需要完成指定方案舰的所有研究任务才能
+获得该方案舰
 2. 研究任务每24小时解锁一个
 3. 第一个研究任务在开始研究后默认解锁
-4. 部分研究任务有前置任务，必须完成前置任务后才能开展
-后续的任务
+4. 部分研究任务有前置任务，必须完成前置任务后才能开
+展后续的任务
 
 切换研究对象
 1. 在研究过程中，可以切换研究其他方案舰
-2. 切换后，原先的方案舰的研究任务解锁进度、任务完成进
-度会被暂停
-3. 切换研究对象后，需要等待24小时后才能再次切换研究对象
+2. 切换后，原先的方案舰的研究任务解锁进度、任务完成
+进度会被暂停
+3. 切换研究对象后，需要等待24小时后才能再次切换研究
+对象
 
 完成研究
-1. 当完成方案舰的所有研究任务后，即可获得该方案舰，并解
-锁该方案舰的开发功能
+1. 当完成方案舰的所有研究任务后，即可获得该方案舰，
+并解锁该方案舰的开发功能
 2. 完成研究后，需要手动指定新的研究对象
 
 进行开发
 1. 获得方案舰后，会解锁该方案舰的开发功能
-2. 开发需要消耗对应方案舰的蓝图，当没有蓝图时无法进行
-开发
+2. 开发需要消耗对应方案舰的蓝图，当没有蓝图时无法进
+行开发
 3. 蓝图主要在军部科研室中通过完成科研项目获得
-4. 开发可以提高方案舰的能力，到开发等级达到指定等级后，
-还能解锁开发加成能力]]
+4. 开发可以提高方案舰的能力，到开发等级达到指定等级
+后，还能解锁开发加成能力]]
 			}
 		}
 	},
@@ -7855,12 +7969,12 @@ $3]],
 				info = [[
 《天运拟合》系统
 
-1. 方案舰的研发等级<color=#A9F548>满级(Lv.30)</color>后才能解锁相应的《天运拟合》
-系统
-2. 《天运拟合》共分<color=#A9F548>5</color>个阶段，每个阶段需要消耗相应的<color=#A9F548>蓝图</color>提
-升完成度，完成度达到100%即可解锁对应的拟合阶段
-3. 解锁<color=#A9F548>阶段I~阶段V</color>时，会提升相应方案舰的<color=#A9F548>幸运值</color>
-4. 解锁阶段<color=#A9F548>V</color>时，将使对应的方案舰的<color=#A9F548>技能</color>发生<color=#A9F548>特殊变化</color>]]
+1. 方案舰的研发等级<color=#92fc63>满级(Lv.30)</color>后才能解锁相应的《天运
+拟合》系统
+2. 《天运拟合》共分<color=#92fc63>5</color>个阶段，每个阶段需要消耗相应的<color=#92fc63>蓝
+图</color>提升完成度，完成度达到100%即可解锁对应的拟合阶段
+3. 解锁<color=#92fc63>阶段I~阶段V</color>时，会提升相应方案舰的<color=#92fc63>幸运值</color>
+4. 解锁阶段<color=#92fc63>V</color>时，将使对应的方案舰的<color=#92fc63>技能</color>发生<color=#92fc63>特殊变化</color>]]
 			}
 		}
 	},
@@ -7936,30 +8050,32 @@ $3]],
 正常接收信号
 
 信号定位
-·我们可以对接收到的求救信号进行定位，找到这个信号的
-来源海域
+·我们可以对接收到的求救信号进行定位，找到这个信号
+的来源海域
 ·定位完成后会开启救援行动，救援行动会持续12小时
-·如果无法在限定时间内完成救援，我们将会丢失信号来源，
-导致无法行动。
+·如果无法在限定时间内完成救援，我们将会丢失信号来
+源，导致无法行动。
 ·一个章节内最多同时只能出现一个海域救援行动
-·在增强信号之前，我们只能搜索到来自第三章海域的信息
+·在增强信号之前，我们只能搜索到来自第三章海域的信
+息
 
 信号强度
 ·信号接收器的强度一共分为8档，在初始状态下我们的信
 号强度为1档。
-·信号强度每增强1档，可收到的求救信号数量上限增加1件，
-可定位的海域也能增加1章
+·信号强度每增强1档，可收到的求救信号数量上限增加1
+件，可定位的海域也能增加1章
 ·指挥官需要先通关该章节的所有关卡后才能在对应章节
 搜索到海域救援行动
-·信号强度等级越高，完成救援可获得的奖励会变得越丰厚
+·信号强度等级越高，完成救援可获得的奖励会变得越丰
+厚
 ·以S评价完成当前可定位到的最高章节的救援行动时，信
 号强度会增强1档
 ·信号强度决定了指挥官可以存储的信号数量上限，每个
 信号强度对应一件信号存储上限数量
 
 战斗遭遇
-·在救援过程中会遭遇到敌方的潜艇部队，请指挥官务必为
-出击的舰队配备反潜设备]]
+·在救援过程中会遭遇到敌方的潜艇部队，请指挥官务必
+为出击的舰队配备反潜设备]]
 			}
 		}
 	},
@@ -7968,11 +8084,11 @@ $3]],
 		key = "sos_lock"
 	},
 	charge_scene_buy_confirm = {
-		tip = "是否使用<color=#A9F548FF>$1钻石</color>购买<color=#A9F548FF>$2</color>",
+		tip = "是否使用<color=#92fc63FF>$1钻石</color>购买<color=#92fc63FF>$2</color>",
 		key = "charge_scene_buy_confirm"
 	},
 	charge_scene_batch_buy_tip = {
-		tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4",
+		tip = "是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石购买<color=$3>$2</color>个$4",
 		key = "charge_scene_batch_buy_tip"
 	},
 	help_level_ui = {
@@ -8032,41 +8148,25 @@ $3]],
 					atlas = "helpbg/level_ui_help"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_1"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 10,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	guild_modify_info_tip = {
-		tip = "是否使用<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>钻石更改大舰队代号",
+		tip = "是否使用<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>钻石更改大舰队代号",
 		key = "guild_modify_info_tip"
 	},
 	ai_change_1 = {
@@ -8086,7 +8186,7 @@ $3]],
 		key = "word_bilibili"
 	},
 	levelScene_tracking_error_pre = {
-		tip = "通关<color=#A9F548>$1</color>后开启",
+		tip = "通关<color=#92fc63>$1</color>后开启",
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
@@ -8184,28 +8284,28 @@ $3]],
 				info = "作战点数获取方式："
 			},
 			{
-				info = "    1.完成1次每日挑战可获得20点（每日上限<color=#A9F548>[task=13852]</color>/120点）；"
+				info = "    1.完成1次每日挑战可获得20点（每日上限<color=#92fc63>[task=13852]</color>/120点）；"
 			},
 			{
-				info = "    2.完成军事演习1次可获得5点（每日上限<color=#A9F548>[task=13853]</color>/50点）；"
+				info = "    2.完成军事演习1次可获得5点（每日上限<color=#92fc63>[task=13853]</color>/50点）；"
 			},
 			{
-				info = "    3.通关任意主线困难本1次可获得20点（每日上限<color=#A9F548>[task=13854]</color>/60点）；"
+				info = "    3.通关任意主线困难本1次可获得20点（每日上限<color=#92fc63>[task=13854]</color>/60点）；"
 			},
 			{
-				info = "    4.击败旗舰1次可获得10点（每日上限<color=#A9F548>[task=13855]</color>/500点）；"
+				info = "    4.击败旗舰1次可获得10点（每日上限<color=#92fc63>[task=13855]</color>/500点）；"
 			},
 			{
-				info = "    5.舰船强化1次可获得5点（每日上限<color=#A9F548>[task=13856]</color>/50点）；"
+				info = "    5.舰船强化1次可获得5点（每日上限<color=#92fc63>[task=13856]</color>/50点）；"
 			},
 			{
-				info = "    6.舰船退役1次可获得5点（每日上限<color=#A9F548>[task=13857]</color>/50点）；"
+				info = "    6.舰船退役1次可获得5点（每日上限<color=#92fc63>[task=13857]</color>/50点）；"
 			},
 			{
-				info = "    7.完成军事委托1次可获得10点（每日上限<color=#A9F548>[task=13858]</color>/100点）；"
+				info = "    7.完成军事委托1次可获得10点（每日上限<color=#92fc63>[task=13858]</color>/100点）；"
 			},
 			{
-				info = "    8.建造1次可获得15点（每日上限<color=#A9F548>[task=13859]</color>/750点）；"
+				info = "    8.建造1次可获得15点（每日上限<color=#92fc63>[task=13859]</color>/750点）；"
 			}
 		}
 	},
@@ -8234,7 +8334,7 @@ $3]],
 		key = "collect_chapter_is_activation"
 	},
 	levelScene_chapter_is_activation = {
-		tip = "关卡<color=#A9F548>$1</color>正在攻略中，\n请选择前往继续攻略或撤退",
+		tip = "关卡<color=#92fc63>$1</color>正在攻略中，\n请选择前往继续攻略或撤退",
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
@@ -8333,6 +8433,43 @@ $3]],
 			}
 		}
 	},
+	metalgearsub_help_tip = {
+		key = "metalgearsub_help_tip",
+		tip = {
+			{
+				info = "小小的誓言活动说明："
+			},
+			{
+				info = "    1.指挥官操作潜艇躲避敌方护卫舰队和水雷到达关底并\n    击沉运输舰即可获得战斗胜利，返回活动页后可以获得\n    活动道具；"
+			},
+			{
+				info = "    2.活动道具每天有一次获得机会，可累积，活动关每天\n    可以无限次挑战。集齐7个活动道具后可以得到限定设\n    备"
+			},
+			{
+				info = [[
+    3.关卡内护卫舰队拥有“无状态”、“疑惑”、“警惕”、
+    “攻击”四种警戒状态，
+    四种状态分别对应提示：
+    无状态：空
+    疑惑：？
+    警惕：！
+    攻击：！！
+   当潜艇浮出水面、进入敌方声呐范围、攻击敌方或引爆
+   水雷时，护卫舰队的警戒状态会改变，警戒条也会随之
+   上涨，当警戒条涨满时，护卫舰队会开始攻击，此时潜
+   艇可以通过下潜、远离声呐范围来消除敌方警戒；]]
+			},
+			{
+				info = "    4.关卡内水雷分为水上和水下两种，可以通过下潜或\n   上浮躲避，也可用武器击毁。撞上水雷会引爆并造成\n   伤害 ；"
+			},
+			{
+				info = "    5.潜艇的弹药数是有限的，指挥官需要合理规划弹\n    药使用，预留足够弹药来击沉关底的运输舰才能获得胜\n    利。"
+			},
+			{
+				info = "    6.小小的誓言活动关卡内胜利或失败不计入数据统计；"
+			}
+		}
+	},
 	acl_gold_count = {
 		tip = "目标金币：",
 		key = "acl_gold_count"
@@ -8342,7 +8479,7 @@ $3]],
 		key = "acl_gold_total_count"
 	},
 	discount_time = {
-		tip = "<color=grey>折扣剩余时间</color> <color=#A9F548>$1</color>",
+		tip = "<color=grey>折扣剩余时间</color> <color=#92fc63>$1</color>",
 		key = "discount_time"
 	},
 	commander_talent_not_exist = {
@@ -8517,12 +8654,28 @@ $3]],
 		tip = "天赋点不足",
 		key = "commander_skill_point_noengough"
 	},
+	buildship_new_tip = {
+		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		key = "buildship_new_tip"
+	},
+	buildship_heavy_tip = {
+		tip = "重型舰: 重型舰船的建造，包含重巡、重炮、战巡、战列等舰船",
+		key = "buildship_heavy_tip"
+	},
+	buildship_light_tip = {
+		tip = "轻型舰: 轻型舰船的建造，包含驱逐、轻巡、轻航、维修、重炮等舰船",
+		key = "buildship_light_tip"
+	},
+	buildship_special_tip = {
+		tip = "特型舰: 特型舰船的建造，包含重巡、轻航、正航、维修、潜艇等舰船",
+		key = "buildship_special_tip"
+	},
 	open_skill_pos = {
-		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color>\n是否确认开启？",
+		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>\n是否确认开启？",
 		key = "open_skill_pos"
 	},
 	open_skill_pos_discount = {
-		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color>\n是否确认开启？",
+		tip = "开启栏位需要消耗<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>\n是否确认开启？",
 		key = "open_skill_pos_discount"
 	},
 	event_recommend_fail = {
@@ -8536,7 +8689,7 @@ $3]],
 				info = "新兵训练活动说明："
 			},
 			{
-				info = "    1.活动没有时间限制，在玩家未完成所有活动任务前一直开放；"
+				info = "    1.活动没有时间限制，在玩家未完成所有活动任务前一直\n开放；"
 			},
 			{
 				info = "    2.完成当前阶段所有任务后解锁挑战任务；"
@@ -8582,7 +8735,7 @@ $3]],
 		key = "newplayer_notice_8"
 	},
 	nine_choose_one = {
-		tip = "指挥官只能邀请一人参加舞会，\n是否确认邀请<color=#A9F548>$1</color>？\n邀请后会获得对应角色和回礼",
+		tip = "指挥官只能邀请一人参加舞会，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼",
 		key = "nine_choose_one"
 	},
 	help_commander_info = {
@@ -8635,19 +8788,15 @@ $3]],
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8701,19 +8850,15 @@ $3]],
 			defaultpage = 5,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8767,19 +8912,15 @@ $3]],
 			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8805,19 +8946,15 @@ $3]],
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8835,20 +8972,20 @@ $3]],
 				info = [[
   活动期间，不同难度的演习，每次通关时可以获得额外收益，
   额外收益每天有获得次数上限。不同难度的额外收益次数分
-  别为：初级演习：<color=#A9F548>20</color>次；中级演习：<color=#A9F548>20</color>次；高级演习：<color=#A9F548>40</color>次
+  别为：初级演习：<color=#92fc63>20</color>次；中级演习：<color=#92fc63>20</color>次；高级演习：<color=#92fc63>40</color>次
 ]]
 			},
 			{
 				info = "1.参与活动获取pt点数，并与本服玩家协力攻略女仆据点；"
 			},
 			{
-				info = "2.女仆据点攻略完成后，所有参与据点战斗的玩家都将获得限\n定角色<color=#A9F548>【纽卡斯尔号】</color>（通过邮件发放）；"
+				info = "2.女仆据点攻略完成后，所有参与据点战斗的玩家都将获得限\n定角色<color=#92fc63>【纽卡斯尔号】</color>（通过邮件发放）；"
 			},
 			{
-				info = "3.女仆据点攻略完成后，玩家可继续参与活动累计pt获得大量\n奖励与限定角色<color=#A9F548>【纽卡斯尔号】</color>；"
+				info = "3.女仆据点攻略完成后，玩家可继续参与活动累计pt获得大量\n奖励与限定角色<color=#92fc63>【纽卡斯尔号】</color>；"
 			},
 			{
-				info = "4.个人累计pt的奖励截止时间为<color=#A9F548>2018.10.18 23.59.59</color>"
+				info = "4.个人累计pt的奖励截止时间为<color=#92fc63>2018.10.18 23.59.59</color>"
 			}
 		}
 	},
@@ -8873,7 +9010,7 @@ $3]],
 		key = "comander_repalce_tip"
 	},
 	commander_lock_tip = {
-		tip = "是否<color=#A9F548>锁定</color>该指挥喵？",
+		tip = "是否<color=#92fc63>锁定</color>该指挥喵？",
 		key = "commander_lock_tip"
 	},
 	commander_is_in_battle = {
@@ -8893,7 +9030,7 @@ $3]],
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "确定消耗<color=#A9F548>$1</color>个女王的恩典\n用于抽取<color=#A9F548>$2</color>次补给？",
+		tip = "确定消耗<color=#92fc63>$1</color>个战斗之星\n用于抽取<color=#92fc63>$2</color>次补给？",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -9053,27 +9190,27 @@ $3]],
 		key = "map_event_skip"
 	},
 	map_event_stop_tip = {
-		tip = "踩下对应颜色<color=#A9F548>机关</color>可解除禁止通行状态",
+		tip = "踩下对应颜色<color=#92fc63>机关</color>可解除禁止通行状态",
 		key = "map_event_stop_tip"
 	},
 	map_event_save_nekone = {
-		tip = "成功救出<color=#A9F548>猫音</color>",
+		tip = "成功救出<color=#92fc63>猫音</color>",
 		key = "map_event_save_nekone"
 	},
 	map_event_save_rurutie = {
-		tip = "成功救出<color=#A9F548>露露缇耶</color>",
+		tip = "成功救出<color=#92fc63>露露缇耶</color>",
 		key = "map_event_save_rurutie"
 	},
 	map_event_memory_collected = {
-		tip = "隐藏剧情<color=#A9F548>$1</color>收集成功！",
+		tip = "隐藏剧情<color=#92fc63>$1</color>收集成功！",
 		key = "map_event_memory_collected"
 	},
 	map_event_save_kizuna = {
-		tip = "成功救出<color=#A9F548>绊爱</color>",
+		tip = "成功救出<color=#92fc63>绊爱</color>",
 		key = "map_event_save_kizuna"
 	},
 	five_choose_one = {
-		tip = "指挥官只能邀请一人共度平安夜，\n是否确认邀请<color=#A9F548>$1</color>？\n邀请后会获得对应角色和回礼",
+		tip = "指挥官只能邀请一人共度平安夜，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼",
 		key = "five_choose_one"
 	},
 	ship_preference_common = {
@@ -9119,6 +9256,34 @@ $3]],
 	ship_preference_non = {
 		tip = "已将<color=#92fc63>$1</color>取消常用",
 		key = "ship_preference_non"
+	},
+	school_title_dajiangtang = {
+		tip = "大讲堂",
+		key = "school_title_dajiangtang"
+	},
+	school_title_zhihuimiao = {
+		tip = "指挥喵",
+		key = "school_title_zhihuimiao"
+	},
+	school_title_shitang = {
+		tip = "海军食堂",
+		key = "school_title_shitang"
+	},
+	school_title_xiaomaibu = {
+		tip = "小卖部",
+		key = "school_title_xiaomaibu"
+	},
+	school_title_shangdian = {
+		tip = "补给商店",
+		key = "school_title_shangdian"
+	},
+	school_title_xueyuan = {
+		tip = "战术学院",
+		key = "school_title_xueyuan"
+	},
+	school_title_shoucang = {
+		tip = "收藏室",
+		key = "school_title_shoucang"
 	},
 	tag_level_fighting = {
 		tip = "攻略中",
@@ -9284,19 +9449,176 @@ $3]],
 		tip = {
 			{
 				info = [[
-海域达成<color=#A9F548>三星条件</color>并达成<color=#A9F548>安全海域</color>后可开启<color=#A9F548>周回模式</color>
+海域达成<color=#92fc63>三星条件</color>并达成<color=#92fc63>安全海域</color>后可开启<color=#92fc63>周回模式</color>
 
 启用周回模式后，海域将有以下变化：
 
-1 通常海域困难模式中<color=#A9F548>不会出现</color>敌人护卫舰队
+1 通常海域困难模式中<color=#92fc63>不会出现</color>敌人护卫舰队
 2 活动关卡的敌人设置将会出现一部分变化
-3 活动关卡中我方的移动格数<color=#A9F548>不会受到移动力限制</color>，可自由移动]]
+3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自
+由移动]]
 			}
 		}
 	},
 	no_airspace_competition = {
 		tip = "无空域争夺",
 		key = "no_airspace_competition"
+	},
+	air_supremacy_value = {
+		tip = "制空值",
+		key = "air_supremacy_value"
+	},
+	read_the_user_agreement = {
+		tip = "请先阅读完用户协议 ",
+		key = "read_the_user_agreement"
+	},
+	award_max_warning = {
+		tip = "部分奖励将会因超出上限而浪费,是否仍要领取?",
+		key = "award_max_warning"
+	},
+	sub_item_warning = {
+		tip = "是否提交以下物品?",
+		key = "sub_item_warning"
+	},
+	select_award_warning = {
+		tip = "选择想要的奖励",
+		key = "select_award_warning"
+	},
+	no_item_selected_tip = {
+		tip = "未选择奖励,放弃领取",
+		key = "no_item_selected_tip"
+	},
+	backyard_traning_tip = {
+		tip = "训练提供对应舰娘经验增长与提升少量心情恢复速度",
+		key = "backyard_traning_tip"
+	},
+	backyard_rest_tip = {
+		tip = "休息增加舰娘心情恢复",
+		key = "backyard_rest_tip"
+	},
+	backyard_class_tip = {
+		tip = "授课提供对应舰娘经验增长",
+		key = "backyard_class_tip"
+	},
+	medal_notice_1 = {
+		tip = "只显示最高级",
+		key = "medal_notice_1"
+	},
+	medal_notice_2 = {
+		tip = "已选择",
+		key = "medal_notice_2"
+	},
+	medal_help_tip = {
+		key = "medal_help_tip",
+		tip = {
+			{
+				info = "收藏室功能详情：\n"
+			},
+			{
+				info = "-勋章："
+			},
+			{
+				info = "·司令部设置了勋章系统，以嘉奖在各领域作出突出贡献\n    的指挥官"
+			},
+			{
+				info = "-获取勋章"
+			},
+			{
+				info = "·不同勋章拥有不同获取条件，当指挥官达成对应条件后，\n    可以获取相应的勋章。"
+			},
+			{
+				info = "·不同勋章的获取任务可以同时进行"
+			},
+			{
+				info = "·部分勋章拥有多个等级，只有领取上一级勋章后，\n    才能进行下一级勋章的获取 "
+			},
+			{
+				info = "·部分勋章需要达成复数条件后才可领取"
+			},
+			{
+				info = "-勋章的作用"
+			},
+			{
+				info = "已领取的勋章可以通过在主界面左上角点击秘书舰头像，\n   再点击装扮按钮，设置是否佩戴 "
+			},
+			{
+				info = "·已佩戴的勋章会展示在个人信息页及履历详情中"
+			},
+			{
+				info = "-其他"
+			},
+			{
+				info = "·涉及角色养成的勋章，不会统计多个相同角色的累积进\n度，而是只取该角色最高进度 "
+			},
+			{
+				info = "·退役操作不影响已达成进度"
+			},
+			{
+				info = "·改造后角色的养成统计不会和改造前角色做区分"
+			},
+			{
+				info = "·退役操作不影响已达成进度"
+			},
+			{
+				info = "·关于阵营勋章的战斗经验累积，只有当指挥官领取了上\n一级   的阵营勋章后，才会开始下一级经验的累积"
+			}
+		}
+	},
+	trophy_achieved = {
+		tip = "勋章解锁！",
+		key = "trophy_achieved"
+	},
+	text_confirm = {
+		tip = "确 定",
+		key = "text_confirm"
+	},
+	text_cancel = {
+		tip = "取 消",
+		key = "text_cancel"
+	},
+	text_cancel_fight = {
+		tip = "退出战斗",
+		key = "text_cancel_fight"
+	},
+	text_goon_fight = {
+		tip = "继续战斗",
+		key = "text_goon_fight"
+	},
+	text_exit = {
+		tip = "退 出",
+		key = "text_exit"
+	},
+	text_clear = {
+		tip = "清 理",
+		key = "text_clear"
+	},
+	text_apply = {
+		tip = "申 请",
+		key = "text_apply"
+	},
+	text_buy = {
+		tip = "购 买",
+		key = "text_buy"
+	},
+	text_forward = {
+		tip = "立即前往",
+		key = "text_forward"
+	},
+	text_prepage = {
+		tip = "上一页",
+		key = "text_prepage"
+	},
+	text_nextpage = {
+		tip = "下一页",
+		key = "text_nextpage"
+	},
+	text_exchange = {
+		tip = "兑 换",
+		key = "text_exchange"
+	},
+	text_retreat = {
+		tip = "撤 退",
+		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
 		tip = "侦查值：",
@@ -9315,7 +9637,7 @@ $3]],
 		key = "level_scene_title_word_4"
 	},
 	level_scene_title_word_5 = {
-		tip = "制空值：         <color=#18ff23>推荐：       </color>",
+		tip = "推荐：",
 		key = "level_scene_title_word_5"
 	},
 	ambush_display_0 = {
@@ -9353,7 +9675,7 @@ $3]],
 				info = "活动说明："
 			},
 			{
-				info = "1.净化虚拟空间共有5张游戏图，可以在活动期间内反复游玩，\n但仅有前4张图<color=#A9F548>首次</color>净化成功时可获得奖励。"
+				info = "1.净化虚拟空间共有5张游戏图，可以在活动期间内反复游玩，\n但仅有前4张图<color=#92fc63>首次</color>净化成功时可获得奖励。"
 			},
 			{
 				info = "2.前四张游戏图为固定图，第五张游戏图为随机图。"
@@ -9371,13 +9693,13 @@ $3]],
 				info = "6.点击游戏图上的同一格两次，即可进行一次翻转操作。"
 			},
 			{
-				info = "7.执行翻转操作将使以点击格为中心的<color=#A9F548>九格</color>颜色发生<color=#A9F548>反转</color>。\n（黑色格变为白色格，白色格变为黑色格）"
+				info = "7.执行翻转操作将使以点击格为中心的<color=#92fc63>九格</color>颜色发生<color=#92fc63>反转</color>。\n（黑色格变为白色格，白色格变为黑色格）"
 			},
 			{
 				info = "8.进行3次翻转后游戏进行结算。"
 			},
 			{
-				info = "9.结算时，游戏图上的每个黑色块<color=#A9F548>-1</color>分，每个白色块<color=#A9F548>+1</color>分。\n最终分数<color=#A9F548>≥0</color>时视为净化完成，<color=#A9F548>＜0</color>时视为净化失败。"
+				info = "9.结算时，游戏图上的每个黑色块<color=#92fc63>-1</color>分，每个白色块<color=#92fc63>+1</color>分。\n最终分数<color=#92fc63>≥0</color>时视为净化完成，<color=#92fc63>＜0</color>时视为净化失败。"
 			},
 			{
 				info = "10.每场游戏中，玩家拥有3次翻转次数。"
@@ -9409,33 +9731,35 @@ $3]],
 
 制空值
 ·制空值是衡量舰队制空能力的数值。
-·制空值由指挥官出击舰队的航空值飞机数量等决定的。反潜
-机不计入制空值。
+·制空值由指挥官出击舰队的航空值飞机数量等决定的。
+反潜机不计入制空值。
 P.S. 我方防空力量可以有效的降低敌方制空值哦！
 ·制空值会影响当前关卡的空域状态。
 
 空域状态
 ·舰队对当前关卡空域的控制状态被称为空域状态。
-·敌我双方制空值决定当前关卡空域状态，空域状态会影响舰
-队的部分属性。
+·敌我双方制空值决定当前关卡空域状态，空域状态会影
+响舰队的部分属性。
 
 空域状态分为以下六种：
-制空权确保：舰队全体航空伤害提高20%，受到航空伤害降低
-10%，命中提高10%，受到伏击概率降低8%。（点燃和进水伤
-害不受影响。）
+制空权确保：舰队全体航空伤害提高20%，受到航空伤害
+降低10%，命中提高10%，受到伏击概率降低8%。（点
+燃和进水伤害不受影响。）
 
-制空权优势：舰队全体航空伤害提高12%，受到航空伤害降低
-6%，命中提高5%，受到伏击概率降低5%。（点燃和进水伤害
-不受影响。）
+制空权优势：舰队全体航空伤害提高12%，受到航空伤害
+降低6%，命中提高5%，受到伏击概率降低5%。（点燃
+和进水伤害不受影响。）
 
-势均力敌：舰队全体航空伤害降低6%，受到航空伤害降低3%。
-（点燃和进水伤害不受影响。）
+势均力敌：舰队全体航空伤害降低6%，受到航空伤害降
+低3%。（点燃和进水伤害不受影响。）
 
-制空权劣势：舰队全体航空伤害降低12%，受到航空伤害提高
-6%，命中、机动降低3%。（点燃和进水伤害不受影响。）
+制空权劣势：舰队全体航空伤害降低12%，受到航空伤害
+提高6%，命中、机动降低3%。（点燃和进水伤害不受影
+响。）
 
-制空权丧失：舰队全体航空伤害降低20%，受到航空伤害提高
-10%，命中、机动降低8%。（点燃和进水伤害不受影响。）
+制空权丧失：舰队全体航空伤害降低20%，受到航空伤害
+提高10%，命中、机动降低8%。（点燃和进水伤害不受
+影响。）
 
 无空域争夺：无特殊效果。]]
 			}
@@ -9448,10 +9772,11 @@ P.S. 我方防空力量可以有效的降低敌方制空值哦！
 				info = [[
 属性说明
 
-回避上限：舰载机被敌方防空舰攻击时回避其攻击的几率上限
+回避上限：舰载机被敌方防空舰攻击时回避其攻击的几率
+上限
 
-舰载机回避率由舰载机、装备舰载机的航母航空值和敌方防空舰
-防空值决定]]
+舰载机回避率由舰载机、装备舰载机的航母航空值和敌方
+防空舰防空值决定]]
 			}
 		}
 	},
@@ -9472,7 +9797,7 @@ P.S. 我方防空力量可以有效的降低敌方制空值哦！
 		key = "tech_simulate_quit"
 	},
 	technology_uplevel_error_no_res = {
-		tip = "是否消耗<color=#A9F548>$1</color>物资解锁科技等级？\n所需时间：<color=#A9F548>$2</color>\n等级变化：<color=#A9F548>Lv.$3->Lv.$4</color>",
+		tip = "是否消耗<color=#92fc63>$1</color>物资解锁科技等级？\n所需时间：<color=#92fc63>$2</color>\n等级变化：<color=#92fc63>Lv.$3->Lv.$4</color>",
 		key = "technology_uplevel_error_no_res"
 	},
 	help_technologytree = {
@@ -9480,40 +9805,42 @@ P.S. 我方防空力量可以有效的降低敌方制空值哦！
 		tip = {
 			{
 				info = [[
-<size=24><color=#FFDD00>舰队科技</color></size>
+<color=#FFDD00>舰队科技</color>
 
-达成以下条件可以获得相应舰船的<color=#A9F548>科技点</color>，并解锁特定的<color=#A9F548>属性
-加成</color>：
-a <color=#A9F548>获得</color>特定舰船（获得科技点，解锁对应的全舰队<color=#A9F548>属性加成</color>）
-b 特定舰船突破<color=#A9F548>达到满星</color>（获得科技点）
-c 特定舰船达到120级（获得科技点，解锁对应的全舰队<color=#A9F548>属性加
+达成以下条件可以获得相应舰船的<color=#92fc63>科技点</color>，并解锁特定的
+<color=#92fc63>属性加成</color>：
+a <color=#92fc63>获得</color>特定舰船（获得科技点，解锁对应的全舰队<color=#92fc63>属性加
 成</color>）
-<color=#A9F548>*相同舰船只取最高进度</color>
+b 特定舰船突破<color=#92fc63>达到满星</color>（获得科技点）
+c 特定舰船达到120级（获得科技点，解锁对应的全舰队
+<color=#92fc63>属性加成</color>）
+<color=#92fc63>*相同舰船只取最高进度</color>
 
-<size=24><color=#FFDD00>阵营科技</color></size>
+<color=#FFDD00>阵营科技</color>
 
-特定阵营的<color=#A9F548>阵营科技点</color>达到一定值以后，可以提升相应阵营的
-<color=#A9F548>科技等级</color>
-提升阵营科技等级需要消耗一定数量的<color=#A9F548>物资</color>，并且需要等待一
-定的<color=#A9F548>时间</color>
-阵营科技达到对应等级，可以解锁对应的全舰队<color=#A9F548>属性加成</color>
-定的<color=#A9F548>时间</color>
-<color=#D6341D>同时只能进行一项阵营科技等级的提升</color>
+特定阵营的<color=#92fc63>阵营科技点</color>达到一定值以后，可以提升相应阵
+营的<color=#92fc63>科技等级</color>
+提升阵营科技等级需要消耗一定数量的<color=#92fc63>物资</color>，并且需要等
+待一定的<color=#92fc63>时间</color>
+阵营科技达到对应等级，可以解锁对应的全舰队<color=#92fc63>属性加成</color>
+定的<color=#92fc63>时间</color>
+<color=#ff5c5c>同时只能进行一项阵营科技等级的提升</color>
 
-*舰队科技&阵营科技的属性加成只对<color=#D6341D>突破至满星</color>的舰船生效
+*舰队科技&阵营科技的属性加成只对<color=#ff5c5c>突破至满星</color>的舰船
+生效
 
-<size=24><color=#FFDD00>阵营科技点计算</color></size>
+<color=#FFDD00>阵营科技点计算</color>
 
-阵营科技点是指挥官解锁<color=#A9F548>对应阵营</color>的<color=#A9F548>舰队科技</color>获得的科技点的
-<color=#A9F548>累计总和</color>
+阵营科技点是指挥官解锁<color=#92fc63>对应阵营</color>的<color=#92fc63>舰队科技</color>获得的科技
+点的<color=#92fc63>累计总和</color>
 
 例：指挥官获得了
-<size=20>拉菲(白鹰) 科技点<color=#A9F548>+1</color>
-长岛(白鹰) 科技点<color=#A9F548>+1</color>
-Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
-则此时的<color=#A9F548>阵营科技点</color>为
-白鹰阵营科技点 <color=#A9F548>+2</color>
-<color=#D6341D>铁血</color>阵营科技点 <color=#A9F548>+1</color>]]
+<size=28>拉菲(白鹰) 科技点<color=#92fc63>+1</color>
+长岛(白鹰) 科技点<color=#92fc63>+1</color>
+Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
+则此时的<color=#92fc63>阵营科技点</color>为
+白鹰阵营科技点 <color=#92fc63>+2</color>
+<color=#ff5c5c>铁血</color>阵营科技点 <color=#92fc63>+1</color>]]
 			}
 		}
 	},
@@ -9522,7 +9849,7 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 		key = "tech_change_version_mark"
 	},
 	technology_uplevel_error_studying = {
-		tip = "<color=#A9F548>$1</color>正在升级中，需要升级完成后才能继续",
+		tip = "<color=#92fc63>$1</color>正在升级中，需要升级完成后才能继续",
 		key = "technology_uplevel_error_studying"
 	},
 	fate_attr_word = {
@@ -9534,13 +9861,15 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 		key = "fate_phase_word"
 	},
 	blueprint_simulation_confirm = {
-		tip = "是否开始战术模拟？(*战术模拟中的我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得时的舰船为准</color>）",
+		tip = "是否开始战术模拟？(*战术模拟中的我方舰船将受到某些特殊加成影响，<color=#ff5c5c>实际性能以获得时的舰船为准</color>）",
 		key = "blueprint_simulation_confirm"
 	},
 	blueprint_simulation_confirm_19901 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 试作型三联装152mm高平两用炮Mk17
 试作型三联装152mm高平两用炮Mk17
 四联40mm博福斯对空机炮
@@ -9549,8 +9878,10 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	},
 	blueprint_simulation_confirm_19902 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 试作型双联装457mm主炮MKA
 双联装127mm高平两用炮MK12
 四联40mm博福斯对空机炮
@@ -9559,8 +9890,10 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	},
 	blueprint_simulation_confirm_39903 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 双联100mm98式高射炮
 四联装610mm鱼雷
 试作型五式40mm高射机关炮
@@ -9569,8 +9902,10 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	},
 	blueprint_simulation_confirm_39904 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 试作型三联装310mm主炮
 双联100mm98式高射炮
 试作型五式40mm高射机关炮
@@ -9579,8 +9914,10 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	},
 	blueprint_simulation_confirm_49902 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 试作型双联装406mmSKC主炮
 双联装TbtsKC36式150mm主炮
 双联105mmSKC高炮
@@ -9589,8 +9926,10 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 	},
 	blueprint_simulation_confirm_99901 = {
 		tip = [[
-<size=23>是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，<color=#D6341D>实际性能以获得舰船为准</color>）
-使用装备：<color=#A9F548>
+<size=28>
+是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，
+<color=#ff5c5c>实际性能以获得舰船为准</color>）
+使用装备：<color=#92fc63>
 四联装380mm主炮Mle1935
 三联装152mm主炮Mle1930
 双联37mm高射炮Mle1936
@@ -9619,8 +9958,197 @@ Z23(<color=#D6341D>铁血</color>) 科技点<color=#A9F548>+1</color></size>
 			},
 			{
 				info = "3.通过一次Black-SP后重返SP1—SP4，收集全新的回忆吧！"
+			},
+			{
+				info = "4.<color=#92fc63>注意：</color>获取条件为？？？的「港区回忆」\n仅能在非周回模式的海域中收集线索"
 			}
 		}
+	},
+	word_votes = {
+		tip = "得票数量",
+		key = "word_votes"
+	},
+	number_0 = {
+		tip = "零",
+		key = "number_0"
+	},
+	intimacy_desc_propose_vertical = {
+		tip = [[
+爱为引路之灯，情乃系心之线
+期盼对方之笑容，祈愿对方之期盼
+相互尊重、相互信任、相互守望，直至永远
+至此，命运结而为一，誓约成立
+
+         誓约日$1]],
+		key = "intimacy_desc_propose_vertical"
+	},
+	without_selected_ship = {
+		tip = "没找到符合条件的舰娘",
+		key = "without_selected_ship"
+	},
+	index_all = {
+		tip = "全部",
+		key = "index_all"
+	},
+	index_fleetfront = {
+		tip = "前排先锋",
+		key = "index_fleetfront"
+	},
+	index_fleetrear = {
+		tip = "后排主力",
+		key = "index_fleetrear"
+	},
+	index_shipType_quZhu = {
+		tip = "驱逐",
+		key = "index_shipType_quZhu"
+	},
+	index_shipType_qinXun = {
+		tip = "轻巡",
+		key = "index_shipType_qinXun"
+	},
+	index_shipType_zhongXun = {
+		tip = "重巡",
+		key = "index_shipType_zhongXun"
+	},
+	index_shipType_zhanLie = {
+		tip = "战列",
+		key = "index_shipType_zhanLie"
+	},
+	index_shipType_hangMu = {
+		tip = "航母",
+		key = "index_shipType_hangMu"
+	},
+	index_shipType_weiXiu = {
+		tip = "维修",
+		key = "index_shipType_weiXiu"
+	},
+	index_shipType_qianTing = {
+		tip = "潜艇",
+		key = "index_shipType_qianTing"
+	},
+	index_other = {
+		tip = "其他",
+		key = "index_other"
+	},
+	index_rare2 = {
+		tip = "普通",
+		key = "index_rare2"
+	},
+	index_rare3 = {
+		tip = "稀有",
+		key = "index_rare3"
+	},
+	index_rare4 = {
+		tip = "精锐",
+		key = "index_rare4"
+	},
+	index_rare5 = {
+		tip = "超稀有",
+		key = "index_rare5"
+	},
+	index_rare6 = {
+		tip = "海上传奇",
+		key = "index_rare6"
+	},
+	warning_mail_max_1 = {
+		tip = "邮件数接近上限(<color=#FF5C5C>$1</color>/1000)，请及时整理",
+		key = "warning_mail_max_1"
+	},
+	warning_mail_max_2 = {
+		tip = "邮件数已经达到上限，请注意整理！",
+		key = "warning_mail_max_2"
+	},
+	return_award_bind_success = {
+		tip = "绑定成功",
+		key = "return_award_bind_success"
+	},
+	return_award_bind_erro = {
+		tip = "绑定失败$1",
+		key = "return_award_bind_erro"
+	},
+	rename_commander_erro = {
+		tip = "改名失败$1",
+		key = "rename_commander_erro"
+	},
+	change_display_medal_success = {
+		tip = "勋章展示修改成功",
+		key = "change_display_medal_success"
+	},
+	limit_skin_time_day = {
+		tip = "剩余时间:$1天",
+		key = "limit_skin_time_day"
+	},
+	limit_skin_time_day_min = {
+		tip = "剩余时间:$1小时$2分钟",
+		key = "limit_skin_time_day_min"
+	},
+	limit_skin_time_min = {
+		tip = "剩余时间:$1分钟",
+		key = "limit_skin_time_min"
+	},
+	limit_skin_time_overtime = {
+		tip = "已到期",
+		key = "limit_skin_time_overtime"
+	},
+	award_window_pt_title = {
+		tip = "当前PT：",
+		key = "award_window_pt_title"
+	},
+	return_have_participated_in_act = {
+		tip = "已经参与过该活动",
+		key = "return_have_participated_in_act"
+	},
+	input_returner_code = {
+		tip = "点击填写UID",
+		key = "input_returner_code"
+	},
+	dress_up_success = {
+		tip = "装扮成功",
+		key = "dress_up_success"
+	},
+	already_have_the_skin = {
+		tip = "已经拥有该皮肤",
+		key = "already_have_the_skin"
+	},
+	exchange_limit_skin_tip = {
+		tip = "是否消耗换装体验券x$1\n兑换[$2] $3天$4小时体验",
+		key = "exchange_limit_skin_tip"
+	},
+	returner_help = {
+		key = "returner_help",
+		tip = {
+			{
+				info = [[
+活动说明：
+
+被邀请者：
+在2019年4月20日至5月20日维护期间没有过登录行为且
+等级大于等于15级的指挥官
+满足被邀请资格的指挥官在活动期间登录可在特别活动页
+内输入邀请者的UID参与活动
+邀请者：
+2019年4月20日至5月20日维护前有过登录行为且等级大
+于等于15级的指挥官
+活动期间内将等级提升至15级的指挥官和活动期间内新
+注册并达到15级的新指挥官也满足邀请资格
+邀请者可以使用自己的UID邀请满足被邀请资格的指挥官
+参与活动
+召集指挥官：
+单个邀请者最多可邀请三位指挥官，在其完成专属任务后
+可获得集结积分，集结积分达到指定数值后可以获得丰富
+奖励。
+被邀请者在输入邀请指挥官的UID后，即可激活专属任务。
+完成专属任务可获得丰富奖励并为邀请者提供集结积分。
+邀请可跨港区进行，但无法跨区服进行
+UID：
+司令部为每位指挥官下发的唯一身份证明，可以从个人信
+息页进行查看]]
+			}
+		}
+	},
+	attire_time_stamp = {
+		tip = "$1天$2小时$3分钟",
+		key = "attire_time_stamp"
 	}
 }
 

@@ -98,12 +98,10 @@ function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 
 			slot5(slot0)
-			slot6.GuideMgr2:GetInstance():dispatch({
-				checkView = false,
-				event = tostring(tostring),
-				arg = ,
-				data = slot0
-			})
+
+			if slot0 and slot0.result and slot0.result == 0 then
+				slot6.SeriesGuideMgr:GetInstance():receiceProtocol(slot4, , slot0)
+			end
 		end,
 		slot5,
 		slot6
@@ -215,9 +213,11 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	if slot5 then
 		slot7:Send(slot0.Packer.GetInstance():Pack(slot8, slot9:GetId(), slot11))
+		print("Network sent protocol: " .. slot1 .. " with idx: " .. slot8)
 		slot0:incPacketIdx()
 	else
 		slot7:Send(slot0.Packer.GetInstance():Pack(0, slot9:GetId(), slot11))
+		print("Network sent protocol: " .. slot1 .. " without idx")
 	end
 
 	if not slot3 then
@@ -244,6 +244,8 @@ function slot1.stopTimer(slot0)
 end
 
 function slot1.onData(slot0)
+	print("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
+
 	if slot1[slot0.cmd .. "_" .. slot0.idx] then
 		slot1[slot2](slot1)
 

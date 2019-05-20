@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=30>七 星光闪耀于夜空</size>",
+					"天狼星改造计划\n\n<size=45>七 星光闪耀于夜空</size>",
 					1
 				}
 			}
@@ -80,7 +80,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

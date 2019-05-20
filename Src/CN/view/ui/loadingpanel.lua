@@ -15,25 +15,24 @@ function slot0.init(slot0)
 	slot0.infoTpl = slot0:getTpl("infos/info_tpl")
 	slot0.indicator = slot0:findTF("load")
 	slot0.bg = slot0:findTF("BG")
+	slot0.logo = slot0:findTF("logo")
 
 	slot0:displayBG(true)
 end
 
 function slot0.appendInfo(slot0, slot1)
-	slot2 = cloneTplTo(slot0.infoTpl, slot0.infos)
-
 	setText(slot2, slot1)
 
-	slot3 = GetOrAddComponent(slot2, "CanvasGroup")
-	slot4 = LeanTween.value(go(slot2), 1, 0, 0.3)
+	slot4 = LeanTween.alphaCanvas(slot3, 0, 0.3)
 
 	slot4:setDelay(1.5)
-	slot4:setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
-	end))
 	slot4:setOnComplete(System.Action(function ()
 		destroy(destroy)
 	end))
+end
+
+function slot0.onLoading(slot0)
+	return slot0._go.activeInHierarchy
 end
 
 slot1 = 0
@@ -45,6 +44,7 @@ function slot0.on(slot0, slot1)
 		pg.TimeMgr:GetInstance():RemoveTimer(slot0.delayTimer)
 
 		slot0.delayTimer = pg.TimeMgr:GetInstance():AddTimer("loading", 1, 0, function ()
+			setImageAlpha(slot0._tf, 0.2)
 			setActive(slot0.indicator, true)
 
 			setActive.delayTimer = nil
@@ -71,6 +71,7 @@ end
 
 function slot0.displayBG(slot0, slot1)
 	setActive(slot0.bg, slot1)
+	setActive(slot0.logo, slot1)
 
 	slot2 = GetComponent(slot0.bg, "Image")
 

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=30>四 友军与过去</size>",
+					"彼岸花之恋？\n\n<size=45>四 友军与过去</size>",
 					1
 				}
 			}

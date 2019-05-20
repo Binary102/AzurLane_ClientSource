@@ -43,8 +43,8 @@ function slot0.setCommander(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot0.bgTF = slot0:findTF("background"):GetComponent(typeof(Image))
-	slot0.backBtn = slot0:findTF("top/back_btn")
+	slot0.bgTF = slot0._tf:Find("bg"):GetComponent(typeof(Image))
+	slot0.backBtn = slot0:findTF("blur_panel/top/back_btn")
 	slot0.mainTF = slot0:findTF("main")
 	slot0.paintTF = slot0:findTF("paint", slot0.mainTF)
 	slot0.levelTF = slot0:findTF("info/exp/level", slot0.mainTF):GetComponent(typeof(Text))
@@ -58,27 +58,27 @@ function slot0.init(slot0)
 	slot0.fleetTF = slot0:findTF("info/line/fleet", slot0.mainTF)
 	slot0.leisureTF = slot0:findTF("info/line/leisure", slot0.mainTF)
 	slot0.labelInBattleTF = slot0:findTF("info/line/inbattle", slot0.mainTF)
-	slot0.lockTF = slot0:findTF("pages/detail/lock")
-	slot0.pagesTF = slot0:findTF("pages")
-	slot0.detailTF = slot0:findTF("pages/detail")
+	slot0.lockTF = slot0:findTF("blur_panel/pages/detail/lock")
+	slot0.pagesTF = slot0:findTF("blur_panel/pages")
+	slot0.detailTF = slot0:findTF("blur_panel/pages/detail")
 
 	setActive(slot0.detailTF, false)
 
-	slot0.playTF = slot0:findTF("pages/play")
+	slot0.playTF = slot0:findTF("blur_panel/pages/play")
 
 	setActive(slot0.playTF, false)
 
-	slot0.talentTF = slot0:findTF("pages/talent")
+	slot0.talentTF = slot0:findTF("blur_panel/pages/talent")
 
 	setActive(slot0.talentTF, false)
 
-	slot0.leftPanel = slot0:findTF("left_panel")
-	slot0.resPanel = slot0:findTF("top/res/bg")
-	slot0.goldTxt = slot0:findTF("top/res/bg/gold/Text")
+	slot0.leftPanel = slot0:findTF("blur_panel/left_panel")
+	slot0.resPanel = slot0:findTF("blur_panel/top/res/bg")
+	slot0.goldTxt = slot0:findTF("blur_panel/top/res/bg/gold/Text")
 	slot0.toggleTFs = {
-		slot0:findTF("left_panel/toggles/play"),
-		slot0:findTF("left_panel/toggles/talent"),
-		slot0:findTF("left_panel/toggles/detail")
+		slot0:findTF("blur_panel/left_panel/toggles/play"),
+		slot0:findTF("blur_panel/left_panel/toggles/talent"),
+		slot0:findTF("blur_panel/left_panel/toggles/detail")
 	}
 
 	setActive(slot0.toggleTFs[1], slot0.contextData.mode ~= CommandRoomScene.MODE_SELECT)
@@ -128,15 +128,13 @@ slot1 = 0.3
 function slot0.enterAnim(slot0)
 	setAnchoredPosition(slot0.mainTF, Vector3(30, slot0.mainTF.anchoredPosition.y, 0))
 	LeanTween.moveLocalX(go(slot0.mainTF), 80, slot0):setFrom(30)
-	LeanTween.moveLocalX(go(slot0.pagesTF), 0, slot0):setFrom(876)
-	LeanTween.moveLocalX(go(slot0.leftPanel), -960, slot0):setFrom(-1120):setOnComplete(System.Action(function ()
+	LeanTween.moveLocalX(go(slot0.pagesTF), 0, slot0):setFrom(876):setOnComplete(System.Action(function ()
 		return
 	end))
 end
 
 function slot0.exitAnim(slot0, slot1)
-	LeanTween.moveLocalX(go(slot0.pagesTF), 876, slot0):setFrom(0)
-	LeanTween.moveLocalX(go(slot0.leftPanel), -1120, slot0):setFrom(-960):setOnComplete(System.Action(function ()
+	LeanTween.moveLocalX(go(slot0.pagesTF), 876, slot0):setFrom(0):setOnComplete(System.Action(function ()
 		slot0()
 	end))
 end
@@ -164,15 +162,18 @@ function slot0.didEnter(slot0)
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if slot0.page == slot1.PAGE_DETAIL then
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip.help_commander_info.tip
 			})
 		elseif slot0.page == slot1.PAGE_PLAY then
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip.help_commander_play.tip
 			})
 		elseif slot0.page == slot1.PAGE_TALENT then
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip.help_commander_ability.tip
 			})
 		end

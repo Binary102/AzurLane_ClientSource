@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:82}前辈的收藏大公开\n\n<size=30>二　宽容的大前辈</size>",
+					"{namecode:82}前辈的收藏大公开\n\n<size=45>二　宽容的大前辈</size>",
 					1
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
@@ -124,7 +124,7 @@ return {
 					number = 2
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -170,7 +170,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -178,7 +178,7 @@ return {
 					number = 1
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -236,7 +236,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -279,7 +279,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.2,
@@ -384,7 +384,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -462,7 +462,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -571,7 +571,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.4,
@@ -661,13 +661,13 @@ return {
 				{
 					actor = 301370,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				},
 				{
 					actor = 301350,
 					pos = {
-						x = -370
+						x = -555
 					}
 				}
 			},

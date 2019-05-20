@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=30>一　爱生气的火奴鲁鲁？</size>",
+					"有关火奴鲁鲁的二三事\n\n<size=45>一　爱生气的火奴鲁鲁？</size>",
 					1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=22>……（小声）还是说，你就这么喜欢胸部么。</size>",
+			say = "<size=33>……（小声）还是说，你就这么喜欢胸部么。</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

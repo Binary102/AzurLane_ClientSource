@@ -255,23 +255,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>…………</size>",
+					"<size=51>…………</size>",
 					2
 				},
 				{
-					"<size=34>……</size>",
+					"<size=51>……</size>",
 					4
 				},
 				{
-					"<size=34>真是失算啊…居然在关键时刻犯了如此兵家大忌…</size>",
+					"<size=51>真是失算啊…居然在关键时刻犯了如此兵家大忌…</size>",
 					6
 				},
 				{
-					"<size=34>…</size> ",
+					"<size=51>…</size> ",
 					8
 				},
 				{
-					"<size=34>…对不起，辜负了您的期待…</size>",
+					"<size=51>…对不起，辜负了您的期待…</size>",
 					10
 				},
 				{
@@ -279,7 +279,7 @@ return {
 					12
 				},
 				{
-					"<size=34>{namecode:161}…大人</size>",
+					"<size=51>{namecode:161}…大人</size>",
 					14
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=34>                                                              ——苍红的回响</size>",
+					"<size=51>                                                              ——苍红的回响</size>",
 					2
 				}
 			}
@@ -347,7 +347,7 @@ return {
 			say = "啊——！！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			say = "啊——！！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

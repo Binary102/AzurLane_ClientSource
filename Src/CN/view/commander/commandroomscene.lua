@@ -46,10 +46,10 @@ end
 
 function slot0.init(slot0)
 	slot0.bgTF = slot0:findTF("background"):GetComponent(typeof(Image))
-	slot0.topPanel = slot0:findTF("top")
-	slot0.mainTF = slot0:findTF("main")
-	slot0.rightPanel = slot0:findTF("main/right_panel")
-	slot0.leftPanel = slot0:findTF("main/left_panel")
+	slot0.topPanel = slot0:findTF("blur_panel/top")
+	slot0.mainTF = slot0:findTF("blur_panel/main")
+	slot0.rightPanel = slot0:findTF("blur_panel/main/right_panel")
+	slot0.leftPanel = slot0:findTF("blur_panel/main/left_panel")
 
 	setActive(slot0.leftPanel, false)
 
@@ -57,7 +57,7 @@ function slot0.init(slot0)
 
 	setActive(slot0:findTF("box_panel"), false)
 
-	slot0.backBtn = slot0:findTF("top/back_btn")
+	slot0.backBtn = slot0:findTF("blur_panel/top/back_btn")
 	slot0.commanderInfo = slot0:findTF("info", slot0.leftPanel)
 	slot0.commanderLevelTxt = slot0:findTF("exp/level", slot0.commanderInfo):GetComponent(typeof(Text))
 	slot0.commanderExpImg = slot0:findTF("exp/Image", slot0.commanderInfo):GetComponent(typeof(Image))
@@ -66,7 +66,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.modifyNameBtn, pg.gameset.commander_rename_open.key_value == 1)
 
-	slot0.paintingTF = slot0:findTF("main/left_panel/paint")
+	slot0.paintingTF = slot0:findTF("blur_panel/main/left_panel/paint")
 	slot0.fleetTF = slot0:findTF("info/line/fleet", slot0.leftPanel)
 	slot0.leisureTF = slot0:findTF("info/line/leisure", slot0.leftPanel)
 	slot0.labelInBattleTF = slot0:findTF("info/line/inbattle", slot0.leftPanel)
@@ -83,8 +83,8 @@ function slot0.init(slot0)
 	slot0.boxClickTF = slot0:findTF("click", slot0.boxTF)
 	slot0.capcity = slot0.boxTF:Find("capcity/Text")
 	slot0.msgbox = CommaderMsgBox.New(slot0:findTF("box_msg_panel"))
-	slot0.resPanel = slot0:findTF("top/res/bg")
-	slot0.goldTxt = slot0:findTF("top/res/bg/gold/Text")
+	slot0.resPanel = slot0:findTF("blur_panel/top/res/bg")
+	slot0.goldTxt = slot0:findTF("blur_panel/top/res/bg/gold/Text")
 	slot0.mode = slot0.contextData.mode or slot0.MODE_VIEW
 	slot0.sortData = slot0.contextData.sortData or CommandRoomScene.sortData or {
 		asc = true,
@@ -158,7 +158,7 @@ function slot0.tryPlayStroy(slot0)
 				slot0:finishStroy("NG006")
 				slot0()
 			else
-				pg.GuideMgr:GetInstance():play("NG006", {}, slot0)
+				pg.StoryMgr:GetInstance():PlayGuide("NG006", {}, slot0)
 			end
 		end,
 		function (slot0)
@@ -166,7 +166,7 @@ function slot0.tryPlayStroy(slot0)
 				slot0:finishStroy("NG007")
 				slot0()
 			else
-				pg.GuideMgr:GetInstance():play("NG007", {}, slot0)
+				pg.StoryMgr:GetInstance():PlayGuide("NG007", {}, slot0)
 			end
 		end,
 		function (slot0)
@@ -181,7 +181,7 @@ function slot0.tryPlayStroy(slot0)
 				slot0:finishStroy("NG008")
 				slot0()
 			else
-				pg.GuideMgr:GetInstance():play("NG008", {}, slot0)
+				pg.StoryMgr:GetInstance():PlayGuide("NG008", {}, slot0)
 			end
 		end,
 		function (slot0)
@@ -196,7 +196,7 @@ function slot0.tryPlayStroy(slot0)
 				slot0:finishStroy("NG009")
 				slot0()
 			else
-				pg.GuideMgr:GetInstance():play("NG009", {}, slot0)
+				pg.StoryMgr:GetInstance():PlayGuide("NG009", {}, slot0)
 			end
 		end
 	})
@@ -297,22 +297,21 @@ slot1 = 0.3
 function slot0.enterAnim(slot0, slot1)
 	slot0.leftPanelCG.alpha = 0
 
-	LeanTween.moveLocalX(go(slot0.rightPanel), 960, slot0):setFrom(1810):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot0()
-		end
-	end))
-	LeanTween.moveLocalY(go(slot0.topPanel), 539, slot0):setFrom(655)
 	LeanTween.value(go(slot0.leftPanel), 0, 1, slot0):setOnUpdate(System.Action_float(function (slot0)
 		if slot0.leftPanelCG then
 			slot0.leftPanelCG.alpha = slot0
+		end
+	end)):setOnComplete(System.Action(function ()
+		if slot0 then
+			slot0()
 		end
 	end))
 end
 
 function slot0.exitAnim(slot0, slot1)
-	LeanTween.moveLocalX(go(slot0.rightPanel), 1810, slot0):setFrom(960):setOnComplete(System.Action(slot1))
-	LeanTween.moveLocalY(go(slot0.topPanel), 655, slot0):setFrom(539)
+	LeanTween.moveLocalX(go(slot0.rightPanel), 2110, slot0):setFrom(960):setOnComplete(System.Action(slot1))
+
+	return
 end
 
 function slot0.didEnter(slot0)
@@ -326,11 +325,16 @@ function slot0.didEnter(slot0)
 		else
 			slot0:opeRenamePanel(slot0)
 		end
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_command_room.tip
 		})
+
+		return
 	end, SFX_PANEL)
 	setActive(slot0.helpBtn, slot0.MODE_VIEW == slot0.mode)
 
@@ -346,12 +350,18 @@ function slot0.didEnter(slot0)
 		setActive(slot0.ascBtn:Find("asc"), slot0.sortData.asc)
 		setActive(slot0.ascBtn:Find("desc"), not slot0.sortData.asc)
 		setActive:updateCommanders()
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortBtn, function ()
 		slot0.indexPanel:show(slot0.sortData)
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel.cancelBtn, function ()
 		slot0.indexPanel:hide()
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel.confirmBtn, function ()
 		slot0.sortData = slot0.indexPanel.data
@@ -362,13 +372,21 @@ function slot0.didEnter(slot0)
 		slot0.indexPanel:hide()
 		eachChild(slot0.sortBtn, function (slot0)
 			setActive(slot0, go(slot0).name == slot0.sortData.sortData)
+
+			return
 		end)
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel.closeBtn, function ()
 		slot0.indexPanel:hide()
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexPanel._tf, function ()
 		slot0.indexPanel:hide()
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.detailBtn, function ()
 		if not slot0.conmmanderId then
@@ -377,12 +395,20 @@ function slot0.didEnter(slot0)
 
 		slot0:exitAnim(function ()
 			slot0:emit(CommandRoomMediator.ON_DETAIL, slot0.conmmanderId)
+
+			return
 		end)
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:exitAnim(function ()
 			slot0:emit(slot1.ON_BACK)
+
+			return
 		end)
+
+		return
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.selectedBtn, function ()
 		if (slot0.contextData.minCount or 1) > #slot0.contextData.minCount or 1.selecteds then
@@ -393,10 +419,16 @@ function slot0.didEnter(slot0)
 
 		slot0.onSelected(slot0.selecteds, function ()
 			triggerButton(slot0.backBtn)
+
+			return
 		end)
+
+		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cancelBtn, function ()
 		triggerButton(slot0.backBtn)
+
+		return
 	end, SFX_PANEL)
 
 	slot0.conmmanderId = CommandRoomScene.commanderId or slot0.contextData.conmmanderId or slot0.contextData.activeCommanderId
@@ -405,14 +437,20 @@ function slot0.didEnter(slot0)
 	slot0:initCommandersPanel()
 	triggerButton(slot0.ascBtn, true)
 	slot0:updateGold()
+
+	return
 end
 
 function slot0.opeRenamePanel(slot0, slot1)
 	slot0.renamePanel:open(slot1)
+
+	return
 end
 
 function slot0.closeRenamePanel(slot0)
 	slot0.renamePanel:close()
+
+	return
 end
 
 function slot0.initCommandersPanel(slot0)
@@ -448,6 +486,8 @@ function slot0.initCommandersPanel(slot0)
 
 				slot1.card = slot1
 			end
+
+			return
 		end, SFX_PANEL)
 		onButton(slot0, slot1.quitTF, function ()
 			if not slot0.commanderVO then
@@ -457,11 +497,17 @@ function slot0.initCommandersPanel(slot0)
 			if slot0.commanderVO.id == 0 then
 				slot1.onQuit(function ()
 					slot0:emit(slot1.ON_BACK)
+
+					return
 				end)
 			end
+
+			return
 		end, SFX_PANEL)
 
 		slot0.cards[slot0] = slot1
+
+		return
 	end
 
 	function slot0.commanderRect.onUpdateItem(slot0, slot1)
@@ -483,10 +529,14 @@ function slot0.initCommandersPanel(slot0)
 
 				slot0.card = slot2
 			end
-		elseif slot0.mode == slot1.MODE_VIEW and not slot0.conmmanderId and slot0 == 0 then
-			triggerButton(slot2.infoTF)
-		elseif slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 and slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
-			slot0:checkCommander(slot2.commanderVO)
+		else
+			if slot0.mode == slot1.MODE_VIEW and not slot0.conmmanderId and slot0 == 0 then
+				triggerButton(slot2.infoTF)
+			else
+				if slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 and slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
+					slot0:checkCommander(slot2.commanderVO)
+				end
+			end
 		end
 
 		if slot0.mode == slot1.MODE_SELECT and slot0.contextData.activeGroupId then
@@ -497,6 +547,8 @@ function slot0.initCommandersPanel(slot0)
 		setActive(slot2.inbattleTF, slot3 and slot3.inBattle)
 		setActive(slot2.mark2, slot2.commanderVO and slot0.conmmanderId == slot2.commanderVO.id)
 		setActive(slot2.mark1, (slot2.commanderVO and table.contains(slot0.selecteds, slot2.commanderVO.id) and not slot0.mode == slot1.MODE_SELECT) or (slot0.isMultSelectMode and slot2.commanderVO and table.contains(slot0.selecteds, slot2.commanderVO.id)))
+
+		return
 	end
 
 	if slot0.mode == slot0.MODE_SELECT then
@@ -506,8 +558,12 @@ function slot0.initCommandersPanel(slot0)
 			end
 
 			slot0:updateSelectCntTxt()
+
+			return
 		end
 	end
+
+	return
 end
 
 function slot0.checkCommander(slot0, slot1)
@@ -518,11 +574,13 @@ function slot0.checkCommander(slot0, slot1)
 		slot0:updateSelecteds()
 
 		return
-	elseif table.contains(slot0.selecteds, slot2.id) then
-		table.remove(slot0.selecteds, table.indexof(slot0.selecteds, slot2.id))
-		slot0:updateSelecteds()
+	else
+		if table.contains(slot0.selecteds, slot2.id) then
+			table.remove(slot0.selecteds, table.indexof(slot0.selecteds, slot2.id))
+			slot0:updateSelecteds()
 
-		return
+			return
+		end
 	end
 
 	slot4, slot5 = slot0.onCommander(slot2, function ()
@@ -535,10 +593,14 @@ function slot0.checkCommander(slot0, slot1)
 		end
 
 		slot0:updateSelecteds()
+
+		return
 	end, function ()
 		slot0:emit(CommandRoomMediator.ON_REMARK)
 		slot0.emit:updateCommanders()
 		slot0.emit.updateCommanders:updateSelecteds()
+
+		return
 	end, slot0)
 
 	if not slot4 then
@@ -553,14 +615,18 @@ function slot0.checkCommander(slot0, slot1)
 
 		slot0:updateCommanderInfo()
 		table.remove(slot0.selecteds, #slot0.selecteds)
-	elseif slot3 <= #slot0.selecteds then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_select_max"))
+	else
+		if slot3 <= #slot0.selecteds then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_select_max"))
 
-		return
+			return
+		end
 	end
 
 	table.insert(slot0.selecteds, slot1.id)
 	slot0:updateSelecteds()
+
+	return
 end
 
 function slot0.updateSelecteds(slot0)
@@ -573,10 +639,14 @@ function slot0.updateSelecteds(slot0)
 	end
 
 	slot0:updateSelectCntTxt()
+
+	return
 end
 
 function slot0.updateSelectCntTxt(slot0)
 	slot0.selectedNumTxt.text = #slot0.selecteds .. "/" .. (slot0.contextData.maxCount or table.getCount(slot0.commanderVOs))
+
+	return
 end
 
 function slot0.updateBg(slot0, slot1)
@@ -584,6 +654,8 @@ function slot0.updateBg(slot0, slot1)
 		slot0.bg = slot2
 		slot0.bgTF.sprite = LoadSprite("bg/commander_bg_" .. slot2)
 	end
+
+	return
 end
 
 function slot0.updateCommanderInfo(slot0)
@@ -618,12 +690,16 @@ function slot0.updateCommanderInfo(slot0)
 	if slot2.fleetId then
 		eachChild(slot0.fleetTF, function (slot0)
 			setActive(slot0, go(slot0).name == tostring(slot0.fleetId))
+
+			return
 		end)
 	end
 
 	setActive(slot0.fleetTF, slot2.fleetId and not slot2.inBattle)
 	setActive(slot0.leisureTF, not slot2.inFleet and not slot2.inBattle)
 	setActive(slot0.labelInBattleTF, slot2.inBattle)
+
+	return
 end
 
 function slot0.updateCommanders(slot0)
@@ -669,34 +745,36 @@ function slot0.updateCommanders(slot0)
 					end
 
 					return slot6[1]
-				elseif slot0["get" .. slot1.sortData](slot0) == slot1["get" .. slot1.sortData](slot1) then
-					if slot1.asc then
-						slot8 = {
-							slot0.configId < slot1.configId
-						}
-
-						if not slot8 then
-							slot8 = {
-								slot1.configId < slot0.configId
-							}
-						end
-					end
-
-					return slot8[1]
 				else
-					if slot1.asc then
-						slot8 = {
-							slot6 < slot7
-						}
-
-						if not slot8 then
+					if slot0["get" .. slot1.sortData](slot0) == slot1["get" .. slot1.sortData](slot1) then
+						if slot1.asc then
 							slot8 = {
-								slot7 < slot6
+								slot0.configId < slot1.configId
 							}
-						end
-					end
 
-					return slot8[1]
+							if not slot8 then
+								slot8 = {
+									slot1.configId < slot0.configId
+								}
+							end
+						end
+
+						return slot8[1]
+					else
+						if slot1.asc then
+							slot8 = {
+								slot6 < slot7
+							}
+
+							if not slot8 then
+								slot8 = {
+									slot7 < slot6
+								}
+							end
+						end
+
+						return slot8[1]
+					end
 				end
 			else
 				return slot5 < slot4
@@ -704,6 +782,8 @@ function slot0.updateCommanders(slot0)
 		else
 			return slot3 < slot2
 		end
+
+		return
 	end)
 
 	if slot0.contextData.activeCommanderId then
@@ -730,31 +810,45 @@ function slot0.updateCommanders(slot0)
 		else
 			slot0.commanderRect:SetTotalCount(math.max(12, slot5), slot0.contextData.scrollValue or 0)
 		end
-	elseif slot0.mode == slot0.MODE_SELECT then
-		slot0.commanderRect:SetTotalCount(#slot0.disPlayCommanderVOs, slot0.contextData.scrollValue or 0)
+	else
+		if slot0.mode == slot0.MODE_SELECT then
+			slot0.commanderRect:SetTotalCount(#slot0.disPlayCommanderVOs, slot0.contextData.scrollValue or 0)
+		end
 	end
+
+	return
 end
 
 function slot0.clearAllSelected(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:clearSelected()
 	end
+
+	return
 end
 
 function slot0.onBackPressed(slot0)
-	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
-		slot0.boxesPanel:hide()
-
-		return
-	end
-
 	if slot0.isShowMsgBox then
 		slot0:closeMsgBox()
 
 		return
 	end
 
+	if slot0.boxesPanel and go(slot0.boxesPanel.buildPoolPanel).activeSelf then
+		slot0.boxesPanel:hideBuildPoolPanel()
+
+		return
+	end
+
+	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
+		slot0.boxesPanel:hide()
+
+		return
+	end
+
 	slot0:emit(slot0.ON_BACK_PRESSED)
+
+	return
 end
 
 function slot0.openMsgBox(slot0, slot1)
@@ -764,6 +858,8 @@ function slot0.openMsgBox(slot0, slot1)
 	setParent(slot0.msgbox._tf, pg.UIMgr.GetInstance().OverlayMain, true)
 
 	slot0.msgbox._tf.localPosition = Vector3(slot0.msgbox._tf.localPosition.x, slot0.msgbox._tf.localPosition.y, 0)
+
+	return
 end
 
 function slot0.closeMsgBox(slot0)
@@ -773,6 +869,8 @@ function slot0.closeMsgBox(slot0)
 	setParent(slot0.msgbox._tf, pg.UIMgr.GetInstance().UIMain, true)
 
 	slot0.msgbox._tf.localPosition = Vector3(slot0.msgbox._tf.localPosition.x, slot0.msgbox._tf.localPosition.y, 0)
+
+	return
 end
 
 function slot0.willExit(slot0)
@@ -811,6 +909,8 @@ function slot0.willExit(slot0)
 	slot0.contextData.sortData.asc = not slot0.contextData.sortData.asc
 	slot0.contextData.scrollValue = math.min(slot0.commanderRect.value, 1)
 	CommandRoomScene.sortData = slot0.contextData.sortData
+
+	return
 end
 
 return slot0

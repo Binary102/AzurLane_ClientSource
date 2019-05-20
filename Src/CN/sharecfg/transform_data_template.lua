@@ -2493,8 +2493,8 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#A9F548>【主炮底座+1】</color>
-改造后<color=#A9F548>【全弹发射II】</color>技能将升级为<color=#A9F548>【专属弹幕-圣地亚哥I】</color>]],
+改造后<color=#92fc63>【主炮底座+1】</color>
+改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【专属弹幕-圣地亚哥I】</color>]],
 		condition_id = {
 			3609,
 			3610
@@ -11814,9 +11814,9 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#A9F548>第一个【设备】</color>栏位增加可装备设备类型<color=#A9F548>【反潜机】</color>
-改造后解锁<color=#A9F548>【反潜】</color>属性
-改造后<color=#A9F548>【神射手】</color>技能将升级为<color=#A9F548>【神射手·改】</color>]],
+改造后<color=#92fc63>第一个【设备】</color>栏位增加可装备设备类型<color=#92fc63>【反潜机】</color>
+改造后解锁<color=#92fc63>【反潜】</color>属性
+改造后<color=#92fc63>【神射手】</color>技能将升级为<color=#92fc63>【神射手·改】</color>]],
 		condition_id = {
 			13106,
 			13109
@@ -14700,11 +14700,11 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#A9F548>【主武器】</color>装备栏位装备类型更改为<color=#A9F548>【重巡主炮】</color>
-原来的<color=#A9F548>【主武器】</color>栏位装备将被放入仓库
-改造后<color=#A9F548>【主炮底座+1】</color>、<color=#A9F548>【鱼雷底座-1】</color>
-改造后<color=#A9F548>【全弹发射II】</color>技能将升级为<color=#A9F548>【全弹发射改】</color>
-改造后<color=#A9F548>【反潜】</color>属性将归零、无法装备<color=#A9F548>声呐和深水炸弹</color>]],
+改造后<color=#92fc63>【主武器】</color>装备栏位装备类型更改为<color=#92fc63>【重巡主炮】</color>
+原来的<color=#92fc63>【主武器】</color>栏位装备将被放入仓库
+改造后<color=#92fc63>【主炮底座+1】</color>、<color=#92fc63>【鱼雷底座-1】</color>
+改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射改】</color>
+改造后<color=#92fc63>【反潜】</color>属性将归零、无法装备<color=#92fc63>声呐和深水炸弹</color>]],
 		condition_id = {
 			18809,
 			18810
@@ -15899,13 +15899,13 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-习得技能<color=#A9F548>【航空预备】</color>
+习得技能<color=#92fc63>【航空预备】</color>
 第一次执行空中支援时，额外进行一轮航空弹幕攻击(威力随技能等级提升)，每场战斗只能触发1次
 
-改造后<color=#A9F548>【主炮底座-1】</color>
-改造后<color=#A9F548>主炮效率</color>提高20%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
-在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【魟改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#92fc63>【主炮底座-1】</color>
+改造后<color=#92fc63>主炮效率</color>提高20%
+改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【魟改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		condition_id = {
 			20808
 		},
@@ -16312,13 +16312,13 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-习得技能<color=#A9F548>【航空预备】</color>
+习得技能<color=#92fc63>【航空预备】</color>
 第一次执行空中支援时，额外进行一轮航空弹幕攻击(威力随技能等级提升)，每场战斗只能触发1次
 
-改造后<color=#A9F548>【主炮底座-1】</color>
-改造后<color=#A9F548>主炮效率</color>提高20%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
-在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【鲼改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#92fc63>【主炮底座-1】</color>
+改造后<color=#92fc63>主炮效率</color>提高20%
+改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【鲼改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		condition_id = {
 			20908
 		},
@@ -16538,10 +16538,10 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#A9F548>【主炮底座-1】</color>
-改造后<color=#A9F548>主炮效率</color>提高25%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
-在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【鳌改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#92fc63>【主炮底座-1】</color>
+改造后<color=#92fc63>主炮效率</color>提高25%
+改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【鳌改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		condition_id = {
 			21002,
 			21003
@@ -16958,10 +16958,10 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改造完成
 
-改造后<color=#A9F548>【主炮底座-1】</color>
-改造后<color=#A9F548>主炮效率</color>提高25%
-改造后<color=#A9F548>【副武器】</color>装备栏位装备类型更改为<color=#A9F548>【水上机】</color>
-在装备<color=#A9F548>【水上机】</color>的情况下，<color=#A9F548>【螯改】</color>可以进行<color=#A9F548>空中支援</color>]],
+改造后<color=#92fc63>【主炮底座-1】</color>
+改造后<color=#92fc63>主炮效率</color>提高25%
+改造后<color=#92fc63>【副武器】</color>装备栏位装备类型更改为<color=#92fc63>【水上机】</color>
+在装备<color=#92fc63>【水上机】</color>的情况下，<color=#92fc63>【螯改】</color>可以进行<color=#92fc63>空中支援</color>]],
 		condition_id = {
 			21102,
 			21103

@@ -96,6 +96,10 @@ function slot5.GetHrzIcon(slot0)
 	return "herohrzicon/" .. slot0
 end
 
+function slot5.GetSquareIcon(slot0)
+	return "squareicon/" .. slot0
+end
+
 function slot5.GetQIcon(slot0)
 	return "qicon/" .. slot0
 end
@@ -310,6 +314,10 @@ function slot5.GetCharacterIcon(slot0, slot1)
 	return slot0._resCacheList[slot0.GetHrzIcon(slot1)]
 end
 
+function slot5.GetCharacterSquareIcon(slot0, slot1)
+	return slot0._resCacheList[slot0.GetSquareIcon(slot1)]
+end
+
 function slot5.GetCharacterQIcon(slot0, slot1)
 	return slot0._resCacheList[slot0.GetQIcon(slot1)]
 end
@@ -396,7 +404,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 	for slot9, slot10 in pairs(slot0._preloadList) do
 		if slot0.GetResName(slot9) == "" or slot0._resCacheList[slot9] ~= nil then
 			slot5()
-		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "AircraftIcon/") then
+		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "squareicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "AircraftIcon/") then
 			ResourceMgr.Inst:getAssetAsync(slot9, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
 					print("资源预加载失败，检查以下目录：>>" .. slot0 .. "<<")
@@ -656,6 +664,7 @@ function slot5.GetShipResource(slot0, slot1, slot2)
 	slot3[#slot3 + 1] = slot1.GetCharacterPath(slot5.prefab)
 	slot3[#slot3 + 1] = slot1.GetHrzIcon(slot5.painting)
 	slot3[#slot3 + 1] = slot1.GetQIcon(slot5.painting)
+	slot3[#slot3 + 1] = slot1.GetSquareIcon(slot5.painting)
 
 	if slot2 and slot0.GetShipTypeTmp(slot4.type).team_type == TeamType.Main then
 		slot3[#slot3 + 1] = slot1.GetPaintingPath(slot5.painting)
@@ -682,6 +691,7 @@ function slot5.GetEnemyResource(slot0)
 	if string.find(slot2.icon, "danchuan") == nil then
 		slot1[#slot1 + 1] = slot1.GetHrzIcon(slot2.icon)
 		slot1[#slot1 + 1] = slot1.GetQIcon(slot2.icon)
+		slot1[#slot1 + 1] = slot1.GetSquareIcon(slot2.icon)
 	end
 
 	return slot1
@@ -694,7 +704,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 		return slot2
 	end
 
-	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON or slot3.type == slot1.EquipmentType.SUB_CANNON or slot3.type == slot1.EquipmentType.TORPEDO or slot3.type == slot1.EquipmentType.ANTI_AIR or slot3.type == slot1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == slot1.EquipmentType.DEPTH_CHARGE or slot3.type == slot1.EquipmentType.MANUAL_TORPEDO or slot3.type == slot1.EquipmentType.BEAM then
+	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON or slot3.type == slot1.EquipmentType.SUB_CANNON or slot3.type == slot1.EquipmentType.TORPEDO or slot3.type == slot1.EquipmentType.ANTI_AIR or slot3.type == slot1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == slot1.EquipmentType.DEPTH_CHARGE or slot3.type == slot1.EquipmentType.MANUAL_TORPEDO or slot3.type == slot1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == slot1.EquipmentType.BEAM then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			for slot13, slot14 in ipairs(slot9) do
 				slot2[#slot2 + 1] = slot14

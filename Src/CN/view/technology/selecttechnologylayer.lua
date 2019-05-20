@@ -13,10 +13,11 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	pg.UIMgr:GetInstance():OverlayPanel(slot0._tf)
+	pg.UIMgr:GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.LOWER_LAYER
+	})
 
 	slot0.bg = slot0:findTF("frame/bg")
-	slot0.topPanel = slot0:findTF("frame/top")
 	slot0.bluePrintBtn = slot0:findTF("blueprint_btn", slot0.bg)
 	slot0.bluePrintBtnTip = slot0.bluePrintBtn:Find("word/tip")
 	slot0.technologyBtn = slot0:findTF("technology_btn", slot0.bg)
@@ -25,16 +26,25 @@ function slot0.init(slot0)
 	slot0.fleetBtnTip = slot0:findTF("word/tip", slot0.fleetBtn)
 	slot0.helpBtn = slot0:findTF("help_btn")
 	slot0.lockedTpl = slot0:findTF("lockedTpl")
-	slot0._playerResOb = slot0:findTF("top/playerRes")
+	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
-	slot0.backBtn = slot0:findTF("top/back")
+	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
 
 	onButton(slot0, slot0.fleetBtn, function ()
 		slot0:emit(TechnologyConst.OPEN_TECHNOLOGY_TREE_SCENE)
 	end)
+	onButton(slot0, slot0.helpBtn, function ()
+		if pg.gametip.help_technolog then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_technolog.tip,
+				weight = LayerWeightConst.SECOND_LAYER
+			})
+		end
+	end, SFX_PANEL)
 
 	if not OPEN_TEC_TREE_SYSTEM then
 		setActive(slot0.fleetBtn, false)
@@ -55,8 +65,10 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip[(pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.playerVO.level, "ShipBluePrintMediator") and "help_technolog") or "help_technolog0"] then
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
-				helps = pg.gametip[slot1].tip
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip[slot1].tip,
+				weight = LayerWeightConst.SECOND_LAYER
 			})
 		end
 	end, SFX_PANEL)

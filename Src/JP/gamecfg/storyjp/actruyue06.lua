@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夏の鍋大会！？\n\n<size=30>六  でも美味しい！</size>",
+					"夏の鍋大会！？\n\n<size=45>六  でも美味しい！</size>",
 					1
 				}
 			}
@@ -82,7 +82,7 @@ return {
 				{
 					actor = 301331,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

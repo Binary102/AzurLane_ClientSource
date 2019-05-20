@@ -1,8 +1,10 @@
 class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().callback
+	slot2 = slot1:getBody()
+	slot4 = slot2.callback
+	slot5 = slot2.onConfirm
 
-	if pg.collection_template[slot1.getBody().id] then
-		if getProxy(PlayerProxy):getData():OilMax(slot5.drop_oil_max or 0) then
+	if pg.collection_template[slot2.id] then
+		if getProxy(PlayerProxy):getData():OilMax(slot6.drop_oil_max or 0) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_event"))
 
 			if slot4 then
@@ -12,7 +14,7 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
-		if slot6:GoldMax(slot5.drop_gold_max or 0) then
+		if slot7:GoldMax(slot6.drop_gold_max or 0) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_event"))
 
 			if slot4 then
@@ -87,7 +89,8 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				oldShips = slot2,
 				newShips = slot3,
 				awards = slot4,
-				isCri = slot0.is_cri > 0
+				isCri = slot0.is_cri > 0,
+				onConfirm = slot3
 			})
 
 			return

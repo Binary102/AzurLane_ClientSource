@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「魔女達」の前夜祭\n\n<size=30>その二　行動開始！</size>",
+					"「魔女達」の前夜祭\n\n<size=45>その二　行動開始！</size>",
 					1
 				}
 			}

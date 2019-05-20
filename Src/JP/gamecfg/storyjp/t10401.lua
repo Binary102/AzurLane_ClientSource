@@ -134,12 +134,12 @@ return {
 			actor = 307010,
 			hideOther = true,
 			nameColor = "#ff0000",
-			say = "                                                              <size=30>——推参！！</size>",
+			say = "                                                              <size=45>——推参！！</size>",
 			subActors = {
 				{
 					actor = 307020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

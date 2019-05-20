@@ -109,6 +109,10 @@ function slot0.updatePlayer(slot0, slot1)
 	slot0:sendNotification(slot0.UPDATED, slot1:clone())
 end
 
+function slot0.updatePlayerMedalDisplay(slot0, slot1)
+	slot0.data.displayTrophyList = slot1
+end
+
 function slot0.SetFishRes(slot0, slot1)
 	slot0._fishCfg = slot1
 end

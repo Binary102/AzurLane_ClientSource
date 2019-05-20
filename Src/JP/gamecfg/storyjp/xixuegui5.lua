@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣の天使or悪魔？\n\n<size=30>五　プロナース・ヴァンパイア！</size>",
+					"白衣の天使or悪魔？\n\n<size=45>五　プロナース・ヴァンパイア！</size>",
 					1
 				}
 			}
@@ -275,7 +275,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"

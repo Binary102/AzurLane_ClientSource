@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹の成長期？！\n\n<size=30>四 妹の寂しさ</size>",
+					"妹の成長期？！\n\n<size=45>四 妹の寂しさ</size>",
 					1
 				}
 			}
@@ -296,7 +296,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

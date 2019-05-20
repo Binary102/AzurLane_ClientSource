@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ナイト＆アワード\n\n<size=30>その五　強敵登場！？</size>",
+					"ナイト＆アワード\n\n<size=45>その五　強敵登場！？</size>",
 					1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			say = "次の相手は……嘘！？川内に阿賀野、それに妙高まで！？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -99,7 +99,7 @@ return {
 			say = "うん！",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -111,7 +111,7 @@ return {
 					actor = 102100,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},

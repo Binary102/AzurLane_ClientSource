@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ナイト・オブ・ロイヤル\n\n<size=30>二 秘書艦のお仕事</size>",
+					"ナイト・オブ・ロイヤル\n\n<size=45>二 秘書艦のお仕事</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -252,7 +252,7 @@ return {
 			},
 			action = {
 				{
-					y = 100,
+					y = 150,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -300,7 +300,7 @@ return {
 			say = "（ガラガラガラガラガラガラガラガラ）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			painting = {
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -383,7 +383,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -413,7 +413,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

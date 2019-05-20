@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"オペレーション・クリスマス！\n\n<size=30>三　クリスマスを覆う影・上</size>",
+					"オペレーション・クリスマス！\n\n<size=45>三　クリスマスを覆う影・上</size>",
 					1
 				}
 			}
@@ -142,7 +142,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -178,7 +178,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -304,7 +304,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

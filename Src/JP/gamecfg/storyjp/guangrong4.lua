@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"栄光なる間奏曲\n\n<size=30>その四　女王事案Ⅱ</size>",
+					"栄光なる間奏曲\n\n<size=45>その四　女王事案Ⅱ</size>",
 					1
 				}
 			}
@@ -90,7 +90,7 @@ return {
 			say = "えっ。",
 			action = {
 				{
-					y = 5,
+					y = 7.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -116,7 +116,7 @@ return {
 			say = "えっ。",
 			action = {
 				{
-					y = 5,
+					y = 7.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -142,7 +142,7 @@ return {
 			say = "えっ。",
 			action = {
 				{
-					y = 5,
+					y = 7.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -177,13 +177,13 @@ return {
 				{
 					actor = 205010,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 202120,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -293,13 +293,13 @@ return {
 				{
 					actor = 205010,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 202120,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -342,7 +342,7 @@ return {
 					actor = 202120,
 					dir = -1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

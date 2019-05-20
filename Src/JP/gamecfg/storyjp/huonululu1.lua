@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"拗ねやすい彼女の小さなお話\n\n<size=30>一　拗ねやすい彼女の日常</size>",
+					"拗ねやすい彼女の小さなお話\n\n<size=45>一　拗ねやすい彼女の日常</size>",
 					1
 				}
 			}
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=22>……（小声）やっぱり大きいから秘書艦にしたんだね…</size>",
+			say = "<size=33>……（小声）やっぱり大きいから秘書艦にしたんだね…</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1

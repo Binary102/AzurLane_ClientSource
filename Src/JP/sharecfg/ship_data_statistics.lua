@@ -176553,6 +176553,762 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900180] = {
+		name = "U-556",
+		type = 8,
+		personality = 2,
+		oxy_max = 188,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 2,
+		id = 900180,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		skin_id = 900180,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			20,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			2,
+			2,
+			2
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[900181] = {
+		name = "U-556",
+		type = 8,
+		personality = 2,
+		oxy_max = 188,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 2,
+		id = 900181,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		skin_id = 900181,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			20,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			4,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			4,
+			2,
+			2
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
+	[900182] = {
+		name = "U-556",
+		type = 8,
+		personality = 2,
+		oxy_max = 188,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 2,
+		id = 900182,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 30,
+		english_name = "KMS U-556",
+		skin_id = 900182,
+		painting_dir = 1,
+		attack_duration = 5,
+		ignite_accuracy = 0,
+		nationality = 4,
+		armor_type = 1,
+		attrs = {
+			20,
+			8,
+			96,
+			0,
+			0,
+			31,
+			0,
+			57,
+			7,
+			14.4,
+			18,
+			0
+		},
+		attrs_growth = {
+			200,
+			82,
+			950,
+			0,
+			0,
+			152,
+			0,
+			840,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			20,
+			20,
+			20
+		},
+		depth_charge_list = {},
+		base_list = {
+			6,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			6,
+			2,
+			2
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				}
+			},
+			{
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					3
+				},
+				{
+					2,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					-3
+				}
+			},
+			{
+				{
+					-2,
+					2
+				},
+				{
+					-2,
+					3
+				},
+				{
+					2,
+					-3
+				}
+			}
+		},
+		tag_list = {}
+	},
 	[900907] = {
 		name = "シアトル ",
 		type = 2,
@@ -194037,6 +194793,9 @@ pg.ship_data_statistics = {
 		900176,
 		900177,
 		900178,
+		900180,
+		900181,
+		900182,
 		900907,
 		900908,
 		900909,

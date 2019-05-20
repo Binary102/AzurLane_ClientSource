@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"愛と平和の聖夜祭\n\n<size=30>その二　メリクリディエゴ！</size>",
+					"愛と平和の聖夜祭\n\n<size=45>その二　メリクリディエゴ！</size>",
 					1
 				}
 			}
@@ -189,7 +189,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "<size=40>ラー</size>",
+			say = "<size=60>ラー</size>",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,

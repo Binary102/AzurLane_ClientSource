@@ -92,7 +92,7 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				end
 
 				if slot1:getFinishCount() > 0 then
-					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene)
+					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 				end
 			end)
 		end

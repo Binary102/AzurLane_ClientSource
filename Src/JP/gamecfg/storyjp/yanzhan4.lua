@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ナイト・オブ・ロイヤル\n\n<size=30>四 惹かれ合う勇者たち</size>",
+					"ナイト・オブ・ロイヤル\n\n<size=45>四 惹かれ合う勇者たち</size>",
 					1
 				}
 			}
@@ -106,13 +106,13 @@ return {
 				{
 					actor = 203050,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 203040,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -126,7 +126,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -285,7 +285,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -293,7 +293,7 @@ return {
 					number = 2
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.2,
 					dur = 0.15,
@@ -415,7 +415,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

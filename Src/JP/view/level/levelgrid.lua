@@ -156,172 +156,87 @@ slot0.getChampionPool = slot2
 function slot2(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
-	slot2 = slot0.parent
-	slot2 = slot2._tf
-	slot2 = slot2.rect
-	slot2 = slot2.width
-	slot3 = slot0.parent
-	slot3 = slot3._tf
-	slot3 = slot3.rect
-	slot3 = slot3.height
-	slot4 = Vector2
-	slot4 = slot4.New
-	slot5 = UnityEngine
-	slot5 = slot5.Screen
-	slot5 = slot5.width
-	slot5 = slot2 / slot5
-	slot6 = UnityEngine
-	slot6 = slot6.Screen
-	slot6 = slot6.height
-	slot6 = slot3 / slot6
-	slot4 = slot4(slot5, slot6)
-	slot6 = slot1
-	slot5 = slot1.getDragExtend
-	slot7 = slot2
-	slot8 = slot3
-	slot5, slot6, slot7, slot8 = slot5(slot6, slot7, slot8)
-	slot9 = slot0._tf
-	slot10 = Vector2
-	slot11 = math
-	slot11 = slot11.max
-	slot12 = slot5
-	slot13 = slot6
-	slot11 = slot11(slot12, slot13)
-	slot11 = slot11 * 2
-	slot11 = slot2 + slot11
-	slot12 = math
-	slot12 = slot12.max
-	slot13 = slot7
-	slot14 = slot8
-	slot12 = slot12(slot13, slot14)
-	slot12 = slot3 + slot12
-	slot10 = slot10(slot11, slot12)
-	slot9.sizeDelta = slot10
-	slot9 = GetOrAddComponent
-	slot10 = slot0._tf
-	slot11 = "EventTriggerListener"
-	slot9 = slot9(slot10, slot11)
-	slot0.dragTrigger = slot9
-	slot10 = true
-	slot9.enabled = slot10
-	slot11 = slot9
-	slot10 = slot9.AddDragFunc
+	slot2 = slot0.cellAttachments
 
-	function slot12(slot0, slot1)
-		slot2 = slot0
-		slot2 = slot2._tf
-		slot2 = slot2.localPosition
-		slot3 = math
-		slot3 = slot3.clamp
-		slot4 = slot2.x
-		slot5 = slot1.delta
-		slot5 = slot5.x
-		slot6 = slot1
-		slot6 = slot6.x
-		slot5 = slot5 * slot6
-		slot4 = slot4 + slot5
-		slot5 = slot2
-		slot5 = -slot5
-		slot6 = slot3
-		slot3 = slot3(slot4, slot5, slot6)
-		slot2.x = slot3
-		slot3 = math
-		slot3 = slot3.clamp
-		slot4 = slot2.y
-		slot5 = slot1.delta
-		slot5 = slot5.y
-		slot6 = slot1
-		slot6 = slot6.y
-		slot5 = slot5 * slot6
-		slot4 = slot4 + slot5
-		slot5 = slot4
-		slot5 = -slot5
-		slot6 = slot5
-		slot3 = slot3(slot4, slot5, slot6)
-		slot2.y = slot3
-		slot3 = slot0
-		slot3 = slot3._tf
-		slot3.localPosition = slot2
+	if not slot2 then
+		slot2 = {}
+		slot0.cellAttachments = slot2
 	end
 
-	slot10(slot11, slot12)
+	slot3 = slot0
+	slot2 = slot0.initPlane
 
-	slot10 = slot0.cellAttachments
+	slot2(slot3)
 
-	if not slot10 then
-		slot10 = {}
-		slot0.cellAttachments = slot10
-	end
+	slot3 = slot0
+	slot2 = slot0.initDrag
 
-	slot11 = slot0
-	slot10 = slot0.initPlane
+	slot2(slot3)
 
-	slot10(slot11)
+	slot3 = slot0
+	slot2 = slot0.initTargetArrow
 
-	slot11 = slot0
-	slot10 = slot0.initTargetArrow
+	slot2(slot3)
 
-	slot10(slot11)
+	slot2 = 0
+	slot3 = ChapterConst
+	slot3 = slot3.MaxRow
+	slot3 = slot3 - 1
+	slot4 = 1
 
-	slot10 = 0
-	slot11 = ChapterConst
-	slot11 = slot11.MaxRow
-	slot11 = slot11 - 1
-	slot12 = 1
+	for slot5 = slot2, slot3, slot4 do
+		slot6 = 0
+		slot7 = ChapterConst
+		slot7 = slot7.MaxColumn
+		slot7 = slot7 - 1
+		slot8 = 1
 
-	for slot13 = slot10, slot11, slot12 do
-		slot14 = 0
-		slot15 = ChapterConst
-		slot15 = slot15.MaxColumn
-		slot15 = slot15 - 1
-		slot16 = 1
+		for slot9 = slot6, slot7, slot8 do
+			slot11 = slot0
+			slot10 = slot0.initCell
+			slot12 = slot5
+			slot13 = slot9
 
-		for slot17 = slot14, slot15, slot16 do
-			slot19 = slot0
-			slot18 = slot0.initCell
-			slot20 = slot13
-			slot21 = slot17
-
-			slot18(slot19, slot20, slot21)
+			slot10(slot11, slot12, slot13)
 		end
 	end
 
-	slot11 = slot0
-	slot10 = slot0.updateAttachments
+	slot3 = slot0
+	slot2 = slot0.updateAttachments
 
-	slot10(slot11)
+	slot2(slot3)
 
-	slot11 = slot0
-	slot10 = slot0.updateCellFlagList
+	slot3 = slot0
+	slot2 = slot0.updateCellFlagList
 
-	slot10(slot11)
+	slot2(slot3)
 
-	slot11 = slot0
-	slot10 = slot0.initFleets
+	slot3 = slot0
+	slot2 = slot0.initFleets
 
-	slot10(slot11)
+	slot2(slot3)
 
-	slot11 = slot0
-	slot10 = slot0.initChampions
+	slot3 = slot0
+	slot2 = slot0.initChampions
 
-	slot10(slot11)
+	slot2(slot3)
 
-	slot11 = slot0
-	slot10 = slot0.updateQuadCells
-	slot12 = ChapterConst
-	slot12 = slot12.QuadStateFrozen
+	slot3 = slot0
+	slot2 = slot0.updateQuadCells
+	slot4 = ChapterConst
+	slot4 = slot4.QuadStateFrozen
 
-	slot10(slot11, slot12)
+	slot2(slot3, slot4)
 
-	slot11 = slot1
-	slot10 = slot1.existOni
-	slot10 = slot10(slot11)
+	slot3 = slot1
+	slot2 = slot1.existOni
+	slot2 = slot2(slot3)
 
-	if slot10 then
-		slot11 = slot0
-		slot10 = slot0.displayEscapeGrid
+	if slot2 then
+		slot3 = slot0
+		slot2 = slot0.displayEscapeGrid
 
-		slot10(slot11)
+		slot2(slot3)
 	end
 end
 
@@ -415,6 +330,154 @@ end
 slot0.clearAll = slot2
 
 function slot2(slot0)
+	slot1 = pg
+	slot1 = slot1.UIMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot1 = slot1.UIMain
+	slot1 = slot1.transform
+	slot2 = slot1.rect
+	slot2 = slot2.width
+	slot3 = slot1.rect
+	slot3 = slot3.height
+	slot4 = Vector2
+	slot4 = slot4.New
+	slot5 = UnityEngine
+	slot5 = slot5.Screen
+	slot5 = slot5.width
+	slot5 = slot2 / slot5
+	slot6 = UnityEngine
+	slot6 = slot6.Screen
+	slot6 = slot6.height
+	slot6 = slot3 / slot6
+	slot4 = slot4(slot5, slot6)
+	slot5 = slot0.contextData
+	slot5 = slot5.chapterVO
+	slot6 = slot5.theme
+	slot7 = slot2 * 0.5
+	slot8 = math
+	slot8 = slot8.tan
+	slot9 = math
+	slot9 = slot9.pi
+	slot9 = slot9 / 180
+	slot10 = slot6.fov
+	slot9 = slot9 * slot10
+	slot8 = slot8(slot9)
+	slot7 = slot7 / slot8
+	slot8 = Vector3
+	slot9 = 0
+	slot10 = slot6.offsety
+	slot11 = slot6.offsetz
+	slot8 = slot8(slot9, slot10, slot11)
+	slot9 = Vector3
+	slot10 = 420
+	slot11 = -1000
+	slot12 = -1000
+	slot9 = slot9(slot10, slot11, slot12)
+	slot8 = slot8 + slot9
+	slot9 = slot4.x
+	slot10 = math
+	slot10 = slot10.clamp
+	slot11 = slot8.magnitude
+	slot11 = slot7 - slot11
+	slot11 = slot11 / slot7
+	slot12 = 0
+	slot13 = 1
+	slot10 = slot10(slot11, slot12, slot13)
+	slot9 = slot9 * slot10
+	slot4.x = slot9
+	slot10 = slot5
+	slot9 = slot5.getDragExtend
+	slot11 = slot0._tf
+	slot12 = slot11
+	slot11 = slot11.Find
+	slot13 = ChapterConst
+	slot13 = slot13.PlaneName
+	slot11 = slot11(slot12, slot13)
+	slot12 = slot2
+	slot13 = slot3
+	slot9, slot10, slot11, slot12 = slot9(slot10, slot11, slot12, slot13)
+	slot0.bottomExtend = slot12
+	slot0.topExtend = slot11
+	slot0.rightExtend = slot10
+	slot0.leftExtend = slot9
+	slot9 = slot0._tf
+	slot10 = Vector2
+	slot11 = math
+	slot11 = slot11.max
+	slot12 = slot0.leftExtend
+	slot13 = slot0.rightExtend
+	slot11 = slot11(slot12, slot13)
+	slot11 = slot11 * 2
+	slot11 = slot2 + slot11
+	slot12 = math
+	slot12 = slot12.max
+	slot13 = slot0.topExtend
+	slot14 = slot0.bottomExtend
+	slot12 = slot12(slot13, slot14)
+	slot12 = slot12 * 2
+	slot12 = slot3 + slot12
+	slot10 = slot10(slot11, slot12)
+	slot9.sizeDelta = slot10
+	slot9 = GetOrAddComponent
+	slot10 = slot0._tf
+	slot11 = "EventTriggerListener"
+	slot9 = slot9(slot10, slot11)
+	slot0.dragTrigger = slot9
+	slot9 = slot0.dragTrigger
+	slot10 = true
+	slot9.enabled = slot10
+	slot9 = slot0.dragTrigger
+	slot10 = slot9
+	slot9 = slot9.AddDragFunc
+
+	function slot11(slot0, slot1)
+		slot2 = slot0
+		slot2 = slot2._tf
+		slot2 = slot2.localPosition
+		slot3 = math
+		slot3 = slot3.clamp
+		slot4 = slot2.x
+		slot5 = slot1.delta
+		slot5 = slot5.x
+		slot6 = slot1
+		slot6 = slot6.x
+		slot5 = slot5 * slot6
+		slot4 = slot4 + slot5
+		slot5 = slot0
+		slot5 = slot5.rightExtend
+		slot5 = -slot5
+		slot6 = slot0
+		slot6 = slot6.leftExtend
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.x = slot3
+		slot3 = math
+		slot3 = slot3.clamp
+		slot4 = slot2.y
+		slot5 = slot1.delta
+		slot5 = slot5.y
+		slot6 = slot1
+		slot6 = slot6.y
+		slot5 = slot5 * slot6
+		slot4 = slot4 + slot5
+		slot5 = slot0
+		slot5 = slot5.topExtend
+		slot5 = -slot5
+		slot6 = slot0
+		slot6 = slot6.bottomExtend
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.y = slot3
+		slot3 = slot0
+		slot3 = slot3._tf
+		slot3.localPosition = slot2
+	end
+
+	slot9(slot10, slot11)
+end
+
+slot0.initDrag = slot2
+
+function slot2(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.theme
@@ -448,18 +511,18 @@ function slot2(slot0)
 
 	slot4(slot5, slot6, slot7)
 
-	slot4 = Vector2
-	slot5 = slot2.offsetx
-	slot5 = slot5 + 150
-	slot6 = slot2.offsety
-	slot4 = slot4(slot5, slot6)
-	slot3.anchoredPosition = slot4
 	slot4 = Vector3
-	slot5 = slot2.angle
-	slot6 = 0
-	slot7 = 0
+	slot5 = slot2.offsetx
+	slot6 = slot2.offsety
+	slot7 = slot2.offsetz
 	slot4 = slot4(slot5, slot6, slot7)
-	slot3.localEulerAngles = slot4
+	slot5 = Vector3
+	slot6 = 420
+	slot7 = -1000
+	slot8 = -1000
+	slot5 = slot5(slot6, slot7, slot8)
+	slot4 = slot4 + slot5
+	slot3.anchoredPosition3D = slot4
 	slot5 = slot3
 	slot4 = slot3.Find
 	slot6 = "cells"
@@ -1228,32 +1291,23 @@ function slot2(slot0)
 	slot1 = slot1(slot2, slot3)
 	slot3 = slot1
 	slot2 = slot1.Find
-	slot4 = "display/mask/sea"
+	slot4 = "display/seaBase/sea"
 	slot2 = slot2(slot3, slot4)
 	slot3 = clearImageSprite
 	slot4 = slot2
 
 	slot3(slot4)
 
-	slot4 = slot1
-	slot3 = slot1.Find
-	slot5 = "display/seaBase/sea"
-	slot3 = slot3(slot4, slot5)
-	slot4 = clearImageSprite
-	slot5 = slot3
+	slot3 = PoolMgr
+	slot3 = slot3.GetInstance
+	slot3 = slot3()
+	slot4 = slot3
+	slot3 = slot3.ReturnPrefab
+	slot5 = "chapter/plane"
+	slot6 = "plane"
+	slot7 = slot1.gameObject
 
-	slot4(slot5)
-
-	slot4 = PoolMgr
-	slot4 = slot4.GetInstance
-	slot4 = slot4()
-	slot5 = slot4
-	slot4 = slot4.ReturnPrefab
-	slot6 = "chapter/plane"
-	slot7 = "plane"
-	slot8 = slot1.gameObject
-
-	slot4(slot5, slot6, slot7, slot8)
+	slot3(slot4, slot5, slot6, slot7)
 end
 
 slot0.clearPlane = slot2
@@ -1553,6 +1607,14 @@ function slot2(slot0, slot1)
 
 				slot14(slot15, slot16, slot17)
 
+				slot14 = Vector3
+				slot15 = slot2.theme
+				slot15 = slot15.angle
+				slot15 = -slot15
+				slot16 = 0
+				slot17 = 0
+				slot14 = slot14(slot15, slot16, slot17)
+				slot13.localEulerAngles = slot14
 				slot14 = slot0.opBtns
 				slot14[slot1] = slot13
 			end
@@ -1858,45 +1920,23 @@ function slot2(slot0, slot1)
 			end
 
 			if slot9 or slot11 then
-				slot16 = ChapterConst
-				slot16 = slot16.AttachChampion
+				slot16 = slot4.tfArrow
+				slot17 = Vector2
+				slot18 = 0
+				slot19 = 100
+				slot17 = slot17(slot18, slot19)
+				slot16.anchoredPosition = slot17
+				slot16 = slot4.tfAmmo
+				slot17 = Vector2
+				slot18 = 22
+				slot19 = 56
+				slot17 = slot17(slot18, slot19)
+				slot16.anchoredPosition = slot17
+				slot16 = slot4.tfAmmo
+				slot17 = slot16
+				slot16 = slot16.SetAsLastSibling
 
-				if slot10 == slot16 then
-					slot17 = slot2
-					slot16 = slot2.getChampion
-					slot18 = slot6.row
-					slot19 = slot6.column
-					slot16 = slot16(slot17, slot18, slot19)
-					slot17 = slot16
-					slot16 = slot16.getScale
-					slot16 = slot16(slot17)
-					slot16 = slot16 / 100
-					slot17 = slot4.tfArrow
-					slot18 = Vector2
-					slot19 = 0
-					slot20 = 175 * slot16
-					slot18 = slot18(slot19, slot20)
-					slot17.anchoredPosition = slot18
-					slot17 = slot4.tfAmmo
-					slot18 = Vector2
-					slot19 = 29
-					slot20 = 120 * slot16
-					slot18 = slot18(slot19, slot20)
-					slot17.anchoredPosition = slot18
-				else
-					slot16 = slot4.tfArrow
-					slot17 = Vector2
-					slot18 = 0
-					slot19 = 100
-					slot17 = slot17(slot18, slot19)
-					slot16.anchoredPosition = slot17
-					slot16 = slot4.tfAmmo
-					slot17 = Vector2
-					slot18 = 60
-					slot19 = 55
-					slot17 = slot17(slot18, slot19)
-					slot16.anchoredPosition = slot17
-				end
+				slot16(slot17)
 			else
 				slot16 = slot4.tfArrow
 				slot17 = Vector2
@@ -1906,8 +1946,8 @@ function slot2(slot0, slot1)
 				slot16.anchoredPosition = slot17
 				slot16 = slot4.tfAmmo
 				slot17 = Vector2
-				slot18 = 29
-				slot19 = 120
+				slot18 = -60
+				slot19 = 110
 				slot17 = slot17(slot18, slot19)
 				slot16.anchoredPosition = slot17
 			end
@@ -2219,6 +2259,15 @@ function slot2(slot0)
 	slot4 = slot0._tf
 	slot2 = slot2(slot3, slot4)
 	slot0.arrowTarget = slot2
+	slot2 = slot0.arrowTarget
+	slot3 = Vector3
+	slot4 = slot1.theme
+	slot4 = slot4.angle
+	slot4 = -slot4
+	slot5 = 0
+	slot6 = 0
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localEulerAngles = slot3
 	slot2 = setActive
 	slot3 = slot0.arrowTarget
 	slot4 = false
@@ -4296,7 +4345,7 @@ function slot2(slot0, slot1, slot2)
 									end
 								end
 
-								setActive(findTF(slot13, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
+								setActive(findTF(slot13, (slot4.attachment == ChapterConst.AttachBoss and "effect_found_boss") or "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
 
 								slot16 = slot4.trait
 								slot17 = ChapterConst.TraitVirgin
@@ -5617,9 +5666,7 @@ function slot2(slot0, slot1, ...)
 					slot16 = setImageSprite
 					slot17 = slot14
 					slot18 = GetSpriteFromAtlas
-					slot19 = "chapter/pic/"
-					slot20 = slot15
-					slot19 = slot19 .. slot20
+					slot19 = "chapter/pic/cellgrid"
 					slot20 = slot15
 
 					slot16(slot17, slot18(slot19, slot20))
@@ -5763,15 +5810,97 @@ function slot2(slot0, slot1, ...)
 				slot20 = setImageSprite
 				slot21 = slot18
 				slot22 = GetSpriteFromAtlas
-				slot23 = "chapter/pic/"
-				slot24 = slot19
-				slot23 = slot23 .. slot24
+				slot23 = "chapter/pic/cellgrid"
 				slot24 = slot19
 
 				slot20(slot21, slot22(slot23, slot24))
 			end
 		end
 	end
+
+	slot5 = _
+	slot5 = slot5.any
+	slot6 = slot2.champions
+
+	function slot7(slot0)
+		slot1 = ChapterCell
+		slot1 = slot1.Line2QuadName
+		slot2 = slot0.row
+		slot3 = slot0.column
+		slot1 = slot1(slot2, slot3)
+		slot2 = slot0
+		slot2 = slot2.quadRoot
+		slot3 = slot2
+		slot2 = slot2.Find
+		slot4 = slot1
+		slot2 = slot2(slot3, slot4)
+		slot3 = Vector3
+		slot3 = slot3.one
+		slot2.localScale = slot3
+		slot3 = "cell_normal"
+		slot4 = slot0.flag
+
+		if slot4 ~= 1 then
+			slot4 = slot0.trait
+			slot5 = ChapterConst
+			slot5 = slot5.TraitLurk
+
+			if slot4 ~= slot5 then
+				slot4 = slot1
+				slot5 = slot4
+				slot4 = slot4.getChampionVisibility
+				slot6 = slot0
+				slot4 = slot4(slot5, slot6)
+
+				if slot4 then
+					slot4 = slot1
+					slot5 = slot4
+					slot4 = slot4.existFleet
+					slot6 = FleetType
+					slot6 = slot6.Transport
+					slot7 = slot0.row
+					slot8 = slot0.column
+					slot4 = slot4(slot5, slot6, slot7, slot8)
+
+					if not slot4 then
+						slot3 = "cell_enemy"
+						slot4 = slot0
+						slot5 = slot4
+						slot4 = slot4.startQuadTween
+						slot6 = slot1
+						slot7 = slot2
+
+						slot4(slot5, slot6, slot7)
+					end
+				end
+			end
+		else
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.cancelQuadTween
+			slot6 = slot1
+			slot7 = slot2
+
+			slot4(slot5, slot6, slot7)
+
+			slot4 = setImageAlpha
+			slot5 = slot2
+			slot6 = ChapterConst
+			slot6 = slot6.CellEaseOutAlpha
+
+			slot4(slot5, slot6)
+		end
+
+		slot4 = setImageSprite
+		slot5 = slot2
+		slot6 = GetSpriteFromAtlas
+		slot7 = "chapter/pic/cellgrid"
+		slot8 = slot3
+
+		slot4(slot5, slot6(slot7, slot8))
+	end
+
+	slot5(slot6, slot7)
 
 	slot5 = {}
 	slot6 = "cell_normal"
@@ -5880,9 +6009,7 @@ function slot2(slot0, slot1, ...)
 				slot3 = setImageSprite
 				slot4 = slot2
 				slot5 = GetSpriteFromAtlas
-				slot6 = "chapter/pic/"
-				slot7 = slot1
-				slot6 = slot6 .. slot7
+				slot6 = "chapter/pic/cellgrid"
 				slot7 = slot1
 
 				slot3(slot4, slot5(slot6, slot7))
@@ -7140,90 +7267,146 @@ function slot2(slot0)
 	slot2 = slot2[slot3]
 
 	if slot2 then
-		slot4 = slot1
-		slot3 = slot1.getDragExtend
-		slot5 = slot0.parent
-		slot5 = slot5._tf
-		slot5 = slot5.rect
-		slot5 = slot5.width
-		slot3, slot4, slot5 = slot3(slot4, slot5)
-		slot6 = slot0._tf
-		slot6 = slot6.parent
-		slot7 = slot6
-		slot6 = slot6.InverseTransformVector
-		slot8 = slot2.tf
-		slot8 = slot8.position
-		slot9 = slot0._tf
-		slot9 = slot9.position
-		slot8 = slot8 - slot9
-		slot6 = slot6(slot7, slot8)
-		slot7 = math
-		slot7 = slot7.clamp
-		slot8 = slot6.x
-		slot8 = -slot8
-		slot9 = -slot4
-		slot10 = slot3
-		slot7 = slot7(slot8, slot9, slot10)
-		slot6.x = slot7
-		slot7 = math
-		slot7 = slot7.clamp
-		slot8 = slot6.y
-		slot8 = -slot8
-		slot9 = -slot5
-		slot10 = slot5
-		slot7 = slot7(slot8, slot9, slot10)
-		slot6.y = slot7
-		slot7 = 0
-		slot6.z = slot7
-		slot7 = GetOrAddComponent
-		slot8 = slot0._tf
-		slot9 = "EventTriggerListener"
-		slot7 = slot7(slot8, slot9)
-		slot8 = false
-		slot7.enabled = slot8
-		slot9 = slot0
-		slot8 = slot0.frozen
+		slot4 = slot0
+		slot3 = slot0.cameraFocus
+		slot5 = slot2.tf
+		slot5 = slot5.position
 
-		slot8(slot9)
-
-		slot8 = LeanTween
-		slot8 = slot8.moveLocal
-		slot9 = go
-		slot10 = slot0._tf
-		slot9 = slot9(slot10)
-		slot10 = slot6
-		slot11 = 0.4
-		slot8 = slot8(slot9, slot10, slot11)
-		slot9 = slot8
-		slot8 = slot8.setDelay
-		slot10 = 0.1
-		slot8 = slot8(slot9, slot10)
-		slot9 = slot8
-		slot8 = slot8.setEase
-		slot10 = LeanTweenType
-		slot10 = slot10.easeInOutSine
-		slot8 = slot8(slot9, slot10)
-		slot9 = slot8
-		slot8 = slot8.setOnComplete
-		slot10 = System
-		slot10 = slot10.Action
-
-		function slot11()
-			slot0 = slot0
-			slot1 = true
-			slot0.enabled = slot1
-			slot0 = slot1
-			slot1 = slot0
-			slot0 = slot0.unfrozen
-
-			slot0(slot1)
-		end
-
-		slot8(slot9, slot10(slot11))
+		slot3(slot4, slot5)
 	end
 end
 
 slot0.adjustCameraFocus = slot2
+
+function slot2(slot0, slot1, slot2)
+	slot3 = ChapterCell
+	slot3 = slot3.Line2Name
+	slot4 = slot1.row
+	slot5 = slot1.column
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot0.cellRoot
+	slot5 = slot4
+	slot4 = slot4.Find
+	slot6 = slot3
+	slot4 = slot4(slot5, slot6)
+	slot6 = slot0
+	slot5 = slot0.cameraFocus
+	slot7 = slot4.position
+	slot8 = slot2
+
+	slot5(slot6, slot7, slot8)
+end
+
+slot0.focusOnCell = slot2
+
+function slot2(slot0, slot1, slot2)
+	slot3 = slot0.contextData
+	slot3 = slot3.chapterVO
+	slot4 = slot3.theme
+	slot5 = slot0._tf
+	slot6 = slot5
+	slot5 = slot5.Find
+	slot7 = ChapterConst
+	slot7 = slot7.PlaneName
+	slot5 = slot5(slot6, slot7)
+	slot6 = slot0._tf
+	slot6 = slot6.parent
+	slot7 = slot6
+	slot6 = slot6.InverseTransformVector
+	slot8 = slot5.position
+	slot8 = slot1 - slot8
+	slot6 = slot6(slot7, slot8)
+	slot7 = slot6.x
+	slot8 = slot5.localPosition
+	slot8 = slot8.x
+	slot7 = slot7 + slot8
+	slot6.x = slot7
+	slot7 = slot6.y
+	slot8 = slot5.localPosition
+	slot8 = slot8.y
+	slot7 = slot7 + slot8
+	slot8 = slot5.localPosition
+	slot8 = slot8.z
+	slot9 = math
+	slot9 = slot9.tan
+	slot10 = math
+	slot10 = slot10.pi
+	slot10 = slot10 / 180
+	slot11 = slot4.angle
+	slot10 = slot10 * slot11
+	slot9 = slot9(slot10)
+	slot8 = slot8 * slot9
+	slot7 = slot7 - slot8
+	slot6.y = slot7
+	slot7 = math
+	slot7 = slot7.clamp
+	slot8 = slot6.x
+	slot8 = -slot8
+	slot9 = slot0.rightExtend
+	slot9 = -slot9
+	slot10 = slot0.leftExtend
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.x = slot7
+	slot7 = math
+	slot7 = slot7.clamp
+	slot8 = slot6.y
+	slot8 = -slot8
+	slot9 = slot0.topExtend
+	slot9 = -slot9
+	slot10 = slot0.bottomExtend
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.y = slot7
+	slot7 = 0
+	slot6.z = slot7
+	slot8 = slot0
+	slot7 = slot0.frozen
+
+	slot7(slot8)
+
+	slot7 = slot0.dragTrigger
+	slot8 = false
+	slot7.enabled = slot8
+	slot7 = LeanTween
+	slot7 = slot7.moveLocal
+	slot8 = slot0._tf
+	slot8 = slot8.gameObject
+	slot9 = slot6
+	slot10 = 0.4
+	slot7 = slot7(slot8, slot9, slot10)
+	slot8 = slot7
+	slot7 = slot7.setEase
+	slot9 = LeanTweenType
+	slot9 = slot9.easeInOutSine
+	slot7 = slot7(slot8, slot9)
+	slot8 = slot7
+	slot7 = slot7.setOnComplete
+	slot9 = System
+	slot9 = slot9.Action
+
+	function slot10()
+		slot0 = slot0
+		slot0 = slot0.dragTrigger
+		slot1 = true
+		slot0.enabled = slot1
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.unfrozen
+
+		slot0(slot1)
+
+		slot0 = slot1
+
+		if slot0 then
+			slot0 = slot1
+
+			slot0()
+		end
+	end
+
+	slot7 = slot7(slot8, slot9(slot10))
+end
+
+slot0.cameraFocus = slot2
 
 function slot2(slot0)
 	return slot0.contextData.huntingRangeVisibility % 2 == 0
@@ -7421,9 +7604,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 				slot15 = setImageSprite
 				slot16 = slot14
 				slot17 = GetSpriteFromAtlas
-				slot18 = "chapter/pic/"
-				slot19 = slot3
-				slot18 = slot18 .. slot19
+				slot18 = "chapter/pic/cellgrid"
 				slot19 = slot3
 
 				slot15(slot16, slot17(slot18, slot19))

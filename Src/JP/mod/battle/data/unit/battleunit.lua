@@ -83,11 +83,13 @@ function slot9.UpdateWeapon(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0._move:GetPos()
-	slot4 = slot0._weaponLowerBound
+	if not slot0._antiSubVigilanceState or slot0._antiSubVigilanceState:IsWeaponUseable() then
+		slot2 = slot0._move:GetPos()
+		slot4 = slot0._weaponLowerBound
 
-	if (slot0._weaponRightBound == nil or slot2.x < slot3) and (slot4 == nil or slot4 < slot2.z) then
-		slot0._weaponQueue:Update(slot1)
+		if (slot0._weaponRightBound == nil or slot2.x < slot3) and (slot4 == nil or slot4 < slot2.z) then
+			slot0._weaponQueue:Update(slot1)
+		end
 	end
 
 	if not slot0:IsAlive() then
@@ -256,6 +258,14 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 		if slot1.IsInvincible(slot0) then
 			return
 		end
+	else
+		slot0:TriggerBuff(slot0.BuffEffectType.ON_TAKE_HEALING, {
+			damage = slot1,
+			isHeal = slot7
+		})
+
+		slot7 = ()["isHeal"]
+		slot1 = ()["damage"]
 	end
 
 	slot0:SetCurrentHP(math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1)))
@@ -269,7 +279,7 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 		font = slot4
 	}
 
-	if slot3 and slot3 ~= Vector3.zero then
+	if slot3 and not slot3:EqualZero() then
 		slot14 = slot0:GetPosition()
 		slot3.x = Mathf.Clamp(slot3.x, slot14.x - slot0:GetBoxSize().x, slot14.x + slot0.GetBoxSize().x)
 		slot13.posOffset = slot14 - slot3
@@ -785,6 +795,10 @@ function slot9.SetUncontrollableSpeed(slot0, slot1, slot2, slot3)
 	slot0._move:SetForceMove(slot1, slot2, slot3, slot2 / slot3)
 end
 
+function slot9.Boost(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0._move:SetForceMove(slot1, slot2, slot3, slot4, slot5)
+end
+
 function slot9.SetWeaponPreCastBound(slot0, slot1)
 	slot0._preCastBound = slot1
 
@@ -1163,7 +1177,10 @@ function slot9.GetCldData(slot0)
 end
 
 function slot9.InitOxygen(slot0)
-	slot0._floatDuration = slot0:GetAttrByName("oxyMax") / slot0:GetAttrByName("oxyRecovery")
+	slot0._maxOxy = slot0:GetAttrByName("oxyMax")
+	slot0._currentOxy = slot0:GetAttrByName("oxyMax")
+	slot0._oxyRecovery = slot0:GetAttrByName("oxyRecovery")
+	slot0._oxyConsume = slot0:GetAttrByName("oxyCost")
 	slot0._oxyState = slot0.Battle.OxyState.New(slot0)
 
 	slot0._oxyState:OnDiveState()
@@ -1171,10 +1188,26 @@ function slot9.InitOxygen(slot0)
 end
 
 function slot9.UpdateOxygen(slot0, slot1)
-	if slot0._oxyState and slot0._oxyState:GetNextBubbleStamp() and slot0._oxyState:GetNextBubbleStamp() < slot1 then
-		slot0._oxyState:FlashBubbleStamp(slot1)
-		slot0:PlayFX(slot0._bubbleFX, true)
+	if slot0._oxyState then
+		slot0._lastOxyUpdateStamp = slot0._lastOxyUpdateStamp or slot1
+
+		slot0._oxyState:UpdateOxygen()
+
+		if slot0._oxyState:GetNextBubbleStamp() and slot0._oxyState:GetNextBubbleStamp() < slot1 then
+			slot0._oxyState:FlashBubbleStamp(slot1)
+			slot0:PlayFX(slot0._bubbleFX, true)
+		end
+
+		slot0._lastOxyUpdateStamp = slot1
 	end
+end
+
+function slot9.OxyRecover(slot0)
+	slot0._currentOxy = math.min(slot0._maxOxy, slot0._currentOxy + slot0._oxyRecovery * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
+end
+
+function slot9.OxyConsume(slot0)
+	slot0._currentOxy = math.max(0, slot0._currentOxy - slot0._oxyConsume * (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._lastOxyUpdateStamp))
 end
 
 function slot9.ChangeOxygenState(slot0, slot1)
@@ -1185,6 +1218,18 @@ function slot9.ChangeWeaponDiveState(slot0)
 	for slot4, slot5 in ipairs(slot0._autoWeaponList) do
 		slot5:ChangeDiveState()
 	end
+end
+
+function slot9.GetOxygenProgress(slot0)
+	slot1 = 1
+
+	if slot0._oxyState:GetCurrentStateName() == slot0.Battle.RaidOxyState.__name then
+		slot1 = 1 - slot0._phaseSwitcher:GetPhaseProgress()
+	elseif slot2 == slot0.Battle.FreeDiveOxyState.__name or slot2 == slot0.Battle.FreeFloatOxyState.__name then
+		slot1 = slot0._currentOxy / slot0._maxOxy
+	end
+
+	return slot1
 end
 
 function slot9.ConfigBubbleFX(slot0)
@@ -1201,16 +1246,20 @@ function slot9.GetDiveInvisible(slot0)
 	return slot0._diveInvisible
 end
 
+function slot9.GetOxygenVisible(slot0)
+	return slot0._oxyState and slot0._oxyState:GetBarVisible()
+end
+
+function slot9.IsRunMode(slot0)
+	return slot0._oxyState and slot0._oxyState:GetRundMode()
+end
+
 function slot9.GetDiveDetected(slot0)
 	return slot0:GetDiveInvisible() and slot0._sonarDetectedCount > 0
 end
 
 function slot9.GetRaidDuration(slot0)
 	return slot0:GetAttrByName("oxyMax") / slot0:GetAttrByName("oxyCost")
-end
-
-function slot9.GetFloatDuration(slot0)
-	return slot0._floatDuration
 end
 
 function slot9.EnterRaidRange(slot0)
@@ -1239,6 +1288,20 @@ function slot9.GetCurrentOxyState(slot0)
 	else
 		return slot0._oxyState:GetCurrentDiveState()
 	end
+end
+
+function slot9.InitAntiSubState(slot0, slot1, slot2)
+	slot0._antiSubVigilanceState = slot0.Battle.AntiSubState.New(slot0)
+
+	slot0:DispatchEvent(slot0.Event.New(slot1.INIT_ANIT_SUB_VIGILANCE, {
+		sonarRange = slot1
+	}))
+
+	return slot0._antiSubVigilanceState
+end
+
+function slot9.GetAntiSubState(slot0)
+	return slot0._antiSubVigilanceState
 end
 
 return

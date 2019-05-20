@@ -84,7 +84,7 @@ return {
 					actor = 302140,
 					expression = 2,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			},

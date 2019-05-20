@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「仮想繋げし共時性」-日常編\n\n<size=30>四 世知辛かったらスナック愛へ！</size>",
+					"「仮想繋げし共時性」-日常編\n\n<size=45>四 世知辛かったらスナック愛へ！</size>",
 					1
 				}
 			}
@@ -163,7 +163,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -511,7 +511,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -574,7 +574,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -602,7 +602,7 @@ return {
 			say = "（ズコー！）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

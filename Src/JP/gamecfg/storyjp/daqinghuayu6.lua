@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"サブマリン・トラップ！\n\n<size=30>六　二人の海辺・下</size>",
+					"サブマリン・トラップ！\n\n<size=45>六　二人の海辺・下</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -226,7 +226,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -266,7 +266,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -293,7 +293,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

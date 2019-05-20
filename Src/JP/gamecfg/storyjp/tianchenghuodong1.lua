@@ -255,23 +255,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>………………</size>",
+					"<size=51>………………</size>",
 					2
 				},
 				{
-					"<size=34>……</size>",
+					"<size=51>……</size>",
 					4
 				},
 				{
-					"<size=34>ぬかった…こんな時に</size>",
+					"<size=51>ぬかった…こんな時に</size>",
 					6
 				},
 				{
-					"<size=34>…</size> ",
+					"<size=51>…</size> ",
 					8
 				},
 				{
-					"<size=34>…すまない。あなたの期待に応えることができなかったようだ……</size>",
+					"<size=51>…すまない。あなたの期待に応えることができなかったようだ……</size>",
 					10
 				},
 				{
@@ -279,7 +279,7 @@ return {
 					12
 				},
 				{
-					"<size=34>天城…さん……</size>",
+					"<size=51>天城…さん……</size>",
 					14
 				}
 			}
@@ -288,7 +288,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=34>                                                              ――縹映る深緋の残響</size>",
+					"<size=51>                                                              ――縹映る深緋の残響</size>",
 					2
 				}
 			}
@@ -347,7 +347,7 @@ return {
 			say = "あ！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			say = "ああああ！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

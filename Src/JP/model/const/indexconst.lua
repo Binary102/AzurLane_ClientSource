@@ -93,6 +93,19 @@ slot0.SortSprites = {
 	"sort_attr_antiaircraft",
 	"sort_votes"
 }
+slot0.SortNames = {
+	i18n("word_rarity"),
+	i18n("word_lv"),
+	i18n("word_synthesize_power"),
+	i18n("word_achieved_item"),
+	i18n("word_attr_durability"),
+	i18n("word_attr_cannon"),
+	i18n("word_attr_torpedo"),
+	i18n("word_attr_air"),
+	i18n("word_attr_antiaircraft"),
+	i18n("word_attr_antisub"),
+	i18n("word_votes")
+}
 slot0.IndexAll = 1
 slot0.IndexVanguard = 2
 slot0.IndexMain = 3
@@ -117,7 +130,7 @@ slot0.IndexTypes = {
 	slot0.IndexQianTing,
 	slot0.IndexOther
 }
-slot0.IndexSprites = {
+slot0.IndexNames = {
 	"index_all",
 	"index_fleetfront",
 	"index_fleetrear",
@@ -152,17 +165,17 @@ slot0.CampTypes = {
 	slot0.CampMNF,
 	slot0.CampOther
 }
-slot0.CampSprites = {
-	"index_all",
-	"index_shipNation_baiYing",
-	"index_shipNation_huangJia",
-	"index_shipNation_chongYing",
-	"index_shipNation_tieXue",
-	"index_shipNation_dongHuang",
-	"index_shipNation_beiLian",
-	"index_shipNation_ziyou",
-	"index_shipNation_weixi",
-	"index_other"
+slot0.CampNames = {
+	"word_shipNation_all",
+	"word_shipNation_baiYing",
+	"word_shipNation_huangJia",
+	"word_shipNation_chongYing",
+	"word_shipNation_tieXue",
+	"word_shipNation_dongHuang",
+	"word_shipNation_beiLian",
+	"word_shipNation_ziyou",
+	"word_shipNation_weixi",
+	"word_shipNation_other"
 }
 slot0.RarityAll = 1
 slot0.Rarity1 = 2
@@ -178,7 +191,7 @@ slot0.RarityTypes = {
 	slot0.Rarity4,
 	slot0.Rarity5
 }
-slot0.RaritySprites = {
+slot0.RarityNames = {
 	"index_all",
 	"index_rare2",
 	"index_rare3",
@@ -496,6 +509,15 @@ function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
 	else
 		return slot3 < slot4
 	end
+end
+
+function slot0.sortForGuider(slot0, slot1)
+	return ((table.contains({
+		101171,
+		201211,
+		401231,
+		301051
+	}, slot0.configId) and 1) or 0) > ((table.contains(slot2, slot1.configId) and 1) or 0)
 end
 
 return slot0

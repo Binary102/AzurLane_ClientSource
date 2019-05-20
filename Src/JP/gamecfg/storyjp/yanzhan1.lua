@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ナイト・オブ・ロイヤル\n\n<size=30>一 陛下との朝</size>",
+					"ナイト・オブ・ロイヤル\n\n<size=45>一 陛下との朝</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -248,7 +248,7 @@ return {
 			},
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -284,7 +284,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -311,7 +311,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -353,7 +353,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -460,7 +460,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

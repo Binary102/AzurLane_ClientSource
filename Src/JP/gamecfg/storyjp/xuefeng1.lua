@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その一　雪風様登場</size>",
+					"佐世保生まれの幸運艦\n\n<size=45>その一　雪風様登場</size>",
 					1
 				}
 			}
@@ -35,13 +35,13 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -337,7 +337,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

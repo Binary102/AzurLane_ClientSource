@@ -113,7 +113,7 @@ function slot2.ShowDrop(slot0, slot1)
 		slot0:updateContainerPosition()
 	end
 
-	slot3 = Vector3(slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos).x, slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos).y, 2)
+	slot3 = Vector3(slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos:Clone()).x, slot0.Battle.BattleVariable.CameraPosToUICamera(slot1.scenePos.Clone()).y, 2)
 	slot5, slot6 = math.modf(slot1.drops.resourceCount / slot1.RESOURCE_STEP)
 
 	if slot6 > 0 then

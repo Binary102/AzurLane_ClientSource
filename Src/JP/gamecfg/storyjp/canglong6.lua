@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"蒼龍さんと一緒\n\n<size=30>六 変化・中</size>",
+					"蒼龍さんと一緒\n\n<size=45>六 変化・中</size>",
 					1
 				}
 			}
@@ -243,7 +243,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.15,

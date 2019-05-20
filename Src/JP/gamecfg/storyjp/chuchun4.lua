@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"人見知りの黒猫\n\n<size=30>四 秘書艦初春・着任！</size>",
+					"人見知りの黒猫\n\n<size=45>四 秘書艦初春・着任！</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -118,7 +118,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -231,7 +231,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},
@@ -252,7 +252,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -325,7 +325,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -436,7 +436,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

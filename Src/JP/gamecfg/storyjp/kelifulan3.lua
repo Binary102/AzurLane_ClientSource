@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ナイト＆アワード\n\n<size=30>その三　集中訓練！</size>",
+					"ナイト＆アワード\n\n<size=45>その三　集中訓練！</size>",
 					1
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -68,7 +68,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -85,7 +85,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -134,21 +134,21 @@ return {
 			say = "んぐ…んぐ…ぷはー！実はここまで来る途中にこんなことがあって……",
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
@@ -238,7 +238,7 @@ return {
 			say = "ああわかった！ぱぱっとみんなで収穫するぞ！だから兄貴って呼ぶなぁ！",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ワイワイ旧正月！\n\n<size=30>五 みんな一緒に・上</size>",
+					"ワイワイ旧正月！\n\n<size=45>五 みんな一緒に・上</size>",
 					1
 				}
 			}

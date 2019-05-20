@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ハムマン観察記録\n\n<size=30>その一  怒りん坊の秘書艦</size>",
+					"ハムマン観察記録\n\n<size=45>その一  怒りん坊の秘書艦</size>",
 					1
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -122,7 +122,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 3,
 					type = "shake"
@@ -242,10 +242,10 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "<size=40>バカ！</size>",
+			say = "<size=60>バカ！</size>",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 3,
 					type = "shake"
@@ -263,7 +263,7 @@ return {
 			say = "（ドン！）",
 			dialogShake = {
 				speed = 0.04,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			painting = {

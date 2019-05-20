@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"サブマリン・トラップ！\n\n<size=30>四　「悪魔」との契約</size>",
+					"サブマリン・トラップ！\n\n<size=45>四　「悪魔」との契約</size>",
 					1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -314,7 +314,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -345,7 +345,7 @@ return {
 					type = "shake",
 					delay = 0.4,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

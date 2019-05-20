@@ -50,8 +50,16 @@ return {
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 200,
-						y = 100
+						x = 300,
+						y = 150
+					}
+				},
+				{
+					expression = 1,
+					actor = 10400010,
+					pos = {
+						x = 900,
+						y = 150
 					}
 				},
 				{
@@ -59,22 +67,14 @@ return {
 					actor = 10400010,
 					pos = {
 						x = 600,
-						y = 100
+						y = -150
 					}
 				},
 				{
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 400,
-						y = -100
-					}
-				},
-				{
-					expression = 1,
-					actor = 10400010,
-					pos = {
-						x = 800,
+						x = 1200,
 						y = 0
 					}
 				}
@@ -89,7 +89,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -242,7 +242,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.5,
-					x = 370
+					x = 555
 				}
 			}
 		},
@@ -268,7 +268,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.5,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -369,7 +369,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -396,7 +396,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 0,
 					dur = 0.5,

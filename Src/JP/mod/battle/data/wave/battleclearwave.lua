@@ -15,7 +15,7 @@ function ys.Battle.BattleClearWave.DoWave(slot0)
 	slot2:KillAllAircraft()
 	slot2:KillSubmarineByIFF(slot1.Battle.BattleConfig.FOE_CODE)
 	slot1:GetMediatorByName(slot1.Battle.BattleSceneMediator.__name).AllBulletNeutralize(slot3)
-	slot0:doFinish()
+	slot0:doPass()
 end
 
 return

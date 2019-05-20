@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"母港の特別宴会\n\n<size=30>四　女王陛下登場</size>",
+					"母港の特別宴会\n\n<size=45>四　女王陛下登場</size>",
 					1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -359,7 +359,7 @@ return {
 				{
 					y = 0,
 					dur = 0.2,
-					x = -100,
+					x = -150,
 					type = "move"
 				}
 			}
@@ -382,7 +382,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -446,7 +446,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"妹の成長期？！\n\n<size=30>三 妹の思い</size>",
+					"妹の成長期？！\n\n<size=45>三 妹の思い</size>",
 					1
 				}
 			}

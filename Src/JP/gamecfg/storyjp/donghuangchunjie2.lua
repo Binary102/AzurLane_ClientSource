@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ワイワイ旧正月！\n\n<size=30>二 旧倉庫の新発見</size>",
+					"ワイワイ旧正月！\n\n<size=45>二 旧倉庫の新発見</size>",
 					1
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -543,7 +543,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -565,13 +565,13 @@ return {
 				{
 					actor = 501020,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 301054,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},
@@ -618,7 +618,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -640,7 +640,7 @@ return {
 				{
 					actor = 301054,
 					pos = {
-						x = 850
+						x = 1275
 					}
 				}
 			},
@@ -672,7 +672,7 @@ return {
 			},
 			action = {
 				{
-					y = 45,
+					y = 67.5,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

@@ -36,7 +36,7 @@ function slot1.MakeBloodBar(slot0, slot1)
 	if slot1:GetBossIndex() then
 		slot1:AddHPBar(slot2:InstantiateCharacterComponent(slot0.DUAL_BAR_NAME[slot3]))
 	else
-		slot1:AddHPBar(slot2:InstantiateCharacterComponent(slot0.HP_BAR_NAME))
+		slot1:AddHPBar(slot2:InstantiateCharacterComponent(slot0.HP_BAR_NAME), true)
 	end
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"悪戯ハロウィン\n\n<size=30>七 ハッピーハロウィン！</size>",
+					"悪戯ハロウィン\n\n<size=45>七 ハッピーハロウィン！</size>",
 					1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -129,7 +129,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -208,7 +208,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -279,14 +279,14 @@ return {
 				{
 					actor = 302051,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 101271,
 					dir = 1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -424,7 +424,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.7,
 					dur = 0.15,
@@ -510,14 +510,14 @@ return {
 				{
 					actor = 302051,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 213021,
 					dir = -1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -548,7 +548,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.1,

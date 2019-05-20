@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"母港の特別宴会\n\n<size=30>五　一周年のピアニスト</size>",
+					"母港の特別宴会\n\n<size=45>五　一周年のピアニスト</size>",
 					1
 				}
 			}
@@ -452,7 +452,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

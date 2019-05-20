@@ -71,8 +71,7 @@ function ys.Battle.BattleAirFighterUnit.SetAttr(slot0, slot1)
 end
 
 function ys.Battle.BattleAirFighterUnit.UpdateSpeed(slot0)
-	slot0._speed = slot0._speedDir:CloneTo(slot0._speed)
-
+	slot0._speed:Copy(slot0._speedDir)
 	slot0._speed:Mul(slot0._velocity * slot0:GetSpeedRatio())
 end
 
@@ -224,9 +223,7 @@ end
 
 function ys.Battle.BattleAirFighterUnit._updatePosBack(slot0)
 	slot0._pos:Sub(slot0._speed)
-
-	slot0._viewPos = slot0._pos:CloneTo(slot0._viewPos)
-
+	slot0._viewPos:Copy(slot0._pos)
 	slot0._viewPos:Sub(slot0._formationOffset)
 
 	if slot0._pos.x < slot0.DOWN_X then

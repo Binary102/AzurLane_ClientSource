@@ -140,11 +140,12 @@ function slot1.getInitialSpeed(slot0)
 	return slot0._autoMoveAi()
 end
 
-function slot1.SetForceMove(slot0, slot1, slot2, slot3, slot4)
+function slot1.SetForceMove(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._isForceMove = true
 	slot0._forceSpeed = slot1.normalized * slot2
 	slot0._forceReduce = slot1.normalized * slot3
 	slot0._forceLastTime = slot4
+	slot0._decayValve = slot5 or 0
 end
 
 function slot1.UpdateForceMove(slot0)
@@ -156,7 +157,9 @@ function slot1.UpdateForceMove(slot0)
 
 	slot0._forceLastTime = slot1 - 1
 
-	slot0._forceSpeed:Sub(slot0._forceReduce)
+	if slot1 < slot0._decayValve then
+		slot0._forceSpeed:Sub(slot0._forceReduce)
+	end
 end
 
 function slot1.ClearForceMove(slot0)
@@ -176,7 +179,7 @@ end
 
 function slot1.SetAutoMoveAI(slot0, slot1, slot2)
 	function slot0._autoMoveAi()
-		return slot0:GetDirection() * slot0:GetAttrByName("velocity")
+		return slot0:GetDirection():Mul(slot1:GetAttrByName("velocity"))
 	end
 end
 
@@ -195,14 +198,13 @@ function slot1.SetMotionVO(slot0, slot1)
 end
 
 function slot1.UpdateFleetInfo(slot0, slot1)
-	slot3 = slot0._fleetMotionVO.GetPos(slot2)
-	slot4 = slot0._fleetMotionVO.GetSpeed(slot2)
+	slot3 = slot0._fleetMotionVO.GetSpeed(slot2)
 
-	if slot1 == Vector3.zero then
-		return slot4
+	if slot1:EqualZero() then
+		return slot3
 	end
 
-	return slot2:GetDirAngle() * slot1.Add(slot5, slot3):Sub(slot0._pos):Div(25):Add(slot4)
+	return slot2:GetDirAngle() * slot1.Add(slot5, slot4):Sub(slot0._pos):Div(25):Add(slot3)
 end
 
 return

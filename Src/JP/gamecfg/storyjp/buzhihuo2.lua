@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"万能店員シラヌイ\n\n<size=30>二　店員不知火の日常</size>",
+					"万能店員シラヌイ\n\n<size=45>二　店員不知火の日常</size>",
 					1
 				}
 			}

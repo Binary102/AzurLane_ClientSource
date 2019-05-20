@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"平穏を讃えて\n\n<size=30>一　臨時メイド長</size>",
+					"平穏を讃えて\n\n<size=45>一　臨時メイド長</size>",
 					1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,

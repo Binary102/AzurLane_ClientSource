@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"母港の特別宴会\n\n<size=30>六　響け！アマゾンオーケストラ</size>",
+					"母港の特別宴会\n\n<size=45>六　響け！アマゾンオーケストラ</size>",
 					1
 				}
 			}
@@ -526,7 +526,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -553,7 +553,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -632,7 +632,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

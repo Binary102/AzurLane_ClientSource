@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"謹賀新年\n\n<size=30>その二  年末の大ソウジ</size>",
+					"謹賀新年\n\n<size=45>その二  年末の大ソウジ</size>",
 					1
 				}
 			}
@@ -256,7 +256,7 @@ return {
 					actor = 307020,
 					dir = -1,
 					pos = {
-						x = -735
+						x = -1102.5
 					}
 				}
 			},

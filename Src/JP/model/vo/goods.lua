@@ -71,9 +71,9 @@ function slot0.canPurchase(slot0)
 		end
 
 		if slot0:getConfig("commodity_type") == DROP_TYPE_SKIN then
-			slot4 = pg.ship_skin_template[slot0:getConfig("commodity_id")]
+			slot3 = pg.ship_skin_template[slot0:getConfig("commodity_id")]
 
-			if getProxy(BayProxy):hasSkin(slot0.getConfig("commodity_id")) then
+			if getProxy(ShipSkinProxy):hasSkin(slot0.getConfig("commodity_id")) then
 				return false, i18n("common_already owned")
 			end
 
@@ -117,7 +117,7 @@ end
 function slot0.getLevelLimit(slot0)
 	for slot5, slot6 in ipairs(slot1) do
 		if slot6[1] == "level" then
-			return slot6[2], #slot6 > 2 and slot6[3]
+			return slot6[2], slot6[3]
 		end
 	end
 
@@ -165,6 +165,10 @@ function slot0.getSkinId(slot0)
 	elseif slot0.type == slot0.TYPE_SKIN then
 		return slot0:getConfig("effect_args")[1]
 	end
+end
+
+function slot0.getKey(slot0)
+	return slot0.id .. "_" .. slot0.type
 end
 
 function slot0.getLimitCount(slot0)

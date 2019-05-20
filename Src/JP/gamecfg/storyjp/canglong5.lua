@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"蒼龍さんと一緒\n\n<size=30>五 変化・上</size>",
+					"蒼龍さんと一緒\n\n<size=45>五 変化・上</size>",
 					1
 				}
 			}
@@ -296,7 +296,7 @@ return {
 			},
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

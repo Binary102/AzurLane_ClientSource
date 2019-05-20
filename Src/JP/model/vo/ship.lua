@@ -9,6 +9,8 @@ slot0.SKIN_TYPE_PROPOSE = 1
 slot0.SKIN_TYPE_REMAKE = 2
 slot0.BACKYARD_1F_ENERGY_ADDITION = 2
 slot0.BACKYARD_2F_ENERGY_ADDITION = 3
+slot0.PREFERENCE_TAG_NONE = 0
+slot0.PREFERENCE_TAG_COMMON = 1
 slot1 = {
 	vanguard = i18n("word_vanguard_fleet"),
 	main = i18n("word_main_fleet")
@@ -72,8 +74,12 @@ function shipRarity2bgPrint(slot0, slot1)
 	return ShipRarity.Rarity2Print(slot0)
 end
 
+function shipRarity2FrameColor(slot0)
+	return ShipRarity.Rarity2FrameColor(slot0)
+end
+
 function slot0.rarity2bgPrint(slot0)
-	return ((slot0:isBluePrintShip() and "1") or "") .. ShipRarity.Rarity2Print(slot0:getRarity())
+	return ((slot0:isBluePrintShip() and "0") or "") .. ShipRarity.Rarity2Print(slot0:getRarity())
 end
 
 function slot0.rarity2bgPrintForGet(slot0)
@@ -81,7 +87,7 @@ function slot0.rarity2bgPrintForGet(slot0)
 		return slot2
 	end
 
-	return ((slot0:isBluePrintShip() and "1") or "") .. ShipRarity.Rarity2Print(slot0:getRarity())
+	return ((slot0:isBluePrintShip() and "0") or "") .. ShipRarity.Rarity2Print(slot0:getRarity())
 end
 
 function slot0.getShipBgPrint(slot0)
@@ -513,10 +519,19 @@ function slot0.Ctor(slot0, slot1)
 		slot4 = slot1.equip_info_list or {}
 
 		for slot6, slot7 in slot3(slot4) do
-			slot0.equipments[slot6] = (slot7.id > 0 and Equipment.New({
-				id = slot7.id,
-				skinId = slot7.skinId
-			})) or false
+			slot8 = slot0.equipments
+			slot8[slot6] = Equipment.New({
+				count = 1,
+				id = (slot7.uid > 0 and slot7.uid) or slot7.id,
+				config_id = slot7.id,
+				skinId = slot7.skinId,
+				affix_list = _.map(slot7.affix_list, function (slot0)
+					return {
+						id = slot0.id,
+						value = slot0.random_num
+					}
+				end)
+			}) or false
 		end
 	end
 
@@ -568,6 +583,7 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.maxLevel = slot1.max_level
 	slot0.proficiency = slot1.proficiency or 0
+	slot0.preferenceTag = slot1.common_flag
 	slot0.hpRant = 10000
 	slot0.strategies = {}
 	slot0.triggers = {}
@@ -991,13 +1007,19 @@ function slot0.getEquipmentProperties(slot0)
 				end
 			end
 
-			for slot14, slot15 in pairs(slot10) do
-				slot2[slot14] = math.max(slot2[slot14], slot15)
+			for slot14, slot15 in ipairs(slot10) do
+				if slot15 and slot1[slot15.type] then
+					slot1[slot15.type] = slot1[slot15.type] + slot15.value
+				end
+			end
+
+			for slot15, slot16 in pairs(slot11) do
+				slot2[slot15] = math.max(slot2[slot15], slot16)
 			end
 
 			if slot8:GetSonarProperty() then
-				for slot15, slot16 in pairs(slot11) do
-					slot1[slot15] = slot1[slot15] + slot16
+				for slot16, slot17 in pairs(slot12) do
+					slot1[slot16] = slot1[slot16] + slot17
 				end
 			end
 		end
@@ -1490,6 +1512,14 @@ function slot0.SetLockState(slot0, slot1)
 	slot0.lockState = slot1
 end
 
+function slot0.GetPreferenceTag(slot0)
+	return slot0.preferenceTag or 0
+end
+
+function slot0.SetPreferenceTag(slot0, slot1)
+	slot0.preferenceTag = slot1
+end
+
 function slot0.canProposeShip(slot0)
 	slot1 = slot0.id
 
@@ -1527,7 +1557,7 @@ function slot0.canDestroyShip(slot0, slot1)
 		return false, i18n("blueprint_destory_tip")
 	elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then
 		return false, i18n("ship_vo_locked")
-	elseif slot0.inChapter then
+	elseif slot0.inChapter or slot0.inWorld then
 		return false, i18n("word_shipState_fight")
 	elseif slot0.inClass then
 		return false, i18n("ship_vo_inClass")
@@ -1681,7 +1711,7 @@ function slot0.isForbiddenAtPos(slot0, slot1, slot2)
 		return true, i18n("common_limit_equip")
 	end
 
-	if table.contains(pg.equip_data_template[slot1.id].ship_type_forbidden, slot0:getShipType()) then
+	if table.contains(pg.equip_data_template[slot1.configId].ship_type_forbidden, slot0:getShipType()) then
 		return true, i18n("common_limit_equip")
 	end
 
@@ -1731,74 +1761,81 @@ slot0.STATE_CHANGE_CHECK = 1
 slot0.STATE_CHANGE_OK = 2
 slot6 = {
 	inFleet = {
-		inEvent = 0,
-		inChapter = 2,
 		inElite = 2,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 2,
 		inActivity = 2,
 		inTactics = 2,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 0,
+		inWorld = 2
 	},
 	inElite = {
-		inEvent = 0,
-		inChapter = 2,
 		inElite = 0,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 2,
 		inActivity = 2,
 		inTactics = 2,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 0,
+		inWorld = 2
 	},
 	inEvent = {
-		inEvent = 0,
-		inChapter = 0,
 		inElite = 0,
+		inChapter = 0,
 		inFleet = 1,
 		inClass = 2,
 		inActivity = 0,
 		inTactics = 2,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 0,
+		inWorld = 0
 	},
 	inBackyard = {
-		inEvent = 2,
-		inChapter = 2,
 		inElite = 2,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 0,
 		inActivity = 2,
 		inTactics = 2,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 2,
+		inWorld = 2
 	},
 	inClass = {
-		inEvent = 2,
-		inChapter = 2,
 		inElite = 2,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 0,
 		inActivity = 2,
 		inTactics = 2,
-		inBackyard = 0
+		inBackyard = 1,
+		inEvent = 2,
+		inWorld = 2
 	},
 	inTactics = {
-		inEvent = 2,
-		inChapter = 2,
 		inElite = 2,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 2,
 		inActivity = 2,
 		inTactics = 0,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 2,
+		inWorld = 2
 	},
 	inActivity = {
-		inEvent = 0,
-		inChapter = 2,
 		inElite = 2,
+		inChapter = 2,
 		inFleet = 2,
 		inClass = 2,
 		inActivity = 0,
 		inTactics = 2,
-		inBackyard = 2
+		inBackyard = 2,
+		inEvent = 0,
+		inWorld = 0
 	}
 }
 slot7 = {
@@ -1809,7 +1846,8 @@ slot7 = {
 	"inTactics",
 	"inBackyard",
 	"inElite",
-	"inActivity"
+	"inActivity",
+	"inWorld"
 }
 slot8 = {
 	inFleet = {
@@ -1835,6 +1873,9 @@ slot8 = {
 	},
 	inTactics = {
 		tips_block = "word_shipState_tactics"
+	},
+	inChapter = {
+		tips_block = "word_shipState_fight"
 	}
 }
 
@@ -2010,7 +2051,7 @@ function slot0.getProposeSkin(slot0)
 end
 
 function slot0.getDockSortValue(slot0)
-	return ((slot0.inFleet and 1) or 0) + ((slot0.inShamPre and 1) or 0) + ((slot0.shamInFleet and 1) or 0)
+	return ((slot0.inFleet and 1) or 0) + ((slot0.inShamPre and 1) or 0) + ((slot0.shamInFleet and 1) or 0) + ((slot0.inWorld and slot0.bindingData and slot0.bindingData.fleetId and 100 - slot0.bindingData.fleetId) or 0)
 end
 
 function slot0.getDisplaySkillIds(slot0)
@@ -2073,6 +2114,14 @@ end
 
 function slot0.setCommander(slot0, slot1)
 	slot0.commanderId = slot1
+end
+
+function slot0.getSkillIndex(slot0, slot1)
+	for slot6, slot7 in ipairs(slot2) do
+		if slot1 == slot7 then
+			return slot6
+		end
+	end
 end
 
 function slot0.getTactics(slot0)

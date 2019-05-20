@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"先輩とわだかまり\n\n<size=30>四　VSエンタープライズ</size>",
+					"先輩とわだかまり\n\n<size=45>四　VSエンタープライズ</size>",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "エセックス＆エンタープライズ",
-			say = "<size=30>はああああああ！！！</size>",
+			say = "<size=45>はああああああ！！！</size>",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 					dir = 1,
 					actor = 107060,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},

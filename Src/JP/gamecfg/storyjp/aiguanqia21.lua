@@ -29,8 +29,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -172,12 +172,12 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			action = {
 				{
-					y = 1100,
+					y = 1650,
 					type = "move",
 					delay = 0,
 					dur = 2,
@@ -295,7 +295,7 @@ return {
 			say = "ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ………！！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {
@@ -386,8 +386,16 @@ return {
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 200,
-						y = 100
+						x = 300,
+						y = 150
+					}
+				},
+				{
+					expression = 1,
+					actor = 10400010,
+					pos = {
+						x = 900,
+						y = 150
 					}
 				},
 				{
@@ -395,22 +403,14 @@ return {
 					actor = 10400010,
 					pos = {
 						x = 600,
-						y = 100
+						y = -150
 					}
 				},
 				{
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 400,
-						y = -100
-					}
-				},
-				{
-					expression = 1,
-					actor = 10400010,
-					pos = {
-						x = 800,
+						x = 1200,
 						y = 0
 					}
 				}
@@ -529,8 +529,16 @@ return {
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 200,
-						y = 100
+						x = 300,
+						y = 150
+					}
+				},
+				{
+					expression = 1,
+					actor = 10400010,
+					pos = {
+						x = 900,
+						y = 150
 					}
 				},
 				{
@@ -538,22 +546,14 @@ return {
 					actor = 10400010,
 					pos = {
 						x = 600,
-						y = 100
+						y = -150
 					}
 				},
 				{
 					expression = 1,
 					actor = 10400010,
 					pos = {
-						x = 400,
-						y = -100
-					}
-				},
-				{
-					expression = 1,
-					actor = 10400010,
-					pos = {
-						x = 800,
+						x = 1200,
 						y = 0
 					}
 				}
@@ -568,7 +568,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -716,7 +716,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

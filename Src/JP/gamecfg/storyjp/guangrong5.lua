@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"栄光なる間奏曲\n\n<size=30>その五　駆逐艦たちと</size>",
+					"栄光なる間奏曲\n\n<size=45>その五　駆逐艦たちと</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			},
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

@@ -727,6 +727,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "内田真礼",
 		code = 182
+	},
+	{
+		actor_name = "川澄绫子",
+		code = 183
 	}
 }
 

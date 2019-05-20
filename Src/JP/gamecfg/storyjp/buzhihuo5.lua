@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"万能店員シラヌイ\n\n<size=30>五　店員の異状</size>",
+					"万能店員シラヌイ\n\n<size=45>五　店員の異状</size>",
 					1
 				}
 			}
@@ -291,7 +291,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -323,7 +323,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

@@ -112,7 +112,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

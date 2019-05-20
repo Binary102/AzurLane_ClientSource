@@ -54,7 +54,7 @@ function ys.Battle.BattleCameraWave.DoWave(slot0)
 	end
 
 	slot1:BulletTime(slot2.SPEED_FACTOR_FOCUS_CHARACTER, nil)
-	slot0:doFinish()
+	slot0:doPass()
 end
 
 return

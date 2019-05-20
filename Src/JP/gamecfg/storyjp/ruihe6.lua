@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その六  私なんて……</size>",
+					"幸運の鶴\n\n<size=45>その六  私なんて……</size>",
 					1
 				}
 			}

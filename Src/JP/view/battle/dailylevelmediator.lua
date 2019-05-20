@@ -87,7 +87,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_CHALLENGE_OPEN_RANK, function ()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
-			index = BillboardLayer.PAGE_CHALLENGE
+			page = PowerRank.TYPE_CHALLENGE
 		})
 	end)
 	slot0:bind(slot0.ON_CHALLENGE_OPEN_DOCK, function (slot0, slot1)

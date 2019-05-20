@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小さなめいどちょー\n\n<size=30>その四 幼い新参者</size>",
+					"小さなめいどちょー\n\n<size=45>その四 幼い新参者</size>",
 					1
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			say = "はい！ベル、がんばります！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 2,
 					type = "shake"

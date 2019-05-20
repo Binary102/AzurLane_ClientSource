@@ -10,6 +10,8 @@ slot0.ACT_ON_BUILD = "BuildShipMediator ACT_ON_BUILD"
 slot0.OPEN_EXCHANGE = "BuildShipMediator OPEN_EXCHANGE"
 slot0.CLOSE_EXCHANGE = "BuildShipMediator CLOSE_EXCHANGE"
 slot0.ON_UPDATE_ACT = "BuildShipMediator ON_UPDATE_ACT"
+slot0.OPEN_PRAY_PAGE = "BuildShipMediator OPEN_PRAY_PAGE"
+slot0.CLOSE_PRAY_PAGE = "BuildShipMediator CLOSE_PRAY_PAGE"
 
 function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(slot2)
@@ -21,8 +23,7 @@ function slot0.register(slot0)
 
 	slot7 = getProxy(BuildShipProxy)
 
-	slot0.viewComponent:setWorkCount(slot8)
-	slot0.viewComponent:setStartCount(table.getCount(slot9))
+	slot0.viewComponent:setStartCount(table.getCount(slot8))
 	slot0:checkActivityBuild()
 	slot0:bind(slot0.OPEN_DESTROY, function (slot0)
 		slot1 = slot0:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
@@ -45,7 +46,10 @@ function slot0.register(slot0)
 
 		slot0:addSubLayers(Context.New({
 			mediator = BuildShipDetailMediator,
-			viewComponent = BuildShipDetailLayer
+			viewComponent = BuildShipDetailLayer,
+			data = {
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+			}
 		}))
 	end)
 	slot0:bind(slot0.REMOVE_PROJECT_LIST, function (slot0)
@@ -76,7 +80,10 @@ function slot0.register(slot0)
 
 		slot0:addSubLayers(Context.New({
 			mediator = ExchangeShipMediator,
-			viewComponent = ExchangeShipLayer
+			viewComponent = ExchangeShipLayer,
+			data = {
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+			}
 		}))
 	end)
 	slot0:bind(slot0.ON_UPDATE_ACT, function (slot0)
@@ -90,7 +97,23 @@ function slot0.register(slot0)
 			})
 		end
 	end)
-	slot0.viewComponent:notifacation(slot7:getFinishCount())
+	slot0:bind(slot0.OPEN_PRAY_PAGE, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = PrayPoolMediator,
+			viewComponent = PrayPoolScene,
+			data = {
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+			}
+		}))
+	end)
+	slot0:bind(slot0.CLOSE_PRAY_PAGE, function (slot0)
+		if getProxy(ContextProxy).getCurrentContext(slot1):getContextByMediator(PrayPoolMediator) then
+			slot0:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot3
+			})
+		end
+	end)
+	slot0.viewComponent:updateQueueTip(slot7:getFinishCount())
 end
 
 function slot0.checkActivityBuild(slot0)
@@ -141,9 +164,9 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 		end
 
-		slot0.viewComponent:notifacation(slot4:getFinishCount())
+		slot0.viewComponent:updateQueueTip(slot4:getFinishCount())
 	elseif slot2 == GAME.SKIP_SHIP_DONE then
-		slot0.viewComponent:notifacation(getProxy(BuildShipProxy).getFinishCount(slot4))
+		slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
 	elseif slot2 == GAME.SKIP_BATCH_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 			items = slot3

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"母港脱出作戦！\n\n<size=30>三　天の助け！</size>",
+					"母港脱出作戦！\n\n<size=45>三　天の助け！</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = -15,
+					y = -22.5,
 					type = "shake",
 					delay = 2.5,
 					dur = 0.2,

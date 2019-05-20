@@ -21,7 +21,22 @@ class("CreateGuildCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot1:setId(slot0.id)
 
 			slot2 = getProxy(GuildProxy)
-			slot3 = GuildMember.New(slot1)
+			slot3 = GuildMember.New({
+				liveness = 0,
+				online = 1,
+				id = slot1.id,
+				name = slot1.name,
+				lv = slot1.level,
+				adv = slot1.manifesto,
+				display = {
+					icon = slot1.icon,
+					character = slot1.character,
+					icon_theme = slot1.iconTheme,
+					transform_flag = slot1.transformFlag,
+					skin = slot1.skinId,
+					marry_flag = slot1.proposeTime
+				}
+			})
 
 			slot3:setDuty(GuildMember.DUTY_COMMANDER)
 			slot1:addMember(slot3)

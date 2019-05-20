@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春風の十字星\n\n<size=30>その六  証人</size>",
+					"春風の十字星\n\n<size=45>その六  証人</size>",
 					1
 				}
 			}
@@ -277,14 +277,14 @@ return {
 			say = "えええ！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 207020,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

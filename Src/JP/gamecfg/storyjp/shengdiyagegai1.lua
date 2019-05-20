@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"輝く☆バトルスター！\n\n<size=30>一　サンディエゴ、改造へ</size>",
+					"輝く☆バトルスター！\n\n<size=45>一　サンディエゴ、改造へ</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -282,7 +282,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -312,7 +312,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -333,7 +333,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

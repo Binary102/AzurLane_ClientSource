@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ニンジャ暁参上！\n\n<size=30>四　みんなでワイワイ？・下</size>",
+					"ニンジャ暁参上！\n\n<size=45>四　みんなでワイワイ？・下</size>",
 					1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -427,7 +427,7 @@ return {
 				{
 					y = 0,
 					dur = 1,
-					x = 1000,
+					x = 1500,
 					type = "move"
 				}
 			}

@@ -1260,7 +1260,7 @@ pg.expedition_data_template = {
 	[6000] = {
 		sink_limit = 1,
 		ai = 0,
-		guide_desc = "<color=#A9F548>航空攻撃</color>が効果大",
+		guide_desc = "<color=#92fc63>航空攻撃</color>が効果大",
 		type = 1,
 		ai_mov = 0,
 		add_icon = "",
@@ -1311,7 +1311,7 @@ pg.expedition_data_template = {
 	[6001] = {
 		sink_limit = 1,
 		ai = 0,
-		guide_desc = "<color=#A9F548>主力艦隊の主砲攻撃</color>が効果大",
+		guide_desc = "<color=#92fc63>主力艦隊の主砲攻撃</color>が効果大",
 		type = 1,
 		ai_mov = 0,
 		add_icon = "",
@@ -1362,7 +1362,7 @@ pg.expedition_data_template = {
 	[6002] = {
 		sink_limit = 1,
 		ai = 0,
-		guide_desc = "<color=#A9F548>前衛艦隊の魚雷攻撃</color>が効果大",
+		guide_desc = "<color=#92fc63>前衛艦隊の魚雷攻撃</color>が効果大",
 		type = 1,
 		ai_mov = 0,
 		add_icon = "",
@@ -185631,6 +185631,279 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1140201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140201,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140201,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140202] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140202,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140202,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140203] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140203,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140203,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140204] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140204,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140204,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140205] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140205,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140205,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140206] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140206,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140206,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
+	[1140207] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 14,
+		ai_mov = 0,
+		add_icon = "",
+		name = "小さな約束",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 0,
+		time_limit = 10,
+		dungeon_id = 1140207,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 120,
+		exp = 0,
+		limit_type = 4,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 10001,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1140207,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			6
+		},
+		bufficon = {}
+	},
 	[1160101] = {
 		sink_limit = 1,
 		ai = 0,
@@ -226059,6 +226332,372 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[4000244] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000221,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 32,
+		exp = 209,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000244,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57401
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000245] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000231,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 36,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000245,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000246] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000232,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 36,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000246,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57402
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000247] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000241,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 40,
+		exp = 263,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000247,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000248] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000242,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 40,
+		exp = 263,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000248,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[4000249] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "エリート艦隊",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 4000243,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 40,
+		exp = 263,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 2,
+		map_id = 50014,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 4000249,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57403
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[4000301] = {
 		sink_limit = 1,
 		ai = 0,
@@ -237653,6 +238292,13 @@ pg.expedition_data_template = {
 		1140101,
 		1140102,
 		1140103,
+		1140201,
+		1140202,
+		1140203,
+		1140204,
+		1140205,
+		1140206,
+		1140207,
 		1160101,
 		1160102,
 		1160103,
@@ -238341,6 +238987,12 @@ pg.expedition_data_template = {
 		4000241,
 		4000242,
 		4000243,
+		4000244,
+		4000245,
+		4000246,
+		4000247,
+		4000248,
+		4000249,
 		4000301,
 		4000302,
 		4000303,

@@ -128,23 +128,12 @@ function slot0.setRank(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 function slot0.setPresonalPoint(slot0, slot1, slot2, slot3)
-	slot0.myPoint[slot0:getRankMsgId(slot2, slot3)] = math.max(defaultValue(slot0.myPoint[slot0.getRankMsgId(slot2, slot3)], 0), slot1)
-end
-
-function slot0.setSecondaryPoint(slot0, slot1, slot2, slot3)
-	slot4 = slot0:getRankMsgId(slot2, slot3)
-
-	if not slot0.mySecondaryPoint then
-		slot0.mySecondaryPoint = {}
-	end
-
-	slot0.mySecondaryPoint[slot4] = math.max(defaultValue(slot0.mySecondaryPoint[slot4], 0), slot1)
+	slot0.myPoint[slot4] = (slot0.myPoint[slot0:getRankMsgId(slot2, slot3)] and math.max(slot0.myPoint[slot4], slot1)) or slot1
 end
 
 function slot0.setPlayerRank(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0:getRankMsgId(slot3, slot4)
-	slot0.myPoint[slot5] = math.max(defaultValue(slot0.myPoint[slot5], 0), slot1)
-	slot0.myRank[slot5] = math.max(defaultValue(slot0.myRank[slot5], 0), slot2)
+	slot0.myPoint[slot5] = (slot0.myPoint[slot0:getRankMsgId(slot3, slot4)] and math.max(slot0.myPoint[slot5], slot1)) or slot1
+	slot0.myRank[slot5] = (slot0.myRank[slot5] and math.max(slot0.myRank[slot5], slot2)) or slot2
 
 	slot0:updatePlayerRankInfo(slot5)
 end
@@ -618,12 +607,7 @@ function slot0.updatePlayerRankInfo(slot0, slot1)
 	end
 
 	slot7.rank = slot8
-
-	if slot0.myPoint[slot1] <= 0 or not slot0.myPoint[slot1] then
-		slot8 = defaultValue(slot0.mySecondaryPoint[slot1], 0)
-	end
-
-	slot7.power = slot8
+	slot7.power = slot0.myPoint[slot1]
 	slot7.icon = slot0.playerShip.configId
 	slot7.skinId = slot0.playerShip.skinId
 	slot7.lv = slot0.player.level

@@ -9,9 +9,9 @@ end
 
 function slot0.init(slot0)
 	slot0.tabs = {
-		slot0:findTF("left_bar/tabs/sign"),
-		slot0:findTF("left_bar/tabs/task"),
-		slot0:findTF("left_bar/tabs/pt")
+		slot0:findTF("left/left_bar/tabs/sign"),
+		slot0:findTF("left/left_bar/tabs/task"),
+		slot0:findTF("left/left_bar/tabs/pt")
 	}
 	slot0.tabPanels = {
 		slot0:findTF("panel_sign"),
@@ -19,8 +19,8 @@ function slot0.init(slot0)
 		slot0:findTF("panel_pt")
 	}
 	slot0.panelLetter = slot0:findTF("panel_letter")
-	slot0.btnLetter = slot0:findTF("left_bar/letter")
-	slot0.btnBack = slot0:findTF("left_bar/back")
+	slot0.btnLetter = slot0:findTF("left/left_bar/letter")
+	slot0.btnBack = slot0:findTF("left/left_bar/back")
 	slot0.txTime = slot0:findTF("time/text")
 
 	for slot4, slot5 in ipairs(slot0.tabs) do
@@ -164,11 +164,11 @@ function slot0.DisplayLetter(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = slot2:DescTime(slot0.offlineTime, "*t", true)
 
-	setText(slot0.panelLetter:Find("year"), slot3.year % 100)
-	setText(slot0.panelLetter:Find("month"), slot3.month)
-	setText(slot0.panelLetter:Find("date"), slot3.day)
-	setText(slot0.panelLetter:Find("days"), slot2:DiffDay(slot0.offlineTime, slot0.activateTime))
-	setText(slot0.panelLetter:Find("count"), slot0.activateShipCount)
+	setText(slot0.panelLetter:Find("billboard/year"), slot3.year % 100)
+	setText(slot0.panelLetter:Find("billboard/month"), slot3.month)
+	setText(slot0.panelLetter:Find("billboard/date"), slot3.day)
+	setText(slot0.panelLetter:Find("billboard/days"), slot2:DiffDay(slot0.offlineTime, slot0.activateTime))
+	setText(slot0.panelLetter:Find("billboard/count"), slot0.activateShipCount)
 	onButton(slot0, slot0.panelLetter:Find("billboard"), function ()
 		slot0:HideLetter()
 	end, SFX_PANEL)
@@ -338,7 +338,8 @@ function slot0.UpdatePt(slot0)
 			end
 		end
 
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = slot0
 		})
 	end, SFX_PANEL)

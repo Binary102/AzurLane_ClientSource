@@ -83,7 +83,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -104,7 +104,7 @@ return {
 					expression = 2,
 					actor = 201201,
 					pos = {
-						x = -800
+						x = -1200
 					}
 				}
 			},

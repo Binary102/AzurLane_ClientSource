@@ -36,9 +36,7 @@ return {
 			},
 			arg_list = {
 				count = 1,
-				hpRatioList = {
-					0.2
-				}
+				hpUpperBound = 0.2
 			}
 		}
 	}

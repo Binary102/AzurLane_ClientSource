@@ -68,7 +68,7 @@ function ys.Battle.BattleAidWave.DoWave(slot0)
 		end
 	end
 
-	slot0:doFinish()
+	slot0:doPass()
 end
 
 return

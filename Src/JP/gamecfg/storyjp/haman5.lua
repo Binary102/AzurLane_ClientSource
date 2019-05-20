@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ハムマン観察記録\n\n<size=30>その五 ハムマンとヨークタウン</size>",
+					"ハムマン観察記録\n\n<size=45>その五 ハムマンとヨークタウン</size>",
 					1
 				}
 			}
@@ -130,7 +130,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -276,7 +276,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

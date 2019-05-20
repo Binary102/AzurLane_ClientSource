@@ -33,6 +33,7 @@ function slot0.register(slot0)
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			skipSelect = true,
+			leftTopInfo = i18n("word_upgrade"),
 			flags = {
 				inSham = true,
 				inActivity = true

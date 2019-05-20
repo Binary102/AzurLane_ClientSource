@@ -19,7 +19,7 @@ return {
 					dir = 1,
 					actor = 304050,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -45,7 +45,7 @@ return {
 					dir = 1,
 					actor = 303090,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			},
@@ -91,7 +91,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -221,7 +221,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

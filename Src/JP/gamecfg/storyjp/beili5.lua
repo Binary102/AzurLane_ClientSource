@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ウサウサ星人の謎？\n\n<size=30>五 ウサウサ星人は「やさしい」！</size>",
+					"ウサウサ星人の謎？\n\n<size=45>五 ウサウサ星人は「やさしい」！</size>",
 					1
 				}
 			}

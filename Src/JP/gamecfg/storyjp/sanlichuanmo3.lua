@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"三笠大先輩のプラモ博物館\n\n<size=30>三　頑張る　後輩たち</size>",
+					"三笠大先輩のプラモ博物館\n\n<size=45>三　頑張る　後輩たち</size>",
 					1
 				}
 			}
@@ -160,7 +160,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2.2,
 					dur = 0.2,
@@ -334,7 +334,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

@@ -234,7 +234,6 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.BACKYARD_SHIP_HARVEST,
 		BackYardHouseProxy.PAPER_REPLACE,
 		BackYardHouseProxy.HOUSE_LEVEL_UP,
-		BackYardHouseProxy.BACKYARD_EXIT_SHIP,
 		BACKYARD.BOAT_ADDITION_DONE,
 		BackYardHouseProxy.SHIP_POS_CHANGE,
 		BACKYARD.GARNITURE_SAVE,
@@ -257,7 +256,9 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.ON_REMOVE_FURNTURE_MOVE,
 		BackYardHouseProxy.CLEAE_SPINE_INTERACTION,
 		BackYardHouseProxy.ON_SPINE_EXTRA_INTERACTION,
-		BackYardHouseProxy.ON_CLEAR_SPINE_EXTRA_INTERACTION
+		BackYardHouseProxy.ON_CLEAR_SPINE_EXTRA_INTERACTION,
+		BackYardHouseProxy.BACKYARD_ADD_SHIP,
+		BackYardHouseProxy.BACKYARD_EXIT_SHIP
 	}
 end
 
@@ -272,6 +273,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateFurnitureWithAnim(slot3.furniture, slot3.time, slot3.prevPos)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_EXIT_SHIP then
 		slot0.viewComponent:exitBoat(slot3)
+	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_SHIP then
+		slot0.viewComponent:loadBoatModal(slot3)
 	elseif slot2 == BackYardHouseProxy.HOUSE_UPDATE then
 		slot0.viewComponent:setHouse(slot3)
 		pg.m02:sendNotification(slot0.HOUSE_UPDATE, slot3)

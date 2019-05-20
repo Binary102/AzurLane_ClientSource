@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"軽空母龍驤ここにあり\n\n<size=30>七  勇気！やはり指揮官が大好き</size>",
+					"軽空母龍驤ここにあり\n\n<size=45>七  勇気！やはり指揮官が大好き</size>",
 					1
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
@@ -208,7 +208,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -311,7 +311,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.15,

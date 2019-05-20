@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特別演習・超空強襲波\n\n<size=30>一　エセックス、試練の海へ</size>",
+					"特別演習・超空強襲波\n\n<size=45>一　エセックス、試練の海へ</size>",
 					1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -388,7 +388,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.2,

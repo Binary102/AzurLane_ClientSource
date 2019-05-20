@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"桜華爛漫新学期\n\n<size=30>その四　図書室の妖精さん</size>",
+					"桜華爛漫新学期\n\n<size=45>その四　図書室の妖精さん</size>",
 					1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

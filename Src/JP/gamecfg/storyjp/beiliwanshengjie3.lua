@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"悪戯ハロウィン\n\n<size=30>三 お化けが怖い魔女</size>",
+					"悪戯ハロウィン\n\n<size=45>三 お化けが怖い魔女</size>",
 					1
 				}
 			}
@@ -251,7 +251,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -278,7 +278,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
@@ -305,7 +305,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -402,7 +402,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

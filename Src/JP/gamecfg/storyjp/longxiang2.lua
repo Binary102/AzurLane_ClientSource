@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"軽空母龍驤ここにあり\n\n<size=30>二 特訓！一所懸命は重桜の掟</size>",
+					"軽空母龍驤ここにあり\n\n<size=45>二 特訓！一所懸命は重桜の掟</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -88,7 +88,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -211,7 +211,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -365,20 +365,20 @@ return {
 			say = "えええええーーー！",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			subActors = {
 				{
 					actor = 307040,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 306050,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

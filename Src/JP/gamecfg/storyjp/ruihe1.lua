@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸運の鶴\n\n<size=30>その一  瑞鶴の朝</size>",
+					"幸運の鶴\n\n<size=45>その一  瑞鶴の朝</size>",
 					1
 				}
 			}
@@ -212,11 +212,11 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 1.2,
-					x = 20,
+					x = 30,
 					number = 1
 				},
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,

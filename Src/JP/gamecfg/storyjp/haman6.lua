@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ハムマン観察記録\n\n<size=30>その六 もしもし海軍部！？</size>",
+					"ハムマン観察記録\n\n<size=45>その六 もしもし海軍部！？</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 3,
 					type = "shake"
@@ -82,7 +82,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -112,7 +112,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					dur = 0.15,
 					number = 3,
 					type = "shake"
@@ -234,7 +234,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			},

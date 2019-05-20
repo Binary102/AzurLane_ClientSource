@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春風の十字星\n\n<size=30>その三  状況調査！</size>",
+					"春風の十字星\n\n<size=45>その三  状況調査！</size>",
 					1
 				}
 			}

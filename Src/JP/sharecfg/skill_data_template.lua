@@ -6049,10 +6049,21 @@ pg.skill_data_template = {
 	[6400] = {
 		desc_get = "",
 		name = "プラグイン",
-		desc = "キズナアイが装備している場合、自律戦闘モードの移動AIがランダムになる（演習では無効・キズナアイコラボイベント後この能力が失われる）",
+		desc = "<color=#a2a2a2>コラボイベント終了に付き、特殊効果が無効になりました</color> ",
 		type = 0,
 		max_level = 0,
 		id = 6400,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6410] = {
+		desc_get = "",
+		name = "果たされない約束 ",
+		desc = "U-556が装備している場合、自身の水面戦闘時間が4秒延長し、支援範囲+1；ビスマルクが装備している場合、主力艦隊の弾薬切れ状態によるダメージ減少効果を軽減する ",
+		type = 0,
+		max_level = 0,
+		id = 6410,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -16223,7 +16234,7 @@ pg.skill_data_template = {
 	},
 	[11420] = {
 		desc_get = "",
-		name = "BIG SEVEN-桜 ",
+		name = "BIG SEVEN-桜 ",
 		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる) ",
 		type = 1,
 		max_level = 10,
@@ -16281,7 +16292,7 @@ pg.skill_data_template = {
 	},
 	[11430] = {
 		desc_get = "",
-		name = "BIG SEVEN-桜 ",
+		name = "BIG SEVEN-桜 ",
 		desc = "主砲発射時$1で特殊弾幕を発動する(威力はスキルレベルによる) ",
 		type = 1,
 		max_level = 10,
@@ -22109,7 +22120,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "戦闘開始直後、敵弾を8回まで無効できる、持続時間<color=#A9F548FF>5</color>秒（最大<color=#A9F548FF>15</color>秒）の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する ",
+		desc_get = "戦闘開始直後、敵弾を8回まで無効できる、持続時間<color=#92fc63FF>5</color>秒（最大<color=#92fc63FF>15</color>秒）の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する ",
 		name = "全方位装甲 +",
 		desc = "戦闘開始直後、敵弾を8回まで無効できる、持続時間$1秒の回転シールドを4枚生成する。このスキルは30秒毎に一回発動する ",
 		type = 2,
@@ -22162,7 +22173,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "速力が<color=#A9F548FF>3</color>（最大<color=#A9F548FF>8</color>）上昇する。戦闘開始時、50秒間、回避が<color=#A9F548FF>15%</color>（最大<color=#A9F548FF>35%</color>）アップ",
+		desc_get = "速力が<color=#92fc63FF>3</color>（最大<color=#92fc63FF>8</color>）上昇する。戦闘開始時、50秒間、回避が<color=#92fc63FF>15%</color>（最大<color=#92fc63FF>35%</color>）アップ",
 		name = "エンジンブースト +",
 		desc = "速力が$1上昇する。戦闘開始時、50秒間、回避が$2アップ",
 		type = 2,
@@ -29747,6 +29758,7 @@ pg.skill_data_template = {
 		6380,
 		6390,
 		6400,
+		6410,
 		7000,
 		9030,
 		9031,

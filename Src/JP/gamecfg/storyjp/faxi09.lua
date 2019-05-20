@@ -196,12 +196,12 @@ return {
 			dir = 1,
 			bgm = "story-masazhusai",
 			actorName = "マサチューセッツ&ジャン·バール",
-			say = "<size=40>大洋の向こうの「最強戦艦」！いざ尋常に勝負！！</size>",
+			say = "<size=60>大洋の向こうの「最強戦艦」！いざ尋常に勝負！！</size>",
 			subActors = {
 				{
 					actor = 905010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

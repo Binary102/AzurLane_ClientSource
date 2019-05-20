@@ -19,51 +19,45 @@ function pg.PoolMgr.Ctor(slot0)
 	slot0.preloads = {
 		shiptype = {
 			"battle_hangmu",
-			"battle_jinbi",
-			"battle_qianting",
 			"battle_qingxun",
 			"battle_quzhu",
 			"battle_weixiu",
 			"battle_zhanlie",
 			"battle_zhongxun",
-			"battle_zibao",
-			"chaoxun",
 			"hangmu",
-			"hangmu2",
 			"hangxun",
 			"hangzhan",
 			"leixun",
-			"qianmu",
-			"qianting",
 			"qingxun",
 			"quzhu",
 			"weixiu",
 			"xunyang",
 			"zhanlie",
-			"zhanlie2",
-			"zhongpao",
-			"zhongxun",
-			"zhongxun2"
+			"zhongxun"
 		},
 		shipframe = {
 			"1",
 			"2",
 			"3",
+			"04",
 			"4",
+			"05",
 			"5",
-			"14",
-			"15",
 			"b1",
 			"b2",
 			"b3",
+			"b04",
 			"b4",
+			"b05",
 			"b5",
-			"b14",
-			"b15",
 			"ba",
 			"bl",
 			"prop",
-			"bprop"
+			"prop04",
+			"prop05",
+			"bprop",
+			"bprop04",
+			"bprop05"
 		},
 		["shipyardicon/unknown"] = {
 			""
@@ -77,23 +71,19 @@ function pg.PoolMgr.Ctor(slot0)
 			"bg1",
 			"bg2",
 			"bg3",
+			"bg04",
 			"bg4",
+			"bg05",
 			"bg5",
 			"bg8",
 			"bg9",
-			"bg14",
-			"bg15",
-			"frame1",
-			"frame2",
-			"frame3",
-			"frame4",
-			"frame5",
+			"frame",
+			"frame04",
+			"frame05",
 			"frame6",
 			"frame7",
 			"frame8",
 			"frame9",
-			"frame14",
-			"frame15",
 			"frame_npc",
 			"frame_prop"
 		},
@@ -107,6 +97,8 @@ function pg.PoolMgr.Ctor(slot0)
 		channel = {},
 		["painting/mat"] = {}
 	}
+	slot0.ui_tempCache = {}
+	slot0.tempCacheLink = {}
 end
 
 function pg.PoolMgr.Init(slot0, slot1)
@@ -248,7 +240,9 @@ slot7 = {
 	"AwardInfoUI",
 	"SkillInfoUI",
 	"ItemInfoUI",
-	"LevelUI2"
+	"LevelUI3",
+	"ShipDetailView",
+	"LevelFleetSelectView"
 }
 slot8 = {}
 
@@ -279,7 +273,7 @@ function pg.PoolMgr.ReturnUI(slot0, slot1, slot2)
 			slot2.transform:SetParent(slot0.root, false)
 		end
 
-		if table.indexof(slot1, slot1) then
+		if table.indexof(slot1, slot1) or table.indexof(slot0.ui_tempCache, slot1) then
 			slot2:SetActive(false)
 			slot0.pools_plural[slot4]:Enqueue(slot2)
 		elseif table.indexof(slot2, slot1) then
@@ -301,6 +295,10 @@ function pg.PoolMgr.ReturnUI(slot0, slot1, slot2)
 	end
 end
 
+function pg.PoolMgr.HasCacheUI(slot0, slot1)
+	return slot0.pools_plural[slot2 .. slot1] ~= nil
+end
+
 function pg.PoolMgr.PreloadUI(slot0, slot1, slot2)
 	slot0:GetUI(slot1, true, function (slot0)
 		slot0:ReturnUI(slot0.ReturnUI, slot0)
@@ -309,6 +307,31 @@ function pg.PoolMgr.PreloadUI(slot0, slot1, slot2)
 			slot2()
 		end
 	end)
+end
+
+function pg.PoolMgr.AddTempCache(slot0, slot1, slot2)
+	if slot0.tempCacheLink[slot1] == nil then
+		slot0.tempCacheLink[slot1] = {}
+	end
+
+	table.insert(slot0.tempCacheLink[slot1], slot2)
+	_.each(slot0.tempCacheLink[slot1], function (slot0)
+		if not table.contains(slot0.ui_tempCache, slot0) then
+			table.insert(slot0.ui_tempCache, slot0)
+		end
+	end)
+end
+
+function pg.PoolMgr.DelTempCache(slot0, slot1)
+	if slot0.tempCacheLink[slot1] ~= nil then
+		_.each(slot0.tempCacheLink[slot1], function (slot0)
+			if table.contains(slot0.ui_tempCache, slot0) then
+				table.removebyvalue(slot0.ui_tempCache, slot0, true)
+			end
+		end)
+
+		slot0.tempCacheLink[slot1] = nil
+	end
 end
 
 function pg.PoolMgr.GetPainting(slot0, slot1, slot2, slot3)
@@ -402,7 +425,7 @@ end
 
 function pg.PoolMgr.SpriteMemUsage(slot0)
 	slot1 = 0
-	slot2 = 0.0009765625
+	slot2 = 9.5367431640625e-07
 	slot3 = typeof(Sprite)
 
 	for slot7, slot8 in pairs(slot0.pools_pack) do
@@ -410,22 +433,21 @@ function pg.PoolMgr.SpriteMemUsage(slot0)
 			slot9 = {}
 
 			for slot13, slot14 in pairs(slot8.items) do
-				if not table.contains(slot9, slot14.texture.name) then
-					slot16 = 4
+				if not slot9[slot14.texture.name] then
+					slot17 = 4
 
 					if slot15.format == TextureFormat.RGB24 then
-						slot16 = 3
-					elseif slot15.format == TextureFormat.ARGB4444 or slot15.format == TextureFormat.RGBA4444 then
-						slot16 = 2
-					elseif slot15.format == TextureFormat.DXT5 or slot15.format == TextureFormat.ETC2_RGBA8 then
-						slot16 = 1
-					elseif slot15.format == TextureFormat.PVRTC_RGB4 or slot15.format == TextureFormat.PVRTC_RGBA4 or slot15.format == TextureFormat.ETC_RGB4 or slot15.format == TextureFormat.ETC2_RGB or slot15.format == TextureFormat.DXT1 then
-						slot16 = 0.5
+						slot17 = 3
+					elseif slot18 == TextureFormat.ARGB4444 or slot18 == TextureFormat.RGBA4444 then
+						slot17 = 2
+					elseif slot18 == TextureFormat.DXT5 or slot18 == TextureFormat.ETC2_RGBA8 then
+						slot17 = 1
+					elseif slot18 == TextureFormat.PVRTC_RGB4 or slot18 == TextureFormat.PVRTC_RGBA4 or slot18 == TextureFormat.ETC_RGB4 or slot18 == TextureFormat.ETC2_RGB or slot18 == TextureFormat.DXT1 then
+						slot17 = 0.5
 					end
 
-					slot1 = slot1 + slot15.width * slot15.height * slot16 * slot2 * slot2
-
-					table.insert(slot9, slot15.name)
+					slot1 = slot1 + slot15.width * slot15.height * slot17 * slot2
+					slot9[slot16] = true
 				end
 			end
 		end
@@ -437,7 +459,8 @@ end
 slot9 = 64
 slot10 = {
 	"chapter/",
-	"emoji/"
+	"emoji/",
+	"world/"
 }
 
 function pg.PoolMgr.GetPrefab(slot0, slot1, slot2, slot3, slot4)
@@ -499,15 +522,21 @@ function pg.PoolMgr.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 
 	if not slot0.pools_plural[slot1 .. slot2] then
 		slot0:LoadAsset(slot1, slot2, slot3, typeof(Object), function (slot0)
-			if not slot0.pools_plural[] then
-				if slot2 then
-					slot0 = slot2(slot0)
-				end
+			if slot0 == nil then
+				Debugger.LogError("can not find asset: " .. slot0 .. " : " .. Debugger.LogError)
 
-				slot0.pools_plural[] = slot3.New(slot0, )
+				return
 			end
 
-			slot5()
+			if not slot2.pools_plural[slot3] then
+				if slot4 then
+					slot0 = slot4(slot0)
+				end
+
+				slot2.pools_plural[slot3] = slot5.New(slot0, slot6)
+			end
+
+			slot7()
 		end, slot7)
 	else
 		slot9()

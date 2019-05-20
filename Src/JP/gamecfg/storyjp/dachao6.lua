@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大潮よりお届け♪\n\n<size=30>六　ミミっ子たちのお茶会</size>",
+					"大潮よりお届け♪\n\n<size=45>六　ミミっ子たちのお茶会</size>",
 					1
 				}
 			}
@@ -278,7 +278,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

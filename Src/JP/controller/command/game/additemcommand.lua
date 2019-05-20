@@ -82,6 +82,7 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_SHIP then
+	elseif slot2.dropType == DROP_TYPE_SIREN_EQUIP then
 	elseif slot2.dropType == DROP_TYPE_FURNITURE then
 		slot3 = getProxy(DormProxy)
 
@@ -94,7 +95,9 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		slot3:addFurniture(slot4)
 	elseif slot2.dropType == DROP_TYPE_SKIN then
-		getProxy(BayProxy):addSkin(slot2.id)
+		getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
+			id = slot2.id
+		}))
 	elseif slot2.dropType == DROP_TYPE_EQUIPMENT_SKIN then
 		getProxy(EquipmentProxy):addEquipmentSkin(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_NPC_SHIP then
@@ -103,6 +106,36 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot3:updateShip(slot4)
 			getProxy(CollectionProxy):flushCollection(slot4)
 		end
+	elseif slot2.dropType == DROP_TYPE_WORLD_ITEM then
+		slot4 = getProxy(WorldProxy).GetWorld(slot3)
+
+		slot4:getInventoryProxy().AddItem(slot5, slot2.id, slot2.count)
+		slot4:AddLog(WorldLog.TypeDrop, {
+			item = slot2.id,
+			itemnum = slot2.count
+		})
+	elseif slot2.dropType == DROP_TYPE_ICON_FRAME then
+		slot5 = IconFrame.New({
+			id = slot2.id
+		})
+
+		slot5:updateData({
+			isNew = true,
+			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
+		})
+		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
+		pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
+	elseif slot2.dropType == DROP_TYPE_CHAT_FRAME then
+		slot5 = ChatFrame.New({
+			id = slot2.id
+		})
+
+		slot5:updateData({
+			isNew = true,
+			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
+		})
+		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
+		pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

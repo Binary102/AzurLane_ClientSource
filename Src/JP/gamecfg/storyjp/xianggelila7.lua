@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"紀行のサフラン\n\n<size=30>七　戦いの後</size>",
+					"紀行のサフラン\n\n<size=45>七　戦いの後</size>",
 					1
 				}
 			}
@@ -177,7 +177,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -286,7 +286,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -378,7 +378,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

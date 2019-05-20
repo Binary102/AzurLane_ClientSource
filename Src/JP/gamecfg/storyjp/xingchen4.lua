@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"星の歌姫と小さな勇気\n\n<size=30>その四  星の歌姫さまへ</size>",
+					"星の歌姫と小さな勇気\n\n<size=45>その四  星の歌姫さまへ</size>",
 					1
 				}
 			}

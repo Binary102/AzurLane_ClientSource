@@ -138,7 +138,8 @@ function slot0.getPanelActivities(slot0)
 		ActivityConst.ACTIVITY_TYPE_MONOPOLY,
 		ActivityConst.ACTIVITY_TYPE_BUILD,
 		ActivityConst.ACTIVITY_TYPE_DODGEM,
-		ActivityConst.ACTIVITY_TYPE_PT_ACCUM
+		ActivityConst.ACTIVITY_TYPE_PT_ACCUM,
+		ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
 	}
 
 	return _(_.values(slot0.data)):chain():filter(function (slot0)

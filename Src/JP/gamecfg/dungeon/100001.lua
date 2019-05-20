@@ -56,32 +56,11 @@ return {
 					}
 				},
 				{
-					triggerType = 6,
-					waveIndex = 888,
-					preWaves = {
-						200
-					},
-					triggerParams = {
-						id = 5,
-						timeout = 4
-					}
-				},
-				{
 					triggerType = 1,
 					waveIndex = 887,
 					preWaves = {},
 					triggerParams = {
 						timeout = 3
-					}
-				},
-				{
-					triggerType = 6,
-					waveIndex = 886,
-					preWaves = {
-						887
-					},
-					triggerParams = {
-						id = 1
 					}
 				},
 				{

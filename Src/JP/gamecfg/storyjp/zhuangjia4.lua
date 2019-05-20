@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=30>第四話  反抗</size>",
+					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第四話  反抗</size>",
 					1
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -243,7 +243,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
@@ -653,7 +653,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 1,
 					dur = 0.1,

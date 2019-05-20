@@ -1,6 +1,9 @@
 return {
 	map_id = 10009,
 	id = 101110,
+	skill_hide = {
+		3
+	},
 	stages = {
 		{
 			stageIndex = 1,
@@ -49,17 +52,6 @@ return {
 					preWaves = {},
 					triggerParams = {
 						timeout = 5
-					}
-				},
-				{
-					triggerType = 6,
-					waveIndex = 883,
-					preWaves = {
-						201
-					},
-					triggerParams = {
-						event = "ReleaseAfter2",
-						id = 1
 					}
 				},
 				{

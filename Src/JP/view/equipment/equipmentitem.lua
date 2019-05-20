@@ -3,40 +3,28 @@ slot1 = 0.5
 
 function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
-	slot0.bg = findTF(slot1, "bg")
-	slot0.mask = findTF(slot1, "bg/mask")
-
-	if not IsNil(slot0.mask) then
-		setActive(slot0.mask, false)
-	end
-
-	slot0.newTF = findTF(slot1, "bg/icon_bg/new")
-	slot0.countTF = findTF(slot1, "bg/icon_bg/count"):GetComponent(typeof(Text))
-	slot0.nameTF = findTF(slot1, "bg/name"):GetComponent(typeof(Text))
-	slot0.bgTF = findTF(slot1, "bg/icon_bg"):GetComponent(typeof(Image))
-	slot0.frameTF = findTF(slot1, "bg/icon_bg/frame"):GetComponent(typeof(Image))
-	slot0.iconTF = findTF(slot1, "bg/icon_bg/icon"):GetComponent(typeof(Image))
-	slot0.starsTF = findTF(slot1, "bg/icon_bg/stars")
-	slot0.starTpl = findTF(slot1, "bg/icon_bg/startpl")
-	slot0.slvTF = findTF(slot1, "bg/icon_bg/slv")
-	slot0.slvTextTF = findTF(slot0.slvTF, "Text"):GetComponent(typeof(Text))
-	slot0.unloadBtn = findTF(slot1, "unload")
-	slot0.reduceBtn = findTF(slot1, "selected/reduce")
-	slot0.selectCount = findTF(slot1, "selected/count/Text")
+	slot0.bg = findTF(slot1, "frame/bg")
+	slot0.mask = findTF(slot1, "frame/bg/mask")
+	slot0.nameTF = findTF(slot1, "frame/bg/name"):GetComponent(typeof(Text))
+	slot0.newTF = findTF(slot1, "frame/bg/icon_bg/new")
+	slot0.unloadBtn = findTF(slot1, "frame/unload")
+	slot0.reduceBtn = findTF(slot1, "frame/bg/selected/reduce")
+	slot0.selectCount = findTF(slot1, "frame/bg/selected/reduce/Text")
 	slot0.tr = slot1.transform
-	slot0.selectedGo = findTF(slot0.tr, "selected").gameObject
+	slot0.selectedGo = findTF(slot0.tr, "frame/bg/selected").gameObject
 
 	slot0.selectedGo:SetActive(false)
 
-	slot0.equiped = findTF(slot0.tr, "equip_flag")
+	slot0.equiped = findTF(slot0.tr, "frame/bg/equip_flag")
 
 	setActive(slot0.equiped, false)
 end
 
-function slot0.update(slot0, slot1)
+function slot0.update(slot0, slot1, slot2)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
 	setActive(slot0.bg, slot1)
+	TweenItemAlphaAndWhite(slot0.go)
 
 	if not slot1 then
 		return
@@ -47,65 +35,39 @@ function slot0.update(slot0, slot1)
 	if slot1.isSkin then
 		slot0:updateSkin()
 	else
-		slot0:updateEquipment()
+		updateEquipment(slot0.bg, slot1)
 
 		if not IsNil(slot0.mask) then
 			setActive(slot0.mask, slot1.mask)
+		end
+
+		setActive(slot0.newTF, slot1.new ~= 0 or slot1.isSkin)
+		setActive(slot0.nameTF, not slot2)
+
+		slot0.nameTF.text = shortenString(HXSet.hxLan(slot0.equipmentVO.config.name), 5)
+
+		setActive(slot0.equiped, slot1.shipId)
+
+		if slot1.shipId then
+			setImageSprite(findTF(slot0.equiped, "Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot1.shipId):getPainting()))
 		end
 	end
 end
 
 function slot0.updateSkin(slot0)
-	slot0.bgTF.sprite = nil
-	slot0.frameTF.sprite = nil
-	slot0.iconTF.sprite = nil
-
 	setActive(slot0.equiped, slot0.equipmentVO.shipId)
+
+	if slot0.equipmentVO.shipId then
+		setImageSprite(findTF(slot0.equiped, "Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot1.shipId):getPainting()))
+	end
+
 	updateDrop(slot0.bg, {
-		id = slot0.equipmentVO.id,
+		id = slot1.id,
 		type = DROP_TYPE_EQUIPMENT_SKIN,
-		count = slot0.equipmentVO.count
+		count = slot1.count
 	})
-end
 
-function slot0.updateEquipment(slot0)
-	slot0.bgTF.sprite = GetSpriteFromAtlas("weaponframes", "bg" .. slot2)
-	slot0.frameTF.sprite = GetSpriteFromAtlas("weaponframes", "frame" .. slot2)
-	slot0.iconTF.sprite = GetSpriteFromAtlas("equips/" .. slot0.equipmentVO.config.icon, "")
-
-	for slot7 = slot0.starsTF.childCount, slot0.equipmentVO.config.rarity - 1, 1 do
-		cloneTplTo(slot0.starTpl, slot0.starsTF)
-	end
-
-	for slot7 = 1, slot0.starsTF.childCount, 1 do
-		setActive(slot0.starsTF:GetChild(slot7 - 1), slot7 <= slot3)
-	end
-
-	setActive(slot0.slvTF, slot1.config.level - 1 > 0)
-
-	slot0.slvTextTF.text = slot4
-	slot0.countTF.text = (slot1.count > 0 and slot1.count) or ""
-
-	setActive(slot0.newTF, slot1.new ~= 0 or slot1.isSkin)
-
-	slot0.nameTF.text = shortenString(slot1.config.name, 5)
-
-	setActive(slot0.equiped, slot1.shipId)
-
-	slot6 = findTF(slot0.go, "bg/icon_bg/IconColorful(Clone)")
-
-	if slot1.config.rarity == 6 then
-		if not slot6 then
-			PoolMgr.GetInstance():GetUI("IconColorful", true, function (slot0)
-				setParent(slot0, findTF(slot0.go, "bg/icon_bg"))
-				setActive(slot0, true)
-			end)
-		else
-			setActive(slot6, true)
-		end
-	elseif slot6 then
-		setActive(slot6, false)
-	end
+	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
 end
 
 function slot0.dispose(slot0)

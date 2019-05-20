@@ -12,7 +12,7 @@ return {
 			sequenceSpd = 2,
 			sequence = {
 				{
-					"<size=30>新たに大講堂が開放されたことを記念し、</size>",
+					"<size=45>新たに大講堂が開放されたことを記念し、</size>",
 					2
 				},
 				{
@@ -20,7 +20,7 @@ return {
 					4
 				},
 				{
-					"<size=30>みんなで一日、学園の役割慣熟訓練に――</size>",
+					"<size=45>みんなで一日、学園の役割慣熟訓練に――</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"桜華爛漫新学期\n\n<size=30>その一　遅刻5分前</size>",
+					"桜華爛漫新学期\n\n<size=45>その一　遅刻5分前</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -77,7 +77,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -94,7 +94,7 @@ return {
 					}
 				},
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 3,
 					dur = 0.1,
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -269,7 +269,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -300,7 +300,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -460,7 +460,7 @@ return {
 				{
 					actor = 301011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

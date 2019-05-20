@@ -23,4 +23,12 @@ function ys.Battle.DiveOxyState.IsVisible(slot0)
 	return false
 end
 
+function ys.Battle.DiveOxyState.GetBarVisible(slot0)
+	return true
+end
+
+function ys.Battle.DiveOxyState.RunMode(slot0)
+	return false
+end
+
 return

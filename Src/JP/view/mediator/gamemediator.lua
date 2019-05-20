@@ -33,7 +33,16 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.viewComponent = BackYardScene
 		elseif slot3 == SCENE.LEVEL then
 			slot4.mediator = LevelMediator2
-			slot4.viewComponent = LevelScene2
+			slot4.viewComponent = LevelScene
+		elseif slot3 == SCENE.WORLD then
+			slot4.mediator = WorldMediator
+			slot4.viewComponent = WorldScene
+		elseif slot3 == SCENE.WORLD_PORT then
+			slot4.mediator = WorldPortMediator
+			slot4.viewComponent = WorldPortScene
+		elseif slot3 == SCENE.WORLD_FORMATION then
+			slot4.mediator = WorldFormationMediator
+			slot4.viewComponent = WorldFormationUI
 		elseif slot3 == SCENE.BIANDUI then
 			slot4.mediator = FormationMediator
 			slot4.viewComponent = FormationUI
@@ -41,11 +50,11 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.mediator = EquipDevMediator
 			slot4.viewComponent = EquipDevUI
 		elseif slot3 == SCENE.SHIPINFO then
-			slot4.mediator = ShipInfoMediator
-			slot4.viewComponent = ShipInfoScene
+			slot4.mediator = ShipMainMediator
+			slot4.viewComponent = ShipMainScene
 		elseif slot3 == SCENE.EQUIPSCENE then
 			slot4.mediator = EquipmentMediator
-			slot4.viewComponent = EquipmentScene
+			slot4.viewComponent = StoreHouseScene
 		elseif slot3 == SCENE.MAINUI then
 			slot4.mediator = MainUIMediator
 			slot4.viewComponent = MainUI
@@ -103,7 +112,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.viewComponent = ChargeScene
 		elseif slot3 == SCENE.ACTIVITY then
 			slot4.mediator = ActivityMediator
-			slot4.viewComponent = ActivityLayer
+			slot4.viewComponent = ActivityMainScene
 		elseif slot3 == SCENE.GUILD then
 			slot4.mediator = GuildMainMediator
 			slot4.viewComponent = GuildMainScene
@@ -112,7 +121,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.viewComponent = NewGuildScene
 		elseif slot3 == SCENE.BILLBOARD then
 			slot4.mediator = BillboardMediator
-			slot4.viewComponent = BillboardLayer
+			slot4.viewComponent = BillboardScene
 		elseif slot3 == SCENE.SHOP then
 			slot4.mediator = ShopsMediator
 			slot4.viewComponent = ShopsLayer
@@ -167,12 +176,24 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.ACT_BOSS_BATTLE then
 			slot4.mediator = ActivityBossBattleMediator2
 			slot4.viewComponent = ActivityBossBattleScene2
+		elseif slot3 == SCENE.BULLETINBOARD then
+			slot4.mediator = BulletinBoardMediator
+			slot4.viewComponent = BulletinBoardLayer
+		elseif slot3 == SCENE.SKINSHOP then
+			slot4.mediator = SkinShopMediator
+			slot4.viewComponent = SkinShopScene
+		elseif slot3 == SCENE.WORLDBOSS then
+			slot4.mediator = WorldBossMediator
+			slot4.viewComponent = WorldBossScene
 		elseif slot3 == SCENE.ITEM_ORIGIN_PAGE then
 			slot4.mediator = getSpecialItemPage(slot4.data.open_ui).mediator
 			slot4.viewComponent = getSpecialItemPage(slot4.data.open_ui).viewComponent
 		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
 			slot4.mediator = TechnologyTreeMediator
 			slot4.viewComponent = TechnologyTreeScene
+		elseif slot3 == SCENE.ATTIRE then
+			slot4.mediator = AttireMediator
+			slot4.viewComponent = AttireScene
 		end
 
 		print("load scene: " .. slot3)

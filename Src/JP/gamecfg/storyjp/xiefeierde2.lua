@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"銃弾と、愛を込めて\n\n<size=30>二 思わぬ新兵器</size>",
+					"銃弾と、愛を込めて\n\n<size=45>二 思わぬ新兵器</size>",
 					1
 				}
 			}
@@ -183,7 +183,7 @@ return {
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -246,7 +246,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,

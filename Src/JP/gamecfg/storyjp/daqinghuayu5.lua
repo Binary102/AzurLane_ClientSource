@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"サブマリン・トラップ！\n\n<size=30>五　二人の海辺・上</size>",
+					"サブマリン・トラップ！\n\n<size=45>五　二人の海辺・上</size>",
 					1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
@@ -271,7 +271,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -338,11 +338,11 @@ return {
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
-				y = -500
+				y = -750
 			},
 			action = {
 				{
-					y = 500,
+					y = 750,
 					type = "move",
 					delay = 0,
 					dur = 0.3,
@@ -375,7 +375,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -422,7 +422,7 @@ return {
 					type = "move",
 					delay = 0.6,
 					dur = 0.5,
-					x = -1500
+					x = -2250
 				}
 			}
 		},

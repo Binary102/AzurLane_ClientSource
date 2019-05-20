@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その二  花見の誘い</size>",
+					"お花見大会\n\n<size=45>その二  花見の誘い</size>",
 					1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 				{
 					actor = 307050,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

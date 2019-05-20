@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その五　雪風と遊園地（上）</size>",
+					"佐世保生まれの幸運艦\n\n<size=45>その五　雪風と遊園地（上）</size>",
 					1
 				}
 			}
@@ -259,7 +259,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -306,7 +306,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -363,7 +363,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}
@@ -390,7 +390,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 1,
-					x = 25,
+					x = 37.5,
 					number = 2
 				}
 			}

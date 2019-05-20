@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"白衣の天使or悪魔？\n\n<size=30>一　補給物資のサプライズ！？</size>",
+					"白衣の天使or悪魔？\n\n<size=45>一　補給物資のサプライズ！？</size>",
 					1
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -236,7 +236,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.05,
@@ -330,7 +330,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -388,7 +388,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

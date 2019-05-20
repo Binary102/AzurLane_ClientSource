@@ -801,7 +801,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 104,
 		comfortable = 2,
-		describe = "<color=#fad545>「ユニオン第23駆逐艦中隊・ビーバーズ、31ノットで前進よ！」</color>",
+		describe = "<color=#ffde38>「ユニオン第23駆逐艦中隊・ビーバーズ、31ノットで前進よ！」</color>",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 0,

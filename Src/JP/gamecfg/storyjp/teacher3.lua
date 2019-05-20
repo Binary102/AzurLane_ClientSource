@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z組 ニーミ先生\n\n<size=30>その三 ここは誰ぇ？</size>",
+					"36年Z組 ニーミ先生\n\n<size=45>その三 ここは誰ぇ？</size>",
 					1
 				}
 			}

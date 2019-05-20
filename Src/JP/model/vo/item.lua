@@ -13,6 +13,17 @@ function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
 end
 
+function slot0.GetIcon(slot0, slot1)
+	if slot0 == DROP_TYPE_RESOURCE then
+		return itemId2icon(id2ItemId(slot1))
+	elseif slot0 == DROP_TYPE_ITEM then
+		return itemId2icon(slot1)
+	elseif slot0 == DROP_TYPE_WORLD_RESOURCE then
+	elseif slot0 == DROP_TYPE_WORLD_ITEM then
+		return pg.world_item_data_template[slot1].icon
+	end
+end
+
 function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
@@ -23,6 +34,10 @@ function slot0.Ctor(slot0, slot1)
 	slot2 = pg.item_data_template[slot0.configId]
 	slot0.itemConfigData = setmetatable({}, {
 		__index = function (slot0, slot1)
+			if not slot0 then
+				return nil
+			end
+
 			return slot0[slot1]
 		end
 	})

@@ -23,7 +23,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -101,7 +101,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

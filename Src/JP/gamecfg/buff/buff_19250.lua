@@ -30,10 +30,8 @@ return {
 				buff_id = 19252,
 				quota = 2,
 				time = 10,
-				target = "TargetSelf",
-				hpRatioList = {
-					0.5
-				}
+				hpUpperBound = 0.5,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -45,10 +43,8 @@ return {
 				quota = 2,
 				target = "TargetSelf",
 				time = 10,
-				skill_id = 19250,
-				hpRatioList = {
-					0.5
-				}
+				hpUpperBound = 0.5,
+				skill_id = 19250
 			}
 		}
 	}

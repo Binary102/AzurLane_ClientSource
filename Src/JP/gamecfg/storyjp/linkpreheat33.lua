@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅\n\n<size=30>わたしはだぁれ？</size>",
+					"夢幻の邂逅\n\n<size=45>わたしはだぁれ？</size>",
 					1
 				}
 			}
@@ -285,13 +285,13 @@ return {
 				{
 					actor = 10300040,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 10300050,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},
@@ -311,7 +311,7 @@ return {
 			say = "ちょっと待って！？今、３人目がいなかった！？声はまったく同じだけど！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -385,13 +385,13 @@ return {
 				{
 					actor = 10300040,
 					pos = {
-						x = -370
+						x = -555
 					}
 				},
 				{
 					actor = 10300050,
 					pos = {
-						x = 370
+						x = 555
 					}
 				}
 			},

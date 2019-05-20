@@ -52,7 +52,7 @@ pg.expedition_data_by_map = {
 		enter_story = "UI20101",
 		level_limit = 5,
 		uifx = "",
-		guide_id = "900",
+		guide_id = "SYG006",
 		ani_name = "",
 		cloud_suffix = "white",
 		bg = "map_2",
@@ -2620,7 +2620,7 @@ pg.expedition_data_by_map = {
 		name = "月夜の開幕曲|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
-		on_activity = 10186,
+		on_activity = 10099,
 		title = "SP",
 		drop_by_map_display = "",
 		enter_story = "",
@@ -2632,7 +2632,7 @@ pg.expedition_data_by_map = {
 		bg = "Map_1130000",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 1130100,
+		bind_map = 1130000,
 		clouds_pos = {
 			{
 				332,

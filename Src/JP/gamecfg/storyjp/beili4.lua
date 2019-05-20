@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ウサウサ星人の謎？\n\n<size=30>四 ウサウサ星人は「アイドル」！</size>",
+					"ウサウサ星人の謎？\n\n<size=45>四 ウサウサ星人は「アイドル」！</size>",
 					1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -230,7 +230,7 @@ return {
 			say = "やっぱりベンソンの影響か。",
 			dialogShake = {
 				speed = 0.15,
-				x = 15,
+				x = 22.5,
 				number = 2
 			},
 			typewriter = {

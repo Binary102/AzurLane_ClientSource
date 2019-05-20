@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "<size=35>……加賀型戦艦・加賀だ！</size>",
+			say = "<size=52.5>……加賀型戦艦・加賀だ！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 304050,
-			say = "<size=35>……天城型巡洋戦艦・天城</size>",
+			say = "<size=52.5>……天城型巡洋戦艦・天城</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,13 +213,13 @@ return {
 			bgm = "theme",
 			hideOther = true,
 			actorName = "{namecode:92}&{namecode:161}",
-			say = "<size=40>いざ、参ります！</size>",
+			say = "<size=60>いざ、参ります！</size>",
 			subActors = {
 				{
 					dir = -1,
 					actor = 304050,
 					pos = {
-						x = -687
+						x = -1030.5
 					}
 				}
 			}

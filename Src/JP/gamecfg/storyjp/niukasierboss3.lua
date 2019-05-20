@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"戦え！ロイヤルメイド隊\n\n<size=30>三　輝くシェフィールド</size>",
+					"戦え！ロイヤルメイド隊\n\n<size=45>三　輝くシェフィールド</size>",
 					1
 				}
 			}
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.2,

@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -220,7 +220,7 @@ return {
 			say = "（ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 6
 			},
 			typewriter = {
@@ -250,7 +250,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -303,12 +303,12 @@ return {
 				}
 			},
 			actorPosition = {
-				x = 100,
-				y = 500
+				x = 150,
+				y = 750
 			},
 			action = {
 				{
-					y = -1100,
+					y = -1650,
 					type = "move",
 					delay = 1.5,
 					dur = 2.5,
@@ -379,8 +379,8 @@ return {
 			actorName = "巨大化キズナアイ",
 			say = "………",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			actorName = "巨大化キズナアイ",
 			say = "はぁ……だりぃ、マジでだりぃ～、私なんでこんなところで戦ってるんだろ……、そもそも私いつもどおり収録してただけなのに、こんなことになるなんておかしくない？",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			actorName = "巨大化キズナアイ",
 			say = "なんか急に体も大きくなっちゃってるしさぁ……ていうかこのまま、この世界を破壊しちゃえば元の世界にも戻れるんじゃない？",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			actor = 10400010,
 			nameColor = "#ff5c5c",
 			actorPosition = {
-				x = 100,
-				y = -600
+				x = 150,
+				y = -900
 			},
 			typewriter = {
 				speed = 0.05,
@@ -603,7 +603,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

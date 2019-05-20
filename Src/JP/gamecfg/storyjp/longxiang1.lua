@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"軽空母龍驤ここにあり\n\n<size=30>一 登場！日の出ずる国の軽空母</size>",
+					"軽空母龍驤ここにあり\n\n<size=45>一 登場！日の出ずる国の軽空母</size>",
 					1
 				}
 			}
@@ -141,7 +141,7 @@ return {
 			say = "……危ない！",
 			dialogShake = {
 				speed = 0.1,
-				x = 9.5,
+				x = 14.25,
 				number = 2
 			},
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

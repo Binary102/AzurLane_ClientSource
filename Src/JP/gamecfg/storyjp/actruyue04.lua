@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夏の鍋大会！？\n\n<size=30>四  ナベにも衣装！？</size>",
+					"夏の鍋大会！？\n\n<size=45>四  ナベにも衣装！？</size>",
 					1
 				}
 			}

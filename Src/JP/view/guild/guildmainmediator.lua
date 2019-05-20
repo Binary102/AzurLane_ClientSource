@@ -123,12 +123,13 @@ function slot0.register(slot0)
 	slot0:bind(slot0.CLOSE_SHOP, function (slot0)
 		slot0:closePage(ShopsMediator)
 	end)
-	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EmojiLayer,
 			mediator = EmojiMediator,
 			data = {
-				callback = slot1
+				pos = slot1,
+				callback = slot2
 			}
 		}))
 	end)
@@ -158,7 +159,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.GUILD_GET_REQUEST_LIST_DONE,
 		GAME.REMOVE_LAYERS,
 		GuildProxy.ADDED_EVENT,
-		GAME.BOSS_EVENT_START_DONE
+		GAME.BOSS_EVENT_START_DONE,
+		PlayerProxy.UPDATED
 	}
 end
 
@@ -172,6 +174,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(slot0.ON_BACK)
 	elseif slot2 == GAME.MODIFY_GUILD_INFO_DONE then
 		slot0.viewComponent:closeModifyPanel()
+		slot0.viewComponent:updateBg()
 	elseif slot2 == GuildProxy.NEW_MSG_ADDED then
 		slot0.viewComponent:append(slot3, -1, true)
 	elseif slot2 == GuildProxy.LOG_ADDED then
@@ -185,8 +188,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GuildProxy.ADDED_EVENT then
 		slot0.viewComponent:setGuildEvent(slot3)
 		slot0.viewComponent:updateEventBtn()
-	elseif slot2 == GAME.BOSS_EVENT_START_DONE and not slot0.viewComponent.guildEvent then
-		slot0:sendNotification(GAME.GET_GUILD_EVENT)
+	elseif slot2 == GAME.BOSS_EVENT_START_DONE then
+		if not slot0.viewComponent.guildEvent then
+			slot0:sendNotification(GAME.GET_GUILD_EVENT)
+		end
+	elseif slot2 == PlayerProxy.UPDATED then
+		slot0.viewComponent:setPlayerVO(slot3)
 	end
 end
 

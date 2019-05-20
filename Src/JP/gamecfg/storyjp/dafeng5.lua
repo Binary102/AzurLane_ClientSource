@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"その女、賢妻につき\n\n<size=30>五 バーサス！</size>",
+					"その女、賢妻につき\n\n<size=45>五 バーサス！</size>",
 					1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

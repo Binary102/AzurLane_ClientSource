@@ -25,6 +25,7 @@ slot0.ActivityShop = "activity_shop"
 slot0.guildShop = "guild_store"
 slot0.guildShopFlash = "guild_shop_flash"
 slot0.skillRoomUpgrade = "skill_room_upgrade"
+slot0.SkinShopTimeLimit = "skin_shop_timelimit"
 slot0.ShopStreet = 1
 slot0.MilitaryShop = 2
 slot0.ShopActivity = 3

@@ -44,6 +44,9 @@ function slot0.loginProcessHandler(slot0)
 			slot1.viewComponent:setLastLogin(getProxy(UserProxy).getLastLoginUser(slot1))
 		end
 
+		slot1:CheckMaintain()
+		coroutine.yield()
+
 		if slot1.contextData.code then
 			if slot1.contextData.code ~= 0 then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -87,6 +90,36 @@ function slot0.loginProcessHandler(slot0)
 	end)
 
 	slot0.process()
+end
+
+function slot0.CheckMaintain(slot0)
+	slot1 = -1
+	slot2 = 0
+	slot3 = 1
+	slot4 = 2
+
+	VersionMgr.Inst:GetServerState(function (slot0)
+		if slot0 == slot0 then
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				content = i18n("login_loginMediator_kickServerClose"),
+				onNo = function ()
+					slot0.process()
+				end,
+				onYes = function ()
+					slot0.process()
+				end
+			})
+		elseif slot0 == slot2 then
+			print("All servers working well. thanks God.")
+			print.process()
+		elseif slot0 == slot3 then
+			print("Check server maintain state failed. but it doesnt matter. keep going.")
+			print.process()
+		else
+			print("no servers working. anyway. you should have a try. ")
+			print.process()
+		end
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -137,8 +170,6 @@ function slot0.handleNotification(slot0, slot1)
 		})
 	elseif slot2 == GAME.SERVER_LOGIN_SUCCESS then
 		if slot3.uid == 0 then
-			pg.GuideMgr2:GetInstance():Reset()
-			pg.GuideMgr2:GetInstance():updateCurrentGuideStep(0)
 			slot0:sendNotification(GAME.BEGIN_STAGE, {
 				system = SYSTEM_PROLOGUE
 			})

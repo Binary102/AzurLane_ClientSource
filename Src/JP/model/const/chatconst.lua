@@ -47,6 +47,19 @@ slot0.EmojiTypes = {
 	slot0.EmojiAnimate,
 	slot0.EmojiPixel
 }
+
+function slot0.GetEmojiSprite(slot0)
+	if slot0 == slot0.EmojiCommon then
+		return "tab_casual"
+	elseif slot0 == slot0.EmojiDefault then
+		return "tab_default"
+	elseif slot0 == slot0.EmojiAnimate then
+		return "tab_motive"
+	elseif slot0 == slot0.EmojiPixel then
+		return "tab_pixel"
+	end
+end
+
 slot0.EmojiCode = "{777#code#777}"
 slot0.EmojiCodeMatch = "{777#(%d+)#777}"
 slot0.EMOJI_SAVE_TAG = "emoji_regular_used_"

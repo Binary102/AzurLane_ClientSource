@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"三笠大先輩のプラモ博物館\n\n<size=30>一　博物館、崩壊</size>",
+					"三笠大先輩のプラモ博物館\n\n<size=45>一　博物館、崩壊</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -92,7 +92,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -541,7 +541,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -567,7 +567,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -641,7 +641,7 @@ return {
 				{
 					actor = 307060,
 					pos = {
-						x = -400
+						x = -600
 					}
 				}
 			},
@@ -655,7 +655,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -663,11 +663,11 @@ return {
 					number = 2
 				},
 				{
-					y = -600,
+					y = -900,
 					type = "move",
 					delay = 0.5,
 					dur = 0.4,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
@@ -829,7 +829,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,

@@ -40,6 +40,12 @@ function isActive(slot0)
 	return go(slot0).activeSelf
 end
 
+function SetName(slot0, slot1)
+	slot0.name = slot1
+end
+
+setName = SetName
+
 function SetParent(slot0, slot1, slot2)
 	tf(slot0):SetParent(tf(slot1), tobool(slot2))
 end
@@ -113,15 +119,6 @@ function onButton(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot3()
-
-		if not IsNil(slot4) then
-			pg.GuideMgr2:GetInstance():dispatch({
-				checkView = false,
-				viewComponent = slot4.name,
-				event = slot4.name,
-				data = slot5
-			})
-		end
 	end)
 end
 
@@ -295,6 +292,10 @@ end
 
 function onNextTick(slot0)
 	Timer.New(slot0, 0.001, 1):Start()
+end
+
+function onDelayTick(slot0, slot1)
+	Timer.New(slot0, slot1, 1):Start()
 end
 
 function seriesAsync(slot0, slot1)

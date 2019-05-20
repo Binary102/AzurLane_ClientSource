@@ -5,15 +5,15 @@ pg.gametip = {
 		key = "ad_0"
 	},
 	ad_1 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 建造入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 建造入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_1"
 	},
 	ad_2 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 出撃入手<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 出撃入手<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_2"
 	},
 	ad_3 = {
-		tip = "<material=underline c=#A9F548 event=clickPlayer args=1><color=#A9F548>$1</color></material> 艦船入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
+		tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 艦船入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>",
 		key = "ad_3"
 	},
 	word_back = {
@@ -95,6 +95,14 @@ pg.gametip = {
 	word_get = {
 		tip = "入手",
 		key = "word_get"
+	},
+	word_got = {
+		tip = "開放済",
+		key = "word_got"
+	},
+	word_not_get = {
+		tip = "未開放",
+		key = "word_not_get"
 	},
 	word_next_level = {
 		tip = "次Lv",
@@ -197,19 +205,19 @@ pg.gametip = {
 		key = "word_levelup"
 	},
 	word_serverLoadVindicate = {
-		tip = "<color=#656565FF>メンテ</color>",
+		tip = "<color=#a2a2a2>メンテ</color>",
 		key = "word_serverLoadVindicate"
 	},
 	word_serverLoadNormal = {
-		tip = "<material=outline c=#252525FF x=1 y=-1><color=#A9F548FF>正常</color></material>",
+		tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>正常</color></material>",
 		key = "word_serverLoadNormal"
 	},
 	word_serverLoadFull = {
-		tip = "<color=#C41717FF>満員</color>",
+		tip = "<color=#ff5c5c>満員</color>",
 		key = "word_serverLoadFull"
 	},
 	word_registerFull = {
-		tip = "<color=#C41717FF>満員</color>",
+		tip = "<color=#ff5c5c>満員</color>",
 		key = "word_registerFull"
 	},
 	word_synthesize = {
@@ -493,7 +501,7 @@ pg.gametip = {
 		key = "word_buy"
 	},
 	word_happy = {
-		tip = "<color=#4FFF00>高揚</color>",
+		tip = "<color=#92fc63>高揚</color>",
 		key = "word_happy"
 	},
 	word_normal = {
@@ -713,12 +721,36 @@ pg.gametip = {
 		key = "word_torpedo"
 	},
 	["word_ air_defense_artillery"] = {
-		tip = "対空",
+		tip = "防空炮",
 		key = "word_ air_defense_artillery"
+	},
+	word_air_defense_artillery = {
+		tip = "対空",
+		key = "word_air_defense_artillery"
 	},
 	word_device = {
 		tip = "設備",
 		key = "word_device"
+	},
+	word_cannon = {
+		tip = "艦砲",
+		key = "word_cannon"
+	},
+	word_fighter = {
+		tip = "戦闘機",
+		key = "word_fighter"
+	},
+	word_bomber = {
+		tip = "爆撃機",
+		key = "word_bomber"
+	},
+	word_attacker = {
+		tip = "攻撃機",
+		key = "word_attacker"
+	},
+	word_seaplane = {
+		tip = "水上機",
+		key = "word_seaplane"
 	},
 	word_online = {
 		tip = "ログイン中",
@@ -757,9 +789,9 @@ pg.gametip = {
 
                         無償<icon name=diamond w=0.7 h=0.7/>: $1
                         有償<icon name=diamond w=0.7 h=0.7/>: $2
-                        合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#A9F548><size=17>
-                       ※購入時は無償ダイヤから消費されます
-           ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
+                        合計<icon name=diamond w=0.7 h=0.7/>: $3<color=#92fc63><size=30>
+              ※購入時は無償ダイヤから消費されます
+   ダイヤ購入時に入手したおまけは、無償入手分とみなします</size></color>]],
 		key = "word_diamond_tip"
 	},
 	word_contribution = {
@@ -827,7 +859,7 @@ pg.gametip = {
 		key = "common_dont_remind_dur_login"
 	},
 	common_activity_end = {
-		tip = "<color=#A9F548>終了済み</color>のイベントです",
+		tip = "<color=#92fc63>終了済み</color>のイベントです",
 		key = "common_activity_end"
 	},
 	common_activity_notStartOrEnd = {
@@ -843,15 +875,15 @@ pg.gametip = {
 		key = "common_error"
 	},
 	common_no_gold = {
-		tip = "<color=#A9F548>資金</color>が足りません！",
+		tip = "<color=#92fc63>資金</color>が足りません！",
 		key = "common_no_gold"
 	},
 	common_no_oil = {
-		tip = "<color=#A9F548>燃料</color>が足りません！",
+		tip = "<color=#92fc63>燃料</color>が足りません！",
 		key = "common_no_oil"
 	},
 	common_no_rmb = {
-		tip = "<color=#A9F548>ダイヤ</color>が足りません！",
+		tip = "<color=#92fc63>ダイヤ</color>が足りません！",
 		key = "common_no_rmb"
 	},
 	common_count_noenough = {
@@ -859,7 +891,7 @@ pg.gametip = {
 		key = "common_count_noenough"
 	},
 	common_no_dorm_gold = {
-		tip = "<color=#A9F548>コイン</color>が足りません！",
+		tip = "<color=#92fc63>コイン</color>が足りません！",
 		key = "common_no_dorm_gold"
 	},
 	common_no_resource = {
@@ -867,7 +899,7 @@ pg.gametip = {
 		key = "common_no_resource"
 	},
 	common_no_item = {
-		tip = "アイテムが<color=#A9F548>[$1]</color>足りません！",
+		tip = "アイテムが<color=#92fc63>[$1]</color>足りません！",
 		key = "common_no_item"
 	},
 	common_no_item_1 = {
@@ -883,7 +915,7 @@ pg.gametip = {
 		key = "common_use_item_sos_used"
 	},
 	common_no_x = {
-		tip = "<color=#A9F548>$1</color>が不足しています！",
+		tip = "<color=#92fc63>$1</color>が不足しています！",
 		key = "common_no_x"
 	},
 	common_limit_cmd = {
@@ -903,7 +935,7 @@ pg.gametip = {
 		key = "common_buy_success"
 	},
 	common_limit_level = {
-		tip = "必要指揮官Lv:<color=#A9F548>$1</color>",
+		tip = "必要指揮官Lv:<color=#92fc63>$1</color>",
 		key = "common_limit_level"
 	},
 	common_shopId_noFound = {
@@ -954,6 +986,10 @@ pg.gametip = {
 		tip = "販売期間外です",
 		key = "common_skin_out_of_stock"
 	},
+	common_go_home = {
+		tip = "メイン画面に戻りますか？ ",
+		key = "common_go_home"
+	},
 	dont_remind_today = {
 		tip = "次回からは表示しない",
 		key = "dont_remind_today"
@@ -975,7 +1011,7 @@ pg.gametip = {
 		key = "battle_duel_main_rage"
 	},
 	battle_main_emergent = {
-		tip = "<color=#A9F548>$1</color>が大きな損傷を受けました！",
+		tip = "<color=#92fc63>$1</color>が大きな損傷を受けました！",
 		key = "battle_main_emergent"
 	},
 	battle_battleMediator_goOnFight = {
@@ -991,7 +1027,7 @@ pg.gametip = {
 		key = "battle_battleMediator_clear_warning"
 	},
 	battle_battleMediator_quest_exist = {
-		tip = "撤退すると<color=#A9F548>アイテムと艦</color>が入手できなくなります。\n撤退しますか？",
+		tip = "撤退すると<color=#92fc63>アイテムと艦</color>が入手できなくなります。\n撤退しますか？",
 		key = "battle_battleMediator_quest_exist"
 	},
 	battle_levelMediator_ok_takeResource = {
@@ -1031,7 +1067,7 @@ pg.gametip = {
 		key = "battle_levelScene_noRaderCount"
 	},
 	battle_levelScene_lock = {
-		tip = "<color=#A9F548>前のステージ</color>を攻略すると開放されます",
+		tip = "<color=#92fc63>前のステージ</color>を攻略すると開放されます",
 		key = "battle_levelScene_lock"
 	},
 	battle_levelScene_lock_1 = {
@@ -1043,7 +1079,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_changeFormationError"
 	},
 	battle_preCombatLayer_changeFormationNumberError = {
-		tip = "戦闘可能な艦が<color=#A9F548>$1</color>以上必須です",
+		tip = "戦闘可能な艦が<color=#92fc63>$1</color>以上必須です",
 		key = "battle_preCombatLayer_changeFormationNumberError"
 	},
 	battle_preCombatLayer_ready = {
@@ -1051,7 +1087,7 @@ pg.gametip = {
 		key = "battle_preCombatLayer_ready"
 	},
 	battle_preCombatLayer_quest_leaveFleet = {
-		tip = "<color=#A9F548>$1</color>を艦隊から外しますか？",
+		tip = "<color=#92fc63>$1</color>を艦隊から外しますか？",
 		key = "battle_preCombatLayer_quest_leaveFleet"
 	},
 	battle_preCombatLayer_clear_confirm = {
@@ -1103,23 +1139,23 @@ pg.gametip = {
 		key = "battle_preCombatMediator_leastLimit"
 	},
 	battle_preCombatMediator_timeout = {
-		tip = "<color=#A9F548>作戦制限時間</color>を過ぎました。作戦失敗…",
+		tip = "<color=#92fc63>作戦制限時間</color>を過ぎました。作戦失敗…",
 		key = "battle_preCombatMediator_timeout"
 	},
 	battle_resourceSiteLayer_collecTimeDefault = {
-		tip = "委託時間: <color=#A9F548>--:--:--</color>",
+		tip = "委託時間: <color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTimeDefault"
 	},
 	battle_resourceSiteLayer_collecTime = {
-		tip = "委託時間: <color=#A9F548>--:--:--</color>",
+		tip = "委託時間: <color=#92fc63>--:--:--</color>",
 		key = "battle_resourceSiteLayer_collecTime"
 	},
 	battle_resourceSiteLayer_maxLv = {
-		tip = "最高<color=#A9F548>Lv$1</color>",
+		tip = "最高<color=#92fc63>Lv$1</color>",
 		key = "battle_resourceSiteLayer_maxLv"
 	},
 	battle_resourceSiteLayer_avgLv = {
-		tip = "平均練度<color=#A9F548>Lv$1</color>",
+		tip = "平均練度<color=#92fc63>Lv$1</color>",
 		key = "battle_resourceSiteLayer_avgLv"
 	},
 	battle_resourceSiteLayer_shipTypeCount = {
@@ -1127,15 +1163,15 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_shipTypeCount"
 	},
 	battle_resourceSiteLayer_no_maxLv = {
-		tip = "最高練度は<color=#A9F548>Lv$1</color>に達していません",
+		tip = "最高練度は<color=#92fc63>Lv$1</color>に達していません",
 		key = "battle_resourceSiteLayer_no_maxLv"
 	},
 	battle_resourceSiteLayer_no_avgLv = {
-		tip = "平均練度は<color=#A9F548>Lv$1</color>に達していません",
+		tip = "平均練度は<color=#92fc63>Lv$1</color>に達していません",
 		key = "battle_resourceSiteLayer_no_avgLv"
 	},
 	battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "<color=#A9F548>$1X$2</color>が編成されていません",
+		tip = "<color=#92fc63>$1X$2</color>が編成されていません",
 		key = "battle_resourceSiteLayer_no_shipTypeCount"
 	},
 	battle_resourceSiteLayer_startError_collecting = {
@@ -1143,11 +1179,11 @@ pg.gametip = {
 		key = "battle_resourceSiteLayer_startError_collecting"
 	},
 	battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "<color=#A9F548> 5</color>隻以上が必須です",
+		tip = "<color=#92fc63> 5</color>隻以上が必須です",
 		key = "battle_resourceSiteLayer_startError_not5Ship"
 	},
 	battle_resourceSiteLayer_startError_limit = {
-		tip = "委託条件を満たしていません:<color=#A9F548>$1</color>",
+		tip = "委託条件を満たしていません:<color=#92fc63>$1</color>",
 		key = "battle_resourceSiteLayer_startError_limit"
 	},
 	battle_resourceSiteLayer_endError_notStar = {
@@ -1191,7 +1227,7 @@ pg.gametip = {
 		key = "battle_autobot_unlock"
 	},
 	backyard_addExp_Info = {
-		tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#A9F548FF>$2</color>|| 消費し、経験値|| <color=#A9F548FF>$3</color>|| を入手しました！",
+		tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#92fc63FF>$2</color>|| 消費し、経験値|| <color=#92fc63FF>$3</color>|| を入手しました！",
 		key = "backyard_addExp_Info"
 	},
 	backyard_extendCapacity_error = {
@@ -1199,7 +1235,7 @@ pg.gametip = {
 		key = "backyard_extendCapacity_error"
 	},
 	backyard_extendCapacity_ok = {
-		tip = "食糧庫が<color=#A9F548>$1</color>拡張されました！",
+		tip = "食糧庫が<color=#92fc63>$1</color>拡張されました！",
 		key = "backyard_extendCapacity_ok"
 	},
 	backyard_addShip_error = {
@@ -1219,7 +1255,7 @@ pg.gametip = {
 		key = "backyard_addFood_error"
 	},
 	backyard_addFood_ok = {
-		tip = "食糧が<color=#A9F548>+$1</color>補充されました！",
+		tip = "食糧が<color=#92fc63>+$1</color>補充されました！",
 		key = "backyard_addFood_ok"
 	},
 	backyard_putFurniture_ok = {
@@ -1231,7 +1267,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodCountLimit"
 	},
 	backyard_shipAddInimacy_ok = {
-		tip = "<color=#A9F548>$1</color>の親密度が<color=#A9F548>上昇</color>しました。",
+		tip = "<color=#92fc63>$1</color>の親密度が<color=#92fc63>上昇</color>しました。",
 		key = "backyard_shipAddInimacy_ok"
 	},
 	backyard_shipAddInimacy_error = {
@@ -1239,7 +1275,7 @@ pg.gametip = {
 		key = "backyard_shipAddInimacy_error"
 	},
 	backyard_shipAddMoney_ok = {
-		tip = "<color=#A9F548>$1</color>が<color=#A9F548>$2</color>コインを発見しました！",
+		tip = "<color=#92fc63>$1</color>が<color=#92fc63>$2</color>コインを発見しました！",
 		key = "backyard_shipAddMoney_ok"
 	},
 	backyard_shipAddMoney_error = {
@@ -1263,11 +1299,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_full"
 	},
 	backyard_backyardGranaryLayer_buyCountLimit = {
-		tip = "最大で<color=#A9F548>$1</color>までしか購入できません！",
+		tip = "最大で<color=#92fc63>$1</color>までしか購入できません！",
 		key = "backyard_backyardGranaryLayer_buyCountLimit"
 	},
 	backyard_backyardGranaryLayer_error_noResource = {
-		tip = "購入に失敗しました。<color=#A9F548>$1</color>が不足しています",
+		tip = "購入に失敗しました。<color=#92fc63>$1</color>が不足しています",
 		key = "backyard_backyardGranaryLayer_error_noResource"
 	},
 	backyard_backyardGranaryLayer_noFood = {
@@ -1275,7 +1311,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_noFood"
 	},
 	backyard_backyardGranaryLayer_noTimer = {
-		tip = "<color=#A9F548>食糧を補充</color>すると、経験値を獲得できます！",
+		tip = "<color=#92fc63>食糧を補充</color>すると、経験値を獲得できます！",
 		key = "backyard_backyardGranaryLayer_noTimer"
 	},
 	backyard_backyardGranaryLayer_word = {
@@ -1283,7 +1319,7 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_word"
 	},
 	backyard_backyardGranaryLayer_noShip = {
-		tip = "休憩艦船を配置しないと、<color=#A9F548>食糧が消費されません</color>",
+		tip = "休憩艦船を配置しないと、<color=#92fc63>食糧が消費されません</color>",
 		key = "backyard_backyardGranaryLayer_noShip"
 	},
 	backyard_backyardGranaryLayer_foodTimeNotice_top = {
@@ -1295,11 +1331,11 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_foodTimeNotice_bottom"
 	},
 	backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
-		tip = "食糧庫を<color=#A9F548>$1</color>から<color=#A9F548>$2</color>に拡張する",
+		tip = "食糧庫を<color=#92fc63>$1</color>から<color=#92fc63>$2</color>に拡張する",
 		key = "backyard_backyardGranaryLayer_foodMaxIncreaseNotice"
 	},
 	backyard_backyardGranaryLayer_error_entendFail = {
-		tip = "<color=#A9F548>必要アイテムが不足しています</color>",
+		tip = "<color=#92fc63>必要アイテムが不足しています</color>",
 		key = "backyard_backyardGranaryLayer_error_entendFail"
 	},
 	backyard_backyardGranaryLayer_buy_max_count = {
@@ -1307,43 +1343,43 @@ pg.gametip = {
 		key = "backyard_backyardGranaryLayer_buy_max_count"
 	},
 	backyard_backyardScene_comforChatContent1 = {
-		tip = "<size=18>経験値<color=#A9EE48>+$1%</color></size><size=16>\n合計快適度は1Fの各カテゴリー（マット系除く）快適度が上から<color=#A9EE48>配置可能数分</color>の家具の合計値+マット系の家具は上から<color=#5FD500>$2</color>番目まで高い家具の合計値になります</size>",
+		tip = "<size=27>経験値<color=#A9EE48>+$1%</color></size><size=24>\n合計快適度は1Fの各カテゴリー（マット系除く）快適度が上から<color=#A9EE48>配置可能数分</color>の家具の合計値+マット系の家具は上から<color=#92fc63>$2</color>番目まで高い家具の合計値になります</size>",
 		key = "backyard_backyardScene_comforChatContent1"
 	},
 	backyard_buyExtendItem_question = {
-		tip = "<color=#A9F548>$1</color>を消費します。続けますか？",
+		tip = "<color=#92fc63>$1</color>を消費します。続けますか？",
 		key = "backyard_buyExtendItem_question"
 	},
 	backyard_backyardScene_comforChatContent1_1 = {
-		tip = "<color=#CC0000>清貧</color>",
+		tip = "<color=#ff5c5c>清貧</color>",
 		key = "backyard_backyardScene_comforChatContent1_1"
 	},
 	backyard_backyardScene_comforChatContent2_2 = {
-		tip = "<color=#FFBB11>普通</color>",
+		tip = "<color=#ffde38>普通</color>",
 		key = "backyard_backyardScene_comforChatContent2_2"
 	},
 	backyard_backyardScene_comforChatContent3_3 = {
-		tip = "<color=#00EEFF>快適</color>",
+		tip = "<color=#c5cfdf>快適</color>",
 		key = "backyard_backyardScene_comforChatContent3_3"
 	},
 	backyard_backyardScene_quest_clearButton = {
-		tip = "マイセットを<color=#A9F548>クリア</color>しますか？",
+		tip = "マイセットを<color=#92fc63>クリア</color>しますか？",
 		key = "backyard_backyardScene_quest_clearButton"
 	},
 	backyard_backyardScene_quest_saveFurniture = {
-		tip = "マイセットを<color=#A9F548>保存</color>しますか？",
+		tip = "マイセットを<color=#92fc63>保存</color>しますか？",
 		key = "backyard_backyardScene_quest_saveFurniture"
 	},
 	backyard_backyardScene_restSuccess = {
-		tip = "<color=#A9F548>マイセットを戻しました</color>",
+		tip = "<color=#92fc63>マイセットを戻しました</color>",
 		key = "backyard_backyardScene_restSuccess"
 	},
 	backyard_backyardScene_clearSuccess = {
-		tip = "<color=#A9F548>マイセットをクリアしました</color>",
+		tip = "<color=#92fc63>マイセットをクリアしました</color>",
 		key = "backyard_backyardScene_clearSuccess"
 	},
 	backyard_backyardScene_name = {
-		tip = "<color=#A9F548>$1の寮舎</color>",
+		tip = "<color=#92fc63>$1の寮舎</color>",
 		key = "backyard_backyardScene_name"
 	},
 	backyard_backyardScene_exitShipAfterAddEnergy = {
@@ -1351,11 +1387,11 @@ pg.gametip = {
 		key = "backyard_backyardScene_exitShipAfterAddEnergy"
 	},
 	backyard_backyardScene_timeRest = {
-		tip = "残り時間<color=#A9F548>$1</color>",
+		tip = "残り時間<color=#92fc63>$1</color>",
 		key = "backyard_backyardScene_timeRest"
 	},
 	backyard_backyardScene_showAddExpInfo = {
-		tip = "休憩時間:<color=#A9F548>$1</color> 経験値増加:<color=#A9F548>$2</color>",
+		tip = "休憩時間:<color=#92fc63>$1</color> 経験値増加:<color=#92fc63>$2</color>",
 		key = "backyard_backyardScene_showAddExpInfo"
 	},
 	backyard_backyardScene_error_noPosPutFurniture = {
@@ -1371,7 +1407,7 @@ pg.gametip = {
 		key = "backyard_backyardScene_error_canNotRotate"
 	},
 	backyard_backyardShipInfoLayer_quest_openPos = {
-		tip = "<color=#A9F548>$1ダイヤ</color>を消費して休憩枠を開放しますか？",
+		tip = "<color=#92fc63>$1ダイヤ</color>を消費して休憩枠を開放しますか？",
 		key = "backyard_backyardShipInfoLayer_quest_openPos"
 	},
 	backyard_backyardShipInfoLayer_quest_addShipNoFood = {
@@ -1379,7 +1415,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoLayer_quest_addShipNoFood"
 	},
 	backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
-		tip = "<color=#A9F548>高速建造材</color>を消費して建造を加速しますか？",
+		tip = "<color=#92fc63>高速建造材</color>を消費して建造を加速しますか？",
 		key = "backyard_backyardShipInfoLayer_quest_quickAddEnergy"
 	},
 	backyard_backyardShipInfoLayer_error_noQuickItem = {
@@ -1439,7 +1475,7 @@ pg.gametip = {
 		key = "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip"
 	},
 	backyard_open_2floor = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#A9F548>$1</color>で寮舎2Fを開放しますか？\n※快適度が<color=#A9F548>20</color>増加します\n※配置枠は<color=#A9F548>1Fと同じ数</color>になります",
+		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で寮舎2Fを開放しますか？\n※快適度が<color=#92fc63>20</color>増加します\n※配置枠は<color=#92fc63>1Fと同じ数</color>になります",
 		key = "backyard_open_2floor"
 	},
 	backyarad_theme_replace = {
@@ -1451,7 +1487,7 @@ pg.gametip = {
 		key = "backyard_extendArea_ok"
 	},
 	backyard_extendArea_erro = {
-		tip = "寮舎拡張に失敗しました…<color=#A9F548>$1</color>",
+		tip = "寮舎拡張に失敗しました…<color=#92fc63>$1</color>",
 		key = "backyard_extendArea_erro"
 	},
 	backyard_extendArea_tip = {
@@ -1467,7 +1503,7 @@ pg.gametip = {
 		key = "backyard_no_ship_tip"
 	},
 	backyard_energy_qiuck_up_tip = {
-		tip = "エナジーコーヒーを<color=#A9F548FF>$1</color>つ使用しますか？\n\n所持数:<color=$2>$3</color>",
+		tip = "エナジーコーヒーを<color=#92fc63FF>$1</color>つ使用しますか？\n\n所持数:<color=$2>$3</color>",
 		key = "backyard_energy_qiuck_up_tip"
 	},
 	backyard_cant_put_tip = {
@@ -1479,15 +1515,15 @@ pg.gametip = {
 		key = "backyard_cant_buy_tip"
 	},
 	backyard_theme_lock_tip = {
-		tip = "このセットは<color=#A9F548>未開放</color>です。",
+		tip = "このセットは<color=#92fc63>未開放</color>です。",
 		key = "backyard_theme_lock_tip"
 	},
 	backyard_theme_open_tip = {
-		tip = "開放条件:\n指揮官Lv<color=#A9F548>$1</color>以上",
+		tip = "開放条件:\n指揮官Lv<color=#92fc63>$1</color>以上",
 		key = "backyard_theme_open_tip"
 	},
 	backyard_theme_furniture_buy_tip = {
-		tip = "<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$1</color></material>コインで<material=outline c=#473B3A x=1 y=-1><color=#A9F548>$2</color></material>を購入しますか？？",
+		tip = "<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material>コインで<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>を購入しますか？？",
 		key = "backyard_theme_furniture_buy_tip"
 	},
 	backyard_cannot_repeat_purchase = {
@@ -1547,15 +1583,15 @@ pg.gametip = {
 		key = "equipment_equipDevUI_error_noPos"
 	},
 	equipment_equipmentInfoLayer_error_canNotEquip = {
-		tip = "<color=#A9F548>$1</color> を装備できません",
+		tip = "<color=#92fc63>$1</color> を装備できません",
 		key = "equipment_equipmentInfoLayer_error_canNotEquip"
 	},
 	equipment_equipmentScene_selectError_more = {
-		tip = "<color=#A9F548>$1</color> まで選択できます",
+		tip = "<color=#92fc63>$1</color> まで選択できます",
 		key = "equipment_equipmentScene_selectError_more"
 	},
 	equipment_newEquipLayer_getNewEquip = {
-		tip = "装備入手:<color=#A9F548>$1</color>",
+		tip = "装備入手:<color=#92fc63>$1</color>",
 		key = "equipment_newEquipLayer_getNewEquip"
 	},
 	equipment_select_materials_tip = {
@@ -1567,7 +1603,7 @@ pg.gametip = {
 		key = "equipment_select_device_tip"
 	},
 	equipment_cant_unload = {
-		tip = "<color=#A9F548>倉庫がいっぱいです</color>…装備解除できません",
+		tip = "<color=#92fc63>倉庫がいっぱいです</color>…装備解除できません",
 		key = "equipment_cant_unload"
 	},
 	equipment_max_level = {
@@ -1579,11 +1615,11 @@ pg.gametip = {
 		key = "exercise_count_insufficient"
 	},
 	exercise_clear_fleet_tip = {
-		tip = "<color=#A9F548>演習防衛艦隊</color>がクリアされます。確認しますか？（※演習で挑まれた時第一艦隊が防衛側になります）",
+		tip = "<color=#92fc63>演習防衛艦隊</color>がクリアされます。確認しますか？（※演習で挑まれた時第一艦隊が防衛側になります）",
 		key = "exercise_clear_fleet_tip"
 	},
 	exercise_fleet_exit_tip = {
-		tip = "<color=#A9F548>演習防衛艦隊</color>から外しますか？",
+		tip = "<color=#92fc63>演習防衛艦隊</color>から外しますか？",
 		key = "exercise_fleet_exit_tip"
 	},
 	exercise_replace_rivals_ok_tip = {
@@ -1591,19 +1627,19 @@ pg.gametip = {
 		key = "exercise_replace_rivals_ok_tip"
 	},
 	exercise_replace_rivals_question = {
-		tip = "ダイヤを<color=#A9F548>$1</color>消費して、演習相手をリセットしますか？",
+		tip = "ダイヤを<color=#92fc63>$1</color>消費して、演習相手をリセットしますか？",
 		key = "exercise_replace_rivals_question"
 	},
 	exercise_count_recover_tip = {
-		tip = "( <color=#A9F548>$1</color> 後回復)",
+		tip = "( <color=#92fc63>$1</color> 後回復)",
 		key = "exercise_count_recover_tip"
 	},
 	exercise_shop_refresh_tip = {
-		tip = "ダイヤを<color=#A9F548>$1</color>消費して、リストを更新しますか？",
+		tip = "ダイヤを<color=#92fc63>$1</color>消費して、リストを更新しますか？",
 		key = "exercise_shop_refresh_tip"
 	},
 	exercise_shop_buy_tip = {
-		tip = "<color=#A9F548>$1</color>演習戦果で引き換えますか？",
+		tip = "<color=#92fc63>$1</color>演習戦果で引き換えますか？",
 		key = "exercise_shop_buy_tip"
 	},
 	exercise_formation_title = {
@@ -1616,16 +1652,16 @@ pg.gametip = {
 	},
 	exercise_rule_tip = {
 		tip = [[
-1、演習強化期間は<color=#a9f548>14</color>日で1シーズンで、期間中昇格すると報酬が貰えます
-2、演習で勝利すると、階級に応じて報酬が貰えます。失敗しても勝利時の報酬の<color=#a9f548>半分</color>を入手できます
-3、演習で勝利するとスコアが上昇します。失敗してもスコアが<color=#a9f548>下がりません</color>
- 4、他人に挑まれた場合、挑まれた側のスコアは変化しません
-5、スコアが一定の数値に達すると、階級が（大佐まで）昇格します<color=#a9f548>大佐以上</color>の階級はランキング順位で決められます
+1、演習強化期間は<color=#92fc63>14</color>日で1シーズンで、期間中昇格すると報酬が貰えます
+2、演習で勝利すると、階級に応じて報酬が貰えます。失敗しても勝利時の報酬の<color=#92fc63>半分</color>を入手できます
+3、演習で勝利するとスコアが上昇します。失敗してもスコアが<color=#92fc63>下がりません</color>
+4、他人に挑まれた場合、挑まれた側のスコアは変化しません
+5、スコアが一定の数値に達すると、階級が（大佐まで）昇格します<color=#92fc63>大佐以上</color>の階級はランキング順位で決められます
 6、階級昇格の報酬は1回しか受け取れません
 7、戦果ポイントは特殊補給でアイテムと交換することができます
-8、演習相手リストは毎日<color=#a9f548>5</color>回まで変更できます
+8、演習相手リストは毎日<color=#92fc63>5</color>回まで変更できます
 9、演習後、演習相手リストはリセットされます
- 10、演習可能回数は00:00、12:00、18:00にリセットされます
+10、演習可能回数は00:00、12:00、18:00にリセットされます
 11、演習期間終了後、全ユーザーの階級とスコアはリセットされます]],
 		key = "exercise_rule_tip"
 	},
@@ -1634,7 +1670,7 @@ pg.gametip = {
 		key = "exercise_award_tip"
 	},
 	dock_yard_left_tips = {
-		tip = "<color=#A9F548>$1</color>を行う艦を選択してください:",
+		tip = "<color=#92fc63>$1</color>を行う艦を選択してください:",
 		key = "dock_yard_left_tips"
 	},
 	fleet_error_no_fleet = {
@@ -1650,7 +1686,7 @@ pg.gametip = {
 		key = "fleet_repairShips_error_noResource"
 	},
 	fleet_repairShips_quest = {
-		tip = "<color=#A9F548>$1</color>資金で耐久を回復しますか？",
+		tip = "<color=#92fc63>$1</color>資金で耐久を回復しますか？",
 		key = "fleet_repairShips_quest"
 	},
 	fleet_fleetRaname_error = {
@@ -1714,7 +1750,7 @@ pg.gametip = {
 		key = "friend_addblacklist_success"
 	},
 	friend_confirm_add_blacklist = {
-		tip = "<color=#A9F548>$1</color>をブロックしますか？\n（ブロックリストは友達管理で確認できます）",
+		tip = "<color=#92fc63>$1</color>をブロックしますか？\n（ブロックリストは友達管理で確認できます）",
 		key = "friend_confirm_add_blacklist"
 	},
 	friend_relieve_backlist_tip = {
@@ -1742,7 +1778,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "強化を中止すると、スキル経験値は少し入手できますが、<color=#A9F548>教科書は消費されます</color>。続けますか？",
+		tip = "強化を中止すると、スキル経験値は少し入手できますが、<color=#92fc63>教科書は消費されます</color>。続けますか？",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1762,20 +1798,20 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	tactics_lesson_start_tip = {
-		tip = "<color=#A9F548>「$1」</color>を<color=#A9F548>1冊</color>使って、<color=#A9F548>「$2」</color>の<color=#A9F548>$3</color>を強化しますか？",
+		tip = "<color=#92fc63>「$1」</color>を<color=#92fc63>1冊</color>使って、<color=#92fc63>「$2」</color>の<color=#92fc63>$3</color>を強化しますか？",
 		key = "tactics_lesson_start_tip"
 	},
 	tactics_noskill_erro = {
@@ -1787,7 +1823,7 @@ pg.gametip = {
 		key = "tactics_max_level"
 	},
 	tactics_end_to_learn = {
-		tip = "<color=#A9F548>「$1」</color>強化完了、スキル<color=#A9F548>「$2」</color>は<color=#A9F548>$3</color>の経験値を獲得しました",
+		tip = "<color=#92fc63>「$1」</color>強化完了、スキル<color=#92fc63>「$2」</color>は<color=#92fc63>$3</color>の経験値を獲得しました",
 		key = "tactics_end_to_learn"
 	},
 	tactics_continue_to_learn = {
@@ -1887,7 +1923,7 @@ pg.gametip = {
 		key = "login_loginMediator_kickOtherLogin"
 	},
 	login_loginMediator_kickServerClose = {
-		tip = "サーバーとの接続が中断されました",
+		tip = "ただいまメンテナンス中です",
 		key = "login_loginMediator_kickServerClose"
 	},
 	login_loginMediator_kickIntError = {
@@ -1995,11 +2031,11 @@ pg.gametip = {
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#A9F548>受取失敗:</color>\n\n<color=#A9F548>装備倉庫が一杯です</color>",
+		tip = "<color=#92fc63>受取失敗:</color>\n\n<color=#92fc63>装備倉庫が一杯です</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#A9F548>受取失敗:</color>\n\n<color=#A9F548>ドックが一杯です</color>",
+		tip = "<color=#92fc63>受取失敗:</color>\n\n<color=#92fc63>ドックが一杯です</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -2031,15 +2067,15 @@ pg.gametip = {
 		key = "main_mailLayer_attachTaken"
 	},
 	main_mailLayer_quest_clear = {
-		tip = "既読メールをすべて削除しますか？<color=#A9F548>（添付アイテム未受取のメールは削除されません）</color>",
+		tip = "既読メールをすべて削除しますか？<color=#92fc63>（添付アイテム未受取のメールは削除されません）</color>",
 		key = "main_mailLayer_quest_clear"
 	},
 	main_mailLayer_quest_deleteNotTakeAttach = {
-		tip = "<color=#A9F548>添付ファイルは受け取っていません</color>、本当に削除しますか?",
+		tip = "<color=#92fc63>添付ファイルは受け取っていません</color>、本当に削除しますか?",
 		key = "main_mailLayer_quest_deleteNotTakeAttach"
 	},
 	main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#A9F548>未読メールがあります</color>。本当に削除しますか?",
+		tip = "<color=#92fc63>未読メールがあります</color>。本当に削除しますか?",
 		key = "main_mailLayer_quest_deleteNotRead"
 	},
 	main_mailMediator_mailDelete = {
@@ -2063,7 +2099,7 @@ pg.gametip = {
 		key = "main_navalAcademyScene_systemClose"
 	},
 	main_navalAcademyScene_quest_startClass = {
-		tip = "<color=#A9F548>授業開始！みなさん、集中して聞いてください~</color>",
+		tip = "<color=#92fc63>授業開始！みなさん、集中して聞いてください~</color>",
 		key = "main_navalAcademyScene_quest_startClass"
 	},
 	main_navalAcademyScene_quest_stopClass = {
@@ -2119,7 +2155,7 @@ pg.gametip = {
 		key = "main_notificationLayer_addFriendError_friendAlready"
 	},
 	main_notificationLayer_quest_deletFriend = {
-		tip = "<color=#A9F548>「$1」</color>を友達から削除しますか？",
+		tip = "<color=#92fc63>「$1」</color>を友達から削除しますか？",
 		key = "main_notificationLayer_quest_deletFriend"
 	},
 	main_notificationLayer_quest_request = {
@@ -2127,7 +2163,7 @@ pg.gametip = {
 		key = "main_notificationLayer_quest_request"
 	},
 	main_notificationLayer_enter_room = {
-		tip = "ルーム<color=#A9F548>$1</color>に入室しました",
+		tip = "ルーム<color=#92fc63>$1</color>に入室しました",
 		key = "main_notificationLayer_enter_room"
 	},
 	main_notificationLayer_not_roomId = {
@@ -2143,11 +2179,11 @@ pg.gametip = {
 		key = "main_notificationMediator_sendFriendRequest"
 	},
 	main_notificationMediator_beFriend = {
-		tip = "<color=#A9F548>「$1」</color>と友達になりました",
+		tip = "<color=#92fc63>「$1」</color>と友達になりました",
 		key = "main_notificationMediator_beFriend"
 	},
 	main_notificationMediator_deleteFriend = {
-		tip = "<color=#A9F548>「$1」</color>とは友達でなくなりました",
+		tip = "<color=#92fc63>「$1」</color>とは友達でなくなりました",
 		key = "main_notificationMediator_deleteFriend"
 	},
 	main_notificationMediator_room_max_number = {
@@ -2163,7 +2199,7 @@ pg.gametip = {
 		key = "main_playerInfoLayer_inputManifesto"
 	},
 	main_playerInfoLayer_quest_changeName = {
-		tip = "<color=#A9F548>ダイヤ100</color>を消費しますが、続けますか？",
+		tip = "<color=#92fc63>ダイヤ100</color>を消費しますが、続けますか？",
 		key = "main_playerInfoLayer_quest_changeName"
 	},
 	main_playerInfoLayer_error_changeNameNoGem = {
@@ -2204,39 +2240,36 @@ pg.gametip = {
 			{
 				info = [[
 <size=26>遊び方</size>
-・「おえかき」では、着色枠に指定された番号の絵の具を選択して、
-タップすると、枠に色を塗ることが出来ます；
+・「おえかき」では、着色枠に指定された番号の絵の具
+を選択して、タップすると、枠に色を塗ることが出来ま
+す；
 ・塗りエリアはピンチ操作で拡大・縮小できます
-・色塗りは、同じ色の枠が完全に着色されるか、絵の具が全て消費
-されるかまで自動で行われます；
-・色塗りは「絵の具」を消費します。絵の具の残量が0になると、
-該当する色の枠を色塗りすることができません；
-・「絵の具」はイベント期間限定任務「累計燃料消費数」の報酬で
-入手できます；
-・絵が完成（着色枠を全て着色・「空白絵」は除く）すると、
-報酬を入手することができます。
+・色塗りは、同じ色の枠が完全に着色されるか、絵の具
+が全て消費されるかまで自動で行われます；
+・色塗りは「絵の具」を消費します。絵の具の残量が0
+になると、該当する色の枠を色塗りすることができませ
+ん；
+・「絵の具」はイベント期間限定任務「累計燃料消費数
+」の報酬で入手できます；
+・絵が完成（着色枠を全て着色・「空白絵」は除く）す
+ると、報酬を入手することができます。
 ・おえかき完成の報酬一覧：
- No.1 ランダム教科書T3 x1，サイコロ x3
- No.2 ランダム教科書T3 x2，サイコロ x3 
- No.3 ランダム教科書T3 x3，サイコロ x3 
- No.4 艦砲パーツT3*2，サイコロ x2 
- No.5 艦砲パーツT3*3，サイコロ x2
- No.6 汎用パーツT3*3，サイコロ x2
- No.7 汎用パーツT3*4，サイコロ x2 
- No.8 鞍山 x1，サイコロ x1 
-・全ての絵が塗り終わると、「空白絵」がアンロックされます。
-・空白絵に絵の具を使って絵を描いても絵の具を消費しませんが、
-報酬も得られません。
-・空白絵は「消しゴム」と「リセット」機能で、すでに描いた枠
-の色を消すことが出来ます。
+ No.1 ランダム教科書T3 x3
+ No.2 汎用パーツT3 x4
+ No.3 明石の着せ替え「島へようこそ！」 
+・全ての絵が塗り終わると、「空白絵」がアンロックさ
+れます。
+・空白絵に絵の具を使って絵を描いても絵の具を消費し
+ませんが、報酬も得られません。
+・空白絵は「消しゴム」と「リセット」機能で、すでに
+描いた枠の色を消すことが出来ます。
 ・「消しゴム」は一つの枠の色を消すことができます。
-・「リセット」は現在の絵の着色済みの枠の色を全て消すことが
-出来ます。
-・イベント終了後、未使用の絵の具はリセットされます。
-・2月7日（木）まで毎日新しい絵が一枚ずつ解放されます。
-・空白絵は2月8日（金）以降開放できます。
-・サイコロは「東煌すごろく」で使用することですごろくを遊び、
-報酬を手に入れることができます。]]
+・「リセット」は現在の絵の着色済みの枠の色を全て消
+すことが出来ます。
+・イベント終了後、未使用の絵の具はリセットされます
+・5月22日（水）まで毎日新しい絵が一枚ずつ解放され
+ます。
+・空白絵は5月23日（木）以降開放できます。]]
 			}
 		}
 	},
@@ -2353,7 +2386,7 @@ pg.gametip = {
 		key = "resourceSite_startResourceSite_error"
 	},
 	ship_error_noShip = {
-		tip = "艦が存在しません: <color=#A9F548>$1</color>",
+		tip = "艦が存在しません: <color=#92fc63>$1</color>",
 		key = "ship_error_noShip"
 	},
 	ship_addStarExp_error = {
@@ -2365,7 +2398,7 @@ pg.gametip = {
 		key = "ship_buildShip_error"
 	},
 	ship_buildShip_error_noTemplate = {
-		tip = "建造配置が存在しません:<color=#A9F548>$1</color>",
+		tip = "建造配置が存在しません:<color=#92fc63>$1</color>",
 		key = "ship_buildShip_error_noTemplate"
 	},
 	ship_buildShip_error_notEnoughItem = {
@@ -2393,11 +2426,11 @@ pg.gametip = {
 		key = "ship_buildShip_not_position"
 	},
 	ship_buildBatchShip = {
-		tip = "<color=#A9F548>$1ダイヤ</color>で<color=#A9F548>10隻分一括建造</color>しますか？",
+		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>10隻分一括建造</color>しますか？",
 		key = "ship_buildBatchShip"
 	},
 	ship_buildSingleShip = {
-		tip = "<color=#A9F548>$1ダイヤ</color>で<color=#A9F548>1隻分高速建造</color>しますか？",
+		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>1隻分高速建造</color>しますか？",
 		key = "ship_buildSingleShip"
 	},
 	ship_buildShip_succeed = {
@@ -2409,7 +2442,7 @@ pg.gametip = {
 		key = "ship_buildShip_list_empty"
 	},
 	ship_buildship_tip = {
-		tip = "<color=#A9F548>$4</color>建造を行うには：\n<color=#A9F548>$1資金</color>と<color=#A9F548>$3$2個</color>を消費",
+		tip = "<color=#92fc63>$4</color>建造を行うには：\n<color=#92fc63>$1資金</color>と<color=#92fc63>$3$2個</color>を消費",
 		key = "ship_buildship_tip"
 	},
 	ship_destoryShips_error = {
@@ -2417,7 +2450,7 @@ pg.gametip = {
 		key = "ship_destoryShips_error"
 	},
 	ship_equipToShip_ok = {
-		tip = "<color=#A9F548>$1</color>を装備しました",
+		tip = "<color=#FFFFFF><color=#92fc63>$1</color>を装備しました</color>",
 		key = "ship_equipToShip_ok"
 	},
 	ship_equipToShip_error = {
@@ -2441,7 +2474,7 @@ pg.gametip = {
 		key = "ship_getShip_error_notFinish"
 	},
 	ship_getShip_error_full = {
-		tip = "<color=#A9F548>ドックが一杯です</color>",
+		tip = "<color=#92fc63>ドックが一杯です</color>",
 		key = "ship_getShip_error_full"
 	},
 	ship_modShip_error = {
@@ -2449,7 +2482,7 @@ pg.gametip = {
 		key = "ship_modShip_error"
 	},
 	ship_modShip_error_notEnoughGold = {
-		tip = "<color=#A9F548>資金が不足しています</color>",
+		tip = "<color=#92fc63>資金が不足しています</color>",
 		key = "ship_modShip_error_notEnoughGold"
 	},
 	ship_remouldShip_error = {
@@ -2477,11 +2510,11 @@ pg.gametip = {
 		key = "ship_unequip_all_success"
 	},
 	ship_updateShipLock_ok_lock = {
-		tip = "<color=#A9F548>$1</color>をロックしました",
+		tip = "<color=#92fc63>$1</color>をロックしました",
 		key = "ship_updateShipLock_ok_lock"
 	},
 	ship_updateShipLock_ok_unlock = {
-		tip = "<color=#A9F548>$1</color>をアンロックしました",
+		tip = "<color=#92fc63>$1</color>をアンロックしました",
 		key = "ship_updateShipLock_ok_unlock"
 	},
 	ship_updateShipLock_error = {
@@ -2505,7 +2538,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_error_noEnoughMatrail"
 	},
 	ship_upgradeStar_notConfig = {
-		tip = "限界突破<color=#A9F548>$1</color>　情報取得に失敗しました",
+		tip = "限界突破<color=#92fc63>$1</color>　情報取得に失敗しました",
 		key = "ship_upgradeStar_notConfig"
 	},
 	ship_upgradeStar_maxLevel = {
@@ -2517,7 +2550,7 @@ pg.gametip = {
 		key = "ship_upgradeStar_select_material_tip"
 	},
 	ship_exchange_question = {
-		tip = "勲章を<color=#A9F548>$1</color>消費して、<color=#A9F548>$2</color>を支援要請しますか？",
+		tip = "勲章を<color=#92fc63>$1</color>消費して、<color=#92fc63>$2</color>を支援要請しますか？",
 		key = "ship_exchange_question"
 	},
 	ship_exchange_medalCount_noEnough = {
@@ -2525,15 +2558,15 @@ pg.gametip = {
 		key = "ship_exchange_medalCount_noEnough"
 	},
 	ship_exchange_erro = {
-		tip = "支援要請に失敗しました：<color=#A9F548>$1</color>",
+		tip = "支援要請に失敗しました：<color=#92fc63>$1</color>",
 		key = "ship_exchange_erro"
 	},
 	ship_exchange_confirm = {
-		tip = "勲章を$1消費して、<color=#A9F548>$2</color>を支援要請しますか？",
+		tip = "勲章を$1消費して、<color=#92fc63>$2</color>を支援要請しますか？",
 		key = "ship_exchange_confirm"
 	},
 	ship_exchange_tip = {
-		tip = "1.R以上の艦を退役すると勲章を獲得できます\n2.支援要請では勲章を使って艦と引き換えることができます\n3.支援ラインナップは毎日<color=#A9F548>6時</color>・<color=#A9F548>18時</color>に更新されます",
+		tip = "1.R以上の艦を退役すると勲章を獲得できます\n2.支援要請では勲章を使って艦と引き換えることができます\n3.支援ラインナップは毎日<color=#92fc63>6時</color>・<color=#92fc63>18時</color>に更新されます",
 		key = "ship_exchange_tip"
 	},
 	ship_vo_fighting = {
@@ -2597,7 +2630,7 @@ pg.gametip = {
 		key = "ship_buildShipMediator_finishBuild"
 	},
 	ship_buildShipScene_quest_quickFinish = {
-		tip = "高速建造材を<color=#A9F548>$1個</color>消費します。\n\n所持数: <color=#A9F548>$3個</color>",
+		tip = "高速建造材を<color=#92fc63>$1個</color>消費します。\n\n所持数: <color=#92fc63>$3個</color>",
 		key = "ship_buildShipScene_quest_quickFinish"
 	},
 	ship_dockyardMediator_destroy = {
@@ -2613,11 +2646,11 @@ pg.gametip = {
 		key = "ship_dockyardScene_noRole"
 	},
 	ship_dockyardScene_error_choiseRoleMore = {
-		tip = " <color=#A9F548>$1</color> 隻以上選択してください",
+		tip = " <color=#92fc63>$1</color> 隻以上選択してください",
 		key = "ship_dockyardScene_error_choiseRoleMore"
 	},
 	ship_dockyardScene_error_choiseRoleLess = {
-		tip = " <color=#A9F548>$1</color> まで選択できます",
+		tip = " <color=#92fc63>$1</color> まで選択できます",
 		key = "ship_dockyardScene_error_choiseRoleLess"
 	},
 	ship_formationMediator_leastLimit = {
@@ -2633,15 +2666,15 @@ pg.gametip = {
 		key = "ship_formationMediator_changeNameError_sameShip"
 	},
 	ship_formationMediator_addShipError_overlimit = {
-		tip = "<color=#A9F548>$2</color>を<color=#A9F548>$1</color>隻以上編成できません",
+		tip = "<color=#92fc63>$2</color>を<color=#92fc63>$1</color>隻以上編成できません",
 		key = "ship_formationMediator_addShipError_overlimit"
 	},
 	ship_formationMediator_replaceError_onlyShip = {
-		tip = "選択中の <color=#A9F548>$1</color>は唯一の<color=#A9F548>$2</color>であるため、入れ替えできません！",
+		tip = "選択中の <color=#92fc63>$1</color>は唯一の<color=#92fc63>$2</color>であるため、入れ替えできません！",
 		key = "ship_formationMediator_replaceError_onlyShip"
 	},
 	ship_formationMediator_quest_replace = {
-		tip = "選択中の 艦は既に<color=#A9F548>$1</color>に編成されています。 入れ替えますか？",
+		tip = "選択中の艦は既に<color=#92fc63>$1</color>に編成されています。 入れ替えますか？",
 		key = "ship_formationMediator_quest_replace"
 	},
 	ship_formationMediaror_trash_warning = {
@@ -2697,19 +2730,19 @@ pg.gametip = {
 		key = "ship_formationUI_removeError_onlyShip"
 	},
 	ship_formationUI_quest_remove = {
-		tip = "<color=#A9F548>$1</color>を艦隊から外しますか？",
+		tip = "<color=#92fc63>$1</color>を艦隊から外しますか？",
 		key = "ship_formationUI_quest_remove"
 	},
 	ship_newShipLayer_get = {
-		tip = "<color=#A9F548>$1</color> —<color=#A9F548>$2</color>を入手",
+		tip = "<color=#92fc63>$1</color> <color=#92fc63>$2</color>を入手",
 		key = "ship_newShipLayer_get"
 	},
 	ship_newSkinLayer_get = {
-		tip = "<color=#A9F548>$1</color>着せ替え衣装—<color=#A9F548>$2</color>を入手しました！",
+		tip = "<color=#92fc63>$1</color>着せ替え衣装—<color=#92fc63>$2</color>を入手しました！",
 		key = "ship_newSkinLayer_get"
 	},
 	ship_newSkin_name = {
-		tip = "衣装「$1」",
+		tip = "<color=#FFDE38>「$1」</color>",
 		key = "ship_newSkin_name"
 	},
 	ship_shipInfoMediator_destory = {
@@ -2725,11 +2758,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_equipUnlockSlostYesText"
 	},
 	ship_shipInfoScene_effect = {
-		tip = "経験値:<color=#A9F548>$1/$2</color>\n",
+		tip = "経験値:<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipInfoScene_effect"
 	},
 	ship_shipInfoScene_effect1or2 = {
-		tip = "増加: <color=#A9F548>$1</color>",
+		tip = "増加: <color=#92fc63>$1</color>",
 		key = "ship_shipInfoScene_effect1or2"
 	},
 	ship_shipInfoScene_modLvMax = {
@@ -2741,11 +2774,11 @@ pg.gametip = {
 		key = "ship_shipInfoScene_choiseMod"
 	},
 	ship_shipModLayer_effect = {
-		tip = "経験値:<color=#A9F548>$1/$2</color>\n",
+		tip = "経験値:<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipModLayer_effect"
 	},
 	ship_shipModLayer_effect1or2 = {
-		tip = "増加補正: <color=#A9F548>$1</color>",
+		tip = "増加補正: <color=#92fc63>$1</color>",
 		key = "ship_shipModLayer_effect1or2"
 	},
 	ship_shipModLayer_modSuccess = {
@@ -2773,7 +2806,7 @@ pg.gametip = {
 		key = "ship_shipModMediator_noticeSameButLargerStar"
 	},
 	ship_shipModMediator_quest = {
-		tip = "素材に<color=#A9F548>$1</color>の艦が存在しますが、続けますか？",
+		tip = "素材に<color=#92fc63>$1</color>の艦が存在しますが、続けますか？",
 		key = "ship_shipModMediator_quest"
 	},
 	ship_shipUpgradeLayer2_levelError = {
@@ -2789,11 +2822,11 @@ pg.gametip = {
 		key = "ship_shipUpgradeLayer2_ok"
 	},
 	ship_shipUpgradeLayer2_effect = {
-		tip = "経験値:<color=#A9F548>$1/$2</color>\n",
+		tip = "経験値:<color=#92fc63>$1/$2</color>\n",
 		key = "ship_shipUpgradeLayer2_effect"
 	},
 	ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "上昇値: <color=#A9F548>$1</color>",
+		tip = "上昇値: <color=#92fc63>$1</color>",
 		key = "ship_shipUpgradeLayer2_effect1or2"
 	},
 	ship_shipUpgradeLayer2_mod_uncommon_tip = {
@@ -2805,11 +2838,11 @@ pg.gametip = {
 		key = "ship_shipUpgradeLayer2_uncommon_tip"
 	},
 	ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "強化素材に<color=#A9F548>Lvが2以上</color>の艦船がありますが、続けますか？",
+		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？",
 		key = "ship_shipUpgradeLayer2_mod_advanced_tip"
 	},
 	ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "強化素材に<color=#A9F548>Lvが2以上</color>の艦船がありますが、続けますか？",
+		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？",
 		key = "ship_shipUpgradeLayer2_advanced_tip"
 	},
 	ship_mod_exp_to_attr_tip = {
@@ -2833,7 +2866,7 @@ pg.gametip = {
 		key = "ship_destroy_uncommon_tip"
 	},
 	ship_destroy_advanced_tip = {
-		tip = "退役艦船に<color=#A9F548>Lvが2以上</color>の艦船がありますが、続けますか？",
+		tip = "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？",
 		key = "ship_destroy_advanced_tip"
 	},
 	ship_energy_mid_desc = {
@@ -2849,7 +2882,7 @@ pg.gametip = {
 		key = "ship_energy_low_warn"
 	},
 	ship_energy_low_warn_no_exp = {
-		tip = "編成中の<color=#A9F548FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？",
+		tip = "編成中の<color=#92fc63FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？",
 		key = "ship_energy_low_warn_no_exp"
 	},
 	test_ship_intensify_tip = {
@@ -2861,7 +2894,7 @@ pg.gametip = {
 		key = "test_ship_upgrade_tip"
 	},
 	shop_buyItem_ok = {
-		tip = "<color=#A9F548>$2を$1つ</color>購入しました",
+		tip = "<color=#92fc63>$2を$1つ</color>購入しました",
 		key = "shop_buyItem_ok"
 	},
 	shop_buyItem_error = {
@@ -2885,15 +2918,15 @@ pg.gametip = {
 		key = "stage_beginStage_error_fleetEmpty"
 	},
 	stage_beginStage_error_teamEmpty = {
-		tip = "<color=#A9F548>$1</color>は最低<color=#A9F548>$2隻</color>以上必要です！",
+		tip = "<color=#92fc63>$1</color>は最低<color=#92fc63>$2隻</color>以上必要です！",
 		key = "stage_beginStage_error_teamEmpty"
 	},
 	stage_beginStage_error_noEnergy = {
-		tip = "<color=#A9F548>体力</color>が足りません!",
+		tip = "<color=#92fc63>体力</color>が足りません!",
 		key = "stage_beginStage_error_noEnergy"
 	},
 	stage_beginStage_error_noResource = {
-		tip = "<color=#A9F548>燃料</color>が足りません!",
+		tip = "<color=#92fc63>燃料</color>が足りません!",
 		key = "stage_beginStage_error_noResource"
 	},
 	stage_finishStage_error = {
@@ -2909,15 +2942,15 @@ pg.gametip = {
 		key = "levelScene_chapter_lock"
 	},
 	levelScene_chapter_strategying = {
-		tip = "ステージ<color=#A9F548>$1</color> 攻略中",
+		tip = "ステージ<color=#92fc63>$1</color> 攻略中",
 		key = "levelScene_chapter_strategying"
 	},
 	levelScene_threat_to_rule_out = {
-		tip = "脅威排除<color=#A9F548>$1</color>",
+		tip = "脅威排除<color=#92fc63>$1</color>",
 		key = "levelScene_threat_to_rule_out"
 	},
 	levelScene_whether_to_retreat = {
-		tip = "本当に<color=#A9F548>撤退</color>しますか?",
+		tip = "本当に<color=#92fc63>撤退</color>しますか?",
 		key = "levelScene_whether_to_retreat"
 	},
 	levelScene_who_to_retreat = {
@@ -2965,7 +2998,7 @@ pg.gametip = {
 		key = "levelScene_tracking_error_3001"
 	},
 	levelScene_chapter_unlock_tip = {
-		tip = "指揮官Lv<color=#A9F548>$1</color>で開放",
+		tip = "指揮官Lv<color=#92fc63>$1</color>で開放",
 		key = "levelScene_chapter_unlock_tip"
 	},
 	levelScene_chapter_win = {
@@ -3075,15 +3108,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -3124,11 +3157,11 @@ pg.gametip = {
 		key = "levelScene_chapter_timeout"
 	},
 	levelScene_chapter_level_limit = {
-		tip = "指揮官Lv<color=#A9F548>$1</color>で開放します",
+		tip = "指揮官Lv<color=#92fc63>$1</color>で開放します",
 		key = "levelScene_chapter_level_limit"
 	},
 	levelScene_chapter_count_tip = {
-		tip = "挑戦回数：",
+		tip = "今日次数：",
 		key = "levelScene_chapter_count_tip"
 	},
 	levelScene_tracking_error_retry = {
@@ -3168,7 +3201,7 @@ pg.gametip = {
 		key = "levelScene_chapter_not_open"
 	},
 	levelScene_activate_remaster = {
-		tip = "<color=#ffff00>データキー</color>を消費し、常設復刻イベントを開放しますか？（開放中の常設復刻イベントは前倒しで終了します）",
+		tip = "<color=#ffde38>データキー</color>を消費し、常設復刻イベントを開放しますか？（開放中の常設復刻イベントは前倒しで終了します）",
 		key = "levelScene_activate_remaster"
 	},
 	levelScene_remaster_tickets_not_enough = {
@@ -3184,26 +3217,27 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-<color=#A9F548>データキー</color>とは：
-<color=#A9F548>データキー</color>とは、過去開催済みのイベントステージを再度攻略
-出来る<color=#A9F548>作戦履歴</color>を一定時間開放できるアイテムです。
-<color=#A9F548>作戦履歴</color>に実装されるまでの、過去にプレイしたステージの攻略
-進捗は引き継がれません。]]
+<color=#92fc63>データキー</color>とは：
+<color=#92fc63>データキー</color>とは、過去開催済みのイベントステージを
+再度攻略出来る<color=#92fc63>作戦履歴</color>を一定時間開放できるアイテ
+ムです。
+<color=#92fc63>作戦履歴</color>に実装されるまでの、過去にプレイしたステ
+ージの攻略進捗は引き継がれません。]]
 			},
 			{
-				info = "    \n    1.<color=#A9F548>データキー</color>は現状、毎日のデイリー任務で2個手に入れる\nことができます"
+				info = "    \n    1.<color=#92fc63>データキー</color>は現状、毎日のデイリー任務で2個手\nに入れることができます"
 			},
 			{
-				info = "    2.<color=#A9F548>データキー</color>は最大30個所持できます。30個所持している\n状態で新たに手に入った<color=#A9F548>データキー</color>は自動で削除されます"
+				info = "    2.<color=#92fc63>データキー</color>は最大30個所持できます。30個所持\nしている状態で新たに手に入った<color=#92fc63>データキー</color>は自動で\n削除されます"
 			},
 			{
-				info = "    3.<color=#A9F548>データキー</color>1個につき、<color=#A9F548>作戦履歴</color>の常設イベントを１つ、\n15分開放できます"
+				info = "    3.<color=#92fc63>データキー</color>1個につき、<color=#92fc63>作戦履歴</color>の常設イベント\nを１つ、15分開放できます"
 			},
 			{
-				info = "    4.<color=#A9F548>作戦履歴</color>に実装されるイベントのエクストラステージ以外\nのステージを挑戦できます"
+				info = "    4.<color=#92fc63>作戦履歴</color>に実装されるイベントのエクストラステ\nージ以外のステージを挑戦できます"
 			},
 			{
-				info = "    5.ステージ挑戦中にイベントの開放時間が過ぎても、ステージ\nクリア・撤退・作戦時間終了まで挑戦を続行できます"
+				info = "    5.ステージ挑戦中にイベントの開放時間が過ぎても、\nステージクリア・撤退・作戦時間終了まで挑戦を続行\nできます"
 			}
 		}
 	},
@@ -3244,7 +3278,7 @@ pg.gametip = {
 		}
 	},
 	tack_tickets_max_warning = {
-		tip = "<color=#ffff00>データキー</color>の所持回数は上限になっています。任務報酬のデータキーは<color=#D6341DFF>$1</color>しか入手できません。任務報酬を受け取りますか？",
+		tip = "<color=#ffde38>データキー</color>の所持回数は上限になっています。任務報酬のデータキーは<color=#ff5c5c>$1</color>しか入手できません。任務報酬を受け取りますか？",
 		key = "tack_tickets_max_warning"
 	},
 	error_refresh_sub_chapter = {
@@ -3268,15 +3302,15 @@ pg.gametip = {
 		key = "task_submitTask_error_notFinish"
 	},
 	task_taskMediator_getItem = {
-		tip = "入手：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getItem"
 	},
 	task_taskMediator_getResource = {
-		tip = "入手：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getResource"
 	},
 	task_taskMediator_getEquip = {
-		tip = "入手：<color=#A9F548>$1</color>,数量:<color=#A9F548>X$2</color>",
+		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>",
 		key = "task_taskMediator_getEquip"
 	},
 	task_target_chapter_in_progress = {
@@ -3392,7 +3426,7 @@ pg.gametip = {
 		key = "collection_fetched"
 	},
 	buyProp_noResource_error = {
-		tip = "<color=#A9F548>$1</color>不足",
+		tip = "<color=#92fc63>$1</color>不足",
 		key = "buyProp_noResource_error"
 	},
 	refresh_shopStreet_ok = {
@@ -3420,7 +3454,7 @@ pg.gametip = {
 		key = "buy_item_quest"
 	},
 	refresh_shopStreet_question = {
-		tip = "<color=#A9F548>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#FF0000>$3</color></size> 回購入しました)</size>",
+		tip = "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>",
 		key = "refresh_shopStreet_question"
 	},
 	event_start_success = {
@@ -3472,7 +3506,7 @@ pg.gametip = {
 		key = "event_giveup"
 	},
 	event_minimus_ship_numbers = {
-		tip = "<color=#A9F548>$1隻</color>以上必須です",
+		tip = "<color=#92fc63>$1隻</color>以上必須です",
 		key = "event_minimus_ship_numbers"
 	},
 	event_confirm_giveup = {
@@ -3492,15 +3526,15 @@ pg.gametip = {
 		key = "event_same_type_not_allowed"
 	},
 	event_condition_ship_level = {
-		tip = "Lv<color=#A9F548>$1</color>以上の艦<color=#A9F548>1隻</color>以上の必須",
+		tip = "Lv<color=#92fc63>$1</color>以上の艦<color=#92fc63>1隻</color>以上の必須",
 		key = "event_condition_ship_level"
 	},
 	event_condition_ship_count = {
-		tip = "<color=#A9F548>$1</color>隻以上必要",
+		tip = "<color=#92fc63>$1</color>隻以上必要",
 		key = "event_condition_ship_count"
 	},
 	event_condition_ship_type = {
-		tip = "<color=#A9F548>$1</color>限定",
+		tip = "<color=#92fc63>$1</color>限定",
 		key = "event_condition_ship_type"
 	},
 	event_level_unreached = {
@@ -3512,7 +3546,7 @@ pg.gametip = {
 		key = "event_type_unreached"
 	},
 	event_oil_consume = {
-		tip = "委託は<icon name=oil w=0.7 h=0.7/><color=#A9F548>$1</color>の燃料を消費します",
+		tip = "委託は<icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color>の燃料を消費します",
 		key = "event_oil_consume"
 	},
 	event_type_unlimit = {
@@ -3544,15 +3578,15 @@ pg.gametip = {
 		key = "just_now"
 	},
 	several_minutes_before = {
-		tip = "<color=#A9F548>$1</color>分前",
+		tip = "<color=#92fc63>$1</color>分前",
 		key = "several_minutes_before"
 	},
 	several_hours_before = {
-		tip = "<color=#A9F548>$1</color>時間前",
+		tip = "<color=#92fc63>$1</color>時間前",
 		key = "several_hours_before"
 	},
 	several_days_before = {
-		tip = "<color=#A9F548>$1日</color>前",
+		tip = "<color=#92fc63>$1日</color>前",
 		key = "several_days_before"
 	},
 	long_time_offline = {
@@ -3568,7 +3602,7 @@ pg.gametip = {
 		key = "no_activity"
 	},
 	which_day = {
-		tip = "<color=#A9F548>$1</color>日目",
+		tip = "<color=#92fc63>$1</color>日目",
 		key = "which_day"
 	},
 	which_day_2 = {
@@ -3580,7 +3614,7 @@ pg.gametip = {
 		key = "invalidate_evaluation"
 	},
 	chapter_no = {
-		tip = "<color=#A9F548>$1</color>章",
+		tip = "<color=#92fc63>$1</color>章",
 		key = "chapter_no"
 	},
 	reconnect_tip = {
@@ -3711,6 +3745,10 @@ pg.gametip = {
 		tip = "回避上限",
 		key = "attribute_dodge_limit"
 	},
+	attribute_intimacy = {
+		tip = "好感度",
+		key = "attribute_intimacy"
+	},
 	skill = {
 		tip = "スキル",
 		key = "skill"
@@ -3736,7 +3774,7 @@ pg.gametip = {
 		key = "formation_switch_success"
 	},
 	formation_switch_tip = {
-		tip = "隊列維持ができません！操作艦隊を<color=#A9F548>$1</color>に変更します",
+		tip = "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します",
 		key = "formation_switch_tip"
 	},
 	formation_reform_tip = {
@@ -3768,11 +3806,11 @@ pg.gametip = {
 		key = "friend_info_page_tip"
 	},
 	friend_search_page_tip = {
-		tip = "一回で<color=#A9F548>$1</color>人まで検索できます",
+		tip = "一回で<color=#92fc63>$1</color>人まで検索できます",
 		key = "friend_search_page_tip"
 	},
 	friend_request_page_tip = {
-		tip = "申請は最大<color=#A9F548>$1件</color>まで保存できます",
+		tip = "申請は最大<color=#92fc63>$1件</color>まで保存できます",
 		key = "friend_request_page_tip"
 	},
 	friend_id_copy_ok = {
@@ -3883,6 +3921,10 @@ pg.gametip = {
 		tip = "演習勝率:",
 		key = "friend_resume_manoeuvre_win_rate"
 	},
+	friend_resume_fleet_gs = {
+		tip = "艦隊戦力: ",
+		key = "friend_resume_fleet_gs"
+	},
 	friend_event_count = {
 		tip = "委託達成:",
 		key = "friend_event_count"
@@ -3924,7 +3966,7 @@ pg.gametip = {
 		key = "word_shipNation_beiLian"
 	},
 	word_shipNation_other = {
-		tip = "他",
+		tip = "その他",
 		key = "word_shipNation_other"
 	},
 	word_shipNation_np = {
@@ -3968,7 +4010,7 @@ pg.gametip = {
 		key = "word_own1"
 	},
 	oil_buy_limit_tip = {
-		tip = "<size=22>(本日購入可能回数<color=#FF0000>$1</color>/$2回)</size>",
+		tip = "<size=22>(本日購入可能回数<color=#ff5c5c>$1</color>/$2回)</size>",
 		key = "oil_buy_limit_tip"
 	},
 	friend_resume_title = {
@@ -4000,7 +4042,7 @@ pg.gametip = {
 		key = "ship_equip_profiiency"
 	},
 	no_open_system_tip = {
-		tip = "<color=#A9F548>$1</color>は指揮官Lv<color=#A9F548>$2</color>で開放されます",
+		tip = "<color=#92fc63>$1</color>は指揮官Lv<color=#92fc63>$2</color>で開放されます",
 		key = "no_open_system_tip"
 	},
 	open_system_tip = {
@@ -4068,7 +4110,7 @@ pg.gametip = {
 		key = "energy_desc_3"
 	},
 	energy_desc_4 = {
-		tip = "いいことが起こりそうな予感！\n<color=#A9F548>（入手経験値増加）</color>",
+		tip = "いいことが起こりそうな予感！\n<color=#92fc63>（入手経験値増加）</color>",
 		key = "energy_desc_4"
 	},
 	intimacy_desc_1 = {
@@ -4137,23 +4179,23 @@ pg.gametip = {
 		key = "intimacy_desc_propose"
 	},
 	intimacy_desc_1_detail = {
-		tip = "$1があなたに失望した…\n<color=#fad545><size=18>(効果なし)</size></color>",
+		tip = "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>",
 		key = "intimacy_desc_1_detail"
 	},
 	intimacy_desc_2_detail = {
-		tip = "$1があなたのことをもっと知りたいようだ\n<color=#fad545><size=18>(効果なし)</size></color>",
+		tip = "$1があなたのことをもっと知りたいようだ\n<color=#ffde38><size=18>(効果なし)</size></color>",
 		key = "intimacy_desc_2_detail"
 	},
 	intimacy_desc_3_detail = {
-		tip = "$1があなたことが信頼できると考えている\n<color=#A9F548><size=18>性能（速力以外）＋1%</size></color>",
+		tip = "$1があなたことが信頼できると考えている\n<color=#92fc63><size=18>性能（速力以外）＋1%</size></color>",
 		key = "intimacy_desc_3_detail"
 	},
 	intimacy_desc_4_detail = {
-		tip = "$1があなたと一緒にいるといつも嬉しそうだ\n<color=#A9F548><size=18>性能（速力以外）＋3%</size></color>",
+		tip = "$1があなたと一緒にいるといつも嬉しそうだ\n<color=#92fc63><size=18>性能（速力以外）＋3%</size></color>",
 		key = "intimacy_desc_4_detail"
 	},
 	intimacy_desc_5_detail = {
-		tip = "$1の目から想いが伝わってくる\n<color=#A9F548><size=18>性能（速力以外）＋6%</size></color>",
+		tip = "$1の目から想いが伝わってくる\n<color=#92fc63><size=18>性能（速力以外）＋6%</size></color>",
 		key = "intimacy_desc_5_detail"
 	},
 	intimacy_desc_6_detail = {
@@ -4282,15 +4324,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4354,15 +4396,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4426,15 +4468,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4498,15 +4540,83 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_shipinfo_maxlevel = {
+		key = "help_shipinfo_maxlevel",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/bullet"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/energy"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/fanqian"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 8,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4599,15 +4709,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -4634,10 +4744,10 @@ pg.gametip = {
 				info = "1.強化表示："
 			},
 			{
-				info = "       <color=#A9F548FF>装備</color>：装備している兵装のステータス強化を表示する"
+				info = "  <color=#92fc63FF>装備</color>：装備している兵装のステータス強化を表示する"
 			},
 			{
-				info = "       <color=#FFDE00FF>技術</color>：艦隊技術によるステータス強化を表示する"
+				info = "  <color=#FFDE00FF>技術</color>：艦隊技術によるステータス強化を表示する"
 			},
 			{
 				info = "2.性能について："
@@ -4647,8 +4757,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "durability"
 				}
 			},
@@ -4657,8 +4767,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "damage"
 				}
 			},
@@ -4667,18 +4777,22 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "antiaircraft"
 				}
 			},
 			{
-				info = "    装甲タイプ：装甲が厚ければ、大口径砲のダメージが軽減\n また小口径砲によるダメージを無効にすることが可能\n （ダメージ軽減率：重装甲>中装甲>軽装甲）",
+				info = [[
+    装甲タイプ：装甲が厚ければ、大口径砲のダメージ
+が軽減
+    また小口径砲によるダメージを無効にすることが可
+能（ダメージ軽減率：重装甲>中装甲>軽装甲）]],
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "armor"
 				}
 			},
@@ -4687,8 +4801,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "torpedo"
 				}
 			},
@@ -4697,8 +4811,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "air"
 				}
 			},
@@ -4707,8 +4821,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "reload"
 				}
 			},
@@ -4717,8 +4831,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "dodge"
 				}
 			},
@@ -4727,8 +4841,8 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "luck"
 				}
 			},
@@ -4737,53 +4851,58 @@ pg.gametip = {
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "antisub"
 				}
 			},
 			{
-				info = "    潜航力：最大潜航時間。潜航状態で消費し続け、\n    0になると浮上状態になる",
+				info = "    潜航力：最大潜航時間。潜航状態で消費し続け、\n0になると浮上状態になる",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "oxy_max"
 				}
 			},
 			{
-				info = "    弾薬量：戦闘中の潜水艦支援と海域マップでの敵艦隊漸減は\n    弾薬を消費する",
+				info = "    弾薬量：戦闘中の潜水艦支援と海域マップでの敵艦\n隊漸減は弾薬を消費する",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "ammo"
 				}
 			},
 			{
-				info = "    支援範囲：潜水艦隊の支援範囲内での戦闘中、\n    潜水艦隊の弾薬を消費し、潜水艦支援を行うことが可能；\n    潜水艦隊は自動で支援範囲内の敵に向けて移動し漸減作戦を行う",
+				info = [[
+    支援範囲：潜水艦隊の支援範囲内での戦闘中、
+    潜水艦隊の弾薬を消費し、潜水艦支援を行うことが
+可能；
+    潜水艦隊は自動で支援範囲内の敵に向けて移動し漸
+減作戦を行う]],
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
+					posY = -6,
+					scale = 0.6,
 					path = "hunt_range"
 				}
 			},
 			{
-				info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータ\n    ス。戦闘には多くの要素に微々たる影響を与える",
+				info = "    運：KAN-SENのカンレキ・リュウコツに影響され\nるステータス。戦闘には多くの要素に微々たる影響を与\nえる",
 				icon = {
 					posX = 0,
 					atlas = "attricon",
-					posY = 0,
-					scale = 0.66,
+					posY = -6,
+					scale = 1,
 					path = "icon_luck"
 				}
 			},
 			{
-				info = "3.コンディション:\n コンディションが低いままで出撃させると、親密度が下がり、\n もらえる経験値が半分になる"
+				info = "3.コンディション:\n    コンディションが低いままで出撃させると、親密度\nが下がり、もらえる経験値が半分になる"
 			}
 		}
 	},
@@ -4795,8 +4914,8 @@ pg.gametip = {
 艦種ごとの装備可能装備が異なります
 
 • 140mm口径以下の艦砲：
-駆逐艦・軽巡の主砲、もしくは戦艦・重巡・軽巡の副砲として装備
-可能
+駆逐艦・軽巡の主砲、もしくは戦艦・重巡・軽巡の副
+砲として装備可能
 
 • 140mm口径以上、200mm口径以下の艦砲：
 軽巡の主砲、もしくは戦艦の副砲として装備可能
@@ -4823,11 +4942,13 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-・装備外装は発射する弾や艦載機の外見のみを変更し、性能や判定
-には影響しません（弾道や弾速、発射速度、命中判定など）
+・装備外装は発射する弾や艦載機の外見のみを変更し、
+性能や判定には影響しません（弾道や弾速、発射速度、
+命中判定など）
 
-・装備外装は、個別に適用可能な兵装の種類が決まっています。装
-備外装は1つにつき1キャラ分しか装備できません
+・装備外装は、個別に適用可能な兵装の種類が決まっ
+ています。装備外装は1つにつき1キャラ分しか装備で
+きません
 
 ・装備外装は倉庫の所持枠を消費しません]]
 			}
@@ -4845,74 +4966,66 @@ pg.gametip = {
 強襲作戦開放時間：水、土、日
 
 戦術研究解放時間：毎日
-<color=#A9F548>戦術研究（航空）</color> では、<color=#A9F548>航空攻撃</color>が効果大
-<color=#A9F548>戦術研究（主砲）</color>では、<color=#A9F548>主力艦隊の主砲攻撃</color>が効果大
-<color=#A9F548>戦術研究（雷撃）</color> では、<color=#A9F548>前衛艦隊の魚雷攻撃</color>が効果大]]
+<color=#92fc63>戦術研究（航空）</color> では、<color=#92fc63>航空攻撃</color>が効果大
+<color=#92fc63>戦術研究（主砲）</color>では、<color=#92fc63>主力艦隊の主砲攻撃</color>が効果大
+<color=#92fc63>戦術研究（雷撃）</color> では、<color=#92fc63>前衛艦隊の魚雷攻撃</color>が効果大]]
 			}
 		}
 	},
 	help_build = {
 		tip = [[
-					<size=19>レアリティ出現割合</size>
+					   <size=25>$1建造概率分布</size>
 
-						<color=#fff157>SSレア</color>：$2%
-						<color=#966af6>Sレア</color>：$3%
-						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%]],
 		key = "help_build"
 	},
 	help_build_1 = {
 		tip = [[
-					<size=19>レアリティ出現割合</size>
+					   <size=25>$1建造概率分布</size>
 
-						<color=#fff157>SSレア</color>：$2%
-						<color=#966af6>Sレア</color>：$3%
-						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
-
-						]],
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%]],
 		key = "help_build_1"
 	},
 	help_build_2 = {
 		tip = [[
-					<size=19>レアリティ出現割合</size>
+					   <size=25>$1建造概率分布</size>
 
-						<color=#fff157>SSレア</color>：$2%
-						<color=#966af6>Sレア</color>：$3%
-						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%]],
+							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%]],
 		key = "help_build_2"
 	},
 	help_build_4 = {
 		tip = [[
-					<size=19>レアリティ出現割合
+<size=19>							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%
 
-						<color=#fff157>SSレア</color>：$2%
-						<color=#966af6>Sレア</color>：$3%
-						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
-
-						【期間限定】
-			<color=#fff157>キズナアイ・アニバーサリー</color>：2%<color=#A9F548>(up!)</color>
-			<color=#fff157>キズナアイ・スーパーゲーマー</color>：2%<color=#A9F548>(up!)</color>
-			<color=#fff157>キズナアイ・エレガント</color>：0.5%</size>]],
+							  【限时建造】
+							<color=#ffde38>      猫音</color>：2%<color=#92fc63>(up!)</color>
+					<color=#ffde38>        露露缇耶</color>：2%<color=#92fc63>(up!)</color>
+						<color=#d797ff>       乌璐露</color>：2.5%<color=#92fc63>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
 		tip = [[
-					<size=19>レアリティ出現割合
-						<color=#fff157>SSレア</color>：$2%
-						<color=#966af6>Sレア</color>：$3%
-						<color=#60a9ff>レア</color>：$4%
-						ノーマル：$5%
+<size=19>							<color=#ffde38>超稀有舰船</color>：$2%
+							 <color=#d797ff>精锐舰船</color>：$3%
+							 <color=#3dc6ff>稀有舰船</color>：$4%
+							 普通舰船：$5%
 
-						【期間限定】
-				<color=#fff157>ブラックハート</color>：2.25%<color=#A9F548FF>(up!)</color>
-				<color=#fff157>グリーンハート</color>：2.25%<color=#A9F548FF>(up!)</color>
-				<color=#fff157>パープルハート</color>：0.75% 
-				<color=#fff157>ホワイトハート</color>：0.75%</size>
-					   <color=#966af6>ノワール</color>：3.15%<color=#A9F548FF>(up!)</color>
-						  <color=#966af6>ブラン</color>：1.05%]],
+							  【限时建造】
+			<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>
+			<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%
+			<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>]],
 		key = "help_build_5"
 	},
 	help_shipinfo_hunting = {
@@ -4921,26 +5034,28 @@ pg.gametip = {
 			{
 				info = [[
 支援範囲について
-・海域マップに出撃した時、潜水艦隊の旗艦の支援範囲が潜水艦隊
-の「支援範囲」になります。
+・海域マップに出撃した時、潜水艦隊の旗艦の支援範
+囲が潜水艦隊の「支援範囲」になります。
 
-・潜水艦隊は支援範囲内の敵に向かって自動で移動し、「漸減作戦」
-で敵の戦力を弱体化させます。
+・潜水艦隊は支援範囲内の敵に向かって自動で移動し、
+「漸減作戦」で敵の戦力を弱体化させます。
 
-・また、味方艦隊が潜水艦隊の支援範囲内で敵艦隊と戦闘を行った
-場合、戦闘中に「潜水支援」が使用可能になります。
+・また、味方艦隊が潜水艦隊の支援範囲内で敵艦隊と
+戦闘を行った場合、戦闘中に「潜水支援」が使用可能
+になります。
 
-・「漸減作戦」は弾薬のみ消費します。「潜水支援」は弾薬と燃料
-を消費します。
+・「漸減作戦」は弾薬のみ消費します。「潜水支援」
+は弾薬と燃料を消費します。
 
-・「漸減作戦」の有無（移動の有無）は海域移動画面右の態勢変更
-ボタンで変更できます。
+・「漸減作戦」の有無（移動の有無）は海域移動画面
+右の態勢変更ボタンで変更できます。
 
 支援範囲レベル：
-・支援範囲レベルが高い程、自身の支援範囲が広くなります。
+・支援範囲レベルが高い程、自身の支援範囲が広くな
+ります。
 
-・支援範囲レベルは限界突破や装備、スキルで上昇させることがで
-きます。]]
+・支援範囲レベルは限界突破や装備、スキルで上昇さ
+せることができます。]]
 			}
 		}
 	},
@@ -4953,15 +5068,15 @@ pg.gametip = {
 		key = "shop_extendequip_success"
 	},
 	naval_academy_res_desc_cateen = {
-		tip = "みんながワイワイ盛り上げる食堂。増築で<color=#A9F548>燃料の入手量</color>と<color=#A9F548>備蓄上限</color>UP！",
+		tip = "みんながワイワイ盛り上げる食堂。増築で<color=#92fc63>燃料の入手量</color>と<color=#92fc63>備蓄上限</color>UP！",
 		key = "naval_academy_res_desc_cateen"
 	},
 	naval_academy_res_desc_shop = {
-		tip = "海軍学園の売店。増築で<color=#A9F548>資金の入手量</color>と<color=#A9F548>備蓄上限</color>UP！",
+		tip = "海軍学園の売店。増築で<color=#92fc63>資金の入手量</color>と<color=#92fc63>備蓄上限</color>UP！",
 		key = "naval_academy_res_desc_shop"
 	},
 	naval_academy_res_desc_class = {
-		tip = "大講堂を強化すると、<color=#A9F548>熟練度上限、授業における熟練度変換の速さ</color>と<color=#A9F548>熟練度入手倍率</color>が上昇",
+		tip = "大講堂を強化すると、<color=#92fc63>熟練度上限、授業における熟練度変換の速さ</color>と<color=#92fc63>熟練度入手倍率</color>が上昇",
 		key = "naval_academy_res_desc_class"
 	},
 	number_1 = {
@@ -5005,7 +5120,7 @@ pg.gametip = {
 		key = "number_10"
 	},
 	military_shop_no_open_tip = {
-		tip = "<color=#A9F548>特別補給</color>は指揮官Lv<color=#A9F548>15</color>で開放",
+		tip = "<color=#92fc63>特別補給</color>は指揮官Lv<color=#92fc63>15</color>で開放",
 		key = "military_shop_no_open_tip"
 	},
 	switch_to_shop_tip_1 = {
@@ -5032,6 +5147,10 @@ pg.gametip = {
 		tip = "拡張",
 		key = "text_noPos_buy"
 	},
+	text_noPos_intensify = {
+		tip = "強化",
+		key = "text_noPos_intensify"
+	},
 	switch_to_shop_tip_noDockyard = {
 		tip = "ドックが一杯です。艦を退役するか、所持枠拡張をお願いします",
 		key = "switch_to_shop_tip_noDockyard"
@@ -5045,7 +5164,7 @@ pg.gametip = {
 		key = "commission_open_tip"
 	},
 	commission_idle = {
-		tip = "委託可能",
+		tip = "待機枠",
 		key = "commission_idle"
 	},
 	commission_urgency = {
@@ -5121,7 +5240,7 @@ pg.gametip = {
 		key = "text_noRes_tip"
 	},
 	text_noRes_info_tip = {
-		tip = "<color=#FF0000>$2$1</color>",
+		tip = "<color=#ff5c5c>$2$1</color>",
 		key = "text_noRes_info_tip"
 	},
 	text_noRes_info_tip_link = {
@@ -5129,7 +5248,7 @@ pg.gametip = {
 		key = "text_noRes_info_tip_link"
 	},
 	text_noRes_info_tip2 = {
-		tip = "<color=#FF0000>$2</color>の<color=#FF0000>$1</color>",
+		tip = "<color=#ff5c5c>$2</color>の<color=#ff5c5c>$1</color>",
 		key = "text_noRes_info_tip2"
 	},
 	text_shop_noRes_tip = {
@@ -5202,15 +5321,15 @@ pg.gametip = {
 			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -5240,11 +5359,11 @@ pg.gametip = {
 		}
 	},
 	backyard_theme_set_tip = {
-		tip = "<color=#5FD500>$1</color>への操作を選択してください",
+		tip = "<color=#92fc63>$1</color>への操作を選択してください",
 		key = "backyard_theme_set_tip"
 	},
 	backyard_theme_save_tip = {
-		tip = "寮舎配置を保存しますか？:\n<color=#5FD500>$1</color>",
+		tip = "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>",
 		key = "backyard_theme_save_tip"
 	},
 	backyard_theme_defaultname = {
@@ -5271,32 +5390,35 @@ pg.gametip = {
 		key = "help_battle_auto",
 		tip = {
 			{
-				info = "                        オート戦闘ではこうなることも……:",
+				info = "            オート戦闘ではこうなることも……:",
 				line = true,
 				icon = {
-					posX = 2.4,
+					posX = -18,
 					atlas = "helpbg/zilv",
-					posY = -34,
-					scale = 1,
+					posY = -55,
+					scale = 1.5,
 					path = ""
 				}
 			},
 			disableScroll = true,
 			helpbg = true,
-			helpSize = {
-				y = 264
-			},
 			windowSize = {
-				y = 440
+				y = 710
+			},
+			helpSize = {
+				y = 400
+			},
+			helpPos = {
+				y = 45
 			}
 		}
 	},
 	gold_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>100</color></size>で <size=25><color=#A9F548>3000</color></size><size=24> 資金を購入する</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>100</color></size>で <size=30><color=#92fc63>3000</color></size><size=30> 資金を購入する</size>",
 		key = "gold_buy_tip"
 	},
 	oil_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/><size=25><color=#A9F548>$1</color></size>で  <size=25><color=#A9F548>$2</color></size><size=24> 燃料を購入する</size><size=2>\n\n</size><size=22>( 本日購入 <size=25><color=#FF0000>$3</color></size> 回 )</size>",
+		tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>で  <size=30><color=#92fc63>$2</color></size><size=30> 燃料を購入する</size><size=2>\n\n</size><size=30>( 本日購入 <size=30><color=#FF0000>$3</color></size> 回 )</size>",
 		key = "oil_buy_tip"
 	},
 	text_iknow = {
@@ -5552,19 +5674,19 @@ pg.gametip = {
 		key = "guild_msg_is_null"
 	},
 	guild_log_new_guild_join = {
-		tip = "新メンバー <color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> が大艦隊に参加しました",
+		tip = "新メンバー <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> が大艦隊に参加しました",
 		key = "guild_log_new_guild_join"
 	},
 	guild_log_duty_change = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color> の役職が $2に変更されました",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> の役職が $2に変更されました",
 		key = "guild_log_duty_change"
 	},
 	guild_log_quit = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました",
 		key = "guild_log_quit"
 	},
 	guild_log_fire = {
-		tip = "<color=#A9F548><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から除名されました",
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から除名されました",
 		key = "guild_log_fire"
 	},
 	guild_leave_cd_time = {
@@ -5640,7 +5762,7 @@ pg.gametip = {
 		key = "guild_fire_succeed"
 	},
 	battle_repair_special_tip = {
-		tip = "<color=#a0ff40>応急修理小隊</color>を使用しますか？",
+		tip = "<color=#92fc63>応急修理小隊</color>を使用しますか？",
 		key = "battle_repair_special_tip"
 	},
 	battle_repair_normal_name = {
@@ -5772,7 +5894,7 @@ pg.gametip = {
 		key = "login_wait_tip"
 	},
 	ship_equip_exchange_tip = {
-		tip = "<color=#a0ff40>$1</color>に装備されている<color=#a0ff40>$2</color>を<color=#a0ff40>$3</color>に装備しますか？",
+		tip = "<color=#92fc63>$1</color>に装備されている<color=#92fc63>$2</color>を<color=#92fc63>$3</color>に装備しますか？",
 		key = "ship_equip_exchange_tip"
 	},
 	ship_rename_success = {
@@ -5812,7 +5934,7 @@ pg.gametip = {
 		key = "elite_warp_to_latest_map"
 	},
 	elite_fleet_confirm = {
-		tip = "$1が出撃条件に<color=#ff0000>満たしていません</color>ため、戦闘に参加できませんが、本当に出撃しますか？",
+		tip = "$1が出撃条件に<color=#ff5c5c>満たしていません</color>ため、戦闘に参加できませんが、本当に出撃しますか？",
 		key = "elite_fleet_confirm"
 	},
 	elite_condition_level = {
@@ -5939,18 +6061,18 @@ pg.gametip = {
 			},
 			{
 				info = [[
-・「鏡面海域」は<color=#a0ff40>2018年1月12日(金)</color>メンテナンスまで挑戦可能です;
-・「鏡面海域」には母港から<color=#a0ff40>15隻</color>、<color=#a0ff40>友達</color>の秘書艦1隻を合わせて最大<color=#a0ff40>16
+・「鏡面海域」は<color=#92fc63>2018年1月12日(金)</color>メンテナンスまで挑戦可能です;
+・「鏡面海域」には母港から<color=#92fc63>15隻</color>、<color=#92fc63>友達</color>の秘書艦1隻を合わせて最大<color=#92fc63>16
 隻</color>まで海域に出撃できます;
-一度出撃メンバーを決定するとリセットを行うまで<color=#a0ff40>変更はできない</color>ので、
+一度出撃メンバーを決定するとリセットを行うまで<color=#92fc63>変更はできない</color>ので、
 注意してください;
-・「鏡面海域」は<color=#a0ff40>1日1回</color>のみリセットが可能です。<color=#a0ff40>※初日はリセットは
+・「鏡面海域」は<color=#92fc63>1日1回</color>のみリセットが可能です。<color=#92fc63>※初日はリセットは
 できません;</color>
 ・ 隊列を維持できなくなった場合、他の艦を編成をしてください。
 それでも戦闘可能な編成が行えなくなった場合、リセットしてください;
-・「鏡面海域」では<color=#a0ff40>1回</color>の挑戦で「鏡像艦隊」が<color=#a0ff40>10艦隊</color>出現し、艦隊を
-撃破する度にイベント報酬と交換できる<color=#a0ff40>PT素子</color>を入手できます;
-・<color=#a0ff40>「鏡面海域」での戦闘は燃料を消費しません。</color>また、ここでの戦闘結
+・「鏡面海域」では<color=#92fc63>1回</color>の挑戦で「鏡像艦隊」が<color=#92fc63>10艦隊</color>出現し、艦隊を
+撃破する度にイベント報酬と交換できる<color=#92fc63>PT素子</color>を入手できます;
+・<color=#92fc63>「鏡面海域」での戦闘は燃料を消費しません。</color>また、ここでの戦闘結
 果は任務の出撃回数にはカウントされません;
 ・「鏡面海域」での戦闘結果によって経験値、コンディション、好感度
 の増減はございません;
@@ -6019,7 +6141,7 @@ pg.gametip = {
 		key = "ship_remould_material_ship_on_exist"
 	},
 	ship_remould_material_unlock_skill = {
-		tip = "習得: <color=#a0ff40>$1</color>",
+		tip = "習得: <color=#92fc63>$1</color>",
 		key = "ship_remould_material_unlock_skill"
 	},
 	ship_remould_prev_lock = {
@@ -6059,47 +6181,47 @@ pg.gametip = {
 		key = "ship_remould_sueecss"
 	},
 	ship_remould_warning_102174 = {
-		tip = "近代化改修は<color=#A9F548>輝く☆マイク</color>を消費します。\n続けますか？ ",
+		tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？ ",
 		key = "ship_remould_warning_102174"
 	},
 	ship_remould_warning_205124 = {
-		tip = "近代化改修は<color=#A9F548>戦士の心得</color>を消費します。\n続けますか？ ",
+		tip = "近代化改修は<color=#92fc63>戦士の心得</color>を消費します。\n続けますか？ ",
 		key = "ship_remould_warning_205124"
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。
-副兵装は<color=#A9F548>【水上機】</color>に変更されます。
+<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
-改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
+改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
 		key = "ship_remould_warning_310014"
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。
-副兵装は<color=#A9F548>【水上機】</color>に変更されます。
+<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
-改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
+改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
 		key = "ship_remould_warning_310024"
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
-<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。
-副兵装は<color=#A9F548>【水上機】</color>に変更されます。
+<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
-改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
+改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
 		key = "ship_remould_warning_310034"
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
-<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。
-副兵装は<color=#A9F548>【水上機】</color>に変更されます。
+<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
-改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
+改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
 		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
-		tip = "<size=26>改造で<color=#A9F548>$1</color>の艦種が変更されます。\n主砲枠は<color=#A9F548>主砲（軽巡用）</color>→<color=#A9F548>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#A9F548><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		tip = "<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
 		key = "ship_remould_warning_303154"
 	},
 	word_soundfiles_download_title = {
@@ -6227,51 +6349,51 @@ pg.gametip = {
 		key = "mingshi_get_tip"
 	},
 	mingshi_task_tip_1 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>T</color>>\n次の目標は…<<color=#a0ff40>素材を置く場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>T</color>>\n次の目標は…<<color=#92fc63>素材を置く場所</color>>にゃ！",
 		key = "mingshi_task_tip_1"
 	},
 	mingshi_task_tip_2 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>O</color>>\n次の目標は…<<color=#a0ff40>スキルを上げる場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>O</color>>\n次の目標は…<<color=#92fc63>スキルを上げる場所</color>>にゃ！",
 		key = "mingshi_task_tip_2"
 	},
 	mingshi_task_tip_3 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>U</color>>\n次の目標は…<<color=#a0ff40>アイテムを売る場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>U</color>>\n次の目標は…<<color=#92fc63>アイテムを売る場所</color>>にゃ！",
 		key = "mingshi_task_tip_3"
 	},
 	mingshi_task_tip_4 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>C</color>>\n次の目標は…<<color=#a0ff40>任務を受ける場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>C</color>>\n次の目標は…<<color=#92fc63>任務を受ける場所</color>>にゃ！",
 		key = "mingshi_task_tip_4"
 	},
 	mingshi_task_tip_5 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>H</color>>\n次の目標は…<<color=#a0ff40>艦隊を編成する場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！",
 		key = "mingshi_task_tip_5"
 	},
 	mingshi_task_tip_6 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>A</color>>\n次の目標は…<<color=#a0ff40>お休みする場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>A</color>>\n次の目標は…<<color=#92fc63>お休みする場所</color>>にゃ！",
 		key = "mingshi_task_tip_6"
 	},
 	mingshi_task_tip_7 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>K</color>>\n次の目標は…<<color=#a0ff40>これくしょん</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>K</color>>\n次の目標は…<<color=#92fc63>これくしょん</color>>にゃ！",
 		key = "mingshi_task_tip_7"
 	},
 	mingshi_task_tip_8 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>A</color>>\n次の目標は…<<color=#a0ff40>遠征を準備する場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>A</color>>\n次の目標は…<<color=#92fc63>遠征を準備する場所</color>>にゃ！",
 		key = "mingshi_task_tip_8"
 	},
 	mingshi_task_tip_9 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>S</color>>\n次の目標は…<<color=#a0ff40>ライバルと戦う場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>S</color>>\n次の目標は…<<color=#92fc63>ライバルと戦う場所</color>>にゃ！",
 		key = "mingshi_task_tip_9"
 	},
 	mingshi_task_tip_10 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>H</color>>\n最後の目標は…<<color=#a0ff40>新たな仲間を集める場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n最後の目標は…<<color=#92fc63>新たな仲間を集める場所</color>>にゃ！",
 		key = "mingshi_task_tip_10"
 	},
 	mingshi_task_tip_11 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#a0ff40>I30</color>>\n最初の目標は…<<color=#a0ff40>みんなが集まる場所</color>>にゃ！",
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>I30</color>>\n最初の目標は…<<color=#92fc63>みんなが集まる場所</color>>にゃ！",
 		key = "mingshi_task_tip_11"
 	},
 	word_propose_changename_title = {
-		tip = "<color=#a0ff40>$1</color>はあなたの専属艦になりました。名前を変更しますか？",
+		tip = "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？",
 		key = "word_propose_changename_title"
 	},
 	word_propose_changename_tip1 = {
@@ -6327,11 +6449,11 @@ pg.gametip = {
 		key = "ship_proposeShip_error_1"
 	},
 	word_rename_time_warning = {
-		tip = "名前を変更すると、30日間名前を変更できなくなります。<color=#a0ff40>$1</color>の名前を<color=#a0ff40>$2</color>に変更しますか？",
+		tip = "名前を変更すると、30日間名前を変更できなくなります。<color=#92fc63>$1</color>の名前を<color=#92fc63>$2</color>に変更しますか？",
 		key = "word_rename_time_warning"
 	},
 	word_propose_cost_tip = {
-		tip = "<size=22>ケッコンは誓いの指輪を<color=#a0ff40>1</color>つ消費します（所持数：<color=#a0ff40>$1</color>）</size>\n\n<size=20>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#a0ff40>3%</color>強化されます</size>",
+		tip = "ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>",
 		key = "word_propose_cost_tip"
 	},
 	evaluate_too_loog = {
@@ -6343,23 +6465,23 @@ pg.gametip = {
 		key = "evaluate_ban_word"
 	},
 	activity_level_easy_tip = {
-		tip = "注意：ノーマルモードを選択すると、<color=#a0ff40>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります",
+		tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります",
 		key = "activity_level_easy_tip"
 	},
 	activity_level_difficulty_tip = {
-		tip = "注意：ハードモードを選択すると、<color=#a0ff40>ノーマルモードでの攻略進捗がなくなります</color>",
+		tip = "注意：ハードモードを選択すると、<color=#92fc63>ノーマルモードでの攻略進捗がなくなります</color>",
 		key = "activity_level_difficulty_tip"
 	},
 	activity_level_limit_tip = {
-		tip = "注意：<color=#a0ff40>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません",
+		tip = "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません",
 		key = "activity_level_limit_tip"
 	},
 	activity_level_inwarime_tip = {
-		tip = "イベントステージ<color=#a0ff40>$1</color>攻略中。難易度を変更するにはまず出撃中の艦隊を撤退させてください",
+		tip = "イベントステージ<color=#92fc63>$1</color>攻略中。難易度を変更するにはまず出撃中の艦隊を撤退させてください",
 		key = "activity_level_inwarime_tip"
 	},
 	activity_level_pass_easy_tip = {
-		tip = "注意：<color=#a0ff40>ノーマルモードを全部クリアしないと</color>エクストラモードを選択できません",
+		tip = "注意：<color=#92fc63>ノーマルモードを全部クリアしないと</color>エクストラモードを選択できません",
 		key = "activity_level_pass_easy_tip"
 	},
 	activity_level_is_closed = {
@@ -6367,7 +6489,7 @@ pg.gametip = {
 		key = "activity_level_is_closed"
 	},
 	activity_switch_tip = {
-		tip = "注意：ノーマルモードを選択すると、<color=#a0ff40>ハードモードでの攻略進捗がなくなります</color>（ノーマルモードを全部クリアしないとハードモードを選択できません）。本当に難易度を変更しますか？",
+		tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ハードモードでの攻略進捗がなくなります</color>（ノーマルモードを全部クリアしないとハードモードを選択できません）。本当に難易度を変更しますか？",
 		key = "activity_switch_tip"
 	},
 	reduce_sp3_pass_count = {
@@ -6459,7 +6581,7 @@ pg.gametip = {
 		key = "chapter_tip_use"
 	},
 	chapter_tip_with_npc = {
-		tip = "<color=#D6341DFF>イベントステージ</color>に出撃します\n一つ目の出撃艦隊の前衛に<color=#D6341DFF>NPC$1</color>が一時参加するため、\n前衛艦隊の編成枠を1隻分空けてください",
+		tip = "<color=#ff5c5c>イベントステージ</color>に出撃します\n一つ目の出撃艦隊の前衛に<color=#ff5c5c>NPC$1</color>が一時参加するため、\n前衛艦隊の編成枠を1隻分空けてください",
 		key = "chapter_tip_with_npc"
 	},
 	chapter_tip_bp_ammo = {
@@ -6467,7 +6589,7 @@ pg.gametip = {
 		key = "chapter_tip_bp_ammo"
 	},
 	build_ship_tip = {
-		tip = "$2を<color=#D6341DFF>$1隻</color>建造するには下記アイテムを消費します:\n<color=$5>資金$3</color>と<color=$5>メンタルキューブ$4</color>",
+		tip = "$2を<color=#ff5c5c>$1隻</color>建造するには下記アイテムを消費します:\n<color=$5>資金$3</color>と<color=$5>メンタルキューブ$4</color>",
 		key = "build_ship_tip"
 	},
 	auto_battle_limit_tip = {
@@ -6475,11 +6597,11 @@ pg.gametip = {
 		key = "auto_battle_limit_tip"
 	},
 	build_ship_quickly_buy_stone = {
-		tip = "<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\nキューブを<color=#A9F548>$2</color>個購入しますか？",
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\nキューブを<color=#92fc63>$2</color>個購入しますか？",
 		key = "build_ship_quickly_buy_stone"
 	},
 	build_ship_quickly_buy_tool = {
-		tip = "<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#A9F548>$2</color>個購入しますか？",
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？",
 		key = "build_ship_quickly_buy_tool"
 	},
 	ship_profile_voice_locked = {
@@ -6609,63 +6731,63 @@ pg.gametip = {
 		key = "words_display_ship_get_effect"
 	},
 	activity_puzzle_get1 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務7</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務7</color>",
 		key = "activity_puzzle_get1"
 	},
 	activity_puzzle_get2 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル2-1</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-1</color>",
 		key = "activity_puzzle_get2"
 	},
 	activity_puzzle_get3 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル2-3</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-3</color>",
 		key = "activity_puzzle_get3"
 	},
 	activity_puzzle_get4 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル3-1</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-1</color>",
 		key = "activity_puzzle_get4"
 	},
 	activity_puzzle_get5 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル3-3</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-3</color>",
 		key = "activity_puzzle_get5"
 	},
 	activity_puzzle_get6 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル3-4</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-4</color>",
 		key = "activity_puzzle_get6"
 	},
 	activity_puzzle_get7 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル2-2</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-2</color>",
 		key = "activity_puzzle_get7"
 	},
 	activity_puzzle_get8 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル2-4</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-4</color>",
 		key = "activity_puzzle_get8"
 	},
 	activity_puzzle_get9 = {
-		tip = "<color=#A9F548FF>入手方法\nノーマル3-2</color>",
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-2</color>",
 		key = "activity_puzzle_get9"
 	},
 	activity_puzzle_get10 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務1</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務1</color>",
 		key = "activity_puzzle_get10"
 	},
 	activity_puzzle_get11 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務2</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務2</color>",
 		key = "activity_puzzle_get11"
 	},
 	activity_puzzle_get12 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務3</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務3</color>",
 		key = "activity_puzzle_get12"
 	},
 	activity_puzzle_get13 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務4</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務4</color>",
 		key = "activity_puzzle_get13"
 	},
 	activity_puzzle_get14 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務5</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務5</color>",
 		key = "activity_puzzle_get14"
 	},
 	activity_puzzle_get15 = {
-		tip = "<color=#A9F548FF>入手方法\n限定任務6</color>",
+		tip = "<color=#92fc63FF>入手方法\n限定任務6</color>",
 		key = "activity_puzzle_get15"
 	},
 	word_stopremain_build = {
@@ -6689,7 +6811,7 @@ pg.gametip = {
 		key = "set_birth_title"
 	},
 	set_birth_confirm_tip = {
-		tip = "誕生日を$1に設定しますか？\n<color=#FF0000>※あとから変更できません</color>",
+		tip = "誕生日を$1に設定しますか？\n<color=#ff5c5c>※あとから変更できません</color>",
 		key = "set_birth_confirm_tip"
 	},
 	set_birth_empty_tip = {
@@ -6883,35 +7005,43 @@ pg.gametip = {
 				info = [[
 大講堂について
 
-大講堂に「学生」を配置し、「授業」を行わせることで、艦隊が保
-有している「熟練度」を学生の経験値に変換することができます。
+大講堂に「学生」を配置し、「授業」を行わせること
+で、艦隊が保有している「熟練度」を学生の経験値に
+変換することができます。
 
 ・熟練度について
-限界突破を3回行ったレベル100以上の艦は出撃時、得られる経験
-値の一定割合分の熟練度を獲得できます。
-熟練度は艦隊全体で共有し、上限分しかストックできません。
-大講堂を強化すると、熟練度保有上限・熟練度の獲得効率を上昇さ
-せることができます。
+限界突破を3回行ったレベル100以上の艦は出撃時、
+得られる経験値の一定割合分の熟練度を獲得できます。
+熟練度は艦隊全体で共有し、上限分しかストックでき
+ません。
+大講堂を強化すると、熟練度保有上限・熟練度の獲得
+効率を上昇させることができます。
 
 ・授業について
-「授業」では毎日特定の艦種の艦を「学生」として配置できます。
-開始した「授業」はいつでも終了することができます。
-「授業」が終了すると、経過した時間に応じて熟練度を経験値に変
+「授業」では毎日特定の艦種の艦を「学生」として配
+置できます。
+開始した「授業」はいつでも終了することができま
+す。
+「授業」が終了すると、経過した時間に応じて熟練度
+を経験値に変
 換します。
-また、授業は最大12時間行うことができます。12時間経過すると、
-授業が自動的に終了状態になります。
-授業が終了されていない限り、授業中に獲得した熟練度は自動的に
-授業で経験値に変換されます。
+また、授業は最大12時間行うことができます。12時
+間経過すると、授業が自動的に終了状態になります。
+授業が終了されていない限り、授業中に獲得した熟練
+度は自動的に授業で経験値に変換されます。
 
 ・学生について
 レベル100未満の艦を「学生」として配置できます。
-「学生」が多ければ多いほど、熟練度の変換効率が上昇します。
-「授業」に参加した学生はコンディションが若干低下します。
+「学生」が多ければ多いほど、熟練度の変換効率が上
+昇します。
+「授業」に参加した学生はコンディションが若干低下
+します。
 モニター艦は戦艦の授業に参加することができます。
-工作艦は駆逐艦・巡洋艦の授業に参加することができます。
-航空戦艦は空母・戦艦の授業に参加することができます。
+工作艦は駆逐艦・巡洋艦の授業に参加することができ
+ます。
+航空戦艦は空母・戦艦の授業に参加することができま
+す。
 潜水艦は駆逐艦の授業に参加することができます。
-超巡は巡洋艦の授業に参加することができます。
 
 ・授業の時間割
 月曜　『駆逐艦コース――アマゾンの水雷戦教室！』
@@ -6921,8 +7051,8 @@ pg.gametip = {
 金曜　『駆逐艦コース――サルでもわかる戦術学！』
 土曜　『巡洋艦コース――Howto火力最大ver.2.2』
 
-日曜日は「授業」を行うことができませんが、出撃時に得られる
-「熟練度」が2倍になります]]
+日曜日は「授業」を行うことができませんが、出撃時
+に得られる「熟練度」が2倍になります]]
 			}
 		}
 	},
@@ -6943,11 +7073,11 @@ pg.gametip = {
 		key = "course_state_lession"
 	},
 	course_energy_not_enough = {
-		tip = "<color=#A9F548>$1</color>のコンディションが低く、授業には参加できません",
+		tip = "<color=#92fc63>$1</color>のコンディションが低く、授業には参加できません",
 		key = "course_energy_not_enough"
 	},
 	course_proficiency_tip = {
-		tip = "限界突破を3回行った<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>レベル$1</color></material>の艦は出撃時、得られる経験値の<material=outline c=#3D3D3DFF x1y-1><color=#A9F548FF>$2%</color></material>分の熟練度を獲得できます",
+		tip = "限界突破を3回行った<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>レベル$1</color></material>の艦は出撃時、得られる経験値の<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>分の熟練度を獲得できます",
 		key = "course_proficiency_tip"
 	},
 	course_sunday_tip = {
@@ -6983,11 +7113,11 @@ pg.gametip = {
 		key = "guild_shop_flash_success"
 	},
 	destroy_high_rarity_tip = {
-		tip = "<color=#A9F548>Sレア以上</color>",
+		tip = "<color=#92fc63>Sレア以上</color>",
 		key = "destroy_high_rarity_tip"
 	},
 	destroy_high_level_tip = {
-		tip = "<color=#A9F548>$1Lv1以外</color>",
+		tip = "<color=#92fc63>$1Lv1以外</color>",
 		key = "destroy_high_level_tip"
 	},
 	destroy_eliteequipment_tip = {
@@ -6995,7 +7125,7 @@ pg.gametip = {
 		key = "destroy_eliteequipment_tip"
 	},
 	destroy_high_intensify_tip = {
-		tip = "<color=#A9F548>$1強化後</color>",
+		tip = "<color=#92fc63>$1強化後</color>",
 		key = "destroy_high_intensify_tip"
 	},
 	ship_quick_change_noequip = {
@@ -7027,7 +7157,7 @@ pg.gametip = {
 		key = "take_nothing"
 	},
 	take_all_mail = {
-		tip = "<color='#A9F548FF'>全てのメールを開封</color>しますか？",
+		tip = "<color='#92fc63FF'>全てのメールを開封</color>しますか？",
 		key = "take_all_mail"
 	},
 	buy_furniture_overtime = {
@@ -7067,11 +7197,11 @@ pg.gametip = {
 		key = "level_risk_level_desc"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=24>海域危険度判定：<color=#A9F548>【$1】</color>\n出撃艦隊ダメージ軽減<color=#A9F548>$2%</color></size>",
+		tip = "<size=32>海域危険度判定：<color=#92fc63>【$1】</color>\n出撃艦隊ダメージ軽減<color=#92fc63>$2%</color></size>",
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
-		tip = "<size=24><color=#A9F548>☆3達成＆海域脅威度を「安全海域」にすると、周回モードに切り替えることができます</color></size>",
+		tip = "<size=32><color=#92fc63>☆3達成＆海域脅威度を「安全海域」にすると、敵中枢艦隊が最初から出現するようになります</color></size>",
 		key = "level_diffcult_chapter_state_safety"
 	},
 	level_chapter_state_high_risk = {
@@ -7079,15 +7209,15 @@ pg.gametip = {
 		key = "level_chapter_state_high_risk"
 	},
 	level_chapter_state_risk = {
-		tip = "<color=#FFAF59>【危険海域】</color>",
+		tip = "<color=#ffde38>【危険海域】</color>",
 		key = "level_chapter_state_risk"
 	},
 	level_chapter_state_low_risk = {
-		tip = "<color=#8AFBF3>【支配海域】</color>",
+		tip = "<color=#c5cfdf>【支配海域】</color>",
 		key = "level_chapter_state_low_risk"
 	},
 	level_chapter_state_safety = {
-		tip = "<color=#A9F548>【安全海域】</color>",
+		tip = "<color=#92fc63>【安全海域】</color>",
 		key = "level_chapter_state_safety"
 	},
 	open_skill_class_success = {
@@ -7195,7 +7325,7 @@ pg.gametip = {
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>19.4.26-19.5.15</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>18.11.29-18.12.12</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7304,11 +7434,11 @@ pg.gametip = {
 		key = "upgrade_to_next_maxlevel_tip"
 	},
 	upgrade_to_next_maxlevel_succeed = {
-		tip = "認識覚醒完了\nレベル上限が<color=#A9F548FF>$1</color>になりました",
+		tip = "認識覚醒完了\nレベル上限が<color=#92fc63FF>$1</color>になりました",
 		key = "upgrade_to_next_maxlevel_succeed"
 	},
 	extra_chapter_socre_tip = {
-		tip = "今回のスコア：<color=#A9F548>$1</color>\n自己最高スコア：<color=#A9F548>$2</color>\n $3",
+		tip = "今回のスコア：<color=#92fc63>$1</color>\n自己最高スコア：<color=#92fc63>$2</color>\n $3",
 		key = "extra_chapter_socre_tip"
 	},
 	extra_chapter_record_updated = {
@@ -7328,19 +7458,19 @@ pg.gametip = {
 		key = "extra_chapter_locked_tip_1"
 	},
 	player_name_change_time_lv_tip = {
-		tip = "指揮官Lv<color=#A9F548>$1</color>で指揮官名変更機能が開放されます",
+		tip = "指揮官Lv<color=#92fc63>$1</color>で指揮官名変更機能が開放されます",
 		key = "player_name_change_time_lv_tip"
 	},
 	player_name_change_time_limit_tip = {
-		tip = "<color=#A9F548>$1</color>後指揮官名を変更できます",
+		tip = "<color=#92fc63>$1</color>後指揮官名を変更できます",
 		key = "player_name_change_time_limit_tip"
 	},
 	player_name_change_windows_tip = {
-		tip = "*<color=#A9F548>$1:$2</color>を消費します。<color=#A9F548>30</color>日に一度変更可能",
+		tip = "*<color=#92fc63>$1:$2</color>を消費します。<color=#92fc63>30</color>日に一度変更可能",
 		key = "player_name_change_windows_tip"
 	},
 	player_name_change_warning = {
-		tip = "指揮官名を変更するには<color=#A9F548>$2</color>を<color=#A9F548>$1</color>つ消費します。<color=#A9F548>30</color>日に一度しか変更できません。指揮官名を<color=#A9F548>$3</color>に変更しますか？",
+		tip = "指揮官名を変更するには<color=#92fc63>$2</color>を<color=#92fc63>$1</color>つ消費します。<color=#92fc63>30</color>日に一度しか変更できません。指揮官名を<color=#92fc63>$3</color>に変更しますか？",
 		key = "player_name_change_warning"
 	},
 	player_name_change_success = {
@@ -7360,7 +7490,7 @@ pg.gametip = {
 		key = "task_is_not_existence"
 	},
 	cannot_build_multiple_printblue = {
-		tip = "現在進行中の<color=#A9F548>$1</color>開発を一時停止し、開発対象を<color=#A9F548>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#A9F548>24時間以内</color>は開発対象を変更できません。",
+		tip = "現在進行中の<color=#92fc63>$1</color>開発を一時停止し、開発対象を<color=#92fc63>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#92fc63>24時間以内</color>は開発対象を変更できません。",
 		key = "cannot_build_multiple_printblue"
 	},
 	printblue_build_success = {
@@ -7478,43 +7608,46 @@ pg.gametip = {
 				info = [[
 
 ※新機能：研究指向変更 
-  · 第二期特別計画艦実装に伴い、科学研究の項目に新たに
-「第二期」が追加されました。 既存の研究項目「第一期」と
-「第二期」の区分は科学研究項目左上の「Ⅰ」「Ⅱ」マークで
-  確認できます。
-  · また、研究項目一覧画面右下の「研究指向」で「第一期」
-「第二期」を選択すると、 当該研究項目を最低でも2つ出現
-させることができます。
+  · 第二期特別計画艦実装に伴い、科学研究の項目に新
+たに「第二期」が追加されました。 既存の研究項目「
+第一期」と「第二期」の区分は科学研究項目左上の「Ⅰ
+」「Ⅱ」マークで  確認できます。
+  · また、研究項目一覧画面右下の「研究指向」で「第
+一期」「第二期」を選択すると、 当該研究項目を最低
+でも2つ出現させることができます。
 
 1.研究開始
-  · 研究項目一覧から研究項目の「研究開始」をタップすると、
-該当項目の研究を行うことができます。
-  · 一部の研究項目を研究開始するには資源を消費します。
+  · 研究項目一覧から研究項目の「研究開始」をタップ
+すると、該当項目の研究を行うことができます。
+  · 一部の研究項目を研究開始するには資源を消費しま
+す。
   · 同時に複数の研究項目を研究することはできません。
 
 2.研究完了
   · 研究項目の研究には時間を要します。
-  · 一部の研究項目は時間以外に特定の条件を達成する必要が
-あります。
-  ·「研究完成条件」の進捗は、研究開始後にのみ進みます。
-  ·「研究完成条件」のある研究項目は、研究時間が終了しても、
-「研究完成条件」を進行・達成できます。
-  · 研究が完了し、研究報酬を受け取ると、研究項目一覧が更新
-されます。
+  · 一部の研究項目は時間以外に特定の条件を達成する
+必要があります。
+  ·「研究完成条件」の進捗は、研究開始後にのみ進みま
+す。
+  ·「研究完成条件」のある研究項目は、研究時間が終了
+しても、「研究完成条件」を進行・達成できます。
+  · 研究が完了し、研究報酬を受け取ると、研究項目一
+覧が更新されます。
 
 3.研究中止
-  ·「研究中止」をタップすると、進行中の研究項目を中断する事が
-できます。
-  · 研究を中断しても、研究開始時に消費した資源は元に戻りません。
-  · 研究を中断すると、「研究完成条件」の進捗と研究に費やした
-時間がリセットされます。
+  ·「研究中止」をタップすると、進行中の研究項目を中
+断する事ができます。
+  · 研究を中断しても、研究開始時に消費した資源は元
+に戻りません。
+  · 研究を中断すると、「研究完成条件」の進捗と研究
+に費やした時間がリセットされます。
 
 4.研究項目一覧を更新
-  · 0時以降、「項目更新」をタップすると、研究項目一覧を更新
-できます。
+  · 0時以降、「項目更新」をタップすると、研究項目一
+覧を更新できます。
   ·「項目更新」は一日一回しか行なえません。
-  · 研究中の項目が存在する場合、研究項目一覧を更新することが
-出来ません。]]
+  · 研究中の項目が存在する場合、研究項目一覧を更新
+することが出来ません。]]
 			}
 		}
 	},
@@ -7535,7 +7668,7 @@ pg.gametip = {
 		key = "technology_task_build_tip"
 	},
 	blueprint_commit_tip = {
-		tip = "開発任務を完了するには<color=#A9F548>$1</color>を消費します。開発任務を完了しますか？",
+		tip = "開発任務を完了するには<color=#92fc63>$1</color>を消費します。開発任務を完了しますか？",
 		key = "blueprint_commit_tip"
 	},
 	buleprint_need_level_tip = {
@@ -7575,22 +7708,22 @@ pg.gametip = {
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7600,13 +7733,7 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/technologytree1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technologytree2"
+					atlas = "helpbg/technology"
 				}
 			},
 			{
@@ -7621,30 +7748,24 @@ pg.gametip = {
 					atlas = "helpbg/blueprint_dev"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/technology"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -7663,66 +7784,74 @@ pg.gametip = {
 				info = [[
 
 開発開始
-1. 「特別計画」艦の開発開放条件が達成されますと、艦の
-開発が可能になります。
-2. 「特別計画」艦の開発開放条件は画面中央に表示されます。
-3. 開発ドック画面にて対象艦を選択し、「開発開始」を
-タップすると、開発を開始できます。
+1. 「特別計画」艦の開発開放条件が達成されますと、
+艦の開発が可能になります。
+2. 「特別計画」艦の開発開放条件は画面中央に表示さ
+れます。
+3. 開発ドック画面にて対象艦を選択し、「開発開始」
+をタップすると、開発を開始できます。
 4. 同時に複数の開発を行うことできません。
 
 開発任務
-1. 対象艦の開発任務を全て完了すると対象艦を入手できます。
+1. 対象艦の開発任務を全て完了すると対象艦を入手で
+きます。
 2. 開発中、24時間毎に新しい開発任務が開放されます。
 また、任務を完了することで開発が進みます。
 3. 最初の開発任務は開発を開始すると開放されます。
-4. 一部の開発任務は他の開発任務を完了しなければ進められ
-ません。
+4. 一部の開発任務は他の開発任務を完了しなければ進
+められません。
 
 開発対象変更
-1. 開発中に、開発対象を別の艦に変更することができます。
-2. 開発対象を変更すると、開発全体の進捗および進行中
-任務の進捗状況が保持されます。
-3. 開発開始・再開後、24時間以内は開発対象を変更でき
-ません。
+1. 開発中に、開発対象を別の艦に変更することができ
+ます。
+2. 開発対象を変更すると、開発全体の進捗および進行
+中任務の進捗状況が保持されます。
+3. 開発開始・再開後、24時間以内は開発対象を変更で
+きません。
 
 開発完了
-1. 対象艦の開発任務を全て完了すると対象艦を入手でき、
-強化機能が開放されます。
-2. 開発完了後、新しい開発対象は手動で指定する必要が
-あります。
+1. 対象艦の開発任務を全て完了すると対象艦を入手で
+き、強化機能が開放されます。
+2. 開発完了後、新しい開発対象は手動で指定する必要
+があります。
 
 「特別計画」艦の強化
-1. 「特別計画」艦入手後、艦の強化機能が開放されます。
+1. 「特別計画」艦入手後、艦の強化機能が開放されま
+す。
 2. 強化には艦の「強化ユニット」を消費します。
-3. 「強化ユニット」は科学研究室で研究を行うことにより
-入手出来ます。
-4. 強化を行うことで「特別計画」艦の性能を向上させられ
-ます。また、一定の強化レベルに達するとさらなる強化効果
-を獲得できます。
+3. 「強化ユニット」は科学研究室で研究を行うことに
+より入手出来ます。
+4. 強化を行うことで「特別計画」艦の性能を向上させ
+られます。また、一定の強化レベルに達するとさらなる
+強化効果を獲得できます。
 
 「特別計画」艦のレベル上限について
-  「特別計画」艦は限界突破しなくても、レベルを100まで上げる
-  ことができますが、レベル上限を引き上げるには、資金とメンタル
-  ユニットを消費し「認識覚醒」を行う必要があります。
+  「特別計画」艦は限界突破しなくても、レベルを100
+まで上げることができますが、レベル上限を引き上げる
+には、資金とメンタルユニットを消費し「認識覚醒」を
+行う必要があります。
 
  「竜骨編纂」とは 
- ・「竜骨編纂」とは、特別計画艦のカンレキたるリュウコツを
-補強させ、さらに戦力を強化するシステムになります。
-  ・特別計画艦の強化レベルがLv.30になった場合、当該艦の
-「竜骨編纂」が解禁されます。
-  ・「竜骨編纂」では、艦に対応する強化ユニットを消費し、
-進捗を100％まで進行させると、そのレベルの竜骨編纂が完了
-します。
-  ・「竜骨編纂」では、最大レベル5まで強化することができ、
-レベル1～4では艦の「運」ステータスが強化され、レベル5では
-スキルを一部強化することができます。
+ ・「竜骨編纂」とは、特別計画艦のカンレキたるリュ
+ウコツを補強させ、さらに戦力を強化するシステムに
+なります。
+  ・特別計画艦の強化レベルがLv.30になった場合、当
+該艦の「竜骨編纂」が解禁されます。
+  ・「竜骨編纂」では、艦に対応する強化ユニットを消
+費し、進捗を100％まで進行させると、そのレベルの竜
+骨編纂が完了します。
+  ・「竜骨編纂」では、最大レベル5まで強化すること
+ができ、レベル1～4では艦の「運」ステータスが強化
+され、レベル5ではスキルを一部強化することができま
+す。
 
 弾幕確認機能とは
- ・特別計画艦Ⅱ期の「弾幕仕様」を確認できる機能になります。
-・「弾幕確認」をタップすると、該当の艦を使用した模擬戦
-（イベントバトル）が始まります。
-  ※模擬戦における艦の耐久・装填などの性能は実際の性能とは
-異なります。]]
+ ・特別計画艦Ⅱ期の「弾幕仕様」を確認できる機能に
+なります。
+ ・「弾幕確認」をタップすると、該当の艦を使用した
+模擬戦（イベントバトル）が始まります。
+  ※模擬戦における艦の耐久・装填などの性能は実際の
+性能とは異なります。]]
 			}
 		}
 	},
@@ -7733,13 +7862,13 @@ pg.gametip = {
 				info = [[
 「竜骨編纂」とは
 
-1. 特別計画艦の強化レベルが<color=#A9F548>Lv.30</color>になった場合、当該艦の「竜骨
-編纂」が解禁されます
-2. 「竜骨編纂」では、<color=#A9F548>最大レベル5</color>まで強化することができ、艦に
-対応する<color=#A9F548>強化ユニット</color>を消費し、進捗を100％まで進行させると、
-そのレベルの竜骨編纂が完了します
-3. レベル<color=#A9F548>I～IV</color>では艦の<color=#A9F548>「運」</color>ステータスが強化されます
-4. レベル<color=#A9F548>V</color>では<color=#A9F548>スキル</color>を一部<color=#A9F548>強化</color>することができます]]
+1. 特別計画艦の強化レベルが<color=#92fc63>Lv.30</color>になった場合、当該
+艦の「竜骨編纂」が解禁されます
+2. 「竜骨編纂」では、<color=#92fc63>最大レベル5</color>まで強化することが
+でき、艦に対応する<color=#92fc63>強化ユニット</color>を消費し、進捗を100
+％まで進行させると、そのレベルの竜骨編纂が完了します
+3. レベル<color=#92fc63>I～IV</color>では艦の<color=#92fc63>「運」</color>ステータスが強化されます
+4. レベル<color=#92fc63>V</color>では<color=#92fc63>スキル</color>を一部<color=#92fc63>強化</color>することができます]]
 			}
 		}
 	},
@@ -7805,34 +7934,41 @@ pg.gametip = {
 			{
 				info = [[
 救助信号について
-・各海域からの救助信号をランダムで受信することがあります。
-なお、ゲームにログインしていない時でも受信します
-・章の最深部（X-4）までクリアしないと、当該海域の救助信号を
-探知することができません
+・各海域からの救助信号をランダムで受信することが
+あります。なお、ゲームにログインしていない時でも
+受信します
+・章の最深部（X-4）までクリアしないと、当該海域
+の救助信号を探知することができません
 
 発信源探知について
-・発信源探知ボタンをタップことで、信号の発信源海域を特定でき
-ます
-・発信源海域特定後、救援任務（海域）に出撃できます
-・救援任務（海域）は救助信号を探知することで、各章毎に一つ
-まで出現します
+・発信源探知ボタンをタップことで、信号の発信源海
+域を特定できます
+・発信源海域特定後、救援任務（海域）に出撃できま
+す
+・救援任務（海域）は救助信号を探知することで、各
+章毎に一つまで出現します
  （救援任務は、「3章」「4章」…の形で出現します）
-・救援任務（海域）は12時間以内にクリアできなかった場合、
-海域から消滅し、出撃できなくなります
+・救援任務（海域）は12時間以内にクリアできなかっ
+た場合、海域から消滅し、出撃できなくなります
 
 探知感度
-・探知感度とは、探知できる海域範囲に影響を与えるものです
-・探知感度が1の場合、第三章海域の救援任務のみ出現します
-・探知感度が1上がるたびに、受信できる範囲が広がり、より奥の
-海域の救援任務も出現するようになります
-・現在出撃可能な最深部の救援任務海域をS評価でクリアした場合、
-探知感度が1上昇します
-・探知感度は最大8まで上がります。探知感度が高ければ高いほど、
-救援任務で出現する報酬が良くなることがあります
+・探知感度とは、探知できる海域範囲に影響を与える
+ものです
+・探知感度が1の場合、第三章海域の救援任務のみ出
+現します
+・探知感度が1上がるたびに、受信できる範囲が広が
+り、より奥の海域の救援任務も出現するようになりま
+す
+・現在出撃可能な最深部の救援任務海域をS評価でク
+リアした場合、探知感度が1上昇します
+・探知感度は最大8まで上がります。探知感度が高け
+れば高いほど、救援任務で出現する報酬が良くなるこ
+とがあります
 
 戦闘遭遇
-・救援任務には敵の潜水艦が出現します。前衛艦隊に対潜装備を
-装備した駆逐艦や軽巡洋艦を配置させてから海域に出撃しましょう]]
+・救援任務には敵の潜水艦が出現します。前衛艦隊に
+対潜装備を装備した駆逐艦や軽巡洋艦を配置させてか
+ら海域に出撃しましょう]]
 			}
 		}
 	},
@@ -7841,11 +7977,11 @@ pg.gametip = {
 		key = "sos_lock"
 	},
 	charge_scene_buy_confirm = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#A9F548>$1</color>で、\n<color=#A9F548>$2</color>を購入しますか？",
+		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？",
 		key = "charge_scene_buy_confirm"
 	},
 	charge_scene_batch_buy_tip = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#A9F548>$1</color>で、\n$4を<color=$3>$2</color>個購入しますか？",
+		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n$4を<color=$3>$2</color>個購入しますか？",
 		key = "charge_scene_batch_buy_tip"
 	},
 	help_level_ui = {
@@ -7905,41 +8041,29 @@ pg.gametip = {
 					atlas = "helpbg/level_ui_help"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_1"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 10,
+			defaultpage = 1,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
 	guild_modify_info_tip = {
-		tip = "<color=#A9F548><icon name=diamond w=0.7 h=0.7/>$1</color>で大艦隊名を変更しますか？",
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>で大艦隊名を変更しますか？",
 		key = "guild_modify_info_tip"
 	},
 	ai_change_1 = {
@@ -7955,7 +8079,7 @@ pg.gametip = {
 		key = "activity_shop_lable"
 	},
 	levelScene_tracking_error_pre = {
-		tip = "<color=#A9F548>$1</color>クリアで参加可能",
+		tip = "<color=#92fc63>$1</color>クリアで参加可能",
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
@@ -8053,28 +8177,28 @@ pg.gametip = {
 				info = "明石Pt入手方法："
 			},
 			{
-				info = "    1.デイリーチャレンジを１回クリア+20Pt（一日最大<color=#A9F548>[task=13852]</color>/120pt）；"
+				info = "1.デイリーチャレンジを１回クリア+20Pt\n（一日最大<color=#92fc63>[task=13852]</color>/120pt）"
 			},
 			{
-				info = "    2.演習を一回行う+5Pt（一日最大<color=#A9F548>[task=13853]</color>/50pt）；"
+				info = "2.演習を一回行う+5Pt\n（一日最大<color=#92fc63>[task=13853]</color>/50pt）"
 			},
 			{
-				info = "    3.通常ハード海域を一回クリア+20Pt（一日最大<color=#A9F548>[task=13854]</color>/60pt）；"
+				info = "3.通常ハード海域を一回クリア+20Pt\n（一日最大<color=#92fc63>[task=13854]</color>/60pt）"
 			},
 			{
-				info = "    4.敵中枢艦隊撃破+10Pt（一日最大<color=#A9F548>[task=13855]</color>/500pt）；"
+				info = "4.敵中枢艦隊撃破+10Pt\n（一日最大<color=#92fc63>[task=13855]</color>/500pt）"
 			},
 			{
-				info = "    5.艦を一回強化する+5Pt（一日最大<color=#A9F548>[task=13856]</color>/50pt）；"
+				info = "5.艦を一回強化する+5Pt\n（一日最大<color=#92fc63>[task=13856]</color>/50pt）"
 			},
 			{
-				info = "    6.艦を一回退役させる+5Pt（一日最大<color=#A9F548>[task=13857]</color>/50pt）；"
+				info = "6.艦を一回退役させる+5Pt\n（一日最大<color=#92fc63>[task=13857]</color>/50pt）"
 			},
 			{
-				info = "    7.軍事委託を一回遂行する+10Pt（一日最大<color=#A9F548>[task=13858]</color>/100pt）；"
+				info = "7.軍事委託を一回遂行する+10Pt\n（一日最大<color=#92fc63>[task=13858]</color>/100pt）"
 			},
 			{
-				info = "    8.建造を一回行う+15Pt（一日最大<color=#A9F548>[task=13859]</color>/750pt）；"
+				info = "8.建造を一回行う+15Pt\n（一日最大<color=#92fc63>[task=13859]</color>/750pt）"
 			}
 		}
 	},
@@ -8103,7 +8227,7 @@ pg.gametip = {
 		key = "collect_chapter_is_activation"
 	},
 	levelScene_chapter_is_activation = {
-		tip = "海域<color=#A9F548>$1</color>に出撃しています。海域攻略状況を確認しますか？\n（撤退で出撃中の海域から撤退することが可能です）",
+		tip = "海域<color=#92fc63>$1</color>に出撃しています。海域攻略状況を確認しますか？\n（撤退で出撃中の海域から撤退することが可能です）",
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
@@ -8213,6 +8337,62 @@ pg.gametip = {
 			}
 		}
 	},
+	metalgearsub_help_tip = {
+		key = "metalgearsub_help_tip",
+		tip = {
+			{
+				info = "イベント「小さな約束」とは："
+			},
+			{
+				info = [[
+    潜水艦「U-556」を操作し、ステージ最後に出現す
+    る輸送船の撃破を目的としたミニゲームをクリアす
+    ることで、 報酬の限定装備が入手できるイベントに
+    なります。]]
+			},
+			{
+				info = [[
+    ①イベント開催期間中は一日一回、専用ステージを
+    クリアするとイベントアイテムを入手でき、７つ集
+    めると、報酬の限定装備を入手することができます。
+    （専用ステージは何度でも挑戦できます）]]
+			},
+			{
+				info = [[
+    ②潜水艦「U-556」の操縦方法は水上艦と違い、砲
+    撃や航空攻撃ができない代わりに「潜航」すること
+    ができます。
+    そのほか「緊急ブースト」で一時的に移動速度を上
+    げたり「潜水雷撃（弾数制限あり）」をすることも
+    可能です。]]
+			},
+			{
+				info = [[
+    ③ステージでは敵の護衛艦や水雷が出現し、それぞ
+    れ違う行動パターンが存在します。
+    ※護衛艦：
+    護衛艦には「警戒レベル」があり、警戒レベルが最
+    大（「！！」が表示される）の場合、護衛艦は
+    U-556を攻撃してきます。
+    警戒レベルは「U-556が浮上状態」「U-556が敵
+    ソナーの探知範囲内」「敵を攻撃する」「水雷に接
+    触する」ことで上昇しますが、
+    「潜航状態にし、敵ソナーの探知範囲から離れる」
+    ことで減少します。
+    ※水雷：
+    水雷には「水面上水雷」と「深水水雷」の二種類が
+    あり、それぞれ「浮上状態」「潜航状態」だと接触
+    してしまう場合があります。また、水雷は魚雷で
+    破壊することができます。]]
+			},
+			{
+				info = "    敵護衛隊と水雷をうまく回避しつつ弾薬を温存し、\n    テージ最奥に出現する輸送船の撃破を目指しましょ\n    う。"
+			},
+			{
+				info = "    特別ステージでの勝利/敗北は出撃数/勝率には集計\n    されません"
+			}
+		}
+	},
 	acl_gold_count = {
 		tip = "目標消費：",
 		key = "acl_gold_count"
@@ -8222,7 +8402,7 @@ pg.gametip = {
 		key = "acl_gold_total_count"
 	},
 	discount_time = {
-		tip = "<color=grey>割引残り時間</color> <color=#A9F548>$1</color>",
+		tip = "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>",
 		key = "discount_time"
 	},
 	commander_talent_not_exist = {
@@ -8397,12 +8577,28 @@ pg.gametip = {
 		tip = "アビリティPtが不足しています",
 		key = "commander_skill_point_noengough"
 	},
+	buildship_new_tip = {
+		tip = "イベント期間、特定の艦の出現率UP！",
+		key = "buildship_new_tip"
+	},
+	buildship_heavy_tip = {
+		tip = "「アドミラル·グラーフ·シュペー」常設追加！",
+		key = "buildship_heavy_tip"
+	},
+	buildship_light_tip = {
+		tip = "「ブッシュ」「メンフィス」常設追加！",
+		key = "buildship_light_tip"
+	},
+	buildship_special_tip = {
+		tip = "特型艦：重巡洋艦、軽空母、正規空母、工作艦、潜水艦などを建造します",
+		key = "buildship_special_tip"
+	},
 	open_skill_pos = {
-		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color>を消費し\n教室枠を拡張しますか？",
+		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？",
 		key = "open_skill_pos"
 	},
 	open_skill_pos_discount = {
-		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color>を消費し\n教室枠を拡張しますか？",
+		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>を消費し\n教室枠を拡張しますか？",
 		key = "open_skill_pos_discount"
 	},
 	event_recommend_fail = {
@@ -8416,16 +8612,16 @@ pg.gametip = {
 				info = "ルール："
 			},
 			{
-				info = "    1.新兵任務に開催期間はありません；"
+				info = "1.新兵任務に開催期間はありません；"
 			},
 			{
-				info = "    2.現段階（初級・中級・上級）の任務をすべてクリアすると、\nチャレンジ任務が開放されます；"
+				info = "2.現段階（初級・中級・上級）の任務をすべてクリア\nすると、チャレンジ任務が開放されます；"
 			},
 			{
-				info = "    3.チャレンジ任務をクリアすると、次の段階に進めます；"
+				info = "3.チャレンジ任務をクリアすると、次の段階に進めま\nす；"
 			},
 			{
-				info = "    4.全ての任務をクリアし、報酬を受け取ったあと、新兵任務は\n消失します；"
+				info = "4.全ての任務をクリアし、報酬を受け取ったあと、新\n兵任務は消失します；"
 			}
 		}
 	},
@@ -8486,7 +8682,7 @@ pg.gametip = {
 		key = "apply_permission_record_audio_tip3"
 	},
 	nine_choose_one = {
-		tip = "招待状は1回しか使用できません。\n<color=#A9F548>$1</color>を招待しますか？\n※艦船「<color=#A9F548>$1</color>」と記念アイテムを入手できます",
+		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n※艦船「<color=#92fc63>$1</color>」と記念アイテムを入手できます",
 		key = "nine_choose_one"
 	},
 	help_commander_info = {
@@ -8543,15 +8739,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8609,15 +8805,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8675,15 +8871,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8713,15 +8909,15 @@ pg.gametip = {
 				y = 720
 			},
 			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -8742,7 +8938,7 @@ pg.gametip = {
 				info = "2.出現する特別ステージをクリアすると、個人用の累計報酬がも\nらえる「演習Pt」を入手できる他、全指揮官用の作戦進捗ゲージ\nを進める事ができます；"
 			},
 			{
-				info = "3.特別ステージは毎日最初にクリアした回数（初級<color=#A9F548>20</color>回・中級\n<color=#A9F548>20</color>回・上級<color=#A9F548>40</color>回まで）ではクリア報酬（演習Pt・経験値除く）\nが増量します；"
+				info = "3.特別ステージは毎日最初にクリアした回数（初級<color=#92fc63>20</color>回・中級\n<color=#92fc63>20</color>回・上級<color=#92fc63>40</color>回まで）ではクリア報酬（演習Pt・経験値除く）\nが増量します；"
 			},
 			{
 				info = "4.作戦成功（=作戦ゲージが満タンになると）、作戦に参加した\n（序章を含めた特別ステージを１回以上クリアした）指揮官に軽\n巡洋艦「ニューカッスル」がメールボックスに送られます；"
@@ -8751,7 +8947,7 @@ pg.gametip = {
 				info = "5.作戦完了後、イベント期間中は引き続き「序章」以外の特別ス\nテージに挑戦でき、演習Ptを入手できます；"
 			},
 			{
-				info = "6.累計演習Pt報酬獲得期間は<color=#A9F548>2018.10.18 23:59:59</color>までにな\nります；"
+				info = "6.累計演習Pt報酬獲得期間は<color=#92fc63>2018.10.18 23:59:59</color>までにな\nります；"
 			}
 		}
 	},
@@ -8776,7 +8972,7 @@ pg.gametip = {
 		key = "comander_repalce_tip"
 	},
 	commander_lock_tip = {
-		tip = "オフニャを<color=#A9F548>保護</color>しますか？",
+		tip = "オフニャを保護しますか？",
 		key = "commander_lock_tip"
 	},
 	commander_is_in_battle = {
@@ -8796,7 +8992,7 @@ pg.gametip = {
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "女王の褒章<color=#A9F548>$1</color>を消費し、作戦補給を<color=#A9F548>$2</color>回交換しますか？",
+		tip = "女王の褒章<color=#92fc63>$1</color>を消費し、作戦補給を<color=#92fc63>$2</color>回交換しますか？",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -8969,15 +9165,15 @@ pg.gametip = {
 		key = "map_event_skip"
 	},
 	map_event_stop_tip = {
-		tip = "同じ色の<color=#A9F548>解除マス</color>を踏むことで通行可能になります",
+		tip = "同じ色の<color=#92fc63>解除マス</color>を踏むことで通行可能になります",
 		key = "map_event_stop_tip"
 	},
 	map_event_save_nekone = {
-		tip = "<color=#A9F548>ネコネ</color>の救出に成功しました！",
+		tip = "<color=#92fc63>ネコネ</color>の救出に成功しました！",
 		key = "map_event_save_nekone"
 	},
 	map_event_save_rurutie = {
-		tip = "<color=#A9F548>ルルティエ</color>の救出に成功しました！",
+		tip = "<color=#92fc63>ルルティエ</color>の救出に成功しました！",
 		key = "map_event_save_rurutie"
 	},
 	map_event_memory_collected = {
@@ -8985,11 +9181,11 @@ pg.gametip = {
 		key = "map_event_memory_collected"
 	},
 	map_event_save_kizuna = {
-		tip = "<color=#A9F548>キズナアイ</color>の救出に成功しました！",
+		tip = "成功救出<color=#92fc63>绊爱</color>",
 		key = "map_event_save_kizuna"
 	},
 	five_choose_one = {
-		tip = "使用すると、<color=#A9F548>$1</color>と記念アイテムを\n入手することが出来ます。\n聖夜の贈り物を使用しますか？",
+		tip = "使用すると、<color=#92fc63>$1</color>と記念アイテムを\n入手することが出来ます。\n聖夜の贈り物を使用しますか？",
 		key = "five_choose_one"
 	},
 	ship_preference_common = {
@@ -9033,8 +9229,36 @@ pg.gametip = {
 		key = "draw_little_luck_3"
 	},
 	ship_preference_non = {
-		tip = "常用艦船設定を解除しました ",
+		tip = "常用艦船設定を解除しました",
 		key = "ship_preference_non"
+	},
+	school_title_dajiangtang = {
+		tip = "大講堂",
+		key = "school_title_dajiangtang"
+	},
+	school_title_zhihuimiao = {
+		tip = "オフニャ",
+		key = "school_title_zhihuimiao"
+	},
+	school_title_shitang = {
+		tip = "海軍食堂",
+		key = "school_title_shitang"
+	},
+	school_title_xiaomaibu = {
+		tip = "海軍売店",
+		key = "school_title_xiaomaibu"
+	},
+	school_title_shangdian = {
+		tip = "購買部",
+		key = "school_title_shangdian"
+	},
+	school_title_xueyuan = {
+		tip = "戦術教室",
+		key = "school_title_xueyuan"
+	},
+	school_title_shoucang = {
+		tip = "展示室",
+		key = "school_title_shoucang"
 	},
 	tag_level_fighting = {
 		tip = "攻略中",
@@ -9049,7 +9273,7 @@ pg.gametip = {
 		key = "tag_level_bomb"
 	},
 	ui_word_levelui2_inevent = {
-		tip = "接敵中",
+		tip = "行動中",
 		key = "ui_word_levelui2_inevent"
 	},
 	exit_backyard_exp_display = {
@@ -9144,54 +9368,75 @@ pg.gametip = {
 		key = "world_boss_help",
 		tip = {
 			{
-				info = "ルール："
+				info = "活动说明："
 			},
 			{
-				info = "1.共闘イベントでは、特別ステージを攻略することで「演習Pt」\nを入手し、作戦進捗を進め、「特別演習ゲージ」を減らすことが\n出来ます；"
+				info = "1.活动期间，玩家首日可获得4个骰子，此后每日24点可获得4\n个骰子；"
 			},
 			{
-				info = "2.特別ステージはボスであるエセックスを撃破する・ステージ残\nり時間が0になる・敗北することでステージクリアとなり、\n「演習pt」を獲得できます；"
+				info = "2.玩家每投掷8次骰子，即可获得一个红包；"
 			},
 			{
-				info = "3.「演習Pt」はエセックスに与えた総ダメージにより決められま\nす；"
+				info = "3.玩家获得的前7个红包为特殊红包（奖励丰厚），第8个及之后\n为普通红包；"
 			},
 			{
-				info = "4.特別演習の作戦進捗は同じサーバーのすべての指揮官が獲得し\nた「演習Pt」の合計数によって左右されます；"
+				info = "4.活动期间，玩家还可以通过抚顺大冒险、鞍山绘图教室与厌战\n的特别训练活动中获得额外的骰子；"
 			},
 			{
-				info = [[
-5.特別ステージは演習の段階（残りゲージ75%・50%・25%）に
-応じて、ボスである「エセックス」の能力が上昇し、砲撃・雷撃
-ダメージが軽減されてしまいますが、航空攻撃によるダメージ
-（攻撃機の魚雷も含む）が上昇します；]]
+				info = "5.活动期间，玩家完成10圈大富翁游戏（第11次经过起点）即可\n获得金伯利换装【东煌之风】；"
 			},
 			{
-				info = "6.ゲージが0％になった時、もしくはイベント終了時、達成した\n作戦進捗に応じて、作戦に参加した（ゲージが0%になるまで1回\nでも演習Ptを入手した）指揮官に報酬がメールで配布されます；"
+				info = "6.游戏中，根据玩家停留的格子可获得不同奖励，每次经过起点\n可获得200物资；"
 			},
 			{
-				info = "7.特別ステージは通常の艦隊とは違う「特別演習編成」を使用し\nます（イベントページの「編成」で編成可能）；"
+				info = "    ：获得一定数量物资；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "jinbi"
+				}
 			},
 			{
-				info = [[
-8.特別演習編成に下記の対象艦を編成した場合、ステージクリア
-時入手する「演習Pt」が上昇します；
-    シャングリラ 演習Pt+20%
-    インディペンデンス 演習Pt+10%]]
+				info = "    ：获得一定数量石油；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "shiyou"
+				}
 			},
 			{
-				info = "9.イベント期間では、個人で獲得した演習Ptの累計数に応じて、\n軽空母「インディペンデンス」などを含む「Pt累計報酬」を入手\nすることが出来ます；"
+				info = "    ：触发随机事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "minyun"
+				}
 			},
 			{
-				info = "10. 特別ステージでは指揮官経験値・オフニャ経験値・艦船\n経験値・熟練度を入手することができません；"
+				info = "    ：触发随机奖励；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "daoju"
+				}
 			},
 			{
-				info = "11. 特別ステージでは疲労度は正常に増減されます；"
-			},
-			{
-				info = "12.ゲージが0%になっても、引き続き特殊ステージに挑戦し、\n「演習Pt」を入手することができます；"
-			},
-			{
-				info = "13.「Pt累計報酬」の受取期限は3/13（水）23:59までとなりま\nす；"
+				info = "    ：触发随机移动事件；",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "teshu"
+				}
 			}
 		}
 	},
@@ -9200,7 +9445,7 @@ pg.gametip = {
 		key = "world_boss_tip"
 	},
 	world_boss_award_limit = {
-		tip = "残り<color=#FFDE00FF>$1%</color>以下で開放 ",
+		tip = "作戦進捗<color=#FFDE00FF>$1%</color>で開放 ",
 		key = "world_boss_award_limit"
 	},
 	backyard_is_loading = {
@@ -9212,22 +9457,173 @@ pg.gametip = {
 		tip = {
 			{
 				info = [[
-海域脅威度が<color=#A9F548>「安全海域」</color>で、かつ海域<color=#A9F548>☆3クリア</color>を達成すると、
-海域選択画面で同ステージを<color=#A9F548>「周回モード」</color>に設定することが可能
-になります。
+海域脅威度が<color=#92fc63>「安全海域」</color>で、かつ海域<color=#92fc63>☆3クリア</color>を達
+成すると、海域選択画面で同ステージを<color=#92fc63>「周回モード」</color>
+に設定することが可能になります。
 
 「周回モード」の特徴は下記になります：
-1.メインステージのハードモードステージでは、敵の護衛艦隊が<color=#A9F548>出
-現しなくなります</color>。
-2.イベントステージの敵の配置・行動ロジックが変化します。
-3.イベントステージで味方の<color=#A9F548>移動制限が解除され</color>、海域マップで自
-由に移動できます。]]
+1.メインステージのハードモードステージでは、敵の護
+衛艦隊が<color=#92fc63>出現しなくなります</color>。
+2.イベントステージの敵の配置・行動ロジックが変化し
+ます。
+3.イベントステージで味方の<color=#92fc63>移動制限が解除され</color>、海域
+マップで自由に移動できます。]]
 			}
 		}
 	},
 	no_airspace_competition = {
 		tip = "制空戦なし",
 		key = "no_airspace_competition"
+	},
+	air_supremacy_value = {
+		tip = "制空値",
+		key = "air_supremacy_value"
+	},
+	read_the_user_agreement = {
+		tip = "利用規約を最後までスクロールしてご確認ください",
+		key = "read_the_user_agreement"
+	},
+	award_max_warning = {
+		tip = "  所持上限を超えた分の資源・アイテムが廃棄されてしまいま\nす。報酬を入手しますか？",
+		key = "award_max_warning"
+	},
+	sub_item_warning = {
+		tip = "下記アイテムを消費し、任務を完了させますか？",
+		key = "sub_item_warning"
+	},
+	select_award_warning = {
+		tip = "入手する報酬を選んでください ",
+		key = "select_award_warning"
+	},
+	no_item_selected_tip = {
+		tip = "報酬はまだ入手されていません ",
+		key = "no_item_selected_tip"
+	},
+	backyard_traning_tip = {
+		tip = "寮舎の「訓練」に配置された艦はコンディションが回復し、経験値も入手可能",
+		key = "backyard_traning_tip"
+	},
+	backyard_rest_tip = {
+		tip = "寮舎の「休憩」に配置された艦はコンディションが回復する",
+		key = "backyard_rest_tip"
+	},
+	backyard_class_tip = {
+		tip = "授業に参加すると経験値が上昇します",
+		key = "backyard_class_tip"
+	},
+	medal_notice_1 = {
+		tip = "最高レベルの勲章のみ表示",
+		key = "medal_notice_1"
+	},
+	medal_notice_2 = {
+		tip = "選択中",
+		key = "medal_notice_2"
+	},
+	medal_help_tip = {
+		key = "medal_help_tip",
+		tip = {
+			{
+				info = "-栄典勲章について"
+			},
+			{
+				info = "・「栄典勲章」とは、指揮官の作戦における活躍を実\n績（勲章）として登録できるシステムになります。"
+			},
+			{
+				info = "・入手した勲章、未入手の勲章の入手条件については\n「栄典勲章」で確認することができます。"
+			},
+			{
+				info = "-勲章の入手方法について"
+			},
+			{
+				info = "・勲章の入手条件を満たすと「栄典勲章」で勲章を入手\nすることができます。"
+			},
+			{
+				info = "・複数の勲章の入手条件を同時に満たすこともできます"
+			},
+			{
+				info = "・同じ種類の勲章にはレベルがあり、下のレベルの勲章\nを入手すると、上のレベルの勲章が解禁されます。"
+			},
+			{
+				info = "・一部の勲章は入手するために複数の条件を達成する必\n要があるものも存在します。"
+			},
+			{
+				info = "-勲章を飾ろう"
+			},
+			{
+				info = "・入手した勲章は指揮官のプロフィール画面で飾ること\nができます。"
+			},
+			{
+				info = "・プロフィール画面に飾られている勲章は、他人から見\nる「個人情報画面」と「履歴画面」にも表示されます。"
+			},
+			{
+				info = "-その他"
+			},
+			{
+				info = "・艦船の育成（練度/親密度）に関する入手条件は、一\n種類の艦船を複数隻所持しても、最高値の一隻分しか計\n算されません。"
+			},
+			{
+				info = "・改造（近代化改修）済みの艦船は改造前の艦船と同じ\n艦船として計算されます。"
+			},
+			{
+				info = "・艦船を退役させても、入手条件の進捗には影響しませ\nん。"
+			}
+		}
+	},
+	trophy_achieved = {
+		tip = "勲章を入手しました！ ",
+		key = "trophy_achieved"
+	},
+	text_confirm = {
+		tip = "確 定",
+		key = "text_confirm"
+	},
+	text_cancel = {
+		tip = "戻 る",
+		key = "text_cancel"
+	},
+	text_cancel_fight = {
+		tip = "戦闘中止",
+		key = "text_cancel_fight"
+	},
+	text_goon_fight = {
+		tip = "戦闘継続",
+		key = "text_goon_fight"
+	},
+	text_exit = {
+		tip = "戻 る",
+		key = "text_exit"
+	},
+	text_clear = {
+		tip = "クリア",
+		key = "text_clear"
+	},
+	text_apply = {
+		tip = "申 請",
+		key = "text_apply"
+	},
+	text_buy = {
+		tip = "購 入",
+		key = "text_buy"
+	},
+	text_forward = {
+		tip = "確 認",
+		key = "text_forward"
+	},
+	text_prepage = {
+		tip = "前へ",
+		key = "text_prepage"
+	},
+	text_nextpage = {
+		tip = "次へ",
+		key = "text_nextpage"
+	},
+	text_exchange = {
+		tip = "交 換",
+		key = "text_exchange"
+	},
+	text_retreat = {
+		tip = "撤 退",
+		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
 		tip = "索敵値：",
@@ -9246,7 +9642,7 @@ pg.gametip = {
 		key = "level_scene_title_word_4"
 	},
 	level_scene_title_word_5 = {
-		tip = "制空値：         <color=#18ff23>推奨：       </color>",
+		tip = "推奨：",
 		key = "level_scene_title_word_5"
 	},
 	ambush_display_0 = {
@@ -9281,47 +9677,46 @@ pg.gametip = {
 		key = "black_white_grid_notice",
 		tip = {
 			{
-				info = "概要："
+				info = "活动说明："
 			},
 			{
-				info = [[
-「スッキリ！バーチャル空間」とは、バーチャル空間のウィルス
-を駆除することで、報酬が貰えるミニゲームです
-オブジェクトをタップすることでオブジェクトの色を反転させ、
-可能な限り白いオブジェクトが多い状態を目指しましょう
-NO.01～NO.04を初回クリアすると、報酬を貰うことが出来ます]]
+				info = "1.净化虚拟空间共有5张游戏图，可以在活动期间内反复游玩，\n但仅有前4张图<color=#92fc63>首次</color>净化成功时可获得奖励。"
 			},
 			{
-				info = [[
-ルール：
-オブジェクトを2回タップすると、タップしたオブジェ
-クトと、その周囲8コマのオブジェクトの色が反転します
-1回のゲームで反転は3回まで行うことが可能で、
-3回反転するとリザルト（最終得点）が計算されます
-リザルト画面の黒いオブジェクトが1つにつき-1、
-白いオブジェクトが1つにつき+1、
-計得点が0以上の場合クリアになります
-ゲーム右上のリセットボタンをタップすると、
-オブジェクトの配置と反転可能回数を初期化することができます]]
+				info = "2.前四张游戏图为固定图，第五张游戏图为随机图。"
 			},
 			{
-				info = [[
-注意点：各ステージに挑戦するには、イベント「仮想繋げし
-共時性」SP海域の対応ステージを★3クリアしている必要
-があります
-NO.01～NO.04のオブジェクト配置は固定であり
-NO.05の配置はランダムとなります。
-イベント期間中、何度でも挑戦できますが、
-各ステージから貰える報酬は初回クリア時のみとなります]]
+				info = "3.游戏图需要三星通关对应活动关卡地图才可以解锁。"
+			},
+			{
+				info = "4.需要先完成上一张游戏图，才能进行下一张游戏图。"
+			},
+			{
+				info = "5.每场游戏中，玩家拥有3次翻转次数。"
+			},
+			{
+				info = "6.点击游戏图上的同一格两次，即可进行一次翻转操作。"
+			},
+			{
+				info = "7.执行翻转操作将使以点击格为中心的<color=#92fc63>九格</color>颜色发生<color=#92fc63>反转</color>。\n（黑色格变为白色格，白色格变为黑色格）"
+			},
+			{
+				info = "8.进行3次翻转后游戏进行结算。"
+			},
+			{
+				info = "9.结算时，游戏图上的每个黑色块<color=#92fc63>-1</color>分，每个白色块<color=#92fc63>+1</color>分。\n最终分数<color=#92fc63>≥0</color>时视为净化完成，<color=#92fc63>＜0</color>时视为净化失败。"
+			},
+			{
+				info = "10.每场游戏中，玩家拥有3次翻转次数。"
 			}
 		}
 	},
 	black_white_grid_reset = {
-		tip = "オブジェクトの配置をリセットしますか？",
+		tip = "是否重置?",
 		key = "black_white_grid_reset"
 	},
 	black_white_grid_switch_tip = {
-		tip = "前のステージをクリアしなければ、次のステージへは進めません。",
+		tip = "本局游戏未结束，无法切换",
 		key = "black_white_grid_switch_tip"
 	},
 	no_way_to_escape = {
@@ -9338,42 +9733,46 @@ NO.05の配置はランダムとなります。
 			{
 				info = [[
 ■制空値とは：
-「制空値」とは海域における航空戦力の拮抗状況に影響するもので、
-味方出撃艦隊と出撃海域それぞれに「制空値」があり、
-味方の制空値と敵制空値との比較によって
+「制空値」とは海域における航空戦力の拮抗状況に影響
+するもので、味方出撃艦隊と出撃海域それぞれに「制空
+値」があり、味方の制空値と敵制空値との比較によって
 「制空権」が決定されます。
 
 「制空権」の状況により、下記の項目に影響があります。
 ・味方の航空攻撃が与えるダメージ
 ・味方艦隊が受ける敵航空攻撃によるダメージ
-・味方艦隊の一部ステータス（命中・回避・偵察値が微増/減）
+・味方艦隊の一部ステータス（命中・回避・偵察値が微
+増/減）
 
-また、味方艦隊と海域の制空値が両方一定の数値より低い場合、
-「制空権」による影響が無効になります。
-制空権の効果は海域マップ画面上部のアイコンをタップすることで
+また、味方艦隊と海域の制空値が両方一定の数値より低
+い場合、「制空権」による影響が無効になります。
+制空権の効果は海域マップ画面上部のアイコンをタップ
+することで
 確認することが出来ます。
 
 ■制空値の決め方
 味方艦隊の制空値は下記の項目を参照します。
-・味方艦隊の制空艦（正規空母、軽空母、航空戦艦、潜水空母）数
+・味方艦隊の制空艦（正規空母、軽空母、航空戦艦、潜
+水空母）数
 ・味方艦隊の「航空」ステータス
-・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機・水上機）
-味方艦隊の初期制空値は海域マップ選択画面の出撃準備画面で
-確認することが出来ます。
+・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機
+・水上機）
+味方艦隊の初期制空値は海域マップ選択画面の出撃準備
+画面で確認することが出来ます。
 
 海域制空値は下記の項目を参照します。
 ・海域深度（章数）
 ・味方艦隊の「対空」ステータス
-ハードモードにおける海域制空値は「周回モード」の設定により
-変化します。
+ハードモードにおける海域制空値は「周回モード」の設
+定により変化します。
 
 ■tips
-・味方艦隊の現在の制空値は「海域マップ画面で戦闘可能な艦」
-　によって決められます。
-・味方艦隊が直接戦闘に参加しなくても、制空値に貢献することが
-　できます。
-・味方制空艦が戦闘不能になると、その艦の分だけ味方艦隊の
-　制空値が低下します。]]
+・味方艦隊の現在の制空値は「海域マップ画面で戦闘可
+　能な艦」によって決められます。
+・味方艦隊が直接戦闘に参加しなくても、制空値に貢献
+　することができます。
+・味方制空艦が戦闘不能になると、その艦の分だけ味方
+　艦隊の制空値が低下します。]]
 			}
 		}
 	},
@@ -9383,10 +9782,11 @@ NO.05の配置はランダムとなります。
 			{
 				info = [[
 回避上限とは：
-艦載機が敵防空砲に攻撃される際、対空砲火を回避する確率の上限。
+艦載機が敵防空砲に攻撃される際、対空砲火を回避する
+確率の上限。
 
-防空砲攻撃の回避率は装備艦の航空ステータス、敵防空艦の
-対空ステータスと艦載機によって決められる。]]
+防空砲攻撃の回避率は装備艦の航空ステータス、敵防空
+艦の対空ステータスと艦載機によって決められる。]]
 			}
 		}
 	},
@@ -9399,7 +9799,7 @@ NO.05の配置はランダムとなります。
 		key = "refuse_and_add_into_bl"
 	},
 	tech_simulate_closed = {
-		tip = "弾幕確認機能が開放されていません",
+		tip = "弾幕確認機能が開放されていませ",
 		key = "tech_simulate_closed"
 	},
 	tech_simulate_quit = {
@@ -9407,7 +9807,7 @@ NO.05の配置はランダムとなります。
 		key = "tech_simulate_quit"
 	},
 	technology_uplevel_error_no_res = {
-		tip = "<color=#A9F548>$1</color>資金を消費し、陣営技術レベルを解放しますか？\n必要時間：<color=#A9F548>$2</color>\n技術レベル：<color=#A9F548>Lv.$3->Lv.$4</color> ",
+		tip = "<color=#92fc63>$1</color>資金を消費し、陣営技術レベルを解放しますか？",
 		key = "technology_uplevel_error_no_res"
 	},
 	help_technologytree = {
@@ -9415,55 +9815,61 @@ NO.05の配置はランダムとなります。
 		tip = {
 			{
 				info = [[
-・<color=#A9F548>艦船技術</color>とは
+・<color=#92fc63>艦船技術</color>とは
 
-  艦船技術機能とは、艦を集め、高練度を達成することで、艦隊
-全体を強化する効果を入手するシステムです。強化効果は<color=#A9F548>【限界
-突破を3回以上行った艦船】</color>に適用されます。
+艦船技術機能とは、艦を集め、高練度を達成することで、
+艦隊全体を強化する効果を入手するシステムです。強化
+効果は<color=#92fc63>【限界突破を3回以上行った艦船】</color>に適用されま
+す。
 
-※いわゆる「母港の艦を満遍なく育てること」で恩恵を受けられる
-システムになります。
+※いわゆる「母港の艦を満遍なく育てること」で恩恵を
+受けられるシステムになります。
 
-艦船技術更に「艦船技術」「陣営技術」に分けることができます。
+艦船技術更に「艦船技術」「陣営技術」に分けることが
+できます。
 
 「艦船技術」について
 
- 艦船技術とは、艦船を育てることで、艦隊全体に強化効果を与える
-システムです。艦船技術画面では、史実における技術の発展順
-（Tier）に応じて艦船の収集・技術取得状況を確認できます。  
-下記の条件を達成すると、対応の艦船強化効果を入手することが
-できます。
-・艦船を図鑑に<color=#A9F548>登録する</color>
-・艦船のレベルを<color=#A9F548>120</color>にする
+艦船技術とは、艦船を育てることで、艦隊全体に強化効
+果を与えるシステムです。艦船技術画面では、史実にお
+ける技術の発展順（Tier）に応じて艦船の収集・技術取
+得状況を確認できます。  
+下記の条件を達成すると、対応の艦船強化効果を入手す
+ることができます。
+・艦船を図鑑に<color=#92fc63>登録する</color>
+・艦船のレベルを<color=#92fc63>120</color>にする
 
-※同じ種類の艦船はそれぞれの強化効果を<color=#A9F548>1回ずつ</color>しか入手できま
-せん。
+※同じ種類の艦船はそれぞれの強化効果を<color=#92fc63>1回ずつ</color>しか
+入手できません。
 
-<color=#A9F548>「陣営技術」</color>について
+<color=#92fc63>「陣営技術」</color>について
 
- 陣営技術とは、各陣営の「技術レベル」に応じて、艦隊全体に強化
+ 陣営技術とは、各陣営の「技術レベル」に応じて、艦隊
+全体に強化
 効果を与えるシステムです。
-・陣営技術項目の詳細をタップすると、この項目の強化効果、現在
-の技術レベルを確認することができます。
-・技術項目の技術レベルを上昇させると、強化効果を更にアップさ
-せることができます。
-・技術レベルを上昇させるには、<color=#A9F548>「資金」</color>の消費に加え、当該陣営
-の「技術Pt」が一定値以上に達成してる必要があります。
- また、技術レベルの上昇は同時に一陣営でしか行なえません。
+・陣営技術項目の詳細をタップすると、この項目の強化
+効果、現在の技術レベルを確認することができます。
+・技術項目の技術レベルを上昇させると、強化効果を更
+にアップさせることができます。
+・技術レベルを上昇させるには、<color=#92fc63>「資金」</color>の消費に加え、
+当該陣営の「技術Pt」が一定値以上に達成してる必要が
+あります。
+ また、技術レベルの上昇は同時に一陣営でしか行なえ
+ません。
 
 「技術Pt」について
 
-  陣営技術レベルを強化するには、各陣営に対応する「技術Pt」
-の取得・蓄積が必要となります。陣営技術画面の各陣営のバナー
-をタップすることで、「技術Pt」の現在値を確認することが
-できます。
+陣営技術レベルを強化するには、各陣営に対応する「技
+術Pt」の取得・蓄積が必要となります。陣営技術画面の
+各陣営のバナーをタップすることで、「技術Pt」の現在
+値を確認することができます。
 技術Ptの入手方法は下記になります：
-・新たな艦船を図鑑に<color=#A9F548>登録する</color>
-・艦船の限界<color=#A9F548>突破回数を最大にする</color>
-・艦船のレベルを<color=#A9F548>120</color>にする
+・新たな艦船を図鑑に<color=#92fc63>登録する</color>
+・艦船の限界<color=#92fc63>突破回数を最大にする</color>
+・艦船のレベルを<color=#92fc63>120</color>にする
 
- ※同じ種類の艦船はそれぞれの技術Ptを1回ずつしか入手できま
-せん]]
+ ※同じ種類の艦船はそれぞれの技術Ptを1回ずつしか
+入手できません]]
 			}
 		}
 	},
@@ -9480,7 +9886,7 @@ NO.05の配置はランダムとなります。
 		key = "fate_attr_word"
 	},
 	fate_phase_word = {
-		tip = "研究進捗 ",
+		tip = "研究進捗",
 		key = "fate_phase_word"
 	},
 	blueprint_simulation_confirm = {
@@ -9489,8 +9895,8 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_19901 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+<size=28>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
 試作型三連装152mm両用砲Mk17
 試作型三連装152mm両用砲Mk17
 四連装ボフォース40mm機関砲</color></size>]],
@@ -9498,9 +9904,9 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_19902 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+使用兵装：<color=#ff5c5c>
 試作型457mm連装砲MKA
 127mm連装両用砲MK12
 四連装ボフォース40mm機関砲</color></size>]],
@@ -9508,9 +9914,9 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_39903 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+使用兵装：<color=#ff5c5c>
 100mm二連装九八式高角砲
 610mm四連装魚雷
 試作型五式40mm高射機関砲</color></size>]],
@@ -9518,9 +9924,9 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_39904 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+使用兵装：<color=#ff5c5c>
 試作型三連装310mm砲
 100mm二連装九八式高角砲
 試作型五式40mm高射機関砲</color></size>]],
@@ -9528,9 +9934,9 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_49902 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+使用兵装：<color=#ff5c5c>
 試作型406mmSKC連装砲
 150mmTbtsKC/36連装砲
 105mmSKC連装高角砲</color></size>]],
@@ -9538,57 +9944,254 @@ NO.05の配置はランダムとなります。
 	},
 	blueprint_simulation_confirm_99901 = {
 		tip = [[
-<size=23>弾幕確認機能（模擬戦）を起動しますか？
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
 (※実際の艦の性能とは異なります）
-使用兵装：<color=#A9F548>
+使用兵装：<color=#ff5c5c>
 380mm四連装砲Mle1935
 152mm三連装砲Mle1930
 二連装37mm高射砲Mle1936</color></size>]],
 		key = "blueprint_simulation_confirm_99901"
 	},
 	electrotherapy_wanning = {
-		tip = "まもなく、安全地帯の範囲が制限されます ",
+		tip = "即将开始收圈",
 		key = "electrotherapy_wanning"
 	},
 	memorybook_get_award_tip = {
-		tip = "全ての「AIメモリアル」を集めることで入手できます ",
+		tip = "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」",
 		key = "memorybook_get_award_tip"
 	},
 	memorybook_notice = {
 		key = "memorybook_notice",
 		tip = {
 			{
-				info = "概要："
+				info = "活动说明："
 			},
 			{
-				info = [[
-  「AIメモリアル」とは様々な条件をクリアして「AIメモリアル」
-を集めることで報酬が貰えるイベントです
-    イベント期間中、下記の方法で24枚全てのAIメモリアルを集め
-るとコラボ限定家具「ぴょこぴょこ記念章」を入手できます]]
+				info = "1.活动期间参与游戏收集「港区回忆」，收集全部24张回忆后\n   可获得限定家具「晃悠悠纪念章」"
 			},
 			{
-				info = "入手方法："
+				info = "2.参与以下内容可以收集「港区回忆」：\n   通过活动关卡、完成日常篇每日任务、完成净化虚拟空间、\n完成活动任务、累积Pt-绊"
 			},
 			{
-				info = "　・イベントステージの攻略"
+				info = "3.通过一次Black-SP后重返SP1—SP4，收集全新的回忆吧！"
 			},
 			{
-				info = "　・日常編の毎日任務完了"
-			},
-			{
-				info = "　・スッキリ！バーチャル空間のクリア"
-			},
-			{
-				info = "　・イベント任務の完了"
-			},
-			{
-				info = "　・PT-キズナ累計報酬"
-			},
-			{
-				info = "　・Black-SPをクリア後、再度SP1～SP4に挑戦"
+				info = "4.<color=#92fc63>注意：</color>获取条件为？？？的「港区回忆」\n仅能在非周回模式的海域中收集线索"
 			}
 		}
+	},
+	word_votes = {
+		tip = "得票数量",
+		key = "word_votes"
+	},
+	number_0 = {
+		tip = "零",
+		key = "number_0"
+	},
+	intimacy_desc_propose_vertical = {
+		tip = [[
+愛は幸せの導き、想いは永遠の絆
+守りたいものはあなたの笑顔
+お互いを深く愛し、支え合い
+末永く運命を共にすることを、誓います
+
+         $1]],
+		key = "intimacy_desc_propose_vertical"
+	},
+	without_selected_ship = {
+		tip = "条件に合う艦船がいません ",
+		key = "without_selected_ship"
+	},
+	index_all = {
+		tip = "すべて",
+		key = "index_all"
+	},
+	index_fleetfront = {
+		tip = "前衛艦隊",
+		key = "index_fleetfront"
+	},
+	index_fleetrear = {
+		tip = "主力艦隊",
+		key = "index_fleetrear"
+	},
+	index_shipType_quZhu = {
+		tip = "駆逐",
+		key = "index_shipType_quZhu"
+	},
+	index_shipType_qinXun = {
+		tip = "軽巡",
+		key = "index_shipType_qinXun"
+	},
+	index_shipType_zhongXun = {
+		tip = "重巡",
+		key = "index_shipType_zhongXun"
+	},
+	index_shipType_zhanLie = {
+		tip = "戦艦",
+		key = "index_shipType_zhanLie"
+	},
+	index_shipType_hangMu = {
+		tip = "空母",
+		key = "index_shipType_hangMu"
+	},
+	index_shipType_weiXiu = {
+		tip = "工作",
+		key = "index_shipType_weiXiu"
+	},
+	index_shipType_qianTing = {
+		tip = "潜水艦",
+		key = "index_shipType_qianTing"
+	},
+	index_other = {
+		tip = "その他",
+		key = "index_other"
+	},
+	index_rare2 = {
+		tip = "ノーマル",
+		key = "index_rare2"
+	},
+	index_rare3 = {
+		tip = "レア",
+		key = "index_rare3"
+	},
+	index_rare4 = {
+		tip = "Sレア",
+		key = "index_rare4"
+	},
+	index_rare5 = {
+		tip = "SSレア",
+		key = "index_rare5"
+	},
+	index_rare6 = {
+		tip = "Uレア",
+		key = "index_rare6"
+	},
+	warning_mail_max_1 = {
+		tip = "メール所持件数が上限(<color=#FF5C5C>$1</color>/1000)に近づいています。メールを整理してください ",
+		key = "warning_mail_max_1"
+	},
+	warning_mail_max_2 = {
+		tip = "メール所持数が上限に達しています。メールを整理してください ",
+		key = "warning_mail_max_2"
+	},
+	return_award_bind_success = {
+		tip = "UID入力成功",
+		key = "return_award_bind_success"
+	},
+	return_award_bind_erro = {
+		tip = "UID入力失敗$1",
+		key = "return_award_bind_erro"
+	},
+	rename_commander_erro = {
+		tip = "名前変更失敗$1",
+		key = "rename_commander_erro"
+	},
+	change_display_medal_success = {
+		tip = "勲章展示設定を変更しました",
+		key = "change_display_medal_success"
+	},
+	limit_skin_time_day = {
+		tip = "殘り時間:$1日",
+		key = "limit_skin_time_day"
+	},
+	limit_skin_time_day_min = {
+		tip = "殘り時間:$1時間$2",
+		key = "limit_skin_time_day_min"
+	},
+	limit_skin_time_min = {
+		tip = "殘り時間:$1分",
+		key = "limit_skin_time_min"
+	},
+	limit_skin_time_overtime = {
+		tip = "利用期間外です",
+		key = "limit_skin_time_overtime"
+	},
+	award_window_pt_title = {
+		tip = "カムバックPt：",
+		key = "award_window_pt_title"
+	},
+	return_have_participated_in_act = {
+		tip = "このイベントは参加済です",
+		key = "return_have_participated_in_act"
+	},
+	input_returner_code = {
+		tip = "UID入力",
+		key = "input_returner_code"
+	},
+	dress_up_success = {
+		tip = "チャット設定変更成功",
+		key = "dress_up_success"
+	},
+	already_have_the_skin = {
+		tip = "入手済の着せ替えです",
+		key = "already_have_the_skin"
+	},
+	exchange_limit_skin_tip = {
+		tip = "試着貸出チケット$1枚を消費して\n【$2】を$3日$4時間を着せ替え可能にしますか?",
+		key = "exchange_limit_skin_tip"
+	},
+	returner_help = {
+		key = "returner_help",
+		tip = {
+			{
+				info = [[
+イベント紹介：
+
+「カムバックミッション」とは、
+指揮官のログイン状況に応じて「現役指揮官」「カムバ
+ック指揮官」に分類され、それぞれ違う報酬を入手でき
+るイベントとなります。
+イベントは期間中に指揮官レベル15以上に到達してい
+ると参加可能です。
+■「現役指揮官」「カムバック指揮官」について
+下記の条件の内、いずれか一つでも満たした時点で「現
+役指揮官」として分類され、「現役指揮官」専用の目標
+を達成することで報酬を入手できます。
+A.5月20日（月）メンテナンス時点で指揮官レベルが
+15以上、
+　かつ2019年4月20日（土）～5月20日（月）メン
+テナンスまでに一度でもログインしたことがある
+B.5月20日（月）メンテナンス時点で指揮官レベルが
+15未満、
+　かつイベント開催期間中に指揮官レベル15を達成
+C.5月20日（月）メンテナンス後新規着任し、かつイ
+ベント開催期間中に指揮官レベル15を達成
+上記の条件のいずれも満たしていない場合は「カムバッ
+ク指揮官」として、
+専用任務をクリアすることで報酬を入手することができ
+ます。
+自分が「現役指揮官」「カムバック指揮官」のどちらに
+属しているか不明な場合は、
+カムバックミッションのバナーに表示される内容をご確
+認ください。
+■現役指揮官の目標について
+現役指揮官は最大３人の友達に「カムバックミッション
+」に参加してもらうことができ、
+友達が専用任務をクリアすると、自分に「カムバック
+Pt」が加算されます。
+「カムバックPt」は累計獲得数に応じて様々な報酬を
+入手することができます。
+友達に自分のUID（イベントバナーに表示されている
+数字）を、
+友達側のイベントバナーに入力してもらうことで、友達
+はカムバックミッションに参加可能になります。
+カムバックミッションに参加した友達のIDは、現役指
+揮官のバナーの右側に表示されます。
+■カムバック指揮官の目標について
+カムバック指揮官は、現役指揮官のUIDをイベントバナ
+ーに入力することで、
+「カムバックミッション」に参加可能になります。
+カムバックミッションに参加すると、
+毎日解禁される専用任務をクリアすることで、様々な
+報酬を入手できます。
+一つのUIDは最大3回まで入力できます。また、UIDは
+違うサーバーの友達のものでも入力可能です。]]
+			}
+		}
+	},
+	attire_time_stamp = {
+		tip = "$1日$2時間$3分",
+		key = "attire_time_stamp"
 	}
 }
 

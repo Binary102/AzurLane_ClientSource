@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"平穏を讃えて\n\n<size=30>四　悪戯タイム？</size>",
+					"平穏を讃えて\n\n<size=45>四　悪戯タイム？</size>",
 					1
 				}
 			}
@@ -292,7 +292,7 @@ return {
 			say = "（ドカーン！！）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

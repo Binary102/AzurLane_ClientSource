@@ -87,6 +87,7 @@ function slot5.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.name = slot1
 	slot0.root = slot0.CldArea.New(slot2, slot3, nil)
 	slot0.MaxLayer = slot4
+	slot0.cldStack = {}
 
 	return
 end
@@ -301,9 +302,7 @@ function slot5.GetCldList(slot0, slot1, slot2)
 		slot6 = slot6.childs[slot5]
 	end
 
-	slot8 = {
-		slot6
-	}
+	slot1.insert(slot0.cldStack, slot6)
 
 	while #slot8 > 0 do
 		for slot13, slot14 in ipairs(slot1.remove(slot8).nodes) do

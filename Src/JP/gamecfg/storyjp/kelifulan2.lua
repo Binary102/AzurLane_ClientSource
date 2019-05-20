@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ナイト＆アワード\n\n<size=30>その二　騎士団結成！</size>",
+					"ナイト＆アワード\n\n<size=45>その二　騎士団結成！</size>",
 					1
 				}
 			}
@@ -54,7 +54,7 @@ return {
 			say = "おー！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -66,7 +66,7 @@ return {
 					actor = 102140,
 					dir = -1,
 					pos = {
-						x = -750
+						x = -1125
 					}
 				}
 			},
@@ -88,7 +88,7 @@ return {
 			say = "……プッ。…おー！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,
@@ -259,7 +259,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 2
 				}
 			},
@@ -328,7 +328,7 @@ return {
 			say = "そうじゃなーーーーい！！人を話はちゃんと聞けーー！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					dur = 0.2,
 					x = 0,

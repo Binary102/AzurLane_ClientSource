@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ジュルネ・シュルクーフ！\n\n<size=30>三 働くシュルクーフ</size>",
+					"ジュルネ・シュルクーフ！\n\n<size=45>三 働くシュルクーフ</size>",
 					1
 				}
 			}

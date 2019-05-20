@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"お花見大会\n\n<size=30>その五  桜に幕</size>",
+					"お花見大会\n\n<size=45>その五  桜に幕</size>",
 					1
 				}
 			}

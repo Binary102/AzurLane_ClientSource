@@ -18,6 +18,14 @@ function slot0.execute(slot0, slot1)
 			arg1 = slot2.statistics._battleScore,
 			arg2 = slot2.statistics.dodgemResult.score
 		})
+	elseif slot6 == SYSTEM_SUBMARINE_RUN then
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 1,
+			activity_id = ActivityConst.SUB_RED_POCKET,
+			statistics = slot2.statistics,
+			arg1 = slot2.statistics._battleScore,
+			arg2 = slot2.statistics.subRunResult.score
+		})
 	else
 		ys.Battle.BattleState.GenerateVertifyData()
 
@@ -60,26 +68,10 @@ function slot0.execute(slot0, slot1)
 					submarineTeam = slot21:getShipsByTeam(TeamType.Submarine, true)
 
 					for slot25, slot26 in ipairs(submarineTeam) do
-						table.insert(slot15, slot26)
-					end
+						if slot2.statistics[slot26.id] then
+							table.insert(slot15, slot26)
 
-					slot14 = slot14 + slot21:getSummonCost()
-				else
-					print("finish stage error: can not find submarine fleet.")
-				end
-			end
-		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			slot15 = slot3:getShipsByFleet(slot10:getActivityFleets()[slot2.actID][slot2.mainFleetId])
-			slot13 = slot10.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot18).gold
-			slot14 = slot10.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot18).oil
-
-			if slot2.statistics.submarineAid then
-				if slot10:getActivityFleets()[slot2.actID][Fleet.SUBMARINE_FLEET_ID] then
-					for slot27, slot28 in ipairs(slot23) do
-						if slot2.statistics[slot28.id] then
-							table.insert(slot15, slot28)
-
-							slot14 = slot14 + slot28:getEndBattleExpend()
+							slot14 = slot14 + slot26:getEndBattleExpend()
 						end
 					end
 				else
@@ -143,6 +135,24 @@ function slot0.execute(slot0, slot1)
 			slot15 = {}
 			slot13 = 0
 			slot14 = 0
+		elseif slot6 == SYSTEM_WORLD then
+			slot19 = getProxy(WorldProxy).GetWorld(slot16).GetActiveMap(slot17).GetFleet(slot18)
+			slot15 = slot19:GetShipVOs(true)
+			slot20, slot21 = slot19:GetCost()
+			slot13 = slot21.gold
+			slot14 = slot21.oil
+
+			if slot2.statistics.submarineAid then
+				for slot27, slot28 in ipairs(slot23) do
+					if slot2.statistics[slot28.id] then
+						table.insert(slot15, slot28)
+					end
+				end
+
+				slot24, slot25 = slot22:GetCost()
+				slot13 = slot13 + slot25.gold
+				slot14 = slot14 + slot25.oil
+			end
 		else
 			slot16 = slot10:getFleetById(slot2.mainFleetId)
 			slot15 = slot3:getShipsByFleet(slot16)
@@ -261,33 +271,70 @@ function slot0.execute(slot0, slot1)
 				else
 					slot1.addShipsExp(slot0.ship_exp_list, slot2.statistics, slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS)
 
-					slot1.commanderExpList = slot1:addCommanderExp(slot0.commander_exp)
+					if slot0 == SYSTEM_SCENARIO then
+						slot4 = slot1:addCommanderExp(slot0.commander_exp)
+						slot7 = {}
+						slot8 = {}
+						slot9 = {}
+
+						for slot13, slot14 in pairs(slot6) do
+							table.insert(slot9, slot14.id)
+						end
+
+						for slot13, slot14 in ipairs(slot4) do
+							if table.contains(slot9, slot14.commander_id) then
+								table.insert(slot7, slot14)
+							else
+								table.insert(slot8, slot14)
+							end
+						end
+
+						slot1.commanderExpList = {
+							surfaceCMD = slot7,
+							submarineCMD = slot8
+						}
+					end
 				end
 
 				slot2.statistics.mvpShipID = slot0.mvp
 				slot3 = {}
+				slot4 = {}
+				slot5 = {}
 
-				for slot7, slot8 in ipairs(slot0.drop_info) do
-					table.insert(slot3, Item.New(slot8))
+				for slot9, slot10 in ipairs(slot0.drop_info) do
+					slot11 = Item.New(slot10)
 
-					if Item.New(slot8).type == DROP_TYPE_SHIP then
-						slot9.virgin = getProxy(CollectionProxy) and slot11.shipGroups[pg.ship_data_template[slot9.id].group_type] == nil
+					table.insert(slot3, slot11)
+					table.insert(slot5, slot11)
+
+					if slot11.type == DROP_TYPE_SHIP then
+						slot11.virgin = getProxy(CollectionProxy) and slot13.shipGroups[pg.ship_data_template[slot11.id].group_type] == nil
 					end
 
-					slot1:sendNotification(GAME.ADD_ITEM, slot9)
+					slot1:sendNotification(GAME.ADD_ITEM, slot11)
 				end
 
-				slot2:getData().addExp(slot4, slot0.player_exp)
+				for slot9, slot10 in ipairs(slot0.extra_drop_info) do
+					slot11 = Item.New(slot10)
 
-				slot5 = ys.Battle.BattleConst.BattleScore.C < slot4
+					table.insert(slot4, slot11)
+					table.insert(slot5, slot11)
+					slot1:sendNotification(GAME.ADD_ITEM, slot11)
+				end
 
-				if slot0 == SYSTEM_ROUTINE and slot5 then
-					slot6 = getProxy(DailyLevelProxy)
-					slot6.data[slot6.dailyLevelId] = (slot6.data[slot6.dailyLevelId] or 0) + 1
-				elseif slot0 == SYSTEM_ACT_BOSS and slot5 and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot7:isEnd() then
-					slot7:updateKVPList(1, slot7, slot7:getKVPList(1, slot7) + 1)
-					slot7:updateDataList(slot7)
-					slot6:updateActivity(slot7)
+				slot6 = slot2:getData()
+
+				slot6:addExp(slot0.player_exp)
+
+				slot7 = ys.Battle.BattleConst.BattleScore.C < slot6
+
+				if slot0 == SYSTEM_ROUTINE and slot7 then
+					slot8 = getProxy(DailyLevelProxy)
+					slot8.data[slot8.dailyLevelId] = (slot8.data[slot8.dailyLevelId] or 0) + 1
+				elseif slot0 == SYSTEM_ACT_BOSS and slot7 and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot9:isEnd() then
+					slot9:updateKVPList(1, slot7, slot9:getKVPList(1, slot7) + 1)
+					slot9:updateDataList(slot7)
+					slot8:updateActivity(slot9)
 				end
 
 				if slot0 == SYSTEM_DUEL then
@@ -296,93 +343,108 @@ function slot0.execute(slot0, slot1)
 					getProxy(MilitaryExerciseProxy):reduceExerciseCount()
 				end
 
-				if slot3.oil_cost > 0 and slot5 then
-					slot4:consume({
+				if slot3.oil_cost > 0 and slot7 then
+					slot6:consume({
 						oil = slot8,
-						gold = slot8
+						gold = slot6
 					})
 				end
 
 				if slot3.attack_count > 0 and not slot1 then
 					if slot3.attack_count == 1 then
-						slot4:increaseAttackCount()
+						slot6:increaseAttackCount()
 
-						if slot5 then
-							slot4:increaseAttackWinCount()
+						if slot7 then
+							slot6:increaseAttackWinCount()
 						end
 					elseif slot3.attack_count == 2 then
-						slot4:increasePvpCount()
+						slot6:increasePvpCount()
 
-						if slot5 then
-							slot4:increasePvpWinCount()
+						if slot7 then
+							slot6:increasePvpWinCount()
 						end
 					end
 				end
 
-				slot2:updatePlayer(slot4)
-				slot6(slot1, GAME.FINISH_STAGE_DONE, {
+				slot2:updatePlayer(slot6)
+				slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
 					system = slot0,
 					statistics = slot2.statistics,
 					score = slot6,
 					drops = slot3,
 					prefabFleet = prefabFleet,
 					commanderExps = slot1.commanderExpList or {},
-					result = slot0.result
+					result = slot0.result,
+					extraDrops = slot4
 				})
 
 				if slot0 == SYSTEM_SCENARIO then
 					slot10:updateActiveChapterShips()
-					slot10:getActiveChapter().writeDrops(slot6, slot3)
+					slot10:getActiveChapter().writeDrops(slot8, slot3)
 
-					slot8 = nil
+					slot10 = nil
 
-					for slot12, slot13 in ipairs(slot7) do
-						if slot13:isUnlock() then
-							slot8 = slot13.id
+					for slot14, slot15 in ipairs(slot9) do
+						if slot15:isUnlock() then
+							slot10 = slot15.id
 						end
 					end
 
-					slot10:updateChapter(slot6)
+					slot10:updateChapter(slot8)
 
-					slot9 = nil
+					slot11 = nil
 
-					for slot13, slot14 in ipairs(slot7) do
-						if slot14:isUnlock() then
-							slot9 = slot14.id
+					for slot15, slot16 in ipairs(slot9) do
+						if slot16:isUnlock() then
+							slot11 = slot16.id
 						end
 					end
 
-					if Map.lastMap and slot9 ~= slot8 and slot8 < slot9 then
+					if Map.lastMap and slot11 ~= slot10 and slot10 < slot11 then
 						Map.autoNextPage = true
 					end
 				elseif slot0 == SYSTEM_SHAM then
 					slot10:updateShamChapterShips()
 
-					slot6 = slot10:getShamChapter()
+					slot8 = slot10:getShamChapter()
 
-					slot6:writeBack(slot5, slot2)
-					slot10:updateShamChapter(slot6)
+					slot8:writeBack(slot7, slot2)
+					slot8:updateShamChapter(slot8)
 				elseif slot0 == SYSTEM_GUILD then
 					slot10:updateGuildChapterShips()
 
-					slot6 = slot10:getGuildChapter()
+					slot8 = slot10:getGuildChapter()
 
-					slot6:writeBack(slot5, slot2)
-					slot10:updateGuildChapter(slot6)
-				elseif slot0 == SYSTEM_CHALLENGE then
-					slot11:updateActiveChallengeShips()
+					slot8:writeBack(slot7, slot2)
+					slot8:updateGuildChapter(slot8)
+				else
+					if slot0 == SYSTEM_CHALLENGE then
+						slot11:updateActiveChallengeShips()
 
-					function slot8(slot0)
-						if slot0.statistics[slot0.id] then
-							slot1:updateShipHp(slot0.id, slot1.bp)
+						function slot10(slot0)
+							if slot0.statistics[slot0.id] then
+								slot1:updateShipHp(slot0.id, slot1.bp)
+							end
+						end
+
+						for slot14, slot15 in pairs(slot11:getCurrentChallengeInfo().fleet.ships) do
+							slot10(slot15)
+						end
+
+						slot11:updateChallenge(slot8)
+
+						return
+					end
+
+					if slot0 == SYSTEM_WORLD then
+						getProxy(WorldProxy).GetWorld(slot8).GetActiveMap(slot9):WriteBack(slot7, slot2)
+
+						if not slot7 then
+							slot9:AddLog(WorldLog.TypeBattleFailure, {
+								fleet = slot10:GetFleet().id
+							})
 						end
 					end
-
-					for slot12, slot13 in pairs(slot11:getCurrentChallengeInfo().fleet.ships) do
-						slot8(slot13)
-					end
-
-					slot11:updateChallenge(slot6)
 				end
 			else
 				print("stage_finishStage error--" .. slot0.result)
@@ -420,6 +482,7 @@ function slot0.addCommanderExp(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot1) do
 		slot11 = slot3:getCommanderById(slot9)
+		slot12 = slot11.exp
 
 		slot11:addExp(slot10)
 		slot3:updateCommander(slot11)
@@ -427,12 +490,14 @@ function slot0.addCommanderExp(slot0, slot1)
 		if slot11:isMaxLevel() then
 			table.insert(slot2, {
 				exp = 0,
-				commander_id = slot9
+				commander_id = slot9,
+				curExp = slot12
 			})
 		else
 			table.insert(slot2, {
 				commander_id = slot9,
-				exp = slot8.exp
+				exp = slot8.exp,
+				curExp = slot12
 			})
 		end
 	end

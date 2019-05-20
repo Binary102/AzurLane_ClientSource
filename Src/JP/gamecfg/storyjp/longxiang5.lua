@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"軽空母龍驤ここにあり\n\n<size=30>五 不安！最近はどうして……？</size>",
+					"軽空母龍驤ここにあり\n\n<size=45>五 不安！最近はどうして……？</size>",
 					1
 				}
 			}
@@ -84,7 +84,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -219,7 +219,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 1,
 					dur = 0.2,
@@ -296,7 +296,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
@@ -356,7 +356,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,

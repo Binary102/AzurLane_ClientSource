@@ -1152,26 +1152,28 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 	return true
 end
 
-function slot0.getDragExtend(slot0, slot1, slot2)
-	slot3 = 99999999
-	slot4 = 0
-	slot5 = 0
+function slot0.getDragExtend(slot0, slot1, slot2, slot3)
+	slot5 = slot1.localPosition.x
+	slot6 = slot1.localPosition.y - slot1.localPosition.z * math.tan(math.pi / 180 * slot0.theme.angle)
+	slot7 = 99999999
+	slot8 = 0
+	slot9 = 0
 
-	for slot9, slot10 in pairs(slot0.cells) do
-		if slot10.row < slot3 then
-			slot3 = slot10.row
+	for slot13, slot14 in pairs(slot0.cells) do
+		if slot14.row < slot7 then
+			slot7 = slot14.row
 		end
 
-		if slot4 < slot10.row then
-			slot4 = slot10.row
+		if slot8 < slot14.row then
+			slot8 = slot14.row
 		end
 
-		if slot5 < slot10.column then
-			slot5 = slot10.column
+		if slot9 < slot14.column then
+			slot9 = slot14.column
 		end
 	end
 
-	return 200, math.max(slot5 * slot0.theme.cellSize + slot0.theme.cellSpace.x - slot1 * 0.5, 0), math.max((ChapterConst.MaxRow * 0.5 - slot3) * slot0.theme.cellSize + slot0.theme.cellSpace.y, 0), math.max((slot4 - ChapterConst.MaxRow * 0.5) * slot0.theme.cellSize + slot0.theme.cellSpace.y, 0)
+	return 1000 - slot5, math.max(slot9 * slot4.cellSize + slot4.cellSpace.x - slot2 * 0.5, 0) + slot5, math.max((ChapterConst.MaxRow * 0.5 - slot7) * slot4.cellSize + slot4.cellSpace.y, 0) + slot6, math.max((slot8 - ChapterConst.MaxRow * 0.5) * slot4.cellSize + slot4.cellSpace.y, 0) - slot6
 end
 
 function slot0.getPoisonArea(slot0, slot1)
@@ -1870,6 +1872,10 @@ function slot0.getStageExtraAwards(slot0)
 	end
 end
 
+function slot0.GetExtraCostRate(slot0)
+	return math.max(1, 1), {}
+end
+
 function slot0.getFleetCost(slot0, slot1)
 	if slot0:getPlayType() == ChapterConst.TypeExtra then
 		return {
@@ -1881,7 +1887,7 @@ function slot0.getFleetCost(slot0, slot1)
 		}
 	end
 
-	return slot1:getCost()
+	return slot1:getCost(slot0:GetExtraCostRate())
 end
 
 function slot0.writeDrops(slot0, slot1)

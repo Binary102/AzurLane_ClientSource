@@ -1,8 +1,9 @@
 pg = pg or {}
 pg.activity_event_pt = {
 	[10238] = {
-		pt = 123,
+		id_2 = 10234,
 		id = 10238,
+		pt = 123,
 		target = {
 			100,
 			300,

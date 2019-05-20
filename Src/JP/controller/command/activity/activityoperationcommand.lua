@@ -328,10 +328,18 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_DODGEM then
 		if slot1.cmd == 1 then
+			slot8, slot9 = slot3:getConfig("config_id")
+
+			if slot8 == 1 then
+				slot9 = SYSTEM_DODGEM
+			elseif slot8 == 2 then
+				slot9 = SYSTEM_SUBMARINE_RUN
+			end
+
 			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
 				statistics = slot1.statistics,
 				score = slot1.statistics._battleScore,
-				system = SYSTEM_DODGEM
+				system = slot9
 			})
 
 			slot3.data1_list[1] = math.max(slot3.data1_list[1], slot1.arg2)
@@ -400,20 +408,8 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				pg.StoryMgr.GetInstance():Play(slot1, pg.StoryMgr.GetInstance().Play)
 				coroutine.yield()
 			end
-		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM then
-			if slot5.cmd == 2 and slot4.number[3] > 0 then
-				table.insert(slot6, {
-					id = 59761,
-					count = 1,
-					type = 8
-				})
-			end
 		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM and slot5.cmd == 2 and slot4.number[3] > 0 then
-			table.insert(slot6, {
-				id = 59761,
-				count = 1,
-				type = 8
-			})
+			table.insert(slot6, ActivityConst.DODGEM_FAKE_ITEM[slot1:getConfig("config_id")])
 		end
 
 		if #slot6 > 0 then

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夏の鍋大会！？\n\n<size=30>三  オフシーズン！？</size>",
+					"夏の鍋大会！？\n\n<size=45>三  オフシーズン！？</size>",
 					1
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

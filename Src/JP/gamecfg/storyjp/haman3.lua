@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ハムマン観察記録\n\n<size=30>その三 不機嫌の理由・中</size>",
+					"ハムマン観察記録\n\n<size=45>その三 不機嫌の理由・中</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -115,7 +115,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -177,7 +177,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -212,7 +212,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					dur = 0.25,
 					number = 1,
 					type = "shake"
@@ -235,7 +235,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -279,7 +279,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -329,7 +329,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -352,7 +352,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -389,7 +389,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -446,7 +446,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.1,
-					x = 20,
+					x = 30,
 					number = 4
 				}
 			}

@@ -6,9 +6,12 @@ slot4 = ys.Battle.BattleVariable
 slot5 = class("BattleSceneMediator", ys.MVC.Mediator)
 ys.Battle.BattleSceneMediator = slot5
 slot5.__name = "BattleSceneMediator"
+slot6 = Vector3(0, 0.8, 0)
 
 function slot5.Ctor(slot0)
 	slot0.super.Ctor(slot0)
+
+	slot0.FlagShipUIPos = Vector3.zero
 end
 
 function slot5.Initialize(slot0)
@@ -379,7 +382,7 @@ function slot5.ResetFocus(slot0)
 end
 
 function slot5.UpdateFlagShipMark(slot0)
-	slot0._goFlagShipMarkTf.position = slot0.CameraPosToUICamera(slot0._leftFleetMotion:GetPos())
+	slot0._goFlagShipMarkTf.position = slot0.CameraPosToUICamera(slot1):Add(slot0.FlagShipUIPos:Copy(slot0._leftFleetMotion:GetPos()))
 end
 
 function slot5.UpdateAntiAirArea(slot0)

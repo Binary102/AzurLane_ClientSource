@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ヒガンバナの恋\n\n<size=30>その三　恋敵と…例外？</size>",
+					"ヒガンバナの恋\n\n<size=45>その三　恋敵と…例外？</size>",
 					1
 				}
 			}

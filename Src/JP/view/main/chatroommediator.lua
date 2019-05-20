@@ -25,12 +25,14 @@ function slot0.register(slot0)
 			slot0.friendProxy:updateFriend(slot2)
 		end
 	end)
-	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EmojiLayer,
 			mediator = EmojiMediator,
 			data = {
-				callback = slot1
+				callback = slot2,
+				pos = slot1,
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_CHATROOM
 			}
 		}))
 	end)

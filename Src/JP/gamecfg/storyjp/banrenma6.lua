@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"セントーと先輩たち\n\n<size=30>六　みんなの後輩</size>",
+					"セントーと先輩たち\n\n<size=45>六　みんなの後輩</size>",
 					1
 				}
 			}
@@ -373,7 +373,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=30>最終話  方舟</size>",
+					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>最終話  方舟</size>",
 					1
 				}
 			}
@@ -170,7 +170,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -691,7 +691,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,

@@ -83,7 +83,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -120,7 +120,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.3,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},

@@ -12,11 +12,11 @@ end
 function GetSpeNum(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		if type(slot6) == "number" then
-			slot1 = slot1 + math.floor(slot6)
+			slot1 = slot1 + slot6
 		elseif slot7 == "table" then
 			slot1 = GetSpeNum(slot6, slot1)
 		elseif slot7 == "string" then
-			slot1 = slot1 + math.floor(tonumber(slot6) or 0)
+			slot1 = slot1 + (tonumber(slot6) or 0)
 		end
 	end
 

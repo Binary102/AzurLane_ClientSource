@@ -15,11 +15,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.45,
 				skill_id = 4,
-				target = "TargetSelf",
-				hpRatioList = {
-					0.45
-				}
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -28,11 +26,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				hpUpperBound = 0.45,
 				buff_id = 5,
-				target = "TargetSelf",
-				hpRatioList = {
-					0.45
-				}
+				target = "TargetSelf"
 			}
 		}
 	}

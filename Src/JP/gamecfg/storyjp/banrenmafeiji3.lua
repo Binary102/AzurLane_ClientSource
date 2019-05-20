@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"盛夏の射手座\n\n<size=30>三　海岸監視員の夏</size>",
+					"盛夏の射手座\n\n<size=45>三　海岸監視員の夏</size>",
 					1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -149,7 +149,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
@@ -175,7 +175,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -187,7 +187,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},
@@ -378,7 +378,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -501,7 +501,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -596,7 +596,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -667,7 +667,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
@@ -701,7 +701,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

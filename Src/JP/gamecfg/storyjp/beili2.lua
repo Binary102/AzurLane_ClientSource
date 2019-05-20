@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ウサウサ星人の謎？\n\n<size=30>二 ウサウサ星人は「ウサウサ」！</size>",
+					"ウサウサ星人の謎？\n\n<size=45>二 ウサウサ星人は「ウサウサ」！</size>",
 					1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -228,7 +228,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -280,7 +280,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

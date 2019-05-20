@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"桜華爛漫新学期\n\n<size=30>その二　運動場の問題児たち</size>",
+					"桜華爛漫新学期\n\n<size=45>その二　運動場の問題児たち</size>",
 					1
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					dur = 0.15,
 					number = 2,
 					type = "shake"
@@ -296,7 +296,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.2,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			}
@@ -420,13 +420,13 @@ return {
 				{
 					actor = 101061,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 401011,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -440,7 +440,7 @@ return {
 			},
 			action = {
 				{
-					y = -30,
+					y = -45,
 					dur = 0.8,
 					number = 1,
 					type = "shake"

@@ -608,7 +608,8 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpTF, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_monopoly.tip
 		})
 	end, SFX_PANEL)

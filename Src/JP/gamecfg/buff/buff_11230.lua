@@ -30,13 +30,11 @@ return {
 				minTargetNumber = 1,
 				targetMaxHPRatio = 0.2,
 				quota = 1,
+				hpUpperBound = 0.2,
 				skill_id = 11230,
 				check_target = {
 					"TargetPlayerMainFleet",
 					"TargetHelpLeastHP"
-				},
-				hpRatioList = {
-					0.2
 				}
 			}
 		},

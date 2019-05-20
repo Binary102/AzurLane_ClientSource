@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"足柄、すゝめ！\n\n<size=30>四 足柄、何のために戦う？</size>",
+					"足柄、すゝめ！\n\n<size=45>四 足柄、何のために戦う？</size>",
 					1
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"シリアス改造計画\n\n<size=30>三 メイド隊の支援</size>",
+					"シリアス改造計画\n\n<size=45>三 メイド隊の支援</size>",
 					1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 				{
 					actor = 202180,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

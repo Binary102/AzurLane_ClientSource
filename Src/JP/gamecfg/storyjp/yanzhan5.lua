@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ナイト・オブ・ロイヤル\n\n<size=30>五 ささやかな悩み</size>",
+					"ナイト・オブ・ロイヤル\n\n<size=45>五 ささやかな悩み</size>",
 					1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = 1500,
+				x = 2250,
 				y = 0
 			},
 			action = {
@@ -140,7 +140,7 @@ return {
 					type = "move",
 					delay = 0,
 					dur = 0.6,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -255,7 +255,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -453,7 +453,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"正月の祝福\n\n<size=30>五 明石からの贈り物</size>",
+					"正月の祝福\n\n<size=45>五 明石からの贈り物</size>",
 					1
 				}
 			}
@@ -114,7 +114,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -287,7 +287,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -317,7 +317,7 @@ return {
 					type = "move",
 					delay = 0.3,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},
@@ -370,7 +370,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -478,7 +478,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

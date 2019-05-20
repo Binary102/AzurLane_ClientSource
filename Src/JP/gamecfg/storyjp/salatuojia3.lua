@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ベストピクチャーズ！\n\n<size=30>その三　サラトガちゃんのオフ</size>",
+					"ベストピクチャーズ！\n\n<size=45>その三　サラトガちゃんのオフ</size>",
 					1
 				}
 			}
@@ -195,7 +195,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 2,
 					dur = 0.1,
@@ -224,14 +224,14 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
@@ -256,7 +256,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

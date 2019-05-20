@@ -59,20 +59,12 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				}
 
 				for slot8, slot9 in ipairs(slot0.serverlist) do
-					slot10, slot11 = nil
-
-					if CSharpVersion >= 999 and VersionMgr.Inst:OnProxyUsing() then
-						slot10 = ((slot9.proxy_ip == nil or slot9.proxy_ip == "") and slot9.ip) or slot9.proxy_ip
-						slot11 = ((slot9.proxy_ip == nil or slot9.proxy_ip == "") and slot9.port) or slot9.proxy_port
-					else
-						slot10 = slot9.ip
-						slot11 = slot9.port
-					end
-
-					slot12 = Server.New({
+					slot10 = Server.New({
 						id = slot9.ids[1],
-						host = slot10,
-						port = slot11,
+						host = slot9.ip,
+						port = slot9.port,
+						proxy_host = slot9.proxy_ip,
+						proxy_port = slot9.proxy_port,
 						status = slot9.state,
 						name = slot9.name,
 						tag_state = slot9.tag_state,
@@ -81,8 +73,8 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot4[#slot4 + 1] = slot9.proxy_ip .. ":" .. slot9.proxy_port
 					slot4[#slot4 + 1] = slot9.ip .. ":" .. slot9.port
 
-					slot12:display()
-					table.insert(slot3, slot12)
+					slot10:display()
+					table.insert(slot3, slot10)
 				end
 
 				print(table.concat(slot4, "\n"))

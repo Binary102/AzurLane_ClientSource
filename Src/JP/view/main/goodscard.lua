@@ -6,10 +6,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
 	slot0.mask = slot0.tr:Find("mask")
-	slot0.maskText = slot0.tr:Find("mask/sale_out/Text")
-	slot0.stars = slot0.tr:Find("item/stars")
+	slot0.selloutTag = slot0.tr:Find("mask/tag/sellout_tag")
+	slot0.levelTag = slot0.tr:Find("mask/tag/level_tag")
+	slot0.levelTagText = slot0.tr:Find("mask/tag/level_tag/Text")
+	slot0.stars = slot0.tr:Find("item/icon_bg/stars")
 	slot0.itemTF = findTF(slot0.tr, "item")
-	slot0.nameTxt = ScrollTxt.New(findTF(slot0.tr, "item/name_mask"), findTF(slot0.tr, "item/name_mask/name"), true)
+	slot0.nameTxt = findTF(slot0.tr, "item/name_mask/name")
 	slot0.discountTF = findTF(slot0.tr, "item/discount")
 	slot0.discountTextTF = findTF(slot0.discountTF, "Text"):GetComponent(typeof(Text))
 	slot0.countTF = findTF(slot0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
@@ -24,19 +26,34 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.setGroupMask(slot0, slot1)
-	setActive(slot0.mask, slot0.goodsVO:getConfig("group_limit") > 0 and slot2 <= slot1)
+	slot3 = slot0.goodsVO:getConfig("group_limit") > 0 and slot2 <= slot1
+
+	if isActive(slot0.mask) then
+		return
+	end
+
+	setActive(slot0.mask, slot3)
 
 	if slot2 > 0 and slot2 <= slot1 then
-		setText(slot0.maskText, i18n("word_sell_out"))
+		setActive(slot0.selloutTag, true)
+		setActive(slot0.levelTag, false)
 	end
 end
 
 function slot0.setLevelMask(slot0, slot1)
-	setActive(slot0.mask, slot0.goodsVO:getLevelLimit() > 0 and slot1 < slot2)
-	setText(slot0.maskText, i18n("charge_limit_lv", slot2))
+	slot2 = slot0.goodsVO:getLevelLimit(slot1)
+	slot3 = slot0.goodsVO:isLevelLimit(slot1)
 
-	if slot2 > 0 and slot1 < slot2 then
-		setText(slot0.maskText, i18n("charge_limit_lv", slot2))
+	if isActive(slot0.mask) then
+		return
+	end
+
+	setActive(slot0.mask, slot3)
+
+	if slot3 then
+		setText(slot0.levelTagText, tostring(slot2))
+		setActive(slot0.levelTag, true)
+		setActive(slot0.selloutTag, false)
 
 		slot0.maskTip = i18n("charge_level_limit")
 	end
@@ -44,37 +61,55 @@ end
 
 function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
+	slot2, slot3 = slot0.goodsVO:canPurchase()
 
-	setActive(slot0.mask, not slot1:canPurchase())
+	setActive(slot0.mask, not slot2)
 
-	slot2 = slot1:getConfig("type")
+	slot4 = slot1:getConfig("type")
 
 	setActive(slot0.stars, false)
 
+	slot6 = ""
+
 	if slot1:getConfig("effect_args") == "ship_bag_size" then
-		updateDrop(slot0.itemTF, slot4)
-		slot0.nameTxt:setText(pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??")
-	elseif slot3 == "equip_bag_size" then
-		updateDrop(slot0.itemTF, slot4)
-		slot0.nameTxt:setText(pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??")
-	elseif slot3 == "commander_bag_size" then
-		updateDrop(slot0.itemTF, slot4)
-		slot0.nameTxt:setText(pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??")
+		updateDrop(slot0.itemTF, {
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.SHIP_BAG_SIZE_ITEM
+		})
+
+		slot6 = pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??"
+	elseif slot5 == "equip_bag_size" then
+		updateDrop(slot0.itemTF, {
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.EQUIP_BAG_SIZE_ITEM
+		})
+
+		slot6 = pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??"
+	elseif slot5 == "commander_bag_size" then
+		updateDrop(slot0.itemTF, {
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.COMMANDER_BAG_SIZE_ITEM
+		})
+
+		slot6 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
 	else
-		updateDrop(slot0.itemTF, slot4)
-		slot0.nameTxt:setText(({
+		updateDrop(slot0.itemTF, {
 			type = slot1:getConfig("type"),
-			id = slot3[1],
+			id = slot5[1],
 			count = slot1:getConfig("num")
-		})["cfg"].name or "??")
+		})
+		setText(slot0.nameTxt, shortenString(()["cfg"].name or "??", 6))
+
+		slot7 = ""
+		slot8 = slot1:getConfig("resource_num")
 	end
 
-	slot4 = ""
-	slot5 = slot1:getConfig("resource_num")
-
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
-		slot4 = 100 - slot1.discount .. "%OFF"
-		slot5 = slot5 * slot1.discount / 100
+		slot7 = 100 - slot1.discount .. "%OFF"
+		slot8 = slot8 * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)
@@ -84,14 +119,14 @@ function slot0.update(slot0, slot1)
 
 	setActive(slot0.discountTF, slot1:hasDiscount())
 
-	slot0.discountTextTF.text = slot4
-	slot0.countTF.text = math.ceil(slot5)
-	slot0.resIconTF.sprite = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")
+	slot0.discountTextTF.text = slot7
+	slot0.countTF.text = math.ceil(slot8)
+
+	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "", tf(slot0.resIconTF))
 end
 
 function slot0.dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
-	slot0.nameTxt:destroy()
 end
 
 return slot0

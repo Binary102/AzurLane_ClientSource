@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"騎士姫の憂鬱\n\n<size=30>六 「対立」の姉妹</size>",
+					"騎士姫の憂鬱\n\n<size=45>六 「対立」の姉妹</size>",
 					1
 				}
 			}
@@ -349,7 +349,7 @@ return {
 			say = "もう、だれがキンニク頭ですか！",
 			action = {
 				{
-					y = 15,
+					y = 22.5,
 					dur = 0.15,
 					number = 1,
 					type = "shake"

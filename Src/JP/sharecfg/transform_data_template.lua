@@ -2493,8 +2493,8 @@ pg.transform_data_template = {
 		descrip = [[
 近代化改修完了
 
-改修後<color=#A9F548>【主炮砲座+1】</color>
-改修後<color=#A9F548>【全弾発射II】</color>が<color=#A9F548>【全弾発射-サンディエゴI】</color>に変更 ]],
+改修後<color=#92fc63>【主炮砲座+1】</color>
+改修後<color=#92fc63>【全弾発射II】</color>が<color=#92fc63>【全弾発射-サンディエゴI】</color>に変更 ]],
 		condition_id = {
 			3609,
 			3610
@@ -11814,9 +11814,9 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-改造后<color=#A9F548>1つ目の【設備】</color>が<color=#A9F548>【対潜機】</color>を装備できるようになり
-<color=#A9F548>【対潜】</color>能力が強化されます
-スキル<color=#A9F548>【絶対命中のオールドレディ】</color>が強化されます]],
+改造后<color=#92fc63>1つ目の【設備】</color>が<color=#92fc63>【対潜機】</color>を装備できるようになり
+<color=#92fc63>【対潜】</color>能力が強化されます
+スキル<color=#92fc63>【絶対命中のオールドレディ】</color>が強化されます]],
 		condition_id = {
 			13106,
 			13109
@@ -14700,10 +14700,10 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-主砲の装備枠は<color=#A9F548>【重巡主砲】</color>に変更されます。
+主砲の装備枠は<color=#92fc63>【重巡主砲】</color>に変更されます。
 主砲枠に装備されていた装備は倉庫に移動されます。
-改造後、<color=#A9F548>【主砲砲座+1】</color><color=#A9F548>【魚雷装填数-1】</color>
-<color=#A9F548>【全弾発射Ⅱ】</color>スキルが<color=#A9F548>【全弾発射改】</color>に変更されます。]],
+改造後、<color=#92fc63>【主砲砲座+1】</color><color=#92fc63>【魚雷装填数-1】</color>
+<color=#92fc63>【全弾発射Ⅱ】</color>スキルが<color=#92fc63>【全弾発射改】</color>に変更されます。]],
 		condition_id = {
 			18809,
 			18810
@@ -15898,13 +15898,13 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-習得: <color=#A9F548>【予備攻撃隊】</color>
+習得: <color=#92fc63>【予備攻撃隊】</color>
 航空攻撃後、航空弾幕をもう一回発動する（威力はスキルレベルによる）。1度のバトル中に1回しか発動できない
 
-改造後<color=#A9F548>【主砲砲座-1】</color>
-改造後<color=#A9F548>主砲補正</color>+20%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
-<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【扶桑改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#92fc63>【主砲砲座-1】</color>
+改造後<color=#92fc63>主砲補正</color>+20%
+改造後<color=#92fc63>【副兵装】</color>装備可能装備変更：<color=#92fc63>【水上機】</color>
+<color=#92fc63>【水上機】</color>装備中<color=#92fc63>【扶桑改】</color>は<color=#92fc63>航空攻撃</color>を発動可能]],
 		condition_id = {
 			20808
 		},
@@ -16311,13 +16311,13 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-習得: <color=#A9F548>【予備攻撃隊】</color>
+習得: <color=#92fc63>【予備攻撃隊】</color>
 航空攻撃後、航空弾幕をもう一回発動する（威力はスキルレベルによる）。1度のバトル中に1回しか発動できない
 
-改造後<color=#A9F548>【主砲砲座-1】</color>
-改造後<color=#A9F548>主砲補正</color>+20%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
-<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【山城改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#92fc63>【主砲砲座-1】</color>
+改造後<color=#92fc63>主砲補正</color>+20%
+改造後<color=#92fc63>【副兵装】</color>装備可能装備変更：<color=#92fc63>【水上機】</color>
+<color=#92fc63>【水上機】</color>装備中<color=#92fc63>【山城改】</color>は<color=#92fc63>航空攻撃</color>を発動可能]],
 		condition_id = {
 			20908
 		},
@@ -16537,10 +16537,10 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-改造後<color=#A9F548>【主砲砲座-1】</color>
-改造後<color=#A9F548>主砲補正</color>+25%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
-<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【伊勢改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#92fc63>【主砲砲座-1】</color>
+改造後<color=#92fc63>主砲補正</color>+25%
+改造後<color=#92fc63>【副兵装】</color>装備可能装備変更：<color=#92fc63>【水上機】</color>
+<color=#92fc63>【水上機】</color>装備中<color=#92fc63>【伊勢改】</color>は<color=#92fc63>航空攻撃</color>を発動可能]],
 		condition_id = {
 			21002,
 			21003
@@ -16957,10 +16957,10 @@ pg.transform_data_template = {
 		descrip = [[
 改造（近代化改修）完了
 
-改造後<color=#A9F548>【主砲砲座-1】</color>
-改造後<color=#A9F548>主砲補正</color>+25%
-改造後<color=#A9F548>【副兵装】</color>装備可能装備変更：<color=#A9F548>【水上機】</color>
-<color=#A9F548>【水上機】</color>装備中<color=#A9F548>【日向改】</color>は<color=#A9F548>航空攻撃</color>を発動可能]],
+改造後<color=#92fc63>【主砲砲座-1】</color>
+改造後<color=#92fc63>主砲補正</color>+25%
+改造後<color=#92fc63>【副兵装】</color>装備可能装備変更：<color=#92fc63>【水上機】</color>
+<color=#92fc63>【水上機】</color>装備中<color=#92fc63>【日向改】</color>は<color=#92fc63>航空攻撃</color>を発動可能]],
 		condition_id = {
 			21102,
 			21103

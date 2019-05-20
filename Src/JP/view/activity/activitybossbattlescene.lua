@@ -91,7 +91,8 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_activity_bossbattle.tip
 		})
 	end, SFX_PANEL)
@@ -188,11 +189,12 @@ function slot0.showAwards(slot0)
 			setActive(slot2:Find("award/mask"), (getProxy(TaskProxy):getTaskById(slot4.id) or slot7:getFinishTaskById(slot4.id)) and getProxy(TaskProxy).getTaskById(slot4.id) or slot7.getFinishTaskById(slot4.id):isReceive())
 			setActive(slot2:Find("award/mask_can"), (getProxy(TaskProxy).getTaskById(slot4.id) or slot7.getFinishTaskById(slot4.id)) and getProxy(TaskProxy).getTaskById(slot4.id) or slot7.getFinishTaskById(slot4.id):isFinish() and not getProxy(TaskProxy).getTaskById(slot4.id) or slot7.getFinishTaskById(slot4.id):isReceive())
 			onButton(slot1, slot2, function ()
-				pg.MsgboxMgr.GetInstance():showSingleItemBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					yesText = "text_confirm",
 					hideNo = true,
 					content = "",
-					yesText = "text_confirm",
-					drop = pg.MsgboxMgr.GetInstance().showSingleItemBox
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = pg.MsgboxMgr.GetInstance().ShowMsgBox
 				})
 			end, SFX_PANEL)
 		end

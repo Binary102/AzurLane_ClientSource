@@ -147,27 +147,8 @@ function slot0.getActiveEvents(slot0)
 end
 
 function slot0.fillRecommendShip(slot0, slot1)
-	slot3 = getProxy(BayProxy).getRawData(slot2)
-	slot4 = {}
-
-	for slot8, slot9 in ipairs(slot1.shipIds) do
-		slot4[#slot4 + 1] = slot9
-	end
-
-	function slot5()
-		if slot0:getDelegationRecommendShips(slot0) then
-			slot2[#slot2 + 1] = slot0.id
-
-			table.insert(slot1.shipIds, slot0.id)
-		end
-	end
-
-	slot6 = 6 - #slot1.shipIds
-
-	while slot6 > 0 do
-		slot5()
-
-		slot6 = slot6 - 1
+	for slot7, slot8 in ipairs(slot3) do
+		table.insert(slot1.shipIds, slot8)
 	end
 end
 

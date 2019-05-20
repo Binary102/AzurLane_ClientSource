@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"佐世保生まれの幸運艦\n\n<size=30>その四　雪風追っかけ隊？</size>",
+					"佐世保生まれの幸運艦\n\n<size=45>その四　雪風追っかけ隊？</size>",
 					1
 				}
 			}

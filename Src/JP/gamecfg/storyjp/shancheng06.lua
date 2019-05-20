@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏（？）の大作戦\n\n<size=30>その六 気合で！</size>",
+					"夏（？）の大作戦\n\n<size=45>その六 気合で！</size>",
 					1
 				}
 			}

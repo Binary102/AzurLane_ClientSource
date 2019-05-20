@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"サブマリン・トラップ！\n\n<size=30>三　寮舎のアルバコア</size>",
+					"サブマリン・トラップ！\n\n<size=45>三　寮舎のアルバコア</size>",
 					1
 				}
 			}
@@ -62,7 +62,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -98,7 +98,7 @@ return {
 			say = "…うん？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 4
 			},
 			flashN = {
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -353,7 +353,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -406,7 +406,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -434,13 +434,13 @@ return {
 				{
 					actor = 101170,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 101160,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -493,7 +493,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -536,7 +536,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

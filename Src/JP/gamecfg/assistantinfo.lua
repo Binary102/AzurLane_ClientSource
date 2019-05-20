@@ -170,6 +170,22 @@ pg.AssistantInfo = {
 
 		return false
 	end,
+	filterAssistantEvents = function (slot0, slot1)
+		slot2 = {}
+		slot3 = Ship.getMainwordsCount(slot1)
+
+		for slot7, slot8 in ipairs(slot0) do
+			if string.split(slot10, "_")[1] == "main" then
+				if tonumber(slot11[2]) <= slot3 then
+					table.insert(slot2, slot8)
+				end
+			else
+				table.insert(slot2, slot8)
+			end
+		end
+
+		return slot2
+	end,
 	Expressions = {
 		dunkeerke = {
 			faces = {

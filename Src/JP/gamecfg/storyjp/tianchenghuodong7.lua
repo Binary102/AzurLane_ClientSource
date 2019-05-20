@@ -192,7 +192,7 @@ return {
 			say = "……髪の色の通り、頭が真っ白になったのね。このわからず屋！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -209,7 +209,7 @@ return {
 			say = "お前こそ、この胸の大きさだけが取り柄の腰巾着が…！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -224,7 +224,7 @@ return {
 			say = "――カン！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {
@@ -261,7 +261,7 @@ return {
 			say = "あぐぅ！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -310,7 +310,7 @@ return {
 			say = "――カン！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			flashN = {

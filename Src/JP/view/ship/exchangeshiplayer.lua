@@ -24,14 +24,9 @@ function slot0.setItemVOs(slot0, slot1)
 	})
 
 	setText(slot0.quickCountTF, slot0.itemVO.count)
-	setText(slot0.quickLableTF, slot0.itemVO:getConfig("name"))
 end
 
 function slot0.init(slot0)
-	slot0.UIMgr = pg.UIMgr.GetInstance()
-
-	slot0.UIMgr:OverlayPanel(slot0._tf)
-
 	slot0.paintingTF = slot0:findTF("painting")
 	slot0.rarityTF = slot0:findTF("painting/rarity"):GetComponent(typeof(Image))
 	slot0.exchangeBtn = slot0:findTF("painting/exchange_btn")
@@ -40,16 +35,14 @@ function slot0.init(slot0)
 	slot0.resIconTF = slot0:findTF("painting/name_bg/res_icon"):GetComponent(typeof(Image))
 	slot0.resCountTF = slot0:findTF("painting/name_bg/res_icon/Text"):GetComponent(typeof(Text))
 	slot0.shipsContainer = slot0:findTF("frame/content_ship")
+	slot0.shipsScrolltxt = {}
 	slot0.itemContainer = slot0:findTF("frame/content_item")
+	slot0.itemScrolltxt = {}
 	slot0.quickCountTF = slot0:findTF("quick_count/value")
 	slot0.quickLableTF = slot0:findTF("quick_count/label")
 	slot0.leftTimeTF = slot0:findTF("title/ship_timer")
 	slot0.bottomTF = slot0:findTF("frame/bottom")
 	slot0.flagShipchangeTimeTF = slot0:findTF("left_time/contain/Text", slot0.paintingTF):GetComponent(typeof(Text))
-	slot0.leftLength = slot0:findTF("blur_container", pg.UIMgr:GetInstance().OverlayMain)
-
-	slot0.leftLength:SetAsLastSibling()
-
 	slot0.itemExchangeCfg = pg.item_medal_fetch
 end
 
@@ -63,11 +56,15 @@ function slot0.didEnter(slot0)
 		if slot0 then
 			slot0:switchPage(slot1.PAGE_SHIP)
 		end
+
+		slot0.toggles[slot1.PAGE_SHIP]:GetComponent(typeof(Image)).color = Color(1, 1, 1, (slot0 and 0) or 1)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggles[slot0.PAGE_ITEM], function (slot0)
 		if slot0 then
 			slot0:switchPage(slot1.PAGE_ITEM)
 		end
+
+		slot0.toggles[slot1.PAGE_ITEM]:GetComponent(typeof(Image)).color = Color(1, 1, 1, (slot0 and 0) or 1)
 	end, SFX_PANEL)
 	triggerToggle(slot0.toggles[slot0.contextData.page or slot0.PAGE_SHIP], true)
 end
@@ -133,23 +130,28 @@ function slot0.addItemTimer(slot0, slot1)
 end
 
 function slot0.updateItem(slot0, slot1, slot2)
-	slot4 = slot0.itemContainer:GetChild(slot1 - 1)
-
-	updateDrop(slot4:Find("icon"), {
+	updateDrop(slot0.itemContainer:GetChild(slot1 - 1).Find(slot4, "icon"), {
 		type = DROP_TYPE_ITEM,
 		id = slot0.itemExchangeCfg[slot2.id].itemid,
 		count = slot0.itemExchangeCfg[slot2.id].itemquantity
 	})
-	setText(slot0:findTF("price_bg/Text", slot4), slot0.itemExchangeCfg[slot2.id].price)
+
+	if not slot0.itemScrolltxt[slot1] then
+		slot0.itemScrolltxt[slot1] = ScrollTxt:changeToScroll(slot4:Find("icon/name"))
+	end
+
+	slot0.itemScrolltxt[slot1]:setText(getText(slot4:Find("icon/name")))
+	setText(slot0:findTF("price_bg/Text", slot4), slot3.price)
 	slot0:activeItem(slot1, slot2.isFetched)
 	onButton(slot0, slot4, function ()
 		if slot0.isFetched then
 			return
 		end
 
-		pg.MsgboxMgr.GetInstance():showSingleItemBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			showOwned = true,
 			hideNo = true,
+			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_ITEM,
 				id = slot1.itemid,
@@ -157,7 +159,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 			},
 			yesText = i18n1("text_exchange"),
 			show_medal = {
-				desc = "X" .. slot1.price
+				desc = slot1.price
 			},
 			onYes = function ()
 				slot0:emit(ExchangeShipMediator.ITEM_EXCHANGE, slot0)
@@ -258,9 +260,10 @@ function slot0.updateMainShip(slot0, slot1, slot2)
 			return
 		end
 
-		pg.MsgboxMgr.GetInstance():showSingleItemBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_exchange",
 			hideNo = true,
+			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_SHIP,
 				id = slot1.configId
@@ -287,16 +290,20 @@ function slot0.updateShips(slot0, slot1, slot2)
 	slot3 = Ship.New({
 		configId = slot2.id
 	})
-	slot5 = slot0.shipsContainer:GetChild(slot4)
 
-	updateDrop(slot5:Find("icon"), {
+	updateDrop(slot0.shipsContainer:GetChild(slot4).Find(slot5, "icon"), {
 		type = DROP_TYPE_SHIP,
 		id = slot2.id
 	}, {
 		initStar = true
 	})
+
+	if not slot0.shipsScrolltxt[slot1 - 2 + 1] then
+		slot0.shipsScrolltxt[slot4 + 1] = ScrollTxt:changeToScroll(slot5:Find("icon/name"))
+	end
+
+	slot0.shipsScrolltxt[slot4 + 1]:setText(getText(slot5:Find("icon/name")))
 	setText(slot0:findTF("price_bg/Text", slot5), slot6)
-	setText(slot0:findTF("name", slot5), slot3:getConfig("name"))
 
 	slot7 = slot0:findTF("icon/icon_bg/shiptype", slot5):GetComponent(typeof(Image))
 
@@ -311,9 +318,10 @@ function slot0.updateShips(slot0, slot1, slot2)
 			return
 		end
 
-		pg.MsgboxMgr.GetInstance():showSingleItemBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_exchange",
 			hideNo = true,
+			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_SHIP,
 				id = slot2.configId
@@ -346,7 +354,21 @@ function slot0.activeExchangeShip(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
-	slot0.UIMgr:UnOverlayPanel(slot0._tf)
+	if slot0.itemScrolltxt then
+		for slot4, slot5 in pairs(slot0.itemScrolltxt) do
+			slot5:destroy()
+		end
+
+		slot0.itemScrolltxt = {}
+	end
+
+	if slot0.shipsScrolltxt then
+		for slot4, slot5 in pairs(slot0.shipsScrolltxt) do
+			slot5:destroy()
+		end
+
+		slot0.shipsScrolltxt = {}
+	end
 
 	if slot0.exchangeTiemr then
 		slot0.exchangeTiemr:Stop()

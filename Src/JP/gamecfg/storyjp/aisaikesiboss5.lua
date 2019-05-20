@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特別演習・超空強襲波\n\n<size=30>五　ベストメモリーズ</size>",
+					"特別演習・超空強襲波\n\n<size=45>五　ベストメモリーズ</size>",
 					1
 				}
 			}
@@ -92,7 +92,7 @@ return {
 			say = "かんぱーい！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -352,7 +352,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -460,7 +460,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

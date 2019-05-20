@@ -10,7 +10,7 @@ end
 function slot0.init(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
-	slot0.UIMgr:BlurPanel(slot0._go)
+	slot0.UIMgr:BlurPanel(slot0._tf)
 
 	slot0.UIMain = slot0.UIMgr.UIMain
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
@@ -77,7 +77,7 @@ function slot0.stopLoadingAni(slot0)
 end
 
 function slot0.willExit(slot0)
-	slot0.UIMgr:UnblurPanel(slot0._go, slot0.UIMain)
+	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
 
 	if slot0.previewer then
 		slot0.previewer:clear()

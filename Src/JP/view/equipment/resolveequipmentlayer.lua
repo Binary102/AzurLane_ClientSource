@@ -40,12 +40,9 @@ function slot0.init(slot0)
 	slot0.destroyConfirm = slot0:findTF("destroy_confirm")
 	slot0.destroyBonusList = slot0.destroyConfirm:Find("got/scrollview/list")
 	slot0.destroyBonusItem = slot0.destroyConfirm:Find("got/scrollview/item")
-	slot0.destroyBonusGold = slot0.destroyConfirm:Find("got/got_gold/count")
-	slot0.destroyNoGotTip = slot0.destroyConfirm:Find("got/tip")
 
 	setActive(slot0.destroyConfirm, false)
 	setActive(slot0.destroyBonusItem, false)
-	setActive(slot0.destroyNoGotTip, false)
 end
 
 function slot0.didEnter(slot0)
@@ -70,6 +67,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CONFIRM)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/cancel_button"), function ()
 		setActive(slot0.destroyConfirm, false)
+		setActive(slot0.mainPanel, true)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/destroy_button"), function ()
@@ -172,9 +170,6 @@ function slot0.displayDestroyBonus(slot0)
 		})
 	end
 
-	setActive(slot0.destroyNoGotTip, #slot1 <= 0)
-	setText(slot0.destroyBonusGold, slot2)
-
 	for slot6 = #slot1, slot0.destroyBonusList.childCount - 1, 1 do
 		Destroy(slot0.destroyBonusList:GetChild(slot6))
 	end
@@ -196,7 +191,6 @@ function slot0.displayDestroyBonus(slot0)
 			setActive(slot9, false)
 		end
 
-		setActive(findTF(slot7, "icon_bg/slv"), false)
 		updateDrop(slot7, slot8)
 
 		slot11, slot12 = contentWrap(slot8.cfg.name, 10, 2)
@@ -212,7 +206,7 @@ function slot0.displayDestroyBonus(slot0)
 			elseif slot0.type == DROP_TYPE_EQUIP then
 				slot1:emit(slot2.ON_EQUIPMENT, {
 					equipmentId = slot0.cfg.id,
-					type = EquipmentInfoMediator.DISPLAY
+					type = EquipmentInfoMediator.TYPE_DISPLAY
 				})
 			end
 		end, SFX_PANEL)
@@ -291,7 +285,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.cards[slot2]
 	end
 
-	slot3:update(slot0.equipmentVOs[slot1 + 1])
+	slot3:update(slot0.equipmentVOs[slot1 + 1], true)
 end
 
 function slot0.isSelectedAll(slot0)

@@ -135,7 +135,7 @@ return {
 			sequence = {
 				{
 					[[
-          第一章　 真珠の涙   <size=23>Tears Of Pearls</size> 
+          第一章　 真珠の涙   <size=34.5>Tears Of Pearls</size> 
 
 
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅-日常編\n\n<size=30>その六　負けず嫌いの宴</size>",
+					"夢幻の邂逅-日常編\n\n<size=45>その六　負けず嫌いの宴</size>",
 					1
 				}
 			}
@@ -481,7 +481,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -653,7 +653,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.15,

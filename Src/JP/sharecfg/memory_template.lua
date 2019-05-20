@@ -7843,6 +7843,39 @@ pg.memory_template = {
 		icon = "memory_sipei",
 		is_open = 0
 	},
+	[775] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "とある出撃にて",
+		condition = "「小さな約束」作戦開始",
+		story = "BSMXU1",
+		id = 775,
+		icon = "memory_u556",
+		is_open = 0
+	},
+	[776] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "初戦果",
+		condition = "「小さな約束」作戦進捗順調",
+		story = "BSMXU2",
+		id = 776,
+		icon = "memory_u556",
+		is_open = 0
+	},
+	[777] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "闇雲",
+		condition = "「小さな約束」作戦終了",
+		story = "BSMXU3",
+		id = 777,
+		icon = "memory_u556",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -9448,6 +9481,9 @@ pg.memory_template = {
 		772,
 		773,
 		774,
+		775,
+		776,
+		777,
 		10000,
 		10001,
 		10002,

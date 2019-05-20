@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ナイト＆アワード\n\n<size=30>その四　試合開始！</size>",
+					"ナイト＆アワード\n\n<size=45>その四　試合開始！</size>",
 					1
 				}
 			}
@@ -193,7 +193,7 @@ return {
 					type = "shake",
 					delay = 1,
 					dur = 0.1,
-					x = 10,
+					x = 15,
 					number = 3
 				}
 			},

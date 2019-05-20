@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅-日常編\n\n<size=30>その七　母なるもの</size>",
+					"夢幻の邂逅-日常編\n\n<size=45>その七　母なるもの</size>",
 					1
 				}
 			}
@@ -507,7 +507,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -592,7 +592,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -714,7 +714,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -990,7 +990,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -1012,19 +1012,19 @@ return {
 				{
 					actor = 401230,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 101170,
 					pos = {
-						x = 650
+						x = 975
 					}
 				},
 				{
 					actor = 301050,
 					pos = {
-						x = 850
+						x = 1275
 					}
 				}
 			},
@@ -1088,7 +1088,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

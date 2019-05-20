@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大潮よりお届け♪\n\n<size=30>一　秘書艦大潮</size>",
+					"大潮よりお届け♪\n\n<size=45>一　秘書艦大潮</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			say = "！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

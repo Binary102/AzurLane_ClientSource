@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"お姉さんと一日デート\n\n<size=30>五　暗闇の中で</size>",
+					"お姉さんと一日デート\n\n<size=45>五　暗闇の中で</size>",
 					1
 				}
 			}
@@ -144,7 +144,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -216,7 +216,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -278,7 +278,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,

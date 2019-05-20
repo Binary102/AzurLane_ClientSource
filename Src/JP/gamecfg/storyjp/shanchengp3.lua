@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨のち晴れ\n\n<size=30>その三　風そよぐ</size>",
+					"雨のち晴れ\n\n<size=45>その三　風そよぐ</size>",
 					1
 				}
 			}
@@ -49,7 +49,7 @@ return {
 					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
-					x = 15,
+					x = 22.5,
 					number = 4
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

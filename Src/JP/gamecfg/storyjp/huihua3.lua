@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特別パーティー、開幕！\n\n<size=30>三　大鳳とアルバコア</size>",
+					"特別パーティー、開幕！\n\n<size=45>三　大鳳とアルバコア</size>",
 					1
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -140,11 +140,11 @@ return {
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
-				y = -500
+				y = -750
 			},
 			action = {
 				{
-					y = 500,
+					y = 750,
 					type = "move",
 					delay = 0,
 					dur = 0.5,
@@ -178,7 +178,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -205,7 +205,7 @@ return {
 			},
 			action = {
 				{
-					y = -1000,
+					y = -1500,
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
@@ -248,7 +248,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
@@ -313,11 +313,11 @@ return {
 			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
-				y = -500
+				y = -750
 			},
 			action = {
 				{
-					y = 500,
+					y = 750,
 					type = "move",
 					delay = 0,
 					dur = 0.5,
@@ -350,7 +350,7 @@ return {
 			},
 			action = {
 				{
-					y = -200,
+					y = -300,
 					type = "move",
 					delay = 0.5,
 					dur = 0.5,
@@ -397,7 +397,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -535,7 +535,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -595,7 +595,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -622,7 +622,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -732,7 +732,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.1,
 					dur = 0.2,

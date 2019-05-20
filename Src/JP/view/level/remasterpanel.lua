@@ -15,6 +15,8 @@ function slot0.init(slot0)
 	slot0.onCancel = nil
 	slot0.exToggle = slot0:findTF("toggles/EX")
 	slot0.spToggle = slot0:findTF("toggles/SP")
+	slot0.getRemasterTF = slot0:findTF("getBtn/state_before")
+	slot0.gotRemasterTF = slot0:findTF("getBtn/state_after")
 end
 
 function slot0.set(slot0, slot1, slot2, slot3)
@@ -67,7 +69,8 @@ function slot0.flush(slot0, slot1)
 		slot0.onCancel()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = i18n("levelScene_remaster_help_tip")
 		})
 	end, SFX_PANEL)
@@ -87,6 +90,28 @@ function slot0.flush(slot0, slot1)
 	end
 
 	triggerToggle(slot4[slot1 or 1], true)
+
+	if getProxy(ChapterProxy).remasterDailyCount > 1 then
+		SetActive(slot0.getRemasterTF, false)
+		SetActive(slot0.gotRemasterTF, true)
+	else
+		SetActive(slot0.getRemasterTF, true)
+		SetActive(slot0.gotRemasterTF, false)
+		onButton(slot0, slot0.getRemasterTF, function ()
+			if pg.gameset.reactivity_ticket_max.key_value < slot0.remasterTickets + pg.gameset.reactivity_ticket_daily.key_value then
+				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+					content = i18n("tack_tickets_max_warning", math.max(pg.gameset.reactivity_ticket_max.key_value - slot0.remasterTickets, 0)),
+					onYes = function ()
+						slot0:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
+					end
+				})
+
+				return
+			end
+
+			slot1:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
+		end, SFX_PANEL)
+	end
 end
 
 return slot0

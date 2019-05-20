@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"悪戯ハロウィン\n\n<size=30>五 棺より出でし助っ人</size>",
+					"悪戯ハロウィン\n\n<size=45>五 棺より出でし助っ人</size>",
 					1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -143,7 +143,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -169,7 +169,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
@@ -213,7 +213,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -239,7 +239,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -381,7 +381,7 @@ return {
 			},
 			action = {
 				{
-					y = 40,
+					y = 60,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -408,7 +408,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
@@ -505,7 +505,7 @@ return {
 					type = "move",
 					delay = 1.2,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},

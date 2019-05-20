@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「仮想繋げし共時性」スッキリ編\n\n<size=30>四 いつか会えるその日まで</size>",
+					"「仮想繋げし共時性」スッキリ編\n\n<size=45>四 いつか会えるその日まで</size>",
 					1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 30,
+					x = 45,
 					number = 2
 				}
 			}
@@ -273,7 +273,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=30>第二話　急襲</size>",
+					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第二話　急襲</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			},
 			action = {
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -79,7 +79,7 @@ return {
 					number = 1
 				},
 				{
-					y = -20,
+					y = -30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
@@ -138,7 +138,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -264,7 +264,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.5,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -304,7 +304,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.5,
-					x = 20,
+					x = 30,
 					number = 3
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -490,7 +490,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.05,
@@ -516,7 +516,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.3,
@@ -577,7 +577,7 @@ return {
 			},
 			action = {
 				{
-					y = 25,
+					y = 37.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -695,7 +695,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

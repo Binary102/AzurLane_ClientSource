@@ -15,7 +15,7 @@ function slot0.init(slot0)
 	slot0._topBar = slot0:findTF("topBar", slot0._leftPanel)
 	slot0._expResult = slot0:findTF("expResult", slot0._leftPanel)
 	slot0._expContainer = slot0:findTF("expContainer", slot0._expResult)
-	slot0._extpl = slot0:getTpl("exp_tpl", slot0._expContainer)
+	slot0._extpl = slot0:getTpl("ShipCardTpl", slot0._expContainer)
 	slot0._skipBtn = slot0:findTF("skipLayer")
 
 	setActive(slot0._topBar, false)
@@ -28,7 +28,9 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._skipBtn, function ()
 		slot0:skip()
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.THIRD_LAYER
+	})
 	slot0:display()
 end
 
@@ -64,61 +66,39 @@ function slot0.display(slot0)
 	end
 
 	slot4 = 0.5
-	slot0._expContainer.transform.anchoredPosition = Vector3(#slot0.contextData.oldShips * -81.5 + 619, 18, 0)
 
 	for slot8, slot9 in ipairs(slot3) do
-		slot10 = slot2[slot9.id]
 		slot11 = cloneTplTo(slot0._extpl, slot0._expContainer)
+		slot14 = findTF(slot11, "content")
+		slot15 = ScrollTxt.New(findTF(slot14, "info/name_mask"), findTF(slot14, "info/name_mask/name"))
 		slot11.transform.anchoredPosition = Vector3(slot11.transform.anchoredPosition.x + (16.2 + rtf(slot11).rect.width) * (slot8 - 1), slot11.transform.anchoredPosition.y, slot11.transform.anchoredPosition.z)
 		slot0._expTFs[#slot0._expTFs + 1] = slot11
-		slot0._nameTxts[#slot0._nameTxts + 1] = ScrollTxt.New(findTF(slot11, "ship_icon/frame/info/name_mask"), findTF(slot11, "ship_icon/frame/info/name_mask/name"))
-		slot15 = findTF(slot11, "ship_icon/frame/info/stars")
-		slot16 = findTF(slot11, "ship_icon/frame/info/stars/star_tpl")
-		slot19 = slot9:getMaxStar() - slot9:getStar()
+		slot0._nameTxts[#slot0._nameTxts + 1] = slot15
 
-		for slot23 = 1, slot9.getMaxStar(), 1 do
-			SetActive(cloneTplTo(slot16, slot15):Find("empty"), slot23 <= slot19)
-			SetActive(slot24:Find("star"), slot19 < slot23)
-		end
+		flushShipCard(slot11, slot9)
+		slot15:setText(slot9:getName())
 
-		setImageSprite(findTF(slot11, "ship_icon"), slot20, true)
+		slot17 = findTF(slot14, "dockyard/lv_bg/levelUpLabel")
+		slot18 = findTF(slot14, "dockyard/lv_bg/levelup")
 
-		slot21 = findTF(slot11, "bg"):GetComponent(typeof(Image))
+		setText(slot16, slot9.level)
 
-		LoadSpriteAsync("bg/star_level_card_" .. slot9:rarity2bgPrint(), function (slot0)
-			if not IsNil(slot0) then
-				slot0.sprite = slot0
-			end
-		end)
-		SetActive(findTF(slot11, "ship_icon/duang"), slot9.propose)
-		setImageSprite(findTF(slot11, "ship_icon/frame/info/type"), slot22, true)
-		slot14:setText(slot9:getName())
+		slot20 = findTF(slot19, "exp_text")
+		slot21 = findTF(slot19, "exp_progress")
+		slot0._maxRightDelay = math.max(slot0._maxRightDelay, slot2[slot9.id].level - slot9.level + slot8 * 0.5)
 
-		slot25 = (slot9.propose and "prop") or slot9:rarity2bgPrint()
+		function slot22()
+			SetActive(SetActive, true)
 
-		setImageSprite(findTF(slot11, "ship_icon/frame/bg"), GetSpriteFromAtlas, true)
-
-		slot25 = findTF(slot11, "ship_icon/frame/info/lv_bg/levelUpLabel")
-		slot26 = findTF(slot11, "ship_icon/frame/info/lv_bg/levelup")
-
-		setText("shipframe", slot9.level)
-
-		slot27 = findTF(slot11, "exp/exp_text")
-		slot28 = findTF(slot11, "exp/exp_progress")
-		slot0._maxRightDelay = math.max(slot0._maxRightDelay, slot10.level - slot9.level + slot8 * 0.5)
-
-		function slot29()
-			SetActive(findTF(slot0, "exp"), true)
-
-			"exp":GetComponent(typeof(Image)).fillAmount = slot1.exp / findTF(slot0, "exp"):getLevelExpConfig().exp
+			slot3:GetComponent(typeof(Image)).fillAmount = slot1.exp / SetActive:getLevelExpConfig().exp
 
 			if slot1.level < slot2.level then
 				for slot6 = slot1.level, slot2.level - 1, 1 do
 					slot2 = slot2 + slot1:getLevelExpConfig(slot6).exp
 				end
 
-				slot4:PlayAnimation(slot0, 0, (slot2 + slot2.exp) - slot1.exp, 1, 0, function (slot0)
-					setText(slot0, "EXP+" .. math.ceil(slot0))
+				slot4:PlayAnimation(slot5, 0, (slot2 + slot2.exp) - slot1.exp, 1, 0, function (slot0)
+					setText(slot0, "+" .. math.ceil(slot0))
 				end)
 
 				function slot3(slot0)
@@ -135,7 +115,7 @@ function slot0.display(slot0)
 					table.insert(setText.tweenTFs, slot0)
 				end
 
-				LeanTween.value(go(slot0), slot1.exp / slot0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
+				LeanTween.value(go(go), slot1.exp / slot0, 1, 0.5):setOnUpdate(System.Action_float(function (slot0)
 					slot0:GetComponent(typeof(Image)).fillAmount = slot0
 				end)):setOnComplete(System.Action(function ()
 					slot1(slot0.level + 1)
@@ -176,21 +156,21 @@ function slot0.display(slot0)
 						return
 					end)
 				end))
-				table.insert(slot4.tweenTFs, slot0)
+				table.insert(slot4.tweenTFs, )
 
 				return
 			end
 
-			setText(slot1, "EXP+" .. math.ceil(slot2:getExp() - slot1:getExp()))
+			setText(slot6, "+" .. math.ceil(slot2:getExp() - slot1:getExp()))
 
 			if slot1.level == slot1:getMaxLevel() then
 				slot3:GetComponent(typeof(Image)).fillAmount = 1
-				slot4._skipExp[slot9] = false
+				slot4._skipExp[slot10] = false
 
 				return
 			end
 
-			slot4:PlayAnimation(slot0, slot1.exp / slot0, slot2.exp / slot0, 1, 0, function (slot0)
+			slot4:PlayAnimation(slot5, slot1.exp / slot0, slot2.exp / slot0, 1, 0, function (slot0)
 				slot0:GetComponent(typeof(Image)).fillAmount = slot0
 				slot0.GetComponent(typeof(Image))._skipExp[slot0] = false
 
@@ -201,27 +181,28 @@ function slot0.display(slot0)
 		slot0._skipExp[slot8] = function ()
 			LeanTween.cancel(go(LeanTween.cancel))
 			LeanTween.cancel(go(go))
-			SetActive(go:Find("exp"), true)
-			setText(true, slot3.level)
+			SetActive(go, true)
+			SetActive(true, true)
+			setText(slot3, slot4.level)
 
-			if slot4.level == slot4:getMaxLevel() then
-				setText(slot5, "EXP+" .. math.ceil(slot3:getExp() - slot4:getExp()))
+			if slot5.level == slot5:getMaxLevel() then
+				setText(slot6, "+" .. math.ceil(slot4:getExp() - slot4:getExp()))
 
-				slot6:GetComponent(typeof(Image)).fillAmount = 1
+				slot7:GetComponent(typeof(Image)).fillAmount = 1
 			else
-				if slot4.level < slot3.level then
+				if slot5.level < slot4.level then
 					slot0 = 0
 
-					for slot4 = slot4.level, slot3.level - 1, 1 do
-						slot0 = slot0 + slot4:getLevelExpConfig(slot4).exp
+					for slot4 = slot5.level, slot4.level - 1, 1 do
+						slot0 = slot0 + slot5:getLevelExpConfig(slot4).exp
 					end
 
-					setText(slot5, "EXP+" .. (slot0 + slot3.exp) - slot4.exp)
+					setText(slot6, "+" .. (slot0 + slot4.exp) - slot5.exp)
 				else
-					setText(slot5, "EXP+" .. math.ceil(slot3.exp - slot4.exp))
+					setText(slot6, "+" .. math.ceil(slot4.exp - slot5.exp))
 				end
 
-				slot6:GetComponent(typeof(Image)).fillAmount = slot3.exp / Image:getLevelExpConfig().exp
+				slot7:GetComponent(typeof(Image)).fillAmount = slot4.exp / slot4:getLevelExpConfig().exp
 			end
 
 			SetActive(SetActive, false)
@@ -232,13 +213,15 @@ function slot0.display(slot0)
 			return
 		end
 
-		slot30 = slot11:GetComponent("CanvasGroup")
+		slot23 = slot11:GetComponent("CanvasGroup")
 
+		setActive(slot11, false)
 		LeanTween.moveY(rtf(slot11), 0, 0.2):setOnComplete(System.Action(function ()
-			slot0()
+			setActive(setActive, true)
+			setActive()
 
 			return
-		end)):setDelay(slot31)
+		end)):setDelay(slot24)
 		table.insert(slot0.tweenTFs, slot11)
 		LeanTween.value(go(slot11), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 			slot0.alpha = slot0

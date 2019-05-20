@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「Schmelzen」\n\n<size=30>四　出撃</size>",
+					"「Schmelzen」\n\n<size=45>四　出撃</size>",
 					1
 				}
 			}
@@ -185,13 +185,13 @@ return {
 				{
 					actor = 401200,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 401210,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

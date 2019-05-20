@@ -131,7 +131,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								45
+								35
 							},
 							buffList = {
 								8001
@@ -160,7 +160,7 @@ return {
 							corrdinate = {
 								0,
 								0,
-								65
+								75
 							},
 							buffList = {
 								8001

@@ -57,7 +57,7 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 	slot0:stopHBTimer()
 	slot4:stopTimer()
-	slot0:Connect(slot0, slot1, function ()
+	slot0:Connect(slot0:GetLastHost(), slot0:GetLastPort(), function ()
 		slot1 = getProxy(UserProxy).getData(slot0)
 
 		if BilibiliSdkMgr.inst.channelUID == "" then
@@ -111,7 +111,7 @@ function pg.ConnectionMgr.Reconnect(slot0, slot1)
 
 				slot3 = nil
 
-				slot6.GuideMgr2:GetInstance():onReconneceted()
+				slot6.GuideMgr:GetInstance():onReconneceted()
 			else
 				print("reconnect failed: " .. slot0.result)
 				slot6.m02:sendNotification(GAME.LOGOUT, {
@@ -184,6 +184,8 @@ function pg.ConnectionMgr.onError(slot0)
 		slot2 = slot5
 	end
 
+	slot0.ConnectionMgr.GetInstance():CheckProxyCounter()
+
 	if slot6 and slot7 then
 		slot0.ConnectionMgr.GetInstance():stopHBTimer()
 
@@ -193,7 +195,6 @@ function pg.ConnectionMgr.onError(slot0)
 			slot0.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
 			slot0.MsgboxMgr.GetInstance():ShowMsgBox({
-				sendGuideMsg = false,
 				modal = true,
 				content = i18n("reconnect_tip", slot0),
 				onYes = function ()
@@ -201,7 +202,7 @@ function pg.ConnectionMgr.onError(slot0)
 				end,
 				onNo = slot1
 			})
-			slot0.GuideMgr2:GetInstance():onDisconnected()
+			slot0.GuideMgr:GetInstance():onDisconnected()
 		end
 	else
 		slot1()
@@ -266,6 +267,8 @@ function pg.ConnectionMgr.Disconnect(slot0)
 
 	slot3 = nil
 	slot4 = nil
+	lastProxyHost = nil
+	lastProxyPort = nil
 	slot5 = nil
 	slot6 = false
 end
@@ -282,16 +285,55 @@ function pg.ConnectionMgr.isConnected(slot0)
 	return slot0
 end
 
-function pg.ConnectionMgr.resetHBTimer(slot0)
-	slot0:stopHBTimer()
-	slot0:Start()
-end
-
 function pg.ConnectionMgr.stopHBTimer(slot0)
 	if slot0 then
 		slot0:Stop()
 
 		slot0 = nil
+	end
+end
+
+function pg.ConnectionMgr.resetHBTimer(slot0)
+	slot0:stopHBTimer()
+	slot0:Start()
+end
+
+slot13 = 0
+slot14 = 2
+slot15, slot16 = nil
+
+function pg.ConnectionMgr.SetProxyHost(slot0, slot1, slot2)
+	slot0 = slot1
+	slot1 = slot2
+end
+
+function pg.ConnectionMgr.GetLastHost(slot0)
+	if VersionMgr.Inst:OnProxyUsing() and slot0 ~= nil and slot0 ~= "" then
+		return slot0
+	end
+
+	return slot1
+end
+
+function pg.ConnectionMgr.GetLastPort(slot0)
+	if VersionMgr.Inst:OnProxyUsing() and slot0 ~= nil and slot0 ~= 0 then
+		return slot0
+	end
+
+	return slot1
+end
+
+function pg.ConnectionMgr.CheckProxyCounter(slot0)
+	slot0 = slot0 + 1
+
+	if not VersionMgr.Inst:OnProxyUsing() then
+		if slot0 ==  then
+			VersionMgr.Inst:SetUseProxy(true)
+		end
+	else
+		VersionMgr.Inst:SetUseProxy(false)
+
+		slot0 = 0
 	end
 end
 

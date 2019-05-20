@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"桜華爛漫新学期\n\n<size=30>その六　放課後のHRタイム</size>",
+					"桜華爛漫新学期\n\n<size=45>その六　放課後のHRタイム</size>",
 					1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -266,7 +266,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.1,
 					number = 1,
 					type = "shake"
@@ -321,7 +321,7 @@ return {
 				{
 					actor = 401011,
 					pos = {
-						x = 685
+						x = 1027.5
 					}
 				}
 			},

@@ -14,13 +14,14 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.sakura = slot0:findTF("yinghuapiaoluoxiao (S=1.20)")
+	slot0.sakura = slot0:findTF("effect")
 	slot0._map = slot0:findTF("academyMap/map")
-	slot0.langhua = slot0:findTF("langhua_wave", slot0._map)
+	slot0.wave = slot0._map:Find("effect_wave")
 	slot0._classBtn = slot0._map:Find("classRoom")
 
 	setActive(slot0._classBtn, not LOCK_CLASSROOM)
 
+	slot0._fountain = slot0._map:Find("fountain")
 	slot0._commanderBtn = slot0._map:Find("commander")
 	slot0._merchant = slot0._map:Find("merchant")
 	slot0._tacticRoom = slot0._map:Find("tacticRoom")
@@ -29,31 +30,13 @@ function slot0.init(slot0)
 	setActive(slot0._classBtn, not LOCK_CLASSROOM)
 
 	slot0._blurLayer = slot0:findTF("blur_container")
-	slot0._topPanel = slot0._blurLayer:Find("top")
+	slot0._topPanel = slot0._blurLayer:Find("adapt/top")
 	slot0._backBtn = slot0._topPanel:Find("title/back")
-	slot0._courseLayer = slot0:findTF("blur_container/class_panel")
-	slot0._courseDetail = slot0:findTF("class_describe", slot0._courseLayer)
-	slot0._slots = slot0._courseLayer:Find("slots")
-	slot0._slotTpl = slot0:findTF("slot_tpl", slot0._courseLayer)
-	slot0._painting = slot0._courseLayer:Find("paint")
-	slot0._chat = slot0._courseLayer:Find("chat")
-	rtf(slot0._chat).localScale = Vector3(0, 0)
-	slot0._chatText = slot0._chat:Find("Text")
 	slot0._shop = slot0._map:Find("shop")
 	slot0._getGold = slot0._shop:Find("popup_contain/popup")
 	slot0._canteen = slot0._map:Find("canteen")
 	slot0._getOil = slot0._canteen:Find("popup_contain/popup")
 	slot0._resourceLayer = slot0:findTF("blur_container/resource_panel")
-	slot0._merchatLayer = slot0:findTF("blur_container/merchant_panel")
-
-	setActive(slot0._merchatLayer, false)
-
-	slot0._merchatName = slot0._merchant:Find("title/name")
-	slot0._merchatCount = slot0._merchant:Find("title/count")
-
-	setText(slot0._merchatName:Find("Text"), pg.navalacademy_data_template[slot0].name)
-
-	slot0.goodTpl = slot0:getTpl("frame/list/scrollView/view/item_tpl", slot0._merchatLayer)
 	slot0._merchantTip = slot0:findTF("merchant/tip", slot0._map)
 	slot0._tacticTips = slot0:findTF("tip", slot0._tacticRoom)
 	slot0._currentCourseID = slot0.contextData.number
@@ -68,7 +51,7 @@ function slot0.init(slot0)
 	slot0._mapTimers = {}
 	slot0.academyStudents = {}
 	slot0.academyGraphPath = GraphPath.New(AcademyGraph)
-	slot0._playerResOb = slot0:findTF("blur_container/top/playerRes")
+	slot0._playerResOb = slot0:findTF("blur_container/adapt/top/playerRes")
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
@@ -77,13 +60,9 @@ end
 
 function slot0.uiStartAnimating(slot0)
 	setAnchoredPosition(slot0._topPanel, {
-		y = slot0._topPanel.rect.height
+		y = 84
 	})
 	shiftPanel(slot0._topPanel, nil, 0, 0.3, 0, true, true)
-
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0._topPanel), slot0:findTF("title/bg/right", slot0._topPanel), slot0:findTF("title/bg/title_academy", slot0._topPanel), slot0:findTF("title/bg/academy", slot0._topPanel), nil, function ()
-		slot0.tweens = nil
-	end)
 end
 
 function slot0.uiExitAnimating(slot0)
@@ -106,6 +85,13 @@ function slot0.didEnter(slot0)
 			slot0:CloseResourcePanel()
 		end
 	end, SFX_CANCEL)
+	setText(slot0._classBtn:Find("title/name/Text"), i18n("school_title_dajiangtang"))
+	setText(slot0._commanderBtn:Find("title/name/Text"), i18n("school_title_zhihuimiao"))
+	setText(slot0._tacticRoom:Find("title/name/Text"), i18n("school_title_xueyuan"))
+	setText(slot0._merchant:Find("title/name/Text"), i18n("school_title_shangdian"))
+	setText(slot0._fountain:Find("title/name/Text"), i18n("school_title_shoucang"))
+	setText(slot0._shop:Find("title/name/Text"), i18n("school_title_xiaomaibu"))
+	setText(slot0._canteen:Find("title/name/Text"), i18n("school_title_shitang"))
 	onButton(slot0, slot0._classBtn, function ()
 		slot0, slot1 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0._player.level, "ClassMediator")
 
@@ -143,10 +129,19 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tacticRoom, function ()
 		setActive(slot0._tacticTips, false)
-		setActive:emit(NavalAcademyMediator.OPEN_TACTIC)
+		setActive:activeSakura(false)
+		setActive.activeSakura:emit(NavalAcademyMediator.OPEN_TACTIC, function ()
+			slot0:activeSakura(true)
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._commanderBtn, function ()
 		slot0:emit(NavalAcademyMediator.OPEN_COMMANDER)
+	end)
+	onButton(slot0, slot0._fountain, function ()
+		slot0:activeSakura(false)
+		slot0.activeSakura:emit(NavalAcademyMediator.OPEN_TROPHY_GALLERY, function ()
+			slot0:activeSakura(true)
+		end, SFX_PANEL)
 	end)
 
 	if slot0._currentCourseID ~= nil then
@@ -160,11 +155,14 @@ function slot0.didEnter(slot0)
 	end
 
 	if slot0.warp == slot0.WARP_TO_TACTIC then
-		slot0:emit(NavalAcademyMediator.OPEN_TACTIC)
+		slot0:activeSakura(false)
+		slot0:emit(NavalAcademyMediator.OPEN_TACTIC, function ()
+			slot0:activeSakura(true)
+		end)
 	end
 
-	blinkAni(go(slot0:findTF("blur_container/resource_panel/produce/pre_value/fill_area/value")), 0.8)
-	blinkAni(go(slot0:findTF("blur_container/resource_panel/store/pre_value/fill_area/value")), 0.8)
+	blinkAni(go(slot0:findTF("blur_container/resource_panel/produce/pre_value")), 0.8)
+	blinkAni(go(slot0:findTF("blur_container/resource_panel/store/pre_value")), 0.8)
 	slot0:updateStudents()
 end
 
@@ -265,8 +263,8 @@ function slot0.OpenResourcePanel(slot0, slot1)
 	slot6 = slot0._resourceLayer:Find("upgrade_duration/Text"):GetComponent(typeof(Text))
 	slot7 = slot0._resourceLayer:Find("produce")
 	slot8 = slot0._resourceLayer:Find("store")
-	slot9 = slot0._resourceLayer:Find("bg/title/lv/current")
-	slot10 = slot0._resourceLayer:Find("bg/title/lv/next")
+	slot9 = slot0._resourceLayer:Find("bg/bg/title/lv/current")
+	slot10 = slot0._resourceLayer:Find("bg/bg/title/lv/next")
 
 	SetActive(slot0._resourceLayer:Find("icon/" .. slot1:GetKeyWord()), true)
 	setText(slot0._resourceLayer:Find("icon/" .. slot1:GetKeyWord() .. "/current"), "Lv." .. slot1:GetLevel())
@@ -286,8 +284,8 @@ function slot0.OpenResourcePanel(slot0, slot1)
 		slot5.text = "-"
 		slot6.text = "-"
 		slot9:GetComponent(typeof(Text)).text = "Lv.Max"
-		slot10:GetComponent(typeof(Text)).text = "> -"
 
+		setActive(slot10, false)
 		slot0:setBar(slot7, slot13.production, 0, slot14.production, slot13.hour_time)
 		slot0:setBar(slot8, slot13.store, 0, slot14.store)
 	else
@@ -300,6 +298,7 @@ function slot0.OpenResourcePanel(slot0, slot1)
 
 		if slot1:GetUpgradeTimeStamp() == 0 then
 			SetActive(slot4, false)
+			SetActive(slot3, true)
 
 			slot6.text = pg.TimeMgr.GetInstance():DescCDTime(slot13.time)
 			slot3:GetComponent("Button").interactable = true
@@ -309,6 +308,7 @@ function slot0.OpenResourcePanel(slot0, slot1)
 			end, SFX_UI_ACADEMY_LVLUP)
 		else
 			SetActive(slot4, true)
+			SetActive(slot3, false)
 
 			slot3:GetComponent("Button").interactable = false
 			slot0._panelTimer[#slot0._panelTimer + 1] = pg.TimeMgr:GetInstance():AddTimer("timer", 0, 1, function ()
@@ -321,7 +321,7 @@ function slot0.OpenResourcePanel(slot0, slot1)
 		end
 	end
 
-	onButton(slot0, findTF(slot0._resourceLayer, "btnBack"), function ()
+	onButton(slot0, findTF(slot0._resourceLayer, "top/btnBack"), function ()
 		slot0:CloseResourcePanel()
 	end, SFX_CANCEL)
 end
@@ -331,8 +331,8 @@ function slot0.setSliderValue(slot0, slot1, slot2)
 end
 
 function slot0.setBar(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0:setSliderValue(slot6, (slot2 + slot3) / slot4)
-	slot0:setSliderValue(slot1:Find("value"):GetComponent(typeof(Slider)), slot2 / slot4)
+	slot1:Find("pre_value"):GetComponent(typeof(Image)).fillAmount = (slot2 + slot3) / slot4
+	slot1:Find("value"):GetComponent(typeof(Image)).fillAmount = slot2 / slot4
 
 	if slot5 then
 		slot1:Find("current"):GetComponent(typeof(Text)).text = slot2 * slot5 .. "/H"
@@ -500,8 +500,8 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			slot3.alignment = TextAnchor.MiddleCenter
 		end
 
-		LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
-			LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(2.3):setOnComplete(System.Action(function ()
+		LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(1, 1, 1), 0.45):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+			LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(0, 0, 1), 0.45):setEase(LeanTweenType.easeInBack):setDelay(2.3):setOnComplete(System.Action(function ()
 				slot0._chatFlag = nil
 
 				slot0:startChatTimer(slot0)
@@ -684,7 +684,7 @@ function slot0.sortStudents(slot0)
 		return slot0.anchoredPosition.y < slot1.anchoredPosition.y
 	end)
 
-	slot2 = 5
+	slot2 = 6
 
 	for slot6, slot7 in ipairs(slot1) do
 		slot7:SetSiblingIndex(slot2)
@@ -807,22 +807,8 @@ function slot0.willExit(slot0)
 		slot0._chatTimer = nil
 	end
 
-	if not IsNil(slot0._courseLayer) then
-		Destroy(slot0._courseLayer)
-
-		slot0._courseLayer = nil
-	end
-
 	if not IsNil(slot0._resourceLayer) then
-		Destroy(slot0._resourceLayer)
-
-		slot0._resourceLayer = nil
-	end
-
-	if not IsNil(slot0._merchatLayer) then
-		Destroy(slot0._merchatLayer)
-
-		slot0._merchatLayer = nil
+		setActive(slot0._resourceLayer, false)
 	end
 
 	if slot0._resPanel then
@@ -841,8 +827,13 @@ function slot0.willExit(slot0)
 end
 
 function slot0.activeSakura(slot0, slot1)
-	setActive(slot0.sakura, slot1)
-	setActive(slot0.langhua, slot1)
+	if slot0.sakura then
+		setActive(slot0.sakura, slot1)
+	end
+
+	if slot0.wave then
+		setActive(slot0.wave, slot1)
+	end
 
 	return
 end

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"「仮想繋げし共時性」スッキリ編\n\n<size=30>二 バカと天才は紙一重</size>",
+					"「仮想繋げし共時性」スッキリ編\n\n<size=45>二 バカと天才は紙一重</size>",
 					1
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -190,7 +190,7 @@ return {
 			},
 			action = {
 				{
-					y = -1500,
+					y = -2250,
 					type = "move",
 					delay = 1,
 					dur = 0.5,
@@ -230,7 +230,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -333,7 +333,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -360,7 +360,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -516,7 +516,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -601,7 +601,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

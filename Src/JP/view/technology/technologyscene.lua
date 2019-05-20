@@ -31,17 +31,17 @@ function slot0.init(slot0)
 	slot0.srcollView = slot0:findTF("main/srcoll_rect/content")
 	slot0.cardTpl = slot0:findTF("card_tpl", slot0.srcollView)
 	slot0.srcollViewCG = slot0.srcollView:GetComponent(typeof(CanvasGroup))
-	slot0.technologyTpl = slot0:findTF("main/selecte_panel/technology_card")
+	slot0.helpBtn = slot0:findTF("main/help_btn")
+	slot0.refreshBtn = slot0:findTF("main/refresh_btn")
+	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
+	slot0.tendencyBtn = slot0:findTF("main/tendency_btn")
 	slot0.selectetPanel = slot0:findTF("main/selecte_panel")
 
 	setActive(slot0.selectetPanel, false)
 
-	slot0.helpBtn = slot0:findTF("main/help_btn")
-	slot0.refreshBtn = slot0:findTF("main/refresh_btn")
-	slot0.tendencyBtn = slot0:findTF("main/tendency_btn")
-	slot0.backBtn = slot0:findTF("top/back")
-	slot0.arrLeftBtn = slot0:findTF("main/selecte_panel/left_arr_btn")
-	slot0.arrRightBtn = slot0:findTF("main/selecte_panel/right_arr_btn")
+	slot0.arrLeftBtn = slot0:findTF("left_arr_btn", slot0.selectetPanel)
+	slot0.arrRightBtn = slot0:findTF("right_arr_btn", slot0.selectetPanel)
+	slot0.technologyTpl = slot0:findTF("technology_card", slot0.selectetPanel)
 	slot0.descTxt = slot0:findTF("desc/bg/Text", slot0.selectetPanel):GetComponent(typeof(Text))
 	slot0.timerTxt = slot0:findTF("timer/bg/Text", slot0.selectetPanel):GetComponent(typeof(Text))
 	slot0.itemContainer = slot0:findTF("consume_panel/bg/container", slot0.selectetPanel)
@@ -54,7 +54,7 @@ function slot0.init(slot0)
 	slot0.techTimer = {}
 	slot0.refreshTimer = {}
 	slot0.cardtimer = {}
-	slot0._playerResOb = slot0:findTF("top/playerRes")
+	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/playerRes")
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
@@ -63,7 +63,8 @@ end
 function slot0.didEnter(slot0)
 	slot0:initTechnologys()
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.technology_help_text.tip
 		})
 	end, SFX_PANEL)
@@ -295,7 +296,7 @@ function slot0.updateExtraInfo(slot0, slot1)
 		slot11 = slot0.itemContainer:GetChild(slot10 - 1)
 
 		setActive(slot11:Find("check"), slot1:isStart())
-		setActive(slot11:Find("count"), not slot1:isStart())
+		setActive(slot11:Find("icon_bg/count"), not slot1:isStart())
 	end
 
 	return
@@ -529,73 +530,21 @@ function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	return
 end
 
-function slot0.setIconColorful(slot0, slot1, slot2)
-	slot3 = slot1:Find("icon/IconColorful(Clone)")
-
-	if slot2 == 6 or slot2 == 5 then
-		if not slot3 then
-			PoolMgr.GetInstance():GetPrefab("UI/IconColorful", "IconColorful", true, function (slot0)
-				setParent(slot0, slot0:Find("icon"))
-				setActive(slot0, true)
-
-				for slot4 = 5, 6, 1 do
-					setActive(rtf(slot0):Find("r" .. slot4), slot4 == slot1)
-				end
-
-				setEffectClipRect(slot0)
-
-				return
-			end)
-		else
-			setActive(slot3, true)
-
-			for slot7 = 5, 6, 1 do
-				setActive(rtf(slot3):Find("r" .. slot7), slot7 == slot2)
-			end
-
-			setEffectClipRect(slot3)
-		end
-	else
-		if slot3 then
-			setActive(slot3, false)
-		end
-	end
-
-	return
-end
-
 function slot0.updateItem(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
-	if slot3[1] == DROP_TYPE_RESOURCE then
-		slot4 = Item.New({
-			id = id2ItemId(slot3[2])
-		})
-	else
-		if slot3[1] == DROP_TYPE_ITEM then
-			slot4 = Item.New({
-				id = slot3[2]
-			})
-		end
-	end
+	updateDrop(slot1, slot4)
 
-	GetImageSpriteFromAtlasAsync(slot4:getConfig("icon"), "", slot7)
+	if not IsNil(slot0:findTF("icon_bg/count", slot1)) then
+		slot6 = nil
 
-	slot8 = slot4:getConfig("rarity")
-
-	setImageSprite(slot5, GetSpriteFromAtlas("TechnologyCard", "frame_" .. slot8))
-	setImageSprite(slot6, GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot8)))
-	slot0:setIconColorful(slot1, slot8)
-
-	if not IsNil(slot0:findTF("count", slot1)) then
-		slot11 = nil
-
-		setColorCount(slot10, (slot3[1] ~= DROP_TYPE_RESOURCE or slot0.player:getResById(slot3[2])) and getProxy(BagProxy):getItemCountById(slot4.id), slot3[3])
+		setColorCount(slot5, (slot3[1] ~= DROP_TYPE_RESOURCE or slot0.player:getResById(slot3[2])) and getProxy(BagProxy):getItemCountById(slot4.id), slot3[3])
 	end
 
 	onButton(slot0, slot1, function ()
 		if #(slot0:getConfig("display_icon") or {}) > 0 then
-			pg.MsgboxMgr.GetInstance():ShowItemBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_ITEM_BOX,
 				items = _.map(slot0, function (slot0)
 					return {
 						type = slot0[1],
@@ -610,7 +559,7 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 				end
 			})
 		else
-			slot1:emit(slot2.ON_ITEM, slot0.id)
+			slot1:emit(slot2.ON_DROP, slot0)
 		end
 
 		return

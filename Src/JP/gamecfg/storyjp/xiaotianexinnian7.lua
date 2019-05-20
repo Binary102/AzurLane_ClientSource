@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"正月の祝福\n\n<size=30>七 正月の祝福</size>",
+					"正月の祝福\n\n<size=45>七 正月の祝福</size>",
 					1
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -296,7 +296,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=16>（小声）ねぇねぇ、明石さん……ここって去年から……</size>",
+			say = "<size=24>（小声）ねぇねぇ、明石さん……ここって去年から……</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,14 +308,14 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=16>しっ！そんなことは言わなくていいのにゃ！</size>",
+			say = "<size=24>しっ！そんなことは言わなくていいのにゃ！</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -449,7 +449,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
@@ -483,7 +483,7 @@ return {
 			say = "えええ――！？",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

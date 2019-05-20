@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"拗ねやすい彼女の小さなお話\n\n<size=30>六　ホノルルとデート・上</size>",
+					"拗ねやすい彼女の小さなお話\n\n<size=45>六　ホノルルとデート・上</size>",
 					1
 				}
 			}
@@ -117,7 +117,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -176,7 +176,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -235,7 +235,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.8,
 					dur = 0.15,

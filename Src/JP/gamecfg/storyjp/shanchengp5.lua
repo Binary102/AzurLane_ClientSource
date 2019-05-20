@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨のち晴れ\n\n<size=30>その五　曇り、そして――</size>",
+					"雨のち晴れ\n\n<size=45>その五　曇り、そして――</size>",
 					1
 				}
 			}
@@ -220,7 +220,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

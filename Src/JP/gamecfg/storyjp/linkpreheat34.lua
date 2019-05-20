@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅\n\n<size=30>結ばれた世界</size>",
+					"夢幻の邂逅\n\n<size=45>結ばれた世界</size>",
 					1
 				}
 			}

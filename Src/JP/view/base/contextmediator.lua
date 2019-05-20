@@ -25,22 +25,18 @@ function slot0.onRegister(slot0)
 		end
 	end)
 	slot0:bind(BaseUI.ON_HOME, function (slot0)
+		if getProxy(ContextProxy).getCurrentContext(slot1):retriveLastChild() and slot3 ~= slot2 then
+			slot0:sendNotification(GAME.REMOVE_LAYERS, {
+				context = slot3
+			})
+		end
+
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)
 	end)
-	slot0:bind(BaseUI.ON_CLOSE, function (slot0, slot1)
-		slot4 = getProxy(ContextProxy).getCurrentContext(slot2):getContextByMediator(slot0.class)
-
-		if slot1 and slot1 > 0 then
-			pg.UIMgr:GetInstance():LoadingOn(false)
-			LeanTween.delayedCall(slot1, System.Action(function ()
-				pg.UIMgr:GetInstance():LoadingOff()
-				pg.UIMgr.GetInstance().LoadingOff:sendNotification(GAME.REMOVE_LAYERS, {
-					context = pg.UIMgr.GetInstance().LoadingOff
-				})
-			end))
-		else
+	slot0:bind(BaseUI.ON_CLOSE, function (slot0)
+		if getProxy(ContextProxy).getCurrentContext(slot1):getContextByMediator(slot0.class) then
 			slot0:sendNotification(GAME.REMOVE_LAYERS, {
-				context = slot4
+				context = slot3
 			})
 		end
 	end)
@@ -51,12 +47,13 @@ function slot0.onRegister(slot0)
 				viewComponent = EquipmentInfoLayer,
 				data = {
 					equipmentId = slot1.cfg.id,
-					type = EquipmentInfoMediator.DISPLAY,
+					type = EquipmentInfoMediator.TYPE_DISPLAY,
 					onRemoved = slot2
 				}
 			}))
 		else
-			pg.MsgboxMgr:GetInstance():showSingleItemBox({
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,
 				onYes = slot2
@@ -64,8 +61,9 @@ function slot0.onRegister(slot0)
 		end
 	end)
 	slot0:bind(BaseUI.ON_DROP_LIST, function (slot0, slot1)
-		pg.MsgboxMgr.GetInstance():ShowItemBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
+			type = MSGBOX_TYPE_ITEM_BOX,
 			items = slot1.itemList,
 			content = slot1.content,
 			item2Row = slot1.item2Row,
@@ -103,6 +101,16 @@ function slot0.onRegister(slot0)
 		}))
 	end)
 	slot0:bind(BaseUI.ON_AWARD, function (slot0, slot1, slot2, slot3)
+		if _.all(slot1.items, function (slot0)
+			return slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME
+		end) then
+			if slot1.onYes then
+				onNextTick(slot1.onYes)
+			end
+
+			return
+		end
+
 		slot0:addSubLayers(Context.New({
 			mediator = AwardInfoMediator,
 			viewComponent = AwardInfoLayer,
@@ -146,7 +154,7 @@ function slot0.onRegister(slot0)
 				for slot7, slot8 in pairs(slot0) do
 					if slot8.type == DROP_TYPE_SKIN then
 						if pg.ship_skin_template[slot8.id].skin_type == Ship.SKIN_TYPE_REMAKE then
-						elseif not slot2:hasOldSkin(slot8.id) then
+						elseif not getProxy(ShipSkinProxy):hasOldSkin(slot8.id) then
 							slot1:addSubLayers(Context.New({
 								mediator = NewSkinMediator,
 								viewComponent = NewSkinLayer,
@@ -191,9 +199,6 @@ function slot0.onRegister(slot0)
 		}))
 	end)
 	slot0:register()
-
-	if getProxy(PlayerProxy) and slot1:getData().guideIndex < GUIDE_FINALE then
-	end
 end
 
 function slot0.register(slot0)

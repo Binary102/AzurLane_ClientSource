@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ワイワイ旧正月！\n\n<size=30>四 ピース・ゲーム</size>",
+					"ワイワイ旧正月！\n\n<size=45>四 ピース・ゲーム</size>",
 					1
 				}
 			}
@@ -52,7 +52,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 2,
 					dur = 0.15,

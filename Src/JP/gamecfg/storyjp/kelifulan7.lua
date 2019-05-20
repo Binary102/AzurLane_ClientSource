@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ナイト＆アワード\n\n<size=30>その七　最高の優勝賞</size>",
+					"ナイト＆アワード\n\n<size=45>その七　最高の優勝賞</size>",
 					1
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			say = "かかかかかかか可愛い！？！？！？",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -256,7 +256,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
-					x = 20,
+					x = 30,
 					number = 2
 				}
 			},
@@ -279,7 +279,7 @@ return {
 			say = "って、兄貴って呼ぶなあ～！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

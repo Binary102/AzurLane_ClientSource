@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小さなめいどちょー\n\n<size=30>その一 小さな来訪者？</size>",
+					"小さなめいどちょー\n\n<size=45>その一 小さな来訪者？</size>",
 					1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			say = "よし！明石さんが言ってた「指揮官」に報告しましょー！",
 			action = {
 				{
-					y = 20,
+					y = 30,
 					dur = 0.2,
 					number = 1,
 					type = "shake"
@@ -185,7 +185,7 @@ return {
 				{
 					actor = 205010,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

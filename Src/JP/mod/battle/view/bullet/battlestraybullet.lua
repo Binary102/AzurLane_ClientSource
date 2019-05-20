@@ -22,7 +22,7 @@ end
 function ys.Battle.BattleStrayBullet._doStray(slot0)
 	slot1 = slot0._targetPos
 
-	if slot0._step > 0 and slot1 and slot1 ~= Vector3.zero then
+	if slot0._step > 0 and slot1 and not slot1:EqualZero() then
 		slot0._count = slot0._count / 1.06
 		slot0._step = slot0._step - 1
 		slot0._speed = Vector3(slot1.x - slot0._bulletData:GetPosition().x, 0, slot1.z - slot0._bulletData.GetPosition().z).normalized

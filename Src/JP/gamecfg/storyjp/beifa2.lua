@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小さなめいどちょー\n\n<size=30>その二 意外の成果</size>",
+					"小さなめいどちょー\n\n<size=45>その二 意外の成果</size>",
 					1
 				}
 			}
@@ -405,7 +405,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,

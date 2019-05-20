@@ -106,7 +106,7 @@ return {
 			say = "！！！！",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

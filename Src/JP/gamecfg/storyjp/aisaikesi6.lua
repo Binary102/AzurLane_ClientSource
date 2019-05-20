@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"先輩とわだかまり\n\n<size=30>六　わだかまり・下</size>",
+					"先輩とわだかまり\n\n<size=45>六　わだかまり・下</size>",
 					1
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
@@ -246,7 +246,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

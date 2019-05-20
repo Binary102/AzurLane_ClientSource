@@ -42,15 +42,15 @@ function slot2.UnregisterWeaponListener(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot1.WEAPON_INTERRUPT)
 end
 
-function slot2.AddHPBar(slot0, slot1)
+function slot2.AddHPBar(slot0, slot1, slot2)
 	slot0._HPBar = slot1
 	slot0._HPBarTf = slot1.transform
-	slot0._HPBarTf.localPosition = Vector3.zero
 
 	slot1:SetActive(true)
 	slot0._unitData:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.OnUpdateHP)
 
-	slot0._HPBarCountText = slot0._HPBarTf.Find(slot2, "HPBarCount"):GetComponent(typeof(Text))
+	slot0._HPBarCountText = slot0._HPBarTf.Find(slot3, "HPBarCount"):GetComponent(typeof(Text))
+	slot0._activeVernier = slot2
 
 	slot0:SetTemplateInfo()
 	slot0:initBarComponent()
@@ -70,7 +70,6 @@ function slot2.SetTemplateInfo(slot0)
 
 	slot0._HPBarTf:Find("BossName"):GetComponent(typeof(Text)).text = slot2
 	slot0._HPBarTf:Find("BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
-	slot0._HPBarTf:Find("type"):GetComponent(typeof(Text)).text = pg.ship_data_by_type[slot0._unitData:GetTemplate().type].type_name
 
 	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), slot4, true)
 	setImageSprite(findTF(slot0._HPBarTf, "BossIcon/icon"), slot6)
@@ -157,6 +156,12 @@ function slot2.initBarComponent(slot0)
 		end
 	end
 
+	if slot0._activeVernier then
+		slot0._vernier = slot0._HPBarTf:Find("vernier/tag")
+
+		SetActive(slot0._HPBarTf:Find("vernier"), slot0._activeVernier)
+	end
+
 	slot0._currentIndex = #slot0._bossBarInfoList
 	slot0._chargeTimer = Timer.New(function ()
 		slot0._currentTween = slot0:generateTween()
@@ -219,6 +224,11 @@ function slot2.UpdateHpBar(slot0)
 	end
 
 	slot2.progressImage.fillAmount = (slot1 - slot2.lowerBound) / slot0._stepHP
+
+	if slot0._activeVernier then
+		slot0._vernier.anchorMin = Vector2(slot3, 0.5)
+		slot0._vernier.anchorMax = Vector2(slot3, 0.5)
+	end
 
 	if slot0._cacheHP < slot1 then
 		slot2.deltaImage.fillAmount = slot3

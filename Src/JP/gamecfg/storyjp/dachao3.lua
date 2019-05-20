@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大潮よりお届け♪\n\n<size=30>三　ご縁かご利益か</size>",
+					"大潮よりお届け♪\n\n<size=45>三　ご縁かご利益か</size>",
 					1
 				}
 			}
@@ -303,7 +303,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -349,7 +349,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.15,

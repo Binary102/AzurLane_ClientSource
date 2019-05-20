@@ -26,12 +26,17 @@ function ys.Battle.BattleStoryWave.DoWave(slot0)
 	end
 
 	if slot1 then
-		gcAll()
-		pg.StoryMgr.GetInstance():Play(slot0._storyID, function ()
-			slot0:doFinish()
-		end)
+		if pg.StoryMgr.GetInstance():Play(slot0._storyID, function (slot0)
+			if slot0 then
+				slot0:doFail()
+			else
+				slot0:doPass()
+			end
+		end) then
+			gcAll()
+		end
 	else
-		slot0:doFinish()
+		slot0:doPass()
 	end
 end
 

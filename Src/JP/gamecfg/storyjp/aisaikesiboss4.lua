@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"特別演習・超空強襲波\n\n<size=30>四　目標、そして努力</size>",
+					"特別演習・超空強襲波\n\n<size=45>四　目標、そして努力</size>",
 					1
 				}
 			}
@@ -201,7 +201,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -249,7 +249,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -342,7 +342,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -19,6 +19,7 @@ ys.Battle.BattleAttr = {
 		"bulletSpeedRatio",
 		"torpedoSpeedExtra",
 		"damageRatioBullet",
+		"damageEnhanceProjectile",
 		"healingEnhancement",
 		"injureRatio",
 		"injureRatioByCannon",

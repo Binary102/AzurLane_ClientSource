@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"シリアス改造計画\n\n<size=30>四 ビッグセブンのアドバイス</size>",
+					"シリアス改造計画\n\n<size=45>四 ビッグセブンのアドバイス</size>",
 					1
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			},
 			action = {
 				{
-					y = -50,
+					y = -75,
 					type = "shake",
 					delay = 0.3,
 					dur = 0.3,

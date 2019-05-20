@@ -22,6 +22,13 @@ function ys.Battle.BattleControllerWeaponCommand.ActiveBot(slot0, slot1, slot2)
 	slot0._joyStickAutoBot:SetActive(slot1)
 end
 
+function ys.Battle.BattleControllerWeaponCommand.TryAutoSub(slot0)
+	if slot0.Battle.BattleState.IsAutoSubActive() and slot0._dataProxy:GetFleetByIFF(slot0.Battle.BattleConfig.FRIENDLY_CODE)._submarineVO:GetUseable() and slot2:GetCount() > 0 then
+		slot0._dataProxy:SubmarineStrike(slot0.Battle.BattleConfig.FRIENDLY_CODE)
+		slot2:Cast()
+	end
+end
+
 function ys.Battle.BattleControllerWeaponCommand.GetWeaponBot(slot0)
 	return slot0._manualWeaponAutoBot
 end

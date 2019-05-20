@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"足柄、すゝめ！\n\n<size=30>七 足柄、踏み出せ！</size>",
+					"足柄、すゝめ！\n\n<size=45>七 足柄、踏み出せ！</size>",
 					1
 				}
 			}
@@ -164,7 +164,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -191,7 +191,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -322,7 +322,7 @@ return {
 			say = "急に部屋の扉が開き、何人かが重なるように倒れ込んできた。",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

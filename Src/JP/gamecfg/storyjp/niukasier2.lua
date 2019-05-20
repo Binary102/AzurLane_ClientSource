@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"平穏を讃えて\n\n<size=30>二　完璧と平穏</size>",
+					"平穏を讃えて\n\n<size=45>二　完璧と平穏</size>",
 					1
 				}
 			}

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"先輩とわだかまり\n\n<size=30>二　後輩たちの集い</size>",
+					"先輩とわだかまり\n\n<size=45>二　後輩たちの集い</size>",
 					1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -296,7 +296,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -431,7 +431,7 @@ return {
 					type = "move",
 					delay = 1.5,
 					dur = 1,
-					x = -1500
+					x = -2250
 				}
 			}
 		},

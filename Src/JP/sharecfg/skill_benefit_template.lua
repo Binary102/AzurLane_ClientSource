@@ -1,5 +1,18 @@
 pg = pg or {}
 pg.skill_benefit_template = {
+	[641001] = {
+		lv = 1,
+		type = 3,
+		id = 641001,
+		skill_id = 6410,
+		limit = {
+			720
+		},
+		effect = {
+			1,
+			1
+		}
+	},
 	[1017001] = {
 		lv = 1,
 		type = 1,
@@ -521,6 +534,7 @@ pg.skill_benefit_template = {
 		}
 	},
 	all = {
+		641001,
 		1017001,
 		1017002,
 		1017003,

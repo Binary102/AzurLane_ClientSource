@@ -11,15 +11,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=34>「つまり、分かち合うことよ」</size>",
+					"<size=51>「つまり、分かち合うことよ」</size>",
 					2
 				},
 				{
-					"<size=34>「楽しみも、悩みも、全部話してみたら？」</size>",
+					"<size=51>「楽しみも、悩みも、全部話してみたら？」</size>",
 					4
 				},
 				{
-					"<size=34>「ひとりぼっちなんてことを感じなくなるわよ？」</size>",
+					"<size=51>「ひとりぼっちなんてことを感じなくなるわよ？」</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小さな出来事\n\n<size=30>二　偶然の出逢い</size>",
+					"小さな出来事\n\n<size=45>二　偶然の出逢い</size>",
 					1
 				}
 			}
@@ -330,7 +330,7 @@ return {
 			say = "（にゃ～！）",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

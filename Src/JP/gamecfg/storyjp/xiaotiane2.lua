@@ -12,7 +12,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"春風の十字星\n\n<size=30>その二  ぼくにおまかせ！</size>",
+					"春風の十字星\n\n<size=45>その二  ぼくにおまかせ！</size>",
 					1
 				},
 				bgName = "bg_story_school"
@@ -48,13 +48,13 @@ return {
 				{
 					actor = 201080,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 201090,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},
@@ -132,7 +132,7 @@ return {
 				{
 					actor = 201090,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

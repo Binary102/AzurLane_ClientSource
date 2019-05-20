@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"四天王の大冒険・鞍山編\n\n<size=30>その二　母港の不思議</size>",
+					"四天王の大冒険・鞍山編\n\n<size=45>その二　母港の不思議</size>",
 					1
 				}
 			}

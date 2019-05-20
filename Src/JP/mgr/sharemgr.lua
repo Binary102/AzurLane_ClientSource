@@ -11,6 +11,8 @@ pg.ShareMgr.TypeReflux = 8
 pg.ShareMgr.TypeCommander = 9
 pg.ShareMgr.TypeColoring = 10
 pg.ShareMgr.TypeNewShipDesignSSR = 11
+pg.ShareMgr.PANEL_TYPE_BLACK = 1
+pg.ShareMgr.PANEL_TYPE_PINK = 2
 
 function pg.ShareMgr.Init(slot0)
 	PoolMgr.GetInstance():GetUI("ShareUI", false, function (slot0)
@@ -19,14 +21,16 @@ function pg.ShareMgr.Init(slot0)
 		slot0.go:SetActive(false)
 
 		slot0.tr = slot0.transform
-		slot0.panel = slot0.tr:Find("panel")
+		slot0.panelBlack = slot0.tr:Find("panel")
+		slot0.panelPink = slot0.tr:Find("panel_pink")
 		slot0.decks = {
 			slot0.tr:Find("deck"),
 			slot0.tr:Find("deck_right"),
 			slot0.tr:Find("deck_blue")
 		}
 
-		setActive(slot0.panel, true)
+		setActive(slot0.panelBlack, false)
+		setActive(slot0.panelPink, false)
 
 		for slot4, slot5 in pairs(slot0.decks) do
 			setActive(slot5, false)
@@ -39,7 +43,7 @@ function pg.ShareMgr.Init(slot0)
 	slot0.cacheMoveComps = {}
 end
 
-function pg.ShareMgr.Share(slot0, slot1)
+function pg.ShareMgr.Share(slot0, slot1, slot2)
 	if not isAiriJP() and not WBManager.IsSupportShare() then
 		slot0.TipsMgr:GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
 
@@ -50,38 +54,73 @@ function pg.ShareMgr.Share(slot0, slot1)
 		slot0:Init()
 	end
 
-	slot2 = slot0.share_template[slot1]
-	slot3 = getProxy(PlayerProxy):getRawData()
-	slot5 = getProxy(ServerProxy):getRawData()
-
-	if not getProxy(UserProxy):getRawData() or not slot4.server then
-		slot6 = 0
+	if not slot2 then
+		slot2 = slot1.PANEL_TYPE_BLACK
 	end
 
-	slot5 = slot5[slot6]
-
-	if not slot3 or not slot3.name then
-		slot6 = ""
+	if slot2 == slot1.PANEL_TYPE_BLACK then
+		slot0.panel = slot0.panelBlack
+	else
+		if slot2 == slot1.PANEL_TYPE_PINK then
+			slot0.panel = slot0.panelPink
+		end
 	end
 
-	if not slot5 or not slot5.name then
+	slot3 = setActive
+	slot4 = slot0.panelBlack
+
+	if slot2 ~= slot1.PANEL_TYPE_BLACK then
+		slot5 = false
+	else
+		slot5 = true
+	end
+
+	slot3(slot4, slot5)
+
+	slot3 = setActive
+	slot4 = slot0.panelPink
+
+	if slot2 ~= slot1.PANEL_TYPE_PINK then
+		slot5 = false
+	else
+		slot5 = true
+	end
+
+	slot3(slot4, slot5)
+
+	slot3 = slot0.share_template[slot1]
+	slot4 = getProxy(PlayerProxy):getRawData()
+	slot6 = getProxy(ServerProxy):getRawData()
+
+	if not getProxy(UserProxy):getRawData() or not slot5.server then
+		slot7 = 0
+	end
+
+	slot6 = slot6[slot7]
+
+	if not slot4 or not slot4.name then
 		slot7 = ""
 	end
 
-	slot8 = slot0.decks
-	slot9 = slot2.deck or 1
+	if not slot6 or not slot6.name then
+		slot8 = ""
+	end
+
+	slot9 = slot0.decks
+	slot10 = slot3.deck or 1
 
 	SetActive(slot0.decks, true)
-	setText(slot0.decks[slot9].Find(slot0.decks, "name"), slot6)
-	setText(slot0.decks[slot9].Find(slot0.decks, "server"), "サーバー：" .. slot7)
-	setText(slot0.decks[slot9].Find(slot8, "lv"), slot3.level)
+	slot10(slot0.decks[setActive].Find(slot0.decks, "code"), PLATFORM_CODE == PLATFORM_CH)
+	setText(slot0.decks:Find("name"), slot7)
+	setText(slot0.decks:Find("server"), "サーバー：" .. slot8)
+	setText(slot0.decks:Find("lv"), slot4.level)
 
-	slot0.decks[slot9].anchoredPosition3D = Vector3(slot2.qrcode_location[1], slot2.qrcode_location[2], -100)
-	slot0.decks[slot9].anchoredPosition = Vector2(slot2.qrcode_location[1], slot2.qrcode_location[2])
+	slot0.decks.anchoredPosition3D = Vector3(slot3.qrcode_location[1], slot3.qrcode_location[2], -100)
+	slot0.decks.anchoredPosition = Vector2(slot3.qrcode_location[1], slot3.qrcode_location[2])
 
-	setParent(slot8, slot10, false)
-	slot0.decks[slot9].SetAsLastSibling(slot8)
-	_.each(slot2.hidden_comps, function (slot0)
+	setParent(slot0.decks, slot0.decks[setActive].Find(slot0.decks, "code"), false)
+	slot9:SetAsLastSibling()
+	_.each(slot3.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(slot0.cacheComps, slot1)
 			slot1:SetActive(false)
@@ -89,7 +128,7 @@ function pg.ShareMgr.Share(slot0, slot1)
 
 		return
 	end)
-	_.each(slot2.show_comps, function (slot0)
+	_.each(slot3.show_comps, function (slot0)
 		print("showpath:" .. slot0)
 
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
@@ -100,7 +139,7 @@ function pg.ShareMgr.Share(slot0, slot1)
 
 		return
 	end)
-	_.each(slot2.move_comps, function (slot0)
+	_.each(slot3.move_comps, function (slot0)
 		print("movepath:" .. slot0.path)
 
 		if not IsNil(GameObject.Find(slot0.path)) then
@@ -119,20 +158,26 @@ function pg.ShareMgr.Share(slot0, slot1)
 		return
 	end)
 
-	slot13 = nil
-	slot13 = (1.7777777777777777 >= Screen.width / Screen.height or ScreenShooter.New(math.floor(Screen.height * slot11), Screen.height, TextureFormat.ARGB32)) and ScreenShooter.New(Screen.width, math.floor(Screen.width / slot11), TextureFormat.ARGB32)
-	slot9 = 1
-	slot13 = ScreenShooter.New(math.floor(Screen.height * slot11), Screen.height, TextureFormat.ARGB32)
+	slot14 = nil
+	slot14 = (1.7777777777777777 >= Screen.width / Screen.height or ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32)) and ScreenShooter.New(Screen.width, math.floor(Screen.width / (PLATFORM_CODE == PLATFORM_CH)), TextureFormat.ARGB32)
+	slot10 = 1
+	slot12 = false
 
-	if ScreenShooter.New(math.floor(Screen.height * slot11), Screen.height, TextureFormat.ARGB32) then
-		slot13 = ScreenShooter.New(Screen.width, math.floor(Screen.width / slot11), TextureFormat.ARGB32)
+	if false then
+		slot12 = true
+	end
+
+	slot14 = ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32)
+
+	if ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32) then
+		slot14 = ScreenShooter.New(Screen.width, math.floor(Screen.width / (PLATFORM_CODE == PLATFORM_CH)), TextureFormat.ARGB32)
 	end
 
 	if isAiriJP() then
-		slot14 = slot13:TakePhoto(slot9)
+		slot15 = slot14:TakePhoto(slot10)
 
-		slot14:LoadImage(slot15)
-		GameShare(slot2.description, slot14)
+		slot15:LoadImage(slot16)
+		GameShare(slot3.description, slot15)
 		slot0.UIMgr.GetInstance():LoadingOn()
 
 		time = Timer.New(function ()
@@ -143,15 +188,15 @@ function pg.ShareMgr.Share(slot0, slot1)
 
 		time:Start()
 	else
-		if slot13:Take(slot9, slot0.screenshot) then
+		if slot14:Take(slot10, slot0.screenshot) then
 			print("截图位置: " .. slot0.screenshot)
-			slot0:Show(slot2)
+			slot0:Show(slot3)
 		else
 			slot0.TipsMgr:GetInstance():ShowTips("截图失败")
 		end
 	end
 
-	setParent(slot8, slot0.tr, false)
+	setParent(slot9, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 
@@ -185,8 +230,9 @@ end
 function pg.ShareMgr.Show(slot0, slot1)
 	slot0.go:SetActive(true)
 	slot0.UIMgr.GetInstance():BlurPanel(slot0.panel)
-	onButton(nil, slot0.panel:Find("main/btnBack"), slot2)
-	onButton(nil, slot0.panel:Find("main/buttons/weibo"), function ()
+	slot0.DelegateInfo.New(slot0)
+	onButton(slot0, slot0.panel:Find("main/top/btnBack"), slot2)
+	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
 		WBManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
 				slot0.TipsMgr:GetInstance():ShowTips("分享成功")
@@ -198,7 +244,7 @@ function pg.ShareMgr.Show(slot0, slot1)
 
 		return
 	end)
-	onButton(nil, slot0.panel:Find("main/buttons/weixin"), function ()
+	onButton(slot0, slot0.panel:Find("main/buttons/weixin"), function ()
 		WXManager.Inst:Share(slot0.description, slot1.screenshot, function (slot0, slot1)
 			if slot0 and slot1 == 0 then
 				slot0.TipsMgr:GetInstance():ShowTips("分享成功")

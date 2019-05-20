@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"足柄、すゝめ！\n\n<size=30>二 足柄、励め！</size>",
+					"足柄、すゝめ！\n\n<size=45>二 足柄、励め！</size>",
 					1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -241,7 +241,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -358,7 +358,7 @@ return {
 			say = "足柄が書類の山に埋もれてしまった。",
 			dialogShake = {
 				speed = 0.09,
-				x = 8.5,
+				x = 12.75,
 				number = 2
 			},
 			typewriter = {

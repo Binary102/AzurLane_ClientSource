@@ -50,11 +50,13 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
-		slot0.viewComponent:updateFood(slot3)
+		slot0.viewComponent:setFoodVOs(getProxy(BagProxy):getItemsByType(3))
+		slot0.viewComponent:updateItems()
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayerVO(slot3)
 	elseif slot2 == DormProxy.DORM_UPDATEED then
-		slot0.viewComponent:setDormVO(slot0.dormProxy:getData())
+		slot0.viewComponent:setDormVO(slot4)
+		slot0.viewComponent:updateDorm(slot0.dormProxy:getData())
 	end
 end
 

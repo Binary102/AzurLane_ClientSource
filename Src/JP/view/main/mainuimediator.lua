@@ -22,7 +22,6 @@ slot0.OPEN_EVENT = "MainUIMediator:OPEN_EVENT"
 slot0.GO_SCENE = "MainUIMediator:OPEN_SCENE"
 slot0.OPEN_FRIEND = "MainUIMediator.OPEN_FRIEND"
 slot0.GO_MALL = "MainUIMediator:GO_MALL"
-slot0.OPEN_NOTICE = "MainUIMediator.OPEN_NOTICE"
 slot0.OPEN_COMMISSION_INFO = "MainUIMediator:OPEN_COMMISSION_INFO"
 slot0.OPEN_RANK = "MainUIMediator:OPEN_RANK"
 slot0.TMP_DEBUG = "MainUIMediator:TMP_DEBUG"
@@ -36,7 +35,6 @@ slot0.ON_VOTE = "MainUIMediator:ON_VOTE"
 slot0.ON_TOUCHSHIP = "MainUIMediator:ON_TOUCHSHIP"
 slot0.ON_LOTTERY = "MainUIMediator:ON_LOTTERY"
 slot0.OPEN_SCROLL = "MainUIMediator:OPEN_SCROLL"
-slot0.OPEN_COLORING = "MainUIMediator:OPEN_COLORING"
 slot0.ON_TASK_OPEN = "MainUIMediator:ON_TASK_OPEN"
 slot0.ON_ANNIVERSARY = "MainUIMediator:ON_ANNIVERSARY"
 slot0.ON_SUMMARY = "MainUIMediator:ON_SUMMARY"
@@ -44,6 +42,7 @@ slot0.ON_ACTIVITY_WOWS = "MainUIMediator:ON_ACTIVITY_WOWS"
 slot0.OPEN_SNAPSHOT = "MainUIMediator:OPEN_SNAPSHOT"
 slot0.OPEN_TRANINGCAMP = "MainUIMediator:OPEN_TRANINGCAMP"
 slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
+slot0.OPEN_BULLETINBOARD = "MainUIMediator:OPEN_BULLETINBOARD"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
 slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
@@ -81,6 +80,7 @@ function slot0.register(slot0)
 	slot0:updateMailAttachmentNotices()
 	slot0:updateBuildNotices()
 	slot0:navalAcademyNotices()
+	slot0:updateAttireTip()
 	slot0:updateCollectNotices()
 	slot0:updateChat()
 	slot0:updateFriendNotification()
@@ -88,6 +88,7 @@ function slot0.register(slot0)
 	slot0:updateEvent()
 	slot0:updateCommissionNotices()
 	slot0:updateSettingsNotice()
+	slot0:updateExSkinNotice()
 	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot14))
 	slot0:bind(slot0.ON_MONOPOLY, function (slot0)
 		slot0:addSubLayers(Context.New({
@@ -141,18 +142,6 @@ function slot0.register(slot0)
 				leftTopInfo = i18n("word_destroy"),
 				onShip = Ship.canDestroyShip
 			})
-		elseif slot1 == DockyardScene.MODE_UPGRADE then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-				prevFlag = false,
-				mode = slot1,
-				leftTopInfo = i18n("word_upgrade"),
-				onClick = function (slot0)
-					slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-						page = 2,
-						shipId = slot0.id
-					})
-				end
-			})
 		end
 	end)
 	slot0:bind(slot0.OPEN_LEVEL, function (slot0)
@@ -165,6 +154,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BIANDUI, {
 			fleetId = slot1
 		})
+	end)
+	slot0:bind(slot0.ON_SUMMARY, function ()
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SUMMARY)
 	end)
 	slot0:bind(slot0.OPEN_BACKYARD, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
@@ -200,12 +192,16 @@ function slot0.register(slot0)
 	slot0:bind(slot0.OPEN_MAIL, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = MailMediator,
-			viewComponent = MailLayer
+			viewComponent = MailLayer,
+			onRemoved = function ()
+				slot0.viewComponent:enablePartialBlur()
+			end
 		}))
 	end)
 	slot0:bind(slot0.TMP_DEBUG, function (slot0)
 		slot0:sendNotification(GAME.BEGIN_STAGE, {
-			system = SYSTEM_DEBUG
+			stageId = 1140201,
+			system = SYSTEM_SUBMARINE_RUN
 		})
 	end)
 	slot0:bind(slot0.OPEN_TASK, function (slot0)
@@ -217,6 +213,7 @@ function slot0.register(slot0)
 			viewComponent = NotificationLayer,
 			onRemoved = function ()
 				slot0:updateChat()
+				slot0.updateChat.viewComponent:enablePartialBlur()
 			end
 		}))
 	end)
@@ -240,7 +237,7 @@ function slot0.register(slot0)
 		end
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
-			index = BillboardLayer.PAGE_POWER
+			index = PowerRank.TYPE_POWER
 		})
 	end)
 	slot0:bind(slot0.OPEN_PLAYER_INFO_LAYER, function (slot0)
@@ -256,7 +253,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.GO_MALL, function ()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_ITEM
+			wrap = ChargeScene.TYPE_MENU
 		})
 	end)
 	slot0:bind(slot0.OPEN_EVENT, function (slot0)
@@ -268,7 +265,10 @@ function slot0.register(slot0)
 	slot0:bind(slot0.OPEN_COMMISSION_INFO, function (slot0)
 		slot0:addSubLayers(Context.New({
 			viewComponent = CommissionInfoLayer,
-			mediator = CommissionInfoMediator
+			mediator = CommissionInfoMediator,
+			onRemoved = function ()
+				slot0.viewComponent:enablePartialBlur()
+			end
 		}))
 	end)
 	slot0:bind(slot0.OPEN_SHOP_LAYER, function (slot0)
@@ -279,18 +279,6 @@ function slot0.register(slot0)
 				warp = ShopsLayer.TYPE_ACTIVITY
 			}
 		}))
-	end)
-	slot0:bind(slot0.OPEN_NOTICE, function (slot0)
-		if #getProxy(ServerNoticeProxy).getServerNotices(slot1, false) > 0 or isAiriJP() then
-			slot0:addSubLayers(Context.New({
-				mediator = ServerNoticeMediator,
-				viewComponent = ServerNoticeLayer
-			}), nil, function ()
-				slot0:updateSeverNotices()
-			end)
-		else
-			pg.TipsMgr:GetInstance():ShowTips(i18n("no_notice_tip"))
-		end
 	end)
 	slot0:bind(slot0.OPEN_MONTH_CARD_SET, function (slot0)
 		if getProxy(PlayerProxy).getRawData(slot1):getCardById(VipCard.MONTH) and not slot3:isExpire() then
@@ -303,20 +291,27 @@ function slot0.register(slot0)
 	slot0:bind(slot0.OPEN_SNAPSHOT, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SNAPSHOT, slot1)
 	end)
-	slot0:bind(slot0.ON_SUMMARY, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SUMMARY)
+	slot0:bind(slot0.OPEN_BULLETINBOARD, function (slot0, slot1)
+		if #getProxy(ServerNoticeProxy).getServerNotices(slot2, false) > 0 then
+			slot0:addSubLayers(Context.New({
+				mediator = BulletinBoardMediator,
+				viewComponent = BulletinBoardLayer,
+				onRemoved = function ()
+					slot0.viewComponent:enablePartialBlur()
+				end
+			}))
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("no_notice_tip"))
+		end
 	end)
 	slot0.viewComponent:updateActivityBtn(slot7:getActivityById(ActivityConst.UTAWARERU_ACTIVITY_PT_ID))
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0.viewComponent:updateActivityPtBtn(slot7:getActivityById(ActivityConst.MORAN_RE_PT_ID))
 	slot0.viewComponent:updateVoteBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE))
 	slot0.viewComponent:updateLotteryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY))
-	slot0.viewComponent:updateColoringBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA))
 	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
 	slot0.viewComponent:updateSummaryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
 	slot0.viewComponent:updateBossBattleBtn(slot7:getActivityById(ActivityConst.BOSS_BATTLE_AISAIKESI))
-	slot0.viewComponent:updateBlackWhitBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE))
-	slot0.viewComponent:updateMemoryBookBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 	slot0:bind(slot0.ON_BLACKWHITE, function ()
 		slot0.viewComponent:disableTraningCampAndRefluxTip()
 		slot0.viewComponent.disableTraningCampAndRefluxTip:addSubLayers(Context.New({
@@ -431,9 +426,12 @@ function slot0.register(slot0)
 			end
 		end
 	end)
-	slot0:bind(slot0.OPEN_COLORING, function (slot0)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COLORING)
-	end)
+
+	if getProxy(MailProxy).total >= 1000 then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_2"))
+	elseif slot18.total >= 950 then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_1", slot18.total))
+	end
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -459,6 +457,7 @@ function slot0.onBluePrintNotify(slot0)
 		if slot9 and not slot0.DontNotifyBluePrintTaskAgain then
 			pg.MsgboxMgr:GetInstance():ShowMsgBox({
 				content = i18n("blueprint_task_update_tip", slot7:getShipVO():getConfig("name")),
+				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function ()
 					slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
 				end,
@@ -468,6 +467,12 @@ function slot0.onBluePrintNotify(slot0)
 			})
 		end
 	end
+end
+
+function slot0.updateAttireTip(slot0)
+	slot0.viewComponent:updateAttireBtn(_.any(getProxy(AttireProxy):needTip(), function (slot0)
+		return slot0 == true
+	end))
 end
 
 function slot0.navalAcademyNotices(slot0)
@@ -579,6 +584,18 @@ function slot0.updateSettingsNotice(slot0)
 	slot0.viewComponent:updateSettingsNotice(slot0.CanUpdateCV)
 end
 
+function slot0.updateExSkinNotice(slot0)
+	slot0.viewComponent:updateExSkinBtn(_.select(_.values(slot2), function (slot0)
+		return slot0:isExpireType() and not slot0:isExpired()
+	end))
+end
+
+function slot0.updateExSkinOverDue(slot0)
+	if #getProxy(ShipSkinProxy).getOverDueSkins(slot1) > 0 then
+		slot0.viewComponent:showOverDueExSkins(slot2)
+	end
+end
+
 function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
@@ -616,7 +633,10 @@ function slot0.listNotificationInterests(slot0)
 		GAME.FETCH_NPC_SHIP_DONE,
 		GAME.MAINUI_ACT_BTN_DONE,
 		NewShipMediator.OPEN,
+		GAME.OPEN_MSGBOX_DONE,
+		GAME.CLOSE_MSGBOX_DONE,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
+		GAME.HANDLE_OVERDUE_ATTIRE_DONE,
 		PERMISSION_GRANTED,
 		PERMISSION_REJECT,
 		PERMISSION_NEVER_REMIND
@@ -684,6 +704,8 @@ function slot0.handleNotification(slot0, slot1)
 			setActive(slot0.viewComponent.effectTF, slot0.viewComponent.flagShip and slot0.viewComponent.flagShip.propose)
 		elseif slot3.context.mediator == ServerNoticeMediator then
 			slot0:tryPlayGuide()
+		elseif slot3.context.mediator == CommissionInfoMediator then
+			slot0.viewComponent:resetCommissionBtn()
 		end
 
 		slot0.viewComponent:updateTraningCampBtn()
@@ -707,6 +729,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:notifyActivitySummary(slot3.cnt, slot3.priority)
 	elseif slot2 == NewShipMediator.OPEN then
 		slot0.viewComponent:stopCurVoice()
+	elseif slot2 == GAME.OPEN_MSGBOX_DONE then
+	elseif slot2 == GAME.CLOSE_MSGBOX_DONE then
+	elseif slot2 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
+		slot0:onBluePrintNotify()
 	elseif PERMISSION_GRANTED == slot2 then
 		if slot3 == ANDROID_CAMERA_PERMISSION then
 			slot0.viewComponent:openSnapShot()
@@ -722,17 +748,15 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			})
 		end
-	elseif PERMISSION_NEVER_REMIND then
-		if slot3 == ANDROID_CAMERA_PERMISSION then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
-				content = i18n("apply_permission_camera_tip2"),
-				onYes = function ()
-					OpenDetailSetting()
-				end
-			})
-		end
-	elseif slot2 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
-		slot0:onBluePrintNotify()
+	elseif slot2 == GAME.HANDLE_OVERDUE_ATTIRE_DONE then
+		slot0.viewComponent:showOverDueAttire(slot3)
+	elseif PERMISSION_NEVER_REMIND and slot3 == ANDROID_CAMERA_PERMISSION then
+		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			content = i18n("apply_permission_camera_tip2"),
+			onYes = function ()
+				OpenDetailSetting()
+			end
+		})
 	end
 end
 
@@ -750,7 +774,7 @@ end
 function slot0.handleEnterMainUI(slot0)
 	slot0:updateSeverNotices()
 
-	if pg.GuideMgr2.ENABLE_GUIDE == false then
+	if pg.SeriesGuideMgr:GetInstance():isEnd() then
 		slot1 = nil
 
 		function slot2()
@@ -764,9 +788,9 @@ function slot0.handleEnterMainUI(slot0)
 				onNextTick(onNextTick)
 			end)
 			coroutine.yield()
-			coroutine.yield:checkBillboardList()
-			coroutine.yield.checkBillboardList:accepetActivityTask()
-			coroutine.yield.checkBillboardList.accepetActivityTask:tryRequestColoring()
+			coroutine.yield:handleReturnAwardAct()
+			coroutine.yield.handleReturnAwardAct:accepetActivityTask()
+			coroutine.yield.handleReturnAwardAct.accepetActivityTask:tryRequestColoring()
 
 			if getProxy(ActivityProxy):findNextAutoActivity() then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)
@@ -784,8 +808,8 @@ function slot0.handleEnterMainUI(slot0)
 				slot3.__autoPopped = true
 
 				slot0:addSubLayers(Context.New({
-					mediator = ServerNoticeMediator,
-					viewComponent = ServerNoticeLayer
+					mediator = BulletinBoardMediator,
+					viewComponent = BulletinBoardLayer
 				}))
 			else
 				slot0:tryPlayGuide()
@@ -804,6 +828,8 @@ function slot0.handleEnterMainUI(slot0)
 			getProxy(TaskProxy).pushAutoSubmitTask(slot5)
 			slot0:handlingSpecialActs()
 			slot0:handlingActivityBtn()
+			slot0:handleOverdueAttire()
+			slot0:updateExSkinOverDue()
 		end))
 	end
 end
@@ -898,7 +924,7 @@ function slot0.tryPlayGuide(slot0)
 	slot4 = true
 
 	if getProxy(TaskProxy):getTaskById(10302) and slot1:isFinish() and not slot1:isReceive() and slot2:isEmpty() then
-		pg.GuideMgr:GetInstance():play("NG002", (_.any(getProxy(BayProxy):getShips(), function (slot0)
+		pg.StoryMgr:GetInstance():PlayGuide("NG002", (_.any(getProxy(BayProxy):getShips(), function (slot0)
 			return slot0 and slot0.configId == 308031
 		end) and {}) or {
 			1
@@ -908,13 +934,13 @@ function slot0.tryPlayGuide(slot0)
 	end
 
 	if slot4 and slot0.viewComponent.openTraningCamp then
-		pg.GuideMgr:GetInstance():play("NG004", {})
+		pg.StoryMgr:GetInstance():PlayGuide("NG004", {})
 
 		slot4 = pg.GuideMgr:GetInstance():isPlayed("NG004")
 	end
 
 	if slot4 and getProxy(PlayerProxy):getData().level >= 40 then
-		pg.GuideMgr:GetInstance():play("NG005", {})
+		pg.StoryMgr:GetInstance():PlayGuide("NG005", {})
 
 		slot4 = pg.GuideMgr:GetInstance():isPlayed("NG005")
 	end
@@ -946,6 +972,7 @@ function slot0.tryRequestVersion(slot0)
 					modal = true,
 					hideNo = true,
 					content = i18n("new_version_tip"),
+					weight = LayerWeightConst.TOP_LAYER,
 					onYes = function ()
 						Application.Quit()
 					end,
@@ -996,15 +1023,8 @@ function slot0.storyStorageFix(slot0)
 	end
 
 	slot0.StoryFixedOnce = true
+	slot2 = getProxy(BayProxy)
 	slot3 = slot0:getFixStoryByStoryId({
-		"XINGCHEN1",
-		"XINGCHEN2",
-		"XINGCHEN3",
-		"XINGCHEN4",
-		"XINGCHEN5",
-		"XINGCHEN6",
-		"XINGCHEN7"
-	}, slot0:getFixStoryByStoryId({
 		"WANSHENGJIE1",
 		"WANSHENGJIE2",
 		"WANSHENGJIE3",
@@ -1012,7 +1032,7 @@ function slot0.storyStorageFix(slot0)
 		"WANSHENGJIE5",
 		"WANSHENGJIE6",
 		"WANSHENGJIE7"
-	}, slot0:getFixStoryList(5031, 5037, slot0:getFixStoryList(5001, 5020, {}))), getProxy(BayProxy):hasSkin(206031))
+	}, slot0:getFixStoryList(5031, 5037, slot0:getFixStoryList(5001, 5020, {})))
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) and not slot4:isEnd() then
 		slot6 = getProxy(PlayerProxy).getRawData(slot5)
@@ -1103,12 +1123,6 @@ function slot0.getFixStoryList(slot0, slot1, slot2, slot3)
 	return slot3
 end
 
-function slot0.checkBillboardList(slot0)
-	getProxy(MilitaryExerciseProxy):checkAndBuildRankMsg()
-
-	return
-end
-
 function slot0.accepetActivityTask(slot0)
 	slot0:sendNotification(GAME.ACCEPT_ACTIVITY_TASK)
 
@@ -1133,6 +1147,29 @@ end
 
 function slot0.handlingActivityBtn(slot0)
 	slot0:sendNotification(GAME.MAINUI_ACT_BTN)
+
+	return
+end
+
+function slot0.remove(slot0)
+	slot0.viewComponent:disablePartialBlur()
+
+	return
+end
+
+function slot0.handleReturnAwardAct(slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD) and not slot1:isEnd() and getProxy(PlayerProxy):getRawData().level >= 15 and (slot1.data1 == 0 or (slot1.data1 == 1 and slot1.data2 == 0)) then
+		slot0:sendNotification(GAME.RETURN_AWARD_OP, {
+			activity_id = slot1.id,
+			cmd = ActivityConst.RETURN_AWARD_OP_ACTIVTION
+		})
+	end
+
+	return
+end
+
+function slot0.handleOverdueAttire(slot0)
+	slot0:sendNotification(GAME.HANDLE_OVERDUE_ATTIRE)
 
 	return
 end

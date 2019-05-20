@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=30>第六話  交錯</size>",
+					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第六話  交錯</size>",
 					1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -128,7 +128,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -157,7 +157,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 20,
+					x = 30,
 					number = 2
 				}
 			}
@@ -283,7 +283,7 @@ return {
 			},
 			action = {
 				{
-					y = 20,
+					y = 30,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.1,

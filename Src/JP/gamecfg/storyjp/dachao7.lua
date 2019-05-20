@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大潮よりお届け♪\n\n<size=30>七　これからもよろしゅうな～</size>",
+					"大潮よりお届け♪\n\n<size=45>七　これからもよろしゅうな～</size>",
 					1
 				}
 			}
@@ -292,19 +292,19 @@ return {
 				{
 					actor = 301640,
 					pos = {
-						x = -250
+						x = -375
 					}
 				},
 				{
 					actor = 301660,
 					pos = {
-						x = 250
+						x = 375
 					}
 				},
 				{
 					actor = 301650,
 					pos = {
-						x = 500
+						x = 750
 					}
 				}
 			},

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"小さな出来事\n\n<size=30>七　暖かさ</size>",
+					"小さな出来事\n\n<size=45>七　暖かさ</size>",
 					1
 				}
 			}
@@ -132,7 +132,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -276,7 +276,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅-日常編\n\n<size=30>その四　おねえさまへ…</size>",
+					"夢幻の邂逅-日常編\n\n<size=45>その四　おねえさまへ…</size>",
 					1
 				}
 			}
@@ -292,7 +292,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

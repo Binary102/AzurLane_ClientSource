@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"人見知りの黒猫\n\n<size=30>三 初春、頑張って！</size>",
+					"人見知りの黒猫\n\n<size=45>三 初春、頑張って！</size>",
 					1
 				}
 			}
@@ -118,7 +118,7 @@ return {
 					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
-					x = 30,
+					x = 45,
 					number = 1
 				}
 			}
@@ -208,7 +208,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = -2500
+					x = -3750
 				}
 			}
 		},
@@ -229,7 +229,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -255,7 +255,7 @@ return {
 			},
 			action = {
 				{
-					y = -2000,
+					y = -3000,
 					type = "move",
 					delay = 0.5,
 					dur = 1,
@@ -392,7 +392,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -462,7 +462,7 @@ return {
 			},
 			action = {
 				{
-					y = 45,
+					y = 67.5,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -485,7 +485,7 @@ return {
 				{
 					actor = 301240,
 					pos = {
-						x = 689
+						x = 1033.5
 					}
 				}
 			},

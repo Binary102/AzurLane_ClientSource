@@ -17,10 +17,8 @@ return {
 			arg_list = {
 				quota = 1,
 				target = "TargetTemplate",
+				hpUpperBound = 0.3,
 				skill_id = 11010,
-				hpRatioList = {
-					0.3
-				},
 				targetTemplateIDList = {
 					105131,
 					105132,

@@ -321,10 +321,12 @@ function slot0.isValid(slot0)
 	return false
 end
 
-function slot0.getCost(slot0)
-	_.each(slot3, function (slot0)
+function slot0.getCost(slot0, slot1)
+	slot1 = slot1 or 1
+
+	_.each(slot4, function (slot0)
 		slot0.oil = slot0.oil + slot0:getStartBattleExpend()
-		slot0.oil = slot1.oil + slot0:getEndBattleExpend()
+		slot0.oil = slot1.oil + slot0:getEndBattleExpend() * slot1.oil + slot0:getStartBattleExpend() * (slot2 - 1)
 	end)
 
 	return {

@@ -48,13 +48,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.GUILD_FIRE_DONE then
 		slot0.viewComponent:reloadPainting()
 	elseif slot2 == GAME.FRIEND_SEARCH_DONE then
-		slot0:addSubLayers(Context.New({
-			mediator = resumeMediator,
-			viewComponent = resumeLayer,
-			data = {
-				player = slot3.list[1]
-			}
-		}))
+		slot0.viewComponent:showInfoPanel(slot3.list[1])
 	end
 end
 

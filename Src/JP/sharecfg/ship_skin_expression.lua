@@ -5207,6 +5207,37 @@ pg.ship_skin_expression = {
 		battle = "",
 		login = "",
 		detail = "1"
+	},
+	mingshi_4 = {
+		default = "",
+		feeling3 = "4",
+		main_1 = "4",
+		touch = "4",
+		expedition = "",
+		win_mvp = "3",
+		home = "4",
+		unlock = "",
+		touch2 = "1",
+		mail = "",
+		painting = "mingshi_4",
+		mission = "",
+		main_2 = "2",
+		lose = "2",
+		main_3 = "3",
+		feeling1 = "2",
+		profile = "",
+		feeling4 = "3",
+		feeling5 = "1",
+		propose = "1",
+		hp_warning = "",
+		upgrade = "1",
+		mission_complete = "3",
+		headtouch = "",
+		feeling2 = "",
+		skill = "",
+		battle = "2",
+		login = "",
+		detail = ""
 	}
 }
 

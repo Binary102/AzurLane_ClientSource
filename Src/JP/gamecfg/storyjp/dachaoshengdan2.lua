@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"オペレーション・クリスマス！\n\n<size=30>二　お土産は地元らしく</size>",
+					"オペレーション・クリスマス！\n\n<size=45>二　お土産は地元らしく</size>",
 					1
 				}
 			}
@@ -74,7 +74,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
@@ -235,7 +235,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -379,7 +379,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}

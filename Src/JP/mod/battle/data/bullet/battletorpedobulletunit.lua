@@ -20,6 +20,14 @@ function slot2.SetExplodePosition(slot0, slot1)
 	slot0._explodePos = slot1
 end
 
+function slot2.InitCldComponent(slot0)
+	slot0.super.InitCldComponent(slot0)
+
+	if slot0._tempData.extra_param.diveFilter and #slot1 == 0 then
+		slot0:GetCldData().Surface = slot1.Battle.BattleConst.OXY_STATE.DIVE
+	end
+end
+
 function slot2.Hit(slot0, slot1, slot2)
 	slot0.super.Hit(slot0, slot1, slot2)
 

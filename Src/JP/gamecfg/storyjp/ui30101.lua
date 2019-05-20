@@ -168,7 +168,7 @@ return {
 				{
 					actor = 107070,
 					pos = {
-						x = -550
+						x = -825
 					}
 				}
 			},
@@ -208,7 +208,7 @@ return {
 			sequence = {
 				{
 					[[
-          第三章   運命の五分間 <size=23>Five minutes of fate</size> 
+          第三章   運命の五分間 <size=34.5>Five minutes of fate</size> 
 
 
 

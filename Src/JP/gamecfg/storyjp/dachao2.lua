@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"大潮よりお届け♪\n\n<size=30>二　女の子が好き？</size>",
+					"大潮よりお届け♪\n\n<size=45>二　女の子が好き？</size>",
 					1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

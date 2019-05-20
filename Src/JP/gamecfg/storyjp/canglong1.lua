@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"蒼龍さんと一緒\n\n<size=30>一 自業自得？</size>",
+					"蒼龍さんと一緒\n\n<size=45>一 自業自得？</size>",
 					1
 				}
 			}

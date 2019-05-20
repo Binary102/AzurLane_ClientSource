@@ -217,7 +217,8 @@ function slot0.setMode(slot0)
 
 	if not slot0.isVisitMode then
 		onButton(slot0, slot0.helpBtn, function ()
-			pg.MsgboxMgr.GetInstance():ShowHelpWindow({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip.help_backyard.tip
 			})
 
@@ -265,7 +266,7 @@ function slot0.setMode(slot0)
 			return
 		end, SFX_PANEL)
 		onButton(slot0, slot0.shareBtn, function ()
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeBackyard)
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeBackyard, pg.ShareMgr.PANEL_TYPE_PINK)
 
 			return
 		end, SFX_PANEL)

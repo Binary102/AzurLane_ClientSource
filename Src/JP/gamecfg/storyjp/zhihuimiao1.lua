@@ -36,14 +36,14 @@ return {
 				time = 1
 			},
 			actorPosition = {
-				x = -500,
+				x = -750,
 				y = 0
 			},
 			action = {
 				{
 					y = 0,
 					dur = 0.5,
-					x = 500,
+					x = 750,
 					type = "move"
 				}
 			}

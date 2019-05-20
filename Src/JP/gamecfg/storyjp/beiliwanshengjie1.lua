@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"悪戯ハロウィン\n\n<size=30>一 迷子お化けを探し出そう！</size>",
+					"悪戯ハロウィン\n\n<size=45>一 迷子お化けを探し出そう！</size>",
 					1
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
@@ -175,7 +175,7 @@ return {
 					dir = 1,
 					actor = 306051,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -282,7 +282,7 @@ return {
 					dir = 1,
 					actor = 301171,
 					pos = {
-						x = 687
+						x = 1030.5
 					}
 				}
 			},
@@ -340,7 +340,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,
@@ -380,14 +380,14 @@ return {
 				{
 					actor = 301171,
 					pos = {
-						x = 370
+						x = 555
 					}
 				},
 				{
 					actor = 102091,
 					dir = -1,
 					pos = {
-						x = 750
+						x = 1125
 					}
 				}
 			},

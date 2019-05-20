@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"セントーと先輩たち\n\n<size=30>一　憧れの先輩へ</size>",
+					"セントーと先輩たち\n\n<size=45>一　憧れの先輩へ</size>",
 					1
 				}
 			}
@@ -151,7 +151,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -241,7 +241,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			},
@@ -269,7 +269,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -349,7 +349,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -412,7 +412,7 @@ return {
 				{
 					actor = 206010,
 					pos = {
-						x = -450
+						x = -675
 					}
 				}
 			},
@@ -426,7 +426,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.1,
@@ -438,7 +438,7 @@ return {
 					type = "move",
 					delay = 0.5,
 					dur = 1,
-					x = 1500
+					x = 2250
 				}
 			}
 		},

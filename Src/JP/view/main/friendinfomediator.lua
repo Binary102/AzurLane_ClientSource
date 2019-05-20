@@ -8,10 +8,11 @@ slot0.INFORM = "FriendInfoMediator:INFORM"
 function slot0.register(slot0)
 	slot0.viewComponent:setFriend(slot1)
 	slot0:bind(slot0.OPEND_FRIEND, function (slot0)
-		pg.MsgboxMgr.GetInstance():ShowInputBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
 			yesText = "text_apply",
 			limit = 20,
+			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("friend_request_msg_placeholder"),
 			title = i18n("friend_request_msg_title"),
 			parent = slot0.contextData.parent,
@@ -29,7 +30,8 @@ function slot0.register(slot0)
 			viewComponent = resumeLayer,
 			data = {
 				player = slot1,
-				parent = slot0.contextData.parent
+				parent = slot0.contextData.parent,
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 			}
 		}))
 	end)

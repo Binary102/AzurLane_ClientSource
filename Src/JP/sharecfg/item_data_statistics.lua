@@ -3569,7 +3569,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15008] = {
-		display = "認識覚醒に用いられるメンタルキューブの技術転用ユニット。<color=#A9F548>レベルが100以上、かつ限界突破を3回行なった</color>艦のレベル上限を解放できます",
+		display = "認識覚醒に用いられるメンタルキューブの技術転用ユニット。<color=#92fc63>レベルが100以上、かつ限界突破を3回行なった</color>艦のレベル上限を解放できます",
 		rarity = 4,
 		type = 1,
 		name = "メンタルユニット",
@@ -3585,7 +3585,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[15009] = {
-		display = "指揮官名を変更する時に使われる申請状。指揮官名は<color=#A9F548>30日</color>に一度しか変更できません。\n指揮官詳細画面の名前変更ボタンで指揮官名を変更できます。 ",
+		display = "指揮官名を変更する時に使われる申請状。指揮官名は<color=#92fc63>30日</color>に一度しか変更できません。\n指揮官詳細画面の名前変更ボタンで指揮官名を変更できます。 ",
 		rarity = 5,
 		type = 1,
 		name = "指揮官名変更申請状 ",
@@ -3617,7 +3617,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16001] = {
-		display = "攻撃スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#fad545>6つ</color>で<color=#966af6>攻撃教科書T2</color>に合成可能",
+		display = "攻撃スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#ffde38>6つ</color>で<color=#d797ff>攻撃教科書T2</color>に合成可能",
 		rarity = 2,
 		type = 10,
 		name = "攻撃教科書T1",
@@ -3665,7 +3665,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16011] = {
-		display = "防御スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#fad545>6つ</color>で<color=#966af6>防御教科書T2</color>に合成可能",
+		display = "防御スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#ffde38>6つ</color>で<color=#d797ff>防御教科書T2</color>に合成可能",
 		rarity = 2,
 		type = 10,
 		name = "防御教科書T1",
@@ -3713,7 +3713,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[16021] = {
-		display = "支援スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#fad545>6つ</color>で<color=#966af6>支援教科書T2</color>に合成可能",
+		display = "支援スキル強化用の教科書T1、戦術教室でスキルを強化可能\n*<color=#ffde38>6つ</color>で<color=#d797ff>支援教科書T2</color>に合成可能",
 		rarity = 2,
 		type = 10,
 		name = "支援教科書T1",
@@ -4062,7 +4062,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18001] = {
-		display = "駆逐艦の改造に使う改造図\n*<color=#fad545>6つ</color>で<color=#966af6>駆逐改造図T2</color>に合成可能",
+		display = "駆逐艦の改造に使う改造図\n*<color=#ffde38>6つ</color>で<color=#d797ff>駆逐改造図T2</color>に合成可能",
 		rarity = 2,
 		type = 7,
 		name = "駆逐改造図T1",
@@ -4110,7 +4110,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18011] = {
-		display = "巡洋艦の改造に使う改造図\n*<color=#fad545>6つ</color>で<color=#966af6>巡洋改造図T2</color>に合成可能",
+		display = "巡洋艦の改造に使う改造図\n*<color=#ffde38>6つ</color>で<color=#d797ff>巡洋改造図T2</color>に合成可能",
 		rarity = 2,
 		type = 7,
 		name = "巡洋改造図T1",
@@ -4158,7 +4158,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18021] = {
-		display = "戦艦の改造に使う改造図\n*<color=#fad545>6つ</color>で<color=#966af6>戦艦改造図T2</color>に合成可能",
+		display = "戦艦の改造に使う改造図\n*<color=#ffde38>6つ</color>で<color=#d797ff>戦艦改造図T2</color>に合成可能",
 		rarity = 2,
 		type = 7,
 		name = "戦艦改造図T1",
@@ -4206,7 +4206,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[18031] = {
-		display = "空母の改造に使う改造図\n*<color=#fad545>6つ</color>で<color=#966af6>空母改造図T2</color>に合成可能",
+		display = "空母の改造に使う改造図\n*<color=#ffde38>6つ</color>で<color=#d797ff>空母改造図T2</color>に合成可能",
 		rarity = 2,
 		type = 7,
 		name = "空母改造図T1",
@@ -4330,7 +4330,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30001] = {
-		display = "潜水艦装備がランダムで1つ出現する：\n低確率で<color=#60a9ff>レア装備</color>が出現する\n高確率でノーマル装備が出現する",
+		display = "潜水艦装備がランダムで1つ出現する：\n低確率で<color=#3dc6ff>レア装備</color>が出現する\n高確率でノーマル装備が出現する",
 		rarity = 2,
 		type = 5,
 		name = "初級潜水艦隊装備補給箱",
@@ -4349,7 +4349,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30011] = {
-		display = "ユニオン装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#fad545>5つ</color>で<color=#60a9ff>クロキッド装備箱T2</color>に合成可能",
+		display = "ユニオン装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#ffde38>5つ</color>で<color=#3dc6ff>クロキッド装備箱T2</color>に合成可能",
 		rarity = 1,
 		type = 5,
 		name = "クロキッド装備箱T1",
@@ -4370,9 +4370,9 @@ pg.item_data_statistics = {
 	[30012] = {
 		display = [[
 ユニオン装備がランダムで一つ出現する：
-低確率で<color=#60a9ff>レア装備</color>が出現する
+低確率で<color=#3dc6ff>レア装備</color>が出現する
 高確率でノーマル装備が出現する
-*<color=#fad545>5つ</color>で<color=#966af6>クロキッド装備箱T3</color>に合成可能]],
+*<color=#ffde38>5つ</color>で<color=#d797ff>クロキッド装備箱T3</color>に合成可能]],
 		rarity = 2,
 		type = 5,
 		name = "クロキッド装備箱T2",
@@ -4391,7 +4391,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30013] = {
-		display = "ユニオン装備がランダムで一つ出現する：\n低確率で<color=#966af6>Sレア装備</color>が出現する\n高確率で<color=#60a9ff>レア装備</color>が出現する",
+		display = "ユニオン装備がランダムで一つ出現する：\n低確率で<color=#d797ff>Sレア装備</color>が出現する\n高確率で<color=#3dc6ff>レア装備</color>が出現する",
 		rarity = 3,
 		type = 5,
 		name = "クロキッド装備箱T3",
@@ -4410,7 +4410,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30014] = {
-		display = "ユニオン装備がランダムで一つ出現する：\n低確率で<color=#fff157>SSレア装備</color>が出現する\n高確率で<color=#966af6>Sレア装備</color>が出現する",
+		display = "ユニオン装備がランダムで一つ出現する：\n低確率で<color=#ffde38>SSレア装備</color>が出現する\n高確率で<color=#d797ff>Sレア装備</color>が出現する",
 		rarity = 4,
 		type = 5,
 		name = "クロキッド装備箱T4",
@@ -4429,7 +4429,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30015] = {
-		display = "ユニオン装備がランダムで一つ出現する：\n<color=#fff157>SSレア装備</color>が出現する",
+		display = "ユニオン装備がランダムで一つ出現する：\n<color=#ffde38>SSレア装備</color>が出現する",
 		rarity = 5,
 		type = 5,
 		name = "クロキッド装備箱T5",
@@ -4448,7 +4448,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30021] = {
-		display = "ロイヤル装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#fad545>5つ</color>で<color=#60a9ff>ヴィスカー装備箱T2</color>に合成可能",
+		display = "ロイヤル装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#ffde38>5つ</color>で<color=#3dc6ff>ヴィスカー装備箱T2</color>に合成可能",
 		rarity = 1,
 		type = 5,
 		name = "ヴィスカー装備箱T1",
@@ -4469,9 +4469,9 @@ pg.item_data_statistics = {
 	[30022] = {
 		display = [[
 ロイヤル装備がランダムで一つ出現する：
-低確率で<color=#60a9ff>レア装備</color>が出現する
+低確率で<color=#3dc6ff>レア装備</color>が出現する
 高確率でノーマル装備が出現する
-*<color=#fad545>5つ</color>で<color=#966af6>ヴィスカー装備箱T3</color>に合成可能]],
+*<color=#ffde38>5つ</color>で<color=#d797ff>ヴィスカー装備箱T3</color>に合成可能]],
 		rarity = 2,
 		type = 5,
 		name = "ヴィスカー装備箱T2",
@@ -4490,7 +4490,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30023] = {
-		display = "ロイヤル装備がランダムで一つ出現する：\n低確率で<color=#966af6>Sレア装備</color>が出現する\n高確率で<color=#60a9ff>レア装備</color>が出現する",
+		display = "ロイヤル装備がランダムで一つ出現する：\n低確率で<color=#d797ff>Sレア装備</color>が出現する\n高確率で<color=#3dc6ff>レア装備</color>が出現する",
 		rarity = 3,
 		type = 5,
 		name = "ヴィスカー装備箱T3",
@@ -4509,7 +4509,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30024] = {
-		display = "ロイヤル装備がランダムで一つ出現する：\n低確率で<color=#fff157>SSレア装備</color>が出現する\n高確率で<color=#966af6>Sレア装備</color>が出現する",
+		display = "ロイヤル装備がランダムで一つ出現する：\n低確率で<color=#ffde38>SSレア装備</color>が出現する\n高確率で<color=#d797ff>Sレア装備</color>が出現する",
 		rarity = 4,
 		type = 5,
 		name = "ヴィスカー装備箱T4",
@@ -4528,7 +4528,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30025] = {
-		display = "ロイヤル装備がランダムで一つ出現する：\n<color=#fff157>SSレア装備</color>が出現する",
+		display = "ロイヤル装備がランダムで一つ出現する：\n<color=#ffde38>SSレア装備</color>が出現する",
 		rarity = 5,
 		type = 5,
 		name = "ヴィスカー装備箱T5",
@@ -4547,7 +4547,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30031] = {
-		display = "重桜装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#fad545>5つ</color>で<color=#60a9ff>蔵王重工装備箱T2</color>に合成可能",
+		display = "重桜装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#ffde38>5つ</color>で<color=#3dc6ff>蔵王重工装備箱T2</color>に合成可能",
 		rarity = 1,
 		type = 5,
 		name = "蔵王重工装備箱T1",
@@ -4568,9 +4568,9 @@ pg.item_data_statistics = {
 	[30032] = {
 		display = [[
 重桜装備がランダムで一つ出現する：
-低確率で<color=#60a9ff>レア装備</color>が出現する
+低確率で<color=#3dc6ff>レア装備</color>が出現する
 高確率でノーマル装備が出現する
-*<color=#fad545>5つ</color>で<color=#966af6>蔵王重工装備箱T3</color>に合成可能]],
+*<color=#ffde38>5つ</color>で<color=#d797ff>蔵王重工装備箱T3</color>に合成可能]],
 		rarity = 2,
 		type = 5,
 		name = "蔵王重工装備箱T2",
@@ -4589,7 +4589,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30033] = {
-		display = "重桜装備がランダムで一つ出現する：\n低確率で<color=#966af6>Sレア装備</color>が出現する\n高確率で<color=#60a9ff>レア装備</color>が出現する",
+		display = "重桜装備がランダムで一つ出現する：\n低確率で<color=#d797ff>Sレア装備</color>が出現する\n高確率で<color=#3dc6ff>レア装備</color>が出現する",
 		rarity = 3,
 		type = 5,
 		name = "蔵王重工装備箱T3",
@@ -4608,7 +4608,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30034] = {
-		display = "重桜装備がランダムで一つ出現する：\n低確率で<color=#fff157>SSレア装備</color>が出現する\n高確率で<color=#966af6>Sレア装備</color>が出現する",
+		display = "重桜装備がランダムで一つ出現する：\n低確率で<color=#ffde38>SSレア装備</color>が出現する\n高確率で<color=#d797ff>Sレア装備</color>が出現する",
 		rarity = 4,
 		type = 5,
 		name = "蔵王重工装備箱T4",
@@ -4627,7 +4627,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30035] = {
-		display = "重桜装備がランダムで一つ出現する：\n<color=#fff157>SSレア装備</color>が出現する",
+		display = "重桜装備がランダムで一つ出現する：\n<color=#ffde38>SSレア装備</color>が出現する",
 		rarity = 5,
 		type = 5,
 		name = "蔵王重工装備箱T5",
@@ -4646,7 +4646,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30041] = {
-		display = "鉄血装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#fad545>5つ</color>で<color=#60a9ff>クラップ装備箱T2</color>に合成可能",
+		display = "鉄血装備がランダムで一つ出現する：\nノーマル装備が出現する\n*<color=#ffde38>5つ</color>で<color=#3dc6ff>クラップ装備箱T2</color>に合成可能",
 		rarity = 1,
 		type = 5,
 		name = "クラップ装備箱T1",
@@ -4667,9 +4667,9 @@ pg.item_data_statistics = {
 	[30042] = {
 		display = [[
 鉄血装備がランダムで一つ出現する：
-低確率で<color=#60a9ff>レア装備</color>が出現する
+低確率で<color=#3dc6ff>レア装備</color>が出現する
 高確率でノーマル装備が出現する
-*<color=#fad545>5つ</color>で<color=#966af6>クラップ装備箱T3</color>に合成可能]],
+*<color=#ffde38>5つ</color>で<color=#d797ff>クラップ装備箱T3</color>に合成可能]],
 		rarity = 2,
 		type = 5,
 		name = "クラップ装備箱T2",
@@ -4688,7 +4688,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30043] = {
-		display = "鉄血装備がランダムで一つ出現する：\n低確率で<color=#966af6>Sレア装備</color>が出現する\n高確率で<color=#60a9ff>レア装備</color>が出現する",
+		display = "鉄血装備がランダムで一つ出現する：\n低確率で<color=#d797ff>Sレア装備</color>が出現する\n高確率で<color=#3dc6ff>レア装備</color>が出現する",
 		rarity = 3,
 		type = 5,
 		name = "クラップ装備箱T3",
@@ -4707,7 +4707,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30044] = {
-		display = "鉄血装備がランダムで一つ出現する：\n低確率で<color=#fff157>SSレア装備</color>が出現する\n高確率で<color=#966af6>Sレア装備</color>が出現する",
+		display = "鉄血装備がランダムで一つ出現する：\n低確率で<color=#ffde38>SSレア装備</color>が出現する\n高確率で<color=#d797ff>Sレア装備</color>が出現する",
 		rarity = 4,
 		type = 5,
 		name = "クラップ装備箱T4",
@@ -4726,7 +4726,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30045] = {
-		display = "鉄血装備がランダムで一つ出現する：\n<color=#fff157>SSレア装備</color>が出現する",
+		display = "鉄血装備がランダムで一つ出現する：\n<color=#ffde38>SSレア装備</color>が出現する",
 		rarity = 5,
 		type = 5,
 		name = "クラップ装備箱T5",
@@ -4745,7 +4745,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[30103] = {
-		display = "鉄血装備がランダムで一つ出現する：\n<color=#fff157>SSレア装備</color>が出現する",
+		display = "鉄血装備がランダムで一つ出現する：\n<color=#ffde38>SSレア装備</color>が出現する",
 		rarity = 3,
 		type = 5,
 		name = "T3パーツ箱",
@@ -17933,7 +17933,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42001] = {
-		display = "ロイヤル巡洋艦「ネプチューン」の強化ユニット。\n<color=#A9F548>「ネプチューン」開発完了後、「開発ドック」で「ネプチューン」の性能を強化できる。</color> ",
+		display = "ロイヤル巡洋艦「ネプチューン」の強化ユニット。\n<color=#92fc63>「ネプチューン」開発完了後、「開発ドック」で「ネプチューン」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「ネプチューン」 ",
@@ -17949,7 +17949,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42002] = {
-		display = "ロイヤル戦艦「モナーク」の強化ユニット。\n<color=#A9F548>「モナーク」開発完了後、「開発ドック」で「モナーク」の性能を強化できる。</color> ",
+		display = "ロイヤル戦艦「モナーク」の強化ユニット。\n<color=#92fc63>「モナーク」開発完了後、「開発ドック」で「モナーク」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「モナーク」",
@@ -17965,7 +17965,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42003] = {
-		display = "重桜巡洋艦「伊吹」の強化ユニット。\n<color=#A9F548>「伊吹」開発完了後、「開発ドック」で「伊吹」の性能を強化できる。</color>",
+		display = "重桜巡洋艦「伊吹」の強化ユニット。\n<color=#92fc63>「伊吹」開発完了後、「開発ドック」で「伊吹」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「伊吹」",
@@ -17981,7 +17981,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42004] = {
-		display = "重桜戦艦「出雲」の強化ユニット。\n<color=#A9F548>「出雲」開発完了後、「開発ドック」で「出雲」の性能を強化できる。</color>",
+		display = "重桜戦艦「出雲」の強化ユニット。\n<color=#92fc63>「出雲」開発完了後、「開発ドック」で「出雲」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「出雲」",
@@ -17997,7 +17997,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42005] = {
-		display = "鉄血巡洋艦「ローン」の強化ユニット。\n<color=#A9F548>「ローン」開発完了後、「開発ドック」で「ローン」の性能を強化できる。</color>",
+		display = "鉄血巡洋艦「ローン」の強化ユニット。\n<color=#92fc63>「ローン」開発完了後、「開発ドック」で「ローン」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「ローン」",
@@ -18013,7 +18013,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42006] = {
-		display = "アイリス巡洋艦「サン・ルイ」の強化ユニット。\n<color=#A9F548>「サン・ルイ」開発完了後、「開発ドック」で「サン・ルイ」の性能を強化できる。</color>",
+		display = "アイリス巡洋艦「サン・ルイ」の強化ユニット。\n<color=#92fc63>「サン・ルイ」開発完了後、「開発ドック」で「サン・ルイ」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「サン・ルイ」",
@@ -18096,7 +18096,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42011] = {
-		display = "ユニオン巡洋艦「シアトル」の強化ユニット。\n<color=#A9F548>「シアトル」開発完了後、「開発ドック」で「シアトル」の性能を強化できる。</color> ",
+		display = "ユニオン巡洋艦「シアトル」の強化ユニット。\n<color=#92fc63>「シアトル」開発完了後、「開発ドック」で「シアトル」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「シアトル」",
@@ -18112,7 +18112,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42012] = {
-		display = "ユニオン戦艦「ジョージア」の強化ユニット。\n<color=#A9F548>「ジョージア」開発完了後、「開発ドック」で「ジョージア」の性能を強化できる。</color> ",
+		display = "ユニオン戦艦「ジョージア」の強化ユニット。\n<color=#92fc63>「ジョージア」開発完了後、「開発ドック」で「ジョージア」の性能を強化できる。</color> ",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「ジョージア」",
@@ -18128,7 +18128,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42013] = {
-		display = "重桜駆逐「北風」の強化ユニット。\n<color=#A9F548>「北風」開発完了後、「開発ドック」で「北風」の性能を強化できる。</color>",
+		display = "重桜駆逐「北風」の強化ユニット。\n<color=#92fc63>「北風」開発完了後、「開発ドック」で「北風」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「北風」",
@@ -18144,7 +18144,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42014] = {
-		display = "重桜超巡「吾妻」の強化ユニット。\n<color=#A9F548>「吾妻」開発完了後、「開発ドック」で「吾妻」の性能を強化できる。</color>",
+		display = "重桜超巡「吾妻」の強化ユニット。\n<color=#92fc63>「吾妻」開発完了後、「開発ドック」で「吾妻」の性能を強化できる。</color>",
 		rarity = 5,
 		type = 12,
 		name = "強化ユニット「吾妻」",
@@ -18160,7 +18160,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42015] = {
-		display = "鉄血戦艦「フリードリヒ・デア・グローセ」の強化ユニット。\n<color=#A9F548>「フリードリヒ・デア・グローセ」開発完了後、「開発ドック」で「フリードリヒ・デア・グローセ」の性能を強化できる。</color>",
+		display = "鉄血戦艦「フリードリヒ・デア・グローセ」の強化ユニット。\n<color=#92fc63>「フリードリヒ・デア・グローセ」開発完了後、「開発ドック」で「フリードリヒ・デア・グローセ」の性能を強化できる。</color>",
 		rarity = 5,
 		type = 12,
 		name = "強化ユニット「フリードリヒ・デア・グローセ」",
@@ -18176,7 +18176,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[42016] = {
-		display = "ヴィシア戦艦「ガスコーニュ」の強化ユニット。\n<color=#A9F548>「ガスコーニュ」開発完了後、「開発ドック」で「ガスコーニュ」の性能を強化できる。</color>",
+		display = "ヴィシア戦艦「ガスコーニュ」の強化ユニット。\n<color=#92fc63>「ガスコーニュ」開発完了後、「開発ドック」で「ガスコーニュ」の性能を強化できる。</color>",
 		rarity = 4,
 		type = 12,
 		name = "強化ユニット「ガスコーニュ」",
@@ -18276,7 +18276,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甘口？辛口？好みは人それぞれ…<color=#A9F548>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
 		name = "海軍カレー",
@@ -18295,7 +18295,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50005] = {
-		display = "ロイヤル王家海軍専用料理であ～る！<color=#A9F548>（180分間寮舎経験値効率が10%アップ）</color>",
+		display = "ロイヤル王家海軍専用料理であ～る！<color=#92fc63>（180分間寮舎経験値効率が10%アップ）</color>",
 		rarity = 3,
 		type = 3,
 		name = "王家グルメ",
@@ -18314,7 +18314,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50006] = {
-		display = "見た目が奇妙な伝統？料理。<color=#A9F548>（360分間寮舎経験値効率が20%アップ）</color>",
+		display = "見た目が奇妙な伝統？料理。<color=#92fc63>（360分間寮舎経験値効率が20%アップ）</color>",
 		rarity = 3,
 		type = 3,
 		name = "フルコース",
@@ -18923,6 +18923,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -18960,16 +18970,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19000,6 +19000,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19037,16 +19047,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19077,6 +19077,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19114,16 +19124,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19154,6 +19154,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19191,16 +19201,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19231,6 +19231,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19268,16 +19278,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19308,6 +19308,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19345,16 +19355,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19385,6 +19385,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19422,16 +19432,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			}
 		},
@@ -19462,6 +19462,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19499,16 +19509,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -19589,6 +19589,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19626,16 +19636,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -19716,6 +19716,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19753,16 +19763,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -19843,6 +19843,16 @@ pg.item_data_statistics = {
 				1
 			},
 			{
+				3,
+				4020,
+				1
+			},
+			{
+				3,
+				4100,
+				1
+			},
+			{
 				2,
 				49,
 				1
@@ -19880,16 +19890,6 @@ pg.item_data_statistics = {
 			{
 				2,
 				46,
-				1
-			},
-			{
-				3,
-				4020,
-				1
-			},
-			{
-				3,
-				4100,
 				1
 			},
 			{
@@ -19960,16 +19960,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -19977,6 +19967,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20077,16 +20077,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20094,6 +20084,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20194,16 +20194,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20211,6 +20201,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20311,16 +20311,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20328,6 +20318,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20428,16 +20428,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20445,6 +20435,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20545,16 +20545,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20562,6 +20552,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20662,16 +20662,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20679,6 +20669,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20779,16 +20779,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20796,6 +20786,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -20880,12 +20880,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -20906,16 +20906,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -20923,6 +20913,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21007,12 +21007,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21033,16 +21033,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21050,6 +21040,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21134,12 +21134,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21160,16 +21160,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21177,6 +21167,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21261,12 +21261,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21287,16 +21287,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21304,6 +21294,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21388,12 +21388,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21414,16 +21414,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21431,6 +21421,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21515,12 +21515,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21541,16 +21541,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21558,6 +21548,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21642,12 +21642,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			}
 		},
@@ -21668,16 +21668,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21685,6 +21675,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21769,12 +21769,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -21810,16 +21810,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21827,6 +21817,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -21911,12 +21911,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -21952,16 +21952,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -21969,6 +21959,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22053,12 +22053,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22094,16 +22094,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22111,6 +22101,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22195,12 +22195,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22236,16 +22236,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22253,6 +22243,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22337,12 +22337,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22378,16 +22378,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22395,6 +22385,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22479,12 +22479,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22520,16 +22520,6 @@ pg.item_data_statistics = {
 		icon = "Props/55000",
 		display_icon = {
 			{
-				2,
-				45,
-				1
-			},
-			{
-				2,
-				46,
-				1
-			},
-			{
 				3,
 				4020,
 				1
@@ -22537,6 +22527,16 @@ pg.item_data_statistics = {
 			{
 				3,
 				4100,
+				1
+			},
+			{
+				2,
+				45,
+				1
+			},
+			{
+				2,
+				46,
 				1
 			},
 			{
@@ -22621,12 +22621,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -22713,12 +22713,12 @@ pg.item_data_statistics = {
 			},
 			{
 				2,
-				11034,
+				10093,
 				1
 			},
 			{
 				2,
-				10093,
+				11034,
 				1
 			},
 			{
@@ -61817,8 +61817,40 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59126,
 		icon = "Props/kizuna_pt",
-		price = "",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59127] = {
+		display = "「カムバックミッション」で入手できるイベントPt。イベント終了後に削除されます ",
+		rarity = 2,
+		type = 98,
+		name = "カムバックPt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59127,
+		icon = "Props/union_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59128] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2019.7.11メンテナンスまで）で削除されます ",
+		rarity = 4,
+		type = 98,
+		name = "試着貸出チケット（2019.7.11まで） ",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59128,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
 		index = {}
 	},
 	[59601] = {
@@ -62446,9 +62478,9 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59711] = {
-		display = "周年記念イベント「再誕の暁」クリア記念――「指揮官？私が手に持っているウォッカとフリェープが見えましたか？うふふ」 ",
+		display = "「再誕の暁」クリア記念アイテムボックス：一周年チャットフレーム＆フキダシ、記念アイテムを入手可能 ",
 		rarity = 3,
-		type = 1,
+		type = 5,
 		name = "再誕の暁 ",
 		shop_id = -1,
 		shiptrans_id = 0,
@@ -63479,6 +63511,150 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59774] = {
+		display = "周年記念イベント「再誕の暁」クリア記念――「指揮官？私が手に持っているウォッカとフリェープが見えましたか？うふふ」 ",
+		rarity = 3,
+		type = 1,
+		name = "再誕の暁",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59774,
+		icon = "props/yizhounian",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59775] = {
+		display = "7枚集めると、限定設備「約束の証明」を入手可能 ",
+		rarity = 2,
+		type = 0,
+		name = "U-556の勲章 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 10248,
+		id = 59775,
+		icon = "Props/u556xunzhang",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59776] = {
+		display = "絵の具A",
+		rarity = 2,
+		type = 0,
+		name = "絵の具A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59776,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59777] = {
+		display = "絵の具B",
+		rarity = 2,
+		type = 0,
+		name = "絵の具B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59777,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59778] = {
+		display = "絵の具C",
+		rarity = 2,
+		type = 0,
+		name = "絵の具C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59778,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59779] = {
+		display = "絵の具D",
+		rarity = 2,
+		type = 0,
+		name = "絵の具D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59779,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59780] = {
+		display = "絵の具E",
+		rarity = 2,
+		type = 0,
+		name = "絵の具E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59780,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59781] = {
+		display = "絵の具F",
+		rarity = 2,
+		type = 0,
+		name = "絵の具F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59781,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59782] = {
+		display = "絵の具G",
+		rarity = 2,
+		type = 0,
+		name = "絵の具G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 10250,
+		id = 59782,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59801] = {
 		display = "ピースA-1",
 		rarity = 2,
@@ -63819,17 +63995,17 @@ pg.item_data_statistics = {
 		display = [[
 パーティーシリーズの着せ替え（モナーク「ホワイト・ウォリック」除く）をランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#A9F548>8%</color>）吹雪： Music Pixy（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8%</color>）クリーブランド：ジェントリーナイト（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>8%</color>）大鳳：禁断の宴（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9.5%</color>）オーロラ：黎明に捧げる賛歌；
-（<color=#A9F548>9.5%</color>）クイーン・エリザベス：女王さまの舞踏会；
-（<color=#A9F548>9.5%</color>）エイジャックス：パーティークイーン；
-（<color=#A9F548>9.5%</color>）明石：黒猫来襲す！；
-（<color=#A9F548>9.5%</color>）アマゾン：リトルオーケストラ；
-（<color=#A9F548>9.5%</color>）サウスダコタ：ソロコンサート；
-（<color=#A9F548>9.5%</color>）U-81：静謐なセレナーデ；
-（<color=#A9F548>9.5%</color>）イラストリアス：輝きの舞踏会；]],
+（<color=#92fc63>8%</color>）吹雪： Music Pixy（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）クリーブランド：ジェントリーナイト（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8%</color>）大鳳：禁断の宴（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）オーロラ：黎明に捧げる賛歌；
+（<color=#92fc63>9.5%</color>）クイーン・エリザベス：女王さまの舞踏会；
+（<color=#92fc63>9.5%</color>）エイジャックス：パーティークイーン；
+（<color=#92fc63>9.5%</color>）明石：黒猫来襲す！；
+（<color=#92fc63>9.5%</color>）アマゾン：リトルオーケストラ；
+（<color=#92fc63>9.5%</color>）サウスダコタ：ソロコンサート；
+（<color=#92fc63>9.5%</color>）U-81：静謐なセレナーデ；
+（<color=#92fc63>9.5%</color>）イラストリアス：輝きの舞踏会；]],
 		rarity = 4,
 		type = 98,
 		name = "ランダム衣装（パーティー） ",
@@ -63848,15 +64024,15 @@ pg.item_data_statistics = {
 		display = [[
 下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#A9F548>9%</color>）エルドリッジ：正月のおてて（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）伊吹：冬籠の夢（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10%</color>）セントルイス：ティプシースノー（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>12%</color>）出雲：出雲千本桜；
-（<color=#A9F548>12%</color>）プリンス・オブ・ウェールズ：風流装束・桜；
-（<color=#A9F548>12%</color>）磯風：新年大合戦；
-（<color=#A9F548>12%</color>）ヘレナ：青い鳥の正月；
-（<color=#A9F548>12%</color>）モントピリア：雪夜の華；
-（<color=#A9F548>12%</color>）足柄：幕間少憩；]],
+（<color=#92fc63>9%</color>）エルドリッジ：正月のおてて（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）伊吹：冬籠の夢（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）セントルイス：ティプシースノー（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）出雲：出雲千本桜；
+（<color=#92fc63>12%</color>）プリンス・オブ・ウェールズ：風流装束・桜；
+（<color=#92fc63>12%</color>）磯風：新年大合戦；
+（<color=#92fc63>12%</color>）ヘレナ：青い鳥の正月；
+（<color=#92fc63>12%</color>）モントピリア：雪夜の華；
+（<color=#92fc63>12%</color>）足柄：幕間少憩；]],
 		rarity = 4,
 		type = 98,
 		name = "ランダム衣装（お正月） ",
@@ -63875,16 +64051,16 @@ pg.item_data_statistics = {
 		display = [[
 下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
 各衣装の出現割合：
-（<color=#A9F548>8.5%</color>）ベルファスト：彩雲の薔薇（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）ラフィー：春待ちウサギ（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>9%</color>）太原：春騒ぎの玄亀（<color=#A9F548>Live 2d</color>）；
-（<color=#A9F548>10.5%</color>）エンタープライズ：ブライトピオニー；
-（<color=#A9F548>10.5%</color>）セントー ：清冽な春風；
-（<color=#A9F548>10.5%</color>）モナーク ：ブラック・ジェラード；
-（<color=#A9F548>10.5%</color>）夕暮：春の夕暮；
-（<color=#A9F548>10.5%</color>）綾波：波濤新歳；
-（<color=#A9F548>10.5%</color>）レキシントン：春華の歌；
-（<color=#A9F548>10.5%</color>）チェイサー：東煌見聞録；]],
+（<color=#92fc63>8.5%</color>）ベルファスト：彩雲の薔薇（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）ラフィー：春待ちウサギ（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原：春騒ぎの玄亀（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）エンタープライズ：ブライトピオニー；
+（<color=#92fc63>10.5%</color>）セントー ：清冽な春風；
+（<color=#92fc63>10.5%</color>）モナーク ：ブラック・ジェラード；
+（<color=#92fc63>10.5%</color>）夕暮：春の夕暮；
+（<color=#92fc63>10.5%</color>）綾波：波濤新歳；
+（<color=#92fc63>10.5%</color>）レキシントン：春華の歌；
+（<color=#92fc63>10.5%</color>）チェイサー：東煌見聞録；]],
 		rarity = 4,
 		type = 98,
 		name = "ランダム衣装（旧正月） ",
@@ -65843,6 +66019,8 @@ pg.item_data_statistics = {
 		59124,
 		59125,
 		59126,
+		59127,
+		59128,
 		59601,
 		59602,
 		59603,
@@ -65945,6 +66123,15 @@ pg.item_data_statistics = {
 		59771,
 		59772,
 		59773,
+		59774,
+		59775,
+		59776,
+		59777,
+		59778,
+		59779,
+		59780,
+		59781,
+		59782,
 		59801,
 		59802,
 		59803,

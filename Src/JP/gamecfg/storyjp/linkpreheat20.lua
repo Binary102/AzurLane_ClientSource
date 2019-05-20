@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"夢幻の邂逅-日常編\n\n<size=30>その三　いい湯だな！</size>",
+					"夢幻の邂逅-日常編\n\n<size=45>その三　いい湯だな！</size>",
 					1
 				}
 			}
@@ -838,7 +838,7 @@ return {
 				{
 					actor = 10300050,
 					pos = {
-						x = 650
+						x = 975
 					}
 				}
 			},

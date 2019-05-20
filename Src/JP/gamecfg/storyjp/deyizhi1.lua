@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"曇りの仮面\n\n<size=30>一　発端</size>",
+					"曇りの仮面\n\n<size=45>一　発端</size>",
 					1
 				}
 			}
@@ -110,7 +110,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -199,7 +199,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -245,7 +245,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -275,7 +275,7 @@ return {
 					type = "shake",
 					delay = 0,
 					dur = 0.4,
-					x = 15,
+					x = 22.5,
 					number = 2
 				}
 			}
@@ -317,7 +317,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -328,7 +328,7 @@ return {
 					type = "move",
 					delay = 1,
 					dur = 0.5,
-					x = 1000
+					x = 1500
 				}
 			}
 		},
@@ -359,7 +359,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.15,

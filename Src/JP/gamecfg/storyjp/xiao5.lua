@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"ニンジャ暁参上！\n\n<size=30>五　突然の暗闇</size>",
+					"ニンジャ暁参上！\n\n<size=45>五　突然の暗闇</size>",
 					1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0.2,
 					dur = 0.2,

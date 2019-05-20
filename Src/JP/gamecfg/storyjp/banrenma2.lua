@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"セントーと先輩たち\n\n<size=30>二　真面目すぎる系？</size>",
+					"セントーと先輩たち\n\n<size=45>二　真面目すぎる系？</size>",
 					1
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,
@@ -295,7 +295,7 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 45,
 					type = "shake",
 					delay = 0,
 					dur = 0.2,

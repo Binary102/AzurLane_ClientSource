@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"ヒガンバナの恋\n\n<size=30>その一　紅の秘書艦</size>",
+					"ヒガンバナの恋\n\n<size=45>その一　紅の秘書艦</size>",
 					1
 				}
 			}
@@ -118,7 +118,7 @@ return {
 			},
 			action = {
 				{
-					y = 10,
+					y = 15,
 					type = "shake",
 					dur = 0.1,
 					x = 0,
@@ -217,7 +217,7 @@ return {
 					y = 0,
 					type = "shake",
 					dur = 0.15,
-					x = 10,
+					x = 15,
 					number = 4
 				}
 			},

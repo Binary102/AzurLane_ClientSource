@@ -1336,31 +1336,34 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 						for slot11 = slot8, slot9, slot10 do
 							slot12 = LeanTween
 							slot12 = slot12.alpha
-							slot13 = go
+							slot13 = rtf
 							slot14 = slot1
 							slot14 = slot14._flash
 							slot13 = slot13(slot14)
 							slot14 = slot4.flash
 							slot14 = slot14.alpha
-							slot14 = slot14[1]
+							slot14 = slot14[2]
 							slot15 = slot4.flash
-							slot15 = slot15.alpha
-							slot15 = slot15[2]
-							slot16 = slot4.flash
-							slot16 = slot16.dur
+							slot15 = slot15.dur
 
-							if slot16 then
-								slot16 = slot4.flash
-								slot16 = slot16.dur
-								slot16 = slot16 / 2
+							if slot15 then
+								slot15 = slot4.flash
+								slot15 = slot15.dur
+								slot15 = slot15 / 2
 
-								if not slot16 then
-									slot16 = slot4.flash
-									slot16 = slot16.dur1
+								if not slot15 then
+									slot15 = slot4.flash
+									slot15 = slot15.dur1
 								end
 							end
 
-							slot12 = slot12(slot13, slot14, slot15, slot16)
+							slot12 = slot12(slot13, slot14, slot15)
+							slot13 = slot12
+							slot12 = slot12.setFrom
+							slot14 = slot4.flash
+							slot14 = slot14.alpha
+							slot14 = slot14[1]
+							slot12 = slot12(slot13, slot14)
 							slot13 = slot12
 							slot12 = slot12.setDelay
 							slot14 = slot11 - 1
@@ -1387,29 +1390,32 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 								slot2 = slot1
 								slot2 = slot2.flash
 								slot2 = slot2.alpha
-								slot2 = slot2[2]
+								slot2 = slot2[1]
 								slot3 = slot1
 								slot3 = slot3.flash
-								slot3 = slot3.alpha
-								slot3 = slot3[1]
-								slot4 = slot1
-								slot4 = slot4.flash
-								slot4 = slot4.dur
+								slot3 = slot3.dur
 
-								if slot4 then
-									slot4 = slot1
-									slot4 = slot4.flash
-									slot4 = slot4.dur
-									slot4 = slot4 / 2
+								if slot3 then
+									slot3 = slot1
+									slot3 = slot3.flash
+									slot3 = slot3.dur
+									slot3 = slot3 / 2
 
-									if not slot4 then
-										slot4 = slot1
-										slot4 = slot4.flash
-										slot4 = slot4.dur2
+									if not slot3 then
+										slot3 = slot1
+										slot3 = slot3.flash
+										slot3 = slot3.dur2
 									end
 								end
 
-								slot0 = slot0(slot1, slot2, slot3, slot4)
+								slot0 = slot0(slot1, slot2, slot3)
+								slot1 = slot0
+								slot0 = slot0.setFrom
+								slot2 = slot1
+								slot2 = slot2.flash
+								slot2 = slot2.alpha
+								slot2 = slot2[2]
+								slot0 = slot0(slot1, slot2)
 								slot1 = slot0
 								slot0 = slot0.setUseEstimatedTime
 								slot2 = true

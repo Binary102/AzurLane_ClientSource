@@ -2520,40 +2520,6 @@ pg.technology_data_template = {
 			}
 		}
 	},
-	[1004] = {
-		id = 1004,
-		rarity = 3,
-		time = 14400,
-		type = 2,
-		name = "B-397-RF",
-		lv_limit = 80,
-		desc = "A large number of hypotheses have been generated during the process of researching the Wisdom Cube. This research project is aimed at collecting empirical evidence to test these hypotheses through practical methods.",
-		condition = 52010,
-		bg = "3",
-		blueprint_version = 1,
-		sub_name = "Medium Project",
-		label = "tag_red",
-		bg_icon = "battle_3",
-		label_color = "tag_b",
-		consume = {},
-		drop_client = {
-			{
-				2,
-				52001,
-				1
-			},
-			{
-				2,
-				52002,
-				1
-			},
-			{
-				2,
-				52003,
-				1
-			}
-		}
-	},
 	[1005] = {
 		id = 1005,
 		rarity = 3,
@@ -3464,40 +3430,6 @@ pg.technology_data_template = {
 			}
 		}
 	},
-	[1026] = {
-		id = 1026,
-		rarity = 3,
-		time = 14400,
-		type = 2,
-		name = "B-397-RF",
-		lv_limit = 85,
-		desc = "工程师们在对心智魔方的研究过程中，提出了大量天马行空般的设想。该科研项目致力于通过实战的手段，收集各种实验数据以验证实验设想。",
-		condition = 52011,
-		bg = "3",
-		blueprint_version = 1,
-		sub_name = "Medium Project",
-		label = "tag_red",
-		bg_icon = "battle_3",
-		label_color = "tag_b",
-		consume = {},
-		drop_client = {
-			{
-				2,
-				52001,
-				1
-			},
-			{
-				2,
-				52002,
-				1
-			},
-			{
-				2,
-				52003,
-				1
-			}
-		}
-	},
 	all = {
 		1,
 		2,
@@ -3562,7 +3494,6 @@ pg.technology_data_template = {
 		1001,
 		1002,
 		1003,
-		1004,
 		1005,
 		1006,
 		1007,
@@ -3583,8 +3514,7 @@ pg.technology_data_template = {
 		1022,
 		1023,
 		1024,
-		1025,
-		1026
+		1025
 	}
 }
 

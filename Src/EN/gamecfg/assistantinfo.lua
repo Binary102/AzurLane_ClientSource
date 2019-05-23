@@ -2025,6 +2025,6 @@ pg.AssistantInfo = {
 		}
 	}
 }
-slot2 = true
+slot2 = false
 
 return

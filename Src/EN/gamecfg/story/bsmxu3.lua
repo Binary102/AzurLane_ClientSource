@@ -131,7 +131,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900180,
-			say = "Could it be a trap? Could the enemy have cracked the Enigma? ... That's impossible.",
+			say = "At this point... you don't think it could be Lord Bismarck...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "557, you head back to port and let them know what happened. I have to go! I made a promise to Big Brother Bismarck!",
+			say = "557, you head back to port and let them know what happened. I have to go! I made a promise to Lord Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

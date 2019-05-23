@@ -1484,6 +1484,102 @@ pg.skill_data_display = {
 		id = 12100,
 		name = "Iron Blood Hatchling"
 	},
+	[12120] = {
+		id = 12120,
+		name = "Wahrheit"
+	},
+	[12121] = {
+		id = 12121,
+		name = "Wahrheit"
+	},
+	[12130] = {
+		id = 12130,
+		name = "Unwavering Strength "
+	},
+	[12131] = {
+		id = 12131,
+		name = "Unwavering Strength "
+	},
+	[12132] = {
+		id = 12132,
+		name = "Unwavering Strength "
+	},
+	[12135] = {
+		id = 12135,
+		name = "Unwavering Strength "
+	},
+	[12140] = {
+		id = 12140,
+		name = "Will of the Iron Blood "
+	},
+	[12150] = {
+		id = 12150,
+		name = "Armament Optimization "
+	},
+	[12151] = {
+		id = 12151,
+		name = "Armament Optimization "
+	},
+	[12152] = {
+		id = 12152,
+		name = "Armament Optimization "
+	},
+	[12153] = {
+		id = 12153,
+		name = "Armament Optimization "
+	},
+	[12160] = {
+		id = 12160,
+		name = "The Glory of the Never-Setting Sun "
+	},
+	[12161] = {
+		id = 12161,
+		name = "The Glory of the Never-Setting Sun "
+	},
+	[12170] = {
+		id = 12170,
+		name = "Armament Optimization "
+	},
+	[12171] = {
+		id = 12171,
+		name = "Armament Optimization "
+	},
+	[12172] = {
+		id = 12172,
+		name = "Armament Optimization "
+	},
+	[12173] = {
+		id = 12173,
+		name = "Armament Optimization "
+	},
+	[12180] = {
+		id = 12180,
+		name = "The Light of an Oath "
+	},
+	[12181] = {
+		id = 12181,
+		name = "The Light of an Oath "
+	},
+	[12182] = {
+		id = 12182,
+		name = "The Light of an Oath "
+	},
+	[12190] = {
+		id = 12190,
+		name = "Devilish Strike "
+	},
+	[12191] = {
+		id = 12191,
+		name = "Devilish Strike "
+	},
+	[12200] = {
+		id = 12200,
+		name = "尽职守护"
+	},
+	[12210] = {
+		id = 12210,
+		name = "Kolibri Assault "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -1803,6 +1899,14 @@ pg.skill_data_display = {
 	[21082] = {
 		id = 21082,
 		name = "All Out Assault Ⅱ"
+	},
+	[21091] = {
+		id = 21091,
+		name = "全弹发射I"
+	},
+	[21092] = {
+		id = 21092,
+		name = "全弹发射II"
 	},
 	[21111] = {
 		id = 21111,
@@ -2143,6 +2247,22 @@ pg.skill_data_display = {
 	[23222] = {
 		id = 23222,
 		name = "All Out Assault Ⅱ"
+	},
+	[23311] = {
+		id = 23311,
+		name = "全弹发射I"
+	},
+	[23312] = {
+		id = 23312,
+		name = "全弹发射II"
+	},
+	[23411] = {
+		id = 23411,
+		name = "全弹发射I"
+	},
+	[23412] = {
+		id = 23412,
+		name = "全弹发射II"
 	},
 	[24011] = {
 		id = 24011,
@@ -2980,6 +3100,30 @@ pg.skill_data_display = {
 		12091,
 		12092,
 		12100,
+		12120,
+		12121,
+		12130,
+		12131,
+		12132,
+		12135,
+		12140,
+		12150,
+		12151,
+		12152,
+		12153,
+		12160,
+		12161,
+		12170,
+		12171,
+		12172,
+		12173,
+		12180,
+		12181,
+		12182,
+		12190,
+		12191,
+		12200,
+		12210,
 		18010,
 		18040,
 		18041,
@@ -3060,6 +3204,8 @@ pg.skill_data_display = {
 		21072,
 		21081,
 		21082,
+		21091,
+		21092,
 		21111,
 		21112,
 		21121,
@@ -3145,6 +3291,10 @@ pg.skill_data_display = {
 		23212,
 		23221,
 		23222,
+		23311,
+		23312,
+		23411,
+		23412,
 		24011,
 		24012,
 		24111,

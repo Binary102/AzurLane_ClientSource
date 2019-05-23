@@ -37,7 +37,6 @@ slot0.ON_LOTTERY = "MainUIMediator:ON_LOTTERY"
 slot0.OPEN_SCROLL = "MainUIMediator:OPEN_SCROLL"
 slot0.ON_TASK_OPEN = "MainUIMediator:ON_TASK_OPEN"
 slot0.ON_ANNIVERSARY = "MainUIMediator:ON_ANNIVERSARY"
-slot0.ON_SUMMARY = "MainUIMediator:ON_SUMMARY"
 slot0.OPEN_SNAPSHOT = "MainUIMediator:OPEN_SNAPSHOT"
 slot0.OPEN_TRANINGCAMP = "MainUIMediator:OPEN_TRANINGCAMP"
 slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
@@ -153,9 +152,6 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BIANDUI, {
 			fleetId = slot1
 		})
-	end)
-	slot0:bind(slot0.ON_SUMMARY, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SUMMARY)
 	end)
 	slot0:bind(slot0.OPEN_BACKYARD, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
@@ -303,14 +299,7 @@ function slot0.register(slot0)
 			pg.TipsMgr:GetInstance():ShowTips(i18n("no_notice_tip"))
 		end
 	end)
-	slot0.viewComponent:updateActivityBtn(slot7:getActivityById(ActivityConst.UTAWARERU_ACTIVITY_PT_ID))
 	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
-	slot0.viewComponent:updateActivityPtBtn(slot7:getActivityById(ActivityConst.MORAN_RE_PT_ID))
-	slot0.viewComponent:updateVoteBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE))
-	slot0.viewComponent:updateLotteryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY))
-	slot0.viewComponent:updateAnniversaryBtn(slot7:getActivityById(ActivityConst.ANNIVERSARY_TASK_LIST_ID))
-	slot0.viewComponent:updateSummaryBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY))
-	slot0.viewComponent:updateBossBattleBtn(slot7:getActivityById(ActivityConst.BOSS_BATTLE_AISAIKESI))
 	slot0:bind(slot0.ON_BLACKWHITE, function ()
 		slot0.viewComponent:disableTraningCampAndRefluxTip()
 		slot0.viewComponent.disableTraningCampAndRefluxTip:addSubLayers(Context.New({
@@ -698,7 +687,7 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:activeEffect(true)
 		elseif slot3.context.mediator == LevelDifficultySelMediator then
 			setActive(slot0.viewComponent.effectTF, slot0.viewComponent.flagShip and slot0.viewComponent.flagShip.propose)
-		elseif slot3.context.mediator == ServerNoticeMediator then
+		elseif slot3.context.mediator == BulletinBoardMediator then
 			slot0:tryPlayGuide()
 		elseif slot3.context.mediator == CommissionInfoMediator then
 			slot0.viewComponent:resetCommissionBtn()
@@ -763,8 +752,9 @@ function slot0.handleEnterMainUI(slot0)
 			end)
 			coroutine.yield()
 			coroutine.yield:handleReturnAwardAct()
-			coroutine.yield.handleReturnAwardAct:accepetActivityTask()
-			coroutine.yield.handleReturnAwardAct.accepetActivityTask:tryRequestColoring()
+			coroutine.yield.handleReturnAwardAct:handleReturnAwardAct()
+			coroutine.yield.handleReturnAwardAct.handleReturnAwardAct:accepetActivityTask()
+			coroutine.yield.handleReturnAwardAct.handleReturnAwardAct.accepetActivityTask:tryRequestColoring()
 
 			if getProxy(ActivityProxy):findNextAutoActivity() then
 				slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)

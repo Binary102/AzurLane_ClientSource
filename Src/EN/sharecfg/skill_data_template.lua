@@ -5816,6 +5816,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6411] = {
+		desc_get = "",
+		name = "未能抵达的承诺",
+		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		type = 0,
+		max_level = 0,
+		id = 6411,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6415] = {
+		desc_get = "",
+		name = "未能抵达的承诺",
+		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		type = 0,
+		max_level = 0,
+		id = 6415,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[7000] = {
 		desc_get = "",
 		name = "Rhine Drill",
@@ -12820,7 +12842,7 @@ pg.skill_data_template = {
 	[11010] = {
 		desc_get = "",
 		name = "Night of the Iron Bottom Sound",
-		desc = "Activates when friendly South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate",
+		desc = "Activates when friendly South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate once per battle",
 		type = 2,
 		max_level = 10,
 		id = 11010,
@@ -19934,6 +19956,758 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12120] = {
+		desc_get = "",
+		name = "Wahrheit",
+		desc = "This ship's first Volley will always Critically Hit. While equipping a CL Gun in the Auxiliary Weapon slot: sets the Range of the CL Gun to $1 and decreases their DMG by 35%.",
+		type = 1,
+		max_level = 10,
+		id = 12120,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"65",
+				"90"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"65",
+					"+2"
+				},
+				{
+					"67",
+					"+3"
+				},
+				{
+					"70",
+					"+2"
+				},
+				{
+					"72",
+					"+3"
+				},
+				{
+					"75",
+					"+2"
+				},
+				{
+					"77",
+					"+3"
+				},
+				{
+					"80",
+					"+2"
+				},
+				{
+					"82",
+					"+3"
+				},
+				{
+					"85",
+					"+5"
+				},
+				{
+					"90"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[12130] = {
+		desc_get = "",
+		name = "Unwavering Strength",
+		desc = "When this ship fires a Salvo while sortied as the Flagship: $1 chance to fire a special barrage. Also increases the DMG of all your Iron Blood Carriers by $2.",
+		type = 1,
+		max_level = 10,
+		id = 12130,
+		system_transform = {
+			12135,
+			12135,
+			nil,
+			12135,
+			nil,
+			12135,
+			nil,
+			12135,
+			12135
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"10%",
+				"20%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12140] = {
+		desc_get = "",
+		name = "Will of the Iron Blood",
+		desc = "Increases the Main Gun, Torpedo, and Airstrike Crit Rate of all your Iron Blood ships by $2, increases their RLD by $1, and increases Tirpitz's DMG by $3.",
+		type = 3,
+		max_level = 10,
+		id = 12140,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"4.0%",
+				"20.0%"
+			},
+			{
+				"20%",
+				"40%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+1.6%"
+				},
+				{
+					"5.6%",
+					"+1.6%"
+				},
+				{
+					"7.2%",
+					"+1.6%"
+				},
+				{
+					"8.8%",
+					"+1.6%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+2.0%"
+				},
+				{
+					"16.0%",
+					"+2.0%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[12150] = {
+		desc_get = "",
+		name = "Armament Optimization",
+		desc = "Every 24s: $3 chance to fire a special barrage. While equipping the Quadruple 356 mm Main Gun: decreases this ship's first Salvo load time by $1, increases its Main Gun Crit Rate by $2, decreases its Spread Range by 2, and improves the barrage.",
+		type = 1,
+		max_level = 10,
+		id = 12150,
+		system_transform = {
+			12170,
+			12170,
+			nil,
+			12170,
+			nil,
+			12170,
+			nil,
+			12170,
+			12170
+		},
+		desc_get_add = {
+			{
+				"55.0%",
+				"75.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"55.0%",
+					"+2.2%"
+				},
+				{
+					"57.2%",
+					"+2.2%"
+				},
+				{
+					"59.4%",
+					"+2.2%"
+				},
+				{
+					"61.6%",
+					"+2.2%"
+				},
+				{
+					"63.8%",
+					"+2.2%"
+				},
+				{
+					"66.0%",
+					"+2.2%"
+				},
+				{
+					"68.2%",
+					"+2.2%"
+				},
+				{
+					"70.4%",
+					"+2.2%"
+				},
+				{
+					"72.6%",
+					"+2.4%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[12160] = {
+		desc_get = "",
+		name = "The Glory of the Never-Setting Sun",
+		desc = "Increases this ship's DMG against Sakura Empire, Iron Blood, Sardinia, and Siren ships by $1. When your fleet contains 3 or more Royal Navy ships (excluding this ship): increases this ship's FP, RLD, EVA, and AA by $2.",
+		type = 3,
+		max_level = 10,
+		id = 12160,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"4.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+1.6%"
+				},
+				{
+					"5.6%",
+					"+1.6%"
+				},
+				{
+					"7.2%",
+					"+1.6%"
+				},
+				{
+					"8.8%",
+					"+1.6%"
+				},
+				{
+					"10.4%",
+					"+1.6%"
+				},
+				{
+					"12.0%",
+					"+2.0%"
+				},
+				{
+					"14.0%",
+					"+2.0%"
+				},
+				{
+					"16.0%",
+					"+2.0%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12180] = {
+		desc_get = "",
+		name = "The Light of an Oath",
+		desc = "Once per battle, when this boat is called into battle and until it retreats: if the HP of one of your ships falls below 20%: launches a torpedo barrage. If Bismarck is in your fleet: improves the barrage.",
+		type = 1,
+		max_level = 10,
+		id = 12180,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[12190] = {
+		desc_get = "",
+		name = "Devilish Strike",
+		desc = "After the battle begins and every 20s after that: fires a special barrage and increases this ship's FP and TRP by $1. These buffs will weaken over 20s until they completely disappear and the skill reactivates.",
+		type = 1,
+		max_level = 10,
+		id = 12190,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"9.0%",
+				"24.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"9.0%",
+					"+1.5%"
+				},
+				{
+					"10.5%",
+					"+1.5%"
+				},
+				{
+					"12.0%",
+					"+1.5%"
+				},
+				{
+					"13.5%",
+					"+1.5%"
+				},
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+1.5%"
+				},
+				{
+					"19.5%",
+					"+1.5%"
+				},
+				{
+					"21.0%",
+					"+3.0%"
+				},
+				{
+					"24.0%"
+				}
+			}
+		}
+	},
+	[12210] = {
+		desc_get = "",
+		name = "Kolibri Assault",
+		desc = "10s after the battle begins and every 30s after that while equipping the FI 282: launches 1 FI 282, revealing the location of enemy Submarines and increasing your fleet's DMG to them by $1 for 10s.",
+		type = 1,
+		max_level = 10,
+		id = 12210,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.9%"
+				},
+				{
+					"5.9%",
+					"+0.9%"
+				},
+				{
+					"6.8%",
+					"+1.2%"
+				},
+				{
+					"8.0%",
+					"+0.9%"
+				},
+				{
+					"8.9%",
+					"+0.9%"
+				},
+				{
+					"9.8%",
+					"+1.2%"
+				},
+				{
+					"11.0%",
+					"+1.2%"
+				},
+				{
+					"12.2%",
+					"+1.2%"
+				},
+				{
+					"13.4%",
+					"+1.6%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -21777,6 +22551,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[21091] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "主炮每进行15次攻击，触发全弹发射-E级I",
+		type = 1,
+		max_level = 1,
+		id = 21091,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[21092] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "主炮每进行10次攻击，触发全弹发射-E级II",
+		type = 1,
+		max_level = 1,
+		id = 21092,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -22730,6 +23526,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 23312,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23411] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "进入战斗时，触发全弹发射-Type VIIB型I",
+		type = 1,
+		max_level = 1,
+		id = 23411,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[23412] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "进入战斗时，触发全弹发射-Type VIIB型II",
+		type = 1,
+		max_level = 1,
+		id = 23412,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -25723,6 +26541,8 @@ pg.skill_data_template = {
 		6390,
 		6400,
 		6410,
+		6411,
+		6415,
 		7000,
 		9010,
 		9020,
@@ -25924,6 +26744,14 @@ pg.skill_data_template = {
 		12080,
 		12090,
 		12100,
+		12120,
+		12130,
+		12140,
+		12150,
+		12160,
+		12180,
+		12190,
+		12210,
 		18010,
 		18040,
 		18050,
@@ -25999,6 +26827,8 @@ pg.skill_data_template = {
 		21072,
 		21081,
 		21082,
+		21091,
+		21092,
 		21111,
 		21112,
 		21121,
@@ -26086,6 +26916,8 @@ pg.skill_data_template = {
 		23222,
 		23311,
 		23312,
+		23411,
+		23412,
 		24011,
 		24012,
 		24111,

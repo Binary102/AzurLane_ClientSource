@@ -47691,6 +47691,2508 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57590] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57590,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				17,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57591] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57591,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				14,
+				1
+			},
+			{
+				2,
+				3,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57592] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57592,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				10048,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				22,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57593] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57593,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10075,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57594] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57594,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10041,
+				1
+			},
+			{
+				2,
+				10039,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57595] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57595,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10022,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10002,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57596] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57596,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			},
+			{
+				2,
+				17,
+				1
+			},
+			{
+				2,
+				6,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57597] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57597,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			},
+			{
+				2,
+				14,
+				1
+			},
+			{
+				2,
+				3,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57598] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57598,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				10048,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				22,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57599] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57599,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10075,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57600] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57600,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10041,
+				1
+			},
+			{
+				2,
+				10039,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57601] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57601,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10022,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			},
+			{
+				2,
+				10002,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57602] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57602,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				203011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				202021,
+				1
+			},
+			{
+				4,
+				202031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57603] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57603,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				203071,
+				1
+			},
+			{
+				4,
+				204011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				202021,
+				1
+			},
+			{
+				4,
+				202031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57604] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57604,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				207021,
+				1
+			},
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				202021,
+				1
+			},
+			{
+				4,
+				202031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57605] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57605,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				203021,
+				1
+			},
+			{
+				4,
+				204021,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57606] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57606,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404021,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				203021,
+				1
+			},
+			{
+				4,
+				204021,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57607] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57607,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				4,
+				404021,
+				1
+			},
+			{
+				4,
+				201011,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				102031,
+				1
+			},
+			{
+				4,
+				203021,
+				1
+			},
+			{
+				4,
+				204021,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57608] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57608,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11014,
+				1
+			},
+			{
+				2,
+				10044,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57609] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57609,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11010,
+				1
+			},
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57610] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57610,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11017,
+				1
+			},
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				10048,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57611] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57611,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11026,
+				1
+			},
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57612] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57612,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11013,
+				1
+			},
+			{
+				2,
+				10041,
+				1
+			},
+			{
+				2,
+				10039,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57613] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57613,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11009,
+				1
+			},
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10022,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57614] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57614,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10044,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10034,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57615] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57615,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10051,
+				1
+			},
+			{
+				2,
+				10031,
+				1
+			},
+			{
+				2,
+				10008,
+				1
+			},
+			{
+				2,
+				10004,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57616] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57616,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10050,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				10048,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57617] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57617,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10078,
+				1
+			},
+			{
+				2,
+				10077,
+				1
+			},
+			{
+				2,
+				10076,
+				1
+			},
+			{
+				2,
+				10073,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57618] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57618,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10041,
+				1
+			},
+			{
+				2,
+				10039,
+				1
+			},
+			{
+				2,
+				10038,
+				1
+			},
+			{
+				2,
+				10037,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57619] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57619,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10027,
+				1
+			},
+			{
+				2,
+				10022,
+				1
+			},
+			{
+				2,
+				10011,
+				1
+			},
+			{
+				2,
+				10003,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57620] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57620,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				203011,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57621] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57621,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				203071,
+				1
+			},
+			{
+				4,
+				204011,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57622] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57622,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				207021,
+				1
+			},
+			{
+				4,
+				205011,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				102061,
+				1
+			},
+			{
+				4,
+				102071,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				101131,
+				1
+			},
+			{
+				4,
+				101141,
+				1
+			},
+			{
+				4,
+				101151,
+				1
+			},
+			{
+				4,
+				102011,
+				1
+			},
+			{
+				4,
+				102021,
+				1
+			},
+			{
+				4,
+				201061,
+				1
+			},
+			{
+				4,
+				201071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57623] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57623,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				203031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57624] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57624,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404021,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				203031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57625] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57625,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				404011,
+				1
+			},
+			{
+				4,
+				404021,
+				1
+			},
+			{
+				4,
+				201291,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				203031,
+				1
+			},
+			{
+				4,
+				102041,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				103011,
+				1
+			},
+			{
+				4,
+				103021,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				202011,
+				1
+			},
+			{
+				4,
+				206011,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[59000] = {
 		display = "EXP is required to level up",
 		rarity = 2,
@@ -48039,6 +50541,22 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		link_id = 0,
 		id = 59128,
 		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59129] = {
+		display = "Used in \"Scherzo of Iron and Blood.\" Will disappear after the exchange period ends. ",
+		rarity = 2,
+		type = 98,
+		name = "The Iron Blood Coat of Arms ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59129,
+		icon = "Props/bsm_pt",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -50514,6 +53032,42 @@ Skins and their drop rates:
 		57583,
 		57584,
 		57585,
+		57590,
+		57591,
+		57592,
+		57593,
+		57594,
+		57595,
+		57596,
+		57597,
+		57598,
+		57599,
+		57600,
+		57601,
+		57602,
+		57603,
+		57604,
+		57605,
+		57606,
+		57607,
+		57608,
+		57609,
+		57610,
+		57611,
+		57612,
+		57613,
+		57614,
+		57615,
+		57616,
+		57617,
+		57618,
+		57619,
+		57620,
+		57621,
+		57622,
+		57623,
+		57624,
+		57625,
 		59000,
 		59001,
 		59002,
@@ -50536,6 +53090,7 @@ Skins and their drop rates:
 		59125,
 		59126,
 		59128,
+		59129,
 		59615,
 		59750,
 		59751,

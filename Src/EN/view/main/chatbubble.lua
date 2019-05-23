@@ -73,6 +73,7 @@ function slot0.update(slot0, slot1)
 
 		if slot0.circle and slot0.data then
 			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
 
 			setParent(slot0, slot0.circle, false)
 		else

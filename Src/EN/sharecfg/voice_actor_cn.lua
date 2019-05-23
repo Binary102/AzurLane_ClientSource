@@ -731,6 +731,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Ayako Kawasumi",
 		code = 183
+	},
+	{
+		actor_name = "Mizuki Yuina",
+		code = 184
 	}
 }
 

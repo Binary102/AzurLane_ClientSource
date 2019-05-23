@@ -49,7 +49,7 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.ATTIRE_APPLY_DONE then
 		slot0:updateCurrPage()
-		pg.TipsMgr:GetInstance():ShowTips(i18n1("装扮成功"))
+		pg.TipsMgr:GetInstance():ShowTips(i18n("dress_up_success"))
 	elseif slot2 == PlayerProxy.UPDATED or slot2 == GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE then
 		slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 		slot0:updateCurrPage()

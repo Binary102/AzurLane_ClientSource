@@ -3470,7 +3470,7 @@ February 8th.]]
 		key = "long_time_offline"
 	},
 	dont_send_message_frequently = {
-		tip = "Slow down! You may not send messages for another $1 second(s). ",
+		tip = "Do not spam the chat. ",
 		key = "dont_send_message_frequently"
 	},
 	no_activity = {
@@ -5777,27 +5777,31 @@ Attack/Support Range Level:
 		key = "elite_condition_durability"
 	},
 	elite_condition_cannon = {
-		tip = "Total Firepower",
+		tip = "Total FP",
 		key = "elite_condition_cannon"
 	},
 	elite_condition_torpedo = {
-		tip = "Total Torpedo",
+		tip = "Total TRP",
 		key = "elite_condition_torpedo"
 	},
 	elite_condition_antiaircraft = {
-		tip = "Total Anti-Air",
+		tip = "Total AA",
 		key = "elite_condition_antiaircraft"
 	},
 	elite_condition_air = {
-		tip = "Total Aviation",
+		tip = "Total AV",
 		key = "elite_condition_air"
 	},
+	elite_condition_antisub = {
+		tip = "Total SS",
+		key = "elite_condition_antisub"
+	},
 	elite_condition_dodge = {
-		tip = "Total Evasion",
+		tip = "Total EVA",
 		key = "elite_condition_dodge"
 	},
 	elite_condition_reload = {
-		tip = "Total Reload",
+		tip = "Total RLD",
 		key = "elite_condition_reload"
 	},
 	common_compare_larger = {
@@ -6027,6 +6031,10 @@ The weapon type that can be equipped in the Main Gun slot will change from <colo
 Would you like to proceed with the retrofit?
 <color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>]],
 		key = "ship_remould_warning_303154"
+	},
+	ship_remould_warning_402134 = {
+		tip = "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? ",
+		key = "ship_remould_warning_402134"
 	},
 	word_soundfiles_download_title = {
 		tip = "Download Language Pack",
@@ -8292,7 +8300,7 @@ with Anti-Sub gear.
 		key = "airi_error_code_ 100818"
 	},
 	buildship_new_tip = {
-		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		tip = "Bismarck、U-556、U-73、Z36、Echo are increased during the event period.",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8900,6 +8908,10 @@ map.]]
 		tip = "Medal Unlocked!",
 		key = "trophy_achieved"
 	},
+	text_shop = {
+		tip = "商 店",
+		key = "text_shop"
+	},
 	text_confirm = {
 		tip = "Confirm",
 		key = "text_confirm"
@@ -9355,6 +9367,80 @@ Returning Commanders:
 	attire_time_stamp = {
 		tip = "$1D$2H$3M",
 		key = "attire_time_stamp"
+	},
+	warning_pray_build_pool = {
+		tip = "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?",
+		key = "warning_pray_build_pool"
+	},
+	error_pray_select_ship_max = {
+		tip = "Your wish pool is full.",
+		key = "error_pray_select_ship_max"
+	},
+	tip_pray_build_pool_success = {
+		tip = "Your wish has been granted.",
+		key = "tip_pray_build_pool_success"
+	},
+	tip_pray_build_pool_fail = {
+		tip = "This wish cannot be granted.",
+		key = "tip_pray_build_pool_fail"
+	},
+	pray_build_help = {
+		key = "pray_build_help",
+		tip = {
+			{
+				info = "Event Description：\n"
+			},
+			{
+				info = "1.Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for."
+			},
+			{
+				info = "2. The acquisiton rate of each rarity is the same in the Wishing Well as it is for normal building:"
+			},
+			{
+				info = "Light Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:26% Common:55%"
+			},
+			{
+				info = "Heavy Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:51% Common:30%"
+			},
+			{
+				info = "Special Ships:<color=#ffde38>Super Rare</color>:7% <color=#d797ff>Elite</color>:12% <color=#3dc6ff>Rare</color>:51% Common:30%"
+			},
+			{
+				info = "3.You can see a list of all ships available for construction in the Wishing Well."
+			},
+			{
+				info = "4.You may choose two ships on which to focus your wishes."
+			},
+			{
+				info = "5.Only ships added to the normal building pool prior to 3/23 can hear your wishes."
+			},
+			{
+				info = "6.Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
+			},
+			{
+				info = "7.The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
+			},
+			{
+				info = "<color=#ffde38>Super Rare</color>:2.0% <color=#d797ff>Elite</color>:.2.5% <color=#3dc6ff>Rare</color>:2.5% Common:2.5%"
+			},
+			{
+				info = "8.Once you have chosen your two ships, you are ready to begin wishing."
+			},
+			{
+				info = "9.Once you start wishing, you cannot change your selections for the duration of the event."
+			},
+			{
+				info = "10.Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
+			}
+		}
+	},
+	bismarck_award_tip = {
+		tip = "Complete all tasks to earn an award.",
+		key = "bismarck_award_tip"
+	},
+	bismarck_chapter_desc = {
+		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. ",
+		key = "bismarck_chapter_desc"
 	}
 }
 

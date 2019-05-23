@@ -23,7 +23,9 @@ function slot0.init(slot0)
 	slot0.letterPanel = slot0:findTF("letter")
 	slot0.letterContant = slot0:findTF("panel/main/contant", slot0.letterPanel)
 	slot0.wordSpace = slot0:findTF("sentences", slot0.letterContant)
-	slot0.wordTpl = slot0:getTpl("sentence_tpl", slot0.wordSpace)
+	slot0.wordText = slot0:findTF("word", slot0.wordSpace)
+	slot0.lineTpl = slot0:findTF("line_tpl", slot0.wordSpace)
+	slot0.wordList = UIItemList.New(slot0.wordSpace, slot0.lineTpl)
 	slot0.attachmentTpl = slot0:getTpl("attachments/equipmenttpl ", slot0.letterContant)
 	slot0.radioImp = slot0:findTF("matter", slot0.letterPanel)
 	slot0.panelStateList = {
@@ -230,36 +232,16 @@ function slot0.addMail(slot0, slot1)
 end
 
 function slot0.setLetterContent(slot0, slot1)
+	setActive(slot0.wordText, slot1)
+	setActive(slot0.lineTpl, slot1)
+
 	if not slot1 then
 		return
 	end
 
-	slot3 = true
-	slot4 = ""
-	slot6 = cloneTplTo(slot0.wordTpl, slot0.wordSpace, "word" .. slot2)
-	slot7 = nil
-
-	function slot8(slot0, slot1, slot2)
-		setText(slot0, slot2)
-		setActive(slot0, true)
-
-		return cloneTplTo(slot0.wordTpl, slot0.wordSpace, "word" .. slot1 + 1), slot1 + 1, ""
-	end
-
-	for slot12, slot13 in ipairs(slot5) do
-		if slot13 == "\r" then
-		elseif slot13 == "\n" then
-			slot6, slot2, slot4 = slot8(slot6, slot2, slot4)
-		else
-			if contentWrap(slot4 .. slot13, 50, 2) then
-				slot6, slot2, slot4 = slot8(slot6, slot2, slot4)
-			end
-
-			slot4 = slot4 .. slot13
-		end
-	end
-
-	setText(slot6, slot4)
+	setText(slot0.wordText, slot1)
+	Canvas.ForceUpdateCanvases()
+	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1)
 end
 
 function slot0.openMail(slot0, slot1)
@@ -268,7 +250,6 @@ function slot0.openMail(slot0, slot1)
 	setText(findTF(slot2, "panel/main/contant/title"), slot1.title)
 	setText(findTF(slot2, "panel/main/contant/date/date_bg/text"), os.date("%m/%d/%y", slot1.date))
 	setText(findTF(slot2, "from/text"), slot1.sender)
-	removeAllChildren(slot0.wordSpace)
 	slot0:setLetterContent(slot1.content)
 	onButton(slot0, slot3, function ()
 		slot0:emit(MailMediator.ON_TAKE, slot1.id)
@@ -293,10 +274,15 @@ function slot0.openMail(slot0, slot1)
 	setActive(slot0.letterContant, true)
 	removeAllChildren(setActive)
 
-	for slot9, slot10 in ipairs(slot1.attachments) do
-		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot5), slot10, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+	slot6 = false
+
+	for slot10, slot11 in ipairs(slot1.attachments) do
+		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot5), slot11, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+
+		slot6 = true
 	end
 
+	setActive(slot5, slot6)
 	setActive(slot0.radioImp:Find("on"), slot1.importantFlag == 1)
 	setActive(slot0.radioImp:Find("off"), slot1.importantFlag == 0)
 	onButton(slot0, slot0.radioImp, function ()
@@ -396,7 +382,7 @@ function slot0.updateMail(slot0, slot1)
 		end
 
 		setText(slot7, slot1.title)
-		setText(slot8, os.date("%Y-%m-%d %H:%M:%S", slot1.date))
+		setText(slot8, os.date("%m/%d/%y", slot1.date))
 		setActive(slot2:Find("star"), slot1.importantFlag == 1)
 
 		if slot0.lastOpenMailId == slot1.id then

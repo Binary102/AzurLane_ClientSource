@@ -40,7 +40,7 @@ return {
 							corrdinate = {
 								10,
 								0,
-								35
+								55
 							},
 							bossData = {
 								hpBarNum = 100,

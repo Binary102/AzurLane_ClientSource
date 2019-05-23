@@ -103,6 +103,20 @@ function slot0.addSpineExtra(slot0, slot1)
 	return slot3
 end
 
+function slot0.getUniqueShipAction(slot0, slot1, slot2)
+	if slot0:getConfig("spine_action_replace") == "" or #slot3 == 0 then
+		return
+	end
+
+	if _.detect(slot3, function (slot0)
+		return _.any(slot0[2], function (slot0)
+			return slot0 == slot0
+		end) and slot1 == slot0[1]
+	end) then
+		return slot4[3]
+	end
+end
+
 function slot0.getSpineExtraConfig(slot0, slot1)
 	if slot0:isSpine() then
 		return slot0:getConfig("spine_extra")[slot1]

@@ -43,7 +43,7 @@ class("TaskAwardWindow", import(".PtAwardWindow")).Show = function (slot0, slot1
 	slot0(slot0)
 
 	slot0.totalTxt.text = slot0.totalPt
-	slot0.totalTitleTxt.text = i18n1("当前PT：")
+	slot0.totalTitleTxt.text = i18n("award_window_pt_title")
 
 	setActive(slot0._tf, true)
 end

@@ -52,8 +52,10 @@ function slot0.execute(slot0, slot1)
 						uid = slot0.user_id
 					})
 
-					if slot0.user_id == 0 then
+					if isAiriUS() then
 						SendAiriJPTracking(AIRIJP_TRACKING_ROLE_LOGIN, slot0.user_id)
+					elseif slot0.user_id == 0 then
+						BilibiliSdkMgr.inst:chooseServer(tostring(slot0.id), slot0.name)
 					end
 				end
 			elseif slot0.result == 13 then

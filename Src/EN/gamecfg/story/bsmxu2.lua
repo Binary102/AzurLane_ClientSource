@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'll be an ace in no time. And then they'll have to give me the Knight's Cross, maybe even with oak leaves! And then Big Brother Bismarck will notice me~!",
+			say = "I'll be an ace in no time. And then they'll have to give me the Knight's Cross, maybe even with oak leaves! And then Lord Bismarck will notice me~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

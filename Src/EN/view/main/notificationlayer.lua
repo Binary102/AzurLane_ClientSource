@@ -500,7 +500,7 @@ function slot0.appendOthers(slot0, slot1, slot2)
 	slot6:update(slot1)
 	removeOnButton(slot6.headTF)
 	onButton(slot0, slot6.headTF, function ()
-		slot0:emit(NotificationMediator.OPEN_INFO, slot0.emit, slot0:findTF("circle/head", slot1.tf).position, slot3.content)
+		slot0:emit(NotificationMediator.OPEN_INFO, slot0.emit, slot0:findTF("shipicon/icon", slot1.tf).position, slot3.content)
 
 		return
 	end, SFX_PANEL)
@@ -533,7 +533,7 @@ function slot0.appendTopPublic(slot0, slot1)
 	SetActive(slot0.topMsg, true)
 	ChatProxy.InjectPublic(findTF(slot0.topPublic, "text"):GetComponent("RichText"), slot1)
 
-	findTF(slot0.topPublic, "channel"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type))
+	findTF(slot0.topPublic, "channel"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot1.type) .. "_1920")
 
 	if slot0._topTimer then
 		slot0._topTimer:Stop()
@@ -592,6 +592,9 @@ end
 
 function slot0.willExit(slot0)
 	if slot0.currentForm == slot0.FORM_BATTLE then
+		if isActive(slot0.changeRoomPanel) then
+			slot0:closeChangeRoomPanel()
+		end
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	end

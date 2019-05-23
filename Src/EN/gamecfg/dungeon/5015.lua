@@ -61,7 +61,8 @@ return {
 									index = 1,
 									switchParam = 2.5,
 									addWeapon = {
-										950131
+										950131,
+										950130
 									}
 								},
 								{

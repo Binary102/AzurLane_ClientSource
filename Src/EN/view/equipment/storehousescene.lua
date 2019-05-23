@@ -556,6 +556,10 @@ function slot0.initEquipment(slot0, slot1)
 	slot2 = EquipmentItem.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
+		if slot0.equipmentVO == nil then
+			return
+		end
+
 		if slot0.equipmentVO.isSkin then
 			if not slot0.equipmentVO.shipId then
 				slot1:emit(EquipmentMediator.ON_EQUIPMENT_SKIN_INFO, slot0.equipmentVO.id, slot1.contextData.pos)
@@ -757,6 +761,10 @@ end
 
 function slot0.initItem(slot0, slot1)
 	onButton(slot0, ItemCard.New(slot1).go, function ()
+		if slot0.itemVO == nil then
+			return
+		end
+
 		if slot0.itemVO:getTempCfgTable().open_ui[1] > 0 then
 			slot1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.ITEM_ORIGIN_PAGE, {
 				itemVO = slot0.itemVO,

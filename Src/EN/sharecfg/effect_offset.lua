@@ -589,6 +589,16 @@ pg.effect_offset = {
 			0,
 			0
 		}
+	},
+	bisimai_buff = {
+		id = "bisimai_buff",
+		container_index = 1,
+		mirror = false,
+		offset = {
+			0,
+			1,
+			0
+		}
 	}
 }
 

@@ -472,6 +472,17 @@ pg.fleet_tech_ship_class = {
 			20101
 		}
 	},
+	[20111] = {
+		shiptype = 1,
+		name = "E-Class",
+		t_level = 4,
+		id = 20111,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20129
+		}
+	},
 	[20201] = {
 		shiptype = 2,
 		name = "Leander-Class",
@@ -671,6 +682,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 61,
 		nation = 2,
 		ships = {
+			20505,
 			20506,
 			20507
 		}
@@ -1260,7 +1272,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 115,
 		nation = 4,
 		ships = {
-			40135
+			40135,
+			40136
 		}
 	},
 	[40105] = {
@@ -1353,6 +1366,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 123,
 		nation = 4,
 		ships = {
+			40501,
 			40502
 		}
 	},
@@ -1367,6 +1381,17 @@ pg.fleet_tech_ship_class = {
 			40701
 		}
 	},
+	[40801] = {
+		shiptype = 8,
+		name = "Type VIIB",
+		t_level = 6,
+		id = 40801,
+		t_level_1 = 125,
+		nation = 4,
+		ships = {
+			40805
+		}
+	},
 	[40802] = {
 		shiptype = 8,
 		name = "Type VIIC",
@@ -1375,7 +1400,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 126,
 		nation = 4,
 		ships = {
-			40801
+			40801,
+			40804,
+			40803
 		}
 	},
 	[50101] = {
@@ -1476,6 +1503,7 @@ pg.fleet_tech_ship_class = {
 		20108,
 		20109,
 		20110,
+		20111,
 		20201,
 		20202,
 		20203,
@@ -1551,6 +1579,7 @@ pg.fleet_tech_ship_class = {
 		40401,
 		40501,
 		40701,
+		40801,
 		40802,
 		50101,
 		50201,

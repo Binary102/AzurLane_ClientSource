@@ -1,5 +1,5 @@
 class("SummaryPage1", import(".SummaryAnimationPage")).OnInit = function (slot0)
-	slot4 = findTF(slot3, "mask")
+	slot4 = findTF(slot3, "mask/painting")
 
 	setText(slot2, slot0.summaryInfoVO.name)
 
@@ -24,7 +24,7 @@ class("SummaryPage1", import(".SummaryAnimationPage")).OnInit = function (slot0)
 		table.insert(slot6, slot11)
 	end
 
-	setPaintingPrefabAsync(slot4, slot7, "jiesuan")
+	setPaintingPrefabAsync(slot4, slot7, "chuanwu")
 	setActive(slot0._go, false)
 end
 

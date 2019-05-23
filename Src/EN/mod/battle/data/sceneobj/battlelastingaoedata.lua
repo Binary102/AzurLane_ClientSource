@@ -4,10 +4,15 @@ slot2 = class("BattleLastingAOEData", ys.Battle.BattleAOEData)
 ys.Battle.BattleLastingAOEData = slot2
 slot2.__name = "BattleLastingAOEData"
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
-	slot0.super.Ctor(slot0, slot1, slot2, slot3)
+function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
 
 	slot0._exitCldFunc = slot4
+
+	if slot5 then
+		slot0.Settle = slot0.frequentlySettle
+	end
+
 	slot0._handledList = {}
 end
 
@@ -51,8 +56,34 @@ function slot2.Settle(slot0)
 			slot0._handledList[slot6] = nil
 		end
 	end
+end
 
-	slot0._cldObjList = {}
+function slot2.frequentlySettle(slot0)
+	slot0.SortCldObjList(slot0._cldObjList)
+	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
+end
+
+function slot2.frequentlySettle(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0._cldObjList) do
+		slot1[slot6.UID] = true
+
+		if not slot0._handledList[slot6] then
+			slot0._handledList[slot6] = true
+		end
+	end
+
+	for slot5, slot6 in pairs(slot0._handledList) do
+		if not slot1[slot5.UID] then
+			slot0._exitCldFunc(slot5)
+
+			slot0._handledList[slot5] = nil
+		end
+	end
+
+	slot0.SortCldObjList(slot0._cldObjList)
+	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
 
 return

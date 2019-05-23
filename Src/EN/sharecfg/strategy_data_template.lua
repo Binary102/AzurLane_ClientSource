@@ -68,6 +68,15 @@ pg.strategy_data_template = {
 		desc = "Crisis Averted~Nobody is going to harass you this time",
 		arg = {}
 	},
+	[9500] = {
+		buff_id = 9500,
+		name = "Wisdom Cube Reactivity",
+		type = 10,
+		id = 9500,
+		icon = "9500",
+		desc = "Due to a highly reactive Wisdom Cube, the entire fleet's DMG increases by 20%, but their DMG taken also increases by 20%.",
+		arg = {}
+	},
 	[10001] = {
 		buff_id = 200,
 		name = "Adequate Ammo",
@@ -149,6 +158,7 @@ pg.strategy_data_template = {
 		9,
 		90,
 		91,
+		9500,
 		10001,
 		10002,
 		10011,

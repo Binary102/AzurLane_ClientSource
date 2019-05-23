@@ -169,9 +169,9 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 	slot9:GetComponent(typeof(Text)).text = EquipType.LabelToName(slot11)
 
 	if slot2 then
-		setActive(slot7, slot2.config.type ~= EquipType.Equipment and slot2.config.type ~= EquipType.Sonar and slot2.config.type ~= EquipType.AntiSubAircraft)
+		setActive(slot7, not EquipType.isDevice(slot2.configId) and slot2.config.type ~= EquipType.AntiSubAircraft)
 
-		if slot2.config.type ~= EquipType.Equipment then
+		if not EquipType.isDevice(slot2.configId) then
 			slot13 = pg.ship_data_statistics[slot0:GetShipVO().configId]
 			slot15 = (slot0:GetShipVO():getEquipProficiencyByPos(slot1) and slot14 * 100) or 0
 
@@ -210,7 +210,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 		end
 
 		if findTF(slot5, "attrs/attr_3_1") then
-			setActive(slot16, slot2.config.type == EquipType.Equipment and slot1 <= 3)
+			setActive(slot16, EquipType.isDevice(slot2.configId) and slot1 <= 3)
 		end
 
 		slot0.equipmentNames[slot1]:setText(slot14)
@@ -223,13 +223,13 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 				slot24 = findTF(slot23, "panel")
 				slot25 = findTF(slot23, "lock")
 
-				if slot2.config.type == EquipType.Equipment and slot1 <= 3 and slot22 == 3 then
+				if EquipType.isDevice(slot2.configId) and slot1 <= 3 and slot22 == 3 then
 					slot18 = true
 
 					setActive(slot16, true)
 					SetActive(slot23, false)
 					slot15(findTF(slot16, "panel"), findTF(slot16, "lock"))
-				elseif slot2.config.type == EquipType.Equipment and slot22 == 3 then
+				elseif EquipType.isDevice(slot2.configId) and slot22 == 3 then
 					SetActive(slot23, true)
 					slot15(slot24, slot25)
 				elseif slot18 == true and slot22 == 4 then
@@ -244,7 +244,7 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 						slot28 = findTF(slot24, "values/value")
 						slot29 = findTF(slot24, "values/value_1")
 
-						if slot2.config.type ~= EquipType.Equipment and slot26.type == AttributeType.Reload and slot22 == 4 then
+						if not EquipType.isDevice(slot2.configId) and slot26.type == AttributeType.Reload and slot22 == 4 then
 							setText(slot27, AttributeType.Type2Name(AttributeType.CD))
 							setText(slot28, slot31)
 							setText(slot29, i18n("word_secondseach"))

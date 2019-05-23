@@ -755,7 +755,7 @@ function slot2(slot0)
 					slot13 = slot0
 					slot13 = slot13.shipVO
 					slot13 = slot13.proposeTime
-					slot14 = "%m/%d/%Y"
+					slot14 = "%B.%d,    %y"
 					slot15 = true
 
 					slot9(slot10, slot11(slot12, slot13, slot14, slot15))
@@ -776,49 +776,71 @@ function slot2(slot0)
 						slot10 = slot10.intimacyDesc
 						slot11 = "VerticalText"
 						slot9 = slot9(slot10, slot11)
+						slot10 = IsNil
+						slot11 = slot9
+						slot10 = slot10(slot11)
 
-						if slot9 then
-							slot9 = setText
-							slot10 = slot0
-							slot10 = slot10.intimacyDesc
-							slot11 = i18n
-							slot12 = "intimacy_desc_propose_vertical"
-							slot13 = pg
-							slot13 = slot13.TimeMgr
-							slot13 = slot13.GetInstance
-							slot13 = slot13()
-							slot14 = slot13
-							slot13 = slot13.DescTime
-							slot15 = slot0
-							slot15 = slot15.shipVO
-							slot15 = slot15.proposeTime
-							slot16 = "%m/%d/%Y"
+						if not slot10 then
+							slot10 = true
+							slot9.enabled = slot10
+							slot10 = setText
+							slot11 = slot0
+							slot11 = slot11.intimacyDesc
+							slot12 = i18n
+							slot13 = "intimacy_desc_propose_vertical"
+							slot14 = pg
+							slot14 = slot14.TimeMgr
+							slot14 = slot14.GetInstance
+							slot14 = slot14()
+							slot15 = slot14
+							slot14 = slot14.ChieseDescTime
+							slot16 = slot0
+							slot16 = slot16.shipVO
+							slot16 = slot16.proposeTime
 							slot17 = true
 
-							slot9(slot10, slot11(slot12, slot13(slot14, slot15, slot16, slot17)))
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17)))
 						else
-							slot9 = setText
-							slot10 = slot0
-							slot10 = slot10.intimacyDesc
-							slot11 = i18n
-							slot12 = "intimacy_desc_propose"
-							slot13 = pg
-							slot13 = slot13.TimeMgr
-							slot13 = slot13.GetInstance
-							slot13 = slot13()
-							slot14 = slot13
-							slot13 = slot13.DescTime
-							slot15 = slot0
-							slot15 = slot15.shipVO
-							slot15 = slot15.proposeTime
-							slot16 = "%m/%d/%Y"
-							slot17 = true
+							slot10 = setText
+							slot11 = slot0
+							slot11 = slot11.intimacyDesc
+							slot12 = i18n
+							slot13 = "intimacy_desc_propose"
+							slot14 = pg
+							slot14 = slot14.TimeMgr
+							slot14 = slot14.GetInstance
+							slot14 = slot14()
+							slot15 = slot14
+							slot14 = slot14.DescTime
+							slot16 = slot0
+							slot16 = slot16.shipVO
+							slot16 = slot16.proposeTime
+							slot17 = "%Y年%m月%d日"
+							slot18 = true
 
-							slot9(slot10, slot11(slot12, slot13(slot14, slot15, slot16, slot17)))
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
 						end
 					end
 				end
 			else
+				slot9 = slot1
+
+				if slot9 == "ProposeJpUI" then
+					slot9 = GetComponent
+					slot10 = slot0
+					slot10 = slot10.intimacyDesc
+					slot11 = "VerticalText"
+					slot9 = slot9(slot10, slot11)
+					slot10 = IsNil
+					slot11 = slot9
+					slot10 = slot10(slot11)
+
+					if not slot10 then
+						slot10 = false
+						slot9.enabled = slot10
+					end
+				end
+
 				slot9 = slot0
 				slot9 = slot9.intimacyDescPic
 
@@ -1118,10 +1140,9 @@ function slot2(slot0)
 	end
 
 	slot1 = LeanTween
-	slot2 = slot1
 	slot1 = slot1.cancelAll
 
-	slot1(slot2)
+	slot1()
 
 	slot1 = pg
 	slot1 = slot1.CriMgr

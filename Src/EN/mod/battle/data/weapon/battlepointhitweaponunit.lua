@@ -183,16 +183,14 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 
 	if slot2 == nil then
 		slot0:updateMovementInfo()
-
-		slot5 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot0:TrackingRandom(slot0:GetFilteredList()) ~= nil or Vector3.zero) and slot2:GetPosition() and slot2:GetPosition())
+		slot0:setBulletSkin(slot5, slot1)
+		slot0:TriggerBuffWhenSpawn(slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot0:TrackingRandom(slot0:GetFilteredList()) ~= nil or Vector3.zero) and slot2:GetPosition() and slot2:GetPosition()))
 
 		if slot3 == slot0.INTERNAL then
 			slot5:SetDamageEnhance(1 + slot0._host:GetAttrByName("initialEnhancement"))
+			slot0:TriggerBuffWhenSpawn(slot5, slot0.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
 		end
 	end
-
-	slot0:setBulletSkin(slot5, slot1)
-	slot0:TriggerBuffWhenSpawn(slot5)
 
 	return slot5
 end
@@ -203,6 +201,8 @@ function slot4.SpawnPointBullet(slot0, slot1, slot2)
 	slot0:setBulletSkin(slot3, slot1)
 	slot3:SetDamageEnhance(slot0.Battle.BattleConfig.ChargeWeaponConfig.Enhance + slot0._host:GetAttrByName("initialEnhancement") + slot0._host:GetAttrByName("manualEnhancement"))
 	slot0:TriggerBuffWhenSpawn(slot3)
+	slot0:TriggerBuffWhenSpawn(slot3, slot1.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
+	slot0:TriggerBuffWhenSpawn(slot3, slot1.BuffEffectType.ON_MANUAL_BULLET_CREATE)
 
 	return slot3
 end

@@ -1,16 +1,17 @@
 slot0 = class("PtAwardWindow")
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
+	slot0.binder = slot2
 	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
 	slot0.totalTxt = slot0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 	slot0.totalTitleTxt = slot0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
 	slot0.closeBtn = slot0._tf:Find("window/top/btnBack")
 
-	onButton(nil, slot0._tf, function ()
+	onButton(slot0.binder, slot0._tf, function ()
 		slot0:Hide()
 	end, SFX_PANEL)
-	onButton(nil, slot0.closeBtn, function ()
+	onButton(slot0.binder, slot0.closeBtn, function ()
 		slot0:Hide()
 	end, SFX_PANEL)
 end
@@ -21,13 +22,13 @@ function slot1(slot0, slot1, slot2, slot3)
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 			setText(slot2:Find("target/Text"), slot4)
 			setText(slot2:Find("target/title"), slot2.resTitle)
-			updateDrop(slot2:Find("award"), {
-				type = slot0[slot1 + 1][1],
-				id = slot0[slot1 + 1][2],
-				count = slot0[slot1 + 1][3]
+			updateDrop(slot2:Find("award"), slot5, {
+				hideName = true
 			})
+			onButton(slot2.binder, slot2:Find("award"), function ()
+				slot0.binder:emit(BaseUI.ON_DROP, slot0.binder)
+			end, SFX_PANEL)
 			setActive(slot2:Find("award/mask"), slot1 + 1 <= slot0[slot1 + 1])
-			removeOnButton(slot2:Find("award"))
 		end
 	end)
 	slot0.UIlist:align(#slot1)

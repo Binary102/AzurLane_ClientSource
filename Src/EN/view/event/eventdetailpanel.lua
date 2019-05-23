@@ -9,9 +9,9 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.dispatch = slot2
 	slot0.btn = slot0:findTF("btn").gameObject
 	slot0.conditions = findTF(slot0.tr, "conditions")
-	slot0.condition1 = ScrollTxt.New(findTF(slot0.conditions, "condition_1/txt_mask"), findTF(slot0.conditions, "condition_1/txt_mask/Text"), true)
-	slot0.condition2 = ScrollTxt.New(findTF(slot0.conditions, "condition_2/txt_mask"), findTF(slot0.conditions, "condition_2/txt_mask/Text"), true)
-	slot0.condition3 = ScrollTxt.New(findTF(slot0.conditions, "condition_3/txt_mask"), findTF(slot0.conditions, "condition_3/txt_mask/Text"), true)
+	slot0.condition1 = ScrollTxt.New(findTF(slot0.conditions, "condition_1"), findTF(slot0.conditions, "condition_1/Text"), true)
+	slot0.condition2 = ScrollTxt.New(findTF(slot0.conditions, "condition_2"), findTF(slot0.conditions, "condition_2/Text"), true)
+	slot0.condition3 = ScrollTxt.New(findTF(slot0.conditions, "condition_3"), findTF(slot0.conditions, "condition_3/Text"), true)
 	slot0.consume = slot0:findTF("consume/Text")
 	slot0.leftShips = slot0:findTF("frame/ship_contain_left")
 	slot0.rightShips = slot0:findTF("frame/ship_contain_right")

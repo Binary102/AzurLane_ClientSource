@@ -2632,6 +2632,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1230001] = {
+		map = 1230001,
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 30136,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220001",
+		cloud_suffix = "",
+		bg = "map_1220001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230002] = {
+		map = 1230002,
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 30137,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220002",
+		cloud_suffix = "",
+		bg = "map_1220002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230011] = {
+		map = 1230011,
+		name = "Scherzo of Iron and Blood - Part 1|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 30136,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220003",
+		cloud_suffix = "",
+		bg = "map_1220003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230012] = {
+		map = 1230012,
+		name = "Scherzo of Iron and Blood - Part 2| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 30137,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230020] = {
+		map = 1230020,
+		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 30137,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230021] = {
+		map = 1230021,
+		name = "Scherzo of Iron and Blood – EX|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 8,
+		on_activity = 30137,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2692,7 +2938,13 @@ pg.expedition_data_by_map = {
 		1190011,
 		1190021,
 		1220001,
-		1220021
+		1220021,
+		1230001,
+		1230002,
+		1230011,
+		1230012,
+		1230020,
+		1230021
 	}
 }
 

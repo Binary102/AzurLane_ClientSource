@@ -14,7 +14,7 @@ function slot0.OnInit(slot0)
 	end
 
 	setText(slot3, slot0.summaryInfoVO.firstLadyTime)
-	setPaintingPrefabAsync(slot5, slot6, "jiesuan")
+	setPaintingPrefabAsync(slot5, slot6, "chuanwu")
 	setActive(slot0._go, false)
 end
 

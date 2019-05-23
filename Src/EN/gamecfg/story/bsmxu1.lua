@@ -83,7 +83,7 @@ return {
 			blackBg = true,
 			actor = 900180,
 			nameColor = "#a9f548",
-			say = "What happens when I come back from my first sortie with nothing to show for it? I couldn't face Big Brother Bismarck like that!",
+			say = "What happens when I come back from my first sortie with nothing to show for it? I couldn't face Lord Bismarck like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

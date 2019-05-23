@@ -3433,7 +3433,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 70130,
 		desc = "Commander... Sakura Empire's New Year, looks very fun, let's go together...? (Eldridge looks at you expectantly) ",
-		voice_actor = -1,
+		voice_actor = 54,
 		air_bomb_skin = "",
 		illustrator = 5,
 		rarity_bg = "",
@@ -17633,6 +17633,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201290] = {
+		ship_group = 20129,
+		name = "Echo ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "huisheng",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 201290,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "huisheng",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "E-class destroyer – Echo. ",
+		voice_actor = 184,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.4,
+					0.76,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.23,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.23,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.69,
+					0.74,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.32,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202010] = {
 		ship_group = 20201,
 		name = "Leander",
@@ -21749,7 +21855,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "London-class heavy cruiser, Sussex. Hull Number 96.",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -23152,6 +23258,105 @@ pg.ship_skin_template = {
 							-0.23,
 							2.32,
 							-1.03
+						}
+					}
+				}
+			}
+		}
+	},
+	[205050] = {
+		ship_group = 20505,
+		name = "King George V ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "qiaozhiwushi",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 205050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "qiaozhiwushi",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "King George V-class battleship – King George V. ",
+		voice_actor = 183,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand2",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.07,
+					1.4,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.99,
+					1.39,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.3,
+							0.4
 						}
 					}
 				}
@@ -29383,7 +29588,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Hatsuharu-class Destroyer, number 4 - Hatsushimo ",
-		voice_actor = -1,
+		voice_actor = 180,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -33376,7 +33581,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Merry Christmas ~指挥官，我们一起去给驱逐妹妹们送圣诞礼物吧，指挥官是圣诞老人，而我就是驯鹿，嘻嘻~",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -33583,7 +33788,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "{namecode:145}级驱逐舰四番舰—{namecode:148}",
-		voice_actor = -1,
+		voice_actor = 135,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -38991,7 +39196,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Fast Battleship, second ship of the Kongou-class Hiei.",
-		voice_actor = -1,
+		voice_actor = 76,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -43495,7 +43700,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Aircraft carrier Akagi.",
-		voice_actor = -1,
+		voice_actor = 44,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -45730,6 +45935,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401360] = {
+		ship_group = 40136,
+		name = "Z36",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Z36",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 401360,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z36",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Type 1936B destroyer - Z36 ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.2,
+					0.55,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.22,
+					0.5,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.023,
+					0.028,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.6,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.24,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401460] = {
 		ship_group = 40146,
 		name = "Z46",
@@ -46430,6 +46741,112 @@ pg.ship_skin_template = {
 						{
 							-0.64,
 							2.606,
+							-0.472
+						}
+					}
+				}
+			}
+		}
+	},
+	[402039] = {
+		ship_group = 40203,
+		name = "Köln (Retrofit) ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "kelong_g",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		id = 402039,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kelong_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Hmm... I feel like I can work even more efficiently than before. Commander, please rest assured, I will never betray your expectations. ",
+		voice_actor = 78,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					0.389,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.216,
+					0.372,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0.041,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.4,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.401,
 							-0.472
 						}
 					}
@@ -48046,6 +48463,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[405010] = {
+		ship_group = 40501,
+		name = "Bismarck ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "bisimai",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 405010,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bisimai",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Bismarck-class battleship – Bismarck. ",
+		voice_actor = 38,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.42,
+					1.3,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.42,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.42,
+					0.88,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.526,
+							2.453,
+							-1.54
+						}
+					}
+				}
+			}
+		}
+	},
 	[405020] = {
 		ship_group = 40502,
 		name = "Tirpitz",
@@ -48299,7 +48822,7 @@ pg.ship_skin_template = {
 		no_showing = "0",
 		painting = "qibolin",
 		air_bullet_skin = "",
-		hand_id = 5,
+		hand_id = 1,
 		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -48762,6 +49285,374 @@ pg.ship_skin_template = {
 				{
 					0.8,
 					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408040] = {
+		ship_group = 40804,
+		name = "U-556",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U556",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 408040,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U556",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Iron Blood Type VIIC submarine – U-556. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.8,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408041] = {
+		ship_group = 40804,
+		name = "Party Knight! ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U556_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 408041,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U556_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "It's me, U-556, all prettied up! Eheheheh, we're gonna have lots of fun at this party, Commander! Come on, let's go! ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.8,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.18,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408050] = {
+		ship_group = 40805,
+		name = "U-73",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U73",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 408050,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U73",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Iron Blood Type VIIB submarine – U-73. ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.84,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.8,
+					0.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408051] = {
+		ship_group = 40805,
+		name = "Science Rules! ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "U73_3",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 408051,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "U73_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "It's time for science class with U-73! Now, Commander, let's try out an exhilarating and positively fascinating experiment! ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.643,
+					0.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
 					0
 				}
 			}
@@ -54696,7 +55587,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Yorktown-class aircraft carrier, Enterprise. Hull Number CV-6.",
-		voice_actor = -1,
+		voice_actor = 31,
 		air_bomb_skin = "",
 		illustrator = 8,
 		rarity_bg = "",
@@ -54801,7 +55692,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "No description",
-		voice_actor = -1,
+		voice_actor = 0,
 		air_bomb_skin = "",
 		illustrator = 0,
 		rarity_bg = "",
@@ -54920,7 +55811,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Yorktown-class aircraft carrier, Enterprise. Hull Number CV-6.",
-		voice_actor = -1,
+		voice_actor = 31,
 		air_bomb_skin = "",
 		illustrator = 8,
 		rarity_bg = "",
@@ -55025,7 +55916,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "I'm Blanc, awaiting your orders. Could you tell me something interesting about the world?",
-		voice_actor = -1,
+		voice_actor = 81,
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "nepwhite",
@@ -55124,7 +56015,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "I'm the Goddess of Leanbox, Vert! I'm exceptionally skilled at shooting games. Feel free to ask me for help!",
-		voice_actor = -1,
+		voice_actor = 65,
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "nepgreen",
@@ -58125,7 +59016,7 @@ pg.ship_skin_template = {
 		painting = "junzhu_2",
 		air_bullet_skin = "",
 		hand_id = 1,
-		shop_type_id = 9999,
+		shop_type_id = 7,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -58651,7 +59542,7 @@ pg.ship_skin_template = {
 		no_showing = "1",
 		painting = "chuyun_2",
 		air_bullet_skin = "",
-		hand_id = 1,
+		hand_id = 2,
 		shop_type_id = 2,
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -59112,6 +60003,7 @@ pg.ship_skin_template = {
 		201238,
 		201260,
 		201270,
+		201290,
 		202010,
 		202019,
 		202020,
@@ -59161,6 +60053,7 @@ pg.ship_skin_template = {
 		205031,
 		205040,
 		205041,
+		205050,
 		205060,
 		205061,
 		205062,
@@ -59372,12 +60265,14 @@ pg.ship_skin_template = {
 		401250,
 		401251,
 		401350,
+		401360,
 		401460,
 		401461,
 		402010,
 		402020,
 		402029,
 		402030,
+		402039,
 		402040,
 		403010,
 		403030,
@@ -59392,6 +60287,7 @@ pg.ship_skin_template = {
 		403052,
 		404010,
 		404020,
+		405010,
 		405020,
 		405021,
 		407010,
@@ -59399,6 +60295,10 @@ pg.ship_skin_template = {
 		407020,
 		408010,
 		408030,
+		408040,
+		408041,
+		408050,
+		408051,
 		501010,
 		501020,
 		501030,

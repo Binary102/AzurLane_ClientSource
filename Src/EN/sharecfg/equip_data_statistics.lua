@@ -2868,7 +2868,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[720] = {
-		name = "Guardian's Promise ",
+		name = "Certificate of Sponsorship ",
 		type = 10,
 		id = 720,
 		tech = 0,
@@ -2886,7 +2886,7 @@ pg.equip_data_statistics = {
 		nationality = 4,
 		ammo = "N/A",
 		is_siren = 0,
-		descrip = "A certificate, written in earnest, to provide protection to \"Big Brother Bismarck\" on land and sea and air, even if it means towing her. ",
+		descrip = "A certificate, written in earnest, to provide protection to \"Lord Bismarck\" on land and sea and air, even if it means towing her. ",
 		value_3 = 0,
 		attribute_1 = "dodge",
 		property_rate = {},
@@ -2977,6 +2977,115 @@ pg.equip_data_statistics = {
 		base = 720,
 		value_2 = 150,
 		value_1 = "12",
+		property_rate = {}
+	},
+	[740] = {
+		name = "Fl 282 Helicopter ",
+		type = 17,
+		id = 740,
+		tech = 0,
+		nationality = 4,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "740",
+		value_1 = "9",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "Iron Blood ship-based light helicopter Fl 282 \"Kolibri.\"",
+		value_3 = 0,
+		attribute_1 = "antisub",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[741] = {
+		id = 741,
+		base = 740,
+		is_siren = 0,
+		value_1 = "10",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[742] = {
+		id = 742,
+		base = 740,
+		is_siren = 0,
+		value_1 = "11",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[743] = {
+		id = 743,
+		base = 740,
+		is_siren = 0,
+		value_1 = "12",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[744] = {
+		id = 744,
+		base = 740,
+		is_siren = 0,
+		value_1 = "13",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[745] = {
+		id = 745,
+		base = 740,
+		is_siren = 0,
+		value_1 = "14",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[746] = {
+		id = 746,
+		base = 740,
+		is_siren = 0,
+		value_1 = "16",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[747] = {
+		id = 747,
+		base = 740,
+		is_siren = 0,
+		value_1 = "18",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[748] = {
+		id = 748,
+		base = 740,
+		is_siren = 0,
+		value_1 = "20",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[749] = {
+		id = 749,
+		base = 740,
+		is_siren = 0,
+		value_1 = "22",
+		weapon_id = {},
+		property_rate = {}
+	},
+	[750] = {
+		id = 750,
+		base = 740,
+		is_siren = 0,
+		value_1 = "24",
+		weapon_id = {},
 		property_rate = {}
 	},
 	[1000] = {
@@ -52183,6 +52292,46 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[71091] = {
+		name = "全弹发射-E级I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "N/A",
+		value_3 = 0,
+		id = 71091,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71091
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[71092] = {
+		id = 71092,
+		name = "全弹发射-E级II",
+		base = 71091,
+		is_siren = 0,
+		weapon_id = {
+			71092
+		},
+		property_rate = {}
+	},
 	[71111] = {
 		name = "0",
 		type = 1,
@@ -53982,6 +54131,46 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		weapon_id = {
 			73312
+		},
+		property_rate = {}
+	},
+	[73411] = {
+		name = "全弹发射-Type VIIB型I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "N/A",
+		value_3 = 0,
+		id = 73411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			73411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[73412] = {
+		id = 73412,
+		name = "全弹发射-Type VIIB型II",
+		base = 73411,
+		is_siren = 0,
+		weapon_id = {
+			73412
 		},
 		property_rate = {}
 	},
@@ -58491,6 +58680,17 @@ pg.equip_data_statistics = {
 		728,
 		729,
 		730,
+		740,
+		741,
+		742,
+		743,
+		744,
+		745,
+		746,
+		747,
+		748,
+		749,
+		750,
 		1000,
 		1001,
 		1002,
@@ -62212,6 +62412,8 @@ pg.equip_data_statistics = {
 		71072,
 		71081,
 		71082,
+		71091,
+		71092,
 		71111,
 		71112,
 		71121,
@@ -62302,6 +62504,8 @@ pg.equip_data_statistics = {
 		73222,
 		73311,
 		73312,
+		73411,
+		73412,
 		74011,
 		74012,
 		74111,

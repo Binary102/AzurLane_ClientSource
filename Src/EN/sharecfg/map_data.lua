@@ -1160,6 +1160,35 @@ pg.map_data = {
 			r = 0.03
 		}
 	},
+	[50026] = {
+		long_speed = 0.5,
+		long_pos = "-60.1, -57.6, 204.0;5.3, -57.7, 204.0;31.1, -57.7, 204.0;60.6, -57.7, 204.0;88.8, -57.6, 204.0;123.6, -57.7, 204.0",
+		close_pos = "-14.6, -22.0, 134.4;140.7, -22.0, 134.4;88.1, -22.0, 134.4;40.3, -22.0, 134.4",
+		long_scale = "5.0, 5.0, 5.0;5.0, 5.0, 5.0;5.0, 5.0, 5.0;5.0, 5.0, 5.0;5.0, 5.0, 5.0;5.0, 5.0, 5.0",
+		sky_pos = "-23.8, -63.4, 215.2;-30.3, -80.8, 260.5;-41.5, -59.5, 208.8",
+		map_id = 50026,
+		sea_shot = "gelidai;sea_bisimai",
+		close_scale = "6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0",
+		sea_pos = "-27.1, -5.6, 54.0;-43.0, -1.0, 52.8",
+		sea_scale = "9.4, 23.9, 28.4;22.5, 1.0, 12.2",
+		range_left = -200,
+		range_right = 244.6,
+		sky_scale = "5.0, 5.0, 5.0;12.6, 9.1, 1.2;-1120.0, 18.0, 0.9",
+		mid_scale = "6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0;6.0, 6.0, 6.0",
+		close_shot = "bisimai_jinjing01;bisimai_jinjing02;bisimai_jinjing01;bisimai_jinjing02",
+		long_shot = "bisimai_yuanjing01;bisimai_yuanjing02;bisimai_yuanjing01;bisimai_yuanjing02;bisimai_yuanjing01;bisimai_yuanjing02",
+		sky_shot = "bisimai_yuanjing03;sky_bisimai;wuqi_bisimai",
+		mid_pos = "41.1, -29.5, 154.0;-41.1, -30.2, 154.0;104.6, -32.3, 154.0;156.0, -30.2, 154.0",
+		mid_shot = "bisimai_zhongjing01;bisimai_zhongjing02;bisimai_zhongjing03;bisimai_zhongjing04",
+		mid_speed = 2.34,
+		close_speed = 4.29,
+		diving_filter = {
+			g = 0.03,
+			a = 0.35,
+			b = 0.23,
+			r = 0.03
+		}
+	},
 	[90000] = {
 		long_speed = 1,
 		long_pos = "4.3, -57.6, 204.0;32.9, -57.7, 204.0;52.6, -57.6, 204.0;90.8, -57.7, 204.0;123.6, -57.6, 204.0;169.9, -57.7, 204.0;-69.0, -57.7, 204.0;-37.7, -57.6, 204.0;-7.5, -57.7, 204.0",
@@ -1375,6 +1404,7 @@ pg.map_data = {
 		50023,
 		50024,
 		50025,
+		50026,
 		90000,
 		90001,
 		90002,

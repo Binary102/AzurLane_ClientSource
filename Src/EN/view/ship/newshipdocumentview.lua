@@ -32,7 +32,7 @@ end
 function slot0.initSkills(slot0)
 	slot3 = 1
 
-	for slot7, slot8 in ipairs(pg.ship_data_template[slot0._shipVO:getMaxConfigId()].buff_list) do
+	for slot7, slot8 in ipairs(pg.ship_data_template[slot0._shipVO:getMaxConfigId()].buff_list_display) do
 		slot9 = getSkillConfig(slot8)
 		slot11 = nil
 

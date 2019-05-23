@@ -11,7 +11,7 @@ function slot1.Ctor(slot0, slot1)
 	slot0._hpBar = slot0._hpBarTF.gameObject
 	slot0._hpBarProgress = slot0._hpBarTF:GetComponent(typeof(Image))
 	slot0._hpBarText = slot0._hpBarTF:Find("Text"):GetComponent(typeof(Text))
-	slot0._nameText = slot1:Find("nameContain/name"):GetComponent(typeof(Text))
+	slot0._nameTF = slot1:Find("nameContain/name")
 	slot0._lvText = slot1:Find("nameContain/Text"):GetComponent(typeof(Text))
 	slot0._level = slot1:Find("level")
 	slot0._typeIcon = slot1:Find("typeIcon/icon"):GetComponent(typeof(Image))
@@ -74,11 +74,16 @@ function slot1.SwitchTarget(slot0, slot1, slot2)
 	slot0:UpdateHpText(slot1)
 	slot0:SetIconType(slot1:GetTemplate().icon_type ~= 0)
 
-	slot0._typeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2Battleprint(slot0.SetIconType))
+	slot0._typeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2Battleprint(slot0.Battle.BattleDataFunction.GetEnemyTypeDataByType(slot1:GetTemplate().type).type))
 
 	slot0._typeIcon:SetNativeSize()
 
-	slot0._nameText.text = slot1._tmpData.name
+	if not slot0._scrollNameText then
+		slot0._scrollNameText = ScrollTxt:changeToScroll(slot0._nameTF)
+	end
+
+	slot0._scrollNameText:setText(slot1._tmpData.name)
+
 	slot0._lvText.text = " Lv." .. slot1:GetLevel()
 end
 
@@ -138,6 +143,12 @@ function slot1.Dispose(slot0)
 	slot0._hpBarTF = nil
 	slot0._monsterTF = nil
 	slot0._monster = nil
+
+	if slot0._scrollNameText then
+		slot0._scrollNameText:destroy()
+
+		slot0._scrollNameText = nil
+	end
 end
 
 return

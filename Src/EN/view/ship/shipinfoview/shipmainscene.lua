@@ -100,6 +100,8 @@ function slot0.checkToggleActive(slot0, slot1)
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip()
 	elseif slot1 == ShipViewConst.PAGE.REMOULD then
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId]
+	else
+		return false
 	end
 end
 
@@ -400,7 +402,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
 	})
-	slot0:gotoPage(defaultValue(slot0.contextData.page, ShipViewConst.PAGE.DETAIL))
+	slot0:gotoPage((slot0:checkToggleActive(slot0.contextData.page) and slot0.contextData.page) or ShipViewConst.PAGE.DETAIL)
 
 	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL then
 		slot0:displayShipWord(slot0:getInitmacyWords())
@@ -602,7 +604,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 
 		setActive(slot0.chat, true)
 
-		slot0.chat.localPosition = Vector3(slot0.character.localPosition.x, slot0.chat.localPosition.y, 0)
+		slot0.chat.localPosition = Vector3(slot0.character.localPosition.x + 100, slot0.chat.localPosition.y, 0)
 
 		slot0.chat:SetAsLastSibling()
 
@@ -934,7 +936,7 @@ function slot0.switchPainting(slot0)
 	slot1.FrameName = slot0.paintingFrameName
 	slot2 = LeanTween.value(go(slot0.painting), 0, 1, slot0):setOnUpdate(System.Action_float(function (slot0)
 		slot0.Tween = slot0
-		slot0.chat.localPosition = Vector3(slot1.character.localPosition.x, slot1.chat.localPosition.y, 0)
+		slot0.chat.localPosition = Vector3(slot1.character.localPosition.x + 100, slot1.chat.localPosition.y, 0)
 
 		return
 	end)):setEase(LeanTweenType.easeInOutSine)
@@ -955,6 +957,10 @@ end
 function slot0.loadPainting(slot0, slot1)
 	if slot0.isLoading == true then
 		return
+	end
+
+	for slot5, slot6 in pairs(slot0.tablePainting) do
+		slot6.localScale = Vector3(1, 1, 1)
 	end
 
 	if slot0.LoadShipVOId and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 then

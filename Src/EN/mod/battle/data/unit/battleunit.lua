@@ -281,8 +281,9 @@ function slot9.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot3 and not slot3:EqualZero() then
 		slot14 = slot0:GetPosition()
-		slot3.x = Mathf.Clamp(slot3.x, slot14.x - slot0:GetBoxSize().x, slot14.x + slot0.GetBoxSize().x)
-		slot13.posOffset = slot14 - slot3
+		slot18 = slot3:Clone()
+		slot18.x = Mathf.Clamp(slot18.x, slot14.x - slot0:GetBoxSize().x, slot14.x + slot0.GetBoxSize().x)
+		slot13.posOffset = slot14 - slot18
 	end
 
 	slot0:DispatchEvent(slot2.Event.New(slot3.UPDATE_HP, slot13))

@@ -20,7 +20,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateIconDesc(slot1, slot2)
 
 	slot0.nameTxt.text = slot1:getConfig("name")
-	slot0.stateTxt.text = setColorStr((slot1:isOwned() and i18n1("Granted")) or i18n1("Ungranted"), (slot3 and "#3DC6FFFF") or "#a5afdf")
+	slot0.stateTxt.text = setColorStr((slot1:isOwned() and i18n("word_got")) or i18n("word_not_get"), (slot3 and "#3DC6FFFF") or "#a5afdf")
 	slot5 = slot1:expiredType()
 
 	slot0:RemoveTimer()

@@ -186,9 +186,13 @@ end
 function slot0.Filter(slot0)
 	slot0.displayVOs = {}
 
-	for slot4, slot5 in pairs(slot0.trophys) do
-		if ((slot0.selectMaxLevel and slot5:isMaxLevel()) or not slot0.selectMaxLevel) and slot5:isClaimed() and not slot5:isHide() then
-			table.insert(slot0.displayVOs, slot5)
+	function slot1(slot0)
+		return slot0.trophys[slot0:getConfig("next")] and slot1:isClaimed() and not slot1:isHide()
+	end
+
+	for slot5, slot6 in pairs(slot0.trophys) do
+		if slot6:isClaimed() and not slot6:isHide() and (not slot0.selectMaxLevel or (slot0.selectMaxLevel and not slot1(slot6))) then
+			table.insert(slot0.displayVOs, slot6)
 		end
 	end
 
@@ -197,14 +201,14 @@ function slot0.Filter(slot0)
 	end)
 
 	if slot0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount - #slot0.displayVOs % slot0.scolrect.content.GetComponent(typeof(GridLayoutGroup)).constraintCount == slot0.scolrect.content.GetComponent(typeof(GridLayoutGroup)).constraintCount then
-		slot3 = 0
+		slot4 = 0
 	end
 
-	if slot2 * slot0:GetColumn() > #slot0.displayVOs then
-		slot3 = slot4 - #slot0.displayVOs
+	if slot3 * slot0:GetColumn() > #slot0.displayVOs then
+		slot4 = slot5 - #slot0.displayVOs
 	end
 
-	for slot8 = 1, slot3, 1 do
+	for slot9 = 1, slot4, 1 do
 		table.insert(slot0.displayVOs, false)
 	end
 

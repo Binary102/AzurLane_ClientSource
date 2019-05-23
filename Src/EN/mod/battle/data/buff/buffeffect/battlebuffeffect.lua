@@ -333,6 +333,22 @@ function ys.Battle.BattleBuffEffect.onAntiAirWeaponBulletCreate(slot0, slot1, sl
 	slot0:onBulletCreate(slot1, slot2, slot3)
 end
 
+function ys.Battle.BattleBuffEffect.onInternalBulletCreate(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
+function ys.Battle.BattleBuffEffect.onManualBulletCreate(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:onTrigger(slot1, slot2, slot3)
+end
+
 function ys.Battle.BattleBuffEffect.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot0:damageAttrRequire(slot3.damageAttr) then
 		slot0:onTrigger(slot1, slot2, slot3)

@@ -1,7 +1,7 @@
 slot0 = class("PrayPoolSelectShipView", import("..base.BaseSubView"))
 slot0.WIDTH_MIN = 328
 slot0.WIDTH_MAX = 438
-slot0.FONT_SIZE_MIN = 60
+slot0.FONT_SIZE_MIN = 55
 slot0.FONT_SIZE_MID = 44
 slot0.FONT_SIZE_MAX = 34
 
@@ -37,14 +37,13 @@ function slot0.OnDestroy(slot0)
 	return
 end
 
+function slot0.OnBackPress(slot0)
+	return
+end
+
 function slot0.initData(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 	slot0.poolType = slot0.prayProxy:getSelectedPoolType()
-	slot0.probabilityList = pg.activity_ship_create[slot0.poolType].ratio_display
-	slot0.glodRatio = slot0.probabilityList[1] / 100
-	slot0.purpleRatio = slot0.probabilityList[2] / 100
-	slot0.blueRatio = slot0.probabilityList[3] / 100
-	slot0.whiteRatio = slot0.probabilityList[4] / 100
 	slot0.selectedCount = slot0.prayProxy:getSelectedShipCount()
 	slot0.pickUpNum = pg.activity_ship_create[slot0.poolType].pickup_num
 	slot0.fliteList = Clone(pg.activity_ship_create[slot0.poolType].pickup_list)
@@ -78,7 +77,7 @@ function slot0.initUI(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
-			content = "祈愿池的选择一旦确认将无法更改",
+			content = i18n("warning_pray_build_pool"),
 			onYes = function ()
 				slot0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
 					pooltype = slot0.prayProxy:getSelectedPoolType(),
@@ -125,32 +124,49 @@ function slot0.updateSelectedShipList(slot0)
 		slot9 = slot0:findTF("Tip", slot7)
 		slot11 = slot0:findTF("Btn", slot7)
 		slot12 = slot0:findTF("Name/Text", slot10)
-		slot13 = slot0:findTF("Ratio/NumImg", slot0:findTF("Info", slot7))
+		slot13 = slot0:findTF("RarityBG", slot7)
+		slot14 = slot0:findTF("Ratio/NumImg", slot0:findTF("Info", slot7))
 
 		if slot1[slot5] then
 			setActive(slot8, true)
-			setPaintingPrefabAsync(slot8, Ship.getPaintingName(slot6))
+			setPaintingPrefabAsync(slot8, Ship.getPaintingName(slot6), "biandui")
 			setActive(slot9, false)
 			setActive(slot10, true)
-			setText(slot12, pg.ship_data_statistics[slot6].name)
+			setText(slot12, slot15)
+
+			slot16 = slot12.localPosition
 
 			if #pg.ship_data_statistics[slot6].name <= 6 then
 				slot10.sizeDelta = Vector2(slot0.WIDTH_MIN, slot10.sizeDelta.y)
 				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MIN
-			elseif slot15 <= 18 then
+
+				setAnchoredPosition(slot12, {
+					y = 14
+				})
+			elseif slot17 <= 18 then
 				slot10.sizeDelta = Vector2(slot0.WIDTH_MAX, slot10.sizeDelta.y)
 				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MID
-			elseif slot15 >= 21 then
+
+				setAnchoredPosition(slot12, {
+					y = 19
+				})
+			elseif slot17 >= 21 then
 				slot10.sizeDelta = Vector2(slot0.WIDTH_MAX, slot10.sizeDelta.y)
 				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MAX
+
+				setAnchoredPosition(slot12, {
+					y = 25
+				})
 			end
 
-			setImageSprite(slot13, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "ratio_" .. slot16), true)
-			setImageSprite(slot8, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "bg_rarity_" .. pg.ship_data_statistics[slot6].rarity), true)
+			setImageSprite(slot14, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "ratio_" .. slot18), true)
+			setActive(slot13, true)
+			setImageSprite(slot13, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "bg_rarity_" .. pg.ship_data_statistics[slot6].rarity))
 		else
 			setActive(slot8, false)
 			setActive(slot9, true)
 			setActive(slot10, false)
+			setActive(slot13, false)
 		end
 
 		onButton(slot0, slot11, function ()
@@ -183,7 +199,7 @@ function slot0.updateShipList(slot0, slot1)
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", slot3)
 		setFrame(slot4, slot6)
 		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
-		setText(slot9, slot8)
+		setText(slot9, shortenString(slot8, 6))
 
 		slot10 = slot1:findTF("BG/SelectedImg", slot1)
 
@@ -219,10 +235,14 @@ function slot0.updateShipList(slot0, slot1)
 					SetActive(slot0.selectedCount - 1, false)
 					SetActive:updateSelectedShipList()
 				else
-					pg.TipsMgr:GetInstance():ShowTips("可选角色已满")
+					pg.TipsMgr:GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
 				end
 			end
 		end, SFX_PANEL)
+	end
+
+	function slot0.shipListSC.onReturnItem(slot0, slot1)
+		return
 	end
 
 	slot0.shipListSC:SetTotalCount(#slot1)

@@ -12,6 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.goBtn = slot0._tf:Find("frame/go_btn")
 	slot0.finishedBtn = slot0._tf:Find("frame/finish_btn")
 	slot0.toggle = slot0._tf:Find("frame")
+	slot0.tip = slot0._tf:Find("frame/tip")
 	slot0.finishedCounterContainer = slot0._tf:Find("frame/counter/finished")
 	slot0.ongoingCounterContainer = slot0._tf:Find("frame/counter/ongoing")
 	slot0.leisureCounterContainer = slot0._tf:Find("frame/counter/leisure")
@@ -24,6 +25,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	setActive(slot0.ongoingCounterContainer, false)
 	setActive(slot0.leisureCounterContainer, false)
 	pg.DelegateInfo.New(slot0)
+end
+
+function slot0.updateTips(slot0, slot1)
+	slot0.tip.localScale = Vector3(1, (slot1 and -1) or 1, 1)
 end
 
 function slot0.update(slot0)

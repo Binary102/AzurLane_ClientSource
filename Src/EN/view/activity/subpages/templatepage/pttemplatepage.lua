@@ -22,16 +22,6 @@ function slot1(slot0)
 	slot0.slider = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/slider/Text"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.sliderTxt = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
 	slot3 = "AD/value"
 	slot1 = slot1(slot2, slot3)
 	slot2 = slot1
@@ -80,11 +70,6 @@ end
 slot0.OnInit = slot1
 
 function slot1(slot0)
-	slot1 = ActivityPtData
-	slot1 = slot1.New
-	slot2 = slot0.activity
-	slot1 = slot1(slot2)
-	slot0.ptData = slot1
 	slot1 = LoadImageSpriteAsync
 	slot3 = slot0
 	slot2 = slot0.GetBgImg
@@ -93,6 +78,11 @@ function slot1(slot0)
 
 	slot1(slot2, slot3)
 
+	slot1 = ActivityPtData
+	slot1 = slot1.New
+	slot2 = slot0.activity
+	slot1 = slot1(slot2)
+	slot0.ptData = slot1
 	slot1 = onButton
 	slot2 = slot0
 	slot3 = slot0.displayBtn
@@ -209,97 +199,21 @@ function slot1(slot0)
 	slot8 = slot8 .. slot9 .. slot10
 	slot7.text = slot8
 	slot7 = slot0.progress
-	slot8 = slot1
-	slot9 = "/"
-	slot10 = slot2
-	slot8 = slot8 .. slot9 .. slot10
-	slot7.text = slot8
-	slot7 = slot0.sliderTxt
-	slot8 = math
-	slot8 = slot8.floor
-	slot9 = math
-	slot9 = slot9.min
-	slot10 = slot6
-	slot11 = 1
-	slot9 = slot9(slot10, slot11)
-	slot9 = slot9 * 100
-	slot8 = slot8(slot9)
-	slot9 = "%"
-	slot8 = slot8 .. slot9
-	slot7.text = slot8
-	slot7 = slot0.slider
-	slot7.value = slot6
-	slot7 = slot0.ptData
-	slot8 = slot7
-	slot7 = slot7.CanGetAward
-	slot7 = slot7(slot8)
-	slot8 = slot0.ptData
-	slot9 = slot8
-	slot8 = slot8.GetAllAward
-	slot8 = slot8(slot9)
-	slot9 = slot0.ptData
-	slot10 = slot9
-	slot9 = slot9.CanGetMorePt
-	slot9 = slot9(slot10)
-	slot10 = setActive
-	slot11 = slot0.battleBtn
-	slot12 = slot9 and not slot7 and not slot8
+	slot8 = 1
 
-	slot10(slot11, slot12)
+	if slot6 >= slot8 then
+		slot7.text = (setColorStr(slot1, COLOR_GREEN) or slot1) .. "/" .. slot2
+		slot0.slider.value = slot6
 
-	slot10 = setActive
-	slot11 = slot0.getBtn
-	slot12 = slot7
-
-	slot10(slot11, slot12)
-
-	slot10 = setActive
-	slot11 = slot0.gotBtn
-	slot12 = slot8
-
-	slot10(slot11, slot12)
-
-	slot10 = slot0.ptData
-	slot11 = slot10
-	slot10 = slot10.GetAward
-	slot10 = slot10(slot11)
-	slot11 = updateDrop
-	slot12 = slot0.awardTF
-	slot13 = slot10
-
-	slot11(slot12, slot13)
-
-	slot11 = onButton
-	slot12 = slot0
-	slot13 = slot0.awardTF
-
-	function slot14()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = BaseUI
-		slot2 = slot2.ON_DROP
-		slot3 = slot1
-
-		slot0(slot1, slot2, slot3)
+		setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot0.ptData:CanGetAward() and not slot0.ptData:GetAllAward())
+		setActive(slot0.getBtn, slot7)
+		setActive(slot0.gotBtn, setColorStr(slot1, COLOR_GREEN) or slot1)
+		updateDrop(slot0.awardTF, COLOR_GREEN)
+		onButton(slot0, slot0.awardTF, function ()
+			slot0:emit(BaseUI.ON_DROP, slot0)
+		end, SFX_PANEL)
 
 		return
-	end
-
-	slot15 = SFX_PANEL
-
-	slot11(slot12, slot13, slot14, slot15)
-
-	return
-
-	if not slot7 then
-		slot12 = not slot8
-	else
-		slot12 = false
-
-		if false then
-			slot12 = true
-		end
 	end
 end
 
@@ -312,21 +226,7 @@ end
 slot0.OnDestroy = slot1
 
 function slot1(slot0, slot1)
-	slot2 = pg
-	slot2 = slot2.TimeMgr
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.GetServerTime
-	slot2 = slot2(slot3)
-	slot3 = ActivityMainScene
-	slot3 = slot3.Data2Time
-
-	if not slot3 then
-		slot3 = 0
-	end
-
-	slot2 = slot2 - slot3
+	slot2 = pg.TimeMgr.GetInstance():GetServerTime() - (ActivityMainScene.Data2Time or 0)
 
 	if slot1 <= slot2 then
 		slot2 = ActivityMainScene
@@ -353,8 +253,6 @@ function slot1(slot0, slot1)
 
 		slot2(slot3, slot4, slot5)
 	end
-
-	return
 end
 
 slot0.GetWorldPtData = slot1

@@ -443,10 +443,11 @@ function slot0.updateProgress(slot0, slot1)
 			id2ItemId(1),
 			slot3.use_gold
 		})
+		setActive(slot0.shipTF, slot3.use_ship ~= 0)
 
 		if slot3.use_ship ~= 0 then
-			setActive(slot0.shipTF, true)
 			setActive(slot0.shipTF:Find("IconTpl"), slot0.contextData.materialShipIds and table.getCount(slot8) ~= 0)
+			setActive(slot0.shipTF:Find("addTF"), not (slot0.contextData.materialShipIds and table.getCount(slot8) ~= 0))
 
 			if slot0.contextData.materialShipIds and table.getCount(slot8) ~= 0 then
 				updateDrop(slot0:findTF("IconTpl", slot0.shipTF), {

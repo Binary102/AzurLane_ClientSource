@@ -663,6 +663,48 @@ pg.memory_group = {
 			777
 		}
 	},
+	[157] = {
+		title = "Science Rules!",
+		type = 2,
+		id = 157,
+		icon = "title_event",
+		memories = {
+			792,
+			793,
+			794,
+			795,
+			796
+		}
+	},
+	[158] = {
+		title = "Scherzo of Iron and Blood",
+		type = 2,
+		id = 158,
+		icon = "title_event",
+		memories = {
+			797,
+			798,
+			799,
+			800,
+			801,
+			802,
+			803,
+			804,
+			805,
+			806,
+			807,
+			808,
+			809,
+			810,
+			811,
+			812,
+			813,
+			814,
+			815,
+			816,
+			817
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -991,6 +1033,36 @@ pg.memory_group = {
 			669
 		}
 	},
+	[543] = {
+		title = "Another Leader?",
+		type = 3,
+		id = 543,
+		icon = "title_chara_qiaozhiwushi",
+		memories = {
+			778,
+			779,
+			780,
+			781,
+			782,
+			783,
+			784
+		}
+	},
+	[544] = {
+		title = "A Knight's Promise",
+		type = 3,
+		id = 544,
+		icon = "title_chara_u556story",
+		memories = {
+			785,
+			786,
+			787,
+			788,
+			789,
+			790,
+			791
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1032,6 +1104,8 @@ pg.memory_group = {
 		154,
 		155,
 		156,
+		157,
+		158,
 		501,
 		502,
 		503,
@@ -1052,7 +1126,9 @@ pg.memory_group = {
 		535,
 		536,
 		537,
-		538
+		538,
+		543,
+		544
 	}
 }
 

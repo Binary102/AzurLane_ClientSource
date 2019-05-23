@@ -1,7 +1,7 @@
 slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id).getConfig(slot3, "type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+	if getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id).getConfig(slot3, "type") == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot4 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
 		slot5, slot6, slot7 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.arg1)
 
 		if not slot5 then
@@ -155,7 +155,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		})
 		slot6:updatePlayer(slot8)
 		slot0:sendNotification(GAME.ACTIVITY_BUILD_SHIP_DONE)
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 then
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_PRAY then
 		getProxy(BagProxy):removeItemById(pg.ship_data_create_material[slot1.buildId].use_item, pg.ship_data_create_material[slot1.buildId].number_1 * slot1.arg1)
 
 		slot9 = slot6:getData()

@@ -1,7 +1,7 @@
 slot0 = class("ShipProfileScene", import("..base.BaseUI"))
 slot0.SHOW_SKILL_INFO = "event show skill info"
 slot0.SHOW_EVALUATION = "event show evalution"
-slot0.WEDDING_REVIEW = "ShipInfoMediator:WEDDING_REVIEW"
+slot0.WEDDING_REVIEW = "ShipProfileScene:WEDDING_REVIEW"
 slot0.INDEX_DETAIL = 1
 slot0.INDEX_PROFILE = 2
 slot0.INDEX_ARCHIVE = 3
@@ -80,8 +80,6 @@ function slot0.setShipGroup(slot0, slot1)
 			table.remove(slot0.groupSkinList, slot5)
 		end
 	end
-
-	slot0:reloadCVKey()
 end
 
 function slot0.setShowTrans(slot0, slot1)
@@ -93,8 +91,7 @@ function slot0.setOwnedSkinList(slot0, slot1)
 end
 
 function slot0.flushHearts(slot0)
-	SetActive(slot0.labelHeartplus, slot0.shipGroup.hearts > 999)
-	setText(slot0.labelHeart, (slot1 > 999 and "999") or slot1)
+	setText(slot0.labelHeart, (slot0.shipGroup.hearts > 999 and "999+") or slot1)
 
 	slot0.labelHeart:GetComponent("Text").color = (slot0.shipGroup.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
 
@@ -192,6 +189,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_SHIP_PROFILE
 	})
+	slot0:reloadCVKey()
 end
 
 function slot0.onBackPressed(slot0)
@@ -362,8 +360,7 @@ function slot0.initDetail(slot0)
 	slot0.detailLeft = slot0:findTF("blur_panel/adapt/detail_left_panel")
 	slot0.lockBtn = slot0:findTF("lock_btn", slot0.detailLeft)
 	slot0.unlockBtn = slot0:findTF("unlock_btn", slot0.detailLeft)
-	slot0.labelHeart = slot0:findTF("heart/label/heart", slot0.detailLeft)
-	slot0.labelHeartplus = slot0:findTF("heart/label/heart+", slot0.detailLeft)
+	slot0.labelHeart = slot0:findTF("heart/label", slot0.detailLeft)
 	slot0.btnLike = slot0:findTF("heart/btnLike", slot0.detailLeft)
 	slot0.detailRight = slot0:findTF("detail_right_panel")
 	slot0.detailRightBlurRect = slot0:findTF("bg", slot0.detailRight)
@@ -625,22 +622,37 @@ function slot0.initProfile(slot0)
 	slot0:shiftSkin(slot1)
 	slot0:setProfileInfo()
 
-	slot0.skinList = slot0:findTF("scroll/Viewport/skin_container", slot0.leftProfile)
+	slot0.skinScroll = slot0:findTF("scroll", slot0.leftProfile)
+	slot0.skinViewport = slot0:findTF("Viewport", slot0.skinScroll)
+	slot0.skinList = slot0:findTF("skin_container", slot0.skinViewport)
 
 	if #slot0.groupSkinList == 1 or slot0.showTrans then
 		setActive(slot0.skinList, false)
 	else
+		slot0.centerY = slot0.skinScroll.transform.position.y
+		slot0.skinCanvasGroup = {}
+		slot0.constant = 0.00392156862745098
+
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.RemoveAllListeners(slot4)
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.AddListener(slot4, function (slot0)
+			for slot4, slot5 in ipairs(slot0.skinCanvasGroup) do
+				slot5.alpha = slot1.SKIN_LIST_ALPHA_CONSTANT / Mathf.Max(Mathf.Abs(slot5.transform.position.y - slot0.centerY), slot0.constant)
+			end
+		end)
 		setActive(slot0.skinList, true)
 
-		slot4 = slot0:getTpl("skin_tpl", slot0.skinList)
+		slot5 = slot0:getTpl("skin_tpl", slot0.skinList)
 		slot0.currSkin = nil
 
-		for slot8, slot9 in ipairs(slot0.groupSkinList) do
-			table.insert(slot0.skinNameList, ScrollTxt.New(findTF(slot10, "mask"), findTF(slot10, "mask/Text")))
+		for slot9, slot10 in ipairs(slot0.groupSkinList) do
+			slot11 = cloneTplTo(slot5, slot0.skinList)
 
-			if slot9.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot0.ownedSkinList, slot9.id) or (slot9.skin_type == Ship.SKIN_TYPE_REMAKE and slot0.shipGroup.trans) or (slot9.skin_type == Ship.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1) then
-				slot11:setText(HXSet.hxLan(slot9.name))
-				onButton(slot0, slot10, function ()
+			table.insert(slot0.skinNameList, slot12)
+			table.insert(slot0.skinCanvasGroup, GetOrAddComponent(slot11, typeof(CanvasGroup)))
+
+			if slot10.skin_type == Ship.SKIN_TYPE_DEFAULT or table.contains(slot0.ownedSkinList, slot10.id) or (slot10.skin_type == Ship.SKIN_TYPE_REMAKE and slot0.shipGroup.trans) or (slot10.skin_type == Ship.SKIN_TYPE_PROPOSE and slot0.shipGroup.married == 1) then
+				slot12:setText(HXSet.hxLan(slot10.name))
+				onButton(slot0, slot11, function ()
 					if slot0.currSkin ~= slot1 then
 						slot0:shiftSkin(slot0)
 
@@ -656,30 +668,30 @@ function slot0.initProfile(slot0)
 					setActive(slot0.prevSelected, true)
 				end)
 			else
-				slot11:setText(HXSet.hxLan(slot9.name))
-				onButton(slot0, slot10, function ()
+				slot12:setText(HXSet.hxLan(slot10.name))
+				onButton(slot0, slot11, function ()
 					pg.TipsMgr:GetInstance():ShowTips(i18n("ship_profile_skin_locked"))
 				end)
-				setActive(slot10:Find("lock"), true)
+				setActive(slot11:Find("lock"), true)
 			end
 
-			if slot8 == 1 then
-				triggerButton(slot10, true)
+			if slot9 == 1 then
+				triggerButton(slot11, true)
 			end
 
-			setActive(slot10:Find("timelimit"), getProxy(ShipSkinProxy):getSkinById(slot9.id) and slot12:isExpireType() and not slot12:isExpired())
+			setActive(slot11:Find("timelimit"), getProxy(ShipSkinProxy):getSkinById(slot10.id) and slot13:isExpireType() and not slot13:isExpired())
 
-			if slot0.skinTimers[slot9.id] then
-				slot0.skinTimers[slot9.id]:Stop()
+			if slot0.skinTimers[slot10.id] then
+				slot0.skinTimers[slot10.id]:Stop()
 			end
 
-			if slot13 then
-				slot0.skinTimers[slot12.id] = Timer.New(function ()
+			if slot14 then
+				slot0.skinTimers[slot13.id] = Timer.New(function ()
 					setText(slot1:Find("timelimit/Text"), skinTimeStamp(slot0:getRemainTime()))
 				end, 1, -1)
 
-				slot0.skinTimers[slot12.id]:Start()
-				slot0.skinTimers[slot12.id].func()
+				slot0.skinTimers[slot13.id]:Start()
+				slot0.skinTimers[slot13.id].func()
 			end
 		end
 	end

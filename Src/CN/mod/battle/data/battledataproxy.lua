@@ -454,6 +454,7 @@ function slot8.Update(slot0, slot1)
 		slot6:Settle()
 
 		if slot6:GetActiveFlag() == false then
+			slot6:SettleFinale()
 			slot0:RemoveAreaOfEffect(slot6:GetUniqueID())
 		end
 	end
@@ -1169,6 +1170,10 @@ function slot8.CreateBulletUnit(slot0, slot1, slot2, slot3, slot4)
 		slot0._cldSystem:InitBulletCld(slot6)
 	end
 
+	if slot3:GetFixBulletRange() then
+		slot6:FixRange(slot8)
+	end
+
 	slot0._bulletList[slot5] = slot6
 
 	return slot6
@@ -1214,7 +1219,7 @@ function slot8.CLSBullet(slot0, slot1)
 
 	if slot2 then
 		for slot7, slot8 in pairs(slot0._bulletList) do
-			if slot8:GetIFF() == slot1 and slot8:GetExist() then
+			if slot8:GetIFF() == slot1 and slot8:GetExist() and not slot8:ImmuneCLS() then
 				slot0:RemoveBulletUnit(slot7)
 			end
 		end
@@ -1223,94 +1228,94 @@ function slot8.CLSBullet(slot0, slot1)
 	return
 end
 
-function slot8.SpawnColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+function slot8.SpawnColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	if not slot7 then
 		slot7 = false
 	end
 
-	slot9 = slot0.Battle.BattleAOEData.New(slot8, slot2, slot6)
-
-	slot9:SetPosition(slot3)
-	slot9:SetRange(slot4)
-	slot9:SetAreaType(slot1.AreaType.COLUMN)
-	slot9:SetLifeTime(slot5)
-	slot9:SetFieldType(slot1)
-	slot9:SetOpponentAffected(not slot7)
-	slot0:CreateAreaOfEffect(slot9)
-
-	return
-end
-
-function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-	if not slot8 then
-		slot8 = false
-	end
-
-	slot10 = slot0.Battle.BattleAOEData.New(slot9, slot2, slot7)
+	slot10 = slot0.Battle.BattleAOEData.New(slot9, slot2, slot6, slot8)
 
 	slot10:SetPosition(slot3)
-	slot10:SetWidth(slot4)
-	slot10:SetHeight(slot5)
-	slot10:SetAreaType(slot1.AreaType.CUBE)
-	slot10:SetLifeTime(slot6)
+	slot10:SetRange(slot4)
+	slot10:SetAreaType(slot1.AreaType.COLUMN)
+	slot10:SetLifeTime(slot5)
 	slot10:SetFieldType(slot1)
-	slot10:SetOpponentAffected(not slot8)
+	slot10:SetOpponentAffected(not slot7)
 	slot0:CreateAreaOfEffect(slot10)
 
 	return
 end
 
-function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	if not slot8 then
 		slot8 = false
 	end
 
-	slot12 = slot0.Battle.BattleLastingAOEData.New(slot11, slot2, slot6, slot7)
+	slot11 = slot0.Battle.BattleAOEData.New(slot10, slot2, slot7, slot9)
 
-	slot12:SetPosition(slot3)
-	slot12:SetRange(slot4)
-	slot12:SetAreaType(slot1.AreaType.COLUMN)
-	slot12:SetLifeTime(slot5)
-	slot12:SetFieldType(slot1)
-	slot12:SetOpponentAffected(not slot8)
-	slot0:CreateAreaOfEffect(slot12)
+	slot11:SetPosition(slot3)
+	slot11:SetWidth(slot4)
+	slot11:SetHeight(slot5)
+	slot11:SetAreaType(slot1.AreaType.CUBE)
+	slot11:SetLifeTime(slot6)
+	slot11:SetFieldType(slot1)
+	slot11:SetOpponentAffected(not slot8)
+	slot0:CreateAreaOfEffect(slot11)
+
+	return
+end
+
+function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
+	if not slot8 then
+		slot8 = false
+	end
+
+	slot13 = slot0.Battle.BattleLastingAOEData.New(slot12, slot2, slot6, slot7, slot11)
+
+	slot13:SetPosition(slot3)
+	slot13:SetRange(slot4)
+	slot13:SetAreaType(slot1.AreaType.COLUMN)
+	slot13:SetLifeTime(slot5)
+	slot13:SetFieldType(slot1)
+	slot13:SetOpponentAffected(not slot8)
+	slot0:CreateAreaOfEffect(slot13)
 
 	if slot9 and slot9 ~= "" then
 		slot0:DispatchEvent(slot0.Event.New(slot2.ADD_AREA, {
-			area = slot12,
+			area = slot13,
 			FXID = slot9,
 			isStatic = slot10
 		}))
 	end
 
-	return slot12
+	return slot13
 end
 
-function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
+function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
 	if not slot9 then
 		slot9 = false
 	end
 
-	slot13 = slot0.Battle.BattleLastingAOEData.New(slot12, slot2, slot7, slot8)
+	slot14 = slot0.Battle.BattleLastingAOEData.New(slot13, slot2, slot7, slot8, slot12)
 
-	slot13:SetPosition(slot3)
-	slot13:SetWidth(slot4)
-	slot13:SetHeight(slot5)
-	slot13:SetAreaType(slot1.AreaType.CUBE)
-	slot13:SetLifeTime(slot6)
-	slot13:SetFieldType(slot1)
-	slot13:SetOpponentAffected(not slot9)
-	slot0:CreateAreaOfEffect(slot13)
+	slot14:SetPosition(slot3)
+	slot14:SetWidth(slot4)
+	slot14:SetHeight(slot5)
+	slot14:SetAreaType(slot1.AreaType.CUBE)
+	slot14:SetLifeTime(slot6)
+	slot14:SetFieldType(slot1)
+	slot14:SetOpponentAffected(not slot9)
+	slot0:CreateAreaOfEffect(slot14)
 
 	if slot10 and slot10 ~= "" then
 		slot0:DispatchEvent(slot0.Event.New(slot2.ADD_AREA, {
-			area = slot13,
+			area = slot14,
 			FXID = slot10,
 			isStatic = slot11
 		}))
 	end
 
-	return slot13
+	return slot14
 end
 
 function slot8.CreateAreaOfEffect(slot0, slot1)

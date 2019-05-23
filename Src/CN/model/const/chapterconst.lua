@@ -68,6 +68,7 @@ slot0.StrategyAmmoPoor = 10002
 slot0.StrategyHuntingRange = -1
 slot0.StrategySubAutoAttack = -2
 slot0.StrategyExchange = 9
+slot0.StrategyChapterEnviorment = 10
 slot0.StrategyRepair = 4
 slot0.StrategyPresents = {
 	4

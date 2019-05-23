@@ -147,11 +147,6 @@ function ys.Battle.BattleBulletUnit.Reflected(slot0)
 	slot0._speed.x = -slot0._speed.x
 end
 
-function ys.Battle.BattleBulletUnit.OutRange(slot0)
-	slot0:DispatchEvent(slot0.Event.New(slot1.OUT_RANGE, {}))
-	slot0:_outRangeFunc()
-end
-
 function ys.Battle.BattleBulletUnit.SetTemplateData(slot0, slot1)
 	slot0._tempData = setmetatable({}, {
 		__index = slot1
@@ -173,14 +168,7 @@ function ys.Battle.BattleBulletUnit.SetTemplateData(slot0, slot1)
 
 	slot0._pierceCount = slot1.pierce_count
 
-	if slot1.range_offset == 0 then
-		slot0._range = slot1.range
-	else
-		slot0._range = slot1.range + slot1.range_offset * (math.random() - 0.5)
-	end
-
-	slot0._sqrRange = slot0._range * slot0._range
-
+	slot0:FixRange()
 	slot0:InitCldComponent()
 
 	slot0._accTable = Clone(slot0._tempData.acceleration)
@@ -200,10 +188,6 @@ end
 
 function ys.Battle.BattleBulletUnit.SetModleID(slot0, slot1)
 	slot0._modleID = slot1
-end
-
-function ys.Battle.BattleBulletUnit.SetOutRangeCallback(slot0, slot1)
-	slot0._outRangeFunc = slot1
 end
 
 function ys.Battle.BattleBulletUnit.SetShiftInfo(slot0, slot1, slot2)
@@ -434,14 +418,6 @@ function ys.Battle.BattleBulletUnit.IsOutRange(slot0)
 	return slot0._reachDestFlag
 end
 
-function ys.Battle.BattleBulletUnit.GetCurrentDistance(slot0)
-	return Vector3.Distance(slot0._spawnPos, slot0._position)
-end
-
-function ys.Battle.BattleBulletUnit.GetRange(slot0)
-	return slot0._range
-end
-
 function ys.Battle.BattleBulletUnit.SetYAngle(slot0, slot1)
 	slot0._yAngle = slot1
 end
@@ -610,6 +586,39 @@ function ys.Battle.BattleBulletUnit.updateBarrageTransform(slot0, slot1)
 			slot4.transStartDelay = slot4.transStartDelay + slot3.transStartDelay
 		end
 	end
+end
+
+function ys.Battle.BattleBulletUnit.GetCurrentDistance(slot0)
+	return Vector3.Distance(slot0._spawnPos, slot0._position)
+end
+
+function ys.Battle.BattleBulletUnit.SetOutRangeCallback(slot0, slot1)
+	slot0._outRangeFunc = slot1
+end
+
+function ys.Battle.BattleBulletUnit.OutRange(slot0)
+	slot0:DispatchEvent(slot0.Event.New(slot1.OUT_RANGE, {}))
+	slot0:_outRangeFunc()
+end
+
+function ys.Battle.BattleBulletUnit.FixRange(slot0, slot1)
+	slot1 = slot1 or slot0._tempData.range
+
+	if slot0._tempData.range_offset == 0 then
+		slot0._range = slot1
+	else
+		slot0._range = slot1 + slot2 * (math.random() - 0.5)
+	end
+
+	slot0._sqrRange = slot0._range * slot0._range
+end
+
+function ys.Battle.BattleBulletUnit.ImmuneCLS(slot0)
+	return slot0._immuneCLS
+end
+
+function ys.Battle.BattleBulletUnit.SetImmuneCLS(slot0, slot1)
+	slot0._immuneCLS = slot1
 end
 
 return

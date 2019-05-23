@@ -45,6 +45,7 @@ slot0.eliteCondition = {
 	torpedo = i18n("elite_condition_torpedo"),
 	antiaircraft = i18n("elite_condition_antiaircraft"),
 	air = i18n("elite_condition_air"),
+	antisub = i18n("elite_condition_antisub"),
 	dodge = i18n("elite_condition_dodge"),
 	reload = i18n("elite_condition_reload")
 }

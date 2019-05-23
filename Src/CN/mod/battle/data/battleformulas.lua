@@ -448,26 +448,38 @@ function slot18(slot0, slot1, slot2)
 	end
 
 	if not slot20 then
-		slot26 = slot0
-		slot26 = slot26.DFT_CRIT_RATE
-		slot27 = slot8.attackRating
-		slot28 = slot8.attackRating
-		slot29 = slot16.dodgeRate
-		slot28 = slot28 + slot29
-		slot29 = slot6[4]
-		slot28 = slot28 + slot29
-		slot27 = slot27 / slot28
-		slot26 = slot26 + slot27
-		slot27 = slot24 + slot18
-		slot28 = slot6[3]
-		slot27 = slot27 * slot28
-		slot26 = slot26 + slot27
+		slot26 = nil
 		slot27 = slot2
 		slot27 = slot27.GetCurrent
 		slot28 = slot0
-		slot29 = "cri"
+		slot29 = "GCT"
 		slot27 = slot27(slot28, slot29)
-		slot26 = slot26 + slot27
+
+		if slot27 == 1 then
+			slot26 = 1
+		else
+			slot27 = slot0
+			slot27 = slot27.DFT_CRIT_RATE
+			slot28 = slot8.attackRating
+			slot29 = slot8.attackRating
+			slot30 = slot16.dodgeRate
+			slot29 = slot29 + slot30
+			slot30 = slot6[4]
+			slot29 = slot29 + slot30
+			slot28 = slot28 / slot29
+			slot27 = slot27 + slot28
+			slot28 = slot24 + slot18
+			slot29 = slot6[3]
+			slot28 = slot28 * slot29
+			slot27 = slot27 + slot28
+			slot28 = slot2
+			slot28 = slot28.GetCurrent
+			slot29 = slot0
+			slot30 = "cri"
+			slot28 = slot28(slot29, slot30)
+			slot26 = slot27 + slot28
+		end
+
 		slot27 = math
 		slot27 = slot27.random
 		slot28 = slot5

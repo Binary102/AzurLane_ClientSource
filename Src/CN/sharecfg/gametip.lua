@@ -3569,7 +3569,7 @@ pg.gametip = {
 		key = "long_time_offline"
 	},
 	dont_send_message_frequently = {
-		tip = "$1秒后可以继续发送消息",
+		tip = "请勿频繁发送消息",
 		key = "dont_send_message_frequently"
 	},
 	no_activity = {
@@ -4967,9 +4967,11 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 							 普通舰船：$5%
 
 							  【限时建造】
-							<color=#ffde38>      猫音</color>：2%<color=#92fc63>(up!)</color>
-					<color=#ffde38>        露露缇耶</color>：2%<color=#92fc63>(up!)</color>
-						<color=#d797ff>       乌璐露</color>：2.5%<color=#92fc63>(up!)</color></size>]],
+							<color=#ffde38>      俾斯麦</color>：2%<color=#92fc63>(up!)</color>
+					<color=#ffde38>        英王乔治五世</color>：0.5%
+						<color=#d797ff>U556</color>：2.5%<color=#92fc63>(up!)</color>
+						<color=#d797ff>U73</color>：2.5%<color=#92fc63>(up!)</color>
+						<color=#d797ff>Z36</color>：2.5%<color=#92fc63>(up!)</color>						<color=#d797ff>回声</color>：5%<color=#92fc63>(up!)</color></size>]],
 		key = "help_build_4"
 	},
 	help_build_5 = {
@@ -5932,6 +5934,10 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 		tip = "航空总值",
 		key = "elite_condition_air"
 	},
+	elite_condition_antisub = {
+		tip = "反潜总值",
+		key = "elite_condition_antisub"
+	},
 	elite_condition_dodge = {
 		tip = "机动总值",
 		key = "elite_condition_dodge"
@@ -6194,6 +6200,10 @@ NPC角色正式加入时，保留强化、突破状态及技能等级；
 <color=#92fc63>【主武器】</color>栏的装备将被卸下
 是否确认继续操作？]],
 		key = "ship_remould_warning_303154"
+	},
+	ship_remould_warning_402134 = {
+		tip = "此次改造操作后第一个【设备】栏位增加可装备类型<color=#92fc63>【直升机】</color>\n是否确认继续操作？",
+		key = "ship_remould_warning_402134"
 	},
 	word_soundfiles_download_title = {
 		tip = "语音包下载",
@@ -8655,7 +8665,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		tip = "俾斯麦、U-556、U-73、Z36、回声出现概率UP",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9469,7 +9479,7 @@ $3]],
 		key = "air_supremacy_value"
 	},
 	read_the_user_agreement = {
-		tip = "请先阅读完用户协议 ",
+		tip = "请先阅读完用户协议",
 		key = "read_the_user_agreement"
 	},
 	award_max_warning = {
@@ -9568,6 +9578,10 @@ $3]],
 		tip = "勋章解锁！",
 		key = "trophy_achieved"
 	},
+	text_shop = {
+		tip = "商 店",
+		key = "text_shop"
+	},
 	text_confirm = {
 		tip = "确 定",
 		key = "text_confirm"
@@ -9621,23 +9635,23 @@ $3]],
 		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
-		tip = "侦查值：",
+		tip = "侦查值:",
 		key = "level_scene_title_word_1"
 	},
 	level_scene_title_word_2 = {
-		tip = "受到伏击概率：",
+		tip = "受到伏击概率:",
 		key = "level_scene_title_word_2"
 	},
 	level_scene_title_word_3 = {
-		tip = "制空值：",
+		tip = "制空值:",
 		key = "level_scene_title_word_3"
 	},
 	level_scene_title_word_4 = {
-		tip = "空域：",
+		tip = "空域:",
 		key = "level_scene_title_word_4"
 	},
 	level_scene_title_word_5 = {
-		tip = "推荐：",
+		tip = "推荐:",
 		key = "level_scene_title_word_5"
 	},
 	ambush_display_0 = {
@@ -10149,6 +10163,80 @@ UID：
 	attire_time_stamp = {
 		tip = "$1天$2小时$3分钟",
 		key = "attire_time_stamp"
+	},
+	warning_pray_build_pool = {
+		tip = "祈愿建造角色一旦确认后,<color=#FF5C5C>将无法更改</color>.\n是否确认选择?",
+		key = "warning_pray_build_pool"
+	},
+	error_pray_select_ship_max = {
+		tip = "可选角色已满",
+		key = "error_pray_select_ship_max"
+	},
+	tip_pray_build_pool_success = {
+		tip = "构建成功",
+		key = "tip_pray_build_pool_success"
+	},
+	tip_pray_build_pool_fail = {
+		tip = "构建失败",
+		key = "tip_pray_build_pool_fail"
+	},
+	pray_build_help = {
+		key = "pray_build_help",
+		tip = {
+			{
+				info = "活动说明：\n"
+			},
+			{
+				info = "1.指挥官可以从轻型建造、重型建造、特型建造中\n任选一个构建为祈愿建造"
+			},
+			{
+				info = "2.祈愿建造中各稀有度出现概率与通常建造相同："
+			},
+			{
+				info = "轻型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:26%  普通:55%"
+			},
+			{
+				info = "重型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:51%  普通:30%"
+			},
+			{
+				info = "特型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:51%  普通:30%"
+			},
+			{
+				info = "3.构建时指挥官可以查看该建造中所有可出现角色列表"
+			},
+			{
+				info = "4.指挥官可以从中选择2名角色作为祈愿角色"
+			},
+			{
+				info = "5.可选名单仅包含3月23日前常驻加入对应建造的角色"
+			},
+			{
+				info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
+			},
+			{
+				info = "7.所选祈愿角色的建造概率因稀有度差异而有所不同"
+			},
+			{
+				info = "<color=#ffde38>超稀有</color>:2.0%  <color=#d797ff>精锐</color>:.2.5%  <color=#3dc6ff>稀有</color>:2.5%  普通:2.5%"
+			},
+			{
+				info = "8.选择完2名角色后，才算构建祈愿建造成功"
+			},
+			{
+				info = "9.祈愿建造构建完成后，活动期间内不可进行修改"
+			},
+			{
+				info = "10.祈愿建造的消耗与所选建造的消耗相同建造后的\n角色进入队列等待，可以使用快速完成工具"
+			}
+		}
+	},
+	bismarck_award_tip = {
+		tip = "完成所有条件后获得奖励",
+		key = "bismarck_award_tip"
+	},
+	bismarck_chapter_desc = {
+		tip = "参与「铁血、音符与誓言」，完成任务即可获得稀有道具",
+		key = "bismarck_chapter_desc"
 	}
 }
 

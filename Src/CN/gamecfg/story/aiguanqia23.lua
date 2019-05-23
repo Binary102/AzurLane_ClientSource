@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "ai-fb-inst",
+			bgm = "story-1",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "如此如此这般这般，似乎随机单词生成器以我的3D模型为原型制作了拷贝呢，我也是不久前才注意到的，也是吓了一跳呢～",

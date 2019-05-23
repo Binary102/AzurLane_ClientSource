@@ -47,6 +47,22 @@ function ys.Battle.BattleFunnelUnit.SetTemplate(slot0, slot1)
 
 	slot0._existDuration = slot1.funnel_behavior.exist
 	slot0._stayDuration = slot1.funnel_behavior.stay
+	slot0._frontOffset = slot1.funnel_behavior.front or 0
+	slot0._rearOffset = slot1.funnel_behavior.rear or 0
+
+	if slot0:GetWeapon()[1] then
+		slot0.changeToStopState = slot0.stopState
+	else
+		slot0.changeToStopState = slot0.nonWeaponStopState
+	end
+
+	if slot0:GetIFF() == slot1.FRIENDLY_CODE then
+		slot0._leftBound = slot0._leftBound + slot0._rearOffset
+		slot0._rightBound = slot0._rightBound + slot0._frontOffset
+	else
+		slot0._leftBound = slot0._leftBound - slot0._frontOffset
+		slot0._rightBound = slot0._rightBound - slot0._rearOffset
+	end
 end
 
 function ys.Battle.BattleFunnelUnit.changePartolState(slot0, slot1)
@@ -86,7 +102,12 @@ function ys.Battle.BattleFunnelUnit._updateCreate(slot0)
 	slot0:updatePosition()
 end
 
-function ys.Battle.BattleFunnelUnit.changeToStopState(slot0)
+function ys.Battle.BattleFunnelUnit.nonWeaponStopState(slot0)
+	slot0._stopStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
+	slot0.updatePatrol = slot0._updateStop
+end
+
+function ys.Battle.BattleFunnelUnit.stopState(slot0)
 	slot0._stopStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	slot0:GetWeapon()[1]:updateMovementInfo()

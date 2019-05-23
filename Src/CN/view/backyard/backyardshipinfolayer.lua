@@ -266,6 +266,9 @@ function slot0.updateSlots(slot0, slot1)
 			end
 		end
 	end)
+
+	slot0.contextData.type = slot1 or slot0.contextData.type
+
 	slot0.uiList:align(slot4)
 
 	for slot8, slot9 in ipairs(slot0.titles) do
@@ -281,8 +284,6 @@ function slot0.updateSlots(slot0, slot1)
 	elseif slot1 == slot3.SHIP_CLASS_TYPE then
 		slot0.counter.text = table.getCount(slot0.classShipVOs) .. "/" .. AcademyCourse.MaxStudentSlot
 	end
-
-	slot0.contextData.type = slot1
 end
 
 function slot0.goToDockYard(slot0, slot1, slot2)

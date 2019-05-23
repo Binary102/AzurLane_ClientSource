@@ -40,9 +40,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._closeBtn, function ()
-		slot0:clearLoadingPic()
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-		pg.UIMgr.GetInstance().UnblurPanel:emit(slot1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0._stopRemind, function (slot0)
 		slot0:emit(BulletinBoardMediator.SET_STOP_REMIND, slot0)
@@ -52,6 +50,7 @@ end
 function slot0.setNotices(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
+	slot0.titleScrolls = {}
 
 	for slot7, slot8 in pairs(slot1) do
 		table.insert(slot2, tostring(slot8.id))
@@ -60,9 +59,17 @@ function slot0.setNotices(slot0, slot1)
 		slot9 = cloneTplTo(slot0._tabTpl, slot0._tabContainer)
 
 		setWidgetText(slot9, slot8.btnTitle, "common_state/title_txt")
-		setWidgetText(slot9, slot8.title, "common_state/time_txt")
 		setWidgetText(slot9, slot8.btnTitle, "select_state/title_txt")
-		setWidgetText(slot9, slot8.title, "select_state/time_txt")
+
+		slot10 = ScrollTxt:changeToScroll(slot9:Find("common_state/time_txt"))
+
+		slot10:setText(slot8.title)
+		table.insert(slot0.titleScrolls, slot10)
+
+		scroll2 = ScrollTxt:changeToScroll(slot9:Find("select_state/time_txt"))
+
+		scroll2:setText(slot8.title)
+		table.insert(slot0.titleScrolls, scroll2)
 		table.insert(slot0._tabList, slot9)
 		SetActive(slot9, true)
 
@@ -145,6 +152,15 @@ function slot0.clearLoadingPic(slot0)
 
 		slot0._loadingFlag[slot4] = nil
 	end
+end
+
+function slot0.willExit(slot0)
+	for slot4, slot5 in pairs(slot0.titleScrolls) do
+		slot5:destroy()
+	end
+
+	slot0:clearLoadingPic()
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

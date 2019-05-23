@@ -437,7 +437,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 			setActive(slot29:Find("tip"), false)
 
 			if slot27 then
-				if slot2.config.type == EquipType.Equipment then
+				if EquipType.isDevice(slot2.configId) then
 					setText(slot29, AttributeType.Type2Name(slot27.type))
 					setText(slot30, slot27.value)
 

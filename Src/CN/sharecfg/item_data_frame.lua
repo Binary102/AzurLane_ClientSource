@@ -16,6 +16,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有一年间持续奋斗在港区的指挥官们</color>\n开启「再诞·曙光」纪念币获取",
 		scene = {}
 	},
+	[102] = {
+		name = "二周年纪念",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有两年间持续奋斗在港区的指挥官们</color>\n通过参与二周年限定活动获取",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -32,11 +40,21 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃，指挥官</color>\n有效期30天",
 		scene = {}
 	},
+	[302] = {
+		name = "铁血之誓",
+		time_second = 0,
+		id = 302,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>以赤红的血、和冷彻的铁，铸就坚定的意志</color>\n「铁血、音符与誓言」活动获取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
+		102,
 		300,
-		301
+		301,
+		302
 	}
 }
 

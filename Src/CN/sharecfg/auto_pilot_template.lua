@@ -5863,6 +5863,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[90032] = {
+		id = 90032,
+		name = "随机移动_偏很右",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 35,
+					duration = -1,
+					X1 = -5,
+					X2 = 5
+				}
+			}
+		}
+	},
 	[99990] = {
 		id = 99990,
 		name = "13章后撤释放地毯空袭",

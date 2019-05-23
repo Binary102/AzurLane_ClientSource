@@ -28,6 +28,22 @@ function ys.Battle.BattleBuffAddBulletAttr.onBulletCreate(slot0, slot1, slot2, s
 	slot0:calcBulletAttr(slot3)
 end
 
+function ys.Battle.BattleBuffAddBulletAttr.onInternalBulletCreate(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:calcBulletAttr(slot3)
+end
+
+function ys.Battle.BattleBuffAddBulletAttr.onManualBulletCreate(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:calcBulletAttr(slot3)
+end
+
 function ys.Battle.BattleBuffAddBulletAttr.onBulletCollide(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return

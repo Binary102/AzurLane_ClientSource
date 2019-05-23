@@ -398,6 +398,10 @@ function slot7.refreshFleetFormation(slot0, slot1)
 		slot0._leaderUnit = nil
 	end
 
+	if #slot0:GetUnitList() == 0 then
+		return
+	end
+
 	slot0:DispatchEvent(slot2.Event.New(slot2.Battle.BattleEvent.REFRESH_FLEET_FORMATION))
 end
 

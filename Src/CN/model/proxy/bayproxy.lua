@@ -607,25 +607,42 @@ function slot0.getDelegationRecommendShips(slot0, slot1)
 	end
 
 	slot18 = {}
-	slot19 = #slot6
 
-	while slot19 > 0 do
-		if slot2 <= 0 then
-			break
+	function ()
+		slot0 = #slot0
+
+		while slot0 > 0 do
+			if slot1 <= 0 then
+				break
+			end
+
+			slot3 = slot0[slot0].getGroupId(slot1)
+
+			if slot0[slot0].id <= slot0[slot0].level and not slot1:isActivityNpc() and slot1.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot3, slot3) and not table.contains(table.contains, slot2) and not table.contains(slot5, slot2) and not table.contains(slot6, slot2) and not table.contains(slot7, slot2) and not table.contains(slot8, slot2) and not table.contains(slot9, slot2) then
+				table.insert(slot3, slot3)
+				table.insert(slot3, slot2)
+				table.insert(slot9, slot2)
+
+				slot1 = slot1 - 1
+
+				if slot10 == false then
+					slot11 = true
+
+					break
+
+					if false then
+						slot0 = slot0 - 1
+					end
+				end
+			end
 		end
+	end()
 
-		slot21 = slot6[slot19].id
-		slot22 = slot6[slot19].getGroupId(slot20)
+	if nil then
+		slot8 = true
+		slot4 = 2
 
-		if slot4 <= slot6[slot19].level and not slot20:isActivityNpc() and slot20.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(slot7, slot22) and not table.contains(slot5, slot21) and not table.contains(slot9, slot21) and not table.contains(slot10, slot21) and not table.contains(slot11, slot21) and not table.contains(slot13, slot21) and not table.contains(slot18, slot21) then
-			table.insert(slot7, slot22)
-			table.insert(slot9, slot21)
-			table.insert(slot18, slot21)
-
-			slot2 = slot2 - 1
-		else
-			slot19 = slot19 - 1
-		end
+		slot20()
 	end
 
 	return slot18

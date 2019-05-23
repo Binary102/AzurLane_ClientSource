@@ -68,7 +68,8 @@ return {
 			types = {
 				EquipType.Equipment,
 				EquipType.AntiSubAircraft,
-				EquipType.Sonar
+				EquipType.Sonar,
+				EquipType.Helicopter
 			}
 		}
 	},

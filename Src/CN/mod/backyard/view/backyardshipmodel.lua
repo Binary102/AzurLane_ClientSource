@@ -823,9 +823,13 @@ function slot0.playAnims(slot0, slot1)
 			slot3 = slot0[slot1][3]
 		end
 
+		if slot0 == slot1.roles[1] and slot2:getUniqueShipAction(slot3, slot1.boatVO.skinId) then
+			slot3 = slot4
+		end
+
 		slot0:SetAction(slot3, 0)
 
-		if _.detect(slot2, function (slot0)
+		if _.detect(slot3, function (slot0)
 			return slot0[1] == slot0 and slot1.id == slot0[3]
 		end) then
 			slot5 = slot4[2]
@@ -1066,7 +1070,7 @@ function slot0.clearSpineInteraction(slot0, slot1)
 			setActive(tf(go(slot6)).parent, false)
 		end
 
-		if slot0.timer[slot6] then
+		if slot0.timer and slot0.timer[slot6] then
 			slot0.timer[slot6]:Stop()
 
 			slot0.timer[slot6] = nil

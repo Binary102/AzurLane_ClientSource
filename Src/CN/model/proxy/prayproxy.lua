@@ -1,7 +1,4 @@
 slot0 = class("Prayproxy", import(".NetProxy"))
-slot0.LIGHT_TYPE = 1
-slot0.HEAVY_TYPE = 2
-slot0.SPECIAL_TYPE = 3
 slot0.STATE_HOME = 1
 slot0.STATE_SELECT_POOL = 2
 slot0.STAGE_SELECT_SHIP = 3

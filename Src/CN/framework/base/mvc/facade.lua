@@ -120,16 +120,6 @@ ys or .MVC.Facade.DeactiveEscape = function (slot0)
 	slot0.TimeMgr:GetInstance():RemoveTimer(slot0._escapeAITimer)
 end
 
-ys or .MVC.Facade.ActiveCelebrate = function (slot0)
-	slot0._updateCelebrate = slot0.TimeMgr.GetInstance():AddTimer("celebrate", 0, slot1.Battle.BattleConfig.viewInterval, function ()
-		slot0:subCelebrateUpdate()
-	end)
-end
-
-ys or .MVC.Facade.DeactiveCelebrate = function (slot0)
-	slot0.TimeMgr:GetInstance():RemoveTimer(slot0._updateCelebrate)
-end
-
 ys or .MVC.Facade.RemoveAllTimer = function (slot0)
 	slot0.TimeMgr.GetInstance():RemoveAllBattleTimer()
 
@@ -178,10 +168,6 @@ ys or .MVC.Facade.escapeUpdate = function (slot0)
 
 	slot1:UpdateEscapeOnly(slot2)
 	slot0:GetMediatorByName(slot0.Battle.BattleSceneMediator.__name):UpdateEscapeOnly(slot1.TimeMgr.GetInstance():GetCombatTime())
-end
-
-ys or .MVC.Facade.subCelebrateUpdate = function (slot0)
-	slot0:GetMediatorByName(slot0.Battle.BattleSceneMediator.__name):UpdateSubCelebrate(now)
 end
 
 return

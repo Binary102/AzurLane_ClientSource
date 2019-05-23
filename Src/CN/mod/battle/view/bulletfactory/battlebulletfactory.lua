@@ -131,7 +131,8 @@ function ys.Battle.BattleBulletFactory.GetFactoryList()
 			[slot1.BulletType.ANTI_SEA] = slot2.Battle.BattleAntiSeaBulletFactory.GetInstance(),
 			[slot1.BulletType.STRAY] = slot2.Battle.BattleStrayBulletFactory.GetInstance(),
 			[slot1.BulletType.EFFECT] = slot2.Battle.BattleEffectBulletFactory.GetInstance(),
-			[slot1.BulletType.BEAM] = slot2.Battle.BattleBeamBulletFactory.GetInstance()
+			[slot1.BulletType.BEAM] = slot2.Battle.BattleBeamBulletFactory.GetInstance(),
+			[slot1.BulletType.G_BULLET] = slot2.Battle.BattleGravitationBulletFactory.GetInstance()
 		}
 	end
 

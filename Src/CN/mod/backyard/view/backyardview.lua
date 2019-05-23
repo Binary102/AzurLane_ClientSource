@@ -251,7 +251,7 @@ function slot0.updateHouseArea(slot0, slot1)
 	setActive(slot0.road, true)
 
 	tf(go(slot0.road)).anchoredPosition = Vector3(0, slot0.roadPositions[slot1], 0)
-	slot2 = slot0:findTF("bg")
+	slot0:findTF("bg").sizeDelta = Vector2(slot0.findTF("bg").sizeDelta.x, slot3)
 
 	scrollTo(slot0._tf, 0.5, 0.5)
 

@@ -114,6 +114,12 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0.viewComponent:updateQueueTip(slot7:getFinishCount())
+
+	if slot0.contextData.goToPray == true then
+		slot0.viewComponent:switchPage(slot0.viewComponent.PAGE_PRAY, true)
+	elseif slot0.contextData.goToBisiMai == true then
+		slot0.viewComponent:switchPage(slot0.viewComponent.PAGE_BUILD, true)
+	end
 end
 
 function slot0.checkActivityBuild(slot0)
@@ -145,48 +151,50 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
-	elseif slot2 == GAME.GET_SHIP_DONE then
-		slot0:addSubLayers(Context.New({
-			mediator = NewShipMediator,
-			viewComponent = NewShipLayer,
-			data = {
-				ship = slot3.ship,
-				quitCallBack = slot3.quitCallBack,
-				canSkipBatch = slot3.canSkipBatch
-			}
-		}))
-
-		if table.getCount(getProxy(BuildShipProxy):getData()) == 0 then
-			onNextTick(function ()
-				if slot0.viewComponent then
-					triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_BUILD], true)
+	else
+		if slot2 == GAME.GET_SHIP_DONE then
+			slot0:addSubLayers(Context.New({
+				mediator = NewShipMediator,
+				viewComponent = NewShipLayer,
+				data = {
+					ship = slot3.ship,
+					quitCallBack = slot3.quitCallBack,
+					canSkipBatch = slot3.canSkipBatch
+				},
+				onRemoved = function ()
+					if table.getCount(slot0:getData()) == 0 and slot1.viewComponent then
+						triggerToggle(slot1.viewComponent.toggles[BuildShipScene.PAGE_BUILD], true)
+					end
 				end
-			end)
+			}))
+			slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
+
+			return
 		end
 
-		slot0.viewComponent:updateQueueTip(slot4:getFinishCount())
-	elseif slot2 == GAME.SKIP_SHIP_DONE then
-		slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
-	elseif slot2 == GAME.SKIP_BATCH_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-			items = slot3
-		}, AwardInfoLayer.TITLE.SHIP)
-	elseif slot2 == GAME.BUILD_SHIP_DONE then
-		triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
-	elseif slot2 == GAME.EXCHANGE_SHIP_DONE then
-		slot0:addSubLayers(Context.New({
-			mediator = NewShipMediator,
-			viewComponent = NewShipLayer,
-			data = {
-				ship = slot3
-			}
-		}))
-	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
-		slot0.viewComponent:setUseItem(getProxy(BagProxy).getItemById(slot4, slot0.useItem))
-	elseif slot2 == BuildShipProxy.ADDED or slot2 == BuildShipProxy.REMOVED then
-		slot0.viewComponent:setStartCount(table.getCount(getProxy(BuildShipProxy):getRawData()))
-	elseif slot2 == ActivityProxy.ACTIVITY_ADDED then
-		slot0:checkActivityBuild()
+		if slot2 == GAME.SKIP_SHIP_DONE then
+			slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
+		elseif slot2 == GAME.SKIP_BATCH_DONE then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3
+			}, AwardInfoLayer.TITLE.SHIP)
+		elseif slot2 == GAME.BUILD_SHIP_DONE then
+			triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
+		elseif slot2 == GAME.EXCHANGE_SHIP_DONE then
+			slot0:addSubLayers(Context.New({
+				mediator = NewShipMediator,
+				viewComponent = NewShipLayer,
+				data = {
+					ship = slot3
+				}
+			}))
+		elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
+			slot0.viewComponent:setUseItem(getProxy(BagProxy).getItemById(slot4, slot0.useItem))
+		elseif slot2 == BuildShipProxy.ADDED or slot2 == BuildShipProxy.REMOVED then
+			slot0.viewComponent:setStartCount(table.getCount(getProxy(BuildShipProxy):getRawData()))
+		elseif slot2 == ActivityProxy.ACTIVITY_ADDED then
+			slot0:checkActivityBuild()
+		end
 	end
 end
 

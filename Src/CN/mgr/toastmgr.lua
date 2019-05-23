@@ -122,9 +122,6 @@ end
 
 function pg.ToastMgr.Dispose(slot0)
 	setActive(slot0._tf, false)
-	slot0.poolMgr:Dispose()
-
-	slot0.poolMgr = nil
 end
 
 return

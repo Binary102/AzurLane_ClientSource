@@ -103,14 +103,23 @@ function slot5(slot0, slot1)
 		slot4(slot5, slot6, slot7, slot8)
 	end
 
-	slot4 = slot0._tf
-	slot6 = slot0
-	slot5 = slot0.GetPosition
-	slot5 = slot5(slot6)
-	slot4.localPosition = slot5
+	slot5 = slot0
+	slot4 = slot0.UpdatePosition
+
+	slot4(slot5)
 end
 
 slot4.Update = slot5
+
+function slot5(slot0)
+	slot1 = slot0._tf
+	slot3 = slot0
+	slot2 = slot0.GetPosition
+	slot2 = slot2(slot3)
+	slot1.localPosition = slot2
+end
+
+slot4.UpdatePosition = slot5
 
 function slot5(slot0)
 	slot1 = slot0._bulletMissFunc

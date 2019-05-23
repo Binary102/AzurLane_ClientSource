@@ -80,7 +80,6 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.CHALLENGE2_SETTLE, Challenge2SettleRequestCommand)
 	slot0.facade:registerCommand(GAME.ACTIVATE_REMASTER, ActivateRemasterCommand)
 	slot0.facade:registerCommand(GAME.SPECIAL_ACT, SpecialActivityCommand)
-	slot0.facade:registerCommand(GAME.MAINUI_ACT_BTN, MainUIActBtnCommand)
 	slot0.facade:registerCommand(GAME.FETCH_NPC_SHIP, FetchNpcShipCommand)
 	slot0.facade:registerCommand(GAME.MAINUI_ACT_BTN, MainUIActBtnCommand)
 	slot0.facade:registerCommand(GAME.GET_SEASON_INFO, GetSeasonInfoCommand)

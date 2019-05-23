@@ -98,7 +98,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 
 	slot0.descPanel = slot0(slot0:findTF("desc_panel"))
-	slot0.selectMaxLevel = slot0.contextData.selectMaxLevel
+	slot0.selectMaxLevel = true
 
 	onToggle(slot0, slot0.toggle, function (slot0)
 		slot0.selectMaxLevel = slot0

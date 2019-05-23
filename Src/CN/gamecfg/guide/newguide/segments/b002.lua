@@ -9,7 +9,7 @@ return {
 			hideui = {
 				{
 					ishide = false,
-					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
+					path = "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
 				}
 			},
 			style = {

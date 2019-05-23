@@ -58,8 +58,9 @@ function slot0.register(slot0)
 
 	slot4 = getProxy(ContextProxy)
 
-	slot0:bind(slot0.OPEN_SHIPPROFILE, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_SHIPPROFILE, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_PROFILE, {
+			showTrans = slot2,
 			groupId = slot1
 		})
 	end)

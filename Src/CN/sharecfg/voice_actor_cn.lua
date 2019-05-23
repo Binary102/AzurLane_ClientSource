@@ -731,6 +731,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "川澄绫子",
 		code = 183
+	},
+	{
+		actor_name = "结名美月",
+		code = 184
 	}
 }
 

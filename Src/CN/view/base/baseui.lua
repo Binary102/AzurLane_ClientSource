@@ -159,15 +159,22 @@ function slot0.init(slot0)
 	return
 end
 
-function slot0.enter(slot0)
+function slot0.quckExitFunc(slot0)
+	slot0:emit(slot0.ON_HOME)
+end
+
+function slot0.quickExit(slot0)
 	for slot4, slot5 in pairs(slot0.optionBtns) do
 		if not IsNil(slot5) then
 			onButton(slot0, slot5, function ()
-				slot0:emit(slot1.ON_HOME)
+				slot0:quckExitFunc()
 			end, SFX_PANEL)
 		end
 	end
+end
 
+function slot0.enter(slot0)
+	slot0:quickExit()
 	slot0:prepareAnimtion()
 	setActive(slot0._tf, true)
 

@@ -14,6 +14,10 @@ function slot0.OnDestroy(slot0)
 	return
 end
 
+function slot0.OnBackPress(slot0)
+	return
+end
+
 function slot0.initData(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 	slot0.poolToggleList = {}

@@ -9,7 +9,7 @@ slot1 = 0.35
 slot2 = 19.8
 slot0.CHAT_SHOW_TIME = 3
 slot0.CHAT_ANIMATION_TIME = 0.3
-slot0.SKIN_LIST_ALPHA_CONSTANT = 1
+slot0.SKIN_LIST_ALPHA_CONSTANT = 1.4
 slot3 = {}
 
 for slot7, slot8 in pairs(pg.character_voice) do
@@ -419,7 +419,19 @@ function slot0.initSkills(slot0)
 		slot12 = findTF(slot0.skillPanel:GetChild(slot9 - 1), "icon")
 
 		if slot11 then
-			LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot3[slot9]).icon, slot12)
+			slot13 = slot3[slot9]
+
+			if slot0.shipGroup:isBluePrintGroup() then
+				for slot17, slot18 in ipairs(slot0.shipGroup:getBluePrintChangeSkillList()) do
+					if slot18[1] == slot13 then
+						slot13 = slot18[2]
+
+						break
+					end
+				end
+			end
+
+			LoadImageSpriteAsync("skillicon/" .. getSkillConfig(slot13).icon, slot12)
 			setActive(slot0:findTF("icon", slot10), true)
 			setActive(slot0:findTF("add", slot10), false)
 			onButton(slot0, slot10, function ()

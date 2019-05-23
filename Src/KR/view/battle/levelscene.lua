@@ -226,6 +226,9 @@ function slot0.initEvents(slot0)
 	slot0:bind(LevelUIConst.SWITCH_TO_MAP, function ()
 		slot0:switchToMap()
 	end)
+	slot0:bind(LevelUIConst.DISPLAY_REPAIR_WINDOW, function (slot0, slot1)
+		slot0:displayRepairWindow(slot1)
+	end)
 end
 
 function slot0.updateBattleActivitys(slot0, slot1)

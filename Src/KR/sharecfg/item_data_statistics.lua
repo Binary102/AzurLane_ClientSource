@@ -52938,10 +52938,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59128] = {
-		display = "用于『限时体验商店』兑换角色限时换装，2019年7月11日后将无法使用",
+		display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. 2019년 7월 11일 후 사용할 수 없습니다.",
 		rarity = 4,
 		type = 98,
-		name = "换装体验券",
+		name = "스킨 체험권",
 		shop_id = 1,
 		shiptrans_id = 0,
 		virtual_type = 0,

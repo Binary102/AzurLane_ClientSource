@@ -59,7 +59,7 @@ function slot0.flush(slot0)
 
 		slot0.UIlist:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				setActive(slot2:Find("star"), slot1 <= slot0)
+				setActive(slot2:Find("star"), slot1 < slot0)
 			end
 		end)
 		slot0.UIlist:align(slot3)

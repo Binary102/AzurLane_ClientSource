@@ -205,7 +205,7 @@ function slot0.updateSKills(slot0)
 			if slot0[slot1 + 1] then
 				slot4 = getSkillConfig(slot3)
 
-				if slot1.skills[slot3] and slot5.id == 11720 and not slot1.transforms[3612] then
+				if slot1.skills[slot1:fateSkillChange(slot3)] and slot5.id == 11720 and not slot1.transforms[3612] then
 					slot5 = nil
 				end
 

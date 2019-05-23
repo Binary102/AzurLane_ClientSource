@@ -2149,30 +2149,36 @@ function slot0.getTactics(slot0)
 end
 
 function slot0.SetExpression(slot0, slot1, slot2)
+	slot3 = findTF(slot0, "face")
+
 	if not pg.ship_skin_expression[slot1] then
+		if slot3 then
+			setActive(slot3, false)
+		end
+
 		return
 	end
 
-	if not slot3[slot2] or slot4 == "" then
-		slot4 = slot3.default
+	if not slot4[slot2] or slot5 == "" then
+		slot5 = slot4.default
 	end
 
-	slot5 = GetSpriteFromAtlas("paintingface/" .. slot1, slot4)
+	slot6 = GetSpriteFromAtlas("paintingface/" .. slot1, slot5)
 
-	if findTF(slot0, "face") then
-		setActive(slot6, slot4 and slot4 ~= "")
-		setImageSprite(slot6, slot5)
+	if slot3 then
+		setActive(slot3, slot5 and slot5 ~= "")
+		setImageSprite(slot3, slot6)
 
-		if findTF(slot6, "face_sub") then
-			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub"))
+		if findTF(slot3, "face_sub") then
+			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub"))
 
-			if GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub") then
+			if GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub") then
 				setImageSprite(slot7, slot8)
 			end
 		end
 	end
 
-	return (slot3.default and true) or false
+	return (slot4.default and true) or false
 end
 
 return slot0

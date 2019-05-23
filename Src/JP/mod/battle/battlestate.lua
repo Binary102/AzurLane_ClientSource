@@ -278,11 +278,9 @@ function slot2.BattleEnd(slot0)
 	slot0:disableCommon()
 
 	if slot0.Battle.BattleConst.BattleScore.B <= slot0._dataProxy:GetStatistics()._battleScore then
-		slot0:ActiveCelebrate()
 		slot0._dataProxy:CelebrateVictory(slot0._dataProxy:GetFriendlyCode())
 		slot0:reportDelayTimer(function ()
-			slot0:DeactiveCelebrate()
-			slot0.DeactiveCelebrate:DoResult()
+			slot0:DoResult()
 		end, slot0.Battle.BattleConfig.CelebrateDuration)
 	else
 		slot0:DoResult()

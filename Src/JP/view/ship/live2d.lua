@@ -103,7 +103,7 @@ function slot6(slot0, slot1)
 	slot0.state = slot4.STATE_INITED
 end
 
-function slot0.Ctor(slot0, slot1)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.state = slot0.STATE_LOADING
 	slot0.live2dData = slot1
 	slot1 = pg.AssistantInfo
@@ -117,6 +117,10 @@ function slot0.Ctor(slot0, slot1)
 		end
 
 		slot3(slot0, slot0)
+
+		if slot4 then
+			slot4()
+		end
 	end)
 end
 

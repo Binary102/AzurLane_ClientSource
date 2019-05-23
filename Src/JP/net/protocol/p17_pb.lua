@@ -61,36 +61,39 @@ SC_17302 = slot0.Descriptor()
 slot35 = slot0.FieldDescriptor()
 slot36 = slot0.FieldDescriptor()
 slot37 = slot0.FieldDescriptor()
-ACHIEVEMENT_INFO = slot0.Descriptor()
+ATTIRE_INFO = slot0.Descriptor()
 slot38 = slot0.FieldDescriptor()
 slot39 = slot0.FieldDescriptor()
+ACHIEVEMENT_INFO = slot0.Descriptor()
 slot40 = slot0.FieldDescriptor()
-SHIP_STATISTICS_INFO = slot0.Descriptor()
 slot41 = slot0.FieldDescriptor()
 slot42 = slot0.FieldDescriptor()
+SHIP_STATISTICS_INFO = slot0.Descriptor()
 slot43 = slot0.FieldDescriptor()
 slot44 = slot0.FieldDescriptor()
 slot45 = slot0.FieldDescriptor()
 slot46 = slot0.FieldDescriptor()
 slot47 = slot0.FieldDescriptor()
-SHIP_STATISTICS_AWARD = slot0.Descriptor()
 slot48 = slot0.FieldDescriptor()
 slot49 = slot0.FieldDescriptor()
-SHIP_DISCUSS_INFO = slot0.Descriptor()
+SHIP_STATISTICS_AWARD = slot0.Descriptor()
 slot50 = slot0.FieldDescriptor()
 slot51 = slot0.FieldDescriptor()
+SHIP_DISCUSS_INFO = slot0.Descriptor()
 slot52 = slot0.FieldDescriptor()
 slot53 = slot0.FieldDescriptor()
 slot54 = slot0.FieldDescriptor()
-DISCUSS_INFO = slot0.Descriptor()
 slot55 = slot0.FieldDescriptor()
 slot56 = slot0.FieldDescriptor()
+DISCUSS_INFO = slot0.Descriptor()
 slot57 = slot0.FieldDescriptor()
 slot58 = slot0.FieldDescriptor()
 slot59 = slot0.FieldDescriptor()
-VOTEINFO = slot0.Descriptor()
 slot60 = slot0.FieldDescriptor()
 slot61 = slot0.FieldDescriptor()
+VOTEINFO = slot0.Descriptor()
+slot62 = slot0.FieldDescriptor()
+slot63 = slot0.FieldDescriptor()
 slot1.name = "finish_list"
 slot1.full_name = ".p17.sc_17001.finish_list"
 slot1.number = 1
@@ -647,7 +650,7 @@ SC_17302.fields = {
 SC_17302.is_extendable = false
 SC_17302.extensions = {}
 slot38.name = "id"
-slot38.full_name = ".p17.achievement_info.id"
+slot38.full_name = ".p17.attire_info.id"
 slot38.number = 1
 slot38.index = 0
 slot38.label = 2
@@ -655,8 +658,8 @@ slot38.has_default_value = false
 slot38.default_value = 0
 slot38.type = 13
 slot38.cpp_type = 3
-slot39.name = "progress"
-slot39.full_name = ".p17.achievement_info.progress"
+slot39.name = "end_time"
+slot39.full_name = ".p17.attire_info.end_time"
 slot39.number = 2
 slot39.index = 1
 slot39.label = 2
@@ -664,134 +667,134 @@ slot39.has_default_value = false
 slot39.default_value = 0
 slot39.type = 13
 slot39.cpp_type = 3
-slot40.name = "timestamp"
-slot40.full_name = ".p17.achievement_info.timestamp"
-slot40.number = 3
-slot40.index = 2
+ATTIRE_INFO.name = "attire_info"
+ATTIRE_INFO.full_name = ".p17.attire_info"
+ATTIRE_INFO.nested_types = {}
+ATTIRE_INFO.enum_types = {}
+ATTIRE_INFO.fields = {
+	slot38,
+	slot39
+}
+ATTIRE_INFO.is_extendable = false
+ATTIRE_INFO.extensions = {}
+slot40.name = "id"
+slot40.full_name = ".p17.achievement_info.id"
+slot40.number = 1
+slot40.index = 0
 slot40.label = 2
 slot40.has_default_value = false
 slot40.default_value = 0
 slot40.type = 13
 slot40.cpp_type = 3
-ACHIEVEMENT_INFO.name = "achievement_info"
-ACHIEVEMENT_INFO.full_name = ".p17.achievement_info"
-ACHIEVEMENT_INFO.nested_types = {}
-ACHIEVEMENT_INFO.enum_types = {}
-ACHIEVEMENT_INFO.fields = {
-	slot38,
-	slot39,
-	slot40
-}
-ACHIEVEMENT_INFO.is_extendable = false
-ACHIEVEMENT_INFO.extensions = {}
-slot41.name = "id"
-slot41.full_name = ".p17.ship_statistics_info.id"
-slot41.number = 1
-slot41.index = 0
+slot41.name = "progress"
+slot41.full_name = ".p17.achievement_info.progress"
+slot41.number = 2
+slot41.index = 1
 slot41.label = 2
 slot41.has_default_value = false
 slot41.default_value = 0
 slot41.type = 13
 slot41.cpp_type = 3
-slot42.name = "star"
-slot42.full_name = ".p17.ship_statistics_info.star"
-slot42.number = 2
-slot42.index = 1
+slot42.name = "timestamp"
+slot42.full_name = ".p17.achievement_info.timestamp"
+slot42.number = 3
+slot42.index = 2
 slot42.label = 2
 slot42.has_default_value = false
 slot42.default_value = 0
 slot42.type = 13
 slot42.cpp_type = 3
-slot43.name = "heart_flag"
-slot43.full_name = ".p17.ship_statistics_info.heart_flag"
-slot43.number = 3
-slot43.index = 2
+ACHIEVEMENT_INFO.name = "achievement_info"
+ACHIEVEMENT_INFO.full_name = ".p17.achievement_info"
+ACHIEVEMENT_INFO.nested_types = {}
+ACHIEVEMENT_INFO.enum_types = {}
+ACHIEVEMENT_INFO.fields = {
+	slot40,
+	slot41,
+	slot42
+}
+ACHIEVEMENT_INFO.is_extendable = false
+ACHIEVEMENT_INFO.extensions = {}
+slot43.name = "id"
+slot43.full_name = ".p17.ship_statistics_info.id"
+slot43.number = 1
+slot43.index = 0
 slot43.label = 2
 slot43.has_default_value = false
 slot43.default_value = 0
 slot43.type = 13
 slot43.cpp_type = 3
-slot44.name = "heart_count"
-slot44.full_name = ".p17.ship_statistics_info.heart_count"
-slot44.number = 4
-slot44.index = 3
+slot44.name = "star"
+slot44.full_name = ".p17.ship_statistics_info.star"
+slot44.number = 2
+slot44.index = 1
 slot44.label = 2
 slot44.has_default_value = false
 slot44.default_value = 0
 slot44.type = 13
 slot44.cpp_type = 3
-slot45.name = "marry_flag"
-slot45.full_name = ".p17.ship_statistics_info.marry_flag"
-slot45.number = 5
-slot45.index = 4
+slot45.name = "heart_flag"
+slot45.full_name = ".p17.ship_statistics_info.heart_flag"
+slot45.number = 3
+slot45.index = 2
 slot45.label = 2
 slot45.has_default_value = false
 slot45.default_value = 0
 slot45.type = 13
 slot45.cpp_type = 3
-slot46.name = "intimacy_max"
-slot46.full_name = ".p17.ship_statistics_info.intimacy_max"
-slot46.number = 6
-slot46.index = 5
+slot46.name = "heart_count"
+slot46.full_name = ".p17.ship_statistics_info.heart_count"
+slot46.number = 4
+slot46.index = 3
 slot46.label = 2
 slot46.has_default_value = false
 slot46.default_value = 0
 slot46.type = 13
 slot46.cpp_type = 3
-slot47.name = "lv_max"
-slot47.full_name = ".p17.ship_statistics_info.lv_max"
-slot47.number = 7
-slot47.index = 6
+slot47.name = "marry_flag"
+slot47.full_name = ".p17.ship_statistics_info.marry_flag"
+slot47.number = 5
+slot47.index = 4
 slot47.label = 2
 slot47.has_default_value = false
 slot47.default_value = 0
 slot47.type = 13
 slot47.cpp_type = 3
-SHIP_STATISTICS_INFO.name = "ship_statistics_info"
-SHIP_STATISTICS_INFO.full_name = ".p17.ship_statistics_info"
-SHIP_STATISTICS_INFO.nested_types = {}
-SHIP_STATISTICS_INFO.enum_types = {}
-SHIP_STATISTICS_INFO.fields = {
-	slot41,
-	slot42,
-	slot43,
-	slot44,
-	slot45,
-	slot46,
-	slot47
-}
-SHIP_STATISTICS_INFO.is_extendable = false
-SHIP_STATISTICS_INFO.extensions = {}
-slot48.name = "id"
-slot48.full_name = ".p17.ship_statistics_award.id"
-slot48.number = 1
-slot48.index = 0
+slot48.name = "intimacy_max"
+slot48.full_name = ".p17.ship_statistics_info.intimacy_max"
+slot48.number = 6
+slot48.index = 5
 slot48.label = 2
 slot48.has_default_value = false
 slot48.default_value = 0
 slot48.type = 13
 slot48.cpp_type = 3
-slot49.name = "award_index"
-slot49.full_name = ".p17.ship_statistics_award.award_index"
-slot49.number = 2
-slot49.index = 1
-slot49.label = 3
+slot49.name = "lv_max"
+slot49.full_name = ".p17.ship_statistics_info.lv_max"
+slot49.number = 7
+slot49.index = 6
+slot49.label = 2
 slot49.has_default_value = false
-slot49.default_value = {}
+slot49.default_value = 0
 slot49.type = 13
 slot49.cpp_type = 3
-SHIP_STATISTICS_AWARD.name = "ship_statistics_award"
-SHIP_STATISTICS_AWARD.full_name = ".p17.ship_statistics_award"
-SHIP_STATISTICS_AWARD.nested_types = {}
-SHIP_STATISTICS_AWARD.enum_types = {}
-SHIP_STATISTICS_AWARD.fields = {
+SHIP_STATISTICS_INFO.name = "ship_statistics_info"
+SHIP_STATISTICS_INFO.full_name = ".p17.ship_statistics_info"
+SHIP_STATISTICS_INFO.nested_types = {}
+SHIP_STATISTICS_INFO.enum_types = {}
+SHIP_STATISTICS_INFO.fields = {
+	slot43,
+	slot44,
+	slot45,
+	slot46,
+	slot47,
 	slot48,
 	slot49
 }
-SHIP_STATISTICS_AWARD.is_extendable = false
-SHIP_STATISTICS_AWARD.extensions = {}
-slot50.name = "ship_group_id"
-slot50.full_name = ".p17.ship_discuss_info.ship_group_id"
+SHIP_STATISTICS_INFO.is_extendable = false
+SHIP_STATISTICS_INFO.extensions = {}
+slot50.name = "id"
+slot50.full_name = ".p17.ship_statistics_award.id"
 slot50.number = 1
 slot50.index = 0
 slot50.label = 2
@@ -799,139 +802,167 @@ slot50.has_default_value = false
 slot50.default_value = 0
 slot50.type = 13
 slot50.cpp_type = 3
-slot51.name = "discuss_count"
-slot51.full_name = ".p17.ship_discuss_info.discuss_count"
+slot51.name = "award_index"
+slot51.full_name = ".p17.ship_statistics_award.award_index"
 slot51.number = 2
 slot51.index = 1
-slot51.label = 2
+slot51.label = 3
 slot51.has_default_value = false
-slot51.default_value = 0
+slot51.default_value = {}
 slot51.type = 13
 slot51.cpp_type = 3
-slot52.name = "heart_count"
-slot52.full_name = ".p17.ship_discuss_info.heart_count"
-slot52.number = 3
-slot52.index = 2
+SHIP_STATISTICS_AWARD.name = "ship_statistics_award"
+SHIP_STATISTICS_AWARD.full_name = ".p17.ship_statistics_award"
+SHIP_STATISTICS_AWARD.nested_types = {}
+SHIP_STATISTICS_AWARD.enum_types = {}
+SHIP_STATISTICS_AWARD.fields = {
+	slot50,
+	slot51
+}
+SHIP_STATISTICS_AWARD.is_extendable = false
+SHIP_STATISTICS_AWARD.extensions = {}
+slot52.name = "ship_group_id"
+slot52.full_name = ".p17.ship_discuss_info.ship_group_id"
+slot52.number = 1
+slot52.index = 0
 slot52.label = 2
 slot52.has_default_value = false
 slot52.default_value = 0
 slot52.type = 13
 slot52.cpp_type = 3
-slot53.name = "discuss_list"
-slot53.full_name = ".p17.ship_discuss_info.discuss_list"
-slot53.number = 4
-slot53.index = 3
-slot53.label = 3
+slot53.name = "discuss_count"
+slot53.full_name = ".p17.ship_discuss_info.discuss_count"
+slot53.number = 2
+slot53.index = 1
+slot53.label = 2
 slot53.has_default_value = false
-slot53.default_value = {}
-slot53.message_type = DISCUSS_INFO
-slot53.type = 11
-slot53.cpp_type = 10
-slot54.name = "daily_discuss_count"
-slot54.full_name = ".p17.ship_discuss_info.daily_discuss_count"
-slot54.number = 5
-slot54.index = 4
+slot53.default_value = 0
+slot53.type = 13
+slot53.cpp_type = 3
+slot54.name = "heart_count"
+slot54.full_name = ".p17.ship_discuss_info.heart_count"
+slot54.number = 3
+slot54.index = 2
 slot54.label = 2
 slot54.has_default_value = false
 slot54.default_value = 0
 slot54.type = 13
 slot54.cpp_type = 3
-SHIP_DISCUSS_INFO.name = "ship_discuss_info"
-SHIP_DISCUSS_INFO.full_name = ".p17.ship_discuss_info"
-SHIP_DISCUSS_INFO.nested_types = {}
-SHIP_DISCUSS_INFO.enum_types = {}
-SHIP_DISCUSS_INFO.fields = {
-	slot50,
-	slot51,
-	slot52,
-	slot53,
-	slot54
-}
-SHIP_DISCUSS_INFO.is_extendable = false
-SHIP_DISCUSS_INFO.extensions = {}
-slot55.name = "id"
-slot55.full_name = ".p17.discuss_info.id"
-slot55.number = 1
-slot55.index = 0
-slot55.label = 2
+slot55.name = "discuss_list"
+slot55.full_name = ".p17.ship_discuss_info.discuss_list"
+slot55.number = 4
+slot55.index = 3
+slot55.label = 3
 slot55.has_default_value = false
-slot55.default_value = 0
-slot55.type = 13
-slot55.cpp_type = 3
-slot56.name = "good_count"
-slot56.full_name = ".p17.discuss_info.good_count"
-slot56.number = 2
-slot56.index = 1
+slot55.default_value = {}
+slot55.message_type = DISCUSS_INFO
+slot55.type = 11
+slot55.cpp_type = 10
+slot56.name = "daily_discuss_count"
+slot56.full_name = ".p17.ship_discuss_info.daily_discuss_count"
+slot56.number = 5
+slot56.index = 4
 slot56.label = 2
 slot56.has_default_value = false
 slot56.default_value = 0
 slot56.type = 13
 slot56.cpp_type = 3
-slot57.name = "nick_name"
-slot57.full_name = ".p17.discuss_info.nick_name"
-slot57.number = 3
-slot57.index = 2
+SHIP_DISCUSS_INFO.name = "ship_discuss_info"
+SHIP_DISCUSS_INFO.full_name = ".p17.ship_discuss_info"
+SHIP_DISCUSS_INFO.nested_types = {}
+SHIP_DISCUSS_INFO.enum_types = {}
+SHIP_DISCUSS_INFO.fields = {
+	slot52,
+	slot53,
+	slot54,
+	slot55,
+	slot56
+}
+SHIP_DISCUSS_INFO.is_extendable = false
+SHIP_DISCUSS_INFO.extensions = {}
+slot57.name = "id"
+slot57.full_name = ".p17.discuss_info.id"
+slot57.number = 1
+slot57.index = 0
 slot57.label = 2
 slot57.has_default_value = false
-slot57.default_value = ""
-slot57.type = 9
-slot57.cpp_type = 9
-slot58.name = "context"
-slot58.full_name = ".p17.discuss_info.context"
-slot58.number = 4
-slot58.index = 3
+slot57.default_value = 0
+slot57.type = 13
+slot57.cpp_type = 3
+slot58.name = "good_count"
+slot58.full_name = ".p17.discuss_info.good_count"
+slot58.number = 2
+slot58.index = 1
 slot58.label = 2
 slot58.has_default_value = false
-slot58.default_value = ""
-slot58.type = 9
-slot58.cpp_type = 9
-slot59.name = "bad_count"
-slot59.full_name = ".p17.discuss_info.bad_count"
-slot59.number = 5
-slot59.index = 4
+slot58.default_value = 0
+slot58.type = 13
+slot58.cpp_type = 3
+slot59.name = "nick_name"
+slot59.full_name = ".p17.discuss_info.nick_name"
+slot59.number = 3
+slot59.index = 2
 slot59.label = 2
 slot59.has_default_value = false
-slot59.default_value = 0
-slot59.type = 13
-slot59.cpp_type = 3
-DISCUSS_INFO.name = "discuss_info"
-DISCUSS_INFO.full_name = ".p17.discuss_info"
-DISCUSS_INFO.nested_types = {}
-DISCUSS_INFO.enum_types = {}
-DISCUSS_INFO.fields = {
-	slot55,
-	slot56,
-	slot57,
-	slot58,
-	slot59
-}
-DISCUSS_INFO.is_extendable = false
-DISCUSS_INFO.extensions = {}
-slot60.name = "id"
-slot60.full_name = ".p17.voteinfo.id"
-slot60.number = 1
-slot60.index = 0
+slot59.default_value = ""
+slot59.type = 9
+slot59.cpp_type = 9
+slot60.name = "context"
+slot60.full_name = ".p17.discuss_info.context"
+slot60.number = 4
+slot60.index = 3
 slot60.label = 2
 slot60.has_default_value = false
-slot60.default_value = 0
-slot60.type = 13
-slot60.cpp_type = 3
-slot61.name = "count"
-slot61.full_name = ".p17.voteinfo.count"
-slot61.number = 2
-slot61.index = 1
+slot60.default_value = ""
+slot60.type = 9
+slot60.cpp_type = 9
+slot61.name = "bad_count"
+slot61.full_name = ".p17.discuss_info.bad_count"
+slot61.number = 5
+slot61.index = 4
 slot61.label = 2
 slot61.has_default_value = false
 slot61.default_value = 0
 slot61.type = 13
 slot61.cpp_type = 3
+DISCUSS_INFO.name = "discuss_info"
+DISCUSS_INFO.full_name = ".p17.discuss_info"
+DISCUSS_INFO.nested_types = {}
+DISCUSS_INFO.enum_types = {}
+DISCUSS_INFO.fields = {
+	slot57,
+	slot58,
+	slot59,
+	slot60,
+	slot61
+}
+DISCUSS_INFO.is_extendable = false
+DISCUSS_INFO.extensions = {}
+slot62.name = "id"
+slot62.full_name = ".p17.voteinfo.id"
+slot62.number = 1
+slot62.index = 0
+slot62.label = 2
+slot62.has_default_value = false
+slot62.default_value = 0
+slot62.type = 13
+slot62.cpp_type = 3
+slot63.name = "count"
+slot63.full_name = ".p17.voteinfo.count"
+slot63.number = 2
+slot63.index = 1
+slot63.label = 2
+slot63.has_default_value = false
+slot63.default_value = 0
+slot63.type = 13
+slot63.cpp_type = 3
 VOTEINFO.name = "voteinfo"
 VOTEINFO.full_name = ".p17.voteinfo"
 VOTEINFO.nested_types = {}
 VOTEINFO.enum_types = {}
 VOTEINFO.fields = {
-	slot60,
-	slot61
+	slot62,
+	slot63
 }
 VOTEINFO.is_extendable = false
 VOTEINFO.extensions = {}

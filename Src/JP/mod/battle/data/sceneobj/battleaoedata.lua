@@ -7,9 +7,10 @@ slot2.ALIGNMENT_LEFT = "left"
 slot2.ALIGNMENT_RIGHT = "right"
 slot2.ALIGNMENT_MIDDLE = "middle"
 
-function slot2.Ctor(slot0, slot1, slot2, slot3)
+function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._areaUniqueID = slot1
 	slot0._areaCldFunc = slot3
+	slot0._endFunc = slot4
 	slot0._IFF = slot2
 	slot0._cldObjList = {}
 
@@ -47,13 +48,24 @@ function slot2.RemoveTimer(slot0)
 	slot0._flag = false
 end
 
+function slot2.ClearCLDList(slot0)
+	slot0._cldObjList = {}
+end
+
 function slot2.AppendCldObj(slot0, slot1)
 	slot0._cldObjList[#slot0._cldObjList + 1] = slot1
 end
 
 function slot2.Settle(slot0)
 	slot0.SortCldObjList(slot0._cldObjList)
-	slot0._cldComponent:GetCldData().func(slot0._cldObjList, obj)
+	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
+end
+
+function slot2.SettleFinale(slot0)
+	if slot0._endFunc then
+		slot0.SortCldObjList(slot0._cldObjList)
+		slot0._endFunc(slot0._cldObjList)
+	end
 end
 
 function slot2.SortCldObjList(slot0)

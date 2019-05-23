@@ -12,9 +12,11 @@ function slot0.register(slot0)
 		slot0:sendNotification(PrayPoolConst.BUILD_PRAY_POOL_CMD, slot1)
 	end)
 	slot0:bind(PrayPoolConst.START_BUILD_SHIP_EVENT, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.BUILD_SHIP, {
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			cmd = 2,
 			buildId = slot1,
-			count = slot2
+			activity_id = ActivityConst.ACTIVITY_PRAY_POOL,
+			arg1 = slot2
 		})
 	end)
 

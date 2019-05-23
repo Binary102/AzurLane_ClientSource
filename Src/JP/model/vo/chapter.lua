@@ -8,7 +8,7 @@ slot0.CHAPTER_STATE = {
 	i18n("level_chapter_state_safety")
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.unlock = false
@@ -19,29 +19,29 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.expireTime = slot1.active_time
 	slot0.awardIndex = slot1.index or 0
 	slot0.theme = ChapterTheme.New(slot0:getConfig("theme"))
-	slot3 = {
+	slot2 = {
 		defaultValue(slot1.kill_boss_count, 0),
 		defaultValue(slot1.kill_enemy_count, 0),
 		defaultValue(slot1.take_box_count, 0)
 	}
 	slot0.achieves = {}
 
-	for slot7 = 1, 3, 1 do
-		if slot0:getConfig("star_require_" .. slot7) > 0 then
+	for slot6 = 1, 3, 1 do
+		if slot0:getConfig("star_require_" .. slot6) > 0 then
 			table.insert(slot0.achieves, {
-				type = slot8,
-				config = slot0:getConfig("num_" .. slot7),
-				count = slot3[slot7]
+				type = slot7,
+				config = slot0:getConfig("num_" .. slot6),
+				count = slot2[slot6]
 			})
 		end
 	end
 
 	slot0.dropShipIdList = {}
-	slot4 = ipairs
-	slot5 = slot1.drop_ship_id or {}
+	slot3 = ipairs
+	slot4 = slot1.drop_ship_id or {}
 
-	for slot7, slot8 in slot4(slot5) do
-		table.insert(slot0.dropShipIdList, slot8)
+	for slot6, slot7 in slot3(slot4) do
+		table.insert(slot0.dropShipIdList, slot7)
 	end
 
 	slot0.eliteFleetList = {
@@ -54,39 +54,6 @@ function slot0.Ctor(slot0, slot1, slot2)
 		{},
 		{}
 	}
-
-	if slot1.elite_fleet_list or slot2 then
-		slot5 = ipairs
-		slot6 = slot4 or {}
-
-		for slot8, slot9 in slot5(slot6) do
-			slot10 = {}
-
-			for slot14, slot15 in ipairs(slot9.main_id) do
-				slot10[#slot10 + 1] = slot15
-			end
-
-			for slot14, slot15 in ipairs(slot9.scout_id) do
-				slot10[#slot10 + 1] = slot15
-			end
-
-			for slot14, slot15 in ipairs(slot9.submarine_id) do
-				slot10[#slot10 + 1] = slot15
-			end
-
-			slot0.eliteFleetList[slot8] = slot10
-			slot11 = {}
-
-			for slot15, slot16 in ipairs(slot9.commanders) do
-				if getProxy(CommanderProxy):getCommanderById(slot16.commanderid) then
-					slot11[slot16.id] = slot16.commanderid
-				end
-			end
-
-			slot0.eliteCommanderList[slot8] = slot11
-		end
-	end
-
 	slot0.pathFinder = nil
 	slot0.active = false
 	slot0.dueTime = nil
@@ -102,12 +69,56 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.buff_list = {}
 
 	if slot1.buff_list then
-		for slot8, slot9 in ipairs(slot1.buff_list) do
-			slot0.buff_list[slot8] = slot9
+		for slot6, slot7 in ipairs(slot1.buff_list) do
+			slot0.buff_list[slot6] = slot7
 		end
 	end
 
 	slot0.extraFlagList = {}
+end
+
+function slot0.BuildEliteFleetList(slot0)
+	slot1 = {
+		{},
+		{},
+		{}
+	}
+	slot2 = {
+		{},
+		{},
+		{}
+	}
+	slot3 = ipairs
+	slot4 = slot0 or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot8 = {}
+
+		for slot12, slot13 in ipairs(slot7.main_id) do
+			slot8[#slot8 + 1] = slot13
+		end
+
+		for slot12, slot13 in ipairs(slot7.scout_id) do
+			slot8[#slot8 + 1] = slot13
+		end
+
+		for slot12, slot13 in ipairs(slot7.submarine_id) do
+			slot8[#slot8 + 1] = slot13
+		end
+
+		slot1[slot6] = slot8
+		slot9 = {}
+
+		for slot13, slot14 in ipairs(slot7.commanders) do
+			if getProxy(CommanderProxy):getCommanderById(slot14.commanderid) then
+				slot9[slot14.id] = slot14.commanderid
+			end
+		end
+
+		slot2[slot6] = slot9
+	end
+
+	return slot1, slot2
 end
 
 function slot0.__index(slot0, slot1)
@@ -880,6 +891,10 @@ function slot0.wrapEliteFleet(slot0, slot1)
 		ship_list = slot3,
 		commanders = slot2
 	})
+end
+
+function slot0.setEliteCommanders(slot0, slot1)
+	slot0.eliteCommanderList = slot1
 end
 
 function slot0.getEliteFleetCommanders(slot0)

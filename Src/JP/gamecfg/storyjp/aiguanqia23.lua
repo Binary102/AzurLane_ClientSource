@@ -174,7 +174,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "ai-fb-inst",
+			bgm = "story-1",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "かくかくしかじかで、ランダムワード生成器が私の３Dモデルをもとにコピーを作ったみたいでさ、私も少し前に気が付いてびっくりしてたところだったんだよ～",

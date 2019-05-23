@@ -863,6 +863,8 @@ function pg.MsgboxMgr.ShowMsgBox(slot0, slot1)
 	elseif slot2 == MSGBOX_TYPE_HELP then
 		slot6(slot0, slot1)
 	end
+
+	slot0._tf:SetAsLastSibling()
 end
 
 function pg.MsgboxMgr.hide(slot0)

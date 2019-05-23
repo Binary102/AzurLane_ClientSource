@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "10248",
+		param = "10264",
 		type = 3,
 		id = 1,
 		pic = "temp2",
@@ -10,7 +10,7 @@ pg.activity_banner = {
 				{
 					2019,
 					5,
-					20
+					23
 				},
 				{
 					0,
@@ -35,16 +35,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp10",
+		pic = "temp8",
 		param = {
-			"naval academy scene"
+			"scene get boat",
+			{
+				projectName = "new"
+			}
 		},
 		time = {
 			{
 				{
 					2019,
 					5,
-					20
+					23
 				},
 				{
 					0,
@@ -55,8 +58,40 @@ pg.activity_banner = {
 			{
 				{
 					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "10258",
+		type = 3,
+		id = 3,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2019,
 					5,
 					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -68,8 +103,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp1",
+		id = 4,
+		pic = "temp5",
 		param = {
 			"scene coloring"
 		},
@@ -101,48 +136,111 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 5,
+		pic = "temp6",
 		param = {
-			"scene get boat",
+			"scene back yard"
+		},
+		time = {
 			{
-				projectName = "new"
+				{
+					2019,
+					5,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
-		id = 5,
+		id = 6,
 		pic = "temp3",
 		param = {
 			"scene charge",
 			{
-				wrap = 3
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
-		id = 6,
-		pic = "temp12",
-		param = {
-			"scene back yard"
+		param = "10248",
+		type = 3,
+		id = 7,
+		pic = "temp1",
+		time = {
+			{
+				{
+					2019,
+					5,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "10232",
-		time = "stop",
-		type = 3,
-		id = 7,
-		pic = "temp5"
-	},
-	{
 		param = "0",
-		time = "always",
+		time = "stop",
 		type = 3,
 		id = 8,
 		pic = "temp13"

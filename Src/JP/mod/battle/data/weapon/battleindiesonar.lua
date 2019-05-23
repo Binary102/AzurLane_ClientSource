@@ -35,6 +35,10 @@ end
 
 function slot9.Update(slot0, slot1)
 	if slot1 > slot0._snoarStartTime + slot0._duration then
+		for slot5, slot6 in ipairs(slot0._detectedList) do
+			slot6:Undetected()
+		end
+
 		slot0._fleetVO:RemoveIndieSonar()
 	else
 		slot0:updateDetectedList()

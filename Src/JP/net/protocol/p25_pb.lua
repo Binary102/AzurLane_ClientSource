@@ -1,4 +1,5 @@
 slot0 = require("protobuf")
+slot1 = require("common_pb")
 
 module("p25_pb")
 
@@ -58,27 +59,11 @@ slot34 = slot0.FieldDescriptor()
 slot35 = slot0.FieldDescriptor()
 SC_25021 = slot0.Descriptor()
 slot36 = slot0.FieldDescriptor()
-COMMANDERINFO = slot0.Descriptor()
+COMMANDERBOXINFO = slot0.Descriptor()
 slot37 = slot0.FieldDescriptor()
 slot38 = slot0.FieldDescriptor()
 slot39 = slot0.FieldDescriptor()
 slot40 = slot0.FieldDescriptor()
-slot41 = slot0.FieldDescriptor()
-slot42 = slot0.FieldDescriptor()
-slot43 = slot0.FieldDescriptor()
-slot44 = slot0.FieldDescriptor()
-slot45 = slot0.FieldDescriptor()
-slot46 = slot0.FieldDescriptor()
-slot47 = slot0.FieldDescriptor()
-slot48 = slot0.FieldDescriptor()
-COMMANDERBOXINFO = slot0.Descriptor()
-slot49 = slot0.FieldDescriptor()
-slot50 = slot0.FieldDescriptor()
-slot51 = slot0.FieldDescriptor()
-slot52 = slot0.FieldDescriptor()
-SKILLINFO = slot0.Descriptor()
-slot53 = slot0.FieldDescriptor()
-slot54 = slot0.FieldDescriptor()
 slot2.name = "commanders"
 slot2.full_name = ".p25.sc_25001.commanders"
 slot2.number = 1
@@ -86,7 +71,7 @@ slot2.index = 0
 slot2.label = 3
 slot2.has_default_value = false
 slot2.default_value = {}
-slot2.message_type = COMMANDERINFO
+slot2.message_type = slot1.COMMANDERINFO
 slot2.type = 11
 slot2.cpp_type = 10
 slot3.name = "box"
@@ -200,7 +185,7 @@ slot10.index = 1
 slot10.label = 2
 slot10.has_default_value = false
 slot10.default_value = nil
-slot10.message_type = COMMANDERINFO
+slot10.message_type = slot1.COMMANDERINFO
 slot10.type = 11
 slot10.cpp_type = 10
 slot11.name = "finish_time"
@@ -543,7 +528,7 @@ slot33.index = 1
 slot33.label = 3
 slot33.has_default_value = false
 slot33.default_value = {}
-slot33.message_type = require("common_pb").DROPINFO
+slot33.message_type = slot1.DROPINFO
 slot33.type = 11
 slot33.cpp_type = 10
 SC_25019.name = "sc_25019"
@@ -603,7 +588,7 @@ SC_25021.fields = {
 SC_25021.is_extendable = false
 SC_25021.extensions = {}
 slot37.name = "id"
-slot37.full_name = ".p25.commanderinfo.id"
+slot37.full_name = ".p25.commanderboxinfo.id"
 slot37.number = 1
 slot37.index = 0
 slot37.label = 2
@@ -611,8 +596,8 @@ slot37.has_default_value = false
 slot37.default_value = 0
 slot37.type = 13
 slot37.cpp_type = 3
-slot38.name = "template_id"
-slot38.full_name = ".p25.commanderinfo.template_id"
+slot38.name = "poolId"
+slot38.full_name = ".p25.commanderboxinfo.poolId"
 slot38.number = 2
 slot38.index = 1
 slot38.label = 2
@@ -620,8 +605,8 @@ slot38.has_default_value = false
 slot38.default_value = 0
 slot38.type = 13
 slot38.cpp_type = 3
-slot39.name = "level"
-slot39.full_name = ".p25.commanderinfo.level"
+slot39.name = "finish_time"
+slot39.full_name = ".p25.commanderboxinfo.finish_time"
 slot39.number = 3
 slot39.index = 2
 slot39.label = 2
@@ -629,8 +614,8 @@ slot39.has_default_value = false
 slot39.default_value = 0
 slot39.type = 13
 slot39.cpp_type = 3
-slot40.name = "exp"
-slot40.full_name = ".p25.commanderinfo.exp"
+slot40.name = "begin_time"
+slot40.full_name = ".p25.commanderboxinfo.begin_time"
 slot40.number = 4
 slot40.index = 3
 slot40.label = 2
@@ -638,177 +623,19 @@ slot40.has_default_value = false
 slot40.default_value = 0
 slot40.type = 13
 slot40.cpp_type = 3
-slot41.name = "is_locked"
-slot41.full_name = ".p25.commanderinfo.is_locked"
-slot41.number = 5
-slot41.index = 4
-slot41.label = 2
-slot41.has_default_value = false
-slot41.default_value = 0
-slot41.type = 13
-slot41.cpp_type = 3
-slot42.name = "ability"
-slot42.full_name = ".p25.commanderinfo.ability"
-slot42.number = 6
-slot42.index = 5
-slot42.label = 3
-slot42.has_default_value = false
-slot42.default_value = {}
-slot42.type = 13
-slot42.cpp_type = 3
-slot43.name = "ability_origin"
-slot43.full_name = ".p25.commanderinfo.ability_origin"
-slot43.number = 7
-slot43.index = 6
-slot43.label = 3
-slot43.has_default_value = false
-slot43.default_value = {}
-slot43.type = 13
-slot43.cpp_type = 3
-slot44.name = "ability_time"
-slot44.full_name = ".p25.commanderinfo.ability_time"
-slot44.number = 8
-slot44.index = 7
-slot44.label = 2
-slot44.has_default_value = false
-slot44.default_value = 0
-slot44.type = 13
-slot44.cpp_type = 3
-slot45.name = "skill"
-slot45.full_name = ".p25.commanderinfo.skill"
-slot45.number = 9
-slot45.index = 8
-slot45.label = 3
-slot45.has_default_value = false
-slot45.default_value = {}
-slot45.message_type = SKILLINFO
-slot45.type = 11
-slot45.cpp_type = 10
-slot46.name = "used_pt"
-slot46.full_name = ".p25.commanderinfo.used_pt"
-slot46.number = 10
-slot46.index = 9
-slot46.label = 2
-slot46.has_default_value = false
-slot46.default_value = 0
-slot46.type = 13
-slot46.cpp_type = 3
-slot47.name = "name"
-slot47.full_name = ".p25.commanderinfo.name"
-slot47.number = 11
-slot47.index = 10
-slot47.label = 2
-slot47.has_default_value = false
-slot47.default_value = ""
-slot47.type = 9
-slot47.cpp_type = 9
-slot48.name = "rename_time"
-slot48.full_name = ".p25.commanderinfo.rename_time"
-slot48.number = 12
-slot48.index = 11
-slot48.label = 2
-slot48.has_default_value = false
-slot48.default_value = 0
-slot48.type = 13
-slot48.cpp_type = 3
-COMMANDERINFO.name = "commanderinfo"
-COMMANDERINFO.full_name = ".p25.commanderinfo"
-COMMANDERINFO.nested_types = {}
-COMMANDERINFO.enum_types = {}
-COMMANDERINFO.fields = {
-	slot37,
-	slot38,
-	slot39,
-	slot40,
-	slot41,
-	slot42,
-	slot43,
-	slot44,
-	slot45,
-	slot46,
-	slot47,
-	slot48
-}
-COMMANDERINFO.is_extendable = false
-COMMANDERINFO.extensions = {}
-slot49.name = "id"
-slot49.full_name = ".p25.commanderboxinfo.id"
-slot49.number = 1
-slot49.index = 0
-slot49.label = 2
-slot49.has_default_value = false
-slot49.default_value = 0
-slot49.type = 13
-slot49.cpp_type = 3
-slot50.name = "poolId"
-slot50.full_name = ".p25.commanderboxinfo.poolId"
-slot50.number = 2
-slot50.index = 1
-slot50.label = 2
-slot50.has_default_value = false
-slot50.default_value = 0
-slot50.type = 13
-slot50.cpp_type = 3
-slot51.name = "finish_time"
-slot51.full_name = ".p25.commanderboxinfo.finish_time"
-slot51.number = 3
-slot51.index = 2
-slot51.label = 2
-slot51.has_default_value = false
-slot51.default_value = 0
-slot51.type = 13
-slot51.cpp_type = 3
-slot52.name = "begin_time"
-slot52.full_name = ".p25.commanderboxinfo.begin_time"
-slot52.number = 4
-slot52.index = 3
-slot52.label = 2
-slot52.has_default_value = false
-slot52.default_value = 0
-slot52.type = 13
-slot52.cpp_type = 3
 COMMANDERBOXINFO.name = "commanderboxinfo"
 COMMANDERBOXINFO.full_name = ".p25.commanderboxinfo"
 COMMANDERBOXINFO.nested_types = {}
 COMMANDERBOXINFO.enum_types = {}
 COMMANDERBOXINFO.fields = {
-	slot49,
-	slot50,
-	slot51,
-	slot52
+	slot37,
+	slot38,
+	slot39,
+	slot40
 }
 COMMANDERBOXINFO.is_extendable = false
 COMMANDERBOXINFO.extensions = {}
-slot53.name = "id"
-slot53.full_name = ".p25.skillinfo.id"
-slot53.number = 1
-slot53.index = 0
-slot53.label = 2
-slot53.has_default_value = false
-slot53.default_value = 0
-slot53.type = 13
-slot53.cpp_type = 3
-slot54.name = "exp"
-slot54.full_name = ".p25.skillinfo.exp"
-slot54.number = 2
-slot54.index = 1
-slot54.label = 2
-slot54.has_default_value = false
-slot54.default_value = 0
-slot54.type = 13
-slot54.cpp_type = 3
-SKILLINFO.name = "skillinfo"
-SKILLINFO.full_name = ".p25.skillinfo"
-SKILLINFO.nested_types = {}
-SKILLINFO.enum_types = {}
-SKILLINFO.fields = {
-	slot53,
-	slot54
-}
-SKILLINFO.is_extendable = false
-SKILLINFO.extensions = {}
 commanderboxinfo = slot0.Message(COMMANDERBOXINFO)
-commanderinfo = slot0.Message(COMMANDERINFO)
 cs_25002 = slot0.Message(CS_25002)
 cs_25004 = slot0.Message(CS_25004)
 cs_25006 = slot0.Message(CS_25006)
@@ -830,6 +657,5 @@ sc_25015 = slot0.Message(SC_25015)
 sc_25017 = slot0.Message(SC_25017)
 sc_25019 = slot0.Message(SC_25019)
 sc_25021 = slot0.Message(SC_25021)
-skillinfo = slot0.Message(SKILLINFO)
 
 return

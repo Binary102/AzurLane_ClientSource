@@ -821,6 +821,20 @@ function slot2(slot0, slot1, slot2, slot3)
 		slot6 = slot0.updateLimit
 
 		slot6(slot7)
+
+		slot6 = OPEN_AIR_DOMINANCE
+
+		if slot6 then
+			slot6 = slot0.chapterASValue
+			slot7 = 0
+
+			if slot6 > slot7 then
+				slot7 = slot0
+				slot6 = slot0.updateASValue
+
+				slot6(slot7)
+			end
+		end
 	end
 end
 
@@ -1683,6 +1697,34 @@ function slot2(slot0, slot1)
 
 	function slot5()
 		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.isTriesLimit
+		slot0 = slot0(slot1)
+
+		if slot0 then
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.enoughTimes2Start
+			slot0 = slot0(slot1)
+
+			if not slot0 then
+				slot0 = pg
+				slot0 = slot0.TipsMgr
+				slot1 = slot0
+				slot0 = slot0.GetInstance
+				slot0 = slot0(slot1)
+				slot1 = slot0
+				slot0 = slot0.ShowTips
+				slot2 = i18n
+				slot3 = "common_elite_no_quota"
+
+				slot0(slot1, slot2(slot3))
+
+				return
+			end
+		end
+
+		slot0 = slot1
 		slot0 = slot0.chapter
 		slot1 = slot0
 		slot0 = slot0.IsEliteFleetLegal
@@ -1728,7 +1770,7 @@ function slot2(slot0, slot1)
 			end
 
 			if slot1 then
-				slot3 = slot0
+				slot3 = slot1
 				slot4 = slot3
 				slot3 = slot3.emit
 				slot5 = LevelUIConst
@@ -2208,92 +2250,77 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 
 	slot12(slot13, slot14)
 
-	slot12 = {}
-	slot13 = 1
-	slot14 = 3
-	slot15 = 1
+	slot12 = 1
+	slot13 = 3
+	slot14 = 1
 
-	for slot16 = slot13, slot14, slot15 do
-		slot17, slot18, slot19 = nil
-		slot20 = slot7[slot16]
+	for slot15 = slot12, slot13, slot14 do
+		slot16, slot17, slot18 = nil
+		slot19 = slot7[slot15]
 
-		if slot20 then
-			slot20 = slot0.shipVOs[slot7[slot16]] or nil
+		if slot19 then
+			slot19 = slot0.shipVOs[slot7[slot15]] or nil
 
-			if slot20 then
-				slot21 = ipairs
-				slot22 = slot3
-				slot21, slot22, slot23 = slot21(slot22)
+			if slot19 then
+				slot20 = ipairs
+				slot21 = slot3
+				slot20, slot21, slot22 = slot20(slot21)
 
-				for slot24, slot25 in slot21, slot22, slot23 do
-					slot26 = type
-					slot27 = slot25
-					slot26 = slot26(slot27)
+				for slot23, slot24 in slot20, slot21, slot22 do
+					slot25 = type
+					slot26 = slot24
+					slot25 = slot25(slot26)
 
-					if slot26 == "number" then
-						if slot25 ~= 0 then
-							slot27 = slot20
-							slot26 = slot20.getShipType
-							slot26 = slot26(slot27)
+					if slot25 == "number" then
+						if slot24 ~= 0 then
+							slot26 = slot19
+							slot25 = slot19.getShipType
+							slot25 = slot25(slot26)
 
-							if slot26 == slot25 then
-								slot18 = slot20
-								slot19 = slot25
-								slot26 = table
-								slot26 = slot26.remove
-								slot27 = slot3
-								slot28 = slot24
+							if slot25 == slot24 then
+								slot17 = slot19
+								slot18 = slot24
+								slot25 = table
+								slot25 = slot25.remove
+								slot26 = slot3
+								slot27 = slot23
 
-								slot26(slot27, slot28)
-
-								slot26 = table
-								slot26 = slot26.insert
-								slot27 = slot12
-								slot28 = slot24
-
-								slot26(slot27, slot28)
+								slot25(slot26, slot27)
 
 								if not slot10 then
-									slot10 = slot20:getShipType() == slot25
+									slot10 = slot19:getShipType() == slot24
 								end
 
 								break
 							end
 						end
 					else
-						slot26 = type
-						slot27 = slot25
-						slot26 = slot26(slot27)
+						slot25 = type
+						slot26 = slot24
+						slot25 = slot25(slot26)
 
-						if slot26 == "string" then
-							slot26 = Clone
-							slot27 = ShipType
-							slot27 = slot27.BundleList
-							slot27 = slot27[slot25]
-							slot26 = slot26(slot27)
-							slot27 = table
-							slot27 = slot27.contains
-							slot28 = slot26
-							slot30 = slot20
-							slot29 = slot20.getShipType
-							slot27 = slot27(slot28, slot29(slot30))
+						if slot25 == "string" then
+							slot25 = Clone
+							slot26 = ShipType
+							slot26 = slot26.BundleList
+							slot26 = slot26[slot24]
+							slot25 = slot25(slot26)
+							slot26 = table
+							slot26 = slot26.contains
+							slot27 = slot25
+							slot29 = slot19
+							slot28 = slot19.getShipType
+							slot26 = slot26(slot27, slot28(slot29))
 
-							if slot27 then
-								slot18 = slot20
-								slot19 = slot25
-								slot27 = table
-								slot27 = slot27.remove
-								slot28 = slot3
-								slot29 = slot24
+							if slot26 then
+								slot17 = slot19
+								slot18 = slot24
+								slot26 = table
+								slot26 = slot26.remove
+								slot27 = slot3
+								slot28 = slot23
 
-								slot27(slot28, slot29)
-
-								slot27 = table
-								slot27 = slot27.insert
-								slot28 = slot12
-								slot29 = slot24
-
-								slot27(slot28, slot29)
+								slot26(slot27, slot28)
 
 								slot10 = true
 
@@ -2303,148 +2330,141 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 					end
 				end
 			else
-				slot19 = slot3[1]
-				slot21 = table
-				slot21 = slot21.remove
-				slot22 = slot3
-				slot23 = 1
+				slot18 = slot3[1]
+				slot20 = table
+				slot20 = slot20.remove
+				slot21 = slot3
+				slot22 = 1
 
-				slot21(slot22, slot23)
-
-				slot21 = table
-				slot21 = slot21.insert
-				slot22 = slot12
-				slot23 = 1
-
-				slot21(slot22, slot23)
+				slot20(slot21, slot22)
 			end
 		end
 
-		if slot19 == 0 then
+		if slot18 == 0 then
 			slot11 = slot11 + 1
 		end
 
-		if slot18 then
-			slot21 = cloneTplTo
-			slot22 = slot0.tfShipTpl
-			slot23 = slot8
-			slot21 = slot21(slot22, slot23)
+		if slot17 then
+			slot20 = cloneTplTo
+			slot21 = slot0.tfShipTpl
+			slot22 = slot8
+			slot20 = slot20(slot21, slot22)
 
-			if not slot21 then
-				slot21 = cloneTplTo
-				slot22 = slot0.tfEmptyTpl
-				slot23 = slot8
-				slot21 = slot21(slot22, slot23)
+			if not slot20 then
+				slot20 = cloneTplTo
+				slot21 = slot0.tfEmptyTpl
+				slot22 = slot8
+				slot20 = slot20(slot21, slot22)
 			end
 		end
 
-		slot22 = setActive
-		slot23 = slot21
-		slot24 = true
+		slot21 = setActive
+		slot22 = slot20
+		slot23 = true
 
-		slot22(slot23, slot24)
+		slot21(slot22, slot23)
 
-		if slot18 then
-			slot22 = updateShip
-			slot23 = slot21
-			slot24 = slot18
+		if slot17 then
+			slot21 = updateShip
+			slot22 = slot20
+			slot23 = slot17
 
-			slot22(slot23, slot24)
+			slot21(slot22, slot23)
 
-			slot22 = setActive
-			slot24 = slot0
-			slot23 = slot0.findTF
-			slot25 = "event_block"
-			slot26 = slot21
-			slot23 = slot23(slot24, slot25, slot26)
-			slot24 = slot18.inEvent
+			slot21 = setActive
+			slot23 = slot0
+			slot22 = slot0.findTF
+			slot24 = "event_block"
+			slot25 = slot20
+			slot22 = slot22(slot23, slot24, slot25)
+			slot23 = slot17.inEvent
 
-			slot22(slot23, slot24)
+			slot21(slot22, slot23)
 
-			slot22 = true
-			slot6[slot18] = slot22
+			slot21 = true
+			slot6[slot17] = slot21
 		else
 			slot9 = slot9 + 1
 		end
 
-		slot22 = findTF
-		slot23 = slot21
-		slot24 = "icon_bg"
-		slot22 = slot22(slot23, slot24)
-		slot17 = slot22
-		slot22 = setActive
-		slot24 = slot0
-		slot23 = slot0.findTF
-		slot25 = "ship_type"
-		slot26 = slot21
-		slot23 = slot23(slot24, slot25, slot26)
-		slot24 = true
+		slot21 = findTF
+		slot22 = slot20
+		slot23 = "icon_bg"
+		slot21 = slot21(slot22, slot23)
+		slot16 = slot21
+		slot21 = setActive
+		slot23 = slot0
+		slot22 = slot0.findTF
+		slot24 = "ship_type"
+		slot25 = slot20
+		slot22 = slot22(slot23, slot24, slot25)
+		slot23 = true
 
-		slot22(slot23, slot24)
+		slot21(slot22, slot23)
 
-		slot22 = type
-		slot23 = slot19
-		slot22 = slot22(slot23)
+		slot21 = type
+		slot22 = slot18
+		slot21 = slot21(slot22)
 
-		if slot22 == "number" then
-			if slot19 ~= 0 then
-				slot22 = GetSpriteFromAtlas
-				slot23 = "shiptype"
-				slot24 = ShipType
-				slot24 = slot24.Type2CNLabel
-				slot25 = slot19
-				slot22 = slot22(slot23, slot24(slot25))
-				slot23 = setImageSprite
-				slot25 = slot0
-				slot24 = slot0.findTF
-				slot26 = "ship_type"
-				slot27 = slot21
-				slot24 = slot24(slot25, slot26, slot27)
-				slot25 = slot22
-				slot26 = true
-
-				slot23(slot24, slot25, slot26)
-			else
-				slot22 = setActive
+		if slot21 == "number" then
+			if slot18 ~= 0 then
+				slot21 = GetSpriteFromAtlas
+				slot22 = "shiptype"
+				slot23 = ShipType
+				slot23 = slot23.Type2CNLabel
+				slot24 = slot18
+				slot21 = slot21(slot22, slot23(slot24))
+				slot22 = setImageSprite
 				slot24 = slot0
 				slot23 = slot0.findTF
 				slot25 = "ship_type"
-				slot26 = slot21
+				slot26 = slot20
 				slot23 = slot23(slot24, slot25, slot26)
-				slot24 = false
+				slot24 = slot21
+				slot25 = true
 
-				slot22(slot23, slot24)
+				slot22(slot23, slot24, slot25)
+			else
+				slot21 = setActive
+				slot23 = slot0
+				slot22 = slot0.findTF
+				slot24 = "ship_type"
+				slot25 = slot20
+				slot22 = slot22(slot23, slot24, slot25)
+				slot23 = false
+
+				slot21(slot22, slot23)
 			end
 		else
-			slot22 = type
-			slot23 = slot19
-			slot22 = slot22(slot23)
+			slot21 = type
+			slot22 = slot18
+			slot21 = slot21(slot22)
 
-			if slot22 == "string" then
-				slot22 = GetSpriteFromAtlas
-				slot23 = "shiptype"
-				slot24 = ShipType
-				slot24 = slot24.BundleType2CNLabel
-				slot25 = slot19
-				slot22 = slot22(slot23, slot24(slot25))
-				slot23 = setImageSprite
-				slot25 = slot0
-				slot24 = slot0.findTF
-				slot26 = "ship_type"
-				slot27 = slot21
-				slot24 = slot24(slot25, slot26, slot27)
-				slot25 = slot22
-				slot26 = true
+			if slot21 == "string" then
+				slot21 = GetSpriteFromAtlas
+				slot22 = "shiptype"
+				slot23 = ShipType
+				slot23 = slot23.BundleType2CNLabel
+				slot24 = slot18
+				slot21 = slot21(slot22, slot23(slot24))
+				slot22 = setImageSprite
+				slot24 = slot0
+				slot23 = slot0.findTF
+				slot25 = "ship_type"
+				slot26 = slot20
+				slot23 = slot23(slot24, slot25, slot26)
+				slot24 = slot21
+				slot25 = true
 
-				slot23(slot24, slot25, slot26)
+				slot22(slot23, slot24, slot25)
 			end
 		end
 
-		slot22 = _
-		slot22 = slot22.map
-		slot23 = slot5
+		slot21 = _
+		slot21 = slot21.map
+		slot22 = slot5
 
-		function slot24(slot0)
+		function slot23(slot0)
 			slot1 = slot0
 			slot1 = slot1.shipVOs
 			slot1 = slot1[slot0]
@@ -2452,12 +2472,12 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			return slot1
 		end
 
-		slot22 = slot22(slot23, slot24)
-		slot23 = table
-		slot23 = slot23.sort
-		slot24 = slot22
+		slot21 = slot21(slot22, slot23)
+		slot22 = table
+		slot22 = slot22.sort
+		slot23 = slot21
 
-		function slot25(slot0, slot1)
+		function slot24(slot0, slot1)
 			slot2 = slot0
 			slot4 = slot0
 			slot3 = slot0.getTeamType
@@ -2482,15 +2502,15 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			return table.indexof(slot1, slot0.id) < table.indexof(slot1, slot1.id)
 		end
 
-		slot23(slot24, slot25)
+		slot22(slot23, slot24)
 
-		slot23 = GetOrAddComponent
-		slot24 = slot17
-		slot25 = typeof
-		slot26 = UILongPressTrigger
-		slot23 = slot23(slot24, slot25(slot26))
+		slot22 = GetOrAddComponent
+		slot23 = slot16
+		slot24 = typeof
+		slot25 = UILongPressTrigger
+		slot22 = slot22(slot23, slot24(slot25))
 
-		function slot24()
+		function slot23()
 			slot0 = slot0
 			slot0 = slot0.onCancelHard
 
@@ -2519,35 +2539,35 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			slot0(slot1, slot2, slot3)
 		end
 
-		slot25 = slot23.onReleased
-		slot26 = slot25
-		slot25 = slot25.RemoveAllListeners
+		slot24 = slot22.onReleased
+		slot25 = slot24
+		slot24 = slot24.RemoveAllListeners
 
-		slot25(slot26)
+		slot24(slot25)
 
-		slot25 = slot23.onLongPressed
-		slot26 = slot25
-		slot25 = slot25.RemoveAllListeners
+		slot24 = slot22.onLongPressed
+		slot25 = slot24
+		slot24 = slot24.RemoveAllListeners
 
-		slot25(slot26)
+		slot24(slot25)
 
-		slot25 = slot23.onReleased
-		slot26 = slot25
-		slot25 = slot25.AddListener
+		slot24 = slot22.onReleased
+		slot25 = slot24
+		slot24 = slot24.AddListener
 
-		function slot27()
+		function slot26()
 			slot0 = slot0
 
 			slot0()
 		end
 
-		slot25(slot26, slot27)
+		slot24(slot25, slot26)
 
-		slot25 = slot23.onLongPressed
-		slot26 = slot25
-		slot25 = slot25.AddListener
+		slot24 = slot22.onLongPressed
+		slot25 = slot24
+		slot24 = slot24.AddListener
 
-		function slot27()
+		function slot26()
 			slot0 = slot0
 
 			if not slot0 then
@@ -2579,17 +2599,17 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 			end
 		end
 
-		slot25(slot26, slot27)
+		slot24(slot25, slot26)
 	end
 
 	if (slot10 == true or slot11 == 3) and slot9 ~= 3 then
-		slot13 = true
+		slot12 = true
 
-		return slot13
+		return slot12
 	else
-		slot13 = false
+		slot12 = false
 
-		return slot13
+		return slot12
 	end
 end
 

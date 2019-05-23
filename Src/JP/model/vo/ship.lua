@@ -1407,7 +1407,7 @@ function slot0.getShipAmmo(slot0)
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		for slot10, slot11 in pairs(pg.skill_benefit_template) do
 			if slot11.skill_id == slot6.id and slot11.lv == slot6.level then
-				if slot11.type == 2 and slot11.limit[1] == slot0.triggers.TeamNumbers then
+				if slot0:IsBenefitSkillActive(slot11) then
 					slot1 = slot1 + slot11.effect[1]
 				end
 
@@ -1431,7 +1431,7 @@ function slot0.getHuntingLv(slot0)
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		for slot10, slot11 in pairs(pg.skill_benefit_template) do
 			if slot11.skill_id == slot6.id and slot11.lv == slot6.level then
-				if slot11.type == 2 and slot11.limit[1] == slot0.triggers.TeamNumbers then
+				if slot0:IsBenefitSkillActive(slot11) then
 					slot1 = slot1 + slot11.effect[2]
 				end
 
@@ -1447,6 +1447,31 @@ function slot0.getHuntingLv(slot0)
 	end
 
 	return math.min(slot1, slot0:getMaxHuntingLv())
+end
+
+slot0.BENEFIT_SKILL = 2
+slot0.BENEFIT_EQUIP = 3
+
+function slot0.IsBenefitSkillActive(slot0, slot1)
+	slot2 = false
+
+	if slot1.type == slot0.BENEFIT_SKILL then
+		if slot1.limit[1] == slot0.triggers.TeamNumbers then
+			slot2 = true
+		end
+	elseif slot1.type == slot0.BENEFIT_EQUIP then
+		slot3 = slot1.limit
+
+		for slot8, slot9 in ipairs(slot4) do
+			if slot9 and table.contains(slot3, slot9.config.id) then
+				slot2 = true
+
+				break
+			end
+		end
+	end
+
+	return slot2
 end
 
 function slot0.getMaxHuntingLv(slot0)
@@ -2129,30 +2154,36 @@ function slot0.getTactics(slot0)
 end
 
 function slot0.SetExpression(slot0, slot1, slot2)
+	slot3 = findTF(slot0, "face")
+
 	if not pg.ship_skin_expression[slot1] then
+		if slot3 then
+			setActive(slot3, false)
+		end
+
 		return
 	end
 
-	if not slot3[slot2] or slot4 == "" then
-		slot4 = slot3.default
+	if not slot4[slot2] or slot5 == "" then
+		slot5 = slot4.default
 	end
 
-	slot5 = GetSpriteFromAtlas("paintingface/" .. slot1, slot4)
+	slot6 = GetSpriteFromAtlas("paintingface/" .. slot1, slot5)
 
-	if findTF(slot0, "face") then
-		setActive(slot6, slot4 and slot4 ~= "")
-		setImageSprite(slot6, slot5)
+	if slot3 then
+		setActive(slot3, slot5 and slot5 ~= "")
+		setImageSprite(slot3, slot6)
 
-		if findTF(slot6, "face_sub") then
-			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub"))
+		if findTF(slot3, "face_sub") then
+			setActive(slot7, GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub"))
 
-			if GetSpriteFromAtlas("paintingface/" .. slot1, slot4 .. "_sub") then
+			if GetSpriteFromAtlas("paintingface/" .. slot1, slot5 .. "_sub") then
 				setImageSprite(slot7, slot8)
 			end
 		end
 	end
 
-	return (slot3.default and true) or false
+	return (slot4.default and true) or false
 end
 
 return slot0

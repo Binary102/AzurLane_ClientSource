@@ -16,5 +16,6 @@ return {
 	"Pojia01",
 	"zhihuiRing02",
 	"fangkongRing02",
-	"zhihuiRing02_buff"
+	"zhihuiRing02_buff",
+	"bisimai_buff"
 }

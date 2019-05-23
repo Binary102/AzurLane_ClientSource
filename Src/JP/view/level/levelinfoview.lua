@@ -24,6 +24,10 @@ end
 
 function slot0.InitUI(slot0)
 	slot0.txTitle = slot0:findTF("panel/title_form")
+	slot0.txTitleHead = slot0:findTF("panel/title_head")
+
+	setActive(slot0.txTitleHead, false)
+
 	slot0.txIntro = slot0:findTF("panel/intro")
 	slot0.txCost = slot0:findTF("panel/cost/text")
 	slot0.txProgress = slot0:findTF("panel/progress/Text/value")
@@ -71,6 +75,11 @@ function slot0.set(slot0, slot1, slot2)
 	setText(slot0:findTF("title_index", slot0.txTitle), slot0.chapter:getConfigTable().chapter_name .. "  ")
 	setText(slot0:findTF("title", slot0.txTitle), string.split(slot0.chapter.getConfigTable().name, "|")[1])
 	setText(slot0:findTF("title_en", slot0.txTitle), string.split(slot0.chapter.getConfigTable().name, "|")[2] or "")
+	setActive(slot0.txTitleHead, slot4[3])
+
+	slot0.txTitle.localPosition = Vector3(slot0.txTitle.localPosition.x, (slot4[3] and 249) or 257, setText.z)
+
+	setText(slot0.txTitleHead, slot4[3] or "")
 
 	if not slot1:existAchieve() then
 		setActive(slot0.passState, false)
@@ -118,8 +127,8 @@ function slot0.set(slot0, slot1, slot2)
 	setActive(slot0.loopBtn, slot1:existLoop())
 
 	if slot1.existLoop() then
-		setActive(slot0.loopOn, slot6)
-		setActive(slot0.loopOff, not slot1:canActivateLoop())
+		setActive(slot0.loopOn, PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1:canActivateLoop()))
+		setActive(slot0.loopOff, not (PlayerPrefs.GetInt("chapter_loop_flag_" .. slot1.id, -1) == 1 or (slot9 == -1 and slot1.canActivateLoop())))
 		onButton(slot0, slot0.loopToggle, function ()
 			if not slot0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_activate_loop_mode_failed"))
@@ -127,8 +136,10 @@ function slot0.set(slot0, slot1, slot2)
 				return
 			end
 
-			setActive(slot1.loopOn, not slot1.loopOn.gameObject.activeSelf)
-			setActive(slot1.loopOn.loopOff, not slot1.loopOff.gameObject.activeSelf)
+			slot1(slot2, (not PlayerPrefs.SetInt.loopOn.gameObject.activeSelf and 1) or 0)
+			PlayerPrefs.Save()
+			setActive(slot1.loopOn, slot0)
+			setActive(slot1.loopOff, not slot0)
 		end, SFX_PANEL)
 		onButton(slot0, slot0.loopHelp, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -154,7 +165,7 @@ function slot0.set(slot0, slot1, slot2)
 		end
 	end, SFX_CANCEL)
 
-	slot6 = slot1:getConfig("risk_levels") or {}
+	slot7 = slot1:getConfig("risk_levels") or {}
 
 	onButton(slot0, slot0.passState, function ()
 		if not slot0:hasMitigation() then
@@ -174,14 +185,14 @@ function slot0.set(slot0, slot1, slot2)
 		triggerButton(slot0.passState)
 	end, SFX_PANEL)
 
-	slot7 = slot0:findTF("panel")
-	slot7.transform.localPosition = slot0.posStart
+	slot8 = slot0:findTF("panel")
+	slot8.transform.localPosition = slot0.posStart
 
-	table.insert(slot0.delayTween, LeanTween.move(slot7, Vector3.zero, 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.move(slot8, Vector3.zero, 0.2).uniqueId)
 
-	slot7.localScale = Vector3.zero
+	slot8.localScale = Vector3.zero
 
-	table.insert(slot0.delayTween, LeanTween.scale(slot7, Vector3(1, 1, 1), 0.2).uniqueId)
+	table.insert(slot0.delayTween, LeanTween.scale(slot8, Vector3(1, 1, 1), 0.2).uniqueId)
 	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 end
 

@@ -83,6 +83,7 @@ slot59 = slot0.FieldDescriptor()
 slot60 = slot0.FieldDescriptor()
 slot61 = slot0.FieldDescriptor()
 slot62 = slot0.FieldDescriptor()
+slot63 = slot0.FieldDescriptor()
 slot2.name = "sham_count"
 slot2.full_name = ".p23.sc_23001.sham_count"
 slot2.number = 1
@@ -843,16 +844,26 @@ slot61.default_value = {}
 slot61.message_type = slot1.SHIPINFO
 slot61.type = 11
 slot61.cpp_type = 10
-slot62.name = "display"
-slot62.full_name = ".p23.shamtargetinfo.display"
-slot62.number = 5
-slot62.index = 4
-slot62.label = 1
-slot62.has_default_value = false
-slot62.default_value = nil
-slot62.message_type = slot1.DISPLAYINFO
-slot62.type = 11
-slot62.cpp_type = 10
+slot63.name = "display"
+slot63.full_name = ".p23.shamtargetinfo.display"
+slot63.number = 5
+slot63.index = 4
+slot63.label = 1
+slot63.has_default_value = false
+slot63.default_value = nil
+slot63.message_type = slot1.DISPLAYINFO
+slot63.type = 11
+slot63.cpp_type = 10
+slot63.name = "display"
+slot63.full_name = ".p23.shamtargetinfo.display"
+slot63.number = 9
+slot63.index = 8
+slot63.label = 1
+slot63.has_default_value = false
+slot63.default_value = nil
+slot63.message_type = slot1.DISPLAYINFO
+slot63.type = 11
+slot63.cpp_type = 10
 SHAMTARGETINFO.name = "shamtargetinfo"
 SHAMTARGETINFO.full_name = ".p23.shamtargetinfo"
 SHAMTARGETINFO.nested_types = {}
@@ -860,9 +871,13 @@ SHAMTARGETINFO.enum_types = {}
 SHAMTARGETINFO.fields = {
 	slot58,
 	slot59,
+	SHAMTARGETINFO_ICON_FIELD,
 	slot60,
 	slot61,
-	slot62
+	SHAMTARGETINFO_SKIN_ID_FIELD,
+	SHAMTARGETINFO_PROPOSE_FIELD,
+	SHAMTARGETINFO_REMOULDED_FIELD,
+	slot63
 }
 SHAMTARGETINFO.is_extendable = false
 SHAMTARGETINFO.extensions = {}

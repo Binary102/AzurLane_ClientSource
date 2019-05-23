@@ -32,11 +32,20 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>カムバックミッションで開放可能（30日限定）</color>",
 		scene = {}
 	},
+	[302] = {
+		name = "鉄血の誓い ",
+		time_second = 0,
+		id = 302,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>赤き血潮、黒き鋼、不屈なる意志のために</color>\n「黒鉄の楽章、誓いの海」イベント特別実績で入手可能！",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		300,
-		301
+		301,
+		302
 	}
 }
 

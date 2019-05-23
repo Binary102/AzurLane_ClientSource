@@ -73,6 +73,7 @@ ys.Battle.BattleConfig.BornOffset = Vector3(0, 0, 0.1)
 ys.Battle.BattleConfig.FORMATION_ID = 10001
 ys.Battle.BattleConfig.CelebrateDuration = 3
 ys.Battle.BattleConfig.EscapeDuration = 5
+ys.Battle.BattleConfig.BulletMotionRate = 0.4
 ys.Battle.BattleConfig.BulletSpeedConvertConst = 0.1
 ys.Battle.BattleConfig.ShipSpeedConvertConst = 0.01
 ys.Battle.BattleConfig.AircraftSpeedConvertConst = 0.01

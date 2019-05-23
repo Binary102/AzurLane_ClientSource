@@ -40,9 +40,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._closeBtn, function ()
-		slot0:clearLoadingPic()
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-		pg.UIMgr.GetInstance().UnblurPanel:emit(slot1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0._stopRemind, function (slot0)
 		slot0:emit(BulletinBoardMediator.SET_STOP_REMIND, slot0)
@@ -160,6 +158,9 @@ function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.titleScrolls) do
 		slot5:destroy()
 	end
+
+	slot0:clearLoadingPic()
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
 return slot0

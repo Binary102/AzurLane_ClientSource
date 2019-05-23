@@ -656,7 +656,7 @@ function slot0.intActivityShop(slot0, slot1)
 	slot5 = slot2:getResId()
 
 	setText(slot0:findTF("res_battery/Text", slot0.top), slot0.player:getResource(slot5))
-	setText(slot0:findTF("res_battery/label", slot0.top), i18n("word_own") .. pg.item_data_statistics[id2ItemId(slot5)].name)
+	setText(slot0:findTF("res_battery/label", slot0.top), pg.item_data_statistics[id2ItemId(slot5)].name)
 
 	slot0:findTF("res_battery/icon", slot0.top):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot5)].icon, "")
 	slot8, slot9 = slot2:getBgPath()

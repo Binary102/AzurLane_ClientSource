@@ -105,6 +105,13 @@ pg.equip_data_by_type = {
 		equip_type = 15,
 		type_name2 = "その他"
 	},
+	[17] = {
+		distory_resource_gold_ratio = 2,
+		type_name = "ヘリ ",
+		equip_skin = 1,
+		equip_type = 17,
+		type_name2 = "ヘリ "
+	},
 	all = {
 		1,
 		2,
@@ -120,7 +127,8 @@ pg.equip_data_by_type = {
 		12,
 		13,
 		14,
-		15
+		15,
+		17
 	}
 }
 

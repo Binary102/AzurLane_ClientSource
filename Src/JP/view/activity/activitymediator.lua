@@ -12,13 +12,14 @@ slot0.ON_TASK_SUBMIT = "event on task submit"
 slot0.ON_TASK_GO = "event on task go"
 slot0.OPEN_LAYER = "event OPEN_LAYER"
 slot0.CLOSE_LAYER = "event CLOSE_LAYER"
-slot0.GO_DODGEM = "event go dodgem"
 slot0.EVENT_PT_OPERATION = "event pt op"
 slot0.BLACKWHITEGRID = "black white grid"
 slot0.MEMORYBOOK = "memory book"
 slot0.RETURN_AWARD_OP = "event return award op"
 slot0.SHOW_AWARD_WINDOW = "event show award window"
-slot0.GO_DODGEM = "event  go dodgem"
+slot0.GO_DODGEM = "event go dodgem"
+slot0.GO_PRAY_POOL = "GO_PRAY_POOL"
+slot0.GO_BUILD_BISIMAI = "GO_BUILD_BISIMAI"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -94,7 +95,7 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()
-		if not getProxy(ActivityProxy):getActivityByType(ACTIVITY_TYPE_ZPROJECT) or slot0:isEnd() then
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) or slot0:isEnd() then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
@@ -140,10 +141,14 @@ function slot0.register(slot0)
 			taskVO = slot1
 		})
 	end)
-	slot0:bind(slot0.GO_DODGEM, function (slot0)
-		slot0:sendNotification(GAME.BEGIN_STAGE, {
-			system = SYSTEM_DODGEM,
-			stageId = ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES[math.random(#ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES)]
+	slot0:bind(slot0.GO_PRAY_POOL, function (slot0)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
+			goToPray = true
+		})
+	end)
+	slot0:bind(slot0.GO_BUILD_BISIMAI, function (slot0)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
+			goToBisiMai = true
 		})
 	end)
 

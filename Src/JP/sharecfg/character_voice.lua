@@ -217,7 +217,7 @@ pg.character_voice = {
 		}
 	},
 	feeling3 = {
-		voice_name = "友好的",
+		voice_name = "友好",
 		key = "feeling3",
 		resource_key = "feeling3",
 		spine_action = "normal",

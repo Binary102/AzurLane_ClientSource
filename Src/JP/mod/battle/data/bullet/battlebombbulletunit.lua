@@ -50,13 +50,13 @@ end
 function ys.Battle.BattleBombBulletUnit.SetSpawnPosition(slot0, slot1)
 	slot0.super.SetSpawnPosition(slot0, slot1)
 
-	if slot0._convertedVelocity ~= 0 then
-		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / (Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity) - 0.5 * slot0._gravity * Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity
-	end
-
 	if slot0._barragePriority then
 		slot0._explodePos = slot0._explodePos + Vector3(slot0._offsetX, 0, slot0._offsetZ)
 		slot0._explodePos = Quaternion.Euler(0, slot0._barrageAngle, 0) * (slot0._explodePos - pg.Tool.FilterY(slot0._spawnPos)) + pg.Tool.FilterY(slot0._spawnPos)
+	end
+
+	if slot0._convertedVelocity ~= 0 then
+		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / (Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity) - 0.5 * slot0._gravity * Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity
 	end
 end
 

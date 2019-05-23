@@ -819,7 +819,7 @@ pg.gametip = {
 		key = "word_urgency_event"
 	},
 	word_shop = {
-		tip = "商店",
+		tip = "ショップ",
 		key = "word_shop"
 	},
 	word_facility = {
@@ -5961,6 +5961,10 @@ pg.gametip = {
 		tip = "航空合計",
 		key = "elite_condition_air"
 	},
+	elite_condition_antisub = {
+		tip = "対潜合計",
+		key = "elite_condition_antisub"
+	},
 	elite_condition_dodge = {
 		tip = "回避合計",
 		key = "elite_condition_dodge"
@@ -6223,6 +6227,10 @@ pg.gametip = {
 	ship_remould_warning_303154 = {
 		tip = "<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
 		key = "ship_remould_warning_303154"
+	},
+	ship_remould_warning_402134 = {
+		tip = "<size=26>改造で<color=#92fc63>1つ目の【設備】</color>が<color=#92fc63>【ヘリ】</color>を装備できるようになり\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		key = "ship_remould_warning_402134"
 	},
 	word_soundfiles_download_title = {
 		tip = "ボイス更新",
@@ -8083,7 +8091,7 @@ pg.gametip = {
 		key = "levelScene_tracking_error_pre"
 	},
 	ship_limit_notice = {
-		tip = "潜水艦隊のステータスは出撃条件に含まれない",
+		tip = "潜水艦ステータスが含まれない",
 		key = "ship_limit_notice"
 	},
 	idle = {
@@ -8231,15 +8239,15 @@ pg.gametip = {
 		key = "levelScene_chapter_is_activation"
 	},
 	resource_verify_warn = {
-		tip = "是否开始资源修复？修复会花费一定的时间，且修复过程中不会响应操作，手机可能会出现卡顿现象，请耐心等待",
+		tip = "キャッシュクリアを行いますか？（キャッシュクリア中に端末が短い間反応しなくなる場合がございます）",
 		key = "resource_verify_warn"
 	},
 	resource_verify_fail = {
-		tip = "资源修复已完成，请重新打开游戏并进行更新，点击确认关闭游戏[$1]",
+		tip = "キャッシュクリアが完了しました。「確定」をタップしてゲームを再起動し、最新データの適用をお願いします（$1）",
 		key = "resource_verify_fail"
 	},
 	resource_verify_success = {
-		tip = "资源修复已完成",
+		tip = "キャッシュクリアが完了しました。",
 		key = "resource_verify_success"
 	},
 	resource_clear_all = {
@@ -8578,7 +8586,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、特定の艦の出現率UP！",
+		tip = "イベント期間、ビスマルク、U-556、U-73、Z36、エコーの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9573,6 +9581,10 @@ pg.gametip = {
 		tip = "勲章を入手しました！ ",
 		key = "trophy_achieved"
 	},
+	text_shop = {
+		tip = "ショップ",
+		key = "text_shop"
+	},
 	text_confirm = {
 		tip = "確 定",
 		key = "text_confirm"
@@ -9626,23 +9638,23 @@ pg.gametip = {
 		key = "text_retreat"
 	},
 	level_scene_title_word_1 = {
-		tip = "索敵値：",
+		tip = "索敵値:",
 		key = "level_scene_title_word_1"
 	},
 	level_scene_title_word_2 = {
-		tip = "海域脅威度：",
+		tip = "海域脅威度:",
 		key = "level_scene_title_word_2"
 	},
 	level_scene_title_word_3 = {
-		tip = "制空値：",
+		tip = "制空値:",
 		key = "level_scene_title_word_3"
 	},
 	level_scene_title_word_4 = {
-		tip = "空域：",
+		tip = "空域:",
 		key = "level_scene_title_word_4"
 	},
 	level_scene_title_word_5 = {
-		tip = "推奨：",
+		tip = "推奨:",
 		key = "level_scene_title_word_5"
 	},
 	ambush_display_0 = {
@@ -10192,6 +10204,76 @@ Pt」が加算されます。
 	attire_time_stamp = {
 		tip = "$1日$2時間$3分",
 		key = "attire_time_stamp"
+	},
+	warning_pray_build_pool = {
+		tip = "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？",
+		key = "warning_pray_build_pool"
+	},
+	error_pray_select_ship_max = {
+		tip = "これ以上選択できません",
+		key = "error_pray_select_ship_max"
+	},
+	tip_pray_build_pool_success = {
+		tip = "選べる特別建造・構築成功",
+		key = "tip_pray_build_pool_success"
+	},
+	tip_pray_build_pool_fail = {
+		tip = "選べる特別建造・構築失敗",
+		key = "tip_pray_build_pool_fail"
+	},
+	pray_build_help = {
+		key = "pray_build_help",
+		tip = {
+			{
+				info = "イベント説明：\n"
+			},
+			{
+				info = [[
+「選べる特別建造」とは、常設三種類の通常建造から一
+つをベースに、特定の艦船を選択し、その艦船がピック
+アップ（出現率UP）状態にする特殊の建造システムに
+なります。]]
+			},
+			{
+				info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一\nつを選ぶことで、特別建造のベースになります"
+			},
+			{
+				info = [[
+2.同建造で出現する艦船から2種類を選び「ピックアッ
+プ状態」（出現率がUPする状態）にできます
+<color=#FF5C5C>（※2019年3月23日まで常設建造した艦しか出現し
+ません）</color>]]
+			},
+			{
+				info = [[
+3.「選べる特別建造」において「ピックアップ」に選ば
+れた艦船の出現率は、レアリティに応じて下記の通り
+です
+<color=#ffde38>SSR</color>...2%  <color=#d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%]]
+			},
+			{
+				info = [[
+4.「選べる特別建造」の艦船のレアリティ別出現率は
+通常建造同様、下記となります：
+<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
+<color=#FF5C5C>大型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30% 
+<color=#FF5C5C>特型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30%]]
+			},
+			{
+				info = "5.ベースとなる通常建造とピックアップ艦船を確定した\n後は「選べる特別建造」の内容の変更はできません"
+			},
+			{
+				info = "6.「選べる特別建造」は通常建造同様に最大で2隻まで\nしか同時に建造できませんが、建造時間は高速建造材に\nよって短縮させることができます"
+			}
+		}
+	},
+	bismarck_award_tip = {
+		tip = "実績取得後に報酬を獲得可能",
+		key = "bismarck_award_tip"
+	},
+	bismarck_chapter_desc = {
+		tip = "実績取得後に報酬を獲得可能",
+		key = "bismarck_chapter_desc"
 	}
 }
 

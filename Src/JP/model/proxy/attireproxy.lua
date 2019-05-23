@@ -46,12 +46,52 @@ function slot0.register(slot0)
 			slot0:addExpiredTimer(slot0.data.iconFrames[slot5.id])
 		end
 
-		for slot4, slot5 in ipairs(slot0.chat_frame_list) do
+		slot1 = ipairs
+		slot2 = slot0.chat_frame_list or {}
+
+		for slot4, slot5 in slot1(slot2) do
 			slot0.data.chatFrames[slot5.id].updateData(slot6, slot5)
 			slot0:updateAttireFrame(slot6)
 			slot0:addExpiredTimer(slot0.data.chatFrames[slot5.id])
 		end
 	end)
+
+	if slot0 then
+		slot0.timer = Timer.New(function ()
+			slot0 = {}
+			slot1 = {
+				101,
+				102,
+				201,
+				301
+			}
+
+			for slot5 = 1, 5, 1 do
+				slot6 = math.random(1, 4)
+				slot7 = Item.New
+				slot8 = {
+					count = 1
+				}
+				slot9 = (slot5 % 2 == 0 and DROP_TYPE_ICON_FRAME) or DROP_TYPE_CHAT_FRAME
+				slot8.type = slot9
+				slot8.id = slot1[math.random(1, 4)]
+
+				slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot8))
+				table.insert(slot0, Item.New(slot8))
+
+				if not DROP_TYPE_ICON_FRAME then
+					slot9 = DROP_TYPE_CHAT_FRAME
+				end
+			end
+
+			table.insert(slot0, slot2)
+			slot0:sendNotification(GAME.ACT_NEW_PT_DONE, {
+				awards = slot0
+			})
+		end, 10, 1)
+
+		slot0.timer:Start()
+	end
 end
 
 function slot0.getDataAndTrophys(slot0, slot1)
@@ -74,6 +114,8 @@ function slot0.clearNew(slot0)
 	for slot4, slot5 in pairs(slot0.data.chatFrames) do
 		slot5:clearNew()
 	end
+
+	return
 end
 
 function slot0.getExpiredChaces(slot0)
@@ -93,8 +135,10 @@ function slot0.getAttireFrame(slot0, slot1, slot2)
 
 	if slot1 == AttireConst.TYPE_ICON_FRAME then
 		slot3 = slot0.data.iconFrames[slot2]
-	elseif slot1 == AttireConst.TYPE_CHAT_FRAME then
-		slot3 = slot0.data.chatFrames[slot2]
+	else
+		if slot1 == AttireConst.TYPE_CHAT_FRAME then
+			slot3 = slot0.data.chatFrames[slot2]
+		end
 	end
 
 	return slot3
@@ -109,22 +153,30 @@ function slot0.addAttireFrame(slot0, slot1)
 
 	if slot2 == AttireConst.TYPE_ICON_FRAME then
 		slot0.data.iconFrames[slot1.id] = slot1
-	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
-		slot0.data.chatFrames[slot1.id] = slot1
+	else
+		if slot2 == AttireConst.TYPE_CHAT_FRAME then
+			slot0.data.chatFrames[slot1.id] = slot1
+		end
 	end
 
 	slot0:addExpiredTimer(slot1)
 	slot0:sendNotification(slot0.ATTIREFRAME_ADDED, slot1:clone())
+
+	return
 end
 
 function slot0.updateAttireFrame(slot0, slot1)
 	if slot1:getType() == AttireConst.TYPE_ICON_FRAME then
 		slot0.data.iconFrames[slot1.id] = slot1
-	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
-		slot0.data.chatFrames[slot1.id] = slot1
+	else
+		if slot2 == AttireConst.TYPE_CHAT_FRAME then
+			slot0.data.chatFrames[slot1.id] = slot1
+		end
 	end
 
 	slot0:sendNotification(slot0.ATTIREFRAME_UPDATED, slot1:clone())
+
+	return
 end
 
 function slot0.addExpiredTimer(slot0, slot1)
@@ -142,18 +194,24 @@ function slot0.addExpiredTimer(slot0, slot1)
 
 		table.insert(slot1.expiredChaces, slot0)
 		slot1:sendNotification(slot2.ATTIREFRAME_EXPIRED, slot0:clone())
+
+		return
 	end
 
 	if slot1:getExpiredTime() - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		slot0.timers[slot1:getTimerKey()] = Timer.New(function ()
 			slot0()
 			slot1:removeExpiredTimer(slot2)
+
+			return
 		end, slot4, 1)
 
 		slot0.timers[slot1.getTimerKey()]:Start()
 	else
 		slot2()
 	end
+
+	return
 end
 
 function slot0.removeExpiredTimer(slot0, slot1)
@@ -162,6 +220,8 @@ function slot0.removeExpiredTimer(slot0, slot1)
 
 		slot0.timers[slot2] = nil
 	end
+
+	return
 end
 
 function slot0.remove(slot0)
@@ -170,6 +230,8 @@ function slot0.remove(slot0)
 	end
 
 	slot0.timers = nil
+
+	return
 end
 
 function slot0.needTip(slot0)

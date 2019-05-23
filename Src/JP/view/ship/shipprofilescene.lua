@@ -1,7 +1,7 @@
 slot0 = class("ShipProfileScene", import("..base.BaseUI"))
 slot0.SHOW_SKILL_INFO = "event show skill info"
 slot0.SHOW_EVALUATION = "event show evalution"
-slot0.WEDDING_REVIEW = "ShipInfoMediator:WEDDING_REVIEW"
+slot0.WEDDING_REVIEW = "ShipProfileScene:WEDDING_REVIEW"
 slot0.INDEX_DETAIL = 1
 slot0.INDEX_PROFILE = 2
 slot0.INDEX_ARCHIVE = 3
@@ -9,7 +9,7 @@ slot1 = 0.35
 slot2 = 19.8
 slot0.CHAT_SHOW_TIME = 3
 slot0.CHAT_ANIMATION_TIME = 0.3
-slot0.SKIN_LIST_ALPHA_CONSTANT = 1
+slot0.SKIN_LIST_ALPHA_CONSTANT = 1.4
 slot3 = {}
 
 for slot7, slot8 in pairs(pg.character_voice) do
@@ -80,8 +80,6 @@ function slot0.setShipGroup(slot0, slot1)
 			table.remove(slot0.groupSkinList, slot5)
 		end
 	end
-
-	slot0:reloadCVKey()
 end
 
 function slot0.setShowTrans(slot0, slot1)
@@ -191,6 +189,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_SHIP_PROFILE
 	})
+	slot0:reloadCVKey()
 end
 
 function slot0.onBackPressed(slot0)

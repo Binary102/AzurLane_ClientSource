@@ -141,7 +141,7 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 
 			slot8 = nil
 
-			if slot3.config.type ~= EquipType.Equipment and slot1.type == AttributeType.Reload then
+			if not EquipType.isDevice(slot3.configId) and slot1.type == AttributeType.Reload then
 				slot9 = nil
 
 				if slot4.contextData.shipVO then
@@ -196,7 +196,7 @@ function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	if slot2.config.type == EquipType.Equipment then
+	if EquipType.isDevice(slot2.configId) then
 		for slot11, slot12 in ipairs({
 			1,
 			2

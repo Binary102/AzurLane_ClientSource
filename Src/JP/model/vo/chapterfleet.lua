@@ -45,6 +45,10 @@ function slot0.update(slot0, slot1)
 		table.insert(slot6, slot0:getFormationStg())
 	end
 
+	for slot11, slot12 in ipairs(slot7) do
+		table.insert(slot6, slot12)
+	end
+
 	slot0.stgPicked = slot4
 	slot0.stgUsed = slot5
 	slot0.stgIds = slot6

@@ -7,9 +7,9 @@ slot0.Color = {
 	}
 }
 slot0.DefaultColor = {
-	0.16470588235294117,
-	0.1411764705882353,
-	0.12941176470588237
+	0.8745098039215686,
+	0.9294117647058824,
+	1
 }
 
 function slot0.Ctor(slot0, slot1)
@@ -48,12 +48,17 @@ function slot0.update(slot0, slot1, slot2)
 
 	if slot1.getConfig("commodity_type") == DROP_TYPE_SKIN then
 		slot8 = pg.ship_skin_template[slot6].name or "??"
-	else
-		setText(slot0.nameTxt, shortenString(slot7.cfg.name or "??", 6))
-
-		slot0.countTF.text = slot1:getConfig("resource_num")
-		slot9 = nil
 	end
+
+	slot0.countTF.text = slot1:getConfig("resource_num")
+
+	if string.match(slot7.cfg.name or "??", "(%d+)") then
+		setText(slot0.nameTxt, shortenString(slot8, 4))
+	else
+		setText(slot0.nameTxt, shortenString(slot8, 6))
+	end
+
+	slot9 = nil
 
 	if slot1:getConfig("resource_category") == DROP_TYPE_RESOURCE then
 		slot9 = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "")

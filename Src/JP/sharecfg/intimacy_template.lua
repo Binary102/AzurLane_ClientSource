@@ -19,7 +19,7 @@ pg.intimacy_template = {
 		desc = "intimacy_desc_2"
 	},
 	{
-		name = "友好的",
+		name = "友好",
 		upper_bound = 8099,
 		id = 3,
 		attr_bonus = 100,

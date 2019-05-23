@@ -380,6 +380,27 @@ function slot6.GetFilteredList(slot0)
 	return slot1
 end
 
+function slot6.FixWeaponRange(slot0, slot1, slot2, slot3)
+	if not slot1 then
+		slot4 = slot0._tmpData.range
+	end
+
+	slot0._maxRangeSqr = slot4
+
+	if not slot3 then
+		slot4 = slot0._tmpData.min_range
+	end
+
+	slot0._minRangeSqr = slot4
+	slot0._fixBulletRange = slot2
+
+	return
+end
+
+function slot6.GetFixBulletRange(slot0)
+	return slot0._fixBulletRange
+end
+
 function slot6.TrackingNearest(slot0, slot1)
 	slot2 = slot0._maxRangeSqr
 	slot3 = nil
@@ -958,8 +979,12 @@ function slot6.GetPrimalAmmoType(slot0)
 	return slot0.GetBulletTmpDataFromID(slot0._bulletList[1]).ammo_type
 end
 
-function slot6.TriggerBuffWhenSpawn(slot0, slot1)
-	slot0._host:TriggerBuff(slot0.BuffEffectType.ON_BULLET_CREATE, {
+function slot6.TriggerBuffWhenSpawn(slot0, slot1, slot2)
+	if not slot2 then
+		slot3 = slot0.BuffEffectType.ON_BULLET_CREATE
+	end
+
+	slot0._host:TriggerBuff(slot3, {
 		_bullet = slot1,
 		equipIndex = slot0._equipmentIndex
 	})

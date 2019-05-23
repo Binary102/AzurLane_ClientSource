@@ -133,17 +133,17 @@ function slot2(slot0, slot1)
 	end)
 
 	slot4 = slot1:GetProperties()
-	slot5 = (EquipType.Equipment == slot1.config.type and 3) or 4
+	slot5 = (EquipType.isDevice(slot1.configId) and 3) or 4
 
 	for slot9 = 1, slot5, 1 do
-		slot10 = EquipType.Equipment == slot3.type and slot9 == slot5
+		slot10 = EquipType.isDevice(slot1.configId) and slot9 == slot5
 
-		setActive((EquipType.Equipment == slot3.type and slot9 == slot5 and slot2:Find("attr_skill")) or slot2:Find("attr_" .. slot9), true)
+		setActive((EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2:Find("attr_skill")) or slot2:Find("attr_" .. slot9), true)
 
-		slot12 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/tag")
-		slot13 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel")
-		slot14 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/value")
-		slot15 = (EquipType.Equipment == slot3.type and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("lock")
+		slot12 = (EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/tag")
+		slot13 = (EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel")
+		slot14 = (EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("panel/value")
+		slot15 = (EquipType.isDevice(slot1.configId) and slot9 == slot5 and slot2.Find("attr_skill")) or slot2.Find("attr_" .. slot9):Find("lock")
 
 		function slot16(slot0)
 			setActive(slot0, not slot0)
@@ -192,7 +192,7 @@ function slot2(slot0, slot1)
 			slot16(not slot4[slot9])
 
 			if slot4[slot9] then
-				if slot1.config.type ~= EquipType.Equipment and slot18.type == AttributeType.Reload and slot9 == 4 then
+				if not EquipType.isDevice(slot1.configId) and slot18.type == AttributeType.Reload and slot9 == 4 then
 					setText(slot12, i18n("word_attr_cd"))
 					setText(slot14, setColorStr(string.format("%0.2f", slot1:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 				else
@@ -612,7 +612,7 @@ function slot3(slot0, slot1, slot2)
 	slot3 = findTF(slot0, "name")
 	slot4 = findTF(slot0, "value")
 
-	if slot2.config.type ~= EquipType.Equipment and slot1.type == AttributeType.Reload then
+	if not EquipType.isDevice(slot2.configId) and slot1.type == AttributeType.Reload then
 		setText(slot3, i18n("word_attr_cd"))
 		setText(slot4, setColorStr(string.format("%0.2f", slot2:getWeaponCD()) .. "s", COLOR_YELLOW) .. i18n("word_secondseach"))
 	else

@@ -286,7 +286,7 @@ pg.skill_data_display = {
 	},
 	[3611] = {
 		id = 3611,
-		name = "狼群战术"
+		name = "Wolf Pack Tactics"
 	},
 	[4001] = {
 		id = 4001,

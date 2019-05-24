@@ -809,28 +809,18 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "Bismarck",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "(My beloved Iron Blood...)",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "Bismarck",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			nameColor = "#ffde38",
-			say = "You once said that,",
+			actorName = "Bismarck",
+			say = "(My beloved Iron Blood...)",
+			effects = {
+				{
+					active = false,
+					name = "memoryFog"
+				}
+			},
 			flashN = {
 				color = {
 					1,
@@ -841,25 +831,13 @@ return {
 					{
 						0,
 						1,
-						0.2
+						0.5
 					},
 					{
 						1,
 						0,
-						0.2,
-						0.2
-					},
-					{
-						0,
-						1,
-						0.2,
-						0.4
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.6
+						0.5,
+						1
 					}
 				}
 			},
@@ -868,6 +846,22 @@ return {
 				x = 12,
 				number = 2
 			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "You once said that,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

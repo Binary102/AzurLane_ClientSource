@@ -803,7 +803,7 @@ pg.gametip = {
 		key = "word_urgency_event"
 	},
 	word_shop = {
-		tip = "商店",
+		tip = "Shop",
 		key = "word_shop"
 	},
 	word_facility = {
@@ -8909,7 +8909,7 @@ map.]]
 		key = "trophy_achieved"
 	},
 	text_shop = {
-		tip = "商 店",
+		tip = "Shop",
 		key = "text_shop"
 	},
 	text_confirm = {

@@ -55,30 +55,30 @@ function slot6(slot0)
 				setActive(slot8, false)
 			end
 
-			if isShopType then
+			if slot0.goodsVO.type == Goods.TYPE_SKIN then
 				slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
-				slot5 = slot1:getConfig("resource_num")
-				slot6 = (100 - slot1:getConfig("discount")) / 100
+				slot6 = slot1:getConfig("resource_num")
+				slot7 = (100 - slot1:getConfig("discount")) / 100
 
 				if slot1:isDisCount() then
-					slot0._priceTxt.text = slot5 * slot6
+					slot0._priceTxt.text = slot6 * slot7
 				else
-					slot0._priceTxt.text = slot5
+					slot0._priceTxt.text = slot6
 				end
 
-				slot1._opriceTxt.text = slot5
+				slot1._opriceTxt.text = slot6
 
-				setActive(go(slot1._opriceTxt), slot7 and slot6 < 1)
+				setActive(go(slot1._opriceTxt), false)
 
-				slot8 = slot1.buyCount == 0
+				slot9 = slot1.buyCount == 0
 
 				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 					setActive(slot0._tagTFs[9], true)
-				elseif slot8 then
+				elseif slot9 then
 					if slot0.goodsVO:getConfig("tag") == 5 then
 						setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
-					elseif slot0._tagTFs[slot10] then
-						setActive(slot0._tagTFs[slot10], true)
+					elseif slot0._tagTFs[slot11] then
+						setActive(slot0._tagTFs[slot11], true)
 					else
 						setActive(slot0._tagTFs[6], true)
 					end
@@ -611,7 +611,7 @@ function slot0.updatePrice(slot0, slot1)
 
 			slot0.originalPriceTxt.text = slot7
 
-			setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
+			setActive(tf(go(slot0.originalPriceTxt)).parent, false)
 		end
 	end
 end

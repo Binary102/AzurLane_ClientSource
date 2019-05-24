@@ -82,6 +82,40 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "Observer",
+			say = "即使我如此明显的暗示过，她仍然没有产生丝毫犹豫",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "观察者",
+			say = "我想研究这种不符合数据模型的心理，是否是成功[觉醒]的关键，亦或是改变未来的[模因]",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "观察者",
 			say = "There was one who could hear the Song of Ragnarok, and began her lonely dance.",
 			typewriter = {
 				speed = 0.05,

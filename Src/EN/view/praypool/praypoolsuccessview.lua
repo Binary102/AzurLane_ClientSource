@@ -29,6 +29,9 @@ function slot0.initData(slot0)
 	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot0.useItem = pg.ship_data_create_material[1].use_item
+
+	print("useitem " .. slot0.useItem)
+
 	slot0.buildShipProxy = getProxy(BuildShipProxy)
 end
 
@@ -67,7 +70,12 @@ end
 
 function slot0.updateUI(slot0)
 	slot0:updatePaint(slot1)
-	setText(slot0.curCubeNumText, slot0.bagProxy:getItemById(slot0.useItem).count)
+
+	slot2 = nil
+
+	setText(slot0.curCubeNumText, slot0.bagProxy:getItemById(slot0.useItem) or {
+		count = 0
+	}.count)
 	setText(slot0.buildCubeNumText, pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].number_1)
 	setText(slot0.buildGoldNumText, pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].use_gold)
 end

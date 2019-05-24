@@ -3778,8 +3778,8 @@ pg.skill_data_template = {
 	},
 	[3611] = {
 		desc_get = "",
-		name = "狼群战术",
-		desc = "出击时，编队中每有一个铁血阵营潜艇角色，自身雷击、装填属性上升$1",
+		name = "Wolf Pack Tactics",
+		desc = "For each Iron Blood SS in your fleet: increases this boat's TRP, RLD, and Accuracy by $1.",
 		type = 1,
 		max_level = 10,
 		id = 3611,
@@ -5818,8 +5818,8 @@ pg.skill_data_template = {
 	},
 	[6411] = {
 		desc_get = "",
-		name = "未能抵达的承诺",
-		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		name = "The Unfulfilled Promise",
+		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
 		type = 0,
 		max_level = 0,
 		id = 6411,
@@ -5829,8 +5829,8 @@ pg.skill_data_template = {
 	},
 	[6415] = {
 		desc_get = "",
-		name = "未能抵达的承诺",
-		desc = "U556装备该设备时，自身水面作战的持续时间增加4秒，自身狩猎范围等级+1；俾斯麦装备该设备时，主力舰队受到弹药匮乏状态的影响降低",
+		name = "The Unfulfilled Promise",
+		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
 		type = 0,
 		max_level = 0,
 		id = 6415,
@@ -22553,8 +22553,8 @@ pg.skill_data_template = {
 	},
 	[21091] = {
 		desc_get = "",
-		name = "全弹发射I",
-		desc = "主炮每进行15次攻击，触发全弹发射-E级I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: E Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21091,
@@ -22564,8 +22564,8 @@ pg.skill_data_template = {
 	},
 	[21092] = {
 		desc_get = "",
-		name = "全弹发射II",
-		desc = "主炮每进行10次攻击，触发全弹发射-E级II",
+		name = "All Out Assault Ⅱ ",
+		desc = "Activates All Out Assault Ⅱ: E Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 21092,
@@ -23510,8 +23510,8 @@ pg.skill_data_template = {
 	},
 	[23311] = {
 		desc_get = "",
-		name = "全弹发射I",
-		desc = "进入战斗时，触发全弹发射-Type VIIC型I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: VIIC-Type Submarine immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 23311,
@@ -23521,8 +23521,8 @@ pg.skill_data_template = {
 	},
 	[23312] = {
 		desc_get = "",
-		name = "全弹发射II",
-		desc = "进入战斗时，触发全弹发射-Type VIIC型II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: VIIC-Type Submarine immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 23312,
@@ -23532,8 +23532,8 @@ pg.skill_data_template = {
 	},
 	[23411] = {
 		desc_get = "",
-		name = "全弹发射I",
-		desc = "进入战斗时，触发全弹发射-Type VIIB型I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: VIIB-Type Submarine immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 23411,
@@ -23543,8 +23543,8 @@ pg.skill_data_template = {
 	},
 	[23412] = {
 		desc_get = "",
-		name = "全弹发射II",
-		desc = "进入战斗时，触发全弹发射-Type VIIB型II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: VIIB-Type Submarine immediately after entering the battle.",
 		type = 1,
 		max_level = 1,
 		id = 23412,
@@ -23620,7 +23620,7 @@ pg.skill_data_template = {
 	},
 	[28011] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "All Out Assault Ⅰ",
 		desc = "主炮每进行15次攻击，触发全弹发射-机敏级I",
 		type = 1,
 		max_level = 1,
@@ -23631,7 +23631,7 @@ pg.skill_data_template = {
 	},
 	[28012] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "All Out Assault Ⅱ",
 		desc = "主炮每进行10次攻击，触发全弹发射-机敏级II",
 		type = 1,
 		max_level = 1,
@@ -23642,7 +23642,7 @@ pg.skill_data_template = {
 	},
 	[28021] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "All Out Assault Ⅰ",
 		desc = "主炮每进行15次攻击，触发全弹发射-大胆级I",
 		type = 1,
 		max_level = 1,
@@ -23653,7 +23653,7 @@ pg.skill_data_template = {
 	},
 	[28022] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "All Out Assault Ⅱ",
 		desc = "主炮每进行10次攻击，触发全弹发射-大胆级II",
 		type = 1,
 		max_level = 1,
@@ -23664,7 +23664,7 @@ pg.skill_data_template = {
 	},
 	[28111] = {
 		desc_get = "",
-		name = "全弹发射I",
+		name = "All Out Assault Ⅰ",
 		desc = "主炮每进行12次攻击，触发全弹发射-埃米尔·贝尔汀I",
 		type = 1,
 		max_level = 1,
@@ -23675,7 +23675,7 @@ pg.skill_data_template = {
 	},
 	[28112] = {
 		desc_get = "",
-		name = "全弹发射II",
+		name = "All Out Assault Ⅱ",
 		desc = "主炮每进行8次攻击，触发全弹发射-埃米尔·贝尔汀II",
 		type = 1,
 		max_level = 1,

@@ -20,13 +20,25 @@ slot1 = {
 		className = "ReturnAwardPage",
 		uiName = "returnawardpage"
 	},
-	[ActivityConst.BANAI_TASK_DAILY_ID] = {
-		className = "NewPtAccuPage",
-		uiName = "newptaccupage"
-	},
 	[ActivityConst.SUB_RED_POCKET] = {
 		className = "RedPocketShipPage",
 		uiName = "redpocketshippage"
+	},
+	[ActivityConst.BISMARCK_PT_ID] = {
+		className = "BismarckPtPage",
+		uiName = "bismarckptpage"
+	},
+	[ActivityConst.BISMARCK_CHAPTER_ID] = {
+		className = "BismarckChapterPage",
+		uiName = "bismarckchapterpage"
+	},
+	[ActivityConst.SKIN_U73] = {
+		className = "U73SkinPage",
+		uiName = "u73skinpage"
+	},
+	[ActivityConst.SKIN_Z23] = {
+		className = "Z23SkinPage",
+		uiName = "z23skinpage"
 	}
 }
 slot2 = {}
@@ -146,10 +158,6 @@ function slot0.updateActivity(slot0, slot1)
 end
 
 function slot0.updateEntrances(slot0)
-	slot2 = _.select(slot0, function (slot0)
-		return slot0.isShow and slot0.isShow()
-	end)
-
 	slot0.entranceList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = "empty"
@@ -167,7 +175,9 @@ function slot0.updateEntrances(slot0)
 			LoadImageSpriteAsync("activitybanner/" .. slot4, slot2)
 		end
 	end)
-	slot0.entranceList:align(#slot0)
+	slot0.entranceList:align(math.max(#_.select(slot0, function (slot0)
+		return slot0.isShow and slot0.isShow()
+	end), 5))
 end
 
 function slot0.flushTabs(slot0)

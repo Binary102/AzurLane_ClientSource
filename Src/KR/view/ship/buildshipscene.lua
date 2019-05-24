@@ -253,6 +253,12 @@ function slot0.didEnter(slot0)
 		end, SFX_PANEL)
 	end
 
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) and not slot2:isEnd() then
+		setActive(slot0.toggles[slot0.PAGE_PRAY], true)
+	else
+		setActive(slot0.toggles[slot0.PAGE_PRAY], false)
+	end
+
 	slot0.page = slot0.contextData.page or BuildShipScene.Page or slot0.PAGE_BUILD
 
 	triggerToggle(slot0.toggles[slot0.page], true)

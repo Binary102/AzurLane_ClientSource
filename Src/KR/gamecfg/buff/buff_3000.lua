@@ -1,5 +1,5 @@
 return {
-	time = 0.1,
+	time = 0,
 	name = "快速起飞",
 	init_effect = "",
 	id = 3000,
@@ -13,7 +13,8 @@ return {
 		{
 			type = "BattleBuffAirStrikeCoolDown",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				rant = 10000

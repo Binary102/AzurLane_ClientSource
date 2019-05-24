@@ -23,6 +23,7 @@ function slot0.init(slot0)
 
 	onButton(slot0, slot0.goldAddBtn, function ()
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			hideYes = true,
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			windowSize = {
 				y = 570
@@ -31,15 +32,32 @@ function slot0.init(slot0)
 			drop = {
 				id = 1,
 				type = DROP_TYPE_RESOURCE,
-				count = slot0[pg.MsgboxMgr.GetInstance()].num
+				count = slot0[slot1].num
 			},
-			onYes = function ()
-				pg.m02:sendNotification(GAME.SHOPPING, {
-					count = 1,
-					id = pg.m02.sendNotification
-				})
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			weight = LayerWeightConst.TOP_LAYER,
+			custom = {
+				{
+					text = "text_shop",
+					sound = SFX_COMFIRM,
+					btnType = pg.MsgboxMgr:GetInstance().BUTTON_BLUE,
+					onCallback = function ()
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+							wrap = type or ChargeScene.TYPE_ITEM
+						})
+					end
+				},
+				{
+					text = "text_confirm",
+					sound = SFX_COMFIRM,
+					btnType = pg.MsgboxMgr:GetInstance().BUTTON_BLUE,
+					onCallback = function ()
+						pg.m02:sendNotification(GAME.SHOPPING, {
+							count = 1,
+							id = pg.m02.sendNotification
+						})
+					end
+				}
+			}
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()

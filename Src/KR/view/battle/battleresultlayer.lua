@@ -967,6 +967,8 @@ function slot0.skip(slot0)
 
 						slot0._skipExp = nil
 						slot0._stateFlag = slot0.STATE_DISPLAYED
+
+						setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 					else
 						if slot0._stateFlag == slot0.STATE_DISPLAYED then
 							slot0:playSubExEnter()

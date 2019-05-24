@@ -75,6 +75,7 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			[102.0] = "bg/bg_church",
 			[101.0] = "bg/bg_church",
+			[104.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church"
 		}
 	end

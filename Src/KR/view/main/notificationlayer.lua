@@ -592,6 +592,9 @@ end
 
 function slot0.willExit(slot0)
 	if slot0.currentForm == slot0.FORM_BATTLE then
+		if isActive(slot0.changeRoomPanel) then
+			slot0:closeChangeRoomPanel()
+		end
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	end

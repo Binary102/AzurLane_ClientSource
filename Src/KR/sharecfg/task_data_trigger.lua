@@ -286,6 +286,28 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[44] = {
+		group_id = 20505,
+		id = 44,
+		activity_id = 25024,
+		args = {
+			{
+				1,
+				5451
+			}
+		}
+	},
+	[45] = {
+		group_id = 40804,
+		id = 45,
+		activity_id = 25025,
+		args = {
+			{
+				1,
+				5461
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -312,7 +334,9 @@ pg.task_data_trigger = {
 		35,
 		36,
 		40,
-		41
+		41,
+		44,
+		45
 	}
 }
 

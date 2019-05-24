@@ -12,7 +12,9 @@ function slot0.Show(slot0, slot1)
 	slot0._go:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
 		slot0.inAniming = nil
 
-		slot0()
+		if slot0 then
+			slot1()
+		end
 	end)
 end
 

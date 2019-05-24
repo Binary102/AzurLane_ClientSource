@@ -472,6 +472,41 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot4._createBeamBullet = slot5
+
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0
+	slot5 = slot5.Battle
+	slot5 = slot5.BattleGravitationBulletUnit
+	slot5 = slot5.New
+	slot6 = slot0
+	slot8 = slot2
+	slot7 = slot2.GetIFF
+	slot5 = slot5(slot6, slot7(slot8))
+	slot7 = slot5
+	slot6 = slot5.SetExplodePosition
+	slot8 = slot4
+
+	slot6(slot7, slot8)
+
+	slot7 = slot5
+	slot6 = slot5.SetIsCld
+	slot8 = true
+
+	slot6(slot7, slot8)
+
+	slot7 = slot5
+	slot6 = slot5.SetImmuneCLS
+	slot8 = true
+
+	slot6(slot7, slot8)
+
+	slot6 = slot5
+	slot7 = true
+
+	return slot6, slot7
+end
+
+slot4._createGravitationBullet = slot5
 slot5 = {}
 slot4.generateBulletFuncs = slot5
 slot5 = slot4.generateBulletFuncs
@@ -523,6 +558,11 @@ slot5 = slot4.generateBulletFuncs
 slot6 = slot1.BulletType
 slot6 = slot6.BEAM
 slot7 = slot4._createBeamBullet
+slot5[slot6] = slot7
+slot5 = slot4.generateBulletFuncs
+slot6 = slot1.BulletType
+slot6 = slot6.G_BULLET
+slot7 = slot4._createGravitationBullet
 slot5[slot6] = slot7
 
 function slot5()

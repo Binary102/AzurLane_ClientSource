@@ -6097,6 +6097,174 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60160] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60160,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60161] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60161,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60162] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500钻石购买家具币礼包",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 60162,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -10141,7 +10309,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1015,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -10151,7 +10319,32 @@ pg.shop_template = {
 		resource_type = 14,
 		id = 70071,
 		genre = "skin_shop",
-		discount_time = {},
+		discount_time = {
+			{
+				{
+					2015,
+					5,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		limit_args = {},
 		effect_args = {
 			299021
@@ -11264,7 +11457,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 883,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11277,9 +11470,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11289,9 +11482,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11315,7 +11508,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 996,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11328,9 +11521,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11340,9 +11533,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11366,7 +11559,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11379,9 +11572,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11391,9 +11584,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11417,7 +11610,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11430,9 +11623,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11442,9 +11635,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11468,7 +11661,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11481,9 +11674,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11493,9 +11686,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11519,7 +11712,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 883,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11532,9 +11725,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11544,9 +11737,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11570,7 +11763,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11583,9 +11776,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11595,9 +11788,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11621,7 +11814,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11634,9 +11827,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11646,9 +11839,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11672,7 +11865,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 883,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11685,9 +11878,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11697,9 +11890,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11723,7 +11916,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11736,9 +11929,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11748,9 +11941,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -11774,7 +11967,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1014,
+		order = 884,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -11787,9 +11980,9 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2018,
-					9,
-					14
+					2015,
+					5,
+					24
 				},
 				{
 					0,
@@ -11799,9 +11992,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					10,
-					7
+					2019,
+					6,
+					13
 				},
 				{
 					23,
@@ -15088,6 +15281,9 @@ pg.shop_template = {
 		60155,
 		60158,
 		60159,
+		60160,
+		60161,
+		60162,
 		61001,
 		61002,
 		61003,

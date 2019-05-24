@@ -142,7 +142,6 @@ function slot0.getPanelActivities(slot0)
 		ActivityConst.ACTIVITY_TYPE_CARD_PAIRS,
 		ActivityConst.ACTIVITY_TYPE_ANSWER,
 		ActivityConst.ACTIVITY_TYPE_TASKS,
-		ActivityConst.ACTIVITY_TYPE_SUMMARY,
 		ActivityConst.ACTIVITY_TYPE_TASK_RES,
 		ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA,
 		ActivityConst.ACTIVITY_TYPE_LINK_LINK,

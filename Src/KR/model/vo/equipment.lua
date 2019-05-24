@@ -119,8 +119,9 @@ end
 function slot0.GetProperties(slot0, slot1)
 	slot2 = slot0:GetAttributes()
 	slot3 = 3
+	slot4 = slot0.config
 
-	if slot0.config.type ~= EquipType.Equipment then
+	if not EquipType.isDevice(slot0.configId) then
 		if slot1 and EquipType.isAircraft(slot0.configId) then
 			table.insert(slot2, {
 				type = "dodge_limit",

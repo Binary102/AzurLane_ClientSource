@@ -1140,10 +1140,9 @@ function slot2(slot0)
 	end
 
 	slot1 = LeanTween
-	slot2 = slot1
 	slot1 = slot1.cancelAll
 
-	slot1(slot2)
+	slot1()
 
 	slot1 = pg
 	slot1 = slot1.CriMgr

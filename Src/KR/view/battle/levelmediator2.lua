@@ -409,12 +409,10 @@ function slot0.register(slot0)
 			slot2 = getProxy(ChapterProxy)
 
 			if ActivityLevelConst.hasExtraMap(ActivityLevelConst.getMapsByActivityType(slot0.viewComponent.maps, slot1:getConfig("type"))) and ActivityLevelConst.canSwitchToEx(slot2:getMaps(), slot4) then
-				slot5 = slot2:getUnlockActMapBytype(Map.ACT_EXTRA, slot4:getConfig("on_activity"))
+				slot0.viewComponent:setMap(slot2:getUnlockActMapBytype(Map.ACT_EXTRA, slot4:getConfig("on_activity"), PlayerPrefs.HasKey("ex_mapId") and PlayerPrefs.GetInt("ex_mapId")).id)
 
-				slot0.viewComponent:setMap(slot5.id)
-
-				if slot5:getActiveChapter() then
-					slot0.viewComponent:switchToChapter(slot6)
+				if slot6:getActiveChapter() then
+					slot0.viewComponent:switchToChapter(slot7)
 				end
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock"))
@@ -444,7 +442,7 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_STRATEGYING_CHAPTER, function (slot0)
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			yesText = "text_forward",
-			content = i18n("levelScene_chapter_is_activation", getProxy(ChapterProxy):getActiveChapter():getConfig("chapter_name")),
+			content = i18n("levelScene_chapter_is_activation", string.split(getProxy(ChapterProxy):getActiveChapter().getConfig(slot1, "chapter_name"), "|")[1]),
 			onYes = function ()
 				slot0.viewComponent:switchToChapter(slot0.viewComponent)
 			end,
@@ -1135,6 +1133,7 @@ function slot0.duplicateEliteFleet(slot0, slot1)
 	for slot7, slot8 in pairs(slot0.viewComponent.maps[slot1:getConfig("map")].chapters) do
 		if not slot2:getRawData()[slot8.id] then
 			slot8:setEliteFleetList(slot1:getEliteFleetList())
+			slot8:setEliteCommanders(slot1:getEliteFleetCommanders())
 		end
 	end
 end

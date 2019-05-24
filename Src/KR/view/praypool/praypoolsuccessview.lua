@@ -12,7 +12,15 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
+	slot0.buildMsgBox:hide()
+end
+
+function slot0.OnBackPress(slot0)
+	if isActive(slot0.boxTF) then
+		slot0.buildMsgBox:hide()
+
+		return true
+	end
 end
 
 function slot0.initData(slot0)
@@ -21,6 +29,9 @@ function slot0.initData(slot0)
 	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot0.useItem = pg.ship_data_create_material[1].use_item
+
+	print("useitem " .. slot0.useItem)
+
 	slot0.buildShipProxy = getProxy(BuildShipProxy)
 end
 
@@ -29,17 +40,20 @@ function slot0.initUI(slot0)
 		slot0:findTF("Ship1"),
 		slot0:findTF("Ship2")
 	}
-	slot0.buildMsgBox = slot0.MsgBox(slot0:findTF("build_msg"))
+	slot0.boxTF = slot0:findTF("build_msg")
+	slot0.buildMsgBox = slot0.MsgBox(slot0.boxTF)
 	slot0.buildBtn = slot0:findTF("BuildBtn")
 	slot0.buildCubeNumText = slot0:findTF("BuildInfo/CubeNum")
 	slot0.buildGoldNumText = slot0:findTF("BuildInfo/GoldNum")
 	slot0.curCubeNumText = slot0:findTF("CubeImg/NumText")
+	slot0.material1 = slot0:findTF("material1")
+	slot0.material2 = slot0:findTF("material2")
 
 	onButton(slot0, slot0.buildBtn, function ()
 		slot0.buildMsgBox:show(math.max(1, _.min({
-			math.floor(slot0.playerProxy:getData().gold / pg.ship_data_create_material[slot0.poolType].use_gold),
-			math.floor(slot0.bagProxy:getItemById(slot0.useItem).count / pg.ship_data_create_material[slot0.poolType].number_1),
-			MAX_BUILD_WORK_COUNT - table.getCount(slot4)
+			math.floor(slot0.playerProxy:getData().gold / pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].use_gold),
+			math.floor(slot0.bagProxy:getItemById(slot0.useItem).count / pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].number_1),
+			MAX_BUILD_WORK_COUNT - table.getCount(slot5)
 		})), function (slot0)
 			if slot0 < slot0 or slot1.gold < slot0 * slot2.use_gold or slot3.count < slot0 * slot2.number_1 then
 				return false
@@ -55,22 +69,28 @@ function slot0.initUI(slot0)
 end
 
 function slot0.updateUI(slot0)
-	slot1 = slot0.prayProxy:getSelectedShipIDList()
+	slot0:updatePaint(slot1)
 
+	slot2 = nil
+
+	setText(slot0.curCubeNumText, slot0.bagProxy:getItemById(slot0.useItem) or {
+		count = 0
+	}.count)
+	setText(slot0.buildCubeNumText, pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].number_1)
+	setText(slot0.buildGoldNumText, pg.ship_data_create_material[pg.activity_ship_create[slot0.poolType].create_id].use_gold)
+end
+
+function slot0.updatePaint(slot0, slot1)
 	for slot5 = 1, 2, 1 do
-		setPaintingPrefabAsync(slot11, Ship.getPaintingName(slot6))
-		setImageColor(slot12, slot0.Rarity_To_Light_Color_1[pg.ship_data_statistics[slot1[slot5]].rarity])
+		setPaintingPrefabAsync(slot11, Ship.getPaintingName(slot6), "build", slot12)
 		setImageColor(slot13, slot0.Rarity_To_Light_Color_1[pg.ship_data_statistics[slot1[slot5]].rarity])
 		setImageColor(slot14, slot0.Rarity_To_Light_Color_1[pg.ship_data_statistics[slot1[slot5]].rarity])
-		setImageColor(slot15, slot0.Rarity_To_Light_Color_2[pg.ship_data_statistics[slot1[slot5]].rarity])
-		setText(slot16, slot7)
-		setText(slot17, slot8)
-		setImageSprite(slot0:findTF("NumImg", slot10), GetSpriteFromAtlas("ui/praybuildsuccesspage_atlas", "ratio_" .. pg.ship_data_statistics[slot1[slot5]].rarity), true)
+		setImageColor(slot15, slot0.Rarity_To_Light_Color_1[pg.ship_data_statistics[slot1[slot5]].rarity])
+		setImageColor(slot16, slot0.Rarity_To_Light_Color_2[pg.ship_data_statistics[slot1[slot5]].rarity])
+		setText(slot17, slot7)
+		setText(slot18, slot8)
+		setImageSprite(slot0:findTF("Rarity/NumImg", slot10), GetSpriteFromAtlas("ui/praybuildsuccesspage_atlas", "ratio_" .. pg.ship_data_statistics[slot1[slot5]].rarity), true)
 	end
-
-	setText(slot0.curCubeNumText, slot0.bagProxy:getItemById(slot0.useItem).count)
-	setText(slot0.buildCubeNumText, pg.ship_data_create_material[slot0.poolType].number_1)
-	setText(slot0.buildGoldNumText, pg.ship_data_create_material[slot0.poolType].use_gold)
 end
 
 function slot0.MsgBox(slot0)

@@ -231,6 +231,16 @@ function slot15(slot0)
 	slot4 = "bg"
 	slot2 = slot2(slot3, slot4)
 	slot0._bg = slot2
+	slot2 = findTF
+	slot3 = slot0._go
+	slot4 = "bg/bg_type1"
+	slot2 = slot2(slot3, slot4)
+	slot0._bg1 = slot2
+	slot2 = findTF
+	slot3 = slot0._go
+	slot4 = "bg/bg_type2"
+	slot2 = slot2(slot3, slot4)
+	slot0._bg2 = slot2
 	slot2 = GetOrAddComponent
 	slot3 = slot0._bg
 	slot4 = typeof
@@ -335,6 +345,11 @@ function slot15(slot0)
 	slot4 = "effect"
 	slot2 = slot2(slot3, slot4)
 	slot0._effectPanel = slot2
+	slot2 = GetOrAddComponent
+	slot3 = slot0._effectPanel
+	slot4 = "CanvasGroup"
+	slot2 = slot2(slot3, slot4)
+	slot0._effectCG = slot2
 	slot2 = findTF
 	slot3 = slot0._go
 	slot4 = "flash"
@@ -484,25 +499,30 @@ function slot16(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot5 = isAiriJP
-	slot5 = slot5()
+	slot5 = PLATFORM_CODE
+	slot6 = PLATFORM_JP
 
-	if slot5 then
-		if slot1 == "SYG001" then
-			slot5 = SendAiriJPTracking
-			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
+	if slot5 ~= slot6 then
+		slot5 = PLATFORM_CODE
+		slot6 = PLATFORM_US
 
-			slot5(slot6)
-		elseif slot1 == "SYG003" then
-			slot5 = SendAiriJPTracking
-			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
+		if slot5 == slot6 then
+			if slot1 == "SYG001" then
+				slot5 = SendAiriJPTracking
+				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
 
-			slot5(slot6)
-		elseif slot1 == "SYG006" then
-			slot5 = SendAiriJPTracking
-			slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+				slot5(slot6)
+			elseif slot1 == "SYG003" then
+				slot5 = SendAiriJPTracking
+				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
 
-			slot5(slot6)
+				slot5(slot6)
+			elseif slot1 == "SYG006" then
+				slot5 = SendAiriJPTracking
+				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+
+				slot5(slot6)
+			end
 		end
 	end
 
@@ -552,6 +572,49 @@ function slot16()
 end
 
 function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = PLATFORM_CODE
+	slot7 = PLATFORM_KR
+
+	if slot6 == slot7 then
+		slot6 = string
+		slot6 = slot6.find
+		slot7 = slot1
+		slot8 = "TIEXUEYUYINFU"
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot0
+			slot6 = slot0.IsPlayed
+			slot8 = slot1
+			slot6 = slot6(slot7, slot8)
+
+			if not slot6 then
+				slot6 = pg
+				slot6 = slot6.m02
+				slot7 = slot6
+				slot6 = slot6.sendNotification
+				slot8 = GAME
+				slot8 = slot8.STORY_UPDATE
+				slot9 = {
+					storyId = slot1
+				}
+
+				slot6(slot7, slot8, slot9)
+			end
+
+			if slot2 then
+				slot6 = slot2
+
+				slot6()
+			end
+
+			return
+		end
+	end
+
+	slot6 = slot0._effectCG
+	slot7 = 1
+	slot6.alpha = slot7
 	slot6 = getProxy
 	slot7 = ChapterProxy
 	slot6 = slot6(slot7)
@@ -1512,27 +1575,10 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 					slot7 = slot4.dialogShake
 
 					if slot7 then
-						slot7 = slot1
-						slot8 = false
-						slot7.interactive = slot8
-						slot7 = LeanTween
-						slot7 = slot7.moveX
-						slot8 = slot1
-						slot8 = slot8._dialogue
-						slot9 = slot4.dialogShake
-						slot9 = slot9.x
-						slot10 = slot4.dialogShake
-						slot10 = slot10.speed
-						slot7 = slot7(slot8, slot9, slot10)
-						slot8 = slot7
-						slot7 = slot7.setLoopPingPong
-						slot9 = slot4.dialogShake
-						slot9 = slot9.number
-						slot7 = slot7(slot8, slot9)
-						slot8 = slot7
-						slot7 = slot7.setOnComplete
-						slot9 = System
-						slot9 = slot9.Action
+						slot1.interactive = false
+						slot8 = LeanTween.moveX(slot1._dialogue, slot4.dialogShake.x, slot4.dialogShake.speed):setDelay(slot4.dialogShake.delay or 0):setLoopPingPong(slot4.dialogShake.number)
+						slot7 = LeanTween.moveX(slot1._dialogue, slot4.dialogShake.x, slot4.dialogShake.speed).setDelay(slot4.dialogShake.delay or 0).setLoopPingPong(slot4.dialogShake.number).setOnComplete
+						slot9 = System.Action
 
 						function slot10()
 							slot0 = slot0
@@ -2062,6 +2108,7 @@ function slot17(slot0, slot1, slot2, slot3)
 			setActive(slot4, true)
 			LeanTween.value(go(slot4), 1, 0, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 				slot0.alpha = slot0
+				slot0._effectCG.alpha = slot0
 			end)):setOnComplete(System.Action(function ()
 				if slot0.inFadeOut then
 					slot0:EndStory(slot0)
@@ -2371,41 +2418,33 @@ function slot17(slot0, slot1)
 		slot6 = slot0._bgCG
 		slot7 = 1
 		slot6.alpha = slot7
-		slot6 = slot0._bg
-		slot7 = slot6
-		slot6 = slot6.GetComponent
-		slot8 = typeof
-		slot9 = Image
-		slot6 = slot6(slot7, slot8(slot9))
-		slot7 = Color
-		slot7 = slot7.New
-		slot8 = 1
-		slot9 = 1
-		slot10 = 1
-		slot7 = slot7(slot8, slot9, slot10)
-		slot6.color = slot7
 		slot6 = setActive
-		slot7 = slot0._bg
-		slot8 = true
+		slot7 = slot0._bg2
+		slot8 = false
 
 		slot6(slot7, slot8)
 
-		slot6 = LoadSprite
-		slot7 = "bg/"
-		slot8 = slot1.bgName
-		slot7 = slot7 .. slot8
-		slot6 = slot6(slot7)
-		slot7 = setImageSprite
-		slot8 = slot0._bg
-		slot9 = slot6
+		slot6 = setActive
+		slot7 = slot0._bg1
+		slot8 = false
 
-		slot7(slot8, slot9)
+		slot6(slot7, slot8)
+
+		slot6 = slot1.useBg2
+
+		if slot6 then
+			slot0._bg2 or slot0._bg1.GetComponent(slot6, typeof(Image)).color = Color.New(1, 1, 1)
+
+			setActive(slot0._bg, true)
+			setActive(slot6, true)
+			setImageSprite(slot0._bg2 or slot0._bg1, LoadSprite("bg/" .. slot1.bgName))
+		end
 	end
 
 	slot6 = slot1.bgShadow
 
 	if slot6 then
-		slot6 = slot0._bg
+		slot6 = bgTF
 		slot7 = slot6
 		slot6 = slot6.GetComponent
 		slot8 = typeof
@@ -2414,7 +2453,7 @@ function slot17(slot0, slot1)
 		slot7 = LeanTween
 		slot7 = slot7.value
 		slot8 = go
-		slot9 = slot0._bg
+		slot9 = bgTF
 		slot8 = slot8(slot9)
 		slot9 = slot1.bgShadow
 		slot9 = slot9[1]
@@ -2589,38 +2628,65 @@ function slot17(slot0, slot1)
 	slot3 = slot1.bgName
 
 	if slot3 then
-		slot3 = slot0._bg
-		slot4 = slot3
-		slot3 = slot3.GetComponent
-		slot5 = typeof
-		slot6 = Image
-		slot3 = slot3(slot4, slot5(slot6))
-		slot4 = Color
-		slot4 = slot4.New
-		slot5 = 1
-		slot6 = 1
-		slot7 = 1
-		slot4 = slot4(slot5, slot6, slot7)
-		slot3.color = slot4
 		slot3 = slot0._bgCG
 		slot4 = 1
 		slot3.alpha = slot4
 		slot3 = setActive
-		slot4 = slot0._bg
-		slot5 = true
+		slot4 = slot0._bg2
+		slot5 = false
 
 		slot3(slot4, slot5)
 
-		slot3 = LoadSprite
-		slot4 = "bg/"
-		slot5 = slot1.bgName
-		slot4 = slot4 .. slot5
-		slot3 = slot3(slot4)
-		slot4 = setImageSprite
+		slot3 = setActive
+		slot4 = slot0._bg1
+		slot5 = false
+
+		slot3(slot4, slot5)
+
+		slot3 = slot1.useBg2
+
+		if slot3 then
+			slot3 = slot0._bg2
+
+			if not slot3 then
+				slot3 = slot0._bg1
+			end
+		end
+
+		slot5 = slot3
+		slot4 = slot3.GetComponent
+		slot6 = typeof
+		slot7 = Image
+		slot4 = slot4(slot5, slot6(slot7))
+		slot5 = Color
+		slot5 = slot5.New
+		slot6 = 1
+		slot7 = 1
+		slot8 = 1
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4.color = slot5
+		slot4 = setActive
 		slot5 = slot0._bg
-		slot6 = slot3
+		slot6 = true
 
 		slot4(slot5, slot6)
+
+		slot4 = setActive
+		slot5 = slot3
+		slot6 = true
+
+		slot4(slot5, slot6)
+
+		slot4 = LoadSprite
+		slot5 = "bg/"
+		slot6 = slot1.bgName
+		slot5 = slot5 .. slot6
+		slot4 = slot4(slot5)
+		slot5 = setImageSprite
+		slot6 = slot3
+		slot7 = slot4
+
+		slot5(slot6, slot7)
 	end
 
 	slot3 = slot1.side
@@ -5550,6 +5616,42 @@ function slot17(slot0, slot1)
 					slot3 = slot3.active
 
 					slot1(slot2, slot3)
+
+					slot1 = slot1
+					slot1 = slot1.active
+
+					if not slot1 then
+						slot1 = slot1
+						slot1 = slot1.destory
+
+						if slot1 then
+							slot1 = slot0
+							slot1 = slot1.effectObjs
+							slot2 = slot1
+							slot2 = slot2.name
+							slot1 = slot1[slot2]
+
+							if slot1 then
+								slot1 = Object
+								slot1 = slot1.Destroy
+								slot2 = slot0
+								slot2 = slot2.effectObjs
+								slot3 = slot1
+								slot3 = slot3.name
+								slot2 = slot2[slot3]
+								slot2 = slot2[2]
+
+								slot1(slot2)
+
+								slot1 = slot0
+								slot1 = slot1.effectObjs
+								slot2 = slot1
+								slot2 = slot2.name
+								slot3 = nil
+								slot1[slot2] = slot3
+							end
+						end
+					end
 				end
 
 				return

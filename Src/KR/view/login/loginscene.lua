@@ -60,7 +60,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.filingBtn, PLATFORM_CODE == PLATFORM_CH)
 
-	slot0._bg = slot0:findTF("background"):GetComponent(typeof(Image))
+	slot0._bg = slot0:findTF("background/bg"):GetComponent(typeof(Image))
 	slot0.userAgreenTF = slot0:findTF("UserAgreement")
 	slot0.userAgreenMainTF = slot0:findTF("UserAgreement/window")
 	slot0.closeUserAgreenTF = slot0.userAgreenTF:Find("window/close_btn")
@@ -69,7 +69,7 @@ function slot0.init(slot0)
 	setActive(slot0.userAgreenTF, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.userAgreenTF, slot0._tf)
 
-	slot0.opBtn = slot0:findTF("opBtn")
+	slot0.opBtn = slot0:findTF("bg_lay/buttons/opBtn")
 
 	if slot0.opBtn then
 		setActive(slot0.opBtn, PLAY_OPENING)
@@ -81,6 +81,8 @@ function slot0.init(slot0)
 	if CRI_BG_FLAG then
 		slot0:setCriBg()
 	end
+
+	setText(findTF(slot0.currentServer, "server_name"), "")
 end
 
 function slot0.onBackPressed(slot0)
@@ -100,7 +102,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	pg.SDKMgr:GetInstance():onBackPressed()
+	BilibiliSdkMgr.inst:onBackPressed()
 end
 
 function slot0.showUserAgreement(slot0, slot1)
@@ -156,16 +158,8 @@ end
 function slot0.setCriBg(slot0)
 	PoolMgr.GetInstance():GetPrefab("effect/loginbg", "loginbg", true, function (slot0)
 		if slot0 then
-			slot0._paintingFX = {
-				name = paintingFX,
-				obj = slot0
-			}
-
-			slot0.transform.SetParent(slot1, slot0._bg.transform, true)
+			slot0.transform.SetParent(slot1, slot0._bg.transform, false)
 			slot0.transform:SetAsFirstSibling()
-
-			slot0.transform.localScale = Vector3.one
-			slot0.transform.localPosition = Vector3.zero
 		end
 	end)
 end
@@ -614,6 +608,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 		end
 
 		if slot0.openingTF then
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
 			Destroy(slot0.openingTF)
 
 			Destroy.openingTF = nil
@@ -623,10 +618,18 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 			slot1()
 		end
 
+		slot0.cg.alpha = 1
+
 		pg.CriMgr.GetInstance():resumeNormalBGM()
 	end
 
 	function slot5()
+		if not slot0.cg then
+			slot0.cg = GetOrAddComponent(slot0._tf, "CanvasGroup")
+		end
+
+		slot0.cg.alpha = 0
+
 		setActive(slot0.openingTF, true)
 
 		setActive.openingAni.enabled = true
@@ -650,7 +653,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 		setActive(slot0.openingTF, true)
 	end
 
-	if not slot0.openingTF then
+	if IsNil(slot0.openingTF) then
 		PoolMgr.GetInstance():GetUI(slot3 or "opening", true, function (slot0)
 			slot0:SetActive(false)
 

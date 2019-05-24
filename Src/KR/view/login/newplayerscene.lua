@@ -62,7 +62,7 @@ function slot0.init(slot0)
 
 	slot0.randBtn = findTF(slot0.info, "random_button")
 
-	setActive(slot0.randBtn, not isAiriJP())
+	setActive(slot0.randBtn, PLATFORM_CODE == PLATFORM_CH)
 end
 
 function slot0.onBackPressed(slot0)

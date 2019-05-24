@@ -90,7 +90,6 @@ function slot0.update(slot0, slot1)
 
 	slot0.fleet:updateShipMirrors(slot0.mirrors)
 	slot0:updateFleetShips(slot2)
-	slot0:setGSRateID(slot0:getGSRateID())
 end
 
 function slot0.updateFleetShips(slot0, slot1)

@@ -3586,7 +3586,7 @@ pg.gametip = {
 		key = "long_time_offline"
 	},
 	dont_send_message_frequently = {
-		tip = "발신 간격이 너무 짧습니다.",
+		tip = "발신 간격을 주의해주세요 ",
 		key = "dont_send_message_frequently"
 	},
 	no_activity = {
@@ -5877,6 +5877,10 @@ pg.gametip = {
 		tip = "항공합계",
 		key = "elite_condition_air"
 	},
+	elite_condition_antisub = {
+		tip = "反潜总值",
+		key = "elite_condition_antisub"
+	},
 	elite_condition_dodge = {
 		tip = "기동합계",
 		key = "elite_condition_dodge"
@@ -6134,6 +6138,10 @@ pg.gametip = {
 	ship_remould_warning_303154 = {
 		tip = "<size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다.\n주포 슬롯이<color=#92fc63>【주포(경순양함)】</color>→<color=#92fc63>【주포(중순양함)】</color>으로 변경되어, 현재 장비중인 주포 슬롯의 장비가 해제됩니다.\n진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>",
 		key = "ship_remould_warning_303154"
+	},
+	ship_remould_warning_402134 = {
+		tip = "개조를 완료하면 첫 [장비] 칸에 장착가능한 장비 <color=#92fc63>[헬리콥터]</color>가 추가됩니다.\n 계속하시겠습니까? ",
+		key = "ship_remould_warning_402134"
 	},
 	word_soundfiles_download_title = {
 		tip = "보이스 갱신",
@@ -8479,7 +8487,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "齐泊林伯爵: Z46、U-47、Z23、Z35、希佩尔海军上将、Z19出现概率UP",
+		tip = "비스마르크, U-556, Z36, U-73, 에코 한정기간 출현 확률 UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9443,6 +9451,10 @@ pg.gametip = {
 		tip = "훈장 잠금해제! ",
 		key = "trophy_achieved"
 	},
+	text_shop = {
+		tip = "상점",
+		key = "text_shop"
+	},
 	text_confirm = {
 		tip = "확인",
 		key = "text_confirm"
@@ -10026,6 +10038,80 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명 숫�
 	attire_time_stamp = {
 		tip = "$1일 $2시간 $3분 ",
 		key = "attire_time_stamp"
+	},
+	warning_pray_build_pool = {
+		tip = "희망 건조 캐릭터 확인 후 <color=#FF5C5C>변경하실 수 없습니다</color>.\n선택하시겠습니까?",
+		key = "warning_pray_build_pool"
+	},
+	error_pray_select_ship_max = {
+		tip = "더 이상 선택하실 수 없습니다",
+		key = "error_pray_select_ship_max"
+	},
+	tip_pray_build_pool_success = {
+		tip = "구성 완료",
+		key = "tip_pray_build_pool_success"
+	},
+	tip_pray_build_pool_fail = {
+		tip = "구성 실패",
+		key = "tip_pray_build_pool_fail"
+	},
+	pray_build_help = {
+		key = "pray_build_help",
+		tip = {
+			{
+				info = "이벤트 설명:\n"
+			},
+			{
+				info = "1. 지휘관은 소형 건조, 중형 건조, 특형 건조 중\n하나를 구성하여 희망 건조를 진행하실 수 있습니다."
+			},
+			{
+				info = "2. 희망 건조 중 모든 함선소녀의 출현 확률은 일반 건조와 \n동일합니다:"
+			},
+			{
+				info = "소형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 26% N: 55%"
+			},
+			{
+				info = "중형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 51% N: 30%"
+			},
+			{
+				info = "특형 건조: <color=#ffde38>SSR</color>: 7% <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 51% N: 30%"
+			},
+			{
+				info = "3. 구성 중 지휘관은 해당 건조의 모든 캐릭터 리스트를\n확인하실 수 있습니다."
+			},
+			{
+				info = "4. 지휘관은 해당 건조 내 캐릭터 2명을 희망 캐릭터로 \n설정하실 수 있습니다."
+			},
+			{
+				info = "5. 3월 23일 전에 상시건조로 추가된 캐릭터들만 선택하실 \n수 있습니다."
+			},
+			{
+				info = "6. 건조 조건이 따로 있는 캐릭터는 희망 캐릭터로 선택하실 \n수 없으며,희망 건조 캐릭터 리스트에 출현하지 않습니다."
+			},
+			{
+				info = "7. 선택한 희망 캐릭터의 건조 확률은 레어도에 따라 \n상이합니다."
+			},
+			{
+				info = "<color=#ffde38>SSR</color>: 2.0% <color=#d797ff>SR</color>: 2.5% <color=#3dc6ff>R</color>: 2.5% N: 2.5%"
+			},
+			{
+				info = "8. 2명의 캐릭터를 선택 완료하면 희망 건조 구성이 \n성공적으로 완료되는 것으로 간주됩니다."
+			},
+			{
+				info = "9. 희망 건조 구성완료 후, 이벤트 기간 동안 수정하실 \n수 없습니다."
+			},
+			{
+				info = "10. 희망 건조에 소모되는 자원은 선택한 건조 종류와 \n동일하며,캐릭터는 건조 대열에 추가됩니다. 고속건조재를 \n사용하여 건조를 즉시 완료하실 수 있습니다."
+			}
+		}
+	},
+	bismarck_award_tip = {
+		tip = "모든 조건을 달성하면 보상을 획득하실 수 있습니다 ",
+		key = "bismarck_award_tip"
+	},
+	bismarck_chapter_desc = {
+		tip = "[메탈 블러드, 음표 & 맹세]에 참여하여 임무를 완료하면 레전더리 아이템을 획득하실 수 있습니다. ",
+		key = "bismarck_chapter_desc"
 	}
 }
 

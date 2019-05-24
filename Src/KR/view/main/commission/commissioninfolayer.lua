@@ -62,6 +62,8 @@ function slot0.initProjects(slot0)
 
 		slot7:update()
 		onToggle(slot0, slot7.toggle, function (slot0)
+			slot0:updateTips(slot0)
+
 			if slot0 then
 				slot1, slot2 = nil
 

@@ -49,6 +49,7 @@ function slot0.init(slot0)
 	slot0.noneBg = slot0:findTF("none_bg")
 	slot0.allLaunch = slot0:findTF("all_launch")
 	slot0.aniBgTF = slot0:findTF("aniBg")
+	slot0.canvasgroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 end
 
 function slot0.updatePlayer(slot0, slot1)
@@ -212,7 +213,7 @@ function slot0.updateProject(slot0, slot1, slot2)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					showStopRemind = true,
 					content = i18n("ship_buildShipScene_quest_quickFinish", 1, (slot1.itemVO.count == 0 and COLOR_RED) or COLOR_GREEN, slot1.itemVO.count),
-					stopRamindContent = i18n("common_dont_remind_dur_login"),
+					stopRamindContent = i18n("dont_remind_session"),
 					onYes = function ()
 						slot0:emit(BuildShipDetailMediator.ON_QUICK, slot0, slot2.stopRemindToggle.isOn)
 					end
@@ -266,42 +267,13 @@ function slot0.updateProject(slot0, slot1, slot2)
 end
 
 function slot0.playGetShipAnimate(slot0, slot1, slot2)
+	slot0.canvasgroup.blocksRaycasts = false
 	slot4 = slot0.projectList
 	slot5 = slot2 or 1
 	slot0.isPlayAnim = true
-
-	function slot6()
-		slot0 = slot0._tf:GetComponent("DftAniEvent")
-
-		slot0:SetStartEvent(function (slot0)
-			setActive(slot0.buildAni, true)
-		end)
-		slot0:SetEndEvent(function (slot0)
-			slot0()
-
-			slot0.isPlayAnim = false
-
-			if false then
-				slot2()
-
-				slot2 = nil
-			end
-		end)
-		slot0:SetTriggerEvent(function (slot0)
-			slot0.buildAni:SetActive(false)
-		end)
-
-		slot3.enabled = true
-		slot0.aniPlay = true
-
-		if slot4 and slot4.build_voice ~= "" then
-			slot0:playCV(slot4.build_voice)
-		end
-	end
-
-	slot8 = slot0
-	slot7 = slot0.findTF
-	slot9 = pg.ship_data_create_material[slot0._tf:GetComponent("Animator")[function ()
+	slot7 = slot0
+	slot6 = slot0.findTF
+	slot8 = pg.ship_data_create_material[function ()
 		slot0.isPlayAnim = false
 
 		if false then
@@ -310,26 +282,44 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 			slot1 = nil
 		end
 
+		setActive(slot0.aniBgTF, false)
+		setActive:stopCV()
+
+		setActive.stopCV.canvasgroup.blocksRaycasts = true
+
+		if setActive.stopCV.canvasgroup.aniTimer then
+			slot0.aniTimer:Stop()
+
+			slot0.aniTimer.Stop.aniTimer = nil
+		end
+
 		if not slot0.buildAni or slot0.exited then
 			return
 		end
 
-		slot2.enabled = false
-		slot2.aniPlay = false
-
-		setActive(slot0.aniBgTF, false)
-
-		if setActive.buildAni then
+		if slot0.buildAni then
 			Destroy(slot0.buildAni)
 
 			Destroy.buildAni = nil
 		end
+	end[function ()
+		slot0.aniTimer = Timer.New(function ()
+			setActive(slot0.buildAni, false)
+			slot0.buildAni()
+		end, 4.5)
 
-		slot0:stopCV()
+		slot0.aniTimer:Start()
+		setActive(slot0.buildAni, true)
+
+		if true and slot2.build_voice ~= "" then
+			slot0:playCV(slot2.build_voice)
+		end
 	end].type].build_anim or "Building"
 
-	if slot7(slot8, slot9 .. "(Clone)") then
-		slot0.buildAni = go(slot7)
+	if slot6(slot7, slot8 .. "(Clone)") then
+		slot0.buildAni = go(slot6)
+
+		removeOnButton(slot0.buildAni)
 	end
 
 	if not slot0.buildAni and not slot0.onLoading then
@@ -351,7 +341,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		end)
 	elseif slot0.onLoading then
 	else
-		slot6()
+		slot5()
 		onButton(slot0, slot0.buildAni, function ()
 			slot0()
 		end)
@@ -365,6 +355,12 @@ function slot0.willExit(slot0)
 
 	if slot0.aniBgTF then
 		SetParent(slot0.aniBgTF, slot0._tf)
+	end
+
+	if slot0.aniTimer then
+		slot0.aniTimer:Stop()
+
+		slot0.aniTimer = nil
 	end
 
 	slot0.buildTimers = nil

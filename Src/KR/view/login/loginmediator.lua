@@ -92,6 +92,9 @@ function slot0.CheckMaintain(slot0)
 		if slot0 == slot0 then
 			pg.MsgboxMgr:GetInstance():ShowMsgBox({
 				content = i18n("login_loginMediator_kickServerClose"),
+				onNo = function ()
+					slot0.process()
+				end,
 				onYes = function ()
 					slot0.process()
 				end

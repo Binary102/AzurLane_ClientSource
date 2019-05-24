@@ -49,7 +49,7 @@ function slot0.flush(slot0)
 	slot0.nameTxt:setText(slot0.shipVO.getName(slot1))
 	slot0:updateProps({})
 	setPaintingPrefabAsync(slot0.paintingTr, slot0.shipVO.getPainting(slot1), "biandui")
-	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot0.shipVO.propose and "prop" .. ((slot1:isBluePrintShip() and "0" .. slot4) or "")) or nil)
+	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot0.shipVO.propose and "prop" .. ((slot1:isBluePrintShip() and slot4) or "")) or nil)
 	GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", function (slot0)
 		slot0.bgImage.sprite = slot0
 	end)

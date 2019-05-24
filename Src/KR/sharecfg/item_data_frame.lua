@@ -16,6 +16,14 @@ pg.item_data_frame = {
 		desc = "항구에서 1년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득할 수 있습니다.</color>",
 		scene = {}
 	},
+	[102] = {
+		name = "2주년 기념",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "항구에서 2년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "소환자",
 		time_second = 2592000,
@@ -32,11 +40,21 @@ pg.item_data_frame = {
 		desc = "지휘관 님, 지휘부에서 지휘관 님의 복귀를 환영하며, 지속적인 참여를 부탁드립니다.\n<color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
+	[302] = {
+		name = "메탈 블러드의 맹세",
+		time_second = 0,
+		id = 302,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>적색의 피, 단단한 철로 굳건하게 형성된 의지</color>\n[메탈 블러드, 음표 & 맹세] 이벤트에서 획득 가능",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
+		102,
 		300,
-		301
+		301,
+		302
 	}
 }
 

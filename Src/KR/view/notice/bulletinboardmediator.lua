@@ -2,6 +2,9 @@ slot0 = class("BulletinBoardMediator", import("..base.ContextMediator"))
 slot0.SET_STOP_REMIND = "set_stop_remind"
 
 function slot0.register(slot0)
+	slot1 = getProxy(ServerNoticeProxy)
+
+	slot1:setStopMainTip()
 	slot0.viewComponent:setNotices(slot2)
 	slot0:bind(slot0.SET_STOP_REMIND, function (slot0, slot1)
 		getProxy(ServerNoticeProxy):setStopRemind(slot1)

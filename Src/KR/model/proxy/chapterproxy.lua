@@ -23,26 +23,40 @@ function slot0.register(slot0)
 			end
 		end
 
+		slot0.mapEliteFleetCache = {}
+		slot0.mapEliteCommanderCache = {}
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(slot0.fleet_list) do
+			slot2[slot7.map_id] = slot2[slot7.map_id] or {}
+
+			table.insert(slot2[slot7.map_id], slot7)
+		end
+
+		for slot6, slot7 in pairs(slot2) do
+			slot0.mapEliteFleetCache[slot6], slot0.mapEliteCommanderCache[slot6] = Chapter.BuildEliteFleetList(slot7)
+		end
+
 		slot0.data = {}
 
-		for slot5, slot6 in ipairs(slot0.chapter_list) do
-			if not pg.chapter_template[slot6.id] then
-				Debugger.LogError("chapter_template not exist: " .. slot6.id)
+		for slot6, slot7 in ipairs(slot0.chapter_list) do
+			if not pg.chapter_template[slot7.id] then
+				Debugger.LogError("chapter_template not exist: " .. slot7.id)
 			else
-				slot7 = nil
+				slot8 = Chapter.New(slot7)
 
-				if slot0.fleet_list then
-					slot8 = pg.chapter_template[slot6.id].map
-					slot7 = {}
+				slot8:setEliteFleetList(slot0.mapEliteFleetCache[slot8:getConfig("map")] or {
+					{},
+					{},
+					{}
+				})
+				slot8:setEliteCommanders(slot0.mapEliteCommanderCache[slot9] or {
+					{},
+					{},
+					{}
+				})
 
-					for slot12, slot13 in ipairs(slot0.fleet_list) do
-						if slot8 == slot13.map_id then
-							table.insert(slot7, slot13)
-						end
-					end
-				end
-
-				if slot0.data[Chapter.New(slot6, slot7).id] then
+				if slot0.data[slot8.id] then
 					slot0:updateChapter(slot8)
 				else
 					slot0:addChapter(slot8)
@@ -50,24 +64,24 @@ function slot0.register(slot0)
 			end
 		end
 
-		for slot5, slot6 in pairs(slot1) do
-			if slot0.data[slot5] then
-				slot7.expireTime = slot6.expireTime
-				slot7.awardIndex = slot6.awardIndex
+		for slot6, slot7 in pairs(slot1) do
+			if slot0.data[slot6] then
+				slot8.expireTime = slot7.expireTime
+				slot8.awardIndex = slot7.awardIndex
 			else
-				slot0.data[slot5] = slot6
+				slot0.data[slot6] = slot7
 			end
 		end
 
 		if slot0.current_chapter and slot0.current_chapter.id > 0 then
-			slot0.data[slot2] or Chapter.New({
-				id = slot2
+			slot0.data[slot3] or Chapter.New({
+				id = slot3
 			}):update(slot0.current_chapter)
 
-			if slot0.data[slot2] then
-				slot0:updateChapter(slot3)
+			if slot0.data[slot3] then
+				slot0:updateChapter(slot4)
 			else
-				slot0:addChapter(slot3)
+				slot0:addChapter(slot4)
 			end
 		end
 
@@ -221,7 +235,6 @@ function slot0.register(slot0)
 	end)
 
 	slot0.timers = {}
-	slot0.mapEliteFleetCache = {}
 	slot0.escortChallengeTimes = 0
 
 	slot0:buildEscortMaps()
@@ -365,8 +378,31 @@ function slot0.getChapterById(slot0, slot1)
 		})
 		slot3 = slot2:getConfig("map")
 
-		if slot2:getConfig("type") == Chapter.CustomFleet and slot0.mapEliteFleetCache[slot3] then
-			slot2:setEliteFleetList(slot0.mapEliteFleetCache[slot3])
+		if slot2:getConfig("type") == Chapter.CustomFleet then
+			slot2:setEliteFleetList(slot0.mapEliteFleetCache[slot3] or {
+				{},
+				{},
+				{}
+			})
+			slot2:setEliteCommanders(slot0.mapEliteCommanderCache[slot3] or {
+				{},
+				{},
+				{}
+			})
+
+			slot4 = getProxy(BayProxy):getRawData()
+
+			for slot8, slot9 in ipairs(slot2:getEliteFleetList()) do
+				slot10 = #slot9
+
+				while slot10 > 0 do
+					if slot4[slot9[slot10]] == nil then
+						table.remove(slot9, slot10)
+					end
+
+					slot10 = slot10 - 1
+				end
+			end
 		end
 
 		return slot2
@@ -441,14 +477,16 @@ function slot0.duplicateEliteFleet(slot0, slot1, slot2)
 		slot1:EliteShipTypeFilter()
 
 		slot0.mapEliteFleetCache[slot1:getConfig("map")] = slot1:getEliteFleetList()
-		slot5 = {}
+		slot0.mapEliteCommanderCache[slot1.getConfig("map")] = slot1:getEliteFleetCommanders()
+		slot6 = {}
 
-		for slot9, slot10 in pairs(slot0.data) do
-			if slot10:getConfig("map") == slot4 and slot10.configId ~= slot1.configId then
-				slot10:setEliteFleetList(slot3)
+		for slot10, slot11 in pairs(slot0.data) do
+			if slot11:getConfig("map") == slot5 and slot11.configId ~= slot1.configId then
+				slot11:setEliteFleetList(slot3)
+				slot11:setEliteCommanders(slot4)
 
 				if slot2 then
-					slot0:updateChapter(slot10)
+					slot0:updateChapter(slot11)
 				end
 			end
 		end
@@ -511,8 +549,17 @@ function slot0.getMaps(slot0)
 				slot0:duplicateEliteFleet(slot16)
 			elseif slot14.model ~= ChapterConst.TypeMainSub and Chapter.New({
 				id = slot14.id
-			}).getConfig(slot17, "type") == Chapter.CustomFleet and slot0.mapEliteFleetCache[slot15.configId] then
-				slot17:setEliteFleetList(slot0.mapEliteFleetCache[slot15.configId])
+			}).getConfig(slot17, "type") == Chapter.CustomFleet then
+				slot17:setEliteFleetList(slot0.mapEliteFleetCache[slot15.configId] or {
+					{},
+					{},
+					{}
+				})
+				slot17:setEliteCommanders(slot0.mapEliteCommanderCache[slot15.configId] or {
+					{},
+					{},
+					{}
+				})
 			end
 
 			if slot17 and slot17:isValid() then
@@ -584,32 +631,38 @@ function slot0.getActActiveChapter(slot0)
 	end
 end
 
-function slot0.getUnlockActMapBytype(slot0, slot1, slot2)
-	slot3 = {}
+function slot0.getUnlockActMapBytype(slot0, slot1, slot2, slot3)
+	slot4 = {}
 
-	for slot8, slot9 in pairs(slot4) do
-		if slot9:getConfig("type") == slot1 and slot9:getConfig("on_activity") == slot2 then
-			table.insert(slot3, slot9)
+	for slot9, slot10 in pairs(slot5) do
+		if slot10:getConfig("type") == slot1 and slot10:getConfig("on_activity") == slot2 then
+			table.insert(slot4, slot10)
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		if slot9:getActiveChapter() then
-			return slot9
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10:getActiveChapter() then
+			return slot10
 		end
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		if slot4[slot9.id - 1] and slot10:isClearForActivity() and slot9:isUnlock() then
-			return slot9
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10.id == slot3 then
+			return slot10
 		end
 	end
 
-	table.sort(slot3, function (slot0, slot1)
+	for slot9, slot10 in ipairs(slot4) do
+		if slot5[slot10.id - 1] and slot11:isClearForActivity() and slot10:isUnlock() then
+			return slot10
+		end
+	end
+
+	table.sort(slot4, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)
 
-	return slot3[1]
+	return slot4[1]
 end
 
 function slot0.getLastMapForActivity(slot0)

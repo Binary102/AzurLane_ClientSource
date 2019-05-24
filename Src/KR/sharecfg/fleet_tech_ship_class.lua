@@ -557,6 +557,17 @@ pg.fleet_tech_ship_class = {
 			20101
 		}
 	},
+	[20111] = {
+		shiptype = 1,
+		name = "E급",
+		t_level = 4,
+		id = 20111,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20129
+		}
+	},
 	[20201] = {
 		shiptype = 2,
 		name = "리엔더급",
@@ -734,6 +745,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 60,
 		nation = 2,
 		ships = {
+			20505,
 			20503,
 			20504
 		}
@@ -1418,7 +1430,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 115,
 		nation = 4,
 		ships = {
-			40135
+			40135,
+			40136
 		}
 	},
 	[40105] = {
@@ -1511,6 +1524,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 123,
 		nation = 4,
 		ships = {
+			40501,
 			40502
 		}
 	},
@@ -1544,7 +1558,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 126,
 		nation = 4,
 		ships = {
-			40801
+			40801,
+			40804
 		}
 	},
 	[50101] = {
@@ -1741,6 +1756,7 @@ pg.fleet_tech_ship_class = {
 		20108,
 		20109,
 		20110,
+		20111,
 		20201,
 		20202,
 		20203,

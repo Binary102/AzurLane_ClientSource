@@ -234,6 +234,7 @@ function slot6.UpdateAOECld(slot0, slot1)
 		slot5 = slot0._aircraftTree:GetCldList(slot2, slot1)
 	end
 
+	slot1:ClearCLDList()
 	slot0:HandleAreaCldWithVehicle(slot1, slot5)
 end
 

@@ -77,6 +77,9 @@ function slot6.OpeningEffect(slot0, slot1, slot2)
 
 	if slot2 then
 		slot0._skillView:SubmarineButton()
+
+		slot0._joystick.anchorMin = Vector2(slot0.JOY_STICK_DEFAULT_PREFERENCE.x, slot0.JOY_STICK_DEFAULT_PREFERENCE.y)
+		slot0._joystick.anchorMax = Vector2(slot0.JOY_STICK_DEFAULT_PREFERENCE.x, slot0.JOY_STICK_DEFAULT_PREFERENCE.y)
 	elseif pg.SeriesGuideMgr.GetInstance().currIndex and slot3:isEnd() then
 		slot0._skillView:NormalButton()
 	else

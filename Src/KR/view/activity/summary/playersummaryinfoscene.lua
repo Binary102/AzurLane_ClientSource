@@ -55,17 +55,11 @@ function slot0.initSummaryInfo(slot0)
 		SummaryPage2.New(slot0:findTF("page2", slot0.pageContainer)),
 		SummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
 		SummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
+		SummaryPage4.New(slot0:findTF("page4_1", slot0.pageContainer)),
 		SummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
 	}
 
 	table.remove(slot0.pages, (slot0.summaryInfoVO.isProPose and 3) or 2).Hide(slot2)
-
-	slot0.footTFs = {}
-
-	for slot6 = 1, #slot0.pages, 1 do
-		table.insert(slot0.footTFs, slot0.pageFootContainer:Find("dot_" .. slot6))
-	end
-
 	setActive(slot0.pageFootContainer, false)
 	seriesAsync({
 		function (slot0)
@@ -86,7 +80,12 @@ function slot0.initSummaryInfo(slot0)
 			slot0()
 		end,
 		function (slot0)
-			slot0:updatePageFoot(1, slot0)
+			slot0:registerFootEvent()
+			slot0()
+		end,
+		function (slot0)
+			slot0:updatePageFoot(1)
+			slot0()
 		end,
 		function (slot0)
 			slot0:registerDrag()
@@ -97,49 +96,41 @@ function slot0.initSummaryInfo(slot0)
 	end)
 end
 
+function slot0.registerFootEvent(slot0)
+	slot0.footTFs = {}
+
+	for slot4 = 1, #slot0.pages, 1 do
+		table.insert(slot0.footTFs, slot5)
+		onToggle(slot0, slot0.pageFootContainer:Find("dot_" .. slot4), function (slot0)
+			if slot0 then
+				slot0.pages[]:Show()
+
+				slot0.currPage = slot0
+			else
+				slot0.pages[slot0.currPage]:Hide()
+			end
+		end)
+	end
+end
+
 function slot0.registerDrag(slot0)
 	slot0:addVerticalDrag(slot0:findTF("bg"), function ()
-		if slot0.currPage == #slot0.pages then
-			return
-		end
-
-		if slot0.footTFs[slot0.currPage + 1] then
-			slot0:updatePageFoot(slot0.currPage + 1)
-		end
+		slot0:updatePageFoot(slot0.currPage + 1)
 	end, function ()
-		if slot0.currPage == 1 then
-			return
-		end
-
-		if slot0.footTFs[slot0.currPage - 1] then
-			slot0:updatePageFoot(slot0.currPage - 1)
-		end
+		slot0:updatePageFoot(slot0.currPage - 1)
 	end)
 end
 
-function slot0.updatePageFoot(slot0, slot1, slot2)
+function slot0.updatePageFoot(slot0, slot1)
 	if slot0:inAnim() then
 		return
 	end
 
-	function slot3()
-		slot0.currPage = slot1
-
-		if slot2 then
-			slot2()
-		end
+	if not slot0.footTFs[slot1] then
+		return
 	end
 
-	if slot0.currPage then
-		slot0.pages[slot0.currPage]:Hide(function ()
-			slot0.pages[slot1]:Show(slot2)
-			triggerToggle(slot0.footTFs[], true)
-		end)
-		triggerToggle(slot0.footTFs[slot0.currPage], false)
-	else
-		slot0.pages[slot1]:Show(slot3)
-		triggerToggle(slot0.footTFs[slot1], true)
-	end
+	triggerToggle(slot0.footTFs[slot1], true)
 end
 
 function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)

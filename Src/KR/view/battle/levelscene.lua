@@ -1237,7 +1237,7 @@ function slot0.registerActBtn(slot0)
 			slot0:HandleShowMsgBox({
 				modal = true,
 				hideNo = true,
-				content = i18n("activity_level_inwarime_tip", slot0)
+				content = i18n("activity_level_inwarime_tip", string.split(slot0, "|")[1])
 			})
 
 			return true
@@ -1399,6 +1399,11 @@ end
 function slot0.setMap(slot0, slot1)
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = slot0.maps[slot1]
+
+	if slot0.contextData.map:getMapType() == Map.ACT_EXTRA then
+		PlayerPrefs.SetInt("ex_mapId", slot0.contextData.map.id)
+		PlayerPrefs.Save()
+	end
 
 	slot0:updateBattleActivity(slot1)
 	slot0:updateMap()
@@ -1770,50 +1775,79 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		slot17 = findTF(slot5, "circle")
+		setActive(slot16, false)
 
-		LeanTween.cancel(go(slot17))
+		slot19 = findTF(slot5, "circle")
 
-		slot17.localScale = Vector3.zero
+		LeanTween.cancel(go(slot19))
 
-		LeanTween.scale(slot17, Vector3(1, 1, 1), 0.2):setDelay(0.3)
-		setAnchoredPosition(slot18, {
+		slot19.localScale = Vector3.zero
+
+		LeanTween.scale(slot19, Vector3(1, 1, 1), 0.2):setDelay(0.3)
+		setAnchoredPosition(slot20, {
 			x = -1 * slot5:Find("info").rect.width
 		})
-		shiftPanel(slot18, 0, nil, 0.4, 0.4, true, true, nil, slot3)
+		shiftPanel(findTF(slot5, "info/bk"), 0, nil, 0.4, 0.4, true, true, nil, function ()
+			if slot0 then
+				setActive(slot1, true)
+			end
 
-		slot20 = 0
+			if slot2 then
+				slot2()
+			end
 
-		for slot24, slot25 in ipairs(slot19) do
-			slot20 = slot20 + pg.expedition_data_template[slot25].bonus_time
+			return
+		end)
+
+		if slot2:isTriesLimit() then
+			slot21 = slot2:getConfig("count")
+
+			setText(slot16:Find("label"), i18n("levelScene_chapter_count_tip"))
+
+			slot23 = setText
+			slot24 = slot16:Find("Text")
+			slot25 = setColorStr
+			slot26 = slot21 - slot2:getTodayDefeatCount() .. "/" .. slot21
+
+			if slot21 > slot2:getTodayDefeatCount() or not COLOR_RED then
+				slot27 = COLOR_GREEN
+			end
+
+			slot23(slot24, slot25(slot26, slot27))
 		end
 
-		slot21 = findTF(slot5, "mark")
+		slot22 = 0
+
+		for slot26, slot27 in ipairs(slot21) do
+			slot22 = slot22 + pg.expedition_data_template[slot27].bonus_time
+		end
+
+		slot23 = findTF(slot5, "mark")
 
 		if not slot0.markRawPos then
-			slot0.markRawPos = slot21.anchoredPosition
+			slot0.markRawPos = slot23.anchoredPosition
 		end
 
-		slot21.anchoredPosition = slot0.markRawPos
-		slot22 = math.max(slot20 - slot2.todayDefeatCount, 0)
+		slot23.anchoredPosition = slot0.markRawPos
+		slot24 = math.max(slot22 - slot2.todayDefeatCount, 0)
 
-		if slot0.contextData.map:isRemaster() or slot20 <= 0 or slot22 <= 0 then
-			slot23 = false
+		if slot0.contextData.map:isRemaster() or slot22 <= 0 or slot24 <= 0 then
+			slot25 = false
 		else
-			slot23 = true
+			slot25 = true
 		end
 
-		slot24 = slot2:getOniChapterInfo()
+		slot26 = slot2:getOniChapterInfo()
 
-		setActive(slot21:Find("bonus"), slot23)
-		setActive(slot21, slot23)
+		setActive(slot23:Find("bonus"), slot25)
+		setActive(slot23, slot25)
 
-		if slot23 then
-			slot26 = slot21.anchoredPosition.y
-			slot21:GetComponent(typeof(CanvasGroup)).alpha = 0
+		if slot25 then
+			slot28 = slot23.anchoredPosition.y
+			slot23:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-			LeanTween.cancel(go(slot21))
-			LeanTween.value(go(slot21), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			LeanTween.cancel(go(slot23))
+			LeanTween.value(go(slot23), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 				slot0.alpha = slot0
 				slot0.anchoredPosition.y = slot2 * slot0
 				slot0.anchoredPosition.anchoredPosition = slot0.anchoredPosition
@@ -2050,6 +2084,12 @@ function slot0.displayFleetSelect(slot0, slot1)
 	slot0.levelFleetView:ActionInvoke("setOpenCommanderTag", slot0.openedCommanerSystem)
 	slot0.levelFleetView:ActionInvoke("set", slot1, slot0.fleets, slot2)
 	slot0.levelFleetView:ActionInvoke("setCBFunc", function (slot0)
+		if slot0:isTriesLimit() and not slot0:enoughTimes2Start() then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_elite_no_quota"))
+
+			return
+		end
+
 		if slot0:getConfig("npc_data") then
 			slot4 = getProxy(TaskProxy):getTaskById(slot1[3])
 

@@ -911,6 +911,30 @@ pg.memory_group = {
 			767
 		}
 	},
+	[156] = {
+		title = "희망의 맹세",
+		type = 2,
+		id = 156,
+		icon = "title_event",
+		memories = {
+			775,
+			776,
+			777
+		}
+	},
+	[157] = {
+		title = "이과 시험시간!",
+		type = 2,
+		id = 157,
+		icon = "title_event",
+		memories = {
+			792,
+			793,
+			794,
+			795,
+			796
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		type = 3,
@@ -1314,6 +1338,36 @@ pg.memory_group = {
 			695
 		}
 	},
+	[543] = {
+		title = "또 다른 지도자?",
+		type = 3,
+		id = 543,
+		icon = "title_chara_qiaozhiwushi",
+		memories = {
+			778,
+			779,
+			780,
+			781,
+			782,
+			783,
+			784
+		}
+	},
+	[544] = {
+		title = "작은 기사의 맹세",
+		type = 3,
+		id = 544,
+		icon = "title_chara_u556story",
+		memories = {
+			785,
+			786,
+			787,
+			788,
+			789,
+			790,
+			791
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1370,6 +1424,8 @@ pg.memory_group = {
 		153,
 		154,
 		155,
+		156,
+		157,
 		501,
 		502,
 		510,
@@ -1395,7 +1451,9 @@ pg.memory_group = {
 		534,
 		535,
 		539,
-		540
+		540,
+		543,
+		544
 	}
 }
 

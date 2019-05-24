@@ -14,6 +14,14 @@ function slot0.OnDestroy(slot0)
 	return
 end
 
+function slot0.OnBackPress(slot0)
+	return
+end
+
+function slot0.initData(slot0)
+	slot0.prayProxy = getProxy(PrayProxy)
+end
+
 function slot0.initUI(slot0)
 	slot0.startBtn = slot0:findTF("StartBtn")
 
@@ -21,10 +29,6 @@ function slot0.initUI(slot0)
 		slot0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)
 		slot0.prayProxy.updatePageState:emit(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, PrayProxy.STATE_SELECT_POOL)
 	end, SFX_PANEL)
-end
-
-function slot0.initData(slot0)
-	slot0.prayProxy = getProxy(PrayProxy)
 end
 
 return slot0

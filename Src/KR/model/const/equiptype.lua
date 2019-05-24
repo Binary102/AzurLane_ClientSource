@@ -14,6 +14,7 @@ slot0.SeaPlane = 12
 slot0.SubmarineTorpedo = 13
 slot0.Sonar = 14
 slot0.AntiSubAircraft = 15
+slot0.Helicopter = 17
 slot0.AirDomainEquip = {
 	slot0.FighterAircraft,
 	slot0.TorpedoAircraft,
@@ -60,6 +61,8 @@ slot2 = {
 	"seaplane",
 	"torpedo",
 	"equipment",
+	"equipment",
+	nil,
 	"equipment"
 }
 
@@ -88,7 +91,9 @@ function slot0.type2Tag(slot0)
 			"12",
 			"5",
 			"10",
-			"13"
+			"13",
+			nil,
+			"14"
 		}
 	end
 
@@ -97,6 +102,10 @@ end
 
 function slot0.isAircraft(slot0)
 	return pg.equip_data_template[slot0].type == slot0.FighterAircraft or slot1 == slot0.TorpedoAircraft or slot1 == slot0.BomberAircraft or slot1 == slot0.SeaPlane or slot1 == slot0.AntiSubAircraft
+end
+
+function slot0.isDevice(slot0)
+	return pg.equip_data_template[slot0].type == slot0.Equipment or slot1 == slot0.Sonar or slot1 == slot0.Helicopter
 end
 
 function slot0.type2Title(slot0, slot1)

@@ -51,44 +51,46 @@ function slot6(slot0)
 				slot0._icon.sprite = slot0
 			end)
 
-			slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
-			slot5 = slot1:getConfig("resource_num")
-			slot6 = (100 - slot1:getConfig("discount")) / 100
-
-			if slot1:isDisCount() then
-				slot0._priceTxt.text = slot5 * slot6
-			else
-				slot0._priceTxt.text = slot5
+			for slot7, slot8 in pairs(slot0._tagTFs) do
+				setActive(slot8, false)
 			end
 
-			slot1._opriceTxt.text = slot5
+			if slot0.goodsVO.type == Goods.TYPE_SKIN then
+				slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
+				slot6 = slot1:getConfig("resource_num")
+				slot7 = (100 - slot1:getConfig("discount")) / 100
 
-			setActive(go(slot1._opriceTxt), slot7 and slot6 < 1)
-
-			for slot11, slot12 in pairs(slot0._tagTFs) do
-				setActive(slot12, false)
-			end
-
-			slot8 = slot1.buyCount == 0
-
-			if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-				setActive(slot0._tagTFs[9], true)
-			elseif slot8 then
-				if slot0.goodsVO:getConfig("tag") == 5 then
-					setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
-				elseif slot0._tagTFs[slot10] then
-					setActive(slot0._tagTFs[slot10], true)
+				if slot1:isDisCount() then
+					slot0._priceTxt.text = slot6 * slot7
 				else
-					setActive(slot0._tagTFs[6], true)
+					slot0._priceTxt.text = slot6
 				end
-			else
-				setActive(slot0._tagTFs[7], true)
+
+				slot1._opriceTxt.text = slot6
+
+				setActive(go(slot1._opriceTxt), slot8 and slot7 < 1)
+
+				slot9 = slot1.buyCount == 0
+
+				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+					setActive(slot0._tagTFs[9], true)
+				elseif slot9 then
+					if slot0.goodsVO:getConfig("tag") == 5 then
+						setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
+					elseif slot0._tagTFs[slot11] then
+						setActive(slot0._tagTFs[slot11], true)
+					else
+						setActive(slot0._tagTFs[6], true)
+					end
+				else
+					setActive(slot0._tagTFs[7], true)
+				end
 			end
 		end,
 		updateSelected = function (slot0, slot1)
 			slot0._content.localPosition = Vector3(0, (slot1 and -26) or -126, 0)
 
-			setActive(slot0._priceTF, slot1)
+			setActive(slot0._priceTF, slot1 and slot0.goodsVO.type == Goods.TYPE_SKIN)
 			setActive(slot0._mask, not slot1)
 		end
 	})["_priceTF"], false)
@@ -177,6 +179,9 @@ function slot0.init(slot0)
 	slot0.tags = slot0:findTF("char/char_info/tags", slot0.mainPanel)
 	slot0.limitTxt = slot0:findTF("name_bg/limit_time/Text", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.commonPanel = slot0:findTF("char/common", slot0.mainPanel)
+	slot0.commonBGTF = slot0:findTF("bg", slot0.commonPanel)
+	slot0.commonLabelTF = slot0:findTF("label", slot0.commonPanel)
+	slot0.commonConsumeTF = slot0:findTF("consume", slot0.commonPanel)
 	slot0.buyBtn = slot0:findTF("buy_btn", slot0.commonPanel)
 	slot0.activityBtn = slot0:findTF("activty_btn", slot0.commonPanel)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.commonPanel)
@@ -343,6 +348,7 @@ function slot0.UpdateTagStyle(slot0, slot1, slot2, slot3)
 end
 
 function slot0.updateMainView(slot0, slot1)
+	slot0.showCardId = slot1.goodsVO.id
 	slot0.nameTxt.text = HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot1.shipSkinConfig.ship_group).name)
 	slot0.skinNameTxt.text = HXSet.hxLan(slot1.shipSkinConfig.name)
 
@@ -458,19 +464,27 @@ function slot0.updateBuyBtn(slot0, slot1)
 		setActive(slot0.activityBtn, slot1.goodsVO.type == Goods.TYPE_ACTIVITY or slot4 == Goods.TYPE_ACTIVITY_EXTRA)
 		onButton(slot0, slot0.buyBtn, function ()
 			if slot0.goodsVO.type == Goods.TYPE_SKIN then
-				slot1 = (100 - slot0:getConfig("discount")) / 100
-				slot2 = slot0:getConfig("resource_num")
+				print(slot1.showCardId, "--", slot0.id)
 
-				if slot0:isDisCount() then
-					slot2 = slot1 * slot2
-				end
+				if print.showCardId == slot0.id then
+					slot1 = (100 - slot0:getConfig("discount")) / 100
+					slot2 = slot0:getConfig("resource_num")
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
-					content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(slot1.name)),
-					onYes = function ()
-						slot0:emit(SkinShopMediator.ON_SHOPPING, slot1.id, 1)
+					if slot0:isDisCount() then
+						slot2 = slot1 * slot2
 					end
-				})
+
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+						content = i18n("charge_scene_buy_confirm", slot2, HXSet.hxLan(slot2.name)),
+						onYes = function ()
+							slot0:emit(SkinShopMediator.ON_SHOPPING, slot1.id, 1)
+						end
+					})
+				else
+					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[9999])
+
+					return
+				end
 			end
 		end, SFX_PANEL)
 		onButton(slot0, slot0.activityBtn, function ()
@@ -583,20 +597,26 @@ function slot0.updatePrice(slot0, slot1)
 	setActive(slot0.timelimtPanel, slot1.goodsVO.getConfig(slot3, "genre") == ShopArgs.SkinShopTimeLimit)
 
 	if slot4 then
-		slot0.timelimitPriceTxt.text = slot0.skinTicket
+		slot0.timelimitPriceTxt.text = slot5 .. "/" .. ((slot0.skinTicket < slot3:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. slot0.skinTicket .. ((slot0.skinTicket < slot5 and "</color>") or "")
 	else
-		slot5 = (100 - slot3:getConfig("discount")) / 100
-		slot6 = slot3:getConfig("resource_num")
+		setActive(slot0.commonBGTF, slot3.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonLabelTF, slot3.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonConsumeTF, slot3.type == Goods.TYPE_SKIN)
 
-		if slot3:isDisCount() then
-			slot0.priceTxt.text = slot6 * slot5
-		else
-			slot0.priceTxt.text = slot6
+		if slot3.type == Goods.TYPE_SKIN then
+			slot6 = (100 - slot3:getConfig("discount")) / 100
+			slot7 = slot3:getConfig("resource_num")
+
+			if slot3:isDisCount() then
+				slot0.priceTxt.text = slot7 * slot6
+			else
+				slot0.priceTxt.text = slot7
+			end
+
+			slot0.originalPriceTxt.text = slot7
+
+			setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
 		end
-
-		slot0.originalPriceTxt.text = slot6
-
-		setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
 	end
 end
 
@@ -649,7 +669,7 @@ function slot0.initShips(slot0)
 		slot1.cards[slot0] = slot1
 
 		onButton(slot1, slot1._tf, function ()
-			if slot0.contextData.key == slot1.goodsVO:getKey() then
+			if slot0.card and slot0.contextData.key == slot1.goodsVO:getKey() then
 				return
 			end
 
@@ -708,19 +728,28 @@ function slot0.onNext(slot0)
 	end
 
 	if slot1 then
+		slot2 = false
 		slot0.index = math.min(slot1 + 1, #slot0.displays)
-		slot3 = slot0.displays[math.min(slot1 + 1, #slot0.displays)]
+		slot4 = slot0.displays[math.min(slot1 + 1, #slot0.displays)]
 
-		for slot7, slot8 in pairs(slot0.cards) do
-			if slot8.goodsVO:getKey() == slot3:getKey() then
-				triggerButton(slot8._tf)
+		for slot8, slot9 in pairs(slot0.cards) do
+			if slot9.goodsVO:getKey() == slot4:getKey() then
+				triggerButton(slot9._tf)
+
+				slot2 = true
 
 				break
 			end
 		end
 
-		if slot4() then
-			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot2 - 1))
+		function slot5()
+			slot0 = getBounds(slot0.bottomTF:Find("scroll"))
+
+			return slot0:GetMax().x < getBounds(slot0.bottomTF:Find("scroll/content")).GetMax(slot1).x
+		end
+
+		if slot2 and slot5() then
+			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot3 - 1))
 		end
 	end
 end
@@ -741,19 +770,28 @@ function slot0.onPrev(slot0)
 	end
 
 	if slot1 then
+		slot2 = false
 		slot0.index = math.max(slot1 - 1, 1)
-		slot3 = slot0.displays[math.max(slot1 - 1, 1)]
+		slot4 = slot0.displays[math.max(slot1 - 1, 1)]
 
-		for slot7, slot8 in pairs(slot0.cards) do
-			if slot8.goodsVO:getKey() == slot3:getKey() then
-				triggerButton(slot8._tf)
+		for slot8, slot9 in pairs(slot0.cards) do
+			if slot9.goodsVO:getKey() == slot4:getKey() then
+				triggerButton(slot9._tf)
+
+				slot2 = true
 
 				break
 			end
 		end
 
-		if slot4() then
-			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot2 - 1))
+		function slot5()
+			slot0 = getBounds(slot0.bottomTF:Find("scroll"))
+
+			return getBounds(slot0.bottomTF:Find("scroll/content")).GetMin(slot1).x < slot0:GetMin().x and getBounds(slot0.card._tf):GetMin().x < slot0:GetMin().x
+		end
+
+		if slot2 and slot5() then
+			slot0.shipRect:ScrollTo(slot0.shipRect:HeadIndexToValue(slot3 - 1))
 		end
 	end
 end

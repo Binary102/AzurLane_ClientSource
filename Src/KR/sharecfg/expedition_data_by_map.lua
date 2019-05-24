@@ -3085,6 +3085,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1230001] = {
+		map = 1230001,
+		name = "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 20193,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220001",
+		cloud_suffix = "",
+		bg = "map_1220001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230002] = {
+		map = 1230002,
+		name = "메탈 블러드, 음표 & 맹세· (하)| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 20194,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220002",
+		cloud_suffix = "",
+		bg = "map_1220002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230011] = {
+		map = 1230011,
+		name = "메탈 블러드, 음표 & 맹세· (상)|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 20193,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220003",
+		cloud_suffix = "",
+		bg = "map_1220003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230012] = {
+		map = 1230012,
+		name = "메탈 블러드, 음표 & 맹세· (하)| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 20194,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "TIEXUEYUYINFU10",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230020] = {
+		map = 1230020,
+		name = "메탈 블러드, 음표 & 맹세·(간주)|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 8,
+		on_activity = 20194,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1230021] = {
+		map = 1230021,
+		name = "메탈 블러드, 음표 & 맹세·EX|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 8,
+		on_activity = 20194,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "map_1220004",
+		cloud_suffix = "",
+		bg = "map_1220004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1230012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -3200,6 +3446,12 @@ pg.expedition_data_by_map = {
 		1200100,
 		1220001,
 		1220021,
+		1230001,
+		1230002,
+		1230011,
+		1230012,
+		1230020,
+		1230021,
 		2200000
 	}
 }

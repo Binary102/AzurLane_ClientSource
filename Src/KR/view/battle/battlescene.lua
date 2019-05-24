@@ -258,23 +258,11 @@ function slot0.painting(slot0, slot1, slot2, slot3)
 
 	if slot0._skillPaintings[slot1.id] == nil then
 		slot4 = nil
+		slot5 = ys.Battle.BattleResourceManager:GetInstance():InstPainting(((HXSet.isHx() or slot1.painting) and ((slot1.painting_hx ~= "" and slot1.painting_hx) or slot1.painting)) or slot1.prefab)
+		slot0._skillPaintings[slot1.id] = slot5
 
-		if not HXSet.isHx() then
-			slot4 = slot1.painting
-		else
-			if slot1.painting_hx == "" or not slot1.painting_hx then
-				slot4 = slot1.painting
-			end
-		end
-
-		slot6 = ys.Battle.BattleResourceManager:GetInstance()
-		slot5 = ys.Battle.BattleResourceManager.GetInstance().InstPainting
-		slot7 = slot4 or slot1.prefab
-		slot0._skillPaintings[slot1.id] = slot5(ys.Battle.BattleResourceManager.GetInstance(), slot7)
-
-		setParent(slot5(ys.Battle.BattleResourceManager.GetInstance(), slot7), slot0._paintingFitter, false)
-
-		slot7 = slot1.prefab
+		setActive(slot0:findTF("face", slot5), false)
+		setParent(slot5, slot0._paintingFitter, false)
 	end
 
 	slot0._currentPainting = slot0._skillPaintings[slot1.id]
@@ -303,14 +291,10 @@ function slot0.didEnter(slot0)
 	slot1:SetBattleUI(slot0)
 	onButton(slot0, slot0:findTF("PauseBtn"), function ()
 		slot0:emit(BattleMediator.ON_PAUSE)
-
-		return
 	end, SFX_CONFIRM)
 	onButton(slot0, slot2, function ()
 		slot0:emit(BattleMediator.ON_CHAT, slot0:findTF("chatContainer"))
 		setActive(slot0, false)
-
-		return
 	end)
 	onToggle(slot0, slot0:findTF("AutoBtn"), function (slot0)
 		slot0:emit(BattleMediator.ON_AUTO, {
@@ -318,27 +302,11 @@ function slot0.didEnter(slot0)
 			toggle = slot0:findTF("AutoBtn")
 		})
 		slot0.emit:ActiveBot(ys.Battle.BattleState.IsAutoBotActive())
-
-		slot1 = setActive
-		slot2 = slot0.emit
-
-		if ys.Battle.BattleState.IsAutoBotActive() then
-			if slot0.hideChatFlag and slot0.hideChatFlag == 1 then
-				slot3 = false
-			else
-				slot3 = true
-			end
-		end
-
-		slot1(slot2, slot3)
-
-		return
+		setActive(slot0.emit, ys.Battle.BattleState.IsAutoBotActive() and (not slot0.hideChatFlag or slot0.hideChatFlag ~= 1))
 	end, SFX_PANEL, SFX_PANEL)
 	slot1:ConfigBattleEndFunc(function (slot0)
 		slot0:clear()
 		slot0:emit(BattleMediator.ON_BATTLE_RESULT, slot0)
-
-		return
 	end)
 	slot0:emit(BattleMediator.ENTER)
 	slot0:initPauseWindow()
@@ -346,8 +314,6 @@ function slot0.didEnter(slot0)
 	if slot0.contextData.prePause then
 		triggerButton(slot0:findTF("PauseBtn"))
 	end
-
-	return
 end
 
 function slot0.onBackPressed(slot0)
@@ -355,8 +321,6 @@ function slot0.onBackPressed(slot0)
 		playSoundEffect(SFX_CANCEL)
 		triggerButton(slot0.continueBtn)
 	end
-
-	return
 end
 
 function slot0.activeBotHelp(slot0, slot1)
@@ -387,38 +351,26 @@ function slot0.activeBotHelp(slot0, slot1)
 		},
 		onClose = function ()
 			slot0.autoBotHelp = false
-
-			return
 		end
 	})
 
 	slot2.botHelp = true
-
-	return
 end
 
 function slot0.exitBattle(slot0, slot1)
 	if not slot1 then
 		slot0:emit(BattleMediator.ON_BACK_PRE_SCENE)
-	else
-		if slot1 == "kick" then
-		end
+	elseif slot1 == "kick" then
 	end
-
-	return
 end
 
 function slot0.setChapter(slot0, slot1)
 	slot0._chapter = slot1
-
-	return
 end
 
 function slot0.setFleet(slot0, slot1, slot2)
 	slot0._mainShipVOs = slot1
 	slot0._vanShipVOs = slot2
-
-	return
 end
 
 function slot0.initPauseWindow(slot0)
@@ -430,30 +382,13 @@ function slot0.initPauseWindow(slot0)
 
 	function slot1(slot0, slot1, slot2)
 		for slot6 = 1, 3, 1 do
-			slot8 = setActive
-			slot9 = slot1:Find("ship_" .. slot6)
-
-			if slot2 then
-				if slot6 > #slot2 then
-					slot10 = false
-				else
-					slot10 = true
-				end
-			end
-
-			slot8(slot9, slot10)
+			setActive(slot1:Find("ship_" .. slot6), slot2 and slot6 <= #slot2)
 
 			if slot2 and slot6 <= #slot2 then
 				updateShip(slot7, slot2[slot6])
 			end
 
-			slot8 = table.insert
-
-			if not slot0 or not slot0.mainTFs then
-				slot9 = slot0.vanTFs
-			end
-
-			slot8(slot9, slot7)
+			table.insert((slot0 and slot0.mainTFs) or slot0.vanTFs, slot7)
 		end
 
 		if slot2 then
@@ -465,8 +400,6 @@ function slot0.initPauseWindow(slot0)
 
 			setText(slot1:Find("power/value"), math.floor(slot3))
 		end
-
-		return
 	end
 
 	if slot0._mainShipVOs then
@@ -479,34 +412,24 @@ function slot0.initPauseWindow(slot0)
 
 	if ys.Battle.BattleState.GetInstance().GetBattleType(slot2) == SYSTEM_SCENARIO then
 		setText(slot3, slot0._chapter:getConfigTable().chapter_name)
-		setText(slot4, slot0._chapter.getConfigTable().name)
-	else
-		if slot5 == SYSTEM_SHAM then
-			setText(slot3, "SP")
-			setText(slot4, slot0._chapter:getConfig("name"))
-		else
-			if slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS then
-				setText(slot3, "SP")
-				setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
-			else
-				if slot5 == SYSTEM_DEBUG then
-					setText(slot3, "??")
-					setText(slot4, "碧蓝梦境")
-				else
-					if slot5 == SYSTEM_CHALLENGE then
-						setText(slot3, "SP")
-						setText(slot4, pg.expedition_data_template[slot0._chapter:getChallengeStageID()].name)
-						setActive(slot0.LeftTimeContainer, false)
-					end
-				end
-			end
-		end
+		setText(slot4, string.split(slot0._chapter.getConfigTable().name, "|")[1])
+	elseif slot5 == SYSTEM_SHAM then
+		setText(slot3, "SP")
+		setText(slot4, string.split(slot0._chapter:getConfig("name"), "|")[1])
+	elseif slot5 == SYSTEM_ROUTINE or slot5 == SYSTEM_DUEL or slot5 == SYSTEM_HP_SHARE_ACT_BOSS or slot5 == SYSTEM_ACT_BOSS then
+		setText(slot3, "SP")
+		setText(slot4, pg.expedition_data_template[slot2:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetInitData().StageTmpId].name)
+	elseif slot5 == SYSTEM_DEBUG then
+		setText(slot3, "??")
+		setText(slot4, "碧蓝梦境")
+	elseif slot5 == SYSTEM_CHALLENGE then
+		setText(slot3, "SP")
+		setText(slot4, pg.expedition_data_template[slot0._chapter:getChallengeStageID()].name)
+		setActive(slot0.LeftTimeContainer, false)
 	end
 
 	onButton(slot0, slot0:findTF("window/button_container/leave", slot0.pauseWindow), function ()
 		slot0:emit(BattleMediator.ON_LEAVE)
-
-		return
 	end)
 
 	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
@@ -515,8 +438,6 @@ function slot0.initPauseWindow(slot0)
 		setActive(slot0.pauseWindow, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.pauseWindow, slot0._tf)
 		pg.UIMgr.GetInstance():Resume()
-
-		return
 	end)
 	onButton(slot0, slot0:findTF("help", slot0.pauseWindow), function ()
 		if BATTLE_DEBUG and PLATFORM == 7 then
@@ -530,22 +451,14 @@ function slot0.initPauseWindow(slot0)
 				helps = i18n("help_battle_rule")
 			})
 		end
-
-		return
 	end)
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.pauseWindow), function ()
 		triggerButton(slot0.continueBtn)
-
-		return
 	end)
 	onButton(slot0, slot0.pauseWindow, function ()
 		triggerButton(slot0.continueBtn)
-
-		return
 	end)
 	setActive(slot0.pauseWindow, false)
-
-	return
 end
 
 function slot0.updatePauseWindow(slot0)
@@ -562,14 +475,10 @@ function slot0.updatePauseWindow(slot0)
 	slot1(slot0._mainShipVOs, slot5, slot0.mainTFs)
 	slot1(slot0._vanShipVOs, slot6, slot0.vanTFs)
 	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot3:GetCountDown())))
-
-	return
 end
 
 function slot0.OnCloseChat(slot0)
 	setActive(slot0:findTF("chatBtn"), ys.Battle.BattleState.GetInstance():IsBotActive())
-
-	return
 end
 
 function slot0.clear(slot0)
@@ -580,8 +489,6 @@ function slot0.clear(slot0)
 	slot0._currentPainting = nil
 
 	Destroy(slot0._paintingUI)
-
-	return
 end
 
 function slot0.willExit(slot0)
@@ -589,8 +496,6 @@ function slot0.willExit(slot0)
 	slot0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.pauseWindow, slot0._tf)
-
-	return
 end
 
 return slot0

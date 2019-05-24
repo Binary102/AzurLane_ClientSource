@@ -1,88 +1,5 @@
 slot0 = class("Player", import(".PlayerAttire"))
-slot1 = {
-	"gold",
-	"oil",
-	"exploit",
-	"gem",
-	"oilField",
-	"dormMoney",
-	"goldField",
-	"guildCoin",
-	nil,
-	nil,
-	nil,
-	nil,
-	nil,
-	"freeGem",
-	[113.0] = "nvpu_pt",
-	[121.0] = "omamori1",
-	[104.0] = "star",
-	[112.0] = "jiujiu",
-	[124.0] = "union_pt",
-	[120.0] = "naerweikehaogan",
-	[111.0] = "faxipt",
-	[2001.0] = "contribution_worldboss",
-	[119.0] = "British_pt",
-	[102.0] = "pt",
-	[110.0] = "yisegefuke_pt",
-	[118.0] = "tiancheng",
-	[103.0] = "ema",
-	[109.0] = "bilibili",
-	[117.0] = "longxiang",
-	[125.0] = "skinTicket",
-	[108.0] = "omamori",
-	[116.0] = "chuansong",
-	[101.0] = "battery",
-	[107.0] = "mengjiu",
-	[115.0] = "chuansonghaogan",
-	[123.0] = "kizuna_pt",
-	[106.0] = "ema",
-	[114.0] = "zhandouzhixing",
-	[122.0] = "battery1",
-	[105.0] = "grace"
-}
-slot2 = {
-	59001,
-	59002,
-	59003,
-	59004,
-	0,
-	59006,
-	0,
-	59008,
-	0,
-	nil,
-	nil,
-	nil,
-	nil,
-	59005,
-	[113.0] = 59115,
-	[121.0] = 59124,
-	[104.0] = 59105,
-	[112.0] = 59113,
-	[124.0] = 59127,
-	[120.0] = 59123,
-	[111.0] = 59112,
-	[2001.0] = 59122,
-	[119.0] = 59121,
-	[102.0] = 59103,
-	[110.0] = 59111,
-	[118.0] = 59120,
-	[103.0] = 59104,
-	[109.0] = 59110,
-	[117.0] = 59119,
-	[125.0] = 59128,
-	[108.0] = 59109,
-	[116.0] = 59118,
-	[101.0] = 59102,
-	[107.0] = 59108,
-	[115.0] = 59117,
-	[123.0] = 59126,
-	[106.0] = 59107,
-	[114.0] = 59116,
-	[122.0] = 59125,
-	[105.0] = 59106
-}
+slot2 = pg.player_resource.get_id_list_by_name
 slot0.MAX_SHIP_BAG = 2000
 slot0.MAX_EQUIP_BAG = 2000
 slot0.MAX_COMMANDER_BAG = 200
@@ -91,29 +8,19 @@ slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
 
 function id2res(slot0)
-	return slot0[slot0]
+	return slot0[slot0].name
 end
 
 function res2id(slot0)
-	for slot4, slot5 in pairs(slot0) do
-		if slot5 == slot0 then
-			return slot4
-		end
-	end
-
-	return 0
+	return slot0.get_id_list_by_name[slot0][1]
 end
 
 function id2ItemId(slot0)
-	return slot0[slot0]
+	return slot0[slot0].itemid
 end
 
 function itemId2Id(slot0)
-	for slot4, slot5 in pairs(slot0) do
-		if slot5 == slot0 then
-			return slot4
-		end
-	end
+	return
 end
 
 function slot0.skin2Res(slot0)
@@ -243,6 +150,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maxGold = pg.gameset.max_gold.key_value
 	slot0.maxOil = pg.gameset.max_oil.key_value
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
+	slot0.displayInfo = slot1.display or {}
 	slot0.attireInfo = {
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
 		[AttireConst.TYPE_CHAT_FRAME] = slot0.chatFrame
@@ -312,12 +220,14 @@ end
 
 function slot0.updateResources(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
-		if slot6 == "gem" then
+		slot7 = slot6[1]
+
+		if slot5 == "gem" then
 			slot0.chargeGem = 0
-		elseif slot6 == "freeGem" then
+		elseif slot5 == "freeGem" then
 			slot0.awardGem = 0
 		else
-			slot0[slot6] = 0
+			slot0[slot5] = 0
 		end
 	end
 
@@ -469,7 +379,7 @@ end
 
 function slot0.isFull(slot0)
 	for slot4, slot5 in pairs(slot0) do
-		if pg.user_level["max_" .. slot5] and slot0[slot5] < slot6 then
+		if pg.user_level["max_" .. slot4] and slot0[slot4] < slot6 then
 			return false
 		end
 	end

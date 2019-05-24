@@ -757,6 +757,48 @@ end
 slot0.SetFleetNameLabel = slot1
 
 function slot1(slot0)
+	slot1 = slot0._currentDragDelegate
+
+	if slot1 then
+		slot1 = true
+		slot0._forceDropCharacter = slot1
+		slot1 = LuaHelper
+		slot1 = slot1.triggerEndDrag
+		slot2 = slot0._currentDragDelegate
+
+		slot1(slot2)
+	end
+
+	function slot1()
+		slot0 = GetOrAddComponent
+		slot1 = slot0
+		slot1 = slot1._tf
+		slot2 = typeof
+		slot3 = CanvasGroup
+		slot0 = slot0(slot1, slot2(slot3))
+		slot1 = false
+		slot0.interactable = slot1
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.emit
+		slot3 = slot1
+		slot3 = slot3.ON_HOME
+
+		slot1(slot2, slot3)
+	end
+
+	slot3 = slot0
+	slot2 = slot0.emit
+	slot4 = FormationMediator
+	slot4 = slot4.COMMIT_FLEET
+	slot5 = slot1
+
+	slot2(slot3, slot4, slot5)
+end
+
+slot0.quckExitFunc = slot1
+
+function slot1(slot0)
 	slot1 = slot0.commanderFormationPanel
 	slot2 = slot1
 	slot1 = slot1.enable

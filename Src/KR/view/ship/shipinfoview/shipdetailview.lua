@@ -100,7 +100,7 @@ function slot0.InitEvent(slot0)
 		slot0:emit(ShipMainMediator.OPEN_EVALUATION, slot0:GetShipVO():getGroupId(), slot0:GetShipVO():isActivityNpc())
 	end, SFX_PANEL)
 	onButton(slot0, slot0.profileBtn, function ()
-		slot0:emit(ShipMainMediator.OPEN_SHIPPROFILE, slot0:GetShipVO():getGroupId(), slot0:GetShipVO():isActivityNpc())
+		slot0:emit(ShipMainMediator.OPEN_SHIPPROFILE, slot0:GetShipVO():getGroupId(), slot0:GetShipVO():isRemoulded())
 	end, SFX_PANEL)
 	onButton(slot0, slot0.intimacyTF, function ()
 		if slot0:GetShipVO():isActivityNpc() then

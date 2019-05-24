@@ -34,11 +34,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	for slot4, slot5 in pairs(slot0.textScroll) do
-		slot5:destroy()
-	end
-
-	slot0.textScroll = nil
+	return
 end
 
 function slot0.OnBackPress(slot0)
@@ -74,7 +70,6 @@ function slot0.initUI(slot0)
 	slot0.nextBtn = slot0:findTF("NextBtn")
 	slot0.nextBtnCom = GetComponent(slot0.nextBtn, "Button")
 	slot0.nextBtnCom.interactable = false
-	slot0.textScroll = {}
 
 	onButton(slot0, slot0.preBtn, function ()
 		slot0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)
@@ -204,15 +199,11 @@ function slot0.updateShipList(slot0, slot1)
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", slot3)
 		setFrame(slot4, slot6)
 		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
-		setText(slot9, slot8)
-
-		slot1.textScroll[slot0 + 1] = slot1.textScroll[slot0 + 1] or ScrollTxt:changeToScroll(slot9)
-
-		slot1.textScroll[slot0 + 1]:setText(slot8)
+		setText(slot9, shortenString(slot8, 6))
 
 		slot10 = slot1:findTF("BG/SelectedImg", slot1)
 
-		if table.indexof(slot2, slot2, 1) then
+		if table.indexof(slot0[slot0 + 1], , 1) then
 			SetActive(slot10, true)
 		else
 			SetActive(slot10, false)
@@ -251,13 +242,7 @@ function slot0.updateShipList(slot0, slot1)
 	end
 
 	function slot0.shipListSC.onReturnItem(slot0, slot1)
-		if not slot0.textScroll then
-			return
-		end
-
-		slot0.textScroll[slot0 + 1]:destroy()
-
-		slot0.textScroll[slot0 + 1] = nil
+		return
 	end
 
 	slot0.shipListSC:SetTotalCount(#slot1)

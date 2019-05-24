@@ -2994,7 +2994,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		belong = 1,
-		is_get_time_note = 0,
+		is_get_time_note = 1,
 		count = 1,
 		advice = 0,
 		effect = "",
@@ -3025,7 +3025,7 @@ pg.furniture_data_template = {
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			0
+			1
 		},
 		interAction_group = {}
 	},
@@ -81708,7 +81708,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 45309,
 		comfortable = 2,
-		describe = "「她改变了铁血」",
+		describe = "相框内放有俾斯麦的相片，散露出她英姿飒爽的一面。",
 		dorm_id = 0,
 		gem_price = 120,
 		themeId = 45,

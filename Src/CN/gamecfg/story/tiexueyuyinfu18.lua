@@ -594,7 +594,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…明明已经没法正常的瞄准了，居然还要反击…",
+			say = "…明明已经没法正常的瞄准了，居然还选择反击…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,42 +841,455 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
 			dir = 1,
+			actorName = "俾斯麦",
+			nameColor = "#ffde38",
+			say = "等一下！",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			effects = {
+				{
+					delay = 2,
+					name = "memoryFog",
+					active = true
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "嗯？还有什么问题么，俾斯麦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "我想知道，在你们所观察到的无数个可能性中，是否存在…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "并没有哦",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "在绵延数千载的历史长河中，“你”作为个体，不过是沧海一粟",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "太过于渺小，以至于连选择自己命运的权力都不曾拥有",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "至诞生、至消亡，都不曾拥有",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "无论“你”能否在那场关键的战斗中幸存，时代的走向都不会改变",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "不…你错了。我想知道的并不是关于我的命运。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "而是我的民族、我的人民、我的同僚…我的妹妹",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "她们的未来是否拥有获得救赎的可能…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "你可真是个有趣的样本，居然能达成超出我们预测的对话",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "欲带皇冠必承其重，看来你已经理解了其中的意味呢",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "“要真正体验生命,你必须站在生命之上”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "我们作为个体的生命在诞生之时便已消亡",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "取而代之的，是一个名为“铁血”的钢铁之躯。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "铁血终将高于一切",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "去吧，用你渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "让海涛为你翻滚，让风云为你变色",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "届时，渺小的生命便成就了你，你便找到了“另一个自我”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "然后你就能找到答案了——————",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "观察者",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "前提是那时候的你能够认可“另一个自我”呢~呵呵呵呵呵———",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "俾斯麦",
+			side = 2,
+			dir = 1,
+			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "您曾经说过，",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
+			say = "铁的纪律与…血的荣耀…………",
+			flashout = {
+				dur = 1,
 				alpha = {
-					{
-						0,
-						1,
-						0.2
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					},
-					{
-						0,
-						1,
-						0.2,
-						0.4
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.6
-					}
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1.5,
+				dur = 1,
+				alpha = {
+					1,
+					0
+				}
+			},
+			effects = {
+				{
+					active = false,
+					name = "memoryFog"
 				}
 			},
 			dialogShake = {
@@ -884,6 +1297,22 @@ return {
 				x = 12,
 				number = 2
 			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "您曾经说过，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

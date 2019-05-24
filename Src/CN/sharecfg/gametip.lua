@@ -9499,15 +9499,15 @@ $3]],
 		key = "no_item_selected_tip"
 	},
 	backyard_traning_tip = {
-		tip = "训练提供对应舰娘经验增长与提升少量心情恢复速度",
+		tip = "训练提供对应舰船经验增长与提升少量心情恢复速度",
 		key = "backyard_traning_tip"
 	},
 	backyard_rest_tip = {
-		tip = "休息增加舰娘心情恢复",
+		tip = "休息增加舰船心情恢复",
 		key = "backyard_rest_tip"
 	},
 	backyard_class_tip = {
-		tip = "授课提供对应舰娘经验增长",
+		tip = "授课提供对应舰船经验增长",
 		key = "backyard_class_tip"
 	},
 	medal_notice_1 = {
@@ -9997,7 +9997,7 @@ Z23(<color=#ff5c5c>铁血</color>) 科技点<color=#92fc63>+1</color></size>
 		key = "intimacy_desc_propose_vertical"
 	},
 	without_selected_ship = {
-		tip = "没找到符合条件的舰娘",
+		tip = "没找到符合条件的舰船",
 		key = "without_selected_ship"
 	},
 	index_all = {

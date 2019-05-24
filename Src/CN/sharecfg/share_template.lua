@@ -42,7 +42,7 @@ pg.share_template = {
 	},
 	{
 		description = "#碧蓝航线#",
-		name = "获得新舰娘界面",
+		name = "获得新舰船界面",
 		deck = 2,
 		camera = "OverlayCamera",
 		id = 3,

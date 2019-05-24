@@ -1951,18 +1951,39 @@ function slot2(slot0, slot1)
 			end
 
 			if slot9 or slot11 then
-				slot16 = slot4.tfArrow
-				slot17 = Vector2
-				slot18 = 0
-				slot19 = 100
-				slot17 = slot17(slot18, slot19)
-				slot16.anchoredPosition = slot17
-				slot16 = slot4.tfAmmo
-				slot17 = Vector2
-				slot18 = 22
-				slot19 = 56
-				slot17 = slot17(slot18, slot19)
-				slot16.anchoredPosition = slot17
+				if slot9 then
+					slot16 = ChapterConst
+					slot16 = slot16.AttachChampion
+
+					if slot10 == slot16 then
+						slot16 = slot4.tfArrow
+						slot17 = Vector2
+						slot18 = 0
+						slot19 = 180
+						slot17 = slot17(slot18, slot19)
+						slot16.anchoredPosition = slot17
+						slot16 = slot4.tfAmmo
+						slot17 = Vector2
+						slot18 = 60
+						slot19 = 100
+						slot17 = slot17(slot18, slot19)
+						slot16.anchoredPosition = slot17
+					end
+				else
+					slot16 = slot4.tfArrow
+					slot17 = Vector2
+					slot18 = 0
+					slot19 = 100
+					slot17 = slot17(slot18, slot19)
+					slot16.anchoredPosition = slot17
+					slot16 = slot4.tfAmmo
+					slot17 = Vector2
+					slot18 = 22
+					slot19 = 56
+					slot17 = slot17(slot18, slot19)
+					slot16.anchoredPosition = slot17
+				end
+
 				slot16 = slot4.tfAmmo
 				slot17 = slot16
 				slot16 = slot16.SetAsLastSibling

@@ -510,18 +510,20 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 								slot34 = 0
 								slot35 = 0
 
-								if string.match(slot27.value, i18n("word_secondseach")) == i18n("word_secondseach") then
-									slot34 = string.gsub(slot27.value, slot36, "")
-									slot35 = string.gsub(slot5[slot26].value, slot36, "")
-								else
-									slot37, slot38 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
-									slot34 = ((slot37 and slot37) or 0) * ((slot38 and slot38) or 0)
-									slot39, slot40 = string.match(string.gsub(slot5[slot26].value, " ", ""), "(%d+)x(%d+)")
-									slot35 = ((slot39 and slot39) or 0) * ((slot40 and slot40) or 0)
-								end
+								if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot26].value, i18n("word_secondseach")) then
+									if slot36 == i18n("word_secondseach") then
+										slot34 = string.gsub(slot27.value, slot36, "")
+										slot35 = string.gsub(slot5[slot26].value, slot36, "")
+									else
+										slot38, slot39 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
+										slot34 = (slot38 or 0) * (slot39 or 0)
+										slot40, slot41 = string.match(string.gsub(slot5[slot26].value, " ", ""), "(%d+)x(%d+)")
+										slot35 = (slot40 or 0) * (slot41 or 0)
+									end
 
-								setActive(slot31, tonumber(slot35) < tonumber(slot34))
-								setActive(slot32, tonumber(slot34) < tonumber(slot35))
+									setActive(slot31, tonumber(slot35) < tonumber(slot34))
+									setActive(slot32, tonumber(slot34) < tonumber(slot35))
+								end
 							elseif slot27.type == AttributeType.SonarInterval then
 								setActive(slot31, type(slot5[slot26].value) == "number" and slot27.value < slot5[slot26].value)
 								setActive(slot32, type(slot5[slot26].value) == "number" and slot5[slot26].value < slot27.value)

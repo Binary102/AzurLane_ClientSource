@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-2",
 			actor = 900071,
 			actorName = "观察者",
-			say = "元魔方的破译还是和以往一样失败了~",
+			say = "元魔方的破译还是一如既往的失败了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "测试者",
-			say = "虽然很可惜，不过本次实验也不是一无所获，这样就能向目标更进一步了",
+			say = "虽然很可惜，不过本次实验还是收集了相当多有趣的数据，这样就能向目标更进一步了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,41 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "观察者",
-			say = "铁血的失败从一开始就是注定的未来",
+			say = "铁血的失败从一开始就是注定的未来——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "观察者",
+			say = "即使我如此明显的暗示过，她仍然没有产生丝毫犹豫",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "观察者",
+			say = "我想研究这种不符合数据模型的心理，是否是成功[觉醒]的关键，亦或是改变未来的[模因]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +201,7 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "观察者",
-			say = "毕竟把这个时代的艺术遗产收入演算系统也是中枢机构分配的工作之一呀",
+			say = "毕竟，研究“造物主”时代的文化特征也是中枢机构分配的任务之一呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

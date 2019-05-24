@@ -67192,7 +67192,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59730] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "圣地亚哥礼包",
@@ -67208,7 +67208,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59731] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "贝尔法斯特礼包",
@@ -67224,7 +67224,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59732] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "獒礼包",
@@ -67240,7 +67240,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59733] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "厌战礼包",
@@ -67256,7 +67256,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59734] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "胡德礼包",
@@ -67272,7 +67272,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59735] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "企业礼包",
@@ -67288,7 +67288,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59736] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "光辉礼包",
@@ -67304,7 +67304,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59737] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "威尔士亲王礼包",
@@ -67320,7 +67320,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59738] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 5,
 		name = "犬礼包",
@@ -67336,7 +67336,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59739] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "圣地亚哥礼包（新）",
@@ -67352,7 +67352,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59740] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "贝尔法斯特礼包（新）",
@@ -67368,7 +67368,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59741] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "獒礼包（新）",
@@ -67384,7 +67384,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59742] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "厌战礼包（新）",
@@ -67400,7 +67400,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59743] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "胡德礼包（新）",
@@ -67416,7 +67416,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59744] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "企业礼包（新）",
@@ -67432,7 +67432,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59745] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "光辉礼包（新）",
@@ -67448,7 +67448,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59746] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "威尔士亲王礼包（新）",
@@ -67464,7 +67464,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59747] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "犬礼包（新）",
@@ -67634,7 +67634,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59756] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "克利夫兰礼包",
@@ -67650,7 +67650,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59757] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "宁海礼包",
@@ -67666,7 +67666,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59758] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "平海礼包",
@@ -67682,7 +67682,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59759] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "桐礼包",
@@ -67698,7 +67698,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59760] = {
-		display = "可以获得舰娘和回礼",
+		display = "可以获得舰船和回礼",
 		rarity = 2,
 		type = 11,
 		name = "爱丁堡礼包",

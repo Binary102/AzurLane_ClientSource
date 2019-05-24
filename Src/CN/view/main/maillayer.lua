@@ -241,7 +241,7 @@ function slot0.setLetterContent(slot0, slot1)
 
 	setText(slot0.wordText, slot1)
 	Canvas.ForceUpdateCanvases()
-	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1)
+	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1 + 1)
 end
 
 function slot0.openMail(slot0, slot1)

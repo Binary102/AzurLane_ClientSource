@@ -51,7 +51,7 @@ function pg.SystemOpenMgr.notification(slot0, slot1)
 		return
 	end
 
-	if slot1(slot1, getProxy(PlayerProxy).getData(slot2)) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.StoryMgr:GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr:GetInstance():isRunning() then
+	if slot1(slot1, getProxy(PlayerProxy).getData(slot2)) and not pg.MsgboxMgr.GetInstance()._go.activeSelf and slot4.story_id and slot4.story_id ~= "" and not slot0.active and not pg.StoryMgr:GetInstance():IsPlayed(slot4.story_id) and not pg.SeriesGuideMgr:GetInstance():isNotFinish() then
 		slot0.active = true
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

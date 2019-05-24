@@ -65,7 +65,41 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "オブザーバー",
-			say = "鉄血の敗北は未来の確定事項よ。あら、たしか人間にはこういう物語があるわね――",
+			say = "鉄血の敗北は、最初から決まっているわよ。ビスマルクが何をしようと、これだけはこの世界の避けられない確定事項……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "オブザーバー",
+			say = "私が調べたいのは、彼女の「因子」――「覚醒」の条件パターンが、私たちの「未来」に役に立つかどうか、よ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900071,
+			actorName = "オブザーバー",
+			say = "彼女自身の運命はまあ…あら、たしか人間にはこんな物語があるの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

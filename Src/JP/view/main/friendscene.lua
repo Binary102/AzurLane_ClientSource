@@ -279,14 +279,16 @@ function slot0.createFriendItem(slot0, slot1, slot2)
 	function slot4(slot0)
 		slot0.nameTF.text = slot0.name
 		slot0.levelTF.text = "Lv." .. slot0.level
-
-		LoadSpriteAsync("qicon/" .. Ship.New({
+		slot2 = Ship.New({
 			configId = slot0.icon
-		}).getPrefab(slot2), function (slot0)
+		})
+
+		LoadSpriteAsync("qicon/" .. slot2:getPrefab(), function (slot0)
 			slot0.iconTF.sprite = slot0
 		end)
 		setActive(slot0.iconCommonTF, not slot0.propose)
 		setActive(slot0.iconPropTF, slot0.propose)
+		slot0.starList:align(slot3)
 		onButton(pg.ship_data_statistics[slot0.icon], slot0.resumeBtn, function ()
 			slot0:emit(FriendMediator.OPEN_RESUME, slot1.id)
 		end, SFX_PANEL)

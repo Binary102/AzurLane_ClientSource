@@ -168,7 +168,7 @@ pg.questionnaire_problems_template = {
 		multiply = 0,
 		id = 205,
 		optional = 0,
-		desc = "请问指挥官用的最多的是哪种舰娘？",
+		desc = "请问指挥官用的最多的是哪种舰船？",
 		options = {
 			{
 				0,
@@ -252,7 +252,7 @@ pg.questionnaire_problems_template = {
 		options = {
 			{
 				0,
-				"捞不到想要的舰娘"
+				"捞不到想要的舰船"
 			},
 			{
 				0,

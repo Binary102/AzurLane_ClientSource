@@ -80,9 +80,9 @@ function slot1.SwitchTarget(slot0, slot1, slot2)
 
 	if not slot0._scrollNameText then
 		slot0._scrollNameText = ScrollTxt:changeToScroll(slot0._nameTF)
-
-		slot0._scrollNameText:setText(slot1._tmpData.name)
 	end
+
+	slot0._scrollNameText:setText(slot1._tmpData.name)
 
 	slot0._lvText.text = " Lv." .. slot1:GetLevel()
 end

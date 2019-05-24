@@ -51,44 +51,46 @@ function slot6(slot0)
 				slot0._icon.sprite = slot0
 			end)
 
-			slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
-			slot5 = slot1:getConfig("resource_num")
-			slot6 = (100 - slot1:getConfig("discount")) / 100
-
-			if slot1:isDisCount() then
-				slot0._priceTxt.text = slot5 * slot6
-			else
-				slot0._priceTxt.text = slot5
+			for slot7, slot8 in pairs(slot0._tagTFs) do
+				setActive(slot8, false)
 			end
 
-			slot1._opriceTxt.text = slot5
+			if slot0.goodsVO.type == Goods.TYPE_SKIN then
+				slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
+				slot6 = slot1:getConfig("resource_num")
+				slot7 = (100 - slot1:getConfig("discount")) / 100
 
-			setActive(go(slot1._opriceTxt), slot7 and slot6 < 1)
-
-			for slot11, slot12 in pairs(slot0._tagTFs) do
-				setActive(slot12, false)
-			end
-
-			slot8 = slot1.buyCount == 0
-
-			if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-				setActive(slot0._tagTFs[9], true)
-			elseif slot8 then
-				if slot0.goodsVO:getConfig("tag") == 5 then
-					setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
-				elseif slot0._tagTFs[slot10] then
-					setActive(slot0._tagTFs[slot10], true)
+				if slot1:isDisCount() then
+					slot0._priceTxt.text = slot6 * slot7
 				else
-					setActive(slot0._tagTFs[6], true)
+					slot0._priceTxt.text = slot6
 				end
-			else
-				setActive(slot0._tagTFs[7], true)
+
+				slot1._opriceTxt.text = slot6
+
+				setActive(go(slot1._opriceTxt), slot8 and slot7 < 1)
+
+				slot9 = slot1.buyCount == 0
+
+				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+					setActive(slot0._tagTFs[9], true)
+				elseif slot9 then
+					if slot0.goodsVO:getConfig("tag") == 5 then
+						setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
+					elseif slot0._tagTFs[slot11] then
+						setActive(slot0._tagTFs[slot11], true)
+					else
+						setActive(slot0._tagTFs[6], true)
+					end
+				else
+					setActive(slot0._tagTFs[7], true)
+				end
 			end
 		end,
 		updateSelected = function (slot0, slot1)
 			slot0._content.localPosition = Vector3(0, (slot1 and -26) or -126, 0)
 
-			setActive(slot0._priceTF, slot1)
+			setActive(slot0._priceTF, slot1 and slot0.goodsVO.type == Goods.TYPE_SKIN)
 			setActive(slot0._mask, not slot1)
 		end
 	})["_priceTF"], false)
@@ -175,6 +177,9 @@ function slot0.init(slot0)
 	slot0.tags = slot0:findTF("char/char_info/tags", slot0.mainPanel)
 	slot0.limitTxt = slot0:findTF("name_bg/limit_time/Text", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.commonPanel = slot0:findTF("char/common", slot0.mainPanel)
+	slot0.commonBGTF = slot0:findTF("bg", slot0.commonPanel)
+	slot0.commonLabelTF = slot0:findTF("label", slot0.commonPanel)
+	slot0.commonConsumeTF = slot0:findTF("consume", slot0.commonPanel)
 	slot0.buyBtn = slot0:findTF("buy_btn", slot0.commonPanel)
 	slot0.activityBtn = slot0:findTF("activty_btn", slot0.commonPanel)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.commonPanel)
@@ -590,18 +595,24 @@ function slot0.updatePrice(slot0, slot1)
 	if slot4 then
 		slot0.timelimitPriceTxt.text = slot5 .. "/" .. ((slot0.skinTicket < slot3:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. slot0.skinTicket .. ((slot0.skinTicket < slot5 and "</color>") or "")
 	else
-		slot5 = (100 - slot3:getConfig("discount")) / 100
-		slot6 = slot3:getConfig("resource_num")
+		setActive(slot0.commonBGTF, slot3.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonLabelTF, slot3.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonConsumeTF, slot3.type == Goods.TYPE_SKIN)
 
-		if slot3:isDisCount() then
-			slot0.priceTxt.text = slot6 * slot5
-		else
-			slot0.priceTxt.text = slot6
+		if slot3.type == Goods.TYPE_SKIN then
+			slot6 = (100 - slot3:getConfig("discount")) / 100
+			slot7 = slot3:getConfig("resource_num")
+
+			if slot3:isDisCount() then
+				slot0.priceTxt.text = slot7 * slot6
+			else
+				slot0.priceTxt.text = slot7
+			end
+
+			slot0.originalPriceTxt.text = slot7
+
+			setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
 		end
-
-		slot0.originalPriceTxt.text = slot6
-
-		setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
 	end
 end
 

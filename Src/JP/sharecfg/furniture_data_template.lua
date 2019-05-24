@@ -2675,7 +2675,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		belong = 1,
-		is_get_time_note = 0,
+		is_get_time_note = 1,
 		count = 1,
 		advice = 0,
 		effect = "",
@@ -2706,7 +2706,7 @@ pg.furniture_data_template = {
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			0
+			1
 		},
 		interAction_group = {}
 	},

@@ -825,42 +825,423 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_bsm_3",
-			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
 			dir = 1,
+			actorName = "ビスマルク",
+			nameColor = "#ffde38",
+			say = "待ちなさい！",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			effects = {
+				{
+					delay = 2,
+					name = "memoryFog",
+					active = true
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "まだ何か聞きたいことがあるの？ビスマルク",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "あくまで可能性の話よ。あなたたちが観測…いや、演算できる「未来」の中で、もしや…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "ないわよ、そんなの",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "………………っ！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "人類史というデータはとてつもなく膨大なの。貴女の存在などその中のごくわずかな一欠片に過ぎないわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "そんなのわざわざリソースを消費してまで演算するものでもないし、そもそもあなたがそれを知ったところで何も変わらないわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "戦うために生まれたあなたは、戦いの中で沈むの",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "あの「再現」の戦いで生き残れるかどうかに関係なく、それは決して変わらないわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "……違う。そんなことではないわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "私が知りたいのは私自身ではなく、鉄血の「未来」よ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "この世界の鉄血の人間たち、私の仲間たち……そしてティルピッツ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "彼女たちの「未来」は変えられるのだろうか",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "……………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "面白いサンプルね。あなた。私の予測の優先順位で一番低い回答をしてくれるなんて",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "そうね。もし方法があると言ったら、大いなる責任を背負っているあなたは何をするの？鉄血艦隊の指導者さん？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "……あらゆる手を使うまでよ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "戦艦ビスマルクであると同時に、私は仲間たちを、「鉄血」を守る存在",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "役目を果たすためなら、なんだってしてやるわ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "ふふふ……気が変わったわ。あなた、もしかしたら「本当に」運命を変えられるかもしれないのね",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "いいわ。私たちの力を使って、この世界を変えてみなさいな",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "あなたが「ビスマルク」という存在をもし超克することが出来たら、その方法が自ずと見えてくるはずよ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "オブザーバー",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "私たちはその先であなたを待っているわ――",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ビスマルク",
+			side = 2,
+			dir = 1,
+			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
 			say = "………確かそういう話があったわね",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
+			flashout = {
+				dur = 1,
 				alpha = {
-					{
-						0,
-						1,
-						0.2
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					},
-					{
-						0,
-						1,
-						0.2,
-						0.4
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.6
-					}
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1.5,
+				dur = 1,
+				alpha = {
+					1,
+					0
+				}
+			},
+			effects = {
+				{
+					active = false,
+					name = "memoryFog"
 				}
 			},
 			dialogShake = {

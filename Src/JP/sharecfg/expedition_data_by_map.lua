@@ -3988,10 +3988,10 @@ pg.expedition_data_by_map = {
 	},
 	[1230020] = {
 		map = 1230020,
-		name = "黒鉄の楽章、誓いの海-间奏|| ||CHAPTER EX||E.X.",
+		name = "黒鉄の楽章、誓いの海-間奏|| ||CHAPTER EX||E.X.",
 		bgm = "bsm-1",
 		type = 8,
-		on_activity = 0,
+		on_activity = 10256,
 		title = "EX",
 		drop_by_map_display = "",
 		enter_story = "",

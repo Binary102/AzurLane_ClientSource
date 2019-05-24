@@ -173,7 +173,11 @@ function slot0.handleNotification(slot0, slot1)
 		end
 
 		if slot2 == GAME.SKIP_SHIP_DONE then
-			slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
+			if table.getCount(getProxy(BuildShipProxy):getData()) == 0 and slot0.viewComponent then
+				triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_BUILD], true)
+			end
+
+			slot0.viewComponent:updateQueueTip(slot4:getFinishCount())
 		elseif slot2 == GAME.SKIP_BATCH_DONE then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3

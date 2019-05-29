@@ -1222,7 +1222,7 @@ return {
 			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "………確かそういう話があったわね",
+			say = "鉄の規律と…血の栄誉……",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -1264,39 +1264,7 @@ return {
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "「音楽は心を違う感情を呼び起こす――戦場にいるような荒々しい激情か、田園にいるような清々しい安逸か」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "ビスマルク",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "今は、少し静かに音楽を聞きたいわ……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "ビスマルク",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "もしかしたら私、少し疲れたのかしら……",
+			say = "鉄血の運命は………鉄血で決めるわ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1281,77 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "鉄の規律と…血の栄誉……",
+			say = "………確かそういう話があったわね",
+			flashN = {
+				color = {
+					1,
+					1,
+					1
+				},
+				alpha = {
+					{
+						0,
+						1,
+						0.2
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
+					}
+				}
+			},
+			dialogShake = {
+				speed = 0.09,
+				x = 12,
+				number = 2
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "ビスマルク",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "「音楽は心を違う感情を呼び起こす――戦場にいるような荒々しい激情か、田園にいるような清々しい安逸か」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsm_3",
+			actorName = "ビスマルク",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "今は、少し静かに音楽を聞きたいわ……",
 			flashN = {
 				color = {
 					1,
@@ -1363,7 +1401,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			say = "私の名の込められた意味…私は、鉄血を………",
+			say = "もしかしたら私、少し疲れたのかしら……",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {

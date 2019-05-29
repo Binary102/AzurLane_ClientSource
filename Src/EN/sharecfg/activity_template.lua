@@ -3453,6 +3453,7 @@ pg.activity_template = {
 	[30114] = {
 		mark = 20190426,
 		title_res_tag = "",
+		time = "stop",
 		type = 18,
 		config_id = 2,
 		is_show = 0,
@@ -3497,33 +3498,6 @@ pg.activity_template = {
 			{
 				10459,
 				10460
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					5,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		bg = {

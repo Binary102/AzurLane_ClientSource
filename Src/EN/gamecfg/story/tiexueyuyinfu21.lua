@@ -82,7 +82,7 @@ return {
 			blackBg = true,
 			actor = 900071,
 			actorName = "Observer",
-			say = "即使我如此明显的暗示过，她仍然没有产生丝毫犹豫",
+			say = "But no matter how obvious I made it, no matter how many hints I dropped, she refused to be swayed from her course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900071,
-			actorName = "观察者",
-			say = "我想研究这种不符合数据模型的心理，是否是成功[觉醒]的关键，亦或是改变未来的[模因]",
+			actorName = "Observer",
+			say = "And this is precisely the kind of mind I wanted to study - one which defied all our statistical models. She could have been the key to a successful \"Awakening,\" the \"Vector\" that would usher forth a new future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900071,
-			actorName = "观察者",
+			actorName = "Observer",
 			say = "There was one who could hear the Song of Ragnarok, and began her lonely dance.",
 			typewriter = {
 				speed = 0.05,

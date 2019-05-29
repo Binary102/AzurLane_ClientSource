@@ -346,6 +346,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 	end
 
 	for slot16 = 1, #slot0, 1 do
+		setActive(slot17, true)
 		slot11(slot0:findTF("attr_" .. slot12 + slot16, slot0.attrs), {
 			preAttr = math.floor(slot2[slot0[slot16]]),
 			afterAttr = math.floor(slot4[slot0[slot16]]),
@@ -353,17 +354,20 @@ function slot0.updateBreakOutView(slot0, slot1)
 		})
 	end
 
-	if slot12 + #slot0 < 7 then
-		slot11(slot0:findTF("attr_7", slot0.attrs), {
-			preAttr = slot6,
-			afterAttr = slot7,
-			name = i18n("word_attr_luck")
-		})
+	setActive(slot14, true)
+	slot11(slot14, {
+		preAttr = slot6,
+		afterAttr = slot7,
+		name = i18n("word_attr_luck")
+	})
+
+	for slot18 = slot12 + #slot0 + 1 + 1, 8, 1 do
+		setActive(slot0:findTF("attr_" .. slot18, slot0.attrs), false)
 	end
 
 	removeAllChildren(slot0.starsFrom)
 
-	for slot16 = 1, slot1:getStar(), 1 do
+	for slot18 = 1, slot1:getStar(), 1 do
 		cloneTplTo(slot0.starTpl, slot0.starsFrom)
 	end
 
@@ -374,7 +378,7 @@ function slot0.updateBreakOutView(slot0, slot1)
 	removeAllChildren(slot0.starsTo)
 
 	if slot1:getStar() < slot3:getStar() and not slot5 then
-		for slot16 = 1, slot3:getStar(), 1 do
+		for slot18 = 1, slot3:getStar(), 1 do
 			cloneTplTo(slot0.starTpl, slot0.starsTo)
 		end
 	end
@@ -383,10 +387,10 @@ function slot0.updateBreakOutView(slot0, slot1)
 	setActive(slot0.starOpera, slot3:getStar() ~= slot1:getStar())
 
 	if slot0.player.gold < slot0.breakCfg.use_gold then
-		slot13 = "<color=#FB4A2C>" .. slot13 .. "</color>"
+		slot15 = "<color=#FB4A2C>" .. slot15 .. "</color>"
 	end
 
-	setText(slot0.tipActive:Find("text"), slot13)
+	setText(slot0.tipActive:Find("text"), slot15)
 	slot0:initMaterialShips()
 end
 

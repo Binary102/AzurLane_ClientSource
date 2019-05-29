@@ -5617,7 +5617,7 @@ pg.ship_data_breakout = {
 		weapon_ids = {}
 	},
 	[201291] = {
-		use_gold = 500,
+		use_gold = 300,
 		pre_id = 0,
 		use_char_num = 1,
 		use_char = 20129,
@@ -5632,7 +5632,7 @@ pg.ship_data_breakout = {
 		}
 	},
 	[201292] = {
-		use_gold = 1500,
+		use_gold = 800,
 		pre_id = 201291,
 		use_char_num = 1,
 		use_char = 20129,
@@ -5648,7 +5648,7 @@ pg.ship_data_breakout = {
 		}
 	},
 	[201293] = {
-		use_gold = 2500,
+		use_gold = 1500,
 		pre_id = 201292,
 		use_char_num = 2,
 		use_char = 20129,

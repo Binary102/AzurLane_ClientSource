@@ -35723,7 +35723,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "『u73皮肤』-七日任务6——日服",
 		count_inherit = 0,
-		desc = "Resupply snacks in your dorm 3 times.",
+		desc = "Complete 3 Daily Challenges.",
 		target_id_2 = "",
 		sub_type = 26,
 		added_tip = 0,
@@ -35755,7 +35755,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "『u73皮肤』-七日任务1",
 		count_inherit = 0,
-		desc = "Complete battles with an S rating \n10 times",
+		desc = "Complete battles with an S rating 10 times",
 		target_id_2 = "",
 		sub_type = 24,
 		added_tip = 0,
@@ -42616,7 +42616,11 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 			10601,
 			10602,
 			10603,
-			10604
+			10604,
+			10701,
+			10702,
+			10703,
+			10704
 		},
 		open_need = {},
 		award_display = {

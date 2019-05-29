@@ -1312,55 +1312,7 @@ return {
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "您曾经说过，",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "俾斯麦",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "音乐总是能唤起人心中两种截然不同的渴望，一是战争，另一则是田园般的宁静",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "俾斯麦",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "此时此刻",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "俾斯麦",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
-			say = "我终于能感受到宁静的一面了…",
+			say = "至少到最后，铁血的战舰还能选择面对自己的命运…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1373,11 +1325,9 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			nameColor = "#ffde38",
-			say = "铁的纪律与…血的荣耀",
+			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -1425,11 +1375,61 @@ return {
 			}
 		},
 		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "您曾经说过，",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "音乐总是能唤起人心中两种截然不同的渴望，一是战争，另一则是田园般的宁静",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "俾斯麦",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "原来如此",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			say = "我到最后…也没有辜负您的名字…对吧……宰相……大人",
+			actorName = "俾斯麦",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "我终于能感受到宁静的一面了…",
 			flashN = {
 				color = {
 					1,
@@ -1462,6 +1462,11 @@ return {
 					}
 				}
 			},
+			dialogShake = {
+				speed = 0.09,
+				x = 12,
+				number = 2
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1476,7 +1481,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"<size=60>（最后，要是能见你一面就好了…我的……妹妹…………）</size>",
+					"<size=60>（我的妹妹…到最后还是期待能和你们并肩前行呀…）</size>",
 					1
 				}
 			}

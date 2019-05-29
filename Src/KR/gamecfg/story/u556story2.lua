@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"희망의 기사의 맹세!\n\n<size=45>지휘관! 바빠?</size>",
+					"기사의 맹세!\n\n<size=45>지휘관, 바빠?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "한차례 소동이 지난 후, 드디어 본론으로 들어갔다.",
+			say = "힘내서 어질러진 자료들을 원래 자리로 돌려놓았고, 드디어 U-556에게 일상 업무를 가르쳐줄 수 있…… 지 않았다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이제 그녀에게 비서함의 일상 업무를 알려줘야 한지만, 오늘 대기 중인 업무가 평상시보다 많아서 오전에는 지도할 시간이 없었다.",
+			say = "오전 중에는 정리해야 하는 사무 작업이 많다. 아침의 사건도 있고, 가르쳐주는 건 아무리 빨라도 오후가 될 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "흠흠흠~",
+			say = "♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "그녀가 연습 보고서를 보고 있었다. 이렇게 잠시동안만 냅두면...... 별 문제 없겠지?",
+			say = "연습 리포트를 즐겁게 읽고 있는 그녀에겐 미안하지만, 잠시 그대로 내버려두고 일에 집중하기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "（15분 후）",
+			say = "15분 후……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "우우, 너무 지루해. 저번에 분명히 비서함은 쉽고 재밌는 일이라고 들었는데...... 지휘관이랑 같이 놀 수도 있고!",
+			say = "우으, 뭔가 지루해… 비서함 업무는 즐겁고 간단하면서, 지휘관과 놀 수 있는 일이라고 들었는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "맞다, 맞다! 지휘관, 우선 업무는 이따가 하고, 우리 같이 놀러 가자!",
+			say = "저기저기, 지휘관! 일 그만하고 놀러 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "완곡하게 거절하다",
+					content = "아무리 그래도 그건 무리라고 말한다.",
 					flag = 1
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "에에----",
+			say = "엥~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			withoutActorName = true,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "U-556가 실망한 듯 보였다.",
+			say = "U-556은 조금 풀이 죽었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "这些업무가 그렇게 중요해...?",
+			say = "일이 그렇게 중요해…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556는 지휘관과 비서함이 함대에서 얼마나 중요한 역할을 하는지 모르는 것 같다. 그녀는 그저 같이 놀 수 있는 친구라고 생각하려나?",
+			say = "조금 이야기를 나눠 보니, 아무래도 뭔가의 착오로, 지휘관과 비서함의 관계에 대해 거의 놀이 친구라고 착각하고 있던 것 같다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "오전에 자료 넘기려는 의욕은 그래도 칭찬해줘야겠지... 우선 업무의 중요성을 설명해주자.",
+			say = "그래도 아침 일찍부터 집무실에서 자료를 찾아보는 성실함은 높게 평가할 만 하니, 어쨌든 일의 의의부터라도 대충 설명해줄까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "지휘관? 무슨 일이야? 갑자기 엄격한 표정을 짓고......",
+			say = "지휘관? 무슨 일이야? 갑자기 진지한 얼굴을 하고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "그렇구나... 지휘관의 업무에서 벗어나면 항구 전체에 영향을 끼칠 수 있구나. 지휘관의 업무가 원래 이렇게 중요한 거였었네...",
+			say = "그렇구나…… 지휘관과 비서함은 모항의 운영을 집행하고 있어서 일을 안 하면 모두가 평온한 생활을 할 수 없게 된다…… 그렇게나 중요한 일이구나……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "나도 지휘관을 도울래!",
+			say = "나, 지휘관에게 힘이 되고 싶어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556는 나의 뜻을 이해한듯 하다. 이제부터 순탄하게 간단한 업무를 알려줘야겠다.",
+			say = "……우선은 U-556에게 기본 절차를 가르쳤다. 겸사겸사 심부름도 맡겨보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "이걸 상점에 아카시 언니에게 전달해달라고? 알았어!",
+			say = "이걸 상점의 아카시에게 전달하면 되는 거야? 알았어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556가 자료를 들고 문도 닫지 않은채 뛰쳐나갔다.",
+			say = "자료를 받은 U-556은 휙 하고 집무실 밖으로 뛰쳐나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "역시, 열정만 있으면 간단한 업무는 잘 할 수 있어.",
+			say = "의욕은 충분하고, 간단한 심부름 정도라면 문제 없……겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			stopbgm = true,
-			say = "......",
+			say = "……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "결국, 오전 업무가 끝날때까지 U-556는 돌아오지 않았다.",
+			say = "그렇게 생각하고 있었지만, 결국 U-556은 점심이 되어도 돌아오지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

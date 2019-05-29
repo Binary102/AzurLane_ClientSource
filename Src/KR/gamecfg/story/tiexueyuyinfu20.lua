@@ -12,8 +12,8 @@ return {
 			bgName = "bg_bsm_2",
 			dir = 1,
 			bgm = "bsm-5",
-			actorName = "提尔比茨",
-			say = "喂！那边的那个小不点，不许在港区海域胡闹，立刻报上所属！！",
+			actorName = "티르피츠",
+			say = "거기 당신, 모항의 해역에선 장난치면 안 돼. 어디 소속이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "哼哼，伟大的水下骑士——橡叶勋章的获得者，U556正是在下！！",
+			say = "후, 후후후후…… 나는 곡엽 훈장의 수훈자, 바다의 퍼시발이라 일컬어지는 U-556!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "U556向提尔比茨姐姐送上晨间的问候~",
+			say = "티르피츠 언니, 안녕하세요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,11 +57,11 @@ return {
 		},
 		{
 			nameColor = "#ff5c5c",
-			actorName = "提尔比茨",
+			actorName = "티르피츠",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "姐...姐姐…？谁允许你叫我姐姐了！！？",
+			say = "어… 언니……? 대체 왜 날 그렇게…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,27 +73,11 @@ return {
 		},
 		{
 			nameColor = "#ff5c5c",
-			actorName = "提尔比茨",
+			actorName = "티르피츠",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "如果你再胡闹，我就要叫管制部队来收拾你了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ff5c5c",
-			actorName = "U-556",
-			bgName = "bg_bsm_2",
-			side = 2,
-			dir = 1,
-			say = "嘿嘿，管制部队的那班家伙是抓不住幸运的556的",
+			say = "이 이상 소란스럽게 굴면 다른 사람을 부를 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +93,7 @@ return {
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "对了对了，提尔比茨姐姐，来，重复模仿一遍我的动作~",
+			say = "후훙, U-556은 그리 간단히 잡히지 않는다구요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +105,27 @@ return {
 		},
 		{
 			nameColor = "#ff5c5c",
-			actorName = "提尔比茨",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
-			say = "嗯？",
+			say = "아, 모처럼이니까 티르피츠 언니, 이거 따라 해보세요~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			actorName = "티르피츠",
+			bgName = "bg_bsm_2",
+			side = 2,
+			dir = 1,
+			say = "그건?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_2",
 			dir = 1,
-			say = "（只见U556一个倒身翻滚潜入了港口的水里，还是那套滑稽的动作）",
+			say = "장비로 아주 잠깐 몸을 띄우더니, U-556는 첨벙~하고 백 텀블링을 하며 바다로 뛰어들었다.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,8 +154,8 @@ return {
 			side = 2,
 			bgName = "bg_bsm_2",
 			dir = 1,
-			actorName = "提尔比茨",
-			say = "你——别跑！！",
+			actorName = "티르피츠",
+			say = "…………정말!!",
 			effects = {
 				{
 					active = true,
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_bsm_2",
 			dir = 1,
-			say = "（提尔比茨头冒青筋，对着水底下的U556大吼着）",
+			say = "티르피츠는 확성기를 손에 들고 U-556에게 주의를 주기 시작했다.）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ff5c5c",
-			say = "嘻嘻，今天又是556的胜利——",
+			say = "티르피츠 씨, 차가운 사람이라고 들었는데, 저런 표정도 짓는구나……",
 			effects = {
 				{
 					active = false,
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（俾斯麦姐姐，您的妹妹果然跟您有很多相似的地方呢~）",
+			say = "역시 비스마르크 언니랑 닮았네!）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（伟大的水下骑士556，今天也在履行着骑士的誓言！）",
+			say = "자, 그럼, 오늘도 바다의 퍼시발 U-556, 임무 힘내볼까~!）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

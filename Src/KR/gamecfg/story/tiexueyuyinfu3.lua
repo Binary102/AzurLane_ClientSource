@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-1",
 			actor = 403030,
 			nameColor = "#ffde38",
-			say = "雷达有反应，看起来有两只小老鼠跟在我们后面呢~",
+			say = "어머, 쥐새끼가 미행하고 있었네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然被、被发现了！",
+			say = "드, 들켜버렸나요!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊，快，快发电报，发电报！",
+			say = "아와와와, 빨리 타전을!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "俾斯麦，要陪她们玩玩吗？",
+			say = "비스마르크, 잠깐 저 애들이랑 놀고 와도 돼?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			say = "许可交战，赶走她们。",
+			say = "교전을 허가한다. 쫓아버려.",
 			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "但是不要玩过头了，对方应该已经发送我们所在的位置信息了。",
+			say = "……하지만 너무 쫓아 가지는 마. 이쪽 위치는 이미 발각됐으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "要尽力避免继续纠缠下去。",
+			say = "전력의 분산은 가능한 한 피해야 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "了解~准备交火！",
+			say = "후후후, 라져~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

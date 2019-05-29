@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"第六乐章\n\n<size=45>「新生～Der Genesende～」</size>",
+					"<size=45>금단의 힘</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "哈啊啊啊！！————",
+			say = "하아아아아아!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 205050,
-			say = "啧！装甲被——",
+			say = "큭! 장갑이…!",
 			flashN = {
 				color = {
 					1,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "当心！这个不是普通的炮击！",
+			say = "조심해라! 단순한 포격이 아냐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（战列舰的装甲……居然一击就……）",
+			say = "(전함급 장갑조차, 한 방에……!?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "雾气散去后，俾斯麦逐渐出现在视野里，浑身被一道黑色泛红的光芒所围绕着",
+			say = "그곳에 서 있는 건 분명 '그녀'…… 비스마르크다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "散发出一股不祥的气息",
+			say = "그 장비에는 희미한 붉은 빛이 감돌고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "而测试者，早已不知去向",
+			say = "한편, 세이렌 테스터는 어딘가로 사라져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "曾经有个伟人说过",
+			say = "신은 나의 소망을, 들어준다……'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "“这个世界上没有神,假使有的话,我岂能忍受自己不是那个神?所以,这个世界上没有神!”",
+			say = "하지만, 신따위 없다…… 내가, 신이 되지 않는 한…!'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			actor = 205050,
-			say = "终于露出原型了吗，铁血的战舰！",
+			say = "이건…… 세이렌의 힘에 삼켜진 건가…!",
 			flashN = {
 				color = {
 					1,
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "曾经有那么一瞬间，我还以为你有着那么一点属于战士的荣耀",
+			say = "……비스마르크, 진영은 다를지언정, 나는 당신을 존경하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "看来只是我多心了",
+			say = "전함으로서의 성능을 말하는 게 아냐. 메탈 블러드 함대를 통솔하는 카리스마도, 세이렌의 기술을 재빨리 받아들인 그 결단력도 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "皇家舰队从来不畏惧失败和死亡，而你却在最后放弃了身为战舰的尊严",
+			say = "동료를 지키기 위해 자신의 희생도 마다치 않는…… 그 높은 긍지야말로 내가, 그리고 우리 로열 네이비가 동경해왔던 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不论你自诩为神亦或是太阳",
+			say = "만약, 세이렌의 힘이 그 높은 긍지를 앗아간 것이라면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们都会将你和你的阴谋彻底击败！",
+			say = "이 킹 조지 5세가, 명예로운 최후를 선사하도록 하지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这是最后的通牒了，俾斯麦",
+			say = "비스마르크, 이걸로 끝이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "以女王的名义，请你立刻解除武装，与我们返回皇家，接受应有的审判——",
+			say = "저항을 멈춰라. 폐하의 이름에 따라, 당신을 로열에 연행하여 벽람항로를 배신한 심판을 받게 하마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			say = "这就是皇家舰队的做事风格吗？——“水手国王”陛下",
+			say = "당신들 벽람항로에 날 심판할 권리 따윈 없어.",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
@@ -109,7 +109,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "面对有着血海深仇的敌人，还要抑制自己的战斗本能，摆弄这些虚伪的外交辞令",
+			say = "그보다 킹 조지 5세 당신, 사실은 나와 전함으로서 싸워보고 싶을 뿐 아냐? 후드를 상처입혔는지 어쨌는지랑은 상관없이.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "作为新锐战舰的你们，内心其实也期待着一场真正的战斗吧！？",
+			say = "……우아함이니 영광이니, 쓸데없는 이상과 신조를 위해 자신의 바람을 억누르는 그 위선이야말로, 내가 경멸하는 이유야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "哈哈哈，真是令人怀念的称谓啊——",
+			say = "하하하, 과연 메탈 블러드의 리더, 잘 알아맞혔군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "遵于皇家舰队高贵的传统，是皇家每一个成员的本分",
+			say = "하지만 이거 하나는 보장하도록 하지. 우아함과 영광은 우리 로열 네이비의 전통이며 긍지, 당신 말처럼 마음을 억누르기 위한 게 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "女王会给予迷途知返者仁慈，也会赐予敌人毁灭",
+			say = "뭐, 그에 관해선 폐하와 만났을 때 실컷 들려주도록 하고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "我最后再问一次…",
+			say = "마지막으로 한 번 더 묻겠다만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "开火！",
+			say = "Feuer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,6 @@ return {
 		},
 		{
 			seDelay = 1.3,
-			say = "轰————",
 			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
@@ -266,7 +265,7 @@ return {
 			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "近失弹，不用担心，敌舰正在负隅顽抗！",
+			say = "지근탄인가!? 흥, 초탄인데도 제법이군…!",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -289,7 +288,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "看来答案已经很明确了——",
+			say = "그렇다면 원하는 대로……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +304,7 @@ return {
 			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "全舰队自由射击！为了皇家舰队的荣耀，开火！",
+			say = "전 함대, 포격 준비! 로열 네이비의 영광을 위해, 쏴라!",
 			effects = {
 				{
 					name = "paoji_qiaozhiwushi",
@@ -324,7 +323,6 @@ return {
 		},
 		{
 			seDelay = 1.3,
-			say = "轰————",
 			soundeffect = "event:/battle/boom2",
 			effects = {
 				{

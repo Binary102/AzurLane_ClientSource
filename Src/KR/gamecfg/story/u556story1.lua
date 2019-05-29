@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"희망의 기사의 맹세!\n\n<size=45>좋은 아침, 지휘관!</size>",
+					"기사의 맹세!\n\n<size=45>지휘관, 좋은 아침!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "항구",
+			say = "모항",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "평범하고 일반적인 아침.",
+			say = "특별할 것 없는 평범한 아침.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "무언가 특별한 일이 있다고 하면, 오늘은 비서함을 교대하는 날이다.",
+			say = "굳이 말하자면비스마르크 언니…………나는비스마르크 언니………… 오늘은 비서함의 담당이 바뀌는 날이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이름이...... U-556이였지? 엄청 활발한 아이였던 거 같은데...... 비서함 업무를 잘 감당하기만 하면 괜찮지.",
+			say = "새로운 비서함, 분명 U-556이라고 했나. ……전임자의 소개로는 씩씩한 아이라고 하던데. 비서함 업무를 잘 해내 주면 좋겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "지금 시간에는 그녀가 아직 안 왔으니, 먼저 사무실로 돌아가서 자료를 정리하자. 그녀가 돌아오면 다시 상세한 내용을 설명해야겠어......",
+			say = "아직 이르지만… 우선 집무실에 가서 자료 정리라도 해둘까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "문이 열려있다...... 내가 깜빡하고 잠그지 않았었나?",
+			say = "어라? 문이 열려있네……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "사무실 안에 들어갔다",
+			say = "경계하며 집무실에 들어가니……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "원래는 가지런히 책장 안에 꽃혀있어야 할 여러 자료들이 바닥 위에 어지럽혀 있었다.",
+			say = "책장에 꽂혀있었을 터인 자료와 책들이 바닥에 어질러져 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이, 이건 설마, 초자연 현상?!",
+			say = "서, 설마――!?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -208,7 +208,7 @@ return {
 			}
 		},
 		{
-			say = "아, 지휘관! 왔어?",
+			say = "오, 지휘관! 좋은 아침!",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "사무실 뒤에서 조그마한 형체가 나타났다.",
+			say = "작은 체구의 소녀가 안쪽의 집무실 책상에서 얼굴을 내밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "오늘 내가 비서함 교대를 해야 하니깐 엄청 일찍 일어났어!",
+			say = "응, 나야! 오늘부터 내가 비서함을 담당하게 되어서 조금 일찍 일어났어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "사무실이 잠겨있지 않아서 내가 들어왔지! 지휘관이 오기 전에 뭐 도와줄 거 있을까 보러 왔어!",
+			say = "집무실에 오니까 왠지는 모르겠는데 문이 안 잠겨있어서, 지휘관이 올 때까지 내가 도움이 될 수 있는 건 없을까 하고 책을 찾고 있었는데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "그런데 이런 이해하기 어려운 물건들은 아얘 뭔지 모르겠어. 비서함이 이런 자료들을 읽어야 된다는 것은 들어본 적이 없다구......",
+			say = "그런데 읽어도 모르겠는 책 뿐이라서, 비서함은 이거 전부 알아야 하는 건가 하고 조금 걱정이 돼서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			},
 			options = {
 				{
-					content = "그녀를 진정시켰다.",
+					content = "진정시킨다.",
 					flag = 1
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "후...... 후...... 지휘관, 내가 뭘 하면 될까? 오오, 좋아!",
+			say = "하아… 하아… 일 어떻게 하면 되는 지 알려줄 거야? 고마워!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "이 자료들을 원래 자리로 옮겨달라고? 좋아, 나한테 맡겨!",
+			say = "하지만 우선은 자료를 원래대로 정리해달라고? 괜찮아! 맡겨줘~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "U-556은 자신있게 미소를 지었다.",
+			say = "U-556은 자신만만한 미소를 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이 문서는 여기로...... 저거의 위치는......",
+			say = "이 파일은 으음…… 이건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "에? 여기가 아닌 거 같은데? 서, 설마 내가 잘못 기억하고 있는 건가...... 이것도 아니고, 저것도 아니고, 이 원본은 또 도대체 어디......",
+			say = "어라? 여기가 아닌 것 같은데? 호, 혹시 나 잘못하고 있는 거야? 이것도 아냐, 이것도… 이거 원래 어디에 있었더라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "틀렸어, 틀렸어... 엉망이 되버렸네......",
+			say = "어떡해, 모르겠어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "지휘관, 미안해. 저것들의 원래 위치가 어딘지 잊어버렸어......",
+			say = "지휘관, 미안해… 원래 어디에 있었는지 까먹었어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "1분이 채 지나지 않아 U-556은 도와달라는 눈빛을 보냈다.",
+			say = "U-556은 바로 도움을 요청해왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "정식으로 지도를 하기 전부터 처리해야할 업무가 더 많아진 거 같다.",
+			say = "오늘 업무를 시작하기 전에, 우선은 자료를 두는 장소를 알려주도록 하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

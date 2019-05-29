@@ -12,7 +12,7 @@ return {
 			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "该结束这场无聊的闹剧了！",
+			say = "슬슬 끝내주마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "818中队，继续进攻！",
+			say = "놓칠까 보냐! 818중대, 노려라!",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -44,7 +44,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "啧…那个角度…是死角！",
+			say = "큭… 사각에서……!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "回避…来不及了",
+			say = "회피가…… 늦었어……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "左侧转向舵失灵……不，是卡住了吗？",
+			say = "스크류 손상…… 아냐, 장비에 끼었나?",
 			flashN = {
 				color = {
 					1,
@@ -129,7 +129,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "是小瞧了这些双翼机的结果么…",
+			say = "복엽기라고 얕본 탓이네…… 내 불찰이군……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟号通告皇家舰队全军，敌舰俾斯麦已经失去行动能力，重复，敌舰已失去行动能力",
+			say = "주변 로열 네이비 함대에 전한다. 적함 비스마르크는 항행 능력을 잃고 있다! 반복한다, 비스마르크는 항행 능력을 잃고 있다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "位置，布雷斯特以西400里海域，速至增援",
+			say = "지금부터 위치를 타전한다! 지금 바로 증원을!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "放弃无畏的抵抗吧，你现在只是一只受伤的鳟鱼罢了",
+			say = "비스마르크, 아크 로열 말대로 귀함의 항행 능력은 치명적인 손상을 입었습니다. 무의미한 저항은 멈춰주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgm = "bsm-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "俾斯麦号通告司令部",
+			say = "나는, 여기서 끝낼 수는 없다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "莱茵行动已经失败",
+			say = "설령 작전이 실패했다고 해도, 설령 항행 능력을 잃었다고 해도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "我舰已失去行动能力",
+			say = "나에겐 지켜야하는 동료가 있고, 이루고 싶은 꿈이 있다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			soundeffect = "event:/cannon-main-prepared",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "但火炮犹在",
+			say = "나에겐 아직, '그 힘'이 있다……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我舰将战至最后一弹",
+			say = "자아, 포신이 타들어갈 때까지, 포탄이 바닥날 때까지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "铁血高于一切",
+			say = "싸워주마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

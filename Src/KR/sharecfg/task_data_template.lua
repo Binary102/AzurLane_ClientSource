@@ -6678,7 +6678,7 @@ pg.task_data_template = {
 		id = 5006,
 		target_num = 14,
 		fix_task = 0,
-		target_id = "1201",
+		target_id = "7022",
 		open_need = {},
 		award_display = {
 			{
@@ -48294,7 +48294,7 @@ pg.task_data_template = {
 		type = 26,
 		name = "초대자가 획득할 수 있는PT：20",
 		count_inherit = 0,
-		desc = "장비 강화 5회 진행",
+		desc = "함선을 5번 「강화」하라!",
 		target_id_2 = "",
 		sub_type = 34,
 		added_tip = 0,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "终于进入可以面对面的距离了",
+			say = "드디어 여기까지 따라잡혀줬군, 비스마르크.",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "当时你就是用这个武器把胡德击败的，在这个距离上",
+			say = "후드를 상처입혔을 때에는 세이렌의 힘을 이용했다고 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			expression = 1,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "我没说错吧，俾斯麦",
+			say = "그것이 지금의 힘과 어떤 관계인지는 모르겠다만…… 어느 쪽이든 상관 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，我们就在这个距离上击败你，击败你这个失去荣耀的狂信徒！",
+			say = "로열 네이비의 영광을 걸고, 당신을 타도해 보이겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "荣耀…么",
+			say = "로열 네이비의…… 영광……'",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "我……",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "皇家舰队，逢敌必战，开火！",
+			say = "전 함선, 화력 전개!",
 			effects = {
 				{
 					destroy = true,
@@ -141,7 +141,6 @@ return {
 		},
 		{
 			seDelay = 1.3,
-			say = "轰————",
 			soundeffect = "event:/battle/boom2",
 			effects = {
 				{

@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "俾斯麦中弹确认，但仍在高速前进",
+			say = "비스마르크에 명중탄 확인! …아니 근데, 속력이 전혀 줄지 않잖아!",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正在回收舰载机，开始准备下一轮攻击波",
+			say = "공격대를 회수하는 대로, 제2파를 준비할게! 똑똑히 보라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "作为初阵，你的表现很好，胜利！",
+			say = "하하하! 잘했다, 빅토리어스!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -62,7 +62,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 205050,
-			say = "不过这家伙居然在遭到雷击后还能保持全速航行，真是可怕的战斗力",
+			say = "(……하지만, 저런 손상을 입고도 전투 속행은 물론 속력까지 유지할 수 있다니, 무서운 전투력이다.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再拖下去，就要进入维希教廷的领海了，届时战况将对我方不利…",
+			say = "(이대로 비시아쪽 해역으로 도망가면 좀 난감한걸.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 205050,
-			say = "无论如何，必须让目标的速度减慢下来！",
+			say = "(무슨 수를 써서라도, 저 속도를 늦춰야 해…!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到司令部电报，H舰队已经从南方海域赶往拦截目标，预计30分钟后接触",
+			say = "당신 쪽 H 부대, 슬슬 도착했을 거야! 앞으로 30분 후면 적과 조우해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 205050,
-			say = "这下可算是倾巢而出了呀",
+			say = "흠, 로열 네이비의 주력함이 총출동했단 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 205050,
-			say = "赌上皇家舰队的荣耀，绝对不能放走俾斯麦！",
+			say = "왕가의 영광에 걸고…… 반드시 비스마르크를 포착하여, 격파한다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

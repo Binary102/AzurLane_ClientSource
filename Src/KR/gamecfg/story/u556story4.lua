@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"희망의 기사의 맹세!\n\n<size=45>예약했어?</size>",
+					"기사의 맹세!\n\n<size=45>약속했어!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "항구",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556이 비서함을 맡은 첫 날도 꽤나 지났다.",
+			say = "U-556이 비서함 담당이 된 후 시간이 조금 흐른 무렵.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "나의 부단한 노력으로 U-556는 놀고 싶은 충동을 억제하고 일상 업무를 처리할 수 있었다.",
+			say = "놀기만 하려던 첫날의 모습은 완전히 사라지고, 일상의 잡무 정도는 안심하고 맡길 수 있을 정도로 성장했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "하지만 비서함의 업무는 이것뿐만이 아니다. 그녀가 돌아오면 다른 업무도 알려줘야겠어.",
+			say = "자, 오늘은 무엇을 가르칠까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "안녕......",
+			say = "조, 좋은 아침……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556이...... 활기가 없어보인다?",
+			say = "오늘 U-556은 왠지… 기운이 없네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "아, 집중력을 조금 잃었어, 미안...... 오늘 뭐해야돼?",
+			say = "아! 미안! 조금 생각할 게 있어서…… 오늘은 뭐 해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			},
 			options = {
 				{
-					content = "무슨 일이야?",
+					content = "기운이 없는 이유를 묻는다.",
 					flag = 1
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "우우... 역시 지휘관은 못 속이나...... 사실----",
+			say = "하아… 역시 지휘관에게는 감출 수가 없네…… 사실은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "비스마르크 언니! 언니랑 놀러 왔어!",
+			say = "비스마르크 언니! 놀러 왔어!",
 			effects = {
 				{
 					active = true,
@@ -180,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "음? U-556인가.",
+			say = "U-556인가?",
 			side = 1,
 			bgName = "bg_guild_red",
 			dir = 1,
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "미안, 오늘 로열 네이비와 상의해야 할 일이 있어.",
+			say = "미안해, 지금은 로열 네이비와 회의를 해야해. 다음에 보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "비스마르크 언니, 시간 있어?",
+			say = "비스마르크 언니, 지금 시간 있어…?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -253,7 +253,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_guild_red",
-			say = "아.",
+			say = "앗……",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_guild_red",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "보다시피, 다음 연습을 위해 방안을 강구하고 있어서 지금은 좀 바빠.",
+			say = "보다시피, 다음 연습의 계획을 짜고 있어. 당분간은 쉴 시간이 없을 것 같아…… 미안해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "최근에 언니는 자주 바쁘네......",
+			say = "비스마르크 언니, 요새 매일 바빠서…",
 			effects = {
 				{
 					active = false,
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "언니가 메탈 블러드의 리더여서 업무량이 많은 건 알아. 하지만, 언니가 내 곁에 없으면, 조금 쓸쓸해져......",
+			say = "언니는 메탈 블러드의 리더니까 바쁜 건 알겠는데, 언니가 없으면 역시 나, 외로워서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "그렇구나.",
+			say = "과연, 그래서 그런 거군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이런 일이면, 어떻게 해결할 수 있는지 바로 알지.",
+			say = "그렇다면 내가 해줄 수 있는 건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "에? 지휘관...... 다음 휴일은 나와 함께 논다고?",
+			say = "응? 지휘관…… 다음 주 비번인 날에 놀아주는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "진짜로?",
+			say = "저, 정말?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			},
 			options = {
 				{
-					content = "예약했어.",
+					content = "U-556과 약속한다.",
 					flag = 1
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "그, 그럼 예약해! 번복하면 안돼!",
+			say = "그럼 약속이야! 배신하면 안 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "헤헤!",
+			say = "에헤헤♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "우선 그녀가 좀 더 기뻐하도록 해야겠다.",
+			say = "일단은 이걸로 U-556이 조금은 기운을 차렸으면 좋겠는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

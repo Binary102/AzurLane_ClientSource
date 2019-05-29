@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"第一乐章\n\n<size=45>「来世之人～Von den Hinterweltlern～」</size>",
+					"<size=45>서장에서부터 이어짐</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-1",
-			say = "清晨，海域坐标：？？？，？？？",
+			say = "작전 해역【■■■■■】- 새벽",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "威尔士亲王已经往东南方向撤退了，海面上没有敌影",
+			say = "그런 연유로, 후드는 전투 불능이 됐고, 웨일즈는 남동쪽 방면으로 떨어져 있어. 이제 겨우 조용해졌네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可以适当减慢航速了吧，在这样的海况下保持全速航行实在是太勉强了",
+			say = "비스마르크, 속도 좀 늦춰줄래? 이렇게 파도가 거친데 계속 전속력으로 가는 건 좀 힘드네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "再说皇家内部现在应该已经陷入混乱，恐怕也抽不出精力来追击…",
+			say = "지금쯤 로열 네이비는 혼란 상태에 빠져있을 테니까, 추격대가 온다 해도 시간이 걸릴 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			say = "不要轻敌！皇家的舰队不会就此善罢甘休的",
+			say = "적을 얕보지 마. 로열 네이비가 이대로 얌전히 손을 뗄 거라 생각하진 않아.",
 			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
@@ -133,7 +133,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "但是你身上的伤…",
+			say = "너 쪽 손상은 괜찮아? '그 힘'을 썼다곤 해도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "暂时不会造成大问题，跟紧逼而来的威胁相比，这点损伤不值一提",
+			say = "멀쩡해. 다가오는 적에 비하면 이 정도는 별거 아냐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "又在说这种话了",
+			say = "후~응. 또 센 척하긴.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "欧根，听从命令。",
+			say = "오이겐, 대열을 유지해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "不管了~我要休息一下，你就趁机稍微处理一下吧",
+			say = "안~돼. 난 완전 녹초 됐단 말야. 너도 조금은 컨디션 조절하는 게 좋을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "你……",
+			say = "너……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "阻止旗舰乱来也是伴随舰的职责哦~",
+			say = "리더의 무모한 강행을 막는 것도 부하의 책무 아니겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "唯独在辩歪理上，我是无法赢过你的，欧根。",
+			say = "……이럴 때만은 너를 당해내지 못하겠네, 오이겐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "多谢夸奖~",
+			say = "그거 참 송구스럽네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

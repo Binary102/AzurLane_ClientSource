@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"희망의 기사의 맹세!\n\n<size=45>필요없는 짓?</size>",
+					"기사의 맹세!\n\n<size=45>깜짝 놀랐어?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "항구",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "다 끝냈다! 오늘의 일과 완료!",
+			say = "좋아! 오늘 업무는 종료~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "역시 U-556다. 비록 노는 걸 좋아하지만, 이해력은 누구한테 뒤지지 않는다.",
+			say = "U-556은 업무 숙달 속도가 빨라 큰 도움이 된다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "지휘관, 내일이 바로 휴일이야! 저번에 지휘관이 대답을 줬잖아, 내일 우리 해변에서 놀자! 어때?",
+			say = "지휘관, 내일 비번이지?! 요전에 놀아준다고 약속했었지?! 내일 바다 가도 되지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "헤헤, 너무 기대된다!",
+			say = "에헤헤, 기대된다♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "내일 푹 쉬자.",
+			say = "내일 하루는 푹 쉬자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			dir = 1,
-			say = "수긍한다",
+			say = "…………",
 			effects = {
 				{
 					active = true,
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이것은...... 순찰대에서 보낸 구조신호?",
+			say = "이건…… 순찰 중인 함대의 구조 신호?",
 			effects = {
 				{
 					active = false,
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "오늘 순찰대를 맡은 이는...... 설마 무슨 일이 일어났나?",
+			say = "오늘의 당번은…… 비스마르크의 함대에 무슨 일이라도 생긴 건가…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "지휘관? 무슨 일이야?",
+			say = "지휘관…? 무슨 일 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "U-556에게 설명한다",
+					content = "U-556에게 상황을 알려준다.",
 					flag = 1
 				}
 			}
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "에?",
+			say = "뭐…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "기다려, 오늘 순찰대를 맡은 함대는 비스마르크 언니 쪽인데......",
+			say = "잠깐만, 오늘 순찰은 분명 비스마르크 언니하고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "비스마르크 언니와 약속했어, 어떤 일이 일어나도 기필코 도와줄거야! ...... 지휘관, 우리 빨리 가서 확인하자!",
+			say = "나, 무슨 일이 있더라도 반드시 지켜줄 거라고 언니와 약속했어! ……지휘관, 빨리 무슨 상황인지 확인하러 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "말을 마치자, U-556는 여태껏 보지 못한 속도로 사무실에서 나갔다.",
+			say = "U-556은 이제까지 보여준 적 없는 속도로 빠르게 집무실에서 뛰쳐나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "급하게 대기 중인 동료에 타고 U-556와 구조신호의 발생지로 향했다.",
+			say = "바로 대응할 수 있는 함대를 이끌고, 서둘러 U-556과 함께 신호의 발신지로 향했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgm = "story-6",
-			say = "港区周边·演习海域",
+			say = "모항 주변 해역",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -324,7 +324,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "언니, 꼭 무사해야돼......",
+			say = "비스마르크 언니… 무사해야 해…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_battle_night",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "에?... 비스마르크 언니...... 그리고 프린츠 오이겐 언니?",
+			say = "어라? 비스마르크 언니? 그리고 오이겐 씨?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -379,7 +379,7 @@ return {
 			}
 		},
 		{
-			say = "무슨 일인가?",
+			say = "지휘관과 U-556, 그리고 모두…… 무슨 일이야……?",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
@@ -402,7 +402,7 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_battle_night",
-			say = "다행이야...... 언니한테 무슨 일이 생기지 않아서 너무 좋아!",
+			say = "다행이다…… 언니가 무사해서 다행이야……!",
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "도대체 무슨 일이 생긴건가? 지휘관, 이따가 항구로 돌아와서 나한테 설명해줄 수 있어?",
+			say = "대체 무슨 일이야? 지휘관, 모항에 돌아가면서 설명해 주겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "다행이도 모두 안전했다.",
+			say = "그렇게, 모두와 무사하게 합류할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			bgm = "story-2",
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "그렇구나...... 구조신호가 발동됐다고?",
+			say = "흐음, 구조신호 발신장치의 오작동이라……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "이 시스템은 그 당시의 상황을 판단하는 것으로 기억하는데, 고장이 났거나 오판을 했나보네.",
+			say = "이 장치, 시제품이기는 하지만, 아마 자동으로 상황을 판단하는 기능이 달려있었지. 고장이라도 난 걸까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "괜히 놀랐네. 돌아가서 개발부에게 이 시스템을 검사 맡겨야겠다.",
+			say = "나중에 유바리에게 점검을 맡기자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "아무리 그래도, 둘 다 무사하니깐 너무 다행이야.",
+			say = "그런 것 보다, 비스마르크 언니랑 오이겐 씨! 무사해서 다행이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_night",
-			say = "U-556, 우리가 저번에 약속한게 있지만, 난처한 상황에 봉착해도 나는 내 자신을 잘 챙길 수 있어. 너무 걱정하지 마.",
+			say = "그래… 하지만 U-556, 그렇게 약속했다고는 해도, 갑자기 달려오지 않아도 괜찮아.",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "심지어 일반 순찰인데...... 이런 일은 내가 잘 처리할 수 있어.--",
+			say = "지휘관과 신속 대응 함대 전원까지 출격시킨 건… 합리적이지 않아. 내 걱정은 안 해도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "아, 그렇구나. 언니......",
+			say = "그, 그렇지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "맞다, 언니는 메탈 블러드의 최신 전함 중 하나인데, 내가 괜히 걱정했네...... 하하......",
+			say = "그렇네…… 비스마르크는 메탈 블러드의 최강 전함인걸… 내가 무슨 걱정을 한 걸까…… 아하하하……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그럼 나 먼저 갈께.",
+			say = "미안해… 나, 먼저 돌아갈게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "U-556가 실망한 거 같다?",
+			say = "힘없는 목소리였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "비스마르크, 방금 한 말은 좋지 않았어.",
+			say = "지금 건 잘못했네. 비스마르크.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "......",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
-			say = "U-556가 걱정되는 나는, 그녀의 뒤를 따랐다.",
+			say = "U-556이 걱정되어서 그녀를 쫓아가기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

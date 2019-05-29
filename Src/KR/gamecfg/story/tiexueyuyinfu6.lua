@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "这是…航空母舰的舰载机吗",
+			say = "이건… 항모 함재기인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "真可惜…如果齐柏林伯爵能够完成下水的话，战局就不会如此被动了…",
+			say = "그라프 체펠린이 여기 있었다면… 엇차, 약한 소리 하기엔 아직 이른가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "不过，以为这种老式的双翼机就能击沉铁血的战舰的话也未免太小看人了！",
+			say = "이 정도의 공격으로 메탈 블러드의 전함을 가라앉힐 수 있을 거라 생각하지 마라!！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "防空火力展开，击落它们！",
+			say = "대공화력, 적 함재기 공격대에 집중!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "Feuer！",
+			say = "……Feuer!",
 			flashN = {
 				color = {
 					1,

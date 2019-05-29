@@ -35030,7 +35030,7 @@ pg.enemy_data_statistics = {
 	},
 	[361] = {
 		cannon = 0,
-		name = "多塞特郡",
+		name = "도셋셔 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -35177,7 +35177,7 @@ pg.enemy_data_statistics = {
 	},
 	[362] = {
 		cannon = 0,
-		name = "克利夫兰",
+		name = "클리블랜드",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

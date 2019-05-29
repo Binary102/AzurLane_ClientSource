@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "真是坚硬的装甲…14英寸主炮居然也难以击穿",
+			say = "대단히 터프하군… 설마 내 14인치 포조차 모조리 튕겨낼 줄이야…!",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +28,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "对于钢铁的领悟，铁血…可是在皇家之上——",
+			say = "구식 장갑이라도 이 거리라면 방어 성능으로는 내 쪽이 위야! 난전을 유도할 수만 있다면, 아무리 상대가 많다고 해도……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 405010,
-			say = "！来自右舷的炮击！？",
+			say = "우현에서 포격!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "这个火力…难道是——",
+			say = "이 화력…… 설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，逢敌必战！",
+			say = "전함 로드니, 지금부터 엄호하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "赌上Big Seven之名！16英寸主炮瞄准——",
+			say = "자아, 빅 세븐의 화력을 맛보시라구요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开火！",
+			say = "주포, 비스마르크에 화력 전개!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

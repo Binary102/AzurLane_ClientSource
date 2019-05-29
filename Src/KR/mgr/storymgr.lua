@@ -572,46 +572,6 @@ function slot16()
 end
 
 function slot17(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = PLATFORM_CODE
-	slot7 = PLATFORM_KR
-
-	if slot6 == slot7 then
-		slot6 = string
-		slot6 = slot6.find
-		slot7 = slot1
-		slot8 = "TIEXUEYUYINFU"
-		slot6 = slot6(slot7, slot8)
-
-		if slot6 then
-			slot7 = slot0
-			slot6 = slot0.IsPlayed
-			slot8 = slot1
-			slot6 = slot6(slot7, slot8)
-
-			if not slot6 then
-				slot6 = pg
-				slot6 = slot6.m02
-				slot7 = slot6
-				slot6 = slot6.sendNotification
-				slot8 = GAME
-				slot8 = slot8.STORY_UPDATE
-				slot9 = {
-					storyId = slot1
-				}
-
-				slot6(slot7, slot8, slot9)
-			end
-
-			if slot2 then
-				slot6 = slot2
-
-				slot6()
-			end
-
-			return
-		end
-	end
-
 	slot6 = slot0._effectCG
 	slot7 = 1
 	slot6.alpha = slot7

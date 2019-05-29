@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"第五乐章\n\n<size=45>「科学与学习～Von der Wissenschaft～」</size>",
+					"<size=45>균형</size>",
 					1
 				}
 			}
@@ -22,8 +22,8 @@ return {
 			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900011,
-			actorName = "测试者",
-			say = "俾斯麦女士，就算是这样的局面，也不打算使用“那个”吗？",
+			actorName = "테스터",
+			say = "비스마르크, 이렇게 만신창이가 돼선… 이제야 '그 힘'을 쓸 생각이 들었어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "…这里不需要你们插手",
+			say = "끼어들지 마. 이건 우리들의 문제야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "到了最后时刻也还在嘴硬啊。明明只需要一点点的决心，就可以把这些敌人送入海底——",
+			actorName = "테스터",
+			say = "옵저버가 가르쳐줬을 거야. 당신이 마음만 먹는다면, 이 정도 적 따위 간단히 짓밟을 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,55 +70,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我在和胡德战斗后就明白了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#ffde38",
-			side = 2,
-			dir = 1,
-			actor = 405010,
-			say = "那般不公平的对决是不会给我们带来丝毫荣耀的",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#ffde38",
-			side = 2,
-			dir = 1,
-			actor = 405010,
-			say = "无知的我窥探了深渊，却发现深渊也凝视着我——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#ffde38",
-			side = 2,
-			dir = 1,
-			actor = 405010,
-			say = "那个黑色的魔方…正在蚕食着我的心智…",
+			say = "후드와 싸우고나서야 깨달았어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +86,55 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "它在我的脑海中不断的回放着嘈杂的音乐",
+			say = "그래, 당신들 세이렌의 기술을 조금이라도 받아들인 내가 얼마나 어리석었는지 말야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#ffde38",
+			side = 2,
+			dir = 1,
+			actor = 405010,
+			say = "그 힘'만은 결코 우리들… 아니, 인류의 손으로 어찌할 수 있는 게 아냐.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#ffde38",
+			side = 2,
+			dir = 1,
+			actor = 405010,
+			say = "폐허, 잔해, 연기, 불꽃, 비명, 붉은 피, 살육으로 가득 찬 검은 바다……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#ffde38",
+			side = 2,
+			dir = 1,
+			actor = 405010,
+			say = "저 '큐브'가 보여준 끔찍한 광경의 연속이야말로, '그 힘'의 근원이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "它让我变得极端，变得疯狂",
+			say = "이대로라면, 나는 나 자신을 잃고, 당신들이 원하는 병기가 되어버려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -182,7 +182,7 @@ return {
 			expression = 3,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "我让欧根提前离开，因为我不知道接下来会发生什么",
+			say = "오이겐을 먼저 보낸 건, 앞으로 무슨 일이 일어날지 몰랐기 때문이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "但是我知道，是时候结束这一切了",
+			say = "하지만 지금은 확실히 알 수 있어. 난, 여기서 모든 것을 끝낼 거야……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,8 +213,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "汇报记录：第151号测试结果：negative，非关键点，请求指示",
+			actorName = "테스터",
+			say = "터미널에 상황 보고: 테스트 결과 No.151, 네거티브, 특이점에 해당하지 않음, 다음 명령을.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "情况了解，建议执行回收协议——",
+			say = "라져. 회수 프로토콜의 집행을 허가할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,10 +241,9 @@ return {
 		},
 		{
 			stopbgm = true,
-			side = 2,
 			dir = 1,
+			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -292,7 +291,7 @@ return {
 			}
 		},
 		{
-			say = "俾斯麦用最后一门主炮朝着正在发送信号的测试者开火",
+			say = "비스마르크는 테스터에게 포문을 향하고 공격을 퍼부었다.",
 			side = 2,
 			dir = 1,
 			bgm = "bsm-1",
@@ -311,7 +310,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "吾之荣耀即忠诚——",
+			say = "나는 메탈 블러드 함대의 비스마르크……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +326,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "我所忠于的不是武器，而是由铁和血所铸成的民族！",
+			say = "메탈 블러드의 동료를 위해, 우리의 적은 내가 모두 쓰러트린다!",
 			effects = {
 				{
 					active = true,
@@ -348,7 +347,7 @@ return {
 			side = 2,
 			actor = 900011,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "…",
 			effects = {
 				{
@@ -370,8 +369,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "请求：修改第151号测试结果，测试目标正朝本机开火",
+			actorName = "테스터",
+			say = "No.151, 테스트 결과 수정. 각성 관측을 개시해 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +385,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "终于发生变动了吗，很好～接下来请尝试执行觉醒流程～",
+			say = "변화 확인. 각성 플로우의 속행을 부탁할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,8 +400,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "了解，根据协议，区域内存在不可控目标，优先确保目标的独立性——",
+			actorName = "테스터",
+			say = "프로토콜에 따라, 구역 내 목표 배제. 각성 대상의 독립성을 확보한다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "罗德尼，报告战损！",
+			say = "로드니, 손상 보고를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已执行紧急损管，虽然A炮塔被摧毁，但仍可作战！",
+			say = "데미지 컨트롤이 먹히고 있습니다! A 포탑은 무력화됐지만, 아직 싸울 수 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +447,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "很好，不论是铁血还是塞壬，不要放过任何一个敌人！",
+			say = "좋아! 세이렌도 메탈 블러드도, 놓치지 않아야 한다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

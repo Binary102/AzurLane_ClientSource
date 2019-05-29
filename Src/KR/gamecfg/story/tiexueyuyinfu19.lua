@@ -13,7 +13,7 @@ return {
 			bgm = "echo-loop",
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "距离信号源越来越近了…这些残骸难道是？",
+			say = "구조 신호가 가까워…… 이 잔해는 설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "不好，果然是俾斯麦姐姐遭遇了危机！！",
+			say = "비스마르크 언니가 위험해!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "水下骑士U556，马力全开！",
+			say = "이대로 있을 순 없어…! U-556, 전속력이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "啊啊啊啊——！",
+			say = "하아아아아아!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "等着我，俾斯麦姐姐！",
+			say = "비스마르크 언니, 기다려줘요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#ffde38",
-			say = "等着我，我一定会守护你的！！",
+			say = "내가 꼭 지켜줄 테니까!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>在涅普顿之前起誓</size>",
+					"<size=60>바다의 신께 맹세합니다.</size>",
 					1.5
 				},
 				{
@@ -148,7 +148,7 @@ return {
 					1.5
 				},
 				{
-					"<size=60>无论在海洋、湖泊、河流还是小溪</size>",
+					"<size=60>바다에서든, 호수에서든, 강에서든 시내에서든,</size>",
 					4.5
 				},
 				{
@@ -156,7 +156,7 @@ return {
 					4.5
 				},
 				{
-					"<size=60>U556都将帮助她的姐姐俾斯麦击退所有飞机和鱼雷的攻击</size>",
+					"<size=60>온갖 비행기와 어뢰로부터 비스마르크 언니를 지키고,</size>",
 					7.5
 				},
 				{
@@ -164,7 +164,7 @@ return {
 					7.5
 				},
 				{
-					"<size=60>无论在任何地方，如果俾斯麦姐姐不幸受伤</size>",
+					"<size=60>비스마르크 언니가 혹시라도 다친다면</size>",
 					10.5
 				},
 				{
@@ -172,7 +172,7 @@ return {
 					10.5
 				},
 				{
-					"<size=60>哪怕是用拖，U556也要把她的姐姐拖回港口</size>",
+					"<size=60>언제 어디서든 달려와, 억지로 끌고서라도 모항에 데려오겠습니다.</size>",
 					13.5
 				},
 				{
@@ -180,7 +180,7 @@ return {
 					13.5
 				},
 				{
-					"<size=60>                                                         ——水下骑士U556</size>",
+					"<size=60>                                                         ……바다의 퍼시발, U-556.</size>",
 					18
 				}
 			}

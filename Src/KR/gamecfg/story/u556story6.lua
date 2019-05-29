@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"희망의 기사의 맹세!\n\n<size=45>거만한 맹세</size>",
+					"기사의 맹세!\n\n<size=45>명예로운 맹세</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "항구",
+			say = "모항 - 집무실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -50,7 +50,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "......",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556은 머리를 두 다리로 감싼 채 의자에 앉았다.",
+			say = "침묵이 이어지기를 몇십 분 간.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "시간이 꽤 흐르자, 그녀가 드디어 입을 열었다.",
+			say = "힘없이 소파 위에 웅크리고 있던 U-556이 드디어 입을 열었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgm = "story-2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "지휘관도 알지? 한 번 말한 적 있어, 나랑 비스마르크 언니와의 '약속'.",
+			say = "지휘관도 알고 있지? 내가 비스마르크 언니와 어떤 「약속」을 한걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "어디에 있든, 언니가 위험에 처하면 내가 꼭 가서 언니를 보호하기로.",
+			say = "언니가 위험에 처하면, 언제 어디라도 달려가서 지켜준다는 약속……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "생각해보니까, 이 약속 자체가 조금 이상하지? 잠수함이 전함을 보호한다고. 어떻게 보호할건데, 하하.",
+			say = "잘 생각해보면 이상한 약속이지? 잠수함이 전함을 지킨다니 터무니없잖아… 아하하……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "그리고 나는 매일 이 핑계를 대고 비스마르크 언니를 귀찮게 해......",
+			say = "그런데도 나는 계속 진지하게 생각해서, 비스마르크 언니에게 폐를 끼치고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "나는 역시 너무 제멋대로야.",
+			say = "제멋대로지… 나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "괜찮아, 비스마르크 언니가 말한 적 있어. 안 좋은 습관은 고치기만 하면 된다고. 이제부터 나는 더욱더 열심히 내 임무에 집중할거야. 그래도 당연히 기회가 있으면 언니를 도울꺼야!",
+			say = "아냐, 나쁜 건 고치면 된다고 비스마르크 언니가 말했어…… 지휘관, 미안해! 나, 지휘관… 비스마르크 언니의 도움이 될 수 있게, 더 열심히 일할게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "아니...... 미안해야할 사람은 나야.",
+			say = "사과할 건 네가 아니라, 나야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgm = "story-2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "비스마르크 언니?! 왜 여기에 있는거야?",
+			say = "비스마르크 언니!? 어째서 여기에……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "너의 상황이 조금 걱정되서, 솔직히 줄곧 옆에서 보고 있었어. 내가 했던 말이 너를 괴롭게 했구나, 정말 미안해.\t\t\t",
+			say = "지휘관하고 같아. 네가 걱정돼서 왔어. 아까 일은 틀림없는 내 잘못이야. 미안해, U-556",
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "아니, 아니! 어떻게 그렇게 생각할 수 있어. 결국엔 내가 너무 제멋대로 언니를 귀찮게 했잖----",
+			say = "그, 그렇지 않아! 내가 제멋대로 언니에게 폐를 끼쳐서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "아니. 한 번도 그런 생각한 적 없어.",
+			say = "폐 같은 게 아니야. 네가 해온 것들, 전부.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "사실, 나도 U-556와 대화하는 걸 좋아해. 같이 있으면 잠시 나의 신분을 내려놓고 친구의 신분으로 이야기를 할 수 있어.",
+			say = "U-556과 이야기를 하면 즐거워. 내가 메탈 블러드 함대의 리더일 필요가 없을 때는… 그렇지, 너나 티르피츠와 같이 있을 때 뿐이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"나 역시 엄청 단순한 캐릭터였어\", U-556는 자주 내게 이런 느낌을 줬거든.",
+			say = "너와 같이 있을 때면 항상 생각해. 「나, 이렇게 솔직하게 행동해도 되는구나」라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그리고, 너가 그렇게 물불 안 가리고 나올 줄 몰랐어. 장난으로 한 약속을 위해서......",
+			say = "다만, 가끔 놀라. 그 약속을 위해 이렇게까지 해 주는구나 하고. 네가 다른 사람에게 폐를 끼치지 않는 성실한 아이란 걸 알고 있는데도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "너는 다른 사람에게 불편을 주는 아이가 아니야. 오히려 약속을 굳건하게 지키는, 존경 받아 마땅한 기사야. 내 자신이 부끄러워져, 너를 완전히 이해하지 못 했었어. 미안해.",
+			say = "오히려, 그런 너의 마음을 솔직하게 헤아려주지 못한 내가 나빴어. 그럼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "비스마르크가 갑자기 일어서, 목청껏 소리 질렀다.",
+			say = "늠름한 표정으로, 비스마르크는 소녀에게 맹세의 복창을 요구했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "U-556!",
+			say = "U-556! 고귀한 퍼시발의 이름 아래 나에게 맹세를 바쳐라!令人尊敬的水下骑士啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "만약 내가 위험에 처하면, 나를 도와주러 오겠니? 자신도 돌아설 수 없는 길을 걷게 될 수 있어도?",
+			say = "어떤 국면에서도, 너 자신이 위험에 처한다고 해도, 나를 지켜낼 각오가 되어 있나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "U-556는 순간적으로 멍해졌다. 이내 아름다운 미소를 지었다.",
+			say = "그 대답은 물론……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			blackBg = true,
 			actor = 408040,
 			nameColor = "#a9f548",
-			say = "응! 무엇을 만나든 나는 무조건 비스마르크 언니를 도울거야!",
+			say = "네! 언제 어디서라도 이 U-556, 당신을 지키겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

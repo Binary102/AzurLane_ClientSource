@@ -5004,11 +5004,11 @@ pg.gametip = {
 		key = "number_2"
 	},
 	number_3 = {
-		tip = "",
+		tip = "3",
 		key = "number_3"
 	},
 	number_4 = {
-		tip = "",
+		tip = "4",
 		key = "number_4"
 	},
 	number_5 = {

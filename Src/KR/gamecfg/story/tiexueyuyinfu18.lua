@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-9",
 			actor = 405010,
 			nameColor = "#ff5c5c",
-			say = "哈啊…哈啊……啊啊啊————！！！",
+			say = "하아…… 하아…… 하아아아아아아!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 		{
 			side = 0,
 			dir = 1,
-			say = "随着巨大的光圈收束，无数塞壬的舰艇被吸入其中，被碾碎成了粉末",
+			say = "제어를 잃은 힘의 격류가 가까이 있는 양산형 세이렌을 블랙홀처럼 빨아들여, 흔적도 없이 지워버린다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "这是…居然连塞壬的船都被卷进去了？！",
+			say = "세이렌의 함선이… 빨려 들어가고 있어…!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失控了吗！？真是危险的力量！",
+			say = "세이렌의 힘이 폭주하고 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，俾斯麦正在瞄准舰队中心！！",
+			say = "그뿐만이 아냐! 비스마르크가 이쪽을 노리고 있어! 지금 상황에서 직격을 맞는다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 205050,
-			say = "躲不开了..全员准备应对第二次冲击——",
+			say = "큭……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,6 @@ return {
 		},
 		{
 			side = 0,
-			say = "轰——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -250,7 +249,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "怎么，没有受到伤害？…",
+			say = "아무 일도, 일어나지 않았다…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +262,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "（在能量聚集到俾斯麦周边之后，一场巨大的爆炸打断了这一切)",
+			say = "세이렌의 함선도, 파괴의 힘을 휘두르는 빛도, 전장을 뒤덮은 안개도 마치 처음부터 없었던 것처럼 사라졌다.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +275,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "同时也摧毁了俾斯麦的大半身舰装",
+			say = "로열 네이비 함대에서 멀리 떨어진 장소에, 장비 대부분이 파괴되어, 중상을 입은 비스마르크, 그리고 테스터만이 그곳에 서성이고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +291,7 @@ return {
 			side = 2,
 			dir = 1,
 			expression = 2,
-			say = "呼…呼…这就是",
+			say = "하아… 하아…… 하아…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "这就是…你们的极限吗！！",
+			say = "이게…… 한계, 인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,8 +322,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "居然自己摧毁了自己的主炮，嗯…果然还是没能和魔方完美融合吗",
+			actorName = "테스터",
+			say = "스스로 접속을 끊을 줄은…… 역시 큐브와의 융합이 불충분했나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +339,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "呵呵，没想到…就算是自以为足够坚定的意志…",
+			say = "후후, 분하네…… '그 힘'을 쓰지 않으려고 필사적으로 억눌러도",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +355,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "也有那么一瞬…",
+			say = "결국, 한순간 보인 마음의 나약한 부분에 파고 들어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +371,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "被这股力量给完全侵蚀了…",
+			say = "그 힘에 먹힐 뻔한 거네………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +386,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +402,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "汇报记录：第151号测试结果：测试目标主动脱离活性化状态的元魔方影响，可以初步推定存在成为关键点的潜力，但整体表现未达到目标恕限值…",
+			actorName = "테스터",
+			say = "보고: No.151, 큐브 활성화의 영향을 단독으로 빠져나온 것으로 보아, 특이점이 될 소질이 높은 수준으로 추정. 전체적인 데이터는 목표치에 미달…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +419,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "塞壬，我不知道你们究竟在打着什么算盘…",
+			say = "세이렌, 당신들의 진정한 목적은 지금도 알 수 없지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +435,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "但是，唯独这份荣耀，不容你们玷污!",
+			say = "우리들의 긍지… 인류의 긍지를, 당신들에게 짓밟히게 두진 않아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +466,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "皇家舰队的战士们，虽然我们有着多年的恩怨…但是很可惜",
+			say = "이 싸움, 내가 이대로 질지, 아니면 이길지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "我不能就这样败在你们手下",
+			say = "내가 여기서 가라앉을지, 아니면 살아남아서, 동료들의 곁에 돌아갈지는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +498,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405010,
-			say = "铁血的命运，将由自己把握！",
+			say = "그 운명은, 우리 자신의 힘으로 결정한다……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +514,7 @@ return {
 			expression = 4,
 			dir = 1,
 			nameColor = "#ffde38",
-			say = "Eisen und Blut über alles！",
+			say = "……우리에게 위대한 승리를.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +525,7 @@ return {
 			}
 		},
 		{
-			say = "俾斯麦的最后一门主炮朝着皇家舰队的方向射出了最后一发炮弹",
+			say = "로열 네이비 함대가 있는 방향을 향해, 비스마르크의 마지막 주포가 울려 퍼진다.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -579,7 +578,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "由于测距设备已经被完全摧毁，炮弹偏离了轨道，仅仅在远处炸起了一朵水花",
+			say = "측거 장치도 조준 장치도 거의 완전히 파괴되어선지, 포탄은 로열 네이비의 함선에서 크게 빗나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +593,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…明明已经没法正常的瞄准了，居然还选择反击…",
+			say = "조준도 마음대로 안 되는데, 반격해오다니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +608,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么要如此执着…",
+			say = "대체 어째서 그렇게까지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +624,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我收回之前对你的看法，如果这就是你最后的选择",
+			say = "비스마르크…… 역시 이런 결말을 선택한 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +640,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "我们会用炮火送你一程",
+			say = "맑은 성품이란 바로 이런 걸 두고 하는 말이다. 경의를 담아 최후의 공격을 날려주자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,23 +656,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "皇家舰队全员，集中最后的火力",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = -1,
-			actor = 205050,
-			say = "目标俾斯麦！！",
+			say = "전 함선, 비스마르크에 화력을 집중하라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +672,6 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -737,13 +719,13 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			side = 2,
 			bgName = "bg_bsm_3",
 			dir = 1,
 			bgm = "bsm-6",
 			nameColor = "#ffde38",
-			say = "（…………）",
+			say = "(그런가……)………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,11 +738,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "（…还是没能…达成…我们的夙愿啊……）",
+			say = "(아직은…… 무리인 모양이네……)）",
 			flashN = {
 				color = {
 					1,
@@ -809,11 +791,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（一个能够重新回到大洋的…）",
+			say = "(대양을 제패하는……)）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,11 +807,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "（威严的海军…）",
+			say = "(최강의 해군, 은……)）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,9 +825,9 @@ return {
 			side = 2,
 			bgName = "bg_bsm_5",
 			dir = 1,
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			nameColor = "#ffde38",
-			say = "等一下！",
+			say = "기다려!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -880,12 +862,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "嗯？还有什么问题么，俾斯麦。",
+			say = "아직도 뭔가 궁금한 게 있어? 비스마르크.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,11 +879,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我想知道，在你们所观察到的无数个可能性中，是否存在…",
+			say = "어디까지나 가능성의 얘기야. 당신들이 관측… 아니, 계산할 수 있는 '미래' 중에서, 혹시…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,12 +894,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "并没有哦",
+			say = "없어, 그런 거.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +911,7 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -944,12 +926,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "在绵延数千载的历史长河中，“你”作为个体，不过是沧海一粟",
+			say = "인류 역사라는 데이터는 터무니없이 방대해. 당신의 존재 같은 건 그중에서도 아주 하찮은 한 조각에 불과해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,12 +942,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "太过于渺小，以至于连选择自己命运的权力都不曾拥有",
+			say = "그런 건 일부러 리소스를 소모해가며 계산할 것도 아니고, 애초에 당신이 그런 걸 안다고 해도 아무것도 변하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,12 +958,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "至诞生、至消亡，都不曾拥有",
+			say = "싸우기 위해 태어난 당신은, 싸움 속에서 가라앉는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,12 +974,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "无论“你”能否在那场关键的战斗中幸存，时代的走向都不会改变",
+			say = "그 '재현'의 싸움에서 살아남느냐 마냐와는 상관없이, 그건 결코 변하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1009,7 +991,7 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1025,11 +1007,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "不…你错了。我想知道的并不是关于我的命运。",
+			say = "내가 알고 싶은 건 나 자신에 대한 게 아닌, 메탈 블러드의 '미래'야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,11 +1023,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "而是我的民族、我的人民、我的同僚…我的妹妹",
+			say = "이 세계의 메탈 블러드의 인간들, 나의 동료들…… 그리고, 티르피츠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,11 +1039,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "她们的未来是否拥有获得救赎的可能…",
+			say = "그녀들의 '미래'는 바꿀 수 있는 건가.…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1054,7 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
@@ -1088,12 +1070,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "你可真是个有趣的样本，居然能达成超出我们预测的对话",
+			say = "재밌는 샘플이네, 당신. 내 예측 우선순위에서 가장 낮은 회답을 하다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,12 +1086,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "欲带皇冠必承其重，看来你已经理解了其中的意味呢",
+			say = "그렇네. 만약 방법이 있다고 하면, 그 큰 책임을 짊어진 당신은 어떻게 할 거야? 메탈 블러드 함대의 지도자 씨?呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,11 +1103,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "“要真正体验生命,你必须站在生命之上”",
+			say = "……모든 수단을 동원할 수밖에 없지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,11 +1119,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "我们作为个体的生命在诞生之时便已消亡",
+			say = "전함 비스마르크임과 동시에, 나는 동료들을, '메탈 블러드'를 지키는 존재.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1153,11 +1135,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
-			say = "取而代之的，是一个名为“铁血”的钢铁之躯。",
+			say = "맡은 바를 다하기 위해서라면, 무엇이든 하겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1168,28 +1150,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#ffde38",
-			actorName = "俾斯麦",
-			bgName = "bg_bsm_5",
-			side = 2,
-			dir = 1,
-			say = "铁血终将高于一切",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "去吧，用你渺小而卑微的生命影响世界，去拨动静滞时间的齿轮吧",
+			say = "후후후…… 마음이 바뀌었어. 당신, 어쩌면 '정말로' 운명을 바꿀 수 있을지도 모르겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1200,12 +1166,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "让海涛为你翻滚，让风云为你变色",
+			say = "좋아. 우리들의 힘을 쓰도록 해. 어디 한 번 이 세계를 바꿔 봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,12 +1182,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "届时，渺小的生命便成就了你，你便找到了“另一个自我”",
+			say = "당신이 혹시 '비스마르크'란 존재를 극복할 수 있다면, 그 방법은 자연스레 보일 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1232,12 +1198,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "然后你就能找到答案了——————",
+			say = "우리들은 그 너머에서 당신을 기다리고 있을게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1248,29 +1214,13 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
-			side = 2,
-			bgName = "bg_bsm_5",
-			nameColor = "#ff5c5c",
-			dir = 1,
-			say = "前提是那时候的你能够认可“另一个自我”呢~呵呵呵呵呵———",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			side = 2,
 			dir = 1,
 			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "铁的纪律与…血的荣耀…………",
+			say = "철의 규율과… 피의 명예………………",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -1308,11 +1258,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "至少到最后，铁血的战舰还能选择面对自己的命运…",
+			say = "메탈 블러드의 운명은……… 메탈 블러드가 결정해……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1327,7 +1277,6 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -1376,11 +1325,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "您曾经说过，",
+			say = "………분명 그런 말이 있었지.，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1392,11 +1341,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "音乐总是能唤起人心中两种截然不同的渴望，一是战争，另一则是田园般的宁静",
+			say = "음악은 마음에 다른 감정을 불러일으킨다…… 전장에 있는 듯한 난폭한 격정이든, 논밭에 있는 듯한 청량한 안식이든.」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1408,11 +1357,11 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "原来如此",
+			say = "지금은, 조금 조용한 음악을 듣고 싶어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1425,11 +1374,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_bsm_3",
-			actorName = "俾斯麦",
+			actorName = "비스마르크",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "我终于能感受到宁静的一面了…",
+			say = "어쩌면 나, 조금 지친 걸지도 몰라……",
 			flashN = {
 				color = {
 					1,
@@ -1481,7 +1430,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"<size=60>（我的妹妹…到最后还是期待能和你们并肩前行呀…）</size>",
+					"<size=60>(티르피츠…… 보고 싶어……)）</size>",
 					1
 				}
 			}
@@ -1491,7 +1440,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "这样就…结束了吧",
+			say = "이걸로… 끝, 이네요……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -1538,7 +1487,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……是的，塞壬也消失得无影无踪了，我们取得了最后的胜利",
+			say = "……음, 세이렌도 이 해역에서 사라졌고, 우리들의 승리가 틀림없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1553,7 +1502,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…还真是一场沉重的胜利啊",
+			say = "메탈 블러드, 그리고 세이렌… 힘겨운 승리네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1583,7 +1532,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家舰队的所有成员，今天，我们合众人之力，击败了长久以来威胁着我们的强大敌人",
+			say = "(그 마지막 포격은, 세이렌의 힘을 빌린 게 아닌 비스마르크 자신의 포격이었지)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1598,7 +1547,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这场战斗中，我们的敌人展现出了顽强的战斗精神",
+			say = "(……당신의 각오, 잘 보았다)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1562,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我希望皇家舰队的各位，在未来，在同样被数倍于自己的敌人包围时，能够回忆起今天的战斗",
+			say = "……제군들, 오늘은 잘 싸워주었다. 앞으로 몇 배의 적에게 둘러싸이던, 오늘의 싸움을 기억해줬으면 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1628,7 +1577,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "将皇家舰队的战斗意志贯彻始终",
+			say = "그리고, 우리 로열 네이비의 영광과 전통을 관철해다오.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1643,7 +1592,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "天佑女王——",
+			say = "폐하께 영광을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1657,8 +1606,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "众人",
-			say = "天佑女王——",
+			actorName = "옵저버모두",
+			say = "폐하께 영광을……",
 			effects = {
 				{
 					active = true,
@@ -1685,7 +1634,7 @@ return {
 			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			say = "全员注意，做好必要的损管检查，准备返航！",
+			say = "(바라건대, 비스마르크, 당신과 한 번 더 겨룰 수 있다면…)",
 			effects = {
 				{
 					active = false,

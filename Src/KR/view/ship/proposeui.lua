@@ -793,13 +793,14 @@ function slot2(slot0)
 							slot14 = slot14.GetInstance
 							slot14 = slot14()
 							slot15 = slot14
-							slot14 = slot14.ChieseDescTime
+							slot14 = slot14.DescTime
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
-							slot17 = true
+							slot17 = "%Y년%m월%d일"
+							slot18 = true
 
-							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17)))
+							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
 						else
 							slot10 = setText
 							slot11 = slot0
@@ -815,7 +816,7 @@ function slot2(slot0)
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
-							slot17 = "%Y年%m月%d日"
+							slot17 = "%Y년%m월%d일"
 							slot18 = true
 
 							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
@@ -1512,12 +1513,13 @@ function slot2(slot0)
 					slot6 = slot6.GetInstance
 					slot6 = slot6()
 					slot7 = slot6
-					slot6 = slot6.ChieseDescTime
+					slot6 = slot6.DescTime
 					slot8 = slot0.shipVO
 					slot8 = slot8.proposeTime
-					slot9 = true
+					slot9 = "%Y년%m월%d일"
+					slot10 = true
 
-					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9)))
+					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9, slot10)))
 				else
 					slot2 = setText
 					slot3 = slot0.intimacyDesc

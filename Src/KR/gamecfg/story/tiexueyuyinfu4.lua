@@ -11,7 +11,7 @@ return {
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
-			say = "雷达反应消失，小老鼠跑远了",
+			say = "쫓아냈어. 레이더 반응도 사라졌고, 꽤 멀리까지 도망간 모양이네.",
 			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "接下来该怎么办，皇家的主力舰队恐怕很快就会来拦截我们了吧",
+			say = "그럼, 이제 뭐할 거야? 슬슬 로열 네이비 주력 함대가 행차하시는 거 아냐?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#ffde38",
 			side = 0,
 			dir = -1,
-			say = "欧根",
+			say = "오이겐.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "嗯？",
+			say = "……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "莱茵演习已经失败，终止行动，立刻调转航向，返回母港",
+			say = "이쪽 손해는 예상보다 커. 이대로 작전을 속행할 수는 없겠네. 메탈 블러드에 귀환하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "可是，恕我直言，你身上的伤...恐怕坚持不了这么远的航程",
+			say = "하지만… 비스마르크, 정말 괜찮은 거야? 이대로 직행한다 해도 상당히 먼 거리야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "我的意思是...让你独自返航，我另有打算",
+			say = "넌 그대로 귀환하도록 해. 난 다른 경로를 탈게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "是要我抛下你吗？这听起来可不像是个好主意",
+			say = "혼자서 돌아갈 셈이야? 별로 좋은 생각은 아닌 것 같은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			expression = 3,
 			dir = -1,
 			nameColor = "#ffde38",
-			say = "这附近有盟友控制的海域，只要能到达那里，就算是皇家舰队也不敢贸然追击",
+			say = "동맹의 세력 하에 있는 해역이 있어. 거기 도착한다면 로열 네이비라해도 간단히 손댈 수는 없을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "维希教廷么...原来如此",
+			say = "비시아말인가…… 뭐야, 역시 생각은 똑바로 하고 있잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "希望你能尊重我的命令，这次可容不得你任性了，欧根",
+			say = "……명령 엄수해. 더 이상 제멋대로 구는 건 용납할 수 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我…",
+			say = "………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "我明白了，现在是非常时期，对吧？",
+			say = "알았어. 지금은 비상시니까, 그치?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "那就立刻启程，不要耽误时间。",
+			say = "시간 없으니까, 바로 출발해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "从现在开始，就是和时间赛跑的战斗了。",
+			say = "그리고 전속력으로 가. 안전한 해역에 도착하기 전까진 멈추지 말아줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#ffde38",
 			dir = -1,
-			say = "直到抵达安全海域之前都不能停下脚步。",
+			say = "한 번 더 말할게. 이건 메탈 블러드 함대의 리더로서의 명령이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "欧根亲王号重巡洋舰遵命。祝你好运，俾斯麦",
+			say = "라져. 행운을 빌게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 405010,
-			say = "祝你好运",
+			say = "그쪽이야말로 무운을.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			side = 0,
 			dir = -1,
 			blackBg = true,
-			actorName = "俾斯麦",
-			say = "Eisen und Blut über alles！",
+			actorName = "비스마르크",
+			say = "……메탈 블러드에, 위대한 영광을!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actorName = "欧根亲王",
+			actorName = "프린츠 오이겐",
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "Eisen und Blut über alles！",
+			say = "……메탈 블러드에 빛나는 미래를!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

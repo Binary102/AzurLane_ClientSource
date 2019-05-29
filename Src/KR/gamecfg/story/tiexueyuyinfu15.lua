@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，声望号战列巡洋舰加入战斗！开火",
+			say = "순양전함 리나운, 전투에 참가합니다! 쏴라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，皇家方舟号航空母舰加入战斗！",
+			say = "항공모함 아크 로열, 간다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队，胜利号装甲航母！",
+			say = "마찬가지로, 항공모함 빅토리어스!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,8 +110,8 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			actor = 207040,
-			actorName = "胜利&皇家方舟",
-			say = "剑鱼出击！",
+			actorName = "항공모함들",
+			say = "소드피쉬 대, 발진!",
 			subActors = {
 				{
 					actor = 207020,
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "制空权就拜托你们了！！我和罗德尼会找机会击穿它们的护盾！不要放过任何一个敌人！",
+			say = "제공권을 부탁해! 나는 로드니와 함께 녀석의 수비를 뚫는 데에 집중하겠다! 단 한 척의 적도 놓치지 마라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "皇家的孩子们，你们这样一拥而上的样子可一点也称不上“优雅”呀",
+			actorName = "테스터",
+			say = "흥, 이런 싸움, 전혀 우아하지 않네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,8 +212,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "甚至连一点战术都没…",
+			actorName = "테스터",
+			say = "전술도 뭣도 없이, 그저 밀어붙일 뿐이잖아……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "（情况似乎有点反常，所有单位的热量都超出了常规范围）",
+			actorName = "테스터",
+			say = "(옵저버의 센서만큼은 아니지만, 이쪽도 열량 관측치가 정상이 아냐)）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "（难道是被活性化的魔方影响了吗）",
+			actorName = "테스터",
+			say = "(비스마르크에게 건넨 '큐브'의 영향인가……?)）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,8 +322,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "终端，你看到这里的情况了吗",
+			actorName = "테스터",
+			say = "터미널, 관측 데이터 제공을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "请求进行元魔方的活性化测试——",
+			actorName = "테스터",
+			say = "큐브의 활성화 테스트 진행을 신청한다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "呲呲呲——",
+			say = "■■■■■■■■■■■■■■……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,8 +415,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "信号…被阻断了吗？",
+			actorName = "테스터",
+			say = "(통신이……… 차단됐어……?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "无论如何，这是个难得的好机会…如果可以收集到更多关于元魔方的数据的话——",
+			actorName = "테스터",
+			say = "(뭐어, 좋은 기회이기도 하고… '큐브'의 테스트 데이터를 좀 더 모을 수 있겠네)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬的动作慢下来了，不要放过这个机会，全力进攻！",
+			say = "세이렌의 움직임이 둔해졌다! 전력으로 공격하라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,8 +524,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "很好，能量等级还在进一步上升…来吧，尽情发泄你们的愤怒吧！",
+			actorName = "테스터",
+			say = "(에너지 레벨, 계속 상승… 후후후, 그 분노와 화력을 더 부딪혀 줘……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,10 +537,9 @@ return {
 		},
 		{
 			soundeffect = "event:/battle/boom2",
-			side = 2,
 			dir = 1,
+			side = 2,
 			bgm = "bsm-3",
-			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -589,7 +588,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "皇家舰队不断的攻击着俾斯麦和塞壬，炮弹和鱼雷激起的水柱冲天而上",
+			say = "격렬한 굉음.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -636,7 +635,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "洒落而下的水珠在遇到一股巨大的能量流后瞬间蒸发成了水蒸气",
+			say = "세이렌, 그리고 비스마르크를 덮친 포화는 무수한 물보라를 만들었다. 그리고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +648,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "整个战场逐渐被白雾所笼罩",
+			say = "마치 불꽃에 닿은 것처럼 물보라가 한순간에 증발하여, 전장은 안개에 휩싸였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +663,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "周边突然出现不明气象！这片白雾不仅影响了光学影像，舰载机的视野也……目前无法观测到俾斯麦！",
+			say = "이 안개…… 함재기의 시야도, 관측 장치의 데이터도, 아무것도 보이지 않는다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +678,7 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
+			actorName = "테스터",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +694,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "人类进化发展的历史…便是科技与学习的历史",
+			actorName = "테스터",
+			say = "인간의 역사란 기술에 의한 진화의 역사……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +710,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "为了学习，一切的牺牲都是值得的——",
+			actorName = "테스터",
+			say = "진화를 위해서라면, 그 어떠한 희생이라도……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这种不祥的预感...难道…",
+			say = "……설마…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -742,7 +741,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "全员！紧急回避！！",
+			say = "긴급 회피!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +758,6 @@ return {
 			dir = 1,
 			actorScale = 0,
 			actor = 205050,
-			say = "(唰——------)",
 			flashN = {
 				color = {
 					1,
@@ -802,7 +800,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一道强烈的光束穿透了水雾，划出了一条巨大的气流隧道",
+			say = "고열을 머금은 하얀 빛이, 전장을 가린 안개를 찢어발겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +813,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "巨大的光束，瞬间穿透了乔治五世的装甲区，留下了一个巨大的融洞",
+			say = "빛을 쏜 것이, '그녀'일 줄은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +829,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "俾斯麦，你终究还是…",
+			say = "비스마르크……! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +845,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "全员注意，保持一级战斗戒备！",
+			say = "전 함대, 전투 배치!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10315,14 +10315,14 @@ pg.shop_template = {
 		num = 1,
 		isHX = 0,
 		showInAudit = 0,
-		discount = 0,
+		discount = 10,
 		resource_type = 14,
 		id = 70071,
 		genre = "skin_shop",
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11470,7 +11470,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11521,7 +11521,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11572,7 +11572,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11623,7 +11623,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11674,7 +11674,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11725,7 +11725,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11776,7 +11776,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11827,7 +11827,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11878,7 +11878,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11929,7 +11929,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},
@@ -11980,7 +11980,7 @@ pg.shop_template = {
 		discount_time = {
 			{
 				{
-					2015,
+					2019,
 					5,
 					24
 				},

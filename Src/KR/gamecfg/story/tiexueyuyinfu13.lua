@@ -9,12 +9,11 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "bsm-3",
 			nameColor = "#ffde38",
-			say = "轰——",
+			seDelay = 1.3,
 			effects = {
 				{
 					active = true,
@@ -73,7 +72,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "这才是——",
+			say = "아직이야!",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -93,11 +92,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "轰——",
+			seDelay = 1.3,
 			effects = {
 				{
 					active = true,
@@ -156,7 +154,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "铁血战舰——",
+			say = "전함의 포격전에서!",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -176,10 +174,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			seDelay = 1.3,
 			effects = {
 				{
 					active = true,
@@ -238,7 +235,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "所期待的——",
+			say = "가라앉는 건…!",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -258,10 +255,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			seDelay = 1.3,
 			effects = {
 				{
 					active = true,
@@ -320,7 +316,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "一生只有一次的战斗！",
+			say = "메탈 블러드 전함으로서 바라던 바야!",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -340,10 +336,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰——",
+			seDelay = 1.3,
 			effects = {
 				{
 					active = true,
@@ -402,7 +397,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			say = "可恶..朵拉炮塔被击毁了！？",
+			say = "큭…! 도라 포탑이!?",
 			effects = {
 				{
 					name = "paoji_bisimai",
@@ -424,7 +419,7 @@ return {
 			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "战斗陷入被动了吗…",
+			say = "이제 한계인가……!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +434,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "瞄准舰桥，全火炮——",
+			say = "함교에 조준, 전 포문……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,11 +445,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			say = "轰————",
+			dir = 1,
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -506,7 +500,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！！来自视距外的炮击！？",
+			say = "꺅!? 시야 밖에서 포격!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +515,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…这是…来自海面以下的炮击！！",
+			say = "아냐… 이건… 설마, 이럴 수가!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +530,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各舰注意，海域内存在其他不明目标，全员警戒！",
+			say = "조지, 전 함선에 후퇴 명령을 내려주세요! 세이렌이에요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,8 +546,8 @@ return {
 			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900011,
-			actorName = "测试者",
-			say = "好了好了，皇家舰队的各位",
+			actorName = "테스터",
+			say = "거기까지야, 로열 네이비.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,8 +562,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "测试者",
-			say = "再这样打下去，测试样本要是就这样被弄坏了，会给我们增添很多麻烦的",
+			actorName = "테스터",
+			say = "이대로 샘플을 망가뜨리는 건 민폐라고. 물러나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +578,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬？！居然出现在这个关键时刻",
+			say = "세이렌!? 이런 때에…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +593,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "皇家舰队，重新组织阵型，准备迎敌！",
+			say = "전 함대, 일단 후퇴하여 진형을 정비하라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

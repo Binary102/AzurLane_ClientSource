@@ -19466,6 +19466,69 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
+	[19887] = {
+		range_offset = 10,
+		modle_ID = "xingxingzidan02",
+		type = 2,
+		antisub_enhancement = 0.5,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "ShellHit",
+		range = 100,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 19887,
+		velocity = 10,
+		damage_type = {
+			1.2,
+			0.6,
+			0.6
+		},
+		DMG_font = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				0.8
+			},
+			{
+				4,
+				0.7
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 15
+		},
+		attach_buff = {},
+		extra_param = {
+			gravity = -0.4,
+			randomOffsetX = 8,
+			randomOffsetZ = 8,
+			diveFilter = {}
+		},
+		push_power = {}
+	},
 	[19900] = {
 		range_offset = 10,
 		modle_ID = "Bullet1",
@@ -97566,6 +97629,7 @@ pg.bullet_template = {
 		19884,
 		19885,
 		19886,
+		19887,
 		19900,
 		19901,
 		19902,

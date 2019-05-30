@@ -164,6 +164,16 @@ function slot2(slot0)
 		slot3 = slot1
 		slot2 = slot2(slot3)
 		slot0.bgName = slot2
+		slot2 = slot0.bgName
+
+		if not slot2 then
+			slot2 = Nation
+			slot2 = slot2.Nation2BG
+			slot3 = 0
+			slot2 = slot2(slot3)
+			slot0.bgName = slot2
+		end
+
 		slot2 = setActive
 		slot3 = slot0.skipBtn
 		slot4 = true

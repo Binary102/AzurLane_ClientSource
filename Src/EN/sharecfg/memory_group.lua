@@ -705,6 +705,21 @@ pg.memory_group = {
 			817
 		}
 	},
+	[159] = {
+		title = "A Prayer for Peace ",
+		type = 2,
+		id = 159,
+		icon = "title_event",
+		memories = {
+			818,
+			819,
+			820,
+			821,
+			822,
+			823,
+			824
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1106,6 +1121,7 @@ pg.memory_group = {
 		156,
 		157,
 		158,
+		159,
 		501,
 		502,
 		503,

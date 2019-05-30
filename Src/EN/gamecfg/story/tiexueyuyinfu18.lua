@@ -149,7 +149,7 @@ return {
 		},
 		{
 			side = 0,
-			say = "Booomm————",
+			say = "Boom——",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -188,7 +188,7 @@ return {
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
 			actor = 205050,
-			say = "......",
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -263,7 +263,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "(Instead of unleashing all the energy she had stored, Bismarck dissipated it in a huge explosion.))",
+			say = "(Instead of unleashing all the energy she had stored, Bismarck dissipated it in a huge explosion.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "Tester",
-			say = "......",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			nameColor = "#ffde38",
 			dir = 1,
-			say = "......",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,23 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 205050,
-			say = "All members of the Royal Navy, focus all of your firepower upon Bismarck!",
+			say = "All members of the Royal Navy",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = -1,
+			actor = 205050,
+			say = "Focus all of your firepower upon Bismarck!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +689,7 @@ return {
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "Booomm————",
+			say = "Boom——",
 			flashN = {
 				color = {
 					1,
@@ -727,7 +743,7 @@ return {
 			dir = 1,
 			bgm = "bsm-6",
 			nameColor = "#ffde38",
-			say = "……",
+			say = "（…………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,18 +825,477 @@ return {
 		},
 		{
 			nameColor = "#ffde38",
-			side = 2,
-			bgName = "bg_bsm_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			actorName = "Bismarck",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
 			say = "(My beloved Iron Blood...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsm_5",
+			dir = 1,
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
+			say = "No... not yet...!",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			effects = {
+				{
+					delay = 2,
+					name = "memoryFog",
+					active = true
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Don't tell me you're having second thoughts now, Bismarck?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Tell me, Siren, of all those infinite possibilities that you saw, were there any that...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Of course not. Not a single one.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "We have been observing humanity for thousands of years. Your existence is but a drop of water in the ocean of data. ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "You are so small, so insignificant. Even if I was to tell you, you do not even have the power to choose your own destiny.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Your only purpose in life was to wage war meaninglessly and sink meaninglessly.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "No matter how many times we re-simulate this battle, the course of history will not change even if you survive.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "You're sorely mistaken",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "What happens to me is of no significance. Tell me what happens to the Iron Blood...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Tell me what happens to our people... to my compatriots... and to my sister.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Tell me if their future can be saved.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "What a pitiful specimen you are. Of all the things you could have asked about, you chose the ones with the lowest priority.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Hypothetically, if there was a way to save your people, would you be able to shoulder that burden, O Great Fleet Leader?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "I would die trying.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "My idea of \"self\" died the day I was given the name of Bismarck. I live only to protect the Iron Blood, and would gladly give my life for my people.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_5",
+			side = 2,
+			dir = 1,
+			say = "Not once have I feared facing my fate.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Hahaha...! I've changed my mind. Let us see you dance once more as you try to turn the cogs of fate by yourself. ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Use our power. Show us how you are able to reshape this world.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "If you are able to transcend your limitations as \"Bismarck\" and become one with your \"alter ego,\" perhaps then you may find your answer...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Observer",
+			side = 2,
+			bgName = "bg_bsm_5",
+			nameColor = "#ff5c5c",
+			dir = 1,
+			say = "Until then... we shall be awaiting your little dance.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Bismarck",
+			side = 2,
+			dir = 1,
+			bgName = "bg_bsm_3",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "Discipline is our Iron, and glory is our Blood.",
+			flashout = {
+				dur = 1,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1.5,
+				dur = 1,
+				alpha = {
+					1,
+					0
+				}
+			},
 			effects = {
 				{
 					active = false,
 					name = "memoryFog"
 				}
 			},
+			dialogShake = {
+				speed = 0.09,
+				x = 12,
+				number = 2
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#ffde38",
+			actorName = "Bismarck",
+			bgName = "bg_bsm_3",
+			side = 2,
+			dir = 1,
+			say = "At long last... we of the Iron Blood are free to choose our own fate...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsm_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "轰——",
 			flashN = {
 				color = {
 					1,
@@ -831,13 +1306,25 @@ return {
 					{
 						0,
 						1,
-						0.5
+						0.2
 					},
 					{
 						1,
 						0,
-						0.5,
-						1
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
 					}
 				}
 			},
@@ -893,22 +1380,6 @@ return {
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
-			say = "At this moment,",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#ffde38",
-			actorName = "Bismarck",
-			bgName = "bg_bsm_3",
-			side = 2,
-			dir = 1,
 			say = "I'm finally able to experience that tranquility...",
 			typewriter = {
 				speed = 0.05,
@@ -926,7 +1397,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			say = "Discipline is our Iron, and glory is our Blood.",
+			say = "Ahh... am I getting... sleepy?",
 			flashN = {
 				color = {
 					1,
@@ -963,53 +1434,6 @@ return {
 				speed = 0.09,
 				x = 12,
 				number = 2
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_bsm_3",
-			say = "In the end, I wasn't able to live up to your name... Chancellor...",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
-			flashN = {
-				color = {
-					1,
-					1,
-					1
-				},
-				alpha = {
-					{
-						0,
-						1,
-						0.2
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.2
-					},
-					{
-						0,
-						1,
-						0.2,
-						0.4
-					},
-					{
-						1,
-						0,
-						0.2,
-						0.6
-					}
-				}
 			},
 			typewriter = {
 				speed = 0.05,
@@ -1082,7 +1506,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……Yes, the Sirens have disappeared without a trace. The victory is ours today.",
+			say = "Yes, the Sirens have disappeared without a trace. The victory is ours today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

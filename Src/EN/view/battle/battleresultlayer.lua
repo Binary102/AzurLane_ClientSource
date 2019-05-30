@@ -533,19 +533,20 @@ function slot0.displayShips(slot0)
 				slot0.flagShipVO = slot15
 			end
 
-			slot39 = findTF(slot29, "dockyard/lv/Text")
-			slot40 = findTF(slot29, "dockyard/lv_bg/levelUpLabel")
-			slot41 = findTF(slot29, "dockyard/lv_bg/levelup")
-			slot42 = findTF(slot30, "exp_text")
-			slot44 = findTF(slot30, "exp_progress").GetComponent(slot43, typeof(Image))
+			slot39 = slot15:getConfig("rarity")
+			slot40 = findTF(slot29, "dockyard/lv/Text")
+			slot41 = findTF(slot29, "dockyard/lv_bg/levelUpLabel")
+			slot42 = findTF(slot29, "dockyard/lv_bg/levelup")
+			slot43 = findTF(slot30, "exp_text")
+			slot45 = findTF(slot30, "exp_progress").GetComponent(slot44, typeof(Image))
 
 			setActive(findTF(slot30, "exp_buff"), slot0.expBuff)
 
 			if slot0.expBuff then
-				setText(slot45, slot0.expBuff:getConfig("name"))
+				setText(slot46, slot0.expBuff:getConfig("name"))
 			end
 
-			function slot46()
+			function slot47()
 				SetActive(SetActive, true)
 
 				slot0 = SetActive
@@ -555,8 +556,8 @@ function slot0.displayShips(slot0)
 				SetActive(SetActive, true.getIntimacy() < true.getIntimacy())
 				SetActive(slot4, true.getIntimacy() < true.getIntimacy():getIntimacy() < true.getIntimacy() < true.getIntimacy():getIntimacy())
 
-				slot1 = getConfigFromLevel1(pg.ship_level, slot3.level).exp
-				slot5.fillAmount = true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy():getExp() / getConfigFromLevel1(pg.ship_level, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level).exp
+				slot1 = getExpByRarityFromLv1(slot5, slot3.level)
+				slot6.fillAmount = true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy():getExp() / getExpByRarityFromLv1(slot5, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level)
 				slot2 = false
 
 				if false then
@@ -569,12 +570,12 @@ function slot0.displayShips(slot0)
 					slot2 = true
 				end
 
-				if slot5.level < true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().getExp() / getConfigFromLevel1(pg.ship_level, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level).exp.level then
+				if slot6.level < true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().getExp() / getExpByRarityFromLv1(slot5, true.getIntimacy() < true.getIntimacy().getIntimacy() < true.getIntimacy() < true.getIntimacy().getIntimacy().level).level then
 					for slot6 = slot2.level, slot3.level - 1, 1 do
-						slot2 = slot2 + getConfigFromLevel1(pg.ship_level, slot6).exp
+						slot2 = slot2 + getExpByRarityFromLv1(slot5, slot6)
 					end
 
-					slot6:PlayAnimation(slot7, 0, (slot2 + slot3:getExp()) - slot2:getExp(), 1, 0, function (slot0)
+					slot7:PlayAnimation(slot8, 0, (slot2 + slot3:getExp()) - slot2:getExp(), 1, 0, function (slot0)
 						setText(slot0, "+" .. math.ceil(slot0))
 
 						return
@@ -637,22 +638,22 @@ function slot0.displayShips(slot0)
 
 				slot2 = math.ceil(slot3:getExp() - slot2:getExp())
 
-				setText(slot8, "+" .. slot2)
+				setText(slot9, "+" .. slot2)
 
 				if slot2.level == slot2:getMaxLevel() then
-					slot5.fillAmount = 1
+					slot6.fillAmount = 1
 
 					return
 				end
 
-				slot6:PlayAnimation(slot7, slot2:getExp() / slot0, slot3:getExp() / slot0, 1, 0, function (slot0)
+				slot7:PlayAnimation(slot8, slot2:getExp() / slot0, slot3:getExp() / slot0, 1, 0, function (slot0)
 					slot0.fillAmount = slot0
 
 					return
 				end)
 			end
 
-			slot27:GetComponent(typeof(DftAniEvent)).SetTriggerEvent(slot47, function (slot0)
+			slot27:GetComponent(typeof(DftAniEvent)).SetTriggerEvent(slot48, function (slot0)
 				slot0()
 
 				return
@@ -732,7 +733,7 @@ function slot0.displayShips(slot0)
 						slot0 = 0
 
 						for slot4 = slot5.level, slot6.level - 1, 1 do
-							slot0 = slot0 + getConfigFromLevel1(pg.ship_level, slot4).exp
+							slot0 = slot0 + getExpByRarityFromLv1(slot11, slot4)
 						end
 
 						setText(slot9, "+" .. (slot0 + slot6:getExp()) - slot6:getExp())
@@ -740,7 +741,7 @@ function slot0.displayShips(slot0)
 						setText(slot9, "+" .. math.ceil(slot6:getExp() - slot6:getExp()))
 					end
 
-					slot10.fillAmount = slot6:getExp() / getConfigFromLevel1(pg.ship_level, slot6.level).exp
+					slot10.fillAmount = slot6:getExp() / getExpByRarityFromLv1(slot11, slot6.level)
 				end
 
 				SetActive(slot3, false)

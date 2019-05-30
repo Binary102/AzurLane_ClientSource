@@ -70,9 +70,120 @@ pg.activity_banner = {
 		}
 	},
 	{
+		type = 2,
+		id = 3,
+		pic = "temp12",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp11",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp10",
+		param = {
+			"scene get boat",
+			{
+				projectName = "light"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		param = "30139",
 		type = 3,
-		id = 3,
+		id = 6,
 		pic = "temp9",
 		time = {
 			{
@@ -103,7 +214,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 7,
 		pic = "temp5",
 		param = {
 			"scene coloring"
@@ -137,7 +248,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
+		id = 8,
 		pic = "temp6",
 		param = {
 			"scene back yard"
@@ -171,7 +282,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 6,
+		id = 9,
 		pic = "temp3",
 		param = {
 			"scene charge",
@@ -209,7 +320,7 @@ pg.activity_banner = {
 	{
 		param = "30132",
 		type = 3,
-		id = 7,
+		id = 10,
 		pic = "temp1",
 		time = {
 			{
@@ -241,7 +352,7 @@ pg.activity_banner = {
 	{
 		param = "30135",
 		type = 3,
-		id = 8,
+		id = 11,
 		pic = "temp13",
 		time = {
 			{
@@ -274,7 +385,7 @@ pg.activity_banner = {
 		param = "0",
 		time = "always",
 		type = 3,
-		id = 9,
+		id = 12,
 		pic = "temp4"
 	},
 	all = {
@@ -286,7 +397,10 @@ pg.activity_banner = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10,
+		11,
+		12
 	}
 }
 

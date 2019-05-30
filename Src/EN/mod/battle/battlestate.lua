@@ -96,6 +96,10 @@ function slot2.IsAutoSubActive()
 	return PlayerPrefs.GetInt("autoSubIsAcitve", 0) == 1
 end
 
+function slot2.ChatUseable(slot0)
+	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot0:GetBattleType() == SYSTEM_DUEL or slot0.IsAutoBotActive())
+end
+
 function slot2.GetState(slot0)
 	return slot0._state
 end

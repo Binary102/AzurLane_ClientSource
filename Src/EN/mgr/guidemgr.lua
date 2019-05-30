@@ -393,47 +393,49 @@ end
 
 slot0.isPlayed = slot7
 
-function slot7(slot0, slot1, slot2, slot3)
-	slot4 = slot0
-	slot4 = slot4.ENABLE_GUIDE
+function slot7(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot0
+	slot5 = slot5.ENABLE_GUIDE
 
-	if not slot4 then
+	if not slot5 then
 		return
 	end
 
-	slot5 = slot0
-	slot4 = slot0.canPlay
-	slot4, slot5 = slot4(slot5)
-	slot6 = print
-	slot7 = "play guide >>"
-	slot8 = slot1
-	slot9 = slot4
+	slot6 = slot0
+	slot5 = slot0.canPlay
+	slot5, slot6 = slot5(slot6)
+	slot7 = print
+	slot8 = "play guide >>"
+	slot9 = slot1
+	slot10 = slot5
 
-	slot6(slot7, slot8, slot9)
+	slot7(slot8, slot9, slot10)
 
-	if slot4 then
-		slot6 = require
-		slot7 = "GameCfg.guide.newguide.segments."
-		slot8 = slot1
-		slot7 = slot7 .. slot8
-		slot6 = slot6(slot7)
-		slot0.currentGuide = slot6
-		slot7 = slot0
-		slot6 = slot0.addDelegateInfo
+	slot0.erroCallback = slot4
 
-		slot6(slot7)
+	if slot5 then
+		slot7 = require
+		slot8 = "GameCfg.guide.newguide.segments."
+		slot9 = slot1
+		slot8 = slot8 .. slot9
+		slot7 = slot7(slot8)
+		slot0.currentGuide = slot7
+		slot8 = slot0
+		slot7 = slot0.addDelegateInfo
 
-		slot6 = Clone
-		slot7 = slot0.currentGuide
-		slot7 = slot7.events
-		slot6 = slot6(slot7)
+		slot7(slot8)
+
+		slot7 = Clone
+		slot8 = slot0.currentGuide
+		slot8 = slot8.events
+		slot7 = slot7(slot8)
 
 		if slot2 then
-			slot7 = _
-			slot7 = slot7.select
-			slot8 = slot6
+			slot8 = _
+			slot8 = slot8.select
+			slot9 = slot7
 
-			function slot9(slot0)
+			function slot10(slot0)
 				slot1 = slot0.code
 
 				if not slot1 then
@@ -472,23 +474,23 @@ function slot7(slot0, slot1, slot2, slot3)
 				end
 			end
 
-			slot7 = slot7(slot8, slot9)
-			slot0.curEvents = slot7
+			slot8 = slot8(slot9, slot10)
+			slot0.curEvents = slot8
 		else
-			slot0.curEvents = slot6
+			slot0.curEvents = slot7
 		end
 
 		slot0:prepareGuider(slot3)
 
-		slot7 = {}
-		slot8, slot9, slot10 = ipairs(slot0.curEvents or {})
+		slot8 = {}
+		slot9, slot10, slot11 = ipairs(slot0.curEvents or {})
 
-		for slot11, slot12 in slot8, slot9, slot10 do
-			slot13 = table
-			slot13 = slot13.insert
-			slot14 = slot7
+		for slot12, slot13 in slot9, slot10, slot11 do
+			slot14 = table
+			slot14 = slot14.insert
+			slot15 = slot8
 
-			function slot15(slot0)
+			function slot16(slot0)
 				function slot1()
 					slot0 = slot0
 					slot0 = slot0.managerState
@@ -503,6 +505,15 @@ function slot7(slot0, slot1, slot2, slot3)
 						slot0 = slot2
 
 						slot0()
+					else
+						slot0 = slot0
+						slot0 = slot0.erroCallback
+
+						slot0()
+
+						slot0 = slot0
+						slot1 = nil
+						slot0.erroCallback = slot1
 					end
 				end
 
@@ -515,17 +526,17 @@ function slot7(slot0, slot1, slot2, slot3)
 				slot2(slot3, slot4, slot5)
 			end
 
-			slot13(slot14, slot15)
+			slot14(slot15, slot16)
 		end
 
-		slot8 = slot0
-		slot8 = slot8.MANAGER_STATE
-		slot8 = slot8.BUSY
-		slot0.managerState = slot8
-		slot8 = seriesAsync
-		slot9 = slot7
+		slot9 = slot0
+		slot9 = slot9.MANAGER_STATE
+		slot9 = slot9.BUSY
+		slot0.managerState = slot9
+		slot9 = seriesAsync
+		slot10 = slot8
 
-		function slot10()
+		function slot11()
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.endGuider
@@ -534,11 +545,11 @@ function slot7(slot0, slot1, slot2, slot3)
 			slot0(slot1, slot2)
 		end
 
-		slot8(slot9, slot10)
+		slot9(slot10, slot11)
 	elseif slot3 then
-		slot6 = slot3
+		slot7 = slot3
 
-		slot6()
+		slot7()
 	end
 end
 

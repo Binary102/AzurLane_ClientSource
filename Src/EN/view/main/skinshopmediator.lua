@@ -11,8 +11,6 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.ON_SHOPPING, function (slot0, slot1, slot2)
-		slot0.contextData.currCard = Clone(slot0.viewComponent.card)
-
 		slot0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
@@ -54,8 +52,8 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SHOPPING_DONE then
-		slot0.viewComponent:setSkins(getProxy(ShipSkinProxy):getSkinList())
-		slot0.viewComponent:onBuyDone()
+		slot0.viewComponent:setSkins(slot4)
+		slot0.viewComponent:onBuyDone(slot3.id)
 		slot0.viewComponent:updateShipRect()
 
 		if (pg.shop_template[slot3.id] and slot5.genre == ShopArgs.SkinShop) or slot5.genre == ShopArgs.SkinShopTimeLimit then

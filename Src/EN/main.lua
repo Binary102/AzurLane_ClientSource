@@ -312,13 +312,7 @@ seriesAsync({
 				pg.GuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.TecToastMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
 				pg.SeriesGuideMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
-				pg.TrophyReminderMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.ToastMgr.GetInstance():Init(slot0)
@@ -329,6 +323,10 @@ seriesAsync({
 	print("loading cost: " .. os.clock() - slot0)
 	CameraUtil.SetOnlyAdaptMainCam(true)
 	VersionMgr.Inst:DestroyUI()
+
+	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
+		Object.Destroy(slot1)
+	end
 
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
 

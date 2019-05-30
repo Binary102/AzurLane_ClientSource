@@ -5993,6 +5993,53 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40905] = {
+		display = "Scherzo Lucky Box contains 1 x random Ship skin, 2019 x Gems, 50 x Cognitive Chips, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		rarity = 4,
+		type = 5,
+		name = "Scherzo Lucky Box ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40905,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[40951] = {
 		display = "Nep's Lucky Bag contains 1 x Nep Ship skin, 3 x Nep Gear skins, 8 x Wisdom Cubes, 4 x Quick Finishers, 100 x Decor Tokens, and 2018 x Gems",
 		rarity = 4,
@@ -6413,6 +6460,28 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 				1,
 				1,
 				3000
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40961] = {
+		display = "1 x Random Ship skin",
+		rarity = 4,
+		type = 5,
+		name = "Skin Box",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40961,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				59905,
+				1
 			}
 		},
 		price = {},
@@ -50561,6 +50630,22 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59130] = {
+		display = "Event: \"Today's Debut✩Tomorrow's Star!\" Friendship Point Reward ",
+		rarity = 2,
+		type = 98,
+		name = "Friendship Points ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59130,
+		icon = "Props/shengdiyagePT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59615] = {
 		display = "用于『回流活动』累计点数获得奖励，活动结束后将会消失",
 		rarity = 2,
@@ -51368,6 +51453,33 @@ Skins and drop rates:
 		replace_item = 0,
 		link_id = 0,
 		id = 59904,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59905] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>8.0%</color>）Bismarck - Beacon of the Iron Blood（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>8.7%</color>）Ark Royal - Guardian of the Ball（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.7%</color>）King George V - Rose's Regalia；
+（<color=#92fc63>12.1%</color>）Z23 - The Banquet's Honor Student；
+（<color=#92fc63>12.1%</color>）Helena - May I Have this Dance?；
+（<color=#92fc63>12.1%</color>）Hornet - Bubbly Anniversary!；
+（<color=#92fc63>12.1%</color>）Yorktown - Evening I Can't Remember；
+（<color=#92fc63>12.1%</color>）Admiral Graf Spee -  A Novel Anniversary；
+（<color=#92fc63>12.1%</color>）Shigure - The Ballroom's Lucky Star；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Ship skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59905,
 		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
@@ -52205,6 +52317,7 @@ Skins and their drop rates:
 		40118,
 		40903,
 		40904,
+		40905,
 		40951,
 		40952,
 		40953,
@@ -52215,6 +52328,7 @@ Skins and their drop rates:
 		40958,
 		40959,
 		40960,
+		40961,
 		41201,
 		41202,
 		41203,
@@ -53091,6 +53205,7 @@ Skins and their drop rates:
 		59126,
 		59128,
 		59129,
+		59130,
 		59615,
 		59750,
 		59751,
@@ -53139,6 +53254,7 @@ Skins and their drop rates:
 		59900,
 		59903,
 		59904,
+		59905,
 		59951,
 		59952,
 		59953,

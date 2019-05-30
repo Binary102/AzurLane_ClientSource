@@ -36,6 +36,7 @@ function slot0.init(slot0)
 	slot0._resourceLayer = slot0:findTF("blur_container/resource_panel")
 	slot0._merchantTip = slot0:findTF("merchant/tip", slot0._map)
 	slot0._tacticTips = slot0:findTF("tip", slot0._tacticRoom)
+	slot0._fountainReminder = slot0:findTF("tip", slot0._fountain)
 	slot0._currentCourseID = slot0.contextData.number
 	slot0._startCourseFlag = slot0.contextData.startCourseFlag
 	slot0.contextData.number = nil
@@ -161,6 +162,7 @@ function slot0.didEnter(slot0)
 	blinkAni(go(slot0:findTF("blur_container/resource_panel/produce/pre_value")), 0.8)
 	blinkAni(go(slot0:findTF("blur_container/resource_panel/store/pre_value")), 0.8)
 	slot0:updateStudents()
+	slot0:updateTrophyReminder()
 end
 
 function slot0.SetPlayerInfo(slot0, slot1, slot2, slot3, slot4)
@@ -194,6 +196,10 @@ end
 
 function slot0.SetCourseInfo(slot0, slot1)
 	slot0._courseVO = slot1
+end
+
+function slot0.SetUnclaimTrophyCount(slot0, slot1)
+	slot0._unclaimTrophyCount = slot1
 end
 
 function slot0.updateMap(slot0)
@@ -644,6 +650,12 @@ function slot0.updateStudents(slot0)
 	end
 
 	slot0:sortStudents()
+
+	return
+end
+
+function slot0.updateTrophyReminder(slot0)
+	setActive(slot0._fountainReminder, slot0._unclaimTrophyCount > 0)
 
 	return
 end

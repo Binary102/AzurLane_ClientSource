@@ -725,8 +725,9 @@ function slot0.handleNotification(slot0, slot1)
 							slot1.viewComponent:popStageStrategy()
 						end
 
-						slot1.viewComponent.levelStageView:updateBombPanel()
-						slot1.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView:tryAutoTrigger()
+						slot1.viewComponent.grid:updateFleets()
+						slot1.viewComponent.grid.updateFleets.viewComponent.levelStageView:updateBombPanel()
+						slot1.viewComponent.grid.updateFleets.viewComponent.levelStageView.updateBombPanel.viewComponent.levelStageView:tryAutoTrigger()
 					end)
 				elseif slot0 == ChapterConst.OpAmbush then
 					slot1.viewComponent.levelStageView:tryAutoTrigger()

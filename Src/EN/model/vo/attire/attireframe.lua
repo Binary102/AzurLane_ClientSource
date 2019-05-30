@@ -3,15 +3,15 @@ slot0.STATE_LOCK = 1
 slot0.STATE_UNLOCKABLE = 2
 slot0.STATE_UNLOCK = 3
 
-function slot0.attireFrameRes(slot0, slot1, slot2)
-	slot3 = slot0.attireInfo[slot2]
+function slot0.attireFrameRes(slot0, slot1, slot2, slot3)
+	slot4 = slot0.attireInfo[slot2]
 
-	if slot2 == AttireConst.TYPE_ICON_FRAME and slot3 == 0 and slot0.propose then
+	if slot2 == AttireConst.TYPE_ICON_FRAME and slot4 == 0 and slot3 then
 		return "propose"
 	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
-		return (slot1 and slot3 .. "_self") or slot3 .. "_other"
+		return (slot1 and slot4 .. "_self") or slot4 .. "_other"
 	else
-		return slot3
+		return slot4
 	end
 end
 

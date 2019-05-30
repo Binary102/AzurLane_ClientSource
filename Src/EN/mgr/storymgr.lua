@@ -1185,6 +1185,13 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 
 							function slot8()
 								slot0 = slot0
+								slot0 = slot0.storyId
+
+								if slot0 == nil then
+									return
+								end
+
+								slot0 = slot0
 								slot1 = nil
 								slot0.typeWriteCallback = slot1
 								slot0 = slot0
@@ -1696,6 +1703,24 @@ function slot17(slot0, slot1, slot2, slot3, slot4)
 
 			slot0(slot1)
 		end
+
+		slot0 = pg
+		slot0 = slot0.CriMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.StopSEUI
+
+		slot0(slot1)
+
+		slot0 = pg
+		slot0 = slot0.CriMgr
+		slot0 = slot0.GetInstance
+		slot0 = slot0()
+		slot1 = slot0
+		slot0 = slot0.StopSEBattle
+
+		slot0(slot1)
 
 		slot0 = slot1
 		slot0 = slot0.skipBtn
@@ -2943,25 +2968,25 @@ function slot17(slot0, slot1)
 				slot2 = Ship
 				slot2 = slot2.SetExpression
 				slot3 = slot0
-				slot4 = paintingName
+				slot4 = slot0
 				slot5 = "default"
 				slot2 = slot2(slot3, slot4, slot5)
-				slot3 = slot0
+				slot3 = slot1
 				slot3 = slot3.expression
 
 				if slot3 then
 					slot3 = GetSpriteFromAtlas
 					slot4 = "paintingface/"
-					slot5 = slot1
-					slot4 = slot4 .. slot5
 					slot5 = slot0
+					slot4 = slot4 .. slot5
+					slot5 = slot1
 					slot5 = slot5.expression
 					slot3 = slot3(slot4, slot5)
 					slot4 = setActive
 					slot5 = slot1
 
 					if not slot2 then
-						slot6 = slot0
+						slot6 = slot1
 						slot6 = slot6.expression
 					end
 
@@ -2982,14 +3007,14 @@ function slot17(slot0, slot1)
 				if slot3 then
 					slot4 = setActive
 					slot5 = slot3
-					slot6 = slot0
+					slot6 = slot1
 					slot6 = slot6.actorShadow
 
 					slot4(slot5, slot6)
 				end
 
 				slot4 = defaultValue
-				slot5 = slot0
+				slot5 = slot1
 				slot5 = slot5.recordPaint
 				slot6 = true
 				slot4 = slot4(slot5, slot6)
@@ -3006,18 +3031,18 @@ function slot17(slot0, slot1)
 					end
 				end
 
-				slot5 = slot0
+				slot5 = slot1
 				slot5 = slot5.actorScale
 
 				if not slot5 then
 					slot5 = 1
 				end
 
-				slot6 = slot0
+				slot6 = slot1
 				slot6 = slot6.dir
 
 				if slot6 then
-					slot6 = slot0
+					slot6 = slot1
 					slot6 = slot6.dir
 					slot7 = 0
 
@@ -3043,11 +3068,11 @@ function slot17(slot0, slot1)
 					slot7 = slot5
 					slot7 = slot7.preStep
 					slot7 = slot7.side
-					slot8 = slot0
+					slot8 = slot1
 					slot8 = slot8.side
 
 					if slot7 == slot8 then
-						slot7 = slot0
+						slot7 = slot1
 						slot7 = slot7.side
 						slot8 = slot3
 						slot8 = slot8.CENTER
@@ -3056,7 +3081,7 @@ function slot17(slot0, slot1)
 							slot7 = slot5
 							slot8 = slot7
 							slot7 = slot7.getTagetActorTF
-							slot9 = slot0
+							slot9 = slot1
 							slot9 = slot9.side
 							slot7, slot8, slot9 = slot7(slot8, slot9)
 							slot10 = setActive
@@ -3076,11 +3101,11 @@ function slot17(slot0, slot1)
 				if slot7 then
 					slot7 = slot3
 					slot7 = slot7.CENTER
-					slot8 = slot0
+					slot8 = slot1
 					slot8 = slot8.side
 
 					if slot7 ~= slot8 then
-						slot7 = slot0
+						slot7 = slot1
 						slot7 = slot7.hideOther
 
 						if not slot7 then
@@ -4630,49 +4655,84 @@ function slot17(slot0, slot1)
 	slot5 = slot1.bgName
 
 	if slot5 then
-		slot5 = slot0._bg
-		slot6 = slot5
-		slot5 = slot5.GetComponent
-		slot7 = typeof
-		slot8 = Image
-		slot5 = slot5(slot6, slot7(slot8))
-		slot6 = Color
-		slot6 = slot6.New
-		slot7 = 1
-		slot8 = 1
-		slot9 = 1
-		slot6 = slot6(slot7, slot8, slot9)
-		slot5.color = slot6
+		slot5 = slot0._bgCG
+		slot6 = 1
+		slot5.alpha = slot6
 		slot5 = setActive
 		slot6 = slot0._subBg
 		slot7 = false
 
 		slot5(slot6, slot7)
 
-		slot5 = LoadSprite
-		slot6 = "bg/"
-		slot7 = slot1.bgName
-		slot6 = slot6 .. slot7
-		slot5 = slot5(slot6)
-		slot6 = slot0.preBg
+		slot5 = setActive
+		slot6 = slot0._bg2
+		slot7 = false
 
-		if slot6 then
-			slot6 = slot0.preBg
-			slot7 = slot1.bgName
+		slot5(slot6, slot7)
 
-			if slot6 ~= slot7 then
-				slot6 = false
-				slot0.interactive = slot6
-				slot6 = slot3
-				slot7 = 1
-				slot8 = 0
-				slot9 = slot4
-				slot10 = 0
+		slot5 = setActive
+		slot6 = slot0._bg1
+		slot7 = false
 
-				function slot11()
+		slot5(slot6, slot7)
+
+		slot5 = slot1.useBg2
+
+		if slot5 then
+			slot5 = slot0._bg2
+
+			if not slot5 then
+				slot5 = slot0._bg1
+			end
+		end
+
+		slot7 = slot5
+		slot6 = slot5.GetComponent
+		slot8 = typeof
+		slot9 = Image
+		slot6 = slot6(slot7, slot8(slot9))
+		slot7 = Color
+		slot7 = slot7.New
+		slot8 = 1
+		slot9 = 1
+		slot10 = 1
+		slot7 = slot7(slot8, slot9, slot10)
+		slot6.color = slot7
+		slot6 = setActive
+		slot7 = slot0._bg
+		slot8 = true
+
+		slot6(slot7, slot8)
+
+		slot6 = setActive
+		slot7 = slot5
+		slot8 = true
+
+		slot6(slot7, slot8)
+
+		slot6 = LoadSprite
+		slot7 = "bg/"
+		slot8 = slot1.bgName
+		slot7 = slot7 .. slot8
+		slot6 = slot6(slot7)
+		slot7 = slot0.preBg
+
+		if slot7 then
+			slot7 = slot0.preBg
+			slot8 = slot1.bgName
+
+			if slot7 ~= slot8 then
+				slot7 = false
+				slot0.interactive = slot7
+				slot7 = slot3
+				slot8 = 1
+				slot9 = 0
+				slot10 = slot4
+				slot11 = 0
+
+				function slot12()
 					slot0 = setImageSprite
 					slot1 = slot0
-					slot1 = slot1._bg
 					slot2 = slot1
 
 					slot0(slot1, slot2)
@@ -4696,29 +4756,39 @@ function slot17(slot0, slot1)
 					return
 				end
 
-				slot6(slot7, slot8, slot9, slot10, slot11)
+				slot7(slot8, slot9, slot10, slot11, slot12)
 			end
 		else
-			slot6 = slot0._bgCG
-			slot7 = 0
-			slot6.alpha = slot7
-			slot6 = setImageSprite
-			slot7 = slot0._bg
-			slot8 = slot5
+			slot7 = slot0.preBg
 
-			slot6(slot7, slot8)
+			if slot7 then
+				slot7 = slot0.preBg
+				slot8 = slot1.bgName
 
-			slot6 = slot3
-			slot7 = 0
-			slot8 = 1
-			slot9 = slot4
-			slot10 = 0
+				if slot7 == slot8 then
+				end
+			else
+				slot7 = slot0._bgCG
+				slot8 = 0
+				slot7.alpha = slot8
+				slot7 = setImageSprite
+				slot8 = slot5
+				slot9 = slot6
 
-			slot6(slot7, slot8, slot9, slot10)
+				slot7(slot8, slot9)
+
+				slot7 = slot3
+				slot8 = 0
+				slot9 = 1
+				slot10 = slot4
+				slot11 = 0
+
+				slot7(slot8, slot9, slot10, slot11)
+			end
 		end
 
-		slot6 = slot1.bgName
-		slot0.preBg = slot6
+		slot7 = slot1.bgName
+		slot0.preBg = slot7
 	end
 
 	slot5 = slot1.bgFade
@@ -5509,16 +5579,12 @@ function slot17(slot0, slot1)
 					slot1 = slot1[slot2]
 
 					if not slot1 then
-						slot2 = PoolMgr
-						slot2 = slot2.GetInstance
-						slot2 = slot2()
-						slot3 = slot2
-						slot2 = slot2.GetUI
+						slot2 = LoadAndInstantiateAsync
+						slot3 = "ui"
 						slot4 = slot1
 						slot4 = slot4.name
-						slot5 = false
 
-						function slot6(slot0)
+						function slot5(slot0)
 							slot1 = slot0
 							slot1 = slot1.name
 							slot0.name = slot1
@@ -5561,7 +5627,7 @@ function slot17(slot0, slot1)
 							return
 						end
 
-						slot2(slot3, slot4, slot5, slot6)
+						slot2(slot3, slot4, slot5)
 					else
 						slot2 = setActive
 						slot3 = slot1[2]

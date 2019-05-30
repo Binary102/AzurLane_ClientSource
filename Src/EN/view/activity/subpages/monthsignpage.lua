@@ -14,10 +14,20 @@ function slot0.OnDataSetting(slot0)
 	end
 
 	slot0.monthDays = pg.TimeMgr.GetInstance():CalcMonthDays(slot0.activity.data1, slot0.activity.data2)
+
+	if tonumber(pg.TimeMgr.GetInstance():DescClientTime(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1] then
+		slot0.specialTag = true
+		slot0.specialDay = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[2]
+	end
 end
 
 function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	if slot0.specialTag then
+	else
+		LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
+	end
 
 	slot0.list = UIItemList.New(slot0.items, slot0.item)
 
@@ -44,12 +54,28 @@ function slot0.OnFirstFlush(slot0)
 			setText(slot2:Find("day/Text"), "Day " .. slot3)
 			setActive(slot2:Find("got"), slot1 + 1 <= #slot0.activity.data1_list)
 			setActive(slot2:Find("today"), slot3 == #slot0.activity.data1_list)
+
+			if slot0.specialTag and slot3 == slot0.specialDay then
+				setActive(slot0:findTF("icon_bg/SpecialFrame", slot2), true)
+			end
 		end
 	end)
 end
 
 function slot0.OnUpdateFlush(slot0)
 	slot0.list:align(slot0.monthDays)
+
+	if slot0.specialTag then
+		slot1 = slot0:findTF("DayNumText")
+
+		if slot0.specialDay - #slot0.activity.data1_list < 0 then
+			slot2 = 0
+		end
+
+		setText(slot1, slot2)
+
+		GetComponent(slot3, "Slider").value = #slot0.activity.data1_list
+	end
 end
 
 function slot0.OnDestroy(slot0)

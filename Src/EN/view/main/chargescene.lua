@@ -768,6 +768,11 @@ function slot0.showItemDetail(slot0, slot1)
 
 		if slot10 then
 			updateDrop(slot0.detailItem, slot5)
+			onButton(slot0, slot0.detailItem, function ()
+				slot0:emit(slot1.ON_DROP, )
+
+				return
+			end, SFX_PANEL)
 
 			slot13, slot14 = contentWrap(slot5.cfg.name, 10, 2)
 
@@ -811,6 +816,12 @@ function slot0.showItemDetail(slot0, slot1)
 		end
 	end
 
+	onButton(slot0, slot0:findTF("back_sign", slot0.detail), function ()
+		SetActive(slot0.detail, false)
+		SetActive:revertDetailBlur()
+
+		return
+	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("button_container/button_cancel", slot0.detailWindow), function ()
 		SetActive(slot0.detail, false)
 		SetActive:revertDetailBlur()

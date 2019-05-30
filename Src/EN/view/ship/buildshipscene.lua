@@ -385,7 +385,9 @@ function slot0.initBuildPanel(slot0)
 
 	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY].parent, slot0.activity and not slot0.activity:isEnd())
 
-	if slot0.activity and not slot0.activity:isEnd() then
+	if slot0.contextData.projectName then
+		slot0.projectName = slot0.contextData.projectName
+	elseif slot0.activity and not slot0.activity:isEnd() then
 		slot0.projectName = slot0.PROJECTS.ACTIVITY
 	elseif BuildShipScene.projectName == slot0.PROJECTS.ACTIVITY then
 		slot0.projectName = slot0.PROJECTS.HEAVY

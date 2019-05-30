@@ -27,12 +27,12 @@ slot1 = {
 }
 slot0.BUFF_TYEP = slot1
 slot1 = {
-	FIFTH = "FIFTH",
-	FIRST = "FIRST",
-	SECNOD = "SECNOD",
-	THIRD = "THIRD",
-	SIXTH = "SIXTH",
-	FOURTH = "FOURTH"
+	"FIRST",
+	"SECNOD",
+	"THIRD",
+	"FOURTH",
+	"FIFTH",
+	"SIXTH"
 }
 slot0.TeamNum = slot1
 
@@ -687,6 +687,8 @@ function slot1(slot0)
 		slot4 = slot0._regularEnFllet
 		slot5 = slot0.TeamNum
 		slot5 = slot5[slot2]
+		slot6 = " FLEET"
+		slot5 = slot5 .. slot6
 
 		slot3(slot4, slot5)
 
@@ -704,6 +706,11 @@ function slot1(slot0)
 		slot5 = slot2
 
 		slot3(slot4, slot5)
+
+		slot3 = slot0.index
+		slot4 = FleetType
+		slot4 = slot4.Normal
+		slot3[slot4] = slot2
 	end
 
 	slot2 = FleetType
@@ -718,6 +725,8 @@ function slot1(slot0)
 		slot4 = slot0._subEnFllet
 		slot5 = slot0.TeamNum
 		slot5 = slot5[slot2]
+		slot6 = " FLEET"
+		slot5 = slot5 .. slot6
 
 		slot3(slot4, slot5)
 
@@ -735,6 +744,11 @@ function slot1(slot0)
 		slot5 = slot2
 
 		slot3(slot4, slot5)
+
+		slot3 = slot0.index
+		slot4 = FleetType
+		slot4 = slot4.Submarine
+		slot3[slot4] = slot2
 	end
 
 	setActive(slot0.btnRegular:Find("on"), slot1 == FleetType.Normal)
@@ -1492,14 +1506,6 @@ function slot1(slot0, slot1)
 								slot1(slot2)
 							end
 
-							slot1 = slot0
-							slot1 = slot1.index
-							slot2 = slot1
-							slot3 = slot2
-							slot2 = slot2.getFleetType
-							slot2 = slot2(slot3)
-							slot3 = slot3
-							slot1[slot2] = slot3
 							slot1 = slot0
 							slot2 = slot1
 							slot1 = slot1.emit

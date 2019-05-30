@@ -5810,7 +5810,7 @@ pg.skill_data_template = {
 		name = "The Unfulfilled Promise",
 		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
 		type = 0,
-		max_level = 0,
+		max_level = 1,
 		id = 6410,
 		system_transform = {},
 		desc_get_add = {},
@@ -5821,7 +5821,7 @@ pg.skill_data_template = {
 		name = "The Unfulfilled Promise",
 		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
 		type = 0,
-		max_level = 0,
+		max_level = 1,
 		id = 6411,
 		system_transform = {},
 		desc_get_add = {},
@@ -5832,7 +5832,7 @@ pg.skill_data_template = {
 		name = "The Unfulfilled Promise",
 		desc = "When equipped by U-556: increases the time she can stay in combat after resurfacing by 4s and increases her ASR by 1. When equipped by Bismarck: decreases the effect the Out of Ammo DMG debuff has on the Main Fleet.",
 		type = 0,
-		max_level = 0,
+		max_level = 1,
 		id = 6415,
 		system_transform = {},
 		desc_get_add = {},
@@ -20708,6 +20708,534 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12220] = {
+		desc_get = "",
+		name = "Youthful Light",
+		desc = "Every 20s: $1 chance to decrease the FP, TRP, and AVI of all enemies by $2 for 10s.",
+		type = 3,
+		max_level = 10,
+		id = 12220,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[12230] = {
+		desc_get = "",
+		name = "Girls' Support",
+		desc = "30.0% chance when an Anti-Air Gun in your fleet fires: increases this ship's AA by $1. Additionally, once per battle, if Li'l Sandy's or Clevelad's HP falls below 40.0%: increases this ship's FP and Accuracy by $1 for 15s. ",
+		type = 2,
+		max_level = 10,
+		id = 12230,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+2.2%"
+				},
+				{
+					"7.2%",
+					"+2.2%"
+				},
+				{
+					"9.4%",
+					"+2.2%"
+				},
+				{
+					"11.6%",
+					"+2.2%"
+				},
+				{
+					"13.8%",
+					"+2.2%"
+				},
+				{
+					"16.0%",
+					"+2.2%"
+				},
+				{
+					"18.2%",
+					"+2.2%"
+				},
+				{
+					"20.4%",
+					"+2.2%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[12240] = {
+		desc_get = "",
+		name = "Calibur's Heart",
+		desc = "When sortied with any Cleveland-class ship: increases this ship's AA by $1 and Accuracy by $2.",
+		type = 3,
+		max_level = 10,
+		id = 12240,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[12250] = {
+		desc_get = "",
+		name = "Calibur's Carrier",
+		desc = "Decreases this ship's DMG taken by $1 when sortied in the frontmost position in the Vanguard. When sortied with Li'l Sandy or Lena: decreases the Main Gun DMG they take by 8.0%.",
+		type = 2,
+		max_level = 10,
+		id = 12250,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[12260] = {
+		desc_get = "",
+		name = "Starlit Debut",
+		desc = "1s after the battle begins: for 30s, increases this ship's FP, TRP, and ASW by $1 and decreases the DMG your fleet takes from enemy aircraft by $2.",
+		type = 3,
+		max_level = 10,
+		id = 12260,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[12270] = {
+		desc_get = "",
+		name = "Sparkling Star",
+		desc = "Every 14s: $1 chance to fire a special barrage. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 12270,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -26752,6 +27280,12 @@ pg.skill_data_template = {
 		12180,
 		12190,
 		12210,
+		12220,
+		12230,
+		12240,
+		12250,
+		12260,
+		12270,
 		18010,
 		18040,
 		18050,

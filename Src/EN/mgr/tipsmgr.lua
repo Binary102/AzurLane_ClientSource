@@ -43,22 +43,29 @@ function pg.TipsMgr.ShowTips(slot0, slot1, slot2, slot3)
 	function slot6(slot0, slot1)
 		slot2 = GetOrAddComponent(slot0, "CanvasGroup")
 
-		LeanTween.scale(slot0, Vector3(0.1, 1.5, 1), 0.1):setDelay(3):setUseEstimatedTime(true)
-		LeanTween.scale(slot0, Vector3.zero, 0.1):setDelay(3.1):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
-			Destroy(Destroy)
-
-			for slot3, slot4 in pairs(Destroy._tipTable) do
-				if slot4 == slot0 then
-					table.remove(slot1._tipTable, slot3)
-				end
+		Timer.New(function ()
+			if IsNil(IsNil) then
+				return
 			end
 
-			slot1._count = slot1._count - 1
+			LeanTween.scale(LeanTween.scale, Vector3(0.1, 1.5, 1), 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
+				LeanTween.scale(LeanTween.scale, Vector3.zero, 0.1):setUseEstimatedTime(true):setOnComplete(System.Action(function ()
+					Destroy(Destroy)
 
-			if slot1._count == 0 then
-				SetActive(slot1._go, false)
-			end
-		end))
+					for slot3, slot4 in pairs(Destroy._tipTable) do
+						if slot4 == slot0 then
+							table.remove(slot1._tipTable, slot3)
+						end
+					end
+
+					slot1._count = slot1._count - 1
+
+					if slot1._count == 0 then
+						SetActive(slot1._go, false)
+					end
+				end))
+			end))
+		end, 3):Start()
 	end
 
 	if slot0._count <= 3 then

@@ -20022,8 +20022,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 444,
-		best_air_dominance = 580,
+		air_dominance = 555,
+		best_air_dominance = 725,
 		id = 1230011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20068,64 +20068,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				65
+				75
 			},
 			{
 				"cannon",
 				1,
-				600
+				700
 			},
 			{
 				"dodge",
 				1,
-				350
+				400
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1230601,
-				15,
+				5,
 				0
 			},
 			{
 				1230602,
-				20,
+				25,
 				0
 			},
 			{
 				1230603,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230604,
-				15,
+				5,
 				0
 			},
 			{
 				1230605,
-				20,
+				25,
 				0
 			},
 			{
 				1230606,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230607,
-				15,
+				5,
 				0
 			},
 			{
 				1230608,
-				20,
+				25,
 				0
 			},
 			{
 				1230609,
-				30,
-				1
+				35,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -20135,7 +20135,7 @@ pg.chapter_template_loop = {
 			1230612
 		},
 		elite_expedition_list = {
-			1230605,
+			1230606,
 			1230608
 		},
 		ai_expedition_list = {
@@ -20527,8 +20527,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 564,
-		best_air_dominance = 736,
+		air_dominance = 705,
+		best_air_dominance = 920,
 		id = 1230012,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20573,64 +20573,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				70
+				80
 			},
 			{
 				"cannon",
 				1,
-				700
+				800
 			},
 			{
 				"dodge",
 				1,
-				420
+				500
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1230701,
-				15,
+				5,
 				0
 			},
 			{
 				1230702,
-				20,
+				25,
 				0
 			},
 			{
 				1230703,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230704,
-				15,
+				5,
 				0
 			},
 			{
 				1230705,
-				20,
+				25,
 				0
 			},
 			{
 				1230706,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230707,
-				15,
+				5,
 				0
 			},
 			{
 				1230708,
-				20,
+				25,
 				0
 			},
 			{
 				1230709,
-				30,
-				1
+				35,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -20640,7 +20640,7 @@ pg.chapter_template_loop = {
 			1230712
 		},
 		elite_expedition_list = {
-			1230705,
+			1230706,
 			1230708
 		},
 		ai_expedition_list = {
@@ -21039,8 +21039,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 700,
-		best_air_dominance = 912,
+		air_dominance = 875,
+		best_air_dominance = 1140,
 		id = 1230013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21085,64 +21085,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				75
+				85
 			},
 			{
 				"cannon",
 				1,
-				800
+				950
 			},
 			{
 				"torpedo",
 				1,
-				950
+				1100
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1230801,
-				15,
+				5,
 				0
 			},
 			{
 				1230802,
-				20,
+				25,
 				0
 			},
 			{
 				1230803,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230804,
-				15,
+				5,
 				0
 			},
 			{
 				1230805,
-				20,
+				25,
 				0
 			},
 			{
 				1230806,
-				30,
-				1
+				35,
+				0
 			},
 			{
 				1230807,
-				15,
+				5,
 				0
 			},
 			{
 				1230808,
-				20,
+				25,
 				0
 			},
 			{
 				1230809,
-				30,
-				1
+				35,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -21152,7 +21152,7 @@ pg.chapter_template_loop = {
 			1230812
 		},
 		elite_expedition_list = {
-			1230805,
+			1230806,
 			1230808
 		},
 		ai_expedition_list = {
@@ -21636,8 +21636,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 760,
-		best_air_dominance = 988,
+		air_dominance = 950,
+		best_air_dominance = 1235,
 		id = 1230014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -21682,64 +21682,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				80
+				90
 			},
 			{
 				"cannon",
 				1,
-				1000
+				1200
 			},
 			{
 				"dodge",
 				1,
-				500
+				600
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1230901,
-				15,
+				2,
 				0
 			},
 			{
 				1230902,
-				20,
+				43,
 				0
 			},
 			{
 				1230903,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1230904,
-				15,
+				2,
 				0
 			},
 			{
 				1230905,
-				20,
+				43,
 				0
 			},
 			{
 				1230906,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1230907,
-				15,
+				2,
 				0
 			},
 			{
 				1230908,
-				20,
+				43,
 				0
 			},
 			{
 				1230909,
-				30,
-				1
+				55,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -21749,8 +21749,8 @@ pg.chapter_template_loop = {
 			1230912
 		},
 		elite_expedition_list = {
-			1230905,
-			1230908
+			1230906,
+			1230909
 		},
 		ai_expedition_list = {
 			1231223,
@@ -22238,8 +22238,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 924,
-		best_air_dominance = 1204,
+		air_dominance = 1155,
+		best_air_dominance = 1505,
 		id = 1230015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22284,64 +22284,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				85
+				95
 			},
 			{
 				"air",
 				1,
-				1100
+				1300
 			},
 			{
 				"antisub",
 				1,
-				500
+				650
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1231001,
-				15,
+				2,
 				0
 			},
 			{
 				1231002,
-				20,
+				43,
 				0
 			},
 			{
 				1231003,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1231004,
-				15,
+				2,
 				0
 			},
 			{
 				1231005,
-				20,
+				43,
 				0
 			},
 			{
 				1231006,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1231007,
-				15,
+				2,
 				0
 			},
 			{
 				1231008,
-				20,
+				43,
 				0
 			},
 			{
 				1231009,
-				30,
-				1
+				55,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -22351,8 +22351,8 @@ pg.chapter_template_loop = {
 			1231012
 		},
 		elite_expedition_list = {
-			1231005,
-			1231008
+			1231006,
+			1231009
 		},
 		ai_expedition_list = {
 			1231234,
@@ -22885,8 +22885,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 1076,
-		best_air_dominance = 1400,
+		air_dominance = 1345,
+		best_air_dominance = 1750,
 		id = 1230016,
 		group_num = 2,
 		enter_story_limit = "",
@@ -22931,64 +22931,64 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				90
+				100
 			},
 			{
 				"cannon",
 				1,
-				1200
+				1500
 			},
 			{
 				"torpedo",
 				1,
-				1000
+				1400
 			}
 		},
 		expedition_id_weight_list = {
 			{
 				1231101,
-				15,
+				2,
 				0
 			},
 			{
 				1231102,
-				20,
+				43,
 				0
 			},
 			{
 				1231103,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1231104,
-				15,
+				2,
 				0
 			},
 			{
 				1231105,
-				20,
+				43,
 				0
 			},
 			{
 				1231106,
-				30,
-				1
+				55,
+				0
 			},
 			{
 				1231107,
-				15,
+				2,
 				0
 			},
 			{
 				1231108,
-				20,
+				43,
 				0
 			},
 			{
 				1231109,
-				30,
-				1
+				55,
+				0
 			}
 		},
 		ambush_expedition_list = {},
@@ -22998,8 +22998,8 @@ pg.chapter_template_loop = {
 			1231112
 		},
 		elite_expedition_list = {
-			1231105,
-			1231108
+			1231106,
+			1231109
 		},
 		ai_expedition_list = {
 			1231245,

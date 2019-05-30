@@ -110,7 +110,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
-	if slot0.contextData.animtion then
+	if slot0.contextData.animation then
 		slot0.inAniming = true
 
 		setActive(slot0.container, false)
@@ -170,17 +170,13 @@ function slot0.displayAwards(slot0)
 				slot0.hasShip = true
 			end
 
-			updateDrop(slot5, slot6)
-			setIconColorful(slot5, getDropRarity(slot6), {
+			updateDrop(slot5, slot6, {
 				fromAwardLayer = true
 			})
 			setActive(findTF(slot5, "bonus"), slot6.riraty)
-
-			slot9 = ScrollTxt.New(slot8, findTF(slot5, "name_mask/name"))
-
 			setActive(slot7, false)
 			setActive(slot8, true)
-			slot9:setText(getText(slot7))
+			ScrollTxt.New(slot8, findTF(slot5, "name_mask/name")):setText(slot6.name or getText(slot7))
 			table.insert(slot0.nameTxts, slot9)
 			onButton(slot0, slot5, function ()
 				if slot0.inAniming then

@@ -66,7 +66,7 @@ function slot0.setShip(slot0, slot1)
 	end
 
 	slot0.shipVO = slot1
-	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= nil
+	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
 
 	slot0:updatePreference(slot1)
 	slot0.shipDetailView:ActionInvoke("UpdateUI")

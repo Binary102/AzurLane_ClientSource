@@ -1141,6 +1141,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[110] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Box will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Scherzo Lucky Box ",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		subject = "Scherzo Lucky Box ",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe1_l",
+		id_str = "com.yostaren.azurlane.diamond120",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 110,
+		airijp_id = "com.yostaren.azurlane.diamond120",
+		extra_service_item = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1159,7 +1252,8 @@ pg.pay_data_display = {
 		106,
 		107,
 		108,
-		109
+		109,
+		110
 	}
 }
 

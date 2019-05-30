@@ -66,12 +66,12 @@ function shipType2Battleprint(slot0)
 	return ShipType.Type2BattlePrint(slot0)
 end
 
-function shipRarity2bgPrint(slot0, slot1)
-	if slot1 and pg.ship_skin_template[slot1].rarity_bg and slot3 ~= "" then
-		return slot3
+function shipRarity2bgPrint(slot0, slot1, slot2)
+	if slot1 and pg.ship_skin_template[slot1].rarity_bg and slot4 ~= "" then
+		return slot4
 	end
 
-	return ShipRarity.Rarity2Print(slot0)
+	return ((slot2 and "0") or "") .. ShipRarity.Rarity2Print(slot0)
 end
 
 function shipRarity2FrameColor(slot0)
@@ -2184,6 +2184,14 @@ function slot0.SetExpression(slot0, slot1, slot2)
 	end
 
 	return (slot4.default and true) or false
+end
+
+function slot0.DefaultFaceless(slot0)
+	if pg.ship_skin_expression[slot0] and slot1.default ~= "" then
+		return true
+	else
+		return false
+	end
 end
 
 return slot0

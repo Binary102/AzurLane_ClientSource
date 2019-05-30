@@ -1580,6 +1580,38 @@ pg.skill_data_display = {
 		id = 12210,
 		name = "Kolibri Assault "
 	},
+	[12220] = {
+		id = 12220,
+		name = "Youthful Light "
+	},
+	[12230] = {
+		id = 12230,
+		name = "Girls' Support "
+	},
+	[12233] = {
+		id = 12233,
+		name = "Girls' Support "
+	},
+	[12240] = {
+		id = 12240,
+		name = "Calibur's Heart "
+	},
+	[12250] = {
+		id = 12250,
+		name = "Calibur's Carrier "
+	},
+	[12251] = {
+		id = 12251,
+		name = "Calibur's Carrier "
+	},
+	[12260] = {
+		id = 12260,
+		name = "Starlit Debut"
+	},
+	[12270] = {
+		id = 12270,
+		name = "Sparkling Star"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -3124,6 +3156,14 @@ pg.skill_data_display = {
 		12191,
 		12200,
 		12210,
+		12220,
+		12230,
+		12233,
+		12240,
+		12250,
+		12251,
+		12260,
+		12270,
 		18010,
 		18040,
 		18041,

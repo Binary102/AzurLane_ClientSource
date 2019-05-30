@@ -22,16 +22,6 @@ function slot1(slot0)
 	slot0.slider = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/value"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.value = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
 	slot3 = "AD/progress"
 	slot1 = slot1(slot2, slot3)
 	slot2 = slot1
@@ -40,6 +30,16 @@ function slot1(slot0)
 	slot4 = Text
 	slot1 = slot1(slot2, slot3(slot4))
 	slot0.progress = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "AD/value"
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = Text
+	slot1 = slot1(slot2, slot3(slot4))
+	slot0.value = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "AD/display_btn"
@@ -70,6 +70,16 @@ end
 slot0.OnInit = slot1
 
 function slot1(slot0)
+	slot1 = ActivityPtData
+	slot1 = slot1.New
+	slot2 = slot0.activity
+	slot1 = slot1(slot2)
+	slot0.ptData = slot1
+end
+
+slot0.OnDataSetting = slot1
+
+function slot1(slot0)
 	slot1 = LoadImageSpriteAsync
 	slot3 = slot0
 	slot2 = slot0.GetBgImg
@@ -78,11 +88,6 @@ function slot1(slot0)
 
 	slot1(slot2, slot3)
 
-	slot1 = ActivityPtData
-	slot1 = slot1.New
-	slot2 = slot0.activity
-	slot1 = slot1(slot2)
-	slot0.ptData = slot1
 	slot1 = onButton
 	slot2 = slot0
 	slot3 = slot0.displayBtn
@@ -186,28 +191,67 @@ function slot1(slot0)
 
 	slot1 = slot0.ptData
 	slot2 = slot1
-	slot1 = slot1.GetLevelProgress
-	slot1, slot2, slot3 = slot1(slot2)
-	slot4 = slot0.ptData
-	slot5 = slot4
-	slot4 = slot4.GetResProgress
-	slot4, slot5, slot6 = slot4(slot5)
-	slot7 = slot0.value
-	slot8 = slot4
-	slot9 = "/"
-	slot10 = slot5
-	slot8 = slot8 .. slot9 .. slot10
-	slot7.text = slot8
-	slot7 = slot0.progress
-	slot8 = 1
+	slot1 = slot1.getTargetLevel
+	slot1 = slot1(slot2)
+	slot2 = slot0.activity
+	slot3 = slot2
+	slot2 = slot2.getConfig
+	slot4 = "config_client"
+	slot2 = slot2(slot3, slot4)
+	slot2 = slot2.story
+	slot3 = checkExist
+	slot4 = checkExist
+	slot5 = slot2
+	slot6 = slot1
+	slot4 = slot4(slot5, slot6)
+	slot5 = 1
+	slot3 = slot3(slot4, slot5)
 
-	if slot6 >= slot8 then
-		slot7.text = (setColorStr(slot1, COLOR_GREEN) or slot1) .. "/" .. slot2
-		slot0.slider.value = slot6
+	if slot3 then
+		slot3 = pg
+		slot3 = slot3.StoryMgr
+		slot3 = slot3.GetInstance
+		slot3 = slot3()
+		slot5 = slot3
+		slot4 = slot3.IsPlayed
+		slot6 = slot2[slot1]
+		slot6 = slot6[1]
+		slot4 = slot4(slot5, slot6)
 
-		setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot0.ptData:CanGetAward() and not slot0.ptData:GetAllAward())
-		setActive(slot0.getBtn, slot7)
-		setActive(slot0.gotBtn, setColorStr(slot1, COLOR_GREEN) or slot1)
+		if not slot4 then
+			slot5 = slot3
+			slot4 = slot3.Play
+			slot6 = slot2[slot1]
+			slot6 = slot6[1]
+
+			slot4(slot5, slot6)
+		end
+	end
+
+	slot3 = slot0.ptData
+	slot4 = slot3
+	slot3 = slot3.GetLevelProgress
+	slot3, slot4, slot5 = slot3(slot4)
+	slot6 = slot0.ptData
+	slot7 = slot6
+	slot6 = slot6.GetResProgress
+	slot6, slot7, slot8 = slot6(slot7)
+	slot9 = slot0.progress
+	slot10 = slot3
+	slot11 = "/"
+	slot12 = slot4
+	slot10 = slot10 .. slot11 .. slot12
+	slot9.text = slot10
+	slot9 = slot0.value
+	slot10 = 1
+
+	if slot8 >= slot10 then
+		slot9.text = (setColorStr(slot6, COLOR_GREEN) or slot6) .. "/" .. slot7
+		slot0.slider.value = slot8
+
+		setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot0.ptData:CanGetAward() and slot0.ptData:CanGetNextAward())
+		setActive(slot0.getBtn, slot9)
+		setActive(slot0.gotBtn, not slot0.ptData.CanGetNextAward())
 		updateDrop(slot0.awardTF, COLOR_GREEN)
 		onButton(slot0, slot0.awardTF, function ()
 			slot0:emit(BaseUI.ON_DROP, slot0)

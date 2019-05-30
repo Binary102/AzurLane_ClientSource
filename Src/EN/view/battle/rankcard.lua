@@ -44,6 +44,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.emblemTF = findTF(slot0._tf, "frame/emblem")
 	slot0.scoreIconTF = findTF(slot0._tf, "frame/score_icon"):GetComponent(typeof(Image))
 	slot0.iconTF = findTF(slot0._tf, "icon")
+	slot0.levelTxt = findTF(slot0.iconTF, "level_bg/Text"):GetComponent(typeof(Text))
 end
 
 function slot0.update(slot0, slot1)
@@ -52,6 +53,7 @@ function slot0.update(slot0, slot1)
 	slot0.numberTF.text = slot1:getRank()
 	slot3 = math.min
 	slot4 = (slot1.getRank() > 0 and slot2) or 4
+	slot0.levelTxt.text = "Lv." .. slot1.lv
 
 	setActive(slot0.NumImgTF, math.min(setActive, 4) < 4)
 	setImageSprite(slot0.frameTF, GetSpriteFromAtlas("billboardframe", "bg" .. math.min))

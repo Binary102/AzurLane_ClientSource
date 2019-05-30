@@ -76,7 +76,7 @@ function slot0.handleNotification(slot0, slot1)
 
 			if #slot2.commons > 0 then
 				slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-					animtion = true,
+					animation = true,
 					items = slot5
 				})
 			end

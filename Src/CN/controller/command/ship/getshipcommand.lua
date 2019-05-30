@@ -61,7 +61,7 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			if slot7 then
-				slot7(slot1, slot1)
+				slot7(slot1, slot8.type)
 			else
 				slot1()
 			end

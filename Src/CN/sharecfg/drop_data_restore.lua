@@ -315,6 +315,76 @@ pg.drop_data_restore = {
 		resource_num = 780,
 		target_id = 206051
 	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 46,
+		resource_num = 1180,
+		target_id = 405011
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 47,
+		resource_num = 1080,
+		target_id = 207022
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 48,
+		resource_num = 880,
+		target_id = 205051
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 49,
+		resource_num = 800,
+		target_id = 199021
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 50,
+		resource_num = 780,
+		target_id = 401234
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 51,
+		resource_num = 780,
+		target_id = 102052
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 52,
+		resource_num = 780,
+		target_id = 107071
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 53,
+		resource_num = 780,
+		target_id = 107051
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 54,
+		resource_num = 780,
+		target_id = 403053
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 55,
+		resource_num = 780,
+		target_id = 301152
+	},
 	all = {
 		1,
 		2,
@@ -360,7 +430,17 @@ pg.drop_data_restore = {
 		42,
 		43,
 		44,
-		45
+		45,
+		46,
+		47,
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55
 	}
 }
 

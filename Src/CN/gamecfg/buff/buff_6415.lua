@@ -21,13 +21,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onAttach"
+				"onStartGame"
 			},
 			arg_list = {
+				buff_id = 6417,
 				minWeaponNumber = 1,
-				skill_id = 6415,
 				check_weapon = true,
 				weapon_group = {
 					720

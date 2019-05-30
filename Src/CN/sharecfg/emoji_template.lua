@@ -540,16 +540,6 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[64] = {
-		achieve = 0,
-		id = 64,
-		index = 1024,
-		pic = "xixue",
-		desc = "<color=#92fc63>[鬼脸]</color>",
-		type = {
-			2
-		}
-	},
 	[65] = {
 		achieve = 0,
 		id = 65,
@@ -1165,7 +1155,6 @@ pg.emoji_template = {
 		61,
 		62,
 		63,
-		64,
 		65,
 		100,
 		101,

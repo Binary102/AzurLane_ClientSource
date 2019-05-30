@@ -8,7 +8,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((pg.ship_skin_template[slot0.contextData.skinId].bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg) or ShipRarity.Rarity2Print(pg.ship_data_statistics[pg.ship_skin_template[slot0.contextData.skinId].ship_group * 10 + 1].rarity)), "", slot1)
+	GetSpriteFromAtlasAsync((((pg.ship_skin_template[slot0.contextData.skinId].bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg)) and "bg/star_level_bg_" .. ((pg.ship_skin_template[slot0.contextData.skinId].bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg))) or "newshipbg/bg_" .. ShipRarity.Rarity2Print(pg.ship_data_statistics[pg.ship_skin_template[slot0.contextData.skinId].ship_group * 10 + 1].rarity), "", slot1)
 end
 
 function slot0.setShipVOs(slot0, slot1)
@@ -90,7 +90,7 @@ function slot0.setSkin(slot0, slot1)
 	slot0._wordsConfig = Ship.getShipWords(slot1)
 	slot2 = pg.ship_skin_template[slot1].ship_group
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg) or ShipRarity.Rarity2Print(pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].rarity)), "", function (slot0)
+	GetSpriteFromAtlasAsync((((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg)) and "bg/star_level_bg_" .. ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg))) or "newshipbg/bg_" .. ShipRarity.Rarity2Print(pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].rarity), "", function (slot0)
 		setImageSprite(slot0._bg, slot0, true)
 
 		slot0.isLoadBg = true

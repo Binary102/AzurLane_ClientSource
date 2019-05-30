@@ -77,37 +77,36 @@ end
 function slot0.getAwards(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
-	slot5 = {}
 
-	for slot9, slot10 in ipairs(slot2.award_list) do
+	for slot8, slot9 in ipairs(slot2.award_list) do
 		table.insert(slot3, {
-			type = slot10.type,
-			id = slot10.id,
-			count = slot10.number
+			type = slot9.type,
+			id = slot9.id,
+			count = slot9.number
 		})
 	end
 
 	slot4 = PlayerConst.tranOwnShipSkin(slot3)
 
-	for slot9, slot10 in ipairs(slot3) do
-		if slot10.type ~= DROP_TYPE_SHIP then
-			slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot10))
-		elseif not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot10.id].group_type) and Ship.inUnlockTip(slot10.id) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_award_ship", slot11.name))
+	for slot8, slot9 in ipairs(slot3) do
+		if slot9.type ~= DROP_TYPE_SHIP then
+			slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot9))
+		elseif not getProxy(CollectionProxy):getShipGroup(pg.ship_data_template[slot9.id].group_type) and Ship.inUnlockTip(slot9.id) then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("collection_award_ship", slot10.name))
 		end
 	end
 
 	if slot1.isAwardMerge then
-		slot6 = {}
-		slot7 = nil
+		slot5 = {}
+		slot6 = nil
 
-		for slot11, slot12 in ipairs(slot4) do
-			if slot13() then
-				table.insert(slot6, slot12)
+		for slot10, slot11 in ipairs(slot4) do
+			if slot12() then
+				table.insert(slot5, slot11)
 			end
 		end
 
-		slot4 = slot6
+		slot4 = slot5
 	end
 
 	return slot4

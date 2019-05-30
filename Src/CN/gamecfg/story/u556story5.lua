@@ -505,7 +505,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "看来是虚惊一场。以防万一回头让科研部门彻底一下这个系统吧。",
+			say = "看来是虚惊一场。以防万一回头让科研部门彻底检查一下这个系统吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

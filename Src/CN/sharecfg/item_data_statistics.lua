@@ -7419,6 +7419,53 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40905] = {
+		display = "购买礼包可获得随机换装*1，钻石*2019，心智单元*50，心智魔方*20，快速建造*10，家具币*100",
+		rarity = 4,
+		type = 5,
+		name = "二周年礼盒",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40905,
+		icon = "Props/lihe2",
+		display_icon = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "{namecode:98}赠送的情人节礼物",
 		rarity = 8,
@@ -66217,6 +66264,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59130] = {
+		display = "用于『明日之星✩闪亮登场！ 』活动提升角色好感，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "友好度",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59130,
+		icon = "Props/shengdiyagePT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -68485,6 +68548,34 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59905] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>7.2%</color>）俾斯麦换装  铁血的辉光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）皇家方舟换装  晚会的守护者（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）乔治五世换装  温莎的玫瑰；
+（<color=#92fc63>9.5%</color>）佐治亚换装  南方的黑珍珠；
+（<color=#92fc63>11.0%</color>）Z23换装  宴会上的优等生；
+（<color=#92fc63>11.0%</color>）海伦娜换装  与君共舞；
+（<color=#92fc63>11.0%</color>）大黄蜂换装  Bubbly Anniversary！；
+（<color=#92fc63>11.0%</color>）约克城换装  优雅与朦胧之夜；
+（<color=#92fc63>11.0%</color>）斯佩伯爵换装  未知的晚会；
+（<color=#92fc63>11.0%</color>）栴换装  晚会幸运星！；]],
+		rarity = 4,
+		type = 98,
+		name = "随机二周年换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "这是说明说明说明",
 		rarity = 3,
@@ -69301,6 +69392,7 @@ pg.item_data_statistics = {
 		40902,
 		40903,
 		40904,
+		40905,
 		41001,
 		41002,
 		41003,
@@ -70510,6 +70602,7 @@ pg.item_data_statistics = {
 		59127,
 		59128,
 		59129,
+		59130,
 		59601,
 		59602,
 		59603,
@@ -70645,6 +70738,7 @@ pg.item_data_statistics = {
 		59902,
 		59903,
 		59904,
+		59905,
 		60001,
 		60002,
 		60003,

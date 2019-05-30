@@ -27,10 +27,13 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				check_target = "TargetNationalityFriendly",
 				buff_id = 12161,
-				minTargetNumber = 3,
-				nationality = 2
+				minTargetNumber = 4,
+				nationality = 2,
+				check_target = {
+					"TargetAllHelp",
+					"TargetNationality"
+				}
 			}
 		},
 		{

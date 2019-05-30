@@ -95,7 +95,8 @@ function slot0.update(slot0, slot1)
 				end
 
 				setParent(slot0, slot0.face, false)
-				slot0:GetComponent(typeof(Image)):SetNativeSize()
+
+				rtf(slot0).sizeDelta = Vector2.New(180, 180)
 			else
 				PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot1.pic, slot1.pic, slot0)
 			end

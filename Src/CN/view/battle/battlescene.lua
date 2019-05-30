@@ -284,7 +284,6 @@ end
 function slot0.didEnter(slot0)
 	setActive(slot0._tf, false)
 
-	slot0.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	slot1:SetBattleUI(slot0)
@@ -301,7 +300,7 @@ function slot0.didEnter(slot0)
 			toggle = slot0:findTF("AutoBtn")
 		})
 		slot0.emit:ActiveBot(ys.Battle.BattleState.IsAutoBotActive())
-		setActive(slot0.emit, ys.Battle.BattleState.IsAutoBotActive() and (not slot0.hideChatFlag or slot0.hideChatFlag ~= 1))
+		setActive(slot0.emit, slot1:ChatUseable())
 	end, SFX_PANEL, SFX_PANEL)
 	slot1:ConfigBattleEndFunc(function (slot0)
 		slot0:clear()
@@ -313,6 +312,8 @@ function slot0.didEnter(slot0)
 	if slot0.contextData.prePause then
 		triggerButton(slot0:findTF("PauseBtn"))
 	end
+
+	setActive(slot2, slot1:ChatUseable())
 end
 
 function slot0.onBackPressed(slot0)

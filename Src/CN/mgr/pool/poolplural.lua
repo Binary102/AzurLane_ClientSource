@@ -53,7 +53,7 @@ function slot1.ClearItems(slot0, slot1)
 		slot0.Destroy(slot0.items[slot5], slot1)
 	end
 
-	slot0.items = nil
+	slot0.items = {}
 end
 
 function slot1.Clear(slot0, slot1)

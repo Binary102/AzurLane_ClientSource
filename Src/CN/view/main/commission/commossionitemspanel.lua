@@ -194,7 +194,7 @@ function slot0.updateTechItems(slot0, slot1, slot2)
 				setText(slot1, slot1:getConfig("name"))
 
 				if slot1:hasCondition() then
-					setText(slot0:Find("unlock/desc/task_bg/Text"), getProxy(TaskProxy):getTaskById(slot1:getTaskId()) or getProxy(TaskProxy):getFinishTaskById(slot0):getConfig("name") .. "(" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or getProxy(TaskProxy).getFinishTaskById(slot0):getProgress() .. "/" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or getProxy(TaskProxy).getFinishTaskById(slot0):getConfig("target_num") .. ")")
+					setText(slot0:Find("unlock/desc/task_bg/Text"), getProxy(TaskProxy):getTaskById(slot1:getTaskId()) or getProxy(TaskProxy):getFinishTaskById(slot0):getConfig("desc") .. "(" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or getProxy(TaskProxy).getFinishTaskById(slot0):getProgress() .. "/" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or getProxy(TaskProxy).getFinishTaskById(slot0):getConfig("target_num") .. ")")
 				end
 			end
 

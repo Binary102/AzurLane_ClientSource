@@ -807,18 +807,22 @@ function slot0.showToolTip(slot0, slot1)
 		slot0:closeTip()
 	end, SFX_CANCEL)
 	setActive(slot0.tooltip, true)
-	setParent(slot0.tooltip, pg.UIMgr.GetInstance().OverlayMain)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.tooltip, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 end
 
 function slot0.closeTip(slot0)
 	setActive(slot0.tooltip, false)
-	setParent(slot0.tooltip, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
 function slot0.willExit(slot0)
 	if slot0.helpBtn then
 		setActive(slot0.helpBtn, true)
 	end
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
 function slot0.onBackPressed(slot0)

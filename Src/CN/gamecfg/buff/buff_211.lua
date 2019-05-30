@@ -19,6 +19,16 @@ return {
 				number = -0.5,
 				attr = "damageRatioBullet"
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "danyaokuifa"
+			}
 		}
 	}
 }

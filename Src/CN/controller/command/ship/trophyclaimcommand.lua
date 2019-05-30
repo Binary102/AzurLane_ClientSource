@@ -17,6 +17,7 @@ class("TrophyClaimCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot2:sendNotification(GAME.TROPHY_CLAIM_DONE, {
 				trophyID = slot1
 			})
+			slot0:updateTrophy()
 		end
 	end)
 end

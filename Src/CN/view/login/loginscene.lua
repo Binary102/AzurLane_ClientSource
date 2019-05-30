@@ -155,7 +155,7 @@ function slot0.setBg(slot0)
 end
 
 function slot0.setCriBg(slot0)
-	PoolMgr.GetInstance():GetPrefab("effect/loginbg", "loginbg", true, function (slot0)
+	LoadAndInstantiateAsync("effect", "loginbg", function (slot0)
 		if slot0 then
 			slot0.transform.SetParent(slot1, slot0._bg.transform, false)
 			slot0.transform:SetAsFirstSibling()
@@ -643,7 +643,7 @@ function slot0.playOpening(slot0, slot1, slot2, slot3)
 	end
 
 	if IsNil(slot0.openingTF) then
-		PoolMgr.GetInstance():GetUI(slot3 or "opening", true, function (slot0)
+		LoadAndInstantiateAsync("ui", "opening", function (slot0)
 			slot0:SetActive(false)
 
 			slot0.openingTF = slot0

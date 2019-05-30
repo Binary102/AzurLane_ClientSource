@@ -6,8 +6,6 @@ function slot0.execute(slot0, slot1)
 
 	for slot9, slot10 in pairs(slot3) do
 		if not slot10:isEnd() and slot0:shouldNotify(slot10) then
-			print(slot10.id)
-
 			slot4 = slot4 + 1
 
 			if not slot5 or (slot5 and slot10.id < slot5.id) then

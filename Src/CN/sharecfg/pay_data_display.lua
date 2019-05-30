@@ -583,6 +583,99 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[14] = {
+		limit_arg = 1,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		name = "二周年礼盒",
+		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
+		subject = "二周年礼盒",
+		extra_service = 3,
+		money = 198,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "lihe2_l",
+		id_str = "com.bilibili.blhx.zuanshi111",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 14,
+		airijp_id = "com.yostarjp.azurlane.diamond108",
+		extra_service_item = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					5,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -595,7 +688,8 @@ pg.pay_data_display = {
 		9,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }
 

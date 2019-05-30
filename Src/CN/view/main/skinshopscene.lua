@@ -75,8 +75,11 @@ function slot6(slot0)
 				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 					setActive(slot0._tagTFs[9], true)
 				elseif slot9 then
-					if slot0.goodsVO:getConfig("tag") == 5 then
-						setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
+					slot11 = slot0.goodsVO:getConfig("tag")
+
+					if slot8 or slot11 == 5 then
+						setText(slot0._tagTFs[5].Find(slot12, "Text"), slot1:getConfig("discount") .. "%")
+						setActive(slot0._tagTFs[5], true)
 					elseif slot0._tagTFs[slot11] then
 						setActive(slot0._tagTFs[slot11], true)
 					else

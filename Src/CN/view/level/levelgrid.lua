@@ -539,21 +539,6 @@ function slot2(slot0)
 	slot5 = slot5(slot6, slot7, slot8)
 	slot4 = slot4 + slot5
 	slot3.anchoredPosition3D = slot4
-	slot4 = slot0._tf
-	slot5 = Vector3
-	slot6 = slot2.offsetx
-	slot7 = 0
-	slot8 = 0
-	slot5 = slot5(slot6, slot7, slot8)
-	slot6 = Vector3
-	slot7 = slot0
-	slot7 = slot7.MapDefaultPos
-	slot7 = slot7.x
-	slot8 = 0
-	slot9 = 0
-	slot6 = slot6(slot7, slot8, slot9)
-	slot5 = slot5 + slot6
-	slot4.localPosition = slot5
 	slot5 = slot3
 	slot4 = slot3.Find
 	slot6 = "cells"
@@ -1588,6 +1573,18 @@ end
 slot0.updateFleets = slot2
 
 function slot2(slot0, slot1)
+	slot2 = pairs
+	slot3 = slot0.opBtns
+	slot2, slot3, slot4 = slot2(slot3)
+
+	for slot5, slot6 in slot2, slot3, slot4 do
+		slot7 = print
+		slot8 = slot5
+		slot9 = slot6
+
+		slot7(slot8, slot9)
+	end
+
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -1631,6 +1628,10 @@ function slot2(slot0, slot1)
 				slot16 = slot4.tfOp
 				slot14 = slot14(slot15(slot16))
 				slot13 = slot14
+				slot14 = "op"
+				slot15 = slot1
+				slot14 = slot14 .. slot15
+				slot13.name = slot14
 				slot15 = slot13
 				slot14 = slot13.SetParent
 				slot16 = slot0._tf
@@ -2137,6 +2138,7 @@ function slot2(slot0, slot1)
 				setActive(slot4.tfShadow, not slot9)
 				setActive(slot4.tfShip, not slot9)
 				setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot9)
+				print("ssssss")
 
 				slot11 = slot2
 				slot10 = slot2.getFleetAmmo

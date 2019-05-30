@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			useBg2 = true,
 			nameColor = "#ff5c5c",
-			say = "按照历史的进程，铁血将会很快被从这片大陆上抹消掉",
+			say = "按照历史的进程，铁血将会很快从这片大陆上被抹消掉",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

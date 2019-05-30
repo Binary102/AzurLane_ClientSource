@@ -4,7 +4,7 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "未能抵达的承诺",
-	painting = 1,
+	painting = 0,
 	id = 6410,
 	castCV = "",
 	aniEffect = {

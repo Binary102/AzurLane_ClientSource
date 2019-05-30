@@ -22,8 +22,10 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAura",
-			trigger = {},
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
 			arg_list = {
 				buff_id = 12141,
 				nationality = 4,
@@ -33,8 +35,10 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAura",
-			trigger = {},
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
 			arg_list = {
 				buff_id = 12142,
 				target = "TargetShipTag",

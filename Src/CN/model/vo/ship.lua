@@ -2186,4 +2186,12 @@ function slot0.SetExpression(slot0, slot1, slot2)
 	return (slot4.default and true) or false
 end
 
+function slot0.DefaultFaceless(slot0)
+	if pg.ship_skin_expression[slot0] and slot1.default ~= "" then
+		return true
+	else
+		return false
+	end
+end
+
 return slot0

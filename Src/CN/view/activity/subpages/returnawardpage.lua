@@ -31,6 +31,9 @@ slot3 = {
 				slot0.awardTF = slot0._tf:Find("item")
 				slot0.returnerList = UIItemList.New(slot0._tf:Find("returners/content"), slot0._tf:Find("returners/content/tpl"))
 				slot0.help = slot0._tf:Find("help")
+				slot0.pushBtn = slot0._tf:Find("push_btn")
+				slot0.pushedBtn = slot0._tf:Find("pushed_btn")
+				slot0.pushDisBtn = slot0._tf:Find("push_btn_dis")
 				slot0.awardOverView = slot0._tf:Find("award_overview")
 
 				onButton(slot0, slot0.getBtn, function ()
@@ -46,10 +49,32 @@ slot3 = {
 						arg1 = {
 							dropList = slot0.config.drop_client,
 							targets = slot0.config.target,
-							level = slot0.fetchIndex,
+							fetchList = slot0.fetchList,
 							count = slot0.pt,
 							resId = slot0.config.pt
 						}
+					})
+				end, SFX_PANEL)
+				onButton(slot0, slot0.pushBtn, function ()
+					if slot0.isPush then
+						return
+					end
+
+					if not slot0.returners or #slot0.returners >= 3 then
+						pg.TipsMgr:GetInstance():ShowTips(i18n("returner_max_count"))
+
+						return
+					end
+
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+						content = i18n("returner_push_tip"),
+						onYes = function ()
+							slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+								activity_id = slot0.activity.id,
+								cmd = ActivityConst.RETURN_AWARD_OP_PUSH_UID,
+								arg1 = slot0.code
+							})
+						end
 					})
 				end, SFX_PANEL)
 			end({
@@ -83,26 +108,37 @@ slot3 = {
 					return slot1
 				end,
 				UpdateData = function (slot0)
+					slot0.isPush = slot0.activity.data3 == 1
 					slot0.code = getProxy(PlayerProxy):getRawData().id
-					slot0.fetchList = slot0.activity.data1_list
-					slot0.config = pg.activity_template_headhunting[slot0.activity.id]
+					slot0.fetchList = slot1.data1_list
+					slot0.config = pg.activity_template_headhunting[slot1.id]
 					slot0.targets = slot0.config.target
-					slot0.fetchIndex = 0
+					slot0.nextIndex = -1
 
-					for slot5 = #slot0.targets, 1, -1 do
-						if table.contains(slot0.fetchList, slot0.targets[slot5]) then
-							slot0.fetchIndex = slot5
+					for slot5 = 1, #slot0.targets, 1 do
+						if not table.contains(slot0.fetchList, slot0.targets[slot5]) then
+							slot0.nextIndex = slot5
 
 							break
 						end
 					end
 
+					if slot0.nextIndex == -1 then
+						slot0.fetchIndex = #slot0.targets
+						slot0.nextIndex = #slot0.targets
+					else
+						slot0.fetchIndex = math.max(slot0.nextIndex - 1, 0)
+					end
+
 					slot0.drops = slot0.config.drop_client
-					slot0.nextIndex = math.min(slot0.fetchIndex + 1, #slot0.drops)
 					slot0.nextDrops = slot0.config.drop_client[slot0.nextIndex]
 					slot0.nextTarget = slot0.targets[slot0.nextIndex]
 					slot0.returners = slot1:getClientList()
 					slot0.pt = slot0:getTotalPt()
+
+					setActive(slot0.pushBtn, not slot0.isPush and #slot0.returners < 3)
+					setActive(slot0.pushedBtn, slot0.isPush)
+					setActive(slot0.pushDisBtn, not slot0.isPush and #slot0.returners >= 3)
 				end,
 				UpdateUI = function (slot0)
 					slot0.codeTxt.text = slot0.code
@@ -185,6 +221,8 @@ slot3 = {
 				slot0.awrdOverviewBtn = slot0._tf:Find("award_overview")
 				slot0.help = slot0._tf:Find("help")
 				slot0.ptTxt = slot0._tf:Find("pt"):GetComponent(typeof(Text))
+				slot0.matchBtn = slot0._tf:Find("match_btn")
+				slot0.matchedBtn = slot0._tf:Find("matched_btn")
 
 				onButton(slot0, slot0.confirmBtn, function ()
 					if slot0.code ~= 0 then
@@ -213,6 +251,21 @@ slot3 = {
 						}
 					})
 				end, SFX_PANEL)
+				onButton(slot0, slot0.matchBtn, function ()
+					if slot0.code ~= 0 then
+						return
+					end
+
+					pg.MsgboxMgr:GetInstance():ShowMsgBox({
+						content = i18n("returner_match_tip"),
+						onYes = function ()
+							slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+								activity_id = slot0.activity.id,
+								cmd = ActivityConst.RETURN_AWARD_OP_MATCH
+							})
+						end
+					})
+				end, SFX_PANEL)
 			end({
 				__cname = "ReturnAwardPage.RETURNPAGE",
 				Update = function (slot0, slot1)
@@ -235,6 +288,9 @@ slot3 = {
 					end
 
 					slot0.input:GetComponent(typeof(InputField)).interactable = not slot2
+
+					setActive(slot0.matchBtn, not slot2)
+					setActive(slot0.matchedBtn, slot2)
 				end,
 				ShouldAcceptTasks = function (slot0)
 					if slot0.code == 0 then

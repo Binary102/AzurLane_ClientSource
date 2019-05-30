@@ -24,6 +24,14 @@ pg.item_data_chat = {
 		desc = "献给所有两年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与二周年限定活动获取</color>",
 		scene = {}
 	},
+	[300] = {
+		name = "召集者",
+		time_second = 2592000,
+		id = 300,
+		time_limit_type = 1,
+		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n有效期30天",
+		scene = {}
+	},
 	[301] = {
 		name = "回归者",
 		time_second = 2592000,
@@ -36,6 +44,7 @@ pg.item_data_chat = {
 		0,
 		101,
 		102,
+		300,
 		301
 	}
 }

@@ -16,7 +16,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 5
+					duration = 10
 				}
 			},
 			{
@@ -47,7 +47,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 5.5
+					duration = 10
 				}
 			},
 			{
@@ -78,7 +78,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 6
+					duration = 10
 				}
 			},
 			{
@@ -109,7 +109,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 6.5
+					duration = 10
 				}
 			},
 			{
@@ -140,7 +140,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 7
+					duration = 10
 				}
 			},
 			{
@@ -171,7 +171,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 7.5
+					duration = 10
 				}
 			},
 			{
@@ -202,7 +202,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 8
+					duration = 10
 				}
 			},
 			{
@@ -233,7 +233,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 8.5
+					duration = 10
 				}
 			},
 			{
@@ -264,7 +264,7 @@ return {
 				type = "BattleSkillSonar",
 				target_choise = "TargetSelf",
 				arg_list = {
-					duration = 9
+					duration = 10
 				}
 			},
 			{
@@ -341,7 +341,7 @@ return {
 			type = "BattleSkillSonar",
 			target_choise = "TargetSelf",
 			arg_list = {
-				duration = 5
+				duration = 10
 			}
 		}
 	}

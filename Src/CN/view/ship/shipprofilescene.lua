@@ -215,17 +215,18 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.switchLive2d(slot0, slot1)
+	slot2 = false
 	slot0.l2dIsOn = slot1
 
 	setActive(slot0:findTF("view_btn", slot0.profile), true)
 
-	slot2 = "live2d/" .. slot0.paintingName
+	slot3 = "live2d/" .. slot0.paintingName
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot4 == DownloadState.CheckFailure then
-		slot3:CheckD()
+	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
+		slot4:CheckD()
 	end
 
-	if slot3:CheckF(slot2) == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure then
+	if slot4:CheckF(slot3) == DownloadState.CheckToUpdate or slot6 == DownloadState.UpdateFailure then
 		setActive(slot0.live2dBtn, true)
 		setActive(slot0.live2dState, false)
 		setActive(slot0.live2dToggle, true)
@@ -234,15 +235,15 @@ function slot0.switchLive2d(slot0, slot1)
 		onButton(slot0, slot0.live2dBtn, function ()
 			slot0:UpdateF(slot0, true)
 		end, SFX_PANEL)
-	elseif slot5 == DownloadState.Updating then
+	elseif slot6 == DownloadState.Updating then
 		setActive(slot0.live2dBtn, true)
 		setActive(slot0.live2dToggle, false)
 		setActive(slot0.live2dState, true)
 		removeOnButton(slot0.live2dBtn)
 	else
-		setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot2)))
+		setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot3)))
 
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot2)) then
+		if PathMgr.FileExists(PathMgr.getAssetBundle(slot3)) then
 			slot0.live2dChecked = slot1
 
 			setActive(slot0.live2dState, false)
@@ -253,11 +254,17 @@ function slot0.switchLive2d(slot0, slot1)
 
 			if slot0.live2dChecked then
 				slot0:createLive2D(slot0.paintingName)
+
+				slot2 = modelName == "biaoqiang" or modelName == "z23" or modelName == "lafei" or modelName == "lingbo" or modelName == "mingshi"
 			else
 				slot0:hideLive2D()
 			end
 
 			onButton(slot0, slot0.live2dBtn, function ()
+				if slot0.l2dChar and slot0.l2dChar.state == Live2D.STATE_LOADING then
+					return
+				end
+
 				slot0:switchLive2d(not slot0.live2dChecked)
 				slot0.switchLive2d:switchVoiceList(slot0.live2dChecked)
 			end, SFX_PANEL)
@@ -270,12 +277,22 @@ function slot0.switchLive2d(slot0, slot1)
 		slot0.live2dTimer = nil
 	end
 
-	if slot5 == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure or slot5 == DownloadState.Updating then
+	if slot6 == DownloadState.CheckToUpdate or slot6 == DownloadState.UpdateFailure or slot6 == DownloadState.Updating then
 		slot0.live2dTimer = Timer.New(function ()
 			slot0:switchLive2d((slot0:CheckF(slot0) == DownloadState.UpdateSuccess and true) or slot3)
 		end, 0.5, 1)
 
 		slot0.live2dTimer:Start()
+	end
+
+	if not slot2 then
+		rtf(slot0.painting).anchorMin = Vector2(0.5, 0.5)
+		rtf(slot0.painting).anchorMax = Vector2(0.5, 0.5)
+		rtf(slot0.painting).pivot = Vector2(0.5, 0.5)
+	else
+		rtf(slot0.painting).anchorMin = Vector2(0.5, 0)
+		rtf(slot0.painting).anchorMax = Vector2(0.5, 0)
+		rtf(slot0.painting).pivot = Vector2(0.5, 0)
 	end
 end
 

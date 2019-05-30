@@ -28,7 +28,7 @@ pg.skin_page_template = {
 		id = 9,
 		name = "私服",
 		res = "sifu",
-		english_name = "！！占坑！！"
+		english_name = "Casual wear"
 	},
 	[9999] = {
 		id = 9999,

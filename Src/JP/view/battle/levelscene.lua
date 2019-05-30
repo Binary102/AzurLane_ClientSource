@@ -11,7 +11,7 @@ function slot0.preload(slot0, slot1)
 	if slot0.maps[slot0:selectMap(slot2)]:getConfig("bg") and #slot5 > 0 then
 		GetSpriteFromAtlasAsync("levelmap/" .. slot4:getConfig("bg"), "", slot1)
 	elseif slot4:getConfig("animtor") == 1 then
-		PoolMgr.GetInstance():GetUI(slot4:getConfig("ani_name"), true, function (slot0)
+		LoadAndInstantiateAsync("ui", slot4:getConfig("ani_name"), function (slot0)
 			slot0:SetActive(false)
 
 			slot0.tornadoTF = slot0
@@ -144,10 +144,12 @@ function slot0.initUI(slot0)
 	slot0.levelGrid = slot0.uiMain:Find("LevelGrid")
 
 	setActive(slot0.levelGrid, true)
-	RemoveComponent(slot0.levelGrid, typeof(Image))
 
 	slot0.dragLayer = slot0.levelGrid:Find("DragLayer") or cloneTplTo(slot0.levelGrid, slot0.levelGrid, "DragLayer")
 	slot0.dragLayer.localEulerAngles = Vector3.zero
+
+	RemoveComponent(slot0.levelGrid, typeof(Image))
+
 	slot0.float = slot0:findTF("float")
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
 	slot0.chapters = slot0:findTF("levels", slot0.float)
@@ -589,6 +591,10 @@ end
 
 function slot0.updateRes(slot0, slot1)
 	slot0.resPanel:setResources(slot1)
+
+	if slot0.levelStageView and slot0.levelStageView:CheckState(BaseSubView.STATES.INITED) then
+		slot0.levelStageView:SetPlayer(slot1)
+	end
 
 	slot0.player = slot1
 end
@@ -2394,6 +2400,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 	slot0.levelStageView:Load()
 	slot0.levelStageView:ActionInvoke("SetSeriesOperation", slot5)
+	slot0.levelStageView:ActionInvoke("SetPlayer", slot0.player)
 	slot0.levelStageView:ActionInvoke("SwitchToChapter", slot1)
 
 	return
@@ -3736,12 +3743,6 @@ function slot0.willExit(slot0)
 		slot0.resPanel = nil
 	end
 
-	if slot0.resPanel1 then
-		slot0.resPanel1:exit()
-
-		slot0.resPanel1 = nil
-	end
-
 	if slot0.activityBossBattlePanel then
 		slot0.activityBossBattlePanel:clear()
 	end
@@ -3759,6 +3760,7 @@ function slot0.willExit(slot0)
 
 		return
 	end)
+	PoolMgr.GetInstance():DestroyAllSprite()
 
 	if getProxy(ChapterProxy) then
 		if not slot0.contextData.map:isActivity() and not slot2:isSham() and not slot2:isGuildBoss() and not slot2:isEscort() then

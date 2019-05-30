@@ -19,8 +19,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 450,
@@ -49,8 +48,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 520,
@@ -79,8 +77,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 600,
@@ -109,8 +106,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 700,
@@ -139,8 +135,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 770,
@@ -169,8 +164,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 850,
@@ -199,8 +193,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 950,
@@ -229,8 +222,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 1020,
@@ -259,8 +251,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 1100,
@@ -289,8 +280,7 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 1200,
@@ -304,7 +294,7 @@ return {
 	id = 12141,
 	time = 0,
 	picture = "",
-	desc = "提高防空、装填、命中属性",
+	desc = "提高装填、123槽暴击率",
 	stack = 1,
 	color = "yellow",
 	icon = 12140,

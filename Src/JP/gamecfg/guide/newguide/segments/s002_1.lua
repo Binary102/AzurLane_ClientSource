@@ -36,7 +36,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/left_length/frame/tagRoot/queue_btn",
+				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/queue_btn",
 				triggerType = {
 					2
 				},

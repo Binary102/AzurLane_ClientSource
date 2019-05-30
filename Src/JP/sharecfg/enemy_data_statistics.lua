@@ -6095,7 +6095,7 @@ pg.enemy_data_statistics = {
 		cld_offset = {
 			0,
 			0,
-			-5
+			-10
 		},
 		bound_bone = {
 			cannon = {

@@ -19745,7 +19745,7 @@ pg.transform_data_template = {
 改造（近代化改修）完了
 火力+20，雷装+15
 
-改造后<color=#92fc63>1つ目の【設備】</color>が<color=#92fc63>【ヘリ】</color>を装備できるようになり]],
+改造後<color=#92fc63>1つ目の【設備】</color>が<color=#92fc63>【ヘリ】</color>を装備できるようになり]],
 		condition_id = {
 			24008,
 			24009

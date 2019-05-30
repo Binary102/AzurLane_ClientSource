@@ -10,14 +10,16 @@ function slot0.OnInit(slot0)
 	setActive(slot0.item, false)
 end
 
-function slot0.OnFirstFlush(slot0)
-	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
-	slot0:TriggerStorys()
-
+function slot0.OnDataSetting(slot0)
 	slot0.nday = 0
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = slot0.activity:getConfig("config_data")
 
+	return updateActivityTaskStatus(slot0.activity)
+end
+
+function slot0.OnFirstFlush(slot0)
+	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			updateDrop(slot0:findTF("item", slot2), slot8)
@@ -41,13 +43,9 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	if updateActivityTaskStatus(slot0.activity) then
-		return
-	end
-
 	slot0.nday = slot0.activity.data3
 
-	if checkExist(checkExist(slot1, slot0.nday), "1") and not pg.StoryMgr.GetInstance():IsPlayed(slot1[slot0.nday][1]) then
+	if checkExist(checkExist(slot1, slot0.nday), 1) and not pg.StoryMgr.GetInstance():IsPlayed(slot1[slot0.nday][1]) then
 		slot2:Play(slot1[slot0.nday][1])
 	end
 
@@ -56,14 +54,6 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
-end
-
-function slot0.TriggerStorys(slot0)
-	slot3 = slot0.activity:getConfig("config_client").story
-
-	if slot0.activity.data3 and slot3 and slot3[slot2] and slot3[slot2][1] and not pg.StoryMgr.GetInstance():IsPlayed(slot3[slot2][1]) then
-		slot4:Play(slot3[slot2][1])
-	end
 end
 
 function slot0.OnDestroy(slot0)

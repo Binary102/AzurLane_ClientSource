@@ -20,6 +20,8 @@ function slot0.callfuncRecordingStopped(slot0)
 end
 
 function slot0.init(slot0)
+	setActive(pg.UIMgr.GetInstance().OverlayEffect, false)
+
 	slot0.dummy = slot0:findTF("SnapshotInvisible")
 
 	slot0:SetDummyForIOS(true)
@@ -349,6 +351,8 @@ function slot0.willExit(slot0)
 
 		slot0.live2dCom = nil
 	end
+
+	setActive(pg.UIMgr.GetInstance().OverlayEffect, true)
 end
 
 function slot0.clearSkin(slot0)

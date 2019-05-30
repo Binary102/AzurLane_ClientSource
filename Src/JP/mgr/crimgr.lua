@@ -95,6 +95,14 @@ function pg.CriMgr.StopCV(slot0)
 	slot0.cvPlayer:Stop()
 end
 
+function pg.CriMgr.StopSEUI(slot0)
+	slot0.seuiPlayer:Stop()
+end
+
+function pg.CriMgr.StopSEBattle(slot0)
+	slot0.sebattlePlayer:Stop()
+end
+
 function pg.CriMgr.ResumeCV(slot0)
 	print("CV track --> ResumeCV")
 

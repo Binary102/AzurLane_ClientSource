@@ -735,6 +735,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "結名美月",
 		code = 184
+	},
+	{
+		actor_name = "原紗友里",
+		code = 185
+	},
+	{
+		actor_name = "柳原かなこ",
+		code = 186
 	}
 }
 

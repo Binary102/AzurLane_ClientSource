@@ -84,6 +84,12 @@ function slot0.notification(slot0)
 			return
 		end
 	end
+
+	if getProxy(CollectionProxy) and slot4:unclaimTrophyCount() > 0 then
+		slot0.facade:sendNotification(slot0.BUILDING_FINISH)
+
+		return
+	end
 end
 
 function slot0.onRemove(slot0)

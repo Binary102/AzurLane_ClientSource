@@ -805,7 +805,7 @@ function slot0.filter(slot0)
 				return IndexConst.sortForGuider(slot0, slot1)
 			elseif slot0.isFormTactics then
 				return IndexConst.sortByPriorityFullSkill(slot0, slot1, slot1)
-			elseif slot0.mode == slot2.MODE_OVERVIEW then
+			elseif slot0.mode == slot2.MODE_OVERVIEW or slot0.mode == slot2.MODE_SELECT then
 				if slot0.activityNpc == slot1.activityNpc then
 					return slot1(slot0, slot1)
 				else

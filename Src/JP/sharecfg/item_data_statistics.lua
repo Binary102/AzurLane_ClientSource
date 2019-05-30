@@ -6913,7 +6913,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[40902] = {
-		display = "ランダムに礼装シリーズの着せ替え衣装、メンタルユニット×50、ダイヤ×2019、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		display = "ランダムにドレスシリーズの着せ替え衣装、メンタルユニット×50、ダイヤ×2019、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
 		rarity = 4,
 		type = 5,
 		name = "一周年福袋",
@@ -7022,6 +7022,53 @@ pg.item_data_statistics = {
 			{
 				2,
 				59904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40905] = {
+		display = "ランダムにドレスシリーズの着せ替え衣装、メンタルユニット×50、ダイヤ×2019、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 5,
+		name = "福袋 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40905,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				59905,
 				1
 			},
 			{
@@ -64371,6 +64418,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59130] = {
+		display = "イベント「明日の星☆新登場」・友好度報酬（累計獲得数） ",
+		rarity = 2,
+		type = 98,
+		name = "友好度",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59130,
+		icon = "Props/shengdiyagePT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル ",
 		rarity = 2,
@@ -66593,6 +66656,34 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59905] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>7.2%</color>）ビスマルク：鉄血の威光（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）アーク・ロイヤル：バンケットガーディアン（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）キング・ジョージ5世：ウィンザー・ローズ；
+（<color=#92fc63>9.5%</color>）ジョージア：サウスタウンパール；
+（<color=#92fc63>11.0%</color>）Z23：麗しきアーベントクライト；
+（<color=#92fc63>11.0%</color>）ヘレナ：君と踊りを；
+（<color=#92fc63>11.0%</color>）ホーネット：Bubbly Anniversary！；
+（<color=#92fc63>11.0%</color>）ヨークタウン：優雅と微酔の夜；
+（<color=#92fc63>11.0%</color>）アドミラル・グラーフ・シュペー：未知の記念日；
+（<color=#92fc63>11.0%</color>）時雨：イブニングラッキースター；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "0",
 		rarity = 3,
@@ -67391,6 +67482,7 @@ pg.item_data_statistics = {
 		40902,
 		40903,
 		40904,
+		40905,
 		41001,
 		41002,
 		41003,
@@ -68576,6 +68668,7 @@ pg.item_data_statistics = {
 		59127,
 		59128,
 		59129,
+		59130,
 		59601,
 		59602,
 		59603,
@@ -68711,6 +68804,7 @@ pg.item_data_statistics = {
 		59902,
 		59903,
 		59904,
+		59905,
 		60001,
 		60002,
 		60003,

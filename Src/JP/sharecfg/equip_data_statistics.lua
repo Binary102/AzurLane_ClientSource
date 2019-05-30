@@ -2845,7 +2845,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 80,
 		icon = "720",
-		value_1 = "4",
+		value_1 = "12",
 		attribute_2 = "durability",
 		avoid_extra = 0,
 		rarity = 5,
@@ -2871,7 +2871,7 @@ pg.equip_data_statistics = {
 		id = 721,
 		base = 720,
 		value_2 = 85,
-		value_1 = "4",
+		value_1 = "13",
 		property_rate = {}
 	},
 	[722] = {
@@ -2879,7 +2879,7 @@ pg.equip_data_statistics = {
 		id = 722,
 		base = 720,
 		value_2 = 90,
-		value_1 = "5",
+		value_1 = "13",
 		property_rate = {}
 	},
 	[723] = {
@@ -2887,7 +2887,7 @@ pg.equip_data_statistics = {
 		id = 723,
 		base = 720,
 		value_2 = 95,
-		value_1 = "5",
+		value_1 = "14",
 		property_rate = {}
 	},
 	[724] = {
@@ -2895,7 +2895,7 @@ pg.equip_data_statistics = {
 		id = 724,
 		base = 720,
 		value_2 = 100,
-		value_1 = "6",
+		value_1 = "14",
 		property_rate = {}
 	},
 	[725] = {
@@ -2903,7 +2903,7 @@ pg.equip_data_statistics = {
 		id = 725,
 		base = 720,
 		value_2 = 105,
-		value_1 = "7",
+		value_1 = "15",
 		property_rate = {}
 	},
 	[726] = {
@@ -2911,7 +2911,7 @@ pg.equip_data_statistics = {
 		id = 726,
 		base = 720,
 		value_2 = 110,
-		value_1 = "8",
+		value_1 = "16",
 		property_rate = {}
 	},
 	[727] = {
@@ -2919,7 +2919,7 @@ pg.equip_data_statistics = {
 		id = 727,
 		base = 720,
 		value_2 = 120,
-		value_1 = "9",
+		value_1 = "17",
 		property_rate = {}
 	},
 	[728] = {
@@ -2927,7 +2927,7 @@ pg.equip_data_statistics = {
 		id = 728,
 		base = 720,
 		value_2 = 130,
-		value_1 = "10",
+		value_1 = "18",
 		property_rate = {}
 	},
 	[729] = {
@@ -2935,7 +2935,7 @@ pg.equip_data_statistics = {
 		id = 729,
 		base = 720,
 		value_2 = 140,
-		value_1 = "11",
+		value_1 = "19",
 		property_rate = {}
 	},
 	[730] = {
@@ -2943,7 +2943,7 @@ pg.equip_data_statistics = {
 		id = 730,
 		base = 720,
 		value_2 = 150,
-		value_1 = "12",
+		value_1 = "20",
 		property_rate = {}
 	},
 	[740] = {

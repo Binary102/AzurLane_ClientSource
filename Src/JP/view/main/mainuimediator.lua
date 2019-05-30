@@ -69,11 +69,13 @@ function slot0.register(slot0)
 		slot11 = true
 	end
 
-	if slot10 or slot11 then
+	slot13 = getProxy(CollectionProxy):unclaimTrophyCount() > 0
+
+	if slot10 or slot11 or slot13 then
 		slot0:updateCourseNotices()
 	end
 
-	slot0.viewComponent:updateBuffList(slot13)
+	slot0.viewComponent:updateBuffList(slot14)
 	slot0:updateTaskNotices()
 	slot0:updateBackYardNotices()
 	slot0:updateMailAttachmentNotices()
@@ -88,7 +90,7 @@ function slot0.register(slot0)
 	slot0:updateCommissionNotices()
 	slot0:updateSettingsNotice()
 	slot0:updateExSkinNotice()
-	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot14))
+	slot0:updateCommanderNotices(getProxy(CommanderProxy).haveFinishedBox(slot15))
 	slot0:bind(slot0.ON_MONOPOLY, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = MonopolyMediator,
@@ -386,8 +388,8 @@ function slot0.register(slot0)
 	pg.SystemOpenMgr:GetInstance():notification(slot4.level)
 
 	if getProxy(GuildProxy):getData() then
-		if (slot17:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot18 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot16:getRequests() then
-			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot17.id)
+		if (slot18:getDutyByMemberId(slot4.id) == GuildMember.DUTY_COMMANDER or slot19 == GuildMember.DUTY_DEPUTY_COMMANDER) and not slot17:getRequests() then
+			slot0:sendNotification(GAME.GUILD_GET_REQUEST_LIST, slot18.id)
 		end
 
 		slot0:updateGuildNotices()
@@ -417,8 +419,8 @@ function slot0.register(slot0)
 
 	if getProxy(MailProxy).total >= 1000 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot18.total >= 950 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_1", slot18.total))
+	elseif slot19.total >= 950 then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_1", slot19.total))
 	end
 end
 
@@ -597,6 +599,7 @@ function slot0.listNotificationInterests(slot0)
 		MailProxy.UPDATE_ATTACHMENT_COUNT,
 		BuildShipProxy.TIMEUP,
 		NavalAcademyProxy.BUILDING_FINISH,
+		CollectionProxy.TROPHY_UPDATE,
 		GAME.CHANGE_PLAYER_ICON_DONE,
 		ChatProxy.NEW_MSG,
 		GAME.LOAD_SCENE_DONE,
@@ -655,6 +658,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:updateBuildNotices()
 	elseif slot2 == NavalAcademyProxy.BUILDING_FINISH then
 		slot0:updateCourseNotices()
+	elseif slot2 == CollectionProxy.TROPHY_UPDATE then
+		if getProxy(CollectionProxy).unclaimTrophyCount(slot4) > 0 then
+			slot0:updateCourseNotices()
+		end
 	elseif slot2 == GAME.CHANGE_PLAYER_ICON_DONE then
 		slot0.viewComponent:setFlagShip(slot3.ship)
 	elseif slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED then

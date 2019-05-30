@@ -320,14 +320,6 @@ function slot5.UpdateEscapeOnly(slot0, slot1)
 	end
 end
 
-function slot5.UpdateSubCelebrate(slot0, slot1)
-	for slot5, slot6 in pairs(slot0._characterList) do
-		if slot6.__name == slot0.Battle.BattlePlayerCharacter.__name then
-			slot6:UpdateSubVictory(slot1)
-		end
-	end
-end
-
 function slot5.Pause(slot0)
 	for slot4, slot5 in pairs(slot0._areaList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do

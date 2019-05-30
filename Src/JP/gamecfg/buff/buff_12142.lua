@@ -4,8 +4,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.2,
@@ -19,8 +18,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.222,
@@ -34,8 +32,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.244,
@@ -49,8 +46,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.266,
@@ -64,8 +60,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.288,
@@ -79,8 +74,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.31,
@@ -94,8 +88,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.332,
@@ -109,8 +102,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.354,
@@ -124,8 +116,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.376,
@@ -139,8 +130,7 @@ return {
 			{
 				type = "BattleBuffAddAttr",
 				trigger = {
-					"onAttach",
-					"onRemove"
+					"onAttach"
 				},
 				arg_list = {
 					number = 0.4,
@@ -170,8 +160,7 @@ return {
 		{
 			type = "BattleBuffAddAttr",
 			trigger = {
-				"onAttach",
-				"onRemove"
+				"onAttach"
 			},
 			arg_list = {
 				number = 0.2,

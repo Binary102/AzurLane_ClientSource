@@ -151,9 +151,7 @@ function slot0.readyToAchieve(slot0)
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
 			return (math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.data1) / 86400) * slot0:getDataConfig("daily_time") + slot0.data1_list[1]) - slot0.data1_list[2] > 0 or slot0.data2_list[1] - slot0.data2_list[2] > 0
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
-			if table.indexof(slot0:getDataConfig("target"), slot0.data2) or 0 then
-				slot1 = not (slot4 == #slot3) and slot3[math.min(slot4 + 1, #slot3)] <= slot0.data1
-			end
+			slot1 = ActivityPtData.New(slot0):CanGetAward()
 		elseif slot2 == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 			if slot0.data1 == 1 then
 				slot5 = pg.activity_template_headhunting[slot0.id].target

@@ -21,7 +21,7 @@ pg.item_data_frame = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>カムバックミッションの累計Pt入手数報酬で開放可能\n（30日限定）</color>",
+		desc = "<color=#ffffff>カムバックミッションの累計Pt入手数報酬で開放可能（30日限定）</color>",
 		scene = {}
 	},
 	[301] = {

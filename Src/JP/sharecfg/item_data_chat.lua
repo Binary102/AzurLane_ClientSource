@@ -16,6 +16,14 @@ pg.item_data_chat = {
 		desc = "First　Anniversary！\n<color=#A7A7AAFF>「再誕の暁」使用で開放可能</color>",
 		scene = {}
 	},
+	[300] = {
+		name = "カリスマ指揮官",
+		time_second = 2592000,
+		id = 300,
+		time_limit_type = 1,
+		desc = "カムバックミッションの累計Pt入手数報酬で開放可能（30日限定）",
+		scene = {}
+	},
 	[301] = {
 		name = "フレンドシップ",
 		time_second = 2592000,
@@ -27,6 +35,7 @@ pg.item_data_chat = {
 	all = {
 		0,
 		101,
+		300,
 		301
 	}
 }

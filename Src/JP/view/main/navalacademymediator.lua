@@ -33,6 +33,7 @@ function slot0.register(slot0)
 		slot0.viewComponent:SetMerchantInfo(slot7)
 	end
 
+	slot0.viewComponent:SetUnclaimTrophyCount(slot9)
 	slot0.viewComponent:SetTacticInfo(slot1:getStudents())
 	slot0:bind(slot0.OPEN_TACTIC, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
@@ -157,7 +158,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.REMOVE_LAYERS,
 		ShopsMediator.OPEN,
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		CollectionProxy.TROPHY_UPDATE
 	}
 end
 
@@ -186,6 +188,9 @@ function slot0.handleNotification(slot0, slot1)
 			end
 		elseif slot2 == GAME.BEGIN_STAGE_DONE then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		elseif slot2 == CollectionProxy.TROPHY_UPDATE then
+			slot0.viewComponent:SetUnclaimTrophyCount(getProxy(CollectionProxy).unclaimTrophyCount(slot4))
+			slot0.viewComponent:updateTrophyReminder()
 		end
 	end
 end

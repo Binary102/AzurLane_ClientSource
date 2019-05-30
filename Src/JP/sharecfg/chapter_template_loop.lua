@@ -29017,8 +29017,8 @@ pg.chapter_template_loop = {
 			1230608
 		},
 		ai_expedition_list = {
-			1230821,
-			1230822
+			1230823,
+			1230824
 		},
 		patrolai_expedition_list = {
 			1
@@ -29522,9 +29522,9 @@ pg.chapter_template_loop = {
 			1230708
 		},
 		ai_expedition_list = {
-			1230831,
-			1230832,
-			1230833
+			1230834,
+			1230835,
+			1230836
 		},
 		patrolai_expedition_list = {
 			1
@@ -30034,10 +30034,10 @@ pg.chapter_template_loop = {
 			1230808
 		},
 		ai_expedition_list = {
-			1230841,
-			1230842,
-			1230843,
-			1230844
+			1230845,
+			1230846,
+			1230847,
+			1230848
 		},
 		patrolai_expedition_list = {
 			1
@@ -30631,8 +30631,8 @@ pg.chapter_template_loop = {
 			1230909
 		},
 		ai_expedition_list = {
-			1231221,
-			1231222
+			1231223,
+			1231224
 		},
 		patrolai_expedition_list = {
 			1
@@ -31233,9 +31233,9 @@ pg.chapter_template_loop = {
 			1231009
 		},
 		ai_expedition_list = {
-			1231231,
-			1231232,
-			1231233
+			1231234,
+			1231235,
+			1231236
 		},
 		patrolai_expedition_list = {
 			1
@@ -31880,10 +31880,10 @@ pg.chapter_template_loop = {
 			1231109
 		},
 		ai_expedition_list = {
-			1231241,
-			1231242,
-			1231243,
-			1231244
+			1231245,
+			1231246,
+			1231247,
+			1231248
 		},
 		patrolai_expedition_list = {
 			1

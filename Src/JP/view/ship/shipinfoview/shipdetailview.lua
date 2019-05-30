@@ -211,6 +211,7 @@ function slot0.UpdateDetail(slot0, slot1)
 	end
 
 	setActive(slot0.fashionToggle, #slot0.shareData:GetCurGroupSkinList() > 1)
+	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 
 function slot0.UpdateEquipments(slot0, slot1)

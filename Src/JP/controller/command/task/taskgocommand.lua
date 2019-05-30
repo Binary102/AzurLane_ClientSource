@@ -210,6 +210,10 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot14 == 0 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP)
 		end
+	elseif slot13 == 17 then
+		if slot14 == 0 then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM)
+		end
 	elseif slot13 == 100 then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 	elseif slot13 == 101 then

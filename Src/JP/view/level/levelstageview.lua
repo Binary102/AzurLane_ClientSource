@@ -31,6 +31,12 @@ function slot0.OnDestroy(slot0)
 
 		slot0.stageTimer = nil
 	end
+
+	if slot0.resPanel1 then
+		slot0.resPanel1:exit()
+
+		slot0.resPanel1 = nil
+	end
 end
 
 function slot0.InitUI(slot0)
@@ -39,7 +45,6 @@ function slot0.InitUI(slot0)
 	slot0.resPanel1 = PlayerResource.New()
 
 	slot0.resPanel1:setParent(slot0.resStage, false)
-	slot0.resPanel1:setResources(getProxy(PlayerProxy):getData())
 	setActive(slot0.topStage, true)
 
 	slot0.bottomStage = slot0:findTF("bottom_stage", slot0._tf)
@@ -389,6 +394,10 @@ end
 
 function slot0.SetGrid(slot0, slot1)
 	slot0.grid = slot1
+end
+
+function slot0.SetPlayer(slot0, slot1)
+	slot0.resPanel1:setResources(slot1)
 end
 
 function slot0.SwitchToChapter(slot0, slot1)

@@ -200,7 +200,7 @@ function slot2(slot0)
 			slot11 = ShipSkinProxy
 			slot10 = slot10(slot11)
 			slot11 = slot10
-			slot10 = slot10.hasSkin
+			slot10 = slot10.hasNonLimitSkin
 			slot12 = slot8.id
 			slot10 = slot10(slot11, slot12)
 

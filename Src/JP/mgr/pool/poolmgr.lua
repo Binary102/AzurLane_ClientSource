@@ -339,7 +339,12 @@ function pg.PoolMgr.GetPainting(slot0, slot1, slot2, slot3)
 
 	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
 		slot0:SetActive(true)
-		slot0(slot0)
+
+		if Ship.DefaultFaceless(slot0) then
+			setActive(tf(slot0):Find("face"), true)
+		end
+
+		slot1(slot0)
 	end, function (slot0)
 		return slot0 or ResourceMgr.Inst:getAssetSync("painting/unknown", "unknown", true, false)
 	end, true)
@@ -351,6 +356,10 @@ function pg.PoolMgr.ReturnPainting(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError("empty go: " .. slot1)
 	elseif slot0.pools_plural[slot4] then
+		if tf(slot2):Find("face") then
+			setActive(slot5, false)
+		end
+
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot4]:Enqueue(slot2)

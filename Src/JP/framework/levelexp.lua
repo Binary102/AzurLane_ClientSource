@@ -39,6 +39,18 @@ function getConfigFromLevel1(slot0, slot1)
 	return slot0[slot1] or slot0[#slot0]
 end
 
+function getExpByRarityFromLv1(slot0, slot1)
+	slot2 = getConfigFromLevel1(pg.ship_level, slot1)
+
+	if ShipRarity.SSR <= slot0 then
+		exp = slot2.exp_ur
+	else
+		exp = slot2.exp
+	end
+
+	return exp
+end
+
 prepareLevelExpConfig(pg.user_level)
 prepareLevelExpConfig(pg.ship_level)
 prepareLevelExpConfig(pg.ship_level, "exp_ur")

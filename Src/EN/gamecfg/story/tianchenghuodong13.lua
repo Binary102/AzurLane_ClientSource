@@ -8,21 +8,11 @@ return {
 	scripts = {
 		{
 			actor = 303090,
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			bgm = "story-6",
-			hideOther = true,
-			nameColor = "#a9f548",
 			say = "Something's wrong... we've lost contact with the aircraft conducting recon at 9 o'clock.",
-			subActors = {
-				{
-					dir = 1,
-					actor = 304050,
-					pos = {
-						x = 1030.5
-					}
-				}
-			},
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,21 +24,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
 			dir = -1,
 			actor = 304050,
-			nameColor = "#a9f548",
 			say = "I wanted to make sure Houshou got all her planes back safely, but it looks like that's not an option anymore...",
-			subActors = {
-				{
-					dir = 1,
-					actor = 303090,
-					pos = {
-						x = -1030.5
-					}
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -20068,17 +20068,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				75
+				65
 			},
 			{
 				"cannon",
 				1,
-				700
+				600
 			},
 			{
 				"dodge",
 				1,
-				400
+				350
 			}
 		},
 		expedition_id_weight_list = {
@@ -20573,17 +20573,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				80
+				70
 			},
 			{
 				"cannon",
 				1,
-				800
+				700
 			},
 			{
 				"dodge",
 				1,
-				500
+				420
 			}
 		},
 		expedition_id_weight_list = {
@@ -21085,17 +21085,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				85
+				75
 			},
 			{
 				"cannon",
 				1,
-				950
+				800
 			},
 			{
 				"torpedo",
 				1,
-				1100
+				950
 			}
 		},
 		expedition_id_weight_list = {
@@ -21682,17 +21682,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				90
+				80
 			},
 			{
 				"cannon",
 				1,
-				1200
+				1000
 			},
 			{
 				"dodge",
 				1,
-				600
+				500
 			}
 		},
 		expedition_id_weight_list = {
@@ -22284,17 +22284,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				95
+				85
 			},
 			{
 				"air",
 				1,
-				1300
+				1100
 			},
 			{
 				"antisub",
 				1,
-				650
+				500
 			}
 		},
 		expedition_id_weight_list = {
@@ -22931,17 +22931,17 @@ pg.chapter_template_loop = {
 			{
 				"level",
 				1,
-				100
+				90
 			},
 			{
 				"cannon",
 				1,
-				1500
+				1200
 			},
 			{
 				"torpedo",
 				1,
-				1400
+				1000
 			}
 		},
 		expedition_id_weight_list = {

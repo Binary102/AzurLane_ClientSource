@@ -825,7 +825,7 @@ function slot2(slot0)
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
-							slot17 = "%Y年%m月%d日"
+							slot17 = "%m/%d/%Y"
 							slot18 = true
 
 							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))

@@ -326,14 +326,8 @@ end
 function pg.ConnectionMgr.CheckProxyCounter(slot0)
 	slot0 = slot0 + 1
 
-	if not VersionMgr.Inst:OnProxyUsing() then
-		if slot0 ==  then
-			VersionMgr.Inst:SetUseProxy(true)
-		end
-	else
-		VersionMgr.Inst:SetUseProxy(false)
-
-		slot0 = 0
+	if not VersionMgr.Inst:OnProxyUsing() and slot0 ==  then
+		VersionMgr.Inst:SetUseProxy(true)
 	end
 end
 

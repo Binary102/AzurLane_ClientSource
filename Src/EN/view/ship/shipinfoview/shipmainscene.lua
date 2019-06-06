@@ -212,7 +212,8 @@ function slot0.initShip(slot0)
 	slot0.chatBg = slot0:findTF("main/character/chat/chatbgtop")
 	slot0.chatText = slot0:findTF("main/character/chat/Text")
 	rtf(slot0.chat).localScale = Vector3.New(0, 0, 1)
-	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
+	slot0.initChatBgH = slot0.chatText.sizeDelta.y
+	slot0.initfontSize = slot0.chatText:GetComponent(typeof(Text)).fontSize
 
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
@@ -608,18 +609,32 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 
 		slot0.chat:SetAsLastSibling()
 
+		slot3 = slot0.chatText:GetComponent(typeof(Text))
+
 		if findTF(slot0.painting, "fitter").childCount > 0 then
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
 		end
 
-		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1)
+		slot3.fontSize = slot0.initfontSize
+		slot8, slot5 = Ship.getWords(slot0.shipVO.skinId, slot1)
 
-		setTextEN(slot0.chatText, slot3)
+		setTextEN(slot0.chatText, slot4)
 
-		if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
-			slot5.alignment = TextAnchor.MiddleLeft
+		while slot0.initChatBgH < slot3.preferredHeight do
+			slot3.fontSize = slot3.fontSize - 2
+			slot10, slot7 = Ship.getWords(slot0.shipVO.skinId, slot1)
+
+			setTextEN(slot0.chatText, slot6)
+
+			if slot3.fontSize < 20 then
+				break
+			end
+		end
+
+		if CHAT_POP_STR_LEN < #slot3.text then
+			slot3.alignment = TextAnchor.MiddleLeft
 		else
-			slot5.alignment = TextAnchor.MiddleCenter
+			slot3.alignment = TextAnchor.MiddleCenter
 		end
 
 		slot6 = slot0
@@ -642,7 +657,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			end)).uniqueId
 		end
 
-		if slot4 then
+		if slot5 then
 			function slot8()
 				if slot0._currentVoice then
 					slot0._currentVoice:Stop(true)

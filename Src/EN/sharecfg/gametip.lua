@@ -8565,6 +8565,30 @@ with Anti-Sub gear.
 		tip = "Cannot uses spaces",
 		key = "spece_illegal_tip"
 	},
+	npc_learn_skill_tip = {
+		tip = "When the event period ends, you will lose this ship if she has not been Formally Recruited. Any items used to train her skills will NOT be refunded. Continue anyway?",
+		key = "npc_learn_skill_tip"
+	},
+	npc_upgrade_max_level = {
+		tip = "You cannot perform Cognitive Awakening on Temporary Recruits.",
+		key = "npc_upgrade_max_level"
+	},
+	npc_propse_tip = {
+		tip = "You cannot Oath Temporary Recruits.",
+		key = "npc_propse_tip"
+	},
+	npc_strength_tip = {
+		tip = "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?",
+		key = "npc_strength_tip"
+	},
+	npc_breakout_tip = {
+		tip = "If this Temporary Recruit leaves the port, any items or materials used to Limit Break her will NOT be refunded. Continue anyway?",
+		key = "npc_breakout_tip"
+	},
+	npc_evaluation_tip = {
+		tip = "You cannot Like or Comment on characters that have not yet been Formally Recruited. ",
+		key = "npc_evaluation_tip"
+	},
 	map_event_skip = {
 		tip = "Skip stories",
 		key = "map_event_skip"

@@ -63,6 +63,7 @@ function slot0.didEnter(slot0)
 
 	slot0.multList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot2.gameObject.name = "project_" .. slot1 + 1
 			slot0.projectTFs[slot1 + 1] = slot2
 
 			slot0:updateProject(slot1 + 1, slot0.projectList[slot1 + 1])
@@ -70,6 +71,7 @@ function slot0.didEnter(slot0)
 	end)
 	slot0.singleList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot2.gameObject.name = "project_" .. slot1 + 1
 			slot0.projectTFs[slot1 + 1] = slot2
 
 			slot0:updateProject(slot1 + 1, slot0.projectList[slot1 + 1])

@@ -1,12 +1,24 @@
 pg = pg or {}
 pg.skin_page_template = {
-	[3] = {
+	{
+		id = 1,
+		name = "クリスマス",
+		res = "shengdan",
+		english_name = "CHRISTMAS"
+	},
+	{
+		id = 2,
+		name = "お正月",
+		res = "xinnianhefu",
+		english_name = "NEW YEAR"
+	},
+	{
 		id = 3,
 		name = "旧正月",
 		res = "chunzhiqipao",
 		english_name = "SPRING "
 	},
-	[4] = {
+	{
 		id = 4,
 		name = "学園",
 		res = "xiaoyuan",
@@ -37,6 +49,8 @@ pg.skin_page_template = {
 		english_name = "OTHERS"
 	},
 	all = {
+		1,
+		2,
 		3,
 		4,
 		6,

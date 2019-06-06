@@ -44,7 +44,7 @@ return {
 				delay = 0.8,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
 				pos = {
-					x = 258.3,
+					x = 0,
 					y = 2.4
 				}
 			},
@@ -85,7 +85,7 @@ return {
 				delay = 0.2,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
 				pos = {
-					x = 258.3,
+					x = 0,
 					y = 2.4
 				}
 			},

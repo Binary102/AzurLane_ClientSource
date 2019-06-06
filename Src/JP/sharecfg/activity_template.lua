@@ -71,11 +71,14 @@ pg.activity_template = {
 		type = 6,
 		config_id = 6,
 		is_show = 1,
-		config_client = "",
 		id = 6,
 		config_data = {},
 		bg = {
 			"clutter/activity_bg_month_sign"
+		},
+		config_client = {
+			6,
+			21
 		}
 	},
 	{
@@ -171,6 +174,130 @@ pg.activity_template = {
 				9,
 				10,
 				11
+			}
+		}
+	},
+	[301] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 301,
+		config_data = {
+			14670
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[302] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 24,
+		bg = "",
+		config_id = 303,
+		is_show = 1,
+		config_client = "",
+		id = 302,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				8
+			}
+		}
+	},
+	[303] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 37,
+		bg = "",
+		config_id = 1,
+		is_show = 1,
+		config_client = "",
+		id = 303,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -11415,6 +11542,9 @@ pg.activity_template = {
 		9,
 		18,
 		21,
+		301,
+		302,
+		303,
 		10001,
 		10002,
 		10003,

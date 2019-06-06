@@ -11,7 +11,7 @@ slot1 = {
 	[ActivityConst.MONTH_SIGN_ACTIVITY_ID] = {
 		uiName = "monthsignpage",
 		className = "MonthSignPage",
-		uiName2 = "monthSignPage_special"
+		uiName2 = "monthsignpage_special"
 	},
 	[ActivityConst.CHARGE_AWARD_ACTIVITY_ID] = {
 		className = "ChargeAwardPage",

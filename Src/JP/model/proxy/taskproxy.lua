@@ -162,12 +162,6 @@ function slot0.getFinishTaskById(slot0, slot1)
 	end
 end
 
-function slot0.isCompleteTaskById(slot0, slot1)
-	if slot0.data[slot1] then
-		return slot0.data[slot1]:getTaskStatus() == 1
-	end
-end
-
 function slot0.getCanReceiveCount(slot0)
 	slot1 = 0
 

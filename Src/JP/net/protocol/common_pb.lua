@@ -70,22 +70,25 @@ slot56 = slot0.FieldDescriptor()
 SKILLINFO = slot0.Descriptor()
 slot57 = slot0.FieldDescriptor()
 slot58 = slot0.FieldDescriptor()
-USERSIMPLEINFO = slot0.Descriptor()
+COMMANDERSINFO = slot0.Descriptor()
 slot59 = slot0.FieldDescriptor()
 slot60 = slot0.FieldDescriptor()
+USERSIMPLEINFO = slot0.Descriptor()
 slot61 = slot0.FieldDescriptor()
 slot62 = slot0.FieldDescriptor()
-DISPLAYINFO = slot0.Descriptor()
 slot63 = slot0.FieldDescriptor()
 slot64 = slot0.FieldDescriptor()
+DISPLAYINFO = slot0.Descriptor()
 slot65 = slot0.FieldDescriptor()
 slot66 = slot0.FieldDescriptor()
 slot67 = slot0.FieldDescriptor()
 slot68 = slot0.FieldDescriptor()
 slot69 = slot0.FieldDescriptor()
-IDTIMEINFO = slot0.Descriptor()
 slot70 = slot0.FieldDescriptor()
 slot71 = slot0.FieldDescriptor()
+IDTIMEINFO = slot0.Descriptor()
+slot72 = slot0.FieldDescriptor()
+slot73 = slot0.FieldDescriptor()
 slot1.name = "id"
 slot1.full_name = ".common.shipinfo.id"
 slot1.number = 1
@@ -753,8 +756,8 @@ SKILLINFO.fields = {
 }
 SKILLINFO.is_extendable = false
 SKILLINFO.extensions = {}
-slot59.name = "id"
-slot59.full_name = ".common.usersimpleinfo.id"
+slot59.name = "pos"
+slot59.full_name = ".common.commandersinfo.pos"
 slot59.number = 1
 slot59.index = 0
 slot59.label = 2
@@ -762,154 +765,183 @@ slot59.has_default_value = false
 slot59.default_value = 0
 slot59.type = 13
 slot59.cpp_type = 3
-slot60.name = "name"
-slot60.full_name = ".common.usersimpleinfo.name"
+slot60.name = "id"
+slot60.full_name = ".common.commandersinfo.id"
 slot60.number = 2
 slot60.index = 1
 slot60.label = 2
 slot60.has_default_value = false
-slot60.default_value = ""
-slot60.type = 9
-slot60.cpp_type = 9
-slot61.name = "lv"
-slot61.full_name = ".common.usersimpleinfo.lv"
-slot61.number = 3
-slot61.index = 2
+slot60.default_value = 0
+slot60.type = 13
+slot60.cpp_type = 3
+COMMANDERSINFO.name = "commandersinfo"
+COMMANDERSINFO.full_name = ".common.commandersinfo"
+COMMANDERSINFO.nested_types = {}
+COMMANDERSINFO.enum_types = {}
+COMMANDERSINFO.fields = {
+	slot59,
+	slot60
+}
+COMMANDERSINFO.is_extendable = false
+COMMANDERSINFO.extensions = {}
+slot61.name = "id"
+slot61.full_name = ".common.usersimpleinfo.id"
+slot61.number = 1
+slot61.index = 0
 slot61.label = 2
 slot61.has_default_value = false
 slot61.default_value = 0
 slot61.type = 13
 slot61.cpp_type = 3
-slot62.name = "display"
-slot62.full_name = ".common.usersimpleinfo.display"
-slot62.number = 4
-slot62.index = 3
+slot62.name = "name"
+slot62.full_name = ".common.usersimpleinfo.name"
+slot62.number = 2
+slot62.index = 1
 slot62.label = 2
 slot62.has_default_value = false
-slot62.default_value = nil
-slot62.message_type = DISPLAYINFO
-slot62.type = 11
-slot62.cpp_type = 10
-USERSIMPLEINFO.name = "usersimpleinfo"
-USERSIMPLEINFO.full_name = ".common.usersimpleinfo"
-USERSIMPLEINFO.nested_types = {}
-USERSIMPLEINFO.enum_types = {}
-USERSIMPLEINFO.fields = {
-	slot59,
-	slot60,
-	slot61,
-	slot62
-}
-USERSIMPLEINFO.is_extendable = false
-USERSIMPLEINFO.extensions = {}
-slot63.name = "icon"
-slot63.full_name = ".common.displayinfo.icon"
-slot63.number = 1
-slot63.index = 0
+slot62.default_value = ""
+slot62.type = 9
+slot62.cpp_type = 9
+slot63.name = "lv"
+slot63.full_name = ".common.usersimpleinfo.lv"
+slot63.number = 3
+slot63.index = 2
 slot63.label = 2
 slot63.has_default_value = false
 slot63.default_value = 0
 slot63.type = 13
 slot63.cpp_type = 3
-slot64.name = "skin"
-slot64.full_name = ".common.displayinfo.skin"
-slot64.number = 2
-slot64.index = 1
+slot64.name = "display"
+slot64.full_name = ".common.usersimpleinfo.display"
+slot64.number = 4
+slot64.index = 3
 slot64.label = 2
 slot64.has_default_value = false
-slot64.default_value = 0
-slot64.type = 13
-slot64.cpp_type = 3
-slot65.name = "icon_frame"
-slot65.full_name = ".common.displayinfo.icon_frame"
-slot65.number = 3
-slot65.index = 2
+slot64.default_value = nil
+slot64.message_type = DISPLAYINFO
+slot64.type = 11
+slot64.cpp_type = 10
+USERSIMPLEINFO.name = "usersimpleinfo"
+USERSIMPLEINFO.full_name = ".common.usersimpleinfo"
+USERSIMPLEINFO.nested_types = {}
+USERSIMPLEINFO.enum_types = {}
+USERSIMPLEINFO.fields = {
+	slot61,
+	slot62,
+	slot63,
+	slot64
+}
+USERSIMPLEINFO.is_extendable = false
+USERSIMPLEINFO.extensions = {}
+slot65.name = "icon"
+slot65.full_name = ".common.displayinfo.icon"
+slot65.number = 1
+slot65.index = 0
 slot65.label = 2
 slot65.has_default_value = false
 slot65.default_value = 0
 slot65.type = 13
 slot65.cpp_type = 3
-slot66.name = "chat_frame"
-slot66.full_name = ".common.displayinfo.chat_frame"
-slot66.number = 4
-slot66.index = 3
+slot66.name = "skin"
+slot66.full_name = ".common.displayinfo.skin"
+slot66.number = 2
+slot66.index = 1
 slot66.label = 2
 slot66.has_default_value = false
 slot66.default_value = 0
 slot66.type = 13
 slot66.cpp_type = 3
-slot67.name = "icon_theme"
-slot67.full_name = ".common.displayinfo.icon_theme"
-slot67.number = 5
-slot67.index = 4
+slot67.name = "icon_frame"
+slot67.full_name = ".common.displayinfo.icon_frame"
+slot67.number = 3
+slot67.index = 2
 slot67.label = 2
 slot67.has_default_value = false
 slot67.default_value = 0
 slot67.type = 13
 slot67.cpp_type = 3
-slot68.name = "marry_flag"
-slot68.full_name = ".common.displayinfo.marry_flag"
-slot68.number = 6
-slot68.index = 5
+slot68.name = "chat_frame"
+slot68.full_name = ".common.displayinfo.chat_frame"
+slot68.number = 4
+slot68.index = 3
 slot68.label = 2
 slot68.has_default_value = false
 slot68.default_value = 0
 slot68.type = 13
 slot68.cpp_type = 3
-slot69.name = "transform_flag"
-slot69.full_name = ".common.displayinfo.transform_flag"
-slot69.number = 7
-slot69.index = 6
+slot69.name = "icon_theme"
+slot69.full_name = ".common.displayinfo.icon_theme"
+slot69.number = 5
+slot69.index = 4
 slot69.label = 2
 slot69.has_default_value = false
 slot69.default_value = 0
 slot69.type = 13
 slot69.cpp_type = 3
-DISPLAYINFO.name = "displayinfo"
-DISPLAYINFO.full_name = ".common.displayinfo"
-DISPLAYINFO.nested_types = {}
-DISPLAYINFO.enum_types = {}
-DISPLAYINFO.fields = {
-	slot63,
-	slot64,
-	slot65,
-	slot66,
-	slot67,
-	slot68,
-	slot69
-}
-DISPLAYINFO.is_extendable = false
-DISPLAYINFO.extensions = {}
-slot70.name = "id"
-slot70.full_name = ".common.idtimeinfo.id"
-slot70.number = 1
-slot70.index = 0
+slot70.name = "marry_flag"
+slot70.full_name = ".common.displayinfo.marry_flag"
+slot70.number = 6
+slot70.index = 5
 slot70.label = 2
 slot70.has_default_value = false
 slot70.default_value = 0
 slot70.type = 13
 slot70.cpp_type = 3
-slot71.name = "time"
-slot71.full_name = ".common.idtimeinfo.time"
-slot71.number = 2
-slot71.index = 1
+slot71.name = "transform_flag"
+slot71.full_name = ".common.displayinfo.transform_flag"
+slot71.number = 7
+slot71.index = 6
 slot71.label = 2
 slot71.has_default_value = false
 slot71.default_value = 0
 slot71.type = 13
 slot71.cpp_type = 3
+DISPLAYINFO.name = "displayinfo"
+DISPLAYINFO.full_name = ".common.displayinfo"
+DISPLAYINFO.nested_types = {}
+DISPLAYINFO.enum_types = {}
+DISPLAYINFO.fields = {
+	slot65,
+	slot66,
+	slot67,
+	slot68,
+	slot69,
+	slot70,
+	slot71
+}
+DISPLAYINFO.is_extendable = false
+DISPLAYINFO.extensions = {}
+slot72.name = "id"
+slot72.full_name = ".common.idtimeinfo.id"
+slot72.number = 1
+slot72.index = 0
+slot72.label = 2
+slot72.has_default_value = false
+slot72.default_value = 0
+slot72.type = 13
+slot72.cpp_type = 3
+slot73.name = "time"
+slot73.full_name = ".common.idtimeinfo.time"
+slot73.number = 2
+slot73.index = 1
+slot73.label = 2
+slot73.has_default_value = false
+slot73.default_value = 0
+slot73.type = 13
+slot73.cpp_type = 3
 IDTIMEINFO.name = "idtimeinfo"
 IDTIMEINFO.full_name = ".common.idtimeinfo"
 IDTIMEINFO.nested_types = {}
 IDTIMEINFO.enum_types = {}
 IDTIMEINFO.fields = {
-	slot70,
-	slot71
+	slot72,
+	slot73
 }
 IDTIMEINFO.is_extendable = false
 IDTIMEINFO.extensions = {}
 affixinfo = slot0.Message(AFFIXINFO)
 commanderinfo = slot0.Message(COMMANDERINFO)
+commandersinfo = slot0.Message(COMMANDERSINFO)
 displayinfo = slot0.Message(DISPLAYINFO)
 dropinfo = slot0.Message(DROPINFO)
 equipinfo = slot0.Message(EQUIPINFO)

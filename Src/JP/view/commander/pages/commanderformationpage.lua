@@ -1,10 +1,20 @@
-slot0 = class("CommanderFormationPanel", import("..base.BasePanel"))
+slot0 = class("CommanderFormationPage", import("...base.BaseSubView"))
 
-function slot0.init(slot0)
+function slot0.getUIName(slot0)
+	return "CommanderFormationUI"
+end
+
+function slot0.OnInit(slot0)
 	slot0.samllTF = slot0:findTF("small")
+
+	setActive(slot0.samllTF, true)
+
 	slot0.pos1 = slot0:findTF("small/commander1", slot0.topPanel)
 	slot0.pos2 = slot0:findTF("small/commander2", slot0.topPanel)
 	slot0.descPanel = slot0:findTF("desc")
+
+	setActive(slot0.descPanel, false)
+
 	slot0.descFrameTF = slot0:findTF("desc/frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
 	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
@@ -15,25 +25,19 @@ function slot0.init(slot0)
 	slot0.talentsTextList = {}
 	slot0.abilityArr = slot0:findTF("desc/frame/atttr_panel/abilitys/arr")
 	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
-end
+	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
+	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
+	slot0.recordPanel = slot0:findTF("record_panel")
+	slot0.recordCommanders = {
+		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
+		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
+	}
+	slot0.reocrdSkills = {
+		slot0.recordPanel:Find("current/commanders/commander1/skill_info"),
+		slot0.recordPanel:Find("current/commanders/commander2/skill_info")
+	}
+	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
-function slot0.update(slot0, slot1)
-	slot0.fleet = slot1
-	slot2 = slot0.fleet:getCommanders()
-
-	for slot6 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
-		slot0:updateCommander(slot0["pos" .. slot6], slot6, slot2[slot6])
-	end
-
-	if slot0.parent.contextData.inDescPage then
-		slot0:openDescPanel(0, function ()
-			slot0:updateDesc()
-		end)
-	end
-end
-
-function slot0.attach(slot0, slot1)
-	slot0.super.attach(slot0, slot1)
 	onButton(slot0, slot0.samllTF, function ()
 		slot0:openDescPanel(0.2, function ()
 			slot0:updateDesc()
@@ -42,6 +46,40 @@ function slot0.attach(slot0, slot1)
 	onButton(slot0, slot0.descPanel, function ()
 		slot0:closeDescPanel()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.restAllBtn, function ()
+		slot0:emit(FormationMediator.COMMANDER_FORMATION_OP, {
+			FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+			data = {
+				type = LevelUIConst.COMMANDER_OP_REST_ALL
+			},
+			fleetId = slot0.fleet.id
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.quickBtn, function ()
+		slot0:OpenRecordPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.recordPanel, function ()
+		slot0:CloseRecordPanel()
+	end, SFX_PANEL)
+end
+
+function slot0.Update(slot0, slot1, slot2)
+	slot0.fleet = slot1
+	slot0.prefabFleets = slot2
+	slot3 = slot0.fleet:getCommanders()
+
+	for slot7 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
+		slot0:updateCommander(slot0["pos" .. slot7], slot7, slot3[slot7])
+	end
+
+	if slot0.contextData.inDescPage then
+		slot0:openDescPanel(0, function ()
+			slot0:updateDesc()
+		end)
+	end
+
+	slot0:updateRecordPanel()
+	slot0:Show()
 end
 
 function slot0.openDescPanel(slot0, slot1, slot2)
@@ -56,7 +94,7 @@ function slot0.openDescPanel(slot0, slot1, slot2)
 		LeanTween.moveX(slot0.descFrameTF, 0, ):setFrom(800):setOnComplete(System.Action(System.Action))
 	end))
 
-	slot0.parent.contextData.inDescPage = true
+	slot0.contextData.inDescPage = true
 
 	slot0._tf:SetAsLastSibling()
 end
@@ -73,7 +111,7 @@ function slot0.closeDescPanel(slot0, slot1)
 		LeanTween.moveX(slot0.samllTF, 0, ):setFrom(800)
 	end))
 
-	slot0.parent.contextData.inDescPage = false
+	slot0.contextData.inDescPage = false
 end
 
 function slot0.updateDesc(slot0)
@@ -125,7 +163,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 		GetImageSpriteFromAtlasAsync("CommanderSkillIcon/" .. slot1:getSkills()[1].getConfig(slot3, "icon"), "", slot2:Find("icon"))
 		setText(slot2:Find("level"), "Lv." .. slot1.getSkills()[1].getLevel(slot3))
 		onButton(slot0, slot2, function ()
-			slot0.parent:emit(FormationMediator.ON_CMD_SKILL, slot0.parent)
+			slot0:emit(FormationMediator.ON_CMD_SKILL, slot0)
 		end, SFX_PANEL)
 
 		return
@@ -152,10 +190,10 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
 
 	if slot4 then
 		onButton(slot0, slot6, function ()
-			slot0.parent:emit(FormationMediator.ON_SELECT_COMMANDER, slot0.parent, slot0.fleet.id)
+			slot0:emit(FormationMediator.ON_SELECT_COMMANDER, slot0, slot0.fleet.id)
 		end, SFX_PANEL)
 		onButton(slot0, slot5, function ()
-			slot0.parent:emit(FormationMediator.ON_SELECT_COMMANDER, slot0.parent, slot0.fleet.id)
+			slot0:emit(FormationMediator.ON_SELECT_COMMANDER, slot0, slot0.fleet.id)
 		end, SFX_PANEL)
 	end
 
@@ -163,11 +201,85 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot6, slot3)
 end
 
-function slot0.enable(slot0, slot1)
-	setActive(slot0._go, slot1)
+function slot0.OpenRecordPanel(slot0)
+	setActive(slot0.descFrameTF, false)
+	setActive(slot0.recordPanel, true)
 end
 
-function slot0.clear(slot0)
+function slot0.updateRecordPanel(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
+	for slot5, slot6 in ipairs(slot0.recordCommanders) do
+		slot0:updateCommander(slot6, slot5, slot1[slot5])
+		slot0:updateSkillTF(slot1[slot5], slot0.reocrdSkills[slot5])
+	end
+
+	slot0.recordList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot0:UpdatePrefabFleet(slot0.prefabFleets[slot1 + 1], slot2, slot1)
+		end
+	end)
+	slot0.recordList:align(#slot0.prefabFleets)
+end
+
+function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
+	onInputEndEdit(slot0, slot4, function ()
+		if getInputText(getInputText) and slot0 ~= "" and slot0 ~= slot1 then
+			slot2:emit(FormationMediator.COMMANDER_FORMATION_OP, {
+				FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+				data = {
+					type = LevelUIConst.COMMANDER_OP_RENAME,
+					id = slot3.id,
+					str = slot0,
+					onFailed = function ()
+						print("111111111111111111111111")
+						setInputText(setInputText, )
+					end
+				},
+				fleetId = slot2.fleet.id
+			})
+		end
+	end)
+	setInputText(slot4, slot5)
+	onButton(slot0, slot2:Find("use_btn"), function ()
+		slot0:emit(FormationMediator.COMMANDER_FORMATION_OP, {
+			FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+			data = {
+				type = LevelUIConst.COMMANDER_OP_USE_PREFAB,
+				id = slot1.id
+			},
+			fleetId = slot0.fleet.id
+		})
+		slot0.emit:CloseRecordPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot2:Find("record_btn"), function ()
+		slot0:emit(FormationMediator.COMMANDER_FORMATION_OP, {
+			FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+			data = {
+				type = LevelUIConst.COMMANDER_OP_RECORD_PREFAB,
+				id = slot1.id
+			},
+			fleetId = slot0.fleet.id
+		})
+	end, SFX_PANEL)
+
+	slot7 = {
+		slot2:Find("commander1/skill_info"),
+		slot2:Find("commander2/skill_info")
+	}
+
+	for slot11, slot12 in ipairs(slot6) do
+		slot0:updateCommander(slot12, slot11, slot1:getCommanderByPos(slot11))
+		slot0:updateSkillTF(slot1.getCommanderByPos(slot11), slot7[slot11])
+	end
+end
+
+function slot0.CloseRecordPanel(slot0)
+	setActive(slot0.descFrameTF, true)
+	setActive(slot0.recordPanel, false)
+end
+
+function slot0.OnDestroy(slot0)
 	return
 end
 

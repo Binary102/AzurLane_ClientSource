@@ -158,10 +158,16 @@ function slot0.register(slot0)
 			end
 		end
 
+		slot6 = nil
+
+		if slot4:getCommanders()[pos] then
+			slot6 = getProxy(CommanderProxy):getCommanderById(slot5[slot2])
+		end
+
 		slot2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 1,
 			mode = CommandRoomScene.MODE_SELECT,
-			activeCommanderId = slot4:getCommanders()[slot2],
+			activeCommander = slot6,
 			ignoredIds = {},
 			onCommander = function (slot0)
 				return true

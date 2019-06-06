@@ -1,4 +1,4 @@
-slot0 = class("CommanderIndexPanel", import("..base.BasePanel"))
+slot0 = class("CommanderIndexPage", import("...base.BaseSubView"))
 slot1 = {
 	sort = {
 		{
@@ -40,7 +40,11 @@ slot1 = {
 	}
 }
 
-function slot0.init(slot0)
+function slot0.getUIName(slot0)
+	return "CommanderIndexUI"
+end
+
+function slot0.OnInit(slot0)
 	slot0.inited = false
 
 	slot0:resetData()
@@ -54,16 +58,24 @@ function slot0.init(slot0)
 	slot0.cancelBtn = slot0:findTF("frame/frame/cancel_btn")
 	slot0.confirmBtn = slot0:findTF("frame/frame/confirm_btn")
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
-end
 
-function slot0.setOverlay(slot0)
-	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain, true)
+	onButton(slot0, slot0.cancelBtn, function ()
+		slot0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.closeBtn, function ()
+		slot0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf, function ()
+		slot0:Hide()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.confirmBtn, function ()
+		if slot0.confirm then
+			slot0.confirm()
+		end
 
-	slot0._tf.localPosition = Vector3(slot0._tf.localPosition.x, slot0._tf.localPosition.y, 0)
-end
-
-function slot0.setMainLay(slot0)
-	setParent(slot0._tf, slot0.parent._tf, true)
+		slot0:Hide()
+	end, SFX_PANEL)
+	slot0:initToggle()
 end
 
 function slot0.initToggle(slot0)
@@ -175,15 +187,8 @@ function slot0.initRarity(slot0)
 	end
 end
 
-function slot0.show(slot0, slot1)
+function slot0.Show(slot0, slot1)
 	setActive(slot0._tf, true)
-
-	if not slot0.inited then
-		slot0:initToggle()
-
-		slot0.inited = true
-	end
-
 	slot0:updateSelected(slot1)
 end
 
@@ -215,12 +220,12 @@ function slot0.resetData(slot0)
 	}
 end
 
-function slot0.hide(slot0)
+function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 	slot0:resetData()
 end
 
-function slot0.clear(slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

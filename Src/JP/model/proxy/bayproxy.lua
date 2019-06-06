@@ -663,43 +663,37 @@ function slot0.fileterShips(slot0, slot1)
 		end)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot5:isEnd() and defaultValue(slot1.inChallenge, false) then
-		_.each(getProxy(ChallengeProxy).getCurrentChallengeInfo(slot7).getShips(slot8), function (slot0)
-			table.insert(slot0, slot0.id)
-		end)
-	end
-
-	slot7 = defaultValue(slot1.inPvp, false)
+	slot6 = defaultValue(slot1.inPvp, false)
 
 	if defaultValue(slot1.inFleet, false) then
-		for slot13, slot14 in ipairs(slot9) do
-			if slot0.data[slot14] and (slot15:getFleetId() ~= FleetProxy.PVP_FLEET_ID or not not slot7) then
-				table.insert(slot2, slot14)
+		for slot12, slot13 in ipairs(slot8) do
+			if slot0.data[slot13] and (slot14:getFleetId() ~= FleetProxy.PVP_FLEET_ID or not not slot6) then
+				table.insert(slot2, slot13)
 			end
 		end
 	end
 
 	if defaultValue(slot1.inBackyard, false) then
-		for slot14, slot15 in pairs(slot10) do
-			table.insert(slot2, slot14)
+		for slot13, slot14 in pairs(slot9) do
+			table.insert(slot2, slot13)
 		end
 	end
 
 	if defaultValue(slot1.inClass, false) then
-		for slot15, slot16 in ipairs(slot11) do
-			table.insert(slot2, slot16)
+		for slot14, slot15 in ipairs(slot10) do
+			table.insert(slot2, slot15)
 		end
 	end
 
 	if defaultValue(slot1.inTactics, false) then
-		for slot16, slot17 in pairs(slot12) do
-			table.insert(slot2, slot17.shipId)
+		for slot15, slot16 in pairs(slot11) do
+			table.insert(slot2, slot16.shipId)
 		end
 	end
 
 	if defaultValue(slot1.inEvent, false) then
-		for slot17, slot18 in ipairs(slot13) do
-			table.insert(slot2, slot18)
+		for slot16, slot17 in ipairs(slot12) do
+			table.insert(slot2, slot17)
 		end
 	end
 
@@ -708,19 +702,19 @@ function slot0.fileterShips(slot0, slot1)
 	end
 
 	if defaultValue(slot1.inExercise, false) then
-		for slot19, slot20 in pairs(getProxy(MilitaryExerciseProxy).getExerciseFleet(slot14).vanguardShips) do
-			table.insert(slot2, slot20)
+		for slot18, slot19 in pairs(getProxy(MilitaryExerciseProxy).getExerciseFleet(slot13).vanguardShips) do
+			table.insert(slot2, slot19)
 		end
 
-		for slot19, slot20 in pairs(slot15.mainShips) do
-			table.insert(slot2, slot20)
+		for slot18, slot19 in pairs(slot14.mainShips) do
+			table.insert(slot2, slot19)
 		end
 	end
 
 	if defaultValue(slot1.isActivityNpc, false) then
-		for slot18, slot19 in pairs(slot0.data) do
-			if slot19:isActivityNpc() and not table.contains(slot2, slot19.id) then
-				table.insert(slot2, slot19.id)
+		for slot17, slot18 in pairs(slot0.data) do
+			if slot18:isActivityNpc() and not table.contains(slot2, slot18.id) then
+				table.insert(slot2, slot18.id)
 			end
 		end
 	end

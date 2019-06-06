@@ -25,6 +25,10 @@ function slot0.getDefaultShipNameByGroupID(slot0)
 	return slot0:getDefaultShipConfig().name
 end
 
+function slot0.IsBluePrintGroup(slot0)
+	return table.contains(pg.ship_data_blueprint.all, slot0)
+end
+
 slot0.STATE_LOCK = 0
 slot0.STATE_NOTGET = 1
 slot0.STATE_UNLOCK = 2
@@ -204,7 +208,7 @@ function slot0.updateMarriedFlag(slot0)
 end
 
 function slot0.isBluePrintGroup(slot0)
-	return table.contains(pg.ship_data_blueprint.all, slot0.id)
+	return slot0.IsBluePrintGroup(slot0.id)
 end
 
 function slot0.getBluePrintChangeSkillList(slot0)

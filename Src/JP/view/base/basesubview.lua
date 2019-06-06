@@ -7,10 +7,6 @@ slot0.STATES = {
 	NONE = 1
 }
 
-function slot0.getUIName(slot0)
-	return nil
-end
-
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.super.Ctor(slot0, slot2)
 
@@ -165,6 +161,10 @@ end
 
 function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
+end
+
+function slot0.getUIName(slot0)
+	return nil
 end
 
 function slot0.OnLoaded(slot0)

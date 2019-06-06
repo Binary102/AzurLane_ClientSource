@@ -1,4 +1,8 @@
-slot0 = class("CommanderTalentPanel", import("..base.BasePanel"))
+slot0 = class("CommanderTalentPanel", import("...base.BasePanel"))
+slot1 = 1
+slot2 = 2
+slot3 = 3
+slot4 = 4
 
 function slot0.init(slot0)
 	slot0.resetTimeTF = slot0:findTF("frame/point/reset_frame/reset_time")
@@ -43,6 +47,7 @@ function slot0.init(slot0)
 
 	slot0.uilist = UIItemList.New(slot0:findTF("frame/talents/content"), slot0:findTF("frame/talents/content/talent_tpl"))
 	slot0.resetPoint = false
+	slot0.scrollTxts = {}
 end
 
 function slot0.inChapter(slot0, slot1)
@@ -186,41 +191,60 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateTalents(slot0)
+	slot0:clearScrollTxts(slot0)
+
 	slot2 = slot0.commanderVO.getTalents(slot1)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot0:updateTalentCard(slot2, slot1[slot1 + 1])
+			slot0:updateTalentCard(slot2, slot1[slot1 + 1], slot2)
 		end
 	end)
 	slot0.uilist:align(CommanderConst.MAX_TELENT_COUNT)
 end
 
-function slot0.updateTalentCard(slot0, slot1, slot2)
-	slot3 = slot1:Find("unlock")
-	slot4 = slot1:Find("lock")
+function slot0.updateTalentCard(slot0, slot1, slot2, slot3)
+	slot4 = slot1:Find("unlock")
+	slot5 = slot1:Find("lock")
+	slot0.scrollTxts[slot3] = {}
 
 	if slot2 then
-		GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot2:getConfig("icon"), "", slot3:Find("icon"))
+		GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot2:getConfig("icon"), "", slot4:Find("icon"))
 
-		if slot3:Find("tree_btn") then
-			onButton(slot0, slot3:Find("tree_btn"), function ()
+		if slot4:Find("tree_btn") then
+			onButton(slot0, slot4:Find("tree_btn"), function ()
 				slot0.parent:openTreePanel(slot0.parent)
 			end, SFX_PANEL)
 		end
 
-		setText(slot3:Find("name_bg/Text"), slot2:getConfig("name"))
-		setText(slot3:Find("desc"), slot2:getConfig("desc"))
+		setText(slot4:Find("name_bg/Text"), slot2:getConfig("name"))
+
+		slot6 = ScrollTxt.New(slot4:Find("desc"), slot4:Find("desc/Text"))
+
+		slot6:setText(slot2:getConfig("desc"))
+		table.insert(slot0.scrollTxts[slot3], slot6)
 	end
 
-	setActive(slot3, slot2)
+	setActive(slot4, slot2)
 
-	if slot4 then
-		setActive(slot4, not slot2)
+	if slot5 then
+		setActive(slot5, not slot2)
 	end
 end
 
+function slot0.clearScrollTxts(slot0, slot1)
+	slot2 = ipairs
+	slot3 = slot0.scrollTxts[slot1] or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		slot6:clear()
+	end
+
+	slot0.scrollTxts = {}
+end
+
 function slot0.openUseagePanel(slot0)
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.usagePanel, true)
 	slot0.usagePanel:SetAsLastSibling()
 	removeOnButton(slot0.usageConfirmBtn)
@@ -238,14 +262,33 @@ function slot0.openUseagePanel(slot0)
 					if slot0 and (not slot0 or slot0.id ~= slot1.id) then
 						slot0 = slot1
 
-						slot2:updateTalentCard(slot2.usageTalent, slot2.updateTalentCard)
-						slot2(slot2.usageCostIconTF, slot2.updateTalentCard:getConfig("cost") > 0)
+						slot2:updateTalentCard(slot2.usageTalent, slot2.updateTalentCard, )
+
+						slot3 = slot2.usageCostIconTF
+
+						if slot2.updateTalentCard:getConfig("cost") <= 0 then
+							slot4 = false
+						else
+							slot4 = true
+						end
+
+						slot2(slot3, slot4)
+
+						slot3 = slot2.usageCostTxtTF
+						slot4 = slot1 > 0
+
 						slot2(slot2.usageCostTxtTF, slot1 > 0)
 
 						slot2.usageCostTxt.text = slot1
 
-						setActive(slot2.usageConfirmUpgrade, slot2.usageCostTxtTF:hasTalent(slot1))
-						setActive(slot2.usageConfirmILearned, not slot2.usageCostTxtTF:hasTalent(slot1))
+						setActive(slot2.usageConfirmUpgrade, slot1 > 0:hasTalent(slot1))
+						setActive(slot2.usageConfirmILearned, not slot1 > 0.hasTalent:hasTalent(slot1))
+
+						slot4 = false
+
+						if false then
+							slot4 = true
+						end
 					end
 				end, SFX_PANEL)
 				setActive(slot2:Find("up"), slot4)
@@ -260,38 +303,66 @@ function slot0.openUseagePanel(slot0)
 		onButton(slot0, slot0.usageConfirmBtn, function ()
 			if slot0 and slot1:fullTalentCnt() and not slot1:hasTalent(slot1.hasTalent) then
 				slot2:openReplacePanel(slot2.openReplacePanel)
-			elseif slot0 then
-				slot2:emit(CommanderInfoMediator.ON_LEARN_TALENT, slot1.id, slot0.id, 0)
+			else
+				if slot0 then
+					slot2:emit(CommanderInfoMediator.ON_LEARN_TALENT, slot1.id, slot0.id, 0)
+				end
 			end
+
+			return
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.closeUsagePanel(slot0)
 	setActive(slot0.usagePanel, false)
+
+	return
 end
 
 function slot0.openResetPanel(slot0)
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.resetPanel, true)
 	slot0.resetPanel:SetAsLastSibling()
 	slot0.resetList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot0:updateTalentCard(slot2, slot1[slot1 + 1])
+			slot0:updateTalentCard(slot2, slot1[slot1 + 1], slot2)
 		end
+
+		return
 	end)
 	slot0.resetList:align(#slot0.commanderVO.getTalentOrigins(slot1))
 
 	slot0.total = slot0.commanderVO.getResetTalentConsume(slot1)
-	slot0.resetGoldTxt.text = (slot0.parent.playerVO.gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") or slot0.total
+	slot4 = slot0.resetGoldTxt
+
+	if slot0.parent.playerVO.gold >= slot0.total or not ("<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") then
+		slot5 = slot0.total
+	end
+
+	slot4.text = slot5
 	slot0.resetPointTxt.text = slot1:getTotalPoint()
-	GetComponent(slot0.resetGoldTxt, typeof(Outline)).enabled = slot0.total <= slot3.gold
+	slot4 = GetComponent(slot0.resetGoldTxt, typeof(Outline))
+
+	if slot0.total > slot3.gold then
+		slot5 = false
+	else
+		slot5 = true
+	end
+
+	slot4.enabled = slot5
+
+	return
 end
 
 function slot0.closeResetPanel(slot0)
 	setActive(slot0.resetPanel, false)
+
+	return
 end
 
 function slot0.openReplacePanel(slot0, slot1)
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.replacePanel, true)
 	slot0.replacePanel:SetAsLastSibling()
 	slot0.replaceList:make(function (slot0, slot1, slot2)
@@ -308,12 +379,18 @@ function slot0.openReplacePanel(slot0, slot1)
 
 					setActive(slot1:Find("mark"), true)
 				end
+
+				return
 			end, SFX_PANEL)
 			GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot0[slot1 + 1].getConfig(slot3, "icon"), "", slot2)
 		end
+
+		return
 	end)
 	slot3(slot1, nil)
 	slot0.replaceList:align(#slot0.commanderVO.getTalents(slot2))
+
+	return
 end
 
 function slot0.closeReplacePanel(slot0)
@@ -324,6 +401,8 @@ function slot0.closeReplacePanel(slot0)
 
 		slot0.repalceToggle = nil
 	end
+
+	return
 end
 
 function slot0.removeTimer(slot0)
@@ -332,10 +411,18 @@ function slot0.removeTimer(slot0)
 
 		slot0.timer = nil
 	end
+
+	return
 end
 
 function slot0.exit(slot0)
 	slot0:removeTimer()
+	slot0:clearScrollTxts(slot0)
+	slot0:clearScrollTxts(slot0.clearScrollTxts)
+	slot0:clearScrollTxts(slot0)
+	slot0:clearScrollTxts(slot0)
+
+	return
 end
 
 return slot0

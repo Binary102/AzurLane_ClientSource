@@ -284,7 +284,7 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -303,7 +303,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "ハーディ、任務が終わったら…また雪を見に来ない？",
 			typewriter = {
 				speed = 0.05,
@@ -319,7 +319,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "今考えることじゃありませんよ。今はナルヴィクを威力偵察して、それからは……",
 			typewriter = {
 				speed = 0.05,

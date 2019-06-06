@@ -1,10 +1,10 @@
-slot0 = class("CommanderReservePanel")
+slot0 = class("CommanderReservePage", import("...base.BaseSubView"))
 
-function slot0.Ctor(slot0, slot1, slot2)
-	pg.DelegateInfo.New(slot0)
+function slot0.getUIName(slot0)
+	return "CommanderReserveUI"
+end
 
-	slot0._tf = slot2
-	slot0.parent = slot1
+function slot0.OnInit(slot0)
 	slot0.bg1 = slot0._tf:Find("frame/bg1")
 
 	setActive(slot0.bg1, true)
@@ -35,20 +35,12 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.skip = false
 	slot0.block = false
 
-	slot0:init()
-end
-
-function slot0.setBlock(slot0, slot1)
-	slot0.block = slot1
-end
-
-function slot0.init(slot0)
 	onButton(slot0, slot0.closeBg, function ()
 		if slot0.block then
 			return
 		end
 
-		slot0:hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.minusBtn, function ()
 		if slot0.currCnt == 1 then
@@ -78,27 +70,16 @@ function slot0.init(slot0)
 		if slot0.currCnt > 0 then
 			slot0.skip = false
 
-			if slot0.parent.playerVO.gold < slot0.total then
-				GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
-					{
-						59001,
-						slot0 - slot1.gold,
-						slot0
-					}
-				})
-
-				return
+			if slot0.confirm then
+				slot0.confirm(slot0.total, slot0.currCnt)
 			end
-
-			slot0.parent:openMsgBox({
-				content = i18n((slot0 <= 0 and "commander_get_1") or "commander_get", slot0, slot0.currCnt),
-				onYes = function ()
-					slot0.parent:emit(CommandRoomMediator.ON_RESERVE_BOX, slot0.currCnt)
-				end
-			})
 		end
 	end, SFX_PANEL)
 	setText(slot0._tf:Find("frame/bg1/tip"), i18n("commander_build_rate_tip"))
+end
+
+function slot0.setBlock(slot0, slot1)
+	slot0.block = slot1
 end
 
 function slot0.updateValue(slot0)
@@ -110,16 +91,18 @@ function slot0.updateValue(slot0)
 		slot0.total = slot0.total + CommanderConst.getBoxComsume(slot6)
 	end
 
-	slot0.totalTxt.text = (slot0.parent.playerVO.gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") or slot0.total
+	slot0.totalTxt.text = (slot0.player.gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") or slot0.total
 end
 
-function slot0.update(slot0, slot1)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.count = slot1
 	slot0.currCnt = 1
 	slot0.total = 0
+	slot0.player = slot2
 
 	slot0:updateValue()
 	setActive(slot0.firstTip, slot1 <= 0)
+	slot0:Show()
 end
 
 function slot0.endAnim(slot0)
@@ -186,21 +169,10 @@ function slot0.playAnim(slot0, slot1, slot2)
 	end
 end
 
-function slot0.hide(slot0)
-	setActive(slot0._tf, false)
-end
-
-function slot0.show(slot0)
+function slot0.Show(slot0)
 	setActive(slot0._tf, true)
 	setActive(slot0.bg1, true)
 	setActive(slot0.bg2, false)
-
-	slot0.skip = false
-end
-
-function slot0.clear(slot0)
-	pg.DelegateInfo.Dispose(slot0)
-	slot0:hide()
 
 	slot0.skip = false
 end
@@ -219,6 +191,10 @@ function slot0.playBoxMove(slot0, slot1)
 	slot2:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 		Destroy(go(Destroy))
 	end)
+end
+
+function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

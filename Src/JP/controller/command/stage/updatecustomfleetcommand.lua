@@ -25,8 +25,8 @@ class("UpdateCustomFleetCommand", pm.SimpleCommand).execute = function (slot0, s
 
 		for slot27, slot28 in pairs(slot23) do
 			table.insert(slot22, {
-				id = slot27,
-				commanderid = slot28
+				pos = slot27,
+				id = slot28
 			})
 		end
 

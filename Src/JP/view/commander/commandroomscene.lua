@@ -33,9 +33,8 @@ end
 function slot0.setReserveBoxCnt(slot0, slot1)
 	slot0.reserveBoxCnt = slot1
 
-	if slot0.updateReserveBtn then
-		slot0:updateReserveBtn()
-	end
+	slot0:updateReserveBtn(slot0)
+	slot0.reservePanel:ActionInvoke("Update", slot0.reserveBoxCnt, slot0.playerVO)
 end
 
 function slot0.setPools(slot0, slot1)
@@ -54,24 +53,10 @@ function slot0.init(slot0)
 	setActive(slot0.leftPanel, false)
 
 	slot0.leftPanelCG = slot0.leftPanel:GetComponent(typeof(CanvasGroup))
-
-	setActive(slot0:findTF("box_panel"), false)
-
+	slot0.eyeTF = slot0:findTF("eye", slot0.leftPanel)
+	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.backBtn = slot0:findTF("blur_panel/top/back_btn")
-	slot0.commanderInfo = slot0:findTF("info", slot0.leftPanel)
-	slot0.commanderLevelTxt = slot0:findTF("exp/level", slot0.commanderInfo):GetComponent(typeof(Text))
-	slot0.commanderExpImg = slot0:findTF("exp/Image", slot0.commanderInfo):GetComponent(typeof(Image))
-	slot0.commanderNameTxt = slot0:findTF("name_bg/content/Text", slot0.commanderInfo):GetComponent(typeof(Text))
-	slot0.modifyNameBtn = slot0:findTF("name_bg/content/modify", slot0.commanderInfo)
-
-	setActive(slot0.modifyNameBtn, pg.gameset.commander_rename_open.key_value == 1)
-
-	slot0.paintingTF = slot0:findTF("blur_panel/main/left_panel/paint")
-	slot0.fleetTF = slot0:findTF("info/line/fleet", slot0.leftPanel)
-	slot0.leisureTF = slot0:findTF("info/line/leisure", slot0.leftPanel)
-	slot0.labelInBattleTF = slot0:findTF("info/line/inbattle", slot0.leftPanel)
-	slot0.rarityImg = slot0:findTF("info/rarity", slot0.leftPanel):GetComponent(typeof(Image))
-	slot0.detailBtn = slot0:findTF("info_btn", slot0.commanderInfo)
+	slot0.paintingTF = slot0:findTF("paint_panel/paint")
 	slot0.commandersPanel = slot0:findTF("commanders", slot0.rightPanel)
 	slot0.selctedPanel = slot0:findTF("commanders/bottom", slot0.rightPanel)
 	slot0.selectedNumTxt = slot0:findTF("commanders/bottom/value/Text", slot0.rightPanel):GetComponent(typeof(Text))
@@ -82,9 +67,12 @@ function slot0.init(slot0)
 	slot0.boxTF = slot0:findTF("commanders/box", slot0.rightPanel)
 	slot0.boxClickTF = slot0:findTF("click", slot0.boxTF)
 	slot0.capcity = slot0.boxTF:Find("capcity/Text")
-	slot0.msgbox = CommaderMsgBox.New(slot0:findTF("box_msg_panel"))
 	slot0.resPanel = slot0:findTF("blur_panel/top/res/bg")
 	slot0.goldTxt = slot0:findTF("blur_panel/top/res/bg/gold/Text")
+	slot0.toggles = {
+		slot0:findTF("blur_panel/main/left_panel/toggles/play"),
+		slot0:findTF("blur_panel/main/left_panel/toggles/talent")
+	}
 	slot0.mode = slot0.contextData.mode or slot0.MODE_VIEW
 	slot0.sortData = slot0.contextData.sortData or CommandRoomScene.sortData or {
 		asc = true,
@@ -103,11 +91,6 @@ function slot0.init(slot0)
 	end
 
 	setActive(slot0.selctedPanel, slot0.mode == slot0.MODE_SELECT)
-
-	slot0.indexPanel = CommanderIndexPanel.New(slot0:findTF("index_panel"))
-
-	slot0.indexPanel:attach(slot0)
-	slot0.indexPanel:hide()
 	eachChild(slot0.sortBtn, function (slot0)
 		setActive(slot0, go(slot0).name == slot0.sortData.sortData)
 	end)
@@ -122,20 +105,23 @@ function slot0.init(slot0)
 		end, SOUND_BACK)
 	end
 
+	slot0.indexPanel = CommanderIndexPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.treePage = CommanderTreePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.renamePanel = CommanderRenamePage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.msgboxPage = CommanderMsgBoxPage.New(pg.UIMgr.GetInstance().OverlayMain, slot0.event)
+	slot0.reservePanel = CommanderReservePage.New(pg.UIMgr:GetInstance().OverlayMain, slot0.event)
+	slot0.detailPage = CommanderDetailPage.New(slot0.mainTF, slot0.event, slot0.contextData)
+	slot0.boxesPanel = CommanderBoxesPage.New(pg.UIMgr:GetInstance().OverlayMain, slot0.event)
+
 	slot0:enterAnim(function ()
 		if slot0.isMultSelectMode then
 			setParent(slot0.rightPanel, pg.UIMgr.GetInstance().OverlayMain, true)
 
 			slot0.rightPanel.localPosition = Vector3(setParent.rightPanel.localPosition.x, setParent.rightPanel.localPosition.y, 0)
-			pg.UIMgr.GetInstance()._cameraBlur.enabled = true
-
-			slot0.indexPanel:setOverlay()
 		end
 
 		slot0:tryPlayStroy()
 	end)
-
-	slot0.renamePanel = ComanderRenamePanel.New(slot0, slot0:findTF("rename_panel"))
 end
 
 function slot0.finishStroy(slot0, slot1)
@@ -208,76 +194,75 @@ function slot0.updateRes(slot0)
 	end
 end
 
+function slot0.updateReserveBtn(slot0)
+	if not slot0.boxTF then
+		return
+	end
+
+	if not IsNil(slot0:findTF("reserve_btn/Text", slot0.boxTF)) then
+		setText(slot1, CommanderConst.MAX_GETBOX_CNT - slot0.reserveBoxCnt .. "/" .. CommanderConst.MAX_GETBOX_CNT)
+		setActive(slot0:findTF("reserve_btn/free", slot0.boxTF), slot0.reserveBoxCnt == 0)
+	end
+end
+
+function slot0.UpdateBoxesBtn(slot0)
+	if not IsNil(slot0:findTF("boxes_btn/tip/Text", slot0.boxTF)) then
+		slot2 = 0
+
+		for slot7, slot8 in ipairs(slot3) do
+			print("v:" .. slot8:getState())
+		end
+
+		setText(slot1, #slot3)
+		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
+			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
+		end))
+	end
+end
+
+function slot0.updateBoxes(slot0)
+	if slot0.boxesPanel:GetLoaded() and slot0.boxes then
+		slot0.boxesPanel:ActionInvoke("Update", slot0.boxes, slot0.pools)
+	end
+
+	slot0:UpdateBoxesBtn()
+end
+
 function slot0.initBoxes(slot0)
-	function slot0.updateBoxes(slot0)
-		if slot0.boxesPanel:isShow() and slot0.boxes then
-			slot0.boxesPanel:update(slot0.boxes)
-		end
-
-		if slot0.updateBoxesBtn then
-			slot0:updateBoxesBtn()
-		end
-	end
-
-	function slot0.openBoxPanel(slot0)
-		slot0.boxesPanel:update(slot0.boxes)
-		slot0.boxesPanel:show()
-	end
-
-	function slot0.hideBoxPanel(slot0)
-		slot0.boxesPanel:hide()
-	end
-
 	slot0:updateCapcity()
-
-	slot0.boxesPanel = CommanderBoxesPanel.New(slot0, slot0:findTF("box_panel"), slot0.pools)
-
-	slot0:hideBoxPanel()
-
-	slot0.reservePanel = CommanderReservePanel.New(slot0, slot0:findTF("buy_panel"))
-
-	slot0.reservePanel:hide()
-	onButton(slot0, slot0.boxesPanel._go, function ()
-		slot0:hideBoxPanel()
-	end, SFX_PANEL)
-
-	function slot0.updateReserveBtn(slot0)
-		if not IsNil(slot0:findTF("reserve_btn/Text", slot0.boxTF)) then
-			setText(slot1, CommanderConst.MAX_GETBOX_CNT - slot0.reserveBoxCnt .. "/" .. CommanderConst.MAX_GETBOX_CNT)
-			setActive(slot0:findTF("reserve_btn/free", slot0.boxTF), slot0.reserveBoxCnt == 0)
-		end
-	end
-
-	slot0:updateReserveBtn()
-
-	function slot0.updateBoxesBtn(slot0)
-		if not IsNil(slot0:findTF("boxes_btn/Text", slot0.boxTF)) then
-			setText(slot1, #_.select(slot0.boxes, function (slot0)
-				return CommanderBox.STATE_WAITING < slot0:getState()
-			end) .. "/" .. #slot0.boxes)
-			setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
-				return slot0:getState() == CommanderBox.STATE_FINISHED
-			end))
-		end
-	end
-
-	slot0:updateBoxesBtn()
-
-	function slot0.playReserveAnim(slot0, slot1, slot2)
-		if slot0.reservePanel then
-			slot0.reservePanel:playAnim(slot1, slot2)
-		else
-			slot2()
-		end
-	end
-
+	slot0:UpdateBoxesBtn()
 	onButton(slot0, slot0:findTF("reserve_btn", slot0.boxTF), function ()
-		slot0.reservePanel:show()
-		slot0.reservePanel.show.reservePanel:update(slot0.reserveBoxCnt)
+		if slot0.reservePanel:GetLoaded() then
+			slot0()
+		else
+			slot0.reservePanel:Load()
+			slot0.reservePanel:AddLoadedCallback(slot0)
+		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("boxes_btn", slot0.boxTF), function ()
-		slot0:openBoxPanel()
+		if slot0.boxesPanel:GetLoaded() then
+			slot0()
+		else
+			slot0.boxesPanel:Load()
+			slot0.boxesPanel:AddLoadedCallback(slot0)
+		end
 	end, SFX_PANEL)
+end
+
+function slot0.OnReserveDone(slot0, slot1)
+	slot0.reservePanel:ActionInvoke("setBlock", true)
+	seriesAsync({
+		function (slot0)
+			slot0.reservePanel:ActionInvoke("playAnim", slot0.reservePanel.ActionInvoke, slot0)
+		end,
+		function (slot0)
+			slot0:emit(slot1.ON_AWARD, {
+				items = slot0
+			})
+			slot0:updateRes()
+			slot0.reservePanel:ActionInvoke("setBlock", false)
+		end
+	})
 end
 
 function slot0.updateCapcity(slot0)
@@ -315,19 +300,16 @@ function slot0.exitAnim(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	slot0.helpBtn = slot0:findTF("help_btn")
+	for slot4, slot5 in ipairs(slot0.toggles) do
+		onButton(slot0, slot5, function ()
+			slot0:SwitchPage(slot0)
 
-	onButton(slot0, slot0.modifyNameBtn, function ()
-		if not slot0.commanderVOs[slot0.conmmanderId]:canModifyName() then
-			slot0:openMsgBox({
-				content = i18n("commander_rename_coldtime_tip", slot0:getRenameTimeDesc())
-			})
-		else
-			slot0:opeRenamePanel(slot0)
-		end
+			return
+		end, SFX_PANEL)
+	end
 
-		return
-	end, SFX_PANEL)
+	slot0.helpBtn = slot0:findTF("help_btn", slot0.leftPanel)
+
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -337,6 +319,11 @@ function slot0.didEnter(slot0)
 		return
 	end, SFX_PANEL)
 	setActive(slot0.helpBtn, slot0.MODE_VIEW == slot0.mode)
+	onButton(slot0, slot0.eyeTF, function ()
+		slot0:paintingView()
+
+		return
+	end, SFX_PANEL)
 
 	if slot0.MODE_VIEW == slot0.mode then
 		slot0:initBoxes()
@@ -354,50 +341,12 @@ function slot0.didEnter(slot0)
 		return
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortBtn, function ()
-		slot0.indexPanel:show(slot0.sortData)
-
-		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0.indexPanel.cancelBtn, function ()
-		slot0.indexPanel:hide()
-
-		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0.indexPanel.confirmBtn, function ()
-		slot0.sortData = slot0.indexPanel.data
-		slot0.sortData.asc = slot0.sortData.asc
-
-		slot0:clearAllSelected()
-		slot0:updateCommanders()
-		slot0.indexPanel:hide()
-		eachChild(slot0.sortBtn, function (slot0)
-			setActive(slot0, go(slot0).name == slot0.sortData.sortData)
-
-			return
-		end)
-
-		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0.indexPanel.closeBtn, function ()
-		slot0.indexPanel:hide()
-
-		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0.indexPanel._tf, function ()
-		slot0.indexPanel:hide()
-
-		return
-	end, SFX_PANEL)
-	onButton(slot0, slot0.detailBtn, function ()
-		if not slot0.conmmanderId then
-			return
+		if slot0.indexPanel:GetLoaded() then
+			slot0()
+		else
+			slot0.indexPanel:Load()
+			slot0.indexPanel:AddLoadedCallback(slot0)
 		end
-
-		slot0:exitAnim(function ()
-			slot0:emit(CommandRoomMediator.ON_DETAIL, slot0.conmmanderId)
-
-			return
-		end)
 
 		return
 	end, SFX_PANEL)
@@ -431,7 +380,8 @@ function slot0.didEnter(slot0)
 		return
 	end, SFX_PANEL)
 
-	slot0.conmmanderId = CommandRoomScene.commanderId or slot0.contextData.conmmanderId or slot0.contextData.activeCommanderId
+	slot0.activeCommanderId = slot0.contextData.activeCommander and slot0.contextData.activeCommander.id
+	slot0.conmmanderId = CommandRoomScene.commanderId or slot0.contextData.conmmanderId
 	CommandRoomScene.commanderId = nil
 
 	slot0:initCommandersPanel()
@@ -441,14 +391,140 @@ function slot0.didEnter(slot0)
 	return
 end
 
+function slot0.paintingView(slot0)
+	if LeanTween.isTweening(slot0.topPanel) then
+		return
+	end
+
+	slot0.detailPage:tweenHide(slot1)
+	slot0.detailPage:onPaintingView()
+	LeanTween.moveY(rtf(slot0.topPanel), slot0.topPanel.localPosition.y - 300, slot1)
+	LeanTween.moveX(rtf(slot0.leftPanel), -300, slot1)
+	LeanTween.moveX(rtf(slot0.rightPanel), 1000, slot1)
+	LeanTween.moveX(rtf(slot0.paintingTF), 0, slot1):setOnComplete(System.Action(function ()
+		slot0 = GetOrAddComponent(slot0.bgTF, "MultiTouchZoom")
+
+		slot0:SetZoomTarget(slot0.paintingTF)
+
+		slot1 = GetOrAddComponent(slot0.bgTF, "EventTriggerListener")
+		slot0.enabled = true
+		slot1.enabled = true
+
+		onButton(slot0, slot0.bgTF, function ()
+			GetOrAddComponent(slot0.bgTF, "MultiTouchZoom").enabled = false
+			false.enabled = false
+
+			slot0:MainView()
+
+			return
+		end, SFX_PANEL)
+
+		slot3 = slot0.paintingTF.anchoredPosition.x
+		slot4 = slot0.paintingTF.anchoredPosition.y
+		slot7 = slot0._tf.rect.width / UnityEngine.Screen.width
+		slot8 = slot0._tf.rect.height / UnityEngine.Screen.height
+		slot9 = slot0.paintingTF.rect.width / 2
+		slot10 = slot0.paintingTF.rect.height / 2
+		slot11, slot12 = nil
+		slot13 = true
+		slot14 = false
+
+		slot1:AddPointDownFunc(function (slot0)
+			if Input.touchCount == 1 or Application.isEditor then
+				slot0 = true
+				slot1 = true
+			else
+				if Input.touchCount >= 2 then
+					slot1 = false
+					slot0 = false
+				end
+			end
+
+			return
+		end)
+		slot1:AddPointUpFunc(function (slot0)
+			if Input.touchCount <= 2 then
+				slot0 = true
+			end
+
+			return
+		end)
+		slot1:AddBeginDragFunc(function (slot0, slot1)
+			slot0 = false
+			slot5 = slot1.position.x *  - slot1.position.x - slot4.localPosition.x.position.y * slot6 - slot7 - slot4.localPosition.y
+
+			return
+		end)
+		slot1:AddDragFunc(function (slot0, slot1)
+			if slot0 then
+				slot1.paintingTF.localPosition = Vector3(slot1.position.x * slot2 - slot3 - slot4, slot1.position.y * slot5 -  - slot1.position.y * slot5, -22)
+			end
+
+			return
+		end)
+
+		return
+	end))
+
+	return
+end
+
+function slot0.MainView(slot0)
+	if LeanTween.isTweening(slot0.topPanel) then
+		return
+	end
+
+	slot0.detailPage:onExitPaintingView()
+	LeanTween.moveY(rtf(slot0.topPanel), 0, slot1)
+	LeanTween.moveX(rtf(slot0.leftPanel), 0, slot1)
+	LeanTween.moveX(rtf(slot0.rightPanel), 0, slot1)
+
+	slot0.paintingTF.localPosition = Vector3(slot0.paintingTF.localPosition.x, -58, 0)
+
+	LeanTween.moveX(rtf(slot0.paintingTF), -535, 0.5)
+	slot0.detailPage:tweenShow(0.5)
+
+	return
+end
+
+function slot0.SwitchPage(slot0, slot1)
+	slot0:emit(CommandRoomMediator.ON_DETAIL, slot0.conmmanderId, slot1)
+
+	return
+end
+
 function slot0.opeRenamePanel(slot0, slot1)
-	slot0.renamePanel:open(slot1)
+	function slot2(slot0)
+		slot0:openMsgBox({
+			content = i18n("commander_rename_warning", slot0),
+			onYes = function ()
+				slot0:emit(CommandRoomMediator.ON_RENAME, slot1.id, )
+
+				return
+			end
+		})
+
+		return
+	end
+
+	function slot3()
+		slot0.renamePanel:ActionInvoke("Show", slot0.renamePanel, )
+
+		return
+	end
+
+	if slot0.renamePanel:GetLoaded() then
+		slot3()
+	else
+		slot0.renamePanel:Load()
+		slot0.renamePanel:AddLoadedCallback(slot3)
+	end
 
 	return
 end
 
 function slot0.closeRenamePanel(slot0)
-	slot0.renamePanel:close()
+	slot0.renamePanel:ActionInvoke("Hide")
 
 	return
 end
@@ -533,8 +609,14 @@ function slot0.initCommandersPanel(slot0)
 			if slot0.mode == slot1.MODE_VIEW and not slot0.conmmanderId and slot0 == 0 then
 				triggerButton(slot2.infoTF)
 			else
-				if slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 and slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
-					slot0:checkCommander(slot2.commanderVO)
+				if slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 then
+					if slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
+						slot0:checkCommander(slot2.commanderVO)
+					end
+				else
+					if slot0.mode == slot1.MODE_SELECT and not slot0.activeCommanderId and slot0.contextData.maxCount == 1 and slot0 == 0 and slot2.commanderVO ~= nil then
+						triggerButton(slot2.infoTF)
+					end
 				end
 			end
 		end
@@ -553,6 +635,10 @@ function slot0.initCommandersPanel(slot0)
 
 	if slot0.mode == slot0.MODE_SELECT then
 		function slot0.commanderRect.onStart()
+			if slot0.contextData.activeCommander then
+				slot0:updateCommanderInfo(slot0.contextData.activeCommander)
+			end
+
 			if slot0.isMultSelectMode then
 				slot0:updateSelecteds()
 			end
@@ -615,6 +701,10 @@ function slot0.checkCommander(slot0, slot1)
 
 		slot0:updateCommanderInfo()
 		table.remove(slot0.selecteds, #slot0.selecteds)
+
+		if slot0.contextData.activeCommander then
+			slot0.detailPage:ActionInvoke("updatePreviewAddition", slot0.contextData.activeCommander)
+		end
 	else
 		if slot3 <= #slot0.selecteds then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_select_max"))
@@ -640,6 +730,18 @@ function slot0.updateSelecteds(slot0)
 
 	slot0:updateSelectCntTxt()
 
+	if slot0.contextData.activeCommander then
+		slot2 = Clone(slot0.contextData.activeCommander)
+		slot3 = 0
+
+		if slot0.contextData.maxCount > 1 then
+			slot3 = CommanderPlayPanel.getSkillExpAndCommanderExp(slot2, slot0.selecteds)
+		end
+
+		slot2:addExp(slot3)
+		slot0.detailPage:ActionInvoke("updatePreView", slot2)
+	end
+
 	return
 end
 
@@ -658,24 +760,33 @@ function slot0.updateBg(slot0, slot1)
 	return
 end
 
-function slot0.updateCommanderInfo(slot0)
-	if not slot0.conmmanderId then
-		return
-	end
+function slot0.updateCommanderInfo(slot0, slot1)
+	slot2 = nil
 
-	slot0:updateBg(slot2)
-
-	slot0.commanderLevelTxt.text = "LV." .. slot0.commanderVOs[slot0.conmmanderId].level
-
-	if slot0.commanderVOs[slot0.conmmanderId]:isMaxLevel() then
-		slot0.commanderExpImg.fillAmount = 1
+	if slot1 then
+		slot2 = slot1
 	else
-		slot0.commanderExpImg.fillAmount = slot2.exp / slot2:getNextLevelExp()
+		if not slot0.conmmanderId then
+			return
+		end
+
+		slot2 = slot0.commanderVOs[slot0.conmmanderId]
 	end
 
-	slot0.commanderNameTxt.text = slot2:getName()
+	slot0.detailPage:ActionInvoke("Update", slot2)
 
-	setActive(slot0.leftPanel, true)
+	if slot0.mode == slot0.MODE_SELECT then
+		slot0.detailPage:ActionInvoke("ToggleOn")
+	else
+		if slot2:getTalentPoint() > 0 then
+			setText(slot0.toggles[2]:Find("tip/Text"), slot3)
+		end
+
+		setActive(slot0.toggles[2]:Find("tip"), slot3 > 0)
+	end
+
+	setActive(slot0.leftPanel, slot0.mode ~= slot0.MODE_SELECT)
+	slot0:updateBg(slot2)
 
 	if slot0.painting then
 		retPaintingPrefab(slot0.paintingTF, slot0.painting:getPainting())
@@ -684,20 +795,6 @@ function slot0.updateCommanderInfo(slot0)
 	setPaintingPrefab(slot0.paintingTF, slot2:getPainting(), "info")
 
 	slot0.painting = slot2
-
-	LoadImageSpriteAsync("CommanderRarity/" .. slot3, slot0.rarityImg, true)
-
-	if slot2.fleetId then
-		eachChild(slot0.fleetTF, function (slot0)
-			setActive(slot0, go(slot0).name == tostring(slot0.fleetId))
-
-			return
-		end)
-	end
-
-	setActive(slot0.fleetTF, slot2.fleetId and not slot2.inBattle)
-	setActive(slot0.leisureTF, not slot2.inFleet and not slot2.inBattle)
-	setActive(slot0.labelInBattleTF, slot2.inBattle)
 
 	return
 end
@@ -730,7 +827,7 @@ function slot0.updateCommanders(slot0)
 
 	table.sort(slot0.disPlayCommanderVOs, function (slot0, slot1)
 		if ((slot0.inFleet and 1) or 0) == ((slot1.inFleet and 1) or 0) then
-			if ((slot0.contextData.activeCommanderId == slot0.id and 1) or 0) == ((slot0.contextData.activeCommanderId == slot1.id and 1) or 0) then
+			if ((slot0.activeCommanderId == slot0.id and 1) or 0) == ((slot0.activeCommanderId == slot1.id and 1) or 0) then
 				if slot1.sortData == "id" then
 					if slot1.asc then
 						slot6 = {
@@ -786,7 +883,7 @@ function slot0.updateCommanders(slot0)
 		return
 	end)
 
-	if slot0.contextData.activeCommanderId then
+	if slot0.activeCommanderId and slot0.contextData.maxCount == 1 then
 		table.insert(slot0.disPlayCommanderVOs, 1, {
 			id = 0
 		})
@@ -828,20 +925,20 @@ function slot0.clearAllSelected(slot0)
 end
 
 function slot0.onBackPressed(slot0)
+	if slot0.renamePanel.isShowMsgBox then
+		slot0.renamePanel:ActionInvoke("Hide")
+
+		return
+	end
+
 	if slot0.isShowMsgBox then
 		slot0:closeMsgBox()
 
 		return
 	end
 
-	if slot0.boxesPanel and go(slot0.boxesPanel.buildPoolPanel).activeSelf then
-		slot0.boxesPanel:hideBuildPoolPanel()
-
-		return
-	end
-
 	if slot0.boxesPanel and slot0.boxesPanel:isShow() then
-		slot0.boxesPanel:hide()
+		slot0.boxesPanel:onBackPressed()
 
 		return
 	end
@@ -854,10 +951,18 @@ end
 function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
-	slot0.msgbox:openMsgBox(slot1)
-	setParent(slot0.msgbox._tf, pg.UIMgr.GetInstance().OverlayMain, true)
+	function slot2()
+		slot0.msgboxPage:ActionInvoke("OnUpdate", slot0.msgboxPage)
 
-	slot0.msgbox._tf.localPosition = Vector3(slot0.msgbox._tf.localPosition.x, slot0.msgbox._tf.localPosition.y, 0)
+		return
+	end
+
+	if slot0.msgboxPage:GetLoaded() then
+		slot2()
+	else
+		slot0.msgboxPage:Load()
+		slot0.msgboxPage:AddLoadedCallback(slot2)
+	end
 
 	return
 end
@@ -865,23 +970,35 @@ end
 function slot0.closeMsgBox(slot0)
 	slot0.isShowMsgBox = nil
 
-	slot0.msgbox:closeMsgBox()
-	setParent(slot0.msgbox._tf, pg.UIMgr.GetInstance().UIMain, true)
+	slot0.msgboxPage:ActionInvoke("Hide")
 
-	slot0.msgbox._tf.localPosition = Vector3(slot0.msgbox._tf.localPosition.x, slot0.msgbox._tf.localPosition.y, 0)
+	return
+end
+
+function slot0.openTreePanel(slot0, slot1)
+	function slot2()
+		slot0.treePage:ActionInvoke("openTreePanel", slot0.treePage)
+
+		return
+	end
+
+	if slot0.treePage:GetLoaded() then
+		slot2()
+	else
+		slot0.treePage:Load()
+		slot0.treePage:AddLoadedCallback(slot2)
+	end
+
+	return
+end
+
+function slot0.closeTreePanel(slot0)
+	slot0.treePage:ActionInvoke("closeTreePanel")
 
 	return
 end
 
 function slot0.willExit(slot0)
-	if slot0.boxesPanel then
-		slot0.boxesPanel:clear()
-	end
-
-	if slot0.reservePanel then
-		slot0.reservePanel:clear()
-	end
-
 	for slot4, slot5 in ipairs(slot0.cards) do
 		slot5:clear()
 	end
@@ -892,18 +1009,19 @@ function slot0.willExit(slot0)
 
 	if slot0.mode == slot0.MODE_SELECT and slot0.contextData.maxCount > 1 then
 		setParent(slot0.rightPanel, slot0._tf, true)
-
-		pg.UIMgr.GetInstance()._cameraBlur.enabled = false
-
 		setActive(slot0.leftPanel, true)
-		slot0.indexPanel:setMainLay()
 	end
-
-	slot0.indexPanel:detach()
 
 	if slot0.modelTf and slot0.prefabName then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.modelTf.gameObject)
 	end
+
+	slot0.renamePanel:Destroy()
+	slot0.indexPanel:Destroy()
+	slot0.msgboxPage:Destroy()
+	slot0.reservePanel:Destroy()
+	slot0.detailPage:Destroy()
+	slot0.boxesPanel:Destroy()
 
 	slot0.contextData.sortData = slot0.sortData
 	slot0.contextData.sortData.asc = not slot0.contextData.sortData.asc

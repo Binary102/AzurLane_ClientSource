@@ -17,6 +17,8 @@ function slot0.Flush(slot0, slot1)
 	slot0.activity = slot1
 
 	if slot0:OnDataSetting() then
+		slot0.activity = nil
+
 		return
 	end
 

@@ -570,6 +570,16 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[66] = {
+		achieve = 0,
+		id = 66,
+		index = 1024,
+		pic = "xixue",
+		desc = "<color=#92fc63>[えっへん！]</color>",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		id = 100,
@@ -1178,6 +1188,7 @@ pg.emoji_template = {
 		63,
 		64,
 		65,
+		66,
 		100,
 		101,
 		102,

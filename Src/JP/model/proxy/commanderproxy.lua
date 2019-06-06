@@ -4,10 +4,21 @@ slot0.COMMANDER_ADDED = "CommanderProxy:COMMANDER_ADDED"
 slot0.COMMANDER_DELETED = "CommanderProxy:COMMANDER_DELETED"
 slot0.RESERVE_CNT_UPDATED = "CommanderProxy:RESERVE_CNT_UPDATED"
 slot0.COMMANDER_BOX_FINISHED = "CommanderProxy:COMMANDER_BOX_FINISHED"
+slot0.PREFAB_FLEET_UPDATE = "CommanderProxy:PREFAB_FLEET_UPDATE"
+slot0.MAX_WORK_COUNT = 4
+slot0.MAX_SLOT = 10
+slot0.MAX_PREFAB_FLEET = 3
 
 function slot0.register(slot0)
 	slot0.data = {}
 	slot0.boxes = {}
+	slot0.prefabFleet = {}
+
+	for slot4 = 1, slot0.MAX_PREFAB_FLEET, 1 do
+		slot0.prefabFleet[slot4] = CommnaderFleet.New({
+			id = slot4
+		})
+	end
 
 	for slot5 = 1, pg.gameset.commander_box_count.key_value, 1 do
 		slot0:addBox(CommanderBox.New({
@@ -34,11 +45,47 @@ function slot0.register(slot0)
 			slot0:updateBox(CommanderBox.New(slot5))
 		end
 
+		for slot4, slot5 in ipairs(slot0.presets) do
+			slot6 = slot5.id
+			slot8 = {}
+
+			for slot12, slot13 in ipairs(slot7) do
+				if slot0:getCommanderById(slot13.id) then
+					slot8[slot13.pos] = slot14
+				end
+			end
+
+			slot0.prefabFleet[slot6]:Update({
+				id = slot6,
+				name = slot0.name,
+				commanders = slot8
+			})
+		end
+
 		slot0.boxUsageCount = slot0.usage_count or 0
 		slot0._mainUITimer = pg.TimeMgr:GetInstance():AddTimer("CommanderProxy", 0, 10, function ()
 			slot0:notification()
 		end)
 	end)
+end
+
+function slot0.getPrefabFleetById(slot0, slot1)
+	return slot0.prefabFleet[slot1]
+end
+
+function slot0.getPrefabFleet(slot0)
+	return Clone(slot0.prefabFleet)
+end
+
+function slot0.updatePrefabFleet(slot0, slot1)
+	slot0.prefabFleet[slot1.id] = slot1
+
+	slot0:sendNotification(slot0.PREFAB_FLEET_UPDATE)
+end
+
+function slot0.updatePrefabFleetName(slot0, slot1, slot2)
+	slot0.prefabFleet[slot1].updateName(slot3, slot2)
+	slot0:sendNotification(slot0.PREFAB_FLEET_UPDATE)
 end
 
 function slot0.getCommanderCnt(slot0)
@@ -112,9 +159,19 @@ function slot0.updateCommander(slot0, slot1)
 end
 
 function slot0.removeCommanderById(slot0, slot1)
+	slot0:checkPrefabFleet(slot1)
+
 	slot0.data[slot1] = nil
 
 	slot0:sendNotification(slot0.COMMANDER_DELETED, slot1)
+end
+
+function slot0.checkPrefabFleet(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.prefabFleet) do
+		if slot6:contains(slot1) then
+			slot6:removeCommander(slot1)
+		end
+	end
 end
 
 function slot0.notification(slot0)

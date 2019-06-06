@@ -118,7 +118,7 @@ function slot0.onRegister(slot0)
 				awards = slot1,
 				title = slot2,
 				removeFunc = slot3,
-				animtion = slot1.animation
+				animation = slot1.animation
 			}
 		}))
 	end)

@@ -8,21 +8,11 @@ return {
 	scripts = {
 		{
 			actor = 303090,
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			bgm = "story-6",
-			hideOther = true,
-			nameColor = "#a9f548",
 			say = "変ですね…9時方向に行った艦載機たちからの連絡がないです…",
-			subActors = {
-				{
-					dir = 1,
-					actor = 304050,
-					pos = {
-						x = 1030.5
-					}
-				}
-			},
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,21 +24,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
 			dir = -1,
 			actor = 304050,
-			nameColor = "#a9f548",
 			say = "…鳳翔さんは全機無事帰還してほしいと願っていましたわね……困ります……",
-			subActors = {
-				{
-					dir = 1,
-					actor = 303090,
-					pos = {
-						x = -1030.5
-					}
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

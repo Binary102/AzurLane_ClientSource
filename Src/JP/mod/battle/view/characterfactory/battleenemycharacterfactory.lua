@@ -57,6 +57,7 @@ function slot1.MakeBloodBar(slot0, slot1)
 
 	if slot1:GetUnitData():GetTemplate().icon_type ~= 0 then
 		setImageSprite(slot4, slot5, true)
+		setImageSprite(slot6, slot5, true)
 		SetActive(slot4, true)
 	else
 		SetActive(slot4, false)

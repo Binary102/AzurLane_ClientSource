@@ -11,7 +11,11 @@ return {
 				posX = 0
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/boxes_btn"
+				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/blur_panel/main/right_panel/commanders/box/boxes_btn",
+				fingerPos = {
+					posY = -60,
+					posX = 45
+				}
 			}
 		},
 		{
@@ -24,32 +28,42 @@ return {
 				posX = 0
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/frame/boxes/mask/content/frame/idle/consume/start_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/boxes/start_btn"
+			}
+		},
+		{
+			alpha = 0.4,
+			style = {
+				text = "訓練するネコハコは<color=#A9F548>10</color>個まで選択できるけど、同時に訓練できるのは<color=#A9F548>4</color>個までね！",
+				mode = 1,
+				dir = 1,
+				posY = -110,
+				posX = 0
 			}
 		},
 		{
 			ui = {
 				customSize = true,
-				scale = 1.5,
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/buildpool_panel/frame/bg/content/list/2",
+				scale = 1,
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/content/list/2/icon",
 				triggerType = {
-					2
+					3
 				}
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/buildpool_panel/frame/bg/confirm_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/buildpool_panel/frame/bg/start_btn"
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/box_msg_panel/frame/confirm_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/frame/close_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/frame/close_btn"
 			}
 		}
 	}

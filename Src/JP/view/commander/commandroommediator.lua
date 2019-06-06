@@ -1,20 +1,51 @@
 slot0 = class("CommandRoomMediator", import("..base.ContextMediator"))
 slot0.ON_GET = "CommandRoomMediator:ON_GET"
 slot0.ON_BUILD = "CommandRoomMediator:ON_BUILD"
-slot0.ON_DETAIL = "CommandRoomMediator:ON_DETAIL"
+slot0.ON_BATCH_BUILD = "CommandRoomMediator:ON_BATCH_BUILD"
+slot0.ON_BATCH_GET = "CommandRoomMediator:ON_BATCH_GET"
 slot0.ON_FETCH = "CommandRoomMediator:ON_FETCH"
 slot0.ON_RESERVE_BOX = "CommandRoomMediator:ON_RESERVE_BOX"
 slot0.ON_REMARK = "CommandRoomMediator:ON_REMARK"
-slot0.ON_RENAME = "CommanderInfoMediator:ON_RENAME"
+slot0.ON_RENAME = "CommandRoomMediator:ON_RENAME"
+slot0.ON_CMD_SKILL = "CommandRoomMediator:ON_CMD_SKILL"
+slot0.SHOW_MSGBOX = "CommandRoomMediator:SHOW_MSGBOX"
+slot0.ON_TREE_MSGBOX = "CommandRoomMediator:ON_TREE_MSGBOX"
+slot0.ON_DETAIL = "CommandRoomMediator:ON_DETAIL"
+slot0.OPEN_RENAME_PANEL = "CommandRoomMediator:OPEN_RENAME_PANEL"
+slot0.ON_LOCK = "CommandRoomMediator:ON_LOCK"
 
 function slot0.register(slot0)
 	slot2 = getProxy(CommanderProxy)
 
+	slot0:bind(slot0.ON_LOCK, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.COMMANDER_LOCK, {
+			commanderId = slot1,
+			flag = slot2
+		})
+	end)
+	slot0:bind(slot0.OPEN_RENAME_PANEL, function (slot0, slot1)
+		slot0.viewComponent:opeRenamePanel(slot1)
+	end)
+	slot0:bind(slot0.SHOW_MSGBOX, function (slot0, slot1)
+		slot0.viewComponent:openMsgBox(slot1)
+	end)
+	slot0:bind(slot0.ON_TREE_MSGBOX, function (slot0, slot1)
+		slot0.viewComponent:openTreePanel(slot1)
+	end)
 	slot0:bind(slot0.ON_RENAME, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.COMMANDER_RENAME, {
 			commanderId = slot1,
 			name = slot2
 		})
+	end)
+	slot0:bind(slot0.ON_CMD_SKILL, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = CommanderSkillMediator,
+			viewComponent = CommanderSkillLayer,
+			data = {
+				skill = slot1
+			}
+		}))
 	end)
 	slot0:bind(slot0.ON_REMARK, function ()
 		slot0.viewComponent:setCommanders(slot0:markFleet())
@@ -24,28 +55,57 @@ function slot0.register(slot0)
 			count = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_GET, function (slot0, slot1)
+	slot0:bind(slot0.ON_GET, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.COMMANDER_ON_OPEN_BOX, {
-			id = slot1
+			id = slot1,
+			callback = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_BUILD, function (slot0, slot1)
-		slot0:sendNotification(GAME.COMMANDER_ON_BUILD, {
-			id = slot1
-		})
-	end)
-	slot0:bind(slot0.ON_DETAIL, function (slot0, slot1)
+	slot0:bind(slot0.ON_BATCH_GET, function (slot0, slot1)
 		slot2 = {}
-		slot3 = slot0.viewComponent.disPlayCommanderVOs or {}
 
-		for slot7, slot8 in ipairs(slot3) do
-			table.insert(slot2, slot8.id)
+		for slot6, slot7 in pairs(slot1) do
+			if slot7:getState() == CommanderBox.STATE_FINISHED then
+				table.insert(slot2, slot7.id)
+			end
+		end
+
+		slot0:sendNotification(GAME.COMMANDER_ON_BATCH, {
+			boxIds = slot2
+		})
+	end)
+	slot0:bind(slot0.ON_BUILD, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.COMMANDER_ON_BUILD, {
+			id = slot1,
+			callback = slot2
+		})
+	end)
+	slot0:bind(slot0.ON_BATCH_BUILD, function (slot0, slot1)
+		slot2 = {}
+
+		for slot6 = 1, #slot1, 1 do
+			slot7 = slot1[slot6]
+
+			table.insert(slot2, function (slot0)
+				slot0.viewComponent:emit(slot1.ON_BUILD, slot0.viewComponent, slot0)
+			end)
+		end
+
+		seriesAsync(slot2)
+	end)
+	slot0:bind(slot0.ON_DETAIL, function (slot0, slot1, slot2)
+		slot3 = {}
+		slot4 = slot0.viewComponent.disPlayCommanderVOs or {}
+
+		for slot8, slot9 in ipairs(slot4) do
+			table.insert(slot3, slot9.id)
 		end
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDERINFO, {
 			commanderId = slot1,
 			mode = slot0.viewComponent.mode,
-			displayIds = slot2
+			displayIds = slot3,
+			page = slot2
 		})
 	end)
 	slot0:bind(slot0.ON_FETCH, function (slot0, slot1)
@@ -105,7 +165,9 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COMMANDER_ON_BUILD_DONE,
 		CommanderProxy.RESERVE_CNT_UPDATED,
 		GAME.COMMANDER_RESERVE_BOX_DONE,
-		GAME.COMMANDER_RENAME_DONE
+		GAME.COMMANDER_RENAME_DONE,
+		GAME.COMMANDER_LOCK_DONE,
+		GAME.COMMANDER_ON_BATCH_DONE
 	}
 end
 
@@ -123,12 +185,15 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.COMMANDER_ON_OPEN_BOX_DONE then
 		if slot0.viewComponent.boxesPanel then
+			pg.UIMgr.GetInstance():LoadingOn(false)
 			slot0.viewComponent.boxesPanel:playFinshedAnim(slot3.boxId, function ()
-				slot0:addSubLayers(Context.New({
+				pg.UIMgr.GetInstance():LoadingOff()
+				pg.UIMgr.GetInstance().LoadingOff:addSubLayers(Context.New({
 					viewComponent = NewCommanderScene,
 					mediator = NewCommanderMediator,
 					data = {
-						commander = slot1.commander
+						commander = slot1.commander,
+						onExit = slot1.callback
 					}
 				}))
 
@@ -139,27 +204,57 @@ function slot0.handleNotification(slot0, slot1)
 			end)
 		end
 	elseif slot2 == CommanderProxy.RESERVE_CNT_UPDATED then
-		if slot0.viewComponent.reservePanel then
-			slot0.viewComponent:setReserveBoxCnt(slot3)
-			slot0.viewComponent.reservePanel:update(slot3)
-		end
+		slot0.viewComponent:setReserveBoxCnt(slot3)
 	elseif slot2 == GAME.COMMANDER_RESERVE_BOX_DONE then
-		slot0.viewComponent.reservePanel:setBlock(true)
-		table.insert(slot4, function (slot0)
-			slot0.viewComponent:playReserveAnim(slot1.awards, slot0)
-		end)
-		seriesAsync({}, function ()
-			if #slot0.awards > 0 then
-				slot1.viewComponent:emit(BaseUI.ON_AWARD, {
-					items = slot0.awards
-				})
-			end
-
-			slot1.viewComponent:updateRes()
-			slot1.viewComponent.reservePanel:setBlock(false)
-		end)
+		slot0.viewComponent:OnReserveDone(slot3.awards)
 	elseif slot2 == GAME.COMMANDER_RENAME_DONE then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_rename_success_tip"))
+	elseif slot2 == GAME.COMMANDER_LOCK_DONE then
+		if slot3.flag == 1 then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_done"))
+		elseif slot3.flag == 0 then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_unlock_done"))
+		end
+	elseif slot2 == GAME.COMMANDER_ON_BATCH_DONE then
+		slot0.viewComponent:setBoxes(getProxy(CommanderProxy):getBoxes())
+
+		if slot0.viewComponent.boxesPanel then
+			function slot5()
+				pg.UIMgr.GetInstance():LoadingOff()
+				pg.UIMgr.GetInstance().LoadingOff.viewComponent:updateBoxes()
+
+				slot0 = {}
+
+				for slot4, slot5 in ipairs(slot1.commanders) do
+					table.insert(slot0, function (slot0)
+						slot0:addSubLayers(Context.New({
+							viewComponent = NewCommanderScene,
+							mediator = NewCommanderMediator,
+							data = {
+								commander = slot0.addSubLayers,
+								onExit = slot0
+							}
+						}))
+					end)
+				end
+
+				seriesAsync(slot0)
+			end
+
+			slot6 = {}
+
+			pg.UIMgr.GetInstance():LoadingOn(false)
+
+			for slot10, slot11 in ipairs(slot3.boxIds) do
+				table.insert(slot6, function (slot0)
+					slot0.viewComponent.boxesPanel:playFinshedAnim(slot0.viewComponent.boxesPanel.playFinshedAnim, function ()
+						slot0()
+					end)
+				end)
+			end
+
+			parallelAsync(slot6, slot5)
+		end
 	end
 end
 

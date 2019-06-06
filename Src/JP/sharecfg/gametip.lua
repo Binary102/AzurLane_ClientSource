@@ -1023,7 +1023,7 @@ pg.gametip = {
 		key = "battle_battleMediator_existFight"
 	},
 	battle_battleMediator_clear_warning = {
-		tip = "battle_battleMediator_clear_warning，自行配置",
+		tip = "戦闘を中断すると、チャレンジ進捗がリセットされ、累計得点は一つ前のステージの得点まで計算されます。戦闘を中断しますか？",
 		key = "battle_battleMediator_clear_warning"
 	},
 	battle_battleMediator_quest_exist = {
@@ -5762,6 +5762,14 @@ pg.gametip = {
 		tip = "除名しました",
 		key = "guild_fire_succeed"
 	},
+	guild_duty_tip_1 = {
+		tip = "<color=#7FAFFF>職務</color> ",
+		key = "guild_duty_tip_1"
+	},
+	guild_duty_tip_2 = {
+		tip = "<color=#C3C3C3>委任不可</color> ",
+		key = "guild_duty_tip_2"
+	},
 	battle_repair_special_tip = {
 		tip = "<color=#92fc63>応急修理小隊</color>を使用しますか？",
 		key = "battle_repair_special_tip"
@@ -6739,6 +6747,10 @@ pg.gametip = {
 		tip = "入手済艦の入手演出",
 		key = "words_display_ship_get_effect"
 	},
+	words_show_touch_effect = {
+		tip = "タッチエフェクト表示 ",
+		key = "words_show_touch_effect"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>入手方法\n限定任務7</color>",
 		key = "activity_puzzle_get1"
@@ -7284,6 +7296,10 @@ pg.gametip = {
 	word_status_train = {
 		tip = "<size=23>訓練中</size>",
 		key = "word_status_train"
+	},
+	challenge_current_score = {
+		tip = "累計得点：$1",
+		key = "challenge_current_score"
 	},
 	equipment_skin_unload = {
 		tip = "装備外装は倉庫に戻されました",
@@ -8700,135 +8716,9 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/commander_info"
+					atlas = "helpbg/commander_build"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 1,
-			ImageMode = true,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_play = {
-		key = "help_commander_play",
-		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_info"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 5,
-			ImageMode = true,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_ability = {
-		key = "help_commander_ability",
-		tip = {
 			{
 				icon = {
 					path = "",
@@ -8876,9 +8766,141 @@ pg.gametip = {
 			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
+				x = 1263,
+				y = 873
 			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_play = {
+		key = "help_commander_play",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 4,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_ability = {
+		key = "help_commander_ability",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 3,
+			ImageMode = true,
 			windowSize = {
 				x = 1263,
 				y = 873
@@ -8909,14 +8931,52 @@ pg.gametip = {
 					atlas = "helpbg/commander_build"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
 			ImageMode = true,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
 			windowSize = {
 				x = 1263,
 				y = 873
@@ -9037,7 +9097,7 @@ pg.gametip = {
 		key = "ranking_word_3"
 	},
 	ranking_word_4 = {
-		tip = "EXポイント",
+		tip = "チャレンジPt",
 		key = "ranking_word_4"
 	},
 	ranking_word_5 = {
@@ -10300,6 +10360,198 @@ Pt」が加算されます。
 	returner_match_tip = {
 		tip = "<color=#FF5C5C>ランダムに現役指揮官の</color>UIDを自動入力し、カムバックミッションを始めます。自動検索を行いますか？",
 		key = "returner_match_tip"
+	},
+	challenge_help = {
+		key = "challenge_help",
+		tip = {
+			{
+				info = "  チャレンジモードとは"
+			},
+			{
+				info = [[
+  ・チャレンジモードとは、高練度の指揮官（Lv80以
+上）が参加可能な期間限定コンテンツになります。
+ ・専用の編成で数々のチャレンジステージをクリアし
+ていくと、自己最高得点を刷新することができます。
+ ・チャレンジモード開催期間中の自己最高得点に応じ
+て様々な報酬を入手できます。
+ ・チャレンジのステージは開催期間中、毎週月曜日0
+時にランダムで再構成されます。
+]]
+			},
+			{
+				info = "■遊び方"
+			},
+			{
+				info = "  1.チャンレンジモード画面では、「編成」でチャレン\nジ専用編成を編成でき、「戦闘開始」でチャレンジステ\nージに挑むことができます"
+			},
+			{
+				info = [[
+  2.チャレンジステージは複数のステージがあります。
+攻略中は艦船の損傷状況はチャレンジモードでは記憶さ
+れ、次のステージ反映されます。ステージの攻略進捗と
+艦船の損傷状況は戦闘を中断させることでリセットでき
+ます。]]
+			},
+			{
+				info = [[
+  3.チャレンジステージにおける戦闘は燃料を消費せず
+、艦船の好感度・勝敗数計算・艦船/指揮官/オフニャ経
+験値には影響しません。チャレンジモード開放期間中に
+何回も挑むことができます。]]
+			},
+			{
+				info = [[
+  4. チャレンジステージをクリアすると、戦闘時間と艦
+船の損傷状況に応じて点が得られます。そして戦闘で中
+断/敗北にならず、ステージを連続でクリアすると、累
+計得点が上乗せされます。]]
+			},
+			{
+				info = [[
+  5.チャレンジモード開放期間中に得られた最高得点に
+応じて、チャレンジモード画面左下で報酬を受け取るこ
+とができます。（各累計得点の達成報酬は1回しか受領
+できません）]]
+			},
+			{
+				info = "  6.チャレンジステージは、チャレンジモード開放期間\n中毎週月曜日0:00に再構成されます。開放期間におけ\nる最高得点はリセットされません。"
+			},
+			{
+				info = [[
+  7.チャレンジモードのステージを全部クリアすると、
+腕試しモード「UNLIMITED」に切り替えられるよう
+になります。「UNLIMITED」では、チャレンジステ
+ージを無限に挑むことができますが、ステージをクリア
+しても点を入手できません。
+]]
+			},
+			{
+				info = "  ■注意点"
+			},
+			{
+				info = [[
+  ・チャレンジモードでは、オフニャと潜水艦を編成す
+ることができます。一回の戦闘につき、潜水支援を1回
+行うことができます。また、潜水艦の損傷状況も記憶さ
+れます。]]
+			},
+			{
+				info = "  ・チャレンジステージ攻略中は専用編成を変更するこ\nとができず、また「緊急修理要員」を使用することがで\nきません。"
+			},
+			{
+				info = [[
+  ・チャレンジモードの戦闘中はいつでも戦闘を中断す
+ることができます。戦闘を中断した場合、ステージの攻
+略進捗がリセットされ、中断時のステージより1個前の
+ステージまでの累計得点が計算されます。また、何らか
+の理由（通信状況など）によって戦闘が中断された場合
+でも、手動での戦闘中断したと同じ扱いになります。]]
+			},
+			{
+				info = [[
+  ・チャレンジモードにおける戦闘は月曜日の0:00を
+跨いでしまった場合、ステージが再構成されましたため
+、戦闘を中断してもステージ攻略進捗がリセットされ、
+得点が計算されなくなります。ご注意！]]
+			}
+		}
+	},
+	challenge_casual_reset = {
+		tip = "チャレンジモードが中断されました。\n累計得点:$1 ",
+		key = "challenge_casual_reset"
+	},
+	challenge_infinite_reset = {
+		tip = "チャレンジモードが中断されました。\nチャレンジステージクリア数:$1 ",
+		key = "challenge_infinite_reset"
+	},
+	challenge_normal_reset = {
+		tip = "進行中のチャレンジを中断しますか？ ",
+		key = "challenge_normal_reset"
+	},
+	challenge_casual_click_switch = {
+		tip = "現在NORMALモードです。\n累計得点:$1\nモードを切り替えますか? ",
+		key = "challenge_casual_click_switch"
+	},
+	challenge_infinite_click_switch = {
+		tip = "現在UNLIMITEDモードです。\n現在のステージ:$1\nモードを切り替えますか? ",
+		key = "challenge_infinite_click_switch"
+	},
+	challenge_season_update = {
+		tip = "チャレンジステージが更新されました ",
+		key = "challenge_season_update"
+	},
+	challenge_season_update_casual_clear = {
+		tip = "累計得点:$1\nチャレンジステージが更新されましたため、最高得点が更新されません。\nチャレンジモードをリセットしますか？",
+		key = "challenge_season_update_casual_clear"
+	},
+	challenge_season_update_infinite_clear = {
+		tip = "現在のステージ:$1\nチャレンジステージが更新されましたため、最高クリア数が更新されません。\nチャレンジモードをリセットしますか？",
+		key = "challenge_season_update_infinite_clear"
+	},
+	challenge_season_update_casual_switch = {
+		tip = [[
+現在NORMALモードです。
+累計得点:$1
+チャレンジステージが更新されたため、最高得点が更新されません。
+モードを切り替えますか？]],
+		key = "challenge_season_update_casual_switch"
+	},
+	challenge_season_update_infinite_switch = {
+		tip = [[
+現在UNLIMITEDモードです。
+現在のステージ:$1
+チャレンジステージが更新されたため、最高クリア数が更新されません。
+モードを切り替えますか？]],
+		key = "challenge_season_update_infinite_switch"
+	},
+	challenge_combat_score = {
+		tip = "ステージ得点：$1",
+		key = "challenge_combat_score"
+	},
+	challenge_share_progress = {
+		tip = "チャレンジクリア数：",
+		key = "challenge_share_progress"
+	},
+	challenge_share = {
+		tip = "",
+		key = "challenge_share"
+	},
+	challenge_expire_warn = {
+		tip = "日付が変わりました。今回の戦闘得点は最高得点に含まれません",
+		key = "challenge_expire_warn"
+	},
+	challenge_normal_tip = {
+		tip = "チャレンジステージをクリアし、自己ベストを狙おう！",
+		key = "challenge_normal_tip"
+	},
+	challenge_unlimited_tip = {
+		tip = "チャレンジステージを無限に挑戦可能！",
+		key = "challenge_unlimited_tip"
+	},
+	commander_prefab_rename_success = {
+		tip = "名前変更成功",
+		key = "commander_prefab_rename_success"
+	},
+	commander_prefab_name = {
+		tip = "セット$1",
+		key = "commander_prefab_name"
+	},
+	commander_prefab_rename_time = {
+		tip = "$1秒経過前は再度変更できません",
+		key = "commander_prefab_rename_time"
+	},
+	commander_build_solt_deficiency = {
+		tip = "同時に10個まで訓練できます",
+		key = "commander_build_solt_deficiency"
+	},
+	commander_select_box_tip = {
+		tip = "ネコハコ$1個を訓練しますか？（同時に訓練できるのは最大4個のみ）",
+		key = "commander_select_box_tip"
+	},
+	challenge_end_tip = {
+		tip = "終了済のイベントです",
+		key = "challenge_end_tip"
 	}
 }
 

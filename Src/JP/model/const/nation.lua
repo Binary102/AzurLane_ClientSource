@@ -50,7 +50,7 @@ function slot0.Nation2Side(slot0)
 			"West",
 			"West",
 			"West",
-			[102.0] = "Jp",
+			[102.0] = "Cn",
 			[101.0] = "Jp",
 			[104.0] = "West",
 			[103.0] = "Jp"

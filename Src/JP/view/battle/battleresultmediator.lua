@@ -6,6 +6,8 @@ slot0.GET_NEW_SHIP = "BattleResultMediator.GET_NEW_SHIP"
 slot0.ON_GO_TO_MAIN_SCENE = "BattleResultMediator.ON_GO_TO_MAIN_SCENE"
 slot0.ON_NEXT_CHALLENGE = "BattleResultMediator.ON_NEXT_CHALLENGE"
 slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
+slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
+slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
 
 function slot0.register(slot0)
 	slot1 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
@@ -27,9 +29,9 @@ function slot0.register(slot0)
 		slot0.viewComponent:setRivalVO(slot11)
 		slot0.viewComponent:setRank(slot4, slot10:getSeasonInfo())
 	elseif slot9 == SYSTEM_CHALLENGE then
-		challenge = getProxy(ChallengeProxy).getCurrentChallengeInfo(slot10)
+		slot10 = getProxy(ChallengeProxy)
 
-		slot0.viewComponent:setChallengeInfo(challenge)
+		slot0.viewComponent:setChallengeInfo(slot10:getUserChallengeInfo(slot0.contextData.mode), slot10:userSeaonExpire(slot0.contextData.mode))
 	else
 		if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_ROUTINE or slot9 == SYSTEM_ACT_BOSS then
 			slot0.viewComponent:setExpBuff(slot8:getBuffList()[1])
@@ -40,7 +42,7 @@ function slot0.register(slot0)
 
 	slot10 = nil
 
-	if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_SHAM or slot9 == SYSTEM_CHALLENGE then
+	if slot9 == SYSTEM_SCENARIO or slot9 == SYSTEM_SHAM then
 		slot10 = {}
 		slot11 = nil
 
@@ -48,8 +50,6 @@ function slot0.register(slot0)
 			slot11 = slot7:getActiveChapter()
 		elseif slot9 == SYSTEM_SHAM then
 			slot11 = slot7:getShamChapter()
-		elseif slot9 == SYSTEM_CHALLENGE then
-			slot11 = getProxy(ChallengeProxy):getCurrentChallengeInfo()
 		end
 
 		slot14 = slot11.fleet[TeamType.Vanguard]
@@ -87,6 +87,26 @@ function slot0.register(slot0)
 				table.insert(slot10, slot23)
 			end
 		end
+	elseif slot9 == SYSTEM_CHALLENGE then
+		slot0:bind(slot0.ON_CHALLENGE_SHARE, function (slot0)
+			slot0:addSubLayers(Context.New({
+				mediator = ChallengeShareMediator,
+				viewComponent = ChallengeShareLayer,
+				data = {
+					mode = slot0.contextData.mode
+				}
+			}))
+		end)
+		slot0:bind(slot0.ON_CHALLENGE_DEFEAT_SCENE, function (slot0, slot1)
+			slot0:addSubLayers(Context.New({
+				mediator = ChallengePassedMediator,
+				viewComponent = ChallengePassedLayer,
+				data = {
+					mode = slot0.contextData.mode
+				},
+				onRemoved = slot1.callback
+			}))
+		end)
 	elseif slot9 == SYSTEM_DODGEM then
 	elseif slot9 == SYSTEM_SUBMARINE_RUN then
 	else
@@ -98,103 +118,78 @@ function slot0.register(slot0)
 	end
 
 	slot0.viewComponent:setShips(slot10)
-	slot0:bind(slot0.ON_CHALLENGE_RANK, function (slot0)
-		slot1 = getProxy(ContextProxy)
-
-		if slot0 == SYSTEM_CHALLENGE then
-			slot2 = getProxy(ChallengeProxy)
-
-			if slot1.contextData.score <= 0 or slot2:getCurrentChallengeInfo():isClear() then
-				slot2:escapeChallenge()
-			else
-				slot2:stagePass()
-			end
-
-			if slot1:getContextByMediator(DailyLevelMediator) then
-				slot3:removeChild(slot3:getContextByMediator(ChallengePreCombatMediator))
-			end
-
-			slot1:sendNotification(GAME.GO_BACK, {
-				loadBillBoard = true
-			})
-		end
-	end)
-	slot0:bind(slot0.ON_BACK_TO_LEVEL_SCENE, function (slot0)
-		slot1 = getProxy(ContextProxy)
+	slot0:bind(slot0.ON_BACK_TO_LEVEL_SCENE, function (slot0, slot1)
+		slot2 = getProxy(ContextProxy)
 
 		if slot0 == SYSTEM_ACT_BOSS then
-			if slot1:getContextByMediator(ActivityBossBattleMediator) then
-				slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
+			if slot2:getContextByMediator(ActivityBossBattleMediator) then
+				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_ROUTINE then
-			if slot1:getContextByMediator(DailyLevelMediator) then
-				slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
+			if slot2:getContextByMediator(DailyLevelMediator) then
+				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_SCENARIO then
-			slot2 = slot1:getContextByMediator(LevelMediator2)
+			slot3 = slot2:getContextByMediator(LevelMediator2)
 
-			slot2:removeChild(slot2:getContextByMediator(ChapterPreCombatMediator))
+			slot3:removeChild(slot3:getContextByMediator(ChapterPreCombatMediator))
 
 			if slot1.contextData.score > 1 then
 				slot1:showExtraChapterActSocre()
 			end
 
 			if getProxy(ChapterProxy):getActiveChapter() then
-				if slot5:existOni() then
-					slot5:clearSubmarineFleet()
-					slot4:updateChapter(slot5)
-				elseif slot5:isPlayingWithBombEnemy() then
-					slot5.fleets = {
-						slot5.fleet
+				if slot6:existOni() then
+					slot6:clearSubmarineFleet()
+					slot5:updateChapter(slot6)
+				elseif slot6:isPlayingWithBombEnemy() then
+					slot6.fleets = {
+						slot6.fleet
 					}
-					slot5.findex = 1
+					slot6.findex = 1
 
-					slot4:updateChapter(slot5)
+					slot5:updateChapter(slot6)
 				end
 			end
 		elseif slot0 == SYSTEM_SHAM then
-			slot2 = slot1:getContextByMediator(LevelMediator2)
+			slot3 = slot2:getContextByMediator(LevelMediator2)
 
-			slot2:removeChild(slot2:getContextByMediator(ShamPreCombatMediator))
+			slot3:removeChild(slot3:getContextByMediator(ShamPreCombatMediator))
 		elseif slot0 == SYSTEM_CHALLENGE then
-			slot2 = getProxy(ChallengeProxy)
+			slot5 = getProxy(ChallengeProxy).getUserChallengeInfo(slot3, slot4)
 
-			if slot1.contextData.score <= 0 or slot2:getCurrentChallengeInfo():isClear() then
-				slot2:escapeChallenge()
+			if slot1.contextData.score < ys.Battle.BattleConst.BattleScore.S then
+				slot1:sendNotification(GAME.CHALLENGE2_RESET, {
+					mode = slot4
+				})
 			else
-				slot2:stagePass()
+				slot6 = slot5:IsFinish()
+
+				slot5:updateLevelForward()
+
+				if slot5:getMode() == ChallengeProxy.MODE_INFINITE and slot6 then
+					slot5:setInfiniteDungeonIDListByLevel()
+				end
 			end
 
-			if slot1:getContextByMediator(DailyLevelMediator) then
-				slot3:removeChild(slot3:getContextByMediator(ChallengePreCombatMediator))
+			slot6 = slot3:getChallengeInfo()
+
+			if not slot3:userSeaonExpire(slot5:getMode()) then
+				slot6:checkRecord(slot5)
+			end
+
+			if not slot1.goToNext and slot2:getContextByMediator(ChallengeMainMediator) then
+				slot7:removeChild(slot7:getContextByMediator(ChallengePreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_HP_SHARE_ACT_BOSS then
-			if slot1:getContextByMediator(ActivityBossBattleMediator2):getContextByMediator(PreCombatMediator) then
-				slot2:removeChild(slot3)
+			if slot2:getContextByMediator(ActivityBossBattleMediator2):getContextByMediator(PreCombatMediator) then
+				slot3:removeChild(slot4)
 			end
-		elseif slot1:getContextByMediator(LevelMediator2) then
-			slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
+		elseif slot2:getContextByMediator(LevelMediator2) then
+			slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 		end
 
 		slot1:sendNotification(GAME.GO_BACK)
-	end)
-	slot0:bind(slot0.ON_NEXT_CHALLENGE, function (slot0)
-		slot1 = getProxy(ChallengeProxy)
-
-		slot1:stagePass()
-
-		challenge = slot1:getCurrentChallengeInfo()
-		slot2 = challenge:getChallengeStageID()
-
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.TRANSITION, {
-			loadUI = "DailyLevelUI",
-			afterLoadFunc = function ()
-				slot0:sendNotification(GAME.BEGIN_STAGE, {
-					system = SYSTEM_CHALLENGE,
-					stageId = slot0
-				})
-			end
-		})
 	end)
 	slot0:bind(slot0.ON_GO_TO_MAIN_SCENE, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)

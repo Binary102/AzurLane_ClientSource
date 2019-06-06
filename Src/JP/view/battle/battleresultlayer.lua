@@ -33,7 +33,7 @@ function slot0.setRank(slot0, slot1, slot2)
 	slot0.player = slot1
 	slot0.season = slot2
 
-	setText(slot0._playerName, slot0.player.name)
+	setText(slot0._playerName, "<color=#FFFFFF>" .. slot0.player.name .. "</color><size=32> / C O M M A N D E R</size>")
 
 	slot4, slot5 = SeasonInfo.getNextMilitaryRank(slot2.score, slot2.rank)
 
@@ -55,7 +55,7 @@ end
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
-	setText(slot0._playerName, slot0.player.name)
+	setText(slot0._playerName, "<color=#FFFFFF>" .. slot0.player.name .. "</color><size=32> / C O M M A N D E R</size>")
 	setText(slot0._playerLv, "Lv." .. slot0.player.level)
 
 	slot0._playerExpProgress:GetComponent(typeof(Image)).fillAmount = slot0.player.exp / getConfigFromLevel1(pg.user_level, slot0.player.level).exp_interval
@@ -186,11 +186,7 @@ function slot0.displayerCommanders(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
-		setText(slot0._levelText, slot0.rivalVO.name)
-	else
-		setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
-	end
+	slot0:setStageName()
 
 	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
 	rtf(slot0._grade).localPosition = Vector3(0, 25, 0)
@@ -219,6 +215,14 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._skipBtn, function ()
 		slot0:skip()
 	end, SFX_CONFIRM)
+end
+
+function slot0.setStageName(slot0)
+	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
+		setText(slot0._levelText, slot0.rivalVO.name)
+	else
+		setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
+	end
 end
 
 function slot0.rankAnimaFinish(slot0)

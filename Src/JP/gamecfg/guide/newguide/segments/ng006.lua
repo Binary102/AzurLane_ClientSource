@@ -18,12 +18,12 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/buy_panel/frame/bg1/Button"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/frame/bg1/Button"
 			}
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/box_msg_panel/frame/confirm_btn"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderMsgBoxUI(Clone)/frame/confirm_btn"
 			}
 		},
 		{
@@ -38,7 +38,11 @@ return {
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/buy_panel/bg"
+				path = "/OverlayCamera/Overlay/UIMain/CommanderReserveUI(Clone)/bg",
+				fingerPos = {
+					posY = -400,
+					posX = 500
+				}
 			}
 		}
 	}

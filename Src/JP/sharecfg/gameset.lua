@@ -612,7 +612,7 @@ pg.gameset = {
 	commander_box_count = {
 		description = "",
 		key = "commander_box_count",
-		key_value = 4
+		key_value = 10
 	},
 	commander_get_cost = {
 		key = "commander_get_cost",

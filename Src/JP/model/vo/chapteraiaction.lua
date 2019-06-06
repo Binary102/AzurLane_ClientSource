@@ -115,4 +115,23 @@ function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
 	return true, slot4
 end
 
+function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+	if slot1:getChampionIndex(slot0.line.row, slot0.line.column) then
+		if #slot0.movePath > 0 then
+			slot2.viewComponent.grid:moveChampion(slot4, slot0.movePath, Clone(slot0.movePath), slot3)
+		else
+			slot3()
+		end
+
+		return
+	end
+
+	if slot1:getChapterCell(slot0.line.row, slot0.line.column) and slot5.attachment == ChapterConst.AttachLandbase and pg.land_based_template[slot5.attachmentId].type == ChapterConst.LBCoastalGun then
+		slot2.viewComponent:doPlayAnim("coastalgun", function (slot0)
+			setActive(slot0, false)
+			slot0.viewComponent:easeMoveDown(slot2.viewComponent.grid.cellFleets[slot0:getFleetIndex(FleetType.Normal, slot1.stgTarget.row, slot1.stgTarget.column)].tf.position, slot0.viewComponent)
+		end)
+	end
+end
+
 return slot0

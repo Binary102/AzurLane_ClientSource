@@ -18,8 +18,7 @@ slot0.typeInfo = {
 		score_icon = {
 			"ui/billboardui_atlas",
 			"power_icon"
-		},
-		act_type = ActivityConst.ACTIVITY_TYPE_PT_RANK
+		}
 	},
 	{
 		title_word = {
@@ -84,7 +83,7 @@ slot0.typeInfo = {
 			6,
 			9
 		},
-		act_type = {
+		score_icon = {
 			"ui/billboardui_atlas",
 			"rank_icon"
 		}
@@ -115,11 +114,11 @@ function slot0.setRank(slot0, slot1)
 end
 
 function slot0.getPowerTxt(slot0)
-	if slot0.TYPE_POWER == slot0.type then
+	if slot0.type == slot0.TYPE_POWER then
 		return math.floor(slot0.power^0.667)
-	elseif slot0.TYPE_COLLECTION == slot0.type then
+	elseif slot0.type == slot0.TYPE_COLLECTION then
 		return string.format("%0.01f", slot0.power / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%"
-	elseif slot0.TYPE_MILITARY_RANK == slot0.type then
+	elseif slot0.type == slot0.TYPE_MILITARY_RANK then
 		return slot0.power + SeasonInfo.INIT_POINT
 	else
 		return slot0.power
@@ -144,10 +143,14 @@ function slot0.getScoreIcon(slot0, slot1)
 	return slot0.typeInfo[slot1].score_icon
 end
 
-function slot0.getActivityIdByRankType(slot0, slot1)
-	return (_.detect(getProxy(ActivityProxy):getActivitiesByType(slot0.typeInfo[slot1].act_type), function (slot0)
+function slot0.getActivityByRankType(slot0, slot1)
+	if not slot0.typeInfo[slot1].act_type then
+		return nil
+	end
+
+	return _.detect(getProxy(ActivityProxy):getActivitiesByType(slot0.typeInfo[slot1].act_type), function (slot0)
 		return not slot0:isEnd() and (slot0 ~= slot1.TYPE_PT or tonumber(slot0:getConfig("config_data")) > 0)
-	end) and slot2.id) or nil
+	end)
 end
 
 return slot0

@@ -185,7 +185,7 @@ pg.share_template = {
 			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
 		}
 	},
-	[10] = {
+	{
 		description = "#アズールレーン　",
 		name = "画图功能分享",
 		deck = 1,
@@ -194,6 +194,20 @@ pg.share_template = {
 		camera = "UICamera",
 		show_comps = "",
 		id = 10,
+		qrcode_location = {
+			-412,
+			-261
+		}
+	},
+	{
+		description = "#アズールレーン　",
+		name = "挑战分享",
+		deck = 1,
+		hidden_comps = "",
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 11,
 		qrcode_location = {
 			-412,
 			-261
@@ -208,8 +222,9 @@ pg.share_template = {
 		6,
 		7,
 		8,
+		9,
 		10,
-		9
+		11
 	}
 }
 

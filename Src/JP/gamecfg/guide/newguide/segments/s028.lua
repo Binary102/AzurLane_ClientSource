@@ -45,7 +45,7 @@ return {
 				scale = 1.8,
 				path = "/LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/cells/chapter_cell_4_7/attachment",
 				pos = {
-					x = 259.55,
+					x = 0,
 					y = -4.4
 				},
 				triggerType = {

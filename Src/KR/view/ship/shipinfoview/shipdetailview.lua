@@ -109,6 +109,10 @@ function slot0.InitEvent(slot0)
 			return
 		end
 
+		if LOCK_PROPOSE then
+			return
+		end
+
 		slot0:emit(ShipViewConst.HIDE_SHIP_WORD)
 		slot0.emit:emit(ShipMainMediator.PROPOSE, slot0:GetShipVO().id, function ()
 			return
@@ -185,7 +189,7 @@ function slot0.UpdateIntimacy(slot0, slot1)
 	slot7, slot3, slot4 = slot1:getIntimacyDetail()
 
 	setImageSprite(slot0.intimacyTF, slot5, true)
-	setActive(slot0.intimacyTF, true)
+	setActive(slot0.intimacyTF, not LOCK_PROPOSE)
 
 	slot6 = 1
 
@@ -211,6 +215,7 @@ function slot0.UpdateDetail(slot0, slot1)
 	end
 
 	setActive(slot0.fashionToggle, #slot0.shareData:GetCurGroupSkinList() > 1)
+	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 
 function slot0.UpdateEquipments(slot0, slot1)

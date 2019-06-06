@@ -12,7 +12,12 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.preload(slot0, slot1)
-	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot0.contextData.ship.rarity2bgPrintForGet(slot2), "", slot1)
+	LoadSpriteAsync("newshipbg/bg_" .. slot0.contextData.ship:rarity2bgPrintForGet(), function (slot0)
+		slot0.bgSprite = slot0
+		slot0.isLoadBg = true
+
+		slot0()
+	end)
 end
 
 function slot0.init(slot0)
@@ -49,7 +54,6 @@ function slot0.init(slot0)
 	setActive(slot0.audioBtn, not slot0.contextData.canSkip)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
-	slot0.isLoadBg = false
 	slot0.rarityEffect = {}
 end
 
@@ -93,11 +97,7 @@ function slot0.setShip(slot0, slot1)
 	slot0._shipVO = slot1
 	slot0.isRemoulded = slot1:isRemoulded()
 
-	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot1:rarity2bgPrintForGet(), "", function (slot0)
-		setImageSprite(slot0._bg, slot0)
-
-		slot0.isLoadBg = true
-	end)
+	setImageSprite(slot0._bg, slot0.bgSprite)
 
 	if slot1:isBluePrintShip() then
 		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot1:getRarity() then
@@ -131,7 +131,12 @@ function slot0.setShip(slot0, slot1)
 		LoadImageSpriteAsync("clutter/new", slot0.newTF)
 
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot0._shipVO.groupId, 1) then
-			pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot0._shipVO.groupId].pt_get, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_attr, pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_value)
+			pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+				point = pg.fleet_tech_ship_template[slot0._shipVO.groupId].pt_get,
+				typeList = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_shiptype,
+				attr = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_attr,
+				value = pg.fleet_tech_ship_template[slot0._shipVO.groupId].add_get_value
+			})
 		end
 	else
 		setActive(slot0.newTF, false)
@@ -235,8 +240,9 @@ function slot0.setShip(slot0, slot1)
 
 	slot23 = slot0._shipVO:getConfigTable()
 	findTF(slot16, "type_bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", tostring(slot0._shipVO:getShipType()))
+	slot0.scrollTxt = ScrollTxt.New(slot16:Find("name_bg/mask"), slot16:Find("name_bg/mask/Text"))
 
-	setText(slot0:findTF("name_bg/Text", slot16), slot0._shipVO:getName())
+	slot0.scrollTxt:setText(slot0._shipVO:getName())
 
 	if slot2 then
 		slot6 = slot6 .. "_1"
@@ -286,7 +292,9 @@ function slot0.showExitTip(slot0, slot1)
 	slot2 = slot0._shipVO:GetLockState()
 
 	if slot0._shipVO.virgin and slot2 == Ship.LOCK_STATE_UNLOCK then
-		setActive(slot0.effectObj, false)
+		if slot0.effectObj then
+			setActive(slot0.effectObj, false)
+		end
 
 		if slot0.effectLineObj then
 			setActive(slot0.effectLineObj, false)
@@ -344,11 +352,7 @@ function slot0.didEnter(slot0)
 		slot0:emit(NewShipMediator.ON_EVALIATION, slot0._shipVO:getGroupId())
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		if slot0._shipVO:isBluePrintShip() and slot0._shipVO:getRarity() == ShipRarity.SSR then
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShipDesignSSR)
-		else
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
-		end
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if slot0.isInView or not slot0.isLoadBg then
@@ -593,6 +597,10 @@ end
 
 function slot0.willExit(slot0)
 	slot0:DestroyNewShipDocumentView()
+
+	if slot0.scrollTxt then
+		slot0.scrollTxt:destroy()
+	end
 
 	if slot0.designBg then
 		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)

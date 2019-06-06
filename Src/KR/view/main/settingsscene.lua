@@ -95,7 +95,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	slot0.repairProgress = slot0.repairBtn:Find("progress")
 	slot0.repairHashPath = Application.persistentDataPath .. "/hashes.csv"
 
-	setActive(slot0.repairBtn, PathMgr.FileExists(slot0.repairHashPath))
+	setActive(slot0.repairBtn, PLATFORM_CODE ~= PLATFORM_JP and PathMgr.FileExists(slot0.repairHashPath))
 	onButton(slot0, slot0.repairBtn, function ()
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			content = i18n("resource_verify_warn"),
@@ -225,6 +225,11 @@ slot2 = {
 		default = 1,
 		title = i18n("words_display_ship_get_effect"),
 		name = DISPLAY_SHIP_GET_EFFECT
+	},
+	{
+		default = 1,
+		title = i18n("words_show_touch_effect"),
+		name = SHOW_TOUCH_EFFECT
 	}
 }
 
@@ -234,6 +239,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 	onToggle(slot0, slot3, function (slot0)
 		if slot0 then
 			PlayerPrefs.SetInt("fps_limit", 30)
+			PlayerPrefs.Save()
 
 			Application.targetFrameRate = 30
 		end
@@ -241,6 +247,7 @@ function slot0.initOptionsPanel(slot0, slot1)
 	onToggle(slot0, slot2:Find("options/60fps"), function (slot0)
 		if slot0 then
 			PlayerPrefs.SetInt("fps_limit", 60)
+			PlayerPrefs.Save()
 
 			Application.targetFrameRate = 60
 		end
@@ -282,6 +289,10 @@ function slot0.initOptionsPanel(slot0, slot1)
 					PlayerPrefs.Save()
 
 					slot0[slot1.name] = slot0
+				end
+
+				if slot1.name == SHOW_TOUCH_EFFECT and pg.UIMgr.GetInstance().OverlayEffect then
+					setActive(slot1, slot0)
 				end
 			end, SFX_UI_TAG, SFX_UI_CANCEL)
 			triggerToggle(slot15:Find("on"), slot0[slot14.name])

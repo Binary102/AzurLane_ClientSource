@@ -6949,6 +6949,53 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40905] = {
+		display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
+		rarity = 4,
+		type = 5,
+		name = "랜덤 스페셜 스킨",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40905,
+		icon = "Props/lihe1",
+		display_icon = {
+			{
+				2,
+				59905,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41201] = {
 		display = "범용형 부린에게 받은 밸런타인 데이 선물",
 		rarity = 8,
@@ -55471,6 +55518,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59130] = {
+		display = "이벤트[내일의 스타? 깜짝 등장!] 중 캐릭터의 호감도 증가에 사용됩니다, 이벤트 종료 후 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		name = "호감도",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59130,
+		icon = "Props/shengdiyagePT",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -57563,6 +57626,34 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59905] = {
+		display = [[
+아래의 스킨을 랜덤으로 획득할 수 있습니다. (이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다.) 
+각 스킨의 출현 확률: 
+（<color=#92fc63>7.2%</color>）비스마르크: 메탈 블러드의 영광（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）아크 로열: 연회장의 수호자（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9.5%</color>）킹 조지 5세: 온순한 장미；
+（<color=#92fc63>9.5%</color>）조지아: 사우스타운 펄；
+（<color=#92fc63>11%</color>）Z23 스킨: 연회의 우등생；
+（<color=#92fc63>11%</color>）헬레나: 지휘관과의 춤；
+（<color=#92fc63>11%</color>）호넷: Bubbly Anniversary!；
+（<color=#92fc63>11%</color>）요크타운: 우아와 취기가 어린 밤；
+（<color=#92fc63>11%</color>）아드미랄 그라프 슈피: 비밀 연회；
+（<color=#92fc63>11%</color>）시구레: 행운의 연회! ； ]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 스페셜 스킨 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59905,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60011] = {
 		display = "10초 만에 1 경험치를 얻을 수 있는 슈퍼 스킬 교본.",
 		rarity = 5,
@@ -58320,6 +58411,7 @@ pg.item_data_statistics = {
 		40902,
 		40903,
 		40904,
+		40905,
 		41201,
 		41202,
 		41203,
@@ -59270,6 +59362,7 @@ pg.item_data_statistics = {
 		59127,
 		59128,
 		59129,
+		59130,
 		59601,
 		59602,
 		59603,
@@ -59394,6 +59487,7 @@ pg.item_data_statistics = {
 		59902,
 		59903,
 		59904,
+		59905,
 		60011,
 		60012,
 		70000,

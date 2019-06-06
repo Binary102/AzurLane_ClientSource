@@ -9,8 +9,9 @@ slot1 = {
 		uiName = "levelawardpage"
 	},
 	[ActivityConst.MONTH_SIGN_ACTIVITY_ID] = {
+		uiName = "monthsignpage",
 		className = "MonthSignPage",
-		uiName = "monthsignpage"
+		uiName2 = "monthsignpage_special"
 	},
 	[ActivityConst.CHARGE_AWARD_ACTIVITY_ID] = {
 		className = "ChargeAwardPage",
@@ -39,6 +40,18 @@ slot1 = {
 	[ActivityConst.SKIN_Z23] = {
 		className = "Z23SkinPage",
 		uiName = "z23skinpage"
+	},
+	[ActivityConst.XIMU_LOGIN_ID] = {
+		className = "XimuLoginPage",
+		uiName = "ximuloginpage"
+	},
+	[ActivityConst.SANDIEGO_PT_ID] = {
+		className = "SanDiegoPtPage",
+		uiName = "sandiegoptpage"
+	},
+	[ActivityConst.ANNIVERSARY_ID] = {
+		className = "SecondAnniversaryPage",
+		uiName = "secondanniversarypage"
 	}
 }
 slot2 = {}
@@ -79,16 +92,23 @@ function slot0.init(slot0)
 	setActive(slot0.tab, false)
 
 	slot0.shareData = ActivityShareData.New()
+	slot2 = tonumber(pg.TimeMgr.GetInstance():DescClientTime(slot1, "%m"))
+	slot3 = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1]
 	require("GameCfg.activity.EntranceData").pageDic = {}
 
-	for slot4, slot5 in pairs(pairs) do
-		if getProxy(ActivityProxy):getActivityById(slot4) and not slot6:isEnd() and slot6:isShow() then
-			slot8 = import("view.activity.subPages." .. slot5.className).New(slot0.pageContainer, slot0.event, slot0.contextData)
+	for slot7, slot8 in pairs(slot1) do
+		if getProxy(ActivityProxy):getActivityById(slot7) and not slot9:isEnd() and slot9:isShow() then
+			slot11 = import("view.activity.subPages." .. slot8.className).New(slot0.pageContainer, slot0.event, slot0.contextData)
 
-			slot8:SetUIName(slot5.uiName)
-			slot8:SetShareData(slot0.shareData)
+			if slot7 == ActivityConst.MONTH_SIGN_ACTIVITY_ID and slot2 == slot3 then
+				slot11:SetUIName(slot8.uiName2)
+			else
+				slot11:SetUIName(slot8.uiName)
+			end
 
-			slot0.pageDic[slot4] = slot8
+			slot11:SetShareData(slot0.shareData)
+
+			slot0.pageDic[slot7] = slot11
 		end
 	end
 end
@@ -303,6 +323,26 @@ function slot0.HideTaskBoundsWindow(slot0)
 	end
 
 	slot0.taskBoundsWindow:Hide()
+end
+
+function slot0.ShowReturnerBoundsWindow(slot0, slot1)
+	if not slot0.returnerAwardWindow then
+		slot0:getBonusWindow(function (slot0)
+			slot0.returnerAwardWindow = ReturnerAwardWindow.New(tf(slot0), slot0)
+
+			slot0.returnerAwardWindow:Show(slot0.returnerAwardWindow.Show)
+		end)
+	else
+		slot0.returnerAwardWindow:Show(slot1)
+	end
+end
+
+function slot0.HideReturnerAwardWindow(slot0)
+	if not slot0.returnerAwardWindow then
+		return
+	end
+
+	slot0.returnerAwardWindow:Hide()
 end
 
 function slot0.willExit(slot0)

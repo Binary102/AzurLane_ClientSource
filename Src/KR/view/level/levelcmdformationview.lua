@@ -29,17 +29,123 @@ function slot0.InitUI(slot0)
 	slot0.talentsArr = slot0:findTF("desc/frame/atttr_panel/talents/arr")
 	slot0.animtion = slot0.descPanel:GetComponent("Animation")
 	slot0.animtionEvent = slot0:findTF("desc"):GetComponent(typeof(DftAniEvent))
+	slot0.restAllBtn = slot0:findTF("rest_all", slot0.descFrameTF)
+	slot0.quickBtn = slot0:findTF("quick_btn", slot0.descFrameTF)
+	slot0.recordPanel = slot0:findTF("desc/record_panel")
+	slot0.recordCommanders = {
+		slot0.recordPanel:Find("current/commanders/commander1/frame/info"),
+		slot0.recordPanel:Find("current/commanders/commander2/frame/info")
+	}
+	slot0.reocrdSkills = {
+		slot0.recordPanel:Find("current/commanders/commander1/skill_info"),
+		slot0.recordPanel:Find("current/commanders/commander2/skill_info")
+	}
+	slot0.recordList = UIItemList.New(slot0.recordPanel:Find("record/content"), slot0.recordPanel:Find("record/content/commanders"))
 
+	onButton(slot0, slot0.restAllBtn, function ()
+		if slot0.callback then
+			slot0.callback({
+				type = LevelUIConst.COMMANDER_OP_REST_ALL
+			})
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.quickBtn, function ()
+		slot0:OpenRecordPanel()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.recordPanel, function ()
+		slot0:CloseRecordPanel()
+	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
 		slot0:close()
 	end, SFX_PANEL)
 end
 
-function slot0.update(slot0, slot1, slot2)
-	slot0.callback = slot2
+function slot0.hidePrefabButtons(slot0)
+	setActive(slot0.restAllBtn, false)
+	setActive(slot0.quickBtn, false)
+end
+
+function slot0.update(slot0, slot1, slot2, slot3)
+	slot0.callback = slot3
+
+	slot0:updateFleet(slot1)
+	slot0:updatePrefabs(slot2)
+end
+
+function slot0.updateFleet(slot0, slot1)
 	slot0.fleet = slot1
 
 	slot0:updateDesc()
+	slot0:updateRecordFleet()
+end
+
+function slot0.updatePrefabs(slot0, slot1)
+	slot0.prefabFleets = slot1
+
+	slot0:updateRecordPanel()
+end
+
+function slot0.updateRecordFleet(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
+	for slot5, slot6 in ipairs(slot0.recordCommanders) do
+		slot0:updateCommander(slot6, slot5, slot1[slot5])
+		slot0:updateSkillTF(slot1[slot5], slot0.reocrdSkills[slot5])
+	end
+end
+
+function slot0.updateRecordPanel(slot0)
+	slot1 = slot0.fleet:getCommanders()
+
+	slot0.recordList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot0:UpdatePrefabFleet(slot0.prefabFleets[slot1 + 1], slot2, slot1)
+		end
+	end)
+	slot0.recordList:align(#slot0.prefabFleets)
+end
+
+function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
+	onInputEndEdit(slot0, slot4, function ()
+		if getInputText(getInputText) and slot0 ~= "" and slot0 ~= slot1 and slot2.callback then
+			slot2.callback({
+				type = LevelUIConst.COMMANDER_OP_RENAME,
+				id = LevelUIConst.COMMANDER_OP_RENAME.id,
+				str = slot0,
+				onFailed = function ()
+					setInputText(setInputText, )
+				end
+			})
+		end
+	end)
+	setInputText(slot4, slot5)
+	onButton(slot0, slot2:Find("use_btn"), function ()
+		if slot0.callback then
+			slot0.callback({
+				type = LevelUIConst.COMMANDER_OP_USE_PREFAB,
+				id = slot1.id
+			})
+			slot0.callback:CloseRecordPanel()
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot2:Find("record_btn"), function ()
+		if slot0.callback then
+			slot0.callback({
+				type = LevelUIConst.COMMANDER_OP_RECORD_PREFAB,
+				id = slot1.id
+			})
+		end
+	end, SFX_PANEL)
+
+	slot7 = {
+		slot2:Find("commander1/skill_info"),
+		slot2:Find("commander2/skill_info")
+	}
+
+	for slot11, slot12 in ipairs(slot6) do
+		slot0:updateCommander(slot12, slot11, slot1:getCommanderByPos(slot11))
+		slot0:updateSkillTF(slot1.getCommanderByPos(slot11), slot7[slot11])
+	end
 end
 
 function slot0.playAnim(slot0, slot1, slot2)
@@ -126,16 +232,32 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3)
 
 	onButton(slot0, slot5, function ()
 		if slot0.callback then
-			slot0.callback(slot1)
+			slot0.callback({
+				type = LevelUIConst.COMMANDER_OP_ADD,
+				pos = 
+			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot4, function ()
 		if slot0.callback then
-			slot0.callback(slot1)
+			slot0.callback({
+				type = LevelUIConst.COMMANDER_OP_ADD,
+				pos = 
+			})
 		end
 	end, SFX_PANEL)
 	setActive(slot4, not slot3)
 	setActive(slot5, slot3)
+end
+
+function slot0.OpenRecordPanel(slot0)
+	setActive(slot0.descFrameTF, false)
+	setActive(slot0.recordPanel, true)
+end
+
+function slot0.CloseRecordPanel(slot0)
+	setActive(slot0.descFrameTF, true)
+	setActive(slot0.recordPanel, false)
 end
 
 function slot0.enable(slot0, slot1)

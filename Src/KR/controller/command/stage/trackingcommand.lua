@@ -59,8 +59,8 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			for slot33, slot34 in pairs(slot29) do
 				table.insert(slot28, {
-					id = slot33,
-					commanderid = slot34
+					pos = slot33,
+					id = slot34
 				})
 			end
 

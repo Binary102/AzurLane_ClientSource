@@ -29,8 +29,8 @@ function slot0.init(slot0)
 	slot0.talentsTF = slot0:findTF("content/talents", slot0.infoTF)
 	slot0.talentsList = UIItemList.New(slot0.talentsTF, slot0.talentsTF:Find("talent"))
 	slot0.dateTF = slot0:findTF("content/copyright/Text", slot0.infoTF)
-	slot0.treePanel = CommanderTreePanel.New(slot0:findTF("tree_panel"))
-	slot0.msgbox = CommaderMsgBox.New(slot0:findTF("box_msg_panel"))
+	slot0.treePanel = CommanderTreePage.New(slot0._tf, slot0.event)
+	slot0.msgbox = CommanderMsgBoxPage.New(slot0._tf, slot0.event)
 	slot0.antor = slot0._tf:GetComponent(typeof(Animator))
 	slot0.getEffect = slot0:findTF("main/effect")
 	slot0.skipAnim = true
@@ -38,14 +38,25 @@ function slot0.init(slot0)
 	if pg.GuideMgr:GetInstance()._go.activeSelf then
 		slot0.skipAnim = false
 	end
+
+	setParent(slot0._tf, pg.UIMgr:GetInstance().OverlayMain)
 end
 
 function slot0.openTreePanel(slot0, slot1)
-	slot0.treePanel:openTreePanel(slot1)
+	function slot2()
+		slot0.treePanel:ActionInvoke("openTreePanel", slot0.treePanel)
+	end
+
+	if slot0.treePanel:GetLoaded() then
+		slot2()
+	else
+		slot0.treePanel:Load()
+		slot0.treePanel:AddLoadedCallback(slot2)
+	end
 end
 
 function slot0.closeTreePanel(slot0)
-	slot0.treePanel:closeTreePanel()
+	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
 function slot0.enterAnim(slot0)
@@ -81,13 +92,22 @@ end
 function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
-	slot0.msgbox:openMsgBox(slot1)
+	function slot2()
+		slot0.msgbox:ActionInvoke("OnUpdate", slot0.msgbox)
+	end
+
+	if slot0.msgbox:GetLoaded() then
+		slot2()
+	else
+		slot0.msgbox:Load()
+		slot0.msgbox:AddLoadedCallback(slot2)
+	end
 end
 
 function slot0.closeMsgBox(slot0)
 	slot0.isShowMsgBox = nil
 
-	slot0.msgbox:closeMsgBox()
+	slot0.msgbox:ActionInvoke("Hide")
 end
 
 function slot0.didEnter(slot0)
@@ -186,11 +206,25 @@ function slot0.updateTalents(slot0)
 	slot0.talentsList:align(3)
 end
 
+function slot0.onBackPressed(slot0)
+	if slot0.isShowMsgBox then
+		slot0:closeMsgBox()
+
+		return
+	end
+end
+
 function slot0.willExit(slot0)
+	slot0.treePanel:Destroy()
+	slot0.msgbox:Destroy()
 	retPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())
 
 	if slot0.effect then
 		PoolMgr.GetInstance():ReturnUI("AL_zhihuimiao_zhipian", slot0.effect)
+	end
+
+	if slot0.contextData.onExit then
+		slot0.contextData.onExit()
 	end
 end
 

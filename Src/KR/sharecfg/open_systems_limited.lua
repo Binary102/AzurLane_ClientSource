@@ -50,7 +50,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "거울해역 ",
+		name = "거울해역",
 		story_id = "",
 		id = 7,
 		mediator = "ShamPreCombatMediator",
@@ -96,6 +96,14 @@ pg.open_systems_limited = {
 		mediator = "CommandRoomMediator",
 		level = 40
 	},
+	[15] = {
+		scene = "MAINUI",
+		name = "한계 챌린지",
+		story_id = "",
+		id = 15,
+		mediator = "ChallengeMainMediator",
+		level = 80
+	},
 	all = {
 		1,
 		2,
@@ -108,7 +116,8 @@ pg.open_systems_limited = {
 		9,
 		10,
 		11,
-		14
+		14,
+		15
 	}
 }
 

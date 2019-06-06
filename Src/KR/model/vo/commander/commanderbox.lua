@@ -1,4 +1,5 @@
 slot0 = class("CommanderBox", import("..BaseVO"))
+slot0.STATE_EMPTY = -1
 slot0.STATE_WAITING = 0
 slot0.STATE_STARTING = 1
 slot0.STATE_FINISHED = 2
@@ -34,17 +35,14 @@ function slot0.getState(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.finishTime == 0 then
-		return slot0.STATE_WAITING
+		return slot0.STATE_EMPTY
 	elseif slot0.finishTime <= slot1 then
 		return slot0.STATE_FINISHED
+	elseif slot0.finishTime > 0 and slot1 < slot0.beginTime then
+		return slot0.STATE_WAITING
 	elseif slot0.finishTime > 0 and slot1 < slot0.finishTime then
 		return slot0.STATE_STARTING
 	end
-end
-
-function slot0.start(slot0, slot1)
-	slot0.finishTime = slot1
-	slot0.beginTime = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 function slot0.finish(slot0)
@@ -64,7 +62,9 @@ function slot0.getPrefab(slot0)
 	if slot0.pool then
 		slot1 = slot0.rarity2Str[slot0.pool:getRarity()]
 
-		if slot0:getState() == slot0.STATE_STARTING then
+		if slot0:getState() == slot0.STATE_WAITING then
+			return slot1 .. "NekoBox1"
+		elseif slot2 == slot0.STATE_STARTING then
 			return slot1 .. "NekoBox2"
 		elseif slot2 == slot0.STATE_FINISHED then
 			return slot1 .. "NekoBox3"

@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "나, '헌터'니까, 이런 거엔 좀… 알지?",
 			typewriter = {
@@ -300,10 +300,10 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			actor = 201201,
+			actor = 201200,
 			say = "하디, 임무 끝나면… 같이 눈 보러 안 갈래?",
 			typewriter = {
 				speed = 0.05,

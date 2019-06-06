@@ -19,7 +19,7 @@ pg.skill_benefit_template = {
 			730
 		},
 		effect = {
-			1,
+			0,
 			1
 		}
 	},

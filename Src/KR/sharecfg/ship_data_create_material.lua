@@ -33,7 +33,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Normal：55%"
+			"Normal：55%",
+			"<color=#d797ff>꼬마 헬레나</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>꼬마 클리블랜드</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -21,7 +21,7 @@ function slot0.register(slot0)
 			if not pg.activity_template[slot5.id] then
 				Debugger.LogError("活动acvitity_template不存在: " .. slot5.id)
 			else
-				if Activity.New(slot5).getConfig(slot6, "type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+				if Activity.New(slot5).getConfig(slot6, "type") == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or slot7 == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 					slot0:updateActivityFleet(slot5)
 				end
 
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 		end
 
 		if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot1:isEnd() then
-			slot0:sendNotification(GAME.FETCH_CHALLENGE)
+			slot0:sendNotification(GAME.CHALLENGE2_INFO, {})
 		end
 
 		if slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot2:isEnd() and slot2.data1 == 0 then

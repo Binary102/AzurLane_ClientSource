@@ -240,7 +240,6 @@ slot7 = {
 	"AwardInfoUI",
 	"SkillInfoUI",
 	"ItemInfoUI",
-	"LevelUI3",
 	"ShipDetailView",
 	"LevelFleetSelectView"
 }
@@ -339,7 +338,12 @@ function pg.PoolMgr.GetPainting(slot0, slot1, slot2, slot3)
 
 	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
 		slot0:SetActive(true)
-		slot0(slot0)
+
+		if Ship.DefaultFaceless(slot0) then
+			setActive(tf(slot0):Find("face"), true)
+		end
+
+		slot1(slot0)
 	end, function (slot0)
 		return slot0 or ResourceMgr.Inst:getAssetSync("painting/unknown", "unknown", true, false)
 	end, true)
@@ -351,6 +355,10 @@ function pg.PoolMgr.ReturnPainting(slot0, slot1, slot2)
 	if IsNil(slot2) then
 		Debugger.LogError("empty go: " .. slot1)
 	elseif slot0.pools_plural[slot4] then
+		if tf(slot2):Find("face") then
+			setActive(slot5, false)
+		end
+
 		slot2:SetActive(false)
 		slot2.transform:SetParent(slot0.root, false)
 		slot0.pools_plural[slot4]:Enqueue(slot2)
@@ -502,6 +510,16 @@ function pg.PoolMgr.ReturnPrefab(slot0, slot1, slot2, slot3)
 	end
 end
 
+function pg.PoolMgr.DestroyPrefab(slot0, slot1, slot2)
+	if slot0.pools_plural[slot1 .. slot2] then
+		slot0.pools_plural[slot3]:Clear()
+
+		slot0.pools_plural[slot3] = nil
+
+		ResourceMgr.Inst:ClearBundleRef(slot1, true, false)
+	end
+end
+
 function pg.PoolMgr.DestroyAllPrefab(slot0)
 	slot1 = {}
 
@@ -619,6 +637,16 @@ function pg.PoolMgr.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	else
 		slot5(ResourceMgr.Inst:getAssetSync(slot1, slot2, slot4, slot6, false))
 	end
+end
+
+function pg.PoolMgr.PrintPools(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_plural) do
+		slot1 = slot1 .. "\n" .. slot5
+	end
+
+	print(slot1)
 end
 
 return

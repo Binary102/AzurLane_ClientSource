@@ -583,7 +583,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20202] = {
 		shiptype = 2,
-		name = "셰필드급",
+		name = "사우샘프턴급",
 		t_level = 7,
 		id = 20202,
 		t_level_1 = 46,
@@ -1550,6 +1550,17 @@ pg.fleet_tech_ship_class = {
 			40701
 		}
 	},
+	[40801] = {
+		shiptype = 8,
+		name = "ⅦB형",
+		t_level = 6,
+		id = 40801,
+		t_level_1 = 125,
+		nation = 4,
+		ships = {
+			40805
+		}
+	},
 	[40802] = {
 		shiptype = 8,
 		name = "ⅦC형",
@@ -1839,6 +1850,7 @@ pg.fleet_tech_ship_class = {
 		40501,
 		40502,
 		40701,
+		40801,
 		40802,
 		50101,
 		50201,

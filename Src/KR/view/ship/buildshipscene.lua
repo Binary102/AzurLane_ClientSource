@@ -82,25 +82,19 @@ function slot2(slot0)
 				slot0:hide()
 			end, SFX_PANEL)
 			onButton(slot0, slot0.minusBtn, function ()
-				if slot0:verifyCount(slot0.count - 1) then
-					slot0.count = math.max(slot0.count - 1, 1)
+				slot0.count = math.max(slot0.count - 1, 1)
 
-					math.max(slot0.count - 1, 1)(slot0.count, slot0.updateText)
-				end
+				math.max(slot0.count - 1, 1)(slot0.count, slot0.updateText)
 			end, SFX_PANEL)
 			onButton(slot0, slot0.addBtn, function ()
-				if slot0:verifyCount(slot0.count + 1) then
-					slot0.count = math.min(slot0.count + 1, slot0.max)
+				slot0.count = math.min(slot0.count + 1, MAX_BUILD_WORK_COUNT)
 
-					math.min(slot0.count + 1, slot0.max)(slot0.count, slot0.updateText)
-				end
+				math.min(slot0.count + 1, MAX_BUILD_WORK_COUNT)(slot0.count, slot0.updateText)
 			end, SFX_PANEL)
 			onButton(slot0, slot0.maxBtn, function ()
-				if slot0:verifyCount(slot0.max) then
-					slot0.count = slot0.max
+				slot0.count = MAX_BUILD_WORK_COUNT
 
-					slot0.max(slot0.count, slot0.updateText)
-				end
+				MAX_BUILD_WORK_COUNT(slot0.count, slot0.updateText)
 			end, SFX_PANEL)
 		end,
 		verifyCount = function (slot0, slot1)
@@ -385,7 +379,9 @@ function slot0.initBuildPanel(slot0)
 
 	setActive(slot0.projectToggles[slot0.PROJECTS.ACTIVITY].parent, slot0.activity and not slot0.activity:isEnd())
 
-	if slot0.activity and not slot0.activity:isEnd() then
+	if slot0.contextData.projectName then
+		slot0.projectName = slot0.contextData.projectName
+	elseif slot0.activity and not slot0.activity:isEnd() then
 		slot0.projectName = slot0.PROJECTS.ACTIVITY
 	elseif BuildShipScene.projectName == slot0.PROJECTS.ACTIVITY then
 		slot0.projectName = slot0.PROJECTS.HEAVY

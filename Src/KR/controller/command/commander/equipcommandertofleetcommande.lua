@@ -18,7 +18,9 @@ class("EquipCommanderToFleetCommande", pm.SimpleCommand).execute = function (slo
 	end
 
 	if slot3 == 0 and not slot9:getCommanderByPos(slot4) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_fleet_pos_not_exist"))
+		if slot6 then
+			slot6()
+		end
 
 		return
 	end

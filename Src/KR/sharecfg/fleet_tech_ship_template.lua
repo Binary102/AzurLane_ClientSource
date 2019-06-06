@@ -5229,8 +5229,7 @@ pg.fleet_tech_ship_template = {
 			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[40805] = {
@@ -5248,8 +5247,7 @@ pg.fleet_tech_ship_template = {
 			8
 		},
 		add_level_shiptype = {
-			8,
-			17
+			8
 		}
 	},
 	[49901] = {

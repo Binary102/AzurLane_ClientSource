@@ -11,7 +11,7 @@ function slot0.preload(slot0, slot1)
 	if slot0.maps[slot0:selectMap(slot2)]:getConfig("bg") and #slot5 > 0 then
 		GetSpriteFromAtlasAsync("levelmap/" .. slot4:getConfig("bg"), "", slot1)
 	elseif slot4:getConfig("animtor") == 1 then
-		PoolMgr.GetInstance():GetUI(slot4:getConfig("ani_name"), true, function (slot0)
+		LoadAndInstantiateAsync("ui", slot4:getConfig("ani_name"), function (slot0)
 			slot0:SetActive(false)
 
 			slot0.tornadoTF = slot0
@@ -36,7 +36,10 @@ function slot0.initData(slot0)
 	slot0.mapHeight = 1440
 	slot0.levelCamIndices = 1
 	slot0.frozenCount = 0
-	slot0.contextData.huntingRangeVisibility = 2
+
+	if not slot0.contextData.huntingRangeVisibility then
+		slot0.contextData.huntingRangeVisibility = 2
+	end
 end
 
 function slot0.initUI(slot0)
@@ -84,6 +87,7 @@ function slot0.initUI(slot0)
 
 	setActive(slot0.btnSpecial, true)
 
+	slot0.challengeBtn = slot0:findTF("event_btns/event_container/ChallengeBtn", slot0.rightChapter)
 	slot0.dailyBtn = slot0:findTF("daily_button", slot0.eventContainer)
 	slot0.militaryExerciseBtn = slot0:findTF("btn_pvp", slot0.eventContainer)
 	slot0.shamBtn = slot0:findTF("sham_button", slot0.eventContainer)
@@ -144,10 +148,12 @@ function slot0.initUI(slot0)
 	slot0.levelGrid = slot0.uiMain:Find("LevelGrid")
 
 	setActive(slot0.levelGrid, true)
-	RemoveComponent(slot0.levelGrid, typeof(Image))
 
 	slot0.dragLayer = slot0.levelGrid:Find("DragLayer") or cloneTplTo(slot0.levelGrid, slot0.levelGrid, "DragLayer")
 	slot0.dragLayer.localEulerAngles = Vector3.zero
+
+	RemoveComponent(slot0.levelGrid, typeof(Image))
+
 	slot0.float = slot0:findTF("float")
 	slot0.clouds = slot0:findTF("clouds", slot0.float)
 	slot0.chapters = slot0:findTF("levels", slot0.float)
@@ -276,6 +282,10 @@ function slot0.updateBossBattleAct(slot0, slot1)
 	end
 end
 
+function slot0.setCommanderPrefabs(slot0, slot1)
+	slot0.commanderPrefabs = slot1
+end
+
 function slot0.didEnter(slot0)
 	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "CommandRoomMediator")
 
@@ -304,6 +314,20 @@ function slot0.didEnter(slot0)
 
 		DailyLevelProxy:emit(LevelMediator2.ON_DAILY_LEVEL)
 	end, SFX_PANEL)
+	onButton(slot0, slot0.challengeBtn, function ()
+		slot2, slot3 = pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "ChallengeMainMediator")
+
+		if slot2 == false then
+			pg.TipsMgr:GetInstance():ShowTips(slot3)
+		else
+			slot0:emit(LevelMediator2.CLICK_CHALLENGE_BTN)
+		end
+	end, SFX_PANEL)
+
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or slot2:isEnd() then
+		setActive(slot0.challengeBtn, false)
+	end
+
 	onButton(slot0, slot0.militaryExerciseBtn, function ()
 		if slot0:isfrozen() then
 			return
@@ -403,10 +427,10 @@ function slot0.didEnter(slot0)
 		setActive(slot0.escortBtn, false)
 	end
 
-	setActive(slot0.shamBtn, not ChapterConst.ActivateMirror and getProxy(ChapterProxy).getShamChapter(slot4):isOpen())
+	setActive(slot0.shamBtn, not ChapterConst.ActivateMirror and getProxy(ChapterProxy).getShamChapter(slot6):isOpen())
 
-	if slot6 then
-		setText(slot0:findTF("day", slot0.shamBtn), slot5:getRestDays())
+	if slot8 then
+		setText(slot0:findTF("day", slot0.shamBtn), slot7:getRestDays())
 	end
 
 	setActive(slot0:findTF("lock", slot0.shamBtn), not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "ShamPreCombatMediator"))
@@ -419,13 +443,13 @@ function slot0.didEnter(slot0)
 		slot0.contextData.editEliteChapter = nil
 	end
 
-	for slot13, slot14 in ipairs(getProxy(ContextProxy).getContextByMediator(slot8, LevelMediator2).children) do
-		function slot14.onRemoved()
+	for slot15, slot16 in ipairs(getProxy(ContextProxy).getContextByMediator(slot10, LevelMediator2).children) do
+		function slot16.onRemoved()
 			slot0:onSubLayerClose()
 		end
 	end
 
-	if #slot9.children > 0 then
+	if #slot11.children > 0 then
 		slot0:onSubLayerOpen()
 	else
 		slot0:onSubLayerClose()
@@ -439,7 +463,7 @@ function slot0.didEnter(slot0)
 		slot0:displayFleetSelect(slot0.contextData.selectedChapterVO)
 	end
 
-	if slot4:ifShowRemasterTip() then
+	if slot6:ifShowRemasterTip() then
 		SetActive(slot0.remasterTipTF, true)
 	else
 		SetActive(slot0.remasterTipTF, false)
@@ -589,6 +613,10 @@ end
 
 function slot0.updateRes(slot0, slot1)
 	slot0.resPanel:setResources(slot1)
+
+	if slot0.levelStageView and slot0.levelStageView:CheckState(BaseSubView.STATES.INITED) then
+		slot0.levelStageView:SetPlayer(slot1)
+	end
 
 	slot0.player = slot1
 end
@@ -2165,6 +2193,18 @@ function slot0.displayFleetSelect(slot0, slot1)
 	return
 end
 
+function slot0.updateFleetSelect(slot0)
+	if slot0.levelFleetView and slot0.levelFleetView:GetLoaded() then
+		slot0.levelFleetView:ActionInvoke("set", slot0.levelFleetView.chapter, slot0.fleets, slot0.levelFleetView.selects)
+
+		if slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() and slot0.fleets[slot0.levelCMDFormationView.fleet.id] then
+			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot2)
+		end
+	end
+
+	return
+end
+
 function slot0.hideFleetSelect(slot0)
 	if slot0.levelCMDFormationView and slot0.levelCMDFormationView._state ~= 5 then
 		slot0.levelCMDFormationView:Destroy()
@@ -2183,6 +2223,20 @@ function slot0.displayFleetEdit(slot0, slot1)
 	slot0.levelFleetView:ActionInvoke("setHardShipVOs", slot0.shipVOs)
 	slot0.levelFleetView:ActionInvoke("setCBFuncOnHard", slot2)
 	slot0.levelFleetView:ActionInvoke("setOnHard", slot1)
+
+	return
+end
+
+function slot0.updateFleetEdit(slot0, slot1, slot2)
+	if slot0.levelFleetView and slot0.levelFleetView:GetLoaded() then
+		if slot0.contextData.map:getChapter(slot1) and slot0.levelFleetView.chapter.id == slot4.id then
+			slot0.levelFleetView:ActionInvoke("setOnHard", slot4)
+		end
+
+		if slot4 and slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() then
+			slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot4:wrapEliteFleet(slot2))
+		end
+	end
 
 	return
 end
@@ -2394,6 +2448,7 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 	slot0.levelStageView:Load()
 	slot0.levelStageView:ActionInvoke("SetSeriesOperation", slot5)
+	slot0.levelStageView:ActionInvoke("SetPlayer", slot0.player)
 	slot0.levelStageView:ActionInvoke("SwitchToChapter", slot1)
 
 	return
@@ -3578,26 +3633,44 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 
 	if not slot3 then
 		function slot4(slot0)
-			slot0.contextData.commanderSelected = {
-				chapterId = slot1,
-				fleetId = slot2.id
-			}
+			if slot0.type == LevelUIConst.COMMANDER_OP_ADD then
+				slot0.contextData.commanderSelected = {
+					chapterId = slot1,
+					fleetId = slot2.id
+				}
 
-			slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0, slot2.id, slot0.emit)
-			slot0:closeCommanderPanel()
+				slot0:emit(LevelMediator2.ON_SELECT_COMMANDER, slot0.pos, slot2.id, slot0.emit)
+				slot0:closeCommanderPanel()
+			else
+				slot0:emit(LevelMediator2.ON_COMMANDER_OP, {
+					FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+					data = slot0,
+					fleetId = slot2.id,
+					chapterId = slot0.emit
+				})
+			end
 
 			return
 		end
 	else
 		function slot4(slot0)
-			slot0.contextData.eliteCommanderSelected = {
-				index = slot1,
-				pos = slot0,
-				chapterId = 
-			}
+			if slot0.type == LevelUIConst.COMMANDER_OP_ADD then
+				slot0.contextData.eliteCommanderSelected = {
+					index = slot1,
+					pos = slot0.pos,
+					chapterId = 
+				}
 
-			slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0, slot0)
-			slot0:closeCommanderPanel()
+				slot0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, slot0.emit, slot0.pos, slot0)
+				slot0:closeCommanderPanel()
+			else
+				slot0:emit(LevelMediator2.ON_COMMANDER_OP, {
+					FleetType = LevelUIConst.FLEET_TYPE_EDIT,
+					data = slot0,
+					index = slot1,
+					chapterId = slot0
+				})
+			end
 
 			return
 		end
@@ -3606,8 +3679,16 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0.levelCMDFormationView:Load()
-	slot0.levelCMDFormationView:ActionInvoke("update", slot1, slot4)
+	slot0.levelCMDFormationView:ActionInvoke("update", slot1, slot0.commanderPrefabs, slot4)
 	slot0.levelCMDFormationView:ActionInvoke("open")
+
+	return
+end
+
+function slot0.updateCommanderPrefab(slot0)
+	if slot0.levelCMDFormationView and slot0.levelCMDFormationView:GetLoaded() then
+		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
+	end
 
 	return
 end
@@ -3736,12 +3817,6 @@ function slot0.willExit(slot0)
 		slot0.resPanel = nil
 	end
 
-	if slot0.resPanel1 then
-		slot0.resPanel1:exit()
-
-		slot0.resPanel1 = nil
-	end
-
 	if slot0.activityBossBattlePanel then
 		slot0.activityBossBattlePanel:clear()
 	end
@@ -3759,6 +3834,7 @@ function slot0.willExit(slot0)
 
 		return
 	end)
+	PoolMgr.GetInstance():DestroyAllSprite()
 
 	if getProxy(ChapterProxy) then
 		if not slot0.contextData.map:isActivity() and not slot2:isSham() and not slot2:isGuildBoss() and not slot2:isEscort() then

@@ -13,16 +13,13 @@ class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slo
 			slot1 = {}
 
 			if slot0.cmd == 1 then
-				for slot5, slot6 in ipairs(slot0.award_list) do
-					table.insert(slot1, slot7)
-					slot1:sendNotification(GAME.ADD_ITEM, Item.New({
-						type = slot6.type,
-						id = slot6.id,
-						count = slot6.number
-					}))
+				for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
+					if slot1[slot5].type ~= DROP_TYPE_SHIP then
+						slot1:sendNotification(GAME.ADD_ITEM, slot6)
+					end
 				end
 
-				slot2.data2 = slot0.arg1
+				table.insert(slot2.data1_list, slot0.arg1)
 			elseif slot0.cmd == 2 then
 				slot2.data3 = slot0.number[1]
 			end

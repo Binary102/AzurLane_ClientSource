@@ -735,6 +735,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Mizuki Yuina",
 		code = 184
+	},
+	{
+		actor_name = "Sayuri Hara",
+		code = 185
+	},
+	{
+		actor_name = "Yanagihara Kanako",
+		code = 186
 	}
 }
 

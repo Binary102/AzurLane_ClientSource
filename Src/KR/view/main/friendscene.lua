@@ -589,21 +589,25 @@ function slot0.createBlackItem(slot0, slot1)
 		tr = tf(slot1),
 		name = ()["tr"]:Find("frame/request_info/name_bg/Text"):GetComponent(typeof(Text)),
 		manifesto = ()["tr"]:Find("frame/request_content/Text"):GetComponent(typeof(Text)),
-		iconTF = ()["tr"]:Find("icon"),
+		iconTF = ()["tr"]:Find("icon/icon_bg/icon"):GetComponent(typeof(Image)),
+		iconCommonTF = ()["tr"]:Find("icon/icon_bg/frame_common"),
+		iconPropTF = ()["tr"]:Find("icon/icon_bg/frame_marry"),
+		starList = UIItemList.New(()["tr"]:Find("icon/icon_bg/stars"), ()["tr"]:Find("icon/icon_bg/stars/star")),
 		btn = ()["tr"]:Find("frame/occupy_btn"),
 		update = function (slot0, slot1)
 			slot0.player = slot1
 			slot0.name.text = slot1.name
 			slot0.manifesto.text = slot1.manifesto
-
-			updateDrop(slot0.iconTF, {
-				type = DROP_TYPE_SHIP,
-				id = slot1.icon,
-				id = slot1.icon,
-				skinId = slot1.skinId
-			}, {
-				initStar = true
+			slot2 = Ship.New({
+				configId = slot1.icon
 			})
+
+			LoadSpriteAsync("qicon/" .. slot2:getPrefab(), function (slot0)
+				slot0.iconTF.sprite = slot0
+			end)
+			setActive(slot0.iconCommonTF, not slot1.propose)
+			setActive(slot0.iconPropTF, slot1.propose)
+			slot0.starList:align(slot2:getStar())
 		end
 	}
 end

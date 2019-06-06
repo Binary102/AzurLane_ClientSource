@@ -20,6 +20,7 @@ slot0.SHOW_AWARD_WINDOW = "event show award window"
 slot0.GO_DODGEM = "event go dodgem"
 slot0.GO_PRAY_POOL = "GO_PRAY_POOL"
 slot0.GO_BUILD_BISIMAI = "GO_BUILD_BISIMAI"
+slot0.SELECT_ACTIVITY = "event select activity"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -32,7 +33,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.RETURN_AWARD_OP, function (slot0, slot1)
 		if slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW then
-			slot0.viewComponent:ShowBonusWindow(slot1.arg1)
+			slot0.viewComponent:ShowReturnerBoundsWindow(slot1.arg1)
 		elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW then
 			slot0.viewComponent:ShowTaskBoundsWindow(slot1.arg1)
 		else
@@ -150,6 +151,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
 			goToBisiMai = true
 		})
+	end)
+	slot0:bind(slot0.SELECT_ACTIVITY, function (slot0, slot1)
+		slot0.viewComponent:selectActivity(slot1)
 	end)
 
 	slot1 = getProxy(ActivityProxy)

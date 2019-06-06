@@ -170,13 +170,20 @@ function slot0.flushCollection(slot0, slot1)
 			if slot2.star < slot1:getStar() and slot1:getStar() == pg.fleet_tech_ship_template[slot1.groupId].max_star then
 				slot3 = true
 
-				pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage)
+				pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+					point = pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage
+				})
 			end
 
 			if slot2.maxLV < slot1.level and slot1.level == TechnologyConst.MAX_LV then
 				slot3 = true
 
-				pg.TecToastMgr:GetInstance():tryShow(pg.fleet_tech_ship_template[slot1.groupId].pt_level, pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype, pg.fleet_tech_ship_template[slot1.groupId].add_level_attr, pg.fleet_tech_ship_template[slot1.groupId].add_level_value)
+				pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+					point = pg.fleet_tech_ship_template[slot1.groupId].pt_level,
+					typeList = pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype,
+					attr = pg.fleet_tech_ship_template[slot1.groupId].add_level_attr,
+					value = pg.fleet_tech_ship_template[slot1.groupId].add_level_value
+				})
 			end
 		end
 
@@ -231,12 +238,26 @@ function slot0.hiddenTrophyAutoClaim(slot0)
 	end
 end
 
+function slot0.unclaimTrophyCount(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in pairs(slot0.trophy) do
+		if slot6:getHideType() == Trophy.ALWAYS_SHOW and slot6:canClaimed() and not slot6:isClaimed() then
+			slot1 = slot1 + 1
+		end
+	end
+
+	return slot1
+end
+
 function slot0.updateTrophy(slot0)
 	slot0:sendNotification(slot0.TROPHY_UPDATE, Clone(slot0.trophy))
 end
 
 function slot0.dispatchClaimRemind(slot0, slot1)
-	pg.TrophyReminderMgr:GetInstance():ShowTips(slot1)
+	pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
+		id = slot1
+	})
 end
 
 function slot0.bindComplexTrophy(slot0)

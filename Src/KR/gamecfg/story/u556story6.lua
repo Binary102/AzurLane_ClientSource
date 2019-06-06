@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			actor = 405010,
 			nameColor = "#a9f548",
-			say = "U-556! 고귀한 퍼시발의 이름 아래 나에게 맹세를 바쳐라!令人尊敬的水下骑士啊。",
+			say = "U-556! 고귀한 퍼시발의 이름 아래 나에게 맹세를 바쳐라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

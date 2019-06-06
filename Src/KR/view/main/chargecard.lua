@@ -12,10 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resCount = slot0.tr:Find("count/Text"):GetComponent(typeof(Text))
 	slot0.price = slot0.tr:Find("prince_bg/contain/Text"):GetComponent(typeof(Text))
 	slot0.contain = slot0.tr:Find("prince_bg/contain")
-	slot0.iconActivity = slot0.tr:Find("prince_bg/icon_activity")
 	slot0.rmb = slot0.tr:Find("prince_bg/contain/icon_rmb")
 	slot0.gem = slot0.tr:Find("prince_bg/contain/icon_gem")
-	slot0.discount = slot0.tr:Find("prince_bg/contain/dicount")
 	slot0.mask = slot0.tr:Find("mask")
 	slot0.maskState = slot0.mask:Find("state")
 	slot0.name = slot0.tr:Find("item_name")
@@ -37,7 +35,6 @@ function slot0.Ctor(slot0, slot1)
 	table.insert(slot0.tags, slot0.tr:Find("tag/activity"))
 	table.insert(slot0.tags, slot0.tr:Find("tag/time"))
 	table.insert(slot0.tags, slot0.tr:Find("tag/discount"))
-	setActive(slot0.discount, false)
 	setActive(slot0.countDown, false)
 end
 
@@ -49,15 +46,12 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	setActive(slot0.rmb, slot1:isChargeType())
 	setActive(slot0.gem, not slot1:isChargeType())
 	setActive(slot0.icon, slot1:isChargeType())
-	setActive(slot0.iconActivity, false)
 	setActive(slot0.contain, true)
 	setActive(slot0.countDown, false)
 
 	if slot1:isChargeType() then
-		setActive(slot0.discount, false)
 		slot0:updateCharge(slot1, slot2, slot3)
 	else
-		setActive(slot0.discount, false)
 		slot0:updateGemItem(slot1, slot2)
 	end
 

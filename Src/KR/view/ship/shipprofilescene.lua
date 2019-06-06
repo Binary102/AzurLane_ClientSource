@@ -34,7 +34,7 @@ function slot0.preload(slot0, slot1)
 		slot6 = slot6 + 1
 	end
 
-	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot3:isBluePrintGroup() and "0") or "") .. shipRarity2bgPrint(slot6, slot0.contextData.groupId * 10 + ((slot0.contextData.showTrans and slot3.trans and 9) or 0)), "", slot1)
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot6, slot0.contextData.groupId * 10 + ((slot0.contextData.showTrans and slot3.trans and 9) or 0), slot3:isBluePrintGroup()), "", slot1)
 end
 
 function slot0.reloadCVKey(slot0)
@@ -215,17 +215,18 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.switchLive2d(slot0, slot1)
+	slot2 = false
 	slot0.l2dIsOn = slot1
 
 	setActive(slot0:findTF("view_btn", slot0.profile), true)
 
-	slot2 = "live2d/" .. slot0.paintingName
+	slot3 = "live2d/" .. slot0.paintingName
 
-	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot4 == DownloadState.CheckFailure then
-		slot3:CheckD()
+	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
+		slot4:CheckD()
 	end
 
-	if slot3:CheckF(slot2) == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure then
+	if slot4:CheckF(slot3) == DownloadState.CheckToUpdate or slot6 == DownloadState.UpdateFailure then
 		setActive(slot0.live2dBtn, true)
 		setActive(slot0.live2dState, false)
 		setActive(slot0.live2dToggle, true)
@@ -234,15 +235,15 @@ function slot0.switchLive2d(slot0, slot1)
 		onButton(slot0, slot0.live2dBtn, function ()
 			slot0:UpdateF(slot0, true)
 		end, SFX_PANEL)
-	elseif slot5 == DownloadState.Updating then
+	elseif slot6 == DownloadState.Updating then
 		setActive(slot0.live2dBtn, true)
 		setActive(slot0.live2dToggle, false)
 		setActive(slot0.live2dState, true)
 		removeOnButton(slot0.live2dBtn)
 	else
-		setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot2)))
+		setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot3)))
 
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot2)) then
+		if PathMgr.FileExists(PathMgr.getAssetBundle(slot3)) then
 			slot0.live2dChecked = slot1
 
 			setActive(slot0.live2dState, false)
@@ -253,11 +254,17 @@ function slot0.switchLive2d(slot0, slot1)
 
 			if slot0.live2dChecked then
 				slot0:createLive2D(slot0.paintingName)
+
+				slot2 = modelName == "biaoqiang" or modelName == "z23" or modelName == "lafei" or modelName == "lingbo" or modelName == "mingshi"
 			else
 				slot0:hideLive2D()
 			end
 
 			onButton(slot0, slot0.live2dBtn, function ()
+				if slot0.l2dChar and slot0.l2dChar.state == Live2D.STATE_LOADING then
+					return
+				end
+
 				slot0:switchLive2d(not slot0.live2dChecked)
 				slot0.switchLive2d:switchVoiceList(slot0.live2dChecked)
 			end, SFX_PANEL)
@@ -270,12 +277,22 @@ function slot0.switchLive2d(slot0, slot1)
 		slot0.live2dTimer = nil
 	end
 
-	if slot5 == DownloadState.CheckToUpdate or slot5 == DownloadState.UpdateFailure or slot5 == DownloadState.Updating then
+	if slot6 == DownloadState.CheckToUpdate or slot6 == DownloadState.UpdateFailure or slot6 == DownloadState.Updating then
 		slot0.live2dTimer = Timer.New(function ()
 			slot0:switchLive2d((slot0:CheckF(slot0) == DownloadState.UpdateSuccess and true) or slot3)
 		end, 0.5, 1)
 
 		slot0.live2dTimer:Start()
+	end
+
+	if not slot2 then
+		rtf(slot0.painting).anchorMin = Vector2(0.5, 0.5)
+		rtf(slot0.painting).anchorMax = Vector2(0.5, 0.5)
+		rtf(slot0.painting).pivot = Vector2(0.5, 0.5)
+	else
+		rtf(slot0.painting).anchorMin = Vector2(0.5, 0)
+		rtf(slot0.painting).anchorMax = Vector2(0.5, 0)
+		rtf(slot0.painting).pivot = Vector2(0.5, 0)
 	end
 end
 
@@ -341,7 +358,7 @@ function slot0.switchTo(slot0, slot1)
 end
 
 function slot0.initCommon(slot0)
-	slot0:loadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup.id * 10))
+	slot0:loadSkinBg(shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.shipGroup.id * 10, slot0.shipGroup:isBluePrintGroup()))
 
 	slot0.paintingName = slot0.shipGroup:getPainting(slot0.showTrans)
 	slot0.live2dOffset = BuildVector3(pg.ship_skin_template[slot0.shipGroup.id * 10 + ((slot0.showTrans and 9) or 0)].live2d_offset)
@@ -351,7 +368,7 @@ function slot0.initCommon(slot0)
 	setText(slot0.labelName, slot0.shipGroup:getName(slot0.showTrans))
 	setText(slot0.labelEnName, slot0.shipGroup.shipConfig.english_name)
 
-	for slot8 = 1, slot1.star, 1 do
+	for slot7 = 1, slot1.star, 1 do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 end
@@ -623,23 +640,28 @@ function slot0.initProfile(slot0)
 	if #slot0.groupSkinList == 1 or slot0.showTrans then
 		setActive(slot0.skinList, false)
 	else
-		slot0.centerY = slot0.skinScroll.transform.position.y
+		slot0.spaceY = GetComponent(slot0.skinList, typeof(GridLayoutGroup)).spacing.y
+		slot0.skinTplHeight = GetComponent(slot4, typeof(RectTransform)).rect.height
+		slot0.upY = slot0.skinScroll:TransformPoint(Vector3(slot0.skinScroll.anchoredPosition.x, slot0.skinScroll.anchoredPosition.y + slot0.skinTplHeight, 0))
+		slot0.bottomY = slot0.skinScroll:TransformPoint(Vector3(slot0.skinScroll.anchoredPosition.x, -slot0.skinScroll.anchoredPosition.y - slot0.skinTplHeight, 0))
 		slot0.skinCanvasGroup = {}
-		slot0.constant = 0.00392156862745098
 
-		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.RemoveAllListeners(slot4)
-		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.AddListener(slot4, function (slot0)
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.RemoveAllListeners(slot5)
+		GetComponent(slot0.skinScroll, typeof(ScrollRect)).onValueChanged.AddListener(slot5, function (slot0)
 			for slot4, slot5 in ipairs(slot0.skinCanvasGroup) do
-				slot5.alpha = slot1.SKIN_LIST_ALPHA_CONSTANT / Mathf.Max(Mathf.Abs(slot5.transform.position.y - slot0.centerY), slot0.constant)
+				if slot0.upY.y < slot5.transform.position.y or slot5.transform.position.y < slot0.bottomY.y then
+					slot5.alpha = 0.5
+				else
+					slot5.alpha = 1
+				end
 			end
 		end)
 		setActive(slot0.skinList, true)
 
-		slot5 = slot0:getTpl("skin_tpl", slot0.skinList)
 		slot0.currSkin = nil
 
 		for slot9, slot10 in ipairs(slot0.groupSkinList) do
-			slot11 = cloneTplTo(slot5, slot0.skinList)
+			slot11 = cloneTplTo(slot4, slot0.skinList)
 
 			table.insert(slot0.skinNameList, slot12)
 			table.insert(slot0.skinCanvasGroup, GetOrAddComponent(slot11, typeof(CanvasGroup)))
@@ -695,6 +717,10 @@ function slot0.initProfile(slot0)
 	if slot0.shipGroup.married == 1 then
 		setActive(slot4, true)
 		onButton(slot0, slot4, function ()
+			if slot0._currentVoice then
+				slot0._currentVoice:Stop(true)
+			end
+
 			slot0:emit(slot1.WEDDING_REVIEW, {
 				group = slot0.shipGroup,
 				skinID = slot0.currentSkin.id
@@ -787,7 +813,7 @@ function slot0.shiftSkin(slot0, slot1)
 	slot0:switchVoiceList(false)
 	slot0:loadModel()
 	slot0:shiftPainting()
-	slot0:loadSkinBg((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id))
+	slot0:loadSkinBg((slot0.currentSkin.bg and #slot0.currentSkin.bg > 0 and slot0.currentSkin.bg) or shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.currentSkin.id, slot0.shipGroup:isBluePrintGroup()))
 	slot0:switchLive2d(false)
 end
 
@@ -821,34 +847,42 @@ function slot0.switchVoiceList(slot0, slot1)
 end
 
 function slot0.loadSkinBg(slot0, slot1)
-	slot0.isDesign = slot0.shipGroup:isBluePrintGroup()
+	slot0.bluePintBg = slot0.shipGroup:isBluePrintGroup() and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, true)
 
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
 
-		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. ((slot0.isDesign and "0") or "") .. slot1, "", function (slot0)
+		GetSpriteFromAtlasAsync("bg/star_level_bg_" .. slot1, "", function (slot0)
 			if not slot0.exited and slot0.shipSkinBg ==  then
 				setImageSprite(slot0.bg, slot0)
 			end
 		end)
 
-		if slot0.isDesign then
+		if slot0.bluePintBg and slot1 == slot0.bluePintBg then
+			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
+				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+
+				slot0.designBg = nil
+			end
+
 			if not slot0.designBg then
-				PoolMgr.GetInstance():GetUI("raritydesign5", true, function (slot0)
+				PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
 					slot0.designBg = slot0
+					slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
 
 					slot0.transform:SetParent(slot0.bg, false)
 
+					slot0.transform.localPosition = Vector3(1, 1, 1)
 					slot0.transform.localScale = Vector3(1, 1, 1)
-					slot0.transform.localPosition = Vector3(0, 0, 0)
 
+					slot0.transform:SetSiblingIndex(1)
 					setActive(slot0, true)
 				end)
 			else
 				setActive(slot0.designBg, true)
 			end
 		elseif slot0.designBg then
-			setActive(slot0.designBg, slot0.isDesign)
+			setActive(slot0.designBg, false)
 		end
 	end
 end
@@ -1188,6 +1222,10 @@ function slot0.clearScrollTxt(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0.designBg then
+		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+	end
+
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:UnOverlayPanel(slot0.blurPanel, slot0._tf)

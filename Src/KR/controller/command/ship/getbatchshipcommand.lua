@@ -41,11 +41,14 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot1 = {}
 		slot2 = false
 		slot3 = {}
+		slot4 = nil
 
-		for slot7 = 1, slot0, 1 do
+		for slot8 = 1, slot0, 1 do
 			if slot2.ship_bag_max <= slot3 then
 				break
 			end
+
+			slot4 = slot4 or slot1[slot0:getFinishedIndex()].type
 
 			table.insert(slot1, function (slot0)
 				slot3 = slot2:getFinishedIndex()
@@ -72,7 +75,7 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot3 = slot3 + 1
 		end
 
-		function slot4()
+		function slot5()
 			seriesAsync(seriesAsync, function ()
 				if slot0 then
 					slot1:setSkipBatchBuildFlag(false)
@@ -98,9 +101,9 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 
 		if #slot1 > 0 and slot5 then
-			slot5(slot4)
+			slot5(slot5, slot4)
 		else
-			slot4()
+			slot5()
 		end
 	end)
 end

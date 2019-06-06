@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
-			say = "",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

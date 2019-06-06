@@ -89,4 +89,26 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
+function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+	if slot1:getFleetIndex(FleetType.Submarine, slot0.line.row, slot0.line.column) then
+		if slot0.target then
+			slot7 = "-" .. _.detect(slot0.cellUpdates, function (slot0)
+				return slot0.row == slot0.target.row and slot0.column == slot0.target.column
+			end).data / 100 .. "%"
+
+			slot2.viewComponent:doPlayStrikeAnim(slot1:getTorpedoShip(slot5), "SubTorpedoUI", function ()
+				slot0.viewComponent:strikeEnemy(slot1.target, , )
+			end)
+
+			return
+		end
+
+		if #slot0.movePath > 0 then
+			slot2.viewComponent.grid:moveSub(slot4, slot0.movePath, Clone(slot0.movePath), slot3)
+		else
+			slot3()
+		end
+	end
+end
+
 return slot0

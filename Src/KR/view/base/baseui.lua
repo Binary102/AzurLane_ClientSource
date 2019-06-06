@@ -143,7 +143,8 @@ function slot0.onUILoaded(slot0, slot1)
 		slot0:findTF("mainPanel/top/option"),
 		slot0:findTF("bg/top/option"),
 		slot0:findTF("blur_container/adapt/top/title/option"),
-		slot0:findTF("blur_container/adapt/top/option")
+		slot0:findTF("blur_container/adapt/top/option"),
+		slot0:findTF("ForNorth/top/option")
 	}
 
 	slot0:init()

@@ -75,8 +75,11 @@ function slot6(slot0)
 				if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 					setActive(slot0._tagTFs[9], true)
 				elseif slot9 then
-					if slot0.goodsVO:getConfig("tag") == 5 then
-						setText(slot0._tagTFs[5], slot1:getConfig("discount") .. "%OFF")
+					slot11 = slot0.goodsVO:getConfig("tag")
+
+					if slot8 or slot11 == 5 then
+						setText(slot0._tagTFs[5].Find(slot12, "Text"), slot1:getConfig("discount") .. "%")
+						setActive(slot0._tagTFs[5], true)
 					elseif slot0._tagTFs[slot11] then
 						setActive(slot0._tagTFs[slot11], true)
 					else
@@ -173,12 +176,13 @@ function slot0.init(slot0)
 	slot0.namePanel = slot0:findTF("name_bg", slot0.mainPanel)
 	slot0.nameTxt = slot0:findTF("name_bg/name", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.skinNameTxt = slot0:findTF("name_bg/skin_name", slot0.mainPanel):GetComponent(typeof(Text))
-	slot0.charParent = slot0:findTF("char/char", slot0.mainPanel)
+	slot0.rightPanel = slot0:findTF("right")
+	slot0.charParent = slot0:findTF("char", slot0.rightPanel)
 	slot0.paintingTF = slot0:findTF("paint", slot0.mainPanel)
-	slot0.charBg = slot0:findTF("char/char_info", slot0.mainPanel)
-	slot0.tags = slot0:findTF("char/char_info/tags", slot0.mainPanel)
+	slot0.charBg = slot0:findTF("char_info", slot0.rightPanel)
+	slot0.tags = slot0:findTF("char_info/tags", slot0.rightPanel)
 	slot0.limitTxt = slot0:findTF("name_bg/limit_time/Text", slot0.mainPanel):GetComponent(typeof(Text))
-	slot0.commonPanel = slot0:findTF("char/common", slot0.mainPanel)
+	slot0.commonPanel = slot0:findTF("common", slot0.rightPanel)
 	slot0.commonBGTF = slot0:findTF("bg", slot0.commonPanel)
 	slot0.commonLabelTF = slot0:findTF("label", slot0.commonPanel)
 	slot0.commonConsumeTF = slot0:findTF("consume", slot0.commonPanel)
@@ -187,7 +191,7 @@ function slot0.init(slot0)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.commonPanel)
 	slot0.priceTxt = slot0:findTF("consume/Text", slot0.commonPanel):GetComponent(typeof(Text))
 	slot0.originalPriceTxt = slot0:findTF("consume/originalprice/Text", slot0.commonPanel):GetComponent(typeof(Text))
-	slot0.timelimtPanel = slot0:findTF("char/timelimt", slot0.mainPanel)
+	slot0.timelimtPanel = slot0:findTF("timelimt", slot0.rightPanel)
 	slot0.timelimitBtn = slot0:findTF("timelimit_btn", slot0.timelimtPanel)
 	slot0.timelimitPriceTxt = slot0:findTF("consume/Text", slot0.timelimtPanel):GetComponent(typeof(Text))
 	slot0.bg1 = slot0:findTF("bg/bg_1")
@@ -393,10 +397,10 @@ function slot0.updateMainView(slot0, slot1)
 		slot0:AnimBg()
 	end
 
-	slot0:updatePrice(slot1)
+	slot0:updatePrice(slot1.goodsVO)
 	slot0:removeShopTimer()
 	slot0:addShopTimer(slot1)
-	slot0:updateBuyBtn(slot1)
+	slot0:updateBuyBtn(slot1.goodsVO)
 end
 
 function slot0.GetCurBgTransform(slot0)
@@ -424,31 +428,19 @@ function slot0.AnimBg(slot0)
 	end))
 end
 
-function slot0.onBuyDone(slot0)
-	slot1 = false
-	slot2 = pairs
-	slot3 = slot0.cards or {}
-
-	for slot5, slot6 in slot2(slot3) do
-		if slot0.contextData.key and slot6.goodsVO:getKey() == slot0.contextData.key then
-			slot0:updateMainView(slot6)
-
-			slot1 = true
-		end
-	end
-
-	if slot0.contextData.currCard and not slot1 then
-		slot0.contextData.currCard:update(slot2)
-		slot0:updateMainView(slot0.contextData.currCard)
-
-		slot0.contextData.currCard = nil
+function slot0.onBuyDone(slot0, slot1)
+	if _.detect(slot0.skinGoodsVOs, function (slot0)
+		return slot0.id == slot0
+	end) then
+		slot0:updateBuyBtn(slot2)
+		slot0:updatePrice(slot2)
 	end
 end
 
 function slot0.updateBuyBtn(slot0, slot1)
-	if slot1.goodsVO:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		onButton(slot0, slot0.timelimitBtn, function ()
-			if getProxy(ShipSkinProxy):getSkinById(slot0.goodsVO:getSkinId()) and not slot1:isExpireType() then
+			if getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot1:isExpireType() then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 				return
@@ -457,13 +449,13 @@ function slot0.updateBuyBtn(slot0, slot1)
 			slot1:showTimeLimitSkinWindow(slot0)
 		end, SFX_PANEL)
 	else
-		slot3 = slot1.shipSkinConfig
+		slot4 = slot0[slot1:getSkinId()]
 
-		setActive(slot0.buyBtn, not (slot1.goodsVO.type == Goods.TYPE_ACTIVITY or slot4 == Goods.TYPE_ACTIVITY_EXTRA) and slot1.goodsVO.buyCount == 0)
-		setActive(slot0.gotBtn, not (slot1.goodsVO.type == Goods.TYPE_ACTIVITY or slot4 == Goods.TYPE_ACTIVITY_EXTRA) and not (slot1.goodsVO.buyCount == 0))
-		setActive(slot0.activityBtn, slot1.goodsVO.type == Goods.TYPE_ACTIVITY or slot4 == Goods.TYPE_ACTIVITY_EXTRA)
+		setActive(slot0.buyBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and slot1.buyCount == 0)
+		setActive(slot0.gotBtn, not (slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA) and not (slot1.buyCount == 0))
+		setActive(slot0.activityBtn, slot1.type == Goods.TYPE_ACTIVITY or slot5 == Goods.TYPE_ACTIVITY_EXTRA)
 		onButton(slot0, slot0.buyBtn, function ()
-			if slot0.goodsVO.type == Goods.TYPE_SKIN then
+			if slot0.type == Goods.TYPE_SKIN then
 				print(slot1.showCardId, "--", slot0.id)
 
 				if print.showCardId == slot0.id then
@@ -488,10 +480,10 @@ function slot0.updateBuyBtn(slot0, slot1)
 			end
 		end, SFX_PANEL)
 		onButton(slot0, slot0.activityBtn, function ()
-			slot1 = slot0.goodsVO.getConfig(slot0, "time")
-			slot3 = getProxy(ActivityProxy):getActivityById(slot0.goodsVO.getConfig(slot0, "activity"))
+			slot1 = slot0:getConfig("time")
+			slot3 = getProxy(ActivityProxy):getActivityById(slot0:getConfig("activity"))
 
-			if (slot0.goodsVO.getConfig(slot0, "activity") == 0 and pg.TimeMgr.GetInstance():inTime(slot1)) or (slot3 and not slot3:isEnd()) then
+			if (slot0.getConfig("activity") == 0 and pg.TimeMgr.GetInstance():inTime(slot1)) or (slot3 and not slot3:isEnd()) then
 				if slot0.type == Goods.TYPE_ACTIVITY then
 					slot1:emit(SkinShopMediator.GO_SHOPS_LAYER)
 				elseif slot0.type == Goods.TYPE_ACTIVITY_EXTRA then
@@ -512,7 +504,7 @@ function slot0.showTimeLimitSkinWindow(slot0, slot1)
 	slot17, slot18, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot3)
 
 	pg.MsgboxMgr:GetInstance():ShowMsgBox({
-		content = i18n("exchange_limit_skin_tip", slot1.goodsVO:getConfig("resource_num"), pg.ship_skin_template[slot1.goodsVO:getSkinId()].name, slot6, slot7),
+		content = i18n("exchange_limit_skin_tip", slot1:getConfig("resource_num"), pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
 		onYes = function ()
 			if slot0.skinTicket < slot1 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_item_1"))
@@ -520,7 +512,7 @@ function slot0.showTimeLimitSkinWindow(slot0, slot1)
 				return
 			end
 
-			slot0:emit(SkinShopMediator.ON_SHOPPING, slot2.goodsVO.id, 1)
+			slot0:emit(SkinShopMediator.ON_SHOPPING, slot2.id, 1)
 		end
 	})
 end
@@ -532,7 +524,7 @@ function slot0.addShopTimer(slot0, slot1)
 		slot0.skinTimer:Stop()
 	end
 
-	setActive(tf(go(slot0.limitTxt)).parent, false)
+	setActive(tf(go(slot0.limitTxt)).parent, true)
 
 	if slot2:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		setActive(tf(go(slot0.limitTxt)).parent, getProxy(ShipSkinProxy):getSkinById(slot3) and slot4:isExpireType() and not slot4:isExpired())
@@ -544,6 +536,8 @@ function slot0.addShopTimer(slot0, slot1)
 
 			slot0.skinTimer:Start()
 			slot0.skinTimer.func()
+		else
+			setActive(tf(go(slot0.limitTxt)).parent, false)
 		end
 
 		return
@@ -591,31 +585,31 @@ function slot0.removeShopTimer(slot0)
 end
 
 function slot0.updatePrice(slot0, slot1)
-	slot2 = slot1.shipSkinConfig
+	slot3 = slot0[slot1:getSkinId()]
 
-	setActive(slot0.commonPanel, not (slot1.goodsVO.getConfig(slot3, "genre") == ShopArgs.SkinShopTimeLimit))
-	setActive(slot0.timelimtPanel, slot1.goodsVO.getConfig(slot3, "genre") == ShopArgs.SkinShopTimeLimit)
+	setActive(slot0.commonPanel, not (slot1.getConfig(slot4, "genre") == ShopArgs.SkinShopTimeLimit))
+	setActive(slot0.timelimtPanel, slot1.getConfig(slot4, "genre") == ShopArgs.SkinShopTimeLimit)
 
-	if slot4 then
-		slot0.timelimitPriceTxt.text = slot5 .. "/" .. ((slot0.skinTicket < slot3:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. slot0.skinTicket .. ((slot0.skinTicket < slot5 and "</color>") or "")
+	if slot5 then
+		slot0.timelimitPriceTxt.text = slot6 .. "/" .. ((slot0.skinTicket < slot4:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. slot0.skinTicket .. ((slot0.skinTicket < slot6 and "</color>") or "")
 	else
-		setActive(slot0.commonBGTF, slot3.type == Goods.TYPE_SKIN)
-		setActive(slot0.commonLabelTF, slot3.type == Goods.TYPE_SKIN)
-		setActive(slot0.commonConsumeTF, slot3.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonBGTF, slot4.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonLabelTF, slot4.type == Goods.TYPE_SKIN)
+		setActive(slot0.commonConsumeTF, slot4.type == Goods.TYPE_SKIN)
 
-		if slot3.type == Goods.TYPE_SKIN then
-			slot6 = (100 - slot3:getConfig("discount")) / 100
-			slot7 = slot3:getConfig("resource_num")
+		if slot4.type == Goods.TYPE_SKIN then
+			slot7 = (100 - slot4:getConfig("discount")) / 100
+			slot8 = slot4:getConfig("resource_num")
 
-			if slot3:isDisCount() then
-				slot0.priceTxt.text = slot7 * slot6
+			if slot4:isDisCount() then
+				slot0.priceTxt.text = slot8 * slot7
 			else
-				slot0.priceTxt.text = slot7
+				slot0.priceTxt.text = slot8
 			end
 
-			slot0.originalPriceTxt.text = slot7
+			slot0.originalPriceTxt.text = slot8
 
-			setActive(tf(go(slot0.originalPriceTxt)).parent, slot3:isDisCount())
+			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
 		end
 	end
 end
@@ -822,7 +816,9 @@ function slot0.updateShipRect(slot0)
 				return slot3 < slot2
 			end
 		end)
-		slot0.shipRect:SetTotalCount(#slot0.displays)
+		Timer.New(function ()
+			slot0.shipRect:SetTotalCount(#slot0.displays)
+		end, 0.1, 1):Start()
 	end
 end
 
@@ -840,14 +836,18 @@ function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 		if onBegin then
 			onBegin()
 		end
+
+		return
 	end)
 	slot4:AddDragFunc(function (slot0, slot1)
 		if slot1.position.y < prev and slot0 ~= 0 then
 			slot1 = slot1.position
 			slot0 = 0
-		elseif prev < slot1.position.y and slot2 ~= 0 then
-			slot1 = slot1.position
-			slot2 = 0
+		else
+			if prev < slot1.position.y and slot2 ~= 0 then
+				slot1 = slot1.position
+				slot2 = 0
+			end
 		end
 
 		slot3 = math.abs(math.floor((slot1.position.y - slot1.y) / slot3))
@@ -863,16 +863,24 @@ function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 		end
 
 		prev = slot1.y
+
+		return
 	end)
 	slot4:AddDragEndFunc(function (slot0, slot1)
 		if slot0 then
 			slot0()
 		end
+
+		return
 	end)
+
+	return
 end
 
 function slot0.onBackPressed(slot0)
 	slot0:emit(slot0.ON_BACK, nil)
+
+	return
 end
 
 function slot0.willExit(slot0)
@@ -890,6 +898,8 @@ function slot0.willExit(slot0)
 
 	slot0.skinTimer = nil
 	slot0.contextData.key = nil
+
+	return
 end
 
 return slot0

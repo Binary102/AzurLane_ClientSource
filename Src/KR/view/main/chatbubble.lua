@@ -33,8 +33,16 @@ function slot0.update(slot0, slot1)
 	end
 
 	slot4 = pg.ship_data_statistics[slot3.icon]
+	slot5 = false
+
+	if not slot2 then
+		slot5 = slot3.propose
+	elseif slot3.character and getProxy(BayProxy):getShipById(slot6) then
+		slot5 = slot7.propose
+	end
+
 	slot0.nameTF.text = slot3.name
-	slot0.timeTF.text = getOfflineTimeStamp(slot5)
+	slot0.timeTF.text = getOfflineTimeStamp(slot6)
 
 	if slot0.dutyTF then
 		setActive(slot0.dutyTF, slot3.duty)
@@ -44,14 +52,14 @@ function slot0.update(slot0, slot1)
 		end
 	end
 
-	for slot13 = slot0.stars.childCount, Ship.New({
+	for slot14 = slot0.stars.childCount, Ship.New({
 		configId = slot4.id
-	}).getStar(slot7) - 1, 1 do
+	}).getStar(slot8) - 1, 1 do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 
-	for slot13 = 0, slot0.stars.childCount - 1, 1 do
-		slot0.stars:GetChild(slot13).gameObject:SetActive(slot13 < slot4.star)
+	for slot14 = 0, slot0.stars.childCount - 1, 1 do
+		slot0.stars:GetChild(slot14).gameObject:SetActive(slot14 < slot4.star)
 	end
 
 	if slot0.channel then
@@ -66,7 +74,7 @@ function slot0.update(slot0, slot1)
 			slot0.headTF.sprite = slot0 or LoadSprite("heroicon/unknown")
 		end
 	end)
-	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot10, AttireFrame.attireFrameRes(slot3, slot2, AttireConst.TYPE_ICON_FRAME), true, function (slot0)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot11, AttireFrame.attireFrameRes(slot3, slot2, AttireConst.TYPE_ICON_FRAME, slot5), true, function (slot0)
 		if IsNil(slot0.tf) then
 			return
 		end
@@ -95,13 +103,14 @@ function slot0.update(slot0, slot1)
 				end
 
 				setParent(slot0, slot0.face, false)
-				slot0:GetComponent(typeof(Image)):SetNativeSize()
+
+				rtf(slot0).sizeDelta = Vector2.New(180, 180)
 			else
 				PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot1.pic, slot1.pic, slot0)
 			end
 		end)
 	else
-		PoolMgr.GetInstance():GetPrefab("ChatFrame/" .. slot11, AttireFrame.attireFrameRes(slot3, slot2, AttireConst.TYPE_CHAT_FRAME), true, function (slot0)
+		PoolMgr.GetInstance():GetPrefab("ChatFrame/" .. slot12, AttireFrame.attireFrameRes(slot3, slot2, AttireConst.TYPE_CHAT_FRAME, slot5), true, function (slot0)
 			if IsNil(slot0.tf) then
 				return
 			end

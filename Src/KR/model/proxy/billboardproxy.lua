@@ -9,59 +9,62 @@ function slot0.register(slot0)
 	slot0.data = {}
 	slot0.playerData = {}
 	slot0.timers = {}
+	slot0.hashList = {}
+	slot0.hashCount = 0
 end
 
-function slot0.setPlayerDataByType(slot0, slot1, slot2)
+function slot0.setPlayerRankData(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getHashId(slot1, slot2)
+
 	if table.contains(slot0.NONTIMER, slot1) then
 		return
 	end
 
-	slot0.playerData[slot1] = slot2
+	slot0.playerData[slot4] = slot3
 end
 
-function slot0.getPlayerDataByType(slot0, slot1)
-	return slot0.playerData[slot1]
+function slot0.getPlayerRankData(slot0, slot1, slot2)
+	return slot0.playerData[slot0:getHashId(slot1, slot2)]
 end
 
-function slot0.getListByType(slot0, slot1)
-	return slot0.data[slot1]
-end
+function slot0.setRankList(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getHashId(slot1, slot2)
 
-function slot0.setListByType(slot0, slot1, slot2)
 	if table.contains(slot0.NONTIMER, slot1) then
 		return
 	end
 
-	if not slot0.data[slot1] then
-		slot0:addTimer(slot1, GetHalfHour())
+	if not slot0.data[slot4] then
+		slot0:addTimer(slot1, slot2, GetHalfHour())
 	end
 
-	slot0.data[slot1] = slot2
+	slot0.data[slot4] = slot3
 end
 
-function slot0.addTimer(slot0, slot1, slot2)
-	if table.contains(slot0.NONTIMER, slot1) then
-		return
+function slot0.getRankList(slot0, slot1, slot2)
+	return slot0.data[slot0:getHashId(slot1, slot2)]
+end
+
+function slot0.addTimer(slot0, slot1, slot2, slot3)
+	if slot0.timers[slot0:getHashId(slot1, slot2)] then
+		slot0.timers[slot4]:Stop()
+
+		slot0.timers[slot4] = nil
 	end
 
-	if slot0.timers[slot1] then
-		slot0.timers[slot1]:Stop()
-
-		slot0.timers[slot1] = nil
-	end
-
-	slot0.timers[slot1] = Timer.New(function ()
+	slot0.timers[slot4] = Timer.New(function ()
 		slot0.timers[slot1]:Stop()
 
 		slot0.timers[slot1].Stop.timers[slot0.timers[slot1]] = nil
 
 		slot0.timers[slot1].Stop.timers:sendNotification(GAME.GET_POWERRANK, {
-			type = slot0.timers[slot1].Stop.timers
+			type = slot2,
+			activityId = 
 		})
-		slot0.timers[slot1].Stop.timers.sendNotification:addTimer(slot0.timers[slot1].Stop.timers.sendNotification, GetHalfHour())
-	end, slot2 - pg.TimeMgr.GetInstance():GetServerTime(), 1)
+		slot0.timers[slot1].Stop.timers.sendNotification:addTimer(GAME.GET_POWERRANK, , GetHalfHour())
+	end, slot3 - pg.TimeMgr.GetInstance():GetServerTime(), 1)
 
-	slot0.timers[slot1]:Start()
+	slot0.timers[slot4]:Start()
 end
 
 function slot0.remove(slot0)
@@ -72,11 +75,32 @@ function slot0.remove(slot0)
 	slot0.timers = nil
 end
 
-function slot0.canFetch(slot0, slot1)
-	if slot1 == PowerRank.TYPE_PT then
-		return true
+function slot0.canFetch(slot0, slot1, slot2)
+	return table.contains(slot0.NONTIMER, slot1) or slot0.timers[slot0:getHashId(slot1, slot2)] == nil
+end
+
+function slot0.getHashId(slot0, slot1, slot2)
+	slot3 = nil
+
+	if slot2 then
+		slot0.hashList[slot1] = slot0.hashList[slot1] or {}
+		slot3 = slot0.hashList[slot1][slot2]
 	else
-		return table.contains(slot0.NONTIMER, slot1) or slot0.timers[slot1] == nil
+		slot3 = slot0.hashList[slot1]
+	end
+
+	if slot3 then
+		return slot3
+	else
+		slot0.hashCount = slot0.hashCount + 1
+
+		if slot2 then
+			slot0.hashList[slot1][slot2] = slot0.hashCount
+		else
+			slot0.hashList[slot1] = slot0.hashCount
+		end
+
+		return slot0.hashCount
 	end
 end
 

@@ -394,5 +394,14 @@ ys.Battle.BattleConfig.SR_CONFIG = {
 	BOOST_DURATION = 12,
 	BOOST_DECAY_STAMP = 9
 }
+ys.Battle.BattleConfig.CHALLENGE_ENHANCE = {
+	K = 1,
+	X = 3,
+	A = 2,
+	X1 = 5,
+	X2 = 5,
+	Y1 = 10,
+	Y2 = 5
+}
 
 return

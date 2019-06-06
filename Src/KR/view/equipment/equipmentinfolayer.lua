@@ -296,7 +296,7 @@ function slot0.updateOperation3(slot0)
 	triggerToggle(slot0.toggles.replacePanel, true)
 	slot0:updateEquipmentPanel(slot0.replaceSrcEquipTF, slot1)
 	slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot2, slot0.shipVO:getEquip(slot0.contextData.pos))
-	setActive(slot0:findTF("head", slot0.replaceSrcEquipTF), slot0.oldShipVO)
+	setActive(slot0:findTF("head", slot0.replaceDstEquipTF), slot0.oldShipVO)
 
 	if slot0.oldShipVO then
 		setImageSprite(findTF(slot3, "Image"), LoadSprite("qicon/" .. slot0.oldShipVO:getPainting()))
@@ -449,6 +449,28 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 								if slot27.type == AttributeType.SonarInterval then
 									setActive(slot31, slot27.value < slot5[slot37].value)
 									setActive(slot32, slot5[slot37].value < slot27.value)
+
+									break
+								end
+
+								if slot27.type == AttributeType.Damage then
+									slot38 = 0
+									slot39 = 0
+
+									if string.match(slot27.value, i18n("word_secondseach")) == string.match(slot5[slot37].value, i18n("word_secondseach")) then
+										if slot40 == i18n("word_secondseach") then
+											slot38 = string.gsub(slot27.value, slot40, "")
+											slot39 = string.gsub(slot5[slot37].value, slot40, "")
+										else
+											slot42, slot43 = string.match(string.gsub(slot27.value, " ", ""), "(%d+)x(%d+)")
+											slot38 = (slot42 or 0) * (slot43 or 0)
+											slot44, slot45 = string.match(string.gsub(slot5[slot37].value, " ", ""), "(%d+)x(%d+)")
+											slot39 = (slot44 or 0) * (slot45 or 0)
+										end
+
+										setActive(slot31, tonumber(slot39) < tonumber(slot38))
+										setActive(slot32, tonumber(slot38) < tonumber(slot39))
+									end
 
 									break
 								end

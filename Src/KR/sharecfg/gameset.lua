@@ -410,7 +410,7 @@ pg.gameset = {
 	submarine_move_speed_1 = {
 		description = "",
 		key = "submarine_move_speed_1",
-		key_value = 15
+		key_value = 10
 	},
 	submarine_move_speed_2 = {
 		description = "",
@@ -612,7 +612,7 @@ pg.gameset = {
 	commander_box_count = {
 		description = "",
 		key = "commander_box_count",
-		key_value = 4
+		key_value = 10
 	},
 	commander_get_cost = {
 		key = "commander_get_cost",

@@ -5,6 +5,7 @@ function slot0.execute(slot0, slot1)
 	slot4 = getProxy(ChallengeProxy)
 	slot5 = slot1:getBody().stageId
 	slot7 = pg.battle_cost_template[slot1.getBody().system]
+	slot8 = {}
 
 	if slot1:getBody().system == SYSTEM_PROLOGUE or slot6 == SYSTEM_SIMULATION or (slot6 == SYSTEM_PERFORM and slot2.memory) then
 		slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
@@ -29,49 +30,49 @@ function slot0.execute(slot0, slot1)
 	else
 		ys.Battle.BattleState.GenerateVertifyData()
 
-		slot8, slot9 = ys.Battle.BattleState.Vertify()
+		slot9, slot10 = ys.Battle.BattleState.Vertify()
 
-		if not slot8 then
+		if not slot9 then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
-				reason = slot9
+				reason = slot10
 			})
 
 			return
 		end
 
-		slot10 = getProxy(FleetProxy)
-		slot11 = getProxy(ChapterProxy)
-		slot12 = slot2.statistics._battleScore
-		slot13 = 0
+		slot11 = getProxy(FleetProxy)
+		slot12 = getProxy(ChapterProxy)
+		slot13 = slot2.statistics._battleScore
 		slot14 = 0
-		slot15 = nil
+		slot15 = 0
+		slot16 = nil
 
 		if slot6 == SYSTEM_DUEL then
 			slot5 = slot2.rivalId
 		end
 
 		if slot6 == SYSTEM_SCENARIO then
-			slot15 = {}
+			slot16 = {}
 
-			for slot22, slot23 in ipairs(slot18) do
-				table.insert(slot15, slot23)
+			for slot23, slot24 in ipairs(slot19) do
+				table.insert(slot16, slot24)
 			end
 
-			slot19, slot20 = slot16:getFleetCost(slot17)
-			slot13 = slot20.gold
-			slot14 = slot20.oil
+			slot20, slot21 = slot17:getFleetCost(slot18)
+			slot14 = slot21.gold
+			slot15 = slot21.oil
 
 			if slot2.statistics.submarineAid then
-				if _.detect(slot16.fleets, function (slot0)
+				if _.detect(slot17.fleets, function (slot0)
 					return slot0:getFleetType() == FleetType.Submarine and slot0:isValid() and slot0:inHuntingRange(slot0.line.row, slot0.line.column)
 				end) then
-					submarineTeam = slot21:getShipsByTeam(TeamType.Submarine, true)
+					submarineTeam = slot22:getShipsByTeam(TeamType.Submarine, true)
 
-					for slot25, slot26 in ipairs(submarineTeam) do
-						if slot2.statistics[slot26.id] then
-							table.insert(slot15, slot26)
+					for slot26, slot27 in ipairs(submarineTeam) do
+						if slot2.statistics[slot27.id] then
+							table.insert(slot16, slot27)
 
-							slot14 = slot14 + slot26:getEndBattleExpend()
+							slot15 = slot15 + slot27:getEndBattleExpend()
 						end
 					end
 				else
@@ -79,17 +80,17 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			slot15 = slot3:getShipsByFleet(slot10:getActivityFleets()[slot2.actID][slot2.mainFleetId])
-			slot13 = slot10.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot18).gold
-			slot14 = slot10.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot18).oil
+			slot16 = slot3:getShipsByFleet(slot11:getActivityFleets()[slot2.actID][slot2.mainFleetId])
+			slot14 = slot11.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot19).gold
+			slot15 = slot11.getActivityFleets()[slot2.actID][slot2.mainFleetId].getEndCost(slot19).oil
 
 			if slot2.statistics.submarineAid then
-				if slot10:getActivityFleets()[slot2.actID][Fleet.SUBMARINE_FLEET_ID] then
-					for slot27, slot28 in ipairs(slot23) do
-						if slot2.statistics[slot28.id] then
-							table.insert(slot15, slot28)
+				if slot11:getActivityFleets()[slot2.actID][Fleet.SUBMARINE_FLEET_ID] then
+					for slot28, slot29 in ipairs(slot24) do
+						if slot2.statistics[slot29.id] then
+							table.insert(slot16, slot29)
 
-							slot14 = slot14 + slot28:getEndBattleExpend()
+							slot15 = slot15 + slot29:getEndBattleExpend()
 						end
 					end
 				else
@@ -97,141 +98,146 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 		elseif slot6 == SYSTEM_SHAM then
-			slot15 = {}
+			slot16 = {}
 
-			for slot22, slot23 in ipairs(slot18) do
-				table.insert(slot15, slot23)
+			for slot23, slot24 in ipairs(slot19) do
+				table.insert(slot16, slot24)
 			end
 
-			_.each(slot16:getChapterCell(slot17.line.row, slot17.line.column).rival.mainShips, function (slot0)
+			_.each(slot17:getChapterCell(slot18.line.row, slot18.line.column).rival.mainShips, function (slot0)
 				table.insert(slot0, slot0)
 			end)
-			_.each(slot16.getChapterCell(slot17.line.row, slot17.line.column).rival.vanguardShips, function (slot0)
+			_.each(slot17.getChapterCell(slot18.line.row, slot18.line.column).rival.vanguardShips, function (slot0)
 				table.insert(slot0, slot0)
 			end)
 
-			slot5 = slot16.getChapterCell(slot17.line.row, slot17.line.column).rival.id
-			slot13 = 0
+			slot5 = slot17.getChapterCell(slot18.line.row, slot18.line.column).rival.id
 			slot14 = 0
+			slot15 = 0
 		elseif slot6 == SYSTEM_GUILD then
-			slot15 = {}
+			slot16 = {}
 
-			for slot22, slot23 in ipairs(slot18) do
-				table.insert(slot15, slot23)
+			for slot23, slot24 in ipairs(slot19) do
+				table.insert(slot16, slot24)
 			end
 
-			slot13 = 0
 			slot14 = 0
+			slot15 = 0
 		elseif slot6 == SYSTEM_CHALLENGE then
-			slot15 = {}
+			slot16 = {}
 
-			for slot22, slot23 in ipairs(slot18) do
-				table.insert(slot15, slot23)
+			for slot24, slot25 in ipairs(slot20) do
+				table.insert(slot16, slot25)
 			end
 
-			slot13 = 0
+			slot8 = {
+				slot18:getLevel(),
+				slot17
+			}
 			slot14 = 0
+			slot15 = 0
 		elseif slot6 == SYSTEM_PERFORM or slot6 == SYSTEM_SIMULATION then
-			slot15 = {}
-			slot13 = 0
+			slot16 = {}
 			slot14 = 0
+			slot15 = 0
 		elseif slot6 == SYSTEM_WORLD then
-			slot19 = getProxy(WorldProxy).GetWorld(slot16).GetActiveMap(slot17).GetFleet(slot18)
-			slot15 = slot19:GetShipVOs(true)
-			slot20, slot21 = slot19:GetCost()
-			slot13 = slot21.gold
-			slot14 = slot21.oil
+			slot20 = getProxy(WorldProxy).GetWorld(slot17).GetActiveMap(slot18).GetFleet(slot19)
+			slot16 = slot20:GetShipVOs(true)
+			slot21, slot22 = slot20:GetCost()
+			slot14 = slot22.gold
+			slot15 = slot22.oil
 
 			if slot2.statistics.submarineAid then
-				for slot27, slot28 in ipairs(slot23) do
-					if slot2.statistics[slot28.id] then
-						table.insert(slot15, slot28)
+				for slot28, slot29 in ipairs(slot24) do
+					if slot2.statistics[slot29.id] then
+						table.insert(slot16, slot29)
 					end
 				end
 
-				slot24, slot25 = slot22:GetCost()
-				slot13 = slot13 + slot25.gold
-				slot14 = slot14 + slot25.oil
+				slot25, slot26 = slot23:GetCost()
+				slot14 = slot14 + slot26.gold
+				slot15 = slot15 + slot26.oil
 			end
 		else
-			slot16 = slot10:getFleetById(slot2.mainFleetId)
-			slot15 = slot3:getShipsByFleet(slot16)
-			slot13 = slot16:getEndCost().gold
-			slot14 = slot16.getEndCost().oil
+			slot17 = slot11:getFleetById(slot2.mainFleetId)
+			slot16 = slot3:getShipsByFleet(slot17)
+			slot14 = slot17:getEndCost().gold
+			slot15 = slot17.getEndCost().oil
 		end
 
 		if slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			slot12 = ys.Battle.BattleConst.BattleScore.S
+			slot13 = ys.Battle.BattleConst.BattleScore.S
 		end
 
-		slot16 = 0
-		slot17 = {}
-		slot18 = slot6 + slot5 + slot12
+		slot17 = 0
+		slot18 = {}
+		slot19 = slot6 + slot5 + slot13
 
-		for slot22, slot23 in ipairs(slot15) do
-			if slot2.statistics[slot23.id] then
-				table.insert(slot17, {
-					ship_id = slot24.id,
-					hp_rest = math.floor(slot24.bp),
-					damage_cause = math.floor(slot24.output),
-					damage_caused = math.floor(slot24.damage),
-					max_damage_once = math.floor(slot24.maxDamageOnce),
-					ship_gear_score = math.floor(slot24.gearScore)
+		for slot23, slot24 in ipairs(slot16) do
+			if slot2.statistics[slot24.id] then
+				table.insert(slot18, {
+					ship_id = slot25.id,
+					hp_rest = math.floor(slot25.bp),
+					damage_cause = math.floor(slot25.output),
+					damage_caused = math.floor(slot25.damage),
+					max_damage_once = math.floor(slot25.maxDamageOnce),
+					ship_gear_score = math.floor(slot25.gearScore)
 				})
 
-				slot18 = slot18 + slot24.id + math.floor(slot24.bp) + math.floor(slot24.output) + math.floor(slot24.maxDamageOnce)
-				slot16 = slot16 + slot23:getShipCombatPower()
+				slot19 = slot19 + slot25.id + math.floor(slot25.bp) + math.floor(slot25.output) + math.floor(slot25.maxDamageOnce)
+				slot17 = slot17 + slot24:getShipCombatPower()
 			end
 		end
 
 		if slot6 == SYSTEM_SHAM then
-			for slot22, slot23 in ipairs(slot15) do
-				if slot2.statistics._rivalInfo[slot23.id] then
-					table.insert(slot17, {
-						ship_id = slot24.id,
-						hp_rest = slot24.bp,
+			for slot23, slot24 in ipairs(slot16) do
+				if slot2.statistics._rivalInfo[slot24.id] then
+					table.insert(slot18, {
+						ship_id = slot25.id,
+						hp_rest = slot25.bp,
 						damage_cause = 0,
 						damage_caused = 0,
 						max_damage_once = 0,
 						ship_gear_score = 0
 					})
 
-					slot18 = slot18 + slot24.id + slot24.bp + 0 + 0
+					slot19 = slot19 + slot25.id + slot25.bp + 0 + 0
 				end
 			end
 		end
 
-		slot19 = {}
+		slot20 = {}
 
 		if slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			for slot23, slot24 in ipairs(slot2.statistics._enemyInfoList) do
-				table.insert(slot19, {
-					enemy_id = slot24.id,
-					damage_taken = slot24.damage,
-					total_hp = slot24.totalHp
+			for slot24, slot25 in ipairs(slot2.statistics._enemyInfoList) do
+				table.insert(slot20, {
+					enemy_id = slot25.id,
+					damage_taken = slot25.damage,
+					total_hp = slot25.totalHp
 				})
 			end
 		end
 
 		if slot6 == SYSTEM_SCENARIO then
-			slot21 = slot11:getActiveChapter()
+			slot22 = slot12:getActiveChapter()
 
-			slot21:writeBack(ys.Battle.BattleConst.BattleScore.C < slot12, slot2)
-			slot11:updateChapter(slot21)
+			slot22:writeBack(ys.Battle.BattleConst.BattleScore.C < slot13, slot2)
+			slot12:updateChapter(slot22)
 		end
 
 		pg.ConnectionMgr.GetInstance():Send(40003, {
 			system = slot6,
 			data = slot5,
-			score = slot12,
-			key = math.floor((slot18 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime),
-			statistics = slot17,
+			score = slot13,
+			key = math.floor((slot19 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime),
+			statistics = slot18,
 			kill_id_list = slot2.statistics.kill_id_list,
 			total_time = slot2.statistics._totalTime,
 			bot_percentage = slot2.statistics._botPercentage,
-			extra_param = slot16,
-			file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot2.token % 88824) % (88824 + math.floor((slot18 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime)))),
-			enemy_info = slot19
+			extra_param = slot17,
+			file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot2.token % 88824) % (88824 + math.floor((slot19 % 49993 * slot2.token % 49993) % 49993 + slot2.statistics._totalTime)))),
+			enemy_info = slot20,
+			data2 = slot8
 		}, 40004, function (slot0)
 			if slot0.result == 0 or slot0.result == 1030 then
 				if slot0 == SYSTEM_PERFORM or slot0 == SYSTEM_SIMULATION then
@@ -419,19 +425,15 @@ function slot0.execute(slot0, slot1)
 					slot8:updateGuildChapter(slot8)
 				else
 					if slot0 == SYSTEM_CHALLENGE then
-						slot11:updateActiveChallengeShips()
-
-						function slot10(slot0)
-							if slot0.statistics[slot0.id] then
-								slot1:updateShipHp(slot0.id, slot1.bp)
+						function slot11(slot0)
+							if slot0.statistics[slot0] then
+								slot1:updateShipHP(slot0, slot1.bp)
 							end
 						end
 
-						for slot14, slot15 in pairs(slot11:getCurrentChallengeInfo().fleet.ships) do
-							slot10(slot15)
+						for slot15, slot16 in pairs(slot10) do
+							slot11(slot16)
 						end
-
-						slot11:updateChallenge(slot8)
 
 						return
 					end
@@ -446,6 +448,10 @@ function slot0.execute(slot0, slot1)
 						end
 					end
 				end
+			elseif slot0.result == 2 then
+				print("stage_finishStage error--" .. slot0.result)
+				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))
+				pg.TipsMgr.GetInstance().ShowTips:sendNotification(GAME.FINISH_STAGE_ERROR, {})
 			else
 				print("stage_finishStage error--" .. slot0.result)
 				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))

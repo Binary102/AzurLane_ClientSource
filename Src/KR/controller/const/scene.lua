@@ -53,6 +53,7 @@ SCENE = {
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	CARD_PAIRS = "card pairs",
+	CHALLENGE_MAIN_SCENE = "CHALLENGE_MAIN_SCENE",
 	CREATE_PLAYER = "scene create player",
 	SNAPSHOT = "snapshot",
 	SELTECHNOLOGY = "seltechnology",

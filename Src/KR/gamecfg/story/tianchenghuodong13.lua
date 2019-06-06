@@ -8,21 +8,11 @@ return {
 	scripts = {
 		{
 			actor = 303090,
+			nameColor = "#92fc63",
 			side = 1,
 			dir = -1,
-			bgm = "story-6",
-			hideOther = true,
-			nameColor = "#92fc63",
 			say = "이상하네요…9시 방항으로 간 함재기들이 연락이 없어요…",
-			subActors = {
-				{
-					dir = 1,
-					actor = 304050,
-					pos = {
-						x = 1030.5
-					}
-				}
-			},
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,21 +24,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
 			dir = -1,
 			actor = 304050,
-			nameColor = "#92fc63",
 			say = "…호쇼씨가 함재기는 전부 무사귀환 시켜달라 했는데……곤란하게 됐네요……",
-			subActors = {
-				{
-					dir = 1,
-					actor = 303090,
-					pos = {
-						x = -1030.5
-					}
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

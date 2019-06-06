@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			actor = 201201,
+			actor = 201200,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "하디, 나도 알고 있다고……",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 		},
 		{
 			expression = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			actor = 201161,
+			actor = 201160,
 			say = "아니에요, 그 정도 정보라도 충분히 판단 근거가 되는 걸요.",
 			typewriter = {
 				speed = 0.05,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			actor = 201161,
+			actor = 201160,
 			side = 1,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = -1,
 			say = "히퍼를 격퇴한 글로우웜도 큰 부상을 입었지만…….",
 			typewriter = {

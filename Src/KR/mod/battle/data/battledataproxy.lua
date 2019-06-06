@@ -527,103 +527,107 @@ function slot8.UpdateCountDown(slot0, slot1)
 	slot0._lastUpdateTime = slot1
 end
 
-function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot0:GenerateUnitID()
-	slot7 = {}
+function slot8.SpawnMonster(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = slot0:GenerateUnitID()
+	slot8 = {}
 
-	for slot11, slot12 in ipairs(slot0.GetMonsterTmpDataFromID(slot1.monsterTemplateID).equipment_list) do
-		slot7[#slot7 + 1] = {
-			id = slot12
+	for slot12, slot13 in ipairs(slot0.GetMonsterTmpDataFromID(slot1.monsterTemplateID).equipment_list) do
+		slot8[#slot8 + 1] = {
+			id = slot13
 		}
 	end
 
-	slot9 = slot6.random_equipment_list
+	slot10 = slot7.random_equipment_list
 
-	if slot6.random_nub ~= nil and slot9 ~= nil then
-		if slot8 > #slot9 then
-			for slot13, slot14 in ipairs(slot9) do
-				slot7[#slot7 + 1] = {
-					id = slot14
+	if slot7.random_nub ~= nil and slot10 ~= nil then
+		if slot9 > #slot10 then
+			for slot14, slot15 in ipairs(slot10) do
+				slot8[#slot8 + 1] = {
+					id = slot15
 				}
 			end
 		else
-			for slot13 = 1, slot8, 1 do
-				slot7[#slot7 + 1] = {
-					id = slot9[math.random(1, #slot9)]
+			for slot14 = 1, slot9, 1 do
+				slot8[#slot8 + 1] = {
+					id = slot10[math.random(1, #slot10)]
 				}
 
-				table.remove(slot9, math.random(1, #slot9))
+				table.remove(slot10, math.random(1, #slot10))
 			end
 		end
 	end
 
-	slot10 = slot0.CreateBattleUnitData(slot5, slot3, slot4, slot1.monsterTemplateID, nil, slot7, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, nil)
+	slot11 = slot0.CreateBattleUnitData(slot6, slot3, slot4, slot1.monsterTemplateID, nil, slot8, slot1.extraInfo, nil, slot0._completelyRepress, slot0._repressReduce, slot0._repressEnemyHpRant, nil, nil)
 
-	slot10:SetPosition(slot11)
-	slot10:SetAI(slot1.pilotAITemplateID or slot6.pilot_ai_template_id)
-	slot0:setShipUnitBound(slot10)
+	slot11:SetPosition(slot12)
+	slot11:SetAI(slot1.pilotAITemplateID or slot7.pilot_ai_template_id)
+	slot0:setShipUnitBound(slot11)
 
-	if table.contains(TeamType.SubShipType, slot6.type) then
-		slot10:InitOxygen()
+	if table.contains(TeamType.SubShipType, slot7.type) then
+		slot11:InitOxygen()
 		slot0:UpdateHostileSubmarine(true)
 	end
 
-	slot0._freeShipList[slot5] = slot10
-	slot0._unitList[slot5] = slot10
+	slot0._freeShipList[slot6] = slot11
+	slot0._unitList[slot6] = slot11
 
-	slot0._cldSystem:InitShipCld(slot10)
-	slot10:SummonSickness(slot2.SUMMONING_SICKNESS_DURATION)
+	slot0._cldSystem:InitShipCld(slot11)
+	slot11:SummonSickness(slot2.SUMMONING_SICKNESS_DURATION)
 
 	if slot1.moveCast then
-		slot10:SetMoveCast()
+		slot11:SetMoveCast()
 	end
 
-	if slot10:GetIFF() == slot3.FRIENDLY_CODE then
-		slot0._friendlyShipList[slot5] = slot10
+	if slot11:GetIFF() == slot3.FRIENDLY_CODE then
+		slot0._friendlyShipList[slot6] = slot11
 	else
-		slot0._foeShipList[slot5] = slot10
+		slot0._foeShipList[slot6] = slot11
 
-		slot10:SetWaveIndex(slot2)
+		slot11:SetWaveIndex(slot2)
 	end
 
 	if slot1.reinforce then
-		slot10:Reinforce()
+		slot11:Reinforce()
 	end
 
 	if slot1.reinforceDelay then
-		slot10:SetReinforceCastTime(slot1.reinforceDelay)
+		slot11:SetReinforceCastTime(slot1.reinforceDelay)
 	end
 
 	if slot1.team then
-		slot0:GetNPCTeam(slot1.team):AppendUnit(slot10)
+		slot0:GetNPCTeam(slot1.team):AppendUnit(slot11)
 	end
 
 	if slot1.phase then
-		slot4.Battle.BattleUnitPhaseSwitcher.New(slot10):SetTemplateData(slot1.phase)
+		slot4.Battle.BattleUnitPhaseSwitcher.New(slot11):SetTemplateData(slot1.phase)
+	end
+
+	if slot5 then
+		slot5(slot11)
 	end
 
 	slot0:DispatchEvent(slot4.Event.New(slot5.ADD_UNIT, {
 		type = slot3,
-		unit = slot10,
+		unit = slot11,
 		bossData = slot1.bossData,
 		extraInfo = slot1.extraInfo
 	}))
 
-	slot13 = slot1.buffList or {}
+	slot14 = slot1.buffList or {}
 
-	for slot17, slot18 in ipairs(slot13) do
-		slot10:AddBuff(slot4.Battle.BattleBuffUnit.New(slot18))
+	for slot18, slot19 in ipairs(slot14) do
+		slot11:AddBuff(slot4.Battle.BattleBuffUnit.New(slot19))
 	end
 
-	slot14 = slot0._battleInitData.AffixBuffList or {}
+	slot15 = slot0._battleInitData.AffixBuffList or {}
 
 	if slot1.affix then
-		for slot18, slot19 in ipairs(slot14) do
-			slot10:AddBuff(slot4.Battle.BattleBuffUnit.New(slot19))
+		for slot19, slot20 in ipairs(slot15) do
+			slot11:AddBuff(slot4.Battle.BattleBuffUnit.New(slot20))
 		end
 	end
 
-	slot10:CheckWeaponInitial()
+	slot11:CheckWeaponInitial()
 end
 
 function slot8.UpdateHostileSubmarine(slot0, slot1)

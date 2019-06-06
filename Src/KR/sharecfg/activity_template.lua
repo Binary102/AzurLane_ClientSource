@@ -71,11 +71,14 @@ pg.activity_template = {
 		type = 6,
 		config_id = 6,
 		is_show = 1,
-		config_client = "",
 		id = 6,
 		config_data = {},
 		bg = {
 			"clutter/activity_bg_month_sign"
+		},
+		config_client = {
+			6,
+			21
 		}
 	},
 	{
@@ -7921,7 +7924,7 @@ pg.activity_template = {
 				{
 					2019,
 					6,
-					14
+					20
 				},
 				{
 					23,
@@ -7936,6 +7939,358 @@ pg.activity_template = {
 		config_client = {
 			14581,
 			14582
+		}
+	},
+	[20203] = {
+		mark = 20190530,
+		title_res_tag = "",
+		type = 26,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20203",
+		id = 20203,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					5,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act"
+		}
+	},
+	[20204] = {
+		mark = 20190530,
+		title_res_tag = "login",
+		type = 3,
+		config_id = 9,
+		is_show = 1,
+		id = 20204,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					5,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/ximulifu"
+		},
+		config_client = {
+			story = {
+				{
+					"XIMULIFU1"
+				},
+				{
+					"XIMULIFU2"
+				},
+				{
+					"XIMULIFU3"
+				},
+				{
+					"XIMULIFU4"
+				},
+				{
+					"XIMULIFU5"
+				},
+				{
+					"XIMULIFU6"
+				},
+				{
+					"XIMULIFU7"
+				}
+			}
+		}
+	},
+	[20205] = {
+		mark = 20190530,
+		title_res_tag = "shengdiyage",
+		type = 54,
+		config_id = 20205,
+		is_show = 5,
+		config_client = "",
+		id = 20205,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					5,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/shengdiyage"
+		}
+	},
+	[20206] = {
+		mark = 20190530,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		id = 20206,
+		config_data = {
+			14658
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					5,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				14658
+			}
+		}
+	},
+	[20207] = {
+		mark = 20190530,
+		title_res_tag = "",
+		type = 16,
+		bg = "",
+		config_id = 127,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 20207,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					5,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20208] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20208,
+		config_data = {
+			14670
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20209] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 24,
+		bg = "",
+		config_id = 20210,
+		is_show = 1,
+		config_client = "",
+		id = 20209,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				8
+			}
+		}
+	},
+	[20210] = {
+		mark = 20190606,
+		title_res_tag = "",
+		type = 37,
+		bg = "",
+		config_id = 1,
+		is_show = 1,
+		config_client = "",
+		id = 20210,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[25000] = {
@@ -8754,6 +9109,14 @@ pg.activity_template = {
 		20200,
 		20201,
 		20202,
+		20203,
+		20204,
+		20205,
+		20206,
+		20207,
+		20208,
+		20209,
+		20210,
 		25000,
 		25001,
 		25002,

@@ -599,6 +599,16 @@ pg.effect_offset = {
 			1,
 			0
 		}
+	},
+	shengdiyage_chuchang = {
+		id = "shengdiyage_chuchang",
+		container_index = 1,
+		mirror = true,
+		offset = {
+			0,
+			-2.8,
+			0
+		}
 	}
 }
 

@@ -21,10 +21,35 @@ function ys.Battle.BattleSpawnWave.SetWaveData(slot0, slot1)
 	slot0._reinforce = slot1.reinforcement or {}
 	slot0._reinforceCount = #slot0._reinforce
 	slot0._spawnCount = #slot0._sapwnData
+	slot0._round = slot0._param.round
 end
 
 function ys.Battle.BattleSpawnWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
+
+	if slot0._round then
+		if slot1.Battle.BattleDataProxy:GetInstance():GetInitData().ChallengeInfo then
+			slot3 = slot2:GetInitData().ChallengeInfo:getRound()
+
+			if slot0._round.less and slot3 < slot0._round.less then
+				slot1 = true
+			end
+
+			if slot0._round.more and slot0._round.more < slot3 then
+				slot1 = true
+			end
+
+			if slot0._round.equal and table.contains(slot0._round.equal, slot3) then
+				slot1 = true
+			end
+		end
+
+		if not slot1 then
+			slot0:doPass()
+
+			return
+		end
+	end
 
 	for slot4, slot5 in ipairs(slot0._airStrike) do
 		if slot5.delay <= 0 then

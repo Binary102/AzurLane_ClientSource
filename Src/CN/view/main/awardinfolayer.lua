@@ -63,6 +63,8 @@ function slot0.init(slot0)
 	slot0.blinks = {}
 	slot0.tweenItems = {}
 	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+
+	slot0._tf:SetAsLastSibling()
 end
 
 function slot0.doAnim(slot0, slot1)
@@ -110,7 +112,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.onUIAnimEnd(slot0, slot1)
-	if slot0.contextData.animtion then
+	if slot0.contextData.animation then
 		slot0.inAniming = true
 
 		setActive(slot0.container, false)

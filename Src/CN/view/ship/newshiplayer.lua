@@ -292,7 +292,9 @@ function slot0.showExitTip(slot0, slot1)
 	slot2 = slot0._shipVO:GetLockState()
 
 	if slot0._shipVO.virgin and slot2 == Ship.LOCK_STATE_UNLOCK then
-		setActive(slot0.effectObj, false)
+		if slot0.effectObj then
+			setActive(slot0.effectObj, false)
+		end
 
 		if slot0.effectLineObj then
 			setActive(slot0.effectLineObj, false)
@@ -350,11 +352,7 @@ function slot0.didEnter(slot0)
 		slot0:emit(NewShipMediator.ON_EVALIATION, slot0._shipVO:getGroupId())
 	end, SFX_PANEL)
 	onButton(slot0, slot0._shareBtn, function ()
-		if slot0._shipVO:isBluePrintShip() and slot0._shipVO:getRarity() == ShipRarity.SSR then
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShipDesignSSR)
-		else
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
-		end
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewShip)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.clickTF, function ()
 		if slot0.isInView or not slot0.isLoadBg then

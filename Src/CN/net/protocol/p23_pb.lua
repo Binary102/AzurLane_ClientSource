@@ -84,6 +84,9 @@ slot60 = slot0.FieldDescriptor()
 slot61 = slot0.FieldDescriptor()
 slot62 = slot0.FieldDescriptor()
 slot63 = slot0.FieldDescriptor()
+slot64 = slot0.FieldDescriptor()
+slot65 = slot0.FieldDescriptor()
+slot66 = slot0.FieldDescriptor()
 slot2.name = "sham_count"
 slot2.full_name = ".p23.sc_23001.sham_count"
 slot2.number = 1
@@ -825,45 +828,71 @@ slot59.has_default_value = false
 slot59.default_value = 0
 slot59.type = 13
 slot59.cpp_type = 3
-slot60.name = "name"
-slot60.full_name = ".p23.shamtargetinfo.name"
+slot60.name = "icon"
+slot60.full_name = ".p23.shamtargetinfo.icon"
 slot60.number = 3
 slot60.index = 2
 slot60.label = 2
 slot60.has_default_value = false
-slot60.default_value = ""
-slot60.type = 9
-slot60.cpp_type = 9
-slot61.name = "ship_list"
-slot61.full_name = ".p23.shamtargetinfo.ship_list"
+slot60.default_value = 0
+slot60.type = 13
+slot60.cpp_type = 3
+slot61.name = "name"
+slot61.full_name = ".p23.shamtargetinfo.name"
 slot61.number = 4
 slot61.index = 3
-slot61.label = 3
+slot61.label = 2
 slot61.has_default_value = false
-slot61.default_value = {}
-slot61.message_type = slot1.SHIPINFO
-slot61.type = 11
-slot61.cpp_type = 10
-slot63.name = "display"
-slot63.full_name = ".p23.shamtargetinfo.display"
-slot63.number = 5
-slot63.index = 4
-slot63.label = 1
+slot61.default_value = ""
+slot61.type = 9
+slot61.cpp_type = 9
+slot62.name = "ship_list"
+slot62.full_name = ".p23.shamtargetinfo.ship_list"
+slot62.number = 5
+slot62.index = 4
+slot62.label = 3
+slot62.has_default_value = false
+slot62.default_value = {}
+slot62.message_type = slot1.SHIPINFO
+slot62.type = 11
+slot62.cpp_type = 10
+slot63.name = "skin_id"
+slot63.full_name = ".p23.shamtargetinfo.skin_id"
+slot63.number = 6
+slot63.index = 5
+slot63.label = 2
 slot63.has_default_value = false
-slot63.default_value = nil
-slot63.message_type = slot1.DISPLAYINFO
-slot63.type = 11
-slot63.cpp_type = 10
-slot63.name = "display"
-slot63.full_name = ".p23.shamtargetinfo.display"
-slot63.number = 9
-slot63.index = 8
-slot63.label = 1
-slot63.has_default_value = false
-slot63.default_value = nil
-slot63.message_type = slot1.DISPLAYINFO
-slot63.type = 11
-slot63.cpp_type = 10
+slot63.default_value = 0
+slot63.type = 13
+slot63.cpp_type = 3
+slot64.name = "propose"
+slot64.full_name = ".p23.shamtargetinfo.propose"
+slot64.number = 7
+slot64.index = 6
+slot64.label = 2
+slot64.has_default_value = false
+slot64.default_value = 0
+slot64.type = 13
+slot64.cpp_type = 3
+slot65.name = "remoulded"
+slot65.full_name = ".p23.shamtargetinfo.remoulded"
+slot65.number = 8
+slot65.index = 7
+slot65.label = 2
+slot65.has_default_value = false
+slot65.default_value = 0
+slot65.type = 13
+slot65.cpp_type = 3
+slot66.name = "display"
+slot66.full_name = ".p23.shamtargetinfo.display"
+slot66.number = 9
+slot66.index = 8
+slot66.label = 1
+slot66.has_default_value = false
+slot66.default_value = nil
+slot66.message_type = slot1.DISPLAYINFO
+slot66.type = 11
+slot66.cpp_type = 10
 SHAMTARGETINFO.name = "shamtargetinfo"
 SHAMTARGETINFO.full_name = ".p23.shamtargetinfo"
 SHAMTARGETINFO.nested_types = {}
@@ -871,13 +900,13 @@ SHAMTARGETINFO.enum_types = {}
 SHAMTARGETINFO.fields = {
 	slot58,
 	slot59,
-	SHAMTARGETINFO_ICON_FIELD,
 	slot60,
 	slot61,
-	SHAMTARGETINFO_SKIN_ID_FIELD,
-	SHAMTARGETINFO_PROPOSE_FIELD,
-	SHAMTARGETINFO_REMOULDED_FIELD,
-	slot63
+	slot62,
+	slot63,
+	slot64,
+	slot65,
+	slot66
 }
 SHAMTARGETINFO.is_extendable = false
 SHAMTARGETINFO.extensions = {}

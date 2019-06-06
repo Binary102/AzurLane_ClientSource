@@ -8,21 +8,11 @@ return {
 	scripts = {
 		{
 			actor = 303090,
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			bgm = "story-6",
-			hideOther = true,
-			nameColor = "#a9f548",
 			say = "情况不太对劲…我们与9点钟方向探索的侦察机编队失去了联络！",
-			subActors = {
-				{
-					dir = 1,
-					actor = 304050,
-					pos = {
-						x = 1030.5
-					}
-				}
-			},
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,21 +24,11 @@ return {
 		},
 		{
 			expression = 3,
+			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
 			dir = -1,
 			actor = 304050,
-			nameColor = "#a9f548",
 			say = "借来的东西，本来还想把它们完整还回去的…不过，果然没那么容易啊…",
-			subActors = {
-				{
-					dir = 1,
-					actor = 303090,
-					pos = {
-						x = -1030.5
-					}
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

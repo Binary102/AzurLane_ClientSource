@@ -104,6 +104,14 @@ pg.open_systems_limited = {
 		mediator = "CommandRoomMediator",
 		level = 40
 	},
+	[15] = {
+		scene = "MAINUI",
+		name = "限界挑战",
+		story_id = "",
+		id = 15,
+		mediator = "ChallengeMainMediator",
+		level = 80
+	},
 	all = {
 		1,
 		2,
@@ -117,7 +125,8 @@ pg.open_systems_limited = {
 		10,
 		11,
 		12,
-		14
+		14,
+		15
 	}
 }
 

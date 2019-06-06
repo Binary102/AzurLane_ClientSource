@@ -24,6 +24,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有两年间持续奋斗在港区的指挥官们</color>\n通过参与二周年限定活动获取",
 		scene = {}
 	},
+	[201] = {
+		name = "限界的挑战者",
+		time_second = 0,
+		id = 201,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -52,6 +60,7 @@ pg.item_data_frame = {
 		0,
 		101,
 		102,
+		201,
 		300,
 		301,
 		302

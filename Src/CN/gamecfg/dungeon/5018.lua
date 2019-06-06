@@ -1,5 +1,6 @@
 return {
 	id = 5013,
+	bgm = "battle-boss-6",
 	stages = {
 		{
 			stageIndex = 1,
@@ -27,11 +28,27 @@ return {
 			},
 			waves = {
 				{
+					triggerType = 1,
+					waveIndex = 100,
+					preWaves = {},
+					triggerParams = {
+						timeout = 0.5
+					}
+				},
+				{
 					triggerType = 0,
 					waveIndex = 201,
 					conditionType = 1,
-					preWaves = {},
-					triggerParams = {},
+					preWaves = {
+						100
+					},
+					triggerParams = {
+						round = {
+							equal = {
+								1
+							}
+						}
+					},
 					spawn = {
 						{
 							monsterTemplateID = 900010,
@@ -43,7 +60,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 30,
+								hpBarNum = 35,
 								icon = "kelifulan"
 							},
 							phase = {
@@ -63,19 +80,66 @@ return {
 									index = 1,
 									switchParam = 2,
 									addWeapon = {
-										950182
+										950184
 									}
 								},
 								{
-									switchParam = 0.5,
-									switchTo = 7,
+									switchParam = 2,
+									switchTo = 3,
 									index = 2,
 									switchType = 1,
 									addWeapon = {
 										950183
 									},
 									removeWeapon = {
+										950184
+									}
+								},
+								{
+									switchParam = 2,
+									switchTo = 4,
+									index = 3,
+									switchType = 1,
+									removeWeapon = {
+										950183
+									},
+									addWeapon = {
 										950182
+									}
+								},
+								{
+									switchParam = 2,
+									switchTo = 5,
+									index = 4,
+									switchType = 1,
+									removeWeapon = {
+										950182
+									},
+									addWeapon = {
+										950183,
+										950184
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 6,
+									index = 5,
+									switchParam = 1,
+									removeWeapon = {
+										950183
+									}
+								},
+								{
+									switchParam = 3,
+									switchTo = 7,
+									index = 6,
+									switchType = 1,
+									addWeapon = {
+										950182,
+										950183
+									},
+									removeWeapon = {
+										950184
 									}
 								},
 								{
@@ -83,8 +147,143 @@ return {
 									switchTo = 0,
 									index = 7,
 									switchParam = 3,
-									removeWeapon = {}
+									removeWeapon = {
+										950182,
+										950183
+									}
 								}
+							}
+						}
+					}
+				},
+				{
+					triggerType = 0,
+					waveIndex = 202,
+					conditionType = 1,
+					preWaves = {
+						201
+					},
+					triggerParams = {
+						round = {
+							more = 1
+						}
+					},
+					spawn = {
+						{
+							monsterTemplateID = 900010,
+							reinforceDelay = 6,
+							delay = 1,
+							moveCast = true,
+							corrdinate = {
+								-15,
+								0,
+								55
+							},
+							bossData = {
+								hpBarNum = 35,
+								icon = "kelifulan"
+							},
+							phase = {
+								{
+									switchType = 1,
+									switchTo = 1,
+									index = 0,
+									switchParam = 2,
+									addWeapon = {
+										950180,
+										950181
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 2,
+									index = 1,
+									switchParam = 2,
+									addWeapon = {
+										950184
+									}
+								},
+								{
+									switchParam = 2,
+									switchTo = 3,
+									index = 2,
+									switchType = 1,
+									addWeapon = {
+										950183
+									},
+									removeWeapon = {
+										950184
+									}
+								},
+								{
+									switchParam = 2,
+									switchTo = 4,
+									index = 3,
+									switchType = 1,
+									removeWeapon = {
+										950183
+									},
+									addWeapon = {
+										950182
+									}
+								},
+								{
+									switchParam = 2,
+									switchTo = 5,
+									index = 4,
+									switchType = 1,
+									removeWeapon = {
+										950182
+									},
+									addWeapon = {
+										950183,
+										950184
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 6,
+									index = 5,
+									switchParam = 1,
+									removeWeapon = {
+										950183
+									}
+								},
+								{
+									switchParam = 3,
+									switchTo = 7,
+									index = 6,
+									switchType = 1,
+									addWeapon = {
+										950182,
+										950183
+									},
+									removeWeapon = {
+										950184
+									}
+								},
+								{
+									switchType = 1,
+									switchTo = 0,
+									index = 7,
+									switchParam = 3,
+									removeWeapon = {
+										950182,
+										950183
+									}
+								}
+							}
+						}
+					},
+					reinforcement = {
+						{
+							monsterTemplateID = 909005,
+							delay = 3,
+							moveCast = true,
+							corrdinate = {
+								20,
+								0,
+								40
 							}
 						}
 					}
@@ -94,7 +293,7 @@ return {
 					key = true,
 					waveIndex = 900,
 					preWaves = {
-						201
+						202
 					},
 					triggerParams = {}
 				}

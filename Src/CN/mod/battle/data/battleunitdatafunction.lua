@@ -20,11 +20,10 @@ slot17 = pg.ship_data_by_type
 slot18 = pg.ship_level
 slot19 = pg.skill_data_template
 slot20 = pg.ship_data_trans
-slot21 = pg.challenge_rate_template
-slot22 = pg.equip_skin_template
-slot23 = pg.activity_template
-slot24 = pg.activity_event_worldboss
-slot25 = pg.map_data
+slot21 = pg.equip_skin_template
+slot22 = pg.activity_template
+slot23 = pg.activity_event_worldboss
+slot24 = pg.map_data
 ys.Battle.BattleDataFunction = ys.Battle.BattleDataFunction or {}
 
 ys or .Battle.BattleDataFunction.CreateBattleUnitData = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
@@ -420,10 +419,6 @@ ys or .Battle.BattleDataFunction.GetShipTransformDataTemplate = function (slot0)
 	return slot1[slot0:GetPlayerShipModelFromID().group_type]
 end
 
-ys or .Battle.BattleDataFunction.GetRateTemplate = function (slot0)
-	return slot0[slot0]
-end
-
 ys or .Battle.BattleDataFunction.GetEquipSkinDataFromID = function (slot0)
 	return slot0[slot0]
 end
@@ -577,4 +572,4 @@ end
 return
 
 slot0 = 
-slot27 = 
+slot26 = 

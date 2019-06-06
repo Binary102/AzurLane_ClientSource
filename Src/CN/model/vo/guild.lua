@@ -439,6 +439,10 @@ function slot0.warpChatInfo(slot0, slot1)
 		end)
 
 		if nil then
+			if slot6 == 64 then
+				slot6 = 66
+			end
+
 			if pg.emoji_template[slot6] then
 				slot3 = slot7.desc
 			else

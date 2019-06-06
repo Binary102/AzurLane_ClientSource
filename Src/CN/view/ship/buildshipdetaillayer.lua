@@ -63,6 +63,7 @@ function slot0.didEnter(slot0)
 
 	slot0.multList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot2.gameObject.name = "project_" .. slot1 + 1
 			slot0.projectTFs[slot1 + 1] = slot2
 
 			slot0:updateProject(slot1 + 1, slot0.projectList[slot1 + 1])
@@ -70,6 +71,7 @@ function slot0.didEnter(slot0)
 	end)
 	slot0.singleList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot2.gameObject.name = "project_" .. slot1 + 1
 			slot0.projectTFs[slot1 + 1] = slot2
 
 			slot0:updateProject(slot1 + 1, slot0.projectList[slot1 + 1])
@@ -437,7 +439,7 @@ function slot0.playGetShipAnimate(slot0, slot1, slot2)
 		end
 
 		slot7(slot8, slot9, function (slot0)
-			if slot0.exitMark then
+			if slot0.exited then
 				Destory(slot0)
 
 				slot0.buildAni = nil
@@ -494,8 +496,6 @@ function slot0.willExit(slot0)
 
 	slot0:stopCV()
 
-	slot0.exitMark = true
-
 	if slot0.loadedCVBankName then
 		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
 
@@ -544,7 +544,7 @@ function slot0.playCV(slot0, slot1)
 			pg.CriMgr:LoadCV("build", function ()
 				slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
-				if pg.CriMgr.GetCVBankName.exitMark then
+				if pg.CriMgr.GetCVBankName.exited then
 					pg.CriMgr.UnloadCVBank(slot0)
 				else
 					slot2()

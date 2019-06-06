@@ -5737,6 +5737,14 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "开除成功",
 		key = "guild_fire_succeed"
 	},
+	guild_duty_tip_1 = {
+		tip = "<color=#7FAFFF>当前职位</color>",
+		key = "guild_duty_tip_1"
+	},
+	guild_duty_tip_2 = {
+		tip = "<color=#C3C3C3>不可委任</color>",
+		key = "guild_duty_tip_2"
+	},
 	battle_repair_special_tip = {
 		tip = "是否确定使用<color=#92fc63>精英损管小组</color>？",
 		key = "battle_repair_special_tip"
@@ -6704,7 +6712,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		key = "words_auto_battle_label"
 	},
 	words_show_ship_name_label = {
-		tip = "自定义角色名称",
+		tip = "显示自定义角色名称",
 		key = "words_show_ship_name_label"
 	},
 	words_rare_ship_vibrate = {
@@ -6714,6 +6722,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 	words_display_ship_get_effect = {
 		tip = "重复角色获得提示",
 		key = "words_display_ship_get_effect"
+	},
+	words_show_touch_effect = {
+		tip = "显示触屏特效",
+		key = "words_show_touch_effect"
 	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>获得方式\n拼图任务7</color>",
@@ -8757,127 +8769,9 @@ $3]],
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/commander_info"
+					atlas = "helpbg/commander_build"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 1,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_play = {
-		key = "help_commander_play",
-		tip = {
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_info"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_ability3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_up"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/commander_skill2"
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			defaultpage = 5,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	},
-	help_commander_ability = {
-		key = "help_commander_ability",
-		tip = {
 			{
 				icon = {
 					path = "",
@@ -8937,6 +8831,142 @@ $3]],
 			}
 		}
 	},
+	help_commander_play = {
+		key = "help_commander_play",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 4,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_commander_ability = {
+		key = "help_commander_ability",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 3,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	story_skip_confirm = {
 		tip = "还未观看过本段剧情，是否确定跳过？\n跳过的剧情可以在<color=#A1E400FF>收藏>回忆</COLOR>中回看",
 		key = "story_skip_confirm"
@@ -8952,6 +8982,48 @@ $3]],
 				icon = {
 					path = "",
 					atlas = "helpbg/commander_build"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_info"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_ability3"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_up"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/commander_skill2"
 				}
 			},
 			disableScroll = true,
@@ -10273,6 +10345,163 @@ UID：
 	returner_match_tip = {
 		tip = "匹配后,您将随机绑定一名系统中召集者的UID信息,点击确定后直接绑定<color=#FF5C5C>无法变更</color>,是否确定绑定？",
 		key = "returner_match_tip"
+	},
+	challenge_help = {
+		key = "challenge_help",
+		tip = {
+			{
+				info = "  【玩法简介】"
+			},
+			{
+				info = "  限界挑战是面向具有较高舰队实力指挥官的挑战玩法。\n"
+			},
+			{
+				info = "【模式说明】"
+			},
+			{
+				info = "  1. 限界挑战共分为普通和无限两种模式"
+			},
+			{
+				info = "  2. 普通模式下，指挥官可以挑战对手并获取积分，当达\n到指定的最高积分时，可以领取奖励，普通模式最多可以\n挑战五关"
+			},
+			{
+				info = "  3. 无限模式下，指挥官可以无限挑战对手，通过的关卡\n数越多，敌人的实力也会越强。无限模式下无法获得积分\n，也没有奖励。无限模式只有在通关普通模式后才会开启"
+			},
+			{
+				info = "  4. 两种模式都为连战玩法，即每场战斗结束后，会继承\n上一场结束时的舰船状态。且每场战斗只能呼叫一次潜艇\n支援，每场战斗结束后，潜艇呼叫次数会恢复为1次"
+			},
+			{
+				info = "  5. 限界挑战中不会消耗石油，不消耗舰船的好感，战斗\n胜负不会被计入个人信息统计，也无法获得舰船经验和指\n挥喵经验"
+			},
+			{
+				info = "  6. 普通模式和无限模式的编队不通用，指挥官需要分别\n配置"
+			},
+			{
+				info = "  7. 挑战过程中，玩家不可以更换编队成员，不可以使用\n紧急维修"
+			},
+			{
+				info = [[
+  8. 两场战斗间可以返回活动主页，战斗中退出、掉线、
+关闭游戏等操作将导致结算至本关开始前分数并结束本轮
+挑战。
+]]
+			},
+			{
+				info = "  【结算及刷新说明】"
+			},
+			{
+				info = "  1. 限界挑战开放期间，会以每个周日的23:59:59为截止时\n间，结束并开启新一轮的挑战"
+			},
+			{
+				info = "  2. 挑战结束时，会结算本轮挑战的最高积分，并进行重\n置；同时无限模式的进入条件也会被重置"
+			},
+			{
+				info = [[
+  3. 开启新一轮的挑战后，挑战对手和顺序会发生变化
+  注：挑战更新后，如果还有上一轮的未结算战斗，该次
+挑战的数据将不计入统计。因此，请指挥官合理规划挑战
+时间。]]
+			},
+			{
+				info = "  4. 当限界挑战的活动时间结束后，将会暂时关闭，并隔\n一段时间后再次开启。新开启的限界挑战的内容和奖励均\n会有变化"
+			}
+		}
+	},
+	challenge_casual_reset = {
+		tip = "上次挑战异常结束,数据将结算.\n累积得分:$1",
+		key = "challenge_casual_reset"
+	},
+	challenge_infinite_reset = {
+		tip = "上次挑战异常结束,数据将结算.\n通过关卡:$1",
+		key = "challenge_infinite_reset"
+	},
+	challenge_normal_reset = {
+		tip = "是否结束本轮挑战?",
+		key = "challenge_normal_reset"
+	},
+	challenge_casual_click_switch = {
+		tip = "当前模式:普通模式\n累积得分:$1\n是否切换模式?",
+		key = "challenge_casual_click_switch"
+	},
+	challenge_infinite_click_switch = {
+		tip = "当前模式:无限模式\n当前关卡:$1\n是否切换模式?",
+		key = "challenge_infinite_click_switch"
+	},
+	challenge_season_update = {
+		tip = "新一轮挑战已开启",
+		key = "challenge_season_update"
+	},
+	challenge_season_update_casual_clear = {
+		tip = "累计得分:$1\n新一轮挑战已开启,本轮挑战数据不计入统计.\n是否开始继续挑战?",
+		key = "challenge_season_update_casual_clear"
+	},
+	challenge_season_update_infinite_clear = {
+		tip = "当前关卡:$1\n新一轮挑战已开启,本轮挑战数据不计入统计.\n是否开始继续挑战?",
+		key = "challenge_season_update_infinite_clear"
+	},
+	challenge_season_update_casual_switch = {
+		tip = [[
+当前模式:普通模式
+累积得分:$1
+新一轮挑战已开启,本轮挑战数据不计入统计.
+是否结算当前分数并切换模式?]],
+		key = "challenge_season_update_casual_switch"
+	},
+	challenge_season_update_infinite_switch = {
+		tip = [[
+当前模式:无限模式
+当前关卡:$1
+新一轮挑战已开启,本轮挑战数据不计入统计.
+是否结算当前分数并切换模式?]],
+		key = "challenge_season_update_infinite_switch"
+	},
+	challenge_combat_score = {
+		tip = "本关得分：$1",
+		key = "challenge_combat_score"
+	},
+	challenge_share_progress = {
+		tip = "本次限界挑战进度：",
+		key = "challenge_share_progress"
+	},
+	challenge_share = {
+		tip = "关",
+		key = "challenge_share"
+	},
+	challenge_expire_warn = {
+		tip = "新一轮挑战已开启，本轮数据将不计入统计",
+		key = "challenge_expire_warn"
+	},
+	challenge_normal_tip = {
+		tip = "挑战关卡并刷新高分成绩，获取奖励！ ",
+		key = "challenge_normal_tip"
+	},
+	challenge_unlimited_tip = {
+		tip = "挑战自身极限，突破更多关卡！ ",
+		key = "challenge_unlimited_tip"
+	},
+	commander_prefab_rename_success = {
+		tip = "改名成功",
+		key = "commander_prefab_rename_success"
+	},
+	commander_prefab_name = {
+		tip = "预设编队$1",
+		key = "commander_prefab_name"
+	},
+	commander_prefab_rename_time = {
+		tip = "$1秒后可以继续改名",
+		key = "commander_prefab_rename_time"
+	},
+	commander_build_solt_deficiency = {
+		tip = "没有多余的栏位",
+		key = "commander_build_solt_deficiency"
+	},
+	commander_select_box_tip = {
+		tip = "一共选择了$1个猫箱，开始训练后将无法取消，是否确定？",
+		key = "commander_select_box_tip"
+	},
+	challenge_end_tip = {
+		tip = "活动已结束",
+		key = "challenge_end_tip"
 	}
 }
 

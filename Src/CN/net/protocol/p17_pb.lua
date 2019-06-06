@@ -967,6 +967,7 @@ VOTEINFO.fields = {
 VOTEINFO.is_extendable = false
 VOTEINFO.extensions = {}
 achievement_info = slot0.Message(ACHIEVEMENT_INFO)
+attire_info = slot0.Message(ATTIRE_INFO)
 cs_17005 = slot0.Message(CS_17005)
 cs_17101 = slot0.Message(CS_17101)
 cs_17103 = slot0.Message(CS_17103)

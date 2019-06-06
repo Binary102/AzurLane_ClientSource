@@ -117,6 +117,10 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if slot22:getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot25:isEnd() then
 		slot22:updateActivity(slot25)
 	end
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or not slot26:isEnd() then
+		slot0:sendNotification(GAME.CHALLENGE2_INFO, {})
+	end
 end
 
 return class("ZeroHourCommand", pm.SimpleCommand)

@@ -95,4 +95,59 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
+function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+	if slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column) then
+		if slot1:isPlayingWithBombEnemy() then
+			if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot1:getMapShip(slot5):getShipType()) then
+				slot2.viewComponent:doPlayStrikeAnim(slot6, "AirStrikeUI", slot3)
+			else
+				slot2.viewComponent:doPlayStrikeAnim(slot6, "CannonUI", slot3)
+			end
+		elseif slot0.actType == ChapterConst.ActType_Poison then
+			slot3()
+		else
+			if slot0.target then
+				slot5 = slot1.fleets[slot4]
+
+				if _.detect(slot0.cellUpdates, function (slot0)
+					return slot0.row == slot0.target.row and slot0.column == slot0.target.column
+				end).attachment == ChapterConst.AttachLandbase then
+					if pg.land_based_template[slot6.attachmentId].type == ChapterConst.LBCoastalGun then
+						if table.contains(ShipType.BundleList[ShipType.BundleAircraftCarrier], slot1:getMapShip(slot5):getShipType()) then
+							slot2.viewComponent:doPlayStrikeAnim(slot8, "AirStrikeUI", slot3)
+						else
+							slot2.viewComponent:doPlayStrikeAnim(slot8, "CannonUI", slot3)
+						end
+					end
+
+					return
+				end
+
+				slot7 = "-" .. slot6.data / 100 .. "%"
+				slot9 = slot5:getSkill(slot8)
+
+				slot2.viewComponent:doPlayCommander(slot5:findCommanderBySkillId(slot8), function ()
+					if slot0:GetType() == FleetSkill.TypeAttack then
+						function slot1()
+							slot0.viewComponent:strikeEnemy(slot1.target, , )
+						end
+
+						if slot0:GetArgs()[1] == "airfight" then
+							slot1.viewComponent:doPlayStrikeAnim(slot5:getCVship(slot6), "AirStrikeUI", slot1)
+						elseif slot0[1] == "torpedo" then
+							slot1.viewComponent:doPlayStrikeAnim(slot5:getTorpedoShip(slot6), "SubTorpedoUI", slot1)
+						elseif slot0[1] == "cannon" then
+							slot1.viewComponent:doPlayStrikeAnim(slot5:getBBship(slot6), "CannonUI", slot1)
+						end
+					end
+				end)
+
+				return
+			end
+
+			slot3()
+		end
+	end
+end
+
 return slot0

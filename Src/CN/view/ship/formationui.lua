@@ -50,6 +50,12 @@ end
 
 slot0.setPlayer = slot1
 
+function slot1(slot0, slot1)
+	slot0.commanderPrefabFleets = slot1
+end
+
+slot0.setCommanderPrefabFleet = slot1
+
 function slot1(slot0)
 	slot1 = {}
 	slot0.eventTriggers = slot1
@@ -462,21 +468,20 @@ function slot1(slot0)
 	slot0._vanGSTxt.text = slot0.prevVanGS or 0
 	slot0._mainGSTxt.text = slot0.prevMainGS or 0
 	slot0._subGSTxt.text = slot0.prevSubGS or 0
-	slot1 = CommanderFormationPanel.New
-	slot3 = slot0
-	slot2 = slot0.findTF
-	slot4 = "commander_panel"
-	slot1 = slot1(slot2(slot3, slot4))
-	slot0.commanderFormationPanel = slot1
-	slot1 = slot0.commanderFormationPanel
+	slot1 = pg.UIMgr
 	slot2 = slot1
-	slot1 = slot1.attach
-	slot3 = slot0
-
-	slot1(slot2, slot3)
-
-	slot1 = {}
-	slot0.index = slot1
+	slot1 = slot1.GetInstance
+	slot1 = slot1(slot2)
+	slot1 = slot1.OverlayMain
+	slot2 = CommanderFormationPage
+	slot2 = slot2.New
+	slot3 = slot1
+	slot4 = slot0.event
+	slot5 = slot0.contextData
+	slot2 = slot2(slot3, slot4, slot5)
+	slot0.commanderFormationPanel = slot2
+	slot2 = {}
+	slot0.index = slot2
 end
 
 slot0.init = slot1
@@ -813,28 +818,24 @@ end
 slot0.quckExitFunc = slot1
 
 function slot1(slot0)
-	slot1 = slot0.commanderFormationPanel
+	slot1 = pg
+	slot1 = slot1.SystemOpenMgr
 	slot2 = slot1
-	slot1 = slot1.enable
-	slot3 = pg
-	slot3 = slot3.SystemOpenMgr
-	slot4 = slot3
-	slot3 = slot3.GetInstance
-	slot3 = slot3(slot4)
-	slot4 = slot3
-	slot3 = slot3.isOpenSystem
-	slot5 = slot0.player
-	slot5 = slot5.level
-	slot6 = "CommandRoomMediator"
-	slot3 = slot3(slot4, slot5, slot6)
+	slot1 = slot1.GetInstance
+	slot1 = slot1(slot2)
+	slot2 = slot1
+	slot1 = slot1.isOpenSystem
+	slot3 = slot0.player
+	slot3 = slot3.level
+	slot4 = "CommandRoomMediator"
+	slot1 = slot1(slot2, slot3, slot4)
 
-	if slot3 then
-		slot3 = LOCK_COMMANDER
-		slot3 = not slot3
+	if slot1 then
+		slot1 = LOCK_COMMANDER
+		slot1 = not slot1
 	end
 
-	slot1(slot2, slot3)
-
+	slot0.isOpenCommander = slot1
 	slot1 = onButton
 	slot2 = slot0
 	slot3 = slot0.backBtn
@@ -1346,15 +1347,43 @@ function slot1(slot0, slot1)
 	slot4 = slot1
 	slot2 = slot2(slot3, slot4)
 	slot0._currentFleetVO = slot2
-	slot2 = slot0.commanderFormationPanel
-	slot3 = slot2
-	slot2 = slot2.update
-	slot4 = slot0._currentFleetVO
+	slot3 = slot0
+	slot2 = slot0.updateCommanderFormation
 
-	slot2(slot3, slot4)
+	slot2(slot3)
 end
 
 slot0.SetCurrentFleetID = slot1
+
+function slot1(slot0)
+	slot1 = slot0.isOpenCommander
+
+	if slot1 then
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.ActionInvoke
+		slot3 = "Update"
+		slot4 = slot0._currentFleetVO
+		slot5 = slot0.commanderPrefabFleets
+
+		slot1(slot2, slot3, slot4, slot5)
+
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.GetLoaded
+		slot1 = slot1(slot2)
+
+		if not slot1 then
+			slot1 = slot0.commanderFormationPanel
+			slot2 = slot1
+			slot1 = slot1.Load
+
+			slot1(slot2)
+		end
+	end
+end
+
+slot0.updateCommanderFormation = slot1
 
 function slot1(slot0, slot1)
 	slot2 = table
@@ -3492,6 +3521,17 @@ function slot1(slot0)
 	slot4 = slot0._tf
 
 	slot1(slot2, slot3, slot4)
+
+	slot1 = slot0.isOpenCommander
+
+	if slot1 then
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.ActionInvoke
+		slot3 = "Show"
+
+		slot1(slot2, slot3)
+	end
 end
 
 slot0.hideAttrFrame = slot1
@@ -3518,6 +3558,17 @@ function slot1(slot0)
 	slot1 = slot0.initAttrFrame
 
 	slot1(slot2)
+
+	slot1 = slot0.isOpenCommander
+
+	if slot1 then
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.ActionInvoke
+		slot3 = "Hide"
+
+		slot1(slot2, slot3)
+	end
 end
 
 slot0.displayAttrFrame = slot1
@@ -4618,7 +4669,7 @@ slot0.onBackPressed = slot1
 function slot1(slot0)
 	slot1 = slot0.commanderFormationPanel
 	slot2 = slot1
-	slot1 = slot1.detach
+	slot1 = slot1.Destroy
 
 	slot1(slot2)
 

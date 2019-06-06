@@ -119,13 +119,15 @@ function slot0.countBusyFleetNums(slot0)
 end
 
 function slot0.updateTime(slot0)
-	_.each(slot0.eventList, function (slot0)
-		if slot0:updateTime() then
-			slot0 = true
-		end
-	end)
+	slot1 = false
 
-	if false then
+	for slot5, slot6 in pairs(slot0.eventList) do
+		if slot6:updateTime() then
+			slot1 = true
+		end
+	end
+
+	if slot1 then
 		slot0:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end
 end

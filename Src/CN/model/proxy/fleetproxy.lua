@@ -223,11 +223,19 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 		slot0:commitActivityFleet(slot1)
 	end
 
-	slot7 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].group_num
-	slot8 = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].submarine_num
+	slot6, slot7 = nil
+
+	if pg.activity_template[slot1].type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+		slot6 = 2
+		slot7 = 2
+	else
+		slot6 = pg.activity_event_worldboss[slot8.config_id].group_num
+		slot7 = pg.activity_event_worldboss[slot8.config_id].submarine_num
+	end
+
 	slot9 = 0
 
-	while slot7 > slot9 do
+	while slot6 > slot9 do
 		if slot3[slot9 + 1] == nil then
 			slot3[slot9] = Fleet.New({
 				id = slot9,
@@ -238,7 +246,7 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 
 	slot9 = 0
 
-	while slot8 > slot9 do
+	while slot7 > slot9 do
 		if slot3[Fleet.SUBMARINE_FLEET_ID + slot9] == nil then
 			slot3[slot10] = Fleet.New({
 				id = slot10,

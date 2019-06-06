@@ -67,7 +67,7 @@ function slot0.init(slot0)
 
 	slot0.rankRect.decelerationRate = 0.07
 
-	if (slot0.contextData.page or 1) == PowerRank.TYPE_EXTRA_CHAPTER then
+	if (slot0.contextData.page or PowerRank.TYPE_POWER) == PowerRank.TYPE_EXTRA_CHAPTER then
 		setActive(slot0.leftPanel, false)
 		setAnchoredPosition(slot0.mainPanel, Vector3(0, -35.5, 0))
 		setImageSprite(slot0.extraChapterBg, GetSpriteFromAtlas("commonbg/bg_fengshan", ""))
@@ -80,25 +80,7 @@ function slot0.updateToggles(slot0)
 	for slot4, slot5 in pairs(slot0.toggles) do
 		slot6 = nil
 
-		if slot4 == PowerRank.TYPE_POWER then
-			slot6 = true
-		elseif slot4 == PowerRank.TYPE_COLLECTION then
-			slot6 = true
-		elseif slot4 == PowerRank.TYPE_PT then
-			slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_RANK) and not slot7:isEnd()
-		elseif slot4 == PowerRank.TYPE_PLEDGE then
-			slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE_RANK) and not slot7:isEnd()
-		elseif slot4 == PowerRank.TYPE_CHALLENGE then
-			slot6 = false
-		elseif slot4 == PowerRank.TYPE_EXTRA_CHAPTER then
-			slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK) and not slot7:isEnd()
-		elseif slot4 == PowerRank.TYPE_ACT_BOSS_BATTLE then
-			slot6 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE) and not slot7:isEnd()
-		elseif slot4 == PowerRank.TYPE_MILITARY_RANK then
-			slot6 = true
-		end
-
-		setActive(slot5, slot6)
+		setActive(slot5, (not PowerRank.typeInfo[slot4].act_type or PowerRank:getActivityByRankType(slot4)) and slot4 ~= PowerRank.TYPE_PLEDGE)
 	end
 
 	for slot4, slot5 in pairs(slot0.ptToggles) do
@@ -120,7 +102,7 @@ function slot0.didEnter(slot0)
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot1:switchPage(slot0, PowerRank:getActivityIdByRankType(slot0))
+				slot1:switchPage(slot0, checkExist(PowerRank:getActivityByRankType(slot0), "id"))
 			end
 		end, SFX_PANEL)
 	end
@@ -145,7 +127,7 @@ function slot0.didEnter(slot0)
 
 	slot0.playerCard = RankCard.New(slot0.playerRankTF, RankCard.TYPE_SELF)
 
-	triggerToggle(slot0.toggles[slot0.contextData.page or 1], true)
+	triggerToggle(slot0.toggles[slot0.contextData.page or PowerRank.TYPE_POWER], true)
 end
 
 function slot0.onInintItem(slot0, slot1)

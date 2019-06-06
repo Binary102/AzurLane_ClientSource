@@ -308,7 +308,7 @@ function slot0.willExit(slot0)
 		slot0.live2dCom = nil
 	end
 
-	setActive(pg.UIMgr.GetInstance().OverlayEffect, true)
+	setActive(pg.UIMgr.GetInstance().OverlayEffect, PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0)
 end
 
 function slot0.clearSkin(slot0)

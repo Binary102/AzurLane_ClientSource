@@ -284,7 +284,11 @@ function slot2(slot0)
 		if slot4 then
 			slot5 = slot4.class == WorldMapShip
 
-			flushShipCard(slot0.tr, slot1)
+			flushShipCard(slot0.tr, slot1, function (slot0, slot1)
+				if slot0.shipVO.configId == slot1 then
+					findTF(slot0.tr, "content/ship_icon"):GetComponent("Image").sprite = slot0
+				end
+			end)
 			setActive(slot0.npc, slot1:isActivityNpc())
 
 			slot7 = slot0.lock
@@ -517,6 +521,12 @@ function slot2(slot0)
 		slot10 = slot0.updateBlackBlock
 
 		slot10(slot11)
+
+		slot10 = LOCK_PROPOSE
+
+		if slot10 then
+			return
+		end
 
 		slot11 = slot1
 		slot10 = slot1.getIntimacyDetail

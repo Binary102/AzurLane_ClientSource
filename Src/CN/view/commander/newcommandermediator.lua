@@ -22,13 +22,6 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.COMMANDER_LOCK_DONE then
 		slot0.viewComponent:setCommander(slot3.commander)
-
-		if slot3.flag == 1 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_lock_done"))
-		elseif slot3.flag == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_unlock_done"))
-		end
-
 		slot0.viewComponent:updateLockState(slot3.flag)
 	end
 end

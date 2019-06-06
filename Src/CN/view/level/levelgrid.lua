@@ -347,20 +347,11 @@ function slot2(slot0)
 	slot3 = slot1.rect
 	slot3 = slot3.height
 	slot4 = Vector2
-	slot4 = slot4.New
-	slot5 = UnityEngine
-	slot5 = slot5.Screen
-	slot5 = slot5.width
-	slot5 = slot2 / slot5
-	slot6 = UnityEngine
-	slot6 = slot6.Screen
-	slot6 = slot6.height
-	slot6 = slot3 / slot6
-	slot4 = slot4(slot5, slot6)
+	slot4 = slot4.one
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.theme
-	slot7 = slot2 * 0.5
+	slot7 = slot3 * 0.5
 	slot8 = math
 	slot8 = slot8.tan
 	slot9 = math
@@ -368,78 +359,79 @@ function slot2(slot0)
 	slot9 = slot9 / 180
 	slot10 = slot6.fov
 	slot9 = slot9 * slot10
+	slot9 = slot9 * 0.5
 	slot8 = slot8(slot9)
 	slot7 = slot7 / slot8
-	slot8 = Vector3
-	slot9 = 0
-	slot10 = slot6.offsety
-	slot11 = slot6.offsetz
-	slot8 = slot8(slot9, slot10, slot11)
-	slot9 = slot0
-	slot9 = slot9.MapDefaultPos
-	slot8 = slot8 + slot9
-	slot9 = slot6.offsetx
-	slot10 = slot0
-	slot10 = slot10.MapDefaultPos
-	slot10 = slot10.x
-	slot9 = slot9 + slot10
-	slot10 = slot4.x
+	slot8 = math
+	slot8 = slot8.pi
+	slot8 = slot8 / 180
+	slot9 = slot6.angle
+	slot8 = slot8 * slot9
+	slot9 = Vector3
+	slot10 = 0
 	slot11 = math
-	slot11 = slot11.clamp
-	slot12 = slot8.magnitude
-	slot12 = slot7 - slot12
-	slot12 = slot12 / slot7
-	slot13 = 0
-	slot14 = 1
-	slot11 = slot11(slot12, slot13, slot14)
-	slot10 = slot10 * slot11
-	slot4.x = slot10
-	slot11 = slot5
-	slot10 = slot5.getDragExtend
-	slot12 = slot0._tf
-	slot13 = slot12
-	slot12 = slot12.Find
-	slot14 = ChapterConst
-	slot14 = slot14.PlaneName
-	slot12 = slot12(slot13, slot14)
-	slot13 = slot2
-	slot14 = slot3
-	slot10, slot11, slot12, slot13 = slot10(slot11, slot12, slot13, slot14)
-	slot0.bottomExtend = slot13
-	slot0.topExtend = slot12
-	slot0.rightExtend = slot11
-	slot0.leftExtend = slot10
-	slot10 = slot0._tf
-	slot11 = Vector2
+	slot11 = slot11.sin
+	slot12 = slot8
+	slot11 = slot11(slot12)
+	slot11 = -slot11
 	slot12 = math
-	slot12 = slot12.max
-	slot13 = slot0.leftExtend
-	slot14 = slot0.rightExtend
-	slot12 = slot12(slot13, slot14)
-	slot12 = slot12 * 2
-	slot12 = slot2 + slot12
-	slot13 = math
-	slot13 = slot13.max
-	slot14 = slot0.topExtend
-	slot15 = slot0.bottomExtend
-	slot13 = slot13(slot14, slot15)
-	slot13 = slot13 * 2
-	slot13 = slot3 + slot13
+	slot12 = slot12.cos
+	slot13 = slot8
+	slot12 = slot12(slot13)
+	slot12 = -slot12
+	slot9 = slot9(slot10, slot11, slot12)
+	slot10 = Vector3
+	slot11 = 0
+	slot12 = slot6.offsety
+	slot13 = slot0
+	slot13 = slot13.MapDefaultPos
+	slot13 = slot13.y
+	slot12 = slot12 + slot13
+	slot13 = slot6.offsetz
+	slot14 = slot0
+	slot14 = slot14.MapDefaultPos
+	slot14 = slot14.z
+	slot13 = slot13 + slot14
+	slot10 = slot10(slot11, slot12, slot13)
+	slot11 = Vector3
+	slot11 = slot11.Dot
+	slot12 = slot9
+	slot13 = slot10
 	slot11 = slot11(slot12, slot13)
-	slot10.sizeDelta = slot11
-	slot10 = GetOrAddComponent
-	slot11 = slot0._tf
-	slot12 = "EventTriggerListener"
-	slot10 = slot10(slot11, slot12)
-	slot0.dragTrigger = slot10
-	slot10 = slot0.dragTrigger
-	slot11 = true
-	slot10.enabled = slot11
-	slot10 = slot0.dragTrigger
-	slot11 = slot10
-	slot10 = slot10.AddDragFunc
+	slot12 = math
+	slot12 = slot12.clamp
+	slot13 = slot7 - slot11
+	slot13 = slot13 / slot7
+	slot14 = 0
+	slot15 = 1
+	slot12 = slot12(slot13, slot14, slot15)
+	slot4 = slot4 * slot12
+	slot13 = slot5
+	slot12 = slot5.getDragExtend
+	slot12, slot13, slot14, slot15 = slot12(slot13)
+	slot0.bottomExtend = slot15
+	slot0.topExtend = slot14
+	slot0.rightExtend = slot13
+	slot0.leftExtend = slot12
+	slot12 = slot0._tf
+	slot13 = Vector2
+	slot14 = slot2 * 2
+	slot15 = slot3 * 2
+	slot13 = slot13(slot14, slot15)
+	slot12.sizeDelta = slot13
+	slot12 = GetOrAddComponent
+	slot13 = slot0._tf
+	slot14 = "EventTriggerListener"
+	slot12 = slot12(slot13, slot14)
+	slot0.dragTrigger = slot12
+	slot12 = slot0.dragTrigger
+	slot13 = true
+	slot12.enabled = slot13
+	slot12 = slot0.dragTrigger
+	slot13 = slot12
+	slot12 = slot12.AddDragFunc
 
-	function slot12(slot0, slot1)
+	function slot14(slot0, slot1)
 		slot2 = slot0
 		slot2 = slot2._tf
 		slot2 = slot2.localPosition
@@ -455,12 +447,8 @@ function slot2(slot0)
 		slot5 = slot0
 		slot5 = slot5.rightExtend
 		slot5 = -slot5
-		slot6 = slot2
-		slot5 = slot5 - slot6
 		slot6 = slot0
 		slot6 = slot6.leftExtend
-		slot7 = slot2
-		slot6 = slot6 - slot7
 		slot3 = slot3(slot4, slot5, slot6)
 		slot2.x = slot3
 		slot3 = math
@@ -471,6 +459,11 @@ function slot2(slot0)
 		slot6 = slot1
 		slot6 = slot6.y
 		slot5 = slot5 * slot6
+		slot6 = math
+		slot6 = slot6.cos
+		slot7 = slot2
+		slot6 = slot6(slot7)
+		slot5 = slot5 / slot6
 		slot4 = slot4 + slot5
 		slot5 = slot0
 		slot5 = slot5.topExtend
@@ -484,7 +477,7 @@ function slot2(slot0)
 		slot3.localPosition = slot2
 	end
 
-	slot10(slot11, slot12)
+	slot12(slot13, slot14)
 end
 
 slot0.initDrag = slot2
@@ -1573,18 +1566,6 @@ end
 slot0.updateFleets = slot2
 
 function slot2(slot0, slot1)
-	slot2 = pairs
-	slot3 = slot0.opBtns
-	slot2, slot3, slot4 = slot2(slot3)
-
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = print
-		slot8 = slot5
-		slot9 = slot6
-
-		slot7(slot8, slot9)
-	end
-
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -2138,7 +2119,6 @@ function slot2(slot0, slot1)
 				setActive(slot4.tfShadow, not slot9)
 				setActive(slot4.tfShip, not slot9)
 				setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot9)
-				print("ssssss")
 
 				slot11 = slot2
 				slot10 = slot2.getFleetAmmo
@@ -3233,27 +3213,41 @@ function slot2(slot0, slot1, slot2)
 	slot9 = slot9(slot10)
 
 	if not slot9 then
-		function slot9(slot0)
-			slot1 = slot0.childCount
-			slot2 = 0
+		function slot9(slot0, slot1)
+			slot2 = slot0.childCount
+			slot3 = 0
 
-			if slot1 > slot2 then
-				slot2 = slot0
-				slot1 = slot0.GetChild
-				slot3 = 0
-				slot1 = slot1(slot2, slot3)
-				slot2 = PoolMgr
-				slot2 = slot2.GetInstance
-				slot2 = slot2()
-				slot3 = slot2
-				slot2 = slot2.ReturnPrefab
-				slot4 = "chapter/"
-				slot5 = slot1.name
-				slot4 = slot4 .. slot5
-				slot5 = slot1.name
-				slot6 = slot1.gameObject
+			if slot2 > slot3 then
+				slot3 = slot0
+				slot2 = slot0.GetChild
+				slot4 = 0
+				slot2 = slot2(slot3, slot4)
+				slot3 = PoolMgr
+				slot3 = slot3.GetInstance
+				slot3 = slot3()
+				slot4 = slot3
+				slot3 = slot3.ReturnPrefab
+				slot5 = "chapter/"
+				slot6 = slot2.name
+				slot5 = slot5 .. slot6
+				slot6 = slot2.name
+				slot7 = slot2.gameObject
 
-				slot2(slot3, slot4, slot5, slot6)
+				slot3(slot4, slot5, slot6, slot7)
+
+				if slot1 then
+					slot3 = PoolMgr
+					slot3 = slot3.GetInstance
+					slot3 = slot3()
+					slot4 = slot3
+					slot3 = slot3.DestroyPrefab
+					slot5 = "chapter/"
+					slot6 = slot2.name
+					slot5 = slot5 .. slot6
+					slot6 = slot2.name
+
+					slot3(slot4, slot5, slot6)
+				end
 			end
 		end
 
@@ -3262,8 +3256,10 @@ function slot2(slot0, slot1, slot2)
 		slot11 = slot7.Find
 		slot13 = ChapterConst
 		slot13 = slot13.ChildItem
+		slot11 = slot11(slot12, slot13)
+		slot12 = true
 
-		slot10(slot11(slot12, slot13))
+		slot10(slot11, slot12)
 
 		slot10 = slot0.attachTws
 		slot10 = slot10[slot5]

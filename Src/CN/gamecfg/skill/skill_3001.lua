@@ -19,10 +19,10 @@ return {
 		{
 			targetAniEffect = "",
 			casterAniEffect = "",
-			type = "BattleSkillInstantCoolDown",
+			type = "BattleSkillAddBuff",
 			target_choise = "TargetSelf",
 			arg_list = {
-				weaponType = "AirAssist"
+				buff_id = 3000
 			}
 		}
 	}

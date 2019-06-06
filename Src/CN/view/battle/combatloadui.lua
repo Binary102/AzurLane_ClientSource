@@ -128,22 +128,20 @@ function slot0.Preload(slot0)
 				slot0.addChapterBuffRes(slot13)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS then
-			slot7 = {}
-
 			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then
+				for slot12, slot13 in ipairs(slot8) do
+					table.insert(slot3, slot2:getShipById(slot13))
+				end
+
+				slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
+			end
+
+			if slot6[Fleet.SUBMARINE_FLEET_ID] then
 				for slot13, slot14 in ipairs(slot9) do
 					table.insert(slot3, slot2:getShipById(slot14))
 				end
 
 				slot0.addCommanderBuffRes(slot8:buildBattleBuffList())
-			end
-
-			if slot6[Fleet.SUBMARINE_FLEET_ID] then
-				for slot14, slot15 in ipairs(slot10) do
-					table.insert(slot3, slot2:getShipById(slot15))
-				end
-
-				slot0.addCommanderBuffRes(slot9:buildBattleBuffList())
 			end
 		elseif slot0.contextData.system == SYSTEM_SHAM then
 			for slot12, slot13 in ipairs(slot8) do
@@ -161,9 +159,21 @@ function slot0.Preload(slot0)
 				table.insert(slot3, slot13)
 			end
 		elseif slot0.contextData.system == SYSTEM_CHALLENGE then
-			for slot12, slot13 in ipairs(slot8) do
-				table.insert(slot3, slot13)
+			ships = getProxy(ChallengeProxy).getUserChallengeInfo(slot5, slot0.contextData.mode).getRegularFleet(slot6).getShips(slot7, false)
+
+			for slot11, slot12 in ipairs(ships) do
+				table.insert(slot3, slot12)
 			end
+
+			slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
+
+			ships = slot6:getSubmarineFleet().getShips(slot7, false)
+
+			for slot11, slot12 in ipairs(ships) do
+				table.insert(slot3, slot12)
+			end
+
+			slot0.addCommanderBuffRes(slot7:buildBattleBuffList())
 		elseif slot0.contextData.mainFleetId then
 			for slot11, slot12 in ipairs(slot7) do
 				table.insert(slot3, slot12)

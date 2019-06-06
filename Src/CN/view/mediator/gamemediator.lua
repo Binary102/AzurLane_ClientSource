@@ -191,6 +191,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
 			slot4.mediator = TechnologyTreeMediator
 			slot4.viewComponent = TechnologyTreeScene
+		elseif slot3 == SCENE.CHALLENGE_MAIN_SCENE then
+			slot4.mediator = ChallengeMainMediator
+			slot4.viewComponent = ChallengeMainScene
 		elseif slot3 == SCENE.ATTIRE then
 			slot4.mediator = AttireMediator
 			slot4.viewComponent = AttireScene

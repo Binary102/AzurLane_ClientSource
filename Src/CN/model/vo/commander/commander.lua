@@ -451,4 +451,28 @@ function slot0.getUpgradeConsume(slot0)
 	return math.floor(slot0:getConfig("exp_cost") + slot0.getConfig("exp_cost") * (slot0.level - 1) * (0.85 + 0.15 * slot0.level))
 end
 
+function slot0.canEquipToEliteChapter(slot0, slot1, slot2, slot3)
+	if getProxy(ChapterProxy).getChapterById(slot4, slot0):getEliteFleetCommanders()[slot1] or {}[slot2] ~= slot3 then
+		slot8 = getProxy(CommanderProxy).getCommanderById(slot7, slot3)
+		slot10 = pairs
+		slot11 = slot4:getFleetCommander(slot0, slot1) or {}
+
+		for slot13, slot14 in slot10(slot11) do
+			if slot7:getCommanderById(slot14).groupId == slot8.groupId and slot13 ~= slot2 then
+				return false, i18n("commander_can_not_select_same_group")
+			end
+		end
+	end
+
+	for slot11, slot12 in pairs(slot7) do
+		for slot16, slot17 in pairs(slot12) do
+			if slot3 == slot17 then
+				return false, i18n("commander_is_in_fleet_already")
+			end
+		end
+	end
+
+	return true
+end
+
 return slot0

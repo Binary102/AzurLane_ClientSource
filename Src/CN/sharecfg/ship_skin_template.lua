@@ -9220,7 +9220,7 @@ pg.ship_skin_template = {
 		painting = "kangkede_2",
 		hand_id = 14,
 		air_bullet_skin = "",
-		shop_type_id = 0,
+		shop_type_id = 2,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "101",
@@ -53194,6 +53194,104 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401019] = {
+		name = "Z1.改",
+		bullet_skin_main = "",
+		ship_group = 40101,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "Z1_g",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 401019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Z1_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "哼～这就是改造吗…？感觉不错！再次欢呼吧，指挥官！万事继续交给变得更强的Z1大人就没问题啦！",
+		voice_actor = 17,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.68,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.011,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.61,
+					0.87,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[401020] = {
 		name = "Z2",
 		bullet_skin_main = "",
@@ -55650,6 +55748,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[402049] = {
+		name = "莱比锡.改",
+		bullet_skin_main = "",
+		ship_group = 40204,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "laibixi_g",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 402049,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "laibixi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "总觉得鱼鱼比以前能干了许多，而我却没有什么变化……难道是鱼鱼代替我变强了吗…！？",
+		voice_actor = 78,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.19,
+					1.15,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.19,
+					1.15,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.239,
+					-0.109,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.462,
+							-0.472
+						}
+					}
+				}
+			}
+		}
+	},
 	[403010] = {
 		name = "希佩尔海军上将",
 		bullet_skin_main = "",
@@ -57402,8 +57605,8 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					1.895,
-					0.522,
+					1.591,
+					1.01,
 					0
 				}
 			},
@@ -73403,6 +73606,7 @@ pg.ship_skin_template = {
 		317010,
 		401010,
 		401011,
+		401019,
 		401020,
 		401180,
 		401190,
@@ -73425,6 +73629,7 @@ pg.ship_skin_template = {
 		402030,
 		402039,
 		402040,
+		402049,
 		403010,
 		403030,
 		403031,

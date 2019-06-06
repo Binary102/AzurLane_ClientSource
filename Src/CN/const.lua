@@ -6,46 +6,7 @@ BILI_SERVER_ID = "388"
 SHAREJOY_SERVER_ID = "475"
 UNION_SERVER_ID = "439"
 SERVER_TIME_ZONE = 28800
-TIME_ZONE_DATA = {
-	SERVER_TIME_ZONE_SWITCH_TIME = 1552212000,
-	SERVER_TIME_ZONE_JP = 32400,
-	SERVER_TIME_ZONE_KR = 32400,
-	SERVER_TIME_ZONE_CH = 28800,
-	SERVER_TIME_ZONE_PDT = -28800,
-	SERVER_TIME_ZONE_DST = -25200
-}
-
-function SwitchTimeZone(slot0)
-	if PLATFORM_CODE == PLATFORM_CH then
-		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_CH
-	elseif PLATFORM_CODE == PLATFORM_JP then
-		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_JP
-	elseif PLATFORM_CODE == PLATFORM_KR then
-		SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_KR
-	elseif PLATFORM_CODE == PLATFORM_US then
-		if TIME_ZONE_DATA.SERVER_TIME_ZONE_SWITCH_TIME <= slot0 then
-			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_DST
-		else
-			SERVER_TIME_ZONE = TIME_ZONE_DATA.SERVER_TIME_ZONE_PDT
-		end
-	end
-end
-
-function GetLocalTimeZone()
-	if PLATFORM_CODE == PLATFORM_US then
-		slot0 = os.time()
-		slot2 = os.difftime(slot0, os.time(os.date("!*t", slot0)))
-
-		if os.date("*t", slot0).isdst then
-			return slot2 + 3600
-		else
-			return slot2
-		end
-	else
-		return os.difftime(os.time(), os.time(os.date("!*t", os.time())))
-	end
-end
-
+DAYLIGHT_SAVEING_TIME_FLAG = false
 CONNECT_TIMEOUT = 20
 SEND_TIMEOUT = 6
 HEART_BEAT_TIMEOUT = 60
@@ -202,6 +163,7 @@ LOAD_TYPE_LAYER = "_load_type_layer"
 AUTO_BATTLE_LABEL = "autoBattle"
 RARE_SHIP_VIBRATE = "rare_ship_vibrate"
 DISPLAY_SHIP_GET_EFFECT = "display_ship_get_effect"
+SHOW_TOUCH_EFFECT = "show_touch_effect"
 DISCONNECT_TIME_OUT = "time_out"
 LOCK_PROPOSE = false
 LOCK_CLASSROOM = false

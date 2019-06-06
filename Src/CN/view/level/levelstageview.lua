@@ -893,7 +893,13 @@ function slot0.updateStageStrategy(slot0)
 				end
 			end
 
-			GetImageSpriteFromAtlasAsync("strategyicon/" .. slot5, "", slot2:Find("icon"))
+			LoadSpriteAsync("strategyicon/" .. slot5, function (slot0)
+				if not IsNil(slot0) then
+					setImageSprite(slot0:Find("icon"), slot0)
+				end
+
+				return
+			end)
 			onButton(slot1, slot2, function ()
 				if slot0.grid.quadState == ChapterConst.QuadStateStrategy and slot0.grid.quadClickProxy then
 					slot0.grid.quadClickProxy()

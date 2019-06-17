@@ -1,4 +1,4 @@
-slot0 = class("LevelRepairView", import("..base.BaseSubView"))
+slot0 = class("LevelRemasterView", import("..base.BaseSubView"))
 
 function slot0.getUIName(slot0)
 	return "LevelRemasterView"

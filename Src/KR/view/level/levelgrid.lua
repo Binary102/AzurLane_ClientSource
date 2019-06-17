@@ -3222,6 +3222,18 @@ function slot2(slot0, slot1, slot2)
 				slot2 = slot0.GetChild
 				slot4 = 0
 				slot2 = slot2(slot3, slot4)
+				slot3 = PoolMgr
+				slot3 = slot3.GetInstance
+				slot3 = slot3()
+				slot4 = slot3
+				slot3 = slot3.ReturnPrefab
+				slot5 = "chapter/"
+				slot6 = slot2.name
+				slot5 = slot5 .. slot6
+				slot6 = slot2.name
+				slot7 = slot2.gameObject
+
+				slot3(slot4, slot5, slot6, slot7)
 
 				if slot1 then
 					slot3 = PoolMgr
@@ -3235,19 +3247,6 @@ function slot2(slot0, slot1, slot2)
 					slot6 = slot2.name
 
 					slot3(slot4, slot5, slot6)
-				else
-					slot3 = PoolMgr
-					slot3 = slot3.GetInstance
-					slot3 = slot3()
-					slot4 = slot3
-					slot3 = slot3.ReturnPrefab
-					slot5 = "chapter/"
-					slot6 = slot2.name
-					slot5 = slot5 .. slot6
-					slot6 = slot2.name
-					slot7 = slot2.gameObject
-
-					slot3(slot4, slot5, slot6, slot7)
 				end
 			end
 		end

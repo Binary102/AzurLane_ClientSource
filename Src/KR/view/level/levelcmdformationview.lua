@@ -107,10 +107,12 @@ end
 
 function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	onInputEndEdit(slot0, slot4, function ()
-		if getInputText(getInputText) and slot0 ~= "" and slot0 ~= slot1 and slot2.callback then
-			slot2.callback({
+		slot0 = getInputText(getInputText)
+
+		if getInputText.callback then
+			slot1.callback({
 				type = LevelUIConst.COMMANDER_OP_RENAME,
-				id = LevelUIConst.COMMANDER_OP_RENAME.id,
+				id = slot2.id,
 				str = slot0,
 				onFailed = function ()
 					setInputText(setInputText, )

@@ -260,6 +260,13 @@ function slot0.init(slot0)
 	slot0:initIndexPanel()
 
 	slot0.itemDetailType = -1
+	slot0.listEmptyTF = slot0:findTF("empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
 end
 
 function slot0.setShipsCount(slot0, slot1)
@@ -1342,6 +1349,7 @@ end
 
 function slot0.updateShipCount(slot0, slot1)
 	slot0.shipContainer:SetTotalCount(#slot0.shipVOs, defaultValue(slot1, -1))
+	setActive(slot0.listEmptyTF, #slot0.shipVOs <= 0)
 end
 
 function slot0.unPartialBlur(slot0)

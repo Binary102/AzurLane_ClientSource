@@ -13,8 +13,6 @@ class("Challenge2ResetRequestCommand", pm.SimpleCommand).execute = function (slo
 		mode = slot2
 	}, 24012, function (slot0)
 		if slot0.result == 0 then
-			print("challenge reset success !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-
 			slot0:getUserChallengeInfoList()[slot1] = nil
 
 			if slot1 == true then
@@ -22,8 +20,6 @@ class("Challenge2ResetRequestCommand", pm.SimpleCommand).execute = function (slo
 			end
 
 			slot3:sendNotification(GAME.CHALLENGE2_RESET_DONE)
-		else
-			print("challenge reset fail !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! data.result:" .. slot0.result)
 		end
 	end)
 end

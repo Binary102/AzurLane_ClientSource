@@ -33522,7 +33522,7 @@ pg.equip_data_statistics = {
 		attribute_1 = "damage",
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		weapon_id = {
 			33100
@@ -55661,7 +55661,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		descrip = "스킬 탄막",
 		ammo = "없음",
 		value_3 = 0,
 		id = 79321,
@@ -55701,7 +55701,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		descrip = "스킬 탄막",
 		ammo = "없음",
 		value_3 = 0,
 		id = 79331,
@@ -55781,7 +55781,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		descrip = "스킬 탄막",
 		ammo = "없음",
 		value_3 = 0,
 		id = 79381,
@@ -55821,7 +55821,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		descrip = "스킬 탄막",
 		ammo = "없음",
 		value_3 = 0,
 		id = 79383,
@@ -55861,7 +55861,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		descrip = "技能弹幕",
+		descrip = "스킬 탄막",
 		ammo = "없음",
 		value_3 = 0,
 		id = 79391,
@@ -55882,6 +55882,46 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		weapon_id = {
 			79392
+		},
+		property_rate = {}
+	},
+	[79401] = {
+		name = "专属弹幕-确捷I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "스킬 탄막",
+		ammo = "없음",
+		value_3 = 0,
+		id = 79401,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79401
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79402] = {
+		id = 79402,
+		name = "专属弹幕-确捷II",
+		base = 79401,
+		is_siren = 0,
+		weapon_id = {
+			79402
 		},
 		property_rate = {}
 	},
@@ -62303,6 +62343,8 @@ pg.equip_data_statistics = {
 		79384,
 		79391,
 		79392,
+		79401,
+		79402,
 		89000,
 		89001,
 		89002,

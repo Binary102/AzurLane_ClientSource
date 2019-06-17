@@ -583,7 +583,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20202] = {
 		shiptype = 2,
-		name = "사우샘프턴급",
+		name = "사우스햄튼급",
 		t_level = 7,
 		id = 20202,
 		t_level_1 = 46,

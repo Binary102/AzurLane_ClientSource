@@ -47,7 +47,7 @@ function slot0.attach(slot0, slot1)
 	slot0.super.attach(slot0, slot1)
 
 	slot0.evalueToggle = slot0.attrs:Find("evalue_toggle")
-	slot0.evalueIndex = slot0.contextData.evalueIndex or slot0.EQUIPMENT_ADDITION
+	slot0.evalueIndex = slot0.EQUIPMENT_ADDITION
 
 	onToggle(slot0.viewComponent, slot0.evalueToggle, function ()
 		slot0.evalueIndex = 1 - slot0.evalueIndex
@@ -81,6 +81,10 @@ function slot0.flush(slot0, slot1)
 end
 
 function slot0.updateEvalues(slot0)
+	if not slot0.additionValues then
+		return
+	end
+
 	slot1 = table.contains(TeamType.SubShipType, slot0.shipVO:getShipType())
 
 	for slot5, slot6 in pairs(slot0.additionValues.transforms) do
@@ -512,6 +516,8 @@ function slot0.scaleAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 end
 
 function slot0.clear(slot0)
+	triggerToggle(slot0.evalueToggle, false)
+
 	if LeanTween.isTweening(go(slot0.levelSlider)) then
 		LeanTween.cancel(go(slot0.levelSlider))
 	end

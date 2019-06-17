@@ -2990,10 +2990,10 @@ pg.gametip = {
 				info = "상선 호위 플레이 방법"
 			},
 			{
-				info = " 1. 개최 기간: 2월 21일~28일；"
+				info = " 1. 개최 기간: 6월 14일~27일；"
 			},
 			{
-				info = " 2. 상선 호위는 출현하는 적 함대와 기뢰에 대처하여 수송선단이\n목표 지점에 도착할 때까지 호위하는 스테이지입니다."
+				info = " 2. 상선 호위는 출현하는 적 함대와 기뢰에 대처하여 \n 수송선단이 목표 지점에 도착할 때까지 호위하는 \n스테이지입니다."
 			},
 			{
 				info = [[
@@ -6378,7 +6378,7 @@ pg.gametip = {
 		key = "word_rename_time_warning"
 	},
 	word_propose_cost_tip = {
-		tip = "<size=22>서약 시 「서약의 반지」를 <color=#92fc63>1</color>개 소모합니다. (보유 수：<color=#92fc63>$1</color>)</size>\n\n<size=20>*서약을 진행한 함선은 전속 함선이 되어 이름을 변경할 수 있고, 추가로 능력치가 <color=#92fc63>3%</color> 강화됩니다.</size>",
+		tip = "<size=30>서약 시 「서약의 반지」를 <color=#92fc63>1</color>개 소모합니다. (보유 수：<color=#92fc63>$1</color>)</size>\n\n<size=30>*서약을 진행한 함선은 전속 함선이 되어 이름을 변경할 수 있고, 추가로 능력치가 <color=#92fc63>3%</color> 강화됩니다.</size>",
 		key = "word_propose_cost_tip"
 	},
 	evaluate_too_loog = {
@@ -6969,7 +6969,8 @@ pg.gametip = {
 화요일 『순양함 코스 : 탄약의 선택법ver.1.03』
 수요일 『전함 코스 : 대함거포 독트린의 우위성』
 목요일 『항공모함 코스 : 공해 통합 작전 포지셔닝』
-금요일 『구축함 및 잠수함 코스 : 원숭이라도 알기 쉬운 전술학!』
+금요일 『구축함 및 잠수함 코스 : 원숭이라도 알기 쉬운 
+전술학!』
 토요일 『순양함 코스 : 화력을 최대로 하는 노하우 ver.2.2』
 
 일요일에는 수업에 참가할 수 없지만, 출격 시 얻을 수 있는
@@ -9817,8 +9818,8 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 ・함대 기술이란
 
  함대 기술 기능이란, 함선을 모아 고레벨을 달성하여 함대 
-전체를 강화하는 효과를 얻는 시스템입니다. 강화 효과는 【한계
-돌파를 3회 이상 실행한 함선】에 적용됩니다. 
+전체를 강화하는 효과를 얻는 시스템입니다. 강화 효과는 
+【한계 돌파를 3회 이상 실행한 함선】에 적용됩니다. 
 
 ※이른바 「모항의 함선들을 편애 없이 골고루 키우는 것」에
 혜택이 가는 시스템입니다. 
@@ -9829,26 +9830,27 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 「함대 기술」에 대해
 
  함대 기술이란, 함선을 육성함으로써 함대 전체에 강화 효과를
-주는 시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 기술의
-발전 순서(Tier)에 따라 함선의 수집 및 기술 습득 상황을 확인할 수
-있습니다. 아래 조건을 달성하면, 대응되는 함선 강화 효과를 얻을 수 
-있습니다. 
+주는 시스템입니다. 함대 기술 화면에선, 실제 역사에 따른 
+기술의 발전 순서(Tier)에 따라 함선의 수집 및 기술 습득 
+상황을 확인할 수 있습니다. 아래 조건을 달성하면, 대응되는 
+함선 강화 효과를 얻을 수  있습니다. 
 ・함선을 도감에 등록한다
 ・함선의 레벨을 120으로 만든다.
 
-※같은 종류의 함선은 각각의 강화 효과를 한 번씩만 얻을 수 있습
-니다. 
+※같은 종류의 함선은 각각의 강화 효과를 한 번씩만 얻을 수 
+있습 니다. 
 
 「진영 기술」에 대해
 
- 진영 기술이란, 각 진영의 「기술 레벨」에 따라 함대 전체에 강화 
-효과를 주는 시스템입니다. 
-・진영 기술 항목의 '상세'를 터치하면, 이 항목의 강화 효과, 현재
-의 기술 레벨을 확인할 수 있습니다. 
-・기술 항목의 기술 레벨을 상승시키면, 강화 효과를 더욱 올릴 수 
-있습니다. 
-・기술 레벨을 상승시키려면 「물자」를 소비해야 하며, 추가로
-해당 진영 의 「기술 Pt」가 일정 수치 이상이어야 합니다. 
+ 진영 기술이란, 각 진영의 「기술 레벨」에 따라 함대 전체에 
+강화 효과를 주는 시스템입니다. 
+・진영 기술 항목의 '상세'를 터치하면, 이 항목의 강화 효과,
+현재 의 기술 레벨을 확인할 수 있습니다. 
+・기술 항목의 기술 레벨을 상승시키면, 강화 효과를 더욱 올릴 
+수 있습니다. 
+・기술 레벨을 상승시키려면 「물자」를 소비해야 하며, 
+추가로 해당 진영 의 「기술 Pt」가 일정 수치 이상이어야 
+합니다. 
  또한, 기술 레벨의 상승은 동시에 하나의 진영에서만 실행할 수
 있습니다. 
 
@@ -10439,6 +10441,66 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 	challenge_end_tip = {
 		tip = "이벤트가 종료되었습니다.",
 		key = "challenge_end_tip"
+	},
+	pass_times = {
+		tip = "通关次数",
+		key = "pass_times"
+	},
+	list_empty_tip_billboardui = {
+		tip = "랭킹 데이터 없음",
+		key = "list_empty_tip_billboardui"
+	},
+	list_empty_tip_equipmentdesignui = {
+		tip = "설계도 미획득",
+		key = "list_empty_tip_equipmentdesignui"
+	},
+	list_empty_tip_storehouseui_equip = {
+		tip = "조건에 맞는 장비 없음",
+		key = "list_empty_tip_storehouseui_equip"
+	},
+	list_empty_tip_storehouseui_item = {
+		tip = "재료 미획득",
+		key = "list_empty_tip_storehouseui_item"
+	},
+	list_empty_tip_eventui = {
+		tip = "진행 가능한 의뢰 없음",
+		key = "list_empty_tip_eventui"
+	},
+	list_empty_tip_guildrequestui = {
+		tip = "함대 신청 없음",
+		key = "list_empty_tip_guildrequestui"
+	},
+	list_empty_tip_joinguildui = {
+		tip = "조건에 맞는 함대 없음",
+		key = "list_empty_tip_joinguildui"
+	},
+	list_empty_tip_friendui = {
+		tip = "친구 없음",
+		key = "list_empty_tip_friendui"
+	},
+	list_empty_tip_friendui_search = {
+		tip = "조건에 맞는 지휘관 찾을 수 없음",
+		key = "list_empty_tip_friendui_search"
+	},
+	list_empty_tip_friendui_request = {
+		tip = "친구 신청 없음",
+		key = "list_empty_tip_friendui_request"
+	},
+	list_empty_tip_friendui_black = {
+		tip = "블랙 리스트 없음",
+		key = "list_empty_tip_friendui_black"
+	},
+	list_empty_tip_dockyardui = {
+		tip = "조건에 맞는 함선 없음",
+		key = "list_empty_tip_dockyardui"
+	},
+	list_empty_tip_taskscene = {
+		tip = "진행 중인 임무 없음",
+		key = "list_empty_tip_taskscene"
+	},
+	empty_tip_mailboxui = {
+		tip = "우편 미획득",
+		key = "empty_tip_mailboxui"
 	}
 }
 

@@ -51,9 +51,27 @@ return {
 	{
 		banner = "banai_shop",
 		event = ActivityMediator.GO_SHOPS_LAYER,
-		data = {},
+		data = {
+			{
+				warp = "activity",
+				actId = ActivityConst.BISMARCK_PT_SHOP_ID
+			}
+		},
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.BISMARCK_PT_SHOP_ID) and not slot0:isEnd()
+		end
+	},
+	{
+		banner = "bili_shop",
+		event = ActivityMediator.GO_SHOPS_LAYER,
+		data = {
+			{
+				warp = "activity",
+				actId = ActivityConst.BILIBILI_PT_SHOP_ID
+			}
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.BILIBILI_PT_SHOP_ID) and not slot0:isEnd()
 		end
 	},
 	{}

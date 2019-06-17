@@ -320,56 +320,6 @@ pg.emoji_template = {
 			1
 		}
 	},
-	{
-		achieve = 0,
-		id = 33,
-		index = 999,
-		pic = "30",
-		desc = "<color=#92fc63>[밥!]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		id = 34,
-		index = 998,
-		pic = "33",
-		desc = "<color=#92fc63>[간식시간]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		id = 35,
-		index = 997,
-		pic = "31",
-		desc = "<color=#92fc63>[뭐라카노]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		id = 36,
-		index = 996,
-		pic = "32",
-		desc = "<color=#92fc63>[바로 그거야]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		id = 37,
-		index = 995,
-		pic = "34",
-		desc = "<color=#92fc63>[그러췌]</color>",
-		type = {
-			1
-		}
-	},
 	[41] = {
 		achieve = 0,
 		id = 41,
@@ -1193,11 +1143,6 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
-		33,
-		34,
-		35,
-		36,
-		37,
 		41,
 		42,
 		43,

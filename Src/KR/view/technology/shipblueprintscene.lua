@@ -5094,7 +5094,7 @@ function slot10(slot0)
 
 			for slot17, slot18 in slot14, slot15, slot16 do
 				slot20 = slot12
-				slot19 = slot12.getTaskForBluePrint
+				slot19 = slot12.getTaskVO
 				slot21 = slot18
 				slot19 = slot19(slot20, slot21)
 				slot20 = slot0.lockPanel
@@ -6104,7 +6104,7 @@ function slot10(slot0, slot1)
 				slot5 = slot5(slot6(slot7, slot8))
 				slot2 = slot5
 			else
-				slot5 = TASK_SUB_TYPE_PREV_TASK
+				slot5 = TASK_SUB_TYPE_BATTLE_EXP
 
 				if slot4 == slot5 then
 					slot5 = true
@@ -6192,7 +6192,7 @@ function slot10(slot0, slot1)
 				slot7 = TaskProxy
 				slot6 = slot6(slot7)
 				slot7 = slot6
-				slot6 = slot6.getTaskForBluePrint
+				slot6 = slot6.getTaskVO
 				slot8 = slot1.id
 				slot6 = slot6(slot7, slot8)
 

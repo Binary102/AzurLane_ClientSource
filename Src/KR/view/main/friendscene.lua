@@ -123,7 +123,11 @@ function slot0.init(slot0)
 	slot0.searchPanel = slot0:findTF("search_panel", slot0.addPanel)
 	slot0.searchBar = slot0:findTF("InputField", slot0.searchPanel)
 	slot0.sortPanel = slot0:findTF("friend_sort_panel")
-	slot0.nofriendPanel = slot0:findTF("no_friend", slot0.friendPanel)
+	slot0.listEmptyTF = slot0:findTF("empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 	slot0.dec = false
 	slot0.sortdata = {}
 	slot0.toggles = {}
@@ -211,15 +215,35 @@ function slot0.updateRequestTip(slot0)
 end
 
 function slot0.switchPage(slot0, slot1)
-	if slot1 == slot0 and not slot0.isInitFriend then
-		slot0:initFriendsPage()
-	elseif slot1 == slot1 and not slot0.isInitAdd then
-		slot0:emit(FriendMediator.SEARCH_FRIEND, 1)
-		slot0:initAddPage()
-	elseif slot1 == slot2 and not slot0.isInitRequest then
-		slot0:isInitRequestPage()
-	elseif slot1 == slot3 and not slot0.isInitBlackList then
-		slot0:initBlackList()
+	if slot1 == slot0 then
+		if not slot0.isInitFriend then
+			slot0:initFriendsPage()
+		end
+
+		setText(slot0.listEmptyTxt, i18n("list_empty_tip_friendui"))
+		setActive(slot0.listEmptyTF, #slot0.friendVOs <= 0)
+	elseif slot1 == slot1 then
+		if not slot0.isInitAdd then
+			slot0:emit(FriendMediator.SEARCH_FRIEND, 1)
+			slot0:initAddPage()
+		end
+
+		setText(slot0.listEmptyTxt, i18n("list_empty_tip_friendui_search"))
+		setActive(slot0.listEmptyTF, not slot0.searchFriendVOs or #slot0.searchFriendVOs <= 0)
+	elseif slot1 == slot2 then
+		if not slot0.isInitRequest then
+			slot0:isInitRequestPage()
+		end
+
+		setText(slot0.listEmptyTxt, i18n("list_empty_tip_friendui_request"))
+		setActive(slot0.listEmptyTF, #slot0.requestVOs <= 0)
+	elseif slot1 == slot3 then
+		if not slot0.isInitBlackList then
+			slot0:initBlackList()
+		end
+
+		setText(slot0.listEmptyTxt, i18n("list_empty_tip_friendui_black"))
+		setActive(slot0.listEmptyTF, not slot0.blackVOs or #slot0.blackVOs <= 0)
 	end
 end
 
@@ -244,6 +268,7 @@ function slot0.addFriendVO(slot0, slot1)
 	table.insert(slot0.friendVOs, slot1)
 	slot0:sortFriends()
 	slot0:updateFriendCount()
+	setActive(slot0.listEmptyTF, not slot0.requestVOs or #slot0.requestVOs <= 0)
 end
 
 function slot0.updateFriendVO(slot0, slot1)
@@ -389,7 +414,7 @@ function slot0.sortFriends(slot0)
 	end
 
 	slot0.friendRect:SetTotalCount(#slot0.friendVOs, -1)
-	setActive(slot0.nofriendPanel, not slot0.friendVOs or #slot0.friendVOs == 0)
+	setActive(slot0.listEmptyTF, #slot0.friendVOs <= 0)
 end
 
 function slot0.initFriendsSortPanel(slot0)
@@ -485,6 +510,7 @@ function slot0.updateSearchResult(slot0, slot1)
 	slot0.searchFriendVOs = slot1
 
 	slot0.addRect:SetTotalCount(#slot0.searchFriendVOs, -1)
+	setActive(slot0.listEmptyTF, #slot0.searchFriendVOs <= 0)
 end
 
 function slot0.isInitRequestPage(slot0)
@@ -525,6 +551,7 @@ function slot0.updateRequestCount(slot0)
 
 	if slot0.isInitRequest then
 		slot0.requestRect:SetTotalCount(#slot0.requestVOs, -1)
+		setActive(slot0.listEmptyTF, #slot0.requestVOs <= 0)
 	end
 end
 
@@ -670,6 +697,7 @@ function slot0.sortBlackList(slot0)
 		return slot0.id < slot1.id
 	end)
 	slot0.blackRect:SetTotalCount(#slot0.blackVOs, -1)
+	setActive(slot0.listEmptyTF, #slot0.blackVOs <= 0)
 end
 
 function slot0.updateChatNotification(slot0, slot1)

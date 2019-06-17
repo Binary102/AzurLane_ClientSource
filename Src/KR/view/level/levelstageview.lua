@@ -991,7 +991,7 @@ function slot0.updateStageStrategy(slot0)
 		return
 	end, SFX_PANEL)
 	onButton(slot0, slot8, function ()
-		shiftPanel(shiftPanel, 30, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+		shiftPanel(shiftPanel, 0, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 		shiftPanel(shiftPanel, slot1.rect.width + 200, nil, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
 
 		return

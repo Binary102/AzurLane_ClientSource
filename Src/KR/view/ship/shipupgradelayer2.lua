@@ -391,12 +391,7 @@ function slot0.initMaterialShips(slot0)
 		slot8 = slot0.contextData.materialShipIds
 
 		if slot5 <= slot1 and slot8 and slot8[slot5] then
-			Ship.New({
-				configId = slot0.shipVOs[slot8[slot5]].configId,
-				propose = slot0.shipVOs[slot8[slot5]].proposeTime
-			}).remoulded = slot0.shipVOs[slot8[slot5]].isRemoulded(slot9)
-
-			updateShip(slot7, slot10, {
+			updateShip(slot7, slot9, {
 				initStar = true
 			})
 			SetActive(slot7, true)

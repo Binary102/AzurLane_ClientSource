@@ -64958,6 +64958,2027 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[44001] = {
+		can_rotate = 0,
+		name = "축축한 바닥",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "rainday/dibanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44001,
+		comfortable = 4,
+		describe = "주룩주룩~비가 와요! 미끄러지지 않게 조심하세요~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44002] = {
+		can_rotate = 0,
+		name = "축축한 벽",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbirdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "rainday/qiangbird",
+		canputon = 0,
+		discount = 0,
+		id = 44002,
+		comfortable = 4,
+		describe = "주룩주룩~비가 와요! 우산 꼭 쓰세요~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44101] = {
+		can_rotate = 0,
+		name = "축축한 잔디",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "caopirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/caopird",
+		canputon = 0,
+		discount = 0,
+		id = 44101,
+		comfortable = 2,
+		describe = "비에 젖어 생명력이 충만한 푸른 잔디에요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44102] = {
+		advice = 0,
+		name = "노란색 버스",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/cherd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "cherdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44102,
+		comfortable = 3,
+		describe = "빵빵~ 비 오는 날에는 운전 조심하세요~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-107,
+					52
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using"
+			},
+			{
+				"sit",
+				{
+					-40,
+					4
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using2"
+			},
+			{
+				"sit",
+				{
+					54,
+					-36
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using3"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44103] = {
+		can_rotate = 0,
+		name = "축축한 덤불",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huatan2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/huatan2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44103,
+		comfortable = 2,
+		describe = "비에 젖어 생명력이 충만한 푸른 덤불이에요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44104] = {
+		can_rotate = 0,
+		name = "축축한 화단",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huatanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/huatanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44104,
+		comfortable = 2,
+		describe = "비에 젖어 생명력이 충만한 화단이에요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44105] = {
+		can_rotate = 0,
+		name = "화분 세트",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiazirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/jiazird",
+		canputon = 0,
+		discount = 0,
+		id = 44105,
+		comfortable = 2,
+		describe = "세개가 한 세트인 화분이에요. 다른 식물도 심을 수 있어요~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44106] = {
+		advice = 0,
+		name = "쥬쥬 건조기",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/jiqird",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44106,
+		comfortable = 3,
+		describe = "빠르고, 편하고, 안전해요! 비에 젖으면 와서 옷을 말리세요!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"yun",
+				{
+					1,
+					-102
+				},
+				{
+					1,
+					1
+				},
+				"rainday/jiqird_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44107] = {
+		can_rotate = 0,
+		name = "물웅덩이",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jishuirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/jishuird",
+		canputon = 0,
+		discount = 0,
+		id = 44107,
+		comfortable = 2,
+		describe = "맑은 수면에 아름다운 무지개가 비치고 있어요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44108] = {
+		can_rotate = 0,
+		name = "작은 연못",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "kengrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/kengrd",
+		canputon = 0,
+		discount = 0,
+		id = 44108,
+		comfortable = 2,
+		describe = "맑은 연못이에요. 멋대로 뛰어들면 안돼요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44109] = {
+		can_rotate = 0,
+		name = "쓰레기통",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lajitongrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/lajitongrd",
+		canputon = 0,
+		discount = 0,
+		id = 44109,
+		comfortable = 2,
+		describe = "쓰레기 분리 수거를 잘 하는 습관을 들이세요~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44110] = {
+		can_rotate = 1,
+		name = "정류소 표지판",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "pairdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/paird",
+		canputon = 0,
+		discount = 0,
+		id = 44110,
+		comfortable = 2,
+		describe = "다음 버스는 20분 후에 도착합니다~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44111] = {
+		advice = 0,
+		name = "노란 우산",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/san2rd",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "san2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44111,
+		comfortable = 2,
+		describe = "두 사람이 비를 피할 수 있어요!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-35,
+					-73
+				},
+				{
+					1,
+					1
+				},
+				"rainday/san2rd_using"
+			},
+			{
+				"stand2",
+				{
+					52,
+					-92
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/san2rd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44112] = {
+		advice = 0,
+		name = "뒤집어진 노란 우산",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/sanrd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "sanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44112,
+		comfortable = 3,
+		describe = "저기요! 우산 가지고 장난치지 말아요!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-31,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"rainday/sanrd_using"
+			},
+			{
+				"sleep",
+				{
+					18,
+					-49
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44113] = {
+		can_rotate = 0,
+		name = "젖은 소화전",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/shuanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44113,
+		comfortable = 2,
+		describe = "젖어도 기능에는 이상 없어요~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44114] = {
+		can_rotate = 0,
+		name = "분수대",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "rainday/shuichird",
+		canputon = 0,
+		discount = 0,
+		id = 44114,
+		comfortable = 3,
+		describe = "깨끗한 물이긴 한데, 그래도 마시는건 안돼요.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44115] = {
+		can_rotate = 0,
+		name = "맑음이 인형",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "wawardicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/waward",
+		canputon = 0,
+		discount = 0,
+		id = 44115,
+		comfortable = 2,
+		describe = "부디 내일은 화창하기를~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44116] = {
+		advice = 0,
+		name = "커다란 장화",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/xuerd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuerdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44116,
+		comfortable = 3,
+		describe = "장화 모양의...욕조!?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/xuerd_using"
+			},
+			{
+				"wash",
+				{
+					-87,
+					-28
+				},
+				{
+					1,
+					1
+				},
+				"rainday/xuerd_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44117] = {
+		advice = 0,
+		name = "나무 의자",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yizi2rd",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizi2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44117,
+		comfortable = 2,
+		describe = "비 오는 날이라도 여유롭게 커피를 마실래요!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13,
+					26
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44118] = {
+		advice = 0,
+		name = "벤치",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yizird",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44118,
+		comfortable = 2,
+		describe = "후...너무 많이 걸었어요. 우산은 내려놓고 좀 쉬어가요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					11,
+					13
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44119] = {
+		can_rotate = 0,
+		name = "나뭇잎 만쥬",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yujiurdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "rainday/yujiurd",
+		canputon = 0,
+		discount = 0,
+		id = 44119,
+		comfortable = 3,
+		describe = "다음 버스를...기다려야...?",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44120] = {
+		advice = 0,
+		name = "쥬쥬 비옷",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yuyird",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yuyirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44120,
+		comfortable = 3,
+		describe = "비옷을 입고 빗속에서 한바탕 놀아요~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				},
+				"rainday/yuyird_using",
+				0,
+				{
+					{
+						-5,
+						76
+					},
+					{
+						212,
+						174
+					},
+					"rainday/yuyird_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44121] = {
+		can_rotate = 0,
+		name = "원탁(파라솔)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuozi2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/zhuozi2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44121,
+		comfortable = 2,
+		describe = "비 오는 날이라도 여유롭게 커피를 마실래요!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44122] = {
+		can_rotate = 0,
+		name = "축축한 원탁",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuozirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/zhuozird",
+		canputon = 0,
+		discount = 0,
+		id = 44122,
+		comfortable = 2,
+		describe = "엇, 물기를 닦아야 쓸 수 있겠어요...",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44123] = {
+		can_rotate = 0,
+		name = "비구름 ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "yunrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44123,
+		comfortable = 4,
+		describe = "오늘 날씨는 뇌우 확률 100%랍니다. 나갈 때 준비를 철저히 하세요 ",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"yuyunCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[44301] = {
+		can_rotate = 0,
+		name = "창턱 화분 선반",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuanghurdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "rainday/chuanghurd",
+		canputon = 0,
+		discount = 0,
+		id = 44301,
+		comfortable = 2,
+		describe = "식물 화분이 놓여있는 창문턱이에요. 봄 냄새가 물씬 나네요~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44302] = {
+		can_rotate = 0,
+		name = "줄무늬 차양막",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuanghu2rdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "rainday/chuanghu2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44302,
+		comfortable = 2,
+		describe = "창문을 열어도 빗물이 실내로 들이치는 일은 없을 거에요.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[45001] = {
 		can_rotate = 0,
 		name = "메탈 블러드 악장·바닥",
@@ -69269,6 +71290,33 @@ pg.furniture_data_template = {
 		43305,
 		43306,
 		43307,
+		44001,
+		44002,
+		44101,
+		44102,
+		44103,
+		44104,
+		44105,
+		44106,
+		44107,
+		44108,
+		44109,
+		44110,
+		44111,
+		44112,
+		44113,
+		44114,
+		44115,
+		44116,
+		44117,
+		44118,
+		44119,
+		44120,
+		44121,
+		44122,
+		44123,
+		44301,
+		44302,
 		45001,
 		45002,
 		45101,

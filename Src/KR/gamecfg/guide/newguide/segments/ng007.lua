@@ -34,7 +34,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "最多可以一口气选择<color=#A9F548>10</color>个想要训练的喵箱，不过同时只会有<color=#A9F548>4</color>个进行训练！这次就先选择1个吧！",
+				text = "냥박스는 한번에 최대 <color=#A9F548>10</color>개까지 선택할 수 있습니다. 훈련은 동시에 최대 <color=#A9F548>4</color>개까지 진행됩니다. 우선 1개만 선택해보세요!",
 				mode = 1,
 				dir = 1,
 				posY = -110,

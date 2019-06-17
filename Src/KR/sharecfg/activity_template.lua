@@ -7130,39 +7130,13 @@ pg.activity_template = {
 	[20186] = {
 		mark = 20190516,
 		title_res_tag = "u556",
+		time = "stop",
 		type = 50,
 		bg = "",
 		config_id = 2,
 		is_show = 4,
 		config_data = "",
 		id = 20186,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			{
 				8,
@@ -7371,6 +7345,7 @@ pg.activity_template = {
 	[20193] = {
 		mark = 20190523,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		bg = "",
 		config_id = 0,
@@ -7384,38 +7359,12 @@ pg.activity_template = {
 			1230011,
 			1230012,
 			1230013
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20194] = {
 		mark = 20190523,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		config_id = 0,
 		is_show = 0,
@@ -7431,33 +7380,6 @@ pg.activity_template = {
 			1230017,
 			1230021
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					25
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sakura"
 		}
@@ -7465,6 +7387,7 @@ pg.activity_template = {
 	[20195] = {
 		mark = 20190523,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		bg = "",
 		config_id = 0,
@@ -7489,33 +7412,6 @@ pg.activity_template = {
 			14578,
 			14579,
 			14580
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					5,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20196] = {
@@ -8291,6 +8187,181 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20211] = {
+		mark = 20190613,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20211,
+		config_data = {
+			14015,
+			14016,
+			14017,
+			14018,
+			14019,
+			14020
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20212] = {
+		mark = 20190613,
+		title_res_tag = "",
+		type = 13,
+		config_id = 0,
+		is_show = 8,
+		config_client = "",
+		id = 20212,
+		config_data = {
+			14011,
+			14012,
+			14013,
+			14014
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/sipeitaskpage"
+		}
+	},
+	[20213] = {
+		mark = 20190613,
+		title_res_tag = "",
+		type = 26,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20213",
+		id = 20213,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act"
+		}
+	},
+	[20214] = {
+		mark = 20190613,
+		title_res_tag = "",
+		type = 12,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 20214,
+		config_data = {
+			1070201,
+			1070202,
+			1070203
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/sipeibojue"
 		}
 	},
 	[25000] = {
@@ -9117,6 +9188,10 @@ pg.activity_template = {
 		20208,
 		20209,
 		20210,
+		20211,
+		20212,
+		20213,
+		20214,
 		25000,
 		25001,
 		25002,

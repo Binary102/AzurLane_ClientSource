@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			actor = 303090,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
 			say = "이상하네요…9시 방항으로 간 함재기들이 연락이 없어요…",
@@ -24,7 +24,7 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
 			actor = 304050,

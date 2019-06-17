@@ -6832,12 +6832,14 @@ pg.ship_data_breakout = {
 		use_char_num = 1,
 		use_char = 20207,
 		breakout_id = 202072,
-		breakout_view = "无",
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
 		id = 202071,
 		icon = "10001",
 		level = 10,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			71151
+		}
 	},
 	[202072] = {
 		use_gold = 800,
@@ -6845,12 +6847,15 @@ pg.ship_data_breakout = {
 		use_char_num = 1,
 		use_char = 20207,
 		breakout_id = 202073,
-		breakout_view = "无",
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 어뢰 효율 +10%",
 		id = 202072,
 		icon = "10001",
 		level = 30,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			106,
+			106
+		}
 	},
 	[202073] = {
 		use_gold = 1500,
@@ -6858,12 +6863,14 @@ pg.ship_data_breakout = {
 		use_char_num = 2,
 		use_char = 20207,
 		breakout_id = 202074,
-		breakout_view = "无",
+		breakout_view = "전탄 발사 스킬 강화 / 주포 효율 +15%",
 		id = 202073,
 		icon = "10001",
 		level = 70,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			71152
+		}
 	},
 	[202074] = {
 		use_gold = 0,
@@ -6871,7 +6878,7 @@ pg.ship_data_breakout = {
 		use_char_num = 0,
 		use_char = 20207,
 		breakout_id = 0,
-		breakout_view = "无",
+		breakout_view = "없음",
 		id = 202074,
 		icon = "10001",
 		level = 0,

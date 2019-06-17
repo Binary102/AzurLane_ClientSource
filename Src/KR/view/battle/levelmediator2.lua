@@ -27,7 +27,6 @@ slot0.NOTICE_AUTOBOT_ENABLED = "LevelMediator2:NOTICE_AUTOBOT_ENABLED"
 slot0.ON_OPEN_GUILD_PRE_COMABT = "LevelMediator2:ON_OPEN_GUILD_PRE_COMABT"
 slot0.ON_ENTER_EXTRA_CHAPTER = "LevelMediator2:ON_ENTER_EXTRA_CHAPTER"
 slot0.ON_EXTRA_RANK = "LevelMediator2:ON_EXTRA_RANK"
-slot0.ON_FETCH_ESCORT = "LevelMediator2:ON_FETCH_ESCORT"
 slot0.ON_FETCH_SUB_CHAPTER = "LevelMediator2:ON_FETCH_SUB_CHAPTER"
 slot0.ON_REFRESH_SUB_CHAPTER = "LevelMediator2:ON_REFRESH_SUB_CHAPTER"
 slot0.ON_STRATEGYING_CHAPTER = "LevelMediator2:ON_STRATEGYING_CHAPTER"
@@ -424,9 +423,6 @@ function slot0.register(slot0)
 			page = PowerRank.TYPE_EXTRA_CHAPTER
 		})
 	end)
-	slot0:bind(slot0.ON_FETCH_ESCORT, function (slot0)
-		slot0:sendNotification(GAME.ESCORT_FETCH)
-	end)
 	slot0:bind(slot0.ON_REFRESH_SUB_CHAPTER, function (slot0)
 		slot0:sendNotification(GAME.SUB_CHAPTER_REFRESH)
 	end)
@@ -574,7 +570,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ESCORT_FETCH_DONE,
 		GAME.SUB_CHAPTER_REFRESH_DONE,
 		GAME.SUB_CHAPTER_FETCH_DONE,
 		CommanderProxy.PREFAB_FLEET_UPDATE,
@@ -818,14 +813,6 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 				slot0.viewComponent:updatePtActivity(slot3)
-			end
-		elseif slot2 == GAME.ESCORT_FETCH_DONE then
-			if slot0.contextData.chapterVO then
-				slot0.viewComponent:switchToMap()
-			elseif not slot0.contextData.map:isEscort() then
-				slot0.viewComponent:setMap(getProxy(ChapterProxy).escortMaps[1].id)
-			else
-				slot0.viewComponent:updateMap()
 			end
 		elseif slot2 == GAME.SUB_CHAPTER_REFRESH_DONE then
 			slot4 = slot3

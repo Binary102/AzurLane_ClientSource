@@ -9776,9 +9776,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 6,
 		time_second = 0,
-		order = 1003,
+		order = 882,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -9795,8 +9795,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2018,
-					12,
+					2019,
+					6,
 					14
 				},
 				{
@@ -9807,9 +9807,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					12,
-					19
+					2019,
+					6,
+					26
 				},
 				{
 					23,
@@ -12865,7 +12865,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 6,
 		time_second = 0,
-		order = 1003,
+		order = 881,
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12882,8 +12882,8 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2018,
-					12,
+					2019,
+					6,
 					14
 				},
 				{
@@ -12894,9 +12894,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2018,
-					12,
-					19
+					2019,
+					6,
+					26
 				},
 				{
 					23,
@@ -15814,6 +15814,271 @@ pg.shop_template = {
 			}
 		}
 	},
+	[90007] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：电女仆",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 1,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 125,
+		id = 90007,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301121
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99001] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "韩服独立：980钻石购买限时建造补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 99001,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99002] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "韩服独立：120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 99002,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99003] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：斯佩校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 2,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 125,
+		id = 99003,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			403051
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[99004] = {
+		group_type = 0,
+		resource_num = 1,
+		desc = "限时皮肤体验：吹雪校服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		time_second = 172800,
+		order = 3,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 125,
+		id = 99004,
+		genre = "skin_shop_timelimit",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301011
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -16192,7 +16457,12 @@ pg.shop_template = {
 		90003,
 		90004,
 		90005,
-		90006
+		90006,
+		90007,
+		99001,
+		99002,
+		99003,
+		99004
 	}
 }
 

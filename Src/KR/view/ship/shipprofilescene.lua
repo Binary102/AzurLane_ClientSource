@@ -40,6 +40,7 @@ end
 function slot0.reloadCVKey(slot0)
 	slot0.currentSkin = slot0.groupSkinList[1]
 	slot0.currentSkinWord = pg.ship_skin_words[slot0.currentSkin.id]
+	slot0.currentSkinWordEx = pg.ship_skin_words_extra[slot0.currentSkin.id]
 
 	if slot0.currentSkinWord.voice_key >= 0 then
 		slot1 = Ship.getCVKeyID(slot0.currentSkin.id)
@@ -264,6 +265,8 @@ function slot0.switchLive2d(slot0, slot1)
 				if slot0.l2dChar and slot0.l2dChar.state == Live2D.STATE_LOADING then
 					return
 				end
+
+				slot0.chatFlag = false
 
 				slot0:switchLive2d(not slot0.live2dChecked)
 				slot0.switchLive2d:switchVoiceList(slot0.live2dChecked)
@@ -682,6 +685,8 @@ function slot0.initProfile(slot0)
 					slot0.prevSelected = slot2:Find("selected")
 
 					setActive(slot0.prevSelected, true)
+
+					setActive.chatFlag = false
 				end)
 			else
 				slot12:setText(HXSet.hxLan(slot10.name))
@@ -1027,6 +1032,10 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 
 	onButton(slot0, slot8, function ()
 		if slot0 then
+			if slot1.l2dChar and slot1.live2dChecked and slot1.chatFlag then
+				return
+			end
+
 			if slot1._currentVoice then
 				slot1._currentVoice:Stop(true)
 			end
@@ -1046,43 +1055,101 @@ function slot0.appendVoiceButton(slot0, slot1, slot2)
 			end
 
 			if slot1.live2dChecked and slot1.l2dChar then
-				slot1.l2dChar:TriggerAction(slot5.l2d_action, true)
+				slot1.l2dChar:TriggerAction(slot5.l2d_action)
 			end
 		else
 			pg.TipsMgr:GetInstance():ShowTips(slot6)
 		end
 	end)
+	slot0:appendVoiceExButton(slot1, slot6)
 end
 
-function slot0.showChat(slot0, slot1, slot2)
-	slot3, slot4, slot5, slot6 = nil
+function slot0.appendVoiceExButton(slot0, slot1, slot2)
+	slot4 = (slot2 and "main") or slot1.key
+	slot6 = slot0.shipGroup.maxIntimacy / 100 + ((slot0.shipGroup.married and slot0.shipGroup.married * 1000) or 0)
+
+	for slot10, slot11 in ipairs(slot5) do
+		if slot11[1] <= slot6 then
+			if slot2 and slot2 > #string.split(slot11[2], "|") then
+				return
+			end
+
+			slot12 = cloneTplTo(slot0.voiceTpl, slot0.voiceContainer)
+
+			setActive(slot12, true)
+			setText(slot0:findTF("Text", slot12), slot1.voice_name .. "Ex")
+			onButton(slot0, slot12, function ()
+				if slot0.l2dChar and slot0.live2dChecked and slot0.chatFlag then
+					return
+				end
+
+				if slot0._currentVoice then
+					slot0._currentVoice:Stop(true)
+				end
+
+				if slot1 == "headtouch" and textContent == nil then
+					LeanTween.cancel(slot0.chat.gameObject)
+
+					LeanTween.cancel.chat.localScale = Vector3(0, 0)
+				else
+					slot0:showChat(slot0, , slot3[1])
+				end
+
+				if slot0.characterModel then
+					slot0 = nil
+					slot0 = (slot4.spine_action == "" and "stand") or slot4.spine_action
+
+					(slot4.spine_action == "" and "stand") or slot4.spine_action.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0, 0)
+
+					slot0 = "stand"
+
+					if "stand" then
+						slot0 = slot4.spine_action
+					end
+				end
+
+				if slot0.live2dChecked and slot0.l2dChar then
+					slot0.l2dChar:SetAction(pg.AssistantInfo.action2Id[slot4.l2d_action])
+				end
+			end)
+		end
+	end
+end
+
+function slot0.showChat(slot0, slot1, slot2, slot3)
+	if slot0.l2dChar and slot0.live2dChecked and slot0.chatFlag then
+		return
+	end
+
+	slot0.chatFlag = true
+	slot4, slot5, slot6, slot7 = nil
 
 	if slot2 then
 		if findTF(slot0.painting, "fitter").childCount > 0 then
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, "main_" .. slot2)
 		end
 
-		slot3, slot4 = Ship.getWords(slot0.currentSkin.id, "main", slot2)
-		slot5 = Ship.getCVCalibrate(slot0.currentSkin.id, "main", slot2)
-		slot6 = Ship.getL2dSoundEffect(slot0.currentSkin.id, "main", slot2)
+		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, "main", slot2, nil, slot3)
+		slot6 = Ship.getCVCalibrate(slot0.currentSkin.id, "main", slot2)
+		slot7 = Ship.getL2dSoundEffect(slot0.currentSkin.id, "main", slot2)
 	else
 		if findTF(slot0.painting, "fitter").childCount > 0 then
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingName, slot1)
 		end
 
-		slot3, slot4 = Ship.getWords(slot0.currentSkin.id, slot1)
-		slot5 = Ship.getCVCalibrate(slot0.currentSkin.id, slot1)
-		slot6 = Ship.getL2dSoundEffect(slot0.currentSkin.id, slot1)
+		slot4, slot5 = Ship.getWords(slot0.currentSkin.id, slot1, nil, nil, slot3)
+		slot6 = Ship.getCVCalibrate(slot0.currentSkin.id, slot1)
+		slot7 = Ship.getL2dSoundEffect(slot0.currentSkin.id, slot1)
 	end
 
-	slot7 = slot0.CHAT_SHOW_TIME
+	slot8 = slot0.CHAT_SHOW_TIME
 
 	if not slot0.live2dChecked then
-		slot5 = 0
+		slot6 = 0
 	end
 
-	if slot5 and slot5 > 0 then
-		slot7 = slot7 + slot5
+	if slot6 and slot6 > 0 then
+		slot8 = slot8 + slot6
 	end
 
 	if slot0.currentSkinWord.voice_key >= 0 then
@@ -1090,7 +1157,7 @@ function slot0.showChat(slot0, slot1, slot2)
 			slot0._currentVoice:Stop(true)
 		end
 
-		function slot8()
+		function slot9()
 			nil._currentVoice, slot0 = playSoundEffect(slot1)
 
 			if slot3 then
@@ -1110,8 +1177,8 @@ function slot0.showChat(slot0, slot1, slot2)
 			slot0._delayVoiceTweenID = nil
 		end
 
-		if slot0.l2dChar and slot5 and slot5 ~= 0 then
-			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot5, System.Action(function ()
+		if slot0.l2dChar and slot6 and slot6 ~= 0 then
+			slot0._delayVoiceTweenID = LeanTween.delayedCall(slot6, System.Action(function ()
 				slot0()
 
 				slot1._delayVoiceTweenID = nil
@@ -1119,7 +1186,7 @@ function slot0.showChat(slot0, slot1, slot2)
 				return
 			end)).id
 		else
-			slot8()
+			slot9()
 		end
 	end
 
@@ -1129,8 +1196,8 @@ function slot0.showChat(slot0, slot1, slot2)
 		slot0._delayL2dSeID = nil
 	end
 
-	if slot0.l2dChar and slot6 then
-		slot0._delayL2dSeID = LeanTween.delayedCall(slot6[2], System.Action(function ()
+	if slot0.l2dChar and slot7 then
+		slot0._delayL2dSeID = LeanTween.delayedCall(slot7[2], System.Action(function ()
 			playSoundEffect("event:/ui/" .. slot0[1])
 
 			"event:/ui/" .. slot0[1]._delayL2dSeID = nil
@@ -1139,16 +1206,16 @@ function slot0.showChat(slot0, slot1, slot2)
 		end)).id
 	end
 
-	setText(slot0.chatText, slot3)
+	setText(slot0.chatText, slot4)
 
 	if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
-		slot8.alignment = TextAnchor.MiddleLeft
+		slot9.alignment = TextAnchor.MiddleLeft
 	else
-		slot8.alignment = TextAnchor.MiddleCenter
+		slot9.alignment = TextAnchor.MiddleCenter
 	end
 
-	if slot0.initChatBgH < slot8.preferredHeight + 120 then
-		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot9)
+	if slot0.initChatBgH < slot9.preferredHeight + 120 then
+		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot10)
 	else
 		slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
 	end
@@ -1156,21 +1223,24 @@ function slot0.showChat(slot0, slot1, slot2)
 	LeanTween.cancel(slot0.chat.gameObject)
 
 	slot0.chat.localScale = Vector3(0, 0)
-	slot11 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack)
-	slot10 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack).setDelay
-	slot12 = (slot5 and slot5) or 0
+	slot12 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeOutBack)
+	slot11 = LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack).setDelay
 
-	slot10(LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(1, 1, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeOutBack), slot12):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(slot0.CHAT_ANIMATION_TIME + LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeInBack))
+	if not slot6 or not slot6 then
+		slot13 = 0
+	end
+
+	slot11(slot12, slot13):setOnComplete(System.Action(function ()
+		LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME):setEase(LeanTweenType.easeInBack):setDelay(slot0.CHAT_ANIMATION_TIME + LeanTween.scale(rtf(slot0.chat.gameObject), Vector3.New(0, 0, 1), slot0.CHAT_ANIMATION_TIME).setEase(LeanTweenType.easeInBack)):setOnComplete(System.Action(function ()
+			slot0.chatFlag = false
+
+			return
+		end))
 
 		return
 	end))
 
 	return
-
-	if not slot5 then
-		slot12 = 0
-	end
 end
 
 function slot0.createLive2D(slot0, slot1)

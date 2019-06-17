@@ -39,6 +39,14 @@ function slot0.init(slot0)
 	slot0.extraChapterBg = slot0:findTF("extra_chapter_bg")
 	slot0.toggleScrollRect = slot0:findTF("frame/scroll_rect", slot0.leftPanel)
 	slot0.toggleContainer = slot0:findTF("frame/scroll_rect/tagRoot", slot0.leftPanel)
+	slot0.listEmptyTF = slot0:findTF("main/frame/empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_billboardui"))
+
 	slot0.toggles = {
 		slot0:findTF("frame/scroll_rect/tagRoot/power", slot0.leftPanel),
 		slot0:findTF("frame/scroll_rect/tagRoot/collection", slot0.leftPanel),
@@ -164,6 +172,7 @@ function slot0.filter(slot0, slot1, slot2)
 	end
 
 	slot0.rankRect:SetTotalCount(#slot0.displayRankVOs)
+	setActive(slot0.listEmptyTF, #slot0.displayRankVOs <= 0)
 	slot0.playerCard:update(slot0.playerRankVOs[slot0.page])
 end
 

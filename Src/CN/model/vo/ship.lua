@@ -642,6 +642,10 @@ function slot0.updateName(slot0)
 end
 
 function slot0.isRemoulded(slot0)
+	if slot0.remoulded then
+		return true
+	end
+
 	if pg.ship_data_trans[slot0.groupId] then
 		for slot5, slot6 in ipairs(slot1.transform_list) do
 			for slot10, slot11 in ipairs(slot6) do

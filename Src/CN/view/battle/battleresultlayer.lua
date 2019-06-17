@@ -755,20 +755,25 @@ function slot0.displayShips(slot0)
 		end
 	end
 
-	slot11(slot9, slot0.STATE_DISPLAYED)
-	function (slot0, slot1)
-		if #slot0 == 0 then
-			return
+	slot9[#slot9].GetComponent(slot11, typeof(DftAniEvent)).SetEndEvent(slot12, function (slot0)
+		slot0._stateFlag = slot1.STATE_DISPLAYED
+
+		if not slot0._subFirstExpTF then
+			slot0:skip()
 		end
 
-		slot0[#slot0].GetComponent(slot2, typeof(DftAniEvent)):SetEndEvent(function (slot0)
-			slot0._stateFlag = slot0
+		return
+	end)
+
+	if #slot10 > 0 then
+		slot10[#slot10].GetComponent(slot13, typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot0._stateFlag = slot1.STATE_SUB_DISPLAYED
+
+			slot0:skip()
 
 			return
 		end)
-
-		return
-	end(slot10, slot0.STATE_SUB_DISPLAYED)
+	end
 end
 
 function slot0.setAtkAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -966,8 +971,13 @@ function slot0.skip(slot0)
 						slot0._stateFlag = slot0.STATE_DISPLAYED
 
 						setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
+
+						if not slot0._subFirstExpTF then
+							slot0:playSubExEnter()
+						end
 					else
 						if slot0._stateFlag == slot0.STATE_DISPLAYED then
+							setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 							slot0:playSubExEnter()
 						else
 							if slot0._stateFlag == slot0.STATE_SUB_DISPLAY then

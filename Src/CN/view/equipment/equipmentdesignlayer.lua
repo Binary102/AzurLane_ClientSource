@@ -35,7 +35,15 @@ function slot0.init(slot0)
 
 	setActive(slot0.equipmentView, false)
 	setParent(slot0._tf, slot0.parentTF)
-	slot0._tf:SetSiblingIndex(slot0.equipmentView:GetSiblingIndex())
+	slot0._tf:SetSiblingIndex(slot1)
+
+	slot0.listEmptyTF = slot0.contextData.emptyTF
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 end
 
 slot1 = {
@@ -494,6 +502,17 @@ function slot0.filter(slot0, slot1)
 	slot0.desginIds = slot3
 
 	slot0.scollRect:SetTotalCount(#slot3, 0)
+
+	slot6 = setActive
+	slot7 = slot0.listEmptyTF
+
+	if #slot3 > 0 then
+		slot8 = false
+	else
+		slot8 = true
+	end
+
+	slot6(slot7, slot8)
 	Canvas.ForceUpdateCanvases()
 	setImageSprite(slot0:findTF("Image", slot0.sortBtn), slot6)
 	setActive(slot0.sortImgAsc, slot0.asc)

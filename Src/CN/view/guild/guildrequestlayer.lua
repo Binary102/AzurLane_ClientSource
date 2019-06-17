@@ -10,6 +10,14 @@ end
 
 function slot0.init(slot0)
 	slot0.viewRect = slot0:findTF("request_panel/view")
+	slot0.listEmptyTF = slot0:findTF("main/frame/empty")
+	slot0.listEmptyTF = slot0:findTF("empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_guildrequestui"))
 end
 
 function slot0.didEnter(slot0)
@@ -103,6 +111,7 @@ function slot0.sortRequest(slot0)
 		return slot0.timestamp < slot1.timestamp
 	end)
 	slot0.scrollRect:SetTotalCount(#slot0.requestVOs, 0)
+	setActive(slot0.listEmptyTF, #slot0.requestVOs <= 0)
 end
 
 function slot0.addRequest(slot0, slot1)

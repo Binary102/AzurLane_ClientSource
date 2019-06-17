@@ -69389,6 +69389,635 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14700] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91221,
+		type = 6,
+		name = "bili活动任务1",
+		count_inherit = 0,
+		desc = "出征获得50次胜利<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14700,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				100
+			},
+			{
+				5,
+				6110,
+				1
+			}
+		}
+	},
+	[14701] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91222,
+		type = 6,
+		name = "bili活动任务2",
+		count_inherit = 0,
+		desc = "出征获得80次胜利<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14701,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6111,
+				1
+			}
+		}
+	},
+	[14702] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91223,
+		type = 6,
+		name = "bili活动任务3",
+		count_inherit = 0,
+		desc = "出征获得120次胜利<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14702,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				200
+			},
+			{
+				5,
+				6104,
+				1
+			}
+		}
+	},
+	[14703] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91224,
+		type = 6,
+		name = "bili活动任务4",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰10次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14703,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				100
+			},
+			{
+				5,
+				6204,
+				1
+			}
+		}
+	},
+	[14704] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91225,
+		type = 6,
+		name = "bili活动任务5",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰20次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14704,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6119,
+				1
+			}
+		}
+	},
+	[14705] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91226,
+		type = 6,
+		name = "bili活动任务6",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰30次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14705,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				200
+			},
+			{
+				5,
+				6108,
+				1
+			}
+		}
+	},
+	[14706] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91227,
+		type = 6,
+		name = "bili活动任务7",
+		count_inherit = 0,
+		desc = "建造舰船5次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14706,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6205,
+				1
+			}
+		}
+	},
+	[14707] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91228,
+		type = 6,
+		name = "bili活动任务8",
+		count_inherit = 0,
+		desc = "建造舰船20次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14707,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				200
+			},
+			{
+				5,
+				6109,
+				1
+			}
+		}
+	},
+	[14708] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91229,
+		type = 6,
+		name = "bili活动任务9",
+		count_inherit = 0,
+		desc = "舰船强化15次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14708,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				50
+			},
+			{
+				5,
+				6210,
+				1
+			}
+		}
+	},
+	[14709] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91230,
+		type = 6,
+		name = "bili活动任务10",
+		count_inherit = 0,
+		desc = "舰船强化30次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14709,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				100
+			},
+			{
+				5,
+				6208,
+				1
+			}
+		}
+	},
+	[14710] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91231,
+		type = 6,
+		name = "bili活动任务11",
+		count_inherit = 0,
+		desc = "舰船强化50次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14710,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6113,
+				1
+			}
+		}
+	},
+	[14711] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91232,
+		type = 6,
+		name = "bili活动任务12",
+		count_inherit = 0,
+		desc = "舰船退役5次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14711,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				50
+			},
+			{
+				5,
+				6211,
+				1
+			}
+		}
+	},
+	[14712] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91233,
+		type = 6,
+		name = "bili活动任务13",
+		count_inherit = 0,
+		desc = "舰船退役10次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14712,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				100
+			},
+			{
+				5,
+				6301,
+				1
+			}
+		}
+	},
+	[14713] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91234,
+		type = 6,
+		name = "bili活动任务14",
+		count_inherit = 0,
+		desc = "舰船退役15次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14713,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6106,
+				1
+			}
+		}
+	},
+	[14714] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91235,
+		type = 6,
+		name = "bili活动任务15",
+		count_inherit = 0,
+		desc = "执行军事委托10次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14714,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				100
+			},
+			{
+				5,
+				6212,
+				1
+			}
+		}
+	},
+	[14715] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91236,
+		type = 6,
+		name = "bili活动任务16",
+		count_inherit = 0,
+		desc = "执行军事委托20次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14715,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				150
+			},
+			{
+				5,
+				6302,
+				1
+			}
+		}
+	},
+	[14716] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91237,
+		type = 6,
+		name = "bili活动任务17",
+		count_inherit = 0,
+		desc = "执行军事委托30次<color=#92fc63>(家具不可重复获得)</color>",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14716,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				129,
+				200
+			},
+			{
+				5,
+				6303,
+				1
+			}
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -78324,6 +78953,23 @@ pg.task_data_template = {
 		14657,
 		14658,
 		14670,
+		14700,
+		14701,
+		14702,
+		14703,
+		14704,
+		14705,
+		14706,
+		14707,
+		14708,
+		14709,
+		14710,
+		14711,
+		14712,
+		14713,
+		14714,
+		14715,
+		14716,
 		30101,
 		30102,
 		30103,

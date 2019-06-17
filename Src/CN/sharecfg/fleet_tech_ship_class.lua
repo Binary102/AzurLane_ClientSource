@@ -592,6 +592,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 46,
 		nation = 2,
 		ships = {
+			20207,
 			20219,
 			20208
 		}
@@ -665,6 +666,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			29901
+		}
+	},
+	[20209] = {
+		shiptype = 2,
+		name = "确捷级",
+		t_level = 7,
+		id = 20209,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20223
 		}
 	},
 	[20301] = {
@@ -1820,6 +1832,7 @@ pg.fleet_tech_ship_class = {
 		20206,
 		20207,
 		20208,
+		20209,
 		20301,
 		20302,
 		20303,

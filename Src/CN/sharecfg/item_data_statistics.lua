@@ -66280,6 +66280,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59132] = {
+		display = "用于Bili周年庆活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "Bili电池",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59132,
+		icon = "Props/bilibili",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驱逐船模-茳",
 		rarity = 2,
@@ -70603,6 +70619,7 @@ pg.item_data_statistics = {
 		59128,
 		59129,
 		59130,
+		59132,
 		59601,
 		59602,
 		59603,

@@ -546,7 +546,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20021] = {
-		name = "狡黠之灌",
+		name = "狡黠之獾",
 		exp = 1,
 		next_id = 20022,
 		id = 20021,
@@ -571,7 +571,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20022] = {
-		name = "狡黠之灌",
+		name = "狡黠之獾",
 		exp = 3,
 		next_id = 20023,
 		id = 20022,
@@ -597,7 +597,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20023] = {
-		name = "狡黠之灌",
+		name = "狡黠之獾",
 		exp = 0,
 		next_id = 0,
 		id = 20023,

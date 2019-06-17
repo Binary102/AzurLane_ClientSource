@@ -60152,32 +60152,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			637,
+			28,
+			51,
+			58,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			25
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -60194,12 +60194,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -60246,9 +60246,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.15,
+			1.2,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -60282,32 +60282,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			792,
+			35,
+			64,
+			72,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			31
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -60324,12 +60324,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -60376,9 +60376,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.2,
+			1.2,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -60412,32 +60412,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			1103,
+			49,
+			89,
+			101,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			43
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -60454,12 +60454,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -60506,9 +60506,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.2,
+			1.3,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -60542,54 +60542,54 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			1569,
+			69,
+			126,
+			143,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			62
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
-			1,
+			3105,
+			654,
+			1117,
+			601,
+			0,
+			744,
+			0,
+			3,
+			723,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			349
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -60636,9 +60636,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.35,
+			1.3,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -67407,6 +67407,526 @@ pg.ship_data_statistics = {
 			1.35,
 			1.3,
 			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202231] = {
+		name = "确捷",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202231,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		skin_id = 202230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			650,
+			30,
+			69,
+			57,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			36
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202232] = {
+		name = "确捷",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202232,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		skin_id = 202230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			808,
+			37,
+			86,
+			71,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			45
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202233] = {
+		name = "确捷",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202233,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		skin_id = 202230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1125,
+			52,
+			120,
+			99,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			63
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202234] = {
+		name = "确捷",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 202234,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		skin_id = 202230,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		armor_type = 1,
+		attrs = {
+			1601,
+			75,
+			171,
+			141,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			89
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			4754,
+			707,
+			1208,
+			602,
+			0,
+			824,
+			0,
+			-8,
+			732,
+			0,
+			0,
+			421
+		},
+		grades = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.55,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -201277,6 +201797,10 @@ pg.ship_data_statistics = {
 		202202,
 		202203,
 		202204,
+		202231,
+		202232,
+		202233,
+		202234,
 		203011,
 		203012,
 		203013,

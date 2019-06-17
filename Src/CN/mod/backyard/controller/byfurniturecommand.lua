@@ -112,6 +112,7 @@ class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				tip = slot2.tip
 			})
 			slot4:clearPreRecord()
+			slot4:checkEffect()
 		elseif slot3 == BACKYARD.REPALCE_PAPER then
 			slot4:replacePaper(slot2.furniture)
 		elseif slot3 == BACKYARD.OPEN_DECORATION then
@@ -132,6 +133,8 @@ class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			elseif slot5 == 4 then
 				slot4:removeFloorPaper()
 			end
+		elseif slot3 == BACKYARD.CHECK_EFFECT then
+			slot4:checkEffect()
 		end
 	end
 end

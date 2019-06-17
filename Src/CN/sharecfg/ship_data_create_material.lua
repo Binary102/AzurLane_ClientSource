@@ -33,9 +33,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>超稀有舰船</color>：7%",
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：26%",
-			"普通舰船：55%",
-			"<color=#d797ff>小海伦娜</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>小克利夫兰</color>：2.5%(<color=#92fc63>up!</color>)"
+			"普通舰船：55%"
 		}
 	},
 	{
@@ -71,13 +69,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>超稀有舰船</color>：7%",
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%",
-			"<color=#ffde38>俾斯麦</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>英王乔治五世</color>：0.5%",
-			"<color=#d797ff>U-556</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>U-73</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Z36</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>回声</color>：5%(<color=#92fc63>up!</color>)"
+			"普通舰船：30%"
 		}
 	},
 	{

@@ -33,15 +33,15 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.RETURN_AWARD_OP, function (slot0, slot1)
 		if slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW then
-			slot0.viewComponent:ShowReturnerBoundsWindow(slot1.arg1)
+			slot0.viewComponent:ShowWindow(ReturnerAwardWindow, slot1.arg1)
 		elseif slot1.cmd == ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW then
-			slot0.viewComponent:ShowTaskBoundsWindow(slot1.arg1)
+			slot0.viewComponent:ShowWindow(TaskAwardWindow, slot1.arg1)
 		else
 			slot0:sendNotification(GAME.RETURN_AWARD_OP, slot1)
 		end
 	end)
-	slot0:bind(slot0.SHOW_AWARD_WINDOW, function (slot0, slot1)
-		slot0.viewComponent:ShowBonusWindow(slot1)
+	slot0:bind(slot0.SHOW_AWARD_WINDOW, function (slot0, slot1, slot2)
+		slot0.viewComponent:ShowWindow(slot1, slot2)
 	end)
 	slot0:bind(slot0.EVENT_PT_OPERATION, function (slot0, slot1)
 		slot0:sendNotification(GAME.ACT_NEW_PT, slot1)

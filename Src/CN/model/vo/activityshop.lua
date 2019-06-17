@@ -77,6 +77,10 @@ function slot0.getBgPath(slot0)
 	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4])
 end
 
+function slot0.getToggleImage(slot0)
+	return pg.activity_template[slot0.activityId].config_client.toggle or "huodongdduihuan_butten"
+end
+
 function slot0.getResId(slot0)
 	slot1 = nil
 

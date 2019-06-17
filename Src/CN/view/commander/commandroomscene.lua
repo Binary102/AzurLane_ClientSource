@@ -488,7 +488,13 @@ function slot0.MainView(slot0)
 end
 
 function slot0.SwitchPage(slot0, slot1)
-	slot0:emit(CommandRoomMediator.ON_DETAIL, slot0.conmmanderId, slot1)
+	if slot0.commanderVOs[slot0.conmmanderId].inBattle and slot1 == CommanderInfoScene.PAGE_PLAY then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+
+		return
+	end
+
+	slot0:emit(CommandRoomMediator.ON_DETAIL, slot2, slot1)
 
 	return
 end

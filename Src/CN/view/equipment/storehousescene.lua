@@ -26,7 +26,6 @@ end
 slot4 = require("view.equipment.EquipmentSortCfg")
 
 function slot0.init(slot0)
-	slot0.showBusyEquip = false
 	slot0.topItems = slot0:findTF("topItems")
 	slot0.equipmentView = slot0:findTF("equipment_scrollview")
 	slot0.blurPanel = slot0:findTF("blur_panel")
@@ -93,6 +92,11 @@ function slot0.init(slot0)
 	})
 
 	slot0.selectEnabled = false
+	slot0.listEmptyTF = slot0:findTF("empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 end
 
 function slot0.setEquipment(slot0, slot1)
@@ -296,10 +300,9 @@ function slot0.didEnter(slot0)
 				slot0.contextData.warp = StoreHouseConst.WARP_TO_DESIGN
 
 				slot0:updateCapacity()
-				slot0:emit(EquipmentMediator.OPEN_DESIGN)
+				slot0:emit(EquipmentMediator.OPEN_DESIGN, slot0.listEmptyTF)
 				setActive(slot0.tip, false)
 				setActive(slot0.capacityTF.parent, false)
-				setActive(slot0.filterBusyToggle, false)
 			end
 		else
 			slot0:emit(EquipmentMediator.CLOSE_DESIGN_LAYER)
@@ -308,8 +311,13 @@ function slot0.didEnter(slot0)
 	onToggle(slot0, slot0.filterBusyToggle, function (slot0)
 		slot0.showBusyEquip = slot0
 
-		slot0:filterEquipment()
+		if slot0.afterFirstTrigger then
+			slot0:filterEquipment()
+		end
 	end, SFX_PANEL)
+	triggerToggle(slot0.filterBusyToggle, slot0.shipVO)
+
+	slot0.afterFirstTrigger = true
 
 	if slot0.warp == StoreHouseConst.WARP_TO_DESIGN then
 		triggerToggle(slot0.designToggle, true)
@@ -442,13 +450,6 @@ function slot0.setShip(slot0, slot1)
 		elseif slot0.mode == StoreHouseConst.SKIN then
 			slot0.contextData.qiutBtn = slot1:getEquip(slot0.contextData.pos).hasSkin(slot2)
 		end
-
-		slot0.showBusyEquip = true
-
-		setActive(findTF(slot0.filterBusyToggle, "on"), true)
-		setActive(findTF(slot0.filterBusyToggle, "off"), false)
-
-		slot0.filterBusyToggle:GetComponent(typeof(Toggle)).isOn = true
 
 		setActive(slot0.bottomPanel, false)
 	end
@@ -625,6 +626,8 @@ end
 
 function slot0.updateEquipmentCount(slot0, slot1)
 	slot0.equipmentRect:SetTotalCount(slot1 or #slot0.loadEquipmentVOs, -1)
+	setActive(slot0.listEmptyTF, (slot1 or #slot0.loadEquipmentVOs) <= 0)
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_equip"))
 	Canvas.ForceUpdateCanvases()
 end
 
@@ -756,6 +759,8 @@ function slot0.sortItems(slot0)
 		end
 	end)
 	slot0.itemRect:SetTotalCount(#slot0.itemVOs, -1)
+	setActive(slot0.listEmptyTF, #slot0.itemVOs <= 0)
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_item"))
 	Canvas.ForceUpdateCanvases()
 end
 

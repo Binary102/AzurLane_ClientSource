@@ -71,9 +71,11 @@ function slot0.UpdateFashion(slot0)
 		return
 	end
 
-	if true or slot0.fashionGroup ~= slot1 then
+	if slot0.fashionGroup ~= slot1 then
 		slot0.fashionGroup = slot1
 		slot0.fashionSkins = slot2
+
+		slot0:ResetFashion()
 
 		for slot6 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1, 1 do
 			cloneTplTo(slot0.styleCard, slot0.styleContainer)

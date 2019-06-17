@@ -37,20 +37,24 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.flush(slot0)
-	slot0.lvTxt.text = "Lv." .. slot0.shipVO.level
-	slot3 = slot0.shipVO.getStar(slot1)
+	setAnchoredPosition(slot0.lvTxt.gameObject, {
+		x = (slot0.shipVO:isBluePrintShip() and -18) or -7.5
+	})
+
+	slot0.lvTxt.text = "Lv." .. slot1.level
+	slot3 = slot1:getStar()
 
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setActive(slot2:Find("star"), slot1 < slot0)
 		end
 	end)
-	slot0.UIlist:align(slot2)
-	slot0.nameTxt:setText(slot0.shipVO.getName(slot1))
+	slot0.UIlist:align(setAnchoredPosition)
+	slot0.nameTxt:setText(slot1:getName())
 	slot0:updateProps({})
-	setPaintingPrefabAsync(slot0.paintingTr, slot0.shipVO.getPainting(slot1), "biandui")
-	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot0.shipVO.propose and "prop" .. ((slot1:isBluePrintShip() and slot4) or "")) or nil)
-	GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", function (slot0)
+	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
+	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot1.propose and "prop" .. ((slot1:isBluePrintShip() and ) or "")) or nil)
+	GetSpriteFromAtlasAsync("bg/star_level_card_" .. , "", function (slot0)
 		slot0.bgImage.sprite = slot0
 	end)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))

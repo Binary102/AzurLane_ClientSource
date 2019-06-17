@@ -36,18 +36,19 @@ function slot0.register(slot0)
 			pos = slot0.contextData.pos
 		})
 	end)
-	slot0:bind(slot0.OPEN_DESIGN, function (slot0)
-		if getProxy(ContextProxy).getContextByMediator(slot1, EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
+	slot0:bind(slot0.OPEN_DESIGN, function (slot0, slot1)
+		if getProxy(ContextProxy).getContextByMediator(slot2, EquipmentMediator):getContextByMediator(EquipmentDesignMediator) then
 			return
 		end
 
-		setActive(slot4, false)
+		setActive(slot5, false)
 		slot0:addSubLayers(Context.New({
 			viewComponent = EquipmentDesignLayer,
 			mediator = EquipmentDesignMediator,
 			data = {
 				LayerWeightMgr_groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE,
-				indexTF = cloneTplTo(slot0.viewComponent.sortPanel, slot0.viewComponent.topItems)
+				indexTF = cloneTplTo(slot0.viewComponent.sortPanel, slot0.viewComponent.topItems),
+				emptyTF = slot1
 			}
 		}))
 	end)

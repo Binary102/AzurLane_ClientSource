@@ -41,6 +41,7 @@ slot0.OPEN_SNAPSHOT = "MainUIMediator:OPEN_SNAPSHOT"
 slot0.OPEN_TRANINGCAMP = "MainUIMediator:OPEN_TRANINGCAMP"
 slot0.OPEN_COMMANDER = "MainUIMediator:OPEN_COMMANDER"
 slot0.OPEN_BULLETINBOARD = "MainUIMediator:OPEN_BULLETINBOARD"
+slot0.OPEN_ESCORT = "event open escort"
 slot0.OPEN_TECHNOLOGY = "MainUIMediator:OPEN_TECHNOLOGY"
 slot0.ON_BOSS_BATTLE = "MainUIMediator:ON_BOSS_BATTLE"
 slot0.ON_MONOPOLY = "MainUIMediator:ON_MONOPOLY"
@@ -300,7 +301,6 @@ function slot0.register(slot0)
 			pg.TipsMgr:GetInstance():ShowTips(i18n("no_notice_tip"))
 		end
 	end)
-	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
 	slot0:bind(slot0.ON_BLACKWHITE, function ()
 		slot0.viewComponent:disableTraningCampAndRefluxTip()
 		slot0.viewComponent.disableTraningCampAndRefluxTip:addSubLayers(Context.New({
@@ -399,15 +399,13 @@ function slot0.register(slot0)
 		slot3 = getProxy(ActivityProxy)
 
 		for slot7, slot8 in ipairs(pg.task_data_trigger.all) do
-			v = pg.task_data_trigger[slot8]
+			if pg.task_data_trigger[slot8].group_id == slot1 then
+				slot11 = slot9.args[1][2]
 
-			if v.group_id == slot1 then
-				slot10 = v.args[1][2]
-
-				if slot3:getActivityById(v.activity_id) and not slot11:isEnd() and not slot2:getTaskById(slot10) and not slot2:getFinishTaskById(slot10) then
+				if slot3:getActivityById(slot9.activity_id) and not slot12:isEnd() and not slot2:getTaskById(slot11) and not slot2:getFinishTaskById(slot11) then
 					slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 						cmd = 1,
-						activity_id = slot9
+						activity_id = slot10
 					})
 
 					return
@@ -415,12 +413,26 @@ function slot0.register(slot0)
 			end
 		end
 	end)
+	slot0:bind(slot0.OPEN_ESCORT, function ()
+		slot2, slot3 = pg.SystemOpenMgr:GetInstance():isOpenSystem(getProxy(PlayerProxy).getRawData(slot0).level, "Escort")
+
+		if not slot2 then
+			pg.TipsMgr:GetInstance():ShowTips(slot3)
+
+			return
+		end
+
+		slot0:escortHandler()
+	end)
 
 	if getProxy(MailProxy).total >= 1000 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_2"))
 	elseif slot19.total >= 950 then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("warning_mail_max_1", slot19.total))
 	end
+
+	slot0.viewComponent:updateActivityMapBtn(slot7:getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT))
+	slot0.viewComponent:updateActivityEscort()
 end
 
 function slot0.onBluePrintNotify(slot0)
@@ -626,7 +638,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.OPEN_MSGBOX_DONE,
 		GAME.CLOSE_MSGBOX_DONE,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
-		GAME.HANDLE_OVERDUE_ATTIRE_DONE
+		GAME.HANDLE_OVERDUE_ATTIRE_DONE,
+		GAME.ESCORT_FETCH_DONE
 	}
 end
 
@@ -726,6 +739,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:onBluePrintNotify()
 	elseif slot2 == GAME.HANDLE_OVERDUE_ATTIRE_DONE then
 		slot0.viewComponent:showOverDueAttire(slot3)
+	elseif slot2 == GAME.ESCORT_FETCH_DONE then
+		slot0:escortHandler()
 	end
 end
 
@@ -1129,6 +1144,21 @@ end
 
 function slot0.handleOverdueAttire(slot0)
 	slot0:sendNotification(GAME.HANDLE_OVERDUE_ATTIRE)
+
+	return
+end
+
+function slot0.escortHandler(slot0)
+	if #getProxy(ChapterProxy).escortMaps == 0 or _.any(slot2, function (slot0)
+		return slot0:shouldFetch()
+	end) then
+		slot0:sendNotification(GAME.ESCORT_FETCH)
+	else
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			chapterId = slot1:getActiveChapter() and slot3.id,
+			mapIdx = slot2[1].id
+		})
+	end
 
 	return
 end

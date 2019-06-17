@@ -18,9 +18,9 @@ function ys.Battle.BattleStoryWave.DoWave(slot0)
 	slot1 = true
 
 	if slot0._param.progress then
-		slot2 = getProxy(ChapterProxy):getActiveChapter()
-
-		if math.min(slot2.progress + slot2:getConfig("progress_boss"), 100) < slot0._param.progress then
+		if not getProxy(ChapterProxy):getActiveChapter() then
+			slot1 = false
+		elseif math.min(slot2.progress + slot2:getConfig("progress_boss"), 100) < slot0._param.progress then
 			slot1 = false
 		end
 	end

@@ -2994,22 +2994,22 @@ pg.gametip = {
 				info = "护航关卡说明 "
 			},
 			{
-				info = "    1. 商路护航的开放时间为2月21日~2月28日；"
+				info = "    1. 商路护航的开放时间为6月13日~6月27日；"
 			},
 			{
-				info = "    2.每日有一次挑战机会，不可累积，进入关卡时扣除次数。\n       关卡分为简单，普通，困难三个难度，玩家进入关卡即消\n       耗挑战次数；"
+				info = "    2.每日有一次挑战机会，不可累积，进入关卡时扣除次\n数。关卡分为简单，普通，困难三个难度，玩家进入关卡\n即消耗挑战次数；"
 			},
 			{
-				info = "    3.商船会沿着固定航线前进，玩家舰队每行动一次，商船前\n       进一格，不会躲避敌船和水雷，玩家需要保护商船安全到\n       达撤退点；"
+				info = "    3.商船会沿着固定航线前进，玩家舰队每行动一次，商\n船前进一格，不会躲避敌船和水雷，玩家需要保护商船安\n全到达撤退点；"
 			},
 			{
-				info = "    5.商船撞上敌船，血量减少1，并且进入遇袭中状态，此时\n       玩家每行动一次商船血量会减少1，直至玩家击败袭击商\n       船的敌方舰队；"
+				info = "    4.商船撞上敌船，血量减少1，并且进入遇袭中状态，此\n时玩家每行动一次商船血量会减少1，直至玩家击败袭击\n商船的敌方舰队；"
 			},
 			{
-				info = "    5.商船撞上水雷，血量减少2，玩家撞上水雷也会受到伤害\n       但是带有驱逐舰的舰队走到水雷上后可以拆除水雷；"
+				info = "    5.商船撞上水雷，血量减少2，玩家撞上水雷也会受到伤\n害但是带有驱逐舰的舰队走到水雷上后可以拆除水雷；"
 			},
 			{
-				info = "    6.商路护航奖励依据商船到达撤退点时血量进行发放：20\n       ~16血为1档、15~11血为2档、10~1血为3档、0血，战斗失\n       败或撤退为4档；"
+				info = "    6.商路护航奖励依据商船到达撤退点时血量进行发放：\n20~16血为1档、15~11血为2档、10~1血为3档、0血，战\n斗失败或撤退为4档；"
 			}
 		}
 	},
@@ -8684,15 +8684,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "重型舰: 重型舰船的建造，包含重巡、重炮、战巡、战列等舰船",
+		tip = "约克公爵 建造追加",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "小海伦娜、小克利夫兰出现概率UP",
+		tip = "确捷、天狼星、追赶者、谢菲尔德、无敌、库拉索、杓鹬、牙买加 建造追加",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "特型舰: 特型舰船的建造，包含重巡、轻航、正航、维修、潜艇等舰船",
+		tip = "胜利、追赶者 建造追加",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -10502,6 +10502,66 @@ UID：
 	challenge_end_tip = {
 		tip = "活动已结束",
 		key = "challenge_end_tip"
+	},
+	pass_times = {
+		tip = "通关次数",
+		key = "pass_times"
+	},
+	list_empty_tip_billboardui = {
+		tip = "暂无排行数据",
+		key = "list_empty_tip_billboardui"
+	},
+	list_empty_tip_equipmentdesignui = {
+		tip = "暂未获得任何设计图",
+		key = "list_empty_tip_equipmentdesignui"
+	},
+	list_empty_tip_storehouseui_equip = {
+		tip = "暂无符合条件的装备",
+		key = "list_empty_tip_storehouseui_equip"
+	},
+	list_empty_tip_storehouseui_item = {
+		tip = "暂未获得任何材料",
+		key = "list_empty_tip_storehouseui_item"
+	},
+	list_empty_tip_eventui = {
+		tip = "暂无可以进行的委托",
+		key = "list_empty_tip_eventui"
+	},
+	list_empty_tip_guildrequestui = {
+		tip = "暂无大舰队申请",
+		key = "list_empty_tip_guildrequestui"
+	},
+	list_empty_tip_joinguildui = {
+		tip = "暂无符合条件的大舰队",
+		key = "list_empty_tip_joinguildui"
+	},
+	list_empty_tip_friendui = {
+		tip = "暂无好友",
+		key = "list_empty_tip_friendui"
+	},
+	list_empty_tip_friendui_search = {
+		tip = "未找到符合条件的指挥官",
+		key = "list_empty_tip_friendui_search"
+	},
+	list_empty_tip_friendui_request = {
+		tip = "暂无好友申请",
+		key = "list_empty_tip_friendui_request"
+	},
+	list_empty_tip_friendui_black = {
+		tip = "暂无黑名单成员",
+		key = "list_empty_tip_friendui_black"
+	},
+	list_empty_tip_dockyardui = {
+		tip = "暂无符合条件的舰船",
+		key = "list_empty_tip_dockyardui"
+	},
+	list_empty_tip_taskscene = {
+		tip = "没有进行中的任务",
+		key = "list_empty_tip_taskscene"
+	},
+	empty_tip_mailboxui = {
+		tip = "暂未收到任何邮件",
+		key = "empty_tip_mailboxui"
 	}
 }
 

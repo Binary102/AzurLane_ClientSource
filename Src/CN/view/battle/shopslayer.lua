@@ -13,8 +13,8 @@ end
 function slot0.init(slot0)
 	slot0.bgs = {}
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
-	slot0.goodTF = slot0:getTpl("frame/item_tpl")
-	slot0.goodActivityTF = slot0:getTpl("frame/item_activity_tpl")
+	slot0.goodTF = slot0:findTF("frame/item_tpl")
+	slot0.goodActivityTF = slot0:findTF("frame/item_activity_tpl")
 	slot0.bottomPanel = slot0:findTF("frame/bottom")
 	slot0.switchBtn = slot0:findTF("frame/switch_btn")
 	slot0.skinBtn = slot0:findTF("frame/skin_btn")
@@ -24,6 +24,12 @@ function slot0.init(slot0)
 	slot0.activityBg = slot0:findTF("activity_bg")
 	slot0.backBtn = slot0:findTF("back_button", slot0.top)
 	slot0.painting = slot0:findTF("paint")
+	slot0.biliBg = slot0:findTF("bili_bg")
+
+	if slot0.biliBg then
+		setActive(slot0.biliBg, false)
+	end
+
 	slot0.resPanel = PlayerResource.New()
 
 	slot0.resPanel:setParent(slot0:findTF("res", slot0.top), false)
@@ -147,12 +153,18 @@ function slot0.didEnter(slot0)
 
 	for slot7, slot8 in ipairs(slot3) do
 		if not slot8:isEnd() then
-			onToggle(slot0, cloneTplTo(slot2, slot1, slot8.activityId), function (slot0)
+			slot9 = cloneTplTo(slot2, slot1, slot8.activityId)
+
+			GetImageSpriteFromAtlasAsync("ui/shopsui_atlas", slot8:getToggleImage() .. "02", slot9)
+			GetImageSpriteFromAtlasAsync("ui/shopsui_atlas", slot8:getToggleImage() .. "01", slot0:findTF("Image", slot9))
+			onToggle(slot0, slot9, function (slot0)
 				if slot0 then
 					slot0.curPage = slot1.TYPE_ACTIVITY
 
 					slot0:intActivityShop(slot2.activityId)
-					slot0:updatePainting(slot1.TYPE_ACTIVITY)
+					slot0:updatePainting(slot1.TYPE_ACTIVITY, slot2.activityId)
+				else
+					setActive(slot0.biliBg, false)
 				end
 			end, SFX_PANEL)
 		end
@@ -309,20 +321,26 @@ function slot0.didEnter(slot0)
 	slot0:blurView()
 end
 
-function slot0.updatePainting(slot0, slot1)
-	if slot0.patingName ~= slot0:getPaintingName(slot1) then
-		if slot2 then
-			retPaintingPrefab(slot0.painting, slot2)
+function slot0.updatePainting(slot0, slot1, slot2)
+	if slot0.patingName ~= slot0:getPaintingName(slot1, slot2) then
+		if slot3 then
+			retPaintingPrefab(slot0.painting, slot3)
 		end
 
-		setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
+		setPaintingPrefabAsync(slot0.painting, slot4, "chuanwu")
 	end
 
-	setActive(slot0.buzhihuoTouch, slot3 == "buzhihuo_shop")
+	setActive(slot0.buzhihuoTouch, slot4 == "buzhihuo_shop")
 end
 
-function slot0.getPaintingName(slot0, slot1)
+function slot0.getPaintingName(slot0, slot1, slot2)
 	if slot1 == slot0.TYPE_ACTIVITY then
+		if slot2 and pg.activity_template[slot2] then
+			slot0.patingName = slot3.config_client.painting or "aijiang_pt"
+
+			return slot0.patingName
+		end
+
 		slot0.patingName = "aijiang_pt"
 	else
 		slot0.patingName = "buzhihuo_shop"
@@ -624,11 +642,16 @@ function slot0.updateActivityShop(slot0, slot1, slot2)
 end
 
 function slot0.intActivityShop(slot0, slot1)
+	if slot0.biliBg then
+		setActive(slot0.biliBg, slot1 == ActivityConst.BILIBILI_PT_SHOP_ID)
+	end
+
 	if not slot0.activityShops[slot1] or slot0.currActivityShop == slot2 then
 		return
 	end
 
-	slot3 = slot2:getSortGoods()
+	slot3, slot4 = slot2:getBgPath()
+	slot5 = slot2:getSortGoods()
 
 	if slot0.activityCards and #slot0.activityCards > 0 then
 		_.each(slot0.activityCards, function (slot0)
@@ -642,36 +665,35 @@ function slot0.intActivityShop(slot0, slot1)
 		slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view", slot0.activityShopTF), slot0.goodActivityTF)
 	end
 
-	slot0.uilist.make(slot4, function (slot0, slot1, slot2)
+	slot0.uilist.make(slot6, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = ActivityGoodsCard.New(slot2)
 
-			slot4:update(slot3)
-			table.insert(slot1.activityCards, slot4)
-			onButton(slot1, slot4.tr, function ()
+			slot4:update(slot3, nil, slot1)
+			table.insert(slot2.activityCards, slot4)
+			onButton(slot2, slot4.tr, function ()
 				slot0:showMsxBox(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot0.uilist.align(slot4, #slot3)
+	slot0.uilist.align(slot6, #slot5)
 
 	slot0.currActivityShop = slot2
 
 	setText(slot0:findTF("Text", slot0.activityShopTF), i18n("activity_shop_lable", slot2:getOpenTime()))
 
-	slot5 = slot2:getResId()
+	slot7 = slot2:getResId()
 
-	setText(slot0:findTF("res_battery/Text", slot0.top), slot0.player:getResource(slot5))
-	setText(slot0:findTF("res_battery/label", slot0.top), pg.item_data_statistics[id2ItemId(slot5)].name)
+	setText(slot0:findTF("res_battery/Text", slot0.top), slot0.player:getResource(slot7))
+	setText(slot0:findTF("res_battery/label", slot0.top), pg.item_data_statistics[id2ItemId(slot7)].name)
 
-	slot0:findTF("res_battery/icon", slot0.top):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot5)].icon, "")
-	slot8, slot9 = slot2:getBgPath()
+	slot0:findTF("res_battery/icon", slot0.top):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas(pg.item_data_statistics[id2ItemId(slot7)].icon, "")
 	slot11 = nil
 
 	if slot0.bgs[slot2.activityId] then
 		slot11 = slot10
 	else
-		slot0.bgs[slot2.activityId] = GetSpriteFromAtlas(slot8, "")
+		slot0.bgs[slot2.activityId] = GetSpriteFromAtlas(slot3, "")
 	end
 
 	setImageSprite(slot0.activityBg, slot11)
@@ -976,16 +998,18 @@ function slot0.updateShamShop(slot0)
 	end
 
 	slot0.shamItemList:make(function (slot0, slot1, slot2)
-		slot3 = ActivityGoodsCard.New(slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = ActivityGoodsCard.New(slot2)
 
-		slot3:update(slot4, slot1.TYPE_SHAM_SHOP)
-		onButton(slot2, slot3.tr, function ()
-			if slot0:getConfig("num_limit") == 1 or slot0:getConfig("commodity_type") == 4 then
-				slot1:openSingleBox(slot1.openSingleBox)
-			else
-				slot1:initMsgBox(slot1.initMsgBox)
-			end
-		end, SFX_PANEL)
+			slot3:update(slot4, slot1.TYPE_SHAM_SHOP)
+			onButton(slot2, slot3.tr, function ()
+				if slot0:getConfig("num_limit") == 1 or slot0:getConfig("commodity_type") == 4 then
+					slot1:openSingleBox(slot1.openSingleBox)
+				else
+					slot1:initMsgBox(slot1.initMsgBox)
+				end
+			end, SFX_PANEL)
+		end
 	end)
 	slot0.shamItemList:align(#slot0.shamShop:getSortGoods())
 	setText(slot0:findTF("time/day", slot0.shamShopTF), slot0.shamShop:getRestDays())
@@ -1001,16 +1025,18 @@ function slot0.updateEscortShop(slot0)
 	end
 
 	slot0.escortItemList:make(function (slot0, slot1, slot2)
-		slot3 = ActivityGoodsCard.New(slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = ActivityGoodsCard.New(slot2)
 
-		slot3:update(slot4)
-		onButton(slot1, slot3.tr, function ()
-			if slot0:getConfig("num_limit") == 1 or slot0:getConfig("commodity_type") == 4 then
-				slot1:openSingleBox(slot1.openSingleBox)
-			else
-				slot1:initMsgBox(slot1.initMsgBox)
-			end
-		end, SFX_PANEL)
+			slot3:update(slot4)
+			onButton(slot1, slot3.tr, function ()
+				if slot0:getConfig("num_limit") == 1 or slot0:getConfig("commodity_type") == 4 then
+					slot1:openSingleBox(slot1.openSingleBox)
+				else
+					slot1:initMsgBox(slot1.initMsgBox)
+				end
+			end, SFX_PANEL)
+		end
 	end)
 	slot0.escortItemList:align(#slot0.escortShop:getSortGoods())
 	setText(slot0:findTF("time/day", slot0.escortShopTF), slot0.escortShop:getRestDays())

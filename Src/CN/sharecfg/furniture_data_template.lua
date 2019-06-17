@@ -3029,6 +3029,54 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[146] = {
+		advice = 0,
+		name = "十周年小电视",
+		count = 1,
+		type = 7,
+		dir = 0,
+		gain_by = "",
+		is_get_time_note = 0,
+		belong = 1,
+		can_rotate = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "bili10thicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 146,
+		comfortable = 3,
+		describe = "十周年( ゜-゜)つロ干杯~",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bili10th",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		name = "本ID禁用，后端固定会删除",
@@ -9846,7 +9894,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 40,
-		not_for_sale = 1,
+		not_for_sale = 0,
 		icon = "yiguibiicon",
 		deblocking = 1,
 		level = 1,
@@ -9861,7 +9909,6 @@ pg.furniture_data_template = {
 		gem_price = 0,
 		themeId = 6,
 		spine_extra = "",
-		time = "always",
 		spine_action_replace = "",
 		new = 0,
 		discount_time = "",
@@ -9873,6 +9920,32 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -10238,7 +10311,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		effect = "",
 		dorm_icon_price = 20,
-		not_for_sale = 1,
+		not_for_sale = 0,
 		icon = "nazhongbi2icon",
 		deblocking = 1,
 		level = 2,
@@ -10253,7 +10326,6 @@ pg.furniture_data_template = {
 		gem_price = 0,
 		themeId = 6,
 		spine_extra = "",
-		time = "always",
 		spine_action_replace = "",
 		new = 0,
 		discount_time = "",
@@ -10265,6 +10337,32 @@ pg.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -18507,7 +18605,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 11001,
 		comfortable = 4,
-		describe = "粉红色、透着少女趣味的墙壁",
+		describe = "粉红色、透着少女趣味的地板",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 11,
@@ -18546,7 +18644,7 @@ pg.furniture_data_template = {
 		discount = 0,
 		id = 11002,
 		comfortable = 4,
-		describe = "粉红色、透着少女趣味地板",
+		describe = "粉红色、透着少女趣味的墙壁",
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 11,
@@ -78486,6 +78584,2027 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[44001] = {
+		can_rotate = 0,
+		name = "湿漉漉的地面",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "rainday/dibanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44001,
+		comfortable = 4,
+		describe = "哗啦啦啦~下雨啦！当心不要滑倒哦~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44002] = {
+		can_rotate = 0,
+		name = "湿漉漉的墙壁",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbirdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "rainday/qiangbird",
+		canputon = 0,
+		discount = 0,
+		id = 44002,
+		comfortable = 4,
+		describe = "哗啦啦啦~下雨啦！记得带上雨伞~",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44101] = {
+		can_rotate = 0,
+		name = "湿漉漉的草皮",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "caopirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/caopird",
+		canputon = 0,
+		discount = 0,
+		id = 44101,
+		comfortable = 2,
+		describe = "沾着雨水的生机盎然的翠绿草皮",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44102] = {
+		advice = 0,
+		name = "黄色大巴",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/cherd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "cherdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44102,
+		comfortable = 3,
+		describe = "滴~滴~雨天请注意谨慎驾驶~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-107,
+					52
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using"
+			},
+			{
+				"sit",
+				{
+					-40,
+					4
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using2"
+			},
+			{
+				"sit",
+				{
+					54,
+					-36
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using3"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44103] = {
+		can_rotate = 0,
+		name = "湿漉漉的草丛",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huatan2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/huatan2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44103,
+		comfortable = 2,
+		describe = "沾着雨水的生机盎然的翠绿草丛",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44104] = {
+		can_rotate = 0,
+		name = "湿漉漉的花坛",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "huatanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/huatanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44104,
+		comfortable = 2,
+		describe = "沾着雨水的生机盎然的花坛",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44105] = {
+		can_rotate = 0,
+		name = "盆栽组合",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jiazirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/jiazird",
+		canputon = 0,
+		discount = 0,
+		id = 44105,
+		comfortable = 2,
+		describe = "三个一组的盆栽，底下还可以种点其他的绿植~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44106] = {
+		advice = 0,
+		name = "啾啾烘干机",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/jiqird",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "jiqirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44106,
+		comfortable = 3,
+		describe = "安全、快速、方便！淋湿了就来烘干一下吧！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"yun",
+				{
+					1,
+					-102
+				},
+				{
+					1,
+					1
+				},
+				"rainday/jiqird_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44107] = {
+		can_rotate = 0,
+		name = "积水",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "jishuirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/jishuird",
+		canputon = 0,
+		discount = 0,
+		id = 44107,
+		comfortable = 2,
+		describe = "清澈的水面倒映着美丽的彩虹",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44108] = {
+		can_rotate = 0,
+		name = "小水塘",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "kengrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/kengrd",
+		canputon = 0,
+		discount = 0,
+		id = 44108,
+		comfortable = 2,
+		describe = "清澈的小水塘，不可以随便踩上去哦？",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44109] = {
+		can_rotate = 0,
+		name = "垃圾桶",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "lajitongrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/lajitongrd",
+		canputon = 0,
+		discount = 0,
+		id = 44109,
+		comfortable = 2,
+		describe = "要养成垃圾分类的好习惯~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44110] = {
+		can_rotate = 1,
+		name = "站牌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "pairdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/paird",
+		canputon = 0,
+		discount = 0,
+		id = 44110,
+		comfortable = 2,
+		describe = "下一班公交车，还有20分钟~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44111] = {
+		advice = 0,
+		name = "黄色大伞",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/san2rd",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "san2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44111,
+		comfortable = 2,
+		describe = "可以两个人一起避避雨呢！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-35,
+					-73
+				},
+				{
+					1,
+					1
+				},
+				"rainday/san2rd_using"
+			},
+			{
+				"stand2",
+				{
+					52,
+					-92
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/san2rd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44112] = {
+		advice = 0,
+		name = "倒放的黄色大伞",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/sanrd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "sanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44112,
+		comfortable = 3,
+		describe = "喂！不可以拿雨伞这样玩啊！",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-31,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"rainday/sanrd_using"
+			},
+			{
+				"sleep",
+				{
+					18,
+					-49
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44113] = {
+		can_rotate = 0,
+		name = "湿漉漉的消防栓",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuanrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/shuanrd",
+		canputon = 0,
+		discount = 0,
+		id = 44113,
+		comfortable = 2,
+		describe = "淋湿了也不会影响消防栓的功能的~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44114] = {
+		can_rotate = 0,
+		name = "水池",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuichirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "rainday/shuichird",
+		canputon = 0,
+		discount = 0,
+		id = 44114,
+		comfortable = 3,
+		describe = "虽然是干净的水，但也不能随便乱喝哦？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44115] = {
+		can_rotate = 0,
+		name = "晴天娃娃",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "wawardicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/waward",
+		canputon = 0,
+		discount = 0,
+		id = 44115,
+		comfortable = 2,
+		describe = "祈祷明天能够放晴~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44116] = {
+		advice = 0,
+		name = "超大雨靴",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/xuerd",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "xuerdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44116,
+		comfortable = 3,
+		describe = "雨靴造型的…澡盆！？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/xuerd_using"
+			},
+			{
+				"wash",
+				{
+					-87,
+					-28
+				},
+				{
+					1,
+					1
+				},
+				"rainday/xuerd_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44117] = {
+		advice = 0,
+		name = "木制靠背椅",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yizi2rd",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizi2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44117,
+		comfortable = 2,
+		describe = "就算下雨天，也要悠闲地喝一杯咖啡！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13,
+					26
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44118] = {
+		advice = 0,
+		name = "长椅",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yizird",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yizirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44118,
+		comfortable = 2,
+		describe = "呼…走累了，稍微放下伞休息下吧",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					11,
+					13
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44119] = {
+		can_rotate = 0,
+		name = "树叶啾",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yujiurdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "rainday/yujiurd",
+		canputon = 0,
+		discount = 0,
+		id = 44119,
+		comfortable = 3,
+		describe = "等待下一班…公交…？",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44120] = {
+		advice = 0,
+		name = "啾啾雨衣",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "rainday/yuyird",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "yuyirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44120,
+		comfortable = 3,
+		describe = "穿上雨衣，去雨中尽情玩耍吧~",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				},
+				"rainday/yuyird_using",
+				0,
+				{
+					{
+						-5,
+						76
+					},
+					{
+						212,
+						174
+					},
+					"rainday/yuyird_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44121] = {
+		can_rotate = 0,
+		name = "圆桌(附雨伞)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuozi2rdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/zhuozi2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44121,
+		comfortable = 2,
+		describe = "就算下雨天，也要悠闲地喝一杯咖啡！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44122] = {
+		can_rotate = 0,
+		name = "湿漉漉的圆桌",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "zhuozirdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "rainday/zhuozird",
+		canputon = 0,
+		discount = 0,
+		id = 44122,
+		comfortable = 2,
+		describe = "唔，得擦干了才能用了呢……",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44123] = {
+		can_rotate = 0,
+		name = "雷雨云",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 0,
+		not_for_sale = 0,
+		icon = "yunrdicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 44123,
+		comfortable = 4,
+		describe = "今日天气，雷雨几率100%，出行请做好避雷准备w",
+		dorm_id = 0,
+		gem_price = 150,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		animator = {
+			{
+				"yuyunCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[44301] = {
+		can_rotate = 0,
+		name = "盆栽窗台",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 3,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuanghurdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "rainday/chuanghurd",
+		canputon = 0,
+		discount = 0,
+		id = 44301,
+		comfortable = 2,
+		describe = "摆满了鲜花绿植盆栽的窗台，很有春天的味道~",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[44302] = {
+		can_rotate = 0,
+		name = "条纹雨棚",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuanghu2rdicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "rainday/chuanghu2rd",
+		canputon = 0,
+		discount = 0,
+		id = 44302,
+		comfortable = 2,
+		describe = "就算打开窗户也不怕雨水溅到室内了呢",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 44,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[45001] = {
 		can_rotate = 0,
 		name = "铁血乐章·地板",
@@ -81876,6 +83995,7 @@ pg.furniture_data_template = {
 		143,
 		144,
 		145,
+		146,
 		100001,
 		100002,
 		100003,
@@ -83037,6 +85157,33 @@ pg.furniture_data_template = {
 		43305,
 		43306,
 		43307,
+		44001,
+		44002,
+		44101,
+		44102,
+		44103,
+		44104,
+		44105,
+		44106,
+		44107,
+		44108,
+		44109,
+		44110,
+		44111,
+		44112,
+		44113,
+		44114,
+		44115,
+		44116,
+		44117,
+		44118,
+		44119,
+		44120,
+		44121,
+		44122,
+		44123,
+		44301,
+		44302,
 		45001,
 		45002,
 		45101,

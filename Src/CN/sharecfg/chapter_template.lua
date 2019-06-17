@@ -15,6 +15,7 @@ pg.chapter_template = {
 		air_dominance = 6,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -249,6 +250,7 @@ pg.chapter_template = {
 		air_dominance = 12,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 102,
 		pre_chapter = 101,
 		star_require_1 = 1,
@@ -592,6 +594,7 @@ pg.chapter_template = {
 		air_dominance = 18,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 103,
 		pre_chapter = 102,
 		star_require_1 = 1,
@@ -969,6 +972,7 @@ pg.chapter_template = {
 		air_dominance = 24,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 104,
 		pre_chapter = 103,
 		star_require_1 = 1,
@@ -1433,6 +1437,7 @@ pg.chapter_template = {
 		air_dominance = 45,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 201,
 		pre_chapter = 104,
 		star_require_1 = 1,
@@ -1985,6 +1990,7 @@ pg.chapter_template = {
 		air_dominance = 55,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 202,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -2590,6 +2596,7 @@ pg.chapter_template = {
 		air_dominance = 65,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 203,
 		pre_chapter = 202,
 		star_require_1 = 1,
@@ -3172,6 +3179,7 @@ pg.chapter_template = {
 		air_dominance = 80,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 204,
 		pre_chapter = 203,
 		star_require_1 = 1,
@@ -3724,6 +3732,7 @@ pg.chapter_template = {
 		air_dominance = 110,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 301,
 		pre_chapter = 204,
 		star_require_1 = 1,
@@ -4297,6 +4306,7 @@ pg.chapter_template = {
 		air_dominance = 125,
 		best_air_dominance = 165,
 		count = 0,
+		icon_outline = 0,
 		id = 302,
 		pre_chapter = 301,
 		star_require_1 = 1,
@@ -4894,6 +4904,7 @@ pg.chapter_template = {
 		air_dominance = 145,
 		best_air_dominance = 190,
 		count = 0,
+		icon_outline = 0,
 		id = 303,
 		pre_chapter = 302,
 		star_require_1 = 1,
@@ -5486,6 +5497,7 @@ pg.chapter_template = {
 		air_dominance = 175,
 		best_air_dominance = 230,
 		count = 0,
+		icon_outline = 0,
 		id = 304,
 		pre_chapter = 303,
 		star_require_1 = 1,
@@ -6064,6 +6076,7 @@ pg.chapter_template = {
 		air_dominance = 175,
 		best_air_dominance = 230,
 		count = 0,
+		icon_outline = 0,
 		id = 305,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -6714,6 +6727,7 @@ pg.chapter_template = {
 		air_dominance = 120,
 		best_air_dominance = 160,
 		count = 0,
+		icon_outline = 0,
 		id = 401,
 		pre_chapter = 304,
 		star_require_1 = 1,
@@ -7211,6 +7225,7 @@ pg.chapter_template = {
 		air_dominance = 135,
 		best_air_dominance = 180,
 		count = 0,
+		icon_outline = 0,
 		id = 402,
 		pre_chapter = 401,
 		star_require_1 = 1,
@@ -7701,6 +7716,7 @@ pg.chapter_template = {
 		air_dominance = 155,
 		best_air_dominance = 205,
 		count = 0,
+		icon_outline = 0,
 		id = 403,
 		pre_chapter = 402,
 		star_require_1 = 1,
@@ -8136,6 +8152,7 @@ pg.chapter_template = {
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
+		icon_outline = 0,
 		id = 404,
 		pre_chapter = 403,
 		star_require_1 = 1,
@@ -8708,6 +8725,7 @@ pg.chapter_template = {
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
+		icon_outline = 0,
 		id = 405,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -9331,6 +9349,7 @@ pg.chapter_template = {
 		air_dominance = 215,
 		best_air_dominance = 280,
 		count = 0,
+		icon_outline = 0,
 		id = 501,
 		pre_chapter = 404,
 		star_require_1 = 1,
@@ -9908,6 +9927,7 @@ pg.chapter_template = {
 		air_dominance = 250,
 		best_air_dominance = 325,
 		count = 0,
+		icon_outline = 0,
 		id = 502,
 		pre_chapter = 501,
 		star_require_1 = 1,
@@ -10423,6 +10443,7 @@ pg.chapter_template = {
 		air_dominance = 295,
 		best_air_dominance = 385,
 		count = 0,
+		icon_outline = 0,
 		id = 503,
 		pre_chapter = 502,
 		star_require_1 = 1,
@@ -10908,6 +10929,7 @@ pg.chapter_template = {
 		air_dominance = 345,
 		best_air_dominance = 450,
 		count = 0,
+		icon_outline = 0,
 		id = 504,
 		pre_chapter = 503,
 		star_require_1 = 1,
@@ -11418,6 +11440,7 @@ pg.chapter_template = {
 		air_dominance = 345,
 		best_air_dominance = 450,
 		count = 0,
+		icon_outline = 0,
 		id = 505,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -11979,6 +12002,7 @@ pg.chapter_template = {
 		air_dominance = 225,
 		best_air_dominance = 295,
 		count = 0,
+		icon_outline = 0,
 		id = 601,
 		pre_chapter = 504,
 		star_require_1 = 1,
@@ -12527,6 +12551,7 @@ pg.chapter_template = {
 		air_dominance = 255,
 		best_air_dominance = 335,
 		count = 0,
+		icon_outline = 0,
 		id = 602,
 		pre_chapter = 601,
 		star_require_1 = 1,
@@ -13131,6 +13156,7 @@ pg.chapter_template = {
 		air_dominance = 290,
 		best_air_dominance = 380,
 		count = 0,
+		icon_outline = 0,
 		id = 603,
 		pre_chapter = 602,
 		star_require_1 = 1,
@@ -13659,6 +13685,7 @@ pg.chapter_template = {
 		air_dominance = 325,
 		best_air_dominance = 425,
 		count = 0,
+		icon_outline = 0,
 		id = 604,
 		pre_chapter = 603,
 		star_require_1 = 1,
@@ -14231,6 +14258,7 @@ pg.chapter_template = {
 		air_dominance = 325,
 		best_air_dominance = 425,
 		count = 0,
+		icon_outline = 0,
 		id = 605,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -14802,6 +14830,7 @@ pg.chapter_template = {
 		air_dominance = 370,
 		best_air_dominance = 485,
 		count = 0,
+		icon_outline = 0,
 		id = 701,
 		pre_chapter = 604,
 		star_require_1 = 1,
@@ -15197,6 +15226,7 @@ pg.chapter_template = {
 		air_dominance = 425,
 		best_air_dominance = 555,
 		count = 0,
+		icon_outline = 0,
 		id = 702,
 		pre_chapter = 701,
 		star_require_1 = 1,
@@ -15695,6 +15725,7 @@ pg.chapter_template = {
 		air_dominance = 480,
 		best_air_dominance = 625,
 		count = 0,
+		icon_outline = 0,
 		id = 703,
 		pre_chapter = 702,
 		star_require_1 = 1,
@@ -16264,6 +16295,7 @@ pg.chapter_template = {
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
+		icon_outline = 0,
 		id = 704,
 		pre_chapter = 703,
 		star_require_1 = 1,
@@ -16817,6 +16849,7 @@ pg.chapter_template = {
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
+		icon_outline = 0,
 		id = 705,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -17373,6 +17406,7 @@ pg.chapter_template = {
 		air_dominance = 590,
 		best_air_dominance = 770,
 		count = 0,
+		icon_outline = 0,
 		id = 801,
 		pre_chapter = 704,
 		star_require_1 = 1,
@@ -17790,6 +17824,7 @@ pg.chapter_template = {
 		air_dominance = 650,
 		best_air_dominance = 845,
 		count = 0,
+		icon_outline = 0,
 		id = 802,
 		pre_chapter = 801,
 		star_require_1 = 1,
@@ -18293,6 +18328,7 @@ pg.chapter_template = {
 		air_dominance = 710,
 		best_air_dominance = 925,
 		count = 0,
+		icon_outline = 0,
 		id = 803,
 		pre_chapter = 802,
 		star_require_1 = 1,
@@ -18859,6 +18895,7 @@ pg.chapter_template = {
 		air_dominance = 770,
 		best_air_dominance = 1005,
 		count = 0,
+		icon_outline = 0,
 		id = 804,
 		pre_chapter = 803,
 		star_require_1 = 1,
@@ -19488,6 +19525,7 @@ pg.chapter_template = {
 		air_dominance = 770,
 		best_air_dominance = 1005,
 		count = 0,
+		icon_outline = 0,
 		id = 805,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -20106,6 +20144,7 @@ pg.chapter_template = {
 		air_dominance = 840,
 		best_air_dominance = 1095,
 		count = 0,
+		icon_outline = 0,
 		id = 901,
 		pre_chapter = 804,
 		star_require_1 = 1,
@@ -20617,6 +20656,7 @@ pg.chapter_template = {
 		air_dominance = 915,
 		best_air_dominance = 1190,
 		count = 0,
+		icon_outline = 0,
 		id = 902,
 		pre_chapter = 901,
 		star_require_1 = 1,
@@ -21166,6 +21206,7 @@ pg.chapter_template = {
 		air_dominance = 990,
 		best_air_dominance = 1290,
 		count = 0,
+		icon_outline = 0,
 		id = 903,
 		pre_chapter = 902,
 		star_require_1 = 1,
@@ -21739,6 +21780,7 @@ pg.chapter_template = {
 		air_dominance = 1065,
 		best_air_dominance = 1385,
 		count = 0,
+		icon_outline = 0,
 		id = 904,
 		pre_chapter = 903,
 		star_require_1 = 1,
@@ -22334,6 +22376,7 @@ pg.chapter_template = {
 		air_dominance = 1065,
 		best_air_dominance = 1385,
 		count = 0,
+		icon_outline = 0,
 		id = 905,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -22939,6 +22982,7 @@ pg.chapter_template = {
 		air_dominance = 1155,
 		best_air_dominance = 1505,
 		count = 0,
+		icon_outline = 0,
 		id = 1001,
 		pre_chapter = 904,
 		star_require_1 = 1,
@@ -23469,6 +23513,7 @@ pg.chapter_template = {
 		air_dominance = 1250,
 		best_air_dominance = 1625,
 		count = 0,
+		icon_outline = 0,
 		id = 1002,
 		pre_chapter = 1001,
 		star_require_1 = 1,
@@ -24055,6 +24100,7 @@ pg.chapter_template = {
 		air_dominance = 1345,
 		best_air_dominance = 1750,
 		count = 0,
+		icon_outline = 0,
 		id = 1003,
 		pre_chapter = 1002,
 		star_require_1 = 1,
@@ -24658,6 +24704,7 @@ pg.chapter_template = {
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
+		icon_outline = 0,
 		id = 1004,
 		pre_chapter = 1003,
 		star_require_1 = 1,
@@ -25275,6 +25322,7 @@ pg.chapter_template = {
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
+		icon_outline = 0,
 		id = 1005,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -25881,6 +25929,7 @@ pg.chapter_template = {
 		air_dominance = 1520,
 		best_air_dominance = 1980,
 		count = 0,
+		icon_outline = 0,
 		id = 1101,
 		pre_chapter = 1004,
 		star_require_1 = 1,
@@ -26460,6 +26509,7 @@ pg.chapter_template = {
 		air_dominance = 1610,
 		best_air_dominance = 2095,
 		count = 0,
+		icon_outline = 0,
 		id = 1102,
 		pre_chapter = 1101,
 		star_require_1 = 1,
@@ -27154,6 +27204,7 @@ pg.chapter_template = {
 		air_dominance = 1700,
 		best_air_dominance = 2210,
 		count = 0,
+		icon_outline = 0,
 		id = 1103,
 		pre_chapter = 1102,
 		star_require_1 = 1,
@@ -27818,6 +27869,7 @@ pg.chapter_template = {
 		air_dominance = 1790,
 		best_air_dominance = 2330,
 		count = 0,
+		icon_outline = 0,
 		id = 1104,
 		pre_chapter = 1103,
 		star_require_1 = 1,
@@ -28591,6 +28643,7 @@ pg.chapter_template = {
 		air_dominance = 1790,
 		best_air_dominance = 2330,
 		count = 0,
+		icon_outline = 0,
 		id = 1105,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -29371,6 +29424,7 @@ pg.chapter_template = {
 		air_dominance = 1890,
 		best_air_dominance = 2460,
 		count = 0,
+		icon_outline = 0,
 		id = 1201,
 		pre_chapter = 1104,
 		star_require_1 = 1,
@@ -29928,6 +29982,7 @@ pg.chapter_template = {
 		air_dominance = 1995,
 		best_air_dominance = 2595,
 		count = 0,
+		icon_outline = 0,
 		id = 1202,
 		pre_chapter = 1201,
 		star_require_1 = 1,
@@ -30598,6 +30653,7 @@ pg.chapter_template = {
 		air_dominance = 2100,
 		best_air_dominance = 2730,
 		count = 0,
+		icon_outline = 0,
 		id = 1203,
 		pre_chapter = 1202,
 		star_require_1 = 1,
@@ -31304,6 +31360,7 @@ pg.chapter_template = {
 		air_dominance = 2205,
 		best_air_dominance = 2870,
 		count = 0,
+		icon_outline = 0,
 		id = 1204,
 		pre_chapter = 1203,
 		star_require_1 = 1,
@@ -32126,6 +32183,7 @@ pg.chapter_template = {
 		air_dominance = 2205,
 		best_air_dominance = 2870,
 		count = 0,
+		icon_outline = 0,
 		id = 1205,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -32955,6 +33013,7 @@ pg.chapter_template = {
 		air_dominance = 2315,
 		best_air_dominance = 3010,
 		count = 0,
+		icon_outline = 0,
 		id = 1301,
 		pre_chapter = 1204,
 		star_require_1 = 1,
@@ -33520,6 +33579,7 @@ pg.chapter_template = {
 		air_dominance = 2450,
 		best_air_dominance = 3185,
 		count = 0,
+		icon_outline = 0,
 		id = 1302,
 		pre_chapter = 1301,
 		star_require_1 = 1,
@@ -34190,6 +34250,7 @@ pg.chapter_template = {
 		air_dominance = 2585,
 		best_air_dominance = 3365,
 		count = 0,
+		icon_outline = 0,
 		id = 1303,
 		pre_chapter = 1302,
 		star_require_1 = 1,
@@ -34904,6 +34965,7 @@ pg.chapter_template = {
 		air_dominance = 2720,
 		best_air_dominance = 3540,
 		count = 0,
+		icon_outline = 0,
 		id = 1304,
 		pre_chapter = 1303,
 		star_require_1 = 1,
@@ -35727,6 +35789,7 @@ pg.chapter_template = {
 		air_dominance = 2720,
 		best_air_dominance = 3540,
 		count = 0,
+		icon_outline = 0,
 		id = 1305,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -36572,6 +36635,7 @@ pg.chapter_template = {
 		air_dominance = 81,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -36947,6 +37011,7 @@ pg.chapter_template = {
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10001,
 		pre_chapter = 10000,
 		star_require_1 = 1,
@@ -37390,6 +37455,7 @@ pg.chapter_template = {
 		air_dominance = 120,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10002,
 		pre_chapter = 10001,
 		star_require_1 = 1,
@@ -37863,6 +37929,7 @@ pg.chapter_template = {
 		air_dominance = 45,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38133,6 +38200,7 @@ pg.chapter_template = {
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10102,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38510,6 +38578,7 @@ pg.chapter_template = {
 		air_dominance = 60,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10103,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -38923,6 +38992,7 @@ pg.chapter_template = {
 		air_dominance = 80,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10104,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -39419,6 +39489,7 @@ pg.chapter_template = {
 		air_dominance = 110,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 10201,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -40015,6 +40086,7 @@ pg.chapter_template = {
 		air_dominance = 135,
 		best_air_dominance = 180,
 		count = 0,
+		icon_outline = 0,
 		id = 10202,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -40664,6 +40736,7 @@ pg.chapter_template = {
 		air_dominance = 160,
 		best_air_dominance = 210,
 		count = 0,
+		icon_outline = 0,
 		id = 10203,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -41290,6 +41363,7 @@ pg.chapter_template = {
 		air_dominance = 190,
 		best_air_dominance = 250,
 		count = 0,
+		icon_outline = 0,
 		id = 10204,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -41886,6 +41960,7 @@ pg.chapter_template = {
 		air_dominance = 245,
 		best_air_dominance = 320,
 		count = 0,
+		icon_outline = 0,
 		id = 10301,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -42503,6 +42578,7 @@ pg.chapter_template = {
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
+		icon_outline = 0,
 		id = 10302,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -43144,6 +43220,7 @@ pg.chapter_template = {
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
+		icon_outline = 0,
 		id = 10303,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -43780,6 +43857,7 @@ pg.chapter_template = {
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
+		icon_outline = 0,
 		id = 10304,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -44402,6 +44480,7 @@ pg.chapter_template = {
 		air_dominance = 190,
 		best_air_dominance = 250,
 		count = 0,
+		icon_outline = 0,
 		id = 10401,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -44941,6 +45020,7 @@ pg.chapter_template = {
 		air_dominance = 220,
 		best_air_dominance = 290,
 		count = 0,
+		icon_outline = 0,
 		id = 10402,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -45473,6 +45553,7 @@ pg.chapter_template = {
 		air_dominance = 250,
 		best_air_dominance = 325,
 		count = 0,
+		icon_outline = 0,
 		id = 10403,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -45950,6 +46031,7 @@ pg.chapter_template = {
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
+		icon_outline = 0,
 		id = 10404,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -46564,6 +46646,7 @@ pg.chapter_template = {
 		air_dominance = 340,
 		best_air_dominance = 445,
 		count = 0,
+		icon_outline = 0,
 		id = 10501,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -47183,6 +47266,7 @@ pg.chapter_template = {
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
+		icon_outline = 0,
 		id = 10502,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -47740,6 +47824,7 @@ pg.chapter_template = {
 		air_dominance = 425,
 		best_air_dominance = 555,
 		count = 0,
+		icon_outline = 0,
 		id = 10503,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -48267,6 +48352,7 @@ pg.chapter_template = {
 		air_dominance = 475,
 		best_air_dominance = 620,
 		count = 0,
+		icon_outline = 0,
 		id = 10504,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -48819,6 +48905,7 @@ pg.chapter_template = {
 		air_dominance = 445,
 		best_air_dominance = 580,
 		count = 0,
+		icon_outline = 0,
 		id = 10601,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -49410,6 +49497,7 @@ pg.chapter_template = {
 		air_dominance = 510,
 		best_air_dominance = 665,
 		count = 0,
+		icon_outline = 0,
 		id = 10602,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -50057,6 +50145,7 @@ pg.chapter_template = {
 		air_dominance = 575,
 		best_air_dominance = 750,
 		count = 0,
+		icon_outline = 0,
 		id = 10603,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -50628,6 +50717,7 @@ pg.chapter_template = {
 		air_dominance = 645,
 		best_air_dominance = 840,
 		count = 0,
+		icon_outline = 0,
 		id = 10604,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -51243,6 +51333,7 @@ pg.chapter_template = {
 		air_dominance = 720,
 		best_air_dominance = 940,
 		count = 0,
+		icon_outline = 0,
 		id = 10701,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -51683,6 +51774,7 @@ pg.chapter_template = {
 		air_dominance = 800,
 		best_air_dominance = 1040,
 		count = 0,
+		icon_outline = 0,
 		id = 10702,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -52226,6 +52318,7 @@ pg.chapter_template = {
 		air_dominance = 880,
 		best_air_dominance = 1145,
 		count = 0,
+		icon_outline = 0,
 		id = 10703,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -52840,6 +52933,7 @@ pg.chapter_template = {
 		air_dominance = 965,
 		best_air_dominance = 1255,
 		count = 0,
+		icon_outline = 0,
 		id = 10704,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -53438,6 +53532,7 @@ pg.chapter_template = {
 		air_dominance = 1055,
 		best_air_dominance = 1375,
 		count = 0,
+		icon_outline = 0,
 		id = 10801,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -53900,6 +53995,7 @@ pg.chapter_template = {
 		air_dominance = 1150,
 		best_air_dominance = 1495,
 		count = 0,
+		icon_outline = 0,
 		id = 10802,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -54448,6 +54544,7 @@ pg.chapter_template = {
 		air_dominance = 1245,
 		best_air_dominance = 1620,
 		count = 0,
+		icon_outline = 0,
 		id = 10803,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -55059,6 +55156,7 @@ pg.chapter_template = {
 		air_dominance = 1350,
 		best_air_dominance = 1755,
 		count = 0,
+		icon_outline = 0,
 		id = 10804,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -55733,6 +55831,7 @@ pg.chapter_template = {
 		air_dominance = 1440,
 		best_air_dominance = 1875,
 		count = 0,
+		icon_outline = 0,
 		id = 10901,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -56289,6 +56388,7 @@ pg.chapter_template = {
 		air_dominance = 1535,
 		best_air_dominance = 2000,
 		count = 0,
+		icon_outline = 0,
 		id = 10902,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -56883,6 +56983,7 @@ pg.chapter_template = {
 		air_dominance = 1635,
 		best_air_dominance = 2130,
 		count = 0,
+		icon_outline = 0,
 		id = 10903,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -57501,6 +57602,7 @@ pg.chapter_template = {
 		air_dominance = 1735,
 		best_air_dominance = 2260,
 		count = 0,
+		icon_outline = 0,
 		id = 10904,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -58141,6 +58243,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 20001,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -58597,6 +58700,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 20002,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -59105,6 +59209,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 20003,
 		pre_chapter = 0,
 		star_require_1 = 0,
@@ -59690,6 +59795,1541 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {}
 	},
+	[20004] = {
+		num_3 = 0,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.2046875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		icon_outline = 0,
+		id = 20004,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.258333333",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "商路护航简单",
+		chapter_name = "CE1",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 4,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000045,
+				18,
+				0
+			},
+			{
+				5000046,
+				32,
+				0
+			},
+			{
+				5000047,
+				24,
+				1
+			},
+			{
+				5000048,
+				18,
+				0
+			},
+			{
+				5000049,
+				25,
+				0
+			},
+			{
+				5000050,
+				18,
+				1
+			},
+			{
+				5000051,
+				0,
+				0
+			},
+			{
+				5000052,
+				35,
+				0
+			},
+			{
+				5000053,
+				16,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000054,
+			5000055,
+			5000056
+		},
+		elite_expedition_list = {
+			5000045,
+			5000048,
+			5000051
+		},
+		ai_expedition_list = {
+			5000020,
+			5000021,
+			5000022,
+			5000023,
+			5000024
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"Z46"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				18
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				7
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				7
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				17
+			}
+		},
+		float_items = {
+			{
+				7,
+				3,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				5,
+				"2x1ICEIsland_2",
+				43,
+				0
+			},
+			{
+				5,
+				2,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				1,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"2x3IceIsland_1",
+				51,
+				-19
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[20005] = {
+		num_3 = 0,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.2546875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		icon_outline = 0,
+		id = 20005,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.041666667",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "商路护航普通",
+		chapter_name = "CE2",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 5,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000057,
+				10,
+				0
+			},
+			{
+				5000058,
+				28,
+				0
+			},
+			{
+				5000059,
+				28,
+				1
+			},
+			{
+				5000060,
+				14,
+				0
+			},
+			{
+				5000061,
+				29,
+				0
+			},
+			{
+				5000062,
+				22,
+				1
+			},
+			{
+				5000063,
+				0,
+				0
+			},
+			{
+				5000064,
+				39,
+				0
+			},
+			{
+				5000065,
+				22,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000066,
+			5000067,
+			5000068
+		},
+		elite_expedition_list = {
+			5000057,
+			5000060,
+			5000063
+		},
+		ai_expedition_list = {
+			5000030,
+			5000031,
+			5000032,
+			5000033,
+			5000034
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"deyizhi"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				7
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				17
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				7
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				7
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				7
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				7
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				18
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				4,
+				"1x1IceIsland_1",
+				0,
+				8
+			},
+			{
+				4,
+				7,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"2x1ICEIsland_1",
+				0,
+				-8
+			},
+			{
+				2,
+				7,
+				"1x1IceIsland_1",
+				0,
+				12
+			},
+			{
+				2,
+				5,
+				"2x3IceIsland_1",
+				-52,
+				54
+			},
+			{
+				2,
+				0,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				1,
+				0,
+				"1x1IceIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			20,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[20006] = {
+		num_3 = 0,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.6015625",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		icon_outline = 0,
+		id = 20006,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.153125",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "商路护航困难",
+		chapter_name = "CE3",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 6,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "商船发来了求救信号，看来是遭到了偷袭，快出发，护送商船到达撤退点！注意：出击后会<color=#92fc63>立即扣除可挑战次数</color>，且中途撤退也会结束战斗，结算奖励 ",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000069,
+				12,
+				0
+			},
+			{
+				5000070,
+				20,
+				0
+			},
+			{
+				5000071,
+				30,
+				0
+			},
+			{
+				5000072,
+				13,
+				0
+			},
+			{
+				5000073,
+				34,
+				0
+			},
+			{
+				5000074,
+				24,
+				1
+			},
+			{
+				5000075,
+				0,
+				0
+			},
+			{
+				5000076,
+				34,
+				0
+			},
+			{
+				5000077,
+				25,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000078,
+			5000079,
+			5000080
+		},
+		elite_expedition_list = {
+			5000069,
+			5000072,
+			5000075
+		},
+		ai_expedition_list = {
+			5000040,
+			5000041,
+			5000042,
+			5000043,
+			5000044
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			1,
+			2,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			2,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"genaisennao"
+		},
+		awards = {
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				7
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				7
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				18
+			},
+			{
+				5,
+				9,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				7
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				7
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				7
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				7
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				17
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				7
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				1
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x1_4yingxihuodong",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"1x1IceIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				9,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				9,
+				"2x1ICEIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"1x1IceIsland_2",
+				-4,
+				6
+			},
+			{
+				2,
+				1,
+				"1x1_4yingxihuodong",
+				-12,
+				0
+			},
+			{
+				1,
+				9,
+				"2x1ICEIsland_2",
+				-50,
+				4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
 	[1000001] = {
 		num_3 = 1,
 		mine_id = 2001,
@@ -59705,6 +61345,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -60143,6 +61784,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000002,
 		pre_chapter = 1000001,
 		star_require_1 = 1,
@@ -60643,6 +62285,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000003,
 		pre_chapter = 1000002,
 		star_require_1 = 1,
@@ -61213,6 +62856,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000004,
 		pre_chapter = 1000003,
 		star_require_1 = 1,
@@ -61834,6 +63478,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000005,
 		pre_chapter = 1000004,
 		star_require_1 = 1,
@@ -62290,6 +63935,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000006,
 		pre_chapter = 1000005,
 		star_require_1 = 1,
@@ -62743,6 +64389,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000007,
 		pre_chapter = 1000006,
 		star_require_1 = 1,
@@ -63382,6 +65029,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000008,
 		pre_chapter = 1000007,
 		star_require_1 = 1,
@@ -64219,6 +65867,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -64698,6 +66347,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000012,
 		pre_chapter = 1000011,
 		star_require_1 = 1,
@@ -65239,6 +66889,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000013,
 		pre_chapter = 1000012,
 		star_require_1 = 1,
@@ -65850,6 +67501,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000014,
 		pre_chapter = 1000013,
 		star_require_1 = 1,
@@ -66512,6 +68164,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000015,
 		pre_chapter = 1000014,
 		star_require_1 = 1,
@@ -67009,6 +68662,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000016,
 		pre_chapter = 1000015,
 		star_require_1 = 1,
@@ -67503,6 +69157,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000017,
 		pre_chapter = 1000016,
 		star_require_1 = 1,
@@ -68183,6 +69838,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1000018,
 		pre_chapter = 1000017,
 		star_require_1 = 1,
@@ -69061,6 +70717,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1010000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -69528,6 +71185,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1011000,
 		pre_chapter = 1010000,
 		star_require_1 = 1,
@@ -70025,6 +71683,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1012000,
 		pre_chapter = 1011000,
 		star_require_1 = 1,
@@ -70541,6 +72200,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1020000,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -71047,6 +72707,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1020001,
 		pre_chapter = 1020000,
 		star_require_1 = 1,
@@ -71628,6 +73289,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1020002,
 		pre_chapter = 1020001,
 		star_require_1 = 1,
@@ -72348,6 +74010,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -72907,6 +74570,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050002,
 		pre_chapter = 1050001,
 		star_require_1 = 1,
@@ -73468,6 +75132,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050003,
 		pre_chapter = 1050002,
 		star_require_1 = 1,
@@ -74152,6 +75817,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -74711,6 +76377,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050012,
 		pre_chapter = 1050011,
 		star_require_1 = 1,
@@ -75272,6 +76939,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1050013,
 		pre_chapter = 1050012,
 		star_require_1 = 1,
@@ -75956,6 +77624,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -76374,6 +78043,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060002,
 		pre_chapter = 1060001,
 		star_require_1 = 1,
@@ -76882,6 +78552,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060003,
 		pre_chapter = 1060002,
 		star_require_1 = 1,
@@ -77476,6 +79147,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060004,
 		pre_chapter = 1060003,
 		star_require_1 = 1,
@@ -78044,6 +79716,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060005,
 		pre_chapter = 1060004,
 		star_require_1 = 1,
@@ -78711,6 +80384,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060006,
 		pre_chapter = 1060005,
 		star_require_1 = 1,
@@ -79540,6 +81214,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -79999,6 +81674,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060012,
 		pre_chapter = 1060011,
 		star_require_1 = 1,
@@ -80548,6 +82224,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060013,
 		pre_chapter = 1060012,
 		star_require_1 = 1,
@@ -81183,6 +82860,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060014,
 		pre_chapter = 1060013,
 		star_require_1 = 1,
@@ -81792,6 +83470,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060015,
 		pre_chapter = 1060014,
 		star_require_1 = 1,
@@ -82500,6 +84179,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1060016,
 		pre_chapter = 1060015,
 		star_require_1 = 1,
@@ -83370,6 +85050,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070101,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -83913,6 +85594,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070102,
 		pre_chapter = 1070101,
 		star_require_1 = 1,
@@ -84555,6 +86237,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070103,
 		pre_chapter = 1070102,
 		star_require_1 = 1,
@@ -85255,6 +86938,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070201,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -85814,6 +87498,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070202,
 		pre_chapter = 1070201,
 		star_require_1 = 1,
@@ -86472,6 +88157,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1070203,
 		pre_chapter = 1070202,
 		star_require_1 = 1,
@@ -87188,6 +88874,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1080001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -87680,6 +89367,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1080002,
 		pre_chapter = 1080001,
 		star_require_1 = 1,
@@ -88277,6 +89965,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1080003,
 		pre_chapter = 1080002,
 		star_require_1 = 1,
@@ -88867,6 +90556,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1080004,
 		pre_chapter = 1080003,
 		star_require_1 = 1,
@@ -89570,6 +91260,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1080005,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -90320,6 +92011,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -90793,6 +92485,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090002,
 		pre_chapter = 1090001,
 		star_require_1 = 1,
@@ -91298,6 +92991,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090003,
 		pre_chapter = 1090002,
 		star_require_1 = 1,
@@ -91861,6 +93555,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090004,
 		pre_chapter = 1090003,
 		star_require_1 = 1,
@@ -92435,6 +94130,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090005,
 		pre_chapter = 1090004,
 		star_require_1 = 1,
@@ -93087,6 +94783,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090006,
 		pre_chapter = 1090005,
 		star_require_1 = 1,
@@ -93914,6 +95611,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -94442,6 +96140,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090012,
 		pre_chapter = 1090011,
 		star_require_1 = 1,
@@ -95002,6 +96701,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090013,
 		pre_chapter = 1090012,
 		star_require_1 = 1,
@@ -95620,6 +97320,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090014,
 		pre_chapter = 1090013,
 		star_require_1 = 1,
@@ -96249,6 +97950,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090015,
 		pre_chapter = 1090014,
 		star_require_1 = 1,
@@ -96956,6 +98658,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090016,
 		pre_chapter = 1090015,
 		star_require_1 = 1,
@@ -97838,6 +99541,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1090017,
 		pre_chapter = 1090016,
 		star_require_1 = 1,
@@ -98676,6 +100380,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -99199,6 +100904,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100002,
 		pre_chapter = 1100001,
 		star_require_1 = 1,
@@ -99778,6 +101484,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100003,
 		pre_chapter = 1100002,
 		star_require_1 = 1,
@@ -100426,6 +102133,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100004,
 		pre_chapter = 1100003,
 		star_require_1 = 1,
@@ -101025,6 +102733,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100005,
 		pre_chapter = 1100004,
 		star_require_1 = 1,
@@ -101723,6 +103432,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100006,
 		pre_chapter = 1100005,
 		star_require_1 = 1,
@@ -102418,6 +104128,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -102984,6 +104695,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100012,
 		pre_chapter = 1100011,
 		star_require_1 = 1,
@@ -103605,6 +105317,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100013,
 		pre_chapter = 1100012,
 		star_require_1 = 1,
@@ -104296,6 +106009,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100014,
 		pre_chapter = 1100013,
 		star_require_1 = 1,
@@ -104937,6 +106651,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100015,
 		pre_chapter = 1100014,
 		star_require_1 = 1,
@@ -105677,6 +107392,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100016,
 		pre_chapter = 1100015,
 		star_require_1 = 1,
@@ -106413,6 +108129,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1100020,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -107138,6 +108855,7 @@ pg.chapter_template = {
 		air_dominance = 95,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1110001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -107714,6 +109432,7 @@ pg.chapter_template = {
 		air_dominance = 130,
 		best_air_dominance = 170,
 		count = 0,
+		icon_outline = 0,
 		id = 1110002,
 		pre_chapter = 1110001,
 		star_require_1 = 1,
@@ -108213,6 +109932,7 @@ pg.chapter_template = {
 		air_dominance = 170,
 		best_air_dominance = 225,
 		count = 0,
+		icon_outline = 0,
 		id = 1110003,
 		pre_chapter = 1110002,
 		star_require_1 = 1,
@@ -108762,6 +110482,7 @@ pg.chapter_template = {
 		air_dominance = 220,
 		best_air_dominance = 290,
 		count = 0,
+		icon_outline = 0,
 		id = 1110004,
 		pre_chapter = 1110003,
 		star_require_1 = 1,
@@ -109399,6 +111120,7 @@ pg.chapter_template = {
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
+		icon_outline = 0,
 		id = 1110005,
 		pre_chapter = 1110004,
 		star_require_1 = 1,
@@ -110087,6 +111809,7 @@ pg.chapter_template = {
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
+		icon_outline = 0,
 		id = 1110006,
 		pre_chapter = 1110005,
 		star_require_1 = 1,
@@ -110726,6 +112449,7 @@ pg.chapter_template = {
 		air_dominance = 375,
 		best_air_dominance = 490,
 		count = 0,
+		icon_outline = 0,
 		id = 1110011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -111344,6 +113068,7 @@ pg.chapter_template = {
 		air_dominance = 470,
 		best_air_dominance = 615,
 		count = 0,
+		icon_outline = 0,
 		id = 1110012,
 		pre_chapter = 1110011,
 		star_require_1 = 1,
@@ -111885,6 +113610,7 @@ pg.chapter_template = {
 		air_dominance = 570,
 		best_air_dominance = 745,
 		count = 0,
+		icon_outline = 0,
 		id = 1110013,
 		pre_chapter = 1110012,
 		star_require_1 = 1,
@@ -112518,6 +114244,7 @@ pg.chapter_template = {
 		air_dominance = 730,
 		best_air_dominance = 950,
 		count = 0,
+		icon_outline = 0,
 		id = 1110014,
 		pre_chapter = 1110013,
 		star_require_1 = 1,
@@ -113197,6 +114924,7 @@ pg.chapter_template = {
 		air_dominance = 915,
 		best_air_dominance = 1190,
 		count = 0,
+		icon_outline = 0,
 		id = 1110015,
 		pre_chapter = 1110014,
 		star_require_1 = 1,
@@ -113929,6 +115657,7 @@ pg.chapter_template = {
 		air_dominance = 1125,
 		best_air_dominance = 1465,
 		count = 0,
+		icon_outline = 0,
 		id = 1110016,
 		pre_chapter = 1110015,
 		star_require_1 = 1,
@@ -114612,6 +116341,7 @@ pg.chapter_template = {
 		air_dominance = 1485,
 		best_air_dominance = 1935,
 		count = 0,
+		icon_outline = 0,
 		id = 1110021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -114996,6 +116726,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -115529,6 +117260,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120002,
 		pre_chapter = 1120001,
 		star_require_1 = 1,
@@ -116202,6 +117934,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120003,
 		pre_chapter = 1120002,
 		star_require_1 = 1,
@@ -116842,6 +118575,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120004,
 		pre_chapter = 1120003,
 		star_require_1 = 1,
@@ -117600,6 +119334,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120005,
 		pre_chapter = 1120004,
 		star_require_1 = 1,
@@ -118153,6 +119888,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120006,
 		pre_chapter = 1120005,
 		star_require_1 = 1,
@@ -118714,6 +120450,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120007,
 		pre_chapter = 1120006,
 		star_require_1 = 1,
@@ -119330,6 +121067,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120008,
 		pre_chapter = 1120007,
 		star_require_1 = 1,
@@ -120102,6 +121840,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120011,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -120676,6 +122415,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120012,
 		pre_chapter = 1120011,
 		star_require_1 = 1,
@@ -121392,6 +123132,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120013,
 		pre_chapter = 1120012,
 		star_require_1 = 1,
@@ -122073,6 +123814,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120014,
 		pre_chapter = 1120013,
 		star_require_1 = 1,
@@ -122872,6 +124614,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120015,
 		pre_chapter = 1120014,
 		star_require_1 = 1,
@@ -123466,6 +125209,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120016,
 		pre_chapter = 1120015,
 		star_require_1 = 1,
@@ -124068,6 +125812,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120017,
 		pre_chapter = 1120016,
 		star_require_1 = 1,
@@ -124725,6 +126470,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120018,
 		pre_chapter = 1120017,
 		star_require_1 = 1,
@@ -125538,6 +127284,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1120021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -125941,6 +127688,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -126410,6 +128158,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130002,
 		pre_chapter = 1130001,
 		star_require_1 = 1,
@@ -126940,6 +128689,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130003,
 		pre_chapter = 1130002,
 		star_require_1 = 1,
@@ -127508,6 +129258,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130101,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -127977,6 +129728,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130102,
 		pre_chapter = 1130101,
 		star_require_1 = 1,
@@ -128507,6 +130259,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1130103,
 		pre_chapter = 1130102,
 		star_require_1 = 1,
@@ -129075,6 +130828,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140001,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -129600,6 +131354,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140003,
 		pre_chapter = 1140001,
 		star_require_1 = 1,
@@ -130231,6 +131986,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140004,
 		pre_chapter = 1140003,
 		star_require_1 = 1,
@@ -130974,6 +132730,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140005,
 		pre_chapter = 1140004,
 		star_require_1 = 1,
@@ -131512,6 +133269,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140007,
 		pre_chapter = 1140005,
 		star_require_1 = 1,
@@ -132155,6 +133913,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140008,
 		pre_chapter = 1140007,
 		star_require_1 = 1,
@@ -132931,6 +134690,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140011,
 		pre_chapter = 201,
 		star_require_1 = 1,
@@ -133497,6 +135257,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140013,
 		pre_chapter = 1140011,
 		star_require_1 = 1,
@@ -134169,6 +135930,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140014,
 		pre_chapter = 1140013,
 		star_require_1 = 1,
@@ -134953,6 +136715,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140015,
 		pre_chapter = 1140014,
 		star_require_1 = 1,
@@ -135534,6 +137297,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140017,
 		pre_chapter = 1140015,
 		star_require_1 = 1,
@@ -136220,6 +137984,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140018,
 		pre_chapter = 1140017,
 		star_require_1 = 1,
@@ -137032,6 +138797,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1140021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -137393,6 +139159,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -137954,6 +139721,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150002,
 		pre_chapter = 1150001,
 		star_require_1 = 1,
@@ -138576,6 +140344,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150003,
 		pre_chapter = 1150002,
 		star_require_1 = 1,
@@ -139289,6 +141058,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150004,
 		pre_chapter = 1150003,
 		star_require_1 = 1,
@@ -139940,6 +141710,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150005,
 		pre_chapter = 1150004,
 		star_require_1 = 1,
@@ -140732,6 +142503,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150006,
 		pre_chapter = 1150005,
 		star_require_1 = 1,
@@ -141703,6 +143475,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -142305,6 +144078,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150012,
 		pre_chapter = 1150011,
 		star_require_1 = 1,
@@ -142968,6 +144742,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150013,
 		pre_chapter = 1150012,
 		star_require_1 = 1,
@@ -143722,6 +145497,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150014,
 		pre_chapter = 1150013,
 		star_require_1 = 1,
@@ -144414,6 +146190,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150015,
 		pre_chapter = 1150014,
 		star_require_1 = 1,
@@ -145247,6 +147024,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150016,
 		pre_chapter = 1150015,
 		star_require_1 = 1,
@@ -146259,6 +148037,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1150021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -146749,6 +148528,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1160001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -147250,6 +149030,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1160002,
 		pre_chapter = 1160001,
 		star_require_1 = 1,
@@ -147868,6 +149649,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1160003,
 		pre_chapter = 1160002,
 		star_require_1 = 1,
@@ -148398,6 +150180,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1160004,
 		pre_chapter = 1160003,
 		star_require_1 = 1,
@@ -149184,6 +150967,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1160005,
 		pre_chapter = 1160004,
 		star_require_1 = 1,
@@ -149721,6 +151505,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1170001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -150232,6 +152017,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1170002,
 		pre_chapter = 1170001,
 		star_require_1 = 1,
@@ -150801,6 +152587,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1170003,
 		pre_chapter = 1170002,
 		star_require_1 = 1,
@@ -151409,6 +153196,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -151985,6 +153773,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180002,
 		pre_chapter = 1180001,
 		star_require_1 = 1,
@@ -152532,6 +154321,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180003,
 		pre_chapter = 1180002,
 		star_require_1 = 1,
@@ -153175,6 +154965,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180004,
 		pre_chapter = 1180003,
 		star_require_1 = 1,
@@ -153819,6 +155610,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180005,
 		pre_chapter = 1180004,
 		star_require_1 = 1,
@@ -154506,6 +156298,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180006,
 		pre_chapter = 1180005,
 		star_require_1 = 1,
@@ -155167,6 +156960,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -155785,6 +157579,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180012,
 		pre_chapter = 1180011,
 		star_require_1 = 1,
@@ -156374,6 +158169,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180013,
 		pre_chapter = 1180012,
 		star_require_1 = 1,
@@ -157059,6 +158855,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180014,
 		pre_chapter = 1180013,
 		star_require_1 = 1,
@@ -157745,6 +159542,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180015,
 		pre_chapter = 1180014,
 		star_require_1 = 1,
@@ -158476,6 +160274,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180016,
 		pre_chapter = 1180015,
 		star_require_1 = 1,
@@ -159181,6 +160980,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1180021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -159565,6 +161365,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -160036,6 +161837,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190002,
 		pre_chapter = 1190001,
 		star_require_1 = 1,
@@ -160569,6 +162371,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190003,
 		pre_chapter = 1190002,
 		star_require_1 = 1,
@@ -161192,6 +162995,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190004,
 		pre_chapter = 1190003,
 		star_require_1 = 1,
@@ -161838,6 +163642,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190005,
 		pre_chapter = 1190004,
 		star_require_1 = 1,
@@ -162502,6 +164307,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190006,
 		pre_chapter = 1190005,
 		star_require_1 = 1,
@@ -163341,6 +165147,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -163853,6 +165660,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190012,
 		pre_chapter = 1190011,
 		star_require_1 = 1,
@@ -164427,6 +166235,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190013,
 		pre_chapter = 1190012,
 		star_require_1 = 1,
@@ -165091,6 +166900,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190014,
 		pre_chapter = 1190013,
 		star_require_1 = 1,
@@ -165778,6 +167588,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190015,
 		pre_chapter = 1190014,
 		star_require_1 = 1,
@@ -166483,6 +168294,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190016,
 		pre_chapter = 1190015,
 		star_require_1 = 1,
@@ -167363,6 +169175,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1190017,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -167922,6 +169735,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1200001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -168486,6 +170300,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1200002,
 		pre_chapter = 1200001,
 		star_require_1 = 1,
@@ -169199,6 +171014,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1200003,
 		pre_chapter = 1200002,
 		star_require_1 = 1,
@@ -169928,6 +171744,7 @@ pg.chapter_template = {
 		air_dominance = 0,
 		best_air_dominance = 0,
 		count = 0,
+		icon_outline = 0,
 		id = 1200004,
 		pre_chapter = 1200003,
 		star_require_1 = 1,
@@ -170649,6 +172466,7 @@ pg.chapter_template = {
 		air_dominance = 95,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1210001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -171229,6 +173047,7 @@ pg.chapter_template = {
 		air_dominance = 130,
 		best_air_dominance = 170,
 		count = 0,
+		icon_outline = 0,
 		id = 1210002,
 		pre_chapter = 1210001,
 		star_require_1 = 1,
@@ -171774,6 +173593,7 @@ pg.chapter_template = {
 		air_dominance = 170,
 		best_air_dominance = 225,
 		count = 0,
+		icon_outline = 0,
 		id = 1210003,
 		pre_chapter = 1210002,
 		star_require_1 = 1,
@@ -172417,6 +174237,7 @@ pg.chapter_template = {
 		air_dominance = 220,
 		best_air_dominance = 290,
 		count = 0,
+		icon_outline = 0,
 		id = 1210004,
 		pre_chapter = 1210003,
 		star_require_1 = 1,
@@ -173058,6 +174879,7 @@ pg.chapter_template = {
 		air_dominance = 285,
 		best_air_dominance = 375,
 		count = 0,
+		icon_outline = 0,
 		id = 1210005,
 		pre_chapter = 1210004,
 		star_require_1 = 1,
@@ -173750,6 +175572,7 @@ pg.chapter_template = {
 		air_dominance = 380,
 		best_air_dominance = 495,
 		count = 0,
+		icon_outline = 0,
 		id = 1210006,
 		pre_chapter = 1210005,
 		star_require_1 = 1,
@@ -174502,6 +176325,7 @@ pg.chapter_template = {
 		air_dominance = 375,
 		best_air_dominance = 490,
 		count = 0,
+		icon_outline = 0,
 		id = 1210011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -175124,6 +176948,7 @@ pg.chapter_template = {
 		air_dominance = 470,
 		best_air_dominance = 615,
 		count = 0,
+		icon_outline = 0,
 		id = 1210012,
 		pre_chapter = 1210011,
 		star_require_1 = 1,
@@ -175711,6 +177536,7 @@ pg.chapter_template = {
 		air_dominance = 570,
 		best_air_dominance = 745,
 		count = 0,
+		icon_outline = 0,
 		id = 1210013,
 		pre_chapter = 1210012,
 		star_require_1 = 1,
@@ -176396,6 +178222,7 @@ pg.chapter_template = {
 		air_dominance = 730,
 		best_air_dominance = 950,
 		count = 0,
+		icon_outline = 0,
 		id = 1210014,
 		pre_chapter = 1210013,
 		star_require_1 = 1,
@@ -177079,6 +178906,7 @@ pg.chapter_template = {
 		air_dominance = 915,
 		best_air_dominance = 1190,
 		count = 0,
+		icon_outline = 0,
 		id = 1210015,
 		pre_chapter = 1210014,
 		star_require_1 = 1,
@@ -177815,6 +179643,7 @@ pg.chapter_template = {
 		air_dominance = 1125,
 		best_air_dominance = 1465,
 		count = 0,
+		icon_outline = 0,
 		id = 1210016,
 		pre_chapter = 1210015,
 		star_require_1 = 1,
@@ -178611,6 +180440,7 @@ pg.chapter_template = {
 		air_dominance = 1485,
 		best_air_dominance = 1935,
 		count = 0,
+		icon_outline = 0,
 		id = 1210021,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -178999,6 +180829,7 @@ pg.chapter_template = {
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1220001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -179542,6 +181373,7 @@ pg.chapter_template = {
 		air_dominance = 180,
 		best_air_dominance = 235,
 		count = 0,
+		icon_outline = 0,
 		id = 1220002,
 		pre_chapter = 1220001,
 		star_require_1 = 1,
@@ -180265,6 +182097,7 @@ pg.chapter_template = {
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1220003,
 		pre_chapter = 1220002,
 		star_require_1 = 1,
@@ -181008,6 +182841,7 @@ pg.chapter_template = {
 		air_dominance = 880,
 		best_air_dominance = 1145,
 		count = 0,
+		icon_outline = 0,
 		id = 1220004,
 		pre_chapter = 1220003,
 		star_require_1 = 1,
@@ -181865,6 +183699,7 @@ pg.chapter_template = {
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 1,
+		icon_outline = 0,
 		id = 1220005,
 		pre_chapter = 1220004,
 		star_require_1 = 1,
@@ -182526,6 +184361,7 @@ pg.chapter_template = {
 		air_dominance = 50,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1220021,
 		pre_chapter = 1220004,
 		star_require_1 = 1,
@@ -183035,6 +184871,7 @@ pg.chapter_template = {
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 1230001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -183581,6 +185418,7 @@ pg.chapter_template = {
 		air_dominance = 130,
 		best_air_dominance = 170,
 		count = 0,
+		icon_outline = 0,
 		id = 1230002,
 		pre_chapter = 1230001,
 		star_require_1 = 1,
@@ -184129,6 +185967,7 @@ pg.chapter_template = {
 		air_dominance = 165,
 		best_air_dominance = 215,
 		count = 0,
+		icon_outline = 0,
 		id = 1230003,
 		pre_chapter = 1230002,
 		star_require_1 = 1,
@@ -184762,6 +186601,7 @@ pg.chapter_template = {
 		air_dominance = 210,
 		best_air_dominance = 275,
 		count = 0,
+		icon_outline = 0,
 		id = 1230004,
 		pre_chapter = 1230003,
 		star_require_1 = 1,
@@ -185404,6 +187244,7 @@ pg.chapter_template = {
 		air_dominance = 270,
 		best_air_dominance = 355,
 		count = 0,
+		icon_outline = 0,
 		id = 1230005,
 		pre_chapter = 1230004,
 		star_require_1 = 1,
@@ -186089,6 +187930,7 @@ pg.chapter_template = {
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
+		icon_outline = 0,
 		id = 1230006,
 		pre_chapter = 1230005,
 		star_require_1 = 1,
@@ -186746,6 +188588,7 @@ pg.chapter_template = {
 		air_dominance = 555,
 		best_air_dominance = 725,
 		count = 0,
+		icon_outline = 0,
 		id = 1230011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -187334,6 +189177,7 @@ pg.chapter_template = {
 		air_dominance = 705,
 		best_air_dominance = 920,
 		count = 0,
+		icon_outline = 0,
 		id = 1230012,
 		pre_chapter = 1230011,
 		star_require_1 = 1,
@@ -187924,6 +189768,7 @@ pg.chapter_template = {
 		air_dominance = 875,
 		best_air_dominance = 1140,
 		count = 0,
+		icon_outline = 0,
 		id = 1230013,
 		pre_chapter = 1230012,
 		star_require_1 = 1,
@@ -188599,6 +190444,7 @@ pg.chapter_template = {
 		air_dominance = 950,
 		best_air_dominance = 1235,
 		count = 0,
+		icon_outline = 0,
 		id = 1230014,
 		pre_chapter = 1230013,
 		star_require_1 = 1,
@@ -189283,6 +191129,7 @@ pg.chapter_template = {
 		air_dominance = 1155,
 		best_air_dominance = 1505,
 		count = 0,
+		icon_outline = 0,
 		id = 1230015,
 		pre_chapter = 1230014,
 		star_require_1 = 1,
@@ -190012,6 +191859,7 @@ pg.chapter_template = {
 		air_dominance = 1345,
 		best_air_dominance = 1750,
 		count = 0,
+		icon_outline = 0,
 		id = 1230016,
 		pre_chapter = 1230015,
 		star_require_1 = 1,
@@ -190713,6 +192561,7 @@ pg.chapter_template = {
 		air_dominance = 1770,
 		best_air_dominance = 2305,
 		count = 1,
+		icon_outline = 0,
 		id = 1230017,
 		pre_chapter = 1230016,
 		star_require_1 = 1,
@@ -191362,6 +193211,7 @@ pg.chapter_template = {
 		air_dominance = 620,
 		best_air_dominance = 810,
 		count = 0,
+		icon_outline = 0,
 		id = 1230021,
 		pre_chapter = 1230016,
 		star_require_1 = 1,
@@ -191743,6 +193593,7 @@ pg.chapter_template = {
 		air_dominance = 150,
 		best_air_dominance = 195,
 		count = 0,
+		icon_outline = 0,
 		id = 2100001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -192260,6 +194111,7 @@ pg.chapter_template = {
 		air_dominance = 205,
 		best_air_dominance = 270,
 		count = 0,
+		icon_outline = 0,
 		id = 2100002,
 		pre_chapter = 2100001,
 		star_require_1 = 1,
@@ -192834,6 +194686,7 @@ pg.chapter_template = {
 		air_dominance = 270,
 		best_air_dominance = 355,
 		count = 0,
+		icon_outline = 0,
 		id = 2100003,
 		pre_chapter = 2100002,
 		star_require_1 = 1,
@@ -193475,6 +195328,7 @@ pg.chapter_template = {
 		air_dominance = 330,
 		best_air_dominance = 430,
 		count = 0,
+		icon_outline = 0,
 		id = 2100004,
 		pre_chapter = 2100003,
 		star_require_1 = 1,
@@ -194066,6 +195920,7 @@ pg.chapter_template = {
 		air_dominance = 430,
 		best_air_dominance = 560,
 		count = 0,
+		icon_outline = 0,
 		id = 2100005,
 		pre_chapter = 2100004,
 		star_require_1 = 1,
@@ -194759,6 +196614,7 @@ pg.chapter_template = {
 		air_dominance = 535,
 		best_air_dominance = 700,
 		count = 0,
+		icon_outline = 0,
 		id = 2100006,
 		pre_chapter = 2100005,
 		star_require_1 = 1,
@@ -195447,6 +197303,7 @@ pg.chapter_template = {
 		air_dominance = 530,
 		best_air_dominance = 690,
 		count = 0,
+		icon_outline = 0,
 		id = 2100011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -196005,6 +197862,7 @@ pg.chapter_template = {
 		air_dominance = 605,
 		best_air_dominance = 790,
 		count = 0,
+		icon_outline = 0,
 		id = 2100012,
 		pre_chapter = 2100011,
 		star_require_1 = 1,
@@ -196620,6 +198478,7 @@ pg.chapter_template = {
 		air_dominance = 680,
 		best_air_dominance = 885,
 		count = 0,
+		icon_outline = 0,
 		id = 2100013,
 		pre_chapter = 2100012,
 		star_require_1 = 1,
@@ -197303,6 +199162,7 @@ pg.chapter_template = {
 		air_dominance = 810,
 		best_air_dominance = 1055,
 		count = 0,
+		icon_outline = 0,
 		id = 2100014,
 		pre_chapter = 2100013,
 		star_require_1 = 1,
@@ -197936,6 +199796,7 @@ pg.chapter_template = {
 		air_dominance = 965,
 		best_air_dominance = 1255,
 		count = 0,
+		icon_outline = 0,
 		id = 2100015,
 		pre_chapter = 2100014,
 		star_require_1 = 1,
@@ -198671,6 +200532,7 @@ pg.chapter_template = {
 		air_dominance = 1130,
 		best_air_dominance = 1470,
 		count = 0,
+		icon_outline = 0,
 		id = 2100016,
 		pre_chapter = 2100015,
 		star_require_1 = 1,
@@ -199385,6 +201247,7780 @@ pg.chapter_template = {
 		},
 		chapter_buff = {}
 	},
+	[2100021] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.15703125",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 90,
+		best_air_dominance = 120,
+		count = 0,
+		icon_outline = 0,
+		id = 2100021,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.361458333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 15,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "归途|~Voyage~",
+		chapter_name = "A1",
+		type = 1,
+		act_id = 100001,
+		enter_story = "LINGDONG02",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100020,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
+		difficulty = 3,
+		avoid_ratio = 8,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090001,
+				18,
+				0
+			},
+			{
+				1090002,
+				46,
+				0
+			},
+			{
+				1090003,
+				16,
+				1
+			},
+			{
+				1090004,
+				18,
+				0
+			},
+			{
+				1090005,
+				32,
+				0
+			},
+			{
+				1090006,
+				12,
+				1
+			},
+			{
+				1090007,
+				0,
+				0
+			},
+			{
+				1090008,
+				32,
+				0
+			},
+			{
+				1090009,
+				10,
+				1
+			},
+			{
+				1090010,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090002,
+			1090005,
+			1090008,
+			1090011
+		},
+		elite_expedition_list = {
+			1090002,
+			1090004,
+			1090005
+		},
+		ai_expedition_list = {
+			1090400
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090016
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenqingxun"
+		},
+		awards = {
+			{
+				2,
+				57291
+			},
+			{
+				2,
+				57271
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				8
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"1x2_2yingxihuodong",
+				0,
+				37
+			},
+			{
+				1,
+				0,
+				"1x2_1yingxihuodong",
+				6,
+				36
+			},
+			{
+				0,
+				6,
+				"4x4_1yingxihuodong",
+				-35,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			124,
+			-153,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100022] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 50,
+		pos_x = "0.50546875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 120,
+		best_air_dominance = 160,
+		count = 0,
+		icon_outline = 0,
+		id = 2100022,
+		pre_chapter = 2100021,
+		star_require_1 = 1,
+		pos_y = "0.111458333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 20,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "狩猎场|~Hunting~",
+		chapter_name = "A2",
+		type = 1,
+		act_id = 100001,
+		enter_story = "LINGDONG04",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100020,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
+		difficulty = 4,
+		avoid_ratio = 9,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.65,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090017,
+				16,
+				0
+			},
+			{
+				1090018,
+				42,
+				0
+			},
+			{
+				1090019,
+				18,
+				1
+			},
+			{
+				1090020,
+				16,
+				0
+			},
+			{
+				1090021,
+				34,
+				0
+			},
+			{
+				1090022,
+				14,
+				1
+			},
+			{
+				1090023,
+				0,
+				0
+			},
+			{
+				1090024,
+				36,
+				0
+			},
+			{
+				1090025,
+				12,
+				1
+			},
+			{
+				1090026,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090018,
+			1090021,
+			1090024,
+			1090027
+		},
+		elite_expedition_list = {
+			1090018,
+			1090021,
+			1090024
+		},
+		ai_expedition_list = {
+			1090401,
+			1090402
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090032
+		},
+		enemy_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				57292
+			},
+			{
+				2,
+				57272
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				12
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				4
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				2,
+				"1x1_1yingxihuodong",
+				0,
+				11
+			},
+			{
+				3,
+				4,
+				"1x2_1yingxihuodong",
+				0,
+				34
+			},
+			{
+				0,
+				1,
+				"4x4_2yingxihuodong",
+				-55,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			139,
+			-151,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100023] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 34,
+		pos_x = "0.635546875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 160,
+		best_air_dominance = 210,
+		count = 0,
+		icon_outline = 0,
+		id = 2100023,
+		pre_chapter = 2100022,
+		star_require_1 = 1,
+		pos_y = "0.3446875",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "捕鼠夹|~Trap~",
+		chapter_name = "A3",
+		type = 1,
+		act_id = 100001,
+		enter_story = "LINGDONG07",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100020,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.64,
+			0.59,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090033,
+				12,
+				0
+			},
+			{
+				1090034,
+				38,
+				0
+			},
+			{
+				1090035,
+				20,
+				1
+			},
+			{
+				1090036,
+				14,
+				0
+			},
+			{
+				1090037,
+				36,
+				0
+			},
+			{
+				1090038,
+				18,
+				1
+			},
+			{
+				1090039,
+				0,
+				0
+			},
+			{
+				1090040,
+				38,
+				0
+			},
+			{
+				1090041,
+				17,
+				1
+			},
+			{
+				1090042,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090034,
+			1090037,
+			1090040,
+			1090043
+		},
+		elite_expedition_list = {
+			1090034,
+			1090036,
+			1090039
+		},
+		ai_expedition_list = {
+			1090403,
+			1090404
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090048
+		},
+		enemy_refresh = {
+			0,
+			0,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"shaenhuosite"
+		},
+		awards = {
+			{
+				2,
+				57293
+			},
+			{
+				2,
+				57273
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				8
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				12
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"1x2_1yingxihuodong",
+				-9,
+				37
+			},
+			{
+				5,
+				2,
+				"1x1_2yingxihuodong",
+				0,
+				7
+			},
+			{
+				3,
+				4,
+				"4x4_1yingxihuodong",
+				-44,
+				-37
+			},
+			{
+				3,
+				0,
+				"1x2_2yingxihuodong",
+				10,
+				35
+			},
+			{
+				2,
+				6,
+				"1x1_1yingxihuodong",
+				0,
+				7
+			},
+			{
+				0,
+				3,
+				"1x3_2yingxihuodong",
+				0,
+				11
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			46,
+			20,
+			111,
+			-98,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100024] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 25,
+		pos_x = "0.121875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 200,
+		best_air_dominance = 260,
+		count = 0,
+		icon_outline = 0,
+		id = 2100024,
+		pre_chapter = 2100023,
+		star_require_1 = 1,
+		pos_y = "0.15",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "北方的访客|～Visitor~",
+		chapter_name = "B1",
+		type = 1,
+		act_id = 100001,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100021,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
+		difficulty = 5,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090049,
+				12,
+				0
+			},
+			{
+				1090050,
+				34,
+				0
+			},
+			{
+				1090051,
+				26,
+				1
+			},
+			{
+				1090052,
+				15,
+				0
+			},
+			{
+				1090053,
+				34,
+				0
+			},
+			{
+				1090054,
+				22,
+				1
+			},
+			{
+				1090055,
+				0,
+				0
+			},
+			{
+				1090056,
+				34,
+				0
+			},
+			{
+				1090057,
+				20,
+				1
+			},
+			{
+				1090058,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090050,
+			1090053,
+			1090056,
+			1090059
+		},
+		elite_expedition_list = {
+			1090050,
+			1090052,
+			1090053
+		},
+		ai_expedition_list = {
+			1090405,
+			1090406
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090064
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				57294
+			},
+			{
+				2,
+				57274
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"1x2_1yingxihuodong",
+				-2,
+				37
+			},
+			{
+				3,
+				3,
+				"1x1_1yingxihuodong",
+				0,
+				6
+			},
+			{
+				3,
+				0,
+				"1x2_2yingxihuodong",
+				16,
+				36
+			},
+			{
+				1,
+				6,
+				"1x1_2yingxihuodong",
+				0,
+				11
+			},
+			{
+				0,
+				9,
+				"4x4_1yingxihuodong",
+				-28,
+				-30
+			},
+			{
+				0,
+				3,
+				"4x4_2yingxihuodong",
+				53,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			20,
+			-115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100025] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 25,
+		pos_x = "0.57734375",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 260,
+		best_air_dominance = 340,
+		count = 0,
+		icon_outline = 0,
+		id = 2100025,
+		pre_chapter = 2100024,
+		star_require_1 = 1,
+		pos_y = "0.073958",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "“钨”行动|~Operate~",
+		chapter_name = "B2",
+		type = 1,
+		act_id = 100001,
+		enter_story = "LINGDONG13",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100021,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.66,
+			0.36,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090065,
+				10,
+				0
+			},
+			{
+				1090066,
+				28,
+				0
+			},
+			{
+				1090067,
+				28,
+				1
+			},
+			{
+				1090068,
+				14,
+				0
+			},
+			{
+				1090069,
+				29,
+				0
+			},
+			{
+				1090070,
+				22,
+				1
+			},
+			{
+				1090071,
+				0,
+				0
+			},
+			{
+				1090072,
+				34,
+				0
+			},
+			{
+				1090073,
+				22,
+				1
+			},
+			{
+				1090074,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090066,
+			1090069,
+			1090072,
+			1090075
+		},
+		elite_expedition_list = {
+			1090066,
+			1090069,
+			1090072
+		},
+		ai_expedition_list = {
+			1090407,
+			1090408,
+			1090409
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090080
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				57295
+			},
+			{
+				2,
+				57275
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				16
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				12
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"1x2_2yingxihuodong",
+				13,
+				45
+			},
+			{
+				5,
+				5,
+				"1x1_2yingxihuodong",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"1x3_1yingxihuodong",
+				0,
+				14
+			},
+			{
+				3,
+				2,
+				"1x1_1yingxihuodong",
+				0,
+				12
+			},
+			{
+				1,
+				2,
+				"1x2_1yingxihuodong",
+				0,
+				33
+			},
+			{
+				0,
+				6,
+				"4x4_1yingxihuodong",
+				-35,
+				-27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			46,
+			20,
+			37,
+			-55,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100026] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 25,
+		pos_x = "0.621875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 320,
+		best_air_dominance = 420,
+		count = 0,
+		icon_outline = 0,
+		id = 2100026,
+		pre_chapter = 2100025,
+		star_require_1 = 1,
+		pos_y = "0.347395833",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "凛冬王冠|～Crown~",
+		chapter_name = "B3",
+		type = 1,
+		act_id = 100001,
+		enter_story = "LINGDONG17",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 2100021,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
+		difficulty = 7,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.52,
+			0.62,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1090081,
+				8,
+				0
+			},
+			{
+				1090082,
+				26,
+				0
+			},
+			{
+				1090083,
+				30,
+				1
+			},
+			{
+				1090084,
+				12,
+				0
+			},
+			{
+				1090085,
+				32,
+				0
+			},
+			{
+				1090086,
+				26,
+				1
+			},
+			{
+				1090087,
+				0,
+				0
+			},
+			{
+				1090088,
+				32,
+				0
+			},
+			{
+				1090089,
+				26,
+				1
+			},
+			{
+				1090090,
+				0,
+				2
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090082,
+			1090085,
+			1090088,
+			1090091
+		},
+		elite_expedition_list = {
+			1090082,
+			1090085,
+			1090088
+		},
+		ai_expedition_list = {
+			1090410,
+			1090411,
+			1090412,
+			1090413
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090096
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				57296
+			},
+			{
+				2,
+				57276
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				1
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				8
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"1x3_1yingxihuodong",
+				0,
+				0
+			},
+			{
+				7,
+				5,
+				"1x2_2yingxihuodong",
+				-4,
+				34
+			},
+			{
+				6,
+				2,
+				"1x1_2yingxihuodong",
+				0,
+				0
+			},
+			{
+				5,
+				10,
+				"4x4_1yingxihuodong",
+				-45,
+				-27
+			},
+			{
+				4,
+				4,
+				"1x1_1yingxihuodong",
+				0,
+				7
+			},
+			{
+				3,
+				6,
+				"1x2_1yingxihuodong",
+				-6,
+				32
+			},
+			{
+				3,
+				1,
+				"1x3_2yingxihuodong",
+				0,
+				9
+			},
+			{
+				2,
+				8,
+				"1x1_2yingxihuodong",
+				0,
+				7
+			},
+			{
+				0,
+				5,
+				"4x4_2yingxihuodong",
+				-50,
+				-24
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			222,
+			52,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100031] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 100,
+		pos_x = "0.15703125",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 320,
+		best_air_dominance = 420,
+		count = 0,
+		icon_outline = 0,
+		id = 2100031,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.361458333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 20,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "归途|~Voyage~",
+		chapter_name = "C1",
+		type = 2,
+		act_id = 100001,
+		enter_story = "LINGDONG02",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100030,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "完成护航任务的贝尔法斯特一行，在返航的途中遭遇了新型的塞壬。尽量规避它们的纠缠并取得胜利吧！",
+		difficulty = 6,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				65
+			},
+			{
+				"cannon",
+				1,
+				680
+			},
+			{
+				"dodge",
+				1,
+				400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090200,
+				12,
+				0
+			},
+			{
+				1090201,
+				42,
+				0
+			},
+			{
+				1090202,
+				20,
+				0
+			},
+			{
+				1090203,
+				12,
+				0
+			},
+			{
+				1090204,
+				34,
+				0
+			},
+			{
+				1090205,
+				22,
+				1
+			},
+			{
+				1090206,
+				0,
+				0
+			},
+			{
+				1090207,
+				34,
+				0
+			},
+			{
+				1090208,
+				22,
+				1
+			},
+			{
+				1090209,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090201,
+			1090204,
+			1090207,
+			1090210
+		},
+		elite_expedition_list = {
+			1090201,
+			1090204,
+			1090207
+		},
+		ai_expedition_list = {
+			1090500
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090215
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenqingxun"
+		},
+		awards = {
+			{
+				2,
+				57321
+			},
+			{
+				2,
+				57301
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				8
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"1x2_2yingxihuodong",
+				0,
+				37
+			},
+			{
+				1,
+				0,
+				"1x2_1yingxihuodong",
+				6,
+				36
+			},
+			{
+				0,
+				6,
+				"4x4_1yingxihuodong",
+				-35,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			124,
+			-153,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100032] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 50,
+		pos_x = "0.50546875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 360,
+		best_air_dominance = 470,
+		count = 0,
+		icon_outline = 0,
+		id = 2100032,
+		pre_chapter = 2100031,
+		star_require_1 = 1,
+		pos_y = "0.111458333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		unlocklevel = 0,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "狩猎场|~Hunting~",
+		chapter_name = "C2",
+		type = 2,
+		act_id = 100001,
+		enter_story = "LINGDONG04",
+		boss_refresh = 4,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100030,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "收到紧急电报，第二物资船队正遭到铁血舰队追击，冰冷的北海再一次成为了战舰们的狩猎场。",
+		difficulty = 7,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.65,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				780
+			},
+			{
+				"reload",
+				1,
+				720
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090216,
+				10,
+				0
+			},
+			{
+				1090217,
+				38,
+				0
+			},
+			{
+				1090218,
+				22,
+				0
+			},
+			{
+				1090219,
+				12,
+				0
+			},
+			{
+				1090220,
+				35,
+				0
+			},
+			{
+				1090221,
+				26,
+				1
+			},
+			{
+				1090222,
+				0,
+				0
+			},
+			{
+				1090223,
+				35,
+				0
+			},
+			{
+				1090224,
+				26,
+				1
+			},
+			{
+				1090225,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090217,
+			1090220,
+			1090223,
+			1090226
+		},
+		elite_expedition_list = {
+			1090217,
+			1090220,
+			1090223
+		},
+		ai_expedition_list = {
+			1090501,
+			1090502
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090231
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				57322
+			},
+			{
+				2,
+				57302
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				4
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				12
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				4
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				2,
+				"1x1_1yingxihuodong",
+				0,
+				11
+			},
+			{
+				3,
+				4,
+				"1x2_1yingxihuodong",
+				0,
+				34
+			},
+			{
+				0,
+				1,
+				"4x4_2yingxihuodong",
+				-55,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			77,
+			-151,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100033] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 34,
+		pos_x = "0.635546875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 400,
+		best_air_dominance = 520,
+		count = 0,
+		icon_outline = 0,
+		id = 2100033,
+		pre_chapter = 2100032,
+		star_require_1 = 1,
+		pos_y = "0.3446875",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 30,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "捕鼠夹|~Trap~",
+		chapter_name = "C3",
+		type = 2,
+		act_id = 100001,
+		enter_story = "LINGDONG07",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100030,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "孤身一舰追击沙恩霍斯特的贝尔法斯特！谁是猎人，谁又是猎物？命运的捕鼠夹正在悄悄合拢…",
+		difficulty = 8,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.64,
+			0.59,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				950
+			},
+			{
+				"torpedo",
+				1,
+				1000
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090232,
+				8,
+				0
+			},
+			{
+				1090233,
+				34,
+				0
+			},
+			{
+				1090234,
+				26,
+				0
+			},
+			{
+				1090235,
+				10,
+				0
+			},
+			{
+				1090236,
+				36,
+				0
+			},
+			{
+				1090237,
+				28,
+				1
+			},
+			{
+				1090238,
+				0,
+				0
+			},
+			{
+				1090239,
+				36,
+				0
+			},
+			{
+				1090240,
+				28,
+				1
+			},
+			{
+				1090241,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090233,
+			1090236,
+			1090239,
+			1090242
+		},
+		elite_expedition_list = {
+			1090234,
+			1090236,
+			1090239
+		},
+		ai_expedition_list = {
+			1090503,
+			1090504
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090247
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"shaenhuosite"
+		},
+		awards = {
+			{
+				2,
+				57323
+			},
+			{
+				2,
+				57303
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				4
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				8
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				8
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				12
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				5,
+				7,
+				"1x2_1yingxihuodong",
+				-9,
+				37
+			},
+			{
+				5,
+				2,
+				"1x1_2yingxihuodong",
+				0,
+				7
+			},
+			{
+				3,
+				4,
+				"4x4_1yingxihuodong",
+				-44,
+				-37
+			},
+			{
+				3,
+				0,
+				"1x2_2yingxihuodong",
+				10,
+				35
+			},
+			{
+				2,
+				6,
+				"1x1_1yingxihuodong",
+				0,
+				7
+			},
+			{
+				0,
+				3,
+				"1x3_2yingxihuodong",
+				0,
+				11
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			46,
+			20,
+			118,
+			-93,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100034] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 25,
+		pos_x = "0.121875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 490,
+		best_air_dominance = 635,
+		count = 0,
+		icon_outline = 0,
+		id = 2100034,
+		pre_chapter = 2100033,
+		star_require_1 = 1,
+		pos_y = "0.15",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		boss_refresh_special = 5,
+		uifx = "",
+		name = "北方的访客|～Visitor~",
+		chapter_name = "D1",
+		type = 2,
+		act_id = 100001,
+		enter_story = "",
+		boss_refresh = 5,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100031,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "突然出现的新型塞壬和大范围兵器打乱了参与“钨”行动的皇家舰队，尝试一边击退敌人一边重新合流吧",
+		difficulty = 8,
+		avoid_ratio = 13,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					6,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"torpedo",
+				1,
+				900
+			},
+			{
+				"air",
+				1,
+				1050
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090248,
+				4,
+				0
+			},
+			{
+				1090249,
+				32,
+				0
+			},
+			{
+				1090250,
+				30,
+				0
+			},
+			{
+				1090251,
+				6,
+				0
+			},
+			{
+				1090252,
+				37,
+				0
+			},
+			{
+				1090253,
+				32,
+				1
+			},
+			{
+				1090254,
+				0,
+				0
+			},
+			{
+				1090255,
+				37,
+				0
+			},
+			{
+				1090256,
+				32,
+				1
+			},
+			{
+				1090257,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090249,
+			1090252,
+			1090255,
+			1090258
+		},
+		elite_expedition_list = {
+			1090249,
+			1090252,
+			1090255
+		},
+		ai_expedition_list = {
+			1090505,
+			1090506
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090263
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				57324
+			},
+			{
+				2,
+				57304
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				4
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				8
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				16
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				4,
+				6,
+				"1x2_1yingxihuodong",
+				-2,
+				37
+			},
+			{
+				3,
+				3,
+				"1x1_1yingxihuodong",
+				0,
+				6
+			},
+			{
+				3,
+				0,
+				"1x2_2yingxihuodong",
+				16,
+				36
+			},
+			{
+				1,
+				6,
+				"1x1_2yingxihuodong",
+				0,
+				11
+			},
+			{
+				0,
+				9,
+				"4x4_1yingxihuodong",
+				-28,
+				-30
+			},
+			{
+				0,
+				3,
+				"4x4_2yingxihuodong",
+				53,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			20,
+			-115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100035] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 20,
+		pos_x = "0.57734375",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 580,
+		best_air_dominance = 755,
+		count = 0,
+		icon_outline = 0,
+		id = 2100035,
+		pre_chapter = 2100034,
+		star_require_1 = 1,
+		pos_y = "0.073958",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		boss_refresh_special = 6,
+		uifx = "",
+		name = "“钨”行动|~Operate~",
+		chapter_name = "D2",
+		type = 2,
+		act_id = 100001,
+		enter_story = "LINGDONG13",
+		boss_refresh = 6,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100031,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "不明的大型武器打散了北海的迷雾，“钨”行动再次启动，目标——「北方的孤独女王」提尔比茨！",
+		difficulty = 9,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.66,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					6,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				85
+			},
+			{
+				"antiaircraft",
+				1,
+				1800
+			},
+			{
+				"dodge",
+				1,
+				650
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090264,
+				4,
+				0
+			},
+			{
+				1090265,
+				26,
+				0
+			},
+			{
+				1090266,
+				34,
+				0
+			},
+			{
+				1090267,
+				5,
+				0
+			},
+			{
+				1090268,
+				35,
+				0
+			},
+			{
+				1090269,
+				32,
+				1
+			},
+			{
+				1090270,
+				0,
+				0
+			},
+			{
+				1090271,
+				33,
+				0
+			},
+			{
+				1090272,
+				32,
+				1
+			},
+			{
+				1090273,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090265,
+			1090268,
+			1090271,
+			1090274
+		},
+		elite_expedition_list = {
+			1090265,
+			1090268,
+			1090271
+		},
+		ai_expedition_list = {
+			1090507,
+			1090508,
+			1090509
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090279
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				57325
+			},
+			{
+				2,
+				57305
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				8
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				16
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				1
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				12
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				4
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				0,
+				"1x2_2yingxihuodong",
+				13,
+				45
+			},
+			{
+				5,
+				5,
+				"1x1_2yingxihuodong",
+				0,
+				5
+			},
+			{
+				4,
+				6,
+				"1x3_1yingxihuodong",
+				0,
+				14
+			},
+			{
+				3,
+				2,
+				"1x1_1yingxihuodong",
+				0,
+				12
+			},
+			{
+				1,
+				2,
+				"1x2_1yingxihuodong",
+				0,
+				33
+			},
+			{
+				0,
+				6,
+				"4x4_1yingxihuodong",
+				-35,
+				-27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			46,
+			20,
+			37,
+			-55,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[2100036] = {
+		num_3 = 1,
+		mine_id = 2001,
+		collection_team = 0,
+		progress_boss = 20,
+		pos_x = "0.621875",
+		group_num = 2,
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		activate_time = 0,
+		story_refresh_boss = "",
+		chapter_safe = 0,
+		air_dominance = 680,
+		best_air_dominance = 885,
+		count = 0,
+		icon_outline = 0,
+		id = 2100036,
+		pre_chapter = 2100035,
+		star_require_1 = 1,
+		pos_y = "0.347395833",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 40,
+		unlocklevel = 0,
+		boss_refresh_special = 6,
+		uifx = "",
+		name = "凛冬王冠|～Crown~",
+		chapter_name = "D3",
+		type = 2,
+		act_id = 100001,
+		enter_story = "LINGDONG17",
+		boss_refresh = 6,
+		event_skip = 0,
+		oil = 10,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 2100031,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "虽然发现了身份不明的航母却让她脱逃了，相对的，被叫做净化者的塞壬已经被舰队重重包围，为了皇家的荣耀，开火！",
+		difficulty = 10,
+		avoid_ratio = 15,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 1,
+		scale = {
+			0.52,
+			0.62,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					1,
+					0
+				}
+			},
+			{
+				{
+					7,
+					6,
+					0
+				},
+				{
+					3,
+					2,
+					2
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1400
+			},
+			{
+				"torpedo",
+				1,
+				1500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1090280,
+				2,
+				0
+			},
+			{
+				1090281,
+				22,
+				0
+			},
+			{
+				1090282,
+				36,
+				0
+			},
+			{
+				1090283,
+				3,
+				0
+			},
+			{
+				1090284,
+				34,
+				0
+			},
+			{
+				1090285,
+				36,
+				1
+			},
+			{
+				1090286,
+				0,
+				0
+			},
+			{
+				1090287,
+				34,
+				0
+			},
+			{
+				1090288,
+				34,
+				1
+			},
+			{
+				1090289,
+				0,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1090281,
+			1090284,
+			1090287,
+			1090290
+		},
+		elite_expedition_list = {
+			1090282,
+			1090285,
+			1090288
+		},
+		ai_expedition_list = {
+			1090510,
+			1090511,
+			1090512,
+			1090513
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1090295
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				57326
+			},
+			{
+				2,
+				57306
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				1
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				8
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				10,
+				true,
+				4
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"1x3_1yingxihuodong",
+				0,
+				0
+			},
+			{
+				7,
+				5,
+				"1x2_2yingxihuodong",
+				-4,
+				34
+			},
+			{
+				6,
+				2,
+				"1x1_2yingxihuodong",
+				0,
+				0
+			},
+			{
+				5,
+				10,
+				"4x4_1yingxihuodong",
+				-45,
+				-27
+			},
+			{
+				4,
+				4,
+				"1x1_1yingxihuodong",
+				0,
+				7
+			},
+			{
+				3,
+				6,
+				"1x2_1yingxihuodong",
+				-6,
+				32
+			},
+			{
+				3,
+				1,
+				"1x3_2yingxihuodong",
+				0,
+				9
+			},
+			{
+				2,
+				8,
+				"1x1_2yingxihuodong",
+				0,
+				7
+			},
+			{
+				0,
+				5,
+				"4x4_2yingxihuodong",
+				-50,
+				-24
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YX",
+			43,
+			20,
+			159,
+			58,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
 	[2200001] = {
 		num_3 = 1,
 		mine_id = 2001,
@@ -199400,6 +209036,7 @@ pg.chapter_template = {
 		air_dominance = 81,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 2200001,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -199768,6 +209405,7 @@ pg.chapter_template = {
 		air_dominance = 100,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 2200002,
 		pre_chapter = 2200001,
 		star_require_1 = 1,
@@ -200211,6 +209849,7 @@ pg.chapter_template = {
 		air_dominance = 120,
 		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 0,
 		id = 2200003,
 		pre_chapter = 2200002,
 		star_require_1 = 1,
@@ -200681,9 +210320,10 @@ pg.chapter_template = {
 		activate_time = 0,
 		story_refresh_boss = "",
 		chapter_safe = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 81,
+		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 1,
 		id = 2200011,
 		pre_chapter = 0,
 		star_require_1 = 1,
@@ -201240,9 +210880,10 @@ pg.chapter_template = {
 		activate_time = 0,
 		story_refresh_boss = "",
 		chapter_safe = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 100,
+		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 1,
 		id = 2200012,
 		pre_chapter = 2200011,
 		star_require_1 = 1,
@@ -201898,9 +211539,10 @@ pg.chapter_template = {
 		activate_time = 0,
 		story_refresh_boss = "",
 		chapter_safe = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 120,
+		best_air_dominance = 150,
 		count = 0,
+		icon_outline = 1,
 		id = 2200013,
 		pre_chapter = 2200012,
 		star_require_1 = 1,
@@ -202708,6 +212350,9 @@ pg.chapter_template = {
 		20001,
 		20002,
 		20003,
+		20004,
+		20005,
+		20006,
 		1000001,
 		1000002,
 		1000003,
@@ -202930,6 +212575,18 @@ pg.chapter_template = {
 		2100014,
 		2100015,
 		2100016,
+		2100021,
+		2100022,
+		2100023,
+		2100024,
+		2100025,
+		2100026,
+		2100031,
+		2100032,
+		2100033,
+		2100034,
+		2100035,
+		2100036,
 		2200001,
 		2200002,
 		2200003,

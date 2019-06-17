@@ -7289,11 +7289,11 @@ pg.ship_skin_template = {
 	},
 	[102122] = {
 		ship_group = 10212,
-		name = "盛夏的「灾难」",
+		name = "Summer Accident?!",
 		bg = "106",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
-		no_showing = "1",
+		no_showing = "0",
 		painting = "huonululu_3",
 		air_bullet_skin = "",
 		hand_id = 13,
@@ -7309,7 +7309,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70109,
-		desc = "唔哇哇哇，我的圣代！这根水管是怎么回事啦！指挥官，我说你别站那边看了，有空过来帮我一下！",
+		desc = "Aaaahh! My sundae! What's up with this stupid hose?! Commander, don't just stand there, help me!",
 		voice_actor = 114,
 		air_bomb_skin = "",
 		illustrator = 30,
@@ -19064,7 +19064,7 @@ pg.ship_skin_template = {
 		no_showing = "0",
 		painting = "nananpudun",
 		air_bullet_skin = "",
-		hand_id = 0,
+		hand_id = 13,
 		shop_type_id = 0,
 		lip_smoothing = 0,
 		l2d_animations = "",
@@ -19078,7 +19078,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "Sheffield-class Light Cruiser - HMS Southampton",
+		desc = "Southampton-class light cruiser – Southampton. ",
 		voice_actor = 88,
 		air_bomb_skin = "",
 		illustrator = 20,
@@ -19118,15 +19118,15 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.03,
-					0.94,
+					1.47,
+					1.37,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.03,
-					0.88,
+					0.966,
+					1.004,
 					0
 				}
 			},
@@ -19139,8 +19139,8 @@ pg.ship_skin_template = {
 			},
 			antiaircraft = {
 				{
-					0.01,
-					0.96,
+					0.991,
+					1.004,
 					0
 				}
 			}
@@ -19152,8 +19152,8 @@ pg.ship_skin_template = {
 					{
 						"smoke",
 						{
-							-0.39,
-							2.2,
+							-0.514,
+							2.394,
 							0
 						}
 					}
@@ -39491,7 +39491,7 @@ pg.ship_skin_template = {
 	},
 	[303140] = {
 		ship_group = 30314,
-		name = "{namecode:69}",
+		name = "Choukai",
 		bg = "",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
@@ -39512,7 +39512,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "Fourth ship of {namecode:66}-class heavy cruisers, {namecode:69}.",
+		desc = "Takao-class heavy cruiser number four – Choukai.",
 		voice_actor = 123,
 		air_bomb_skin = "",
 		illustrator = 21,
@@ -42655,7 +42655,7 @@ pg.ship_skin_template = {
 	},
 	[306010] = {
 		ship_group = 30601,
-		name = "{namecode:85}",
+		name = "Hiyou",
 		bg = "",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
@@ -42676,7 +42676,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "First ship of {namecode:85} class aircraft carriers, {namecode:85}.",
+		desc = "Hiyou-class aircraft carrier number one – Hiyou.",
 		voice_actor = 136,
 		air_bomb_skin = "",
 		illustrator = -1,
@@ -42754,7 +42754,7 @@ pg.ship_skin_template = {
 	},
 	[306020] = {
 		ship_group = 30602,
-		name = "{namecode:86}",
+		name = "Junyou",
 		bg = "",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
@@ -42775,7 +42775,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "Second ship of {namecode:85} class aircraft carriers, {namecode:86}.",
+		desc = "Hiyou-class aircraft carrier number two – Junyou.",
 		voice_actor = 136,
 		air_bomb_skin = "",
 		illustrator = -1,

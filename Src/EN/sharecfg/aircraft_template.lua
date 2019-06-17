@@ -86754,8 +86754,8 @@ pg.aircraft_template = {
 		id = 950157,
 		scale = 0.75,
 		weapon_ID = {
-			607010,
-			607011
+			950160,
+			950161
 		},
 		position_offset = {
 			0,
@@ -86829,7 +86829,7 @@ pg.aircraft_template = {
 		id = 950158,
 		scale = 0.75,
 		weapon_ID = {
-			607012
+			950162
 		},
 		position_offset = {
 			0,
@@ -86884,12 +86884,12 @@ pg.aircraft_template = {
 		}
 	},
 	[950159] = {
-		name = "挑战关卡8轰炸机T1",
-		max_hp = 50,
-		accuracy = 23,
+		name = "挑战关卡8地毯轰炸机T1",
+		max_hp = 1800,
+		accuracy = 50,
 		model_ID = "tbd",
 		ACC_growth = 0,
-		crash_DMG = 78,
+		crash_DMG = 540,
 		dodge = 1,
 		attack_power = 2,
 		dodge_limit = 0,
@@ -86897,13 +86897,13 @@ pg.aircraft_template = {
 		AP_growth = 2000,
 		icon = "tbd",
 		funnel_behavior = "",
-		nationality = 1,
-		hp_growth = 3632,
+		nationality = 3,
+		hp_growth = 0,
 		speed = 30,
 		id = 950159,
 		scale = 0.75,
 		weapon_ID = {
-			607013
+			950163
 		},
 		position_offset = {
 			0,
@@ -86923,13 +86923,13 @@ pg.aircraft_template = {
 		bound_bone = {
 			weapon = {
 				{
-					-1.28,
-					1.62,
+					0.71,
+					-1.73,
 					0
 				},
 				{
-					-1.12,
-					-1,
+					0.82,
+					2.04,
 					0
 				}
 			}
@@ -86946,8 +86946,8 @@ pg.aircraft_template = {
 				0
 			},
 			{
-				0.72,
-				-0.15,
+				0.64,
+				0,
 				0
 			},
 			{

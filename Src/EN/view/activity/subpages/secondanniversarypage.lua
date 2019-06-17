@@ -1,4 +1,4 @@
-slot0 = class("2ndAnniversaryPage", import("...base.BaseActivityPage"))
+slot0 = class("SecondAnniversaryPage", import("...base.BaseActivityPage"))
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
@@ -87,6 +87,15 @@ function slot0.initBtn(slot0, slot1)
 	onButton(slot0, slot1[9], function ()
 		pg.TipsMgr:GetInstance():ShowTips("即将开放，敬请期待！")
 	end, SFX_PANEL)
+end
+
+function slot0.srollAnimation(slot0)
+	slot1 = slot0.Content.localPosition.x
+	slot2 = slot0.Content.localPosition.y
+	slot3 = slot0.Content.localPosition.z
+	slot4 = LeanTween.value(go(slot0.Content), 0, -2285, 40):setOnUpdate(System.Action_float(function (slot0)
+		alpha.alpha = slot0
+	end))
 end
 
 return slot0

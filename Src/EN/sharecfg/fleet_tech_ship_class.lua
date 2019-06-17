@@ -498,12 +498,13 @@ pg.fleet_tech_ship_class = {
 	},
 	[20202] = {
 		shiptype = 2,
-		name = "Sheffield-Class",
+		name = "Southampton-Class ",
 		t_level = 7,
 		id = 20202,
 		t_level_1 = 46,
 		nation = 2,
 		ships = {
+			20207,
 			20208
 		}
 	},
@@ -1019,7 +1020,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30311,
 			30312,
-			30313
+			30313,
+			30314
 		}
 	},
 	[30305] = {
@@ -1113,6 +1115,18 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			39902
+		}
+	},
+	[30601] = {
+		shiptype = 6,
+		name = "Hiyou-Class",
+		t_level = 4,
+		id = 30601,
+		t_level_1 = 99,
+		nation = 3,
+		ships = {
+			30601,
+			30602
 		}
 	},
 	[30602] = {
@@ -1401,8 +1415,7 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40801,
-			40804,
-			40803
+			40804
 		}
 	},
 	[50101] = {
@@ -1556,6 +1569,7 @@ pg.fleet_tech_ship_class = {
 		30503,
 		30504,
 		30506,
+		30601,
 		30602,
 		30603,
 		30604,

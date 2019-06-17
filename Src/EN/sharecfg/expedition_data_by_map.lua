@@ -410,7 +410,7 @@ pg.expedition_data_by_map = {
 		bg = "map_8",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 208,
 		clouds_pos = {
 			{
 				332,
@@ -668,6 +668,47 @@ pg.expedition_data_by_map = {
 		ani_name = "",
 		cloud_suffix = "white",
 		bg = "map_11",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
+	},
+	{
+		map = 12,
+		name = "Mariana's Turmoil Pt. 1",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "12",
+		enter_story = "",
+		level_limit = 75,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 0,
@@ -991,6 +1032,47 @@ pg.expedition_data_by_map = {
 			{
 				830,
 				-109
+			}
+		}
+	},
+	[208] = {
+		map = 208,
+		name = "Battle Komandorski",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "8",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 35,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_208",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 8,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},
@@ -2890,6 +2972,7 @@ pg.expedition_data_by_map = {
 		9,
 		10,
 		11,
+		12,
 		201,
 		202,
 		203,
@@ -2897,6 +2980,7 @@ pg.expedition_data_by_map = {
 		205,
 		206,
 		207,
+		208,
 		10000,
 		1040000,
 		1040001,

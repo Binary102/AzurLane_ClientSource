@@ -77,8 +77,6 @@ end
 
 function slot4.onInitBattle(slot0)
 	slot0.super.onInitBattle(slot0)
-	slot0._dataProxy:SetDungeonLevel(slot1)
-	slot0._dataProxy:SetRepressReduce(slot1.Battle.BattleDataFunction.GetRateTemplate(slot0._challengeInfo:getDamageRateID()).content)
 end
 
 return

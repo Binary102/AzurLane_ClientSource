@@ -1,4 +1,4 @@
-slot0 = class("CommanderTalentPanel", import("..base.BasePanel"))
+slot0 = class("CommanderTalentPanel", import("...base.BasePanel"))
 
 function slot0.init(slot0)
 	slot0.resetTimeTF = slot0:findTF("frame/point/reset_frame/reset_time")

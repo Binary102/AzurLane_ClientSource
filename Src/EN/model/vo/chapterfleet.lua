@@ -82,8 +82,8 @@ function slot0.updateCommanders(slot0, slot1)
 	slot2 = getProxy(CommanderProxy)
 
 	for slot6, slot7 in ipairs(slot1) do
-		if slot2:getCommanderById(slot7.commanderid) then
-			slot0.commanders[slot7.id] = slot9
+		if slot2:getCommanderById(slot7.id) then
+			slot0.commanders[slot7.pos] = slot9
 		end
 	end
 end

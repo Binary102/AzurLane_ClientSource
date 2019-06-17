@@ -37,11 +37,7 @@ function slot0.getDay(slot0)
 		slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 	end
 
-	if os.server_date("*t", slot1).wday - 1 == 0 then
-		slot2 = 7
-	end
-
-	return slot2
+	return pg.TimeMgr.GetInstance():GetServerTimestampWeek(slot1)
 end
 
 function slot0.getExtraRate(slot0)

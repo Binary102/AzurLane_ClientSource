@@ -52370,32 +52370,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			637,
+			28,
+			51,
+			58,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			25
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -52412,12 +52412,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -52464,9 +52464,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.15,
+			1.2,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -52500,32 +52500,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			792,
+			35,
+			64,
+			72,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			31
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -52542,12 +52542,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -52594,9 +52594,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.2,
+			1.2,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -52630,32 +52630,32 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			1103,
+			49,
+			89,
+			101,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			43
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
 			0,
@@ -52672,12 +52672,12 @@ pg.ship_data_statistics = {
 			0
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -52724,9 +52724,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.2,
+			1.3,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -52760,54 +52760,54 @@ pg.ship_data_statistics = {
 		nationality = 2,
 		armor_type = 1,
 		attrs = {
-			1,
+			1569,
+			69,
+			126,
+			143,
 			0,
+			63,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			54,
+			29,
+			32,
+			32,
+			62
 		},
 		attrs_growth = {
-			1,
+			15535,
+			276,
+			500,
+			1136,
+			0,
+			314,
+			0,
+			792,
+			432,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			244
 		},
 		attrs_growth_extra = {
-			1,
+			3105,
+			654,
+			1117,
+			601,
+			0,
+			744,
+			0,
+			3,
+			723,
 			0,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
+			349
 		},
 		grades = {
+			"B",
+			"B",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"C",
+			"C"
 		},
 		lock = {
 			"air"
@@ -52854,9 +52854,9 @@ pg.ship_data_statistics = {
 			0
 		},
 		equipment_proficiency = {
-			1,
-			1,
-			1,
+			1.35,
+			1.3,
+			1.1,
 			0.3
 		},
 		strategy_list = {},
@@ -113481,7 +113481,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306021] = {
-		name = "Junyo",
+		name = "Junyou",
 		type = 6,
 		personality = 2,
 		oxy_max = 0,
@@ -113607,7 +113607,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306022] = {
-		name = "Junyo",
+		name = "Junyou",
 		type = 6,
 		personality = 2,
 		oxy_max = 0,
@@ -113733,7 +113733,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306023] = {
-		name = "Junyo",
+		name = "Junyou",
 		type = 6,
 		personality = 2,
 		oxy_max = 0,
@@ -113859,7 +113859,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[306024] = {
-		name = "Junyo",
+		name = "Junyou",
 		type = 6,
 		personality = 2,
 		oxy_max = 0,

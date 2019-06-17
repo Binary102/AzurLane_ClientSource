@@ -6551,6 +6551,10 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Identical Ships",
 		key = "words_display_ship_get_effect"
 	},
+	words_show_touch_effect = {
+		tip = "Show tap marker",
+		key = "words_show_touch_effect"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 7</color>",
 		key = "activity_puzzle_get1"
@@ -8346,7 +8350,7 @@ with Anti-Sub gear.
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Increased construction rates for Lena and Clevelad! ",
+		tip = "Destroyers, Light Cruisers, Light Carriers, Repair Ships, Monitors and more!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {

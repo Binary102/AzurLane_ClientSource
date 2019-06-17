@@ -138,9 +138,9 @@ function slot0.updateLockStudentPos(slot0, slot1, slot2)
 				}
 				slot7, slot8 = unpack(slot2.discount_time)
 				slot11, slot12, slot13 = unpack(slot9)
-				slot19.year, slot19.month, slot19.day = unpack(slot10)
+				slot20.year, slot20.month, slot20.day = unpack(slot10)
 
-				if os.time({
+				if pg.TimeMgr:GetInstance():Table2ServerTime({
 					year = slot14,
 					month = slot15,
 					day = slot16,

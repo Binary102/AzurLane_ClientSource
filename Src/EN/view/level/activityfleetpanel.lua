@@ -1,7 +1,8 @@
 slot0 = class
 slot1 = "ActivityFleetPanel"
-slot2 = LevelFleetPanel
-slot0 = slot0(slot1, slot2)
+slot2 = import
+slot3 = "..level.LevelEliteFleetPanel"
+slot0 = slot0(slot1, slot2(slot3))
 
 function slot1(slot0)
 	slot1 = slot0
@@ -512,8 +513,10 @@ function slot1(slot0, slot1, slot2)
 			slot1 = slot0
 			slot0 = slot0.openCommanderPanel
 			slot2 = slot1
+			slot3 = slot1
+			slot3 = slot3.id
 
-			slot0(slot1, slot2)
+			slot0(slot1, slot2, slot3)
 		end
 
 		slot15 = SFX_PANEL
@@ -530,8 +533,10 @@ function slot1(slot0, slot1, slot2)
 			slot1 = slot0
 			slot0 = slot0.openCommanderPanel
 			slot2 = slot1
+			slot3 = slot1
+			slot3 = slot3.id
 
-			slot0(slot1, slot2)
+			slot0(slot1, slot2, slot3)
 		end
 
 		slot15 = SFX_PANEL

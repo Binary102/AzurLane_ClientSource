@@ -50,8 +50,8 @@ slot1 = {
 		uiName = "sandiegoptpage"
 	},
 	[ActivityConst.ANNIVERSARY_ID] = {
-		className = "2ndAnniversaryPage",
-		uiName = "2ndanniversarypage"
+		className = "SecondAnniversaryPage",
+		uiName = "secondanniversarypage"
 	}
 }
 slot2 = {}

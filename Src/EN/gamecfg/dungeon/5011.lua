@@ -68,7 +68,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 40,
+								hpBarNum = 50,
 								icon = "birui"
 							},
 							buffList = {},
@@ -79,7 +79,8 @@ return {
 									index = 0,
 									switchParam = 4,
 									addWeapon = {
-										910004
+										910004,
+										900704
 									}
 								},
 								{

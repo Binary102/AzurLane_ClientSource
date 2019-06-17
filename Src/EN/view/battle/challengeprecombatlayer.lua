@@ -5,13 +5,20 @@ slot2 = {
 }
 
 function slot0.getUIName(slot0)
-	return "ChallengePreCombatUI"
+	return "ChapterPreCombatUI"
 end
 
 function slot0.init(slot0)
 	slot0.eventTriggers = {}
 	slot0._startBtn = slot0:findTF("right/start")
-	slot0._backBtn = slot0:findTF("top/title/back")
+	slot0._popup = slot0:findTF("right/popup")
+
+	setActive(slot0._popup, false)
+
+	slot0._costText = slot0:findTF("right/popup/Text")
+	slot0._extraCostMark = slot0:findTF("right/popup/extra_cost")
+	slot0._extraCostBuffIcon = slot0:findTF("right/operation_buff_icon")
+	slot0._backBtn = slot0:findTF("top/back_btn")
 	slot0._moveLayer = slot0:findTF("moveLayer")
 	slot1 = slot0:findTF("middle")
 	slot0._mainGS = slot1:Find("gear_score/main/Text")
@@ -31,23 +38,31 @@ function slot0.init(slot0)
 		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
 	end
 
+	slot0._nextPage = slot0:findTF("middle/nextPage")
+	slot0._prevPage = slot0:findTF("middle/prevPage")
 	slot0._heroContainer = slot1:Find("HeroContainer")
 	slot0._strategy = slot1:Find("strategy")
 
-	setActive(slot0._strategy, true)
+	setActive(slot0._strategy, false)
 
-	slot0._playerResOb = slot0:findTF("top/title/playerRes")
+	slot0._formationList = slot1:Find("formation_list")
+
+	setActive(slot0._formationList, false)
+
+	slot0._playerResOb = slot0:findTF("top/playerRes")
 	slot0._resPanel = PlayerResource.New()
 
 	tf(slot0._resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
 	slot0._spoilsContainer = slot0:findTF("right/infomation/spoils/items/items_container")
 	slot0._goals = slot0:findTF("right/infomation/goal")
-	slot0._challenge = slot0:findTF("right/infomation/challenge/goal")
+	slot0._item = slot0:getTpl("right/infomation/spoils/items/item_tpl")
 	slot0._heroInfo = slot0:getTpl("heroInfo")
 	slot0._starTpl = slot0:getTpl("star_tpl")
 	slot0._middle = slot0:findTF("middle")
 	slot0._right = slot0:findTF("right")
+	slot0.energyDescTF = slot0:findTF("energy_desc")
+	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
 	slot0._fleet = slot0:findTF("middle/fleet")
 	slot0._ship_tpl = findTF(slot0._fleet, "shiptpl")
 	slot0._empty_tpl = findTF(slot0._fleet, "emptytpl")
@@ -55,10 +70,15 @@ function slot0.init(slot0)
 	setActive(slot0._ship_tpl, false)
 	setActive(slot0._empty_tpl, false)
 
+	slot0._autoToggle = slot0:findTF("middle/auto_toggle")
+	slot0._autoSubToggle = slot0:findTF("middle/sub_toggle_container/sub_toggle")
 	slot0.topPanel = slot0:findTF("top")
 	slot0.strategyInfo = slot0:findTF("strategy_info", slot0.topPanel)
 
 	setActive(slot0.strategyInfo, false)
+
+	slot0._operaionBuffTips = slot0._extraCostBuffIcon:Find("popup")
+
 	setAnchoredPosition(slot0._middle, {
 		x = -840
 	})
@@ -70,13 +90,12 @@ function slot0.init(slot0)
 end
 
 function slot0.uiStartAnimating(slot0)
-	shiftPanel(slot0._middle, 0, nil, 0.3, 0, true, true)
-	shiftPanel(slot0._right, 0, nil, 0.3, 0, true, true, nil)
-	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil, nil)
-
-	slot0.tweens = topAnimation(slot0:findTF("title/bg/left", slot0.topPanel), slot0:findTF("title/bg/right", slot0.topPanel), slot0:findTF("title/bg/title_formation", slot0.topPanel), slot0:findTF("title/bg/formation", slot0.topPanel), 0.27, function ()
-		slot0.tweens = nil
-	end)
+	setAnchoredPosition(slot0.topPanel, {
+		y = 100
+	})
+	shiftPanel(slot0._middle, 0, nil, slot2, slot1, true, true)
+	shiftPanel(slot0._right, 0, nil, slot2, slot1, true, true, nil)
+	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true, nil, nil)
 end
 
 function slot0.uiExitAnimating(slot0)
@@ -97,7 +116,27 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._startBtn, function ()
 		slot0:emit(ChallengePreCombatMediator.ON_START)
 	end, SFX_UI_WEIGHANCHOR)
+	onToggle(slot0, slot0._autoToggle, function (slot0)
+		slot0:emit(ChallengePreCombatMediator.ON_AUTO, {
+			isOn = not slot0,
+			toggle = slot0._autoToggle
+		})
+
+		if slot0 and slot0.subUseable == true then
+			setActive(slot0._autoSubToggle, true)
+			onToggle(slot0, slot0._autoSubToggle, function (slot0)
+				slot0:emit(ChallengePreCombatMediator.ON_SUB_AUTO, {
+					isOn = not slot0,
+					toggle = slot0._autoSubToggle
+				})
+			end, SFX_PANEL, SFX_PANEL)
+			triggerToggle(slot0._autoSubToggle, ys.Battle.BattleState.IsAutoSubActive())
+		else
+			setActive(slot0._autoSubToggle, false)
+		end
+	end, SFX_PANEL, SFX_PANEL)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	setAnchoredPosition(slot0.topPanel, {
 		y = slot0.topPanel.rect.height
 	})
@@ -109,7 +148,6 @@ end
 function slot0.onBackPressed(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
 		playSoundEffect(SFX_CANCEL)
-		slot0:hideStrategyInfo()
 	else
 		playSoundEffect(SFX_CANCEL)
 		triggerButton(slot0._backBtn)
@@ -120,10 +158,14 @@ function slot0.setPlayerInfo(slot0, slot1)
 	slot0._resPanel:setResources(slot1)
 end
 
-function slot0.updateChallenge(slot0, slot1, slot2)
-	slot0.challengeInfo = slot1
+function slot0.updateChallenge(slot0, slot1)
+	slot0.challenge = slot1
 
 	slot0:updateView(true)
+end
+
+function slot0.setSubFlag(slot0, slot1)
+	slot0.subUseable = slot1 or false
 end
 
 function slot0.updateView(slot0, slot1)
@@ -133,8 +175,9 @@ function slot0.updateView(slot0, slot1)
 		pg.UIMgr:GetInstance():LoadingOn()
 		pg.UIMgr.GetInstance().LoadingOn:resetGrid(TeamType.Vanguard)
 		pg.UIMgr.GetInstance().LoadingOn.resetGrid:resetGrid(TeamType.Main)
+		SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
 
-		if pg.UIMgr.GetInstance().LoadingOn.resetGrid then
+		if slot0._gridTFs[TeamType.Main][1].Find("flag") then
 			slot0:updateStageView()
 			onNextTick(slot2)
 			coroutine.yield()
@@ -149,23 +192,41 @@ function slot0.updateView(slot0, slot1)
 		slot0:updateBattleFleetView()
 		onNextTick(slot2)
 		coroutine.yield()
-		coroutine.yield:updateStrategyIcon()
-		coroutine.yield.updateStrategyIcon:displayFleetInfo()
+		coroutine.yield:displayFleetInfo()
 		pg.UIMgr:GetInstance():LoadingOff()
 	end)()
 end
 
 function slot0.updateStageView(slot0)
-	setActive(slot2, false)
-	setActive(slot3, false)
-	setWidgetText(slot1, i18n("battle_preCombatLayer_victory"))
-	setWidgetText(slot4, i18n("challenge_current_level", slot0.challengeInfo.challengeLevel))
-	setWidgetText(slot5, i18n("challenge_current_score", slot0.challengeInfo.currentScore))
-	setWidgetText(findTF(slot0._challenge, "goal_time"), i18n("challenge_total_score", slot0.challengeInfo.maxScore))
+	function slot1(slot0, slot1)
+		if type(slot0) == "table" then
+			setActive(slot1, true)
+			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
+		else
+			setActive(slot1, false)
+		end
+	end
+
+	slot2 = {
+		findTF(slot0._goals, "goal_tpl"),
+		findTF(slot0._goals, "goal_sink"),
+		findTF(slot0._goals, "goal_time")
+	}
+	slot4 = 1
+
+	for slot8, slot9 in ipairs(slot3) do
+		if type(slot9) ~= "string" then
+			slot1(slot9, slot2[slot4])
+
+			slot4 = slot4 + 1
+		end
+	end
 end
 
 function slot0.updateBattleFleetView(slot0)
-	slot1(slot0._fleet:Find("main"), slot0.challengeInfo.fleet.getShipsByTeam(slot2, TeamType.Main, true))
+	slot2 = slot0.challenge:getRegularFleet()
+
+	slot1(slot0._fleet:Find("main"), slot2:getShipsByTeam(TeamType.Main, true))
 	function (slot0, slot1)
 		removeAllChildren(slot0)
 
@@ -176,17 +237,15 @@ function slot0.updateBattleFleetView(slot0)
 				updateShip(slot6, slot1[slot5])
 
 				slot8 = findTF(slot6, "blood")
+				slot10 = findTF(slot6, "blood/fillarea/red")
 
 				setActive(findTF(slot6, "blood/fillarea/green"), ChapterConst.HpGreen <= slot1[slot5].hpRant)
-				setActive(findTF(slot6, "blood/fillarea/red"), slot7 < ChapterConst.HpGreen)
+				setActive(slot10, slot7 < ChapterConst.HpGreen)
 
-				slot8:GetComponent(typeof(Slider)).fillRect = (ChapterConst.HpGreen <= slot7 and slot9) or findTF(slot6, "blood/fillarea/red")
-
-				setSlider(slot8, 0, 10000, slot7)
-				setActive(findTF(slot6, "mask"), slot7 <= 0)
+				(ChapterConst.HpGreen <= slot7 and slot9) or slot10:GetComponent("Image").fillAmount = slot7 * 0.0001
 			end
 		end
-	end(slot0._fleet:Find("vanguard"), slot0.challengeInfo.fleet:getShipsByTeam(TeamType.Vanguard, true))
+	end(slot0._fleet:Find("vanguard"), slot2:getShipsByTeam(TeamType.Vanguard, true))
 end
 
 function slot0.loadAllCharacter(slot0, slot1)
@@ -208,12 +267,9 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		tf(slot0):SetParent(slot0._heroContainer, false)
 
-		tf(slot0).localScale = Vector3(0.5, 0.5, 1)
+		tf(slot0).localScale = Vector3(0.65, 0.65, 1)
 
 		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
-		slot0:enabledCharacter(slot0, true, slot1, slot2)
-		slot0:setCharacterPos(slot2, slot3, slot0)
-		slot0:sortSiblingIndex()
 
 		for slot8, slot9 in pairs(slot4) do
 			if slot9.attachment_combat_ui[1] ~= "" then
@@ -231,6 +287,10 @@ function slot0.loadAllCharacter(slot0, slot1)
 			end
 		end
 
+		slot0:enabledCharacter(slot0, true, slot1, slot2)
+		slot0:setCharacterPos(slot2, slot3, slot0)
+		slot0:sortSiblingIndex()
+
 		slot5 = cloneTplTo(slot0._heroInfo, slot0)
 
 		setAnchoredPosition(slot5, {
@@ -244,8 +304,22 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		slot5.name = "info"
 		slot7 = findTF(slot6, "stars")
+		slot8 = slot1:getEnergy() <= Ship.ENERGY_MID
+		slot9 = findTF(slot6, "energy")
 
-		for slot12 = 1, slot1:getStar(), 1 do
+		if slot8 then
+			slot14, slot11 = slot1:getEnergyPrint()
+
+			if not GetSpriteFromAtlas("energy", slot10) then
+				warning("找不到疲劳")
+			end
+
+			setImageSprite(slot9, slot12)
+		end
+
+		setActive(slot9, slot8)
+
+		for slot14 = 1, slot1:getStar(), 1 do
 			cloneTplTo(slot0._starTpl, slot7)
 		end
 
@@ -253,14 +327,15 @@ function slot0.loadAllCharacter(slot0, slot1)
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot6, "type"), slot9, true)
+		setImageSprite(findTF(slot6, "type"), slot11, true)
 		setText(findTF(slot6, "frame/lv_contain/lv"), slot1.level)
-		setActive(findTF(slot10, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
-		setActive(findTF(slot10, "fillarea/red"), slot1.hpRant < ChapterConst.HpGreen)
 
-		slot10:GetComponent(typeof(Slider)).fillRect = (ChapterConst.HpGreen <= slot1.hpRant and slot11) or findTF(slot10, "fillarea/red")
+		slot14 = findTF(slot12, "fillarea/red")
 
-		setSlider(slot10, 0, 10000, slot1.hpRant)
+		setActive(findTF(slot12, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
+		setActive(slot14, slot1.hpRant < ChapterConst.HpGreen)
+
+		(ChapterConst.HpGreen <= slot1.hpRant and slot13) or slot14:GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
 	end
 
 	slot4(TeamType.Vanguard)
@@ -351,6 +426,7 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 end
 
 function slot0.shift(slot0, slot1, slot2, slot3)
+	slot6 = slot0.challenge:getRegularFleet()
 	tf(slot8).localPosition = Vector3(slot0._gridTFs[slot3][slot1].localPosition.x + 2, slot0._gridTFs[slot3][slot1].localPosition.y - 80, slot0._gridTFs[slot3][slot1].localPosition.z)
 
 	LeanTween.cancel(go(slot8))
@@ -358,7 +434,7 @@ function slot0.shift(slot0, slot1, slot2, slot3)
 	slot0._characterList[slot3][slot2] = slot0._characterList[slot3][slot1]
 	slot0._characterList[slot3][slot1] = slot0._characterList[slot3][slot2]
 
-	slot0.challengeInfo.fleet.switchShip(slot6, slot0.challengeInfo.fleet.getShipsByTeam(slot6, slot3, false)[slot1].id, slot0.challengeInfo.fleet.getShipsByTeam(slot6, slot3, false)[slot2].id)
+	slot6:switchShip(slot6:getShipsByTeam(slot3, false)[slot1].id, slot6.getShipsByTeam(slot3, false)[slot2].id)
 
 	slot0._shiftIndex = slot2
 
@@ -389,7 +465,7 @@ function slot0.sortSiblingIndex(slot0)
 end
 
 function slot0.enabledTeamCharacter(slot0, slot1, slot2)
-	slot4 = slot0.challengeInfo.fleet[slot1]
+	slot4 = slot0.chapter.fleet[slot1]
 
 	for slot8, slot9 in ipairs(slot3) do
 		slot0:enabledCharacter(slot9, slot2, slot4[slot8], slot1)
@@ -435,7 +511,6 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 				tf(slot0):SetParent(slot1._heroContainer, false)
 				slot1:switchToEditMode()
 				slot1:sortSiblingIndex()
-				slot1:updateFleet()
 				playSoundEffect(SFX_UI_HOME_PUT)
 			end)
 		end
@@ -444,61 +519,14 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.updateFleet(slot0)
-	slot0:emit(ChallengePreCombatMediator.ON_UPDATE_FLEET, slot0.challengeInfo.fleet)
-end
-
 function slot0.displayFleetInfo(slot0)
-	slot4, slot5 = slot0.challengeInfo.fleet.getCost(slot1)
-	slot6 = slot4.oil + slot5.oil
+	slot1 = slot0.challenge:getRegularFleet()
+	slot2 = slot1:getCommanders()
 
-	slot0.tweenNumText(slot0._vanguardGS, slot2)
-	slot0.tweenNumText(slot0._mainGS, _.reduce(slot0.challengeInfo.fleet.getShipsByTeam(slot1, TeamType.Main, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower()
+	slot0.tweenNumText(slot0._vanguardGS, slot3)
+	slot0.tweenNumText(slot0._mainGS, _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
+		return slot0 + slot1:getShipCombatPower(slot0)
 	end))
-end
-
-function slot0.updateStrategyIcon(slot0)
-	slot2 = _.detect(slot1, function (slot0)
-		return slot0.id == ChapterConst.StrategyRepair
-	end)
-
-	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot2.id].icon, "", slot0._strategy:Find("icon"))
-	onButton(slot0, slot0._strategy, function ()
-		slot0:displayStrategyInfo(slot0)
-	end, SFX_PANEL)
-	setText(slot0._strategy:Find("nums"), slot2.count)
-	setActive(slot0._strategy:Find("mask"), slot2.count == 0)
-	setActive(slot0._strategy:Find("selected"), false)
-end
-
-function slot0.displayStrategyInfo(slot0, slot1)
-	slot0.strategyPanel = slot0.strategyPanel or StrategyPanel.New(slot0.strategyInfo)
-
-	slot0.strategyPanel:attach(slot0)
-	slot0.strategyPanel:set(slot1)
-
-	function slot0.strategyPanel.onConfirm()
-		if not slot0.challengeInfo.fleet:canUseStrategy(pg.strategy_data_template[slot1.id]) then
-			return
-		end
-
-		slot0:emit(ChallengePreCombatMediator.ON_OP, {
-			id = slot1.id,
-			arg1 = slot1.id
-		})
-		slot0:hideStrategyInfo()
-	end
-
-	function slot0.strategyPanel.onCancel()
-		slot0:hideStrategyInfo()
-	end
-end
-
-function slot0.hideStrategyInfo(slot0)
-	if slot0.strategyPanel then
-		slot0.strategyPanel:detach()
-	end
 end
 
 function slot0.recycleCharacterList(slot0, slot1, slot2)
@@ -526,19 +554,22 @@ function slot0.willExit(slot0)
 		slot0.eventTriggers = nil
 	end
 
-	for slot4, slot5 in ipairs(slot0._attachmentList) do
-		Object.Destroy(slot5)
-	end
-
-	slot0._attachmentList = nil
-
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-	slot0:recycleCharacterList(slot0.challengeInfo.fleet.getShipsByTeam(slot1, TeamType.Main, false), slot0._characterList[TeamType.Main])
-	slot0:recycleCharacterList(slot0.challengeInfo.fleet.getShipsByTeam(slot1, TeamType.Vanguard, false), slot0._characterList[TeamType.Vanguard])
+
+	slot1 = slot0.challenge:getRegularFleet()
+
+	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Main, false), slot0._characterList[TeamType.Main])
+	slot0:recycleCharacterList(slot1:getShipsByTeam(TeamType.Vanguard, false), slot0._characterList[TeamType.Vanguard])
+
+	for slot5, slot6 in ipairs(slot0._attachmentList) do
+		Object.Destroy(slot6)
+	end
+
+	slot0._attachmentList = nil
 end
 
 return slot0

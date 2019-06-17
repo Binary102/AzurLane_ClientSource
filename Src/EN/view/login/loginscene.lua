@@ -154,11 +154,6 @@ function slot0.showUserAgreement(slot0, slot1)
 			if slot1.userAgreenTF then
 				slot2()
 			end
-
-			if isAiriUS() then
-				AiriLogin()
-				pg.UIMgr.GetInstance():LoadingOn()
-			end
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("read_the_user_agreement"))
 		end

@@ -223,7 +223,7 @@ function slot0.updateCountdown(slot0, slot1)
 	if slot1 then
 		slot3 = pg.TimeMgr.GetInstance()
 
-		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), os.time(slot1)) < 365)
+		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr:GetInstance():Table2ServerTime(slot1)) < 365)
 
 		slot3 = pg.TimeMgr:GetInstance()
 

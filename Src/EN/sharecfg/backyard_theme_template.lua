@@ -701,6 +701,39 @@ pg.backyard_theme_template = {
 			}
 		}
 	},
+	[20] = {
+		Cfg_1 = 5,
+		name = "Manjuu Park",
+		desc = "Welcome to Manjuu Park!",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 20,
+		icon = "zothemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			20001,
+			20002,
+			20101,
+			20102,
+			20103,
+			20104,
+			20105,
+			20106,
+			20107,
+			20108,
+			20109,
+			20110,
+			20111,
+			20112,
+			20113,
+			20114
+		}
+	},
 	[22] = {
 		Cfg_1 = 5,
 		name = "Royal Metropolis ",
@@ -1232,6 +1265,7 @@ pg.backyard_theme_template = {
 		17,
 		18,
 		19,
+		20,
 		22,
 		23,
 		24,

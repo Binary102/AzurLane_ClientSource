@@ -66,4 +66,20 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
+function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+	if slot1:getFleetIndex(FleetType.Transport, slot0.line.row, slot0.line.column) then
+		if #slot0.movePath > 0 then
+			slot2.viewComponent.grid:moveTransport(slot4, slot0.movePath, Clone(slot0.movePath), slot3)
+		else
+			if slot1:getChapterCell(slot1.fleets[slot4].line.row, slot1.fleets[slot4].line.column) and slot6.attachment == ChapterConst.AttachBox and slot6.flag ~= 1 and pg.box_data_template[slot6.attachmentId].type == ChapterConst.BoxTorpedo then
+				slot2.viewComponent:doPlayTorpedo(slot3)
+
+				return
+			end
+
+			slot3()
+		end
+	end
+end
+
 return slot0

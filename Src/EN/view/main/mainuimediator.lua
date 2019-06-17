@@ -953,13 +953,12 @@ function slot0.tryRequestVersion(slot0)
 				})
 			end
 		end)
+		LeanTween.delayedCall(3, System.Action(function ()
+			if slot0 then
+				pg.UIMgr.GetInstance():LoadingOff()
+			end
+		end))
 	end
-
-	LeanTween.delayedCall(3, System.Action(function ()
-		if onFetching then
-			pg.UIMgr.GetInstance():LoadingOff()
-		end
-	end))
 end
 
 function slot0.checkCV(slot0)

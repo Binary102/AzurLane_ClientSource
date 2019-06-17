@@ -8526,7 +8526,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -9258,7 +9258,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -9307,7 +9307,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -9366,6 +9366,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70109] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "购买皮肤:火奴鲁鲁皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9854,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70109,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			102122
+		}
+	},
 	[70110] = {
 		group_type = 0,
 		resource_num = 780,
@@ -9405,7 +9454,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11095,7 +11144,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11144,7 +11193,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11241,7 +11290,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11829,7 +11878,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11878,7 +11927,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11927,7 +11976,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -11976,7 +12025,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12025,7 +12074,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12074,7 +12123,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12123,7 +12172,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12172,7 +12221,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12221,7 +12270,7 @@ pg.shop_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -12864,6 +12913,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[99009] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 99009,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40105
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -13127,6 +13230,7 @@ pg.shop_template = {
 		70082,
 		70083,
 		70084,
+		70109,
 		70110,
 		70111,
 		70112,
@@ -13198,7 +13302,8 @@ pg.shop_template = {
 		99005,
 		99006,
 		99007,
-		99008
+		99008,
+		99009
 	}
 }
 

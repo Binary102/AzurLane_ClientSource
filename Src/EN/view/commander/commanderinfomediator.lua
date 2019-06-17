@@ -10,6 +10,21 @@ slot0.ON_PREV = "CommanderInfoMediator:ON_PREV"
 slot0.ON_RENAME = "CommanderInfoMediator:ON_RENAME"
 
 function slot0.register(slot0)
+	slot0:bind(CommandRoomMediator.SHOW_MSGBOX, function (slot0, slot1)
+		slot0.viewComponent:openMsgBox(slot1)
+	end)
+	slot0:bind(CommandRoomMediator.ON_TREE_MSGBOX, function (slot0, slot1)
+		slot0.viewComponent:openTreePanel(slot1)
+	end)
+	slot0:bind(CommandRoomMediator.ON_CMD_SKILL, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = CommanderSkillMediator,
+			viewComponent = CommanderSkillLayer,
+			data = {
+				skill = slot1
+			}
+		}))
+	end)
 	slot0:bind(slot0.ON_RENAME, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.COMMANDER_RENAME, {
 			commanderId = slot1,
@@ -87,6 +102,7 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 10,
 			mode = CommandRoomScene.MODE_SELECT,
+			activeCommander = slot1,
 			activeGroupId = slot1.groupId,
 			selectedIds = slot0.contextData.materialIds,
 			ignoredIds = slot3,

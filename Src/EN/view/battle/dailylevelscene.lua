@@ -91,13 +91,7 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:displayDailyLevels()
 
-	if slot0.challengeInfo.battleScore > 0 and slot0.challengeInfo:isActive() then
-		slot0:tryOpenDesc(slot0.tryOpenDesc)
-		slot0:openChallengeView()
-	elseif slot0.contextData.challenge and not slot0.challengeInfo:isActive() then
-		slot0:tryOpenDesc(slot0.tryOpenDesc)
-		slot0:openChallengeFleetEditView()
-	elseif slot0.contextData.dailyLevelId then
+	if slot0.contextData.dailyLevelId then
 		slot0:tryOpenDesc(slot0.contextData.dailyLevelId)
 	else
 		slot0:enableDescMode(false)

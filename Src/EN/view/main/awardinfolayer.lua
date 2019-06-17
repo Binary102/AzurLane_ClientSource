@@ -63,6 +63,8 @@ function slot0.init(slot0)
 	slot0.blinks = {}
 	slot0.tweenItems = {}
 	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
+
+	slot0._tf:SetAsLastSibling()
 end
 
 function slot0.doAnim(slot0, slot1)

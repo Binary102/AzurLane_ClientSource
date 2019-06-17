@@ -5,7 +5,7 @@ return {
 		{
 			stageIndex = 1,
 			failCondition = 1,
-			timeCount = 60,
+			timeCount = 180,
 			backGroundStageID = 1,
 			passCondition = 1,
 			totalArea = {
@@ -58,21 +58,17 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 900008,
+							score = 0,
 							delay = 1,
 							moveCast = true,
-							score = 0,
 							corrdinate = {
 								0,
 								0,
 								55
 							},
 							bossData = {
-								hpBarNum = 100,
+								hpBarNum = 50,
 								icon = "aisaikesi"
-							},
-							buffList = {
-								8607,
-								8610
 							},
 							phase = {
 								{
@@ -98,9 +94,10 @@ return {
 									switchTo = 3,
 									index = 2,
 									switchType = 1,
+									setAI = 99990,
 									removeWeapon = {},
 									addWeapon = {
-										950158,
+										950157,
 										950159
 									}
 								},
@@ -109,9 +106,12 @@ return {
 									index = 3,
 									switchType = 1,
 									switchTo = 4,
-									removeWeapon = {},
+									setAI = 10001,
+									removeWeapon = {
+										950159
+									},
 									addWeapon = {
-										950151
+										950158
 									},
 									addBuff = {}
 								},
@@ -121,7 +121,7 @@ return {
 									switchParam = 3,
 									switchTo = 5,
 									removeWeapon = {
-										950151
+										950158
 									},
 									addWeapon = {
 										950155,
@@ -131,19 +131,26 @@ return {
 									addBuff = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 6,
 									index = 5,
-									switchParam = 3,
+									switchType = 1,
+									setAI = 99990,
 									addWeapon = {
-										950155
+										950157,
+										950159
 									}
 								},
 								{
+									switchParam = 1,
+									switchTo = 7,
 									index = 6,
 									switchType = 1,
-									switchTo = 7,
-									switchParam = 1
+									setAI = 10001,
+									removeWeapon = {
+										950157,
+										950159
+									}
 								},
 								{
 									switchType = 1,
@@ -158,7 +165,8 @@ return {
 									index = 8,
 									switchType = 1,
 									removeWeapon = {
-										950155
+										950155,
+										950156
 									},
 									addWeapon = {
 										950151

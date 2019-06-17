@@ -241,6 +241,7 @@ slot0.InitUI = slot2
 
 function slot2(slot0, slot1, slot2, slot3)
 	slot0.chapter = slot1
+	slot0.selects = slot3
 	slot0.chapterASValue = slot0.chapter:getConfig("air_dominance")
 	slot0.suggestionValue = slot0.chapter:getConfig("best_air_dominance")
 	slot0.fleets = _(_.values(slot2)):chain():filter(function (slot0)

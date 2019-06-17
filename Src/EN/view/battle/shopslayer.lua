@@ -20,6 +20,7 @@ function slot0.init(slot0)
 	slot0.skinBtn = slot0:findTF("frame/skin_btn")
 	slot0.chat = slot0:findTF("frame/chat")
 	slot0.chatText = slot0:findTF("Text", slot0.chat)
+	slot0.buzhihuoTouch = slot0:findTF("paint_touch")
 	slot0.activityBg = slot0:findTF("activity_bg")
 	slot0.backBtn = slot0:findTF("back_button", slot0.top)
 	slot0.painting = slot0:findTF("paint")
@@ -131,6 +132,9 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	setActive(slot0.chat, false)
+	onButton(slot0, slot0.buzhihuoTouch, function ()
+		slot0:showRandomShipWord(pg.navalacademy_shoppingstreet_template[1].words_touch, false, "touch")
+	end, SFX_PANEL)
 
 	slot0.toggles = {}
 	slot2 = slot0:getTpl("activity", slot0.bottomPanel:Find("toggle_list"))
@@ -313,6 +317,8 @@ function slot0.updatePainting(slot0, slot1)
 
 		setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
 	end
+
+	setActive(slot0.buzhihuoTouch, slot3 == "buzhihuo_shop")
 end
 
 function slot0.getPaintingName(slot0, slot1)

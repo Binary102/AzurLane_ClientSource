@@ -1,5 +1,14 @@
 pg = pg or {}
 pg.word_legal_template = {
+	K = {
+		ö = {
+			l = {
+				n = {
+					this = true
+				}
+			}
+		}
+	},
 	T = {
 		o = {
 			r = {

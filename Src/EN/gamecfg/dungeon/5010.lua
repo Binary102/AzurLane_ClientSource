@@ -67,26 +67,19 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 35,
+								hpBarNum = 30,
 								icon = "biaoqiang"
 							},
 							phase = {
 								{
 									switchType = 1,
-									switchTo = 1,
+									switchTo = 2,
 									index = 0,
 									switchParam = 2.5,
 									addWeapon = {
-										940041
-									}
-								},
-								{
-									switchType = 1,
-									switchTo = 2,
-									index = 1,
-									switchParam = 2,
-									addWeapon = {
-										940007
+										940041,
+										940007,
+										940054
 									}
 								},
 								{

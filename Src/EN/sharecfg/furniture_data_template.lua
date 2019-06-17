@@ -29016,6 +29016,1177 @@ pg.furniture_data_template = {
 			}
 		}
 	},
+	[20001] = {
+		can_rotate = 0,
+		name = "Manjuu Park Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibanzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "zo/dibanzo",
+		canputon = 0,
+		discount = 0,
+		id = 20001,
+		comfortable = 4,
+		describe = "Classy and grassy without being sassy.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20002] = {
+		can_rotate = 0,
+		name = "Manjuu Park Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbizoicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "zo/qiangbizo",
+		canputon = 0,
+		discount = 0,
+		id = 20002,
+		comfortable = 4,
+		describe = "Makes a compact indoor area feel vast and outdoors-y.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20101] = {
+		advice = 0,
+		name = "Dried Grass Bed",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/chuangzo",
+		can_rotate = 0,
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "chuangzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20101,
+		comfortable = 3,
+		describe = "It's no substitute for a real bed, but it beats sleeping on the ground.",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-35,
+					22
+				},
+				{
+					-1,
+					1
+				},
+				"zo/chuangzo_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20102] = {
+		can_rotate = 0,
+		name = "Red Flag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "qiganzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zo/qiganzo",
+		canputon = 0,
+		discount = 0,
+		id = 20102,
+		comfortable = 1,
+		describe = "Serves as a landmark to look for if you get lost. Of no relation to the red flags found in VNs.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20103] = {
+		advice = 0,
+		name = "Portable Changing Room",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/gengyishizo",
+		can_rotate = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "gengyishizoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20103,
+		comfortable = 4,
+		describe = "No peeping on anyone inside, else you might end up like swiss cheese.",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					11.3,
+					-82.2
+				},
+				{
+					-1,
+					1
+				},
+				"zo/gengyishizo_using",
+				0,
+				{
+					{
+						-23,
+						222
+					},
+					{
+						486,
+						619
+					},
+					"zo/gengyishizo_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20104] = {
+		can_rotate = 0,
+		name = "Manjuu Park Entrance",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "menzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zo/menzo",
+		canputon = 0,
+		discount = 0,
+		id = 20104,
+		comfortable = 3,
+		describe = "\"Come on in, there's no entrance fee! Now please sign this waiver!\"",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20105] = {
+		can_rotate = 1,
+		name = "Welcome Mat",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "ditanzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zo/ditanzo",
+		canputon = 0,
+		discount = 0,
+		id = 20105,
+		comfortable = 2,
+		describe = "A most welcoming welcome mat.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			6,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20106] = {
+		can_rotate = 0,
+		name = "Colorful Balloons",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 4,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "qiqiuzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zo/qiqiuzo",
+		canputon = 0,
+		discount = 0,
+		id = 20106,
+		comfortable = 1,
+		describe = "Okay, 2 colors isn't all that much, but we're dealing with budget restraints...",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20107] = {
+		can_rotate = 0,
+		name = "Summer Parasol",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "sanzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zo/sanzo",
+		canputon = 0,
+		discount = 0,
+		id = 20107,
+		comfortable = 1,
+		describe = "For those days when you want to go to the beach without actually sitting out in the sun.",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20108] = {
+		advice = 0,
+		name = "Majestic Golden Lion",
+		count = 4,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/shizizo",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shizizoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20108,
+		comfortable = 2,
+		describe = "HOLY COW, IT'S A LION! GET IN THE CAR!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-6.6,
+					31.4
+				},
+				{
+					-1,
+					1
+				},
+				"zo/shizizo_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20109] = {
+		can_rotate = 0,
+		name = "Breadfruit Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "zo/shuzo",
+		canputon = 0,
+		discount = 0,
+		id = 20109,
+		comfortable = 2,
+		describe = "\"So money doesn't grow on trees, but BREAD does? Whatever you say...\"",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20110] = {
+		can_rotate = 0,
+		name = "Forest Hot Spring",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "wenquanzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "zo/wenquanzo",
+		canputon = 0,
+		discount = 0,
+		id = 20110,
+		comfortable = 3,
+		describe = "It's a 100% natural hot spring! It's clean, non-emissive, gluten-free, all that jazz!",
+		dorm_id = 0,
+		gem_price = 240,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20111] = {
+		advice = 0,
+		name = "Picnic Table",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/yecanzhuozo",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yecanzhuozoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20111,
+		comfortable = 2,
+		describe = "Better stuff that tummy with something yummy before heading out on an adventure.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-74,
+					87
+				},
+				{
+					1,
+					1
+				},
+				"zo/yecanzhuozo_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20112] = {
+		advice = 0,
+		name = "Picnic Chair",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/yinzizo",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "yinzizoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20112,
+		comfortable = 2,
+		describe = "Might as well rest a little while you're here. Just don't fall asleep or you'll be left behind.",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-14,
+					19
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20113] = {
+		can_rotate = 0,
+		name = "Small Bush",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 6,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhiwuzoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "zo/zhiwuzo",
+		canputon = 0,
+		discount = 0,
+		id = 20113,
+		comfortable = 1,
+		describe = "\"I don't want to beat around the bush, but... there might be a lion in that bush.\"",
+		dorm_id = 0,
+		gem_price = 60,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[20114] = {
+		advice = 0,
+		name = "Manjuu Stage",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "zo/wutaizo",
+		can_rotate = 1,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "wutaizoicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 20114,
+		comfortable = 4,
+		describe = "Dance and sing on it like an animal!",
+		dorm_id = 0,
+		gem_price = 450,
+		themeId = 20,
+		spine_extra = "",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			8,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-58,
+					-27
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"dance",
+				{
+					71,
+					-70
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[22001] = {
 		can_rotate = 0,
 		name = "Metropolis Flooring",
@@ -52603,7 +53774,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -52667,7 +53838,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -52734,7 +53905,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -52801,7 +53972,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -52868,7 +54039,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -52935,7 +54106,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53002,7 +54173,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53069,7 +54240,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53136,7 +54307,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53203,7 +54374,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53270,7 +54441,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53337,7 +54508,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53404,7 +54575,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53471,7 +54642,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53538,7 +54709,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53605,7 +54776,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53672,7 +54843,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53739,7 +54910,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53806,7 +54977,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53873,7 +55044,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -53940,7 +55111,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54007,7 +55178,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54087,7 +55258,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54168,7 +55339,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54249,7 +55420,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54329,7 +55500,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54396,7 +55567,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54463,7 +55634,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54530,7 +55701,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54609,7 +55780,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54676,7 +55847,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54743,7 +55914,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54810,7 +55981,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54891,7 +56062,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -54997,7 +56168,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55069,7 +56240,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55136,7 +56307,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55203,7 +56374,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55270,7 +56441,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55337,7 +56508,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55404,7 +56575,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55471,7 +56642,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55538,7 +56709,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55605,7 +56776,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55672,7 +56843,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55739,7 +56910,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55806,7 +56977,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -55873,7 +57044,7 @@ pg.furniture_data_template = {
 				{
 					2019,
 					6,
-					12
+					19
 				},
 				{
 					23,
@@ -56365,6 +57536,22 @@ pg.furniture_data_template = {
 		19305,
 		19306,
 		19307,
+		20001,
+		20002,
+		20101,
+		20102,
+		20103,
+		20104,
+		20105,
+		20106,
+		20107,
+		20108,
+		20109,
+		20110,
+		20111,
+		20112,
+		20113,
+		20114,
 		22001,
 		22002,
 		22101,

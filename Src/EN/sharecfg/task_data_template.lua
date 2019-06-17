@@ -1994,6 +1994,174 @@ pg.task_data_template = {
 			}
 		}
 	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 48,
+		type = 1,
+		name = "第十二章1图",
+		count_inherit = 0,
+		desc = "Clear 12-1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[49,3045]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1201,
+		id = 48,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1201",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 49,
+		type = 1,
+		name = "第十二章2图",
+		count_inherit = 0,
+		desc = "Clear 12-2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[50,3046]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1202,
+		id = 49,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1202",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 50,
+		type = 1,
+		name = "第十二章3图",
+		count_inherit = 0,
+		desc = "Clear 12-3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[51,3047]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1203,
+		id = 50,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1203",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 51,
+		type = 1,
+		name = "第十二章4图",
+		count_inherit = 0,
+		desc = "Clear 12-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "3048",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1204,
+		id = 51,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1204",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
 	[1001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -5816,6 +5984,174 @@ pg.task_data_template = {
 				2,
 				15008,
 				250
+			}
+		}
+	},
+	[3045] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3045,
+		type = 2,
+		name = "第十二章1图",
+		count_inherit = 0,
+		desc = "Get 3 stars in stage 12-1",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1201,
+		id = 3045,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[3046] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3046,
+		type = 2,
+		name = "第十二章2图",
+		count_inherit = 0,
+		desc = "Get 3 stars in stage 12-2",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1202,
+		id = 3046,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1202",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[3047] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3047,
+		type = 2,
+		name = "第十二章3图",
+		count_inherit = 0,
+		desc = "Get 3 stars in stage 12-3",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1203,
+		id = 3047,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[3048] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3048,
+		type = 2,
+		name = "第十二章4图",
+		count_inherit = 0,
+		desc = "Get 3 stars in stage 12-4",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1204,
+		id = 3048,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1204",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				15008,
+				550
 			}
 		}
 	},
@@ -13125,6 +13461,154 @@ pg.task_data_template = {
 				2,
 				15008,
 				250
+			}
+		}
+	},
+	[6029] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6029,
+		type = 2,
+		name = "Cold Wind – Hard",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 8-1.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10801,
+		id = 6029,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10801",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6030] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6030,
+		type = 2,
+		name = "Arctic Daybreak – Hard",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 8-2.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10802,
+		id = 6030,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10802",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6031] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6031,
+		type = 2,
+		name = "Arctic Fury – Hard",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 8-3.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10803,
+		id = 6031,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10803",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6032] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6032,
+		type = 2,
+		name = "Old Battlefield – Hard",
+		count_inherit = 0,
+		desc = "Get 3 stars on Hard mode in stage 8-4.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10804,
+		id = 6032,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10804",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
 			}
 		}
 	},
@@ -42993,6 +43477,10 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		45,
 		46,
 		47,
+		48,
+		49,
+		50,
+		51,
 		1001,
 		1011,
 		1012,
@@ -43094,6 +43582,10 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		3042,
 		3043,
 		3044,
+		3045,
+		3046,
+		3047,
+		3048,
 		5001,
 		5002,
 		5003,
@@ -43299,6 +43791,10 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		6026,
 		6027,
 		6028,
+		6029,
+		6030,
+		6031,
+		6032,
 		7001,
 		7002,
 		7003,

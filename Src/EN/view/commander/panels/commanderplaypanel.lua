@@ -1,4 +1,4 @@
-slot0 = class("CommanderPlayPanel", import("..base.BasePanel"))
+slot0 = class("CommanderPlayPanel", import("...base.BasePanel"))
 
 function slot0.init(slot0)
 	slot0.skillTF = slot0:findTF("skill/frame")
@@ -19,8 +19,9 @@ function slot0.init(slot0)
 	slot0.confirmBtn = slot0:findTF("select_panel/confirm_btn")
 end
 
-function slot0.update(slot0, slot1)
+function slot0.update(slot0, slot1, slot2)
 	slot0.commanderVO = slot1
+	slot0.detailPage = slot2
 
 	slot0:updateMatrtials(slot0.parent.contextData.materialIds or {}, skill)
 end
@@ -65,7 +66,7 @@ function slot0.updateMatrtials(slot0, slot1)
 	end)
 	slot0.uilist:align(CommanderConst.PLAY_MAX_COUNT)
 
-	slot6, slot6 = slot0:getSkillExpAndCommanderExp(slot1)
+	slot6, slot6 = slot0.getSkillExpAndCommanderExp(slot0.commanderVO, slot1)
 
 	slot0:updateSkillTF(slot3)
 	slot0:updateCommanderTF(slot2)
@@ -94,7 +95,7 @@ function slot0.updateMatrtials(slot0, slot1)
 end
 
 function slot0.getSkillExpAndCommanderExp(slot0, slot1)
-	slot2 = slot0.commanderVO
+	slot2 = slot0
 	slot3 = 0
 	slot4 = 0
 	slot5 = getProxy(CommanderProxy)
@@ -180,23 +181,26 @@ function slot0.updateSkillTF(slot0, slot1)
 end
 
 function slot0.updateCommanderTF(slot0, slot1)
-	Clone(slot2).addExp(slot3, slot1)
+	slot3 = Clone(slot2)
+
+	slot3:addExp(slot1)
+	slot0.detailPage:ActionInvoke("updatePreView", slot3)
 
 	slot0.commanderLvTxt.text = "LV." .. slot0.commanderVO.level
 
 	if slot0.commanderVO:isMaxLevel() then
 		slot0.expSlider.value = 1
-		slot0.sliderExpTxt.text = "+0/MAX"
+		slot0.sliderExpTxt.text = "EXP: +0/MAX"
 		slot0.preExpSlider.value = 1
 		slot0.levelAdditonTxt.text = "+0"
 	else
 		slot0.expSlider.value = slot2.exp / slot2:getNextLevelExp()
 
-		if slot1 <= 0 or not ("<color=#A9F548FF>(+" .. slot1 .. ")</color>") then
-			slot4 = ""
+		if slot1 <= 0 or not ("<color=#A9F548FF>" .. slot2.exp + slot1 .. "</color>") then
+			slot4 = "0"
 		end
 
-		slot0.sliderExpTxt.text = slot2.exp .. slot4 .. "/" .. slot2:getNextLevelExp()
+		slot0.sliderExpTxt.text = "EXP: " .. slot4 .. "/" .. slot2:getNextLevelExp()
 
 		if slot3:isMaxLevel() then
 			slot0.preExpSlider.value = 1
@@ -320,7 +324,7 @@ function slot0.playAnim(slot0, slot1, slot2, slot3)
 
 			return
 		end, function ()
-			slot0:update(slot0)
+			slot0:update(slot0, slot0.detailPage)
 
 			if slot0 then
 				slot2()
@@ -364,7 +368,7 @@ function slot0.playAnim(slot0, slot1, slot2, slot3)
 
 			return
 		end, function ()
-			slot0:update(slot0)
+			slot0:update(slot0, slot0.detailPage)
 
 			if slot0 then
 				slot2()

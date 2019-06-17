@@ -266,6 +266,46 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[100211] = {
+		id = 100211,
+		name = "王牌射手",
+		effect_type = "battle_buff",
+		args = {
+			40210
+		},
+		condition = {
+			{
+				"around_enemy",
+				0,
+				{
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				}
+			}
+		}
+	},
+	[100212] = {
+		id = 100212,
+		name = "王牌射手",
+		effect_type = "battle_buff",
+		args = {
+			40220
+		},
+		condition = {}
+	},
+	[100213] = {
+		id = 100213,
+		name = "王牌射手",
+		effect_type = "battle_buff",
+		args = {
+			40230
+		},
+		condition = {}
+	},
 	[110111] = {
 		id = 110111,
 		name = "5英寸的勇气",
@@ -481,6 +521,48 @@ pg.commander_skill_effect_template = {
 		},
 		condition = {}
 	},
+	[200211] = {
+		id = 200211,
+		name = "狡黠之灌",
+		effect_type = "battle_buff",
+		args = {
+			40240
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[200212] = {
+		id = 200212,
+		name = "狡黠之灌",
+		effect_type = "battle_buff",
+		args = {
+			40250
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[200213] = {
+		id = 200213,
+		name = "狡黠之灌",
+		effect_type = "battle_buff",
+		args = {
+			40260
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
 	[210111] = {
 		id = 210111,
 		name = "物资拦截者",
@@ -585,6 +667,93 @@ pg.commander_skill_effect_template = {
 					2,
 					3
 				}
+			}
+		}
+	},
+	[210311] = {
+		id = 210311,
+		name = "守望者",
+		effect_type = "battle_buff",
+		args = {
+			442810
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[210312] = {
+		id = 210312,
+		name = "守望者",
+		effect_type = "move_speed",
+		args = {
+			1
+		},
+		condition = {
+			{
+				"around_enemy",
+				2,
+				{
+					1,
+					2,
+					3
+				}
+			}
+		}
+	},
+	[210313] = {
+		id = 210313,
+		name = "守望者",
+		effect_type = "battle_buff",
+		args = {
+			441320
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[210411] = {
+		id = 210411,
+		name = "无畏的骑士",
+		effect_type = "ambush_doge",
+		args = {
+			102,
+			0.05,
+			10,
+			250
+		},
+		condition = {}
+	},
+	[210412] = {
+		id = 210412,
+		name = "无畏的骑士",
+		effect_type = "battle_buff",
+		args = {
+			432610
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[210413] = {
+		id = 210413,
+		name = "无畏的骑士",
+		effect_type = "battle_buff",
+		args = {
+			40050
+		},
+		condition = {
+			{
+				"pos",
+				2
 			}
 		}
 	},
@@ -713,6 +882,66 @@ pg.commander_skill_effect_template = {
 					7
 				},
 				1,
+				1
+			}
+		}
+	},
+	[300211] = {
+		id = 300211,
+		name = "敢勇当先",
+		effect_type = "battle_buff",
+		args = {
+			40270
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[300212] = {
+		id = 300212,
+		name = "敢勇当先",
+		effect_type = "battle_buff",
+		args = {
+			40280
+		},
+		condition = {
+			{
+				"around_enemy",
+				2,
+				{
+					4,
+					5,
+					6
+				}
+			},
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[300213] = {
+		id = 300213,
+		name = "敢勇当先",
+		effect_type = "battle_buff",
+		args = {
+			40290
+		},
+		condition = {
+			{
+				"around_enemy",
+				0,
+				{
+					4,
+					5,
+					6
+				}
+			},
+			{
+				"pos",
 				1
 			}
 		}
@@ -947,6 +1176,70 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[400211] = {
+		id = 400211,
+		name = "不屈的意志",
+		effect_type = "battle_buff",
+		args = {
+			40300
+		},
+		condition = {
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[400212] = {
+		id = 400212,
+		name = "不屈的意志",
+		effect_type = "attack",
+		args = {
+			"cannon",
+			102,
+			1500,
+			0.3,
+			600
+		},
+		condition = {
+			{
+				"count",
+				{
+					4,
+					5
+				},
+				1,
+				3
+			},
+			{
+				"pos",
+				2
+			}
+		}
+	},
+	[400213] = {
+		id = 400213,
+		name = "不屈的意志",
+		effect_type = "battle_buff",
+		args = {
+			40310
+		},
+		condition = {
+			{
+				"around_enemy",
+				0,
+				{
+					4,
+					5,
+					6
+				}
+			},
+			{
+				"pos",
+				2
+			}
+		}
+	},
 	[410111] = {
 		id = 410111,
 		name = "海之铁骑士",
@@ -1038,6 +1331,60 @@ pg.commander_skill_effect_template = {
 			1
 		},
 		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[410311] = {
+		id = 410311,
+		name = "守护之心",
+		effect_type = "battle_buff",
+		args = {
+			451210
+		},
+		condition = {
+			{
+				"pos",
+				2
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[410312] = {
+		id = 410312,
+		name = "守护之心",
+		effect_type = "battle_buff",
+		args = {
+			451920
+		},
+		condition = {
+			{
+				"pos",
+				2
+			},
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[410313] = {
+		id = 410313,
+		name = "守护之心",
+		effect_type = "battle_buff",
+		args = {
+			40060
+		},
+		condition = {
+			{
+				"pos",
+				2
+			},
 			{
 				"insubteam",
 				1
@@ -1146,6 +1493,9 @@ pg.commander_skill_effect_template = {
 		100111,
 		100112,
 		100113,
+		100211,
+		100212,
+		100213,
 		110111,
 		110112,
 		110113,
@@ -1161,12 +1511,21 @@ pg.commander_skill_effect_template = {
 		200111,
 		200112,
 		200113,
+		200211,
+		200212,
+		200213,
 		210111,
 		210112,
 		210113,
 		210211,
 		210212,
 		210213,
+		210311,
+		210312,
+		210313,
+		210411,
+		210412,
+		210413,
 		220111,
 		220112,
 		220113,
@@ -1176,6 +1535,9 @@ pg.commander_skill_effect_template = {
 		300111,
 		300112,
 		300113,
+		300211,
+		300212,
+		300213,
 		310111,
 		310112,
 		310113,
@@ -1191,12 +1553,18 @@ pg.commander_skill_effect_template = {
 		400111,
 		400112,
 		400113,
+		400211,
+		400212,
+		400213,
 		410111,
 		410112,
 		410113,
 		410211,
 		410212,
 		410213,
+		410311,
+		410312,
+		410313,
 		420111,
 		420112,
 		420113,

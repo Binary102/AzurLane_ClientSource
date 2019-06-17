@@ -33,21 +33,16 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-
-	slot5 = getProxy(ChallengeProxy)
-	slot6 = slot5:getCurrentChallengeInfo()
-
-	slot0.viewComponent:setChallengeInfo(slot5:getCurrentChallengeInfo())
 	slot0:bind(slot0.ON_CHALLENGE, function ()
 		slot0.viewComponent:openChallengeView()
 	end)
 	slot0:bind(slot0.ON_CHALLENGE_EDIT_FLEET, function (slot0, slot1)
-		slot2 = slot0:getCurrentChallengeInfo()
+		slot2 = challengeProxy:getCurrentChallengeInfo()
 
 		slot2:setDamageRateID(slot1.damageRateID)
 		slot2:setLevelRateID(slot1.levelRateID)
-		slot0:updateChallenge(slot2)
-		slot1.viewComponent:openChallengeFleetEditView()
+		challengeProxy:updateChallenge(slot2)
+		slot0.viewComponent:openChallengeFleetEditView()
 	end)
 	slot0:bind(slot0.ON_CONTINUE_CHALLENGE, function ()
 		slot0:addSubLayers(Context.New({
@@ -60,15 +55,15 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.CHALLENGE_RESET)
 	end)
 	slot0:bind(slot0.ON_CHALLENGE_FLEET_CLEAR, function ()
-		slot0:clearEdittingFleet()
-		slot1.viewComponent:flushFleetEditButton()
+		challengeProxy:clearEdittingFleet()
+		challengeProxy.clearEdittingFleet.viewComponent:flushFleetEditButton()
 	end)
 	slot0:bind(slot0.ON_CHALLENGE_FLEET_RECOMMEND, function ()
-		slot0:recommendChallengeFleet()
-		slot1.viewComponent:flushFleetEditButton()
+		challengeProxy:recommendChallengeFleet()
+		challengeProxy.recommendChallengeFleet.viewComponent:flushFleetEditButton()
 	end)
 	slot0:bind(slot0.ON_REQUEST_CHALLENGE, function ()
-		slot1 = slot0:getCurrentChallengeInfo().getGSRateID(slot0)
+		slot1 = challengeProxy:getCurrentChallengeInfo().getGSRateID(slot0)
 
 		for slot5 = 1, 4, 1 do
 			PlayerPrefs.SetInt("challengeShipUID_" .. slot5, nil)
@@ -78,7 +73,7 @@ function slot0.register(slot0)
 			PlayerPrefs.SetInt("challengeShipUID_" .. slot5, slot0:getShips()[slot5].id)
 		end
 
-		slot1:sendNotification(GAME.CHALLENGE_REQUEST, {
+		slot0:sendNotification(GAME.CHALLENGE_REQUEST, {
 			shipIDList = slot0:getShips(),
 			levelRate = slot0:getLevelRateID(),
 			damageRate = slot0:getDamageRateID(),

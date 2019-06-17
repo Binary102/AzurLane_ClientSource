@@ -94,7 +94,8 @@ end
 
 function onInputEndEdit(slot0, slot1, slot2)
 	pg.DelegateInfo.Add(slot0, slot3)
-	slot1:GetComponent(typeof(InputField)).onEndEdit:AddListener(slot2)
+	slot1:GetComponent(typeof(InputField)).onEndEdit.RemoveAllListeners(slot3)
+	slot1.GetComponent(typeof(InputField)).onEndEdit:AddListener(slot2)
 end
 
 function activateInputField(slot0)

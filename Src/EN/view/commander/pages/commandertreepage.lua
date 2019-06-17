@@ -1,14 +1,10 @@
-slot0 = class("CommanderTreePanel", import("..base.BasePanel"))
+slot0 = class("CommanderTreePage", import("...base.BaseSubView"))
 
-function slot0.findTF(slot0, slot1)
-	return findTF(slot0._tf, slot1)
+function slot0.getUIName(slot0)
+	return "CommanderTreeUI"
 end
 
-function slot0.Ctor(slot0, slot1)
-	pg.DelegateInfo.New(slot0)
-
-	slot0._go = slot1
-	slot0._tf = slot1.transform
+function slot0.OnInit(slot0)
 	slot0.treePanel = slot0._tf
 	slot0.treeList = UIItemList.New(slot0:findTF("bg/frame/bg/talents", slot0.treePanel), slot0:findTF("bg/frame/bg/talents/telent", slot0.treePanel))
 	slot0.treeTalentDesTxt = slot0.treePanel:Find("bg/frame/bg/desc/Text"):GetComponent(typeof(Text))
@@ -57,8 +53,8 @@ function slot0.closeTreePanel(slot0)
 	setActive(slot0.treePanel, false)
 end
 
-function slot0.dispose(slot0)
-	pg.DelegateInfo.Dispose(slot0)
+function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

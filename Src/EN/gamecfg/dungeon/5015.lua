@@ -44,7 +44,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 100,
+								hpBarNum = 50,
 								icon = "tierbici"
 							},
 							phase = {
@@ -117,7 +117,8 @@ return {
 									index = 5,
 									switchParam = 3,
 									addWeapon = {
-										950143
+										950143,
+										950146
 									}
 								},
 								{
@@ -145,7 +146,8 @@ return {
 									switchType = 1,
 									setAI = 90004,
 									removeWeapon = {
-										950144
+										950144,
+										950146
 									}
 								},
 								{
@@ -301,7 +303,8 @@ return {
 									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
-										950145
+										950145,
+										950146
 									}
 								},
 								{
@@ -321,7 +324,8 @@ return {
 									setAI = 90004,
 									removeWeapon = {
 										950145,
-										950141
+										950141,
+										950146
 									}
 								}
 							}

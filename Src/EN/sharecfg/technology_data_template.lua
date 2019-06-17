@@ -2520,6 +2520,40 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1004] = {
+		id = 1004,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "B-397-RF",
+		lv_limit = 80,
+		desc = "A large number of hypotheses have been generated during the process of researching the Wisdom Cube. This research project is aimed at collecting empirical evidence to test these hypotheses through practical methods.",
+		condition = 52010,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "Medium Project",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				52002,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
 	[1005] = {
 		id = 1005,
 		rarity = 3,
@@ -3494,6 +3528,7 @@ pg.technology_data_template = {
 		1001,
 		1002,
 		1003,
+		1004,
 		1005,
 		1006,
 		1007,

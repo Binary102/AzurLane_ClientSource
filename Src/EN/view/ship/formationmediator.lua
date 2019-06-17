@@ -9,6 +9,7 @@ slot0.CHANGE_FLEET_SHIPS_ORDER = "FormationMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.COMMIT_FLEET = "FormationMediator:COMMIT_FLEET"
 slot0.ON_SELECT_COMMANDER = "FormationMediator:ON_SELECT_COMMANDER"
 slot0.ON_CMD_SKILL = "FormationMediator:ON_CMD_SKILL"
+slot0.COMMANDER_FORMATION_OP = "FormationMediator:COMMANDER_FORMATION_OP"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -27,6 +28,7 @@ function slot0.register(slot0)
 	end
 
 	slot0.viewComponent:SetFleets(slot3)
+	slot0.viewComponent:setCommanderPrefabFleet(getProxy(CommanderProxy).getPrefabFleet(slot4))
 	slot0:bind(slot0.ON_CMD_SKILL, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
@@ -157,6 +159,11 @@ function slot0.register(slot0)
 
 		slot1:onSelectCommander(slot2)
 	end)
+	slot0:bind(slot0.COMMANDER_FORMATION_OP, function (slot0, slot1)
+		slot0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
+			data = slot1
+		})
+	end)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
@@ -177,7 +184,7 @@ function slot0.onSelectCommander(slot0, slot1)
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 		maxCount = 1,
 		mode = CommandRoomScene.MODE_SELECT,
-		activeCommanderId = slot4 and slot4.id,
+		activeCommander = slot4,
 		ignoredIds = slot6,
 		onCommander = function (slot0)
 			return true
@@ -321,7 +328,9 @@ function slot0.listNotificationInterests(slot0)
 		FleetProxy.FLEET_RENAMED,
 		FleetProxy.FLEET_COMMIT,
 		GAME.UPDATE_FLEET_DONE,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		CommanderProxy.PREFAB_FLEET_UPDATE,
+		GAME.COOMMANDER_EQUIP_TO_FLEET_DONE
 	}
 end
 
@@ -335,6 +344,11 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:SetFleets(slot5)
 		slot0.viewComponent:UpdateFleetView(true)
 		slot0.viewComponent:DisplayRenamePanel(false)
+	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
+		slot0.viewComponent:setCommanderPrefabFleet(getProxy(CommanderProxy):getPrefabFleet())
+		slot0.viewComponent:updateCommanderFormation()
+	elseif slot2 == GAME.COOMMANDER_EQUIP_TO_FLEET_DONE then
+		slot0.viewComponent:updateCommanderFormation()
 	end
 end
 

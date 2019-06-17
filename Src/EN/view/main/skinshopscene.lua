@@ -68,7 +68,7 @@ function slot6(slot0)
 
 				slot1._opriceTxt.text = slot6
 
-				setActive(go(slot1._opriceTxt), false)
+				setActive(go(slot1._opriceTxt), slot8 and slot7 < 1)
 
 				slot9 = slot1.buyCount == 0
 
@@ -547,7 +547,7 @@ function slot0.addShopTimer(slot0, slot1)
 	end
 
 	slot6 = pg.TimeMgr:GetInstance()
-	slot7 = os.time(slot5)
+	slot7 = pg.TimeMgr:GetInstance():Table2ServerTime(slot5)
 	slot0.shopTimer = Timer.New(function ()
 		if slot0:LaterThan(os.server_date("*t", slot0), ) then
 			slot2:removeShopTimer()
@@ -604,7 +604,7 @@ function slot0.updatePrice(slot0, slot1)
 
 			slot0.originalPriceTxt.text = slot8
 
-			setActive(tf(go(slot0.originalPriceTxt)).parent, false)
+			setActive(tf(go(slot0.originalPriceTxt)).parent, slot4:isDisCount())
 		end
 	end
 end

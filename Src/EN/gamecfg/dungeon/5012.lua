@@ -67,7 +67,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 45,
+								hpBarNum = 30,
 								icon = "Z23"
 							},
 							phase = {
@@ -77,7 +77,8 @@ return {
 									index = 0,
 									switchParam = 4,
 									addWeapon = {
-										900431
+										900431,
+										900112
 									}
 								},
 								{

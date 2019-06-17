@@ -473,9 +473,6 @@ function slot0.initPauseWindow(slot0)
 					setText(slot4, "碧蓝梦境")
 				else
 					if slot5 == SYSTEM_CHALLENGE then
-						setText(slot3, "SP")
-						setText(slot4, pg.expedition_data_template[slot0._chapter:getChallengeStageID()].name)
-						setActive(slot0.LeftTimeContainer, false)
 					end
 				end
 			end

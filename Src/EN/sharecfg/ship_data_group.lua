@@ -6975,6 +6975,32 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[203] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 203,
+		type = 3,
+		index_id = 225,
+		group_type = 30314,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Exploring Stage 12-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1204
+					}
+				},
+				0
+			}
+		}
+	},
 	[204] = {
 		nationality = 3,
 		hide = 0,
@@ -7288,6 +7314,58 @@ pg.ship_data_group = {
 				"Event: Crimson Echoes",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[218] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 218,
+		type = 6,
+		index_id = 240,
+		group_type = 30601,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Exploring Stage 12-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 1202
+					}
+				},
+				0
+			}
+		}
+	},
+	[219] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 219,
+		type = 6,
+		index_id = 241,
+		group_type = 30602,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Exploring Stage 12-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1203
+					}
 				},
 				0
 			}
@@ -7664,7 +7742,7 @@ pg.ship_data_group = {
 		type = 1,
 		index_id = 258,
 		group_type = 40101,
-		trans_type = 0,
+		trans_type = 1,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -8077,7 +8155,7 @@ pg.ship_data_group = {
 		type = 2,
 		index_id = 272,
 		group_type = 40204,
-		trans_type = 0,
+		trans_type = 2,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -9250,6 +9328,7 @@ pg.ship_data_group = {
 		200,
 		201,
 		202,
+		203,
 		204,
 		206,
 		207,
@@ -9262,6 +9341,8 @@ pg.ship_data_group = {
 		212,
 		213,
 		368,
+		218,
+		219,
 		220,
 		222,
 		223,

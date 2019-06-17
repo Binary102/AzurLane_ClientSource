@@ -283,7 +283,7 @@ function slot0.GenBattleData(slot0)
 	slot3 = getProxy(BayProxy)
 	slot4 = {}
 
-	if slot0.contextData.system == SYSTEM_SCENARIO or slot2 == SYSTEM_SHAM or slot2 == SYSTEM_GUILD or slot2 == SYSTEM_CHALLENGE then
+	if slot0.contextData.system == SYSTEM_SCENARIO or slot2 == SYSTEM_SHAM or slot2 == SYSTEM_GUILD then
 		slot5 = getProxy(ChapterProxy)
 		slot6 = nil
 
@@ -293,8 +293,6 @@ function slot0.GenBattleData(slot0)
 			slot6 = slot5:getShamChapter()
 		elseif slot2 == SYSTEM_GUILD then
 			slot6 = slot5:getGuildChapter()
-		elseif slot2 == SYSTEM_CHALLENGE then
-			slot1.ChallengeInfo = getProxy(ChallengeProxy):getCurrentChallengeInfo()
 		end
 
 		slot0.viewComponent:setChapter(slot6)
@@ -312,6 +310,8 @@ function slot0.GenBattleData(slot0)
 			slot1.SubFlag = 1
 			slot1.TotalSubAmmo = 1
 			slot12 = slot14:getShipsByTeam(TeamType.Submarine, false)
+			slot9 = _.values(slot14:getCommanders())
+			slot15, slot1.SubCommanderList = slot6:getFleetBattleBuffs(slot14)
 		else
 			slot1.SubFlag = slot13
 
@@ -322,49 +322,90 @@ function slot0.GenBattleData(slot0)
 
 		slot0.mainShips = {}
 
-		for slot18, slot19 in ipairs(slot10) do
-			slot21 = slot19.hpRant * 0.0001
+		function slot15(slot0, slot1, slot2)
+			slot4 = slot0.hpRant * 0.0001
 
-			if table.contains(slot4, slot19.id) then
+			if table.contains(slot0, slot0.id) then
 				BattleVertify.cloneShipVertiry = true
 			end
 
-			slot4[#slot4 + 1] = slot20
-			slot0(slot2, slot19, slot8).initHPRate = slot21
+			slot0[#slot0 + 1] = slot3
+			slot1(slot2, slot0, slot1).initHPRate = slot4
 
-			table.insert(slot0.mainShips, slot19)
-			table.insert(slot1.MainUnitList, slot0(slot2, slot19, slot8))
+			table.insert(slot3.mainShips, slot0)
+			table.insert(slot2, slot1(slot2, slot0, slot1))
 		end
 
-		for slot18, slot19 in ipairs(slot11) do
-			slot21 = slot19.hpRant * 0.0001
-
-			if table.contains(slot4, slot19.id) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot20
-			slot0(slot2, slot19, slot8).initHPRate = slot21
-
-			table.insert(slot0.mainShips, slot19)
-			table.insert(slot1.VanguardUnitList, slot0(slot2, slot19, slot8))
+		for slot19, slot20 in ipairs(slot10) do
+			slot15(slot20, slot8, slot1.MainUnitList)
 		end
 
-		for slot18, slot19 in ipairs(slot12) do
-			slot21 = slot19.hpRant * 0.0001
+		for slot19, slot20 in ipairs(slot11) do
+			slot15(slot20, slot8, slot1.VanguardUnitList)
+		end
 
-			if table.contains(slot4, slot19.id) then
-				BattleVertify.cloneShipVertiry = true
-			end
-
-			slot4[#slot4 + 1] = slot20
-			slot0(slot2, slot19, slot9).initHPRate = slot21
-
-			table.insert(slot0.mainShips, slot19)
-			table.insert(slot1.SubUnitList, slot0(slot2, slot19, slot9))
+		for slot19, slot20 in ipairs(slot12) do
+			slot15(slot20, slot9, slot1.SubUnitList)
 		end
 
 		slot0.viewComponent:setFleet(slot10, slot11, slot12)
+	elseif slot2 == SYSTEM_CHALLENGE then
+		slot7 = getProxy(ChallengeProxy).getUserChallengeInfo(slot6, slot5)
+		slot1.ChallengeInfo = slot7
+
+		slot0.viewComponent:setChapter(slot7)
+
+		slot8 = slot7:getRegularFleet()
+		slot1.ChapterBuffIDs = {}
+		slot1.CommanderList = slot8:buildBattleBuffList()
+		slot9 = _.values(slot8:getCommanders())
+		slot10 = {}
+		slot11 = slot8:getShipsByTeam(TeamType.Main, false)
+		slot12 = slot8:getShipsByTeam(TeamType.Vanguard, false)
+		slot13 = {}
+
+		if #slot7:getSubmarineFleet().getShipsByTeam(slot14, TeamType.Submarine, false) > 0 then
+			slot1.SubFlag = 1
+			slot1.TotalSubAmmo = 1
+			slot10 = _.values(slot14:getCommanders())
+			slot1.SubCommanderList = slot14:buildBattleBuffList()
+		else
+			slot1.SubFlag = 0
+
+			if flag ~= ys.Battle.BattleConst.SubAidFlag.AID_EMPTY then
+				slot1.TotalSubAmmo = 0
+			end
+		end
+
+		slot0.mainShips = {}
+
+		function slot15(slot0, slot1, slot2)
+			slot4 = slot0.hpRant * 0.0001
+
+			if table.contains(slot0, slot0.id) then
+				BattleVertify.cloneShipVertiry = true
+			end
+
+			slot0[#slot0 + 1] = slot3
+			slot1(slot2, slot0, slot1).initHPRate = slot4
+
+			table.insert(slot3.mainShips, slot0)
+			table.insert(slot2, slot1(slot2, slot0, slot1))
+		end
+
+		for slot19, slot20 in ipairs(slot11) do
+			slot15(slot20, slot9, slot1.MainUnitList)
+		end
+
+		for slot19, slot20 in ipairs(slot12) do
+			slot15(slot20, slot9, slot1.VanguardUnitList)
+		end
+
+		for slot19, slot20 in ipairs(slot13) do
+			slot15(slot20, slot10, slot1.SubUnitList)
+		end
+
+		slot0.viewComponent:setFleet(slot11, slot12, slot13)
 	elseif slot2 == SYSTEM_WORLD then
 		slot6 = getProxy(WorldProxy).GetWorld(slot5)
 		slot7 = slot6:GetActiveMap()

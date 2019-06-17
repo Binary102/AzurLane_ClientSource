@@ -508,21 +508,31 @@ function slot16(slot0, slot1, slot2, slot3)
 		slot6 = PLATFORM_US
 
 		if slot5 == slot6 then
+			slot5 = getProxy
+			slot6 = PlayerProxy
+			slot5 = slot5(slot6)
+			slot6 = slot5
+			slot5 = slot5.getData
+			slot5 = slot5(slot6)
+
 			if slot1 == "SYG001" then
-				slot5 = SendAiriJPTracking
-				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
+				slot6 = SendAiriJPTracking
+				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_2
+				slot8 = slot5.id
 
-				slot5(slot6)
+				slot6(slot7, slot8)
 			elseif slot1 == "SYG003" then
-				slot5 = SendAiriJPTracking
-				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
+				slot6 = SendAiriJPTracking
+				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_3
+				slot8 = slot5.id
 
-				slot5(slot6)
+				slot6(slot7, slot8)
 			elseif slot1 == "SYG006" then
-				slot5 = SendAiriJPTracking
-				slot6 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+				slot6 = SendAiriJPTracking
+				slot7 = AIRIJP_TRACKING_TUTORIAL_COMPLETE_4
+				slot8 = slot5.id
 
-				slot5(slot6)
+				slot6(slot7, slot8)
 			end
 		end
 	end

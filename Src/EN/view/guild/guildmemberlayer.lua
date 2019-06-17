@@ -352,8 +352,17 @@ function slot0.showAppointPanel(slot0, slot1)
 	slot4 = nil
 
 	for slot8, slot9 in ipairs(slot0) do
+		slot11 = slot0.dutyContainer:Find(slot9).Find(slot10, "Text")
+
+		if slot1.duty == slot8 then
+			setText(slot11, i18n("guild_duty_tip_1"))
+		elseif not table.contains(slot3, slot8) then
+			setText(slot11, i18n("guild_duty_tip_2"))
+		end
+
+		setActive(slot11, not table.contains(slot3, slot8))
 		setToggleEnabled(slot10, table.contains(slot3, slot8))
-		onToggle(slot0, slot0.dutyContainer:Find(slot9), function (slot0)
+		onToggle(slot0, slot10, function (slot0)
 			if slot0 then
 				slot0 = slot1
 				slot2.selectedToggle = slot3

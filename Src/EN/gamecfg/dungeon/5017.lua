@@ -43,7 +43,7 @@ return {
 								55
 							},
 							bossData = {
-								hpBarNum = 30,
+								hpBarNum = 45,
 								icon = "aidang"
 							},
 							phase = {

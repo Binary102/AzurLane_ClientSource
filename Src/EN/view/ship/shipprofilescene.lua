@@ -368,7 +368,7 @@ function slot0.initCommon(slot0)
 	setText(slot0.labelName, slot0.shipGroup:getName(slot0.showTrans))
 	setText(slot0.labelEnName, slot0.shipGroup.shipConfig.english_name)
 
-	for slot8 = 1, slot1.star, 1 do
+	for slot7 = 1, slot1.star, 1 do
 		cloneTplTo(slot0.star, slot0.stars)
 	end
 end
@@ -848,7 +848,7 @@ function slot0.switchVoiceList(slot0, slot1)
 end
 
 function slot0.loadSkinBg(slot0, slot1)
-	slot0.isDesign = slot0.shipGroup:isBluePrintGroup()
+	slot0.bluePintBg = slot0.shipGroup:isBluePrintGroup() and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), nil, true)
 
 	if slot0.shipSkinBg ~= slot1 then
 		slot0.shipSkinBg = slot1
@@ -859,7 +859,13 @@ function slot0.loadSkinBg(slot0, slot1)
 			end
 		end)
 
-		if slot0.isDesign then
+		if slot0.bluePintBg and slot1 == slot0.bluePintBg then
+			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
+				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+
+				slot0.designBg = nil
+			end
+
 			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans) then
 				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 
@@ -867,21 +873,23 @@ function slot0.loadSkinBg(slot0, slot1)
 			end
 
 			if not slot0.designBg then
-				PoolMgr.GetInstance():GetUI("raritydesign5", true, function (slot0)
+				PoolMgr.GetInstance():GetUI("raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans), true, function (slot0)
 					slot0.designBg = slot0
+					slot0.designName = "raritydesign" .. slot0.shipGroup:getRarity(slot0.showTrans)
 
 					slot0.transform:SetParent(slot0.bg, false)
 
+					slot0.transform.localPosition = Vector3(1, 1, 1)
 					slot0.transform.localScale = Vector3(1, 1, 1)
-					slot0.transform.localPosition = Vector3(0, 0, 0)
 
+					slot0.transform:SetSiblingIndex(1)
 					setActive(slot0, true)
 				end)
 			else
 				setActive(slot0.designBg, true)
 			end
 		elseif slot0.designBg then
-			setActive(slot0.designBg, slot0.isDesign)
+			setActive(slot0.designBg, false)
 		end
 	end
 end
@@ -1219,6 +1227,10 @@ function slot0.clearScrollTxt(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0.designBg then
+		PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+	end
+
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:UnOverlayPanel(slot0.blurPanel, slot0._tf)

@@ -3024,29 +3024,33 @@ pg.gametip = {
 				info = "海上護衛の遊び方 "
 			},
 			{
-				info = "    1.開催期間：2月21日～28日；"
+				info = "    1.開催期間：6月13日～27日；"
 			},
 			{
-				info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸送船団が目標\n       地点に辿り着くまで護衛するステージです；"
+				info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸\n送船団が目標地点に辿り着くまで護衛するステージです\n；"
 			},
 			{
-				info = "    3.海上護衛は一日一回挑戦できます。挑戦回数は出撃時に消費さ\n       れます。海上護衛はイージー・ノーマル・ハードの3つの難易\n       度があります；"
+				info = "    3.海上護衛は一日一回挑戦できます。挑戦回数は出\n撃時に消費されます。海上護衛はイージー・ノーマル・\nハードの3つの難易度があります；"
 			},
 			{
-				info = "    4.味方艦隊が一回行動するたびに、輸送船団も1マス目標地点に\n       向かって進みます；"
+				info = "    4.味方艦隊が一回行動するたびに、輸送船団も1マス\n目標地点に向かって進みます；"
 			},
 			{
 				info = [[
-    5.輸送船団が敵艦隊に遭遇した場合、耐久が1減少し、「会敵中」
-       状態になります。「会敵中」の輸送船団は味方艦隊が輸送船団
-       を襲撃する敵艦隊を撃破するまで、味方艦隊が行動するたびに
-       体力が減少します；]]
+    5.輸送船団が敵艦隊に遭遇した場合、耐久が1減少し
+、「会敵中」状態になります。「会敵中」の輸送船団は
+味方艦隊が輸送船団を襲撃する敵艦隊を撃破するまで、
+味方艦隊が行動するたびに体力が減少します；]]
 			},
 			{
-				info = "    6.輸送船団が機雷に接触した場合、耐久が2減少します。味方艦\n       隊も機雷に接触した際に耐久が減少しますが、駆逐艦を含む艦\n       隊が機雷マスに接触する場合、機雷を排除できます；"
+				info = [[
+    6.輸送船団が機雷に接触した場合、耐久が2減少し
+ます。味方艦隊も機雷に接触した際に耐久が減少しま
+すが、駆逐艦を含む艦隊が機雷マスに接触する場合、機
+雷を排除できます；]]
 			},
 			{
-				info = "    海上護衛の報酬はステージ終了時の輸送船団の残り耐久により変\n       動します；"
+				info = "    海上護衛の報酬はステージ終了時の輸送船団の残り\n耐久により変動します；"
 			}
 		}
 	},
@@ -8607,15 +8611,15 @@ pg.gametip = {
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "「アドミラル·グラーフ·シュペー」常設追加！",
+		tip = "「デューク・オブ・ヨーク」常設追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「リトル・ヘレナ」、「リトル・クリーブランド」の出現率UP！",
+		tip = "「スウィフトシュア」、「シリアス」、「チェイサー」など常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "特型艦：重巡洋艦、軽空母、正規空母、工作艦、潜水艦などを建造します",
+		tip = "「ヴィクトリアス」、「チェイサー」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -10374,7 +10378,7 @@ Pt」が加算されます。
  ・専用の編成で数々のチャレンジステージをクリアし
 ていくと、自己最高得点を刷新することができます。
  ・チャレンジモード開催期間中の自己最高得点に応じ
-て様々な報酬を入手できます。
+て、記念チャットフレームを入手できます。
  ・チャレンジのステージは開催期間中、毎週月曜日0
 時にランダムで再構成されます。
 ]]
@@ -10552,6 +10556,66 @@ Pt」が加算されます。
 	challenge_end_tip = {
 		tip = "終了済のイベントです",
 		key = "challenge_end_tip"
+	},
+	pass_times = {
+		tip = "通关次数",
+		key = "pass_times"
+	},
+	list_empty_tip_billboardui = {
+		tip = "ランキングデータはありません",
+		key = "list_empty_tip_billboardui"
+	},
+	list_empty_tip_equipmentdesignui = {
+		tip = "設計図を所持していません",
+		key = "list_empty_tip_equipmentdesignui"
+	},
+	list_empty_tip_storehouseui_equip = {
+		tip = "装備を所持していません",
+		key = "list_empty_tip_storehouseui_equip"
+	},
+	list_empty_tip_storehouseui_item = {
+		tip = "素材を所持していません",
+		key = "list_empty_tip_storehouseui_item"
+	},
+	list_empty_tip_eventui = {
+		tip = "遂行できる軍事委託はありません",
+		key = "list_empty_tip_eventui"
+	},
+	list_empty_tip_guildrequestui = {
+		tip = "大艦隊申請はありません",
+		key = "list_empty_tip_guildrequestui"
+	},
+	list_empty_tip_joinguildui = {
+		tip = "条件を満す大艦隊が存在しません",
+		key = "list_empty_tip_joinguildui"
+	},
+	list_empty_tip_friendui = {
+		tip = "対象指揮官がいません ",
+		key = "list_empty_tip_friendui"
+	},
+	list_empty_tip_friendui_search = {
+		tip = "条件を満たす指揮官がいません",
+		key = "list_empty_tip_friendui_search"
+	},
+	list_empty_tip_friendui_request = {
+		tip = "友達申請はありません",
+		key = "list_empty_tip_friendui_request"
+	},
+	list_empty_tip_friendui_black = {
+		tip = "指揮官をブロックしていません",
+		key = "list_empty_tip_friendui_black"
+	},
+	list_empty_tip_dockyardui = {
+		tip = "条件を満たした艦船はいません ",
+		key = "list_empty_tip_dockyardui"
+	},
+	list_empty_tip_taskscene = {
+		tip = "任務が存在しません",
+		key = "list_empty_tip_taskscene"
+	},
+	empty_tip_mailboxui = {
+		tip = "メールはありません",
+		key = "empty_tip_mailboxui"
 	}
 }
 

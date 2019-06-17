@@ -7009,12 +7009,14 @@ pg.ship_data_breakout = {
 		use_char_num = 1,
 		use_char = 20207,
 		breakout_id = 202072,
-		breakout_view = "なし",
+		breakout_view = "全弾発射スキル習得/主砲補正+5%",
 		id = 202071,
 		icon = "10001",
 		level = 10,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			71151
+		}
 	},
 	[202072] = {
 		use_gold = 800,
@@ -7022,12 +7024,15 @@ pg.ship_data_breakout = {
 		use_char_num = 1,
 		use_char = 20207,
 		breakout_id = 202073,
-		breakout_view = "なし",
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
 		id = 202072,
 		icon = "10001",
 		level = 30,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			106,
+			106
+		}
 	},
 	[202073] = {
 		use_gold = 1500,
@@ -7035,12 +7040,14 @@ pg.ship_data_breakout = {
 		use_char_num = 2,
 		use_char = 20207,
 		breakout_id = 202074,
-		breakout_view = "なし",
+		breakout_view = "全弾発射弾幕強化/主砲補正+15%",
 		id = 202073,
 		icon = "10001",
 		level = 70,
 		use_item = {},
-		weapon_ids = {}
+		weapon_ids = {
+			71152
+		}
 	},
 	[202074] = {
 		use_gold = 0,
@@ -7817,6 +7824,65 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "なし",
 		id = 202204,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[202231] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20223,
+		breakout_id = 202232,
+		breakout_view = "特殊弾幕スキル習得/主砲補正+5%",
+		id = 202231,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79401
+		}
+	},
+	[202232] = {
+		use_gold = 3000,
+		pre_id = 202231,
+		use_char_num = 1,
+		use_char = 20223,
+		breakout_id = 202233,
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/魚雷補正+10%",
+		id = 202232,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[202233] = {
+		use_gold = 10000,
+		pre_id = 202232,
+		use_char_num = 2,
+		use_char = 20223,
+		breakout_id = 202234,
+		breakout_view = "特殊弾幕強化/主砲補正+15%",
+		id = 202233,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79402
+		}
+	},
+	[202234] = {
+		use_gold = 0,
+		pre_id = 202233,
+		use_char_num = 0,
+		use_char = 20223,
+		breakout_id = 0,
+		breakout_view = "なし",
+		id = 202234,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -20994,6 +21060,10 @@ pg.ship_data_breakout = {
 		202202,
 		202203,
 		202204,
+		202231,
+		202232,
+		202233,
+		202234,
 		203011,
 		203012,
 		203013,

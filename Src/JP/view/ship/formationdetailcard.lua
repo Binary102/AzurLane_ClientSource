@@ -12,7 +12,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgImage = slot0.content:Find("bg"):GetComponent(typeof(Image))
 	slot0.paintingTr = slot0.content:Find("ship_icon/painting")
 	slot0.detailTF = slot0.content:Find("detail")
-	slot0.lvTxt = slot0.detailTF:Find("top/level"):GetComponent(typeof(Text))
+	slot0.lvTxtTF = slot0.detailTF:Find("top/level")
+	slot0.lvTxt = slot0.lvTxtTF:GetComponent(typeof(Text))
 	slot0.shipType = slot0.detailTF:Find("top/type")
 	slot0.propsTr = slot0.detailTF:Find("info")
 	slot0.propsTr1 = slot0.detailTF:Find("info1")
@@ -54,20 +55,24 @@ function slot0.flush(slot0)
 
 	if slot1 == slot0 then
 	elseif slot1 == slot1 then
-		slot0.lvTxt.text = "Lv." .. slot0.shipVO.level
-		slot4 = slot0.shipVO.getStar(slot2)
+		setAnchoredPosition(slot0.lvTxtTF, {
+			x = (slot0.shipVO:isBluePrintShip() and -18) or -7.5
+		})
+
+		slot0.lvTxt.text = "Lv." .. slot2.level
+		slot4 = slot2:getStar()
 
 		slot0.UIlist:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				setActive(slot2:Find("star"), slot1 < slot0)
 			end
 		end)
-		slot0.UIlist:align(slot3)
-		slot0.nameTxt:setText(slot0.shipVO.getName(slot2))
+		slot0.UIlist:align(setAnchoredPosition)
+		slot0.nameTxt:setText(slot2:getName())
 		slot0:updateProps({})
-		setPaintingPrefabAsync(slot0.paintingTr, slot0.shipVO.getPainting(slot2), "biandui")
-		setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot0.shipVO.propose and "prop" .. ((slot2:isBluePrintShip() and slot5) or "")) or nil)
-		GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot5, "", function (slot0)
+		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
+		setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot2.propose and "prop" .. ((slot2:isBluePrintShip() and ) or "")) or nil)
+		GetSpriteFromAtlasAsync("bg/star_level_card_" .. , "", function (slot0)
 			slot0.bgImage.sprite = slot0
 		end)
 		setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))

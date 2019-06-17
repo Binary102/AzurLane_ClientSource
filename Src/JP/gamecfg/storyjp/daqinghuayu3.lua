@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "（30分語）",
+			say = "(30分後)",
 			flashout = {
 				dur = 0.7,
 				black = true,

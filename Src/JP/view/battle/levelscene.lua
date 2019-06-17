@@ -92,7 +92,6 @@ function slot0.initUI(slot0)
 	slot0.militaryExerciseBtn = slot0:findTF("btn_pvp", slot0.eventContainer)
 	slot0.shamBtn = slot0:findTF("sham_button", slot0.eventContainer)
 	slot0.mirrorBtn = slot0:findTF("btn_mirror", slot0.eventContainer)
-	slot0.escortBtn = slot0:findTF("btn_escort", slot0.eventContainer)
 	slot0.activityBtn = slot0:findTF("event_btns/activity_btn", slot0.rightChapter)
 	slot0.ptTotal = slot0:findTF("event_btns/pt_text", slot0.rightChapter)
 	slot0.ticketTxt = slot0:findTF("event_btns/tickets/Text", slot0.rightChapter)
@@ -382,29 +381,6 @@ function slot0.didEnter(slot0)
 		getProxy(ChapterProxy):setRemasterTip(false)
 		SetActive(slot0.remasterTipTF, false)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.escortBtn, function ()
-		if slot0:isfrozen() then
-			return
-		end
-
-		slot0, slot1 = pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "Escort")
-
-		if not slot0 then
-			pg.TipsMgr:GetInstance():ShowTips(slot1)
-
-			return
-		end
-
-		if not slot0.contextData.map:isEscort() then
-			if #getProxy(ChapterProxy).escortMaps == 0 or _.any(slot4, function (slot0)
-				return slot0:shouldFetch()
-			end) then
-				slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
-			else
-				slot0:setMap(slot4[1].id)
-			end
-		end
-	end, SFX_PANEL)
 	onButton(slot0, slot0.signalBtn, function ()
 		if slot0:isfrozen() then
 			return
@@ -418,15 +394,6 @@ function slot0.didEnter(slot0)
 	setGray(slot0.dailyBtn, not pg.SystemOpenMgr.GetInstance().isOpenSystem(slot0.player.level, "DailyLevelMediator"), true)
 	setActive(slot0:findTF("lock", slot0.militaryExerciseBtn), not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "MilitaryExerciseMediator"))
 	setGray(slot0.militaryExerciseBtn, not pg.SystemOpenMgr.GetInstance().isOpenSystem(slot0.player.level, "MilitaryExerciseMediator"), true)
-
-	if OPEN_ESCORT then
-		setActive(slot0:findTF("lock", slot0.escortBtn), not pg.SystemOpenMgr:GetInstance():isOpenSystem(slot0.player.level, "Escort"))
-		setGray(slot0.escortBtn, not pg.SystemOpenMgr.GetInstance().isOpenSystem(slot0.player.level, "Escort"), true)
-		setActive(slot0.escortBtn, true)
-	else
-		setActive(slot0.escortBtn, false)
-	end
-
 	setActive(slot0.shamBtn, not ChapterConst.ActivateMirror and getProxy(ChapterProxy).getShamChapter(slot6):isOpen())
 
 	if slot8 then
@@ -1448,8 +1415,20 @@ function slot0.updateMap(slot0)
 			if not IsNil(slot0.map) and slot1 == slot0.contextData.map then
 				setImageSprite(slot0.map, slot0, true)
 
-				slot0.float.sizeDelta = slot0.map.sizeDelta
-				slot0.float.localPosition = slot0.map.localPosition
+				if not setImageSprite:isEscort() then
+					slot0.map.pivot = Vector2(0, 0)
+					slot0.float.sizeDelta = Vector2(GetComponent(slot0.map, "Image").preferredWidth, GetComponent(slot0.map, "Image").preferredHeight)
+					slot0.float.localPosition = slot0.map.localPosition
+				else
+					slot0.map.pivot = Vector2(0.5, 0.5)
+					slot3 = 1
+
+					if slot0.map.rect.width / slot0.map.rect.height < slot0._tf.rect.width / slot0._tf.rect.height then
+						slot0.escortChapters.localScale = Vector3(slot0._tf.rect.width / 1280, , 1)
+					else
+						slot0.escortChapters.localScale = Vector3(slot0._tf.rect.height / 720, , 1)
+					end
+				end
 			end
 
 			return
@@ -1485,7 +1464,7 @@ function slot0.updateMap(slot0)
 	setText(slot0.chapterName, string.split(slot1:getConfig("name"), "||")[1])
 
 	if slot1:isEscort() then
-		clearImageSprite(slot0.chapterNoTitle, nil)
+		setImageSprite(slot0.chapterNoTitle, GetSpriteFromAtlas("chapterno", "chapterex"), true)
 	else
 		setImageSprite(slot0.chapterNoTitle, GetSpriteFromAtlas("chapterno", "chapter" .. slot1:getMapTitleNumber()), true)
 	end
@@ -1612,45 +1591,45 @@ end
 
 function slot0.updateEscortItem(slot0, slot1, slot2, slot3)
 	slot1.name = "chapter_" .. slot3.id
-	slot1.anchoredPosition = Vector2(slot0.escortChapters.rect.width * tonumber(pg.escort_template[slot2].pos_x), slot0.escortChapters.rect.height * tonumber(pg.escort_template[slot2].pos_y))
-	slot7 = slot1:Find("fighting")
+	slot1.anchoredPosition = Vector2(GetComponent(slot0.map, "Image").preferredWidth * (tonumber(pg.escort_template[slot2].pos_x) - 0.5), GetComponent(slot0.map, "Image").preferredHeight * (tonumber(pg.escort_template[slot2].pos_y) - 0.5))
+	slot8 = slot1:Find("fighting")
 
 	if getProxy(ChapterProxy).getActiveChapter(slot5) then
 		if slot6.id ~= slot3.id then
-			slot8 = false
+			slot9 = false
 		else
-			slot8 = true
+			slot9 = true
 		end
 	end
 
-	setActive(slot7, slot8)
+	setActive(slot8, slot9)
 	slot0:DeleteTween("fighting" .. slot3.id)
 
-	if slot8 then
-		setImageAlpha(slot7, 1)
-		slot0:RecordTween("fighting" .. slot3.id, LeanTween.alpha(slot7, 0, 0.5):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+	if slot9 then
+		setImageAlpha(slot8, 1)
+		slot0:RecordTween("fighting" .. slot3.id, LeanTween.alpha(slot8, 0, 0.5):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 	end
 
 	GetImageSpriteFromAtlasAsync("levelmap/mapquad/" .. slot4.pic, "", slot1, true)
 
-	slot9 = slot1:Find("anim")
-	slot11 = {
+	slot10 = slot1:Find("anim")
+	slot12 = {
 		Color.green,
 		Color.yellow,
 		Color.red
 	}
 
 	if not table.indexof(pg.gameset.gardroad_count.description[1], slot2) then
-		slot12 = 1
+		slot13 = 1
 	end
 
-	slot12 = slot11[slot12]
+	slot13 = slot12[slot13]
 
-	for slot17 = 0, slot9:GetComponentsInChildren(typeof(Image)).Length - 1, 1 do
-		slot13[slot17].color = slot12
+	for slot18 = 0, slot10:GetComponentsInChildren(typeof(Image)).Length - 1, 1 do
+		slot14[slot18].color = slot13
 	end
 
-	setImageColor(slot1, slot12)
+	setImageColor(slot1, slot13)
 	onButton(slot0, slot1, function ()
 		if slot0 then
 			if slot0.id == slot1.id then
@@ -1739,45 +1718,68 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		setActive(slot5, true)
 		setActive(slot6, false)
 
-		slot7 = findTF(slot5, "circle/clear_flag")
-		slot9 = GetOrAddComponent(slot8, "CanvasGroup")
+		slot8 = findTF(slot5, "info/bk/fordark")
+		slot9 = setActive
+		slot10 = findTF(slot5, "circle/fordark")
 
-		setText(findTF(slot8, "Text"), i18n("tag_level_fighting"))
+		if slot4.icon_outline ~= 1 then
+			slot11 = false
+		else
+			slot11 = true
+		end
 
+		slot9(slot10, slot11)
+
+		slot9 = setActive
+		slot10 = slot8
+
+		if slot4.icon_outline ~= 1 then
+			slot11 = false
+		else
+			slot11 = true
+		end
+
+		slot9(slot10, slot11)
+
+		slot9 = findTF(slot5, "circle/clear_flag")
 		slot11 = GetOrAddComponent(slot10, "CanvasGroup")
 
-		setText(findTF(slot10, "Text"), i18n("tag_level_oni"))
+		setText(findTF(slot10, "Text"), i18n("tag_level_fighting"))
 
-		slot12 = findTF(slot5, "circle/progress")
-		slot13 = findTF(slot5, "circle/progress_text")
-		slot14 = findTF(slot5, "circle/stars")
+		slot13 = GetOrAddComponent(slot12, "CanvasGroup")
+
+		setText(findTF(slot12, "Text"), i18n("tag_level_oni"))
+
+		slot14 = findTF(slot5, "circle/progress")
+		slot15 = findTF(slot5, "circle/progress_text")
+		slot16 = findTF(slot5, "circle/stars")
 
 		setText(findTF(slot5, "info/bk/title_form/title_index"), slot4.chapter_name .. "  ")
 		setText(findTF(slot5, "info/bk/title_form/title"), string.split(slot4.name, "|")[1])
 
-		slot16 = setText
-		slot17 = findTF(slot5, "info/bk/title_form/title_en")
+		slot18 = setText
+		slot19 = findTF(slot5, "info/bk/title_form/title_en")
 
 		if not string.split(slot4.name, "|")[2] then
-			slot18 = ""
+			slot20 = ""
 		end
 
-		slot16(slot17, slot18)
-		setFillAmount(slot12, slot2.progress / 100)
-		setText(slot13, string.format("%d%%", slot2.progress))
-		setActive(slot14, slot2:existAchieve())
+		slot18(slot19, slot20)
+		setFillAmount(slot14, slot2.progress / 100)
+		setText(slot15, string.format("%d%%", slot2.progress))
+		setActive(slot16, slot2:existAchieve())
 
 		if slot2:existAchieve() then
-			for slot19, slot20 in ipairs(slot2.achieves) do
-				setActive(slot14:Find("star" .. slot19 .. "/light"), ChapterConst.IsAchieved(slot20))
+			for slot21, slot22 in ipairs(slot2.achieves) do
+				setActive(slot16:Find("star" .. slot21 .. "/light"), ChapterConst.IsAchieved(slot22))
 			end
 		end
 
 		slot0:DeleteTween("fighting" .. slot2.id)
-		setActive(slot8, false)
 		setActive(slot10, false)
-		setActive(slot7, false)
-		setActive(slot13, true)
+		setActive(slot12, false)
+		setActive(slot9, false)
+		setActive(slot15, true)
 
 		if not slot2:isUnlock() and not slot2:activeAlways() then
 			setActive(slot5, false)
@@ -1786,33 +1788,33 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 
 			if slot2.active then
 				if slot2:existOni() then
-					slot8 = slot10
-					slot9 = slot11
+					slot10 = slot12
+					slot11 = slot13
 				end
 
-				setActive(slot8, true)
+				setActive(slot10, true)
 
-				slot9.alpha = 1
+				slot11.alpha = 1
 
-				slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot9, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
+				slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot11, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 			else
 				if slot2:isClear() then
-					setActive(slot7, true)
-					setActive(slot13, false)
+					setActive(slot9, true)
+					setActive(slot15, false)
 				end
 			end
 		end
 
-		setActive(slot16, false)
+		setActive(slot18, false)
 
-		slot19 = findTF(slot5, "circle")
+		slot21 = findTF(slot5, "circle")
 
-		LeanTween.cancel(go(slot19))
+		LeanTween.cancel(go(slot21))
 
-		slot19.localScale = Vector3.zero
+		slot21.localScale = Vector3.zero
 
-		LeanTween.scale(slot19, Vector3(1, 1, 1), 0.2):setDelay(0.3)
-		setAnchoredPosition(slot20, {
+		LeanTween.scale(slot21, Vector3(1, 1, 1), 0.2):setDelay(0.3)
+		setAnchoredPosition(slot22, {
 			x = -1 * slot5:Find("info").rect.width
 		})
 		shiftPanel(findTF(slot5, "info/bk"), 0, nil, 0.4, 0.4, true, true, nil, function ()
@@ -1828,54 +1830,54 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		end)
 
 		if slot2:isTriesLimit() then
-			slot21 = slot2:getConfig("count")
+			slot23 = slot2:getConfig("count")
 
-			setText(slot16:Find("label"), i18n("levelScene_chapter_count_tip"))
+			setText(slot18:Find("label"), i18n("levelScene_chapter_count_tip"))
 
-			slot23 = setText
-			slot24 = slot16:Find("Text")
-			slot25 = setColorStr
-			slot26 = slot21 - slot2:getTodayDefeatCount() .. "/" .. slot21
+			slot25 = setText
+			slot26 = slot18:Find("Text")
+			slot27 = setColorStr
+			slot28 = slot23 - slot2:getTodayDefeatCount() .. "/" .. slot23
 
-			if slot21 > slot2:getTodayDefeatCount() or not COLOR_RED then
-				slot27 = COLOR_GREEN
+			if slot23 > slot2:getTodayDefeatCount() or not COLOR_RED then
+				slot29 = COLOR_GREEN
 			end
 
-			slot23(slot24, slot25(slot26, slot27))
+			slot25(slot26, slot27(slot28, slot29))
 		end
 
-		slot22 = 0
+		slot24 = 0
 
-		for slot26, slot27 in ipairs(slot21) do
-			slot22 = slot22 + pg.expedition_data_template[slot27].bonus_time
+		for slot28, slot29 in ipairs(slot23) do
+			slot24 = slot24 + pg.expedition_data_template[slot29].bonus_time
 		end
 
-		slot23 = findTF(slot5, "mark")
+		slot25 = findTF(slot5, "mark")
 
 		if not slot0.markRawPos then
-			slot0.markRawPos = slot23.anchoredPosition
+			slot0.markRawPos = slot25.anchoredPosition
 		end
 
-		slot23.anchoredPosition = slot0.markRawPos
-		slot24 = math.max(slot22 - slot2.todayDefeatCount, 0)
+		slot25.anchoredPosition = slot0.markRawPos
+		slot26 = math.max(slot24 - slot2.todayDefeatCount, 0)
 
-		if slot0.contextData.map:isRemaster() or slot22 <= 0 or slot24 <= 0 then
-			slot25 = false
+		if slot0.contextData.map:isRemaster() or slot24 <= 0 or slot26 <= 0 then
+			slot27 = false
 		else
-			slot25 = true
+			slot27 = true
 		end
 
-		slot26 = slot2:getOniChapterInfo()
+		slot28 = slot2:getOniChapterInfo()
 
-		setActive(slot23:Find("bonus"), slot25)
-		setActive(slot23, slot25)
+		setActive(slot25:Find("bonus"), slot27)
+		setActive(slot25, slot27)
 
-		if slot25 then
-			slot28 = slot23.anchoredPosition.y
-			slot23:GetComponent(typeof(CanvasGroup)).alpha = 0
+		if slot27 then
+			slot30 = slot25.anchoredPosition.y
+			slot25:GetComponent(typeof(CanvasGroup)).alpha = 0
 
-			LeanTween.cancel(go(slot23))
-			LeanTween.value(go(slot23), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
+			LeanTween.cancel(go(slot25))
+			LeanTween.value(go(slot25), 0, 1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 				slot0.alpha = slot0
 				slot0.anchoredPosition.y = slot2 * slot0
 				slot0.anchoredPosition.anchoredPosition = slot0.anchoredPosition
@@ -3241,9 +3243,8 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	end
 
 	PoolMgr.GetInstance():GetPainting(slot1:getPainting(), true, function (slot0)
-		slot0 = slot0
-
-		slot1()
+		Ship.SetExpression(slot0, slot1:getPainting())
+		slot0()
 
 		return
 	end)

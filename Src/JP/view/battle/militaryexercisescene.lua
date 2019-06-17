@@ -789,19 +789,9 @@ function slot1(slot0)
 		slot3 = slot3(slot4, slot5)
 		slot4 = slot0.configId
 		slot5 = slot0.skinId
-		slot6 = updateDrop
+		slot6 = updateShip
 		slot7 = slot3
-		slot8 = {}
-		slot9 = DROP_TYPE_SHIP
-		slot8.type = slot9
-		slot8.id = slot4
-		slot8.skinId = slot5
-		slot9 = slot0.proposeTime
-		slot8.propose = slot9
-		slot10 = slot0
-		slot9 = slot0.isRemoulded
-		slot9 = slot9(slot10)
-		slot8.remoulded = slot9
+		slot8 = slot0
 		slot9 = {
 			initStar = true
 		}

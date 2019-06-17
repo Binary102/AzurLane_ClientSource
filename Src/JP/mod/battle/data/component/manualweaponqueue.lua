@@ -103,13 +103,20 @@ end
 
 function ys.Battle.ManualWeaponQueue.onManualInstantReady(slot0, slot1)
 	slot2 = slot1.Dispatcher
+	slot3 = nil
 
-	for slot6, slot7 in ipairs(slot0._overheatQueue) do
-		if slot2 == slot7 then
-			table.remove(slot0._overheatQueue, slot6)
+	for slot7, slot8 in ipairs(slot0._overheatQueue) do
+		if slot2 == slot8 then
+			table.remove(slot0._overheatQueue, slot7)
+
+			slot3 = true
 
 			break
 		end
+	end
+
+	if not slot3 then
+		slot0:removeFromCDList(slot2)
 	end
 
 	slot0:fillCooldownList()

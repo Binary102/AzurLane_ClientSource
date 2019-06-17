@@ -90,7 +90,7 @@ pg.open_systems_limited = {
 	},
 	{
 		scene = "MAINUI",
-		name = "商路护航",
+		name = "海上護衛",
 		story_id = "",
 		id = 12,
 		mediator = "Escort",

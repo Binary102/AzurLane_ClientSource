@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "朝潮は正座して、可愛らしいクマちゃん印のせんぺいをボリボリ食べていた。",
+			say = "朝潮は正座して、可愛らしいクマちゃん印のせんべいを",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

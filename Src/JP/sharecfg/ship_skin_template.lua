@@ -9230,7 +9230,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "ブルックリン級巡洋艦・ヘレナ（CL-50）",
-		voice_actor = -1,
+		voice_actor = 34,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -9328,7 +9328,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "クリーブランド級軽巡洋艦・クリーブランド（CL-55)",
-		voice_actor = -1,
+		voice_actor = 40,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -9426,7 +9426,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "アトランタ級軽巡洋艦・サンディエゴ（CL-53）",
-		voice_actor = -1,
+		voice_actor = 5,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -21107,6 +21107,113 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201261] = {
+		name = "エスコートしてくださーい！",
+		bullet_skin_main = "",
+		ship_group = 20126,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "wudi_2",
+		hand_id = 13,
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "113",
+		skin_type = 0,
+		id = 201261,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wudi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70194,
+		desc = "おーい、指揮官さん、こっちこっち！エヘッ☆というわけで、今日のデートは指揮官さんに任せたよ？カッコいいとこを全部私にアピールしちゃっていいからね！",
+		voice_actor = 92,
+		air_bomb_skin = "",
+		illustrator = 40,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.002,
+					0.936,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.884,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.012,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.892,
+					0.876,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201270] = {
 		name = "マスケティーア",
 		bullet_skin_main = "",
@@ -22123,7 +22230,7 @@ pg.ship_skin_template = {
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
 		painting = "nananpudun",
-		hand_id = 0,
+		hand_id = 13,
 		air_bullet_skin = "",
 		shop_type_id = 0,
 		lip_smoothing = 0,
@@ -22178,15 +22285,15 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.03,
-					0.94,
+					1.47,
+					1.37,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.03,
-					0.88,
+					0.966,
+					1.004,
 					0
 				}
 			},
@@ -22199,8 +22306,8 @@ pg.ship_skin_template = {
 			},
 			antiaircraft = {
 				{
-					0.01,
-					0.96,
+					0.991,
+					1.004,
 					0
 				}
 			}
@@ -22212,8 +22319,8 @@ pg.ship_skin_template = {
 					{
 						"smoke",
 						{
-							-0.39,
-							2.2,
+							-0.514,
+							2.394,
 							0
 						}
 					}
@@ -23674,6 +23781,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202161] = {
+		name = "ファッションスタイル？",
+		bullet_skin_main = "",
+		ship_group = 20216,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "feiji_2",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 202161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "feiji_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70195,
+		desc = "指揮官、待った？あははは、女の子の着替えって時間がかかるんだよ？わかった？じゃあ私の手を引いて、次の店にレッツゴー♪",
+		voice_actor = 97,
+		air_bomb_skin = "",
+		illustrator = 6,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.014,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.935,
+					1.009,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.026,
+					0.077,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.93,
+					1.024,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202170] = {
 		name = "ジャマイカ",
 		bullet_skin_main = "",
@@ -24518,6 +24730,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202219] = {
+		name = "キュラソー改",
+		bullet_skin_main = "",
+		ship_group = 20221,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "kulasuo_g",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 202219,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kulasuo_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "皆様のお役に立てれば光栄ですね。軽巡洋艦キュラソー、引き続きご主人様にご奉仕させていただきます。何卒ご期待くださいませ",
+		voice_actor = 171,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.073,
+					1.187,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.093,
+					0.816,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					0.83,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202220] = {
 		name = "カーリュー",
 		bullet_skin_main = "",
@@ -24730,6 +25047,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202229] = {
+		name = "カーリュー改",
+		bullet_skin_main = "",
+		ship_group = 20222,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "biaoyu_g",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 2,
+		id = 202229,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "biaoyu_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "ロイヤルメイドの風格をより一層お見せできる様になりました。姉のキュラソーほどではありませんが、ご満足いただけるようご奉仕できるかと存じます。何卒よろしくお願い致します",
+		voice_actor = 171,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.261,
+					0.962,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.014,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.006,
+					0.751,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.554,
+							2.507,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202200] = {
 		name = "シリアス",
 		bullet_skin_main = "",
@@ -24861,6 +25283,340 @@ pg.ship_skin_template = {
 		voice_actor = 169,
 		air_bomb_skin = "",
 		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					0.71,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.87,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.34,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.42,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
+	[202202] = {
+		name = "盛夏のセイリオス",
+		bullet_skin_main = "",
+		ship_group = 20220,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "tianlangxing_3",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		bg = "106",
+		skin_type = 0,
+		id = 202202,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "tianlangxing_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70193,
+		desc = "メイド隊の仲間から色々アドバイス頂いて選ばせていただきました水着です。誇らしきご主人様、シリアスのこの姿にご満足いただけるでしょうか",
+		voice_actor = 169,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.37,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					0.87,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.474,
+							-0.568
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		}
+	},
+	[202230] = {
+		name = "スウィフトシュア",
+		bullet_skin_main = "",
+		ship_group = 20223,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "quejie",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 202230,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "quejie",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "スウィフトシュア級軽巡洋艦・スウィフトシュア (HMS Swiftsure) ",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.937,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.993,
+					0.876,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.003,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.526,
+							2.455,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
+	[202231] = {
+		name = "自習室のシクラメン",
+		bullet_skin_main = "",
+		ship_group = 20223,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "quejie_2",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 202231,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "quejie_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70196,
+		desc = "指揮官、どうしてここに…？私？はい、ご覧の通り勉強中ですが…実戦経験でみんなに遅れを取っている分は、学園での座学で補うしかないと思っています",
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
 		rarity_bg = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
@@ -29842,6 +30598,113 @@ pg.ship_skin_template = {
 						{
 							-0.481,
 							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
+	[206052] = {
+		name = "ゲーマースタイル",
+		bullet_skin_main = "",
+		ship_group = 20605,
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		painting = "zhuiganzhe_3",
+		hand_id = 1,
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "105",
+		skin_type = 0,
+		id = 206052,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "zhuiganzhe_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70197,
+		desc = "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
+		voice_actor = 165,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.28,
+					1.19,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					1.146,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.022,
+					0.046,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.014,
+					1.166,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.586,
 							-0.55
 						}
 					}
@@ -72564,6 +73427,7 @@ pg.ship_skin_template = {
 		201240,
 		201250,
 		201260,
+		201261,
 		201270,
 		201290,
 		202010,
@@ -72587,6 +73451,7 @@ pg.ship_skin_template = {
 		202151,
 		202152,
 		202160,
+		202161,
 		202170,
 		202171,
 		202180,
@@ -72595,10 +73460,15 @@ pg.ship_skin_template = {
 		202199,
 		202210,
 		202211,
+		202219,
 		202220,
 		202221,
+		202229,
 		202200,
 		202201,
+		202202,
+		202230,
+		202231,
 		203010,
 		203020,
 		203030,
@@ -72643,6 +73513,7 @@ pg.ship_skin_template = {
 		206042,
 		206050,
 		206051,
+		206052,
 		207020,
 		207021,
 		207022,

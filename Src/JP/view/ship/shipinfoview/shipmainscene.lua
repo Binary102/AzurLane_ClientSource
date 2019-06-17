@@ -100,6 +100,8 @@ function slot0.checkToggleActive(slot0, slot1)
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip()
 	elseif slot1 == ShipViewConst.PAGE.REMOULD then
 		return not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId]
+	elseif slot1 == ShipViewConst.PAGE.FASHION then
+		return true
 	else
 		return false
 	end
@@ -612,9 +614,9 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
 		end
 
-		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1)
+		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1, nil, nil, slot0.shipVO:getIntimacy() / 100 + ((slot0.shipVO.propose and 1000) or 0))
 
-		setText(slot0.chatText, slot3)
+		setText(slot0.chatText, Ship.getWords)
 
 		if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
 			slot5.alignment = TextAnchor.MiddleLeft

@@ -45,6 +45,7 @@ function slot0.init(slot0)
 	slot0.shipModels = {}
 	slot0.furnBottomGrids = {}
 	slot0._attachmentList = {}
+	slot0.effectContains = slot0:findTF("effects")
 	slot0.floorContain = slot0:findTF("bg/furContain/floor")
 	slot0.floorGrid = slot0:findTF("bg/floorGrid")
 	slot0.furnitureTpl = slot0:findTF("resources/furnituretpl")
@@ -296,6 +297,7 @@ function slot0.updateHouseArea(slot0, slot1)
 	end, SFX_PANEL)
 	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
 	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
+	slot0:emit(BackyardMainMediator.ON_CHECK_EFFECT)
 end
 
 function slot0.updateItemCount(slot0, slot1)
@@ -416,6 +418,12 @@ end
 
 function slot0.initFurnitures(slot0)
 	function slot1(slot0, slot1)
+		if slot0.isExist then
+			slot1()
+
+			return
+		end
+
 		slot0:loadFurnitureModel(slot0, function (slot0)
 			if not slot0 then
 				slot0()
@@ -475,18 +483,35 @@ function slot0.initFurnitures(slot0)
 	end
 
 	slot10 = {}
+	slot11 = {}
 
-	for slot14, slot15 in pairs(slot0.boatVOs) do
+	for slot15, slot16 in pairs(slot0.boatVOs) do
 		table.insert(slot10, function (slot0)
 			onNextTick(function ()
-				slot0:loadBoatModal(slot0, )
+				if slot0.isExist then
+					slot1()
+
+					return
+				end
+
+				slot0:loadBoatModal(slot2, slot0)
 			end)
 		end)
+
+		if not slot16:hasInterActionFurnitrue() then
+			table.insert(slot11, function (slot0)
+				slot0:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot1.id)
+				slot0()
+			end)
+		end
 	end
 
 	slot0.inInitFurnitrues = true
 
 	seriesAsync({
+		function (slot0)
+			seriesAsync(slot0, slot0)
+		end,
 		function (slot0)
 			limitedParallelAsync(slot0, 5, slot0)
 		end,
@@ -541,7 +566,7 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 	slot6 = slot1:getPosition()
 
 	function slot7(slot0)
-		if not slot0 or IsNil(slot0) then
+		if slot0.isExist then
 			if slot1 then
 				slot1()
 			end
@@ -549,42 +574,41 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 			return
 		end
 
-		slot0.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
+		if not slot0 or IsNil(slot2) then
+			if slot1 then
+				slot1()
+			end
 
-		SetParent(slot1, slot0)
+			return
+		end
 
-		slot2 = SetParent.getSign
-		slot3 = slot1.dir == 2
-		slot0.localScale = Vector3(SetParent.getSign, 1, 1)
+		slot2.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
 
-		Vector3(SetParent.getSign, 1, 1):setWallModalDir(Vector3(SetParent.getSign, 1, 1).setWallModalDir, )
-		Vector3(SetParent.getSign, 1, 1):updateFurnitruePos(Vector3(SetParent.getSign, 1, 1).updateFurnitruePos, true)
+		SetParent(slot1, SetParent)
+
+		slot3 = slot4.dir == 2
+		slot3.getSign.localScale = Vector3(slot3.getSign, 1, 1)
+
+		slot0:setWallModalDir(slot0, )
+		slot0:updateFurnitruePos(slot0, true)
 
 		true.anchoredPosition3D = Vector3(0, 0, 0)
 
-		Vector3(0, 0, 0):registerFurnitureEvent(Vector3(0, 0, 0).registerFurnitureEvent)
+		slot0:registerFurnitureEvent(slot0)
 
-		slot3 = false
-
-		if false then
-			slot3 = true
-		end
-
-		if slot4.decorateMode then
-			if not IsNil(slot4.curFurnModal) then
-				slot4:closePreFurnSelected()
+		if slot0.decorateMode then
+			if not IsNil(slot0.curFurnModal) then
+				slot0:closePreFurnSelected()
 			end
 
 			triggerButton(slot1)
 		end
 
-		setActive(slot0, true)
+		setActive(slot2, true)
 
 		if slot1 then
-			slot1(slot0)
+			slot1(slot2)
 		end
-
-		return
 	end
 
 	if not slot1:isSpine() then
@@ -598,6 +622,14 @@ function slot0.loadImageFurniture(slot0, slot1, slot2)
 	slot3 = slot0.furnitureModals[slot1.id]
 
 	GetSpriteFromAtlasAsync("furniture/" .. slot1:getConfig("picture"), "", function (slot0)
+		if slot0.isExist then
+			if slot1 then
+				slot1()
+			end
+
+			return
+		end
+
 		if IsNil(slot0._tf) then
 			if slot1 then
 				slot1()
@@ -615,31 +647,29 @@ function slot0.loadImageFurniture(slot0, slot1, slot2)
 		if slot4:hasInterActionMask() then
 			slot0:loadFurnituresMasks(slot4, function ()
 				slot0(slot1)
-
-				return
+			end)
+		elseif slot4:isArch() then
+			slot0:loadArchMask(slot4, function ()
+				slot0(slot1)
 			end)
 		else
-			if slot4:isArch() then
-				slot0:loadArchMask(slot4, function ()
-					slot0(slot1)
-
-					return
-				end)
-			else
-				slot1(slot0)
-			end
+			slot1(slot0)
 		end
-
-		return
 	end)
-
-	return
 end
 
 function slot0.loadArchMask(slot0, slot1, slot2)
 	slot3 = slot0.furnitureModals[slot1.id]
 
 	ResourceMgr.Inst:getAssetAsync("furniture/" .. slot4, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		if slot0.isExist then
+			if slot1 then
+				slot1()
+			end
+
+			return
+		end
+
 		if IsNil(slot0._tf) and slot1 then
 			slot1()
 
@@ -654,11 +684,7 @@ function slot0.loadArchMask(slot0, slot1, slot2)
 		if slot1 then
 			slot1()
 		end
-
-		return
 	end), true, true)
-
-	return
 end
 
 function slot0.loadFurnituresMasks(slot0, slot1, slot2)
@@ -668,6 +694,14 @@ function slot0.loadFurnituresMasks(slot0, slot1, slot2)
 	for slot9, slot10 in pairs(slot4) do
 		table.insert(slot5, function (slot0)
 			ResourceMgr.Inst:getAssetAsync("furniture/" .. slot0, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				if slot0.isExist then
+					if slot1 then
+						slot1()
+					end
+
+					return
+				end
+
 				if IsNil(slot0._tf) then
 					if slot1 then
 						slot1()
@@ -679,11 +713,7 @@ function slot0.loadFurnituresMasks(slot0, slot1, slot2)
 				setActive(slot1, false)
 				setImageSprite(slot2.createImage(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot3, false, slot4, 2, true), slot0, true)
 				true()
-
-				return
 			end), true, true)
-
-			return
 		end)
 	end
 
@@ -691,11 +721,7 @@ function slot0.loadFurnituresMasks(slot0, slot1, slot2)
 		if slot0 then
 			slot0()
 		end
-
-		return
 	end)
-
-	return
 end
 
 function slot0.loadSpineFurnitureModel(slot0, slot1, slot2)
@@ -703,6 +729,14 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2)
 	slot8, slot5 = slot1:getSpineName()
 
 	LoadAndInstantiateAsync("sfurniture", slot4, function (slot0)
+		if slot0.isExist then
+			if slot1 then
+				slot1()
+			end
+
+			return
+		end
+
 		if IsNil(slot0._tf) then
 			if slot1 then
 				slot1()
@@ -727,14 +761,20 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2)
 			if slot3 then
 				GetOrAddComponent(slot4, "SpineAnimUI"):SetAction(slot3, 0)
 			end
-
-			return
 		end)
 
 		if slot3:hasSpineMask() then
 			slot8, slot5 = slot4:getSpineMaskName()
 
 			LoadAndInstantiateAsync("sfurniture", slot4, function (slot0)
+				if slot0.isExist then
+					if slot1 then
+						slot1()
+					end
+
+					return
+				end
+
 				if IsNil(slot0._tf) then
 					if slot1 then
 						slot1()
@@ -747,24 +787,14 @@ function slot0.loadSpineFurnitureModel(slot0, slot1, slot2)
 				slot0(rtf(slot0), BackYardConst.FURNITRUE_MASK_NAME, 2)
 				slot0:loadSpineAnimator(BackYardConst.FURNITRUE_MASK_NAME, function ()
 					slot0(slot1)
-
-					return
 				end)
-
-				return
 			end, true, true)
 		else
 			slot0:loadSpineAnimator(slot0.loadSpineAnimator, function ()
 				slot0(slot1)
-
-				return
 			end)
 		end
-
-		return
 	end, true, true)
-
-	return
 end
 
 function slot0.loadSpineAnimator(slot0, slot1, slot2)
@@ -776,6 +806,14 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2)
 			for slot14, slot15 in ipairs(slot10) do
 				table.insert(slot3, function (slot0)
 					LoadAndInstantiateAsync("sfurniture", slot0, function (slot0)
+						if slot0.isExist then
+							if slot1 then
+								slot1()
+							end
+
+							return
+						end
+
 						if IsNil(slot0._tf) then
 							if slot1 then
 								slot1()
@@ -789,11 +827,7 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2)
 						setActive(slot0, false)
 						SetParent(slot0, slot5)
 						slot6()
-
-						return
 					end)
-
-					return
 				end)
 			end
 		end
@@ -802,8 +836,6 @@ function slot0.loadSpineAnimator(slot0, slot1, slot2)
 			if slot0 then
 				slot0()
 			end
-
-			return
 		end)
 
 		return
@@ -818,12 +850,7 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 	slot3 = slot0.furnitureModals[slot1.id].Find(slot2, "drag")
 	slot4 = slot0.furnitureModals[slot1.id].Find(slot2, "icon")
 	slot5 = slot0:findTF("grids", slot0.furnitureModals[slot1.id])
-
-	if not slot1:canBeTouch() then
-		slot6 = slot0.decorateMode
-	end
-
-	slot4:GetComponent(typeof(Image)).raycastTarget = slot6
+	slot4:GetComponent(typeof(Image)).raycastTarget = slot1:canBeTouch() or slot0.decorateMode
 	slot7 = {
 		false
 	}
@@ -837,8 +864,6 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 			if not LeanTween.isTweening(go(go)) then
 				LeanTween.scale(LeanTween.scale, Vector3(slot1.localScale.x - 0.05, slot1.localScale.y - 0.05, slot1.localScale.z - 0.05), 0.01):setOnComplete(System.Action(function ()
 					LeanTween.scale(LeanTween.scale, , 0.1)
-
-					return
 				end))
 			end
 
@@ -852,17 +877,11 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 			SetActive:setPreSelectedParent(slot0.furContain)
 
 			SetActive.setPreSelectedParent.preFurnSelected.localScale = Vector3(1, 1, 1)
-		else
-			if slot4:isShowDesc() then
-				slot0:showFurnitrueDesc(slot4)
-			else
-				if slot4:isTouchSpine() then
-					slot0:playTouchSpineAnim(slot4, slot5)
-				end
-			end
+		elseif slot4:isShowDesc() then
+			slot0:showFurnitrueDesc(slot4)
+		elseif slot4:isTouchSpine() then
+			slot0:playTouchSpineAnim(slot4, slot5)
 		end
-
-		return
 	end, SFX_PANEL)
 
 	slot8 = GetOrAddComponent(slot3, "EventTriggerListener")
@@ -871,19 +890,13 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 	slot8:AddBeginDragFunc(function ()
 		slot0:furnitureBeginDrag(slot0)
 		slot0.furnitureBeginDrag:enableZoom(false)
-
-		return
 	end)
 	slot8:AddDragFunc(function (slot0, slot1)
 		slot1:furnitureDrag(slot0.change2ScrPos(slot1.floorGrid, slot1.position), )
-
-		return
 	end)
 	slot8:AddDragEndFunc(function (slot0, slot1)
 		slot0:enableZoom(true)
 		slot0:furnitureEndDrag(slot1.getMapPos(slot2), slot1.change2ScrPos(slot0.floorGrid, slot1.position))
-
-		return
 	end)
 	onButton(slot0, slot0:findTF("ok", slot3), function ()
 		if slot0.isDraging then
@@ -891,8 +904,6 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 		end
 
 		slot0:closePreFurnSelected()
-
-		return
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0:findTF("cancel", slot3), function ()
 		if slot0.isDraging then
@@ -901,8 +912,6 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 
 		slot0:closePreFurnSelected()
 		slot0.closePreFurnSelected:emit(BackyardMainMediator.REMOVE_FURNITURE, slot1.id)
-
-		return
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("rotation", slot3), function ()
 		if slot0.isDraging then
@@ -912,11 +921,7 @@ function slot0.registerFurnitureEvent(slot0, slot1)
 		slot0.rotateId = slot1.id
 
 		slot0:emit(BackyardMainMediator.FURNITURE_DIR_CHANGE, slot1.id)
-
-		return
 	end, SFX_PANEL)
-
-	return
 end
 
 function slot0.playTouchSpineAnim(slot0, slot1, slot2)
@@ -951,8 +956,6 @@ function slot0.playTouchSpineAnim(slot0, slot1, slot2)
 
 			slot4[1] = false
 		end
-
-		return
 	end)
 
 	if slot5 then
@@ -964,8 +967,6 @@ function slot0.playTouchSpineAnim(slot0, slot1, slot2)
 			slot0:emit(BackyardMainMediator.ON_ADD_MOVE_FURNITURE, slot1.id)
 		end
 	end
-
-	return
 end
 
 function slot0.createbottomGrid(slot0, slot1, slot2)
@@ -989,8 +990,6 @@ function slot0.createbottomGrid(slot0, slot1, slot2)
 	end
 
 	slot0.furnBottomGrids[slot1.id] = slot5
-
-	return
 end
 
 function slot0.showFurnitrueDesc(slot0, slot1)
@@ -1020,18 +1019,12 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 
 		onButton(slot0, slot0.descPanel, function ()
 			slot0:closeFurnitrueDesc()
-
-			return
 		end, SFX_PANEL)
 		onButton(slot0, slot0.maxFrame, function ()
 			slot0:closeFurnitrueDesc()
-
-			return
 		end, SFX_PANEL)
 		onButton(slot0, slot0.maxPanel:Find("ok_btn"), function ()
 			slot0:closeFurnitrueDesc()
-
-			return
 		end, SFX_PANEL)
 	end
 
@@ -1043,8 +1036,6 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 	if slot1:existVoice() then
 		onButton(slot0, slot0.descPanelVoiceBtn, function ()
 			slot0:playFurnitureVoice(slot0)
-
-			return
 		end, SFX_PANEL)
 	end
 
@@ -1054,8 +1045,6 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 		if not IsNil(slot0._tf) then
 			slot0.miniIcon.sprite = slot0
 		end
-
-		return
 	end)
 
 	slot0.miniName.text = shortenString(slot1:getConfig("name"), 6)
@@ -1072,8 +1061,6 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 				if not IsNil(slot0._tf) then
 					slot0.maxIcon.sprite = slot0
 				end
-
-				return
 			end)
 		end
 
@@ -1085,11 +1072,7 @@ function slot0.showFurnitrueDesc(slot0, slot1)
 		slot0.maxName.maxdate.maxComfortable.maxContent.maxApproach.maxType.text = slot2.getConfig("name").getConfig("comfortable"):getChineseType()
 
 		pg.UIMgr.GetInstance():BlurPanel(slot0.maxFrame)
-
-		return
 	end()
-
-	return
 end
 
 function slot0.playFurnitureVoice(slot0, slot1)
@@ -1099,8 +1082,6 @@ function slot0.playFurnitureVoice(slot0, slot1)
 		slot0:stopCV()
 
 		slot0.stopCV.currVoice = playSoundEffect(playSoundEffect)
-
-		return
 	end
 
 	if slot0.loadedBank then
@@ -1118,12 +1099,8 @@ function slot0.playFurnitureVoice(slot0, slot1)
 					slot1.loadedBank = slot0
 				end
 			end
-
-			return
 		end)
 	end
-
-	return
 end
 
 function slot0.stopCV(slot0)
@@ -1132,8 +1109,6 @@ function slot0.stopCV(slot0)
 	end
 
 	slot0.currVoice = nil
-
-	return
 end
 
 function slot0.closeFurnitrueDesc(slot0)
@@ -1145,8 +1120,6 @@ function slot0.closeFurnitrueDesc(slot0)
 		setActive(slot0.descPanel, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.maxFrame, slot0.descPanel)
 	end
-
-	return
 end
 
 function slot0.updateFurnitruePos(slot0, slot1, slot2)
@@ -1159,21 +1132,7 @@ function slot0.updateFurnitruePos(slot0, slot1, slot2)
 	end
 
 	if slot1.parent ~= 0 then
-		slot9 = Vector2
-		slot10 = slot4.localPosition.x
-
-		if not slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[1] then
-			slot11 = 0
-		end
-
-		slot10 = slot10 + slot11
-		slot11 = slot7.y
-
-		if not slot8[2] then
-			slot12 = 0
-		end
-
-		slot4.localPosition = slot9(slot10, slot11 + slot12)
+		slot4.localPosition = Vector2(slot4.localPosition.x + (slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[1] or 0), slot7.y + (slot8[2] or 0))
 
 		slot4:SetParent(slot0.furnitureModals[slot5]:Find("childs"), true)
 
@@ -1183,8 +1142,6 @@ function slot0.updateFurnitruePos(slot0, slot1, slot2)
 	end
 
 	slot0:createItem(slot1, slot3.x, slot3.y)
-
-	return
 end
 
 function slot0.updateFurnitureWithAnim(slot0, slot1, slot2, slot3)
@@ -1204,47 +1161,21 @@ function slot0.updateFurnitureWithAnim(slot0, slot1, slot2, slot3)
 		if slot1:isSpineCar() then
 			if slot3.x < slot6.x then
 				slot5.localScale = Vector3(-1, 1, 1)
+			elseif slot3.y < slot6.y then
+				slot5.localScale = Vector3(1, 1, 1)
 			else
-				if slot3.y < slot6.y then
-					slot5.localScale = Vector3(1, 1, 1)
-				else
-					if (slot6.x >= slot3.x or slot6.y ~= slot3.y) and (slot3.y >= slot6.y or slot6.x ~= slot3.x) then
-						slot9 = false
-					else
-						slot9 = true
-					end
-
-					if not slot9 or not Vector3(-1, 1, 1) then
-						slot10 = Vector3(1, 1, 1)
-					end
-
-					slot5.localScale = slot10
-				end
+				slot5.localScale = (((slot6.x < slot3.x and slot6.y == slot3.y) or (slot3.y < slot6.y and slot6.x == slot3.x)) and Vector3(-1, 1, 1)) or Vector3(1, 1, 1)
 			end
 		else
-			if (slot6.x >= slot3.x or slot6.y ~= slot3.y) and (slot3.y >= slot6.y or slot6.x ~= slot3.x) then
-				slot9 = false
-			else
-				slot9 = true
-			end
-
-			if not slot9 or not Vector3(-1, 1, 1) then
-				slot10 = Vector3(1, 1, 1)
-			end
-
-			slot5.localScale = slot10
+			slot5.localScale = (((slot6.x < slot3.x and slot6.y == slot3.y) or (slot3.y < slot6.y and slot6.x == slot3.x)) and Vector3(-1, 1, 1)) or Vector3(1, 1, 1)
 		end
 
 		LeanTween.moveLocal(go(slot5), slot8, slot2 / 2):setOnComplete(System.Action(function ()
 			slot0:removeItem(slot0)
 			slot0.removeItem:createItem(slot0.removeItem, slot2.x, slot2.y)
 			LeanTween.moveLocal(go(slot3), slot2.y, slot5 / 2)
-
-			return
 		end))
 	end
-
-	return
 end
 
 function slot0.removeFurn(slot0, slot1)
@@ -1253,8 +1184,6 @@ function slot0.removeFurn(slot0, slot1)
 	function slot3(slot0)
 		SetParent(slot0.shipModels[slot0].tf, slot0.floorContain)
 		slot0.shipModels[slot0]:setAction("stand2")
-
-		return
 	end
 
 	if slot1:hasInterActionShipId() then
@@ -1271,10 +1200,7 @@ function slot0.removeFurn(slot0, slot1)
 
 	if slot1:hasStageShip() then
 		slot5 = pairs
-
-		if not slot1:getStageShip() then
-			slot6 = {}
-		end
+		slot6 = slot1:getStageShip() or {}
 
 		for slot8, slot9 in slot5(slot6) do
 			slot3(slot9)
@@ -1288,17 +1214,9 @@ function slot0.removeFurn(slot0, slot1)
 		end
 	end
 
-	slot4 = slot0.furnBottomGrids[slot1.id]
-
-	if not slot1:isFloor() or not slot0.backyardPoolMgr.POOL_NAME.GRID then
-		slot5 = slot0.backyardPoolMgr.POOL_NAME.WALL
-	end
-
+	slot5 = (slot1:isFloor() and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL
 	slot6 = pairs
-
-	if not slot4 then
-		slot7 = {}
-	end
+	slot7 = slot0.furnBottomGrids[slot1.id] or {}
 
 	for slot9, slot10 in slot6(slot7) do
 		slot0.backyardPoolMgr:Enqueue(slot5, slot10)
@@ -1315,8 +1233,6 @@ function slot0.removeFurn(slot0, slot1)
 	if slot0.maps[slot1.id] then
 		slot0.maps[slot1.id] = nil
 	end
-
-	return
 end
 
 function slot0.furnitureBeginDrag(slot0, slot1)
@@ -1340,8 +1256,6 @@ function slot0.furnitureBeginDrag(slot0, slot1)
 	end
 
 	slot2:SetParent(slot0.floorContain, true)
-
-	return
 end
 
 function slot0.furnitureDrag(slot0, slot1, slot2)
@@ -1368,8 +1282,6 @@ function slot0.furnitureDrag(slot0, slot1, slot2)
 	else
 		slot9.localPosition = slot8
 	end
-
-	return
 end
 
 function slot0.furnitureEndDrag(slot0, slot1, slot2)
@@ -1406,24 +1318,12 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 
 			slot1.decoratePanelCG.blocksRaycasts = true
 			true.isDraging = nil
-
-			return
 		end))
 
 		return
 	end
 
-	slot7 = slot0
-	slot6 = slot0.emit
-	slot8 = BackyardMainMediator.FURNITURE_POS_CHNAGE
-	slot9 = slot2.id
-	slot10 = slot4
-
-	if not slot0.houseVO:isLocaledAndPutOn() or not slot5.id then
-		slot11 = slot5
-	end
-
-	slot6(slot7, slot8, slot9, slot10, slot11)
+	slot0:emit(BackyardMainMediator.FURNITURE_POS_CHNAGE, slot2.id, slot4, (slot0.houseVO:isLocaledAndPutOn() and slot5.id) or slot5)
 	slot0:setPreSelectedParent(slot0.furContain)
 
 	if not slot2:isFloor() then
@@ -1436,8 +1336,6 @@ function slot0.furnitureEndDrag(slot0, slot1, slot2)
 
 	slot0.decoratePanelCG.blocksRaycasts = true
 	slot0.isDraging = nil
-
-	return
 end
 
 function slot0.sortAllMat(slot0)
@@ -1450,23 +1348,13 @@ function slot0.sortAllMat(slot0)
 	end
 
 	table.sort(slot2, function (slot0, slot1)
-		if slot1:getOccupyGridCount() >= slot0:getOccupyGridCount() then
-			slot2 = false
-		else
-			slot2 = true
-		end
-
-		return slot2
+		return slot1:getOccupyGridCount() < slot0:getOccupyGridCount()
 	end)
 	_.each(slot2, function (slot0)
 		if slot0.furnitureModals[slot0.id] then
 			slot1:SetAsLastSibling()
 		end
-
-		return
 	end)
-
-	return
 end
 
 function slot0.sortWallFurns(slot0)
@@ -1489,8 +1377,6 @@ function slot0.sortWallFurns(slot0)
 			slot9:SetAsFirstSibling()
 		end
 	end
-
-	return
 end
 
 function slot0.rotateFurn(slot0, slot1)
@@ -1504,33 +1390,11 @@ function slot0.rotateFurn(slot0, slot1)
 
 	if slot1:hasInterActionShipId() then
 		for slot7, slot8 in ipairs(slot3) do
-			slot12 = slot0.shipModels[slot8]
-			slot11 = slot0.shipModels[slot8].updateExpTFScale
-			slot13 = slot0.getSign
-
-			if slot2.localScale.x * slot0.shipModels[slot8].tf.localScale.x >= 0 then
-				slot14 = false
-			else
-				slot14 = true
-			end
-
-			slot11(slot12, slot13(slot14))
+			slot0.shipModels[slot8]:updateExpTFScale(slot0.getSign(slot2.localScale.x * slot0.shipModels[slot8].tf.localScale.x < 0))
 		end
-	else
-		if slot1:getSpineId() then
-			slot7 = slot0.shipModels[slot1:getSpineId()]
-			slot6 = slot0.shipModels[slot1.getSpineId()].changeInnerDir
-			slot8 = slot0.getSign
-
-			if slot2.localScale.x * slot0.shipModels[slot1.getSpineId()].tf.localScale.x >= 0 then
-				slot9 = false
-			else
-				slot9 = true
-			end
-
-			slot6(slot7, slot8(slot9))
-			slot4:updateModelDir()
-		end
+	elseif slot1:getSpineId() then
+		slot0.shipModels[slot1:getSpineId()]:changeInnerDir(slot0.getSign(slot2.localScale.x * slot0.shipModels[slot1:getSpineId()].tf.localScale.x < 0))
+		slot4:updateModelDir()
 	end
 
 	if slot0.rotateId == slot1.id then
@@ -1543,8 +1407,6 @@ function slot0.rotateFurn(slot0, slot1)
 
 		slot0.rotateId = nil
 	end
-
-	return
 end
 
 function slot0.closePreFurnSelected(slot0)
@@ -1559,16 +1421,12 @@ function slot0.closePreFurnSelected(slot0)
 		slot0.preFurnSelected = nil
 		slot0.curFurnModal = nil
 	end
-
-	return
 end
 
 function slot0.setPreSelectedParent(slot0, slot1)
 	if not IsNil(slot0.preFurnSelected) and not IsNil(slot1) then
 		slot0.preFurnSelected:SetParent(slot1, true)
 	end
-
-	return
 end
 
 function slot0.setWallModalDir(slot0, slot1, slot2)
@@ -1590,20 +1448,10 @@ function slot0.setWallModalDir(slot0, slot1, slot2)
 
 		slot0.preFurnSelected.anchoredPosition3D = Vector3(0, 0, 0)
 	end
-
-	return
 end
 
 function slot0.setFurnitureParent(slot0, slot1)
-	slot2 = slot0.furnitureModals[slot1.id]
-
-	if not slot1:isFloor() or ((not slot1:isMat() or not slot0.carpetContain) and not slot0.floorContain) then
-		slot3 = slot0.wallContain
-	end
-
-	slot2:SetParent(slot3, true)
-
-	return
+	slot0.furnitureModals[slot1.id]:SetParent((slot1:isFloor() and ((slot1:isMat() and slot0.carpetContain) or slot0.floorContain)) or slot0.wallContain, true)
 end
 
 function slot0.changeConflictGridColor(slot0, slot1, slot2, slot3)
@@ -1620,18 +1468,18 @@ function slot0.changeConflictGridColor(slot0, slot1, slot2, slot3)
 	for slot8, slot9 in pairs(slot1) do
 		slot0.changeGridColor(slot4[slot9], BackYardConst.BACKYARD_RED)
 	end
-
-	return
 end
 
 function slot0.getGridTpl(slot0, slot1)
-	if not slot1 or not slot0.backyardPoolMgr.POOL_NAME.GRID then
+	slot2 = (slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL
+
+	SetParent(slot0.backyardPoolMgr:Dequeue((slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL), slot0.furContain)
+
+	return slot0.backyardPoolMgr.Dequeue((slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL)
+
+	if not slot0.backyardPoolMgr.POOL_NAME.GRID then
 		slot2 = slot0.backyardPoolMgr.POOL_NAME.WALL
 	end
-
-	SetParent(slot0.backyardPoolMgr:Dequeue(slot2), slot0.furContain)
-
-	return slot0.backyardPoolMgr.Dequeue(slot2)
 end
 
 function slot0.loadBoatModal(slot0, slot1, slot2)
@@ -1648,10 +1496,6 @@ function slot0.loadBoatModal(slot0, slot1, slot2)
 			slot0.shipModels[slot1.id] = slot2
 
 			slot2:onLoadSlotModel(slot0)
-
-			if not slot1:hasInterActionFurnitrue() then
-				slot0:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot1.id)
-			end
 
 			for slot7, slot8 in pairs(slot3) do
 				if slot8.attachment_cusual[1] ~= "" then
@@ -1830,7 +1674,34 @@ function slot0.addBoatInimacyAndMoney(slot0, slot1)
 	return
 end
 
+function slot0.applyEffect(slot0, slot1)
+	PoolMgr.GetInstance():GetPrefab("ui/" .. slot2, slot1:getEffectName(), true, function (slot0)
+		slot0.name = slot0
+
+		setParent(slot0, slot1.effectContains)
+		setActive(slot0, true)
+
+		return
+	end)
+
+	return
+end
+
+function slot0.disableEffect(slot0, slot1)
+	if slot0:findTF(slot1:getEffectName(), slot0.effectContains) then
+		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot2, slot2, slot3.gameObject)
+	end
+
+	return
+end
+
 function slot0.willExit(slot0)
+	eachChild(slot0.effectContains, function (slot0)
+		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot1, slot0.gameObject.name, slot0.gameObject)
+
+		return
+	end)
+
 	if slot0.dragTrigger then
 		ClearEventTrigger(slot0.dragTrigger)
 
@@ -1976,6 +1847,7 @@ function slot0.clearUI(slot0)
 	end
 
 	slot0._attachmentList = nil
+	slot0.isExist = true
 
 	return
 end

@@ -171,6 +171,7 @@ function slot0.init(slot0)
 	slot0.counter = slot0:findTF("main/frame/top/value/Text"):GetComponent(typeof(Text))
 	slot0.uiList = UIItemList.New(slot0:findTF("main/frame/panel/scrollview/ships"), slot0:findTF("main/frame/panel/scrollview/ships/tpl"))
 	slot0.panelDesc = slot0:findTF("main/frame/panel/desc"):GetComponent(typeof(Text))
+	slot0.backyardui = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)")
 end
 
 function slot0.didEnter(slot0)

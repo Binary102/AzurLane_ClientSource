@@ -12,69 +12,73 @@ function slot1(slot0)
 	slot0.bg = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/slider"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Slider
-	slot1 = slot1(slot2, slot3(slot4))
+	slot3 = "slider"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.slider = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/progress"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
+	slot3 = "step"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.step = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "progress"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.progress = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/value"
-	slot1 = slot1(slot2, slot3)
-	slot2 = slot1
-	slot1 = slot1.GetComponent
-	slot3 = typeof
-	slot4 = Text
-	slot1 = slot1(slot2, slot3(slot4))
-	slot0.value = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
-	slot3 = "AD/display_btn"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "display_btn"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.displayBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/award"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "award"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.awardTF = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/battle_btn"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "battle_btn"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.battleBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/get_btn"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "get_btn"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.getBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "AD/got_btn"
-	slot1 = slot1(slot2, slot3)
+	slot3 = "got_btn"
+	slot4 = slot0.bg
+	slot1 = slot1(slot2, slot3, slot4)
 	slot0.gotBtn = slot1
 end
 
 slot0.OnInit = slot1
 
 function slot1(slot0)
-	slot1 = ActivityPtData
-	slot1 = slot1.New
-	slot2 = slot0.activity
-	slot1 = slot1(slot2)
-	slot0.ptData = slot1
+	slot1 = slot0.ptData
+
+	if slot1 then
+		slot1 = slot0.ptData
+		slot2 = slot1
+		slot1 = slot1.Update
+		slot3 = slot0.activity
+
+		slot1(slot2, slot3)
+	else
+		slot1 = ActivityPtData
+		slot1 = slot1.New
+		slot2 = slot0.activity
+		slot1 = slot1(slot2)
+		slot0.ptData = slot1
+	end
 end
 
 slot0.OnDataSetting = slot1
@@ -98,29 +102,30 @@ function slot1(slot0)
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
 		slot2 = slot2.SHOW_AWARD_WINDOW
-		slot3 = {}
-		slot4 = slot0
-		slot4 = slot4.ptData
-		slot4 = slot4.dropList
-		slot3.dropList = slot4
-		slot4 = slot0
-		slot4 = slot4.ptData
-		slot4 = slot4.targets
-		slot3.targets = slot4
-		slot4 = slot0
-		slot4 = slot4.ptData
-		slot4 = slot4.level
-		slot3.level = slot4
-		slot4 = slot0
-		slot4 = slot4.ptData
-		slot4 = slot4.count
-		slot3.count = slot4
-		slot4 = slot0
-		slot4 = slot4.ptData
-		slot4 = slot4.resId
-		slot3.resId = slot4
+		slot3 = PtAwardWindow
+		slot4 = {}
+		slot5 = slot0
+		slot5 = slot5.ptData
+		slot5 = slot5.dropList
+		slot4.dropList = slot5
+		slot5 = slot0
+		slot5 = slot5.ptData
+		slot5 = slot5.targets
+		slot4.targets = slot5
+		slot5 = slot0
+		slot5 = slot5.ptData
+		slot5 = slot5.level
+		slot4.level = slot5
+		slot5 = slot0
+		slot5 = slot5.ptData
+		slot5 = slot5.count
+		slot4.count = slot5
+		slot5 = slot0
+		slot5 = slot5.ptData
+		slot5 = slot5.resId
+		slot4.resId = slot5
 
-		slot0(slot1, slot2, slot3)
+		slot0(slot1, slot2, slot3, slot4)
 	end
 
 	slot5 = SFX_PANEL
@@ -184,13 +189,6 @@ slot0.OnFirstFlush = slot1
 function slot1(slot0)
 	slot1 = slot0.ptData
 	slot2 = slot1
-	slot1 = slot1.Update
-	slot3 = slot0.activity
-
-	slot1(slot2, slot3)
-
-	slot1 = slot0.ptData
-	slot2 = slot1
 	slot1 = slot1.getTargetLevel
 	slot1 = slot1(slot2)
 	slot2 = slot0.activity
@@ -236,23 +234,26 @@ function slot1(slot0)
 	slot7 = slot6
 	slot6 = slot6.GetResProgress
 	slot6, slot7, slot8 = slot6(slot7)
-	slot9 = slot0.progress
-	slot10 = slot3
-	slot11 = "/"
-	slot12 = slot4
-	slot10 = slot10 .. slot11 .. slot12
-	slot9.text = slot10
-	slot9 = slot0.value
-	slot10 = 1
+	slot9 = setText
+	slot10 = slot0.step
+	slot11 = slot3
+	slot12 = "/"
+	slot13 = slot4
+	slot11 = slot11 .. slot12 .. slot13
 
-	if slot8 >= slot10 then
-		slot9.text = (setColorStr(slot6, COLOR_GREEN) or slot6) .. "/" .. slot7
-		slot0.slider.value = slot8
+	slot9(slot10, slot11)
 
+	slot9 = setText
+	slot10 = slot0.progress
+	slot11 = 1
+
+	if slot8 >= slot11 then
+		slot9(slot10, (setColorStr(slot6, COLOR_GREEN) or slot6) .. "/" .. slot7)
+		setSlider(slot0.slider, 0, 1, slot8)
 		setActive(slot0.battleBtn, slot0.ptData:CanGetMorePt() and not slot0.ptData:CanGetAward() and slot0.ptData:CanGetNextAward())
 		setActive(slot0.getBtn, slot9)
 		setActive(slot0.gotBtn, not slot0.ptData.CanGetNextAward())
-		updateDrop(slot0.awardTF, COLOR_GREEN)
+		updateDrop(slot0.awardTF, slot6)
 		onButton(slot0, slot0.awardTF, function ()
 			slot0:emit(BaseUI.ON_DROP, slot0)
 		end, SFX_PANEL)

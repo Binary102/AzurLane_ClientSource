@@ -47,6 +47,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.speed = slot0.cfg.backyard_speed
 
 	LoadAndInstantiateAsync("sfurniture", "modelmask", function (slot0)
+		if not slot0.tf then
+			return
+		end
+
 		SetParent(slot0, slot0.tf)
 
 		slot0.bodyMask = tf(slot0)

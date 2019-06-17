@@ -246,6 +246,8 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 			mediator = DockyardMediator,
 			data = slot20
 		}))
+		setActive(slot0.viewComponent._tf, false)
+		setActive(slot0.viewComponent.backyardui, false)
 	else
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, slot20)
 	end
@@ -277,6 +279,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setTrainShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_TRAIN))
 		slot0.viewComponent:setResetShipVOs(slot0.dormProxy:getShipsByState(Ship.STATE_REST))
 		slot0.viewComponent:updateSlots()
+		setActive(slot0.viewComponent._tf, true)
+		setActive(slot0.viewComponent.backyardui, true)
 	end
 end
 

@@ -7,6 +7,8 @@ class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand).execute = function
 			slot5()
 		end
 
+		pg.TipsMgr:GetInstance():ShowTips(i18n("login_newPlayerScene_name_tooShort"))
+
 		return
 	end
 

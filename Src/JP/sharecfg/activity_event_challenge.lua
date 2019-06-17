@@ -245,7 +245,7 @@ pg.activity_event_challenge = {
 				}
 			}
 		},
-		hardly = {},
+		buff = {},
 		debuff_pool = {},
 		hardly = {
 			2,

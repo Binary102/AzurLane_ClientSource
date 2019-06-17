@@ -242,6 +242,8 @@ function ys.Battle.BattlePlayerWeaponVO.Deduct(slot0, slot1)
 		slot0._max = math.max(slot0._GCD, slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime())
 
 		slot0:resetCurrent()
+	else
+		slot0._current = 0
 	end
 
 	slot0:DispatchOverLoadChange()

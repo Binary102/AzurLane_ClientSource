@@ -21,6 +21,13 @@ function slot0.init(slot0)
 	slot0._tagRoot = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
 	slot0.taskIconTpl = slot0:findTF("taskTagOb/task_icon_default")
 	slot0.oneStepBtn = slot0:findTF("blur_panel/adapt/top/GetAllButton")
+	slot0.listEmptyTF = slot0:findTF("empty")
+
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_taskscene"))
 end
 
 function slot0.setTaskStoryIconRes(slot0, slot1, slot2)
@@ -91,6 +98,7 @@ function slot0.filterTasks(slot0, slot1)
 
 	slot0:sortTasks()
 	slot0._scrollView:SetTotalCount(#slot0.taskVOs)
+	setActive(slot0.listEmptyTF, #slot0.taskVOs <= 0)
 	slot0:updateOneStepBtn()
 end
 

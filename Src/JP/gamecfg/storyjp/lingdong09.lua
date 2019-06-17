@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "ツェーザリ！デューク・オブ・ヨークを狙え！！",
+			say = "ツェーザル！デューク・オブ・ヨークを狙え！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

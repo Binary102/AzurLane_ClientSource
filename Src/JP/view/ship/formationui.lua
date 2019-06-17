@@ -1313,24 +1313,36 @@ function slot1(slot0)
 
 	slot2(slot3, slot4)
 
+	slot2 = slot0.isOpenCommander
+
+	if slot2 then
+		slot2 = slot0.commanderFormationPanel
+		slot3 = slot2
+		slot2 = slot2.ActionInvoke
+		slot4 = "Show"
+
+		slot2(slot3, slot4)
+	end
+
 	slot3 = slot0
 	slot2 = slot0.UpdateFleetView
 	slot4 = true
 
 	slot2(slot3, slot4)
 
-	slot2 = slot0.contextData
-	slot2 = slot2.toggle
+	slot2 = triggerToggle
+	slot3 = slot0.contextData
+	slot3 = slot3.toggle
 
-	if slot2 ~= nil then
-		slot2 = triggerToggle
-		slot3 = slot0.contextData
-		slot3 = slot3.toggle
-		slot3 = slot0[slot3]
-		slot4 = true
-
-		slot2(slot3, slot4)
+	if not slot3 then
+		slot3 = slot0
+		slot3 = slot3.TOGGLE_FORMATION
 	end
+
+	slot3 = slot0[slot3]
+	slot4 = true
+
+	slot2(slot3, slot4)
 
 	slot3 = slot0
 	slot2 = slot0.tweenTabArrow

@@ -2226,7 +2226,7 @@ pg.equip_data_statistics = {
 		nationality = 3,
 		ammo = "なし",
 		is_siren = 0,
-		descrip = "九一式徹甲弾の改良型。九一式徹甲弾と比べて性能がある程度向上している。 ",
+		descrip = "九一式徹甲弾の改良型。九一式徹甲弾と比べて性能がある程度向上している。",
 		value_3 = 0,
 		attribute_1 = "cannon",
 		property_rate = {},
@@ -2947,7 +2947,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[740] = {
-		name = "Fl 282 ",
+		name = "Fl 282",
 		type = 17,
 		id = 740,
 		tech = 0,
@@ -32375,7 +32375,7 @@ pg.equip_data_statistics = {
 		attribute_1 = "damage",
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		weapon_id = {
 			33100
@@ -42867,7 +42867,7 @@ pg.equip_data_statistics = {
 		tech = 0,
 		speciality = "投射",
 		range = 200,
-		scatter = "50",
+		scatter = "20",
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "44200",
@@ -53909,6 +53909,46 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79401] = {
+		name = "专属弹幕-确捷I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "无",
+		value_3 = 0,
+		id = 79401,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79401
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79402] = {
+		id = 79402,
+		name = "专属弹幕-确捷II",
+		base = 79401,
+		is_siren = 0,
+		weapon_id = {
+			79402
+		},
+		property_rate = {}
+	},
 	[89000] = {
 		name = "ランダムワード生成器",
 		type = 10,
@@ -60162,6 +60202,8 @@ pg.equip_data_statistics = {
 		79384,
 		79391,
 		79392,
+		79401,
+		79402,
 		89000,
 		89001,
 		89002,

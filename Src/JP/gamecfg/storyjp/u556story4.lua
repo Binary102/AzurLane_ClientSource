@@ -63,20 +63,6 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "初日の遊び呆ける様子はすっかりなくなり、日常の雑務程度なら安心して任せられるほどに成長した。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			say = "さて、今日は何を教えるか……",
 			typewriter = {
 				speed = 0.05,

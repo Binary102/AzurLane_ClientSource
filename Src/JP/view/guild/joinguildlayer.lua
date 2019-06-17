@@ -24,7 +24,13 @@ function slot0.init(slot0)
 	slot0.sortBtnTpl = slot0:getTpl("add_panel/sort_panel/mask/content/tpl")
 	slot0.sortPanel = slot0:findTF("add_panel/sort_panel")
 	slot0.UIMgr = pg.UIMgr.GetInstance()
+	slot0.listEmptyTF = slot0:findTF("empty")
 
+	setActive(slot0.listEmptyTF, false)
+
+	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
+
+	setText(slot0.listEmptyTxt, i18n("list_empty_tip_joinguildui"))
 	setText(slot0:findTF("tip"), slot0)
 	slot0:initGuildList()
 end
@@ -239,6 +245,7 @@ function slot0.sortGuilds(slot0, slot1)
 		end
 	end)
 	slot0.viewRect:SetTotalCount(#slot0.sortVOs, 0)
+	setActive(slot0.listEmptyTF, #slot0.sortVOs <= 0)
 end
 
 function slot0.filter(slot0, slot1)
@@ -252,6 +259,7 @@ function slot0.filter(slot0, slot1)
 	slot0.contextData.filterData = slot2
 
 	slot0.viewRect:SetTotalCount(#slot0.sortVOs, 0)
+	setActive(slot0.listEmptyTF, #slot0.sortVOs <= 0)
 end
 
 function slot0.showApply(slot0, slot1)

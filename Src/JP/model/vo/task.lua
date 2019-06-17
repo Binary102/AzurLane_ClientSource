@@ -47,12 +47,12 @@ function slot0.getProgress(slot0)
 
 	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
 		slot1 = getProxy(BagProxy):getItemCountById(tonumber(slot0:getConfig("target_id_for_client")))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-		slot1 = getProxy(ActivityProxy):getVirtualItemNumber(slot0:getConfig("target_id_for_client"))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PT then
 		slot1 = (getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) and slot2.data1) or 0
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
 		slot1 = getProxy(PlayerProxy):getData():getResById(slot0:getConfig("target_id_for_client"))
+	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
+		slot1 = getProxy(ActivityProxy):getVirtualItemNumber(slot0:getConfig("target_id_for_client"))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_BOSS_PT then
 		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_FROM_TASKS then

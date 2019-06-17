@@ -128,7 +128,9 @@ function slot0.didEnter(slot0)
 			setActive(slot0._autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 	triggerToggle(slot0._autoToggle, ys.Battle.BattleState.IsAutoBotActive())
 	setAnchoredPosition(slot0.topPanel, {
 		y = slot0.topPanel.rect.height

@@ -79,7 +79,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10021] = {
-		name = "アンテナ ",
+		name = "RDぼこぼこ ",
 		exp = 1,
 		next_id = 10022,
 		id = 10021,
@@ -104,7 +104,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10022] = {
-		name = "アンテナ ",
+		name = "RDぼこぼこ ",
 		exp = 3,
 		next_id = 10023,
 		id = 10022,
@@ -130,7 +130,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[10023] = {
-		name = "アンテナ ",
+		name = "RDぼこぼこ ",
 		exp = 0,
 		next_id = 0,
 		id = 10023,
@@ -546,7 +546,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20021] = {
-		name = "パウンド",
+		name = "ロイヤルケーキ ",
 		exp = 1,
 		next_id = 20022,
 		id = 20021,
@@ -571,7 +571,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20022] = {
-		name = "パウンド",
+		name = "ロイヤルケーキ ",
 		exp = 3,
 		next_id = 20023,
 		id = 20022,
@@ -597,7 +597,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[20023] = {
-		name = "パウンド ",
+		name = "ロイヤルケーキ ",
 		exp = 0,
 		next_id = 0,
 		id = 20023,
@@ -780,7 +780,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21031] = {
-		name = "アーク ",
+		name = "ウォッチキャッチ ",
 		exp = 1,
 		next_id = 21032,
 		id = 21031,
@@ -805,7 +805,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21032] = {
-		name = "アーク ",
+		name = "ウォッチキャッチ ",
 		exp = 3,
 		next_id = 21033,
 		id = 21032,
@@ -831,7 +831,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21033] = {
-		name = "アーク ",
+		name = "ウォッチキャッチ ",
 		exp = 0,
 		next_id = 0,
 		id = 21033,
@@ -858,7 +858,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21041] = {
-		name = "マーボー",
+		name = "ドッジキャッチ ",
 		exp = 1,
 		next_id = 21042,
 		id = 21041,
@@ -883,7 +883,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21042] = {
-		name = "マーボー",
+		name = "ドッジキャッチ ",
 		exp = 3,
 		next_id = 21043,
 		id = 21042,
@@ -909,7 +909,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[21043] = {
-		name = "マーボー",
+		name = "ドッジキャッチ ",
 		exp = 0,
 		next_id = 0,
 		id = 21043,
@@ -1170,7 +1170,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30021] = {
-		name = "タケマル",
+		name = "鉄底尻尾突 ",
 		exp = 1,
 		next_id = 30022,
 		id = 30021,
@@ -1195,7 +1195,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30022] = {
-		name = "タケマル",
+		name = "鉄底尻尾突 ",
 		exp = 3,
 		next_id = 30023,
 		id = 30022,
@@ -1221,7 +1221,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[30023] = {
-		name = "タケマル",
+		name = "鉄底尻尾突 ",
 		exp = 0,
 		next_id = 0,
 		id = 30023,
@@ -1638,7 +1638,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40021] = {
-		name = "おすかー",
+		name = "根性のぐりゅっく ",
 		exp = 1,
 		next_id = 40022,
 		id = 40021,
@@ -1663,7 +1663,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40022] = {
-		name = "おすかー",
+		name = "根性のぐりゅっく ",
 		exp = 3,
 		next_id = 40023,
 		id = 40022,
@@ -1689,7 +1689,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[40023] = {
-		name = "おすかー",
+		name = "根性のぐりゅっく ",
 		exp = 0,
 		next_id = 0,
 		id = 40023,
@@ -1872,7 +1872,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41031] = {
-		name = "ぐらーる",
+		name = "海のヴェヒター ",
 		exp = 1,
 		next_id = 41032,
 		id = 41031,
@@ -1897,7 +1897,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41032] = {
-		name = "ぐらーる",
+		name = "海のヴェヒター ",
 		exp = 3,
 		next_id = 41033,
 		id = 41032,
@@ -1923,7 +1923,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[41033] = {
-		name = "ぐらーる",
+		name = "海のヴェヒター ",
 		exp = 0,
 		next_id = 0,
 		id = 41033,

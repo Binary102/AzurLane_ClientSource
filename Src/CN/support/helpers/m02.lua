@@ -1061,10 +1061,11 @@ function NoPosMsgBox(slot0, slot1, slot2, slot3)
 	end
 
 	pg.MsgboxMgr:GetInstance():ShowMsgBox({
-		hideNo = true,
 		hideYes = true,
+		hideNo = true,
 		content = slot0,
-		custom = slot5
+		custom = slot5,
+		weight = LayerWeightConst.TOP_LAYER
 	})
 end
 

@@ -56,7 +56,8 @@ function slot0.onRegister(slot0)
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,
-				onYes = slot2
+				onYes = slot2,
+				weight = LayerWeightConst.TOP_LAYER
 			})
 		end
 	end)

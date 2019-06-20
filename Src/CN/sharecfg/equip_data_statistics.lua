@@ -51402,6 +51402,56 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60411] = {
+		name = "航空攻击展示-小齐柏林I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "航母空袭展示用",
+		ammo = "无",
+		value_3 = 0,
+		id = 60411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[60412] = {
+		id = 60412,
+		name = "航空攻击展示-小齐柏林II",
+		base = 60411,
+		is_siren = 0,
+		weapon_id = {
+			60412
+		},
+		property_rate = {}
+	},
+	[60413] = {
+		id = 60413,
+		name = "航空攻击展示-小齐柏林III",
+		base = 60411,
+		is_siren = 0,
+		weapon_id = {
+			60413
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		type = 1,
@@ -62850,6 +62900,9 @@ pg.equip_data_statistics = {
 		60401,
 		60402,
 		60403,
+		60411,
+		60412,
+		60413,
 		61007,
 		61008,
 		61009,

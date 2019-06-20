@@ -2,7 +2,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -13,7 +13,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -28,7 +28,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -39,7 +39,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -54,7 +54,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -65,7 +65,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -80,7 +80,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -91,7 +91,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -106,7 +106,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -117,7 +117,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -132,7 +132,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -143,7 +143,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -158,7 +158,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -169,7 +169,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -184,7 +184,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -195,7 +195,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -210,7 +210,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -221,7 +221,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -236,7 +236,7 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -247,7 +247,7 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddAttr",
+				type = "BattleBuffAddAttrRatio",
 				trigger = {
 					"onAttach",
 					"onRemove"
@@ -277,7 +277,7 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddAttrRatio",
 			trigger = {
 				"onAttach",
 				"onRemove"
@@ -288,7 +288,7 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddAttrRatio",
 			trigger = {
 				"onAttach",
 				"onRemove"

@@ -320,6 +320,56 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 0,
+		id = 33,
+		index = 999,
+		pic = "30",
+		desc = "<color=#92fc63>[밥!]</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 0,
+		id = 34,
+		index = 998,
+		pic = "33",
+		desc = "<color=#92fc63>[간식시간]</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 0,
+		id = 35,
+		index = 997,
+		pic = "31",
+		desc = "<color=#92fc63>[뭐라카노]</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 0,
+		id = 36,
+		index = 996,
+		pic = "32",
+		desc = "<color=#92fc63>[바로 그거야]</color>",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 0,
+		id = 37,
+		index = 995,
+		pic = "34",
+		desc = "<color=#92fc63>[그러췌]</color>",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		id = 41,
@@ -540,22 +590,22 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[64] = {
-		achieve = 0,
-		id = 64,
-		index = 1024,
-		pic = "xixue",
-		desc = "<color=#92fc63>[메롱!]</color>",
-		type = {
-			2
-		}
-	},
 	[65] = {
 		achieve = 0,
 		id = 65,
 		index = 1025,
 		pic = "z23",
 		desc = "<color=#92fc63>[화났어요!]</color>",
+		type = {
+			2
+		}
+	},
+	[66] = {
+		achieve = 0,
+		id = 66,
+		index = 1024,
+		pic = "xixue",
+		desc = "<color=#92fc63>[메롱!]</color>",
 		type = {
 			2
 		}
@@ -1143,6 +1193,11 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
+		33,
+		34,
+		35,
+		36,
+		37,
 		41,
 		42,
 		43,
@@ -1165,8 +1220,8 @@ pg.emoji_template = {
 		61,
 		62,
 		63,
-		64,
 		65,
+		66,
 		100,
 		101,
 		102,

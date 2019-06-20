@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>2: Winter Swimming Contest?</size>",
+					"Winter Offensive\n\n<size=45>Chapter 2 - Cold-Water Swim Meet?</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "A...Achoo!",
+			say = "Aah... Aachoo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Ugh...I knew it would be freezing outside...Eh? Who's that up ahead?",
+			say = "Ughh... I knew it'd be freezing outside... Huh? Who's that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			say = "Yo, if it isn't {namecode:79}! Out for a walk?",
+			say = "Yo, if it isn't Yamashiro! Are you out for a stroll?",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "No no, just buying a few things...Brrr, it's so cold out...",
+			say = "Umm... not quite... I'm just on my way to the store... Brrr...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
-			say = "This is unacceptable, {namecode:79}! How could a resident of Omosakura Dorm be defeated by a little cold, huh?",
+			say = "A poor showing, Yamashiro! How could a battleship of the Sakura Empire allow herself to be bested by a little cold?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "{namecode:77}, {namecode:76}...You two are amazing~ You don't feel cold at all?",
+			say = "Ise, Hyuuga... you two aren't cold...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
-			say = "Heheh, all you need is guts, and something like winter will never stand a chance!",
+			say = "Heh. All you need is a little guts, and the cold won't be an issue at all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:76}",
-			say = "We're even preparing a Winter Swimming Contest! Heheh, go call White Hawk over too, so they can see just how brave Omosakura really is!",
+			say = "As a matter of fact, we're organizing a cold-water swim meet. Heheh, we're also going to grab those Eagle Union blokes and let them see what the Sakura Empire is made of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:77}",
-			say = "Well, {namecode:79}? Want to join us?",
+			say = "How 'bout it, Yamashiro? Want to join?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Uhh...I, uh...Never mind...A...Achoo!",
+			say = "Eep... I, um, I think I'm good... achoo!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -197,7 +197,7 @@ function slot0.updateCommanderTF(slot0, slot1)
 		slot0.expSlider.value = slot2.exp / slot2:getNextLevelExp()
 
 		if slot1 <= 0 or not ("<color=#A9F548FF>" .. slot2.exp + slot1 .. "</color>") then
-			slot4 = "0"
+			slot4 = slot2.exp
 		end
 
 		slot0.sliderExpTxt.text = "EXP: " .. slot4 .. "/" .. slot2:getNextLevelExp()

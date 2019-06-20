@@ -10,7 +10,7 @@ pg.ShareMgr.TypePhoto = 7
 pg.ShareMgr.TypeReflux = 8
 pg.ShareMgr.TypeCommander = 9
 pg.ShareMgr.TypeColoring = 10
-pg.ShareMgr.TypeNewShipDesignSSR = 11
+pg.ShareMgr.TypeChallenge = 11
 pg.ShareMgr.PANEL_TYPE_BLACK = 1
 pg.ShareMgr.PANEL_TYPE_PINK = 2
 

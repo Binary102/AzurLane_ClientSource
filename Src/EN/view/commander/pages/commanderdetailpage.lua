@@ -20,6 +20,7 @@ function slot0.OnInit(slot0)
 	slot0.talentAdditionList = UIItemList.New(slot0.talentAdditionTF, slot0.talentAdditionTF:GetChild(0))
 	slot0.talentAdditionTextList = {}
 	slot0.skillIcon = slot0:findTF("skill/icon/Image", slot0.talentSkill)
+	slot0.lockTF = slot0:findTF("lock")
 	slot0.commanderInfo = slot0:findTF("info")
 	slot0.expPanel = slot0:findTF("exp", slot0.commanderInfo)
 	slot0.commanderLevelTxt = slot0:findTF("exp/level", slot0.commanderInfo):GetComponent(typeof(Text))
@@ -68,6 +69,13 @@ function slot0.OnInit(slot0)
 	slot0.blurFlag = false
 end
 
+function slot0.updateLockState(slot0)
+	setActive(slot0.lockTF:Find("image"), slot0.commanderVO:getLock() == 0)
+	onButton(slot0, slot0.lockTF, function ()
+		slot1:emit(CommandRoomMediator.ON_LOCK, slot1.commanderVO.id, 1 - slot0)
+	end, SFX_PANEL)
+end
+
 function slot0.HideExp(slot0)
 	setActive(slot0.expPanel, false)
 end
@@ -90,6 +98,18 @@ function slot0.Blur(slot0)
 	end
 end
 
+function slot0.onPaintingView(slot0)
+	if slot0.blurFlag then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
+	end
+end
+
+function slot0.onExitPaintingView(slot0)
+	if slot0.blurFlag then
+		pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
+	end
+end
+
 function slot0.Update(slot0, slot1, slot2)
 	slot0.commanderVO = slot1
 	slot0.newCommander = slot2
@@ -97,6 +117,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateInfo()
 	slot0:updateTalents()
 	slot0:updateSkills()
+	slot0:updateLockState()
 	slot0:updatePreView(nil)
 	slot0._tf:SetAsFirstSibling()
 	slot0:Show()
@@ -155,7 +176,8 @@ function slot0.updateAbilitys(slot0, slot1)
 			slot11 = nil
 		end
 
-		setText(slot10:Find("Text"), slot9.value .. ((slot11 and setColorStr("+" .. slot11, COLOR_GREEN)) or ""))
+		setText(slot13, slot9.value)
+		setText(slot10:Find("add"), (slot11 and setColorStr("+" .. slot11, COLOR_GREEN)) or " ")
 	end
 end
 
@@ -241,6 +263,7 @@ end
 function slot0.ToggleOn(slot0)
 	triggerToggle(slot0.skillBtn, true)
 	triggerToggle(slot0.additionBtn, true)
+	setActive(slot0.lockTF, false)
 end
 
 function slot0.tweenHide(slot0, slot1)

@@ -33,7 +33,7 @@ function slot0.setRank(slot0, slot1, slot2)
 	slot0.player = slot1
 	slot0.season = slot2
 
-	setText(slot0._playerName, slot0.player.name)
+	setText(slot0._playerName, "<color=#FFFFFF>" .. slot0.player.name .. "</color><size=32> / C O M M A N D E R</size>")
 
 	slot4, slot5 = SeasonInfo.getNextMilitaryRank(slot2.score, slot2.rank)
 
@@ -55,7 +55,7 @@ end
 function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
-	setText(slot0._playerName, slot0.player.name)
+	setText(slot0._playerName, "<color=#FFFFFF>" .. slot0.player.name .. "</color><size=32> / C O M M A N D E R</size>")
 	setText(slot0._playerLv, "Lv." .. slot0.player.level)
 
 	slot0._playerExpProgress:GetComponent(typeof(Image)).fillAmount = slot0.player.exp / getConfigFromLevel1(pg.user_level, slot0.player.level).exp_interval
@@ -186,11 +186,7 @@ function slot0.displayerCommanders(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
-		setText(slot0._levelText, slot0.rivalVO.name)
-	else
-		setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
-	end
+	slot0:setStageName()
 
 	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
 	rtf(slot0._grade).localPosition = Vector3(0, 25, 0)
@@ -219,6 +215,14 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0._skipBtn, function ()
 		slot0:skip()
 	end, SFX_CONFIRM)
+end
+
+function slot0.setStageName(slot0)
+	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
+		setText(slot0._levelText, slot0.rivalVO.name)
+	else
+		setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
+	end
 end
 
 function slot0.rankAnimaFinish(slot0)
@@ -751,20 +755,25 @@ function slot0.displayShips(slot0)
 		end
 	end
 
-	slot11(slot9, slot0.STATE_DISPLAYED)
-	function (slot0, slot1)
-		if #slot0 == 0 then
-			return
+	slot9[#slot9].GetComponent(slot11, typeof(DftAniEvent)).SetEndEvent(slot12, function (slot0)
+		slot0._stateFlag = slot1.STATE_DISPLAYED
+
+		if not slot0._subFirstExpTF then
+			slot0:skip()
 		end
 
-		slot0[#slot0].GetComponent(slot2, typeof(DftAniEvent)):SetEndEvent(function (slot0)
-			slot0._stateFlag = slot0
+		return
+	end)
+
+	if #slot10 > 0 then
+		slot10[#slot10].GetComponent(slot13, typeof(DftAniEvent)):SetEndEvent(function (slot0)
+			slot0._stateFlag = slot1.STATE_SUB_DISPLAYED
+
+			slot0:skip()
 
 			return
 		end)
-
-		return
-	end(slot10, slot0.STATE_SUB_DISPLAYED)
+	end
 end
 
 function slot0.setAtkAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -962,8 +971,13 @@ function slot0.skip(slot0)
 						slot0._stateFlag = slot0.STATE_DISPLAYED
 
 						setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
+
+						if not slot0._subFirstExpTF then
+							slot0:playSubExEnter()
+						end
 					else
 						if slot0._stateFlag == slot0.STATE_DISPLAYED then
+							setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 							slot0:playSubExEnter()
 						else
 							if slot0._stateFlag == slot0.STATE_SUB_DISPLAY then

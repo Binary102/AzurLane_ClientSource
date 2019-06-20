@@ -385,7 +385,6 @@ function slot0.didEnter(slot0)
 		BilibiliSdkMgr.inst:login(2)
 	end)
 	slot0:initAiriEvent()
-	slot0:playExtraVoice()
 	slot0:checkVersion()
 
 	if PLAY_OPENING then

@@ -130,7 +130,7 @@ return {
 		}
 	},
 	uiEffect = "",
-	name = "吾妻·水听",
+	name = "吾妻",
 	cd = 0,
 	picture = "0",
 	desc = "",

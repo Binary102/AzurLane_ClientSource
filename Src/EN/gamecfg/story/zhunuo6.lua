@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没那么简单就能逃跑吗……真是麻烦啊。",
+			say = "I had a feeling I got away too easily... But if I must fight to survive, then I will...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,
-			say = "被追上了还能保持这副游刃有余的样子，不愧是皇家的前辈……",
+			say = "Still willing to fight, even with a capital ship on your tail? I suppose that's why you Royal Navy carriers are so revered.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，你比刚才的小女孩要讨人喜欢多了嘛……格奈森瑙……么，经常听到的名字呢……你看起来比较像能讲道理的样子嘛，不知道能不能就这样放我们一马呢？",
+			say = "Wait! You're no heavy cruiser, you're Gneisenau...! I've heard much about you... I think I know the answer, but I must ask: would you be willing to let our fleet proceed without incident?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "哎呀，能被对手记住，还真是荣幸啊。不知道你的这份从容能坚持到什么时候呢～",
+			say = "I'm honored that you know my name. And no, I can't simply let you be on your merry way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉……真是麻烦啊……",
+			say = "That leaves me with little choice but to fight you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

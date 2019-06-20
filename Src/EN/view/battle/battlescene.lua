@@ -473,6 +473,9 @@ function slot0.initPauseWindow(slot0)
 					setText(slot4, "碧蓝梦境")
 				else
 					if slot5 == SYSTEM_CHALLENGE then
+						setText(slot3, "SP")
+						setText(slot4, slot0._chapter:getNextExpedition().chapter_name[2])
+						setActive(slot0.LeftTimeContainer, true)
 					end
 				end
 			end

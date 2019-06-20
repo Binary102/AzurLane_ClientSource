@@ -1,11 +1,19 @@
 slot0 = class("ChallengeMainMediator", import("..base.ContextMediator"))
 slot0.ON_COMMIT_FLEET = "ChallengeMainMediator:ON_COMMIT_FLEET"
+slot0.ON_FLEET_SHIPINFO = "ChallengeMainMediator:ON_FLEET_SHIPINFO"
 slot0.ON_PRECOMBAT = "ChallengeMainMediator:ON_PRECOMBAT"
 slot0.ON_SELECT_ELITE_COMMANDER = "ChallengeMainMediator:ON_SELECT_ELITE_COMMANDER"
+slot0.ON_OPEN_RANK = "ChallengeMainMediator:ON_OPEN_RANK"
+slot0.COMMANDER_FORMATION_OP = "ChallengeMainMediator:COMMANDER_FORMATION_OP"
 
 function slot0.register(slot0)
 	slot3 = getProxy(ChallengeProxy)
 
+	slot0:bind(slot0.ON_OPEN_RANK, function ()
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+			page = PowerRank.TYPE_CHALLENGE
+		})
+	end)
 	slot0:bind(ChallengeConst.CLICK_GET_AWARD_BTN, function (slot0, slot1)
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
@@ -24,7 +32,7 @@ function slot0.register(slot0)
 		slot9 = {}
 
 		for slot13, slot14 in pairs(slot8) do
-			if slot14:getTeamType() ~= slot6 then
+			if slot14:getTeamType() ~= slot6 or slot14:isActivityNpc() then
 				table.insert(slot9, slot13)
 			end
 		end
@@ -68,6 +76,19 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_COMMIT_FLEET, function ()
 		slot0:commitActivityFleet(slot1.id)
 	end)
+	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
+		})
+
+		slot0.contextData.editFleet = true
+	end)
+	slot0:bind(slot0.COMMANDER_FORMATION_OP, function (slot0, slot1)
+		slot0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
+			data = slot1
+		})
+	end)
 	slot0:bind(ActivityBossBattleMediator2.ON_FLEET_RECOMMEND, function (slot0, slot1)
 		slot0:recommendActivityFleet(slot1.id, slot1)
 		slot3.viewComponent:setFleet(slot0.recommendActivityFleet:getActivityFleets()[slot1.id])
@@ -80,19 +101,19 @@ function slot0.register(slot0)
 		slot2.viewComponent:setFleet(slot2[slot1.id])
 		slot2.viewComponent:updateEditPanel()
 	end)
-	slot0:bind(slot0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2, slot3)
-		slot5 = nil
+	slot0:bind(slot0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2)
+		slot4 = nil
 
-		for slot9, slot10 in pairs(slot4) do
-			if slot9 == slot1 then
-				slot5 = slot10
+		for slot8, slot9 in pairs(slot3) do
+			if slot8 == slot1 then
+				slot4 = slot9
 			end
 		end
 
 		slot2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 1,
 			mode = CommandRoomScene.MODE_SELECT,
-			activeCommanderId = slot5:getCommanders()[pos],
+			activeCommanderId = slot4:getCommanders()[pos],
 			ignoredIds = {},
 			onCommander = function (slot0)
 				return true
@@ -120,14 +141,11 @@ function slot0.register(slot0)
 					end
 				end
 
-				print("ssssss")
 				slot4:updateCommanderByPos(slot3, slot4)
-				print(slot1)
-				print:updateActivityFleet(slot6.id, slot1, slot4)
+				slot4.updateCommanderByPos:updateActivityFleet(slot6.id, slot1, slot4)
 				slot1()
 			end,
 			onQuit = function (slot0)
-				print("qqqqqq")
 				slot0:updateCommanderByPos(slot0.updateCommanderByPos, nil)
 				slot0:updateActivityFleet(slot0.updateCommanderByPos.id, nil, slot0)
 				slot0()
@@ -143,15 +161,27 @@ function slot0.register(slot0)
 			return
 		end
 
-		if not slot2:getUserChallengeInfo(slot1) then
-			slot3:sendNotification(GAME.CHALLENGE2_INITIAL, {
+		if slot0:getActivityFleets()[slot1.id][slot1 + 1].isLegalToFight(slot4) == Fleet.VANGUARD then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
+
+			return
+		elseif slot5 == Fleet.MAIN then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("ship_vo_mainFleet_must_hasShip"))
+
+			return
+		end
+
+		slot2.viewComponent:hideFleetEdit()
+
+		if not slot3:getUserChallengeInfo(slot1) then
+			slot2:sendNotification(GAME.CHALLENGE2_INITIAL, {
 				mode = slot1
 			})
 
 			return
 		end
 
-		slot3:addSubLayers(Context.New({
+		slot2:addSubLayers(Context.New({
 			mediator = ChallengePreCombatMediator,
 			viewComponent = ChallengePreCombatLayer,
 			data = {
@@ -172,6 +202,7 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.CHALLENGE2_INITIAL_DONE,
 		GAME.CHALLENGE2_RESET_DONE,
+		GAME.CHALLENGE2_INFO_DONE,
 		GAME.SUBMIT_TASK_DONE,
 		CommanderProxy.PREFAB_FLEET_UPDATE
 	}
@@ -200,13 +231,32 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updatePaintingList()
 		slot0.viewComponent:updateRoundText()
 		slot0.viewComponent:updateSlider()
-		slot0.viewComponent:updateResetBtn()
+		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.CHALLENGE2_RESET_DONE then
+		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE and not slot0.viewComponent:isFinishedCasualMode() then
+			slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
+		end
+
 		slot0.viewComponent:updateData()
+		slot0.viewComponent:updateGrade(slot4:getChallengeInfo():getGradeList())
+		slot0.viewComponent:updateSwitchModBtn()
 		slot0.viewComponent:updatePaintingList()
 		slot0.viewComponent:updateRoundText()
 		slot0.viewComponent:updateSlider()
-		slot0.viewComponent:updateResetBtn()
+		slot0.viewComponent:updateFuncBtns()
+	elseif slot2 == GAME.CHALLENGE2_INFO_DONE then
+		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE and not slot0.viewComponent:isFinishedCasualMode() then
+			slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
+		end
+
+		slot0.viewComponent:updateData()
+		slot0.viewComponent:updateGrade(slot4:getChallengeInfo():getGradeList())
+		slot0.viewComponent:updateTimePanel()
+		slot0.viewComponent:updateSwitchModBtn()
+		slot0.viewComponent:updatePaintingList()
+		slot0.viewComponent:updateRoundText()
+		slot0.viewComponent:updateSlider()
+		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			slot0.viewComponent:updateAwardPanel()

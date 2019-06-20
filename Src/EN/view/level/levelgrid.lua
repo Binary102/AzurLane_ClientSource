@@ -1566,18 +1566,6 @@ end
 slot0.updateFleets = slot2
 
 function slot2(slot0, slot1)
-	slot2 = pairs
-	slot3 = slot0.opBtns
-	slot2, slot3, slot4 = slot2(slot3)
-
-	for slot5, slot6 in slot2, slot3, slot4 do
-		slot7 = print
-		slot8 = slot5
-		slot9 = slot6
-
-		slot7(slot8, slot9)
-	end
-
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -2131,7 +2119,6 @@ function slot2(slot0, slot1)
 				setActive(slot4.tfShadow, not slot9)
 				setActive(slot4.tfShip, not slot9)
 				setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot9)
-				print("ssssss")
 
 				slot11 = slot2
 				slot10 = slot2.getFleetAmmo
@@ -3226,27 +3213,41 @@ function slot2(slot0, slot1, slot2)
 	slot9 = slot9(slot10)
 
 	if not slot9 then
-		function slot9(slot0)
-			slot1 = slot0.childCount
-			slot2 = 0
+		function slot9(slot0, slot1)
+			slot2 = slot0.childCount
+			slot3 = 0
 
-			if slot1 > slot2 then
-				slot2 = slot0
-				slot1 = slot0.GetChild
-				slot3 = 0
-				slot1 = slot1(slot2, slot3)
-				slot2 = PoolMgr
-				slot2 = slot2.GetInstance
-				slot2 = slot2()
-				slot3 = slot2
-				slot2 = slot2.ReturnPrefab
-				slot4 = "chapter/"
-				slot5 = slot1.name
-				slot4 = slot4 .. slot5
-				slot5 = slot1.name
-				slot6 = slot1.gameObject
+			if slot2 > slot3 then
+				slot3 = slot0
+				slot2 = slot0.GetChild
+				slot4 = 0
+				slot2 = slot2(slot3, slot4)
+				slot3 = PoolMgr
+				slot3 = slot3.GetInstance
+				slot3 = slot3()
+				slot4 = slot3
+				slot3 = slot3.ReturnPrefab
+				slot5 = "chapter/"
+				slot6 = slot2.name
+				slot5 = slot5 .. slot6
+				slot6 = slot2.name
+				slot7 = slot2.gameObject
 
-				slot2(slot3, slot4, slot5, slot6)
+				slot3(slot4, slot5, slot6, slot7)
+
+				if slot1 then
+					slot3 = PoolMgr
+					slot3 = slot3.GetInstance
+					slot3 = slot3()
+					slot4 = slot3
+					slot3 = slot3.DestroyPrefab
+					slot5 = "chapter/"
+					slot6 = slot2.name
+					slot5 = slot5 .. slot6
+					slot6 = slot2.name
+
+					slot3(slot4, slot5, slot6)
+				end
 			end
 		end
 
@@ -3255,8 +3256,10 @@ function slot2(slot0, slot1, slot2)
 		slot11 = slot7.Find
 		slot13 = ChapterConst
 		slot13 = slot13.ChildItem
+		slot11 = slot11(slot12, slot13)
+		slot12 = true
 
-		slot10(slot11(slot12, slot13))
+		slot10(slot11, slot12)
 
 		slot10 = slot0.attachTws
 		slot10 = slot10[slot5]

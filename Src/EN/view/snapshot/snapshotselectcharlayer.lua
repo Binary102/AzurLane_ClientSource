@@ -239,6 +239,16 @@ function slot2(slot0)
 		end
 	end
 
+	for slot6 = #slot1, 1, -1 do
+		if slot1[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr:GetInstance():inTime(slot7.show_time))) then
+			table.remove(slot1, slot6)
+		end
+
+		if slot7.no_showing == "1" then
+			table.remove(slot1, slot6)
+		end
+	end
+
 	return slot1
 end
 

@@ -41,7 +41,7 @@ class("SaveDormThemeCommand", pm.SimpleCommand).execute = function (slot0, slot1
 
 			slot1:AddTheme(slot0)
 			slot1:sendNotification(GAME.SAVE_DORMTHEME_DONE)
-			pg.TipsMgr:GetInstance():ShowTips("保存成功")
+			pg.TipsMgr:GetInstance():ShowTips("Saved")
 		else
 			pg.TipsMgr:GetInstance():ShowTips(errorTip("", slot0.result))
 		end

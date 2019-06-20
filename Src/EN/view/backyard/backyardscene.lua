@@ -110,10 +110,6 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("return", slot0.topPanel), function ()
-		if slot0.view and slot0.view.inInitFurnitrues then
-			return
-		end
-
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0.eyeBtn, function (slot0)

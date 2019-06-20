@@ -206,12 +206,16 @@ function slot0.updateReserveBtn(slot0)
 end
 
 function slot0.UpdateBoxesBtn(slot0)
-	if not IsNil(slot0:findTF("boxes_btn/Text", slot0.boxTF)) then
-		setText(slot1, #_.select(slot0.boxes, function (slot0)
-			return CommanderBox.STATE_WAITING < slot0:getState()
-		end) .. "/" .. #slot0.boxes)
+	if not IsNil(slot0:findTF("boxes_btn/tip/Text", slot0.boxTF)) then
+		slot2 = 0
+
+		for slot7, slot8 in ipairs(slot3) do
+			print("v:" .. slot8:getState())
+		end
+
+		setText(slot1, #slot3)
 		setActive(slot0:findTF("boxes_btn/tip", slot0.boxTF), _.any(slot0.boxes, function (slot0)
-			return slot0:getState() == CommanderBox.STATE_FINISHED
+			return slot0:getState() == CommanderBox.STATE_FINISHED or slot0:getState() == CommanderBox.STATE_EMPTY
 		end))
 	end
 end
@@ -393,6 +397,7 @@ function slot0.paintingView(slot0)
 	end
 
 	slot0.detailPage:tweenHide(slot1)
+	slot0.detailPage:onPaintingView()
 	LeanTween.moveY(rtf(slot0.topPanel), slot0.topPanel.localPosition.y - 300, slot1)
 	LeanTween.moveX(rtf(slot0.leftPanel), -300, slot1)
 	LeanTween.moveX(rtf(slot0.rightPanel), 1000, slot1)
@@ -469,6 +474,7 @@ function slot0.MainView(slot0)
 		return
 	end
 
+	slot0.detailPage:onExitPaintingView()
 	LeanTween.moveY(rtf(slot0.topPanel), 0, slot1)
 	LeanTween.moveX(rtf(slot0.leftPanel), 0, slot1)
 	LeanTween.moveX(rtf(slot0.rightPanel), 0, slot1)
@@ -482,7 +488,13 @@ function slot0.MainView(slot0)
 end
 
 function slot0.SwitchPage(slot0, slot1)
-	slot0:emit(CommandRoomMediator.ON_DETAIL, slot0.conmmanderId, slot1)
+	if slot0.commanderVOs[slot0.conmmanderId].inBattle and slot1 == CommanderInfoScene.PAGE_PLAY then
+		pg.TipsMgr:GetInstance():ShowTips(i18n("commander_is_in_battle"))
+
+		return
+	end
+
+	slot0:emit(CommandRoomMediator.ON_DETAIL, slot2, slot1)
 
 	return
 end
@@ -603,8 +615,14 @@ function slot0.initCommandersPanel(slot0)
 			if slot0.mode == slot1.MODE_VIEW and not slot0.conmmanderId and slot0 == 0 then
 				triggerButton(slot2.infoTF)
 			else
-				if slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 and slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
-					slot0:checkCommander(slot2.commanderVO)
+				if slot0.mode == slot1.MODE_SELECT and slot0.conmmanderId and slot0.contextData.maxCount == 1 then
+					if slot2.commanderVO and slot2.commanderVO.id == slot0.conmmanderId then
+						slot0:checkCommander(slot2.commanderVO)
+					end
+				else
+					if slot0.mode == slot1.MODE_SELECT and not slot0.activeCommanderId and slot0.contextData.maxCount == 1 and slot0 == 0 and slot2.commanderVO ~= nil then
+						triggerButton(slot2.infoTF)
+					end
 				end
 			end
 		end
@@ -720,6 +738,11 @@ function slot0.updateSelecteds(slot0)
 
 	if slot0.contextData.activeCommander then
 		slot2 = Clone(slot0.contextData.activeCommander)
+		slot3 = 0
+
+		if slot0.contextData.maxCount > 1 then
+			slot3 = CommanderPlayPanel.getSkillExpAndCommanderExp(slot2, slot0.selecteds)
+		end
 
 		slot2:addExp(slot3)
 		slot0.detailPage:ActionInvoke("updatePreView", slot2)

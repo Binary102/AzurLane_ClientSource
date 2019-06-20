@@ -56,7 +56,7 @@ function slot0.InitInteractable(slot0)
 		slot7 = pg.task_data_template[slot6]
 
 		onButton(slot0, slot0.items[slot5], function ()
-			if (slot0:getTaskById(slot0) or slot0:getFinishTaskById(slot0)) and slot0:isFinish() and not slot0:isReceive() then
+			if slot0:getTaskVO(slot1):getTaskStatus() == 1 then
 				slot2:emit(ActivityMediator.ON_TASK_SUBMIT, slot0)
 
 				return
@@ -94,13 +94,13 @@ function slot0.UpdateView(slot0)
 
 	for slot5 = 1, #slot0.finalTasks, 1 do
 		setActive(slot8, true)
-		slot0:UpdateIcon(slot0:findTF("icon", slot0.items[slot5]), pg.task_data_template[slot0.finalTasks[slot5]].award_display[1][1], pg.task_data_template[slot0.finalTasks[slot5]].award_display[1][2])
-		setActive(slot8:Find("active"), defaultValue((slot1:getTaskById(slot0.finalTasks[slot5]) or slot1:getFinishTaskById(slot6)) and not slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isFinish(), true))
-		setActive(slot8:Find("finished"), defaultValue((slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6)) and slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isFinish() and not slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isReceive(), false))
-		setActive(slot8:Find("achieved"), defaultValue((slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6)) and slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isReceive(), false))
-		setButtonEnabled(slot8, defaultValue((slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6)) and not slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isReceive(), true))
+		slot0:UpdateIcon(slot0:findTF("icon", slot8), pg.task_data_template[slot0.finalTasks[slot5]].award_display[1][1], pg.task_data_template[slot0.finalTasks[slot5]].award_display[1][2])
+		setActive(slot0.items[slot5]:Find("active"), slot1:getTaskVO(slot6).getTaskStatus(slot10) == 0)
+		setActive(slot8:Find("finished"), slot11 == 1)
+		setActive(slot8:Find("achieved"), slot11 == 2)
+		setButtonEnabled(slot8, slot11 < 2)
 
-		slot0.tabType = (slot0.tabType == slot5 and slot1.getTaskById(slot0.finalTasks[slot5]) or slot1.getFinishTaskById(slot6):isReceive() and 0) or slot0.tabType
+		slot0.tabType = (slot0.tabType == slot5 and slot11 == 2 and 0) or slot0.tabType
 	end
 
 	for slot5 = #slot0.finalTasks + 1, #slot0.items, 1 do

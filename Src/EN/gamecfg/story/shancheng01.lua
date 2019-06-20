@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>1: A Kotatsu in Winter</size>",
+					"Winter Offensive\n\n<size=45>Chapter 1 - A Kotatsu in the Winter</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Whew...Kotatsu really are the best in the winter, huh...",
+			say = "Phew... there's nothing quite like a warm kotatsu during the winter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Haa...I feel like I'm melting into the kotatsu...",
+			say = "Ahh... I don't want to ever get out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			say = "Sigh...The way you look right now...is absolutely embarrassing...",
+			say = "My, my, is that how you should be acting?",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Hey~ Aren't you sitting under the kotatsu with us too, sis?",
+			say = "Ehh? But Fusou, you look pretty cozy too...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "Cough Cough...",
+			say = "Umm... *cough*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "I don't have a choice...Who made winter so cold, anyways?",
+			say = "It's not like I have a choice... it's way too cold this year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "We're gonna get really unfit at this rate...We ought to be exercising in the winter, too.",
+			say = "We're going to get all chubby at this rate. Even if it's cold, we're going to need to get some exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Ha, in this weather? What kind of exercise can we even do...",
+			say = "Ehh? In this weather? What kind of stuff is there to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "Like...winter swimming, maybe? That'll train our guts, too! Heehee...",
+			say = "Hmm... how about cold-water freediving? We'd also be able to show some guts in the process. Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Ugh...that's not funny at all. Just thinking about it makes me feel cold...",
+			say = "Jeez, Fusou, don't even make jokes about that... just thinking about it is making me cold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

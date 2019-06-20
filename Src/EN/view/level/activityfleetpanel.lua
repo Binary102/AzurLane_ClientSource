@@ -42,16 +42,6 @@ function slot1(slot0, slot1, slot2)
 
 	function slot6()
 		slot0 = slot0
-		slot0 = slot0.onCancel
-
-		if slot0 then
-			slot0 = slot0
-			slot0 = slot0.onCancel
-
-			slot0()
-		end
-
-		slot0 = slot0
 		slot0 = slot0.onCombat
 
 		if slot0 then

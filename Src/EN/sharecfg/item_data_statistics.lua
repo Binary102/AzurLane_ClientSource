@@ -656,7 +656,23 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[43] = {
+	{
+		display = "T3 Sea Gladiator Design",
+		rarity = 2,
+		type = 9,
+		name = "T3 Sea Gladiator Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42,
+		icon = "Equips/27200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
 		display = "T3 Twin 550mm Torpedo Design",
 		rarity = 2,
 		type = 9,
@@ -672,7 +688,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[44] = {
+	{
 		display = "T3 Twin 100mm AA Gun Design",
 		rarity = 2,
 		type = 9,
@@ -688,7 +704,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[45] = {
+	{
 		display = "Basic Sonar T2 Design",
 		rarity = 2,
 		type = 9,
@@ -704,7 +720,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[46] = {
+	{
 		display = "Improved Sonar T1 Design",
 		rarity = 2,
 		type = 9,
@@ -720,7 +736,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[47] = {
+	{
 		display = "Basic Depth Charges T3 Design",
 		rarity = 2,
 		type = 9,
@@ -736,7 +752,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[48] = {
+	{
 		display = "Improved Depth Charges T2 Design",
 		rarity = 2,
 		type = 9,
@@ -752,7 +768,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[49] = {
+	{
 		display = "Submarine-only Mark 14 Torpedo T2 Design",
 		rarity = 2,
 		type = 9,
@@ -768,7 +784,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[50] = {
+	{
 		display = "Submarine-only Mark 16 Torpedo T1 Design",
 		rarity = 2,
 		type = 9,
@@ -784,7 +800,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[51] = {
+	{
 		display = "Submarine-only Type 92 Electric Torpedo T2 Design",
 		rarity = 2,
 		type = 9,
@@ -800,7 +816,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[52] = {
+	{
 		display = "Submarine-only Type 95 Oxygen Torpedo T1 Design",
 		rarity = 2,
 		type = 9,
@@ -816,7 +832,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[53] = {
+	{
 		display = "Submarine-only G7a Torpedo T2 Design",
 		rarity = 2,
 		type = 9,
@@ -832,7 +848,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[54] = {
+	{
 		display = "Submarine-only G7e Homing Torpedo T1 Design",
 		rarity = 2,
 		type = 9,
@@ -34504,6 +34520,634 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57171] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57171,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11025,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57172] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57172,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11017,
+				1
+			},
+			{
+				2,
+				10044,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				42,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57173] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57173,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				11005,
+				1
+			},
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10075,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57174] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57174,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				19,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57175] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57175,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10044,
+				1
+			},
+			{
+				2,
+				10047,
+				1
+			},
+			{
+				2,
+				10049,
+				1
+			},
+			{
+				2,
+				42,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57176] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57176,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10014,
+				1
+			},
+			{
+				2,
+				10035,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10075,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57177] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57177,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				101111,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				103031,
+				1
+			},
+			{
+				4,
+				103041,
+				1
+			},
+			{
+				4,
+				103061,
+				1
+			},
+			{
+				4,
+				202021,
+				1
+			},
+			{
+				4,
+				202031,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57178] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57178,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				201141,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				201031,
+				1
+			},
+			{
+				4,
+				202131,
+				1
+			},
+			{
+				4,
+				202141,
+				1
+			},
+			{
+				4,
+				101241,
+				1
+			},
+			{
+				4,
+				101251,
+				1
+			},
+			{
+				4,
+				201121,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57179] = {
+		display = "Chance to receive following ships from this stage",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Ship",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57179,
+		icon = "Props/54000",
+		display_icon = {
+			{
+				4,
+				207061,
+				1
+			},
+			{
+				4,
+				301151,
+				1
+			},
+			{
+				4,
+				401011,
+				1
+			},
+			{
+				4,
+				203021,
+				1
+			},
+			{
+				4,
+				203031,
+				1
+			},
+			{
+				4,
+				203041,
+				1
+			},
+			{
+				4,
+				203051,
+				1
+			},
+			{
+				4,
+				201221,
+				1
+			},
+			{
+				4,
+				101031,
+				1
+			},
+			{
+				4,
+				101041,
+				1
+			},
+			{
+				4,
+				101061,
+				1
+			},
+			{
+				4,
+				101071,
+				1
+			},
+			{
+				4,
+				201081,
+				1
+			},
+			{
+				4,
+				201091,
+				1
+			},
+			{
+				4,
+				201101,
+				1
+			},
+			{
+				4,
+				201111,
+				1
+			},
+			{
+				4,
+				303011,
+				1
+			},
+			{
+				4,
+				303021,
+				1
+			},
+			{
+				4,
+				402011,
+				1
+			},
+			{
+				4,
+				402021,
+				1
+			},
+			{
+				4,
+				402031,
+				1
+			},
+			{
+				4,
+				105011,
+				1
+			},
+			{
+				4,
+				105021,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57181] = {
 		display = "Chance to receive following designs",
 		rarity = 1,
@@ -52950,6 +53594,7 @@ Skins and their drop rates:
 		39,
 		40,
 		41,
+		42,
 		43,
 		44,
 		45,
@@ -53847,6 +54492,15 @@ Skins and their drop rates:
 		57164,
 		57165,
 		57166,
+		57171,
+		57172,
+		57173,
+		57174,
+		57175,
+		57176,
+		57177,
+		57178,
+		57179,
 		57181,
 		57182,
 		57183,

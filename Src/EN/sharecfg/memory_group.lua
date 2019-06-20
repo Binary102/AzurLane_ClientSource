@@ -164,6 +164,24 @@ pg.memory_group = {
 			131
 		}
 	},
+	[109] = {
+		title = "Glorious Battle ",
+		type = 2,
+		id = 109,
+		icon = "title_event",
+		memories = {
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141
+		}
+	},
 	[110] = {
 		title = "Witches' Eve",
 		type = 2,
@@ -823,6 +841,36 @@ pg.memory_group = {
 			294
 		}
 	},
+	[509] = {
+		title = "After the Rain Comes the Sun",
+		type = 3,
+		id = 509,
+		icon = "title_chara_shancheng2",
+		memories = {
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307
+		}
+	},
+	[510] = {
+		title = "Glorious Interlude",
+		type = 3,
+		id = 510,
+		icon = "title_chara_guangrong",
+		memories = {
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314
+		}
+	},
 	[511] = {
 		title = "Best Pictures! ",
 		type = 3,
@@ -1089,6 +1137,7 @@ pg.memory_group = {
 		102,
 		107,
 		108,
+		109,
 		110,
 		111,
 		112,
@@ -1128,6 +1177,8 @@ pg.memory_group = {
 		504,
 		507,
 		508,
+		509,
+		510,
 		511,
 		512,
 		513,

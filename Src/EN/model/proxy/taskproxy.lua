@@ -69,10 +69,6 @@ function slot0.register(slot0)
 	slot0.taskTriggers = {}
 end
 
-function slot0.getTaskForBluePrint(slot0, slot1)
-	return slot0:getTaskById(slot1) or slot0:getFinishTaskById(slot1)
-end
-
 function slot0.getTasksForBluePrint(slot0)
 	slot1 = {}
 	slot2 = pairs
@@ -162,10 +158,8 @@ function slot0.getFinishTaskById(slot0, slot1)
 	end
 end
 
-function slot0.isCompleteTaskById(slot0, slot1)
-	if slot0.data[slot1] then
-		return slot0.data[slot1]:getTaskStatus() == 1
-	end
+function slot0.getTaskVO(slot0, slot1)
+	return slot0:getTaskById(slot1) or slot0:getFinishTaskById(slot1)
 end
 
 function slot0.getCanReceiveCount(slot0)
@@ -211,7 +205,7 @@ end
 
 function slot0.getmingshiTaskID(slot0, slot1)
 	for slot6, slot7 in pairs(slot2) do
-		if slot7[1] <= slot1 and slot7[2] and not slot0:getTaskById(slot8) and not slot0:getFinishTaskById(slot8) then
+		if slot7[1] <= slot1 and slot7[2] and not slot0:getTaskVO(slot8) then
 			return slot8
 		end
 	end
@@ -268,7 +262,7 @@ function slot0.mingshiTouchFlagEnabled(slot0)
 		return true
 	end
 
-	if slot0:getTaskById(slot2) or slot0:getFinishTaskById(slot2) then
+	if slot0:getTaskVO(slot2) then
 		return false
 	end
 

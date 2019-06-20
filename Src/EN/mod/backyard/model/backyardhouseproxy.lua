@@ -28,7 +28,10 @@ slot0.ON_REMOVE_FURNTURE_MOVE = "BackYardHouseProxy_ON_REMOVE_FURNTURE_MOVE"
 slot0.CLEAE_SPINE_INTERACTION = "BackYardHouseProxy_CLEAE_SPINE_INTERACTION"
 slot0.ON_SPINE_EXTRA_INTERACTION = "BackYardHouseProxy_ON_SPINE_EXTRA_INTERACTION"
 slot0.ON_CLEAR_SPINE_EXTRA_INTERACTION = "BackYardHouseProxy_ON_CLEAR_SPINE_EXTRA_INTERACTION"
+slot0.APPLY_EFFECT = "BackYardHouseProxy_APPLY_EFFECT"
+slot0.DISABLE_EFFECT = "BackYardHouseProxy_DISABLE_EFFECT"
 slot1 = require("Mod/BackYard/view/BackYardTool")
+slot2 = pg.furniture_compose_template
 
 function slot0.onRegister(slot0)
 	slot0.event = {}
@@ -36,9 +39,17 @@ function slot0.onRegister(slot0)
 	slot0.timer = {}
 	slot0.moveNextTimer = {}
 	slot0.furnitrueTimers = {}
+	slot0.effects = {}
+	slot0.applyingEffects = {}
 
 	for slot4, slot5 in pairs(slot0.data.ships) do
 		slot0:initShipPos(slot4)
+	end
+
+	for slot4, slot5 in ipairs(slot0.all) do
+		table.insert(slot0.effects, BackyardEffectCompose.New({
+			id = slot5
+		}))
 	end
 
 	if BackYardConst.DEBUG then
@@ -46,6 +57,30 @@ function slot0.onRegister(slot0)
 			slot0:Update()
 		end)
 	end
+end
+
+function slot0.checkEffect(slot0)
+	slot1 = {}
+	slot2 = slot0.data:getFurnAndPaperIds()
+
+	for slot6, slot7 in ipairs(slot0.effects) do
+		if slot7:match(slot2) and not table.contains(slot1, slot7) then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	_.each(slot0.applyingEffects, function (slot0)
+		if not table.contains(slot0, slot0) then
+			table.removebyvalue(slot1.applyingEffects, slot0)
+			table.removebyvalue:sendNotification(slot2.DISABLE_EFFECT, slot0)
+		end
+	end)
+	_.each(slot1, function (slot0)
+		if not table.contains(slot0.applyingEffects, slot0) then
+			table.insert(slot0.applyingEffects, slot0)
+			slot0:sendNotification(slot1.APPLY_EFFECT, slot0)
+		end
+	end)
 end
 
 function slot0.existShip(slot0, slot1)

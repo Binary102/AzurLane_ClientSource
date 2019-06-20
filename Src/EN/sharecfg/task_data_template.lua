@@ -8200,6 +8200,518 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5093,
+		type = 5,
+		name = "Tomorrow's Weather is...",
+		count_inherit = 0,
+		desc = "Acquire 5 \"Secret Coolant\" \n(will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "shancheng",
+		award_choice = "",
+		level = 1,
+		next_task = "5112",
+		visibility = 1,
+		story_id = "SHANCHENGP1",
+		target_id_for_client = 50002,
+		id = 5111,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "50002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5094,
+		type = 5,
+		name = "High Pressure? Low Pressure?",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5113",
+		visibility = 1,
+		story_id = "SHANCHENGP2",
+		target_id_for_client = 0,
+		id = 5112,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5113] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5095,
+		type = 5,
+		name = "A Light Breeze",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with \nYamashiro in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5114",
+		visibility = 1,
+		story_id = "SHANCHENGP3",
+		target_id_for_client = 30502,
+		id = 5113,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5114] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5096,
+		type = 5,
+		name = "Low Pressure Approaches",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nYamashiro in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5115",
+		visibility = 1,
+		story_id = "SHANCHENGP4",
+		target_id_for_client = 30502,
+		id = 5114,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5115] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5097,
+		type = 5,
+		name = "After the Clouds Part",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Yamashiro.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5116",
+		visibility = 1,
+		story_id = "SHANCHENGP5",
+		target_id_for_client = 30502,
+		id = 5115,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5116] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5098,
+		type = 5,
+		name = "Rain Shower",
+		count_inherit = 0,
+		desc = "Fully Limit Break Yamashiro.",
+		target_id_2 = "",
+		sub_type = 33,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5117",
+		visibility = 1,
+		story_id = "SHANCHENGP6",
+		target_id_for_client = 30502,
+		id = 5116,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	},
+	[5117] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5099,
+		type = 5,
+		name = "Blue Skies",
+		count_inherit = 0,
+		desc = "Get Yamashiro to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "shancheng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SHANCHENGP7",
+		target_id_for_client = 30502,
+		id = 5117,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30502",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
+	[5121] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5100,
+		type = 5,
+		name = "Her Name is Glorious",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" \n(will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "guangrong",
+		award_choice = "",
+		level = 1,
+		next_task = "5122",
+		visibility = 1,
+		story_id = "GUANGRONG1",
+		target_id_for_client = 50003,
+		id = 5121,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5122] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5101,
+		type = 5,
+		name = "Maritime Exercises",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5123",
+		visibility = 1,
+		story_id = "GUANGRONG2",
+		target_id_for_client = 0,
+		id = 5122,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5123] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5102,
+		type = 5,
+		name = "The Queen Incident Pt. 1",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with \nGlorious in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5124",
+		visibility = 1,
+		story_id = "GUANGRONG3",
+		target_id_for_client = 20706,
+		id = 5123,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5124] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5103,
+		type = 5,
+		name = "The Queen Incident Pt. 2",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with \nGlorious in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5125",
+		visibility = 1,
+		story_id = "GUANGRONG4",
+		target_id_for_client = 20706,
+		id = 5124,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5125] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5104,
+		type = 5,
+		name = "The Destroyers",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Glorious.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5126",
+		visibility = 1,
+		story_id = "GUANGRONG5",
+		target_id_for_client = 20706,
+		id = 5125,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5126] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5105,
+		type = 5,
+		name = "The Glory She's Named For Pt. 1",
+		count_inherit = 0,
+		desc = "Fully Limit Break Glorious.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5127",
+		visibility = 1,
+		story_id = "GUANGRONG6",
+		target_id_for_client = 207064,
+		id = 5126,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "207064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5127] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5106,
+		type = 5,
+		name = "The Glory She's Named For Pt. 2",
+		count_inherit = 0,
+		desc = "Get Glorious to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "guangrong",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "GUANGRONG7",
+		target_id_for_client = 20706,
+		id = 5127,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
 	[5131] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -20314,6 +20826,602 @@ pg.task_data_template = {
 			{
 				7,
 				401231,
+				1
+			}
+		}
+	},
+	[10471] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8371,
+		type = 6,
+		name = "F朱诺行动1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10472",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050011,
+		id = 10471,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050011",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10472] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8372,
+		type = 6,
+		name = "F朱诺行动2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10473",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050012,
+		id = 10472,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050012",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10473] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8373,
+		type = 6,
+		name = "F朱诺行动3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10473,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[10474] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8374,
+		type = 6,
+		name = "F朱诺行动1",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10475",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050011,
+		id = 10474,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050011",
+		open_need = {},
+		award_display = {
+			{
+				3,
+				27240,
+				1
+			}
+		}
+	},
+	[10475] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8375,
+		type = 6,
+		name = "F朱诺行动2",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "10476",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050012,
+		id = 10475,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050012",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[10476] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8376,
+		type = 6,
+		name = "F朱诺行动3",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10476,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201021,
+				1
+			}
+		}
+	},
+	[10477] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8377,
+		type = 6,
+		name = "F朱诺1",
+		count_inherit = 0,
+		desc = "Clear SP3 5 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10477,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[10478] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8378,
+		type = 6,
+		name = "F朱诺2",
+		count_inherit = 0,
+		desc = "Clear SP3 10 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10478,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		}
+	},
+	[10479] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8379,
+		type = 6,
+		name = "F朱诺3",
+		count_inherit = 0,
+		desc = "Clear SP3 15 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10479,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[10480] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8380,
+		type = 6,
+		name = "F朱诺4",
+		count_inherit = 0,
+		desc = "Clear SP3 20 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10480,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201031,
+				1
+			}
+		}
+	},
+	[10481] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8381,
+		type = 6,
+		name = "F朱诺5",
+		count_inherit = 0,
+		desc = "Clear SP3 25 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10481,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
+	[10482] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8382,
+		type = 6,
+		name = "F朱诺6",
+		count_inherit = 0,
+		desc = "Clear SP3 30 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10482,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		}
+	},
+	[10483] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8383,
+		type = 6,
+		name = "F朱诺7",
+		count_inherit = 0,
+		desc = "Clear SP3 35 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10483,
+		target_num = 35,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[10484] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8384,
+		type = 6,
+		name = "F朱诺8",
+		count_inherit = 0,
+		desc = "Clear SP3 40 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10484,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30024,
+				1
+			}
+		}
+	},
+	[10485] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8385,
+		type = 6,
+		name = "F朱诺9",
+		count_inherit = 0,
+		desc = "Clear SP3 45 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10485,
+		target_num = 45,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
+	[10486] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8386,
+		type = 6,
+		name = "F朱诺10",
+		count_inherit = 0,
+		desc = "Clear SP3 50 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10486,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		}
+	},
+	[10487] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8387,
+		type = 6,
+		name = "F朱诺11",
+		count_inherit = 0,
+		desc = "Clear SP3 55 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10487,
+		target_num = 55,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[10488] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8388,
+		type = 6,
+		name = "F朱诺12",
+		count_inherit = 0,
+		desc = "Clear SP3 60 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1050013,
+		id = 10488,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1050013",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				207061,
 				1
 			}
 		}
@@ -43644,6 +44752,20 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		5105,
 		5106,
 		5107,
+		5111,
+		5112,
+		5113,
+		5114,
+		5115,
+		5116,
+		5117,
+		5121,
+		5122,
+		5123,
+		5124,
+		5125,
+		5126,
+		5127,
 		5131,
 		5132,
 		5133,
@@ -43987,6 +45109,24 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		10458,
 		10459,
 		10460,
+		10471,
+		10472,
+		10473,
+		10474,
+		10475,
+		10476,
+		10477,
+		10478,
+		10479,
+		10480,
+		10481,
+		10482,
+		10483,
+		10484,
+		10485,
+		10486,
+		10487,
+		10488,
 		13421,
 		13422,
 		13423,

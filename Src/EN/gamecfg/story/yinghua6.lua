@@ -19,8 +19,8 @@ return {
 				"At the Sacred Sakura, after the war's outbreak",
 				0.2,
 				{
-					967,
-					-685
+					600,
+					-480
 				}
 			}
 		},

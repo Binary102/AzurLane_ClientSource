@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>五 阴，转——</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 5 - After the Clouds Part</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "不久之后——",
+			say = "Shortly afterward...",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，让你久等了！咳咳！",
+			say = "Sorry to keep you waiting, Milord! *cough*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "上次和你提过的巫女舞，我想今天跳给你看看！",
+			say = "I wanted to show you the special dance that I talked about before!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，其实我有背着姐姐在偷偷学巫女舞！可没人看我跳，不知道哪里跳得行哪里不行……",
+			say = "Um, to tell you the truth, I've been secretly learning this dance from Fusou! I haven't shown anyone yet, so I have no idea if it looks weird or not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以想让殿下帮我看看！还有呢……巫女舞就是要在合适的地方跳才对，是吧！",
+			say = "Therefore, I'd like you to be the first person to see! Um... a shrine maiden's dance has to be performed in the right place after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "里面都打扫干净了，就先在外面比划一下动作再说——",
+			say = "Since we just cleaned the interior, let's head back outside...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "Ding! Ding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "The Kagura bells began to ring---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "虽然动作还有些不熟练，还是能让人感受到她努力练习的成果。",
+			say = "Though her movements were unrefined, it was clear how much hard work and dedication she had put in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "Ding! Ding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "The Kagura bells rang out again---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "平时总是跌跌撞撞笨手笨脚的少女，此时全身散发着一种神圣的气息。",
+			say = "Though she's always stumbling around, she's giving off such a spiritual, divine aura.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当 啪嗒 啪嗒",
+			say = "Ding! Ding! Pitter... Patter...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "……嗯？",
+			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "除了铃声之外，还有……雨的声音。",
+			say = "The ringing of bells... was soon joined by the sound of rain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "哇……哇哇！",
+			say = "W-woahhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,16 +233,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "突然下起了雨。",
+			say = "Grab Yamashiro and run inside",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "拉起{namecode:79}跑进休息室",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -253,7 +247,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下？？……好、好的！先躲一下免得淋湿了！",
+			say = "Milord? Ah... alright! Let's avoid getting soaked first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

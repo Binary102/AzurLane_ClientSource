@@ -8682,6 +8682,104 @@ pg.shop_template = {
 			301351
 		}
 	},
+	[70065] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "Buy skin: Glorious JK",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9853,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70065,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207061
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70066] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "Buy skin: Acasta - Going Out in Style",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9852,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70066,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201021
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70067] = {
 		group_type = 0,
 		resource_num = 880,
@@ -13214,6 +13312,8 @@ pg.shop_template = {
 		70062,
 		70063,
 		70064,
+		70065,
+		70066,
 		70067,
 		70068,
 		70069,

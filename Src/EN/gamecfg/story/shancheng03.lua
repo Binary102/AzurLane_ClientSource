@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>3: A Lost Gift, Part 1</size>",
+					"Winter Offensive\n\n<size=45>Chapter 3 - A Lost Gift Pt. 1</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "W...Winter swimming? ...It's said that to become a witch...you must first purify your body with freezing winter waters...",
+			say = "Cold-water swim meet, huh... That reminds me, I had to do a purification ritual like that last New Year's... ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Lately it seems...we really have been somewhat lazy...",
+			say = "I suppose... I have been a bit lazy recently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "My summer swimsuit...that the Commander gave me...",
+			say = "Milord did give me a swimsuit for the summer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "I remember putting it here...",
+			say = "If I remember correctly, it should be over here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "Eh? Why can't I find it?",
+			say = "Huh? It's not here...?",
 			flashout = {
 				dur = 1,
 				black = true,

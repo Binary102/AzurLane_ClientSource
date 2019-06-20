@@ -6,6 +6,22 @@ function slot0.register(slot0)
 	slot0._curMode = slot0.MODE_CASUAL
 	slot0._challengeInfo = nil
 	slot0._userChallengeList = {}
+
+	slot0:on(24010, function (slot0)
+		slot0:updateCombatScore(slot0.score)
+	end)
+end
+
+function slot0.userSeaonExpire(slot0, slot1)
+	if slot0._challengeInfo:getSeasonID() ~= slot0._userChallengeList[slot1]:getSeasonID() then
+		return true
+	else
+		return false
+	end
+end
+
+function slot0.updateCombatScore(slot0, slot1)
+	slot0:getUserChallengeInfo(slot0._curMode):updateCombatScore(slot1)
 end
 
 function slot0.updateSeasonChallenge(slot0, slot1)

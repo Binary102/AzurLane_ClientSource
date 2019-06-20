@@ -12,7 +12,7 @@ slot1 = slot1.pi
 slot1 = slot1 / 2
 slot1 = slot1 / 6
 slot0.INTERVAL = slot1
-slot1 = 4
+slot1 = 6
 slot0.MAX_FLEET_NUM = slot1
 slot1 = 5
 slot0.MAX_SHIPP_NUM = slot1
@@ -1313,24 +1313,36 @@ function slot1(slot0)
 
 	slot2(slot3, slot4)
 
+	slot2 = slot0.isOpenCommander
+
+	if slot2 then
+		slot2 = slot0.commanderFormationPanel
+		slot3 = slot2
+		slot2 = slot2.ActionInvoke
+		slot4 = "Show"
+
+		slot2(slot3, slot4)
+	end
+
 	slot3 = slot0
 	slot2 = slot0.UpdateFleetView
 	slot4 = true
 
 	slot2(slot3, slot4)
 
-	slot2 = slot0.contextData
-	slot2 = slot2.toggle
+	slot2 = triggerToggle
+	slot3 = slot0.contextData
+	slot3 = slot3.toggle
 
-	if slot2 ~= nil then
-		slot2 = triggerToggle
-		slot3 = slot0.contextData
-		slot3 = slot3.toggle
-		slot3 = slot0[slot3]
-		slot4 = true
-
-		slot2(slot3, slot4)
+	if not slot3 then
+		slot3 = slot0
+		slot3 = slot3.TOGGLE_FORMATION
 	end
+
+	slot3 = slot0[slot3]
+	slot4 = true
+
+	slot2(slot3, slot4)
 
 	slot3 = slot0
 	slot2 = slot0.tweenTabArrow
@@ -1359,42 +1371,26 @@ function slot1(slot0)
 	slot1 = slot0.isOpenCommander
 
 	if slot1 then
-		function slot1()
-			slot0 = slot0
-			slot0 = slot0.commanderFormationPanel
-			slot1 = slot0
-			slot0 = slot0.ActionInvoke
-			slot2 = "Update"
-			slot3 = slot0
-			slot3 = slot3._currentFleetVO
-			slot4 = slot0
-			slot4 = slot4.commanderPrefabFleets
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.ActionInvoke
+		slot3 = "Update"
+		slot4 = slot0._currentFleetVO
+		slot5 = slot0.commanderPrefabFleets
 
-			slot0(slot1, slot2, slot3, slot4)
-		end
+		slot1(slot2, slot3, slot4, slot5)
 
-		slot2 = slot0.commanderFormationPanel
-		slot3 = slot2
-		slot2 = slot2.GetLoaded
-		slot2 = slot2(slot3)
+		slot1 = slot0.commanderFormationPanel
+		slot2 = slot1
+		slot1 = slot1.GetLoaded
+		slot1 = slot1(slot2)
 
-		if slot2 then
+		if not slot1 then
+			slot1 = slot0.commanderFormationPanel
 			slot2 = slot1
+			slot1 = slot1.Load
 
-			slot2()
-		else
-			slot2 = slot0.commanderFormationPanel
-			slot3 = slot2
-			slot2 = slot2.Load
-
-			slot2(slot3)
-
-			slot2 = slot0.commanderFormationPanel
-			slot3 = slot2
-			slot2 = slot2.AddLoadedCallback
-			slot4 = slot1
-
-			slot2(slot3, slot4)
+			slot1(slot2)
 		end
 	end
 end
@@ -3538,21 +3534,15 @@ function slot1(slot0)
 
 	slot1(slot2, slot3, slot4)
 
-	slot1 = slot0.commanderFormationPanel
+	slot1 = slot0.isOpenCommander
 
 	if slot1 then
 		slot1 = slot0.commanderFormationPanel
 		slot2 = slot1
-		slot1 = slot1.GetLoaded
-		slot1 = slot1(slot2)
+		slot1 = slot1.ActionInvoke
+		slot3 = "Show"
 
-		if slot1 then
-			slot1 = slot0.commanderFormationPanel
-			slot2 = slot1
-			slot1 = slot1.Show
-
-			slot1(slot2)
-		end
+		slot1(slot2, slot3)
 	end
 end
 
@@ -3581,21 +3571,15 @@ function slot1(slot0)
 
 	slot1(slot2)
 
-	slot1 = slot0.commanderFormationPanel
+	slot1 = slot0.isOpenCommander
 
 	if slot1 then
 		slot1 = slot0.commanderFormationPanel
 		slot2 = slot1
-		slot1 = slot1.GetLoaded
-		slot1 = slot1(slot2)
+		slot1 = slot1.ActionInvoke
+		slot3 = "Hide"
 
-		if slot1 then
-			slot1 = slot0.commanderFormationPanel
-			slot2 = slot1
-			slot1 = slot1.Hide
-
-			slot1(slot2)
-		end
+		slot1(slot2, slot3)
 	end
 end
 

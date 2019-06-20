@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>一 明天的天气是……</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 1 - Tomorrow's Weather Is...</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Command Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天和往常一样，和秘书舰{namecode:79}一起处理公务。",
+			say = "It was a day like any other - My secretary ship, Yamashiro, and I were taking care of some work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "这是接下来要处理的文件……哇！又掉了…我马上捡起来…嗯？",
+			say = "Here's the next document... Woah! It slipped through my fingers again... Um, I'll go pick it up right now... Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "啊！殿下，这份文件早上{namecode:79}已经帮你盖过章了呀？唔，殿下最近记性真差……",
+			say = "Ah! Milord, didn't you ask me to seal this document for you earlier this morning? *pouts* Milord, you've been spacing out a lot recently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不能太勉强自己哦？{namecode:78}姐姐也很担心…",
+			say = "You're not pushing yourself too hard, are you? Fusou is really worried about you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来，似乎是给{namecode:79}这么指示过…",
+			say = "Right... I did ask you to do that for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "呼…今天的工作总算完成了！殿下，今天{namecode:79}也很努力了哟！",
+			say = "Pat Yamashiro on the head",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,12 +150,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			options = {
-				{
-					content = "摸摸{namecode:79}的头",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -165,7 +159,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿～殿下真的很温柔呢～",
+			say = "Ehehe~ Milord, you're the nicest~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +186,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对了殿下，你看你看！这个东西可方便呢！",
+			say = "By the way, Milord! Take a look at this! It's super convenient!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}边说边掏出了智能手机。",
+			say = "With excitement in her voice, Yamashiro pulled out a smartphone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +223,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "科学的力量真是太厉害了！{namecode:17}说过，几十年前连电视都没有，自从塞壬打过来以后技术就发展得飞快了！",
+			say = "Technology advances super quickly, doesn't it! Shigure told me that thirty years ago, there weren't even televisions around. She said families had to huddle around radios. After the Sirens attacked, everything has developed so fast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +240,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "快过头了……？嗯……虽然不是很懂……反正用这个东西可以做很多事情！",
+			say = "It's way too fast...? Hmm... I don't really get it, but... I can do a ton of stuff with this, so it's probably fine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +257,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "比如说想知道明天天气的话……嗯，按一下这个记录键……好啦！就不用记备忘录了！",
+			say = "Let's see what tomorrow's weather is like... Um, hit confirm... Okay! See, now I won't even need to leave a memo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}把智能手机的画面递了过来。",
+			say = "Yamashiro held her smartphone out towards me, showing me the screen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +285,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "明天放假，上次我们说好的要打扫神社！殿下，明天就麻烦你了！",
+			say = "Remember how you promised that you'd help me clean the shrine last time? Well, tomorrow's a holiday, so I'll be counting on your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>二 演习海域上</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 2 - Maritime Exercises</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "港区近海·演习场",
+			say = "Home Waters - Exercise Field",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，最终确认一下，今天的白鹰对皇家的空母运用演习，目标是将蛮啾驾驶的目标舰全部击破。",
+			say = "All right, once again, today's exercise is an Eagle Union versus Royal Navy aircraft carrier practical exercise. The object is to strike all the Manjuu-piloted targets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "了解！擅长空母运用的白鹰机动队的各位，请务必让我学习一下！",
+			say = "Roger! You Eagle Union ships are so well-versed in the practical uses of the aircraft carrier. I'm looking forward to learning from you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "好啊好啊！就让我萨拉托加给你表演一下什么叫空母运用♪",
+			say = "You got it! Let Saratoga show you just what it means to be an aircraft carrier ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			say = "呵呵，萨拉老师还是一如既往呢～",
+			say = "Hehehe, Professor Saratoga's class is in session~",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先放出索敌机把目标……光荣？！",
+			say = "First send out some reconnaissance planes to locate the... Glorious?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "虽然舰载机的搭载数量稍逊一筹，用我的38.1cm炮来场炮击战的话……咦？我不是空母吗……",
+			say = "While I may have fewer planes, I'll simply bring my 15-inch guns to bear on the... Oh? I'm an aircraft carrier...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "诶，我怎么一个人先冲出来了啊！",
+			say = "Aie, what am I doing out front by myself?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			say = "光荣，你跑得太快了啊！",
+			say = "Glorious, you've rushed out too quickly!",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "几小时后",
+			say = "Several Hours Later",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机回收OK！很好，今天的萨拉托加也是状态绝佳！看你们谁敢再说我“修理厂的偶像”！",
+			say = "All planes recovered! How about that? Saratoga does it again! Let's see you call me \"Drydock Idol\" now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……光荣你没事吧？",
+			say = "Huh... Are you okay, Glorious?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			say = "没、没事！总算把目标舰都击沉了！",
+			say = "F- I'm fine! I've finally sunk all the targets!",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们可是捏了把冷汗啊……",
+			say = "A bit touch and go there, wasn't it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "抱歉，给各位添麻烦了……",
+			say = "Apologies, I didn't mean to be a bother...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "这么说来，皇家方舟还没到吗？她和我说过今天晚些时候会来参加的……",
+			say = "By the way, did Ark Royal ever show? She told me she'd be coming a little late today...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

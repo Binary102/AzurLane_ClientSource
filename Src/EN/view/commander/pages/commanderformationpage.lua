@@ -79,7 +79,6 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 
 	slot0:updateRecordPanel()
-	slot0:Show()
 end
 
 function slot0.openDescPanel(slot0, slot1, slot2)
@@ -224,17 +223,18 @@ end
 
 function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	onInputEndEdit(slot0, slot4, function ()
-		if getInputText(getInputText) and slot0 ~= "" and slot0 ~= slot1 then
-			slot2:emit(FormationMediator.COMMANDER_FORMATION_OP, {
-				FleetType = LevelUIConst.FLEET_TYPE_SELECT,
-				data = {
-					type = LevelUIConst.COMMANDER_OP_RENAME,
-					id = slot3.id,
-					str = slot0
-				},
-				fleetId = slot2.fleet.id
-			})
-		end
+		getInputText:emit(FormationMediator.COMMANDER_FORMATION_OP, {
+			FleetType = LevelUIConst.FLEET_TYPE_SELECT,
+			data = {
+				type = LevelUIConst.COMMANDER_OP_RENAME,
+				id = slot2.id,
+				str = getInputText(getInputText),
+				onFailed = function ()
+					setInputText(setInputText, )
+				end
+			},
+			fleetId = slot1.fleet.id
+		})
 	end)
 	setInputText(slot4, slot5)
 	onButton(slot0, slot2:Find("use_btn"), function ()

@@ -1121,7 +1121,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_haiwangxing",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1166,7 +1166,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_junzhu",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1211,7 +1211,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_yichui",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1256,7 +1256,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_chuyun",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1301,7 +1301,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_luoen",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1346,7 +1346,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_1",
+		bg_icon = "chara_luyijiushi",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1391,7 +1391,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_haiwangxing",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1436,7 +1436,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_junzhu",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1481,7 +1481,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_yichui",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1526,7 +1526,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_chuyun",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1571,7 +1571,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_luoen",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -1616,7 +1616,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Medium Project",
 		label = "tag_red",
-		bg_icon = "gold_2",
+		bg_icon = "chara_luyijiushi",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2567,7 +2567,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_haiwangxing",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2612,7 +2612,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_junzhu",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2657,7 +2657,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_yichui",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2702,7 +2702,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_chuyun",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2747,7 +2747,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_luoen",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2792,7 +2792,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Large Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_luyijiushi",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2917,7 +2917,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_haiwangxing",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -2962,7 +2962,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_junzhu",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -3007,7 +3007,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_yichui",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -3052,7 +3052,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_chuyun",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -3097,7 +3097,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_luoen",
 		label_color = "tag_sp",
 		consume = {
 			{
@@ -3142,7 +3142,7 @@ pg.technology_data_template = {
 		blueprint_version = 1,
 		sub_name = "Small Project",
 		label = "tag_red",
-		bg_icon = "gold_3",
+		bg_icon = "chara_luyijiushi",
 		label_color = "tag_sp",
 		consume = {
 			{

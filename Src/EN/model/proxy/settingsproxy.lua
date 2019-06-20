@@ -7,10 +7,10 @@ function slot0.onRegister(slot0)
 	slot0._backyardFoodRemind = PlayerPrefs.GetString("backyardRemind")
 	slot0._userAgreement = PlayerPrefs.GetInt("userAgreement", 0) > 0
 	slot0._showMaxLevelHelp = PlayerPrefs.GetInt("maxLevelHelp", 0) > 0
+	slot0.nextTipAoutBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 
 	slot0:resetEquipSceneIndex()
 
-	slot0.nextTipAoutBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._everyplayInited = false
 end
 

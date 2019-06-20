@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>六 于她而言的荣光·上</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 6 - The Glory She's Named For Pt. 1</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "哈……总算告一段落了……",
+			say = "Haah... Now that that's done with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,18 +37,18 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "大约完成一半进度以后，光荣疲惫地靠在巨大的舣装上。",
+			say = "We had reached about the halfway point when an exhausted Glorious leaned against a huge rig to catch her breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "慰劳光荣",
+					content = "Thanks for your hard work, Glorious.",
 					flag = 1
 				},
 				{
-					content = "默默地把冷却水递给她",
+					content = "Wordlessly offer her a cup of coolant.",
 					flag = 2
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢！对不起，都是我太没用了……",
+			say = "Th-thank you! Sorry I'm not being very helpful...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你是说“早知道这样的话就该多叫几个人来了”？",
+			say = "Huh? Are you trying to tell me you think you should have asked more people to help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可不行！最近大家要为重要作战做准备，这才是最重要的！",
+			say = "You can't do that! Everyone's busy preparing for battle. That's so much more important!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "其实本来我连热心和阿卡斯塔也不想让她们来，怎么说她们都不听……",
+			say = "In fact, I didn't even want Ardent or Acasta coming to help. Not that they listen to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉她不可勉强",
+					content = "You can't force it.",
 					flag = 1
 				}
 			}
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没，我没有勉强……",
+			say = "Of course, I'm not forcing anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "散发着疲倦的气场？呃……这我还真无话可说了……",
+			say = "I seem tired to you? Hm... Well, what can I say...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，作为皇家的荣光和大家信赖的空母，做这种工作应该首当其冲才对！",
+			say = "As the Royal Navy's Glorious aircraft carrier, the one everyone has come to rely on, such is my burden to bear, is it not?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "光荣极力地在逞强。既然这样——",
+			say = "Glorious was doing everything she could to put on a brave face. But—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,23 +187,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！有什么命令尽管吩咐！光荣一定不辱使命！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207060,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“禁止逞强”……？这是……指挥官命令吗？……这……",
+			say = "Aye! Glorious, awaiting orders, Commander! Without hesitation, I execute your will!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +203,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……因为我本来就笨手笨脚，战斗的时候也派不上什么用场，至少应该努力不拖大家后腿才对！",
+			say = "“Stop fronting”...? That's... an order, Commander? ... But...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207060,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... I've always been so clumsy, I'm totally useless in battle, it's all I can do to make sure I'm not holding everyone else back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			blackBg = true,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "就算是指挥官的命令……我也……！",
+			say = "But if that's an order, Commander... Then...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

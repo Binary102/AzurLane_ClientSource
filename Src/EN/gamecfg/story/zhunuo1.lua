@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第一集群已经顺利抵达指定撤离点，第二集群也已经做好启航准备，嗯！目前为止“字母表”行动非常顺利，成功就在眼前了。",
+			say = "The first wave has arrived at the rendezvous point and the second is ready to depart. I'd say Operation Alphabet is progressing smoothly! Victory is just beyond the horizon now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……咳咳，而光荣前辈，你的任务是接收这边的飞机防止在本次撤离中受损，可以说已经完成了任务，所以本人批准你单独行动的请求，并下达护送两艘运输船的指令，下次可别忘了检查油箱。",
+			say = "... You did a great job accommodating those planes during the evacuation, Glorious. I'm granting you permission to proceed independently with your escorts. Oh, by the way? Next time, make sure there's fuel in those tanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "知道了啦，这次只是正好忘了而已，正、好！",
+			say = "I-I know! I just forgot to refuel, that's all it was!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是，总之热心和阿卡司塔两位驱逐妹妹也会继续为你护航。前辈，要是妹妹们受了什么伤，回去我可要好好跟你谈谈。",
+			say = "Don't forget it a second time. Ardent and Acasta will continue serving as your escorts. And if anything happens to them, you won't hear the end of it from me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸，可是她们难道不是我的护航，应该是我受伤拿她们问责……吧？",
+			say = "Understood. But... they're my escorts, so why would I be accountable if they're injured...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈你这是说的什么话，身为前辈爱护后辈，身为航母保护驱逐妹妹们不是理所当然的事吗？！",
+			say = "Because you're a carrier! A carrier should protect her escorts like they were her own children!",
 			shake = {
 				speed = 8,
 				number = 3
@@ -109,7 +109,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦，哦……总，总之……我出发啦~",
+			say = "R-right, of course... In any event, I'd better be on my way now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（光荣前辈平时看上去很沉稳，不过总是会在一些小地方出差错，该说外表不能决定一切呢，还是反差呢……）",
+			say = "(Hmm. Glorious seems calm and collected, but she's not as smart as you think... I guess there's more to her than meets the eye...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "（皇家方舟平时看上去很沉稳，不过一旦提到驱逐妹妹们就完全变了一副样子呢，该说是外表不能决定一切呢，还是反差呢……）",
+			say = "(Ark is usually cool and levelheaded, but when she starts talking about destroyers, she becomes a different person... I guess there's more to her than meets the eye...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,13 +150,13 @@ return {
 			}
 		},
 		{
-			actorName = "光荣&皇家方舟",
+			actorName = "Glorious & Ark Royal",
 			side = 0,
 			actor = 207020,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "（真是白璧微瑕呢）",
+			say = "(She's like me, in a way...)",
 			subActors = {
 				{
 					actor = 207060,

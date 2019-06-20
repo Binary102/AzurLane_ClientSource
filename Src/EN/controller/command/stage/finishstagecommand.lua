@@ -126,13 +126,13 @@ function slot0.execute(slot0, slot1)
 		elseif slot6 == SYSTEM_CHALLENGE then
 			slot16 = {}
 
-			for slot23, slot24 in ipairs(slot19) do
-				table.insert(slot16, slot24)
+			for slot24, slot25 in ipairs(slot20) do
+				table.insert(slot16, slot25)
 			end
 
 			slot8 = {
-				1,
-				0
+				slot18:getLevel(),
+				slot17
 			}
 			slot14 = 0
 			slot15 = 0
@@ -425,19 +425,15 @@ function slot0.execute(slot0, slot1)
 					slot8:updateGuildChapter(slot8)
 				else
 					if slot0 == SYSTEM_CHALLENGE then
-						slot11:updateActiveChallengeShips()
-
-						function slot10(slot0)
-							if slot0.statistics[slot0.id] then
-								slot1:updateShipHp(slot0.id, slot1.bp)
+						function slot11(slot0)
+							if slot0.statistics[slot0] then
+								slot1:updateShipHP(slot0, slot1.bp)
 							end
 						end
 
-						for slot14, slot15 in pairs(slot11:getCurrentChallengeInfo().fleet.ships) do
-							slot10(slot15)
+						for slot15, slot16 in pairs(slot10) do
+							slot11(slot16)
 						end
-
-						slot11:updateChallenge(slot8)
 
 						return
 					end
@@ -452,6 +448,10 @@ function slot0.execute(slot0, slot1)
 						end
 					end
 				end
+			elseif slot0.result == 2 then
+				print("stage_finishStage error--" .. slot0.result)
+				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))
+				pg.TipsMgr.GetInstance().ShowTips:sendNotification(GAME.FINISH_STAGE_ERROR, {})
 			else
 				print("stage_finishStage error--" .. slot0.result)
 				pg.TipsMgr:GetInstance():ShowTips(errorTip("stage_finishStage", slot0.result))

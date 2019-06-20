@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 		end
 
 		if slot0 == 0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n1("没有多余的栏位"))
+			pg.TipsMgr:GetInstance():ShowTips(i18n("commander_build_solt_deficiency"))
 
 			return
 		end
@@ -53,9 +53,9 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.boxes = slot1
 	slot0.pools = slot2
 
-	table.sort(slot5, function (slot0, slot1)
+	table.sort(slot3, function (slot0, slot1)
 		if slot0.state == slot1.state then
-			return slot0.id < slot1.id
+			return slot0.beginTime < slot1.beginTime
 		else
 			return slot3 < slot2
 		end
@@ -80,18 +80,25 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.boxesList:align(#_.map(slot0.boxes, function (slot0)
 		slot0.state = slot0:getState()
 
+		return slot0
+	end))
+	slot0:Show()
+	slot0:updateCntLabel()
+end
+
+function slot0.updateCntLabel(slot0)
+	_.each(slot0.boxes, function (slot0)
+		slot0.state = slot0:getState()
+
 		if slot0.state == CommanderBox.STATE_WAITING then
 			slot0 = slot0 + 1
 		elseif slot0.state == CommanderBox.STATE_STARTING then
 			slot1 = slot1 + 1
 		end
+	end)
 
-		return slot0
-	end))
-	slot0:Show()
-
-	slot0.traningCnt.text = slot3 .. "/" .. CommanderProxy.MAX_WORK_COUNT
-	slot0.waitCnt.text = slot4 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
+	slot0.traningCnt.text = slot1 .. "/" .. CommanderProxy.MAX_WORK_COUNT
+	slot0.waitCnt.text = slot2 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
 end
 
 function slot0.Show(slot0)

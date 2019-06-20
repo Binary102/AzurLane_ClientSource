@@ -2303,16 +2303,6 @@ function slot17(slot0, slot1)
 			slot1 = LeanTween.textAlpha(slot7, 1, slot0.sequenceSpd or 1):setDelay(slot0):setUseEstimatedTime(true)
 		end
 
-		slot2 = setAnchoredPosition
-		slot3 = slot3
-		slot3 = slot3._asideSignDate
-		slot4 = Vector3
-		slot5 = 292
-		slot6 = -635.4
-		slot7 = 0
-
-		slot2(slot3, slot4(slot5, slot6, slot7))
-
 		slot2 = slot0
 		slot2 = slot2.signDate
 
@@ -2440,47 +2430,17 @@ function slot17(slot0, slot1)
 	slot6 = slot1.bgShadow
 
 	if slot6 then
-		slot6 = bgTF
-		slot7 = slot6
-		slot6 = slot6.GetComponent
-		slot8 = typeof
-		slot9 = Image
-		slot6 = slot6(slot7, slot8(slot9))
-		slot7 = LeanTween
-		slot7 = slot7.value
-		slot8 = go
-		slot9 = bgTF
-		slot8 = slot8(slot9)
-		slot9 = slot1.bgShadow
-		slot9 = slot9[1]
-		slot10 = slot1.bgShadow
-		slot10 = slot10[2]
-		slot11 = slot1.bgShadow
-		slot11 = slot11[3]
-		slot7 = slot7(slot8, slot9, slot10, slot11)
-		slot8 = slot7
-		slot7 = slot7.setUseEstimatedTime
-		slot9 = true
-		slot7 = slot7(slot8, slot9)
-		slot8 = slot7
-		slot7 = slot7.setOnUpdate
-		slot9 = System
-		slot9 = slot9.Action_float
+		slot6 = slot1.useBg2
 
-		function slot10(slot0)
-			slot1 = slot0
-			slot2 = Color
-			slot2 = slot2.New
-			slot3 = slot0
-			slot4 = slot0
-			slot5 = slot0
-			slot2 = slot2(slot3, slot4, slot5)
-			slot1.color = slot2
+		if slot6 then
+			slot7 = slot0._bg2 or slot0._bg1.GetComponent(slot6, typeof(Image))
 
-			return
+			LeanTween.value(go(slot6), slot1.bgShadow[1], slot1.bgShadow[2], slot1.bgShadow[3]):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
+				slot0.color = Color.New(slot0, slot0, slot0)
+
+				return
+			end))
 		end
-
-		slot7(slot8, slot9(slot10))
 	end
 
 	return

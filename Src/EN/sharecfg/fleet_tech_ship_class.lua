@@ -377,6 +377,18 @@ pg.fleet_tech_ship_class = {
 			11201
 		}
 	},
+	[20101] = {
+		shiptype = 1,
+		name = "A-Class",
+		t_level = 3,
+		id = 20101,
+		t_level_1 = 34,
+		nation = 2,
+		ships = {
+			20102,
+			20103
+		}
+	},
 	[20102] = {
 		shiptype = 1,
 		name = "B-Class",
@@ -742,6 +754,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20703,
 			20704
+		}
+	},
+	[20702] = {
+		shiptype = 7,
+		name = "Courageous-Class",
+		t_level = 6,
+		id = 20702,
+		t_level_1 = 67,
+		nation = 2,
+		ships = {
+			20706
 		}
 	},
 	[20703] = {
@@ -1508,6 +1531,7 @@ pg.fleet_tech_ship_class = {
 		10703,
 		10801,
 		11201,
+		20101,
 		20102,
 		20103,
 		20104,
@@ -1539,6 +1563,7 @@ pg.fleet_tech_ship_class = {
 		20602,
 		20603,
 		20701,
+		20702,
 		20703,
 		21301,
 		21302,

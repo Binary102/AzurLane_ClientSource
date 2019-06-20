@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>四 女王事件Ⅱ</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 4 - The Queen Incident Pt. 2</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "我之所以敢说皇家方舟是清白的，理由有三——",
+			say = "As for how I intend to prove Ark Royal's innocence, my case stands on three legs——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第一，皇家方舟本来要来我们演习场，刚好与任务归来的委托组同路，就顺便护送她们一程。",
+			say = "First: Ark Royal originally intended to join our aircraft carrier exercises, and found herself sharing the path with the recently returned commission team, making it trivial for her to escort them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第二，就算皇家方舟真的是在跟踪，厌战大人不可能看不出来这一行为。",
+			say = "Second: Had Ark Royal truly intended to tail Lady Warspite, there is no way the Grand Old Lady would not have been able to perceive her actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后是动机问题……我认为皇家方舟的内心是光明磊落、毫无任何邪念的！",
+			say = "Lastly we have the question of motive... I firmly believe Ark Royal is a straightforward and upright individual, without a wicked bone in her body!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "Huh.",
 			action = {
 				{
 					y = 7.5,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "Huh.",
 			action = {
 				{
 					y = 7.5,
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "Huh.",
 			action = {
 				{
 					y = 7.5,
@@ -166,8 +166,8 @@ return {
 			actor = 205020,
 			dir = 1,
 			hideOther = true,
-			actorName = "一同",
-			say = "诶诶诶！？",
+			actorName = "Together",
+			say = "Huuh?!",
 			dialogShake = {
 				speed = 0.1,
 				x = 8.5,
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光荣前辈……你……",
+			say = "Glorious... You...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			say = "我也有像可爱的妹妹一样——不，比妹妹更重要的伙伴。",
+			say = "I know what it's like to have little ones you care about, like little sisters to— No, they're even more important to me than a little sister.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我明白，就像爱护美丽的花朵一样，爱护着驱逐舰们的皇家方舟的心情！",
+			say = "So I fully understand Ark Royal's impulse to cherish and protect the destroyers as one would a precious flower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“尽职尽责，保护同伴”——这不光是主力舰的责任，也是我们皇家海军的美德啊！",
+			say = "“Complete the Mission and Leave No Man Behind”— Such is the duty of the battle fleet, and our core virtue in the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟也一定是怀着这样崇高的感情以自己的方式努力了，尽量避免伤害厌战大人的自尊！",
+			say = "No doubt Ark Royal also keeps to these lofty ideals, and in this case she must have strove to spare Lady Warspite's pride from harm!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,8 +287,8 @@ return {
 			actor = 205020,
 			dir = 1,
 			hideOther = true,
-			actorName = "一同",
-			say = "……",
+			actorName = "Together",
+			say = "......",
 			subActors = {
 				{
 					actor = 205010,
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼！好吧！证据也不够充分，今天就先放你一马！皇家方舟，你走吧！",
+			say = "Hrm, hmph! Very well! Considering the lack of evidence, I suppose I'll let you off today! Get out of my sight, Ark Royal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,8 +335,8 @@ return {
 			actor = 205020,
 			dir = 1,
 			hideOther = true,
-			actorName = "厌战＆贝尔法斯特",
-			say = "感谢陛下明察。",
+			actorName = "Warspite＆Belfast",
+			say = "Bless Your Majesty's wisdom.",
 			subActors = {
 				{
 					actor = 202120,
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈！光荣，太感谢了！",
+			say = "Haha! I can't thank you enough, Glorious!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			say = "不必客气！小事一桩。……皇家方舟你能被无罪释放真是太好了。",
+			say = "Think nothing of it! Only a trifle. ... It was my pleasure to see you get off, Ark Royal.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "二人之间结下了奇妙的友情（？）。",
+			say = "It was the beginning of a beautiful friendship (?).",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

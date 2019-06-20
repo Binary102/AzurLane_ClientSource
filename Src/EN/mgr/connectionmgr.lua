@@ -200,7 +200,8 @@ function pg.ConnectionMgr.onError(slot0)
 				onYes = function ()
 					slot0.ConnectionMgr.GetInstance():Reconnect(slot0.ConnectionMgr.GetInstance())
 				end,
-				onNo = slot1
+				onNo = slot1,
+				weight = LayerWeightConst.TOP_LAYER
 			})
 			slot0.GuideMgr:GetInstance():onDisconnected()
 		end

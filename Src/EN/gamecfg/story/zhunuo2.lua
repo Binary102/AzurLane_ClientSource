@@ -11,7 +11,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#a9f548",
-			say = "呼啊………………",
+			say = "*Yaaaawn*...",
 			shake = {
 				speed = 1,
 				number = 2
@@ -30,7 +30,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "阿卡司塔，不要不小心睡过去了哦，我们的任务可是保护光荣姐姐和运输船的安全。",
+			say = "Acasta, now's not the time for a nap. We're supposed to be escorting a convoy.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -49,7 +49,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我知道……只是觉得天气不错而已啦。",
+			say = "I know, you don't have to spell it out... Blame the weather, it's making me sleepy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……你还真是在哪儿都老样子呢。",
+			say = "*Sigh*... Of course, it's always the weather...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，没关系，你们只需要保持最基本的警戒就好，有我在，没有什么东西是可怕的~",
+			say = "Ahah, it's all right. As long as we maintain a basic level of vigilance, we'll be fine. And if anyone tries to attack us, my planes will send them away~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 201030,
-			say = "啊哈哈，光荣姐姐还是一如既往的可靠呢。不过该做的还是要做的呢，阿卡司塔，我们没有雷达，还是靠前一点吧，这样好发现敌人。",
+			say = "Thanks, Glorious! In any event, we must still do our jobs. And Acasta, since we don't have radar with us, you should move to the front so we can spot enemies quicker.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "好……",
+			say = "Right. Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "光荣姐姐的航速是…17节，目前风力…大概是2-3级，西北风…视野良好…虽然有点慢，不过看样子还算顺利呢",
+			say = "All right. Glorious is moving at 17 knots; wind force is around 2 or 3, moving southeast... We've got good visibility... And I think we're behind schedule, but we're making good progress...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -157,7 +157,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "嗯？有不明集群靠近……？这、这舰影是……铁血？！",
+			say = "Hold up... Non-allied vessels are approaching... Oh, dear... they're Iron Blood!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "糟了，太放松了……现在还只有第四级准备……啧！热心，确认一下来的铁血数量，阿卡司塔，来我的右边，各自做好Z字机动！注意对方的U潜袭击！",
+			say = "I let my guard down, and we're not in combat formation... Ardent, count the number of approaching Iron Blood ships! Acasta, to my right! Zig-zag and keep an eye out for enemy submarines!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +191,8 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			actorName = "热心&阿卡司塔",
-			say = "是！",
+			actorName = "Ardent & Acasta",
+			say = "Aye-aye, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

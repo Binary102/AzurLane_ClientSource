@@ -10,18 +10,17 @@ class("Challenge2InfoRequestCommand", pm.SimpleCommand).execute = function (slot
 		activity_id = slot5.id
 	}, 24005, function (slot0)
 		if slot0.result == 0 then
-			print("request challenge info success !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 			slot0:updateSeasonChallenge(slot0.current_challenge)
 
 			for slot4, slot5 in ipairs(slot0.user_challenge) do
 				slot0:updateCurrentChallenge(slot5)
 			end
 
-			slot1:sendNotification(GAME.CHALLENGE2_INFO_DONE)
-
 			if slot1 then
-				slot2()
+				slot1()
 			end
+
+			slot2:sendNotification(GAME.CHALLENGE2_INFO_DONE)
 		else
 			print("reqquest challenge info fail, data.result: " .. slot0.result)
 		end

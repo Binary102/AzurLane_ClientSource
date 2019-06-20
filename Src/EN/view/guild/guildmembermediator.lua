@@ -44,6 +44,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:sortMembers()
 	elseif slot2 == GAME.SET_GUILD_DUTY_DONE then
 		slot0.viewComponent:closeAppointPanel()
+		slot0.viewComponent:closeButtons()
 		slot0.viewComponent:loadPainting(slot3)
 	elseif slot2 == GAME.GUILD_FIRE_DONE then
 		slot0.viewComponent:reloadPainting()

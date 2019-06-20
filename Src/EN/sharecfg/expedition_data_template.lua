@@ -139983,6 +139983,2862 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1050010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050010,
+		icon = "qz1",
+		difficulty = 1,
+		level = 32,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 33,
+		exp = 181,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050030,
+		icon = "qz1",
+		difficulty = 1,
+		level = 34,
+		exp = 204,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050040,
+		icon = "zl1",
+		difficulty = 1,
+		level = 32,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 33,
+		exp = 181,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050060,
+		icon = "zl1",
+		difficulty = 1,
+		level = 34,
+		exp = 204,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050070,
+		icon = "hm1",
+		difficulty = 1,
+		level = 32,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 33,
+		exp = 181,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050090,
+		icon = "hm1",
+		difficulty = 1,
+		level = 34,
+		exp = 204,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57174
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050100,
+		icon = "ys1",
+		difficulty = 1,
+		level = 32,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050110,
+		icon = "ys1",
+		difficulty = 1,
+		level = 33,
+		exp = 181,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050120,
+		icon = "ys1",
+		difficulty = 1,
+		level = 34,
+		exp = 204,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 30,
+		exp = 120,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 30,
+		exp = 120,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1050080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 30,
+		exp = 120,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1050500] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1050500,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 35,
+		exp = 254,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1050500,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57171
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051010,
+		icon = "qz1",
+		difficulty = 1,
+		level = 42,
+		exp = 210,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 43,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051030,
+		icon = "qz1",
+		difficulty = 1,
+		level = 44,
+		exp = 264,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051040,
+		icon = "zl1",
+		difficulty = 1,
+		level = 42,
+		exp = 210,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 43,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051060,
+		icon = "zl1",
+		difficulty = 1,
+		level = 44,
+		exp = 264,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051070,
+		icon = "hm1",
+		difficulty = 1,
+		level = 42,
+		exp = 210,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 43,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051090,
+		icon = "hm1",
+		difficulty = 1,
+		level = 44,
+		exp = 264,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57175
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051100,
+		icon = "ys1",
+		difficulty = 1,
+		level = 42,
+		exp = 210,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051110,
+		icon = "ys1",
+		difficulty = 1,
+		level = 43,
+		exp = 236,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051120,
+		icon = "ys1",
+		difficulty = 1,
+		level = 44,
+		exp = 264,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 40,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 40,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1051080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 40,
+		exp = 160,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1051500] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 0,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1051500,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 45,
+		exp = 326,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1051500,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57172
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Reconnaissance Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052010,
+		icon = "qz1",
+		difficulty = 1,
+		level = 52,
+		exp = 260,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Reconnaissance Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 53,
+		exp = 291,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Reconnaissance Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052030,
+		icon = "qz1",
+		difficulty = 1,
+		level = 54,
+		exp = 324,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Main Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052040,
+		icon = "zl1",
+		difficulty = 1,
+		level = 52,
+		exp = 260,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Main Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 53,
+		exp = 291,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Main Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052060,
+		icon = "zl1",
+		difficulty = 1,
+		level = 54,
+		exp = 324,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Aviation Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052070,
+		icon = "hm1",
+		difficulty = 1,
+		level = 52,
+		exp = 260,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Aviation Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 53,
+		exp = 291,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Aviation Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052090,
+		icon = "hm1",
+		difficulty = 1,
+		level = 54,
+		exp = 324,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57176
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Small Cargo Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052100,
+		icon = "ys1",
+		difficulty = 1,
+		level = 52,
+		exp = 260,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Medium Cargo Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052110,
+		icon = "ys1",
+		difficulty = 1,
+		level = 53,
+		exp = 291,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Large Cargo Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052120,
+		icon = "ys1",
+		difficulty = 1,
+		level = 54,
+		exp = 324,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052020,
+		icon = "qz1",
+		difficulty = 1,
+		level = 50,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17022
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052050,
+		icon = "zl1",
+		difficulty = 1,
+		level = 50,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17012
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Ambush Fleet",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 30,
+		time_limit = 120,
+		dungeon_id = 1052080,
+		icon = "hm1",
+		difficulty = 1,
+		level = 50,
+		exp = 200,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17002
+			},
+			{
+				2,
+				17042
+			},
+			{
+				2,
+				17032
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1052500] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Enemy Flagship",
+		exp_commander = 1,
+		activity_id = 0,
+		exp_commander_ratio = 50,
+		time_limit = 120,
+		dungeon_id = 1052500,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 55,
+		exp = 399,
+		limit_type = 1,
+		rank_activity_id = 0,
+		icon_type = 1,
+		map_id = 50005,
+		activity_id2 = 0,
+		bonus_time = 0,
+		extraenemy_difficulty = 0,
+		plot_type = 0,
+		id = 1052500,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57173
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[1060001] = {
 		sink_limit = 1,
 		ai = 0,
@@ -151411,7 +154267,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151472,7 +154328,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151533,7 +154389,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151594,7 +154450,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151655,7 +154511,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151716,7 +154572,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151777,7 +154633,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151838,7 +154694,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151899,7 +154755,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -151960,7 +154816,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152021,7 +154877,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152082,7 +154938,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152143,7 +154999,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152204,7 +155060,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152265,7 +155121,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152326,7 +155182,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152387,7 +155243,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152448,7 +155304,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152509,7 +155365,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -152570,7 +155426,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172099,7 +174955,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172160,7 +175016,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172221,7 +175077,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172282,7 +175138,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172343,7 +175199,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172404,7 +175260,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172465,7 +175321,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172526,7 +175382,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172587,7 +175443,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172648,7 +175504,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172709,7 +175565,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172770,7 +175626,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172831,7 +175687,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172892,7 +175748,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -172953,7 +175809,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173014,7 +175870,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173075,7 +175931,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173136,7 +175992,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173197,7 +176053,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173258,7 +176114,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173319,7 +176175,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173380,7 +176236,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173441,7 +176297,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173502,7 +176358,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173563,7 +176419,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173624,7 +176480,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173685,7 +176541,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -173746,7 +176602,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181001,7 +183857,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181062,7 +183918,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181123,7 +183979,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181184,7 +184040,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181245,7 +184101,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -181306,7 +184162,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183674,7 +186530,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183735,7 +186591,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183796,7 +186652,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183857,7 +186713,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183918,7 +186774,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -183979,7 +186835,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186347,7 +189203,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186408,7 +189264,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186469,7 +189325,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186530,7 +189386,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186591,7 +189447,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186652,7 +189508,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186713,7 +189569,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186774,7 +189630,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -186835,7 +189691,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189203,7 +192059,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189264,7 +192120,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189325,7 +192181,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189386,7 +192242,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189447,7 +192303,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189508,7 +192364,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189569,7 +192425,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189630,7 +192486,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -189691,7 +192547,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -190500,7 +193356,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -190561,7 +193417,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -191391,7 +194247,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -191513,7 +194369,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -192343,7 +195199,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -192404,7 +195260,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193362,7 +196218,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193423,7 +196279,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193484,7 +196340,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193545,7 +196401,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193606,7 +196462,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193667,7 +196523,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193728,7 +196584,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -193789,7 +196645,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -194619,7 +197475,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -194680,7 +197536,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -194741,7 +197597,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -194802,7 +197658,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197271,7 +200127,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197332,7 +200188,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197393,7 +200249,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197454,7 +200310,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197515,7 +200371,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197576,7 +200432,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197637,7 +200493,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197698,7 +200554,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197759,7 +200615,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197820,7 +200676,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197881,7 +200737,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -197942,7 +200798,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200310,7 +203166,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200371,7 +203227,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200432,7 +203288,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200493,7 +203349,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200554,7 +203410,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200615,7 +203471,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200676,7 +203532,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200737,7 +203593,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200798,7 +203654,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200859,7 +203715,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200920,7 +203776,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -200981,7 +203837,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203349,7 +206205,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203410,7 +206266,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203471,7 +206327,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203532,7 +206388,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203593,7 +206449,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203654,7 +206510,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203715,7 +206571,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203776,7 +206632,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203837,7 +206693,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203898,7 +206754,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -203959,7 +206815,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204020,7 +206876,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204081,7 +206937,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204142,7 +206998,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204203,7 +207059,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204264,7 +207120,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204325,7 +207181,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -204386,7 +207242,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207523,7 +210379,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207584,7 +210440,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207645,7 +210501,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207706,7 +210562,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207767,7 +210623,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207828,7 +210684,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207889,7 +210745,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -207950,7 +210806,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208011,7 +210867,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208072,7 +210928,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208133,7 +210989,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208194,7 +211050,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208255,7 +211111,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208316,7 +211172,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208377,7 +211233,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208438,7 +211294,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208499,7 +211355,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208560,7 +211416,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 0,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 0,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208621,7 +211477,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208682,7 +211538,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208743,7 +211599,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -208804,7 +211660,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211212,7 +214068,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211273,7 +214129,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211334,7 +214190,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211395,7 +214251,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211456,7 +214312,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -211517,7 +214373,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -213885,7 +216741,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -213946,7 +216802,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -214007,7 +216863,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -214068,7 +216924,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 2,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -214129,7 +216985,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -214190,7 +217046,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216558,7 +219414,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216619,7 +219475,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216680,7 +219536,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216741,7 +219597,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216802,7 +219658,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216863,7 +219719,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216924,7 +219780,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -216985,7 +219841,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -217046,7 +219902,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219414,7 +222270,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219475,7 +222331,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219536,7 +222392,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219597,7 +222453,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219658,7 +222514,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219719,7 +222575,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219780,7 +222636,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219841,7 +222697,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -219902,7 +222758,7 @@ pg.expedition_data_template = {
 		sink_limit = 1,
 		ai = 3,
 		guide_desc = "",
-		type = 3,
+		type = 98,
 		ai_mov = 3,
 		add_icon = "",
 		name = "Elite Fleet",
@@ -222386,6 +225242,54 @@ pg.expedition_data_template = {
 		1030309,
 		1030310,
 		1030311,
+		1050010,
+		1050020,
+		1050030,
+		1050040,
+		1050050,
+		1050060,
+		1050070,
+		1050080,
+		1050090,
+		1050100,
+		1050110,
+		1050120,
+		1050210,
+		1050211,
+		1050212,
+		1050500,
+		1051010,
+		1051020,
+		1051030,
+		1051040,
+		1051050,
+		1051060,
+		1051070,
+		1051080,
+		1051090,
+		1051100,
+		1051110,
+		1051120,
+		1051210,
+		1051211,
+		1051212,
+		1051500,
+		1052010,
+		1052020,
+		1052030,
+		1052040,
+		1052050,
+		1052060,
+		1052070,
+		1052080,
+		1052090,
+		1052100,
+		1052110,
+		1052120,
+		1052210,
+		1052211,
+		1052212,
+		1052500,
 		1060001,
 		1060002,
 		1060003,

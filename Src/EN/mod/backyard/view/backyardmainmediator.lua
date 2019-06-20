@@ -29,6 +29,7 @@ slot0.ON_SPINE_EXTRA = "BackyardMainMediator:ON_SPINE_EXTRA"
 slot0.ON_CLEAR_SPINR_EXTRA = "BackyardMainMediator:ON_CLEAR_SPINR_EXTRA"
 slot0.ON_ADD_MOVE_FURNITURE = "BackyardMainMediator:ON_ADD_MOVE_FURNITURE"
 slot0.ON_REMOVE_MOVE_FURNITURE = "BackyardMainMediator:ON_REMOVE_MOVE_FURNITURE"
+slot0.ON_CHECK_EFFECT = "BackyardMainMediator:ON_CHECK_EFFECT"
 
 function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, nil, slot1)
@@ -203,6 +204,11 @@ function slot0.onRegister(slot0)
 			position = slot2
 		})
 	end)
+	slot0:bind(slot0.ON_CHECK_EFFECT, function (slot0)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
+			name = BACKYARD.CHECK_EFFECT
+		})
+	end)
 
 	slot0.bgmName = slot0.viewComponent.bgm
 end
@@ -258,7 +264,9 @@ function slot0.listNotificationInterests(slot0)
 		BackYardHouseProxy.ON_SPINE_EXTRA_INTERACTION,
 		BackYardHouseProxy.ON_CLEAR_SPINE_EXTRA_INTERACTION,
 		BackYardHouseProxy.BACKYARD_ADD_SHIP,
-		BackYardHouseProxy.BACKYARD_EXIT_SHIP
+		BackYardHouseProxy.BACKYARD_EXIT_SHIP,
+		BackYardHouseProxy.APPLY_EFFECT,
+		BackYardHouseProxy.DISABLE_EFFECT
 	}
 end
 
@@ -274,7 +282,11 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_EXIT_SHIP then
 		slot0.viewComponent:exitBoat(slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_SHIP then
-		slot0.viewComponent:loadBoatModal(slot3)
+		slot0.viewComponent:loadBoatModal(slot3, function ()
+			if not slot0:hasInterActionFurnitrue() then
+				slot1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot0.id)
+			end
+		end)
 	elseif slot2 == BackYardHouseProxy.HOUSE_UPDATE then
 		slot0.viewComponent:setHouse(slot3)
 		pg.m02:sendNotification(slot0.HOUSE_UPDATE, slot3)
@@ -374,6 +386,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:addSpineExtra(slot3.furnitureId, slot3.shipId, slot3.pos)
 	elseif slot2 == BackYardHouseProxy.ON_CLEAR_SPINE_EXTRA_INTERACTION then
 		slot0.viewComponent:clearSpineExtra(slot3.furnitureId, slot3.shipId, slot3.pos)
+	elseif slot2 == BackYardHouseProxy.APPLY_EFFECT then
+		slot0.viewComponent:applyEffect(slot3)
+	elseif slot2 == BackYardHouseProxy.DISABLE_EFFECT then
+		slot0.viewComponent:disableEffect(slot3)
 	end
 end
 

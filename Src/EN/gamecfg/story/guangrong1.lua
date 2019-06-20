@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>一 其名为光荣</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 1 - Her Name is Glorious</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队航空母舰光荣报到，今天也由我担任你的秘书舰！",
+			say = "Royal Navy aircraft carrier Glorious, reporting in. I have been assigned to serve as your secretary ship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我会全力配合你的，请多指教！",
+			say = "Commander, I will do everything in my power to meet your expectations. I await your orders!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和在那片海域的时候不同，这次我不会掉以轻心了！",
+			say = "I won't make the same mistake I did before. I will not let my guard down this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "一小时后——",
+			say = "一A Short Time Later——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，下午的安排是……是……是的！我记得的！是演习吧！我也会参加的！",
+			say = "Let's see what's on the schedule for this afternoon... Y-... Yes, of course! Exercises! I'll be participating as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "备用物资……应该送到了，热心帮我确认过了大概没问题……呜…没什么把握……",
+			say = "The supplementary materiel... Should have been delivered. I had Ardent go and confirm for me everything is in order... Hmm... I'm unsure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些文件我已经全都整理完了！是的，所有的都在这里了！……纳尔维克的观测报告？呃，嗯，不记得了，好像做完了……",
+			say = "Yes, I've already put all of these documents in order! Indeed, yes, they're all here! ...The report from the Narvik operation? Um, er, I can't quite remember, I think it's done...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "（小声）不行啊光荣，要有点皇家荣光的样子……！舰历上我可是最资深的……！",
+			say = " (whispering) Come on, Glorious, get it together. Show some of that Royal Navy glory...! You're the most storied ship of all...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			},
 			options = {
 				{
-					content = "怎么在发抖……？",
+					content = "Why are you trembling...?",
 					flag = 1
 				},
 				{
-					content = "是不是太紧张了……？",
+					content = "Are you nervous about something...?",
 					flag = 2
 				}
 			}
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "没、没有紧张！……找、找到了！观测报告在这里！",
+			say = "No, no I'm not nervous! ...Here, I found it! The Narvik report!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明明观测报告好好完成了，为什么会忘记了呢……",
+			say = "The report was clearly complete, why didn't she remember it...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官果然是把我误会成那片海域的我了吧。你的心情不是不能理解，但——",
+			say = "You've clearly mistaken me for the Glorious from that fateful operation. While I understand your concern, I—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那片海域的我，是我又不是我。",
+			say = "I am that Glorious, and at the same time, she is not me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了皇家之光而获得新生的光荣（glorius），一定会成为指挥官你最高的荣耀！",
+			say = "For the glory of the Royal Navy, I have been reborn as a new Glorious, and likewise, I will earn the greatest glory for you, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（闪——）",
+			say = "*sparkle*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "光荣仿佛是自带特效一般的闪耀着。",
+			say = "Glorious seemed to shine with her own radiant glory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>三 女王事件Ⅰ</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 3 - The Queen Incident Pt. 1</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "抱歉指挥官，还要你和我一起去找皇家方舟……",
+			say = "Sorry to bother you, Commander. I'm just worried about Ark Royal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "……那、那是！！",
+			say = "... Oh, there she is!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			dir = 1,
 			actor = 207020,
 			nameColor = "#a9f548",
-			say = "陛下，我是无辜的！我只是担心去执行委托任务的驱逐舰妹妹们，才偷偷护送她们回港的，并不是在跟踪厌战！",
+			say = "I'm innocent, Commander! I was only concerned for the welfare of the little destroyer sisters going out on commission, so of course I sneaked off to escort them. I certainly wasn't stalking Warspite!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "我也觉得……就算是皇家方舟也不会做出这么下流的事吧……",
+			say = "I believe her, Ark Royal wouldn't do something so ignoble...",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "闭嘴！我看见了！你笑得一脸诡异，偷偷摸摸跟在厌战后面！",
+			say = "Silence! I saw it! Your sick smile. You were skulking around right behind Warspite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			}
 		},
 		{
-			say = "所以我说了，那不是因为厌战，而是在跟……护送跟在她后面的驱逐舰们呀！",
+			say = "I'm telling you, it had nothing to do with Warspite, I was after... I was escorting the destroyers behind her!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "陛下，请允许我一介女仆提出建议，我觉得可以调查一下皇家方舟的说辞是否属实……",
+			say = "If Your Majesty would permit a maid's suggestion, I believe we might investigate Ark Royal's pretext and determine its veracity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用了！这叫做间接证据！加上你平时的所作所为，这次决不能放过你！",
+			say = "There is no need! This is circumstantial evidence! Not to mention your typical unseemly conduct, I cannot let this stand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下！这、这次真的不是的！请您明察！",
+			say = "Commander! This, this isn't right! You must see!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,18 +217,18 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "好像惹出什么麻烦了……",
+			say = "What troublesome thing had we stumbled upon...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "装作没看见",
+					content = "Pretend you saw nothing.",
 					flag = 1
 				},
 				{
-					content = "保持距离继续观察",
+					content = "Maintain a safe distance and continue watching.",
 					flag = 2
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……陛下，请留步！",
+			say = "... Your Majesty, please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			}
 		},
 		{
-			say = "光荣！？",
+			say = "Glorious?!",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -276,7 +276,7 @@ return {
 			blackBg = true,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "我能证明皇家方舟是清白的！",
+			say = "I can prove Ark Royal is innocent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

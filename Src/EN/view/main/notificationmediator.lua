@@ -131,6 +131,10 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.SEND_CMD_DONE then
 		print(slot3)
+
+		if string.find(slot3, "CMD:into") then
+			slot0.viewComponent:closeView()
+		end
 	elseif slot2 == GAME.CHANGE_CHAT_ROOM_DONE then
 		slot0:onChangeChatRoomDone(slot3)
 	elseif slot2 == GAME.CHAT_ROOM_MAX_NUMBER then

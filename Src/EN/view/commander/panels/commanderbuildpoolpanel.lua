@@ -32,7 +32,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 		end
 
 		slot0.parent:emit(CommandRoomMediator.SHOW_MSGBOX, {
-			content = i18n1("一共选择了" .. #slot0.selected .. "个猫箱，开始训练后将无法取消，是否确定？"),
+			content = i18n("commander_select_box_tip", #slot0.selected),
 			onYes = function ()
 				slot0.parent:emit(CommandRoomMediator.ON_BATCH_BUILD, slot0.selected)
 				slot0.parent.emit:Hide()
@@ -40,13 +40,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 		})
 	end, SFX_PANEL)
 
-	slot0.sprites = {}
-
-	ResourceMgr.Inst:loadAssetBundleAsync("ui/CommandRoomUI_atlas", function (slot0)
-		table.insert(slot0.sprites, ResourceMgr.Inst:LoadAssetSync(slot0, "R1_s", nil, true, false))
-		table.insert(slot0.sprites, ResourceMgr.Inst:LoadAssetSync(slot0, "SR1_s", nil, true, false))
-		table.insert(slot0.sprites, ResourceMgr.Inst:LoadAssetSync(slot0, "SSR1_s", nil, true, false))
-	end)
+	slot0.sprites = {
+		slot0._tf:Find("frame/bg/content/list/1/icon/iconImg"):GetComponent(typeof(Image)).sprite,
+		slot0._tf:Find("frame/bg/content/list/2/icon/iconImg"):GetComponent(typeof(Image)).sprite,
+		slot0._tf:Find("frame/bg/content/list/3/icon/iconImg"):GetComponent(typeof(Image)).sprite
+	}
 end
 
 function slot0.AutoSelect(slot0)
@@ -150,7 +148,7 @@ function slot0.UpdatePos(slot0)
 	end)
 	slot0.posListBottom:align(math.max(0, math.min(5, slot0 - 5)))
 
-	slot0.selectedTxt.text = i18n1("已选择: " .. #slot0.selected .. "/" .. slot0)
+	slot0.selectedTxt.text = #slot0.selected .. "/" .. slot0
 end
 
 function slot0.Hide(slot0)

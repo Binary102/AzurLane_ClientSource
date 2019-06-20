@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就行了，我们的目的本来就不是胜利。热心，阿卡司塔，保护好运输船，改变航向，准备撤退！ ",
+			say = "This should be enough for us to get away... Ardent, Acasta, change course and cover our escape! We're retreating!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			actorName = "热心&阿卡司塔",
+			actorName = "Ardent & Acasta",
 			actor = 201030,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "是！",
+			say = "Understood!",
 			subActors = {
 				{
 					actor = 201020,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有我松懈的原因在，不过还是干得不错啊，铁血的小女孩，我们有机会再见吧～",
+			say = "Admittedly, I let my guard down, but that was a fine battle! Miss, uh... Admiral Hipper, may we meet again one day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#D6341D",
 			side = 1,
 			dir = 1,
-			say = "啊啊啊啊！！可恶，竟然小看我……给我等着！",
+			say = "Y-you're running away?! Dammit, this means more chasing for me... This isn't over, you hear!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

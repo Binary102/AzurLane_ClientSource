@@ -26,6 +26,7 @@ function slot0.Update(slot0, slot1)
 		slot0.waitTimer = Timer.New(function ()
 			slot0:removeWaitingTimer()
 			slot0.removeWaitingTimer:Update(slot0.removeWaitingTimer)
+			slot0.removeWaitingTimer.Update._parent:updateCntLabel()
 		end, slot1.beginTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
 
 		slot0.waitTimer:Start()
@@ -70,40 +71,22 @@ end
 slot1 = true
 
 function slot0.playAnim(slot0, slot1)
-	setActive(slot0._parent.mask, true)
 	slot0:loadBox(slot0.boxVO:getFetchPrefab(), slot0.boxParent, function (slot0)
 		slot0.spineAnimUI = slot0
 
 		slot0:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
-				setActive(slot0._parent.mask, false)
-				setActive:SetActionCallBack(nil)
-				setActive()
+				slot0:SetActionCallBack(nil)
+				slot0.SetActionCallBack()
 			end
 		end)
 	end)
-
-	if slot0 then
-		onButton(slot0._parent, slot0._parent.mask, function ()
-			if slot0.spineAnimUI then
-				removeOnButton(slot0._parent.mask)
-				setActive(slot0._parent.mask, false)
-				setActive.spineAnimUI:SetActionCallBack(nil)
-				slot1()
-
-				slot1.spineAnimUI = nil
-			end
-		end, SFX_PANEL)
-	end
 end
 
 function slot0.loadBox(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot0:returnChar()
-	elseif slot0.loading then
 	else
-		slot0.loading = true
-
 		if slot0.prefabName == slot1 then
 			return
 		end
@@ -113,7 +96,9 @@ function slot0.loadBox(slot0, slot1, slot2, slot3)
 		slot0.prefabName = slot1
 
 		PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-			if slot0.exited then
+			if slot0.exited or slot1 ~= slot0.prefabName then
+				PoolMgr.GetInstance():ReturnSpineChar(PoolMgr.GetInstance().ReturnSpineChar, slot0)
+
 				return
 			end
 
@@ -122,14 +107,12 @@ function slot0.loadBox(slot0, slot1, slot2, slot3)
 			slot0.modelTf.localPosition = Vector3(0, -123, 0)
 
 			pg.ViewUtils.SetLayer(slot0.modelTf, Layer.UI)
-			setParent(slot0.modelTf, setParent)
+			setParent(slot0.modelTf, )
 			slot0:GetComponent("SpineAnimUI"):SetAction("normal", 0)
 
-			if slot0.GetComponent("SpineAnimUI").SetAction then
-				slot2(slot1)
+			if slot0.GetComponent("SpineAnimUI") then
+				slot3(slot1)
 			end
-
-			slot0.loading = false
 		end)
 	end
 end

@@ -102,7 +102,7 @@ return {
 			subActors = {
 				{
 					expression = 2,
-					actor = 201201,
+					actor = 201200,
 					pos = {
 						x = -1200
 					}

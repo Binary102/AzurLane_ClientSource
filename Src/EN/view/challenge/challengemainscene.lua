@@ -5,6 +5,8 @@ slot3 = "..base.BaseUI"
 slot0 = slot0(slot1, slot2(slot3))
 slot1 = 5
 slot0.BOSS_NUM = slot1
+slot1 = 5
+slot0.FADE_TIME = slot1
 
 function slot1(slot0)
 	slot1 = "ChallengeMainUI"
@@ -77,7 +79,7 @@ function slot1(slot0)
 	slot1(slot2, slot3)
 
 	slot2 = slot0
-	slot1 = slot0.updateResetBtn
+	slot1 = slot0.updateFuncBtns
 
 	slot1(slot2)
 
@@ -90,8 +92,8 @@ function slot1(slot0)
 	slot1 = slot1.editFleet
 
 	if slot1 then
-		slot1 = triggerButton
-		slot2 = slot0.formationBtn
+		slot2 = slot0
+		slot1 = slot0.doOnFleetPanel
 
 		slot1(slot2)
 
@@ -99,11 +101,23 @@ function slot1(slot0)
 		slot2 = nil
 		slot1.editFleet = slot2
 	end
+
+	slot2 = slot0
+	slot1 = slot0.tryPlayGuide
+
+	slot1(slot2)
 end
 
 slot0.didEnter = slot1
 
 function slot1(slot0)
+	slot1 = LeanTween
+	slot1 = slot1.cancel
+	slot2 = go
+	slot3 = slot0.modTipTF
+
+	slot1(slot2(slot3))
+
 	slot1 = slot0.timer
 
 	if slot1 then
@@ -296,12 +310,6 @@ function slot1(slot0)
 	slot0.rankBtn = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
-	slot3 = "FormationBtn"
-	slot4 = slot0.functionBtnsTF
-	slot1 = slot1(slot2, slot3, slot4)
-	slot0.formationBtn = slot1
-	slot2 = slot0
-	slot1 = slot0.findTF
 	slot3 = "StartBtn"
 	slot4 = slot0.functionBtnsTF
 	slot1 = slot1(slot2, slot3, slot4)
@@ -312,6 +320,18 @@ function slot1(slot0)
 	slot4 = slot0.functionBtnsTF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.resetBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "StartBtnBanned"
+	slot4 = slot0.functionBtnsTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.startBtnBanned = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "ResetBtnBanned"
+	slot4 = slot0.functionBtnsTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.resetBtnBanned = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "Award"
@@ -330,6 +350,18 @@ function slot1(slot0)
 	slot4 = slot0.awardTF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.getBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "GotBtn"
+	slot4 = slot0.awardTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.gotBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "GetBtnBanned"
+	slot4 = slot0.awardTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.getBtnBanned = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "ItemBG/item"
@@ -383,10 +415,68 @@ function slot1(slot0)
 	slot0.scrollSC = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "material"
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = Image
+	slot1 = slot1(slot2, slot3(slot4))
+	slot1 = slot1.material
+	slot0.material = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "material1"
+	slot1 = slot1(slot2, slot3)
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = Image
+	slot1 = slot1(slot2, slot3(slot4))
+	slot1 = slot1.material
+	slot0.material1 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "Painting"
 	slot4 = slot0.paintingContainer
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.painting = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "PaintingShadow1"
+	slot4 = slot0.painting
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.paintingShadow1 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "PaintingShadow2"
+	slot4 = slot0.painting
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.paintingShadow2 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "InfoImg"
+	slot4 = slot0.painting
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.bossInfoImg = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "Round/NumText"
+	slot4 = slot0.painting
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.roundNumText = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "TZ02"
+	slot4 = slot0.painting
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.completeEffectTF = slot1
+	slot1 = SetActive
+	slot2 = slot0.completeEffectTF
+	slot3 = false
+
+	slot1(slot2, slot3)
+
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "Card1"
@@ -405,6 +495,18 @@ function slot1(slot0)
 	slot4 = slot0.card1TF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.tag_1 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "Mask"
+	slot4 = slot0.card1TF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.mask_1 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "Round"
+	slot4 = slot0.card1TF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.roundTF_1 = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "Round/RoundText"
@@ -431,10 +533,46 @@ function slot1(slot0)
 	slot0.tag_2 = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "Mask"
+	slot4 = slot0.card2TF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.mask_2 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "Round"
+	slot4 = slot0.card2TF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.roundTF_2 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "Round/RoundText"
 	slot4 = slot0.card2TF
 	slot1 = slot1(slot2, slot3, slot4)
 	slot0.roundText_2 = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "ModTipBtn"
+	slot4 = slot0.northTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.modTipBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "TipText"
+	slot4 = slot0.northTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.modTipTF = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "Text"
+	slot4 = slot0.modTipTF
+	slot1 = slot1(slot2, slot3, slot4)
+	slot0.modTipText = slot1
+	slot1 = setActive
+	slot2 = slot0.modTipText
+	slot3 = false
+
+	slot1(slot2, slot3)
+
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "LevelFleetSelectView"
@@ -492,7 +630,13 @@ function slot1(slot0)
 	slot1 = slot0.fleetEditPanel
 
 	function slot2(slot0, slot1)
-		return
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.openShipInfo
+		slot4 = slot0
+		slot5 = slot1
+
+		slot2(slot3, slot4, slot5)
 	end
 
 	slot1.onLongPressShip = slot2
@@ -512,6 +656,21 @@ function slot1(slot0)
 end
 
 slot0.findUI = slot1
+
+function slot1(slot0)
+	slot1 = pg
+	slot1 = slot1.StoryMgr
+	slot2 = slot1
+	slot1 = slot1.GetInstance
+	slot1 = slot1(slot2)
+	slot2 = slot1
+	slot1 = slot1.PlayGuide
+	slot3 = "NG0014"
+
+	slot1(slot2, slot3)
+end
+
+slot0.tryPlayGuide = slot1
 
 function slot1(slot0)
 	slot1 = getProxy
@@ -592,56 +751,11 @@ function slot1(slot0)
 	slot3 = slot0.rankBtn
 
 	function slot4()
-		return
-	end
-
-	slot5 = SFX_PANEL
-
-	slot1(slot2, slot3, slot4, slot5)
-
-	slot1 = onButton
-	slot2 = slot0
-	slot3 = slot0.formationBtn
-
-	function slot4()
 		slot0 = slot0
-		slot0 = slot0.fleetEditPanel
 		slot1 = slot0
-		slot0 = slot0.attach
-		slot2 = slot0
-
-		slot0(slot1, slot2)
-
-		slot0 = slot0
-		slot0 = slot0.fleetEditPanel
-		slot1 = slot0
-		slot0 = slot0.setFleets
-		slot2 = slot0
-		slot2 = slot2.fleets
-		slot3 = slot0
-		slot3 = slot3.curMode
-		slot2 = slot2[slot3]
-
-		slot0(slot1, slot2)
-
-		slot0 = slot0
-		slot0 = slot0.fleetEditPanel
-		slot1 = slot0
-		slot0 = slot0.set
-		slot2 = 1
-		slot3 = 1
-
-		slot0(slot1, slot2, slot3)
-
-		slot0 = pg
-		slot0 = slot0.UIMgr
-		slot0 = slot0.GetInstance
-		slot0 = slot0()
-		slot1 = slot0
-		slot0 = slot0.BlurPanel
-		slot2 = slot0
-		slot2 = slot2.fleetEditPanel
-		slot2 = slot2._tf
+		slot0 = slot0.emit
+		slot2 = ChallengeMainMediator
+		slot2 = slot2.ON_OPEN_RANK
 
 		slot0(slot1, slot2)
 	end
@@ -655,145 +769,190 @@ function slot1(slot0)
 	slot3 = slot0.startBtn
 
 	function slot4()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.isCrossedSeason
+		slot0 = getProxy
+		slot1 = ActivityProxy
 		slot0 = slot0(slot1)
+		slot1 = slot0
+		slot0 = slot0.getActivityByType
+		slot2 = ActivityConst
+		slot2 = slot2.ACTIVITY_TYPE_CHALLENGE
+		slot0 = slot0(slot1, slot2)
 
-		if slot0 == true then
-			slot0 = slot0
-			slot0 = slot0.challengeProxy
-			slot1 = slot0
-			slot0 = slot0.getCurMode
-			slot0 = slot0(slot1)
-			slot1 = slot0
-			slot1 = slot1.curModeInfo
+		if slot0 then
+			slot2 = slot0
+			slot1 = slot0.isEnd
+			slot1 = slot1(slot2)
 
-			if not slot1 then
+			if slot1 then
 				slot1 = pg
-				slot1 = slot1.MsgboxMgr
+				slot1 = slot1.TipsMgr
 				slot1 = slot1.GetInstance
 				slot1 = slot1()
 				slot2 = slot1
-				slot1 = slot1.ShowMsgBox
-				slot3 = {
-					hideNo = true
-				}
-				slot4 = i18n
-				slot5 = "challenge_season_update"
-				slot4 = slot4(slot5)
-				slot3.content = slot4
+				slot1 = slot1.ShowTips
+				slot3 = i18n
+				slot4 = "challenge_end_tip"
 
-				function slot4()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = ChallengeConst
-					slot2 = slot2.RESET_DATA_EVENT
-					slot3 = slot1
+				slot1(slot2, slot3(slot4))
 
-					slot0(slot1, slot2, slot3)
-				end
+				slot1 = triggerButton
+				slot2 = slot0
+				slot2 = slot2.backBtn
 
-				slot3.onYes = slot4
-
-				function slot4()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = ChallengeConst
-					slot2 = slot2.RESET_DATA_EVENT
-					slot3 = slot1
-
-					slot0(slot1, slot2, slot3)
-				end
-
-				slot3.onNo = slot4
-
-				slot1(slot2, slot3)
-
-				return
-			else
-				slot1 = (slot0 == ChallengeProxy.MODE_CASUAL and "challenge_season_update_casual_clear") or "challenge_season_update_infinite_clear"
-				slot2 = ChallengeProxy.MODE_CASUAL
-
-				if slot0 == slot2 then
-					slot2 = slot0
-					slot2 = slot2.curModeInfo
-					slot3 = slot2
-					slot2 = slot2.getScore
-					slot2 = slot2(slot3)
-
-					if not slot2 then
-						slot2 = slot0
-						slot2 = slot2.curModeInfo
-						slot3 = slot2
-						slot2 = slot2.getLevel
-						slot2 = slot2(slot3)
-					end
-				end
-
-				slot3 = pg
-				slot3 = slot3.MsgboxMgr
-				slot3 = slot3.GetInstance
-				slot3 = slot3()
-				slot4 = slot3
-				slot3 = slot3.ShowMsgBox
-				slot5 = {
-					hideNo = false
-				}
-				slot6 = i18n
-				slot7 = slot1
-				slot8 = slot2
-				slot6 = slot6(slot7, slot8)
-				slot5.content = slot6
-
-				function slot6()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = ChallengeConst
-					slot2 = slot2.RESET_DATA_EVENT
-					slot3 = slot1
-
-					slot0(slot1, slot2, slot3)
-				end
-
-				slot5.onYes = slot6
-
-				slot3(slot4, slot5)
+				slot1(slot2)
 
 				return
 			end
 		end
 
-		slot0 = slot0
-		slot0 = slot0.curModeInfo
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.isCrossedSeason
+		slot1 = slot1(slot2)
 
-		if not slot0 then
-			slot0 = pg
-			slot0 = slot0.TipsMgr
+		if slot1 == true then
 			slot1 = slot0
-			slot0 = slot0.GetInstance
-			slot0 = slot0(slot1)
-			slot1 = slot0
-			slot0 = slot0.ShowTips
-			slot2 = "挑战没有初始化"
+			slot1 = slot1.challengeProxy
+			slot2 = slot1
+			slot1 = slot1.getCurMode
+			slot1 = slot1(slot2)
+			slot2 = slot0
+			slot2 = slot2.curModeInfo
 
-			slot0(slot1, slot2)
+			if not slot2 then
+				slot2 = pg
+				slot2 = slot2.MsgboxMgr
+				slot2 = slot2.GetInstance
+				slot2 = slot2()
+				slot3 = slot2
+				slot2 = slot2.ShowMsgBox
+				slot4 = {
+					hideNo = true
+				}
+				slot5 = i18n
+				slot6 = "challenge_season_update"
+				slot5 = slot5(slot6)
+				slot4.content = slot5
+
+				function slot5()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = ChallengeConst
+					slot2 = slot2.RESET_DATA_EVENT
+					slot3 = slot1
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot4.onYes = slot5
+
+				function slot5()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = ChallengeConst
+					slot2 = slot2.RESET_DATA_EVENT
+					slot3 = slot1
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot4.onNo = slot5
+
+				slot2(slot3, slot4)
+
+				return
+			else
+				slot2 = (slot1 == ChallengeProxy.MODE_CASUAL and "challenge_season_update_casual_clear") or "challenge_season_update_infinite_clear"
+				slot3 = ChallengeProxy.MODE_CASUAL
+
+				if slot1 == slot3 then
+					slot3 = slot0
+					slot3 = slot3.curModeInfo
+					slot4 = slot3
+					slot3 = slot3.getScore
+					slot3 = slot3(slot4)
+
+					if not slot3 then
+						slot3 = slot0
+						slot3 = slot3.curModeInfo
+						slot4 = slot3
+						slot3 = slot3.getLevel
+						slot3 = slot3(slot4)
+					end
+				end
+
+				slot4 = pg
+				slot4 = slot4.MsgboxMgr
+				slot4 = slot4.GetInstance
+				slot4 = slot4()
+				slot5 = slot4
+				slot4 = slot4.ShowMsgBox
+				slot6 = {
+					hideNo = false
+				}
+				slot7 = i18n
+				slot8 = slot2
+				slot9 = slot3
+				slot7 = slot7(slot8, slot9)
+				slot6.content = slot7
+
+				function slot7()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = ChallengeConst
+					slot2 = slot2.RESET_DATA_EVENT
+					slot3 = slot1
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot6.onNo = slot7
+
+				function slot7()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = ChallengeMainMediator
+					slot2 = slot2.ON_PRECOMBAT
+					slot3 = slot0
+					slot3 = slot3.curMode
+
+					slot0(slot1, slot2, slot3)
+				end
+
+				slot6.onYes = slot7
+
+				slot4(slot5, slot6)
+
+				return
+			end
+		end
+
+		slot1 = slot0
+		slot1 = slot1.curModeInfo
+
+		if not slot1 then
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.doOnFleetPanel
+
+			slot1(slot2)
 
 			return
 		end
 
-		slot0 = slot0
 		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ChallengeMainMediator
-		slot2 = slot2.ON_PRECOMBAT
-		slot3 = slot0
-		slot3 = slot3.curMode
+		slot2 = slot1
+		slot1 = slot1.emit
+		slot3 = ChallengeMainMediator
+		slot3 = slot3.ON_PRECOMBAT
+		slot4 = slot0
+		slot4 = slot4.curMode
 
-		slot0(slot1, slot2, slot3)
+		slot1(slot2, slot3, slot4)
 	end
 
 	slot5 = SFX_PANEL
@@ -842,9 +1001,26 @@ function slot1(slot0)
 
 	slot1(slot2, slot3, slot4, slot5)
 
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0.modTipBtn
+
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.showTipText
+
+		slot0(slot1)
+	end
+
+	slot1(slot2, slot3, slot4)
+
 	function slot1()
 		slot0 = slot0
 		slot0 = slot0.showingIndex
+		slot1 = ChallengeConst
+		slot1 = slot1.BOSS_NUM
+		slot0 = slot0 % slot1
 
 		if slot0 == 1 then
 			return
@@ -885,10 +1061,11 @@ function slot1(slot0)
 	function slot2()
 		slot0 = slot0
 		slot0 = slot0.showingIndex
-		slot1 = slot1
+		slot1 = ChallengeConst
 		slot1 = slot1.BOSS_NUM
+		slot0 = slot0 % slot1
 
-		if slot0 == slot1 then
+		if slot0 == 0 then
 			return
 		end
 
@@ -976,6 +1153,7 @@ function slot1(slot0)
 				slot1 = slot1(slot2)
 				slot2 = pg
 				slot2 = slot2.activity_event_challenge
+				slot2 = slot2[1]
 				slot2 = slot2.infinite_stage
 				slot2 = slot2[slot1]
 				slot2 = slot2[1]
@@ -999,6 +1177,8 @@ function slot1(slot0)
 
 	slot1 = {}
 	slot0.nameList = slot1
+	slot1 = {}
+	slot0.infoNameList = slot1
 	slot1 = ipairs
 	slot2 = slot0.dungeonIDList
 	slot1, slot2, slot3 = slot1(slot2)
@@ -1011,37 +1191,463 @@ function slot1(slot0)
 		slot6 = slot6[1]
 		slot7 = slot0.nameList
 		slot7[slot4] = slot6
+		slot7 = pg
+		slot7 = slot7.expedition_challenge_template
+		slot7 = slot7[slot5]
+		slot7 = slot7.name_p
+		slot8 = slot0.infoNameList
+		slot8[slot4] = slot7
+	end
+
+	slot1 = {}
+	slot0.nextNameList = slot1
+	slot1 = slot0.curMode
+	slot2 = ChallengeProxy
+	slot2 = slot2.MODE_INFINITE
+
+	if slot1 == slot2 then
+		slot1 = nil
+		slot2 = slot0.curModeInfo
+
+		if slot2 then
+			slot2 = slot0.curModeInfo
+			slot3 = slot2
+			slot2 = slot2.getNextInfiniteDungeonIDList
+			slot2 = slot2(slot3)
+			slot1 = slot2
+		else
+			slot2 = slot0.challengeInfo
+			slot3 = slot2
+			slot2 = slot2.getSeasonID
+			slot2 = slot2(slot3)
+			slot3 = pg
+			slot3 = slot3.activity_event_challenge
+			slot3 = slot3[1]
+			slot3 = slot3.infinite_stage
+			slot3 = slot3[slot2]
+			slot3 = slot3[2]
+
+			if slot3 then
+				slot3 = pg
+				slot3 = slot3.activity_event_challenge
+				slot3 = slot3[1]
+				slot3 = slot3.infinite_stage
+				slot3 = slot3[slot2]
+				slot1 = slot3[2]
+			else
+				slot3 = pg
+				slot3 = slot3.activity_event_challenge
+				slot3 = slot3[1]
+				slot3 = slot3.infinite_stage
+				slot3 = slot3[slot2]
+				slot1 = slot3[1]
+			end
+		end
+
+		slot2 = ipairs
+		slot3 = slot1
+		slot2, slot3, slot4 = slot2(slot3)
+
+		for slot5, slot6 in slot2, slot3, slot4 do
+			slot7 = pg
+			slot7 = slot7.expedition_challenge_template
+			slot7 = slot7[slot6]
+			slot7 = slot7.char_icon
+			slot7 = slot7[1]
+			slot8 = slot0.nextNameList
+			slot9 = ChallengeConst
+			slot9 = slot9.BOSS_NUM
+			slot9 = slot5 + slot9
+			slot8[slot9] = slot7
+		end
 	end
 end
 
 slot0.updateData = slot1
 
 function slot1(slot0, slot1, slot2)
-	setPaintingPrefabAsync(slot0.painting, slot1 or slot0.nameList[slot2 or slot0.showingIndex], "chuanwu")
+	slot3 = slot1 or slot0.nameList
+	slot5 = slot0.curLevel
 
-	slot5 = slot0.BOSS_NUM - (slot2 or slot0.showingIndex)
-	slot6 = 2
+	if ChallengeConst.BOSS_NUM < (slot2 or slot0.showingIndex) then
+		slot6 = ChallengeConst
+		slot6 = slot6.BOSS_NUM
+		slot6 = slot4 % slot6
 
-	if slot5 >= slot6 then
-		slot5 = setActive
-		slot6 = slot0.card1TF
-		slot7 = true
+		if slot6 == 0 then
+			slot6 = ChallengeConst
+			slot6 = slot6.BOSS_NUM
 
-		slot5(slot6, slot7)
+			if not slot6 then
+				slot6 = ChallengeConst
+				slot6 = slot6.BOSS_NUM
+				slot4 = slot4 % slot6
+			end
+		end
+	end
 
-		slot5 = setActive
-		slot6 = slot0.card2TF
-		slot7 = true
+	slot6 = slot0.curMode
+	slot7 = ChallengeProxy
+	slot7 = slot7.MODE_INFINITE
 
-		slot5(slot6, slot7)
+	if slot6 == slot7 then
+		slot6 = ChallengeConst
+		slot6 = slot6.BOSS_NUM
 
-		slot5 = LoadSpriteAsync
-		slot6 = "shipYardIcon/"
-		slot7 = slot4 + 1
-		slot7 = slot3[slot7]
-		slot6 = slot6 .. slot7
+		if slot6 < slot5 then
+			slot6 = ChallengeConst
+			slot6 = slot6.BOSS_NUM
+			slot6 = slot5 % slot6
 
-		function slot7(slot0)
+			if slot6 == 0 then
+				slot6 = ChallengeConst
+				slot6 = slot6.BOSS_NUM
+
+				if not slot6 then
+					slot6 = ChallengeConst
+					slot6 = slot6.BOSS_NUM
+					slot5 = slot5 % slot6
+				end
+			end
+		end
+	end
+
+	function slot6(slot0)
+		slot1 = slot0.material
+		slot2 = slot1
+		slot1 = slot1.SetFloat
+		slot3 = "_LineGray"
+		slot4 = 0.3
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = slot0.material
+		slot2 = slot1
+		slot1 = slot1.SetFloat
+		slot3 = "_TearDistance"
+		slot4 = 0
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = LeanTween
+		slot1 = slot1.cancel
+		slot2 = slot0.gameObject
+
+		slot1(slot2)
+
+		slot1 = LeanTween
+		slot1 = slot1.value
+		slot2 = slot0.gameObject
+		slot3 = 0
+		slot4 = 2
+		slot5 = 2
+		slot1 = slot1(slot2, slot3, slot4, slot5)
+		slot2 = slot1
+		slot1 = slot1.setLoopClamp
+		slot1 = slot1(slot2)
+		slot2 = slot1
+		slot1 = slot1.setOnUpdate
+		slot3 = System
+		slot3 = slot3.Action_float
+
+		function slot4(slot0)
+			slot1 = 1.2
+
+			if slot0 >= slot1 then
+				slot1 = slot0
+				slot1 = slot1.material
+				slot2 = slot1
+				slot1 = slot1.SetFloat
+				slot3 = "_LineGray"
+				slot4 = 0.3
+
+				slot1(slot2, slot3, slot4)
+			else
+				slot1 = 1.1
+
+				if slot0 >= slot1 then
+					slot1 = slot0
+					slot1 = slot1.material
+					slot2 = slot1
+					slot1 = slot1.SetFloat
+					slot3 = "_LineGray"
+					slot4 = 0.45
+
+					slot1(slot2, slot3, slot4)
+				else
+					slot1 = 1.03
+
+					if slot0 >= slot1 then
+						slot1 = slot0
+						slot1 = slot1.material
+						slot2 = slot1
+						slot1 = slot1.SetFloat
+						slot3 = "_TearDistance"
+						slot4 = 0
+
+						slot1(slot2, slot3, slot4)
+					else
+						slot1 = 1
+
+						if slot0 >= slot1 then
+							slot1 = slot0
+							slot1 = slot1.material
+							slot2 = slot1
+							slot1 = slot1.SetFloat
+							slot3 = "_TearDistance"
+							slot4 = 0.3
+
+							slot1(slot2, slot3, slot4)
+						else
+							slot1 = 0.35
+
+							if slot0 >= slot1 then
+								slot1 = slot0
+								slot1 = slot1.material
+								slot2 = slot1
+								slot1 = slot1.SetFloat
+								slot3 = "_LineGray"
+								slot4 = 0.3
+
+								slot1(slot2, slot3, slot4)
+							else
+								slot1 = 0.3
+
+								if slot0 >= slot1 then
+									slot1 = slot0
+									slot1 = slot1.material
+									slot2 = slot1
+									slot1 = slot1.SetFloat
+									slot3 = "_LineGray"
+									slot4 = 0.4
+
+									slot1(slot2, slot3, slot4)
+								else
+									slot1 = 0.25
+
+									if slot0 >= slot1 then
+										slot1 = slot0
+										slot1 = slot1.material
+										slot2 = slot1
+										slot1 = slot1.SetFloat
+										slot3 = "_LineGray"
+										slot4 = 0.3
+
+										slot1(slot2, slot3, slot4)
+									else
+										slot1 = 0.2
+
+										if slot0 >= slot1 then
+											slot1 = slot0
+											slot1 = slot1.material
+											slot2 = slot1
+											slot1 = slot1.SetFloat
+											slot3 = "_LineGray"
+											slot4 = 0.4
+
+											slot1(slot2, slot3, slot4)
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+
+		slot1(slot2, slot3(slot4))
+	end
+
+	slot7 = setPaintingPrefabAsync
+	slot8 = slot0.painting
+	slot9 = slot3[slot4]
+	slot10 = "chuanwu"
+
+	function slot11()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.findTF
+		slot2 = "fitter"
+		slot3 = slot0
+		slot3 = slot3.painting
+		slot0 = slot0(slot1, slot2, slot3)
+		slot1 = slot0
+		slot0 = slot0.GetChild
+		slot2 = 0
+		slot0 = slot0(slot1, slot2)
+
+		if slot0 then
+			SetActive(slot0.completeEffectTF, slot1 - 1 - () >= 0)
+
+			if slot2 then
+				slot3 = slot0
+				slot3 = slot3.material1
+				slot1.material = slot3
+				slot3 = slot1.material
+				slot4 = slot3
+				slot3 = slot3.SetFloat
+				slot5 = "_LineDensity"
+				slot6 = 7
+
+				slot3(slot4, slot5, slot6)
+
+				slot3 = slot3
+				slot4 = slot1
+
+				slot3(slot4)
+			else
+				slot3 = slot0
+				slot3 = slot3.material
+				slot1.material = slot3
+				slot3 = slot1.material
+				slot4 = slot3
+				slot3 = slot3.SetFloat
+				slot5 = "_Range"
+				slot6 = 16
+
+				slot3(slot4, slot5, slot6)
+
+				slot3 = slot1.material
+				slot4 = slot3
+				slot3 = slot3.SetFloat
+				slot5 = "_Degree"
+				slot6 = 7
+
+				slot3(slot4, slot5, slot6)
+			end
+		end
+	end
+
+	slot7(slot8, slot9, slot10, slot11)
+
+	slot7 = setPaintingPrefabAsync
+	slot8 = slot0.paintingShadow1
+	slot9 = slot3[slot4]
+	slot10 = "chuanwu"
+
+	function slot11()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.findTF
+		slot2 = "fitter"
+		slot3 = slot0
+		slot3 = slot3.paintingShadow1
+		slot0 = slot0(slot1, slot2, slot3)
+		slot1 = slot0
+		slot0 = slot0.GetChild
+		slot2 = 0
+		slot0 = slot0(slot1, slot2)
+
+		if slot0 then
+			slot2 = slot0
+			slot1 = slot0.GetComponent
+			slot3 = "Image"
+			slot1 = slot1(slot2, slot3)
+			slot2 = Color
+			slot2 = slot2.New
+			slot3 = 0
+			slot4 = 0
+			slot5 = 0
+			slot6 = 0.44
+			slot2 = slot2(slot3, slot4, slot5, slot6)
+			slot1.color = slot2
+		end
+	end
+
+	slot7(slot8, slot9, slot10, slot11)
+
+	slot7 = setPaintingPrefabAsync
+	slot8 = slot0.paintingShadow2
+	slot9 = slot3[slot4]
+	slot10 = "chuanwu"
+
+	function slot11()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.findTF
+		slot2 = "fitter"
+		slot3 = slot0
+		slot3 = slot3.paintingShadow2
+		slot0 = slot0(slot1, slot2, slot3)
+		slot1 = slot0
+		slot0 = slot0.GetChild
+		slot2 = 0
+		slot0 = slot0(slot1, slot2)
+
+		if slot0 then
+			slot2 = slot0
+			slot1 = slot0.GetComponent
+			slot3 = "Image"
+			slot1 = slot1(slot2, slot3)
+			slot2 = Color
+			slot2 = slot2.New
+			slot3 = 1
+			slot4 = 1
+			slot5 = 1
+			slot6 = 0.15
+			slot2 = slot2(slot3, slot4, slot5, slot6)
+			slot1.color = slot2
+		end
+	end
+
+	slot7(slot8, slot9, slot10, slot11)
+
+	slot7 = LoadSpriteAsync
+	slot8 = "ChallengeBossInfo/"
+	slot9 = slot0.infoNameList
+	slot9 = slot9[slot4]
+	slot8 = slot8 .. slot9
+
+	function slot9(slot0)
+		slot1 = setImageSprite
+		slot2 = slot0
+		slot2 = slot2.bossInfoImg
+		slot3 = slot0
+		slot4 = true
+
+		slot1(slot2, slot3, slot4)
+	end
+
+	slot7(slot8, slot9)
+
+	slot7 = slot0
+	slot7 = slot7.BOSS_NUM
+	slot7 = slot7 - slot4
+	slot8 = 2
+
+	if slot7 >= slot8 then
+		slot7 = setActive
+		slot8 = slot0.roundTF_1
+		slot9 = true
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0.roundTF_2
+		slot9 = true
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0.mask_1
+		slot9 = true
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0.mask_2
+		slot9 = true
+
+		slot7(slot8, slot9)
+
+		slot7 = LoadSpriteAsync
+		slot8 = "shipYardIcon/"
+		slot9 = slot4 + 1
+		slot9 = slot3[slot9]
+		slot8 = slot8 .. slot9
+
+		function slot9(slot0)
 			slot1 = setImageSprite
 			slot2 = slot0
 			slot2 = slot2.shipPaintImg_1
@@ -1050,15 +1656,15 @@ function slot1(slot0, slot1, slot2)
 			slot1(slot2, slot3)
 		end
 
-		slot5(slot6, slot7)
+		slot7(slot8, slot9)
 
-		slot5 = LoadSpriteAsync
-		slot6 = "shipYardIcon/"
-		slot7 = slot4 + 2
-		slot7 = slot3[slot7]
-		slot6 = slot6 .. slot7
+		slot7 = LoadSpriteAsync
+		slot8 = "shipYardIcon/"
+		slot9 = slot4 + 2
+		slot9 = slot3[slot9]
+		slot8 = slot8 .. slot9
 
-		function slot7(slot0)
+		function slot9(slot0)
 			slot1 = setImageSprite
 			slot2 = slot0
 			slot2 = slot2.shipPaintImg_2
@@ -1067,32 +1673,44 @@ function slot1(slot0, slot1, slot2)
 			slot1(slot2, slot3)
 		end
 
-		slot5(slot6, slot7)
+		slot7(slot8, slot9)
 	else
-		slot5 = slot0
-		slot5 = slot5.BOSS_NUM
-		slot5 = slot5 - slot4
+		slot7 = slot0
+		slot7 = slot7.BOSS_NUM
+		slot7 = slot7 - slot4
 
-		if slot5 == 1 then
-			slot5 = setActive
-			slot6 = slot0.card1TF
-			slot7 = true
+		if slot7 == 1 then
+			slot7 = setActive
+			slot8 = slot0.roundTF_1
+			slot9 = true
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
 
-			slot5 = setActive
-			slot6 = slot0.card2TF
-			slot7 = false
+			slot7 = setActive
+			slot8 = slot0.roundTF_2
+			slot9 = false
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
 
-			slot5 = LoadSpriteAsync
-			slot6 = "shipYardIcon/"
-			slot7 = slot4 + 1
-			slot7 = slot3[slot7]
-			slot6 = slot6 .. slot7
+			slot7 = setActive
+			slot8 = slot0.mask_1
+			slot9 = true
 
-			function slot7(slot0)
+			slot7(slot8, slot9)
+
+			slot7 = setActive
+			slot8 = slot0.mask_2
+			slot9 = false
+
+			slot7(slot8, slot9)
+
+			slot7 = LoadSpriteAsync
+			slot8 = "shipYardIcon/"
+			slot9 = slot4 + 1
+			slot9 = slot3[slot9]
+			slot8 = slot8 .. slot9
+
+			function slot9(slot0)
 				slot1 = setImageSprite
 				slot2 = slot0
 				slot2 = slot2.shipPaintImg_1
@@ -1101,19 +1719,192 @@ function slot1(slot0, slot1, slot2)
 				slot1(slot2, slot3)
 			end
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
+
+			slot7 = slot0.curMode
+			slot8 = ChallengeProxy
+			slot8 = slot8.MODE_INFINITE
+
+			if slot7 == slot8 then
+				slot7 = LoadSpriteAsync
+				slot8 = "shipYardIcon/"
+				slot9 = slot0.nextNameList
+				slot10 = slot4 + 2
+				slot9 = slot9[slot10]
+				slot8 = slot8 .. slot9
+
+				function slot9(slot0)
+					slot1 = setImageSprite
+					slot2 = slot0
+					slot2 = slot2.shipPaintImg_2
+					slot3 = slot0
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.mask_2
+					slot3 = true
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.roundTF_2
+					slot3 = true
+
+					slot1(slot2, slot3)
+				end
+
+				slot7(slot8, slot9)
+			end
 		else
-			slot5 = setActive
-			slot6 = slot0.card1TF
-			slot7 = false
+			slot7 = setActive
+			slot8 = slot0.roundTF_1
+			slot9 = false
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
 
-			slot5 = setActive
-			slot6 = slot0.card2TF
-			slot7 = false
+			slot7 = setActive
+			slot8 = slot0.roundTF_2
+			slot9 = false
 
-			slot5(slot6, slot7)
+			slot7(slot8, slot9)
+
+			slot7 = setActive
+			slot8 = slot0.mask_1
+			slot9 = false
+
+			slot7(slot8, slot9)
+
+			slot7 = setActive
+			slot8 = slot0.mask_2
+			slot9 = false
+
+			slot7(slot8, slot9)
+
+			slot7 = slot0.curMode
+			slot8 = ChallengeProxy
+			slot8 = slot8.MODE_INFINITE
+
+			if slot7 == slot8 then
+				slot7 = LoadSpriteAsync
+				slot8 = "shipYardIcon/"
+				slot9 = slot0.nextNameList
+				slot10 = slot4 + 1
+				slot9 = slot9[slot10]
+				slot8 = slot8 .. slot9
+
+				function slot9(slot0)
+					slot1 = setImageSprite
+					slot2 = slot0
+					slot2 = slot2.shipPaintImg_1
+					slot3 = slot0
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.mask_1
+					slot3 = true
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.roundTF_1
+					slot3 = true
+
+					slot1(slot2, slot3)
+				end
+
+				slot7(slot8, slot9)
+
+				slot7 = LoadSpriteAsync
+				slot8 = "shipYardIcon/"
+				slot9 = slot0.nextNameList
+				slot10 = slot4 + 2
+				slot9 = slot9[slot10]
+				slot8 = slot8 .. slot9
+
+				function slot9(slot0)
+					slot1 = setImageSprite
+					slot2 = slot0
+					slot2 = slot2.shipPaintImg_2
+					slot3 = slot0
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.mask_2
+					slot3 = true
+
+					slot1(slot2, slot3)
+
+					slot1 = setActive
+					slot2 = slot0
+					slot2 = slot2.roundTF_2
+					slot3 = true
+
+					slot1(slot2, slot3)
+				end
+
+				slot7(slot8, slot9)
+			end
+		end
+	end
+
+	slot7 = slot5 - 1
+	slot7 = slot7 - slot4
+	slot8 = 2
+
+	if slot7 >= slot8 then
+		slot7 = setActive
+		slot8 = slot0.tag_1
+		slot9 = true
+
+		slot7(slot8, slot9)
+
+		slot7 = setActive
+		slot8 = slot0.tag_2
+		slot9 = true
+
+		slot7(slot8, slot9)
+	else
+		slot7 = slot5 - 1
+		slot7 = slot7 - slot4
+
+		if slot7 == 1 then
+			slot7 = setActive
+			slot8 = slot0.tag_1
+			slot9 = true
+
+			slot7(slot8, slot9)
+
+			slot7 = setActive
+			slot8 = slot0.tag_2
+			slot9 = false
+
+			slot7(slot8, slot9)
+		else
+			slot7 = slot5 - 1
+			slot7 = slot7 - slot4
+			slot8 = 0
+
+			if slot7 <= slot8 then
+				slot7 = setActive
+				slot8 = slot0.tag_1
+				slot9 = false
+
+				slot7(slot8, slot9)
+
+				slot7 = setActive
+				slot8 = slot0.tag_2
+				slot9 = false
+
+				slot7(slot8, slot9)
+			end
 		end
 	end
 end
@@ -1121,57 +1912,263 @@ end
 slot0.updatePaintingList = slot1
 
 function slot1(slot0, slot1)
-	setText(slot0.roundText_1, "Round" .. (slot1 or slot0.showingIndex) + 1)
-	setText(slot0.roundText_2, "Round" .. (slot1 or slot0.showingIndex) + 2)
+	slot2 = slot1 or slot0.showingIndex
+	slot3 = slot0.curMode
+	slot4 = ChallengeProxy.MODE_CASUAL
+
+	if slot3 == slot4 then
+		slot3 = ChallengeConst
+		slot3 = slot3.BOSS_NUM
+
+		if slot3 < slot2 then
+			slot3 = ChallengeConst
+			slot3 = slot3.BOSS_NUM
+			slot3 = slot2 % slot3
+
+			if slot3 == 0 then
+				slot3 = ChallengeConst
+				slot3 = slot3.BOSS_NUM
+
+				if not slot3 then
+					slot3 = ChallengeConst
+					slot3 = slot3.BOSS_NUM
+					slot2 = slot2 % slot3
+				end
+			end
+		end
+	end
+
+	slot3 = setText
+	slot4 = slot0.roundNumText
+	slot5 = string
+	slot5 = slot5.format
+	slot6 = "%02d"
+	slot7 = slot2
+
+	slot3(slot4, slot5(slot6, slot7))
+
+	slot3 = setText
+	slot4 = slot0.roundText_1
+	slot5 = "Round"
+	slot6 = slot2 + 1
+	slot5 = slot5 .. slot6
+
+	slot3(slot4, slot5)
+
+	slot3 = setText
+	slot4 = slot0.roundText_2
+	slot5 = "Round"
+	slot6 = slot2 + 2
+	slot5 = slot5 .. slot6
+
+	slot3(slot4, slot5)
 end
 
 slot0.updateRoundText = slot1
 
 function slot1(slot0, slot1)
-	slot2 = slot1 or slot0.showingIndex
-	slot0.sliderSC.value = (slot0.curLevel - 1) * 1 / (ChallengeConst.BOSS_NUM - 1)
+	slot3 = slot0.curLevel
 
-	slot0.squareList:make(function (slot0, slot1, slot2)
-		slot3 = slot0:findTF("UnFinished", slot2)
-		slot4 = slot0:findTF("Finished", slot2)
-		slot5 = slot0:findTF("Challengeing", slot2)
-		slot6 = slot0:findTF("Arrow", slot2)
+	if ChallengeConst.BOSS_NUM < (slot1 or slot0.showingIndex) then
+		slot4 = ChallengeConst
+		slot4 = slot4.BOSS_NUM
+		slot4 = slot2 % slot4
+
+		if slot4 == 0 then
+			slot4 = ChallengeConst
+			slot4 = slot4.BOSS_NUM
+
+			if not slot4 then
+				slot4 = ChallengeConst
+				slot4 = slot4.BOSS_NUM
+				slot2 = slot2 % slot4
+			end
+		end
+	end
+
+	slot4 = slot0.curMode
+	slot5 = ChallengeProxy
+	slot5 = slot5.MODE_INFINITE
+
+	if slot4 == slot5 then
+		slot4 = ChallengeConst
+		slot4 = slot4.BOSS_NUM
+
+		if slot4 < slot3 then
+			slot4 = ChallengeConst
+			slot4 = slot4.BOSS_NUM
+			slot4 = slot3 % slot4
+
+			if slot4 == 0 then
+				slot4 = ChallengeConst
+				slot4 = slot4.BOSS_NUM
+
+				if not slot4 then
+					slot4 = ChallengeConst
+					slot4 = slot4.BOSS_NUM
+					slot3 = slot3 % slot4
+				end
+			end
+		end
+	end
+
+	slot4 = ChallengeConst
+	slot4 = slot4.BOSS_NUM
+	slot4 = slot4 - 1
+	slot4 = 1 / slot4
+	slot5 = slot3 - 1
+	slot5 = slot5 * slot4
+	slot6 = slot0.sliderSC
+	slot6.value = slot5
+	slot6 = slot0.squareList
+	slot7 = slot6
+	slot6 = slot6.make
+
+	function slot8(slot0, slot1, slot2)
+		slot3 = slot0
+		slot4 = slot3
+		slot3 = slot3.findTF
+		slot5 = "UnFinished"
+		slot6 = slot2
+		slot3 = slot3(slot4, slot5, slot6)
+		slot4 = slot0
+		slot5 = slot4
+		slot4 = slot4.findTF
+		slot6 = "Finished"
+		slot7 = slot2
+		slot4 = slot4(slot5, slot6, slot7)
+		slot5 = slot0
+		slot6 = slot5
+		slot5 = slot5.findTF
+		slot7 = "Challengeing"
+		slot8 = slot2
+		slot5 = slot5(slot6, slot7, slot8)
+		slot6 = slot0
+		slot7 = slot6
+		slot6 = slot6.findTF
+		slot8 = "Arrow"
+		slot9 = slot2
+		slot6 = slot6(slot7, slot8, slot9)
 
 		function slot7()
-			setActive(setActive, true)
-			setActive(setActive, false)
-			setActive(false, false)
+			slot0 = setActive
+			slot1 = slot0
+			slot2 = true
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot1
+			slot2 = false
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot2
+			slot2 = false
+
+			slot0(slot1, slot2)
 		end
 
 		function slot8()
-			setActive(setActive, false)
-			setActive(setActive, true)
-			setActive(true, false)
+			slot0 = setActive
+			slot1 = slot0
+			slot2 = false
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot1
+			slot2 = true
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot2
+			slot2 = false
+
+			slot0(slot1, slot2)
 		end
 
 		function slot9()
-			setActive(setActive, false)
-			setActive(setActive, false)
-			setActive(false, true)
+			slot0 = setActive
+			slot1 = slot0
+			slot2 = false
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot1
+			slot2 = false
+
+			slot0(slot1, slot2)
+
+			slot0 = setActive
+			slot1 = slot2
+			slot2 = true
+
+			slot0(slot1, slot2)
 		end
 
-		if slot0 == UIItemList.EventUpdate then
-			if slot1 + 1 < slot0.curLevel then
-				slot7()
-			elseif slot1 + 1 == slot0.curLevel then
-				slot9()
-			elseif slot0.curLevel < slot1 + 1 then
-				slot8()
-			end
+		slot10 = UIItemList
+		slot10 = slot10.EventUpdate
 
-			if slot1 + 1 == slot1 then
-				setActive(slot6, true)
+		if slot0 == slot10 then
+			slot10 = slot1 + 1
+			slot11 = slot1
+
+			if slot10 < slot11 then
+				slot10 = slot7
+
+				slot10()
 			else
-				setActive(slot6, false)
+				slot10 = slot1 + 1
+				slot11 = slot1
+
+				if slot10 == slot11 then
+					slot10 = slot9
+
+					slot10()
+				else
+					slot10 = slot1 + 1
+					slot11 = slot1
+
+					if slot11 < slot10 then
+						slot10 = slot8
+
+						slot10()
+					end
+				end
+			end
+
+			slot10 = slot1 + 1
+			slot11 = slot2
+
+			if slot10 == slot11 then
+				slot10 = setActive
+				slot11 = slot6
+				slot12 = true
+
+				slot10(slot11, slot12)
+			else
+				slot10 = setActive
+				slot11 = slot6
+				slot12 = false
+
+				slot10(slot11, slot12)
 			end
 		end
-	end)
-	slot0.squareList:align(ChallengeConst.BOSS_NUM)
+	end
+
+	slot6(slot7, slot8)
+
+	slot6 = slot0.squareList
+	slot7 = slot6
+	slot6 = slot6.align
+	slot8 = ChallengeConst
+	slot8 = slot8.BOSS_NUM
+
+	slot6(slot7, slot8)
 end
 
 slot0.updateSlider = slot1
@@ -1323,12 +2320,6 @@ function slot1(slot0)
 			slot4 = slot4.Stop
 
 			slot4(slot5)
-
-			slot4 = slot1
-			slot5 = slot4
-			slot4 = slot4.updateTimePanel
-
-			slot4(slot5)
 		end
 	end
 
@@ -1364,6 +2355,36 @@ function slot1(slot0)
 		slot1(slot2, slot3)
 	end
 
+	slot1 = slot0.curMode
+	slot2 = ChallengeProxy
+	slot2 = slot2.MODE_CASUAL
+
+	if slot1 == slot2 then
+		slot1 = setActive
+		slot2 = slot0.casualModBtnBG
+		slot3 = true
+
+		slot1(slot2, slot3)
+
+		slot1 = setActive
+		slot2 = slot0.infiniteModBtnBG
+		slot3 = false
+
+		slot1(slot2, slot3)
+	else
+		slot1 = setActive
+		slot2 = slot0.casualModBtnBG
+		slot3 = false
+
+		slot1(slot2, slot3)
+
+		slot1 = setActive
+		slot2 = slot0.infiniteModBtnBG
+		slot3 = true
+
+		slot1(slot2, slot3)
+	end
+
 	slot1 = onButton
 	slot2 = slot0
 	slot3 = slot0.casualModBtn
@@ -1382,133 +2403,77 @@ function slot1(slot0)
 		slot0 = slot0.curModeInfo
 
 		if slot0 then
-			slot1 = slot0.self.timeOverTag
+			function slot1()
+				slot0.challengeProxy:setCurMode(ChallengeProxy.MODE_CASUAL)
+				setActive(slot0.casualModBtnBG, true)
+				setActive(slot0.infiniteModBtnBG, false)
+				setActive:updateData()
+				setActive.updateData:updatePaintingList(slot0.nameList, slot0.showingIndex)
+				setActive.updateData.updatePaintingList:updateRoundText(slot0.showingIndex)
+				setActive.updateData.updatePaintingList.updateRoundText:updateSlider(slot0.showingIndex)
+				setActive.updateData.updatePaintingList.updateRoundText.updateSlider:updateSwitchModBtn()
+				setActive.updateData.updatePaintingList.updateRoundText.updateSlider.updateSwitchModBtn:updateFuncBtns()
+				setActive.updateData.updatePaintingList.updateRoundText.updateSlider.updateSwitchModBtn.updateFuncBtns:showTipText()
+			end
 
-			if slot1 then
-				slot1 = slot0
-				slot1 = slot1.curModeInfo
+			slot2 = slot0:isCrossedSeason()
 
-				if slot1 then
-					slot1 = "challenge_season_update_infinite_switch"
-					slot2 = slot0
-					slot3 = pg
-					slot3 = slot3.MsgboxMgr
-					slot3 = slot3.GetInstance
-					slot3 = slot3()
-					slot4 = slot3
-					slot3 = slot3.ShowMsgBox
-					slot5 = {
-						hideNo = false
-					}
-					slot6 = i18n
-					slot7 = slot1
-					slot8 = slot2
-					slot6 = slot6(slot7, slot8)
-					slot5.content = slot6
+			if slot2 then
+				slot2 = "challenge_season_update_infinite_switch"
+				slot3 = slot0
+				slot4 = pg
+				slot4 = slot4.MsgboxMgr
+				slot4 = slot4.GetInstance
+				slot4 = slot4()
+				slot5 = slot4
+				slot4 = slot4.ShowMsgBox
+				slot6 = {
+					hideNo = false
+				}
+				slot7 = i18n
+				slot8 = slot2
+				slot9 = slot3
+				slot7 = slot7(slot8, slot9)
+				slot6.content = slot7
 
-					function slot6()
-						slot0 = slot0
-						slot1 = slot0
-						slot0 = slot0.emit
-						slot2 = ChallengeConst
-						slot2 = slot2.RESET_DATA_EVENT
-						slot3 = ChallengeProxy
-						slot3 = slot3.MODE_INFINITE
-						slot4 = true
+				function slot7()
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.emit
+					slot2 = ChallengeConst
+					slot2 = slot2.RESET_DATA_EVENT
+					slot3 = ChallengeProxy
+					slot3 = slot3.MODE_INFINITE
 
-						slot0(slot1, slot2, slot3, slot4)
-					end
-
-					slot5.onYes = slot6
-
-					slot3(slot4, slot5)
-
-					return
+					slot0(slot1, slot2, slot3)
 				end
+
+				slot6.onYes = slot7
+				slot6.onNo = slot1
+
+				slot4(slot5, slot6)
+
+				return
 			end
 		end
 
-		slot1 = pg
-		slot1 = slot1.MsgboxMgr
-		slot1 = slot1.GetInstance
-		slot1 = slot1()
-		slot2 = slot1
-		slot1 = slot1.ShowMsgBox
-		slot3 = {
+		slot2 = pg
+		slot2 = slot2.MsgboxMgr
+		slot2 = slot2.GetInstance
+		slot2 = slot2()
+		slot3 = slot2
+		slot2 = slot2.ShowMsgBox
+		slot4 = {
 			hideNo = false
 		}
-		slot4 = i18n
-		slot5 = "challenge_infinite_click_switch"
-		slot6 = slot0
-		slot4 = slot4(slot5, slot6)
-		slot3.content = slot4
+		slot5 = i18n
+		slot6 = "challenge_infinite_click_switch"
+		slot7 = slot0
+		slot5 = slot5(slot6, slot7)
+		slot4.content = slot5
+		slot4.onYes = slot1
 
-		function slot4()
-			slot0 = slot0
-			slot0 = slot0.challengeProxy
-			slot1 = slot0
-			slot0 = slot0.setCurMode
-			slot2 = ChallengeProxy
-			slot2 = slot2.MODE_CASUAL
-
-			slot0(slot1, slot2)
-
-			slot0 = setActive
-			slot1 = slot0
-			slot1 = slot1.casualModBtnBG
-			slot2 = true
-
-			slot0(slot1, slot2)
-
-			slot0 = setActive
-			slot1 = slot0
-			slot1 = slot1.infiniteModBtnBG
-			slot2 = false
-
-			slot0(slot1, slot2)
-
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.updateData
-
-			slot0(slot1)
-
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.updatePaintingList
-			slot2 = slot0
-			slot2 = slot2.nameList
-			slot3 = slot0
-			slot3 = slot3.showingIndex
-
-			slot0(slot1, slot2, slot3)
-
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.updateRoundText
-			slot2 = slot0
-			slot2 = slot2.showingIndex
-
-			slot0(slot1, slot2)
-
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.updateSlider
-			slot2 = slot0
-			slot2 = slot2.showingIndex
-
-			slot0(slot1, slot2)
-
-			slot0 = slot0
-			slot1 = slot0
-			slot0 = slot0.updateResetBtn
-
-			slot0(slot1)
-		end
-
-		slot3.onYes = slot4
-
-		slot1(slot2, slot3)
+		slot2(slot3, slot4)
 	end
 
 	slot5 = SFX_PANEL
@@ -1520,13 +2485,6 @@ function slot1(slot0)
 	slot3 = slot0.infiniteModBtn
 
 	function slot4()
-		slot0 = print
-		slot1 = tostring
-		slot2 = slot0
-		slot2 = slot2.infiniteModBtn
-
-		slot0(slot1(slot2))
-
 		slot0 = slot0
 		slot0 = slot0.curMode
 		slot1 = ChallengeProxy
@@ -1553,72 +2511,10 @@ function slot1(slot0)
 				slot0 = slot0.getGradeList
 				slot0 = slot0(slot1)
 				slot0 = slot0.seasonMaxScore
-				slot0 = slot0()
 			end
 		end
 
-		slot1 = slot0
-		slot1 = slot1.self
-		slot1 = slot1.timeOverTag
-
-		if slot1 then
-			slot1 = slot0
-			slot1 = slot1.curModeInfo
-
-			if slot1 then
-				slot1 = "challenge_season_update_casual_switch"
-				slot2 = slot0
-				slot3 = pg
-				slot3 = slot3.MsgboxMgr
-				slot3 = slot3.GetInstance
-				slot3 = slot3()
-				slot4 = slot3
-				slot3 = slot3.ShowMsgBox
-				slot5 = {
-					hideNo = false
-				}
-				slot6 = i18n
-				slot7 = slot1
-				slot8 = slot2
-				slot6 = slot6(slot7, slot8)
-				slot5.content = slot6
-
-				function slot6()
-					slot0 = slot0
-					slot1 = slot0
-					slot0 = slot0.emit
-					slot2 = ChallengeConst
-					slot2 = slot2.RESET_DATA_EVENT
-					slot3 = ChallengeProxy
-					slot3 = slot3.MODE_CASUAL
-
-					slot0(slot1, slot2, slot3)
-				end
-
-				slot5.onYes = slot6
-
-				slot3(slot4, slot5)
-
-				return
-			end
-		end
-
-		slot1 = pg
-		slot1 = slot1.MsgboxMgr
-		slot1 = slot1.GetInstance
-		slot1 = slot1()
-		slot2 = slot1
-		slot1 = slot1.ShowMsgBox
-		slot3 = {
-			hideNo = false
-		}
-		slot4 = i18n
-		slot5 = "challenge_casual_click_switch"
-		slot6 = slot0
-		slot4 = slot4(slot5, slot6)
-		slot3.content = slot4
-
-		function slot4()
+		function slot1()
 			slot0 = slot0
 			slot0 = slot0.challengeProxy
 			slot1 = slot0
@@ -1676,14 +2572,77 @@ function slot1(slot0)
 
 			slot0 = slot0
 			slot1 = slot0
-			slot0 = slot0.updateResetBtn
+			slot0 = slot0.updateFuncBtns
+
+			slot0(slot1)
+
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.showTipText
 
 			slot0(slot1)
 		end
 
-		slot3.onYes = slot4
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.isCrossedSeason
+		slot2 = slot2(slot3)
 
-		slot1(slot2, slot3)
+		if slot2 then
+			slot2 = "challenge_season_update_casual_switch"
+			slot3 = slot0
+			slot4 = pg
+			slot4 = slot4.MsgboxMgr
+			slot4 = slot4.GetInstance
+			slot4 = slot4()
+			slot5 = slot4
+			slot4 = slot4.ShowMsgBox
+			slot6 = {
+				hideNo = false
+			}
+			slot7 = i18n
+			slot8 = slot2
+			slot9 = slot3
+			slot7 = slot7(slot8, slot9)
+			slot6.content = slot7
+
+			function slot7()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = ChallengeConst
+				slot2 = slot2.RESET_DATA_EVENT
+				slot3 = ChallengeProxy
+				slot3 = slot3.MODE_CASUAL
+
+				slot0(slot1, slot2, slot3)
+			end
+
+			slot6.onYes = slot7
+			slot6.onNo = slot1
+
+			slot4(slot5, slot6)
+
+			return
+		end
+
+		slot2 = pg
+		slot2 = slot2.MsgboxMgr
+		slot2 = slot2.GetInstance
+		slot2 = slot2()
+		slot3 = slot2
+		slot2 = slot2.ShowMsgBox
+		slot4 = {
+			hideNo = false
+		}
+		slot5 = i18n
+		slot6 = "challenge_casual_click_switch"
+		slot7 = slot0
+		slot5 = slot5(slot6, slot7)
+		slot4.content = slot5
+		slot4.onYes = slot1
+
+		slot2(slot3, slot4)
 	end
 
 	slot5 = SFX_PANEL
@@ -1699,23 +2658,107 @@ function slot1(slot0)
 	slot1 = slot1[slot2]
 
 	if slot1 then
-		slot2 = GetComponent
+		slot2 = setActive
 		slot3 = slot0.resetBtn
-		slot4 = "Button"
-		slot2 = slot2(slot3, slot4)
-		slot3 = true
-		slot2.interactable = slot3
+		slot4 = true
+
+		slot2(slot3, slot4)
+
+		slot2 = SetActive
+		slot3 = slot0.resetBtnBanned
+		slot4 = false
+
+		slot2(slot3, slot4)
 	else
-		slot2 = GetComponent
+		slot2 = setActive
 		slot3 = slot0.resetBtn
-		slot4 = "Button"
-		slot2 = slot2(slot3, slot4)
-		slot3 = false
-		slot2.interactable = slot3
+		slot4 = false
+
+		slot2(slot3, slot4)
+
+		slot2 = SetActive
+		slot3 = slot0.resetBtnBanned
+		slot4 = true
+
+		slot2(slot3, slot4)
 	end
 end
 
 slot0.updateResetBtn = slot1
+
+function slot1(slot0)
+	slot1 = slot0.userChallengeInfoList
+	slot2 = slot0.curMode
+	slot1 = slot1[slot2]
+
+	if slot1 then
+		slot2 = slot0.curMode
+		slot3 = ChallengeProxy
+		slot3 = slot3.MODE_CASUAL
+
+		if slot2 == slot3 then
+			slot3 = slot1
+			slot2 = slot1.getLevel
+			slot2 = slot2(slot3)
+			slot3 = ChallengeConst
+			slot3 = slot3.BOSS_NUM
+
+			if slot3 < slot2 then
+				slot2 = SetActive
+				slot3 = slot0.startBtn
+				slot4 = false
+
+				slot2(slot3, slot4)
+
+				slot2 = SetActive
+				slot3 = slot0.startBtnBanned
+				slot4 = true
+
+				slot2(slot3, slot4)
+			end
+		else
+			slot2 = SetActive
+			slot3 = slot0.startBtn
+			slot4 = true
+
+			slot2(slot3, slot4)
+
+			slot2 = SetActive
+			slot3 = slot0.startBtnBanned
+			slot4 = false
+
+			slot2(slot3, slot4)
+		end
+	else
+		slot2 = SetActive
+		slot3 = slot0.startBtn
+		slot4 = true
+
+		slot2(slot3, slot4)
+
+		slot2 = SetActive
+		slot3 = slot0.startBtnBanned
+		slot4 = false
+
+		slot2(slot3, slot4)
+	end
+end
+
+slot0.updateStartBtn = slot1
+
+function slot1(slot0)
+	slot2 = slot0
+	slot1 = slot0.updateResetBtn
+
+	slot1(slot2)
+
+	slot2 = slot0
+	slot1 = slot0.updateStartBtn
+
+	slot1(slot2)
+end
+
+slot0.updateFuncBtns = slot1
 
 function slot1(slot0)
 	slot1 = getProxy
@@ -1726,6 +2769,19 @@ function slot1(slot0)
 	slot3 = ChallengeConst
 	slot3 = slot3.CHALLENGE_AWARD_TASK_ID
 	slot1 = slot1(slot2, slot3)
+
+	if not slot1 then
+		slot2 = getProxy
+		slot3 = TaskProxy
+		slot2 = slot2(slot3)
+		slot3 = slot2
+		slot2 = slot2.getFinishTaskById
+		slot4 = ChallengeConst
+		slot4 = slot4.CHALLENGE_AWARD_TASK_ID
+		slot2 = slot2(slot3, slot4)
+		slot1 = slot2
+	end
+
 	slot3 = slot1
 	slot2 = slot1.getConfig
 	slot4 = "target_num"
@@ -1749,26 +2805,59 @@ function slot1(slot0)
 	slot4 = slot4(slot5)
 
 	if slot4 == 0 then
-		slot5 = GetComponent
+		slot5 = setActive
 		slot6 = slot0.getBtn
-		slot7 = "Button"
-		slot5 = slot5(slot6, slot7)
-		slot6 = false
-		slot5.interactable = slot6
+		slot7 = false
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.getBtnBanned
+		slot7 = true
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.gotBtn
+		slot7 = false
+
+		slot5(slot6, slot7)
 	elseif slot4 == 1 then
-		slot5 = GetComponent
+		slot5 = setActive
 		slot6 = slot0.getBtn
-		slot7 = "Button"
-		slot5 = slot5(slot6, slot7)
-		slot6 = true
-		slot5.interactable = slot6
+		slot7 = true
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.getBtnBanned
+		slot7 = false
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.gotBtn
+		slot7 = false
+
+		slot5(slot6, slot7)
 	elseif slot4 == 2 then
-		slot5 = GetComponent
+		slot5 = setActive
 		slot6 = slot0.getBtn
-		slot7 = "Button"
-		slot5 = slot5(slot6, slot7)
-		slot6 = false
-		slot5.interactable = slot6
+		slot7 = false
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.getBtnBanned
+		slot7 = false
+
+		slot5(slot6, slot7)
+
+		slot5 = setActive
+		slot6 = slot0.gotBtn
+		slot7 = true
+
+		slot5(slot6, slot7)
 	end
 
 	slot6 = slot1
@@ -1847,7 +2936,7 @@ function slot1(slot0)
 		slot10 = ChallengeConst
 		slot10 = slot10.NEED_TO_RESET_SAVELOAD
 
-		if slot9 == slot10 then
+		if slot10 <= slot9 then
 			slot1 = true
 			slot2 = slot8
 			slot3 = slot7
@@ -1928,6 +3017,77 @@ end
 slot0.showSLResetMsgBox = slot1
 
 function slot1(slot0)
+	slot1 = nil
+
+	setText(slot0.modTipText, i18n(slot1))
+
+	slot2 = slot0.modTipText:GetComponent(typeof(DftAniEvent))
+
+	if slot2 then
+		slot4 = slot2
+		slot3 = slot2.SetEndEvent
+
+		function slot5(slot0)
+			slot1 = setActive
+			slot2 = slot0
+			slot2 = slot2.modTipText
+			slot3 = false
+
+			slot1(slot2, slot3)
+		end
+
+		slot3(slot4, slot5)
+	end
+
+	slot3 = setActive
+	slot4 = slot0.modTipText
+	slot5 = true
+
+	slot3(slot4, slot5)
+end
+
+slot0.showTipText = slot1
+
+function slot1(slot0)
+	slot1 = slot0.fleetEditPanel
+	slot2 = slot1
+	slot1 = slot1.attach
+	slot3 = slot0
+
+	slot1(slot2, slot3)
+
+	slot1 = slot0.fleetEditPanel
+	slot2 = slot1
+	slot1 = slot1.setFleets
+	slot3 = slot0.fleets
+	slot4 = slot0.curMode
+	slot3 = slot3[slot4]
+
+	slot1(slot2, slot3)
+
+	slot1 = slot0.fleetEditPanel
+	slot2 = slot1
+	slot1 = slot1.set
+	slot3 = 1
+	slot4 = 1
+
+	slot1(slot2, slot3, slot4)
+
+	slot1 = pg
+	slot1 = slot1.UIMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot2 = slot1
+	slot1 = slot1.BlurPanel
+	slot3 = slot0.fleetEditPanel
+	slot3 = slot3._tf
+
+	slot1(slot2, slot3)
+end
+
+slot0.doOnFleetPanel = slot1
+
+function slot1(slot0)
 	slot1 = false
 	slot2 = slot0.userChallengeInfoList
 	slot3 = ChallengeProxy
@@ -1941,25 +3101,26 @@ function slot1(slot0)
 	if slot2 then
 		slot1 = true
 	elseif not slot2 then
-		if slot3 then
-			slot5 = slot3
-			slot4 = slot3.getSeasonID
-			slot4 = slot4(slot5)
-			slot5 = slot0.challengeInfo
-			slot6 = slot5
-			slot5 = slot5.getSeasonID
-			slot5 = slot5(slot6)
+		slot4 = slot0.challengeInfo
+		slot5 = slot4
+		slot4 = slot4.getGradeList
+		slot4 = slot4(slot5)
+		slot4 = slot4.seasonMaxLevel
 
-			if slot4 == slot5 then
-				slot4 = slot0.challengeInfo
-				slot5 = slot4
-				slot4 = slot4.getGradeList
-				slot4 = slot4(slot5)
-				slot4 = slot4.seasonMaxLevel
+		if slot3 then
+			slot6 = slot3
+			slot5 = slot3.getSeasonID
+			slot5 = slot5(slot6)
+			slot6 = slot0.challengeInfo
+			slot7 = slot6
+			slot6 = slot6.getSeasonID
+			slot6 = slot6(slot7)
+
+			if slot5 == slot6 then
 				slot5 = ChallengeConst
 				slot5 = slot5.BOSS_NUM
 
-				if slot4 == slot5 then
+				if slot5 <= slot4 then
 					slot1 = true
 				else
 					slot1 = false
@@ -1967,8 +3128,15 @@ function slot1(slot0)
 			else
 				slot1 = false
 			end
-		elseif not slot3 then
-			slot1 = false
+		else
+			slot5 = ChallengeConst
+			slot5 = slot5.BOSS_NUM
+
+			if slot5 <= slot4 then
+				slot1 = true
+			elseif not slot3 then
+				slot1 = false
+			end
 		end
 	end
 
@@ -2019,6 +3187,21 @@ function slot1(slot0)
 end
 
 slot0.commitEdit = slot1
+
+function slot1(slot0, slot1, slot2)
+	slot4 = slot0
+	slot3 = slot0.emit
+	slot5 = ChallengeMainMediator
+	slot5 = slot5.ON_FLEET_SHIPINFO
+	slot6 = {
+		shipId = slot1,
+		shipVOs = slot2
+	}
+
+	slot3(slot4, slot5, slot6)
+end
+
+slot0.openShipInfo = slot1
 
 function slot1(slot0)
 	slot1 = setActive
@@ -2112,30 +3295,13 @@ function slot1(slot0, slot1, slot2)
 			slot1 = slot1.closeCommanderPanel
 
 			slot1(slot2)
-		else
+
 			slot1 = slot0
 			slot2 = slot1
-			slot1 = slot1.emit
-			slot3 = ChallengeMainMediator
-			slot3 = slot3.ON_COMMANDER_OP
-			slot4 = {}
-			slot5 = LevelUIConst
-			slot5 = slot5.FLEET_TYPE_EDIT
-			slot4.FleetType = slot5
-			slot4.data = slot0
-			slot5 = slot1
-			slot4.index = slot5
-			slot5 = chapterId
-			slot4.chapterId = slot5
+			slot1 = slot1.hideFleetEdit
 
-			slot1(slot2, slot3, slot4)
+			slot1(slot2)
 		end
-
-		slot1 = slot0
-		slot2 = slot1
-		slot1 = slot1.hideFleetEdit
-
-		slot1(slot2)
 	end
 
 	slot4 = LevelCMDFormationView
@@ -2165,6 +3331,13 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot4
 	slot4 = slot4.ActionInvoke
 	slot6 = "open"
+
+	slot4(slot5, slot6)
+
+	slot4 = slot0.levelCMDFormationView
+	slot5 = slot4
+	slot4 = slot4.ActionInvoke
+	slot6 = "hidePrefabButtons"
 
 	slot4(slot5, slot6)
 end
@@ -2206,9 +3379,19 @@ function slot1(slot0)
 		if slot1 then
 			slot1 = slot0.levelCMDFormationView
 			slot2 = slot1
-			slot1 = slot1.close
+			slot1 = slot1.CheckState
+			slot3 = BaseSubView
+			slot3 = slot3.STATES
+			slot3 = slot3.DESTROY
+			slot1 = slot1(slot2, slot3)
 
-			slot1(slot2)
+			if not slot1 then
+				slot1 = slot0.levelCMDFormationView
+				slot2 = slot1
+				slot1 = slot1.close
+
+				slot1(slot2)
+			end
 		end
 	end
 end

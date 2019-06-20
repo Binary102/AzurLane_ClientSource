@@ -164,6 +164,7 @@ return {
 			mode = 3,
 			bgSpeed = 0.5,
 			blackBg = true,
+			useBg2 = true,
 			flashout = {
 				dur = 2,
 				black = true,
@@ -186,6 +187,7 @@ return {
 			bgName = "bg_story_12",
 			mode = 1,
 			asideType = 2,
+			useBg2 = true,
 			bgShadow = {
 				1,
 				0.6,
@@ -243,7 +245,11 @@ return {
 			},
 			signDate = {
 				"谨此纪念不应被忘却的故事 —— 9.23",
-				34
+				34,
+				{
+					-580,
+					-400
+				}
 			}
 		}
 	}

@@ -91,20 +91,19 @@ function slot0.createFriendItem(slot0, slot1)
 			slot0.nameTF.text = slot1.name
 			slot0.levelTF.text = "LV." .. slot1.level
 			slot3 = pg.ship_data_statistics[slot1.icon]
-			slot4 = Ship.New({
+
+			LoadSpriteAsync("qicon/" .. Ship.New({
 				configId = slot1.icon,
 				skin_id = slot1.skinId
-			})
-
-			LoadSpriteAsync("qicon/" .. slot4:getPainting(), function (slot0)
+			}):getPainting(), function (slot0)
 				if not slot0 then
 					slot0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")
 				else
 					slot0.iconTF.sprite = slot0
 				end
 			end)
-			setActive(slot0.maryyFrame, slot4.skinId and slot4.skinId ~= 0)
-			setActive(slot0.commonFrame, not slot4.skinId or slot4.skinId == 0)
+			setActive(slot0.maryyFrame, slot1.propose)
+			setActive(slot0.commonFrame, not slot1.propose)
 
 			if slot1.id == slot1.id and slot0.toggle.isOn == false then
 				triggerToggle(slot0.tf, true)

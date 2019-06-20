@@ -140,21 +140,22 @@ ys.Battle.BattleTargetChoise = {
 	end,
 	TargetHelpLeastHPRatio = function (slot0, slot1, slot2)
 		slot1 = slot1 or {}
+		slot3 = nil
 
 		if slot0 then
-			slot3 = 100
-			slot4 = slot2 or slot0.getShipListByIFF(slot0:GetIFF())
+			slot4 = 100
+			slot5 = slot2 or slot0.getShipListByIFF(slot0:GetIFF())
 
-			for slot8, slot9 in pairs(slot4) do
-				if slot9:IsAlive() and slot9:GetHPRate() < slot3 then
-					target = slot9
-					slot3 = slot9:GetHPRate()
+			for slot9, slot10 in pairs(slot5) do
+				if slot10:IsAlive() and slot10:GetHPRate() < slot4 then
+					slot3 = slot10
+					slot4 = slot10:GetHPRate()
 				end
 			end
 		end
 
 		return {
-			target
+			slot3
 		}
 	end,
 	TargetHighestHP = function (slot0, slot1, slot2)

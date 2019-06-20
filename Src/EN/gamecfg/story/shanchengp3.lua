@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>三 微风轻拂</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 3 - A Light Breeze</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区附近的神社——",
+			say = "The shrine close to the port...",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐～我们来帮你了～！……哇哇哇！",
+			say = "Fusouuuu, I've come to help~!! ...Uwooahh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}？小心！……唉……不是跟你说过上楼梯的时候不要爬太快的吗……",
+			say = "Yamashiro? Watch out...! Phew... how many times have I told you not to run up the stairs?",
 			side = 0,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对不起啊姐姐……啊！今天殿下让我包场了，我们一起来大扫除吧！",
+			say = "Sorry, Fusou... Oh! I borrowed Milord for the day, so we've come to help you clean the shrine!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,21 +103,24 @@ return {
 			}
 		},
 		{
-			side = 2,
+			nameColor = "#a9f548",
+			side = 0,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "包场……？",
+			actor = 305010,
+			actorName = "{namecode:78}",
+			say = "B-Borrowed...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "问{namecode:79}",
+					content = "Ask Yamashiro",
 					flag = 1
 				},
 				{
-					content = "问{namecode:78}",
+					content = "Enlighten Fusou",
 					flag = 2
 				}
 			}
@@ -130,7 +133,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "包场是什么意思？呃，就是今天一天殿下都让我给包了，就是这个意思！",
+			say = "What does \"borrowed\" mean? Um, it's because you've agreed to spend the day with me, or something like that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +151,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:17}告诉我的“包租男友”，应该就是包场没错了！",
+			say = "Shigure said that this was like a date but not really, so... borrowing makes sense!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +169,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "Anyway, Milord, you made a promise to me before, so that's why I picked the same day off as you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +180,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "Well, just having Commander here will be a huge help. Let's give it our all today.",
 			side = 0,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:78}",
@@ -206,7 +209,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "包场是什么意思？嗯……我也不太明白……",
+			say = "Oh that's what \"borrowed\" means? ... I don't think I get it, but that's all right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +227,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}这孩子，大概又从别人那里学到什么一知半解的新词了吧……",
+			say = "You know how Yamashiro is... She probably picked up some strange thing someone else said without fully understanding it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +238,7 @@ return {
 			}
 		},
 		{
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "Anyway, Milord, you made a promise to me before, so that's why I picked the same day off as you!",
 			side = 1,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:79}",
@@ -264,7 +267,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "Well, just having Commander here will be a huge help. Let's give it our all today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +284,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "……嗯？你说这神社是什么时候建的……？",
+			say = "Hmm...? You're curious about when this shrine was built...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +301,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "是啊，这么说来，上次过年的时候殿下因为工作太忙，没有来新年参拜呢……",
+			say = "If I remember correctly, Commander, you had too much work to come here for last year's Hatsumode, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +318,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，过年用的临时设施，本来是想在别的地方临时搭一个的……",
+			say = "Well, this one started as a makeshift for the New Year's celebration while we planned to build another shrine elsewhere, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +335,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "重樱的成员也越来越多了，既然要搭的话，我想要是能做个给大家留下回忆的地方就好了，就和姐姐商量着盖了这座神社！",
+			say = "As the number of people from the Sakura Empire increased, we figured that if we were to build a shrine, it should be a place for everyone to make fond memories. That's why the two of us decided to build as nice a shrine as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +350,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			say = "说得容易，这么大规模的神社，要盖起来相当费力吧……",
+			say = "Easier said than done. An elaborate shrine like this must have been incredibly difficult to build...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

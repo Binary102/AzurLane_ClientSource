@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比预想的要快呢……而且这次是两个吗……看起来是跑不掉了呢……",
+			say = "You're much faster than I imagined...! And now, with two of you, it seems fleeing is no longer an option for me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "……你为什么还能这么冷静？",
+			say = "... I wasn't expecting you to be so calm. Have you accepted your fate?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……该说任务完成……了吗？我所护送的目标已经和我们分开走向了另一条航道，你们出现在这里，就意味着那边已经安全了吧",
+			say = "I've already achieved my objective. The mere fact that you're here means that our transport ships can travel safely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，现在告诉你们也无妨了吧。虽然不小心被你们抓到破绽，但从另一方面说也算是成功拖住你们了吧……那一边的行动……应该已经顺利完成了吧……",
+			say = "Even if you decide to pursue them right now, it's too late! We've won!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说唯一的遗憾……就是要这两个孩子为我的失策买单了呢……",
+			say = "My only regret is that I couldn't say goodbye to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才不要抛下光荣姐姐不管！",
+			say = "Glorious! I'm here with you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也，不想一个人逃跑……",
+			say = "Same. I'm not running off anywhere on my own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我现在似乎有点理解皇家方舟了……",
+			say = "(O-oh my goodness, they're adorable! Ark, I think now I understand why you feel the way you do...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "皇家的行动？！ 嘁……原来是这样吗！姐姐！我们没时间在这里浪费了！",
+			say = "That means the transport ships are...! Scharnhorst, I must go! I can still catch up to them if I leave right at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "欸？！不打了吗？",
+			say = "Huh? You mean you're not fighting these chumps with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "去或者留，就由不得你们了！",
+			say = "You will not get past us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "啧，难缠的家伙…没想到会变成这种状况……明明老鹰捕兔，却被蛇给缠住了……",
+			say = "Why, you stubborn little flies... A cornered rat may bite the cat, but it stands no chance against a snake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "管他是蛇还是兔子，只要解决掉就好了吧！",
+			say = "Save your analogies for later! Let's just take 'em out before it's too late!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "也只能这样了……",
+			say = "I suppose we have no other choice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

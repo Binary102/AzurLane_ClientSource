@@ -615,10 +615,9 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
 		end
 
-		slot3.fontSize = slot0.initfontSize
-		slot8, slot5 = Ship.getWords(slot0.shipVO.skinId, slot1)
+		slot8, slot5 = Ship.getWords(slot0.shipVO.skinId, slot1, nil, nil, slot0.shipVO:getIntimacy() / 100 + ((slot0.shipVO.propose and 1000) or 0))
 
-		setTextEN(slot0.chatText, slot4)
+		setTextEN(slot0.chatText, Ship.getWords)
 
 		while slot0.initChatBgH < slot3.preferredHeight do
 			slot3.fontSize = slot3.fontSize - 2

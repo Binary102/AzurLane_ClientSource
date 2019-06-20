@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>4: A Lost Gift, Part 2</size>",
+					"Winter Offensive\n\n<size=45>Chapter 4 - A Lost Gift Pt. 2</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Ugh...Where on earth could it be...?",
+			say = "Uuuuu... just where could it be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			say = "Hmm? What are you looking for? This place is a mess...",
+			say = "Hm? Yamashiro, are you looking for something? This place is a mess.",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Sniff...I can't find it...the swimsuit the Commander gave me...",
+			say = "Fusou, I can't... find the swimsuit... that Milord gave me... waaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "Sigh...Silly, didn't you say the Commander's gift was super important, so you specifically put it in a different place?",
+			say = "Oh, you... Didn't you keep it in a separate place because it was a special gift that you received from Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "Here, found it~",
+			say = "See? It's right here.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "Waaa! Thank you, Sis! Sob...",
+			say = "Yay! Thank you so much, Fusou... Uuu...",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "But why are you suddenly looking for your swimsuit? Don't tell me...",
+			say = "Why are you looking for your swimsuit all of a sudden? Don't tell me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "You're really going winter swimming?",
+			say = "You're actually going to join that cold-water swim meet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "I ran into {namecode:77} and the others outside earlier. As a resident of Omosakura...I can't afford to fail like this.",
+			say = "Mm... I ran into Hyuuga outside. It made me realize that as a member of the Sakura Fleet, I can't afford to fall behind...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "Ahaha! You're such a good girl, {namecode:79}~!",
+			say = "My, aren't you the hard worker~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "Why not ask the Commander to join your training, too?",
+			say = "We don't get an opportunity like this often, so why not ask Commander to participate as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "D-Don't even joke like that, Sis! ...Besides, the Commander is always so busy...he'd never have the time...",
+			say = "D-Don't tease me like that, Fusou...! Besides, there's no way Milord will have time to spare, with all the work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

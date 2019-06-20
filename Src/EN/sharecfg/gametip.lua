@@ -9141,7 +9141,7 @@ The chance for an aircraft to avoid enemy Anti-Air fire depends on the AVI stat 
 		key = "refuse_friend"
 	},
 	refuse_and_add_into_bl = {
-		tip = "Decline and add to blacklist?",
+		tip = "Decline and blacklist?",
 		key = "refuse_and_add_into_bl"
 	},
 	tech_simulate_closed = {
@@ -9507,6 +9507,66 @@ Returning Commanders:
 	bismarck_chapter_desc = {
 		tip = "Participate in \"Scherzo of Iron and Blood\" and complete tasks to acquire rare items. ",
 		key = "bismarck_chapter_desc"
+	},
+	pass_times = {
+		tip = "Stage clears.",
+		key = "pass_times"
+	},
+	list_empty_tip_billboardui = {
+		tip = "No ranking data available.",
+		key = "list_empty_tip_billboardui"
+	},
+	list_empty_tip_equipmentdesignui = {
+		tip = "You don't have any blueprints.",
+		key = "list_empty_tip_equipmentdesignui"
+	},
+	list_empty_tip_storehouseui_equip = {
+		tip = "You don't have any gear.",
+		key = "list_empty_tip_storehouseui_equip"
+	},
+	list_empty_tip_storehouseui_item = {
+		tip = "You don't have any materials.",
+		key = "list_empty_tip_storehouseui_item"
+	},
+	list_empty_tip_eventui = {
+		tip = "No urgent commissions available.",
+		key = "list_empty_tip_eventui"
+	},
+	list_empty_tip_guildrequestui = {
+		tip = "No pending Guild applications.",
+		key = "list_empty_tip_guildrequestui"
+	},
+	list_empty_tip_joinguildui = {
+		tip = "Found no Guilds matching your search criteria.",
+		key = "list_empty_tip_joinguildui"
+	},
+	list_empty_tip_friendui = {
+		tip = "Your friends list is empty.",
+		key = "list_empty_tip_friendui"
+	},
+	list_empty_tip_friendui_search = {
+		tip = "Found no commanders matching your search criteria.",
+		key = "list_empty_tip_friendui_search"
+	},
+	list_empty_tip_friendui_request = {
+		tip = "You have no pending friend requests.",
+		key = "list_empty_tip_friendui_request"
+	},
+	list_empty_tip_friendui_black = {
+		tip = "There are no commanders on your blacklist.",
+		key = "list_empty_tip_friendui_black"
+	},
+	list_empty_tip_dockyardui = {
+		tip = "Found no ships matching your filter criteria.",
+		key = "list_empty_tip_dockyardui"
+	},
+	list_empty_tip_taskscene = {
+		tip = "There are no missions available.",
+		key = "list_empty_tip_taskscene"
+	},
+	empty_tip_mailboxui = {
+		tip = "You don't have any mail.",
+		key = "empty_tip_mailboxui"
 	}
 }
 

@@ -19,8 +19,8 @@ return {
 				"The night of the war's outbreak - coordinates: 27.328699，-159.870474",
 				0.2,
 				{
-					684,
-					-685
+					600,
+					-480
 				}
 			}
 		},

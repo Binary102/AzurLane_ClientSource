@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>七 晴空万里</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 7 - Blue Skies</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}～殿下～你们没事吧～？",
+			say = "Yamashiro! Commander! Are you two alright?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀。……呵呵",
+			say = "Oh my...! Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:78}姐姐！",
+			say = "Fusou!",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "嗯……雨都下起来了也没见你们回来，我就过来送伞……",
+			say = "Hmm, since it started raining before the two of you got back, I came to bring you some umbrellas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "看这样子伞是用不着了吧♪",
+			say = "But it looks like we won't need these anymore~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "姐姐你真是的！不过还是谢谢你！",
+			say = "Jeez, Fusou! But, thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……嗯？那是……是彩虹啊！姐姐，殿下，是彩虹！",
+			say = "Hm? Look over there... it's a rainbow! Fusou, Milord, look, a rainbow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "被{namecode:79}拉起了手，走出休息室——",
+			say = "Yamashiro took my hand and pulled me outside---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐妹二人一同建造的神社，鸟居上架起了小小的、美丽的彩虹。",
+			say = "Above the gates of the shrine that these two sisters had painstakingly built sat a small rainbow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,24 +177,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，刚才我还有句话忘了说。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "现在的我，非常非常幸福！",
+			say = "Milord, there's something I forgot to tell you earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +194,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "因为这里，有这么多的伙伴们，有{namecode:78}姐姐，还有我最喜欢的殿下也在啊！",
+			say = "Right now, I feel like the luckiest girl in the world!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "Because right here, I can be with my sister, my friends, and the person I love the most!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:79}一边说着，一边凑了过来——",
+			say = "With that, Yamashiro turned towards me and ---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啾~",
+			say = "*mwah~*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "脸颊上传来了嘴唇柔软的感触。",
+			say = "I felt her soft lips press against my cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以呢——今天、明天、都是幸福的大晴天！",
+			say = "That's why... today, tomorrow, there will be nothing but blue skies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "是吧，殿下♪",
+			say = "Right, Milord~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

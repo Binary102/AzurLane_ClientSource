@@ -3539,6 +3539,15 @@ function slot2(slot0, slot1, slot2, slot3)
 
 			slot3 = slot0
 			slot3.actorPainting = slot0
+			slot3 = Ship
+			slot3 = slot3.SetExpression
+			slot4 = slot0
+			slot4 = slot4.actorPainting
+			slot5 = slot0
+			slot5 = slot5.paintingName
+
+			slot3(slot4, slot5)
+
 			slot3 = slot1
 
 			slot3()

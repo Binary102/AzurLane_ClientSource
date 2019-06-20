@@ -240,7 +240,6 @@ slot7 = {
 	"AwardInfoUI",
 	"SkillInfoUI",
 	"ItemInfoUI",
-	"LevelUI3",
 	"ShipDetailView",
 	"LevelFleetSelectView"
 }
@@ -511,6 +510,16 @@ function pg.PoolMgr.ReturnPrefab(slot0, slot1, slot2, slot3)
 	end
 end
 
+function pg.PoolMgr.DestroyPrefab(slot0, slot1, slot2)
+	if slot0.pools_plural[slot1 .. slot2] then
+		slot0.pools_plural[slot3]:Clear()
+
+		slot0.pools_plural[slot3] = nil
+
+		ResourceMgr.Inst:ClearBundleRef(slot1, true, false)
+	end
+end
+
 function pg.PoolMgr.DestroyAllPrefab(slot0)
 	slot1 = {}
 
@@ -628,6 +637,16 @@ function pg.PoolMgr.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	else
 		slot5(ResourceMgr.Inst:getAssetSync(slot1, slot2, slot4, slot6, false))
 	end
+end
+
+function pg.PoolMgr.PrintPools(slot0)
+	slot1 = ""
+
+	for slot5, slot6 in pairs(slot0.pools_plural) do
+		slot1 = slot1 .. "\n" .. slot5
+	end
+
+	print(slot1)
 end
 
 return

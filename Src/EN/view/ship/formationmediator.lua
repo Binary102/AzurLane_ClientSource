@@ -30,12 +30,16 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetFleets(slot3)
 	slot0.viewComponent:setCommanderPrefabFleet(getProxy(CommanderProxy).getPrefabFleet(slot4))
 	slot0:bind(slot0.ON_CMD_SKILL, function (slot0, slot1)
+		slot0.viewComponent.commanderFormationPanel:Hide()
 		slot0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
 			viewComponent = CommanderSkillLayer,
 			data = {
 				skill = slot1
-			}
+			},
+			onRemoved = function ()
+				slot0.viewComponent.commanderFormationPanel:Show()
+			end
 		}))
 	end)
 	slot0:bind(slot0.COMMIT_FLEET, function (slot0, slot1)
@@ -169,13 +173,11 @@ end
 
 function slot0.onSelectCommander(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
-	slot3 = getProxy(FleetProxy):getFleetById(slot1)
-	slot4 = slot3:getCommanderByPos(slot0)
-	slot5 = slot3:getCommanders()
+	slot4 = getProxy(FleetProxy):getFleetById(slot1).getCommanderByPos(slot3, slot0)
 
-	for slot10, slot11 in ipairs(slot6) do
-		if slot4 and slot11 == slot4.id then
-			table.remove(slot6, slot10)
+	for slot9, slot10 in ipairs(slot5) do
+		if slot4 and slot10 == slot4.id then
+			table.remove(slot5, slot9)
 
 			break
 		end
@@ -185,90 +187,23 @@ function slot0.onSelectCommander(slot0, slot1)
 		maxCount = 1,
 		mode = CommandRoomScene.MODE_SELECT,
 		activeCommander = slot4,
-		ignoredIds = slot6,
+		ignoredIds = slot5,
 		onCommander = function (slot0)
 			return true
 		end,
 		onSelected = function (slot0, slot1)
-			slot2 = slot0[1]
-
-			if not slot0 or slot0.id ~= slot2 then
-				slot3 = getProxy(CommanderProxy):getCommanderById(slot2)
-
-				for slot7, slot8 in pairs(slot1) do
-					if slot8.groupId == slot3.groupId and slot7 ~= slot2 and slot2 ~= slot8.id then
-						pg.TipsMgr:GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
-
-						return
+			pg.m02:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
+				fleetId = slot0,
+				pos = slot1,
+				commanderId = slot0[1],
+				callback = function ()
+					if slot0.EdittingFleet then
+						slot0.EdittingFleet.commanderIds = getProxy(FleetProxy):getFleetById(slot0.EdittingFleet.id).commanderIds
 					end
+
+					slot1()
 				end
-			end
-
-			function slot4(slot0)
-				if (slot0 == 2 and 1) or 2[] and slot2.id == slot0 then
-					return true, slot1
-				end
-
-				return false
-			end
-
-			slot5 = {}
-			slot6 = true
-			slot7, slot8 = slot3(slot2)
-
-			if slot7 then
-				table.insert(slot5, function (slot0)
-					pg.MsgboxMgr:GetInstance():ShowMsgBox({
-						content = i18n("comander_repalce_tip", Fleet.DEFAULT_NAME[slot0.fleetId], (slot0.pos == 1 and i18n("commander_main_pos")) or i18n("commander_assistant_pos")),
-						onYes = function ()
-							pg.m02:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-								commanderId = 0,
-								fleetId = slot0.fleetId,
-								pos = slot0.pos,
-								callback = pg.m02
-							})
-						end,
-						onNo = function ()
-							slot0 = false
-
-							slot1()
-						end
-					})
-				end)
-			end
-
-			slot9, slot10 = slot4(slot2)
-
-			if slot9 then
-				table.insert(slot5, function (slot0)
-					pg.m02:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-						commanderId = 0,
-						fleetId = slot0,
-						pos = pg.m02.sendNotification,
-						callback = slot0
-					})
-				end)
-			end
-
-			table.insert(slot5, function (slot0)
-				if slot0 then
-					pg.m02:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-						fleetId = slot1,
-						pos = slot2,
-						commanderId = slot3,
-						callback = function (slot0)
-							if slot0.EdittingFleet then
-								slot0.EdittingFleet.commanderIds = slot0.commanderIds
-							end
-
-							slot1()
-						end
-					})
-				else
-					slot0()
-				end
-			end)
-			seriesAsync(slot5, slot1)
+			})
 		end,
 		onQuit = function (slot0)
 			pg.m02:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {

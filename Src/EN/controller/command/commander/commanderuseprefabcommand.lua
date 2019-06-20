@@ -32,10 +32,10 @@ class("CommanderUsePrefabCommand", pm.SimpleCommand).execute = function (slot0, 
 		end,
 		function (slot0)
 			if slot0:getCommanderByPos(1) then
-				slot2(slot1, GAME.COOMMANDER_EQUIP_TO_FLEET, {
+				slot1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
 					pos = 1,
-					fleetId = slot1.sendNotification,
-					commanderId = (slot1 and slot1.id) or 0,
+					fleetId = slot2,
+					commanderId = slot1.id,
 					callback = slot0
 				})
 			else
@@ -44,10 +44,10 @@ class("CommanderUsePrefabCommand", pm.SimpleCommand).execute = function (slot0, 
 		end,
 		function (slot0)
 			if slot0:getCommanderByPos(2) then
-				slot2(slot1, GAME.COOMMANDER_EQUIP_TO_FLEET, {
+				slot1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
 					pos = 2,
-					fleetId = slot1.sendNotification,
-					commanderId = (slot1 and slot1.id) or 0,
+					fleetId = slot2,
+					commanderId = slot1.id,
 					callback = slot0
 				})
 			else

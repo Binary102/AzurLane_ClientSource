@@ -19,8 +19,8 @@ return {
 				"Twelve years ago, at the Sacred Sakura",
 				0.2,
 				{
-					1050.15,
-					-685
+					600,
+					-480
 				}
 			}
 		},

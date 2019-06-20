@@ -32,6 +32,15 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 12291
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
 				"onHPRatioUpdate"
 			},
 			arg_list = {

@@ -4967,6 +4967,124 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201021] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20102,
+		breakout_id = 201022,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 201021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71011
+		}
+	},
+	[201022] = {
+		use_gold = 800,
+		pre_id = 201021,
+		use_char_num = 1,
+		use_char = 20102,
+		breakout_id = 201023,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		id = 201022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[201023] = {
+		use_gold = 1500,
+		pre_id = 201022,
+		use_char_num = 2,
+		use_char = 20102,
+		breakout_id = 201024,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 201023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71012
+		}
+	},
+	[201024] = {
+		use_gold = 0,
+		pre_id = 201023,
+		use_char_num = 0,
+		use_char = 20102,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 201024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[201031] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20103,
+		breakout_id = 201032,
+		breakout_view = "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+		id = 201031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71011
+		}
+	},
+	[201032] = {
+		use_gold = 800,
+		pre_id = 201031,
+		use_char_num = 1,
+		use_char = 20103,
+		breakout_id = 201033,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		id = 201032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[201033] = {
+		use_gold = 1500,
+		pre_id = 201032,
+		use_char_num = 2,
+		use_char = 20103,
+		breakout_id = 201034,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 201033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71012
+		}
+	},
+	[201034] = {
+		use_gold = 0,
+		pre_id = 201033,
+		use_char_num = 0,
+		use_char = 20103,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 201034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[201061] = {
 		use_gold = 100,
 		pre_id = 0,
@@ -8342,6 +8460,71 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 207044,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[207061] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20706,
+		breakout_id = 207062,
+		breakout_view = "All fighters +1/Fighter efficiency +5%",
+		id = 207061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60221,
+			54014
+		}
+	},
+	[207062] = {
+		use_gold = 1500,
+		pre_id = 207061,
+		use_char_num = 1,
+		use_char = 20706,
+		breakout_id = 207063,
+		breakout_view = "Hangar capacity +1/All Torpedo Bombers +1/Torpedo Bomber efficiency +5%",
+		id = 207062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60222,
+			54014,
+			60222,
+			54014
+		}
+	},
+	[207063] = {
+		use_gold = 2500,
+		pre_id = 207062,
+		use_char_num = 2,
+		use_char = 20706,
+		breakout_id = 207064,
+		breakout_view = "All fighters +1/Fighter efficiency +15%",
+		id = 207063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60223,
+			54015,
+			60223,
+			54015
+		}
+	},
+	[207064] = {
+		use_gold = 0,
+		pre_id = 207063,
+		use_char_num = 0,
+		use_char = 20706,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 207064,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -17695,6 +17878,14 @@ pg.ship_data_breakout = {
 		201012,
 		201013,
 		201014,
+		201021,
+		201022,
+		201023,
+		201024,
+		201031,
+		201032,
+		201033,
+		201034,
 		201061,
 		201062,
 		201063,
@@ -17919,6 +18110,10 @@ pg.ship_data_breakout = {
 		207042,
 		207043,
 		207044,
+		207061,
+		207062,
+		207063,
+		207064,
 		213011,
 		213012,
 		213013,

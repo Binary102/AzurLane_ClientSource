@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>7: Attack on Hot Spring!</size>",
+					"Winter Offensive\n\n<size=45>Chapter 7 - Hot Springs Offensive!</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Huaah~~I'm alive again~~",
+			say = "Fwaahh... I can feel my hitpoints recovering~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Heehee, hot springs really are the best in the winter, huh~",
+			say = "Heehee, nothing beats a soak in the hot springs during the winter!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "But what about training?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "T-Training? You should wait for summer to do that sort of thing...",
+			say = "T-training? Can't that wait 'til summer...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Also...C-Commander-sama, don't you like soaking in the hot spring with me?",
+			say = "Milord, perhaps you don't like being in the hot springs with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "!! (Shake Head)",
+			say = "That's not it!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Heehee...Did you know, Commander-sama? {namecode:79} has always treasured that swimsuit you gave her~",
+			say = "Ehehe... Did you know? I've always treasured that swimsuit that you bought for me~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 305021,
 			nameColor = "#a9f548",
-			say = "Even though there are still many hardships and challenges to face...",
+			say = "We've had to endure a whole lot of hardships up until now, and surely... more will await us in the future...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Being able to enjoy a trip to the hot springs with Commander-sama and everyone...makes me feel like we can do anything!",
+			say = "But as long as we're all together, we can accomplish anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "That's right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "So please take good care of us all from now on, Commander-sama~!",
+			say = "So... please continue to guide us forward, Milord~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

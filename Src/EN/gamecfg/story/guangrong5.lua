@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>五 和驱逐舰们一起</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 5 - The Destroyers</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "港区·工厂",
+			say = "Port - Workshop",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "今天接到{namecode:98}的委托，来工厂整理备用品和装备。",
+			say = "We received a request from Akashi to go to the workshop and sort through the stockpiled materiel and equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "阿卡斯塔，不要偷懒，快来帮忙啦！我们答应了光荣要帮忙不是嘛！",
+			say = "Acasta, quit slacking off and come help! We promised to help Glorious, didn't we?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "呵啊……我有在做啊……这边的灰尘也太多了……",
+			say = "Uuuughhh... I'm doing it... it's just really dusty over here...",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等一下，那边我自己打扫就好，热心和阿卡斯塔先检查一下备用品清单吧。",
+			say = "Hold up, I'll clean over there myself. Ardent and Acasta, you check these items against the manifest please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "感觉全都是光荣一个人在忙……明明我们是来帮忙的，这算帮忙吗……",
+			say = "I feel like Glorious is just doing everything herself... We came here to help, but is this helping...?",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们不用在意。这边本来就是脏活，我来干就好了。再说还有指挥官呢。",
+			say = "Don't worry about it. This place was always very dusty, I'll take care of it. And of course, the Commander will help me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "光荣你真的不要紧吗？这活可不轻啊。",
+			say = "You sure you'll be okay, Glorious? There's a lot to do here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			},
 			options = {
 				{
-					content = "自己和光荣两个人就能解决",
+					content = "Glorious and I can handle it ourselves.",
 					flag = 1
 				},
 				{
-					content = "还是拜托驱逐舰们帮忙",
+					content = "Why don't you two stay and help.",
 					flag = 2
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			optionFlag = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "没事，你看指挥官不也说了吗。",
+			say = "We're fine. Listen to the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			optionFlag = 1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "不过……",
+			say = "But...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			optionFlag = 1,
 			actor = 201020,
 			nameColor = "#a9f548",
-			say = "交给指挥官就行了吧。热心，咱们可以先忙完那边再回来啊。",
+			say = "Just let the Commander take care of it. Ardent, finish that up and let's head back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			optionFlag = 2,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "指挥官，她们还有那边要忙，这里有我们俩就够了吧……",
+			say = "Commander, they have things to do. We can take care of this ourselves...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			optionFlag = 2,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "我们没事的！本来就是我们自己说要给光荣帮忙的……",
+			say = "It's fine! We came here to help you to begin with, Glorious...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			optionFlag = 2,
 			actor = 201020,
 			nameColor = "#a9f548",
-			say = "热心你过来……（窃窃私语）……好了，我们就先去收拾那边了。",
+			say = "Over here, Ardent... (whispering) ... Sure, we'll go take care of that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你们啦。……好了，指挥官我们也干活吧！",
+			say = "Thank you very much. ... All right, Commander, let's get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "要做的事情本身并没有难度，但是这么多的大型装备，就算是空母光荣也有些吃不消。……感觉驱逐舰们确实帮不上什么忙。",
+			say = "While the work itself wasn't terribly difficult, it did involve a lot of pieces of big equipment. It was a bit much even for an aircraft carrier like Glorious. ...I had a feeling there really wasn't much the destroyers could do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……好、好沉……哈……哈……",
+			say = "Rrrrghh... S-so heavy... Ahh... Aaahhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "光荣她没事吧……",
+			say = "Are you okay, Glorious...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

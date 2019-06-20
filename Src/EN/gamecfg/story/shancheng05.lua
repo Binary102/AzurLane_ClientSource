@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"Winter Offensive\n\n<size=45>5: The Invitation</size>",
+					"Winter Offensive\n\n<size=45>Chapter 5 - The Invitation</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "C-C-Commander-sama!",
+			say = "M-Milord!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…？",
+			say = "Hmm?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "L-Let's go swimming!",
+			say = "L-Let's go swimming together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……？！",
+			say = "What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "Actually, it's because...",
+			say = "Actually, umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "That's why...we should go train our spirits together!",
+			say = "So that's why... we should all participate together! No guts, no glory!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "N-No? But I even got out the swimsuit you gave me...",
+			say = "Y-you don't wanna? I even took out the swimsuit that you gave me, Milord...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "! (Nod)",
+			say = "*nods* ...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "You will!? Ehehe...then let's go see the contest grounds that {namecode:77} and the others prepared~!",
+			say = "Really?! Ehehe... In that case, let's go check on Hyuuga and the others!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>四 低气压正在接近</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 4 - Low Pressure Approaches</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "呼……差不多都收拾完了吧……有殿下帮忙真是太感谢了。",
+			say = "Phew... looks like we'll finish early today... Having Commander here was a big help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}，今天比平时还要磕磕绊绊的……没事吧……？",
+			say = "Yamashiro, you're more wobbly than usual today... Is everything okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "没事……但是殿下……呜呜……",
+			say = "I'm fine... but, Milord... Uuu...",
 			side = 1,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "趁着打扫完神社的空档，和{namecode:79}她们到休息室里稍作休息。",
+			say = "Right after we finished cleaning the exterior, we went to my room to take a break...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "我看过你今天的运势了，并没有特别糟糕啊……应该是你不小心，或者是太紧张导致的吧。",
+			say = "I already divined your fortune for the day, and it's not that bad... Maybe you were a bit careless, or simply too nervous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "又不是受了伤，这点小事也没什么大不了，可不能给殿下添麻烦啊？",
+			say = "You're not hurt or anything, so you'll be able to get over it. It'd be best not to cause Commander any problems, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "虽然平时也经常会笨手笨脚，可今天这么严重还是头一回……",
+			say = "I'm no stranger to her clumsiness, but this was my first time seeing it this bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_101",
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "殿下，抽、抽屉里面的东西不能看！……哇！",
+			say = "M-Milord, p-please don't look inside the drawer! ...Awawa!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，帮我扶着梯子，我去擦上面！……诶，从后面！？哇哇！？",
+			say = "Milord, please hold the ladder for me, I need to clean up there! Eeek, from behind?! Uwoaaahh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "呜……有家具币掉在柜子下面了……呜呜……够不着……殿、殿下！？不许看！哇哇哇！？",
+			say = "Uuu... a furniture coin fell behind the dresser... Uuu.... can't reach it... M-Milord?! D-don't look in there! Awawawa?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "star_level_bg_101",
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "好了，我打算直接回宿舍了，{namecode:79}和殿下打算怎么办？",
+			say = "All right, I'm going to head back to the dorm now. Yamashiro, how about you and Commander?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			say = "啊……我还有点事，晚点再走！殿下能再陪我留一会儿吗？",
+			say = "Um... there's still something I want to do, so I'll head back later! Milord, can you keep me company for a little longer?",
 			side = 1,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "（点头）",
+			say = "*nods*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好！殿下，稍等一下哦！",
+			say = "Yay! Milord, please wait a moment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

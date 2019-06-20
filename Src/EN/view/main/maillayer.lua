@@ -15,6 +15,9 @@ function slot0.init(slot0)
 	slot0.mailList = slot0:findTF("mails", slot0.mailPanel)
 	slot0.mailTpl = slot0:getTpl("mail_tpl", slot0.mailList)
 	slot0.nullTpl = slot0:findTF("null_tpl", slot0.mailPanel)
+
+	setText(slot0:findTF("Text", slot0.nullTpl), i18n("empty_tip_mailboxui"))
+
 	slot0.scrollBar = slot0:findTF("Scrollbar", slot0.mailPanel)
 	slot0.mailCount = slot0:findTF("main/count_bg/Text")
 	slot0.toggleNormal = slot0:findTF("main/toggle_normal")

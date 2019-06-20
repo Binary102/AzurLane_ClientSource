@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>七 于她而言的荣光·下</size>",
+					"A Glorious Interlude\n\n<size=45>Chapter 7 - The Glory She's Named For Pt. 2</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于她而言，作为给人们带去胜利，被大家所依赖的“光荣”是最重要的事。但——",
+			say = "As she saw it, the most important thing was for her to be the bringer of victory, the \"Glorious\" that everyone could depend on. But—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“至少和指挥官单独在一起的时候不要逞强”吗……",
+			say = "“At least stop fronting when I'm alone with the Commander.” You mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官觉得，我还是无法成为你的荣耀吗……？",
+			say = "You think I can't become your pride, your glory, then...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "没有的事。",
+			say = "That's not what I said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,23 +75,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那……我该怎么办……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207060,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "在大家面前尽情闪耀，在指挥官面前就不用了……？",
+			say = "Then... What should I do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +86,28 @@ return {
 			}
 		},
 		{
+			actor = 207060,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I shine my glory before the others, but when I'm with you, I don't have to...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "……啊……",
+			say = "... Woah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "拉过她的手，让她坐到身旁。",
+			say = "I took her hand and pulled her to the seat next to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "其实刚才偷偷和正在开会的大家联系过，让她们开完会就过来帮忙。",
+			say = "The truth was, I had sent a message off to the others that they should come over to help out once they finished their meeting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在指挥官面前可以软弱，可以不那么可靠，可以撒娇——",
+			say = "That means, when I'm with the Commander, I can be weak, I can be vulnerable, I can be unreliable, I can pout—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样光荣才能在大家面前继续闪耀下去——",
+			say = "This way, I can keep shining my glory before all the others—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "笨手笨脚又不小心的光荣（glorius），也能成为指挥官的光荣吗……？",
+			say = "Can a clumsy and careless Glorious still be the Commander's glory?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我、我……",
+			say = "I, I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "光荣的声音里有一丝颤抖。",
+			say = "There was a trembling in Glorious's voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。既然是指挥官的命令——",
+			say = "I understand. It is an order from the Commander, after all—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "她轻轻地反握了一下牵着的手。肩膀上能感受到来自少女的重量。",
+			say = "She relaxed her grip on my hand and on my shoulder I felt the weight of a young girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "命令收到。……作为你的荣光，我、我就撒一会儿娇。",
+			say = "Orders received, Commander. ... As your glory, I-I'm going to indulge myself for a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家过来之前……能让我……休息一会儿吗？",
+			say = "Do you mind... if I take a little rest... Before the others get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "安睡的呼吸声在静谧的工厂里回响着…",
+			say = "The soft sounds of her peaceful sleep echoed throughout the empty workshop…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

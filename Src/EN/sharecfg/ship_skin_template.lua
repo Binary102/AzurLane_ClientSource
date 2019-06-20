@@ -8289,7 +8289,7 @@ pg.ship_skin_template = {
 		painting = "kangkede_2",
 		air_bullet_skin = "",
 		hand_id = 14,
-		shop_type_id = 0,
+		shop_type_id = 2,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bullet_skin_main = "",
@@ -8404,7 +8404,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Brooklyn-class light cruiser – Helena (CL-50) ",
-		voice_actor = -1,
+		voice_actor = 34,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -8503,7 +8503,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Cleveland-class light cruiser – Cleveland (CL-55) ",
-		voice_actor = -1,
+		voice_actor = 40,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -8602,7 +8602,7 @@ pg.ship_skin_template = {
 		main_UI_FX = "",
 		shop_id = 0,
 		desc = "Atlanta-class light cruiser – San Diego (CL-53) ",
-		voice_actor = -1,
+		voice_actor = 5,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -15267,6 +15267,536 @@ pg.ship_skin_template = {
 						{
 							0.527,
 							0.483,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201020] = {
+		ship_group = 20102,
+		name = "Acasta",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "akasita",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 201020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "akasita",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "A-class destroyer – Acasta, Hull Number H09. ",
+		voice_actor = 110,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.08,
+					0.15,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.83,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.58,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201021] = {
+		ship_group = 20102,
+		name = "Fashionable Outing ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Akasita_2",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 201021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Akasita_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70066,
+		desc = "Hm? Guess we're both about to head out... Don't stare at me like that... Even I go outdoors sometimes... Since we're both, uh, headed the same way... maybe we could... walk there together? ",
+		voice_actor = 110,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.83,
+					1.229,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.8,
+					1.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					1.19,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.58,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201029] = {
+		ship_group = 20102,
+		name = "Acasta (Retrofit) ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "akasita_g",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		id = 201029,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "akasita_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Ardent told me I \"gotta stop looking so tired\" and I \"gotta be more girly,\" so I did it while I was retrofitting... Do you recognise me, Commander? ... Umm, I'm Acasta, okay? ",
+		voice_actor = 110,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.41,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.38,
+					1.34,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.4,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201030] = {
+		ship_group = 20103,
+		name = "Ardent",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "rexin",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = -1,
+		id = 201030,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rexin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "A-class destroyer – Ardent, Hull Number H41. ",
+		voice_actor = 111,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.04,
+					0.16,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201039] = {
+		ship_group = 20103,
+		name = "Ardent (Retrofit) ",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "rexin_g",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		id = 201039,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rexin_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "New outfit, new rigging, same ardent spirit! Ahaha, I'm serious~! Commander, thanks a lot~! ",
+		voice_actor = 111,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.37,
+					1.38,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.28,
+					1.39,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.23,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.37,
+							2.59,
 							0
 						}
 					}
@@ -26592,7 +27122,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		desc = "Courageous-class aircraft carrier – Glorious, Hull Number 77!",
+		desc = "Courageous-class aircraft carrier – Glorious, Hull Number 77. ",
 		voice_actor = 113,
 		air_bomb_skin = "",
 		illustrator = 39,
@@ -26654,6 +27184,100 @@ pg.ship_skin_template = {
 						{
 							-0.28,
 							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[207061] = {
+		ship_group = 20706,
+		name = "Glorious School Life ",
+		bg = "103",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "Guangrong_2",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 207061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "Guangrong_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70065,
+		desc = "Being able to occasionally have a peaceful school life... is something I could get used to. Commander, look at the markings on this butterfly - aren't they lovely? ",
+		voice_actor = 113,
+		air_bomb_skin = "",
+		illustrator = 39,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.11,
+					0.77,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.25,
 							0
 						}
 					}
@@ -61790,6 +62414,11 @@ pg.ship_skin_template = {
 		108020,
 		112010,
 		201010,
+		201020,
+		201021,
+		201029,
+		201030,
+		201039,
 		201060,
 		201070,
 		201080,
@@ -61893,6 +62522,7 @@ pg.ship_skin_template = {
 		207040,
 		207041,
 		207060,
+		207061,
 		213010,
 		213011,
 		213020,

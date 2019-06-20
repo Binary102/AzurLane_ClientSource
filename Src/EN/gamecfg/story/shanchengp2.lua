@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>二 高气压？低气压？</size>",
+					"After the Rain Comes the Sun\n\n<size=45>Chapter 2 - High Pressure? Low Pressure?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "为了和{namecode:79}一起打扫神社一大早来到港区的碰头地点时，{namecode:79}已经等在那里了",
+			say = "In order to help Yamashiro clean the shrine, I left early in the morning to meet her at the port. She was already waiting for me there.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下早安！今天就拜托你了！",
+			say = "Good morning, Milord! Let's do our best today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……什么时候来的？嗯……半、半小时前吧……万一因为我犯迷糊迟到了，还要害殿下等就不好了……",
+			say = "Umm... when did I get here? Um... h-half an hour ago, m-maybe? I didn't want to keep you waiting, in case I got lost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}姐姐！……指挥官你也在啊。今天不是放假吗？难道是在约会？",
+			say = "Yamashiro! ...and Commander, huh... Don't you have the day off? Are you two going on a date or something?",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不，不是啦{namecode:17}！今天只是和殿下约好了要去打扫神社啦！",
+			say = "D-Date?! Y-You've got the wrong idea, Shigure! We're just going to clean up the shrine together...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "哼哼，不是约会的话，{namecode:17}也来帮忙吧？嘿嘿，有我{namecode:17}大人出面，包你打扫得干净清爽～",
+			say = "Hmmm... If it's not a date, you won't mind me lending a hand, would you? Heh heh~ with my tremendous powers, we'll have the place squeaky clean in no time~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "……还是说你比较想和那个笨蛋指挥官约会？哎呀好痛！",
+			say = "Or... maybe you'd prefer to be alone with Dumb Commander over there, getting kissyfaced~? ----Oww!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "{namecode:17}，不许拿{namecode:79}和指挥官寻开心哦。早安，{namecode:79}。",
+			say = "Shigure, leave Yamashiro and Commander alone, will you. Good morning, Yamashiro.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:57}！你和{namecode:17}来买东西？",
+			say = "Oh, Mogami! Are you taking Shigure shopping?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "嗯。{namecode:147}她们宿舍的备用品也一起买了。总不能一直让{namecode:58}来…",
+			say = "Yup. Michishio and the others needed some supplies for the dorm. I can't be relying on Mikuma forever for this kind of stuff...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "最近{namecode:20}那家伙又涨价了，在港区开店的只有她们俩，完全竞争不起来啊……",
+			say = "That darn Shiranui raised her prices again recently. And since those two run the only stores here on the base, complaining won't even do you any good...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯？虽然不懂你在说什么，不过就交给我{namecode:79}吧！下次去买装备箱的时候我要好好批评她一下！",
+			say = "Is that so? I don't really get it, but leave it to me! The next time I go to buy tech packs, I'll be sure to give her a scolding!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "谢啦{namecode:79}姐姐！……不过还是算了吧。结果多半是{namecode:79}姐姐说不过人家，最后还被忽悠着买高价货……",
+			say = "I appreciate it, Yamashiro, but it's fine. Even if you went, you'd probably get bamboozled by her and end up overpaying for stuff again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好过分～！",
+			say = "Seriously~?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "呵呵，{namecode:17}和{namecode:79}真的很好呢。",
+			say = "Haha, you two get along really well, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "那当然了！{namecode:79}姐姐和{namecode:17}最亲了！我最喜欢{namecode:79}姐姐了！",
+			say = "Of course! Yamashiro and I are super tight-knit! She's my favorite!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿，{namecode:17}……不过，今天我要和殿下去打扫神社，下次再找你玩吧！",
+			say = "Ehehe, Shigure... Oh, I really should be heading out to the shrine just about now. Let's hang out next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

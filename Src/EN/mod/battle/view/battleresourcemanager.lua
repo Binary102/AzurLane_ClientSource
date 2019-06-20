@@ -451,6 +451,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 						return
 					end
 
+					Ship.SetExpression(slot0, slot3)
 					slot0:SetActive(false)
 
 					if slot0.SetActive._resCacheList then
@@ -458,7 +459,7 @@ function slot5.StartPreload(slot0, slot1, slot2)
 					end
 				end
 
-				slot3()
+				slot4()
 			end)
 		elseif string.find(slot9, "Char/") then
 			slot0:LoadSpineAsset(slot11, function (slot0)

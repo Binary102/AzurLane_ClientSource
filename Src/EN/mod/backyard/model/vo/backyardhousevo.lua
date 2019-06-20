@@ -60,6 +60,24 @@ function slot0.addFurniture(slot0, slot1)
 	slot0.furnitures[slot1.id] = slot1
 end
 
+function slot0.getFurnAndPaperIds(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.furnitures) do
+		table.insert(slot1, slot6.id)
+	end
+
+	if slot0.wallPaper then
+		table.insert(slot1, slot0.wallPaper.id)
+	end
+
+	if slot0.floorPaper then
+		table.insert(slot1, slot0.floorPaper.id)
+	end
+
+	return slot1
+end
+
 function slot0.getExpandId(slot0)
 	slot1 = slot0.level - 1
 

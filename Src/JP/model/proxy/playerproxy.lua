@@ -103,10 +103,39 @@ function slot0.remove(slot0)
 end
 
 function slot0.updatePlayer(slot0, slot1)
+	slot0:updatePt(slot0.data, slot1)
+
 	slot0.data = slot1:clone()
 
 	slot0.data:display("updated")
 	slot0:sendNotification(slot0.UPDATED, slot1:clone())
+end
+
+function slot0.updatePt(slot0, slot1, slot2)
+	slot0.activityProxy = slot0.activityProxy or getProxy(ActivityProxy)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)) do
+		slot3[slot9] = slot3[slot8:getConfig("config_id")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+
+		if not slot8:isEnd() and slot3[slot9] > 0 then
+			slot8.data1 = slot8.data1 + slot3[slot9]
+
+			slot0.activityProxy:updateActivity(slot8)
+		end
+	end
+
+	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_ACCUM)) do
+		slot10 = nil
+		slot3[slot9] = slot3[slot8:getDataConfig("pt")] or slot2:getResource(slot9) - slot1:getResource(slot9)
+		slot10 = (slot8:getDataConfig("type") ~= 1 or math.max(slot3[slot9], 0)) and (slot8:getDataConfig("type") ~= 2 or math.min(slot3[slot9], 0)) and 0
+
+		if not slot8:isEnd() and slot10 ~= 0 then
+			slot8.data1 = slot8.data1 + math.abs(slot10)
+
+			slot0.activityProxy:updateActivity(slot8)
+		end
+	end
 end
 
 function slot0.updatePlayerMedalDisplay(slot0, slot1)

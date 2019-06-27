@@ -35,14 +35,26 @@ function slot1(slot0, slot1, slot2, slot3)
 end
 
 function slot0.Show(slot0, slot1)
-	slot0.cntTitle = i18n("pt_total_count", slot7)
-	slot0.resTitle = i18n("pt_count", slot7)
+	slot2 = slot1.dropList
+	slot3 = slot1.targets
+	slot4 = slot1.level
+	slot5 = slot1.count
+	slot7 = pg.item_data_statistics[id2ItemId(slot1.resId)].name
 
-	slot0(slot0, slot2, slot1.targets, slot1.level)
+	if slot1.type == 2 then
+		slot0.cntTitle = i18n("pt_total_count", i18n("pt_cosume", slot7))
+		slot0.resTitle = i18n("pt_count", i18n("pt_cosume", slot7))
+	else
+		slot0.cntTitle = i18n("pt_total_count", slot7)
+		slot0.resTitle = i18n("pt_count", slot7)
+	end
 
-	slot0.totalTxt.text = slot1.count
+	slot0(slot0, slot2, slot3, slot4)
+
+	slot0.totalTxt.text = slot5
 	slot0.totalTitleTxt.text = slot0.cntTitle
 
+	Canvas.ForceUpdateCanvases()
 	setActive(slot0._tf, true)
 end
 

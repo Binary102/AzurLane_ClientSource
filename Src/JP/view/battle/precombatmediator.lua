@@ -35,6 +35,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetPlayerInfo(slot5)
 	slot0:bind(slot0.ON_ABORT_EDIT, function (slot0)
 		slot0:abortEditting()
+		slot0:syncFleet()
 	end)
 
 	if slot0.contextData.system == SYSTEM_DUEL then

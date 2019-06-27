@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "鉄血紋章 ",
+		description = "教国の紋章 ",
 		key = "activity_res_id",
-		key_value = 126
+		key_value = 130
 	},
 	chapter_move_speed_1 = {
 		description = "",

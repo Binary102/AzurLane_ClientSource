@@ -21,6 +21,7 @@ function slot0.init(slot0)
 	slot0.resumeMedalList = slot0:findTF("frame/window/medalList/container")
 	slot0.resumeMedalTpl = slot0:findTF("frame/window/medal_tpl")
 	slot0.closeBtn = slot0:findTF("frame/window/title_bg/close_btn")
+	slot0.circle = slot0:findTF("frame/window/info/circle/head/frame")
 end
 
 function slot0.didEnter(slot0)
@@ -97,43 +98,55 @@ function slot0.display(slot0, slot1)
 			slot1.sprite = slot0 or LoadSprite("heroicon/unknown")
 		end
 	end)
-	setActive(findTF(slot0.resumeIcon, "popfront"), not slot1.propose)
-	setActive(findTF(slot0.resumeIcon, "propose"), slot1.propose)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, slot4, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
 
-	for slot11 = slot0.resumeStars.childCount, Ship.New({
+		if slot0.circle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.circle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
+
+	for slot12 = slot0.resumeStars.childCount, Ship.New({
 		configId = pg.ship_data_statistics[slot1.icon].id
-	}).getStar(slot5) - 1, 1 do
+	}).getStar(slot6) - 1, 1 do
 		cloneTplTo(slot0.resumeStarTpl, slot0.resumeStars)
 	end
 
-	for slot11 = 0, slot0.resumeStars.childCount - 1, 1 do
-		slot0.resumeStars:GetChild(slot11).gameObject:SetActive(slot11 < slot4.star)
+	for slot12 = 0, slot0.resumeStars.childCount - 1, 1 do
+		slot0.resumeStars:GetChild(slot12).gameObject:SetActive(slot12 < slot5.star)
 	end
 
 	removeAllChildren(slot0.resumeMedalList)
 
-	for slot11 = 1, PlayerInfoLayer.MAX_MEDAL_DISPLAY, 1 do
-		setActive(slot0:findTF("empty", cloneTplTo(slot0.resumeMedalTpl, slot0.resumeMedalList)), slot11 > #slot1.displayTrophyList)
+	for slot12 = 1, PlayerInfoLayer.MAX_MEDAL_DISPLAY, 1 do
+		setActive(slot0:findTF("empty", cloneTplTo(slot0.resumeMedalTpl, slot0.resumeMedalList)), slot12 > #slot1.displayTrophyList)
 
-		if slot11 <= #slot1.displayTrophyList then
-			setActive(slot0:findTF("icon", slot12), true)
-			LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot11]].icon, slot0:findTF("icon", slot12), true)
+		if slot12 <= #slot1.displayTrophyList then
+			setActive(slot0:findTF("icon", slot13), true)
+			LoadImageSpriteAsync("medal/" .. pg.medal_template[slot1.displayTrophyList[slot12]].icon, slot0:findTF("icon", slot13), true)
 		end
 	end
 
-	for slot11, slot12 in ipairs(slot0) do
-		slot13 = slot0.resumeInfo:GetChild(slot11 - 1)
+	for slot12, slot13 in ipairs(slot0) do
+		slot14 = slot0.resumeInfo:GetChild(slot12 - 1)
 
-		setText(slot13:Find("tag"), slot12.tag)
+		setText(slot14:Find("tag"), slot13.tag)
 
-		slot14 = slot13:Find("value")
+		slot15 = slot14:Find("value")
 
-		if slot12.type == 1 then
-			setText(slot14, slot0.player[slot12.value])
-		elseif slot12.type == 2 then
-			setText(slot14, string.format("%0.2f", math.max(slot0.player[slot12.value[2]], 0) / math.max(slot0.player[slot12.value[1]], 1) * 100) .. "%")
-		elseif slot12.type == 3 then
-			setText(slot14, string.format("%0.2f", (slot0.player[slot12.value[1]] or 1) / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
+		if slot13.type == 1 then
+			setText(slot15, slot0.player[slot13.value])
+		elseif slot13.type == 2 then
+			setText(slot15, string.format("%0.2f", math.max(slot0.player[slot13.value[2]], 0) / math.max(slot0.player[slot13.value[1]], 1) * 100) .. "%")
+		elseif slot13.type == 3 then
+			setText(slot15, string.format("%0.2f", (slot0.player[slot13.value[1]] or 1) / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
 		end
 	end
 end
@@ -142,6 +155,10 @@ function slot0.willExit(slot0)
 	if slot0.contextData.parent then
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr:GetInstance().UIMain)
+	end
+
+	if slot0.circle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
 	end
 end
 

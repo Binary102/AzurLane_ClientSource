@@ -101,6 +101,23 @@ function slot0.ActionInvoke(slot0, slot1, ...)
 	slot0:HandleFuncQueue()
 end
 
+function slot0.ExecuteAction(slot0, slot1, ...)
+	slot2 = {
+		...
+	}
+
+	function slot3()
+		slot0:ActionInvoke(slot0, unpack(slot0))
+	end
+
+	if slot0:GetLoaded() then
+		slot3()
+	else
+		slot0:Load()
+		slot0:AddLoadedCallback(slot3)
+	end
+end
+
 function slot0.GetLoaded(slot0)
 	return slot0.STATES.LOADED <= slot0._state
 end
@@ -126,6 +143,10 @@ end
 
 function slot0.Show(slot0)
 	setActive(slot0._tf, true)
+end
+
+function slot0.isShowing(slot0)
+	return isActive(slot0._tf)
 end
 
 function slot0.Destroy(slot0)
@@ -161,6 +182,15 @@ end
 
 function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
+end
+
+function slot0.getTpl(slot0, slot1, slot2)
+	slot3 = slot0:findTF(slot1, slot2)
+
+	slot3:SetParent(slot0._tf, false)
+	SetActive(slot3, false)
+
+	return slot3
 end
 
 function slot0.getUIName(slot0)

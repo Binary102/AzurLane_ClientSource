@@ -6,6 +6,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resId = slot1:getDataConfig("pt")
 	slot0.bindActId = slot1:getDataConfig("id_2")
 	slot0.unlockDay = slot1:getDataConfig("day_unlock")
+	slot0.type = slot1:getDataConfig("type")
 
 	slot0:Update(slot1)
 end

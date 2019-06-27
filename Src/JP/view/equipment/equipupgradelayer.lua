@@ -226,6 +226,9 @@ function slot0.updateMaterials(slot0)
 			updateItem(slot11, Item.New({
 				id = slot3[slot8][1]
 			}))
+			onButton(slot0, slot11, function ()
+				slot0:emit(EquipUpgradeMediator.ON_ITEM, slot0)
+			end, SFX_PANEL)
 
 			slot13 = defaultValue(slot0.itemVOs[slot3[slot8][1]], {
 				count = 0
@@ -237,10 +240,7 @@ function slot0.updateMaterials(slot0)
 			end
 
 			setActive(slot14, true)
-			setText(slot14, slot13)
-			onButton(slot0, slot11, function ()
-				slot0:emit(slot1.ON_ITEM, )
-			end, SFX_PANEL)
+			setText(findTF(slot11, "icon_bg/count"), slot13)
 		end
 	end
 

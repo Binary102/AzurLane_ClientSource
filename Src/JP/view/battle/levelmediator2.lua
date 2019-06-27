@@ -319,8 +319,14 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.ON_ACTIVITY_MAP, function ()
-		slot0 = getProxy(ChapterProxy)
-		slot5, slot2 = slot0:getLastMapForActivity()
+		slot1, slot2 = getProxy(ChapterProxy).getLastMapForActivity(slot0)
+		slot3 = slot1 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot1].on_activity)
+
+		if not slot3 or slot3:isEnd() then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
 
 		slot0.viewComponent:setMap(slot1)
 
@@ -940,15 +946,19 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		slot1 = slot0:getEliteFleetList()[]
+		print(PrintTable(slot0:getEliteFleetList()[]))
 
-		if slot0.getEliteFleetList() then
+		if print then
+			print(table.indexof(slot1, slot2.id))
 			table.remove(slot1, table.indexof(slot1, slot2.id))
 		end
 
-		table.insert(slot1, slot0[1])
-		slot1:updateChapter(slot0)
-		slot1:duplicateEliteFleet(slot0)
+		if slot0[1] then
+			table.insert(slot1, slot0[1])
+		end
+
+		slot3:updateChapter(slot0)
+		slot3:duplicateEliteFleet(slot0)
 	end
 end
 

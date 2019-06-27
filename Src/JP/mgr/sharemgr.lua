@@ -13,6 +13,32 @@ pg.ShareMgr.TypeColoring = 10
 pg.ShareMgr.TypeChallenge = 11
 pg.ShareMgr.PANEL_TYPE_BLACK = 1
 pg.ShareMgr.PANEL_TYPE_PINK = 2
+pg.ShareMgr.ANCHORS_TYPE = {
+	{
+		0,
+		0,
+		0,
+		0
+	},
+	{
+		1,
+		0,
+		1,
+		0
+	},
+	{
+		0,
+		1,
+		0,
+		1
+	},
+	{
+		1,
+		1,
+		1,
+		1
+	}
+}
 
 function pg.ShareMgr.Init(slot0)
 	PoolMgr.GetInstance():GetUI("ShareUI", false, function (slot0)
@@ -23,18 +49,10 @@ function pg.ShareMgr.Init(slot0)
 		slot0.tr = slot0.transform
 		slot0.panelBlack = slot0.tr:Find("panel")
 		slot0.panelPink = slot0.tr:Find("panel_pink")
-		slot0.decks = {
-			slot0.tr:Find("deck"),
-			slot0.tr:Find("deck_right"),
-			slot0.tr:Find("deck_blue")
-		}
+		slot0.deckTF = slot0.tr:Find("deck")
 
 		setActive(slot0.panelBlack, false)
 		setActive(slot0.panelPink, false)
-
-		for slot4, slot5 in pairs(slot0.decks) do
-			setActive(slot5, false)
-		end
 	end)
 
 	slot0.screenshot = Application.persistentDataPath .. "/screen_scratch/last_picture_for_share.jpg"
@@ -91,35 +109,22 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	slot3 = slot0.share_template[slot1]
 	slot4 = getProxy(PlayerProxy):getRawData()
 	slot6 = getProxy(ServerProxy):getRawData()
+	slot7 = (getProxy(UserProxy):getRawData() and slot5.server) or 0
+	slot0.deckTF.anchorMin = Vector2(slot0.ANCHORS_TYPE[slot0.share_template[slot1].deck] or {
+		0.5,
+		0.5,
+		0.5,
+		0.5
+	}[1], slot0.ANCHORS_TYPE[slot0.share_template[slot1].deck] or [2])
+	slot0.deckTF.anchorMax = Vector2(slot0.ANCHORS_TYPE[slot0.share_template[slot1].deck] or [3], slot0.ANCHORS_TYPE[slot0.share_template[slot1].deck] or [4])
 
-	if not getProxy(UserProxy):getRawData() or not slot5.server then
-		slot7 = 0
-	end
+	setText(slot0.deckTF:Find("name/value"), (slot4 and slot4.name) or "")
+	setText(slot0.deckTF:Find("server/value"), (slot6[slot7] and slot6[slot7].name) or "")
+	setText(slot0.deckTF:Find("lv/value"), slot4.level)
 
-	slot6 = slot6[slot7]
+	slot0.deckTF.anchoredPosition3D = Vector3(slot3.qrcode_location[1], slot3.qrcode_location[2], -100)
+	slot0.deckTF.anchoredPosition = Vector2(slot3.qrcode_location[1], slot3.qrcode_location[2])
 
-	if not slot4 or not slot4.name then
-		slot7 = ""
-	end
-
-	if not slot6 or not slot6.name then
-		slot8 = ""
-	end
-
-	slot9 = slot0.decks
-	slot10 = slot3.deck or 1
-
-	SetActive(slot0.decks, true)
-	slot10(slot0.decks[setActive].Find(slot0.decks, "code"), PLATFORM_CODE == PLATFORM_CH)
-	setText(slot0.decks:Find("name"), slot7)
-	setText(slot0.decks:Find("server"), "サーバー：" .. slot8)
-	setText(slot0.decks:Find("lv"), slot4.level)
-
-	slot0.decks.anchoredPosition3D = Vector3(slot3.qrcode_location[1], slot3.qrcode_location[2], -100)
-	slot0.decks.anchoredPosition = Vector2(slot3.qrcode_location[1], slot3.qrcode_location[2])
-
-	setParent(slot0.decks, slot0.decks[setActive].Find(slot0.decks, "code"), false)
-	slot9:SetAsLastSibling()
 	_.each(slot3.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(slot0.cacheComps, slot1)
@@ -129,10 +134,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		return
 	end)
 	_.each(slot3.show_comps, function (slot0)
-		print("showpath:" .. slot0)
-
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
-			print("showpath111:" .. slot0)
 			table.insert(slot0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
@@ -140,10 +142,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		return
 	end)
 	_.each(slot3.move_comps, function (slot0)
-		print("movepath:" .. slot0.path)
-
 		if not IsNil(GameObject.Find(slot0.path)) then
-			print("movepath:" .. slot0.path, slot4, slot0.y)
 			table.insert(slot0.cacheMoveComps, {
 				slot1,
 				slot1.transform.anchoredPosition.x,
@@ -157,27 +156,30 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 		return
 	end)
+	SetParent(slot0.deckTF, slot12, false)
+	slot0.deckTF:SetAsLastSibling()
 
-	slot14 = nil
-	slot14 = (1.7777777777777777 >= Screen.width / Screen.height or ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32)) and ScreenShooter.New(Screen.width, math.floor(Screen.width / (PLATFORM_CODE == PLATFORM_CH)), TextureFormat.ARGB32)
-	slot10 = 1
-	slot12 = false
+	slot13 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
-	if false then
-		slot12 = true
+	if not slot5.server then
+		slot7 = 0
 	end
 
-	slot14 = ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32)
-
-	if ScreenShooter.New(math.floor(Screen.height * (PLATFORM_CODE == PLATFORM_CH)), Screen.height, TextureFormat.ARGB32) then
-		slot14 = ScreenShooter.New(Screen.width, math.floor(Screen.width / (PLATFORM_CODE == PLATFORM_CH)), TextureFormat.ARGB32)
+	if not slot4.name then
+		slot7 = ""
 	end
+
+	if not slot6[slot7].name then
+		slot8 = ""
+	end
+
+	slot10 = 
 
 	if isAiriJP() then
-		slot15 = slot14:TakePhoto(slot10)
+		slot14 = slot13:TakePhoto(slot11)
 
-		slot15:LoadImage(slot16)
-		GameShare(slot3.description, slot15)
+		slot14:LoadImage(slot15)
+		GameShare(slot3.description, slot14)
 		slot0.UIMgr.GetInstance():LoadingOn()
 
 		time = Timer.New(function ()
@@ -188,7 +190,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 		time:Start()
 	else
-		if slot14:Take(slot10, slot0.screenshot) then
+		if slot13:Take(slot11, slot0.screenshot) then
 			print("截图位置: " .. slot0.screenshot)
 			slot0:Show(slot3)
 		else
@@ -196,7 +198,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		end
 	end
 
-	setParent(slot9, slot0.tr, false)
+	SetParent(slot9, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 
@@ -230,6 +232,7 @@ end
 function pg.ShareMgr.Show(slot0, slot1)
 	slot0.go:SetActive(true)
 	slot0.UIMgr.GetInstance():BlurPanel(slot0.panel)
+	slot0.panel:SetAsLastSibling()
 	slot0.DelegateInfo.New(slot0)
 	onButton(slot0, slot0.panel:Find("main/top/btnBack"), slot2)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()

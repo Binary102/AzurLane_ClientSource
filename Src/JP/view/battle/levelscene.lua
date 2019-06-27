@@ -48,7 +48,6 @@ function slot0.initUI(slot0)
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
 	slot0.topChapter = slot0:findTF("top_chapter", slot0.topPanel)
-	slot0.topChapterLine = slot0:findTF("main/title_chapter_lines")
 	slot0.chapterName = slot0:findTF("title_chapter/name", slot0.topChapter)
 	slot0.chapterNoTitle = slot0:findTF("title_chapter/chapter", slot0.topChapter)
 	slot0.resChapter = slot0:findTF("resources", slot0.topChapter)
@@ -56,7 +55,6 @@ function slot0.initUI(slot0)
 
 	slot0.resPanel:setParent(slot0.resChapter, false)
 	setActive(slot0.topChapter, true)
-	setActive(slot0.topChapterLine, true)
 
 	slot0.leftChapter = slot0:findTF("main/left_chapter")
 	slot0.leftCanvasGroup = slot0.leftChapter:GetComponent(typeof(CanvasGroup))
@@ -968,66 +966,81 @@ function slot0.updateActivityBtns(slot0)
 		slot0:updateActivityRes()
 	end
 
-	if ActivityConst.BATTLE_MAP_TYPE == Map.SINGLE_MAP then
-		setActive(slot0.ptTotal, false)
-		setActive(slot0.actExchangeShopBtn, false)
-		setActive(slot0.mirrorBtn, false)
-		setActive(slot0.eventContainer, true)
+	if slot0.contextData.map:getMapTitleNumber() ~= "EX" then
+		slot15 = false
 	else
-		if ActivityConst.BATTLE_MAP_TYPE == Map.MUTIL_MAP then
-			slot15 = setActive
-			slot16 = slot0.ptTotal
+		slot15 = true
+	end
 
-			if not ActivityConst.HIDE_PT_PANELS then
-				if slot0.ptActivity and not slot0.ptActivity:isEnd() and slot1 then
-					slot17 = not slot2
-				end
-			else
-				slot17 = false
+	slot16 = setActive
+	slot17 = slot0.ptTotal
 
-				if false then
-					slot17 = true
-				end
+	if slot1 then
+		if not slot2 then
+			if slot15 and not ActivityConst.HIDE_PT_PANELS and slot0.ptActivity then
+				slot18 = not slot0.ptActivity:isEnd()
 			end
+		else
+			slot18 = false
 
-			slot15(slot16, slot17)
-
-			slot15 = setActive
-			slot16 = slot0.actExchangeShopBtn
-
-			if slot1 then
-				if not ActivityConst.HIDE_PT_PANELS then
-					if slot4 then
-						slot17 = not slot2
-					end
-				else
-					slot17 = false
-
-					if false then
-						slot17 = true
-					end
-				end
+			if false then
+				slot18 = true
 			end
-
-			slot15(slot16, slot17)
-			setActive(slot0.mirrorBtn, false)
-			setActive(slot0.eventContainer, not slot1)
 		end
 	end
+
+	slot16(slot17, slot18)
+
+	slot16 = setActive
+	slot17 = slot0.actExchangeShopBtn
+
+	if slot1 then
+		if not slot2 then
+			if slot15 then
+				if not ActivityConst.HIDE_PT_PANELS then
+					slot18 = slot4
+				end
+			end
+		else
+			slot18 = false
+
+			if false then
+				slot18 = true
+			end
+		end
+	end
+
+	slot16(slot17, slot18)
+
+	slot16 = setActive
+	slot17 = slot0.eventContainer
+
+	if slot1 then
+		slot18 = not slot15
+
+		if not slot15 then
+			slot18 = false
+		end
+	else
+		slot18 = true
+	end
+
+	slot16(slot17, slot18)
+	setActive(slot0.mirrorBtn, false)
 
 	if not slot11 or not slot14 then
 		if not slot11 then
-			slot15 = slot13
+			slot16 = slot13
 		else
-			slot15 = false
+			slot16 = false
 
 			if false then
-				slot15 = true
+				slot16 = true
 			end
 		end
 	end
 
-	if slot7 and slot1 and not slot10 and slot15 then
+	if slot7 and slot1 and not slot10 and slot16 then
 		setActive(slot0.actExtraBtnAnim, true)
 	else
 		setActive(slot0.actExtraBtnAnim, false)
@@ -1531,7 +1544,7 @@ function slot0.updateMapItems(slot0)
 	setActive(slot0.chapters, false)
 	setActive(slot0.escortChapters, false)
 
-	if slot1:isEscort() then
+	if OPEN_ESCORT and slot1:isEscort() then
 		setActive(slot0.escortChapters, true)
 
 		slot6 = UIItemList.New(slot0.escortChapters, slot0.escortChapterTpl)
@@ -1849,7 +1862,14 @@ function slot0.updateMapItem(slot0, slot1, slot2, slot3)
 		slot24 = 0
 
 		for slot28, slot29 in ipairs(slot23) do
-			slot24 = slot24 + pg.expedition_data_template[slot29].bonus_time
+			slot31 = math.max
+			slot32 = slot24
+
+			if not pg.expedition_activity_template[slot29] or not slot30.bonus_time then
+				slot33 = 0
+			end
+
+			slot24 = slot31(slot32, slot33)
 		end
 
 		slot25 = findTF(slot5, "mark")
@@ -2465,7 +2485,7 @@ function slot0.switchToMap(slot0)
 
 	slot3 = getProxy(ChapterProxy)
 
-	if slot1:getMapType() == Map.ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
+	if slot1:getMapType() == Map.ESCORT and OPEN_ESCORT and (#slot3.escortMaps == 0 or _.any(slot4, function (slot0)
 		return slot0:shouldFetch()
 	end)) then
 		slot0:emit(LevelMediator2.ON_FETCH_ESCORT)
@@ -2506,7 +2526,6 @@ function slot0.switchToMap(slot0)
 	end):setEase(LeanTweenType.easeOutSine)
 	slot0:RecordTween("mapPivot", slot5.uniqueId)
 	setActive(slot0.topChapter, true)
-	setActive(slot0.topChapterLine, true)
 	setActive(slot0.leftChapter, true)
 	setActive(slot0.rightChapter, true)
 	shiftPanel(slot0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)

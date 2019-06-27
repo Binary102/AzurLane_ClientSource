@@ -553,16 +553,20 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 				end),
 				content = slot0:getConfig("display"),
 				itemFunc = function (slot0)
-					slot0:emit(slot1.ON_ITEM, slot0.id)
+					slot0:emit(slot1.ON_DROP, slot0, function ()
+						pg.MsgboxMgr.GetInstance():ShowMsgBox(pg.MsgboxMgr.GetInstance().ShowMsgBox)
+
+						return
+					end)
 
 					return
 				end
 			})
-		else
-			slot1:emit(slot2.ON_DROP, slot0)
+
+			return
 		end
 
-		return
+		slot1:emit(slot2.ON_DROP, slot0)
 	end, SFX_PANEL)
 
 	return

@@ -106,6 +106,14 @@ function slot0.abortEditting(slot0)
 	slot0.EdittingFleet = nil
 end
 
+function slot0.syncFleet(slot0)
+	for slot4, slot5 in ipairs(slot0.data) do
+		slot0.facade:sendNotification(GAME.UPDATE_FLEET, {
+			fleet = slot5
+		})
+	end
+end
+
 function slot0.getCount(slot0)
 	return table.getCount(slot0.data)
 end

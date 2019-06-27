@@ -17,9 +17,8 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setFriendVOs(slot2)
 	slot0.viewComponent:setPlayer(slot4)
-	slot0.viewComponent:setShipVOs(slot6)
-	slot0.viewComponent:setRequests(slot8)
-	slot0.viewComponent:setBlackList(slot9)
+	slot0.viewComponent:setRequests(slot6)
+	slot0.viewComponent:setBlackList(slot7)
 	slot0:bind(slot0.GET_BLACK_LIST, function (slot0)
 		slot0:sendNotification(GAME.GET_BLACK_LIST)
 	end)
@@ -116,33 +115,30 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.type == SearchFriendCommand.SEARCH_TYPE_RESUME then
 			slot0:openResume(slot3.list[1])
 		else
-			slot0.viewComponent:updateSearchResult(slot3.list)
+			slot0.viewComponent:setSearchResult(slot3.list)
+			slot0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
 
 			if table.getCount(slot3.list) > 0 then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("friend_search_succeed"))
 			end
 		end
 	elseif slot2 == GAME.FRIEND_SEND_REQUEST_DONE then
-		for slot8, slot9 in ipairs(slot4) do
-			if slot3 == slot9.id then
-				table.remove(slot4, slot8)
+		slot0.viewComponent:removeSearchResult(slot3)
+		slot0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
+	elseif slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == NotificationProxy.FRIEND_REQUEST_ADDED then
+		slot0.viewComponent:setRequests(slot5)
+		slot0.viewComponent:updatePage(FriendScene.REQUEST_PAGE)
+		slot0.viewComponent:updateRequestTip()
+	elseif slot2 == FriendProxy.FRIEND_REMOVED or slot2 == FriendProxy.FRIEND_ADDED or slot2 == FriendProxy.FRIEND_UPDATED then
+		slot0.viewComponent:setFriendVOs(slot5)
+		slot0.viewComponent:updatePage(FriendScene.FRIEND_PAGE)
 
-				break
-			end
+		if slot2 == FriendProxy.FRIEND_UPDATED then
+			slot0:updateChatNotification()
 		end
-
-		slot0.viewComponent:updateSearchResult(slot4)
-	elseif slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED then
-		slot0.viewComponent:deleteRequestVO(slot3)
-	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED then
-		slot0.viewComponent:addRequestVO(slot3)
-	elseif slot2 == FriendProxy.FRIEND_REMOVED then
-		slot0.viewComponent:deleteFriendVO(slot3)
-	elseif slot2 == FriendProxy.FRIEND_ADDED then
-		slot0.viewComponent:addFriendVO(slot3)
-	elseif slot2 == FriendProxy.FRIEND_UPDATED then
-		slot0.viewComponent:updateFriendVO(slot3)
-		slot0:updateChatNotification()
+	elseif slot2 == FriendProxy.RELIEVE_BLACKLIST or slot2 == FriendProxy.BLACK_LIST_UPDATED or slot2 == FriendProxy.ADD_INTO_BLACKLIST then
+		slot0.viewComponent:setBlackList(slot5)
+		slot0.viewComponent:updatePage(FriendScene.BLACKLIST_PAGE)
 	elseif slot2 == GAME.VISIT_BACKYARD_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {
 			ships = slot3.ships,
@@ -150,15 +146,6 @@ function slot0.handleNotification(slot0, slot1)
 			dorm = slot3.dorm,
 			mode = BackYardConst.MODE_VISIT
 		})
-	elseif slot2 == GAME.FRIEND_RELIEVE_BLACKLIST_DONE then
-	elseif slot2 == FriendProxy.RELIEVE_BLACKLIST then
-		slot0.viewComponent:deleteBlackVO(slot3)
-	elseif slot2 == FriendProxy.BLACK_LIST_UPDATED then
-		slot0.viewComponent:setBlackList(slot3)
-		slot0.viewComponent:sortBlackList()
-	elseif slot2 == FriendProxy.ADD_INTO_BLACKLIST then
-		slot0.viewComponent:setBlackList(getProxy(FriendProxy).getBlackList(slot4))
-		slot0.viewComponent:sortBlackList()
 	end
 end
 

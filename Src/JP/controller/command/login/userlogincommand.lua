@@ -19,8 +19,6 @@ class("UserLoginCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot3 = PLATFORM_LOCAL
 	end
 
-	print("platformCode", slot3)
-
 	if not slot2.arg4 then
 		slot2.arg4 = "0"
 	end

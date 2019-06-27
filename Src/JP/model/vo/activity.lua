@@ -100,7 +100,7 @@ function slot0.getDataConfigTable(slot0)
 end
 
 function slot0.getDataConfig(slot0, slot1)
-	return slot0:getDataConfigTable()[slot1]
+	return slot0:getDataConfigTable() and slot2[slot1]
 end
 
 function slot0.isEnd(slot0)

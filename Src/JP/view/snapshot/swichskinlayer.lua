@@ -69,44 +69,120 @@ function slot0.openSelectSkinPanel(slot0)
 			slot0.skinCardMap[slot7] = ShipSkinCard.New(slot7.gameObject)
 		end
 
-		slot8:updateData(slot0.shipVO, slot6, slot0.owns[slot6.id])
-		slot8:updateSkin(slot6, slot9)
+		slot9 = slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded()
+
+		slot8:updateData(slot0.shipVO, slot6, slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or (slot0.shipVO.getRemouldSkinId() == slot6.id and slot0.shipVO.isRemoulded()) or slot6.skin_type == 3)
+		slot8:updateSkin(slot6, slot0.shipVO.proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or (slot0.shipVO.getRemouldSkinId() == slot6.id and slot0.shipVO.isRemoulded()) or slot6.skin_type == 3)
 		slot8:updateUsing(slot0.shipVO.skinId == slot6.id)
 		removeOnButton(slot7)
 
-		slot13 = ((slot6.shop_id > 0 and pg.shop_template[slot6.shop_id]) or nil) and not pg.TimeMgr.GetInstance():inTime((slot6.shop_id > 0 and pg.shop_template[slot6.shop_id]) or nil.time)
-		slot14 = slot6.id == slot0.shipVO.skinId
-		slot15 = slot6.id == slot0.shipVO:getConfig("skin_id") or (((slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or (slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded())) and 1) or 0) >= 1 or slot6.skin_type == 3
+		slot14 = ((slot6.shop_id > 0 and pg.shop_template[slot6.shop_id]) or nil) and not pg.TimeMgr.GetInstance():inTime((slot6.shop_id > 0 and pg.shop_template[slot6.shop_id]) or nil.time)
+		slot15 = slot6.id == slot0.shipVO.skinId
+		slot16 = slot6.id == slot0.shipVO:getConfig("skin_id") or (((slot0.shipVO:proposeSkinOwned(slot6) or table.contains(slot0.skinList, slot6.id) or (slot0.shipVO:getRemouldSkinId() == slot6.id and slot0.shipVO:isRemoulded())) and 1) or 0) >= 1 or slot6.skin_type == 3
 
 		onButton(slot0, slot7, function ()
 			if slot0 then
 				slot1:back()
-			elseif slot2 then
-				slot1:emit(SwichSkinMediator.CHANGE_SKIN, slot3, (slot3.id == slot1.shipVO:getConfig("skin_id") and 0) or slot3.id)
-				slot1:back()
-			elseif slot4 then
-				if slot5 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
-				else
-					slot0 = Goods.New({
-						shop_id = slot4.id
-					}, Goods.TYPE_SKIN)
-					slot1 = slot0:getConfig("resource_num")
+			else
+				if slot2 then
+					slot0 = slot1.emit
+					slot2 = SwichSkinMediator.CHANGE_SKIN
 
-					if slot0:isDisCount() then
-						slot1 = slot1 * (100 - slot0:getConfig("discount")) / 100
+					if slot3.id == slot1.shipVO:getConfig("skin_id") then
+						slot4 = 0
+					else
+						slot4 = slot3.id
 					end
 
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("text_buy_fashion_tip", slot1, HXSet.hxLan(slot3.name)),
-						onYes = function ()
-							slot0:emit(SwichSkinMediator.BUY_ITEM, slot1.id, 1)
+					slot0(slot1, slot2, slot3, slot4)
+					slot1:back()
+				else
+					if slot4 then
+						if slot5 then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
+						else
+							slot0 = Goods.New({
+								shop_id = slot4.id
+							}, Goods.TYPE_SKIN)
+							slot1 = slot0:getConfig("resource_num")
+
+							if slot0:isDisCount() then
+								slot1 = slot1 * (100 - slot0:getConfig("discount")) / 100
+							end
+
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								content = i18n("text_buy_fashion_tip", slot1, HXSet.hxLan(slot3.name)),
+								onYes = function ()
+									slot0:emit(SwichSkinMediator.BUY_ITEM, slot1.id, 1)
+
+									return
+								end
+							})
 						end
-					})
+					end
 				end
 			end
+
+			return
 		end)
 		setActive(slot7, true)
+
+		slot9 = slot0.shipVO.isRemoulded()
+
+		if slot0.shipVO.isRemoulded() then
+			slot9 = false
+
+			if false then
+				slot9 = true
+			end
+		end
+
+		if not table.contains(slot0.skinList, slot6.id) and not slot9 then
+			if slot6.skin_type ~= 3 then
+				slot10 = false
+			else
+				slot10 = true
+			end
+		end
+
+		slot13 = false
+
+		if false then
+			slot13 = true
+		end
+
+		slot11 = slot0.shipVO.isRemoulded()
+
+		if slot0.shipVO.isRemoulded() then
+			slot11 = false
+
+			if false then
+				slot11 = true
+			end
+		end
+
+		if table.contains(slot0.skinList, slot6.id) or slot11 then
+			slot12 = 1
+		else
+			slot12 = 0
+		end
+
+		if not pg.shop_template[slot6.shop_id] then
+			slot13 = nil
+		end
+
+		slot14 = not pg.TimeMgr.GetInstance().inTime((slot6.shop_id > 0 and pg.shop_template[slot6.shop_id]) or nil.time)
+		slot15 = false
+
+		if false then
+			slot15 = true
+		end
+
+		if slot12 < 1 and slot6.skin_type ~= 3 then
+			slot16 = false
+		else
+			slot16 = true
+		end
 	end
 end
 
@@ -114,39 +190,43 @@ function slot0.isCurrentShipExistSkin(slot0, slot1)
 	if slot1 then
 		if #slot0.skins > 1 then
 			return true
-		elseif #slot0.skins == 1 then
-			return false
+		else
+			if #slot0.skins == 1 then
+				return false
+			end
 		end
 	end
+
+	return
 end
 
 function slot0.getGroupSkinList(slot0, slot1)
-	for slot6 = #ShipGroup.getSkinList(slot1), 1, -1 do
-		if slot2[slot6].skin_type == 3 then
+	slot2 = ShipGroup.getSkinList(slot1)
+
+	if pg.ship_data_trans[slot1] and not slot0.shipVO:isRemoulded() then
+		slot3 = ShipGroup.GetGroupConfig(slot1).trans_skin
+
+		for slot7 = #slot2, 1, -1 do
+			if slot2[slot7].id == slot3 then
+				table.remove(slot2, slot7)
+
+				break
+			end
+		end
+	end
+
+	for slot6 = #slot2, 1, -1 do
+		if slot2[slot6].show_time and ((type(slot7.show_time) == "string" and slot7.show_time == "stop") or (type(slot7.show_time) == "table" and not pg.TimeMgr:GetInstance():inTime(slot7.show_time))) then
 			table.remove(slot2, slot6)
 		end
 	end
 
-	if ShipGroup.GetGroupConfig(slot1).trans_skinz ~= 0 then
-		slot4 = false
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot3 = pg.gameset.big_seven_old_skin_timestamp.key_value
 
-		if getProxy(CollectionProxy):getShipGroup(slot1) then
-			for slot9, slot10 in ipairs(slot2) do
-				if slot10.skin_type == Ship.SKIN_TYPE_REMAKE and slot5.trans then
-					slot4 = true
-
-					break
-				end
-			end
-		end
-
-		if not slot4 then
-			for slot9 = #slot2, 1, -1 do
-				if slot2[slot9].id == slot3 then
-					table.remove(slot2, slot9)
-
-					break
-				end
+		for slot7 = #slot2, 1, -1 do
+			if slot2[slot7].skin_type == 3 and slot3 < slot0.shipVO.createTime then
+				table.remove(slot2, slot7)
 			end
 		end
 	end
@@ -173,6 +253,8 @@ function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.skinCardMap) do
 		slot5:clear()
 	end
+
+	return
 end
 
 return slot0

@@ -206,9 +206,24 @@ function slot0.updateStageView(slot0, slot1)
 		end
 	end
 
-	slot9 = UIItemList.New(slot0._spoilsContainer, slot0._item)
+	if checkExist(pg.expedition_activity_template[slot1], {
+		"pt_drop_display"
+	}) and type(slot9) == "table" then
+		slot10 = getProxy(ActivityProxy)
 
-	slot9:make(function (slot0, slot1, slot2)
+		for slot14 = #slot9, 1, -1 do
+			if slot10:getActivityById(slot9[slot14][1]) and not slot15:isEnd() then
+				table.insert(slot6, 1, {
+					2,
+					id2ItemId(slot9[slot14][2])
+				})
+			end
+		end
+	end
+
+	slot10 = UIItemList.New(slot0._spoilsContainer, slot0._item)
+
+	slot10:make(function (slot0, slot1, slot2)
 		updateDrop(slot3, slot5)
 		onButton(slot1, slot2, function ()
 			if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
@@ -233,9 +248,9 @@ function slot0.updateStageView(slot0, slot1)
 			end
 		end, SFX_PANEL)
 	end)
-	slot9:align(#slot6)
+	slot10:align(math.min(#slot6, 6))
 
-	function slot10(slot0, slot1)
+	function slot11(slot0, slot1)
 		if type(slot0) == "table" then
 			setActive(slot1, true)
 			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
@@ -244,23 +259,23 @@ function slot0.updateStageView(slot0, slot1)
 		end
 	end
 
-	slot11 = {
+	slot12 = {
 		findTF(slot0._goals, "goal_tpl"),
 		findTF(slot0._goals, "goal_sink"),
 		findTF(slot0._goals, "goal_time")
 	}
-	slot13 = 1
+	slot14 = 1
 
-	for slot17, slot18 in ipairs(slot12) do
-		if type(slot18) ~= "string" then
-			slot10(slot18, slot11[slot13])
+	for slot18, slot19 in ipairs(slot13) do
+		if type(slot19) ~= "string" then
+			slot11(slot19, slot12[slot14])
 
-			slot13 = slot13 + 1
+			slot14 = slot14 + 1
 		end
 	end
 
-	for slot17 = slot13, #slot11, 1 do
-		slot10("", slot11[slot17])
+	for slot18 = slot14, #slot12, 1 do
+		slot11("", slot12[slot18])
 	end
 end
 

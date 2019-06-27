@@ -18,9 +18,9 @@ slot0.MEMORYBOOK = "memory book"
 slot0.RETURN_AWARD_OP = "event return award op"
 slot0.SHOW_AWARD_WINDOW = "event show award window"
 slot0.GO_DODGEM = "event go dodgem"
-slot0.GO_PRAY_POOL = "GO_PRAY_POOL"
-slot0.GO_BUILD_BISIMAI = "GO_BUILD_BISIMAI"
+slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
+slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -96,17 +96,18 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()
-		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) or slot0:isEnd() then
+		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()
+		slot2 = slot0 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot0].on_activity)
+
+		if not slot2 or slot2:isEnd() then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		slot7.mapIdx, slot7.chapterId = getProxy(ChapterProxy):getLastMapForActivity()
-
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot2,
-			mapIdx = slot1
+			chapterId = slot1,
+			mapIdx = slot0
 		})
 	end)
 	slot0:bind(slot0.REQUEST_VOTE_INFO, function (slot0, slot1)
@@ -147,13 +148,11 @@ function slot0.register(slot0)
 			goToPray = true
 		})
 	end)
-	slot0:bind(slot0.GO_BUILD_BISIMAI, function (slot0)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.GETBOAT, {
-			goToBisiMai = true
-		})
-	end)
 	slot0:bind(slot0.SELECT_ACTIVITY, function (slot0, slot1)
-		slot0.viewComponent:selectActivity(slot1)
+		slot0.viewComponent:verifyTabs(slot1)
+	end)
+	slot0:bind(slot0.SHOW_NEXT_ACTIVITY, function (slot0)
+		slot0:showNextActivity()
 	end)
 
 	slot1 = getProxy(ActivityProxy)
@@ -162,7 +161,6 @@ function slot0.register(slot0)
 	slot0.viewComponent:setAllActivity(slot1:getData())
 	slot0.viewComponent:setPlayer(slot4)
 	slot0.viewComponent:setFlagShip(getProxy(BayProxy).getShipById(slot5, getProxy(PlayerProxy).getRawData(slot3).character))
-	slot0:showNextActivity()
 end
 
 function slot0.onUIAvalible(slot0)
@@ -248,7 +246,7 @@ function slot0.showNextActivity(slot0)
 	end
 
 	if slot1:findNextAutoActivity() then
-		slot0.viewComponent:selectActivity(slot2.id)
+		slot0.viewComponent:verifyTabs(slot2.id)
 
 		if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN or slot3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
@@ -262,15 +260,11 @@ function slot0.showNextActivity(slot0)
 			})
 		end
 	elseif not slot0.viewComponent.activity then
-		slot3 = slot1:getPanelActivities()
-
-		if slot0.contextData.id == nil then
-			slot0.viewComponent:selectActivity((slot0.contextData.type and _.detect(slot3, function (slot0)
-				return slot0:getConfig("type") == slot0.contextData.type
-			end) and slot0.contextData.type and _.detect(slot3, function (slot0)
-				return slot0.getConfig("type") == slot0.contextData.type
-			end).id) or 0)
-		end
+		slot0.viewComponent:verifyTabs(slot0.contextData.id or (slot0.contextData.type and checkExist(_.detect(slot1:getPanelActivities(), function (slot0)
+			return slot0:getConfig("type") == slot0.contextData.type
+		end), {
+			"id"
+		})) or 0)
 	end
 end
 

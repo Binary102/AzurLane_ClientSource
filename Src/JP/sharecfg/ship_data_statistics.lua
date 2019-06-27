@@ -158674,6 +158674,514 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[801041] = {
+		name = "ルピニャート",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF L'Opiniâtre",
+		skin_id = 801040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 1,
+		attrs = {
+			286,
+			19,
+			70,
+			38,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			47
+		},
+		attrs_growth = {
+			6965,
+			188,
+			690,
+			744,
+			0,
+			360,
+			0,
+			1050,
+			972,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801042] = {
+		name = "ルピニャート",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF L'Opiniâtre",
+		skin_id = 801040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 1,
+		attrs = {
+			356,
+			24,
+			87,
+			47,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			59
+		},
+		attrs_growth = {
+			6965,
+			188,
+			690,
+			744,
+			0,
+			360,
+			0,
+			1050,
+			972,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801043] = {
+		name = "ルピニャート",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF L'Opiniâtre",
+		skin_id = 801040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 1,
+		attrs = {
+			495,
+			33,
+			122,
+			66,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			82
+		},
+		attrs_growth = {
+			6965,
+			188,
+			690,
+			744,
+			0,
+			360,
+			0,
+			1050,
+			972,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[801044] = {
+		name = "ルピニャート",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 801044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "FFNF L'Opiniâtre",
+		skin_id = 801040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 8,
+		armor_type = 1,
+		attrs = {
+			704,
+			47,
+			174,
+			94,
+			0,
+			72,
+			0,
+			71,
+			66,
+			42,
+			45,
+			118
+		},
+		attrs_growth = {
+			6965,
+			188,
+			690,
+			744,
+			0,
+			360,
+			0,
+			1050,
+			972,
+			0,
+			0,
+			470
+		},
+		attrs_growth_extra = {
+			6965,
+			442,
+			1211,
+			509,
+			0,
+			848,
+			0,
+			-615,
+			-667,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.35,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[802011] = {
 		name = "エミール・ベルタン",
 		type = 2,
@@ -158802,7 +159310,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bertin"
+		}
 	},
 	[802012] = {
 		name = "エミール・ベルタン",
@@ -158932,7 +159442,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bertin"
+		}
 	},
 	[802013] = {
 		name = "エミール・ベルタン",
@@ -159062,7 +159574,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bertin"
+		}
 	},
 	[802014] = {
 		name = "エミール・ベルタン",
@@ -159192,7 +159706,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Bertin"
+		}
 	},
 	[808011] = {
 		name = "シュルクーフ",
@@ -160702,6 +161218,514 @@ pg.ship_data_statistics = {
 			1.15,
 			1.4,
 			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901111] = {
+		name = "ル・マラン",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 901111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		skin_id = 901110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		armor_type = 1,
+		attrs = {
+			326,
+			25,
+			51,
+			26,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			47
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901112] = {
+		name = "ル・マラン",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 901112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		skin_id = 901110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		armor_type = 1,
+		attrs = {
+			405,
+			31,
+			64,
+			32,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			59
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901113] = {
+		name = "ル・マラン",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 901113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		skin_id = 901110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		armor_type = 1,
+		attrs = {
+			564,
+			44,
+			89,
+			45,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			82
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901114] = {
+		name = "ル・マラン",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 901114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		skin_id = 901110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		armor_type = 1,
+		attrs = {
+			803,
+			63,
+			126,
+			64,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			117
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			7945,
+			590,
+			1117,
+			344,
+			0,
+			892,
+			0,
+			-585,
+			-835,
+			0,
+			0,
+			448
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -201464,6 +202488,10 @@ pg.ship_data_statistics = {
 		801032,
 		801033,
 		801034,
+		801041,
+		801042,
+		801043,
+		801044,
 		802011,
 		802012,
 		802013,
@@ -201476,6 +202504,10 @@ pg.ship_data_statistics = {
 		901012,
 		901013,
 		901014,
+		901111,
+		901112,
+		901113,
+		901114,
 		904011,
 		904012,
 		904013,

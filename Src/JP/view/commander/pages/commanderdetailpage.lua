@@ -126,15 +126,15 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:Show()
 end
 
-function slot0.updatePreView(slot0, slot1)
+function slot0.updatePreView(slot0, slot1, slot2)
 	slot0:updateAbilitys(slot1)
-	slot0:updatePreviewAddition(slot1)
+	slot0:updatePreviewAddition(slot1, slot2)
 	slot0:UpdateLevel(slot1)
 end
 
-function slot0.updatePreviewAddition(slot0, slot1)
-	slot0:updateAbilityAddition(slot1)
-	slot0:updateTalentAddition(slot1)
+function slot0.updatePreviewAddition(slot0, slot1, slot2)
+	slot0:updateAbilityAddition(slot1, slot2)
+	slot0:updateTalentAddition(slot1, slot2)
 end
 
 function slot0.UpdateInfo(slot0)
@@ -184,30 +184,38 @@ function slot0.updateAbilitys(slot0, slot1)
 	end
 end
 
-function slot0.updateAbilityAddition(slot0, slot1)
-	slot3 = slot0.commanderVO.getAbilitysAddition(slot2)
-	slot4 = nil
+function slot0.updateAbilityAddition(slot0, slot1, slot2)
+	slot4 = slot0.commanderVO.getAbilitysAddition(slot3)
+	slot5 = nil
 
 	if slot1 then
-		slot4 = slot1:getAbilitysAddition()
+		slot5 = slot1:getAbilitysAddition()
 	end
 
-	slot5 = 0
+	slot6 = 0
 
-	for slot9, slot10 in pairs(slot3) do
-		if slot10 > 0 then
-			slot11 = slot0.abilityAdditionTF:GetChild(slot5)
+	for slot10, slot11 in pairs(slot4) do
+		if slot11 > 0 then
+			slot12 = slot0.abilityAdditionTF:GetChild(slot6)
 
-			GetImageSpriteFromAtlasAsync("attricon", slot9, slot11:Find("bg/icon"), false)
-			setText(slot11:Find("bg/name"), AttributeType.Type2Name(slot9))
+			GetImageSpriteFromAtlasAsync("attricon", slot10, slot12:Find("bg/icon"), false)
+			setText(slot12:Find("bg/name"), AttributeType.Type2Name(slot10))
 
-			slot12 = string.format("%0.3f", slot10)
+			slot13 = string.format("%0.3f", slot11)
 
-			setText(slot11:Find("bg/value"), "+" .. math.floor(slot10 * 1000) / 1000 .. "%")
-			setActive(slot11:Find("up"), slot10 < ((slot4 and slot4[slot9]) or slot10))
-			setActive(slot11:Find("down"), ((slot4 and slot4[slot9]) or slot10) < slot10)
+			setText(slot12:Find("bg/value"), "+" .. math.floor(slot11 * 1000) / 1000 .. "%")
 
-			slot5 = slot5 + 1
+			slot14 = (slot5 and slot5[slot10]) or slot11
+
+			if slot2 then
+				setActive(slot12:Find("up"), slot14 < slot11)
+				setActive(slot12:Find("down"), slot11 < slot14)
+			else
+				setActive(slot12:Find("up"), slot11 < slot14)
+				setActive(slot12:Find("down"), slot14 < slot11)
+			end
+
+			slot6 = slot6 + 1
 		end
 	end
 end
@@ -229,13 +237,8 @@ function slot0.updateTalents(slot0)
 	slot0.talentList:align(#slot0.commanderVO.getTalents(slot2))
 end
 
-function slot0.updateTalentAddition(slot0, slot1)
-	slot2 = slot0.commanderVO
-	slot3 = nil
-
-	if slot1 then
-		slot3 = _.values(slot1:getTalentsDesc())
-	end
+function slot0.updateTalentAddition(slot0, slot1, slot2)
+	slot4 = nil
 
 	slot0.talentAdditionList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -247,13 +250,13 @@ function slot0.updateTalentAddition(slot0, slot1)
 
 			slot1.talentAdditionTextList[slot1 + 1]:setText(slot3.name)
 			setText(slot2:Find("bg/value"), ((slot3.value > 0 and "+") or "") .. slot3.value .. ((slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%") or ""))
-			setActive(slot2:Find("up"), slot3.value < ((slot2 and slot2[slot1 + 1] and slot2[slot1 + 1].value) or slot3.value))
-			setActive(slot2:Find("down"), ((slot2 and slot2[slot1 + 1] and slot2[slot1 + 1].value) or slot3.value) < slot3.value)
+			setActive(slot2:Find("up"), false)
+			setActive(slot2:Find("down"), false)
 
 			slot2:Find("bg"):GetComponent(typeof(Image)).enabled = slot1 % 2 ~= 0
 		end
 	end)
-	slot0.talentAdditionList:align(#_.values(slot2:getTalentsDesc()))
+	slot0.talentAdditionList:align(#_.values(slot0.commanderVO.getTalentsDesc(slot3)))
 end
 
 function slot0.updateSkills(slot0)

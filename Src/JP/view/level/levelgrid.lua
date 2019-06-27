@@ -1741,6 +1741,16 @@ function slot2(slot0, slot1)
 
 				function slot18()
 					slot0 = slot0
+					slot0 = slot0.parent
+					slot1 = slot0
+					slot0 = slot0.isfrozen
+					slot0 = slot0(slot1)
+
+					if slot0 then
+						return
+					end
+
+					slot0 = slot1
 					slot1 = ChapterConst
 					slot1 = slot1.AttachBoss
 
@@ -1981,7 +1991,7 @@ function slot2(slot0, slot1)
 				slot16 = slot4.tfAmmo
 				slot17 = Vector2
 				slot18 = -60
-				slot19 = 110
+				slot19 = 85
 				slot17 = slot17(slot18, slot19)
 				slot16.anchoredPosition = slot17
 			end

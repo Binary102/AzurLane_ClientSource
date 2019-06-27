@@ -144,7 +144,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot3.data1_list, slot1.arg1)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-		table.insert(slot3.data1_list, os.server_date("*t", slot8).day)
+		table.insert(slot3.data1_list, pg.TimeMgr.GetInstance():STimeDescS(slot8, "*t").day)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 		slot3.data2 = 1
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_2 then

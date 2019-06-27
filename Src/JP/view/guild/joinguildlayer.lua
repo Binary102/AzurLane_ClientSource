@@ -297,8 +297,7 @@ end
 
 function slot0.initApplyPanel(slot0)
 	slot0.iconTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/icon"):GetComponent(typeof(Image))
-	slot0.frontNormal = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/frame_common")
-	slot0.frontProp = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/frame_marry")
+	slot0.circle = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/frame")
 	slot0.manifesto = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/Text"):GetComponent(typeof(Text))
 	slot0.starsTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/stars")
 	slot0.starTF = findTF(slot0.appPanel, "panel/frame/policy_container/input_frame/shipicon/stars/star")
@@ -336,8 +335,20 @@ function slot0.updateApplyPanel(slot0, slot1)
 	slot0.flagName.text = slot1:getCommader().name
 	slot0.policyTF.text = slot1:getPolicyName()
 
-	setActive(slot0.frontNormal, false)
-	setActive(slot0.frontProp, false)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. ((slot1.level < 9 and "0" .. slot1.level) or slot1.level), (slot1.level < 9 and "0" .. slot1.level) or slot1.level, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
+
+		if slot0.circle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.circle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
 	onButton(slot0, slot0.applyBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
@@ -361,6 +372,10 @@ function slot0.closeApply(slot0)
 
 	slot0.UIMgr:UnblurPanel(slot0.appPanel, slot0._tf)
 	setActive(slot0.appPanel, false)
+
+	if slot0.circle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
+	end
 end
 
 function slot0.onBackPressed(slot0)

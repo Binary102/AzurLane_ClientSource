@@ -56,6 +56,30 @@ slot1 = {
 	[ActivityConst.GLORY_PAGE_ID] = {
 		className = "GloryTaskPage",
 		uiName = "glorytaskpage"
+	},
+	[ActivityConst.FRANCE_RE_MAIN] = {
+		className = "FranceRestartMainPage",
+		uiName = "francerestartmainpage"
+	},
+	[ActivityConst.FRANCE_RE_PT] = {
+		className = "FranceRestartPtPage",
+		uiName = "francerestartptpage"
+	},
+	[ActivityConst.FRANCE_RE_OIL] = {
+		className = "FranceRestartOilPage",
+		uiName = "francerestartoilpage"
+	},
+	[ActivityConst.HONGRAN_RE_PREVIEW_ID] = {
+		className = "HongranPreviewPage",
+		uiName = "hongranpreviewpage"
+	},
+	[ActivityConst.HONGRAN_RE_PT_ID] = {
+		className = "HongranPtPage",
+		uiName = "hongranptpage"
+	},
+	[ActivityConst.JAVELIN_COMIC_NINE_DAY_TASK] = {
+		className = "JavelinComicSkinPage",
+		uiName = "javelincomicskinpage"
 	}
 }
 slot2 = {}
@@ -93,7 +117,7 @@ function slot0.init(slot0)
 	setActive(slot0.tab, false)
 
 	slot0.shareData = ActivityShareData.New()
-	slot2 = tonumber(pg.TimeMgr.GetInstance():DescClientTime(slot1, "%m"))
+	slot2 = tonumber(pg.TimeMgr.GetInstance():CTimeDescC(slot1, "%m"))
 	slot3 = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1]
 	require("GameCfg.activity.EntranceData").pageDic = {}
 
@@ -119,6 +143,7 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	slot0:updateEntrances()
+	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
 end
 
 function slot0.setPlayer(slot0, slot1)
@@ -173,8 +198,7 @@ function slot0.updateActivity(slot0, slot1)
 	if slot0.activity and slot0.activity.id == slot1.id then
 		slot0.activity = slot1
 
-		slot0.pageDic[slot1.id].ActionInvoke(slot3, "Flush", slot1)
-		slot0:verifyTabs()
+		slot0.pageDic[slot1.id]:ActionInvoke("Flush", slot1)
 	end
 end
 
@@ -214,7 +238,7 @@ function slot0.flushTabs(slot0)
 						setActive(slot0:findTF("red", slot2), slot3:readyToAchieve())
 						onToggle(slot0, slot2, function (slot0)
 							if slot0 then
-								slot0:selectActivity(slot1.id)
+								slot0:selectActivity(slot0.selectActivity)
 							end
 						end, SFX_PANEL)
 					else
@@ -231,26 +255,32 @@ function slot0.flushTabs(slot0)
 end
 
 function slot0.selectActivity(slot0, slot1)
-	if (_.detect(slot0.activities, function (slot0)
-		return slot0.id == slot0
-	end) or slot0.activities[1]) and (not slot0.activity or slot0.activity.id ~= slot2.id) then
-		slot0.pageDic[slot2.id].Load(slot3)
-		slot0.pageDic[slot2.id].ActionInvoke(slot3, "Flush", slot2)
-		slot0.pageDic[slot2.id]:ActionInvoke("ShowOrHide", true)
+	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
+		slot0.pageDic[slot1.id].Load(slot2)
+		slot0.pageDic[slot1.id].ActionInvoke(slot2, "Flush", slot1)
+		slot0.pageDic[slot1.id]:ActionInvoke("ShowOrHide", true)
 
-		if slot0.activity and slot0.activity.id ~= slot2.id then
+		if slot0.activity and slot0.activity.id ~= slot1.id then
 			slot0.pageDic[slot0.activity.id]:ActionInvoke("ShowOrHide", false)
 		end
 
-		slot0.activity = slot2
-		slot0.contextData.id = slot2.id
-
-		slot0:verifyTabs()
+		slot0.activity = slot1
+		slot0.contextData.id = slot1.id
 	end
 end
 
-function slot0.verifyTabs(slot0)
-	triggerToggle(slot0.tabs:GetChild(table.indexof(slot0.activities, slot0.activity) - 1), true)
+function slot0.verifyTabs(slot0, slot1)
+	slot2 = 1
+
+	for slot6, slot7 in ipairs(slot0.activities) do
+		if slot7.id == slot1 then
+			slot2 = slot6
+
+			break
+		end
+	end
+
+	triggerToggle(slot0.tabs:GetChild(slot2 - 1), true)
 end
 
 function slot0.loadActivityPanel(slot0, slot1, slot2)

@@ -3075,6 +3075,113 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100006] = {
+		can_rotate = 0,
+		name = "スターステージ ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutaiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100006,
+		comfortable = 0,
+		describe = "ふらいでーないとふぃーばー！",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xingguangwutaiB",
+				"normal"
+			},
+			{
+				"xingguangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
+						0,
+						"dance"
+					},
+					{
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "ボロ床",
@@ -75147,6 +75254,7 @@ pg.furniture_data_template = {
 		100003,
 		100004,
 		100005,
+		100006,
 		1001,
 		1002,
 		1101,

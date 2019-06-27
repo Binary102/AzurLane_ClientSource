@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 slot4 = 3
-slot5 = 0.5
+slot5 = 0.3
 
 function slot0.Ctor(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
@@ -26,6 +26,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.finishBg = slot0._tf:Find("frame/finish_bg")
 	slot0.unfinishBg = slot0._tf:Find("frame/unfinish_bg")
 	slot0.tip = slot0._tf:Find("frame/tip")
+	slot0.cg = GetOrAddComponent(slot0._tf, "CanvasGroup")
 end
 
 function slot0.update(slot0, slot1)
@@ -73,6 +74,8 @@ function slot0.update(slot0, slot1)
 		removeOnButton(slot0.storyIconFrame)
 	end
 
+	slot0.cg.alpha = 1
+
 	setActive(slot0.frame, true)
 end
 
@@ -90,9 +93,10 @@ function slot0.updateBtnState(slot0, slot1)
 				if not slot0.isClick then
 					slot0.isClick = true
 
+					LeanTween.alphaCanvas(slot0.cg, 0, LeanTween.alphaCanvas):setFrom(1)
 					LeanTween.value(go(slot0.frame), slot0.frame.localPosition.x, slot0.frame.localPosition.x + slot0._modelWidth, LeanTween.value):setOnUpdate(System.Action_float(function (slot0)
 						slot0.frame.transform.localPosition = Vector3(slot0, slot1.y, slot1.z)
-					end)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+					end)):setOnComplete(System.Action(function ()
 						slot0.frame.transform.localPosition = slot1
 
 						setActive(slot0.frame, false)
@@ -100,8 +104,6 @@ function slot0.updateBtnState(slot0, slot1)
 						setActive.isClick = nil
 
 						setActive.viewComponent:onSubmit(false)
-
-						return
 					end))
 				end
 			end

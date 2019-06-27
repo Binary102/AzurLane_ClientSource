@@ -171,7 +171,7 @@ function slot0.register(slot0)
 
 		if not ChapterConst.ActivateMirror then
 			if not slot1 or not pg.sim_battle_template[slot1] then
-				slot1 = os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).month
+				slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").month
 			end
 
 			slot0.shamShop:update(slot1, slot0.shop_list or {})
@@ -721,7 +721,16 @@ function slot0.getLastMapForActivity(slot0)
 				end)
 			end
 
-			slot3 = slot3 or ActivityConst.ACTIVITY_BATTLE_MAP_ID
+			slot3 = slot3 or checkExist(slot6, {
+				1
+			}, {
+				"getConfig",
+				{
+					"config_data"
+				}
+			}, {
+				1
+			})
 		end
 	end
 

@@ -9,7 +9,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.001875,
+						rate = 0.0023077,
 						max = 0.15,
 						base = 0
 					},
@@ -30,7 +30,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.0020125,
+						rate = 0.002477,
 						max = 0.161,
 						base = 0
 					},
@@ -51,7 +51,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.00215,
+						rate = 0.0026462,
 						max = 0.172,
 						base = 0
 					},
@@ -72,7 +72,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.0022875,
+						rate = 0.0028154,
 						max = 0.183,
 						base = 0
 					},
@@ -93,7 +93,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.002425,
+						rate = 0.002985,
 						max = 0.194,
 						base = 0
 					},
@@ -114,7 +114,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.0025625,
+						rate = 0.003154,
 						max = 0.205,
 						base = 0
 					},
@@ -135,7 +135,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.0027,
+						rate = 0.003324,
 						max = 0.216,
 						base = 0
 					},
@@ -156,7 +156,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.0028375,
+						rate = 0.003493,
 						max = 0.227,
 						base = 0
 					},
@@ -177,7 +177,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.002975,
+						rate = 0.003662,
 						max = 0.238,
 						base = 0
 					},
@@ -198,7 +198,7 @@ return {
 				arg_list = {
 					attr = "damageRatioBullet",
 					displacement_convert = {
-						rate = 0.003125,
+						rate = 0.003847,
 						max = 0.25,
 						base = 0
 					},
@@ -234,7 +234,7 @@ return {
 			arg_list = {
 				attr = "damageRatioBullet",
 				displacement_convert = {
-					rate = 0.001875,
+					rate = 0.0023077,
 					max = 0.15,
 					base = 0
 				},

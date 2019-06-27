@@ -51,7 +51,7 @@ function slot0.UpdateTrophy(slot0, slot1)
 	slot0._desc.text = slot1:getConfig("desc")
 
 	if slot1:isClaimed() then
-		slot2 = os.server_date("*t", slot1.timestamp)
+		slot2 = pg.TimeMgr.GetInstance():STimeDescS(slot1.timestamp, "*t")
 		slot0._timeStamp.text = slot2.year .. "/" .. slot2.month .. "/" .. slot2.day
 	else
 		slot0._timeStamp.text = "-"

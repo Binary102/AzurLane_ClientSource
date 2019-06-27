@@ -1,21 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "326",
+		type = 3,
 		id = 1,
 		pic = "temp2",
-		param = {
-			"scene level",
-			{
-				open_remaster = 1
-			}
-		},
 		time = {
 			{
 				{
 					2019,
 					6,
-					13
+					27
 				},
 				{
 					0,
@@ -26,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2019,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					23,
@@ -40,19 +35,17 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp5",
+		pic = "temp7",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2019,
 					6,
-					13
+					27
 				},
 				{
 					0,
@@ -63,8 +56,40 @@ pg.activity_banner = {
 			{
 				{
 					2019,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "333",
+		type = 3,
+		id = 3,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2019,
 					6,
-					26
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					24
 				},
 				{
 					23,
@@ -76,7 +101,81 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 4,
+		pic = "temp3",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp9",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
 		pic = "temp13",
 		param = {
 			"scene back yard"
@@ -109,58 +208,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
-		id = 4,
-		pic = "temp9",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 5,
-		pic = "temp6",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 6,
-		pic = "temp3",
-		param = {
-			"scene get boat",
-			{
-				projectName = "light"
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 7,
-		pic = "temp1",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
-		}
-	},
-	{
 		param = "0",
 		time = "stop",
 		type = 3,
-		id = 8,
+		id = 7,
 		pic = "temp9"
 	},
 	all = {
@@ -170,8 +221,7 @@ pg.activity_banner = {
 		4,
 		5,
 		6,
-		7,
-		8
+		7
 	}
 }
 

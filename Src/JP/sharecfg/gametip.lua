@@ -3165,7 +3165,7 @@ pg.gametip = {
 		key = "levelScene_chapter_level_limit"
 	},
 	levelScene_chapter_count_tip = {
-		tip = "今日次数：",
+		tip = "残り回数：",
 		key = "levelScene_chapter_count_tip"
 	},
 	levelScene_tracking_error_retry = {
@@ -5771,7 +5771,7 @@ pg.gametip = {
 		key = "guild_duty_tip_1"
 	},
 	guild_duty_tip_2 = {
-		tip = "<color=#C3C3C3>委任不可</color> ",
+		tip = "<color=#C3C3C3>任命不可</color> ",
 		key = "guild_duty_tip_2"
 	},
 	battle_repair_special_tip = {
@@ -6207,7 +6207,7 @@ pg.gametip = {
 	},
 	ship_remould_warning_310014 = {
 		tip = [[
-<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
@@ -6215,7 +6215,7 @@ pg.gametip = {
 	},
 	ship_remould_warning_310024 = {
 		tip = [[
-<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
@@ -6223,7 +6223,7 @@ pg.gametip = {
 	},
 	ship_remould_warning_310034 = {
 		tip = [[
-<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
@@ -6231,18 +6231,18 @@ pg.gametip = {
 	},
 	ship_remould_warning_310044 = {
 		tip = [[
-<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。
+<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。
 副兵装は<color=#92fc63>【水上機】</color>に変更されます。
 副兵装枠に装備されている兵装は外されます。
 改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>]],
 		key = "ship_remould_warning_310044"
 	},
 	ship_remould_warning_303154 = {
-		tip = "<size=26>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
 		key = "ship_remould_warning_303154"
 	},
 	ship_remould_warning_402134 = {
-		tip = "<size=26>改造で<color=#92fc63>1つ目の【設備】</color>が<color=#92fc63>【ヘリ】</color>を装備できるようになり\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
+		tip = "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>",
 		key = "ship_remould_warning_402134"
 	},
 	word_soundfiles_download_title = {
@@ -6546,7 +6546,7 @@ pg.gametip = {
 		key = "pt_count"
 	},
 	pt_total_count = {
-		tip = "所持$1",
+		tip = "累計$1",
 		key = "pt_total_count"
 	},
 	remould_ship_ok = {
@@ -6754,6 +6754,10 @@ pg.gametip = {
 	words_show_touch_effect = {
 		tip = "タッチエフェクト表示 ",
 		key = "words_show_touch_effect"
+	},
+	words_bg_fit_mode = {
+		tip = "ﾛｰﾄﾞ画面のｱｽ比自動適応",
+		key = "words_bg_fit_mode"
 	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>入手方法\n限定任務7</color>",
@@ -8607,7 +8611,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、ビスマルク、U-556、U-73、Z36、エコーの出現率UP！",
+		tip = "イベント期間、ル・マラン、ジャン・バール、マサチューセッツなどの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10616,6 +10620,132 @@ Pt」が加算されます。
 	empty_tip_mailboxui = {
 		tip = "メールはありません",
 		key = "empty_tip_mailboxui"
+	},
+	words_settings_unlock_ship = {
+		tip = "艦船保護解除",
+		key = "words_settings_unlock_ship"
+	},
+	words_settings_resolve_equip = {
+		tip = "装備廃棄",
+		key = "words_settings_resolve_equip"
+	},
+	words_settings_unlock_commander = {
+		tip = "オフニャ保護解除",
+		key = "words_settings_unlock_commander"
+	},
+	words_settings_create_inherit = {
+		tip = "引継コード発行",
+		key = "words_settings_create_inherit"
+	},
+	tips_fail_secondarypwd_much_times = {
+		tip = "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください",
+		key = "tips_fail_secondarypwd_much_times"
+	},
+	words_desc_unlock = {
+		tip = "パスワード機能で制限されている操作です",
+		key = "words_desc_unlock"
+	},
+	words_desc_resolve_equip = {
+		tip = "パスワード機能で制限されている操作です",
+		key = "words_desc_resolve_equip"
+	},
+	words_desc_create_inherit = {
+		tip = "引継コード発行",
+		key = "words_desc_create_inherit"
+	},
+	words_desc_close_password = {
+		tip = "パスワード機能無効化",
+		key = "words_desc_close_password"
+	},
+	words_desc_change_settings = {
+		tip = "パスワードによる行動制限機能を変更",
+		key = "words_desc_change_settings"
+	},
+	words_set_password = {
+		tip = "パスワード設定",
+		key = "words_set_password"
+	},
+	words_information = {
+		tip = "情報",
+		key = "words_information"
+	},
+	secondarypassword_incorrectpwd_error = {
+		tip = "パスワードが間違っています。（あと<color=#FF5C5C>%d</color>回入力可能）",
+		key = "secondarypassword_incorrectpwd_error"
+	},
+	secondary_password_help = {
+		key = "secondary_password_help",
+		tip = {
+			{
+				info = [[
+パスワード機能とは、一部行動をする際に本人確認と
+して、予め設定されたパスワードの入力・確認を一度
+だけ行うことによって、アイテムや艦船を保護する機
+能になります。]]
+			},
+			{
+				info = "1 パスワード機能は、「設定」で有効化/無効化出来\nます。"
+			},
+			{
+				info = [[
+2 パスワード機能を有効化する際に、パスワードを
+新たに設定する必要があります。また、パスワードを
+無効化する際も、前記で設定したパスワードを入力
+する必要があります。]]
+			},
+			{
+				info = [[
+3 パスワード機能を有効化している場合、下記の行動
+を行う際の本人確認として、パスワード入力を求める
+か否かについても設定することが出来ます。
+　・艦船、オフニャの保護解除
+　・一部重要装備、SSレア以上の装備、強化レベル
++10の装備の廃棄]]
+			},
+			{
+				info = "4 パスワードを一度入力成功すると、次回ログインま\nで再度入力する必要はありません。"
+			},
+			{
+				info = "5 パスワードを5回間違えて入力すると、一定時間経過\nするまでは再度入力できません。"
+			},
+			{
+				info = [[
+※注意（重要）※
+設定したパスワードは予めメモなどで手元に控えて
+ください。
+パスワードを紛失した場合、お問い合わせ窓口
+（cs@azurlane.net）よりカスタマーサポートに連絡
+し、パスワードのリセットを行ってください。
+一度リセットしたパスワードは、30日間再度リセット
+することが出来ません。]]
+			}
+		}
+	},
+	comic_help = {
+		key = "comic_help",
+		tip = {
+			{
+				info = "1.限定任務をクリアすると、画面左のマンガ着色進捗\nが進みます"
+			},
+			{
+				info = "2. 進捗が最大になると、着せ替えを自動でGETできま\nす！"
+			},
+			{
+				info = "3. 限定任務は2019.7.5まで毎日2つずつ解禁されま\nす！"
+			}
+		}
+	},
+	secondarypassword_illegal_tip = {
+		tip = "包含敏感信息，请重新输入",
+		key = "secondarypassword_illegal_tip"
+	},
+	pt_cosume = {
+		tip = "消費$1：",
+		key = "pt_cosume"
+	},
+	secondarypassword_confirm_tips = {
+		tip = "パスワードヒントは<color=#FFDE38>「%s」</color>でよろしいですか？",
+		key = "secondarypassword_confirm_tips"
 	}
 }
 

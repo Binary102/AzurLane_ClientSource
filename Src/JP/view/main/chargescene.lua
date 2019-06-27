@@ -89,6 +89,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
+	setActive(slot0.chat, false)
 	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
 		if slot0.prePage ~= slot1.TYPE_MENU then
 			slot0:switchToMenu()
@@ -1039,9 +1040,9 @@ function slot0.addRefreshTimer(slot0, slot1)
 end
 
 function slot0.addUpdateTimer(slot0, slot1)
-	slot2 = pg.TimeMgr:GetInstance()
+	slot3 = pg.TimeMgr:GetInstance().Table2ServerTime(slot2, slot1)
 
-	if slot0.refreshTime and slot2:LaterThan(slot1, slot0.refreshTime) then
+	if slot0.refreshTime and slot2:Table2ServerTime(slot0.refreshTime) < slot3 then
 		return
 	end
 
@@ -1050,7 +1051,7 @@ function slot0.addUpdateTimer(slot0, slot1)
 	slot0:removeUpdateTimer()
 
 	slot0.updateTimer = Timer.New(function ()
-		if slot0:LaterThan(os.server_date("*t", slot0:GetServerTime()), slot0.LaterThan) then
+		if slot0 < slot0:GetServerTime() then
 			slot2:removeUpdateTimer()
 			slot2:sortDamondItems()
 		end

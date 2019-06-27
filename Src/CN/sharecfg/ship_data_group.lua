@@ -10029,6 +10029,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[395] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 395,
+		type = 1,
+		index_id = 299,
+		group_type = 80104,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：光与影的鸢尾之华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[347] = {
 		nationality = 8,
 		hide = 0,
@@ -10037,7 +10060,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 347,
 		type = 1,
-		index_id = 299,
+		index_id = 300,
 		group_type = 80101,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -10055,16 +10078,25 @@ pg.ship_data_group = {
 	[349] = {
 		nationality = 8,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 802019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 349,
 		type = 2,
-		index_id = 300,
+		index_id = 301,
 		group_type = 80201,
-		trans_type = 0,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_type = 2,
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12360
+		},
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
@@ -10083,7 +10115,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 350,
 		type = 8,
-		index_id = 301,
+		index_id = 302,
 		group_type = 80801,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -10106,7 +10138,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 351,
 		type = 1,
-		index_id = 302,
+		index_id = 303,
 		group_type = 90101,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -10130,6 +10162,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[394] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 394,
+		type = 1,
+		index_id = 304,
+		group_type = 90111,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：光与影的鸢尾之华",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[352] = {
 		nationality = 9,
 		hide = 0,
@@ -10138,7 +10193,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 352,
 		type = 4,
-		index_id = 303,
+		index_id = 305,
 		group_type = 90401,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -10161,7 +10216,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 353,
 		type = 5,
-		index_id = 304,
+		index_id = 306,
 		group_type = 90501,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -11247,10 +11302,12 @@ pg.ship_data_group = {
 		262,
 		348,
 		359,
+		395,
 		347,
 		349,
 		350,
 		351,
+		394,
 		352,
 		353,
 		10001,

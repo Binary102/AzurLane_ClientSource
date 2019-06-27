@@ -42,8 +42,7 @@ function slot0.init(slot0)
 	slot0.starsTF = slot0:findTF("frame/info/shipicon/stars", slot0.appiontPanel)
 	slot0.starTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.appiontPanel)
 	slot0.levelTF = slot0:findTF("frame/info/level/Text", slot0.appiontPanel):GetComponent(typeof(Text))
-	slot0.proposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.appiontPanel)
-	slot0.frameCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.appiontPanel)
+	slot0.appiontCircle = slot0:findTF("frame/info/shipicon/frame", slot0.appiontPanel)
 	slot0.firePanel = slot0:findTF("expel_panel")
 
 	setActive(slot0.firePanel, false)
@@ -56,8 +55,7 @@ function slot0.init(slot0)
 	slot0.firestarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.firePanel)
 	slot0.firestarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.firePanel)
 	slot0.firelevelTF = slot0:findTF("frame/info/level/Text", slot0.firePanel):GetComponent(typeof(Text))
-	slot0.fireproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.firePanel)
-	slot0.fireframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.firePanel)
+	slot0.fireframeCircle = slot0:findTF("frame/info/shipicon/frame", slot0.firePanel)
 	slot0.impeachPanel = slot0:findTF("impeach_panel")
 
 	setActive(slot0.impeachPanel, false)
@@ -70,8 +68,7 @@ function slot0.init(slot0)
 	slot0.impeachstarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.impeachPanel)
 	slot0.impeachstarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.impeachPanel)
 	slot0.impeachlevelTF = slot0:findTF("frame/info/level/Text", slot0.impeachPanel):GetComponent(typeof(Text))
-	slot0.impeachproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.impeachPanel)
-	slot0.impeachframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.impeachPanel)
+	slot0.impeachCirCle = slot0:findTF("frame/info/shipicon/frame", slot0.impeachPanel)
 	slot0.infoPanel = slot0:findTF("info_panel")
 
 	setActive(slot0.infoPanel, false)
@@ -82,8 +79,7 @@ function slot0.init(slot0)
 	slot0.infostarsTF = slot0:findTF("frame/info/shipicon/stars", slot0.infoPanel)
 	slot0.infostarTF = slot0:findTF("frame/info/shipicon/stars/star", slot0.infoPanel)
 	slot0.infolevelTF = slot0:findTF("frame/info/level/Text", slot0.infoPanel):GetComponent(typeof(Text))
-	slot0.infoproposeTF = slot0:findTF("frame/info/shipicon/frame_marry", slot0.infoPanel)
-	slot0.infoframeCommonTF = slot0:findTF("frame/info/shipicon/frame_common", slot0.infoPanel)
+	slot0.infoCircle = slot0:findTF("frame/info/shipicon/frame", slot0.infoPanel)
 	slot0.resumeInfo = slot0:findTF("frame/content", slot0.infoPanel)
 	slot0.chatPanel = slot0:findTF("chat")
 
@@ -177,8 +173,6 @@ function slot0.createMemberCard(slot0, slot1)
 		go = slot1,
 		tf = tf(slot1),
 		iconTF = ()["tf"]:Find("shipicon/icon"):GetComponent(typeof(Image)),
-		iconCommonTF = ()["tf"]:Find("shipicon/frame_common"),
-		propose = ()["tf"]:Find("shipicon/frame_marry"),
 		starsTF = ()["tf"]:Find("shipicon/stars"),
 		starTF = ()["tf"]:Find("shipicon/stars/star"),
 		levelTF = ()["tf"]:Find("level/Text"):GetComponent(typeof(Text)),
@@ -194,7 +188,17 @@ function slot0.createMemberCard(slot0, slot1)
 		timerTF = ()["tf"]:Find("mask/Text"):GetComponent(typeof(Text)),
 		borderTF = ()["tf"]:Find("selected"),
 		bg = ()["tf"]:Find("bg"),
+		circle = ()["tf"]:Find("shipicon/frame"),
+		clear = function (slot0)
+			if slot0.circle.childCount > 0 then
+				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
+			end
+		end,
+		dispose = function (slot0)
+			slot0:clear()
+		end,
 		update = function (slot0, slot1, slot2, slot3)
+			slot0:clear()
 			setActive(slot0.borderTF, slot3)
 			setActive(slot0.bg, not slot3)
 
@@ -209,15 +213,25 @@ function slot0.createMemberCard(slot0, slot1)
 					slot0.iconTF.sprite = slot0
 				end
 			end)
+			PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, function (slot0)
+				if slot0.circle then
+					slot0.name = slot1
+					findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+					setParent(slot0, slot0.circle, false)
+				else
+					PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+				end
+			end)
 
 			slot0.dutyTF.sprite = GetSpriteFromAtlas("dutyicon", slot1.duty)
 
-			for slot11 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+			for slot12 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 				cloneTplTo(slot0.starTF, slot0.starsTF)
 			end
 
-			for slot11 = 1, slot7, 1 do
-				setActive(slot0.starsTF:GetChild(slot11 - 1), slot11 <= slot4.star)
+			for slot12 = 1, slot8, 1 do
+				setActive(slot0.starsTF:GetChild(slot12 - 1), slot12 <= slot4.star)
 			end
 
 			slot0.levelTF.text = slot1.level
@@ -228,8 +242,6 @@ function slot0.createMemberCard(slot0, slot1)
 			setActive(slot0.offLine, not slot1:isOnline())
 			setActive(slot0.onLineLabel, slot1:isOnline())
 			setActive(slot0.offLineLabel, not slot1:isOnline())
-			setActive(slot0.propose, slot5.propose)
-			setActive(slot0.iconCommonTF, not slot5.propose)
 
 			if not slot1:isOnline() then
 				slot0.offLineText.text = getOfflineTimeStamp(slot1.preOnLineTime)
@@ -378,23 +390,35 @@ function slot0.showAppointPanel(slot0, slot1)
 
 	slot0.nameTF.text = slot1.name
 
-	setActive(slot0.proposeTF, slot1.propose)
-	setActive(slot0.frameCommonTF, not slot1.propose)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
+
+		if slot0.appiontCircle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.appiontCircle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot7), function (slot0)
+	}).getPainting(slot8), function (slot0)
 		if not IsNil(slot0.iconTF) then
 			slot0.iconTF.sprite = slot0
 		end
 	end)
 
-	for slot12 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot13 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 		cloneTplTo(slot0.starTF, slot0.starsTF)
 	end
 
-	for slot12 = 1, slot8, 1 do
-		setActive(slot0.starsTF:GetChild(slot12 - 1), slot12 <= slot6.star)
+	for slot13 = 1, slot9, 1 do
+		setActive(slot0.starsTF:GetChild(slot13 - 1), slot13 <= slot7.star)
 	end
 
 	slot0.levelTF.text = "Lv." .. slot1.level
@@ -414,12 +438,24 @@ function slot0.showFirePanel(slot0, slot1)
 
 	slot0.firenameTF.text = slot1.name
 
-	setActive(slot0.fireproposeTF, slot1.propose)
-	setActive(slot0.fireframeCommonTF, not slot1.propose)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
+
+		if slot0.fireframeCircle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.fireframeCircle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot3), function (slot0)
+	}).getPainting(slot4), function (slot0)
 		if not IsNil(slot0.fireiconTF) then
 			slot0.fireiconTF.sprite = slot0
 		end
@@ -427,12 +463,12 @@ function slot0.showFirePanel(slot0, slot1)
 
 	slot0.fireduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
 
-	for slot9 = slot0.firestarsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot10 = slot0.firestarsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 		cloneTplTo(slot0.firestarTF, slot0.firestarsTF)
 	end
 
-	for slot9 = 1, slot5, 1 do
-		setActive(slot0.firestarsTF:GetChild(slot9 - 1), slot9 <= slot2.star)
+	for slot10 = 1, slot6, 1 do
+		setActive(slot0.firestarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
 	end
 
 	slot0.firelevelTF.text = "Lv." .. slot1.level
@@ -471,12 +507,24 @@ function slot0.showImpeachPanel(slot0, slot1)
 
 	slot0.impeachnameTF.text = slot1.name
 
-	setActive(slot0.impeachproposeTF, slot1.propose)
-	setActive(slot0.impeachframeCommonTF, not slot1.propose)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
+
+		if slot0.impeachCirCle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.impeachCirCle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot3), function (slot0)
+	}).getPainting(slot4), function (slot0)
 		if not IsNil(slot0.impeachiconTF) then
 			slot0.impeachiconTF.sprite = slot0
 		end
@@ -484,12 +532,12 @@ function slot0.showImpeachPanel(slot0, slot1)
 
 	slot0.impeachduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
 
-	for slot9 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot10 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
 		cloneTplTo(slot0.impeachstarTF, slot0.impeachstarsTF)
 	end
 
-	for slot9 = 1, slot5, 1 do
-		setActive(slot0.impeachstarsTF:GetChild(slot9 - 1), slot9 <= slot2.star)
+	for slot10 = 1, slot6, 1 do
+		setActive(slot0.impeachstarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
 	end
 
 	slot0.impeachlevelTF.text = "Lv." .. slot1.level
@@ -574,12 +622,24 @@ function slot0.showInfoPanel(slot0, slot1)
 
 	slot0.infonameTF.text = slot0.contextData.memberVO.name
 
-	setActive(slot0.infoproposeTF, slot0.contextData.memberVO.propose)
-	setActive(slot0.infoframeCommonTF, not slot0.contextData.memberVO.propose)
+	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot3, slot3, true, function (slot0)
+		if IsNil(slot0._tf) then
+			return
+		end
+
+		if slot0.infoCircle then
+			slot0.name = slot1
+			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+			setParent(slot0, slot0.infoCircle, false)
+		else
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		end
+	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot0.contextData.memberVO.icon,
 		skin_id = slot0.contextData.memberVO.skinId
-	}).getPainting(slot4), function (slot0)
+	}).getPainting(slot5), function (slot0)
 		if not IsNil(slot0.infoiconTF) then
 			slot0.infoiconTF.sprite = slot0
 		end
@@ -587,29 +647,29 @@ function slot0.showInfoPanel(slot0, slot1)
 
 	slot0.infoduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot0.contextData.memberVO.duty)
 
-	for slot10 = slot0.infostarsTF.childCount, pg.ship_data_statistics[slot0.contextData.memberVO.icon].star - 1, 1 do
+	for slot11 = slot0.infostarsTF.childCount, pg.ship_data_statistics[slot0.contextData.memberVO.icon].star - 1, 1 do
 		cloneTplTo(slot0.infostarTF, slot0.infostarsTF)
 	end
 
-	for slot10 = 1, slot6, 1 do
-		setActive(slot0.infostarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
+	for slot11 = 1, slot7, 1 do
+		setActive(slot0.infostarsTF:GetChild(slot11 - 1), slot11 <= slot4.star)
 	end
 
 	slot0.infolevelTF.text = "Lv." .. slot2.level
 
-	for slot10, slot11 in ipairs(slot0) do
-		slot12 = slot0.resumeInfo:GetChild(slot10 - 1)
+	for slot11, slot12 in ipairs(slot0) do
+		slot13 = slot0.resumeInfo:GetChild(slot11 - 1)
 
-		setText(slot12:Find("tag"), slot11.tag)
+		setText(slot13:Find("tag"), slot12.tag)
 
-		slot13 = slot12:Find("tag (1)")
+		slot14 = slot13:Find("tag (1)")
 
-		if slot11.type == 1 then
-			setText(slot13, slot1[slot11.value])
-		elseif slot11.type == 2 then
-			setText(slot13, string.format("%0.2f", math.max(slot1[slot11.value[2]], 0) / math.max(slot1[slot11.value[1]], 1) * 100) .. "%")
-		elseif slot11.type == 3 then
-			setText(slot13, string.format("%0.2f", (slot1[slot11.value[1]] or 1) / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
+		if slot12.type == 1 then
+			setText(slot14, slot1[slot12.value])
+		elseif slot12.type == 2 then
+			setText(slot14, string.format("%0.2f", math.max(slot1[slot12.value[2]], 0) / math.max(slot1[slot12.value[1]], 1) * 100) .. "%")
+		elseif slot12.type == 3 then
+			setText(slot14, string.format("%0.2f", (slot1[slot12.value[1]] or 1) / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%")
 		end
 	end
 
@@ -624,6 +684,10 @@ function slot0.closeInfoPanel(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.infoPanel, slot0._tf)
 	setActive(slot0.infoPanel, false)
+
+	if slot0.infoCircle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.infoCircle:GetChild(0).gameObject.name, slot0.infoCircle.GetChild(0).gameObject.name, slot0.infoCircle.GetChild(0).gameObject)
+	end
 end
 
 function slot0.closeimpeachPanel(slot0)
@@ -631,6 +695,10 @@ function slot0.closeimpeachPanel(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.impeachPanel, slot0._tf)
 	setActive(slot0.impeachPanel, false)
+
+	if slot0.impeachCirCle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.impeachCirCle:GetChild(0).gameObject.name, slot0.impeachCirCle.GetChild(0).gameObject.name, slot0.impeachCirCle.GetChild(0).gameObject)
+	end
 end
 
 function slot0.closeFirePanel(slot0)
@@ -638,6 +706,10 @@ function slot0.closeFirePanel(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.firePanel, slot0._tf)
 	setActive(slot0.firePanel, false)
+
+	if slot0.fireframeCircle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.fireframeCircle:GetChild(0).gameObject.name, slot0.fireframeCircle.GetChild(0).gameObject.name, slot0.fireframeCircle.GetChild(0).gameObject)
+	end
 end
 
 function slot0.closeAppointPanel(slot0)
@@ -646,6 +718,10 @@ function slot0.closeAppointPanel(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.appiontPanel, slot0._tf)
 	setActive(slot0.appiontPanel, false)
 	slot0:closeButtons()
+
+	if slot0.appiontCircle.childCount > 0 then
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.appiontCircle:GetChild(0).gameObject.name, slot0.appiontCircle.GetChild(0).gameObject.name, slot0.appiontCircle.GetChild(0).gameObject)
+	end
 end
 
 function slot0.openButtons(slot0, slot1)
@@ -758,6 +834,10 @@ function slot0.willExit(slot0)
 	end
 
 	slot0.Timer = nil
+
+	for slot4, slot5 in pairs(slot0.items) do
+		slot5:dispose()
+	end
 end
 
 return slot0

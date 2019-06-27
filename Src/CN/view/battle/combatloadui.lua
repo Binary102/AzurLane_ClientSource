@@ -20,7 +20,9 @@ function slot0.init(slot0)
 	slot0._finishAnima:GetComponent("DftAniEvent").SetEndEvent(slot2, function (slot0)
 		slot0:emit(CombatLoadMediator.FINISH, slot0._loadObs)
 	end)
-	setImageSprite(slot0._tf:Find("bg"), LoadSprite("loadingbg/bg_" .. math.random(1, BG_RANDOM_RANGE)))
+	SetActive(slot0._tf:Find("bg"), slot5 ~= 1)
+	SetActive(slot0._tf:Find("bg2"), slot5 == 1)
+	setImageSprite((PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot0._tf.Find("bg2")) or slot0._tf.Find("bg"), LoadSprite("loadingbg/bg_" .. math.random(1, BG_RANDOM_RANGE)))
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end

@@ -110,16 +110,12 @@ function slot0.register(slot0)
 		for slot12, slot13 in ipairs(slot1) do
 			slot8[slot12] = function ()
 				if slot0.sub then
-					print("执行提交确认窗口")
-					"执行提交确认窗口"(slot2, "执行提交确认窗口", slot3[slot2 + 1])
+					slot1(slot2, slot1, slot3[slot2 + 1])
 				elseif slot0.choice then
-					print("执行选择确认窗口")
 					slot4(slot2, slot4, slot3[slot2 + 1])
 				elseif slot0.overFlow then
-					print("执行溢出确认窗口")
 					slot5(slot2, slot5, slot3[slot2 + 1])
 				else
-					print("直接加入队列")
 					slot6(slot2, slot3[slot2 + 1])
 				end
 			end

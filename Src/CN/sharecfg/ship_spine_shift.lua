@@ -20,6 +20,20 @@ pg.ship_spine_shift = {
 			0,
 			10
 		}
+	},
+	kin = {
+		spine = "kin",
+		mainui_shift = {
+			0,
+			25
+		}
+	},
+	gin = {
+		spine = "gin",
+		mainui_shift = {
+			0,
+			25
+		}
 	}
 }
 

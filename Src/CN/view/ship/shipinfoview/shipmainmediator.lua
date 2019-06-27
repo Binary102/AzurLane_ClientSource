@@ -514,7 +514,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent.fashionGroup = 0
 
-		slot0.viewComponent.shipFashionView:UpdateFashion()
+		slot0.viewComponent.shipFashionView:UpdateFashion(true)
 	elseif slot2 == ShipUpgradeMediator2.NEXTSHIP then
 		slot4 = slot0:nextPage(slot3, 3)
 	elseif slot2 == ShipModMediator.LOADEND then

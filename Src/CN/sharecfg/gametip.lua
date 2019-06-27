@@ -6727,6 +6727,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "显示触屏特效",
 		key = "words_show_touch_effect"
 	},
+	words_bg_fit_mode = {
+		tip = "过场图适应屏幕最小边",
+		key = "words_bg_fit_mode"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#92fc63FF>获得方式\n拼图任务7</color>",
 		key = "activity_puzzle_get1"
@@ -8680,7 +8684,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "俾斯麦、U-556、U-73、Z36、回声出现概率UP",
+		tip = "恶毒、让巴尔、马萨诸塞、倔强、敦刻尔克、絮库夫、福尔班出现概率UP",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10562,6 +10566,122 @@ UID：
 	empty_tip_mailboxui = {
 		tip = "暂未收到任何邮件",
 		key = "empty_tip_mailboxui"
+	},
+	words_settings_unlock_ship = {
+		tip = "解锁角色",
+		key = "words_settings_unlock_ship"
+	},
+	words_settings_resolve_equip = {
+		tip = "拆解装备",
+		key = "words_settings_resolve_equip"
+	},
+	words_settings_unlock_commander = {
+		tip = "解锁指挥喵",
+		key = "words_settings_unlock_commander"
+	},
+	words_settings_create_inherit = {
+		tip = "生成继承码",
+		key = "words_settings_create_inherit"
+	},
+	tips_fail_secondarypwd_much_times = {
+		tip = "输入二级密码错误次数过多请<color=#92FC63>%s</color>后尝试",
+		key = "tips_fail_secondarypwd_much_times"
+	},
+	words_desc_unlock = {
+		tip = "进行敏感操作需要输入密码确认",
+		key = "words_desc_unlock"
+	},
+	words_desc_resolve_equip = {
+		tip = "进行敏感操作需要输入密码确认",
+		key = "words_desc_resolve_equip"
+	},
+	words_desc_create_inherit = {
+		tip = "进行敏感操作需要输入密码确认",
+		key = "words_desc_create_inherit"
+	},
+	words_desc_close_password = {
+		tip = "停用二级密码需要输入密码确认",
+		key = "words_desc_close_password"
+	},
+	words_desc_change_settings = {
+		tip = "更改二级密码限制范围需要输入密码确认",
+		key = "words_desc_change_settings"
+	},
+	words_set_password = {
+		tip = "设置密码",
+		key = "words_set_password"
+	},
+	words_information = {
+		tip = "信息",
+		key = "words_information"
+	},
+	secondarypassword_incorrectpwd_error = {
+		tip = "密码错误，可再尝试<color=#FF5C5C>%d</color>次",
+		key = "secondarypassword_incorrectpwd_error"
+	},
+	secondary_password_help = {
+		key = "secondary_password_help",
+		tip = {
+			{
+				info = "二级密码是用于保护指挥官账号内资产的密码系统。\n"
+			},
+			{
+				info = [[
+1. 在二级密码开启的情况下，解锁角色、拆解部分装备、
+解锁指挥喵会受到二级密码的限制；
+   注：当拆解重要装备、超稀有及以上装备、强化
+等级+10的装备时会受到二级密码的限制；
+]]
+			},
+			{
+				info = "2. 在以上被提及的操作中，指挥官可自行设置每种敏感\n操作是否被二级密码限制；\n"
+			},
+			{
+				info = [[
+3. 二级密码开启后，每次登录期间内，第一次执行敏感
+操作时需要指挥官输入二级密码，输入密码正确后才可继
+续执行该操作；
+   若本次登录期间内已经正确输入过二级密码，执行敏感
+操作时则不需要再次输入；
+]]
+			},
+			{
+				info = [[
+4. 若遗忘二级密码，则无法关闭该系统，同时也无法通
+过关闭、再次开启来修改二级密码，请指挥官设置有效的
+密码提示，帮助记忆二级密码；
+]]
+			},
+			{
+				info = "5. 若遗忘二级密码，指挥官需要通过客服来重置二级\n密码，两次重置二级密码之间的间隔时间不得少于30天；\n"
+			}
+		}
+	},
+	comic_help = {
+		key = "comic_help",
+		tip = {
+			{
+				info = "1.通过完成每天的任务获得漫画彩页，领取彩页后左侧\n漫画对应位置会自动上色"
+			},
+			{
+				info = "2. 在获取全部九份漫画彩页后，左侧漫画会全部变为\n彩色，同时会自动获得标枪换装"
+			},
+			{
+				info = "3. 每天的任务都有奖励一份漫画彩页，想要让漫画全部\n变为彩色就需要完成所有任务哦"
+			}
+		}
+	},
+	secondarypassword_illegal_tip = {
+		tip = "包含敏感信息，请重新输入",
+		key = "secondarypassword_illegal_tip"
+	},
+	pt_cosume = {
+		tip = "消耗$1",
+		key = "pt_cosume"
+	},
+	secondarypassword_confirm_tips = {
+		tip = "请再次确认密码提示文本\n<color=#FFDE38>“%s”</color>",
+		key = "secondarypassword_confirm_tips"
 	}
 }
 

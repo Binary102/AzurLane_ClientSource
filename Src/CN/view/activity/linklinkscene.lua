@@ -34,7 +34,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_BACK, nil, 0.3)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	slot0:SetState(slot0.GAME_STATE_BEGIN)
 end

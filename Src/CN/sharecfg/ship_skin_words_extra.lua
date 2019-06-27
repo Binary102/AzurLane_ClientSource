@@ -84,8 +84,38 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[801040] = {
+		touch = "",
+		feeling3 = "",
+		login = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		upgrade = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		id = 801040,
+		detail = "",
+		feeling5 = {
+			{
+				1000,
+				"说起来，在指挥官身边的时候，心总是会跳个不停，冷静不下来…难道…就是名为“爱”的魔法！？"
+			}
+		}
+	},
 	all = {
-		999010
+		999010,
+		801040
 	}
 }
 

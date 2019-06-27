@@ -304,24 +304,12 @@ function slot0.switchTo(slot0, slot1)
 		slot2 = pg.UIMgr.GetInstance()
 
 		if slot1 == slot0.INDEX_DETAIL then
-			slot2:OverlayPanelPB(slot0.detailRight, {
-				pbList = {
-					slot0.detailRightBlurRect
-				},
-				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
-				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-			})
-			slot2:UnOverlayPanel(slot0.profile, slot0._tf)
-			slot2:OverlayPanel(slot0.bottomTF, {
-				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
-				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-			})
 			pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 				groupName = LayerWeightConst.GROUP_SHIP_PROFILE
 			})
 			LeanTween.moveX(rtf(slot0.detailLeft), 0, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.detailRight), 0, slot1):setEase(LeanTweenType.easeInOutSine)
-			LeanTween.moveX(rtf(slot0.profile), 850, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.profile), 1000, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.leftProfile), -500, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveY(rtf(slot0.live2dBtn), -70, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x, slot1):setEase(LeanTweenType.easeInOutSine)
@@ -329,24 +317,12 @@ function slot0.switchTo(slot0, slot1)
 		end
 
 		if slot1 == slot0.INDEX_PROFILE then
-			slot2:OverlayPanelPB(slot0.profile, {
-				pbList = {
-					slot0.profileBlurRect
-				},
-				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
-				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-			})
-			slot2:UnOverlayPanel(slot0.detailRight, slot0._tf)
-			slot2:OverlayPanel(slot0.bottomTF, {
-				groupName = LayerWeightConst.GROUP_SHIP_PROFILE,
-				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-			})
 			pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 				groupName = LayerWeightConst.GROUP_SHIP_PROFILE
 			})
 			LeanTween.moveX(rtf(slot0.profile), 0, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.leftProfile), 0, slot1):setEase(LeanTweenType.easeInOutSine)
-			LeanTween.moveX(rtf(slot0.detailRight), 850, slot1):setEase(LeanTweenType.easeInOutSine)
+			LeanTween.moveX(rtf(slot0.detailRight), 1000, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveY(rtf(slot0.live2dBtn), 60, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.painting), slot0.paintingInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
 			LeanTween.moveX(rtf(slot0.name), slot0.nameInitPos.x + 50, slot1):setEase(LeanTweenType.easeInOutSine)
@@ -427,9 +403,9 @@ function slot0.initSkills(slot0)
 	end
 
 	slot4 = slot0.skillPanel.childCount
-	slot5 = (#slot3 - 1 < 3 and 3) or #slot3 - 1
+	slot5 = (#slot3 < 3 and 3) or #slot3
 
-	for slot9 = slot4, slot5, 1 do
+	for slot9 = slot4 + 1, slot5, 1 do
 		cloneTplTo(slot0.skillTpl, slot0.skillPanel)
 	end
 

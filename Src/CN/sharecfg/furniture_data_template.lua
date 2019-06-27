@@ -2788,7 +2788,6 @@ pg.furniture_data_template = {
 		describe = "只要坚持不懈地努力，总是能够实现伟大的梦想的！",
 		dorm_id = 3,
 		gem_price = 0,
-		can_trigger = "",
 		themeId = 0,
 		spine_extra = "",
 		time = "always",
@@ -2801,6 +2800,9 @@ pg.furniture_data_template = {
 		},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
 		spine = {
 			{
 				"jianjunjieB",
@@ -3636,6 +3638,48 @@ pg.furniture_data_template = {
 			{
 				"xingguangwutaiCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100007] = {
+		can_rotate = 0,
+		name = "神秘的魔法筒 ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "mofatongicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "",
+		canputon = 0,
+		discount = 0,
+		id = 100007,
+		comfortable = 0,
+		describe = "黑暗的深处，隐藏着说无法言说的神秘",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -84002,6 +84046,7 @@ pg.furniture_data_template = {
 		100004,
 		100005,
 		100006,
+		100007,
 		1001,
 		1002,
 		1101,

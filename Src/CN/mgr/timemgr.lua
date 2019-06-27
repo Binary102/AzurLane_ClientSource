@@ -5,7 +5,7 @@ pg.TimeMgr._BattleTimer = nil
 pg.TimeMgr._sAnchorTime = 0
 pg.TimeMgr._AnchorDelta = 0
 pg.TimeMgr._serverUnitydelta = 0
-pg.TimeMgr._luaServerDetla = 0
+pg.TimeMgr._isdstClient = false
 slot2 = 3600
 slot3 = 86400
 slot4 = 604800
@@ -118,49 +118,73 @@ end
 
 function pg.TimeMgr.SetServerTime(slot0, slot1, slot2)
 	if PLATFORM_CODE == PLATFORM_US then
-		DAYLIGHT_SAVEING_TIME_FLAG = true
+		SERVER_SERVER_DAYLIGHT_SAVEING_TIME = true
 	end
 
+	slot0._isdstClient = os.date("*t").isdst
 	slot0._serverUnitydelta = slot1 - slot0:RealtimeSinceStartup()
-	slot0._luaServerDetla = os.time() - slot1
-	slot0._sAnchorTime = slot2 - ((DAYLIGHT_SAVEING_TIME_FLAG and 3600) or 0)
+	slot0._sAnchorTime = slot2 - ((SERVER_DAYLIGHT_SAVEING_TIME and 3600) or 0)
 	slot0._AnchorDelta = slot2 - os.time({
 		hour = 0,
 		month = 1,
 		year = 1970,
 		min = 0,
 		sec = 0,
+		isdst = false,
 		day = 5
 	})
-end
-
-function pg.TimeMgr.GetServerWeek(slot0)
-	return math.ceil(((slot0:GetServerTime() - slot0._sAnchorTime) % slot0 + 1) / slot0.GetServerTime())
-end
-
-function pg.TimeMgr.GetServerHour(slot0)
-	return math.floor((slot0:GetServerTime() - slot0._sAnchorTime) % slot0 / slot0.GetServerTime())
 end
 
 function pg.TimeMgr.GetServerTime(slot0)
 	return slot0:RealtimeSinceStartup() + slot0._serverUnitydelta
 end
 
-function pg.TimeMgr.Table2ServerTime(slot0, slot1)
-	return slot0._AnchorDelta + os.time(slot1)
+function pg.TimeMgr.GetServerWeek(slot0)
+	return slot0:GetServerTimestampWeek(slot0:GetServerTime())
 end
 
-function pg.TimeMgr.DescClientTime(slot0, slot1, slot2)
+function pg.TimeMgr.GetServerTimestampWeek(slot0, slot1)
+	return math.ceil(((slot1 - slot0._sAnchorTime) % slot0 + 1) / slot1)
+end
+
+function pg.TimeMgr.GetServerHour(slot0)
+	return math.floor((slot0:GetServerTime() - slot0._sAnchorTime) % slot0 / slot0.GetServerTime())
+end
+
+function pg.TimeMgr.Table2ServerTime(slot0, slot1)
+	if slot0._isdstClient ~= SERVER_DAYLIGHT_SAVEING_TIME then
+		if SERVER_DAYLIGHT_SAVEING_TIME then
+			return (slot0._AnchorDelta + os.time(slot1)) - slot0
+		else
+			return slot0._AnchorDelta + os.time(slot1) + slot0
+		end
+	else
+		return slot0._AnchorDelta + os.time(slot1)
+	end
+end
+
+function pg.TimeMgr.CTimeDescC(slot0, slot1, slot2)
 	return os.date(slot2 or "%Y%m%d%H%M%S", slot1)
 end
 
-function pg.TimeMgr.DescTime(slot0, slot1, slot2, slot3)
-	slot2 = slot2 or "%Y/%m/%d %H:%M:%S"
+function pg.TimeMgr.STimeDescC(slot0, slot1, slot2)
+	return os.date(slot2 or "%Y/%m/%d %H:%M:%S", (slot1 - slot0._serverUnitydelta + os.time()) - slot0:RealtimeSinceStartup())
+end
 
-	if slot3 then
-		return os.date(slot2, slot1)
+function pg.TimeMgr.STimeDescS(slot0, slot1, slot2)
+	slot2 = slot2 or "%Y/%m/%d %H:%M:%S"
+	slot3 = 0
+
+	if slot0._isdstClient ~= SERVER_DAYLIGHT_SAVEING_TIME then
+		return os.date(slot2, slot1 - slot0._AnchorDelta + ((SERVER_DAYLIGHT_SAVEING_TIME and 3600) or -3600))
+	end
+end
+
+function pg.TimeMgr.CurrentSTimeDesc(slot0, slot1, slot2)
+	if slot2 then
+		return slot0:STimeDescS(slot0:GetServerTime(), slot1)
 	else
-		return os.date(slot2, (slot1 - slot0._serverUnitydelta + os.time()) - slot0:RealtimeSinceStartup())
+		return slot0:STimeDescC(slot0:GetServerTime(), slot1)
 	end
 end
 
@@ -172,28 +196,12 @@ function pg.TimeMgr.ChieseDescTime(slot0, slot1, slot2)
 	return NumberToChinese(slot4[1], false) .. "年" .. NumberToChinese(slot4[2], true) .. "月" .. NumberToChinese(slot4[3], true) .. "日"
 end
 
-function pg.TimeMgr.GetSecondsToNextWeek(slot0)
-	return slot0 - (slot0:GetServerTime() - slot0._sAnchorTime) % slot0
-end
-
-function pg.TimeMgr.ServerTimeDesc(slot0, slot1, slot2)
-	return slot0:DescTime(slot0:GetServerTime(), slot1, slot2)
-end
-
-function pg.TimeMgr.ServerTimeClientDesc(slot0, slot1, slot2)
-	return os.date(slot2 or "%Y/%m/%d %H:%M:%S", slot1 + slot0._luaServerDetla)
-end
-
-function pg.TimeMgr.ServerTimeServerDesc(slot0, slot1, slot2)
-	return os.date(slot2 or "%Y/%m/%d %H:%M:%S", slot1 - slot0._AnchorDelta)
-end
-
 function pg.TimeMgr.GetNextTime(slot0, slot1, slot2, slot3, slot4)
-	return math.floor((slot0:GetServerTime() - (slot0._sAnchorTime + slot1 * 3600 + slot2 * 60 + slot3)) / (slot4 or 86400) + 1) * (slot4 or 86400) + slot0._sAnchorTime + slot1 * 3600 + slot2 * 60 + slot3
+	return math.floor((slot0:GetServerTime() - (slot0._sAnchorTime + slot1 * slot1 + slot2 * 60 + slot3)) / (slot4 or slot0) + 1) * (slot4 or slot0) + slot0._sAnchorTime + slot1 * slot1 + slot2 * 60 + slot3
 end
 
 function pg.TimeMgr.GetNextWeekTime(slot0, slot1, slot2, slot3, slot4)
-	return slot0:GetNextTime((slot1 - 1) * 24 + slot2, slot3, slot4, 604800)
+	return slot0:GetNextTime((slot1 - 1) * 24 + slot2, slot3, slot4, slot0)
 end
 
 function pg.TimeMgr.ParseTime(slot0, slot1)
@@ -240,19 +248,19 @@ function pg.TimeMgr.DescCDTime(slot0, slot1)
 end
 
 function pg.TimeMgr.parseTimeFrom(slot0, slot1)
-	return math.floor(slot1 / 86400), math.fmod(math.floor(slot1 / 3600), 24), math.fmod(math.floor(slot1 / 60), 60), math.fmod(slot1, 60)
+	return math.floor(slot1 / slot0), math.fmod(math.floor(slot1 / 3600), 24), math.fmod(math.floor(slot1 / 60), 60), math.fmod(slot1, 60)
 end
 
 function pg.TimeMgr.DiffDay(slot0, slot1, slot2)
-	return math.floor((slot2 - slot0._sAnchorTime) / 86400) - math.floor((slot1 - slot0._sAnchorTime) / 86400)
+	return math.floor((slot2 - slot0._sAnchorTime) / slot0) - math.floor((slot1 - slot0._sAnchorTime) / slot0)
 end
 
 function pg.TimeMgr.IsSameDay(slot0, slot1, slot2)
-	return math.floor((slot1 - slot0._sAnchorTime) / 86400) == math.floor((slot2 - slot0._sAnchorTime) / 86400)
+	return math.floor((slot1 - slot0._sAnchorTime) / slot0) == math.floor((slot2 - slot0._sAnchorTime) / slot0)
 end
 
 function pg.TimeMgr.IsPassTimeByZero(slot0, slot1, slot2)
-	return slot2 < math.fmod(slot1 - slot0._sAnchorTime, 86400)
+	return slot2 < math.fmod(slot1 - slot0._sAnchorTime, slot0)
 end
 
 function pg.TimeMgr.CalcMonthDays(slot0, slot1, slot2)
@@ -273,24 +281,6 @@ function pg.TimeMgr.CalcMonthDays(slot0, slot1, slot2)
 	end
 
 	return slot3
-end
-
-function pg.TimeMgr.LaterThan(slot0, slot1, slot2)
-	if slot1.year ~= slot2.year then
-		return slot2.year < slot1.year
-	elseif slot1.month ~= slot2.month then
-		return slot2.month < slot1.month
-	elseif slot1.day ~= slot2.day then
-		return slot2.day < slot1.day
-	elseif slot1.hour ~= slot2.hour then
-		return slot2.hour < slot1.hour
-	elseif slot1.min ~= slot2.min then
-		return slot2.min < slot1.min
-	elseif slot1.sec ~= slot2.sec then
-		return slot2.sec < slot1.sec
-	end
-
-	return false
 end
 
 function pg.TimeMgr.inTime(slot0, slot1)

@@ -162,7 +162,7 @@ end
 function slot0.DisplayLetter(slot0, slot1)
 	slot0.onLetterClose = slot1
 	slot2 = pg.TimeMgr.GetInstance()
-	slot3 = slot2:DescTime(slot0.offlineTime, "*t", true)
+	slot3 = slot2:STimeDescS(slot0.offlineTime, "*t")
 
 	setText(slot0.panelLetter:Find("billboard/year"), slot3.year % 100)
 	setText(slot0.panelLetter:Find("billboard/month"), slot3.month)

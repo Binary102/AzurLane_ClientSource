@@ -45,7 +45,8 @@ function slot0.register(slot0)
 					content = slot8,
 					onYes = function ()
 						slot0()
-					end
+					end,
+					weight = LayerWeightConst.SECOND_LAYER
 				})
 			else
 				slot6()
@@ -99,7 +100,8 @@ function slot0.handleNotification(slot0, slot1)
 				content = i18n("battle_preCombatMediator_timeout"),
 				onYes = function ()
 					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
-				end
+				end,
+				weight = LayerWeightConst.SECOND_LAYER
 			})
 		end
 	elseif slot2 == GAME.CHAPTER_OP_DONE and (slot3.type == ChapterConst.OpStrategy or slot3.type == ChapterConst.OpRepair or slot3.type == ChapterConst.OpRequest) then

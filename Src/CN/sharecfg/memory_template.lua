@@ -8855,6 +8855,61 @@ pg.memory_template = {
 		icon = "memory_ximulifu",
 		is_open = 0
 	},
+	[825] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "标枪，早安！",
+		condition = "解锁「月刊漫画Javelin」DAY1",
+		story = "BIAOQIANGMANHUA1",
+		id = 825,
+		icon = "memory_biaoqiangmanhua",
+		is_open = 0
+	},
+	[826] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "抽屉里的谜团",
+		condition = "解锁「月刊漫画Javelin」DAY3",
+		story = "BIAOQIANGMANHUA2",
+		id = 826,
+		icon = "memory_biaoqiangmanhua",
+		is_open = 0
+	},
+	[827] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "……奇怪的信？",
+		condition = "解锁「月刊漫画Javelin」DAY5",
+		story = "BIAOQIANGMANHUA3",
+		id = 827,
+		icon = "memory_biaoqiangmanhua",
+		is_open = 0
+	},
+	[828] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "标枪，赶赴最后之战",
+		condition = "解锁「月刊漫画Javelin」DAY7",
+		story = "BIAOQIANGMANHUA4",
+		id = 828,
+		icon = "memory_biaoqiangmanhua",
+		is_open = 0
+	},
+	[829] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "这是什么！",
+		condition = "解锁「月刊漫画Javelin」DAY9",
+		story = "BIAOQIANGMANHUA5",
+		id = 829,
+		icon = "memory_biaoqiangmanhua",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -10288,6 +10343,11 @@ pg.memory_template = {
 		822,
 		823,
 		824,
+		825,
+		826,
+		827,
+		828,
+		829,
 		10011,
 		10012,
 		10013,

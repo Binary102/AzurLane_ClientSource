@@ -7278,6 +7278,7 @@ pg.activity_template = {
 	[320] = {
 		mark = 20190613,
 		title_res_tag = "",
+		time = "stop",
 		type = 14,
 		bg = "",
 		config_id = 0,
@@ -7298,33 +7299,6 @@ pg.activity_template = {
 			807,
 			808
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			"commonbg/bg_pt_bili",
 			{
@@ -7341,6 +7315,7 @@ pg.activity_template = {
 	[321] = {
 		mark = 20190613,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		bg = "",
 		config_id = 0,
@@ -7365,6 +7340,31 @@ pg.activity_template = {
 			14714,
 			14715,
 			14716
+		}
+	},
+	[326] = {
+		mark = 20190627,
+		title_res_tag = "france_re_main",
+		type = 12,
+		config_id = 0,
+		is_show = 4,
+		config_client = "",
+		id = 326,
+		config_data = {
+			1240001,
+			1240003,
+			1240004,
+			1240011,
+			1240013,
+			1240014,
+			1240005,
+			1240007,
+			1240008,
+			1240015,
+			1240017,
+			1240018,
+			1240019,
+			1240021
 		},
 		time = {
 			timer,
@@ -7372,7 +7372,7 @@ pg.activity_template = {
 				{
 					2019,
 					6,
-					13
+					27
 				},
 				{
 					0,
@@ -7383,8 +7383,486 @@ pg.activity_template = {
 			{
 				{
 					2019,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_main"
+		}
+	},
+	[327] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 36,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 327,
+		config_data = {
+			4001201,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
 					6,
 					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[328] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 16,
+		bg = "",
+		config_id = 130,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		id = 328,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[329] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 13,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 329,
+		config_data = {
+			14730,
+			14731,
+			14732,
+			14733,
+			14734,
+			14735,
+			14736,
+			14737,
+			14738,
+			14739,
+			14740,
+			14741,
+			14742,
+			14743,
+			14744,
+			14745,
+			14746
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[330] = {
+		mark = 20190627,
+		title_res_tag = "france_re_oil",
+		type = 54,
+		config_id = 330,
+		is_show = 1,
+		config_client = "",
+		id = 330,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_oil"
+		}
+	},
+	[331] = {
+		mark = 20190627,
+		title_res_tag = "france_re_pt",
+		type = 54,
+		config_id = 331,
+		is_show = 3,
+		config_client = "",
+		id = 331,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_france_re_pt"
+		}
+	},
+	[332] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 14,
+		bg = "",
+		config_id = 0,
+		is_show = 0,
+		id = 332,
+		config_data = {
+			850,
+			851,
+			852,
+			853,
+			854,
+			855,
+			856,
+			857,
+			858,
+			859,
+			860,
+			861,
+			862,
+			863,
+			864,
+			865,
+			866,
+			867,
+			868,
+			869,
+			870,
+			871
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_faxi",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			pt_id = 130,
+			painting = "kaixuan_pt"
+		}
+	},
+	[333] = {
+		mark = 20190627,
+		title_res_tag = "javelin_comic",
+		type = 18,
+		config_id = 3,
+		is_show = 2,
+		id = 333,
+		config_data = {
+			{
+				14757,
+				14758
+			},
+			{
+				14759,
+				14760
+			},
+			{
+				14761,
+				14762
+			},
+			{
+				14763,
+				14764
+			},
+			{
+				14765,
+				14766
+			},
+			{
+				14767,
+				14768
+			},
+			{
+				14769,
+				14770
+			},
+			{
+				14771,
+				14772
+			},
+			{
+				14773,
+				14774
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_javelin_comic"
+		},
+		config_client = {
+			story = {
+				{
+					"BIAOQIANGMANHUA1"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA2"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA3"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA4"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA5"
+				}
+			}
+		}
+	},
+	[334] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 21,
+		bg = "",
+		config_id = 91334,
+		is_show = 0,
+		config_client = "",
+		id = 334,
+		config_data = {
+			59831,
+			59832,
+			59833,
+			59834,
+			59835,
+			59836,
+			59837,
+			59838,
+			59839
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[335] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 1,
+		bg = "",
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		id = 335,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					11
 				},
 				{
 					23,
@@ -8400,6 +8878,16 @@ pg.activity_template = {
 		319,
 		320,
 		321,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
 		1001,
 		1002,
 		1004,

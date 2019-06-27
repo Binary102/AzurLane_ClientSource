@@ -43297,7 +43297,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13763,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13760,
@@ -43429,7 +43429,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13767,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13764,
@@ -43561,7 +43561,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13771,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13768,
@@ -43693,7 +43693,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13775,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13772,
@@ -43729,7 +43729,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13776,
-		target_num = 1,
+		target_num = 4,
 		fix_task = 0,
 		target_id = {
 			13763,
@@ -63280,7 +63280,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14344,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14341,
@@ -63412,7 +63412,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14348,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14345,
@@ -63544,7 +63544,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14352,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14349,
@@ -63676,7 +63676,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14356,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14353,
@@ -63712,7 +63712,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14357,
-		target_num = 1,
+		target_num = 4,
 		fix_task = 0,
 		target_id = {
 			14344,
@@ -67822,7 +67822,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14581,
-		target_num = 1,
+		target_num = 6,
 		fix_task = 0,
 		target_id = {
 			14583,
@@ -67861,7 +67861,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14582,
-		target_num = 1,
+		target_num = 47,
 		fix_task = 0,
 		target_id = {
 			14589,
@@ -70014,6 +70014,1264 @@ pg.task_data_template = {
 			{
 				5,
 				6303,
+				1
+			}
+		}
+	},
+	[14730] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91250,
+		type = 36,
+		name = "『法系复刻活动』-日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14730,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14731] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91251,
+		type = 36,
+		name = "『法系复刻活动』-日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14731,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14732] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91252,
+		type = 36,
+		name = "『法系复刻活动』-日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14732,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				100
+			}
+		}
+	},
+	[14733] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91253,
+		type = 6,
+		name = "『法系复刻活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "通关A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14734",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14733,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				200
+			}
+		}
+	},
+	[14734] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91254,
+		type = 6,
+		name = "『法系复刻活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "通关A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14735",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14734,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14735] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91255,
+		type = 6,
+		name = "『法系复刻活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "通关A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14736",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14735,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14736] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91256,
+		type = 6,
+		name = "『法系复刻活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "通关B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14737",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14736,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14737] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91257,
+		type = 6,
+		name = "『法系复刻活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "通关B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14738",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14737,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14738] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91258,
+		type = 6,
+		name = "『法系复刻活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "通关B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14740",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14738,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				800
+			}
+		}
+	},
+	[14739] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91259,
+		type = 6,
+		name = "『法系复刻活动』通关D3",
+		count_inherit = 0,
+		desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240018,
+		id = 14739,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				129,
+				1
+			}
+		}
+	},
+	[14740] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91260,
+		type = 6,
+		name = "『法系复刻活动』通关SP",
+		count_inherit = 0,
+		desc = "通关SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240019,
+		id = 14740,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240019",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14741] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91261,
+		type = 6,
+		name = "『法系复刻活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14742",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14741,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14742] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91262,
+		type = 6,
+		name = "『法系复刻活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14743",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14742,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[14743] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91263,
+		type = 6,
+		name = "『法系复刻活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14744",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14743,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14744] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91264,
+		type = 6,
+		name = "『法系复刻活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14745",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14744,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14745] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91265,
+		type = 6,
+		name = "『法系复刻活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14746",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14745,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[14746] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91266,
+		type = 6,
+		name = "『法系复刻活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14746,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14757] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91316,
+		type = 26,
+		name = "『标枪漫画』九日任务1",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14757,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14758] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91317,
+		type = 26,
+		name = "『标枪漫画』九日任务2",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14758,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59831,
+				1
+			}
+		}
+	},
+	[14759] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91318,
+		type = 26,
+		name = "『标枪漫画』九日任务3",
+		count_inherit = 0,
+		desc = "进行2次演习",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14759,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14760] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91319,
+		type = 26,
+		name = "『标枪漫画』九日任务4",
+		count_inherit = 0,
+		desc = "完成军事委托2次",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14760,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59832,
+				1
+			}
+		}
+	},
+	[14761] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91320,
+		type = 26,
+		name = "『标枪漫画』九日任务5",
+		count_inherit = 0,
+		desc = "舰船退役2次",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14761,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14762] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91321,
+		type = 26,
+		name = "『标枪漫画』九日任务6",
+		count_inherit = 0,
+		desc = "完成3次每日挑战",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14762,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59833,
+				1
+			}
+		}
+	},
+	[14763] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91322,
+		type = 26,
+		name = "『标枪漫画』九日任务7",
+		count_inherit = 0,
+		desc = "舰船强化5次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14763,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14764] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91323,
+		type = 26,
+		name = "『标枪漫画』九日任务8",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14764,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59834,
+				1
+			}
+		}
+	},
+	[14765] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91324,
+		type = 26,
+		name = "『标枪漫画』九日任务9",
+		count_inherit = 0,
+		desc = "击沉任意敌人20艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14765,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14766] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91325,
+		type = 26,
+		name = "『标枪漫画』九日任务10",
+		count_inherit = 0,
+		desc = "后宅补充食物5次",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14766,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59835,
+				1
+			}
+		}
+	},
+	[14767] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91326,
+		type = 26,
+		name = "『标枪漫画』九日任务11",
+		count_inherit = 0,
+		desc = "建造舰船2次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14767,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14768] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91327,
+		type = 26,
+		name = "『标枪漫画』九日任务12",
+		count_inherit = 0,
+		desc = "打开任意科技箱1个",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14768,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59836,
+				1
+			}
+		}
+	},
+	[14769] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91328,
+		type = 26,
+		name = "『标枪漫画』九日任务13",
+		count_inherit = 0,
+		desc = "进行2次战术训练",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14769,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14770] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91329,
+		type = 26,
+		name = "『标枪漫画』九日任务14",
+		count_inherit = 0,
+		desc = "击败旗舰3次 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14770,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59837,
+				1
+			}
+		}
+	},
+	[14771] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91330,
+		type = 26,
+		name = "『标枪漫画』九日任务15",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14771,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14772] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91331,
+		type = 26,
+		name = "『标枪漫画』九日任务16",
+		count_inherit = 0,
+		desc = "完成军事委托2次",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14772,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59838,
+				1
+			}
+		}
+	},
+	[14773] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91332,
+		type = 26,
+		name = "『标枪漫画』九日任务17",
+		count_inherit = 0,
+		desc = "舰船退役2次",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14773,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14774] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91333,
+		type = 26,
+		name = "『标枪漫画』九日任务18",
+		count_inherit = 0,
+		desc = "完成3次每日挑战",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14774,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59839,
 				1
 			}
 		}
@@ -78970,6 +80228,41 @@ pg.task_data_template = {
 		14714,
 		14715,
 		14716,
+		14730,
+		14731,
+		14732,
+		14733,
+		14734,
+		14735,
+		14736,
+		14737,
+		14738,
+		14739,
+		14740,
+		14741,
+		14742,
+		14743,
+		14744,
+		14745,
+		14746,
+		14757,
+		14758,
+		14759,
+		14760,
+		14761,
+		14762,
+		14763,
+		14764,
+		14765,
+		14766,
+		14767,
+		14768,
+		14769,
+		14770,
+		14771,
+		14772,
+		14773,
+		14774,
 		30101,
 		30102,
 		30103,

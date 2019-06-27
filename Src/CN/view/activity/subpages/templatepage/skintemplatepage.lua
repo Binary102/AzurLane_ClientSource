@@ -45,7 +45,11 @@ end
 function slot0.OnUpdateFlush(slot0)
 	slot0.nday = slot0.activity.data3
 
-	if checkExist(checkExist(slot1, slot0.nday), 1) and not pg.StoryMgr.GetInstance():IsPlayed(slot1[slot0.nday][1]) then
+	if checkExist(slot0.activity:getConfig("config_client").story, {
+		slot0.nday
+	}, {
+		1
+	}) and not pg.StoryMgr.GetInstance():IsPlayed(slot1[slot0.nday][1]) then
 		slot2:Play(slot1[slot0.nday][1])
 	end
 

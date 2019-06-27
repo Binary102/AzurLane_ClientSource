@@ -1071,6 +1071,19 @@ pg.memory_group = {
 			824
 		}
 	},
+	[160] = {
+		title = "月刊漫画Javelin",
+		type = 2,
+		id = 160,
+		icon = "title_event",
+		memories = {
+			825,
+			826,
+			827,
+			828,
+			829
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委托",
 		type = 3,
@@ -1780,6 +1793,7 @@ pg.memory_group = {
 		157,
 		158,
 		159,
+		160,
 		501,
 		502,
 		503,

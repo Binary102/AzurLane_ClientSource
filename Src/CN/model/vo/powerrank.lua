@@ -125,18 +125,18 @@ function slot0.getPowerTxt(slot0)
 	end
 end
 
-function slot0.getTitleWord(slot0, slot1)
-	slot2 = {}
+function slot0.getTitleWord(slot0, slot1, slot2)
+	slot3 = {}
 
-	for slot6 = 1, 4, 1 do
-		table.insert(slot2, i18n("ranking_word_" .. slot0.typeInfo[slot1].title_word[slot6]))
+	for slot7 = 1, 4, 1 do
+		table.insert(slot3, i18n("ranking_word_" .. slot0.typeInfo[slot1].title_word[slot7]))
 	end
 
 	if slot1 == slot0.TYPE_PT then
-		slot2[4] = pg.gameset.activity_res_id.description
+		slot3[4] = pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id"))].name
 	end
 
-	return slot2
+	return slot3
 end
 
 function slot0.getScoreIcon(slot0, slot1)

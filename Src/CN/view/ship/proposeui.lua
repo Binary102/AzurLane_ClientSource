@@ -761,14 +761,13 @@ function slot2(slot0)
 					slot11 = slot11.GetInstance
 					slot11 = slot11()
 					slot12 = slot11
-					slot11 = slot11.DescTime
+					slot11 = slot11.STimeDescS
 					slot13 = slot0
 					slot13 = slot13.shipVO
 					slot13 = slot13.proposeTime
 					slot14 = "%B.%d,    %y"
-					slot15 = true
 
-					slot9(slot10, slot11(slot12, slot13, slot14, slot15))
+					slot9(slot10, slot11(slot12, slot13, slot14))
 				else
 					slot9 = slot0
 					slot9 = slot9.intimacyDesc
@@ -999,12 +998,11 @@ function slot2(slot0)
 							slot3 = slot3.GetInstance
 							slot3 = slot3()
 							slot4 = slot3
-							slot3 = slot3.DescTime
+							slot3 = slot3.STimeDescS
 							slot5 = slot0
 							slot6 = "%B.%d,    %y"
-							slot7 = true
 
-							slot1(slot2, slot3(slot4, slot5, slot6, slot7))
+							slot1(slot2, slot3(slot4, slot5, slot6))
 						end
 
 						slot0 = slot0
@@ -2124,9 +2122,10 @@ function slot2(slot0)
 			slot2 = slot2.GetInstance
 			slot2 = slot2()
 			slot3 = slot2
-			slot2 = slot2.ServerTimeDesc
+			slot2 = slot2.CurrentSTimeDesc
 			slot4 = "%Y%m%d"
-			slot2 = slot2(slot3, slot4)
+			slot5 = true
+			slot2 = slot2(slot3, slot4, slot5)
 			slot3 = SPECIAL_PROPOSE
 
 			if slot3 then

@@ -29,7 +29,7 @@ end
 function slot0.isOpen(slot0)
 	slot1 = false
 
-	if slot0:bindConfigTable()[slot0.id] and os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).month == slot0.id then
+	if slot0:bindConfigTable()[slot0.id] and pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").month == slot0.id then
 		return slot2.sim_shop_time[1] <= slot4.day and slot4.day <= slot2.sim_shop_time[2]
 	end
 end
@@ -38,7 +38,7 @@ function slot0.getRestDays(slot0)
 	slot1 = 0
 
 	if slot0:bindConfigTable()[slot0.id] then
-		slot1 = slot2.sim_shop_time[2] - os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).day + 1
+		slot1 = slot2.sim_shop_time[2] - pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").day + 1
 	end
 
 	return math.max(slot1, 1)

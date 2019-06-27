@@ -21,19 +21,25 @@ function ScrollTxt.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot0._txt = slot2:GetComponent(typeof(Text))
 	slot0._txtRTF = slot2:GetComponent(typeof(RectTransform))
+
+	slot0:setBaseSize(slot0._txtRTF)
+
 	slot0._txtRect = slot0._txtRTF.rect
 end
 
 function ScrollTxt.changeToScroll(slot0, slot1)
-	slot2 = cloneTplTo(slot1, slot1)
 	slot1:GetComponent(typeof(Text)).enabled = false
-	slot2.localScale = Vector3.one
-	slot2.anchorMin = Vector2(0.5, 0.5)
-	slot2.anchorMax = Vector2(0.5, 0.5)
-	slot2.localPosition = Vector3.zero
-	ScrollTxt.New(slot1, slot2)._txtIsClone = true
+	ScrollTxt.New(slot1, cloneTplTo(slot1, slot1))._txtIsClone = true
 
-	return ScrollTxt.New(slot1, slot2)
+	return ScrollTxt.New(slot1, cloneTplTo(slot1, slot1))
+end
+
+function ScrollTxt.setBaseSize(slot0, slot1)
+	slot1.localScale = Vector3.one
+	slot1.anchorMin = Vector2(0.5, 0.5)
+	slot1.anchorMax = Vector2(0.5, 0.5)
+	slot1.pivot = Vector2(0.5, 0.5)
+	slot1.anchoredPosition = Vector2.zero
 end
 
 function ScrollTxt.setText(slot0, slot1)
@@ -52,39 +58,40 @@ end
 
 function ScrollTxt.preCalFunc(slot0)
 	slot1 = nil
-	slot2 = slot0._txtRTF.localPosition
 
 	if slot0._vertical then
-		slot0._txtRTF.sizeDelta = Vector2.New(slot0._txtRTF.sizeDelta.x, slot0._txt.preferredHeight)
-
 		if slot0:checkOverlength() then
+			slot0._txtRTF.sizeDelta = Vector2.New(slot0._maskRTF.rect.width, slot0._txt.preferredHeight)
+
 			slot0:setMaskEnable(true)
 
 			slot0._topLimit = (slot0._txt.preferredHeight - slot0._maskRTF.rect.height) * 0.5 + slot0._padding
 			slot0._bottomLimit = -((slot0._txt.preferredHeight - slot0._maskRTF.rect.height) * 0.5 + slot0._padding)
 			slot0._tweenTime = ((slot0._txt.preferredHeight - slot0._maskRTF.rect.height) * 0.5 + slot0._padding) / slot0._speed
-			slot0._txtRTF.localPosition = Vector3.New(slot2.x, slot0._bottomLimit, slot2.z)
+			slot0._txtRTF.anchoredPosition = Vector2.New(0, slot0._bottomLimit)
 		else
+			slot0._txtRTF.sizeDelta = Vector2.New(slot0._maskRTF.rect.width, slot0._maskRTF.rect.height)
+
 			slot0:setMaskEnable(false)
 
-			slot0._txtRTF.localPosition = Vector3.New(slot2.x, 0, slot2.z)
+			slot0._txtRTF.anchoredPosition = Vector2.zero
 		end
 	else
 		if slot0:checkOverlength() then
-			slot0._txtRTF.sizeDelta = Vector2.New(slot0._txt.preferredWidth, slot0._txtRTF.sizeDelta.y)
+			slot0._txtRTF.sizeDelta = Vector2.New(slot0._txt.preferredWidth, slot0._maskRTF.rect.height)
 
 			slot0:setMaskEnable(true)
 
 			slot0._leftLimit = -((slot0._txt.preferredWidth - slot0._maskRTF.rect.width) * 0.5 + slot0._padding)
 			slot0._rightLimit = (slot0._txt.preferredWidth - slot0._maskRTF.rect.width) * 0.5 + slot0._padding
 			slot0._tweenTime = ((slot0._txt.preferredWidth - slot0._maskRTF.rect.width) * 0.5 + slot0._padding) / slot0._speed
-			slot0._txtRTF.localPosition = Vector3.New(slot0._rightLimit, slot2.y, slot2.z)
+			slot0._txtRTF.anchoredPosition = Vector2.New(slot0._rightLimit, 0)
 		else
-			slot0._txtRTF.sizeDelta = Vector2.New(slot0._maskRTF.rect.width, slot0._txtRTF.sizeDelta.y)
+			slot0._txtRTF.sizeDelta = Vector2.New(slot0._maskRTF.rect.width, slot0._maskRTF.rect.height)
 
 			slot0:setMaskEnable(false)
 
-			slot0._txtRTF.localPosition = Vector3.New(0, slot2.y, slot2.z)
+			slot0._txtRTF.anchoredPosition = Vector2.zero
 		end
 	end
 
@@ -128,9 +135,9 @@ function ScrollTxt.startTween(slot0)
 
 	LeanTween.moveX(slot0._txtRTF, slot0._leftLimit, slot0._tweenTime):setFrom(slot0._rightLimit):setDelay(slot0._delayTime):setOnComplete(System.Action(function ()
 		LeanTween.delayedCall(go(slot0._txtRTF), slot0._delayTime, System.Action(function ()
-			slot0._txtRTF.localPosition = Vector3.New(slot0._rightLimit, slot0._txtRTF.localPosition.y, slot0._txtRTF.localPosition.z)
+			slot0._txtRTF.anchoredPosition = Vector2.New(slot0._rightLimit, 0)
 
-			slot0:startTween()
+			slot0._txtRTF:startTween()
 
 			return
 		end))
@@ -148,9 +155,9 @@ function ScrollTxt.startTweenVertical(slot0)
 
 	LeanTween.moveY(slot0._txtRTF, slot0._topLimit, slot0._tweenTime):setFrom(slot0._bottomLimit):setDelay(slot0._delayTime):setOnComplete(System.Action(function ()
 		LeanTween.delayedCall(go(slot0._txtRTF), slot0._delayTime, System.Action(function ()
-			slot0._txtRTF.localPosition = Vector3.New(slot0._txtRTF.localPosition.x, slot0._bottomLimit, slot0._txtRTF.localPosition.z)
+			slot0._txtRTF.anchoredPosition = Vector2.New(0, slot0._bottomLimit)
 
-			slot0:startTweenVertical()
+			slot0._txtRTF:startTweenVertical()
 
 			return
 		end))

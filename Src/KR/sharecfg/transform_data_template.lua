@@ -12704,6 +12704,457 @@ pg.transform_data_template = {
 			50
 		}
 	},
+	[18801] = {
+		use_gold = 400,
+		name = "舰体改良I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		star_limit = 2,
+		id = 18801,
+		icon = "hp_1",
+		skill_id = 0,
+		descrip = "耐久+80",
+		condition_id = {},
+		effect = {
+			{
+				durability = 80
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[18802] = {
+		use_gold = 600,
+		name = "装填强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		star_limit = 2,
+		id = 18802,
+		icon = "rl_1",
+		skill_id = 0,
+		descrip = "装填+5",
+		condition_id = {
+			18801
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[18803] = {
+		use_gold = 800,
+		name = "主炮改良I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		star_limit = 3,
+		id = 18803,
+		icon = "mgup_1",
+		skill_id = 0,
+		descrip = "主炮武器效率+5%",
+		condition_id = {
+			18801
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[18804] = {
+		use_gold = 1000,
+		name = "炮击强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		star_limit = 3,
+		id = 18804,
+		icon = "cn_1",
+		skill_id = 0,
+		descrip = "炮击+10",
+		condition_id = {
+			18803
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[18805] = {
+		use_gold = 1200,
+		name = "防空炮改良I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		star_limit = 4,
+		id = 18805,
+		icon = "aaup_1",
+		skill_id = 0,
+		descrip = "防空炮武器效率+5%",
+		condition_id = {
+			18803
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[18806] = {
+		use_gold = 1500,
+		name = "防空强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		star_limit = 4,
+		id = 18806,
+		icon = "aa_1",
+		skill_id = 0,
+		descrip = "防空+15",
+		condition_id = {
+			18805
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[18807] = {
+		use_gold = 1800,
+		name = "舰体改良II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		star_limit = 4,
+		id = 18807,
+		icon = "hp_2",
+		skill_id = 0,
+		descrip = "耐久+80/耐久+120",
+		condition_id = {
+			18805
+		},
+		effect = {
+			{
+				durability = 80
+			},
+			{
+				durability = 120
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[18808] = {
+		use_gold = 2000,
+		name = "雷击强化I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		star_limit = 4,
+		id = 18808,
+		icon = "tp_1",
+		skill_id = 0,
+		descrip = "雷击+10",
+		condition_id = {
+			18807
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[18809] = {
+		use_gold = 2500,
+		name = "主炮改良II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		star_limit = 5,
+		id = 18809,
+		icon = "mgup_1",
+		skill_id = 0,
+		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		condition_id = {
+			18807
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[18810] = {
+		use_gold = 3000,
+		name = "炮击强化II",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		star_limit = 5,
+		id = 18810,
+		icon = "cn_2",
+		skill_id = 0,
+		descrip = "炮击+5/炮击+15",
+		condition_id = {
+			18804,
+			18809
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17013,
+					15
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17013,
+					35
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[18811] = {
+		use_gold = 4000,
+		name = "近代化改造",
+		max_level = 1,
+		skin_id = 302109,
+		use_ship = 1,
+		level_limit = 85,
+		star_limit = 5,
+		id = 18811,
+		icon = "mt_red",
+		skill_id = 0,
+		descrip = [[
+近代化改造完成
+
+改造后<color=#92fc63>【主武器】</color>装备栏位装备类型更改为<color=#92fc63>【重巡主炮】</color>
+原来的<color=#92fc63>【主武器】</color>栏位装备将被放入仓库
+改造后<color=#92fc63>【主炮底座+1】</color>、<color=#92fc63>【鱼雷底座-1】</color>
+改造后<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射改】</color>
+改造后<color=#92fc63>【反潜】</color>属性将归零、无法装备<color=#92fc63>声呐和深水炸弹</color>]],
+		condition_id = {
+			18809,
+			18810
+		},
+		effect = {
+			{
+				cannon = 10,
+				antiaircraft = 25
+			}
+		},
+		ship_id = {
+			{
+				302104,
+				303154
+			}
+		},
+		use_item = {
+			{
+				{
+					18013,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[18812] = {
+		use_gold = 3000,
+		name = "战术启发",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		star_limit = 5,
+		id = 18812,
+		icon = "skill_red",
+		skill_id = 11220,
+		descrip = "习得技能【持续打击】",
+		condition_id = {
+			18811
+		},
+		effect = {
+			{
+				skill_id = 11220
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
 	[19001] = {
 		use_gold = 200,
 		name = "선체 개수Ⅰ",
@@ -25500,6 +25951,18 @@ pg.transform_data_template = {
 		18709,
 		18710,
 		18711,
+		18801,
+		18802,
+		18803,
+		18804,
+		18805,
+		18806,
+		18807,
+		18808,
+		18809,
+		18810,
+		18811,
+		18812,
 		19001,
 		19002,
 		19003,

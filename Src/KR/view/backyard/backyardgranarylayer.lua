@@ -348,7 +348,26 @@ function slot0.updateConsume(slot0, slot1, slot2)
 
 	slot2:Update(slot4)
 	slot0:updateDorm(slot0.dormClone)
-	pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_addFood_ok", slot3))
+	slot0:showStockAdd(slot3)
+end
+
+function slot0.showStockAdd(slot0, slot1)
+	if not slot0.stockAddTpl then
+		slot0.stockAddContainter = slot0:findTF("frame/top/stockAddCont", slot0.foodPanel)
+		slot0.stockAddAddTpl = slot0:findTF("stockAdd", slot0.stockAddContainter)
+	end
+
+	slot2 = cloneTplTo(slot0.stockAddAddTpl, slot0.stockAddContainter)
+
+	setText(slot2, "+" .. slot1)
+
+	if slot2:GetComponent(typeof(DftAniEvent)) then
+		slot3:SetEndEvent(function (slot0)
+			Destroy(slot0)
+		end)
+	end
+
+	setActive(slot2, true)
 end
 
 function slot0.updateTotalConsume(slot0, slot1)

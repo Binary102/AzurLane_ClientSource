@@ -145,7 +145,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
 	if slot7 then
 		slot9 = slot0.activityVO.data1 + (slot2 - 1) * 86400 <= pg.TimeMgr.GetInstance():GetServerTime()
 
-		setText(slot4:Find("Text"), pg.TimeMgr.GetInstance():DescClientTime(slot11, "%m/%d"))
+		setText(slot4:Find("Text"), pg.TimeMgr.GetInstance():CTimeDescC(slot11, "%m/%d"))
 	else
 		slot8 = _.all(slot3, function (slot0)
 			return slot0:getTaskById(slot0) and slot1:isReceive()

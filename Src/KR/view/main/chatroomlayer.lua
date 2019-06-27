@@ -77,14 +77,14 @@ function slot0.createFriendItem(slot0, slot1)
 		tf = tf(slot1),
 		nameTF = ()["tf"]:Find("name"):GetComponent(typeof(Text)),
 		iconTF = ()["tf"]:Find("shipicon/icon"):GetComponent(typeof(Image)),
-		maryyFrame = ()["tf"]:Find("shipicon/frame_marry"),
-		commonFrame = ()["tf"]:Find("shipicon/frame_common"),
+		circle = ()["tf"]:Find("shipicon/frame"),
 		toggle = ()["tf"]:GetComponent(typeof(Toggle)),
 		tipTF = ()["tf"]:Find("tip"),
 		dateTF = ()["tf"]:Find("lv_bg/date"):GetComponent(typeof(Text)),
 		onlineTF = ()["tf"]:Find("lv_bg/online"),
 		levelTF = ()["tf"]:Find("lv_bg/Text"):GetComponent(typeof(Text)),
 		update = function (slot0, slot1, slot2)
+			slot0:clear()
 			setActive(slot0.tipTF, false)
 
 			slot0.friendVO = slot1
@@ -95,15 +95,23 @@ function slot0.createFriendItem(slot0, slot1)
 			LoadSpriteAsync("qicon/" .. Ship.New({
 				configId = slot1.icon,
 				skin_id = slot1.skinId
-			}):getPainting(), function (slot0)
+			}).getPainting(slot4), function (slot0)
 				if not slot0 then
 					slot0.iconTF.sprite = GetSpriteFromAtlas("heroicon/unknown", "")
 				else
 					slot0.iconTF.sprite = slot0
 				end
 			end)
-			setActive(slot0.maryyFrame, slot1.propose)
-			setActive(slot0.commonFrame, not slot1.propose)
+			PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot5, AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose), true, function (slot0)
+				if slot0.circle then
+					slot0.name = slot1
+					findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+					setParent(slot0, slot0.circle, false)
+				else
+					PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+				end
+			end)
 
 			if slot1.id == slot1.id and slot0.toggle.isOn == false then
 				triggerToggle(slot0.tf, true)
@@ -112,7 +120,15 @@ function slot0.createFriendItem(slot0, slot1)
 			setActive(slot0.onlineTF, slot1.online == Friend.ONLINE)
 			setActive(slot0.dateTF, slot1.online == Friend.OFFLINE)
 
-			slot0.dateTF.text = pg.TimeMgr.GetInstance():DescTime(slot1.preOnLineTime, "%Y/%m/%d")
+			slot0.dateTF.text = pg.TimeMgr.GetInstance():STimeDescC(slot1.preOnLineTime, "%Y/%m/%d")
+		end,
+		clear = function (slot0)
+			if slot0.circle.childCount > 0 then
+				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
+			end
+		end,
+		dispose = function (slot0)
+			slot0:clear()
 		end
 	}
 end
@@ -254,6 +270,10 @@ function slot0.willExit(slot0)
 			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot1:GetChild(0).gameObject.name, slot1.GetChild(0).gameObject.name, slot1.GetChild(0).gameObject)
 		end
 	end)
+
+	for slot4, slot5 in pairs(slot0.friendItems) do
+		slot5:dispose()
+	end
 end
 
 return slot0

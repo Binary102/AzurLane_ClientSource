@@ -6,26 +6,8 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot5:addResources({
 			[id2res(slot2.id)] = slot2.count
 		})
-
-		slot6 = getProxy(ActivityProxy)
-
-		slot7(slot6:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK))
 		slot4:updatePlayer(slot5)
-
-		for slot12, slot13 in ipairs(slot8) do
-			if slot2.id == slot13:getDataConfig("pt") and not slot13:isEnd() then
-				slot13.data1 = slot2.count + slot13.data1
-
-				slot6:updateActivity(slot13)
-
-				break
-			end
-		end
-
-		return
-	end
-
-	if slot2.dropType == DROP_TYPE_ITEM then
+	elseif slot2.dropType == DROP_TYPE_ITEM then
 		slot3 = getProxy(BagProxy)
 
 		if Item.New({
@@ -136,6 +118,8 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		})
 		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
 		pg.ToastMgr:GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
+	elseif slot2.dropType == DROP_TYPE_EMOJI then
+		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
 	else
 		print("can not handle this type>>" .. slot2.dropType)
 	end

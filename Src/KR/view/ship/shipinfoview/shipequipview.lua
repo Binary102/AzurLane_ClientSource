@@ -204,8 +204,8 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 			setActive(slot1, not slot2)
 
 			if slot2 then
-				setText(findTF(slot0, "values/value"), slot2.name)
-				setText(findTF(slot0, "values/value_1"), "")
+				setText(findTF(slot0, "values/value_1"), slot2.name)
+				setText(findTF(slot0, "values/value"), "")
 			end
 		end
 
@@ -250,8 +250,14 @@ function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 							setText(slot29, i18n("word_secondseach"))
 						else
 							setText(slot27, AttributeType.Type2Name(slot26.type))
-							setText(slot28, slot26.value)
-							setText(slot29, "")
+
+							if #string.split(tostring(slot26.value), "/") >= 2 then
+								setText(slot28, slot30[1] .. "/")
+								setText(slot29, slot30[2])
+							else
+								setText(slot28, slot26.value)
+								setText(slot29, "")
+							end
 						end
 					end
 				end

@@ -79,7 +79,11 @@ function slot0.canPurchase(slot0)
 
 			return slot0.buyCount < slot0:getConfig("num_limit")
 		elseif slot1 == DROP_TYPE_FURNITURE then
-			return getProxy(DormProxy):getFurnitrueCount(slot2) < pg.furniture_data_template[slot0:getConfig("commodity_id")].count and slot0.buyCount < slot0:getConfig("num_limit")
+			slot2 = slot0:getConfig("commodity_id")
+
+			print(slot2)
+
+			return getProxy(DormProxy):getFurnitrueCount(slot2) < pg.furniture_data_template[slot2].count and slot0.buyCount < slot0:getConfig("num_limit")
 		else
 			return slot0.buyCount < slot0:getConfig("num_limit")
 		end

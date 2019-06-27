@@ -1097,7 +1097,7 @@ function slot2(slot0)
 		if slot9 then
 			slot9 = slot0.timeMgr
 			slot10 = slot9
-			slot9 = slot9.DescClientTime
+			slot9 = slot9.CTimeDescC
 			slot11 = slot0.monument
 			slot12 = 5 - slot7
 			slot11 = slot11[slot12]

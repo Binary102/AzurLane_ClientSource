@@ -33,6 +33,10 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 	end
 
+	if #slot13 > 0 then
+		slot0:sendNotification(GAME.START_BATCH_GET_SHIP)
+	end
+
 	seriesAsync(slot13, function ()
 		if slot0:getFinishCount() ~= table.getCount(table.getCount) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardShipInfoLayer_error_noQuickItem"))
@@ -77,12 +81,10 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		function slot5()
 			seriesAsync(seriesAsync, function ()
-				if slot0 then
+				if {} then
 					slot1:setSkipBatchBuildFlag(false)
 
-					slot0 = {}
-
-					for slot4, slot5 in ipairs(false) do
+					for slot4, slot5 in ipairs(slot1) do
 						slot0[#slot0 + 1] = {
 							type = DROP_TYPE_SHIP,
 							id = slot5.configId,
@@ -90,11 +92,11 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 							virgin = slot5.virgin
 						}
 					end
-
-					slot3:sendNotification(GAME.SKIP_BATCH_DONE, slot0)
 				end
 
-				if slot1:getFinishCount() > 0 then
+				slot3:sendNotification(GAME.SKIP_BATCH_DONE, slot0)
+
+				if slot3.sendNotification:getFinishCount() > 0 then
 					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 				end
 			end)

@@ -252,6 +252,11 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.TIME_SYNCHRONIZATION, TimeSynchronizationCommand)
 	slot0.facade:registerCommand(GAME.GET_REMASTER_TICKETS, GetRemasterCommand)
 	slot0.facade:registerCommand(PrayPoolConst.BUILD_PRAY_POOL_CMD, PrayPoolBuildCommand)
+	slot0.facade:registerCommand(GAME.REQUEST_EMOJI_INFO_FROM_SERVER, EmojiInfoRequestCommand)
+	slot0.facade:registerCommand(GAME.FETCH_PASSWORD_STATE, FetchSecondaryPasswordCommand)
+	slot0.facade:registerCommand(GAME.SET_PASSWORD, SetSecondaryPasswordCommand)
+	slot0.facade:registerCommand(GAME.SET_PASSWORD_SETTINGS, SetSecondaryPasswordSettingsCommand)
+	slot0.facade:registerCommand(GAME.CONFIRM_PASSWORD, ConfirmSecondaryPasswordCommand)
 end
 
 return class("PrepControllerCommand", pm.SimpleCommand)

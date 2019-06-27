@@ -162,12 +162,7 @@ function slot0.didEnter(slot0)
 			slot0:emit(slot1.ON_BACK)
 		end
 	end, SFX_CANCEL)
-	setActive(slot0:findTF("stamp", slot0.leftPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-
-	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp"), false)
-	end
-
+	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot1, function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(8)
 	end, SFX_CONFIRM)
@@ -356,7 +351,7 @@ function slot0.showSkipableMsgBox(slot0, slot1, slot2)
 			if slot5[1] ~= "" then
 				onButton(slot1, slot2:Find("skip_btn"), function ()
 					if slot0 and slot0 ~= 0 and (not getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy).getActivityById) or slot0:isEnd()) then
-						pg.TipsMgr:GetInstance():ShowTips(i18n1("대응하는 획득 경로가 개방되지 않았습니다"))
+						pg.TipsMgr:GetInstance():ShowTips(i18n("collection_way_is_unopen"))
 
 						return
 					end

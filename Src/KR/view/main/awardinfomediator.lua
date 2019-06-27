@@ -1,35 +1,28 @@
 slot0 = class("AwardInfoMediator", import("..base.ContextMediator"))
-slot0.ON_ITEM = "AwardInfoMediator:ON_ITEM"
-slot0.ON_FURNITURE = "AwardInfoMediator:ON_FURNITURE"
+slot0.ON_DROP = "AwardInfoMediator:ON_DROP"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_ITEM, function (slot0, slot1)
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			yesText = "text_confirm",
-			hideNo = true,
-			content = "",
-			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
-				type = DROP_TYPE_ITEM,
-				id = slot1,
-				cfg = pg.item_data_statistics[slot1]
-			},
-			weight = LayerWeightConst.TOP_LAYER
-		})
-	end)
-	slot0:bind(slot0.ON_FURNITURE, function (slot0, slot1)
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			yesText = "text_confirm",
-			hideNo = true,
-			content = "",
-			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = {
-				type = DROP_TYPE_FURNITURE,
-				id = slot1,
-				cfg = pg.furniture_data_template[slot1]
-			},
-			weight = LayerWeightConst.TOP_LAYER
-		})
+	slot0:bind(slot0.ON_DROP, function (slot0, slot1, slot2)
+		if slot1.type == DROP_TYPE_EQUIP then
+			slot0:addSubLayers(Context.New({
+				mediator = EquipmentInfoMediator,
+				viewComponent = EquipmentInfoLayer,
+				data = {
+					equipmentId = slot1.cfg.id,
+					type = EquipmentInfoMediator.TYPE_DISPLAY,
+					onRemoved = slot2,
+					LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+				}
+			}))
+		else
+			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = slot1,
+				onNo = slot2,
+				onYes = slot2,
+				weight = LayerWeightConst.THIRD_LAYER
+			})
+		end
 	end)
 end
 

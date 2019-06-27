@@ -110,7 +110,9 @@ function slot0.didEnter(slot0)
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot1:switchPage(slot0, checkExist(PowerRank:getActivityByRankType(slot0), "id"))
+				slot1:switchPage(slot0, checkExist(PowerRank:getActivityByRankType(slot0), {
+					"id"
+				}))
 			end
 		end, SFX_PANEL)
 	end
@@ -193,15 +195,15 @@ function slot0.switchPage(slot0, slot1, slot2)
 	end
 
 	setActive(slot0:findTF("tip", slot0.topPanel), not table.contains(BillboardProxy.NONTIMER, slot0.page))
-	slot0:updateScoreTitle(slot0.page)
+	slot0:updateScoreTitle(slot0.page, slot2)
 end
 
-function slot0.updateScoreTitle(slot0, slot1)
-	slot2 = slot0:findTF("main/frame/title")
-	slot3 = PowerRank:getTitleWord(slot1)
+function slot0.updateScoreTitle(slot0, slot1, slot2)
+	slot3 = slot0:findTF("main/frame/title")
+	slot4 = PowerRank:getTitleWord(slot1, slot2)
 
-	for slot7 = 1, 4, 1 do
-		setText(slot2:GetChild(slot7 - 1), slot3[slot7])
+	for slot8 = 1, 4, 1 do
+		setText(slot3:GetChild(slot8 - 1), slot4[slot8])
 	end
 end
 

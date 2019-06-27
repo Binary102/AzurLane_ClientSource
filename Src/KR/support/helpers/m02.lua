@@ -392,54 +392,67 @@ function getBounds(slot0)
 	return slot2
 end
 
-function setIconOrFrameSize(slot0, slot1, slot2)
+function slot3(slot0, slot1)
 	slot0.localScale = Vector3.one
 	slot0.anchorMin = Vector2.zero
 	slot0.anchorMax = Vector2.one
-
-	if slot2 then
-		slot0.offsetMin = Vector2(slot2[1], slot2[2])
-		slot0.offsetMax = Vector2(-slot2[3], -slot2[4])
-	elseif slot1 then
-		slot0.offsetMin = Vector2.zero
-		slot0.offsetMax = Vector2.zero
-	else
-		slot0.offsetMin = Vector2(2, 2)
-		slot0.offsetMax = Vector2(-2, -2)
-	end
+	slot0.offsetMin = Vector2(slot1[1], slot1[2])
+	slot0.offsetMax = Vector2(-slot1[3], -slot1[4])
 end
+
+slot4 = {
+	frame04 = {
+		-8,
+		-8.5,
+		-8,
+		-8
+	},
+	frame05 = {
+		-8,
+		-8.5,
+		-8,
+		-8
+	},
+	frame6 = {
+		-16.5,
+		-2.5,
+		-3.5,
+		-16.5
+	},
+	frame7 = {
+		-16.5,
+		-2.5,
+		-3.5,
+		-16.5
+	},
+	frame_npc = {
+		-4,
+		-4,
+		-4,
+		-4
+	},
+	frame_prop = {
+		-11,
+		-12,
+		-14,
+		-14
+	},
+	other = {
+		-2.5,
+		-4.5,
+		-3,
+		-4.5
+	}
+}
 
 function setFrame(slot0, slot1, slot2)
 	setImageColor(slot0, Color(1, 1, 1, 1))
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
 	if slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
-		if not findTF(slot0, "specialFrame") then
-			cloneTplTo(slot0, slot0, "specialFrame").localScale = Vector3.one
-			cloneTplTo(slot0, slot0, "specialFrame").anchorMin = Vector2.zero
-			cloneTplTo(slot0, slot0, "specialFrame").anchorMax = Vector2.one
-			slot2 = slot2 or "frame" .. slot1
-
-			if string.sub(slot1, 1, 1) == "0" then
-				slot3.offsetMin = Vector2(-8, -8.5)
-				slot3.offsetMax = Vector2(8, 8)
-			elseif slot2 == "frame6" or slot2 == "frame7" then
-				slot3.offsetMin = Vector2(-16.5, -2.5)
-				slot3.offsetMax = Vector2(3.5, 16.5)
-			elseif slot2 == "frame_npc" then
-				slot3.offsetMin = Vector2(-4, -4)
-				slot3.offsetMax = Vector2(4, 4)
-			elseif slot2 == "frame_prop" then
-				slot3.offsetMin = Vector2(-11, -12)
-				slot3.offsetMax = Vector2(14, 14)
-			else
-				slot3.offsetMin = Vector2(-2.5, -4.5)
-				slot3.offsetMax = Vector2(3, 4.5)
-			end
-		end
-
-		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
-		setActive(slot3, true)
+		slot0(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), slot1[slot2 or "frame" .. slot1] or slot1.other)
+		setImageSprite(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), GetSpriteFromAtlas("weaponframes", slot2 or "frame" .. slot1))
+		setActive(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), true)
 	else
 		setImageColor(slot0, shipRarity2FrameColor(slot1 + 1))
 
@@ -449,8 +462,8 @@ function setFrame(slot0, slot1, slot2)
 	end
 end
 
-function setIconColorful(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
+function slot5(slot0, slot1, slot2, slot3)
+	function slot4(slot0, slot1)
 		if findTF(slot0, "icon_bg/" .. slot0 .. "(Clone)") then
 			setActive(slot2, slot1)
 		elseif slot1 then
@@ -470,18 +483,17 @@ function setIconColorful(slot0, slot1, slot2)
 		end
 	end
 
-	slot4 = nil
+	slot5 = nil
 
-	if slot2.fromAwardLayer then
-		slot4 = {
+	if slot3 then
+		slot5 = {
 			[5] = {
 				name = "Item_duang5",
 				active = slot2.fromAwardLayer and slot1 >= 5
 			}
 		}
-		slot2.fromAwardLayer = false
 	else
-		slot4 = {
+		slot5 = {
 			[6] = {
 				name = "IconColorful",
 				active = not slot2.noIconColorful and slot1 == 6
@@ -489,20 +501,20 @@ function setIconColorful(slot0, slot1, slot2)
 		}
 	end
 
-	for slot8, slot9 in pairs(slot4) do
-		slot3(slot9.name, slot9.active)
+	for slot9, slot10 in pairs(slot5) do
+		slot4(slot10.name, slot10.active)
 	end
 end
 
-function setStars(slot0, slot1, slot2)
-	slot3 = findTF(slot1, "icon_bg/startpl")
+function slot6(slot0, slot1, slot2)
+	slot3 = findTF(slot0, "icon_bg/startpl")
 
-	if findTF(slot1, "icon_bg/stars") and slot3 then
+	if findTF(slot0, "icon_bg/stars") and slot3 then
 		setActive(slot4, false)
 		setActive(slot3, false)
 	end
 
-	if not slot4 or not slot0 then
+	if not slot4 or not slot1 then
 		return
 	end
 
@@ -513,43 +525,49 @@ function setStars(slot0, slot1, slot2)
 	setActive(slot4, true)
 end
 
-function updateEquipment(slot0, slot1, slot2)
-	slot2 = slot2 or {}
+function slot7(slot0, slot1, slot2)
+	if not IsNil(findTF(slot0, "icon_bg/slv")) then
+		setActive(slot3, slot1 > 0)
+		setText(findTF(slot3, "Text"), slot1)
+	end
+end
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. EquipmentRarity.Rarity2Print(slot1.config.rarity)))
+function slot8(slot0, slot1, slot2)
+	if not IsNil(findTF(slot0, "name")) then
+		setText(slot3, slot1)
+
+		if slot2.hideName then
+			setActive(slot3, false)
+		end
+	end
+end
+
+function slot9(slot0, slot1)
+	if not IsNil(findTF(slot0, "icon_bg/count")) then
+		setText(slot2, (slot1 and (type(slot1) ~= "number" or slot1 > 0) and slot1) or "")
+	end
+end
+
+function updateEquipment(slot0, slot1, slot2)
+	slot3 = EquipmentRarity.Rarity2Print(slot1.config.rarity)
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot3)
 
 	slot4 = findTF(slot0, "icon_bg/icon")
-	slot4.anchorMin = Vector2.zero
-	slot4.anchorMax = Vector2.one
-	slot4.offsetMin = Vector2(16, 16)
-	slot4.offsetMax = Vector2(-16, -16)
 
+	slot0(slot4, {
+		16,
+		16,
+		16,
+		16
+	})
 	GetImageSpriteFromAtlasAsync("equips/" .. slot1.config.icon, "", slot4)
-	setStars(true, slot0, slot1.config.rarity)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot5, slot1.config.name)
-	end
-
-	slot6 = slot1.config.level - 1
-
-	if not IsNil(findTF(slot0, "icon_bg/slv")) then
-		if slot6 > 0 then
-			setActive(slot7, true)
-			setText(findTF(slot0, "icon_bg/slv/Text"), slot6)
-		else
-			setActive(slot7, false)
-		end
-	end
-
-	slot8 = slot1.count
-
-	if not IsNil(findTF(slot0, "icon_bg/count")) then
-		setText(slot9, (slot8 > 0 and slot8) or "")
-	end
-
-	setIconColorful(slot0, slot1.config.rarity, slot2)
+	slot1(slot0, true, slot1.config.rarity)
+	slot2 or {}(slot0, slot1.config.level - 1, slot1.config.expired_date)
+	slot3(slot0, slot1.config.name, slot2 or )
+	slot4(slot0, slot1.count)
+	slot4(slot0, slot1.config.rarity, slot2 or )
 end
 
 function updateItem(slot0, slot1, slot2)
@@ -565,28 +583,22 @@ function updateItem(slot0, slot1, slot2)
 
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
-	setStars(false, slot0)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot7, HXSet.hxLan(slot3.name))
-	end
-
-	setIconColorful(slot0, slot3.rarity + 1, slot2)
+	slot0(slot0, false)
+	slot1(slot0, 0, checkExist(pg.item_data_template[slot1.id], {
+		"expired_date"
+	}))
+	slot2(slot0, HXSet.hxLan(slot3.name), slot2)
+	slot3(slot0, slot3.rarity + 1, slot2)
 end
 
 function updateWorldItem(slot0, slot1, slot2)
-	slot2 = slot2 or {}
-
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(pg.world_item_data_template[slot1.id].rarity)))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
-	setStars(false, slot0)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot6, HXSet.hxLan(slot3.name))
-	end
-
-	setIconColorful(slot0, slot3.rarity + 1, slot2)
+	slot0(slot0, false)
+	slot1(slot0, 0, slot3.expired_date)
+	slot2 or {}(slot0, HXSet.hxLan(slot3.name), slot2 or )
+	slot3(slot0, slot3.rarity + 1, slot2 or )
 end
 
 function updateShip(slot0, slot1, slot2)
@@ -636,31 +648,23 @@ function updateShip(slot0, slot1, slot2)
 		end
 	end
 
-	if not IsNil(findTF(slot0, "name")) then
-		setActive(slot12, not slot2.hideName)
-
-		if not slot2.hideName then
-			setText(slot12, slot1:getName())
-		end
-	end
-
-	setStars(slot2.initStar, slot0, slot1:getStar())
-
 	if findTF(slot0, "ship_type") then
-		setActive(slot13, true)
+		setActive(slot12, true)
 
-		slot13:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType()))
+		slot12:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType()))
 	end
 
 	if not IsNil(slot7:Find("npc")) then
 		if slot6 and go(slot6).activeSelf then
-			setActive(slot14, false)
+			setActive(slot13, false)
 		else
-			setActive(slot14, slot1:isActivityNpc())
+			setActive(slot13, slot1:isActivityNpc())
 		end
 	end
 
-	setIconColorful(slot0, (slot2.isSkin and 5) or slot1:getRarity(), slot2)
+	slot0(slot0, slot2.initStar, slot1:getStar())
+	slot1(slot0, slot1:getName(), slot2)
+	slot2(slot0, (slot2.isSkin and 5) or slot1:getRarity(), slot2)
 end
 
 function updateCommander(slot0, slot1, slot2)
@@ -689,54 +693,35 @@ function updateCommander(slot0, slot1, slot2)
 		end
 	end
 
-	if not IsNil(findTF(slot0, "name")) then
-		setActive(slot10, not slot2.hideName)
-
-		if not slot2.hideName then
-			setText(slot10, slot1:getName())
-		end
-	end
-
-	setStars(slot2.initStar, slot0, slot1:getStar())
-
 	if findTF(slot0, "ship_type") then
-		setActive(slot11, true)
+		setActive(slot10, true)
 
-		slot11:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType()))
+		slot10:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType()))
 	end
+
+	slot0(slot0, slot2.initStar, slot1:getStar())
+	slot1(slot0, slot1:getName(), slot2)
 end
 
 function updateStrategy(slot0, slot1, slot2)
-	slot2 = slot2 or {}
-
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(ItemRarity.Gray)))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
-	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot1.id].icon, "", findTF(slot0, "icon_bg/icon"))
-	setStars(false, slot0)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot6, HXSet.hxLan(slot3.name))
-	end
-
-	setIconColorful(slot0, 1, slot2)
+	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot1.id].icon, "", slot5)
+	slot0(slot0, false)
+	slot1(slot0, HXSet.hxLan(pg.strategy_data_template[slot1.id].name), slot2 or {})
+	slot2 or (slot0, 1, slot2 or )
 end
 
 function updateFurniture(slot0, slot1, slot2)
-	slot2 = slot2 or {}
-
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (ItemRarity.Rarity2Print(pg.furniture_data_template[slot1].rarity) or ItemRarity.Gray)))
 	setFrame(findTF(slot0, "icon_bg/frame"), ItemRarity.Rarity2Print(pg.furniture_data_template[slot1].rarity) or ItemRarity.Gray)
-	GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
-	setStars(false, slot0)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot6, HXSet.hxLan(slot3.name))
-	end
-
-	setIconColorful(slot0, slot3.rarity + 1, slot2)
+	GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot3.icon, "", slot5)
+	slot0(slot0, false)
+	slot1(slot0, HXSet.hxLan(slot3.name), slot2 or {})
+	slot2 or (slot0, slot3.rarity + 1, slot2 or )
 end
 
-slot3 = nil
+slot10 = nil
 
 function findCullAndClipWorldRect(slot0)
 	if #slot0 == 0 then
@@ -816,40 +801,25 @@ function updateDrop(slot0, slot1, slot2)
 	slot4 = slot1.type or slot1.dropType
 	slot5 = ""
 	slot6 = ""
+	slot8 = nil
 
-	if slot0:Find("icon_bg/IconColorful(Clone)") then
-		setActive(slot7, false)
-	end
+	for slot12, slot13 in ipairs(slot7) do
+		slot8 = slot0:Find(slot13[1])
 
-	if slot0:Find("icon_bg/frame/specialFrame") then
-		setActive(slot8, false)
-
-		slot0:Find("icon_bg/frame"):GetComponent(typeof(Image)).enabled = true
-	end
-
-	setIconOrFrameSize(findTF(slot0, "icon_bg/icon"))
-
-	if slot2.fromAwardLayer then
-		setIconColorful(slot0, getDropRarity(slot1), slot2)
-	end
-
-	if slot4 ~= DROP_TYPE_SHIP then
-		if not IsNil(slot0:Find("ship_type")) then
-			setActive(slot9, false)
-		end
-
-		if not IsNil(slot0:Find("icon_bg/new")) then
-			setActive(slot10, false)
-		end
-
-		if not IsNil(slot0:Find("icon_bg/npc")) then
-			setActive(slot11, false)
+		if slot1.type ~= slot13[2] and not IsNil(slot8) then
+			setActive(slot8, false)
 		end
 	end
 
-	if slot4 ~= DROP_TYPE_EQUIP and not IsNil(slot0:Find("icon_bg/slv")) then
-		setActive(slot9, false)
-	end
+	slot0:Find("icon_bg/frame"):GetComponent(typeof(Image)).enabled = true
+
+	slot0(slot0, getDropRarity(slot1), slot2, true)
+	slot1(findTF(slot0, "icon_bg/icon"), {
+		2,
+		2,
+		2,
+		2
+	})
 
 	if slot4 == DROP_TYPE_RESOURCE then
 		slot6 = pg.item_data_statistics[id2ItemId(slot1.id)].display
@@ -929,19 +899,16 @@ function updateDrop(slot0, slot1, slot2)
 		updateAttire(slot0, AttireConst.TYPE_CHAT_FRAME, pg.item_data_chat[slot1.id])
 	elseif slot4 == DROP_TYPE_ICON_FRAME then
 		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, pg.item_data_frame[slot1.id])
+	elseif slot4 == DROP_TYPE_EMOJI then
+		slot6 = pg.emoji_template[slot1.id].item_desc
+
+		updateEmoji(slot0, pg.emoji_template[slot1.id])
 	end
 
 	slot1.cfg = slot5
 	slot1.desc = slot6
 
-	if slot1.count and (slot3(slot1.count) ~= "number" or slot1.count > 0) then
-		if not IsNil(findTF(slot0, "icon_bg/count")) then
-			SetActive(slot9, true)
-			setText(slot9, slot1.count)
-		end
-	elseif not IsNil(findTF(slot0, "icon_bg/count")) then
-		SetActive(slot9, false)
-	end
+	slot2(slot0, slot1.count)
 end
 
 function updateAttire(slot0, slot1, slot2)
@@ -960,10 +927,14 @@ function updateAttire(slot0, slot1, slot2)
 	end
 
 	GetImageSpriteFromAtlasAsync("Props/" .. slot6, "", slot5)
+	slot0(slot0, HXSet.hxLan(slot3.name), settings)
+end
 
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot7, HXSet.hxLan(slot3.name))
-	end
+function updateEmoji(slot0, slot1)
+	GetImageSpriteFromAtlasAsync("Props/" .. slot3, "", slot2)
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. 4))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	slot0(slot0, HXSet.hxLan(slot1.name), settings)
 end
 
 function GetOwnedpropCount(slot0)
@@ -995,23 +966,16 @@ function GetOwnedpropCount(slot0)
 end
 
 function updateEquipmentSkin(slot0, slot1, slot2)
-	slot2 = slot2 or {}
+	slot3 = EquipmentRarity.Rarity2Print(slot1.rarity)
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. EquipmentRarity.Rarity2Print(slot1.rarity)))
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot3, "frame7")
-	GetImageSpriteFromAtlasAsync("equips/" .. slot1.icon, "", findTF(slot0, "icon_bg/icon"))
-	setStars(false, slot0)
-
-	if not IsNil(findTF(slot0, "name")) then
-		setText(slot5, slot1.name)
-	end
-
-	if not IsNil(findTF(slot0, "icon_bg/slv")) then
-		setActive(slot6, false)
-	end
-
-	setText(findTF(slot0, "icon_bg/count"), ((slot1.count or 0) > 0 and (slot1.count or 0)) or "")
-	setIconColorful(slot0, slot1.rarity, slot2)
+	GetImageSpriteFromAtlasAsync("equips/" .. slot1.icon, "", slot4)
+	slot0(slot0, false)
+	slot1(slot0, 0, slot1.expired_date)
+	slot2 or {}(slot0, slot1.name, slot2 or )
+	slot3(slot0, slot1.count)
+	findTF(slot0, "icon_bg/icon")(slot0, slot1.rarity, slot2 or )
 end
 
 function getDropRarity(slot0)
@@ -1065,10 +1029,11 @@ function NoPosMsgBox(slot0, slot1, slot2, slot3)
 	end
 
 	pg.MsgboxMgr:GetInstance():ShowMsgBox({
-		hideNo = true,
 		hideYes = true,
+		hideNo = true,
 		content = slot0,
-		custom = slot5
+		custom = slot5,
+		weight = LayerWeightConst.TOP_LAYER
 	})
 end
 
@@ -1239,7 +1204,7 @@ function clearDrop(slot0)
 	end
 end
 
-slot4 = {
+slot11 = {
 	red = Color.New(1, 0.25, 0.25),
 	blue = Color.New(0.11, 0.55, 0.64),
 	yellow = Color.New(0.92, 0.52, 0)
@@ -1265,7 +1230,7 @@ function updateSkill(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot5 = true
+slot12 = true
 
 function onBackButton(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, "UILongPressTrigger")
@@ -1590,7 +1555,7 @@ function floatAni(slot0, slot1, slot2, slot3)
 	return slot5(slot6, slot7)
 end
 
-slot6 = tostring
+slot13 = tostring
 
 function tostring(slot0)
 	if slot0 == nil then
@@ -1964,14 +1929,6 @@ function calcRelativeRectPos(slot0, slot1, slot2, slot3)
 	}, function (slot0)
 		return Vector2.Distance(slot0, slot0.center)
 	end)
-end
-
-function os.server_date(slot0, slot1)
-	return pg.TimeMgr.GetInstance():ServerTimeServerDesc(slot1, slot0)
-end
-
-function os.server_time(slot0)
-	return pg.TimeMgr.GetInstance():Table2ServerTime(slot0)
 end
 
 function getOfflineTimeStamp(slot0)
@@ -2580,18 +2537,35 @@ function attireTimeStamp(slot0)
 	return
 end
 
-function checkExist(slot0, slot1, ...)
-	if not slot0 then
-		return false
-	else
+function checkExist(slot0, ...)
+	function slot1(slot0, slot1, ...)
 		if type(slot0[slot1]) == "function" then
 			return slot0[slot1](slot0, ...)
 		else
 			return slot0[slot1]
 		end
+
+		return
 	end
 
-	return
+	for slot6, slot7 in ipairs(slot2) do
+		if not slot0 or type(slot0) ~= "table" then
+			return false
+		end
+
+		slot8 = slot1
+		slot9 = slot0
+		slot10 = slot7[1]
+		slot11 = unpack
+
+		if not slot7[2] then
+			slot12 = {}
+		end
+
+		slot0 = slot8(slot9, slot10, slot11(slot12))
+	end
+
+	return slot0
 end
 
 return

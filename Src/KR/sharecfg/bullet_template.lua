@@ -10735,6 +10735,81 @@ pg.bullet_template = {
 		},
 		push_power = {}
 	},
+	[2128] = {
+		range_offset = 20,
+		modle_ID = "Bomberbomb1600",
+		type = 2,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "AlertArea",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMissBig",
+		miss_sfx = "",
+		hit_fx = "ShellHit",
+		range = 200,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 6,
+		id = 2128,
+		velocity = 1.5,
+		damage_type = {
+			0.8,
+			1.1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 25
+		},
+		attach_buff = {
+			{
+				rant = 2400,
+				buff_id = 401,
+				level = 1
+			}
+		},
+		extra_param = {
+			gravity = -0.05,
+			randomOffsetX = 40,
+			launchVrtSpeed = -3,
+			offsetY = 60,
+			airdrop = true,
+			offsetX = -5,
+			randomOffsetZ = 40,
+			diveFilter = {
+				2
+			}
+		},
+		push_power = {}
+	},
 	[2130] = {
 		range_offset = 20,
 		modle_ID = "Bullet1",
@@ -19517,6 +19592,68 @@ pg.bullet_template = {
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {},
+		push_power = {}
+	},
+	[19889] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 150,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 19889,
+		velocity = 4,
+		damage_type = {
+			0.7,
+			0.9,
+			1.2
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
 		push_power = {}
 	},
 	[19900] = {
@@ -43632,6 +43769,142 @@ pg.bullet_template = {
 		hit_type = {},
 		attach_buff = {},
 		extra_param = {},
+		push_power = {}
+	},
+	[79411] = {
+		range_offset = 10,
+		modle_ID = "Bullet1_faxi",
+		type = 1,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "ShellMiss",
+		miss_sfx = "battle/sink",
+		hit_fx = "pofang",
+		range = 80,
+		effect_type = 1,
+		hit_sfx = "battle/hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 1,
+		id = 79411,
+		velocity = 0.75,
+		damage_type = {
+			1.2,
+			0.6,
+			0.6
+		},
+		DMG_font = {
+			{
+				3,
+				1.4
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				0.9
+			}
+		},
+		acceleration = {
+			{
+				u = -0.025,
+				flip = false,
+				v = 0,
+				t = 0
+			},
+			{
+				u = 0,
+				flip = false,
+				v = 0,
+				t = 0.22
+			},
+			{
+				u = 0.2,
+				flip = false,
+				v = 0,
+				t = 0.4
+			}
+		},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {},
+		push_power = {}
+	},
+	[79412] = {
+		range_offset = 20,
+		modle_ID = "Torpedo01",
+		type = 3,
+		antisub_enhancement = 0,
+		nobreakdown_sfx = "",
+		alert_fx = "TorAlert",
+		nobreakdown_fx = "huohua",
+		out_bound = 0,
+		miss_fx = "",
+		miss_sfx = "",
+		hit_fx = "TorpedoHit3",
+		range = 150,
+		effect_type = 1,
+		hit_sfx = "battle/torpedo-hit",
+		track_fx = "",
+		pierce_count = 0,
+		ammo_type = 4,
+		id = 79412,
+		velocity = 4,
+		damage_type = {
+			0.7,
+			0.9,
+			1.2
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.3
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 3
+		},
+		attach_buff = {},
+		extra_param = {
+			diveFilter = {
+				2
+			}
+		},
 		push_power = {}
 	},
 	[80001] = {
@@ -98884,6 +99157,7 @@ pg.bullet_template = {
 		2125,
 		2126,
 		2127,
+		2128,
 		2130,
 		2200,
 		2201,
@@ -99030,6 +99304,7 @@ pg.bullet_template = {
 		19886,
 		19887,
 		19888,
+		19889,
 		19900,
 		19901,
 		19902,
@@ -99427,6 +99702,8 @@ pg.bullet_template = {
 		79382,
 		79391,
 		79401,
+		79411,
+		79412,
 		80001,
 		80002,
 		80003,

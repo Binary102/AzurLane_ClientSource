@@ -18793,6 +18793,151 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[17060] = {
+		name = "F2A水牛(萨奇队)",
+		type = 7,
+		id = 17060,
+		tech = 0,
+		speciality = "空战",
+		range = 90,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "17060",
+		value_1 = "28/轮",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 30,
+		nationality = 1,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "“萨奇剪”战术发明者约翰·史密斯·萨奇的座驾",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			17060,
+			81060
+		},
+		skill_id = {
+			6430
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[17061] = {
+		id = 17061,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "32/轮",
+		weapon_id = {
+			17061,
+			81061
+		},
+		property_rate = {}
+	},
+	[17062] = {
+		id = 17062,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "34/轮",
+		weapon_id = {
+			17062,
+			81062
+		},
+		property_rate = {}
+	},
+	[17063] = {
+		id = 17063,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "36/轮",
+		weapon_id = {
+			17063,
+			81063
+		},
+		property_rate = {}
+	},
+	[17064] = {
+		id = 17064,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "38/轮",
+		weapon_id = {
+			17064,
+			81064
+		},
+		property_rate = {}
+	},
+	[17065] = {
+		id = 17065,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "40/轮",
+		weapon_id = {
+			17065,
+			81065
+		},
+		property_rate = {}
+	},
+	[17066] = {
+		id = 17066,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "42/轮",
+		weapon_id = {
+			17066,
+			81066
+		},
+		property_rate = {}
+	},
+	[17067] = {
+		id = 17067,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "44/轮",
+		weapon_id = {
+			17067,
+			81067
+		},
+		property_rate = {}
+	},
+	[17068] = {
+		id = 17068,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "46/轮",
+		weapon_id = {
+			17068,
+			81068
+		},
+		property_rate = {}
+	},
+	[17069] = {
+		id = 17069,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "48/轮",
+		weapon_id = {
+			17069,
+			81069
+		},
+		property_rate = {}
+	},
+	[17070] = {
+		id = 17070,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "50/轮",
+		weapon_id = {
+			17070,
+			81070
+		},
+		property_rate = {}
+	},
 	[17100] = {
 		name = "F4F 와일드캣",
 		type = 7,
@@ -30835,6 +30980,140 @@ pg.equip_data_statistics = {
 		value_1 = "402 x 2",
 		weapon_id = {
 			29210
+		},
+		property_rate = {}
+	},
+	[29300] = {
+		name = "梭鱼(831中队)",
+		type = 9,
+		id = 29300,
+		tech = 0,
+		speciality = "轰炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "29300",
+		value_1 = "171 x 1",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 2,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "钨作战中轰炸提尔比茨的梭鱼831中队，搭载730kg穿甲航弹",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			29300
+		},
+		skill_id = {
+			6420
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[29301] = {
+		id = 29301,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "196 x 1",
+		weapon_id = {
+			29301
+		},
+		property_rate = {}
+	},
+	[29302] = {
+		id = 29302,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "221 x 1",
+		weapon_id = {
+			29302
+		},
+		property_rate = {}
+	},
+	[29303] = {
+		id = 29303,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "247 x 1",
+		weapon_id = {
+			29303
+		},
+		property_rate = {}
+	},
+	[29304] = {
+		id = 29304,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "273 x 1",
+		weapon_id = {
+			29304
+		},
+		property_rate = {}
+	},
+	[29305] = {
+		id = 29305,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "299 x 1",
+		weapon_id = {
+			29305
+		},
+		property_rate = {}
+	},
+	[29306] = {
+		id = 29306,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "325 x 1",
+		weapon_id = {
+			29306
+		},
+		property_rate = {}
+	},
+	[29307] = {
+		id = 29307,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "351 x 1",
+		weapon_id = {
+			29307
+		},
+		property_rate = {}
+	},
+	[29308] = {
+		id = 29308,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "377 x 1",
+		weapon_id = {
+			29308
+		},
+		property_rate = {}
+	},
+	[29309] = {
+		id = 29309,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "403 x 1",
+		weapon_id = {
+			29309
+		},
+		property_rate = {}
+	},
+	[29310] = {
+		id = 29310,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "429 x 1",
+		weapon_id = {
+			29310
 		},
 		property_rate = {}
 	},
@@ -44701,7 +44980,7 @@ pg.equip_data_statistics = {
 		attribute_1 = "damage",
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		weapon_id = {
 			44200
@@ -44830,7 +45109,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자기신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -44892,7 +45171,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자기신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -44984,7 +45263,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자기신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45116,7 +45395,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45208,7 +45487,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45340,7 +45619,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45472,7 +45751,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45604,7 +45883,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -45736,7 +46015,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 6,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "자성",
 		is_siren = 0,
 		descrip = "크라프가 개발한 자성신관과 소나 기술을 활용한 533mm 자기 어뢰. 어뢰의 명중률을 대폭으로 높일 수 있다.",
@@ -55925,6 +56204,46 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79411] = {
+		name = "专属弹幕-恶毒I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "无",
+		value_3 = 0,
+		id = 79411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79412] = {
+		id = 79412,
+		name = "专属弹幕-恶毒II",
+		base = 79411,
+		is_siren = 0,
+		weapon_id = {
+			79412
+		},
+		property_rate = {}
+	},
 	[89000] = {
 		name = "랜덤 워드 생성기 ",
 		type = 10,
@@ -59715,6 +60034,17 @@ pg.equip_data_statistics = {
 		17044,
 		17045,
 		17046,
+		17060,
+		17061,
+		17062,
+		17063,
+		17064,
+		17065,
+		17066,
+		17067,
+		17068,
+		17069,
+		17070,
 		17100,
 		17101,
 		17102,
@@ -60617,6 +60947,17 @@ pg.equip_data_statistics = {
 		29208,
 		29209,
 		29210,
+		29300,
+		29301,
+		29302,
+		29303,
+		29304,
+		29305,
+		29306,
+		29307,
+		29308,
+		29309,
+		29310,
 		30000,
 		30001,
 		30002,
@@ -62345,6 +62686,8 @@ pg.equip_data_statistics = {
 		79392,
 		79401,
 		79402,
+		79411,
+		79412,
 		89000,
 		89001,
 		89002,

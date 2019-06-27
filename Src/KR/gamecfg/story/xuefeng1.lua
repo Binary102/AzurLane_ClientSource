@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>一　{namecode:22}大人登场</size>",
+					"나는 {namecode:22}님이다! \n\n<size=45>一 {namecode:22}님 등장</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			actorName = "？？？",
-			say = "啊～哈哈哈！",
+			say = "아하하하!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "？？？",
-			say = "听好了，我乃高贵的，幸运的，无敌的，{namecode:22}·Eight·{namecode:19}The.Geni……",
+			say = "잘 들어, 난 고귀하고 운이 좋은 무적의 {namecode:22}·Eight·{namecode:19}The.Geni...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "？？？",
-			say = "Ge、Geni、Geni什么来着……总、总之是{namecode:22}大人啦！",
+			say = "Ge...Geni...Geni 뭐더라...어, 어쨌든 {namecode:22}님이라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 			},
 			options = {
 				{
-					content = "跪拜{namecode:22}大人",
+					content = "{namecode:22}님께 절 하기",
 					flag = 1
 				},
 				{
-					content = "居然能做这种自我介绍…果然是天才吗…",
+					content = "이런 자기소개를 하다니, 정말 천재인가...",
 					flag = 2
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "总之{namecode:22}大人驾临到你的舰队了！努力发挥{namecode:22}大人的实力吧",
+			say = "어찌 되었던 {namecode:22}님께서 너의 함선에 강림하셨으니, {namecode:22}님의 실력을 잘 발휘해 보라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "(闪闪！)",
+			say = "(번쩍번쩍!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼，给{namecode:22}大人跪好了吗？接下来就把{namecode:22}大人作为你舰队主力中的主力吧！",
+			say = "흥, 이 {namecode:22}님께 무릎을 꿇고 {namecode:22}님을 네 함선의 주력으로 삼는 것이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "(啪啪！)",
+			say = "(파박!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "被{namecode:22}大人的威严吓得连话都说不出来了吗？果然还是贫弱的人类嘛！",
+			say = "{namecode:22}님의 위엄에 놀라서 말도 못하겠나? 역시 인류는 나약하군!",
 			effects = {
 				{
 					active = false,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "一阵风吹过。",
+			say = "한 줄기 바람이 지나가고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "啊、啊咧？",
+			say = "이, 이잉?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 301610,
 			actorName = "{namecode:128}",
-			say = "那个……指挥官石化了……",
+			say = "저...지휘관이 돌이 됐는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			say = "那、那个，{namecode:22}酱就是这样的…不要太惊讶……吧？",
+			say = "그, 그게... {namecode:22}는 원래 이런 아이라...너무 놀라지...마세요...?",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
@@ -285,7 +285,7 @@ return {
 			dir = -1,
 			actor = 301600,
 			actorName = "{namecode:143}",
-			say = "好、好帅……{namecode:142}，也给{namecode:143}做一个这样的“南蛮风自我介绍”吧！",
+			say = "머, 멋있다...{namecode:142}, {namecode:143}한테도 이런 \"남쪽 스타일 자기소개\"를 만들어주자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = -1,
 			actor = 301590,
 			actorName = "{namecode:142}",
-			say = "诶！？我、我怎么会做这个啊！？指挥官，不理{namecode:22}真的没问题吗？",
+			say = "에?! 내, 내가 그런 걸 어떻게 해!? 지휘관, 그런데 {namecode:22}가 저래서 정말 괜찮겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			},
 			options = {
 				{
-					content = "忘了该说什么了……",
+					content = "어떤 말을 해야 좋을지...",
 					flag = 1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "呃呃呃…！居然敢无视{namecode:22}大人……你这是万死之罪口牙！",
+			say = "에에엑...! 감히 {namecode:22}님을 무시하다니...만번 죽어 마땅한!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

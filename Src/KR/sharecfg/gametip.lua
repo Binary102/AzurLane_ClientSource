@@ -6658,6 +6658,10 @@ pg.gametip = {
 		tip = "화면 터치 특수효과 표시",
 		key = "words_show_touch_effect"
 	},
+	words_bg_fit_mode = {
+		tip = "이미지는 최소 화면에 적합합니다. ",
+		key = "words_bg_fit_mode"
+	},
 	activity_puzzle_get1 = {
 		tip = "획득 방식：퍼즐 임무 7",
 		key = "activity_puzzle_get1"
@@ -8546,7 +8550,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "비스마르크, U-556, Z36, U-73, 에코 한정기간 출현 확률 UP！",
+		tip = "쇼카쿠,유키카제,노와키,모가미 한정기간 출현 확률 UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10501,6 +10505,128 @@ UID: 사령부에서 각 지휘관에게 전달한 고유의 신분 증명
 	empty_tip_mailboxui = {
 		tip = "우편 미획득",
 		key = "empty_tip_mailboxui"
+	},
+	words_settings_unlock_ship = {
+		tip = "캐릭터 잠금 해제",
+		key = "words_settings_unlock_ship"
+	},
+	words_settings_resolve_equip = {
+		tip = "장비 분해",
+		key = "words_settings_resolve_equip"
+	},
+	words_settings_unlock_commander = {
+		tip = "지휘냥 잠금 해제",
+		key = "words_settings_unlock_commander"
+	},
+	words_settings_create_inherit = {
+		tip = "상속 코드 생성",
+		key = "words_settings_create_inherit"
+	},
+	tips_fail_secondarypwd_much_times = {
+		tip = "2차 비밀번호 오류 횟수 초과. <color=#92FC63>%s</color>후 다시 시도해 보세요.",
+		key = "tips_fail_secondarypwd_much_times"
+	},
+	words_desc_unlock = {
+		tip = "해당 조작은 비밀번호 입력 확인이 필요합니다.",
+		key = "words_desc_unlock"
+	},
+	words_desc_resolve_equip = {
+		tip = "해당 조작은 비밀번호 입력 확인이 필요합니다.",
+		key = "words_desc_resolve_equip"
+	},
+	words_desc_create_inherit = {
+		tip = "해당 조작은 비밀번호 입력 확인이 필요합니다.",
+		key = "words_desc_create_inherit"
+	},
+	words_desc_close_password = {
+		tip = "2차 비밀번호를 사용 중지하려면 비밀번호를 입력해주세요.",
+		key = "words_desc_close_password"
+	},
+	words_desc_change_settings = {
+		tip = "2차 비밀번호 제한 범위를 변경하려면 비밀번호를 입력하세요.",
+		key = "words_desc_change_settings"
+	},
+	words_set_password = {
+		tip = "비밀번호 설정",
+		key = "words_set_password"
+	},
+	words_information = {
+		tip = "정보",
+		key = "words_information"
+	},
+	secondarypassword_incorrectpwd_error = {
+		tip = "비밀번호가 정확하지 않습니다. 재시도 가능 횟수: <color=FF5C5CFF>%d</color>회",
+		key = "secondarypassword_incorrectpwd_error"
+	},
+	secondary_password_help = {
+		key = "secondary_password_help",
+		tip = {
+			{
+				info = "2차 비밀번호는 지휘관 계정 내 자산을 보호하는 비밀번호 \n시스템입니다.\n"
+			},
+			{
+				info = [[
+1. 2차 비밀번호를 설정한 경우, 캐릭터 잠금 해제, 장비 분해, 
+지휘냥 잠금 해제 시 2차 비밀번호의 제한을 받습니다.；
+ 주의: 중요한 장비, SSR급 이상 장비, 강화
+등급+10의 장비 분해 시 2차 비밀번호의 제한을 받습니다.；
+]]
+			},
+			{
+				info = [[
+2. 이상 언급된 조작 중, 지휘관은 각 해당 조작에 대해 2차 
+비밀번호의
+제한을 둘 것인지 설정할 수 있습니다.；
+]]
+			},
+			{
+				info = [[
+3. 2차 비밀번호 설정 후, 매번 로그인 기간 동안, 처음으로 
+해당되는 조작 시 2차 비밀번호를 입력해야 합니다. 
+정확한 비밀번호를 입력한 후 해당 조작을
+진행할 수 있습니다.；
+만약 한 번의 로그인 기간 내 정확한 2차 비밀번호를 입력하여 
+해당되는 조작 진행 시 재입력할 필요는 없어집니다.；
+]]
+			},
+			{
+				info = [[
+4. 2차 비밀번호가 기억나지 않는다면 해당 시스템을 해제할 
+수 없으며, 동시에 해제 또는 재설정을 통해 2차 비밀번호를 
+수정할 수 없습니다. 따라서 비밀번호 기억에 도움을 줄 수 있는
+효과적인 비밀번호 알림을 설정해 주시기 바랍니다.；
+]]
+			},
+			{
+				info = [[
+5. 2차 비밀번호가 기억나지 않을 경우, 고객 센터를 통해 2차 
+비밀번호를 재설정 해야하며, 또 다시 재설정을 하기 위해서는 
+30일의 간격이 필요합니다.
+]]
+			}
+		}
+	},
+	comic_help = {
+		key = "comic_help",
+		tip = {
+			{
+				info = "1. 매일 임무를 완성하여 만화 퍼즐 조각을 획득할 수 있습니다. 퍼즐 조각을 수령한 후에 좌측\n만화에서 대응되는 위치에 자동으로 색이 입혀집니다."
+			},
+			{
+				info = "2. 9개의 만화 퍼즐 조각을 모두 획득한 후에는 , 좌측 만화가 전체적으로 \n색이 변하며, 자동으로 재블린 코스튬을 획득합니다."
+			},
+			{
+				info = "3. 매일 임무는 1개의 퍼즐 조각 보상이 포함되어 있고, 만화 전부에 색을 입히고 싶다면\n모든 임무를 완성해야 합니다."
+			}
+		}
+	},
+	secondarypassword_illegal_tip = {
+		tip = "부적합한 내용입니다. 다시 입력해 주세요. ",
+		key = "secondarypassword_illegal_tip"
+	},
+	secondarypassword_confirm_tips = {
+		tip = "비밀번호 입력 알림을 다시 확인해 주세요.\n<color=#FFDE38>“%s”</color>",
+		key = "secondarypassword_confirm_tips"
 	}
 }
 

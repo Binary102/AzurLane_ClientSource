@@ -24,5 +24,6 @@ require("Mgr/TrophyReminderMgr")
 require("Mgr/LayerWeightMgr")
 require("Mgr/const/LayerWeightConst")
 require("Mgr/ToastMgr")
+require("Mgr/SecondaryPWDMgr")
 
 return

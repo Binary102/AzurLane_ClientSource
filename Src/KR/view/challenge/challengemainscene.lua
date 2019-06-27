@@ -2217,11 +2217,10 @@ function slot1(slot0)
 	slot4 = slot4.GetInstance
 	slot4 = slot4(slot5)
 	slot5 = slot4
-	slot4 = slot4.DescTime
+	slot4 = slot4.STimeDescS
 	slot6 = slot3
 	slot7 = "%Y.%m.%d"
-	slot8 = true
-	slot4 = slot4(slot5, slot6, slot7, slot8)
+	slot4 = slot4(slot5, slot6, slot7)
 	slot5 = setText
 	slot6 = slot0.activityTimeText
 	slot7 = slot4
@@ -2233,49 +2232,52 @@ function slot1(slot0)
 	slot6 = slot5
 	slot5 = slot5.GetInstance
 	slot5 = slot5(slot6)
-	slot6 = slot5
-	slot5 = slot5.GetSecondsToNextWeek
-	slot5 = slot5(slot6)
-	slot6 = pg
-	slot6 = slot6.TimeMgr
-	slot7 = slot6
-	slot6 = slot6.GetInstance
-	slot6 = slot6(slot7)
-	slot7 = slot6
-	slot6 = slot6.parseTimeFrom
+	slot7 = slot5
+	slot6 = slot5.GetNextWeekTime
+	slot8 = 1
+	slot9 = 0
+	slot10 = 0
+	slot11 = 0
+	slot6 = slot6(slot7, slot8, slot9, slot10, slot11)
 	slot8 = slot5
-	slot6, slot7, slot8, slot9 = slot6(slot7, slot8)
-	slot10 = setText
-	slot11 = slot0.seasonDayText
-	slot12 = slot6
+	slot7 = slot5.GetServerTime
+	slot7 = slot7(slot8)
+	slot6 = slot6 - slot7
+	slot8 = slot5
+	slot7 = slot5.parseTimeFrom
+	slot9 = slot6
+	slot7, slot8, slot9, slot10 = slot7(slot8, slot9)
+	slot11 = setText
+	slot12 = slot0.seasonDayText
+	slot13 = slot7
 
-	slot10(slot11, slot12)
+	slot11(slot12, slot13)
 
-	slot10 = setText
-	slot11 = slot0.seasonTimeText
-	slot12 = string
-	slot12 = slot12.format
-	slot13 = "%02d:%02d:%02d"
-	slot14 = slot7
+	slot11 = setText
+	slot12 = slot0.seasonTimeText
+	slot13 = string
+	slot13 = slot13.format
+	slot14 = "%02d:%02d:%02d"
 	slot15 = slot8
 	slot16 = slot9
+	slot17 = slot10
 
-	slot10(slot11, slot12(slot13, slot14, slot15, slot16))
+	slot11(slot12, slot13(slot14, slot15, slot16, slot17))
 
-	slot10 = slot0.timer
+	slot11 = slot0.timer
 
-	if slot10 then
-		slot10 = slot0.timer
-		slot11 = slot10
-		slot10 = slot10.Stop
+	if slot11 then
+		slot11 = slot0.timer
+		slot12 = slot11
+		slot11 = slot11.Stop
 
-		slot10(slot11)
+		slot11(slot12)
 	end
 
-	slot10 = Timer
-	slot10 = slot10.New
+	slot11 = Timer
+	slot11 = slot11.New
 
-	function slot11()
+	function slot12()
 		slot0 = slot0
 		slot0 = slot0 - 1
 		slot0 = slot0
@@ -2323,15 +2325,15 @@ function slot1(slot0)
 		end
 	end
 
-	slot12 = 1
-	slot13 = -1
-	slot10 = slot10(slot11, slot12, slot13)
-	slot0.timer = slot10
-	slot10 = slot0.timer
-	slot11 = slot10
-	slot10 = slot10.Start
+	slot13 = 1
+	slot14 = -1
+	slot11 = slot11(slot12, slot13, slot14)
+	slot0.timer = slot11
+	slot11 = slot0.timer
+	slot12 = slot11
+	slot11 = slot11.Start
 
-	slot10(slot11)
+	slot11(slot12)
 end
 
 slot0.updateTimePanel = slot1

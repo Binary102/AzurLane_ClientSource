@@ -64,11 +64,11 @@ function slot0.didEnter(slot0)
 				content = i18n("course_exit_confirm"),
 				onYes = function ()
 					slot0:emit(ClassMediator.CLASS_CLEAR_STUDENT)
-					slot0.emit:emit(slot1.ON_BACK, nil, 0.3)
+					slot0.emit:emit(slot1.ON_BACK)
 				end
 			})
 		else
-			slot0:emit(slot1.ON_BACK, nil, 0.3)
+			slot0:emit(slot1.ON_BACK)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnHelp, function ()

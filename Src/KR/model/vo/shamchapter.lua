@@ -351,7 +351,7 @@ function slot0.isOpen(slot0)
 	if ChapterConst.ActivateMirror then
 		slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MIRROR) and not slot3:isEnd()
 	else
-		if pg.sim_battle_template[slot0.simId] and os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).month == slot0.simId then
+		if pg.sim_battle_template[slot0.simId] and pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").month == slot0.simId then
 			return slot2.sim_time[1] <= slot4.day and slot4.day <= slot2.sim_time[2]
 		end
 	end
@@ -361,7 +361,7 @@ function slot0.isFirstDay(slot0)
 	slot1 = false
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = slot2:GetServerTime()
-	slot4 = os.server_date("*t", slot2:GetServerTime())
+	slot4 = pg.TimeMgr.GetInstance():STimeDescS(slot2:GetServerTime(), "*t")
 
 	if ChapterConst.ActivateMirror then
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MIRROR) and not slot6:isEnd() and slot6:getConfig("time")[2] then
@@ -378,7 +378,7 @@ function slot0.getRestDays(slot0)
 	slot1 = 0
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = slot2:GetServerTime()
-	slot4 = os.server_date("*t", slot2:GetServerTime())
+	slot4 = pg.TimeMgr.GetInstance():STimeDescS(slot2:GetServerTime(), "*t")
 
 	if ChapterConst.ActivateMirror then
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MIRROR) and not slot6:isEnd() and slot6:getConfig("time")[1] == "timer" and slot7[3] then

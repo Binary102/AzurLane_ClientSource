@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>五　{namecode:22}和游乐园·上</size>",
+					"나는 {namecode:22}님이다!\n\n<size=45>5 {namecode:22}와의 놀이공원·상</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "想去游乐园了？哼，那种地方我{namecode:22}大人怎么会喜……呃呃呃……",
+			say = "놀이공원이 가고 싶다고? 흥, 이 {namecode:22}님이 그런 곳을 좋아할 리가...이익...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "……哼，这可是指挥官实在想去{namecode:22}大人迫不得已才跟着你去的哦！",
+			say = "...흥, 지휘관이 그렇게 가고 싶어하니 이 {namecode:22}님이 어쩔 수 없이 따라가 주는 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！好好感谢本大人吧！",
+			say = "흥! 감사히 생각하라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于是休息日去了游乐园——",
+			say = "그래서 쉬는 날 놀이공원에 갔는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
+			say = "회전목마? 그렇게 유치한 걸 이 {namecode:22}님이 탈 리가 없잖아!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
+			say = "롤러코스터? 바다의 파도에 비하면 그건 아무것도 아니지!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -153,7 +153,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
+			say = "관람차!?그, 그건 데이트 할 때나 타는거 아니야!? 유, {namecode:22}님은 절대...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "嗯？要去那个鬼屋挑战一下吗？",
+			say = "응? 귀신의 집에 가자고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！这种骗小孩的玩意，{namecode:22}大人是不会害怕的啦！！",
+			say = "아~하하하! 어린 아이나 속는 걸 이 {namecode:22}님이 무서워 하겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "5分钟后",
+			say = "5분 후",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -248,7 +248,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
+			say = "으아아아아아아아악!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "（颤抖）……好、好可怕……！不不不不要松开手啊啊啊啊啊啊 ――！",
+			say = "(부들부들)...무, 무서워! 소소소손..놓지마아아악!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指挥官！救救我啊啊啊啊啊啊！",
+			say = "지휘관! 사, 살려줘어어어!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "要、要死了……",
+			say = "주, 죽을 것 같아...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指、指挥官……呜呜呜呜……",
+			say = "지, 지휘관...으아앙...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "不经意间发现{namecode:22}紧紧抱住了自己。",
+			say = "나도 모르는 새에 {namecode:22}가 나를 꽉 끌어안고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

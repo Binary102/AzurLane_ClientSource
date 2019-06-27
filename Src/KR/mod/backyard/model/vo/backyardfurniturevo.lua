@@ -383,7 +383,7 @@ end
 
 function slot0.getDate(slot0)
 	if slot0.date > 0 then
-		return pg.TimeMgr.GetInstance():DescTime(slot0.date, "%Y/%m/%d", true)
+		return pg.TimeMgr.GetInstance():STimeDescS(slot0.date, "%Y/%m/%d")
 	end
 end
 

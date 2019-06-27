@@ -2724,6 +2724,113 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100006] = {
+		can_rotate = 0,
+		name = "번쩍이는 무대",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 1,
+		icon = "qiandaowutaiicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 100006,
+		comfortable = 0,
+		describe = "바로 오늘, 무대 위의 가장 밝게 빛나는 별이 될 수 있어!",
+		dorm_id = 0,
+		gem_price = 120,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 1,
+		discount_time = "",
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xingguangwutaiB",
+				"normal"
+			},
+			{
+				"xingguangwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						0,
+						"walk"
+					},
+					{
+						"dance",
+						0,
+						"stand2"
+					},
+					{
+						"walk2",
+						0,
+						"walk"
+					},
+					{
+						"motou",
+						0,
+						"dance"
+					},
+					{
+						"dance2",
+						0,
+						"dance"
+					},
+					{
+						"normal",
+						0,
+						"walk"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"xingguangwutaiCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		can_rotate = 0,
 		name = "낡은 바닥",
@@ -9771,6 +9878,2247 @@ pg.furniture_data_template = {
 		dorm_id = 0,
 		gem_price = 0,
 		themeId = 8,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10001] = {
+		can_rotate = 0,
+		name = "동양의 지반",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "dibancnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		picture = "cn/dibancn",
+		canputon = 0,
+		discount = 0,
+		id = 10001,
+		comfortable = 4,
+		describe = "소박한 땅으로, 깔끔하고 넓다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10002] = {
+		can_rotate = 0,
+		name = "동양의 벽",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		belong = 0,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "qiangbicnicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cn/qiangbicn",
+		canputon = 0,
+		discount = 0,
+		id = 10002,
+		comfortable = 4,
+		describe = "고풍스러운 벽으로, 산뜻하고 우아하다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10101] = {
+		advice = 0,
+		name = "분수 목욕탕",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/yuchicn",
+		can_rotate = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 1,
+		icon = "yuchicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10101,
+		comfortable = 4,
+		describe = "커다란 분수 목욕탕! 용 머리가 물을 뿜어요.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-79,
+					-78
+				},
+				{
+					1,
+					1
+				},
+				"cn/yuchicn_using"
+			},
+			{
+				"wash",
+				{
+					49,
+					-103
+				},
+				{
+					-1,
+					1
+				},
+				"cn/yuchicn_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10102] = {
+		can_rotate = 0,
+		name = "전시대",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 1,
+		icon = "chajicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cn/chajicn",
+		canputon = 1,
+		discount = 0,
+		id = 10102,
+		comfortable = 3,
+		describe = "전시물을 놓아둘 수 있는 탁자",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			7
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				2,
+				6
+			},
+			{
+				2,
+				7
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10103] = {
+		advice = 0,
+		name = "마호가니 벤치",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/changyicn",
+		can_rotate = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 0,
+		icon = "changyicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10103,
+		comfortable = 4,
+		describe = "2인용 의자, 앉을 때 떨어지지 않게 조심하세요.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					62,
+					24
+				},
+				{
+					1,
+					1
+				},
+				"cn/changyicn_using"
+			},
+			{
+				"sit",
+				{
+					-10,
+					-10
+				},
+				{
+					1,
+					1
+				},
+				"cn/changyicn_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10104] = {
+		can_rotate = 0,
+		name = "수련",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chizicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/chizicn",
+		canputon = 0,
+		discount = 0,
+		id = 10104,
+		comfortable = 1,
+		describe = "여기 있는 연꽃은 먹을 수 없어요.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10105] = {
+		advice = 0,
+		name = "나무 침상",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/chuangcn",
+		can_rotate = 0,
+		dorm_icon_price = 150,
+		not_for_sale = 2,
+		icon = "chuangcnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 4,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10105,
+		comfortable = 4,
+		describe = "커다란 이스트 글림풍 나무 침대",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					107,
+					-15
+				},
+				{
+					1,
+					1
+				},
+				"cn/chuangcn_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10106] = {
+		advice = 0,
+		name = "스툴 의자",
+		count = 1,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/chuangyicn",
+		can_rotate = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chuangyicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10106,
+		comfortable = 1,
+		describe = "창가의 작은 의자, 뚜렷한 용도는 없다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					28,
+					32.5
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-30.1,
+					32.5
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10107] = {
+		can_rotate = 0,
+		name = "등불",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "dengcnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/dengcn",
+		canputon = 0,
+		discount = 0,
+		id = 10107,
+		comfortable = 1,
+		describe = "붉은색 커다란 등불",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10108] = {
+		advice = 0,
+		name = "긴 의자",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/dengzicn",
+		can_rotate = 0,
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "dengzicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10108,
+		comfortable = 2,
+		describe = "기다란 의자, 많은 사람이 앉을 수 있어요.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					80,
+					60
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					8,
+					26
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					-66.6,
+					17.4
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10109] = {
+		can_rotate = 0,
+		name = "꽃병",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "huapingcnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/huapingcn",
+		canputon = 0,
+		discount = 0,
+		id = 10109,
+		comfortable = 1,
+		describe = "우아한 도자기 꽃병",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10110] = {
+		can_rotate = 0,
+		name = "동양의 계단",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "louticnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/louticn",
+		canputon = 0,
+		discount = 0,
+		id = 10110,
+		comfortable = 2,
+		describe = "마호가니로 팔걸이를 만든 계단으로, 위층으로 이어져 있다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10111] = {
+		advice = 0,
+		name = "태사의",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/laorenyicn",
+		can_rotate = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "laorenyicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10111,
+		comfortable = 1,
+		describe = "태사의라는 이름은 어떻게 붙은 걸까요?",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					16
+				},
+				{
+					1,
+					1
+				},
+				"cn/laorenyicn_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10112] = {
+		can_rotate = 0,
+		name = "용 기둥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "louzhucnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/louzhucn",
+		canputon = 0,
+		discount = 0,
+		id = 10112,
+		comfortable = 1,
+		describe = "금룡이 감겨있는 기둥",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10113] = {
+		can_rotate = 0,
+		name = "울타리",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "menlancnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/menlancn",
+		canputon = 0,
+		discount = 0,
+		id = 10113,
+		comfortable = 2,
+		describe = "내실과 외실을 나누는 물건",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10114] = {
+		can_rotate = 0,
+		name = "흰 두루미 병풍",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "pingfengcnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/pingfengcn",
+		canputon = 0,
+		discount = 0,
+		id = 10114,
+		comfortable = 2,
+		describe = "수 많은 흰 두루미가 그려져 있는 병풍",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			8,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10115] = {
+		can_rotate = 0,
+		name = "마호가니 책장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuguicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/shuguicn",
+		canputon = 0,
+		discount = 0,
+		id = 10115,
+		comfortable = 2,
+		describe = "책이 가득 꽂혀 있는 책장",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10116] = {
+		can_rotate = 0,
+		name = "책 항아리",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shujuancnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/shujuancn",
+		canputon = 0,
+		discount = 0,
+		id = 10116,
+		comfortable = 1,
+		describe = "책 같은 것들을 마음대로 넣을 수 있다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10117] = {
+		advice = 0,
+		name = "태사의(방석 포함)",
+		count = 2,
+		type = 2,
+		dir = 0,
+		effect = "",
+		gain_by = "",
+		is_get_time_note = 0,
+		picture = "cn/taishiyicn",
+		can_rotate = 0,
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "taishiyicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 10117,
+		comfortable = 1,
+		describe = "태사의라는 이름은 어떻게 붙은 걸까요?",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					21,
+					16
+				},
+				{
+					1,
+					1
+				},
+				"cn/laorenyicn_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10118] = {
+		can_rotate = 0,
+		name = "서예 책상(소)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shuzhuo1cnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/shuzhuo1cn",
+		canputon = 1,
+		discount = 0,
+		id = 10118,
+		comfortable = 1,
+		describe = "화선지를 펼치고 마음대로 붓을 놀려 보세요!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			4
+		},
+		offset = {
+			0,
+			26.2
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10119] = {
+		can_rotate = 0,
+		name = "서예 책상(중)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "shuzhuo2cnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/shuzhuo2cn",
+		canputon = 1,
+		discount = 0,
+		id = 10119,
+		comfortable = 2,
+		describe = "화선지를 펼치고 마음대로 붓을 놀려 보세요!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			4
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10120] = {
+		can_rotate = 0,
+		name = "서예 책상(대)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "shuzhuo3cnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cn/shuzhuo3cn",
+		canputon = 1,
+		discount = 0,
+		id = 10120,
+		comfortable = 3,
+		describe = "화선지를 펼치고 마음대로 붓을 놀려 보세요!",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			5
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				4
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10121] = {
+		can_rotate = 0,
+		name = "향로",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xianglucnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/xianglucn",
+		canputon = 0,
+		discount = 0,
+		id = 10121,
+		comfortable = 1,
+		describe = "범상치 않은 동 재질의 향로",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10122] = {
+		can_rotate = 0,
+		name = "마호가니 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xiaofangzhuocnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/xiaofangzhuocn",
+		canputon = 1,
+		discount = 0,
+		id = 10122,
+		comfortable = 1,
+		describe = "작은 사각 테이블",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {
+			0,
+			15
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10123] = {
+		can_rotate = 0,
+		name = "무기장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "binqicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 2,
+		picture = "cn/binqicn",
+		canputon = 0,
+		discount = 0,
+		id = 10123,
+		comfortable = 2,
+		describe = "여러가지 무기가 들어 있다.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10124] = {
+		can_rotate = 0,
+		name = "서예 책상",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhuotaicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 1,
+		picture = "cn/zhuotaicn",
+		canputon = 1,
+		discount = 0,
+		id = 10124,
+		comfortable = 1,
+		describe = "글을 쓰는 책상",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			3,
+			1
+		},
+		offset = {
+			2.8,
+			27
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				1
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10125] = {
+		can_rotate = 0,
+		name = "마호가니 사각 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "zhuozicnicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		picture = "cn/zhuozicn",
+		canputon = 1,
+		discount = 0,
+		id = 10125,
+		comfortable = 3,
+		describe = "커다란 사각 테이블",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			4
+		},
+		offset = {
+			0,
+			30
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10201] = {
+		can_rotate = 0,
+		name = "찻잔",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chabeicnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/chabeicn",
+		canputon = 0,
+		discount = 0,
+		id = 10201,
+		comfortable = 1,
+		describe = "작은 찻잔, 차를 천천히 음미할 수 있다",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10202] = {
+		can_rotate = 0,
+		name = "다구",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chajucnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/chajucn",
+		canputon = 0,
+		discount = 0,
+		id = 10202,
+		comfortable = 1,
+		describe = "다기 한 세트, 사용 전과 후에 잘 세척하세요",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10203] = {
+		can_rotate = 0,
+		name = "차관",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chapingcnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/chapingcn",
+		canputon = 0,
+		discount = 0,
+		id = 10203,
+		comfortable = 1,
+		describe = "찻잎을 넣은 차관",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10204] = {
+		can_rotate = 0,
+		name = "찻물독",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "chashuigangcnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/chashuigangcn",
+		canputon = 0,
+		discount = 0,
+		id = 10204,
+		comfortable = 1,
+		describe = "먹색 찻물독",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10205] = {
+		can_rotate = 0,
+		name = "청자접시",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "diezicnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/diezicn",
+		canputon = 0,
+		discount = 0,
+		id = 10205,
+		comfortable = 1,
+		describe = "전시용 청자접시, 절대 깨지마세요",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10206] = {
+		can_rotate = 0,
+		name = "초록색 잎 화분",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "huapencnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/huapencn",
+		canputon = 0,
+		discount = 0,
+		id = 10206,
+		comfortable = 1,
+		describe = "방을 푸르게 장식할 수 있다",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10207] = {
+		can_rotate = 0,
+		name = "공작병",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "kongquecnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/kongquecn",
+		canputon = 0,
+		discount = 0,
+		id = 10207,
+		comfortable = 1,
+		describe = "공작의 깃털이 꽂힌 병",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10208] = {
+		can_rotate = 0,
+		name = "복숭아나무 화분",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "penzaiacnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/penzaiacn",
+		canputon = 0,
+		discount = 0,
+		id = 10208,
+		comfortable = 1,
+		describe = "복숭아색의 화분",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10209] = {
+		can_rotate = 0,
+		name = "소나무 화분",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "penzaibcnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/penzaibcn",
+		canputon = 0,
+		discount = 0,
+		id = 10209,
+		comfortable = 1,
+		describe = "푸른 소나무 화분",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10210] = {
+		can_rotate = 0,
+		name = "대나무 화분",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "zhuzicnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/zhuzicn",
+		canputon = 0,
+		discount = 0,
+		id = 10210,
+		comfortable = 1,
+		describe = "파란 대나무 화분",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10211] = {
+		can_rotate = 0,
+		name = "책",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "shucnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/shucn",
+		canputon = 0,
+		discount = 0,
+		id = 10211,
+		comfortable = 1,
+		describe = "두꺼운 책",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10212] = {
+		can_rotate = 0,
+		name = "화선지",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xuanzhicnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/xuanzhicn",
+		canputon = 0,
+		discount = 0,
+		id = 10212,
+		comfortable = 1,
+		describe = "고품질의 화선지, 글씨를 써서 그림을 그릴 수 있다",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10213] = {
+		can_rotate = 0,
+		name = "벼루",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "yantaicnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/yantaicn",
+		canputon = 0,
+		discount = 0,
+		id = 10213,
+		comfortable = 1,
+		describe = "이 벼루는 어디서 생산된걸까?",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10214] = {
+		can_rotate = 0,
+		name = "붓걸이",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "bijiacnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/bijiacn",
+		canputon = 0,
+		discount = 0,
+		id = 10214,
+		comfortable = 1,
+		describe = "다 쓴 붓은 잘 걸어 두어야 한다는 것을 기억하세요",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10215] = {
+		can_rotate = 0,
+		name = "작은 향로",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		belong = 1,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 20,
+		not_for_sale = 0,
+		icon = "xiaoxianglucnicon",
+		deblocking = 1,
+		level = 2,
+		rarity = 1,
+		picture = "cn/xiaoxianglucn",
+		canputon = 0,
+		discount = 0,
+		id = 10215,
+		comfortable = 1,
+		describe = "아주 작은 향로",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10301] = {
+		can_rotate = 0,
+		name = "정원창문",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 150,
+		not_for_sale = 1,
+		icon = "chuanghucnicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 4,
+		picture = "cn/chuanghucn",
+		canputon = 0,
+		discount = 0,
+		id = 10301,
+		comfortable = 4,
+		describe = "정원 풍경을 볼 수 있는 창문",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10302] = {
+		can_rotate = 0,
+		name = "꽃무늬 창문",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 2,
+		is_get_time_note = 0,
+		count = 2,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 40,
+		not_for_sale = 0,
+		icon = "chuangzicnicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 2,
+		picture = "cn/chuangzicn",
+		canputon = 0,
+		discount = 0,
+		id = 10302,
+		comfortable = 2,
+		describe = "작은 방 창문으로는 결코 바깥을 볼 수 없어요",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[10303] = {
+		can_rotate = 0,
+		name = "수사 현수막",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		belong = 3,
+		is_get_time_note = 0,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 80,
+		not_for_sale = 0,
+		icon = "hengfucnicon",
+		deblocking = 1,
+		level = 5,
+		rarity = 3,
+		picture = "cn/hengfucn",
+		canputon = 0,
+		discount = 0,
+		id = 10303,
+		comfortable = 3,
+		describe = "여러 해 동안 연습한 가장 만족스러운 작품",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 10,
 		spine_extra = "",
 		time = "always",
 		spine_action_replace = "",
@@ -70363,6 +72711,7 @@ pg.furniture_data_template = {
 		100003,
 		100004,
 		100005,
+		100006,
 		1001,
 		1002,
 		1101,
@@ -70518,6 +72867,51 @@ pg.furniture_data_template = {
 		8305,
 		8306,
 		8307,
+		10001,
+		10002,
+		10101,
+		10102,
+		10103,
+		10104,
+		10105,
+		10106,
+		10107,
+		10108,
+		10109,
+		10110,
+		10111,
+		10112,
+		10113,
+		10114,
+		10115,
+		10116,
+		10117,
+		10118,
+		10119,
+		10120,
+		10121,
+		10122,
+		10123,
+		10124,
+		10125,
+		10201,
+		10202,
+		10203,
+		10204,
+		10205,
+		10206,
+		10207,
+		10208,
+		10209,
+		10210,
+		10211,
+		10212,
+		10213,
+		10214,
+		10215,
+		10301,
+		10302,
+		10303,
 		11001,
 		11002,
 		11101,

@@ -67,13 +67,14 @@ class("GetShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot4:sendNotification(GAME.GET_SHIP_DONE, {
 						ship = slot0,
 						quitCallBack = slot6,
-						canSkipBatch = slot6
+						canSkipBatch = slot6,
+						isBatch = slot8
 					})
 				end
 			end
 
-			if slot7 then
-				slot7(slot1, slot8.type)
+			if slot8 then
+				slot8(slot1, slot9.type)
 			else
 				slot1()
 			end

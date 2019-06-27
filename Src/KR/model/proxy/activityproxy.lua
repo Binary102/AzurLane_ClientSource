@@ -49,6 +49,7 @@ function slot0.register(slot0)
 		if not slot0.data[Activity.New(slot0.activity_info).id] then
 			slot0:addActivity(slot1)
 		else
+			print(slot1.id)
 			slot0:updateActivity(slot1)
 		end
 
@@ -221,7 +222,7 @@ function slot0.findNextAutoActivity(slot0)
 					end
 				else
 					if slot9 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-						if os.server_date("*t", slot3).year ~= slot8.data1 or slot10.month ~= slot8.data2 then
+						if pg.TimeMgr.GetInstance():STimeDescS(slot3, "*t").year ~= slot8.data1 or slot10.month ~= slot8.data2 then
 							slot8.data1 = slot10.year
 							slot8.data2 = slot10.month
 							slot8.data1_list = {}

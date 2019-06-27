@@ -514,7 +514,8 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 							onButton(slot0, slot28, function ()
 								pg.MsgboxMgr.GetInstance():ShowMsgBox({
 									type = MSGBOX_TYPE_HELP,
-									helps = i18n("help_attribute_dodge_limit")
+									helps = i18n("help_attribute_dodge_limit"),
+									weight = slot0:getWeightFromData()
 								})
 							end, SFX_PANEL)
 						end

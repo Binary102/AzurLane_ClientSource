@@ -1941,6 +1941,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1100000] = {
+		map = 1100000,
+		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 20215,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100001] = {
+		map = 1100001,
+		name = "『홍염의 방문자』-후편|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 20215,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100010] = {
+		map = 1100010,
+		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 20215,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100011] = {
+		map = 1100011,
+		name = "『홍염의 방문자』-후편|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 20215,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1100013] = {
+		map = 1100013,
+		name = "『홍염의 방문자』-EX|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 8,
+		on_activity = 20215,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1110001] = {
 		map = 1110001,
 		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
@@ -3331,6 +3536,170 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100000] = {
+		map = 2100000,
+		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100001] = {
+		map = 2100001,
+		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100010] = {
+		map = 2100010,
+		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100011] = {
+		map = 2100011,
+		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -3414,6 +3783,11 @@ pg.expedition_data_by_map = {
 		1090010,
 		1090011,
 		1090012,
+		1100000,
+		1100001,
+		1100010,
+		1100011,
+		1100013,
 		1110001,
 		1110002,
 		1110011,
@@ -3452,6 +3826,10 @@ pg.expedition_data_by_map = {
 		1230012,
 		1230020,
 		1230021,
+		2100000,
+		2100001,
+		2100010,
+		2100011,
 		2200000
 	}
 }

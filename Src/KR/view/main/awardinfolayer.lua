@@ -185,23 +185,7 @@ function slot0.displayAwards(slot0)
 					return
 				end
 
-				if slot1.type == DROP_TYPE_RESOURCE or slot1.type == DROP_TYPE_ITEM or slot1.type == DROP_TYPE_VITEM then
-					slot0:emit(AwardInfoMediator.ON_ITEM, slot1.cfg.id)
-				elseif slot1.type == DROP_TYPE_FURNITURE then
-					slot0:emit(AwardInfoMediator.ON_FURNITURE, slot1.cfg.id)
-				elseif slot1.type == DROP_TYPE_EQUIP then
-					slot0:emit(slot2.ON_EQUIPMENT, {
-						equipmentId = slot1.cfg.id,
-						type = EquipmentInfoMediator.TYPE_DISPLAY,
-						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-					})
-				elseif slot1.type == DROP_TYPE_SIREN_EQUIP then
-					slot0:emit(slot2.ON_EQUIPMENT, {
-						equipmentId = slot1.id,
-						type = EquipmentInfoMediator.TYPE_DISPLAY,
-						LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-					})
-				end
+				slot0:emit(AwardInfoMediator.ON_DROP, slot0)
 			end, SFX_PANEL)
 		end
 	else

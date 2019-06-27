@@ -51,34 +51,55 @@ function slot0.createRequestCard(slot0, slot1)
 		msg = ()["tf"]:Find("frame/request_content/Text"):GetComponent(typeof(Text)),
 		iconTF = ()["tf"]:Find("frame/shipicon/icon"):GetComponent(typeof(Image)),
 		starsTF = ()["tf"]:Find("frame/shipicon/stars"),
-		frameCommon = ()["tf"]:Find("frame/shipicon/frame_common"),
-		frameMarry = ()["tf"]:Find("frame/shipicon/frame_marry"),
+		circle = ()["tf"]:Find("frame/shipicon/frame"),
 		starTF = ()["tf"]:Find("frame/shipicon/stars/star"),
 		rejectBtn = ()["tf"]:Find("frame/refuse_btn"),
 		accpetBtn = ()["tf"]:Find("frame/accpet_btn"),
 		update = function (slot0, slot1)
+			slot0:clear()
+
 			slot0.requestVO = slot1
 			slot0.nameTF.text = slot1.player.name
 			slot0.levelTF.text = "Lv." .. slot1.player.level
 			slot0.dateTF.text = getOfflineTimeStamp(slot1.timestamp)
 			slot0.msg.text = slot1.content
 
-			setActive(slot0.frameCommon, not slot1.player.propose)
-			setActive(slot0.frameMarry, slot1.player.propose)
+			PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot4, AttireFrame.attireFrameRes(slot3, false, AttireConst.TYPE_ICON_FRAME, slot1.player.propose), true, function (slot0)
+				if IsNil(slot0.tf) then
+					return
+				end
+
+				if slot0.circle then
+					slot0.name = slot1
+					findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+
+					setParent(slot0, slot0.circle, false)
+				else
+					PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+				end
+			end)
 
 			if pg.ship_data_statistics[slot1.player.icon] then
-				LoadSpriteAsync("qicon/" .. slot4, function (slot0)
+				LoadSpriteAsync("qicon/" .. slot6, function (slot0)
 					slot0.iconTF.sprite = slot0
 				end)
 
-				for slot9 = slot0.starsTF.childCount, slot3.star - 1, 1 do
+				for slot11 = slot0.starsTF.childCount, slot5.star - 1, 1 do
 					cloneTplTo(slot0.starTF, slot0.starsTF)
 				end
 
-				for slot9 = 1, slot5, 1 do
-					setActive(slot0.starsTF:GetChild(slot9 - 1), slot9 <= slot3.star)
+				for slot11 = 1, slot7, 1 do
+					setActive(slot0.starsTF:GetChild(slot11 - 1), slot11 <= slot5.star)
 				end
 			end
+		end,
+		clear = function (slot0)
+			if slot0.circle.childCount > 0 then
+				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
+			end
+		end,
+		dispose = function (slot0)
+			slot0:clear()
 		end
 	}
 end
@@ -137,7 +158,9 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
-	return
+	for slot4, slot5 in pairs(slot0.requestCards) do
+		slot5:dispose()
+	end
 end
 
 return slot0

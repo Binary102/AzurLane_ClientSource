@@ -7576,6 +7576,518 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5051] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5051,
+		type = 5,
+		name = "{namecode:96}의 아침",
+		count_inherit = 0,
+		desc = "《어뢰 튀김》3개 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "ruihe",
+		award_choice = "",
+		level = 1,
+		next_task = "5052",
+		visibility = 1,
+		story_id = "RUIHE1",
+		target_id_for_client = 50003,
+		id = 5051,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5052] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5052,
+		type = 5,
+		name = "{namecode:96}와(과) 동료들",
+		count_inherit = 0,
+		desc = "임의의 캐릭터 강화 10회",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5053",
+		visibility = 1,
+		story_id = "RUIHE2",
+		target_id_for_client = 0,
+		id = 5052,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5053] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5053,
+		type = 5,
+		name = "{namecode:96}와(과) 선배들",
+		count_inherit = 0,
+		desc = "{namecode:96}와 함께 스테이지 승리 20회",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5054",
+		visibility = 1,
+		story_id = "RUIHE3",
+		target_id_for_client = 30706,
+		id = 5053,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5054] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5054,
+		type = 5,
+		name = "{namecode:96}와(과) 대선배",
+		count_inherit = 0,
+		desc = "{namecode:96}와 함께 데일리 3회 완성",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5055",
+		visibility = 1,
+		story_id = "RUIHE4",
+		target_id_for_client = 30706,
+		id = 5054,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5055] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5055,
+		type = 5,
+		name = "오늘 식사 준비는 제가 할게요!",
+		count_inherit = 0,
+		desc = "{namecode:96}호감도 100달성",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5056",
+		visibility = 1,
+		story_id = "RUIHE5",
+		target_id_for_client = 30706,
+		id = 5055,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5056] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5056,
+		type = 5,
+		name = "심야의 간주곡",
+		count_inherit = 0,
+		desc = "{namecode:96}이(가)최고 레벨 달성",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5057",
+		visibility = 1,
+		story_id = "RUIHE6",
+		target_id_for_client = 307064,
+		id = 5056,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "307064",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18032,
+				1
+			}
+		}
+	},
+	[5057] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5057,
+		type = 5,
+		name = "불굴의 학",
+		count_inherit = 0,
+		desc = "{namecode:96} 레벨 100 달성",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "ruihe",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "RUIHE7",
+		target_id_for_client = 30706,
+		id = 5057,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30706",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
+	[5061] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5058,
+		type = 5,
+		name = "{namecode:22}님 등장",
+		count_inherit = 0,
+		desc = "《특제 냉각수》5개 제출",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		award_choice = "",
+		level = 1,
+		next_task = "5062",
+		visibility = 1,
+		story_id = "XUEFENG1",
+		target_id_for_client = 50002,
+		id = 5061,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "50002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5062] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5059,
+		type = 5,
+		name = "천재 {namecode:22}님",
+		count_inherit = 0,
+		desc = "임의의 캐릭터 강화 10회",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5063",
+		visibility = 1,
+		story_id = "XUEFENG2",
+		target_id_for_client = 0,
+		id = 5062,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5063] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5060,
+		type = 5,
+		name = "VS{namecode:17}!?",
+		count_inherit = 0,
+		desc = "{namecode:22}와 함께 스테이지 승리 20회",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5064",
+		visibility = 1,
+		story_id = "XUEFENG3",
+		target_id_for_client = 30116,
+		id = 5063,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30116",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5064] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5061,
+		type = 5,
+		name = "{namecode:22}팬클럽?",
+		count_inherit = 0,
+		desc = "{namecode:22}와 함께 데일리 3회 완성",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5065",
+		visibility = 1,
+		story_id = "XUEFENG4",
+		target_id_for_client = 30116,
+		id = 5064,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30116",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5065] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5062,
+		type = 5,
+		name = "{namecode:22}와(과) 유원지·상",
+		count_inherit = 0,
+		desc = "{namecode:22}호감도 100달성",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5066",
+		visibility = 1,
+		story_id = "XUEFENG5",
+		target_id_for_client = 30116,
+		id = 5065,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30116",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5066] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5063,
+		type = 5,
+		name = "{namecode:22}와(과) 유원지·하",
+		count_inherit = 0,
+		desc = "{namecode:22}이(가)최고 레벨 달성",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5067",
+		visibility = 1,
+		story_id = "XUEFENG6",
+		target_id_for_client = 301164,
+		id = 5066,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301164",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5067] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5064,
+		type = 5,
+		name = "평소와 같은? {namecode:22}님",
+		count_inherit = 0,
+		desc = "{namecode:22} 레벨 100 달성",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "xuefeng",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XUEFENG7",
+		target_id_for_client = 30116,
+		id = 5067,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30116",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[5121] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -21269,6 +21781,580 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[10401] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8123,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A1혹은 C1클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10402",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10401,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100001,
+			1100011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10402] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8124,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A2혹은 C2클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10403",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10402,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100002,
+			1100012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10403] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8125,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A3혹은 C3클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10404",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10403,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100003,
+			1100013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10404] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8126,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B1혹은 D1클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10405",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10404,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100004,
+			1100014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8127,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B2혹은 D2클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "[10406,10407]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10405,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100005,
+			1100015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8128,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B3혹은 D3클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100006,
+			1100016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8129,
+		type = 6,
+		name = "复刻『红染的参访者』-勋章",
+		count_inherit = 0,
+		desc = "D3<color=#92fc63> 클리어(훈장은 중복 획득 불가)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1040016,
+		id = 10407,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1100016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				112,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10408] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8130,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A1혹은 C1 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10409",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10408,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100001,
+			1100011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10409] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8131,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A2혹은 C2 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10410",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10409,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100002,
+			1100012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10410] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8132,
+		type = 6,
+		name = "复刻『红染的参访者』-前篇",
+		count_inherit = 0,
+		desc = "A3혹은 C3 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10411",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10410,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100003,
+			1100013
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				39240,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10411] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8133,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B1혹은 D1 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10412",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10411,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100004,
+			1100014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10412] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8134,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B2혹은 D2 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10413",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10412,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100005,
+			1100015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10413] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8135,
+		type = 6,
+		name = "复刻『红染的参访者』-后篇",
+		count_inherit = 0,
+		desc = "B3혹은 D3 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10413,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1100006,
+			1100016
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				38240,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[10414] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8136,
+		type = 36,
+		name = "复刻『红染的参访者』-日常建造",
+		count_inherit = 0,
+		desc = "함선 건조 3회",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10414,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59107,
+				200
+			}
+		}
+	},
+	[10415] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8137,
+		type = 36,
+		name = "复刻『红染的参访者』-日常出击",
+		count_inherit = 0,
+		desc = "함선을 출정시켜 15회 승리",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10415,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59107,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[10471] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -23952,6 +25038,966 @@ pg.task_data_template = {
 			{
 				4,
 				702011,
+				1
+			}
+		}
+	},
+	[13421] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8266,
+		type = 6,
+		name = "红染PT任务1",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13422",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13421,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				1
+			}
+		}
+	},
+	[13422] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8267,
+		type = 6,
+		name = "红染PT任务2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13423",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13422,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18011,
+				1
+			}
+		}
+	},
+	[13423] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8268,
+		type = 6,
+		name = "红染PT任务3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13424",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13423,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				2
+			}
+		}
+	},
+	[13424] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8269,
+		type = 6,
+		name = "红染PT任务4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13425",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13424,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				2
+			}
+		}
+	},
+	[13425] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8270,
+		type = 6,
+		name = "红染PT任务5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13426",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13425,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				2
+			}
+		}
+	},
+	[13426] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8271,
+		type = 6,
+		name = "红染PT任务6",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13427",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13426,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18011,
+				2
+			}
+		}
+	},
+	[13427] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8272,
+		type = 6,
+		name = "红染PT任务7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13428",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13427,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18011,
+				2
+			}
+		}
+	},
+	[13428] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8273,
+		type = 6,
+		name = "红染PT任务8",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13429",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13428,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				302111,
+				1
+			}
+		}
+	},
+	[13429] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8274,
+		type = 6,
+		name = "红染PT任务9",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13430",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13429,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				2
+			}
+		}
+	},
+	[13430] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8275,
+		type = 6,
+		name = "红染PT任务10",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13431",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13430,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13431] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8276,
+		type = 6,
+		name = "红染PT任务11",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13432",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13431,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13432] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8277,
+		type = 6,
+		name = "红染PT任务12",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13433",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13432,
+		target_num = 12500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[13433] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8278,
+		type = 6,
+		name = "红染PT任务13",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13434",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13433,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				302111,
+				1
+			}
+		}
+	},
+	[13434] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8279,
+		type = 6,
+		name = "红染PT任务14",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13435",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13434,
+		target_num = 17500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[13435] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8280,
+		type = 6,
+		name = "红染PT任务15",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13436",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13435,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13436] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8281,
+		type = 6,
+		name = "红染PT任务16",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13437",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13436,
+		target_num = 22500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
+	[13437] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8282,
+		type = 6,
+		name = "红染PT任务17",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13438",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13437,
+		target_num = 25000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				301091,
+				1
+			}
+		}
+	},
+	[13438] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8283,
+		type = 6,
+		name = "红染PT任务18",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13439",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13438,
+		target_num = 27500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13439] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8284,
+		type = 6,
+		name = "红染PT任务19",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13440",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13439,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13440] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8285,
+		type = 6,
+		name = "红染PT任务20",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13441",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13440,
+		target_num = 32500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13441] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8286,
+		type = 6,
+		name = "红染PT任务21",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13442",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13441,
+		target_num = 35000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[13442] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8287,
+		type = 6,
+		name = "红染PT任务22",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13443",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13442,
+		target_num = 37500,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[13443] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8288,
+		type = 6,
+		name = "红染PT任务23",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13444",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13443,
+		target_num = 40000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13444] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8289,
+		type = 6,
+		name = "红染PT任务24",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13445",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13444,
+		target_num = 45000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[13445] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8290,
+		type = 6,
+		name = "红染PT任务25",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13446",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13445,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[13446] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8291,
+		type = 6,
+		name = "红染PT任务26",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13447",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13446,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13447] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8292,
+		type = 6,
+		name = "红染PT任务27",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13448",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13447,
+		target_num = 70000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
+	[13448] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8293,
+		type = 6,
+		name = "红染PT任务28",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13449",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13448,
+		target_num = 80000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				302111,
+				1
+			}
+		}
+	},
+	[13449] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8294,
+		type = 6,
+		name = "红染PT任务29",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "13450",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13449,
+		target_num = 90000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				302111,
+				1
+			}
+		}
+	},
+	[13450] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8295,
+		type = 6,
+		name = "红染PT任务30",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 106,
+		id = 13450,
+		target_num = 100000,
+		fix_task = 0,
+		target_id = "106",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30035,
 				1
 			}
 		}
@@ -30905,7 +32951,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13763,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13760,
@@ -31037,7 +33083,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13767,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13764,
@@ -31169,7 +33215,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13771,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13768,
@@ -31301,7 +33347,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13775,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			13772,
@@ -31337,7 +33383,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 13776,
-		target_num = 1,
+		target_num = 4,
 		fix_task = 0,
 		target_id = {
 			13763,
@@ -45932,7 +47978,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14344,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14341,
@@ -46064,7 +48110,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14348,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14345,
@@ -46196,7 +48242,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14352,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14349,
@@ -46328,7 +48374,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14356,
-		target_num = 1,
+		target_num = 3,
 		fix_task = 0,
 		target_id = {
 			14353,
@@ -46364,7 +48410,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14357,
-		target_num = 1,
+		target_num = 4,
 		fix_task = 0,
 		target_id = {
 			14344,
@@ -50474,7 +52520,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14581,
-		target_num = 1,
+		target_num = 6,
 		fix_task = 0,
 		target_id = {
 			14583,
@@ -50513,7 +52559,7 @@ pg.task_data_template = {
 		story_id = "",
 		target_id_for_client = 0,
 		id = 14582,
-		target_num = 1,
+		target_num = 47,
 		fix_task = 0,
 		target_id = {
 			14589,
@@ -52005,6 +54051,582 @@ pg.task_data_template = {
 			{
 				14,
 				201,
+				1
+			}
+		}
+	},
+	[14757] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91316,
+		type = 26,
+		name = "『标枪漫画』九日任务1",
+		count_inherit = 0,
+		desc = "함선을 출전시켜 S 등급으로 클리어 10회하기",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14757,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14758] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91317,
+		type = 26,
+		name = "『标枪漫画』九日任务2",
+		count_inherit = 0,
+		desc = "게임 로그인",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14758,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59831,
+				1
+			}
+		}
+	},
+	[14759] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91318,
+		type = 26,
+		name = "『标枪漫画』九日任务3",
+		count_inherit = 0,
+		desc = "연습전 2회 진행",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14759,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14760] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91319,
+		type = 26,
+		name = "『标枪漫画』九日任务4",
+		count_inherit = 0,
+		desc = "군사 의뢰 2회 완성",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14760,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59832,
+				1
+			}
+		}
+	},
+	[14761] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91320,
+		type = 26,
+		name = "『标枪漫画』九日任务5",
+		count_inherit = 0,
+		desc = "함선 퇴역 2회 진행",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14761,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14762] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91321,
+		type = 26,
+		name = "『标枪漫画』九日任务6",
+		count_inherit = 0,
+		desc = "데일리 3회 완성",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14762,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59833,
+				1
+			}
+		}
+	},
+	[14763] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91322,
+		type = 26,
+		name = "『标枪漫画』九日任务7",
+		count_inherit = 0,
+		desc = "함선 강화 5회",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14763,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14764] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91323,
+		type = 26,
+		name = "『标枪漫画』九日任务8",
+		count_inherit = 0,
+		desc = "전술 훈련 2회 진행",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14764,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59834,
+				1
+			}
+		}
+	},
+	[14765] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91324,
+		type = 26,
+		name = "『标枪漫画』九日任务9",
+		count_inherit = 0,
+		desc = "임의의 적함 20척 격침",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14765,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14766] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91325,
+		type = 26,
+		name = "『标枪漫画』九日任务10",
+		count_inherit = 0,
+		desc = "식량 5회 보충",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14766,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59835,
+				1
+			}
+		}
+	},
+	[14767] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91326,
+		type = 26,
+		name = "『标枪漫画』九日任务11",
+		count_inherit = 0,
+		desc = "함선 건조 2회",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14767,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14768] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91327,
+		type = 26,
+		name = "『标枪漫画』九日任务12",
+		count_inherit = 0,
+		desc = "임의의 장비상자 1개 오픈",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14768,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59836,
+				1
+			}
+		}
+	},
+	[14769] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91328,
+		type = 26,
+		name = "『标枪漫画』九日任务13",
+		count_inherit = 0,
+		desc = "전술 훈련 2회 진행",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14769,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14770] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91329,
+		type = 26,
+		name = "『标枪漫画』九日任务14",
+		count_inherit = 0,
+		desc = "기함 3회 격침",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14770,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59837,
+				1
+			}
+		}
+	},
+	[14771] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91330,
+		type = 26,
+		name = "『标枪漫画』九日任务15",
+		count_inherit = 0,
+		desc = "함선을 출정시켜 S 등급으로 클리어 10회",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14771,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14772] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91331,
+		type = 26,
+		name = "『标枪漫画』九日任务16",
+		count_inherit = 0,
+		desc = "군사 의뢰 2회 완성",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14772,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59838,
+				1
+			}
+		}
+	},
+	[14773] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91332,
+		type = 26,
+		name = "『标枪漫画』九日任务17",
+		count_inherit = 0,
+		desc = "함선 퇴역 2회 진행",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14773,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[14774] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91333,
+		type = 26,
+		name = "『标枪漫画』九日任务18",
+		count_inherit = 0,
+		desc = "데일리 3회 완성",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14774,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59839,
 				1
 			}
 		}
@@ -58176,6 +60798,20 @@ pg.task_data_template = {
 		5042,
 		5043,
 		5044,
+		5051,
+		5052,
+		5053,
+		5054,
+		5055,
+		5056,
+		5057,
+		5061,
+		5062,
+		5063,
+		5064,
+		5065,
+		5066,
+		5067,
 		5121,
 		5122,
 		5123,
@@ -58559,6 +61195,21 @@ pg.task_data_template = {
 		10300,
 		10301,
 		10302,
+		10401,
+		10402,
+		10403,
+		10404,
+		10405,
+		10406,
+		10407,
+		10408,
+		10409,
+		10410,
+		10411,
+		10412,
+		10413,
+		10414,
+		10415,
 		10471,
 		10472,
 		10473,
@@ -58625,6 +61276,36 @@ pg.task_data_template = {
 		10546,
 		10547,
 		10548,
+		13421,
+		13422,
+		13423,
+		13424,
+		13425,
+		13426,
+		13427,
+		13428,
+		13429,
+		13430,
+		13431,
+		13432,
+		13433,
+		13434,
+		13435,
+		13436,
+		13437,
+		13438,
+		13439,
+		13440,
+		13441,
+		13442,
+		13443,
+		13444,
+		13445,
+		13446,
+		13447,
+		13448,
+		13449,
+		13450,
 		13497,
 		13498,
 		13499,
@@ -59418,6 +62099,24 @@ pg.task_data_template = {
 		14657,
 		14658,
 		14670,
+		14757,
+		14758,
+		14759,
+		14760,
+		14761,
+		14762,
+		14763,
+		14764,
+		14765,
+		14766,
+		14767,
+		14768,
+		14769,
+		14770,
+		14771,
+		14772,
+		14773,
+		14774,
 		30201,
 		30202,
 		30203,

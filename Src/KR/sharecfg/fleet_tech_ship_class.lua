@@ -931,6 +931,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 74,
 		nation = 3,
 		ships = {
+			30116,
 			30117,
 			30118,
 			30120,
@@ -1055,6 +1056,17 @@ pg.fleet_tech_ship_class = {
 			30204,
 			30205,
 			30209
+		}
+	},
+	[30203] = {
+		shiptype = 2,
+		name = "모가미급",
+		t_level = 7,
+		id = 30203,
+		t_level_1 = 83,
+		nation = 3,
+		ships = {
+			30210
 		}
 	},
 	[30204] = {
@@ -1808,6 +1820,7 @@ pg.fleet_tech_ship_class = {
 		30112,
 		30201,
 		30202,
+		30203,
 		30204,
 		30205,
 		30301,

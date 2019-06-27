@@ -151,9 +151,6 @@ function slot0.isAnyChapterUnlocked(slot0)
 	end)
 end
 
-slot0.SINGLE_MAP = 1
-slot0.MUTIL_MAP = 2
-
 function slot0.isActivity(slot0)
 	return slot0:getConfig("type") == Map.EVENT or slot1 == Map.ACTIVITY_HARD or slot1 == Map.ACTIVITY_EASY or slot1 == Map.ACT_EXTRA
 end

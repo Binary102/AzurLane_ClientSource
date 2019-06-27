@@ -1,14 +1,9 @@
 class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	for slot6, slot7 in ipairs(slot2) do
-		print(slot7.id)
-	end
-
 	slot3 = {}
 	slot4 = getProxy(TaskProxy)
 
 	for slot8, slot9 in ipairs(slot2) do
-		print("提交的任务id:" .. slot9.id)
-
+		slot10 = slot9.id
 		slot11 = {}
 
 		if slot9.choice_award then
@@ -32,8 +27,6 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 			choice_award = slot11
 		}, 20006, function (slot0)
 			if slot0.result == 0 then
-				print("提交成功返回一次")
-
 				if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
 					getProxy(BagProxy):removeItemById(tonumber(slot1), tonumber(slot0:getConfig("target_num")))
 				elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
@@ -48,11 +41,7 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 					slot3:updatePlayer(slot4)
 				end
 
-				for slot5, slot6 in ipairs(slot1) do
-					print("拿到的奖励id:" .. slot6.id)
-				end
-
-				for slot5 = #slot1, 1, -1 do
+				for slot5 = #PlayerConst.tranOwnShipSkin(slot0.award_list), 1, -1 do
 					slot1[#slot1 + 1] = slot1[slot5]
 
 					if slot1[slot5].type ~= DROP_TYPE_SHIP then
@@ -67,7 +56,6 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 						end
 
 						table.remove(slot1, slot5)
-						print("不显示的奖励id:" .. slot6.id)
 					end
 				end
 
@@ -84,10 +72,6 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 				end
 
 				if slot4 == #slot5 then
-					for slot7, slot8 in ipairs(slot1) do
-						print("显示的奖励" .. slot8.id)
-					end
-
 					slot2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1)
 				end
 			else

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>六　{namecode:22}和游乐园·下</size>",
+					"나는 {namecode:22}님이다!\n\n<size=45>6 {namecode:22}와의 놀이공원·하</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "游乐园・摩天轮",
+			say = "놀이공원・관람차",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指挥官……谢谢……",
+			say = "지휘관...고마워...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "一开始还逞强的{namecode:22}在去了鬼屋之后一下变得软弱起来……",
+			say = "처음에는 지기 싫어하던 {namecode:22}가 귀신의 집에 갔다온 후로 기운이 없어졌다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指、指挥官没什么好道歉的！",
+			say = "지, 지휘관이 잘못한거 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "其、其实在进鬼屋之前也很害怕…但是指挥官想说去的话怎么好拒绝啊……",
+			say = "사, 사실 귀신의 집에 들어가기 전부터 무서웠는데...지휘관이 가고 싶다고 하니까 거절하기가...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "才、才没有逞强！才没有呢……",
+			say = "자, 잘난 척 한 적 없어! 절대 그런거 아니야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			},
 			options = {
 				{
-					content = "说起来，{namecode:22}平时也都不拒绝别人的拜托呢"
+					content = "그러고 보니 {namecode:22}는 평소에도 다른 사람의 부탁을 잘 거절하지 못했다."
 				}
 			}
 		},
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "平时也有在逞强？",
+			say = "평소에도 깔본 것 아니냐고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "才不是呢！那是………………",
+			say = "절대 그런 거 아니야! 그건...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "是大家都来拜托{namecode:22}，所以{namecode:22}才给大家帮忙的！",
+			say = "다들 {namecode:22}한테 와서 부탁을 하니까,{namecode:22}는 도와준 것 뿐인 걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "才、才不是为了和大家搞好关系才……",
+			say = "저, 절대 모두랑 사이좋게 지내고 싶어서...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,11 +208,11 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍头",
+					content = "머리 토닥이기",
 					flag = 1
 				},
 				{
-					content = "摸摸头",
+					content = "머리 쓰다듬기",
 					flag = 2
 				}
 			}
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "诶嘿嘿……嘿嘿……",
+			say = "에헤헷...헤헤...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "嗯……下次不逞强了，听指挥官的……",
+			say = "응...다음부터는 잘난 척 안하고 지휘관 말 잘 들을게...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "……哈！{namecode:22}大人刚才说了什么……",
+			say = "...하! 이 {namecode:22}님이 방금 뭐라고 한거야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "忘、忘掉刚才说的话！…我才没说那种话！没有说啊啊啊啊！",
+			say = "바, 방금 한 말은 잊어버려!...그런 말 한 적 없거든! 말한 적 없다고오오오!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

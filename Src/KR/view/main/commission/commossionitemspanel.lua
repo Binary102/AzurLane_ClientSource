@@ -148,11 +148,7 @@ function slot0.updateClassItems(slot0, slot1, slot2)
 					slot10 = slot2:Find("unlock/finished/shipicon")
 				end
 
-				updateDrop(slot10, {
-					type = DROP_TYPE_SHIP,
-					id = slot9:getConfig("id"),
-					skinId = slot9.skinId
-				})
+				updateShip(slot10, slot9)
 			else
 				slot5.sizeDelta = Vector2(400, 45)
 

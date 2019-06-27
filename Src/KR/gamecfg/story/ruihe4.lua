@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=45>四  {namecode:96}与大前辈</size>",
+					"행운의 학\n\n<size=45>4 {namecode:96}와 대선배</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "傍晚·演习海域",
+			say = "저녁·훈련 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "很好！就照这样子攻过来！",
+			say = "좋아! 그 텐션으로 와봐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "好的！",
+			say = "네!",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}的舰载机投下的模拟弹漂亮地击中了{namecode:82}",
+			say = "{namecode:96}의 함재기가 모의탄을 투하시켜 깔끔하게 {namecode:82}를 명중시켰다.",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "好疼！",
+			say = "아얏!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			}
 		},
 		{
-			say = "赢了！……啊！{namecode:82}前辈！没事吧！",
+			say = "이겼다!...앗! {namecode:82}선배! 괜찮으세요?",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			actorName = "{namecode:96}",
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "没、没事…漂亮的轰炸！比刚开始训练时进步了不少啊！",
+			say = "괘, 괜찮아...정말 완벽한 폭격이었어! 훈련 초기보다 많이 늘었는걸?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "非常感谢！…指挥官觉得刚才我的表现怎么样！",
+			say = "감사합니다! 지휘관, 방금 나 어땠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "…啊哈哈哈，不用这么夸我啦～！好！这下就离那个“灰色幽灵”更近一步了！",
+			say = "아하하...너무 비행기 태우지 마~! 좋아! 그 \"회색 유령\"에서 한 발자국 더 멀어졌다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "……下次出击请让我和“灰色幽灵”一起！我绝对会拿下MVP的！",
+			say = "...다음 출격시에는 저랑 \"회색 유령\"을 같이 보내주세요! 무조건 MVP가 되어 보이겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "{namecode:96}一边笑着一边把航向转向了港区",
+			say = "{namecode:96}는 웃으면서 항구를 향해 항해해 갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actorName = "{namecode:82}",
 			actor = 305110,
 			nameColor = "#92fc63",
-			say = "指挥官，能说句话不",
+			say = "지휘관, 잠깐 이야기 좀 할까?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "虽然{namecode:96}平时那样，其实她是会不断给自己加担子的类型——换句话说，就是会不断逼自己走牛角尖的性格",
+			say = "{namecode:96}가 평소엔 저래도 심적으로 부담을 많이 느끼는 녀석이야. 다시 말해 자신을 끊임없이 궁지로 내모는 타입이지",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "不只是超越灰色幽灵这件事，对{namecode:95}和重樱的同胞、港区的同伴们、人类的世界、甚至还有指挥官你——都想要独自背负",
+			say = "회색 유령을 뛰어넘는 것 말고도 {namecode:95}와 사쿠라 엠파이어의 가족들, 항구의 동료들, 인류의 세계, 심지어 지휘관까지 다 혼자 짊어지려고 하고 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "指挥官，作为那孩子的前辈…我有个请求，不是作为您的部下，仅仅是个人的请求",
+			say = "지휘관, 저 아이의 선배로서...부탁이 있어. 네 부하가 아니라 개인 대 개인으로서의 부탁이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			actorName = "{namecode:82}",
-			say = "如果有一天，那孩子被责任所压垮，撑不住了的话……希望指挥官能在她身边，与她一起支撑下去",
+			say = "만약 저 아이가 책임에 짓눌려서 스스로 제어를 할 수 없게 되면...지휘관이 곁에서 지탱해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			blackBg = true,
 			actor = 305110,
 			nameColor = "#92fc63",
-			say = "……呵呵，你的回答，我会记着的。{namecode:96}就拜托你了啊",
+			say = "후훗...그 대답 기억해 두겠어. {namecode:96}를 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

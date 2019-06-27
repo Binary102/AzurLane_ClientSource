@@ -6753,6 +6753,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[166] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 166,
+		type = 1,
+		index_id = 195,
+		group_type = 30116,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 홍염의 방문자",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[316] = {
 		nationality = 3,
 		hide = 0,
@@ -7203,6 +7226,61 @@ pg.ship_data_group = {
 		description = {
 			{
 				"한정 이벤트 : 청홍의 메아리",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[188] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 302109,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 188,
+		type = 2,
+		index_id = 212,
+		group_type = 30210,
+		trans_type = 3,
+		trans_radar_chart = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			11220
+		},
+		description = {
+			{
+				"이벤트 : 홍염의 방문자",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[189] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 189,
+		type = 2,
+		index_id = 213,
+		group_type = 30211,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 홍염의 방문자",
 				{
 					""
 				},
@@ -9471,7 +9549,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 347,
 		type = 1,
-		index_id = 299,
+		index_id = 300,
 		group_type = 80101,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9494,9 +9572,9 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 349,
 		type = 2,
-		index_id = 300,
+		index_id = 301,
 		group_type = 80201,
-		trans_type = 0,
+		trans_type = 2,
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -9517,7 +9595,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 350,
 		type = 8,
-		index_id = 301,
+		index_id = 302,
 		group_type = 80801,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9540,7 +9618,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 351,
 		type = 1,
-		index_id = 302,
+		index_id = 303,
 		group_type = 90101,
 		trans_type = 1,
 		trans_radar_chart = {
@@ -9572,7 +9650,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 352,
 		type = 4,
-		index_id = 303,
+		index_id = 305,
 		group_type = 90401,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -9595,7 +9673,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		code = 353,
 		type = 5,
-		index_id = 304,
+		index_id = 306,
 		group_type = 90501,
 		trans_type = 0,
 		trans_radar_chart = {},
@@ -10524,6 +10602,7 @@ pg.ship_data_group = {
 		168,
 		177,
 		178,
+		166,
 		316,
 		317,
 		318,
@@ -10540,6 +10619,8 @@ pg.ship_data_group = {
 		308,
 		309,
 		310,
+		188,
+		189,
 		321,
 		190,
 		191,

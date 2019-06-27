@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>七　一如既往？的{namecode:22}大人</size>",
+					"나는 {namecode:22}님이다!\n\n<size=45>7 평소와 같은? {namecode:22}님</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在那之后，某一天的港区——",
+			say = "그 후 어느 날, 항구",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！秘书舰{namecode:22}大人今天也来报告啦！",
+			say = "아~하하하! 비서함 {namecode:22}님이 보고를 하러 왔다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！没有{namecode:22}大人工作也没法做了吧！",
+			say = "흥! {namecode:22}님이 없으면 일이 안되지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			},
 			options = {
 				{
-					content = "说起来{namecode:22}昨天晚上也工作到很晚呢…"
+					content = "그러고 보니 {namecode:22}어젯밤에도 늦게까지 일을 했는데..."
 				}
 			}
 		},
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！看来指挥官终于也了解到有{namecode:22}大人在身边有多好了吧！",
+			say = "흥! 드디어 지휘관이 이 {namecode:22}님이 얼마나 유능한 인재인지 안 것 같네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "看指挥官你这么识时务，{namecode:22}大人就再稍稍微努力一点好了！",
+			say = "지휘관이라는 통찰력와 순발력이 필요한 일은 이 namecode:22}님이 조금 더 분발해 주겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "好啦，再来多夸一下{namecode:22}大人吧！",
+			say = "자, 좀 더 이 {namecode:22}님을 칭찬해 봐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,11 +133,11 @@ return {
 			},
 			options = {
 				{
-					content = "拍拍头",
+					content = "머리 토닥이기",
 					flag = 1
 				},
 				{
-					content = "摸摸头",
+					content = "머리 쓰다듬기",
 					flag = 2
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "诶嘿嘿……蹭蹭……",
+			say = "에헤헷...꼼지락...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actorName = "{namecode:143}",
 			actor = 301600,
 			nameColor = "#92fc63",
-			say = "{namecode:142}！{namecode:143}也想让指挥官摸摸头！",
+			say = "{namecode:142}! 지휘관님이 {namecode:143}도 머리 쓰다듬어 주시면 좋겠다!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -214,7 +214,7 @@ return {
 			}
 		},
 		{
-			say = "我也…啊！给我看看气氛啦！现在{namecode:22}是秘书舰啊！",
+			say = "나도...아! 분위기 파악해야지! 지금 {namecode:22}는 비서함이니까!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 301610,
 			actorName = "{namecode:128}",
-			say = "完、完全沦陷了呢…",
+			say = "와, 완전 침몰했어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 301620,
 			actorName = "{namecode:127}",
-			say = "{namecode:22}酱……太好了……",
+			say = "{namecode:22}...다행이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "指挥官～再蹭蹭尾巴也是可以的哦♪",
+			say = "지휘관~더 쓰다듬어도 된다구~♪",
 			flashout = {
 				dur = 1,
 				black = true,

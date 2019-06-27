@@ -13,7 +13,6 @@ math.randomseed(os.time())
 CSharpVersion = NetConst.GatewayState
 
 print("C# Ver. " .. CSharpVersion)
-print("test")
 
 PLATFORM = LuaHelper.GetPlatformInt()
 CHANNEL_NAME = LuaHelper.GetSDKChannelName()
@@ -331,6 +330,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.ToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SecondaryPWDMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>三　VS{namecode:17}！？</size>",
+					"나는 {namecode:22}님이다!\n\n<size=45>3 VS{namecode:17}!?</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 301150,
 			nameColor = "#92fc63",
-			say = "本大人在后宅捡到家具币了！还不跪谢！",
+			say = "이 몸이 뒤뜰에서 가구 코인을 주웠다고! 감사하지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "我在后宅捡到家具币了呦，笨蛋指挥官♪",
+			say = "나 뒤뜰에서 가구 코인을 주웠어. 지휘관 바보~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#92fc63",
-			say = "什么啊！为什么{namecode:22}也在这里啊！",
+			say = "뭐야! 왜 {namecode:22}가 여기 있는거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			say = "怎么回事！为什么这家伙会比作为秘书舰的{namecode:22}大人先报告！",
+			say = "이게 무슨 상황이야! 왜 이 녀석이 비서함인 이 {namecode:22}님보다 먼저 보고를 하는거야!",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#92fc63",
-			say = "可恶，没想到{namecode:22}这个笨蛋在……",
+			say = "젠장, {namecode:22}저 바보가 있을 줄이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			say = "呃呃呃…居然{namecode:17}这家伙会出现……",
+			say = "에에엑...{namecode:17}녀석이 나타날 줄이야...",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:17}",
-			say = "忍不下去了！{namecode:22}！一决胜负吧！",
+			say = "못참아! {namecode:22}! 승패를 가르자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "啊哈哈哈！连一次都没有赢过本大人的家伙居然说要一决胜负！哼！尽管放马过来吧！",
+			say = "아하하! 한 번도 이 몸에 이겨본 적이 없는 녀석이 승패라니! 흥! 덤벼보던가!",
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "时、{namecode:17}酱，不要吵架啦……",
+			say = "시구레, {namecode:17}, 싸우지 마...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			say = "这不是挺好的嘛！我家的年轻人也很精神呢！",
+			say = "왜~좋구먼! 우리 젊은이들은 혈기가 넘치네!",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "{namecode:19}、{namecode:19}和{namecode:24}你们也来劝劝啊……",
+			say = "{namecode:19}, {namecode:19}, {namecode:24} 너희들도 좀 말려봐...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 301170,
 			actorName = "{namecode:19}",
-			say = "哈哈哈！你看指挥官不也在看戏嘛！",
+			say = "하하하! 지휘관도 나서지 않는데 왜!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actorName = "{namecode:17}",
 			actor = 301150,
 			nameColor = "#92fc63",
-			say = "哈…哈…没想到这家伙这么厉害……说你光运气好是错怪你了呢……",
+			say = "하...하...이 녀석이 이렇게 강할 줄이야...오늘 네 놈의 운이 좋은 건지 내가 너무 얕본 건지...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -467,7 +467,7 @@ return {
 			}
 		},
 		{
-			say = "还、还没完呢！{namecode:24}！快拿秘制冷却水过来！",
+			say = "아, 아직 안끝났다고! {namecode:24}! 특제 쿨타임 물약을 가져와!",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
@@ -494,7 +494,7 @@ return {
 			dir = 1,
 			actor = 301200,
 			actorName = "{namecode:24}",
-			say = "……Zzzzzzz",
+			say = "...Zzzzzzz",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			}
 		},
 		{
-			say = "原来如此！这就是所谓的「不共戴天」吧！",
+			say = "아하! 이게 바로 그 「불구대천」이구나!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
@@ -533,7 +533,7 @@ return {
 			blackBg = true,
 			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "但是为什么抽个签就能弄到这么累呢？{namecode:14}酱不明白……",
+			say = "그런데 뽑기 좀 했다고 왜 이렇게 피곤한 건지 {namecode:14}는 모르겠어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

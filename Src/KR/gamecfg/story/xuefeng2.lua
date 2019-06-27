@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>二　天才{namecode:22}大人</size>",
+					"나는 {namecode:22}님이다! \n\n<size=45>1 천재 {namecode:22}님</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！任用本大人做秘书舰，眼光不错嘛♪",
+			say = "아하하하~! 이 몸을 비서함으로 임용하다니, 안목 꽤나 있는 걸?♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼，想必你也听说过{namecode:22}大人在的活跃事迹了吧！",
+			say = "흥, 이 {namecode:22}님의 활약에 대해서는 들어 봤겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			},
 			options = {
 				{
-					content = "回想{namecode:22}来港区这些天",
+					content = "{namecode:22}가 항구로 온 날 회상",
 					flag = 1
 				}
 			}
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#92fc63",
-			say = "Z23酱～这个问题怎么回答啊……",
+			say = "Z23~이 문제 답 모르겠어...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "所以说上课要认真听讲啊……我看看……呃，这……",
+			say = "그러니까 수업 시간에 집중 하라고 했잖아...어디 봐...엑, 이...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！这么简单的问题都回答不出来吗？看本大人一下子就给你解决掉！",
+			say = "흥! 이렇게 쉬운 문제도 못 풀어? 이 몸이 눈 깜짝할 새에 풀어주지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actorName = "{namecode:67}",
 			actor = 303120,
 			nameColor = "#92fc63",
-			say = "这个舰装放在膝盖上很容易看不见整备的地方呢……小{namecode:22}，能帮帮忙吗？",
+			say = "이 의장은 무릎 위에 두고 수리하면 수리 할 곳이 잘 안보여...{namecode:22}, 나 좀 도와줄래?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "嗯？嗯嗯？？（砸）",
+			say = "응? 응응?(퍽)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = -1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "什么！？居然这么简单就修好了！？……在下的面子要往哪放……",
+			say = "뭐!? 그렇게 쉽게 수리가 가능하다고!?...아이고 내 체면...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			}
 		},
 		{
-			say = "哼！小事一桩！还有，不是小{namecode:22}，是{namecode:22}大人啦！！",
+			say = "흥! 별 것도 아닌 일로! 그리고, {namecode:22}가 아니라{namecode:22}님이라고!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
@@ -273,7 +273,7 @@ return {
 			actorName = "{namecode:98}",
 			actor = 312010,
 			nameColor = "#92fc63",
-			say = "{namecode:22}来了真是帮大忙了～之前丢的素材都找到了喵～",
+			say = "{namecode:22}가 와서 정말 많은 도움이 됐다냥~잃어버린 재료도 다 찾았고~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -301,7 +301,7 @@ return {
 			}
 		},
 		{
-			say = "哼、哼！没有什么问题可以难倒我{namecode:22}大人啦！（素材就是在这边散步的时候随随便便捡到的……）",
+			say = "흐, 흥! 아무것도 이 {namecode:22}님의 앞길을 막을 수는 없지! (재료는 산책 하다가 몇 개 주운건데...)",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
@@ -336,7 +336,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "哼哼，了解到{namecode:22}大人的厉害了吗！今后尽管依赖本大人啦！",
+			say = "흥, 이 {namecode:22}님이 얼마나 대단한지 알았겠지! 이제부터 얼마든지 이 몸에게 의지해도 좋아!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -387,7 +387,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "“先去给我倒杯茶”……！？什么啊！你居然要{namecode:22}大人干这种跑腿的事吗――！",
+			say = "“일단 차 한잔 따라줘”!?뭐? 감히 이 {namecode:22}님을 심부름 꾼을 만들다니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

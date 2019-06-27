@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"幸运之鹤\n\n<size=45>六  深夜的插曲</size>",
+					"행운의 학\n\n<size=45>6 깊은 밤의 간주곡</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "指挥室·深夜",
+			say = "지휘실·심야",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "哈啊……今天事情真多啊……平常这个点指挥官都该睡觉了……",
+			say = "하아...오늘 일이 너무 많아...평소대로면 지휘관도 지금은 이미 잤을 시간인데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "久违地工作到了深夜",
+			say = "오랜만에 늦은 밤까지 일을 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "嗯…已经这么晚了，指挥官要不要吃点东西？",
+			say = "음...벌써 시간이 이렇게 됐네, 지휘관 뭔가 좀 먹을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，这种事要在说之前先做比较好吧？",
+			say = "아이, 그건 물어보고 말고 할 것도 없지!",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "{namecode:95}姐？！",
+			say = "{namecode:95}언니?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "想说怎么这么晚了还没回宿舍，原来还在工作啊……",
+			say = "이 늦은 시간까지 왜 숙소에 안돌아오나 했더니, 아직 일하는 중이었구나...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "工作过度对身体可不好哦？“先手必胜～”♡",
+			say = "일을 너무 많이 하면 건강에 좋지 않아, \"먼저 움직이는 사람이 임자~\"♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "{namecode:95}带着艳丽的笑容，抢在{namecode:96}之前拿出了小面包和瓶子放到了桌上",
+			say = "{namecode:95}는 아름다운 웃음을 지으며 {namecode:96}보다 먼저 작은 빵과 병을 책상 위에 내려놓았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "我、我正要准备的说……话说这是、酒？",
+			say = "나, 나도 말하려고 했...그런데 이건... 술이잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			}
 		},
 		{
-			say = "没错～♪辛苦工作了一天，就用酒来放松放松也好呢～另外，也算是上次指挥官你灌我酒的时候的“回礼”呦～",
+			say = "맞아~♪하루 동안 일하느라 고생했으니 술 한잔하고 릴랙스 하는 것도 좋지~ 그리고, 저번에 저한테 억지로 술 먹였던 지휘관님께 드리는 \"보답\"이에요~",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			actorName = "{namecode:95}",
-			say = "上次我喝醉的时候……哎呀，这事还没跟{namecode:96}说过吧……？",
+			say = "저번에 내가 취했을 때...아, 그 일은 아직 {namecode:96}한테 말하지 않았던 것 같은데...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "一点印象也没有……",
+			say = "전혀 기억이 없어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,24 +225,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "（果然在我不知道的地方{namecode:95}和指挥官有各种各样的……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_night",
-			dir = 1,
-			actor = 307060,
-			actorName = "{namecode:96}",
-			say = "（也是…{namecode:95}姐那么漂亮…又沉稳…就算战斗力差不多，作为秘书舰又比我做的好…呜呜果然我还是……）",
+			say = "(역시 {namecode:95}언니와 지휘관 사이에는 내가 모르는 많은 일들이...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +242,24 @@ return {
 			dir = 1,
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "…那…我这些就放回冷藏库了……",
+			say = "(하긴...{namecode:95}언니는 저렇게 예쁘고...침착한 데다...전투력도 좋은 편이니, 비서함으로서도 나보다 낫겠지...흑...역시 나는...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_night",
+			dir = 1,
+			actor = 307060,
+			actorName = "{namecode:96}",
+			say = "...그럼...이건 냉장고에 다시 넣어야겠어...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actorName = "{namecode:95}",
 			actor = 307050,
 			nameColor = "#92fc63",
-			say = "…是不是玩笑有点开过头了呢？",
+			say = "너무 많이 놀렸나...?",
 			flashout = {
 				dur = 0.5,
 				black = true,

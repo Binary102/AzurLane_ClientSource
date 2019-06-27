@@ -42,7 +42,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	getProxy(DailyLevelProxy):clearChaptersDefeatCount()
 
-	if os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime()).day == 1 and not ChapterConst.ActivateMirror then
+	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 and not ChapterConst.ActivateMirror then
 		slot11:getShamChapter().simId = slot13.month
 
 		slot11:updateShamChapter(slot15)
@@ -118,7 +118,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot22:updateActivity(slot25)
 	end
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) or not slot26:isEnd() then
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot26:isEnd() then
 		slot0:sendNotification(GAME.CHALLENGE2_INFO, {})
 	end
 end

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>四　{namecode:22}粉丝团？</size>",
+					"나는 {namecode:22}님이다!\n\n<size=45>4 {namecode:22}팬클럽?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "你知道吗？蹭蹭{namecode:22}的尾巴据说就能提升运气呢！",
+			say = "{namecode:22}의 꼬리를 쓰다듬으면 운이 좋아진대!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
-			say = "好棒！不愧是幸运舰！我下次也去拜托{namecode:22}试试…",
+			say = "와! 역시 행운의 전함이네! 다음번에 가서 {namecode:22}에 대고 빌어봐야지...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#92fc63",
-			say = "哼，本大人在港区可是超人气的！",
+			say = "흥, 이 몸은 항구에서 인기가 장난이 아니라고!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指挥官只要你对{namecode:22}摇摇尾巴，{namecode:22}的尾巴也会给你摸两下的哟――嗯！？",
+			say = "지휘관이 {namecode:22}에게 꼬리를 흔들면 {namecode:22}의 꼬리도 쓰다듬게 해줄 수도 있다고~응!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哒哒哒（脚步声）――",
+			say = "다다닷(발소리)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "有了有了！{namecode:22}酱在这里！",
+			say = "찾았다! 여기 {namecode:22}가 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢反击！有了{namecode:22}酱，这回一定要让姐姐力更强大——",
+			say = "리펄스 고마워! {namecode:22}가 있으면 이번에는 언니력이 더...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "姐姐她听说圣地亚哥的运气很好所以……{namecode:22}酱，对不起……！",
+			say = "언니가 샌디에이고는 운이 좋다고 했거든...그러니까... {namecode:22}, 미안해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
-			say = "{namecode:34}…也想要运气……",
+			say = "{namecode:34} 도 행운이 필요해...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哼哼哼，东方之国的冰风暴<SnowFrost>呦！把你的好运<RealLuck>贡献给我吧！",
+			say = ", 동양의 나라의 얼음 폭풍 <SnowFrost>이여! 네 행운<RealLuck>을 나에게 바쳐라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "啊哈哈哈！也算我一个！",
+			say = "아하하하! 나도 껴야지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 205060,
 			nameColor = "#92fc63",
-			say = "好啦好啦，大家排队",
+			say = "자자, 다들 줄을 서세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "这是…什么情况…",
+					content = "이건...무슨 상황이지...",
 					flag = 1
 				}
 			}
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！不、不过是蹭蹭尾巴毛罢了，本大人就满足你们——！",
+			say = "흥! 하지만, 꼬리를 쓰다듬는 것 뿐이니까, 이 몸이 아량을 베풀어 주지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actorName = "{namecode:78}",
 			actor = 305010,
 			nameColor = "#92fc63",
-			say = "{namecode:22}酱果然是超人气呢……不过那样也很辛苦吧……",
+			say = "역시 {namecode:22}는 인기가 많네요...하지만 피곤할 것 같아요...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			say = "殿下知道吗？{namecode:22}酱她只要拜托一下什么都会做哦？",
+			say = "전하, 모르시나요? {namecode:22}는 부탁하면 뭐든 해준답니다.",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
@@ -330,7 +330,7 @@ return {
 			},
 			options = {
 				{
-					content = "这不就是老好人吗……",
+					content = "그건 그냥 엄청 착한 사람인게...",
 					flag = 1
 				}
 			}
@@ -343,7 +343,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好、好像是呢……啊哈哈哈……",
+			say = "아, 아마도요...아하하하...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

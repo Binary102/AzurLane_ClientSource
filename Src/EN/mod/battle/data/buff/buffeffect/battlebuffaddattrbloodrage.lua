@@ -16,6 +16,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._attr = slot0._tempData.arg_list.attr
 	slot0._threshold = slot0._tempData.arg_list.threshold
 	slot0._value = slot0._tempData.arg_list.value
+	slot0._attrBound = slot0._tempData.arg_list.attrBound
 	slot0._number = 0
 end
 
@@ -24,6 +25,10 @@ function slot1.UpdateAttr(slot0, slot1)
 		slot0._number = 0
 	else
 		slot0._number = (slot0._threshold - slot2) / slot0._value
+
+		if slot0._attrBound then
+			slot0._number = math.min(slot0._number, slot0._attrBound)
+		end
 	end
 
 	slot0.super.UpdateAttr(slot0, slot1)

@@ -47,7 +47,7 @@ function slot2(slot0)
 		Update = function (slot0, slot1)
 			slot0.uiList:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
-					LoadImageSpriteAsync("medal/" .. Trophy.New({
+					LoadImageSpriteAsync("medal/s_" .. Trophy.New({
 						id = slot0[slot1 + 1]
 					}).getConfig(slot4, "icon"), findTF(slot2, "icon"), true)
 				end

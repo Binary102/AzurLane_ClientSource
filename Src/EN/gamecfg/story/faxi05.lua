@@ -12,7 +12,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "喂，你说，我们是为了对抗帝国的维内托级才被人类给制造出来的吧？",
+			say = "So, you're saying that humanity created us in order to counter the Veneto-class?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？...从根本目的上来说确实是这样",
+			say = "Hm? Well, that's certainly true on paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "那么说白了，我们只是一堆冰冷的用来制造死亡的兵器罢了",
+			say = "If that is the case, then we were made to be nothing more than instruments of death.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,22 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "不是这样的，我的妹妹",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "???",
-			side = 1,
-			dir = 1,
-			blackBg = true,
-			say = "在每一个时代，人类都需要英雄和信仰，失去这些的话他们也许就无法生存了也说不定",
+			say = "I wouldn't say that. See, no matter what era it is, humans always cling to heroes to maintain their faith. They can't survive without it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +72,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "你的意思是，我们是英雄？",
+			say = "In other words, we're supposed to be their heroes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +87,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "现在还不是哦，至少得等你先动起来再说呀，噗呲——",
+			say = "Not yet, anyway. At least not until you're able to move... Heehee~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +102,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊，可恶的姐姐，又趁机嘲笑我了！再给我一点时间，再给我一点时间我就能追上你了！！！",
+			say = "Richelieu! You're mocking me again! But just you wait... I'm going to surpass you soon enough!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +117,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "那么，你知道“名字”的含义吗？",
+			say = "I'll be looking forward to it. By the way, do you know what our names mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +132,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "嗯？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +147,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我们的名字都是来源于历史上有名的人物哦，这正说明他们对我们赋予了多大的期望",
+			say = "Yes, the name that we inherited from a warship. It represents the great expectations that humanity has for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +162,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "咦，那我的名字来源是什么呢？",
+			say = "Hmm... what was my name based upon again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +177,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "好像...是个凶残的海盗吧，呵呵…真的很适合你呢",
+			say = "Seems like... a mighty pirate ship... Suits you well, doesn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +192,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊！可恶的姐姐！",
+			say = "Huuh?! You're mocking me again! I won't let you get away with it a third time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +207,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我们究竟是成为制造死亡的兵器，还是能够守护国土，成为他们所期待的“英雄”——这一切都看你自己",
+			say = "All right, all right. But remember... whether you will be a glorious hero who protects the land, or an instrument of death and destruction... is a decision only you can make.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +222,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "......",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +237,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "不要，做出对不起你“名字”的选择",
+			say = "Don't do anything that will tarnish your noble name...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +248,7 @@ return {
 			}
 		},
 		{
-			say = "...又是这个梦吗，真是讽刺呢",
+			say = "Another dream... How laughable.",
 			side = 2,
 			bgName = "bg_story_faxi2",
 			dir = 1,
@@ -299,7 +284,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			say = "堂堂的圣教骑士、大洋上最强的战舰，最后却选择了依附别人的力量，呵呵",
+			say = "So what if the strongest battleship on the seas, the loftiest Templar Knight, has had to rely on the powers of others... Hmph.",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -315,23 +300,7 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			say = "......",
-			dir = 1,
-			withoutPainting = true,
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 905010,
-			side = 2,
-			bgName = "bg_story_faxi2",
-			say = "——真是愚蠢而软弱",
+			say = "... And just what exactly is wrong with that? Foolish sister...",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {

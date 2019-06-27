@@ -50,9 +50,7 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
 	end)
 	slot0:bind(slot0.ON_ACTIVE_CLASS, function (slot0)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALACADEMYSCENE, {
-			warp = NavalAcademyScene.WARP_TO_TACTIC
-		})
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
 	slot0:bind(slot0.ON_ACTIVE_TECH, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY)
@@ -77,8 +75,7 @@ function slot0.continueClass(slot0, slot1, slot2, slot3)
 	end
 
 	slot4:setSelectShipId(nil)
-	slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALACADEMYSCENE, {
-		warp = NavalAcademyScene.WARP_TO_TACTIC,
+	slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 		shipToLesson = {
 			shipId = slot1,
 			skillIndex = slot5:getSkillIndex(slot2),

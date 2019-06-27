@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>二 努力的凯旋小姐</size>",
+					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 2 - Do Your Best, Le Triomphant!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官，今天预订进行的联合演习，参加者名单在这里，请过目——",
+			say = "Commander, here is a list of the ships participating in today's joint exercise. Please have a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "联合…演习？",
+					content = "Joint... Exercise?",
 					flag = 1
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，真是的，您忘记了吗。根据之前制定的计划，作为日常训练的一环，今天要进行自由鸢尾与皇家的联合演习呀",
+			say = "Really, have you already forgotten? According to the plan that we made a while back, we would conduct a joint exercise between Iris Libre and the Royal Navy as a part of our ongoing daily training.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "作为舰队的指挥者，不振作一点可是不行的喔，指挥官。来，快确认一下名单吧！",
+			say = "As the commander of the fleet, everyone's counting on you to keep things together. Come on, please hurry and check the list.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "被秘书舰教育了…",
+			say = "After getting scolded by my secretary ship...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "检查了名单，稍微修改了一点内容",
+			say = "I made a few small modifications to the list.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "需要调整名单吗？我看看…",
+			say = "You'd like to adjust the list? Let me see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "咦？由我来带领先锋编队吗？",
+			say = "Huh? You'd like me to lead the vanguard fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想让大家看看我的战斗能力？",
+			say = "It's because you want everyone to see my combat performance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼哼，既然如此，我就不客气了。",
+			say = "Heh. If that's the case, then I readily accept!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就让指挥官还有大家都见识一下自由鸢尾的空想级的实力吧～",
+			say = "Commander, I'll be glad to show you - and everyone else - just how powerful the Le Fantasque-class is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopBgm = true,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "下午，港区附近的演习海域",
+			say = "Afternoon - Training Grounds",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不要冒进，配合友军的节奏进攻！",
+			say = "Make sure to match each others' pace! Don't charge forward on accident!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不要慌张，我们现在不是孤军奋战，发送信号！",
+			say = "Stay calm and collected. This isn't a solo operation, so don't be afraid to ask for help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……好，这片海域的目标清扫完毕，接下来……唔，我们去支援相邻海域的同伴吧！",
+			say = "... Good work. We've finished this area, so let's go support our allies in the next area!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "由于凯旋的活跃，自由鸢尾在演习中取得了十分不错的成绩",
+			say = "Due to Le Triomphant's successes, Iris Libre's team started off with a strong score.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "表扬凯旋",
+					content = "Praise Le Triomphant",
 					flag = 1
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "嘻嘻，谢谢指挥官的赞赏",
+			say = "Heheh, thank you very much, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "我说过的吧，让你们见识一下空想级的实力～",
+			say = "What'd I tell you? Are you impressed with how powerful the Le Fantasque-class is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不过，也不能说是十全十美吧",
+			say = "That said, we're still working on the basics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "如果有姐姐大人们在的话——",
+			say = "If my sisters were here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "凯旋似乎又要陷入回忆了",
+			say = "Le Triomphant seemed to be immersed in her memories again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "咳、咳咳，没什么。好了，让我们开始今天演习的总结吧！皇家的姐妹们也一起——",
+			say = "Ahem! Nevermind! In any case, let's all review the results of today's joint exercise...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "真是名无比优秀的秘书舰",
+			say = "Ahh, what an exemplary secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>三 工作的絮库夫</size>",
+					"Journé Surcouf!\n\n<size=45>Chapter 3 - Surcouf at Work</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "指挥官，好无聊……",
+			say = "I'm so boooored, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			},
 			options = {
 				{
-					content = "让她看时间",
+					content = "Point towards the clock",
 					flag = 1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，才过了半小时吗？！我感觉已经过了一个世纪那么久欸！",
+			say = "What?! It's only been 30 minutes?! It feels like a century's passed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "哎嘿嘿~指挥官，忙不忙嘛，不忙的话来聊天呀",
+			say = "Weeell... Hehehe, you busy over there, Commander? I bet not. C'mon, let's talk, if you've got the time~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,11 +100,11 @@ return {
 			},
 			options = {
 				{
-					content = "不去理她",
+					content = "Ignore her",
 					flag = 1
 				},
 				{
-					content = "点头",
+					content = "Nod",
 					flag = 2
 				}
 			}
@@ -116,7 +116,7 @@ return {
 			optionFlag = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "那就我来说，你听着就好了~",
+			say = "Well okay, I'll talk and you just listen, then~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			optionFlag = 2,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "太好啦~",
+			say = "I thought so♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不过今天居然已经坚持了半小时，对她来说已经非常了不起了。",
+			say = "... Gotta hand it to her: she did manage to last 30 minutes. That's pretty impressive, for Surcouf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,49 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是被我的身材吸引才让我来担任秘书舰的吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "毕竟大家看到我都会在意我的身材，指挥官喜欢的话也说明我有魅力嘛，嘻嘻~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官，我有没有和你说过，我是少数能搭载飞机的潜艇哦~",
+			say = "So, Commander, you appointed me as your secretary because you were so enamored with my gorgeous body, weren't you~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +175,33 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给你看看我的……咦，我的路路通哪里去啦？",
+			say = "If both you and everyone else are so crazy about it, that's gotta mean I'm really attractive! Ehehe~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Have I ever told you that I'm one of the few submarines that can carry a floatplane?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,33 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！！出门叫指挥官起床时忘了带……算了，反正平时也用不着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "…………",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "啊，指挥官，快看这款泳装，好像挺适合我的耶！",
+			say = "Tell you what, hold on a second and I'll... Huh? Where's my little Passepartout?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是今夏新款……嗯嗯，等工资发下来了就去买来穿给指挥官看~",
+			say = "Oh, right, I left him behind when I went to wake you up... Never mind. Oh well, I rarely use him anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +247,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +259,49 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你觉得我们舰队的旗帜应该用什么配色比较好？",
+			say = "Commander, check it out! I bet this swimsuit would look great on me!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's a new seasonal model, too! When you get your month's salary, you should order it for me! I'll wear it just for you, of course!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hey, I've been thinking: what colors should we use for the fleet's flag?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "蓝白虽然好看，不过总觉得有点腻了……",
+			say = "White and blue are tried and true, but I want something new and distinct...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像又有精神了！指挥官，絮库夫又精力充沛地来帮忙啦！",
+			say = "Okay! I've recharged my batteries and I'm ready to start working!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，已经午休时间了吗。",
+			say = "Huh? Really? It's noon already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "那就先吃午饭吧，诶嘿~",
+			say = "So, time to go grab some lunch then, right? Ehehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 		},
 		options = {
 			{
-				content = "让她看时间",
+				content = "Point towards the clock",
 				flag = 1
 			}
 		}

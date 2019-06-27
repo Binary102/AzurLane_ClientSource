@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>七 エミールのロマン論·下</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 7 - Émile's Romance Theory Pt. 2</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgmDelay = 2,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "ロマンとは見せつけられるものなんかじゃなくて、相手がわかるように伝える想いなんだと、私は思うわ。",
+			say = "Romance shouldn't be an act for the public to see, I believe it should be a feeling you convey to your partner.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官は気づいていないかもしれないけど、例えば――",
+			say = "You may not have thought about it before, Commander, but just as a few examples:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "エディンバラとの旅行話に付き合ってくれたり、明石の店を手伝いに行かせたり、私がダンケルクの甘いものに誘惑されないように気配りしたり……",
+			say = "Whether you're quietly admiring my dancing, letting me do the things I want to, or enjoying dessert with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "エミールは微笑んでこっちの手を両手で握りしめた。",
+			say = "Émile smiled and grabbed hold of my hand with both of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,23 +98,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "その全てが、私にとって「ロマンティックなこと」なのよ♪",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……相手を想う心がなければ、どんなにロマンティックと銘打ったものでも、空っぽな存在にすぎないけど……",
+			say = "... All those things are what I consider to be romantic♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +114,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相手のことを想えば、相手がしてほしいことをすれば、その想いが伝わらないはずがないもの。",
+			say = "But if you aren't doing them specifically for your partner, then they're nothing more than shallow gestures, no matter how romantic you think they are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "こうして私のしてほしいことをしてくれるロマンティックな人――",
+			say = "When your actions are with your partner in mind and you're doing what they want, your feelings will unquestionably reach them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,21 +146,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、あなたと出会えて、本当に良かったわ。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "エミールの言葉から愛しさとロマンを感じた。",
+			say = "... I am so happy that I met a romantic who's just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +162,21 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相手のことを理解し、相手を楽しませたい、伝えたいことを相手に見出してほしいこの気持……",
+			say = "I am so happy that I met you, Commander.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "I could feel the strong sense of affection and romance behind Émile's words.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それは多分、ううん、きっと「恋」に違いないわ。",
+			say = "That feeling you get when you understand your partner, make them happy, and know what it is you want to tell them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +208,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……なんだか急に踊りたくなっちゃった♪",
+			say = "I believe... no, I KNOW this is the feeling known as \"love\"!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "... I don't know why, but suddenly I feel like dancing♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "握りしめた手の片方が離され、もう片方の手でこっちの手を引いて二、三歩、軽やかなステップを踏み――",
+			say = "Letting go with one hand, Émile guided herself towards me with her other, taking light steps before coming to a stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "いつもの「ヴァリエーション」ではなく、愛する人との「パ·ド·ドゥ」……",
+			say = "Normally, I dance pas seul – but this time, I'd like to dance pas de deux...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			blackBg = true,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指揮官は、最後まで付き合ってくださるかしら？",
+			say = "... Will you dance with me, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

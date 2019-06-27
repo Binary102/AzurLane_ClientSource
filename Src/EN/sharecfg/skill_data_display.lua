@@ -386,27 +386,27 @@ pg.skill_data_display = {
 	},
 	[5061] = {
 		id = 5061,
-		name = "驱逐编队"
+		name = "Destroyer Squadron "
 	},
 	[5060] = {
 		id = 5060,
-		name = "驱逐编队"
+		name = "Destroyer Squadron "
 	},
 	[5071] = {
 		id = 5071,
-		name = "骑士之盾"
+		name = "Chevalier's Bouclier "
 	},
 	[5070] = {
 		id = 5070,
-		name = "骑士之盾"
+		name = "Chevalier's Bouclier "
 	},
 	[5081] = {
 		id = 5081,
-		name = "骑士之剑"
+		name = "Chevalier's Sabre "
 	},
 	[5080] = {
 		id = 5080,
-		name = "骑士之剑"
+		name = "Chevalier's Sabre "
 	},
 	[6000] = {
 		id = 6000,
@@ -1242,47 +1242,47 @@ pg.skill_data_display = {
 	},
 	[11490] = {
 		id = 11490,
-		name = "正面火力"
+		name = "Frontal Fire "
 	},
 	[11491] = {
 		id = 11491,
-		name = "正面火力"
+		name = "Frontal Fire "
 	},
 	[11500] = {
 		id = 11500,
-		name = "鸢尾之光"
+		name = "Radiant Iris "
 	},
 	[11501] = {
 		id = 11501,
-		name = "鸢尾之光"
+		name = "Radiant Iris "
 	},
 	[11510] = {
 		id = 11510,
-		name = "攻防转换"
+		name = "Sword or Shield"
 	},
 	[11520] = {
 		id = 11520,
-		name = "爱丽丝之心"
+		name = "Heart of Iris"
 	},
 	[11530] = {
 		id = 11530,
-		name = "海盗之魂"
+		name = "Pirate's Soul"
 	},
 	[11540] = {
 		id = 11540,
-		name = "最后的炮火"
+		name = "Final Shot"
 	},
 	[11550] = {
 		id = 11550,
-		name = "Big Mamie"
+		name = "Big Mamie "
 	},
 	[11560] = {
 		id = 11560,
-		name = "2700磅的正义"
+		name = "2,700 Pounds of Justice"
 	},
 	[11570] = {
 		id = 11570,
-		name = "侦查支援"
+		name = "Recon Support"
 	},
 	[11580] = {
 		id = 11580,
@@ -1611,6 +1611,10 @@ pg.skill_data_display = {
 	[12270] = {
 		id = 12270,
 		name = "Sparkling Star"
+	},
+	[12360] = {
+		id = 12360,
+		name = "Messenger of Love "
 	},
 	[18010] = {
 		id = 18010,
@@ -2570,51 +2574,51 @@ pg.skill_data_display = {
 	},
 	[29291] = {
 		id = 29291,
-		name = "专属弹幕-22I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29292] = {
 		id = 29292,
-		name = "专属弹幕-22II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29301] = {
 		id = 29301,
-		name = "专属弹幕-33I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29302] = {
 		id = 29302,
-		name = "专属弹幕-33II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29311] = {
 		id = 29311,
-		name = "专属弹幕-U47I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29312] = {
 		id = 29312,
-		name = "专属弹幕-U47II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29321] = {
 		id = 29321,
-		name = "专属弹幕-絮库夫I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29322] = {
 		id = 29322,
-		name = "专属弹幕-絮库夫II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29331] = {
 		id = 29331,
-		name = "专属弹幕-凯旋I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29332] = {
 		id = 29332,
-		name = "专属弹幕-凯旋II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29341] = {
 		id = 29341,
-		name = "专属弹幕-大青花鱼I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29342] = {
 		id = 29342,
-		name = "专属弹幕-大青花鱼II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29351] = {
 		id = 29351,
@@ -3164,6 +3168,7 @@ pg.skill_data_display = {
 		12251,
 		12260,
 		12270,
+		12360,
 		18010,
 		18040,
 		18041,

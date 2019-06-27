@@ -1398,7 +1398,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[271] = {
-		name = "鸢尾雷击轻巡副炮T1",
+		name = "鸢尾Torpedo轻巡副炮T1",
 		type = 1,
 		id = 271,
 		tech = 1,
@@ -1431,7 +1431,7 @@ pg.equip_data_statistics = {
 		equip_parameters = {}
 	},
 	[272] = {
-		name = "鸢尾雷击轻巡副炮T2",
+		name = "鸢尾Torpedo轻巡副炮T2",
 		base = 271,
 		is_siren = 0,
 		id = 272,
@@ -1443,7 +1443,7 @@ pg.equip_data_statistics = {
 	},
 	[273] = {
 		value_1 = "4 x 3",
-		name = "鸢尾雷击轻巡副炮T3",
+		name = "鸢尾Torpedo轻巡副炮T3",
 		base = 271,
 		is_siren = 0,
 		id = 273,
@@ -1457,7 +1457,7 @@ pg.equip_data_statistics = {
 	},
 	[274] = {
 		value_1 = "5 x 3",
-		name = "鸢尾雷击轻巡副炮T4",
+		name = "鸢尾Torpedo轻巡副炮T4",
 		base = 271,
 		is_siren = 0,
 		id = 274,
@@ -5593,6 +5593,116 @@ pg.equip_data_statistics = {
 		base = 1840,
 		value_2 = 8,
 		value_1 = "245",
+		property_rate = {}
+	},
+	[1860] = {
+		name = "High Performance Boiler",
+		type = 10,
+		id = 1860,
+		tech = 0,
+		speciality = "N/A",
+		range = 0,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 4,
+		icon = "1860",
+		value_1 = "140",
+		attribute_2 = "speed",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 0,
+		nationality = 0,
+		ammo = "N/A",
+		is_siren = 0,
+		descrip = "A massive boiler which improves speed and HP.",
+		value_3 = 0,
+		attribute_1 = "durability",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[1861] = {
+		is_siren = 0,
+		id = 1861,
+		base = 1860,
+		value_2 = 5,
+		value_1 = "161",
+		property_rate = {}
+	},
+	[1862] = {
+		is_siren = 0,
+		id = 1862,
+		base = 1860,
+		value_2 = 5,
+		value_1 = "182",
+		property_rate = {}
+	},
+	[1863] = {
+		is_siren = 0,
+		id = 1863,
+		base = 1860,
+		value_2 = 6,
+		value_1 = "203",
+		property_rate = {}
+	},
+	[1864] = {
+		is_siren = 0,
+		id = 1864,
+		base = 1860,
+		value_2 = 6,
+		value_1 = "224",
+		property_rate = {}
+	},
+	[1865] = {
+		is_siren = 0,
+		id = 1865,
+		base = 1860,
+		value_2 = 7,
+		value_1 = "245",
+		property_rate = {}
+	},
+	[1866] = {
+		is_siren = 0,
+		id = 1866,
+		base = 1860,
+		value_2 = 7,
+		value_1 = "266",
+		property_rate = {}
+	},
+	[1867] = {
+		is_siren = 0,
+		id = 1867,
+		base = 1860,
+		value_2 = 8,
+		value_1 = "287",
+		property_rate = {}
+	},
+	[1868] = {
+		is_siren = 0,
+		id = 1868,
+		base = 1860,
+		value_2 = 8,
+		value_1 = "308",
+		property_rate = {}
+	},
+	[1869] = {
+		is_siren = 0,
+		id = 1869,
+		base = 1860,
+		value_2 = 9,
+		value_1 = "329",
+		property_rate = {}
+	},
+	[1870] = {
+		is_siren = 0,
+		id = 1870,
+		base = 1860,
+		value_2 = 10,
+		value_1 = "350",
 		property_rate = {}
 	},
 	[1900] = {
@@ -11069,6 +11179,292 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[5500] = {
+		name = "Submarine-only 550mm 24V",
+		type = 13,
+		id = 5500,
+		tech = 1,
+		speciality = "Torpedo",
+		range = 50,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "5500",
+		value_1 = "44 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 80,
+		nationality = 8,
+		ammo = "Normal",
+		is_siren = 0,
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5500
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5501] = {
+		id = 5501,
+		base = 5500,
+		is_siren = 0,
+		value_1 = "50 x 2",
+		weapon_id = {
+			5501
+		},
+		property_rate = {}
+	},
+	[5502] = {
+		id = 5502,
+		base = 5500,
+		is_siren = 0,
+		value_1 = "56 x 2",
+		weapon_id = {
+			5502
+		},
+		property_rate = {}
+	},
+	[5503] = {
+		id = 5503,
+		base = 5500,
+		is_siren = 0,
+		value_1 = "62 x 2",
+		weapon_id = {
+			5503
+		},
+		property_rate = {}
+	},
+	[5520] = {
+		name = "Submarine-only 550mm 24V",
+		type = 13,
+		id = 5520,
+		tech = 2,
+		speciality = "Torpedo",
+		range = 50,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "5500",
+		value_1 = "49 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 80,
+		nationality = 8,
+		ammo = "Normal",
+		is_siren = 0,
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5520
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5521] = {
+		id = 5521,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "56 x 2",
+		weapon_id = {
+			5521
+		},
+		property_rate = {}
+	},
+	[5522] = {
+		id = 5522,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "63 x 2",
+		weapon_id = {
+			5522
+		},
+		property_rate = {}
+	},
+	[5523] = {
+		id = 5523,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "70 x 2",
+		weapon_id = {
+			5523
+		},
+		property_rate = {}
+	},
+	[5524] = {
+		id = 5524,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "77 x 2",
+		weapon_id = {
+			5524
+		},
+		property_rate = {}
+	},
+	[5525] = {
+		id = 5525,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "84 x 2",
+		weapon_id = {
+			5525
+		},
+		property_rate = {}
+	},
+	[5526] = {
+		id = 5526,
+		base = 5520,
+		is_siren = 0,
+		value_1 = "91 x 2",
+		weapon_id = {
+			5526
+		},
+		property_rate = {}
+	},
+	[5540] = {
+		name = "Submarine-only 550mm 24V",
+		type = 13,
+		id = 5540,
+		tech = 3,
+		speciality = "Torpedo",
+		range = 50,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "5500",
+		value_1 = "54 x 2",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 80,
+		nationality = 8,
+		ammo = "Normal",
+		is_siren = 0,
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			5540
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[5541] = {
+		id = 5541,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "62 x 2",
+		weapon_id = {
+			5541
+		},
+		property_rate = {}
+	},
+	[5542] = {
+		id = 5542,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "70 x 2",
+		weapon_id = {
+			5542
+		},
+		property_rate = {}
+	},
+	[5543] = {
+		id = 5543,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "78 x 2",
+		weapon_id = {
+			5543
+		},
+		property_rate = {}
+	},
+	[5544] = {
+		id = 5544,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "86 x 2",
+		weapon_id = {
+			5544
+		},
+		property_rate = {}
+	},
+	[5545] = {
+		id = 5545,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "94 x 2",
+		weapon_id = {
+			5545
+		},
+		property_rate = {}
+	},
+	[5546] = {
+		id = 5546,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "102 x 2",
+		weapon_id = {
+			5546
+		},
+		property_rate = {}
+	},
+	[5547] = {
+		id = 5547,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "110 x 2",
+		weapon_id = {
+			5547
+		},
+		property_rate = {}
+	},
+	[5548] = {
+		id = 5548,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "118 x 2",
+		weapon_id = {
+			5548
+		},
+		property_rate = {}
+	},
+	[5549] = {
+		id = 5549,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "126 x 2",
+		weapon_id = {
+			5549
+		},
+		property_rate = {}
+	},
+	[5550] = {
+		id = 5550,
+		base = 5540,
+		is_siren = 0,
+		value_1 = "135 x 2",
+		weapon_id = {
+			5550
+		},
+		property_rate = {}
+	},
 	[6000] = {
 		name = "12.7mm AA Gun",
 		type = 6,
@@ -12508,7 +12904,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[7340] = {
-		name = "双联装203mm主炮Mle1924(潜艇用)",
+		name = "Submarine-mounted Twin 203mm Cannon (Mle 1924)",
 		type = 3,
 		id = 7340,
 		tech = 0,
@@ -18730,6 +19126,151 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[17060] = {
+		name = "F2A水牛(萨奇队)",
+		type = 7,
+		id = 17060,
+		tech = 0,
+		speciality = "Air",
+		range = 90,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "17060",
+		value_1 = "31/wave",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 30,
+		nationality = 1,
+		ammo = "Normal",
+		is_siren = 0,
+		descrip = "“萨奇剪”战术发明者约翰·史密斯·萨奇的座驾",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			17060,
+			81060
+		},
+		skill_id = {
+			6430
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[17061] = {
+		id = 17061,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "35/wave",
+		weapon_id = {
+			17061,
+			81061
+		},
+		property_rate = {}
+	},
+	[17062] = {
+		id = 17062,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "37/wave",
+		weapon_id = {
+			17062,
+			81062
+		},
+		property_rate = {}
+	},
+	[17063] = {
+		id = 17063,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "41/wave",
+		weapon_id = {
+			17063,
+			81063
+		},
+		property_rate = {}
+	},
+	[17064] = {
+		id = 17064,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "45/wave",
+		weapon_id = {
+			17064,
+			81064
+		},
+		property_rate = {}
+	},
+	[17065] = {
+		id = 17065,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "49/wave",
+		weapon_id = {
+			17065,
+			81065
+		},
+		property_rate = {}
+	},
+	[17066] = {
+		id = 17066,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "53/wave",
+		weapon_id = {
+			17066,
+			81066
+		},
+		property_rate = {}
+	},
+	[17067] = {
+		id = 17067,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "57/wave",
+		weapon_id = {
+			17067,
+			81067
+		},
+		property_rate = {}
+	},
+	[17068] = {
+		id = 17068,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "61/wave",
+		weapon_id = {
+			17068,
+			81068
+		},
+		property_rate = {}
+	},
+	[17069] = {
+		id = 17069,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "65/wave",
+		weapon_id = {
+			17069,
+			81069
+		},
+		property_rate = {}
+	},
+	[17070] = {
+		id = 17070,
+		base = 17060,
+		is_siren = 0,
+		value_1 = "69/wave",
+		weapon_id = {
+			17070,
+			81070
+		},
+		property_rate = {}
+	},
 	[17100] = {
 		name = "F4F Wildcat",
 		type = 7,
@@ -20239,7 +20780,7 @@ pg.equip_data_statistics = {
 		type = 8,
 		id = 18060,
 		tech = 0,
-		speciality = "雷击",
+		speciality = "Torpedo",
 		range = 90,
 		scatter = "N/A",
 		ambush_extra = 0,
@@ -28047,7 +28588,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "26620",
-		value_1 = "38/轮",
+		value_1 = "38/wave",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		range = 30,
@@ -28072,7 +28613,7 @@ pg.equip_data_statistics = {
 		id = 26621,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "43/轮",
+		value_1 = "43/wave",
 		weapon_id = {
 			26621
 		},
@@ -28082,7 +28623,7 @@ pg.equip_data_statistics = {
 		id = 26622,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "48/轮",
+		value_1 = "48/wave",
 		weapon_id = {
 			26622
 		},
@@ -28092,7 +28633,7 @@ pg.equip_data_statistics = {
 		id = 26623,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "54/轮",
+		value_1 = "54/wave",
 		weapon_id = {
 			26623
 		},
@@ -28102,7 +28643,7 @@ pg.equip_data_statistics = {
 		id = 26624,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "60/轮",
+		value_1 = "60/wave",
 		weapon_id = {
 			26624
 		},
@@ -28112,7 +28653,7 @@ pg.equip_data_statistics = {
 		id = 26625,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "66/轮",
+		value_1 = "66/wave",
 		weapon_id = {
 			26625
 		},
@@ -28122,7 +28663,7 @@ pg.equip_data_statistics = {
 		id = 26626,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "72/轮",
+		value_1 = "72/wave",
 		weapon_id = {
 			26626
 		},
@@ -28132,7 +28673,7 @@ pg.equip_data_statistics = {
 		id = 26627,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "78/轮",
+		value_1 = "78/wave",
 		weapon_id = {
 			26627
 		},
@@ -28142,7 +28683,7 @@ pg.equip_data_statistics = {
 		id = 26628,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "84/轮",
+		value_1 = "84/wave",
 		weapon_id = {
 			26628
 		},
@@ -28152,7 +28693,7 @@ pg.equip_data_statistics = {
 		id = 26629,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "90/轮",
+		value_1 = "90/wave",
 		weapon_id = {
 			26629
 		},
@@ -28162,7 +28703,7 @@ pg.equip_data_statistics = {
 		id = 26630,
 		base = 26620,
 		is_siren = 0,
-		value_1 = "96/轮",
+		value_1 = "96/wave",
 		weapon_id = {
 			26630
 		},
@@ -29096,13 +29637,13 @@ pg.equip_data_statistics = {
 		type = 7,
 		id = 27300,
 		tech = 0,
-		speciality = "空战",
+		speciality = "Air",
 		range = 90,
 		scatter = "N/A",
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "27300",
-		value_1 = "36/轮",
+		value_1 = "36/wave",
 		attribute_2 = "air",
 		avoid_extra = 0,
 		rarity = 5,
@@ -29128,7 +29669,7 @@ pg.equip_data_statistics = {
 		id = 27301,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "41/轮",
+		value_1 = "41/wave",
 		weapon_id = {
 			27301,
 			82301
@@ -29139,7 +29680,7 @@ pg.equip_data_statistics = {
 		id = 27302,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "46/轮",
+		value_1 = "46/wave",
 		weapon_id = {
 			27302,
 			82302
@@ -29150,7 +29691,7 @@ pg.equip_data_statistics = {
 		id = 27303,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "51/轮",
+		value_1 = "51/wave",
 		weapon_id = {
 			27303,
 			82303
@@ -29161,7 +29702,7 @@ pg.equip_data_statistics = {
 		id = 27304,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "56/轮",
+		value_1 = "56/wave",
 		weapon_id = {
 			27304,
 			82304
@@ -29172,7 +29713,7 @@ pg.equip_data_statistics = {
 		id = 27305,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "61/轮",
+		value_1 = "61/wave",
 		weapon_id = {
 			27305,
 			82305
@@ -29183,7 +29724,7 @@ pg.equip_data_statistics = {
 		id = 27306,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "66/轮",
+		value_1 = "66/wave",
 		weapon_id = {
 			27306,
 			82306
@@ -29194,7 +29735,7 @@ pg.equip_data_statistics = {
 		id = 27307,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "71/轮",
+		value_1 = "71/wave",
 		weapon_id = {
 			27307,
 			82307
@@ -29205,7 +29746,7 @@ pg.equip_data_statistics = {
 		id = 27308,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "76/轮",
+		value_1 = "76/wave",
 		weapon_id = {
 			27308,
 			82308
@@ -29216,7 +29757,7 @@ pg.equip_data_statistics = {
 		id = 27309,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "81/轮",
+		value_1 = "81/wave",
 		weapon_id = {
 			27309,
 			82309
@@ -29227,7 +29768,7 @@ pg.equip_data_statistics = {
 		id = 27310,
 		base = 27300,
 		is_siren = 0,
-		value_1 = "86/轮",
+		value_1 = "86/wave",
 		weapon_id = {
 			27310,
 			82310
@@ -30772,6 +31313,140 @@ pg.equip_data_statistics = {
 		value_1 = "402 x 2",
 		weapon_id = {
 			29210
+		},
+		property_rate = {}
+	},
+	[29300] = {
+		name = "梭鱼(831中队)",
+		type = 9,
+		id = 29300,
+		tech = 0,
+		speciality = "轰炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "29300",
+		value_1 = "171 x 1",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 2,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "钨作战中轰炸提尔比茨的梭鱼831中队，搭载730kg穿甲航弹",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			29300
+		},
+		skill_id = {
+			6420
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[29301] = {
+		id = 29301,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "196 x 1",
+		weapon_id = {
+			29301
+		},
+		property_rate = {}
+	},
+	[29302] = {
+		id = 29302,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "221 x 1",
+		weapon_id = {
+			29302
+		},
+		property_rate = {}
+	},
+	[29303] = {
+		id = 29303,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "247 x 1",
+		weapon_id = {
+			29303
+		},
+		property_rate = {}
+	},
+	[29304] = {
+		id = 29304,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "273 x 1",
+		weapon_id = {
+			29304
+		},
+		property_rate = {}
+	},
+	[29305] = {
+		id = 29305,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "299 x 1",
+		weapon_id = {
+			29305
+		},
+		property_rate = {}
+	},
+	[29306] = {
+		id = 29306,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "325 x 1",
+		weapon_id = {
+			29306
+		},
+		property_rate = {}
+	},
+	[29307] = {
+		id = 29307,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "351 x 1",
+		weapon_id = {
+			29307
+		},
+		property_rate = {}
+	},
+	[29308] = {
+		id = 29308,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "377 x 1",
+		weapon_id = {
+			29308
+		},
+		property_rate = {}
+	},
+	[29309] = {
+		id = 29309,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "403 x 1",
+		weapon_id = {
+			29309
+		},
+		property_rate = {}
+	},
+	[29310] = {
+		id = 29310,
+		base = 29300,
+		is_siren = 0,
+		value_1 = "429 x 1",
+		weapon_id = {
+			29310
 		},
 		property_rate = {}
 	},
@@ -38471,7 +39146,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "36700",
-		value_1 = "47/轮",
+		value_1 = "47/wave",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -38496,7 +39171,7 @@ pg.equip_data_statistics = {
 		id = 36701,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "51/轮",
+		value_1 = "51/wave",
 		weapon_id = {
 			36701
 		},
@@ -38506,7 +39181,7 @@ pg.equip_data_statistics = {
 		id = 36702,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "55/轮",
+		value_1 = "55/wave",
 		weapon_id = {
 			36702
 		},
@@ -38516,7 +39191,7 @@ pg.equip_data_statistics = {
 		id = 36703,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "59/轮",
+		value_1 = "59/wave",
 		weapon_id = {
 			36703
 		},
@@ -38526,7 +39201,7 @@ pg.equip_data_statistics = {
 		id = 36704,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "63/轮",
+		value_1 = "63/wave",
 		weapon_id = {
 			36704
 		},
@@ -38536,7 +39211,7 @@ pg.equip_data_statistics = {
 		id = 36705,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "67/轮",
+		value_1 = "67/wave",
 		weapon_id = {
 			36705
 		},
@@ -38546,7 +39221,7 @@ pg.equip_data_statistics = {
 		id = 36706,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "71/轮",
+		value_1 = "71/wave",
 		weapon_id = {
 			36706
 		},
@@ -38556,7 +39231,7 @@ pg.equip_data_statistics = {
 		id = 36707,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "75/轮",
+		value_1 = "75/wave",
 		weapon_id = {
 			36707
 		},
@@ -38566,7 +39241,7 @@ pg.equip_data_statistics = {
 		id = 36708,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "79/轮",
+		value_1 = "79/wave",
 		weapon_id = {
 			36708
 		},
@@ -38576,7 +39251,7 @@ pg.equip_data_statistics = {
 		id = 36709,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "83/轮",
+		value_1 = "83/wave",
 		weapon_id = {
 			36709
 		},
@@ -38586,7 +39261,7 @@ pg.equip_data_statistics = {
 		id = 36710,
 		base = 36700,
 		is_siren = 0,
-		value_1 = "87/轮",
+		value_1 = "87/wave",
 		weapon_id = {
 			36710
 		},
@@ -41685,6 +42360,140 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[39300] = {
+		name = "晴岚",
+		type = 12,
+		id = 39300,
+		tech = 0,
+		speciality = "轰炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "39300",
+		value_1 = "171 x 1",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 90,
+		nationality = 3,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "Aichi M6A1 Seiran 晴岚式特殊攻击机，搭载1门13mm机枪和1枚约1600磅炸弹",
+		value_3 = 0,
+		attribute_1 = "damage",
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			39300
+		},
+		skill_id = {
+			6370
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[39301] = {
+		id = 39301,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "196 x 1",
+		weapon_id = {
+			39301
+		},
+		property_rate = {}
+	},
+	[39302] = {
+		id = 39302,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "221 x 1",
+		weapon_id = {
+			39302
+		},
+		property_rate = {}
+	},
+	[39303] = {
+		id = 39303,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "247 x 1",
+		weapon_id = {
+			39303
+		},
+		property_rate = {}
+	},
+	[39304] = {
+		id = 39304,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "273 x 1",
+		weapon_id = {
+			39304
+		},
+		property_rate = {}
+	},
+	[39305] = {
+		id = 39305,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "299 x 1",
+		weapon_id = {
+			39305
+		},
+		property_rate = {}
+	},
+	[39306] = {
+		id = 39306,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "325 x 1",
+		weapon_id = {
+			39306
+		},
+		property_rate = {}
+	},
+	[39307] = {
+		id = 39307,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "351 x 1",
+		weapon_id = {
+			39307
+		},
+		property_rate = {}
+	},
+	[39308] = {
+		id = 39308,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "377 x 1",
+		weapon_id = {
+			39308
+		},
+		property_rate = {}
+	},
+	[39309] = {
+		id = 39309,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "403 x 1",
+		weapon_id = {
+			39309
+		},
+		property_rate = {}
+	},
+	[39310] = {
+		id = 39310,
+		base = 39300,
+		is_siren = 0,
+		value_1 = "429 x 1",
+		weapon_id = {
+			39310
+		},
+		property_rate = {}
+	},
 	[41000] = {
 		name = "Single 127mm Main Gun",
 		type = 1,
@@ -44638,7 +45447,7 @@ pg.equip_data_statistics = {
 		attribute_1 = "damage",
 		property_rate = {},
 		ammo_icon = {
-			2
+			3
 		},
 		weapon_id = {
 			44200
@@ -44767,7 +45576,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 2,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Triple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
@@ -44829,7 +45638,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Triple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
@@ -44921,7 +45730,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Triple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustic guidance to greatly increase accuracy.",
@@ -45053,7 +45862,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 3,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quadruple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -45145,7 +45954,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quadruple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -45277,7 +46086,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quadruple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -45409,7 +46218,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 4,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quintuple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -45541,7 +46350,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 5,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quintuple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -45673,7 +46482,7 @@ pg.equip_data_statistics = {
 		avoid_extra = 0,
 		rarity = 6,
 		angle = 60,
-		nationality = 3,
+		nationality = 4,
 		ammo = "Acoustic guidance",
 		is_siren = 0,
 		descrip = "The Quintuple 533mm Magnetic Torpedo was developed by Vickers Engineering and employs the use of magnetic and acoustance guidance to greatly increase accuracy.",
@@ -50756,7 +51565,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-小齐柏林I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -50769,7 +51578,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		scatter = "0",
 		descrip = "航母空袭展示用",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 60411,
 		property_rate = {},
@@ -52546,7 +53355,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-南安普顿级I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -52559,7 +53368,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		scatter = "0",
 		descrip = "技能弹幕",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 71151,
 		property_rate = {},
@@ -55988,7 +56797,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-确捷I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -56001,7 +56810,7 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		scatter = "0",
 		descrip = "技能弹幕",
-		ammo = "无",
+		ammo = "N/A",
 		value_3 = 0,
 		id = 79401,
 		property_rate = {},
@@ -56021,6 +56830,46 @@ pg.equip_data_statistics = {
 		is_siren = 0,
 		weapon_id = {
 			79402
+		},
+		property_rate = {}
+	},
+	[79411] = {
+		name = "专属弹幕-恶毒I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		descrip = "技能弹幕",
+		ammo = "N/A",
+		value_3 = 0,
+		id = 79411,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79411
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {}
+	},
+	[79412] = {
+		id = 79412,
+		name = "专属弹幕-恶毒II",
+		base = 79411,
+		is_siren = 0,
+		weapon_id = {
+			79412
 		},
 		property_rate = {}
 	},
@@ -56358,7 +57207,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90000] = {
-		name = "130mm单装炮Mle1924",
+		name = "Single 130mm Main Gun (Mle 1924) ",
 		type = 1,
 		id = 90000,
 		tech = 1,
@@ -56426,7 +57275,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90020] = {
-		name = "130mm单装炮Mle1924",
+		name = "Single 130mm Main Gun (Mle 1924) ",
 		type = 1,
 		id = 90020,
 		tech = 2,
@@ -56495,7 +57344,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90040] = {
-		name = "130mm单装炮Mle1924",
+		name = "Single 130mm Main Gun (Mle 1924) ",
 		type = 1,
 		id = 90040,
 		tech = 3,
@@ -56594,7 +57443,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90100] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "Single 138.6mm Main Gun (Mle 1929)",
 		type = 1,
 		id = 90100,
 		tech = 1,
@@ -56693,7 +57542,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90120] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "Single 138.6mm Main Gun (Mle 1929)",
 		type = 1,
 		id = 90120,
 		tech = 2,
@@ -56832,7 +57681,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90140] = {
-		name = "138.6mm单装炮Mle1929",
+		name = "Single 138.6mm Main Gun (Mle 1929)",
 		type = 1,
 		id = 90140,
 		tech = 3,
@@ -56971,7 +57820,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90200] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "Triple 152mm Main Gun (Mle 1930)",
 		type = 2,
 		id = 90200,
 		tech = 1,
@@ -57038,7 +57887,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90220] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "Triple 152mm Main Gun (Mle 1930)",
 		type = 2,
 		id = 90220,
 		tech = 2,
@@ -57106,7 +57955,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90240] = {
-		name = "三联装152mm主炮Mle1930",
+		name = "Triple 152mm Main Gun (Mle 1930)",
 		type = 2,
 		id = 90240,
 		tech = 3,
@@ -57204,7 +58053,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90300] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "Quadruple 330mm Main Gun (Mle 1931) ",
 		type = 4,
 		id = 90300,
 		tech = 1,
@@ -57271,7 +58120,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90320] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "Quadruple 330mm Main Gun (Mle 1931) ",
 		type = 4,
 		id = 90320,
 		tech = 2,
@@ -57368,7 +58217,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90340] = {
-		name = "四联装330mm主炮Mle1931",
+		name = "Quadruple 330mm Main Gun (Mle 1931) ",
 		type = 4,
 		id = 90340,
 		tech = 3,
@@ -57505,7 +58354,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90400] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "Quadruple 380mm Main Gun (Mle 1935) ",
 		type = 4,
 		id = 90400,
 		tech = 1,
@@ -57602,7 +58451,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90420] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "Quadruple 380mm Main Gun (Mle 1935) ",
 		type = 4,
 		id = 90420,
 		tech = 2,
@@ -57739,7 +58588,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90440] = {
-		name = "四联装380mm主炮Mle1935",
+		name = "Quadruple 380mm Main Gun (Mle 1935) ",
 		type = 4,
 		id = 90440,
 		tech = 3,
@@ -58190,7 +59039,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 45,
 		icon = "50600",
-		value_1 = "38/轮",
+		value_1 = "38/wave",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		rarity = 5,
@@ -58215,7 +59064,7 @@ pg.equip_data_statistics = {
 		id = 90601,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "42/轮",
+		value_1 = "42/wave",
 		weapon_id = {
 			90601
 		},
@@ -58225,7 +59074,7 @@ pg.equip_data_statistics = {
 		id = 90602,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "46/轮",
+		value_1 = "46/wave",
 		weapon_id = {
 			90602
 		},
@@ -58235,7 +59084,7 @@ pg.equip_data_statistics = {
 		id = 90603,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "50/轮",
+		value_1 = "50/wave",
 		weapon_id = {
 			90603
 		},
@@ -58245,7 +59094,7 @@ pg.equip_data_statistics = {
 		id = 90604,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "54/轮",
+		value_1 = "54/wave",
 		weapon_id = {
 			90604
 		},
@@ -58255,7 +59104,7 @@ pg.equip_data_statistics = {
 		id = 90605,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "58/轮",
+		value_1 = "58/wave",
 		weapon_id = {
 			90605
 		},
@@ -58265,7 +59114,7 @@ pg.equip_data_statistics = {
 		id = 90606,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "62/轮",
+		value_1 = "62/wave",
 		weapon_id = {
 			90606
 		},
@@ -58275,7 +59124,7 @@ pg.equip_data_statistics = {
 		id = 90607,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "66/轮",
+		value_1 = "66/wave",
 		weapon_id = {
 			90607
 		},
@@ -58285,7 +59134,7 @@ pg.equip_data_statistics = {
 		id = 90608,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "70/轮",
+		value_1 = "70/wave",
 		weapon_id = {
 			90608
 		},
@@ -58295,7 +59144,7 @@ pg.equip_data_statistics = {
 		id = 90609,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "74/轮",
+		value_1 = "74/wave",
 		weapon_id = {
 			90609
 		},
@@ -58305,7 +59154,7 @@ pg.equip_data_statistics = {
 		id = 90610,
 		base = 90600,
 		is_siren = 0,
-		value_1 = "78/轮",
+		value_1 = "78/wave",
 		weapon_id = {
 			90610
 		},
@@ -59019,6 +59868,17 @@ pg.equip_data_statistics = {
 		1848,
 		1849,
 		1850,
+		1860,
+		1861,
+		1862,
+		1863,
+		1864,
+		1865,
+		1866,
+		1867,
+		1868,
+		1869,
+		1870,
 		1900,
 		1901,
 		1902,
@@ -59489,6 +60349,28 @@ pg.equip_data_statistics = {
 		5448,
 		5449,
 		5450,
+		5500,
+		5501,
+		5502,
+		5503,
+		5520,
+		5521,
+		5522,
+		5523,
+		5524,
+		5525,
+		5526,
+		5540,
+		5541,
+		5542,
+		5543,
+		5544,
+		5545,
+		5546,
+		5547,
+		5548,
+		5549,
+		5550,
 		6000,
 		6001,
 		6002,
@@ -60051,6 +60933,17 @@ pg.equip_data_statistics = {
 		17044,
 		17045,
 		17046,
+		17060,
+		17061,
+		17062,
+		17063,
+		17064,
+		17065,
+		17066,
+		17067,
+		17068,
+		17069,
+		17070,
 		17100,
 		17101,
 		17102,
@@ -60953,6 +61846,17 @@ pg.equip_data_statistics = {
 		29208,
 		29209,
 		29210,
+		29300,
+		29301,
+		29302,
+		29303,
+		29304,
+		29305,
+		29306,
+		29307,
+		29308,
+		29309,
+		29310,
 		30000,
 		30001,
 		30002,
@@ -61781,6 +62685,17 @@ pg.equip_data_statistics = {
 		39248,
 		39249,
 		39250,
+		39300,
+		39301,
+		39302,
+		39303,
+		39304,
+		39305,
+		39306,
+		39307,
+		39308,
+		39309,
+		39310,
 		41000,
 		41001,
 		41002,
@@ -62689,6 +63604,8 @@ pg.equip_data_statistics = {
 		79392,
 		79401,
 		79402,
+		79411,
+		79412,
 		89000,
 		89001,
 		89002,

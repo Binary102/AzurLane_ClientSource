@@ -709,7 +709,7 @@ function slot0.checkCommander(slot0, slot1)
 		table.remove(slot0.selecteds, #slot0.selecteds)
 
 		if slot0.contextData.activeCommander then
-			slot0.detailPage:ActionInvoke("updatePreviewAddition", slot0.contextData.activeCommander)
+			slot0.detailPage:ActionInvoke("updatePreviewAddition", slot0.contextData.activeCommander, true)
 		end
 	else
 		if slot3 <= #slot0.selecteds then
@@ -745,7 +745,7 @@ function slot0.updateSelecteds(slot0)
 		end
 
 		slot2:addExp(slot3)
-		slot0.detailPage:ActionInvoke("updatePreView", slot2)
+		slot0.detailPage:ActionInvoke("updatePreView", slot2, slot0.contextData.maxCount == 1)
 	end
 
 	return

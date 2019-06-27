@@ -230,7 +230,9 @@ function slot0.initSkinPage(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-		slot0.countByIds[(slot1[slot5:getSkinId()].shop_type_id == 0 and 9999) or slot7] = slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] + 1
+		print(slot5:getSkinId())
+
+		slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] = slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] + 1
 	end
 
 	slot1 = slot0:findTF("toggles/mask/content", slot0.leftPanel)
@@ -547,25 +549,24 @@ function slot0.addShopTimer(slot0, slot1)
 		return
 	end
 
-	slot6 = pg.TimeMgr:GetInstance()
-	slot7 = pg.TimeMgr:GetInstance():Table2ServerTime(slot5)
+	slot7 = pg.TimeMgr:GetInstance().Table2ServerTime(slot6, slot5)
 	slot0.shopTimer = Timer.New(function ()
-		if slot0:LaterThan(os.server_date("*t", slot0), ) then
+		if slot0 < slot0:GetServerTime() then
 			slot2:removeShopTimer()
 		end
 
-		if slot3 - slot0 < 0 then
-			slot2 = 0
+		if slot1 - slot0 < 0 then
+			slot1 = 0
 		end
 
-		if math.floor(slot2 / 86400) > 0 then
-			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_date")
-		elseif math.floor(slot2 / 3600) > 0 then
-			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_hour")
-		elseif math.floor(slot2 / 60) > 0 then
-			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot5 .. i18n("word_minute")
+		if math.floor(slot1 / 86400) > 0 then
+			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_date")
+		elseif math.floor(slot1 / 3600) > 0 then
+			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_hour")
+		elseif math.floor(slot1 / 60) > 0 then
+			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_minute")
 		else
-			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_second")
+			slot2.limitTxt.text = i18n("time_remaining_tip") .. slot1 .. i18n("word_second")
 		end
 	end, 1, -1)
 
@@ -587,7 +588,9 @@ function slot0.updatePrice(slot0, slot1)
 	setActive(slot0.timelimtPanel, slot1.getConfig(slot4, "genre") == ShopArgs.SkinShopTimeLimit)
 
 	if slot5 then
-		slot0.timelimitPriceTxt.text = slot6 .. "/" .. ((slot0.skinTicket < slot4:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. slot0.skinTicket .. ((slot0.skinTicket < slot6 and "</color>") or "")
+		slot8 = slot0.skinTicket
+		slot9 = (slot0.skinTicket < slot6 and "</color>") or ""
+		slot0.timelimitPriceTxt.text = ((slot0.skinTicket < slot4:getConfig("resource_num") and "<color=" .. COLOR_RED .. ">") or "") .. "/" .. slot6
 	else
 		setActive(slot0.commonBGTF, slot4.type == Goods.TYPE_SKIN)
 		setActive(slot0.commonLabelTF, slot4.type == Goods.TYPE_SKIN)

@@ -78,7 +78,7 @@ function slot0.displayBG(slot0, slot1)
 	if slot1 then
 		if IsNil(slot2.sprite) then
 			slot3 = "login"
-			slot4 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
+			slot4 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d")
 
 			for slot8, slot9 in ipairs(SPECIAL_DATE) do
 				if slot9[1] == slot4 then

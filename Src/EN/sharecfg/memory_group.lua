@@ -504,6 +504,25 @@ pg.memory_group = {
 			10080
 		}
 	},
+	[133] = {
+		title = "Iris of Light and Dark ",
+		type = 2,
+		id = 133,
+		icon = "title_event",
+		memories = {
+			371,
+			372,
+			373,
+			374,
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			381
+		}
+	},
 	[141] = {
 		title = "Trick or Treat Halloween Night! ",
 		type = 2,
@@ -738,6 +757,19 @@ pg.memory_group = {
 			824
 		}
 	},
+	[160] = {
+		title = "Javelin's Monthly Manga ",
+		type = 2,
+		id = 160,
+		icon = "title_event",
+		memories = {
+			825,
+			826,
+			827,
+			828,
+			829
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -914,6 +946,51 @@ pg.memory_group = {
 			340,
 			341,
 			342
+		}
+	},
+	[515] = {
+		title = "The Melancholy of a Princess Chevalier",
+		type = 3,
+		id = 515,
+		icon = "title_chara_kaixuan",
+		memories = {
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356
+		}
+	},
+	[516] = {
+		title = "Émile, the Dancing Angel",
+		type = 3,
+		id = 516,
+		icon = "title_chara_aimier",
+		memories = {
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363
+		}
+	},
+	[517] = {
+		title = "Journé Surcouf!",
+		type = 3,
+		id = 517,
+		icon = "title_chara_xukufu",
+		memories = {
+			364,
+			365,
+			366,
+			367,
+			368,
+			369,
+			370
 		}
 	},
 	[525] = {
@@ -1158,6 +1235,7 @@ pg.memory_group = {
 		129,
 		131,
 		132,
+		133,
 		141,
 		145,
 		147,
@@ -1171,6 +1249,7 @@ pg.memory_group = {
 		157,
 		158,
 		159,
+		160,
 		501,
 		502,
 		503,
@@ -1182,6 +1261,9 @@ pg.memory_group = {
 		511,
 		512,
 		513,
+		515,
+		516,
+		517,
 		525,
 		527,
 		528,

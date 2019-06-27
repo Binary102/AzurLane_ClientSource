@@ -106,6 +106,10 @@ function slot1(slot0)
 		slot4 = {}
 		slot5 = slot0
 		slot5 = slot5.ptData
+		slot5 = slot5.type
+		slot4.type = slot5
+		slot5 = slot0
+		slot5 = slot5.ptData
 		slot5 = slot5.dropList
 		slot4.dropList = slot5
 		slot5 = slot0
@@ -198,12 +202,14 @@ function slot1(slot0)
 	slot2 = slot2(slot3, slot4)
 	slot2 = slot2.story
 	slot3 = checkExist
-	slot4 = checkExist
-	slot5 = slot2
-	slot6 = slot1
-	slot4 = slot4(slot5, slot6)
-	slot5 = 1
-	slot3 = slot3(slot4, slot5)
+	slot4 = slot2
+	slot5 = {
+		slot1
+	}
+	slot6 = {
+		1
+	}
+	slot3 = slot3(slot4, slot5, slot6)
 
 	if slot3 then
 		slot3 = pg

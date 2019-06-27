@@ -13,10 +13,13 @@ pg.share_template = {
 			-261
 		},
 		hidden_comps = {
-			"UICamera/Canvas/UIMain/AdmiralUI(Clone)/top",
-			"UICamera/Canvas/UIMain/AdmiralUI(Clone)/left_panel/replace_btn",
-			"UICamera/Canvas/UIMain/AdmiralUI(Clone)/left_panel/L2D_btn",
-			"UICamera/Canvas/UIMain/AdmiralUI(Clone)/right_panel/btn_share"
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/left_panel/swichSkin_btn",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/left_panel/replace_btn",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/top/gizmos",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/top/title",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/bottom_panel",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/right_panel/btn_share",
+			"/UICamera/Canvas/UIMain/AdmiralUI(Clone)/blur_panel/adapt/right_panel/btn_attire"
 		}
 	},
 	{
@@ -32,12 +35,10 @@ pg.share_template = {
 			-261
 		},
 		hidden_comps = {
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/detail_left_panel",
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/bottom",
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/top",
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/detail_right_panel/eva_btn",
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/detail_right_panel/view_btn",
-			"UICamera/Canvas/UIMain/ShipProfileUI(Clone)/detail_right_panel/share_btn"
+			"/OverlayCamera/Overlay/UIMain/blur_panel",
+			"/UICamera/Canvas/UIMain/ShipProfileUI(Clone)/profile_panel/eva_btn",
+			"/UICamera/Canvas/UIMain/ShipProfileUI(Clone)/profile_panel/share_btn",
+			"/UICamera/Canvas/UIMain/ShipProfileUI(Clone)/profile_panel/view_btn"
 		}
 	},
 	{
@@ -51,28 +52,20 @@ pg.share_template = {
 			-261
 		},
 		hidden_comps = {
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/New",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/property_btn",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/left_panel",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/right_panel",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type/stars",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/dialogue"
+			"/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ForNotch",
+			"/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/property_btn",
+			"/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/dialogue",
+			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)",
+			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)"
 		},
 		show_comps = {
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/nation",
-			"OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/rarity"
+			"/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
 		},
 		move_comps = {
 			{
-				y = -95,
-				x = 16,
-				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
-			},
-			{
-				y = -10,
-				x = 0,
-				path = "OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/paint"
+				y = -920,
+				x = 18,
+				path = "/OverlayCamera/Overlay/UIMain/NewShipUI(Clone)/shake_panel/ship_type"
 			}
 		}
 	},
@@ -89,19 +82,9 @@ pg.share_template = {
 			-261
 		},
 		hidden_comps = {
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/top",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/addExpBtn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/addEnergyBtn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/stock_bg",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/buffListPanel",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/stock_bg",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/shop_btn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/train_btn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/floor_btn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/stock_bg",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/main/share_btn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/decorateBtn",
-			"UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"
+			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/main",
+			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/decorateBtn",
+			"/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui/back"
 		}
 	},
 	{
@@ -117,9 +100,11 @@ pg.share_template = {
 			261
 		},
 		hidden_comps = {
-			"OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/New",
-			"OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/left_panel",
-			"OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/set_skin_btn"
+			"/OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/dialogue",
+			"/OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/left_panel",
+			"/OverlayCamera/Overlay/UIMain/NewSkinUI(Clone)/shake_panel/set_skin_btn",
+			"/OverlayCamera/Overlay/UIEffect/ClickEffect(Clone)",
+			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
 		}
 	},
 	{
@@ -173,7 +158,7 @@ pg.share_template = {
 		name = "获得新指挥喵界面",
 		deck = 2,
 		move_comps = "",
-		camera = "UICamera",
+		camera = "OverlayCamera",
 		show_comps = "",
 		id = 9,
 		qrcode_location = {
@@ -181,8 +166,8 @@ pg.share_template = {
 			-261
 		},
 		hidden_comps = {
-			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
-			"/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
+			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
+			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/share"
 		}
 	},
 	{

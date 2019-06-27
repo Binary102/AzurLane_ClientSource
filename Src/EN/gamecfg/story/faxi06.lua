@@ -10,7 +10,7 @@ return {
 		{
 			actor = 204010,
 			side = 0,
-			say = "皇家舰队声望号向同盟舰队致与最亲切的问候，申请合流——",
+			say = "Greetings, Allied Fleet. I'm Renown, from the Royal Navy. I've come to join you.",
 			dir = 1,
 			bgm = "level03",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "第34特遣支队，白鹰西大洋舰队航空队·突击者号，前来迎接贵舰的合流",
+			say = "Task Force 34 Aircraft Carrier, Ranger. It's a pleasure to have you with us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 102090,
 			side = 1,
 			dir = 1,
-			say = "Hello,hello！这位就是皇家舰队的传奇舰声望号吗，果然感觉十分可靠呢！",
+			say = "Hello, hello! So you're the legendary Renown, huh? It's a relief to have someone as reliable as you here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "阁下多誉了，十分感谢贵方愿意支援本次行动，接下来我舰将全力配合贵方指挥",
+			say = "Nay, I am honored to be here. Thank you for your cooperation. I intend to fully support this fleet's operations as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "本次作战为皇家和白鹰的联合行动，主要目的为掩护主力部队的海岸登陆",
+			say = "This will be a joint operation between the Royal Navy and the Eagle Union. Our objective is to secure the coastal landing for our ground forces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "只要能够拓展陆间海以南的新战线，想必也会减轻赤色中轴对于皇家本岛和北方联合的威胁",
+			say = "If we are able to establish a foothold and expand a new front to the south of the Mediterranean, we would be able to reduce the risk that the Crimson Axis poses to both the Royal Navy and the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 102090,
 			side = 1,
 			dir = 1,
-			say = "这么说来就是“调虎离山”咯？！",
+			say = "In other words, we'd be diverting their attention!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "可以这么说，这次行动对于战局有着巨大的战略意义，也是对于两国同盟的关系验证~",
+			say = "That's one way of looking at it, but this operation has much more strategic importance behind it. It's also important to our alliance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "希望大家都能各司其职，全力以赴",
+			say = "In any case, everyone, please welcome Renown to the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 103110,
 			side = 1,
 			dir = 1,
-			say = "那么我们的敌人呢？",
+			say = "So, who are we gonna be fighting?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "除了摇曳在陆间海附近的塞壬外，还有一个不确定的威胁",
+			say = "Apart from the Sirens that will be blocking our advance, there is only one possible enemy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "——维希教廷",
+			say = "The Vichya Dominion...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 204010,
 			side = 0,
 			dir = 1,
-			say = "是的，目前维希教廷的军舰们对于此次行动的立场尚不明确，但是很有可能会进行反抗",
+			say = "That's correct. It's impossible to determine what the current situation is, but I would expect heavy resistance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 103110,
 			side = 1,
 			dir = 1,
-			say = "只要她们敢开炮，我们就狠狠的教训一下她们！",
+			say = "If they dare to aim their guns at us, we will teach them a painful lesson!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 105190,
 			side = 0,
 			dir = 1,
-			say = "......",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "那么，以上就是行动简报，行动将在60分钟后正式开始",
+			say = "Here is a summary of the operation. We will commence in 60 minutes, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 107040,
 			side = 1,
 			dir = 1,
-			say = "在此之前...先收拾一下接近中的塞壬吧",
+			say = "Before that, we'll have to take out the Sirens that are approaching us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

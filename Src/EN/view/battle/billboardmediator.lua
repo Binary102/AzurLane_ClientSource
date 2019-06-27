@@ -6,7 +6,9 @@ function slot0.register(slot0)
 	slot1 = getProxy(BillboardProxy)
 	slot2 = slot0.contextData.page or PowerRank.TYPE_POWER
 
-	slot0.viewComponent:updateRankList(slot0.contextData.page or PowerRank.TYPE_POWER, slot4, getProxy(BillboardProxy):getPlayerRankData(slot0.contextData.page or PowerRank.TYPE_POWER, slot0.contextData.act_id or checkExist(PowerRank:getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), "id")), slot0.contextData.act_id or checkExist(PowerRank.getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), "id"))
+	slot0.viewComponent:updateRankList(slot0.contextData.page or PowerRank.TYPE_POWER, slot4, getProxy(BillboardProxy):getPlayerRankData(slot0.contextData.page or PowerRank.TYPE_POWER, slot0.contextData.act_id or checkExist(PowerRank:getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), {
+		"id"
+	})), slot0.contextData.act_id or checkExist(PowerRank.getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), ))
 	slot0:bind(slot0.FETCH_RANKS, function (slot0, slot1, slot2)
 		if slot0:canFetch(slot1, slot2) then
 			slot1:sendNotification(GAME.GET_POWERRANK, {
@@ -29,7 +31,7 @@ function slot0.register(slot0)
 	return
 
 	slot2 = PowerRank.TYPE_POWER
-	slot3 = checkExist(PowerRank.getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), "id")
+	slot3 = checkExist(PowerRank.getActivityByRankType(slot0.contextData.page or PowerRank.TYPE_POWER), )
 end
 
 function slot0.listNotificationInterests(slot0)

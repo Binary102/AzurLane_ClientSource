@@ -150,6 +150,8 @@ slot0.CampJP = 4
 slot0.CampDE = 5
 slot0.CampCN = 6
 slot0.CampSN = 7
+slot0.CampFR = 8
+slot0.CampMNF = 9
 slot0.CampOther = 10
 slot0.CampTypes = {
 	slot0.CampAll,
@@ -159,6 +161,8 @@ slot0.CampTypes = {
 	slot0.CampDE,
 	slot0.CampCN,
 	slot0.CampSN,
+	slot0.CampFR,
+	slot0.CampMNF,
 	slot0.CampOther
 }
 slot0.CampNames = {
@@ -170,6 +174,7 @@ slot0.CampNames = {
 	"word_shipNation_dongHuang",
 	"word_shipNation_beiLian",
 	"word_shipNation_ziyou",
+	"word_shipNation_weixi",
 	"word_shipNation_other"
 }
 slot0.RarityAll = 1
@@ -239,8 +244,10 @@ slot0.Nation2Camp = {
 	4,
 	5,
 	6,
+	10,
+	7,
 	8,
-	7
+	9
 }
 
 function slot0.filterByCamp(slot0, slot1)
@@ -252,7 +259,7 @@ function slot0.filterByCamp(slot0, slot1)
 		slot3 = slot0.CampOther
 	end
 
-	for slot7 = slot0.CampUS, slot0.CampSN, 1 do
+	for slot7 = slot0.CampUS, slot0.CampMNF, 1 do
 		if bit.band(slot1, bit.lshift(1, slot7)) > 0 and slot3 == slot7 then
 			return true
 		end

@@ -17,16 +17,11 @@ function slot0.register(slot0)
 
 		if slot2 then
 			slot0:bind(slot0.USE_ITEM, function (slot0, slot1, slot2)
-				if getProxy(BagProxy):getItemById(slot1).getTempCfgTable(slot3).usage == ItemUsage.DROP and slot3:getConfig("type") ~= Item.EQUIPMENT_SKIN_BOX then
-					slot6 = getProxy(EquipmentProxy).getCapacity(slot5)
-					slot8 = getProxy(PlayerProxy).getData(slot7)
+				if getProxy(BagProxy):getItemById(slot1).getTempCfgTable(slot3).usage == ItemUsage.DROP and slot3:getConfig("type") ~= Item.EQUIPMENT_SKIN_BOX and getProxy(PlayerProxy).getData(slot7).equip_bag_max < getProxy(EquipmentProxy).getCapacity(slot5) + slot2 then
+					NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
+					slot0.viewComponent:doClose()
 
-					if not skipCheck and slot8.equip_bag_max < slot6 + slot2 then
-						NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
-						slot0.viewComponent:doClose()
-
-						return
-					end
+					return
 				end
 
 				slot0.viewComponent:PlayOpenBox(slot3:getTempConfig("display_effect"), function ()

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>二 上午的絮库夫</size>",
+					"Journé Surcouf!\n\n<size=45>Chapter 2 - Surcouf in the Morning</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……唔……这里是……哪里？",
+			say = "Mmh... ah... Where... am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是……指挥室？",
+			say = "The office...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "原来早上去叫指挥官起床是做梦吗，那我再睡会儿好了……",
+			say = "That's weird, I could've sworn I went off to wake up the Commander... Guess I dreamt it all up... Alright then, back to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			},
 			options = {
 				{
-					content = "把她叫醒",
+					content = "Wake her up",
 					flag = 1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "结果花了十分钟才让絮库夫彻底清醒过来。",
+			say = "After using nearly every method I could think of, I finally managed to wake up Surcouf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以是指挥官把我从卧室抱过来的吗？",
+			say = "You're saying you carried me all the way here from your room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，那样的话，指挥官也不算吃亏吧~",
+			say = "Hehe, wow~ That must've been a lot of fun for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉反而是我吃亏了呢，因为我完全不记得被指挥官抱着是什么样的感觉了。",
+			say = "Not so much for me, you know? I was fast asleep, so I don't know the feeling of being carried in your arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我要公主抱，现在，马上~",
+			say = "So I'm offering you the opportunity to do it again! Carry me like a princess!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,14 +177,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫说完就高举双手一副等着人去抱她的样子。",
+			say = "Surcouf got in position, waiting for me to lift and hold her in my arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "敲她的头",
+					content = "Gently whack her on the head",
 					flag = 1
 				}
 			}
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好疼！指挥官你也不用真的敲嘛……",
+			say = "Owie! I wasn't expecting you to hit me for that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊，不过，指挥官抱着我走过来，肯定被其他姐妹看到了吧，有没有被当作变态呀？",
+			say = "Right, I was wondering another thing! Did anyone catch you in the act of bringing me here? Did they look at you like you were some weird pervert?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "抱着沉睡的秘书舰从卧室走出来的指挥官，啊，他究竟对柔弱的秘书舰做出了怎样不可告人的事……",
+			say = "If I saw something like that, I'd be like: \"that poor girl... She's fast asleep, and the Commander's just carrying her around the place like that? How could anyone do something so cruel...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这背后有着怎样惊人的阴谋，可怜的絮库夫又将何去何从……",
+			say = "How is poor little Surcouf going to get married now that this has happened to her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			},
 			options = {
 				{
-					content = "说出实情",
+					content = "Actually...",
 					flag = 1
 				}
 			}
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "欸，同情和温暖的目光比较多？",
+			say = "Huh? They looked at you all compassionate and accepting, more than anything else...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "唔，毕竟也不是第一次了呢，嗯……嗯？",
+			say = "Well, I guess this isn't the first time it's happened...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我难道被大家当做麻烦的孩子了吗？！",
+			say = "Wait, does this mean they all think I'm annoying and don't care what happens to me?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫一脸发现了难以相信的事实的表情。",
+			say = "Surcouf was unable to contain her shocked reaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作时间到了",
+			say = "It's time to get to work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "唔，不管了，总而言之，絮库夫现在精力充沛，开工！",
+			say = "Darn it... Well, no use thinking too hard about it! I'm ready to start working! Let's do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

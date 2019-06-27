@@ -91,16 +91,22 @@ function slot0.getDataConfigTable(slot0)
 	slot2 = slot0:getConfig("config_id")
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
+		print("1")
+
 		return pg.activity_event_nianshou[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
+		print("1")
+
 		return pg.activity_event_monopoly[tonumber(slot2)]
 	elseif slot1 == ActivityConst.ACTIVITY_TYPE_PT_ACCUM then
+		print("1")
+
 		return pg.activity_event_pt[tonumber(slot2)]
 	end
 end
 
 function slot0.getDataConfig(slot0, slot1)
-	return slot0:getDataConfigTable()[slot1]
+	return slot0:getDataConfigTable() and slot2[slot1]
 end
 
 function slot0.isEnd(slot0)

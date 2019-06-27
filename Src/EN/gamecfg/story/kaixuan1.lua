@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>一 皇家茶会的客人</size>",
+					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 1 - Teatime Visitor</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日港区的午后…",
+			say = "One afternoon at the port...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "欢迎，主人、凯旋小姐，请坐在这里",
+			say = "Master, Lady Triomphant, please enjoy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和凯旋一起受邀参加了皇家不定时举办的茶会",
+			say = "Le Triomphant and I showed up to join the Royal Navy's tea time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "承蒙皇家诸位的邀请，非常荣幸能来参加下午茶会——",
+			say = "I'm honored to have been invited to your famous afternoon tea time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,22 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋边说边行了个礼",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "bg_story_school",
-			dir = 1,
-			say = "哼～你就是新来的自由鸢尾的小女孩吗",
+			say = "As she spoke, Le Triomphant took out a cutely-wrapped present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "不错！自由鸢尾也是有上得了台面的人物的嘛～",
+			say = "Hmm... So you're the new arrival from Iris Libre?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +127,22 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "另外那边的庶民！感到荣幸吧！你可是受邀参加了女王的茶会喔！",
+			say = "Good, I see that Iris Libre also cultivates some fine young ladies.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
+			say = "And you, the commoner over there! You should be more thankful, since I went out of my way to invite you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "是！女王大人万岁！",
+					content = "Thank you very much! Long live the Queen!",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "看来女王殿下对凯旋印象不错…",
+			say = "It seems that Le Triomphant had made a good impression upon Her Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "毕竟从各种意义上来说，确实都算是同伴呢",
+			say = "If you wanted to look at it a certain way, they certainly seemed to give off the same vibe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "指挥官，莫非你刚才在想着什么无比失礼的事情？",
+			say = "Commander, you were thinking of something rude just now, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "贝尔法斯特为大家倒了茶",
+			say = "The chief maid, Belfast, was pouring tea for everyone.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "这个口感是…大吉岭吗？",
+			say = "This aroma is... Darjeeling?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 202120,
 			side = 0,
 			bgName = "bg_story_school",
-			say = "是的，而且是新运来的春茶，这是伊丽莎白殿下也相当喜欢的品种",
+			say = "Yes. This particular batch was freshly picked in the spring. It's Her Majesty's favorite.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "难怪这么好喝～春茶据说是大吉岭中最珍贵，也是口感最好的呢",
+			say = "I see, so that's why it's so refreshing. I've always heard that the First Flush of Darjeeling is one of the most precious teas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哼哼哼，没错，区区自由鸢尾看来也有识货的人在嘛！",
+			say = "Heh heh, precisely! I can see that you have discerning tastes~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "……",
+			say = "...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "茶会啊…让人不禁想起过去在自由鸢尾办过的茶会呢…",
+			say = "Being here reminds me... of the tea parties we used to have back in Iris Libre...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "凯旋露出混杂着眷恋与寂寞的神情",
+			say = "Le Triomphant's eyes seemed to swim with a mix of affection and loneliness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "下次…为她办一次自由鸢尾和维希教廷的茶会吧",
+			say = "Perhaps it would be nice to have a tea party with the Vichya girls as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,8 +8,9 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if slot3:getConfig("scene") and #slot7 > 0 then
 		if slot7[1] == "ACTIVITY_MAP" then
 			slot8, slot9 = slot6:getLastMapForActivity()
+			slot10 = slot8 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity)
 
-			if not getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity) or slot10:isEnd() then
+			if not slot10 or slot10:isEnd() then
 				pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
 
 				return

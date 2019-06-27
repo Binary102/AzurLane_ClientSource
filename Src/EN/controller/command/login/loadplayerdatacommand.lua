@@ -34,7 +34,9 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerProxy(TechnologyNationProxy.New())
 	slot0.facade:registerProxy(AttireProxy.New())
 	slot0.facade:registerProxy(ShipSkinProxy.New())
+	slot0.facade:registerProxy(SecondaryPWDProxy.New({}))
 	slot0.facade:registerProxy(PrayProxy.New())
+	slot0.facade:registerProxy(EmojiProxy.New())
 	pg.ConnectionMgr.GetInstance():setPacketIdx(1)
 	pg.ConnectionMgr.GetInstance():Send(11001, {
 		timestamp = 0
@@ -64,7 +66,8 @@ class("LoadPlayerDataCommand", pm.SimpleCommand).execute = function (slot0, slot
 		slot5:recordLoginedServer(slot4.uid, slot6.id)
 		slot1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 		BilibiliSdkMgr.inst:callSdkApi("bindCpu", nil)
-		getProxy(PlayerProxy):setInited(true)
+		getProxy(PlayerProxy).setInited(slot7, true)
+		pg.SecondaryPWDMgr.GetInstance():FetchData()
 	end)
 end
 

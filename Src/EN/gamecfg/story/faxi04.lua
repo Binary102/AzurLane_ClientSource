@@ -12,7 +12,7 @@ return {
 			side = 0,
 			stopbgm = true,
 			dir = 1,
-			say = "已确认战果…敦刻尔克号，大破搁浅，普罗旺斯号，大破搁浅，布列塔尼号…击沉",
+			say = "Confirming combat results... Dunkerque - heavily damaged. Provence - heavily damaged. Bretagne - sunk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…还有一艘斯特拉斯堡号呢？",
+			say = "What about Strasbourg?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "越过了布雷区，在夜色中逃脱了",
+			say = "She managed to get through the naval mines and escaped during the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "这样吗？也好…",
+			say = "I suppose... that too is fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "没想到，我驰骋大洋二十年，今日的第一场正式作战，居然是将炮口对准曾经并肩作战的盟友…",
+			say = "In all my years of service, I never thought that I would have to turn my guns upon my allies...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…在时代的格局面前，这些都是无可奈何的选择",
+			say = "It's not your fault. We don't have a choice as things currently stand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "此身为舰，正是以服从司令部、指挥官所下达的命令为荣的…兵器",
+			say = "We were made to follow orders, from both Commander and Headquarters... as weapons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "如果只是兵器…现在心里的这份悔意，这份痛楚感又是什么！？",
+			say = "It'd be much easier if we were only weapons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…",
+			say = "Hood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "对不起…失态了",
+			say = "My apologies. I allowed my emotions to get the best of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "胡德脱下了军帽，优雅地向皇家方舟鞠了个躬表示歉意…",
+			say = "Hood removed her hat and bowed slightly, apologizing to Ark Royal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——沙沙沙（电报音）",
+			say = "------- (Bzzzzzt...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "收…收到了广域电播信号演讲…",
+			say = "We... we're receiving an area-wide broadcast!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "是来自维希教廷的最大战舰，黎塞留号！",
+			say = "This is from... Richelieu?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "亏我们还在四处寻找她的行踪，现在居然自己出现了？",
+			say = "We've been searching for her all this time, so why is she...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "快，看看信号来源是哪里？",
+			say = "Please track down the source of the signal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "信号来源是…",
+			say = "The signal is coming from...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 202130,
 			side = 0,
 			dir = 1,
-			say = "——皇家本岛",
+			say = "... the Royal Navy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgmDelay = 3,
 			bgm = "story-french",
 			mode = 2,
-			say = "———梦碎了",
+			say = "... Brothers and sisters, awaken to my call!",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -320,7 +320,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "在那一刻起，国家分崩离析，我们在一夜之间成为了赤色中轴手里的傀儡…",
+			say = "Our country has been shattered. Overnight, we became a puppet of the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "“——放下武器吧，不许抵抗”，我们被司令部这样命令到",
+			say = "\"Put down your weapons, and do not resist.\" This was the order that we were given.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "身为天之正统、骄傲的圣教骑士…连为信仰献身、争取自由的机会都没有得到就被宣告了失败",
+			say = "Iris's proud Templar Knights, tasked with preserving the teachings of the Orthodoxy, were declared defeated without even having an opportunity to fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "二十年前，先驱者们用无数牺牲夺回了属于我们的阿尔萨斯、洛林，一洗普法战争时的耻辱",
+			say = "Just decades ago, our predecessors made countless sacrifices to reclaim the lands that were rightfully ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "然而，二十年后的今天，国土却被一群可耻的叛教者们作为苟全性命的筹码出卖给了侵略者！",
+			say = "But now, our country has once again been betrayed, sold off by those who have turned against the Scriptures!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他们在恐惧的驱使下投降了，忘记了尊严，使我们的国家受到奴役",
+			say = "Due to their fear, they have thrown away their dignity and condemned us to slavery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "看着铁血的铁骑肆无忌惮的踏过凯旋门，踏过战神广场…",
+			say = "Is there any greater humiliation than watching the Iron Blood tread all over our beloved Arc de Triomphe and Champ de Mars? No, there is not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "这是莫大的耻辱，这是千百年来都未曾遭遇的耻辱！",
+			say = "Our immortal souls may patiently await salvation in Heaven, but our mortal country must be protected here and now, at all costs!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,21 +424,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "“人可不朽，救赎可待来日；国家不得永生，救赎唯有当下”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			mode = 2,
-			blackBg = true,
-			say = "我宣布，自由鸢尾在此刻正式成立，我们将是教廷所赋予的天之正统",
+			say = "From this moment forth, I declare the formation of Iris Libre!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +439,7 @@ return {
 			bgName = "bg_story_faxi1",
 			blackBg = true,
 			mode = 2,
-			say = "这面旗帜，曾经是百年战争期间那位圣少女所使用的标志，代表着牺牲与自由的标志",
+			say = "This standard was once flown by the Holy Virgin during the Hundred Years' War, and is a symbol for freedom and sacrifice. It shall once again fly in these lands.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -490,7 +476,7 @@ return {
 			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
-			say = "我向所有的国民们发出呼唤，不论你们身在何地，团结起来，带着牺牲精神和对未来的向往",
+			say = "Brothers and sisters, awaken to my call! For the sake of our country's future, gather underneath this banner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +490,7 @@ return {
 			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
-			say = "与我一道再次凝聚在这面旗帜之下！",
+			say = "Our country faces a grave peril, but we are not alone, nor are we helpless!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,8 +503,8 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			bgName = "bg_story_faxi1",
-			say = "我们的祖国危在旦夕，但我们不是孤独战斗，不是没有援助！",
+			bgName = "bgm_story_french",
+			say = "Brothers and sisters, great power still dwells within you. It is time to awaken that power!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +519,7 @@ return {
 			mode = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
-			say = "在自由的世界里，巨大的力量还在等待觉醒",
+			say = "In doing so, we will push back our enemies and emerge victorious. When that comes, we shall regain our lost glory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,9 +532,8 @@ return {
 		{
 			side = 2,
 			blackBg = true,
-			BgFade = true,
 			mode = 2,
-			say = "总有一天，这些力量会把敌人彻底粉碎！到那时，我们必须也必将以胜利者的姿态出现！",
+			say = "Remember, the light of God illuminates our path! Be steadfast in your convictions, and never lose hope!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -585,7 +570,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那时，它将重新恢复昔日的自由与辉煌",
+			say = "No matter what happens, the flames of liberty will never be extinguished!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +583,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "自由终将引导人民",
+			say = "To all my brothers and sisters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,34 +596,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "无论发生任何事，自由的火焰不能熄灭，也绝不会熄灭！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			mode = 2,
-			side = 2,
-			say = "因父及子及圣神之名",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			mode = 2,
-			blackBg = true,
-			say = "自由鸢尾第一旗舰——黎塞留",
+			say = "May you all be blessed by Father, Son, and the Holy Spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +610,7 @@ return {
 			actor = 204030,
 			side = 2,
 			dir = 1,
-			say = "……",
+			say = "...",
 			effects = {
 				{
 					active = false,
@@ -688,7 +646,7 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			say = "真是充满激情的演讲，不愧是继承了红衣主教之名的新锐战舰啊",
+			say = "Quite the stirring speech. So that's the girl who has become the new Cardinal...",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -707,7 +665,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "看来，世界的格局又要发生翻天覆地的变化了呀~",
+			say = "By the looks of things, the world order is about to shift once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +679,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "是呀，恐怕更大的暴风雨…就要来临了",
+			say = "Yes... I fear that the storm will grow even more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

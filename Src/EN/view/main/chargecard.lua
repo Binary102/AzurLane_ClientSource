@@ -218,29 +218,26 @@ function slot0.updateCountdown(slot0, slot1)
 		slot3 = pg.TimeMgr.GetInstance()
 
 		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr:GetInstance():Table2ServerTime(slot1)) < 365)
-
-		slot3 = pg.TimeMgr:GetInstance()
-
 		slot4()
 
-		slot5 = os.time(slot1)
+		slot5 = pg.TimeMgr:GetInstance().Table2ServerTime(slot3, slot1)
 		slot0.updateTimer = Timer.New(function ()
-			if slot0:LaterThan(os.server_date("*t", slot0), ) then
+			if slot0 < slot0:GetServerTime() then
 				slot2()
 			end
 
-			if slot3 - slot0 < 0 then
-				slot2 = 0
+			if slot1 - slot0 < 0 then
+				slot1 = 0
 			end
 
-			if math.floor(slot2 / 86400) > 0 then
-				setText(slot4.countDownTm, i18n("skin_remain_time") .. slot3 .. i18n("word_date"))
-			elseif math.floor(slot2 / 3600) > 0 then
-				setText(slot4.countDownTm, i18n("skin_remain_time") .. slot4 .. i18n("word_hour"))
-			elseif math.floor(slot2 / 60) > 0 then
-				setText(slot4.countDownTm, i18n("skin_remain_time") .. slot5 .. i18n("word_minute"))
+			if math.floor(slot1 / 86400) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot2 .. i18n("word_date"))
+			elseif math.floor(slot1 / 3600) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot3 .. i18n("word_hour"))
+			elseif math.floor(slot1 / 60) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot4 .. i18n("word_minute"))
 			else
-				setText(slot4.countDownTm, i18n("skin_remain_time") .. slot2 .. i18n("word_second"))
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot1 .. i18n("word_second"))
 			end
 		end, 1, -1)
 

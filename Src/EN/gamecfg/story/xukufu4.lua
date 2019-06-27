@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>四 午饭中的絮库夫</size>",
+					"Journé Surcouf!\n\n<size=45>Chapter 4 - Surcouf in the Noon</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·食堂",
+			say = "Port - Cafeteria",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "指挥官，给我肉丸子，还有小章鱼，还有这个……哦，这个好像也不错欸~",
+			say = "Commander, I want some of those meatballs, octopus weiners, that thing... those, and that! C'mon, gimme!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			},
 			options = {
 				{
-					content = "护住自己的餐盘",
+					content = "Move your side dishes away",
 					flag = 1
 				}
 			}
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，我可是特意选了完全和指挥官不同的菜，就是为了现在来交换哦？",
+			say = "Hey! I specifically chose different sides so I could trade with you, you know!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你也可以吃我的菜嘛，来来来，这个给你，还有这个，唔，这个有点舍不得呢……不过还是给指挥官好了！",
+			say = "I'm not just gonna take without giving! Here, have this, some of this... this too, and... I don't like giving this one up, but here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，现在体会到有个好秘书的好处了吧！",
+			say = "Heheh, isn't it great to have such a generous secretary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,13 +116,12 @@ return {
 			}
 		},
 		{
-			expression = "1",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			actor = 904010,
+			side = 2,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "絮库夫，今天也和指挥官一起吃午饭吗，关系真好呢。",
+			dir = 1,
+			say = "Ah, enjoying lunch together with the Commander again? Aren't you a lovely couple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +137,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敦刻尔克，中午好呀~我可是秘书舰，当然要和指挥官一起吃饭啦。",
+			say = "G'day, Dunkerque! Wait, don't you know? I'm the Commander's secretary, so there's nothing strange about us having lunch together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +148,12 @@ return {
 			}
 		},
 		{
-			expression = "2",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			actor = 904010,
+			side = 2,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "呵呵，是呢，对了，今天我做了一些点心哦，想吃的话记得来我这边。",
+			dir = 1,
+			say = "Aha, I suppose that's true. By the way, I made a few confections today. Do visit me later if you'd like some.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +169,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "真的吗，太好了~指挥官，下班之后我们一起去敦刻尔克那里吃点心吧。",
+			say = "Really?! Heck yeah~ Hey, Commander, once we're done working, let's drop by Dunkerque's place for some tasty sweets!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,18 +180,17 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Nod",
 					flag = 1
 				}
 			}
 		},
 		{
-			expression = "1",
-			side = 2,
-			bgName = "bg_story_task",
 			actor = 904010,
+			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
-			say = "呵呵，那我就不打扰你们了。",
+			say = "Now then, I'll be on my way before I become a nuisance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "拜拜~",
+			say = "Au revoir!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,22 +230,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敦刻尔克人真好呢，指挥官也这么觉得吧~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "不过明明都是维希教廷，敦刻尔克给人感觉就像姐姐一样，让巴尔就截然相反呢…",
+			say = "Man, Dunkerque's such a nice girl, don't you think?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哦对了，指挥官，你知道吗，我和让巴尔的名字来源都是著名的海盗哦！呃，她那个应该也算海盗吧？",
+			say = "There's this other girl, Jean Bart, from the same faction. But in stark contrast to the sweet and caring Dunkerque, Jean Bart is kind of cold and mean...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "管他的，总之，让巴尔给人的感觉就很像是冷酷的海盗呢，不过我对那种没什么兴趣就是了～",
+			say = "Which reminds me of some fun trivia! Commander, did you know that both Jean Bart and I got our names from famous pirates? Though I'm not sure if her namesake was a pirate or technically some other thing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,42 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对我来说，吃好，睡好，在战场上好好战斗，其他就交给指挥官，这样的生活就已经心满意足啦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "确实，絮库夫虽然平常看起来那副样子…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "但是无论是战斗还是任务上都没有偷懒，反而是受到嘉奖的次数更多",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "啊，不过，让巴尔那样的有时候也觉得挺帅的呢。",
+			say = "Anyhow, I guess she's got some appeal. Piratey appeal. I wouldn't say I'm like that, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +290,57 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“别随便靠近我！”什么的，指挥官也来模仿一下嘛。",
+			say = "Eat a lot, sleep a lot, fight a lot! And everything else is your responsibility~ That's the life I wanna live~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "I don't blame people for getting the impression that Surcouf is a lazy girl. But there's more to her than that...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "When it comes to combat and mission performance, I've heard nothing but good things about her.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "Still, sometimes I think about how cool she can be. I'm sure lots of people do.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "She's all like \"keep your damn distance!\" and stuff. Hey, you try it, Commander! I wanna hear you say it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……还是继续吃饭吧。",
+			say = "... Let's just focus on our lunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

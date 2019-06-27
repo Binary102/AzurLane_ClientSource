@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>五 心声</size>",
+					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 5 - Listen to Your Heart</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
-			say = "一边走一边听凯旋说了起来",
+			say = "I asked Le Triomphant what was bothering her while we walked around port.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官知道的吧，我是空想级最小的妹妹",
+			say = "Commander, did you know that I'm the youngest sister of the Le Fantasque class?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在我上面还有好几位姐姐大人",
+			say = "Yes, as you might surmise, I have several other older sisters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "过去我们的关系很好，而我也以为，我们可以一直那样下去",
+			say = "Before that war, we were all very close. I thought that things would be able to stay like that forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "战争刚开始的时候，我还想着，只要和姐姐们在一起，就什么都不用怕",
+			say = "Even when war broke out, I had nothing to fear as long as my sisters were with me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "但是现实却没有那么简单…",
+			say = "But reality was much harsher.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "因为各种各样的原因，我们走向了各自不同的道路",
+			say = "There were a lot of complicated circumstances; everyone started to go their separate ways...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "明明大家都是为了一样的目标，为什么会变成现在这样呢？",
+			say = "Even though we're all aiming for the same goal, why did we end up having to fight each other...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			},
 			options = {
 				{
-					content = "总有一天会互相理解的",
+					content = "ou'll be able to overcome your differences one day.",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "谢谢…这支舰队多少让人看到了一丝希望，但是——",
+			say = "Since coming here, I've managed to regain some of my hope thanks to you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "在内心的某处，还是隐约有一种感觉……",
+			say = "Somewhere deep in my heart, this has always been bothering me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即便大家重新站到一条战线，恐怕也没有那么容易回到以往吧…",
+			say = "Even if we're all in the same fleet, would it really be so easy for things to return to how they used to be...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,22 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋脸上露出十分悲伤的表情",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 801010,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "所以，刚才在看到黑暗界小姐和恐怖小姐，还有列克星敦小姐和萨拉托加小姐时，我的心里其实是有些羡慕的",
+			say = "Le Triomphant's expression was full of sorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "和姐姐大人们，什么时候也能像那样，回到最初亲密无间的那个时候呢…",
+			say = "That's why when I saw Erebus and Terror, Lexington and Saratoga, I felt a little jealous...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +239,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "即使现在能够和姐姐大人们重逢，我也不知道该用怎样的表情去面对她们",
+			say = "I hope that one day, I'll be able to return to those days where I can get along with my sisters again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +254,22 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官，你能告诉我我该怎么做吗？",
+			say = "But as things are right now, even if I was to meet them, I don't know what I should do...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 801010,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			say = "Commander, can you tell me what I'm supposed to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的悲伤中带上了一丝的无助…",
+			say = "Her sorrowful voice quivered with helplessness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

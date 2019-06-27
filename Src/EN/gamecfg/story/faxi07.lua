@@ -10,7 +10,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "WARNING: Large numbers of enemy hostiles detected. All hands prepare for combat.",
 			dir = 1,
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
@@ -21,14 +21,14 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "——警告：周边海域出现大量海空单位，全员作战戒备——",
+			say = "WARNING: Large numbers of enemy hostiles detected. All hands prepare for combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "大洋彼岸袭来风暴终于来临了吗，2年了，真是个漫长的等待啊",
+			say = "You've come at last! \"The storm brewing over the ocean...\" I've waited two long years for you!",
 			side = 0,
 			bgName = "bg_story_faxi2",
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			actor = 905010,
 			side = 0,
 			bgName = "bg_story_faxi2",
-			say = "这就是你所期望的吗，我的姐姐？",
+			say = "Tell me, Richelieu, is this the outcome that you wished for?",
 			dir = 1,
 			withoutPainting = true,
 			typewriter = {
@@ -81,7 +81,7 @@ return {
 			bgmDelay = 3,
 			bgm = "story-french",
 			mode = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻来临了！！！",
+			say = "Cavaliers of the Vichya Dominion, our crusade begins now!",
 			flashout = {
 				dur = 1.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "两年前，一群无耻的劫匪带着他们的野心闯进了我们的家园",
+			say = "Two years ago, our homeland was vandalized by invaders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "这群伪善的小人，为了吞并我们伟大的海上力量而不择手段",
+			say = "They would resort to any unscrupulous means in order to seize our glorious navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里没有骑士精神，更没有任何的信仰",
+			say = "They lack any concept of chivalry, in the same way they lack any concept of faith.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "她们的世界里只有欺骗和背叛！",
+			say = "The only things they know are deception and betrayal!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "敦刻尔克、普罗旺斯、布列塔尼，我们永远记得这些名字，永远记得那一天的耻辱",
+			say = "Dunkerque, Provence, Bretagne, we will always remember your names, as well as the humiliation we endured on that day!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一天，我们没有挺身而出",
+			say = "On that day, we did not stand and deliver.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "那一年，我们选择忍气吞声",
+			say = "On that day, we chose to turn the other cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "害怕吗，后悔吗？",
+			say = "Does that mean that the true will of the Iris Orthodoxy, Vichya Dominion, is afraid of those who have made bargains with an outside enemy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "不！",
+			say = "Certainly not!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "一次的失败并不可怕，他让我们看清了局势，看清了世界的野心",
+			say = "On that day, we were indeed defeated. However, we were able to painfully learn the true nature of this world better than anyone else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他让我们看清了差距，让我们变得比昨天更强！",
+			say = "The enemy was strong then. But we too have grown. We are no longer the same Vichya Dominion that we were before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "圣神有明，当时的劫匪们在此之后，遭到了她们应有的报应",
+			say = "Those evildoers were able to evade divine retribution once...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而如今，她们背后的阴谋家却带着邪恶的阴谋再次归来",
+			say = "And now they come for our homeland once more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "他们说“我们是来给予你们自由的”",
+			say = "They claim to want to \"liberate us,\" to \"give us the right to choose freely.\" Their platitudes are nothing more than honey laced with poison.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "而主言“该撒的物当归给该撒，神的物当归给神” ",
+			say = "\"Render unto Caesar the things that are Caesar's, and unto God the things that are God's.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "——自由从来不是靠别人施舍的！",
+			say = "Freedom is not something that can be obtained as someone else's prisoner! It can only be given by God!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "如今的我们，在新的力量下，变得坚不可摧，变得无法阻挡",
+			say = "With the new powers that we possess, we are now unstoppable!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "勇敢的圣教骑士们，神圣的时刻终于来临了！",
+			say = "Once again, Cavaliers of the Vichya Dominion, our crusade begins now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "我们才是世界承认的天之正统，荣耀必将归于我们！！",
+			say = "We shall now prove to the world that we are the true Iris Orthodoxy! Glory shall smile upon us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "Que Dieu vous bénisse tous",
+			say = "Que Dieu vous bénisse tous.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 		{
 			mode = 2,
 			side = 2,
-			say = "全舰队校准目标——开火！！！",
+			say = "All fleet members, take aim... and fiiiiiire!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 101300,
-			say = "开开开…维希教廷的舰队朝我们的登陆部队开火了！！",
+			say = "V-V-Vichya warships are firing at us!",
 			effects = {
 				{
 					active = false,
@@ -443,7 +443,7 @@ return {
 		},
 		{
 			actor = 102030,
-			say = "登陆部队受到重创，立即请求支援！",
+			say = "The landing force has sustained significant damage! Requesting backup!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -490,7 +490,7 @@ return {
 		},
 		{
 			actor = 102030,
-			say = "重复一遍，登陆部队受到重创，立即请求支援！！",
+			say = "I repeat! The landing force has sustained significant damage! Requesting backup!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -537,7 +537,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "任务果然不会那么简单呀…",
+			say = "I knew it wouldn't be that easy...",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -584,7 +584,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "周边空域所有舰载机听令，任务变更，任务变更",
+			say = "All air and sea forces, the mission has changed.",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -631,7 +631,7 @@ return {
 		},
 		{
 			actor = 107040,
-			say = "优先压制卡萨布兰卡附近所有岸防炮，开始掩护登陆部队行动",
+			say = "Prioritize suppressing all shore defenses near Casablanca and begin landing operations there.",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -678,7 +678,7 @@ return {
 		},
 		{
 			actor = 102090,
-			say = "呀~果然还是打起来了呢，可惜对手里似乎没有飞机呀，都没有我大展身手的机…",
+			say = "So, looks like we've ended up fighting after all... Though, I won't get to show off if the enemy doesn't have any planes...",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -725,7 +725,7 @@ return {
 		},
 		{
 			actor = 102090,
-			say = "哇呀呀！是塞壬的舰载机攻击！！",
+			say = "Wooaaahhh! We're getting bombed by Siren planes?!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",
@@ -772,7 +772,7 @@ return {
 		},
 		{
 			actor = 103110,
-			say = "不要大意，周边的护航和防空就交给你了，我倒是要去会会塞壬的新型空母！",
+			say = "Don't let your guard down! I'll leave the air defense here to you! I'm going to find that Siren carrier and smash it to pieces!",
 			dir = 1,
 			side = 1,
 			soundeffect = "event:/battle/boom2",

@@ -384,7 +384,7 @@ function slot0.updateMail(slot0, slot1)
 			setActive(slot3, slot1.readFlag == 2)
 		end
 
-		setText(slot7, slot1.title)
+		setText(slot7, shortenString(slot1.title, 15))
 		setText(slot8, os.date("%m/%d/%y", slot1.date))
 		setActive(slot2:Find("star"), slot1.importantFlag == 1)
 

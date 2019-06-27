@@ -56,7 +56,8 @@ function slot0.onRegister(slot0)
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = slot1,
 				onNo = slot2,
-				onYes = slot2
+				onYes = slot2,
+				weight = LayerWeightConst.TOP_LAYER
 			})
 		end
 	end)
@@ -71,7 +72,8 @@ function slot0.onRegister(slot0)
 				slot0.viewComponent:emit(BaseUI.ON_DROP, slot0, function ()
 					slot0.viewComponent:emit(BaseUI.ON_DROP_LIST, slot0.viewComponent)
 				end)
-			end
+			end,
+			weight = LayerWeightConst.TOP_LAYER
 		})
 	end)
 	slot0:bind(BaseUI.ON_ITEM, function (slot0, slot1)
@@ -274,16 +276,14 @@ end
 function slot0.onBackPressed(slot0, slot1)
 	playSoundEffect(SFX_CANCEL)
 
-	slot3 = getProxy(ContextProxy):getContextByMediator(slot0.class)
+	slot2 = getProxy(ContextProxy)
 
 	if slot1 then
-		if slot3.parent and pg.m02:retrieveMediator(slot3.mediator.__cname) and slot4.viewComponent then
+		if slot2:getContextByMediator(slot0.class).parent and pg.m02:retrieveMediator(slot3.mediator.__cname) and slot4.viewComponent then
 			slot4.viewComponent:onBackPressed()
 		end
-	elseif slot3.scene then
-		slot0.viewComponent:emit(BaseUI.ON_BACK)
 	else
-		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
+		slot0.viewComponent:closeView()
 	end
 end
 

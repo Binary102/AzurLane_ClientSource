@@ -66,32 +66,30 @@ function slot0.update(slot0, slot1, slot2)
 end
 
 function slot0.updateCountdown(slot0, slot1)
-	slot2 = pg.TimeMgr:GetInstance()
-
 	slot0:destoryTimer()
 
-	slot3 = pg.TimeMgr:GetInstance():Table2ServerTime(slot1)
+	slot3 = pg.TimeMgr:GetInstance().Table2ServerTime(slot2, slot1)
 	slot0.updateTimer = Timer.New(function ()
-		if slot0:LaterThan(os.server_date("*t", slot0), ) then
+		if slot0 < slot0:GetServerTime() then
 			slot2.countDownTm.text = ""
 
-			slot2.countDownTm:destoryTimer()
+			"":destoryTimer()
 
 			return
 		end
 
-		if slot3 - slot0 < 0 then
-			slot2 = 0
+		if slot1 - slot0 < 0 then
+			slot1 = 0
 		end
 
-		if math.floor(slot2 / 86400) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_date")
-		elseif math.floor(slot2 / 3600) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_hour")
-		elseif math.floor(slot2 / 60) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot5 .. i18n("word_minute")
+		if math.floor(slot1 / 86400) > 0 then
+			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_date")
+		elseif math.floor(slot1 / 3600) > 0 then
+			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_hour")
+		elseif math.floor(slot1 / 60) > 0 then
+			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_minute")
 		else
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_second")
+			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot1 .. i18n("word_second")
 		end
 	end, 1, -1)
 

@@ -25,7 +25,7 @@ end
 
 function slot0.getConent(slot0)
 	slot1 = getOfflineTimeStamp(slot0.time)
-	slot2 = pg.TimeMgr.GetInstance():DescTime(slot0.time, "[%m-%d %H:%M]")
+	slot2 = pg.TimeMgr.GetInstance():STimeDescC(slot0.time, "[%m-%d %H:%M]")
 
 	if slot0.cmd == slot0.CMD_TYPE_JOIN then
 		return i18n("guild_log_new_guild_join", slot0.name), slot1

@@ -80,6 +80,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.NAVALACADEMYSCENE then
 			slot4.mediator = NavalAcademyMediator
 			slot4.viewComponent = NavalAcademyScene
+		elseif slot3 == SCENE.NAVALTACTICS then
+			slot4.mediator = NavalTacticsMediator
+			slot4.viewComponent = NavalTacticsLayer
 		elseif slot3 == SCENE.SETTINGS then
 			slot4.mediator = SettingsMediator
 			slot4.viewComponent = SettingsScene

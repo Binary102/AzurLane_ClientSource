@@ -2595,6 +2595,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[354] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 354,
+		type = 5,
+		index_id = 75,
+		group_type = 10519,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[70] = {
 		nationality = 1,
 		hide = 0,
@@ -7870,6 +7893,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[346] = {
+		nationality = 4,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 346,
+		type = 1,
+		index_id = 261,
+		group_type = 40118,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Monthly Sign-in",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[264] = {
 		nationality = 4,
 		hide = 0,
@@ -8789,6 +8835,194 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[348] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 801029,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 348,
+		type = 1,
+		index_id = 297,
+		group_type = 80102,
+		trans_type = 1,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4071
+		},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[347] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 347,
+		type = 1,
+		index_id = 300,
+		group_type = 80101,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[349] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 802019,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 349,
+		type = 2,
+		index_id = 301,
+		group_type = 80201,
+		trans_type = 2,
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12360
+		},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[350] = {
+		nationality = 8,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 350,
+		type = 8,
+		index_id = 302,
+		group_type = 80801,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[351] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 901019,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 351,
+		type = 1,
+		index_id = 303,
+		group_type = 90101,
+		trans_type = 1,
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4071
+		},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[352] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 352,
+		type = 4,
+		index_id = 305,
+		group_type = 90401,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[353] = {
+		nationality = 9,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 353,
+		type = 5,
+		index_id = 306,
+		group_type = 90501,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Iris of Light and Dark",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[10001] = {
 		nationality = 101,
 		hide = 0,
@@ -9292,6 +9526,7 @@ pg.ship_data_group = {
 		63,
 		64,
 		65,
+		354,
 		70,
 		71,
 		72,
@@ -9452,6 +9687,7 @@ pg.ship_data_group = {
 		340,
 		232,
 		233,
+		346,
 		264,
 		265,
 		266,
@@ -9485,6 +9721,13 @@ pg.ship_data_group = {
 		258,
 		259,
 		262,
+		348,
+		347,
+		349,
+		350,
+		351,
+		352,
+		353,
 		10001,
 		10002,
 		10003,

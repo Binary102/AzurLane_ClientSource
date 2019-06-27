@@ -42,9 +42,8 @@ function slot0.setRank(slot0, slot1, slot2)
 
 	slot0._playerExpProgress:GetComponent(typeof(Image)).fillAmount = slot2.score / slot5
 
-	setText(slot0._playerBonusExp, i18n("word_rankScore") .. "+0")
+	setText(slot0._playerBonusExp, "+0")
 
-	slot0.playerProgressLabel = i18n("word_rankScore") .. "+"
 	slot0.calcPlayerProgress = slot0.calcPlayerRank
 end
 
@@ -64,7 +63,7 @@ function slot0.setPlayer(slot0, slot1)
 		slot0._playerExpProgress:GetComponent(typeof(Image)).fillAmount = 1
 	end
 
-	setText(slot0._playerBonusExp, "0")
+	setText(slot0._playerBonusExp, "+0")
 
 	slot0.calcPlayerProgress = slot0.calcPlayerExp
 	slot3 = slot0.contextData.extraBuffList

@@ -64,16 +64,17 @@ function slot0.OnSelected(slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-function slot0.UpdateFashion(slot0)
-	slot2 = slot0.shareData:GetGroupSkinList(slot1)
+function slot0.UpdateFashion(slot0, slot1)
+	slot0.fashionSkins = slot0.shareData:GetGroupSkinList(slot0:GetShipVO().groupId)
 
-	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or #slot2 <= 1 then
+	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or #slot0.fashionSkins <= 1 then
 		return
 	end
 
-	if true or slot0.fashionGroup ~= slot1 then
-		slot0.fashionGroup = slot1
-		slot0.fashionSkins = slot2
+	if slot0.fashionGroup ~= slot2 or slot1 then
+		slot0.fashionGroup = slot2
+
+		slot0:ResetFashion()
 
 		for slot6 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1, 1 do
 			cloneTplTo(slot0.styleCard, slot0.styleContainer)
@@ -112,10 +113,7 @@ function slot0.UpdateFashion(slot0)
 		end
 	end
 
-	if slot0.fashionSkinId == 0 then
-		slot0.fashionSkinId = slot0:GetShipVO().skinId
-	end
-
+	slot0.fashionSkinId = slot0:GetShipVO().skinId
 	slot3 = slot0.styleContainer:GetChild(0)
 
 	for slot7, slot8 in ipairs(slot0.fashionSkins) do

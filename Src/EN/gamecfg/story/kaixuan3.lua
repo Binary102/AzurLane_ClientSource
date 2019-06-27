@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>三 出击的凯旋小姐</size>",
+					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 3 - Le Triomphant, Sortie!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
-			say = "任务海域",
+			say = "Operation Sea Area",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "注意左舷！鱼雷接近中！",
+			say = "Torpedoes incoming from port! Watch out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "炮击不要停下！",
+			say = "Please keep firing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "全体改为单纵阵，让我们一口气冲散敌人！",
+			say = "Line ahead! We're going to break the enemy's formation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 801010,
-			say = "这里需要主力舰队的伙伴们配合了!",
+			say = "Requesting assistance from the main fleet!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "准备好了吗？!请求空袭支援!",
+			say = "Are preparations complete? Please provide us with aerial support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			actor = 801010,
-			say = "哼哼～想要跟上空想级的速度，可没有那么容易哟～",
+			say = "You'll find that the speed of the Le Fantasque-class is not easily matched!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "指挥官，任务完成咯，可以凯旋而归了呢，呵呵～",
+			say = "Commander, operation complete! We'll be able to come back home soon, hehe~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "在凯旋的活跃下，出击任务很顺利地完成了",
+			say = "With Le Triomphant's leadership, the combat operation was a great success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "Port - Harbor",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -236,7 +236,7 @@ return {
 			},
 			options = {
 				{
-					content = "夸奖凯旋",
+					content = "Praise Le Triomphant",
 					flag = 1
 				}
 			}
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "那还用说～我可是空想级的凯旋啊～",
+			say = "It's only natural! It comes with being an elegant Le Fantasque-class destroyer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "不过任务能顺利完成，还是靠大家的齐心协力呢",
+			say = "However, this victory would not have been possible without everyone's hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "无论是舰队的大家，还是指挥官，都非常棒",
+			say = "That includes you too, Commander. Your instructions were also important!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "能加入这样出色的舰队，我觉得非常开心哦",
+			say = "I'm glad that I was able to be a part of such an excellent fleet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "好啦，作战辛苦了，指挥官。喝杯红茶，再继续工作吧？",
+			say = "So once again, good job on the operation, everyone. Commander, would you like to join me for some tea before we get back to work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "果然是，无比优秀的秘书舰呢",
+			say = "Ahh, what an exemplary secretary ship. Truly without equal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

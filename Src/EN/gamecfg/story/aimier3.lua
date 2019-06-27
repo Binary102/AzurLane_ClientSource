@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>三 意外な得意技</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 3 - Hidden Talent</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "母港·執務室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "指揮官、またエミールを借りに来たにゃ！",
+			say = "Commander, I need to borrow Émile from you again, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,14 +72,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……今週に入ってもう3回目か。",
+			say = "... For the third time this week? Really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "理由を聞く",
+					content = "Ask Akashi what she needs her for",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "エミールが店員をやってくれたおかげで、今月の売上が奇跡的に高くなっているのにゃ！",
+			say = "My sales for this month have miraculously increased thanks to Émile helping out at my shop, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			}
 		},
 		{
-			say = "え？私なんかしたの？",
+			say = "Huh? How is that thanks to me?",
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "エミールはいい人にゃ！天使にゃ！みんなをいっぱい助けたからにゃ！",
+			say = "Because you're a nice person, nya! You're an angel, nya! You're always helping everybody out, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう…？この前店番をやった時、白露ちゃんに道案内をしたり、エレバスちゃんの代わりに少しだけテラーちゃんの面倒を見たり、",
+			say = "Really...? But the last time I substituted for you, all I did was show Shiratsuyu around, looked after Terror on Erebus' behalf...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仲間たちの相談事に付き合ったり、あとはダンスを披露したり……それくらいしかしてない気がするわ。",
+			say = "... gave advice to some friends of mine, and showed off some of my dance performances. I'm pretty sure that's all I did.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "それにゃ！みんなエミールに助けれられたにゃ！その義理で明石のお店で買い物してくれたにゃ！",
+			say = "That's exactly it, nya! You're helping everyone out, nya! And they show their gratitude by shopping at my store, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そ、そうだったの…？仲間を助けるのは当たり前だから、普通に助けただけよ？別に恩を感じるほどのことでは……",
+			say = "D-do they...? I'll always help a friend in need, that's all it is. I don't do it so that they'll feel indebted to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "エミールさんはみんなが必要な時に必要なことをしてくれるのでございますからね。致し方ございません……",
+			say = "That is because you are always able to discern what it is a person wants, and you know how to help them with it in a capable manner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "いつの間にか不知火も現れた。",
+			say = "Suddenly, Shiranui popped up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あらら、そう言われるとなんだか恥ずかしいわ～",
+			say = "It sounds quite embarrassing when you describe it like that~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "そう謙遜なさらないでください。妾もお借りしたい側でございますので。",
+			say = "Please, you need not be so humble. I, too, am indebted to you.",
 			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -271,7 +271,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "にゃ！？ぬいぬいはどこから現れたにゃ！明石のエミールを奪うんじゃないにゃ！",
+			say = "Nya?! Where the heck did you come from, nya?! If you came to try to steal Émile from me then get lost, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "ちっ…とにかく、エミールさんの販促力は本物でございます。妾と明石の売上を見れば自ずとおわかりいただけます…",
+			say = "Bah... In any event, Émile's talent to sell products is undeniable. She need only see our recent increases in sales to understand her influence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = -1,
-			say = "いわゆる「癒し系」でございましょう。余所で見ていた妾も危うく成仏させられるところでございました……ふふふ……",
+			say = "Indeed, one could call her very presence therapeutic. Even I felt as though I may ascend to the heavens when observing her, even from afar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "そこまで凄くはないわよ！でも二人がそこまで言うのなら、今度は一度両方の店員をやってみるのはどうかしら？指揮官？",
+			say = "Please, I'm not THAT amazing! Still, if you think my contributions matter so much, then how about I watch both of your stores for a while? Would that be okay, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			},
 			options = {
 				{
-					content = "エミールの提案に同意する",
+					content = "Agree to her proposition",
 					flag = 1
 				}
 			}
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "今度店番の様子を見に行くか。",
+			say = "I guess I should go check on her later when she's shopkeeping.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

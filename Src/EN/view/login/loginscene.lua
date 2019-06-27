@@ -183,7 +183,7 @@ end
 
 function slot0.setBg(slot0)
 	slot1 = "login"
-	slot2 = pg.TimeMgr.GetInstance():ServerTimeDesc("%Y%m%d")
+	slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d")
 
 	for slot6, slot7 in ipairs(SPECIAL_DATE) do
 		if slot7[1] == slot2 then

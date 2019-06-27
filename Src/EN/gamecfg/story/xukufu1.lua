@@ -11,18 +11,18 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>一 清晨的絮库夫</size>",
+					"Journé Surcouf!\n\n<size=45>Chapter 1 - Surcouf at Sunrise</size>",
 					1
 				}
 			}
 		},
 		{
-			bgmDelay = 2,
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			blackBg = true,
+			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "Port - Private Quarters",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,9 +47,9 @@ return {
 		},
 		{
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			blackBg = true,
-			say = "朦胧之中，感觉鼻子痒痒的…",
+			say = "It felt like something was rubbing against my nose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,10 +58,10 @@ return {
 		{
 			actorName = "？？？",
 			side = 2,
+			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			blackBg = true,
-			say = "嘿嘿…我挠我挠…这样总该醒了吧",
+			say = "Hehehe... tickle, tickle... this ought to wake you up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "忍不住打了一个大喷嚏，顿时睡意全消…",
+			say = "Letting out a powerful sneeze, as loud as a small firecracker, I opened my eyes and looked to my side.",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "眼前是拿着不知哪里找来的麦秆的絮库夫。",
+			say = "Surcouf was in the room, holding a green foxtail in her hand, which she was rubbing against the underside of my nose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,23 +129,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早上好呀，指挥官，作为秘书舰，我来喊你起床上班啦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "对了，指挥官，我跟你说，我昨晚梦到你了哦。",
+			say = "Bonne journée! Good morning, Commander! I've come to wake you from your slumber, as part of my secretary duties!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梦里我正在免费吃大餐，结果还没吃饱，指挥官你就来喊我去工作，然后我就醒了……",
+			say = "Oh yeah, speaking of sleep, I actually had a dream about you yesterday~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好可惜，我明明想吃龙虾的！",
+			say = "I dreamt I was having this huge French dinner! It was totally free, too! And then I heard you yelling at me, saying \"don't stuff yourself full, you've got work to do!\" and then I woke up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官呢，有没有梦到我呀？",
+			say = "I wish you'd let me taste that huge lobster... but oh well, c'est la vie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +193,23 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯你不用回答，我知道的，一定梦到了对吧~",
+			say = "So, what did you dream about? Did you dream of me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hold on, don't answer. I already know you did~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "那指挥官梦到和我干什么了呀？",
+			say = "So let me rephrase: what was I up to in your dream?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			},
 			options = {
 				{
-					content = "去洗漱",
+					content = "Begin your morning routine",
 					flag = 1
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你不要不理我嘛，真是的，梦到我又不是什么害羞的事~",
+			say = "C'mon, don't ignore me like that! You don't have to shy away from admitting you dreamt about me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "几分钟后…",
+			say = "A few minutes later...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呼……",
+			say = "Zzzzzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官，不要脸……",
+			say = "Zzz... Geesh, so pervy, Commander... Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "在别人的床上迷糊地说着梦话的秘书舰…",
+			say = "This gal has a lot of gall, falling asleep on someone else's bed and sleeptalking like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

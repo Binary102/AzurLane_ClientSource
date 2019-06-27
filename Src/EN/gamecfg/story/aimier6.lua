@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>六 ロマンス・デート？</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 6 - A Romantic Date?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "母港·広場",
+			say = "Port - Plaza",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "デートするって言い出したのはこっちだけど…指揮官、どこに行けばいいのかしら…？",
+			say = "I know I came up with the idea of going on a date, but... where should we even go, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			},
 			options = {
 				{
-					content = "とりあえずフラフラしてみる",
+					content = "We could just wander around for now",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "なるほどね。じゃあ少しお散歩でもしてみようか。まずはあっち～",
+			say = "I see, so we could take a walk together. Let's head over in that direction~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,14 +97,14 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "エミールはごく自然な流れで腕を組んできた。",
+			say = "Émile casually grabbed hold of my arm without any hesitation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "！？",
+					content = "W-whoa, now!",
 					flag = 1
 				}
 			}
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、これはデートよ？デートらしいことでもしないと～",
+			say = "What? We're on a date, Commander! We need to act appropriately~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "…………",
+			say = "......",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "散歩がてらにエミールが好きな踊りの話を聞いた。",
+			say = "As we were walking, I decided to ask Émile about her dancing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,23 +168,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、指揮官は私がなんで踊りを好きなのかを知りたいって？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "私はあの大戦で一時期、ずっととある港に係留されていたの。あの時のような空白の日々にならないよう、一つ習い事でもしようかなって思って、それで踊りを選んだのよ。",
+			say = "Ah, you're curious as to why I love dancing, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあそれで色々勉強できたわ。どんなにつまらない日でも、楽しさを見いだせること……",
+			say = "During the war, I was moored in a single port for a very long time. The days were empty and boring, so I decided I should learn a new skill. In the end, I went with dancing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "楽しい時、心地いい時、踊りで喜ぶ気持ちをみんなに分け与えること……",
+			say = "I learned a few other things during that time, too. Such as how to, even on the dullest of days, find the hidden joys of life...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +216,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "悲しい時、苦しい時、踊りでつらい気持ちを少しでも減らすこと……",
+			say = "How to share my happiness with others in joyous and fortunate times through my dancing...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And even how to alleviate others' suffering in sorrowful and painful times...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "みんなからすれば、こうして踊る私は少し身勝手かもしれないけどね。ふふ",
+			say = "That said, some may view my dancing as a bit self-centered, haha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			},
 			options = {
 				{
-					content = "その踊りもまたロマンティックだ",
+					content = "I think your dancing is pretty romantic",
 					flag = 1
 				}
 			}
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官もお世辞が上手ね♪",
+			say = "You certainly know how to flatter people, Commander♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう言えば私、この艦隊に入ってから指揮官と知り合って少しは経っているけど……",
+			say = "By the way, I know I only joined the fleet and started getting to know you a short while back, but I've been wondering...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "ふふ、指揮官はなにか「ロマンティックなこと」をして、女の子たちと仲良くしようって思ったことある？",
+			say = "*Giggle* Have you thought about trying something romantic and flirting with somebody?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,11 +313,11 @@ return {
 			},
 			options = {
 				{
-					content = "ある",
+					content = "I have",
 					flag = 1
 				},
 				{
-					content = "ない",
+					content = "I haven't",
 					flag = 2
 				}
 			}
@@ -329,7 +329,7 @@ return {
 			optionFlag = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "それなら私はパス……かな？",
+			say = "Then it's good that you haven't acted on that thought yet, because I have no interest in such things...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			optionFlag = 2,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "さすがは私が惚れ込んだ指揮官！",
+			say = "I knew it! You're the person I've been looking for, Commander~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			blackBg = true,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "うふふ、私、そういうところは他の娘とちょっと違うわよ？",
+			say = "You see, unlike most other girls, I'm not a fan of clichéd romance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

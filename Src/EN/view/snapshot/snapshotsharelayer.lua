@@ -34,7 +34,7 @@ function slot0.didEnter(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
-		slot0 = os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime())
+		slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
 		NativeGallery.SaveImageToGallery(slot0.bytes, "Camera", slot1)
 		pg.TipsMgr:GetInstance():ShowTips(i18n("word_save_ok"))

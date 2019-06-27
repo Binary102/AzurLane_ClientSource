@@ -47,8 +47,8 @@ function slot0.InitUI(slot0)
 	end)
 	setActive(slot0.trAchieveTpl, false)
 
-	slot0.trDropTpl = slot0:findTF("panel/drops/item")
-	slot0.trDrops = slot0:findTF("panel/drops/list")
+	slot0.trDropTpl = slot0:findTF("panel/drops/frame/list/item")
+	slot0.trDrops = slot0:findTF("panel/drops/frame/list")
 	slot0.dropList = UIItemList.New(slot0.trDrops, slot0.trDropTpl)
 
 	slot0.dropList:make(function (slot0, slot1, slot2)
@@ -254,6 +254,52 @@ function slot0.getChapterAwards(slot0)
 			table.insert(slot2, 1, slot3[slot7])
 		end
 	end
+
+	slot5 = {}
+	slot6 = {}
+
+	function slot7(slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			if slot5 == slot0 then
+				return false
+			end
+		end
+
+		return true
+	end
+
+	for slot11, slot12 in ipairs(slot4) do
+		if checkExist(pg.expedition_activity_template[slot12], {
+			"pt_drop_display"
+		}) and type(slot13) == "table" then
+			for slot17, slot18 in ipairs(slot13) do
+				if slot7(slot18[2]) then
+					table.insert(slot5, slot18[2])
+
+					slot6[slot18[2]] = {}
+				end
+
+				slot6[slot18[2]][slot18[1]] = true
+			end
+		end
+	end
+
+	slot8 = getProxy(ActivityProxy)
+
+	for slot12 = #slot5, 1, -1 do
+		for slot16, slot17 in pairs(slot6[slot5[slot12]]) do
+			if slot8:getActivityById(slot16) and not slot18:isEnd() then
+				table.insert(slot2, 1, {
+					2,
+					id2ItemId(slot5[slot12])
+				})
+
+				break
+			end
+		end
+	end
+
+	print("\n" .. PrintTable(slot5))
 
 	return slot2
 end

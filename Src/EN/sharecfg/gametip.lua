@@ -6555,6 +6555,10 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Show tap marker",
 		key = "words_show_touch_effect"
 	},
+	words_bg_fit_mode = {
+		tip = "Auto-adjust loading screen aspect ratio ",
+		key = "words_bg_fit_mode"
+	},
 	activity_puzzle_get1 = {
 		tip = "<color=#A9F548FF>How to get: \nmission 7</color>",
 		key = "activity_puzzle_get1"
@@ -8342,7 +8346,7 @@ with Anti-Sub gear.
 		key = "airi_error_code_ 100818"
 	},
 	buildship_new_tip = {
-		tip = "Bismarck、U-556、U-73、Z36、Echo are increased during the event period.",
+		tip = "Jean Bart, Massachusetts, Dunkerque, Surcouf, Forbin are increased during the event period.",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9567,6 +9571,110 @@ Returning Commanders:
 	empty_tip_mailboxui = {
 		tip = "You don't have any mail.",
 		key = "empty_tip_mailboxui"
+	},
+	words_settings_unlock_ship = {
+		tip = "Unlocking ships",
+		key = "words_settings_unlock_ship"
+	},
+	words_settings_resolve_equip = {
+		tip = "Scrapping gears",
+		key = "words_settings_resolve_equip"
+	},
+	words_settings_unlock_commander = {
+		tip = "Unlocking Meowfficers",
+		key = "words_settings_unlock_commander"
+	},
+	words_settings_create_inherit = {
+		tip = "Create Bind Code",
+		key = "words_settings_create_inherit"
+	},
+	tips_fail_secondarypwd_much_times = {
+		tip = "Your Secondary Password is incorrect. Please try again after <color=#92FC63>%s</color>.",
+		key = "tips_fail_secondarypwd_much_times"
+	},
+	words_desc_unlock = {
+		tip = "This is a Secondary Password-restricted function.",
+		key = "words_desc_unlock"
+	},
+	words_desc_resolve_equip = {
+		tip = "This is a Secondary Password-restricted function.",
+		key = "words_desc_resolve_equip"
+	},
+	words_desc_create_inherit = {
+		tip = "Create Bind Code",
+		key = "words_desc_create_inherit"
+	},
+	words_desc_close_password = {
+		tip = "Disable Secondary Password feature",
+		key = "words_desc_close_password"
+	},
+	words_desc_change_settings = {
+		tip = "Change Secondary Password-restricted functions",
+		key = "words_desc_change_settings"
+	},
+	words_set_password = {
+		tip = "Change Secondary Password",
+		key = "words_set_password"
+	},
+	words_information = {
+		tip = "Info",
+		key = "words_information"
+	},
+	secondarypassword_incorrectpwd_error = {
+		tip = "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining.",
+		key = "secondarypassword_incorrectpwd_error"
+	},
+	secondary_password_help = {
+		key = "secondary_password_help",
+		tip = {
+			{
+				info = "The Secondary Password feature's purpose is to ensure that only the account's owner can perform certain actions. The owner can make it necessary to enter the correct password to retire ships or scrap gear, for instance."
+			},
+			{
+				info = "1. This feature can be turned on and off in the Settings menu."
+			},
+			{
+				info = "2. When you enable this feature, you need to create a new password. In order to turn the feature off, you will first need to input the password you created."
+			},
+			{
+				info = "3. If you enable this feature, you can choose which of the following actions you want to require a Secondary Password for:\n- Locking and unlocking ships and Meowfficers\n- The scrapping of certain important gear, gear of SR rarity or higher, and fully enhanced gear"
+			},
+			{
+				info = "4. Once you've entered the correct Secondary Password, you won't need to enter it again until the next time you log in."
+			},
+			{
+				info = "5. If you've entered the wrong Secondary Password 5 times in a row, you will need to wait for some time before you can try again."
+			},
+			{
+				info = "IMPORTANT INFORMATION: if you enable this feature, please write your Secondary Password down on a note and keep it close to you.\nIf you lose your Secondary Password, please contact customer support (al.cs@yo-star.com) to receive help with resetting your password.\nPlease note that you can only reset your password once every 30 days."
+			}
+		}
+	},
+	comic_help = {
+		key = "comic_help",
+		tip = {
+			{
+				info = "1. Color in the manga panels by clearing the time-limited daily missions!"
+			},
+			{
+				info = "2. Once you've completed all missions, you will automatically unlock Javelin's skin, \"Very Slow Advance!\""
+			},
+			{
+				info = "3. Two new missions will be unlocked each day until July 5th."
+			}
+		}
+	},
+	secondarypassword_illegal_tip = {
+		tip = "Contains sensitive info, please re-enter ",
+		key = "secondarypassword_illegal_tip"
+	},
+	pt_cosume = {
+		tip = "Cost:$1",
+		key = "pt_cosume"
+	},
+	secondarypassword_confirm_tips = {
+		tip = "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? ",
+		key = "secondarypassword_confirm_tips"
 	}
 }
 

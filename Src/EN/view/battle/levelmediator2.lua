@@ -325,8 +325,14 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.ON_ACTIVITY_MAP, function ()
-		slot0 = getProxy(ChapterProxy)
-		slot5, slot2 = slot0:getLastMapForActivity()
+		slot1, slot2 = getProxy(ChapterProxy).getLastMapForActivity(slot0)
+		slot3 = slot1 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot1].on_activity)
+
+		if not slot3 or slot3:isEnd() then
+			pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
 
 		slot0.viewComponent:setMap(slot1)
 

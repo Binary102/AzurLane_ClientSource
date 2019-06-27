@@ -636,7 +636,8 @@ function slot0.EnergyCheck(slot0, slot1, slot2, slot3)
 			content = i18n(slot4, slot1, slot6),
 			onYes = function ()
 				slot0()
-			end
+			end,
+			weight = LayerWeightConst.TOP_LAYER
 		})
 	else
 		return true

@@ -9,7 +9,7 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			say = "侦察机报告称，凯比尔港内共有4艘战列舰、1艘小型航母和6艘驱逐舰，均处于非战斗状态",
+			say = "According to the scouting report, there are four battleships, one light carrier, and six destroyers stationed at port, but none of them seem to be operational.",
 			dir = 2,
 			bgm = "level03",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 2,
-			say = "但是，港口外围被塞壬的中小型舰队层层包围，看起来像是被保护着，想要进入港口，就必须先突破它们的防御圈了",
+			say = "However, it appears that the Siren forces are blockading them. If we are to enter the port, we have to break through their lines first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			say = "果然，曾经的海上骑士们如今也沦落到和塞壬为伍了吗？真是令人唏嘘呀…",
+			say = "The Templar Knights have fallen in with the Sirens...? 'tis a sad day indeed...",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -57,7 +57,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "另外，比较令人在意的是，战列舰里并没有发现那两艘重要目标，恐怕…",
+			say = "Curiously, two of the important battleships that we were targeting are missing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "也好，如果她们俩也在这里出现，凭我们现在的舰队规模可能会陷入不利的局面",
+			say = "That might work to our advantage. It would be a much harder fight with those two here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "我们此行的目的只是警告和给予她们新的选择，谁都希望避免无谓的战斗",
+			say = "The purpose of our operation today is to issue a warning, and to perhaps convince them to choose a different path... We want to avoid unnecessary bloodshed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "那么，先想办法突破这层层的包围吧！",
+			say = "But let's set that aside for later... Now, let's break through the Siren blockade!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

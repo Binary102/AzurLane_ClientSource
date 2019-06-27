@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "卡萨布兰卡和土伦的悲剧已经过去了，一批伟大的圣教骑士们为了贯彻自己的信仰和誓言，选择了牺牲",
+			say = "The tragedy of Casablanca and Touraine has passed... In order to carry out their beliefs, the Templar Knights chose to sacrifice themselves.",
 			dir = 1,
 			bgm = "level-french2",
 			effects = {
@@ -30,7 +30,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "她们是伟大的，她们是自由的",
+			say = "Great were their sacrifices, and great was their freedom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "面对巨人的挑衅，大卫说：“你来攻击我，用的是刀枪和铜戟”",
+			say = "In the face of an overwhelming Goliath, they said this: \"You may come at us with spears and swords,\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“而我的攻击，靠着万军耶和华之名！”",
+			say = "\"But we are armed with the protection of the Lord.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，自由的力量已经觉醒",
+			say = "In a new era, the power of liberty has awakened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，她们的名字令我们团结",
+			say = "The just shall once again gather underneath a holy banner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在崭新的时代，我们必将夺回我们的家园！",
+			say = "The time to reclaim our glory has come once again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "我愿用我的红袍覆盖一切，愿天下向往自由之士共驻于洛林十字旗下",
+			say = "Upon this name that was bestowed upon me by the Cardinal, and upon this mantle that I now wear, I swear to protect the freedom in this world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "因父及子及圣神之名",
+			say = "In the name of the Heavenly Father, Son, and Holy Spirit",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "自由鸢尾第一旗舰——黎塞留",
+			say = "Let us honor our comrades who sacrificed themselves so that we may be free.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 801020,
 			side = 2,
 			dir = 1,
-			say = "前方发现正在逃跑的帝国小型舰队，请求旗舰指示",
+			say = "We've detected a light fleet from the Imperium of Sardegna! Requesting orders from the flagship!",
 			effects = {
 				{
 					active = false,
@@ -185,7 +185,7 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			say = "拦截追击这种工作对我们姐妹来说最擅长的啦，快下指示吧！",
+			say = "This kind of work is perfect for us Le Fantasque-class destroyers. Just give me the order!",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -204,7 +204,7 @@ return {
 			actor = 802010,
 			side = 1,
 			dir = 1,
-			say = "敌方已进入攻击范围，是时候给对方与制裁的铁锤啦！",
+			say = "The enemy has entered our range. Let's drop the hammer already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "哈…哈……非常抱歉，大家的速度都太快了…这才赶上来",
+			say = "Haah... haah... Sorry for lagging behind, you're all so much faster than me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "自由鸢尾第二游击舰队旗舰——圣女贞德号下令！",
+			say = "I, flagship of Iris Libre's Second Strike Force Fleet, Jeanne d'Arc, shall now assume command!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 900053,
 			side = 2,
 			dir = 1,
-			say = "以自由之名，全舰开火！",
+			say = "In the name of liberty, all ships, commence attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5259,8 +5259,8 @@ pg.skill_data_template = {
 	},
 	[5061] = {
 		desc_get = "",
-		name = "驱逐编队",
-		desc = "出击时，若先锋编队仅由自己和驱逐舰组成（至少编入一名驱逐舰），则自身航速提高4，对驱逐舰和轻巡洋舰造成的伤害提高$1",
+		name = "Destroyer Squadron",
+		desc = "If your Vanguard consists of only this ship and DDs: increases this ship's Speed by 4 and increases the DMG it deals to enemy DDs and CLs by $1.",
 		type = 3,
 		max_level = 10,
 		id = 5061,
@@ -5317,8 +5317,8 @@ pg.skill_data_template = {
 	},
 	[5071] = {
 		desc_get = "",
-		name = "骑士之盾",
-		desc = "当先锋舰队只有自由鸢尾、维希教廷阵营的角色时生效，每隔20秒，有50%的概率发动，我方所有单位受到的伤害降低$1，持续8秒，同技能效果不叠加",
+		name = "Chevalier's Bouclier",
+		desc = "Every 20s, if your Vanguard consists of only Iris Libre and/or Vichya Dominion ships: 50.0% chance to decrease the DMG your fleet takes by $1 for 8s. Does not stack with the same skill.",
 		type = 2,
 		max_level = 10,
 		id = 5071,
@@ -5375,8 +5375,8 @@ pg.skill_data_template = {
 	},
 	[5081] = {
 		desc_get = "",
-		name = "骑士之剑",
-		desc = "当先锋舰队只有自由鸢尾、维希教廷阵营的角色时生效，每隔20秒，有50%的概率发动，我方所有单位造成的伤害上升$1，持续8秒，同技能效果不叠加",
+		name = "Chevalier's Sabre",
+		desc = "Every 20s, if your Vanguard consists of only Iris Libre and/or Vichya Dominion ships: 50.0% chance to increase the DMG your fleet deals by $1 for 8s. Does not stack with the same skill.",
 		type = 1,
 		max_level = 10,
 		id = 5081,
@@ -16740,8 +16740,8 @@ pg.skill_data_template = {
 	},
 	[11490] = {
 		desc_get = "",
-		name = "正面火力",
-		desc = "主炮开火时，有$1的概率朝自己前方直线发射一轮专属弹幕(依据技能等级)",
+		name = "Frontal Fire",
+		desc = "When this ship fires a Salvo: $1 chance to fire a special barrage. Barrage DMG and shell pattern is based on the skill's level.",
 		type = 1,
 		max_level = 10,
 		id = 11490,
@@ -16798,8 +16798,8 @@ pg.skill_data_template = {
 	},
 	[11500] = {
 		desc_get = "",
-		name = "鸢尾之光",
-		desc = "主炮连续命中同一个目标时（同一子弹命中复数目标时，均可作为判定对象），提升自身装填属性$1，最高叠加4层，每秒最多触发一次；装填提升效果生效期间，若命中非判定目标，则生效层数清零",
+		name = "Radiant Iris",
+		desc = "When this ship's Main Guns hit the same enemy consecutively (if one shot hits several enemies then they are both tracked): increases this ship's RLD by $1. This effect can be stacked up to 4 times and can only activate once a second. Hitting a different enemy resets the buff.",
 		type = 1,
 		max_level = 10,
 		id = 11500,
@@ -16856,8 +16856,8 @@ pg.skill_data_template = {
 	},
 	[11510] = {
 		desc_get = "",
-		name = "攻防转换",
-		desc = "作为先锋领舰出击时，主炮效率提高$1，防空炮效率降低30%",
+		name = "Sword or Shield",
+		desc = "While this ship is in the frontmost position in your Vanguard: increases its Main Gun efficiency by $1, but decreases its Anti-Air Gun efficiency by 30.0%.",
 		type = 3,
 		max_level = 10,
 		id = 11510,
@@ -16914,8 +16914,8 @@ pg.skill_data_template = {
 	},
 	[11520] = {
 		desc_get = "",
-		name = "爱丽丝之心",
-		desc = "出击时，队伍中自由鸢尾、维希教廷阵营的驱逐舰角色炮击、雷击、命中属性提高$1",
+		name = "Heart of Iris",
+		desc = "Increases FP, TRP, and Accuracy by $1 for all Iris Libre and Vichya Dominion DDs in your fleet.",
 		type = 3,
 		max_level = 10,
 		id = 11520,
@@ -16972,8 +16972,8 @@ pg.skill_data_template = {
 	},
 	[11530] = {
 		desc_get = "",
-		name = "海盗之魂",
-		desc = "每次进行炮击的第一轮跨射伤害提高$1；手动进行瞄准时，手动发射带来的跨射伤害增幅效果提高到$1",
+		name = "Pirate's Soul",
+		desc = "Increases the DMG of the first Volley of every Salvo this ship fires by $1.This ship's manual aiming DMG bonus is increased to $1.",
 		type = 1,
 		max_level = 10,
 		id = 11530,
@@ -17030,8 +17030,8 @@ pg.skill_data_template = {
 	},
 	[11540] = {
 		desc_get = "",
-		name = "最后的炮火",
-		desc = "装备【四联装380mm主炮Mle1935】主炮时，主炮的暴击率提高$2，主炮暴击造成的伤害提高$1",
+		name = "Final Shot",
+		desc = "While this ship is equipping the Quadruple 380mm Main Gun (Mle 1935): increases this ship's Main Gun Crit Rate by $2 and Main Gun Crit DMG by $1.",
 		type = 1,
 		max_level = 10,
 		id = 11540,
@@ -17134,7 +17134,7 @@ pg.skill_data_template = {
 	[11550] = {
 		desc_get = "",
 		name = "Big Mamie",
-		desc = "出击时，队友中每有一个白鹰联邦重巡或战列舰角色，自身炮击、防空、机动属性上升$1，效果最多叠加3层",
+		desc = "For each Eagle Union CA and/or BB (excluding this ship) in your fleet: increases this ship's FP, AA, and EVA by $1. Can be stacked up to 3 times.",
 		type = 1,
 		max_level = 10,
 		id = 11550,
@@ -17191,8 +17191,8 @@ pg.skill_data_template = {
 	},
 	[11560] = {
 		desc_get = "",
-		name = "2700磅的正义",
-		desc = "主炮的弹药种类改为穿甲超重弹，命中目标时，根据飞行距离提高炮弹伤害，最高提高$1",
+		name = "2,700 Pounds of Justice",
+		desc = "This ship's Main Gun attribute is changed to Super-Heavy Shell. The DMG of the shells increases based on their distance traveled, up to a maximum of $1.",
 		type = 1,
 		max_level = 10,
 		id = 11560,
@@ -17249,8 +17249,8 @@ pg.skill_data_template = {
 	},
 	[11570] = {
 		desc_get = "",
-		name = "侦查支援",
-		desc = "进入战斗时，提高己方所有先锋角色$1命中属性，持续20秒",
+		name = "Recon Support",
+		desc = "When this boat is called into battle: increases the Accuracy of your Vanguard by $1 for 20s.",
 		type = 3,
 		max_level = 10,
 		id = 11570,
@@ -21236,6 +21236,64 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12360] = {
+		desc_get = "",
+		name = "Messenger of Love ",
+		desc = "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by $1. Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage. ",
+		type = 1,
+		max_level = 10,
+		id = 12360,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -24149,7 +24207,7 @@ pg.skill_data_template = {
 	[28011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "主炮每进行15次攻击，触发全弹发射-机敏级I",
+		desc = "Activates All Out Assault Ⅰ: L'Adroit Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28011,
@@ -24160,7 +24218,7 @@ pg.skill_data_template = {
 	[28012] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "主炮每进行10次攻击，触发全弹发射-机敏级II",
+		desc = "Activates All Out Assault Ⅱ: L'Adroit Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28012,
@@ -24171,7 +24229,7 @@ pg.skill_data_template = {
 	[28021] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "主炮每进行15次攻击，触发全弹发射-大胆级I",
+		desc = "Activates All Out Assault Ⅰ: Le Hardi Class once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28021,
@@ -24182,7 +24240,7 @@ pg.skill_data_template = {
 	[28022] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "主炮每进行10次攻击，触发全弹发射-大胆级II",
+		desc = "Activates All Out Assault Ⅱ: Le Hardi Class once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28022,
@@ -24193,7 +24251,7 @@ pg.skill_data_template = {
 	[28111] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
-		desc = "主炮每进行12次攻击，触发全弹发射-埃米尔·贝尔汀I",
+		desc = "Activates All Out Assault Ⅰ: Émile Bertin once every 12 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28111,
@@ -24204,7 +24262,7 @@ pg.skill_data_template = {
 	[28112] = {
 		desc_get = "",
 		name = "All Out Assault Ⅱ",
-		desc = "主炮每进行8次攻击，触发全弹发射-埃米尔·贝尔汀II",
+		desc = "Activates All Out Assault Ⅱ: Émile Bertin once every 8 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 28112,
@@ -24896,8 +24954,8 @@ pg.skill_data_template = {
 	},
 	[29321] = {
 		desc_get = "",
-		name = "专属弹幕-絮库夫I",
-		desc = "氧气不足浮上水面时，触发专属弹幕-絮库夫I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Surcouf when this boat resurfaces.",
 		type = 1,
 		max_level = 1,
 		id = 29321,
@@ -24907,8 +24965,8 @@ pg.skill_data_template = {
 	},
 	[29322] = {
 		desc_get = "",
-		name = "专属弹幕-絮库夫II",
-		desc = "氧气不足浮上水面时，触发专属弹幕-絮库夫II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Surcouf when this boat resurfaces.",
 		type = 1,
 		max_level = 1,
 		id = 29322,
@@ -24918,8 +24976,8 @@ pg.skill_data_template = {
 	},
 	[29331] = {
 		desc_get = "",
-		name = "专属弹幕-凯旋I",
-		desc = "主炮每进行15次攻击，触发专属弹幕-凯旋I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Le Triomphant once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29331,
@@ -24929,8 +24987,8 @@ pg.skill_data_template = {
 	},
 	[29332] = {
 		desc_get = "",
-		name = "专属弹幕-凯旋II",
-		desc = "主炮每进行10次攻击，触发专属弹幕-凯旋II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Le Triomphant once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29332,
@@ -27286,6 +27344,7 @@ pg.skill_data_template = {
 		12250,
 		12260,
 		12270,
+		12360,
 		18010,
 		18040,
 		18050,

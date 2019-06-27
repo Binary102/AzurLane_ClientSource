@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>一 人気者の踊り子</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 1 - The Popular Dancer</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "母港·埠頭",
+			say = "Port - Dock",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "新たに秘書艦に任命したエミール・ベルタンと一緒に委託チームの帰還を待っている。",
+			say = "My newly appointed secretary, Émile Bertin, and I were waiting on a commission team's return.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雲ひとつなく青い空、暖かくも眩しい太陽――今日も良い天気ね～",
+			say = "The cloudless blue sky, the warm and bright rays of the sun – ah, what a wonderful day~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "せっかくの快晴なんだから、体も動かさないと～",
+			say = "And on such a wonderful day, it'd be a shame not to go outside and move around~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "ボラードの上に飛び上がり、軽快に一回転を決めた。",
+			say = "Émile jumped onto a bollard and did a graceful pirouette.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,23 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官は委託に出た子たちの出迎え以外にももっとお出かけした方がいいわよ？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 802010,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "お仕事も大事だけど、座りすぎると体に良くないし。",
+			say = "Really, you ought to get more exercise, Commander! Going outside only to greet returning commission teams is not enough.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +119,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "でも指揮官のお仕事は大変ね～私、秘書艦として仕事についていくので精一杯だから――",
+			say = "Of course, work is important, but sitting too much is bad for the body.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 802010,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "And the work you do, dear me, it seems really tough~ I'm doing the best I can just to keep up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "やっぱり指揮官になれる方は凄いわ～",
+			say = "People who become commanders really are on a whole other level~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			},
 			options = {
 				{
-					content = "謙虚に答える",
+					content = "Respond humbly",
 					flag = 1
 				},
 				{
-					content = "自慢げに答える",
+					content = "Respond boastfully",
 					flag = 2
 				}
 			}
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、みんなが戻ってきたわ。",
+			say = "Ah, look, there they are!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "委託から戻ってきた子たちは自然な流れでエミールを囲んで、委託での出来事やおみやげ話など、ガールズトークで盛り上がった。",
+			say = "The commission team all gathered around Émile like it was routine. They had a cheery girls' talk about their commission accomplishments and rewards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ご苦労さま。危険な目には遭わなかった？",
+			say = "Well done! You didn't have any close calls, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "みんな大切な仲間だからね。心配して当然でしょ？",
+			say = "But of course I would worry about your wellbeing! You're my dear friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、これは私に？ありがとう！Merci！",
+			say = "Ah, is this for me? You're too sweet! Merci!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、なにがあったの？驚いた顔をして。",
+			say = "Commander, is something the matter? You seem taken aback.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……あらら、みんな同じ艦隊の仲間だもの。仲良くするのは当たり前じゃなくて？",
+			say = "... Oh, this? We're all part of the same fleet, so shouldn't we try our best to make friends with each other?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "エミールは自分が人気者であることに気づいていないらしい。",
+			say = "Apparently, Émile doesn't realize how popular she really is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

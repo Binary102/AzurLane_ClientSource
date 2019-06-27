@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>二 黄金の友情？</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 2 - A Fellowship of Gold?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "母港·執務室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "エディンバラはエミールに用事があるみたいだ。",
+			say = "Edinburgh was in the office, and it seemed like she wanted to meet Émile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "エミールちゃん、遊びに来たよ～",
+			say = "Hey, Émile, I'm here to chat~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "エディンバラじゃない！Bienvenue！でも今は秘書艦だから、お遊びは仕事のあと…そうよね？指揮官？",
+			say = "Bienvenue, Edinburgh! Sorry, but we'll have to talk later, I've got my hands full with secretary work... Right, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
-			say = "エミールちゃんならちゃちゃっと片付けられるわよ～私、こう見えても人を見る目はあるんだから！",
+			say = "Knowing you, you could get it done in a minute~ Believe it or not, I'm quite a good judge of character!",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "二人はいつの間にこんなに仲良くなったんだろう…？",
+			say = "Have you two always been this close...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "あら、指揮官は知らないの？私とエディンバラはあの大戦では同じく黄金を輸送していた艦なのよ？",
+			say = "Don't you know, Commander? We both transported gold during the war!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "そうそう！運んだ黄金の量こそ少なかったけど、話題性は私のほうがずっと高かったからね！",
+			say = "That's right! She transported more gold than I did, but my gold transport is way more discussion-worthy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "負けず嫌いのところもカワイイからね～エディンバラは♪",
+			say = "Aw, that determination to never be outdone of yours is so cute♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "エディンバラの言う通り、エミールは今日の秘書艦の仕事をテキパキと片付けた。",
+			say = "Turns out Edinburgh's judgment was right; Émile finished her secretary work in a flash.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "やっぱりエミールは有能ね…「アイツ」のことを思い出しちゃう……",
+			say = "You're so talented, Émile... It reminds me of a pesky maid I know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "ベルファストさん？あはは、彼女と比べたら私は全然ダメダメだから～",
+			say = "You mean Belfast? Good heavens, no~ I don't hold a candle to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "あら？そういえば、ベルファストさんってなんかエディンバラのお姉さんっぽかったような…",
+			say = "Speaking of Belfast, I somehow get the impression that she's your big sister...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "妹よ！もうエミールちゃんまでそんなこと言って！",
+			say = "She's my LITTLE sister! I can't believe even YOU'RE saying that now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "出来すぎた妹がいる事がどれだけ複雑なのか、エミールちゃんにはわからないよね！",
+			say = "And I don't expect you to understand the complicated feeling that is having a little sister who's so good at everything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "はいはい、でもエディンバラはエディンバラでいい性格をしていると思うわ。",
+			say = "I'll admit that's true. But I think you have a more colorful character than her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "褒められているのか微妙な気分……",
+			say = "Not sure if I should take that as a compliment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "あ、そういえば、エディンバラは「黄金の国」の話を知ってる？",
+			say = "On another topic: have you heard of the Land of Gold, Edinburgh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "実は、重桜は国中黄金に包まれているってとある旅行記に書いてあったの！どう？実際に見に行きたいと思わない？",
+			say = "I read about it in a travel journal once. It said the Sakura Empire is a kingdom enveloped in gold! Fascinating, isn't it? Don't you want to see it in person?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "重桜所属の仲間なら艦隊にもいるけど……",
+			say = "We could just ask our Sakura Empire fleetmates about it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "でも重桜の国ってやっぱり神秘的だよね…いつか行ってみたいかも。",
+			say = "Still, the land of the Sakura Empire certainly is a mystical place... I suppose I want to visit it someday.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 1,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "じゃあ今度重桜に行く任務があったら指揮官に参加申請しましょう！黄金の国・重桜、噂を聞いただけでもワクワクしちゃうわ！",
+			say = "Okay, then let's ask the Commander to assign us on the team next time there's a mission in the Sakura Empire's territory! Oh, just hearing the rumors about the Sakura Empire, the Land of Gold, makes me giddy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "おお！なんかテンションが上ってきた！",
+			say = "Definitely! The idea of it is pretty exciting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "黄金の友情？はまだまだ続きそうだ。",
+			say = "Seems their fellowship of gold will continue for quite some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

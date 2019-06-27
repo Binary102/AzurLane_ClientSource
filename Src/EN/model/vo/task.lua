@@ -33,13 +33,7 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.isFinish(slot0)
-	slot1 = slot0:getProgress()
-
-	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_FROM_TASKS then
-		return slot1 >= #slot0:getConfig("target_id")
-	else
-		return slot0:getConfig("target_num") <= slot1
-	end
+	return slot0:getConfig("target_num") <= slot0:getProgress()
 end
 
 function slot0.getProgress(slot0)
@@ -55,16 +49,6 @@ function slot0.getProgress(slot0)
 		slot1 = getProxy(ActivityProxy):getVirtualItemNumber(slot0:getConfig("target_id_for_client"))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_BOSS_PT then
 		slot1 = getProxy(PlayerProxy):getData():getResById(tonumber(slot0:getConfig("target_id")))
-	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_FROM_TASKS then
-		slot3 = getProxy(TaskProxy)
-		slot4 = nil
-		slot1 = 0
-
-		for slot8, slot9 in ipairs(slot2) do
-			if slot3:getFinishTaskById(slot9) and slot4:isReceive() then
-				slot1 = slot1 + 1
-			end
-		end
 	elseif slot0:getConfig("sub_type") == TASK_SUB_STROY then
 		slot2 = getProxy(PlayerProxy):getRawData()
 

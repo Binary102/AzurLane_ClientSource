@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"骑士公主的忧郁\n\n<size=45>四 失落的凯旋小姐</size>",
+					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 4 - Cheer Up, Le Triomphant!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和凯旋一起在港区巡逻",
+			say = "Le Triomphant and I were patrolling the port together.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "好！今天也要打起精神完成工作～",
+			say = "All right! Let's prepare ourselves for another fine day of work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "似乎干劲满满的样子",
+			say = "She seemed to be quite energetic today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "啊，是指挥官…来，恐怖，跟指挥官和凯旋小姐打个招呼",
+			say = "Ah... it's Commander... Terror, come here and greet the commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋小姐、指挥官，你们好…",
+			say = "Hello, Le Triomphant... and Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "偶然遇到了黑暗界和恐怖",
+			say = "We had bumped into Erebus and Terror.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "贵安，黑暗界小姐、恐怖小姐",
+			say = "Good day, Miss Erebus, Miss Terror.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "凯旋小姐，谢谢你…和你一起出击之后，恐怖变得比以前自信了不少…",
+			say = "Thank you, Le Triomphant. After sortieing with you, Terror seems to be a lot more confident in herself.",
 			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -161,7 +161,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "谢谢…",
+			say = "Thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "嘻嘻，恐怖本来就很厉害的，我只不过是给了她一点掩护和支援罢了～",
+			say = "There's no need to thank me. Terror has always been very capable, all I did was give her a little support.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 213010,
-			say = "那…我们就先走了。这么大的太阳对恐怖的身体不大好…恐怖，想吃点心吗…？",
+			say = "I'm terribly sorry, but we're going to have to get going. Too much sunlight is bad for Terror's body. Terror, want to go get some sweets?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "想…",
+			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "黑暗界带着恐怖离开了",
+			say = "With that, Erebus lead Terror off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "自信啊……",
+			say = "Self-confidence, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 107020,
-			say = "哎呀，是凯旋小姐啊，和指挥官在巡逻吗？",
+			say = "Oh my, Le Triomphant? Are you on patrol with Commander today?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "贵安，列克星敦小姐、萨拉托加小姐",
+			say = "Good day, Miss Lexington, Miss Saratoga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "哎？哎哎？怎么被发现了！？还想要偷偷出现吓指挥官一跳呢～",
+			say = "Eh? Ehhhh?! How'd you find me? I was gonna sneak up on Commander and get a real good reaction!",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "哎呀～那我还真是做了坏事了呢，对不起呀，萨拉托加小姐",
+			say = "I'm sorry, Miss Saratoga... I seem to have made a mistake...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "萨拉，怎么说你也是大家的前辈，要好好学习一下凯旋的稳重才对哦",
+			say = "Knock it off, Saratoga. You're a member of the Lexington-class, so you should take some lessons from Le Triomphant about being responsible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "是～",
+			say = "I know, I know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指挥官、凯旋小姐。巡逻，要加油哦。我们就先告辞了",
+			say = "Well then, Commander, Le Triomphant, thank you both for your hard work. Good luck with those patrols!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "拜拜～对了，姐姐，你听我说哦——",
+			say = "Bye bye! Oh, by the way, Lex, did you hear the rumors?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 801010,
-			say = "稳重啊…",
+			say = "Being responsible...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -439,7 +439,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "凯旋似乎有点失落",
+			say = "Le Triomphant seemed a little down...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "呼…嗯？我的脸上有什么吗？",
+			say = "H-huh? Is something stuck on my face...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			},
 			options = {
 				{
-					content = "轻轻摸她的头",
+					content = "Pat her gently on the head",
 					flag = 1
 				}
 			}
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "指、指挥官……",
+			say = "C-Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "凯旋的脸上，流露出了一丝寂寥的神情",
+			say = "Le Triomphant smiled at me, but she somehow seemed distant and lonely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

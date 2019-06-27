@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"踊り子天使エミール\n\n<size=45>四 我慢我慢！</size>",
+					"Émile, the Dancing Angel\n\n<size=45>Chapter 4 - Be Strong, Émile!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "母港·執務室",
+			say = "Port - Commander's Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……今回の任務の報告書を提出するわ。指揮官、ご確認を。",
+			say = "... Here is the mission report, Commander. Do give it a look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "報告書と共に、ダンケルクはお菓子の入った小箱を渡してきた。",
+			say = "Dunkerque handed me the mission report along with a small box of her confections.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 904010,
 			nameColor = "#a9f548",
-			say = "それと…実はお菓子を少し作ったのだけど、指揮官、食べる？",
+			say = "By the way... I made a few sweets. Would you like some, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			},
 			options = {
 				{
-					content = "了承する",
+					content = "Sure, thanks",
 					flag = 1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……それにしても、ダンケルクは毎日美味しそうなお菓子を作っているな……",
+			say = "... It seems Dunkerque does this every day. She makes mouth-watering sweets which she just gives to people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、エミールもいたの？こっちに来てみんなで食べましょう？",
+			say = "Ah, you're here as well, Émile? Why don't you come here and we can eat them together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええと…食べたいけど…ううん、今日はダメよ！",
+			say = "Err... I wish I could, but... sorry, I can't today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう…？ああ、ごめんなさい、今日はスイーツ禁止の日だったかしら。じゃあ今度、食べたかったら声をかけてちょうだい。",
+			say = "Is that so...? Ah, my apologies; today must be a no-sweets day for you. Please, do tell me the next time you'd like some.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "ありがとう～",
+			say = "I will! Thanks~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "じゃあここに置いておくわ。指揮官、ごゆっくりどうぞ。",
+			say = "I'll leave these here, then. Take your time, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,18 +187,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "ダンケルクが執務室から退室した。さて、このお菓子はどうしようか――",
+			say = "Dunkerque left her confections on the desk and then exited the office. Now, what to do with these...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "美味しそうに食べる（実際美味しい）",
+					content = "Thoroughly enjoy eating them",
 					flag = 1
 				},
 				{
-					content = "食べずに棚にしまう",
+					content = "Leave them be",
 					flag = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			optionFlag = 1,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指揮官、私……ぜ、絶対に負けないわよ！",
+			say = "Commander, no... I will NOT give in to temptation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			optionFlag = 2,
 			actor = 802010,
 			nameColor = "#a9f548",
-			say = "指揮官、私のことを気にしなくてもいいのに……",
+			say = "Commander, don't mind me, I can manage...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "だ、だってダンケルクの作ったお菓子は美味しすぎて、一個でも食べたら手が止まらないんだもの…",
+			say = "I know how delicious Dunkerque's sweets are, and that you can't just eat one of them and be satisfied...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そして増え続ける体重、拙くなるステップ…二度と人前で踊れなくなる悲しい結末…",
+			say = "Then you'll gain weight, and your steps will get sloppier... And in the end, you'll never be able to dance before other people ever again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "それはまさに、悪魔の誘惑だわ！だから私、ダンケルクのお菓子は週に一度しか食べないって決めたの！今週分はもう……あああ…",
+			say = "They're a devilish temptation, I tell you! And that's why I've decided not to eat Dunkerque's sweets more than once a week! And I've already had my amount for the week... *Sob*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,14 +289,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "エミールは珍しく頭を抱えた。",
+			say = "Émile seemed pretty upset by her predicament.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "励ましてみる",
+					content = "Try to cheer her up",
 					flag = 1
 				}
 			}
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女の子だから気にするわよ！指揮官も、そういうところには気を配ったほうがいいわよ？",
+			say = "How could I not worry about my weight?! I'm a girl! And you should know that a girl's weight is a sensitive topic, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "体形に気をつけないと将来後悔するわ！",
+			say = "If you don't take care of your figure, you'll undoubtedly regret it in the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "そもそも、指揮官として――",
+			say = "And to begin with, as a commander, you shouldn't be so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……なぜかエミールに３０分ぐらい説教された。",
+			say = "... Somehow I ended up getting lectured by Émile for some thirty-odd minutes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

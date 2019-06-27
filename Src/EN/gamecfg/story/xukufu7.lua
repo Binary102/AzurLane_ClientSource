@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"絮库夫的一天\n\n<size=45>七 指挥官的絮库夫</size>",
+					"Journé Surcouf!\n\n<size=45>Chapter 7 - Surcouf in My Arms</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "唔……指挥官，早上好。",
+			say = "Mmh... good morning, Commander...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,11 +52,11 @@ return {
 			},
 			options = {
 				{
-					content = "笑着看她",
+					content = "Smile and tell her the time",
 					flag = 1
 				},
 				{
-					content = "假装生气",
+					content = "Tell her the time normally",
 					flag = 2
 				}
 			}
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "？！居然已经是这个时间了！",
+			say = "Oh geez, it's that late already?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，对不起哦，我本来想等到午休结束喊你起来的，结果看你睡得那么香，我也就困了……",
+			say = "I'm so sorry, Commander! I tried to wake you up when breaktime was over, but you were sleeping so soundly, and I just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我真的不是故意睡过去的哦，你不要生气好不好？",
+			say = "I didn't MEAN to fall asleep and leave you hanging! P-please, don't be angry... okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,14 +113,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "絮库夫罕见地焦急了起来。",
+			say = "Surcouf was visibly flustered. You rarely see her like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "指了指办公桌",
+					content = "Point to your desk",
 					flag = 1
 				}
 			}
@@ -131,7 +131,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些我记得……是今天的工作？",
+			say = "Is that all... your work for today?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，全都完成了！指挥官果然好厉害！",
+			say = "Wow, it's all done! You're the most amazing person ever, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 808010,
 			nameColor = "#a9f548",
-			say = "但是，指挥官没有我帮忙也这么能干，这样我不就没有做秘书舰的价值了吗……",
+			say = "But I wasn't of any help... You did it all on your own... I'm a failure of a secretary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "多亏了有你在哦",
+					content = "I couldn't have done it without you",
 					flag = 1
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，真的吗？我明明睡过去了？",
+			say = "Y-you mean it...? But all I did was sleep and chat with you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是睡着了也帮到了指挥官吗？",
+			say = "Is it possible I'm... helping you just by sleeping in your office...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，不管了，既然指挥官说是我的功劳，那就是我的功劳~",
+			say = "... Ah well, better not think too hard♪ If you say I was useful, then I was!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也好好地作为秘书舰帮上忙了！絮库夫，了不起！",
+			say = "Whew, that sure was a day of hard secretary work! Good job, me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明天也要作为秘书舰好好地辅佐指挥官~",
+			say = "I'll put in just as much effort tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "刚才还急得要哭出来了的絮库夫，现在又露出了平常的笑容。",
+			say = "Just a moment ago, Surcouf seemed depressed, but now she appeared pleased with herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,22 +273,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，指挥官，你没有忘记敦刻尔克叫我们去吃点心吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 808010,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "走吧走吧，先去吃晚饭，然后吃点心~",
+			say = "Oh, right! Remember how we talked about going to Dunkerque's place for some tasty sweets?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +288,22 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "果然和指挥官在一起每天都很开心呢♪",
+			say = "I say first we get some dinner, then we head straight to Dunkerque's place for dessert~!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 808010,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "... Y'know, I enjoy every day spent with you, Commander♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "确实，是很开心的每一天。",
+			say = "And I enjoy every day spent with you, Surcouf.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

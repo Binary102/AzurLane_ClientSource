@@ -144,7 +144,7 @@ function slot0.saveVideo(slot0)
 	print("=====>>>>> save video")
 
 	Everyplay.FileReady = Everyplay.FileReady - slot0.saveVideo
-	slot1 = os.server_date("*t", pg.TimeMgr.GetInstance():GetServerTime())
+	slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 	slot2 = "azur" .. slot1.year .. slot1.month .. slot1.day .. slot1.hour .. slot1.min .. slot1.sec .. ".mp4"
 
 	pg.MsgboxMgr:GetInstance():ShowMsgBox({
@@ -291,6 +291,7 @@ function slot0.didEnter(slot0)
 	end)
 	cameraPaintViewAdjust(true)
 	slot0:updateCameraCanvas()
+	slot0:updateShowType()
 end
 
 function slot0.willExit(slot0)
@@ -389,13 +390,14 @@ end
 function slot0.updateShowType(slot0)
 	setActive(slot0.paintBtn, false)
 	slot0:setLive2dAnimsPanelState(false)
+	setActive(slot0.live2dBtn, false)
 	setActive(slot0.l2dCtrlPanl, false)
 	setActive(slot0.spineBtn, false)
-	print("showType", slot0.showType)
 
 	if slot0.showType == slot0.SHOW_PAINT then
 		setActive(slot0.paintBtn, true)
 	elseif slot0.showType == slot0.SHOW_LIVE2D then
+		setActive(slot0.live2dBtn, true)
 		SetActive(slot0.l2dCtrlPanl, true)
 	elseif slot0.showType == slot0.SHOW_SPINE then
 		setActive(slot0.spineBtn, true)

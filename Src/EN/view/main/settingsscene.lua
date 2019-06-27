@@ -230,6 +230,11 @@ slot2 = {
 		default = 1,
 		title = i18n("words_show_touch_effect"),
 		name = SHOW_TOUCH_EFFECT
+	},
+	{
+		default = 0,
+		title = i18n("words_bg_fit_mode"),
+		name = BG_FIT_MODE
 	}
 }
 
@@ -683,31 +688,50 @@ function slot0.updateLive2DDownloadState(slot0)
 	setActive(slot0.live2DDownloadLabelNew, slot2 == DownloadState.CheckToUpdate)
 end
 
+slot4 = nil
+
+function slot5()
+	return pg.SecondaryPWDMgr.GetInstance() or {
+		[slot0.UNLOCK_SHIP] = {
+			title = i18n("words_settings_unlock_ship")
+		},
+		[slot0.RESOLVE_EQUIPMENT] = {
+			title = i18n("words_settings_resolve_equip")
+		},
+		[slot0.UNLOCK_COMMANDER] = {
+			title = i18n("words_settings_unlock_commander")
+		},
+		[slot0.CREATE_INHERIT] = {
+			title = i18n("words_settings_create_inherit")
+		}
+	}
+end
+
 function slot0.initOtherPanel(slot0)
-	slot0.otherTab = slot0:findTF("other", slot0.leftPanel)
-	slot0.redeem = slot0:findTF("main/other/redeem")
+	if PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
+		setActive(slot0.otherToggle:Find("tip"), true)
+	end
+
+	slot0.otherContent = slot0:findTF("main/other/scroll_view/Viewport/content")
+	slot0.redeem = slot0:findTF("redeem", slot0.otherContent)
 	slot1 = true
 
-	setActive(slot0:findTF("main/other/account"), false)
+	setActive(slot0:findTF("account", slot0.otherContent), false)
 
 	if PLATFORM_CODE == PLATFORM_CH then
-		setActive(slot0.otherTab, PLATFORM ~= PLATFORM_IPHONEPLAYER)
-
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
 			slot1 = false
 		end
 	elseif PLATFORM_CODE == PLATFORM_JP then
-		slot0.accountJP = slot0:findTF("main/other/account")
+		slot0.accountJP = slot0:findTF("account", slot0.otherContent)
 
-		setActive(slot0.otherTab, true)
 		setActive(slot0.accountJP, true)
 		slot0:initTransCodePanel(slot0.accountJP)
 
 		slot1 = false
 	elseif PLATFORM_CODE == PLATFORM_US then
-		slot0.accountUS = slot0:findTF("main/other/account_us")
+		slot0.accountUS = slot0:findTF("account_us", slot0.otherContent)
 
-		setActive(slot0.otherTab, true)
 		setActive(slot0.accountUS, true)
 		slot0:initUSAccountPanel(slot0.accountUS)
 
@@ -734,15 +758,137 @@ function slot0.initOtherPanel(slot0)
 	else
 		setActive(slot0.redeem, false)
 	end
+
+	onButton(slot0, slot2, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("secondary_password_help")
+		})
+	end)
+
+	slot3 = slot0:findTF("secondpwd", slot0.otherContent)
+	slot6 = pg.SecondaryPWDMgr.GetInstance()
+	slot8 = getProxy(SecondaryPWDProxy).getRawData(slot7)
+
+	onButton(slot0, slot4, function ()
+		if slot0.state > 0 then
+			slot1:ChangeSetting({}, function ()
+				slot0:updateOtherPanel()
+			end)
+		end
+	end, SFX_UI_TAG)
+	onButton(slot0, slot5, function ()
+		if slot0.state <= 0 then
+			function slot0()
+				slot0:SetPassword(function ()
+					slot0:updateOtherPanel()
+				end)
+			end
+
+			if PlayerPrefs.GetFloat("firstOpenSecondaryPassword") == 0 then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_HELP,
+					helps = i18n("secondary_password_help"),
+					onYes = slot0,
+					onClose = slot0
+				})
+				PlayerPrefs.SetFloat("firstOpenSecondaryPassword", 1)
+				PlayerPrefs.Save()
+			else
+				slot0()
+			end
+		end
+	end, SFX_UI_TAG)
+
+	slot9 = slot0:findTF("limited_operations/options", slot0.otherContent)
+	slot10 = slot0:findTF("notify_tpl")
+	slot0.secPwdOpts = {}
+
+	for slot14, slot15 in ipairs(slot0()) do
+		if table.contains(slot6.LIMITED_OPERATION, slot14) then
+			slot16 = cloneTplTo(slot10, slot9)
+			slot0.secPwdOpts[slot14] = slot16
+
+			setText(slot0:findTF("Text", slot16), slot15.title)
+			onButton(slot0, slot16, function ()
+				slot1 = nil
+
+				if not table.contains(slot0.system_list, ) then
+					Clone(slot0.system_list)[#Clone(slot0.system_list) + 1] = slot1
+
+					table.sort(Clone(slot0.system_list), function (slot0, slot1)
+						return slot0 < slot1
+					end)
+				elseif slot0 then
+					for slot5 = #Clone(slot0.system_list), 1, -1 do
+						if slot1[slot5] == slot1 then
+							table.remove(slot1, slot5)
+						end
+					end
+				end
+
+				slot2:ChangeSetting(slot1, function ()
+					slot0:updateOtherPanel()
+				end)
+			end, SFX_UI_TAG)
+		end
+	end
+
+	slot0:updateOtherPanel()
+end
+
+function slot0.updateOtherPanel(slot0)
+	slot1 = slot0:findTF("secondpwd", slot0.otherContent)
+	slot2 = slot1:Find("options/close")
+	slot3 = slot1:Find("options/open")
+	slot4 = pg.SecondaryPWDMgr.GetInstance()
+
+	setActive(slot2:Find("on"), not (getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0))
+	setActive(slot2:Find("off"), getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0)
+	setActive(slot3:Find("on"), getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0)
+	setActive(slot3:Find("off"), not (getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0))
+
+	for slot11, slot12 in pairs(slot0.secPwdOpts) do
+		slot13 = table.contains(slot6.system_list, slot11)
+		slot12:GetComponent(typeof(Button)).interactable = slot7
+
+		setActive(slot12:Find("on/on_on"), slot13)
+		setActive(slot12:Find("off/off_off"), slot13)
+		setActive(slot12:Find("on/on_off"), not slot13)
+		setActive(slot12:Find("off/off_on"), not slot13)
+	end
 end
 
 function slot0.clearExchangeCode(slot0)
 	slot0.codeInput:GetComponent(typeof(InputField)).text = ""
 end
 
+slot6 = true
+
+function slot0.onAddToggleEvent(slot0, slot1, slot2, slot3, slot4, slot5)
+	pg.DelegateInfo.Add(slot1, slot7)
+	GetComponent(slot2, typeof(Toggle)).onValueChanged.AddListener(slot7, function (slot0)
+		if slot0 then
+			if slot0 and slot1 and slot2.isOn == slot0 then
+				slot1 = SFX_UI_TAG
+
+				playSoundEffect(playSoundEffect)
+			elseif not slot0 and slot3 then
+				playSoundEffect(slot3)
+			end
+		end
+
+		slot4(slot0)
+	end)
+
+	if not IsNil(GetComponent(slot2, typeof(UIToggleEvent))) then
+		slot8:Rebind()
+	end
+end
+
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backButton, function ()
-		slot0:emit(slot1.ON_BACK, nil, 0.3)
+		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.logoutButton, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -755,6 +901,20 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.helpUS, function ()
 		OpenYostarHelp()
 	end)
+	slot0:onAddToggleEvent(slot0, slot0.otherToggle, function (slot0)
+		if slot0 and PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
+			setActive(slot1, false)
+
+			slot2 = slot0:findTF("main/other/scroll_view/Viewport/content")
+
+			setAnchoredPosition(slot2, {
+				x = slot2.anchoredPosition.x,
+				y = -slot0:findTF("secondpwd", slot2).anchoredPosition.y
+			})
+			PlayerPrefs.SetFloat("firstIntoOtherPanel", 1)
+			PlayerPrefs.Save()
+		end
+	end)
 	triggerToggle(slot0.soundToggle, true)
 
 	slot0._cvTest = slot0:findTF("cvTest")
@@ -763,8 +923,10 @@ function slot0.didEnter(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
 		onButton(slot0, slot0.getCodeBtn, function ()
 			if slot0.transcode == "" then
-				AiriSdkMgr.inst:TranscodeRequest()
-				pg.UIMgr.GetInstance():LoadingOn()
+				pg.SecondaryPWDMgr:LimitedOperation(pg.SecondaryPWDMgr.CREATE_INHERIT, nil, function ()
+					AiriSdkMgr.inst:TranscodeRequest()
+					pg.UIMgr.GetInstance():LoadingOn()
+				end)
 			end
 		end)
 		onButton(slot0, slot0.twitterBtn, function ()
@@ -1039,7 +1201,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	slot0:emit(slot0.ON_BACK, nil, 0.3)
+	slot0:emit(slot0.ON_BACK)
 
 	if BUTTON_SOUND_EFFECT then
 		playSoundEffect(SFX_CANCEL)

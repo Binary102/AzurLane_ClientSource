@@ -272,7 +272,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 22,
 		nation = 1,
 		ships = {
-			10514
+			10514,
+			10519
 		}
 	},
 	[10601] = {
@@ -1284,6 +1285,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 113,
 		nation = 4,
 		ships = {
+			40118,
 			40119,
 			40120,
 			40121
@@ -1489,6 +1491,39 @@ pg.fleet_tech_ship_class = {
 			70201
 		}
 	},
+	[80101] = {
+		shiptype = 1,
+		name = "Le Fantasque-class",
+		t_level = 8,
+		id = 80101,
+		t_level_1 = 131,
+		nation = 8,
+		ships = {
+			80101
+		}
+	},
+	[80103] = {
+		shiptype = 1,
+		name = "L'Adroit-Class",
+		t_level = 4,
+		id = 80103,
+		t_level_1 = 133,
+		nation = 8,
+		ships = {
+			80102
+		}
+	},
+	[80201] = {
+		shiptype = 2,
+		name = "Émile Bertin-Class",
+		t_level = 4,
+		id = 80201,
+		t_level_1 = 134,
+		nation = 8,
+		ships = {
+			80201
+		}
+	},
 	[80301] = {
 		shiptype = 3,
 		name = "Saint Louis-Class",
@@ -1498,6 +1533,50 @@ pg.fleet_tech_ship_class = {
 		nation = 8,
 		ships = {
 			89901
+		}
+	},
+	[80801] = {
+		shiptype = 8,
+		name = "Surcouf-Class",
+		t_level = 7,
+		id = 80801,
+		t_level_1 = 136,
+		nation = 8,
+		ships = {
+			80801
+		}
+	},
+	[90103] = {
+		shiptype = 1,
+		name = "L'Adroit-Class",
+		t_level = 4,
+		id = 90103,
+		t_level_1 = 137,
+		nation = 9,
+		ships = {
+			90101
+		}
+	},
+	[90401] = {
+		shiptype = 4,
+		name = "Dunkerque-Class",
+		t_level = 5,
+		id = 90401,
+		t_level_1 = 138,
+		nation = 9,
+		ships = {
+			90401
+		}
+	},
+	[90501] = {
+		shiptype = 5,
+		name = "Richelieu-Class",
+		t_level = 7,
+		id = 90501,
+		t_level_1 = 139,
+		nation = 9,
+		ships = {
+			90501
 		}
 	},
 	all = {
@@ -1624,7 +1703,14 @@ pg.fleet_tech_ship_class = {
 		50201,
 		50202,
 		70201,
-		80301
+		80101,
+		80103,
+		80201,
+		80301,
+		80801,
+		90103,
+		90401,
+		90501
 	}
 }
 

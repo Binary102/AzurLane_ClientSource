@@ -11,24 +11,28 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>在我们数千年的光鲜文明背后，战争一直作为影子伴随着每一次时代的变迁</size>",
+					"<size=51>Every Light Must Cast a Shadow</size>",
 					2.5
 				},
 				{
-					"<size=51>从黑斯廷斯到百年战争…</size>",
+					"<size=51>In the thousands of years in which our civilization has blossomed and wilted, within the light of every Golden Age has lurked the shadow of war.</size>",
 					5
 				},
 				{
-					"<size=51>从特拉法尔加到滑铁卢…</size>",
+					"<size=51>From Hastings, to Trafalgar, to Waterloo...</size>",
 					7.5
 				},
 				{
-					"<size=51>战争的形式一直在变，从最早的石器刀枪，到现在的大舰巨炮…</size> ",
+					"<size=51>From the most primitive stone knife to the thunderous roar of a ship's cannons...</size>",
 					10
 				},
 				{
-					"<size=51>每一次理想的碰撞，总会伴随着巨大的牺牲与恐慌</size>",
+					"<size=51>One cannot spark the flames of lofty ideals...</size>",
 					12.5
+				},
+				{
+					"<size=51>without also casting the shadow of fear and sacrifice across the lands.</size>",
+					15
 				}
 			}
 		},
@@ -53,27 +57,27 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>然而，有影必有光</size>",
+					"<size=51>But it is only from within the shadows that the light of hope can be clearly seen.</size>",
 					0.5
 				},
 				{
-					"<size=51>正是在这样的阴影之中，我们才能得以看清那最闪耀的星光…</size>",
+					"<size=51>That is why those who sacrifice everything for freedom are forever engraved in the annals of history.</size>",
 					3
 				},
 				{
-					"<size=51>那些带领人民争取自由，在黑暗中前行的…熟悉的名字，他们正是人类文明的瑰宝</size>",
+					"<size=51>That is the foundation of our glory, and of our faith.</size>",
 					5.5
 				},
 				{
-					"<size=51>他们是属于我的荣耀，属于我的信仰</size>",
+					"<size=51>That is my will, and the banner that I fly as I press forward.</size>",
 					8
 				},
 				{
-					"<size=51>而我，将铭刻这份信仰战斗到最后一刻</size>",
+					"<size=51>And thus, I lay down my life...</size>",
 					10.5
 				},
 				{
-					"<size=51>在名为自由的光芒之下。</size>",
+					"<size=51>In the name of the light of liberty.</size>",
 					13
 				}
 			}
@@ -99,13 +103,13 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>——「光与影的鸢尾之华」</size>",
+					"<size=63>\"Iris of Light and Dark\"</size>",
 					0.5
 				}
 			}
 		},
 		{
-			say = "“Méditerranée”，这里是世界上最大的陆间海，气候冬雨夏干，在世界各类气候中独树一帜",
+			say = "\"Méditerranée.\" the world's largest land-bound sea, boasts a particular climate not frequently found elsewhere in the world - a scorching, dry summer and a warm, rainy winter.",
 			side = 2,
 			dir = 1,
 			bgm = "level03",
@@ -117,7 +121,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "这里也是人类古代文明的发源地之一，环海区域围绕着大大小小十数个文明古国",
+			say = "It is also the cradle for some of humanity's most ancient civilizations. Today, over twenty countries share its borders.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +130,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "千百年间，无数的文明在此诞生，在此更迭，在此消亡",
+			say = "Throughout its thousands of years of human history, countless civilizations have risen and fallen here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +139,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "而今，又一次的风暴正在悄然而至",
+			say = "And now, a storm once again brews...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +148,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "平静的海面上，由三艘战列舰、一艘航母和十数艘护卫舰艇组成的大型编队正缓缓航行着…",
+			say = "On the calm sea, three battleships and an aircraft carrier can be seen, accompanied by over a dozen escorts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +158,7 @@ return {
 			actor = 202130,
 			side = 2,
 			dir = 1,
-			say = "报告，当前海况良好，舰队正在接近目标港口",
+			say = "Reporting! All calm on the sea today. Our fleet is rapidly approaching Mers-el-Kébir.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +172,7 @@ return {
 			actor = 207020,
 			side = 2,
 			dir = 1,
-			say = "终于到了这一刻吗…就算是千百年来的宿敌，但至少也是近几十年来的盟友啊，司令部居然会下达这种命令…",
+			say = "So it's come to this... even if they used to be our mortal enemies for generations, we've fought on the same side for a while now. I didn't think we'd get an order like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +185,7 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			say = "司令部自然有自己的想法，在她们的国土被铁血攻占之刻起，她们就已经不再是曾经并肩作战的盟友了",
+			say = "I'm sure Headquarters has their reasons. Once a country has been taken over by the Iron Blood, they can no longer be considered our allies.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -200,7 +204,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "虽然很可惜，但是…",
+			say = "That's a pity... but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +218,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "维希教廷——现在正坐拥世界第四大海军，成为了皇家舰队最大的海上威胁",
+			say = "The Vichya Dominion now commands the fourth largest navy in the world. They've become the greatest immediate threat to the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +232,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "如果不想重蹈她们的覆辙，就必须在她们成为铁血的傀儡，登陆皇家三岛之前拔除她们的獠牙！",
+			say = "In order to not repeat the mistakes of the Iris Orthodoxy, we must strip them of their fangs before the Iron Blood turns them upon our homeland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +246,7 @@ return {
 			actor = 207020,
 			side = 0,
 			dir = 1,
-			say = "…",
+			say = "Hood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +260,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "不要那么消极，想得轻松一点，我们的任务并不是要击沉她们~只是给她们一个重新选择拯救国土的机会",
+			say = "You don't need to have such a grave expression. We're not going to sink them, you know? Let's just say, we'll be giving them a chance to elect a new government.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +274,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "谁都不想再发生一次特拉法加尔海战不是吗？",
+			say = "Nobody wants a repeat of what happened a hundred years ago at Trafalgar, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +287,7 @@ return {
 		{
 			actor = 202130,
 			side = 0,
-			say = "报告，前发海域发现塞壬单位的信号，判断为执行者系列新型机",
+			say = "I've detected Siren signals! I believe they belong to the new Executor-class!",
 			dir = 1,
 			soundeffect = "event:/ui/alarm",
 			typewriter = {
@@ -299,7 +303,7 @@ return {
 			actor = 204030,
 			side = 1,
 			dir = 1,
-			say = "H舰队听令！全员一级作战戒备，目标——十二点钟方向，塞壬舰队！",
+			say = "All members of the H Fleet, attention! Be on alert, and prepare for battle! Siren fleet detected at 12 o'clock!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

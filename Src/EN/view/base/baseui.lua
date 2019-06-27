@@ -240,7 +240,11 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.closeView(slot0)
-	slot0:emit(BaseUI.ON_CLOSE)
+	if slot0.contextData.isLayer then
+		slot0:emit(slot0.ON_CLOSE)
+	else
+		slot0:emit(slot0.ON_BACK)
+	end
 end
 
 function slot0.willExit(slot0)

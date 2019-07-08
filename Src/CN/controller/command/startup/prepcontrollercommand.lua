@@ -80,7 +80,6 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.GET_SEASON_INFO, GetSeasonInfoCommand)
 	slot0.facade:registerCommand(GAME.REPLACE_RIVALS, ReplaceRivalsCommand)
 	slot0.facade:registerCommand(GAME.REFRESH_MILITARY_SHOP, RefreshMilitaryShopCommand)
-	slot0.facade:registerCommand(GAME.REFRESH_BILLBOARD, RefreshBillboardCommand)
 	slot0.facade:registerCommand(GAME.UPDATE_EXERCISE_FLEET, UpdateExerciseFleetCommand)
 	slot0.facade:registerCommand(GAME.EXERCISE_COUNT_RECOVER_UP, ExerciseCountRecoverUpCommand)
 	slot0.facade:registerCommand(GAME.GET_MILITARY_SHOP, GetMilitaryShopCommand)

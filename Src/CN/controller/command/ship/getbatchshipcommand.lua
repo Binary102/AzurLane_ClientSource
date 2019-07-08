@@ -33,10 +33,6 @@ class("GetBatchShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		end
 	end
 
-	if #slot13 > 0 then
-		slot0:sendNotification(GAME.START_BATCH_GET_SHIP)
-	end
-
 	seriesAsync(slot13, function ()
 		if slot0:getFinishCount() ~= table.getCount(table.getCount) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("backyard_backyardShipInfoLayer_error_noQuickItem"))

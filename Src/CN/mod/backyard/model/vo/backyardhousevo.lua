@@ -876,10 +876,9 @@ end
 
 function slot0.getCountByIndex(slot0, slot1)
 	slot2 = 0
-	slot3 = Furniture.INDEX_TO_TYPES[slot1]
 
-	for slot7, slot8 in pairs(slot0.furnitures) do
-		if table.contains(slot3, slot8:getConfig("type")) then
+	for slot6, slot7 in pairs(slot0.furnitures) do
+		if slot1 == slot7:getConfig("tag") then
 			slot2 = slot2 + 1
 		end
 	end
@@ -895,12 +894,8 @@ function slot0.getCountByIndex(slot0, slot1)
 	return slot2
 end
 
-function slot0.getIndexByType(slot0)
-	for slot4, slot5 in ipairs(Furniture.INDEX_TO_TYPES) do
-		if table.contains(slot5, slot0) then
-			return slot4
-		end
-	end
+function slot0.getIndexByType(slot0, slot1)
+	return slot1:getConfig("tag")
 end
 
 function slot0.canPutFurniture(slot0, slot1)
@@ -908,7 +903,7 @@ function slot0.canPutFurniture(slot0, slot1)
 		return true
 	end
 
-	return slot0:getCountByIndex(slot3) < pg.dorm_data_template[slot0.level].limit[slot0.getIndexByType(slot2)]
+	return slot0:getCountByIndex(slot3) < pg.dorm_data_template[slot0.level].limit[slot0:getIndexByType(slot1)]
 end
 
 function slot0.getSameConfigIdFurnitrues(slot0, slot1)

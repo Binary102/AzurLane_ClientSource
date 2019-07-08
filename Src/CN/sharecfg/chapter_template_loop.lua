@@ -28672,13 +28672,6 @@ pg.chapter_template_loop = {
 				8
 			},
 			{
-				2,
-				8,
-				"1x1_2faxihuodong_normal",
-				0,
-				0
-			},
-			{
 				1,
 				4,
 				"4x4_2faxihuodong_normal",

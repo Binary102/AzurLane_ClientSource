@@ -589,11 +589,11 @@ function slot0.updateAllChat(slot0, slot1)
 	end
 
 	seriesAsync(slot3, function ()
-		onNextTick(function ()
+		Timer.New(function ()
 			if not IsNil(slot0.chatContent) then
 				scrollToBottom(slot0.chatContent.parent)
 			end
-		end)
+		end, 0.5, 1):Start()
 	end)
 end
 
@@ -611,6 +611,8 @@ function slot0.append(slot0, slot1, slot2, slot3)
 			scrollToBottom(slot0.chatContent.parent)
 		end
 	end
+
+	return
 end
 
 function slot0.appendWorld(slot0, slot1, slot2)
@@ -632,6 +634,8 @@ function slot0.appendWorld(slot0, slot1, slot2)
 	slot3.isSelf = slot4.id == slot0.playerVO.id
 
 	slot7:update(slot3)
+
+	return
 end
 
 function slot0.updateAllLog(slot0, slot1)
@@ -640,6 +644,8 @@ function slot0.updateAllLog(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:appendLog(slot6)
 	end
+
+	return
 end
 
 function slot0.appendLog(slot0, slot1, slot2)
@@ -668,6 +674,8 @@ function slot0.appendLog(slot0, slot1, slot2)
 
 		slot5.text = slot7
 	end
+
+	return
 end
 
 function slot0.unblurView(slot0)
@@ -691,6 +699,8 @@ function slot0.willExit(slot0)
 
 	setParent(slot0.blurPanel, slot0._tf)
 	slot0:unblurView()
+
+	return
 end
 
 return slot0

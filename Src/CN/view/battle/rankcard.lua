@@ -50,9 +50,9 @@ end
 function slot0.update(slot0, slot1)
 	slot0.rankVO = slot1
 	slot0.nameTF.text = slot1.name
-	slot0.numberTF.text = slot1:getRank()
+	slot0.numberTF.text = slot1.rank
 	slot3 = math.min
-	slot4 = (slot1.getRank() > 0 and slot2) or 4
+	slot4 = (slot1.rank > 0 and slot2) or 4
 	slot0.levelTxt.text = "Lv." .. slot1.lv
 
 	setActive(slot0.NumImgTF, math.min(setActive, 4) < 4)
@@ -107,7 +107,7 @@ function slot0.update(slot0, slot1)
 		setImageSprite(slot0.scoreIconTF, GetSpriteFromAtlas(slot5[1], slot5[2]), true)
 	end
 
-	LoadImageSpriteAsync("emblem/" .. slot6, slot0.emblemTF)
+	LoadImageSpriteAsync("emblem/" .. slot1.arenaRank, slot0.emblemTF)
 
 	if not go(slot0.emblemTF).activeSelf then
 		setActive(slot0.emblemTF, true)

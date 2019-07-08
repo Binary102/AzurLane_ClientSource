@@ -124,11 +124,7 @@ function slot0.maxRankScore()
 end
 
 function slot0.getEmblem(slot0, slot1)
-	if math.max(slot0:getMilitaryRank(slot1).id, 1) > 14 then
-		slot2 = 14
-	end
-
-	return slot2
+	return math.min(math.max(slot0:getMilitaryRank(slot1).id, 1), 14)
 end
 
 function slot0.getMainShipIds(slot0)

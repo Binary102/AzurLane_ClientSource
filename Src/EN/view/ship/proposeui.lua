@@ -824,7 +824,7 @@ function slot2(slot0)
 							slot16 = slot0
 							slot16 = slot16.shipVO
 							slot16 = slot16.proposeTime
-							slot17 = "%mm%dd%YY"
+							slot17 = "%m/%d/%Y"
 							slot18 = true
 
 							slot10(slot11, slot12(slot13, slot14(slot15, slot16, slot17, slot18)))
@@ -1539,7 +1539,7 @@ function slot2(slot0)
 					slot6 = slot6.STimeDescS
 					slot8 = slot0.shipVO
 					slot8 = slot8.proposeTime
-					slot9 = "%mm%dd%YY"
+					slot9 = "%m/%d/%Y"
 					slot10 = true
 
 					slot2(slot3, slot4(slot5, slot6(slot7, slot8, slot9, slot10)))
@@ -2123,7 +2123,7 @@ function slot2(slot0)
 			slot2 = slot2()
 			slot3 = slot2
 			slot2 = slot2.CurrentSTimeDesc
-			slot4 = "%Y%m%d"
+			slot4 = "%m/%d/%Y"
 			slot5 = true
 			slot2 = slot2(slot3, slot4, slot5)
 			slot3 = SPECIAL_PROPOSE

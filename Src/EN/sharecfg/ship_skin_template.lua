@@ -4322,6 +4322,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101319] = {
+		ship_group = 10131,
+		name = "Nicholas (Retrofit)",
+		bg = "",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "nigulasi_g",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 2,
+		id = 101319,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nigulasi_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "Commander, what month is it...? I think I overslept a bit... am I taller than I was before? *Yawn*... Gotta be because I slept the whole time... ",
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = 26,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.82,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.82,
+					0.64,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.23,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101360] = {
 		ship_group = 10136,
 		name = "Hobby ",
@@ -54275,6 +54374,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[801022] = {
+		ship_group = 80102,
+		name = "École de Chevalier",
+		bg = "103",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "fuerban_3",
+		air_bullet_skin = "",
+		hand_id = 13,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 801022,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "fuerban_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70201,
+		desc = "Even though I'm an Iris Libre squire, I'm currently working hard to have a rich student life. Um... maybe this is a bit too laid back?",
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.93,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.964,
+					0.981,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.14,
+					0.042,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					1.009,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[801029] = {
 		ship_group = 80102,
 		name = "Forbin (Retrofit) ",
@@ -55035,6 +55242,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[901012] = {
+		ship_group = 90101,
+		name = "Écolière Heureuse",
+		bg = "103",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "lemaer_3",
+		air_bullet_skin = "",
+		hand_id = 16,
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 901012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lemaer_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70200,
+		desc = "Hey! Over here! Hehe. I didn't expect to run into you at school, Commander. What are you doing here?",
+		voice_actor = 124,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.182,
+					0.747,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.138,
+					0.793,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.124,
+					0.037,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.11,
+					0.769,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[901019] = {
 		ship_group = 90101,
 		name = "Le Mars (Retrofit) ",
@@ -55369,6 +55684,114 @@ pg.ship_skin_template = {
 		},
 		l2d_voice_calibrate = {
 			propose = 2.5
+		}
+	},
+	[904012] = {
+		ship_group = 90401,
+		name = "Afternoon Venus",
+		bg = "116",
+		illustrator2 = -1,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "dunkeerke_3",
+		air_bullet_skin = "",
+		hand_id = 1,
+		shop_type_id = 9,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bullet_skin_main = "",
+		skin_type = 0,
+		id = 904012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dunkeerke_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70199,
+		desc = "Don't you simply adore the atmosphere in this place? It's one of my favorites. The desserts here are to die for. Would you like a taste?",
+		voice_actor = 127,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.94,
+					1.04,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.92,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.95,
+					1.16,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
 		}
 	},
 	[905010] = {
@@ -63463,7 +63886,7 @@ pg.ship_skin_template = {
 	},
 	[299021] = {
 		ship_group = 29902,
-		name = "素罗华威",
+		name = "White Warrick",
 		bg = "107",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
@@ -63484,7 +63907,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70071,
-		desc = "哼，服饰不过是衬托，真正的高贵应当来源于自身。你不这么认为吗，指挥官？",
+		desc = "Hmph. One's outfit is merely superficial. True nobility must come from within. Don't you agree, Commander?",
 		voice_actor = 104,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -63564,11 +63987,11 @@ pg.ship_skin_template = {
 	},
 	[299022] = {
 		ship_group = 29902,
-		name = "赭红爵祿",
+		name = "Black Gerard ",
 		bg = "102",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
-		no_showing = "1",
+		no_showing = "0",
 		painting = "junzhu_3",
 		air_bullet_skin = "",
 		hand_id = 1,
@@ -63585,7 +64008,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70151,
-		desc = "这次是东方的服饰吗…哼，对我来我，无论什么样的服装都一样，不过既然是特意为我准备的衣服，若是不表达几分感谢与欣喜，岂不是太不解风情了。感谢",
+		desc = "So, an Eastern outfit this time... Hmph. My nobility is evident regardless of what I wear. However, since you prepared this outfit especially for me, it would be unbecoming of me to not express my gratitude. Thank you. ",
 		voice_actor = 104,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -63764,11 +64187,11 @@ pg.ship_skin_template = {
 	},
 	[399011] = {
 		ship_group = 39901,
-		name = "永梦的青女",
+		name = "Winter Sylph's Reverie",
 		bg = "101",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
-		no_showing = "1",
+		no_showing = "0",
 		painting = "yichui_2",
 		air_bullet_skin = "",
 		hand_id = 2,
@@ -63784,7 +64207,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70131,
-		desc = "主上，下雪了呢……不介意的话，请来{namecode:152}的伞下躲一躲吧",
+		desc = "Milord, it's starting to snow... If it suits you, please take shelter under Ibuki's umbrella.",
 		voice_actor = 107,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -63999,11 +64422,11 @@ pg.ship_skin_template = {
 	},
 	[399021] = {
 		ship_group = 39902,
-		name = "出云千本樱",
+		name = "Izumo's Thousand Cherry Trees",
 		bg = "101",
 		illustrator2 = -1,
 		bullet_skin_secondary = "",
-		no_showing = "1",
+		no_showing = "0",
 		painting = "chuyun_2",
 		air_bullet_skin = "",
 		hand_id = 2,
@@ -64020,7 +64443,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70132,
-		desc = "想要看我的歌舞？品味倒是不错…指挥官，那就为我准备一个最好的舞台吧",
+		desc = "You'd like to see my classical dance? Your tastes are quite refined, Commander... In that case, I'll show you the finest performance in the land!",
 		voice_actor = 108,
 		air_bomb_skin = "",
 		illustrator = 1,
@@ -64542,6 +64965,7 @@ pg.ship_skin_template = {
 		101310,
 		101311,
 		101312,
+		101319,
 		101360,
 		101361,
 		101370,
@@ -65004,6 +65428,7 @@ pg.ship_skin_template = {
 		801010,
 		801020,
 		801021,
+		801022,
 		801029,
 		802010,
 		802011,
@@ -65011,9 +65436,11 @@ pg.ship_skin_template = {
 		808010,
 		901010,
 		901011,
+		901012,
 		901019,
 		904010,
 		904011,
+		904012,
 		905010,
 		900001,
 		900002,

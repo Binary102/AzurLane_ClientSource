@@ -172,7 +172,7 @@ function slot0.setShip(slot0, slot1)
 		slot4, slot5 = Ship.getWords(slot0._shipVO.skinId, "unlock")
 	end
 
-	setWidgetText(slot0._dialogue, slot4, "desc/Text")
+	setWidgetTextEN(slot0._dialogue, slot4, "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 

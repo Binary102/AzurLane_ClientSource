@@ -10429,6 +10429,104 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70131] = {
+		group_type = 0,
+		resource_num = 1180,
+		desc = "购买皮肤：伊吹浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9841,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70131,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			399011
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70132] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：出云浴衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9842,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70132,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			399021
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70133] = {
 		group_type = 0,
 		resource_num = 880,
@@ -11105,6 +11203,55 @@ pg.shop_template = {
 				{
 					2019,
 					2,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70151] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：君主旗袍",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9843,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70151,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			299022
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
 					17
 				},
 				{
@@ -12633,6 +12780,153 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70199] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：敦刻尔克常服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9844,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70199,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			904012
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70200] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：马萨诸塞皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9845,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70200,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			901012
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70201] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：福尔班jk",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 9846,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70201,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			801022
+		},
+		time = {
+			{
+				{
+					2019,
+					7,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					7,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -13605,6 +13899,8 @@ pg.shop_template = {
 		70128,
 		70129,
 		70130,
+		70131,
+		70132,
 		70133,
 		70134,
 		70135,
@@ -13619,6 +13915,7 @@ pg.shop_template = {
 		70147,
 		70148,
 		70149,
+		70151,
 		70152,
 		70153,
 		70154,
@@ -13651,6 +13948,9 @@ pg.shop_template = {
 		70190,
 		70191,
 		70192,
+		70199,
+		70200,
+		70201,
 		90001,
 		90002,
 		90003,

@@ -144,7 +144,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.GET_SHIP_DONE,
 		GAME.SKIP_SHIP_DONE,
 		GAME.SKIP_BATCH_DONE,
-		GAME.START_BATCH_GET_SHIP,
 		BuildShipProxy.ADDED,
 		BuildShipProxy.REMOVED,
 		ActivityProxy.ACTIVITY_ADDED
@@ -175,27 +174,15 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.SKIP_SHIP_DONE then
 		slot0.viewComponent:updateQueueTip(getProxy(BuildShipProxy).getFinishCount(slot4))
 	elseif slot2 == GAME.SKIP_BATCH_DONE then
-		if #slot3 == 0 then
-			slot0:unblockEvents()
-			slot0:buildFinishComeback()
+		if #slot3 > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3
+			}, AwardInfoLayer.TITLE.SHIP, function ()
+				slot0:buildFinishComeback()
+			end)
 		else
-			slot0:addSubLayers(Context.New({
-				mediator = AwardInfoMediator,
-				viewComponent = AwardInfoLayer,
-				data = {
-					awards = {
-						items = slot3
-					},
-					title = AwardInfoLayer.TITLE.SHIP,
-					removeFunc = function ()
-						slot0:unblockEvents()
-						slot0.unblockEvents:buildFinishComeback()
-					end
-				}
-			}))
+			slot0:buildFinishComeback()
 		end
-	elseif slot2 == GAME.START_BATCH_GET_SHIP then
-		slot0:blockEvents()
 	elseif slot2 == GAME.BUILD_SHIP_DONE then
 		triggerToggle(slot0.viewComponent.toggles[BuildShipScene.PAGE_QUEUE], true)
 	elseif slot2 == GAME.EXCHANGE_SHIP_DONE then

@@ -1937,6 +1937,87 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[147] = {
+		can_rotate = 0,
+		name = "Clevedad's Wave Breaker ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		picture = "",
+		is_get_time_note = 1,
+		count = 1,
+		advice = 0,
+		effect = "",
+		dorm_icon_price = 500,
+		not_for_sale = 1,
+		icon = "meiguojinianriicon",
+		deblocking = 1,
+		level = 1,
+		rarity = 3,
+		belong = 1,
+		canputon = 0,
+		discount = 0,
+		id = 147,
+		comfortable = 3,
+		describe = "If modified with enough balloons, it may access the power to surprise enemies from high.",
+		dorm_id = 0,
+		gem_price = 0,
+		themeId = 0,
+		spine_extra = "",
+		time = "always",
+		spine_action_replace = "",
+		new = 0,
+		discount_time = "",
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"meiguojinianriB",
+				"normal"
+			},
+			{
+				"meiguojinianriT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"meiguojinianriCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[100006] = {
 		can_rotate = 0,
 		name = "闪亮的舞台秀",
@@ -57136,6 +57217,7 @@ pg.furniture_data_template = {
 		141,
 		143,
 		145,
+		147,
 		100006,
 		1001,
 		1002,

@@ -14343,8 +14343,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 96,
+		best_air_dominance = 124,
 		id = 1140001,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14419,7 +14419,7 @@ pg.chapter_template_loop = {
 			4000008
 		},
 		ai_expedition_list = {
-			4000244
+			4000222
 		},
 		patrolai_expedition_list = {
 			1
@@ -14749,11 +14749,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongeasy",
 			45,
@@ -14790,8 +14786,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 132,
+		best_air_dominance = 172,
 		id = 1140003,
 		group_num = 2,
 		enter_story_limit = "",
@@ -14866,8 +14862,8 @@ pg.chapter_template_loop = {
 			4000108
 		},
 		ai_expedition_list = {
-			4000245,
-			4000246
+			4000233,
+			4000234
 		},
 		patrolai_expedition_list = {
 			1
@@ -15301,11 +15297,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongeasy",
 			45,
@@ -15343,8 +15335,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 172,
+		best_air_dominance = 224,
 		id = 1140004,
 		group_num = 2,
 		enter_story_limit = "",
@@ -15419,9 +15411,9 @@ pg.chapter_template_loop = {
 			4000208
 		},
 		ai_expedition_list = {
-			4000247,
-			4000248,
-			4000249
+			4000244,
+			4000245,
+			4000246
 		},
 		patrolai_expedition_list = {
 			1
@@ -15964,11 +15956,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongeasy",
 			42,
@@ -16008,8 +15996,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 212,
+		best_air_dominance = 276,
 		id = 1140005,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16084,8 +16072,8 @@ pg.chapter_template_loop = {
 			4000308
 		},
 		ai_expedition_list = {
-			4000545,
-			4000546
+			4000523,
+			4000524
 		},
 		patrolai_expedition_list = {
 			1
@@ -16426,11 +16414,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			45,
@@ -16467,8 +16451,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 276,
+		best_air_dominance = 360,
 		id = 1140007,
 		group_num = 2,
 		enter_story_limit = "",
@@ -16543,9 +16527,9 @@ pg.chapter_template_loop = {
 			4000408
 		},
 		ai_expedition_list = {
-			4000547,
-			4000548,
-			4000549
+			4000534,
+			4000535,
+			4000536
 		},
 		patrolai_expedition_list = {
 			1
@@ -16990,11 +16974,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			45,
@@ -17032,8 +17012,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 340,
+		best_air_dominance = 444,
 		id = 1140008,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17108,10 +17088,10 @@ pg.chapter_template_loop = {
 			4000508
 		},
 		ai_expedition_list = {
-			4000550,
-			4000551,
-			4000552,
-			4000553
+			4000545,
+			4000546,
+			4000547,
+			4000548
 		},
 		patrolai_expedition_list = {
 			1
@@ -17670,13 +17650,6 @@ pg.chapter_template_loop = {
 				8
 			},
 			{
-				2,
-				8,
-				"1x1_2faxihuodong_normal",
-				0,
-				0
-			},
-			{
 				1,
 				4,
 				"4x4_2faxihuodong_normal",
@@ -17685,11 +17658,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			38,
@@ -17726,8 +17695,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 340,
+		best_air_dominance = 440,
 		id = 1140011,
 		group_num = 2,
 		enter_story_limit = "",
@@ -17843,7 +17812,7 @@ pg.chapter_template_loop = {
 			4000608
 		},
 		ai_expedition_list = {
-			4000844
+			4000822
 		},
 		patrolai_expedition_list = {
 			1
@@ -18173,11 +18142,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			45,
@@ -18214,8 +18179,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 388,
+		best_air_dominance = 504,
 		id = 1140013,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18331,8 +18296,8 @@ pg.chapter_template_loop = {
 			4000708
 		},
 		ai_expedition_list = {
-			4000845,
-			4000846
+			4000833,
+			4000834
 		},
 		patrolai_expedition_list = {
 			1
@@ -18766,11 +18731,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			45,
@@ -18808,8 +18769,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 436,
+		best_air_dominance = 568,
 		id = 1140014,
 		group_num = 2,
 		enter_story_limit = "",
@@ -18925,9 +18886,9 @@ pg.chapter_template_loop = {
 			4000808
 		},
 		ai_expedition_list = {
-			4000847,
-			4000848,
-			4000849
+			4000844,
+			4000845,
+			4000846
 		},
 		patrolai_expedition_list = {
 			1
@@ -19470,11 +19431,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodongnormal",
 			42,
@@ -19514,8 +19471,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 520,
+		best_air_dominance = 676,
 		id = 1140015,
 		group_num = 2,
 		enter_story_limit = "",
@@ -19631,8 +19588,8 @@ pg.chapter_template_loop = {
 			4000908
 		},
 		ai_expedition_list = {
-			4001145,
-			4001146
+			4001123,
+			4001124
 		},
 		patrolai_expedition_list = {
 			1
@@ -19975,11 +19932,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodonghard",
 			45,
@@ -20016,8 +19969,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 616,
+		best_air_dominance = 800,
 		id = 1140017,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20133,9 +20086,9 @@ pg.chapter_template_loop = {
 			4001008
 		},
 		ai_expedition_list = {
-			4001147,
-			4001148,
-			4001149
+			4001134,
+			4001135,
+			4001136
 		},
 		patrolai_expedition_list = {
 			1
@@ -20582,11 +20535,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodonghard",
 			45,
@@ -20624,8 +20573,8 @@ pg.chapter_template_loop = {
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 724,
+		best_air_dominance = 940,
 		id = 1140018,
 		group_num = 2,
 		enter_story_limit = "",
@@ -20741,10 +20690,10 @@ pg.chapter_template_loop = {
 			4001108
 		},
 		ai_expedition_list = {
-			4001150,
-			4001151,
-			4001152,
-			4001153
+			4001145,
+			4001146,
+			4001147,
+			4001148
 		},
 		patrolai_expedition_list = {
 			1
@@ -21313,11 +21262,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		ambush_event_ratio = {},
-		ambush_ratio_extra = {
-			{
-				-20000
-			}
-		},
+		ambush_ratio_extra = {},
 		theme = {
 			"sea_faxihuodonghard",
 			38,

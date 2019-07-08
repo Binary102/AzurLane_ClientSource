@@ -16593,7 +16593,7 @@ pg.skill_data_template = {
 	[11480] = {
 		desc_get = "",
 		name = "Battle of Kula Gulf ",
-		desc = "Every 20s: $1 chance to increase this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a ship in your Vanguard falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also restores",
+		desc = "Every 20s: $1 chance to increase this ship's FP, TRP, and RLD by $2 for 10s. Once per battle, when the HP of a ship in your Vanguard falls below 20.0%: decreases the DMG they take by $3 for the rest of the battle. If the recipient is Helena: also restores her HP by 8.0%.",
 		type = 2,
 		max_level = 10,
 		id = 11480,
@@ -21582,7 +21582,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18100] = {
-		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF5</color>s (<color=#92fc63FF15</color>s when fully upgraded.)",
+		desc_get = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for <color=#92fc63FF>5</color>s (<color=#92fc63FF>15</color>s when fully upgraded.)",
 		name = "Well-Rounded Armor+",
 		desc = "After the battle begins and every 30s after that: deploys 4 rotating shields that can each block up to 8 hits. Shields last for $1s.",
 		type = 2,
@@ -21635,7 +21635,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "Increases this ship's Speed by <color=#92fc63FF3</color> (<color=#92fc63FF8</color> when fully upgraded.) At the start of the battle: increases this ship's EVA by <color=#92fc63FF15.0%</color> (<color=#92fc63FF35.0%</color> when fully upgraded) for 50s.",
+		desc_get = "Increases this ship's Speed by <color=#92fc63FF>3</color> (<color=#92fc63FF>8</color> when fully upgraded.) At the start of the battle: increases this ship's EVA by <color=#92fc63FF>15.0%</color> (<color=#92fc63FF>35.0%</color> when fully upgraded) for 50s.",
 		name = "Engine Boost+",
 		desc = "Increases this ship's Speed by $1. At the start of the battle: increases this ship's EVA by $2 for 50s.",
 		type = 2,

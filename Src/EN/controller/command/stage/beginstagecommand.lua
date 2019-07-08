@@ -116,16 +116,15 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				return
 			end
 
-			slot18 = slot6:getFleetById(slot2.supportFleetId)
-			slot19 = {}
-			slot20 = slot2.stageId
-			slot21 = {}
-			slot22, slot23 = nil
-			slot24 = getProxy(MilitaryExerciseProxy)
-			slot25 = slot7:getData()
+			slot18 = {}
+			slot19 = slot2.stageId
+			slot20 = {}
+			slot21, slot22 = nil
+			slot23 = getProxy(MilitaryExerciseProxy)
+			slot24 = slot7:getData()
 
 			if slot3 == SYSTEM_DUEL then
-				if not slot24:getSeasonInfo():canExercise() then
+				if not slot23:getSeasonInfo():canExercise() then
 					pg.TipsMgr:GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
 					return
@@ -133,37 +132,37 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 				rivalVO = getProxy(MilitaryExerciseProxy):getRivalById(slot2.rivalId)
 			elseif slot3 == SYSTEM_SHAM then
-				slot27 = getProxy(ChapterProxy).getShamChapter(slot26)
-				rivalVO = slot27:getChapterCell(slot27.fleet.line.row, slot27.fleet.line.column).rival
-				slot20 = rivalVO.id
+				slot26 = getProxy(ChapterProxy).getShamChapter(slot25)
+				rivalVO = slot26:getChapterCell(slot26.fleet.line.row, slot26.fleet.line.column).rival
+				slot19 = rivalVO.id
 			elseif slot3 == SYSTEM_GUILD then
 			elseif slot3 == SYSTEM_CHALLENGE then
-				slot28 = getProxy(ChallengeProxy).getUserChallengeInfo(slot27, slot26)
-				slot20 = slot28:getNextStageID()
-				slot19 = {
-					slot28:getLevel(),
+				slot27 = getProxy(ChallengeProxy).getUserChallengeInfo(slot26, slot25)
+				slot19 = slot27:getNextStageID()
+				slot18 = {
+					slot27:getLevel(),
 					slot2.mode
 				}
 			else
-				slot21 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot20].dungeon_id).fleet_prefab
+				slot20 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot19].dungeon_id).fleet_prefab
 			end
 
 			if rivalVO then
-				slot26 = 0
+				slot25 = 0
 
-				for slot30, slot31 in ipairs(rivalVO.mainShips) do
-					slot26 = slot26 + slot31.level
+				for slot29, slot30 in ipairs(rivalVO.mainShips) do
+					slot25 = slot25 + slot30.level
 				end
 
-				for slot30, slot31 in ipairs(rivalVO.vanguardShips) do
-					slot26 = slot26 + slot31.level
+				for slot29, slot30 in ipairs(rivalVO.vanguardShips) do
+					slot25 = slot25 + slot30.level
 				end
 
-				RivalLevelVertiry = slot26
+				RivalLevelVertiry = slot25
 			end
 
-			for slot30, slot31 in pairs(slot26) do
-				if not slot31:attrVertify() then
+			for slot29, slot30 in pairs(slot25) do
+				if not slot30:attrVertify() then
 					BattleVertify.playerShipVertifyFail = true
 
 					break
@@ -171,10 +170,10 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			end
 
 			pg.ConnectionMgr.GetInstance():Send(40001, {
-				data = slot20,
+				data = slot19,
 				system = slot3,
 				ship_id_list = slot11,
-				data2 = slot19
+				data2 = slot18
 			}, 40002, function (slot0)
 				if slot0.result == 0 then
 					slot1 = {}
@@ -234,6 +233,8 @@ class("BeginStageCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 						drops = slot1,
 						mode = slot14:getBody().mode
 					})
+				elseif slot0.result == 19 then
+					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[19])
 				elseif slot0.result == 10 then
 					pg.TipsMgr:GetInstance():ShowTips(ERROR_MESSAGE[10])
 				else

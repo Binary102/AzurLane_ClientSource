@@ -705,7 +705,7 @@ pg.ship_data_group = {
 	[301] = {
 		nationality = 1,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 101319,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 301,
@@ -713,8 +713,17 @@ pg.ship_data_group = {
 		index_id = 20,
 		group_type = 10131,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			11480
+		},
 		description = {
 			{
 				"Explore Stage9-3",
@@ -5461,13 +5470,9 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Special Ship Construction",
+				"Event: Glorious Final Battle",
 				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
+					""
 				},
 				0
 			}

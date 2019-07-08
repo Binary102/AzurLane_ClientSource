@@ -220,7 +220,7 @@ ERROR_MESSAGE = {
 	nil,
 	nil,
 	nil,
-	nil,
+	"无效的重复操作",
 	"Data Does Not Exist",
 	"Player Does Not Exist",
 	"Shipgirl Does Not Exist",
